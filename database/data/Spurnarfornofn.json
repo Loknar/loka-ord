@@ -1,0 +1,39 @@
+{
+	"hver": {
+		"eintala": {
+            "karlkyn": ["hver", "hvern", "hverjum", "hvers"],
+            "kvenkyn": ["hver", "hverja", "hverri", "hverrar"],
+            "hvorugkyn": ["hvert", "hvert", "hverju", "hvers"],
+            "hvorugkyn-alt": [["hvað"], ["hvað"], null, null]
+        },
+        "fleirtala": {
+            "karlkyn": ["hverjir", "hverja", "hverjum", "hverra"],
+            "kvenkyn": ["hverjar", "hverjar", "hverjum", "hverra"],
+            "hvorugkyn": ["hver", "hver", "hverjum", "hverra"]
+        }
+	},
+	"hvor": {
+		"eintala": {
+            "karlkyn": ["hvor", "hvorn", "hvorum", "hvors"],
+            "kvenkyn": ["hvor", "hvora", "hvorri", "hvorrar"],
+            "hvorugkyn": ["hvort", "hvort", "hvoru", "hvors"]
+        },
+        "fleirtala": {
+            "karlkyn": ["hvorir", "hvora", "hvorum", "hvorra"],
+            "kvenkyn": ["hvorar", "hvorar", "hvorum", "hvorra"],
+            "hvorugkyn": ["hvor", "hvor", "hvorum", "hvorra"]
+        }
+	},
+	"hvílíkur": {
+		"eintala": {
+            "karlkyn": ["hvílíkur", "hvílíkan", "hvílíkum", "hvílíks"],
+            "kvenkyn": ["hvílík", "hvílíka", "hvílíkri", "hvílíkrar"],
+            "hvorugkyn": ["hvílíkt", "hvílíkt", "hvílíku", "hvílíks"]
+        },
+        "fleirtala": {
+            "karlkyn": ["hvílíkir", "hvílíka", "hvílíkum", "hvílíkra"],
+            "kvenkyn": ["hvílíkar", "hvílíkar", "hvílíkum", "hvílíkra"],
+            "hvorugkyn": ["hvílík", "hvílík", "hvílíkum", "hvílíkra"]
+        }
+	}
+}
