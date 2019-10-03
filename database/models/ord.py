@@ -27,15 +27,23 @@ class Ordflokkar(enum.Enum):
 
 
 class Ordasamsetningar(enum.Enum):
+    # https://is.wikipedia.org/wiki/Samsett_or%C3%B0
     Stofnsamsetning = 0
     Eignarfallssamsetning = 1
     Bandstafssamsetning = 2
 
 
 class Kyn(enum.Enum):
-    Karlkyn = 0
-    Kvenkyn = 1
+    Kvenkyn = 0
+    Karlkyn = 1
     Hvorugkyn = 2
+
+
+class Fall(enum.Enum):
+    Nefnifall = 0
+    Tholfall = 1
+    Thagufall = 2
+    Eignarfall = 3
 
 
 class Fornafnaflokkar(enum.Enum):
@@ -167,6 +175,7 @@ class Radtala(Base):  # Töluorð - Raðtala
 
 
 class Fallbeyging(Base):
+    __tablename__ = 'Fallbeyging'
     Fallbeyging_id = utils.integer_primary_key()
     Nefnifall = utils.word_column()
     Tholfall = utils.word_column()
@@ -194,5 +203,70 @@ class Fornafn(Base):
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Typa = utils.selection(Fornafnaflokkar, Fornafnaflokkar.Personufornafn)
     Data = utils.json_object()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class Sagnord(Base):
+    Sagnord_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    # tilgreina hvort sögn er sterk eða veik?
+    # https://is.wikipedia.org/wiki/Sagnmyndir#Germynd
+    # germynd (áherslan er á geranda setningarinnar)
+    Germynd_Nafnhattur = utils.word_column()  # (dæmi: að ganga)
+    # sagnbót, lýsingarháttur stendur alltaf í hvorugkyni eintölu
+    Germynd_Sagnbot = utils.word_column()  # (dæmi: ég hef gengið)
+    # https://is.wikipedia.org/wiki/Bo%C3%B0h%C3%A1ttur#St%C3%BDf%C3%B0ur_bo%C3%B0h%C3%A1ttur
+    Germynd_Bodhattur_styfdur = utils.word_column()  # Stýfður boðháttur (dæmi: gakk (þú))
+    Germynd_Bodhattur_eintala = utils.word_column()  # (dæmi: gakktu)
+    Germynd_Bodhattur_fleirtala = utils.word_column()  # (dæmi: gangið)
+    # framsöguháttur (ég/þú/[hann/hún/það], dæmi: ég geng)
+    fk_Germynd_personuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    # viðtengingarháttur (þó ég/þú/[hann/hún/það], dæmi: þó ég gangi)
+    fk_Germynd_personuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    # ópersónuleg germynd
+    fk_Germynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    fk_Germynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    # https://is.wikipedia.org/wiki/Mi%C3%B0mynd
+    # miðmynd (segir frá því hvað gerandi/gerendur gerir/gera við eða fyrir sjálfan/sjálfa sig)
+    Midmynd_Nafnhattur = utils.word_column()  # (dæmi: að gangast)
+    Midmynd_Sagnbot = utils.word_column()  # (dæmi: ég hef gengist)
+    Midmynd_Bodhattur_eintala = utils.word_column()  # (dæmi: gangstu)
+    Midmynd_Bodhattur_fleirtala = utils.word_column()  # (dæmi: gangist)
+    # framsöguháttur (ég/þú/[hann/hún/það], dæmi: ég gengst)
+    fk_Midmynd_personuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    # viðtengingarháttur (þó ég/þú/[hann/hún/það], dæmi: þó ég gangist)
+    fk_Midmynd_personuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    # ópersónuleg miðmynd
+    fk_Midmynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    fk_Midmynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
+    LysingarhatturNutidar = utils.word_column()  # (dæmi: gangandi)
+    # lýsingarháttur þátíðar (þolmyndir)
+    fk_LysingarhatturThatidar_SterkBeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_LysingarhatturThatidar_VeikBeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class Sagnbeyging(Base):
+    # persónu-, tölu- og tíðarbeyging (ég/þú/[hann/hún/það], eintala/fleirtala, nútíð/þátíð)
+    __tablename__ = 'Sagnbeyging'
+    Sagnbeyging_id = utils.integer_primary_key()
+    # nútíð, eintala
+    FyrstaPersona_eintala_nutid = utils.word_column()
+    OnnurPersona_eintala_nutid = utils.word_column()
+    ThridjaPersona_eintala_nutid = utils.word_column()
+    # nútíð, fleirtala
+    FyrstaPersona_fleirtala_nutid = utils.word_column()
+    OnnurPersona_fleirtala_nutid = utils.word_column()
+    ThridjaPersona_fleirtala_nutid = utils.word_column()
+    # þátíð, eintala
+    FyrstaPersona_eintala_thatid = utils.word_column()
+    OnnurPersona_eintala_thatid = utils.word_column()
+    ThridjaPersona_eintala_thatid = utils.word_column()
+    # þátíð, fleirtala
+    FyrstaPersona_fleirtala_thatid = utils.word_column()
+    OnnurPersona_fleirtala_thatid = utils.word_column()
+    ThridjaPersona_fleirtala_thatid = utils.word_column()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
