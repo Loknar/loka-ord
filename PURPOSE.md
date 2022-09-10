@@ -25,7 +25,7 @@ Eitt orð, skilmálar! Eftirfarandi skilmálar voru settir á notkun BÍN gagnag
 
 * [bin.arnastofnun.is - "Skilmálar" (2013-10-01, lesið 2019-09-21)](http://bin.arnastofnun.is/gogn/skilmalar/)
 
-Ofangreindir skilmálar virðast að auki ekki vera tæmandi eða nægilega vel lýst, sjá eftirfarandi dæmi.
+Ofangreindir skilmálar virðast að auki ekki vera tæmandi, eða þeim ekki nægilega vel lýst, sjá eftirfarandi dæmi.
 
 > Forritarinn David Blurton varði hundrað klukkustundum í að smíða heimasíðuna tala.is. Markmið síðunnar var að auðvelda honum og öðrum útlendingum að læra íslensku. Á vefsíðunni notaði hann gagnagrunn um beygingardæmi sem birt eru á síðu Stofnunar Árna Magnússonar.
 >
@@ -121,20 +121,20 @@ Ofangreind Guðrún Nordal var á þessum tíma að íhuga forsetaframboð, en h
 >
 > hins vegar Tala.is fyrir framúrstefnulega nálgun á uppflettingu á íslenskum orðum og beygingum, sem myndi, með leyfi Árnastofnunar, hjálpa við að efla íslenska tungu. David Blurton á heiðurinn að þessu framtaki.
 
-* [Vísir.is - "Vefur Sin­fóníu­hljóm­sveitarinnar valinn vefur ársins" (2016-01-29)](https://www.visir.is/g/2017170128789)
+* [Vísir.is - "Vefur Sinfóníuhljómsveitarinnar valinn vefur ársins" (2016-01-29)](https://www.visir.is/g/2017170128789)
 
-Þrátt fyrir fögur orð Guðrúnar Nordal forstöðumanns Árnastofnunar um að leysa þetta mál urðu efndir litlar sem engar. Skapari vefsins tala.is var tilneyddur að taka vef sinn niður varanlega. Þegar þetta er skrifað (2019-09-21) [gegnir Guðrún enn stöðu forstöðumanns Árnastofnunar](https://arnastofnun.is/is/stofnunin/starfsfolk/gudrun-nordal), og skilmálar hafa ekki farið í gegnum neina endurskoðun. Þar með kemur tvennt til greina, að Guðrún geri sér ekki grein fyrir þunga liðar 4 í skilmálum eða að hún hafi einfaldlega ekki umboð til að aflétta þeim.
+Þrátt fyrir fögur orð Guðrúnar Nordal forstöðumanns Árnastofnunar um að leysa þetta mál urðu efndir litlar eða engar. Skapari vefsins tala.is var tilneyddur að taka vef sinn niður varanlega. Þegar þetta er skrifað (2019-09-21) [gegnir Guðrún enn stöðu forstöðumanns Árnastofnunar](https://arnastofnun.is/is/stofnunin/starfsfolk/gudrun-nordal), og skilmálar hafa ekki farið í gegnum neina endurskoðun. Þar með kemur tvennt til greina, að Guðrún geri sér ekki grein fyrir þunga liðar 4 í skilmálum eða að hún hafi einfaldlega ekki umboð til að aflétta þeim.
 
 **Ha? Er mögulegt að sjálfur forstöðumaður Árnastofnunar geti ekki breytt skilmálum fyrir gögn BÍN?**
 
-Hugsanlega ekki einhliða, gefið hefur verið í skyn að Árnastofnun eigi ekki höfundarrétt að öllum gögnum í BÍN orðagrunninum en hafi hinsvegar afnotarétt. Undir yfirborðinu sé þetta í grunninn höfundarréttarmál þar sem Árnastofnun haldi hlífiskyldi yfir handhöfum höfundarrétta einhverra hluta gagna í orðagrunni BÍN. [heimild vantar]
+Hugsanlega ekki einhliða, gefið hefur verið í skyn að Árnastofnun eigi ekki höfundarrétt að öllum gögnum í BÍN orðagrunninum en hafi hinsvegar afnotarétt. Undir yfirborðinu sé þetta í grunninn höfundarréttarmál þar sem Árnastofnun verndi handhafa höfundarrétta einhverra hluta gagna í orðagrunni BÍN. [heimild vantar]
 
 > Guðrún Nordal segir hinsvegar, í grein í Fréttablaðinu, að stofnunin geti ekki stuðlað að villandi framsetningu á gögnum og að birting beygingardæma væri mállýsing en ekki forskrift.
 
 * [Fréttatíminn, issuu.com - "Gjaldtaka, boð og bönn munu kála íslenskri tungu" (2016-03-18)](https://issuu.com/frettatiminn/docs/18_03_2016_lr/2)
 
-**Mín persónulega skoðun:** Það er til háborinnar skammar að BÍN orðagrunnurinn sé undir þessum íþyngjandi skilmálum, sérstaklega í ljósi þess að smíði hans var að hluta fjármagnaður með "tungutækniátaks"-styrk frá Menntamálaráðuneytinu og styrk úr Tækniþróunarsjóði. Þessir íþyngjandi skilmálar drepa allan hvata til að nota BÍN orðagrunninn í sjálfstæðum nýsköpunarverkefnum og í raun má segja að með skilmálunum haldi Árnastofnun á ákveðinn hátt íslenskri tungu í gíslíngu, sitji á henni líkt og eldspúandi dreki á gulli. Svo lengi sem BÍN skilmálarnir standa og ekki er til staðar annar heildstæður orðbeygingagrunnur hefur Árnastofnun einskonar einkaleyfi á birtingu beygingarmynda íslenskra orða.
+**Mín persónulega skoðun:** Það er til háborinnar skammar að BÍN orðagrunnurinn sé undir þessum íþyngjandi skilmálum, sérstaklega í ljósi þess að smíði hans var að miklu leiti fjármagnaður með "tungutækniátaks"-styrk frá Menntamálaráðuneytinu og styrk úr Tækniþróunarsjóði. Þessir íþyngjandi skilmálar drepa allan hvata til að nota BÍN orðagrunninn í sjálfstæðum nýsköpunarverkefnum og í raun má segja að með skilmálunum haldi Árnastofnun á ákveðinn hátt íslenskri tungu í gíslíngu, sitji á henni líkt og eldspúandi dreki á gulli. Svo lengi sem BÍN skilmálarnir standa og ekki er til staðar annar heildstæður orðbeygingagrunnur hefur Árnastofnun einskonar einkaleyfi á birtingu beygingarmynda íslenskra orða.
 
 Vert er að taka fram að sjálf tilvera BÍN grunnsins dregur eflaust einnig úr hvata til að smíða samskonar orðagrunn undir frjálsari skilmálum, það er að segja þar til maður áttar sig á stöðunni sem hér hefur verið lýst.
 
-Þess vegna legg ég til að við tökum höndum saman og smíðum **Loka-Orð**, frjálsan íslenskan orðagrunn undir GnuGPLv3 skilmálum, án þess að nota eða styðjast við BÍN orðagrunninn á nokkurn hátt.
+Legg ég að endingu til að við tökum höndum saman og smíðum **Loka-Orð**, frjálsan íslenskan orðagrunn undir almenningseignar skilmálum, án þess þá að nota eða styðjast við BÍN orðagrunninn á neinn hátt.

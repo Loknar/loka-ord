@@ -1,10 +1,8 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/python
 import os
 
 from sqlalchemy import create_engine
-from sqlalchemy.orm import scoped_session, sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base, scoped_session, sessionmaker
 
 import logman
 
@@ -53,6 +51,5 @@ def init_db():
     # Import all modules here that define models so that they are registered on the metadata.
     # Or import them first before calling init_db()
     #
-    #                            / silencing flake8 "imported but unused" for models
-    from database import models  # noqa
+    from database import models
     Base.metadata.create_all(bind=Engine)

@@ -1,8 +1,5 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/python
 import enum
-
-# from sqlalchemy import Boolean, Column, Enum, ForeignKey, Integer, Unicode, UnicodeText
 
 from database.db import Base
 from database.models import utils
@@ -13,7 +10,7 @@ class Ordflokkar(enum.Enum):
     Nafnord = 0
     Lysingarord = 1
     Greinir = 2  # fyrir hinn lausa greini, en viðskeyttur greinir geymdur í tvíriti í Fallbeyging
-    Frumtala = 3  # + Töluorð, hafa undirflokkana Frumtölur og Raðtölur
+    Frumtala = 3  # - Töluorð, hafa undirflokkana Frumtölur og Raðtölur
     Radtala = 4   # /
     Fornafn = 5
     # sagnorð
@@ -27,10 +24,9 @@ class Ordflokkar(enum.Enum):
 
 
 class Ordasamsetningar(enum.Enum):
-    # https://is.wikipedia.org/wiki/Samsett_or%C3%B0
-    Stofnsamsetning = 0
-    Eignarfallssamsetning = 1
-    Bandstafssamsetning = 2
+    Stofnsamsetning = 0  # dæmi: eldhús
+    Eignarfallssamsetning = 1  # dæmi: eldavél (ef ft af eldur er elda)
+    Bandstafssamsetning = 2  # dæmi: eldiviður, fiskifluga (tengistafir: i, a, u, s ..)
 
 
 class Kyn(enum.Enum):
@@ -48,8 +44,8 @@ class Fall(enum.Enum):
 
 class Fornafnaflokkar(enum.Enum):
     Personufornafn = 0
-    Eignarfornafn = 1
-    AfturbeygtFornafn = 2  # (orðið sig)
+    AfturbeygtFornafn = 1  # (orðið sig)
+    Eignarfornafn = 2
     Abendingarfornafn = 3
     Spurnarfornafn = 4
     Tilvisunarfornafn = 5
@@ -72,6 +68,7 @@ class Ord(Base):
 
 
 class SamsettOrd(Base):
+    __tablename__ = 'SamsettOrd'
     SamsettOrd_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Forhluti = utils.word_column()
@@ -82,6 +79,7 @@ class SamsettOrd(Base):
 
 
 class Nafnord(Base):
+    __tablename__ = 'Nafnord'
     Nafnord_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     fk_et_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
@@ -94,6 +92,7 @@ class Nafnord(Base):
 
 
 class Lysingarord(Base):
+    __tablename__ = 'Lysingarord'
     Lysingarord_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     # Frumstig, sterk beyging
@@ -137,6 +136,7 @@ class Lysingarord(Base):
 
 
 class Greinir(Base):  # laus greinir (hinn)
+    __tablename__ = 'Greinir'
     Greinir_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     # eintala
@@ -152,6 +152,7 @@ class Greinir(Base):  # laus greinir (hinn)
 
 
 class Frumtala(Base):  # Töluorð - Frumtala
+    __tablename__ = 'Frumtala'
     Frumtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Gildi = utils.integer_default_zero()
@@ -160,6 +161,7 @@ class Frumtala(Base):  # Töluorð - Frumtala
 
 
 class Radtala(Base):  # Töluorð - Raðtala
+    __tablename__ = 'Radtala'
     Radtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     # raðtölur hafa einungis eina (veika) beygingu, nema "fyrstur" sem hefur sterka og veika
@@ -186,11 +188,12 @@ class Fallbeyging(Base):
 
 
 class Undantekning(Base):
-    # Íslenska hefur urmul undantekninga sem falla illa inn í strangar gagnagrunnsskilgreiningar,
-    # til dæmis hafa sum orð fleiri en eina rétt beygingarmynd, sum orð tilheyra orðflokkum sem
-    # venjulega hafa enga beygingarmynd, frumtölururnar einn, tveir, þrír og fjórir fallbeygjast,
-    # sem og aðrar frumtölur sem enda á þeim, eins og tuttuguogeinn, en aðrar frumtölur
-    # fallbeygjast ekki, svo fátt eitt sé nefnt.
+    # Íslenska hefur helling undantekninga sem falla illa inn í strangar gagnagrunnsskilgreiningar,
+    # til dæmis hafa sum orð fleiri en eina "rétta" beygingarmynd, sum orð tilheyra orðflokkum sem
+    # oftast hafa enga beygingarmynd, dæmi um þetta, frumtölururnar einn, tveir, þrír og fjórir
+    # fallbeygjast, sem og aðrar frumtölur sem enda á þeim, eins og tuttugu-og-einn, en aðrar
+    # frumtölur fallbeygjast ekki, svo fátt eitt sé nefnt.
+    __tablename__ = 'Undantekning'
     Undantekning_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Data = utils.json_object()
@@ -199,6 +202,7 @@ class Undantekning(Base):
 
 
 class Fornafn(Base):
+    __tablename__ = 'Fornafn'
     Fornafn_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Typa = utils.selection(Fornafnaflokkar, Fornafnaflokkar.Personufornafn)
@@ -208,6 +212,7 @@ class Fornafn(Base):
 
 
 class Sagnord(Base):
+    __tablename__ = 'Sagnord'
     Sagnord_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     # tilgreina hvort sögn er sterk eða veik?

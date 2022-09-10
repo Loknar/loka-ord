@@ -1,4 +1,3 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/python
 
-from database.models.ord import *  # noqa
+from database.models.ord import *

@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-# ----------------------------------------------------------------------------------------------- #
+#!/usr/bin/python
 import collections
 import copy
 import json
@@ -20,7 +18,7 @@ critical = None
 exception = None
 log = None
 
-# some logging configuration variables
+# logging configuration variables
 Log_Config = {
     'filename': '{name}.{role}{format}.log',
     'loglevel': logging.DEBUG,
@@ -29,7 +27,7 @@ Log_Config = {
         '[%(levelname)s] %(message)s '
         '(%(filename)s:%(lineno)d)'
     ),
-    'format_colored': (  # https://misc.flogisoft.com/bash/tip_colors_and_formatting
+    'format_colored': (
         '\033[32m[%(asctime)s.%(msecs)03d]\033[0m '
         '\033[240;1m[\033[0m%(levelname)s\033[240;1m]\033[0m %(message)s '
         '(%(filename)s:%(lineno)d)'
