@@ -3,13 +3,21 @@ import collections
 import copy
 import json
 import logging
+import platform
 import os
+import sys
 import time
+import traceback
+
+if platform.system() == 'Windows':
+    import colorama
+
+__version__ = "0.0.1"
 
 Name = 'logman'
-Logger = None  # declarative main logger
+Logger = None
 
-# log function extentions
+# logger function extention variables
 debug = None
 info = None
 warning = None
@@ -18,19 +26,18 @@ critical = None
 exception = None
 log = None
 
-# logging configuration variables
 Log_Config = {
     'filename': '{name}.{role}{format}.log',
     'loglevel': logging.DEBUG,
     'format': (
         '[%(asctime)s.%(msecs)03d] '
         '[%(levelname)s] %(message)s '
-        '(%(filename)s:%(lineno)d)'
+        '(%(name)s|%(filename)s:%(lineno)d)'
     ),
-    'format_colored': (
+    'format_colored': (  # https://misc.flogisoft.com/bash/tip_colors_and_formatting
         '\033[32m[%(asctime)s.%(msecs)03d]\033[0m '
-        '\033[240;1m[\033[0m%(levelname)s\033[240;1m]\033[0m %(message)s '
-        '(%(filename)s:%(lineno)d)'
+        '\033[97;1m[\033[0m%(levelname)s\033[97;1m]\033[0m %(message)s '
+        '\033[90m(%(name)s|%(filename)s:%(lineno)d)\033[0m'
     ),
     'json_format': ['ts', 'level', 'msg', 'pathname', 'lineno'],
     'time_format': '%Y-%m-%dT%H:%M:%S'
@@ -52,17 +59,19 @@ class JSONFormatter(logging.Formatter):
 
     def format(self, record):
         '''override ancestor class function to generate minified JSON string from log record'''
+        timestamp = '%s.%03d' % (  # isoformatted timestamp with msecs
+            time.strftime('%Y-%m-%dT%H:%M:%S', self.converter(record.created)),
+            record.msecs
+        )
         if (len(self.recordfields) > 0):
             fields = []
-            timestamp = '%s.%03d' % (  # isoformatted timestamp with msecs
-                time.strftime('%Y-%m-%dT%H:%M:%S', self.converter(record.created)),
-                record.msecs
-            )
             if 'ts' not in self.recordfields:
                 fields.append(('ts', timestamp))  # we always want the timestamp right?
             for recordfield in self.recordfields:
                 if recordfield == 'ts':
                     fields.append((recordfield, timestamp))
+                elif recordfield == 'level':
+                    fields.append((recordfield, getattr(record, 'levelname')))
                 elif hasattr(record, recordfield) and getattr(record, recordfield) is not None:
                     fields.append((recordfield, getattr(record, recordfield)))
             if 'msg' not in self.recordfields:
@@ -144,7 +153,7 @@ class ColoredFormatter(logging.Formatter):
         else:
             self.level_styles = {
                 'debug': {'color': 'lightgreen'},
-                'info': {'color': 'default'},
+                'info': {'color': 'white'},
                 'warning': {'color': 'yellow'},
                 'error': {'color': 'red'},
                 'critical': {'color': 'red', 'bold': True}
@@ -205,67 +214,104 @@ class ColoredFormatter(logging.Formatter):
         return logging.Formatter.format(self, colored_record)
 
 
-def configure_logger(name, role, config, output_dir='./', log_to_cli=False):
+def configure_logger(
+    name, role, config, output_dir='./', log_to_cli=False, colored_cli=True, log_to_file=True
+):
     logger = logging.getLogger(name)
     log_level = config['loglevel']
     logger.setLevel(log_level)
-    # setup readable log file handler
-    log_file_readable = os.path.join(
-        output_dir, config['filename'].format(name=name, role=role, format='')
-    )
-    file_handler_readable = logging.FileHandler(
-        log_file_readable, 'a', encoding='utf-8', delay='true'
-    )
-    file_handler_readable.setLevel(log_level)
-    formatter_readable = logging.Formatter(config['format'], config['time_format'])
-    file_handler_readable.setFormatter(formatter_readable)
-    logger.addHandler(file_handler_readable)
-    # setup json log file handler
-    log_file_json = os.path.join(
-        output_dir, config['filename'].format(name=name, role=role, format='.json')
-    )
-    file_handler_json = logging.FileHandler(log_file_json, 'a', encoding='utf-8', delay='true')
-    file_handler_json.setLevel(log_level)
-    formatter_json = JSONFormatter(config['json_format'])
-    file_handler_json.setFormatter(formatter_json)
-    logger.addHandler(file_handler_json)
-    if log_to_cli:  # setup streamhandler to terminal if true
+    if log_to_cli and colored_cli:
+        # setup streamhandler to terminal with colored formatter
+        if platform.system() == 'Windows':
+            # Required for ANSI/VT100 terminal color code sequences to function.
+            # On Windows, calling colorama.init() will filter ANSI escape sequences out of any text
+            # sent to stdout or stderr, and replace them with equivalent Win32 calls.
+            colorama.init()
         streamhandler = logging.StreamHandler()
         formatter_console = ColoredFormatter(config['format_colored'], config['time_format'])
         streamhandler.setFormatter(formatter_console)
         logger.addHandler(streamhandler)
+    elif log_to_cli:
+        # setup streamhandler to terminal
+        streamhandler = logging.StreamHandler()
+        formatter_console = logging.Formatter(config['format'], config['time_format'])
+        streamhandler.setFormatter(formatter_console)
+        logger.addHandler(streamhandler)
+    if log_to_file:
+        if not os.path.exists(output_dir):
+            # create log output directory
+            logger.info('Creating directory "%s" ..' % (os.path.abspath(output_dir), ))
+            os.makedirs(output_dir)
+        # setup readable log file handler
+        log_file_readable = os.path.join(
+            output_dir, config['filename'].format(name=name, role=role, format='')
+        )
+        file_handler_readable = logging.FileHandler(
+            log_file_readable, 'a', encoding='utf-8', delay=True
+        )
+        file_handler_readable.setLevel(log_level)
+        formatter_readable = logging.Formatter(config['format'], config['time_format'])
+        file_handler_readable.setFormatter(formatter_readable)
+        logger.addHandler(file_handler_readable)
+        # setup minified-single-line-json log file handler
+        log_file_json = os.path.join(
+            output_dir, config['filename'].format(name=name, role=role, format='.json')
+        )
+        file_handler_json = logging.FileHandler(
+            log_file_json, 'a', encoding='utf-8', delay=True
+        )
+        file_handler_json.setLevel(log_level)
+        formatter_json = JSONFormatter(config['json_format'])
+        file_handler_json.setFormatter(formatter_json)
+        logger.addHandler(file_handler_json)
     return logger
 
 
-def init(role, output_dir='./logs/', log_to_cli=True):
-    global Name, Logger, Log_Config
-    global debug, info, warning, error, critical, exception, log
-    assert(role in ('cli', 'api'))
+def handle_unhandled_exception(exc_type, exc_value, exc_traceback):
+    '''Handler for unhandled exceptions to log traceback'''
+    global Logger
+    if Logger is not None:
+        traceback_text = ''
+        for text in traceback.format_exception(exc_type, exc_value, exc_traceback):
+            traceback_text += text
+        Logger.critical('Unhandled exception:\n{0}'.format(traceback_text))
+    # finish by calling the default exception hook
+    sys.__excepthook__(exc_type, exc_value, exc_traceback)
 
-    out_dir_created = False
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        out_dir_created = True
+
+def extend_log_functions(logger_to_extend):
+    global debug, info, warning, error, critical, exception, log
+    debug = logger_to_extend.debug
+    info = logger_to_extend.info
+    warning = logger_to_extend.warning
+    error = logger_to_extend.error
+    critical = logger_to_extend.critical
+    exception = logger_to_extend.exception
+    log = logger_to_extend.log
+
+
+def init(name=None, role='cli', output_dir='./logs/', log_to_cli=True, log_to_file=True):
+    global Name, Logger, Log_Config
+    assert(role in ('cli', 'api', 'cron', 'hook', 'mod'))
+
+    if name is None:
+        name = Name
 
     if Logger is not None:
         Logger.warning('logger already initialized')
 
-    # first we configure logging for sqlalchemy
-    configure_logger('sqlalchemy', role, Log_Config, output_dir, False)
+    output_dir_abs = os.path.abspath(output_dir)
+    if output_dir.startswith('./'):
+        output_dir_abs = os.path.abspath(
+            os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', output_dir)
+        )
 
     # create main logger
-    Logger = configure_logger(Name, role, Log_Config, output_dir, log_to_cli)
-
-    if out_dir_created:
-        Logger.warning('output directory created')
-
+    Logger = configure_logger(name, role, Log_Config, output_dir_abs, log_to_cli, log_to_file)
     # extend log functions
-    debug = Logger.debug
-    info = Logger.info
-    warning = Logger.warning
-    error = Logger.error
-    critical = Logger.critical
-    exception = Logger.exception
-    log = Logger.log
+    extend_log_functions(Logger)
+
+    # set custom excepthook (triggered on unhandled exception)
+    sys.excepthook = handle_unhandled_exception
 
     return Logger

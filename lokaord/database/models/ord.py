@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import enum
 
-from database.db import Base
-from database.models import utils
+from lokaord.database.db import Base
+from lokaord.database.models import utils
 
 
 class Ordflokkar(enum.Enum):

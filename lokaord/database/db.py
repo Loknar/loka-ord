@@ -4,7 +4,7 @@ import os
 from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, scoped_session, sessionmaker
 
-import logman
+from lokaord import logman
 
 # SQLAlchemy - Declarative method
 # https://docs.sqlalchemy.org/en/latest/orm/extensions/declarative/basic_use.html

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Usage:
+# lokaord -h
+
+PYTHONDONTWRITEBYTECODE=1
+
+cd "$(dirname "$(realpath "$0")")/.."
+
+python main.py "$@"
