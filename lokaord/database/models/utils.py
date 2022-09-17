@@ -95,11 +95,5 @@ def integer_default_zero():
     return Column(Integer(), nullable=False, server_default='0')
 
 
-def json_object():
-    # !NOTE! `(https://docs.sqlalchemy.org/en/13/core/type_basics.html#sqlalchemy.types.JSON)`
-    # types.JSON is provided as a facade for vendor-specific JSON types. Since it supports JSON
-    # SQL operations, it only works on backends that have an actual JSON type, currently:
-    # * PostgreSQL
-    # * MySQL as of version 5.7 (MariaDB as of the 10.2 series does not)
-    # * SQLite as of version 3.9
-    return Column(JSON(), server_default=JSON.NULL)
+def json_object() -> Column:
+    return Column(types.JSON(), nullable=True)

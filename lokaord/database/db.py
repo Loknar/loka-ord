@@ -20,7 +20,7 @@ def setup_data_directory(folder_name, root_file):
     assert('/' not in folder_name)
     assert('.' not in folder_name)
     root_directory = os.path.dirname(os.path.realpath(root_file))
-    location_directory = os.path.join(root_directory, 'database/disk')
+    location_directory = os.path.join(root_directory, 'database', 'disk')
     data_directory = os.path.realpath(os.path.join(location_directory, folder_name))
     assert(data_directory.startswith(location_directory))
     if not os.path.exists(data_directory):
@@ -29,13 +29,12 @@ def setup_data_directory(folder_name, root_file):
 
 
 def create_db_uri(db_name):
-    # TODO: don't know best practices for preventing directory traversal attack, needs reviewing
     assert('/' not in db_name)
     assert('.' not in db_name)
     db_uri = ''
     use_sqlite = True
     if use_sqlite:
-        db_uri = 'sqlite:///database/disk/{db_name}/db.sqlite'.format(db_name=db_name)
+        db_uri = 'sqlite:///lokaord/database/disk/{db_name}/db.sqlite'.format(db_name=db_name)
     return db_uri
 
 
@@ -51,5 +50,5 @@ def init_db():
     # Import all modules here that define models so that they are registered on the metadata.
     # Or import them first before calling init_db()
     #
-    from database import models
+    from lokaord.database import models
     Base.metadata.create_all(bind=Engine)

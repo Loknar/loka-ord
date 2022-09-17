@@ -63,6 +63,7 @@ class Ord(Base):
     Ord = utils.word_column()
     Ordflokkur = utils.selection(Ordflokkar, Ordflokkar.Nafnord)
     Samsett = utils.boolean_default_false()
+    Undantekning = utils.boolean_default_false()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -192,7 +193,8 @@ class Undantekning(Base):
     # til dæmis hafa sum orð fleiri en eina "rétta" beygingarmynd, sum orð tilheyra orðflokkum sem
     # oftast hafa enga beygingarmynd, dæmi um þetta, frumtölururnar einn, tveir, þrír og fjórir
     # fallbeygjast, sem og aðrar frumtölur sem enda á þeim, eins og tuttugu-og-einn, en aðrar
-    # frumtölur fallbeygjast ekki, svo fátt eitt sé nefnt.
+    # frumtölur fallbeygjast ekki, svo fátt eitt sé nefnt. Sum orð tilheyra fleiri en einum
+    # orðflokki ofl.
     __tablename__ = 'Undantekning'
     Undantekning_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
@@ -206,7 +208,14 @@ class Fornafn(Base):
     Fornafn_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Typa = utils.selection(Fornafnaflokkar, Fornafnaflokkar.Personufornafn)
-    Data = utils.json_object()
+    # eintala
+    fk_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_et_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_et_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    # fleirtala
+    fk_ft_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_ft_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_ft_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -273,5 +282,23 @@ class Sagnbeyging(Base):
     FyrstaPersona_fleirtala_thatid = utils.word_column()
     OnnurPersona_fleirtala_thatid = utils.word_column()
     ThridjaPersona_fleirtala_thatid = utils.word_column()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class Karlmannsnafn(Base):
+    __tablename__ = 'Karlmannsnafn'
+    Karlmannsnafn_id = utils.integer_primary_key()
+    Nafn = utils.word_column()
+    fk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class Kvenmannsnafn(Base):
+    __tablename__ = 'Kvenmannsnafn'
+    Kvenmannsnafn_id = utils.integer_primary_key()
+    Nafn = utils.word_column()
+    fk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
