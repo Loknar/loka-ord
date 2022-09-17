@@ -180,7 +180,7 @@ class Radtala(Base):  # Töluorð - Raðtala
 class Fallbeyging(Base):
     __tablename__ = 'Fallbeyging'
     Fallbeyging_id = utils.integer_primary_key()
-    Nefnifall = utils.word_column()
+    Nefnifall = utils.word_column(nullable=True)
     Tholfall = utils.word_column()
     Thagufall = utils.word_column()
     Eignarfall = utils.word_column()

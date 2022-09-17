@@ -71,8 +71,8 @@ def timestamp_future(minutes=(60 * 24)):
     return Column(Unicode(IsoformatLength), default=ts_future)
 
 
-def word_column():
-    return Column(Unicode(MaximumWordLength), nullable=False, server_default='')
+def word_column(nullable=False):
+    return Column(Unicode(MaximumWordLength), nullable=nullable, server_default='')
 
 
 def boolean_default_false():
