@@ -23,19 +23,19 @@ class StringyDateTime(types.TypeDecorator):
 
     impl = types.Unicode(IsoformatLength)
 
-    def process_bind_param(self, input_datetime, dialect):
+    def process_bind_param(self, input_datetime, _):  # _ dialect
         output_datetime_str = None
         if input_datetime is not None:
             output_datetime_str = input_datetime.strftime(Isoformat)
         return output_datetime_str
 
-    def process_literal_param(self, input_datetime_str, dialect):
+    def process_literal_param(self, input_datetime_str, _):  # _ dialect
         output_datetime = None
         if input_datetime_str is not None:
             output_datetime = datetime.datetime.strptime(input_datetime_str, Isoformat)
         return output_datetime
 
-    def process_result_value(self, input_datetime_str, dialect):
+    def process_result_value(self, input_datetime_str, _):  # _ dialect
         try:
             return datetime.datetime.strptime(input_datetime_str, Isoformat)
         except (ValueError, TypeError):
