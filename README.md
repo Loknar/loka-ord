@@ -1,6 +1,8 @@
 # Loka-Orð
 
-Frjáls gagnagrunnur yfir íslensk orð, beygingar þeirra og fleira undir opnu almenningseignarleyfi (en. public domain licence).
+Frjálst gagnasafn yfir íslensk orð, beygingamyndir þeirra og fleira, undir opnu almenningseignarleyfi (e. public domain licence).
+
+Gagnasafnið telur 8 nafnorð (2 kk, 2 kvk, 4 hk), 2 lýsingarorð, 3 sagnorð.
 
 ## Forkröfur
 

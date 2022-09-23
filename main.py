@@ -29,6 +29,12 @@ if __name__ == '__main__':
     lokaord.ArgParser.add_argument('-wf', '--write-files', action='store_true', help=(
         'Write datafiles from database.'
     ))
+    lokaord.ArgParser.add_argument('-aw', '--add-word', action='store_true', help=(
+        'Add word CLI.'
+    ))
+    lokaord.ArgParser.add_argument('-s', '--search', metavar=('WORD', ), help=(
+        'Search for word in database.'
+    ))
     pargs = lokaord.ArgParser.parse_args()
     if len(sys.argv) == 1:
         lokaord.print_help_and_exit()
@@ -41,7 +47,7 @@ if __name__ == '__main__':
         'build_db': pargs.build_db,
         'write_files': pargs.write_files,
         'add_word': None,
-        'add_word_cli': None,
-        'search': None,
+        'add_word_cli': pargs.add_word,
+        'search': pargs.search,
     }
     lokaord.main(arguments)

@@ -1,0 +1,135 @@
+{
+	"orð": "gefa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gefa",
+		"sagnbót": "gefið",
+		"boðháttur": {
+			"stýfður": "gef",
+			"et": "gefðu",
+			"ft": "gefið"
+		},
+		"perónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gef", "gefur", "gefur"],
+					"ft": ["gefum", "gefið", "gefa"]
+				},
+				"þátíð": {
+					"et": ["gaf", "gafst", "gaf"],
+					"ft": ["gáfum", "gáfuð", "gáfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gefi", "gefir", "gefi"],
+					"ft": ["gefum", "gefið", "gefi"]
+				},
+				"þátíð": {
+					"et": ["gæfi", "gæfir", "gæfi"],
+					"ft": ["gæfum", "gæfuð", "gæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gefurðu",
+					"ft": "gefiði"
+				},
+				"þátíð": {
+					"et": "gafstu",
+					"ft": "gáfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gefirðu",
+					"ft": "gefiði"
+				},
+				"þátíð": {
+					"et": "gæfirðu",
+					"ft": "gæfuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gefast",
+		"sagnbót": "gefist",
+		"boðháttur": {
+			"et": "gefstu",
+			"ft": "gefist"
+		},
+		"perónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gefst", "gefst", "gefst"],
+					"ft": ["gefumst", "gefist", "gefast"]
+				},
+				"þátíð": {
+					"et": ["gafst", "gafst", "gafst"],
+					"ft": ["gáfumst", "gáfust", "gáfust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gefist", "gefist", "gefist"],
+					"ft": ["gefumst", "gefist", "gefist"]
+				},
+				"þátíð": {
+					"et": ["gæfi", "gæfir", "gæfi"],
+					"ft": ["gæfum", "gæfuð", "gæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gefstu"
+				},
+				"þátíð": {
+					"et": "gafstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gefistu"
+				},
+				"þátíð": {
+					"et": "gæfistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gefinn", "gefinn", "gefnum", "gefins"],
+					"kvk": ["gefin", "gefna", "gefinni", "gefinnar"],
+					"hk": ["gefið", "gefið", "gefnu", "gefins"]
+				},
+				"ft": {
+					"kk": ["gefnir", "gefna", "gefnum", "gefinna"],
+					"kvk": ["gefnar", "gefnar", "gefnum", "gefinna"],
+					"hk": ["gefin", "gefin", "gefnum", "gefinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gefni", "gefna", "gefna", "gefna"],
+					"kvk": ["gefna", "gefnu", "gefnu", "gefnu"],
+					"hk": ["gefna", "gefna", "gefna", "gefna"]
+				},
+				"ft": {
+					"kk": ["gefnu", "gefnu", "gefnu", "gefnu"],
+					"kvk": ["gefnu", "gefnu", "gefnu", "gefnu"],
+					"hk": ["gefnu", "gefnu", "gefnu", "gefnu"]
+				}
+			}
+		}
+	}
+
+}

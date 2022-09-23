@@ -1,0 +1,151 @@
+{
+	"orð": "minna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "minna",
+		"sagnbót": "minnt",
+		"boðháttur": {
+			"stýfður": "minn",
+			"et": "minntu",
+			"ft": "minnið"
+		},
+		"perónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["minni", "minnir", "minnir"],
+					"ft": ["minnum", "minnið", "minna"]
+				},
+				"þátíð": {
+					"et": ["minnti", "minntir", "minnti"],
+					"ft": ["minntum", "minntuð", "minntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["minni", "minnir", "minni"],
+					"ft": ["minnum", "minnið", "minni"]
+				},
+				"þátíð": {
+					"et": ["minnti", "minnti", "minnti"],
+					"ft": ["minntum", "minntuð", "minntu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["minnir", "minnir", "minnir"],
+					"ft": ["minnir", "minnir", "minnir"]
+				},
+				"þátíð": {
+					"et": ["minnti", "minnti", "minnti"],
+					"ft": ["minnti", "minnti", "minnti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["minni", "minni", "minni"],
+					"ft": ["minni", "minni", "minni"]
+				},
+				"þátíð": {
+					"et": ["minnti", "minnti", "minnti"],
+					"ft": ["minnti", "minnti", "minnti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "minnirðu",
+					"ft": "minniði"
+				},
+				"þátíð": {
+					"et": "minntirðu",
+					"ft": "minntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "minnirðu",
+					"ft": "minniði"
+				},
+				"þátíð": {
+					"et": "minntirðu",
+					"ft": "minntuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "minnast",
+		"sagnbót": "minnst",
+		"perónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["minnist", "minnist", "minnist"],
+					"ft": ["minnumst", "minnist", "minnast"]
+				},
+				"þátíð": {
+					"et": ["minntist", "minntist", "minntist"],
+					"ft": ["minntumst", "minntust", "minntust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gefist", "gefist", "gefist"],
+					"ft": ["gefumst", "gefist", "gefist"]
+				},
+				"þátíð": {
+					"et": ["gæfi", "gæfir", "gæfi"],
+					"ft": ["gæfum", "gæfuð", "gæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "minnistu"
+				},
+				"þátíð": {
+					"et": "minntistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "minnistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "minnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["minntur", "minntan", "minntum", "minnts"],
+					"kvk": ["minnt", "minnta", "minntri", "minntrar"],
+					"hk": ["minnt", "minnt", "minntu", "minnts"]
+				},
+				"ft": {
+					"kk": ["minntir", "minnta", "minntum", "minntra"],
+					"kvk": ["minntar", "minntar", "minntum", "minntra"],
+					"hk": ["minnt", "minnt", "minntum", "minntra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["minnti", "minnta", "minnta", "minnta"],
+					"kvk": ["minnta", "minntu", "minntu", "minntu"],
+					"hk": ["minnta", "minnta", "minnta", "minnta"]
+				},
+				"ft": {
+					"kk": ["minntu", "minntu", "minntu", "minntu"],
+					"kvk": ["minntu", "minntu", "minntu", "minntu"],
+					"hk": ["minntu", "minntu", "minntu", "minntu"]
+				}
+			}
+		}
+	}
+
+}
