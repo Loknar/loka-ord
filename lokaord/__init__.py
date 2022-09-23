@@ -1385,6 +1385,17 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
     ):
         data['miðmynd'] = collections.OrderedDict()
+        # miðmynd nafnháttur
+        if isl_sagnord.Midmynd_Nafnhattur is not None:
+            data['miðmynd']['nafnháttur'] = isl_sagnord.Midmynd_Nafnhattur
+        # miðmynd sagnbót
+        if isl_sagnord.Midmynd_Sagnbot is not None:
+            data['miðmynd']['sagnbót'] = isl_sagnord.Midmynd_Sagnbot
+        if (
+            isl_sagnord.Midmynd_Bodhattur_et is not None or
+            isl_sagnord.Midmynd_Bodhattur_ft is not None
+        ):
+            data['miðmynd']['boðháttur'] = collections.OrderedDict()
         if (
             isl_sagnord.fk_Midmynd_personuleg_framsoguhattur is not None or
             isl_sagnord.fk_Midmynd_personuleg_vidtengingarhattur is not None
@@ -1465,6 +1476,9 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         isl_sagnord.fk_LysingarhatturThatidar_vb_ft_hk_id is not None
     ):
         data['lýsingarháttur'] = collections.OrderedDict()
+        # lýsingarháttur nútíðar
+        if isl_sagnord.LysingarhatturNutidar is not None:
+            data['lýsingarháttur']['nútíðar'] = isl_sagnord.LysingarhatturNutidar
         if (
             isl_sagnord.fk_LysingarhatturThatidar_sb_et_kk_id is not None or
             isl_sagnord.fk_LysingarhatturThatidar_sb_et_kvk_id is not None or
@@ -1537,8 +1551,6 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
             isl_sagnord.fk_Germynd_personuleg_vidtengingarhattur
         )
     # germynd ópersónuleg
-    if isl_sagnord.Germynd_opersonuleg_frumlag == isl.Fall.Nefnifall:
-        data['germynd']['ópersónuleg']['frumlag'] = 'nefnifall'
     elif isl_sagnord.Germynd_opersonuleg_frumlag == isl.Fall.Tholfall:
         data['germynd']['ópersónuleg']['frumlag'] = 'þolfall'
     elif isl_sagnord.Germynd_opersonuleg_frumlag == isl.Fall.Thagufall:
@@ -1587,12 +1599,6 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         data['germynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']['ft'] = (
             isl_sagnord.Germynd_spurnarmyndir_vidtengingarhattur_thatid_ft
         )
-    # miðmynd nafnháttur
-    if isl_sagnord.Midmynd_Nafnhattur is not None:
-        data['miðmynd']['nafnháttur'] = isl_sagnord.Midmynd_Nafnhattur
-    # miðmynd sagnbót
-    if isl_sagnord.Midmynd_Sagnbot is not None:
-        data['miðmynd']['sagnbót'] = isl_sagnord.Midmynd_Sagnbot
     # miðmynd boðháttur
     if isl_sagnord.Midmynd_Bodhattur_et is not None:
         data['miðmynd']['boðháttur']['et'] = isl_sagnord.Midmynd_Bodhattur_et
@@ -1608,8 +1614,6 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
             isl_sagnord.fk_Midmynd_personuleg_vidtengingarhattur
         )
     # miðmynd ópersónuleg
-    if isl_sagnord.Midmynd_opersonuleg_frumlag == isl.Fall.Nefnifall:
-        data['miðmynd']['ópersónuleg']['frumlag'] = 'nefnifall'
     elif isl_sagnord.Midmynd_opersonuleg_frumlag == isl.Fall.Tholfall:
         data['miðmynd']['ópersónuleg']['frumlag'] = 'þolfall'
     elif isl_sagnord.Midmynd_opersonuleg_frumlag == isl.Fall.Thagufall:
@@ -1658,9 +1662,6 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']['ft'] = (
             isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft
         )
-    # lýsingarháttur nútíðar
-    if isl_sagnord.LysingarhatturNutidar is not None:
-        data['lýsingarháttur']['nútíðar'] = isl_sagnord.LysingarhatturNutidar
     # lýsingarháttur þátíðar
     if isl_sagnord.fk_LysingarhatturThatidar_sb_et_kk_id is not None:
         data['lýsingarháttur']['þátíðar']['sb']['et']['kk'] = get_fallbeyging_list_from_db(

@@ -240,7 +240,7 @@ class Sagnord(Base):
     fk_Germynd_personuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # ópersónuleg germynd (frumlag í þolfalli, þó mig/þig/[hann/hana/það], dæmi: þó mig minni, eða
     # í þágufalli, þó mér/þér/[honum/henni/því], dæmi: þó mér þyki)
-    Germynd_opersonuleg_frumlag = utils.selection(Fall, Fall.Nefnifall)
+    Germynd_opersonuleg_frumlag = utils.selection(Fall, None)
     fk_Germynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     fk_Germynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # spurnarmyndir, önnur persóna samtengd sögn (dæmi: býrð þú -> býrðu, gefur þú -> gefurðu)
@@ -263,7 +263,7 @@ class Sagnord(Base):
     # viðtengingarháttur (þó ég/þú/[hann/hún/það], dæmi: þó ég gangist)
     fk_Midmynd_personuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # ópersónuleg miðmynd
-    Midmynd_opersonuleg_frumlag = utils.selection(Fall, Fall.Nefnifall)
+    Midmynd_opersonuleg_frumlag = utils.selection(Fall, None)
     fk_Midmynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     fk_Midmynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # spurnarmyndir, önnur persóna samtengd sögn (dæmi: býst þú -> býstu, gefst þú -> gefstu)

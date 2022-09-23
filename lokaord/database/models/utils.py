@@ -72,15 +72,15 @@ def timestamp_future(minutes=(60 * 24)):
 
 
 def word_column(nullable=True):
-    return Column(Unicode(MaximumWordLength), nullable=nullable, server_default='')
+    return Column(Unicode(MaximumWordLength), nullable=nullable, server_default=None)
 
 
 def boolean_default_false():
     return Column(Boolean(), nullable=False, server_default='0')
 
 
-def selection(selection_enum, default):
-    return Column(Enum(selection_enum), nullable=False, default=default)
+def selection(selection_enum, default, nullable=True):
+    return Column(Enum(selection_enum), nullable=nullable, default=default)
 
 
 def integer_primary_key():
