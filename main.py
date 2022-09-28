@@ -35,6 +35,9 @@ if __name__ == '__main__':
     lokaord.ArgParser.add_argument('-s', '--search', metavar=('WORD', ), help=(
         'Search for word in database.'
     ))
+    lokaord.ArgParser.add_argument('-st', '--stats', action='store_true', help=(
+        'Print database word count.'
+    ))
     pargs = lokaord.ArgParser.parse_args()
     if len(sys.argv) == 1:
         lokaord.print_help_and_exit()
@@ -49,5 +52,6 @@ if __name__ == '__main__':
         'add_word': None,
         'add_word_cli': pargs.add_word,
         'search': pargs.search,
+        'stats': pargs.stats,
     }
     lokaord.main(arguments)

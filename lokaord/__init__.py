@@ -17,7 +17,7 @@ ArgParser = None
 
 class MyJSONEncoder(json.JSONEncoder):
     '''
-    custom hacky json encoder for doing some custom json indentation
+    custom hacky json encoder for doing some custom json string indentation
     '''
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
@@ -172,6 +172,7 @@ def add_nafnord(nafnord_data):
             isl_nafnord.fk_ft_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['mg'])
             db.Session.commit()
     # TODO: add samsett/undantekning handling
+    return isl_ord
 
 
 def lookup_lysingarord(lysingarord_data):
@@ -378,6 +379,8 @@ def add_lysingarord(lysingarord_data):
                         add_fallbeyging(lysingarord_data['efstastig']['vb']['ft']['hk'])
                     )
                     db.Session.commit()
+    # TODO: add samsett/undantekning handling
+    return isl_ord
 
 
 def lookup_sagnord(sagnord_data):
@@ -714,6 +717,8 @@ def add_sagnord(sagnord_data):
                             )
                         )
                         db.Session.commit()
+    # TODO: add samsett/undantekning handling
+    return isl_ord
 
 
 def add_fallbeyging(fallbeyging_list):
@@ -1790,22 +1795,78 @@ def get_sagnbeyging_obj_from_db(sagnbeyging_id):
     return data
 
 
+def get_words_count():
+    return {
+        'no': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Nafnord).count(),
+        'lo': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Lysingarord).count(),
+        'so': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Sagnord).count()
+    }
+
+
 def add_word(word_data):
-    return
+    datafiles_dir_abs = os.path.abspath(
+        os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
+    )
+    isl_ord = None
+    isl_ord_data = None
+    isl_ord_directory = None
+    isl_ord_filename = None
+    if word_data['flokkur'] == 'nafnorð':
+        isl_ord_directory = 'nafnord'
+        assert(lookup_nafnord(word_data) is None)
+        isl_ord = add_nafnord(word_data)
+        isl_ord_data = get_nafnord_from_db_to_ordered_dict(isl_ord)
+        isl_ord_filename = '%s-%s.json' % (isl_ord_data['orð'], isl_ord_data['kyn'])
+    elif word_data['flokkur'] == 'lýsingarorð':
+        isl_ord_directory = 'lysingarord'
+        assert(lookup_lysingarord(word_data) is None)
+        isl_ord = add_lysingarord(word_data)
+        isl_ord_data = get_lysingarord_from_db_to_ordered_dict(isl_ord)
+        isl_ord_filename = '%s.json' % (isl_ord_data['orð'], )
+    elif word_data['flokkur'] == 'sagnorð':
+        isl_ord_directory = 'sagnord'
+        assert(lookup_sagnord(word_data) is None)
+        isl_ord = add_sagnord(word_data)
+        isl_ord_data = get_sagnord_from_db_to_ordered_dict(isl_ord)
+        isl_ord_filename = '%s.json' % (isl_ord_data['orð'], )
+    assert(isl_ord is not None)
+    assert(isl_ord_data is not None)
+    assert(isl_ord_directory is not None)
+    assert(isl_ord_filename is not None)
+    # note: here we don't ensure unique hash, should we?
+    isl_ord_data_hash = hashlib.sha256(
+        json.dumps(
+            isl_ord_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True
+        ).encode('utf-8')
+    ).hexdigest()
+    isl_ord_data['hash'] = isl_ord_data_hash
+    isl_ord_data_json_str = json.dumps(
+        isl_ord_data, indent='\t', ensure_ascii=False, separators=(',', ': '),
+        cls=MyJSONEncoder
+    )
+    with open(
+        os.path.join(datafiles_dir_abs, isl_ord_directory, isl_ord_filename),
+        mode='w',
+        encoding='utf-8'
+    ) as json_file:
+        json_file.write(isl_ord_data_json_str)
+        logman.info('Wrote file "%s/%s' % (isl_ord_directory, isl_ord_filename, ))
 
 
 def add_word_cli():
     header = '''loka-orð (%s)
-    ___       __    __                           __   ________    ____
+    \033[33m___       __    __                           __   ________    ____
    /   | ____/ /___/ /  _      ______  _________/ /  / ____/ /   /  _/
   / /| |/ __  / __  /  | | /| / / __ \\/ ___/ __  /  / /   / /    / /
  / ___ / /_/ / /_/ /   | |/ |/ / /_/ / /  / /_/ /  / /___/ /____/ /
-/_/  |_\\__,_/\\__,_/    |__/|__/\\____/_/   \\__,_/   \\____/_____/___/
+/_/  |_\\__,_/\\__,_/    |__/|__/\\____/_/   \\__,_/   \\____/_____/___/\033[0m
 
    Orðflokkar
       1) Nafnorð      (dæmi: "hestur", "kýr", "lamb")
       2) Lýsingarorð  (dæmi: "sterkur", "veikur", "lipur")
       3) Sagnorð      (dæmi: "gefa", "hjálpa", "kenna")
+
+    (Einungis stuðningur fyrir ofangreinda orðflokka eins og er.)
     ''' % (__version__, )
     print(header)
     ordflokkur = None
@@ -1813,9 +1874,120 @@ def add_word_cli():
         if ordflokkur is not None:
             print('Sláðu inn tölustaf (1, 2 eða 3).')
         ordflokkur = input('Veldu orðflokk (1/2/3): ')
-    print(ordflokkur)
-    word_data = {}
+    word_data = None
+    if ordflokkur == '1':
+        word_data = input_nafnord_cli()
+        word_data_json_str = json.dumps(word_data, separators=(',', ':'), ensure_ascii=False)
+        logman.info('Add-Word-CLI: nafnorð json: %s' % (word_data_json_str, ))
+    assert(word_data is not None)
     add_word(word_data)
+
+
+def input_nafnord_cli():
+    data = collections.OrderedDict()
+    logman.info('Add-Word-CLI: nafnorð')
+    nf_et = input(
+        'Nefnifall eintala án greinis (dæmi: \033[90mhér er\033[0m \033[32mhestur\033[0m): '
+    )
+    data['orð'] = nf_et
+    data['flokkur'] = 'nafnorð'
+    logman.info('nf.et.ág: %s' % (nf_et, ))
+    kyn = None
+    while kyn not in ('kk', 'kvk', 'hk'):
+        if kyn is not None:
+            print('Reyndu aftur. \033[90m[Karlkyn (kk), Kvenkyn (kvk), Hvorugkyn (hk)]\033[0m')
+        kyn = input('Kyn (kk/kvk/hk): ')
+    data['kyn'] = kyn
+    data['et'] = collections.OrderedDict()
+    data['et']['ág'] = []
+    data['et']['ág'].append(nf_et)
+    logman.info('kyn: %s' % (kyn, ))
+    # et.ág
+    thf_et = input(
+        'Þolfall eintala án greinis (dæmi: \033[90mum\033[0m \033[32mhest\033[0m): '
+    )
+    data['et']['ág'].append(thf_et)
+    logman.info('þf.et.ág: %s' % (thf_et, ))
+    thgf_et = input(
+        'Þágufall eintala án greinis (dæmi: \033[90mfrá\033[0m \033[32mhesti\033[0m): '
+    )
+    data['et']['ág'].append(thgf_et)
+    logman.info('þgf.et.ág: %s' % (thgf_et, ))
+    ef_et = input(
+        'Eignarfall eintala án greinis (dæmi: \033[90mtil\033[0m \033[32mhests\033[0m): '
+    )
+    data['et']['ág'].append(ef_et)
+    logman.info('ef.et.ág: %s' % (ef_et, ))
+    # et.mg
+    data['et']['mg'] = []
+    nf_et_mg = input(
+        'Nefnifall eintala með greini (dæmi: \033[90mhér er\033[0m \033[32mhesturinn\033[0m): '
+    )
+    data['et']['mg'].append(nf_et_mg)
+    logman.info('nf.et.mg: %s' % (nf_et_mg, ))
+    thf_et_mg = input(
+        'Þolfall eintala með greini (dæmi: \033[90mum\033[0m \033[32mhestinn\033[0m): '
+    )
+    data['et']['mg'].append(thf_et_mg)
+    logman.info('þf.et.mg: %s' % (thf_et_mg, ))
+    thgf_et_mg = input(
+        'Þágufall eintala með greini (dæmi: \033[90mfrá\033[0m \033[32mhestinum\033[0m): '
+    )
+    data['et']['mg'].append(thgf_et_mg)
+    logman.info('þgf.et.mg: %s' % (thgf_et_mg, ))
+    ef_et_mg = input(
+        'Eignarfall eintala með greini (dæmi: \033[90mtil\033[0m \033[32mhestsins\033[0m): '
+    )
+    data['et']['mg'].append(ef_et_mg)
+    logman.info('ef.et.mg: %s' % (ef_et_mg, ))
+    # ft.ág
+    data['ft'] = collections.OrderedDict()
+    data['ft']['ág'] = []
+    nf_ft = input((
+        'Nefnifall fleirtala án greinis (dæmi: '
+        '\033[90mhér eru\033[0m \033[32mhestar\033[0m): '
+    ))
+    data['ft']['ág'].append(nf_ft)
+    logman.info('nf.ft.ág: %s' % (nf_ft, ))
+    thf_ft = input(
+        'Þolfall fleirtala án greinis (dæmi: \033[90mum\033[0m \033[32mhesta\033[0m): '
+    )
+    data['ft']['ág'].append(thf_ft)
+    logman.info('þf.ft.ág: %s' % (thf_ft, ))
+    thgf_ft = input(
+        'Þágufall fleirtala án greinis (dæmi: \033[90mfrá\033[0m \033[32mhestum\033[0m): '
+    )
+    data['ft']['ág'].append(thgf_ft)
+    logman.info('þgf.ft.ág: %s' % (thgf_ft, ))
+    ef_ft = input(
+        'Eignarfall fleirtala án greinis (dæmi: \033[90mtil\033[0m \033[32mhesta\033[0m): '
+    )
+    data['ft']['ág'].append(ef_ft)
+    logman.info('ef.ft.ág: %s' % (ef_ft, ))
+    # ft.mg
+    data['ft']['mg'] = []
+    nf_ft_mg = input((
+        'Nefnifall fleirtala með greini (dæmi: '
+        '\033[90mhér eru\033[0m \033[32mhestarnir\033[0m): '
+    ))
+    data['ft']['mg'].append(nf_ft_mg)
+    logman.info('nf.ft.mg: %s' % (nf_ft_mg, ))
+    thf_ft_mg = input(
+        'Þolfall fleirtala með greini (dæmi: \033[90mum\033[0m \033[32mhestana\033[0m): '
+    )
+    data['ft']['mg'].append(thf_ft_mg)
+    logman.info('þf.ft.mg: %s' % (thf_ft_mg, ))
+    thgf_ft_mg = input(
+        'Þágufall fleirtala með greini (dæmi: \033[90mfrá\033[0m \033[32mhestunum\033[0m): '
+    )
+    data['ft']['mg'].append(thgf_ft_mg)
+    logman.info('þgf.ft.mg: %s' % (thgf_ft_mg, ))
+    ef_ft_mg = input(
+        'Eignarfall fleirtala með greini (dæmi: \033[90mtil\033[0m \033[32mhestanna\033[0m): '
+    )
+    data['ft']['mg'].append(ef_ft_mg)
+    logman.info('ef.ft.mg: %s' % (ef_ft_mg, ))
+    return data
 
 
 def main(arguments):
@@ -1828,6 +2000,10 @@ def main(arguments):
         db_uri = db.create_db_uri(db_name)
         db.setup_connection(db_uri, db_echo=False)
         db.init_db()
+    if 'stats' in arguments and arguments['stats'] is True:
+        print(json.dumps(
+            get_words_count(), separators=(',', ':'), ensure_ascii=False, sort_keys=True
+        ))
     if 'add_word_cli' in arguments and arguments['add_word_cli'] is True:
         add_word_cli()
     if 'build_db' in arguments and arguments['build_db'] is True:

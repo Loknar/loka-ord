@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import datetime
 
-from sqlalchemy import Column, Unicode, Integer, ForeignKey, Boolean, Enum, JSON, types
+from sqlalchemy import Column, Unicode, Integer, ForeignKey, Boolean, Enum, types
 
 Isoformat = '%Y-%m-%dT%H:%M:%S.%f'
 IsoformatLength = 26
