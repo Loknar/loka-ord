@@ -17,7 +17,7 @@ ArgParser = None
 
 class MyJSONEncoder(json.JSONEncoder):
     '''
-    custom hacky json encoder for doing some custom json string indentation
+    json encoder for doing some custom json string indentation
     '''
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
@@ -456,11 +456,11 @@ def add_sagnord(sagnord_data):
         if 'ópersónuleg' in sagnord_data['germynd']:
             if 'frumlag' in sagnord_data['germynd']['ópersónuleg']:
                 if sagnord_data['germynd']['ópersónuleg']['frumlag'] == 'þolfall':
-                    isl_sagnord.Germynd_opersonuleg_frumlag = isl.Fall.Tholfall
+                    isl_sagnord.Germynd_opersonuleg_frumlag = isl.Fall.Tholfall  # type: ignore
                 elif sagnord_data['germynd']['ópersónuleg']['frumlag'] == 'þágufall':
-                    isl_sagnord.Germynd_opersonuleg_frumlag = isl.Fall.Thagufall
+                    isl_sagnord.Germynd_opersonuleg_frumlag = isl.Fall.Thagufall  # type: ignore
                 elif sagnord_data['germynd']['ópersónuleg']['frumlag'] == 'eignarfall':
-                    isl_sagnord.Germynd_opersonuleg_frumlag = isl.Fall.Eignarfall
+                    isl_sagnord.Germynd_opersonuleg_frumlag = isl.Fall.Eignarfall  # type: ignore
                 else:
                     assert(False)  # invalid fall?
                 db.Session.commit()
@@ -555,13 +555,13 @@ def add_sagnord(sagnord_data):
         if 'ópersónuleg' in sagnord_data['miðmynd']:
             if 'frumlag' in sagnord_data['miðmynd']['ópersónuleg']:
                 if sagnord_data['miðmynd']['ópersónuleg']['frumlag'] == 'þolfall':
-                    isl_sagnord.Midmynd_opersonuleg_frumlag = isl.Fall.Tholfall
+                    isl_sagnord.Midmynd_opersonuleg_frumlag = isl.Fall.Tholfall  # type: ignore
                 elif sagnord_data['miðmynd']['ópersónuleg']['frumlag'] == 'þágufall':
-                    isl_sagnord.Midmynd_opersonuleg_frumlag = isl.Fall.Thagufall
+                    isl_sagnord.Midmynd_opersonuleg_frumlag = isl.Fall.Thagufall  # type: ignore
                 elif sagnord_data['miðmynd']['ópersónuleg']['frumlag'] == 'eignarfall':
-                    isl_sagnord.Midmynd_opersonuleg_frumlag = isl.Fall.Eignarfall
+                    isl_sagnord.Midmynd_opersonuleg_frumlag = isl.Fall.Eignarfall  # type: ignore
                 else:
-                    assert(False)  # invalid fall?
+                    assert(False)  # invalid fall or None? should not happen here
                 db.Session.commit()
             if 'framsöguháttur' in sagnord_data['miðmynd']['ópersónuleg']:
                 isl_sagnord.fk_Midmynd_opersonuleg_framsoguhattur = (
@@ -1879,6 +1879,8 @@ def add_word_cli():
         word_data = input_nafnord_cli()
         word_data_json_str = json.dumps(word_data, separators=(',', ':'), ensure_ascii=False)
         logman.info('Add-Word-CLI: nafnorð json: %s' % (word_data_json_str, ))
+    elif ordflokkur == '2':
+        word_data = input_lysingarord_cli()
     assert(word_data is not None)
     add_word(word_data)
 
@@ -1886,108 +1888,442 @@ def add_word_cli():
 def input_nafnord_cli():
     data = collections.OrderedDict()
     logman.info('Add-Word-CLI: nafnorð')
-    nf_et = input(
-        'Nefnifall eintala án greinis (dæmi: \033[90mhér er\033[0m \033[32mhestur\033[0m): '
-    )
-    data['orð'] = nf_et
-    data['flokkur'] = 'nafnorð'
-    logman.info('nf.et.ág: %s' % (nf_et, ))
     kyn = None
     while kyn not in ('kk', 'kvk', 'hk'):
         if kyn is not None:
             print('Reyndu aftur. \033[90m[Karlkyn (kk), Kvenkyn (kvk), Hvorugkyn (hk)]\033[0m')
         kyn = input('Kyn (kk/kvk/hk): ')
-    data['kyn'] = kyn
-    data['et'] = collections.OrderedDict()
-    data['et']['ág'] = []
-    data['et']['ág'].append(nf_et)
-    logman.info('kyn: %s' % (kyn, ))
     # et.ág
-    thf_et = input(
-        'Þolfall eintala án greinis (dæmi: \033[90mum\033[0m \033[32mhest\033[0m): '
+    fallbeyging_et_ag = input_fallbeyging_cli(
+        msg_mynd='Eintala án greinis',
+        msg_mynd_s='et.ág',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mhestur\033[0m',
+            '\033[90mum\033[0m \033[32mhest\033[0m',
+            '\033[90mfrá\033[0m \033[32mhesti\033[0m',
+            '\033[90mtil\033[0m \033[32mhests\033[0m'
+        ]
     )
-    data['et']['ág'].append(thf_et)
-    logman.info('þf.et.ág: %s' % (thf_et, ))
-    thgf_et = input(
-        'Þágufall eintala án greinis (dæmi: \033[90mfrá\033[0m \033[32mhesti\033[0m): '
-    )
-    data['et']['ág'].append(thgf_et)
-    logman.info('þgf.et.ág: %s' % (thgf_et, ))
-    ef_et = input(
-        'Eignarfall eintala án greinis (dæmi: \033[90mtil\033[0m \033[32mhests\033[0m): '
-    )
-    data['et']['ág'].append(ef_et)
-    logman.info('ef.et.ág: %s' % (ef_et, ))
+    data['orð'] = fallbeyging_et_ag[0]
+    data['flokkur'] = 'nafnorð'
+    data['kyn'] = kyn
+    logman.info('kyn: %s' % (kyn, ))
+    data['et'] = collections.OrderedDict()
+    data['et']['ág'] = fallbeyging_et_ag
     # et.mg
-    data['et']['mg'] = []
-    nf_et_mg = input(
-        'Nefnifall eintala með greini (dæmi: \033[90mhér er\033[0m \033[32mhesturinn\033[0m): '
+    data['et']['mg'] = input_fallbeyging_cli(
+        msg_mynd='Eintala með greini',
+        msg_mynd_s='et.mg',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mhesturinn\033[0m',
+            '\033[90mum\033[0m \033[32mhestinn\033[0m',
+            '\033[90mfrá\033[0m \033[32mhestinum\033[0m',
+            '\033[90mtil\033[0m \033[32mhestsins\033[0m'
+        ]
     )
-    data['et']['mg'].append(nf_et_mg)
-    logman.info('nf.et.mg: %s' % (nf_et_mg, ))
-    thf_et_mg = input(
-        'Þolfall eintala með greini (dæmi: \033[90mum\033[0m \033[32mhestinn\033[0m): '
-    )
-    data['et']['mg'].append(thf_et_mg)
-    logman.info('þf.et.mg: %s' % (thf_et_mg, ))
-    thgf_et_mg = input(
-        'Þágufall eintala með greini (dæmi: \033[90mfrá\033[0m \033[32mhestinum\033[0m): '
-    )
-    data['et']['mg'].append(thgf_et_mg)
-    logman.info('þgf.et.mg: %s' % (thgf_et_mg, ))
-    ef_et_mg = input(
-        'Eignarfall eintala með greini (dæmi: \033[90mtil\033[0m \033[32mhestsins\033[0m): '
-    )
-    data['et']['mg'].append(ef_et_mg)
-    logman.info('ef.et.mg: %s' % (ef_et_mg, ))
     # ft.ág
     data['ft'] = collections.OrderedDict()
-    data['ft']['ág'] = []
-    nf_ft = input((
-        'Nefnifall fleirtala án greinis (dæmi: '
-        '\033[90mhér eru\033[0m \033[32mhestar\033[0m): '
-    ))
-    data['ft']['ág'].append(nf_ft)
-    logman.info('nf.ft.ág: %s' % (nf_ft, ))
-    thf_ft = input(
-        'Þolfall fleirtala án greinis (dæmi: \033[90mum\033[0m \033[32mhesta\033[0m): '
+    data['ft']['ág'] = input_fallbeyging_cli(
+        msg_mynd='Fleirtala án greinis',
+        msg_mynd_s='ft.ág',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mhestar\033[0m',
+            '\033[90mum\033[0m \033[32mhesta\033[0m',
+            '\033[90mfrá\033[0m \033[32mhestum\033[0m',
+            '\033[90mtil\033[0m \033[32mhesta\033[0m'
+        ]
     )
-    data['ft']['ág'].append(thf_ft)
-    logman.info('þf.ft.ág: %s' % (thf_ft, ))
-    thgf_ft = input(
-        'Þágufall fleirtala án greinis (dæmi: \033[90mfrá\033[0m \033[32mhestum\033[0m): '
-    )
-    data['ft']['ág'].append(thgf_ft)
-    logman.info('þgf.ft.ág: %s' % (thgf_ft, ))
-    ef_ft = input(
-        'Eignarfall fleirtala án greinis (dæmi: \033[90mtil\033[0m \033[32mhesta\033[0m): '
-    )
-    data['ft']['ág'].append(ef_ft)
-    logman.info('ef.ft.ág: %s' % (ef_ft, ))
     # ft.mg
-    data['ft']['mg'] = []
-    nf_ft_mg = input((
-        'Nefnifall fleirtala með greini (dæmi: '
-        '\033[90mhér eru\033[0m \033[32mhestarnir\033[0m): '
-    ))
-    data['ft']['mg'].append(nf_ft_mg)
-    logman.info('nf.ft.mg: %s' % (nf_ft_mg, ))
-    thf_ft_mg = input(
-        'Þolfall fleirtala með greini (dæmi: \033[90mum\033[0m \033[32mhestana\033[0m): '
+    data['ft']['mg'] = input_fallbeyging_cli(
+        msg_mynd='Fleirtala með greini',
+        msg_mynd_s='ft.mg',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mhestarnir\033[0m',
+            '\033[90mum\033[0m \033[32mhestana\033[0m',
+            '\033[90mfrá\033[0m \033[32mhestunum\033[0m',
+            '\033[90mtil\033[0m \033[32mhestanna\033[0m'
+        ]
     )
-    data['ft']['mg'].append(thf_ft_mg)
-    logman.info('þf.ft.mg: %s' % (thf_ft_mg, ))
-    thgf_ft_mg = input(
-        'Þágufall fleirtala með greini (dæmi: \033[90mfrá\033[0m \033[32mhestunum\033[0m): '
-    )
-    data['ft']['mg'].append(thgf_ft_mg)
-    logman.info('þgf.ft.mg: %s' % (thgf_ft_mg, ))
-    ef_ft_mg = input(
-        'Eignarfall fleirtala með greini (dæmi: \033[90mtil\033[0m \033[32mhestanna\033[0m): '
-    )
-    data['ft']['mg'].append(ef_ft_mg)
-    logman.info('ef.ft.mg: %s' % (ef_ft_mg, ))
     return data
+
+
+def input_lysingarord_cli():
+    data = collections.OrderedDict()
+    logman.info('Add-Word-CLI: lýsingarorð')
+    # frumstig sb et kk
+    frumstig_sb_et_kk = input_fallbeyging_cli(
+        msg_mynd='Frumstig sterk beyging eintala karlkyn',
+        msg_mynd_s='frumstig.sb.et.kk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkur\033[0m \033[90mhestur\033[0m',
+            '\033[90mum\033[0m \033[32msterkan\033[0m \033[90mhest\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkum\033[0m \033[90mhesti\033[0m',
+            '\033[90mtil\033[0m \033[32msterks\033[0m \033[90mhests\033[0m'
+        ]
+    )
+    data['orð'] = frumstig_sb_et_kk[0]
+    data['flokkur'] = 'lýsingarorð'
+    data['frumstig'] = collections.OrderedDict()
+    data['frumstig']['sb'] = collections.OrderedDict()
+    data['frumstig']['sb']['et'] = collections.OrderedDict()
+    data['frumstig']['sb']['et']['kk'] = frumstig_sb_et_kk
+    # frumstig sb et kvk
+    data['frumstig']['sb']['et']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig sterk beyging eintala kvenkyn',
+        msg_mynd_s='frumstig.sb.et.kvk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterk\033[0m \033[90mkýr\033[0m',
+            '\033[90mum\033[0m \033[32msterka\033[0m \033[90mkú\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkri\033[0m \033[90mkú\033[0m',
+            '\033[90mtil\033[0m \033[32msterkrar\033[0m \033[90mkýr\033[0m'
+        ]
+    )
+    # frumstig sb et hk
+    data['frumstig']['sb']['et']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig sterk beyging eintala hvorugkyn',
+        msg_mynd_s='frumstig.sb.et.hk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkt\033[0m \033[90mlamb\033[0m',
+            '\033[90mum\033[0m \033[32msterkt\033[0m \033[90mlamb\033[0m',
+            '\033[90mfrá\033[0m \033[32msterku\033[0m \033[90mlambi\033[0m',
+            '\033[90mtil\033[0m \033[32msterks\033[0m \033[90mlambs\033[0m'
+        ]
+    )
+    # frumstig sb ft kk
+    data['frumstig']['sb']['ft'] = collections.OrderedDict()
+    data['frumstig']['sb']['ft']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig sterk beyging fleirtala karlkyn',
+        msg_mynd_s='frumstig.sb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkir\033[0m \033[90mhestar\033[0m',
+            '\033[90mum\033[0m \033[32msterka\033[0m \033[90mhesta\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkum\033[0m \033[90mhestum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkra\033[0m \033[90mhesta\033[0m'
+        ]
+    )
+    # frumstig sb ft kvk
+    data['frumstig']['sb']['ft']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig sterk beyging fleirtala kvenkyn',
+        msg_mynd_s='frumstig.sb.ft.kvk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkar\033[0m \033[90mkýr\033[0m',
+            '\033[90mum\033[0m \033[32msterkar\033[0m \033[90mkýr\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkum\033[0m \033[90mkúm\033[0m',
+            '\033[90mtil\033[0m \033[32msterkra\033[0m \033[90mkúa\033[0m'
+        ]
+    )
+    # frumstig sb ft hk
+    data['frumstig']['sb']['ft']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig sterk beyging fleirtala hvorugkyn',
+        msg_mynd_s='frumstig.sb.ft.hk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterk\033[0m \033[90mlömb\033[0m',
+            '\033[90mum\033[0m \033[32msterk\033[0m \033[90mlömb\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkum\033[0m \033[90mlömbum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkra\033[0m \033[90mlamba\033[0m'
+        ]
+    )
+    # frumstig vb et kk
+    data['frumstig']['vb'] = collections.OrderedDict()
+    data['frumstig']['vb']['et'] = collections.OrderedDict()
+    data['frumstig']['vb']['et']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig veik beyging eintala karlkyn',
+        msg_mynd_s='frumstig.vb.et.kk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterki\033[0m \033[90mhesturinn\033[0m',
+            '\033[90mum\033[0m \033[32msterka\033[0m \033[90mhestinn\033[0m',
+            '\033[90mfrá\033[0m \033[32msterka\033[0m \033[90mhestinum\033[0m',
+            '\033[90mtil\033[0m \033[32msterka\033[0m \033[90mhestsins\033[0m'
+        ]
+    )
+    # frumstig vb et kvk
+    data['frumstig']['vb']['et']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig veik beyging eintala kvenkyn',
+        msg_mynd_s='frumstig.vb.et.kvk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterka\033[0m \033[90mkýrin\033[0m',
+            '\033[90mum\033[0m \033[32msterku\033[0m \033[90mkúna\033[0m',
+            '\033[90mfrá\033[0m \033[32msterku\033[0m \033[90mkúnni\033[0m',
+            '\033[90mtil\033[0m \033[32msterku\033[0m \033[90mkýrinnar\033[0m'
+        ]
+    )
+    # frumstig vb et hk
+    data['frumstig']['vb']['et']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig veik beyging eintala hvorugkyn',
+        msg_mynd_s='frumstig.vb.et.hk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterka\033[0m \033[90mlambið\033[0m',
+            '\033[90mum\033[0m \033[32msterka\033[0m \033[90mlambið\033[0m',
+            '\033[90mfrá\033[0m \033[32msterka\033[0m \033[90mlambinu\033[0m',
+            '\033[90mtil\033[0m \033[32msterka\033[0m \033[90mlambsins\033[0m'
+        ]
+    )
+    # frumstig vb ft kk
+    data['frumstig']['vb']['ft'] = collections.OrderedDict()
+    data['frumstig']['vb']['ft']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig veik beyging fleirtala karlkyn',
+        msg_mynd_s='frumstig.vb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterku\033[0m \033[90mhestarnir\033[0m',
+            '\033[90mum\033[0m \033[32msterku\033[0m \033[90mhestana\033[0m',
+            '\033[90mfrá\033[0m \033[32msterku\033[0m \033[90mhestunum\033[0m',
+            '\033[90mtil\033[0m \033[32msterku\033[0m \033[90mhestanna\033[0m'
+        ]
+    )
+    # frumstig vb ft kvk
+    data['frumstig']['vb']['ft']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig veik beyging fleirtala kvenkyn',
+        msg_mynd_s='frumstig.vb.ft.kvk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterku\033[0m \033[90mkýrnar\033[0m',
+            '\033[90mum\033[0m \033[32msterku\033[0m \033[90mkýrnar\033[0m',
+            '\033[90mfrá\033[0m \033[32msterku\033[0m \033[90mkúnum\033[0m',
+            '\033[90mtil\033[0m \033[32msterku\033[0m \033[90mkúnna\033[0m'
+        ]
+    )
+    # frumstig vb ft hk
+    data['frumstig']['vb']['ft']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Frumstig veik beyging fleirtala hvorugkyn',
+        msg_mynd_s='frumstig.vb.ft.hk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterku\033[0m \033[90mlömbin\033[0m',
+            '\033[90mum\033[0m \033[32msterku\033[0m \033[90mlömbin\033[0m',
+            '\033[90mfrá\033[0m \033[32msterku\033[0m \033[90mlömbunum\033[0m',
+            '\033[90mtil\033[0m \033[32msterku\033[0m \033[90mlambanna\033[0m'
+        ]
+    )
+    # miðstig vb et kk
+    data['midstig'] = collections.OrderedDict()
+    data['midstig']['vb'] = collections.OrderedDict()
+    data['midstig']['vb']['et'] = collections.OrderedDict()
+    data['midstig']['vb']['et']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Miðstig veik beyging eintala karlkyn',
+        msg_mynd_s='miðstig.vb.et.kk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkari\033[0m \033[90mhestur\033[0m',
+            '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mhest\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkari\033[0m \033[90mhesti\033[0m',
+            '\033[90mtil\033[0m \033[32msterkari\033[0m \033[90mhests\033[0m'
+        ]
+    )
+    # miðstig vb et kvk
+    data['midstig']['vb']['et']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Miðstig veik beyging eintala kvenkyn',
+        msg_mynd_s='miðstig.vb.et.kvk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkari\033[0m \033[90mkýr\033[0m',
+            '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mkú\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkari\033[0m \033[90mkú\033[0m',
+            '\033[90mtil\033[0m \033[32msterkari\033[0m \033[90mkýr\033[0m'
+        ]
+    )
+    # miðstig vb et hk
+    data['midstig']['vb']['et']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Miðstig veik beyging eintala hvorugkyn',
+        msg_mynd_s='miðstig.vb.et.hk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkara\033[0m \033[90mlamb\033[0m',
+            '\033[90mum\033[0m \033[32msterkara\033[0m \033[90mlamb\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkara\033[0m \033[90mlambi\033[0m',
+            '\033[90mtil\033[0m \033[32msterkara\033[0m \033[90mlambs\033[0m'
+        ]
+    )
+    # miðstig vb ft kk
+    data['midstig']['vb']['ft'] = collections.OrderedDict()
+    data['midstig']['vb']['ft']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Miðstig veik beyging fleirtala karlkyn',
+        msg_mynd_s='miðstig.vb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkari\033[0m \033[90mhestar\033[0m',
+            '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mhesta\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkari\033[0m \033[90mhestum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkari\033[0m \033[90mhesta\033[0m'
+        ]
+    )
+    # miðstig vb ft kvk
+    data['midstig']['vb']['ft']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Miðstig veik beyging fleirtala kvenkyn',
+        msg_mynd_s='miðstig.vb.ft.kvk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkari\033[0m \033[90mkýr\033[0m',
+            '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mkýr\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkari\033[0m \033[90mkúm\033[0m',
+            '\033[90mtil\033[0m \033[32msterkari\033[0m \033[90mkúa\033[0m'
+        ]
+    )
+    # miðstig vb ft hk
+    data['midstig']['vb']['ft']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Miðstig veik beyging fleirtala hvorugkyn',
+        msg_mynd_s='miðstig.vb.ft.hk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkari\033[0m \033[90mlömb\033[0m',
+            '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mlömb\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkari\033[0m \033[90mlömbum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkari\033[0m \033[90mlamba\033[0m'
+        ]
+    )
+    # efstastig sb et kk
+    data['efstastig'] = collections.OrderedDict()
+    data['efstastig']['sb'] = collections.OrderedDict()
+    data['efstastig']['sb']['et'] = collections.OrderedDict()
+    data['efstastig']['sb']['et']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig sterk beyging eintala karlkyn',
+        msg_mynd_s='efstastig.sb.et.kk',
+        msg_daemi=[
+            '\033[90mhér er hestur\033[0m \033[32msterkastur\033[0m',
+            '\033[90mum hest\033[0m \033[32msterkastan\033[0m',
+            '\033[90mfrá hesti\033[0m \033[32msterkustum\033[0m',
+            '\033[90mtil hests\033[0m \033[32msterkasts\033[0m'
+        ]
+    )
+    # efstastig sb et kvk
+    data['efstastig']['sb']['et']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig sterk beyging eintala kvenkyn',
+        msg_mynd_s='efstastig.sb.et.kvk',
+        msg_daemi=[
+            '\033[90mhér er kýr\033[0m \033[32msterkust\033[0m',
+            '\033[90mum kú\033[0m \033[32msterkasta\033[0m',
+            '\033[90mfrá kú\033[0m \033[32msterkastri\033[0m',
+            '\033[90mtil kýr\033[0m \033[32msterkastrar\033[0m'
+        ]
+    )
+    # efstastig sb et hk
+    data['efstastig']['sb']['et']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig sterk beyging eintala hvorugkyn',
+        msg_mynd_s='efstastig.sb.et.hk',
+        msg_daemi=[
+            '\033[90mhér er lamb\033[0m \033[32msterkast\033[0m',
+            '\033[90mum lamb\033[0m \033[32msterkast\033[0m',
+            '\033[90mfrá lambi\033[0m \033[32msterkustu\033[0m',
+            '\033[90mtil lambs\033[0m \033[32msterkasts\033[0m'
+        ]
+    )
+    # efstastig sb ft kk
+    data['efstastig']['sb']['ft'] = collections.OrderedDict()
+    data['efstastig']['sb']['ft']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig sterk beyging fleirtala karlkyn',
+        msg_mynd_s='efstastig.sb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru hestar\033[0m \033[32msterkastir\033[0m',
+            '\033[90mum hesta\033[0m \033[32msterkasta\033[0m',
+            '\033[90mfrá hestum\033[0m \033[32msterkustum\033[0m',
+            '\033[90mtil hesta\033[0m \033[32msterkastra\033[0m'
+        ]
+    )
+    # efstastig sb ft kvk
+    data['efstastig']['sb']['ft']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig sterk beyging fleirtala kvenkyn',
+        msg_mynd_s='efstastig.sb.ft.kvk',
+        msg_daemi=[
+            '\033[90mhér eru kýr\033[0m \033[32msterkastar\033[0m',
+            '\033[90mum kýr\033[0m \033[32msterkastar\033[0m',
+            '\033[90mfrá kúm\033[0m \033[32msterkustum\033[0m',
+            '\033[90mtil kúa\033[0m \033[32msterkastra\033[0m'
+        ]
+    )
+    # efstastig sb ft hk
+    data['efstastig']['sb']['ft']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig sterk beyging fleirtala hvorugkyn',
+        msg_mynd_s='efstastig.sb.ft.hk',
+        msg_daemi=[
+            '\033[90mhér eru lömb\033[0m \033[32msterkust\033[0m',
+            '\033[90mum lömb\033[0m \033[32msterkust\033[0m',
+            '\033[90mfrá lömbum\033[0m \033[32msterkustum\033[0m',
+            '\033[90mtil lamba\033[0m \033[32msterkastra\033[0m'
+        ]
+    )
+    # efstastig vb et kk
+    data['efstastig']['vb'] = collections.OrderedDict()
+    data['efstastig']['vb']['et'] = collections.OrderedDict()
+    data['efstastig']['vb']['et']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig veik beyging eintala karlkyn',
+        msg_mynd_s='miðstig.vb.et.kk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkasti\033[0m \033[90mhesturinn\033[0m',
+            '\033[90mum\033[0m \033[32msterkasta\033[0m \033[90mhestinn\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkasta\033[0m \033[90mhestinum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkasta\033[0m \033[90mhestsins\033[0m'
+        ]
+    )
+    # efstastig vb et kvk
+    data['efstastig']['vb']['et']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig veik beyging eintala kvenkyn',
+        msg_mynd_s='miðstig.vb.et.kvk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkasta\033[0m \033[90mkýrin\033[0m',
+            '\033[90mum\033[0m \033[32msterkustu\033[0m \033[90mkúna\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkustu\033[0m \033[90mkúnni\033[0m',
+            '\033[90mtil\033[0m \033[32msterkustu\033[0m \033[90mkýrinnar\033[0m'
+        ]
+    )
+    # efstastig vb et hk
+    data['efstastig']['vb']['et']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig veik beyging eintala hvorugkyn',
+        msg_mynd_s='miðstig.vb.et.hk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32msterkasta\033[0m \033[90mlambið\033[0m',
+            '\033[90mum\033[0m \033[32msterkasta\033[0m \033[90mlambið\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkasta\033[0m \033[90mlambinu\033[0m',
+            '\033[90mtil\033[0m \033[32msterkasta\033[0m \033[90mlambsins\033[0m'
+        ]
+    )
+    # efstastig vb ft kk
+    data['efstastig']['vb']['ft'] = collections.OrderedDict()
+    data['efstastig']['vb']['ft']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig veik beyging fleirtala karlkyn',
+        msg_mynd_s='miðstig.vb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkustu\033[0m \033[90mhestarnir\033[0m',
+            '\033[90mum\033[0m \033[32msterkustu\033[0m \033[90mhestana\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkustu\033[0m \033[90mhestunum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkustu\033[0m \033[90mhestanna\033[0m'
+        ]
+    )
+    # efstastig vb ft kvk
+    data['efstastig']['vb']['ft']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig veik beyging fleirtala kvenkyn',
+        msg_mynd_s='miðstig.vb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkustu\033[0m \033[90mkýrnar\033[0m',
+            '\033[90mum\033[0m \033[32msterkustu\033[0m \033[90mkýrnar\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkustu\033[0m \033[90mkúnum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkustu\033[0m \033[90mkúnna\033[0m'
+        ]
+    )
+    # efstastig vb ft hk
+    data['efstastig']['vb']['ft']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Efstastig veik beyging fleirtala hvorugkyn',
+        msg_mynd_s='miðstig.vb.ft.hk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32msterkustu\033[0m \033[90mlömbin\033[0m',
+            '\033[90mum\033[0m \033[32msterkustu\033[0m \033[90mlömbin\033[0m',
+            '\033[90mfrá\033[0m \033[32msterkustu\033[0m \033[90mlömbunum\033[0m',
+            '\033[90mtil\033[0m \033[32msterkustu\033[0m \033[90mlambanna\033[0m'
+        ]
+    )
+    return data
+
+
+def input_fallbeyging_cli(msg_mynd, msg_mynd_s, msg_daemi):
+    '''
+    @msg_mynd: orðmynd
+    @msg_mynd_s: orðmynd stutt
+    @msg_daemi: fjögurra strengja listi með orðmyndardæmum
+    '''
+    fallbeyging = []
+    nefnifall = input('%s nefnifall (dæmi: %s): ' % (msg_mynd, msg_daemi[0]))
+    fallbeyging.append(nefnifall)
+    logman.info('%s.nf: %s' % (msg_mynd_s, nefnifall, ))
+    tholfall = input('%s þolfall (dæmi: %s): ' % (msg_mynd, msg_daemi[1]))
+    fallbeyging.append(tholfall)
+    logman.info('%s.þf: %s' % (msg_mynd_s, tholfall, ))
+    thagufall = input('%s þágufall (dæmi: %s): ' % (msg_mynd, msg_daemi[2]))
+    fallbeyging.append(thagufall)
+    logman.info('%s.þgf: %s' % (msg_mynd_s, thagufall, ))
+    eignarfall = input('%s eignarfall (dæmi: %s): ' % (msg_mynd, msg_daemi[3]))
+    fallbeyging.append(eignarfall)
+    logman.info('%s.ef: %s' % (msg_mynd_s, eignarfall, ))
+    return fallbeyging
 
 
 def main(arguments):

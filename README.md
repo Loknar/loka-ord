@@ -15,5 +15,5 @@ pip install -Ur requirements.txt
 ## Notkun
 
 ```bash
-python lokaord.py --help
+python main.py --help
 ```

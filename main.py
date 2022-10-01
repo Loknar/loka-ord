@@ -9,6 +9,7 @@ if __name__ == '__main__':
     lokaord.ArgParser = argparse.ArgumentParser(
         description='Loka-Orð', formatter_class=argparse.RawTextHelpFormatter
     )
+    lokaord.ArgParser.prog = 'lokaord'
     lokaord.ArgParser._actions[0].help = 'Show this help message and exit.'
     lokaord.ArgParser.add_argument('-v', '--version', action='store_true', help=(
         'Print version and exit.'
