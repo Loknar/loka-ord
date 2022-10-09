@@ -2113,12 +2113,12 @@ def input_lysingarord_cli():
         ]
     )
     # miðstig vb et kk
-    data['midstig'] = collections.OrderedDict()
-    data['midstig']['vb'] = collections.OrderedDict()
-    data['midstig']['vb']['et'] = collections.OrderedDict()
-    data['midstig']['vb']['et']['kk'] = input_fallbeyging_cli(
+    data['miðstig'] = collections.OrderedDict()
+    data['miðstig']['vb'] = collections.OrderedDict()
+    data['miðstig']['vb']['et'] = collections.OrderedDict()
+    data['miðstig']['vb']['et']['kk'] = input_fallbeyging_cli(
         msg_mynd='Miðstig veik beyging eintala karlkyn',
-        msg_mynd_s='miðstig.vb.et.kk',
+        msg_mynd_s='midstig.vb.et.kk',
         msg_daemi=[
             '\033[90mhér er\033[0m \033[32msterkari\033[0m \033[90mhestur\033[0m',
             '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mhest\033[0m',
@@ -2127,9 +2127,9 @@ def input_lysingarord_cli():
         ]
     )
     # miðstig vb et kvk
-    data['midstig']['vb']['et']['kvk'] = input_fallbeyging_cli(
+    data['miðstig']['vb']['et']['kvk'] = input_fallbeyging_cli(
         msg_mynd='Miðstig veik beyging eintala kvenkyn',
-        msg_mynd_s='miðstig.vb.et.kvk',
+        msg_mynd_s='midstig.vb.et.kvk',
         msg_daemi=[
             '\033[90mhér er\033[0m \033[32msterkari\033[0m \033[90mkýr\033[0m',
             '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mkú\033[0m',
@@ -2138,9 +2138,9 @@ def input_lysingarord_cli():
         ]
     )
     # miðstig vb et hk
-    data['midstig']['vb']['et']['hk'] = input_fallbeyging_cli(
+    data['miðstig']['vb']['et']['hk'] = input_fallbeyging_cli(
         msg_mynd='Miðstig veik beyging eintala hvorugkyn',
-        msg_mynd_s='miðstig.vb.et.hk',
+        msg_mynd_s='midstig.vb.et.hk',
         msg_daemi=[
             '\033[90mhér er\033[0m \033[32msterkara\033[0m \033[90mlamb\033[0m',
             '\033[90mum\033[0m \033[32msterkara\033[0m \033[90mlamb\033[0m',
@@ -2149,10 +2149,10 @@ def input_lysingarord_cli():
         ]
     )
     # miðstig vb ft kk
-    data['midstig']['vb']['ft'] = collections.OrderedDict()
-    data['midstig']['vb']['ft']['kk'] = input_fallbeyging_cli(
+    data['miðstig']['vb']['ft'] = collections.OrderedDict()
+    data['miðstig']['vb']['ft']['kk'] = input_fallbeyging_cli(
         msg_mynd='Miðstig veik beyging fleirtala karlkyn',
-        msg_mynd_s='miðstig.vb.ft.kk',
+        msg_mynd_s='midstig.vb.ft.kk',
         msg_daemi=[
             '\033[90mhér eru\033[0m \033[32msterkari\033[0m \033[90mhestar\033[0m',
             '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mhesta\033[0m',
@@ -2161,9 +2161,9 @@ def input_lysingarord_cli():
         ]
     )
     # miðstig vb ft kvk
-    data['midstig']['vb']['ft']['kvk'] = input_fallbeyging_cli(
+    data['miðstig']['vb']['ft']['kvk'] = input_fallbeyging_cli(
         msg_mynd='Miðstig veik beyging fleirtala kvenkyn',
-        msg_mynd_s='miðstig.vb.ft.kvk',
+        msg_mynd_s='midstig.vb.ft.kvk',
         msg_daemi=[
             '\033[90mhér eru\033[0m \033[32msterkari\033[0m \033[90mkýr\033[0m',
             '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mkýr\033[0m',
@@ -2172,9 +2172,9 @@ def input_lysingarord_cli():
         ]
     )
     # miðstig vb ft hk
-    data['midstig']['vb']['ft']['hk'] = input_fallbeyging_cli(
+    data['miðstig']['vb']['ft']['hk'] = input_fallbeyging_cli(
         msg_mynd='Miðstig veik beyging fleirtala hvorugkyn',
-        msg_mynd_s='miðstig.vb.ft.hk',
+        msg_mynd_s='midstig.vb.ft.hk',
         msg_daemi=[
             '\033[90mhér eru\033[0m \033[32msterkari\033[0m \033[90mlömb\033[0m',
             '\033[90mum\033[0m \033[32msterkari\033[0m \033[90mlömb\033[0m',
