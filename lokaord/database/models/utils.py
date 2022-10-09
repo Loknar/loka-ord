@@ -88,7 +88,7 @@ def integer_primary_key():
 
 
 def foreign_integer_primary_key(name):
-    return Column(Integer(), ForeignKey('{name}.{name}_id'.format(name=name)))
+    return Column(Integer(), ForeignKey('{name}.{name}_id'.format(name=name)), nullable=True)
 
 
 def integer_default_zero():
