@@ -17,3 +17,15 @@ pip install -Ur requirements.txt
 ```bash
 python main.py --help
 ```
+
+Smíða gagnagrunn:
+
+```bash
+python main.py --build-db
+```
+
+Bæta við orði CLI:
+
+```bash
+python main.py --add-word
+```
