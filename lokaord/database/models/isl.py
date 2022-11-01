@@ -26,8 +26,8 @@ class Ordflokkar(enum.Enum):
 class Ordasamsetningar(enum.Enum):
     Stofnsamsetning = 0  # dæmi: eldhús
     Eignarfallssamsetning = 1  # dæmi: eldavél/eldsmatur (eignarfall ft af eldur er elda)
-    Bandstafssamsetning = 2  # dæmi: eldiviður, fiskifluga, hangikjöt (tengistafur iðulega i, en
-                             #       getur líka verið a, u, s ..)
+    Bandstafssamsetning = 2  # dæmi: eldiviður, fiskifluga, hangikjöt
+                             #       (tengistafur iðulega i, en getur einnig verið a, u, s ..)
 
 
 class Kyn(enum.Enum):
@@ -73,8 +73,8 @@ class SamsettOrd(Base):
     __tablename__ = 'SamsettOrd'
     SamsettOrd_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Forhluti = utils.word_column()
-    fk_Forhluti_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Forskeyti = utils.word_column()
+    fk_Forskeyti_Ord_id = utils.foreign_integer_primary_key('Ord')
     fk_Eftirhluti_Ord_id = utils.foreign_integer_primary_key('Ord')
     Gerd = utils.selection(Ordasamsetningar, Ordasamsetningar.Stofnsamsetning)
     Edited = utils.timestamp_edited()
