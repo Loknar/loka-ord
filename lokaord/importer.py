@@ -128,27 +128,49 @@ def add_nafnord(nafnord_data):
     )
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_nafnord = isl.Nafnord(
-        fk_Ord_id=isl_ord.Ord_id,
-        Kyn=isl_ord_kyn
-    )
-    db.Session.add(isl_nafnord)
-    db.Session.commit()
-    if 'et' in nafnord_data:
-        if 'ág' in nafnord_data['et']:
-            isl_nafnord.fk_et_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['ág'])
-            db.Session.commit()
-        if 'mg' in nafnord_data['et']:
-            isl_nafnord.fk_et_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['mg'])
-            db.Session.commit()
-    if 'ft' in nafnord_data:
-        if 'ág' in nafnord_data['ft']:
-            isl_nafnord.fk_ft_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['ág'])
-            db.Session.commit()
-        if 'mg' in nafnord_data['ft']:
-            isl_nafnord.fk_ft_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['mg'])
-            db.Session.commit()
-    # TODO: add samsett/undantekning handling
+    if 'samsett' in nafnord_data:
+        samsetning_types = ['stofn', 'eignarfalls', 'bandstafs']
+        samsetning_type = None
+        assert('forskeyti' in nafnord_data['samsett'])
+        assert(type(nafnord_data['samsett']['forskeyti']) is str)
+        assert(len(nafnord_data['samsett']['forskeyti']) > 0)
+        assert('samsetning' in nafnord_data['samsett'])
+        assert(type(nafnord_data['samsett']['samsetning']) is str)
+        if nafnord_data['samsett']['samsetning'] == 'stofn':
+            samsetning_type = isl.Ordasamsetningar.Stofnsamsetning
+        elif nafnord_data['samsett']['samsetning'] == 'eignarfalls':
+            samsetning_type = isl.Ordasamsetningar.Eignarfallssamsetning
+        elif nafnord_data['samsett']['samsetning'] == 'bandstafs':
+            samsetning_type = isl.Ordasamsetningar.Bandstafssamsetning
+        assert(samsetning_type is not None)
+        assert('haus' in nafnord_data['samsett'])
+        # handle samsett orð
+        isl_samsett_ord = isl.SamsettOrd(
+            fk_Ord_id=isl_ord.Ord_id,
+
+        )
+    else:
+        isl_nafnord = isl.Nafnord(
+            fk_Ord_id=isl_ord.Ord_id,
+            Kyn=isl_ord_kyn
+        )
+        db.Session.add(isl_nafnord)
+        db.Session.commit()
+        if 'et' in nafnord_data:
+            if 'ág' in nafnord_data['et']:
+                isl_nafnord.fk_et_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['ág'])
+                db.Session.commit()
+            if 'mg' in nafnord_data['et']:
+                isl_nafnord.fk_et_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['mg'])
+                db.Session.commit()
+        if 'ft' in nafnord_data:
+            if 'ág' in nafnord_data['ft']:
+                isl_nafnord.fk_ft_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['ág'])
+                db.Session.commit()
+            if 'mg' in nafnord_data['ft']:
+                isl_nafnord.fk_ft_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['mg'])
+                db.Session.commit()
+    # TODO: add undantekning handling
     return isl_ord
 
 
@@ -801,6 +823,35 @@ def assert_sagnbeyging_obj(sagnbeyging_obj):
             for sagnbeyging in sagnbeyging_obj['þátíð']['ft']:
                 if sagnbeyging is not None:
                     assert(type(sagnbeyging) is str)
+
+
+def assert_samsett_obj(samsett_obj):
+    '''
+    assert object structure of {
+        "forskeyti": str,
+        "samsetning": "stofn"/"eignarfalls"/"bandsstafs",
+        "haus": {
+            "orð": str,
+            "flokkur": {str defning orðflokkur},
+            ["kyn": "kvk"/"kk"/"hk"]
+        },
+        "hali": {
+            "orð": str,
+            "flokkur": {str defning orðflokkur},
+            ["kyn": "kvk"/"kk"/"hk"]
+        }
+    }
+    '''
+    dictorinos = (dict, collections.OrderedDict)
+    samsetning_types = ['stofn', 'eignarfalls', 'bandstafs']
+    assert(type(samsett_obj) in dictorinos)
+    assert('forskeyti' in samsett_obj)
+    assert(type(samsett_obj['forskeyti']) is str)
+    assert(len(samsett_obj['forskeyti']) > 0)
+    assert('samsetning' in samsett_obj)
+    assert(samsett_obj['samsetning'] in samsetning_types)
+    assert('haus' in samsett_obj)
+    assert(type(samsett_obj['haus']) in dictorinos)
 
 
 def add_word(word_data, write_to_file=True):

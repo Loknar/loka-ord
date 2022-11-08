@@ -64,6 +64,7 @@ class Ord(Base):
     Ord = utils.word_column()
     Ordflokkur = utils.selection(Ordflokkar, Ordflokkar.Nafnord)
     Samsett = utils.boolean_default_false()
+    OsjalfstaedurOrdhluti = utils.boolean_default_false()
     Undantekning = utils.boolean_default_false()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
@@ -73,10 +74,18 @@ class SamsettOrd(Base):
     __tablename__ = 'SamsettOrd'
     SamsettOrd_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Forskeyti = utils.word_column()
-    fk_Forskeyti_Ord_id = utils.foreign_integer_primary_key('Ord')
-    fk_Eftirhluti_Ord_id = utils.foreign_integer_primary_key('Ord')
+    fk_FyrstiOrdHluti_id = utils.foreign_integer_primary_key('SamsettOrdhlutar')
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class SamsettOrdhlutar(Base):
+    __tablename__ = 'SamsettOrdhlutar'
+    SamsettOrdhlutar_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Ordmynd = utils.word_column()
     Gerd = utils.selection(Ordasamsetningar, Ordasamsetningar.Stofnsamsetning)
+    fk_NaestiOrdHluti_id = utils.foreign_integer_primary_key('SamsettOrdhlutar')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 

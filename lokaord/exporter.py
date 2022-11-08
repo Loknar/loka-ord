@@ -73,7 +73,7 @@ def write_datafiles_from_db():
             encoding='utf-8'
         ) as json_file:
             json_file.write(nafnord_data_json_str)
-            logman.info('Wrote file "nafnord/%s' % (isl_ord_nafnord_filename, ))
+            logman.info('Wrote file "nafnord/%s"' % (isl_ord_nafnord_filename, ))
     # lýsingarorð
     isl_ord_lysingarord_list = db.Session.query(isl.Ord).filter_by(
         Ordflokkur=isl.Ordflokkar.Lysingarord,
