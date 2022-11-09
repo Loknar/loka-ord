@@ -2,9 +2,29 @@
 	"orð": "reiðtygi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "reið",
+			"samsetning": "stofn",
+			"orð": "reið",
+			"flokkur": "nafnorð",
+			"kyn": "kvk",
+			"hash": "30abeab03384caad6c953458c6efc534e296c144e4155f04f09e91652d200864"
+		},
+		{
+			"orð": "tygi",
+			"flokkur": "nafnorð",
+			"kyn": "hk",
+			"hash": "6eb79749a72cde7b12c1e430c541c13256dfa880b54a814189de4aad3004fa7d"
+		}
+	],
+	"et": {
+		"ág": ["reiðtygi", "reiðtygi", "reiðtygi", "reiðtygis"],
+		"mg": ["reiðtygið", "reiðtygið", "reiðtyginu", "reiðtygisins"]
+	},
 	"ft": {
 		"ág": ["reiðtygi", "reiðtygi", "reiðtygjum", "reiðtygja"],
 		"mg": ["reiðtygin", "reiðtygin", "reiðtygjunum", "reiðtygjanna"]
 	},
-	"hash": "c8b66c08bcb928f86aab20b40824ec18c700b5fb156ecd0222fe1614c26d4ba8"
+	"hash": "tbd"
 }
