@@ -24,12 +24,12 @@ def build_db_from_datafiles():
     datafiles_dir_abs = os.path.abspath(
         os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
     )
-    # nafnorð
-    logman.info('Reading "nafnorð" datafiles ..')
+    logman.info('We import core words first, then combined (samssett).')
+    # nafnorð core
     nafnord_dir = os.path.join(datafiles_dir_abs, 'nafnord')
-    for nafnord_file in sorted(pathlib.Path(nafnord_dir).iterdir()):
-        assert(nafnord_file.is_file())
-        assert(nafnord_file.name.endswith('.json'))
+    nafnord_files, nafnord_files_samsett = list_json_files_separate_samsett_ord(nafnord_dir)
+    logman.info('Reading core "nafnorð" datafiles (%s) ..' % (len(nafnord_files), ))
+    for nafnord_file in nafnord_files:
         logman.info('File nafnord/%s ..' % (nafnord_file.name, ))
         nafnord_data = None
         with nafnord_file.open(mode='r', encoding='utf-8') as fi:
@@ -42,12 +42,13 @@ def build_db_from_datafiles():
             logman.warning('Nafnorð "%s" (%s) already exists! Skipping.' % (
                 nafnord_data['orð'], nafnord_data['kyn']
             ))
-    # lýsingarorð
-    logman.info('Reading "lýsingarorð" datafiles ..')
+    # lýsingarorð core
     lysingarord_dir = os.path.join(datafiles_dir_abs, 'lysingarord')
-    for lysingarord_file in sorted(pathlib.Path(lysingarord_dir).iterdir()):
-        assert(lysingarord_file.is_file())
-        assert(lysingarord_file.name.endswith('.json'))
+    lysingarord_files, lysingarord_files_samsett = list_json_files_separate_samsett_ord(
+        lysingarord_dir
+    )
+    logman.info('Reading core "lýsingarorð" datafiles (%s) ..' % (len(lysingarord_files), ))
+    for lysingarord_file in lysingarord_files:
         logman.info('File lysingarord/%s ..' % (lysingarord_file.name, ))
         lysingarord_data = None
         with lysingarord_file.open(mode='r', encoding='utf-8') as fi:
@@ -60,12 +61,11 @@ def build_db_from_datafiles():
             logman.warning('Lýsingarorð "%s" already exists! Skipping.' % (
                 lysingarord_data['orð'],
             ))
-    # sagnorð
-    logman.info('Reading "sagnorð" datafiles ..')
+    # sagnorð core
     sagnord_dir = os.path.join(datafiles_dir_abs, 'sagnord')
-    for sagnord_file in sorted(pathlib.Path(sagnord_dir).iterdir()):
-        assert(sagnord_file.is_file())
-        assert(sagnord_file.name.endswith('.json'))
+    sagnord_files, sagnord_files_samsett = list_json_files_separate_samsett_ord(sagnord_dir)
+    logman.info('Reading core "sagnorð" datafiles (%s) ..' % (len(sagnord_files), ))
+    for sagnord_file in sagnord_files:
         logman.info('File sagnord/%s ..' % (sagnord_file.name, ))
         sagnord_data = None
         with sagnord_file.open(mode='r', encoding='utf-8') as fi:
@@ -78,8 +78,75 @@ def build_db_from_datafiles():
             logman.warning('Sagnorð "%s" already exists! Skipping.' % (
                 sagnord_data['orð'],
             ))
-    # fleiri orð
+    # TODO: add other orðflokkar
+    # nafnorð samsett
+    logman.info('Reading samsett "nafnorð" datafiles (%s) ..' % (len(nafnord_files_samsett), ))
+    for nafnord_file in nafnord_files_samsett:
+        logman.info('File nafnord/%s ..' % (nafnord_file.name, ))
+        nafnord_data = None
+        with nafnord_file.open(mode='r', encoding='utf-8') as fi:
+            nafnord_data = json.loads(fi.read())
+        isl_ord = lookup_nafnord(nafnord_data)
+        if isl_ord is None:
+            add_nafnord(nafnord_data)
+            logman.info('Added nafnorð "%s" (%s).' % (nafnord_data['orð'], nafnord_data['kyn']))
+        else:
+            logman.warning('Nafnorð "%s" (%s) already exists! Skipping.' % (
+                nafnord_data['orð'], nafnord_data['kyn']
+            ))
+    # lýsingarorð samsett
+    logman.info('Reading samsett "lýsingarorð" datafiles (%s) ..' % (
+        len(lysingarord_files_samsett),
+    ))
+    for lysingarord_file in lysingarord_files_samsett:
+        logman.info('File lysingarord/%s ..' % (lysingarord_file.name, ))
+        lysingarord_data = None
+        with lysingarord_file.open(mode='r', encoding='utf-8') as fi:
+            lysingarord_data = json.loads(fi.read())
+        isl_ord = lookup_lysingarord(lysingarord_data)
+        if isl_ord is None:
+            add_lysingarord(lysingarord_data)
+            logman.info('Added lýsingarorð "%s".' % (lysingarord_data['orð'], ))
+        else:
+            logman.warning('Lýsingarorð "%s" already exists! Skipping.' % (
+                lysingarord_data['orð'],
+            ))
+    # sagnorð samsett
+    logman.info('Reading samsett "sagnorð" datafiles (%s) ..' % (len(sagnord_files_samsett), ))
+    for sagnord_file in sagnord_files_samsett:
+        logman.info('File sagnord/%s ..' % (sagnord_file.name, ))
+        sagnord_data = None
+        with sagnord_file.open(mode='r', encoding='utf-8') as fi:
+            sagnord_data = json.loads(fi.read())
+        isl_ord = lookup_sagnord(sagnord_data)
+        if isl_ord is None:
+            add_sagnord(sagnord_data)
+            logman.info('Added sagnorð "%s".' % (sagnord_data['orð'], ))
+        else:
+            logman.warning('Sagnorð "%s" already exists! Skipping.' % (
+                sagnord_data['orð'],
+            ))
+    # TODO: add other orðflokkar
     logman.info('TODO: finish implementing build_db_from_datafiles')
+
+
+def list_json_files_separate_samsett_ord(file_dir):
+    files_list = []
+    files_list_samsett = []
+    for json_file in sorted(pathlib.Path(file_dir).iterdir()):
+        if not json_file.is_file():
+            continue
+        if not json_file.name.endswith('.json'):
+            continue
+        json_data = None
+        with json_file.open(mode='r', encoding='utf-8') as fi:
+            json_data = json.loads(fi.read())
+        if 'samsett' in json_data:
+            files_list_samsett.append(json_file)
+            continue
+        files_list.append(json_file)
+    return (files_list, files_list_samsett)
+
 
 
 def lookup_nafnord(nafnord_data):
@@ -129,7 +196,7 @@ def add_nafnord(nafnord_data):
     db.Session.add(isl_ord)
     db.Session.commit()
     if 'samsett' in nafnord_data:
-        add_samsett_ord(isl_ord.Ord_id, nafnord_data['samsett'])
+        add_samsett_ord(isl_ord.Ord_id, nafnord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
@@ -193,8 +260,8 @@ def add_lysingarord(lysingarord_data):
     )
     db.Session.add(isl_lysingarord)
     db.Session.commit()
-    if 'samsett' in nafnord_data:
-        add_samsett_ord(isl_ord.Ord_id, nafnord_data['samsett'])
+    if 'samsett' in lysingarord_data:
+        add_samsett_ord(isl_ord.Ord_id, lysingarord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
@@ -406,8 +473,8 @@ def add_sagnord(sagnord_data):
     )
     db.Session.add(isl_sagnord)
     db.Session.commit()
-    if 'samsett' in nafnord_data:
-        add_samsett_ord(isl_ord.Ord_id, nafnord_data['samsett'])
+    if 'samsett' in sagnord_data:
+        add_samsett_ord(isl_ord.Ord_id, sagnord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
@@ -853,7 +920,7 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
         assert(type(ordhluti_obj['mynd']) is str)
         assert(len(ordhluti_obj['mynd']) > 0)
         assert('samsetning' in ordhluti_obj)
-        assert(type(ordhluti_obj['samsetning']) in samsetningar)
+        assert(ordhluti_obj['samsetning'] in samsetningar)
     assert('orð' in ordhluti_obj)
     assert(type(ordhluti_obj['orð']) is str)
     assert(len(ordhluti_obj['orð']) > 0)
@@ -866,7 +933,7 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
     assert(type(ordhluti_obj['hash']) is str)
     assert(len(ordhluti_obj['hash']) > 0)
     if last_obj is True and 'mynd' not in ordhluti_obj:
-        assert(ordhluti_obj['flokkur'] == flokkur)
+        assert(ordhluti_obj['flokkur'] == ordflokkur)
 
 
 def add_samsett_ord(isl_ord_id, ord_data):
@@ -908,15 +975,15 @@ def add_samsett_ord(isl_ord_id, ord_data):
         assert(ordhluti_isl_ord is not None)
         isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
             fk_Ord_id=ordhluti_isl_ord.Ord_id,
-            Ordmynd=ordhluti_obj['mynd'],
+            Ordmynd=ordhluti_mynd,
             Gerd=ordhluti_gerd,
             fk_NaestiOrdhluti_id=last_ordhluti_obj_id
-        )
+        ).first()
         # if identical orðhluti doesn't exist then create it
         if isl_ordhluti is None:
             isl_ordhluti = isl.SamsettOrdhlutar(
                 fk_Ord_id=ordhluti_isl_ord.Ord_id,
-                Ordmynd=ordhluti_obj['mynd'],
+                Ordmynd=ordhluti_mynd,
                 Gerd=ordhluti_gerd,
                 fk_NaestiOrdhluti_id=last_ordhluti_obj_id
             )

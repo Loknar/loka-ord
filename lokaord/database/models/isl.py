@@ -84,7 +84,7 @@ class SamsettOrdhlutar(Base):
     SamsettOrdhlutar_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Ordmynd = utils.word_column()
-    Gerd = utils.selection(Ordasamsetningar, Ordasamsetningar.Stofnsamsetning)
+    Gerd = utils.selection(Ordasamsetningar, None)
     fk_NaestiOrdhluti_id = utils.foreign_integer_primary_key('SamsettOrdhlutar')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
