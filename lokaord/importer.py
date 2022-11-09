@@ -129,47 +129,30 @@ def add_nafnord(nafnord_data):
     db.Session.add(isl_ord)
     db.Session.commit()
     if 'samsett' in nafnord_data:
-        samsetning_types = ['stofn', 'eignarfalls', 'bandstafs']
-        samsetning_type = None
-        assert('forskeyti' in nafnord_data['samsett'])
-        assert(type(nafnord_data['samsett']['forskeyti']) is str)
-        assert(len(nafnord_data['samsett']['forskeyti']) > 0)
-        assert('samsetning' in nafnord_data['samsett'])
-        assert(type(nafnord_data['samsett']['samsetning']) is str)
-        if nafnord_data['samsett']['samsetning'] == 'stofn':
-            samsetning_type = isl.Ordasamsetningar.Stofnsamsetning
-        elif nafnord_data['samsett']['samsetning'] == 'eignarfalls':
-            samsetning_type = isl.Ordasamsetningar.Eignarfallssamsetning
-        elif nafnord_data['samsett']['samsetning'] == 'bandstafs':
-            samsetning_type = isl.Ordasamsetningar.Bandstafssamsetning
-        assert(samsetning_type is not None)
-        assert('haus' in nafnord_data['samsett'])
-        # handle samsett orð
-        isl_samsett_ord = isl.SamsettOrd(
-            fk_Ord_id=isl_ord.Ord_id,
-
-        )
-    else:
-        isl_nafnord = isl.Nafnord(
-            fk_Ord_id=isl_ord.Ord_id,
-            Kyn=isl_ord_kyn
-        )
-        db.Session.add(isl_nafnord)
+        add_samsett_ord(isl_ord.Ord_id, nafnord_data['samsett'])
+        isl_ord.Samsett = True
         db.Session.commit()
-        if 'et' in nafnord_data:
-            if 'ág' in nafnord_data['et']:
-                isl_nafnord.fk_et_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['ág'])
-                db.Session.commit()
-            if 'mg' in nafnord_data['et']:
-                isl_nafnord.fk_et_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['mg'])
-                db.Session.commit()
-        if 'ft' in nafnord_data:
-            if 'ág' in nafnord_data['ft']:
-                isl_nafnord.fk_ft_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['ág'])
-                db.Session.commit()
-            if 'mg' in nafnord_data['ft']:
-                isl_nafnord.fk_ft_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['mg'])
-                db.Session.commit()
+        return isl_ord
+    isl_nafnord = isl.Nafnord(
+        fk_Ord_id=isl_ord.Ord_id,
+        Kyn=isl_ord_kyn
+    )
+    db.Session.add(isl_nafnord)
+    db.Session.commit()
+    if 'et' in nafnord_data:
+        if 'ág' in nafnord_data['et']:
+            isl_nafnord.fk_et_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['ág'])
+            db.Session.commit()
+        if 'mg' in nafnord_data['et']:
+            isl_nafnord.fk_et_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['mg'])
+            db.Session.commit()
+    if 'ft' in nafnord_data:
+        if 'ág' in nafnord_data['ft']:
+            isl_nafnord.fk_ft_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['ág'])
+            db.Session.commit()
+        if 'mg' in nafnord_data['ft']:
+            isl_nafnord.fk_ft_mgr_Fallbeyging_id = add_fallbeyging(nafnord_data['ft']['mg'])
+            db.Session.commit()
     # TODO: add undantekning handling
     return isl_ord
 
@@ -210,6 +193,11 @@ def add_lysingarord(lysingarord_data):
     )
     db.Session.add(isl_lysingarord)
     db.Session.commit()
+    if 'samsett' in nafnord_data:
+        add_samsett_ord(isl_ord.Ord_id, nafnord_data['samsett'])
+        isl_ord.Samsett = True
+        db.Session.commit()
+        return isl_ord
     if 'frumstig' in lysingarord_data:
         if 'sb' in lysingarord_data['frumstig']:
             if 'et' in lysingarord_data['frumstig']['sb']:
@@ -418,6 +406,11 @@ def add_sagnord(sagnord_data):
     )
     db.Session.add(isl_sagnord)
     db.Session.commit()
+    if 'samsett' in nafnord_data:
+        add_samsett_ord(isl_ord.Ord_id, nafnord_data['samsett'])
+        isl_ord.Samsett = True
+        db.Session.commit()
+        return isl_ord
     if 'germynd' in sagnord_data:
         if 'nafnháttur' in sagnord_data['germynd']:
             isl_sagnord.Germynd_Nafnhattur = sagnord_data['germynd']['nafnháttur']
@@ -825,33 +818,115 @@ def assert_sagnbeyging_obj(sagnbeyging_obj):
                     assert(type(sagnbeyging) is str)
 
 
-def assert_samsett_obj(samsett_obj):
+def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
     '''
     assert object structure of {
-        "forskeyti": str,
-        "samsetning": "stofn"/"eignarfalls"/"bandsstafs",
-        "haus": {
-            "orð": str,
-            "flokkur": {str defning orðflokkur},
-            ["kyn": "kvk"/"kk"/"hk"]
-        },
-        "hali": {
-            "orð": str,
-            "flokkur": {str defning orðflokkur},
-            ["kyn": "kvk"/"kk"/"hk"]
-        }
+        ["mynd": str,]
+        ["samsetning": "stofn"/"eignarfalls"/"bandsstafs",]
+        "orð": str,
+        "flokkur": {str defning orðflokkur},
+        ["kyn": "kvk"/"kk"/"hk",]
+        "hash": str
     }
+    with some additional rules/caveats
     '''
     dictorinos = (dict, collections.OrderedDict)
-    samsetning_types = ['stofn', 'eignarfalls', 'bandstafs']
-    assert(type(samsett_obj) in dictorinos)
-    assert('forskeyti' in samsett_obj)
-    assert(type(samsett_obj['forskeyti']) is str)
-    assert(len(samsett_obj['forskeyti']) > 0)
-    assert('samsetning' in samsett_obj)
-    assert(samsett_obj['samsetning'] in samsetning_types)
-    assert('haus' in samsett_obj)
-    assert(type(samsett_obj['haus']) in dictorinos)
+    samsetningar = ['stofn', 'eignarfalls', 'bandstafs']
+    ordflokkar = [
+        'nafnorð',
+        'lýsingarorð',
+        'greinir',
+        'frumtala',
+        'raðtala',
+        'fornafn',
+        'sagnorð',
+        'forsetning',
+        'atviksorð',
+        'nafnháttarmerki',
+        'samtenging',
+        'upphrópun'
+    ]
+    kyn = ['kk', 'kvk', 'hk']
+    assert(type(ordhluti_obj) in dictorinos)
+    if last_obj is False or 'mynd' in ordhluti_obj:
+        assert('mynd' in ordhluti_obj)
+        assert(type(ordhluti_obj['mynd']) is str)
+        assert(len(ordhluti_obj['mynd']) > 0)
+        assert('samsetning' in ordhluti_obj)
+        assert(type(ordhluti_obj['samsetning']) in samsetningar)
+    assert('orð' in ordhluti_obj)
+    assert(type(ordhluti_obj['orð']) is str)
+    assert(len(ordhluti_obj['orð']) > 0)
+    assert('flokkur' in ordhluti_obj)
+    assert(ordhluti_obj['flokkur'] in ordflokkar)
+    if ordhluti_obj['flokkur'] == 'nafnorð':
+        assert('kyn' in ordhluti_obj)
+        assert(ordhluti_obj['kyn'] in kyn)
+    assert('hash' in ordhluti_obj)
+    assert(type(ordhluti_obj['hash']) is str)
+    assert(len(ordhluti_obj['hash']) > 0)
+    if last_obj is True and 'mynd' not in ordhluti_obj:
+        assert(ordhluti_obj['flokkur'] == flokkur)
+
+
+def add_samsett_ord(isl_ord_id, ord_data):
+    assert(type(ord_data['samsett']) is list)
+    assert(len(ord_data['samsett']) > 0)
+    last_idx = len(ord_data['samsett']) - 1
+    for idx, ordhluti_obj in enumerate(ord_data['samsett']):
+        flokkur = ord_data['flokkur']
+        last_obj = (idx == last_idx)
+        assert_ordhluti_obj(ordhluti_obj, ordflokkur=flokkur, last_obj=last_obj)
+    # handle samsett orð
+    isl_samsett_ord = isl.SamsettOrd(fk_Ord_id=isl_ord_id)
+    db.Session.add(isl_samsett_ord)
+    db.Session.commit()
+    last_ordhluti_obj_id = None
+    # iterate through and ensure orðhlutar in reverse because it simplifies lots of things
+    for idx, ordhluti_obj in enumerate(reversed(ord_data['samsett'])):
+        # check if orðhluti with identical values already exists
+        ordhluti_mynd = None
+        ordhluti_gerd = None
+        if 'mynd' in ordhluti_obj:
+            ordhluti_mynd = ordhluti_obj['mynd']
+            if ordhluti_obj['samsetning'] == 'stofn':
+                ordhluti_gerd = isl.Ordasamsetningar.Stofnsamsetning
+            elif ordhluti_obj['samsetning'] == 'eignarfalls':
+                ordhluti_gerd = isl.Ordasamsetningar.Eignarfallssamsetning
+            elif ordhluti_obj['samsetning'] == 'bandstafs':
+                ordhluti_gerd = isl.Ordasamsetningar.Bandstafssamsetning
+        ordhluti_isl_ord = None
+        if ordhluti_obj['flokkur'] == 'nafnorð':
+            ordhluti_isl_ord = lookup_nafnord({
+                'orð': ordhluti_obj['orð'], 'kyn': ordhluti_obj['kyn']
+            })
+        elif ordhluti_obj['flokkur'] == 'lýsingarorð':
+            ordhluti_isl_ord = lookup_lysingarord({'orð': ordhluti_obj['orð']})
+        elif ordhluti_obj['flokkur'] == 'sagnorð':
+            ordhluti_isl_ord = lookup_sagnord({'orð': ordhluti_obj['orð']})
+        # TODO: add handling for the other orðflokkar here
+        assert(ordhluti_isl_ord is not None)
+        isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
+            fk_Ord_id=ordhluti_isl_ord.Ord_id,
+            Ordmynd=ordhluti_obj['mynd'],
+            Gerd=ordhluti_gerd,
+            fk_NaestiOrdhluti_id=last_ordhluti_obj_id
+        )
+        # if identical orðhluti doesn't exist then create it
+        if isl_ordhluti is None:
+            isl_ordhluti = isl.SamsettOrdhlutar(
+                fk_Ord_id=ordhluti_isl_ord.Ord_id,
+                Ordmynd=ordhluti_obj['mynd'],
+                Gerd=ordhluti_gerd,
+                fk_NaestiOrdhluti_id=last_ordhluti_obj_id
+            )
+            db.Session.add(isl_ordhluti)
+            db.Session.commit()
+        last_ordhluti_obj_id = isl_ordhluti.SamsettOrdhlutar_id
+        # when on the last (first) orðhluti then link it to the SamsettOrd record
+        if idx == last_idx:
+            isl_samsett_ord.fk_FyrstiOrdHluti_id = isl_ordhluti.SamsettOrdhlutar_id
+            db.Session.commit()
 
 
 def add_word(word_data, write_to_file=True):
