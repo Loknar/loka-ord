@@ -532,9 +532,9 @@ def input_sagnord_cli():
         msg_mynd='Germynd persónuleg framsöguháttur nútíð fleirtala',
         msg_mynd_s='germynd.personuleg.framsoguhattur.nutid.ft',
         msg_daemi=[
-            '\033[90mvið\033[0m \033[32mgaf\033[0m',
-            '\033[90mþið\033[0m \033[32mgafst\033[0m',
-            '\033[90mþeir/þær/þau\033[0m \033[32mgaf\033[0m'
+            '\033[90mvið\033[0m \033[32mgefum\033[0m',
+            '\033[90mþið\033[0m \033[32mgefið\033[0m',
+            '\033[90mþeir/þær/þau\033[0m \033[32mgefa\033[0m'
         ]
     )
     # germynd persónuleg framsöguháttur þátíð et
@@ -543,9 +543,9 @@ def input_sagnord_cli():
         msg_mynd='Germynd persónuleg framsöguháttur þátíð eintala',
         msg_mynd_s='germynd.personuleg.framsoguhattur.thatid.et',
         msg_daemi=[
-            '\033[90még\033[0m \033[32mgefum\033[0m',
-            '\033[90mþú\033[0m \033[32mgefið\033[0m',
-            '\033[90mhann/hún/það\033[0m \033[32mgefa\033[0m'
+            '\033[90még\033[0m \033[32mgaf\033[0m',
+            '\033[90mþú\033[0m \033[32mgafst\033[0m',
+            '\033[90mhann/hún/það\033[0m \033[32mgaf\033[0m'
         ]
     )
     # germynd persónuleg framsöguháttur þátíð ft
@@ -586,9 +586,9 @@ def input_sagnord_cli():
         msg_mynd='Germynd persónuleg viðtengingarháttur þátíð eintala',
         msg_mynd_s='germynd.personuleg.vidtengingarhattur.thatid.et',
         msg_daemi=[
-            '\033[90mþótt ég\033[0m \033[32mgefi\033[0m',
-            '\033[90mþótt þú\033[0m \033[32mgefir\033[0m',
-            '\033[90mþótt hann/hún/það\033[0m \033[32mgefi\033[0m'
+            '\033[90mþótt ég\033[0m \033[32mgæfi\033[0m',
+            '\033[90mþótt þú\033[0m \033[32mgæfir\033[0m',
+            '\033[90mþótt hann/hún/það\033[0m \033[32mgæfi\033[0m'
         ]
     )
     # germynd persónuleg viðtengingarháttur þátíð ft
@@ -596,9 +596,9 @@ def input_sagnord_cli():
         msg_mynd='Germynd persónuleg viðtengingarháttur þátíð fleirtala',
         msg_mynd_s='germynd.personuleg.vidtengingarhattur.thatid.ft',
         msg_daemi=[
-            '\033[90mþótt ég\033[0m \033[32mgæfi\033[0m',
-            '\033[90mþótt þú\033[0m \033[32mgæfir\033[0m',
-            '\033[90mþótt hann/hún/það\033[0m \033[32mgæfu\033[0m'
+            '\033[90mþótt við\033[0m \033[32mgæfum\033[0m',
+            '\033[90mþótt þið\033[0m \033[32mgæfuð\033[0m',
+            '\033[90mþótt þeir/þær/þau\033[0m \033[32mgæfu\033[0m'
         ]
     )
     # germynd spurnarmyndir framsöguháttur nútíð et
@@ -618,7 +618,7 @@ def input_sagnord_cli():
     # germynd spurnarmyndir framsöguháttur nútíð ft
     germynd_spurnarmyndir_framsoguhattur_nutid_ft = input((
         'Germynd spurnarmynd framsöguháttur nútíð fleirtala '
-        '(dæmi: \033[32mgefiði\033[0m \033[90morð, það gleðja mun Loka\033[0m): '
+        '(dæmi: \033[32mgefiði\033[0m \033[90mykkar orð til Loka\033[0m): '
     ))
     data['germynd']['spurnarmyndir']['framsöguháttur']['nútíð']['ft'] = (
         germynd_spurnarmyndir_framsoguhattur_nutid_ft
@@ -705,10 +705,10 @@ def input_sagnord_cli():
     logman.info('midmynd.nafnhattur: %s' % (midmynd_nafnhattur, ))
     # miðmynd sagnbót
     midmynd_sagnbot = input(
-        'Miðmynd nafnháttur (dæmi: \033[90még hef\033[0m \033[32mgefist\033[0m): '
+        'Miðmynd sagnbót (dæmi: \033[90még hef\033[0m \033[32mgefist\033[0m): '
     )
     data['miðmynd']['sagnbót'] = midmynd_nafnhattur
-    logman.info('midmynd.nafnhattur: %s' % (midmynd_nafnhattur, ))
+    logman.info('midmynd.sagnbot: %s' % (midmynd_nafnhattur, ))
     # miðmynd boðháttur eintala
     midmynd_bodhattur_et = input(
         'Miðmynd boðháttur eintala (dæmi: \033[32mgefstu\033[0m \033[90mupp\033[0m): '
@@ -821,54 +821,195 @@ def input_sagnord_cli():
         'Miðmynd spurnarmyndir framsöguháttur nútíð eintala '
         '(dæmi: \033[32mgefstu\033[0m): '
     ))
-    data['germynd']['spurnarmyndir']['framsöguháttur']['nútíð']['et'] = (
+    data['miðmynd']['spurnarmyndir']['framsöguháttur']['nútíð']['et'] = (
         midmynd_spurnarmyndir_framsoguhattur_nutid_et
     )
     logman.info('midmynd.spurnarmynd.framsoguhattur.nutid.et: %s' % (
         midmynd_spurnarmyndir_framsoguhattur_nutid_et,
     ))
-    # miðmynd spurnarmyndir framsöguháttur nútíð fleirtala
-    #midmynd_spurnarmyndir_framsoguhattur_nutid_ft = input((
-    #    'Miðmynd spurnarmyndir framsöguháttur nútíð fleirtala '
-    #    '(dæmi: \033[32mgefstu\033[0m): '
-    #))
-    #data['germynd']['spurnarmyndir']['framsöguháttur']['nútíð']['ft'] = (
-    #    midmynd_spurnarmyndir_framsoguhattur_nutid_ft
-    #)
-    #logman.info('midmynd.spurnarmynd.framsoguhattur.nutid.ft: %s' % (
-    #    midmynd_spurnarmyndir_framsoguhattur_nutid_ft,
-    #))
-    ## miðmynd spurnarmyndir framsöguháttur þátíð eintala
-    #data['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð'] = collections.OrderedDict()
-    #midmynd_spurnarmyndir_framsoguhattur_thatid_et = input((
-    #    'Miðmynd spurnarmyndir framsöguháttur nútíð eintala '
-    #    '(dæmi: \033[32mgefstu\033[0m): '
-    #))
-    #data['germynd']['spurnarmyndir']['framsöguháttur']['nútíð']['et'] = (
-    #    midmynd_spurnarmyndir_framsoguhattur_nutid_et
-    #)
-    #logman.info('midmynd.spurnarmynd.framsoguhattur.nutid.et: %s' % (
-    #    midmynd_spurnarmyndir_framsoguhattur_nutid_et,
-    #))
-    # miðmynd spurnarmyndir framsöguháttur þátíð fleirtala
+    # miðmynd spurnarmyndir framsöguháttur þátíð eintala
+    data['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð'] = collections.OrderedDict()
+    midmynd_spurnarmyndir_framsoguhattur_thatid_et = input((
+        'Miðmynd spurnarmyndir framsöguháttur þátíð eintala '
+        '(dæmi: \033[32mgafstu\033[0m): '
+    ))
+    data['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð']['et'] = (
+        midmynd_spurnarmyndir_framsoguhattur_thatid_et
+    )
+    logman.info('midmynd.spurnarmynd.framsoguhattur.thatid.et: %s' % (
+        midmynd_spurnarmyndir_framsoguhattur_thatid_et,
+    ))
     # miðmynd spurnarmyndir viðtengingarháttur nútíð eintala
-    # miðmynd spurnarmyndir viðtengingarháttur nútíð fleirtala
+    data['miðmynd']['spurnarmyndir']['viðtengingarháttur'] = collections.OrderedDict()
+    data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð'] = collections.OrderedDict()
+    midmynd_spurnarmyndir_vidtengingarhattur_nutid_et = input((
+        'Miðmynd spurnarmyndir viðtengingarháttur nútíð eintala '
+        '(dæmi: \033[32mgefistu\033[0m): '
+    ))
+    data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð']['et'] = (
+        midmynd_spurnarmyndir_vidtengingarhattur_nutid_et
+    )
+    logman.info('midmynd.spurnarmynd.vidtengingarhattur.nutid.et: %s' % (
+        midmynd_spurnarmyndir_vidtengingarhattur_nutid_et,
+    ))
     # miðmynd spurnarmyndir viðtengingarháttur þátíð eintala
-    # miðmynd spurnarmyndir viðtengingarháttur þátíð fleirtala
+    data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð'] = collections.OrderedDict()
+    midmynd_spurnarmyndir_vidtengingarhattur_thatid_et = input((
+        'Miðmynd spurnarmyndir viðtengingarháttur þátið eintala '
+        '(dæmi: \033[32mgæfistu\033[0m): '
+    ))
+    data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']['et'] = (
+        midmynd_spurnarmyndir_vidtengingarhattur_thatid_et
+    )
+    logman.info('midmynd.spurnarmynd.vidtengingarhattur.thatid.et: %s' % (
+        midmynd_spurnarmyndir_vidtengingarhattur_thatid_et,
+    ))
     # lýsingarháttur nútíðar
+    data['lýsingarháttur'] = collections.OrderedDict()
+    lysingarhattur_nutidar = input(
+        'Lýsingarháttur nútíðar (dæmi: einhver er \033[32mgefandi\033[0m): '
+    )
+    data['lýsingarháttur']['nútíðar'] = lysingarhattur_nutidar
+    logman.info('lysingarhattur.nutidar: %s' % (lysingarhattur_nutidar, ))
     # lýsingarháttur þátíðar sterk beyging eintala kk
+    data['lýsingarháttur']['þátíðar'] = collections.OrderedDict()
+    data['lýsingarháttur']['þátíðar']['sb'] = collections.OrderedDict()
+    data['lýsingarháttur']['þátíðar']['sb']['et'] = collections.OrderedDict()
+    data['lýsingarháttur']['þátíðar']['sb']['et']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar sterk beyging eintala karlkyn',
+        msg_mynd_s='lysingarhattur.þatid.sb.et.kk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mgefinn\033[0m \033[90mhestur\033[0m',
+            '\033[90mum\033[0m \033[32mgefinn\033[0m \033[90mhest\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnum\033[0m \033[90mhesti\033[0m',
+            '\033[90mtil\033[0m \033[32mgefins\033[0m \033[90mhests\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar sterk beyging eintala kvk
+    data['lýsingarháttur']['þátíðar']['sb']['et']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar sterk beyging eintala kvenkyn',
+        msg_mynd_s='lysingarhattur.þatid.sb.et.kvk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mgefin\033[0m \033[90mkýr\033[0m',
+            '\033[90mum\033[0m \033[32mgefna\033[0m \033[90mkú\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefinni\033[0m \033[90mkú\033[0m',
+            '\033[90mtil\033[0m \033[32mgefinnar\033[0m \033[90mkýr\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar sterk beyging eintala hk
+    data['lýsingarháttur']['þátíðar']['sb']['et']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar sterk beyging eintala hvorugkyn',
+        msg_mynd_s='lysingarhattur.þatid.sb.et.hk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mgefið\033[0m \033[90mlamb\033[0m',
+            '\033[90mum\033[0m \033[32mgefið\033[0m \033[90mlamb\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnu\033[0m \033[90mlambi\033[0m',
+            '\033[90mtil\033[0m \033[32mgefins\033[0m \033[90mlambs\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar sterk beyging fleirtala kk
+    data['lýsingarháttur']['þátíðar']['sb']['ft'] = collections.OrderedDict()
+    data['lýsingarháttur']['þátíðar']['sb']['ft']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar sterk beyging fleirtala karlkyn',
+        msg_mynd_s='lysingarhattur.þatid.sb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mgefnir\033[0m \033[90mhestar\033[0m',
+            '\033[90mum\033[0m \033[32mgefna\033[0m \033[90mhesta\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnum\033[0m \033[90mhestum\033[0m',
+            '\033[90mtil\033[0m \033[32mgefinna\033[0m \033[90mhesta\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar sterk beyging fleirtala kvk
+    data['lýsingarháttur']['þátíðar']['sb']['ft']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar sterk beyging fleirtala kvenkyn',
+        msg_mynd_s='lysingarhattur.þatid.sb.ft.kvk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mgefnar\033[0m \033[90mkýr\033[0m',
+            '\033[90mum\033[0m \033[32mgefnar\033[0m \033[90mkýr\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnum\033[0m \033[90mkúm\033[0m',
+            '\033[90mtil\033[0m \033[32mgefinna\033[0m \033[90mkúa\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar sterk beyging fleirtala hk
+    data['lýsingarháttur']['þátíðar']['sb']['ft']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar sterk beyging fleirtala hvorugkyn',
+        msg_mynd_s='lysingarhattur.þatid.sb.ft.hk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mgefin\033[0m \033[90mlömb\033[0m',
+            '\033[90mum\033[0m \033[32mgefin\033[0m \033[90mlömb\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnum\033[0m \033[90mlömbum\033[0m',
+            '\033[90mtil\033[0m \033[32mgefinna\033[0m \033[90mlamba\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar veik beyging eintala kk
+    data['lýsingarháttur']['þátíðar']['vb'] = collections.OrderedDict()
+    data['lýsingarháttur']['þátíðar']['vb']['et'] = collections.OrderedDict()
+    data['lýsingarháttur']['þátíðar']['vb']['et']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar veik beyging eintala karlkyn',
+        msg_mynd_s='lysingarhattur.þatid.vb.et.kk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mgefni\033[0m \033[90mhesturinn\033[0m',
+            '\033[90mum\033[0m \033[32mgefna\033[0m \033[90mhestinn\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefna\033[0m \033[90mhestinum\033[0m',
+            '\033[90mtil\033[0m \033[32mgefna\033[0m \033[90mhestsins\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar veik beyging eintala kvk
+    data['lýsingarháttur']['þátíðar']['vb']['et']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar veik beyging eintala kvenkyn',
+        msg_mynd_s='lysingarhattur.þatid.vb.et.kvk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mgefna\033[0m \033[90mkýrin\033[0m',
+            '\033[90mum\033[0m \033[32mgefnu\033[0m \033[90mkúna\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnu\033[0m \033[90mkúnni\033[0m',
+            '\033[90mtil\033[0m \033[32mgefnu\033[0m \033[90mkýrinnar\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar veik beyging eintala hk
+    data['lýsingarháttur']['þátíðar']['vb']['et']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar veik beyging eintala hvorugkyn',
+        msg_mynd_s='lysingarhattur.þatid.vb.et.hk',
+        msg_daemi=[
+            '\033[90mhér er\033[0m \033[32mgefna\033[0m \033[90mlambið\033[0m',
+            '\033[90mum\033[0m \033[32mgefna\033[0m \033[90mlambið\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefna\033[0m \033[90mlambinu\033[0m',
+            '\033[90mtil\033[0m \033[32mgefna\033[0m \033[90mlambsins\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar veik beyging fleirtala kk
+    data['lýsingarháttur']['þátíðar']['vb']['ft'] = collections.OrderedDict()
+    data['lýsingarháttur']['þátíðar']['vb']['ft']['kk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar veik beyging fleirtala karlkyn',
+        msg_mynd_s='lysingarhattur.þatid.vb.ft.kk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mgefnu\033[0m \033[90mhestarnir\033[0m',
+            '\033[90mum\033[0m \033[32mgefnu\033[0m \033[90mhestana\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnu\033[0m \033[90mhestunum\033[0m',
+            '\033[90mtil\033[0m \033[32mgefnu\033[0m \033[90mhestanna\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar veik beyging fleirtala kvk
+    data['lýsingarháttur']['þátíðar']['vb']['ft']['kvk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar veik beyging fleirtala kvenkyn',
+        msg_mynd_s='lysingarhattur.þatid.vb.ft.kvk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mgefnu\033[0m \033[90mkýrnar\033[0m',
+            '\033[90mum\033[0m \033[32mgefnu\033[0m \033[90mkýrnar\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnu\033[0m \033[90mkúnum\033[0m',
+            '\033[90mtil\033[0m \033[32mgefnu\033[0m \033[90mkúnna\033[0m'
+        ]
+    )
     # lýsingarháttur þátíðar veik beyging fleirtala hk
-    import pdb; pdb.set_trace()
+    data['lýsingarháttur']['þátíðar']['vb']['ft']['hk'] = input_fallbeyging_cli(
+        msg_mynd='Lýsingarháttur þátíðar veik beyging fleirtala hvorugkyn',
+        msg_mynd_s='lysingarhattur.þatid.vb.ft.hk',
+        msg_daemi=[
+            '\033[90mhér eru\033[0m \033[32mgefnu\033[0m \033[90mlömbin\033[0m',
+            '\033[90mum\033[0m \033[32mgefnu\033[0m \033[90mlömbin\033[0m',
+            '\033[90mfrá\033[0m \033[32mgefnu\033[0m \033[90mlömbunum\033[0m',
+            '\033[90mtil\033[0m \033[32mgefnu\033[0m \033[90mlambanna\033[0m'
+        ]
+    )
     return data
 
 
@@ -904,10 +1045,10 @@ def input_personubeyging_cli(msg_mynd, msg_mynd_s, msg_daemi):
     fyrsta_persona = input('%s fyrsta persóna (dæmi: %s): ' % (msg_mynd, msg_daemi[0]))
     personubeyging.append(fyrsta_persona)
     logman.info('%s.1p: %s' % (msg_mynd_s, fyrsta_persona, ))
-    onnur_persona = input('%s önnur persóna (dæmi: %s): ' % (msg_mynd, msg_daemi[0]))
+    onnur_persona = input('%s önnur persóna (dæmi: %s): ' % (msg_mynd, msg_daemi[1]))
     personubeyging.append(onnur_persona)
     logman.info('%s.2p: %s' % (msg_mynd_s, onnur_persona, ))
-    thridja_persona = input('%s þriðja persóna (dæmi: %s): ' % (msg_mynd, msg_daemi[0]))
+    thridja_persona = input('%s þriðja persóna (dæmi: %s): ' % (msg_mynd, msg_daemi[2]))
     personubeyging.append(thridja_persona)
     logman.info('%s.3p: %s' % (msg_mynd_s, thridja_persona, ))
     return personubeyging

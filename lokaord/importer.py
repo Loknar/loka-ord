@@ -5,7 +5,6 @@ Importer functionality
 Importing data from files to SQL database.
 """
 import collections
-import hashlib
 import json
 import os
 import pathlib
@@ -13,7 +12,8 @@ import pathlib
 from lokaord import logman
 from lokaord.database import db
 from lokaord.database.models import isl
-from lokaord.exporter import MyJSONEncoder
+from lokaord.exporter import hashify_ord_data
+from lokaord.exporter import ord_data_to_fancy_json_str
 from lokaord.exporter import get_nafnord_from_db_to_ordered_dict
 from lokaord.exporter import get_lysingarord_from_db_to_ordered_dict
 from lokaord.exporter import get_sagnord_from_db_to_ordered_dict
@@ -1028,16 +1028,9 @@ def add_word(word_data, write_to_file=True):
     assert(isl_ord_filename is not None)
     if write_to_file is True:
     	# note: here we don't ensure unique hash, should we?
-    	isl_ord_data_hash = hashlib.sha256(
-    	    json.dumps(
-    	        isl_ord_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True
-    	    ).encode('utf-8')
-    	).hexdigest()
+    	isl_ord_data_hash = hashify_ord_data(isl_ord_data)
     	isl_ord_data['hash'] = isl_ord_data_hash
-    	isl_ord_data_json_str = json.dumps(
-    	    isl_ord_data, indent='\t', ensure_ascii=False, separators=(',', ': '),
-    	    cls=MyJSONEncoder
-    	)
+    	isl_ord_data_json_str = ord_data_to_fancy_json_str(isl_ord_data)
     	with open(
     	    os.path.join(datafiles_dir_abs, isl_ord_directory, isl_ord_filename),
     	    mode='w',

@@ -61,11 +61,11 @@ class Toluordaflokkar(enum.Enum):
 class Ord(Base):
     __tablename__ = 'Ord'
     Ord_id = utils.integer_primary_key()
-    Ord = utils.word_column()
-    Ordflokkur = utils.selection(Ordflokkar, Ordflokkar.Nafnord)
+    Ord = utils.word_column(nullable=False)
+    Ordflokkur = utils.selection(Ordflokkar, Ordflokkar.Nafnord, nullable=False)
     Samsett = utils.boolean_default_false()
-    OsjalfstaedurOrdhluti = utils.boolean_default_false()
     Undantekning = utils.boolean_default_false()
+    OsjalfstaedurOrdhluti = utils.boolean_default_false()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -235,6 +235,7 @@ class Sagnord(Base):
     __tablename__ = 'Sagnord'
     Sagnord_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    # https://is.wikipedia.org/wiki/H%C3%A6ttir_sagna_%C3%AD_%C3%ADslensku
     # tilgreina hvort sögn er sterk eða veik?
     # https://is.wikipedia.org/wiki/Sagnmyndir#Germynd
     # germynd (áherslan er á geranda setningarinnar)
@@ -278,14 +279,18 @@ class Sagnord(Base):
     fk_Midmynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     fk_Midmynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # spurnarmyndir, önnur persóna samtengd sögn (dæmi: býst þú -> býstu, gefst þú -> gefstu)
+    # ATH:
+    # veit ekki um sagnorð sem hafa fleirtölu í spurnarmyndum í miðmynd, ef slíkt væri til þá væru
+    # það orðmyndir eins og "gefisti", "gáfusti" og "gæfusti" fyrir sögnina að gefa, vissulega væri
+    # hægt að skapa venju fyrir slíkum myndum en það hefur ekki verið venja hingað til
     Midmynd_spurnarmyndir_framsoguhattur_nutid_et = utils.word_column()
-    Midmynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word_column()
+    # Midmynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word_column()
     Midmynd_spurnarmyndir_framsoguhattur_thatid_et = utils.word_column()
-    Midmynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word_column()
+    # Midmynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word_column()
     Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et = utils.word_column()
-    Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word_column()
+    # Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word_column()
     Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et = utils.word_column()
-    Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word_column()
+    # Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word_column()
     # lýsingarháttur nútíðar
     LysingarhatturNutidar = utils.word_column()  # (dæmi: gangandi)
     # lýsingarháttur þátíðar (þolmyndir)
