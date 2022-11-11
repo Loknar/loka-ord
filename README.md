@@ -24,7 +24,13 @@ Smíða gagnagrunn:
 python main.py --build-db
 ```
 
-Bæta við orði CLI:
+Skrifa orð úr grunni í textaskrár:
+
+```bash
+python main.py --write-files
+```
+
+Bæta við orði í gegnum skipanalínu (CLI):
 
 ```bash
 python main.py --add-word

@@ -34,9 +34,13 @@ def main(arguments):
     logman.init(
         arguments['logger_name'], role=arguments['role'], output_dir=arguments['log_directory']
     )
+    db_name = 'lokaord'
+    if 'backup_db' in arguments and arguments['backup_db'] is True:
+        db.backup_sqlite_db_file(db_name)
+    if 'rebuild_db' in arguments and arguments['rebuild_db'] is True:
+        db.delete_sqlite_db_file(db_name)
     if db.Session is None:
-        db_name = 'lokaord'
-        db.setup_data_directory(db_name, __file__)
+        db.setup_data_directory(db_name)
         db_uri = db.create_db_uri(db_name)
         db.setup_connection(db_uri, db_echo=False)
         db.init_db()
@@ -46,7 +50,10 @@ def main(arguments):
         ))
     if 'add_word_cli' in arguments and arguments['add_word_cli'] is True:
         cli.add_word_cli(version=__version__)
-    if 'build_db' in arguments and arguments['build_db'] is True:
+    if (
+        'build_db' in arguments and arguments['build_db'] is True or
+        'rebuild_db' in arguments and arguments['rebuild_db'] is True
+    ):
         importer.build_db_from_datafiles()
     if 'write_files' in arguments and arguments['write_files'] is True:
         exporter.write_datafiles_from_db()
