@@ -83,6 +83,29 @@
 				}
 			}
 		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gefst", "gefst", "gefst"],
+					"ft": ["gefst", "gefst", "gefst"]
+				},
+				"þátíð": {
+					"et": ["gafst", "gafst", "gafst"],
+					"ft": ["gáfust", "gáfust", "gáfust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gefist", "gefist", "gefist"],
+					"ft": ["gefist", "gefist", "gefist"]
+				},
+				"þátíð": {
+					"et": ["gæfist", "gæfist", "gæfist"],
+					"ft": ["gæfist", "gæfist", "gæfist"]
+				}
+			}
+		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -131,5 +154,5 @@
 			}
 		}
 	},
-	"hash": "05521e5c50a575e55651945b580044beb7b4d354e6303ba7cb8ce0021e53682c"
+	"hash": "a580b0b28f0da5126b22382dcd593a695ff81e478b5298915d91d81c926de63a"
 }

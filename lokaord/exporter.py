@@ -943,7 +943,7 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
             isl_sagnord.fk_Midmynd_personuleg_vidtengingarhattur
         )
     # miðmynd ópersónuleg
-    elif isl_sagnord.Midmynd_opersonuleg_frumlag == isl.Fall.Tholfall:
+    if isl_sagnord.Midmynd_opersonuleg_frumlag == isl.Fall.Tholfall:
         data['miðmynd']['ópersónuleg']['frumlag'] = 'þolfall'
     elif isl_sagnord.Midmynd_opersonuleg_frumlag == isl.Fall.Thagufall:
         data['miðmynd']['ópersónuleg']['frumlag'] = 'þágufall'

@@ -1,0 +1,158 @@
+{
+	"orð": "finna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "finna",
+		"sagnbót": "fundið",
+		"boðháttur": {
+			"stýfður": "finn",
+			"et": "finndu",
+			"ft": "finnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["finn", "finnur", "finnur"],
+					"ft": ["finnum", "finnið", "finna"]
+				},
+				"þátíð": {
+					"et": ["fann", "fannst", "fann"],
+					"ft": ["fundum", "funduð", "fundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["finni", "finnir", "finni"],
+					"ft": ["finnum", "finnið", "finni"]
+				},
+				"þátíð": {
+					"et": ["fyndi", "fyndir", "fyndi"],
+					"ft": ["fyndum", "fynduð", "fyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "finnurðu",
+					"ft": "finniði"
+				},
+				"þátíð": {
+					"et": "fannstu",
+					"ft": "funduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "finnirðu",
+					"ft": "finniði"
+				},
+				"þátíð": {
+					"et": "fyndirðu",
+					"ft": "fynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "finnast",
+		"sagnbót": "fundist",
+		"boðháttur": {
+			"et": "finnstu",
+			"ft": "finnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["finnst", "finnst", "finnst"],
+					"ft": ["finnumst", "finnist", "finnast"]
+				},
+				"þátíð": {
+					"et": ["fannst", "fannst", "fannst"],
+					"ft": ["fundumst", "fundust", "fundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["finnist", "finnist", "finnist"],
+					"ft": ["finnumst", "finnist", "finnist"]
+				},
+				"þátíð": {
+					"et": ["fyndist", "fyndist", "fyndist"],
+					"ft": ["fyndumst", "fyndust", "fyndust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["finnst", "finnst", "finnst"],
+					"ft": ["finnst", "finnst", "finnst"]
+				},
+				"þátíð": {
+					"et": ["fannst", "fannst", "fannst"],
+					"ft": ["fannst", "fannst", "fannst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["finnist", "finnist", "finnist"],
+					"ft": ["finnist", "finnist", "finnist"]
+				},
+				"þátíð": {
+					"et": ["fyndist", "fyndist", "fyndist"],
+					"ft": ["fyndist", "fyndist", "fyndist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "finnstu"
+				},
+				"þátíð": {
+					"et": "fannstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "finnistu"
+				},
+				"þátíð": {
+					"et": "fyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "finnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fundinn", "fundinn", "fundnum", "fundins"],
+					"kvk": ["fundin", "fundna", "fundinni", "fundinnar"],
+					"hk": ["fundið", "fundið", "fundnu", "fundins"]
+				},
+				"ft": {
+					"kk": ["fundnir", "fundna", "fundnum", "fundinna"],
+					"kvk": ["fundnar", "fundnar", "fundnum", "fundinna"],
+					"hk": ["fundin", "fundin", "fundnum", "fundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fundni", "fundna", "fundna", "fundna"],
+					"kvk": ["fundna", "fundnu", "fundnu", "fundnu"],
+					"hk": ["fundna", "fundna", "fundna", "fundna"]
+				},
+				"ft": {
+					"kk": ["fundnu", "fundnu", "fundnu", "fundnu"],
+					"kvk": ["fundnu", "fundnu", "fundnu", "fundnu"],
+					"hk": ["fundnu", "fundnu", "fundnu", "fundnu"]
+				}
+			}
+		}
+	},
+	"hash": "e0e8b28c7f596a8ae231afb32750b24bf75e2a2648850228671e12d19108d11e"
+}
