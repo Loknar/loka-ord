@@ -2,7 +2,7 @@
 
 Frjálst gagnasafn yfir íslensk orð, beygingamyndir þeirra og fleira, undir frjálsu almenningseignarleyfi (e. public domain licence).
 
-Gagnasafnið telur 147 nafnorð, 9 lýsingarorð, 8 sagnorð.
+Gagnasafnið telur eins og er 147 nafnorð, 10 lýsingarorð, 8 sagnorð.
 
 ## Forkröfur (Requirements)
 
