@@ -5,9 +5,18 @@ import sys
 import lokaord
 
 
+def print_help_and_exit():
+    if lokaord.ArgParser is not None:
+        lokaord.ArgParser.print_help(sys.stderr)
+    else:
+        logman.warning('lokaord.ArgParser was None.')
+        logman.error('Exiting ..')
+    sys.exit(1)
+
+
 if __name__ == '__main__':
     lokaord.ArgParser = argparse.ArgumentParser(
-        description='Loka-Orð', formatter_class=argparse.RawTextHelpFormatter
+        description='\033[33mLoka-Orð\033[0m', formatter_class=argparse.RawTextHelpFormatter
     )
     lokaord.ArgParser.prog = 'lokaord'
     lokaord.ArgParser._actions[0].help = 'Show this help message and exit.'
@@ -49,7 +58,8 @@ if __name__ == '__main__':
     if len(sys.argv) == 1:
         lokaord.print_help_and_exit()
     if pargs.version is True:
-        print(lokaord.__version__)
+        print('%s %s' % (lokaord.ArgParser.prog, lokaord.__version__))
+        sys.exit(0)
     arguments = {
         'logger_name': pargs.logger_name,
         'log_directory': pargs.log_directory,

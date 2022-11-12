@@ -14,14 +14,6 @@ __version__ = "0.0.1"
 ArgParser = None
 
 
-def print_help_and_exit():
-    if ArgParser is not None:
-        ArgParser.print_help(sys.stderr)
-    else:
-        logman.error('Exiting ..')
-    sys.exit(1)
-
-
 def get_words_count():
     return {
         'no': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Nafnord).count(),
