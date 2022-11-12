@@ -48,8 +48,8 @@ til að endursmíða gagnagrunninn með viðbættu skránum og skrifa síðan in
 
 **Til ykkar sem hafið hug á að leggja til orð í grunninn!**
 
-Mikilvægt er að ekki sé um afritun úr öðrum orðagrunnum að ræða er heyra undir útgáfuskilmála sem eru ósamrýmanlegir útgáfuskilmálum þessa grunns.
+Mikilvægt er við framlag orða að ekki sé um afritun úr öðrum orðagrunnum að ræða er heyra undir útgáfuskilmála sem þykja ósamrýmanlegir almenningseignarleyfi þessa verkefnis.
 
-Orð sem lögð eru til í grunninn skulu vera orðgjöfum frjálst að gefa, þá er öruggast að orðin komi beint úr höfði þeirra sem reiðir þau fram.
+Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að gefa, þá er öruggast að orðin komi beint úr höfði þeirra sem reiðir þau fram.
 
-Orð sem bætt er í grunninn falla undir útgáfuskilmála verkefnisins.
+Orð sem bætt er í grunninn munu heyra undir almenningseignarleyfi verkefnisins og því verða almenningseign.
