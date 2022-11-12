@@ -15,63 +15,6 @@ from lokaord.database import db
 from lokaord.database.models import isl
 
 
-class MyJSONEncoder(json.JSONEncoder):
-    '''
-    json encoder for doing a bit of custom json string indentation
-
-    this is a complete hack, I am a complete hack, but this f*cking works
-    '''
-    def iterencode(self, o, _one_shot=False):
-        list_lvl = 0
-        keys_to_differently_encode = [
-            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft'
-        ]
-        state = 0
-        for s in super(MyJSONEncoder, self).iterencode(o, _one_shot=_one_shot):
-            if state == 0:
-                if s.startswith('"') and s.endswith('"') and s[1:-1] in keys_to_differently_encode:
-                    state += 1
-            elif state == 1:
-                if s == ': ':
-                    state += 1
-                else:
-                    state = 0
-            elif state == 2:
-                if s.startswith('['):
-                    list_lvl += 1
-                    s = ''.join([x.strip() for x in s.split('\n')])
-                elif 0 < list_lvl:
-                    s = ''.join([x.strip() for x in s.split('\n')])
-                    if s and s.startswith(','):
-                        s = ', ' + s[1:]
-                if s.endswith(']'):
-                    list_lvl -= 1
-                    state = 0
-                if s.endswith('}'):
-                    state = 0
-            yield s
-
-
-def ord_data_to_fancy_json_str(ord_data):
-    return json.dumps(
-        ord_data, indent='\t', ensure_ascii=False, separators=(',', ': '), cls=MyJSONEncoder
-    )
-
-
-def hashify_ord_data(ord_data):
-    '''
-    create hash for orð data (which could be used for identification maybe?)
-    '''
-    if 'hash' in ord_data:
-        ord_data = copy.deepcopy(ord_data)
-        del ord_data['hash']
-    return hashlib.sha256(
-        json.dumps(
-            ord_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True
-        ).encode('utf-8')
-    ).hexdigest()
-
-
 def write_datafiles_from_db():
     logman.info('Writing datafiles from database ..')
     datafiles_dir_abs = os.path.abspath(
@@ -310,6 +253,8 @@ def get_nafnord_from_db_to_ordered_dict(isl_ord):
         data['ft']['mg'] = get_fallbeyging_list_from_db(
             isl_nafnord.fk_ft_mgr_Fallbeyging_id
         )
+    if isl_ord.OsjalfstaedurOrdhluti is True:
+        data['ósjálfstætt'] = True
     return data
 
 
@@ -1227,6 +1172,63 @@ def get_sagnbeyging_obj_from_db(sagnbeyging_id):
     return data
 
 
+class MyJSONEncoder(json.JSONEncoder):
+    '''
+    json encoder for doing a bit of custom json string indentation
+
+    this extended class is a complete hack, I am a complete hack, but this f*cking works
+    '''
+    def iterencode(self, o, _one_shot=False):
+        list_lvl = 0
+        keys_to_differently_encode = [
+            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft'
+        ]
+        state = 0
+        for s in super(MyJSONEncoder, self).iterencode(o, _one_shot=_one_shot):
+            if state == 0:
+                if s.startswith('"') and s.endswith('"') and s[1:-1] in keys_to_differently_encode:
+                    state += 1
+            elif state == 1:
+                if s == ': ':
+                    state += 1
+                else:
+                    state = 0
+            elif state == 2:
+                if s.startswith('['):
+                    list_lvl += 1
+                    s = ''.join([x.strip() for x in s.split('\n')])
+                elif 0 < list_lvl:
+                    s = ''.join([x.strip() for x in s.split('\n')])
+                    if s and s.startswith(','):
+                        s = ', ' + s[1:]
+                if s.endswith(']'):
+                    list_lvl -= 1
+                    state = 0
+                if s.endswith('}'):
+                    state = 0
+            yield s
+
+
+def ord_data_to_fancy_json_str(ord_data):
+    return json.dumps(
+        ord_data, indent='\t', ensure_ascii=False, separators=(',', ': '), cls=MyJSONEncoder
+    )
+
+
+def hashify_ord_data(ord_data):
+    '''
+    create hash for orð data (which could be used for identification maybe?)
+    '''
+    if 'hash' in ord_data:
+        ord_data = copy.deepcopy(ord_data)
+        del ord_data['hash']
+    return hashlib.sha256(
+        json.dumps(
+            ord_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True
+        ).encode('utf-8')
+    ).hexdigest()
+
+
 def ordflokkur_to_str(ordflokkur):
     if ordflokkur is isl.Ordflokkar.Nafnord:
         return 'nafnorð'
@@ -1266,8 +1268,12 @@ def kyn_to_str(kyn):
 
 
 def add_framhluti_to_ord_data(framhluti, ord_data):
+    '''
+    helper function for constructing beygingarmyndir data for samsett orð
+    '''
     dictorinos = (dict, collections.OrderedDict)
-    ignore_keys = set(['orð', 'flokkur', 'kyn', 'hash'])
+    ignore_keys = set(['orð', 'flokkur', 'kyn', 'hash', 'ósjálfstætt'])
+    dont_change_keys = set(['frumlag'])
     new_ord_data = None
     if type(ord_data) is dict:
         new_ord_data = {}
@@ -1277,6 +1283,8 @@ def add_framhluti_to_ord_data(framhluti, ord_data):
         for key in ord_data:
             if key in ignore_keys:
                 continue
+            elif key in dont_change_keys:
+                new_ord_data[key] = ord_data[key]
             else:
                 new_ord_data[key] = add_framhluti_to_ord_data(framhluti, ord_data[key])
     if type(ord_data) is list:
@@ -1285,4 +1293,6 @@ def add_framhluti_to_ord_data(framhluti, ord_data):
             new_ord_data.append(add_framhluti_to_ord_data(framhluti, element))
     if type(ord_data) is str:
         new_ord_data = '%s%s' % (framhluti, ord_data)
+    if type(ord_data) is bool:
+        new_ord_data = ord_data
     return new_ord_data

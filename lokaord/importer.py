@@ -191,7 +191,10 @@ def add_nafnord(nafnord_data):
     assert(isl_ord_kyn is not None)
     isl_ord = isl.Ord(
         Ord=nafnord_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Nafnord
+        Ordflokkur=isl.Ordflokkar.Nafnord,
+        OsjalfstaedurOrdhluti=(
+            'ósjálfstætt' in nafnord_data and nafnord_data['ósjálfstætt'] is True
+        )
     )
     db.Session.add(isl_ord)
     db.Session.commit()
