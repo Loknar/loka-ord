@@ -258,16 +258,16 @@ def add_lysingarord(lysingarord_data):
     )
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_lysingarord = isl.Lysingarord(
-        fk_Ord_id=isl_ord.Ord_id
-    )
-    db.Session.add(isl_lysingarord)
-    db.Session.commit()
     if 'samsett' in lysingarord_data:
         add_samsett_ord(isl_ord.Ord_id, lysingarord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
+    isl_lysingarord = isl.Lysingarord(
+        fk_Ord_id=isl_ord.Ord_id
+    )
+    db.Session.add(isl_lysingarord)
+    db.Session.commit()
     if 'frumstig' in lysingarord_data:
         if 'sb' in lysingarord_data['frumstig']:
             if 'et' in lysingarord_data['frumstig']['sb']:
@@ -471,16 +471,16 @@ def add_sagnord(sagnord_data):
     )
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_sagnord = isl.Sagnord(
-        fk_Ord_id=isl_ord.Ord_id
-    )
-    db.Session.add(isl_sagnord)
-    db.Session.commit()
     if 'samsett' in sagnord_data:
         add_samsett_ord(isl_ord.Ord_id, sagnord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
+    isl_sagnord = isl.Sagnord(
+        fk_Ord_id=isl_ord.Ord_id
+    )
+    db.Session.add(isl_sagnord)
+    db.Session.commit()
     if 'germynd' in sagnord_data:
         if 'nafnháttur' in sagnord_data['germynd']:
             isl_sagnord.Germynd_Nafnhattur = sagnord_data['germynd']['nafnháttur']
