@@ -56,7 +56,7 @@ if __name__ == '__main__':
     ))
     pargs = lokaord.ArgParser.parse_args()
     if len(sys.argv) == 1:
-        lokaord.print_help_and_exit()
+        print_help_and_exit()
     if pargs.version is True:
         print('%s %s' % (lokaord.ArgParser.prog, lokaord.__version__))
         sys.exit(0)

@@ -6,10 +6,9 @@ from lokaord import cli
 from lokaord import exporter
 from lokaord import importer
 from lokaord import logman
+from lokaord.version import __version__
 from lokaord.database import db
 from lokaord.database.models import isl
-
-__version__ = "0.0.1"
 
 ArgParser = None
 
@@ -41,7 +40,7 @@ def main(arguments):
             get_words_count(), separators=(',', ':'), ensure_ascii=False, sort_keys=True
         ))
     if 'add_word_cli' in arguments and arguments['add_word_cli'] is True:
-        cli.add_word_cli(version=__version__)
+        cli.add_word_cli()
     if (
         'build_db' in arguments and arguments['build_db'] is True or
         'rebuild_db' in arguments and arguments['rebuild_db'] is True

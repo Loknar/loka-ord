@@ -7,11 +7,12 @@ CLI for adding words to SQL database that are in turn written to files.
 import collections
 import json
 
+from lokaord.version import __version__
 from lokaord import logman
 from lokaord.importer import add_word
 
 
-def add_word_cli(version):
+def add_word_cli():
     header = '''lokaorð (%s)
     \033[33m___       __    __                           __   ________    ____
    /   | ____/ /___/ /  _      ______  _________/ /  / ____/ /   /  _/
@@ -25,7 +26,7 @@ def add_word_cli(version):
       3) Sagnorð      (dæmi: "gefa", "hjálpa", "kenna")
 
     (Einungis stuðningur fyrir ofangreinda orðflokka eins og er.)
-    ''' % (version, )
+    ''' % (__version__, )
     print(header)
     ordflokkur = None
     while ordflokkur not in ('1', '2', '3'):
