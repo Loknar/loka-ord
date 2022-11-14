@@ -75,9 +75,21 @@ def build_db_from_datafiles():
             add_sagnord(sagnord_data)
             logman.info('Added sagnorð "%s".' % (sagnord_data['orð'], ))
         else:
-            logman.warning('Sagnorð "%s" already exists! Skipping.' % (
-                sagnord_data['orð'],
-            ))
+            logman.warning('Sagnorð "%s" already exists! Skipping.' % (sagnord_data['orð'], ))
+    # greinir
+    greinir_dir = os.path.join(datafiles_dir_abs, 'greinir')
+    logman.info('Reading greinir ..')
+    for greinir_file in pathlib.Path(greinir_dir).iterdir():
+        logman.info('File greinir/%s ..' % (greinir_file.name, ))
+        greinir_data = None
+        with greinir_file.open(mode='r', encoding='utf-8') as fi:
+            greinir_data = json.loads(fi.read())
+        isl_ord = lookup_greinir(greinir_data)
+        if isl_ord is None:
+            add_greinir(greinir_data)
+            logman.info('Added greinir "%s".' % (greinir_data['orð'], ))
+        else:
+            logman.warning('Greinir "%s" already exists! Skipping.' % (greinir_data['orð'], ))
     # TODO: add other orðflokkar
     # nafnorð samsett
     logman.info('Reading samsett "nafnorð" datafiles (%s) ..' % (len(nafnord_files_samsett), ))
@@ -1049,3 +1061,53 @@ def add_word(word_data, write_to_file=True):
     	) as json_file:
     	    json_file.write(isl_ord_data_json_str)
     	    logman.info('Wrote file "%s/%s' % (isl_ord_directory, isl_ord_filename, ))
+
+
+def lookup_greinir(greinir_data):
+    isl_ord = None
+    isl_ord_list_query = db.Session.query(isl.Ord).filter_by(
+        Ord=greinir_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Greinir
+    )
+    assert(len(isl_ord_list_query.all()) < 2)
+    isl_ord = isl_ord_list_query.first()
+    return isl_ord
+
+
+def add_greinir(greinir_data):
+    '''
+    add greinir from datafile to database
+    '''
+    assert('flokkur' in greinir_data and greinir_data['flokkur'] == 'greinir')
+    isl_ord = isl.Ord(
+        Ord=greinir_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Greinir
+    )
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    isl_greinir = isl.Greinir(
+        fk_Ord_id=isl_ord.Ord_id
+    )
+    db.Session.add(isl_greinir)
+    db.Session.commit()
+    if 'et' in greinir_data:
+        if 'kk' in greinir_data['et']:
+            isl_greinir.fk_et_kk_Fallbeyging_id = add_fallbeyging(greinir_data['et']['kk'])
+            db.Session.commit()
+        if 'kvk' in greinir_data['et']:
+            isl_greinir.fk_et_kvk_Fallbeyging_id = add_fallbeyging(greinir_data['et']['kvk'])
+            db.Session.commit()
+        if 'hk' in greinir_data['et']:
+            isl_greinir.fk_et_hk_Fallbeyging_id = add_fallbeyging(greinir_data['et']['hk'])
+            db.Session.commit()
+    if 'ft' in greinir_data:
+        if 'kk' in greinir_data['et']:
+            isl_greinir.fk_ft_kk_Fallbeyging_id = add_fallbeyging(greinir_data['ft']['kk'])
+            db.Session.commit()
+        if 'kvk' in greinir_data['et']:
+            isl_greinir.fk_ft_kvk_Fallbeyging_id = add_fallbeyging(greinir_data['ft']['kvk'])
+            db.Session.commit()
+        if 'hk' in greinir_data['et']:
+            isl_greinir.fk_ft_hk_Fallbeyging_id = add_fallbeyging(greinir_data['ft']['hk'])
+            db.Session.commit()
+    return isl_ord
