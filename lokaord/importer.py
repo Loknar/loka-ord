@@ -162,9 +162,13 @@ def lookup_nafnord(nafnord_data):
     elif nafnord_data['kyn'] == 'hk':
         isl_ord_kyn = isl.Kyn.Hvorugkyn
     assert(isl_ord_kyn is not None)
+    osjalfstaett_ord = (
+        'ósjálfstætt' in nafnord_data and nafnord_data['ósjálfstætt'] is True
+    )
     isl_ord_list = db.Session.query(isl.Ord).filter_by(
         Ord=nafnord_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Nafnord
+        Ordflokkur=isl.Ordflokkar.Nafnord,
+        OsjalfstaedurOrdhluti=osjalfstaett_ord
     ).all()
     for potential_isl_ord in isl_ord_list:
         isl_nafnord = db.Session.query(isl.Nafnord).filter_by(
@@ -968,7 +972,11 @@ def add_samsett_ord(isl_ord_id, ord_data):
         ordhluti_isl_ord = None
         if ordhluti_obj['flokkur'] == 'nafnorð':
             ordhluti_isl_ord = lookup_nafnord({
-                'orð': ordhluti_obj['orð'], 'kyn': ordhluti_obj['kyn']
+                'orð': ordhluti_obj['orð'],
+                'kyn': ordhluti_obj['kyn'],
+                'ósjálfstætt': (
+                    'ósjálfstætt' in ordhluti_obj and ordhluti_obj['ósjálfstætt'] is True
+                )
             })
         elif ordhluti_obj['flokkur'] == 'lýsingarorð':
             ordhluti_isl_ord = lookup_lysingarord({'orð': ordhluti_obj['orð']})

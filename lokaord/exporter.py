@@ -45,8 +45,15 @@ def write_datafiles_from_db():
         hash_to_isl_ord_id[nafnord_data_hash] = isl_ord_nafnord.Ord_id
         isl_ord_id_to_hash[str(isl_ord_nafnord.Ord_id)] = nafnord_data_hash
         nafnord_data['hash'] = nafnord_data_hash
+        osjalfstaett_ord = ''
+        if 'ósjálfstætt' in nafnord_data and nafnord_data['ósjálfstætt'] is True:
+            osjalfstaett_ord = '-ó'
         nafnord_data_json_str = ord_data_to_fancy_json_str(nafnord_data)
-        isl_ord_nafnord_filename = '%s-%s.json' % (nafnord_data['orð'], nafnord_data['kyn'])
+        isl_ord_nafnord_filename = '%s-%s%s.json' % (
+            nafnord_data['orð'],
+            nafnord_data['kyn'],
+            osjalfstaett_ord
+        )
         with open(
             os.path.join(datafiles_dir_abs, 'nafnord', isl_ord_nafnord_filename),
             mode='w',
@@ -1049,6 +1056,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             assert(ordhluti_nafnord is not None)
             ordhluti_kyn = kyn_to_str(ordhluti_nafnord.Kyn)
             ordhluti_data['kyn'] = ordhluti_kyn
+            if ordhluti_ord.OsjalfstaedurOrdhluti is True:
+                ordhluti_data['ósjálfstætt'] = True
         ordhluti_data['hash'] = None
         if ord_id_hash_map is not None and str(ordhluti_ord.Ord_id) in ord_id_hash_map:
             ordhluti_data['hash'] = ord_id_hash_map[str(ordhluti_ord.Ord_id)]
