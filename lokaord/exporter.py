@@ -144,7 +144,38 @@ def write_datafiles_from_db():
         ) as json_file:
             json_file.write(greinir_data_json_str)
             logman.info('Wrote file "greinir/%s' % (isl_ord_greinir_filename, ))
+    # frumtölur
+    isl_ord_frumtolur_list = db.Session.query(isl.Ord).filter_by(
+        Ordflokkur=isl.Ordflokkar.Frumtala,
+        Samsett=False
+    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
+    for isl_ord_fruntala in isl_ord_frumtolur_list:
+        frumtala_data = get_frumtala_from_db_to_ordered_dict(isl_ord_frumtala)
+        frumtala_data_hash = hashify_ord_data(frumtala_data)
+        # ensure unique hash
+        if frumtala_data_hash in hash_to_isl_ord_id:
+            counter = 0
+            frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
+            while frumtala_data_hash_incr in hash_to_isl_ord_id:
+                counter += 1
+                frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
+            frumtala_data_hash = frumtala_data_hash_incr
+        hash_to_isl_ord_id[frumtala_data_hash] = isl_ord_frumtala.Ord_id
+        isl_ord_id_to_hash[str(isl_ord_frumtala.Ord_id)] = frumtala_data_hash
+        frumtala_data['hash'] = frumtala_data_hash
+        frumtala_data_json_str = ord_data_to_fancy_json_str(frumtala_data)
+        isl_ord_frumtala_filename = '%s.json' % (frumtala_data['orð'], )
+        with open(
+            os.path.join(datafiles_dir_abs, 'toluord', 'frumtolur', isl_ord_frumtala_filename),
+            mode='w',
+            encoding='utf-8'
+        ) as json_file:
+            json_file.write(frumtala_data_json_str)
+            logman.info('Wrote file "toluord/frumtolur/%s' % (isl_ord_frumtala_filename, ))
+
+    #
     # TODO: meðhöndla restina af orðflokkunum fyrir ósamsett (core) orð
+    #
     # ----------- #
     # samsett orð #
     # ----------- #
@@ -1242,6 +1273,44 @@ def get_greinir_from_db_to_ordered_dict(isl_ord):
         data['ft']['hk'] = get_fallbeyging_list_from_db(isl_greinir.fk_ft_hk_Fallbeyging_id)
     return data
 
+
+def get_frumtala_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'frumtala'
+    isl_frumtala = db.Session.query(isl.Frumtala).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+    assert(isl_frumtala is not None)
+    if isl_frumtala.Gildi is not None:
+        data['gildi'] = isl_frumtala.Gildi
+    if (
+        isl_frumtala.fk_et_kk_Fallbeyging_id is not None or
+        isl_frumtala.fk_et_kvk_Fallbeyging_id is not None or
+        isl_frumtala.fk_et_hk_Fallbeyging_id is not None
+    ):
+        data['et'] = collections.OrderedDict()
+    if (
+        isl_frumtala.fk_ft_kk_Fallbeyging_id is not None or
+        isl_frumtala.fk_ft_kvk_Fallbeyging_id is not None or
+        isl_frumtala.fk_ft_hk_Fallbeyging_id is not None
+    ):
+        data['ft'] = collections.OrderedDict()
+    # et
+    if isl_frumtala.fk_et_kk_Fallbeyging_id is not None:
+        data['et']['kk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_et_kk_Fallbeyging_id)
+    if isl_frumtala.fk_et_kvk_Fallbeyging_id is not None:
+        data['et']['kvk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_et_kvk_Fallbeyging_id)
+    if isl_frumtala.fk_et_hk_Fallbeyging_id is not None:
+        data['et']['hk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_et_hk_Fallbeyging_id)
+    # ft
+    if isl_frumtala.fk_ft_kk_Fallbeyging_id is not None:
+        data['ft']['kk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_ft_kk_Fallbeyging_id)
+    if isl_frumtala.fk_ft_kvk_Fallbeyging_id is not None:
+        data['ft']['kvk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_ft_kvk_Fallbeyging_id)
+    if isl_frumtala.fk_ft_hk_Fallbeyging_id is not None:
+        data['ft']['hk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_ft_hk_Fallbeyging_id)
+    if 'et' not in data and 'ft' not in data:
+        data['óbeygjanlegt'] = True
+    return data
 
 
 class MyJSONEncoder(json.JSONEncoder):

@@ -90,6 +90,20 @@ def build_db_from_datafiles():
             logman.info('Added greinir "%s".' % (greinir_data['orð'], ))
         else:
             logman.warning('Greinir "%s" already exists! Skipping.' % (greinir_data['orð'], ))
+    # töluorð, frumtölur
+    frumtolur_dir = os.path.join(datafiles_dir_abs, 'toluord', 'frumtolur')
+    frumtolur_files, frumtolur_files_samsett = list_json_files_separate_samsett_ord(frumtolur_dir)
+    for frumtala_file in frumtolur_files:
+        logman.info('File toluord/frumtolur/%s ..' % (frumtala_file.name, ))
+        frumtala_data = None
+        with frumtala_file.open(mode='r', encoding='utf-8') as fi:
+            frumtala_data = json.loads(fi.read())
+        isl_ord = lookup_frumtala(frumtala_data)
+        if isl_ord is None:
+            add_frumtala(frumtala_data)
+            logman.info('Added frumtala "%s".' % (frumtala_data['orð'], ))
+        else:
+            logman.warning('Frumtala "%s" already exists! Skipping.' % (frumtala_data['orð'], ))
     # TODO: add other orðflokkar
     # nafnorð samsett
     logman.info('Reading samsett "nafnorð" datafiles (%s) ..' % (len(nafnord_files_samsett), ))
@@ -994,6 +1008,10 @@ def add_samsett_ord(isl_ord_id, ord_data):
             ordhluti_isl_ord = lookup_lysingarord({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'sagnorð':
             ordhluti_isl_ord = lookup_sagnord({'orð': ordhluti_obj['orð']})
+        elif ordhluti_obj['flokkur'] == 'greinir':
+            ordhluti_isl_ord = lookup_greinir({'orð': ordhluti_obj['orð']})
+        elif ordhluti_obj['flokkur'] == 'frumtala':
+            ordhluti_isl_ord = lookup_frumtala({'orð': ordhluti_obj['orð']})
         # TODO: add handling for the other orðflokkar here
         assert(ordhluti_isl_ord is not None)
         isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
@@ -1109,5 +1127,60 @@ def add_greinir(greinir_data):
             db.Session.commit()
         if 'hk' in greinir_data['et']:
             isl_greinir.fk_ft_hk_Fallbeyging_id = add_fallbeyging(greinir_data['ft']['hk'])
+            db.Session.commit()
+    return isl_ord
+
+
+def lookup_frumtala(frumtala_data):
+    isl_ord = None
+    isl_ord_list_query = db.Session.query(isl.Ord).filter_by(
+        Ord=frumtala_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Frumtala
+    )
+    assert(len(isl_ord_list_query.all()) < 2)
+    isl_ord = isl_ord_list_query.first()
+    return isl_ord
+
+
+def add_frumtala(frumtala_data):
+    '''
+    add frumtala from datafile to database
+    '''
+    assert('flokkur' in frumtala_data and frumtala_data['flokkur'] == 'frumtala')
+    if 'gildi' in frumtala_data:
+        assert(type(frumtala_data['gildi']) is int)
+    isl_ord = isl.Ord(
+        Ord=frumtala_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Frumtala
+    )
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    isl_frumtala = isl.Frumtala(
+        fk_Ord_id=isl_ord.Ord_id
+    )
+    db.Session.add(isl_frumtala)
+    db.Session.commit()
+    if 'gildi' in frumtala_data:
+        isl_frumtala.Gildi = frumtala_data['gildi']
+        db.Session.commit()
+    if 'et' in frumtala_data:
+        if 'kk' in frumtala_data['et']:
+            isl_frumtala.fk_et_kk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['kk'])
+            db.Session.commit()
+        if 'kvk' in frumtala_data['et']:
+            isl_frumtala.fk_et_kvk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['kvk'])
+            db.Session.commit()
+        if 'hk' in frumtala_data['et']:
+            isl_frumtala.fk_et_hk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['hk'])
+            db.Session.commit()
+    if 'ft' in frumtala_data:
+        if 'kk' in frumtala_data['et']:
+            isl_frumtala.fk_ft_kk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['kk'])
+            db.Session.commit()
+        if 'kvk' in frumtala_data['et']:
+            isl_frumtala.fk_ft_kvk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['kvk'])
+            db.Session.commit()
+        if 'hk' in frumtala_data['et']:
+            isl_frumtala.fk_ft_hk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['hk'])
             db.Session.commit()
     return isl_ord

@@ -168,6 +168,18 @@ class Frumtala(Base):  # Töluorð - Frumtala
     Frumtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Gildi = utils.integer_default_zero()
+    # einungis handfylli frumtalna hafa beygingar og bara frumtalan "einn" fyllir í allar
+    # beygingarmyndir, á meðan tveir, þrír og fjórir hafa beygingar í fleirtölu,
+    # þá hefur frumtalan hundrað fleirtölumyndina hundruð en hefur í raun bara þessum tveimur
+    # beygingarmyndum að skarta
+    # eintala
+    fk_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_et_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_et_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    # fleirtala
+    fk_ft_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_ft_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_ft_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -176,14 +188,22 @@ class Radtala(Base):  # Töluorð - Raðtala
     __tablename__ = 'Radtala'
     Radtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    # raðtölur hafa einungis eina (veika) beygingu, nema "fyrstur" sem hefur sterka og veika
-    fk_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    fk_et_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    fk_et_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    fk_ft_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    fk_ft_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    fk_ft_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     Gildi = utils.integer_default_zero()
+    # raðtölur hafa einungis eina (veika) beygingu, nema "fyrstur" sem hefur sterka og veika
+    # sterk beyging
+    fk_sb_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_sb_et_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_sb_et_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_sb_ft_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_sb_ft_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_sb_ft_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    # veig beyging
+    fk_vb_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_vb_et_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_vb_et_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_vb_ft_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_vb_ft_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_vb_ft_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
