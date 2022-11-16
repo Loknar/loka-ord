@@ -190,6 +190,7 @@ class Radtala(Base):  # Töluorð - Raðtala
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Gildi = utils.integer_default_zero()
     # raðtölur hafa einungis eina (veika) beygingu, nema "fyrstur" sem hefur sterka og veika
+    # raðtalan "annar" hefur eina beygingu, en hún er þó álitin sterk beyging frekar en veik
     # sterk beyging
     fk_sb_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_sb_et_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')

@@ -14,10 +14,17 @@ ArgParser = None
 
 
 def get_words_count():
+    '''
+    collect some basic word count stats
+    '''
     return {
         'no': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Nafnord).count(),
         'lo': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Lysingarord).count(),
-        'so': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Sagnord).count()
+        'so': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Sagnord).count(),
+        'to': (  # töluorð (frumtölur + raðtölur)
+            db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Frumtala).count() +
+            db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Radtala).count()
+        )
     }
 
 
