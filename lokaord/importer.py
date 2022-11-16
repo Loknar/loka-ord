@@ -152,6 +152,21 @@ def build_db_from_datafiles():
             logman.warning('Sagnorð "%s" already exists! Skipping.' % (
                 sagnord_data['orð'],
             ))
+    # töluorð, frumtölur samsett
+    logman.info('Reading samsett "frumtölur" datafiles (%s) ..' % (len(frumtolur_files_samsett), ))
+    for frumtala_file in frumtolur_files_samsett:
+        logman.info('File toluord/frumtolur/%s ..' % (frumtala_file.name, ))
+        frumtala_data = None
+        with frumtala_file.open(mode='r', encoding='utf-8') as fi:
+            frumtala_data = json.loads(fi.read())
+        isl_ord = lookup_frumtala(frumtala_data)
+        if isl_ord is None:
+            add_frumtala(frumtala_data)
+            logman.info('Added frumtala "%s".' % (frumtala_data['orð'], ))
+        else:
+            logman.warning('Frumtala "%s" already exists! Skipping.' % (
+                frumtala_data['orð'],
+            ))
     # TODO: add other orðflokkar
     logman.info('TODO: finish implementing build_db_from_datafiles')
 
@@ -1163,6 +1178,11 @@ def add_frumtala(frumtala_data):
     if 'gildi' in frumtala_data:
         isl_frumtala.Gildi = frumtala_data['gildi']
         db.Session.commit()
+    if 'samsett' in frumtala_data:
+        add_samsett_ord(isl_ord.Ord_id, frumtala_data)
+        isl_ord.Samsett = True
+        db.Session.commit()
+        return isl_ord
     if 'et' in frumtala_data:
         if 'kk' in frumtala_data['et']:
             isl_frumtala.fk_et_kk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['kk'])
@@ -1174,13 +1194,13 @@ def add_frumtala(frumtala_data):
             isl_frumtala.fk_et_hk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['hk'])
             db.Session.commit()
     if 'ft' in frumtala_data:
-        if 'kk' in frumtala_data['et']:
+        if 'kk' in frumtala_data['ft']:
             isl_frumtala.fk_ft_kk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['kk'])
             db.Session.commit()
-        if 'kvk' in frumtala_data['et']:
+        if 'kvk' in frumtala_data['ft']:
             isl_frumtala.fk_ft_kvk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['kvk'])
             db.Session.commit()
-        if 'hk' in frumtala_data['et']:
+        if 'hk' in frumtala_data['ft']:
             isl_frumtala.fk_ft_hk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['hk'])
             db.Session.commit()
     return isl_ord

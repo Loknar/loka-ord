@@ -149,7 +149,7 @@ def write_datafiles_from_db():
         Ordflokkur=isl.Ordflokkar.Frumtala,
         Samsett=False
     ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_fruntala in isl_ord_frumtolur_list:
+    for isl_ord_frumtala in isl_ord_frumtolur_list:
         frumtala_data = get_frumtala_from_db_to_ordered_dict(isl_ord_frumtala)
         frumtala_data_hash = hashify_ord_data(frumtala_data)
         # ensure unique hash
@@ -269,6 +269,38 @@ def write_datafiles_from_db():
         ) as json_file:
             json_file.write(sagnord_data_json_str)
             logman.info('Wrote file "sagnord/%s' % (isl_ord_sagnord_filename, ))
+    # frumtölur
+    isl_ord_frumtolur_samsett_list = db.Session.query(isl.Ord).filter_by(
+        Ordflokkur=isl.Ordflokkar.Frumtala,
+        Samsett=True
+    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
+    for isl_ord_frumtala in isl_ord_frumtolur_samsett_list:
+        frumtala_data = get_samsett_ord_from_db_to_ordered_dict(
+            isl_ord_frumtala, ord_id_hash_map=isl_ord_id_to_hash
+        )
+        frumtala_data_hash = hashify_ord_data(frumtala_data)
+        # ensure unique frumtala_data_hash
+        if frumtala_data_hash in hash_to_isl_ord_id:
+            counter = 0
+            frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
+            while frumtala_data_hash_incr in hash_to_isl_ord_id:
+                counter += 1
+                frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
+            frumtala_data_hash = frumtala_data_hash_incr
+        hash_to_isl_ord_id[frumtala_data_hash] = isl_ord_frumtala.Ord_id
+        isl_ord_id_to_hash[str(isl_ord_frumtala.Ord_id)] = frumtala_data_hash
+        frumtala_data['hash'] = frumtala_data_hash
+        frumtala_data_json_str = ord_data_to_fancy_json_str(frumtala_data)
+        isl_ord_frumtala_filename = '%s.json' % (frumtala_data['orð'], )
+        with open(
+            os.path.join(datafiles_dir_abs, 'toluord', 'frumtolur', isl_ord_frumtala_filename),
+            mode='w',
+            encoding='utf-8'
+        ) as json_file:
+            json_file.write(frumtala_data_json_str)
+            logman.info('Wrote file "toluord/frumtolur/%s' % (isl_ord_frumtala_filename, ))
+    #
+    #
     # TODO: more stuffs here plz
     logman.info('TODO: finish implementing write_datafiles_from_db')
 
@@ -1060,6 +1092,14 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     data['flokkur'] = ordflokkur_to_str(isl_ord.Ordflokkur)
     if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
         data['kyn'] = None
+    if isl_ord.Ordflokkur is isl.Ordflokkar.Frumtala:
+        isl_frumtala_query = db.Session.query(isl.Frumtala).filter_by(
+            fk_Ord_id=isl_ord.Ord_id
+        )
+        assert(len(isl_frumtala_query.all()) < 2)
+        isl_frumtala = isl_frumtala_query.first()
+        if isl_frumtala is not None and isl_frumtala.Gildi is not None:
+            data['gildi'] = isl_frumtala.Gildi
     data['samsett'] = []
     isl_samsett_ord_list = db.Session.query(isl.SamsettOrd).filter_by(
         fk_Ord_id=isl_ord.Ord_id
