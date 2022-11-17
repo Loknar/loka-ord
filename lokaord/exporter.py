@@ -1635,7 +1635,7 @@ def add_framhluti_to_ord_data(framhluti, ord_data):
     helper function for constructing beygingarmyndir data for samsett orð
     '''
     dictorinos = (dict, collections.OrderedDict)
-    ignore_keys = set(['orð', 'flokkur', 'kyn', 'hash', 'ósjálfstætt'])
+    ignore_keys = set(['orð', 'flokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt'])
     dont_change_keys = set(['frumlag'])
     new_ord_data = None
     if type(ord_data) is dict:
@@ -1657,5 +1657,7 @@ def add_framhluti_to_ord_data(framhluti, ord_data):
     if type(ord_data) is str:
         new_ord_data = '%s%s' % (framhluti, ord_data)
     if type(ord_data) is bool:
+        new_ord_data = ord_data
+    if type(ord_data) is int:
         new_ord_data = ord_data
     return new_ord_data
