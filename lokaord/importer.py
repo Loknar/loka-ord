@@ -25,6 +25,10 @@ def build_db_from_datafiles():
         os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
     )
     logman.info('We import core words first, then combined (samssett).')
+    #
+    # ---------- #
+    # kjarna orð #
+    # ---------- #
     # nafnorð core
     nafnord_dir = os.path.join(datafiles_dir_abs, 'nafnord')
     nafnord_files, nafnord_files_samsett = list_json_files_separate_samsett_ord(nafnord_dir)
@@ -104,7 +108,25 @@ def build_db_from_datafiles():
             logman.info('Added frumtala "%s".' % (frumtala_data['orð'], ))
         else:
             logman.warning('Frumtala "%s" already exists! Skipping.' % (frumtala_data['orð'], ))
+    # töluorð, raðtölur
+    radtolur_dir = os.path.join(datafiles_dir_abs, 'toluord', 'radtolur')
+    radtolur_files, radtolur_files_samsett = list_json_files_separate_samsett_ord(radtolur_dir)
+    for radtala_file in radtolur_files:
+        logman.info('File toluord/frumtolur/%s ..' % (radtala_file.name, ))
+        radtala_data = None
+        with radtala_file.open(mode='r', encoding='utf-8') as fi:
+            radtala_data = json.loads(fi.read())
+        isl_ord = lookup_radtala(radtala_data)
+        if isl_ord is None:
+            add_radtala(radtala_data)
+            logman.info('Added raðtala "%s".' % (radtala_data['orð'], ))
+        else:
+            logman.warning('Raðtala "%s" already exists! Skipping.' % (radtala_data['orð'], ))
     # TODO: add other orðflokkar
+    #
+    # ----------- #
+    # samsett orð #
+    # ----------- #
     # nafnorð samsett
     logman.info('Reading samsett "nafnorð" datafiles (%s) ..' % (len(nafnord_files_samsett), ))
     for nafnord_file in nafnord_files_samsett:
@@ -164,9 +186,20 @@ def build_db_from_datafiles():
             add_frumtala(frumtala_data)
             logman.info('Added frumtala "%s".' % (frumtala_data['orð'], ))
         else:
-            logman.warning('Frumtala "%s" already exists! Skipping.' % (
-                frumtala_data['orð'],
-            ))
+            logman.warning('Frumtala "%s" already exists! Skipping.' % (frumtala_data['orð'], ))
+    # töluorð, raðtölur samsett
+    logman.info('Reading samsett "raðtölur" datafiles (%s) ..' % (len(radtolur_files_samsett), ))
+    for radtala_file in radtolur_files_samsett:
+        logman.info('File toluord/frumtolur/%s ..' % (radtala_file.name, ))
+        radtala_data = None
+        with radtala_file.open(mode='r', encoding='utf-8') as fi:
+            radtala_data = json.loads(fi.read())
+        isl_ord = lookup_radtala(radtala_data)
+        if isl_ord is None:
+            add_radtala(radtala_data)
+            logman.info('Added raðtala "%s".' % (radtala_data['orð'], ))
+        else:
+            logman.warning('Raðtala "%s" already exists! Skipping.' % (radtala_data['orð'], ))
     # TODO: add other orðflokkar
     logman.info('TODO: finish implementing build_db_from_datafiles')
 
@@ -1027,6 +1060,8 @@ def add_samsett_ord(isl_ord_id, ord_data):
             ordhluti_isl_ord = lookup_greinir({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'frumtala':
             ordhluti_isl_ord = lookup_frumtala({'orð': ordhluti_obj['orð']})
+        elif ordhluti_obj['flokkur'] == 'raðtala':
+            ordhluti_isl_ord = lookup_radtala({'orð': ordhluti_obj['orð']})
         # TODO: add handling for the other orðflokkar here
         assert(ordhluti_isl_ord is not None)
         isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
@@ -1098,12 +1133,12 @@ def add_word(word_data, write_to_file=True):
 
 def lookup_greinir(greinir_data):
     isl_ord = None
-    isl_ord_list_query = db.Session.query(isl.Ord).filter_by(
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
         Ord=greinir_data['orð'],
         Ordflokkur=isl.Ordflokkar.Greinir
     )
-    assert(len(isl_ord_list_query.all()) < 2)
-    isl_ord = isl_ord_list_query.first()
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
     return isl_ord
 
 
@@ -1148,12 +1183,12 @@ def add_greinir(greinir_data):
 
 def lookup_frumtala(frumtala_data):
     isl_ord = None
-    isl_ord_list_query = db.Session.query(isl.Ord).filter_by(
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
         Ord=frumtala_data['orð'],
         Ordflokkur=isl.Ordflokkar.Frumtala
     )
-    assert(len(isl_ord_list_query.all()) < 2)
-    isl_ord = isl_ord_list_query.first()
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
     return isl_ord
 
 
@@ -1203,4 +1238,110 @@ def add_frumtala(frumtala_data):
         if 'hk' in frumtala_data['ft']:
             isl_frumtala.fk_ft_hk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['hk'])
             db.Session.commit()
+    return isl_ord
+
+
+def lookup_radtala(radtala_data):
+    isl_ord = None
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
+        Ord=radtala_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Radtala
+    )
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
+    return isl_ord
+
+
+def add_radtala(radtala_data):
+    '''
+    add raðtala from datafile to database
+    '''
+    assert('flokkur' in radtala_data and radtala_data['flokkur'] == 'raðtala')
+    if 'gildi' in radtala_data:
+        assert(type(radtala_data['gildi']) is int)
+    isl_ord = isl.Ord(
+        Ord=radtala_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Radtala
+    )
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    isl_radtala = isl.Radtala(
+        fk_Ord_id=isl_ord.Ord_id
+    )
+    db.Session.add(isl_radtala)
+    db.Session.commit()
+    if 'gildi' in radtala_data:
+        isl_radtala.Gildi = radtala_data['gildi']
+        db.Session.commit()
+    if 'samsett' in radtala_data:
+        add_samsett_ord(isl_ord.Ord_id, radtala_data)
+        isl_ord.Samsett = True
+        db.Session.commit()
+        return isl_ord
+    if 'sb' in radtala_data:
+        if 'et' in radtala_data['sb']:
+            if 'kk' in radtala_data['sb']['et']:
+                isl_radtala.fk_sb_et_kk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['sb']['et']['kk']
+                )
+                db.Session.commit()
+            if 'kvk' in radtala_data['sb']['et']:
+                isl_radtala.fk_sb_et_kvk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['sb']['et']['kvk']
+                )
+                db.Session.commit()
+            if 'hk' in radtala_data['sb']['et']:
+                isl_radtala.fk_sb_et_hk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['sb']['et']['hk']
+                )
+                db.Session.commit()
+        if 'ft' in radtala_data['sb']:
+            if 'kk' in radtala_data['sb']['ft']:
+                isl_radtala.fk_sb_ft_kk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['sb']['ft']['kk']
+                )
+                db.Session.commit()
+            if 'kvk' in radtala_data['sb']['ft']:
+                isl_radtala.fk_sb_ft_kvk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['sb']['ft']['kvk']
+                )
+                db.Session.commit()
+            if 'hk' in radtala_data['sb']['ft']:
+                isl_radtala.fk_sb_ft_hk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['sb']['ft']['hk']
+                )
+                db.Session.commit()
+    if 'vb' in radtala_data:
+        if 'et' in radtala_data['vb']:
+            if 'kk' in radtala_data['vb']['et']:
+                isl_radtala.fk_vb_et_kk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['vb']['et']['kk']
+                )
+                db.Session.commit()
+            if 'kvk' in radtala_data['vb']['et']:
+                isl_radtala.fk_vb_et_kvk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['vb']['et']['kvk']
+                )
+                db.Session.commit()
+            if 'hk' in radtala_data['vb']['et']:
+                isl_radtala.fk_vb_et_hk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['vb']['et']['hk']
+                )
+                db.Session.commit()
+        if 'ft' in radtala_data['vb']:
+            if 'kk' in radtala_data['vb']['ft']:
+                isl_radtala.fk_vb_ft_kk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['vb']['ft']['kk']
+                )
+                db.Session.commit()
+            if 'kvk' in radtala_data['vb']['ft']:
+                isl_radtala.fk_vb_ft_kvk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['vb']['ft']['kvk']
+                )
+                db.Session.commit()
+            if 'hk' in radtala_data['vb']['ft']:
+                isl_radtala.fk_vb_ft_hk_Fallbeyging_id = add_fallbeyging(
+                    radtala_data['vb']['ft']['hk']
+                )
+                db.Session.commit()
     return isl_ord

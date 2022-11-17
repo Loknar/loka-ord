@@ -144,7 +144,7 @@ def write_datafiles_from_db():
         ) as json_file:
             json_file.write(greinir_data_json_str)
             logman.info('Wrote file "greinir/%s' % (isl_ord_greinir_filename, ))
-    # frumtölur
+    # töluorð, frumtölur
     isl_ord_frumtolur_list = db.Session.query(isl.Ord).filter_by(
         Ordflokkur=isl.Ordflokkar.Frumtala,
         Samsett=False
@@ -172,7 +172,34 @@ def write_datafiles_from_db():
         ) as json_file:
             json_file.write(frumtala_data_json_str)
             logman.info('Wrote file "toluord/frumtolur/%s' % (isl_ord_frumtala_filename, ))
-
+    # töluorð, raðtölur
+    isl_ord_radtolur_list = db.Session.query(isl.Ord).filter_by(
+        Ordflokkur=isl.Ordflokkar.Radtala,
+        Samsett=False
+    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
+    for isl_ord_radtala in isl_ord_radtolur_list:
+        radtala_data = get_radtala_from_db_to_ordered_dict(isl_ord_radtala)
+        radtala_data_hash = hashify_ord_data(radtala_data)
+        # ensure unique hash
+        if radtala_data_hash in hash_to_isl_ord_id:
+            counter = 0
+            radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
+            while radtala_data_hash_incr in hash_to_isl_ord_id:
+                counter += 1
+                radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
+            radtala_data_hash = radtala_data_hash_incr
+        hash_to_isl_ord_id[radtala_data_hash] = isl_ord_radtala.Ord_id
+        isl_ord_id_to_hash[str(isl_ord_radtala.Ord_id)] = radtala_data_hash
+        radtala_data['hash'] = radtala_data_hash
+        radtala_data_json_str = ord_data_to_fancy_json_str(radtala_data)
+        isl_ord_radtala_filename = '%s.json' % (radtala_data['orð'], )
+        with open(
+            os.path.join(datafiles_dir_abs, 'toluord', 'radtolur', isl_ord_radtala_filename),
+            mode='w',
+            encoding='utf-8'
+        ) as json_file:
+            json_file.write(radtala_data_json_str)
+            logman.info('Wrote file "toluord/radtolur/%s' % (isl_ord_radtala_filename, ))
     #
     # TODO: meðhöndla restina af orðflokkunum fyrir ósamsett (core) orð
     #
@@ -269,7 +296,7 @@ def write_datafiles_from_db():
         ) as json_file:
             json_file.write(sagnord_data_json_str)
             logman.info('Wrote file "sagnord/%s' % (isl_ord_sagnord_filename, ))
-    # frumtölur
+    # töluorð, frumtölur
     isl_ord_frumtolur_samsett_list = db.Session.query(isl.Ord).filter_by(
         Ordflokkur=isl.Ordflokkar.Frumtala,
         Samsett=True
@@ -299,6 +326,36 @@ def write_datafiles_from_db():
         ) as json_file:
             json_file.write(frumtala_data_json_str)
             logman.info('Wrote file "toluord/frumtolur/%s' % (isl_ord_frumtala_filename, ))
+    # töluorð, raðtölur
+    isl_ord_radtolur_samsett_list = db.Session.query(isl.Ord).filter_by(
+        Ordflokkur=isl.Ordflokkar.Radtala,
+        Samsett=True
+    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
+    for isl_ord_radtala in isl_ord_radtolur_samsett_list:
+        radtala_data = get_samsett_ord_from_db_to_ordered_dict(
+            isl_ord_radtala, ord_id_hash_map=isl_ord_id_to_hash
+        )
+        radtala_data_hash = hashify_ord_data(radtala_data)
+        # ensure unique radtala_data_hash
+        if radtala_data_hash in hash_to_isl_ord_id:
+            counter = 0
+            radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
+            while radtala_data_hash_incr in hash_to_isl_ord_id:
+                counter += 1
+                radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
+            radtala_data_hash = radtala_data_hash_incr
+        hash_to_isl_ord_id[radtala_data_hash] = isl_ord_radtala.Ord_id
+        isl_ord_id_to_hash[str(isl_ord_radtala.Ord_id)] = radtala_data_hash
+        radtala_data['hash'] = radtala_data_hash
+        radtala_data_json_str = ord_data_to_fancy_json_str(radtala_data)
+        isl_ord_radtala_filename = '%s.json' % (radtala_data['orð'], )
+        with open(
+            os.path.join(datafiles_dir_abs, 'toluord', 'radtolur', isl_ord_radtala_filename),
+            mode='w',
+            encoding='utf-8'
+        ) as json_file:
+            json_file.write(radtala_data_json_str)
+            logman.info('Wrote file "toluord/radtolur/%s' % (isl_ord_radtala_filename, ))
     #
     #
     # TODO: more stuffs here plz
@@ -1092,7 +1149,7 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     data['flokkur'] = ordflokkur_to_str(isl_ord.Ordflokkur)
     if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
         data['kyn'] = None
-    if isl_ord.Ordflokkur is isl.Ordflokkar.Frumtala:
+    elif isl_ord.Ordflokkur is isl.Ordflokkar.Frumtala:
         isl_frumtala_query = db.Session.query(isl.Frumtala).filter_by(
             fk_Ord_id=isl_ord.Ord_id
         )
@@ -1100,6 +1157,14 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         isl_frumtala = isl_frumtala_query.first()
         if isl_frumtala is not None and isl_frumtala.Gildi is not None:
             data['gildi'] = isl_frumtala.Gildi
+    elif isl_ord.Ordflokkur is isl.Ordflokkar.Radtala:
+        isl_radtala_query = db.Session.query(isl.Radtala).filter_by(
+            fk_Ord_id=isl_ord.Ord_id
+        )
+        assert(len(isl_radtala_query.all()) < 2)
+        isl_radtala = isl_radtala_query.first()
+        if isl_radtala is not None and isl_radtala.Gildi is not None:
+            data['gildi'] = isl_radtala.Gildi
     data['samsett'] = []
     isl_samsett_ord_list = db.Session.query(isl.SamsettOrd).filter_by(
         fk_Ord_id=isl_ord.Ord_id
@@ -1189,6 +1254,18 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             )
         elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Sagnord:
             samsett_ord_last_ordhluti_ord_data = get_sagnord_from_db_to_ordered_dict(
+                samsett_ord_last_ordhluti_ord
+            )
+        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Greinir:
+            samsett_ord_last_ordhluti_ord_data = get_greinir_from_db_to_ordered_dict(
+                samsett_ord_last_ordhluti_ord
+            )
+        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Frumtala:
+            samsett_ord_last_ordhluti_ord_data = get_frumtala_from_db_to_ordered_dict(
+                samsett_ord_last_ordhluti_ord
+            )
+        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Radtala:
+            samsett_ord_last_ordhluti_ord_data = get_radtala_from_db_to_ordered_dict(
                 samsett_ord_last_ordhluti_ord
             )
         # TODO: add more orðflokkar here :/
@@ -1350,6 +1427,111 @@ def get_frumtala_from_db_to_ordered_dict(isl_ord):
         data['ft']['hk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_ft_hk_Fallbeyging_id)
     if 'et' not in data and 'ft' not in data:
         data['óbeygjanlegt'] = True
+    return data
+
+
+def get_radtala_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'raðtala'
+    isl_radtala = db.Session.query(isl.Radtala).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+    assert(isl_radtala is not None)
+    if isl_radtala.Gildi is not None:
+        data['gildi'] = isl_radtala.Gildi
+    if (
+        isl_radtala.fk_sb_et_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_et_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_et_hk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_ft_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_ft_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_ft_hk_Fallbeyging_id is not None
+    ):
+        data['sb'] = collections.OrderedDict()
+    if (
+        isl_radtala.fk_sb_et_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_et_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_et_hk_Fallbeyging_id is not None
+    ):
+        data['sb']['et'] = collections.OrderedDict()
+    if (
+        isl_radtala.fk_sb_ft_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_ft_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_sb_ft_hk_Fallbeyging_id is not None
+    ):
+        data['sb']['ft'] = collections.OrderedDict()
+    if (
+        isl_radtala.fk_vb_et_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_et_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_et_hk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_ft_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_ft_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_ft_hk_Fallbeyging_id is not None
+    ):
+        data['vb'] = collections.OrderedDict()
+    if (
+        isl_radtala.fk_vb_et_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_et_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_et_hk_Fallbeyging_id is not None
+    ):
+        data['vb']['et'] = collections.OrderedDict()
+    if (
+        isl_radtala.fk_vb_ft_kk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_ft_kvk_Fallbeyging_id is not None or
+        isl_radtala.fk_vb_ft_hk_Fallbeyging_id is not None
+    ):
+        data['vb']['ft'] = collections.OrderedDict()
+    # sb et
+    if isl_radtala.fk_sb_et_kk_Fallbeyging_id is not None:
+        data['sb']['et']['kk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_sb_et_kk_Fallbeyging_id
+        )
+    if isl_radtala.fk_sb_et_kvk_Fallbeyging_id is not None:
+        data['sb']['et']['kvk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_sb_et_kvk_Fallbeyging_id
+        )
+    if isl_radtala.fk_sb_et_hk_Fallbeyging_id is not None:
+        data['sb']['et']['hk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_sb_et_hk_Fallbeyging_id
+        )
+    # sb ft
+    if isl_radtala.fk_sb_ft_kk_Fallbeyging_id is not None:
+        data['sb']['ft']['kk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_sb_ft_kk_Fallbeyging_id
+        )
+    if isl_radtala.fk_sb_ft_kvk_Fallbeyging_id is not None:
+        data['sb']['ft']['kvk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_sb_ft_kvk_Fallbeyging_id
+        )
+    if isl_radtala.fk_sb_ft_hk_Fallbeyging_id is not None:
+        data['sb']['ft']['hk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_sb_ft_hk_Fallbeyging_id
+        )
+    # vb et
+    if isl_radtala.fk_vb_et_kk_Fallbeyging_id is not None:
+        data['vb']['et']['kk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_vb_et_kk_Fallbeyging_id
+        )
+    if isl_radtala.fk_vb_et_kvk_Fallbeyging_id is not None:
+        data['vb']['et']['kvk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_vb_et_kvk_Fallbeyging_id
+        )
+    if isl_radtala.fk_vb_et_hk_Fallbeyging_id is not None:
+        data['vb']['et']['hk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_vb_et_hk_Fallbeyging_id
+        )
+    # vb ft
+    if isl_radtala.fk_vb_ft_kk_Fallbeyging_id is not None:
+        data['vb']['ft']['kk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_vb_ft_kk_Fallbeyging_id
+        )
+    if isl_radtala.fk_vb_ft_kvk_Fallbeyging_id is not None:
+        data['vb']['ft']['kvk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_vb_ft_kvk_Fallbeyging_id
+        )
+    if isl_radtala.fk_vb_ft_hk_Fallbeyging_id is not None:
+        data['vb']['ft']['hk'] = get_fallbeyging_list_from_db(
+            isl_radtala.fk_vb_ft_hk_Fallbeyging_id
+        )
     return data
 
 
