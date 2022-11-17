@@ -10,8 +10,8 @@ class Ordflokkar(enum.Enum):
     Nafnord = 0
     Lysingarord = 1
     Greinir = 2  # fyrir hinn lausa greini, en viðskeyttur greinir geymdur í tvíriti í Fallbeyging
-    Frumtala = 3  # - Töluorð, hafa undirflokkana Frumtölur og Raðtölur
-    Radtala = 4   # /
+    Frumtala = 3  # - Töluorð, hafa undirflokkana Frumtölur og Raðtölur, til einföldunar eru þeir
+    Radtala = 4   # / listaðir beint hér sem orðflokkar í stað þess að flokka þá sem undirflokka
     Fornafn = 5
     # sagnorð
     Sagnord = 6
@@ -49,13 +49,13 @@ class Fornafnaflokkar(enum.Enum):
     Eignarfornafn = 2
     Abendingarfornafn = 3
     Spurnarfornafn = 4
-    Tilvisunarfornafn = 5
-    OakvedidFornafn = 6
+    OakvedidFornafn = 5
 
 
-class Toluordaflokkar(enum.Enum):
-    Frumtala = 0  # (einn, tveir, þrír)
-    Radtala = 1  # (fyrsti, annar, þriðji)
+class Persona(enum.Enum):
+    Fyrsta = 0
+    Onnur = 1
+    Thridja = 2
 
 
 class Ord(Base):
@@ -94,11 +94,11 @@ class Nafnord(Base):
     __tablename__ = 'Nafnord'
     Nafnord_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Kyn = utils.selection(Kyn, Kyn.Karlkyn)
     fk_et_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_et_mgr_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_ft_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_ft_mgr_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    Kyn = utils.selection(Kyn, Kyn.Karlkyn)
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -163,7 +163,7 @@ class Greinir(Base):  # laus greinir (hinn)
     Created = utils.timestamp_created()
 
 
-class Frumtala(Base):  # Töluorð - Frumtala
+class Frumtala(Base):  # Töluorð - Frumtala (einn, tveir, þrír)
     __tablename__ = 'Frumtala'
     Frumtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
@@ -184,7 +184,7 @@ class Frumtala(Base):  # Töluorð - Frumtala
     Created = utils.timestamp_created()
 
 
-class Radtala(Base):  # Töluorð - Raðtala
+class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji)
     __tablename__ = 'Radtala'
     Radtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
@@ -240,6 +240,16 @@ class Fornafn(Base):
     Fornafn_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Typa = utils.selection(Fornafnaflokkar, Fornafnaflokkar.Personufornafn)
+    Kyn = utils.selection(Kyn, None)
+    Persona = utils.selection(Persona, None)
+    # kynlausar beygingar -------------------------------------------------------------------------
+    # þ.e. beygingarmyndirnar falla ekki undir, eru eins í öllum kynjum, eða eru bundin einu
+    # tilgreindu (ofangreindu, í "Kyn" gildinu) kyni
+    # eintala
+    fk_et_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    # fleirtala
+    fk_ft_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    # kynbundnar beygingar ------------------------------------------------------------------------
     # eintala
     fk_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_et_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
