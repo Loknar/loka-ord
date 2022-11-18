@@ -24,187 +24,119 @@ def build_db_from_datafiles():
     datafiles_dir_abs = os.path.abspath(
         os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
     )
+    import_tasks = [
+        {
+            'name': 'nafnorð',
+            'root': datafiles_dir_abs,
+            'dir': 'nafnord',
+            'f_lookup': lookup_nafnord,
+            'f_add': add_nafnord,
+            'has_samsett': True
+        },
+        {
+            'name': 'lýsingarorð',
+            'root': datafiles_dir_abs,
+            'dir': 'lysingarord',
+            'f_lookup': lookup_lysingarord,
+            'f_add': add_lysingarord,
+            'has_samsett': True
+        },
+        {
+            'name': 'sagnorð',
+            'root': datafiles_dir_abs,
+            'dir': 'sagnord',
+            'f_lookup': lookup_sagnord,
+            'f_add': add_sagnord,
+            'has_samsett': True
+        },
+        {
+            'name': 'greinir',
+            'root': datafiles_dir_abs,
+            'dir': 'greinir',
+            'f_lookup': lookup_greinir,
+            'f_add': add_greinir,
+            'has_samsett': False
+        },
+        {
+            'name': 'frumtölur',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('toluord', 'frumtolur'),
+            'f_lookup': lookup_frumtala,
+            'f_add': add_frumtala,
+            'has_samsett': True
+        },
+        {
+            'name': 'raðtölur',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('toluord', 'radtolur'),
+            'f_lookup': lookup_radtala,
+            'f_add': add_radtala,
+            'has_samsett': True
+        },
+    ]  # TODO: add rest of orðflokkar
     logman.info('We import core words first, then combined (samssett).')
+    for task in import_tasks:
+        do_import_task(task, do_samsett=False)
+    logman.info('Now importing combined words (samsett).')
+    for task in import_tasks:
+        do_import_task(task, do_samsett=True)
     #
-    # ---------- #
-    # kjarna orð #
-    # ---------- #
-    # nafnorð core
-    nafnord_dir = os.path.join(datafiles_dir_abs, 'nafnord')
-    nafnord_files, nafnord_files_samsett = list_json_files_separate_samsett_ord(nafnord_dir)
-    logman.info('Reading core "nafnorð" datafiles (%s) ..' % (len(nafnord_files), ))
-    for nafnord_file in nafnord_files:
-        logman.info('File nafnord/%s ..' % (nafnord_file.name, ))
-        nafnord_data = None
-        with nafnord_file.open(mode='r', encoding='utf-8') as fi:
-            nafnord_data = json.loads(fi.read())
-        isl_ord = lookup_nafnord(nafnord_data)
-        if isl_ord is None:
-            add_nafnord(nafnord_data)
-            logman.info('Added nafnorð "%s" (%s).' % (nafnord_data['orð'], nafnord_data['kyn']))
-        else:
-            logman.warning('Nafnorð "%s" (%s) already exists! Skipping.' % (
-                nafnord_data['orð'], nafnord_data['kyn']
-            ))
-    # lýsingarorð core
-    lysingarord_dir = os.path.join(datafiles_dir_abs, 'lysingarord')
-    lysingarord_files, lysingarord_files_samsett = list_json_files_separate_samsett_ord(
-        lysingarord_dir
-    )
-    logman.info('Reading core "lýsingarorð" datafiles (%s) ..' % (len(lysingarord_files), ))
-    for lysingarord_file in lysingarord_files:
-        logman.info('File lysingarord/%s ..' % (lysingarord_file.name, ))
-        lysingarord_data = None
-        with lysingarord_file.open(mode='r', encoding='utf-8') as fi:
-            lysingarord_data = json.loads(fi.read())
-        isl_ord = lookup_lysingarord(lysingarord_data)
-        if isl_ord is None:
-            add_lysingarord(lysingarord_data)
-            logman.info('Added lýsingarorð "%s".' % (lysingarord_data['orð'], ))
-        else:
-            logman.warning('Lýsingarorð "%s" already exists! Skipping.' % (
-                lysingarord_data['orð'],
-            ))
-    # sagnorð core
-    sagnord_dir = os.path.join(datafiles_dir_abs, 'sagnord')
-    sagnord_files, sagnord_files_samsett = list_json_files_separate_samsett_ord(sagnord_dir)
-    logman.info('Reading core "sagnorð" datafiles (%s) ..' % (len(sagnord_files), ))
-    for sagnord_file in sagnord_files:
-        logman.info('File sagnord/%s ..' % (sagnord_file.name, ))
-        sagnord_data = None
-        with sagnord_file.open(mode='r', encoding='utf-8') as fi:
-            sagnord_data = json.loads(fi.read())
-        isl_ord = lookup_sagnord(sagnord_data)
-        if isl_ord is None:
-            add_sagnord(sagnord_data)
-            logman.info('Added sagnorð "%s".' % (sagnord_data['orð'], ))
-        else:
-            logman.warning('Sagnorð "%s" already exists! Skipping.' % (sagnord_data['orð'], ))
-    # greinir
-    greinir_dir = os.path.join(datafiles_dir_abs, 'greinir')
-    logman.info('Reading greinir ..')
-    for greinir_file in pathlib.Path(greinir_dir).iterdir():
-        logman.info('File greinir/%s ..' % (greinir_file.name, ))
-        greinir_data = None
-        with greinir_file.open(mode='r', encoding='utf-8') as fi:
-            greinir_data = json.loads(fi.read())
-        isl_ord = lookup_greinir(greinir_data)
-        if isl_ord is None:
-            add_greinir(greinir_data)
-            logman.info('Added greinir "%s".' % (greinir_data['orð'], ))
-        else:
-            logman.warning('Greinir "%s" already exists! Skipping.' % (greinir_data['orð'], ))
-    # töluorð, frumtölur
-    frumtolur_dir = os.path.join(datafiles_dir_abs, 'toluord', 'frumtolur')
-    frumtolur_files, frumtolur_files_samsett = list_json_files_separate_samsett_ord(frumtolur_dir)
-    for frumtala_file in frumtolur_files:
-        logman.info('File toluord/frumtolur/%s ..' % (frumtala_file.name, ))
-        frumtala_data = None
-        with frumtala_file.open(mode='r', encoding='utf-8') as fi:
-            frumtala_data = json.loads(fi.read())
-        isl_ord = lookup_frumtala(frumtala_data)
-        if isl_ord is None:
-            add_frumtala(frumtala_data)
-            logman.info('Added frumtala "%s".' % (frumtala_data['orð'], ))
-        else:
-            logman.warning('Frumtala "%s" already exists! Skipping.' % (frumtala_data['orð'], ))
-    # töluorð, raðtölur
-    radtolur_dir = os.path.join(datafiles_dir_abs, 'toluord', 'radtolur')
-    radtolur_files, radtolur_files_samsett = list_json_files_separate_samsett_ord(radtolur_dir)
-    for radtala_file in radtolur_files:
-        logman.info('File toluord/frumtolur/%s ..' % (radtala_file.name, ))
-        radtala_data = None
-        with radtala_file.open(mode='r', encoding='utf-8') as fi:
-            radtala_data = json.loads(fi.read())
-        isl_ord = lookup_radtala(radtala_data)
-        if isl_ord is None:
-            add_radtala(radtala_data)
-            logman.info('Added raðtala "%s".' % (radtala_data['orð'], ))
-        else:
-            logman.warning('Raðtala "%s" already exists! Skipping.' % (radtala_data['orð'], ))
-    # TODO: add other orðflokkar
-    #
-    # ----------- #
-    # samsett orð #
-    # ----------- #
-    # nafnorð samsett
-    logman.info('Reading samsett "nafnorð" datafiles (%s) ..' % (len(nafnord_files_samsett), ))
-    for nafnord_file in nafnord_files_samsett:
-        logman.info('File nafnord/%s ..' % (nafnord_file.name, ))
-        nafnord_data = None
-        with nafnord_file.open(mode='r', encoding='utf-8') as fi:
-            nafnord_data = json.loads(fi.read())
-        isl_ord = lookup_nafnord(nafnord_data)
-        if isl_ord is None:
-            add_nafnord(nafnord_data)
-            logman.info('Added nafnorð "%s" (%s).' % (nafnord_data['orð'], nafnord_data['kyn']))
-        else:
-            logman.warning('Nafnorð "%s" (%s) already exists! Skipping.' % (
-                nafnord_data['orð'], nafnord_data['kyn']
-            ))
-    # lýsingarorð samsett
-    logman.info('Reading samsett "lýsingarorð" datafiles (%s) ..' % (
-        len(lysingarord_files_samsett),
-    ))
-    for lysingarord_file in lysingarord_files_samsett:
-        logman.info('File lysingarord/%s ..' % (lysingarord_file.name, ))
-        lysingarord_data = None
-        with lysingarord_file.open(mode='r', encoding='utf-8') as fi:
-            lysingarord_data = json.loads(fi.read())
-        isl_ord = lookup_lysingarord(lysingarord_data)
-        if isl_ord is None:
-            add_lysingarord(lysingarord_data)
-            logman.info('Added lýsingarorð "%s".' % (lysingarord_data['orð'], ))
-        else:
-            logman.warning('Lýsingarorð "%s" already exists! Skipping.' % (
-                lysingarord_data['orð'],
-            ))
-    # sagnorð samsett
-    logman.info('Reading samsett "sagnorð" datafiles (%s) ..' % (len(sagnord_files_samsett), ))
-    for sagnord_file in sagnord_files_samsett:
-        logman.info('File sagnord/%s ..' % (sagnord_file.name, ))
-        sagnord_data = None
-        with sagnord_file.open(mode='r', encoding='utf-8') as fi:
-            sagnord_data = json.loads(fi.read())
-        isl_ord = lookup_sagnord(sagnord_data)
-        if isl_ord is None:
-            add_sagnord(sagnord_data)
-            logman.info('Added sagnorð "%s".' % (sagnord_data['orð'], ))
-        else:
-            logman.warning('Sagnorð "%s" already exists! Skipping.' % (
-                sagnord_data['orð'],
-            ))
-    # töluorð, frumtölur samsett
-    logman.info('Reading samsett "frumtölur" datafiles (%s) ..' % (len(frumtolur_files_samsett), ))
-    for frumtala_file in frumtolur_files_samsett:
-        logman.info('File toluord/frumtolur/%s ..' % (frumtala_file.name, ))
-        frumtala_data = None
-        with frumtala_file.open(mode='r', encoding='utf-8') as fi:
-            frumtala_data = json.loads(fi.read())
-        isl_ord = lookup_frumtala(frumtala_data)
-        if isl_ord is None:
-            add_frumtala(frumtala_data)
-            logman.info('Added frumtala "%s".' % (frumtala_data['orð'], ))
-        else:
-            logman.warning('Frumtala "%s" already exists! Skipping.' % (frumtala_data['orð'], ))
-    # töluorð, raðtölur samsett
-    logman.info('Reading samsett "raðtölur" datafiles (%s) ..' % (len(radtolur_files_samsett), ))
-    for radtala_file in radtolur_files_samsett:
-        logman.info('File toluord/frumtolur/%s ..' % (radtala_file.name, ))
-        radtala_data = None
-        with radtala_file.open(mode='r', encoding='utf-8') as fi:
-            radtala_data = json.loads(fi.read())
-        isl_ord = lookup_radtala(radtala_data)
-        if isl_ord is None:
-            add_radtala(radtala_data)
-            logman.info('Added raðtala "%s".' % (radtala_data['orð'], ))
-        else:
-            logman.warning('Raðtala "%s" already exists! Skipping.' % (radtala_data['orð'], ))
-    # TODO: add other orðflokkar
     logman.info('TODO: finish implementing build_db_from_datafiles')
 
 
+def do_import_task(task, do_samsett=False):
+    f_lookup = task['f_lookup']
+    f_add = task['f_add']
+    files = None
+    if task['has_samsett'] is True:
+        if 'samsett_split' not in task:
+            task['samsett_split'] = list_json_files_separate_samsett_ord(
+                os.path.join(task['root'], task['dir'])
+            )
+        if do_samsett is False:
+            files = task['samsett_split'][0]
+        else:
+            files = task['samsett_split'][1]
+    else:
+        if do_samsett is True:
+            # nothing to do here
+            return
+        files = pathlib.Path(os.path.join(task['root'], task['dir'])).iterdir()
+    assert(files is not None)
+    logman.info('Task %s "%s" %s..' % (
+        'kjarna' if do_samsett is False else 'samsett',
+        task['name'],
+        '' if type(files) is not list else ('filecount=%s' % (len(files), ))
+    ))
+    for ord_file in files:
+        logman.info('File %s/%s ..' % (task['dir'], ord_file.name))
+        ord_data = None
+        with ord_file.open(mode='r', encoding='utf-8') as fi:
+            ord_data = json.loads(fi.read())
+        isl_ord = f_lookup(ord_data)
+        hr_ord = '"%s"' % (ord_data['orð'], )
+        if ord_data['flokkur'] == 'nafnorð':
+            hr_ord = '"%s" (%s)' % (ord_data['orð'], ord_data['kyn'])
+        if isl_ord is None:
+            f_add(ord_data)
+            logman.info('Added %s %s.' % (
+                task['name'],
+                hr_ord
+            ))
+        else:
+            logman.warning('%s %s already exists! Skipping.' % (
+                '%s%s' % (task['name'][0].upper(), task['name'][1:]),
+                hr_ord
+            ))
+
+
 def list_json_files_separate_samsett_ord(file_dir):
+    '''
+    returns two lists in a tuple, first list contains json files without "samsett" root key,
+    second list contains json files with "samsett" root key
+
+    files not with .json ending are ignored
+    '''
     files_list = []
     files_list_samsett = []
     for json_file in sorted(pathlib.Path(file_dir).iterdir()):
