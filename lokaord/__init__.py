@@ -24,7 +24,8 @@ def get_words_count():
         'to': (  # töluorð (frumtölur + raðtölur)
             db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Frumtala).count() +
             db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Radtala).count()
-        )
+        ),
+        'fn': db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Fornafn).count()
     }
 
 
