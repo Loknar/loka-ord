@@ -22,344 +22,136 @@ def write_datafiles_from_db():
     )
     isl_ord_id_to_hash = {}
     hash_to_isl_ord_id = {}
-    # we manage core words and combined (samsett) words separately
-    # ---------- #
-    # kjarna orð #
-    # ---------- #
-    # nafnorð
-    isl_ord_nafnord_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Nafnord,
-        Samsett=False
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_nafnord in isl_ord_nafnord_list:
-        nafnord_data = get_nafnord_from_db_to_ordered_dict(isl_ord_nafnord)
-        nafnord_data_hash = hashify_ord_data(nafnord_data)
-        # ensure unique nafnord_data_hash
-        if nafnord_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            nafnord_data_hash_incr = '%s_%s' % (nafnord_data_hash, hex(counter)[2:])
-            while nafnord_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                nafnord_data_hash_incr = '%s_%s' % (nafnord_data_hash, hex(counter)[2:])
-            nafnord_data_hash = nafnord_data_hash_incr
-        hash_to_isl_ord_id[nafnord_data_hash] = isl_ord_nafnord.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_nafnord.Ord_id)] = nafnord_data_hash
-        nafnord_data['hash'] = nafnord_data_hash
-        osjalfstaett_ord = ''
-        if 'ósjálfstætt' in nafnord_data and nafnord_data['ósjálfstætt'] is True:
-            osjalfstaett_ord = '-ó'
-        nafnord_data_json_str = ord_data_to_fancy_json_str(nafnord_data)
-        isl_ord_nafnord_filename = '%s-%s%s.json' % (
-            nafnord_data['orð'],
-            nafnord_data['kyn'],
-            osjalfstaett_ord
-        )
-        with open(
-            os.path.join(datafiles_dir_abs, 'nafnord', isl_ord_nafnord_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(nafnord_data_json_str)
-            logman.info('Wrote file "nafnord/%s"' % (isl_ord_nafnord_filename, ))
-    # lýsingarorð
-    isl_ord_lysingarord_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Lysingarord,
-        Samsett=False
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_lysingarord in isl_ord_lysingarord_list:
-        lysingarord_data = get_lysingarord_from_db_to_ordered_dict(isl_ord_lysingarord)
-        lysingarord_data_hash = hashify_ord_data(lysingarord_data)
-        # ensure unique lysingarord_data_hash
-        if lysingarord_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            lysingarord_data_hash_incr = '%s_%s' % (lysingarord_data_hash, hex(counter)[2:])
-            while lysingarord_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                lysingarord_data_hash_incr = '%s_%s' % (lysingarord_data_hash, hex(counter)[2:])
-            lysingarord_data_hash = lysingarord_data_hash_incr
-        hash_to_isl_ord_id[lysingarord_data_hash] = isl_ord_lysingarord.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_lysingarord.Ord_id)] = lysingarord_data_hash
-        lysingarord_data['hash'] = lysingarord_data_hash
-        lysingarord_data_json_str = ord_data_to_fancy_json_str(lysingarord_data)
-        isl_ord_lysingarord_filename = '%s.json' % (lysingarord_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'lysingarord', isl_ord_lysingarord_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(lysingarord_data_json_str)
-            logman.info('Wrote file "lysingarord/%s' % (isl_ord_lysingarord_filename, ))
-    # sagnorð
-    isl_ord_sagnord_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Sagnord,
-        Samsett=False
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_sagnord in isl_ord_sagnord_list:
-        sagnord_data = get_sagnord_from_db_to_ordered_dict(isl_ord_sagnord)
-        sagnord_data_hash = hashify_ord_data(sagnord_data)
-        # ensure unique sagnord_data_hash
-        if sagnord_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            sagnord_data_hash_incr = '%s_%s' % (sagnord_data_hash, hex(counter)[2:])
-            while sagnord_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                sagnord_data_hash_incr = '%s_%s' % (sagnord_data_hash, hex(counter)[2:])
-            sagnord_data_hash = sagnord_data_hash_incr
-        hash_to_isl_ord_id[sagnord_data_hash] = isl_ord_sagnord.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_sagnord.Ord_id)] = sagnord_data_hash
-        sagnord_data['hash'] = sagnord_data_hash
-        sagnord_data_json_str = ord_data_to_fancy_json_str(sagnord_data)
-        isl_ord_sagnord_filename = '%s.json' % (sagnord_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'sagnord', isl_ord_sagnord_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(sagnord_data_json_str)
-            logman.info('Wrote file "sagnord/%s' % (isl_ord_sagnord_filename, ))
-    # greinir
-    isl_ord_greinir_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Greinir
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_greinir in isl_ord_greinir_list:
-        greinir_data = get_greinir_from_db_to_ordered_dict(isl_ord_greinir)
-        greinir_data_hash = hashify_ord_data(greinir_data)
-        # ensure unique hash
-        if greinir_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            greinir_data_hash_incr = '%s_%s' % (greinir_data_hash, hex(counter)[2:])
-            while greinir_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                greinir_data_hash_incr = '%s_%s' % (greinir_data_hash, hex(counter)[2:])
-            greinir_data_hash = greinir_data_hash_incr
-        hash_to_isl_ord_id[greinir_data_hash] = isl_ord_greinir.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_greinir.Ord_id)] = greinir_data_hash
-        greinir_data['hash'] = greinir_data_hash
-        greinir_data_json_str = ord_data_to_fancy_json_str(greinir_data)
-        isl_ord_greinir_filename = '%s.json' % (greinir_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'greinir', isl_ord_greinir_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(greinir_data_json_str)
-            logman.info('Wrote file "greinir/%s' % (isl_ord_greinir_filename, ))
-    # töluorð, frumtölur
-    isl_ord_frumtolur_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Frumtala,
-        Samsett=False
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_frumtala in isl_ord_frumtolur_list:
-        frumtala_data = get_frumtala_from_db_to_ordered_dict(isl_ord_frumtala)
-        frumtala_data_hash = hashify_ord_data(frumtala_data)
-        # ensure unique hash
-        if frumtala_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
-            while frumtala_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
-            frumtala_data_hash = frumtala_data_hash_incr
-        hash_to_isl_ord_id[frumtala_data_hash] = isl_ord_frumtala.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_frumtala.Ord_id)] = frumtala_data_hash
-        frumtala_data['hash'] = frumtala_data_hash
-        frumtala_data_json_str = ord_data_to_fancy_json_str(frumtala_data)
-        isl_ord_frumtala_filename = '%s.json' % (frumtala_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'toluord', 'frumtolur', isl_ord_frumtala_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(frumtala_data_json_str)
-            logman.info('Wrote file "toluord/frumtolur/%s' % (isl_ord_frumtala_filename, ))
-    # töluorð, raðtölur
-    isl_ord_radtolur_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Radtala,
-        Samsett=False
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_radtala in isl_ord_radtolur_list:
-        radtala_data = get_radtala_from_db_to_ordered_dict(isl_ord_radtala)
-        radtala_data_hash = hashify_ord_data(radtala_data)
-        # ensure unique hash
-        if radtala_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
-            while radtala_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
-            radtala_data_hash = radtala_data_hash_incr
-        hash_to_isl_ord_id[radtala_data_hash] = isl_ord_radtala.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_radtala.Ord_id)] = radtala_data_hash
-        radtala_data['hash'] = radtala_data_hash
-        radtala_data_json_str = ord_data_to_fancy_json_str(radtala_data)
-        isl_ord_radtala_filename = '%s.json' % (radtala_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'toluord', 'radtolur', isl_ord_radtala_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(radtala_data_json_str)
-            logman.info('Wrote file "toluord/radtolur/%s' % (isl_ord_radtala_filename, ))
-    #
-    # TODO: meðhöndla restina af orðflokkunum fyrir ósamsett (core) orð
-    #
-    # ----------- #
-    # samsett orð #
-    # ----------- #
-    # nafnorð
-    isl_ord_nafnord_samsett_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Nafnord,
-        Samsett=True
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_nafnord in isl_ord_nafnord_samsett_list:
-        nafnord_data = get_samsett_ord_from_db_to_ordered_dict(
-            isl_ord_nafnord, ord_id_hash_map=isl_ord_id_to_hash
-        )
-        nafnord_data_hash = hashify_ord_data(nafnord_data)
-        # ensure unique nafnord_data_hash
-        if nafnord_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            nafnord_data_hash_incr = '%s_%s' % (nafnord_data_hash, hex(counter)[2:])
-            while nafnord_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                nafnord_data_hash_incr = '%s_%s' % (nafnord_data_hash, hex(counter)[2:])
-            nafnord_data_hash = nafnord_data_hash_incr
-        hash_to_isl_ord_id[nafnord_data_hash] = isl_ord_nafnord.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_nafnord.Ord_id)] = nafnord_data_hash
-        nafnord_data['hash'] = nafnord_data_hash
-        nafnord_data_json_str = ord_data_to_fancy_json_str(nafnord_data)
-        isl_ord_nafnord_filename = '%s-%s.json' % (nafnord_data['orð'], nafnord_data['kyn'])
-        with open(
-            os.path.join(datafiles_dir_abs, 'nafnord', isl_ord_nafnord_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(nafnord_data_json_str)
-            logman.info('Wrote file "nafnord/%s"' % (isl_ord_nafnord_filename, ))
-    # lýsingarorð
-    isl_ord_lysingarord_samsett_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Lysingarord,
-        Samsett=True
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_lysingarord in isl_ord_lysingarord_samsett_list:
-        lysingarord_data = get_samsett_ord_from_db_to_ordered_dict(
-            isl_ord_lysingarord, ord_id_hash_map=isl_ord_id_to_hash
-        )
-        lysingarord_data_hash = hashify_ord_data(lysingarord_data)
-        # ensure unique lysingarord_data_hash
-        if lysingarord_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            lysingarord_data_hash_incr = '%s_%s' % (lysingarord_data_hash, hex(counter)[2:])
-            while lysingarord_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                lysingarord_data_hash_incr = '%s_%s' % (lysingarord_data_hash, hex(counter)[2:])
-            lysingarord_data_hash = lysingarord_data_hash_incr
-        hash_to_isl_ord_id[lysingarord_data_hash] = isl_ord_lysingarord.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_lysingarord.Ord_id)] = lysingarord_data_hash
-        lysingarord_data['hash'] = lysingarord_data_hash
-        lysingarord_data_json_str = ord_data_to_fancy_json_str(lysingarord_data)
-        isl_ord_lysingarord_filename = '%s.json' % (lysingarord_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'lysingarord', isl_ord_lysingarord_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(lysingarord_data_json_str)
-            logman.info('Wrote file "lysingarord/%s' % (isl_ord_lysingarord_filename, ))
-    # sagnorð
-    isl_ord_sagnord_samsett_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Sagnord,
-        Samsett=True
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_sagnord in isl_ord_sagnord_samsett_list:
-        sagnord_data = get_samsett_ord_from_db_to_ordered_dict(
-            isl_ord_sagnord, ord_id_hash_map=isl_ord_id_to_hash
-        )
-        sagnord_data_hash = hashify_ord_data(sagnord_data)
-        # ensure unique sagnord_data_hash
-        if sagnord_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            sagnord_data_hash_incr = '%s_%s' % (sagnord_data_hash, hex(counter)[2:])
-            while sagnord_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                sagnord_data_hash_incr = '%s_%s' % (sagnord_data_hash, hex(counter)[2:])
-            sagnord_data_hash = sagnord_data_hash_incr
-        hash_to_isl_ord_id[sagnord_data_hash] = isl_ord_sagnord.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_sagnord.Ord_id)] = sagnord_data_hash
-        sagnord_data['hash'] = sagnord_data_hash
-        sagnord_data_json_str = ord_data_to_fancy_json_str(sagnord_data)
-        isl_ord_sagnord_filename = '%s.json' % (sagnord_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'sagnord', isl_ord_sagnord_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(sagnord_data_json_str)
-            logman.info('Wrote file "sagnord/%s' % (isl_ord_sagnord_filename, ))
-    # töluorð, frumtölur
-    isl_ord_frumtolur_samsett_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Frumtala,
-        Samsett=True
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_frumtala in isl_ord_frumtolur_samsett_list:
-        frumtala_data = get_samsett_ord_from_db_to_ordered_dict(
-            isl_ord_frumtala, ord_id_hash_map=isl_ord_id_to_hash
-        )
-        frumtala_data_hash = hashify_ord_data(frumtala_data)
-        # ensure unique frumtala_data_hash
-        if frumtala_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
-            while frumtala_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                frumtala_data_hash_incr = '%s_%s' % (frumtala_data_hash, hex(counter)[2:])
-            frumtala_data_hash = frumtala_data_hash_incr
-        hash_to_isl_ord_id[frumtala_data_hash] = isl_ord_frumtala.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_frumtala.Ord_id)] = frumtala_data_hash
-        frumtala_data['hash'] = frumtala_data_hash
-        frumtala_data_json_str = ord_data_to_fancy_json_str(frumtala_data)
-        isl_ord_frumtala_filename = '%s.json' % (frumtala_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'toluord', 'frumtolur', isl_ord_frumtala_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(frumtala_data_json_str)
-            logman.info('Wrote file "toluord/frumtolur/%s' % (isl_ord_frumtala_filename, ))
-    # töluorð, raðtölur
-    isl_ord_radtolur_samsett_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Radtala,
-        Samsett=True
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
-    for isl_ord_radtala in isl_ord_radtolur_samsett_list:
-        radtala_data = get_samsett_ord_from_db_to_ordered_dict(
-            isl_ord_radtala, ord_id_hash_map=isl_ord_id_to_hash
-        )
-        radtala_data_hash = hashify_ord_data(radtala_data)
-        # ensure unique radtala_data_hash
-        if radtala_data_hash in hash_to_isl_ord_id:
-            counter = 0
-            radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
-            while radtala_data_hash_incr in hash_to_isl_ord_id:
-                counter += 1
-                radtala_data_hash_incr = '%s_%s' % (radtala_data_hash, hex(counter)[2:])
-            radtala_data_hash = radtala_data_hash_incr
-        hash_to_isl_ord_id[radtala_data_hash] = isl_ord_radtala.Ord_id
-        isl_ord_id_to_hash[str(isl_ord_radtala.Ord_id)] = radtala_data_hash
-        radtala_data['hash'] = radtala_data_hash
-        radtala_data_json_str = ord_data_to_fancy_json_str(radtala_data)
-        isl_ord_radtala_filename = '%s.json' % (radtala_data['orð'], )
-        with open(
-            os.path.join(datafiles_dir_abs, 'toluord', 'radtolur', isl_ord_radtala_filename),
-            mode='w',
-            encoding='utf-8'
-        ) as json_file:
-            json_file.write(radtala_data_json_str)
-            logman.info('Wrote file "toluord/radtolur/%s' % (isl_ord_radtala_filename, ))
+    export_tasks = [
+        {
+            'name': 'nafnorð',
+            'ordflokkur': isl.Ordflokkar.Nafnord,
+            'root': datafiles_dir_abs,
+            'dir': 'nafnord',
+            'f_ord_to_dict': get_nafnord_from_db_to_ordered_dict,
+            'has_samsett': True
+        },
+        {
+            'name': 'lýsingarorð',
+            'ordflokkur': isl.Ordflokkar.Lysingarord,
+            'root': datafiles_dir_abs,
+            'dir': 'lysingarord',
+            'f_ord_to_dict': get_lysingarord_from_db_to_ordered_dict,
+            'has_samsett': True
+        },
+        {
+            'name': 'sagnorð',
+            'ordflokkur': isl.Ordflokkar.Sagnord,
+            'root': datafiles_dir_abs,
+            'dir': 'sagnord',
+            'f_ord_to_dict': get_sagnord_from_db_to_ordered_dict,
+            'has_samsett': True
+        },
+        {
+            'name': 'greinir',
+            'ordflokkur': isl.Ordflokkar.Greinir,
+            'root': datafiles_dir_abs,
+            'dir': 'greinir',
+            'f_ord_to_dict': get_greinir_from_db_to_ordered_dict,
+            'has_samsett': False
+        },
+        {
+            'name': 'töluorð frumtala',
+            'ordflokkur': isl.Ordflokkar.Frumtala,
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('toluord', 'frumtolur'),
+            'f_ord_to_dict': get_frumtala_from_db_to_ordered_dict,
+            'has_samsett': True
+        },
+        {
+            'name': 'töluorð raðtala',
+            'ordflokkur': isl.Ordflokkar.Radtala,
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('toluord', 'radtolur'),
+            'f_ord_to_dict': get_radtala_from_db_to_ordered_dict,
+            'has_samsett': True
+        },
+        {
+            'name': 'fornafn',
+            'ordflokkur': isl.Ordflokkar.Fornafn,
+            'root': datafiles_dir_abs,
+            'dir': 'fornofn',
+            'f_ord_to_dict': get_fornafn_from_db_to_ordered_dict,
+            'has_samsett': True
+        },
+    ]  # TODO: add rest of orðflokkar
+    logman.info('We export core words first, then combined (samssett).')
+    for task in export_tasks:
+        do_export_task(task, hash_to_isl_ord_id, isl_ord_id_to_hash, do_samsett=False)
+    logman.info('Now exporting combined words (samsett).')
+    for task in export_tasks:
+        do_export_task(task, hash_to_isl_ord_id, isl_ord_id_to_hash, do_samsett=True)
     #
     #
-    # TODO: more stuffs here plz
+    # TODO: finish
     logman.info('TODO: finish implementing write_datafiles_from_db')
+
+
+def do_export_task(task, hash_word_map, word_hash_map, do_samsett=False):
+    if task['has_samsett'] is False and do_samsett is True:
+        # nothing to do here
+        return
+    get_ord_from_db_to_ordered_dict = task['f_ord_to_dict']
+    isl_ord_list = db.Session.query(isl.Ord).filter_by(
+        Ordflokkur=task['ordflokkur'],
+        Samsett=do_samsett
+    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
+    for isl_ord in isl_ord_list:
+        ord_data = None
+        if do_samsett is True:
+            ord_data = get_samsett_ord_from_db_to_ordered_dict(
+                isl_ord, ord_id_hash_map=word_hash_map
+            )
+        elif do_samsett is False:
+            ord_data = get_ord_from_db_to_ordered_dict(isl_ord)
+        assert(ord_data is not None)
+        ord_data_hash = hashify_ord_data(ord_data)
+        # ensure unique ord_data_hash
+        if ord_data_hash in hash_word_map:
+            counter = 0
+            while ord_data_hash_incr in hash_to_isl_ord_id:
+                ord_data_hash_incr = '%s_%s' % (ord_data_hash, hex(counter)[2:])
+                counter += 1
+            ord_data_hash = ord_data_hash_incr
+        hash_word_map[ord_data_hash] = isl_ord.Ord_id
+        word_hash_map[str(isl_ord.Ord_id)] = ord_data_hash
+        ord_data['hash'] = ord_data_hash
+        ord_data_json_str = ord_data_to_fancy_json_str(ord_data)
+        isl_ord_filename = '%s.json' % (ord_data['orð'], )
+        if task['ordflokkur'] is isl.Ordflokkar.Nafnord:
+            isl_ord_filename = '%s-%s%s.json' % (
+                ord_data['orð'],
+                ord_data['kyn'],
+                '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
+            )
+        isl_ord_filepath = os.path.join(task['root'], task['dir'], isl_ord_filename)
+        if task['ordflokkur'] is isl.Ordflokkar.Fornafn:
+            subfolder_map = {
+                'ábendingar': 'abendingar',
+                'afturbeygt': 'afturbeygt',
+                'eignar': 'eignar',
+                'óákveðið': 'oakvedin',
+                'persónu': 'personu',
+                'spurnar': 'spurnar',
+            }
+            assert(ord_data['undirflokkur'] in subfolder_map)
+            isl_ord_filepath = os.path.join(
+                task['root'],
+                task['dir'],
+                subfolder_map[ord_data['undirflokkur']],
+                isl_ord_filename
+            )
+        with open(isl_ord_filepath, mode='w', encoding='utf-8') as json_file:
+            json_file.write(ord_data_json_str)
+            logman.info('Wrote %s file "%s"' % (
+                task['name'],
+                os.path.join(task['dir'], isl_ord_filename),
+            ))
 
 
 def get_nafnord_from_db_to_ordered_dict(isl_ord):
@@ -1155,7 +947,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         )
         assert(len(isl_frumtala_query.all()) < 2)
         isl_frumtala = isl_frumtala_query.first()
-        if isl_frumtala is not None and isl_frumtala.Gildi is not None:
+        assert(isl_frumtala is not None)
+        if isl_frumtala.Gildi is not None:
             data['gildi'] = isl_frumtala.Gildi
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Radtala:
         isl_radtala_query = db.Session.query(isl.Radtala).filter_by(
@@ -1163,8 +956,21 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         )
         assert(len(isl_radtala_query.all()) < 2)
         isl_radtala = isl_radtala_query.first()
-        if isl_radtala is not None and isl_radtala.Gildi is not None:
+        assert(isl_radtala is not None)
+        if isl_radtala.Gildi is not None:
             data['gildi'] = isl_radtala.Gildi
+    elif isl_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
+        isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(
+            fk_Ord_id=isl_ord.Ord_id
+        )
+        assert(len(isl_fornafn_query.all()) < 2)
+        isl_fornafn = isl_fornafn_query.first()
+        assert(isl_fornafn is not None)
+        data['undirflokkur'] = undirflokkur_to_str(isl_fornafn.Undirflokkur)
+        if isl_fornafn.Persona is not None:
+            data['persóna'] = persona_to_str(isl_fornafn.Persona)
+        if isl_fornafn.Kyn is not None:
+            data['kyn'] = kyn_to_str(isl_fornafn.Kyn)
     data['samsett'] = []
     isl_samsett_ord_list = db.Session.query(isl.SamsettOrd).filter_by(
         fk_Ord_id=isl_ord.Ord_id
@@ -1209,8 +1015,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         ordhluti_flokkur = ordflokkur_to_str(ordhluti_ord.Ordflokkur)
         ordhluti_data['flokkur'] = ordhluti_flokkur
         ordhluti_nafnord = None
-        # for nafnorð we want to display kyn too
         if ordhluti_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
+            # for nafnorð we want to display kyn too
             ordhluti_nafnord_query = db.Session.query(isl.Nafnord).filter_by(
                 fk_Ord_id=ordhluti_ord.Ord_id
             )
@@ -1221,6 +1027,16 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             ordhluti_data['kyn'] = ordhluti_kyn
             if ordhluti_ord.OsjalfstaedurOrdhluti is True:
                 ordhluti_data['ósjálfstætt'] = True
+        elif ordhluti_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
+            # for fornafn we want to display undirflokkur too
+            ordhluti_fornafn_query = db.Session.query(isl.Fornafn).filter_by(
+                fk_Ord_id=ordhluti_ord.Ord_id
+            )
+            assert(len(ordhluti_fornafn_query.all()) < 2)
+            ordhluti_fornafn = ordhluti_fornafn_query.first()
+            assert(ordhluti_fornafn is not None)
+            ordhluti_fornafn_undirflokkur = undirflokkur_to_str(ordhluti_fornafn.Undirflokkur)
+            ordhluti_data['undirflokkur'] = ordhluti_fornafn_undirflokkur
         ordhluti_data['hash'] = None
         if ord_id_hash_map is not None and str(ordhluti_ord.Ord_id) in ord_id_hash_map:
             ordhluti_data['hash'] = ord_id_hash_map[str(ordhluti_ord.Ord_id)]
@@ -1266,6 +1082,10 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             )
         elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Radtala:
             samsett_ord_last_ordhluti_ord_data = get_radtala_from_db_to_ordered_dict(
+                samsett_ord_last_ordhluti_ord
+            )
+        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
+            samsett_ord_last_ordhluti_ord_data = get_fornafn_from_db_to_ordered_dict(
                 samsett_ord_last_ordhluti_ord
             )
         # TODO: add more orðflokkar here :/
@@ -1395,7 +1215,9 @@ def get_frumtala_from_db_to_ordered_dict(isl_ord):
     data = collections.OrderedDict()
     data['orð'] = isl_ord.Ord
     data['flokkur'] = 'frumtala'
-    isl_frumtala = db.Session.query(isl.Frumtala).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+    isl_frumtala_query = db.Session.query(isl.Frumtala).filter_by(fk_Ord_id=isl_ord.Ord_id)
+    assert(len(isl_frumtala_query.all()) < 2)
+    isl_frumtala = isl_frumtala_query.first()
     assert(isl_frumtala is not None)
     if isl_frumtala.Gildi is not None:
         data['gildi'] = isl_frumtala.Gildi
@@ -1434,7 +1256,9 @@ def get_radtala_from_db_to_ordered_dict(isl_ord):
     data = collections.OrderedDict()
     data['orð'] = isl_ord.Ord
     data['flokkur'] = 'raðtala'
-    isl_radtala = db.Session.query(isl.Radtala).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+    isl_radtala_query = db.Session.query(isl.Radtala).filter_by(fk_Ord_id=isl_ord.Ord_id)
+    assert(len(isl_radtala_query.all()) < 2)
+    isl_radtala = isl_radtala_query.first()
     assert(isl_radtala is not None)
     if isl_radtala.Gildi is not None:
         data['gildi'] = isl_radtala.Gildi
@@ -1535,11 +1359,73 @@ def get_radtala_from_db_to_ordered_dict(isl_ord):
     return data
 
 
+def get_fornafn_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'fornafn'
+    isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
+    assert(len(isl_fornafn_query.all()) < 2)
+    isl_fornafn = isl_fornafn_query.first()
+    try:
+        assert(isl_fornafn is not None)
+    except:
+        import pdb; pdb.set_trace()
+    data['undirflokkur'] = undirflokkur_to_str(isl_fornafn.Undirflokkur)
+    if isl_fornafn.Persona is not None:
+        data['persóna'] = persona_to_str(isl_fornafn.Persona)
+    if isl_fornafn.Kyn is not None:
+        data['kyn'] = kyn_to_str(isl_fornafn.Kyn)
+    # et
+    if isl_fornafn.fk_et_Fallbeyging_id is not None:
+        data['et'] = get_fallbeyging_list_from_db(isl_fornafn.fk_et_Fallbeyging_id)
+        assert(  # eintala fallbeyging should not be set for both genderless and gendered
+            isl_fornafn.fk_et_kk_Fallbeyging_id is None and
+            isl_fornafn.fk_et_kvk_Fallbeyging_id is None and
+            isl_fornafn.fk_et_hk_Fallbeyging_id is None
+        )
+    elif (
+        isl_fornafn.fk_et_kk_Fallbeyging_id is not None or
+        isl_fornafn.fk_et_kvk_Fallbeyging_id is not None or
+        isl_fornafn.fk_et_hk_Fallbeyging_id is not None
+    ):
+        data['et'] = collections.OrderedDict()
+    # ft
+    if isl_fornafn.fk_ft_Fallbeyging_id is not None:
+        data['ft'] = get_fallbeyging_list_from_db(isl_fornafn.fk_ft_Fallbeyging_id)
+        assert(  # eintala fallbeyging should not be set for both genderless and gendered
+            isl_fornafn.fk_ft_kk_Fallbeyging_id is None and
+            isl_fornafn.fk_ft_kvk_Fallbeyging_id is None and
+            isl_fornafn.fk_ft_hk_Fallbeyging_id is None
+        )
+    elif (
+        isl_fornafn.fk_ft_kk_Fallbeyging_id is not None or
+        isl_fornafn.fk_ft_kvk_Fallbeyging_id is not None or
+        isl_fornafn.fk_ft_hk_Fallbeyging_id is not None
+    ):
+        data['ft'] = collections.OrderedDict()
+    # et
+    if isl_fornafn.fk_et_kk_Fallbeyging_id is not None:
+        data['et']['kk'] = get_fallbeyging_list_from_db(isl_fornafn.fk_et_kk_Fallbeyging_id)
+    if isl_fornafn.fk_et_kvk_Fallbeyging_id is not None:
+        data['et']['kvk'] = get_fallbeyging_list_from_db(isl_fornafn.fk_et_kvk_Fallbeyging_id)
+    if isl_fornafn.fk_et_hk_Fallbeyging_id is not None:
+        data['et']['hk'] = get_fallbeyging_list_from_db(isl_fornafn.fk_et_hk_Fallbeyging_id)
+    # ft
+    if isl_fornafn.fk_ft_kk_Fallbeyging_id is not None:
+        data['ft']['kk'] = get_fallbeyging_list_from_db(isl_fornafn.fk_ft_kk_Fallbeyging_id)
+    if isl_fornafn.fk_ft_kvk_Fallbeyging_id is not None:
+        data['ft']['kvk'] = get_fallbeyging_list_from_db(isl_fornafn.fk_ft_kvk_Fallbeyging_id)
+    if isl_fornafn.fk_ft_hk_Fallbeyging_id is not None:
+        data['ft']['hk'] = get_fallbeyging_list_from_db(isl_fornafn.fk_ft_hk_Fallbeyging_id)
+    return data
+
+
 class MyJSONEncoder(json.JSONEncoder):
     '''
-    json encoder for doing a bit of custom json string indentation
+    json encoder for doing a little bit of custom json string indentation
 
-    this extended class is a complete hack, I am a complete hack, but this f*cking works
+    this extended class is a complete hack, I am a complete hack, but it f*cking works and I'm
+    running with it
     '''
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
@@ -1635,7 +1521,7 @@ def add_framhluti_to_ord_data(framhluti, ord_data):
     helper function for constructing beygingarmyndir data for samsett orð
     '''
     dictorinos = (dict, collections.OrderedDict)
-    ignore_keys = set(['orð', 'flokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt'])
+    ignore_keys = set(['orð', 'flokkur', 'undirflokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt'])
     dont_change_keys = set(['frumlag'])
     new_ord_data = None
     if type(ord_data) is dict:
@@ -1660,4 +1546,32 @@ def add_framhluti_to_ord_data(framhluti, ord_data):
         new_ord_data = ord_data
     if type(ord_data) is int:
         new_ord_data = ord_data
+    if type(ord_data) is None:
+        new_ord_data = ord_data
     return new_ord_data
+
+
+def undirflokkur_to_str(undirflokkur):
+    if undirflokkur is isl.Fornafnaflokkar.Abendingarfornafn:
+        return 'ábendingar'
+    elif undirflokkur is isl.Fornafnaflokkar.AfturbeygtFornafn:
+        return 'afturbeygt'
+    elif undirflokkur is isl.Fornafnaflokkar.Eignarfornafn:
+        return 'eignar'
+    elif undirflokkur is isl.Fornafnaflokkar.OakvedidFornafn:
+        return 'óákveðið'
+    elif undirflokkur is isl.Fornafnaflokkar.Personufornafn:
+        return 'persónu'
+    elif undirflokkur is isl.Fornafnaflokkar.Spurnarfornafn:
+        return 'spurnar'
+    raise Exception('Unknown undirorðflokkur.')
+
+
+def persona_to_str(persona):
+    if persona is isl.Persona.Fyrsta:
+        return 'fyrsta'
+    elif persona is isl.Persona.Onnur:
+        return 'önnur'
+    elif persona is isl.Persona.Thridja:
+        return 'þriðja'
+    raise Exception('Unknown persóna.')

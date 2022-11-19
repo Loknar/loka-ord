@@ -239,9 +239,9 @@ class Fornafn(Base):
     __tablename__ = 'Fornafn'
     Fornafn_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Typa = utils.selection(Fornafnaflokkar, Fornafnaflokkar.Personufornafn)
-    Kyn = utils.selection(Kyn, None)
+    Undirflokkur = utils.selection(Fornafnaflokkar, Fornafnaflokkar.Personufornafn)
     Persona = utils.selection(Persona, None)
+    Kyn = utils.selection(Kyn, None)
     # kynlausar beygingar -------------------------------------------------------------------------
     # þ.e. beygingarmyndirnar falla ekki undir, eru eins í öllum kynjum, eða eru bundin einu
     # tilgreindu (ofangreindu, í "Kyn" gildinu) kyni

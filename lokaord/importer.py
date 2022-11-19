@@ -73,6 +73,54 @@ def build_db_from_datafiles():
             'f_add': add_radtala,
             'has_samsett': True
         },
+        {
+            'name': 'ábendingarfornöfn',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('fornofn', 'abendingar'),
+            'f_lookup': lookup_fornafn,
+            'f_add': add_fornafn,
+            'has_samsett': True
+        },
+        {
+            'name': 'afturbeygt fornafn',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('fornofn', 'afturbeygt'),
+            'f_lookup': lookup_fornafn,
+            'f_add': add_fornafn,
+            'has_samsett': False
+        },
+        {
+            'name': 'eignarfornöfn',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('fornofn', 'eignar'),
+            'f_lookup': lookup_fornafn,
+            'f_add': add_fornafn,
+            'has_samsett': True
+        },
+        {
+            'name': 'óákveðin fornöfn',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('fornofn', 'oakvedin'),
+            'f_lookup': lookup_fornafn,
+            'f_add': add_fornafn,
+            'has_samsett': True
+        },
+        {
+            'name': 'persónufornöfn',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('fornofn', 'personu'),
+            'f_lookup': lookup_fornafn,
+            'f_add': add_fornafn,
+            'has_samsett': True
+        },
+        {
+            'name': 'spurnarfornöfn',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('fornofn', 'spurnar'),
+            'f_lookup': lookup_fornafn,
+            'f_add': add_fornafn,
+            'has_samsett': True
+        },
     ]  # TODO: add rest of orðflokkar
     logman.info('We import core words first, then combined (samssett).')
     for task in import_tasks:
@@ -119,12 +167,13 @@ def do_import_task(task, do_samsett=False):
             hr_ord = '"%s" (%s)' % (ord_data['orð'], ord_data['kyn'])
         if isl_ord is None:
             f_add(ord_data)
-            logman.info('Added %s %s.' % (
+            logman.info('Added to %s, %s%s.' % (
                 task['name'],
-                hr_ord
+                hr_ord,
+                ' [ó]' if 'ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True else ''
             ))
         else:
-            logman.warning('%s %s already exists! Skipping.' % (
+            logman.warning('%s task, %s already exists! Skipping.' % (
                 '%s%s' % (task['name'][0].upper(), task['name'][1:]),
                 hr_ord
             ))
@@ -994,6 +1043,11 @@ def add_samsett_ord(isl_ord_id, ord_data):
             ordhluti_isl_ord = lookup_frumtala({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'raðtala':
             ordhluti_isl_ord = lookup_radtala({'orð': ordhluti_obj['orð']})
+        elif ordhluti_obj['flokkur'] == 'fornafn':
+            ordhluti_isl_ord = lookup_fornafn({
+                'orð': ordhluti_obj['orð'],
+                'undirflokkur': ordhluti_obj['undirflokkur']
+            })
         # TODO: add handling for the other orðflokkar here
         assert(ordhluti_isl_ord is not None)
         isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
@@ -1277,3 +1331,133 @@ def add_radtala(radtala_data):
                 )
                 db.Session.commit()
     return isl_ord
+
+
+def lookup_fornafn(fornafn_data):
+    isl_ord = None
+    isl_fornafn_undirflokkur = string_to_undirordflokkur(fornafn_data['undirflokkur'])
+    isl_ord_list = db.Session.query(isl.Ord).filter_by(
+        Ord=fornafn_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Fornafn
+    ).all()
+    for potential_isl_ord in isl_ord_list:
+        isl_fornafn = db.Session.query(isl.Fornafn).filter_by(
+            fk_Ord_id=potential_isl_ord.Ord_id
+        ).first()
+        if isl_fornafn.Undirflokkur == isl_fornafn_undirflokkur:
+            assert(isl_ord is None)  # check for duplicate word
+            isl_ord = potential_isl_ord
+    return isl_ord
+
+
+def add_fornafn(fornafn_data):
+    '''
+    add fornafn from datafile to database
+    '''
+    dictorinos = (dict, collections.OrderedDict)
+    assert('flokkur' in fornafn_data and fornafn_data['flokkur'] == 'fornafn')
+    undirflokkur = string_to_undirordflokkur(fornafn_data['undirflokkur'])
+    isl_ord = isl.Ord(
+        Ord=fornafn_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Fornafn
+    )
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    isl_fornafn = isl.Fornafn(
+        fk_Ord_id=isl_ord.Ord_id,
+        Undirflokkur=undirflokkur
+    )
+    db.Session.add(isl_fornafn)
+    db.Session.commit()
+    if 'persóna' in fornafn_data:
+        isl_fornafn.Persona = string_to_persona(fornafn_data['persóna'])
+        db.Session.commit()
+    if 'kyn' in fornafn_data:
+        isl_fornafn.Kyn = string_to_kyn(fornafn_data['kyn'])
+        db.Session.commit()
+    if 'samsett' in fornafn_data:
+        add_samsett_ord(isl_ord.Ord_id, fornafn_data)
+        isl_ord.Samsett = True
+        db.Session.commit()
+        return isl_ord
+    if 'et' in fornafn_data:
+        if type(fornafn_data['et']) is list:
+            isl_fornafn.fk_et_Fallbeyging_id = add_fallbeyging(
+                fornafn_data['et']
+            )
+            db.Session.commit()
+        elif type(fornafn_data['et']) in dictorinos:
+            if 'kk' in fornafn_data['et']:
+                isl_fornafn.fk_et_kk_Fallbeyging_id = add_fallbeyging(
+                    fornafn_data['et']['kk']
+                )
+                db.Session.commit()
+            if 'kvk' in fornafn_data['et']:
+                isl_fornafn.fk_et_kvk_Fallbeyging_id = add_fallbeyging(
+                    fornafn_data['et']['kvk']
+                )
+                db.Session.commit()
+            if 'hk' in fornafn_data['et']:
+                isl_fornafn.fk_et_hk_Fallbeyging_id = add_fallbeyging(
+                    fornafn_data['et']['hk']
+                )
+                db.Session.commit()
+    if 'ft' in fornafn_data:
+        if type(fornafn_data['ft']) is list:
+            isl_fornafn.fk_ft_Fallbeyging_id = add_fallbeyging(
+                fornafn_data['ft']
+            )
+            db.Session.commit()
+        elif type(fornafn_data['ft']) in dictorinos:
+            if 'kk' in fornafn_data['ft']:
+                isl_fornafn.fk_ft_kk_Fallbeyging_id = add_fallbeyging(
+                    fornafn_data['ft']['kk']
+                )
+                db.Session.commit()
+            if 'kvk' in fornafn_data['ft']:
+                isl_fornafn.fk_ft_kvk_Fallbeyging_id = add_fallbeyging(
+                    fornafn_data['ft']['kvk']
+                )
+                db.Session.commit()
+            if 'hk' in fornafn_data['ft']:
+                isl_fornafn.fk_ft_hk_Fallbeyging_id = add_fallbeyging(
+                    fornafn_data['ft']['hk']
+                )
+                db.Session.commit()
+    return isl_ord
+
+
+def string_to_undirordflokkur(mystr):
+    if mystr == 'ábendingar':
+        return isl.Fornafnaflokkar.Abendingarfornafn
+    elif mystr == 'afturbeygt':
+        return isl.Fornafnaflokkar.AfturbeygtFornafn
+    elif mystr == 'eignar':
+        return isl.Fornafnaflokkar.Eignarfornafn
+    elif mystr == 'óákveðið':
+        return isl.Fornafnaflokkar.OakvedidFornafn
+    elif mystr == 'persónu':
+        return isl.Fornafnaflokkar.Personufornafn
+    elif mystr == 'spurnar':
+        return isl.Fornafnaflokkar.Spurnarfornafn
+    raise Exception('Unknown undirorðflokkur.')
+
+
+def string_to_persona(mystr):
+    if mystr == 'fyrsta':
+        return isl.Persona.Fyrsta
+    elif mystr == 'önnur':
+        return isl.Persona.Onnur
+    elif mystr == 'þriðja':
+        return isl.Persona.Thridja
+    raise Exception('Unknown persóna.')
+
+
+def string_to_kyn(mystr):
+    if mystr == 'kk':
+        return isl.Kyn.Karlkyn
+    elif mystr == 'kvk':
+        return isl.Kyn.Kvenkyn
+    elif mystr == 'hk':
+        return isl.Kyn.Hvorugkyn
+    raise Exception('Unknown kyn.')
