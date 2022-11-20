@@ -103,6 +103,22 @@ def write_datafiles_from_db():
             'f_ord_to_dict': get_nafnhattarmerki_from_db_to_ordered_dict,
             'has_samsett': False
         },
+        {
+            'name': 'samtenging',
+            'ordflokkur': isl.Ordflokkar.Samtenging,
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'samtenging'),
+            'f_ord_to_dict': get_samtenging_from_db_to_ordered_dict,
+            'has_samsett': False
+        },
+        {
+            'name': 'upphrópun',
+            'ordflokkur': isl.Ordflokkar.Upphropun,
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'upphropun'),
+            'f_ord_to_dict': get_upphropun_from_db_to_ordered_dict,
+            'has_samsett': False
+        },
     ]  # TODO: add rest of orðflokkar
     logman.info('We export core words first, then combined (samssett).')
     for task in export_tasks:
@@ -1454,7 +1470,7 @@ class MyJSONEncoder(json.JSONEncoder):
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
         keys_to_differently_encode = [
-            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft', 'stýrir'
+            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft', 'stýrir', 'fylgiorð'
         ]
         state = 0
         for s in super(MyJSONEncoder, self).iterencode(o, _one_shot=_one_shot):
@@ -1646,3 +1662,54 @@ def get_nafnhattarmerki_from_db_to_ordered_dict(isl_ord):
     data['flokkur'] = 'smáorð'
     data['undirflokkur'] = 'nafnháttarmerki'
     return data
+
+
+def get_samtenging_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'smáorð'
+    data['undirflokkur'] = 'samtenging'
+    isl_samtenging_fleiryrt_query = db.Session.query(isl.SamtengingFleiryrt).filter_by(
+        fk_Ord_id=isl_ord.Ord_id
+    ).order_by(isl.SamtengingFleiryrt.Ord, isl.SamtengingFleiryrt.SamtengingFleiryrt_id)
+    isl_samtenging_fleiryrt_list = isl_samtenging_fleiryrt_query.all()
+    if len(isl_samtenging_fleiryrt_list) > 0:
+        data['fleiryrt'] = []
+        for isl_samtenging_fleiryrt in isl_samtenging_fleiryrt_list:
+            fleiryrt_option = collections.OrderedDict()
+            fleiryrt_option['týpa'] = fleiryrt_typa_to_str(isl_samtenging_fleiryrt.Typa)
+            fleiryrt_option['fylgiorð'] = []
+            fleiryrt_option['fylgiorð'].append(isl_samtenging_fleiryrt.Ord)
+            possible_more_words = True
+            current_isl_samtenging_fleiryrt_id = isl_samtenging_fleiryrt.SamtengingFleiryrt_id
+            while possible_more_words is True:
+                isl_next_samtenging_fleiryrt_query = db.Session.query(
+                    isl.SamtengingFleiryrt
+                ).filter_by(fk_SamtengingFleiryrt_id=current_isl_samtenging_fleiryrt_id)
+                assert(len(isl_next_samtenging_fleiryrt_query.all()) < 2)
+                isl_next_samtenging_fleiryrt = isl_next_samtenging_fleiryrt_query.first()
+                if isl_next_samtenging_fleiryrt is not None:
+                    fleiryrt_option['fylgiorð'].append(isl_next_samtenging_fleiryrt.Ord)
+                    current_isl_samtenging_fleiryrt_id = (
+                        isl_next_samtenging_fleiryrt.SamtengingFleiryrt_id
+                    )
+                else:
+                    possible_more_words = False
+            data['fleiryrt'].append(fleiryrt_option)
+    return data
+
+
+def get_upphropun_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'smáorð'
+    data['undirflokkur'] = 'upphrópun'
+    return data
+
+
+def fleiryrt_typa_to_str(fleiryrt_typa):
+    if fleiryrt_typa is isl.FleiryrtTypa.Hlekkjud:
+        return 'hlekkjuð'
+    elif fleiryrt_typa is isl.FleiryrtTypa.Laus:
+        return 'laus'
+    raise Exception('Unknown FleiryrtTypa.')
