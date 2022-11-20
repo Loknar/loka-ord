@@ -80,11 +80,19 @@ def write_datafiles_from_db():
             'has_samsett': True
         },
         {
-            'name': 'fornafn',
+            'name': 'forsetning',
             'ordflokkur': isl.Ordflokkar.Forsetning,
             'root': datafiles_dir_abs,
             'dir': os.path.join('smaord', 'forsetning'),
             'f_ord_to_dict': get_forsetning_from_db_to_ordered_dict,
+            'has_samsett': False
+        },
+        {
+            'name': 'atviksorð',
+            'ordflokkur': isl.Ordflokkar.Atviksord,
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'atviksord'),
+            'f_ord_to_dict': get_atviksord_from_db_to_ordered_dict,
             'has_samsett': False
         },
     ]  # TODO: add rest of orðflokkar
@@ -1606,5 +1614,20 @@ def get_forsetning_from_db_to_ordered_dict(isl_ord):
             data['stýrir'].append('þágufall')
         if isl_forsetning.StyrirEignarfalli is True:
             data['stýrir'].append('eignarfall')
+    return data
+
+
+def get_atviksord_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'smáorð'
+    data['undirflokkur'] = 'atviksorð'
+    isl_atviksord_query = db.Session.query(isl.Atviksord).filter_by(fk_Ord_id=isl_ord.Ord_id)
+    assert(len(isl_atviksord_query.all()) < 2)
+    isl_atviksord = isl_atviksord_query.first()
+    if isl_atviksord is not None:
+        assert(isl_atviksord.Midstig is not None and isl_atviksord.Efstastig is not None)
+        data['miðstig'] = isl_atviksord.Midstig
+        data['efstastig'] = isl_atviksord.Efstastig
     return data
 
