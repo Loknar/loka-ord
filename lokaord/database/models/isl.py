@@ -10,12 +10,12 @@ class Ordflokkar(enum.Enum):
     Nafnord = 0
     Lysingarord = 1
     Greinir = 2  # fyrir hinn lausa greini, en viðskeyttur greinir geymdur í tvíriti í Fallbeyging
-    Frumtala = 3  # - Töluorð, hafa undirflokkana Frumtölur og Raðtölur, til einföldunar eru þeir
-    Radtala = 4   # / listaðir beint hér sem orðflokkar í stað þess að flokka þá sem undirflokka
-    Fornafn = 5
+    Fornafn = 3
+    Frumtala = 4  # - Töluorð, hafa undirflokkana Frumtölur og Raðtölur, til einföldunar eru þeir
+    Radtala = 5   # / listaðir beint hér sem orðflokkar í stað þess að flokka þá sem undirflokka
     # sagnorð
     Sagnord = 6
-    # óbeygjanleg orð (smáorð)
+    # smáorð / óbeygjanleg orð
     Forsetning = 7
     Atviksord = 8
     Nafnhattarmerki = 9
@@ -43,6 +43,12 @@ class Fall(enum.Enum):
     Eignarfall = 3
 
 
+class Persona(enum.Enum):
+    Fyrsta = 0
+    Onnur = 1
+    Thridja = 2
+
+
 class Fornafnaflokkar(enum.Enum):
     Personufornafn = 0
     AfturbeygtFornafn = 1  # (orðið sig)
@@ -52,10 +58,14 @@ class Fornafnaflokkar(enum.Enum):
     OakvedidFornafn = 5
 
 
-class Persona(enum.Enum):
-    Fyrsta = 0
-    Onnur = 1
-    Thridja = 2
+class FleiryrtTypa(enum.Enum):
+    Hlekkjud = 0
+    Laus = 1
+
+
+# ------------------ #
+# Gagnagrunns-töflur #
+# ------------------ #
 
 
 class Ord(Base):
@@ -361,6 +371,57 @@ class Sagnbeyging(Base):
     FyrstaPersona_fleirtala_thatid = utils.word_column()
     OnnurPersona_fleirtala_thatid = utils.word_column()
     ThridjaPersona_fleirtala_thatid = utils.word_column()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class Forsetning(Base):
+    # Forsetning er óbeygjanlegt smáorð sem stendur oftast á undan fallorði og stýrir fallinu
+    # (veldur því að fallorðið standi í aukafalli—þolfalli, þágufalli eða eignarfalli).
+    #
+    # Margar forsetningar stýra aðeins einu ákveðnu falli.
+    #
+    # Sumar forsetningar geta stýrt tveimur föllum, t.d. Í stofuna (þf.), Í stofunni (þgf.).
+    # Merking ræður þessu, hreyfing eða stefna er alltaf í þolfalli en dvöl eða kyrrstaða í
+    # þágufalli.
+    #
+    # Forsetning getur staðið ein og sér, þ.e. án fallorðs, en þjónar þá stöðu atviksorðs, t.d. ég
+    # þakka fyrir (fallorði sleppt). Að sama skapi eru margar forsetningar upprunalega atviksorð
+    # sem verða að forsetningum þegar þau stýra falli, t.d. garðurinn er neðan árinnar.
+    #
+    # - https://is.wikipedia.org/wiki/Forsetning
+    __tablename__ = 'Forsetning'
+    Forsetning_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    StyrirTholfalli = utils.boolean_default_false()
+    StyrirThagufalli = utils.boolean_default_false()
+    StyrirEignarfalli = utils.boolean_default_false()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class Atviksord(Base):
+    # Atviksorð líkjast lýsingarorðum enda hafa atviksorð þá sérstöðu á meðal smáorða að sum
+    # atviksorð stigbreytast (eins og ‚aftur - aftar - aftast‘; ‚lengi - lengur - lengst‘;
+    # ‚inn - innar - innst‘; ‚vel - betur - best‘), en eru þau þó annars eðlis en lýsingarorð.
+    __tablename__ = 'Atviksord'
+    Atviksord_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Midstig = utils.word_column()
+    Efstastig = utils.word_column()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class SamtengingFleiryrt(Base):
+    # https://is.wikipedia.org/wiki/Samtenging
+    # https://is.wikipedia.org/wiki/Fleiryrt_samtenging
+    __tablename__ = 'SamtengingFleiryrt'
+    SamtengingFleiryrt_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Ord = utils.word_column(nullable=False)
+    fk_SamtengingFleiryrt_id = utils.foreign_integer_primary_key('SamtengingFleiryrt')
+    Typa = utils.selection(FleiryrtTypa, None)
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 

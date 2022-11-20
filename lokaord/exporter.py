@@ -79,6 +79,14 @@ def write_datafiles_from_db():
             'f_ord_to_dict': get_fornafn_from_db_to_ordered_dict,
             'has_samsett': True
         },
+        {
+            'name': 'fornafn',
+            'ordflokkur': isl.Ordflokkar.Forsetning,
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'forsetning'),
+            'f_ord_to_dict': get_forsetning_from_db_to_ordered_dict,
+            'has_samsett': False
+        },
     ]  # TODO: add rest of orðflokkar
     logman.info('We export core words first, then combined (samssett).')
     for task in export_tasks:
@@ -1430,7 +1438,7 @@ class MyJSONEncoder(json.JSONEncoder):
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
         keys_to_differently_encode = [
-            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft'
+            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft', 'stýrir'
         ]
         state = 0
         for s in super(MyJSONEncoder, self).iterencode(o, _one_shot=_one_shot):
@@ -1575,3 +1583,28 @@ def persona_to_str(persona):
     elif persona is isl.Persona.Thridja:
         return 'þriðja'
     raise Exception('Unknown persóna.')
+
+
+def get_forsetning_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'smáorð'
+    data['undirflokkur'] = 'forsetning'
+    isl_forsetning_query = db.Session.query(isl.Forsetning).filter_by(fk_Ord_id=isl_ord.Ord_id)
+    assert(len(isl_forsetning_query.all()) < 2)
+    isl_forsetning = isl_forsetning_query.first()
+    assert(isl_forsetning is not None)
+    if (
+        isl_forsetning.StyrirTholfalli is True or
+        isl_forsetning.StyrirThagufalli is True or
+        isl_forsetning.StyrirEignarfalli is True
+    ):
+        data['stýrir'] = []
+        if isl_forsetning.StyrirTholfalli is True:
+            data['stýrir'].append('þolfall')
+        if isl_forsetning.StyrirThagufalli is True:
+            data['stýrir'].append('þágufall')
+        if isl_forsetning.StyrirEignarfalli is True:
+            data['stýrir'].append('eignarfall')
+    return data
+

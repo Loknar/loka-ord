@@ -121,6 +121,46 @@ def build_db_from_datafiles():
             'f_add': add_fornafn,
             'has_samsett': True
         },
+        {
+            'name': 'smáorð, forsetning',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'forsetning'),
+            'f_lookup': lookup_forsetning,
+            'f_add': add_forsetning,
+            'has_samsett': False
+        },
+        {
+            'name': 'smáorð, atviksorð',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'atviksord'),
+            'f_lookup': lookup_atviksord,
+            'f_add': add_atviksord,
+            'has_samsett': False
+        },
+        {
+            'name': 'smáorð, nafnháttarmerki',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'nafnhattarmerki'),
+            'f_lookup': lookup_nafnhattarmerki,
+            'f_add': add_nafnhattarmerki,
+            'has_samsett': False
+        },
+        {
+            'name': 'smáorð, samtenging',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'samtenging'),
+            'f_lookup': lookup_samtenging,
+            'f_add': add_samtenging,
+            'has_samsett': False
+        },
+        {
+            'name': 'smáorð, upphrópun',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'upphropun'),
+            'f_lookup': lookup_upphropun,
+            'f_add': add_upphropun,
+            'has_samsett': False
+        }
     ]  # TODO: add rest of orðflokkar
     logman.info('We import core words first, then combined (samssett).')
     for task in import_tasks:
@@ -149,12 +189,12 @@ def do_import_task(task, do_samsett=False):
         if do_samsett is True:
             # nothing to do here
             return
-        files = pathlib.Path(os.path.join(task['root'], task['dir'])).iterdir()
+        files = sorted(pathlib.Path(os.path.join(task['root'], task['dir'])).iterdir())
     assert(files is not None)
     logman.info('Task %s "%s" %s..' % (
         'kjarna' if do_samsett is False else 'samsett',
         task['name'],
-        '' if type(files) is not list else ('filecount=%s' % (len(files), ))
+        'filecount=%s' % (len(files), )
     ))
     for ord_file in files:
         logman.info('File %s/%s ..' % (task['dir'], ord_file.name))
@@ -262,10 +302,7 @@ def add_nafnord(nafnord_data):
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
-    isl_nafnord = isl.Nafnord(
-        fk_Ord_id=isl_ord.Ord_id,
-        Kyn=isl_ord_kyn
-    )
+    isl_nafnord = isl.Nafnord(fk_Ord_id=isl_ord.Ord_id, Kyn=isl_ord_kyn)
     db.Session.add(isl_nafnord)
     db.Session.commit()
     if 'et' in nafnord_data:
@@ -311,10 +348,7 @@ def add_lysingarord(lysingarord_data):
     add lýsingarorð from datafile to database
     '''
     assert('flokkur' in lysingarord_data and lysingarord_data['flokkur'] == 'lýsingarorð')
-    isl_ord = isl.Ord(
-        Ord=lysingarord_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Lysingarord
-    )
+    isl_ord = isl.Ord(Ord=lysingarord_data['orð'], Ordflokkur=isl.Ordflokkar.Lysingarord)
     db.Session.add(isl_ord)
     db.Session.commit()
     if 'samsett' in lysingarord_data:
@@ -322,9 +356,7 @@ def add_lysingarord(lysingarord_data):
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
-    isl_lysingarord = isl.Lysingarord(
-        fk_Ord_id=isl_ord.Ord_id
-    )
+    isl_lysingarord = isl.Lysingarord(fk_Ord_id=isl_ord.Ord_id)
     db.Session.add(isl_lysingarord)
     db.Session.commit()
     if 'frumstig' in lysingarord_data:
@@ -524,10 +556,7 @@ def add_sagnord(sagnord_data):
     add sagnorð from datafile to database
     '''
     assert('flokkur' in sagnord_data and sagnord_data['flokkur'] == 'sagnorð')
-    isl_ord = isl.Ord(
-        Ord=sagnord_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Sagnord
-    )
+    isl_ord = isl.Ord(Ord=sagnord_data['orð'], Ordflokkur=isl.Ordflokkar.Sagnord)
     db.Session.add(isl_ord)
     db.Session.commit()
     if 'samsett' in sagnord_data:
@@ -535,9 +564,7 @@ def add_sagnord(sagnord_data):
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
-    isl_sagnord = isl.Sagnord(
-        fk_Ord_id=isl_ord.Ord_id
-    )
+    isl_sagnord = isl.Sagnord(fk_Ord_id=isl_ord.Ord_id)
     db.Session.add(isl_sagnord)
     db.Session.commit()
     if 'germynd' in sagnord_data:
@@ -1133,15 +1160,10 @@ def add_greinir(greinir_data):
     add greinir from datafile to database
     '''
     assert('flokkur' in greinir_data and greinir_data['flokkur'] == 'greinir')
-    isl_ord = isl.Ord(
-        Ord=greinir_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Greinir
-    )
+    isl_ord = isl.Ord(Ord=greinir_data['orð'], Ordflokkur=isl.Ordflokkar.Greinir)
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_greinir = isl.Greinir(
-        fk_Ord_id=isl_ord.Ord_id
-    )
+    isl_greinir = isl.Greinir(fk_Ord_id=isl_ord.Ord_id)
     db.Session.add(isl_greinir)
     db.Session.commit()
     if 'et' in greinir_data:
@@ -1185,15 +1207,10 @@ def add_frumtala(frumtala_data):
     assert('flokkur' in frumtala_data and frumtala_data['flokkur'] == 'frumtala')
     if 'gildi' in frumtala_data:
         assert(type(frumtala_data['gildi']) is int)
-    isl_ord = isl.Ord(
-        Ord=frumtala_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Frumtala
-    )
+    isl_ord = isl.Ord(Ord=frumtala_data['orð'], Ordflokkur=isl.Ordflokkar.Frumtala)
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_frumtala = isl.Frumtala(
-        fk_Ord_id=isl_ord.Ord_id
-    )
+    isl_frumtala = isl.Frumtala(fk_Ord_id=isl_ord.Ord_id)
     db.Session.add(isl_frumtala)
     db.Session.commit()
     if 'gildi' in frumtala_data:
@@ -1245,15 +1262,10 @@ def add_radtala(radtala_data):
     assert('flokkur' in radtala_data and radtala_data['flokkur'] == 'raðtala')
     if 'gildi' in radtala_data:
         assert(type(radtala_data['gildi']) is int)
-    isl_ord = isl.Ord(
-        Ord=radtala_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Radtala
-    )
+    isl_ord = isl.Ord(Ord=radtala_data['orð'], Ordflokkur=isl.Ordflokkar.Radtala)
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_radtala = isl.Radtala(
-        fk_Ord_id=isl_ord.Ord_id
-    )
+    isl_radtala = isl.Radtala(fk_Ord_id=isl_ord.Ord_id)
     db.Session.add(isl_radtala)
     db.Session.commit()
     if 'gildi' in radtala_data:
@@ -1335,7 +1347,7 @@ def add_radtala(radtala_data):
 
 def lookup_fornafn(fornafn_data):
     isl_ord = None
-    isl_fornafn_undirflokkur = string_to_undirordflokkur(fornafn_data['undirflokkur'])
+    isl_fornafn_undirflokkur = string_to_fornafn_undirordflokkur(fornafn_data['undirflokkur'])
     isl_ord_list = db.Session.query(isl.Ord).filter_by(
         Ord=fornafn_data['orð'],
         Ordflokkur=isl.Ordflokkar.Fornafn
@@ -1356,17 +1368,11 @@ def add_fornafn(fornafn_data):
     '''
     dictorinos = (dict, collections.OrderedDict)
     assert('flokkur' in fornafn_data and fornafn_data['flokkur'] == 'fornafn')
-    undirflokkur = string_to_undirordflokkur(fornafn_data['undirflokkur'])
-    isl_ord = isl.Ord(
-        Ord=fornafn_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Fornafn
-    )
+    undirflokkur = string_to_fornafn_undirordflokkur(fornafn_data['undirflokkur'])
+    isl_ord = isl.Ord(Ord=fornafn_data['orð'], Ordflokkur=isl.Ordflokkar.Fornafn)
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_fornafn = isl.Fornafn(
-        fk_Ord_id=isl_ord.Ord_id,
-        Undirflokkur=undirflokkur
-    )
+    isl_fornafn = isl.Fornafn(fk_Ord_id=isl_ord.Ord_id, Undirflokkur=undirflokkur)
     db.Session.add(isl_fornafn)
     db.Session.commit()
     if 'persóna' in fornafn_data:
@@ -1427,7 +1433,7 @@ def add_fornafn(fornafn_data):
     return isl_ord
 
 
-def string_to_undirordflokkur(mystr):
+def string_to_fornafn_undirordflokkur(mystr):
     if mystr == 'ábendingar':
         return isl.Fornafnaflokkar.Abendingarfornafn
     elif mystr == 'afturbeygt':
@@ -1461,3 +1467,163 @@ def string_to_kyn(mystr):
     elif mystr == 'hk':
         return isl.Kyn.Hvorugkyn
     raise Exception('Unknown kyn.')
+
+
+def lookup_forsetning(forsetning_data):
+    isl_ord = None
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
+        Ord=forsetning_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Forsetning
+    )
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
+    return isl_ord
+
+
+def add_forsetning(forsetning_data):
+    assert('flokkur' in forsetning_data and forsetning_data['flokkur'] == 'smáorð')
+    assert('undirflokkur' in forsetning_data and forsetning_data['undirflokkur'] == 'forsetning')
+    assert('stýrir' in forsetning_data and type(forsetning_data['stýrir']) is list)
+    assert(len(forsetning_data['stýrir']) > 0)
+    isl_ord = isl.Ord(Ord=forsetning_data['orð'], Ordflokkur=isl.Ordflokkar.Forsetning)
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    isl_forsetning = isl.Forsetning(fk_Ord_id=isl_ord.Ord_id)
+    db.Session.add(isl_forsetning)
+    db.Session.commit()
+    for fall in forsetning_data['stýrir']:
+        if fall == 'þolfall':
+            isl_forsetning.StyrirTholfalli = True
+        elif fall == 'þágufall':
+            isl_forsetning.StyrirThagufalli = True
+        elif fall == 'eignarfall':
+            isl_forsetning.StyrirEignarfalli = True
+        else:
+            raise Exception('Unknown aukafall.')
+    db.Session.commit()
+    return isl_ord
+
+
+def lookup_atviksord(atviksord_data):
+    isl_ord = None
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
+        Ord=atviksord_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Atviksord
+    )
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
+    return isl_ord
+
+
+def add_atviksord(atviksord_data):
+    assert('flokkur' in atviksord_data and atviksord_data['flokkur'] == 'smáorð')
+    assert('undirflokkur' in atviksord_data and atviksord_data['undirflokkur'] == 'atviksorð')
+    isl_ord = isl.Ord(Ord=atviksord_data['orð'], Ordflokkur=isl.Ordflokkar.Atviksord)
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    if 'miðstig' in atviksord_data or 'efstastig' in atviksord_data:
+        assert('miðstig' in atviksord_data)
+        assert('efstastig' in atviksord_data)
+        isl_atviksord = isl.Atviksord(fk_Ord_id=isl_ord.Ord_id)
+        db.Session.add(isl_atviksord)
+        db.Session.commit()
+        isl_atviksord.Midstig = atviksord_data['miðstig']
+        isl_atviksord.Efstastig = atviksord_data['efstastig']
+        db.Session.commit()
+    return isl_ord
+
+
+def lookup_nafnhattarmerki(nafnhattarmerki_data):
+    isl_ord = None
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
+        Ord=nafnhattarmerki_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Nafnhattarmerki
+    )
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
+    return isl_ord
+
+
+def add_nafnhattarmerki(nafnhattarmerki_data):
+    assert('flokkur' in nafnhattarmerki_data and nafnhattarmerki_data['flokkur'] == 'smáorð')
+    assert(
+        'undirflokkur' in nafnhattarmerki_data and
+        nafnhattarmerki_data['undirflokkur'] == 'nafnháttarmerki'
+    )
+    isl_ord = isl.Ord(Ord=nafnhattarmerki_data['orð'], Ordflokkur=isl.Ordflokkar.Nafnhattarmerki)
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    return isl_ord
+
+
+def lookup_samtenging(samtenging_data):
+    isl_ord = None
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
+        Ord=samtenging_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Samtenging
+    )
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
+    return isl_ord
+
+
+def add_samtenging(samtenging_data):
+    assert('flokkur' in samtenging_data and samtenging_data['flokkur'] == 'smáorð')
+    assert('undirflokkur' in samtenging_data and samtenging_data['undirflokkur'] == 'samtenging')
+    isl_ord = isl.Ord(Ord=samtenging_data['orð'], Ordflokkur=isl.Ordflokkar.Samtenging)
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    if 'fleiryrt' in samtenging_data:
+        assert(type(samtenging_data['fleiryrt']) is list)
+        for fleiryrt_option in samtenging_data['fleiryrt']:
+            first_word = True
+            assert('týpa' in fleiryrt_option)
+            assert('fylgiorð' in fleiryrt_option and type(fleiryrt_option['fylgiorð']) is list)
+            last_samtenging_fleiryrt_id = None
+            for fylgiord in fleiryrt_option['fylgiorð']:
+                assert(type(fylgiord) is str and len(fylgiord) > 0)
+                isl_ord_id = None
+                fleiryrt_typa = None
+                if first_word is True:
+                    isl_ord_id = isl_ord.Ord_id
+                    fleiryrt_typa = string_to_samtenging_fleiryrt_typa(fleiryrt_option['týpa'])
+                isl_samtenging_fleiryrt = isl.SamtengingFleiryrt(
+                    fk_Ord_id=isl_ord_id,
+                    Ord=fylgiord,
+                    fk_SamtengingFleiryrt_id=last_samtenging_fleiryrt_id,
+                    Typa=fleiryrt_typa
+                )
+                db.Session.add(isl_samtenging_fleiryrt)
+                db.Session.commit()
+                first_word = False
+                last_samtenging_fleiryrt_id = isl_samtenging_fleiryrt.SamtengingFleiryrt_id
+    return isl_ord
+
+
+def string_to_samtenging_fleiryrt_typa(mystr):
+    if mystr == 'hlekkjuð':
+        return isl.FleiryrtTypa.Hlekkjud
+    elif mystr == 'laus':
+        return isl.FleiryrtTypa.Laus
+    else:
+        raise Exception('Unknown SamtengingFleiryrtTypa.')
+
+
+def lookup_upphropun(upphropun_data):
+    isl_ord = None
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
+        Ord=upphropun_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Upphropun
+    )
+    assert(len(isl_ord_query.all()) < 2)
+    isl_ord = isl_ord_query.first()
+    return isl_ord
+
+
+def add_upphropun(upphropun_data):
+    assert('flokkur' in upphropun_data and upphropun_data['flokkur'] == 'smáorð')
+    assert('undirflokkur' in upphropun_data and upphropun_data['undirflokkur'] == 'upphrópun')
+    isl_ord = isl.Ord(Ord=upphropun_data['orð'], Ordflokkur=isl.Ordflokkar.Upphropun)
+    db.Session.add(isl_ord)
+    db.Session.commit()
+    return isl_ord
