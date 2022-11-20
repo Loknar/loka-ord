@@ -95,6 +95,14 @@ def write_datafiles_from_db():
             'f_ord_to_dict': get_atviksord_from_db_to_ordered_dict,
             'has_samsett': False
         },
+        {
+            'name': 'nafnháttarmerki',
+            'ordflokkur': isl.Ordflokkar.Nafnhattarmerki,
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('smaord', 'nafnhattarmerki'),
+            'f_ord_to_dict': get_nafnhattarmerki_from_db_to_ordered_dict,
+            'has_samsett': False
+        },
     ]  # TODO: add rest of orðflokkar
     logman.info('We export core words first, then combined (samssett).')
     for task in export_tasks:
@@ -1631,3 +1639,10 @@ def get_atviksord_from_db_to_ordered_dict(isl_ord):
         data['efstastig'] = isl_atviksord.Efstastig
     return data
 
+
+def get_nafnhattarmerki_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'smáorð'
+    data['undirflokkur'] = 'nafnháttarmerki'
+    return data
