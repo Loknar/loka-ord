@@ -992,11 +992,14 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
         'nafnorð',
         'lýsingarorð',
         'greinir',
-        'frumtala',
-        'raðtala',
+        'töluorð',
         'fornafn',
         'sagnorð',
         'smáorð'
+    ])
+    toluord_undirflokkar = set([
+        'frumtala',
+        'raðtala'
     ])
     fornofn_undirflokkar = set([
         'ábendingar',
@@ -1029,6 +1032,9 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
     if ordhluti_obj['flokkur'] == 'nafnorð':
         assert('kyn' in ordhluti_obj)
         assert(ordhluti_obj['kyn'] in kyn)
+    elif ordhluti_obj['flokkur'] == 'töluorð':
+        assert('undirflokkur' in ordhluti_obj)
+        assert(ordhluti_obj['undirflokkur'] in toluord_undirflokkar)
     elif ordhluti_obj['flokkur'] == 'fornafn':
         assert('undirflokkur' in ordhluti_obj)
         assert(ordhluti_obj['undirflokkur'] in fornofn_undirflokkar)
@@ -1083,10 +1089,11 @@ def add_samsett_ord(isl_ord_id, ord_data):
             ordhluti_isl_ord = lookup_sagnord({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'greinir':
             ordhluti_isl_ord = lookup_greinir({'orð': ordhluti_obj['orð']})
-        elif ordhluti_obj['flokkur'] == 'frumtala':
-            ordhluti_isl_ord = lookup_frumtala({'orð': ordhluti_obj['orð']})
-        elif ordhluti_obj['flokkur'] == 'raðtala':
-            ordhluti_isl_ord = lookup_radtala({'orð': ordhluti_obj['orð']})
+        elif ordhluti_obj['flokkur'] == 'töluorð':
+            if ordhluti_obj['undirflokkur'] == 'frumtala':
+                ordhluti_isl_ord = lookup_frumtala({'orð': ordhluti_obj['orð']})
+            elif ordhluti_obj['undirflokkur'] == 'raðtala':
+                ordhluti_isl_ord = lookup_radtala({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'fornafn':
             ordhluti_isl_ord = lookup_fornafn({
                 'orð': ordhluti_obj['orð'],
@@ -1246,7 +1253,8 @@ def add_frumtala(frumtala_data):
     '''
     add frumtala from datafile to database
     '''
-    assert('flokkur' in frumtala_data and frumtala_data['flokkur'] == 'frumtala')
+    assert('flokkur' in frumtala_data and frumtala_data['flokkur'] == 'töluorð')
+    assert('undirflokkur' in frumtala_data and frumtala_data['undirflokkur'] == 'frumtala')
     if 'gildi' in frumtala_data:
         assert(type(frumtala_data['gildi']) is int)
     isl_ord = isl.Ord(Ord=frumtala_data['orð'], Ordflokkur=isl.Ordflokkar.Frumtala)
@@ -1301,7 +1309,8 @@ def add_radtala(radtala_data):
     '''
     add raðtala from datafile to database
     '''
-    assert('flokkur' in radtala_data and radtala_data['flokkur'] == 'raðtala')
+    assert('flokkur' in radtala_data and radtala_data['flokkur'] == 'töluorð')
+    assert('undirflokkur' in radtala_data and radtala_data['undirflokkur'] == 'raðtala')
     if 'gildi' in radtala_data:
         assert(type(radtala_data['gildi']) is int)
     isl_ord = isl.Ord(Ord=radtala_data['orð'], Ordflokkur=isl.Ordflokkar.Radtala)

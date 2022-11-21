@@ -1,19 +1,22 @@
 {
 	"orð": "tvöþúsundasti",
-	"flokkur": "raðtala",
+	"flokkur": "töluorð",
+	"undirflokkur": "raðtala",
 	"gildi": 2000,
 	"samsett": [
 		{
 			"mynd": "tvö",
 			"samsetning": "stofn",
 			"orð": "tveir",
-			"flokkur": "frumtala",
-			"hash": "4ad89b0b2026309d15be6df3e7c2ab86935fa5dcfb14b187d524fa089d715b60"
+			"flokkur": "töluorð",
+			"undirflokkur": "frumtala",
+			"hash": "9e0d62d95ad39ac3b4c8078ba007a14b2232447a35cc34b0c4ca16946b25f756"
 		},
 		{
 			"orð": "þúsundasti",
-			"flokkur": "raðtala",
-			"hash": "8f94fce44282afa1771aa3ac4f1ffd284bd0c4cb8404d627b9bec2613d969c33"
+			"flokkur": "töluorð",
+			"undirflokkur": "raðtala",
+			"hash": "d826a32a6d2855118a6074edc349cd10e61b605ccfe2f9209c82980330257e49"
 		}
 	],
 	"vb": {
@@ -28,5 +31,5 @@
 			"hk": ["tvöþúsundustu", "tvöþúsundustu", "tvöþúsundustu", "tvöþúsundustu"]
 		}
 	},
-	"hash": "d3318ba0247e5dbf2c7c0650ccfd0264154aa425a123c5699def6c535871f183"
+	"hash": "64dae9d2ae4e392954319c2619ad63285fea2eff304b7087d98d72a423dd210d"
 }

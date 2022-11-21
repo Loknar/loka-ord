@@ -1265,7 +1265,8 @@ def get_greinir_from_db_to_ordered_dict(isl_ord):
 def get_frumtala_from_db_to_ordered_dict(isl_ord):
     data = collections.OrderedDict()
     data['orð'] = isl_ord.Ord
-    data['flokkur'] = 'frumtala'
+    data['flokkur'] = 'töluorð'
+    data['undirflokkur'] = 'frumtala'
     isl_frumtala_query = db.Session.query(isl.Frumtala).filter_by(fk_Ord_id=isl_ord.Ord_id)
     assert(len(isl_frumtala_query.all()) < 2)
     isl_frumtala = isl_frumtala_query.first()
@@ -1306,7 +1307,8 @@ def get_frumtala_from_db_to_ordered_dict(isl_ord):
 def get_radtala_from_db_to_ordered_dict(isl_ord):
     data = collections.OrderedDict()
     data['orð'] = isl_ord.Ord
-    data['flokkur'] = 'raðtala'
+    data['flokkur'] = 'töluorð'
+    data['undirflokkur'] = 'raðtala'
     isl_radtala_query = db.Session.query(isl.Radtala).filter_by(fk_Ord_id=isl_ord.Ord_id)
     assert(len(isl_radtala_query.all()) < 2)
     isl_radtala = isl_radtala_query.first()
