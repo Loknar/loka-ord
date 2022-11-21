@@ -6,9 +6,10 @@ from lokaord import cli
 from lokaord import exporter
 from lokaord import importer
 from lokaord import logman
-from lokaord.version import __version__
 from lokaord.database import db
 from lokaord.database.models import isl
+from lokaord.exporter import get_samsett_ord_from_db_to_ordered_dict
+from lokaord.version import __version__
 
 ArgParser = None
 
@@ -17,13 +18,14 @@ def get_words_count():
     '''
     collect some basic word count stats
     '''
-    return {
+    data = {
         'nafnorð': {
-            'kyn': {
+            'kyn-kjarnaorð': {
                 'kk': db.Session.query(isl.Nafnord).filter_by(Kyn=isl.Kyn.Karlkyn).count(),
                 'kvk': db.Session.query(isl.Nafnord).filter_by(Kyn=isl.Kyn.Kvenkyn).count(),
                 'hk': db.Session.query(isl.Nafnord).filter_by(Kyn=isl.Kyn.Hvorugkyn).count(),
             },
+            'kyn-samsett': {'kk': 0, 'kvk': 0, 'hk': 0},
             'kjarnaorð': db.Session.query(isl.Ord).filter_by(
                 Ordflokkur=isl.Ordflokkar.Nafnord, Samsett=False
             ).count(),
@@ -109,25 +111,42 @@ def get_words_count():
             'samtals': db.Session.query(isl.Ord).count()
         }
     }
+    # get kyn count for samsett orð:
+    isl_ord_query = db.Session.query(isl.Ord).filter_by(
+        Ordflokkur=isl.Ordflokkar.Nafnord, Samsett=True
+    )
+    for isl_ord in isl_ord_query.all():
+        ord_data = get_samsett_ord_from_db_to_ordered_dict(isl_ord)
+        if ord_data['kyn'] == 'kk':
+            data['nafnorð']['kyn-samsett']['kk'] += 1
+        elif ord_data['kyn'] == 'kvk':
+            data['nafnorð']['kyn-samsett']['kvk'] += 1
+        elif ord_data['kyn'] == 'hk':
+            data['nafnorð']['kyn-samsett']['hk'] += 1
+    return data
 
 
 def get_words_count_markdown_table():
     data = get_words_count()
     md_table = (
-        '|   | kk | kvk | hk | ób.l | kjarnaorð | samsett orð | samtals |\n'
-        '| --- | --- | --- | --- | --- | --- | --- | --- |\n'
-        '| **Nafnorð**     | {no_kk} | {no_kvk} | {no_hk} |   | {no_k} | {no_s} | **{no_a}** |\n'
-        '| **Lýsingarorð** |   |   |   | {lo_obl} | {lo_k} | {lo_s} | **{lo_a}** |\n'
-        '| **Sagnorð**     |   |   |   |   | {so_k} | {so_s} | **{so_a}** |\n'
-        '| **Töluorð**     |   |   |   |   | {to_k} | {to_s} | **{to_a}** |\n'
-        '| **Fornöfn**     |   |   |   |   | {fn_k} | {fn_s} | **{fn_a}** |\n'
-        '| **Smáorð**      |   |   |   |   |   |   | **{smo_a}** |\n'
-        '| **Alls**        |   |   |   |   | **{a_k}** | **{a_s}** | **{a_a}** |'
+        '|   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |\n'
+        '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n'
+        '| **Nafnorð**     |   | {no_kk} | {no_kvk} | {no_hk} | {no_k} | {no_s_kk} | {no_s_kvk} |'
+        ' {no_s_hk} | {no_s} | **{no_a}** |\n'
+        '| **Lýsingarorð** | {lo_obl} |   |   |   | {lo_k} |   |   |   | {lo_s} | **{lo_a}** |\n'
+        '| **Sagnorð**     |   |   |   |   | {so_k} |   |   |   | {so_s} | **{so_a}** |\n'
+        '| **Töluorð**     |   |   |   |   | {to_k} |   |   |   | {to_s} | **{to_a}** |\n'
+        '| **Fornöfn**     |   |   |   |   | {fn_k} |   |   |   | {fn_s} | **{fn_a}** |\n'
+        '| **Smáorð**      |   |   |   |   |   |   |   |   |   | **{smo_a}** |\n'
+        '| **Alls**        |   |   |   |   | **{a_k}** |   |   |   | **{a_s}** | **{a_a}** |'
     ).format(
-        no_kk=data['nafnorð']['kyn']['kk'],
-        no_kvk=data['nafnorð']['kyn']['kvk'],
-        no_hk=data['nafnorð']['kyn']['hk'],
+        no_kk=data['nafnorð']['kyn-kjarnaorð']['kk'],
+        no_kvk=data['nafnorð']['kyn-kjarnaorð']['kvk'],
+        no_hk=data['nafnorð']['kyn-kjarnaorð']['hk'],
         no_k=data['nafnorð']['kjarnaorð'],
+        no_s_kk=data['nafnorð']['kyn-samsett']['kk'],
+        no_s_kvk=data['nafnorð']['kyn-samsett']['kvk'],
+        no_s_hk=data['nafnorð']['kyn-samsett']['hk'],
         no_s=data['nafnorð']['samsett'],
         no_a=data['nafnorð']['samtals'],
         lo_obl=data['lýsingarorð']['óbeygjanleg'],
