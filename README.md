@@ -9,10 +9,11 @@ Gagnasafnið telur eftirfarandi:
 | Nafnorð     | 60 | 60 | 56 |   | 176 | 26 | 202 |
 | Lýsingarorð |   |   |   | 6 | 9 | 6 | 15 |
 | Sagnorð     |   |   |   |   | 7 | 1 | 8 |
-| Töluorð     |   |   |   |   | 69 | 69 | 69 |
-| Fornöfn     |   |   |   |   | 38 | 38 | 38 |
+| Töluorð     |   |   |   |   | 69 | 10 | 79 |
+| Fornöfn     |   |   |   |   | 38 | 2 | 40 |
 | Smáorð      |   |   |   |   |   |   | 96 |
-| **Alls**    |   |   |   |   | 396 | 45 | 441 |
+| **Alls**    |   |   |   |   | **396** | **45** | **441** |
+
 
 ## Forkröfur (Requirements)
 
