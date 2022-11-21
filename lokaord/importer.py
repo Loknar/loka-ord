@@ -559,14 +559,14 @@ def add_sagnord(sagnord_data):
     isl_ord = isl.Ord(Ord=sagnord_data['orð'], Ordflokkur=isl.Ordflokkar.Sagnord)
     db.Session.add(isl_ord)
     db.Session.commit()
+    isl_sagnord = isl.Sagnord(fk_Ord_id=isl_ord.Ord_id)
+    db.Session.add(isl_sagnord)
+    db.Session.commit()
     if 'samsett' in sagnord_data:
         add_samsett_ord(isl_ord.Ord_id, sagnord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
-    isl_sagnord = isl.Sagnord(fk_Ord_id=isl_ord.Ord_id)
-    db.Session.add(isl_sagnord)
-    db.Session.commit()
     if 'germynd' in sagnord_data:
         if 'nafnháttur' in sagnord_data['germynd']:
             isl_sagnord.Germynd_Nafnhattur = sagnord_data['germynd']['nafnháttur']
