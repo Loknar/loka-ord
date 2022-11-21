@@ -1067,6 +1067,10 @@ def add_samsett_ord(isl_ord_id, ord_data):
         ordhluti_mynd = None
         ordhluti_gerd = None
         if 'mynd' in ordhluti_obj:
+            if last_ordhluti_obj_id is None and ord_data['flokkur'] == 'lýsingarorð':
+                isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=isl_ord_id).first()
+                isl_ord.Obeygjanlegt = True
+                db.Session.commit()
             ordhluti_mynd = ordhluti_obj['mynd']
             if ordhluti_obj['samsetning'] == 'stofn':
                 ordhluti_gerd = isl.Ordasamsetningar.Stofnsamsetning

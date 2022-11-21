@@ -76,6 +76,7 @@ class Ord(Base):
     Samsett = utils.boolean_default_false()
     Undantekning = utils.boolean_default_false()
     OsjalfstaedurOrdhluti = utils.boolean_default_false()
+    Obeygjanlegt = utils.boolean_default_false()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
