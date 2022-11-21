@@ -976,6 +976,10 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
 
 
 def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
+    toluord_undirflokkar = set([
+        'frumtala',
+        'raðtala'
+    ])
     smaord_undirflokkar = set([
         'forsetning',
         'atviksorð',
@@ -985,7 +989,12 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     ])
     data = collections.OrderedDict()
     data['orð'] = isl_ord.Ord
-    data['flokkur'] = ordflokkur_to_str(isl_ord.Ordflokkur)
+    flokkur = ordflokkur_to_str(isl_ord.Ordflokkur)
+    if flokkur in toluord_undirflokkar:
+        data['flokkur'] = 'töluorð'
+        data['undirflokkur'] = flokkur
+    else:
+        data['flokkur'] = flokkur
     if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
         data['kyn'] = None
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Frumtala:
@@ -1060,7 +1069,10 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         assert(ordhluti_ord is not None)
         ordhluti_data['orð'] = ordhluti_ord.Ord
         ordhluti_flokkur = ordflokkur_to_str(ordhluti_ord.Ordflokkur)
-        if ordhluti_flokkur in smaord_undirflokkar:
+        if ordhluti_flokkur in toluord_undirflokkar:
+            ordhluti_data['flokkur'] = 'töluorð'
+            ordhluti_data['undirflokkur'] = ordhluti_flokkur
+        elif ordhluti_flokkur in smaord_undirflokkar:
             ordhluti_data['flokkur'] = 'smáorð'
             ordhluti_data['undirflokkur'] = ordhluti_flokkur
         else:
