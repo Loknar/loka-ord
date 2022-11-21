@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 60 | 60 | 57 | 177 | 15 | 2 | 9 | 26 | **203** |
+| **Nafnorð**     |   | 61 | 61 | 57 | 179 | 15 | 2 | 9 | 26 | **205** |
 | **Lýsingarorð** | 6 |   |   |   | 9 |   |   |   | 7 | **16** |
 | **Sagnorð**     |   |   |   |   | 7 |   |   |   | 1 | **8** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 2 | **40** |
 | **Smáorð**      |   |   |   |   |   |   |   |   |   | **96** |
-| **Alls**        |   |   |   |   | **397** |   |   |   | **46** | **443** |
+| **Alls**        |   |   |   |   | **399** |   |   |   | **46** | **445** |
 
 
 ## Forkröfur (Requirements)
@@ -71,3 +71,7 @@ Mikilvægt er við framlag orða að ekki sé um afritun úr öðrum orðagrunnu
 Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að gefa, þá er öruggast að orðin komi beint úr höfði þeirra sem reiðir þau fram.
 
 Orð sem bætt er í grunninn heyra undir almenningseignarleyfi verkefnisins og verða því almenningseign.
+
+## Viðhaldari (Maintainer)
+
+@Loknar
