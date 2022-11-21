@@ -297,14 +297,14 @@ def add_nafnord(nafnord_data):
     )
     db.Session.add(isl_ord)
     db.Session.commit()
+    isl_nafnord = isl.Nafnord(fk_Ord_id=isl_ord.Ord_id, Kyn=isl_ord_kyn)
+    db.Session.add(isl_nafnord)
+    db.Session.commit()
     if 'samsett' in nafnord_data:
         add_samsett_ord(isl_ord.Ord_id, nafnord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
-    isl_nafnord = isl.Nafnord(fk_Ord_id=isl_ord.Ord_id, Kyn=isl_ord_kyn)
-    db.Session.add(isl_nafnord)
-    db.Session.commit()
     if 'et' in nafnord_data:
         if 'ág' in nafnord_data['et']:
             isl_nafnord.fk_et_Fallbeyging_id = add_fallbeyging(nafnord_data['et']['ág'])

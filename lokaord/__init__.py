@@ -21,11 +21,51 @@ def get_words_count():
     data = {
         'nafnorð': {
             'kyn-kjarnaorð': {
-                'kk': db.Session.query(isl.Nafnord).filter_by(Kyn=isl.Kyn.Karlkyn).count(),
-                'kvk': db.Session.query(isl.Nafnord).filter_by(Kyn=isl.Kyn.Kvenkyn).count(),
-                'hk': db.Session.query(isl.Nafnord).filter_by(Kyn=isl.Kyn.Hvorugkyn).count(),
+                'kk': (
+                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+                        isl.Nafnord.Kyn == isl.Kyn.Karlkyn
+                    ).filter(
+                        isl.Ord.Samsett == False
+                    ).count()
+                ),
+                'kvk': (
+                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+                        isl.Nafnord.Kyn == isl.Kyn.Kvenkyn
+                    ).filter(
+                        isl.Ord.Samsett == False
+                    ).count()
+                ),
+                'hk': (
+                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+                        isl.Nafnord.Kyn == isl.Kyn.Hvorugkyn
+                    ).filter(
+                        isl.Ord.Samsett == False
+                    ).count()
+                ),
             },
-            'kyn-samsett': {'kk': 0, 'kvk': 0, 'hk': 0},
+            'kyn-samsett': {
+                'kk': (
+                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+                        isl.Nafnord.Kyn == isl.Kyn.Karlkyn
+                    ).filter(
+                        isl.Ord.Samsett == True
+                    ).count()
+                ),
+                'kvk': (
+                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+                        isl.Nafnord.Kyn == isl.Kyn.Kvenkyn
+                    ).filter(
+                        isl.Ord.Samsett == True
+                    ).count()
+                ),
+                'hk': (
+                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+                        isl.Nafnord.Kyn == isl.Kyn.Hvorugkyn
+                    ).filter(
+                        isl.Ord.Samsett == True
+                    ).count()
+                )
+            },
             'kjarnaorð': db.Session.query(isl.Ord).filter_by(
                 Ordflokkur=isl.Ordflokkar.Nafnord, Samsett=False
             ).count(),
@@ -111,18 +151,6 @@ def get_words_count():
             'samtals': db.Session.query(isl.Ord).count()
         }
     }
-    # get kyn count for samsett orð:
-    isl_ord_query = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=isl.Ordflokkar.Nafnord, Samsett=True
-    )
-    for isl_ord in isl_ord_query.all():
-        ord_data = get_samsett_ord_from_db_to_ordered_dict(isl_ord)
-        if ord_data['kyn'] == 'kk':
-            data['nafnorð']['kyn-samsett']['kk'] += 1
-        elif ord_data['kyn'] == 'kvk':
-            data['nafnorð']['kyn-samsett']['kvk'] += 1
-        elif ord_data['kyn'] == 'hk':
-            data['nafnorð']['kyn-samsett']['hk'] += 1
     return data
 
 
