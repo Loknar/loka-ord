@@ -4,14 +4,14 @@ Frjálst gagnasafn yfir íslensk orð, beygingamyndir þeirra og fleira, undir f
 
 Gagnasafnið telur eftirfarandi:
 
-|   | kk | kvk | hk | óbl | kjarnaorð | samsett orð | samtals |
+|   | kk | kvk | hk | ób.l | kjarnaorð | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Nafnorð     | 60 | 60 | 56 |   | 176 | 26 | 202 |
-| Lýsingarorð |   |   |   | 6 | 9 | 6 | 15 |
-| Sagnorð     |   |   |   |   | 7 | 1 | 8 |
-| Töluorð     |   |   |   |   | 69 | 10 | 79 |
-| Fornöfn     |   |   |   |   | 38 | 2 | 40 |
-| Smáorð      |   |   |   |   |   |   | 96 |
+| Nafnorð     | 60 | 60 | 56 |   | 176 | 26 | **202** |
+| Lýsingarorð |   |   |   | 6 | 9 | 6 | **15** |
+| Sagnorð     |   |   |   |   | 7 | 1 | **8** |
+| Töluorð     |   |   |   |   | 69 | 10 | **79** |
+| Fornöfn     |   |   |   |   | 38 | 2 | **40** |
+| Smáorð      |   |   |   |   |   |   | **96** |
 | **Alls**    |   |   |   |   | **396** | **45** | **441** |
 
 
