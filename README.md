@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 61 | 61 | 57 | 179 | 15 | 2 | 9 | 26 | **205** |
+| **Nafnorð**     |   | 64 | 63 | 61 | 188 | 16 | 2 | 9 | 27 | **215** |
 | **Lýsingarorð** | 6 |   |   |   | 9 |   |   |   | 7 | **16** |
 | **Sagnorð**     |   |   |   |   | 7 |   |   |   | 1 | **8** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 2 | **40** |
 | **Smáorð**      |   |   |   |   |   |   |   |   |   | **96** |
-| **Alls**        |   |   |   |   | **399** |   |   |   | **46** | **445** |
+| **Alls**        |   |   |   |   | **408** |   |   |   | **47** | **455** |
 
 
 ## Forkröfur (Requirements)
@@ -72,6 +72,16 @@ Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim
 
 Orð sem bætt er í grunninn heyra undir almenningseignarleyfi verkefnisins og verða því almenningseign.
 
+## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
+
+Í þessum grunni má finna frávik frá hefðbundinni íslensku þegar kemur að orðum sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (amfestingur eða einhver flík) og "gałli" (vankantur eða brestur).
+
+Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
+
+Ég tel að geta til að greina á miłli "tvöfalt-L" orða sem borin eru fram með klikk-hljóði og annarra sé mjög nytsamleg og jafnvel nauðsynleg þegar kemur að orðhugbúnaðartæknivæðingu. Slík geta (útfrá orðinu stöku, þ.e. þurfa ekki að leiða það út frá textasamhengi) mundi auðvelda til muna smíði talgervils og málgreinis.
+
 ## Viðhaldari (Maintainer)
 
-@Loknar
+Hæ, og takk ef þú last svona langt. Ég skapa lokaorð orðagrunninn og gef hann hér út undir LGPLv3 leyfi. Það geri ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En samhliða óska ég þess að hverjar þær breytingar á virkni, gögnum eða gagnastrúktúr orðagrunnsins séu gefnar út undir sama LGPLv3 leyfi, svo að viðbætur eða breytingar eins notanda geti orðið öðrum notendum sem grunninn nota að gagni.
+
+[@Loknar](https://github.com/Loknar)
