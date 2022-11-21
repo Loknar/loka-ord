@@ -82,6 +82,6 @@ Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda
 
 ## Viðhaldari (Maintainer)
 
-Hæ, og takk ef þú last svona langt. Ég skapa lokaorð orðagrunninn og gef hann hér út undir LGPLv3 leyfi. Það geri ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En samhliða óska ég þess að hverjar þær breytingar á virkni, gögnum eða gagnastrúktúr orðagrunnsins séu gefnar út undir sama LGPLv3 leyfi, svo að viðbætur eða breytingar eins notanda geti orðið öðrum notendum sem grunninn nota að gagni.
+Hæ, og takk ef þú last svona langt. Ég hef lagt grunn að **lokaorð** orðagrunninum og gef hann hér út undir LGPLv3 leyfi. Það geri ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En samhliða óska ég þess að hverjar þær breytingar á virkni, gögnum eða gagnastrúktúr orðagrunnsins séu gefnar út undir sama LGPLv3 leyfi, svo að viðbætur eða breytingar eins notanda geti komið öðrum notendum sem grunninn nota að gagni.
 
 [@Loknar](https://github.com/Loknar)
