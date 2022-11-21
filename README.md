@@ -17,7 +17,7 @@ Gagnasafnið telur eftirfarandi:
 
 ## Forkröfur (Requirements)
 
-`Python3.10.6` eða nýrra, `pip` og pakkar listaðir í `requirements.txt`, setur upp pakka með
+`Python3.10.6` eða nýrra (þó eldri útgáfur gætu mögulega virkað), `pip` og pakkar listaðir í `requirements.txt`, sækir og setur upp pakka með
 
 ```bash
 pip install -Ur requirements.txt
@@ -47,13 +47,20 @@ Bæta við orði í gegnum skipanalínu (CLI):
 python main.py --add-word
 ```
 
-Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind skipanalínuskipun til einhvers brúks en því miður er skipanalínutólið til að bæta við orðum enn sem komið er mjög takmarkað, og sé vilji til að bæta við mismunandi týpum sagnorða eða samsettum orðum er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita einhverja þeirra skráa í viðeigandi nefnda nýja skrá, breyta innihaldi hennar og keyra síðan
+Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `--add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmarkað, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
+
+```bash
+python main.py --build-db --write-files
+```
+
+eða
+
 
 ```bash
 python main.py --rebuild-db --write-files
 ```
 
-til að endursmíða gagnagrunninn með viðbættu skránum og skrifa síðan innihald grunnsins aftur í textaskrár.
+til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa síðan innihald gagnagrunnsins aftur í textaskrár.
 
 ## Orðframlög (Contributing)
 
