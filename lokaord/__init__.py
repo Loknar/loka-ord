@@ -116,13 +116,13 @@ def get_words_count_markdown_table():
     md_table = (
         '|   | kk | kvk | hk | ób.l | kjarnaorð | samsett orð | samtals |\n'
         '| --- | --- | --- | --- | --- | --- | --- | --- |\n'
-        '| Nafnorð     | {no_kk} | {no_kvk} | {no_hk} |   | {no_k} | {no_s} | **{no_a}** |\n'
-        '| Lýsingarorð |   |   |   | {lo_obl} | {lo_k} | {lo_s} | **{lo_a}** |\n'
-        '| Sagnorð     |   |   |   |   | {so_k} | {so_s} | **{so_a}** |\n'
-        '| Töluorð     |   |   |   |   | {to_k} | {to_s} | **{to_a}** |\n'
-        '| Fornöfn     |   |   |   |   | {fn_k} | {fn_s} | **{fn_a}** |\n'
-        '| Smáorð      |   |   |   |   |   |   | **{smo_a}** |\n'
-        '| **Alls**    |   |   |   |   | **{a_k}** | **{a_s}** | **{a_a}** |'
+        '| **Nafnorð**     | {no_kk} | {no_kvk} | {no_hk} |   | {no_k} | {no_s} | **{no_a}** |\n'
+        '| **Lýsingarorð** |   |   |   | {lo_obl} | {lo_k} | {lo_s} | **{lo_a}** |\n'
+        '| **Sagnorð**     |   |   |   |   | {so_k} | {so_s} | **{so_a}** |\n'
+        '| **Töluorð**     |   |   |   |   | {to_k} | {to_s} | **{to_a}** |\n'
+        '| **Fornöfn**     |   |   |   |   | {fn_k} | {fn_s} | **{fn_a}** |\n'
+        '| **Smáorð**      |   |   |   |   |   |   | **{smo_a}** |\n'
+        '| **Alls**        |   |   |   |   | **{a_k}** | **{a_s}** | **{a_a}** |'
     ).format(
         no_kk=data['nafnorð']['kyn']['kk'],
         no_kvk=data['nafnorð']['kyn']['kvk'],
