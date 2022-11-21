@@ -68,13 +68,13 @@ til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa sí
 
 Mikilvægt er við framlag orða að ekki sé um afritun úr öðrum orðagrunnum að ræða er heyra undir útgáfuskilmála sem þykja ósamrýmanlegir almenningseignarleyfi þessa verkefnis.
 
-Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að gefa, þá er öruggast að orðin komi beint úr höfði þeirra sem reiðir þau fram.
+Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að gefa, þá er öruggast að orðin komi beint úr höfðum þeirra sem reiða þau fram.
 
 Orð sem bætt er í grunninn heyra undir almenningseignarleyfi verkefnisins og verða því almenningseign.
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 
-Í þessum grunni má finna frávik frá hefðbundinni íslensku þegar kemur að orðum sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (amfestingur eða einhver flík) og "gałli" (vankantur eða brestur).
+Í þessum grunni má finna frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (amfestingur eða einhver flík) og "gałli" (vankantur eða brestur).
 
 Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
 
