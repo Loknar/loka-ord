@@ -988,7 +988,7 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
     '''
     dictorinos = (dict, collections.OrderedDict)
     samsetningar = ['stofn', 'eignarfalls', 'bandstafs']
-    ordflokkar = [
+    ordflokkar = set([
         'nafnorð',
         'lýsingarorð',
         'greinir',
@@ -996,12 +996,23 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
         'raðtala',
         'fornafn',
         'sagnorð',
+        'smáorð'
+    ])
+    fornofn_undirflokkar = set([
+        'ábendingar',
+        'afturbeygt',
+        'eignar',
+        'óákveðið',
+        'persónu',
+        'spurnar'
+    ])
+    smaord_undirflokkar = set([
         'forsetning',
         'atviksorð',
         'nafnháttarmerki',
         'samtenging',
         'upphrópun'
-    ]
+    ])
     kyn = ['kk', 'kvk', 'hk']
     assert(type(ordhluti_obj) in dictorinos)
     if last_obj is False or 'mynd' in ordhluti_obj:
@@ -1018,6 +1029,12 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
     if ordhluti_obj['flokkur'] == 'nafnorð':
         assert('kyn' in ordhluti_obj)
         assert(ordhluti_obj['kyn'] in kyn)
+    elif ordhluti_obj['flokkur'] == 'fornafn':
+        assert('undirflokkur' in ordhluti_obj)
+        assert(ordhluti_obj['undirflokkur'] in fornofn_undirflokkar)
+    elif ordhluti_obj['flokkur'] == 'smáorð':
+        assert('undirflokkur' in ordhluti_obj)
+        assert(ordhluti_obj['undirflokkur'] in smaord_undirflokkar)
     assert('hash' in ordhluti_obj)
     assert(type(ordhluti_obj['hash']) is str)
     assert(len(ordhluti_obj['hash']) > 0)
@@ -1075,7 +1092,32 @@ def add_samsett_ord(isl_ord_id, ord_data):
                 'orð': ordhluti_obj['orð'],
                 'undirflokkur': ordhluti_obj['undirflokkur']
             })
-        # TODO: add handling for the other orðflokkar here
+        elif ordhluti_obj['flokkur'] == 'smáorð':
+            if ordhluti_obj['undirflokkur'] == 'forsetning':
+                ordhluti_isl_ord = lookup_forsetning({
+                    'orð': ordhluti_obj['orð'],
+                    'undirflokkur': ordhluti_obj['undirflokkur']
+                })
+            elif ordhluti_obj['undirflokkur'] == 'atviksorð':
+                ordhluti_isl_ord = lookup_atviksord({
+                    'orð': ordhluti_obj['orð'],
+                    'undirflokkur': ordhluti_obj['undirflokkur']
+                })
+            elif ordhluti_obj['undirflokkur'] == 'nafnháttarmerki':
+                ordhluti_isl_ord = lookup_nafnhattarmerki({
+                    'orð': ordhluti_obj['orð'],
+                    'undirflokkur': ordhluti_obj['undirflokkur']
+                })
+            elif ordhluti_obj['undirflokkur'] == 'samtenging':
+                ordhluti_isl_ord = lookup_samtenging({
+                    'orð': ordhluti_obj['orð'],
+                    'undirflokkur': ordhluti_obj['undirflokkur']
+                })
+            elif ordhluti_obj['undirflokkur'] == 'upphrópun':
+                ordhluti_isl_ord = lookup_upphropun({
+                    'orð': ordhluti_obj['orð'],
+                    'undirflokkur': ordhluti_obj['undirflokkur']
+                })
         assert(ordhluti_isl_ord is not None)
         isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
             fk_Ord_id=ordhluti_isl_ord.Ord_id,

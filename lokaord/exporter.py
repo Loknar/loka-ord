@@ -976,6 +976,13 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
 
 
 def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
+    smaord_undirflokkar = set([
+        'forsetning',
+        'atviksorð',
+        'nafnháttarmerki',
+        'samtenging',
+        'upphrópun'
+    ])
     data = collections.OrderedDict()
     data['orð'] = isl_ord.Ord
     data['flokkur'] = ordflokkur_to_str(isl_ord.Ordflokkur)
@@ -1053,7 +1060,11 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         assert(ordhluti_ord is not None)
         ordhluti_data['orð'] = ordhluti_ord.Ord
         ordhluti_flokkur = ordflokkur_to_str(ordhluti_ord.Ordflokkur)
-        ordhluti_data['flokkur'] = ordhluti_flokkur
+        if ordhluti_flokkur in smaord_undirflokkar:
+            ordhluti_data['flokkur'] = 'smáorð'
+            ordhluti_data['undirflokkur'] = ordhluti_flokkur
+        else:
+            ordhluti_data['flokkur'] = ordhluti_flokkur
         ordhluti_nafnord = None
         if ordhluti_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
             # for nafnorð we want to display kyn too
