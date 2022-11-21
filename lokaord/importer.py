@@ -351,14 +351,14 @@ def add_lysingarord(lysingarord_data):
     isl_ord = isl.Ord(Ord=lysingarord_data['orð'], Ordflokkur=isl.Ordflokkar.Lysingarord)
     db.Session.add(isl_ord)
     db.Session.commit()
+    isl_lysingarord = isl.Lysingarord(fk_Ord_id=isl_ord.Ord_id)
+    db.Session.add(isl_lysingarord)
+    db.Session.commit()
     if 'samsett' in lysingarord_data:
         add_samsett_ord(isl_ord.Ord_id, lysingarord_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
-    isl_lysingarord = isl.Lysingarord(fk_Ord_id=isl_ord.Ord_id)
-    db.Session.add(isl_lysingarord)
-    db.Session.commit()
     if 'frumstig' in lysingarord_data:
         if 'sb' in lysingarord_data['frumstig']:
             if 'et' in lysingarord_data['frumstig']['sb']:
