@@ -161,7 +161,7 @@ def build_db_from_datafiles():
             'f_add': add_upphropun,
             'has_samsett': False
         }
-    ]  # TODO: add rest of orðflokkar
+    ]
     logman.info('We import core words first, then combined (samssett).')
     for task in import_tasks:
         do_import_task(task, do_samsett=False)
@@ -865,7 +865,11 @@ def add_sagnord(sagnord_data):
                             )
                         )
                         db.Session.commit()
-    # TODO: add samsett/undantekning handling
+    if 'óskháttur' in sagnord_data:
+        assert(type(sagnord_data['óskháttur']) is str)
+        isl_sagnord.Oskhattur = sagnord_data['óskháttur']
+        db.Session.commit()
+    # TODO: add undantekning handling
     return isl_ord
 
 

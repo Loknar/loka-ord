@@ -972,6 +972,8 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         data['lýsingarháttur']['þátíðar']['vb']['ft']['hk'] = get_fallbeyging_list_from_db(
             isl_sagnord.fk_LysingarhatturThatidar_vb_ft_hk_id
         )
+    if isl_sagnord.Oskhattur is not None:
+        data['óskháttur'] = isl_sagnord.Oskhattur
     return data
 
 

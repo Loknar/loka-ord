@@ -348,6 +348,9 @@ class Sagnord(Base):
     fk_LysingarhatturThatidar_vb_ft_kk_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_LysingarhatturThatidar_vb_ft_kvk_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_LysingarhatturThatidar_vb_ft_hk_id = utils.foreign_integer_primary_key('Fallbeyging')
+    # Óskháttur
+    # https://is.wikipedia.org/wiki/%C3%93skh%C3%A1ttur
+    Oskhattur = utils.word_column()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 

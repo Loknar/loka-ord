@@ -3,8 +3,8 @@ import datetime
 
 from sqlalchemy import Column, Unicode, Integer, ForeignKey, Boolean, Enum, types
 
-Isoformat = '%Y-%m-%dT%H:%M:%S.%f'
-IsoformatLength = 26
+TimestampIsoformat = '%Y-%m-%dT%H:%M:%S.%f'
+TimestampIsoformatLength = 26
 
 MaximumWordLength = 128
 
@@ -21,23 +21,23 @@ class StringyDateTime(types.TypeDecorator):
     def python_type(self):
         return datetime.datetime
 
-    impl = types.Unicode(IsoformatLength)
+    impl = types.Unicode(TimestampIsoformatLength)
 
     def process_bind_param(self, input_datetime, _):  # _ dialect
         output_datetime_str = None
         if input_datetime is not None:
-            output_datetime_str = input_datetime.strftime(Isoformat)
+            output_datetime_str = input_datetime.strftime(TimestampIsoformat)
         return output_datetime_str
 
     def process_literal_param(self, input_datetime_str, _):  # _ dialect
         output_datetime = None
         if input_datetime_str is not None:
-            output_datetime = datetime.datetime.strptime(input_datetime_str, Isoformat)
+            output_datetime = datetime.datetime.strptime(input_datetime_str, TimestampIsoformat)
         return output_datetime
 
     def process_result_value(self, input_datetime_str, _):  # _ dialect
         try:
-            return datetime.datetime.strptime(input_datetime_str, Isoformat)
+            return datetime.datetime.strptime(input_datetime_str, TimestampIsoformat)
         except (ValueError, TypeError):
             return None
 
@@ -53,22 +53,22 @@ def timestamp(column_name: str, index: bool = False) -> Column:
 
 def timestamp_created():
     def ts_utcnow():
-        return datetime.datetime.utcnow().strftime(Isoformat)
-    return Column(Unicode(IsoformatLength), default=ts_utcnow)
+        return datetime.datetime.utcnow().strftime(TimestampIsoformat)
+    return Column(Unicode(TimestampIsoformatLength), default=ts_utcnow)
 
 
 def timestamp_edited():
     def ts_utcnow():
-        return datetime.datetime.utcnow().strftime(Isoformat)
-    return Column(Unicode(IsoformatLength), default=ts_utcnow, onupdate=ts_utcnow)
+        return datetime.datetime.utcnow().strftime(TimestampIsoformat)
+    return Column(Unicode(TimestampIsoformatLength), default=ts_utcnow, onupdate=ts_utcnow)
 
 
 def timestamp_future(minutes=(60 * 24)):
     def ts_future():
         return (
             datetime.datetime.utcnow() + datetime.timedelta(minutes=minutes)
-        ).strftime(Isoformat)
-    return Column(Unicode(IsoformatLength), default=ts_future)
+        ).strftime(TimestampIsoformat)
+    return Column(Unicode(TimestampIsoformatLength), default=ts_future)
 
 
 def word_column(nullable=True):
