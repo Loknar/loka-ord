@@ -865,9 +865,13 @@ def add_sagnord(sagnord_data):
                             )
                         )
                         db.Session.commit()
-    if 'óskháttur' in sagnord_data:
-        assert(type(sagnord_data['óskháttur']) is str)
-        isl_sagnord.Oskhattur = sagnord_data['óskháttur']
+    if 'óskháttur_1p_ft' in sagnord_data:
+        assert(type(sagnord_data['óskháttur_1p_ft']) is str)
+        isl_sagnord.Oskhattur_1p_ft = sagnord_data['óskháttur_1p_ft']
+        db.Session.commit()
+    if 'óskháttur_3p' in sagnord_data:
+        assert(type(sagnord_data['óskháttur_3p']) is str)
+        isl_sagnord.Oskhattur_3p = sagnord_data['óskháttur_3p']
         db.Session.commit()
     # TODO: add undantekning handling
     return isl_ord
