@@ -6,6 +6,7 @@ from lokaord import cli
 from lokaord import exporter
 from lokaord import importer
 from lokaord import logman
+from lokaord import seer
 from lokaord.database import db
 from lokaord.database.models import isl
 from lokaord.exporter import get_samsett_ord_from_db_to_ordered_dict
@@ -216,7 +217,7 @@ def main(arguments):
         print(json.dumps(
             get_words_count(), separators=(',', ':'), ensure_ascii=False, sort_keys=True
         ))
-    if 'md-stats' in arguments and arguments['md-stats'] is True:
+    if 'md_stats' in arguments and arguments['md_stats'] is True:
         print(get_words_count_markdown_table())
     if 'add_word_cli' in arguments and arguments['add_word_cli'] is True:
         cli.add_word_cli()
@@ -227,3 +228,13 @@ def main(arguments):
         importer.build_db_from_datafiles()
     if 'write_files' in arguments and arguments['write_files'] is True:
         exporter.write_datafiles_from_db()
+    if 'build_sight' in arguments and arguments['build_sight'] is True:
+        seer.build_sight()
+    if 'search' in arguments and arguments['search'] is not None:
+        seer.search_word(arguments['search'])
+    if 'scan_sentence' in arguments and arguments['scan_sentence'] is not None:
+        seer.scan_sentence(arguments['scan_sentence'])
+    if 'run_fiddle' in arguments and arguments['run_fiddle'] is True:
+        print('Running fiddle!')
+        sentence = 'hæ, ég heiti sveinn og er stórhuga forritari'
+        seer.scan_sentence(sentence)

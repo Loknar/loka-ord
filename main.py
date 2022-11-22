@@ -48,14 +48,23 @@ if __name__ == '__main__':
     lokaord.ArgParser.add_argument('-aw', '--add-word', action='store_true', help=(
         'Add word CLI.'
     ))
-    lokaord.ArgParser.add_argument('-s', '--search', metavar=('WORD', ), help=(
-        'Search for word in database.'
-    ))
     lokaord.ArgParser.add_argument('-st', '--stats', action='store_true', help=(
         'Print database word count data in JSON string.'
     ))
     lokaord.ArgParser.add_argument('-mdst', '--md-stats', action='store_true', help=(
         'Print database word count in Markdown table.'
+    ))
+    lokaord.ArgParser.add_argument('-bs', '--build-sight', action='store_true', help=(
+        'Run fiddle.'
+    ))
+    lokaord.ArgParser.add_argument('-s', '--search', metavar=('WORD', ), help=(
+        'Search for word in sight file.'
+    ))
+    lokaord.ArgParser.add_argument('-ss', '--scan-sentence', metavar=('SENTENCE', ), help=(
+        'Search for words in sentence in sight file.'
+    ))
+    lokaord.ArgParser.add_argument('-fdl', '--run-fiddle', action='store_true', help=(
+        'Run fiddle.'
     ))
     pargs = lokaord.ArgParser.parse_args()
     if len(sys.argv) == 1:
@@ -73,8 +82,11 @@ if __name__ == '__main__':
         'write_files': pargs.write_files,
         'add_word': None,
         'add_word_cli': pargs.add_word,
-        'search': pargs.search,
         'stats': pargs.stats,
-        'md-stats': pargs.md_stats,
+        'md_stats': pargs.md_stats,
+        'build_sight': pargs.build_sight,
+        'search': pargs.search,
+        'scan_sentence': pargs.scan_sentence,
+        'run_fiddle': pargs.run_fiddle,
     }
     lokaord.main(arguments)
