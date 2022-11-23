@@ -236,7 +236,3 @@ def main(arguments):
         seer.scan_sentence(arguments['scan_sentence'])
     if 'run_fiddle' in arguments and arguments['run_fiddle'] is True:
         print('Running fiddle!')
-        # sentence = 'hæ, ég heiti sveinn og er stórhuga forritari'
-        # seer.scan_sentence(sentence)
-        filename = 'heita-_lofa_.json'
-        importer.detect_merking_in_filename(filename)
