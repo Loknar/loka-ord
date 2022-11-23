@@ -1,0 +1,61 @@
+{
+	"orð": "heita",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "heita",
+		"sagnbót": "heitið",
+		"boðháttur": {
+			"stýfður": "heit",
+			"et": "heittu",
+			"ft": "heitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heiti", "heitir", "heitir"],
+					"ft": ["heitum", "heitið", "heita"]
+				},
+				"þátíð": {
+					"et": ["hét", "hést", "hét"],
+					"ft": ["hétum", "hétuð", "hétu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heiti", "heitir", "heiti"],
+					"ft": ["heitum", "heitið", "heiti"]
+				},
+				"þátíð": {
+					"et": ["héti", "hétir", "héti"],
+					"ft": ["hétum", "hétuð", "hétu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heitirðu",
+					"ft": "heitiði"
+				},
+				"þátíð": {
+					"et": "héstu",
+					"ft": "hétuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heitirðu",
+					"ft": "heitiði"
+				},
+				"þátíð": {
+					"et": "hétirðu",
+					"ft": "hétuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heitandi"
+	},
+	"hash": "47fd89fa5c2011f8b97243ac8aede3539a4c3ef85d523c084d65041d19c2de06"
+}

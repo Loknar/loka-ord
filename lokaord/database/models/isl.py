@@ -77,6 +77,7 @@ class Ord(Base):
     Undantekning = utils.boolean_default_false()
     OsjalfstaedurOrdhluti = utils.boolean_default_false()
     Obeygjanlegt = utils.boolean_default_false()
+    Merking = utils.word_column()  # skeytt í skráarnafn ef ekki null, með _ framan og aftan
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 

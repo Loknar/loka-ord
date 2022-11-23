@@ -162,13 +162,17 @@ def do_export_task(task, hash_word_map, word_hash_map, do_samsett=False):
         word_hash_map[str(isl_ord.Ord_id)] = ord_data_hash
         ord_data['hash'] = ord_data_hash
         ord_data_json_str = ord_data_to_fancy_json_str(ord_data)
-        isl_ord_filename = '%s.json' % (ord_data['orð'], )
+        isl_ord_filename = '%s' % (ord_data['orð'], )
         if task['ordflokkur'] is isl.Ordflokkar.Nafnord:
-            isl_ord_filename = '%s-%s%s.json' % (
+            isl_ord_filename = '%s-%s%s' % (
                 ord_data['orð'],
                 ord_data['kyn'],
                 '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
             )
+        # add merking to filename if set
+        if isl_ord.Merking is not None:
+            isl_ord_filename = '%s-_%s_' % (isl_ord_filename, isl_ord.Merking)
+        isl_ord_filename = '%s.json' % (isl_ord_filename, )
         isl_ord_filepath = os.path.join(task['root'], task['dir'], isl_ord_filename)
         if task['ordflokkur'] is isl.Ordflokkar.Fornafn:
             subfolder_map = {

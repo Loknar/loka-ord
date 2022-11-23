@@ -207,7 +207,7 @@ def build_sight(filename='sight', use_pointless=None):
     for task in knowledge_tasks:
         logman.info('Accumulating "%s" knowledge ..' % (task['name'], ))
         for ord_file in sorted(pathlib.Path(os.path.join(task['root'], task['dir'])).iterdir()):
-            logman.info('File %s/%s ..' % (task['dir'], ord_file.name))
+            logman.info('File %s ..' % (os.path.join(task['dir'], ord_file.name), ))
             ord_data = None
             with ord_file.open(mode='r', encoding='utf-8') as fi:
                 ord_data = json.loads(fi.read())
@@ -223,7 +223,10 @@ def build_sight(filename='sight', use_pointless=None):
                 if ord_data['orð'] not in sight['orð']:
                     sight['orð'][ord_data['orð']] = []
                 sight['orð'][ord_data['orð']].append({'mynd': ord_mynd, 'hash': ord_data['hash']})
-            sight['hash'][ord_data['hash']] = copy.deepcopy(ord_data)
+            sight['hash'][ord_data['hash']] = {
+                'f': os.path.join(task['dir'], ord_file.name),
+                'd': copy.deepcopy(ord_data)
+            }
             if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
                 add_myndir(ord_data, sight, ord_mynd, ord_data['hash'])
     logman.info('Writing sight to "%s" ..' % (sight_filepath_rel, ))
