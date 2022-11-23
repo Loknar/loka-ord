@@ -8,11 +8,11 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Nafnorð**     |   | 71 | 68 | 63 | 202 | 20 | 12 | 10 | 42 | **244** |
 | **Lýsingarorð** | 6 |   |   |   | 9 |   |   |   | 7 | **16** |
-| **Sagnorð**     |   |   |   |   | 7 |   |   |   | 1 | **8** |
+| **Sagnorð**     |   |   |   |   | 11 |   |   |   | 1 | **12** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 2 | **40** |
 | **Smáorð**      |   |   |   |   |   |   |   |   |   | **96** |
-| **Alls**        |   |   |   |   | **422** |   |   |   | **62** | **484** |
+| **Alls**        |   |   |   |   | **426** |   |   |   | **62** | **488** |
 
 
 ## Forkröfur (Requirements)
@@ -62,6 +62,14 @@ python main.py --rebuild-db --write-files
 
 til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa síðan innihald gagnagrunnsins aftur í textaskrár.
 
+## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
+
+Í grunninum eru frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (amfestingur eða einhver flík) og "gałli" (vankantur eða brestur).
+
+Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
+
+Ég tel að geta til að greina á miłli "tvöfalt-L" orða sem borin eru fram með klikk-hljóði og annarra sé mjög nytsamleg og jafnvel nauðsynleg þegar kemur að orðhugbúnaðartæknivæðingu. Slík geta (útfrá orðinu stöku, þ.e. þurfa ekki að leiða það út frá textasamhengi) mundi auðvelda til muna smíði talgervils og málgreinis.
+
 ## Orðframlög (Contributing)
 
 **Til ykkar sem hafið hug á að leggja til orð í grunninn!**
@@ -72,16 +80,8 @@ Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim
 
 Orð sem bætt er í grunninn heyra undir almenningseignarleyfi verkefnisins og verða því almenningseign.
 
-## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
-
-Í þessum grunni má finna frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (amfestingur eða einhver flík) og "gałli" (vankantur eða brestur).
-
-Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
-
-Ég tel að geta til að greina á miłli "tvöfalt-L" orða sem borin eru fram með klikk-hljóði og annarra sé mjög nytsamleg og jafnvel nauðsynleg þegar kemur að orðhugbúnaðartæknivæðingu. Slík geta (útfrá orðinu stöku, þ.e. þurfa ekki að leiða það út frá textasamhengi) mundi auðvelda til muna smíði talgervils og málgreinis.
-
 ## Viðhaldari (Maintainer)
 
-Hæ, og takk ef þú last svona langt. Ég hef lagt grunn að **lokaorð** orðagrunninum og gef hann hér út undir LGPLv3 leyfi. Það geri ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En samhliða óska ég þess að hverjar þær breytingar á virkni, gögnum eða gagnastrúktúr orðagrunnsins séu gefnar út undir sama LGPLv3 leyfi, svo að viðbætur eða breytingar eins notanda geti komið öðrum notendum sem grunninn nota að gagni.
+Hæ, og takk ef þú last svona langt. Ég hef lagt grunn að **lokaorð** orðagrunninum og gef hann hér út undir LGPLv3 leyfi. Leyfið vel ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En samhliða óska ég þess að hverjar þær breytingar á virkni, gögnum eða gagnastrúktúr orðagrunnsins séu gefnar út undir sama LGPLv3 leyfi, svo að viðbætur eða breytingar eins notanda geti gagnast öðrum notendum sem grunninn nota.
 
 [@Loknar](https://github.com/Loknar)
