@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 71 | 68 | 63 | 202 | 20 | 12 | 10 | 42 | **244** |
+| **Nafnorð**     |   | 72 | 68 | 65 | 205 | 20 | 12 | 10 | 42 | **247** |
 | **Lýsingarorð** | 6 |   |   |   | 9 |   |   |   | 7 | **16** |
 | **Sagnorð**     |   |   |   |   | 11 |   |   |   | 1 | **12** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 2 | **40** |
 | **Smáorð**      |   |   |   |   |   |   |   |   |   | **96** |
-| **Alls**        |   |   |   |   | **426** |   |   |   | **62** | **488** |
+| **Alls**        |   |   |   |   | **429** |   |   |   | **62** | **491** |
 
 
 ## Forkröfur (Requirements)
@@ -47,7 +47,7 @@ Bæta við orði í gegnum skipanalínu (CLI):
 python main.py --add-word
 ```
 
-Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `--add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmarkað, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
+Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `--add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmörkuð, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
 
 ```bash
 python main.py --build-db --write-files
