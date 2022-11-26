@@ -15,14 +15,17 @@
 		},
 		{
 			"orð": "dóttir",
-			"flokkur": "sérnafn",
-			"undirflokkur": "kenninafn",
+			"flokkur": "nafnorð",
 			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "tba"
+			"takmarka-beygingar": ["et-ág", "ft-ág"],
+			"hash": "0d21acdbb181eaa08650040550e95f0a47a8431ba6fce210be102d13547d47de"
 		}
 	],
-	"et": ["Þórarinsdóttir", "Þórarinsdóttur", "Þórarinsdóttur", "Þórarinsdóttur"],
-	"ft": ["Þórarinsdætur", "Þórarinsdætur", "Þórarinsdætrum", "Þórarinsdætra"],
+	"et": {
+		"ág": ["Þórarinsdóttir", "Þórarinsdóttur", "Þórarinsdóttur", "Þórarinsdóttur"]
+	},
+	"ft": {
+		"ág": ["Þórarinsdætur", "Þórarinsdætur", "Þórarinsdætrum", "Þórarinsdætra"]
+	},
 	"hash": "tba"
 }

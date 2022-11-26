@@ -14,13 +14,14 @@
 		},
 		{
 			"orð": "mundur",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
+			"flokkur": "nafnorð",
 			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "tba"
+			"takmarka-beygingar": ["et-ág"],
+			"hash": "8eb78d61bbdff2c51785dfc31333b511a5daa2f3c26eb506788136808fd89c98"
 		}
 	],
-	"et": ["Guðmundur", "Guðmund", "Guðmundi", "Guðmundar"],
+	"et": {
+		"ág": ["Guðmundur", "Guðmund", "Guðmundi", "Guðmundar"]
+	},
 	"hash": "tba"
 }

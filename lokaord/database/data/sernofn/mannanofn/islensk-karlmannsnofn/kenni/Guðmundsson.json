@@ -15,14 +15,17 @@
 		},
 		{
 			"orð": "son",
-			"flokkur": "sérnafn",
-			"undirflokkur": "kenninafn",
+			"flokkur": "nafnorð",
 			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "tba"
+			"takmarka-beygingar": ["et-ág", "ft-ág"],
+			"hash": "efbee44fca1519e4eaf74d6e8c4688aa7b245f128eaa1940fa72f3f8270fe383"
 		}
 	],
-	"et": ["Guðmundsson", "Guðmundsson", "Guðmundssyni", "Guðmundssonar"],
-	"ft": ["Guðmundssynir", "Guðmundssyni", "Guðmundssonum", "Guðmundssona"],
+	"et": {
+		"ág": ["Guðmundsson", "Guðmundsson", "Guðmundssyni", "Guðmundssonar"]
+	},
+	"ft": {
+		"ág": ["Guðmundssynir", "Guðmundssyni", "Guðmundssonum", "Guðmundssona"]
+	},
 	"hash": "tba"
 }

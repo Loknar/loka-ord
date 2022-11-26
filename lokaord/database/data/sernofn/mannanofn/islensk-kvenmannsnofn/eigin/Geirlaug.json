@@ -15,13 +15,15 @@
 		},
 		{
 			"orð": "laug",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
+			"flokkur": "nafnorð",
 			"kyn": "kvk",
 			"ósjálfstætt": true,
+			"takmarka-beygingar": ["et-ág"],
 			"hash": "tba"
 		}
 	],
-	"et": ["Geirlaug", "Geirlaugu", "Geirlaugu", "Geirlaugar"],
+	"et": {
+		"ág": ["Geirlaug", "Geirlaugu", "Geirlaugu", "Geirlaugar"]
+	},
 	"hash": "tba"
 }

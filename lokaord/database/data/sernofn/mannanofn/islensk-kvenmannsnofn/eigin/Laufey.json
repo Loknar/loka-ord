@@ -14,13 +14,13 @@
 		},
 		{
 			"orð": "ey",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "tba"
+			"flokkur": "nafnorð",
+			"takmarka-beygingar": ["et-ág"],
+			"hash": "f2f8f8dde92eac60e1fadcf5e2f67e643d35920007709b61eaea25d5331b2585"
 		}
 	],
-	"et": ["Laufey", "Laufeyju", "Laufeyju", "Laufeyjar"],
+	"et": {
+		"ág": ["Laufey", "Laufey", "Laufeyju", "Laufeyjar"]
+	},
 	"hash": "tba"
 }

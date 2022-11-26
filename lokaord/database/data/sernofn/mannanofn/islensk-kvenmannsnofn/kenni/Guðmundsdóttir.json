@@ -15,14 +15,17 @@
 		},
 		{
 			"orð": "dóttir",
-			"flokkur": "sérnafn",
-			"undirflokkur": "kenninafn",
+			"flokkur": "nafnorð",
 			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "tba"
+			"takmarka-beygingar": ["et-ág", "ft-ág"],
+			"hash": "0d21acdbb181eaa08650040550e95f0a47a8431ba6fce210be102d13547d47de"
 		}
 	],
-	"et": ["Guðmundsdóttir", "Guðmundsdóttur", "Guðmundsdóttur", "Guðmundsdóttur"],
-	"ft": ["Guðmundsdætur", "Guðmundsdætur", "Guðmundsdætrum", "Guðmundsdætra"],
+	"et": {
+		"ág": ["Guðmundsdóttir", "Guðmundsdóttur", "Guðmundsdóttur", "Guðmundsdóttur"]
+	},
+	"ft": {
+		"ág": ["Guðmundsdætur", "Guðmundsdætur", "Guðmundsdætrum", "Guðmundsdætra"]
+	},
 	"hash": "tba"
 }
