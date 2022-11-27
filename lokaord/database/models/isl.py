@@ -21,6 +21,8 @@ class Ordflokkar(enum.Enum):
     Nafnhattarmerki = 9
     Samtenging = 10
     Upphropun = 11
+    # sérnöfn (mannanöfn, örnefni)
+    Sernafn = 12
 
 
 class Ordasamsetningar(enum.Enum):
@@ -63,6 +65,14 @@ class FleiryrtTypa(enum.Enum):
     Laus = 1
 
 
+class Sernafnaflokkar(enum.Enum):
+    Eiginnafn = 0
+    Gaelunafn = 1
+    Kenninafn = 2
+    Millinafn = 3
+    Ornefni = 4
+
+
 # ------------------ #
 # Gagnagrunns-töflur #
 # ------------------ #
@@ -98,6 +108,13 @@ class SamsettOrdhlutar(Base):
     Ordmynd = utils.word_column()
     Gerd = utils.selection(Ordasamsetningar, None)
     fk_NaestiOrdhluti_id = utils.foreign_integer_primary_key('SamsettOrdhlutar')
+    Lagstafa = utils.boolean_default_false()  # stilling til að lágstafa aftasta orðhluta
+    Hastafa = utils.boolean_default_false()  # stilling til að hástafa upphafsstaf
+    # exclude specific beygingar ("beygingar": ["et-ág", "et-mg", "ft-ág", "ft-mg"])
+    Exclude_et_ag = utils.boolean_default_false()
+    Exclude_et_mg = utils.boolean_default_false()
+    Exclude_ft_ag = utils.boolean_default_false()
+    Exclude_ft_mg = utils.boolean_default_false()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -432,19 +449,15 @@ class SamtengingFleiryrt(Base):
     Created = utils.timestamp_created()
 
 
-class Karlmannsnafn(Base):
-    __tablename__ = 'Karlmannsnafn'
-    Karlmannsnafn_id = utils.integer_primary_key()
-    Nafn = utils.word_column()
-    fk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    Edited = utils.timestamp_edited()
-    Created = utils.timestamp_created()
-
-
-class Kvenmannsnafn(Base):
-    __tablename__ = 'Kvenmannsnafn'
-    Kvenmannsnafn_id = utils.integer_primary_key()
-    Nafn = utils.word_column()
-    fk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+class Sernafn(Base):
+    __tablename__ = 'Sernafn'
+    Sernafn_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Undirflokkur = utils.selection(Sernafnaflokkar, Sernafnaflokkar.Eiginnafn)
+    Kyn = utils.selection(Kyn, None)
+    fk_et_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_et_mgr_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_ft_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    fk_ft_mgr_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()

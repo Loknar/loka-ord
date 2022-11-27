@@ -1096,8 +1096,6 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             assert(ordhluti_nafnord is not None)
             ordhluti_kyn = kyn_to_str(ordhluti_nafnord.Kyn)
             ordhluti_data['kyn'] = ordhluti_kyn
-            if ordhluti_ord.OsjalfstaedurOrdhluti is True:
-                ordhluti_data['ósjálfstætt'] = True
         elif ordhluti_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
             # for fornafn we want to display undirflokkur too
             ordhluti_fornafn_query = db.Session.query(isl.Fornafn).filter_by(
@@ -1108,9 +1106,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             assert(ordhluti_fornafn is not None)
             ordhluti_fornafn_undirflokkur = undirflokkur_to_str(ordhluti_fornafn.Undirflokkur)
             ordhluti_data['undirflokkur'] = ordhluti_fornafn_undirflokkur
-        ordhluti_data['hash'] = None
-        if ord_id_hash_map is not None and str(ordhluti_ord.Ord_id) in ord_id_hash_map:
-            ordhluti_data['hash'] = ord_id_hash_map[str(ordhluti_ord.Ord_id)]
+        if isl_ordhluti.Lagstafa is True:
+            ordhluti_data['lágstafa'] = True
         if isl_ordhluti.fk_NaestiOrdhluti_id is not None:
             isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
                 SamsettOrdhlutar_id=isl_ordhluti.fk_NaestiOrdhluti_id
@@ -1125,6 +1122,11 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
                 assert(ordhluti_nafnord is not None)
                 samsett_ord_last_ordhluti_nafnord = ordhluti_nafnord
             isl_ordhluti = None
+        if ordhluti_ord.OsjalfstaedurOrdhluti is True:
+            ordhluti_data['ósjálfstætt'] = True
+        ordhluti_data['hash'] = None
+        if ord_id_hash_map is not None and str(ordhluti_ord.Ord_id) in ord_id_hash_map:
+            ordhluti_data['hash'] = ord_id_hash_map[str(ordhluti_ord.Ord_id)]
         data['samsett'].append(ordhluti_data)
     if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
         assert(samsett_ord_last_ordhluti_nafnord is not None)
@@ -1162,7 +1164,9 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         # TODO: add more orðflokkar here :/
         assert(samsett_ord_last_ordhluti_ord_data is not None)
         samsett_ord_data = add_framhluti_to_ord_data(
-            samsett_ord_framhluti, samsett_ord_last_ordhluti_ord_data
+            samsett_ord_framhluti,
+            samsett_ord_last_ordhluti_ord_data,
+            samsett_ord_last_ordhluti_ord.Lagstafa
         )
         for key in samsett_ord_data:
             data[key] = samsett_ord_data[key]
@@ -1589,7 +1593,7 @@ def kyn_to_str(kyn):
     raise Exception('Unknown kyn.')
 
 
-def add_framhluti_to_ord_data(framhluti, ord_data):
+def add_framhluti_to_ord_data(framhluti, ord_data, lagstafa=False):
     '''
     helper function for constructing beygingarmyndir data for samsett orð
     '''
@@ -1608,12 +1612,14 @@ def add_framhluti_to_ord_data(framhluti, ord_data):
             elif key in dont_change_keys:
                 new_ord_data[key] = ord_data[key]
             else:
-                new_ord_data[key] = add_framhluti_to_ord_data(framhluti, ord_data[key])
+                new_ord_data[key] = add_framhluti_to_ord_data(framhluti, ord_data[key], lagstafa)
     if type(ord_data) is list:
         new_ord_data = []
         for element in ord_data:
-            new_ord_data.append(add_framhluti_to_ord_data(framhluti, element))
+            new_ord_data.append(add_framhluti_to_ord_data(framhluti, element, lagstafa))
     if type(ord_data) is str:
+        if lagstafa is True:
+            ord_data = ord_data.lower()
         new_ord_data = '%s%s' % (framhluti, ord_data)
     if type(ord_data) is bool:
         new_ord_data = ord_data
