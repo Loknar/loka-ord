@@ -119,6 +119,14 @@ def write_datafiles_from_db():
             'f_ord_to_dict': get_upphropun_from_db_to_ordered_dict,
             'has_samsett': False
         },
+        {
+            'name': 'sérnafn',
+            'ordflokkur': isl.Ordflokkar.Sernafn,
+            'root': datafiles_dir_abs,
+            'dir': 'sernofn',
+            'f_ord_to_dict': get_sernafn_from_db_to_ordered_dict,
+            'has_samsett': True
+        }
     ]  # TODO: add rest of orðflokkar
     logman.info('We export core words first, then combined (samssett).')
     for task in export_tasks:
@@ -169,6 +177,18 @@ def do_export_task(task, hash_word_map, word_hash_map, do_samsett=False):
                 ord_data['kyn'],
                 '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
             )
+        elif task['ordflokkur'] is isl.Ordflokkar.Sernafn:
+            if ord_data['undirflokkur'] == 'örnefni':
+                isl_ord_filename = '%s-%s%s' % (
+                    ord_data['orð'],
+                    ord_data['kyn'],
+                    '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
+                )
+            else:
+                isl_ord_filename = '%s%s' % (
+                    ord_data['orð'],
+                    '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
+                )
         # add merking to filename if set
         if isl_ord.Merking is not None:
             isl_ord_filename = '%s-_%s_' % (isl_ord_filename, isl_ord.Merking)
@@ -190,6 +210,44 @@ def do_export_task(task, hash_word_map, word_hash_map, do_samsett=False):
                 subfolder_map[ord_data['undirflokkur']],
                 isl_ord_filename
             )
+        if task['ordflokkur'] is isl.Ordflokkar.Sernafn:
+            mannanofn_kynbundin_undirflokkar_dir_map = {
+                'eiginnafn': 'eigin',
+                'gælunafn': 'gaelu',
+                'kenninafn': 'kenni'
+            }
+            if ord_data['undirflokkur'] in mannanofn_kynbundin_undirflokkar_dir_map:
+                mannanafn_folder = None
+                if ord_data['kyn'] == 'kk':
+                    mannanafn_folder = 'islensk-karlmannsnofn'
+                elif ord_data['kyn'] == 'kvk':
+                    mannanafn_folder = 'islensk-kvenmannsnofn'
+                else:
+                    raise Exception('Implement support for hk eigin- gælu- og kenninöfn?')
+                assert(mannanafn_folder is not None)
+                isl_ord_filepath = os.path.join(
+                    task['root'],
+                    task['dir'],
+                    'mannanofn',
+                    mannanafn_folder,
+                    mannanofn_kynbundin_undirflokkar_dir_map[ord_data['undirflokkur']],
+                    isl_ord_filename
+                )
+            elif ord_data['undirflokkur'] == 'millinafn':
+                isl_ord_filepath = os.path.join(
+                    task['root'],
+                    task['dir'],
+                    'mannanofn',
+                    'islensk-millinofn',
+                    isl_ord_filename
+                )
+            elif ord_data['undirflokkur'] == 'örnefni':
+                isl_ord_filepath = os.path.join(
+                    task['root'],
+                    task['dir'],
+                    'ornefni',
+                    isl_ord_filename
+                )
         with open(isl_ord_filepath, mode='w', encoding='utf-8') as json_file:
             json_file.write(ord_data_json_str)
             logman.info('Wrote %s file "%s"' % (
@@ -1024,17 +1082,23 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         if isl_radtala.Gildi is not None:
             data['gildi'] = isl_radtala.Gildi
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
-        isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(
-            fk_Ord_id=isl_ord.Ord_id
-        )
+        isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
         assert(len(isl_fornafn_query.all()) < 2)
         isl_fornafn = isl_fornafn_query.first()
         assert(isl_fornafn is not None)
-        data['undirflokkur'] = undirflokkur_to_str(isl_fornafn.Undirflokkur)
+        data['undirflokkur'] = fornafn_undirflokkur_to_str(isl_fornafn.Undirflokkur)
         if isl_fornafn.Persona is not None:
             data['persóna'] = persona_to_str(isl_fornafn.Persona)
         if isl_fornafn.Kyn is not None:
             data['kyn'] = kyn_to_str(isl_fornafn.Kyn)
+    elif isl_ord.Ordflokkur is isl.Ordflokkar.Sernafn:
+        isl_sernafn_query = db.Session.query(isl.Sernafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
+        assert(len(isl_sernafn_query.all()) < 2)
+        isl_sernafn = isl_sernafn_query.first()
+        assert(isl_sernafn is not None)
+        data['undirflokkur'] = sernafn_undirflokkur_to_str(isl_sernafn.Undirflokkur)
+        if isl_sernafn.Kyn is not None:
+            data['kyn'] = kyn_to_str(isl_sernafn.Kyn)
     data['samsett'] = []
     isl_samsett_ord_list = db.Session.query(isl.SamsettOrd).filter_by(
         fk_Ord_id=isl_ord.Ord_id
@@ -1052,7 +1116,6 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     samsett_ord_last_ordhluti_ord = None
     samsett_ord_last_ordhluti_nafnord = None
     while isl_ordhluti is not None:
-        samsett_ord_last_ordhluti_nafnord = None
         # below assertion is to detect and prevent circular samsett orð definition
         assert(isl_ordhluti.SamsettOrdhlutar_id not in ordhluti_ids)
         ordhluti_ids.add(isl_ordhluti.SamsettOrdhlutar_id)
@@ -1104,10 +1167,47 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             assert(len(ordhluti_fornafn_query.all()) < 2)
             ordhluti_fornafn = ordhluti_fornafn_query.first()
             assert(ordhluti_fornafn is not None)
-            ordhluti_fornafn_undirflokkur = undirflokkur_to_str(ordhluti_fornafn.Undirflokkur)
+            ordhluti_fornafn_undirflokkur = fornafn_undirflokkur_to_str(
+                ordhluti_fornafn.Undirflokkur
+            )
             ordhluti_data['undirflokkur'] = ordhluti_fornafn_undirflokkur
+        elif ordhluti_ord.Ordflokkur is isl.Ordflokkar.Sernafn:
+            # for sérnafn we want to display undirflokkur and kyn if it exists
+            ordhluti_sernafn_query = db.Session.query(isl.Sernafn).filter_by(
+                fk_Ord_id=ordhluti_ord.Ord_id
+            )
+            assert(len(ordhluti_sernafn_query.all()) < 2)
+            ordhluti_sernafn = ordhluti_sernafn_query.first()
+            assert(ordhluti_sernafn is not None)
+            ordhluti_sernafn_undirflokkur = sernafn_undirflokkur_to_str(
+                ordhluti_sernafn.Undirflokkur
+            )
+            ordhluti_data['undirflokkur'] = ordhluti_sernafn_undirflokkur
+            if ordhluti_sernafn.Kyn is not None:
+                ordhluti_kyn = kyn_to_str(ordhluti_sernafn.Kyn)
+                ordhluti_data['kyn'] = ordhluti_kyn
+        if ordhluti_ord.OsjalfstaedurOrdhluti is True:
+            ordhluti_data['ósjálfstætt'] = True
         if isl_ordhluti.Lagstafa is True:
             ordhluti_data['lágstafa'] = True
+        if isl_ordhluti.Hastafa is True:
+            ordhluti_data['hástafa'] = True
+        # beygingar list fyrir sérnöfn
+        if (
+            isl_ordhluti.Exclude_et_ag is True or
+            isl_ordhluti.Exclude_et_mg is True or
+            isl_ordhluti.Exclude_ft_ag is True or
+            isl_ordhluti.Exclude_ft_mg is True
+        ):
+            ordhluti_data['beygingar'] = []
+            if isl_ordhluti.Exclude_et_ag is False:
+                ordhluti_data['beygingar'].append('et-ág')
+            if isl_ordhluti.Exclude_et_mg is False:
+                ordhluti_data['beygingar'].append('et-mg')
+            if isl_ordhluti.Exclude_ft_ag is False:
+                ordhluti_data['beygingar'].append('ft-ág')
+            if isl_ordhluti.Exclude_ft_mg is False:
+                ordhluti_data['beygingar'].append('ft-mg')
         if isl_ordhluti.fk_NaestiOrdhluti_id is not None:
             isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
                 SamsettOrdhlutar_id=isl_ordhluti.fk_NaestiOrdhluti_id
@@ -1121,9 +1221,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
                 assert(ordhluti_nafnord is not None)
                 samsett_ord_last_ordhluti_nafnord = ordhluti_nafnord
+            isl_ordhluti_last = isl_ordhluti
             isl_ordhluti = None
-        if ordhluti_ord.OsjalfstaedurOrdhluti is True:
-            ordhluti_data['ósjálfstætt'] = True
         ordhluti_data['hash'] = None
         if ord_id_hash_map is not None and str(ordhluti_ord.Ord_id) in ord_id_hash_map:
             ordhluti_data['hash'] = ord_id_hash_map[str(ordhluti_ord.Ord_id)]
@@ -1161,12 +1260,21 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             samsett_ord_last_ordhluti_ord_data = get_fornafn_from_db_to_ordered_dict(
                 samsett_ord_last_ordhluti_ord
             )
+        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Sernafn:
+            samsett_ord_last_ordhluti_ord_data = get_sernafn_from_db_to_ordered_dict(
+                samsett_ord_last_ordhluti_ord
+            )
         # TODO: add more orðflokkar here :/
         assert(samsett_ord_last_ordhluti_ord_data is not None)
         samsett_ord_data = add_framhluti_to_ord_data(
             samsett_ord_framhluti,
             samsett_ord_last_ordhluti_ord_data,
-            samsett_ord_last_ordhluti_ord.Lagstafa
+            isl_ordhluti_last.Lagstafa,
+            isl_ordhluti_last.Hastafa,
+            isl_ordhluti_last.Exclude_et_ag,
+            isl_ordhluti_last.Exclude_et_mg,
+            isl_ordhluti_last.Exclude_ft_ag,
+            isl_ordhluti_last.Exclude_ft_mg
         )
         for key in samsett_ord_data:
             data[key] = samsett_ord_data[key]
@@ -1443,11 +1551,8 @@ def get_fornafn_from_db_to_ordered_dict(isl_ord):
     isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
     assert(len(isl_fornafn_query.all()) < 2)
     isl_fornafn = isl_fornafn_query.first()
-    try:
-        assert(isl_fornafn is not None)
-    except:
-        import pdb; pdb.set_trace()
-    data['undirflokkur'] = undirflokkur_to_str(isl_fornafn.Undirflokkur)
+    assert(isl_fornafn is not None)
+    data['undirflokkur'] = fornafn_undirflokkur_to_str(isl_fornafn.Undirflokkur)
     if isl_fornafn.Persona is not None:
         data['persóna'] = persona_to_str(isl_fornafn.Persona)
     if isl_fornafn.Kyn is not None:
@@ -1507,7 +1612,7 @@ class MyJSONEncoder(json.JSONEncoder):
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
         keys_to_differently_encode = [
-            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft', 'stýrir', 'fylgiorð'
+            'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft', 'stýrir', 'fylgiorð', 'beygingar'
         ]
         state = 0
         for s in super(MyJSONEncoder, self).iterencode(o, _one_shot=_one_shot):
@@ -1580,6 +1685,8 @@ def ordflokkur_to_str(ordflokkur):
         return 'samtenging'
     elif ordflokkur is isl.Ordflokkar.Upphropun:
         return 'upphrópun'
+    elif ordflokkur is isl.Ordflokkar.Sernafn:
+        return 'sérnafn'
     raise Exception('Unknown orðflokkur.')
 
 
@@ -1593,7 +1700,10 @@ def kyn_to_str(kyn):
     raise Exception('Unknown kyn.')
 
 
-def add_framhluti_to_ord_data(framhluti, ord_data, lagstafa=False):
+def add_framhluti_to_ord_data(
+    framhluti, ord_data, lagstafa=False, hastafa=False, exclude_et_ag=False, exclude_et_mg=False,
+    exclude_ft_ag=False, exclude_ft_mg=False
+):
     '''
     helper function for constructing beygingarmyndir data for samsett orð
     '''
@@ -1612,14 +1722,26 @@ def add_framhluti_to_ord_data(framhluti, ord_data, lagstafa=False):
             elif key in dont_change_keys:
                 new_ord_data[key] = ord_data[key]
             else:
-                new_ord_data[key] = add_framhluti_to_ord_data(framhluti, ord_data[key], lagstafa)
+                new_ord_data[key] = add_framhluti_to_ord_data(
+                    framhluti,
+                    ord_data[key],
+                    lagstafa,
+                    hastafa
+                )
     if type(ord_data) is list:
         new_ord_data = []
         for element in ord_data:
-            new_ord_data.append(add_framhluti_to_ord_data(framhluti, element, lagstafa))
+            new_ord_data.append(add_framhluti_to_ord_data(
+                framhluti,
+                element,
+                lagstafa,
+                hastafa
+            ))
     if type(ord_data) is str:
         if lagstafa is True:
             ord_data = ord_data.lower()
+        if hastafa is True:
+            ord_data = '%s%s' % (ord_data[:1].upper(), ord_data[1:])
         new_ord_data = '%s%s' % (framhluti, ord_data)
     if type(ord_data) is bool:
         new_ord_data = ord_data
@@ -1627,10 +1749,29 @@ def add_framhluti_to_ord_data(framhluti, ord_data, lagstafa=False):
         new_ord_data = ord_data
     if type(ord_data) is None:
         new_ord_data = ord_data
+    # exclude fallbeyging
+    if exclude_et_ag is True:
+        if 'et' in new_ord_data and 'ág' in new_ord_data['et']:
+            del new_ord_data['et']['ág']
+    if exclude_et_mg is True:
+        if 'et' in new_ord_data and 'mg' in new_ord_data['et']:
+            del new_ord_data['et']['mg']
+    if exclude_ft_ag is True:
+        if 'ft' in new_ord_data and 'ág' in new_ord_data['ft']:
+            del new_ord_data['ft']['ág']
+    if exclude_ft_mg is True:
+        if 'ft' in new_ord_data and 'mg' in new_ord_data['ft']:
+            del new_ord_data['ft']['mg']
+    if exclude_et_ag is True or exclude_et_mg is True:
+        if 'et' in new_ord_data and len(new_ord_data['et'].keys()) == 0:
+            del new_ord_data['et']
+    if exclude_ft_ag is True or exclude_ft_mg is True:
+        if 'ft' in new_ord_data and len(new_ord_data['ft'].keys()) == 0:
+            del new_ord_data['ft']
     return new_ord_data
 
 
-def undirflokkur_to_str(undirflokkur):
+def fornafn_undirflokkur_to_str(undirflokkur):
     if undirflokkur is isl.Fornafnaflokkar.Abendingarfornafn:
         return 'ábendingar'
     elif undirflokkur is isl.Fornafnaflokkar.AfturbeygtFornafn:
@@ -1752,3 +1893,51 @@ def fleiryrt_typa_to_str(fleiryrt_typa):
     elif fleiryrt_typa is isl.FleiryrtTypa.Laus:
         return 'laus'
     raise Exception('Unknown FleiryrtTypa.')
+
+
+def get_sernafn_from_db_to_ordered_dict(isl_ord):
+    data = collections.OrderedDict()
+    data['orð'] = isl_ord.Ord
+    data['flokkur'] = 'sérnafn'
+    isl_sernafn_query = db.Session.query(isl.Sernafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
+    assert(len(isl_sernafn_query.all()) < 2)
+    isl_sernafn = isl_sernafn_query.first()
+    assert(isl_sernafn is not None)
+    data['undirflokkur'] = sernafn_undirflokkur_to_str(isl_sernafn.Undirflokkur)
+    if isl_sernafn.Kyn is not None:
+        data['kyn'] = kyn_to_str(isl_sernafn.Kyn)
+    if (
+        isl_sernafn.fk_et_Fallbeyging_id is not None or
+        isl_sernafn.fk_et_mgr_Fallbeyging_id is not None
+    ):
+        data['et'] = collections.OrderedDict()
+    if (
+        isl_sernafn.fk_ft_Fallbeyging_id is not None or
+        isl_sernafn.fk_ft_mgr_Fallbeyging_id is not None
+    ):
+        data['ft'] = collections.OrderedDict()
+    if isl_sernafn.fk_et_Fallbeyging_id is not None:
+        data['et']['ág'] = get_fallbeyging_list_from_db(isl_sernafn.fk_et_Fallbeyging_id)
+    if isl_sernafn.fk_et_mgr_Fallbeyging_id is not None:
+        data['et']['mg'] = get_fallbeyging_list_from_db(isl_sernafn.fk_et_mgr_Fallbeyging_id)
+    if isl_sernafn.fk_ft_Fallbeyging_id is not None:
+        data['ft']['ág'] = get_fallbeyging_list_from_db(isl_sernafn.fk_ft_Fallbeyging_id)
+    if isl_sernafn.fk_ft_mgr_Fallbeyging_id is not None:
+        data['ft']['mg'] = get_fallbeyging_list_from_db(isl_sernafn.fk_ft_mgr_Fallbeyging_id)
+    if isl_ord.OsjalfstaedurOrdhluti is True:
+        data['ósjálfstætt'] = True
+    return data
+
+
+def sernafn_undirflokkur_to_str(undirflokkur):
+    if undirflokkur is isl.Sernafnaflokkar.Eiginnafn:
+        return 'eiginnafn'
+    elif undirflokkur is isl.Sernafnaflokkar.Gaelunafn:
+        return 'gælunafn'
+    elif undirflokkur is isl.Sernafnaflokkar.Kenninafn:
+        return 'kenninafn'
+    elif undirflokkur is isl.Sernafnaflokkar.Millinafn:
+        return 'millinafn'
+    elif undirflokkur is isl.Sernafnaflokkar.Ornefni:
+        return 'örnefni'
+    raise Exception('Unknown Sérnafnsflokkur.')
