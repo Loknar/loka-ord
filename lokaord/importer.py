@@ -622,7 +622,7 @@ def lookup_sagnord(sagnord_data, merking=None):
     '''
     isl_ord = None
     osjalfstaett_ord = (
-        'ósjálfstætt' in lysingarord_data and lysingarord_data['ósjálfstætt'] is True
+        'ósjálfstætt' in sagnord_data and sagnord_data['ósjálfstætt'] is True
     )
     isl_ord_query = db.Session.query(isl.Ord).filter_by(
         Ord=sagnord_data['orð'],
