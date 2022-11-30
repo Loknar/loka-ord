@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 98 | 84 | 81 | 263 | 20 | 12 | 10 | 42 | **305** |
+| **Nafnorð**     |   | 99 | 84 | 81 | 264 | 20 | 12 | 10 | 42 | **306** |
 | **Lýsingarorð** | 6 |   |   |   | 9 |   |   |   | 7 | **16** |
-| **Sagnorð**     |   |   |   |   | 11 |   |   |   | 1 | **12** |
+| **Sagnorð**     |   |   |   |   | 12 |   |   |   | 1 | **13** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 2 | **40** |
-| **Smáorð**      |   |   |   |   |   |   |   |   |   | **96** |
-| **Alls**        |   |   |   |   | **530** |   |   |   | **95** | **625** |
+| **Smáorð**      |   |   |   |   |   |   |   |   |   | **98** |
+| **Alls**        |   |   |   |   | **534** |   |   |   | **95** | **629** |
 
 
 ## Forkröfur (Requirements)
@@ -61,6 +61,26 @@ python main.py --rebuild-db --write-files
 ```
 
 til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa síðan innihald gagnagrunnsins aftur í textaskrár.
+
+### Orðaleit
+
+Til að athuga hvort orð sé til staðar í grunni er hægt að gera uppflettingu í smíðuðum gagnagrunni með tólum að eigin vali, leita að JSON skrá með nafni sem inniheldur umrætt orð, eða með því að smíða sjón fyrir sjáanda (e. sight for seer):
+
+```bash
+python main.py --build-sight
+```
+
+ofangreind skipun býr til forsmíðaða orðaleit útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða í hvert sinn sem JSON skrárnar breytast til að vera með uppfærða forsmíðaða orðaleit, en hana er svo hægt að nota fyrir stakt orð:
+
+```bash
+python main.py --search "orð"
+```
+
+eða fyrir heila setningu (eða nokkrar setningar):
+
+```bash
+python main.py --scan-sentence "Hér er haugur orða í hóflega langri setningu."
+```
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 
