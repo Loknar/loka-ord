@@ -1,0 +1,158 @@
+{
+	"orð": "þekkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þekkja",
+		"sagnbót": "þekkt",
+		"boðháttur": {
+			"stýfður": "þekk",
+			"et": "þekktu",
+			"ft": "þekkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þekki", "þekkir", "þekkir"],
+					"ft": ["þekkjum", "þekkið", "þekkja"]
+				},
+				"þátíð": {
+					"et": ["þekkti", "þekktir", "þekkti"],
+					"ft": ["þekktum", "þekktuð", "þekktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þekki", "þekkir", "þekki"],
+					"ft": ["þekkjum", "þekkið", "þekki"]
+				},
+				"þátíð": {
+					"et": ["þekkti", "þekktir", "þekkti"],
+					"ft": ["þekktum", "þekktuð", "þekktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þekkirðu",
+					"ft": "þekkiði"
+				},
+				"þátíð": {
+					"et": "þekktirðu",
+					"ft": "þekktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þekkirðu",
+					"ft": "þekkiði"
+				},
+				"þátíð": {
+					"et": "þekktirðu",
+					"ft": "þekktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þekkjast",
+		"sagnbót": "þekkst",
+		"boðháttur": {
+			"et": "þekkstu",
+			"ft": "þekkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þekkist", "þekkist", "þekkist"],
+					"ft": ["þekkjumst", "þekkist", "þekkjast"]
+				},
+				"þátíð": {
+					"et": ["þekktist", "þekktist", "þekktist"],
+					"ft": ["þekktumst", "þekktust", "þekktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þekkist", "þekkist", "þekkist"],
+					"ft": ["þekkjumst", "þekkist", "þekkist"]
+				},
+				"þátíð": {
+					"et": ["þekktist", "þekktist", "þekktist"],
+					"ft": ["þekktumst", "þekktist", "þekktist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þekkist", "þekkist", "þekkist"],
+					"ft": ["þekkjumst", "þekkist", "þekkist"]
+				},
+				"þátíð": {
+					"et": ["þekktist", "þekktist", "þekktist"],
+					"ft": ["þekktumst", "þekktust", "þekktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þekkist", "þekkist", "þekkist"],
+					"ft": ["þekkist", "þekkist", "þekkist"]
+				},
+				"þátíð": {
+					"et": ["þekktist", "þekktist", "þekktist"],
+					"ft": ["þekktist", "þekktist", "þekktist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þekkistu"
+				},
+				"þátíð": {
+					"et": "þekktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þekkistu"
+				},
+				"þátíð": {
+					"et": "þekktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þekkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þekktur", "þekktan", "þekktum", "þekkts"],
+					"kvk": ["þekkt", "þekkta", "þekktri", "þekktrar"],
+					"hk": ["þekkt", "þekkt", "þekktu", "þekkts"]
+				},
+				"ft": {
+					"kk": ["þekktir", "þekkta", "þekktum", "þekktra"],
+					"kvk": ["þekktar", "þekktar", "þekktum", "þekktra"],
+					"hk": ["þekkt", "þekkt", "þekktum", "þekktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þekkti", "þekkta", "þekkta", "þekkta"],
+					"kvk": ["þekkta", "þekktu", "þekktu", "þekktu"],
+					"hk": ["þekkta", "þekkta", "þekkta", "þekkta"]
+				},
+				"ft": {
+					"kk": ["þekktu", "þekktu", "þekktu", "þekktu"],
+					"kvk": ["þekktu", "þekktu", "þekktu", "þekktu"],
+					"hk": ["þekktu", "þekktu", "þekktu", "þekktu"]
+				}
+			}
+		}
+	},
+	"hash": "672a87105a300c2e2cd05a9ec97d7144c0f77dd76d8a291b69dd8feae4a26386"
+}
