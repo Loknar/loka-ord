@@ -23,42 +23,116 @@ if platform.system() == 'Linux':
 
 def search_word(word):
     sight = load_sight()
-    print('---\n%s\n---' % (word, ))
+    print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (word, ))
     if word in sight['orð']:
         for option in sight['orð'][word]:
-            print(option['mynd'])
-            print(option['hash'])
+            print(
+                (
+                    '\033[34m├\033[0m \033[36m{m}\033[0m\n'
+                    '\033[34m├\033[0m \033[33m{h}\033[0m\n'
+                    '\033[34m└\033[0m \033[35m{f}\033[0m'
+                ).format(
+                    m=option['mynd'],
+                    h=option['hash'],
+                    f=sight['hash'][option['hash']]['f']
+                )
+            )
     else:
         print('fann ekki')
-    print('---')
+    print('\033[36m---\033[0m')
 
 
 def scan_sentence(sentence):
     sight = load_sight()
-    print('---\n%s\n---' % (sentence, ))
+    print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (sentence, ))
+    scanned_sentence = []
+    found = 0
+    maybe = 0
+    missing = 0
     for word in sentence.split(' '):
+        scanned_word = {
+            'orð': word,
+            'orð-hreinsað': None,
+            'fylgir': None,
+            'staða': None,
+            'möguleikar': []
+        }
         if word not in sight['orð']:
             msg = ''
             e_word = word.strip()
             if e_word[-1] in ('.', ','):
                 e_word = e_word[:-1]
-            if 'll' in e_word:
+                scanned_word['fylgir'] = e_word[-1]
+            if e_word not in sight['orð'] and 'll' in e_word:
                 e_word = e_word.replace('ll', 'łl')
+            if e_word not in sight['orð']:
+                e_word = e_word.lower()
             if e_word in sight['orð']:
-                msg = ' en fann "%s"' % (e_word, )
-            print('vantar "%s"%s' % (word, msg))
-            if e_word in sight['orð']:
+                scanned_word['orð-hreinsað'] = e_word
+                scanned_word['staða'] = 'mögulega'
                 for option in sight['orð'][e_word]:
-                    print(option['mynd'])
-                    print(option['hash'])
-            print('---')
+                    scanned_word['möguleikar'].append({
+                        'm': option['mynd'],
+                        'h': option['hash'],
+                        'f': sight['hash'][option['hash']]['f']
+                    })
+                maybe += 1
+            else:
+                scanned_word['staða'] = 'vantar'
+                missing += 1
+
         else:
-            print('fann "%s"' % (word, ))
+            scanned_word['staða'] = 'fannst'
             for option in sight['orð'][word]:
-                print(option['mynd'])
-                print(option['hash'])
-            print('---')
-    # import pdb; pdb.set_trace()
+                scanned_word['möguleikar'].append({
+                    'm': option['mynd'],
+                    'h': option['hash'],
+                    'f': sight['hash'][option['hash']]['f']
+                })
+            found += 1
+        scanned_sentence.append(scanned_word)
+    highlighted_sentence_list = []
+    for scanned_word in scanned_sentence:
+        if scanned_word['staða'] == 'fannst':
+            print('"%s" \033[42m\033[30m FANNST \033[0m' % (scanned_word['orð'], ))
+            highlighted_sentence_list.append(
+                '\033[42m\033[30m%s\033[0m' % (scanned_word['orð'], )
+            )
+        elif scanned_word['staða'] == 'mögulega':
+            print('"%s" \033[43m\033[30m MÖGULEGA \033[0m "%s"' % (
+                scanned_word['orð'],
+                scanned_word['orð-hreinsað']
+            ))
+            highlighted_sentence_list.append(
+                '%s%s' % (
+                    '\033[43m\033[30m%s\033[0m' % (scanned_word['orð'], ),
+                    '' if scanned_word['fylgir'] is None else scanned_word['fylgir']
+                )
+            )
+        elif scanned_word['staða'] == 'vantar':
+            print('"%s" \033[41m\033[37m VANTAR \033[0m' % (scanned_word['orð'], ))
+            highlighted_sentence_list.append(
+                '\033[41m\033[37m%s\033[0m' % (scanned_word['orð'], )
+            )
+        for option in scanned_word['möguleikar']:
+            print(
+                (
+                    '\033[34m├\033[0m \033[36m{m}\033[0m\n'
+                    '\033[34m├\033[0m \033[33m{h}\033[0m\n'
+                    '\033[34m└\033[0m \033[35m{f}\033[0m'
+                ).format(**option)
+            )
+    highlighted_sentence = ' '.join(highlighted_sentence_list)
+    print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (highlighted_sentence, ))
+    print('Fannst: %s/%s, %s %%' % (
+        found, len(scanned_sentence), format(100 * found/len(scanned_sentence), '.3g'))
+    )
+    print('Kannski: %s/%s, %s %%' % (
+        maybe, len(scanned_sentence), format(100 * maybe/len(scanned_sentence), '.3g'))
+    )
+    print('Vantar: %s/%s, %s %%' % (
+        missing, len(scanned_sentence), format(100 * missing/len(scanned_sentence), '.3g'))
+    )
 
 
 def load_sight(filename='sight', use_pointless=None):
@@ -256,15 +330,16 @@ def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
             if type(ord_data[key]) in (dict, str):
                 add_myndir(ord_data[key], sight, '%s-%s' % (curr_ord_mynd, key), ord_hash)
             elif type(ord_data[key]) is list:
+                temp_ord_mynd = '%s-%s' % (curr_ord_mynd, key)
                 if len(ord_data[key]) == 4:
-                    add_myndir(ord_data[key][0], sight, '%s-%s' % (curr_ord_mynd, 'nf'), ord_hash)
-                    add_myndir(ord_data[key][1], sight, '%s-%s' % (curr_ord_mynd, 'þf'), ord_hash)
-                    add_myndir(ord_data[key][2], sight, '%s-%s' % (curr_ord_mynd, 'þgf'), ord_hash)
-                    add_myndir(ord_data[key][3], sight, '%s-%s' % (curr_ord_mynd, 'ef'), ord_hash)
+                    add_myndir(ord_data[key][0], sight, '%s-%s' % (temp_ord_mynd, 'nf'), ord_hash)
+                    add_myndir(ord_data[key][1], sight, '%s-%s' % (temp_ord_mynd, 'þf'), ord_hash)
+                    add_myndir(ord_data[key][2], sight, '%s-%s' % (temp_ord_mynd, 'þgf'), ord_hash)
+                    add_myndir(ord_data[key][3], sight, '%s-%s' % (temp_ord_mynd, 'ef'), ord_hash)
                 elif len(ord_data[key]) == 3:
-                    add_myndir(ord_data[key][0], sight, '%s-%s' % (curr_ord_mynd, '1p'), ord_hash)
-                    add_myndir(ord_data[key][1], sight, '%s-%s' % (curr_ord_mynd, '2p'), ord_hash)
-                    add_myndir(ord_data[key][2], sight, '%s-%s' % (curr_ord_mynd, '3p'), ord_hash)
+                    add_myndir(ord_data[key][0], sight, '%s-%s' % (temp_ord_mynd, '1p'), ord_hash)
+                    add_myndir(ord_data[key][1], sight, '%s-%s' % (temp_ord_mynd, '2p'), ord_hash)
+                    add_myndir(ord_data[key][2], sight, '%s-%s' % (temp_ord_mynd, '3p'), ord_hash)
                 else:
                     raise Exception('Peculiar list length.')
             else:

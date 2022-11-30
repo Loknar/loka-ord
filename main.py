@@ -34,10 +34,10 @@ if __name__ == '__main__':
         'Available options: "cli", "api", "cron", "hook", "mod" (Default: "cli").'
     ))
     lokaord.ArgParser.add_argument('-bdb', '--build-db', action='store_true', help=(
-        'Build database from datafiles.'
+        'Build SQLite database from datafiles.'
     ))
     lokaord.ArgParser.add_argument('-rbdb', '--rebuild-db', action='store_true', help=(
-        'Delete current database and rebuild from datafiles.'
+        'Delete current SQLite database if exists and rebuild from datafiles.'
     ))
     lokaord.ArgParser.add_argument('-bakdb', '--backup-db', action='store_true', help=(
         'Create backup of current SQLite database file.'
@@ -55,7 +55,7 @@ if __name__ == '__main__':
         'Print database word count in Markdown table.'
     ))
     lokaord.ArgParser.add_argument('-bs', '--build-sight', action='store_true', help=(
-        'Run fiddle.'
+        'Build sight for seer.'
     ))
     lokaord.ArgParser.add_argument('-s', '--search', metavar=('WORD', ), help=(
         'Search for word in sight file.'
