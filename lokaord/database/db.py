@@ -48,12 +48,17 @@ def delete_sqlite_db_file(folder_name):
     assert('/' not in folder_name)
     assert('.' not in folder_name)
     current_file_directory = os.path.dirname(os.path.realpath(__file__))
-    data_directory = os.path.join(current_file_directory, 'disk', folder_name)
+    data_directory = os.path.join('disk', folder_name)
     sqlite_db_file = os.path.join(data_directory, 'db.sqlite')
-    assert(os.path.exists(sqlite_db_file))
-    assert(not os.path.islink(sqlite_db_file))
-    assert(os.path.isfile(sqlite_db_file))
-    os.remove(sqlite_db_file)
+    abs_sqlite_db_file = os.path.join(current_file_directory, sqlite_db_file)
+    if not os.path.exists(abs_sqlite_db_file):
+        logman.warning('SQLite file "%s" was not found and therefore couldn\'t be deleted.' % (
+            sqlite_db_file,
+        ))
+    else:
+        assert(not os.path.islink(abs_sqlite_db_file))
+        assert(os.path.isfile(abs_sqlite_db_file))
+        os.remove(abs_sqlite_db_file)
 
 
 def create_db_uri(db_name):
