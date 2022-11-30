@@ -47,6 +47,8 @@ Bæta við orði í gegnum skipanalínu (CLI):
 python main.py --add-word
 ```
 
+### Orðaviðbætur
+
 Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `--add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmörkuð, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
 
 ```bash
@@ -61,6 +63,34 @@ python main.py --rebuild-db --write-files
 ```
 
 til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa síðan innihald gagnagrunnsins aftur í textaskrár.
+
+Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá þarf ekki að græja beygingarmyndir þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar ég bætti við orðinu "hóflegur" var nóg að sjá til þess að allir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
+
+```json
+{
+	"orð": "hóflegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hóf",
+			"samsetning": "stofn",
+			"orð": "hóf",
+			"flokkur": "nafnorð",
+			"kyn": "hk",
+			"hash": ""
+		},
+		{
+			"orð": "legur",
+			"flokkur": "lýsingarorð",
+			"ósjálfstætt": true,
+			"hash": ""
+		}
+	],
+	"hash": "tba"
+}
+```
+
+svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunninum þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum. Hakkastrengirnir í `"hash"` gildinu eru ekki notaðir í import ferlinu en verða til í export ferlinu og eru síðan notaðir þegar smíðuð er sjón fyrir sjáanda (sjá neðar).
 
 ### Orðaleit
 
