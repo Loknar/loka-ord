@@ -170,7 +170,10 @@ def do_export_task(task, hash_word_map, word_hash_map, do_samsett=False):
         word_hash_map[str(isl_ord.Ord_id)] = ord_data_hash
         ord_data['hash'] = ord_data_hash
         ord_data_json_str = ord_data_to_fancy_json_str(ord_data)
-        isl_ord_filename = '%s' % (ord_data['orð'], )
+        isl_ord_filename = '%s%s' % (
+            ord_data['orð'],
+            '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
+        )
         if task['ordflokkur'] is isl.Ordflokkar.Nafnord:
             isl_ord_filename = '%s-%s%s' % (
                 ord_data['orð'],
@@ -182,11 +185,6 @@ def do_export_task(task, hash_word_map, word_hash_map, do_samsett=False):
                 isl_ord_filename = '%s-%s%s' % (
                     ord_data['orð'],
                     ord_data['kyn'],
-                    '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
-                )
-            else:
-                isl_ord_filename = '%s%s' % (
-                    ord_data['orð'],
                     '-ó' if ('ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True) else ''
                 )
         # add merking to filename if set
@@ -578,6 +576,8 @@ def get_lysingarord_from_db_to_ordered_dict(isl_ord):
         data['efstastig']['vb']['ft']['hk'] = get_fallbeyging_list_from_db(
             isl_lysingarord.fk_Efstastig_vb_ft_hk_Fallbeyging_id
         )
+    if isl_ord.OsjalfstaedurOrdhluti is True:
+        data['ósjálfstætt'] = True
     return data
 
 
@@ -1038,6 +1038,8 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         data['óskháttur_1p_ft'] = isl_sagnord.Oskhattur_1p_ft
     if isl_sagnord.Oskhattur_1p_ft is not None:
         data['óskháttur_3p'] = isl_sagnord.Oskhattur_3p
+    if isl_ord.OsjalfstaedurOrdhluti is True:
+        data['ósjálfstætt'] = True
     return data
 
 

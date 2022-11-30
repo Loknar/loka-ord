@@ -401,9 +401,13 @@ def lookup_lysingarord(lysingarord_data, merking=None):
     Assume icelandic lýsingarorð are unique, until we have counter-example.
     '''
     isl_ord = None
+    osjalfstaett_ord = (
+        'ósjálfstætt' in lysingarord_data and lysingarord_data['ósjálfstætt'] is True
+    )
     isl_ord_query = db.Session.query(isl.Ord).filter_by(
         Ord=lysingarord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Lysingarord,
+        OsjalfstaedurOrdhluti=osjalfstaett_ord,
         Merking=merking
     )
     assert(len(isl_ord_query.all()) < 2)  # if/when this fails it means we have counter-example
@@ -423,7 +427,12 @@ def add_lysingarord(lysingarord_data, merking=None):
     '''
     assert('flokkur' in lysingarord_data and lysingarord_data['flokkur'] == 'lýsingarorð')
     isl_ord = isl.Ord(
-        Ord=lysingarord_data['orð'], Ordflokkur=isl.Ordflokkar.Lysingarord, Merking=merking
+        Ord=lysingarord_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Lysingarord,
+        OsjalfstaedurOrdhluti=(
+            'ósjálfstætt' in lysingarord_data and lysingarord_data['ósjálfstætt'] is True
+        ),
+        Merking=merking
     )
     db.Session.add(isl_ord)
     db.Session.commit()
@@ -1215,9 +1224,15 @@ def add_samsett_ord(isl_ord_id, ord_data):
                 'ósjálfstætt': ordhluti_osjalfstaett
             })
         elif ordhluti_obj['flokkur'] == 'lýsingarorð':
-            ordhluti_isl_ord = lookup_lysingarord({'orð': ordhluti_obj['orð']})
+            ordhluti_isl_ord = lookup_lysingarord({
+                'orð': ordhluti_obj['orð'],
+                'ósjálfstætt': ordhluti_osjalfstaett
+            })
         elif ordhluti_obj['flokkur'] == 'sagnorð':
-            ordhluti_isl_ord = lookup_sagnord({'orð': ordhluti_obj['orð']})
+            ordhluti_isl_ord = lookup_sagnord({
+                'orð': ordhluti_obj['orð'],
+                'ósjálfstætt': ordhluti_osjalfstaett
+            })
         elif ordhluti_obj['flokkur'] == 'greinir':
             ordhluti_isl_ord = lookup_greinir({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'töluorð':
@@ -1265,7 +1280,10 @@ def add_samsett_ord(isl_ord_id, ord_data):
                     False if 'ósjálfstætt' not in ordhluti_obj else ordhluti_obj['ósjálfstætt']
                 )
             })
-        assert(ordhluti_isl_ord is not None)
+        try:
+            assert(ordhluti_isl_ord is not None)
+        except:
+            import pdb; pdb.set_trace()
         isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
             fk_Ord_id=ordhluti_isl_ord.Ord_id,
             Ordmynd=ordhluti_mynd,
