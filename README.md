@@ -76,7 +76,7 @@ ofangreind skipun býr til forsmíðaða orðaleit útfrá orðagögnum í JSON 
 python main.py --search "orð"
 ```
 
-eða fyrir heila setningu (eða nokkrar setningar):
+eða fyrir heil setningarnar:
 
 ```bash
 python main.py --scan-sentence "Hér er haugur orða í hóflega langri setningu."
