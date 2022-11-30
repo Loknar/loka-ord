@@ -1,0 +1,117 @@
+{
+	"orð": "vinna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "vinna",
+		"sagnbót": "unnið",
+		"boðháttur": {
+			"stýfður": "vinn",
+			"et": "vinndu",
+			"ft": "vinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vinn", "vinnur", "vinnur"],
+					"ft": ["vinnum", "vinnið", "vinna"]
+				},
+				"þátíð": {
+					"et": ["vann", "vannst", "vann"],
+					"ft": ["unnum", "unnuð", "unnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vinni", "vinnir", "vinni"],
+					"ft": ["vinnum", "vinnið", "vinni"]
+				},
+				"þátíð": {
+					"et": ["ynni", "ynnir", "ynni"],
+					"ft": ["ynnum", "ynnuð", "ynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vinnurðu",
+					"ft": "vinniði"
+				},
+				"þátíð": {
+					"et": "vannstu",
+					"ft": "unnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vinnirðu",
+					"ft": "vinniði"
+				},
+				"þátíð": {
+					"et": "ynnirðu",
+					"ft": "ynnuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vinnast",
+		"sagnbót": "unnist",
+		"boðháttur": {
+			"et": "vinnstu",
+			"ft": "vinnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vinnst", "vinnst", "vinnst"],
+					"ft": ["vinnumst", "vinnist", "vinnast"]
+				},
+				"þátíð": {
+					"et": ["vannst", "vannst", "vannst"],
+					"ft": ["unnumst", "unnust", "unnust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vinnist", "vinnist", "vinnist"],
+					"ft": ["vinnumst", "vinnist", "vinnist"]
+				},
+				"þátíð": {
+					"et": ["ynnist", "ynnist", "ynnist"],
+					"ft": ["ynnumst", "ynnust", "ynnust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["unninn", "unninn", "unnum", "unnins"],
+					"kvk": ["unnin", "unna", "unninni", "unninnar"],
+					"hk": ["unnið", "unnið", "unnu", "unnins"]
+				},
+				"ft": {
+					"kk": ["unnir", "unna", "unnum", "unninna"],
+					"kvk": ["unnar", "unnar", "unnum", "unninna"],
+					"hk": ["unnin", "unnin", "unnnum", "unninna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["unni", "unna", "unna", "unna"],
+					"kvk": ["unna", "unnu", "unnu", "unnu"],
+					"hk": ["unna", "unna", "unna", "unna"]
+				},
+				"ft": {
+					"kk": ["unnu", "unnu", "unnu", "unnu"],
+					"kvk": ["unnu", "unnu", "unnu", "unnu"],
+					"hk": ["unnu", "unnu", "unnu", "unnu"]
+				}
+			}
+		}
+	},
+	"hash": "9e47c9b5c6549c60090ec380e3b86e54ea08cad36e587add63f8b5f074b46136"
+}
