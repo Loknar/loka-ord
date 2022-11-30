@@ -621,9 +621,13 @@ def lookup_sagnord(sagnord_data, merking=None):
     Assume icelandic sagnorð are unique, until we have counter-example.
     '''
     isl_ord = None
+    osjalfstaett_ord = (
+        'ósjálfstætt' in lysingarord_data and lysingarord_data['ósjálfstætt'] is True
+    )
     isl_ord_query = db.Session.query(isl.Ord).filter_by(
         Ord=sagnord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Sagnord,
+        OsjalfstaedurOrdhluti=osjalfstaett_ord,
         Merking=merking
     )
     assert(len(isl_ord_query.all()) < 2)  # if/when this fails it means we have counter-example

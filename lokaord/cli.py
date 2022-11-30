@@ -9,7 +9,7 @@ import json
 
 from lokaord.version import __version__
 from lokaord import logman
-from lokaord.importer import add_word
+from lokaord.importer import add_word, lookup_nafnord, lookup_lysingarord, lookup_sagnord
 
 
 def add_word_cli():
@@ -83,6 +83,9 @@ def input_nafnord_cli():
             ]
         )
         data['orð'] = fallbeyging_et_ag[0]
+        isl_ord_lookup = lookup_nafnord({'orð': data['orð'], 'kyn': kyn})
+        if isl_ord_lookup is not None:
+            raise Exception('Þetta orð er nú þegar í grunninum?')
         logman.info('kyn: %s' % (kyn, ))
         data['et'] = collections.OrderedDict()
         data['et']['ág'] = fallbeyging_et_ag
@@ -112,6 +115,9 @@ def input_nafnord_cli():
         )
         if data['orð'] is None:
             data['orð'] = data['ft']['ág'][0]
+            isl_ord_lookup = lookup_nafnord({'orð': data['orð'], 'kyn': kyn})
+            if isl_ord_lookup is not None:
+                raise Exception('Þetta orð er nú þegar í grunninum?')
         # ft.mg
         data['ft']['mg'] = input_fallbeyging_cli(
             msg_mynd='Fleirtala með greini',
@@ -141,6 +147,9 @@ def input_lysingarord_cli():
         ]
     )
     data['orð'] = frumstig_sb_et_kk[0]
+    isl_ord_lookup = lookup_lysingarord({'orð': data['orð']})
+    if isl_ord_lookup is not None:
+        raise Exception('Þetta orð er nú þegar í grunninum?')
     data['flokkur'] = 'lýsingarorð'
     data['frumstig'] = collections.OrderedDict()
     data['frumstig']['sb'] = collections.OrderedDict()
@@ -490,6 +499,9 @@ def input_sagnord_cli():
         'Germynd nafnháttur (dæmi: \033[90mað\033[0m \033[32mgefa\033[0m): '
     )
     data['orð'] = germynd_nafnhattur
+    isl_ord_lookup = lookup_sagnord({'orð': data['orð']})
+    if isl_ord_lookup is not None:
+        raise Exception('Þetta orð er nú þegar í grunninum?')
     data['flokkur'] = 'sagnorð'
     data['germynd'] = collections.OrderedDict()
     data['germynd']['nafnháttur'] = germynd_nafnhattur
