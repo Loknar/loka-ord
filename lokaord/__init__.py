@@ -530,12 +530,6 @@ def main(arguments):
         db_uri = db.create_db_uri(db_name)
         db.setup_connection(db_uri, db_echo=False)
         db.init_db()
-    if 'stats' in arguments and arguments['stats'] is True:
-        print(json.dumps(
-            get_words_count(), separators=(',', ':'), ensure_ascii=False, sort_keys=True
-        ))
-    if 'md_stats' in arguments and arguments['md_stats'] is True:
-        print(get_words_count_markdown_table())
     if 'add_word_cli' in arguments and arguments['add_word_cli'] is True:
         cli.add_word_cli()
     if (
@@ -551,5 +545,11 @@ def main(arguments):
         seer.search_word(arguments['search'])
     if 'scan_sentence' in arguments and arguments['scan_sentence'] is not None:
         seer.scan_sentence(arguments['scan_sentence'])
+    if 'stats' in arguments and arguments['stats'] is True:
+        print(json.dumps(
+            get_words_count(), separators=(',', ':'), ensure_ascii=False, sort_keys=True
+        ))
+    if 'md_stats' in arguments and arguments['md_stats'] is True:
+        print(get_words_count_markdown_table())
     if 'run_fiddle' in arguments and arguments['run_fiddle'] is True:
         print('Running fiddle!')
