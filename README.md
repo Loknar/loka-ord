@@ -86,7 +86,7 @@ Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá
 			"hash": ""
 		}
 	],
-	"hash": "tba"
+	"hash": ""
 }
 ```
 
@@ -100,7 +100,7 @@ Til að athuga hvort orð sé til staðar í grunni er hægt að gera uppflettin
 python main.py --build-sight
 ```
 
-ofangreind skipun býr til forsmíðaða orðaleit útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða í hvert sinn sem JSON skrárnar breytast til að vera með uppfærða forsmíðaða orðaleit, en hana er svo hægt að nota fyrir stakt orð:
+ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða í hvert sinn sem JSON skrárnar breytast, en hana er svo hægt að nota fyrir uppflettingu stöku orði:
 
 ```bash
 python main.py --search "orð"
