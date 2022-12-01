@@ -1284,10 +1284,7 @@ def add_samsett_ord(isl_ord_id, ord_data):
                     False if 'ósjálfstætt' not in ordhluti_obj else ordhluti_obj['ósjálfstætt']
                 )
             })
-        try:
-            assert(ordhluti_isl_ord is not None)
-        except:
-            import pdb; pdb.set_trace()
+        assert(ordhluti_isl_ord is not None)
         isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
             fk_Ord_id=ordhluti_isl_ord.Ord_id,
             Ordmynd=ordhluti_mynd,
