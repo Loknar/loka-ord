@@ -61,8 +61,8 @@ def scan_sentence(sentence):
             msg = ''
             e_word = word.strip()
             if e_word[-1] in ('.', ','):
-                e_word = e_word[:-1]
                 scanned_word['fylgir'] = e_word[-1]
+                e_word = e_word[:-1]
             if e_word not in sight['orð'] and 'll' in e_word:
                 e_word = e_word.replace('ll', 'łl')
             if e_word not in sight['orð']:
@@ -105,7 +105,7 @@ def scan_sentence(sentence):
             ))
             highlighted_sentence_list.append(
                 '%s%s' % (
-                    '\033[43m\033[30m%s\033[0m' % (scanned_word['orð'], ),
+                    '\033[43m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
                     '' if scanned_word['fylgir'] is None else scanned_word['fylgir']
                 )
             )
