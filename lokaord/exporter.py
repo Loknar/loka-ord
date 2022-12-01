@@ -148,6 +148,7 @@ def write_datafiles_from_db():
         )
     logman.info('Finally exporting combined words out of combined words (samsett úr samsettum).')
     for task_pair in l_samsett_p:
+        assert(len(l_samsett_p) < 50000)  # just in case, pls don't define circular samsett orð
         do_export_task(
             task_pair['task'],
             hash_to_isl_ord_id,
