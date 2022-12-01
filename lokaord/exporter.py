@@ -22,6 +22,7 @@ def write_datafiles_from_db():
     )
     isl_ord_id_to_hash = {}
     hash_to_isl_ord_id = {}
+    l_samsett_p = []  # tasks og samsett orð úr orðhlutum sem eru samsettir
     export_tasks = [
         {
             'name': 'nafnorð',
@@ -127,34 +128,75 @@ def write_datafiles_from_db():
             'f_ord_to_dict': get_sernafn_from_db_to_ordered_dict,
             'has_samsett': True
         }
-    ]  # TODO: add rest of orðflokkar
+    ]
     logman.info('We export core words first, then combined (samssett).')
     for task in export_tasks:
-        do_export_task(task, hash_to_isl_ord_id, isl_ord_id_to_hash, do_samsett=False)
+        do_export_task(
+            task,
+            hash_to_isl_ord_id,
+            isl_ord_id_to_hash
+        )
     logman.info('Now exporting combined words (samsett).')
     for task in export_tasks:
-        do_export_task(task, hash_to_isl_ord_id, isl_ord_id_to_hash, do_samsett=True)
-    #
-    #
-    # TODO: finish
-    logman.info('TODO: finish implementing write_datafiles_from_db')
+        do_export_task(
+            task,
+            hash_to_isl_ord_id,
+            isl_ord_id_to_hash,
+            l_samsett_p,
+            do_l_samsett_m=False,
+            do_samsett=True
+        )
+    logman.info('Finally exporting combined words out of combined words (samsett úr samsettum).')
+    for task_pair in l_samsett_p:
+        do_export_task(
+            task_pair['task'],
+            hash_to_isl_ord_id,
+            isl_ord_id_to_hash,
+            l_samsett_p,
+            l_samsett_ord_id=task_pair['ord_id'],
+            do_l_samsett_m=True,
+            do_samsett=True
+        )
+    logman.info('Finished exporting words to JSON files.')
 
 
-def do_export_task(task, hash_word_map, word_hash_map, do_samsett=False):
+def do_export_task(
+    task, hash_word_map, word_hash_map, l_samsett_p=None, do_l_samsett_m=False,
+    l_samsett_ord_id=None, do_samsett=False
+):
     if task['has_samsett'] is False and do_samsett is True:
         # nothing to do here
         return
     get_ord_from_db_to_ordered_dict = task['f_ord_to_dict']
-    isl_ord_list = db.Session.query(isl.Ord).filter_by(
-        Ordflokkur=task['ordflokkur'],
-        Samsett=do_samsett
-    ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
+    isl_ord_list = None
+    if do_l_samsett_m is False:
+        isl_ord_list = db.Session.query(isl.Ord).filter_by(
+            Ordflokkur=task['ordflokkur'],
+            Samsett=do_samsett
+        ).order_by(isl.Ord.Ord, isl.Ord.Ord_id).all()
+    else:
+        assert(l_samsett_ord_id is not None)
+        isl_ord_list = db.Session.query(isl.Ord).filter_by(Ord_id=l_samsett_ord_id).all()
     for isl_ord in isl_ord_list:
         ord_data = None
         if do_samsett is True:
+            missing_samsett_hash = False
             ord_data = get_samsett_ord_from_db_to_ordered_dict(
                 isl_ord, ord_id_hash_map=word_hash_map
             )
+            for sams in ord_data['samsett']:
+                if sams['hash'] is None:
+                    missing_samsett_hash = True
+            if missing_samsett_hash is True:
+                # þegar samsett orð eru gerð úr orðhlutum sem eru sjálfir samsettir þá rekum við
+                # okkur á að vera hugsanlega ekki búin að gera hash fyrir þau samsettu orð sem
+                # önnur samsett orð eru samsett úr
+                # þá leggjum við þau orð til hliðar og reynum að exporta þau aftur síðar
+                l_samsett_p.append({
+                    'task': task,
+                    'ord_id': isl_ord.Ord_id
+                })
+                continue
         elif do_samsett is False:
             ord_data = get_ord_from_db_to_ordered_dict(isl_ord)
         assert(ord_data is not None)
