@@ -3,8 +3,18 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"orð": "edda",
+			"flokkur": "nafnorð",
+			"kyn": "kvk",
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"hash": "4a424439a2c87c0271aa79c5af8e310adcdb57e7cadc69b24cf31f44d2b1b56a"
+		}
+	],
 	"et": {
 		"ág": ["Edda", "Eddu", "Eddu", "Eddu"]
 	},
-	"hash": "87dc1d2e512546a79c2146f24d664831a505dee65d8412301082dcd2205233fc"
+	"hash": "8869d09bfd65ede69414e726968f7bc2833d5bce4b0d4b9e01c394d46f9130d3"
 }
