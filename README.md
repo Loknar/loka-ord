@@ -17,10 +17,10 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 24 | 23 |   | 47 | 4 | 13 |   | 17 | **64** |
-| Gælunöfn  | 3 | 2 |   | 5 | 0 | 0 |   | 0 | **5** |
-| Kenninöfn | 0 | 0 |   | 0 | 3 | 3 |   | 6 | **6** |
+| Gælunöfn  | 3 | 2 |   | 5 |  |  |   |  | **5** |
+| Kenninöfn |  |  |   |  | 3 | 3 |   | 6 | **6** |
 | Millinöfn |   |   |   |   |   |   |   |   | **9** |
-| Örnefni   | 0 | 0 | 0 | 0 | 10 | 7 | 2 | 19 | **19** |
+| Örnefni   |  |  |  |  | 10 | 7 | 2 | 19 | **19** |
 | **Alls**  |   |   |   | **61** |   |   |   | **42** | **103** |
 
 **Samtals:** 726 orð.
