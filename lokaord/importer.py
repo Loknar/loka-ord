@@ -1226,17 +1226,17 @@ def add_samsett_ord(isl_ord_id, ord_data):
                 'orð': ordhluti_obj['orð'],
                 'kyn': ordhluti_obj['kyn'],
                 'ósjálfstætt': ordhluti_osjalfstaett
-            })
+            }, merking=ordhluti_obj['merking'] if 'merking' in ordhluti_obj else None)
         elif ordhluti_obj['flokkur'] == 'lýsingarorð':
             ordhluti_isl_ord = lookup_lysingarord({
                 'orð': ordhluti_obj['orð'],
                 'ósjálfstætt': ordhluti_osjalfstaett
-            })
+            }, merking=ordhluti_obj['merking'] if 'merking' in ordhluti_obj else None)
         elif ordhluti_obj['flokkur'] == 'sagnorð':
             ordhluti_isl_ord = lookup_sagnord({
                 'orð': ordhluti_obj['orð'],
                 'ósjálfstætt': ordhluti_osjalfstaett
-            })
+            }, merking=ordhluti_obj['merking'] if 'merking' in ordhluti_obj else None)
         elif ordhluti_obj['flokkur'] == 'greinir':
             ordhluti_isl_ord = lookup_greinir({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'töluorð':

@@ -1253,6 +1253,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
                 ordhluti_data['beygingar'].append('ft-ág')
             if isl_ordhluti.Exclude_ft_mg is False:
                 ordhluti_data['beygingar'].append('ft-mg')
+        if ordhluti_ord.Merking is not None:
+            ordhluti_data['merking'] = ordhluti_ord.Merking
         if isl_ordhluti.fk_NaestiOrdhluti_id is not None:
             isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
                 SamsettOrdhlutar_id=isl_ordhluti.fk_NaestiOrdhluti_id
