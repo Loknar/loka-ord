@@ -1,0 +1,135 @@
+{
+	"orð": "hvíla",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hvíla",
+		"sagnbót": "hvílt",
+		"boðháttur": {
+			"stýfður": "hvíl",
+			"et": "hvíldu",
+			"ft": "hvílið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hvíli", "hvílir", "hvílir"],
+					"ft": ["hvílum", "hvílið", "hvíla"]
+				},
+				"þátíð": {
+					"et": ["hvíldi", "hvíldir", "hvíldi"],
+					"ft": ["hvíldum", "hvílduð", "hvíldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hvíli", "hvílir", "hvíli"],
+					"ft": ["hvílum", "hvílið", "hvíli"]
+				},
+				"þátíð": {
+					"et": ["hvíldi", "hvíldir", "hvíldi"],
+					"ft": ["hvíldum", "hvílduð", "hvíldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hvílirðu",
+					"ft": "hvíliði"
+				},
+				"þátíð": {
+					"et": "hvíldirðu",
+					"ft": "hvílduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hvílirðu",
+					"ft": "hvíliði"
+				},
+				"þátíð": {
+					"et": "hvíldirðu",
+					"ft": "hvílduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hvílast",
+		"sagnbót": "hvílst",
+		"boðháttur": {
+			"et": "hvílstu",
+			"ft": "hvílist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hvílist", "hvílist", "hvílist"],
+					"ft": ["hvílumst", "hvílist", "hvílast"]
+				},
+				"þátíð": {
+					"et": ["hvíldist", "hvíldist", "hvíldist"],
+					"ft": ["hvíldumst", "hvíldust", "hvíldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hvílist", "hvílist", "hvílist"],
+					"ft": ["hvílumst", "hvílist", "hvílist"]
+				},
+				"þátíð": {
+					"et": ["hvíldist", "hvíldist", "hvíldist"],
+					"ft": ["hvíldumst", "hvíldust", "hvíldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hvílistu"
+				},
+				"þátíð": {
+					"et": "hvíldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hvílistu"
+				},
+				"þátíð": {
+					"et": "hvíldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hvílandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hvíldur", "hvíldan", "hvíldum", "hvílds"],
+					"kvk": ["hvíld", "hvílda", "hvíldri", "hvíldrar"],
+					"hk": ["hvílt", "hvílt", "hvíldu", "hvílds"]
+				},
+				"ft": {
+					"kk": ["hvíldir", "hvílda", "hvíldum", "hvíldra"],
+					"kvk": ["hvíldar", "hvíldar", "hvíldum", "hvíldra"],
+					"hk": ["hvíld", "hvíld", "hvíldum", "hvíldra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hvíldi", "hvílda", "hvílda", "hvílda"],
+					"kvk": ["hvílda", "hvíldu", "hvíldu", "hvíldu"],
+					"hk": ["hvílda", "hvílda", "hvílda", "hvílda"]
+				},
+				"ft": {
+					"kk": ["hvíldu", "hvíldu", "hvíldu", "hvíldu"],
+					"kvk": ["hvíldu", "hvíldu", "hvíldu", "hvíldu"],
+					"hk": ["hvíldu", "hvíldu", "hvíldu", "hvíldu"]
+				}
+			}
+		}
+	},
+	"hash": "64bedd8e10892f5f3af52cf8e3d2d744160011180716a098fa234f143f925e5c"
+}

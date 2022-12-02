@@ -1,0 +1,119 @@
+{
+	"orð": "hafa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hafa",
+		"sagnbót": "haft",
+		"boðháttur": {
+			"stýfður": "haf",
+			"et": "hafðu",
+			"ft": "hafið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hef", "hefur", "hefur"],
+					"ft": ["höfum", "hafið", "hafa"]
+				},
+				"þátíð": {
+					"et": ["hafði", "hafðir", "hafði"],
+					"ft": ["höfðum", "höfðuð", "höfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hafi", "hafir", "hafi"],
+					"ft": ["höfum", "hafið", "hafi"]
+				},
+				"þátíð": {
+					"et": ["hefði", "hefðir", "hefði"],
+					"ft": ["hefðum", "hefðuð", "hefðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hefurðu",
+					"ft": "hafiði"
+				},
+				"þátíð": {
+					"et": "hafðirðu",
+					"ft": "höfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hafirðu",
+					"ft": "hafiði"
+				},
+				"þátíð": {
+					"et": "hefðirðu",
+					"ft": "hefðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hafast",
+		"sagnbót": "hafst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefst", "hefst", "hefst"],
+					"ft": ["höfumst", "hafist", "hafast"]
+				},
+				"þátíð": {
+					"et": ["hafðist", "hafðist", "hafðist"],
+					"ft": ["höfðumst", "höfðust", "höfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hafist", "hafist", "hafist"],
+					"ft": ["höfumst", "hafist", "hafist"]
+				},
+				"þátíð": {
+					"et": ["hefðist", "hefðist", "hefðist"],
+					"ft": ["hefðumst", "hefðust", "hefðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hefstu"
+				},
+				"þátíð": {
+					"et": "hafðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hafistu"
+				},
+				"þátíð": {
+					"et": "hefðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hafandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hafður", "hafðan", "höfðum", "hafðs"],
+					"kvk": ["höfð", "hafða", "hafðri", "hafðrar"],
+					"hk": ["haft", "haft", "höfðu", "hafðs"]
+				},
+				"ft": {
+					"kk": ["hafðir", "hafða", "höfðum", "hafðra"],
+					"kvk": ["hafðar", "hafðar", "höfðum", "hafðra"],
+					"hk": ["höfð", "höfð", "höfðum", "hafðra"]
+				}
+			}
+		}
+	},
+	"hash": "4372e37471e3ef53deddacab0b23e2073a1972a185db0b6a80701329b832ddcc"
+}

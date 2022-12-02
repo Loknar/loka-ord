@@ -1,0 +1,131 @@
+{
+	"orð": "mæta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "mæta",
+		"sagnbót": "mætt",
+		"boðháttur": {
+			"stýfður": "mæt",
+			"et": "mættu",
+			"ft": "mætið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mæti", "mætir", "mætir"],
+					"ft": ["mætum", "mætið", "mæta"]
+				},
+				"þátíð": {
+					"et": ["mætti", "mættir", "mætti"],
+					"ft": ["mættum", "mættuð", "mættu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mæti", "mætir", "mæti"],
+					"ft": ["mætum", "mætið", "mæti"]
+				},
+				"þátíð": {
+					"et": ["mætti", "mættir", "mætti"],
+					"ft": ["mættum", "mættuð", "mættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mætirðu",
+					"ft": "mætiði"
+				},
+				"þátíð": {
+					"et": "mættirðu",
+					"ft": "mættuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mætirðu",
+					"ft": "mætiði"
+				},
+				"þátíð": {
+					"et": "mættirðu",
+					"ft": "mættuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "mætast",
+		"sagnbót": "mæst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mætist", "mætist", "mætist"],
+					"ft": ["mætumst", "mætist", "mætast"]
+				},
+				"þátíð": {
+					"et": ["mættist", "mættist", "mættist"],
+					"ft": ["mættumst", "mættust", "mættust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mætist", "mætist", "mætist"],
+					"ft": ["mætumst", "mætist", "mætist"]
+				},
+				"þátíð": {
+					"et": ["mættist", "mættist", "mættist"],
+					"ft": ["mættumst", "mættust", "mættust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mætistu"
+				},
+				"þátíð": {
+					"et": "mættistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mætistu"
+				},
+				"þátíð": {
+					"et": "mættistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mætandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mættur", "mættan", "mættum", "mætts"],
+					"kvk": ["mætt", "mætta", "mættri", "mættrar"],
+					"hk": ["mætt", "mætt", "mættu", "mætts"]
+				},
+				"ft": {
+					"kk": ["mættir", "mætta", "mættum", "mættra"],
+					"kvk": ["mættar", "mættar", "mættum", "mættra"],
+					"hk": ["mætt", "mætt", "mættum", "mættra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["mætti", "mætta", "mætta", "mætta"],
+					"kvk": ["mætta", "mættu", "mættu", "mættu"],
+					"hk": ["mætta", "mætta", "mætta", "mætta"]
+				},
+				"ft": {
+					"kk": ["mættu", "mættu", "mættu", "mættu"],
+					"kvk": ["mættu", "mættu", "mættu", "mættu"],
+					"hk": ["mættu", "mættu", "mættu", "mættu"]
+				}
+			}
+		}
+	},
+	"hash": "f2f17981b6297900951f73ac894e2192cba4eb8ea9fef659aaeeb7577c5e6eef"
+}

@@ -1,0 +1,119 @@
+{
+	"orð": "telja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "telja",
+		"sagnbót": "talið",
+		"boðháttur": {
+			"stýfður": "tel",
+			"et": "teldu",
+			"ft": "teljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tel", "telur", "telur"],
+					"ft": ["teljum", "teljið", "telja"]
+				},
+				"þátíð": {
+					"et": ["taldi", "taldir", "taldi"],
+					"ft": ["töldum", "tölduð", "töldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["telji", "teljir", "telji"],
+					"ft": ["teljum", "teljið", "telji"]
+				},
+				"þátíð": {
+					"et": ["teldi", "teldir", "teldi"],
+					"ft": ["teldum", "telduð", "teldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "telurðu",
+					"ft": "teljiði"
+				},
+				"þátíð": {
+					"et": "taldirðu",
+					"ft": "tölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "teljirðu",
+					"ft": "teljiði"
+				},
+				"þátíð": {
+					"et": "teldirðu",
+					"ft": "telduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "teljast",
+		"sagnbót": "talist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["telst", "telst", "telst"],
+					"ft": ["teljumst", "teljist", "teljast"]
+				},
+				"þátíð": {
+					"et": ["taldist", "taldist", "taldist"],
+					"ft": ["töldumst", "töldust", "töldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["teljist", "teljist", "teljist"],
+					"ft": ["teljumst", "teljist", "teljist"]
+				},
+				"þátíð": {
+					"et": ["teldist", "teldist", "teldist"],
+					"ft": ["teldumst", "teldust", "teldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "telstu"
+				},
+				"þátíð": {
+					"et": "taldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "teljistu"
+				},
+				"þátíð": {
+					"et": "teldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "teljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["talinn", "talinn", "töldum", "talins"],
+					"kvk": ["talin", "talda", "taldri", "taldrar"],
+					"hk": ["talið", "talið", "töldu", "talins"]
+				},
+				"ft": {
+					"kk": ["taldir", "talda", "töldum", "taldra"],
+					"kvk": ["taldar", "taldar", "töldum", "taldra"],
+					"hk": ["talin", "talin", "töldum", "taldra"]
+				}
+			}
+		}
+	},
+	"hash": "9c81509630627744ae39aac0db44e006eaff389ddde9dfec6a24424098761e41"
+}

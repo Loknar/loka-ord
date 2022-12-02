@@ -1,0 +1,158 @@
+{
+	"orð": "bera",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "bera",
+		"sagnbót": "borið",
+		"boðháttur": {
+			"stýfður": "ber",
+			"et": "berðu",
+			"ft": "berið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ber", "berð", "ber"],
+					"ft": ["berum", "berið", "bera"]
+				},
+				"þátíð": {
+					"et": ["bar", "barst", "bar"],
+					"ft": ["bárum", "báruð", "báru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["beri", "berir", "beri"],
+					"ft": ["berum", "berið", "beri"]
+				},
+				"þátíð": {
+					"et": ["bæri", "bærir", "bæri"],
+					"ft": ["bærum", "bæruð", "bæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "berðu",
+					"ft": "beriði"
+				},
+				"þátíð": {
+					"et": "barstu",
+					"ft": "báruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "berirðu",
+					"ft": "beriði"
+				},
+				"þátíð": {
+					"et": "bærirðu",
+					"ft": "bæruði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "berast",
+		"sagnbót": "berist",
+		"boðháttur": {
+			"et": "berstu",
+			"ft": "berist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["berst", "berst", "berst"],
+					"ft": ["berumst", "berist", "berast"]
+				},
+				"þátíð": {
+					"et": ["barst", "barst", "barst"],
+					"ft": ["bárumst", "bárust", "bárust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["berist", "berist", "berist"],
+					"ft": ["berumst", "berist", "berist"]
+				},
+				"þátíð": {
+					"et": ["bærist", "bærist", "bærist"],
+					"ft": ["bærumst", "bærust", "bærust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["berst", "berst", "berst"],
+					"ft": ["berst", "berst", "berst"]
+				},
+				"þátíð": {
+					"et": ["barst", "barst", "barst"],
+					"ft": ["barst", "barst", "barst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["berist", "berist", "berist"],
+					"ft": ["berist", "berist", "berist"]
+				},
+				"þátíð": {
+					"et": ["bærist", "bærist", "bærist"],
+					"ft": ["bærist", "bærist", "bærist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "berstu"
+				},
+				"þátíð": {
+					"et": "barstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "beristu"
+				},
+				"þátíð": {
+					"et": "bæristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "berandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["borinn", "borinn", "bornum", "borins"],
+					"kvk": ["borin", "borna", "borinni", "borinnar"],
+					"hk": ["borið", "borið", "bornu", "borins"]
+				},
+				"ft": {
+					"kk": ["bornir", "borna", "bornum", "borinna"],
+					"kvk": ["bornar", "bornar", "bornum", "borinna"],
+					"hk": ["borin", "borin", "bornum", "borinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["borni", "borna", "borna", "borna"],
+					"kvk": ["borna", "bornu", "bornu", "bornu"],
+					"hk": ["borna", "borna", "borna", "borna"]
+				},
+				"ft": {
+					"kk": ["bornu", "bornu", "bornu", "bornu"],
+					"kvk": ["bornu", "bornu", "bornu", "bornu"],
+					"hk": ["bornu", "bornu", "bornu", "bornu"]
+				}
+			}
+		}
+	},
+	"hash": "0e297e5183460155f383bd26ddc235cffac8408c8000432a1b8beebbaf7b97d2"
+}

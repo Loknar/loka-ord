@@ -1,0 +1,146 @@
+{
+	"orð": "útnefna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"orð": "út",
+			"flokkur": "smáorð",
+			"undirflokkur": "forsetning",
+			"hash": "bcc080fc5650301997f155af20fb6b00dc8e66f2777dcc3181d12c79d4761fbd"
+		},
+		{
+			"orð": "nefna",
+			"flokkur": "sagnorð",
+			"hash": "5cfb9dae81068785d8e9b920145662dd85079ab05bd98dde394e90f74ddae2a6"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útnefna",
+		"sagnbót": "útnefnt",
+		"boðháttur": {
+			"stýfður": "útnefn",
+			"et": "útnefndu",
+			"ft": "útnefnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útnefni", "útnefnir", "útnefnir"],
+					"ft": ["útnefnum", "útnefnið", "útnefna"]
+				},
+				"þátíð": {
+					"et": ["útnefndi", "útnefndir", "útnefndi"],
+					"ft": ["útnefndum", "útnefnduð", "útnefndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útnefni", "útnefnir", "útnefni"],
+					"ft": ["útnefnum", "útnefnið", "útnefni"]
+				},
+				"þátíð": {
+					"et": ["útnefndi", "útnefndir", "útnefndi"],
+					"ft": ["útnefndum", "útnefnduð", "útnefndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útnefnirðu",
+					"ft": "útnefniði"
+				},
+				"þátíð": {
+					"et": "útnefndirðu",
+					"ft": "útnefnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útnefnirðu",
+					"ft": "útnefniði"
+				},
+				"þátíð": {
+					"et": "útnefndirðu",
+					"ft": "útnefnduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útnefnast",
+		"sagnbót": "útnefnst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útnefnist", "útnefnist", "útnefnist"],
+					"ft": ["útnefnumst", "útnefnist", "útnefnast"]
+				},
+				"þátíð": {
+					"et": ["útnefndist", "útnefndist", "útnefndist"],
+					"ft": ["útnefndumst", "útnefndust", "útnefndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útnefnist", "útnefnist", "útnefnist"],
+					"ft": ["útnefnumst", "útnefnist", "útnefnist"]
+				},
+				"þátíð": {
+					"et": ["útnefndist", "útnefndist", "útnefndist"],
+					"ft": ["útnefndumst", "útnefndust", "útnefndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útnefnistu"
+				},
+				"þátíð": {
+					"et": "útnefndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útnefnistu"
+				},
+				"þátíð": {
+					"et": "útnefndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útnefnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útnefndur", "útnefndan", "útnefndum", "útnefnds"],
+					"kvk": ["útnefnd", "útnefnda", "útnefndri", "útnefndrar"],
+					"hk": ["útnefnt", "útnefnt", "útnefndu", "útnefnds"]
+				},
+				"ft": {
+					"kk": ["útnefndir", "útnefnda", "útnefndum", "útnefndra"],
+					"kvk": ["útnefndar", "útnefndar", "útnefndum", "útnefndra"],
+					"hk": ["útnefnd", "útnefnd", "útnefndum", "útnefndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útnefndi", "útnefnda", "útnefnda", "útnefnda"],
+					"kvk": ["útnefnda", "útnefndu", "útnefndu", "útnefndu"],
+					"hk": ["útnefnda", "útnefnda", "útnefnda", "útnefnda"]
+				},
+				"ft": {
+					"kk": ["útnefndu", "útnefndu", "útnefndu", "útnefndu"],
+					"kvk": ["útnefndu", "útnefndu", "útnefndu", "útnefndu"],
+					"hk": ["útnefndu", "útnefndu", "útnefndu", "útnefndu"]
+				}
+			}
+		}
+	},
+	"hash": "51f473e9b9231beb3a27fac6ec54676ade031bcd7e1bf07cb6f750a382528fb9"
+}

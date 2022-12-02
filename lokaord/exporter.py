@@ -86,7 +86,7 @@ def write_datafiles_from_db():
             'root': datafiles_dir_abs,
             'dir': os.path.join('smaord', 'forsetning'),
             'f_ord_to_dict': get_forsetning_from_db_to_ordered_dict,
-            'has_samsett': False
+            'has_samsett': True
         },
         {
             'name': 'atviksorð',
@@ -1104,6 +1104,9 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     if flokkur in toluord_undirflokkar:
         data['flokkur'] = 'töluorð'
         data['undirflokkur'] = flokkur
+    elif flokkur in smaord_undirflokkar:
+        data['flokkur'] = 'smáorð'
+        data['undirflokkur'] = flokkur
     else:
         data['flokkur'] = flokkur
     if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
@@ -1136,6 +1139,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             data['persóna'] = persona_to_str(isl_fornafn.Persona)
         if isl_fornafn.Kyn is not None:
             data['kyn'] = kyn_to_str(isl_fornafn.Kyn)
+    elif isl_ord.Ordflokkur is isl.Ordflokkar.Forsetning:
+        data['stýrir'] = get_forsetning_from_db_to_ordered_dict(isl_ord)['stýrir']
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Sernafn:
         isl_sernafn_query = db.Session.query(isl.Sernafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
         assert(len(isl_sernafn_query.all()) < 2)
@@ -1755,7 +1760,9 @@ def add_framhluti_to_ord_data(
     helper function for constructing beygingarmyndir data for samsett orð
     '''
     dictorinos = (dict, collections.OrderedDict)
-    ignore_keys = set(['orð', 'flokkur', 'undirflokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt'])
+    ignore_keys = set([
+        'orð', 'flokkur', 'undirflokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt', 'stýrir'
+    ])
     dont_change_keys = set(['frumlag'])
     new_ord_data = None
     if type(ord_data) is dict:

@@ -1,0 +1,158 @@
+{
+	"orð": "fara",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "fara",
+		"sagnbót": "farið",
+		"boðháttur": {
+			"stýfður": "far",
+			"et": "farðu",
+			"ft": "farið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fer", "ferð", "fer"],
+					"ft": ["förum", "farið", "fara"]
+				},
+				"þátíð": {
+					"et": ["fór", "fórst", "fór"],
+					"ft": ["fórum", "fóruð", "fóru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fari", "farir", "fari"],
+					"ft": ["förum", "farið", "fari"]
+				},
+				"þátíð": {
+					"et": ["færi", "færir", "færi"],
+					"ft": ["færum", "færuð", "færu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ferðu",
+					"ft": "fariði"
+				},
+				"þátíð": {
+					"et": "fórstu",
+					"ft": "fóruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "farirðu",
+					"ft": "fariði"
+				},
+				"þátíð": {
+					"et": "færirðu",
+					"ft": "færuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "farast",
+		"sagnbót": "farist",
+		"boðháttur": {
+			"et": "farstu",
+			"ft": "farist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ferst", "ferst", "ferst"],
+					"ft": ["förumst", "farist", "farast"]
+				},
+				"þátíð": {
+					"et": ["fórst", "fórst", "fórst"],
+					"ft": ["fórumst", "fórust", "fórust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["farist", "farist", "farist"],
+					"ft": ["förumst", "farist", "farist"]
+				},
+				"þátíð": {
+					"et": ["færist", "færist", "færist"],
+					"ft": ["færumst", "færust", "færust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ferst", "ferst", "ferst"],
+					"ft": ["ferst", "ferst", "ferst"]
+				},
+				"þátíð": {
+					"et": ["fórst", "fórst", "fórst"],
+					"ft": ["fórst", "fórst", "fórst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["farist", "farist", "farist"],
+					"ft": ["farist", "farist", "farist"]
+				},
+				"þátíð": {
+					"et": ["færist", "færist", "færist"],
+					"ft": ["færist", "færist", "færist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ferstu"
+				},
+				"þátíð": {
+					"et": "fórstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "faristu"
+				},
+				"þátíð": {
+					"et": "færistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "farandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["farinn", "farinn", "förnum", "farins"],
+					"kvk": ["farin", "farna", "farinni", "farinnar"],
+					"hk": ["farið", "farið", "förnu", "farins"]
+				},
+				"ft": {
+					"kk": ["farnir", "farna", "förnum", "farinna"],
+					"kvk": ["farnar", "farnar", "förnum", "farinna"],
+					"hk": ["farin", "farin", "förnum", "farinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["farni", "farna", "farna", "farna"],
+					"kvk": ["farna", "förnu", "förnu", "förnu"],
+					"hk": ["farna", "farna", "farna", "farna"]
+				},
+				"ft": {
+					"kk": ["förnu", "förnu", "förnu", "förnu"],
+					"kvk": ["förnu", "förnu", "förnu", "förnu"],
+					"hk": ["förnu", "förnu", "förnu", "förnu"]
+				}
+			}
+		}
+	},
+	"hash": "7fa934a72557f769dc9426b8b341ade149a680fed23f025f5357323e647cf146"
+}

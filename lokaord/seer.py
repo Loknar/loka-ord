@@ -53,16 +53,21 @@ def scan_sentence(sentence):
         scanned_word = {
             'orð': word,
             'orð-hreinsað': None,
+            'leiðir': None,
             'fylgir': None,
             'staða': None,
             'möguleikar': []
         }
         if word not in sight['orð']:
+            onhanging_chars = set(['.', ',', '(', ')', '[', ']'])
             msg = ''
             e_word = word.strip()
-            if e_word[-1] in ('.', ','):
+            if e_word[-1] in onhanging_chars:
                 scanned_word['fylgir'] = e_word[-1]
                 e_word = e_word[:-1]
+            if e_word[0] in onhanging_chars:
+                scanned_word['leiðir'] = e_word[0]
+                e_word = e_word[1:]
             if e_word not in sight['orð'] and 'll' in e_word:
                 e_word = e_word.replace('ll', 'łl')
             if e_word not in sight['orð']:
@@ -104,7 +109,8 @@ def scan_sentence(sentence):
                 scanned_word['orð-hreinsað']
             ))
             highlighted_sentence_list.append(
-                '%s%s' % (
+                '%s%s%s' % (
+                    '' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
                     '\033[43m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
                     '' if scanned_word['fylgir'] is None else scanned_word['fylgir']
                 )
@@ -276,6 +282,46 @@ def build_sight(filename='sight', use_pointless=None):
             'name': 'smáorð, upphrópun',
             'root': datafiles_dir_abs,
             'dir': os.path.join('smaord', 'upphropun'),
+        },
+        {
+            'name': 'sérnöfn, eiginnafn (kk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'eigin'),
+        },
+        {
+            'name': 'sérnöfn, gælunafn (kk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'gaelu'),
+        },
+        {
+            'name': 'sérnöfn, kenninafn (kk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'kenni'),
+        },
+        {
+            'name': 'sérnöfn, eiginnafn (kvk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'eigin'),
+        },
+        {
+            'name': 'sérnöfn, gælunafn (kvk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'gaelu'),
+        },
+        {
+            'name': 'sérnöfn, kenninafn (kvk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'kenni'),
+        },
+        {
+            'name': 'sérnöfn, miłlinafn',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-millinofn'),
+        },
+        {
+            'name': 'sérnöfn, örnefni',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'ornefni'),
         }
     ]
     for task in knowledge_tasks:
@@ -292,6 +338,7 @@ def build_sight(filename='sight', use_pointless=None):
                 ord_mynd += '.%s' % (ord_data['kyn'], )
             if (
                 ord_mynd.startswith('smáorð') or
+                ord_mynd == 'sérnafn.millinafn' or
                 ('óbeygjanlegt' in ord_data and ord_data['óbeygjanlegt'] is True)
             ):
                 if ord_data['orð'] not in sight['orð']:
