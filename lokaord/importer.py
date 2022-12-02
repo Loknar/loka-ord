@@ -128,7 +128,7 @@ def build_db_from_datafiles():
             'dir': os.path.join('smaord', 'forsetning'),
             'f_lookup': lookup_forsetning,
             'f_add': add_forsetning,
-            'has_samsett': False
+            'has_samsett': True
         },
         {
             'name': 'smáorð, atviksorð',
@@ -646,7 +646,14 @@ def add_sagnord(sagnord_data, merking=None):
     add sagnorð from datafile to database
     '''
     assert('flokkur' in sagnord_data and sagnord_data['flokkur'] == 'sagnorð')
-    isl_ord = isl.Ord(Ord=sagnord_data['orð'], Ordflokkur=isl.Ordflokkar.Sagnord, Merking=merking)
+    isl_ord = isl.Ord(
+        Ord=sagnord_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Sagnord,
+        OsjalfstaedurOrdhluti=(
+            'ósjálfstætt' in sagnord_data and sagnord_data['ósjálfstætt'] is True
+        ),
+        Merking=merking
+    )
     db.Session.add(isl_ord)
     db.Session.commit()
     isl_sagnord = isl.Sagnord(fk_Ord_id=isl_ord.Ord_id)
@@ -1736,6 +1743,10 @@ def add_forsetning(forsetning_data, merking=None):
         else:
             raise Exception('Unknown aukafall.')
     db.Session.commit()
+    if 'samsett' in forsetning_data:
+        add_samsett_ord(isl_ord.Ord_id, forsetning_data)
+        isl_ord.Samsett = True
+        db.Session.commit()
     return isl_ord
 
 
