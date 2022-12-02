@@ -1351,17 +1351,17 @@ def add_word(word_data, write_to_file=True):
     assert(isl_ord_directory is not None)
     assert(isl_ord_filename is not None)
     if write_to_file is True:
-    	# note: here we don't ensure unique hash, should we?
-    	isl_ord_data_hash = hashify_ord_data(isl_ord_data)
-    	isl_ord_data['hash'] = isl_ord_data_hash
-    	isl_ord_data_json_str = ord_data_to_fancy_json_str(isl_ord_data)
-    	with open(
-    	    os.path.join(datafiles_dir_abs, isl_ord_directory, isl_ord_filename),
-    	    mode='w',
-    	    encoding='utf-8'
-    	) as json_file:
-    	    json_file.write(isl_ord_data_json_str)
-    	    logman.info('Wrote file "%s/%s' % (isl_ord_directory, isl_ord_filename, ))
+        # note: here we don't ensure unique hash, should we?
+        isl_ord_data_hash = hashify_ord_data(isl_ord_data)
+        isl_ord_data['hash'] = isl_ord_data_hash
+        isl_ord_data_json_str = ord_data_to_fancy_json_str(isl_ord_data)
+        with open(
+            os.path.join(datafiles_dir_abs, isl_ord_directory, isl_ord_filename),
+            mode='w',
+            encoding='utf-8'
+        ) as json_file:
+            json_file.write(isl_ord_data_json_str)
+            logman.info('Wrote file "%s/%s' % (isl_ord_directory, isl_ord_filename, ))
 
 
 def lookup_greinir(greinir_data, merking=None):

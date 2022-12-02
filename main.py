@@ -48,6 +48,9 @@ if __name__ == '__main__':
     lokaord.ArgParser.add_argument('-aw', '--add-word', action='store_true', help=(
         'Add word CLI.'
     ))
+    lokaord.ArgParser.add_argument('-fw', '--fix-word', action='store_true', help=(
+        'Fix word CLI.'
+    ))
     lokaord.ArgParser.add_argument('-st', '--stats', action='store_true', help=(
         'Print database word count data in JSON string.'
     ))
@@ -82,6 +85,7 @@ if __name__ == '__main__':
         'write_files': pargs.write_files,
         'add_word': None,
         'add_word_cli': pargs.add_word,
+        'fix_word_cli': pargs.fix_word,
         'stats': pargs.stats,
         'md_stats': pargs.md_stats,
         'build_sight': pargs.build_sight,

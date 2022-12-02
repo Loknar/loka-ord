@@ -532,6 +532,8 @@ def main(arguments):
         db.init_db()
     if 'add_word_cli' in arguments and arguments['add_word_cli'] is True:
         cli.add_word_cli()
+    if 'fix_word_cli' in arguments and arguments['fix_word_cli'] is True:
+        cli.fix_word_cli()
     if (
         'build_db' in arguments and arguments['build_db'] is True or
         'rebuild_db' in arguments and arguments['rebuild_db'] is True

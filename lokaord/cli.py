@@ -6,10 +6,12 @@ CLI for adding words to SQL database that are in turn written to files.
 """
 import collections
 import json
+import os
 
 from lokaord.version import __version__
 from lokaord import logman
 from lokaord.importer import add_word, lookup_nafnord, lookup_lysingarord, lookup_sagnord
+from lokaord.exporter import hashify_ord_data, ord_data_to_fancy_json_str
 
 
 def add_word_cli():
@@ -44,6 +46,108 @@ def add_word_cli():
     word_data_json_str = json.dumps(word_data, separators=(',', ':'), ensure_ascii=False)
     logman.info('Add-Word-CLI: orð json: %s' % (word_data_json_str, ))
     add_word(word_data)
+
+def fix_word_cli():
+    header = f'''lokaorð ({__version__})
+    ███████╗██╗██╗░░██╗  ░██╗░░░░░░░██╗░█████╗░██████╗░██████╗░
+    ██╔════╝██║╚██╗██╔╝  ░██║░░██╗░░██║██╔══██╗██╔══██╗██╔══██╗
+    █████╗░░██║░╚███╔╝░  ░╚██╗████╗██╔╝██║░░██║██████╔╝██║░░██║
+    ██╔══╝░░██║░██╔██╗░  ░░████╔═████║░██║░░██║██╔══██╗██║░░██║
+    ██║░░░░░██║██╔╝╚██╗  ░░╚██╔╝░╚██╔╝░╚█████╔╝██║░░██║██████╔╝
+    ╚═╝░░░░░╚═╝╚═╝░░╚═╝  ░░░╚═╝░░░╚═╝░░░╚════╝░╚═╝░░╚═╝╚═════╝░\033[0m
+
+   Orðflokkar
+      1) Nafnorð      (dæmi: "hestur", "kýr", "lamb")
+
+    (Einungis stuðningur fyrir ofangreinda orðflokka eins og er.)
+    '''
+    print(header)
+
+    # Biðja um orð í nefnifalli án greinis
+    ord = input('Skrifaðu orðið sem þú vilt leiðrétta í nefnifalli, eintölu og án greinis: ')
+    kyn = input('Kyn (kk/kvk/hk): ')
+
+    # Sækja json yfir í dict er hún er til, annars segja orð sé ekki til
+    path = f'./lokaord/database/data/nafnord/{ord}-{kyn}.json'
+    if os.path.exists(path):
+        with open(path, 'r', encoding="utf-8") as f:
+            old_ord = json.load(f)
+            new_ord = old_ord
+        instructions = '''
+
+    Ef ekki þarf að leiðrétta orð, ýttu þá á enter til að hunsa.
+    Ef orðið er vitlaust, leiðréttu það og ýttu á enter.
+        '''
+        # print('\nEf ekki þarf að leiðrétta orð, ýttu þá á enter til að hunsa. \nEf orðið er vitlaust, leiðréttu það og ýttu á enter.')
+        print(instructions)
+    else:
+        print('Þetta orð finnst ekki.')
+        return
+    if 'et' in old_ord:
+
+        print('\nEintala án greinis')
+        et_nf_ag = input(f'Hér er {old_ord["et"]["ág"][0]}: ')
+        if et_nf_ag != '':
+            new_ord["et"]["ág"][0] = et_nf_ag
+        et_tf_ag = input(f'Um {old_ord["et"]["ág"][1]}: ')
+        if et_tf_ag != '':
+            new_ord["et"]["ág"][1] = et_tf_ag
+        et_thf_ag = input(f'Frá {old_ord["et"]["ág"][2]}: ')
+        if et_thf_ag != '':
+            new_ord["et"]["ág"][2] = et_thf_ag
+        et_ef_ag = input(f'Til {old_ord["et"]["ág"][3]}: ')
+        if et_ef_ag != '':
+            new_ord["et"]["ág"][3] = et_ef_ag
+
+        print('\nEintala með greinis')
+        et_nf_mg = input(f'Hér er {old_ord["et"]["mg"][0]}: ')
+        if et_nf_mg != '':
+            new_ord["et"]["mg"][0] = et_nf_mg
+        et_tf_mg = input(f'Um {old_ord["et"]["mg"][1]}: ')
+        if et_tf_mg != '':
+            new_ord["et"]["mg"][1] = et_tf_mg
+        et_thf_mg = input(f'Frá {old_ord["et"]["mg"][2]}: ')
+        if et_thf_mg != '':
+            new_ord["et"]["mg"][2] = et_thf_mg
+        et_ef_mg = input(f'Til {old_ord["et"]["mg"][3]}: ')
+        if et_ef_mg != '':
+            new_ord["et"]["mg"][3] = et_ef_mg
+
+    if 'ft' in old_ord:
+        print('\nFleirtala án greinis')
+        ft_nf_ag = input(f'Hér eru {old_ord["ft"]["ág"][0]}: ')
+        if ft_nf_ag != '':
+            new_ord["ft"]["ág"][0] = ft_nf_ag
+        ft_tf_ag = input(f'Um {old_ord["ft"]["ág"][1]}: ')
+        if ft_tf_ag != '':
+            new_ord["ft"]["ág"][1] = ft_tf_ag
+        ft_thf_ag = input(f'Frá {old_ord["ft"]["ág"][2]}: ')
+        if ft_thf_ag != '':
+            new_ord["ft"]["ág"][2] = ft_thf_ag
+        ft_ef_ag = input(f'Til {old_ord["ft"]["ág"][3]}: ')
+        if ft_ef_ag != '':
+            new_ord["ft"]["ág"][3] = ft_ef_ag
+
+        print('\nFleirtala með greinis')
+        ft_nf_mg = input(f'Hér eru {old_ord["ft"]["mg"][0]}: ')
+        if ft_nf_mg != '':
+            new_ord["ft"]["mg"][0] = ft_nf_mg
+        ft_tf_mg = input(f'Um {old_ord["ft"]["mg"][1]}: ')
+        if ft_tf_mg != '':
+            new_ord["ft"]["mg"][1] = ft_tf_mg
+        ft_thf_mg = input(f'Frá {old_ord["ft"]["mg"][2]}: ')
+        if ft_thf_mg != '':
+            new_ord["ft"]["mg"][2] = ft_thf_mg
+        ft_ef_mg = input(f'Til {old_ord["ft"]["mg"][3]}: ')
+        if ft_ef_mg != '':
+            new_ord["ft"]["mg"][3] = ft_ef_mg
+    
+    new_ord['hash'] = hashify_ord_data(new_ord)
+
+    with open(path, 'w', encoding="utf-8") as f:
+        f.write(ord_data_to_fancy_json_str(new_ord))
+
+    print('Þér hefur tekist að leiðrétta orðið, en til að uppfæra gagnagrunnin þarftu að keyra main.py -rbdb')
 
 
 def input_ja_nei_cli(fyrirspurn):
