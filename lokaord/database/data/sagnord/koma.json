@@ -1,0 +1,131 @@
+{
+	"orð": "koma",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "koma",
+		"sagnbót": "komið",
+		"boðháttur": {
+			"stýfður": "kom",
+			"et": "komdu",
+			"ft": "komið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kem", "kemur", "kemur"],
+					"ft": ["komum", "komið", "koma"]
+				},
+				"þátíð": {
+					"et": ["kom", "komst", "kom"],
+					"ft": ["komum", "komuð", "komu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["komi", "komir", "komi"],
+					"ft": ["komum", "komið", "komi"]
+				},
+				"þátíð": {
+					"et": ["kæmi", "kæmir", "kæmi"],
+					"ft": ["kæmum", "kæmuð", "kæmu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kemurðu",
+					"ft": "komiði"
+				},
+				"þátíð": {
+					"et": "komstu",
+					"ft": "komuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "komirðu",
+					"ft": "komiði"
+				},
+				"þátíð": {
+					"et": "kæmirðu",
+					"ft": "kæmuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "komast",
+		"sagnbót": "komist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kemst", "kemst", "kemst"],
+					"ft": ["komumst", "komist", "komast"]
+				},
+				"þátíð": {
+					"et": ["komst", "komst", "komst"],
+					"ft": ["komumst", "komust", "komust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["komist", "komist", "komist"],
+					"ft": ["komumst", "komist", "komist"]
+				},
+				"þátíð": {
+					"et": ["kæmist", "kæmist", "kæmist"],
+					"ft": ["kæmumst", "kæmust", "kæmust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kemstu"
+				},
+				"þátíð": {
+					"et": "komstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "komistu"
+				},
+				"þátíð": {
+					"et": "kæmistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "komandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kominn", "kominn", "komnum", "komins"],
+					"kvk": ["komin", "komna", "kominni", "kominnar"],
+					"hk": ["komið", "komið", "komnu", "komins"]
+				},
+				"ft": {
+					"kk": ["komnir", "komna", "komnum", "kominna"],
+					"kvk": ["komnar", "komnar", "komnum", "kominna"],
+					"hk": ["komin", "komin", "komnum", "kominna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["komni", "komna", "komna", "komna"],
+					"kvk": ["komna", "komnu", "komnu", "komnu"],
+					"hk": ["komna", "komna", "komna", "komna"]
+				},
+				"ft": {
+					"kk": ["komnu", "komnu", "komnu", "komnu"],
+					"kvk": ["komnu", "komnu", "komnu", "komnu"],
+					"hk": ["komnu", "komnu", "komnu", "komnu"]
+				}
+			}
+		}
+	},
+	"hash": "ad011e3f5a9ce16138a8d3ad50c53a2524e679959d74bd54e42d2c39e26c3a51"
+}

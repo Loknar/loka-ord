@@ -1,0 +1,151 @@
+{
+	"orð": "framkvæma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"orð": "fram",
+			"flokkur": "smáorð",
+			"undirflokkur": "forsetning",
+			"hash": "717a2fdecce3aa290b9cb9b01310a79645d4517febbebd5d2c55bcf9c888e158"
+		},
+		{
+			"orð": "kvæma",
+			"flokkur": "sagnorð",
+			"ósjálfstætt": true,
+			"hash": "2d67652507f8cc2d179b68ff544f8c99cd863155303104d3cc198f50335bcd95"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framkvæma",
+		"sagnbót": "framkvæmt",
+		"boðháttur": {
+			"stýfður": "framkvæm",
+			"et": "framkvæmdu",
+			"ft": "framkvæmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framkvæmi", "framkvæmir", "framkvæmir"],
+					"ft": ["framkvæmum", "framkvæmið", "framkvæma"]
+				},
+				"þátíð": {
+					"et": ["framkvæmdi", "framkvæmdir", "framkvæmdi"],
+					"ft": ["framkvæmdum", "framkvæmduð", "framkvæmdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framkvæmi", "framkvæmir", "framkvæmi"],
+					"ft": ["framkvæmum", "framkvæmið", "framkvæmi"]
+				},
+				"þátíð": {
+					"et": ["framkvæmdi", "framkvæmdir", "framkvæmdi"],
+					"ft": ["framkvæmdum", "framkvæmduð", "framkvæmdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framkvæmirðu",
+					"ft": "framkvæmiði"
+				},
+				"þátíð": {
+					"et": "framkvæmdirðu",
+					"ft": "framkvæmduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framkvæmirðu",
+					"ft": "framkvæmiði"
+				},
+				"þátíð": {
+					"et": "framkvæmdirðu",
+					"ft": "framkvæmduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "framkvæmast",
+		"sagnbót": "framkvæmst",
+		"boðháttur": {
+			"et": "framkvæmstu",
+			"ft": "framkvæmist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framkvæmist", "framkvæmist", "framkvæmist"],
+					"ft": ["framkvæmumst", "framkvæmist", "framkvæmast"]
+				},
+				"þátíð": {
+					"et": ["framkvæmdist", "framkvæmdist", "framkvæmdist"],
+					"ft": ["framkvæmdumst", "framkvæmdust", "framkvæmdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framkvæmist", "framkvæmist", "framkvæmist"],
+					"ft": ["framkvæmumst", "framkvæmist", "framkvæmist"]
+				},
+				"þátíð": {
+					"et": ["framkvæmdist", "framkvæmdist", "framkvæmdist"],
+					"ft": ["framkvæmdumst", "framkvæmdust", "framkvæmdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framkvæmistu"
+				},
+				"þátíð": {
+					"et": "framkvæmdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framkvæmistu"
+				},
+				"þátíð": {
+					"et": "framkvæmdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framkvæmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framkvæmdur", "framkvæmdan", "framkvæmdum", "framkvæmds"],
+					"kvk": ["framkvæmd", "framkvæmda", "framkvæmdri", "framkvæmdrar"],
+					"hk": ["framkvæmt", "framkvæmt", "framkvæmdu", "framkvæmds"]
+				},
+				"ft": {
+					"kk": ["framkvæmdir", "framkvæmda", "framkvæmdum", "framkvæmdra"],
+					"kvk": ["framkvæmdar", "framkvæmdar", "framkvæmdum", "framkvæmdra"],
+					"hk": ["framkvæmd", "framkvæmd", "framkvæmdum", "framkvæmdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framkvæmdi", "framkvæmda", "framkvæmda", "framkvæmda"],
+					"kvk": ["framkvæmda", "framkvæmdu", "framkvæmdu", "framkvæmdu"],
+					"hk": ["framkvæmda", "framkvæmda", "framkvæmda", "framkvæmda"]
+				},
+				"ft": {
+					"kk": ["framkvæmdu", "framkvæmdu", "framkvæmdu", "framkvæmdu"],
+					"kvk": ["framkvæmdu", "framkvæmdu", "framkvæmdu", "framkvæmdu"],
+					"hk": ["framkvæmdu", "framkvæmdu", "framkvæmdu", "framkvæmdu"]
+				}
+			}
+		}
+	},
+	"hash": "67c761305e4d1a26831b85a4eec5458a81daebc0153e0c25c95620054ba431a4"
+}

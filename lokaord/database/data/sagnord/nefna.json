@@ -1,0 +1,131 @@
+{
+	"orð": "nefna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "nefna",
+		"sagnbót": "nefnt",
+		"boðháttur": {
+			"stýfður": "nefn",
+			"et": "nefndu",
+			"ft": "nefnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nefni", "nefnir", "nefnir"],
+					"ft": ["nefnum", "nefnið", "nefna"]
+				},
+				"þátíð": {
+					"et": ["nefndi", "nefndir", "nefndi"],
+					"ft": ["nefndum", "nefnduð", "nefndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nefni", "nefnir", "nefni"],
+					"ft": ["nefnum", "nefnið", "nefni"]
+				},
+				"þátíð": {
+					"et": ["nefndi", "nefndir", "nefndi"],
+					"ft": ["nefndum", "nefnduð", "nefndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nefnirðu",
+					"ft": "nefniði"
+				},
+				"þátíð": {
+					"et": "nefndirðu",
+					"ft": "nefnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nefnirðu",
+					"ft": "nefniði"
+				},
+				"þátíð": {
+					"et": "nefndirðu",
+					"ft": "nefnduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "nefnast",
+		"sagnbót": "nefnst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nefnist", "nefnist", "nefnist"],
+					"ft": ["nefnumst", "nefnist", "nefnast"]
+				},
+				"þátíð": {
+					"et": ["nefndist", "nefndist", "nefndist"],
+					"ft": ["nefndumst", "nefndust", "nefndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nefnist", "nefnist", "nefnist"],
+					"ft": ["nefnumst", "nefnist", "nefnist"]
+				},
+				"þátíð": {
+					"et": ["nefndist", "nefndist", "nefndist"],
+					"ft": ["nefndumst", "nefndust", "nefndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nefnistu"
+				},
+				"þátíð": {
+					"et": "nefndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nefnistu"
+				},
+				"þátíð": {
+					"et": "nefndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nefnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nefndur", "nefndan", "nefndum", "nefnds"],
+					"kvk": ["nefnd", "nefnda", "nefndri", "nefndrar"],
+					"hk": ["nefnt", "nefnt", "nefndu", "nefnds"]
+				},
+				"ft": {
+					"kk": ["nefndir", "nefnda", "nefndum", "nefndra"],
+					"kvk": ["nefndar", "nefndar", "nefndum", "nefndra"],
+					"hk": ["nefnd", "nefnd", "nefndum", "nefndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nefndi", "nefnda", "nefnda", "nefnda"],
+					"kvk": ["nefnda", "nefndu", "nefndu", "nefndu"],
+					"hk": ["nefnda", "nefnda", "nefnda", "nefnda"]
+				},
+				"ft": {
+					"kk": ["nefndu", "nefndu", "nefndu", "nefndu"],
+					"kvk": ["nefndu", "nefndu", "nefndu", "nefndu"],
+					"hk": ["nefndu", "nefndu", "nefndu", "nefndu"]
+				}
+			}
+		}
+	},
+	"hash": "5cfb9dae81068785d8e9b920145662dd85079ab05bd98dde394e90f74ddae2a6"
+}

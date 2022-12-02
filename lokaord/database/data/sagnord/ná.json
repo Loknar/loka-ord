@@ -1,0 +1,135 @@
+{
+	"orð": "ná",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ná",
+		"sagnbót": "náð",
+		"boðháttur": {
+			"stýfður": "ná",
+			"et": "náðu",
+			"ft": "náið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["næ", "nærð", "nær"],
+					"ft": ["náum", "náið", "ná"]
+				},
+				"þátíð": {
+					"et": ["náði", "náðir", "náði"],
+					"ft": ["náðum", "náðuð", "náðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nái", "náir", "nái"],
+					"ft": ["náum", "náið", "nái"]
+				},
+				"þátíð": {
+					"et": ["næði", "næðir", "næði"],
+					"ft": ["næðum", "næðuð", "næðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nærðu",
+					"ft": "náiði"
+				},
+				"þátíð": {
+					"et": "náðirðu",
+					"ft": "náðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "náirðu",
+					"ft": "náiði"
+				},
+				"þátíð": {
+					"et": "næðirðu",
+					"ft": "næðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "nást",
+		"sagnbót": "náðst",
+		"boðháttur": {
+			"et": "náðstu",
+			"ft": "náist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["næst", "næst", "næst"],
+					"ft": ["náumst", "náist", "nást"]
+				},
+				"þátíð": {
+					"et": ["náðist", "náðist", "náðist"],
+					"ft": ["náðumst", "náðust", "náðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["náist", "náist", "náist"],
+					"ft": ["náumst", "náist", "náist"]
+				},
+				"þátíð": {
+					"et": ["næðist", "næðist", "næðist"],
+					"ft": ["næðumst", "næðust", "næðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "næstu"
+				},
+				"þátíð": {
+					"et": "náðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "náistu"
+				},
+				"þátíð": {
+					"et": "næðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "náandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["náður", "náðan", "náðum", "náðs"],
+					"kvk": ["náð", "náða", "náðri", "náðrar"],
+					"hk": ["náð", "náð", "náðu", "náðs"]
+				},
+				"ft": {
+					"kk": ["náðir", "náða", "náðum", "náðra"],
+					"kvk": ["náðar", "náðar", "náðum", "náðra"],
+					"hk": ["náð", "náð", "náðum", "náðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["náði", "náða", "náða", "náða"],
+					"kvk": ["náða", "náðu", "náðu", "náðu"],
+					"hk": ["náða", "náða", "náða", "náða"]
+				},
+				"ft": {
+					"kk": ["náðu", "náðu", "náðu", "náðu"],
+					"kvk": ["náðu", "náðu", "náðu", "náðu"],
+					"hk": ["náðu", "náðu", "náðu", "náðu"]
+				}
+			}
+		}
+	},
+	"hash": "6ec4a9d56212050c346501de6eed375e4680b77fd4d185a2119c482c22d10e44"
+}
