@@ -1,0 +1,131 @@
+{
+	"orð": "ræða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ræða",
+		"sagnbót": "rætt",
+		"boðháttur": {
+			"stýfður": "ræð",
+			"et": "ræddu",
+			"ft": "ræðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ræði", "ræðir", "ræðir"],
+					"ft": ["ræðum", "ræðið", "ræða"]
+				},
+				"þátíð": {
+					"et": ["ræddi", "ræddir", "ræddi"],
+					"ft": ["ræddum", "rædduð", "ræddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ræði", "ræðir", "ræði"],
+					"ft": ["ræðum", "ræðið", "ræði"]
+				},
+				"þátíð": {
+					"et": ["ræddi", "ræddir", "ræddi"],
+					"ft": ["ræddum", "rædduð", "ræddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ræðirðu",
+					"ft": "ræðiði"
+				},
+				"þátíð": {
+					"et": "ræddirðu",
+					"ft": "rædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ræðirðu",
+					"ft": "ræðiði"
+				},
+				"þátíð": {
+					"et": "ræddirðu",
+					"ft": "rædduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ræðast",
+		"sagnbót": "ræðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ræðist", "ræðist", "ræðist"],
+					"ft": ["ræðumst", "ræðist", "ræðast"]
+				},
+				"þátíð": {
+					"et": ["ræddist", "ræddist", "ræddist"],
+					"ft": ["ræddumst", "ræddust", "ræddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ræðist", "ræðist", "ræðist"],
+					"ft": ["ræðumst", "ræðist", "ræðist"]
+				},
+				"þátíð": {
+					"et": ["ræddist", "ræddist", "ræddist"],
+					"ft": ["ræddumst", "ræddust", "ræddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ræðistu"
+				},
+				"þátíð": {
+					"et": "ræddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ræðistu"
+				},
+				"þátíð": {
+					"et": "ræddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ræðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ræddur", "ræddan", "ræddum", "rædds"],
+					"kvk": ["rædd", "rædda", "ræddri", "ræddrar"],
+					"hk": ["rætt", "rætt", "ræddu", "rædds"]
+				},
+				"ft": {
+					"kk": ["ræddir", "rædda", "ræddum", "ræddra"],
+					"kvk": ["ræddar", "ræddar", "ræddum", "ræddra"],
+					"hk": ["rædd", "rædd", "ræddum", "ræddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ræddi", "rædda", "rædda", "rædda"],
+					"kvk": ["rædda", "ræddu", "ræddu", "ræddu"],
+					"hk": ["rædda", "rædda", "rædda", "rædda"]
+				},
+				"ft": {
+					"kk": ["ræddu", "ræddu", "ræddu", "ræddu"],
+					"kvk": ["ræddu", "ræddu", "ræddu", "ræddu"],
+					"hk": ["ræddu", "ræddu", "ræddu", "ræddu"]
+				}
+			}
+		}
+	},
+	"hash": "0ba33853099ec71e14548fd4b5576d13e5f896f9d928f5aacdf8de8621cbf589"
+}

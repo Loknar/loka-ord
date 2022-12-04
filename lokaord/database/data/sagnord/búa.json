@@ -1,0 +1,135 @@
+{
+	"orð": "búa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "búa",
+		"sagnbót": "búið",
+		"boðháttur": {
+			"stýfður": "bú",
+			"et": "búðu",
+			"ft": "búið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bý", "býrð", "býr"],
+					"ft": ["búum", "búið", "búa"]
+				},
+				"þátíð": {
+					"et": ["bjó", "bjóst", "bjó"],
+					"ft": ["bjuggum", "bjugguð", "bjuggu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búi", "búir", "búi"],
+					"ft": ["búum", "búið", "búi"]
+				},
+				"þátíð": {
+					"et": ["byggi", "byggir", "byggi"],
+					"ft": ["byggjum", "byggjuð", "byggju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "býrðu",
+					"ft": "búiði"
+				},
+				"þátíð": {
+					"et": "bjóstu",
+					"ft": "bjugguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "búirðu",
+					"ft": "búiði"
+				},
+				"þátíð": {
+					"et": "byggirðu",
+					"ft": "byggjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "búast",
+		"sagnbót": "búist",
+		"boðháttur": {
+			"et": "bústu",
+			"ft": "búist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["býst", "býst", "býst"],
+					"ft": ["búumst", "búist", "búast"]
+				},
+				"þátíð": {
+					"et": ["bjóst", "bjóst", "bjóst"],
+					"ft": ["bjuggumst", "bjuggust", "bjuggust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búist", "búist", "búist"],
+					"ft": ["búumst", "búist", "búist"]
+				},
+				"þátíð": {
+					"et": ["byggist", "byggist", "byggist"],
+					"ft": ["byggjumst", "byggjust", "byggjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "býstu"
+				},
+				"þátíð": {
+					"et": "bjóstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "búistu"
+				},
+				"þátíð": {
+					"et": "byggistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "búandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["búinn", "búinn", "búnum", "búins"],
+					"kvk": ["búin", "búna", "búinni", "búinnar"],
+					"hk": ["búið", "búið", "búnu", "búins"]
+				},
+				"ft": {
+					"kk": ["búnir", "búna", "búnum", "búinna"],
+					"kvk": ["búnar", "búnar", "búnum", "búinna"],
+					"hk": ["búin", "búin", "búnum", "búinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["búni", "búna", "búna", "búna"],
+					"kvk": ["búna", "búnu", "búnu", "búnu"],
+					"hk": ["búna", "búna", "búna", "búna"]
+				},
+				"ft": {
+					"kk": ["búnu", "búnu", "búnu", "búnu"],
+					"kvk": ["búnu", "búnu", "búnu", "búnu"],
+					"hk": ["búnu", "búnu", "búnu", "búnu"]
+				}
+			}
+		}
+	},
+	"hash": "68a74b78e5befe880375b888535be8f3fc7c9727978d1cc90764d11c2e330b9f"
+}

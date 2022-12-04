@@ -1,0 +1,135 @@
+{
+	"orð": "binda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "binda",
+		"sagnbót": "bundið",
+		"boðháttur": {
+			"stýfður": "bind",
+			"et": "bittu",
+			"ft": "bindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bind", "bindur", "bindur"],
+					"ft": ["bindum", "bindið", "binda"]
+				},
+				"þátíð": {
+					"et": ["batt", "bast", "batt"],
+					"ft": ["bundum", "bunduð", "bundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bindi", "bindir", "bindi"],
+					"ft": ["bindum", "bindið", "bindi"]
+				},
+				"þátíð": {
+					"et": ["byndi", "byndir", "byndi"],
+					"ft": ["byndum", "bynduð", "byndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bindurðu",
+					"ft": "bindiði"
+				},
+				"þátíð": {
+					"et": "bastu",
+					"ft": "bunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bindirðu",
+					"ft": "bindiði"
+				},
+				"þátíð": {
+					"et": "byndirðu",
+					"ft": "bynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bindast",
+		"sagnbót": "bundist",
+		"boðháttur": {
+			"et": "binstu",
+			"ft": "bindist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["binst", "binst", "binst"],
+					"ft": ["bindumst", "bindist", "bindast"]
+				},
+				"þátíð": {
+					"et": ["bast", "bast", "bast"],
+					"ft": ["bundumst", "bundust", "bundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bindist", "bindist", "bindist"],
+					"ft": ["bindumst", "bindist", "bindist"]
+				},
+				"þátíð": {
+					"et": ["byndist", "byndist", "byndist"],
+					"ft": ["byndumst", "byndust", "byndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "binstu"
+				},
+				"þátíð": {
+					"et": "bastu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bindistu"
+				},
+				"þátíð": {
+					"et": "byndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "finnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bundinn", "bundinn", "bundnum", "bundins"],
+					"kvk": ["bundin", "bundna", "bundinni", "bundinnar"],
+					"hk": ["bundið", "bundið", "bundnu", "bundins"]
+				},
+				"ft": {
+					"kk": ["bundnir", "bundna", "bundnum", "bundinna"],
+					"kvk": ["bundnar", "bundnar", "bundnum", "bundinna"],
+					"hk": ["bundin", "bundin", "bundnum", "bundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["bundni", "bundna", "bundna", "bundna"],
+					"kvk": ["bundna", "bundnu", "bundnu", "bundnu"],
+					"hk": ["bundna", "bundna", "bundna", "bundna"]
+				},
+				"ft": {
+					"kk": ["bundnu", "bundnu", "bundnu", "bundnu"],
+					"kvk": ["bundnu", "bundnu", "bundnu", "bundnu"],
+					"hk": ["bundnu", "bundnu", "bundnu", "bundnu"]
+				}
+			}
+		}
+	},
+	"hash": "6068e79d0bd6fbcc1656d76b9d89b407a1eb681a29460e7b29c5543275f56331"
+}

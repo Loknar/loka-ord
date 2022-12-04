@@ -1,0 +1,140 @@
+{
+	"orð": "halda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "halda",
+		"sagnbót": "haldið",
+		"boðháttur": {
+			"stýfður": "hald",
+			"et": "haltu",
+			"ft": "haldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["held", "heldur", "heldur"],
+					"ft": ["höldum", "haldið", "halda"]
+				},
+				"þátíð": {
+					"et": ["hélt", "hélst", "hélt"],
+					"ft": ["héldum", "hélduð", "héldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["haldi", "haldir", "haldi"],
+					"ft": ["höldum", "haldið", "haldi"]
+				},
+				"þátíð": {
+					"et": ["héldi", "héldir", "héldi"],
+					"ft": ["héldum", "hélduð", "héldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heldurðu",
+					"ft": "haldiði"
+				},
+				"þátíð": {
+					"et": "hélstu",
+					"ft": "hélduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "haldirðu",
+					"ft": "haldiði"
+				},
+				"þátíð": {
+					"et": "héldirðu",
+					"ft": "hélduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "haldast",
+		"sagnbót": "haldist",
+		"boðháttur": {
+			"et": "halstu",
+			"ft": "haldist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["helst", "helst", "helst"],
+					"ft": ["höldumst", "haldist", "haldast"]
+				},
+				"þátíð": {
+					"et": ["hélst", "hélst", "hélst"],
+					"ft": ["héldumst", "héldust", "héldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["haldist", "haldist", "haldist"],
+					"ft": ["höldumst", "haldist", "haldist"]
+				},
+				"þátíð": {
+					"et": ["héldist", "héldist", "héldist"],
+					"ft": ["héldumst", "héldust", "héldust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["helst", "helst", "helst"],
+					"ft": ["helst", "helst", "helst"]
+				},
+				"þátíð": {
+					"et": ["hélst", "hélst", "hélst"],
+					"ft": ["hélst", "hélst", "hélst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["haldist", "haldist", "haldist"],
+					"ft": ["haldist", "haldist", "haldist"]
+				},
+				"þátíð": {
+					"et": ["héldist", "héldist", "héldist"],
+					"ft": ["héldist", "héldist", "héldist"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "haldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["haldinn", "haldinn", "höldnum", "haldins"],
+					"kvk": ["haldin", "haldna", "haldinni", "haldinnar"],
+					"hk": ["haldið", "haldið", "höldnu", "haldins"]
+				},
+				"ft": {
+					"kk": ["haldnir", "haldna", "höldnum", "haldinna"],
+					"kvk": ["haldnar", "haldnar", "höldnum", "haldinna"],
+					"hk": ["haldin", "haldin", "höldnum", "haldinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["haldni", "haldna", "haldna", "haldna"],
+					"kvk": ["haldna", "höldnu", "höldnu", "höldnu"],
+					"hk": ["haldna", "haldna", "haldna", "haldna"]
+				},
+				"ft": {
+					"kk": ["höldnu", "höldnu", "höldnu", "höldnu"],
+					"kvk": ["höldnu", "höldnu", "höldnu", "höldnu"],
+					"hk": ["höldnu", "höldnu", "höldnu", "höldnu"]
+				}
+			}
+		}
+	},
+	"hash": "d9d76296a3e738f520bbb59c2e768ecaf6d3d591f226810f9326df04dd33883e"
+}

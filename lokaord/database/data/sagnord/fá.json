@@ -1,0 +1,135 @@
+{
+	"orð": "fá",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "fá",
+		"sagnbót": "fengið",
+		"boðháttur": {
+			"stýfður": "fá",
+			"et": "fáðu",
+			"ft": "fáið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fæ", "færð", "fær"],
+					"ft": ["fáum", "fáið", "fá"]
+				},
+				"þátíð": {
+					"et": ["fékk", "fékkst", "fékk"],
+					"ft": ["fengum", "fenguð", "fengu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fái", "fáir", "fái"],
+					"ft": ["fáum", "fáið", "fái"]
+				},
+				"þátíð": {
+					"et": ["fengi", "fengir", "fengi"],
+					"ft": ["fengjum", "fengjuð", "fengju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "færðu",
+					"ft": "fáiði"
+				},
+				"þátíð": {
+					"et": "fékkstu",
+					"ft": "fenguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fáirðu",
+					"ft": "fáiði"
+				},
+				"þátíð": {
+					"et": "fengirðu",
+					"ft": "fengjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fást",
+		"sagnbót": "fengist",
+		"boðháttur": {
+			"et": "fástu",
+			"ft": "fáist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fæst", "fæst", "fæst"],
+					"ft": ["fáumst", "fáist", "fást"]
+				},
+				"þátíð": {
+					"et": ["fékkst", "fékkst", "fékkst"],
+					"ft": ["fengumst", "fengust", "fengust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fáist", "fáist", "fáist"],
+					"ft": ["fáumst", "fáist", "fáist"]
+				},
+				"þátíð": {
+					"et": ["fengist", "fengist", "fengist"],
+					"ft": ["fengjumst", "fengjust", "fengjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fæstu"
+				},
+				"þátíð": {
+					"et": "fékkstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fáistu"
+				},
+				"þátíð": {
+					"et": "fengistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fáandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fenginn", "fenginn", "fengnum", "fengins"],
+					"kvk": ["fengin", "fengna", "fenginni", "fenginnar"],
+					"hk": ["fengið", "fengið", "fengnu", "fengins"]
+				},
+				"ft": {
+					"kk": ["fengnir", "fengna", "fengnum", "fenginna"],
+					"kvk": ["fengnar", "fengnar", "fengnum", "fenginna"],
+					"hk": ["fengin", "fengin", "fengnum", "fenginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fengni", "fengna", "fengna", "fengna"],
+					"kvk": ["fengna", "fengnu", "fengnu", "fengnu"],
+					"hk": ["fengna", "fengna", "fengna", "fengna"]
+				},
+				"ft": {
+					"kk": ["fengnu", "fengnu", "fengnu", "fengnu"],
+					"kvk": ["fengnu", "fengnu", "fengnu", "fengnu"],
+					"hk": ["fengnu", "fengnu", "fengnu", "fengnu"]
+				}
+			}
+		}
+	},
+	"hash": "89c824ca3f20f8e9f55a63214bd5b2e995a6e1e51fbc892a712e2bf34706fa25"
+}

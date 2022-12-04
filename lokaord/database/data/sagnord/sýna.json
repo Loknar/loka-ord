@@ -1,0 +1,154 @@
+{
+	"orð": "sýna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sýna",
+		"sagnbót": "sýnt",
+		"boðháttur": {
+			"stýfður": "sýn",
+			"et": "sýndu",
+			"ft": "sýnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýni", "sýnir", "sýnir"],
+					"ft": ["sýnum", "sýnið", "sýna"]
+				},
+				"þátíð": {
+					"et": ["sýndi", "sýndir", "sýndi"],
+					"ft": ["sýndum", "sýnduð", "sýndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sýni", "sýnir", "sýni"],
+					"ft": ["sýnum", "sýnið", "sýni"]
+				},
+				"þátíð": {
+					"et": ["sýndi", "sýndir", "sýndi"],
+					"ft": ["sýndum", "sýnduð", "sýndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sýnirðu",
+					"ft": "sýniði"
+				},
+				"þátíð": {
+					"et": "sýndirðu",
+					"ft": "sýnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sýnirðu",
+					"ft": "sýniði"
+				},
+				"þátíð": {
+					"et": "sýndirðu",
+					"ft": "sýnduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sýnast",
+		"sagnbót": "sýnst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýnist", "sýnist", "sýnist"],
+					"ft": ["sýnumst", "sýnist", "sýnast"]
+				},
+				"þátíð": {
+					"et": ["sýndist", "sýndist", "sýndist"],
+					"ft": ["sýndumst", "sýndust", "sýndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sýnist", "sýnist", "sýnist"],
+					"ft": ["sýnumst", "sýnist", "sýnist"]
+				},
+				"þátíð": {
+					"et": ["sýndist", "sýndist", "sýndist"],
+					"ft": ["sýndumst", "sýndust", "sýndust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýnist", "sýnist", "sýnist"],
+					"ft": ["sýnist", "sýnist", "sýnist"]
+				},
+				"þátíð": {
+					"et": ["sýndist", "sýndist", "sýndist"],
+					"ft": ["sýndist", "sýndist", "sýndist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sýnist", "sýnist", "sýnist"],
+					"ft": ["sýnist", "sýnist", "sýnist"]
+				},
+				"þátíð": {
+					"et": ["sýndist", "sýndist", "sýndist"],
+					"ft": ["sýndist", "sýndist", "sýndist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sýnistu"
+				},
+				"þátíð": {
+					"et": "sýndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sýnistu"
+				},
+				"þátíð": {
+					"et": "sýndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sýnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sýndur", "sýndan", "sýndum", "sýnds"],
+					"kvk": ["sýnd", "sýnda", "sýndri", "sýndrar"],
+					"hk": ["sýnt", "sýnt", "sýndu", "sýnds"]
+				},
+				"ft": {
+					"kk": ["sýndir", "sýnda", "sýndum", "sýndra"],
+					"kvk": ["sýndar", "sýndar", "sýndum", "sýndra"],
+					"hk": ["sýnd", "sýnd", "sýndum", "sýndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sýndi", "sýnda", "sýnda", "sýnda"],
+					"kvk": ["sýnda", "sýndu", "sýndu", "sýndu"],
+					"hk": ["sýnda", "sýnda", "sýnda", "sýnda"]
+				},
+				"ft": {
+					"kk": ["sýndu", "sýndu", "sýndu", "sýndu"],
+					"kvk": ["sýndu", "sýndu", "sýndu", "sýndu"],
+					"hk": ["sýndu", "sýndu", "sýndu", "sýndu"]
+				}
+			}
+		}
+	},
+	"hash": "059ea6adc08601d813d27ee173baa32585a86a43b7d32d878e1bc288fbfae7f2"
+}

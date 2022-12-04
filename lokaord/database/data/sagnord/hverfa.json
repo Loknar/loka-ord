@@ -1,0 +1,87 @@
+{
+	"orð": "hverfa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hverfa",
+		"sagnbót": "horfið",
+		"boðháttur": {
+			"stýfður": "hverf",
+			"et": "hverfðu",
+			"ft": "hverfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hverf", "hverfur", "hverfur"],
+					"ft": ["hverfum", "hverfið", "hverfa"]
+				},
+				"þátíð": {
+					"et": ["hvarf", "hvarfst", "hvarf"],
+					"ft": ["hurfum", "hurfuð", "hurfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hverfi", "hverfir", "hverfi"],
+					"ft": ["hverfum", "hverfið", "hverfi"]
+				},
+				"þátíð": {
+					"et": ["hyrfi", "hyrfir", "hyrfi"],
+					"ft": ["hyrfum", "hyrfuð", "hyrfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hverfurðu",
+					"ft": "hverfiði"
+				},
+				"þátíð": {
+					"et": "hvarfstu",
+					"ft": "hurfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hverfirðu",
+					"ft": "hverfiði"
+				},
+				"þátíð": {
+					"et": "hyrfirðu",
+					"ft": "hyrfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hverfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["horfinn", "horfinn", "horfnum", "horfins"],
+					"kvk": ["horfin", "horfna", "horfinni", "horfinnar"],
+					"hk": ["horfið", "horfið", "horfnu", "horfins"]
+				},
+				"ft": {
+					"kk": ["horfnir", "horfna", "horfnum", "horfinna"],
+					"kvk": ["horfnar", "horfnar", "horfnum", "horfinna"],
+					"hk": ["horfin", "horfin", "horfnum", "horfinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["horfni", "horfna", "horfna", "horfna"],
+					"kvk": ["horfna", "horfnu", "horfnu", "horfnu"],
+					"hk": ["horfna", "horfna", "horfna", "horfna"]
+				},
+				"ft": {
+					"kk": ["horfnu", "horfnu", "horfnu", "horfnu"],
+					"kvk": ["horfnu", "horfnu", "horfnu", "horfnu"],
+					"hk": ["horfnu", "horfnu", "horfnu", "horfnu"]
+				}
+			}
+		}
+	},
+	"hash": "9f373a1b172e20a72908dd2ee85584180c2c27a806da68d83e20c853060c6de6"
+}

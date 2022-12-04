@@ -1,0 +1,158 @@
+{
+	"orð": "taka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "taka",
+		"sagnbót": "tekið",
+		"boðháttur": {
+			"stýfður": "tak",
+			"et": "taktu",
+			"ft": "takið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tek", "tekur", "tekur"],
+					"ft": ["tökum", "takið", "taka"]
+				},
+				"þátíð": {
+					"et": ["tók", "tókst", "tók"],
+					"ft": ["tókum", "tókuð", "tóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["taki", "takir", "taki"],
+					"ft": ["tökum", "takið", "taki"]
+				},
+				"þátíð": {
+					"et": ["tæki", "tækir", "tæki"],
+					"ft": ["tækjum", "tækjuð", "tækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tekurðu",
+					"ft": "takiði"
+				},
+				"þátíð": {
+					"et": "tókstu",
+					"ft": "tókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "takirðu",
+					"ft": "takiði"
+				},
+				"þátíð": {
+					"et": "tækirðu",
+					"ft": "tækjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "takast",
+		"sagnbót": "tekist",
+		"boðháttur": {
+			"et": "takstu",
+			"ft": "takist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tekst", "tekst", "tekst"],
+					"ft": ["tökumst", "takist", "takast"]
+				},
+				"þátíð": {
+					"et": ["tókst", "tókst", "tókst"],
+					"ft": ["tókumst", "tókust", "tókust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["takist", "takist", "takist"],
+					"ft": ["tökumst", "takist", "takist"]
+				},
+				"þátíð": {
+					"et": ["tækist", "tækist", "tækist"],
+					"ft": ["tækjumst", "tækjust", "tækjust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tekst", "tekst", "tekst"],
+					"ft": ["tekst", "tekst", "tekst"]
+				},
+				"þátíð": {
+					"et": ["tókst", "tókst", "tókst"],
+					"ft": ["tókst", "tókst", "tókst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["takist", "takist", "takist"],
+					"ft": ["takist", "takist", "takist"]
+				},
+				"þátíð": {
+					"et": ["tækist", "tækist", "tækist"],
+					"ft": ["tækist", "tækist", "tækist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tekstu"
+				},
+				"þátíð": {
+					"et": "tókstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "takistu"
+				},
+				"þátíð": {
+					"et": "tækistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "takandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tekinn", "tekinn", "teknum", "tekins"],
+					"kvk": ["tekin", "tekna", "tekinni", "tekinnar"],
+					"hk": ["tekið", "tekið", "teknu", "tekins"]
+				},
+				"ft": {
+					"kk": ["teknir", "tekna", "teknum", "tekinna"],
+					"kvk": ["teknar", "teknar", "teknum", "tekinna"],
+					"hk": ["tekin", "tekin", "teknum", "tekinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tekni", "tekna", "tekna", "tekna"],
+					"kvk": ["tekna", "teknu", "teknu", "teknu"],
+					"hk": ["tekna", "tekna", "tekna", "tekna"]
+				},
+				"ft": {
+					"kk": ["teknu", "teknu", "teknu", "teknu"],
+					"kvk": ["teknu", "teknu", "teknu", "teknu"],
+					"hk": ["teknu", "teknu", "teknu", "teknu"]
+				}
+			}
+		}
+	},
+	"hash": "450a7e5b2161a6dcb24a995c409b095c4bd6b0bfb13b444ad548da0662ba0988"
+}

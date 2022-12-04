@@ -1,0 +1,150 @@
+{
+	"orð": "kerfisbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kerfis",
+			"samsetning": "eignarfalls",
+			"orð": "kerfi",
+			"flokkur": "nafnorð",
+			"kyn": "hk",
+			"hash": "f3a5dda42b1f1a1b29c074663aa3d549a5676ed4455a756afa514cffdf998c92"
+		},
+		{
+			"orð": "binda",
+			"flokkur": "sagnorð",
+			"hash": "6068e79d0bd6fbcc1656d76b9d89b407a1eb681a29460e7b29c5543275f56331"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kerfisbinda",
+		"sagnbót": "kerfisbundið",
+		"boðháttur": {
+			"stýfður": "kerfisbind",
+			"et": "kerfisbittu",
+			"ft": "kerfisbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kerfisbind", "kerfisbindur", "kerfisbindur"],
+					"ft": ["kerfisbindum", "kerfisbindið", "kerfisbinda"]
+				},
+				"þátíð": {
+					"et": ["kerfisbatt", "kerfisbast", "kerfisbatt"],
+					"ft": ["kerfisbundum", "kerfisbunduð", "kerfisbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kerfisbindi", "kerfisbindir", "kerfisbindi"],
+					"ft": ["kerfisbindum", "kerfisbindið", "kerfisbindi"]
+				},
+				"þátíð": {
+					"et": ["kerfisbyndi", "kerfisbyndir", "kerfisbyndi"],
+					"ft": ["kerfisbyndum", "kerfisbynduð", "kerfisbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kerfisbindurðu",
+					"ft": "kerfisbindiði"
+				},
+				"þátíð": {
+					"et": "kerfisbastu",
+					"ft": "kerfisbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kerfisbindirðu",
+					"ft": "kerfisbindiði"
+				},
+				"þátíð": {
+					"et": "kerfisbyndirðu",
+					"ft": "kerfisbynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kerfisbindast",
+		"sagnbót": "kerfisbundist",
+		"boðháttur": {
+			"et": "kerfisbinstu",
+			"ft": "kerfisbindist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kerfisbinst", "kerfisbinst", "kerfisbinst"],
+					"ft": ["kerfisbindumst", "kerfisbindist", "kerfisbindast"]
+				},
+				"þátíð": {
+					"et": ["kerfisbast", "kerfisbast", "kerfisbast"],
+					"ft": ["kerfisbundumst", "kerfisbundust", "kerfisbundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kerfisbindist", "kerfisbindist", "kerfisbindist"],
+					"ft": ["kerfisbindumst", "kerfisbindist", "kerfisbindist"]
+				},
+				"þátíð": {
+					"et": ["kerfisbyndist", "kerfisbyndist", "kerfisbyndist"],
+					"ft": ["kerfisbyndumst", "kerfisbyndust", "kerfisbyndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kerfisbinstu"
+				},
+				"þátíð": {
+					"et": "kerfisbastu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kerfisbindistu"
+				},
+				"þátíð": {
+					"et": "kerfisbyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kerfisfinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kerfisbundinn", "kerfisbundinn", "kerfisbundnum", "kerfisbundins"],
+					"kvk": ["kerfisbundin", "kerfisbundna", "kerfisbundinni", "kerfisbundinnar"],
+					"hk": ["kerfisbundið", "kerfisbundið", "kerfisbundnu", "kerfisbundins"]
+				},
+				"ft": {
+					"kk": ["kerfisbundnir", "kerfisbundna", "kerfisbundnum", "kerfisbundinna"],
+					"kvk": ["kerfisbundnar", "kerfisbundnar", "kerfisbundnum", "kerfisbundinna"],
+					"hk": ["kerfisbundin", "kerfisbundin", "kerfisbundnum", "kerfisbundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kerfisbundni", "kerfisbundna", "kerfisbundna", "kerfisbundna"],
+					"kvk": ["kerfisbundna", "kerfisbundnu", "kerfisbundnu", "kerfisbundnu"],
+					"hk": ["kerfisbundna", "kerfisbundna", "kerfisbundna", "kerfisbundna"]
+				},
+				"ft": {
+					"kk": ["kerfisbundnu", "kerfisbundnu", "kerfisbundnu", "kerfisbundnu"],
+					"kvk": ["kerfisbundnu", "kerfisbundnu", "kerfisbundnu", "kerfisbundnu"],
+					"hk": ["kerfisbundnu", "kerfisbundnu", "kerfisbundnu", "kerfisbundnu"]
+				}
+			}
+		}
+	},
+	"hash": "632114f77334f31fafe1c8898542d6d215610c2fef6a388c17f010fe4acbca52"
+}

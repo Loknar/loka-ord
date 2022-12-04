@@ -1,0 +1,154 @@
+{
+	"orð": "kenna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kenna",
+		"sagnbót": "kennt",
+		"boðháttur": {
+			"stýfður": "kenn",
+			"et": "kenndu",
+			"ft": "kennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kenni", "kennir", "kennir"],
+					"ft": ["kennum", "kennið", "kenna"]
+				},
+				"þátíð": {
+					"et": ["kenndi", "kenndir", "kenndi"],
+					"ft": ["kenndum", "kennduð", "kenndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kenni", "kennir", "kenni"],
+					"ft": ["kennum", "kennið", "kenni"]
+				},
+				"þátíð": {
+					"et": ["kenndi", "kenndir", "kenndi"],
+					"ft": ["kenndum", "kennduð", "kenndu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "eignarfall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kennir", "kennir", "kennir"],
+					"ft": ["kennir", "kennir", "kennir"]
+				},
+				"þátíð": {
+					"et": ["kenndi", "kenndi", "kenndi"],
+					"ft": ["kenndi", "kenndi", "kenndi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kenni", "kenni", "kenni"],
+					"ft": ["kenni", "kenni", "kenni"]
+				},
+				"þátíð": {
+					"et": ["kenndi", "kenndi", "kenndi"],
+					"ft": ["kenndi", "kenndi", "kenndi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kennirðu",
+					"ft": "kenniði"
+				},
+				"þátíð": {
+					"et": "kenndirðu",
+					"ft": "kennduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kennirðu",
+					"ft": "kenniði"
+				},
+				"þátíð": {
+					"et": "kenndirðu",
+					"ft": "kennduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kennast",
+		"sagnbót": "kennst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kennist", "kennist", "kennist"],
+					"ft": ["kennumst", "kennist", "kennast"]
+				},
+				"þátíð": {
+					"et": ["kenndist", "kenndist", "kenndist"],
+					"ft": ["kenndumst", "kenndust", "kenndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kennist", "kennist", "kennist"],
+					"ft": ["kennumst", "kennist", "kennist"]
+				},
+				"þátíð": {
+					"et": ["kenndist", "kenndist", "kenndist"],
+					"ft": ["kenndumst", "kenndust", "kenndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kennistu"
+				},
+				"þátíð": {
+					"et": "kenndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kennistu"
+				},
+				"þátíð": {
+					"et": "kenndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kennandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kenndur", "kenndan", "kenndum", "kennds"],
+					"kvk": ["kennd", "kennda", "kenndri", "kenndrar"],
+					"hk": ["kennt", "kennt", "kenndu", "kennds"]
+				},
+				"ft": {
+					"kk": ["kenndir", "kennda", "kenndum", "kenndra"],
+					"kvk": ["kenndar", "kenndar", "kenndum", "kenndra"],
+					"hk": ["kennd", "kennd", "kenndum", "kenndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kenndi", "kennda", "kennda", "kennda"],
+					"kvk": ["kennda", "kenndu", "kenndu", "kenndu"],
+					"hk": ["kennda", "kennda", "kennda", "kennda"]
+				},
+				"ft": {
+					"kk": ["kenndu", "kenndu", "kenndu", "kenndu"],
+					"kvk": ["kenndu", "kenndu", "kenndu", "kenndu"],
+					"hk": ["kenndu", "kenndu", "kenndu", "kenndu"]
+				}
+			}
+		}
+	},
+	"hash": "60dc611628567f85e63ff104d29e5dec53d244e637fb4aaac0bae13f511bd4a2"
+}
