@@ -1,0 +1,169 @@
+{
+	"orð": "einkenna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"orð": "einn",
+			"flokkur": "töluorð",
+			"undirflokkur": "frumtala",
+			"hash": "681bf5be94a876440575b7225baeb9321b6976fb98d976275ebd8e9d6fd4d76f"
+		},
+		{
+			"orð": "kenna",
+			"flokkur": "sagnorð",
+			"hash": "60dc611628567f85e63ff104d29e5dec53d244e637fb4aaac0bae13f511bd4a2"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "einkenna",
+		"sagnbót": "einkennt",
+		"boðháttur": {
+			"stýfður": "einkenn",
+			"et": "einkenndu",
+			"ft": "einkennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einkenni", "einkennir", "einkennir"],
+					"ft": ["einkennum", "einkennið", "einkenna"]
+				},
+				"þátíð": {
+					"et": ["einkenndi", "einkenndir", "einkenndi"],
+					"ft": ["einkenndum", "einkennduð", "einkenndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einkenni", "einkennir", "einkenni"],
+					"ft": ["einkennum", "einkennið", "einkenni"]
+				},
+				"þátíð": {
+					"et": ["einkenndi", "einkenndir", "einkenndi"],
+					"ft": ["einkenndum", "einkennduð", "einkenndu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "eignarfall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einkennir", "einkennir", "einkennir"],
+					"ft": ["einkennir", "einkennir", "einkennir"]
+				},
+				"þátíð": {
+					"et": ["einkenndi", "einkenndi", "einkenndi"],
+					"ft": ["einkenndi", "einkenndi", "einkenndi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einkenni", "einkenni", "einkenni"],
+					"ft": ["einkenni", "einkenni", "einkenni"]
+				},
+				"þátíð": {
+					"et": ["einkenndi", "einkenndi", "einkenndi"],
+					"ft": ["einkenndi", "einkenndi", "einkenndi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einkennirðu",
+					"ft": "einkenniði"
+				},
+				"þátíð": {
+					"et": "einkenndirðu",
+					"ft": "einkennduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einkennirðu",
+					"ft": "einkenniði"
+				},
+				"þátíð": {
+					"et": "einkenndirðu",
+					"ft": "einkennduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "einkennast",
+		"sagnbót": "einkennst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einkennist", "einkennist", "einkennist"],
+					"ft": ["einkennumst", "einkennist", "einkennast"]
+				},
+				"þátíð": {
+					"et": ["einkenndist", "einkenndist", "einkenndist"],
+					"ft": ["einkenndumst", "einkenndust", "einkenndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einkennist", "einkennist", "einkennist"],
+					"ft": ["einkennumst", "einkennist", "einkennist"]
+				},
+				"þátíð": {
+					"et": ["einkenndist", "einkenndist", "einkenndist"],
+					"ft": ["einkenndumst", "einkenndust", "einkenndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einkennistu"
+				},
+				"þátíð": {
+					"et": "einkenndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einkennistu"
+				},
+				"þátíð": {
+					"et": "einkenndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "einkennandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["einkenndur", "einkenndan", "einkenndum", "einkennds"],
+					"kvk": ["einkennd", "einkennda", "einkenndri", "einkenndrar"],
+					"hk": ["einkennt", "einkennt", "einkenndu", "einkennds"]
+				},
+				"ft": {
+					"kk": ["einkenndir", "einkennda", "einkenndum", "einkenndra"],
+					"kvk": ["einkenndar", "einkenndar", "einkenndum", "einkenndra"],
+					"hk": ["einkennd", "einkennd", "einkenndum", "einkenndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["einkenndi", "einkennda", "einkennda", "einkennda"],
+					"kvk": ["einkennda", "einkenndu", "einkenndu", "einkenndu"],
+					"hk": ["einkennda", "einkennda", "einkennda", "einkennda"]
+				},
+				"ft": {
+					"kk": ["einkenndu", "einkenndu", "einkenndu", "einkenndu"],
+					"kvk": ["einkenndu", "einkenndu", "einkenndu", "einkenndu"],
+					"hk": ["einkenndu", "einkenndu", "einkenndu", "einkenndu"]
+				}
+			}
+		}
+	},
+	"hash": "5005347e1ab41cbb1575c1ddb634faede3e08c1a33ae0cd8117d4bbd2f3ae549"
+}
