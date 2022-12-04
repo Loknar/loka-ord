@@ -1887,6 +1887,8 @@ def get_atviksord_from_db_to_ordered_dict(isl_ord):
         assert(isl_atviksord.Midstig is not None and isl_atviksord.Efstastig is not None)
         data['miðstig'] = isl_atviksord.Midstig
         data['efstastig'] = isl_atviksord.Efstastig
+    if isl_ord.OsjalfstaedurOrdhluti is True:
+        data['ósjálfstætt'] = True
     return data
 
 
