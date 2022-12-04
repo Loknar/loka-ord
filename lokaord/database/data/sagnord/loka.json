@@ -1,0 +1,158 @@
+{
+	"orð": "loka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "loka",
+		"sagnbót": "lokað",
+		"boðháttur": {
+			"stýfður": "loka",
+			"et": "lokaðu",
+			"ft": "lokið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["loka", "lokar", "lokar"],
+					"ft": ["lokum", "lokið", "loka"]
+				},
+				"þátíð": {
+					"et": ["lokaði", "lokaðir", "lokaði"],
+					"ft": ["lokuðum", "lokuðuð", "lokuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["loki", "lokir", "loki"],
+					"ft": ["lokum", "lokið", "loki"]
+				},
+				"þátíð": {
+					"et": ["lokaði", "lokaðir", "lokaði"],
+					"ft": ["lokuðum", "lokuðuð", "lokuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lokarðu",
+					"ft": "lokiði"
+				},
+				"þátíð": {
+					"et": "lokaðirðu",
+					"ft": "lokuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lokirðu",
+					"ft": "lokiði"
+				},
+				"þátíð": {
+					"et": "lokaðirðu",
+					"ft": "lokuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lokast",
+		"sagnbót": "lokast",
+		"boðháttur": {
+			"et": "lokastu",
+			"ft": "lokist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lokast", "lokast", "lokast"],
+					"ft": ["lokumst", "lokist", "lokast"]
+				},
+				"þátíð": {
+					"et": ["lokaðist", "lokaðist", "lokaðist"],
+					"ft": ["lokuðumst", "lokuðust", "lokuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lokist", "lokist", "lokist"],
+					"ft": ["lokumst", "lokist", "lokist"]
+				},
+				"þátíð": {
+					"et": ["lokaðist", "lokaðist", "lokaðist"],
+					"ft": ["lokuðumst", "lokuðust", "lokuðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lokast", "lokast", "lokast"],
+					"ft": ["lokast", "lokast", "lokast"]
+				},
+				"þátíð": {
+					"et": ["lokaðist", "lokaðist", "lokaðist"],
+					"ft": ["lokaðist", "lokaðist", "lokaðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lokist", "lokist", "lokist"],
+					"ft": ["lokist", "lokist", "lokist"]
+				},
+				"þátíð": {
+					"et": ["lokaðist", "lokaðist", "lokaðist"],
+					"ft": ["lokaðist", "lokaðist", "lokaðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lokastu"
+				},
+				"þátíð": {
+					"et": "lokaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lokistu"
+				},
+				"þátíð": {
+					"et": "lokaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lokandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lokaður", "lokaðan", "lokuðum", "lokaðs"],
+					"kvk": ["lokuð", "lokaða", "lokaðri", "lokaðrar"],
+					"hk": ["lokað", "lokað", "lokuðu", "lokaðs"]
+				},
+				"ft": {
+					"kk": ["lokaðir", "lokaða", "lokuðum", "lokaðra"],
+					"kvk": ["lokaðar", "lokaðar", "lokuðum", "lokaðra"],
+					"hk": ["lokuð", "lokuð", "lokuðum", "lokaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lokaði", "lokaða", "lokaða", "lokaða"],
+					"kvk": ["lokaða", "lokuðu", "lokuðu", "lokuðu"],
+					"hk": ["lokaða", "lokaða", "lokaða", "lokaða"]
+				},
+				"ft": {
+					"kk": ["lokuðu", "lokuðu", "lokuðu", "lokuðu"],
+					"kvk": ["lokuðu", "lokuðu", "lokuðu", "lokuðu"],
+					"hk": ["lokuðu", "lokuðu", "lokuðu", "lokuðu"]
+				}
+			}
+		}
+	},
+	"hash": "13424e45f4a40dc839ebf4b78ad2ed5243007028e3bcbcc60f350d07fedd376a"
+}

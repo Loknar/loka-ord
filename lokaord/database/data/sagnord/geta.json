@@ -1,0 +1,140 @@
+{
+	"orð": "geta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "geta",
+		"sagnbót": "getið",
+		"boðháttur": {
+			"stýfður": "get",
+			"et": "gettu",
+			"ft": "getið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["get", "getur", "getur"],
+					"ft": ["getum", "getið", "geta"]
+				},
+				"þátíð": {
+					"et": ["gat", "gast", "gat"],
+					"ft": ["gátum", "gátuð", "gátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["geti", "getir", "geti"],
+					"ft": ["getum", "getið", "geti"]
+				},
+				"þátíð": {
+					"et": ["gæti", "gætir", "gæti"],
+					"ft": ["gætum", "gætuð", "gætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geturðu",
+					"ft": "getiði"
+				},
+				"þátíð": {
+					"et": "gatstu",
+					"ft": "gátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "getirðu",
+					"ft": "getiði"
+				},
+				"þátíð": {
+					"et": "gætirðu",
+					"ft": "gætuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "getast",
+		"sagnbót": "getist",
+		"boðháttur": {
+			"et": "gestu",
+			"ft": "getist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gest", "gest", "gest"],
+					"ft": ["getumst", "getist", "getast"]
+				},
+				"þátíð": {
+					"et": ["gast", "gast", "gast"],
+					"ft": ["gátumst", "gátust", "gátust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["getist", "getist", "getist"],
+					"ft": ["getumst", "getist", "getist"]
+				},
+				"þátíð": {
+					"et": ["gætist", "gætist", "gætist"],
+					"ft": ["gætumst", "gætust", "gætust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gest", "gest", "gest"],
+					"ft": ["gest", "gest", "gest"]
+				},
+				"þátíð": {
+					"et": ["gast", "gast", "gast"],
+					"ft": ["gast", "gast", "gast"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["getist", "getist", "getist"],
+					"ft": ["getist", "getist", "getist"]
+				},
+				"þátíð": {
+					"et": ["gætist", "gætist", "gætist"],
+					"ft": ["gætist", "gætist", "gætist"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "getandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["getinn", "getinn", "getnum", "getins"],
+					"kvk": ["getin", "getna", "getinni", "getinnar"],
+					"hk": ["getið", "getið", "getnu", "getins"]
+				},
+				"ft": {
+					"kk": ["getnir", "getna", "getnum", "getinna"],
+					"kvk": ["getnar", "getnar", "getnum", "getinna"],
+					"hk": ["getin", "getin", "getnum", "getinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["getni", "getna", "getna", "getna"],
+					"kvk": ["getna", "getnu", "getnu", "getnu"],
+					"hk": ["getna", "getna", "getna", "getna"]
+				},
+				"ft": {
+					"kk": ["getnu", "getnu", "getnu", "getnu"],
+					"kvk": ["getnu", "getnu", "getnu", "getnu"],
+					"hk": ["getnu", "getnu", "getnu", "getnu"]
+				}
+			}
+		}
+	},
+	"hash": "c23fc356872fa8f1a497382103edd47e344c2076bc21961ee76187fa3a2a115f"
+}
