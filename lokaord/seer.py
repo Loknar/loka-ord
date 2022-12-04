@@ -70,6 +70,8 @@ def scan_sentence(sentence):
                 e_word = e_word[1:]
             if e_word not in sight['orð'] and 'll' in e_word:
                 e_word = e_word.replace('ll', 'łl')
+            if e_word not in sight['orð'] and e_word[0] == e_word[0].lower():
+                e_word = '%s%s' % (e_word[0].upper(), e_word[1:])
             if e_word not in sight['orð']:
                 e_word = e_word.lower()
             if e_word in sight['orð']:
