@@ -1,0 +1,150 @@
+{
+	"orð": "þingbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"orð": "þing",
+			"flokkur": "nafnorð",
+			"kyn": "hk",
+			"hash": "d0ed6b82e79807fe9a14f0d67c678769a2610e822a49655777dea76fa9b384ec"
+		},
+		{
+			"orð": "binda",
+			"flokkur": "sagnorð",
+			"hash": "6068e79d0bd6fbcc1656d76b9d89b407a1eb681a29460e7b29c5543275f56331"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þingbinda",
+		"sagnbót": "þingbundið",
+		"boðháttur": {
+			"stýfður": "þingbind",
+			"et": "þingbittu",
+			"ft": "þingbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þingbind", "þingbindur", "þingbindur"],
+					"ft": ["þingbindum", "þingbindið", "þingbinda"]
+				},
+				"þátíð": {
+					"et": ["þingbatt", "þingbast", "þingbatt"],
+					"ft": ["þingbundum", "þingbunduð", "þingbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þingbindi", "þingbindir", "þingbindi"],
+					"ft": ["þingbindum", "þingbindið", "þingbindi"]
+				},
+				"þátíð": {
+					"et": ["þingbyndi", "þingbyndir", "þingbyndi"],
+					"ft": ["þingbyndum", "þingbynduð", "þingbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þingbindurðu",
+					"ft": "þingbindiði"
+				},
+				"þátíð": {
+					"et": "þingbastu",
+					"ft": "þingbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þingbindirðu",
+					"ft": "þingbindiði"
+				},
+				"þátíð": {
+					"et": "þingbyndirðu",
+					"ft": "þingbynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þingbindast",
+		"sagnbót": "þingbundist",
+		"boðháttur": {
+			"et": "þingbinstu",
+			"ft": "þingbindist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þingbinst", "þingbinst", "þingbinst"],
+					"ft": ["þingbindumst", "þingbindist", "þingbindast"]
+				},
+				"þátíð": {
+					"et": ["þingbast", "þingbast", "þingbast"],
+					"ft": ["þingbundumst", "þingbundust", "þingbundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þingbindist", "þingbindist", "þingbindist"],
+					"ft": ["þingbindumst", "þingbindist", "þingbindist"]
+				},
+				"þátíð": {
+					"et": ["þingbyndist", "þingbyndist", "þingbyndist"],
+					"ft": ["þingbyndumst", "þingbyndust", "þingbyndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þingbinstu"
+				},
+				"þátíð": {
+					"et": "þingbastu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þingbindistu"
+				},
+				"þátíð": {
+					"et": "þingbyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þingfinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þingbundinn", "þingbundinn", "þingbundnum", "þingbundins"],
+					"kvk": ["þingbundin", "þingbundna", "þingbundinni", "þingbundinnar"],
+					"hk": ["þingbundið", "þingbundið", "þingbundnu", "þingbundins"]
+				},
+				"ft": {
+					"kk": ["þingbundnir", "þingbundna", "þingbundnum", "þingbundinna"],
+					"kvk": ["þingbundnar", "þingbundnar", "þingbundnum", "þingbundinna"],
+					"hk": ["þingbundin", "þingbundin", "þingbundnum", "þingbundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þingbundni", "þingbundna", "þingbundna", "þingbundna"],
+					"kvk": ["þingbundna", "þingbundnu", "þingbundnu", "þingbundnu"],
+					"hk": ["þingbundna", "þingbundna", "þingbundna", "þingbundna"]
+				},
+				"ft": {
+					"kk": ["þingbundnu", "þingbundnu", "þingbundnu", "þingbundnu"],
+					"kvk": ["þingbundnu", "þingbundnu", "þingbundnu", "þingbundnu"],
+					"hk": ["þingbundnu", "þingbundnu", "þingbundnu", "þingbundnu"]
+				}
+			}
+		}
+	},
+	"hash": "5ccaf8eb1d096e49467011499ab4acdff8671d8981e693ff5eb382d3a3fc2d00"
+}
