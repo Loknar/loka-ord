@@ -1,0 +1,154 @@
+{
+	"orð": "segja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "segja",
+		"sagnbót": "sagt",
+		"boðháttur": {
+			"stýfður": "seg",
+			"et": "segðu",
+			"ft": "segið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["segi", "segir", "segir"],
+					"ft": ["segjum", "segið", "segja"]
+				},
+				"þátíð": {
+					"et": ["sagði", "sagðir", "sagði"],
+					"ft": ["sögðum", "sögðuð", "sögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["segi", "segir", "segi"],
+					"ft": ["segjum", "segið", "segi"]
+				},
+				"þátíð": {
+					"et": ["segði", "segðir", "segði"],
+					"ft": ["segðum", "segðuð", "segðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "segirðu",
+					"ft": "segiði"
+				},
+				"þátíð": {
+					"et": "sagðirðu",
+					"ft": "sögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "segirðu",
+					"ft": "segiði"
+				},
+				"þátíð": {
+					"et": "segðirðu",
+					"ft": "segðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "segjast",
+		"sagnbót": "sagst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["segist", "segist", "segist"],
+					"ft": ["segjumst", "segist", "segjast"]
+				},
+				"þátíð": {
+					"et": ["sagðist", "sagðist", "sagðist"],
+					"ft": ["sögðumst", "sögðust", "sögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["segist", "segist", "segist"],
+					"ft": ["segjumst", "segist", "segist"]
+				},
+				"þátíð": {
+					"et": ["segðist", "segðist", "segðist"],
+					"ft": ["segðumst", "segðust", "segðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["segist", "segist", "segist"],
+					"ft": ["segist", "segist", "segist"]
+				},
+				"þátíð": {
+					"et": ["sagðist", "sagðist", "sagðist"],
+					"ft": ["sagðist", "sagðist", "sagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["segist", "segist", "segist"],
+					"ft": ["segist", "segist", "segist"]
+				},
+				"þátíð": {
+					"et": ["segðist", "segðist", "segðist"],
+					"ft": ["segðist", "segðist", "segðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "segistu"
+				},
+				"þátíð": {
+					"et": "sagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "segistu"
+				},
+				"þátíð": {
+					"et": "segðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "finnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sagður", "sagðan", "sögðum", "sagðs"],
+					"kvk": ["sögð", "sagða", "sagðri", "sagðrar"],
+					"hk": ["sagt", "sagt", "sögðu", "sagðs"]
+				},
+				"ft": {
+					"kk": ["sagðir", "sagða", "sögðum", "sagðra"],
+					"kvk": ["sagðar", "sagðar", "sögðum", "sagðra"],
+					"hk": ["sögð", "sögð", "sögðum", "sagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sagði", "sagða", "sagða", "sagða"],
+					"kvk": ["sagða", "sögðu", "sögðu", "sögðu"],
+					"hk": ["sagða", "sagða", "sagða", "sagða"]
+				},
+				"ft": {
+					"kk": ["sögðu", "sögðu", "sögðu", "sögðu"],
+					"kvk": ["sögðu", "sögðu", "sögðu", "sögðu"],
+					"hk": ["sögðu", "sögðu", "sögðu", "sögðu"]
+				}
+			}
+		}
+	},
+	"hash": "0ae661af1eec59822af4c905b60958f32820658d469371545d1d20241db32ebd"
+}
