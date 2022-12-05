@@ -1,0 +1,135 @@
+{
+	"orð": "leyna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "leyna",
+		"sagnbót": "leynt",
+		"boðháttur": {
+			"stýfður": "leyn",
+			"et": "leyndu",
+			"ft": "leynið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leyni", "leynir", "leynir"],
+					"ft": ["leynum", "leynið", "leyna"]
+				},
+				"þátíð": {
+					"et": ["leyndi", "leyndir", "leyndi"],
+					"ft": ["leyndum", "leynduð", "leyndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leyni", "leynir", "leyni"],
+					"ft": ["leynum", "leynið", "leyni"]
+				},
+				"þátíð": {
+					"et": ["leyndi", "leyndir", "leyndi"],
+					"ft": ["leyndum", "leynduð", "leyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leynirðu",
+					"ft": "leyniði"
+				},
+				"þátíð": {
+					"et": "leyndirðu",
+					"ft": "leynduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leynirðu",
+					"ft": "leyniði"
+				},
+				"þátíð": {
+					"et": "leyndirðu",
+					"ft": "leynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leynast",
+		"sagnbót": "leynst",
+		"boðháttur": {
+			"et": "leynstu",
+			"ft": "leynist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leynist", "leynist", "leynist"],
+					"ft": ["leynumst", "leynist", "leynast"]
+				},
+				"þátíð": {
+					"et": ["leyndist", "leyndist", "leyndist"],
+					"ft": ["leyndumst", "leyndust", "leyndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leynist", "leynist", "leynist"],
+					"ft": ["leynumst", "leynist", "leynist"]
+				},
+				"þátíð": {
+					"et": ["leyndist", "leyndist", "leyndist"],
+					"ft": ["leyndumst", "leyndust", "leyndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leynistu"
+				},
+				"þátíð": {
+					"et": "leyndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leynistu"
+				},
+				"þátíð": {
+					"et": "leyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leynandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leyndur", "leyndan", "leyndum", "leynds"],
+					"kvk": ["leynd", "leynda", "leyndri", "leyndrar"],
+					"hk": ["leynt", "leynt", "leyndu", "leynds"]
+				},
+				"ft": {
+					"kk": ["leyndir", "leynda", "leyndum", "leyndra"],
+					"kvk": ["leyndar", "leyndar", "leyndum", "leyndra"],
+					"hk": ["leynd", "leynd", "leyndum", "leyndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["leyndi", "leynda", "leynda", "leynda"],
+					"kvk": ["leynda", "leyndu", "leyndu", "leyndu"],
+					"hk": ["leynda", "leynda", "leynda", "leynda"]
+				},
+				"ft": {
+					"kk": ["leyndu", "leyndu", "leyndu", "leyndu"],
+					"kvk": ["leyndu", "leyndu", "leyndu", "leyndu"],
+					"hk": ["leyndu", "leyndu", "leyndu", "leyndu"]
+				}
+			}
+		}
+	},
+	"hash": "f7c3f3b9888eccc1d6be5253f76c5e748a295e9308b748a96377cc5a35f4a89a"
+}

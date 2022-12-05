@@ -84,6 +84,9 @@ def scan_sentence(sentence):
                         'f': sight['hash'][option['hash']]['f']
                     })
                 maybe += 1
+            elif e_word.isdigit():
+                scanned_word['orð-hreinsað'] = e_word
+                scanned_word['staða'] = 'tala'
             else:
                 scanned_word['staða'] = 'vantar'
                 missing += 1
@@ -114,6 +117,17 @@ def scan_sentence(sentence):
                 '%s%s%s' % (
                     '' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
                     '\033[43m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
+                    '' if scanned_word['fylgir'] is None else scanned_word['fylgir']
+                )
+            )
+        elif scanned_word['staða'] == 'tala':
+            print('"%s" \033[46m\033[30m TALA \033[0m' % (
+                scanned_word['orð-hreinsað'],
+            ))
+            highlighted_sentence_list.append(
+                '%s%s%s' % (
+                    '' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
+                    '\033[46m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
                     '' if scanned_word['fylgir'] is None else scanned_word['fylgir']
                 )
             )

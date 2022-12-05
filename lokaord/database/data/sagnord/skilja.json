@@ -1,0 +1,154 @@
+{
+	"orð": "skilja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skilja",
+		"sagnbót": "skilið",
+		"boðháttur": {
+			"stýfður": "skil",
+			"et": "skildu",
+			"ft": "skiljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skil", "skilur", "skilur"],
+					"ft": ["skiljum", "skiljið", "skilja"]
+				},
+				"þátíð": {
+					"et": ["skildi", "skildir", "skildi"],
+					"ft": ["skildum", "skilduð", "skildu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skilji", "skiljir", "skilji"],
+					"ft": ["skiljum", "skiljið", "skilji"]
+				},
+				"þátíð": {
+					"et": ["skildi", "skildir", "skildi"],
+					"ft": ["skildum", "skilduð", "skildu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skilurðu",
+					"ft": "skiljiði"
+				},
+				"þátíð": {
+					"et": "skildirðu",
+					"ft": "skilduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skiljirðu",
+					"ft": "skiljiði"
+				},
+				"þátíð": {
+					"et": "skildirðu",
+					"ft": "skilduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skiljast",
+		"sagnbót": "skilist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skilst", "skilst", "skilst"],
+					"ft": ["skiljumst", "skiljist", "skiljast"]
+				},
+				"þátíð": {
+					"et": ["skildist", "skildist", "skildist"],
+					"ft": ["skildumst", "skildust", "skildust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skiljist", "skiljist", "skiljist"],
+					"ft": ["skiljumst", "skiljist", "skiljist"]
+				},
+				"þátíð": {
+					"et": ["skildist", "skildist", "skildist"],
+					"ft": ["skildumst", "skildust", "skildust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skilst", "skilst", "skilst"],
+					"ft": ["skilst", "skilst", "skilst"]
+				},
+				"þátíð": {
+					"et": ["skildist", "skildist", "skildist"],
+					"ft": ["skildist", "skildist", "skildist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skiljist", "skiljist", "skiljist"],
+					"ft": ["skiljist", "skiljist", "skiljist"]
+				},
+				"þátíð": {
+					"et": ["skildist", "skildist", "skildist"],
+					"ft": ["skildist", "skildist", "skildist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skilstu"
+				},
+				"þátíð": {
+					"et": "skildistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skiljistu"
+				},
+				"þátíð": {
+					"et": "skildistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skiljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skilinn", "skilinn", "skildum", "skilins"],
+					"kvk": ["skilin", "skilda", "skilinni", "skilinnar"],
+					"hk": ["skilið", "skilið", "skildu", "skilins"]
+				},
+				"ft": {
+					"kk": ["skildir", "skilda", "skildum", "skilinna"],
+					"kvk": ["skildar", "skildar", "skildum", "skilinna"],
+					"hk": ["skilin", "skilin", "skildum", "skilinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skildi", "skilda", "skilda", "skilda"],
+					"kvk": ["skilda", "skildu", "skildu", "skildu"],
+					"hk": ["skilda", "skilda", "skilda", "skilda"]
+				},
+				"ft": {
+					"kk": ["skildu", "skildu", "skildu", "skildu"],
+					"kvk": ["skildu", "skildu", "skildu", "skildu"],
+					"hk": ["skildu", "skildu", "skildu", "skildu"]
+				}
+			}
+		}
+	},
+	"hash": "cdb0dc28702e1520bccda5e8c2392feef9a74363bee75054196400ec0e60fa2c"
+}

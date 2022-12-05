@@ -1,0 +1,158 @@
+{
+	"orð": "ganga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ganga",
+		"sagnbót": "gengið",
+		"boðháttur": {
+			"stýfður": "gakk",
+			"et": "gakktu",
+			"ft": "gangið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geng", "gengur", "gengur"],
+					"ft": ["göngum", "gangið", "ganga"]
+				},
+				"þátíð": {
+					"et": ["gekk", "gekkst", "gekk"],
+					"ft": ["gengum", "genguð", "gengu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gangi", "gangir", "gangi"],
+					"ft": ["göngum", "gangið", "gangi"]
+				},
+				"þátíð": {
+					"et": ["gengi", "gengir", "gengi"],
+					"ft": ["gengjum", "gengjuð", "gengju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gengur", "gengur", "gengur"],
+					"ft": ["gengur", "gengur", "gengur"]
+				},
+				"þátíð": {
+					"et": ["gekk", "gekk", "gekk"],
+					"ft": ["gekk", "gekk", "gekk"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gangi", "gangi", "gangi"],
+					"ft": ["gangi", "gangi", "gangi"]
+				},
+				"þátíð": {
+					"et": ["gengi", "gengi", "gengi"],
+					"ft": ["gengi", "gengi", "gengi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gengurðu",
+					"ft": "gangiði"
+				},
+				"þátíð": {
+					"et": "gekkstu",
+					"ft": "genguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gangirðu",
+					"ft": "gangiði"
+				},
+				"þátíð": {
+					"et": "gengirðu",
+					"ft": "gengjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gangast",
+		"sagnbót": "gengist",
+		"boðháttur": {
+			"et": "gangstu",
+			"ft": "gangist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gengst", "gengst", "gengst"],
+					"ft": ["göngumst", "gangist", "gangast"]
+				},
+				"þátíð": {
+					"et": ["gekkst", "gekkst", "gekkst"],
+					"ft": ["gengumst", "gengust", "gengust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gangist", "gangist", "gangist"],
+					"ft": ["göngumst", "gangist", "gangist"]
+				},
+				"þátíð": {
+					"et": ["gengist", "gengist", "gengist"],
+					"ft": ["gengjumst", "gengjust", "gengjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gengstu"
+				},
+				"þátíð": {
+					"et": "gekkstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gangistu"
+				},
+				"þátíð": {
+					"et": "gengistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gangandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["genginn", "genginn", "gengnum", "gengins"],
+					"kvk": ["gengin", "gengna", "genginni", "genginnar"],
+					"hk": ["gengið", "gengið", "gengnu", "gengins"]
+				},
+				"ft": {
+					"kk": ["gengnir", "gengna", "gengnum", "genginna"],
+					"kvk": ["gengnar", "gengnar", "gengnum", "genginna"],
+					"hk": ["gengin", "gengin", "gengnum", "genginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gengni", "gengna", "gengna", "gengna"],
+					"kvk": ["gengna", "gengnu", "gengnu", "gengnu"],
+					"hk": ["gengna", "gengna", "gengna", "gengna"]
+				},
+				"ft": {
+					"kk": ["gengnu", "gengnu", "gengnu", "gengnu"],
+					"kvk": ["gengnu", "gengnu", "gengnu", "gengnu"],
+					"hk": ["gengnu", "gengnu", "gengnu", "gengnu"]
+				}
+			}
+		}
+	},
+	"hash": "9b9c28475600e8bcb9b2548d44aac6aab06ca2c3eb6a208eba12bd40029055be"
+}

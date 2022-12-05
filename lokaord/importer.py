@@ -1265,7 +1265,8 @@ def add_samsett_ord(isl_ord_id, ord_data):
             elif ordhluti_obj['undirflokkur'] == 'atviksorð':
                 ordhluti_isl_ord = lookup_atviksord({
                     'orð': ordhluti_obj['orð'],
-                    'undirflokkur': ordhluti_obj['undirflokkur']
+                    'undirflokkur': ordhluti_obj['undirflokkur'],
+                    'ósjálfstætt': ordhluti_osjalfstaett
                 })
             elif ordhluti_obj['undirflokkur'] == 'nafnháttarmerki':
                 ordhluti_isl_ord = lookup_nafnhattarmerki({
@@ -1752,9 +1753,13 @@ def add_forsetning(forsetning_data, merking=None):
 
 def lookup_atviksord(atviksord_data, merking=None):
     isl_ord = None
+    osjalfstaett_ord = (
+        'ósjálfstætt' in atviksord_data and atviksord_data['ósjálfstætt'] is True
+    )
     isl_ord_query = db.Session.query(isl.Ord).filter_by(
         Ord=atviksord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Atviksord,
+        OsjalfstaedurOrdhluti=osjalfstaett_ord,
         Merking=merking
     )
     assert(len(isl_ord_query.all()) < 2)
@@ -1768,6 +1773,9 @@ def add_atviksord(atviksord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=atviksord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Atviksord,
+        OsjalfstaedurOrdhluti=(
+            'ósjálfstætt' in atviksord_data and atviksord_data['ósjálfstætt'] is True
+        ),
         Merking=merking
     )
     db.Session.add(isl_ord)
