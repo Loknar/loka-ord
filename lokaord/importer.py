@@ -312,8 +312,11 @@ def list_json_files_separate_samsett_ord(file_dir):
         if not json_file.name.endswith('.json'):
             continue
         json_data = None
-        with json_file.open(mode='r', encoding='utf-8') as fi:
-            json_data = json.loads(fi.read())
+        try:
+            with json_file.open(mode='r', encoding='utf-8') as fi:
+                json_data = json.loads(fi.read())
+        except json.decoder.JSONDecodeError:
+            raise Exception('File "%s" seems to contain invalid JSON format.' % (json_file.name, ))
         if 'samsett' in json_data:
             files_list_samsett.append(json_file)
             continue

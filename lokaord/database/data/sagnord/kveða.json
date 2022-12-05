@@ -1,0 +1,135 @@
+{
+	"orð": "kveða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kveða",
+		"sagnbót": "kveðið",
+		"boðháttur": {
+			"stýfður": "kveð",
+			"et": "kveddu",
+			"ft": "kveðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kveð", "kveður", "kveður"],
+					"ft": ["kveðum", "kveðið", "kveða"]
+				},
+				"þátíð": {
+					"et": ["kvað", "kvaðst", "kvað"],
+					"ft": ["kváðum", "kváðuð", "kváðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kveði", "kveðir", "kveði"],
+					"ft": ["kveðum", "kveðið", "kveði"]
+				},
+				"þátíð": {
+					"et": ["kvæði", "kvæðir", "kvæði"],
+					"ft": ["kvæðum", "kvæðuð", "kvæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kveðurðu",
+					"ft": "kveðiði"
+				},
+				"þátíð": {
+					"et": "kvaðstu",
+					"ft": "kváðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kveðirðu",
+					"ft": "kveðiði"
+				},
+				"þátíð": {
+					"et": "kvæðirðu",
+					"ft": "kvæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kveðast",
+		"sagnbót": "kveðist",
+		"boðháttur": {
+			"et": "kveðstu",
+			"ft": "kveðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kveðst", "kveðst", "kveðst"],
+					"ft": ["kveðumst", "kveðist", "kveðast"]
+				},
+				"þátíð": {
+					"et": ["kvaðst", "kvaðst", "kvaðst"],
+					"ft": ["kváðumst", "kváðust", "kváðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kveðist", "kveðist", "kveðist"],
+					"ft": ["kveðumst", "kveðist", "kveðist"]
+				},
+				"þátíð": {
+					"et": ["kvæðist", "kvæðist", "kvæðist"],
+					"ft": ["kvæðumst", "kvæðust", "kvæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kveðstu"
+				},
+				"þátíð": {
+					"et": "kvaðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kveðistu"
+				},
+				"þátíð": {
+					"et": "kvæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kveðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kveðinn", "kveðinn", "kveðnum", "kveðins"],
+					"kvk": ["kveðin", "kveðna", "kveðinni", "kveðinnar"],
+					"hk": ["kveðið", "kveðið", "kveðnu", "kveðins"]
+				},
+				"ft": {
+					"kk": ["kveðnir", "kveðna", "kveðnum", "kveðinna"],
+					"kvk": ["kveðnar", "kveðnar", "kveðnum", "kveðinna"],
+					"hk": ["kveðin", "kveðin", "kveðnum", "kveðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kveðni", "kveðna", "kveðna", "kveðna"],
+					"kvk": ["kveðna", "kveðnu", "kveðnu", "kveðnu"],
+					"hk": ["kveðna", "kveðna", "kveðna", "kveðna"]
+				},
+				"ft": {
+					"kk": ["kveðnu", "kveðnu", "kveðnu", "kveðnu"],
+					"kvk": ["kveðnu", "kveðnu", "kveðnu", "kveðnu"],
+					"hk": ["kveðnu", "kveðnu", "kveðnu", "kveðnu"]
+				}
+			}
+		}
+	},
+	"hash": "f3db1a938610086e81bc4654000f589ae9165baafcbd11bf787fe8375b589a3c"
+}
