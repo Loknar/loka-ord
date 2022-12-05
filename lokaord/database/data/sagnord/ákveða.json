@@ -1,0 +1,150 @@
+{
+	"orð": "ákveða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"orð": "á",
+			"flokkur": "smáorð",
+			"undirflokkur": "forsetning",
+			"hash": "50680b62e05b9c51f254b0364c8b7e39eebfaa7df9a6db7e36574eaef561117e"
+		},
+		{
+			"orð": "kveða",
+			"flokkur": "sagnorð",
+			"hash": "f3db1a938610086e81bc4654000f589ae9165baafcbd11bf787fe8375b589a3c"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ákveða",
+		"sagnbót": "ákveðið",
+		"boðháttur": {
+			"stýfður": "ákveð",
+			"et": "ákveddu",
+			"ft": "ákveðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ákveð", "ákveður", "ákveður"],
+					"ft": ["ákveðum", "ákveðið", "ákveða"]
+				},
+				"þátíð": {
+					"et": ["ákvað", "ákvaðst", "ákvað"],
+					"ft": ["ákváðum", "ákváðuð", "ákváðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ákveði", "ákveðir", "ákveði"],
+					"ft": ["ákveðum", "ákveðið", "ákveði"]
+				},
+				"þátíð": {
+					"et": ["ákvæði", "ákvæðir", "ákvæði"],
+					"ft": ["ákvæðum", "ákvæðuð", "ákvæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ákveðurðu",
+					"ft": "ákveðiði"
+				},
+				"þátíð": {
+					"et": "ákvaðstu",
+					"ft": "ákváðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ákveðirðu",
+					"ft": "ákveðiði"
+				},
+				"þátíð": {
+					"et": "ákvæðirðu",
+					"ft": "ákvæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ákveðast",
+		"sagnbót": "ákveðist",
+		"boðháttur": {
+			"et": "ákveðstu",
+			"ft": "ákveðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ákveðst", "ákveðst", "ákveðst"],
+					"ft": ["ákveðumst", "ákveðist", "ákveðast"]
+				},
+				"þátíð": {
+					"et": ["ákvaðst", "ákvaðst", "ákvaðst"],
+					"ft": ["ákváðumst", "ákváðust", "ákváðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ákveðist", "ákveðist", "ákveðist"],
+					"ft": ["ákveðumst", "ákveðist", "ákveðist"]
+				},
+				"þátíð": {
+					"et": ["ákvæðist", "ákvæðist", "ákvæðist"],
+					"ft": ["ákvæðumst", "ákvæðust", "ákvæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ákveðstu"
+				},
+				"þátíð": {
+					"et": "ákvaðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ákveðistu"
+				},
+				"þátíð": {
+					"et": "ákvæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ákveðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ákveðinn", "ákveðinn", "ákveðnum", "ákveðins"],
+					"kvk": ["ákveðin", "ákveðna", "ákveðinni", "ákveðinnar"],
+					"hk": ["ákveðið", "ákveðið", "ákveðnu", "ákveðins"]
+				},
+				"ft": {
+					"kk": ["ákveðnir", "ákveðna", "ákveðnum", "ákveðinna"],
+					"kvk": ["ákveðnar", "ákveðnar", "ákveðnum", "ákveðinna"],
+					"hk": ["ákveðin", "ákveðin", "ákveðnum", "ákveðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ákveðni", "ákveðna", "ákveðna", "ákveðna"],
+					"kvk": ["ákveðna", "ákveðnu", "ákveðnu", "ákveðnu"],
+					"hk": ["ákveðna", "ákveðna", "ákveðna", "ákveðna"]
+				},
+				"ft": {
+					"kk": ["ákveðnu", "ákveðnu", "ákveðnu", "ákveðnu"],
+					"kvk": ["ákveðnu", "ákveðnu", "ákveðnu", "ákveðnu"],
+					"hk": ["ákveðnu", "ákveðnu", "ákveðnu", "ákveðnu"]
+				}
+			}
+		}
+	},
+	"hash": "98e880331311bb1247d4754dc9d1d07d41acee31d3d2f32d94fecfeb9d94b0a0"
+}

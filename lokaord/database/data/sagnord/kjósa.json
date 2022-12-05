@@ -1,0 +1,87 @@
+{
+	"orð": "kjósa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kjósa",
+		"sagnbót": "kosið",
+		"boðháttur": {
+			"stýfður": "kjós",
+			"et": "kjóstu",
+			"ft": "kjósið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kýs", "kýst", "kýs"],
+					"ft": ["kjósum", "kjósið", "kjósa"]
+				},
+				"þátíð": {
+					"et": ["kaus", "kaust", "kaus"],
+					"ft": ["kusum", "kusuð", "kusu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kjósi", "kjósir", "kjósi"],
+					"ft": ["kjósum", "kjósið", "kjósi"]
+				},
+				"þátíð": {
+					"et": ["kysi", "kysir", "kysi"],
+					"ft": ["kysum", "kysuð", "kysu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kýstu",
+					"ft": "kjósiði"
+				},
+				"þátíð": {
+					"et": "kaustu",
+					"ft": "kusuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kjósirðu",
+					"ft": "kjósiði"
+				},
+				"þátíð": {
+					"et": "kysirðu",
+					"ft": "kysuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kjósandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kosinn", "kosinn", "kosnum", "kosins"],
+					"kvk": ["kosin", "kosna", "kosinni", "kosinnar"],
+					"hk": ["kosið", "kosið", "kosnu", "kosins"]
+				},
+				"ft": {
+					"kk": ["kosnir", "kosna", "kosnum", "kosinna"],
+					"kvk": ["kosnar", "kosnar", "kosnum", "kosinna"],
+					"hk": ["kosin", "kosin", "kosnum", "kosinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kosni", "kosna", "kosna", "kosna"],
+					"kvk": ["kosna", "kosnu", "kosnu", "kosnu"],
+					"hk": ["kosna", "kosna", "kosna", "kosna"]
+				},
+				"ft": {
+					"kk": ["kosnu", "kosnu", "kosnu", "kosnu"],
+					"kvk": ["kosnu", "kosnu", "kosnu", "kosnu"],
+					"hk": ["kosnu", "kosnu", "kosnu", "kosnu"]
+				}
+			}
+		}
+	},
+	"hash": "40abed8dbfb58f60584c879146c4232c4fe5def417efe4ffabc630f400dc31e9"
+}
