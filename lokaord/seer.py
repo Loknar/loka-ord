@@ -59,7 +59,7 @@ def scan_sentence(sentence):
             'möguleikar': []
         }
         if word not in sight['orð']:
-            onhanging_chars = set(['.', ',', '(', ')', '[', ']'])
+            onhanging_chars = set(['.', ',', '(', ')', '[', ']', '-'])
             msg = ''
             e_word = word.strip()
             if e_word[-1] in onhanging_chars:
