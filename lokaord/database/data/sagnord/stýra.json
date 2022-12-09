@@ -1,0 +1,131 @@
+{
+	"orð": "stýra",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stýra",
+		"sagnbót": "stýrt",
+		"boðháttur": {
+			"stýfður": "stýr",
+			"et": "stýrðu",
+			"ft": "stýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stýri", "stýrir", "stýrir"],
+					"ft": ["stýrum", "stýrið", "stýra"]
+				},
+				"þátíð": {
+					"et": ["stýrði", "stýrðir", "stýrði"],
+					"ft": ["stýrðum", "stýrðuð", "stýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stýri", "stýrir", "stýri"],
+					"ft": ["stýrum", "stýrið", "stýri"]
+				},
+				"þátíð": {
+					"et": ["stýrði", "stýrðir", "stýrði"],
+					"ft": ["stýrðum", "stýrðuð", "stýrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stýrirðu",
+					"ft": "stýriði"
+				},
+				"þátíð": {
+					"et": "stýrðirðu",
+					"ft": "stýrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stýrirðu",
+					"ft": "stýriði"
+				},
+				"þátíð": {
+					"et": "stýrðirðu",
+					"ft": "stýrðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stýrast",
+		"sagnbót": "stýrst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stýrist", "stýrist", "stýrist"],
+					"ft": ["stýrumst", "stýrist", "stýrast"]
+				},
+				"þátíð": {
+					"et": ["stýrðist", "stýrðist", "stýrðist"],
+					"ft": ["stýrðumst", "stýrðust", "stýrðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stýrist", "stýrist", "stýrist"],
+					"ft": ["stýrumst", "stýrist", "stýrist"]
+				},
+				"þátíð": {
+					"et": ["stýrðist", "stýrðist", "stýrðist"],
+					"ft": ["stýrðumst", "stýrðust", "stýrðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stýristu"
+				},
+				"þátíð": {
+					"et": "stýrðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stýristu"
+				},
+				"þátíð": {
+					"et": "stýrðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stýrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stýrður", "stýrðan", "stýrðum", "stýrðs"],
+					"kvk": ["stýrð", "stýrða", "stýrðri", "stýrðrar"],
+					"hk": ["stýrt", "stýrt", "stýrðu", "stýrðs"]
+				},
+				"ft": {
+					"kk": ["stýrðir", "stýrða", "stýrðum", "stýrðra"],
+					"kvk": ["stýrðrar", "stýrðrar", "stýrðum", "stýrðra"],
+					"hk": ["stýrð", "stýrð", "stýrðum", "stýrðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stýrði", "stýrða", "stýrða", "stýrða"],
+					"kvk": ["stýrða", "stýrðu", "stýrðu", "stýrðu"],
+					"hk": ["stýrða", "stýrða", "stýrða", "stýrða"]
+				},
+				"ft": {
+					"kk": ["stýrðu", "stýrðu", "stýrðu", "stýrðu"],
+					"kvk": ["stýrðu", "stýrðu", "stýrðu", "stýrðu"],
+					"hk": ["stýrðu", "stýrðu", "stýrðu", "stýrðu"]
+				}
+			}
+		}
+	},
+	"hash": "f33b1aec1f7920a8ef6518fadd3e51561ba2d1c851dc6875ff41bd2fe61e7aa8"
+}
