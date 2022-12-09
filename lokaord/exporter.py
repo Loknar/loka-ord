@@ -1444,7 +1444,6 @@ def join_together_beygingar(beygingar, p_beygingar):
         assert(len(beygingar) == len(p_beygingar))
         new_list = []
         for i, value in enumerate(beygingar):
-            print('A2')
             new_list.append(prepend_to_beygingar(value, p_beygingar[i]))
         return new_list
     if type(beygingar) is str:
