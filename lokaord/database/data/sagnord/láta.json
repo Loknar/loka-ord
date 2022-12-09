@@ -1,0 +1,135 @@
+{
+	"orð": "láta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "láta",
+		"sagnbót": "látið",
+		"boðháttur": {
+			"stýfður": "lát",
+			"et": "láttu",
+			"ft": "látið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["læt", "lætur", "lætur"],
+					"ft": ["látum", "látið", "láta"]
+				},
+				"þátíð": {
+					"et": ["lét", "lést", "lét"],
+					"ft": ["létum", "létuð", "létu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["láti", "látir", "láti"],
+					"ft": ["látum", "látið", "láti"]
+				},
+				"þátíð": {
+					"et": ["léti", "létir", "léti"],
+					"ft": ["létum", "létuð", "létu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "læturðu",
+					"ft": "látiði"
+				},
+				"þátíð": {
+					"et": "léstu",
+					"ft": "létuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "látirðu",
+					"ft": "látiði"
+				},
+				"þátíð": {
+					"et": "létirðu",
+					"ft": "létuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "látast",
+		"sagnbót": "látist",
+		"boðháttur": {
+			"et": "lástu",
+			"ft": "látist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["læst", "læst", "læst"],
+					"ft": ["látumst", "látist", "látast"]
+				},
+				"þátíð": {
+					"et": ["lést", "lést", "lést"],
+					"ft": ["létumst", "létust", "létust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["látist", "látist", "látist"],
+					"ft": ["látumst", "látist", "látist"]
+				},
+				"þátíð": {
+					"et": ["létist", "létist", "létist"],
+					"ft": ["létumst", "létust", "létust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "látstu"
+				},
+				"þátíð": {
+					"et": "látist"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "látistu"
+				},
+				"þátíð": {
+					"et": "létistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "látandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["látinn", "látinn", "látnum", "látins"],
+					"kvk": ["látin", "látna", "látinni", "látinnar"],
+					"hk": ["látið", "látið", "látnu", "látins"]
+				},
+				"ft": {
+					"kk": ["látnir", "látna", "látnum", "látinna"],
+					"kvk": ["látnar", "látnar", "látnum", "látinna"],
+					"hk": ["látin", "látin", "látnum", "látinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["látni", "látna", "látna", "látna"],
+					"kvk": ["látna", "látnu", "látnu", "látnu"],
+					"hk": ["látna", "látna", "látna", "látna"]
+				},
+				"ft": {
+					"kk": ["látnu", "látnu", "látnu", "látnu"],
+					"kvk": ["látnu", "látnu", "látnu", "látnu"],
+					"hk": ["látnu", "látnu", "látnu", "látnu"]
+				}
+			}
+		}
+	},
+	"hash": "e20c8be4730e6317abca13dcefbdaa344c703953195dd0f18fe06f6d8436dcc3"
+}

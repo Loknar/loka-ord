@@ -1133,14 +1133,28 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
         'millinafn',
         'örnefni'
     ])
+    lysingarord_myndir = set([
+        'frumstig-vb-kk',
+        'frumstig-vb-kvk',
+        'frumstig-vb-hk',
+        'midstig-vb-kk',
+        'midstig-vb-kvk',
+        'midstig-vb-hk',
+        'efstastig-vb-kk',
+        'efstastig-vb-kvk',
+        'efstastig-vb-hk',
+    ])
     kyn = ['kk', 'kvk', 'hk']
     assert(type(ordhluti_obj) in dictorinos)
-    if last_obj is False or 'mynd' in ordhluti_obj:
-        assert('mynd' in ordhluti_obj)
+    if 'mynd' in ordhluti_obj:
         assert(type(ordhluti_obj['mynd']) is str)
         assert(len(ordhluti_obj['mynd']) > 0)
         assert('samsetning' in ordhluti_obj)
         assert(ordhluti_obj['samsetning'] in samsetningar)
+    if 'myndir' in ordhluti_obj:
+        assert('mynd' not in ordhluti_obj)
+        assert('samsetning' not in ordhluti_obj)
+        assert(ordhluti_obj['myndir'] in lysingarord_myndir)
     assert('orð' in ordhluti_obj)
     assert(type(ordhluti_obj['orð']) is str)
     assert(len(ordhluti_obj['orð']) > 0)
@@ -1189,6 +1203,7 @@ def add_samsett_ord(isl_ord_id, ord_data):
         # check if orðhluti with identical values already exists
         ordhluti_mynd = None
         ordhluti_gerd = None
+        ordhluti_lysingarord_myndir = None
         ordhluti_osjalfstaett = (
             'ósjálfstætt' in ordhluti_obj and ordhluti_obj['ósjálfstætt'] is True
         )
@@ -1198,6 +1213,8 @@ def add_samsett_ord(isl_ord_id, ord_data):
         ordhluti_hastafa = (
             'hástafa' in ordhluti_obj and ordhluti_obj['hástafa'] is True
         )
+        ordhluti_leidir = None
+        ordhluti_fylgir = None
         ordhluti_exclude_et_ag = False
         ordhluti_exclude_et_mg = False
         ordhluti_exclude_ft_ag = False
@@ -1230,6 +1247,15 @@ def add_samsett_ord(isl_ord_id, ord_data):
                 ordhluti_gerd = isl.Ordasamsetningar.Eignarfallssamsetning
             elif ordhluti_obj['samsetning'] == 'bandstafs':
                 ordhluti_gerd = isl.Ordasamsetningar.Bandstafssamsetning
+        if 'myndir' in ordhluti_obj:
+            assert(ordhluti_obj['flokkur'] == 'lýsingarorð')
+            assert(ordhluti_mynd is None)
+            assert(ordhluti_gerd is None)
+            ordhluti_lysingarord_myndir = string_to_lysingarordmyndir(ordhluti_obj['myndir'])
+        if 'leiðir' in ordhluti_obj:
+            ordhluti_leidir = ordhluti_obj['leiðir']
+        if 'fylgir' in ordhluti_obj:
+            ordhluti_fylgir = ordhluti_obj['fylgir']
         ordhluti_isl_ord = None
         if ordhluti_obj['flokkur'] == 'nafnorð':
             ordhluti_isl_ord = lookup_nafnord({
@@ -1300,9 +1326,12 @@ def add_samsett_ord(isl_ord_id, ord_data):
             fk_Ord_id=ordhluti_isl_ord.Ord_id,
             Ordmynd=ordhluti_mynd,
             Gerd=ordhluti_gerd,
+            LysingarordMyndir=ordhluti_lysingarord_myndir,
             fk_NaestiOrdhluti_id=last_ordhluti_obj_id,
             Lagstafa=ordhluti_lagstafa,
             Hastafa=ordhluti_hastafa,
+            Leidir=ordhluti_leidir,
+            Fylgir=ordhluti_fylgir,
             Exclude_et_ag=ordhluti_exclude_et_ag,
             Exclude_et_mg=ordhluti_exclude_et_mg,
             Exclude_ft_ag=ordhluti_exclude_ft_ag,
@@ -1314,9 +1343,12 @@ def add_samsett_ord(isl_ord_id, ord_data):
                 fk_Ord_id=ordhluti_isl_ord.Ord_id,
                 Ordmynd=ordhluti_mynd,
                 Gerd=ordhluti_gerd,
+                LysingarordMyndir=ordhluti_lysingarord_myndir,
                 fk_NaestiOrdhluti_id=last_ordhluti_obj_id,
                 Lagstafa=ordhluti_lagstafa,
                 Hastafa=ordhluti_hastafa,
+                Leidir=ordhluti_leidir,
+                Fylgir=ordhluti_fylgir,
                 Exclude_et_ag=ordhluti_exclude_et_ag,
                 Exclude_et_mg=ordhluti_exclude_et_mg,
                 Exclude_ft_ag=ordhluti_exclude_ft_ag,
@@ -1877,8 +1909,7 @@ def string_to_samtenging_fleiryrt_typa(mystr):
         return isl.FleiryrtTypa.Hlekkjud
     elif mystr == 'laus':
         return isl.FleiryrtTypa.Laus
-    else:
-        raise Exception('Unknown SamtengingFleiryrtTypa.')
+    raise Exception('Unknown SamtengingFleiryrtTypa.')
 
 
 def lookup_upphropun(upphropun_data, merking=None):
@@ -1989,5 +2020,26 @@ def string_to_sernafn_undirflokkur(mystr):
         return isl.Sernafnaflokkar.Millinafn
     elif mystr == 'örnefni':
         return isl.Sernafnaflokkar.Ornefni
-    else:
-        raise Exception('Unknown Sérnafn Undirflokkur.')
+    raise Exception('Unknown Sérnafn Undirflokkur.')
+
+
+def string_to_lysingarordmyndir(mystr):
+    if mystr == 'frumstig-vb-kk':
+        return isl.LysingarordMyndir.Frumstig_vb_kk
+    elif mystr == 'frumstig-vb-kvk':
+        return isl.LysingarordMyndir.Frumstig_vb_kvk
+    elif mystr == 'frumstig-vb-hk':
+        return isl.LysingarordMyndir.Frumstig_vb_hk
+    elif mystr == 'midstig-vb-kk':
+        return isl.LysingarordMyndir.Midstig_vb_kk
+    elif mystr == 'midstig-vb-kvk':
+        return isl.LysingarordMyndir.Midstig_vb_kvk
+    elif mystr == 'midstig-vb-hk':
+        return isl.LysingarordMyndir.Midstig_vb_hk
+    elif mystr == 'efstastig-vb-kk':
+        return isl.LysingarordMyndir.Efstastig_vb_kk
+    elif mystr == 'efstastig-vb-kvk':
+        return isl.LysingarordMyndir.Efstastig_vb_kvk
+    elif mystr == 'efstastig-vb-hk':
+        return isl.LysingarordMyndir.Efstastig_vb_hk
+    raise Exception('Unknown LysingarordMynd.')

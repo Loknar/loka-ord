@@ -1,0 +1,87 @@
+{
+	"orð": "deyja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "deyja",
+		"sagnbót": "dáið",
+		"boðháttur": {
+			"stýfður": "dey",
+			"et": "deyðu",
+			"ft": "deyið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dey", "deyrð", "deyr"],
+					"ft": ["deyjum", "deyjið", "deyja"]
+				},
+				"þátíð": {
+					"et": ["dó", "dóst", "dó"],
+					"ft": ["dóum", "dóuð", "dóu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["deyi", "deyir", "deyi"],
+					"ft": ["deyjum", "deyjið", "deyi"]
+				},
+				"þátíð": {
+					"et": ["dæi", "dæir", "dæi"],
+					"ft": ["dæjum", "dæjuð", "dæju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "deyrðu",
+					"ft": "deyiði"
+				},
+				"þátíð": {
+					"et": "dóstu",
+					"ft": "dóuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "deyirðu",
+					"ft": "deyiði"
+				},
+				"þátíð": {
+					"et": "dæirðu",
+					"ft": "dæjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "deyjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dáinn", "dáinn", "dánum", "dáins"],
+					"kvk": ["dáin", "dána", "dáinni", "dáinnar"],
+					"hk": ["dáið", "dáið", "dánu", "dáins"]
+				},
+				"ft": {
+					"kk": ["dánir", "dána", "dánum", "dáinna"],
+					"kvk": ["dánar", "dánar", "dánum", "dáinna"],
+					"hk": ["dáin", "dáin", "dánum", "dáinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["dáni", "dána", "dána", "dána"],
+					"kvk": ["dána", "dánu", "dánu", "dánu"],
+					"hk": ["dána", "dána", "dána", "dána"]
+				},
+				"ft": {
+					"kk": ["dánu", "dánu", "dánu", "dánu"],
+					"kvk": ["dánu", "dánu", "dánu", "dánu"],
+					"hk": ["dánu", "dánu", "dánu", "dánu"]
+				}
+			}
+		}
+	},
+	"hash": "9ad5d4d8d0cdf19f8eaaacaef451bee3139b11753264f1a2120b6388d449fae4"
+}
