@@ -73,6 +73,18 @@ class Sernafnaflokkar(enum.Enum):
     Ornefni = 4
 
 
+class LysingarordMyndir(enum.Enum):
+    Frumstig_vb_kk = 0
+    Frumstig_vb_kvk = 1
+    Frumstig_vb_hk = 2
+    Midstig_vb_kk = 3
+    Midstig_vb_kvk = 4
+    Midstig_vb_hk = 5
+    Efstastig_vb_kk = 6
+    Efstastig_vb_kvk = 7
+    Efstastig_vb_hk = 8
+
+
 # ------------------ #
 # Gagnagrunns-töflur #
 # ------------------ #
@@ -107,9 +119,12 @@ class SamsettOrdhlutar(Base):
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Ordmynd = utils.word_column()
     Gerd = utils.selection(Ordasamsetningar, None)
+    LysingarordMyndir = utils.selection(LysingarordMyndir, None)
     fk_NaestiOrdhluti_id = utils.foreign_integer_primary_key('SamsettOrdhlutar')
-    Lagstafa = utils.boolean_default_false()  # stilling til að lágstafa aftasta orðhluta
-    Hastafa = utils.boolean_default_false()  # stilling til að hástafa upphafsstaf
+    Lagstafa = utils.boolean_default_false()  # stilling til að lágstafa orðhluta
+    Hastafa = utils.boolean_default_false()  # stilling til að hástafa upphafsstaf orðhluta
+    Leidir = utils.word_column()
+    Fylgir = utils.word_column()
     # exclude specific beygingar ("beygingar": ["et-ág", "et-mg", "ft-ág", "ft-mg"])
     Exclude_et_ag = utils.boolean_default_false()
     Exclude_et_mg = utils.boolean_default_false()

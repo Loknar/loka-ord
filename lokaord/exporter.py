@@ -1161,18 +1161,13 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     ).first()
     assert(isl_ordhluti is not None)
     ordhluti_ids = set()
-    samsett_ord_framhluti = ''
     samsett_ord_beygist = True
-    samsett_ord_last_ordhluti_ord = None
     samsett_ord_last_ordhluti_nafnord = None
     while isl_ordhluti is not None:
         # below assertion is to detect and prevent circular samsett orð definition
         assert(isl_ordhluti.SamsettOrdhlutar_id not in ordhluti_ids)
         ordhluti_ids.add(isl_ordhluti.SamsettOrdhlutar_id)
         ordhluti_data = collections.OrderedDict()
-        if isl_ordhluti.fk_NaestiOrdhluti_id is not None:
-            assert(isl_ordhluti.Ordmynd is not None)
-            assert(isl_ordhluti.Gerd is not None)
         if isl_ordhluti.Ordmynd is not None:
             assert(isl_ordhluti.Gerd is not None)
             samsetning_gerd = None
@@ -1185,7 +1180,10 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             assert(samsetning_gerd is not None)
             ordhluti_data['mynd'] = isl_ordhluti.Ordmynd
             ordhluti_data['samsetning'] = samsetning_gerd
-            samsett_ord_framhluti += ordhluti_data['mynd']
+        if isl_ordhluti.LysingarordMyndir is not None:
+            assert(isl_ordhluti.Ordmynd is None)
+            assert(isl_ordhluti.Gerd is None)
+            ordhluti_data['myndir'] = lysingarordmyndir_to_str(isl_ordhluti.LysingarordMyndir)
         ordhluti_ord = db.Session.query(isl.Ord).filter_by(Ord_id=isl_ordhluti.fk_Ord_id).first()
         assert(ordhluti_ord is not None)
         ordhluti_data['orð'] = ordhluti_ord.Ord
@@ -1242,6 +1240,10 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             ordhluti_data['lágstafa'] = True
         if isl_ordhluti.Hastafa is True:
             ordhluti_data['hástafa'] = True
+        if isl_ordhluti.Leidir is not None:
+            ordhluti_data['leiðir'] = isl_ordhluti.Leidir
+        if isl_ordhluti.Fylgir is not None:
+            ordhluti_data['fylgir'] = isl_ordhluti.Fylgir
         # beygingar list fyrir sérnöfn
         if (
             isl_ordhluti.Exclude_et_ag is True or
@@ -1266,7 +1268,6 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
             ).first()
             assert(isl_ordhluti is not None)
         else:
-            samsett_ord_last_ordhluti_ord = ordhluti_ord
             if isl_ordhluti.Ordmynd is not None:
                 # ef síðasti orðhlutinn hefur fasta mynd þá er ljóst að samsetta orðið beygist ekki
                 samsett_ord_beygist = False
@@ -1283,57 +1284,326 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         assert(samsett_ord_last_ordhluti_nafnord is not None)
         data['kyn'] = kyn_to_str(samsett_ord_last_ordhluti_nafnord.Kyn)
     if samsett_ord_beygist is True:
-        samsett_ord_last_ordhluti_ord_data = None
-        if samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
-            samsett_ord_last_ordhluti_ord_data = get_nafnord_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Lysingarord:
-            samsett_ord_last_ordhluti_ord_data = get_lysingarord_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Sagnord:
-            samsett_ord_last_ordhluti_ord_data = get_sagnord_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Greinir:
-            samsett_ord_last_ordhluti_ord_data = get_greinir_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Frumtala:
-            samsett_ord_last_ordhluti_ord_data = get_frumtala_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Radtala:
-            samsett_ord_last_ordhluti_ord_data = get_radtala_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
-            samsett_ord_last_ordhluti_ord_data = get_fornafn_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        elif samsett_ord_last_ordhluti_ord.Ordflokkur is isl.Ordflokkar.Sernafn:
-            samsett_ord_last_ordhluti_ord_data = get_sernafn_from_db_to_ordered_dict(
-                samsett_ord_last_ordhluti_ord
-            )
-        # TODO: add more orðflokkar here :/
-        assert(samsett_ord_last_ordhluti_ord_data is not None)
-        samsett_ord_data = add_framhluti_to_ord_data(
-            samsett_ord_framhluti,
-            samsett_ord_last_ordhluti_ord_data,
-            isl_ordhluti_last.Lagstafa,
-            isl_ordhluti_last.Hastafa,
-            isl_ordhluti_last.Exclude_et_ag,
-            isl_ordhluti_last.Exclude_et_mg,
-            isl_ordhluti_last.Exclude_ft_ag,
-            isl_ordhluti_last.Exclude_ft_mg
-        )
+        samsett_ord_data = get_beygingarmyndir_for_samsett_ord(isl_samsett_ord)
         for key in samsett_ord_data:
             data[key] = samsett_ord_data[key]
     else:
-        if isl_ord.Ordflokkur is isl.Ordflokkar.Lysingarord:
+        if (
+            isl_ord.Ordflokkur in (
+                isl.Ordflokkar.Lysingarord, isl.Ordflokkar.Frumtala, isl.Ordflokkar.Radtala
+            )
+        ):
             data['óbeygjanlegt'] = True
     return data
+
+
+def get_beygingarmyndir_for_samsett_ord(isl_samsett_ord):
+    '''
+    helper function for constructing beygingarmyndir data for samsett orð
+    '''
+    ordflokkar_to_dict_fun_map = {
+        isl.Ordflokkar.Nafnord: get_nafnord_from_db_to_ordered_dict,
+        isl.Ordflokkar.Lysingarord: get_lysingarord_from_db_to_ordered_dict,
+        isl.Ordflokkar.Sagnord: get_sagnord_from_db_to_ordered_dict,
+        isl.Ordflokkar.Greinir: get_greinir_from_db_to_ordered_dict,
+        isl.Ordflokkar.Frumtala: get_frumtala_from_db_to_ordered_dict,
+        isl.Ordflokkar.Radtala: get_radtala_from_db_to_ordered_dict,
+        isl.Ordflokkar.Fornafn: get_fornafn_from_db_to_ordered_dict,
+        isl.Ordflokkar.Sernafn: get_sernafn_from_db_to_ordered_dict
+    }
+    isl_first_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
+        SamsettOrdhlutar_id=isl_samsett_ord.fk_FyrstiOrdHluti_id
+    ).first()
+    isl_ordhluti = isl_first_ordhluti
+    isl_ordhluti_last = None
+    beygingar_list = []
+    while isl_ordhluti is not None:
+        ordhluti_ord = db.Session.query(isl.Ord).filter_by(Ord_id=isl_ordhluti.fk_Ord_id).first()
+        if isl_ordhluti.Ordmynd is not None:
+            mynd = apply_changes_to_beyging(
+                isl_ordhluti.Ordmynd,
+                isl_ordhluti.Hastafa,
+                isl_ordhluti.Lagstafa,
+                isl_ordhluti.Leidir,
+                isl_ordhluti.Fylgir
+            )
+            beygingar_list.append({'mynd': mynd})
+        elif isl_ordhluti.LysingarordMyndir is not None:
+            l_beygingar = get_beygingarmyndir_for_lysingarord_myndir(
+                ordhluti_ord.Ord_id, isl_ordhluti.LysingarordMyndir
+            )
+            l_beygingar = apply_changes_to_beygingarmyndir(
+                l_beygingar,
+                isl_ordhluti.Hastafa,
+                isl_ordhluti.Lagstafa,
+                isl_ordhluti.Leidir,
+                isl_ordhluti.Fylgir
+            )
+            beygingar_list.append({'myndir': l_beygingar})
+        elif ordhluti_ord.Samsett is True:
+            s_beygingar = get_beygingarmyndir_for_samsett_ord(ordhluti_ord)
+            s_beygingar = apply_changes_to_beygingarmyndir(
+                s_beygingar,
+                isl_ordhluti.Hastafa,
+                isl_ordhluti.Lagstafa,
+                isl_ordhluti.Leidir,
+                isl_ordhluti.Fylgir
+            )
+            beygingar_list.append({'myndir': s_beygingar})
+        elif ordhluti_ord.Ordflokkur in ordflokkar_to_dict_fun_map.keys():
+            f_get_dict = ordflokkar_to_dict_fun_map[ordhluti_ord.Ordflokkur]
+            o_beygingar = remove_keys_from_beygingarmyndir(f_get_dict(ordhluti_ord))
+            o_beygingar = apply_changes_to_beygingarmyndir(
+                o_beygingar,
+                isl_ordhluti.Hastafa,
+                isl_ordhluti.Lagstafa,
+                isl_ordhluti.Leidir,
+                isl_ordhluti.Fylgir
+            )
+            beygingar_list.append({'myndir': o_beygingar})
+        else:
+            raise Exception('Unhandled case? We should not be getting here.')
+        # fetch next orðhluti
+        if isl_ordhluti.fk_NaestiOrdhluti_id is not None:
+            isl_ordhluti = db.Session.query(isl.SamsettOrdhlutar).filter_by(
+                SamsettOrdhlutar_id=isl_ordhluti.fk_NaestiOrdhluti_id
+            ).first()
+            assert(isl_ordhluti is not None)
+        else:
+            isl_ordhluti_last = isl_ordhluti
+            isl_ordhluti = None
+    assert(isl_ordhluti_last is not None)
+    assert('myndir' in beygingar_list[-1])
+    beygingar = beygingar_list[-1]['myndir']
+    if isl_ordhluti_last.Exclude_et_ag is True:
+        if 'et' in beygingar and 'ág' in beygingar['et']:
+            del beygingar['et']['ág']
+    if isl_ordhluti_last.Exclude_et_mg is True:
+        if 'et' in beygingar and 'mg' in beygingar['et']:
+            del beygingar['et']['mg']
+    if isl_ordhluti_last.Exclude_ft_ag is True:
+        if 'ft' in beygingar and 'ág' in beygingar['ft']:
+            del beygingar['ft']['ág']
+    if isl_ordhluti_last.Exclude_ft_mg is True:
+        if 'ft' in beygingar and 'mg' in beygingar['ft']:
+            del beygingar['ft']['mg']
+    if (
+        isl_ordhluti_last.Exclude_et_ag is True or
+        isl_ordhluti_last.Exclude_et_mg is True or
+        isl_ordhluti_last.Exclude_ft_ag is True or
+        isl_ordhluti_last.Exclude_ft_mg is True
+    ):
+        if 'et' in beygingar and len(beygingar['et'].keys()) == 0:
+            del beygingar['et']
+        if 'ft' in beygingar and len(beygingar['ft'].keys()) == 0:
+            del beygingar['ft']
+    for p_beygingar in reversed(beygingar_list[:-1]):
+        if 'mynd' in p_beygingar:
+            beygingar = prepend_to_beygingar(beygingar, p_beygingar['mynd'])
+        elif 'myndir' in p_beygingar:
+            beygingar = join_together_beygingar(beygingar, p_beygingar['myndir'])
+        else:
+            raise Exception('Neither "mynd" or "myndir"? We should not be getting here.')
+    return beygingar
+
+
+def prepend_to_beygingar(beygingar, mynd):
+    dictorinos = (dict, collections.OrderedDict)
+    dont_change_keys = set(['frumlag'])
+    if type(beygingar) in dictorinos:
+        for key in beygingar:
+            if key in dont_change_keys:
+                continue
+            else:
+                beygingar[key] = prepend_to_beygingar(beygingar[key], mynd)
+        return beygingar
+    if type(beygingar) is list:
+        new_list = []
+        for value in beygingar:
+            new_list.append(prepend_to_beygingar(value, mynd))
+        return new_list
+    if type(beygingar) is str:
+        assert(type(mynd) is str)
+        return '%s%s' % (mynd, beygingar)
+    if type(beygingar) in (bool, int, None):
+        return beygingar
+
+
+def join_together_beygingar(beygingar, p_beygingar):
+    dictorinos = (dict, collections.OrderedDict)
+    dont_change_keys = set(['frumlag'])
+    if type(beygingar) in dictorinos:
+        assert(type(p_beygingar) in dictorinos)
+        for key in beygingar:
+            if key in dont_change_keys:
+                continue
+            beygingar[key] = join_together_beygingar(beygingar[key], p_beygingar[key])
+        return beygingar
+    if type(beygingar) is list:
+        assert(type(p_beygingar) is list)
+        assert(len(beygingar) == len(p_beygingar))
+        new_list = []
+        for i, value in enumerate(beygingar):
+            print('A2')
+            new_list.append(prepend_to_beygingar(value, p_beygingar[i]))
+        return new_list
+    if type(beygingar) is str:
+        assert(type(p_beygingar) is str)
+        return '%s%s' % (p_beygingar, beygingar)
+    if type(beygingar) in (bool, int, None):
+        return beygingar
+    raise Exception('Unhandled case? We should not be getting here.')
+
+
+def remove_keys_from_beygingarmyndir(mydict):
+    remove_keys = [
+        'orð', 'flokkur', 'undirflokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt', 'stýrir'
+    ]
+    for remove_key in remove_keys:
+        if remove_key in mydict:
+            del mydict[remove_key]
+    return mydict
+
+
+def get_beygingarmyndir_for_lysingarord_myndir(ord_id, myndir):
+    isl_lysingarord_list = db.Session.query(isl.Lysingarord).filter_by(fk_Ord_id=ord_id)
+    assert(len(isl_lysingarord_list.all()) < 2)
+    isl_lysingarord = isl_lysingarord_list.first()
+    assert(isl_lysingarord is not None)
+    fallbeyging_et = None
+    fallbeyging_ft = None
+    if myndir is isl.LysingarordMyndir.Frumstig_vb_kk:
+        assert(isl_lysingarord.fk_Frumstig_vb_et_kk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Frumstig_vb_ft_kk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Frumstig_vb_et_kk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Frumstig_vb_ft_kk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Frumstig_vb_kvk:
+        assert(isl_lysingarord.fk_Frumstig_vb_et_kvk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Frumstig_vb_ft_kvk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Frumstig_vb_et_kvk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Frumstig_vb_ft_kvk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Frumstig_vb_hk:
+        assert(isl_lysingarord.fk_Frumstig_vb_et_hk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Frumstig_vb_ft_hk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Frumstig_vb_et_hk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Frumstig_vb_ft_hk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Midstig_vb_kk:
+        assert(isl_lysingarord.fk_Midstig_vb_et_kk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Midstig_vb_ft_kk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Midstig_vb_et_kk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Midstig_vb_ft_kk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Midstig_vb_kvk:
+        assert(isl_lysingarord.fk_Midstig_vb_et_kvk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Midstig_vb_ft_kvk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Midstig_vb_et_kvk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Midstig_vb_ft_kvk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Midstig_vb_hk:
+        assert(isl_lysingarord.fk_Midstig_vb_et_hk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Midstig_vb_ft_hk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Midstig_vb_et_hk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Midstig_vb_ft_hk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Efstastig_vb_kk:
+        assert(isl_lysingarord.fk_Efstastig_vb_et_kk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Efstastig_vb_ft_kk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Efstastig_vb_et_kk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Efstastig_vb_ft_kk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Efstastig_vb_kvk:
+        assert(isl_lysingarord.fk_Efstastig_vb_et_kvk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Efstastig_vb_ft_kvk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Efstastig_vb_et_kvk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Efstastig_vb_ft_kvk_Fallbeyging_id
+        )
+    elif myndir is isl.LysingarordMyndir.Efstastig_vb_hk:
+        assert(isl_lysingarord.fk_Efstastig_vb_et_hk_Fallbeyging_id is not None)
+        assert(isl_lysingarord.fk_Efstastig_vb_ft_hk_Fallbeyging_id is not None)
+        fallbeyging_et = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Efstastig_vb_et_hk_Fallbeyging_id
+        )
+        fallbeyging_ft = get_fallbeyging_list_from_db(
+            isl_lysingarord.fk_Efstastig_vb_ft_hk_Fallbeyging_id
+        )
+    assert(fallbeyging_et is not None)
+    assert(fallbeyging_ft is not None)
+    beygingar = collections.OrderedDict()
+    beygingar['et'] = collections.OrderedDict()
+    beygingar['ft'] = collections.OrderedDict()
+    beygingar['et']['ág'] = fallbeyging_et
+    beygingar['et']['mg'] = fallbeyging_et.copy()
+    beygingar['ft']['ág'] = fallbeyging_ft
+    beygingar['ft']['mg'] = fallbeyging_ft.copy()
+    return beygingar
+
+
+def apply_changes_to_beygingarmyndir(beygingar, hastafa, lagstafa, leidir, fylgir):
+    if 'et' in beygingar:
+        if 'ág' in beygingar['et']:
+            beygingar['et']['ág'] = apply_changes_to_beyging(
+                beygingar['et']['ág'], hastafa, lagstafa, leidir, fylgir
+            )
+        if 'mg' in beygingar['et']:
+            beygingar['et']['mg'] = apply_changes_to_beyging(
+                beygingar['et']['mg'], hastafa, lagstafa, leidir, fylgir
+            )
+    if 'ft' in beygingar:
+        if 'ág' in beygingar['ft']:
+            beygingar['ft']['ág'] = apply_changes_to_beyging(
+                beygingar['ft']['ág'], hastafa, lagstafa, leidir, fylgir
+            )
+        if 'mg' in beygingar['ft']:
+            beygingar['ft']['mg'] = apply_changes_to_beyging(
+                beygingar['ft']['mg'], hastafa, lagstafa, leidir, fylgir
+            )
+    return beygingar
+
+
+def apply_changes_to_beyging(beyging, hastafa, lagstafa, leidir, fylgir):
+    if type(beyging) is list:
+        new_list = []
+        for mystr in beyging:
+            assert(type(mystr) is str)
+            new_list.append(apply_changes_to_beyging(mystr, hastafa, lagstafa, leidir, fylgir))
+        return new_list
+    assert(type(beyging) is str)
+    if lagstafa is True:
+        beyging = beyging.lower()
+    if hastafa is True:
+        beyging = '%s%s' % (beyging[0].upper(), beyging[1:])
+    if leidir is not None:
+        beyging = '%s%s' % (leidir, beyging)
+    if fylgir is not None:
+        beyging = '%s%s' % (beyging, fylgir)
+    return beyging
 
 
 def get_fallbeyging_list_from_db(fallbeyging_id):
@@ -1752,79 +2022,6 @@ def kyn_to_str(kyn):
     raise Exception('Unknown kyn.')
 
 
-def add_framhluti_to_ord_data(
-    framhluti, ord_data, lagstafa=False, hastafa=False, exclude_et_ag=False, exclude_et_mg=False,
-    exclude_ft_ag=False, exclude_ft_mg=False
-):
-    '''
-    helper function for constructing beygingarmyndir data for samsett orð
-    '''
-    dictorinos = (dict, collections.OrderedDict)
-    ignore_keys = set([
-        'orð', 'flokkur', 'undirflokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt', 'stýrir'
-    ])
-    dont_change_keys = set(['frumlag'])
-    new_ord_data = None
-    if type(ord_data) is dict:
-        new_ord_data = {}
-    if type(ord_data) is collections.OrderedDict:
-        new_ord_data = collections.OrderedDict()
-    if type(ord_data) in dictorinos:
-        for key in ord_data:
-            if key in ignore_keys:
-                continue
-            elif key in dont_change_keys:
-                new_ord_data[key] = ord_data[key]
-            else:
-                new_ord_data[key] = add_framhluti_to_ord_data(
-                    framhluti,
-                    ord_data[key],
-                    lagstafa,
-                    hastafa
-                )
-    if type(ord_data) is list:
-        new_ord_data = []
-        for element in ord_data:
-            new_ord_data.append(add_framhluti_to_ord_data(
-                framhluti,
-                element,
-                lagstafa,
-                hastafa
-            ))
-    if type(ord_data) is str:
-        if lagstafa is True:
-            ord_data = ord_data.lower()
-        if hastafa is True:
-            ord_data = '%s%s' % (ord_data[:1].upper(), ord_data[1:])
-        new_ord_data = '%s%s' % (framhluti, ord_data)
-    if type(ord_data) is bool:
-        new_ord_data = ord_data
-    if type(ord_data) is int:
-        new_ord_data = ord_data
-    if type(ord_data) is None:
-        new_ord_data = ord_data
-    # exclude fallbeyging
-    if exclude_et_ag is True:
-        if 'et' in new_ord_data and 'ág' in new_ord_data['et']:
-            del new_ord_data['et']['ág']
-    if exclude_et_mg is True:
-        if 'et' in new_ord_data and 'mg' in new_ord_data['et']:
-            del new_ord_data['et']['mg']
-    if exclude_ft_ag is True:
-        if 'ft' in new_ord_data and 'ág' in new_ord_data['ft']:
-            del new_ord_data['ft']['ág']
-    if exclude_ft_mg is True:
-        if 'ft' in new_ord_data and 'mg' in new_ord_data['ft']:
-            del new_ord_data['ft']['mg']
-    if exclude_et_ag is True or exclude_et_mg is True:
-        if 'et' in new_ord_data and len(new_ord_data['et'].keys()) == 0:
-            del new_ord_data['et']
-    if exclude_ft_ag is True or exclude_ft_mg is True:
-        if 'ft' in new_ord_data and len(new_ord_data['ft'].keys()) == 0:
-            del new_ord_data['ft']
-    return new_ord_data
-
-
 def fornafn_undirflokkur_to_str(undirflokkur):
     if undirflokkur is isl.Fornafnaflokkar.Abendingarfornafn:
         return 'ábendingar'
@@ -1997,3 +2194,25 @@ def sernafn_undirflokkur_to_str(undirflokkur):
     elif undirflokkur is isl.Sernafnaflokkar.Ornefni:
         return 'örnefni'
     raise Exception('Unknown Sérnafnsflokkur.')
+
+
+def lysingarordmyndir_to_str(myndir):
+    if myndir is isl.LysingarordMyndir.Frumstig_vb_kk:
+        return 'frumstig-vb-kk'
+    elif myndir is isl.LysingarordMyndir.Frumstig_vb_kvk:
+        return 'frumstig-vb-kvk'
+    elif myndir is isl.LysingarordMyndir.Frumstig_vb_hk:
+        return 'frumstig-vb-hk'
+    elif myndir is isl.LysingarordMyndir.Midstig_vb_kk:
+        return 'midstig-vb-kk'
+    elif myndir is isl.LysingarordMyndir.Midstig_vb_kvk:
+        return 'midstig-vb-kvk'
+    elif myndir is isl.LysingarordMyndir.Midstig_vb_hk:
+        return 'midstig-vb-hk'
+    elif myndir is isl.LysingarordMyndir.Efstastig_vb_kk:
+        return 'efstastig-vb-kk'
+    elif myndir is isl.LysingarordMyndir.Efstastig_vb_kvk:
+        return 'efstastig-vb-kvk'
+    elif myndir is isl.LysingarordMyndir.Efstastig_vb_hk:
+        return 'efstastig-vb-hk'
+    raise Exception('Unknown Lýsingarorðmyndir.')
