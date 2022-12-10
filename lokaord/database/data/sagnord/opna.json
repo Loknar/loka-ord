@@ -1,0 +1,158 @@
+{
+	"orð": "opna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "opna",
+		"sagnbót": "opnað",
+		"boðháttur": {
+			"stýfður": "opna",
+			"et": "opnaðu",
+			"ft": "opnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["opna", "opnar", "opnar"],
+					"ft": ["opnum", "opnið", "opna"]
+				},
+				"þátíð": {
+					"et": ["opnaði", "opnaðir", "opnaði"],
+					"ft": ["opnuðum", "opnuðuð", "opnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["opni", "opnir", "opni"],
+					"ft": ["opnum", "opnið", "opni"]
+				},
+				"þátíð": {
+					"et": ["opnaði", "opnaðir", "opnaði"],
+					"ft": ["opnuðum", "opnuðuð", "opnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "opnarðu",
+					"ft": "opniði"
+				},
+				"þátíð": {
+					"et": "opnaðirðu",
+					"ft": "opnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "opnirðu",
+					"ft": "opniði"
+				},
+				"þátíð": {
+					"et": "opnaðirðu",
+					"ft": "opnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "opnast",
+		"sagnbót": "opnast",
+		"boðháttur": {
+			"et": "opnastu",
+			"ft": "opnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["opnast", "opnast", "opnast"],
+					"ft": ["opnumst", "opnist", "opnast"]
+				},
+				"þátíð": {
+					"et": ["opnaðist", "opnaðist", "opnaðist"],
+					"ft": ["opnuðumst", "opnuðust", "opnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["opnist", "opnist", "opnist"],
+					"ft": ["opnumst", "opnist", "opnist"]
+				},
+				"þátíð": {
+					"et": ["opnaðist", "opnaðist", "opnaðist"],
+					"ft": ["opnuðumst", "opnuðust", "opnuðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["opnast", "opnast", "opnast"],
+					"ft": ["opnast", "opnast", "opnast"]
+				},
+				"þátíð": {
+					"et": ["opnaðist", "opnaðist", "opnaðist"],
+					"ft": ["opnaðist", "opnaðist", "opnaðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["opnast", "opnast", "opnast"],
+					"ft": ["opnast", "opnast", "opnast"]
+				},
+				"þátíð": {
+					"et": ["opnaðist", "opnaðist", "opnaðist"],
+					"ft": ["opnaðist", "opnaðist", "opnaðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "opnastu"
+				},
+				"þátíð": {
+					"et": "opnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "opnistu"
+				},
+				"þátíð": {
+					"et": "opnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "opnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["opnaður", "opnaðan", "opnuðum", "opnaðs"],
+					"kvk": ["opnuð", "opnaða", "opnaðri", "opnaðrar"],
+					"hk": ["opnað", "opnað", "opnuðu", "opnaðs"]
+				},
+				"ft": {
+					"kk": ["opnaðir", "opnaða", "opnuðum", "opnaðra"],
+					"kvk": ["opnaðar", "opnaðar", "opnuðum", "opnaðra"],
+					"hk": ["opnuð", "opnuð", "opnuðum", "opnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["opnaði", "opnaða", "opnaða", "opnaða"],
+					"kvk": ["opnaða", "opnuðu", "opnuðu", "opnuðu"],
+					"hk": ["opnaða", "opnaða", "opnaða", "opnaða"]
+				},
+				"ft": {
+					"kk": ["opnuðu", "opnuðu", "opnuðu", "opnuðu"],
+					"kvk": ["opnuðu", "opnuðu", "opnuðu", "opnuðu"],
+					"hk": ["opnuðu", "opnuðu", "opnuðu", "opnuðu"]
+				}
+			}
+		}
+	},
+	"hash": "2be3f8e840da42163f7929c0118c5db056ed0d817fed1f6e680ad113627748de"
+}
