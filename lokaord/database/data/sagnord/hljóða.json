@@ -1,0 +1,131 @@
+{
+	"orð": "hljóða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hljóða",
+		"sagnbót": "hljóðað",
+		"boðháttur": {
+			"stýfður": "hljóða",
+			"et": "hljóðuðu",
+			"ft": "hljóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hljóða", "hljóðar", "hljóðar"],
+					"ft": ["hljóðum", "hljóðið", "hljóða"]
+				},
+				"þátíð": {
+					"et": ["hljóðaði", "hljóðaðir", "hljóðaði"],
+					"ft": ["hljóðuðum", "hljóðuðuð", "hljóðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hljóði", "hljóðir", "hljóði"],
+					"ft": ["hljóðum", "hljóðið", "hljóði"]
+				},
+				"þátíð": {
+					"et": ["hljóðaði", "hljóðaðir", "hljóðaði"],
+					"ft": ["hljóðuðum", "hljóðuðuð", "hljóðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hljóðarðu",
+					"ft": "hljóðiði"
+				},
+				"þátíð": {
+					"et": "hljóðaðirðu",
+					"ft": "hljóðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hljóðirðu",
+					"ft": "hljóðiði"
+				},
+				"þátíð": {
+					"et": "hljóðaðirðu",
+					"ft": "hljóðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hljóðast",
+		"sagnbót": "hljóðast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hljóðast", "hljóðast", "hljóðast"],
+					"ft": ["hljóðumst", "hljóðist", "hljóðast"]
+				},
+				"þátíð": {
+					"et": ["hljóðaðist", "hljóðaðist", "hljóðaðist"],
+					"ft": ["hljóðuðumst", "hljóðuðust", "hljóðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hljóðist", "hljóðist", "hljóðist"],
+					"ft": ["hljóðumst", "hljóðist", "hljóðist"]
+				},
+				"þátíð": {
+					"et": ["hljóðaðist", "hljóðaðist", "hljóðaðist"],
+					"ft": ["hljóðuðumst", "hljóðuðust", "hljóðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hljóðastu"
+				},
+				"þátíð": {
+					"et": "hljóðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hljóðistu"
+				},
+				"þátíð": {
+					"et": "hljóðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hljóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hljóðuður", "hljóðaðan", "hljóðuðum", "hljóðaðs"],
+					"kvk": ["hljóðuð", "hljóðaða", "hljóðaðri", "hljóðaðrar"],
+					"hk": ["hljóðað", "hljóðað", "hljóðuðu", "hljóðaðs"]
+				},
+				"ft": {
+					"kk": ["hljóðaðir", "hljóðaða", "hljóðuðum", "hljóðaðra"],
+					"kvk": ["hljóðaðar", "hljóðaðar", "hljóðuðum", "hljóðaðra"],
+					"hk": ["hljóðuð", "hljóðuð", "hljóðuðum", "hljóðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hljóðaði", "hljóðaða", "hljóðaða", "hljóðaða"],
+					"kvk": ["hljóðaða", "hljóðuðu", "hljóðuðu", "hljóðuðu"],
+					"hk": ["hljóðaða", "hljóðaða", "hljóðaða", "hljóðaða"]
+				},
+				"ft": {
+					"kk": ["hljóðuðu", "hljóðuðu", "hljóðuðu", "hljóðuðu"],
+					"kvk": ["hljóðuðu", "hljóðuðu", "hljóðuðu", "hljóðuðu"],
+					"hk": ["hljóðuðu", "hljóðuðu", "hljóðuðu", "hljóðuðu"]
+				}
+			}
+		}
+	},
+	"hash": "86a86b320539e16a2a82fd7253ed12176a489dddae5c822b72e8eb840301447a"
+}

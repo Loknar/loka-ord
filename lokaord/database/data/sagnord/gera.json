@@ -1,0 +1,131 @@
+{
+	"orð": "gera",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gera",
+		"sagnbót": "gert",
+		"boðháttur": {
+			"stýfður": "ger",
+			"et": "gerðu",
+			"ft": "gerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geri", "gerir", "gerir"],
+					"ft": ["gerum", "gerið", "gera"]
+				},
+				"þátíð": {
+					"et": ["gerði", "gerðir", "gerði"],
+					"ft": ["gerðum", "gerðuð", "gerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["geri", "gerir", "geri"],
+					"ft": ["gerum", "gerið", "geri"]
+				},
+				"þátíð": {
+					"et": ["gerði", "gerðir", "gerði"],
+					"ft": ["gerðum", "gerðuð", "gerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gerirðu",
+					"ft": "geriði"
+				},
+				"þátíð": {
+					"et": "gerðirðu",
+					"ft": "gerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gerirðu",
+					"ft": "geriði"
+				},
+				"þátíð": {
+					"et": "gerðirðu",
+					"ft": "gerðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gerast",
+		"sagnbót": "gerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gerist", "gerist", "gerist"],
+					"ft": ["gerumst", "gerist", "gerast"]
+				},
+				"þátíð": {
+					"et": ["gerðist", "gerðist", "gerðist"],
+					"ft": ["gerðumst", "gerðust", "gerðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gerist", "gerist", "gerist"],
+					"ft": ["gerumst", "gerist", "gerist"]
+				},
+				"þátíð": {
+					"et": ["gerðist", "gerðist", "gerðist"],
+					"ft": ["gerðumst", "gerðust", "gerðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geristu"
+				},
+				"þátíð": {
+					"et": "gerðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "geristu"
+				},
+				"þátíð": {
+					"et": "gerðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gerður", "gerðan", "gerðum", "gerðs"],
+					"kvk": ["gerð", "gerða", "gerðri", "gerðrar"],
+					"hk": ["gert", "gert", "gerðu", "gerðs"]
+				},
+				"ft": {
+					"kk": ["gerðir", "gerða", "gerðum", "gerðra"],
+					"kvk": ["gerðar", "gerðar", "gerðum", "gerðra"],
+					"hk": ["gerð", "gerð", "gerðum", "gerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gerði", "gerða", "gerða", "gerða"],
+					"kvk": ["gerða", "gerðu", "gerðu", "gerðu"],
+					"hk": ["gerða", "gerða", "gerða", "gerða"]
+				},
+				"ft": {
+					"kk": ["gerðu", "gerðu", "gerðu", "gerðu"],
+					"kvk": ["gerðu", "gerðu", "gerðu", "gerðu"],
+					"hk": ["gerðu", "gerðu", "gerðu", "gerðu"]
+				}
+			}
+		}
+	},
+	"hash": "b10f1f693077a208905d2c5ae1a793136ec565ecc09b082c9f1bd5d59d549e6a"
+}
