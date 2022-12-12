@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 171 | 161 | 140 | 472 | 58 | 41 | 55 | 154 | **626** |
-| **Lýsingarorð** | 8 |   |   |   | 32 |   |   |   | 27 | **59** |
-| **Sagnorð**     |   |   |   |   | 73 |   |   |   | 16 | **89** |
+| **Nafnorð**     |   | 171 | 164 | 143 | 478 | 60 | 45 | 59 | 164 | **642** |
+| **Lýsingarorð** | 8 |   |   |   | 33 |   |   |   | 28 | **61** |
+| **Sagnorð**     |   |   |   |   | 78 |   |   |   | 16 | **94** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 2 | **40** |
-| **Smáorð**      |   |   |   |   |   |   |   |   |   | **126** |
-| **Alls** |   |   |   |   | **807** |   |   |   | **213** | **1020** |
+| **Smáorð**      |   |   |   |   |   |   |   |   |   | **127** |
+| **Alls** |   |   |   |   | **820** |   |   |   | **224** | **1044** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,10 +20,10 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Gælunöfn  | 6 | 3 |   | 9 | 1 |  |   | 1 | **10** |
 | Kenninöfn |  |  |   |  | 4 | 4 |   | 8 | **8** |
 | Millinöfn |   |   |   |   |   |   |   |   | **10** |
-| Örnefni   |  |  | 1 | 1 | 19 | 12 | 6 | 37 | **38** |
-| **Alls**  |   |   |   | **74** |   |   |   | **66** | **140** |
+| Örnefni   |  |  | 1 | 1 | 19 | 13 | 6 | 38 | **39** |
+| **Alls**  |   |   |   | **74** |   |   |   | **67** | **141** |
 
-**Samtals:** 1160 orð.
+**Samtals:** 1185 orð.
 
 
 ## Forkröfur (Requirements)
@@ -123,9 +123,19 @@ eða fyrir heilu setningarnar:
 python main.py --scan-sentence "Hér er haugur orða í hóflega langri setningu."
 ```
 
+### Þægilegri keyrsluskipun
+
+Til þæginda er hægt á linux/unix að skilgreina alias eins og til dæmis
+
+```bash
+alias lokaord="$HOME/repos/loka-ord/bin/lokaord"
+```
+
+og vista í `.bashrc` eða sambærilegri skrá, þá er hægt að spara sér að þurfa að skrifa endalaust `python main.py` og skrifa í staðinn einfaldlega `lokaord`. Fyrir Windows þyrfti að skrifa `.bat` skrá sambærilega bash `bin/lokaord` skriptunni og síðan bæta henni í path eða útbúa sambærilegt alias á Windows.
+
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 
-Í grunninum eru frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (amfestingur eða einhver flík) og "gałli" (vankantur eða brestur).
+Í grunninum eru frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (samfestingur eða flík) og "gałli" (vankantur eða brestur).
 
 Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
 
