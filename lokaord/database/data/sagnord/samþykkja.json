@@ -1,0 +1,146 @@
+{
+	"orð": "samþykkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "eignarfalls",
+			"orð": "samur",
+			"flokkur": "fornafn",
+			"undirflokkur": "óákveðið",
+			"hash": "fd41bc9b21db7226a1809612c214b38797f1c75c1398bbeaf9230b96a69ef67a"
+		},
+		{
+			"orð": "þykkja",
+			"flokkur": "sagnorð",
+			"hash": "e1650d177141448511c2c0fa5b08482887af19a97d33634cbe273cf85c62d396"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samþykkja",
+		"sagnbót": "samþykkt",
+		"boðháttur": {
+			"stýfður": "samþykk",
+			"et": "samþykktu",
+			"ft": "samþykkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samþykki", "samþykkir", "samþykkir"],
+					"ft": ["samþykkjum", "samþykkið", "samþykkja"]
+				},
+				"þátíð": {
+					"et": ["samþykkti", "samþykktir", "samþykkti"],
+					"ft": ["samþykktum", "samþykktuð", "samþykktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samþykki", "samþykkir", "samþykki"],
+					"ft": ["samþykkjum", "samþykkið", "samþykki"]
+				},
+				"þátíð": {
+					"et": ["samþykkti", "samþykktir", "samþykkti"],
+					"ft": ["samþykktum", "samþykktuð", "samþykktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samþykkirðu",
+					"ft": "samþykkiði"
+				},
+				"þátíð": {
+					"et": "samþykktirðu",
+					"ft": "samþykktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samþykkirðu",
+					"ft": "samþykkiði"
+				},
+				"þátíð": {
+					"et": "samþykktirðu",
+					"ft": "samþykktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "samþykkjast",
+		"sagnbót": "samþykkst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samþykkist", "samþykkist", "samþykkist"],
+					"ft": ["samþykkjumst", "samþykkist", "samþykkjast"]
+				},
+				"þátíð": {
+					"et": ["samþykktist", "samþykktist", "samþykktist"],
+					"ft": ["samþykktumst", "samþykktust", "samþykktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samþykkist", "samþykkist", "samþykkist"],
+					"ft": ["samþykkjumst", "samþykkist", "samþykkist"]
+				},
+				"þátíð": {
+					"et": ["samþykktist", "samþykktist", "samþykktist"],
+					"ft": ["samþykktumst", "samþykktust", "samþykktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samþykkistu"
+				},
+				"þátíð": {
+					"et": "samþykktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samþykkistu"
+				},
+				"þátíð": {
+					"et": "samþykktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samþykkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samþykktur", "samþykktan", "samþykktum", "samþykkts"],
+					"kvk": ["samþykkt", "samþykkta", "samþykktri", "samþykktrar"],
+					"hk": ["samþykkt", "samþykkt", "samþykktu", "samþykkts"]
+				},
+				"ft": {
+					"kk": ["samþykktir", "samþykkta", "samþykktum", "samþykktra"],
+					"kvk": ["samþykktar", "samþykktar", "samþykktum", "samþykktra"],
+					"hk": ["samþykkt", "samþykkt", "samþykktum", "samþykktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["samþykkti", "samþykkta", "samþykkta", "samþykkta"],
+					"kvk": ["samþykkta", "samþykktu", "samþykktu", "samþykktu"],
+					"hk": ["samþykkta", "samþykkta", "samþykkta", "samþykkta"]
+				},
+				"ft": {
+					"kk": ["samþykktu", "samþykktu", "samþykktu", "samþykktu"],
+					"kvk": ["samþykktu", "samþykktu", "samþykktu", "samþykktu"],
+					"hk": ["samþykktu", "samþykktu", "samþykktu", "samþykktu"]
+				}
+			}
+		}
+	},
+	"hash": "606dfdeaab4be5974cc434b550d544e40803fa0a6af4e00462e2b2f652674ba8"
+}

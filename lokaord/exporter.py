@@ -741,13 +741,13 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         isl_sagnord.fk_Midmynd_opersonuleg_framsoguhattur is not None or
         isl_sagnord.fk_Midmynd_opersonuleg_vidtengingarhattur is not None or
         isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_et is not None or
-        # isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None or
+        isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None or
         isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_et is not None or
-        # isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None or
+        isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None or
         isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et is not None or
-        # isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None or
-        isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None
-        # isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
+        isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None or
+        isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None or
+        isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
     ):
         data['miðmynd'] = collections.OrderedDict()
         # miðmynd nafnháttur
@@ -774,25 +774,25 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
             data['miðmynd']['ópersónuleg'] = collections.OrderedDict()
         if (
             isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_et is not None or
-            # isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None or
+            isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None or
             isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_et is not None or
-            # isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None or
+            isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None or
             isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et is not None or
-            # isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None or
-            isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None
-            # isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
+            isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None or
+            isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None or
+            isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
         ):
             data['miðmynd']['spurnarmyndir'] = collections.OrderedDict()
             if (
                 isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_et is not None or
-                # isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None or
-                isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_et is not None
-                # isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None
+                isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None or
+                isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_et is not None or
+                isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None
             ):
                 data['miðmynd']['spurnarmyndir']['framsöguháttur'] = collections.OrderedDict()
                 if (
-                    isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_et is not None
-                    # isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None
+                    isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_et is not None or
+                    isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None
                 ):
                     data['miðmynd']['spurnarmyndir']['framsöguháttur']['nútíð'] = (
                         collections.OrderedDict()
@@ -998,35 +998,35 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
         data['miðmynd']['spurnarmyndir']['framsöguháttur']['nútíð']['et'] = (
             isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_et
         )
-    # if isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None:
-    #     data['miðmynd']['spurnarmyndir']['framsöguháttur']['nútíð']['ft'] = (
-    #         isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft
-    #     )
+    if isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft is not None:
+        data['miðmynd']['spurnarmyndir']['framsöguháttur']['nútíð']['ft'] = (
+            isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_nutid_ft
+        )
     if isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_et is not None:
         data['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð']['et'] = (
             isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_et
         )
-    # if isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None:
-    #     data['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð']['ft'] = (
-    #         isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft
-    #     )
+    if isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None:
+        data['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð']['ft'] = (
+            isl_sagnord.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft
+        )
     #
     if isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et is not None:
         data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð']['et'] = (
             isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et
         )
-    # if isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None:
-    #     data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð']['ft'] = (
-    #         isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft
-    #     )
+    if isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None:
+        data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð']['ft'] = (
+            isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft
+        )
     if isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None:
         data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']['et'] = (
             isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et
         )
-    # if isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None:
-    #     data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']['ft'] = (
-    #         isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft
-    #     )
+    if isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None:
+        data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']['ft'] = (
+            isl_sagnord.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft
+        )
     # lýsingarháttur þátíðar
     if isl_sagnord.fk_LysingarhatturThatidar_sb_et_kk_id is not None:
         data['lýsingarháttur']['þátíðar']['sb']['et']['kk'] = get_fallbeyging_list_from_db(

@@ -354,18 +354,14 @@ class Sagnord(Base):
     fk_Midmynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     fk_Midmynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # spurnarmyndir, önnur persóna samtengd sögn (dæmi: býst þú -> býstu, gefst þú -> gefstu)
-    # ATH:
-    # veit ekki um sagnorð sem hafa fleirtölu í spurnarmyndum í miðmynd, ef slíkt væri til þá væru
-    # það orðmyndir eins og "gefisti", "gáfusti" og "gæfusti" fyrir sögnina að gefa, vissulega væri
-    # hægt að skapa venju fyrir slíkum myndum en það hefur ekki verið venja hingað til
     Midmynd_spurnarmyndir_framsoguhattur_nutid_et = utils.word_column()
-    # Midmynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word_column()
+    Midmynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word_column()
     Midmynd_spurnarmyndir_framsoguhattur_thatid_et = utils.word_column()
-    # Midmynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word_column()
+    Midmynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word_column()
     Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et = utils.word_column()
-    # Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word_column()
+    Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word_column()
     Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et = utils.word_column()
-    # Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word_column()
+    Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word_column()
     # lýsingarháttur nútíðar
     LysingarhatturNutidar = utils.word_column()  # (dæmi: gangandi)
     # lýsingarháttur þátíðar (þolmyndir)

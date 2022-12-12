@@ -1,0 +1,131 @@
+{
+	"orð": "þykkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þykkja",
+		"sagnbót": "þykkt",
+		"boðháttur": {
+			"stýfður": "þykk",
+			"et": "þykktu",
+			"ft": "þykkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þykki", "þykkir", "þykkir"],
+					"ft": ["þykkjum", "þykkið", "þykkja"]
+				},
+				"þátíð": {
+					"et": ["þykkti", "þykktir", "þykkti"],
+					"ft": ["þykktum", "þykktuð", "þykktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þykki", "þykkir", "þykki"],
+					"ft": ["þykkjum", "þykkið", "þykki"]
+				},
+				"þátíð": {
+					"et": ["þykkti", "þykktir", "þykkti"],
+					"ft": ["þykktum", "þykktuð", "þykktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þykkirðu",
+					"ft": "þykkiði"
+				},
+				"þátíð": {
+					"et": "þykktirðu",
+					"ft": "þykktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þykkirðu",
+					"ft": "þykkiði"
+				},
+				"þátíð": {
+					"et": "þykktirðu",
+					"ft": "þykktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þykkjast",
+		"sagnbót": "þykkst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þykkist", "þykkist", "þykkist"],
+					"ft": ["þykkjumst", "þykkist", "þykkjast"]
+				},
+				"þátíð": {
+					"et": ["þykktist", "þykktist", "þykktist"],
+					"ft": ["þykktumst", "þykktust", "þykktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þykkist", "þykkist", "þykkist"],
+					"ft": ["þykkjumst", "þykkist", "þykkist"]
+				},
+				"þátíð": {
+					"et": ["þykktist", "þykktist", "þykktist"],
+					"ft": ["þykktumst", "þykktust", "þykktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þykkistu"
+				},
+				"þátíð": {
+					"et": "þykktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þykkistu"
+				},
+				"þátíð": {
+					"et": "þykktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þykkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þykktur", "þykktan", "þykktum", "þykkts"],
+					"kvk": ["þykkt", "þykkta", "þykktri", "þykktrar"],
+					"hk": ["þykkt", "þykkt", "þykktu", "þykkts"]
+				},
+				"ft": {
+					"kk": ["þykktir", "þykkta", "þykktum", "þykktra"],
+					"kvk": ["þykktar", "þykktar", "þykktum", "þykktra"],
+					"hk": ["þykkt", "þykkt", "þykktum", "þykktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þykkti", "þykkta", "þykkta", "þykkta"],
+					"kvk": ["þykkta", "þykktu", "þykktu", "þykktu"],
+					"hk": ["þykkta", "þykkta", "þykkta", "þykkta"]
+				},
+				"ft": {
+					"kk": ["þykktu", "þykktu", "þykktu", "þykktu"],
+					"kvk": ["þykktu", "þykktu", "þykktu", "þykktu"],
+					"hk": ["þykktu", "þykktu", "þykktu", "þykktu"]
+				}
+			}
+		}
+	},
+	"hash": "e1650d177141448511c2c0fa5b08482887af19a97d33634cbe273cf85c62d396"
+}
