@@ -1,0 +1,154 @@
+{
+	"orð": "veita",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "veita",
+		"sagnbót": "veitt",
+		"boðháttur": {
+			"stýfður": "veit",
+			"et": "veittu",
+			"ft": "veitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veiti", "veitir", "veitir"],
+					"ft": ["veitum", "veitið", "veita"]
+				},
+				"þátíð": {
+					"et": ["veitti", "veittir", "veitti"],
+					"ft": ["veittum", "veittuð", "veittu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veiti", "veitir", "veiti"],
+					"ft": ["veitum", "veitið", "veiti"]
+				},
+				"þátíð": {
+					"et": ["veitti", "veittir", "veitti"],
+					"ft": ["veittum", "veittuð", "veittu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veitirðu",
+					"ft": "veitiði"
+				},
+				"þátíð": {
+					"et": "veittirðu",
+					"ft": "veittuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veitirðu",
+					"ft": "veitiði"
+				},
+				"þátíð": {
+					"et": "veittirðu",
+					"ft": "veittuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "veitast",
+		"sagnbót": "veist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veitist", "veitist", "veitist"],
+					"ft": ["veitumst", "veitist", "veitast"]
+				},
+				"þátíð": {
+					"et": ["veittist", "veittist", "veittist"],
+					"ft": ["veittumst", "veittust", "veittust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veitist", "veitist", "veitist"],
+					"ft": ["veitumst", "veitist", "veitist"]
+				},
+				"þátíð": {
+					"et": ["veittist", "veittist", "veittist"],
+					"ft": ["veittumst", "veittust", "veittust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veitist", "veitist", "veitist"],
+					"ft": ["veitist", "veitist", "veitist"]
+				},
+				"þátíð": {
+					"et": ["veittist", "veittist", "veittist"],
+					"ft": ["veittist", "veittist", "veittist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veitist", "veitist", "veitist"],
+					"ft": ["veitist", "veitist", "veitist"]
+				},
+				"þátíð": {
+					"et": ["veittist", "veittist", "veittist"],
+					"ft": ["veittist", "veittist", "veittist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veitistu"
+				},
+				"þátíð": {
+					"et": "veittistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veitistu"
+				},
+				"þátíð": {
+					"et": "veittistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veitandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veittur", "veittan", "veittum", "veitts"],
+					"kvk": ["veitt", "veitta", "veittri", "veittrar"],
+					"hk": ["gert", "gert", "veittu", "veitts"]
+				},
+				"ft": {
+					"kk": ["veittir", "veitta", "veittum", "veittra"],
+					"kvk": ["veittar", "veittar", "veittum", "veittra"],
+					"hk": ["veitt", "veitt", "veittum", "veittra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["veitti", "veitta", "veitta", "veitta"],
+					"kvk": ["veitta", "veittu", "veittu", "veittu"],
+					"hk": ["veitta", "veitta", "veitta", "veitta"]
+				},
+				"ft": {
+					"kk": ["veittu", "veittu", "veittu", "veittu"],
+					"kvk": ["veittu", "veittu", "veittu", "veittu"],
+					"hk": ["veittu", "veittu", "veittu", "veittu"]
+				}
+			}
+		}
+	},
+	"hash": "0e04b6dd9129d24c2430c1c1c70d51e053dc63675088e5de4f0dae06bf4b3562"
+}

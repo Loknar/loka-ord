@@ -1,0 +1,131 @@
+{
+	"orð": "skipa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skipa",
+		"sagnbót": "skipað",
+		"boðháttur": {
+			"stýfður": "skipa",
+			"et": "skipaðu",
+			"ft": "skipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skipa", "skipar", "skipar"],
+					"ft": ["skipum", "skipið", "skipa"]
+				},
+				"þátíð": {
+					"et": ["skipaði", "skipaðir", "skipaði"],
+					"ft": ["skipuðum", "skipuðuð", "skipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skipi", "skipir", "skipi"],
+					"ft": ["skipum", "skipið", "skipi"]
+				},
+				"þátíð": {
+					"et": ["skipaði", "skipaðir", "skipaði"],
+					"ft": ["skipuðum", "skipuðuð", "skipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skiparðu",
+					"ft": "skipiði"
+				},
+				"þátíð": {
+					"et": "skipaðirðu",
+					"ft": "skipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skipirðu",
+					"ft": "skipiði"
+				},
+				"þátíð": {
+					"et": "skipaðirðu",
+					"ft": "skipuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skipast",
+		"sagnbót": "skipast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skipast", "skipast", "skipast"],
+					"ft": ["skipumst", "skipist", "skipast"]
+				},
+				"þátíð": {
+					"et": ["skipaðist", "skipaðist", "skipaðist"],
+					"ft": ["skipuðumst", "skipuðust", "skipuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skipist", "skipist", "skipist"],
+					"ft": ["skipumst", "skipist", "skipist"]
+				},
+				"þátíð": {
+					"et": ["skipaðist", "skipaðist", "skipaðist"],
+					"ft": ["skipuðumst", "skipuðust", "skipuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skipastu"
+				},
+				"þátíð": {
+					"et": "skipaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skipistu"
+				},
+				"þátíð": {
+					"et": "skipaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skipandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skipaður", "skipaðan", "skipuðum", "skipaðs"],
+					"kvk": ["skipuð", "skipaða", "skipaðri", "skipaðrar"],
+					"hk": ["skipað", "skipað", "skipuðu", "skipaðs"]
+				},
+				"ft": {
+					"kk": ["skipaðir", "skipaða", "skipuðum", "skipaðra"],
+					"kvk": ["skipaðar", "skipaðar", "skipuðum", "skipaðra"],
+					"hk": ["skipuð", "skipuð", "skipuðum", "skipaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skipaði", "skipaða", "skipaða", "skipaða"],
+					"kvk": ["skipaða", "skipuðu", "skipuðu", "skipuðu"],
+					"hk": ["skipaða", "skipaða", "skipaða", "skipaða"]
+				},
+				"ft": {
+					"kk": ["skipuðu", "skipuðu", "skipuðu", "skipuðu"],
+					"kvk": ["skipuðu", "skipuðu", "skipuðu", "skipuðu"],
+					"hk": ["skipuðu", "skipuðu", "skipuðu", "skipuðu"]
+				}
+			}
+		}
+	},
+	"hash": "9f8a8475fb96fcfeb7dff02cea2a1dc2df875a00930703fa84ac0e408d1d3e4b"
+}

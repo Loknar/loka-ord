@@ -1,0 +1,131 @@
+{
+	"orð": "skipta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "finna",
+		"sagnbót": "skipt",
+		"boðháttur": {
+			"stýfður": "skipt",
+			"et": "skiptu",
+			"ft": "skiptið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skipti", "skiptir", "skiptir"],
+					"ft": ["skiptum", "skiptið", "skipta"]
+				},
+				"þátíð": {
+					"et": ["skipti", "skiptir", "skipti"],
+					"ft": ["skiptum", "skiptuð", "skiptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skipti", "skiptir", "skipti"],
+					"ft": ["skiptum", "skiptið", "skipti"]
+				},
+				"þátíð": {
+					"et": ["skipti", "skiptir", "skipti"],
+					"ft": ["skiptum", "skiptuð", "skiptu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skiptirðu",
+					"ft": "skiptiði"
+				},
+				"þátíð": {
+					"et": "skiptirðu",
+					"ft": "skiptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skiptirðu",
+					"ft": "skiptiði"
+				},
+				"þátíð": {
+					"et": "skiptirðu",
+					"ft": "skiptuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skiptast",
+		"sagnbót": "skipst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skiptist", "skiptist", "skiptist"],
+					"ft": ["skiptumst", "skiptist", "skiptast"]
+				},
+				"þátíð": {
+					"et": ["skiptist", "skiptist", "skiptist"],
+					"ft": ["skiptumst", "skiptust", "skiptust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skiptist", "skiptist", "skiptist"],
+					"ft": ["skiptumst", "skiptist", "skiptist"]
+				},
+				"þátíð": {
+					"et": ["skiptist", "skiptist", "skiptist"],
+					"ft": ["skiptumst", "skiptust", "skiptust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skiptistu"
+				},
+				"þátíð": {
+					"et": "skiptistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skiptistu"
+				},
+				"þátíð": {
+					"et": "skiptistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skiptandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skiptur", "skiptan", "skiptum", "skipts"],
+					"kvk": ["skipt", "skipta", "skiptri", "skiptrar"],
+					"hk": ["gert", "gert", "skiptu", "skipts"]
+				},
+				"ft": {
+					"kk": ["skiptir", "skipta", "skiptum", "skiptra"],
+					"kvk": ["skiptar", "skiptar", "skiptum", "skiptra"],
+					"hk": ["skipt", "skipt", "skiptum", "skiptra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skipti", "skipta", "skipta", "skipta"],
+					"kvk": ["skipta", "skiptu", "skiptu", "skiptu"],
+					"hk": ["skipta", "skipta", "skipta", "skipta"]
+				},
+				"ft": {
+					"kk": ["skiptu", "skiptu", "skiptu", "skiptu"],
+					"kvk": ["skiptu", "skiptu", "skiptu", "skiptu"],
+					"hk": ["skiptu", "skiptu", "skiptu", "skiptu"]
+				}
+			}
+		}
+	},
+	"hash": "50a655bd5c61c46d4316ff41198c487bce91fafaa796eae3dfef381fcc5a8f2d"
+}
