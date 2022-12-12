@@ -1,0 +1,131 @@
+{
+	"orð": "efna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "efna",
+		"sagnbót": "efnt",
+		"boðháttur": {
+			"stýfður": "efn",
+			"et": "efndu",
+			"ft": "efnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["efni", "efnir", "efnir"],
+					"ft": ["efnum", "efnið", "efna"]
+				},
+				"þátíð": {
+					"et": ["efndi", "efndir", "efndi"],
+					"ft": ["efndum", "efnduð", "efndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["efni", "efnir", "efni"],
+					"ft": ["efnum", "efnið", "efni"]
+				},
+				"þátíð": {
+					"et": ["efndi", "efndir", "efndi"],
+					"ft": ["efndum", "efnduð", "efndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "efnirðu",
+					"ft": "efniði"
+				},
+				"þátíð": {
+					"et": "efndirðu",
+					"ft": "efnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "efnirðu",
+					"ft": "efniði"
+				},
+				"þátíð": {
+					"et": "efndirðu",
+					"ft": "efnduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "efnast",
+		"sagnbót": "efnst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["efnist", "efnist", "efnist"],
+					"ft": ["efnumst", "efnist", "efnast"]
+				},
+				"þátíð": {
+					"et": ["efndist", "efndist", "efndist"],
+					"ft": ["efndumst", "efndust", "efndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["efnist", "efnist", "efnist"],
+					"ft": ["efnumst", "efnist", "efnist"]
+				},
+				"þátíð": {
+					"et": ["efndist", "efndist", "efndist"],
+					"ft": ["efndumst", "efndust", "efndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "efnistu"
+				},
+				"þátíð": {
+					"et": "efndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "efnistu"
+				},
+				"þátíð": {
+					"et": "efndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "efnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["efndur", "efndan", "efndum", "efnds"],
+					"kvk": ["efnd", "efnda", "efndri", "efndrar"],
+					"hk": ["efnt", "efnt", "efndu", "efnds"]
+				},
+				"ft": {
+					"kk": ["efndir", "efnda", "efndum", "efndra"],
+					"kvk": ["efndar", "efndar", "efndum", "efndra"],
+					"hk": ["efnd", "efnd", "efndum", "efndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["efndi", "efnda", "efnda", "efnda"],
+					"kvk": ["efnda", "efndu", "efndu", "efndu"],
+					"hk": ["efnda", "efnda", "efnda", "efnda"]
+				},
+				"ft": {
+					"kk": ["efndu", "efndu", "efndu", "efndu"],
+					"kvk": ["efndu", "efndu", "efndu", "efndu"],
+					"hk": ["efndu", "efndu", "efndu", "efndu"]
+				}
+			}
+		}
+	},
+	"hash": "522bacc5dbf02c1ab489fe10abef53ba12651f8f6528525b23fd2088279aec17"
+}

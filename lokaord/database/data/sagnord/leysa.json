@@ -1,0 +1,177 @@
+{
+	"orð": "leysa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "leysa",
+		"sagnbót": "leyst",
+		"boðháttur": {
+			"stýfður": "leys",
+			"et": "leystu",
+			"ft": "leysið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leysi", "leysir", "leysir"],
+					"ft": ["leysum", "leysið", "leysa"]
+				},
+				"þátíð": {
+					"et": ["leysti", "leystir", "leysti"],
+					"ft": ["leystum", "leystuð", "leystu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leysi", "leysir", "leysi"],
+					"ft": ["leysum", "leysið", "leysi"]
+				},
+				"þátíð": {
+					"et": ["leysti", "leystir", "leysti"],
+					"ft": ["leystum", "leystuð", "leystu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leysir", "leysir", "leysir"],
+					"ft": ["leysir", "leysir", "leysir"]
+				},
+				"þátíð": {
+					"et": ["leysti", "leysti", "leysti"],
+					"ft": ["leysti", "leysti", "leysti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leysi", "leysi", "leysi"],
+					"ft": ["leysi", "leysi", "leysi"]
+				},
+				"þátíð": {
+					"et": ["leysti", "leysti", "leysti"],
+					"ft": ["leysti", "leysti", "leysti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leysirðu",
+					"ft": "leysiði"
+				},
+				"þátíð": {
+					"et": "leystirðu",
+					"ft": "leystuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leysirðu",
+					"ft": "leysiði"
+				},
+				"þátíð": {
+					"et": "leystirðu",
+					"ft": "leystuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leysast",
+		"sagnbót": "leyst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leysist", "leysist", "leysist"],
+					"ft": ["leysumst", "leysist", "leysast"]
+				},
+				"þátíð": {
+					"et": ["leystist", "leystist", "leystist"],
+					"ft": ["leystumst", "leystust", "leystust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leysist", "leysist", "leysist"],
+					"ft": ["leysumst", "leysist", "leysist"]
+				},
+				"þátíð": {
+					"et": ["leystist", "leystist", "leystist"],
+					"ft": ["leystumst", "leystust", "leystust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leysist", "leysist", "leysist"],
+					"ft": ["leysist", "leysist", "leysist"]
+				},
+				"þátíð": {
+					"et": ["leystist", "leystist", "leystist"],
+					"ft": ["leystist", "leystist", "leystist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leysist", "leysist", "leysist"],
+					"ft": ["leysist", "leysist", "leysist"]
+				},
+				"þátíð": {
+					"et": ["leystist", "leystist", "leystist"],
+					"ft": ["leystist", "leystist", "leystist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leysistu"
+				},
+				"þátíð": {
+					"et": "leystistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leysistu"
+				},
+				"þátíð": {
+					"et": "leystistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leysandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leystur", "leystan", "leystum", "leysts"],
+					"kvk": ["leyst", "leysta", "leystri", "leystrar"],
+					"hk": ["leyst", "leyst", "leystu", "leysts"]
+				},
+				"ft": {
+					"kk": ["leystir", "leysta", "leystum", "leystra"],
+					"kvk": ["leystar", "leystar", "leystum", "leystra"],
+					"hk": ["leyst", "leyst", "leystum", "leystra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["leysti", "leysta", "leysta", "leysta"],
+					"kvk": ["leysta", "leystu", "leystu", "leystu"],
+					"hk": ["leysta", "leysta", "leysta", "leysta"]
+				},
+				"ft": {
+					"kk": ["leystu", "leystu", "leystu", "leystu"],
+					"kvk": ["leystu", "leystu", "leystu", "leystu"],
+					"hk": ["leystu", "leystu", "leystu", "leystu"]
+				}
+			}
+		}
+	},
+	"hash": "d5e8ea151874e0dcf2b36327acada1ac1f1183cc5b270b7020ae9bd7b56f994b"
+}

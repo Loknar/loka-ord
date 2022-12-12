@@ -1,0 +1,107 @@
+{
+	"orð": "eiga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "eiga",
+		"sagnbót": "átt",
+		"boðháttur": {
+			"stýfður": "eig",
+			"et": "eigðu",
+			"ft": "eigið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["á", "átt", "á"],
+					"ft": ["eigum", "eigið", "eiga"]
+				},
+				"þátíð": {
+					"et": ["átti", "áttir", "átti"],
+					"ft": ["áttum", "áttuð", "áttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eigi", "eigir", "eigi"],
+					"ft": ["eigum", "eigið", "eigi"]
+				},
+				"þátíð": {
+					"et": ["ætti", "ættir", "ætti"],
+					"ft": ["ættum", "ættuð", "ættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "áttu",
+					"ft": "eigiði"
+				},
+				"þátíð": {
+					"et": "áttirðu",
+					"ft": "áttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eigirðu",
+					"ft": "eigiði"
+				},
+				"þátíð": {
+					"et": "ættirðu",
+					"ft": "ættuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "eigast",
+		"sagnbót": "ást",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"ft": ["eigumst", "eigist", "eigast"]
+				},
+				"þátíð": {
+					"et": ["áttist", "áttist", "áttist"],
+					"ft": ["áttumst", "áttust", "áttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eigist", "eigist", "eigist"],
+					"ft": ["eigumst", "eigist", "eigist"]
+				},
+				"þátíð": {
+					"et": ["ættist", "ættist", "ættist"],
+					"ft": ["ættumst", "ættust", "ættust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eigistu",
+					"ft": "eigisti"
+				},
+				"þátíð": {
+					"et": "áttistu",
+					"ft": "áttusti"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eigistu",
+					"ft": "eigisti"
+				},
+				"þátíð": {
+					"et": "ættusti"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eigandi"
+	},
+	"hash": "421d89e5d79b498ed40cd2a2b2580bb62f756671f3b0e42bfa35cd38773abdde"
+}

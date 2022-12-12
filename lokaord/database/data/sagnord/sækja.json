@@ -1,0 +1,158 @@
+{
+	"orð": "sækja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sækja",
+		"sagnbót": "sótt",
+		"boðháttur": {
+			"stýfður": "sæk",
+			"et": "sæktu",
+			"ft": "sækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sæki", "sækir", "sækir"],
+					"ft": ["sækjum", "sækið", "sækja"]
+				},
+				"þátíð": {
+					"et": ["sótti", "sóttir", "sótti"],
+					"ft": ["sóttum", "sóttuð", "sóttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sæki", "sækir", "sæki"],
+					"ft": ["sækjum", "sækið", "sæki"]
+				},
+				"þátíð": {
+					"et": ["sækti", "sæktir", "sækti"],
+					"ft": ["sæktum", "sæktuð", "sæktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sækirðu",
+					"ft": "sækiði"
+				},
+				"þátíð": {
+					"et": "sæktirðu",
+					"ft": "sæktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sækirðu",
+					"ft": "sækiði"
+				},
+				"þátíð": {
+					"et": "sæktirðu",
+					"ft": "sæktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sækjast",
+		"sagnbót": "sóst",
+		"boðháttur": {
+			"et": "sækstu",
+			"ft": "sækist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sækist", "sækist", "sækist"],
+					"ft": ["sækjumst", "sækist", "sækjast"]
+				},
+				"þátíð": {
+					"et": ["sóttist", "sóttist", "sóttist"],
+					"ft": ["sóttumst", "sóttust", "sóttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sækist", "sækist", "sækist"],
+					"ft": ["sækjumst", "sækist", "sækist"]
+				},
+				"þátíð": {
+					"et": ["sæktist", "sæktist", "sæktist"],
+					"ft": ["sæktumst", "sæktust", "sæktust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sækist", "sækist", "sækist"],
+					"ft": ["sækist", "sækist", "sækist"]
+				},
+				"þátíð": {
+					"et": ["sóttist", "sóttist", "sóttist"],
+					"ft": ["sóttist", "sóttist", "sóttist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sækist", "sækist", "sækist"],
+					"ft": ["sækist", "sækist", "sækist"]
+				},
+				"þátíð": {
+					"et": ["sæktist", "sæktist", "sæktist"],
+					"ft": ["sæktist", "sæktist", "sæktist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sækistu"
+				},
+				"þátíð": {
+					"et": "sóttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sækistu"
+				},
+				"þátíð": {
+					"et": "sæktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sækjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sóttur", "sóttan", "sóttum", "sótts"],
+					"kvk": ["sótt", "sótta", "sóttri", "sóttrar"],
+					"hk": ["sótt", "sótt", "sóttu", "sótts"]
+				},
+				"ft": {
+					"kk": ["sóttir", "sótta", "sóttum", "sóttra"],
+					"kvk": ["sóttar", "sóttar", "sóttum", "sóttra"],
+					"hk": ["sótt", "sótt", "sóttum", "sóttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sótti", "sótta", "sótta", "sótta"],
+					"kvk": ["sótta", "sóttu", "sóttu", "sóttu"],
+					"hk": ["sótta", "sótta", "sótta", "sótta"]
+				},
+				"ft": {
+					"kk": ["sóttu", "sóttu", "sóttu", "sóttu"],
+					"kvk": ["sóttu", "sóttu", "sóttu", "sóttu"],
+					"hk": ["sóttu", "sóttu", "sóttu", "sóttu"]
+				}
+			}
+		}
+	},
+	"hash": "c03780bed170c0823ec5b71251bf5515b460a0be8009a81b31b2d137ca630478"
+}

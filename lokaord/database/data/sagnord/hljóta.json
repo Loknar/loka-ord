@@ -1,0 +1,117 @@
+{
+	"orð": "hljóta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hljóta",
+		"sagnbót": "hlotið",
+		"boðháttur": {
+			"stýfður": "hljót",
+			"et": "hljóttu",
+			"ft": "hljótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlýt", "hlýtur", "hlýtur"],
+					"ft": ["hljótum", "hljótið", "hljóta"]
+				},
+				"þátíð": {
+					"et": ["hlaut", "hlaust", "hlaut"],
+					"ft": ["hlutum", "hlutuð", "hlutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hljóti", "hljótir", "hljóti"],
+					"ft": ["hljótum", "hljótið", "hljóti"]
+				},
+				"þátíð": {
+					"et": ["hlyti", "hlytir", "hlyti"],
+					"ft": ["hlytum", "hlytuð", "hlytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlýturðu",
+					"ft": "hljótiði"
+				},
+				"þátíð": {
+					"et": "hlaustu",
+					"ft": "hlutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hljótirðu",
+					"ft": "hljótiði"
+				},
+				"þátíð": {
+					"et": "hlytirðu",
+					"ft": "hlytuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hljótast",
+		"sagnbót": "hlotist",
+		"boðháttur": {
+			"et": "hljóstu",
+			"ft": "hljótist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlýst", "hlýst", "hlýst"],
+					"ft": ["hljótumst", "hljótist", "hljótast"]
+				},
+				"þátíð": {
+					"et": ["hlaust", "hlaust", "hlaust"],
+					"ft": ["hlutumst", "hlutust", "hlutust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hljótist", "hljótist", "hljótist"],
+					"ft": ["hljótumst", "hljótist", "hljótist"]
+				},
+				"þátíð": {
+					"et": ["hlytist", "hlytist", "hlytist"],
+					"ft": ["hlytumst", "hlytust", "hlytust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hljótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlotinn", "hlotinn", "hlotnum", "hlotins"],
+					"kvk": ["hlotin", "hlotna", "hlotinni", "hlotinnar"],
+					"hk": ["hlotið", "hlotið", "hlotnu", "hlotins"]
+				},
+				"ft": {
+					"kk": ["hlotnir", "hlotna", "hlotnum", "hlotinna"],
+					"kvk": ["hlotnar", "hlotnar", "hlotnum", "hlotinna"],
+					"hk": ["hlotin", "hlotin", "hlotnum", "hlotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hlotni", "hlotna", "hlotna", "hlotna"],
+					"kvk": ["hlotna", "hlotnu", "hlotnu", "hlotnu"],
+					"hk": ["hlotna", "hlotna", "hlotna", "hlotna"]
+				},
+				"ft": {
+					"kk": ["hlotnu", "hlotnu", "hlotnu", "hlotnu"],
+					"kvk": ["hlotnu", "hlotnu", "hlotnu", "hlotnu"],
+					"hk": ["hlotnu", "hlotnu", "hlotnu", "hlotnu"]
+				}
+			}
+		}
+	},
+	"hash": "c477bbcbe5f9601c9aeb1ec1de8bc5d8fdbb4ee017b8c511babab31b02035bd5"
+}
