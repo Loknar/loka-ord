@@ -1,0 +1,135 @@
+{
+	"orð": "víkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "víkja",
+		"sagnbót": "vikið",
+		"boðháttur": {
+			"stýfður": "vík",
+			"et": "víktu",
+			"ft": "víkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vík", "víkur", "víkur"],
+					"ft": ["víkjum", "víkið", "víkja"]
+				},
+				"þátíð": {
+					"et": ["vék", "vékst", "vék"],
+					"ft": ["vikum", "vikuð", "viku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["víki", "víkir", "víki"],
+					"ft": ["víkjum", "víkið", "víki"]
+				},
+				"þátíð": {
+					"et": ["viki", "vikir", "viki"],
+					"ft": ["vikjum", "vikjuð", "vikju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "víkurðu",
+					"ft": "víkiði"
+				},
+				"þátíð": {
+					"et": "vékstu",
+					"ft": "vikuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "víkirðu",
+					"ft": "víkiði"
+				},
+				"þátíð": {
+					"et": "vikirðu",
+					"ft": "vikjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "víkjast",
+		"sagnbót": "vikist",
+		"boðháttur": {
+			"et": "víkstu",
+			"ft": "víkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["víkst", "víkst", "víkst"],
+					"ft": ["víkjumst", "víkist", "víkjast"]
+				},
+				"þátíð": {
+					"et": ["vékst", "vékst", "vékst"],
+					"ft": ["vikumst", "vikust", "vikust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["víkist", "víkist", "víkist"],
+					"ft": ["víkjumst", "víkist", "víkist"]
+				},
+				"þátíð": {
+					"et": ["vikist", "vikist", "vikist"],
+					"ft": ["vikjumst", "vikjust", "vikjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "víkstu"
+				},
+				"þátíð": {
+					"et": "vékstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "víkistu"
+				},
+				"þátíð": {
+					"et": "vikistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "víkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vikinn", "vikinn", "viknum", "vikins"],
+					"kvk": ["vikin", "vikna", "vikinni", "vikinnar"],
+					"hk": ["vikið", "vikið", "viknu", "vikins"]
+				},
+				"ft": {
+					"kk": ["viknir", "vikna", "viknum", "vikinna"],
+					"kvk": ["viknar", "viknar", "viknum", "vikinna"],
+					"hk": ["vikin", "vikin", "viknum", "vikinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vikni", "vikna", "vikna", "vikna"],
+					"kvk": ["vikna", "viknu", "viknu", "viknu"],
+					"hk": ["vikna", "vikna", "vikna", "vikna"]
+				},
+				"ft": {
+					"kk": ["viknu", "viknu", "viknu", "viknu"],
+					"kvk": ["viknu", "viknu", "viknu", "viknu"],
+					"hk": ["viknu", "viknu", "viknu", "viknu"]
+				}
+			}
+		}
+	},
+	"hash": "0caf8aaad80eb26702a508303d6bc7425846100127e624bdeae692835499f8d2"
+}
