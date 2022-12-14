@@ -3,8 +3,18 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"orð": "ósk",
+			"flokkur": "nafnorð",
+			"kyn": "kvk",
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"hash": "fc7ff4d77413fda10987c89d2442bd7093237b71c5e38fac4293c476ffb23eaa"
+		}
+	],
 	"et": {
 		"ág": ["Ósk", "Ósk", "Ósk", "Óskar"]
 	},
-	"hash": "ee296e57619ec162fc38b3908ae5a02cf2a3a5c0841c78c8a32abb5e62c9de1c"
+	"hash": "42ab53f3194911e7ffd7d71b46c634e18cb4af2326ada2ab3a93054a81bbd394"
 }

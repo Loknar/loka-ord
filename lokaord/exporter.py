@@ -1341,7 +1341,13 @@ def get_beygingarmyndir_for_samsett_ord(isl_samsett_ord):
             )
             beygingar_list.append({'myndir': l_beygingar})
         elif ordhluti_ord.Samsett is True:
-            s_beygingar = get_beygingarmyndir_for_samsett_ord(ordhluti_ord)
+            ordhluti_samsett_ord_list = db.Session.query(isl.SamsettOrd).filter_by(
+                fk_Ord_id=ordhluti_ord.Ord_id
+            )
+            assert(len(ordhluti_samsett_ord_list.all()) < 2)
+            ordhluti_samsett_ord = ordhluti_samsett_ord_list.first()
+            assert(ordhluti_samsett_ord is not None)
+            s_beygingar = get_beygingarmyndir_for_samsett_ord(ordhluti_samsett_ord)
             s_beygingar = apply_changes_to_beygingarmyndir(
                 s_beygingar,
                 isl_ordhluti.Hastafa,

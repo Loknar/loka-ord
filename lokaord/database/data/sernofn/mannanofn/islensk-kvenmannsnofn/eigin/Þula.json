@@ -3,8 +3,18 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"orð": "þula",
+			"flokkur": "nafnorð",
+			"kyn": "kvk",
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"hash": "d4c83f2e8a83958d343cc3bdaff5e47bc1c0998178da8a2e2138606c5826d5bf"
+		}
+	],
 	"et": {
 		"ág": ["Þula", "Þulu", "Þulu", "Þulu"]
 	},
-	"hash": "b470dc7f998adc7e297692748fa09c24ad4cdbc9756cbe31e4a09a47af34c0ce"
+	"hash": "13978907f54ebe5d30403589c43acded9b7808cb76672580eeb7e0185d831156"
 }

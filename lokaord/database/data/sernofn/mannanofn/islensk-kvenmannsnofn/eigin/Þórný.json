@@ -1,5 +1,5 @@
 {
-	"orð": "Þórey",
+	"orð": "Þórný",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
@@ -14,15 +14,16 @@
 			"hash": "f3b3e14c677743cc1a5356d2d6d7d4d75db526a1a04ba19347220501047aaea1"
 		},
 		{
-			"orð": "ey",
-			"flokkur": "nafnorð",
+			"orð": "ný",
+			"flokkur": "sérnafn",
+			"undirflokkur": "eiginnafn",
 			"kyn": "kvk",
-			"beygingar": ["et-ág"],
-			"hash": "96fdb0bfdfb181a2cef9d509a4f324fab1a09017c560a871fc210c995b7e02a1"
+			"ósjálfstætt": true,
+			"hash": "ba1ebd5b884e1c7c6573c0a09592a41dc2c4c994135968b072653d0ded9d943d"
 		}
 	],
 	"et": {
-		"ág": ["Þórey", "Þórey", "Þórey", "Þóreyjar"]
+		"ág": ["Þórný", "Þórnýju", "Þórnýju", "Þórnýjar"]
 	},
-	"hash": "6a904b00c538dd62bb6d6b01518cf2b9a33e8cb52e9ce4afb0f6a8362e9c463c"
+	"hash": "a53f965d4cc524b624099e210e5e403ee74b61f893ebc28c28dc0fb6f0b0011d"
 }
