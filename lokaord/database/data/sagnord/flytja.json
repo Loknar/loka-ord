@@ -1,0 +1,135 @@
+{
+	"orð": "flytja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "flytja",
+		"sagnbót": "flutt",
+		"boðháttur": {
+			"stýfður": "flyt",
+			"et": "flyttu",
+			"ft": "flytjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flyt", "flytur", "flytur"],
+					"ft": ["flytjum", "flytjið", "flytja"]
+				},
+				"þátíð": {
+					"et": ["flutti", "fluttir", "flutti"],
+					"ft": ["fluttum", "fluttuð", "fluttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flytji", "flytjir", "flytji"],
+					"ft": ["flytjum", "flytjið", "flytji"]
+				},
+				"þátíð": {
+					"et": ["flytti", "flyttir", "flytti"],
+					"ft": ["flyttum", "flyttuð", "flyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flyturðu",
+					"ft": "flytjiði"
+				},
+				"þátíð": {
+					"et": "fluttirðu",
+					"ft": "fluttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flytjirðu",
+					"ft": "flytjiði"
+				},
+				"þátíð": {
+					"et": "flyttirðu",
+					"ft": "flyttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "flytjast",
+		"sagnbót": "flust",
+		"boðháttur": {
+			"et": "flystu",
+			"ft": "flytjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flyst", "flyst", "flyst"],
+					"ft": ["flytjumst", "flytjist", "flytjast"]
+				},
+				"þátíð": {
+					"et": ["fluttist", "fluttist", "fluttist"],
+					"ft": ["fluttumst", "fluttust", "fluttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flytjist", "flytjist", "flytjist"],
+					"ft": ["flytjumst", "flytjist", "flytjist"]
+				},
+				"þátíð": {
+					"et": ["flyttist", "flyttist", "flyttist"],
+					"ft": ["flyttumst", "flyttust", "flyttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flystu"
+				},
+				"þátíð": {
+					"et": "fluttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flytjistu"
+				},
+				"þátíð": {
+					"et": "flyttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flytjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fluttur", "fluttan", "fluttum", "flutts"],
+					"kvk": ["flutt", "flutta", "fluttri", "fluttrar"],
+					"hk": ["flutt", "flutt", "fluttu", "flutts"]
+				},
+				"ft": {
+					"kk": ["fluttir", "flutta", "fluttum", "fluttra"],
+					"kvk": ["fluttar", "fluttar", "fluttum", "fluttra"],
+					"hk": ["flutt", "flutt", "fluttum", "fluttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["flutti", "flutta", "flutta", "flutta"],
+					"kvk": ["flutta", "fluttu", "fluttu", "fluttu"],
+					"hk": ["flutta", "flutta", "flutta", "flutta"]
+				},
+				"ft": {
+					"kk": ["fluttu", "fluttu", "fluttu", "fluttu"],
+					"kvk": ["fluttu", "fluttu", "fluttu", "fluttu"],
+					"hk": ["fluttu", "fluttu", "fluttu", "fluttu"]
+				}
+			}
+		}
+	},
+	"hash": "af40edc2cef15c6f7a9b51dc375c7b03cc103f2a2f09d33f67e5d9a7ea69eb07"
+}
