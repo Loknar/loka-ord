@@ -50,6 +50,8 @@ def scan_sentence(sentence):
     maybe = 0
     missing = 0
     for word in sentence.split(' '):
+        if word == '':
+            continue
         scanned_word = {
             'orð': word,
             'orð-hreinsað': None,
