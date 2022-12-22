@@ -59,11 +59,11 @@ def build_db_from_datafiles():
             'has_samsett': False
         },
         {
-            'name': 'frumtölur',
+            'name': 'fjöldatölur',
             'root': datafiles_dir_abs,
             'dir': os.path.join('toluord', 'frumtolur'),
-            'f_lookup': lookup_frumtala,
-            'f_add': add_frumtala,
+            'f_lookup': lookup_fjoldatala,
+            'f_add': add_fjoldatala,
             'has_samsett': True
         },
         {
@@ -1108,7 +1108,7 @@ def assert_ordhluti_obj(ordhluti_obj, ordflokkur, last_obj=False):
         'sérnafn'
     ])
     toluord_undirflokkar = set([
-        'frumtala',
+        'fjöldatala',
         'raðtala'
     ])
     fornofn_undirflokkar = set([
@@ -1276,8 +1276,8 @@ def add_samsett_ord(isl_ord_id, ord_data):
         elif ordhluti_obj['flokkur'] == 'greinir':
             ordhluti_isl_ord = lookup_greinir({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'töluorð':
-            if ordhluti_obj['undirflokkur'] == 'frumtala':
-                ordhluti_isl_ord = lookup_frumtala({'orð': ordhluti_obj['orð']})
+            if ordhluti_obj['undirflokkur'] == 'fjöldatala':
+                ordhluti_isl_ord = lookup_fjoldatala({'orð': ordhluti_obj['orð']})
             elif ordhluti_obj['undirflokkur'] == 'raðtala':
                 ordhluti_isl_ord = lookup_radtala({'orð': ordhluti_obj['orð']})
         elif ordhluti_obj['flokkur'] == 'fornafn':
@@ -1453,11 +1453,11 @@ def add_greinir(greinir_data, merking=None):
     return isl_ord
 
 
-def lookup_frumtala(frumtala_data, merking=None):
+def lookup_fjoldatala(fjoldatala_data, merking=None):
     isl_ord = None
     isl_ord_query = db.Session.query(isl.Ord).filter_by(
-        Ord=frumtala_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Frumtala,
+        Ord=fjoldatala_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Fjoldatala,
         Merking=merking
     )
     assert(len(isl_ord_query.all()) < 2)
@@ -1465,51 +1465,51 @@ def lookup_frumtala(frumtala_data, merking=None):
     return isl_ord
 
 
-def add_frumtala(frumtala_data, merking=None):
+def add_fjoldatala(fjoldatala_data, merking=None):
     '''
-    add frumtala from datafile to database
+    add fjöldatala from datafile to database
     '''
-    assert('flokkur' in frumtala_data and frumtala_data['flokkur'] == 'töluorð')
-    assert('undirflokkur' in frumtala_data and frumtala_data['undirflokkur'] == 'frumtala')
-    if 'tölugildi' in frumtala_data:
-        assert(type(frumtala_data['tölugildi']) is int)
+    assert('flokkur' in fjoldatala_data and fjoldatala_data['flokkur'] == 'töluorð')
+    assert('undirflokkur' in fjoldatala_data and fjoldatala_data['undirflokkur'] == 'fjöldatala')
+    if 'tölugildi' in fjoldatala_data:
+        assert(type(fjoldatala_data['tölugildi']) is int)
     isl_ord = isl.Ord(
-        Ord=frumtala_data['orð'],
-        Ordflokkur=isl.Ordflokkar.Frumtala,
+        Ord=fjoldatala_data['orð'],
+        Ordflokkur=isl.Ordflokkar.Fjoldatala,
         Merking=merking
     )
     db.Session.add(isl_ord)
     db.Session.commit()
-    isl_frumtala = isl.Frumtala(fk_Ord_id=isl_ord.Ord_id)
-    db.Session.add(isl_frumtala)
+    isl_fjoldatala = isl.Fjoldatala(fk_Ord_id=isl_ord.Ord_id)
+    db.Session.add(isl_fjoldatala)
     db.Session.commit()
-    if 'tölugildi' in frumtala_data:
-        isl_frumtala.Gildi = frumtala_data['tölugildi']
+    if 'tölugildi' in fjoldatala_data:
+        isl_fjoldatala.Gildi = fjoldatala_data['tölugildi']
         db.Session.commit()
-    if 'samsett' in frumtala_data:
-        add_samsett_ord(isl_ord.Ord_id, frumtala_data)
+    if 'samsett' in fjoldatala_data:
+        add_samsett_ord(isl_ord.Ord_id, fjoldatala_data)
         isl_ord.Samsett = True
         db.Session.commit()
         return isl_ord
-    if 'et' in frumtala_data:
-        if 'kk' in frumtala_data['et']:
-            isl_frumtala.fk_et_kk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['kk'])
+    if 'et' in fjoldatala_data:
+        if 'kk' in fjoldatala_data['et']:
+            isl_fjoldatala.fk_et_kk_Fallbeyging_id = add_fallbeyging(fjoldatala_data['et']['kk'])
             db.Session.commit()
-        if 'kvk' in frumtala_data['et']:
-            isl_frumtala.fk_et_kvk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['kvk'])
+        if 'kvk' in fjoldatala_data['et']:
+            isl_fjoldatala.fk_et_kvk_Fallbeyging_id = add_fallbeyging(fjoldatala_data['et']['kvk'])
             db.Session.commit()
-        if 'hk' in frumtala_data['et']:
-            isl_frumtala.fk_et_hk_Fallbeyging_id = add_fallbeyging(frumtala_data['et']['hk'])
+        if 'hk' in fjoldatala_data['et']:
+            isl_fjoldatala.fk_et_hk_Fallbeyging_id = add_fallbeyging(fjoldatala_data['et']['hk'])
             db.Session.commit()
-    if 'ft' in frumtala_data:
-        if 'kk' in frumtala_data['ft']:
-            isl_frumtala.fk_ft_kk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['kk'])
+    if 'ft' in fjoldatala_data:
+        if 'kk' in fjoldatala_data['ft']:
+            isl_fjoldatala.fk_ft_kk_Fallbeyging_id = add_fallbeyging(fjoldatala_data['ft']['kk'])
             db.Session.commit()
-        if 'kvk' in frumtala_data['ft']:
-            isl_frumtala.fk_ft_kvk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['kvk'])
+        if 'kvk' in fjoldatala_data['ft']:
+            isl_fjoldatala.fk_ft_kvk_Fallbeyging_id = add_fallbeyging(fjoldatala_data['ft']['kvk'])
             db.Session.commit()
-        if 'hk' in frumtala_data['ft']:
-            isl_frumtala.fk_ft_hk_Fallbeyging_id = add_fallbeyging(frumtala_data['ft']['hk'])
+        if 'hk' in fjoldatala_data['ft']:
+            isl_fjoldatala.fk_ft_hk_Fallbeyging_id = add_fallbeyging(fjoldatala_data['ft']['hk'])
             db.Session.commit()
     return isl_ord
 

@@ -102,10 +102,10 @@ def get_words_count():
                 Ordflokkur=isl.Ordflokkar.Sagnord
             ).count()
         },
-        'töluorð': {  # töluorð (frumtölur + raðtölur)
+        'töluorð': {  # töluorð (fjöldatölur + raðtölur)
             'kjarnaorð': (
                 db.Session.query(isl.Ord).filter_by(
-                    Ordflokkur=isl.Ordflokkar.Frumtala, Samsett=False
+                    Ordflokkur=isl.Ordflokkar.Fjoldatala, Samsett=False
                 ).count() +
                 db.Session.query(isl.Ord).filter_by(
                     Ordflokkur=isl.Ordflokkar.Radtala, Samsett=False
@@ -113,14 +113,14 @@ def get_words_count():
             ),
             'samsett': (
                 db.Session.query(isl.Ord).filter_by(
-                    Ordflokkur=isl.Ordflokkar.Frumtala, Samsett=True
+                    Ordflokkur=isl.Ordflokkar.Fjoldatala, Samsett=True
                 ).count() +
                 db.Session.query(isl.Ord).filter_by(
                     Ordflokkur=isl.Ordflokkar.Radtala, Samsett=True
                 ).count()
             ),
             'samtals': (
-                db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Frumtala).count() +
+                db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Fjoldatala).count() +
                 db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Radtala).count()
             )
         },
