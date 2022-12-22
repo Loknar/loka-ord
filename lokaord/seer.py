@@ -380,7 +380,7 @@ def build_sight(filename='sight', use_pointless=None):
 def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
     ignore_keys = set([
         'orð', 'flokkur', 'undirflokkur', 'kyn', 'hash', 'samsett', 'persóna', 'frumlag',
-        'fleiryrt', 'óbeygjanlegt', 'gildi', 'stýrir'
+        'fleiryrt', 'óbeygjanlegt', 'tölugildi', 'stýrir'
     ])
     if ord_data is None:
         return
