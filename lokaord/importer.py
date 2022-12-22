@@ -1471,8 +1471,8 @@ def add_frumtala(frumtala_data, merking=None):
     '''
     assert('flokkur' in frumtala_data and frumtala_data['flokkur'] == 'töluorð')
     assert('undirflokkur' in frumtala_data and frumtala_data['undirflokkur'] == 'frumtala')
-    if 'gildi' in frumtala_data:
-        assert(type(frumtala_data['gildi']) is int)
+    if 'tölugildi' in frumtala_data:
+        assert(type(frumtala_data['tölugildi']) is int)
     isl_ord = isl.Ord(
         Ord=frumtala_data['orð'],
         Ordflokkur=isl.Ordflokkar.Frumtala,
@@ -1483,8 +1483,8 @@ def add_frumtala(frumtala_data, merking=None):
     isl_frumtala = isl.Frumtala(fk_Ord_id=isl_ord.Ord_id)
     db.Session.add(isl_frumtala)
     db.Session.commit()
-    if 'gildi' in frumtala_data:
-        isl_frumtala.Gildi = frumtala_data['gildi']
+    if 'tölugildi' in frumtala_data:
+        isl_frumtala.Gildi = frumtala_data['tölugildi']
         db.Session.commit()
     if 'samsett' in frumtala_data:
         add_samsett_ord(isl_ord.Ord_id, frumtala_data)
@@ -1532,16 +1532,16 @@ def add_radtala(radtala_data, merking=None):
     '''
     assert('flokkur' in radtala_data and radtala_data['flokkur'] == 'töluorð')
     assert('undirflokkur' in radtala_data and radtala_data['undirflokkur'] == 'raðtala')
-    if 'gildi' in radtala_data:
-        assert(type(radtala_data['gildi']) is int)
+    if 'tölugildi' in radtala_data:
+        assert(type(radtala_data['tölugildi']) is int)
     isl_ord = isl.Ord(Ord=radtala_data['orð'], Ordflokkur=isl.Ordflokkar.Radtala, Merking=merking)
     db.Session.add(isl_ord)
     db.Session.commit()
     isl_radtala = isl.Radtala(fk_Ord_id=isl_ord.Ord_id)
     db.Session.add(isl_radtala)
     db.Session.commit()
-    if 'gildi' in radtala_data:
-        isl_radtala.Gildi = radtala_data['gildi']
+    if 'tölugildi' in radtala_data:
+        isl_radtala.Gildi = radtala_data['tölugildi']
         db.Session.commit()
     if 'samsett' in radtala_data:
         add_samsett_ord(isl_ord.Ord_id, radtala_data)

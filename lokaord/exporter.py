@@ -1119,7 +1119,7 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         isl_frumtala = isl_frumtala_query.first()
         assert(isl_frumtala is not None)
         if isl_frumtala.Gildi is not None:
-            data['gildi'] = isl_frumtala.Gildi
+            data['tölugildi'] = isl_frumtala.Gildi
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Radtala:
         isl_radtala_query = db.Session.query(isl.Radtala).filter_by(
             fk_Ord_id=isl_ord.Ord_id
@@ -1128,7 +1128,7 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         isl_radtala = isl_radtala_query.first()
         assert(isl_radtala is not None)
         if isl_radtala.Gildi is not None:
-            data['gildi'] = isl_radtala.Gildi
+            data['tölugildi'] = isl_radtala.Gildi
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
         isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
         assert(len(isl_fornafn_query.all()) < 2)
@@ -1462,7 +1462,7 @@ def join_together_beygingar(beygingar, p_beygingar):
 
 def remove_keys_from_beygingarmyndir(mydict):
     remove_keys = [
-        'orð', 'flokkur', 'undirflokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt', 'stýrir'
+        'orð', 'flokkur', 'undirflokkur', 'kyn', 'tölugildi', 'hash', 'ósjálfstætt', 'stýrir'
     ]
     for remove_key in remove_keys:
         if remove_key in mydict:
@@ -1731,7 +1731,7 @@ def get_frumtala_from_db_to_ordered_dict(isl_ord):
     isl_frumtala = isl_frumtala_query.first()
     assert(isl_frumtala is not None)
     if isl_frumtala.Gildi is not None:
-        data['gildi'] = isl_frumtala.Gildi
+        data['tölugildi'] = isl_frumtala.Gildi
     if (
         isl_frumtala.fk_et_kk_Fallbeyging_id is not None or
         isl_frumtala.fk_et_kvk_Fallbeyging_id is not None or
@@ -1773,7 +1773,7 @@ def get_radtala_from_db_to_ordered_dict(isl_ord):
     isl_radtala = isl_radtala_query.first()
     assert(isl_radtala is not None)
     if isl_radtala.Gildi is not None:
-        data['gildi'] = isl_radtala.Gildi
+        data['tölugildi'] = isl_radtala.Gildi
     if (
         isl_radtala.fk_sb_et_kk_Fallbeyging_id is not None or
         isl_radtala.fk_sb_et_kvk_Fallbeyging_id is not None or
