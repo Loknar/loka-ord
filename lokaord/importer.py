@@ -61,7 +61,7 @@ def build_db_from_datafiles():
         {
             'name': 'fjöldatölur',
             'root': datafiles_dir_abs,
-            'dir': os.path.join('toluord', 'frumtolur'),
+            'dir': os.path.join('toluord', 'fjoldatolur'),
             'f_lookup': lookup_fjoldatala,
             'f_add': add_fjoldatala,
             'has_samsett': True

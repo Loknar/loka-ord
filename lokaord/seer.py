@@ -237,9 +237,9 @@ def build_sight(filename='sight', use_pointless=None):
             'dir': 'greinir',
         },
         {
-            'name': 'frumtölur',
+            'name': 'fjöldatölur',
             'root': datafiles_dir_abs,
-            'dir': os.path.join('toluord', 'frumtolur'),
+            'dir': os.path.join('toluord', 'fjoldatolur'),
         },
         {
             'name': 'raðtölur',

@@ -60,7 +60,7 @@ def write_datafiles_from_db():
             'name': 'töluorð fjöldatala',
             'ordflokkur': isl.Ordflokkar.Fjoldatala,
             'root': datafiles_dir_abs,
-            'dir': os.path.join('toluord', 'frumtolur'),
+            'dir': os.path.join('toluord', 'fjoldatolur'),
             'f_ord_to_dict': get_fjoldatala_from_db_to_ordered_dict,
             'has_samsett': True
         },
