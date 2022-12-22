@@ -444,7 +444,7 @@ def get_words_count_markdown_table():
         ' {sn_g_s} | **{sn_g_a}** |\n'
         '| Kenninöfn | {sn_k_kk} | {sn_k_kvk} |   | {sn_k_k} | {sn_k_s_kk} | {sn_k_s_kvk} |   |'
         ' {sn_k_s} | **{sn_k_a}** |\n'
-        '| Millinöfn |   |   |   |   |   |   |   |   | **{sn_m}** |\n'
+        '| Miłlinöfn |   |   |   |   |   |   |   |   | **{sn_m}** |\n'
         '| Örnefni   | {sn_o_kk} | {sn_o_kvk} | {sn_o_hk} | {sn_o_k} | {sn_o_s_kk} | {sn_o_s_kvk}'
         ' | {sn_o_s_hk} | {sn_o_s} | **{sn_o_a}** |\n'
         '| **Alls**  |   |   |   | **{a_2_k}** |   |   |   | **{a_2_s}** | **{a_2_a}** |\n'
