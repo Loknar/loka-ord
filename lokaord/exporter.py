@@ -57,11 +57,11 @@ def write_datafiles_from_db():
             'has_samsett': False
         },
         {
-            'name': 'töluorð frumtala',
-            'ordflokkur': isl.Ordflokkar.Frumtala,
+            'name': 'töluorð fjöldatala',
+            'ordflokkur': isl.Ordflokkar.Fjoldatala,
             'root': datafiles_dir_abs,
-            'dir': os.path.join('toluord', 'frumtolur'),
-            'f_ord_to_dict': get_frumtala_from_db_to_ordered_dict,
+            'dir': os.path.join('toluord', 'fjoldatolur'),
+            'f_ord_to_dict': get_fjoldatala_from_db_to_ordered_dict,
             'has_samsett': True
         },
         {
@@ -1088,7 +1088,7 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
 
 def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     toluord_undirflokkar = set([
-        'frumtala',
+        'fjöldatala',
         'raðtala'
     ])
     smaord_undirflokkar = set([
@@ -1111,15 +1111,15 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         data['flokkur'] = flokkur
     if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
         data['kyn'] = None
-    elif isl_ord.Ordflokkur is isl.Ordflokkar.Frumtala:
-        isl_frumtala_query = db.Session.query(isl.Frumtala).filter_by(
+    elif isl_ord.Ordflokkur is isl.Ordflokkar.Fjoldatala:
+        isl_fjoldatala_query = db.Session.query(isl.Fjoldatala).filter_by(
             fk_Ord_id=isl_ord.Ord_id
         )
-        assert(len(isl_frumtala_query.all()) < 2)
-        isl_frumtala = isl_frumtala_query.first()
-        assert(isl_frumtala is not None)
-        if isl_frumtala.Gildi is not None:
-            data['gildi'] = isl_frumtala.Gildi
+        assert(len(isl_fjoldatala_query.all()) < 2)
+        isl_fjoldatala = isl_fjoldatala_query.first()
+        assert(isl_fjoldatala is not None)
+        if isl_fjoldatala.Gildi is not None:
+            data['tölugildi'] = isl_fjoldatala.Gildi
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Radtala:
         isl_radtala_query = db.Session.query(isl.Radtala).filter_by(
             fk_Ord_id=isl_ord.Ord_id
@@ -1128,7 +1128,7 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         isl_radtala = isl_radtala_query.first()
         assert(isl_radtala is not None)
         if isl_radtala.Gildi is not None:
-            data['gildi'] = isl_radtala.Gildi
+            data['tölugildi'] = isl_radtala.Gildi
     elif isl_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
         isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
         assert(len(isl_fornafn_query.all()) < 2)
@@ -1290,7 +1290,7 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
     else:
         if (
             isl_ord.Ordflokkur in (
-                isl.Ordflokkar.Lysingarord, isl.Ordflokkar.Frumtala, isl.Ordflokkar.Radtala
+                isl.Ordflokkar.Lysingarord, isl.Ordflokkar.Fjoldatala, isl.Ordflokkar.Radtala
             )
         ):
             data['óbeygjanlegt'] = True
@@ -1306,7 +1306,7 @@ def get_beygingarmyndir_for_samsett_ord(isl_samsett_ord):
         isl.Ordflokkar.Lysingarord: get_lysingarord_from_db_to_ordered_dict,
         isl.Ordflokkar.Sagnord: get_sagnord_from_db_to_ordered_dict,
         isl.Ordflokkar.Greinir: get_greinir_from_db_to_ordered_dict,
-        isl.Ordflokkar.Frumtala: get_frumtala_from_db_to_ordered_dict,
+        isl.Ordflokkar.Fjoldatala: get_fjoldatala_from_db_to_ordered_dict,
         isl.Ordflokkar.Radtala: get_radtala_from_db_to_ordered_dict,
         isl.Ordflokkar.Fornafn: get_fornafn_from_db_to_ordered_dict,
         isl.Ordflokkar.Sernafn: get_sernafn_from_db_to_ordered_dict
@@ -1462,7 +1462,8 @@ def join_together_beygingar(beygingar, p_beygingar):
 
 def remove_keys_from_beygingarmyndir(mydict):
     remove_keys = [
-        'orð', 'flokkur', 'undirflokkur', 'kyn', 'gildi', 'hash', 'ósjálfstætt', 'stýrir'
+        'orð', 'flokkur', 'undirflokkur', 'kyn', 'tölugildi', 'hash', 'ósjálfstætt', 'stýrir',
+        'tölugildi'
     ]
     for remove_key in remove_keys:
         if remove_key in mydict:
@@ -1721,43 +1722,43 @@ def get_greinir_from_db_to_ordered_dict(isl_ord):
     return data
 
 
-def get_frumtala_from_db_to_ordered_dict(isl_ord):
+def get_fjoldatala_from_db_to_ordered_dict(isl_ord):
     data = collections.OrderedDict()
     data['orð'] = isl_ord.Ord
     data['flokkur'] = 'töluorð'
-    data['undirflokkur'] = 'frumtala'
-    isl_frumtala_query = db.Session.query(isl.Frumtala).filter_by(fk_Ord_id=isl_ord.Ord_id)
-    assert(len(isl_frumtala_query.all()) < 2)
-    isl_frumtala = isl_frumtala_query.first()
-    assert(isl_frumtala is not None)
-    if isl_frumtala.Gildi is not None:
-        data['gildi'] = isl_frumtala.Gildi
+    data['undirflokkur'] = 'fjöldatala'
+    isl_fjoldatala_query = db.Session.query(isl.Fjoldatala).filter_by(fk_Ord_id=isl_ord.Ord_id)
+    assert(len(isl_fjoldatala_query.all()) < 2)
+    isl_fjoldatala = isl_fjoldatala_query.first()
+    assert(isl_fjoldatala is not None)
+    if isl_fjoldatala.Gildi is not None:
+        data['tölugildi'] = isl_fjoldatala.Gildi
     if (
-        isl_frumtala.fk_et_kk_Fallbeyging_id is not None or
-        isl_frumtala.fk_et_kvk_Fallbeyging_id is not None or
-        isl_frumtala.fk_et_hk_Fallbeyging_id is not None
+        isl_fjoldatala.fk_et_kk_Fallbeyging_id is not None or
+        isl_fjoldatala.fk_et_kvk_Fallbeyging_id is not None or
+        isl_fjoldatala.fk_et_hk_Fallbeyging_id is not None
     ):
         data['et'] = collections.OrderedDict()
     if (
-        isl_frumtala.fk_ft_kk_Fallbeyging_id is not None or
-        isl_frumtala.fk_ft_kvk_Fallbeyging_id is not None or
-        isl_frumtala.fk_ft_hk_Fallbeyging_id is not None
+        isl_fjoldatala.fk_ft_kk_Fallbeyging_id is not None or
+        isl_fjoldatala.fk_ft_kvk_Fallbeyging_id is not None or
+        isl_fjoldatala.fk_ft_hk_Fallbeyging_id is not None
     ):
         data['ft'] = collections.OrderedDict()
     # et
-    if isl_frumtala.fk_et_kk_Fallbeyging_id is not None:
-        data['et']['kk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_et_kk_Fallbeyging_id)
-    if isl_frumtala.fk_et_kvk_Fallbeyging_id is not None:
-        data['et']['kvk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_et_kvk_Fallbeyging_id)
-    if isl_frumtala.fk_et_hk_Fallbeyging_id is not None:
-        data['et']['hk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_et_hk_Fallbeyging_id)
+    if isl_fjoldatala.fk_et_kk_Fallbeyging_id is not None:
+        data['et']['kk'] = get_fallbeyging_list_from_db(isl_fjoldatala.fk_et_kk_Fallbeyging_id)
+    if isl_fjoldatala.fk_et_kvk_Fallbeyging_id is not None:
+        data['et']['kvk'] = get_fallbeyging_list_from_db(isl_fjoldatala.fk_et_kvk_Fallbeyging_id)
+    if isl_fjoldatala.fk_et_hk_Fallbeyging_id is not None:
+        data['et']['hk'] = get_fallbeyging_list_from_db(isl_fjoldatala.fk_et_hk_Fallbeyging_id)
     # ft
-    if isl_frumtala.fk_ft_kk_Fallbeyging_id is not None:
-        data['ft']['kk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_ft_kk_Fallbeyging_id)
-    if isl_frumtala.fk_ft_kvk_Fallbeyging_id is not None:
-        data['ft']['kvk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_ft_kvk_Fallbeyging_id)
-    if isl_frumtala.fk_ft_hk_Fallbeyging_id is not None:
-        data['ft']['hk'] = get_fallbeyging_list_from_db(isl_frumtala.fk_ft_hk_Fallbeyging_id)
+    if isl_fjoldatala.fk_ft_kk_Fallbeyging_id is not None:
+        data['ft']['kk'] = get_fallbeyging_list_from_db(isl_fjoldatala.fk_ft_kk_Fallbeyging_id)
+    if isl_fjoldatala.fk_ft_kvk_Fallbeyging_id is not None:
+        data['ft']['kvk'] = get_fallbeyging_list_from_db(isl_fjoldatala.fk_ft_kvk_Fallbeyging_id)
+    if isl_fjoldatala.fk_ft_hk_Fallbeyging_id is not None:
+        data['ft']['hk'] = get_fallbeyging_list_from_db(isl_fjoldatala.fk_ft_hk_Fallbeyging_id)
     if 'et' not in data and 'ft' not in data:
         data['óbeygjanlegt'] = True
     return data
@@ -1773,7 +1774,7 @@ def get_radtala_from_db_to_ordered_dict(isl_ord):
     isl_radtala = isl_radtala_query.first()
     assert(isl_radtala is not None)
     if isl_radtala.Gildi is not None:
-        data['gildi'] = isl_radtala.Gildi
+        data['tölugildi'] = isl_radtala.Gildi
     if (
         isl_radtala.fk_sb_et_kk_Fallbeyging_id is not None or
         isl_radtala.fk_sb_et_kvk_Fallbeyging_id is not None or
@@ -1994,8 +1995,8 @@ def ordflokkur_to_str(ordflokkur):
         return 'lýsingarorð'
     elif ordflokkur is isl.Ordflokkar.Greinir:
         return 'greinir'
-    elif ordflokkur is isl.Ordflokkar.Frumtala:
-        return 'frumtala'
+    elif ordflokkur is isl.Ordflokkar.Fjoldatala:
+        return 'fjöldatala'
     elif ordflokkur is isl.Ordflokkar.Radtala:
         return 'raðtala'
     elif ordflokkur is isl.Ordflokkar.Fornafn:

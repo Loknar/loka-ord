@@ -11,8 +11,8 @@ class Ordflokkar(enum.Enum):
     Lysingarord = 1
     Greinir = 2  # fyrir hinn lausa greini, en viðskeyttur greinir geymdur í tvíriti í Fallbeyging
     Fornafn = 3
-    Frumtala = 4  # - Töluorð, hafa undirflokkana Frumtölur og Raðtölur, til einföldunar eru þeir
-    Radtala = 5   # / listaðir beint hér sem orðflokkar í stað þess að flokka þá sem undirflokka
+    Fjoldatala = 4  # - Töluorð, hafa undirflokkana Fjöldatölur og Raðtölur, til hagræðingar eru
+    Radtala = 5   # / þeir listaðir beint hér sem orðflokkar í stað þess að flokka sem undirflokka
     # sagnorð
     Sagnord = 6
     # smáorð / óbeygjanleg orð
@@ -207,14 +207,14 @@ class Greinir(Base):  # laus greinir (hinn)
     Created = utils.timestamp_created()
 
 
-class Frumtala(Base):  # Töluorð - Frumtala (einn, tveir, þrír)
-    __tablename__ = 'Frumtala'
-    Frumtala_id = utils.integer_primary_key()
+class Fjoldatala(Base):  # Töluorð - Fjöldatala (einn, tveir, þrír, fjórir ..)
+    __tablename__ = 'Fjoldatala'
+    Fjoldatala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
     Gildi = utils.integer_default_zero()
-    # einungis handfylli frumtalna hafa beygingar og bara frumtalan "einn" fyllir í allar
+    # einungis handfylli földatalna hafa beygingar og bara fjöldatalan "einn" fyllir í allar
     # beygingarmyndir, á meðan tveir, þrír og fjórir hafa beygingar í fleirtölu,
-    # þá hefur frumtalan hundrað fleirtölumyndina hundruð en hefur í raun bara þessum tveimur
+    # þá hefur fjöldatalan hundrað fleirtölumyndina hundruð en hefur í raun bara þessum tveimur
     # beygingarmyndum að skarta
     # eintala
     fk_et_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
@@ -228,7 +228,7 @@ class Frumtala(Base):  # Töluorð - Frumtala (einn, tveir, þrír)
     Created = utils.timestamp_created()
 
 
-class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji)
+class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji, fjórði ..)
     __tablename__ = 'Radtala'
     Radtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
@@ -253,6 +253,17 @@ class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji)
     Created = utils.timestamp_created()
 
 
+class BlandadToluord(Base):  # Blandað töluorð (tugur, tyft, helmingur, þriðjungur ..)
+    # https://is.wikipedia.org/wiki/T%C3%B6luor%C3%B0
+    # Orð sem tilheyra öðrum orðflokkum en standa fyrir tölulegt gildi
+    __tablename__ = 'BlandadToluord'
+    BlandadToluord_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Gildi = utils.integer_default_zero()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
 class Fallbeyging(Base):
     __tablename__ = 'Fallbeyging'
     Fallbeyging_id = utils.integer_primary_key()
@@ -266,11 +277,7 @@ class Fallbeyging(Base):
 
 class Undantekning(Base):
     # Íslenska hefur helling undantekninga sem falla illa inn í strangar gagnagrunnsskilgreiningar,
-    # til dæmis hafa sum orð fleiri en eina "rétta" beygingarmynd, sum orð tilheyra orðflokkum sem
-    # oftast hafa enga beygingarmynd, dæmi um þetta, frumtölururnar einn, tveir, þrír og fjórir
-    # fallbeygjast, sem og aðrar frumtölur sem enda á þeim, eins og tuttugu-og-einn, en aðrar
-    # frumtölur fallbeygjast ekki, svo fátt eitt sé nefnt. Sum orð tilheyra fleiri en einum
-    # orðflokki ofl.
+    # til dæmis hafa sum orð fleiri en eina "rétta" beygingarmynd, ofl.
     __tablename__ = 'Undantekning'
     Undantekning_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')

@@ -237,9 +237,9 @@ def build_sight(filename='sight', use_pointless=None):
             'dir': 'greinir',
         },
         {
-            'name': 'frumtölur',
+            'name': 'fjöldatölur',
             'root': datafiles_dir_abs,
-            'dir': os.path.join('toluord', 'frumtolur'),
+            'dir': os.path.join('toluord', 'fjoldatolur'),
         },
         {
             'name': 'raðtölur',
@@ -380,7 +380,7 @@ def build_sight(filename='sight', use_pointless=None):
 def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
     ignore_keys = set([
         'orð', 'flokkur', 'undirflokkur', 'kyn', 'hash', 'samsett', 'persóna', 'frumlag',
-        'fleiryrt', 'óbeygjanlegt', 'gildi', 'stýrir'
+        'fleiryrt', 'óbeygjanlegt', 'tölugildi', 'stýrir'
     ])
     if ord_data is None:
         return
