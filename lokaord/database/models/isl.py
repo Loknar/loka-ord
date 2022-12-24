@@ -228,7 +228,7 @@ class Fjoldatala(Base):  # Töluorð - Fjöldatala (einn, tveir, þrír, fjórir
     Created = utils.timestamp_created()
 
 
-class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji)
+class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji, fjórði ..)
     __tablename__ = 'Radtala'
     Radtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
@@ -249,6 +249,17 @@ class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji)
     fk_vb_ft_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_vb_ft_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_vb_ft_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class BlandadToluord(Base):  # Blandað töluorð (tugur, tyft, helmingur, þriðjungur ..)
+    # https://is.wikipedia.org/wiki/T%C3%B6luor%C3%B0
+    # Orð sem tilheyra öðrum orðflokkum en standa fyrir tölulegt gildi
+    __tablename__ = 'BlandadToluord'
+    BlandadToluord_id = utils.integer_primary_key()
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Gildi = utils.integer_default_zero()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
