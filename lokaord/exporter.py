@@ -5,10 +5,14 @@ Exporter functionality
 Exporting data from SQL database to files.
 """
 import collections
+import collections.abc
 import copy
+import decimal
 import hashlib
 import json
 import os
+import random
+import string
 
 from lokaord import logman
 from lokaord.database import db
@@ -316,6 +320,8 @@ def get_nafnord_from_db_to_ordered_dict(isl_ord):
     elif isl_nafnord.Kyn is isl.Kyn.Hvorugkyn:
         data['kyn'] = 'hk'
     assert(data['kyn'] is not None)
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     if (
         isl_nafnord.fk_et_Fallbeyging_id is not None or
         isl_nafnord.fk_et_mgr_Fallbeyging_id
@@ -357,6 +363,8 @@ def get_lysingarord_from_db_to_ordered_dict(isl_ord):
     assert(len(isl_lysingarord_list.all()) < 2)
     isl_lysingarord = isl_lysingarord_list.first()
     assert(isl_lysingarord is not None)
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     # setup data dict
     if (
         isl_lysingarord.fk_Frumstig_sb_et_kk_Fallbeyging_id is not None or
@@ -632,6 +640,8 @@ def get_sagnord_from_db_to_ordered_dict(isl_ord):
     assert(len(isl_sagnord_list.all()) < 2)
     isl_sagnord = isl_sagnord_list.first()
     assert(isl_sagnord is not None)
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     # setup data dict
     if (
         isl_sagnord.Germynd_Nafnhattur is not None or
@@ -1149,6 +1159,8 @@ def get_samsett_ord_from_db_to_ordered_dict(isl_ord, ord_id_hash_map=None):
         data['undirflokkur'] = sernafn_undirflokkur_to_str(isl_sernafn.Undirflokkur)
         if isl_sernafn.Kyn is not None:
             data['kyn'] = kyn_to_str(isl_sernafn.Kyn)
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     data['samsett'] = []
     isl_samsett_ord_list = db.Session.query(isl.SamsettOrd).filter_by(
         fk_Ord_id=isl_ord.Ord_id
@@ -1462,8 +1474,7 @@ def join_together_beygingar(beygingar, p_beygingar):
 
 def remove_keys_from_beygingarmyndir(mydict):
     remove_keys = [
-        'orð', 'flokkur', 'undirflokkur', 'kyn', 'tölugildi', 'hash', 'ósjálfstætt', 'stýrir',
-        'tölugildi'
+        'orð', 'flokkur', 'undirflokkur', 'kyn', 'tölugildi', 'hash', 'ósjálfstætt', 'stýrir'
     ]
     for remove_key in remove_keys:
         if remove_key in mydict:
@@ -1937,6 +1948,17 @@ class MyJSONEncoder(json.JSONEncoder):
     this extended class is a complete hack, I am a complete hack, but it f*cking works and I'm
     running with it
     '''
+    r_strengur = ''.join(
+        random.choices(string.ascii_uppercase + string.ascii_lowercase + string.digits, k=20)
+    )
+    def default(self, obj):
+        if isinstance(obj, decimal.Decimal):
+            return (
+                f'<-FJARLAEGJA_GAESALAPPIR_{self.r_strengur}'
+                f'{obj.normalize():f}'
+                f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->'
+            )
+        return super(MyJSONEncoder, self).default(obj)
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
         keys_to_differently_encode = [
@@ -1965,7 +1987,40 @@ class MyJSONEncoder(json.JSONEncoder):
                     state = 0
                 if s.endswith('}'):
                     state = 0
+            if f'"<-FJARLAEGJA_GAESALAPPIR_{self.r_strengur}' in s:
+                s = s.replace(f'"<-FJARLAEGJA_GAESALAPPIR_{self.r_strengur}', '')
+            if f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->"' in s:
+                s = s.replace(f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->"', '')
             yield s
+
+
+class DecimalEncoder(json.JSONEncoder):
+    r_strengur = ''.join(
+        random.choices(string.ascii_uppercase + string.ascii_lowercase + string.digits, k=20)
+    )
+    def default(self, obj):
+        if isinstance(obj, decimal.Decimal):
+            return (
+                f'<-FJARLAEGJA_GAESALAPPIR_{self.r_strengur}'
+                f'{obj.normalize():f}'
+                f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->'
+            )
+        return super(DecimalEncoder, self).default(obj)
+    def iterencode(self, o, _one_shot=False):
+        for s in super(DecimalEncoder, self).iterencode(o, _one_shot=_one_shot):
+            if f'"<-FJARLAEGJA_GAESALAPPIR_{self.r_strengur}' in s:
+                s = s.replace(f'"<-FJARLAEGJA_GAESALAPPIR_{self.r_strengur}', '')
+            if f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->"' in s:
+                s = s.replace(f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->"', '')
+            yield s
+    # def encode(self, obj):
+    #     if isinstance(obj, collections.abc.Mapping):
+    #         return '{' + ','.join(f'{self.encode(k)}: {self.encode(v)}' for (k, v) in obj.items()) + '}'
+    #     if isinstance(obj, collections.abc.Iterable) and (not isinstance(obj, str)):
+    #         return '[' + ','.join(map(self.encode, obj)) + ']'
+    #     if isinstance(obj, decimal.Decimal):
+    #         return f'{obj.normalize():f}'  # using normalize() gets rid of trailing 0s, using ':f' prevents scientific notation
+    #     return super().encode(obj)
 
 
 def ord_data_to_fancy_json_str(ord_data):
@@ -1983,7 +2038,7 @@ def hashify_ord_data(ord_data):
         del ord_data['hash']
     return hashlib.sha256(
         json.dumps(
-            ord_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True
+            ord_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True, cls=DecimalEncoder
         ).encode('utf-8')
     ).hexdigest()
 
@@ -2063,6 +2118,8 @@ def get_forsetning_from_db_to_ordered_dict(isl_ord):
     assert(len(isl_forsetning_query.all()) < 2)
     isl_forsetning = isl_forsetning_query.first()
     assert(isl_forsetning is not None)
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     if (
         isl_forsetning.StyrirTholfalli is True or
         isl_forsetning.StyrirThagufalli is True or
@@ -2086,6 +2143,8 @@ def get_atviksord_from_db_to_ordered_dict(isl_ord):
     isl_atviksord_query = db.Session.query(isl.Atviksord).filter_by(fk_Ord_id=isl_ord.Ord_id)
     assert(len(isl_atviksord_query.all()) < 2)
     isl_atviksord = isl_atviksord_query.first()
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     if isl_atviksord is not None:
         assert(isl_atviksord.Midstig is not None and isl_atviksord.Efstastig is not None)
         data['miðstig'] = isl_atviksord.Midstig
@@ -2108,6 +2167,8 @@ def get_samtenging_from_db_to_ordered_dict(isl_ord):
     data['orð'] = isl_ord.Ord
     data['flokkur'] = 'smáorð'
     data['undirflokkur'] = 'samtenging'
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     isl_samtenging_fleiryrt_query = db.Session.query(isl.SamtengingFleiryrt).filter_by(
         fk_Ord_id=isl_ord.Ord_id
     ).order_by(isl.SamtengingFleiryrt.Ord, isl.SamtengingFleiryrt.SamtengingFleiryrt_id)
@@ -2143,6 +2204,8 @@ def get_upphropun_from_db_to_ordered_dict(isl_ord):
     data['orð'] = isl_ord.Ord
     data['flokkur'] = 'smáorð'
     data['undirflokkur'] = 'upphrópun'
+    if isl_ord.Tolugildi is not None:
+        data['tölugildi'] = isl_ord.Tolugildi
     return data
 
 

@@ -5,6 +5,7 @@ Importer functionality
 Importing data from files to SQL database.
 """
 import collections
+import decimal
 import json
 import os
 import pathlib
@@ -265,7 +266,7 @@ def do_import_task(task, do_samsett=False):
         logman.info('File %s/%s ..' % (task['dir'], ord_file.name))
         ord_data = None
         with ord_file.open(mode='r', encoding='utf-8') as fi:
-            ord_data = json.loads(fi.read())
+            ord_data = json.loads(fi.read(), parse_float=decimal.Decimal)
         merking = detect_merking_in_filename(ord_file.name)
         isl_ord = f_lookup(ord_data, merking)
         hr_ord = '"%s"' % (ord_data['orð'], )
@@ -366,6 +367,7 @@ def add_nafnord(nafnord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=nafnord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Nafnord,
+        Tolugildi=nafnord_data['tölugildi'] if 'tölugildi' in nafnord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in nafnord_data and nafnord_data['ósjálfstætt'] is True
         ),
@@ -432,6 +434,7 @@ def add_lysingarord(lysingarord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=lysingarord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Lysingarord,
+        Tolugildi=lysingarord_data['tölugildi'] if 'tölugildi' in lysingarord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in lysingarord_data and lysingarord_data['ósjálfstætt'] is True
         ),
@@ -652,6 +655,7 @@ def add_sagnord(sagnord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=sagnord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Sagnord,
+        Tolugildi=sagnord_data['tölugildi'] if 'tölugildi' in sagnord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in sagnord_data and sagnord_data['ósjálfstætt'] is True
         ),
@@ -973,7 +977,6 @@ def add_sagnord(sagnord_data, merking=None):
         assert(type(sagnord_data['óskháttur_3p']) is str)
         isl_sagnord.Oskhattur_3p = sagnord_data['óskháttur_3p']
         db.Session.commit()
-    # TODO: add undantekning handling
     return isl_ord
 
 
@@ -1762,6 +1765,7 @@ def add_forsetning(forsetning_data, merking=None):
     isl_ord = isl.Ord(
         Ord=forsetning_data['orð'],
         Ordflokkur=isl.Ordflokkar.Forsetning,
+        Tolugildi=forsetning_data['tölugildi'] if 'tölugildi' in forsetning_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1808,6 +1812,7 @@ def add_atviksord(atviksord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=atviksord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Atviksord,
+        Tolugildi=atviksord_data['tölugildi'] if 'tölugildi' in atviksord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in atviksord_data and atviksord_data['ósjálfstætt'] is True
         ),
@@ -1839,15 +1844,15 @@ def lookup_nafnhattarmerki(nafnhattarmerki_data, merking=None):
     return isl_ord
 
 
-def add_nafnhattarmerki(nafnhattarmerki_data, merking=None):
-    assert('flokkur' in nafnhattarmerki_data and nafnhattarmerki_data['flokkur'] == 'smáorð')
+def add_nafnhattarmerki(nafnhmerki_data, merking=None):
+    assert('flokkur' in nafnhmerki_data and nafnhmerki_data['flokkur'] == 'smáorð')
     assert(
-        'undirflokkur' in nafnhattarmerki_data and
-        nafnhattarmerki_data['undirflokkur'] == 'nafnháttarmerki'
+        'undirflokkur' in nafnhmerki_data and nafnhmerki_data['undirflokkur'] == 'nafnháttarmerki'
     )
     isl_ord = isl.Ord(
-        Ord=nafnhattarmerki_data['orð'],
+        Ord=nafnhmerki_data['orð'],
         Ordflokkur=isl.Ordflokkar.Nafnhattarmerki,
+        Tolugildi=nafnhmerki_data['tölugildi'] if 'tölugildi' in nafnhmerki_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1873,6 +1878,7 @@ def add_samtenging(samtenging_data, merking=None):
     isl_ord = isl.Ord(
         Ord=samtenging_data['orð'],
         Ordflokkur=isl.Ordflokkar.Samtenging,
+        Tolugildi=samtenging_data['tölugildi'] if 'tölugildi' in samtenging_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1930,6 +1936,7 @@ def add_upphropun(upphropun_data, merking=None):
     isl_ord = isl.Ord(
         Ord=upphropun_data['orð'],
         Ordflokkur=isl.Ordflokkar.Upphropun,
+        Tolugildi=upphropun_data['tölugildi'] if 'tölugildi' in upphropun_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1975,6 +1982,7 @@ def add_sernafn(sernafn_data, merking=None):
     isl_ord = isl.Ord(
         Ord=sernafn_data['orð'],
         Ordflokkur=isl.Ordflokkar.Sernafn,
+        Tolugildi=sernafn_data['tölugildi'] if 'tölugildi' in sernafn_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in sernafn_data and sernafn_data['ósjálfstætt'] is True
         ),

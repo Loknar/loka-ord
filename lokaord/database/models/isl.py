@@ -96,6 +96,7 @@ class Ord(Base):
     Ord = utils.word_column(nullable=False)
     Ordflokkur = utils.selection(Ordflokkar, Ordflokkar.Nafnord, nullable=False)
     Samsett = utils.boolean_default_false()
+    Tolugildi = utils.decimal()
     Undantekning = utils.boolean_default_false()
     OsjalfstaedurOrdhluti = utils.boolean_default_false()
     Obeygjanlegt = utils.boolean_default_false()
@@ -211,7 +212,7 @@ class Fjoldatala(Base):  # Töluorð - Fjöldatala (einn, tveir, þrír, fjórir
     __tablename__ = 'Fjoldatala'
     Fjoldatala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Gildi = utils.integer_default_zero()
+    Gildi = utils.decimal()
     # einungis handfylli földatalna hafa beygingar og bara fjöldatalan "einn" fyllir í allar
     # beygingarmyndir, á meðan tveir, þrír og fjórir hafa beygingar í fleirtölu,
     # þá hefur fjöldatalan hundrað fleirtölumyndina hundruð en hefur í raun bara þessum tveimur
@@ -232,7 +233,7 @@ class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji, fjórði 
     __tablename__ = 'Radtala'
     Radtala_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Gildi = utils.integer_default_zero()
+    Gildi = utils.decimal()
     # raðtölur hafa einungis eina (veika) beygingu, nema "fyrstur" sem hefur sterka og veika
     # raðtalan "annar" hefur eina beygingu, en hún er þó álitin sterk beyging frekar en veik
     # sterk beyging
@@ -249,17 +250,6 @@ class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji, fjórði 
     fk_vb_ft_kk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_vb_ft_kvk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_vb_ft_hk_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
-    Edited = utils.timestamp_edited()
-    Created = utils.timestamp_created()
-
-
-class BlandadToluord(Base):  # Blandað töluorð (tugur, tyft, helmingur, þriðjungur ..)
-    # https://is.wikipedia.org/wiki/T%C3%B6luor%C3%B0
-    # Orð sem tilheyra öðrum orðflokkum en standa fyrir tölulegt gildi
-    __tablename__ = 'BlandadToluord'
-    BlandadToluord_id = utils.integer_primary_key()
-    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Gildi = utils.integer_default_zero()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 

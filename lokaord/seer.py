@@ -354,6 +354,10 @@ def build_sight(filename='sight', use_pointless=None):
                 ord_mynd += '.%s' % (ord_data['undirflokkur'], )
             if 'kyn' in ord_data:
                 ord_mynd += '.%s' % (ord_data['kyn'], )
+            if 'tölugildi' in ord_data and ord_data['tölugildi'] > 4294967295:
+                # pointless styður ekki of stórar tölurv (0xffffffff)
+                # long too large for mere 32 bits
+                ord_data['tölugildi'] = str(ord_data['tölugildi'])
             if (
                 ord_mynd.startswith('smáorð') or
                 ord_mynd == 'sérnafn.millinafn' or
