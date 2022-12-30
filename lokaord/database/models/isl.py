@@ -469,3 +469,29 @@ class Sernafn(Base):
     fk_ft_mgr_Fallbeyging_id = utils.foreign_integer_primary_key('Fallbeyging')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
+
+
+class Skammstofun(Base):
+    __tablename__ = 'Skammstofun'
+    Skammstofun_id = utils.integer_primary_key()
+    Skammstofun = utils.word_column()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class SkammstofunFrasi(Base):
+    __tablename__ = 'SkammstofunFrasi'
+    SkammstofunFrasi_id = utils.integer_primary_key()
+    fk_Skammstofun_id = utils.foreign_integer_primary_key('Skammstofun')
+    fk_Ord_id = utils.foreign_integer_primary_key('Ord')
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()
+
+
+class SkammstofunMynd(Base):
+    __tablename__ = 'SkammstofunMynd'
+    SkammstofunMynd_id = utils.integer_primary_key()
+    fk_Skammstofun_id = utils.foreign_integer_primary_key('Skammstofun')
+    Mynd = utils.word_column()
+    Edited = utils.timestamp_edited()
+    Created = utils.timestamp_created()

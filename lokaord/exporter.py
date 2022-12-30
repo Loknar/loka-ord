@@ -162,7 +162,9 @@ def write_datafiles_from_db():
             do_l_samsett_m=True,
             do_samsett=True
         )
-    logman.info('Finished exporting words to JSON files.')
+    logman.info('Finished exporting words to JSON files. Now exporting skammstafanir ..')
+    do_export_skammstafanir(word_hash_map=isl_ord_id_to_hash)
+    logman.info('Finished exporting skammstafanir to JSON files.')
 
 
 def do_export_task(
@@ -299,6 +301,32 @@ def do_export_task(
                 task['name'],
                 os.path.join(task['dir'], isl_ord_filename),
             ))
+
+
+def do_export_skammstafanir(word_hash_map):
+    datafiles_dir_abs = os.path.abspath(
+        os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
+    )
+    skammstafanir_query = db.Session.query(isl.Skammstofun).order_by(
+        isl.Skammstofun.Skammstofun_id
+    )
+    skammstafanir = skammstafanir_query.all()
+    for isl_sk in skammstafanir:
+        sk_data = get_skammstofun_from_db_to_ordered_dict(isl_sk, ord_id_hash_map=word_hash_map)
+        isl_sk_filename = '%s.json' % (isl_sk.Skammstofun, )
+        isl_sk_filepath = os.path.join(
+            datafiles_dir_abs,
+            'skammstafanir',
+            isl_sk_filename
+        )
+        sk_data['hash'] = hashify_ord_data(sk_data)
+        sk_data_json_str = ord_data_to_fancy_json_str(sk_data)
+        with open(isl_sk_filepath, mode='w', encoding='utf-8') as json_file:
+            json_file.write(sk_data_json_str)
+            logman.info('Wrote skammstöfun file "%s"' % (
+                os.path.join('skammstafanir', isl_sk_filename),
+            ))
+    return
 
 
 def get_nafnord_from_db_to_ordered_dict(isl_ord):
@@ -2285,3 +2313,74 @@ def lysingarordmyndir_to_str(myndir):
     elif myndir is isl.LysingarordMyndir.Efstastig_vb_hk:
         return 'efstastig-vb-hk'
     raise Exception('Unknown Lýsingarorðmyndir.')
+
+
+def get_skammstofun_from_db_to_ordered_dict(isl_sk, ord_id_hash_map=None):
+    toluord_undirflokkar = set([
+        'fjöldatala',
+        'raðtala'
+    ])
+    smaord_undirflokkar = set([
+        'forsetning',
+        'atviksorð',
+        'nafnháttarmerki',
+        'samtenging',
+        'upphrópun'
+    ])
+    data = collections.OrderedDict()
+    data['skammstöfun'] = isl_sk.Skammstofun
+    data['frasi'] = []
+    data['myndir'] = []
+    isl_skammstofun_frasi_query = db.Session.query(isl.SkammstofunFrasi).filter_by(
+        fk_Skammstofun_id=isl_sk.Skammstofun_id
+    )
+    frasi = isl_skammstofun_frasi_query.order_by(isl.SkammstofunFrasi.SkammstofunFrasi_id).all()
+    for frasi_ord in frasi:
+        ord_data = collections.OrderedDict()
+        isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=frasi_ord.fk_Ord_id).first()
+        assert(isl_ord is not None)
+        ord_data['orð'] = isl_ord.Ord
+        flokkur = ordflokkur_to_str(isl_ord.Ordflokkur)
+        if flokkur in toluord_undirflokkar:
+            ord_data['flokkur'] = 'töluorð'
+            ord_data['undirflokkur'] = flokkur
+        elif flokkur in smaord_undirflokkar:
+            ord_data['flokkur'] = 'smáorð'
+            ord_data['undirflokkur'] = flokkur
+        else:
+            ord_data['flokkur'] = flokkur
+        if isl_ord.Ordflokkur is isl.Ordflokkar.Nafnord:
+            isl_nafnord_list = db.Session.query(isl.Nafnord).filter_by(
+                fk_Ord_id=isl_ord.Ord_id
+            )
+            assert(len(isl_nafnord_list.all()) < 2)
+            isl_nafnord = isl_nafnord_list.first()
+            assert(isl_nafnord is not None)
+            ord_data['kyn'] = kyn_to_str(isl_nafnord.Kyn)
+        elif isl_ord.Ordflokkur is isl.Ordflokkar.Fornafn:
+            isl_fornafn_query = db.Session.query(isl.Fornafn).filter_by(fk_Ord_id=isl_ord.Ord_id)
+            assert(len(isl_fornafn_query.all()) < 2)
+            isl_fornafn = isl_fornafn_query.first()
+            assert(isl_fornafn is not None)
+            ord_data['undirflokkur'] = fornafn_undirflokkur_to_str(isl_fornafn.Undirflokkur)
+        elif isl_ord.Ordflokkur is isl.Ordflokkar.Sernafn:
+            isl_sernafn_list = db.Session.query(isl.Sernafn).filter_by(
+                fk_Ord_id=isl_ord.Ord_id
+            )
+            assert(len(isl_sernafn_list.all()) < 2)
+            isl_sernafn = isl_sernafn_list.first()
+            assert(isl_sernafn is not None)
+            ord_data['undirflokkur'] = sernafn_undirflokkur_to_str(isl_sernafn.Undirflokkur)
+            if isl_sernafn.Kyn is not None:
+                ord_data['kyn'] = kyn_to_str(isl_sernafn.Kyn)
+        ord_data['hash'] = None
+        if ord_id_hash_map is not None and str(isl_ord.Ord_id) in ord_id_hash_map:
+            ord_data['hash'] = ord_id_hash_map[str(isl_ord.Ord_id)]
+        data['frasi'].append(ord_data)
+    isl_skammstofun_myndir_query = db.Session.query(isl.SkammstofunMynd).filter_by(
+        fk_Skammstofun_id=isl_sk.Skammstofun_id
+    )
+    myndir = isl_skammstofun_myndir_query.order_by(isl.SkammstofunMynd.SkammstofunMynd_id).all()
+    for mynd in myndir:
+        data['myndir'].append(mynd.Mynd)
+    return data

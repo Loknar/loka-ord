@@ -234,7 +234,7 @@ def build_db_from_datafiles():
     logman.info('Now importing combined words (samsett).')
     for task in import_tasks:
         do_import_task(task, do_samsett=True)
-    #
+    import_skammstafanir()
     logman.info('TODO: finish implementing build_db_from_datafiles')
 
 
@@ -272,18 +272,38 @@ def do_import_task(task, do_samsett=False):
         hr_ord = '"%s"' % (ord_data['orð'], )
         if ord_data['flokkur'] == 'nafnorð':
             hr_ord = '"%s" (%s)' % (ord_data['orð'], ord_data['kyn'])
-        if isl_ord is None:
-            f_add(ord_data, merking)
-            logman.info('Added to %s, %s%s.' % (
-                task['name'],
-                hr_ord,
-                ' [ó]' if 'ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True else ''
-            ))
-        else:
+        if isl_ord is not None:
             logman.warning('%s task, %s already exists! Skipping.' % (
                 '%s%s' % (task['name'][0].upper(), task['name'][1:]),
                 hr_ord
             ))
+            continue
+        f_add(ord_data, merking)
+        logman.info('Added to %s, %s%s.' % (
+            task['name'],
+            hr_ord,
+            ' [ó]' if 'ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True else ''
+        ))
+
+
+def import_skammstafanir():
+    datafiles_dir_abs = os.path.abspath(
+        os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
+    )
+    files = sorted(pathlib.Path(os.path.join(datafiles_dir_abs, 'skammstafanir')).iterdir())
+    for sk_file in files:
+        logman.info('Skammstöfun file skammstafanir/%s ..' % (sk_file.name, ))
+        sk_data = None
+        with sk_file.open(mode='r', encoding='utf-8') as fi:
+            sk_data = json.loads(fi.read(), parse_float=decimal.Decimal)
+        isl_sk = lookup_skammstofun(sk_data)
+        if isl_sk is not None:
+            logman.warning('Skammstöfun "%s" already exists! Skipping.' % (
+                sk_data['skammstöfun'],
+            ))
+            continue
+        add_skammstofun(sk_data)
+        logman.info('Added skammstöfun "%s".' % (sk_data['skammstöfun'], ))
 
 
 def detect_merking_in_filename(filename):
@@ -324,6 +344,35 @@ def list_json_files_separate_samsett_ord(file_dir):
         files_list.append(json_file)
     return (files_list, files_list_samsett)
 
+
+def lookup_ord(ord_data, merking=None):
+    if ord_data['flokkur'] == 'nafnorð':
+        return lookup_nafnord(ord_data, merking)
+    if ord_data['flokkur'] == 'lýsingarorð':
+        return lookup_lysingarord(ord_data, merking)
+    if ord_data['flokkur'] == 'sagnorð':
+        return lookup_sagnord(ord_data, merking)
+    if ord_data['flokkur'] == 'greinir':
+        return lookup_greinir(ord_data, merking)
+    if ord_data['flokkur'] == 'töluorð' and ord_data['undirflokkur'] == 'fjöldatala':
+        return lookup_fjoldatala(ord_data, merking)
+    if ord_data['flokkur'] == 'töluorð' and ord_data['undirflokkur'] == 'raðtala':
+        return lookup_radtala(ord_data, merking)
+    if ord_data['flokkur'] == 'fornafn':
+        return lookup_fornafn(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'forsetning':
+        return lookup_forsetning(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'atviksorð':
+        return lookup_atviksord(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'nafnháttarmerki':
+        return lookup_nafnhattarmerki(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'samtenging':
+        return lookup_samtenging(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'upphrópun':
+        return lookup_upphropun(ord_data, merking)
+    if ord_data['flokkur'] == 'sérnafn':
+        return lookup_sernafn(ord_data, merking)
+    raise Exception('lookup_ord failure')
 
 
 def lookup_nafnord(nafnord_data, merking=None):
@@ -2051,3 +2100,37 @@ def string_to_lysingarordmyndir(mystr):
     elif mystr == 'efstastig-vb-hk':
         return isl.LysingarordMyndir.Efstastig_vb_hk
     raise Exception('Unknown LysingarordMynd.')
+
+
+def lookup_skammstofun(sk_data):
+    isl_sk = None
+    isl_sk_query = db.Session.query(isl.Skammstofun).filter_by(Skammstofun=sk_data['skammstöfun'])
+    assert(len(isl_sk_query.all()) < 2)
+    isl_sk = isl_sk_query.first()
+    return isl_sk
+
+
+def add_skammstofun(sk_data):
+    assert('frasi' in sk_data and len(sk_data['frasi']) > 0)
+    assert('myndir' in sk_data and len(sk_data['myndir']) > 0)
+    isl_sk = isl.Skammstofun(Skammstofun=sk_data['skammstöfun'])
+    db.Session.add(isl_sk)
+    db.Session.commit()
+    for ord_data in sk_data['frasi']:
+        merking = ord_data['merking'] if 'merking' in ord_data else None
+        isl_ord = lookup_ord(ord_data, merking=merking)
+        assert(isl_ord is not None)
+        isl_sk_frasi = isl.SkammstofunFrasi(
+            fk_Skammstofun_id=isl_sk.Skammstofun_id,
+            fk_Ord_id=isl_ord.Ord_id
+        )
+        db.Session.add(isl_sk_frasi)
+        db.Session.commit()
+    for ordmynd in sk_data['myndir']:
+        isl_sk_mynd = isl.SkammstofunMynd(
+            fk_Skammstofun_id=isl_sk.Skammstofun_id,
+            Mynd=ordmynd
+        )
+        db.Session.add(isl_sk_mynd)
+        db.Session.commit()
+    return isl_sk
