@@ -5,6 +5,7 @@ Importer functionality
 Importing data from files to SQL database.
 """
 import collections
+import decimal
 import json
 import os
 import pathlib
@@ -233,7 +234,7 @@ def build_db_from_datafiles():
     logman.info('Now importing combined words (samsett).')
     for task in import_tasks:
         do_import_task(task, do_samsett=True)
-    #
+    import_skammstafanir()
     logman.info('TODO: finish implementing build_db_from_datafiles')
 
 
@@ -265,24 +266,44 @@ def do_import_task(task, do_samsett=False):
         logman.info('File %s/%s ..' % (task['dir'], ord_file.name))
         ord_data = None
         with ord_file.open(mode='r', encoding='utf-8') as fi:
-            ord_data = json.loads(fi.read())
+            ord_data = json.loads(fi.read(), parse_float=decimal.Decimal)
         merking = detect_merking_in_filename(ord_file.name)
         isl_ord = f_lookup(ord_data, merking)
         hr_ord = '"%s"' % (ord_data['orð'], )
         if ord_data['flokkur'] == 'nafnorð':
             hr_ord = '"%s" (%s)' % (ord_data['orð'], ord_data['kyn'])
-        if isl_ord is None:
-            f_add(ord_data, merking)
-            logman.info('Added to %s, %s%s.' % (
-                task['name'],
-                hr_ord,
-                ' [ó]' if 'ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True else ''
-            ))
-        else:
+        if isl_ord is not None:
             logman.warning('%s task, %s already exists! Skipping.' % (
                 '%s%s' % (task['name'][0].upper(), task['name'][1:]),
                 hr_ord
             ))
+            continue
+        f_add(ord_data, merking)
+        logman.info('Added to %s, %s%s.' % (
+            task['name'],
+            hr_ord,
+            ' [ó]' if 'ósjálfstætt' in ord_data and ord_data['ósjálfstætt'] is True else ''
+        ))
+
+
+def import_skammstafanir():
+    datafiles_dir_abs = os.path.abspath(
+        os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
+    )
+    files = sorted(pathlib.Path(os.path.join(datafiles_dir_abs, 'skammstafanir')).iterdir())
+    for sk_file in files:
+        logman.info('Skammstöfun file skammstafanir/%s ..' % (sk_file.name, ))
+        sk_data = None
+        with sk_file.open(mode='r', encoding='utf-8') as fi:
+            sk_data = json.loads(fi.read(), parse_float=decimal.Decimal)
+        isl_sk = lookup_skammstofun(sk_data)
+        if isl_sk is not None:
+            logman.warning('Skammstöfun "%s" already exists! Skipping.' % (
+                sk_data['skammstöfun'],
+            ))
+            continue
+        add_skammstofun(sk_data)
+        logman.info('Added skammstöfun "%s".' % (sk_data['skammstöfun'], ))
 
 
 def detect_merking_in_filename(filename):
@@ -323,6 +344,35 @@ def list_json_files_separate_samsett_ord(file_dir):
         files_list.append(json_file)
     return (files_list, files_list_samsett)
 
+
+def lookup_ord(ord_data, merking=None):
+    if ord_data['flokkur'] == 'nafnorð':
+        return lookup_nafnord(ord_data, merking)
+    if ord_data['flokkur'] == 'lýsingarorð':
+        return lookup_lysingarord(ord_data, merking)
+    if ord_data['flokkur'] == 'sagnorð':
+        return lookup_sagnord(ord_data, merking)
+    if ord_data['flokkur'] == 'greinir':
+        return lookup_greinir(ord_data, merking)
+    if ord_data['flokkur'] == 'töluorð' and ord_data['undirflokkur'] == 'fjöldatala':
+        return lookup_fjoldatala(ord_data, merking)
+    if ord_data['flokkur'] == 'töluorð' and ord_data['undirflokkur'] == 'raðtala':
+        return lookup_radtala(ord_data, merking)
+    if ord_data['flokkur'] == 'fornafn':
+        return lookup_fornafn(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'forsetning':
+        return lookup_forsetning(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'atviksorð':
+        return lookup_atviksord(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'nafnháttarmerki':
+        return lookup_nafnhattarmerki(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'samtenging':
+        return lookup_samtenging(ord_data, merking)
+    if ord_data['flokkur'] == 'smáorð' and ord_data['undirflokkur'] == 'upphrópun':
+        return lookup_upphropun(ord_data, merking)
+    if ord_data['flokkur'] == 'sérnafn':
+        return lookup_sernafn(ord_data, merking)
+    raise Exception('lookup_ord failure')
 
 
 def lookup_nafnord(nafnord_data, merking=None):
@@ -366,6 +416,7 @@ def add_nafnord(nafnord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=nafnord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Nafnord,
+        Tolugildi=nafnord_data['tölugildi'] if 'tölugildi' in nafnord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in nafnord_data and nafnord_data['ósjálfstætt'] is True
         ),
@@ -432,6 +483,7 @@ def add_lysingarord(lysingarord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=lysingarord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Lysingarord,
+        Tolugildi=lysingarord_data['tölugildi'] if 'tölugildi' in lysingarord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in lysingarord_data and lysingarord_data['ósjálfstætt'] is True
         ),
@@ -652,6 +704,7 @@ def add_sagnord(sagnord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=sagnord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Sagnord,
+        Tolugildi=sagnord_data['tölugildi'] if 'tölugildi' in sagnord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in sagnord_data and sagnord_data['ósjálfstætt'] is True
         ),
@@ -973,7 +1026,6 @@ def add_sagnord(sagnord_data, merking=None):
         assert(type(sagnord_data['óskháttur_3p']) is str)
         isl_sagnord.Oskhattur_3p = sagnord_data['óskháttur_3p']
         db.Session.commit()
-    # TODO: add undantekning handling
     return isl_ord
 
 
@@ -1762,6 +1814,7 @@ def add_forsetning(forsetning_data, merking=None):
     isl_ord = isl.Ord(
         Ord=forsetning_data['orð'],
         Ordflokkur=isl.Ordflokkar.Forsetning,
+        Tolugildi=forsetning_data['tölugildi'] if 'tölugildi' in forsetning_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1808,6 +1861,7 @@ def add_atviksord(atviksord_data, merking=None):
     isl_ord = isl.Ord(
         Ord=atviksord_data['orð'],
         Ordflokkur=isl.Ordflokkar.Atviksord,
+        Tolugildi=atviksord_data['tölugildi'] if 'tölugildi' in atviksord_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in atviksord_data and atviksord_data['ósjálfstætt'] is True
         ),
@@ -1839,15 +1893,15 @@ def lookup_nafnhattarmerki(nafnhattarmerki_data, merking=None):
     return isl_ord
 
 
-def add_nafnhattarmerki(nafnhattarmerki_data, merking=None):
-    assert('flokkur' in nafnhattarmerki_data and nafnhattarmerki_data['flokkur'] == 'smáorð')
+def add_nafnhattarmerki(nafnhmerki_data, merking=None):
+    assert('flokkur' in nafnhmerki_data and nafnhmerki_data['flokkur'] == 'smáorð')
     assert(
-        'undirflokkur' in nafnhattarmerki_data and
-        nafnhattarmerki_data['undirflokkur'] == 'nafnháttarmerki'
+        'undirflokkur' in nafnhmerki_data and nafnhmerki_data['undirflokkur'] == 'nafnháttarmerki'
     )
     isl_ord = isl.Ord(
-        Ord=nafnhattarmerki_data['orð'],
+        Ord=nafnhmerki_data['orð'],
         Ordflokkur=isl.Ordflokkar.Nafnhattarmerki,
+        Tolugildi=nafnhmerki_data['tölugildi'] if 'tölugildi' in nafnhmerki_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1873,6 +1927,7 @@ def add_samtenging(samtenging_data, merking=None):
     isl_ord = isl.Ord(
         Ord=samtenging_data['orð'],
         Ordflokkur=isl.Ordflokkar.Samtenging,
+        Tolugildi=samtenging_data['tölugildi'] if 'tölugildi' in samtenging_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1930,6 +1985,7 @@ def add_upphropun(upphropun_data, merking=None):
     isl_ord = isl.Ord(
         Ord=upphropun_data['orð'],
         Ordflokkur=isl.Ordflokkar.Upphropun,
+        Tolugildi=upphropun_data['tölugildi'] if 'tölugildi' in upphropun_data else None,
         Merking=merking
     )
     db.Session.add(isl_ord)
@@ -1975,6 +2031,7 @@ def add_sernafn(sernafn_data, merking=None):
     isl_ord = isl.Ord(
         Ord=sernafn_data['orð'],
         Ordflokkur=isl.Ordflokkar.Sernafn,
+        Tolugildi=sernafn_data['tölugildi'] if 'tölugildi' in sernafn_data else None,
         OsjalfstaedurOrdhluti=(
             'ósjálfstætt' in sernafn_data and sernafn_data['ósjálfstætt'] is True
         ),
@@ -2043,3 +2100,37 @@ def string_to_lysingarordmyndir(mystr):
     elif mystr == 'efstastig-vb-hk':
         return isl.LysingarordMyndir.Efstastig_vb_hk
     raise Exception('Unknown LysingarordMynd.')
+
+
+def lookup_skammstofun(sk_data):
+    isl_sk = None
+    isl_sk_query = db.Session.query(isl.Skammstofun).filter_by(Skammstofun=sk_data['skammstöfun'])
+    assert(len(isl_sk_query.all()) < 2)
+    isl_sk = isl_sk_query.first()
+    return isl_sk
+
+
+def add_skammstofun(sk_data):
+    assert('frasi' in sk_data and len(sk_data['frasi']) > 0)
+    assert('myndir' in sk_data and len(sk_data['myndir']) > 0)
+    isl_sk = isl.Skammstofun(Skammstofun=sk_data['skammstöfun'])
+    db.Session.add(isl_sk)
+    db.Session.commit()
+    for ord_data in sk_data['frasi']:
+        merking = ord_data['merking'] if 'merking' in ord_data else None
+        isl_ord = lookup_ord(ord_data, merking=merking)
+        assert(isl_ord is not None)
+        isl_sk_frasi = isl.SkammstofunFrasi(
+            fk_Skammstofun_id=isl_sk.Skammstofun_id,
+            fk_Ord_id=isl_ord.Ord_id
+        )
+        db.Session.add(isl_sk_frasi)
+        db.Session.commit()
+    for ordmynd in sk_data['myndir']:
+        isl_sk_mynd = isl.SkammstofunMynd(
+            fk_Skammstofun_id=isl_sk.Skammstofun_id,
+            Mynd=ordmynd
+        )
+        db.Session.add(isl_sk_mynd)
+        db.Session.commit()
+    return isl_sk
