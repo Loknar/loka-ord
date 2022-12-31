@@ -60,40 +60,7 @@ def scan_sentence(sentence):
             'staða': None,
             'möguleikar': []
         }
-        if word not in sight['orð']:
-            onhanging_chars = set(['.', ',', '(', ')', '[', ']', '-', '/'])
-            msg = ''
-            e_word = word.strip()
-            if e_word[-1] in onhanging_chars:
-                scanned_word['fylgir'] = e_word[-1]
-                e_word = e_word[:-1]
-            if e_word[0] in onhanging_chars:
-                scanned_word['leiðir'] = e_word[0]
-                e_word = e_word[1:]
-            if e_word not in sight['orð'] and 'll' in e_word:
-                e_word = e_word.replace('ll', 'łl')
-            if e_word not in sight['orð'] and e_word[0] == e_word[0].lower():
-                e_word = '%s%s' % (e_word[0].upper(), e_word[1:])
-            if e_word not in sight['orð']:
-                e_word = e_word.lower()
-            if e_word in sight['orð']:
-                scanned_word['orð-hreinsað'] = e_word
-                scanned_word['staða'] = 'mögulega'
-                for option in sight['orð'][e_word]:
-                    scanned_word['möguleikar'].append({
-                        'm': option['mynd'],
-                        'h': option['hash'],
-                        'f': sight['hash'][option['hash']]['f']
-                    })
-                maybe += 1
-            elif e_word.isdigit():
-                scanned_word['orð-hreinsað'] = e_word
-                scanned_word['staða'] = 'tala'
-            else:
-                scanned_word['staða'] = 'vantar'
-                missing += 1
-
-        else:
+        if word in sight['orð']:
             scanned_word['staða'] = 'fannst'
             for option in sight['orð'][word]:
                 scanned_word['möguleikar'].append({
@@ -102,6 +69,50 @@ def scan_sentence(sentence):
                     'f': sight['hash'][option['hash']]['f']
                 })
             found += 1
+            scanned_sentence.append(scanned_word)
+            continue
+        if word in sight['skammstafanir']:
+            myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
+            scanned_word['staða'] = 'skammstöfun'
+            scanned_word['möguleikar'].append({
+                'm': myndir,
+                'h': sight['skammstafanir'][word]['hash'],
+                'f': sight['hash'][sight['skammstafanir'][word]['hash']]['f']
+            })
+            found += 1
+            scanned_sentence.append(scanned_word)
+            continue
+        onhanging_chars = set(['.', ',', '(', ')', '[', ']', '-', '/'])
+        msg = ''
+        e_word = word.strip()
+        if e_word[-1] in onhanging_chars:
+            scanned_word['fylgir'] = e_word[-1]
+            e_word = e_word[:-1]
+        if e_word[0] in onhanging_chars:
+            scanned_word['leiðir'] = e_word[0]
+            e_word = e_word[1:]
+        if e_word not in sight['orð'] and 'll' in e_word:
+            e_word = e_word.replace('ll', 'łl')
+        if e_word not in sight['orð'] and e_word[0] == e_word[0].lower():
+            e_word = '%s%s' % (e_word[0].upper(), e_word[1:])
+        if e_word not in sight['orð']:
+            e_word = e_word.lower()
+        if e_word in sight['orð']:
+            scanned_word['orð-hreinsað'] = e_word
+            scanned_word['staða'] = 'mögulega'
+            for option in sight['orð'][e_word]:
+                scanned_word['möguleikar'].append({
+                    'm': option['mynd'],
+                    'h': option['hash'],
+                    'f': sight['hash'][option['hash']]['f']
+                })
+            maybe += 1
+        elif e_word.isdigit():
+            scanned_word['orð-hreinsað'] = e_word
+            scanned_word['staða'] = 'tala'
+        else:
+            scanned_word['staða'] = 'vantar'
+            missing += 1
         scanned_sentence.append(scanned_word)
     highlighted_sentence_list = []
     for scanned_word in scanned_sentence:
@@ -132,6 +143,11 @@ def scan_sentence(sentence):
                     '\033[46m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
                     '' if scanned_word['fylgir'] is None else scanned_word['fylgir']
                 )
+            )
+        elif scanned_word['staða'] == 'skammstöfun':
+            print('"%s" \033[44m\033[37m SKAMMSTÖFUN \033[0m' % (scanned_word['orð'], ))
+            highlighted_sentence_list.append(
+                '\033[44m\033[37m%s\033[0m' % (scanned_word['orð'], )
             )
         elif scanned_word['staða'] == 'vantar':
             print('"%s" \033[41m\033[37m VANTAR \033[0m' % (scanned_word['orð'], ))
@@ -212,6 +228,7 @@ def build_sight(filename='sight', use_pointless=None):
     sight = {
         'orð': {},
         'hash': {},
+        'skammstafanir': {},
         'ts': ts,
         'v': version
     }
@@ -355,7 +372,7 @@ def build_sight(filename='sight', use_pointless=None):
             if 'kyn' in ord_data:
                 ord_mynd += '.%s' % (ord_data['kyn'], )
             if 'tölugildi' in ord_data and ord_data['tölugildi'] > 4294967295:
-                # pointless styður ekki of stórar tölurv (0xffffffff)
+                # pointless styður ekki of stórar tölur (max 0xffffffff)
                 # long too large for mere 32 bits
                 ord_data['tölugildi'] = str(ord_data['tölugildi'])
             if (
@@ -372,6 +389,16 @@ def build_sight(filename='sight', use_pointless=None):
             }
             if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
                 add_myndir(ord_data, sight, ord_mynd, ord_data['hash'])
+    for sk_file in sorted(pathlib.Path(os.path.join(task['root'], 'skammstafanir')).iterdir()):
+        logman.info('File %s ..' % (os.path.join('skammstafanir', sk_file.name), ))
+        sk_data = None
+        with sk_file.open(mode='r', encoding='utf-8') as fi:
+            sk_data = json.loads(fi.read())
+        sight['skammstafanir'][sk_data['skammstöfun']] = sk_data
+        sight['hash'][sk_data['hash']] = {
+            'f': os.path.join('skammstafanir', sk_file.name),
+            'd': copy.deepcopy(sk_data)
+        }
     logman.info('Writing sight to "%s" ..' % (sight_filepath_rel, ))
     if use_pointless is True:
         pointless.serialize(sight, sight_filepath_abs)
