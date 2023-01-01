@@ -1,0 +1,136 @@
+{
+	"orð": "eina",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "eina",
+		"sagnbót": "einað",
+		"boðháttur": {
+			"stýfður": "eina",
+			"et": "einaðu",
+			"ft": "einið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eina", "einar", "einar"],
+					"ft": ["einum", "einið", "eina"]
+				},
+				"þátíð": {
+					"et": ["einaði", "einaðir", "einaði"],
+					"ft": ["einuðum", "einuðuð", "einuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eini", "einir", "eini"],
+					"ft": ["einum", "einið", "eini"]
+				},
+				"þátíð": {
+					"et": ["einaði", "einaðir", "einaði"],
+					"ft": ["einuðum", "einuðuð", "einuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einarðu",
+					"ft": "einiði"
+				},
+				"þátíð": {
+					"et": "einaðirðu",
+					"ft": "einuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einirðu",
+					"ft": "einiði"
+				},
+				"þátíð": {
+					"et": "einaðirðu",
+					"ft": "einuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "einast",
+		"sagnbót": "einast",
+		"boðháttur": {
+			"et": "einastu",
+			"ft": "einist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einast", "einast", "einast"],
+					"ft": ["einumst", "einist", "einast"]
+				},
+				"þátíð": {
+					"et": ["einaðist", "einaðist", "einaðist"],
+					"ft": ["einuðumst", "einuðust", "einuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einist", "einist", "einist"],
+					"ft": ["einumst", "einist", "einist"]
+				},
+				"þátíð": {
+					"et": ["einaðist", "einaðist", "einaðist"],
+					"ft": ["einuðumst", "einuðust", "einuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einastu"
+				},
+				"þátíð": {
+					"et": "einaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einistu"
+				},
+				"þátíð": {
+					"et": "einaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "finnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["einaður", "einaðan", "einuðum", "einaðs"],
+					"kvk": ["einuð", "einaða", "einaðri", "einaðrar"],
+					"hk": ["einað", "einað", "einuðu", "einaðs"]
+				},
+				"ft": {
+					"kk": ["einaðir", "einaða", "einuðum", "einaðra"],
+					"kvk": ["einaðar", "einaðar", "einuðum", "einaðra"],
+					"hk": ["einuð", "einuð", "einuðum", "einaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["einaði", "einaða", "einaða", "einaða"],
+					"kvk": ["einaða", "einuðu", "einuðu", "einuðu"],
+					"hk": ["einaða", "einaða", "einaða", "einaða"]
+				},
+				"ft": {
+					"kk": ["einuðu", "einuðu", "einuðu", "einuðu"],
+					"kvk": ["einuðu", "einuðu", "einuðu", "einuðu"],
+					"hk": ["einuðu", "einuðu", "einuðu", "einuðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"hash": "aaa7120a85d6768ab3b7694b877a97d2705ba77c9c5048791fe4d4f8a204504f"
+}
