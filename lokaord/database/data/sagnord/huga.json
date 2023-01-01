@@ -1,0 +1,131 @@
+{
+	"orð": "huga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "huga",
+		"sagnbót": "hugað",
+		"boðháttur": {
+			"stýfður": "huga",
+			"et": "hugaðu",
+			"ft": "hugið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["huga", "hugar", "hugar"],
+					"ft": ["hugum", "hugið", "huga"]
+				},
+				"þátíð": {
+					"et": ["hugaði", "hugaðir", "hugaði"],
+					"ft": ["huguðum", "huguðuð", "huguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hugi", "hugir", "hugi"],
+					"ft": ["hugum", "hugið", "hugi"]
+				},
+				"þátíð": {
+					"et": ["hugaði", "hugaðir", "hugaði"],
+					"ft": ["huguðum", "huguðuð", "huguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hugarðu",
+					"ft": "hugiði"
+				},
+				"þátíð": {
+					"et": "hugaðirðu",
+					"ft": "huguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hugirðu",
+					"ft": "hugiði"
+				},
+				"þátíð": {
+					"et": "hugaðirðu",
+					"ft": "huguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hugast",
+		"sagnbót": "hugast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hugast", "hugast", "hugast"],
+					"ft": ["hugumst", "hugist", "hugast"]
+				},
+				"þátíð": {
+					"et": ["hugaðist", "hugaðist", "hugaðist"],
+					"ft": ["huguðumst", "huguðust", "huguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hugist", "hugist", "hugist"],
+					"ft": ["hugumst", "hugist", "hugist"]
+				},
+				"þátíð": {
+					"et": ["hugaðist", "hugaðist", "hugaðist"],
+					"ft": ["huguðumst", "huguðust", "huguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hugastu"
+				},
+				"þátíð": {
+					"et": "hugaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hugistu"
+				},
+				"þátíð": {
+					"et": "hugaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hugandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hugaður", "hugaðan", "huguðum", "hugaðs"],
+					"kvk": ["huguð", "hugaða", "hugaðri", "hugaðrar"],
+					"hk": ["hugað", "hugað", "huguðu", "hugaðs"]
+				},
+				"ft": {
+					"kk": ["hugaðir", "hugaða", "huguðum", "hugaðra"],
+					"kvk": ["hugaðar", "hugaðar", "huguðum", "hugaðra"],
+					"hk": ["huguð", "huguð", "huguðum", "hugaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hugaði", "hugaða", "hugaða", "hugaða"],
+					"kvk": ["hugaða", "huguðu", "huguðu", "huguðu"],
+					"hk": ["hugaða", "hugaða", "hugaða", "hugaða"]
+				},
+				"ft": {
+					"kk": ["huguðu", "huguðu", "huguðu", "huguðu"],
+					"kvk": ["huguðu", "huguðu", "huguðu", "huguðu"],
+					"hk": ["huguðu", "huguðu", "huguðu", "huguðu"]
+				}
+			}
+		}
+	},
+	"hash": "25a82c15d376189ac972d56a018f0280475cf9c4e024178c578862ea9e511f71"
+}

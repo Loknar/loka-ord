@@ -1,0 +1,151 @@
+{
+	"orð": "sameina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "eignarfalls",
+			"orð": "samur",
+			"flokkur": "fornafn",
+			"undirflokkur": "óákveðið",
+			"hash": "fd41bc9b21db7226a1809612c214b38797f1c75c1398bbeaf9230b96a69ef67a"
+		},
+		{
+			"orð": "eina",
+			"flokkur": "sagnorð",
+			"ósjálfstætt": true,
+			"hash": "aaa7120a85d6768ab3b7694b877a97d2705ba77c9c5048791fe4d4f8a204504f"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sameina",
+		"sagnbót": "sameinað",
+		"boðháttur": {
+			"stýfður": "sameina",
+			"et": "sameinaðu",
+			"ft": "sameinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sameina", "sameinar", "sameinar"],
+					"ft": ["sameinum", "sameinið", "sameina"]
+				},
+				"þátíð": {
+					"et": ["sameinaði", "sameinaðir", "sameinaði"],
+					"ft": ["sameinuðum", "sameinuðuð", "sameinuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sameini", "sameinir", "sameini"],
+					"ft": ["sameinum", "sameinið", "sameini"]
+				},
+				"þátíð": {
+					"et": ["sameinaði", "sameinaðir", "sameinaði"],
+					"ft": ["sameinuðum", "sameinuðuð", "sameinuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sameinarðu",
+					"ft": "sameiniði"
+				},
+				"þátíð": {
+					"et": "sameinaðirðu",
+					"ft": "sameinuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sameinirðu",
+					"ft": "sameiniði"
+				},
+				"þátíð": {
+					"et": "sameinaðirðu",
+					"ft": "sameinuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sameinast",
+		"sagnbót": "sameinast",
+		"boðháttur": {
+			"et": "sameinastu",
+			"ft": "sameinist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sameinast", "sameinast", "sameinast"],
+					"ft": ["sameinumst", "sameinist", "sameinast"]
+				},
+				"þátíð": {
+					"et": ["sameinaðist", "sameinaðist", "sameinaðist"],
+					"ft": ["sameinuðumst", "sameinuðust", "sameinuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sameinist", "sameinist", "sameinist"],
+					"ft": ["sameinumst", "sameinist", "sameinist"]
+				},
+				"þátíð": {
+					"et": ["sameinaðist", "sameinaðist", "sameinaðist"],
+					"ft": ["sameinuðumst", "sameinuðust", "sameinuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sameinastu"
+				},
+				"þátíð": {
+					"et": "sameinaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sameinistu"
+				},
+				"þátíð": {
+					"et": "sameinaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samfinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sameinaður", "sameinaðan", "sameinuðum", "sameinaðs"],
+					"kvk": ["sameinuð", "sameinaða", "sameinaðri", "sameinaðrar"],
+					"hk": ["sameinað", "sameinað", "sameinuðu", "sameinaðs"]
+				},
+				"ft": {
+					"kk": ["sameinaðir", "sameinaða", "sameinuðum", "sameinaðra"],
+					"kvk": ["sameinaðar", "sameinaðar", "sameinuðum", "sameinaðra"],
+					"hk": ["sameinuð", "sameinuð", "sameinuðum", "sameinaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sameinaði", "sameinaða", "sameinaða", "sameinaða"],
+					"kvk": ["sameinaða", "sameinuðu", "sameinuðu", "sameinuðu"],
+					"hk": ["sameinaða", "sameinaða", "sameinaða", "sameinaða"]
+				},
+				"ft": {
+					"kk": ["sameinuðu", "sameinuðu", "sameinuðu", "sameinuðu"],
+					"kvk": ["sameinuðu", "sameinuðu", "sameinuðu", "sameinuðu"],
+					"hk": ["sameinuðu", "sameinuðu", "sameinuðu", "sameinuðu"]
+				}
+			}
+		}
+	},
+	"hash": "5ffa1b2fb08325aead956981ca181ad50c8985e43f74eff09ef886be0a2e35e5"
+}
