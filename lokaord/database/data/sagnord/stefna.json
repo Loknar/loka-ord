@@ -1,0 +1,87 @@
+{
+	"orð": "stefna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stefna",
+		"sagnbót": "stefnt",
+		"boðháttur": {
+			"stýfður": "stefn",
+			"et": "stefndu",
+			"ft": "stefnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stefni", "stefnir", "stefnir"],
+					"ft": ["stefnum", "stefnið", "stefna"]
+				},
+				"þátíð": {
+					"et": ["stefndi", "stefndir", "stefndi"],
+					"ft": ["stefndum", "stefnduð", "stefndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stefni", "stefnir", "stefni"],
+					"ft": ["stefnum", "stefnið", "stefni"]
+				},
+				"þátíð": {
+					"et": ["stefndi", "stefndir", "stefndi"],
+					"ft": ["stefndum", "stefnduð", "stefndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stefnirðu",
+					"ft": "stefniði"
+				},
+				"þátíð": {
+					"et": "stefndirðu",
+					"ft": "stefnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stefnirðu",
+					"ft": "stefniði"
+				},
+				"þátíð": {
+					"et": "stefndirðu",
+					"ft": "stefnduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stefnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stefndur", "stefndan", "stefndum", "stefnds"],
+					"kvk": ["stefnd", "stefnda", "stefndri", "stefndrar"],
+					"hk": ["stefnt", "stefnt", "stefndu", "stefnds"]
+				},
+				"ft": {
+					"kk": ["stefndir", "stefnda", "stefndum", "stefndra"],
+					"kvk": ["stefndar", "stefndar", "stefndum", "stefndra"],
+					"hk": ["stefnd", "stefnd", "stefndum", "stefndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stefndi", "stefnda", "stefnda", "stefnda"],
+					"kvk": ["stefnda", "stefndu", "stefndu", "stefndu"],
+					"hk": ["stefnda", "stefnda", "stefnda", "stefnda"]
+				},
+				"ft": {
+					"kk": ["stefndu", "stefndu", "stefndu", "stefndu"],
+					"kvk": ["stefndu", "stefndu", "stefndu", "stefndu"],
+					"hk": ["stefndu", "stefndu", "stefndu", "stefndu"]
+				}
+			}
+		}
+	},
+	"hash": "b50547ef8c2ac2c600dbe97d9dcb7fc09906e656e79ba23e32ad8cdb063f68f8"
+}
