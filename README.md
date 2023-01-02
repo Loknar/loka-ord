@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 188 | 210 | 161 | 559 | 77 | 60 | 84 | 221 | **780** |
-| **Lýsingarorð** | 8 |   |   |   | 41 |   |   |   | 34 | **75** |
-| **Sagnorð**     |   |   |   |   | 90 |   |   |   | 20 | **110** |
+| **Nafnorð**     |   | 190 | 218 | 166 | 574 | 80 | 68 | 101 | 249 | **823** |
+| **Lýsingarorð** | 8 |   |   |   | 48 |   |   |   | 36 | **84** |
+| **Sagnorð**     |   |   |   |   | 99 |   |   |   | 24 | **123** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 39 |   |   |   | 2 | **41** |
-| **Smáorð**      |   |   |   |   |   |   |   |   |   | **160** |
-| **Alls** |   |   |   |   | **955** |   |   |   | **291** | **1246** |
+| **Smáorð**      |   |   |   |   |   |   |   |   |   | **164** |
+| **Alls** |   |   |   |   | **990** |   |   |   | **325** | **1315** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,8 +23,7 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   |  | 2 | 1 | 3 | 22 | 14 | 8 | 44 | **47** |
 | **Alls**  |   |   |   | **170** |   |   |   | **197** | **367** |
 
-**Samtals:** 1613 orð.
-
+**Samtals:** 1682 orð.
 
 ## Forkröfur (Requirements)
 
@@ -75,7 +74,7 @@ python main.py --rebuild-db --write-files
 
 til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa síðan innihald gagnagrunnsins aftur í textaskrár.
 
-Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá þarf ekki að græja beygingarmyndir þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar ég bætti við orðinu "hóflegur" var nóg að sjá til þess að allir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
+Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá þarf ekki að græja beygingarmyndir þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar ég bætti við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
 
 ```json
 {
@@ -88,20 +87,20 @@ Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá
 			"orð": "hóf",
 			"flokkur": "nafnorð",
 			"kyn": "hk",
-			"hash": ""
+			"hash": "tba"
 		},
 		{
 			"orð": "legur",
 			"flokkur": "lýsingarorð",
 			"ósjálfstætt": true,
-			"hash": ""
+			"hash": "tba"
 		}
 	],
-	"hash": ""
+	"hash": "tba"
 }
 ```
 
-svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunninum þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum. Hakkastrengirnir í `"hash"` gildinu eru ekki notaðir í import ferlinu en verða til í export ferlinu og eru síðan notaðir þegar smíðuð er sjón fyrir sjáanda (sjá neðar).
+svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunninum þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum. Hakkastrengirnir í `"hash"` gildinu eru ekki notaðir í import ferlinu en þurfa þó að vera strengir og mega ekki vera tómur strengur, hakkastrengirnir eru smíðaðir í export ferlinu og eru svo notaðir þegar smíðuð er sjón fyrir sjáanda (sjá neðar).
 
 ### Orðaleit
 
@@ -135,7 +134,7 @@ og vista í `.bashrc` eða sambærilegri skrá, þá er hægt að spara sér að
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 
-Í grunninum eru frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svokölluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (samfestingur eða flík) og "gałli" (vankantur eða brestur).
+Í grunninum eru frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svoköłluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (samfestingur eða flík) og "gałli" (vankantur eða brestur).
 
 Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
 
