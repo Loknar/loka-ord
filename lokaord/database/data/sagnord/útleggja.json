@@ -1,0 +1,173 @@
+{
+	"orð": "útleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"orð": "út",
+			"flokkur": "smáorð",
+			"undirflokkur": "forsetning",
+			"hash": "bcc080fc5650301997f155af20fb6b00dc8e66f2777dcc3181d12c79d4761fbd"
+		},
+		{
+			"orð": "leggja",
+			"flokkur": "sagnorð",
+			"hash": "b1dda6e3dd3bb415a7ab69611d507be87ff7444f5902c551820453cd33bba207"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útleggja",
+		"sagnbót": "útlagt",
+		"boðháttur": {
+			"stýfður": "útlegg",
+			"et": "útleggðu",
+			"ft": "útleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útlegg", "útleggur", "útleggur"],
+					"ft": ["útleggjum", "útleggið", "útleggja"]
+				},
+				"þátíð": {
+					"et": ["útlagði", "útlagðir", "útlagði"],
+					"ft": ["útlögðum", "útlögðuð", "útlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útleggi", "útleggir", "útleggi"],
+					"ft": ["útleggjum", "útleggið", "útleggi"]
+				},
+				"þátíð": {
+					"et": ["útleggði", "útleggðir", "útleggði"],
+					"ft": ["útleggðum", "útleggðuð", "útleggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útleggurðu",
+					"ft": "útleggiði"
+				},
+				"þátíð": {
+					"et": "útlagðirðu",
+					"ft": "útlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útleggirðu",
+					"ft": "útleggiði"
+				},
+				"þátíð": {
+					"et": "útleggðirðu",
+					"ft": "útleggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útleggjast",
+		"sagnbót": "útleggst",
+		"boðháttur": {
+			"et": "útleggstu",
+			"ft": "útleggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útleggst", "útleggst", "útleggst"],
+					"ft": ["útleggjumst", "útleggist", "útleggjast"]
+				},
+				"þátíð": {
+					"et": ["útlagðist", "útlagðist", "útlagðist"],
+					"ft": ["útlögðumst", "útlögðust", "útlögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útleggist", "útleggist", "útleggist"],
+					"ft": ["útleggjumst", "útleggist", "útleggist"]
+				},
+				"þátíð": {
+					"et": ["útlegðist", "útlegðist", "útlegðist"],
+					"ft": ["útlegðumst", "útlegðist", "útlegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útleggst", "útleggst", "útleggst"],
+					"ft": ["útleggst", "útleggst", "útleggst"]
+				},
+				"þátíð": {
+					"et": ["útlagðist", "útlagðist", "útlagðist"],
+					"ft": ["útlagðist", "útlagðist", "útlagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útleggist", "útleggist", "útleggist"],
+					"ft": ["útleggist", "útleggist", "útleggist"]
+				},
+				"þátíð": {
+					"et": ["útlegðist", "útlegðist", "útlegðist"],
+					"ft": ["útlegðist", "útlegðist", "útlegðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útleggstu"
+				},
+				"þátíð": {
+					"et": "útlagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útleggistu"
+				},
+				"þátíð": {
+					"et": "útlegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útlagður", "útlagðan", "útlögðum", "útlagðs"],
+					"kvk": ["útlögð", "útlagða", "útlagðri", "útlagðrar"],
+					"hk": ["útlagt", "útlagt", "útlögðu", "útlagðs"]
+				},
+				"ft": {
+					"kk": ["útlagðir", "útlagða", "útlögðum", "útlagðra"],
+					"kvk": ["útlagðar", "útlagðar", "útlögðum", "útlagðra"],
+					"hk": ["útlögð", "útlögð", "útlögðum", "útlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útlagði", "útlagða", "útlagða", "útlagða"],
+					"kvk": ["útlagða", "útlögðu", "útlögðu", "útlögðu"],
+					"hk": ["útlagða", "útlagða", "útlagða", "útlagða"]
+				},
+				"ft": {
+					"kk": ["útlögðu", "útlögðu", "útlögðu", "útlögðu"],
+					"kvk": ["útlögðu", "útlögðu", "útlögðu", "útlögðu"],
+					"hk": ["útlögðu", "útlögðu", "útlögðu", "útlögðu"]
+				}
+			}
+		}
+	},
+	"hash": "a778752169c875244a69799074e22564a62ab2d1ac247c3f3a19e77242e134ce"
+}

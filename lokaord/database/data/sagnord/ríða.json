@@ -1,0 +1,87 @@
+{
+	"orð": "ríða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ríða",
+		"sagnbót": "riðið",
+		"boðháttur": {
+			"stýfður": "ríð",
+			"et": "ríddu",
+			"ft": "ríðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ríð", "ríður", "ríður"],
+					"ft": ["ríðum", "ríðið", "ríða"]
+				},
+				"þátíð": {
+					"et": ["reið", "reiðst", "reið"],
+					"ft": ["riðum", "riðuð", "riðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ríði", "ríðir", "ríði"],
+					"ft": ["ríðum", "ríðið", "ríði"]
+				},
+				"þátíð": {
+					"et": ["riði", "riðir", "riði"],
+					"ft": ["riðum", "riðuð", "riðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ríðurðu",
+					"ft": "ríðiði"
+				},
+				"þátíð": {
+					"et": "reiðstu",
+					"ft": "riðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ríðirðu",
+					"ft": "ríðiði"
+				},
+				"þátíð": {
+					"et": "riðirðu",
+					"ft": "riðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ríðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["riðinn", "riðinn", "riðnum", "riðins"],
+					"kvk": ["riðin", "riðna", "riðinni", "riðinnar"],
+					"hk": ["riðið", "riðið", "riðnu", "riðins"]
+				},
+				"ft": {
+					"kk": ["riðnir", "riðna", "riðnum", "riðinna"],
+					"kvk": ["riðnar", "riðnar", "riðnum", "riðinna"],
+					"hk": ["riðin", "riðin", "riðnum", "riðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["riðni", "riðna", "riðna", "riðna"],
+					"kvk": ["riðna", "riðnu", "riðnu", "riðnu"],
+					"hk": ["riðna", "riðna", "riðna", "riðna"]
+				},
+				"ft": {
+					"kk": ["riðnu", "riðnu", "riðnu", "riðnu"],
+					"kvk": ["riðnu", "riðnu", "riðnu", "riðnu"],
+					"hk": ["riðnu", "riðnu", "riðnu", "riðnu"]
+				}
+			}
+		}
+	},
+	"hash": "1066d30a39874b9236f2d72ab0d198c37cb0b07a96119fa8106ccfb807bb2d82"
+}
