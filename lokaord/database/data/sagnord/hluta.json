@@ -1,0 +1,135 @@
+{
+	"orð": "hluta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hluta",
+		"sagnbót": "hlutað",
+		"boðháttur": {
+			"stýfður": "hluta",
+			"et": "hlutaðu",
+			"ft": "hlutið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hluta", "hlutar", "hlutar"],
+					"ft": ["hlutum", "hlutið", "hluta"]
+				},
+				"þátíð": {
+					"et": ["hlutaði", "hlutaðir", "hlutaði"],
+					"ft": ["hlutuðum", "hlutuðuð", "hlutuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hluti", "hlutir", "hluti"],
+					"ft": ["hlutum", "hlutið", "hluti"]
+				},
+				"þátíð": {
+					"et": ["hlutaði", "hlutaðir", "hlutaði"],
+					"ft": ["hlutuðum", "hlutuðuð", "hlutuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlutarðu",
+					"ft": "hlutiði"
+				},
+				"þátíð": {
+					"et": "hlutaðirðu",
+					"ft": "hlutuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlutirðu",
+					"ft": "hlutiði"
+				},
+				"þátíð": {
+					"et": "hlutaðirðu",
+					"ft": "hlutuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hlutast",
+		"sagnbót": "hlutast",
+		"boðháttur": {
+			"et": "hlutastu",
+			"ft": "hlutist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlutast", "hlutast", "hlutast"],
+					"ft": ["hlutumst", "hlutist", "hlutast"]
+				},
+				"þátíð": {
+					"et": ["hlutaðist", "hlutaðist", "hlutaðist"],
+					"ft": ["hlutuðumst", "hlutuðust", "hlutuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlutist", "hlutist", "hlutist"],
+					"ft": ["hlutumst", "hlutist", "hlutist"]
+				},
+				"þátíð": {
+					"et": ["hlutaðist", "hlutaðist", "hlutaðist"],
+					"ft": ["hlutuðumst", "hlutuðust", "hlutuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlutastu"
+				},
+				"þátíð": {
+					"et": "hlutaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlutistu"
+				},
+				"þátíð": {
+					"et": "hlutaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlutandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlutaður", "hlutaðan", "hlutuðum", "hlutaðs"],
+					"kvk": ["hlutuð", "hlutaða", "hlutaðri", "hlutaðrar"],
+					"hk": ["hlutað", "hlutað", "hlutuðu", "hlutaðs"]
+				},
+				"ft": {
+					"kk": ["hlutaðir", "hlutaða", "hlutuðum", "hlutaðra"],
+					"kvk": ["hlutaðar", "hlutaðar", "hlutuðum", "hlutaðra"],
+					"hk": ["hlutuð", "hlutuð", "hlutuðum", "hlutaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hlutaði", "hlutaða", "hlutaða", "hlutaða"],
+					"kvk": ["hlutaða", "hlutuðu", "hlutuðu", "hlutuðu"],
+					"hk": ["hlutaða", "hlutaða", "hlutaða", "hlutaða"]
+				},
+				"ft": {
+					"kk": ["hlutuðu", "hlutuðu", "hlutuðu", "hlutuðu"],
+					"kvk": ["hlutuðu", "hlutuðu", "hlutuðu", "hlutuðu"],
+					"hk": ["hlutuðu", "hlutuðu", "hlutuðu", "hlutuðu"]
+				}
+			}
+		}
+	},
+	"hash": "040961a69e8b220d74e13604f1d16a45365dac48b8c6c8afa4e5c6b881977b79"
+}

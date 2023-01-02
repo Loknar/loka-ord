@@ -1,0 +1,158 @@
+{
+	"orð": "leggja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "leggja",
+		"sagnbót": "lagt",
+		"boðháttur": {
+			"stýfður": "legg",
+			"et": "leggðu",
+			"ft": "leggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["legg", "leggur", "leggur"],
+					"ft": ["leggjum", "leggið", "leggja"]
+				},
+				"þátíð": {
+					"et": ["lagði", "lagðir", "lagði"],
+					"ft": ["lögðum", "lögðuð", "lögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leggi", "leggir", "leggi"],
+					"ft": ["leggjum", "leggið", "leggi"]
+				},
+				"þátíð": {
+					"et": ["leggði", "leggðir", "leggði"],
+					"ft": ["leggðum", "leggðuð", "leggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leggurðu",
+					"ft": "leggiði"
+				},
+				"þátíð": {
+					"et": "lagðirðu",
+					"ft": "lögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leggirðu",
+					"ft": "leggiði"
+				},
+				"þátíð": {
+					"et": "leggðirðu",
+					"ft": "leggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leggjast",
+		"sagnbót": "leggst",
+		"boðháttur": {
+			"et": "leggstu",
+			"ft": "leggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leggst", "leggst", "leggst"],
+					"ft": ["leggjumst", "leggist", "leggjast"]
+				},
+				"þátíð": {
+					"et": ["lagðist", "lagðist", "lagðist"],
+					"ft": ["lögðumst", "lögðust", "lögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leggist", "leggist", "leggist"],
+					"ft": ["leggjumst", "leggist", "leggist"]
+				},
+				"þátíð": {
+					"et": ["legðist", "legðist", "legðist"],
+					"ft": ["legðumst", "legðist", "legðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leggst", "leggst", "leggst"],
+					"ft": ["leggst", "leggst", "leggst"]
+				},
+				"þátíð": {
+					"et": ["lagðist", "lagðist", "lagðist"],
+					"ft": ["lagðist", "lagðist", "lagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leggist", "leggist", "leggist"],
+					"ft": ["leggist", "leggist", "leggist"]
+				},
+				"þátíð": {
+					"et": ["legðist", "legðist", "legðist"],
+					"ft": ["legðist", "legðist", "legðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leggstu"
+				},
+				"þátíð": {
+					"et": "lagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leggistu"
+				},
+				"þátíð": {
+					"et": "legðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lagður", "lagðan", "lögðum", "lagðs"],
+					"kvk": ["lögð", "lagða", "lagðri", "lagðrar"],
+					"hk": ["lagt", "lagt", "lögðu", "lagðs"]
+				},
+				"ft": {
+					"kk": ["lagðir", "lagða", "lögðum", "lagðra"],
+					"kvk": ["lagðar", "lagðar", "lögðum", "lagðra"],
+					"hk": ["lögð", "lögð", "lögðum", "lagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lagði", "lagða", "lagða", "lagða"],
+					"kvk": ["lagða", "lögðu", "lögðu", "lögðu"],
+					"hk": ["lagða", "lagða", "lagða", "lagða"]
+				},
+				"ft": {
+					"kk": ["lögðu", "lögðu", "lögðu", "lögðu"],
+					"kvk": ["lögðu", "lögðu", "lögðu", "lögðu"],
+					"hk": ["lögðu", "lögðu", "lögðu", "lögðu"]
+				}
+			}
+		}
+	},
+	"hash": "b1dda6e3dd3bb415a7ab69611d507be87ff7444f5902c551820453cd33bba207"
+}
