@@ -1,0 +1,43 @@
+{
+	"orð": "stjórnmálasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"orð": "stjórn",
+			"flokkur": "nafnorð",
+			"kyn": "kvk",
+			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"orð": "mál",
+			"flokkur": "nafnorð",
+			"kyn": "hk",
+			"hash": "2e1f01501d367bbe91c4e1cc7daa22ad3278798dc192fd1a87b41359008215dc"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "eignarfalls",
+			"orð": "samur",
+			"flokkur": "fornafn",
+			"undirflokkur": "óákveðið",
+			"hash": "fd41bc9b21db7226a1809612c214b38797f1c75c1398bbeaf9230b96a69ef67a"
+		},
+		{
+			"orð": "tak",
+			"flokkur": "nafnorð",
+			"kyn": "hk",
+			"beygingar": ["ft-ág", "ft-mg"],
+			"hash": "98f6c6dc21624f14b73fd686f83e060472b5d8f07414652ba5713d5af3581044"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnmálasamtök", "stjórnmálasamtök", "stjórnmálasamtökum", "stjórnmálasamtaka"],
+		"mg": ["stjórnmálasamtökin", "stjórnmálasamtökin", "stjórnmálasamtökunum", "stjórnmálasamtakanna"]
+	},
+	"hash": "2873bbb0eacde455b1d5a1342fceec503f858068a31019dc0290ed862bb03b90"
+}
