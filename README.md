@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 191 | 222 | 168 | 581 | 80 | 75 | 105 | 260 | **841** |
-| **Lýsingarorð** | 8 |   |   |   | 48 |   |   |   | 36 | **84** |
-| **Sagnorð**     |   |   |   |   | 99 |   |   |   | 25 | **124** |
+| **Nafnorð**     |   | 194 | 222 | 172 | 588 | 80 | 75 | 108 | 263 | **851** |
+| **Lýsingarorð** | 8 |   |   |   | 49 |   |   |   | 36 | **85** |
+| **Sagnorð**     |   |   |   |   | 101 |   |   |   | 27 | **128** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 39 |   |   |   | 2 | **41** |
 | **Smáorð**      |   |   |   |   |   |   |   |   |   | **165** |
-| **Alls** |   |   |   |   | **998** |   |   |   | **337** | **1335** |
+| **Alls** |   |   |   |   | **1008** |   |   |   | **342** | **1350** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   |  | 2 | 1 | 3 | 22 | 14 | 8 | 44 | **47** |
 | **Alls**  |   |   |   | **170** |   |   |   | **197** | **367** |
 
-**Samtals:** 1702 orð.
+**Samtals:** 1717 orð.
 
 ## Forkröfur (Requirements)
 
@@ -110,7 +110,7 @@ Til að athuga hvort orð sé til staðar í grunni er hægt að gera uppflettin
 python main.py --build-sight
 ```
 
-ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða í hvert sinn sem JSON skrárnar breytast, en hana er svo hægt að nota fyrir uppflettingu stöku orði:
+ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða í hvert sinn sem JSON skrárnar breytast, en hana er svo hægt að nota fyrir uppflettingu á stöku orði:
 
 ```bash
 python main.py --search "orð"
