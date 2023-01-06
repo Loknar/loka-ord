@@ -1,0 +1,169 @@
+{
+	"orð": "álíta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"orð": "á",
+			"flokkur": "smáorð",
+			"undirflokkur": "forsetning",
+			"hash": "50680b62e05b9c51f254b0364c8b7e39eebfaa7df9a6db7e36574eaef561117e"
+		},
+		{
+			"orð": "líta",
+			"flokkur": "sagnorð",
+			"hash": "97d0c8b24eee2c2db762df8f494713606ee714671d624384e9da8505cefb8c52"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "álíta",
+		"sagnbót": "álitið",
+		"boðháttur": {
+			"stýfður": "álít",
+			"et": "álíttu",
+			"ft": "álítið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["álít", "álítur", "álítur"],
+					"ft": ["álítum", "álítið", "álíta"]
+				},
+				"þátíð": {
+					"et": ["áleit", "áleist", "áleit"],
+					"ft": ["álitum", "álituð", "álitu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["álíti", "álítir", "álíti"],
+					"ft": ["álítum", "álítið", "álíti"]
+				},
+				"þátíð": {
+					"et": ["áliti", "álitir", "áliti"],
+					"ft": ["álitum", "álituð", "álitu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "álíturðu",
+					"ft": "álítiði"
+				},
+				"þátíð": {
+					"et": "áleistu",
+					"ft": "álituði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "álítirðu",
+					"ft": "álítiði"
+				},
+				"þátíð": {
+					"et": "álitirðu",
+					"ft": "álituði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "álítast",
+		"sagnbót": "álitist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["álíst", "álíst", "álíst"],
+					"ft": ["álítumst", "álítist", "álítast"]
+				},
+				"þátíð": {
+					"et": ["áleist", "áleist", "áleist"],
+					"ft": ["álitumst", "álitust", "álitust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["álítist", "álítist", "álítist"],
+					"ft": ["álítumst", "álítist", "álítist"]
+				},
+				"þátíð": {
+					"et": ["álitist", "álitist", "álitist"],
+					"ft": ["álitumst", "álitust", "álitust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["álíst", "álíst", "álíst"],
+					"ft": ["álíst", "álíst", "álíst"]
+				},
+				"þátíð": {
+					"et": ["áleist", "áleist", "áleist"],
+					"ft": ["áleist", "áleist", "áleist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["álítist", "álítist", "álítist"],
+					"ft": ["álítist", "álítist", "álítist"]
+				},
+				"þátíð": {
+					"et": ["álitist", "álitist", "álitist"],
+					"ft": ["álitist", "álitist", "álitist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "álístu"
+				},
+				"þátíð": {
+					"et": "álítist"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "álítistu"
+				},
+				"þátíð": {
+					"et": "álitistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "álítandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["álitinn", "álitinn", "álitnum", "álitins"],
+					"kvk": ["álitin", "álitna", "álitinni", "álitinnar"],
+					"hk": ["álitið", "álitið", "álitnu", "álitins"]
+				},
+				"ft": {
+					"kk": ["álitnir", "álitna", "álitnum", "álitinna"],
+					"kvk": ["álitnar", "álitnar", "álitnum", "álitinna"],
+					"hk": ["álitin", "álitin", "álitnum", "álitinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["álitni", "álitna", "álitna", "álitna"],
+					"kvk": ["álitna", "álitnu", "álitnu", "álitnu"],
+					"hk": ["álitna", "álitna", "álitna", "álitna"]
+				},
+				"ft": {
+					"kk": ["álitnu", "álitnu", "álitnu", "álitnu"],
+					"kvk": ["álitnu", "álitnu", "álitnu", "álitnu"],
+					"hk": ["álitnu", "álitnu", "álitnu", "álitnu"]
+				}
+			}
+		}
+	},
+	"hash": "a1315d16b287677ccf9f6b565ab2c89bb0385b5475353c674856f24df9744cfc"
+}
