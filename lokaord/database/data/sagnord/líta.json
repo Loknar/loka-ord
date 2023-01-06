@@ -1,0 +1,154 @@
+{
+	"orð": "líta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "líta",
+		"sagnbót": "litið",
+		"boðháttur": {
+			"stýfður": "lít",
+			"et": "líttu",
+			"ft": "lítið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lít", "lítur", "lítur"],
+					"ft": ["lítum", "lítið", "líta"]
+				},
+				"þátíð": {
+					"et": ["leit", "leist", "leit"],
+					"ft": ["litum", "lituð", "litu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["líti", "lítir", "líti"],
+					"ft": ["lítum", "lítið", "líti"]
+				},
+				"þátíð": {
+					"et": ["liti", "litir", "liti"],
+					"ft": ["litum", "lituð", "litu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "líturðu",
+					"ft": "lítiði"
+				},
+				"þátíð": {
+					"et": "leistu",
+					"ft": "lituði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lítirðu",
+					"ft": "lítiði"
+				},
+				"þátíð": {
+					"et": "litirðu",
+					"ft": "lituði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lítast",
+		"sagnbót": "litist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["líst", "líst", "líst"],
+					"ft": ["lítumst", "lítist", "lítast"]
+				},
+				"þátíð": {
+					"et": ["leist", "leist", "leist"],
+					"ft": ["litumst", "litust", "litust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lítist", "lítist", "lítist"],
+					"ft": ["lítumst", "lítist", "lítist"]
+				},
+				"þátíð": {
+					"et": ["litist", "litist", "litist"],
+					"ft": ["litumst", "litust", "litust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["líst", "líst", "líst"],
+					"ft": ["líst", "líst", "líst"]
+				},
+				"þátíð": {
+					"et": ["leist", "leist", "leist"],
+					"ft": ["leist", "leist", "leist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lítist", "lítist", "lítist"],
+					"ft": ["lítist", "lítist", "lítist"]
+				},
+				"þátíð": {
+					"et": ["litist", "litist", "litist"],
+					"ft": ["litist", "litist", "litist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lístu"
+				},
+				"þátíð": {
+					"et": "lítist"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lítistu"
+				},
+				"þátíð": {
+					"et": "litistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lítandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["litinn", "litinn", "litnum", "litins"],
+					"kvk": ["litin", "litna", "litinni", "litinnar"],
+					"hk": ["litið", "litið", "litnu", "litins"]
+				},
+				"ft": {
+					"kk": ["litnir", "litna", "litnum", "litinna"],
+					"kvk": ["litnar", "litnar", "litnum", "litinna"],
+					"hk": ["litin", "litin", "litnum", "litinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["litni", "litna", "litna", "litna"],
+					"kvk": ["litna", "litnu", "litnu", "litnu"],
+					"hk": ["litna", "litna", "litna", "litna"]
+				},
+				"ft": {
+					"kk": ["litnu", "litnu", "litnu", "litnu"],
+					"kvk": ["litnu", "litnu", "litnu", "litnu"],
+					"hk": ["litnu", "litnu", "litnu", "litnu"]
+				}
+			}
+		}
+	},
+	"hash": "97d0c8b24eee2c2db762df8f494713606ee714671d624384e9da8505cefb8c52"
+}
