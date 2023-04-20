@@ -2,26 +2,21 @@
 	"orð": "Þingey",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þing",
 			"samsetning": "stofn",
-			"orð": "þing",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "d0ed6b82e79807fe9a14f0d67c678769a2610e822a49655777dea76fa9b384ec"
+			"kennistrengur": "no-þing-hk"
 		},
 		{
-			"orð": "ey",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "96fdb0bfdfb181a2cef9d509a4f324fab1a09017c560a871fc210c995b7e02a1"
+			"kennistrengur": "no-ey-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þingey", "Þingey", "Þingey", "Þingeyjar"]
 	},
-	"hash": "cef58f1c7a3b8a93bb74cf96557541c84264948ad57bef767b223623c311a6bf"
+	"kennistrengur": "sérn.en-Þingey-kvk",
+	"hash": "ee2018e517cdeb75e8f05cbfa007ae5b53b8903d6be274cb31dd3f330458c475"
 }

@@ -2,27 +2,21 @@
 	"orð": "Þjóðbjörg",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þjóð",
 			"samsetning": "stofn",
-			"orð": "þjóð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "d8ba1b94fc79ed80ed4c5e3d54a73be89b1f7080c2ec6015512881330b659f25"
+			"kennistrengur": "no-þjóð-kvk"
 		},
 		{
-			"orð": "Björg",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "476ca20e9750ccf94f10d35d681113bdf0c87167369ce721fbc44cbc6ea72a46"
+			"kennistrengur": "sérn.en-Björg-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þjóðbjörg", "Þjóðbjörgu", "Þjóðbjörgu", "Þjóðbjargar"]
 	},
-	"hash": "69d795b1d60161513445164770ab4951c3230ffa4256b970383904e371384ee2"
+	"kennistrengur": "sérn.en-Þjóðbjörg-kvk",
+	"hash": "962f083869043688ba7c30d68eab493086b5bf8c0a88dee76056570a6c276034"
 }

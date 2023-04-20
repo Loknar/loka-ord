@@ -2,27 +2,21 @@
 	"orð": "Ragnheiður",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Ragn",
 			"samsetning": "stofn",
-			"orð": "ragn",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "1999a547616d616fbf2b1e39969c132d3b7c6197ad93723ffde4ad0df7e78700"
+			"kennistrengur": "no-ragn-hk"
 		},
 		{
-			"orð": "Heiður",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "22920c6c60c03cf9df134125d86ef6024a370cfe9ad1adb687ecb105f882d613"
+			"kennistrengur": "sérn.en-Heiður-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ragnheiður", "Ragnheiði", "Ragnheiði", "Ragnheiðar"]
 	},
-	"hash": "5b116f78c23c426bff45894c1955f9ad830f1d79f162a04bab532c5c1ef1b343"
+	"kennistrengur": "sérn.en-Ragnheiður-kvk",
+	"hash": "e903c84affee717363852d09099c987205c9ba1bd73a297d115aea9c8da0e889"
 }

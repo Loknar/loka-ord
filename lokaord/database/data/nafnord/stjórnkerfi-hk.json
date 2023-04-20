@@ -6,16 +6,10 @@
 		{
 			"mynd": "stjórn",
 			"samsetning": "stofn",
-			"orð": "stjórn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+			"kennistrengur": "no-stjórn-kvk"
 		},
 		{
-			"orð": "kerfi",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "f3a5dda42b1f1a1b29c074663aa3d549a5676ed4455a756afa514cffdf998c92"
+			"kennistrengur": "no-kerfi-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["stjórnkerfi", "stjórnkerfi", "stjórnkerfum", "stjórnkerfa"],
 		"mg": ["stjórnkerfin", "stjórnkerfin", "stjórnkerfunum", "stjórnkerfanna"]
 	},
-	"hash": "90e9ec71bdcfbba423ad91bddd18d79d82feae88dd83c626bf79d5da49026e9f"
+	"kennistrengur": "no-stjórnkerfi-hk",
+	"hash": "0a9bc368e196392dd1a5a09af07064a69a9b4ea526bce9e204b314d065cd0822"
 }

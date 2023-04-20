@@ -2,27 +2,21 @@
 	"orð": "Þorfinna",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þor",
 			"samsetning": "stofn",
-			"orð": "þor",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "72a310e89ff352fb346936d329d89c2f9492d3d427366bcc9f03ea8745ffc5b0"
+			"kennistrengur": "no-þor-hk"
 		},
 		{
-			"orð": "Finna",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "c829694bebb2abfb9c456bfa741f08fd38402579e8c08672a0bb68b20c932882"
+			"kennistrengur": "sérn.en-Finna-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þorfinna", "Þorfinnu", "Þorfinnu", "Þorfinnu"]
 	},
-	"hash": "d4aa0e9f2d17791465e876bd7df85575a88d4c05426a131a8e59830465de2ce5"
+	"kennistrengur": "sérn.en-Þorfinna-kvk",
+	"hash": "7aaf9aeb0f9acc2e74576a6d7f9c7850943a7232e8dcbf2b70691fcb48271fb0"
 }

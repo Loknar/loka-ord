@@ -34,10 +34,14 @@ if __name__ == '__main__':
         'Available options: "cli", "api", "cron", "hook", "mod" (Default: "cli").'
     ))
     lokaord.ArgParser.add_argument('-bdb', '--build-db', action='store_true', help=(
-        'Build SQLite database from datafiles.'
+        'Import words from datafiles to SQLite database.'
     ))
     lokaord.ArgParser.add_argument('-rbdb', '--rebuild-db', action='store_true', help=(
         'Delete current SQLite database if exists and rebuild from datafiles.'
+    ))
+    lokaord.ArgParser.add_argument('-bdb-ch', '--build-db-changed', action='store_true', help=(
+        'Import words to SQLite database from datafiles which have changed according to git or are'
+        ' not currently tracked by git.'
     ))
     lokaord.ArgParser.add_argument('-bakdb', '--backup-db', action='store_true', help=(
         'Create backup of current SQLite database file.'
@@ -45,6 +49,13 @@ if __name__ == '__main__':
     lokaord.ArgParser.add_argument('-wf', '--write-files', action='store_true', help=(
         'Write data from database to JSON textfiles.'
     ))
+    lokaord.ArgParser.add_argument(
+        '-wf-ts', '--write-files-timestamp', metavar=('TIMESTAMP', ), help=(
+            'Timestamp in the form of "%Y-%m-%dT%H:%M" (example: "2023-04-20T18:30"), only words'
+            ' which have changed on or after provided timestamp are written from database to'
+            ' datafiles, if not provided all words are written from database to datafiles.'
+        )
+    )
     lokaord.ArgParser.add_argument('-aw', '--add-word', action='store_true', help=(
         'Add word CLI.'
     ))
@@ -78,8 +89,10 @@ if __name__ == '__main__':
         'role': pargs.role,
         'build_db': pargs.build_db,
         'rebuild_db': pargs.rebuild_db,
+        'build_db_ch': pargs.build_db_changed,
         'backup_db': pargs.backup_db,
         'write_files': pargs.write_files,
+        'write_files_ts': pargs.write_files_timestamp,
         'add_word': None,
         'add_word_cli': pargs.add_word,
         'stats': pargs.stats,

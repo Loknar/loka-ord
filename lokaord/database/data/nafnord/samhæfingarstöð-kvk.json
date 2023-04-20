@@ -6,24 +6,15 @@
 		{
 			"mynd": "sam",
 			"samsetning": "eignarfalls",
-			"orð": "samur",
-			"flokkur": "fornafn",
-			"undirflokkur": "óákveðið",
-			"hash": "fd41bc9b21db7226a1809612c214b38797f1c75c1398bbeaf9230b96a69ef67a"
+			"kennistrengur": "fn.óákv-samur"
 		},
 		{
 			"mynd": "hæfingar",
 			"samsetning": "eignarfalls",
-			"orð": "hæfing",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f5c6d954fe03bd47e801e01d898adec5067e0d9ccca61e624cd8409c7c616ad1"
+			"kennistrengur": "no-hæfing-kvk"
 		},
 		{
-			"orð": "stöð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "dfd93f2594275fa99936477eb5b8d118c6b5e221a58c18e873548eb537fc7a38"
+			"kennistrengur": "no-stöð-kvk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["samhæfingarstöðvar", "samhæfingarstöðvar", "samhæfingarstöðvum", "samhæfingarstöðva"],
 		"mg": ["samhæfingarstöðvarnar", "samhæfingarstöðvarnar", "samhæfingarstöðvunum", "samhæfingarstöðvanna"]
 	},
-	"hash": "f645269041b346c058561c6c34850feaa6dd3b1d2a07e88bd5e8c73c503c8161"
+	"kennistrengur": "no-samhæfingarstöð-kvk",
+	"hash": "9cf9695687d5fe64c6c0bba196a49e19eb79c7fa71af97b2916769247129a8e7"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "embættis",
 			"samsetning": "eignarfalls",
-			"orð": "embætti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "92b1ebac5ee8fd9c4260c6879850277348bbbd6d18eca1b21911fdf6fa205d61"
+			"kennistrengur": "no-embætti-hk"
 		},
 		{
-			"orð": "maður",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "90dcf2dc477c94b4faaa15443f95cd760d6c3b879cb31c8139d764015ce8d002"
+			"kennistrengur": "no-maður-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["embættismenn", "embættismenn", "embættismönnum", "embættismanna"],
 		"mg": ["embættismennirnir", "embættismennina", "embættismönnunum", "embættismannanna"]
 	},
-	"hash": "6069130930efacf2529a44304573eab9f1fd340a31bb15312dd0d2e11bedd56b"
+	"kennistrengur": "no-embættismaður-kk",
+	"hash": "62b64f4f3bbde8f83fa1cba93154b963809ecc78ae3c9c54bb32f661ca0c6acd"
 }

@@ -2,26 +2,21 @@
 	"orð": "Borgarnes",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "hk",
 	"samsett": [
 		{
 			"mynd": "Borgar",
 			"samsetning": "eignarfalls",
-			"orð": "borg",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f19f3ce8af0f39c8188d8efd811c4c8781210c17618cc98ddefb52d0b400f10a"
+			"kennistrengur": "no-borg-kvk"
 		},
 		{
-			"orð": "nes",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["et-ág"],
-			"hash": "53e932759a893822343d75a10538df189dcd58b764d9051b759dd5d0ef01677b"
+			"kennistrengur": "no-nes-hk"
 		}
 	],
+	"kyn": "hk",
 	"et": {
 		"ág": ["Borgarnes", "Borgarnes", "Borgarnesi", "Borgarness"]
 	},
-	"hash": "701ddbf4211365bf29fb729a3d886e2031b6f0b47b698c15fe48155417a2d0cd"
+	"kennistrengur": "sérn.ön-Borgarnes-hk",
+	"hash": "5f717d469e67436b2e864a072589d93184a15c63998b3637ff5259b032cecb2e"
 }

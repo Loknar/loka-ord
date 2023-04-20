@@ -5,15 +5,10 @@
 		{
 			"mynd": "út",
 			"samsetning": "stofn",
-			"orð": "út",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "bcc080fc5650301997f155af20fb6b00dc8e66f2777dcc3181d12c79d4761fbd"
+			"kennistrengur": "smáo.fs-út"
 		},
 		{
-			"orð": "leggja",
-			"flokkur": "sagnorð",
-			"hash": "b1dda6e3dd3bb415a7ab69611d507be87ff7444f5902c551820453cd33bba207"
+			"kennistrengur": "so-leggja"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "útleggjast",
 		"sagnbót": "útleggst",
-		"boðháttur": {
-			"et": "útleggstu",
-			"ft": "útleggist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -169,5 +160,6 @@
 			}
 		}
 	},
-	"hash": "a778752169c875244a69799074e22564a62ab2d1ac247c3f3a19e77242e134ce"
+	"kennistrengur": "so-útleggja",
+	"hash": "6df476d3cffe8a4a1a70014d8311f691f98b543362324e14cb6f940ea1850c30"
 }

@@ -6,24 +6,15 @@
 		{
 			"mynd": "þing",
 			"samsetning": "stofn",
-			"orð": "þing",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "d0ed6b82e79807fe9a14f0d67c678769a2610e822a49655777dea76fa9b384ec"
+			"kennistrengur": "no-þing-hk"
 		},
 		{
 			"mynd": "manna",
 			"samsetning": "eignarfalls",
-			"orð": "maður",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "90dcf2dc477c94b4faaa15443f95cd760d6c3b879cb31c8139d764015ce8d002"
+			"kennistrengur": "no-maður-kk"
 		},
 		{
-			"orð": "tala",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "77ab70a93f4b389a74d0ea044aa61723719d3fbb9e2fc4c0dd5e5048adea726f"
+			"kennistrengur": "no-tala-kvk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["þingmannatölur", "þingmannatölur", "þingmannatölum", "þingmannatalna"],
 		"mg": ["þingmannatölurnar", "þingmannatölurnar", "þingmannatölunum", "þingmannatalnanna"]
 	},
-	"hash": "cacfc1d3332a42fbf110c8a636ca43ee5dd741e29d02f516a4298a9543fd6e5b"
+	"kennistrengur": "no-þingmannatala-kvk",
+	"hash": "b5a55f44ef3956b1b86ec6d679375143f517b6dd130666c67ac01a73e0e3fa19"
 }

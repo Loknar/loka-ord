@@ -5,15 +5,10 @@
 		{
 			"mynd": "endur",
 			"samsetning": "stofn",
-			"orð": "endur",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"hash": "8375e8b90db7ea90d6c6c2b6388c3212556aebcd6b73cb7d8457f8db304aa716"
+			"kennistrengur": "smáo.ao-endur"
 		},
 		{
-			"orð": "taka",
-			"flokkur": "sagnorð",
-			"hash": "450a7e5b2161a6dcb24a995c409b095c4bd6b0bfb13b444ad548da0662ba0988"
+			"kennistrengur": "so-taka"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "endurtakast",
 		"sagnbót": "endurtekist",
-		"boðháttur": {
-			"et": "endurtakstu",
-			"ft": "endurtakist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -169,5 +160,6 @@
 			}
 		}
 	},
-	"hash": "189d3ea2c59f49b41dbbf6d5280739e4f05a38f07b6badd0aece1e566fedb0ff"
+	"kennistrengur": "so-endurtaka",
+	"hash": "7760c2de9f305f2743207fe1bfb13cb7bf1a99897c196d77c6e73d95f5b7665a"
 }

@@ -6,17 +6,10 @@
 		{
 			"mynd": "kjör",
 			"samsetning": "stofn",
-			"orð": "kjör",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"merking": "kosning",
-			"hash": "851a58c80b59600df3c79bf82b663dcc868620250960ca31178ab284deb3c83c"
+			"kennistrengur": "no-kjör-hk-_kosning_"
 		},
 		{
-			"orð": "dagur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "8496eaceea4c87c4296090f5fd0ef399d388b2f19e6fd14ad61ff6a45ad44733"
+			"kennistrengur": "no-dagur-kk"
 		}
 	],
 	"et": {
@@ -27,5 +20,6 @@
 		"ág": ["kjördagar", "kjördaga", "kjördögum", "kjördaga"],
 		"mg": ["kjördagarnir", "kjördagana", "kjördögunum", "kjördaganna"]
 	},
-	"hash": "e5c7fc8a83045b6b4647d54c25ac5c32bb3004ca6098db8aa6f1550c1d9826e7"
+	"kennistrengur": "no-kjördagur-kk",
+	"hash": "c758e6ee668a64e62515cfdb7ef3e0608b3228a139eb1f37743fe4fdf4c12037"
 }

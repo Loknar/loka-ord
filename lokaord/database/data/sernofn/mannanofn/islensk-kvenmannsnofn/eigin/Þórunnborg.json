@@ -2,27 +2,21 @@
 	"orð": "Þórunnborg",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þórunn",
 			"samsetning": "stofn",
-			"orð": "Þórunn",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"hash": "f7df395e693705bdad94d46a14a206c850ec567e9d6866bf060407e146f03f57"
+			"kennistrengur": "sérn.en-Þórunn-kvk"
 		},
 		{
-			"orð": "borg",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "f19f3ce8af0f39c8188d8efd811c4c8781210c17618cc98ddefb52d0b400f10a"
+			"kennistrengur": "no-borg-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þórunnborg", "Þórunnborg", "Þórunnborg", "Þórunnborgar"]
 	},
-	"hash": "f2cf1f2185f512b21672806570d2af32b0b7fbef6d518e620d7c12ef8138e816"
+	"kennistrengur": "sérn.en-Þórunnborg-kvk",
+	"hash": "b8371e807f892e436993102961f482a7755c7da62ae0f2f4654385d7de045a92"
 }

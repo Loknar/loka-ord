@@ -6,22 +6,17 @@
 		{
 			"mynd": "fyrir",
 			"samsetning": "stofn",
-			"orð": "fyrir",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "9f910a041686d03ecace3145466a93e365817fb43ad5d4d605d025bf0e729c7c"
+			"kennistrengur": "smáo.fs-fyrir"
 		},
 		{
-			"orð": "mæli",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["ft-ág", "ft-mg"],
-			"hash": "4586b327eee8edcc5e4c74e2d6e2ae760ce98db3585c6d4c241e0a6f0a2b7198"
+			"kennistrengur": "no-mæli-hk"
 		}
 	],
 	"ft": {
 		"ág": ["fyrirmæli", "fyrirmæli", "fyrirmælum", "fyrirmæla"],
 		"mg": ["fyrirmælin", "fyrirmælin", "fyrirmælunum", "fyrirmælanna"]
 	},
-	"hash": "e343fcee97cc1a0a690b15d8872d1502801f3084278c3d411db85a0c1a30442f"
+	"kennistrengur": "no-fyrirmæli-hk",
+	"hash": "a5e48ed606b2276601f91cbba86ee4a491de80d83efa740eafc1533ad7175a9f"
 }

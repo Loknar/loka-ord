@@ -6,16 +6,10 @@
 		{
 			"mynd": "lög",
 			"samsetning": "stofn",
-			"orð": "lög",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b085113d03044626996891a0af7cf4cff57cb5f238fd965d3da923b34891cdd8"
+			"kennistrengur": "no-lög-hk"
 		},
 		{
-			"orð": "gjöf",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "c8c0b97fe5b05f7619308129db617967068fd007e5048b6db66b3488bacd9d15"
+			"kennistrengur": "no-gjöf-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["löggjafir", "löggjafir", "löggjöfum", "löggjafa"],
 		"mg": ["löggjafirnar", "löggjafirnar", "löggjöfunum", "löggjafanna"]
 	},
-	"hash": "f5dd1352b12f7309bbaaa631eaeab8132cbc52e28ca21e00d1fe2890e49c3583"
+	"kennistrengur": "no-löggjöf-kvk",
+	"hash": "5413052afbb5b7634b09f98df42cb17886285085cc9595a86f63d55159122ddd"
 }

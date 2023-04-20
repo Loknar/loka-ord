@@ -6,16 +6,10 @@
 		{
 			"mynd": "gas",
 			"samsetning": "stofn",
-			"orð": "gas",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "44a30552b2aa1306901d3159fb728818be66e286433323e013410650909bc219"
+			"kennistrengur": "no-gas-hk"
 		},
 		{
-			"orð": "pláneta",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "ead771db4dbd0bfce0e9eeaf4dede4f89913b5fb2c435ab2cbc836214d417cf5"
+			"kennistrengur": "no-pláneta-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["gasplánetur", "gasplánetur", "gasplánetum", "gaspláneta"],
 		"mg": ["gaspláneturnar", "gaspláneturnar", "gasplánetunum", "gasplánetanna"]
 	},
-	"hash": "75b6abbcc5752d894b5055f3ab79f2752e3fe8198588d5bbd99ded9be0d8ba80"
+	"kennistrengur": "no-gaspláneta-kvk",
+	"hash": "ab67063ffacc58e4529ce2d1ba7e6326657063d39724670a918f42da90a6f936"
 }

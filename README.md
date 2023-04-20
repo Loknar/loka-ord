@@ -7,12 +7,12 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Nafnorð**     |   | 194 | 222 | 172 | 588 | 80 | 75 | 108 | 263 | **851** |
-| **Lýsingarorð** | 8 |   |   |   | 49 |   |   |   | 36 | **85** |
-| **Sagnorð**     |   |   |   |   | 101 |   |   |   | 27 | **128** |
+| **Lýsingarorð** | 8 |   |   |   | 50 |   |   |   | 37 | **87** |
+| **Sagnorð**     |   |   |   |   | 102 |   |   |   | 27 | **129** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 39 |   |   |   | 2 | **41** |
-| **Smáorð**      |   |   |   |   |   |   |   |   |   | **165** |
-| **Alls** |   |   |   |   | **1008** |   |   |   | **342** | **1350** |
+| **Smáorð**      |   |   |   |   |   |   |   |   |   | **173** |
+| **Alls** |   |   |   |   | **1009** |   |   |   | **352** | **1361** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,11 +23,11 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   |  | 2 | 1 | 3 | 22 | 14 | 8 | 44 | **47** |
 | **Alls**  |   |   |   | **170** |   |   |   | **197** | **367** |
 
-**Samtals:** 1717 orð.
+**Samtals:** 1728 orð.
 
 ## Forkröfur (Requirements)
 
-`Python3.10.6` eða nýrra (þó eldri útgáfur gætu mögulega virkað), `pip` og pakkar listaðir í `requirements.txt`, sækir og setur upp pakka með
+`Python3.10` eða nýrra, `pip` og pakkar listaðir í `requirements.txt`, sækir og setur upp pakka með
 
 ```bash
 pip install -Ur requirements.txt
@@ -66,7 +66,6 @@ python main.py --build-db --write-files
 ```
 
 eða
-
 
 ```bash
 python main.py --rebuild-db --write-files
@@ -131,6 +130,22 @@ alias lokaord="$HOME/repos/loka-ord/bin/lokaord"
 ```
 
 og vista í `.bashrc` eða sambærilegri skrá, þá er hægt að spara sér að þurfa að skrifa endalaust `python main.py` og skrifa í staðinn einfaldlega `lokaord`. Fyrir Windows þyrfti að skrifa `.bat` skrá sambærilega bash `bin/lokaord` skriptunni og síðan bæta henni í path eða útbúa sambærilegt alias á Windows.
+
+### Smíða allt uppá nýtt
+
+Eftirfarandi skipun endursmíðar gagnagrunn, skrifar út í skrár, byggir sjón og prentar út tölulegar upplýsingar í formi markdown töflu eins og þeirrar sem sýnd er ofar í þessari textaskrá.
+
+```bash
+lokaord -rbdb -wf -bs -mdst
+```
+
+Hér er svo skipun til að færa einungis gögn úr breyttum skrám í grunn og skrifa svo aftur í skrár breytt orð (notar git, og svo `Edited` tímaskráningu á orðum sem er uppfærð þegar orð í grunni breytast)
+
+```bash
+lokaord -bdb-ch -wf-ts "2023-04-20T22:30" -bs -mdst
+```
+
+þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð.
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 

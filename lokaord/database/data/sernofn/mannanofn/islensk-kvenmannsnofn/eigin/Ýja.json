@@ -2,19 +2,17 @@
 	"orð": "Ýja",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "ýja",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "ff728816aa0793164fa814792a5062913cf3d12c9a9da422fb3d62ba50e5b195"
+			"kennistrengur": "no-ýja-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ýja", "Ýju", "Ýju", "Ýju"]
 	},
-	"hash": "842d783fea8ccf4e384fb83efddf56c2daa4f1ffca2eac7ca0b816e3f2165f81"
+	"kennistrengur": "sérn.en-Ýja-kvk",
+	"hash": "9df15b02d62ef1b9e97dc2bf36a56db53a2e1ce8f6a76fe650b02b382af015a9"
 }

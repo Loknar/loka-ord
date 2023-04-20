@@ -6,33 +6,20 @@
 		{
 			"mynd": "ráð",
 			"samsetning": "stofn",
-			"orð": "ráð",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3a793b493cdae6c2c424e49b8c50674fabca4e17f892293e31e781999c70b2c7"
+			"kennistrengur": "no-ráð-hk"
 		},
 		{
 			"mynd": "herra",
 			"samsetning": "stofn",
-			"orð": "herra",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "19f3824e5f6578ae3f81074061d8e59748d67c95ee1223fd432a2a673f2df8f9"
+			"kennistrengur": "no-herra-kk"
 		},
 		{
 			"mynd": "á",
 			"samsetning": "stofn",
-			"orð": "á",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "50680b62e05b9c51f254b0364c8b7e39eebfaa7df9a6db7e36574eaef561117e"
+			"kennistrengur": "smáo.fs-á"
 		},
 		{
-			"orð": "byrgð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "66d551fc032bd3c3ac365ef4ac9f20ced2be032a2dc46f516290d415c7281174"
+			"kennistrengur": "no-byrgð-kvk-ó"
 		}
 	],
 	"et": {
@@ -43,5 +30,6 @@
 		"ág": ["ráðherraábyrgðir", "ráðherraábyrgðir", "ráðherraábyrgðum", "ráðherraábyrgða"],
 		"mg": ["ráðherraábyrgðirnar", "ráðherraábyrgðirnar", "ráðherraábyrgðunum", "ráðherraábyrgðanna"]
 	},
-	"hash": "9b2b3829c6cb515b6dab533fcef1d9a6baa32746f724fc2ca79cec4a7d12a5e2"
+	"kennistrengur": "no-ráðherraábyrgð-kvk",
+	"hash": "78667e5d3cba45961a225229477134f93b88467a82b8b9740e1f693abe0836bd"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "boðs",
 			"samsetning": "eignarfalls",
-			"orð": "boð",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "c0d395fe5841e0abf394278a791572c861e33b1908f4c8f7287e91e708866142"
+			"kennistrengur": "no-boð-hk"
 		},
 		{
-			"orð": "kort",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "1189865170db7a99b7cbc7ebfade471ca76d9df55af4dda61d48aba5d6049f5c"
+			"kennistrengur": "no-kort-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["boðskort", "boðskort", "boðskortum", "boðskorta"],
 		"mg": ["boðskortin", "boðskortin", "boðskortunum", "boðskortanna"]
 	},
-	"hash": "3cf90d8134444b4e03f4ba56c317fd49e5763628f664441390716d89250fd64d"
+	"kennistrengur": "no-boðskort-hk",
+	"hash": "5c46899d78db044a8ea5c29ab88c25f48fa8bb6982c07d4b42ef89fc7355c637"
 }

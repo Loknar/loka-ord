@@ -5,15 +5,10 @@
 		{
 			"mynd": "tals",
 			"samsetning": "stofn",
-			"orð": "tal",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "0b9782697e7d42435e5a5dcb18970934c80c387e6d7444b337a707668c956a66"
+			"kennistrengur": "no-tal-hk"
 		},
 		{
-			"orð": "verður",
-			"flokkur": "lýsingarorð",
-			"hash": "175b1f8fe0f1604b2f29e665331a45444599ba909649e23217d4cec7f20ec06f"
+			"kennistrengur": "lo-verður"
 		}
 	],
 	"frumstig": {
@@ -82,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "fe1d0b75bcb90a5e69cc07fe2d69f1ed7fcac1716d5988ddf66d7f320f24d8ea"
+	"kennistrengur": "lo-talsverður",
+	"hash": "98e01055ae1d20f097a86edaf1d174297a572c4e962f38ab5e1883a5dc877076"
 }

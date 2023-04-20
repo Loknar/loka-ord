@@ -6,17 +6,10 @@
 		{
 			"mynd": "eftir",
 			"samsetning": "stofn",
-			"orð": "eftir",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "1efed85781de54b8146681802a59ee440e382f821da030774d1a24d01e6b2e4a"
+			"kennistrengur": "smáo.fs-eftir"
 		},
 		{
-			"orð": "lit",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"ósjálfstætt": true,
-			"hash": "c86e2400266e2a65d922181bb379359e0e36deab7754cf8fcfb88f3917f5eac3"
+			"kennistrengur": "no-lit-hk-ó"
 		}
 	],
 	"et": {
@@ -27,5 +20,6 @@
 		"ág": ["eftirlit", "eftirlit", "eftirlitum", "eftirlita"],
 		"mg": ["eftirlitin", "eftirlitin", "eftirlitunum", "eftirlitanna"]
 	},
-	"hash": "2af6e29dd8ccf8dc79f5e5295b764ddd2222c942b005895050abafeaabcae93c"
+	"kennistrengur": "no-eftirlit-hk",
+	"hash": "a56fe14ff7de6ea0bd15654544adbcc537e3518cbd88daa436e989cda0837787"
 }

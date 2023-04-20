@@ -2,27 +2,21 @@
 	"orð": "Ævör",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Æ",
 			"samsetning": "stofn",
-			"orð": "æ",
-			"flokkur": "smáorð",
-			"undirflokkur": "upphrópun",
-			"hash": "c1b6d9e7c5a4b8a223ebe7c2146995f00104af6c8d895e1e5785e694ae4395de"
+			"kennistrengur": "smáo.uh-æ"
 		},
 		{
-			"orð": "Vör",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"lágstafa": true,
-			"hash": "a31953f3979a72f8fe7c2e0e42485ba0e2418446965f6b570f5bee8f6d47b08b"
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-vör-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ævör", "Ævör", "Ævör", "Ævarar"]
 	},
-	"hash": "f03f602f678fd0c5ff7c680603edad8c2228f0ae0596b231f22f41457d375d4d"
+	"kennistrengur": "sérn.en-Ævör-kvk",
+	"hash": "d3f034faefa62f7258e2d8084302a20a73baee98a0c700f1d04405f8e65f9e82"
 }

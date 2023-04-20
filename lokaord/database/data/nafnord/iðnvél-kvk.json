@@ -6,16 +6,10 @@
 		{
 			"mynd": "iðn",
 			"samsetning": "stofn",
-			"orð": "iðn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "94716786246d498c2d06526a7a4579eaa42b41c7dbbbf7bb61ce29d1161396f0"
+			"kennistrengur": "no-iðn-kvk"
 		},
 		{
-			"orð": "vél",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "de44a5577423aae067a848c1df2d67a577de95e7e610046e9f781a44b5a6367c"
+			"kennistrengur": "no-vél-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["iðnvélar", "iðnvélar", "iðnvélum", "iðnvéla"],
 		"mg": ["iðnvélarnar", "iðnvélarnar", "iðnvélunum", "iðnvélanna"]
 	},
-	"hash": "4769b7362ae6992e31f5fbf68c26a4ea2de001652d64cf1208035afd4e317e1a"
+	"kennistrengur": "no-iðnvél-kvk",
+	"hash": "1d7034eb897fb4289613503d9515f97f04c0f251b53f48ea9cf1d290e19d7eff"
 }

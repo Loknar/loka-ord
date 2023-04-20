@@ -2,25 +2,21 @@
 	"orð": "Háskóli",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Há",
 			"samsetning": "stofn",
-			"orð": "hár",
-			"flokkur": "lýsingarorð",
-			"hash": "89e250fa6c3c6529f192ea1092d5f52257fa781797b5335aba9b6f60a30e6d64"
+			"kennistrengur": "lo-hár"
 		},
 		{
-			"orð": "skóli",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "2ea0c0854aa0584389cad8ec8d7a679d064dc6ea10844e754b0bd1f39b1ee0a3"
+			"kennistrengur": "no-skóli-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Háskóli", "Háskóla", "Háskóla", "Háskóla"]
 	},
-	"hash": "696a18a436579e7f2713445cd98c24eb10c59a2f4bb04fe49009ce7718661df0"
+	"kennistrengur": "sérn.ön-Háskóli-kk",
+	"hash": "784229e672e9c768b7656bbd2fec43acd5bff4bdf5def28803eead5adf7e1a08"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "gleði",
 			"samsetning": "stofn",
-			"orð": "gleði",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "86c5e4f7b33cb1476e86ca021df086a3ae992a614cb07208a17e2eefd7d70733"
+			"kennistrengur": "no-gleði-kvk"
 		},
 		{
-			"orð": "fundur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "e27d93f83c63398690953c1a1afc11f77fe73c68cfb3d1febd612cde54e85b0d"
+			"kennistrengur": "no-fundur-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["gleðifundir", "gleðifundi", "gleðifundum", "gleðifunda"],
 		"mg": ["gleðifundirnir", "gleðifundina", "gleðifundunum", "gleðifundanna"]
 	},
-	"hash": "30210fc3a3b062a671b7948933096cce6d6d1635dc7100abf69a4fd9370ae2e0"
+	"kennistrengur": "no-gleðifundur-kk",
+	"hash": "5d10d577ba8c808a63c009c3ce095390f7a934ff4c880bd952a312f961425328"
 }

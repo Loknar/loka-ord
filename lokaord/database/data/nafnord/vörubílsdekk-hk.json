@@ -6,24 +6,15 @@
 		{
 			"mynd": "vöru",
 			"samsetning": "eignarfalls",
-			"orð": "vara",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "88bea5be175062cad51c283aa6eeae4cd6e02e999fe58016261cac4b84606a01"
+			"kennistrengur": "no-vara-kvk"
 		},
 		{
 			"mynd": "bíls",
 			"samsetning": "eignarfalls",
-			"orð": "bíłl",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "be9b34f0ed33e40d71a439f2d5e728f36eec1e9a513d8792b9b11ba4ac3b8c34"
+			"kennistrengur": "no-bíłl-kk"
 		},
 		{
-			"orð": "dekk",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "d7531d24a085ac814ea2c9aecdd13f61f7bc7275369daddceb2e2366841d8c35"
+			"kennistrengur": "no-dekk-hk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["vörubílsdekk", "vörubílsdekk", "vörubílsdekkjum", "vörubílsdekkja"],
 		"mg": ["vörubílsdekkin", "vörubílsdekkin", "vörubílsdekkjunum", "vörubílsdekkjanna"]
 	},
-	"hash": "9b3a309ce7ec5663f226a114d2a16f4118635c1cdcd3dd05de205a79e12e8cff"
+	"kennistrengur": "no-vörubílsdekk-hk",
+	"hash": "3b41ee24ab3de9e2340c282beb41a8295765552c90c9df9d7ebf88b2bd2987bf"
 }

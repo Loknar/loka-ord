@@ -2,27 +2,21 @@
 	"orð": "Þjóðhildur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þjóð",
 			"samsetning": "stofn",
-			"orð": "þjóð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "d8ba1b94fc79ed80ed4c5e3d54a73be89b1f7080c2ec6015512881330b659f25"
+			"kennistrengur": "no-þjóð-kvk"
 		},
 		{
-			"orð": "Hildur",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "55c790b1d97bb900eaf4724964391180617bc192ef0f086bfbd41d01aaa7f53c"
+			"kennistrengur": "sérn.en-Hildur-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þjóðhildur", "Þjóðhildi", "Þjóðhildi", "Þjóðhildar"]
 	},
-	"hash": "c1d8e3dc0166ab1cdbdeb3b09044302476fe02aaa03e7d5015780f989186b9ab"
+	"kennistrengur": "sérn.en-Þjóðhildur-kvk",
+	"hash": "02b8dd1c2b75caabb7b6fa079f3d70dba4ad42eae8d6fb798a0215c0aa58bc02"
 }

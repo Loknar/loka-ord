@@ -6,22 +6,17 @@
 		{
 			"mynd": "embættis",
 			"samsetning": "eignarfalls",
-			"orð": "embætti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "92b1ebac5ee8fd9c4260c6879850277348bbbd6d18eca1b21911fdf6fa205d61"
+			"kennistrengur": "no-embætti-hk"
 		},
 		{
-			"orð": "tekja",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["ft-ág", "ft-mg"],
-			"hash": "38ed12dc33793c71ea9d64346e01ebcc9e438aed0c228d8999941e3cb4ab21db"
+			"kennistrengur": "no-tekja-kvk"
 		}
 	],
 	"ft": {
 		"ág": ["embættistekjur", "embættistekjur", "embættistekjum", "embættistekna"],
 		"mg": ["embættistekjurnar", "embættistekjurnar", "embættistekjunum", "embættisteknanna"]
 	},
-	"hash": "459024d6a7667221b11222f86928b020602195a0594976f5c1d363aad6bae1e8"
+	"kennistrengur": "no-embættistekjur-kvk",
+	"hash": "f51287e22b9ca04d27351f26b1a1f54173504e58b61eb6e1d2ce2eeeca4fc270"
 }

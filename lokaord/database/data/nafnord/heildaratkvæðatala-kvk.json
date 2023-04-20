@@ -6,32 +6,20 @@
 		{
 			"mynd": "heildar",
 			"samsetning": "eignarfalls",
-			"orð": "heild",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "2dbb9e0a63b03dd3849687693c56e349a825721d8177dc0e779b99f3ebbc17ae"
+			"kennistrengur": "no-heild-kvk"
 		},
 		{
 			"mynd": "at",
 			"samsetning": "stofn",
-			"orð": "at",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87b24d1d7d210e3945081ef4a829039eb5e0c9f02020e89c532d8e434a761d40"
+			"kennistrengur": "no-at-hk"
 		},
 		{
 			"mynd": "kvæða",
 			"samsetning": "eignarfalls",
-			"orð": "kvæði",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "288361a760a3420a4172498cceff36716c314b0e815fd725bd2138ffec955e1d"
+			"kennistrengur": "no-kvæði-hk"
 		},
 		{
-			"orð": "tala",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "77ab70a93f4b389a74d0ea044aa61723719d3fbb9e2fc4c0dd5e5048adea726f"
+			"kennistrengur": "no-tala-kvk"
 		}
 	],
 	"et": {
@@ -42,5 +30,6 @@
 		"ág": ["heildaratkvæðatölur", "heildaratkvæðatölur", "heildaratkvæðatölum", "heildaratkvæðatalna"],
 		"mg": ["heildaratkvæðatölurnar", "heildaratkvæðatölurnar", "heildaratkvæðatölunum", "heildaratkvæðatalnanna"]
 	},
-	"hash": "71f0cec9e17f20b9a1f07bf821ee5110c22356136880da5bfc1d8d924169c020"
+	"kennistrengur": "no-heildaratkvæðatala-kvk",
+	"hash": "00893832777dff9a429af185698bcc8b09b17101d5cdf30f938d0e941582264b"
 }

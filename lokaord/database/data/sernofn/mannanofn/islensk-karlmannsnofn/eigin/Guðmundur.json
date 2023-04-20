@@ -2,26 +2,21 @@
 	"orð": "Guðmundur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Guð",
 			"samsetning": "stofn",
-			"orð": "guð",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b23a669294c05eefff700d08f5fd378cfe3b2982a36babfa7994495af7d40cc3"
+			"kennistrengur": "no-guð-hk"
 		},
 		{
-			"orð": "mundur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "8eb78d61bbdff2c51785dfc31333b511a5daa2f3c26eb506788136808fd89c98"
+			"kennistrengur": "no-mundur-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Guðmundur", "Guðmund", "Guðmundi", "Guðmundar"]
 	},
-	"hash": "2ffeb9c0c0f3615ebe083ed33cf09a0fe1a001d34df0bc88a8c56e0e06c16a35"
+	"kennistrengur": "sérn.en-Guðmundur-kk",
+	"hash": "20a0486ab4758c450fbacfd4755a6172fda268be4f739aceb3167d536bd43b15"
 }

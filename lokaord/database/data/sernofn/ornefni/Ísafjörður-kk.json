@@ -2,26 +2,21 @@
 	"orð": "Ísafjörður",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Ísa",
 			"samsetning": "eignarfalls",
-			"orð": "ís",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "2a47e759322f93a54e5701ba1fcc905966d6f15e5bd1f55044ac4c91d6f56726"
+			"kennistrengur": "no-ís-kk"
 		},
 		{
-			"orð": "fjörður",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "1132aa5ecf260858d0e3dc5806c6e58aeef2e7c414c4e5a98f877dcb70be7c6f"
+			"kennistrengur": "no-fjörður-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Ísafjörður", "Ísafjörð", "Ísafirði", "Ísafjarðar"]
 	},
-	"hash": "25dbf8243001b3b3b3b9adcdce9497e1ce8b289f16b6e73bb27a52325b26f48f"
+	"kennistrengur": "sérn.ön-Ísafjörður-kk",
+	"hash": "a755d4261a49f8f42bca65d68f4317a692d24e2e7429f8473088412f5b28cccd"
 }

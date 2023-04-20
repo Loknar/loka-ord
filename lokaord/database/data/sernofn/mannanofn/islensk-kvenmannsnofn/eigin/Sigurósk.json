@@ -2,27 +2,22 @@
 	"orð": "Sigurósk",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Sigur",
 			"samsetning": "stofn",
-			"orð": "sigur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "a46c71f3adc65b289ae423bfa07a59849cd880832388bd9febdfbe0e1041906f"
+			"kennistrengur": "no-sigur-kk"
 		},
 		{
-			"orð": "ósk",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "fc7ff4d77413fda10987c89d2442bd7093237b71c5e38fac4293c476ffb23eaa"
+			"kennistrengur": "no-ósk-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["SigurÓsk", "SigurÓsk", "SigurÓsk", "SigurÓskar"]
 	},
-	"hash": "c64e5eedb921c8c6cd62a15d9586c0fc875c597c714976745470fb265f612541"
+	"kennistrengur": "sérn.en-Sigurósk-kvk",
+	"hash": "a88c89711d5337116133c2ee7f366a7c1fc4b60cbebada17390a37f0ba6413e6"
 }

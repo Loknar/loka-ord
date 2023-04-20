@@ -6,16 +6,10 @@
 		{
 			"mynd": "reglu",
 			"samsetning": "eignarfalls",
-			"orð": "regla",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "1946f11b727832ac3c641c148f975435efb56507355d4ccfeb64c0ad7bb4e6eb"
+			"kennistrengur": "no-regla-kvk"
 		},
 		{
-			"orð": "gerð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "fe12af313fffcedfe3717991bb20456befce80cf66d43dede1e5fc5a4c444df3"
+			"kennistrengur": "no-gerð-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["reglugerðir", "reglugerðir", "reglugerðum", "reglugerða"],
 		"mg": ["reglugerðirnar", "reglugerðirnar", "reglugerðunum", "reglugerðanna"]
 	},
-	"hash": "f1df6489b5056b4f339d49ffbb9bd4fd812a58ff575390dccd67e50c2be17853"
+	"kennistrengur": "no-reglugerð-kvk",
+	"hash": "05ad55772ad39fea2ab18bb94be86570e510a4db566e6a0feb7c1d9536f95dd4"
 }

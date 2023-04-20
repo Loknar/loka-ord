@@ -2,26 +2,21 @@
 	"orð": "Húsafełl",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "hk",
 	"samsett": [
 		{
 			"mynd": "Húsa",
 			"samsetning": "eignarfalls",
-			"orð": "hús",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3821d8ae4cdec7131d5e4283855e594ede4fdf8280c4de0bbc2aec7099eb0229"
+			"kennistrengur": "no-hús-hk"
 		},
 		{
-			"orð": "fełl",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["et-ág"],
-			"hash": "9a878d748287ed554228b01550cd7a66d4fca463f792b996e5ff7c57f49b49a6"
+			"kennistrengur": "no-fełl-hk"
 		}
 	],
+	"kyn": "hk",
 	"et": {
 		"ág": ["Húsafełl", "Húsafełl", "Húsafełli", "Húsafells"]
 	},
-	"hash": "c5b54f3cd21381e928b4ba8ece3db2ab4bba029542f69a0ddbd15e349ff485b0"
+	"kennistrengur": "sérn.ön-Húsafełl-hk",
+	"hash": "2eae8dc5296afa0ad8fbf54379cc016c462f1e89dbc669e091593483eff5b1b1"
 }

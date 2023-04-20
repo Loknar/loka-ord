@@ -2,19 +2,17 @@
 	"orð": "Vök",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "vök",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "1d5d2980dee5de1d2aa30db25e9064e14118baf420653006cb78fa8b2cc4a0b9"
+			"kennistrengur": "no-vök-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vök", "Vök", "Vök", "Vakar"]
 	},
-	"hash": "2e658b8bc3eb492a58b754b258ffbe295759ee263e6eee6a9839b37b66e3943f"
+	"kennistrengur": "sérn.en-Vök-kvk",
+	"hash": "f4607806f3b3893a95555ad7d0f6c4b72f0fafabb67680ca6e18db0b38eac8e8"
 }

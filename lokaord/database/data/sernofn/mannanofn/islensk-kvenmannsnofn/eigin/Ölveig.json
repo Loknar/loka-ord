@@ -2,27 +2,20 @@
 	"orð": "Ölveig",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Öl",
 			"samsetning": "stofn",
-			"orð": "öl",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "6a334bb947766afe5ba27ab4e42689483902d086a9a564657ecc5989aac17e36"
+			"kennistrengur": "no-öl-hk"
 		},
 		{
-			"orð": "veig",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "63cdce23ce967ac7145c51519efa0bdfbd6d9332873b6e12c7ee707a5c6655ea"
+			"kennistrengur": "sérn.en-veig-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ölveig", "Ölveigu", "Ölveigu", "Ölveigar"]
 	},
-	"hash": "e7d6d63bbfd16eb895b3181b6a64f5593aa9e52de61393e715e8f39f25e2131e"
+	"kennistrengur": "sérn.en-Ölveig-kvk",
+	"hash": "8c099c4199db29ae1b80a8b8c0a4a30f74e3cb48b56afabd8a3e68ab2001d64c"
 }

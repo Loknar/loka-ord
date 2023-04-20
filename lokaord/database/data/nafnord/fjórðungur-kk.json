@@ -7,17 +7,10 @@
 		{
 			"mynd": "fjórð",
 			"samsetning": "stofn",
-			"orð": "fjórði",
-			"flokkur": "töluorð",
-			"undirflokkur": "raðtala",
-			"hash": "f4442997be8af4b0b3835834c3b8ad3aa71f47bff517c1385f1d4fa6c1d26f99"
+			"kennistrengur": "to.rt-fjórði"
 		},
 		{
-			"orð": "ungur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "b0fe74bc32abb98fe4e46d4dd5e7c2e9fc4ba1fc04f87dea08c23d8753b1c468"
+			"kennistrengur": "no-ungur-kk-ó"
 		}
 	],
 	"et": {
@@ -28,5 +21,6 @@
 		"ág": ["fjórðungar", "fjórðunga", "fjórðungum", "fjórðunga"],
 		"mg": ["fjórðungarnir", "fjórðungana", "fjórðungunum", "fjórðunganna"]
 	},
-	"hash": "a459623f070a587aa91ab693e5a8d9488b946b4f09306777dc0d083b9728cfa3"
+	"kennistrengur": "no-fjórðungur-kk",
+	"hash": "2d4237bbd24daf217b8069718c3cdcc9337641d0b1b1f967011d4e5c3bc6726a"
 }

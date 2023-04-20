@@ -6,41 +6,25 @@
 		{
 			"mynd": "einka",
 			"samsetning": "stofn",
-			"orð": "einka",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"ósjálfstætt": true,
-			"hash": "b6ad510d725874a1fc635a5447dafee6331ada418bc9bed2ad519e5b818a6406"
+			"kennistrengur": "smáo.ao-einka-ó"
 		},
 		{
 			"mynd": "at",
 			"samsetning": "stofn",
-			"orð": "at",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87b24d1d7d210e3945081ef4a829039eb5e0c9f02020e89c532d8e434a761d40"
+			"kennistrengur": "no-at-hk"
 		},
 		{
 			"mynd": "vinnu",
 			"samsetning": "eignarfalls",
-			"orð": "vinna",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "da2d0f25464cc112073ac81e44597b73472622f45b3299e1df65b5c526f856f8"
+			"kennistrengur": "no-vinna-kvk"
 		},
 		{
 			"mynd": "fyrir",
 			"samsetning": "stofn",
-			"orð": "fyrir",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "9f910a041686d03ecace3145466a93e365817fb43ad5d4d605d025bf0e729c7c"
+			"kennistrengur": "smáo.fs-fyrir"
 		},
 		{
-			"orð": "tæki",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "8077c37c59adf3f77d092aac480ea6198885520e3b83f997fd7f11d1c83bd7bc"
+			"kennistrengur": "no-tæki-hk"
 		}
 	],
 	"et": {
@@ -51,5 +35,6 @@
 		"ág": ["einkaatvinnufyrirtæki", "einkaatvinnufyrirtæki", "einkaatvinnufyrirtækjum", "einkaatvinnufyrirtækja"],
 		"mg": ["einkaatvinnufyrirtækin", "einkaatvinnufyrirtækin", "einkaatvinnufyrirtækjunum", "einkaatvinnufyrirtækjanna"]
 	},
-	"hash": "320466b88a0711396e8d3b786829b49aa246adec7cdec0f4cea87d467f26f2c7"
+	"kennistrengur": "no-einkaatvinnufyrirtæki-hk",
+	"hash": "85d723dc81cedf9d413e464daa9c1b80e45544a767684e5214d413444248588b"
 }

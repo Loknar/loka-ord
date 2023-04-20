@@ -5,15 +5,10 @@
 		{
 			"mynd": "kosningar",
 			"samsetning": "eignarfalls",
-			"orð": "kosning",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f4dc7312b9422867eaff078fc85fbf5e2f7c153f2dae33f4daeff7e2bf18ae66"
+			"kennistrengur": "no-kosning-kvk"
 		},
 		{
-			"orð": "bær",
-			"flokkur": "lýsingarorð",
-			"hash": "c0001d3c86a0d2ee28eeef62c7d6c5e96b3a0a455e5901500c2b94e7f3eb2fcf"
+			"kennistrengur": "lo-bær"
 		}
 	],
 	"frumstig": {
@@ -82,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "b72461d019e06177718e6e6996063a3c84021bfa68fecc070b86d4cd5d596263"
+	"kennistrengur": "lo-kosningarbær",
+	"hash": "a54765ab1fc9f880f6bcaabb053d6ba28b172ba17cb711dc608807222ef4bd8a"
 }

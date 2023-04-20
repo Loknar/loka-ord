@@ -6,16 +6,10 @@
 		{
 			"mynd": "straum",
 			"samsetning": "stofn",
-			"orð": "straumur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "5238e24aa1e3ccc75151818bf436f591dd7777bb093ab95ded8254de72d11692"
+			"kennistrengur": "no-straumur-kk"
 		},
 		{
-			"orð": "önd",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "e2e002013b8e52ae100aa4d717f19a0d81cc1c62ddbce3a334c1b767668597df"
+			"kennistrengur": "no-önd-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["straumendur", "straumendur", "straumöndum", "straumanda"],
 		"mg": ["straumendurnar", "straumendurnar", "straumöndunum", "straumandanna"]
 	},
-	"hash": "29e7434f0cd8e10f88e4e4ce10ceceaa14a91a1ea6805550ff1b82807a509499"
+	"kennistrengur": "no-straumönd-kvk",
+	"hash": "62a9d23fc47ac8b44dfa63139ea947f9864eb9d9c9dc42e91198e3b760b0bade"
 }

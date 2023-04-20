@@ -5,14 +5,10 @@
 		{
 			"mynd": "kvik",
 			"samsetning": "stofn",
-			"orð": "kvikur",
-			"flokkur": "lýsingarorð",
-			"hash": "41f9750e9561b5c95efab2f1f73f17fc363c35d787b9b0d2a410763196206034"
+			"kennistrengur": "lo-kvikur"
 		},
 		{
-			"orð": "mynda",
-			"flokkur": "sagnorð",
-			"hash": "4a90a1c19fba89acca16b0fa36dae8694cea6b27d2f43b5f9fe92a9afef48ef2"
+			"kennistrengur": "so-mynda"
 		}
 	],
 	"germynd": {
@@ -71,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "kvikmyndast",
 		"sagnbót": "kvikmyndast",
-		"boðháttur": {
-			"et": "kvikmyndastu",
-			"ft": "kvikmyndastu"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -145,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "dacd638e49d4992807d0176604227a9e50a79a98e010103452314d4165b6dd87"
+	"kennistrengur": "so-kvikmynda",
+	"hash": "f73f76ce70ddf527654bbc9380031212bf956c55bbd9540471530ba86e5ab062"
 }

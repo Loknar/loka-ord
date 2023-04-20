@@ -6,16 +6,10 @@
 		{
 			"mynd": "birtingar",
 			"samsetning": "eignarfalls",
-			"orð": "birting",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f81a77dd2fd366418a87c140eae84e10aba11ff77dbe8adba62d1ed4ae6511e3"
+			"kennistrengur": "no-birting-kvk"
 		},
 		{
-			"orð": "háttur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b2f3c8a1e99caae7400ca816a8a24e12587ff5e0e4eb69c3ac74c54444d49911"
+			"kennistrengur": "no-háttur-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["birtingarhættir", "birtingarhætti", "birtingarháttum", "birtingarhátta"],
 		"mg": ["birtingarhættirnir", "birtingarhættina", "birtingarháttunum", "birtingarháttanna"]
 	},
-	"hash": "5448be26257880495126e1faeaa513babcc16738ea060eadb20397309a9dcf96"
+	"kennistrengur": "no-birtingarháttur-kk",
+	"hash": "a85703308fe8f226795defc869b9fe3bd959ec684c74826efda1c3572a23b26f"
 }

@@ -2,27 +2,20 @@
 	"orð": "Vanadís",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Vana",
 			"samsetning": "eignarfalls",
-			"orð": "vanir",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "30e7d0598cde8712b57e2beb131ee5356237fa82f2f57bc1d6f22cf3c7ac1a3d"
+			"kennistrengur": "no-vanir-kk"
 		},
 		{
-			"orð": "dís",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "dfb03cc34caed2d8dfffc943298d891aa5c0f22a86552f8615e5b4b5a7582b0c"
+			"kennistrengur": "sérn.en-dís-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vanadís", "Vanadísi", "Vanadísi", "Vanadísar"]
 	},
-	"hash": "f90badd7e8dfe09bc86c0a7b8256d0175309408f0a143a8e3ade3e7232179e99"
+	"kennistrengur": "sérn.en-Vanadís-kvk",
+	"hash": "19d9faaffb5b28f50be65fdca3aed9ce6d275c30e7a7cffc37840ea8cd66af1e"
 }

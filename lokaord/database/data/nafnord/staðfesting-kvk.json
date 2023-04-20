@@ -6,16 +6,10 @@
 		{
 			"mynd": "stað",
 			"samsetning": "stofn",
-			"orð": "staður",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "a38b2e20c1d16ef7e6483a1562736ec01f76389f7a403ca6be158495f6125182"
+			"kennistrengur": "no-staður-kk"
 		},
 		{
-			"orð": "festing",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7a4b2d492ff9842a5ec6ef47ed87534d9e0e2129301ce4e4da05a257d89e34b6"
+			"kennistrengur": "no-festing-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["staðfestingar", "staðfestingar", "staðfestingum", "staðfestinga"],
 		"mg": ["staðfestingarnar", "staðfestingarnar", "staðfestingunum", "staðfestinganna"]
 	},
-	"hash": "abf3f4102cc3f63578a62592ed6ae2d13d32de9103dae83c9928f3852d1bef26"
+	"kennistrengur": "no-staðfesting-kvk",
+	"hash": "344a3c62699ab64f49789366b46d5ac36e4d08463603616d43c96dc7e784a337"
 }

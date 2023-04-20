@@ -2,23 +2,18 @@
 	"orð": "sérhvað",
 	"flokkur": "fornafn",
 	"undirflokkur": "óákveðið",
-	"kyn": "hk",
 	"samsett": [
 		{
 			"mynd": "sér",
 			"samsetning": "stofn",
-			"orð": "sig",
-			"flokkur": "fornafn",
-			"undirflokkur": "afturbeygt",
-			"hash": "c09428539ad631426ea88f0cb5628286b67c843b7a95e16daa2caaded9347306"
+			"kennistrengur": "fn.a-sig"
 		},
 		{
-			"orð": "hvað",
-			"flokkur": "fornafn",
-			"undirflokkur": "óákveðið",
-			"hash": "ee1e035183a98dd8ac8d52b0c3d344f88691ea79761ed95c2e9d176ed0a22bcc"
+			"kennistrengur": "fn.óákv-hvað"
 		}
 	],
+	"kyn": "hk",
 	"et": ["sérhvað", "sérhvað", "sérhverju", "sérhvers"],
-	"hash": "41e8eaa4033626acc54468bad5653a243686071bb9eae4b55d1be38ddd3f5d78"
+	"kennistrengur": "fn.óákv-sérhvað",
+	"hash": "92d474294ddc2019f35293601c6e3612b89edc7cfa78c22dfaa30fe6cb720abb"
 }

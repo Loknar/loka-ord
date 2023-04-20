@@ -2,30 +2,24 @@
 	"orð": "Pétursdóttir",
 	"flokkur": "sérnafn",
 	"undirflokkur": "kenninafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Péturs",
 			"samsetning": "eignarfalls",
-			"orð": "Pétur",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "764c1c2a4d0d96fe015f6d5709fbfa2059724d9c1457ab64af5c88a98d3805b8"
+			"kennistrengur": "sérn.en-Pétur-kk"
 		},
 		{
-			"orð": "dóttir",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág", "ft-ág"],
-			"hash": "0d21acdbb181eaa08650040550e95f0a47a8431ba6fce210be102d13547d47de"
+			"kennistrengur": "no-dóttir-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Pétursdóttir", "Pétursdóttur", "Pétursdóttur", "Pétursdóttur"]
 	},
 	"ft": {
 		"ág": ["Pétursdætur", "Pétursdætur", "Pétursdætrum", "Pétursdætra"]
 	},
-	"hash": "a468bd4358a8a8a04473445a33df9a9117fcf00a10a9cdd63470af3c1642ed35"
+	"kennistrengur": "sérn.kn-Pétursdóttir-kvk",
+	"hash": "c6e9aef94ed999e3c27f9f8d99edb3fb6f7c87db114cee3e36fd620b49f76449"
 }

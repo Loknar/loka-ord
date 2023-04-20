@@ -6,16 +6,10 @@
 		{
 			"mynd": "mennta",
 			"samsetning": "eignarfalls",
-			"orð": "mennt",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "c4f952b3445dd69544ee8591daf7cff90723c8a29234bfa9f044a9799a0dde47"
+			"kennistrengur": "no-mennt-kvk"
 		},
 		{
-			"orð": "skóli",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "2ea0c0854aa0584389cad8ec8d7a679d064dc6ea10844e754b0bd1f39b1ee0a3"
+			"kennistrengur": "no-skóli-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["menntaskólar", "menntaskóla", "menntaskólum", "menntaskóla"],
 		"mg": ["menntaskólarnir", "menntaskólana", "menntaskólunum", "menntaskólanna"]
 	},
-	"hash": "5c0f0c8b8a9c43e4242e8ec970c990517a233a7fdd6ba85d84630092f09e5842"
+	"kennistrengur": "no-menntaskóli-kk",
+	"hash": "daae0599b0621e41930453ea0fc19d9ff7be5a606c8076e39740eb0df287d958"
 }

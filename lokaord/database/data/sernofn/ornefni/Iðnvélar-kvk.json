@@ -2,26 +2,21 @@
 	"orð": "Iðnvélar",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Iðn",
 			"samsetning": "stofn",
-			"orð": "iðn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "94716786246d498c2d06526a7a4579eaa42b41c7dbbbf7bb61ce29d1161396f0"
+			"kennistrengur": "no-iðn-kvk"
 		},
 		{
-			"orð": "vél",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["ft-ág"],
-			"hash": "de44a5577423aae067a848c1df2d67a577de95e7e610046e9f781a44b5a6367c"
+			"kennistrengur": "no-vél-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"ft": {
 		"ág": ["Iðnvélar", "Iðnvélar", "Iðnvélum", "Iðnvéla"]
 	},
-	"hash": "7d7c31a5609fdad0868a7301bd24fff2aba7e8b913e39b4b7ce7bfc22c95caa6"
+	"kennistrengur": "sérn.ön-Iðnvélar-kvk",
+	"hash": "9c6dcacb12a6fa4c16838e5c859d9711d80c38e945fab2675208852464dcf3e3"
 }

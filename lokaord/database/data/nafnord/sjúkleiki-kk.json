@@ -6,16 +6,10 @@
 		{
 			"mynd": "sjúk",
 			"samsetning": "stofn",
-			"orð": "sjúkur",
-			"flokkur": "lýsingarorð",
-			"hash": "7ec9139c267a3eea6affb267956c6f16fdb498ec13e8042d491e9b21273977fc"
+			"kennistrengur": "lo-sjúkur"
 		},
 		{
-			"orð": "leiki",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "591cebe66a3e2c10d57aab1be8b9a05c495a2cafea05ea7c318c6c010c940806"
+			"kennistrengur": "no-leiki-kk-ó"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["sjúkleikar", "sjúkleika", "sjúkleikum", "sjúkleika"],
 		"mg": ["sjúkleikarnir", "sjúkleikana", "sjúkleikunum", "sjúkleikanna"]
 	},
-	"hash": "2ed9d4672830b451feccb569e2873cd9b51028b37c031fa7a6d8f2caf246726f"
+	"kennistrengur": "no-sjúkleiki-kk",
+	"hash": "e00fc288a34c2f399bd2544f3e1792d2b6549ae0cd687aa477a12d7fd1c3f397"
 }

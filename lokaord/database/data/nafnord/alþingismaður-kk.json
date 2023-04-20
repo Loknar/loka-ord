@@ -6,17 +6,10 @@
 		{
 			"mynd": "alþingis",
 			"samsetning": "eignarfalls",
-			"orð": "Alþingi",
-			"flokkur": "sérnafn",
-			"undirflokkur": "örnefni",
-			"kyn": "hk",
-			"hash": "f7b2a68272d206ab87151b717e59698927805fe3fa4830e8430a86d1c76f5ddf"
+			"kennistrengur": "sérn.ön-Alþingi-hk"
 		},
 		{
-			"orð": "maður",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "90dcf2dc477c94b4faaa15443f95cd760d6c3b879cb31c8139d764015ce8d002"
+			"kennistrengur": "no-maður-kk"
 		}
 	],
 	"et": {
@@ -27,5 +20,6 @@
 		"ág": ["alþingismenn", "alþingismenn", "alþingismönnum", "alþingismanna"],
 		"mg": ["alþingismennirnir", "alþingismennina", "alþingismönnunum", "alþingismannanna"]
 	},
-	"hash": "227bdd5771bc23074d1fc0e1468cbfa159a6d50bd17164c7de4c6d6958481f5c"
+	"kennistrengur": "no-alþingismaður-kk",
+	"hash": "efec1dd0be67c668f9c42a154f9c8be373406e74594ee61baf8b1396064b7300"
 }

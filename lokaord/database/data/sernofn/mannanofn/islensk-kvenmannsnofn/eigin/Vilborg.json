@@ -2,19 +2,17 @@
 	"orð": "Vilborg",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "borg",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"leiðir": "Vil",
 			"beygingar": ["et-ág"],
-			"hash": "f19f3ce8af0f39c8188d8efd811c4c8781210c17618cc98ddefb52d0b400f10a"
+			"kennistrengur": "no-borg-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vilborg", "Vilborg", "Vilborg", "Vilborgar"]
 	},
-	"hash": "b9082b502cd3bf88fa12da49a8cd947022d23155b7fba7f3f8401042c745d196"
+	"kennistrengur": "sérn.en-Vilborg-kvk",
+	"hash": "c5fdc66309d3dc73c1193b78eaffa267f3921d9e021561791a2780dd306c56e4"
 }

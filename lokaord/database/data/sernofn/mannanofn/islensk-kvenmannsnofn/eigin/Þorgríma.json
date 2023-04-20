@@ -2,26 +2,21 @@
 	"orð": "Þorgríma",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þor",
 			"samsetning": "stofn",
-			"orð": "þor",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "72a310e89ff352fb346936d329d89c2f9492d3d427366bcc9f03ea8745ffc5b0"
+			"kennistrengur": "no-þor-hk"
 		},
 		{
-			"orð": "gríma",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "b1a21605c101f31a938d853d5dd8567a0965857864d056bb070f41477eca418c"
+			"kennistrengur": "no-gríma-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þorgríma", "Þorgrímu", "Þorgrímu", "Þorgrímu"]
 	},
-	"hash": "627bd4c03e6551e5065a86b0065ec6d252a864dadb8e52481e49d97cf1c67900"
+	"kennistrengur": "sérn.en-Þorgríma-kvk",
+	"hash": "3f28d92fa104aa4e3b173547f6c723719f0b552c43b3e0e2b3a43d10bd3227a1"
 }

@@ -5,15 +5,10 @@
 		{
 			"mynd": "út",
 			"samsetning": "stofn",
-			"orð": "út",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "bcc080fc5650301997f155af20fb6b00dc8e66f2777dcc3181d12c79d4761fbd"
+			"kennistrengur": "smáo.fs-út"
 		},
 		{
-			"orð": "færa",
-			"flokkur": "sagnorð",
-			"hash": "35e67bf0993e41dc68ebbb8a88af7215a29e294eb02f2d243381ca46565a24c1"
+			"kennistrengur": "so-færa"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "útfærast",
 		"sagnbót": "útfærst",
-		"boðháttur": {
-			"et": "útfærstu",
-			"ft": "útfærist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +119,6 @@
 			}
 		}
 	},
-	"hash": "a4610710b83adbfe8b4fbc3303fb5ccf565c7949cf8f0dbdb316a1dc39d9bba4"
+	"kennistrengur": "so-útfæra",
+	"hash": "daf2a3f375de43bb977ff17872443f35e3ee75ae683a810bd5b7ee2192318bba"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "dóms",
 			"samsetning": "eignarfalls",
-			"orð": "dómur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "e86515e832b141c50e023321abe59926897c90e84f614eae56bd4bd8a8f07522"
+			"kennistrengur": "no-dómur-kk"
 		},
 		{
-			"orð": "vald",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "361c957b51c99a9a4ccd49ec7d939ad5efaa1907f1486469cbe9f4af30f7e7f2"
+			"kennistrengur": "no-vald-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["dómsvöld", "dómsvöld", "dómsvöldum", "dómsvalda"],
 		"mg": ["dómsvöldin", "dómsvöldin", "dómsvöldunum", "dómsvaldanna"]
 	},
-	"hash": "a1be484cf01063e355b6c535f6ef29d9ea53ebd707e456fbc3d858bdd589a32e"
+	"kennistrengur": "no-dómsvald-hk",
+	"hash": "3cba6ab6d2fe92e66626954418e8281ed3ed0876aeaf05b559e3aec1faf6b84f"
 }

@@ -2,26 +2,21 @@
 	"orð": "Lögreglan",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Lög",
 			"samsetning": "stofn",
-			"orð": "lög",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b085113d03044626996891a0af7cf4cff57cb5f238fd965d3da923b34891cdd8"
+			"kennistrengur": "no-lög-hk"
 		},
 		{
-			"orð": "regla",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-mg"],
-			"hash": "1946f11b727832ac3c641c148f975435efb56507355d4ccfeb64c0ad7bb4e6eb"
+			"kennistrengur": "no-regla-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"mg": ["Lögreglan", "Lögregluna", "Lögreglunni", "Lögreglunnar"]
 	},
-	"hash": "1d1f33290a868d8b3edea989edb9ee25dee79f14c92b2aec3b921eb942f13062"
+	"kennistrengur": "sérn.ön-Lögreglan-kvk",
+	"hash": "bc462b462c065f5a72ab9ac7c53786bd9fe8ec6c344bfda4e853cc6ccaacc707"
 }

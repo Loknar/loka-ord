@@ -6,22 +6,16 @@
 		{
 			"mynd": "land",
 			"samsetning": "stofn",
-			"orð": "land",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "da5bb4ce17288e538b7dd028c03af1dd30c3249bdec0be4a01b14ffa2fbfba52"
+			"kennistrengur": "no-land-hk"
 		},
 		{
-			"orð": "helgi",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "f689cedb1822237ba79152313a777ebf9d79135a5056d23fbeb16966f0b612bf"
+			"kennistrengur": "no-helgi-kvk-ó"
 		}
 	],
 	"et": {
 		"ág": ["landhelgi", "landhelgi", "landhelgi", "landhelgi"],
 		"mg": ["landhelgin", "landhelgina", "landhelginni", "landhelginnar"]
 	},
-	"hash": "e90888d81f9ea354c410d1e038cdb79be8f020a1f26a1b5acfc9138f765ab191"
+	"kennistrengur": "no-landhelgi-kvk",
+	"hash": "67dcffd29f38a292e56fd895fbecdc296a84798f70bad60dae76071fac7546cf"
 }

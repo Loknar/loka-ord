@@ -7,20 +7,25 @@
 		{
 			"mynd": "átta",
 			"samsetning": "stofn",
-			"orð": "átta",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "4dbaaf2874eab5655e144caf59bc79aff50125314847aad7c59f722707c3cba9"
+			"kennistrengur": "to.ft-átta"
 		},
 		{
 			"mynd": "hundruð",
 			"samsetning": "stofn",
-			"orð": "hundrað",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "d9e030362131495c4cadb0b40c92103960f76d90af9179aaa709f87212013b98"
+			"kennistrengur": "to.ft-hundrað"
 		}
 	],
+	"et": {
+		"kk": ["áttahundrað", "áttahundrað", "áttahundrað", "áttahundrað"],
+		"kvk": ["áttahundrað", "áttahundrað", "áttahundrað", "áttahundrað"],
+		"hk": ["áttahundrað", "áttahundrað", "áttahundrað", "áttahundrað"]
+	},
+	"ft": {
+		"kk": ["áttahundruð", "áttahundruð", "áttahundruð", "áttahundruð"],
+		"kvk": ["áttahundruð", "áttahundruð", "áttahundruð", "áttahundruð"],
+		"hk": ["áttahundruð", "áttahundruð", "áttahundruð", "áttahundruð"]
+	},
 	"óbeygjanlegt": true,
-	"hash": "c1950794feffc3469accac7959d35c04436f48625ecf17211b8a14623b51c5dc"
+	"kennistrengur": "to.ft-áttahundruð",
+	"hash": "f8e48df080269df9dd8bc08d780e756d4f48ea4d4a5f812315d7ce269eb07586"
 }

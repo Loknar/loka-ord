@@ -2,27 +2,20 @@
 	"orð": "Ölrún",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Öl",
 			"samsetning": "stofn",
-			"orð": "öl",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "6a334bb947766afe5ba27ab4e42689483902d086a9a564657ecc5989aac17e36"
+			"kennistrengur": "no-öl-hk"
 		},
 		{
-			"orð": "rún",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "1b0ef382779f73ba1792391efb164e12e32fd3cdfa1b82ad30406f85a866780d"
+			"kennistrengur": "sérn.en-rún-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ölrún", "Ölrúnu", "Ölrúnu", "Ölrúnar"]
 	},
-	"hash": "9d850ba9c4742372842fc448262cd7b14862b772ecc23a3642716c04c28fd0bc"
+	"kennistrengur": "sérn.en-Ölrún-kvk",
+	"hash": "f1e0e81675b964bae2b47def57d4be278a1a468f8ab468cd48e499fda5afd83e"
 }

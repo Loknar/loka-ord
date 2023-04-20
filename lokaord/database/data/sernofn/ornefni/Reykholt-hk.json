@@ -2,26 +2,21 @@
 	"orð": "Reykholt",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "hk",
 	"samsett": [
 		{
 			"mynd": "Reyk",
 			"samsetning": "stofn",
-			"orð": "reykur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "c1893e35e3212dd92bb99bc4236d935828460fe2aa840c95c60c65219bda3790"
+			"kennistrengur": "no-reykur-kk"
 		},
 		{
-			"orð": "holt",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["et-ág"],
-			"hash": "94c168417116dda7aca633e1c17bba2822fc6d836c0e495d067200834a69a54f"
+			"kennistrengur": "no-holt-hk"
 		}
 	],
+	"kyn": "hk",
 	"et": {
 		"ág": ["Reykholt", "Reykholt", "Reykholti", "Reykholts"]
 	},
-	"hash": "4ba6a817047363ad91d6b4230c0f625a1ce9d4a8a694d09103443b51178b18e8"
+	"kennistrengur": "sérn.ön-Reykholt-hk",
+	"hash": "a1ce690f883c483e53698a0e9f88b111a9d1b968a5d39c8c3124a6114d21897f"
 }

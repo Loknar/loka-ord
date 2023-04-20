@@ -2,27 +2,20 @@
 	"orð": "Bryndís",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Bryn",
 			"samsetning": "stofn",
-			"orð": "brynja",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "945fc6f12604ab1251f4b3999ab131cb8e5505c3eda0c18981f4c0b75d2421a6"
+			"kennistrengur": "no-brynja-kvk"
 		},
 		{
-			"orð": "dís",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "dfb03cc34caed2d8dfffc943298d891aa5c0f22a86552f8615e5b4b5a7582b0c"
+			"kennistrengur": "sérn.en-dís-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Bryndís", "Bryndísi", "Bryndísi", "Bryndísar"]
 	},
-	"hash": "31fbea3bc15c5061aadad7af3429a253946e1b6fc514374ba735cacd61d3cb7d"
+	"kennistrengur": "sérn.en-Bryndís-kvk",
+	"hash": "41c2918683c29a8b28b655382bec65e63348f0e52f0bbd6ef695b77ec228df1f"
 }

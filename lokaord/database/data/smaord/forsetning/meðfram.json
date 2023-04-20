@@ -2,6 +2,19 @@
 	"orð": "meðfram",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
+	"samsett": [
+		{
+			"mynd": "með",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-með"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		}
+	],
 	"stýrir": ["þágufall"],
-	"hash": "b977a6f44eb92058961017de26ef5f70cc9d575fad637fb0ab22f86f50ae4f90"
+	"kennistrengur": "smáo.fs-meðfram",
+	"hash": "28447273a5701e878ea16ff1ade9c627772a273a0c02dbe58b3ec93da805ab58"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "ráð",
 			"samsetning": "stofn",
-			"orð": "ráð",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3a793b493cdae6c2c424e49b8c50674fabca4e17f892293e31e781999c70b2c7"
+			"kennistrengur": "no-ráð-hk"
 		},
 		{
-			"orð": "herra",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "19f3824e5f6578ae3f81074061d8e59748d67c95ee1223fd432a2a673f2df8f9"
+			"kennistrengur": "no-herra-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["ráðherrar", "ráðherra", "ráðherrum", "ráðherra"],
 		"mg": ["ráðherrarnir", "ráðherrana", "ráðherrunum", "ráðherranna"]
 	},
-	"hash": "b4ed5b1c2ec981b9c29d9517a5913a8c01c8dc34e785e7fe57b9dde9ec67bb49"
+	"kennistrengur": "no-ráðherra-kk",
+	"hash": "9f966c66d0f95ab5e32074b5d534bc89eb67aafda0696b82b909bde578e21e2a"
 }

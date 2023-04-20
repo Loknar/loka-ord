@@ -6,16 +6,10 @@
 		{
 			"mynd": "lög",
 			"samsetning": "stofn",
-			"orð": "lög",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b085113d03044626996891a0af7cf4cff57cb5f238fd965d3da923b34891cdd8"
+			"kennistrengur": "no-lög-hk"
 		},
 		{
-			"orð": "regla",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "1946f11b727832ac3c641c148f975435efb56507355d4ccfeb64c0ad7bb4e6eb"
+			"kennistrengur": "no-regla-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["lögreglur", "lögreglur", "lögreglum", "lögreglna"],
 		"mg": ["lögreglurnar", "lögreglurnar", "lögreglunum", "lögreglnanna"]
 	},
-	"hash": "d049ded371155311355b9143fd2d97207668048b75a438d1b3a5dd8c89a018d3"
+	"kennistrengur": "no-lögregla-kvk",
+	"hash": "6896a9e934f1db3f3709fd8de2623239018bab7a5f236c7d18d4283d815a516c"
 }

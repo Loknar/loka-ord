@@ -7,20 +7,25 @@
 		{
 			"mynd": "sex",
 			"samsetning": "stofn",
-			"orð": "sex",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "987057d2704d33da4a7523d9e1d109032b8f3c0087b8868a008af91dddf8030a"
+			"kennistrengur": "to.ft-sex"
 		},
 		{
 			"mynd": "hundruð",
 			"samsetning": "stofn",
-			"orð": "hundrað",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "d9e030362131495c4cadb0b40c92103960f76d90af9179aaa709f87212013b98"
+			"kennistrengur": "to.ft-hundrað"
 		}
 	],
+	"et": {
+		"kk": ["sexhundrað", "sexhundrað", "sexhundrað", "sexhundrað"],
+		"kvk": ["sexhundrað", "sexhundrað", "sexhundrað", "sexhundrað"],
+		"hk": ["sexhundrað", "sexhundrað", "sexhundrað", "sexhundrað"]
+	},
+	"ft": {
+		"kk": ["sexhundruð", "sexhundruð", "sexhundruð", "sexhundruð"],
+		"kvk": ["sexhundruð", "sexhundruð", "sexhundruð", "sexhundruð"],
+		"hk": ["sexhundruð", "sexhundruð", "sexhundruð", "sexhundruð"]
+	},
 	"óbeygjanlegt": true,
-	"hash": "1c660073550d802d48132056ee481e911236f1ad39a6cc2ae650e7386c991b44"
+	"kennistrengur": "to.ft-sexhundruð",
+	"hash": "a86629946d26dcc3cece7911d35ded0e188550331de64e2d6b0cf05356ef4466"
 }

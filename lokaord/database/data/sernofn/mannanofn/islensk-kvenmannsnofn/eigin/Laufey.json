@@ -2,26 +2,21 @@
 	"orð": "Laufey",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Lauf",
 			"samsetning": "stofn",
-			"orð": "lauf",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "5a7ad412e3239c1a8b704f9e751b6789c2da65ee3510b0a717a01390d6de9c77"
+			"kennistrengur": "no-lauf-hk"
 		},
 		{
-			"orð": "ey",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "96fdb0bfdfb181a2cef9d509a4f324fab1a09017c560a871fc210c995b7e02a1"
+			"kennistrengur": "no-ey-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Laufey", "Laufey", "Laufey", "Laufeyjar"]
 	},
-	"hash": "85b275e842084aca0a22be2428ff1c6bc0a18fc87c3bd9cb9637816b6820e0ee"
+	"kennistrengur": "sérn.en-Laufey-kvk",
+	"hash": "b98603272de92d127c1f9e10752a8443960f30c3a1ae51306f05e0fdb04b2354"
 }

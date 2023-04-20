@@ -2,24 +2,17 @@
 	"orð": "Íslendingur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Ís",
 			"samsetning": "eignarfalls",
-			"orð": "ís",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "2a47e759322f93a54e5701ba1fcc905966d6f15e5bd1f55044ac4c91d6f56726"
+			"kennistrengur": "no-ís-kk"
 		},
 		{
-			"orð": "lendingur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "ba83d8b7432fb7e0af4a5b469b4e4cc8e9eee7a7b7aa51bbdaf8dcd8d2e34710"
+			"kennistrengur": "no-lendingur-kk-ó"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Íslendingur", "Íslending", "Íslendingi", "Íslendings"],
 		"mg": ["Íslendingurinn", "Íslendinginn", "Íslendingnum", "Íslendingsins"]
@@ -28,5 +21,6 @@
 		"ág": ["Íslendingar", "Íslendinga", "Íslendingum", "Íslendinga"],
 		"mg": ["Íslendingarnir", "Íslendingana", "Íslendingunum", "Íslendinganna"]
 	},
-	"hash": "37d40ca637576986d21970c169380c2290fc272388d89ffc81adde887cfa8cec"
+	"kennistrengur": "sérn.ön-Íslendingur-kk",
+	"hash": "076e2162145603246ed0e394e19ef22461a3ed2211f8f6d0f4acd00cba3b5e82"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "þvotta",
 			"samsetning": "eignarfalls",
-			"orð": "þvottur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "38c3eb12fecf924ed82c1e481cafc6e46e04bb946f969c710a92b0fde69430a5"
+			"kennistrengur": "no-þvottur-kk"
 		},
 		{
-			"orð": "karfa",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "44755e900454cc553309e1b973b01fa18757f2b846ce36b52e923104433d3aad"
+			"kennistrengur": "no-karfa-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["þvottakörfur", "þvottakörfur", "þvottakörfum", "þvottakarfa"],
 		"mg": ["þvottakörfurnar", "þvottakörfurnar", "þvottakörfunum", "þvottakarfanna"]
 	},
-	"hash": "479df77eaee6cf4599603228f2ea1b0fa63ff08d05ce1708bd883d555618096f"
+	"kennistrengur": "no-þvottakarfa-kvk",
+	"hash": "abce65716636d46d8625617da93617c49a6306f304008ea3204310a00f9a3d3b"
 }

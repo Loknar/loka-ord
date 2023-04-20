@@ -5,15 +5,10 @@
 		{
 			"mynd": "kol",
 			"samsetning": "stofn",
-			"orð": "kol",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3286a57047d2a1e06f5015c964ecccec5d9ae39b2ae4c1cf6708ff9660405b4e"
+			"kennistrengur": "no-kol-hk"
 		},
 		{
-			"orð": "svartur",
-			"flokkur": "lýsingarorð",
-			"hash": "91f5dde12f5675c192617c0b97d8f465036a45d269f65f802c1f29a2dc5c310b"
+			"kennistrengur": "lo-svartur"
 		}
 	],
 	"frumstig": {
@@ -82,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "abae45af5bb74cbfa9d59f3bce18267fb79ff742d862e10c814c91f5a5c8b114"
+	"kennistrengur": "lo-kolsvartur",
+	"hash": "c2edf56d81057fa24b48869b3311b811ddec058b2e32fd00ca00a67530133d23"
 }

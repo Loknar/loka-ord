@@ -6,33 +6,20 @@
 		{
 			"mynd": "for",
 			"samsetning": "stofn",
-			"orð": "for",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"ósjálfstætt": true,
-			"hash": "878c734932540f476181b48abb5c2869797bb0a49115b9964a2b60a077a1d2b8"
+			"kennistrengur": "smáo.ao-for-ó"
 		},
 		{
 			"mynd": "sætis",
 			"samsetning": "eignarfalls",
-			"orð": "sæti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "4fafe110de49ff831ff99143e9434717fb2c01f60b0ecb586c6a3acbd07fb7aa"
+			"kennistrengur": "no-sæti-hk"
 		},
 		{
 			"mynd": "ráð",
 			"samsetning": "stofn",
-			"orð": "ráð",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3a793b493cdae6c2c424e49b8c50674fabca4e17f892293e31e781999c70b2c7"
+			"kennistrengur": "no-ráð-hk"
 		},
 		{
-			"orð": "herra",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "19f3824e5f6578ae3f81074061d8e59748d67c95ee1223fd432a2a673f2df8f9"
+			"kennistrengur": "no-herra-kk"
 		}
 	],
 	"et": {
@@ -43,5 +30,6 @@
 		"ág": ["forsætisráðherrar", "forsætisráðherra", "forsætisráðherrum", "forsætisráðherra"],
 		"mg": ["forsætisráðherrarnir", "forsætisráðherrana", "forsætisráðherrunum", "forsætisráðherranna"]
 	},
-	"hash": "134bb05ebf8d5d104d24b4f84d3ebbd65770652ba45d6660f05f3d812ff69301"
+	"kennistrengur": "no-forsætisráðherra-kk",
+	"hash": "1fe026b612dce701cb77762e4c49e0e03d8ab6d5579d6d43cb89ea8443548eb3"
 }

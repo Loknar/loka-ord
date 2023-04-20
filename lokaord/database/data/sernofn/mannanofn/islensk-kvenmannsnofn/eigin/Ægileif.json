@@ -2,27 +2,21 @@
 	"orð": "Ægileif",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Ægi",
 			"samsetning": "stofn",
-			"orð": "Ægir",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "6fc29299e0671d8e21f3a8023beae6060cf26932a69ed7339529cecd19fbee9b"
+			"kennistrengur": "sérn.en-Ægir-kk"
 		},
 		{
-			"orð": "leif",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "bc424c1818898e165b55917b3725e26545271420975a256b4ca1e3a594095ae9"
+			"kennistrengur": "no-leif-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ægileif", "Ægileif", "Ægileif", "Ægileifar"]
 	},
-	"hash": "b83790226bfd335db19024a2d7c63a8daee8b6bd20d70ad3b68387e98610bfab"
+	"kennistrengur": "sérn.en-Ægileif-kvk",
+	"hash": "3b1b42d933c5ccd1d20ac894c6854e70760ba530d37576f9e76f7a88fd256294"
 }

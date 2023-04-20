@@ -5,16 +5,10 @@
 		{
 			"mynd": "aftur",
 			"samsetning": "stofn",
-			"orð": "aftur",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"hash": "931716b7190287fbd7dde769199730f2170e6aae6fa0810e081f6465d2d376f7"
+			"kennistrengur": "smáo.ao-aftur"
 		},
 		{
-			"orð": "kvæma",
-			"flokkur": "sagnorð",
-			"ósjálfstætt": true,
-			"hash": "2d67652507f8cc2d179b68ff544f8c99cd863155303104d3cc198f50335bcd95"
+			"kennistrengur": "so-kvæma-ó"
 		}
 	],
 	"germynd": {
@@ -73,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "afturkvæmast",
 		"sagnbót": "afturkvæmst",
-		"boðháttur": {
-			"et": "afturkvæmstu",
-			"ft": "afturkvæmist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -147,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "28e0e323fa833192aec38cbd551dfb03fd945377a9fa86f70e3c3358d1d1ce63"
+	"kennistrengur": "so-afturkvæma",
+	"hash": "e515cbe4cb62d6745276370d449068106437c38d571a2bd035eaf46e60b64021"
 }

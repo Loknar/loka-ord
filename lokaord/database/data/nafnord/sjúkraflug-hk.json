@@ -6,15 +6,10 @@
 		{
 			"mynd": "sjúkra",
 			"samsetning": "eignarfalls",
-			"orð": "sjúkur",
-			"flokkur": "lýsingarorð",
-			"hash": "7ec9139c267a3eea6affb267956c6f16fdb498ec13e8042d491e9b21273977fc"
+			"kennistrengur": "lo-sjúkur"
 		},
 		{
-			"orð": "flug",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "cf0cfb4e39d3d7f35a385e6c6dcc245cc89febbc5dda6910ff3cf6775820de00"
+			"kennistrengur": "no-flug-hk"
 		}
 	],
 	"et": {
@@ -25,5 +20,6 @@
 		"ág": ["sjúkraflug", "sjúkraflug", "sjúkraflugum", "sjúkrafluga"],
 		"mg": ["sjúkraflugin", "sjúkraflugin", "sjúkraflugunum", "sjúkrafluganna"]
 	},
-	"hash": "bdfe16bcb46ac314966206be8e80ff80fdac22a92479faafbc27a2409fc42dc2"
+	"kennistrengur": "no-sjúkraflug-hk",
+	"hash": "cd4384db430fe4b1e19832a377e569fb8586455c99e7df8dce0dd69cb1df7531"
 }

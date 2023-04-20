@@ -6,30 +6,22 @@
 		{
 			"mynd": "kosninga",
 			"samsetning": "eignarfalls",
-			"orð": "kosning",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f4dc7312b9422867eaff078fc85fbf5e2f7c153f2dae33f4daeff7e2bf18ae66"
+			"kennistrengur": "no-kosning-kvk"
 		},
 		{
 			"mynd": "úr",
 			"samsetning": "stofn",
-			"orð": "úr",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "3c77370186ca59ebbba098d04aa1fe9d2578b88ea1e190376de98774d7ce2d70"
+			"kennistrengur": "smáo.fs-úr"
 		},
 		{
-			"orð": "slit",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["ft-ág", "ft-mg"],
-			"hash": "e0cf654a653271a7307dfc393b5a3ff0962338ac1a5c2428cabfb452717d621b"
+			"kennistrengur": "no-slit-hk"
 		}
 	],
 	"ft": {
 		"ág": ["kosningaúrslit", "kosningaúrslit", "kosningaúrslitum", "kosningaúrslita"],
 		"mg": ["kosningaúrslitin", "kosningaúrslitin", "kosningaúrslitunum", "kosningaúrslitanna"]
 	},
-	"hash": "aa7713d28258900a916a69c4c85d4537cc171a1499517c35914bf8f4f26fea6c"
+	"kennistrengur": "no-kosningaúrslit-hk",
+	"hash": "77c65d4220c41065c18950310c47fcc31423e7e40acb69c8bf677d73901f638a"
 }

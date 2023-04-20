@@ -9,7 +9,7 @@ import json
 
 from lokaord.version import __version__
 from lokaord import logman
-from lokaord.importer import add_word, lookup_nafnord, lookup_lysingarord, lookup_sagnord
+# from lokaord.importer import add_word, lookup_nafnord, lookup_lysingarord, lookup_sagnord
 
 
 def add_word_cli():

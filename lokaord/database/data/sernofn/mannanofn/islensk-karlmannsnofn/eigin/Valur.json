@@ -2,19 +2,17 @@
 	"orð": "Valur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kk",
 	"samsett": [
 		{
-			"orð": "valur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "b0e5a5376b36ee76b89b77dedcf3815892414d513c0f8b88ca9d867f27b131a4"
+			"kennistrengur": "no-valur-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Valur", "Val", "Val", "Vals"]
 	},
-	"hash": "8538726b624742d2e9bf16b9fd610b4260e81e11110e43fc7a8fecf0efd06a10"
+	"kennistrengur": "sérn.en-Valur-kk",
+	"hash": "fa412e7924fd7808f56e48b92c2101b6789d12208f93287ed82acf1afc3ad21e"
 }

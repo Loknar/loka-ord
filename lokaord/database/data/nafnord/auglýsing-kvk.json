@@ -6,16 +6,10 @@
 		{
 			"mynd": "aug",
 			"samsetning": "stofn",
-			"orð": "auga",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b948a3062ecd7bc1f84f4cbdc5fa94f721d6978bbceffac76844db34dc06516a"
+			"kennistrengur": "no-auga-hk"
 		},
 		{
-			"orð": "lýsing",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "e4260c5d3e3ca7d7eb1cc6605ce4691c077104b9f4ff0d9c95294fcbb4c24cfc"
+			"kennistrengur": "no-lýsing-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["auglýsingar", "auglýsingar", "auglýsingum", "auglýsinga"],
 		"mg": ["auglýsingarnar", "auglýsingarnar", "auglýsingunum", "auglýsinganna"]
 	},
-	"hash": "528ce5018f15e257368a019aa03b8b384a056a3117fc0543b3eeb014678c8612"
+	"kennistrengur": "no-auglýsing-kvk",
+	"hash": "503d526dd99afca45a7f78b6c4c8f59307d3e4ace39f92fdd8784890154c7719"
 }

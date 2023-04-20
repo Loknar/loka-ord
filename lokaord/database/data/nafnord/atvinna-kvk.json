@@ -6,16 +6,10 @@
 		{
 			"mynd": "at",
 			"samsetning": "stofn",
-			"orð": "at",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87b24d1d7d210e3945081ef4a829039eb5e0c9f02020e89c532d8e434a761d40"
+			"kennistrengur": "no-at-hk"
 		},
 		{
-			"orð": "vinna",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "da2d0f25464cc112073ac81e44597b73472622f45b3299e1df65b5c526f856f8"
+			"kennistrengur": "no-vinna-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["atvinnur", "atvinnur", "atvinnum", "atvinna"],
 		"mg": ["atvinnurnar", "atvinnurnar", "atvinnunum", "atvinnanna"]
 	},
-	"hash": "20ca0aad685dfdf5c70464d80cbc4589f32aa2c9ec52606a5a0ebca5e7d3f840"
+	"kennistrengur": "no-atvinna-kvk",
+	"hash": "bcbda92754ccea65dd0075976a2f7ecaa4c1e295d4c5a2472d68aae485ce9d4d"
 }

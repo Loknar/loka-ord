@@ -6,16 +6,10 @@
 		{
 			"mynd": "vinnu",
 			"samsetning": "eignarfalls",
-			"orð": "vinna",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "da2d0f25464cc112073ac81e44597b73472622f45b3299e1df65b5c526f856f8"
+			"kennistrengur": "no-vinna-kvk"
 		},
 		{
-			"orð": "tími",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "d2aec5999eaf78090880ec77d34b23d9fdbdaa8eb917235ff4f72f6f03823413"
+			"kennistrengur": "no-tími-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["vinnutímar", "vinnutíma", "vinnutímum", "vinnutíma"],
 		"mg": ["vinnutímarnir", "vinnutímana", "vinnutímunum", "vinnutímanna"]
 	},
-	"hash": "d87d69ae3b47c1e0501015440579b07df340b9cc11d00bd83eb53217012a865a"
+	"kennistrengur": "no-vinnutími-kk",
+	"hash": "a534117296b3bc8b8214866db1a18510b5ca764e43d8a34208c5e0e6e32d4df6"
 }

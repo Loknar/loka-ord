@@ -71,6 +71,11 @@ def create_db_uri(db_name):
     return db_uri
 
 
+def session_has_changes():
+    global Session
+    return bool(Session.new) or bool(Session.dirty) or bool(Session.deleted)
+
+
 def setup_connection(db_uri, db_echo=False):
     global Engine, Session, Base
     Engine = create_engine(db_uri, convert_unicode=True, echo=db_echo)

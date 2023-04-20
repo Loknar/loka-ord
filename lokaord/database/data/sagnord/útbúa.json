@@ -5,15 +5,10 @@
 		{
 			"mynd": "út",
 			"samsetning": "stofn",
-			"orð": "út",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "bcc080fc5650301997f155af20fb6b00dc8e66f2777dcc3181d12c79d4761fbd"
+			"kennistrengur": "smáo.fs-út"
 		},
 		{
-			"orð": "búa",
-			"flokkur": "sagnorð",
-			"hash": "68a74b78e5befe880375b888535be8f3fc7c9727978d1cc90764d11c2e330b9f"
+			"kennistrengur": "so-búa"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "útbúast",
 		"sagnbót": "útbúist",
-		"boðháttur": {
-			"et": "útbústu",
-			"ft": "útbúist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -146,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "a3db5f666da931e60e7c8887e425225818810e49dad7f2364e447c5c9d756d3d"
+	"kennistrengur": "so-útbúa",
+	"hash": "c190a1213074c9ed882ae7455680aa4bc09c697b539d76cac37e259663d2770d"
 }

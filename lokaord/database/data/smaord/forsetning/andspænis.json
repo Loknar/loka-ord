@@ -2,6 +2,19 @@
 	"orð": "andspænis",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
+	"samsett": [
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-and-ó"
+		},
+		{
+			"mynd": "spænis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-spæni-hk"
+		}
+	],
 	"stýrir": ["þágufall"],
-	"hash": "0d888a296b35dbd29b87cf5699ce8fcd957fdcc4a843baff434e75e7894dd244"
+	"kennistrengur": "smáo.fs-andspænis",
+	"hash": "c5beddd76af19be2d3fe6c654fa28f722da4d251b35d23f17a7738e4a0022e89"
 }

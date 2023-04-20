@@ -2,26 +2,21 @@
 	"orð": "Skógarhlíð",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Skógar",
 			"samsetning": "eignarfalls",
-			"orð": "skógur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "8527d68fbe88cf3e5888ae9dc3498a87de5615ef0796a6ceec76ec5b8f08da3d"
+			"kennistrengur": "no-skógur-kk"
 		},
 		{
-			"orð": "hlíð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "3ff2ca652f4386db4a177c2a053423432e37ad0e9a18de846f5cab02d7dc901d"
+			"kennistrengur": "no-hlíð-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Skógarhlíð", "Skógarhlíð", "Skógarhlíð", "Skógarhlíðar"]
 	},
-	"hash": "654a6d05d4e9ba97c7485d3400edff5a2a81fab4078f74f1ef45713612459096"
+	"kennistrengur": "sérn.ön-Skógarhlíð-kvk",
+	"hash": "5bb7dfd7beaa08c4203a93f4f3e05e1d5f7bdeadc7cbf990164bf716852d337f"
 }

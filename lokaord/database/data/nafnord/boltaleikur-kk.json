@@ -6,16 +6,10 @@
 		{
 			"mynd": "bolta",
 			"samsetning": "eignarfalls",
-			"orð": "bolti",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "5474d4cb6c3a964bb93b827ef9d14e06d03a9136d608297115aee04090586434"
+			"kennistrengur": "no-bolti-kk"
 		},
 		{
-			"orð": "leikur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "0398238d42b096eebd5c5bca7facf76597ab551e8482cfc4a983ea3756c3a7d5"
+			"kennistrengur": "no-leikur-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["boltaleikir", "boltaleiki", "boltaleikjum", "boltaleikja"],
 		"mg": ["boltaleikirnir", "boltaleikina", "boltaleikjunum", "boltaleikjanna"]
 	},
-	"hash": "0984c84c1e5fe83de8438ae230ae2394317ca283b7de203bb3308622381068f3"
+	"kennistrengur": "no-boltaleikur-kk",
+	"hash": "7e9b96344fc899d3dc5ad048b0add2ce33b7a75058c795faec0de33c464991b2"
 }

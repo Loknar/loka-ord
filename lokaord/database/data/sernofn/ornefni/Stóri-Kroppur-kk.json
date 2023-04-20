@@ -2,27 +2,23 @@
 	"orð": "Stóri-Kroppur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"myndir": "frumstig-vb-kk",
-			"orð": "stór",
-			"flokkur": "lýsingarorð",
 			"hástafa": true,
 			"fylgir": "-",
-			"hash": "ee8e59edc73e9307261b64b3ed7b511b9d78df7871390e34923a28819acfb314"
+			"kennistrengur": "lo-stór"
 		},
 		{
-			"orð": "kroppur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "24eb6b46aabcb4a1d9326c2916371c1f42df1a13666c10fefdd21998b2ab175c"
+			"kennistrengur": "no-kroppur-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Stóri-Kroppur", "Stóra-Kropp", "Stóra-Kroppi", "Stóra-Kropps"]
 	},
-	"hash": "d9cb79e2a1e2a31bce51252abc3b8634cd597994e3bbd0e06bb883e4a73cd3a9"
+	"kennistrengur": "sérn.ön-Stóri-Kroppur-kk",
+	"hash": "4d63aafa6dbe321b6a238f0f2a57091ae776bd3ae2a02831b1a2cf5875fe46a1"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "vöru",
 			"samsetning": "eignarfalls",
-			"orð": "vara",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "88bea5be175062cad51c283aa6eeae4cd6e02e999fe58016261cac4b84606a01"
+			"kennistrengur": "no-vara-kvk"
 		},
 		{
-			"orð": "bíłl",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "be9b34f0ed33e40d71a439f2d5e728f36eec1e9a513d8792b9b11ba4ac3b8c34"
+			"kennistrengur": "no-bíłl-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["vörubílar", "vörubíla", "vörubílum", "vörubíla"],
 		"mg": ["vörubílarnir", "vörubílana", "vörubílunum", "vörubílanna"]
 	},
-	"hash": "17fede0ea8f8dd6cca0b229b6dae63d8510c2a513063d27e30599a4544ccdf00"
+	"kennistrengur": "no-vörubíłl-kk",
+	"hash": "142b8601d7d16e477f010a811eb058347e6138363d60d98b80dca35f46981cfb"
 }

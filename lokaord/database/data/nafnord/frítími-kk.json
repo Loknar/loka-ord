@@ -6,16 +6,10 @@
 		{
 			"mynd": "frí",
 			"samsetning": "stofn",
-			"orð": "frí",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "56d27d0c7db713e3750ff3df73b8a943f36d7f632dbaff1d17d952d2c595f5a6"
+			"kennistrengur": "no-frí-hk"
 		},
 		{
-			"orð": "tími",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "d2aec5999eaf78090880ec77d34b23d9fdbdaa8eb917235ff4f72f6f03823413"
+			"kennistrengur": "no-tími-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["frítímar", "frítíma", "frítímum", "frítíma"],
 		"mg": ["frítímarnir", "frítímana", "frítímunum", "frítímanna"]
 	},
-	"hash": "576f00fb5cbb95c00d3e6fe3b5bd154ae2a0274d552127ac91e5820c275a36f1"
+	"kennistrengur": "no-frítími-kk",
+	"hash": "164adaab137d3a301c6f13568b455e1fef5213f5f07821f05811fe6bd2733f84"
 }

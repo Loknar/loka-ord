@@ -6,25 +6,15 @@
 		{
 			"mynd": "for",
 			"samsetning": "stofn",
-			"orð": "for",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"ósjálfstætt": true,
-			"hash": "878c734932540f476181b48abb5c2869797bb0a49115b9964a2b60a077a1d2b8"
+			"kennistrengur": "smáo.ao-for-ó"
 		},
 		{
 			"mynd": "seta",
 			"samsetning": "eignarfalls",
-			"orð": "seti",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "f4b1f97908f57f78d8cb98d761e9b985bf7d7d54414fb017b92268d2f27f0df5"
+			"kennistrengur": "no-seti-kk"
 		},
 		{
-			"orð": "vald",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "361c957b51c99a9a4ccd49ec7d939ad5efaa1907f1486469cbe9f4af30f7e7f2"
+			"kennistrengur": "no-vald-hk"
 		}
 	],
 	"et": {
@@ -35,5 +25,6 @@
 		"ág": ["forsetavöld", "forsetavöld", "forsetavöldum", "forsetavalda"],
 		"mg": ["forsetavöldin", "forsetavöldin", "forsetavöldunum", "forsetavaldanna"]
 	},
-	"hash": "4ca72e210ffff4bb73bdabaebedf52534ada8c5baa8f7abafae639a6eb6c6dd2"
+	"kennistrengur": "no-forsetavald-hk",
+	"hash": "f3342f5e428fa41cef8c2618eaab30d26f90f46370bbe076731975265cb2d297"
 }

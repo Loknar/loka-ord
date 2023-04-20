@@ -6,16 +6,10 @@
 		{
 			"mynd": "jöfnunar",
 			"samsetning": "eignarfalls",
-			"orð": "jöfnun",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "71f39bc9aef7ebd1bc36e3cfaeca816d75ba87b8be1f62b135221d67e7f153f9"
+			"kennistrengur": "no-jöfnun-kvk"
 		},
 		{
-			"orð": "sæti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "4fafe110de49ff831ff99143e9434717fb2c01f60b0ecb586c6a3acbd07fb7aa"
+			"kennistrengur": "no-sæti-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["jöfnunarsæti", "jöfnunarsæti", "jöfnunarsætum", "jöfnunarsæta"],
 		"mg": ["jöfnunarsætin", "jöfnunarsætin", "jöfnunarsætunum", "jöfnunarsætanna"]
 	},
-	"hash": "cd907d0814638628b6c83d9b84f6bbedf83cc19d36d32b59f1a5448a0ac56cc4"
+	"kennistrengur": "no-jöfnunarsæti-hk",
+	"hash": "b0e3e0c6b5f9a4ea1739b61237af16dcafc22107a433c36ba8832c56ea5592ba"
 }

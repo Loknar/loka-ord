@@ -2,27 +2,21 @@
 	"orð": "Þorlaug",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þor",
 			"samsetning": "stofn",
-			"orð": "þor",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "72a310e89ff352fb346936d329d89c2f9492d3d427366bcc9f03ea8745ffc5b0"
+			"kennistrengur": "no-þor-hk"
 		},
 		{
-			"orð": "laug",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
 			"beygingar": ["et-ág"],
-			"hash": "496d4264127e5b60f9b06eff4246b1a45eca03118eca01197aff9c8d16f4246a"
+			"kennistrengur": "no-laug-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þorlaug", "Þorlaugu", "Þorlaugu", "Þorlaugar"]
 	},
-	"hash": "2e3c935c2ff520199b305201551861e8667b1c156892f9d6ea156fc4ca192d2a"
+	"kennistrengur": "sérn.en-Þorlaug-kvk",
+	"hash": "c548405b5361f070b52d5b7a08e2079ef1f2add596d6e240d8d076de3e5f853c"
 }

@@ -228,6 +228,7 @@ def build_sight(filename='sight', use_pointless=None):
     sight = {
         'orð': {},
         'hash': {},
+        'kennistrengur': {},
         'skammstafanir': {},
         'ts': ts,
         'v': version
@@ -387,6 +388,7 @@ def build_sight(filename='sight', use_pointless=None):
                 'f': os.path.join(task['dir'], ord_file.name),
                 'd': copy.deepcopy(ord_data)
             }
+            sight['kennistrengur'][ord_data['kennistrengur']] = ord_data['hash']
             if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
                 add_myndir(ord_data, sight, ord_mynd, ord_data['hash'])
     for sk_file in sorted(pathlib.Path(os.path.join(task['root'], 'skammstafanir')).iterdir()):

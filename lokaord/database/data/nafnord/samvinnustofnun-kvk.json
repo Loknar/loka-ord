@@ -6,24 +6,15 @@
 		{
 			"mynd": "sam",
 			"samsetning": "eignarfalls",
-			"orð": "samur",
-			"flokkur": "fornafn",
-			"undirflokkur": "óákveðið",
-			"hash": "fd41bc9b21db7226a1809612c214b38797f1c75c1398bbeaf9230b96a69ef67a"
+			"kennistrengur": "fn.óákv-samur"
 		},
 		{
 			"mynd": "vinnu",
 			"samsetning": "eignarfalls",
-			"orð": "vinna",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "da2d0f25464cc112073ac81e44597b73472622f45b3299e1df65b5c526f856f8"
+			"kennistrengur": "no-vinna-kvk"
 		},
 		{
-			"orð": "stofnun",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "c9525abca2a0dc6ff726b229d829e0636ba3ed37c3591ef99515150e21b70244"
+			"kennistrengur": "no-stofnun-kvk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["samvinnustofnanir", "samvinnustofnanir", "samvinnustofnunum", "samvinnustofnana"],
 		"mg": ["samvinnustofnanirnar", "samvinnustofnanirnar", "samvinnustofnununum", "samvinnustofnananna"]
 	},
-	"hash": "09a7bd235ce96b20e54905414fdeee253a2341d8a570950a809328f7924bcea9"
+	"kennistrengur": "no-samvinnustofnun-kvk",
+	"hash": "8a4acda52eb0a030be421202fd1e2473c8622f7fa32bbc3469203dc25dff68b4"
 }

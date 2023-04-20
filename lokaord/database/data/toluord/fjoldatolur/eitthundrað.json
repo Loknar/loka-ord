@@ -7,20 +7,25 @@
 		{
 			"mynd": "eitt",
 			"samsetning": "stofn",
-			"orð": "einn",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "121fc3e2c9bf11a41442ba64abe0f21ba1667b66a9ec63fc1b4793f959bbfbbb"
+			"kennistrengur": "to.ft-einn"
 		},
 		{
 			"mynd": "hundrað",
 			"samsetning": "stofn",
-			"orð": "hundrað",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "d9e030362131495c4cadb0b40c92103960f76d90af9179aaa709f87212013b98"
+			"kennistrengur": "to.ft-hundrað"
 		}
 	],
+	"et": {
+		"kk": ["eitthundrað", "eitthundrað", "eitthundrað", "eitthundrað"],
+		"kvk": ["eitthundrað", "eitthundrað", "eitthundrað", "eitthundrað"],
+		"hk": ["eitthundrað", "eitthundrað", "eitthundrað", "eitthundrað"]
+	},
+	"ft": {
+		"kk": ["eitthundruð", "eitthundruð", "eitthundruð", "eitthundruð"],
+		"kvk": ["eitthundruð", "eitthundruð", "eitthundruð", "eitthundruð"],
+		"hk": ["eitthundruð", "eitthundruð", "eitthundruð", "eitthundruð"]
+	},
 	"óbeygjanlegt": true,
-	"hash": "dc1e03ed109d2cf310699dee6c09906fb33f433482bebe32d752bf9c23279f1f"
+	"kennistrengur": "to.ft-eitthundrað",
+	"hash": "75e6cb44489420df96a0bb438fa0d8cc4b1e5dcce6935e6cfc812e4fb1bfce75"
 }

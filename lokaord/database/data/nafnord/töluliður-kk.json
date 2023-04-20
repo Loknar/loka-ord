@@ -6,16 +6,10 @@
 		{
 			"mynd": "tölu",
 			"samsetning": "eignarfalls",
-			"orð": "tala",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "77ab70a93f4b389a74d0ea044aa61723719d3fbb9e2fc4c0dd5e5048adea726f"
+			"kennistrengur": "no-tala-kvk"
 		},
 		{
-			"orð": "liður",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "8a9028f657762b829f2ae6ac62f0f69c0e3163427d0a50bc0cc1e4601de0c1b2"
+			"kennistrengur": "no-liður-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["töluliðir", "töluliði", "töluliðum", "töluliða"],
 		"mg": ["töluliðirnir", "töluliðina", "töluliðunum", "töluliðanna"]
 	},
-	"hash": "63ff4744ca21752fe7b52380396fc4731c63330bbd8317bdcab1cb888c6d133b"
+	"kennistrengur": "no-töluliður-kk",
+	"hash": "8161d5c9567a28f5cc4e39386c5d11cb5d3a1b30fab2a3dbdd548e96e0d86f7a"
 }

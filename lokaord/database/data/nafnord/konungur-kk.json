@@ -6,17 +6,10 @@
 		{
 			"mynd": "kon",
 			"samsetning": "stofn",
-			"orð": "kóngur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "ab28a729fa6fefd0a4a4f8accc4568af2f583ab27dd23f72dbc1b359ca43a031"
+			"kennistrengur": "no-kóngur-kk"
 		},
 		{
-			"orð": "ungur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "b0fe74bc32abb98fe4e46d4dd5e7c2e9fc4ba1fc04f87dea08c23d8753b1c468"
+			"kennistrengur": "no-ungur-kk-ó"
 		}
 	],
 	"et": {
@@ -27,5 +20,6 @@
 		"ág": ["konungar", "konunga", "konungum", "konunga"],
 		"mg": ["konungarnir", "konungana", "konungunum", "konunganna"]
 	},
-	"hash": "b010d2c69eadc274f087f116182466d8ba77635c60cdc929f87758fd102a336b"
+	"kennistrengur": "no-konungur-kk",
+	"hash": "4916557a8541185e4c0c2210790df273a3350af9caf506e44a51469cb3f80554"
 }

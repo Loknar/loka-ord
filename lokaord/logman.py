@@ -28,7 +28,7 @@ log = None
 
 Log_Config = {
     'filename': '{name}.{role}{format}.log',
-    'loglevel': logging.DEBUG,
+    'loglevel': logging.INFO,
     'format': (
         '[%(asctime)s.%(msecs)03d] '
         '[%(levelname)s] %(message)s '

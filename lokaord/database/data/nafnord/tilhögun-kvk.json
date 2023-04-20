@@ -6,16 +6,10 @@
 		{
 			"mynd": "til",
 			"samsetning": "stofn",
-			"orð": "til",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "d8047f9d72ba36b858b3458bf78c0abdda6921be537c679f4cc1180641b063ab"
+			"kennistrengur": "smáo.fs-til"
 		},
 		{
-			"orð": "högun",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7b2a064afb22ee72624ff6a867b83e2d202625cd289dc662549bb4c8ead559aa"
+			"kennistrengur": "no-högun-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["tilhaganir", "tilhaganir", "tilhögunum", "tilhagana"],
 		"mg": ["tilhaganirnar", "tilhaganirnar", "tilhögununum", "tilhagananna"]
 	},
-	"hash": "e0f73fb001a54ee664d304dddd35b1193a40a3042973caab1be21b50fc147a10"
+	"kennistrengur": "no-tilhögun-kvk",
+	"hash": "1438988b063e4d1cc221aba5978a61380a34f662176faa018a111d8ed3feb2ba"
 }

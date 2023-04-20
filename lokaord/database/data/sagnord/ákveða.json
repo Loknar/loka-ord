@@ -5,15 +5,10 @@
 		{
 			"mynd": "á",
 			"samsetning": "stofn",
-			"orð": "á",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "50680b62e05b9c51f254b0364c8b7e39eebfaa7df9a6db7e36574eaef561117e"
+			"kennistrengur": "smáo.fs-á"
 		},
 		{
-			"orð": "kveða",
-			"flokkur": "sagnorð",
-			"hash": "f3db1a938610086e81bc4654000f589ae9165baafcbd11bf787fe8375b589a3c"
+			"kennistrengur": "so-kveða"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "ákveðast",
 		"sagnbót": "ákveðist",
-		"boðháttur": {
-			"et": "ákveðstu",
-			"ft": "ákveðist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -146,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "98e880331311bb1247d4754dc9d1d07d41acee31d3d2f32d94fecfeb9d94b0a0"
+	"kennistrengur": "so-ákveða",
+	"hash": "fb7a113cdce48f5aabdf2c9e6da56808f4469fb414992aaff49475e75e44dda8"
 }

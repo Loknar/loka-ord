@@ -6,16 +6,10 @@
 		{
 			"mynd": "skjald",
 			"samsetning": "stofn",
-			"orð": "skjöldur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b704fb7abd783e832d11434302c3ab3bf83017854476b33aa266f06cc4df705a"
+			"kennistrengur": "no-skjöldur-kk"
 		},
 		{
-			"orð": "baka",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f41a4186d5da2dc86838e3157173d7af3a821ff25aee45614c8b578ef5cfe576"
+			"kennistrengur": "no-baka-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["skjaldbökur", "skjaldbökur", "skjaldbökum", "skjaldbaka"],
 		"mg": ["skjaldbökurnar", "skjaldbökurnar", "skjaldbökunum", "skjaldbakanna"]
 	},
-	"hash": "76a7da56003066d057e2c530bdbb67b39be83dd23dcc39ae7c10a1f1950f1c47"
+	"kennistrengur": "no-skjaldbaka-kvk",
+	"hash": "9125d84cf53e82bfc159630e66cb58e3b02810d0a3d61a0b2b03a980509ba47f"
 }

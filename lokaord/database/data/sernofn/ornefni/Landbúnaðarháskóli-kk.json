@@ -2,42 +2,32 @@
 	"orð": "Landbúnaðarháskóli",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Land",
 			"samsetning": "stofn",
-			"orð": "land",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "da5bb4ce17288e538b7dd028c03af1dd30c3249bdec0be4a01b14ffa2fbfba52"
+			"kennistrengur": "no-land-hk"
 		},
 		{
 			"mynd": "búnaðar",
 			"samsetning": "eignarfalls",
-			"orð": "búnaður",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "396cf58bc7958d8df8d8be4cf66833abe152a2cfd4ea3d1393a295cf60a425aa"
+			"kennistrengur": "no-búnaður-kk"
 		},
 		{
 			"mynd": "há",
 			"samsetning": "stofn",
-			"orð": "hár",
-			"flokkur": "lýsingarorð",
-			"hash": "89e250fa6c3c6529f192ea1092d5f52257fa781797b5335aba9b6f60a30e6d64"
+			"kennistrengur": "lo-hár"
 		},
 		{
-			"orð": "skóli",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág", "et-mg"],
-			"hash": "2ea0c0854aa0584389cad8ec8d7a679d064dc6ea10844e754b0bd1f39b1ee0a3"
+			"kennistrengur": "no-skóli-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Landbúnaðarháskóli", "Landbúnaðarháskóla", "Landbúnaðarháskóla", "Landbúnaðarháskóla"],
 		"mg": ["Landbúnaðarháskólinn", "Landbúnaðarháskólann", "Landbúnaðarháskólanum", "Landbúnaðarháskólans"]
 	},
-	"hash": "a6fd2fd4a57de48775fb398562582056b561e9f685520a225e4eecf8883fd6cc"
+	"kennistrengur": "sérn.ön-Landbúnaðarháskóli-kk",
+	"hash": "321e7c36dd6e734205a65e813ce6dc330300c3f4e2a6a6568f4adf04be2b1325"
 }

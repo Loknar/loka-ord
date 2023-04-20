@@ -2,27 +2,20 @@
 	"orð": "Hjördís",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Hjör",
 			"samsetning": "stofn",
-			"orð": "hjör",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "9c1de811129a04303d0fab27e9c80c651f125b7818ee930cf9732069738706c0"
+			"kennistrengur": "no-hjör-kvk"
 		},
 		{
-			"orð": "dís",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "dfb03cc34caed2d8dfffc943298d891aa5c0f22a86552f8615e5b4b5a7582b0c"
+			"kennistrengur": "sérn.en-dís-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Hjördís", "Hjördísi", "Hjördísi", "Hjördísar"]
 	},
-	"hash": "d5937a1d40dd0d9926f77885555ac9a239261b655e0bf91307ae51fd73610f63"
+	"kennistrengur": "sérn.en-Hjördís-kvk",
+	"hash": "1a62160ce980d169b0ee6da328c3bebb9a8ebd47c9a4467fdc4254c9ecfc466b"
 }

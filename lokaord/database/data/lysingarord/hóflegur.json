@@ -5,16 +5,10 @@
 		{
 			"mynd": "hóf",
 			"samsetning": "stofn",
-			"orð": "hóf",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "6a5ce84cfd2f65851d3069e9732392eec2e1d5b962e65b32c432e77faf7ffa50"
+			"kennistrengur": "no-hóf-hk"
 		},
 		{
-			"orð": "legur",
-			"flokkur": "lýsingarorð",
-			"ósjálfstætt": true,
-			"hash": "db1a87d49cf232f93b10f3161d509c01a0674c6239c04d97f366f753ec3a3d98"
+			"kennistrengur": "lo-legur-ó"
 		}
 	],
 	"frumstig": {
@@ -83,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "7ca706161b0d412a7021a9faf78648716d5eca26911b8a2557c4657a2ac43732"
+	"kennistrengur": "lo-hóflegur",
+	"hash": "30f5ac2c810ff86dc7c0b72463c3cba42420d3d4d21bb62329ebfcf86ce3b96b"
 }

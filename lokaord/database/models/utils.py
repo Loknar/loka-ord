@@ -7,7 +7,7 @@ from sqlalchemy import Column, Unicode, Integer, ForeignKey, Boolean, Enum, Nume
 TimestampIsoformat = '%Y-%m-%dT%H:%M:%S.%f'
 TimestampIsoformatLength = 26
 
-MaximumWordLength = 128
+MaxWordLength = 128
 
 
 class StringyDateTime(types.TypeDecorator):
@@ -17,6 +17,7 @@ class StringyDateTime(types.TypeDecorator):
     BECAUSE DateTime TENDS TO HAVE VARIOUS RANDOM ISSUES DEPENDING ON DATABASE SOFTWARE
     WHICH INTERACTS WITH sqlite ( affirmation: not an issue with sqlite )
     '''
+    cache_ok = True
 
     @property
     def python_type(self):
@@ -44,6 +45,7 @@ class StringyDateTime(types.TypeDecorator):
 
 
 class StringyDecimal(types.TypeDecorator):
+    cache_ok = True
 
     @property
     def python_type(self):
@@ -73,37 +75,23 @@ class StringyDecimal(types.TypeDecorator):
             return None
 
 
-def timestamp(column_name: str, index: bool = False) -> Column:
+def timestamp_created():
     return Column(
-        column_name,
         types.DateTime().with_variant(StringyDateTime, 'sqlite'),
-        index=index,
-        nullable=True
+        default=datetime.datetime.utcnow
     )
 
 
-def timestamp_created():
-    def ts_utcnow():
-        return datetime.datetime.utcnow().strftime(TimestampIsoformat)
-    return Column(Unicode(TimestampIsoformatLength), default=ts_utcnow)
-
-
 def timestamp_edited():
-    def ts_utcnow():
-        return datetime.datetime.utcnow().strftime(TimestampIsoformat)
-    return Column(Unicode(TimestampIsoformatLength), default=ts_utcnow, onupdate=ts_utcnow)
+    return Column(
+        types.DateTime().with_variant(StringyDateTime, 'sqlite'),
+        default=datetime.datetime.utcnow,
+        onupdate=datetime.datetime.utcnow
+    )
 
 
-def timestamp_future(minutes=(60 * 24)):
-    def ts_future():
-        return (
-            datetime.datetime.utcnow() + datetime.timedelta(minutes=minutes)
-        ).strftime(TimestampIsoformat)
-    return Column(Unicode(TimestampIsoformatLength), default=ts_future)
-
-
-def word_column(nullable=True):
-    return Column(Unicode(MaximumWordLength), nullable=nullable, server_default=None)
+def word(nullable=True, unique=False):
+    return Column(Unicode(MaxWordLength), nullable=nullable, unique=unique, server_default=None)
 
 
 def boolean_default_false():

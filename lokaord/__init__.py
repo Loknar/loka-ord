@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import datetime
 import json
 import sys
 
@@ -9,7 +10,6 @@ from lokaord import logman
 from lokaord import seer
 from lokaord.database import db
 from lokaord.database.models import isl
-from lokaord.exporter import get_samsett_ord_from_db_to_ordered_dict
 from lokaord.version import __version__
 
 ArgParser = None
@@ -516,11 +516,29 @@ def get_words_count_markdown_table():
     return md_table
 
 
+def strptime_multi_formats(ts: str, fmts: list[str]) -> datetime.datetime:
+    for fmt in fmts:
+        try:
+            return datetime.datetime.strptime(ts, fmt)
+        except ValueError as err:
+            pass
+    raise ValueError(f'time data \'{ts}\' does not match any acceptable formats')
+
+
 def main(arguments):
     logman.init(
         arguments['logger_name'], role=arguments['role'], output_dir=arguments['log_directory']
     )
     db_name = 'lokaord'
+    write_files_ts = None
+    if 'write_files_ts' in arguments and arguments['write_files_ts'] is not None:
+        acceptable_ts_formats = ['%Y-%m-%dT%H:%M', '%Y-%m-%d']
+        try:
+            write_files_ts_str = arguments['write_files_ts']
+            write_files_ts = strptime_multi_formats(write_files_ts_str, acceptable_ts_formats)
+        except ValueError as err:
+            logman.error(f'provided TIMESTAMP \'{write_files_ts_str}\' not in supported format')
+            return
     if 'backup_db' in arguments and arguments['backup_db'] is True:
         db.backup_sqlite_db_file(db_name)
     if 'rebuild_db' in arguments and arguments['rebuild_db'] is True:
@@ -533,12 +551,17 @@ def main(arguments):
     if 'add_word_cli' in arguments and arguments['add_word_cli'] is True:
         cli.add_word_cli()
     if (
-        'build_db' in arguments and arguments['build_db'] is True or
-        'rebuild_db' in arguments and arguments['rebuild_db'] is True
+        ('build_db' in arguments and arguments['build_db'] is True) or
+        ('rebuild_db' in arguments and arguments['rebuild_db'] is True)
     ):
-        importer.build_db_from_datafiles()
-    if 'write_files' in arguments and arguments['write_files'] is True:
-        exporter.write_datafiles_from_db()
+        importer.import_datafiles_to_db()
+    if 'build_db_ch' in arguments and arguments['build_db_ch'] is True:
+        importer.import_changed_datafiles_to_db()
+    if (
+        ('write_files' in arguments and arguments['write_files'] is True) or
+        ('write_files_ts' in arguments and arguments['write_files_ts'] is not None)
+    ):
+        exporter.write_datafiles_from_db(write_files_ts)
     if 'build_sight' in arguments and arguments['build_sight'] is True:
         seer.build_sight()
     if 'search' in arguments and arguments['search'] is not None:
@@ -552,4 +575,4 @@ def main(arguments):
     if 'md_stats' in arguments and arguments['md_stats'] is True:
         print(get_words_count_markdown_table())
     if 'run_fiddle' in arguments and arguments['run_fiddle'] is True:
-        print('Running fiddle!')
+        logman.info('Running fiddle!')

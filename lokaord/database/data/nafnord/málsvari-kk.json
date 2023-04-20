@@ -6,16 +6,10 @@
 		{
 			"mynd": "máls",
 			"samsetning": "eignarfalls",
-			"orð": "mál",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "2e1f01501d367bbe91c4e1cc7daa22ad3278798dc192fd1a87b41359008215dc"
+			"kennistrengur": "no-mál-hk"
 		},
 		{
-			"orð": "vari",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "cb65eb6c6ed24f0b2c70c0eb16383f7ac258ce1db18b94bf85ad87af6d0fc9aa"
+			"kennistrengur": "no-vari-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["málsvarar", "málsvara", "málsvörum", "málsvara"],
 		"mg": ["málsvararnir", "málsvarana", "málsvörunum", "málsvaranna"]
 	},
-	"hash": "162b252ee3796ead06a4f36d2d89a58bf2e0d4598683509e297945a50817cd02"
+	"kennistrengur": "no-málsvari-kk",
+	"hash": "0e9ed88ded9c3e5af0eb45bc3e63f0f5978452e83bc25067b886681158d3c065"
 }

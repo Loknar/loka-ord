@@ -5,15 +5,10 @@
 		{
 			"mynd": "út",
 			"samsetning": "stofn",
-			"orð": "út",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "bcc080fc5650301997f155af20fb6b00dc8e66f2777dcc3181d12c79d4761fbd"
+			"kennistrengur": "smáo.fs-út"
 		},
 		{
-			"orð": "hluta",
-			"flokkur": "sagnorð",
-			"hash": "040961a69e8b220d74e13604f1d16a45365dac48b8c6c8afa4e5c6b881977b79"
+			"kennistrengur": "so-hluta"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "úthlutast",
 		"sagnbót": "úthlutast",
-		"boðháttur": {
-			"et": "úthlutastu",
-			"ft": "úthlutist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -146,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "0cdfba53fd8dfb0fb60ab28421980f0856cb2d3abd8c45e51ae85c8e3d3dc73b"
+	"kennistrengur": "so-úthluta",
+	"hash": "7462929bc87543b644f2f6290cba672210dc08952d300181f9e4ef31e628b721"
 }

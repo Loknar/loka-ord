@@ -2,27 +2,20 @@
 	"orð": "Valdís",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Val",
 			"samsetning": "stofn",
-			"orð": "valur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b0e5a5376b36ee76b89b77dedcf3815892414d513c0f8b88ca9d867f27b131a4"
+			"kennistrengur": "no-valur-kk"
 		},
 		{
-			"orð": "dís",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "dfb03cc34caed2d8dfffc943298d891aa5c0f22a86552f8615e5b4b5a7582b0c"
+			"kennistrengur": "sérn.en-dís-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Valdís", "Valdísi", "Valdísi", "Valdísar"]
 	},
-	"hash": "bfbd1953494c3a887d8125b6fac6403b0d8018b78ebc9de12163f1c9b798a132"
+	"kennistrengur": "sérn.en-Valdís-kvk",
+	"hash": "2c188a07b42e97d508675d4288de25e3cd500110115cf2e4e2f6fac68dabdcf7"
 }

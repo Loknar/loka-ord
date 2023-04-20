@@ -6,25 +6,15 @@
 		{
 			"mynd": "kon",
 			"samsetning": "stofn",
-			"orð": "kóngur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "ab28a729fa6fefd0a4a4f8accc4568af2f583ab27dd23f72dbc1b359ca43a031"
+			"kennistrengur": "no-kóngur-kk"
 		},
 		{
 			"mynd": "ungs",
 			"samsetning": "eignarfalls",
-			"orð": "ungur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "b0fe74bc32abb98fe4e46d4dd5e7c2e9fc4ba1fc04f87dea08c23d8753b1c468"
+			"kennistrengur": "no-ungur-kk-ó"
 		},
 		{
-			"orð": "bréf",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "fbcbc279fc07bb2b65cde1320726c697f1adb3258bc41af8028fd010fd389f3d"
+			"kennistrengur": "no-bréf-hk"
 		}
 	],
 	"et": {
@@ -35,5 +25,6 @@
 		"ág": ["konungsbréf", "konungsbréf", "konungsbréfum", "konungsbréfa"],
 		"mg": ["konungsbréfin", "konungsbréfin", "konungsbréfunum", "konungsbréfanna"]
 	},
-	"hash": "a9899450af6948088c650dcbcdb45bb3a41f185551869496500e3088c09219cd"
+	"kennistrengur": "no-konungsbréf-hk",
+	"hash": "fd8a3f69cc0bbb9b25c217cca513a1270bd48b2d7fab5f09c441b38e23ceec5c"
 }

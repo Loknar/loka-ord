@@ -2,19 +2,17 @@
 	"orð": "Þúfa",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "þúfa",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "1029bce7177365a55211aa8b16937fa6e9229ad3b7f20b7b5bf57ad7e62cc241"
+			"kennistrengur": "no-þúfa-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þúfa", "Þúfu", "Þúfu", "Þúfu"]
 	},
-	"hash": "6217af8c76d37f05aeeb31845e89b371b9048ece96747301b7838274565517e9"
+	"kennistrengur": "sérn.en-Þúfa-kvk",
+	"hash": "f5249b99aaa2794c05fd909278e305a0802938b309f84c51ec9ae6f366768264"
 }

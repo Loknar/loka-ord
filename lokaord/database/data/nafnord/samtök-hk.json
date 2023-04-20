@@ -6,22 +6,17 @@
 		{
 			"mynd": "sam",
 			"samsetning": "eignarfalls",
-			"orð": "samur",
-			"flokkur": "fornafn",
-			"undirflokkur": "óákveðið",
-			"hash": "fd41bc9b21db7226a1809612c214b38797f1c75c1398bbeaf9230b96a69ef67a"
+			"kennistrengur": "fn.óákv-samur"
 		},
 		{
-			"orð": "tak",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["ft-ág", "ft-mg"],
-			"hash": "98f6c6dc21624f14b73fd686f83e060472b5d8f07414652ba5713d5af3581044"
+			"kennistrengur": "no-tak-hk"
 		}
 	],
 	"ft": {
 		"ág": ["samtök", "samtök", "samtökum", "samtaka"],
 		"mg": ["samtökin", "samtökin", "samtökunum", "samtakanna"]
 	},
-	"hash": "9f9aac3a04954fd6165ce56d7c796ed0574f014e09ae5c4d5b44b2e058f09c9e"
+	"kennistrengur": "no-samtök-hk",
+	"hash": "fe62dbd61c5e194afa90579671fe721c71eccac9d0fde4f3de521bd5b59ea99a"
 }

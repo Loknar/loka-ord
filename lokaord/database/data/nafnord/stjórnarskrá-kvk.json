@@ -6,16 +6,10 @@
 		{
 			"mynd": "stjórnar",
 			"samsetning": "eignarfalls",
-			"orð": "stjórn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+			"kennistrengur": "no-stjórn-kvk"
 		},
 		{
-			"orð": "skrá",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "54bf2f7f29a7dfc7c585c1007e1aeaa60e8edb6368ecb448bdb8a1c292692ccb"
+			"kennistrengur": "no-skrá-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["stjórnarskrár", "stjórnarskrár", "stjórnarskráum", "stjórnarskráa"],
 		"mg": ["stjórnarskrárnar", "stjórnarskrárnar", "stjórnarskránum", "stjórnarskránna"]
 	},
-	"hash": "7065a25f21364d7b0a9fade08fa712d254b11cac306d1c811f4ecab14e3ae6dc"
+	"kennistrengur": "no-stjórnarskrá-kvk",
+	"hash": "2f9dbf8fd762ccc74bfaf705f4e3a39fac1cf12153ab150dbb050843e2eb34fa"
 }

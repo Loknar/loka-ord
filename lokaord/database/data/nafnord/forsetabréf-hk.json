@@ -6,25 +6,15 @@
 		{
 			"mynd": "for",
 			"samsetning": "stofn",
-			"orð": "for",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"ósjálfstætt": true,
-			"hash": "878c734932540f476181b48abb5c2869797bb0a49115b9964a2b60a077a1d2b8"
+			"kennistrengur": "smáo.ao-for-ó"
 		},
 		{
 			"mynd": "seta",
 			"samsetning": "eignarfalls",
-			"orð": "seti",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "f4b1f97908f57f78d8cb98d761e9b985bf7d7d54414fb017b92268d2f27f0df5"
+			"kennistrengur": "no-seti-kk"
 		},
 		{
-			"orð": "bréf",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "fbcbc279fc07bb2b65cde1320726c697f1adb3258bc41af8028fd010fd389f3d"
+			"kennistrengur": "no-bréf-hk"
 		}
 	],
 	"et": {
@@ -35,5 +25,6 @@
 		"ág": ["forsetabréf", "forsetabréf", "forsetabréfum", "forsetabréfa"],
 		"mg": ["forsetabréfin", "forsetabréfin", "forsetabréfunum", "forsetabréfanna"]
 	},
-	"hash": "d969c4fc78f2ba8cfde33d6738fb3e68d47bbb2a35ca04e1ce3bbe5e7b2404c6"
+	"kennistrengur": "no-forsetabréf-hk",
+	"hash": "4c9f70169ba72c2328387503f5e5b090feb765dab03508616d971483bc64eba1"
 }

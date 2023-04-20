@@ -15,7 +15,7 @@ class Ordflokkar(enum.Enum):
     Radtala = 5   # / þeir listaðir beint hér sem orðflokkar í stað þess að flokka sem undirflokka
     # sagnorð
     Sagnord = 6
-    # smáorð / óbeygjanleg orð
+    # smáorð / óbeygjanleg orð, undirflokkar listaðir beint sem orðflokkar eins og töluorðin
     Forsetning = 7
     Atviksord = 8
     Nafnhattarmerki = 9
@@ -29,7 +29,7 @@ class Ordasamsetningar(enum.Enum):
     Stofnsamsetning = 0  # dæmi: eldhús
     Eignarfallssamsetning = 1  # dæmi: eldavél/eldsmatur (eignarfall ft af eldur er elda)
     Bandstafssamsetning = 2  # dæmi: eldiviður, fiskifluga, hangikjöt
-                             #       (tengistafur iðulega i, en getur einnig verið a, u, s ..)
+    #                                (tengistafur iðulega i, en getur einnig verið a, u, s ..)
 
 
 class Kyn(enum.Enum):
@@ -93,14 +93,15 @@ class LysingarordMyndir(enum.Enum):
 class Ord(Base):
     __tablename__ = 'Ord'
     Ord_id = utils.integer_primary_key()
-    Ord = utils.word_column(nullable=False)
+    Ord = utils.word(nullable=False)
     Ordflokkur = utils.selection(Ordflokkar, Ordflokkar.Nafnord, nullable=False)
     Samsett = utils.boolean_default_false()
     Tolugildi = utils.decimal()
     Undantekning = utils.boolean_default_false()
     OsjalfstaedurOrdhluti = utils.boolean_default_false()
     Obeygjanlegt = utils.boolean_default_false()
-    Merking = utils.word_column()  # skeytt í skráarnafn ef ekki null, með _ framan og aftan
+    Merking = utils.word()
+    Kennistrengur = utils.word(nullable=False, unique=True)
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -109,23 +110,23 @@ class SamsettOrd(Base):
     __tablename__ = 'SamsettOrd'
     SamsettOrd_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    fk_FyrstiOrdHluti_id = utils.foreign_integer_primary_key('SamsettOrdhlutar')
+    fk_FyrstiOrdHluti_id = utils.foreign_integer_primary_key('SamsettOrdhluti')
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
 
-class SamsettOrdhlutar(Base):
-    __tablename__ = 'SamsettOrdhlutar'
-    SamsettOrdhlutar_id = utils.integer_primary_key()
+class SamsettOrdhluti(Base):
+    __tablename__ = 'SamsettOrdhluti'
+    SamsettOrdhluti_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Ordmynd = utils.word_column()
+    Ordmynd = utils.word()
     Gerd = utils.selection(Ordasamsetningar, None)
     LysingarordMyndir = utils.selection(LysingarordMyndir, None)
-    fk_NaestiOrdhluti_id = utils.foreign_integer_primary_key('SamsettOrdhlutar')
+    fk_NaestiOrdhluti_id = utils.foreign_integer_primary_key('SamsettOrdhluti')
     Lagstafa = utils.boolean_default_false()  # stilling til að lágstafa orðhluta
     Hastafa = utils.boolean_default_false()  # stilling til að hástafa upphafsstaf orðhluta
-    Leidir = utils.word_column()
-    Fylgir = utils.word_column()
+    Leidir = utils.word()
+    Fylgir = utils.word()
     # exclude specific beygingar ("beygingar": ["et-ág", "et-mg", "ft-ág", "ft-mg"])
     Exclude_et_ag = utils.boolean_default_false()
     Exclude_et_mg = utils.boolean_default_false()
@@ -257,10 +258,10 @@ class Radtala(Base):  # Töluorð - Raðtala (fyrsti, annar, þriðji, fjórði 
 class Fallbeyging(Base):
     __tablename__ = 'Fallbeyging'
     Fallbeyging_id = utils.integer_primary_key()
-    Nefnifall = utils.word_column()
-    Tholfall = utils.word_column()
-    Thagufall = utils.word_column()
-    Eignarfall = utils.word_column()
+    Nefnifall = utils.word()
+    Tholfall = utils.word()
+    Thagufall = utils.word()
+    Eignarfall = utils.word()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -311,13 +312,13 @@ class Sagnord(Base):
     # tilgreina hvort sögn er sterk eða veik?
     # https://is.wikipedia.org/wiki/Sagnmyndir#Germynd
     # germynd (áherslan er á geranda setningarinnar)
-    Germynd_Nafnhattur = utils.word_column()  # (dæmi: að ganga)
+    Germynd_Nafnhattur = utils.word()  # (dæmi: að ganga)
     # sagnbót, lýsingarháttur stendur alltaf í hvorugkyni eintölu
-    Germynd_Sagnbot = utils.word_column()  # (dæmi: ég hef gengið)
+    Germynd_Sagnbot = utils.word()  # (dæmi: ég hef gengið)
     # https://is.wikipedia.org/wiki/Bo%C3%B0h%C3%A1ttur#St%C3%BDf%C3%B0ur_bo%C3%B0h%C3%A1ttur
-    Germynd_Bodhattur_styfdur = utils.word_column()  # Stýfður boðháttur (dæmi: gakk (þú))
-    Germynd_Bodhattur_et = utils.word_column()  # (dæmi: gakktu)
-    Germynd_Bodhattur_ft = utils.word_column()  # (dæmi: gangið)
+    Germynd_Bodhattur_styfdur = utils.word()  # Stýfður boðháttur (dæmi: gakk (þú))
+    Germynd_Bodhattur_et = utils.word()  # (dæmi: gakktu)
+    Germynd_Bodhattur_ft = utils.word()  # (dæmi: gangið)
     # framsöguháttur (ég/þú/[hann/hún/það], dæmi: ég geng)
     fk_Germynd_personuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # viðtengingarháttur (þó ég/þú/[hann/hún/það], dæmi: þó ég gangi)
@@ -328,20 +329,20 @@ class Sagnord(Base):
     fk_Germynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     fk_Germynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # spurnarmyndir, önnur persóna samtengd sögn (dæmi: býrð þú -> býrðu, gefur þú -> gefurðu)
-    Germynd_spurnarmyndir_framsoguhattur_nutid_et = utils.word_column()
-    Germynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word_column()
-    Germynd_spurnarmyndir_framsoguhattur_thatid_et = utils.word_column()
-    Germynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word_column()
-    Germynd_spurnarmyndir_vidtengingarhattur_nutid_et = utils.word_column()
-    Germynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word_column()
-    Germynd_spurnarmyndir_vidtengingarhattur_thatid_et = utils.word_column()
-    Germynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word_column()
+    Germynd_spurnarmyndir_framsoguhattur_nutid_et = utils.word()
+    Germynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word()
+    Germynd_spurnarmyndir_framsoguhattur_thatid_et = utils.word()
+    Germynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word()
+    Germynd_spurnarmyndir_vidtengingarhattur_nutid_et = utils.word()
+    Germynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word()
+    Germynd_spurnarmyndir_vidtengingarhattur_thatid_et = utils.word()
+    Germynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word()
     # https://is.wikipedia.org/wiki/Mi%C3%B0mynd
     # miðmynd (segir frá því hvað gerandi/gerendur gerir/gera við eða fyrir sjálfan/sjálfa sig)
-    Midmynd_Nafnhattur = utils.word_column()  # (dæmi: að gefast)
-    Midmynd_Sagnbot = utils.word_column()  # (dæmi: ég hef gefist)
-    Midmynd_Bodhattur_et = utils.word_column()  # (dæmi: gefstu upp)
-    Midmynd_Bodhattur_ft = utils.word_column()  # (dæmi: gefist upp)
+    Midmynd_Nafnhattur = utils.word()  # (dæmi: að gefast)
+    Midmynd_Sagnbot = utils.word()  # (dæmi: ég hef gefist)
+    Midmynd_Bodhattur_et = utils.word()  # (dæmi: gefstu upp)
+    Midmynd_Bodhattur_ft = utils.word()  # (dæmi: gefist upp)
     # framsöguháttur (ég/þú/[hann/hún/það], dæmi: ég gengst)
     fk_Midmynd_personuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # viðtengingarháttur (þó ég/þú/[hann/hún/það], dæmi: þó ég gangist)
@@ -351,16 +352,16 @@ class Sagnord(Base):
     fk_Midmynd_opersonuleg_framsoguhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     fk_Midmynd_opersonuleg_vidtengingarhattur = utils.foreign_integer_primary_key('Sagnbeyging')
     # spurnarmyndir, önnur persóna samtengd sögn (dæmi: býst þú -> býstu, gefst þú -> gefstu)
-    Midmynd_spurnarmyndir_framsoguhattur_nutid_et = utils.word_column()
-    Midmynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word_column()
-    Midmynd_spurnarmyndir_framsoguhattur_thatid_et = utils.word_column()
-    Midmynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word_column()
-    Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et = utils.word_column()
-    Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word_column()
-    Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et = utils.word_column()
-    Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word_column()
+    Midmynd_spurnarmyndir_framsoguhattur_nutid_et = utils.word()
+    Midmynd_spurnarmyndir_framsoguhattur_nutid_ft = utils.word()
+    Midmynd_spurnarmyndir_framsoguhattur_thatid_et = utils.word()
+    Midmynd_spurnarmyndir_framsoguhattur_thatid_ft = utils.word()
+    Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et = utils.word()
+    Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft = utils.word()
+    Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et = utils.word()
+    Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft = utils.word()
     # lýsingarháttur nútíðar
-    LysingarhatturNutidar = utils.word_column()  # (dæmi: gangandi)
+    LysingarhatturNutidar = utils.word()  # (dæmi: gangandi)
     # lýsingarháttur þátíðar (þolmyndir)
     fk_LysingarhatturThatidar_sb_et_kk_id = utils.foreign_integer_primary_key('Fallbeyging')
     fk_LysingarhatturThatidar_sb_et_kvk_id = utils.foreign_integer_primary_key('Fallbeyging')
@@ -376,8 +377,8 @@ class Sagnord(Base):
     fk_LysingarhatturThatidar_vb_ft_hk_id = utils.foreign_integer_primary_key('Fallbeyging')
     # Óskháttur
     # https://is.wikipedia.org/wiki/%C3%93skh%C3%A1ttur
-    Oskhattur_1p_ft = utils.word_column()
-    Oskhattur_3p = utils.word_column()
+    Oskhattur_1p_ft = utils.word()
+    Oskhattur_3p = utils.word()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -387,21 +388,21 @@ class Sagnbeyging(Base):
     __tablename__ = 'Sagnbeyging'
     Sagnbeyging_id = utils.integer_primary_key()
     # nútíð, eintala
-    FyrstaPersona_eintala_nutid = utils.word_column()
-    OnnurPersona_eintala_nutid = utils.word_column()
-    ThridjaPersona_eintala_nutid = utils.word_column()
+    FyrstaPersona_eintala_nutid = utils.word()
+    OnnurPersona_eintala_nutid = utils.word()
+    ThridjaPersona_eintala_nutid = utils.word()
     # nútíð, fleirtala
-    FyrstaPersona_fleirtala_nutid = utils.word_column()
-    OnnurPersona_fleirtala_nutid = utils.word_column()
-    ThridjaPersona_fleirtala_nutid = utils.word_column()
+    FyrstaPersona_fleirtala_nutid = utils.word()
+    OnnurPersona_fleirtala_nutid = utils.word()
+    ThridjaPersona_fleirtala_nutid = utils.word()
     # þátíð, eintala
-    FyrstaPersona_eintala_thatid = utils.word_column()
-    OnnurPersona_eintala_thatid = utils.word_column()
-    ThridjaPersona_eintala_thatid = utils.word_column()
+    FyrstaPersona_eintala_thatid = utils.word()
+    OnnurPersona_eintala_thatid = utils.word()
+    ThridjaPersona_eintala_thatid = utils.word()
     # þátíð, fleirtala
-    FyrstaPersona_fleirtala_thatid = utils.word_column()
-    OnnurPersona_fleirtala_thatid = utils.word_column()
-    ThridjaPersona_fleirtala_thatid = utils.word_column()
+    FyrstaPersona_fleirtala_thatid = utils.word()
+    OnnurPersona_fleirtala_thatid = utils.word()
+    ThridjaPersona_fleirtala_thatid = utils.word()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -438,8 +439,8 @@ class Atviksord(Base):
     __tablename__ = 'Atviksord'
     Atviksord_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Midstig = utils.word_column()
-    Efstastig = utils.word_column()
+    Midstig = utils.word()
+    Efstastig = utils.word()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -450,7 +451,7 @@ class SamtengingFleiryrt(Base):
     __tablename__ = 'SamtengingFleiryrt'
     SamtengingFleiryrt_id = utils.integer_primary_key()
     fk_Ord_id = utils.foreign_integer_primary_key('Ord')
-    Ord = utils.word_column(nullable=False)
+    Ord = utils.word(nullable=False)
     fk_SamtengingFleiryrt_id = utils.foreign_integer_primary_key('SamtengingFleiryrt')
     Typa = utils.selection(FleiryrtTypa, None)
     Edited = utils.timestamp_edited()
@@ -474,7 +475,8 @@ class Sernafn(Base):
 class Skammstofun(Base):
     __tablename__ = 'Skammstofun'
     Skammstofun_id = utils.integer_primary_key()
-    Skammstofun = utils.word_column()
+    Skammstofun = utils.word(nullable=False)
+    Merking = utils.word()
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
@@ -492,6 +494,6 @@ class SkammstofunMynd(Base):
     __tablename__ = 'SkammstofunMynd'
     SkammstofunMynd_id = utils.integer_primary_key()
     fk_Skammstofun_id = utils.foreign_integer_primary_key('Skammstofun')
-    Mynd = utils.word_column()
+    Mynd = utils.word(nullable=False)
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()

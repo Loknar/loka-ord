@@ -2,27 +2,21 @@
 	"orð": "Vagnfríður",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Vagn",
 			"samsetning": "stofn",
-			"orð": "vagn",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "994dd57531f9aeeff848f379c517367db19ff71a392cadc129aeae3de79c0d3f"
+			"kennistrengur": "no-vagn-kk"
 		},
 		{
-			"orð": "Fríður",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "af19bc671c77e81f197b45c41c79e1976eff953a47936a22d5c9d09fa17560d0"
+			"kennistrengur": "sérn.en-Fríður-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vagnfríður", "Vagnfríði", "Vagnfríði", "Vagnfríðar"]
 	},
-	"hash": "e5530dd841089dcb0630d56b1fc8c0843dc81b98ccaaa3edd33bd1c4854ee554"
+	"kennistrengur": "sérn.en-Vagnfríður-kvk",
+	"hash": "92a7754795451cffb8532bd096fadc0d30fc4f1015d5666570dc4132c4c66019"
 }

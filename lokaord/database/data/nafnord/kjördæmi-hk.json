@@ -6,17 +6,10 @@
 		{
 			"mynd": "kjör",
 			"samsetning": "stofn",
-			"orð": "kjör",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"merking": "kosning",
-			"hash": "851a58c80b59600df3c79bf82b663dcc868620250960ca31178ab284deb3c83c"
+			"kennistrengur": "no-kjör-hk-_kosning_"
 		},
 		{
-			"orð": "dæmi",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "c41d75ce758174047306ad83572f3c542862c78e8e70f41a6f78df5fef79d38a"
+			"kennistrengur": "no-dæmi-hk"
 		}
 	],
 	"et": {
@@ -27,5 +20,6 @@
 		"ág": ["kjördæmi", "kjördæmi", "kjördæmum", "kjördæma"],
 		"mg": ["kjördæmin", "kjördæmin", "kjördæmunum", "kjördæmanna"]
 	},
-	"hash": "d3527333f9c5233e5c6715cdf82c0b8a6d5bab22c674f793239accc96ba8ea5a"
+	"kennistrengur": "no-kjördæmi-hk",
+	"hash": "ee02545d76c9e281aa8f6c5219a47206a87269952f56a62f0d558e8668fb2216"
 }

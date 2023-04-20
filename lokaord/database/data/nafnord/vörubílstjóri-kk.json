@@ -6,24 +6,15 @@
 		{
 			"mynd": "vöru",
 			"samsetning": "eignarfalls",
-			"orð": "vara",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "88bea5be175062cad51c283aa6eeae4cd6e02e999fe58016261cac4b84606a01"
+			"kennistrengur": "no-vara-kvk"
 		},
 		{
 			"mynd": "bíl",
 			"samsetning": "stofn",
-			"orð": "bíłl",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "be9b34f0ed33e40d71a439f2d5e728f36eec1e9a513d8792b9b11ba4ac3b8c34"
+			"kennistrengur": "no-bíłl-kk"
 		},
 		{
-			"orð": "stjóri",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "cbbb4b29ce9eb34f389f8ccf28745c13c228445a0a38137c7e5879ee82b3e664"
+			"kennistrengur": "no-stjóri-kk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["vörubílstjórar", "vörubílstjóra", "vörubílstjórum", "vörubílstjóra"],
 		"mg": ["vörubílstjórarnir", "vörubílstjórana", "vörubílstjórunum", "vörubílstjóranna"]
 	},
-	"hash": "822bcf4cfa6bff59b381b59fcf43b7620d558e0e7b7fbfaf9d320914bbbf89c1"
+	"kennistrengur": "no-vörubílstjóri-kk",
+	"hash": "9c2d26feb63b17f9d661b884cb8ee29251394d33e8d317d4af1f71277008c69b"
 }

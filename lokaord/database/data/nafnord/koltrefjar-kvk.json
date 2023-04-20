@@ -6,21 +6,16 @@
 		{
 			"mynd": "kol",
 			"samsetning": "stofn",
-			"orð": "kol",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3286a57047d2a1e06f5015c964ecccec5d9ae39b2ae4c1cf6708ff9660405b4e"
+			"kennistrengur": "no-kol-hk"
 		},
 		{
-			"orð": "trefjar",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "ec0ccec184febd12afc15c1f54b2c8957dc864a116e9666d3a7c3b3beac846ee"
+			"kennistrengur": "no-trefjar-kvk"
 		}
 	],
 	"ft": {
 		"ág": ["koltrefjar", "koltrefjar", "koltrefjum", "koltrefja"],
 		"mg": ["koltrefjarnar", "koltrefjarnar", "koltrefjunum", "koltrefjanna"]
 	},
-	"hash": "060fa415dbe5dd199fe8c6e08c91f20c7b3270af4ac95bb437b785ed39727813"
+	"kennistrengur": "no-koltrefjar-kvk",
+	"hash": "b052c07abcb5f3dd34af3d42b49bc8d8eb9facadaa12ae2c12914ad536b5806a"
 }

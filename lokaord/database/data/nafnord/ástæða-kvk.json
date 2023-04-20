@@ -6,16 +6,10 @@
 		{
 			"mynd": "á",
 			"samsetning": "stofn",
-			"orð": "á",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "50680b62e05b9c51f254b0364c8b7e39eebfaa7df9a6db7e36574eaef561117e"
+			"kennistrengur": "smáo.fs-á"
 		},
 		{
-			"orð": "stæða",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f9729b3f0ff208dd375aa9fe722d974b7671fb3f6b7c045abc1f7a58a9bc1e5e"
+			"kennistrengur": "no-stæða-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["ástæður", "ástæður", "ástæðum", "ástæðna"],
 		"mg": ["ástæðurnar", "ástæðurnar", "ástæðunum", "ástæðnanna"]
 	},
-	"hash": "24a21f38c4dbf9002042a434fae5e714da0dd520fee8330b949e167251922a0c"
+	"kennistrengur": "no-ástæða-kvk",
+	"hash": "a9ad8ab32ad5d12ac1502f54673a084592d6d242eba734d75d05540e88f27ea6"
 }

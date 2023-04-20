@@ -5,24 +5,15 @@
 		{
 			"mynd": "á",
 			"samsetning": "stofn",
-			"orð": "á",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "50680b62e05b9c51f254b0364c8b7e39eebfaa7df9a6db7e36574eaef561117e"
+			"kennistrengur": "smáo.fs-á"
 		},
 		{
 			"mynd": "byrgðar",
 			"samsetning": "eignarfalls",
-			"orð": "byrgð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "66d551fc032bd3c3ac365ef4ac9f20ced2be032a2dc46f516290d415c7281174"
+			"kennistrengur": "no-byrgð-kvk-ó"
 		},
 		{
-			"orð": "laus",
-			"flokkur": "lýsingarorð",
-			"hash": "b36586616ab16f4c7b205d23854e682390dc217eac562fdd5533266f5fd40b29"
+			"kennistrengur": "lo-laus"
 		}
 	],
 	"frumstig": {
@@ -91,5 +82,6 @@
 			}
 		}
 	},
-	"hash": "4064a412b4d1fef8c59038d35344f0cd1f5b3aee8ed0c7770dbd2b1d4f106bc0"
+	"kennistrengur": "lo-ábyrgðarlaus",
+	"hash": "2a29bc80b19ac7600a556dfbed5db621c56c0d1fcfee16d4f69b9422f644b457"
 }

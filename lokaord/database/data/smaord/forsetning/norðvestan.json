@@ -2,24 +2,19 @@
 	"orð": "norðvestan",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
-	"stýrir": ["eignarfall"],
 	"samsett": [
 		{
 			"mynd": "norð",
 			"samsetning": "stofn",
-			"orð": "norður",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b2e5fb6c4e5f889465a961360d917e9bd70b236aa95440e20ba7555cb7215c90"
+			"kennistrengur": "no-norður-hk"
 		},
 		{
 			"mynd": "vestan",
 			"samsetning": "stofn",
-			"orð": "vestan",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "448fe68fa0c038f8830ddce67fb7e435d03e6ffac3586142effc300a5e58c418"
+			"kennistrengur": "smáo.fs-vestan"
 		}
 	],
-	"hash": "4ef780bf59dc06ff077ca84c1b2a927652c0911641bd58b633de60d5b59505ad"
+	"stýrir": ["eignarfall"],
+	"kennistrengur": "smáo.fs-norðvestan",
+	"hash": "08d171de526a7332e40d913bd2781f1c74aed23d15886f554c20b4429cc455d8"
 }

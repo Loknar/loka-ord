@@ -2,27 +2,21 @@
 	"orð": "Guðlaug",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Guð",
 			"samsetning": "stofn",
-			"orð": "guð",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "6f6ca4409a5cade50ac9aca75ace9f644f477d949e61a1cbb97f4b837d42f888"
+			"kennistrengur": "no-guð-kk"
 		},
 		{
-			"orð": "laug",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
 			"beygingar": ["et-ág"],
-			"hash": "496d4264127e5b60f9b06eff4246b1a45eca03118eca01197aff9c8d16f4246a"
+			"kennistrengur": "no-laug-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Guðlaug", "Guðlaugu", "Guðlaugu", "Guðlaugar"]
 	},
-	"hash": "7311f691c5cd5d0670b7d7b7f6f8c53330ded42156aa9d330544a74061a87af9"
+	"kennistrengur": "sérn.en-Guðlaug-kvk",
+	"hash": "792255a4a465b7b7dffb1ba633783ede1a3b8d38c163a854ba9b7fa53d230379"
 }

@@ -2,34 +2,26 @@
 	"orð": "Kleppjárnsreykir",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Klepp",
 			"samsetning": "stofn",
-			"orð": "kleppur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "77ed46b87d117322915963ff6d41ff8baf8a5474da7f13da769b4d482e62af84"
+			"kennistrengur": "no-kleppur-kk"
 		},
 		{
 			"mynd": "járns",
 			"samsetning": "eignarfalls",
-			"orð": "járn",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "a4736e5f40be86867ced22d2a2e2b0492425b9a7cc052bebb363e63dd9936305"
+			"kennistrengur": "no-járn-hk"
 		},
 		{
-			"orð": "reykur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["ft-ág"],
-			"hash": "c1893e35e3212dd92bb99bc4236d935828460fe2aa840c95c60c65219bda3790"
+			"kennistrengur": "no-reykur-kk"
 		}
 	],
+	"kyn": "kk",
 	"ft": {
 		"ág": ["Kleppjárnsreykir", "Kleppjárnsreyki", "Kleppjárnsreykjum", "Kleppjárnsreykja"]
 	},
-	"hash": "281b3f5f4e4c8c74c99f1a95c78138d3bbafe7083ad11420f00dbb8cafbcb0a5"
+	"kennistrengur": "sérn.ön-Kleppjárnsreykir-kk",
+	"hash": "f47e5de8972de6cd2b3c68af9e74573431d21d01bddbb42c606ec666c76f2048"
 }

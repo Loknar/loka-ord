@@ -6,16 +6,10 @@
 		{
 			"mynd": "af",
 			"samsetning": "stofn",
-			"orð": "af",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "92692ec4c999e0e748e1a3a9bcd17a92e53eb598ac481465652d7c20829dab34"
+			"kennistrengur": "smáo.fs-af"
 		},
 		{
-			"orð": "greiðsla",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "d246cc12d3cc83ca81982be5a4ead1c9f6c413dff17076b5af6445d33dbbdc9d"
+			"kennistrengur": "no-greiðsla-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["afgreiðslur", "afgreiðslur", "afgreiðslum", "afgreiðslna"],
 		"mg": ["afgreiðslurnar", "afgreiðslurnar", "afgreiðslunum", "afgreiðslnanna"]
 	},
-	"hash": "29ffb776c01c60f993dd603c0aa100af01a44565a69a07cc95de07e0252fe3fb"
+	"kennistrengur": "no-afgreiðsla-kvk",
+	"hash": "51bcb3e39c14b8e6e7940af31a17e47b78fef34aaed28632c0119250ca8d992a"
 }

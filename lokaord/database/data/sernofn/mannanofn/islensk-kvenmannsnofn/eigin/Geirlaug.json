@@ -2,28 +2,21 @@
 	"orð": "Geirlaug",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Geir",
 			"samsetning": "stofn",
-			"orð": "Geir",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "50fc2712a3ea645255b7bfb3ba6551af7d0ec74534b0f1e8ed13ae8de4b239a4"
+			"kennistrengur": "sérn.en-Geir-kk"
 		},
 		{
-			"orð": "laug",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
 			"beygingar": ["et-ág"],
-			"hash": "496d4264127e5b60f9b06eff4246b1a45eca03118eca01197aff9c8d16f4246a"
+			"kennistrengur": "no-laug-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Geirlaug", "Geirlaugu", "Geirlaugu", "Geirlaugar"]
 	},
-	"hash": "0586b15278716e1627cb8b3522ea4b3c440cafbcff67863173d5027f4e885b86"
+	"kennistrengur": "sérn.en-Geirlaug-kvk",
+	"hash": "e8b42a88574a78540b45d6ce0dc63c46d0f2cc28a1f66994b0f8276b0b090220"
 }

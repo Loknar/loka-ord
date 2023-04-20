@@ -2,26 +2,21 @@
 	"orð": "Vígdögg",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Víg",
 			"samsetning": "stofn",
-			"orð": "víg",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "64866043de9bc4acda3bad37e06597b981068b90c3e5bb4a56235f21e2556e5f"
+			"kennistrengur": "no-víg-hk"
 		},
 		{
-			"orð": "dögg",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "b4f217fe08986efb1c320a6ef911164b9cd112cbe991525df4329411cac12d49"
+			"kennistrengur": "no-dögg-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vígdögg", "Vígdögg", "Vígdögg", "Vígdaggar"]
 	},
-	"hash": "1d7642f66d46b50d77e8738b8146f6470504507e840e76620d4d0a0756463406"
+	"kennistrengur": "sérn.en-Vígdögg-kvk",
+	"hash": "4b872724b5acef6284df8054f9fd7eb02f6b848531926273e2f445c2c38159dc"
 }

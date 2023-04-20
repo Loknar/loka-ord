@@ -2,30 +2,24 @@
 	"orð": "Guðmundsdóttir",
 	"flokkur": "sérnafn",
 	"undirflokkur": "kenninafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Guðmunds",
 			"samsetning": "eignarfalls",
-			"orð": "Guðmundur",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "2ffeb9c0c0f3615ebe083ed33cf09a0fe1a001d34df0bc88a8c56e0e06c16a35"
+			"kennistrengur": "sérn.en-Guðmundur-kk"
 		},
 		{
-			"orð": "dóttir",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág", "ft-ág"],
-			"hash": "0d21acdbb181eaa08650040550e95f0a47a8431ba6fce210be102d13547d47de"
+			"kennistrengur": "no-dóttir-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Guðmundsdóttir", "Guðmundsdóttur", "Guðmundsdóttur", "Guðmundsdóttur"]
 	},
 	"ft": {
 		"ág": ["Guðmundsdætur", "Guðmundsdætur", "Guðmundsdætrum", "Guðmundsdætra"]
 	},
-	"hash": "6e6db90817c29862727c67878e8d7e09d42fa525d690980b7da6b3aedc734170"
+	"kennistrengur": "sérn.kn-Guðmundsdóttir-kvk",
+	"hash": "35797c268f73393abe888bfc4acc4f70ce0b71392b57d89b6a050503ca0ffe3b"
 }

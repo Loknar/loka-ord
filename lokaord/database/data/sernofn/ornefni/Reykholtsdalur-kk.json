@@ -2,34 +2,26 @@
 	"orð": "Reykholtsdalur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Reyk",
 			"samsetning": "stofn",
-			"orð": "reykur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "c1893e35e3212dd92bb99bc4236d935828460fe2aa840c95c60c65219bda3790"
+			"kennistrengur": "no-reykur-kk"
 		},
 		{
 			"mynd": "holts",
 			"samsetning": "eignarfalls",
-			"orð": "holt",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "94c168417116dda7aca633e1c17bba2822fc6d836c0e495d067200834a69a54f"
+			"kennistrengur": "no-holt-hk"
 		},
 		{
-			"orð": "dalur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "42b6e5c6cfec185caeba9fb77620c27c35cf713f797ada7f96f0fd073970c60f"
+			"kennistrengur": "no-dalur-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Reykholtsdalur", "Reykholtsdal", "Reykholtsdal", "Reykholtsdals"]
 	},
-	"hash": "ff998fed67b0f94172e16d3869eba3745d53e5e7a25eaa7ee01dc84c295cb277"
+	"kennistrengur": "sérn.ön-Reykholtsdalur-kk",
+	"hash": "e53ce9ad4e91d6c4ac21ed401036cdee121a35f999b86c89c0b048831b239fb0"
 }

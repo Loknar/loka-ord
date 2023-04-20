@@ -5,16 +5,10 @@
 		{
 			"mynd": "hjálp",
 			"samsetning": "stofn",
-			"orð": "hjálp",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "4003af3c1b5d5e361a99bbb2f26707bdc5470957bb7708dd22c5269fe61cce08"
+			"kennistrengur": "no-hjálp-kvk"
 		},
 		{
-			"orð": "legur",
-			"flokkur": "lýsingarorð",
-			"ósjálfstætt": true,
-			"hash": "db1a87d49cf232f93b10f3161d509c01a0674c6239c04d97f366f753ec3a3d98"
+			"kennistrengur": "lo-legur-ó"
 		}
 	],
 	"frumstig": {
@@ -83,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "7e6dbd9ed3ea7159190683ddf2d3d5a43d8c5164a0ebaad0ce7c8308385e810b"
+	"kennistrengur": "lo-hjálplegur",
+	"hash": "f30f25f797217709dbc0dc37d9920fb6b7f8b08f933ee1d43ffc61aa75121837"
 }

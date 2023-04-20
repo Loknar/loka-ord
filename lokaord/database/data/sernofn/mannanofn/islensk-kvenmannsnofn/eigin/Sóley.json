@@ -2,26 +2,21 @@
 	"orð": "Sóley",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Sól",
 			"samsetning": "stofn",
-			"orð": "sól",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "be4a59f77e6466bfd8ca92788d3effbaeb91585cdd096fe6a00475afa9d80670"
+			"kennistrengur": "no-sól-kvk"
 		},
 		{
-			"orð": "ey",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "96fdb0bfdfb181a2cef9d509a4f324fab1a09017c560a871fc210c995b7e02a1"
+			"kennistrengur": "no-ey-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Sóley", "Sóley", "Sóley", "Sóleyjar"]
 	},
-	"hash": "a32efd2d8bb1ebfb1e3e7c0a5ceab2aa6df8e5a68602a8ad024d915b15dc86ba"
+	"kennistrengur": "sérn.en-Sóley-kvk",
+	"hash": "4c7e6c22d85fc5a89428a83f5674286f87f4a4165a8755275320859a988ade47"
 }

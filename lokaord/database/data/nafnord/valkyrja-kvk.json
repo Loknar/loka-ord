@@ -6,16 +6,10 @@
 		{
 			"mynd": "val",
 			"samsetning": "stofn",
-			"orð": "valur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b0e5a5376b36ee76b89b77dedcf3815892414d513c0f8b88ca9d867f27b131a4"
+			"kennistrengur": "no-valur-kk"
 		},
 		{
-			"orð": "kyrja",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "831fad92349119d707ffdeaeccba3f7a950d79accdc4cf1285496f44f4512acb"
+			"kennistrengur": "no-kyrja-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["valkyrjur", "valkyrjur", "valkyrjum", "valkyrja"],
 		"mg": ["valkyrjurnar", "valkyrjurnar", "valkyrjunum", "valkyrjanna"]
 	},
-	"hash": "dcb7d654200eb093d39490dba92dcd823a717f0f1a2a1c7f2e48b8a498e32f7f"
+	"kennistrengur": "no-valkyrja-kvk",
+	"hash": "88daf220b66cb4a792d02aa8dfd42a597fbf35eaa9665b4738c7ae8506ff593b"
 }

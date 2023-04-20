@@ -6,16 +6,10 @@
 		{
 			"mynd": "frum",
 			"samsetning": "stofn",
-			"orð": "frum",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "8fd56b835e980558ca54ba77bc5c64f9495cf9856eb4adb56a4046847a6be7b7"
+			"kennistrengur": "no-frum-hk"
 		},
 		{
-			"orð": "varp",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "012f8875a6b331eed5497478135f6f3cac9f39ad05ad0bf122446672b877c1ee"
+			"kennistrengur": "no-varp-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["frumvörp", "frumvörp", "frumvörpum", "frumvarpa"],
 		"mg": ["frumvörpin", "frumvörpin", "frumvörpunum", "frumvarpanna"]
 	},
-	"hash": "d78343de61a805085e0d2a8ebc363d0f5a7c3135658b0ee311b4d241f3bab520"
+	"kennistrengur": "no-frumvarp-hk",
+	"hash": "3acfcd3941d04e95a762705755a5c2ebffe1e0cb3cabb253d374fbeffd6d91df"
 }

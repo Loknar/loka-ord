@@ -6,16 +6,10 @@
 		{
 			"mynd": "sjón",
 			"samsetning": "stofn",
-			"orð": "sjón",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "1aa6c58fc652c15f7537cabf0468f71c748c53eb4eb903a0f674bbe40ffac956"
+			"kennistrengur": "no-sjón-kvk"
 		},
 		{
-			"orð": "varp",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "012f8875a6b331eed5497478135f6f3cac9f39ad05ad0bf122446672b877c1ee"
+			"kennistrengur": "no-varp-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["sjónvörp", "sjónvörp", "sjónvörpum", "sjónvarpa"],
 		"mg": ["sjónvörpin", "sjónvörpin", "sjónvörpunum", "sjónvarpanna"]
 	},
-	"hash": "9cfaa42ad560f8da4a79ceac3240f7c0c245455d17345e06ad7ab97c49a6e02d"
+	"kennistrengur": "no-sjónvarp-hk",
+	"hash": "f17a6af163d1db42a26747b1e24e997dc024f6b597b5575c55415f16277837d8"
 }

@@ -5,15 +5,10 @@
 		{
 			"mynd": "stefnu",
 			"samsetning": "eignarfalls",
-			"orð": "stefna",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "0b608a61eb7df0bc30d28b1e3915fc93b9a5b0a6ca2089b6b22e90074c45e844"
+			"kennistrengur": "no-stefna-kvk"
 		},
 		{
-			"orð": "laus",
-			"flokkur": "lýsingarorð",
-			"hash": "b36586616ab16f4c7b205d23854e682390dc217eac562fdd5533266f5fd40b29"
+			"kennistrengur": "lo-laus"
 		}
 	],
 	"frumstig": {
@@ -82,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "4a7695379cc821e471bbb517829114b3466a23e392577d4dcd7e49ba50b91e1b"
+	"kennistrengur": "lo-stefnulaus",
+	"hash": "de0e310443235e880292d0a13b5e1d70e245818dc1320981abef9d4a70871b0c"
 }

@@ -5,16 +5,10 @@
 		{
 			"mynd": "reglu",
 			"samsetning": "eignarfalls",
-			"orð": "regla",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "1946f11b727832ac3c641c148f975435efb56507355d4ccfeb64c0ad7bb4e6eb"
+			"kennistrengur": "no-regla-kvk"
 		},
 		{
-			"orð": "legur",
-			"flokkur": "lýsingarorð",
-			"ósjálfstætt": true,
-			"hash": "db1a87d49cf232f93b10f3161d509c01a0674c6239c04d97f366f753ec3a3d98"
+			"kennistrengur": "lo-legur-ó"
 		}
 	],
 	"frumstig": {
@@ -83,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "ec54d4d3800ff457f2acd6680ec5492a20d4bc5b9ae36ad4eb5263a587380193"
+	"kennistrengur": "lo-reglulegur",
+	"hash": "c88513d40f22d2dd99b2dd4d1403f535135abb94f9450e93f165cf2c407caaf8"
 }

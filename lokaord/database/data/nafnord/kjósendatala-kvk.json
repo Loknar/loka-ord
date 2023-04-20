@@ -6,24 +6,15 @@
 		{
 			"mynd": "kjós",
 			"samsetning": "stofn",
-			"orð": "kjósa",
-			"flokkur": "sagnorð",
-			"hash": "40abed8dbfb58f60584c879146c4232c4fe5def417efe4ffabc630f400dc31e9"
+			"kennistrengur": "so-kjósa"
 		},
 		{
 			"mynd": "enda",
 			"samsetning": "eignarfalls",
-			"orð": "andi",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "4529d32d4cd11c61664397ad46bc2c456e64df90a9bdc3873a1dc666b4728b8d"
+			"kennistrengur": "no-andi-kk-ó"
 		},
 		{
-			"orð": "tala",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "77ab70a93f4b389a74d0ea044aa61723719d3fbb9e2fc4c0dd5e5048adea726f"
+			"kennistrengur": "no-tala-kvk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["kjósendatölur", "kjósendatölur", "kjósendatölum", "kjósendatalna"],
 		"mg": ["kjósendatölurnar", "kjósendatölurnar", "kjósendatölunum", "kjósendatalnanna"]
 	},
-	"hash": "682ba533413898e71f910c955b35f561d87bc612ae7639300dcc5f900535e501"
+	"kennistrengur": "no-kjósendatala-kvk",
+	"hash": "2779b2cd882b41b4d6970b66bc8e12de6b25715a35c54b537ec87333968d218b"
 }

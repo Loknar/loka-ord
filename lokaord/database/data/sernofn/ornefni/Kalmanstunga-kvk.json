@@ -2,27 +2,21 @@
 	"orð": "Kalmanstunga",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Kalmans",
 			"samsetning": "eignarfalls",
-			"orð": "Kalman",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "34ffd26864f57b53065c57844fbc52aa99b6c0f0239ada5ee4c7ce4136c64159"
+			"kennistrengur": "sérn.en-Kalman-kk"
 		},
 		{
-			"orð": "tunga",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "d3d4ebd840caf8d1be94890684329943b8b9e5b79beb406f9d16de27fc2753b7"
+			"kennistrengur": "no-tunga-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Kalmanstunga", "Kalmanstungu", "Kalmanstungu", "Kalmanstungu"]
 	},
-	"hash": "3f1ed9fd75c9c670f9dc531e3b72c8d209111c71a82a925dc7e17cfd019d21e7"
+	"kennistrengur": "sérn.ön-Kalmanstunga-kvk",
+	"hash": "39c98a3d59ab323b1f904ae4bda03d6fbae4d7ba82dcf8fb5a0e6ef1a4568a38"
 }

@@ -6,24 +6,15 @@
 		{
 			"mynd": "at",
 			"samsetning": "stofn",
-			"orð": "at",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87b24d1d7d210e3945081ef4a829039eb5e0c9f02020e89c532d8e434a761d40"
+			"kennistrengur": "no-at-hk"
 		},
 		{
 			"mynd": "kvæða",
 			"samsetning": "eignarfalls",
-			"orð": "kvæði",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "288361a760a3420a4172498cceff36716c314b0e815fd725bd2138ffec955e1d"
+			"kennistrengur": "no-kvæði-hk"
 		},
 		{
-			"orð": "greiðsla",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "d246cc12d3cc83ca81982be5a4ead1c9f6c413dff17076b5af6445d33dbbdc9d"
+			"kennistrengur": "no-greiðsla-kvk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["atkvæðagreiðslur", "atkvæðagreiðslur", "atkvæðagreiðslum", "atkvæðagreiðslna"],
 		"mg": ["atkvæðagreiðslurnar", "atkvæðagreiðslurnar", "atkvæðagreiðslunum", "atkvæðagreiðslnanna"]
 	},
-	"hash": "f3fa8820f5033ed5c91b3629c46ae12683e9ea09ed3cc58857dfa0a6d994bd16"
+	"kennistrengur": "no-atkvæðagreiðsla-kvk",
+	"hash": "276661a094be9cae9612a9ac2713f905f68ab2695b49f56d287d1338696d2816"
 }

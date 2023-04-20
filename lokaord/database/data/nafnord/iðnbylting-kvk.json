@@ -6,16 +6,10 @@
 		{
 			"mynd": "iðn",
 			"samsetning": "stofn",
-			"orð": "iðn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "94716786246d498c2d06526a7a4579eaa42b41c7dbbbf7bb61ce29d1161396f0"
+			"kennistrengur": "no-iðn-kvk"
 		},
 		{
-			"orð": "bylting",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "248862253f89449068e7be87926a6cf815a0bfbcb1f302b31d268a722a0750fa"
+			"kennistrengur": "no-bylting-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["iðnbyltingar", "iðnbyltingar", "iðnbyltingum", "iðnbyltinga"],
 		"mg": ["iðnbyltingarnar", "iðnbyltingarnar", "iðnbyltingunum", "iðnbyltinganna"]
 	},
-	"hash": "c9fe919f7c4345d19bbdfb85dfec670c00681fc65152dd444fa7e20068e395a7"
+	"kennistrengur": "no-iðnbylting-kvk",
+	"hash": "afbba736b412716b8f4a87e5c4e446a5d1b337fa0757b3fc05ecd31426fe21aa"
 }

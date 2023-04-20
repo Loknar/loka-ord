@@ -2,26 +2,21 @@
 	"orð": "Valey",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Val",
 			"samsetning": "stofn",
-			"orð": "valur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b0e5a5376b36ee76b89b77dedcf3815892414d513c0f8b88ca9d867f27b131a4"
+			"kennistrengur": "no-valur-kk"
 		},
 		{
-			"orð": "ey",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "96fdb0bfdfb181a2cef9d509a4f324fab1a09017c560a871fc210c995b7e02a1"
+			"kennistrengur": "no-ey-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Valey", "Valey", "Valey", "Valeyjar"]
 	},
-	"hash": "6434662d79326933d38d293ee28bf2c5c1051121dbf6995f25027250be2ff3c8"
+	"kennistrengur": "sérn.en-Valey-kvk",
+	"hash": "c4057827d1cae0d9df31d6902591f5bf11f59147653f7f848480a6fdc1c719f6"
 }

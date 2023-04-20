@@ -6,16 +6,10 @@
 		{
 			"mynd": "mjólkur",
 			"samsetning": "eignarfalls",
-			"orð": "mjólk",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "99ea279dbed5f0cc61e02b945ea0f7d42d5cbbcafe4b2c88980b2834d6c7b913"
+			"kennistrengur": "no-mjólk-kvk"
 		},
 		{
-			"orð": "kýr",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "9426703e4cb8bd526ef70c7ed0f7d27cd5e4d459153b07a20a49f7cc063c1c0e"
+			"kennistrengur": "no-kýr-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["mjólkurkýr", "mjólkurkýr", "mjólkurkúm", "mjólkurkúa"],
 		"mg": ["mjólkurkýrnar", "mjólkurkýrnar", "mjólkurkúnum", "mjólkurkúnna"]
 	},
-	"hash": "ccb5266128fe172fc240305c855252093d1ca70564fb2d0ba4b5322e7596dacd"
+	"kennistrengur": "no-mjólkurkýr-kvk",
+	"hash": "9037399574af0d7469af809a524e1e85f1feb890fd064fdb80fb4787450ba174"
 }

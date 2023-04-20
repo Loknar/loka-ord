@@ -6,25 +6,15 @@
 		{
 			"mynd": "stjórnar",
 			"samsetning": "eignarfalls",
-			"orð": "stjórn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+			"kennistrengur": "no-stjórn-kvk"
 		},
 		{
 			"mynd": "fram",
 			"samsetning": "stofn",
-			"orð": "fram",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "717a2fdecce3aa290b9cb9b01310a79645d4517febbebd5d2c55bcf9c888e158"
+			"kennistrengur": "smáo.fs-fram"
 		},
 		{
-			"orð": "kvæmd",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "f26bfc753fa51fbc83cfdb9823cf863538e512ca0acd08cf43940a6507e6e919"
+			"kennistrengur": "no-kvæmd-kvk-ó"
 		}
 	],
 	"et": {
@@ -35,5 +25,6 @@
 		"ág": ["stjórnarframkvæmdir", "stjórnarframkvæmdir", "stjórnarframkvæmdum", "stjórnarframkvæmda"],
 		"mg": ["stjórnarframkvæmdirnar", "stjórnarframkvæmdirnar", "stjórnarframkvæmdunum", "stjórnarframkvæmdanna"]
 	},
-	"hash": "df2ed8fee3669b464e62cde4995b8941c85b44da82b0ae3bdc61ae72e30b0df8"
+	"kennistrengur": "no-stjórnarframkvæmd-kvk",
+	"hash": "a7237260da3ec7e1cb239808252d14f0c4f8fcfc53fa873ead996b07106cb922"
 }

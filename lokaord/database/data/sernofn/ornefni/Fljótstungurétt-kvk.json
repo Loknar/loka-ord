@@ -2,34 +2,26 @@
 	"orð": "Fljótstungurétt",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Fljóts",
 			"samsetning": "eignarfalls",
-			"orð": "fljót",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87fcbb265aea01f613160a60678e6fcb758462fd373147c28c699907daf05062"
+			"kennistrengur": "no-fljót-hk"
 		},
 		{
 			"mynd": "tungu",
 			"samsetning": "eignarfalls",
-			"orð": "tunga",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "d3d4ebd840caf8d1be94890684329943b8b9e5b79beb406f9d16de27fc2753b7"
+			"kennistrengur": "no-tunga-kvk"
 		},
 		{
-			"orð": "rétt",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "f122669c53f87d08208f851dbf1dca8acf6a4d3738dde9f3325480518045df6b"
+			"kennistrengur": "no-rétt-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Fljótstungurétt", "Fljótstungurétt", "Fljótstungurétt", "Fljótstunguréttar"]
 	},
-	"hash": "ae0672de6805693e367054a4952e9122ae95159faac689a3d58896a8d7f6f4db"
+	"kennistrengur": "sérn.ön-Fljótstungurétt-kvk",
+	"hash": "6e732aad5a561ea0a0145f5768ce2299ca38ae9773b6280493c4fe6a463fc6c9"
 }

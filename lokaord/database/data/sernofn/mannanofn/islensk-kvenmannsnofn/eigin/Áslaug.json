@@ -2,28 +2,21 @@
 	"orð": "Áslaug",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Ás",
 			"samsetning": "stofn",
-			"orð": "Ás",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "8f97299406ee0f61321badc19dae234e01f46a7ebd3596ee96eb2c745accce5f"
+			"kennistrengur": "sérn.en-Ás-kk"
 		},
 		{
-			"orð": "laug",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
 			"beygingar": ["et-ág"],
-			"hash": "496d4264127e5b60f9b06eff4246b1a45eca03118eca01197aff9c8d16f4246a"
+			"kennistrengur": "no-laug-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Áslaug", "Áslaugu", "Áslaugu", "Áslaugar"]
 	},
-	"hash": "8d8389f5aba0bd63607335df769ad82918ff6c36dcc72d956ea8d4a43fdd3147"
+	"kennistrengur": "sérn.en-Áslaug-kvk",
+	"hash": "3735b878ef4dde2af6cec4990c45e6cc13e330f29e2e93c5f5b5fb9a8e897709"
 }

@@ -6,16 +6,10 @@
 		{
 			"mynd": "rútínu",
 			"samsetning": "eignarfalls",
-			"orð": "rútína",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f6ca5ccc1e11dc692cdfd191dba4f34c68a5938b33fae70994e690d125cbda22"
+			"kennistrengur": "no-rútína-kvk"
 		},
 		{
-			"orð": "starf",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "7843286b93c97ae979a8d4c9ce1f67ed1d25b1fa61a203d0f0c60cbe9c885235"
+			"kennistrengur": "no-starf-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["rútínustörf", "rútínustörf", "rútínustörfum", "rútínustarfa"],
 		"mg": ["rútínustörfin", "rútínustörfin", "rútínustörfunum", "rútínustarfanna"]
 	},
-	"hash": "827c7df58abc2d44829b8f35f08c69817cf15f2617ae71b8a8d4432477286502"
+	"kennistrengur": "no-rútínustarf-hk",
+	"hash": "1859f1577a9eb47aeea58cc2f415f4688e698b00cded9fec3e05d0f44040bffc"
 }

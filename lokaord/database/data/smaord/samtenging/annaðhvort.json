@@ -2,11 +2,24 @@
 	"orð": "annaðhvort",
 	"flokkur": "smáorð",
 	"undirflokkur": "samtenging",
+	"samsett": [
+		{
+			"mynd": "annað",
+			"samsetning": "stofn",
+			"kennistrengur": "to.rt-annar"
+		},
+		{
+			"mynd": "hvort",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-hvor"
+		}
+	],
 	"fleiryrt": [
 		{
 			"týpa": "laus",
 			"fylgiorð": ["eða"]
 		}
 	],
-	"hash": "3006aafd72158bfaeeece28f63104ccb0bd34dc87ca1c8a2d99e630ac8fc8f28"
+	"kennistrengur": "smáo.st-annaðhvort",
+	"hash": "570581c3b76e49dcedf514fa38f4097fc5607a8c977e5de3c405abbb9ad8695e"
 }

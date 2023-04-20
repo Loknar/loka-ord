@@ -2,19 +2,17 @@
 	"orð": "Viðja",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "viðja",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "463f1b317bab886589c7cad475ec83671c0284f98fa0e2bac6c477eb7c3987c8"
+			"kennistrengur": "no-viðja-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Viðja", "Viðju", "Viðju", "Viðju"]
 	},
-	"hash": "de32a3556d243c007c862a4a1da543697b26b8bf4fb618a898696e0bb708ef97"
+	"kennistrengur": "sérn.en-Viðja-kvk",
+	"hash": "f43ccf7b22417691db0ae1706ccfa366c2bc31d2684594b9eab5c5135710366f"
 }

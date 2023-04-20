@@ -2,26 +2,21 @@
 	"orð": "Reykjavík",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Reykja",
 			"samsetning": "eignarfalls",
-			"orð": "reykur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "c1893e35e3212dd92bb99bc4236d935828460fe2aa840c95c60c65219bda3790"
+			"kennistrengur": "no-reykur-kk"
 		},
 		{
-			"orð": "vík",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "12c2961fa43e66478d4f1e81a2541a249f5c135eb60d32ec938f4da99bff1d5e"
+			"kennistrengur": "no-vík-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Reykjavík", "Reykjavík", "Reykjavík", "Reykjavíkur"]
 	},
-	"hash": "3841109382cf3272ac2b8541a0b66caaf81b51cfb32ef037f3c8ed48feba5488"
+	"kennistrengur": "sérn.ön-Reykjavík-kvk",
+	"hash": "e19a3c8b13c54ee1c64329d60e8e1b512994f5dfd97d512974babb7eb5cc69cb"
 }

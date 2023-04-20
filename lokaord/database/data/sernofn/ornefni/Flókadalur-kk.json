@@ -2,27 +2,21 @@
 	"orð": "Flókadalur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Flóka",
 			"samsetning": "eignarfalls",
-			"orð": "Flóki",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "68f221b556f59edd78c570dbd6cc66c241458ccb5d401e2d93a9cde5c88109e1"
+			"kennistrengur": "sérn.en-Flóki-kk"
 		},
 		{
-			"orð": "dalur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "42b6e5c6cfec185caeba9fb77620c27c35cf713f797ada7f96f0fd073970c60f"
+			"kennistrengur": "no-dalur-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Flókadalur", "Flókadal", "Flókadal", "Flókadals"]
 	},
-	"hash": "0ecac38724d842d250b4a24955cb90b25d0a156aa53ff46bae0982363a9e0499"
+	"kennistrengur": "sérn.ön-Flókadalur-kk",
+	"hash": "475f5efc84a404ed518ec1ddf4c354da7bb9212c9ce10665701b44cc003a66da"
 }

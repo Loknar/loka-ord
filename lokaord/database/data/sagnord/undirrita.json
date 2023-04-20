@@ -5,15 +5,10 @@
 		{
 			"mynd": "undir",
 			"samsetning": "stofn",
-			"orð": "undir",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "ef0bb206ab349ebb7bb967796b69c112706f5114e4d8dc677550de26d397115a"
+			"kennistrengur": "smáo.fs-undir"
 		},
 		{
-			"orð": "rita",
-			"flokkur": "sagnorð",
-			"hash": "ef06be1f62be000aa45fbaecf9ba28444dd103fabfdefa9bb40cbc9279f9b031"
+			"kennistrengur": "so-rita"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "undirritast",
 		"sagnbót": "undirritast",
-		"boðháttur": {
-			"et": "undirritastu",
-			"ft": "undirritist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -146,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "193ca710403d73e354751effb4565211367b2a1872849f64a71924630ebed7b0"
+	"kennistrengur": "so-undirrita",
+	"hash": "4e199766b2168eec319556c3ce5b3efaad9fc4a4e2c00e88ba4d71615378091a"
 }

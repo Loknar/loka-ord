@@ -2,25 +2,21 @@
 	"orð": "Viłlimey",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Viłli",
 			"samsetning": "bandstafs",
-			"orð": "viłla",
-			"flokkur": "sagnorð",
-			"hash": "117a2e4afb9f27762faec329bef8cfb50a0980b453482973716185c5aff212af"
+			"kennistrengur": "so-viłla"
 		},
 		{
-			"orð": "mey",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "ccfbfd7ab1121cc9bca6661f5eba587ae283af6c7ff327072e31d4ebe2816a98"
+			"kennistrengur": "no-mey-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Viłlimey", "Viłlimey", "Viłlimey", "Viłlimeyjar"]
 	},
-	"hash": "1bb2107f0e947019d4001836dde773b8cdfdbfbc48495ae8d6d01e6a8cea25fd"
+	"kennistrengur": "sérn.en-Viłlimey-kvk",
+	"hash": "29789c5fb61ac3abbe407a17adff2bf2eb0478535d23f1a7a4464045ba5cda7e"
 }

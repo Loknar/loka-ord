@@ -6,25 +6,15 @@
 		{
 			"mynd": "kjör",
 			"samsetning": "stofn",
-			"orð": "kjör",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"merking": "kosning",
-			"hash": "851a58c80b59600df3c79bf82b663dcc868620250960ca31178ab284deb3c83c"
+			"kennistrengur": "no-kjör-hk-_kosning_"
 		},
 		{
 			"mynd": "bréfa",
 			"samsetning": "eignarfalls",
-			"orð": "bréf",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "fbcbc279fc07bb2b65cde1320726c697f1adb3258bc41af8028fd010fd389f3d"
+			"kennistrengur": "no-bréf-hk"
 		},
 		{
-			"orð": "nefnd",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "bf813dc5a89794234d21a4a3cc4a9b245d7ee684f00fecb69e125f9f170e6fb2"
+			"kennistrengur": "no-nefnd-kvk"
 		}
 	],
 	"et": {
@@ -35,5 +25,6 @@
 		"ág": ["kjörbréfanefndir", "kjörbréfanefndir", "kjörbréfanefndum", "kjörbréfanefnda"],
 		"mg": ["kjörbréfanefndirnar", "kjörbréfanefndirnar", "kjörbréfanefndunum", "kjörbréfanefndanna"]
 	},
-	"hash": "21210cc9e0e9954d43e8b454d0cfbf617b9d803911de70596cb64a9e6540c9fb"
+	"kennistrengur": "no-kjörbréfanefnd-kvk",
+	"hash": "a2010294ef8293cffcaff9e49c637be2121efc6aa338da0975d944b805b0166f"
 }

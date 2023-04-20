@@ -6,24 +6,15 @@
 		{
 			"mynd": "stjórnar",
 			"samsetning": "eignarfalls",
-			"orð": "stjórn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+			"kennistrengur": "no-stjórn-kvk"
 		},
 		{
 			"mynd": "mál",
 			"samsetning": "stofn",
-			"orð": "mál",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "2e1f01501d367bbe91c4e1cc7daa22ad3278798dc192fd1a87b41359008215dc"
+			"kennistrengur": "no-mál-hk"
 		},
 		{
-			"orð": "efni",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "7b4099bcbeefbb374fc035a68548992a1169e1dd37b157db31b4961fb84725bb"
+			"kennistrengur": "no-efni-hk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["stjórnarmálefni", "stjórnarmálefni", "stjórnarmálefnum", "stjórnarmálefna"],
 		"mg": ["stjórnarmálefnin", "stjórnarmálefnin", "stjórnarmálefnunum", "stjórnarmálefnanna"]
 	},
-	"hash": "0ec0086a605e4056a0d2efc39c14bd5c218ce1ae40ac5912eac5a7bdff5b64d9"
+	"kennistrengur": "no-stjórnarmálefni-hk",
+	"hash": "ebba6aeb1b3f27da5a060ce200c0a2e063172a506c5498917e506d9a2a7e489b"
 }

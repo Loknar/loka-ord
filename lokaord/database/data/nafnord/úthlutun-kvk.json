@@ -6,16 +6,10 @@
 		{
 			"mynd": "út",
 			"samsetning": "stofn",
-			"orð": "út",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "bcc080fc5650301997f155af20fb6b00dc8e66f2777dcc3181d12c79d4761fbd"
+			"kennistrengur": "smáo.fs-út"
 		},
 		{
-			"orð": "hlutun",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "609e67dc2388127b3660002b3022663673207d75d56b419aabefce57ca5e61ef"
+			"kennistrengur": "no-hlutun-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["úthlutanir", "úthlutanir", "úthlutunum", "úthlutana"],
 		"mg": ["úthlutanirnar", "úthlutanirnar", "úthlutununum", "úthlutananna"]
 	},
-	"hash": "64bbca01bcb0bd04c26de3c988c3b82f56d5d6cbfc1b725727fa6dcf0aa3020e"
+	"kennistrengur": "no-úthlutun-kvk",
+	"hash": "74715f67c1a1a74627003fcd65df249cccefa52c7681741da6f8d0ead355c671"
 }

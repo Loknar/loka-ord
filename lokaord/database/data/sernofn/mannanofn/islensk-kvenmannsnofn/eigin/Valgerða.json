@@ -2,27 +2,21 @@
 	"orð": "Valgerða",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Val",
 			"samsetning": "stofn",
-			"orð": "valur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b0e5a5376b36ee76b89b77dedcf3815892414d513c0f8b88ca9d867f27b131a4"
+			"kennistrengur": "no-valur-kk"
 		},
 		{
-			"orð": "Gerða",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "e34955f5559509e320c74ee64c032b3dc603aaa05df80a1ac56b0352cba67374"
+			"kennistrengur": "sérn.en-Gerða-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Valgerða", "Valgerðu", "Valgerðu", "Valgerðu"]
 	},
-	"hash": "7250a39a2d36f0e082fccc9c1b95c9c12471b9318c0976da59ccd37509fe5c59"
+	"kennistrengur": "sérn.en-Valgerða-kvk",
+	"hash": "31cc84ffb0972eae78964b30ec0b050ef07c9558acc20885efec7d101919400c"
 }

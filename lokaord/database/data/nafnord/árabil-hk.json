@@ -6,16 +6,10 @@
 		{
 			"mynd": "ára",
 			"samsetning": "eignarfalls",
-			"orð": "ár",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b29f7d8d5de90673dde5ceb38e161dcbfa56a0d7479ef59b3c4791b9fe7fe32f"
+			"kennistrengur": "no-ár-hk"
 		},
 		{
-			"orð": "bil",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "0e0cce76631b9ca8903d3141a54b9871dae5c378ec4ec5935fb4f9f176ef056c"
+			"kennistrengur": "no-bil-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["árabil", "árabil", "árabilum", "árabila"],
 		"mg": ["árabilin", "árabilin", "árabilunum", "árabilanna"]
 	},
-	"hash": "b4654bb025eb0b64c08ed1c8f14793c310982e17a6b194e42f202c6b9803026f"
+	"kennistrengur": "no-árabil-hk",
+	"hash": "633484f5a9d827dd06ee73c5865095cf4f194c7cb3b44c02b4e3987e541da021"
 }

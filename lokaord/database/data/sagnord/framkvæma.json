@@ -5,16 +5,10 @@
 		{
 			"mynd": "fram",
 			"samsetning": "stofn",
-			"orð": "fram",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "717a2fdecce3aa290b9cb9b01310a79645d4517febbebd5d2c55bcf9c888e158"
+			"kennistrengur": "smáo.fs-fram"
 		},
 		{
-			"orð": "kvæma",
-			"flokkur": "sagnorð",
-			"ósjálfstætt": true,
-			"hash": "2d67652507f8cc2d179b68ff544f8c99cd863155303104d3cc198f50335bcd95"
+			"kennistrengur": "so-kvæma-ó"
 		}
 	],
 	"germynd": {
@@ -73,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "framkvæmast",
 		"sagnbót": "framkvæmst",
-		"boðháttur": {
-			"et": "framkvæmstu",
-			"ft": "framkvæmist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -147,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "67c761305e4d1a26831b85a4eec5458a81daebc0153e0c25c95620054ba431a4"
+	"kennistrengur": "so-framkvæma",
+	"hash": "1f3ed0001359ae7be74881a8d663ce14974ba894caca1bdd44bda7728cd5428e"
 }

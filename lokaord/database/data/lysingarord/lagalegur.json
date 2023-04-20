@@ -5,16 +5,10 @@
 		{
 			"mynd": "laga",
 			"samsetning": "eignarfalls",
-			"orð": "lög",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "b085113d03044626996891a0af7cf4cff57cb5f238fd965d3da923b34891cdd8"
+			"kennistrengur": "no-lög-hk"
 		},
 		{
-			"orð": "legur",
-			"flokkur": "lýsingarorð",
-			"ósjálfstætt": true,
-			"hash": "db1a87d49cf232f93b10f3161d509c01a0674c6239c04d97f366f753ec3a3d98"
+			"kennistrengur": "lo-legur-ó"
 		}
 	],
 	"frumstig": {
@@ -83,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "3d4766951c6a6a0d4bbcb8b48f4c118e533e8335e2977097cb7ac2797bce7619"
+	"kennistrengur": "lo-lagalegur",
+	"hash": "6e23f69bd325e1bbb5870cb48bd88cc0ae5649afcac3368ab44f7b4c68a78137"
 }

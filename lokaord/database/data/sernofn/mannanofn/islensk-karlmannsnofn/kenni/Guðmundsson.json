@@ -2,30 +2,24 @@
 	"orð": "Guðmundsson",
 	"flokkur": "sérnafn",
 	"undirflokkur": "kenninafn",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Guðmunds",
 			"samsetning": "eignarfalls",
-			"orð": "Guðmundur",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "2ffeb9c0c0f3615ebe083ed33cf09a0fe1a001d34df0bc88a8c56e0e06c16a35"
+			"kennistrengur": "sérn.en-Guðmundur-kk"
 		},
 		{
-			"orð": "son",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág", "ft-ág"],
-			"hash": "efbee44fca1519e4eaf74d6e8c4688aa7b245f128eaa1940fa72f3f8270fe383"
+			"kennistrengur": "no-son-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Guðmundsson", "Guðmundsson", "Guðmundssyni", "Guðmundssonar"]
 	},
 	"ft": {
 		"ág": ["Guðmundssynir", "Guðmundssyni", "Guðmundssonum", "Guðmundssona"]
 	},
-	"hash": "3ac65e2f398c956885bda67131208f572019e3ba97ead51d7fb2729f91164d8b"
+	"kennistrengur": "sérn.kn-Guðmundsson-kk",
+	"hash": "1296d1a104b54e34fd6fa7dcbaa561a42e96a1a6a13ebb52f128bcce57a777ac"
 }

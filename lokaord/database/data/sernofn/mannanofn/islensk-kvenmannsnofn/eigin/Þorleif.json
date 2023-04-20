@@ -2,26 +2,21 @@
 	"orð": "Þorleif",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þor",
 			"samsetning": "stofn",
-			"orð": "þor",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "72a310e89ff352fb346936d329d89c2f9492d3d427366bcc9f03ea8745ffc5b0"
+			"kennistrengur": "no-þor-hk"
 		},
 		{
-			"orð": "leif",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "bc424c1818898e165b55917b3725e26545271420975a256b4ca1e3a594095ae9"
+			"kennistrengur": "no-leif-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þorleif", "Þorleif", "Þorleif", "Þorleifar"]
 	},
-	"hash": "283e6a4da050fa406636b8d8b1e92cecde4dc4e4c4913107a1cd82c37f4a73a4"
+	"kennistrengur": "sérn.en-Þorleif-kvk",
+	"hash": "808f8ed21ba91460b46933728cab0ce1ac4100f8e36d991df766e0f64b4ecb18"
 }

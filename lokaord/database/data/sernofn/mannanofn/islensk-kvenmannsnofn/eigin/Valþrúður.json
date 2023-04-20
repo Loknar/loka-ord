@@ -2,27 +2,21 @@
 	"orð": "Valþrúður",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Val",
 			"samsetning": "stofn",
-			"orð": "valur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b0e5a5376b36ee76b89b77dedcf3815892414d513c0f8b88ca9d867f27b131a4"
+			"kennistrengur": "no-valur-kk"
 		},
 		{
-			"orð": "Þrúður",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "c8e0674a1c2ef0e9a0348a6b7e41e2890b11a5373da89e7ee4b824ee4ae2b180"
+			"kennistrengur": "sérn.en-Þrúður-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Valþrúður", "Valþrúði", "Valþrúði", "Valþrúðar"]
 	},
-	"hash": "0f24d1bb6907356298ce42f6a4be43539e07c7a532eb4947e1ca4a2327ee5863"
+	"kennistrengur": "sérn.en-Valþrúður-kvk",
+	"hash": "c4eef6c36c6ff50b3a666c6ebdea12d748338128dd1926fa234cda2f974f0f23"
 }

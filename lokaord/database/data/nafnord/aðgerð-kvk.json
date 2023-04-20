@@ -6,16 +6,10 @@
 		{
 			"mynd": "að",
 			"samsetning": "stofn",
-			"orð": "að",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "fc9c6511e4cfa257c0926ce877f066592e8e0bb35d217d309ca5d82f9d3e1a68"
+			"kennistrengur": "smáo.fs-að"
 		},
 		{
-			"orð": "gerð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "fe12af313fffcedfe3717991bb20456befce80cf66d43dede1e5fc5a4c444df3"
+			"kennistrengur": "no-gerð-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["aðgerðir", "aðgerðir", "aðgerðum", "aðgerða"],
 		"mg": ["aðgerðirnar", "aðgerðirnar", "aðgerðunum", "aðgerðanna"]
 	},
-	"hash": "9a23404909e1520e4d299c9f547b3a7507d044b9a4fe4865aea32d5f9d4fe55d"
+	"kennistrengur": "no-aðgerð-kvk",
+	"hash": "aaa663b4041f445231affab65f3a6eb0c1591daef96404839b2d5605a33fcc54"
 }

@@ -5,15 +5,10 @@
 		{
 			"mynd": "þing",
 			"samsetning": "stofn",
-			"orð": "þing",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "d0ed6b82e79807fe9a14f0d67c678769a2610e822a49655777dea76fa9b384ec"
+			"kennistrengur": "no-þing-hk"
 		},
 		{
-			"orð": "binda",
-			"flokkur": "sagnorð",
-			"hash": "6068e79d0bd6fbcc1656d76b9d89b407a1eb681a29460e7b29c5543275f56331"
+			"kennistrengur": "so-binda"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "þingbindast",
 		"sagnbót": "þingbundist",
-		"boðháttur": {
-			"et": "þingbinstu",
-			"ft": "þingbindist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -146,5 +137,6 @@
 			}
 		}
 	},
-	"hash": "5ccaf8eb1d096e49467011499ab4acdff8671d8981e693ff5eb382d3a3fc2d00"
+	"kennistrengur": "so-þingbinda",
+	"hash": "c9c0bfbe93aa0f3f9c429113fb1c55946e7c8db518e1b30cb80adfd2ea1115bc"
 }

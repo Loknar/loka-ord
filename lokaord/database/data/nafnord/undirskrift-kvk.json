@@ -6,16 +6,10 @@
 		{
 			"mynd": "undir",
 			"samsetning": "stofn",
-			"orð": "undir",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "ef0bb206ab349ebb7bb967796b69c112706f5114e4d8dc677550de26d397115a"
+			"kennistrengur": "smáo.fs-undir"
 		},
 		{
-			"orð": "skrift",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "bb572349ed95a895f9914290bbb257d4da55a8555e94ff67657d6aaf87e6b2c2"
+			"kennistrengur": "no-skrift-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["undirskriftir", "undirskriftir", "undirskriftum", "undirskrifta"],
 		"mg": ["undirskriftirnar", "undirskriftirnar", "undirskriftunum", "undirskriftanna"]
 	},
-	"hash": "d3d0e31e5e5b8613b6ff074383e8840a71007480c0bca9e7a599e17cc4254e51"
+	"kennistrengur": "no-undirskrift-kvk",
+	"hash": "099dab0c53910a27c8b0e37ed54f904274056450ad4ad6db14e14532f61cfdee"
 }

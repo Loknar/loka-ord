@@ -2,6 +2,19 @@
 	"orð": "gagnvart",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
+	"samsett": [
+		{
+			"mynd": "gagn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-gagn-ó"
+		},
+		{
+			"mynd": "vart",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-vart"
+		}
+	],
 	"stýrir": ["þágufall"],
-	"hash": "c06d9f3eb1c56db176e739ef0ff5b6a17c4cd0128268bffb4a1a94cef4696cd4"
+	"kennistrengur": "smáo.fs-gagnvart",
+	"hash": "f3de945e2e3326a1246a0ce5ab60a9229125f9e17626c1c50fbcf6277283726f"
 }

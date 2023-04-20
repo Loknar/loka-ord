@@ -6,16 +6,10 @@
 		{
 			"mynd": "um",
 			"samsetning": "eignarfalls",
-			"orð": "um",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "ebf6ab4b9b494cec16b24653988adbbfd4ff854fa2ce9cf70e7dd0ee84578ad2"
+			"kennistrengur": "smáo.fs-um"
 		},
 		{
-			"orð": "ræða",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "cb8d815fe46ca0fbf448856809e14517587bab65ebee7bfd35a67d7c52a52d83"
+			"kennistrengur": "no-ræða-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["umræður", "umræður", "umræðum", "umræðna"],
 		"mg": ["umræðurnar", "umræðurnar", "umræðunum", "umræðnanna"]
 	},
-	"hash": "027325fb4734e459eefb63dfd6d9a70475189b1827a1c208ec5e17cb4d441f8d"
+	"kennistrengur": "no-umræða-kvk",
+	"hash": "acb79d94024ec416956bc42387343f4375d391915a2c7c7c4d7c1b68d9227aa9"
 }

@@ -2,27 +2,21 @@
 	"orð": "Æsgerður",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Æs",
 			"samsetning": "stofn",
-			"orð": "æs",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "5429e0d180a6772e1e3badf1b57be362c818a106eca0fe0371466d776ef178d4"
+			"kennistrengur": "no-æs-kvk"
 		},
 		{
-			"orð": "Gerður",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "e0e98619b5d9002bae7183e6a78e2ea1224017afdc099f744ac6c7e2f774dd6d"
+			"kennistrengur": "sérn.en-Gerður-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Æsgerður", "Æsgerði", "Æsgerði", "Æsgerðar"]
 	},
-	"hash": "8544a597d4b5c02cbdd87e83621cab33767147328500c62d81e9afc339cedcc1"
+	"kennistrengur": "sérn.en-Æsgerður-kvk",
+	"hash": "7c15d7a3e68480aa5f2ed446a1de2f9a872bf4b1332e771bb3aad0982b22284a"
 }

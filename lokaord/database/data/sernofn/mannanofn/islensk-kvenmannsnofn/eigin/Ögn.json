@@ -2,19 +2,17 @@
 	"orð": "Ögn",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "ögn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "1bb7e96d819b006f0b83bc5751dbdc5990b1a858b28acdbba0f79b02e3a6ce8c"
+			"kennistrengur": "no-ögn-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ögn", "Ögn", "Ögn", "Agnar"]
 	},
-	"hash": "14a30dfcb11c7274fe8d9f965ab0f2e50065badd0ce16a217f04e71c2e65e281"
+	"kennistrengur": "sérn.en-Ögn-kvk",
+	"hash": "afa2c694399b423b6b6f01457cb6ccc3b2079f6a78d8b6a61da2d4dd937d117c"
 }

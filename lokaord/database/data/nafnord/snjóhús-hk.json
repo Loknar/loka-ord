@@ -6,16 +6,10 @@
 		{
 			"mynd": "snjó",
 			"samsetning": "stofn",
-			"orð": "snjór",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "b25d5688fb218273e3dcc0dcfb5a58cc245e24105e1ee246d89bd764f1d3d037"
+			"kennistrengur": "no-snjór-kk"
 		},
 		{
-			"orð": "hús",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3821d8ae4cdec7131d5e4283855e594ede4fdf8280c4de0bbc2aec7099eb0229"
+			"kennistrengur": "no-hús-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["snjóhús", "snjóhús", "snjóhúsum", "snjóhúsa"],
 		"mg": ["snjóhúsin", "snjóhúsin", "snjóhúsunum", "snjóhúsanna"]
 	},
-	"hash": "e6292dbbd348384267dcbe4acad6a49564a3a58c62ce4ec033e98204976cf879"
+	"kennistrengur": "no-snjóhús-hk",
+	"hash": "afad724928758d5c1640a41aed13c36ab6c5181c9a011e2e269b98a50cff50a6"
 }

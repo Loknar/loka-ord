@@ -2,25 +2,21 @@
 	"orð": "Hæstiréttur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"myndir": "efstastig-vb-kk",
-			"orð": "hár",
-			"flokkur": "lýsingarorð",
 			"hástafa": true,
-			"hash": "89e250fa6c3c6529f192ea1092d5f52257fa781797b5335aba9b6f60a30e6d64"
+			"kennistrengur": "lo-hár"
 		},
 		{
-			"orð": "réttur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "67cb67f584f7ba924bdcdc7b724a99b5600e2928ce1041c48bb4b2ef1f353181"
+			"kennistrengur": "no-réttur-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Hæstiréttur", "Hæstarétt", "Hæstarétti", "Hæstaréttar"]
 	},
-	"hash": "f6e52d38aebcaccfda5c1885857078ce205111a7be9c2084008e36606cb5c0c8"
+	"kennistrengur": "sérn.ön-Hæstiréttur-kk",
+	"hash": "6c191e6f86170404fc587393f167b8b1223bac02c2eedd2c2555ff1b4f598a4a"
 }

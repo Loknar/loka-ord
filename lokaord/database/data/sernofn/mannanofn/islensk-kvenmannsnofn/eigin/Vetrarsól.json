@@ -2,26 +2,21 @@
 	"orð": "Vetrarsól",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Vetrar",
 			"samsetning": "eignarfalls",
-			"orð": "vetur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "5899eea1f84de589dde59d9e091ee0b0f0e86797342a7b55f2cec4237ab734b4"
+			"kennistrengur": "no-vetur-kk"
 		},
 		{
-			"orð": "sól",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "be4a59f77e6466bfd8ca92788d3effbaeb91585cdd096fe6a00475afa9d80670"
+			"kennistrengur": "no-sól-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vetrarsól", "Vetrarsól", "Vetrarsól", "Vetrarsólar"]
 	},
-	"hash": "2e815fce8c6c6e03ef6047a9e6e698a007d37681250408e8f6e07a5ce08bc232"
+	"kennistrengur": "sérn.en-Vetrarsól-kvk",
+	"hash": "76e113d979ff737b9942510a7a8782f3d92e3aa52ec2013c931a1cf69b8478ab"
 }

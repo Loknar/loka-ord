@@ -6,16 +6,10 @@
 		{
 			"mynd": "upp",
 			"samsetning": "stofn",
-			"orð": "upp",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "9c60e6f91a5e7a5b34221ac5e3af402f4a5595f43082c0face2943ae4000e710"
+			"kennistrengur": "smáo.fs-upp"
 		},
 		{
-			"orð": "gjöf",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "c8c0b97fe5b05f7619308129db617967068fd007e5048b6db66b3488bacd9d15"
+			"kennistrengur": "no-gjöf-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["uppgjafir", "uppgjafir", "uppgjöfum", "uppgjafa"],
 		"mg": ["uppgjafirnar", "uppgjafirnar", "uppgjöfunum", "uppgjafanna"]
 	},
-	"hash": "f5759d4adda3f0042bc01185b91a9c7f94f46c7d32bce809faeb419b4e5f20a3"
+	"kennistrengur": "no-uppgjöf-kvk",
+	"hash": "af0069bffd9ff1565c7eb900ba436b8c1fa705daa96cf6bf01997df97b9f4768"
 }

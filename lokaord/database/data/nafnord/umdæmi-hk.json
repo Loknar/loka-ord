@@ -6,16 +6,10 @@
 		{
 			"mynd": "um",
 			"samsetning": "stofn",
-			"orð": "um",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "ebf6ab4b9b494cec16b24653988adbbfd4ff854fa2ce9cf70e7dd0ee84578ad2"
+			"kennistrengur": "smáo.fs-um"
 		},
 		{
-			"orð": "dæmi",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "c41d75ce758174047306ad83572f3c542862c78e8e70f41a6f78df5fef79d38a"
+			"kennistrengur": "no-dæmi-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["umdæmi", "umdæmi", "umdæmum", "umdæma"],
 		"mg": ["umdæmin", "umdæmin", "umdæmunum", "umdæmanna"]
 	},
-	"hash": "8df489dd9bdde6be73e8bb4dc1f47f2133771a4eaf0a1a80dfa11f95960ee1af"
+	"kennistrengur": "no-umdæmi-hk",
+	"hash": "0a3070158fa841d06ec3cbdb98c6ef261fb4ddc92238a72b7fb18d7b2bcfdff2"
 }

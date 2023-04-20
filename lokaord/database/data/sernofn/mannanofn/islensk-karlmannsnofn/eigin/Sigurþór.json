@@ -2,27 +2,20 @@
 	"orð": "Sigurþór",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Sigur",
 			"samsetning": "stofn",
-			"orð": "sigur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "a46c71f3adc65b289ae423bfa07a59849cd880832388bd9febdfbe0e1041906f"
+			"kennistrengur": "no-sigur-kk"
 		},
 		{
-			"orð": "þór",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "5501df5448a5c54a957a98022fb9040067f5e236d2f92e6bb570c7f167cb937b"
+			"kennistrengur": "sérn.en-þór-kk-ó"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Sigurþór", "Sigurþór", "Sigurþóri", "Sigurþórs"]
 	},
-	"hash": "b09e42fe0c4eaa716592ff7a92d015b7ed3142fd784a6440e9b398ef16294e22"
+	"kennistrengur": "sérn.en-Sigurþór-kk",
+	"hash": "4b5a17cff325f6ff3dbf811987528b79f4523d55f71e9b186cefe845b0041147"
 }

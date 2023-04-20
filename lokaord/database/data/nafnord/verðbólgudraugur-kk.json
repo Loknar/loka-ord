@@ -6,24 +6,15 @@
 		{
 			"mynd": "verð",
 			"samsetning": "stofn",
-			"orð": "verð",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87ba7e1a12edbd0a74a65d820a3fe6ab840ebada7a2169678d43fda91fea3c21"
+			"kennistrengur": "no-verð-hk"
 		},
 		{
 			"mynd": "bólgu",
 			"samsetning": "eignarfalls",
-			"orð": "bólga",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "c305efc9fd04262fe64d8e91986df3557087bdcac86662053026084d70bc1c47"
+			"kennistrengur": "no-bólga-kvk"
 		},
 		{
-			"orð": "draugur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "d01d551d2ff9e8da3170cc0d9b96562915dd5d78cba28fd9bc955119b2edcb7c"
+			"kennistrengur": "no-draugur-kk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["verðbólgudraugar", "verðbólgudrauga", "verðbólgudraugum", "verðbólgudrauga"],
 		"mg": ["verðbólgudraugarnir", "verðbólgudraugana", "verðbólgudraugunum", "verðbólgudrauganna"]
 	},
-	"hash": "2b6f03032a84245555cef9f881c1fbf2dd6b658e9f268bafd3446a6da3128639"
+	"kennistrengur": "no-verðbólgudraugur-kk",
+	"hash": "84ec7605cae32cfbacd8fe814b007bb857f5f5e8f40d18f780c8bc409a7701b1"
 }

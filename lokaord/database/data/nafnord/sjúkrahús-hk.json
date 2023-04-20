@@ -6,15 +6,10 @@
 		{
 			"mynd": "sjúkra",
 			"samsetning": "eignarfalls",
-			"orð": "sjúkur",
-			"flokkur": "lýsingarorð",
-			"hash": "7ec9139c267a3eea6affb267956c6f16fdb498ec13e8042d491e9b21273977fc"
+			"kennistrengur": "lo-sjúkur"
 		},
 		{
-			"orð": "hús",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "3821d8ae4cdec7131d5e4283855e594ede4fdf8280c4de0bbc2aec7099eb0229"
+			"kennistrengur": "no-hús-hk"
 		}
 	],
 	"et": {
@@ -25,5 +20,6 @@
 		"ág": ["sjúkrahús", "sjúkrahús", "sjúkrahúsum", "sjúkrahúsa"],
 		"mg": ["sjúkrahúsin", "sjúkrahúsin", "sjúkrahúsunum", "sjúkrahúsanna"]
 	},
-	"hash": "7621fa4ab73d0ed2c307c5f1a1bcfab8f83343df1010b4d7de1928daf91e6da8"
+	"kennistrengur": "no-sjúkrahús-hk",
+	"hash": "e5a63c777c8e825ef8f6169f4a6266fa82b57ebc7a2c369e381b58cdc06e3686"
 }

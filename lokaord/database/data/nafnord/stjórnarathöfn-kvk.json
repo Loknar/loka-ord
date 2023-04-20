@@ -6,24 +6,15 @@
 		{
 			"mynd": "stjórnar",
 			"samsetning": "eignarfalls",
-			"orð": "stjórn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+			"kennistrengur": "no-stjórn-kvk"
 		},
 		{
 			"mynd": "at",
 			"samsetning": "stofn",
-			"orð": "at",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87b24d1d7d210e3945081ef4a829039eb5e0c9f02020e89c532d8e434a761d40"
+			"kennistrengur": "no-at-hk"
 		},
 		{
-			"orð": "höfn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "b7cb497143d5ef4eccf2f43f3e6e02cd8e0fdafbc42b955d4f1fe6f229b67e9d"
+			"kennistrengur": "no-höfn-kvk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["stjórnarathafnir", "stjórnarathafnir", "stjórnarathöfnum", "stjórnarathafna"],
 		"mg": ["stjórnarathafnirnar", "stjórnarathafnirnar", "stjórnarathöfnunum", "stjórnarathafnanna"]
 	},
-	"hash": "985f6613063b2f2aae9ce62762ff2bc72a5e92de383c91ee95df8359d18836ef"
+	"kennistrengur": "no-stjórnarathöfn-kvk",
+	"hash": "657e4d9e48392a50ba1de7353b8cd158208afe53664e18d527787f049a6508ed"
 }

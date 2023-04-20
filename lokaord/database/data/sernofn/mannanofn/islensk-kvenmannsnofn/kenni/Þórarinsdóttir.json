@@ -2,30 +2,24 @@
 	"orð": "Þórarinsdóttir",
 	"flokkur": "sérnafn",
 	"undirflokkur": "kenninafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Þórarins",
 			"samsetning": "eignarfalls",
-			"orð": "Þórarinn",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kk",
-			"hash": "aa7873daddd6e8f97e552e3ec9e42f0ffe23694a425d1ee94cf3c1c534551c45"
+			"kennistrengur": "sérn.en-Þórarinn-kk"
 		},
 		{
-			"orð": "dóttir",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág", "ft-ág"],
-			"hash": "0d21acdbb181eaa08650040550e95f0a47a8431ba6fce210be102d13547d47de"
+			"kennistrengur": "no-dóttir-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Þórarinsdóttir", "Þórarinsdóttur", "Þórarinsdóttur", "Þórarinsdóttur"]
 	},
 	"ft": {
 		"ág": ["Þórarinsdætur", "Þórarinsdætur", "Þórarinsdætrum", "Þórarinsdætra"]
 	},
-	"hash": "f9ce2173e8c5fae4233781e196c9ee47e3a104e07dfe794b0bc4aec715cc4569"
+	"kennistrengur": "sérn.kn-Þórarinsdóttir-kvk",
+	"hash": "a0da453219285fcbdfcacc3c16cc460c9a910013c515dddc5d9d502305894a04"
 }

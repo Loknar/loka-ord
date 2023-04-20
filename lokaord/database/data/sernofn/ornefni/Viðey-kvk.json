@@ -2,26 +2,21 @@
 	"orð": "Viðey",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Við",
 			"samsetning": "stofn",
-			"orð": "við",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "efe2b19fd596f22370ecbfbfc531cfc8f6870b77cc4cdf30adcbc0e7c9d7e275"
+			"kennistrengur": "smáo.fs-við"
 		},
 		{
-			"orð": "ey",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "96fdb0bfdfb181a2cef9d509a4f324fab1a09017c560a871fc210c995b7e02a1"
+			"kennistrengur": "no-ey-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Viðey", "Viðey", "Viðey", "Viðeyjar"]
 	},
-	"hash": "9469aeca34f76ac6e592a1b70acffe7b415c905e47ee28e8840e8cf1aa34d6a4"
+	"kennistrengur": "sérn.ön-Viðey-kvk",
+	"hash": "cdd760369ae4a0d3364de8cd46fe29be75ed1b308359090dafeb62acde457e73"
 }

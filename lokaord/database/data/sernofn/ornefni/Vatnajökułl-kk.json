@@ -2,26 +2,21 @@
 	"orð": "Vatnajökułl",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Vatna",
 			"samsetning": "eignarfalls",
-			"orð": "vatn",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "62c9c06e0269c5e415519106e99df81e447733921f01ed2b0d6828a757d861a7"
+			"kennistrengur": "no-vatn-hk"
 		},
 		{
-			"orð": "jökułl",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "5db64d290adbe25a5ff7b2c6c548c744f4549145de7e61ff70828b6a5f610601"
+			"kennistrengur": "no-jökułl-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Vatnajökułl", "Vatnajökul", "Vatnajökli", "Vatnajökuls"]
 	},
-	"hash": "db0f62dae9d75f8caa3c11c2dc344a95cc488a5fcd5576584c5454b9ac58b1bf"
+	"kennistrengur": "sérn.ön-Vatnajökułl-kk",
+	"hash": "74577c08fbc18f8a95c606256be9051ed1e3c5062b6f7ffc1efd64f559d0739e"
 }

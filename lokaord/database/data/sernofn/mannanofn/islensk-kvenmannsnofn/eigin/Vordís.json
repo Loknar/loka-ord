@@ -2,27 +2,20 @@
 	"orð": "Vordís",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Vor",
 			"samsetning": "stofn",
-			"orð": "vor",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "99ec86fe4fea3bc8bcf945497b752e75a96a8099630de9a15008ffe695d7c54b"
+			"kennistrengur": "no-vor-hk"
 		},
 		{
-			"orð": "dís",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "dfb03cc34caed2d8dfffc943298d891aa5c0f22a86552f8615e5b4b5a7582b0c"
+			"kennistrengur": "sérn.en-dís-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vordís", "Vordísi", "Vordísi", "Vordísar"]
 	},
-	"hash": "6dac6aea2a7bf449ff8f186e46ac4d5a60ec48d9cbed6a9b6b4c1c24f188c40a"
+	"kennistrengur": "sérn.en-Vordís-kvk",
+	"hash": "f07a6065681ba8d3c896ce7534615ceebf3b1b0eaf9d814d44195cd0b1cdf697"
 }

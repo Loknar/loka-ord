@@ -6,17 +6,10 @@
 		{
 			"mynd": "á",
 			"samsetning": "stofn",
-			"orð": "á",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "50680b62e05b9c51f254b0364c8b7e39eebfaa7df9a6db7e36574eaef561117e"
+			"kennistrengur": "smáo.fs-á"
 		},
 		{
-			"orð": "lit",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"ósjálfstætt": true,
-			"hash": "c86e2400266e2a65d922181bb379359e0e36deab7754cf8fcfb88f3917f5eac3"
+			"kennistrengur": "no-lit-hk-ó"
 		}
 	],
 	"et": {
@@ -27,5 +20,6 @@
 		"ág": ["álit", "álit", "álitum", "álita"],
 		"mg": ["álitin", "álitin", "álitunum", "álitanna"]
 	},
-	"hash": "a0a8e71ba0fe3f2ba20bc99b739512546678998ea8f0f364919a6026cf209437"
+	"kennistrengur": "no-álit-hk",
+	"hash": "9bc92fc082d3adb0c152041cb47dea0adf43c9a5c6d836ad4a165c496b4f91bd"
 }

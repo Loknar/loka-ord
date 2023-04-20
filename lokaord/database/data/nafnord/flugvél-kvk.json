@@ -6,16 +6,10 @@
 		{
 			"mynd": "flug",
 			"samsetning": "stofn",
-			"orð": "flug",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "cf0cfb4e39d3d7f35a385e6c6dcc245cc89febbc5dda6910ff3cf6775820de00"
+			"kennistrengur": "no-flug-hk"
 		},
 		{
-			"orð": "vél",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "de44a5577423aae067a848c1df2d67a577de95e7e610046e9f781a44b5a6367c"
+			"kennistrengur": "no-vél-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["flugvélar", "flugvélar", "flugvélum", "flugvéla"],
 		"mg": ["flugvélarnar", "flugvélarnar", "flugvélunum", "flugvélanna"]
 	},
-	"hash": "6aec4220bdb7ec3022942aa451a56dd0ecd735b90071f50e344948f0aafbc60c"
+	"kennistrengur": "no-flugvél-kvk",
+	"hash": "7464f993d2a1519e1f6edfd56d3176038602c80482c8d54ad18d80366502a264"
 }

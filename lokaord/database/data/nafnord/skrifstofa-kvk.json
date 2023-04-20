@@ -6,16 +6,10 @@
 		{
 			"mynd": "skrif",
 			"samsetning": "stofn",
-			"orð": "skrif",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "f45dede04769b5693de54ed9cbe5727708eddb46bc1f128323c36e013014912b"
+			"kennistrengur": "no-skrif-hk"
 		},
 		{
-			"orð": "stofa",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "72c2e31e1b423d80b87f269ec1813e2cbc434b6af83ceb4c4f69499fc83ff1f7"
+			"kennistrengur": "no-stofa-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["skrifstofur", "skrifstofur", "skrifstofum", "skrifstofa"],
 		"mg": ["skrifstofurnar", "skrifstofurnar", "skrifstofunum", "skrifstofanna"]
 	},
-	"hash": "d3fe959b95da26b41533a89df0fbce26e220927676239754d09d9ce0acba85ed"
+	"kennistrengur": "no-skrifstofa-kvk",
+	"hash": "e573bc49b1b298ce0e548909f66703442268eda8af35f9f34f771d84a45b4a67"
 }

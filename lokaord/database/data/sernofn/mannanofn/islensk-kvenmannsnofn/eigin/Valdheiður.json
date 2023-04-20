@@ -2,27 +2,21 @@
 	"orð": "Valdheiður",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Vald",
 			"samsetning": "stofn",
-			"orð": "vald",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "361c957b51c99a9a4ccd49ec7d939ad5efaa1907f1486469cbe9f4af30f7e7f2"
+			"kennistrengur": "no-vald-hk"
 		},
 		{
-			"orð": "Heiður",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "22920c6c60c03cf9df134125d86ef6024a370cfe9ad1adb687ecb105f882d613"
+			"kennistrengur": "sérn.en-Heiður-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Valdheiður", "Valdheiði", "Valdheiði", "Valdheiðar"]
 	},
-	"hash": "efc7d82ef70d0d6c9841b998957df69107088a96dc18bbcfc5442081425084d4"
+	"kennistrengur": "sérn.en-Valdheiður-kvk",
+	"hash": "85d285ba972b3b1a7c759703d601f74de7abc184a718aeb7210ee874c7b9b01f"
 }

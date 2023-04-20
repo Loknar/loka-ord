@@ -2,24 +2,19 @@
 	"orð": "suðaustan",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
-	"stýrir": ["eignarfall"],
 	"samsett": [
 		{
 			"mynd": "suð",
 			"samsetning": "stofn",
-			"orð": "suður",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "8d80e5d622dbab3685e23cf2d97c6aadb6fb31860418092a4048dd98d1a4b1a2"
+			"kennistrengur": "no-suður-hk"
 		},
 		{
 			"mynd": "austan",
 			"samsetning": "stofn",
-			"orð": "austan",
-			"flokkur": "smáorð",
-			"undirflokkur": "forsetning",
-			"hash": "5a28513f4d0ee1aa131c2cb9297ce23c19ce80fd7179138ae3797968e72bb0d7"
+			"kennistrengur": "smáo.fs-austan"
 		}
 	],
-	"hash": "7f5287a9bfd07085f90a1a99d05c9f3e06b380c758aebea27236977d6586c02e"
+	"stýrir": ["eignarfall"],
+	"kennistrengur": "smáo.fs-suðaustan",
+	"hash": "9acbc041b5e7b9efb2a976d6476885c2b03f0287ec0fee857a0efff96c72fc81"
 }

@@ -7,20 +7,25 @@
 		{
 			"mynd": "fjögur",
 			"samsetning": "stofn",
-			"orð": "fjórir",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "80fdfbee04c9180bba01020dd050caa34170c3f77599083079dbf2880a554e70"
+			"kennistrengur": "to.ft-fjórir"
 		},
 		{
 			"mynd": "hundruð",
 			"samsetning": "stofn",
-			"orð": "hundrað",
-			"flokkur": "töluorð",
-			"undirflokkur": "fjöldatala",
-			"hash": "d9e030362131495c4cadb0b40c92103960f76d90af9179aaa709f87212013b98"
+			"kennistrengur": "to.ft-hundrað"
 		}
 	],
+	"et": {
+		"kk": ["fjögurhundrað", "fjögurhundrað", "fjögurhundrað", "fjögurhundrað"],
+		"kvk": ["fjögurhundrað", "fjögurhundrað", "fjögurhundrað", "fjögurhundrað"],
+		"hk": ["fjögurhundrað", "fjögurhundrað", "fjögurhundrað", "fjögurhundrað"]
+	},
+	"ft": {
+		"kk": ["fjögurhundruð", "fjögurhundruð", "fjögurhundruð", "fjögurhundruð"],
+		"kvk": ["fjögurhundruð", "fjögurhundruð", "fjögurhundruð", "fjögurhundruð"],
+		"hk": ["fjögurhundruð", "fjögurhundruð", "fjögurhundruð", "fjögurhundruð"]
+	},
 	"óbeygjanlegt": true,
-	"hash": "eda4a40d2827185b868432795792a23f48e41beb5ac85d0da046144a21eccdc5"
+	"kennistrengur": "to.ft-fjögurhundruð",
+	"hash": "7123c7690aa5f238dbc31629de5357b5ff336eecfa77392c265f13b95330c6be"
 }

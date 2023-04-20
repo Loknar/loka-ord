@@ -2,27 +2,20 @@
 	"orð": "Örbrún",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Ör",
 			"samsetning": "stofn",
-			"orð": "ör",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "f3cdf4917f753153c2e065b2b0c73cc3449a32ccf8f77585c9b2d5866d4f0ed0"
+			"kennistrengur": "no-ör-kvk"
 		},
 		{
-			"orð": "brún",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "bc2f9c7c85098f7f9cdce7e542fef068bb684d818e253a60c158bf0b490f892e"
+			"kennistrengur": "sérn.en-brún-kvk-ó"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Örbrún", "Örbrúnu", "Örbrúnu", "Örbrúnar"]
 	},
-	"hash": "c9c65177904340ad64ff5943ac94769ca6eda0690af3a26f92fddc6aed480c58"
+	"kennistrengur": "sérn.en-Örbrún-kvk",
+	"hash": "ce9b85c8ee2402beb82cd033b65d614283e53c7b4af1047ab05a077386b346db"
 }

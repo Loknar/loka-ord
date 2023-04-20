@@ -6,16 +6,10 @@
 		{
 			"mynd": "verð",
 			"samsetning": "stofn",
-			"orð": "verð",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87ba7e1a12edbd0a74a65d820a3fe6ab840ebada7a2169678d43fda91fea3c21"
+			"kennistrengur": "no-verð-hk"
 		},
 		{
-			"orð": "bólga",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "c305efc9fd04262fe64d8e91986df3557087bdcac86662053026084d70bc1c47"
+			"kennistrengur": "no-bólga-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["verðbólgur", "verðbólgur", "verðbólgum", "verðbólgna"],
 		"mg": ["verðbólgurnar", "verðbólgurnar", "verðbólgunum", "verðbólgnanna"]
 	},
-	"hash": "33a1082d822acdd39656b98c4d7e801789305abaca8de95ff5976e7c540ecee5"
+	"kennistrengur": "no-verðbólga-kvk",
+	"hash": "1b7a9a4f7f2f671fb229e82b3d1075206a74c0b4095e9ad48b6e7544d88a58c3"
 }

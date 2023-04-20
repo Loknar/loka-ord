@@ -6,16 +6,10 @@
 		{
 			"mynd": "tölvu",
 			"samsetning": "eignarfalls",
-			"orð": "tölva",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "e4ce2ec8240e18e9209eff170dcf760ac45845274a63efe598e442ea4818c2c2"
+			"kennistrengur": "no-tölva-kvk"
 		},
 		{
-			"orð": "hakkari",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "7e7fcab43e70721270ecac8b5e9d4f76395293a0c1bb24e66ba54c81020e35a5"
+			"kennistrengur": "no-hakkari-kk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["tölvuhakkarar", "tölvuhakkara", "tölvuhökkurum", "tölvuhakkara"],
 		"mg": ["tölvuhakkararnir", "tölvuhakkarana", "tölvuhökkurunum", "tölvuhakkaranna"]
 	},
-	"hash": "c6ae3bdc4cab16160140eef43a1ccec483ef21d482cd426a742b33bbf2a6da2a"
+	"kennistrengur": "no-tölvuhakkari-kk",
+	"hash": "993c0a5a801163ed37bb41ecc3ff609b3432bd0338e6a083290afb7ad27a0924"
 }

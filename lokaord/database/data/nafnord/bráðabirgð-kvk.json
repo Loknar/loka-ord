@@ -6,16 +6,10 @@
 		{
 			"mynd": "bráða",
 			"samsetning": "eignarfalls",
-			"orð": "bráð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "b74e70ce643a18f0b3eef1d62197a2bb62b221abb58ce74548cdfc91144aafab"
+			"kennistrengur": "no-bráð-kvk"
 		},
 		{
-			"orð": "birgð",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "49b88541fece7132576e70900fb0783c6336b535e3fc226bb3f3c690f1fbb4ac"
+			"kennistrengur": "no-birgð-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["bráðabirgðir", "bráðabirgðir", "bráðabirgðum", "bráðabirgða"],
 		"mg": ["bráðabirgðirnar", "bráðabirgðirnar", "bráðabirgðunum", "bráðabirgðanna"]
 	},
-	"hash": "983838f10b9783c6f77cbd5dc7633c07d5b7d9047a8a18e1d24aaa44db2bdd6c"
+	"kennistrengur": "no-bráðabirgð-kvk",
+	"hash": "cba87e66d51ad2bfcbbd1220ddb8c2446c30c69b7e125bb42ac09c180d29c945"
 }

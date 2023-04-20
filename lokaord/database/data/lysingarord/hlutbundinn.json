@@ -5,15 +5,10 @@
 		{
 			"mynd": "hlut",
 			"samsetning": "stofn",
-			"orð": "hlutur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "477b67c6db103327ac1258c3a1aafdfc52bf9105705dfaa82b4b653063e3f28c"
+			"kennistrengur": "no-hlutur-kk"
 		},
 		{
-			"orð": "bundinn",
-			"flokkur": "lýsingarorð",
-			"hash": "d57cbdaf435979f6a28415028653ce1dc67c537e56f489b487faf059f7749b23"
+			"kennistrengur": "lo-bundinn"
 		}
 	],
 	"frumstig": {
@@ -82,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "ac5cdb3be52bc77db5ff36576683c7c66d73b4947993695abaf737e5c4d32705"
+	"kennistrengur": "lo-hlutbundinn",
+	"hash": "7c7917c25a966b7be9d7a428dc0adaae1331730077871a7bcb8c8df197546fe4"
 }

@@ -6,24 +6,15 @@
 		{
 			"mynd": "at",
 			"samsetning": "stofn",
-			"orð": "at",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87b24d1d7d210e3945081ef4a829039eb5e0c9f02020e89c532d8e434a761d40"
+			"kennistrengur": "no-at-hk"
 		},
 		{
 			"mynd": "huga",
 			"samsetning": "stofn",
-			"orð": "huga",
-			"flokkur": "sagnorð",
-			"hash": "25a82c15d376189ac972d56a018f0280475cf9c4e024178c578862ea9e511f71"
+			"kennistrengur": "so-huga"
 		},
 		{
-			"orð": "semd",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"ósjálfstætt": true,
-			"hash": "190da915b6f3361390793f9e85d9c95082ae482378f979630ee715efcf0b6fe2"
+			"kennistrengur": "no-semd-kvk-ó"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["athugasemdir", "athugasemdir", "athugasemdum", "athugasemda"],
 		"mg": ["athugasemdirnar", "athugasemdirnar", "athugasemdunum", "athugasemdanna"]
 	},
-	"hash": "f6aa3dd272915172a17dd68b6ea522a0757a6189402bbd890f36289b3a168985"
+	"kennistrengur": "no-athugasemd-kvk",
+	"hash": "fbfafe9bc25c3740fe2801529c50ac12d259910e061e49aeb75703c93d17138e"
 }

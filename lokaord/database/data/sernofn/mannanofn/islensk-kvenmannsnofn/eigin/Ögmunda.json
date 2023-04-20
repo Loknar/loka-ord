@@ -2,27 +2,21 @@
 	"orð": "Ögmunda",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Ög",
 			"samsetning": "stofn",
-			"orð": "ögur",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "5d80e592d34a165706bc9c93d23f24e97b8fd0d94fcf6792731cdd715c5374f4"
+			"kennistrengur": "no-ögur-hk"
 		},
 		{
-			"orð": "Munda",
-			"flokkur": "sérnafn",
-			"undirflokkur": "eiginnafn",
-			"kyn": "kvk",
 			"lágstafa": true,
-			"hash": "01c5d284627ae7466601f5150270047fff577e1660e33f5fd878f66c565a882d"
+			"kennistrengur": "sérn.en-Munda-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Ögmunda", "Ögmundu", "Ögmundu", "Ögmundu"]
 	},
-	"hash": "2ecf5c7c7a2c2654c285f4967120e06c5c81004f0a5612eeae61cb227688fb28"
+	"kennistrengur": "sérn.en-Ögmunda-kvk",
+	"hash": "7e5465aa5de88e0e53fdefaeead98a78078ed518da67a541c36fec6f5718623a"
 }

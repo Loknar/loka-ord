@@ -2,19 +2,17 @@
 	"orð": "Rún",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "rún",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "2283322409d48f8f0e9b5dfc64d8c89100132bcbc928490cb21c5e322a4a417a"
+			"kennistrengur": "no-rún-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Rún", "Rún", "Rún", "Rúnar"]
 	},
-	"hash": "953324d7115175f8a95833208a56620911192586fffc7b3934e9126607cdab6e"
+	"kennistrengur": "sérn.en-Rún-kvk",
+	"hash": "d33969a9c1fd9a9f74ee57b93e1a651565eb4fb9167359aa8c18a0366eb8a8f0"
 }

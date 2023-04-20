@@ -6,17 +6,10 @@
 		{
 			"mynd": "hjálp",
 			"samsetning": "stofn",
-			"orð": "hjálp",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "4003af3c1b5d5e361a99bbb2f26707bdc5470957bb7708dd22c5269fe61cce08"
+			"kennistrengur": "no-hjálp-kvk"
 		},
 		{
-			"orð": "ari",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"ósjálfstætt": true,
-			"hash": "ccd1b088e777fce1dc4b77e9a791940ff3c46ef7facac2aa827fe99f6f8af75d"
+			"kennistrengur": "no-ari-kk-ó"
 		}
 	],
 	"et": {
@@ -27,5 +20,6 @@
 		"ág": ["hjálparar", "hjálpara", "hjálpurum", "hjálpara"],
 		"mg": ["hjálpararnir", "hjálparana", "hjálpurunum", "hjálparanna"]
 	},
-	"hash": "8b6de8afda111d907e551a31f98dacc56f4d773187259abf613508b158a63b71"
+	"kennistrengur": "no-hjálpari-kk",
+	"hash": "57cba06c0fd2b46fde9b0d3eacc17743d62eaf67606145f5be5f7509cacaabc9"
 }

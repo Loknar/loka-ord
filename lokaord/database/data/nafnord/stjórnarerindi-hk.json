@@ -6,16 +6,10 @@
 		{
 			"mynd": "stjórnar",
 			"samsetning": "eignarfalls",
-			"orð": "stjórn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+			"kennistrengur": "no-stjórn-kvk"
 		},
 		{
-			"orð": "erindi",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "657f37ed38115fcc5e1fde27c90c7460aa6f9073232eb9ac055dc2df970d541a"
+			"kennistrengur": "no-erindi-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["stjórnarerindi", "stjórnarerindi", "stjórnarerindum", "stjórnarerinda"],
 		"mg": ["stjórnarerindin", "stjórnarerindin", "stjórnarerindunum", "stjórnarerindanna"]
 	},
-	"hash": "728c31f3d38ad9c3e555fc9fd5d40f3cb64bd539ec49fa136199c7833f45bcfb"
+	"kennistrengur": "no-stjórnarerindi-hk",
+	"hash": "31878d37a64fffb49201b2e8721bdb1e1805a8f8582b2cdf80a1adbaff51f4d7"
 }

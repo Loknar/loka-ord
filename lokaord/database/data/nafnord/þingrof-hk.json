@@ -6,16 +6,10 @@
 		{
 			"mynd": "þing",
 			"samsetning": "stofn",
-			"orð": "þing",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "d0ed6b82e79807fe9a14f0d67c678769a2610e822a49655777dea76fa9b384ec"
+			"kennistrengur": "no-þing-hk"
 		},
 		{
-			"orð": "rof",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "ff42a4dc58969d28bfbeee4b024ba2afb87923ee22140174feb55a40347aa159"
+			"kennistrengur": "no-rof-hk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["þingrof", "þingrof", "þingrofum", "þingrofa"],
 		"mg": ["þingrofin", "þingrofin", "þingrofunum", "þingrofanna"]
 	},
-	"hash": "aa6c3bd562070e960712516fef960670114276b4798d949f252a350469b4aad5"
+	"kennistrengur": "no-þingrof-hk",
+	"hash": "215a1e5912f89a93d444b4b9a73ee4cf945b99e2820f96822a0ac1c6b2cfa501"
 }

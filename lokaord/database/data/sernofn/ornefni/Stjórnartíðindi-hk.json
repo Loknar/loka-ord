@@ -2,26 +2,21 @@
 	"orð": "Stjórnartíðindi",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "hk",
 	"samsett": [
 		{
 			"mynd": "Stjórnar",
 			"samsetning": "eignarfalls",
-			"orð": "stjórn",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "7e07a58bb46ffe5f39bfba19fc4c4a353e39bf60e06a73ecdfc33e2bbefe45e1"
+			"kennistrengur": "no-stjórn-kvk"
 		},
 		{
-			"orð": "tíðindi",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["ft-ág"],
-			"hash": "66a36cf51eee68d5c4c6df2b7b7bf51a9e2132980d5a7ff63426766232880de1"
+			"kennistrengur": "no-tíðindi-hk"
 		}
 	],
+	"kyn": "hk",
 	"ft": {
 		"ág": ["Stjórnartíðindi", "Stjórnartíðindi", "Stjórnartíðindum", "Stjórnartíðinda"]
 	},
-	"hash": "37c23cbcc9b47830e170eb5d22243a028a3622fb9d6d8eb6007ae5191807a586"
+	"kennistrengur": "sérn.ön-Stjórnartíðindi-hk",
+	"hash": "7d668a475ba7eb8c919d84c4e3010e3b66a013a5ed78ee51250bf914bde7e324"
 }

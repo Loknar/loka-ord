@@ -6,24 +6,15 @@
 		{
 			"mynd": "sjón",
 			"samsetning": "stofn",
-			"orð": "sjón",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "1aa6c58fc652c15f7537cabf0468f71c748c53eb4eb903a0f674bbe40ffac956"
+			"kennistrengur": "no-sjón-kvk"
 		},
 		{
 			"mynd": "varps",
 			"samsetning": "eignarfalls",
-			"orð": "varp",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "012f8875a6b331eed5497478135f6f3cac9f39ad05ad0bf122446672b877c1ee"
+			"kennistrengur": "no-varp-hk"
 		},
 		{
-			"orð": "flakkari",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "ccc38bca2bd425acdd74a9884d4bab92009f02562ffbcc4e3962036c5f6e5fc2"
+			"kennistrengur": "no-flakkari-kk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["sjónvarpsflakkarar", "sjónvarpsflakkara", "sjónvarpsflökkurum", "sjónvarpsflakkara"],
 		"mg": ["sjónvarpsflakkararnir", "sjónvarpsflakkarana", "sjónvarpsflökkurunum", "sjónvarpsflakkaranna"]
 	},
-	"hash": "40fcb5001fd6d08b5439fed45e1e64b392dadb351c4d629d3ca2bd0c0798d679"
+	"kennistrengur": "no-sjónvarpsflakkari-kk",
+	"hash": "66224dd4c850fadca8cefb83f84dbe4d60766345132a8207c50c82b26057b511"
 }

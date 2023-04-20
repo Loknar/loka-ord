@@ -2,19 +2,17 @@
 	"orð": "Vör",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "vör",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "de96070eef83d55751a9e584a4b653d6e83243d38bc8956d8c64c5d9c6a92167"
+			"kennistrengur": "no-vör-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Vör", "Vör", "Vör", "Varar"]
 	},
-	"hash": "a31953f3979a72f8fe7c2e0e42485ba0e2418446965f6b570f5bee8f6d47b08b"
+	"kennistrengur": "sérn.en-Vör-kvk",
+	"hash": "51305a5fc4e86d0ad748a6b4bd9c8158c5357f7f589b7cabf954c94ac794d3a2"
 }

@@ -2,25 +2,21 @@
 	"orð": "Langjökułl",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Lang",
 			"samsetning": "stofn",
-			"orð": "langur",
-			"flokkur": "lýsingarorð",
-			"hash": "0b23889b81cae6a6c1ed16ca3cef36ba3acbdd20cbad61c42e503d38303bd64e"
+			"kennistrengur": "lo-langur"
 		},
 		{
-			"orð": "jökułl",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "5db64d290adbe25a5ff7b2c6c548c744f4549145de7e61ff70828b6a5f610601"
+			"kennistrengur": "no-jökułl-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Langjökułl", "Langjökul", "Langjökli", "Langjökuls"]
 	},
-	"hash": "dd7bb152623aaffb953570a9731a33353ec66b52356d4e642868e7e7a8261cc0"
+	"kennistrengur": "sérn.ön-Langjökułl-kk",
+	"hash": "69924a02a496da5a2b9b6a6429284d98842ce80f4690108fbf2993ab9755e29a"
 }

@@ -6,22 +6,17 @@
 		{
 			"mynd": "embætta",
 			"samsetning": "eignarfalls",
-			"orð": "embætti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "92b1ebac5ee8fd9c4260c6879850277348bbbd6d18eca1b21911fdf6fa205d61"
+			"kennistrengur": "no-embætti-hk"
 		},
 		{
-			"orð": "skipti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
 			"beygingar": ["ft-ág", "ft-mg"],
-			"hash": "245bb58d5c8e5c88f0c3e27827c88715171603fea9276ba5d20dc720b5375be9"
+			"kennistrengur": "no-skipti-hk"
 		}
 	],
 	"ft": {
 		"ág": ["embættaskipti", "embættaskipti", "embættaskiptum", "embættaskipta"],
 		"mg": ["embættaskiptin", "embættaskiptin", "embættaskiptunum", "embættaskiptanna"]
 	},
-	"hash": "1f0b23c7e88c3a74051ef0d19e6429ee1841977a4fe31ea74e1c35323a97099d"
+	"kennistrengur": "no-embættaskipti-hk",
+	"hash": "ef0429068cf3677a0ea3b1e0ced49031b77f2119c6d79c3a49bdc607c4cd11ec"
 }

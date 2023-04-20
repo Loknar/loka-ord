@@ -6,16 +6,10 @@
 		{
 			"mynd": "endur",
 			"samsetning": "stofn",
-			"orð": "endur",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"hash": "8375e8b90db7ea90d6c6c2b6388c3212556aebcd6b73cb7d8457f8db304aa716"
+			"kennistrengur": "smáo.ao-endur"
 		},
 		{
-			"orð": "talning",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "b3595ff142ab60e8079562ae40b484c50c6672a2583df6e305055049e8b66b13"
+			"kennistrengur": "no-talning-kvk"
 		}
 	],
 	"et": {
@@ -26,5 +20,6 @@
 		"ág": ["endurtalningar", "endurtalningar", "endurtalningum", "endurtalninga"],
 		"mg": ["endurtalningarnar", "endurtalningarnar", "endurtalningunum", "endurtalninganna"]
 	},
-	"hash": "c78bd5ec9c95492ae07ba2e885e5ecb6f2268fd04756e74ad91e21a17ca6104e"
+	"kennistrengur": "no-endurtalning-kvk",
+	"hash": "64fd11890733b426f7a1b6d177d1b1b43b8ac815755e6cb984fb2c7e7e9f71ad"
 }

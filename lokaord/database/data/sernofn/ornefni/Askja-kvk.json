@@ -2,19 +2,17 @@
 	"orð": "Askja",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "askja",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "003501e146a0e6bda920bbcb85592a9613c5b93af7099e827db4410d4c2b6659"
+			"kennistrengur": "no-askja-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Askja", "Öskju", "Öskju", "Öskju"]
 	},
-	"hash": "2a59bbc7a36c31e7f3f148cd31f97fdc728afb2bc3b31c28f0ad3743961580cf"
+	"kennistrengur": "sérn.ön-Askja-kvk",
+	"hash": "de435d8c78c9aa0b4c9b63f65cbcbf61b7b507c0688d7e415834d798109b8e35"
 }

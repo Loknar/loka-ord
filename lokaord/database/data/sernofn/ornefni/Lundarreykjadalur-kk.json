@@ -2,34 +2,26 @@
 	"orð": "Lundarreykjadalur",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kk",
 	"samsett": [
 		{
 			"mynd": "Lundar",
 			"samsetning": "eignarfalls",
-			"orð": "lundur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "71498e14195c3be334a9070b0728d0ca9f72f20383db4eafc95b48ecbff83599"
+			"kennistrengur": "no-lundur-kk"
 		},
 		{
 			"mynd": "reykja",
 			"samsetning": "eignarfalls",
-			"orð": "reykur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "c1893e35e3212dd92bb99bc4236d935828460fe2aa840c95c60c65219bda3790"
+			"kennistrengur": "no-reykur-kk"
 		},
 		{
-			"orð": "dalur",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
 			"beygingar": ["et-ág"],
-			"hash": "42b6e5c6cfec185caeba9fb77620c27c35cf713f797ada7f96f0fd073970c60f"
+			"kennistrengur": "no-dalur-kk"
 		}
 	],
+	"kyn": "kk",
 	"et": {
 		"ág": ["Lundarreykjadalur", "Lundarreykjadal", "Lundarreykjadal", "Lundarreykjadals"]
 	},
-	"hash": "05ba38f892b27e528d6a96da2a8dcc092b09d9b33f47c545e7847c52e6fa2ba5"
+	"kennistrengur": "sérn.ön-Lundarreykjadalur-kk",
+	"hash": "1760e820250588ada13ece084b461019658b05beee64967309163f9ac27cae40"
 }

@@ -5,15 +5,10 @@
 		{
 			"mynd": "mis",
 			"samsetning": "stofn",
-			"orð": "mis",
-			"flokkur": "smáorð",
-			"undirflokkur": "atviksorð",
-			"hash": "9f316137de59e14bd826323e57541b07ed4118eb2fb9f8cb1909385261b34f95"
+			"kennistrengur": "smáo.ao-mis"
 		},
 		{
-			"orð": "fara",
-			"flokkur": "sagnorð",
-			"hash": "7fa934a72557f769dc9426b8b341ade149a680fed23f025f5357323e647cf146"
+			"kennistrengur": "so-fara"
 		}
 	],
 	"germynd": {
@@ -72,10 +67,6 @@
 	"miðmynd": {
 		"nafnháttur": "misfarast",
 		"sagnbót": "misfarist",
-		"boðháttur": {
-			"et": "misfarstu",
-			"ft": "misfarist"
-		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -169,5 +160,6 @@
 			}
 		}
 	},
-	"hash": "024b54d55a1f47518b32d22ea4edf8538bea24fff2b21935451e81128bae01b4"
+	"kennistrengur": "so-misfara",
+	"hash": "bf5b54531aa03f726ba5e510eef28a8b142f1bc3e16eda7acf504041d81f355f"
 }

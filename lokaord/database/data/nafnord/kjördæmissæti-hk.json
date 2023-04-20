@@ -6,25 +6,15 @@
 		{
 			"mynd": "kjör",
 			"samsetning": "stofn",
-			"orð": "kjör",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"merking": "kosning",
-			"hash": "851a58c80b59600df3c79bf82b663dcc868620250960ca31178ab284deb3c83c"
+			"kennistrengur": "no-kjör-hk-_kosning_"
 		},
 		{
 			"mynd": "dæmis",
 			"samsetning": "eignarfalls",
-			"orð": "dæmi",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "c41d75ce758174047306ad83572f3c542862c78e8e70f41a6f78df5fef79d38a"
+			"kennistrengur": "no-dæmi-hk"
 		},
 		{
-			"orð": "sæti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "4fafe110de49ff831ff99143e9434717fb2c01f60b0ecb586c6a3acbd07fb7aa"
+			"kennistrengur": "no-sæti-hk"
 		}
 	],
 	"et": {
@@ -35,5 +25,6 @@
 		"ág": ["kjördæmissæti", "kjördæmissæti", "kjördæmissætum", "kjördæmissæta"],
 		"mg": ["kjördæmissætin", "kjördæmissætin", "kjördæmissætunum", "kjördæmissætanna"]
 	},
-	"hash": "bb2ba1543de167db315d0fe9009b020f02515ecdb367464135f1eef089fd259a"
+	"kennistrengur": "no-kjördæmissæti-hk",
+	"hash": "d58fc98b60ed9ccf0a28ed21d0a0eb4a9f234c64eaa4678d311db462b56e1ffd"
 }

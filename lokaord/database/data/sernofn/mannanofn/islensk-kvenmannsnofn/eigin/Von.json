@@ -2,19 +2,17 @@
 	"orð": "Von",
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
-	"kyn": "kvk",
 	"samsett": [
 		{
-			"orð": "von",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"hash": "26045a1aa691576a1494b0414f8c3797262c0122f3e2115013e836126e72a49c"
+			"kennistrengur": "no-von-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Von", "Von", "Von", "Vonar"]
 	},
-	"hash": "ce0ede1880b269ff1a40276f724f9f4da291eb2c9ac11a99e9bb1882bd4efe59"
+	"kennistrengur": "sérn.en-Von-kvk",
+	"hash": "cebabfae53b5d40222e709f87f24e7c7c8b96d355db9b2cff4867036abc8be69"
 }

@@ -6,24 +6,15 @@
 		{
 			"mynd": "sam",
 			"samsetning": "eignarfalls",
-			"orð": "samur",
-			"flokkur": "fornafn",
-			"undirflokkur": "óákveðið",
-			"hash": "fd41bc9b21db7226a1809612c214b38797f1c75c1398bbeaf9230b96a69ef67a"
+			"kennistrengur": "fn.óákv-samur"
 		},
 		{
 			"mynd": "skipta",
 			"samsetning": "eignarfalls",
-			"orð": "skipti",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "245bb58d5c8e5c88f0c3e27827c88715171603fea9276ba5d20dc720b5375be9"
+			"kennistrengur": "no-skipti-hk"
 		},
 		{
-			"orð": "stjóri",
-			"flokkur": "nafnorð",
-			"kyn": "kk",
-			"hash": "cbbb4b29ce9eb34f389f8ccf28745c13c228445a0a38137c7e5879ee82b3e664"
+			"kennistrengur": "no-stjóri-kk"
 		}
 	],
 	"et": {
@@ -34,5 +25,6 @@
 		"ág": ["samskiptastjórar", "samskiptastjóra", "samskiptastjórum", "samskiptastjóra"],
 		"mg": ["samskiptastjórarnir", "samskiptastjórana", "samskiptastjórunum", "samskiptastjóranna"]
 	},
-	"hash": "2270bb6b441fd57069c51304939a4577bcf151c59e0095270ed7379b370da203"
+	"kennistrengur": "no-samskiptastjóri-kk",
+	"hash": "204c4a1e9b0f8458ba4968028d5ab7c9437d5ac6489c004ef49a334d20eb2e07"
 }

@@ -5,16 +5,10 @@
 		{
 			"mynd": "leyni",
 			"samsetning": "stofn",
-			"orð": "leyni",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "1bf5ad98f5f9044aa7377d45b416dfab582ca1f084f835fe1eb53ab4a565eb30"
+			"kennistrengur": "no-leyni-hk"
 		},
 		{
-			"orð": "legur",
-			"flokkur": "lýsingarorð",
-			"ósjálfstætt": true,
-			"hash": "db1a87d49cf232f93b10f3161d509c01a0674c6239c04d97f366f753ec3a3d98"
+			"kennistrengur": "lo-legur-ó"
 		}
 	],
 	"frumstig": {
@@ -83,5 +77,6 @@
 			}
 		}
 	},
-	"hash": "108001e58f8c4ee779341aab43a0d39935266555ab2c40255e7282da09d0ce64"
+	"kennistrengur": "lo-leynilegur",
+	"hash": "038619d44ac9a93bff4a36c7c8847c00e80419d2a560f8f53face0c601ae13c8"
 }

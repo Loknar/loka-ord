@@ -2,26 +2,21 @@
 	"orð": "Fljótstunga",
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
-	"kyn": "kvk",
 	"samsett": [
 		{
 			"mynd": "Fljóts",
 			"samsetning": "eignarfalls",
-			"orð": "fljót",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "87fcbb265aea01f613160a60678e6fcb758462fd373147c28c699907daf05062"
+			"kennistrengur": "no-fljót-hk"
 		},
 		{
-			"orð": "tunga",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
 			"beygingar": ["et-ág"],
-			"hash": "d3d4ebd840caf8d1be94890684329943b8b9e5b79beb406f9d16de27fc2753b7"
+			"kennistrengur": "no-tunga-kvk"
 		}
 	],
+	"kyn": "kvk",
 	"et": {
 		"ág": ["Fljótstunga", "Fljótstungu", "Fljótstungu", "Fljótstungu"]
 	},
-	"hash": "5d693cf7a77b76ac37c0c1cf6cc93d2d394c52413b0091b1555b205c0769f9ad"
+	"kennistrengur": "sérn.ön-Fljótstunga-kvk",
+	"hash": "439a8aa2afef199810a62608efb4e57e81a3d537e45395d58fa8a2f9035b6ecd"
 }
