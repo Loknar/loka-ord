@@ -417,7 +417,8 @@ def get_words_count():
             'kjarnaorð': db.Session.query(isl.Ord).filter_by(Samsett=False).count(),
             'samsett': db.Session.query(isl.Ord).filter_by(Samsett=True).count(),
             'samtals': db.Session.query(isl.Ord).count()
-        }
+        },
+        'skammstafanir': db.Session.query(isl.Skammstofun).count()
     }
     return data
 
@@ -449,7 +450,9 @@ def get_words_count_markdown_table():
         ' | {sn_o_s_hk} | {sn_o_s} | **{sn_o_a}** |\n'
         '| **Alls**  |   |   |   | **{a_2_k}** |   |   |   | **{a_2_s}** | **{a_2_a}** |\n'
         '\n'
-        '**Samtals:** {a_3_a} orð.'
+        '**Samtals:** {a_3_a} orð.\n'
+        '\n'
+        '{skamm} skammstafanir.'
     ).format(
         no_kk=data['nafnorð']['kyn-kjarnaorð']['kk'],  # fyrri tafla
         no_kvk=data['nafnorð']['kyn-kjarnaorð']['kvk'],
@@ -512,6 +515,7 @@ def get_words_count_markdown_table():
         a_2_s=data['sérnöfn']['samsett'],
         a_2_a=data['sérnöfn']['samtals'],
         a_3_a=data['allt']['samtals'],
+        skamm=data['skammstafanir'],
     )
     return md_table
 
