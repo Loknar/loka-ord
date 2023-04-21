@@ -1221,7 +1221,7 @@ class SernafnData(OrdData):
         data_dict = super().dict(*args, **kwargs)
         data = OrderedDict()
         key_order = [
-            'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'kyn', 'et', 'ft',
+            'orð', 'flokkur', 'undirflokkur', 'kyn', 'tölugildi', 'merking', 'samsett', 'et', 'ft',
             'ósjálfstætt', 'kennistrengur', 'datahash'
         ]
         key_map = {'datahash': 'hash'}
