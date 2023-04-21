@@ -4,12 +4,7 @@ Importer functionality
 
 Importing data from files to SQL database.
 """
-import collections
-import decimal
-import json
 import os
-import pathlib
-import re
 
 import git
 

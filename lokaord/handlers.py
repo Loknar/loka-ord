@@ -10,7 +10,6 @@ import datetime
 from decimal import Decimal
 import hashlib
 import json
-import operator
 import os
 import pathlib
 import random
@@ -366,8 +365,6 @@ class Ord:
         merking = self.detect_merking_in_filename(os.path.basename(filename))
         if merking is not None and 'merking' not in data:
             data['merking'] = merking
-        if 'undirflokkur' in data and data['undirflokkur'] == 'millinafn':
-            data['undirflokkur'] = 'miłlinafn'  # temporary fix
         tracebacks = []
         correct_struct = None
         for struct in list(typing.get_args(self.__annotations__['data'])):
@@ -705,199 +702,33 @@ class Ord:
                 ord_dict[key] = self.merge_dict_to_dict(pre_dict[key], ord_dict[key])
         return ord_dict
 
-    def ordhluti_get_beygingar(self, ordhluti: dict | OrderedDict, get_k=False) -> dict | OrderedDict:
+    def ordhluti_get_beygingar(self, ordhluti: dict | OrderedDict) -> dict | OrderedDict:
         """
         Usage:  beygingar = self.ordhluti_get_beygingar(ordhluti)
         Before: @ordhluti is a dict containing mynd and samsetning type, or myndir type, and
                 kennistrengur for orð.
         After:  @beygingar is a dict containing beygingar info for orð of the @orðhluti.
-
-        TEMP: if get_k is true return string containing kennistrengur of orð
         """
         isl_ord = None
         handlers_map = {}
         for handler in list_handlers():
             handlers_map[handler.group.get_abbreviation()] = handler
-        # here we're doing some dirty work because of previous impl
-        # first if statement is future impl using kennistrengur only to lookup orð
-        # the elifs are transition implementations
-        #
-        #
-        if 'merking' not in ordhluti:  # also temporary
-            ordhluti['merking'] = None
-        if 'ósjálfstætt' not in ordhluti:
-            ordhluti['ósjálfstætt'] = False
-        #
-        #
-        if 'kennistrengur' in ordhluti:  # our one future impl
-            ordhluti_flokkur_abbr = ordhluti['kennistrengur'].split('-')[0].split('.')[0]
-            if ordhluti_flokkur_abbr not in handlers_map:
-                raise Exception('Missing handler for kennistrengur "%s".' % (
-                    ordhluti['kennistrengur'],
-                ))
-            handler = handlers_map[ordhluti_flokkur_abbr]
-            isl_ord = db.Session.query(isl.Ord).filter_by(
-                Kennistrengur=ordhluti['kennistrengur']
-            ).first()
-            if isl_ord is None:
-                raise Exception('Orð with kennistrengur "%s" not found.' % (
-                    ordhluti['kennistrengur'],
-                ))
-        elif ordhluti['flokkur'] == structs.Ordflokkar.Nafnord.value:
-            # transition impl
-            handler = Nafnord
-            isl_ord = db.Session.query(isl.Ord).join(isl.Nafnord).filter(
-                isl.Ord.Ord == ordhluti['orð']
-            ).filter(
-                isl.Ord.Ordflokkur == isl.Ordflokkar.Nafnord
-            ).filter(
-                isl.Nafnord.Kyn == isl.Kyn[structs.Kyn(ordhluti['kyn']).name]
-            ).filter(
-                isl.Ord.Merking == ordhluti['merking']
-            ).filter(
-                isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-            ).first()
-        elif ordhluti['flokkur'] == structs.Ordflokkar.Sagnord.value:
-            # transition impl
-            handler = Sagnord
-            isl_ord = db.Session.query(isl.Ord).filter(
-                isl.Ord.Ord == ordhluti['orð']
-            ).filter(
-                isl.Ord.Ordflokkur == isl.Ordflokkar.Sagnord
-            ).filter(
-                isl.Ord.Merking == ordhluti['merking']
-            ).filter(
-                isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-            ).first()
-        elif ordhluti['flokkur'] == structs.Ordflokkar.Lysingarord.value:
-            # transition impl
-            handler = Lysingarord
-            isl_ord = db.Session.query(isl.Ord).filter(
-                isl.Ord.Ord == ordhluti['orð']
-            ).filter(
-                isl.Ord.Ordflokkur == isl.Ordflokkar.Lysingarord
-            ).filter(
-                isl.Ord.Merking == ordhluti['merking']
-            ).filter(
-                isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-            ).first()
-        elif ordhluti['flokkur'] == structs.Ordflokkar.Smaord.value:
-            handler = Smaord
-            if ordhluti['undirflokkur'] == structs.Smaordaflokkar.Forsetning.value:
-                # transition impl
-                isl_ord = db.Session.query(isl.Ord).filter(
-                    isl.Ord.Ord == ordhluti['orð']
-                ).filter(
-                    isl.Ord.Ordflokkur == isl.Ordflokkar.Forsetning
-                ).filter(
-                    isl.Ord.Merking == ordhluti['merking']
-                ).filter(
-                    isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-                ).first()
-            if ordhluti['undirflokkur'] == structs.Smaordaflokkar.Atviksord.value:
-                # transition impl
-                isl_ord = db.Session.query(isl.Ord).filter(
-                    isl.Ord.Ord == ordhluti['orð']
-                ).filter(
-                    isl.Ord.Ordflokkur == isl.Ordflokkar.Atviksord
-                ).filter(
-                    isl.Ord.Merking == ordhluti['merking']
-                ).filter(
-                    isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-                ).first()
-            if ordhluti['undirflokkur'] == structs.Smaordaflokkar.Nafnhattarmerki.value:
-                # transition impl
-                isl_ord = db.Session.query(isl.Ord).filter(
-                    isl.Ord.Ord == ordhluti['orð']
-                ).filter(
-                    isl.Ord.Ordflokkur == isl.Ordflokkar.Nafnhattarmerki
-                ).filter(
-                    isl.Ord.Merking == ordhluti['merking']
-                ).filter(
-                    isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-                ).first()
-            if ordhluti['undirflokkur'] == structs.Smaordaflokkar.Samtenging.value:
-                # transition impl
-                isl_ord = db.Session.query(isl.Ord).filter(
-                    isl.Ord.Ord == ordhluti['orð']
-                ).filter(
-                    isl.Ord.Ordflokkur == isl.Ordflokkar.Samtenging
-                ).filter(
-                    isl.Ord.Merking == ordhluti['merking']
-                ).filter(
-                    isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-                ).first()
-            if ordhluti['undirflokkur'] == structs.Smaordaflokkar.Upphropun.value:
-                # transition impl
-                isl_ord = db.Session.query(isl.Ord).filter(
-                    isl.Ord.Ord == ordhluti['orð']
-                ).filter(
-                    isl.Ord.Ordflokkur == isl.Ordflokkar.Upphropun
-                ).filter(
-                    isl.Ord.Merking == ordhluti['merking']
-                ).filter(
-                    isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-                ).first()
-        elif ordhluti['flokkur'] == structs.Ordflokkar.Sernafn.value:
-            handler = Sernafn
-            sernafn_kyn = None
-            if 'kyn' in ordhluti:
-                sernafn_kyn = isl.Kyn[structs.Kyn(ordhluti['kyn']).name]
-            isl_ord = db.Session.query(isl.Ord).join(isl.Sernafn).filter(
-                isl.Ord.Ord == ordhluti['orð']
-            ).filter(
-                isl.Ord.Ordflokkur == isl.Ordflokkar.Sernafn
-            ).filter(
-                isl.Sernafn.Kyn == sernafn_kyn
-            ).filter(
-                isl.Ord.Merking == ordhluti['merking']
-            ).filter(
-                isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-            ).first()
-        elif ordhluti['flokkur'] == structs.Ordflokkar.Toluord.value:
-            handler = Toluord
-            if ordhluti['undirflokkur'] == structs.Toluordaflokkar.Fjoldatala.value:
-                isl_ord = db.Session.query(isl.Ord).filter(
-                    isl.Ord.Ord == ordhluti['orð']
-                ).filter(
-                    isl.Ord.Ordflokkur == isl.Ordflokkar.Fjoldatala
-                ).filter(
-                    isl.Ord.Merking == ordhluti['merking']
-                ).filter(
-                    isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-                ).first()
-            if ordhluti['undirflokkur'] == structs.Toluordaflokkar.Radtala.value:
-                isl_ord = db.Session.query(isl.Ord).filter(
-                    isl.Ord.Ord == ordhluti['orð']
-                ).filter(
-                    isl.Ord.Ordflokkur == isl.Ordflokkar.Radtala
-                ).filter(
-                    isl.Ord.Merking == ordhluti['merking']
-                ).filter(
-                    isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-                ).first()
-        elif ordhluti['flokkur'] == structs.Ordflokkar.Fornafn.value:
-            handler = Fornafn
-            isl_ord = db.Session.query(isl.Ord).join(isl.Fornafn).filter(
-                isl.Ord.Ord == ordhluti['orð']
-            ).filter(
-                isl.Ord.Ordflokkur == isl.Ordflokkar.Fornafn
-            ).filter(
-                isl.Fornafn.Undirflokkur == isl.Fornafnaflokkar[structs.Fornafnaflokkar(ordhluti['undirflokkur']).name]
-            ).filter(
-                isl.Ord.Merking == ordhluti['merking']
-            ).filter(
-                isl.Ord.OsjalfstaedurOrdhluti == ordhluti['ósjálfstætt']
-            ).first()
-        else:
-            raise Exception('todo: implement for %s' % (ordhluti.flokkur, ))
+        # find which handler to use
+        ordhluti_flokkur_abbr = ordhluti['kennistrengur'].split('-')[0].split('.')[0]
+        if ordhluti_flokkur_abbr not in handlers_map:
+            raise Exception('Missing handler for kennistrengur "%s".' % (
+                ordhluti['kennistrengur'],
+            ))
+        handler = handlers_map[ordhluti_flokkur_abbr]
+        isl_ord = db.Session.query(isl.Ord).filter_by(
+            Kennistrengur=ordhluti['kennistrengur']
+        ).first()
+        if isl_ord is None:
+            raise Exception('Orð with kennistrengur "%s" not found.' % (
+                ordhluti['kennistrengur'],
+            ))
         if isl_ord is None:
             raise Exception('orð for orðhluti not found?')
-        #if isl_ord.Samsett is True:
-        #    raise Exception('haven\'t added support for samsett orð from samsett orð')
-        if get_k is True:  # temp stuff
-            assert(isl_ord.Kennistrengur not in (None, ''))
-            return isl_ord.Kennistrengur
         loaded_ord = handler()
         loaded_ord.load_from_db(isl_ord)
         isl_ord_dict = loaded_ord.data.dict()
@@ -985,20 +816,6 @@ class Ord:
                 beygingar = self.merge_dict_to_dict(lo_myndir_beygingar, beygingar)
             else:
                 raise Exception('should not happen?')
-        # <patch-samsett-data>
-        # temporary, for patching samsett
-        remove_from_ordhlutar = [
-            'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'ósjálfstætt', 'hash'
-        ]
-        samsett_patched = copy.deepcopy(samsett)
-        for i in range(0, len(samsett_patched)):
-            kennistrengur = self.ordhluti_get_beygingar(samsett_patched[i], get_k=True)
-            for key in remove_from_ordhlutar:
-                if key in samsett_patched[i]:
-                    del samsett_patched[i][key]
-            samsett_patched[i]['kennistrengur'] = kennistrengur
-        beygingar['samsett'] = samsett_patched
-        # </patch-samsett-data>
         return beygingar
 
     def derive_beygingar_from_samsett(self, data: dict | OrderedDict) -> dict | OrderedDict:
@@ -1022,7 +839,7 @@ class Ord:
         derived_beygingar = self.merge_ordhlutar(derived['samsett'])
         # add derived beygingar to orð data
         for key in derived_beygingar:
-            if key in non_beygingar_keys and key != 'samsett':  # temporary, for patching samsett
+            if key in non_beygingar_keys:
                 raise Exception('Should not happen!')
             derived[key] = derived_beygingar[key]
         for key in preserve_keys:
@@ -3524,8 +3341,16 @@ class Skammstofun(Ord):
             Skammstofun=self.data.skammstöfun, Merking=self.data.merking
         ).first()
         if isl_sk is None:
-            isl_sk = isl.Skammstofun(Skammstofun=self.data.skammstöfun, Merking=self.data.merking)
+            isl_sk = isl.Skammstofun(
+                Skammstofun=self.data.skammstöfun,
+                Merking=self.data.merking,
+                Kennistrengur=self.data.kennistrengur
+            )
             db.Session.add(isl_sk)
+            db.Session.commit()
+            changes_made = True
+        if isl_sk.Kennistrengur != self.data.kennistrengur:
+            isl_sk.Kennistrengur = self.data.kennistrengur
             db.Session.commit()
             changes_made = True
         isl_sk_frasar = db.Session.query(isl.SkammstofunFrasi).filter_by(
@@ -3535,21 +3360,9 @@ class Skammstofun(Ord):
         db_frasi_count = len(isl_sk_frasar)
         for i in range(0, max(data_frasi_count, db_frasi_count)):
             if i < data_frasi_count:
-                if type(self.data.frasi[i]) is str:
-                    kennistrengur = self.data.frasi[i]
-                else:
-                    kennistrengur = self.ordhluti_get_beygingar(self.data.frasi[i].dict(), get_k=True)
-                    self.data.frasi[i] = kennistrengur
-                    # self.data.frasi[i].orð = None
-                    # self.data.frasi[i].flokkur = None
-                    # self.data.frasi[i].undirflokkur = None
-                    # self.data.frasi[i].kyn = None
-                    # self.data.frasi[i].merking = None
-                    # self.data.frasi[i].óbeygjanlegt = None
-                    # self.data.frasi[i].ósjálfstætt = None
-                    # self.data.frasi[i].datahash = None
+                kennistrengur = self.data.frasi[i]
                 if kennistrengur is None:
-                    raise Exception('no kennistrengur')
+                    raise Exception('missing kennistrengur')
                 isl_ord = db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
                 if isl_ord is None:
                     raise Exception(f'no orð with kennistrengur "{kennistrengur}"?')
@@ -3600,7 +3413,8 @@ class Skammstofun(Ord):
         sk_data = {
             'skammstöfun': isl_sk.Skammstofun,
             'frasi': [],
-            'myndir': []
+            'myndir': [],
+            'kennistrengur': isl_sk.Kennistrengur,
         }
         if isl_sk.Merking is not None:
             sk_data['merking'] = isl_sk.Merking
@@ -3609,9 +3423,9 @@ class Skammstofun(Ord):
         ).order_by(isl.SkammstofunFrasi.SkammstofunFrasi_id).all()
         if len(isl_sk_frasi) == 0:
             raise Exception('there should be frasi')
-        for frasi_ord in isk_sk_frasi:
+        for frasi_ord in isl_sk_frasi:
             isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=frasi_ord.fk_Ord_id).first()
-            sk_data['frasi'].append({'kennistrengur': isl_ord.Kennistrengur})
+            sk_data['frasi'].append(isl_ord.Kennistrengur)
         isl_sk_myndir = db.Session.query(isl.SkammstofunMynd).filter_by(
             fk_Skammstofun_id=isl_sk.Skammstofun_id
         ).order_by(isl.SkammstofunMynd.SkammstofunMynd_id).all()
@@ -3630,37 +3444,11 @@ class Skammstofun(Ord):
         self.data.datahash = self.get_data_hash()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class MyIndentJSONEncoder(json.JSONEncoder):
     '''
     json encoder for doing a little bit of custom json string indentation
 
-    this extended class is a complete hack, I am a complete hack, but it f*cking works and I'm
-    running with it
+    this encoder class is a complete hack, but the damn thing works and I'm running with it
     '''
     r_strengur = ''.join(
         random.choices(string.ascii_uppercase + string.ascii_lowercase + string.digits, k=20)

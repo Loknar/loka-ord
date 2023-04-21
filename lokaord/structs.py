@@ -1241,45 +1241,10 @@ class SernafnData(OrdData):
         return data
 
 
-class SkammstofunFrasi(BaseModel):
-    orð: NonEmptyStr | None
-    flokkur: Ordflokkar | None
-    undirflokkur: Fornafnaflokkar | Toluordaflokkar | Smaordaflokkar | Sernafnaflokkar | None
-    kyn: Kyn | None
-    merking: NonEmptyStr | None
-    óbeygjanlegt: bool | None
-    ósjálfstætt: bool | None
-    datahash: NonEmptyStr | None = Field(alias='hash')
-    kennistrengur: NonEmptyStr | None
-
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
-        key_order = [
-            'orð', 'flokkur', 'undirflokkur', 'kyn', 'merking', 'óbeygjanlegt', 'ósjálfstætt',
-            'kennistrengur', 'datahash'
-        ]
-        key_map = {'datahash': 'hash'}
-        keys_values = ('flokkur', 'undirflokkur', 'kyn')
-        keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
-        for key in key_order:
-            if data_dict[key] is not None:
-                if key in keys_values:
-                    data[key] = data_dict[key].value
-                elif key in key_map:
-                    data[key_map[key]] = data_dict[key]
-                elif key in keys_only_if_true:
-                    if data_dict[key] is True:
-                        data[key] = data_dict[key]
-                else:
-                    data[key] = data_dict[key]
-        return data
-
-
 class SkammstofunData(BaseModel):
     skammstöfun: NonEmptyStr
     merking: NonEmptyStr | None
-    frasi: conlist(SkammstofunFrasi | NonEmptyStr, min_items=1)
+    frasi: conlist(NonEmptyStr, min_items=1)
     myndir: conlist(NonEmptyStr, min_items=1)
     datahash: NonEmptyStr | None = Field(alias='hash')
     kennistrengur: NonEmptyStr | None

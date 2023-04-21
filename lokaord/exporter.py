@@ -20,7 +20,7 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
     After:  Orð from database have been written to datafiles. If @ts is provided we only export
             orð that have been edited after the @ts timestamp time period, else we export all orð.
     """
-    logman.info('Writing data from database to datafiles ..')
+    logman.info('Writing orð data from database to datafiles ..')
     handlers_map = handlers.get_handlers_map()
     query_isl_ord_records = db.Session.query(isl.Ord).order_by(isl.Ord.Ord_id)  # all orð
     if ts is not None:
@@ -38,5 +38,23 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
             edited_str = ' (edited: %s)' % (isl_ord_record.Edited.isoformat(), )
         logman.info('Wrote orð with id=%s to file "%s"%s.' % (
             isl_ord_record.Ord_id, isl_ord.make_filename(), edited_str
+        ))
+    logman.info('Writing skammstafanir data from database to datafiles ..')
+    query_skammstafanir_records = (
+        db.Session.query(isl.Skammstofun).order_by(isl.Skammstofun.Skammstofun_id)
+    )
+    if ts is not None:
+        query_skammstafanir_records = db.Session.query(isl.Skammstofun).filter(
+            isl.Skammstofun.Edited >= ts
+        ).order_by(isl.Skammstofun.Skammstofun_id)
+    for skammstofun_record in query_skammstafanir_records:
+        skammstofun = handlers.Skammstofun()
+        skammstofun.load_from_db(skammstofun_record)
+        skammstofun.write_to_file()
+        edited_str = ''
+        if ts is not None:
+            edited_str = ' (edited: %s)' % (skammstofun_record.Edited.isoformat(), )
+        logman.info('Wrote skammstöfun with id=%s to file "%s"%s.' % (
+            skammstofun_record.Skammstofun_id, skammstofun.make_filename(), edited_str
         ))
     logman.info('Done writing data from database to datafiles.')

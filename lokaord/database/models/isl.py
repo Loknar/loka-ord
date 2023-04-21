@@ -477,6 +477,7 @@ class Skammstofun(Base):
     Skammstofun_id = utils.integer_primary_key()
     Skammstofun = utils.word(nullable=False)
     Merking = utils.word()
+    Kennistrengur = utils.word(nullable=False, unique=True)
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 

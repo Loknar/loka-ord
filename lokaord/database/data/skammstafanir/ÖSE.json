@@ -1,35 +1,15 @@
 {
 	"skammstöfun": "ÖSE",
 	"frasi": [
-		{
-			"orð": "öryggi",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "ac3fe9b8222eefd5222aed2dc4f568a230f6802e8d482dc3ab0ae1f1538fdda6"
-		},
-		{
-			"orð": "og",
-			"flokkur": "smáorð",
-			"undirflokkur": "samtenging",
-			"hash": "f4e437c916d4bd5324666caffcead1fc8cb8c831d2f6439ff19ecc8c88556072"
-		},
-		{
-			"orð": "samvinnustofnun",
-			"flokkur": "nafnorð",
-			"kyn": "kvk",
-			"hash": "09a7bd235ce96b20e54905414fdeee253a2341d8a570950a809328f7924bcea9"
-		},
-		{
-			"orð": "Evrópa",
-			"flokkur": "sérnafn",
-			"undirflokkur": "örnefni",
-			"kyn": "kvk",
-			"hash": "66273bdfb4b94f28d94cbdcc9cb1af91f6a39e0760f309ccabd3e5182ed2a083"
-		}
+		"no-öryggi-hk",
+		"smáo.st-og",
+		"no-samvinnustofnun-kvk",
+		"sérn.ön-Evrópa-kvk"
 	],
 	"myndir": [
 		"Öryggis- og samvinnustofnun Evrópu",
 		"Öryggis- og samvinnustofnunar Evrópu"
 	],
-	"hash": "767a24fff6729e88316e984c0b54c7367b46cc466d010ce50937afaaa81d5e0a"
+	"kennistrengur": "skammst-ÖSE",
+	"hash": "6bf92cd2dd6cf2140ac0e802170317ac75502df1b4d382fd8d037ef5ead3923a"
 }

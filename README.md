@@ -83,23 +83,17 @@ Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá
 		{
 			"mynd": "hóf",
 			"samsetning": "stofn",
-			"orð": "hóf",
-			"flokkur": "nafnorð",
-			"kyn": "hk",
-			"hash": "tba"
+			"kennistrengur": "no-hóf-hk"
 		},
 		{
-			"orð": "legur",
-			"flokkur": "lýsingarorð",
-			"ósjálfstætt": true,
-			"hash": "tba"
+			"kennistrengur": "lo-legur-ó"
 		}
 	],
-	"hash": "tba"
+	"kennistrengur": "lo-hóflegur"
 }
 ```
 
-svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunninum þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum. Hakkastrengirnir í `"hash"` gildinu eru ekki notaðir í import ferlinu en þurfa þó að vera strengir og mega ekki vera tómur strengur, hakkastrengirnir eru smíðaðir í export ferlinu og eru svo notaðir þegar smíðuð er sjón fyrir sjáanda (sjá neðar).
+svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunninum þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum.
 
 ### Orðaleit
 
@@ -109,7 +103,7 @@ Til að athuga hvort orð sé til staðar í grunni er hægt að gera uppflettin
 python main.py --build-sight
 ```
 
-ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða í hvert sinn sem JSON skrárnar breytast, en hana er svo hægt að nota fyrir uppflettingu á stöku orði:
+ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða þegar JSON skrárn hafa breyst, en er svo hægt að nota fyrir uppflettingu á stökum orðum:
 
 ```bash
 python main.py --search "orð"
