@@ -16,14 +16,14 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 44 | 116 |   | 160 | 17 | 139 |   | 156 | **316** |
+| Eiginnöfn | 76 | 117 |   | 193 | 20 | 139 |   | 159 | **352** |
 | Gælunöfn  | 6 | 4 |   | 10 | 1 |  |   | 1 | **11** |
 | Kenninöfn |  |  |   |  | 4 | 4 |   | 8 | **8** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **10** |
 | Örnefni   |  | 2 | 1 | 3 | 22 | 15 | 10 | 47 | **50** |
-| **Alls**  |   |   |   | **183** |   |   |   | **212** | **395** |
+| **Alls**  |   |   |   | **216** |   |   |   | **215** | **431** |
 
-**Samtals:** 1764 orð.
+**Samtals:** 1800 orð.
 
 53 skammstafanir.
 
@@ -141,7 +141,7 @@ Hér er svo skipun til að færa einungis gögn úr breyttum skrám í grunn og 
 lokaord -bdb-ch -wf-ts "2023-04-20T22:30" -bs -mdst
 ```
 
-þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð.
+þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð (til þæginda standa gildin `"last10min"` og `"last30min"` einnig til boða).
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 

@@ -522,6 +522,15 @@ def get_words_count_markdown_table():
 
 def strptime_multi_formats(ts: str, fmts: list[str]) -> datetime.datetime:
     for fmt in fmts:
+        if ts == fmt:
+            if fmt == 'last10min':
+                return (
+                    datetime.datetime.utcnow() - datetime.timedelta(minutes=10)
+                )
+            if fmt == 'last30min':
+                return (
+                    datetime.datetime.utcnow() - datetime.timedelta(minutes=30)
+                )
         try:
             return datetime.datetime.strptime(ts, fmt)
         except ValueError as err:
@@ -536,7 +545,7 @@ def main(arguments):
     db_name = 'lokaord'
     write_files_ts = None
     if 'write_files_ts' in arguments and arguments['write_files_ts'] is not None:
-        acceptable_ts_formats = ['%Y-%m-%dT%H:%M', '%Y-%m-%d']
+        acceptable_ts_formats = ['%Y-%m-%dT%H:%M', '%Y-%m-%d', 'last10min', 'last30min']
         try:
             write_files_ts_str = arguments['write_files_ts']
             write_files_ts = strptime_multi_formats(write_files_ts_str, acceptable_ts_formats)
