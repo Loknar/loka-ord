@@ -77,7 +77,6 @@ def import_changed_datafiles_to_db():
     logman.info('Doing import for changed or new datafiles to database ..')
     handlers_map = handlers.get_handlers_map()
     files = get_changed_and_untracked_data_files()
-    # TODO: filtera út skammstöfunar orð hér
     ord_files, skammstofun_files = handlers.Ord.sort_files_skammstafanir_from_ord(files)
     kjarna_ord, samsett_ord = handlers.Ord.sort_files_to_kjarna_and_samsett_ord(ord_files)
     # kjarna-orð
