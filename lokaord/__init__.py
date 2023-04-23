@@ -580,7 +580,10 @@ def main(arguments):
     if 'search' in arguments and arguments['search'] is not None:
         seer.search_word(arguments['search'])
     if 'scan_sentence' in arguments and arguments['scan_sentence'] is not None:
-        seer.scan_sentence(arguments['scan_sentence'])
+        if arguments['scan_sentence'] == '':
+            logman.error('tómur strengur veittur í stað setningar')
+        else:
+            seer.scan_sentence(arguments['scan_sentence'])
     if 'stats' in arguments and arguments['stats'] is True:
         print(json.dumps(
             get_words_count(), separators=(',', ':'), ensure_ascii=False, sort_keys=True

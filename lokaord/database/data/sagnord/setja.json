@@ -1,0 +1,132 @@
+{
+	"orð": "setja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "setja",
+		"sagnbót": "sett",
+		"boðháttur": {
+			"stýfður": "set",
+			"et": "settu",
+			"ft": "setjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["set", "setur", "setur"],
+					"ft": ["setjum", "setjið", "setja"]
+				},
+				"þátíð": {
+					"et": ["setti", "settir", "sett"],
+					"ft": ["settum", "settuð", "settu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["setji", "setjir", "setji"],
+					"ft": ["setjum", "setjið", "setji"]
+				},
+				"þátíð": {
+					"et": ["setti", "settir", "setti"],
+					"ft": ["settum", "settuð", "settu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seturðu",
+					"ft": "setjiði"
+				},
+				"þátíð": {
+					"et": "settirðu",
+					"ft": "settuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "setjirðu",
+					"ft": "setjiði"
+				},
+				"þátíð": {
+					"et": "settirðu",
+					"ft": "settuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "setjast",
+		"sagnbót": "sest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sest", "sest", "sest"],
+					"ft": ["setjumst", "setjist", "setjast"]
+				},
+				"þátíð": {
+					"et": ["settist", "settist", "settist"],
+					"ft": ["settumst", "settust", "settust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["setjist", "setjist", "setjist"],
+					"ft": ["setjumst", "setjist", "setjist"]
+				},
+				"þátíð": {
+					"et": ["settist", "settist", "settist"],
+					"ft": ["settumst", "settust", "settust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sestu"
+				},
+				"þátíð": {
+					"et": "settistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "setjistu"
+				},
+				"þátíð": {
+					"et": "settistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "setjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["settur", "settan", "settum", "setts"],
+					"kvk": ["sett", "setta", "settri", "settrar"],
+					"hk": ["sett", "sett", "settu", "setts"]
+				},
+				"ft": {
+					"kk": ["settir", "setta", "settum", "settra"],
+					"kvk": ["settar", "settar", "settum", "settra"],
+					"hk": ["sett", "sett", "settum", "settra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["setti", "setta", "setta", "setta"],
+					"kvk": ["setta", "settu", "settu", "settu"],
+					"hk": ["setta", "setta", "setta", "setta"]
+				},
+				"ft": {
+					"kk": ["settu", "settu", "settu", "settu"],
+					"kvk": ["settu", "settu", "settu", "settu"],
+					"hk": ["settu", "settu", "settu", "settu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-setja",
+	"hash": "8aa37bd42bc7f179e7387181890f17ae9dd5198d72c352bc3114cea0208aa041"
+}
