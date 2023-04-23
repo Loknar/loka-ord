@@ -807,6 +807,8 @@ class Ord:
         Before: @samsett is a list of dicts containging info on combination of a orð.
         After:  @beygingar is a dict containing derived beygingar for the orð.
         """
+        if 'mynd' in samsett[-1]:
+            return {}
         beygingar = self.ordhluti_get_beygingar(samsett[-1])
         for ordhluti in reversed(samsett[:-1]):
             if 'mynd' in ordhluti:
