@@ -1,0 +1,111 @@
+{
+	"orð": "renna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "renna",
+		"sagnbót": "runnið",
+		"boðháttur": {
+			"stýfður": "renn",
+			"et": "renndu",
+			"ft": "rennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["renn", "rennur", "rennur"],
+					"ft": ["rennum", "rennið", "renna"]
+				},
+				"þátíð": {
+					"et": ["rann", "rannst", "rann"],
+					"ft": ["runnum", "runnuð", "runnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["renni", "rennir", "renni"],
+					"ft": ["rennum", "rennið", "renni"]
+				},
+				"þátíð": {
+					"et": ["rynni", "rynnir", "rynni"],
+					"ft": ["rynnum", "rynnuð", "rynnu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rennur", "rennur", "rennur"],
+					"ft": ["rennur", "rennur", "rennur"]
+				},
+				"þátíð": {
+					"et": ["rann", "rann", "rann"],
+					"ft": ["rann", "rann", "rann"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["renni", "renni", "renni"],
+					"ft": ["renni", "renni", "renni"]
+				},
+				"þátíð": {
+					"et": ["rynni", "rynni", "rynni"],
+					"ft": ["rynni", "rynni", "rynni"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rennurðu",
+					"ft": "renniði"
+				},
+				"þátíð": {
+					"et": "rannstu",
+					"ft": "runnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rennirðu",
+					"ft": "renniði"
+				},
+				"þátíð": {
+					"et": "rynnirðu",
+					"ft": "rynnuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rennandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["runninn", "runninn", "runnum", "runnins"],
+					"kvk": ["runnin", "runna", "runninni", "runninnar"],
+					"hk": ["runnið", "runnið", "runnu", "runnins"]
+				},
+				"ft": {
+					"kk": ["runnir", "runna", "runnum", "runninna"],
+					"kvk": ["runnar", "runnar", "runnum", "runninna"],
+					"hk": ["runnin", "runnin", "runnum", "runninna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["runni", "runna", "runna", "runna"],
+					"kvk": ["runna", "runnu", "runnu", "runnu"],
+					"hk": ["runna", "runna", "runna", "runna"]
+				},
+				"ft": {
+					"kk": ["runnu", "runnu", "runnu", "runnu"],
+					"kvk": ["runnu", "runnu", "runnu", "runnu"],
+					"hk": ["runnu", "runnu", "runnu", "runnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-renna",
+	"hash": "fe8a1935be5112d1cf303b67a6e83fce4e7130ccb3640c7a0c80b73eb104be68"
+}

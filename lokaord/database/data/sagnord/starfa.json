@@ -1,0 +1,132 @@
+{
+	"orð": "starfa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "starfa",
+		"sagnbót": "starfað",
+		"boðháttur": {
+			"stýfður": "starfa",
+			"et": "starfaðu",
+			"ft": "starfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["starfa", "starfar", "starfar"],
+					"ft": ["störfum", "starfið", "starfa"]
+				},
+				"þátíð": {
+					"et": ["starfaði", "starfaðir", "starfaði"],
+					"ft": ["störfuðum", "störfuðuð", "störfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["starfi", "starfir", "starfi"],
+					"ft": ["störfum", "starfið", "starfi"]
+				},
+				"þátíð": {
+					"et": ["starfaði", "starfaðir", "starfaði"],
+					"ft": ["störfuðum", "störfuðuð", "störfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "starfarðu",
+					"ft": "starfiði"
+				},
+				"þátíð": {
+					"et": "starfaðirðu",
+					"ft": "störfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "starfirðu",
+					"ft": "starfiði"
+				},
+				"þátíð": {
+					"et": "starfaðirðu",
+					"ft": "störfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "starfast",
+		"sagnbót": "starfast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["starfast", "starfast", "starfast"],
+					"ft": ["störfumst", "starfist", "starfast"]
+				},
+				"þátíð": {
+					"et": ["starfaðist", "starfaðist", "starfaðist"],
+					"ft": ["störfuðumst", "störfuðust", "störfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["starfist", "starfist", "starfist"],
+					"ft": ["störfumst", "starfist", "starfist"]
+				},
+				"þátíð": {
+					"et": ["starfaðist", "starfaðist", "starfaðist"],
+					"ft": ["störfuðumst", "störfuðust", "störfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "starfastu"
+				},
+				"þátíð": {
+					"et": "starfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "starfistu"
+				},
+				"þátíð": {
+					"et": "starfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "starfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["starfaður", "starfaðan", "störfuðum", "starfaðs"],
+					"kvk": ["störfuð", "starfaða", "starfaðri", "starfaðrar"],
+					"hk": ["starfað", "starfað", "störfuðu", "starfaðs"]
+				},
+				"ft": {
+					"kk": ["starfaðir", "starfaða", "störfuðum", "starfaðra"],
+					"kvk": ["starfaðar", "starfaðar", "störfuðum", "starfaðra"],
+					"hk": ["störfuð", "störfuð", "störfuðum", "starfaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["starfaði", "starfaða", "starfaða", "starfaða"],
+					"kvk": ["starfaða", "störfuðu", "störfuðu", "störfuðu"],
+					"hk": ["starfaða", "starfaða", "starfaða", "starfaða"]
+				},
+				"ft": {
+					"kk": ["störfuðu", "störfuðu", "störfuðu", "störfuðu"],
+					"kvk": ["störfuðu", "störfuðu", "störfuðu", "störfuðu"],
+					"hk": ["störfuðu", "störfuðu", "störfuðu", "störfuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-starfa",
+	"hash": "1aa985110cdb119b0f3a31031905c178b6fe91d8f74b93e5521a2bd4f9ba1f63"
+}

@@ -1,0 +1,132 @@
+{
+	"orð": "standa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "standa",
+		"sagnbót": "staðið",
+		"boðháttur": {
+			"stýfður": "statt",
+			"et": "stattu",
+			"ft": "standið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stend", "stendur", "stendur"],
+					"ft": ["stöndum", "standið", "standa"]
+				},
+				"þátíð": {
+					"et": ["stóð", "stóðst", "stóð"],
+					"ft": ["stóðum", "stóðuð", "stóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["standi", "standir", "standi"],
+					"ft": ["stöndum", "standið", "standi"]
+				},
+				"þátíð": {
+					"et": ["stæði", "stæðir", "stæði"],
+					"ft": ["stæðum", "stæðuð", "stæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stendurðu",
+					"ft": "standiði"
+				},
+				"þátíð": {
+					"et": "stóðstu",
+					"ft": "stóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "standirðu",
+					"ft": "standiði"
+				},
+				"þátíð": {
+					"et": "stæðirðu",
+					"ft": "stæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "standast",
+		"sagnbót": "staðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stenst", "stenst", "stenst"],
+					"ft": ["stöndumst", "standist", "standast"]
+				},
+				"þátíð": {
+					"et": ["stóðst", "stóðst", "stóðst"],
+					"ft": ["stóðumst", "stóðust", "stóðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["standist", "standist", "standist"],
+					"ft": ["stöndumst", "standist", "standist"]
+				},
+				"þátíð": {
+					"et": ["stæðist", "stæðist", "stæðist"],
+					"ft": ["stæðumst", "stæðust", "stæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stenstu"
+				},
+				"þátíð": {
+					"et": "stóðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "standistu"
+				},
+				"þátíð": {
+					"et": "stæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "standandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["staðinn", "staðinn", "stöðnum", "staðins"],
+					"kvk": ["staðin", "staðna", "staðinni", "staðinnar"],
+					"hk": ["staðið", "staðið", "stöðnu", "staðins"]
+				},
+				"ft": {
+					"kk": ["staðnir", "staðna", "stöðnum", "staðinna"],
+					"kvk": ["staðnar", "staðnar", "stöðnum", "staðinna"],
+					"hk": ["staðin", "staðin", "stöðnum", "staðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["staðni", "staðna", "staðna", "staðna"],
+					"kvk": ["staðna", "stöðnu", "stöðnu", "stöðnu"],
+					"hk": ["staðna", "staðna", "staðna", "staðna"]
+				},
+				"ft": {
+					"kk": ["stöðnu", "stöðnu", "stöðnu", "stöðnu"],
+					"kvk": ["stöðnu", "stöðnu", "stöðnu", "stöðnu"],
+					"hk": ["stöðnu", "stöðnu", "stöðnu", "stöðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-standa",
+	"hash": "a0c9dc0a4eeada63b71b7e1920a1f659aa0b9bfb70c6c0a6a45b4a3757a3ae79"
+}

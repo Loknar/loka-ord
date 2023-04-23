@@ -1,0 +1,156 @@
+{
+	"orð": "renna",
+	"flokkur": "sagnorð",
+	"merking": "hliðra",
+	"germynd": {
+		"nafnháttur": "renna",
+		"sagnbót": "rennt",
+		"boðháttur": {
+			"stýfður": "renn",
+			"et": "renndu",
+			"ft": "rennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["renni", "rennir", "rennir"],
+					"ft": ["rennum", "rennið", "renna"]
+				},
+				"þátíð": {
+					"et": ["renndi", "renndir", "renndi"],
+					"ft": ["renndum", "rennduð", "renndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["renni", "rennir", "renni"],
+					"ft": ["rennum", "rennið", "renni"]
+				},
+				"þátíð": {
+					"et": ["renndi", "renndir", "renndi"],
+					"ft": ["renndum", "rennduð", "renndu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rennir", "rennir", "rennir"],
+					"ft": ["rennir", "rennir", "rennir"]
+				},
+				"þátíð": {
+					"et": ["renndi", "renndi", "renndi"],
+					"ft": ["renndi", "renndi", "renndi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["renni", "renni", "renni"],
+					"ft": ["renni", "renni", "renni"]
+				},
+				"þátíð": {
+					"et": ["renndi", "renndi", "renndi"],
+					"ft": ["renndi", "renndi", "renndi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rennirðu",
+					"ft": "renniði"
+				},
+				"þátíð": {
+					"et": "renndirðu",
+					"ft": "rennduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rennirðu",
+					"ft": "renniði"
+				},
+				"þátíð": {
+					"et": "renndirðu",
+					"ft": "rennduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rennast",
+		"sagnbót": "rennst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rennist", "rennist", "rennist"],
+					"ft": ["rennumst", "rennist", "rennast"]
+				},
+				"þátíð": {
+					"et": ["renndist", "renndist", "renndist"],
+					"ft": ["renndumst", "rennist", "rennist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rennist", "rennist", "rennist"],
+					"ft": ["rennumst", "ræðist", "ræðist"]
+				},
+				"þátíð": {
+					"et": ["renndist", "renndist", "renndist"],
+					"ft": ["renndumst", "renndust", "renndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rennistu"
+				},
+				"þátíð": {
+					"et": "renndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rennistu"
+				},
+				"þátíð": {
+					"et": "renndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rennandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["renndur", "renndan", "renndum", "rennds"],
+					"kvk": ["rennd", "rennda", "renndri", "renndrar"],
+					"hk": ["rennt", "rennt", "renndu", "rennds"]
+				},
+				"ft": {
+					"kk": ["renndir", "rennda", "renndum", "renndra"],
+					"kvk": ["renndar", "renndar", "renndum", "renndra"],
+					"hk": ["rennd", "rennd", "renndum", "renndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["renndi", "rennda", "rennda", "rennda"],
+					"kvk": ["rennda", "renndu", "renndu", "renndu"],
+					"hk": ["rennda", "rennda", "rennda", "rennda"]
+				},
+				"ft": {
+					"kk": ["renndu", "renndu", "renndu", "renndu"],
+					"kvk": ["renndu", "renndu", "renndu", "renndu"],
+					"hk": ["renndu", "renndu", "renndu", "renndu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-renna-_hliðra_",
+	"hash": "57c33a97d0c7779c6b73daa345999dd44bf33686f3f9736424897874457aaee4"
+}
