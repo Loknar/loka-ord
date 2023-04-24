@@ -1,0 +1,155 @@
+{
+	"orð": "saka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "saka",
+		"sagnbót": "sakað",
+		"boðháttur": {
+			"stýfður": "saka",
+			"et": "sakaðu",
+			"ft": "sakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["saka", "sakar", "sakar"],
+					"ft": ["sökum", "sakið", "saka"]
+				},
+				"þátíð": {
+					"et": ["sakaði", "sakaðir", "sakaði"],
+					"ft": ["sökuðum", "sökuðuð", "sökuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["saki", "sakir", "saki"],
+					"ft": ["sökum", "sakið", "saki"]
+				},
+				"þátíð": {
+					"et": ["sakaði", "sakaðir", "sakaði"],
+					"ft": ["sökuðum", "sökuðuð", "sökuðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sakar", "sakar", "sakar"],
+					"ft": ["sakar", "sakar", "sakar"]
+				},
+				"þátíð": {
+					"et": ["sakaði", "sakaði", "sakaði"],
+					"ft": ["sakaði", "sakaði", "sakaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["saki", "saki", "saki"],
+					"ft": ["saki", "saki", "saki"]
+				},
+				"þátíð": {
+					"et": ["sakaði", "sakaði", "sakaði"],
+					"ft": ["sakaði", "sakaði", "sakaði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sakarðu",
+					"ft": "sakiði"
+				},
+				"þátíð": {
+					"et": "sakaðirðu",
+					"ft": "sökuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sakirðu",
+					"ft": "sakiði"
+				},
+				"þátíð": {
+					"et": "sakaðirðu",
+					"ft": "sökuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sakast",
+		"sagnbót": "sakast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sakast", "sakast", "sakast"],
+					"ft": ["sökumst", "sakist", "sakast"]
+				},
+				"þátíð": {
+					"et": ["sakaðist", "sakaðist", "sakaðist"],
+					"ft": ["sökuðumst", "sökuðust", "sökuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sakist", "sakist", "sakist"],
+					"ft": ["sökumst", "sakist", "sakist"]
+				},
+				"þátíð": {
+					"et": ["sakaðist", "sakaðist", "sakaðist"],
+					"ft": ["sökuðumst", "sökuðust", "sökuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sakastu"
+				},
+				"þátíð": {
+					"et": "sakaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sakistu"
+				},
+				"þátíð": {
+					"et": "sakaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sakaður", "sakaðan", "sökuðum", "sakaðs"],
+					"kvk": ["sökuð", "sakaða", "sakaðri", "sakaðrar"],
+					"hk": ["sakað", "sakað", "sökuðu", "sakaðs"]
+				},
+				"ft": {
+					"kk": ["sakaðir", "sakaða", "sökuðum", "sakaðra"],
+					"kvk": ["sakaðar", "sakaðar", "sökuðum", "sakaðra"],
+					"hk": ["sökuð", "sökuð", "sökuðum", "sakaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sakaði", "sakaða", "sakaða", "sakaða"],
+					"kvk": ["sakaða", "sökuðu", "sökuðu", "sökuðu"],
+					"hk": ["sakaða", "sakaða", "sakaða", "sakaða"]
+				},
+				"ft": {
+					"kk": ["sökuðu", "sökuðu", "sökuðu", "sökuðu"],
+					"kvk": ["sökuðu", "sökuðu", "sökuðu", "sökuðu"],
+					"hk": ["sökuðu", "sökuðu", "sökuðu", "sökuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-saka",
+	"hash": "c6d0403027919fb34b6b4fb44ed9df0fa84a39e429408d70eb4d86984e44d3f0"
+}
