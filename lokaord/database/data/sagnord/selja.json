@@ -1,0 +1,132 @@
+{
+	"orð": "selja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "selja",
+		"sagnbót": "selt",
+		"boðháttur": {
+			"stýfður": "sel",
+			"et": "seldu",
+			"ft": "seljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sel", "selur", "selur"],
+					"ft": ["seljum", "seljið", "selja"]
+				},
+				"þátíð": {
+					"et": ["seldi", "seldir", "seldi"],
+					"ft": ["seldum", "selduð", "seldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["selji", "seljir", "selji"],
+					"ft": ["seljum", "seljið", "selji"]
+				},
+				"þátíð": {
+					"et": ["seldi", "seldir", "seldi"],
+					"ft": ["seldum", "selduð", "seldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "selurðu",
+					"ft": "seljiði"
+				},
+				"þátíð": {
+					"et": "seldirðu",
+					"ft": "selduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seljirðu",
+					"ft": "seljiði"
+				},
+				"þátíð": {
+					"et": "seldirðu",
+					"ft": "selduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "seljast",
+		"sagnbót": "selst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["selst", "selst", "selst"],
+					"ft": ["seljumst", "seljist", "seljast"]
+				},
+				"þátíð": {
+					"et": ["seldist", "seldist", "seldist"],
+					"ft": ["seldumst", "seldust", "seldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seljist", "seljist", "seljist"],
+					"ft": ["seldumst", "seldust", "seldust"]
+				},
+				"þátíð": {
+					"et": ["seldist", "seldist", "seldist"],
+					"ft": ["seldumst", "seldust", "seldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "selstu"
+				},
+				"þátíð": {
+					"et": "seldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seljistu"
+				},
+				"þátíð": {
+					"et": "seldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "seljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["seldur", "seldan", "seldum", "selds"],
+					"kvk": ["seld", "selda", "seldri", "seldrar"],
+					"hk": ["selt", "selt", "seldu", "selds"]
+				},
+				"ft": {
+					"kk": ["seldir", "selda", "seldum", "seldra"],
+					"kvk": ["seldar", "seldar", "seldum", "seldra"],
+					"hk": ["seld", "seld", "seldum", "seldra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["seldi", "selda", "selda", "selda"],
+					"kvk": ["selda", "seldu", "seldu", "seldu"],
+					"hk": ["selda", "selda", "selda", "selda"]
+				},
+				"ft": {
+					"kk": ["seldu", "seldu", "seldu", "seldu"],
+					"kvk": ["seldu", "seldu", "seldu", "seldu"],
+					"hk": ["seldu", "seldu", "seldu", "seldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-selja",
+	"hash": "013a5acd33dca01bb052e9422e7864676254e90849bd1ac77038e76d07ed2d3c"
+}

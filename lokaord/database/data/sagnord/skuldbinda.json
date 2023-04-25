@@ -1,0 +1,142 @@
+{
+	"orð": "skuldbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skuldbinda",
+		"sagnbót": "skuldbundið",
+		"boðháttur": {
+			"stýfður": "skuldbind",
+			"et": "skuldbittu",
+			"ft": "skuldbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldbind", "skuldbindur", "skuldbindur"],
+					"ft": ["skuldbindum", "skuldbindið", "skuldbinda"]
+				},
+				"þátíð": {
+					"et": ["skuldbatt", "skuldbast", "skuldbatt"],
+					"ft": ["skuldbundum", "skuldbunduð", "skuldbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldbindi", "skuldbindir", "skuldbindi"],
+					"ft": ["skuldbindum", "skuldbindið", "skuldbindi"]
+				},
+				"þátíð": {
+					"et": ["skuldbyndi", "skuldbyndir", "skuldbyndi"],
+					"ft": ["skuldbyndum", "skuldbynduð", "skuldbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldbindurðu",
+					"ft": "skuldbindiði"
+				},
+				"þátíð": {
+					"et": "skuldbastu",
+					"ft": "skuldbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldbindirðu",
+					"ft": "skuldbindiði"
+				},
+				"þátíð": {
+					"et": "skuldbyndirðu",
+					"ft": "skuldbynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skuldbindast",
+		"sagnbót": "skuldbundist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldbinst", "skuldbinst", "skuldbinst"],
+					"ft": ["skuldbindumst", "skuldbindist", "skuldbindast"]
+				},
+				"þátíð": {
+					"et": ["skuldbast", "skuldbast", "skuldbast"],
+					"ft": ["skuldbundumst", "skuldbundust", "skuldbundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldbindist", "skuldbindist", "skuldbindist"],
+					"ft": ["skuldbindumst", "skuldbindist", "skuldbindist"]
+				},
+				"þátíð": {
+					"et": ["skuldbyndist", "skuldbyndist", "skuldbyndist"],
+					"ft": ["skuldbyndumst", "skuldbyndust", "skuldbyndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldbinstu"
+				},
+				"þátíð": {
+					"et": "skuldbastu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldbindistu"
+				},
+				"þátíð": {
+					"et": "skuldbyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skuldfinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skuldbundinn", "skuldbundinn", "skuldbundnum", "skuldbundins"],
+					"kvk": ["skuldbundin", "skuldbundna", "skuldbundinni", "skuldbundinnar"],
+					"hk": ["skuldbundið", "skuldbundið", "skuldbundnu", "skuldbundins"]
+				},
+				"ft": {
+					"kk": ["skuldbundnir", "skuldbundna", "skuldbundnum", "skuldbundinna"],
+					"kvk": ["skuldbundnar", "skuldbundnar", "skuldbundnum", "skuldbundinna"],
+					"hk": ["skuldbundin", "skuldbundin", "skuldbundnum", "skuldbundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skuldbundni", "skuldbundna", "skuldbundna", "skuldbundna"],
+					"kvk": ["skuldbundna", "skuldbundnu", "skuldbundnu", "skuldbundnu"],
+					"hk": ["skuldbundna", "skuldbundna", "skuldbundna", "skuldbundna"]
+				},
+				"ft": {
+					"kk": ["skuldbundnu", "skuldbundnu", "skuldbundnu", "skuldbundnu"],
+					"kvk": ["skuldbundnu", "skuldbundnu", "skuldbundnu", "skuldbundnu"],
+					"hk": ["skuldbundnu", "skuldbundnu", "skuldbundnu", "skuldbundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skuldbinda",
+	"hash": "20bfe5d5f01be179865e8f03d42821480ddbfa477c2586fd7c15b4603c99009d"
+}
