@@ -1,0 +1,88 @@
+{
+	"orð": "sitja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sitja",
+		"sagnbót": "setið",
+		"boðháttur": {
+			"stýfður": "sit",
+			"et": "sittu",
+			"ft": "sitjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sit", "situr", "situr"],
+					"ft": ["sitjum", "sitjið", "sitja"]
+				},
+				"þátíð": {
+					"et": ["sat", "sast", "sat"],
+					"ft": ["sátum", "sátuð", "sátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sitji", "sitjir", "sitji"],
+					"ft": ["sitjum", "sitjið", "sitji"]
+				},
+				"þátíð": {
+					"et": ["sæti", "sætir", "sæti"],
+					"ft": ["sætum", "sætuð", "sætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "siturðu",
+					"ft": "sitjiði"
+				},
+				"þátíð": {
+					"et": "sastu",
+					"ft": "sátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sitjirðu",
+					"ft": "sitjiði"
+				},
+				"þátíð": {
+					"et": "sætirðu",
+					"ft": "sætuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sitjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["setinn", "setinn", "setnum", "setins"],
+					"kvk": ["setin", "setna", "setinni", "setinnar"],
+					"hk": ["setið", "setið", "setnu", "setins"]
+				},
+				"ft": {
+					"kk": ["setnir", "setna", "setnum", "setinna"],
+					"kvk": ["setnar", "setnar", "setnum", "setinna"],
+					"hk": ["setin", "setin", "setnum", "setinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["setni", "setna", "setna", "setna"],
+					"kvk": ["setna", "setnu", "setnu", "setnu"],
+					"hk": ["setna", "setna", "setna", "setna"]
+				},
+				"ft": {
+					"kk": ["setnu", "setnu", "setnu", "setnu"],
+					"kvk": ["setnu", "setnu", "setnu", "setnu"],
+					"hk": ["setnu", "setnu", "setnu", "setnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sitja",
+	"hash": "878fe0c221ab7df37bb334536b6d21a5805c1cb800197c65b3a10cf7352a1ad2"
+}

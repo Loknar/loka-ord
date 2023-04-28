@@ -2,14 +2,24 @@
 	"orð": "talning",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "taln",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["talning", "talningu", "talningu", "talningar"],
-		"mg": ["talningin", "talninguna", "talningunni", "talningunnar"]
+		"mg": ["talningin", "talninguna", "talningunni", "talningarinnar"]
 	},
 	"ft": {
 		"ág": ["talningar", "talningar", "talningum", "talninga"],
 		"mg": ["talningarnar", "talningarnar", "talningunum", "talninganna"]
 	},
 	"kennistrengur": "no-talning-kvk",
-	"hash": "b3595ff142ab60e8079562ae40b484c50c6672a2583df6e305055049e8b66b13"
+	"hash": "1743fa5282788226fa2dab2d9a0aba5a27cb04a870f9e896c464c621d4e20c2a"
 }

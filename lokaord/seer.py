@@ -71,6 +71,15 @@ def scan_sentence(sentence):
             found += 1
             scanned_sentence.append(scanned_word)
             continue
+        onhanging_chars = set(['.', ',', '(', ')', '[', ']', '-', '/'])
+        msg = ''
+        e_word = word.strip()
+        if e_word[-1] in onhanging_chars:
+            scanned_word['fylgir'] = e_word[-1]
+            e_word = e_word[:-1]
+        if e_word[0] in onhanging_chars:
+            scanned_word['leiðir'] = e_word[0]
+            e_word = e_word[1:]
         if word in sight['skammstafanir']:
             myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
             scanned_word['staða'] = 'skammstöfun'
@@ -82,15 +91,17 @@ def scan_sentence(sentence):
             found += 1
             scanned_sentence.append(scanned_word)
             continue
-        onhanging_chars = set(['.', ',', '(', ')', '[', ']', '-', '/'])
-        msg = ''
-        e_word = word.strip()
-        if e_word[-1] in onhanging_chars:
-            scanned_word['fylgir'] = e_word[-1]
-            e_word = e_word[:-1]
-        if e_word[0] in onhanging_chars:
-            scanned_word['leiðir'] = e_word[0]
-            e_word = e_word[1:]
+        elif e_word in sight['skammstafanir']:
+            myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][e_word]['myndir']])
+            scanned_word['staða'] = 'skammstöfun'
+            scanned_word['möguleikar'].append({
+                'm': myndir,
+                'h': sight['skammstafanir'][e_word]['hash'],
+                'f': sight['hash'][sight['skammstafanir'][e_word]['hash']]['f']
+            })
+            found += 1
+            scanned_sentence.append(scanned_word)
+            continue
         if e_word not in sight['orð'] and 'll' in e_word:
             e_word = e_word.replace('ll', 'łl')
         if e_word not in sight['orð'] and e_word[0] == e_word[0].lower():
