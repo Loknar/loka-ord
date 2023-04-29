@@ -4,17 +4,19 @@ import os
 import shutil
 
 from sqlalchemy import create_engine
-from sqlalchemy.orm import declarative_base, scoped_session, sessionmaker
+from sqlalchemy.orm import DeclarativeBase, scoped_session, sessionmaker
 
 from lokaord import logman
 
-# SQLAlchemy - Declarative method
-# https://docs.sqlalchemy.org/en/latest/orm/extensions/declarative/basic_use.html
+# SQLAlchemy - Declare models
+# https://docs.sqlalchemy.org/en/20/orm/quickstart.html#declare-models
 
 Engine = None
 Session = None
-Base = declarative_base()
-Base.query = None
+
+
+class Base(DeclarativeBase):
+    pass
 
 
 def setup_data_directory(folder_name):
@@ -78,7 +80,7 @@ def session_has_changes():
 
 def setup_connection(db_uri, db_echo=False):
     global Engine, Session, Base
-    Engine = create_engine(db_uri, convert_unicode=True, echo=db_echo)
+    Engine = create_engine(db_uri, echo=db_echo)
     Session = scoped_session(sessionmaker(autocommit=False, autoflush=False, bind=Engine))
     Base.query = Session.query_property()
 
