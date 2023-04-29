@@ -1,0 +1,132 @@
+{
+	"orð": "styðja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "styðja",
+		"sagnbót": "stutt",
+		"boðháttur": {
+			"stýfður": "styð",
+			"et": "styddu",
+			"ft": "styðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["styð", "styður", "styður"],
+					"ft": ["styðjum", "styðjið", "styðja"]
+				},
+				"þátíð": {
+					"et": ["studdi", "studdir", "studdi"],
+					"ft": ["studdum", "studduð", "studdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["styðji", "styðjir", "styðji"],
+					"ft": ["styðjum", "styðjið", "styðji"]
+				},
+				"þátíð": {
+					"et": ["styddi", "styddir", "styddi"],
+					"ft": ["styddum", "stydduð", "styddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "styðurðu",
+					"ft": "styðjiði"
+				},
+				"þátíð": {
+					"et": "studdirðu",
+					"ft": "studduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "styðjirðu",
+					"ft": "styðjiði"
+				},
+				"þátíð": {
+					"et": "styddirðu",
+					"ft": "stydduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "styðjast",
+		"sagnbót": "stuðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["styðst", "styðst", "styðst"],
+					"ft": ["styðjumst", "styðjist", "styðjast"]
+				},
+				"þátíð": {
+					"et": ["studdist", "studdist", "studdist"],
+					"ft": ["studdumst", "studdust", "studdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["styðjist", "styðjist", "styðjist"],
+					"ft": ["styðjumst", "styðjist", "styðjist"]
+				},
+				"þátíð": {
+					"et": ["styddist", "styddist", "styddist"],
+					"ft": ["styddumst", "styddust", "styddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "styðstu"
+				},
+				"þátíð": {
+					"et": "studdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "styðjistu"
+				},
+				"þátíð": {
+					"et": "styddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "styðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["studdur", "studdan", "studdum", "studds"],
+					"kvk": ["studd", "studda", "studdri", "studdrar"],
+					"hk": ["stutt", "stutt", "studdu", "studds"]
+				},
+				"ft": {
+					"kk": ["studdir", "studda", "studdum", "studdra"],
+					"kvk": ["studdar", "studdar", "studdum", "studdra"],
+					"hk": ["studd", "studd", "studdum", "studdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["studdi", "studda", "studda", "studda"],
+					"kvk": ["studda", "studdu", "studdu", "studdu"],
+					"hk": ["studda", "studda", "studda", "studda"]
+				},
+				"ft": {
+					"kk": ["studdu", "studdu", "studdu", "studdu"],
+					"kvk": ["studdu", "studdu", "studdu", "studdu"],
+					"hk": ["studdu", "studdu", "studdu", "studdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-styðja",
+	"hash": "db4921e8601fa474fff1c5fa5bbb40e1123d96e83817c3de719dcad8a3ab49d1"
+}

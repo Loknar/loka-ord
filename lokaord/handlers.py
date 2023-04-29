@@ -1539,89 +1539,90 @@ class Sagnord(Ord):
             db.Session.add(isl_so)
             db.Session.commit()
             changes_made = True
-        isl_so.Germynd_Nafnhattur = self.data.germynd.nafnháttur
-        isl_so.Germynd_Sagnbot = self.data.germynd.sagnbót
-        if self.data.germynd.boðháttur is not None:
-            isl_so.Germynd_Bodhattur_styfdur = self.data.germynd.boðháttur.stýfður
-            isl_so.Germynd_Bodhattur_et = self.data.germynd.boðháttur.et
-            isl_so.Germynd_Bodhattur_ft = self.data.germynd.boðháttur.ft
-        if self.data.germynd.persónuleg is not None:
-            if self.data.germynd.persónuleg.framsöguháttur is not None:
-                isl_so.fk_Germynd_personuleg_framsoguhattur, changes_made = (
-                    self.write_sagnbeyging_to_db(
-                        isl_so.fk_Germynd_personuleg_framsoguhattur,
-                        self.data.germynd.persónuleg.framsöguháttur.dict(),
-                        changes_made
+        if self.data.germynd is not None:
+            isl_so.Germynd_Nafnhattur = self.data.germynd.nafnháttur
+            isl_so.Germynd_Sagnbot = self.data.germynd.sagnbót
+            if self.data.germynd.boðháttur is not None:
+                isl_so.Germynd_Bodhattur_styfdur = self.data.germynd.boðháttur.stýfður
+                isl_so.Germynd_Bodhattur_et = self.data.germynd.boðháttur.et
+                isl_so.Germynd_Bodhattur_ft = self.data.germynd.boðháttur.ft
+            if self.data.germynd.persónuleg is not None:
+                if self.data.germynd.persónuleg.framsöguháttur is not None:
+                    isl_so.fk_Germynd_personuleg_framsoguhattur, changes_made = (
+                        self.write_sagnbeyging_to_db(
+                            isl_so.fk_Germynd_personuleg_framsoguhattur,
+                            self.data.germynd.persónuleg.framsöguháttur.dict(),
+                            changes_made
+                        )
                     )
-                )
-            if self.data.germynd.persónuleg.viðtengingarháttur is not None:
-                isl_so.fk_Germynd_personuleg_vidtengingarhattur, changes_made = (
-                    self.write_sagnbeyging_to_db(
-                        isl_so.fk_Germynd_personuleg_vidtengingarhattur,
-                        self.data.germynd.persónuleg.viðtengingarháttur.dict(),
-                        changes_made
+                if self.data.germynd.persónuleg.viðtengingarháttur is not None:
+                    isl_so.fk_Germynd_personuleg_vidtengingarhattur, changes_made = (
+                        self.write_sagnbeyging_to_db(
+                            isl_so.fk_Germynd_personuleg_vidtengingarhattur,
+                            self.data.germynd.persónuleg.viðtengingarháttur.dict(),
+                            changes_made
+                        )
                     )
-                )
-        if self.data.germynd.ópersónuleg is not None:
-            if self.data.germynd.ópersónuleg.frumlag is not None:
-                isl_so.Germynd_opersonuleg_frumlag = (
-                    isl.Fall[self.data.germynd.ópersónuleg.frumlag.name]
-                )
-            if self.data.germynd.ópersónuleg.framsöguháttur is not None:
-                isl_so.fk_Germynd_opersonuleg_framsoguhattur, changes_made = (
-                    self.write_sagnbeyging_to_db(
-                        isl_so.fk_Germynd_opersonuleg_framsoguhattur,
-                        self.data.germynd.ópersónuleg.framsöguháttur.dict(),
-                        changes_made
+            if self.data.germynd.ópersónuleg is not None:
+                if self.data.germynd.ópersónuleg.frumlag is not None:
+                    isl_so.Germynd_opersonuleg_frumlag = (
+                        isl.Fall[self.data.germynd.ópersónuleg.frumlag.name]
                     )
-                )
-            if self.data.germynd.ópersónuleg.viðtengingarháttur is not None:
-                isl_so.fk_Germynd_opersonuleg_vidtengingarhattur, changes_made = (
-                    self.write_sagnbeyging_to_db(
-                        isl_so.fk_Germynd_opersonuleg_vidtengingarhattur,
-                        self.data.germynd.ópersónuleg.viðtengingarháttur.dict(),
-                        changes_made
+                if self.data.germynd.ópersónuleg.framsöguháttur is not None:
+                    isl_so.fk_Germynd_opersonuleg_framsoguhattur, changes_made = (
+                        self.write_sagnbeyging_to_db(
+                            isl_so.fk_Germynd_opersonuleg_framsoguhattur,
+                            self.data.germynd.ópersónuleg.framsöguháttur.dict(),
+                            changes_made
+                        )
                     )
-                )
-        if self.data.germynd.spurnarmyndir is not None:
-            if self.data.germynd.spurnarmyndir.framsöguháttur is not None:
-                if self.data.germynd.spurnarmyndir.framsöguháttur.nútíð is not None:
-                    if self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.et is not None:
-                        isl_so.Germynd_spurnarmyndir_framsoguhattur_nutid_et = (
-                            self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.et
+                if self.data.germynd.ópersónuleg.viðtengingarháttur is not None:
+                    isl_so.fk_Germynd_opersonuleg_vidtengingarhattur, changes_made = (
+                        self.write_sagnbeyging_to_db(
+                            isl_so.fk_Germynd_opersonuleg_vidtengingarhattur,
+                            self.data.germynd.ópersónuleg.viðtengingarháttur.dict(),
+                            changes_made
                         )
-                    if self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.ft is not None:
-                        isl_so.Germynd_spurnarmyndir_framsoguhattur_nutid_ft = (
-                            self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.ft
-                        )
-                if self.data.germynd.spurnarmyndir.framsöguháttur.þátíð is not None:
-                    if self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.et is not None:
-                        isl_so.Germynd_spurnarmyndir_framsoguhattur_thatid_et = (
-                            self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.et
-                        )
-                    if self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.ft is not None:
-                        isl_so.Germynd_spurnarmyndir_framsoguhattur_thatid_ft = (
-                            self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.ft
-                        )
-            if self.data.germynd.spurnarmyndir.viðtengingarháttur is not None:
-                if self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð is not None:
-                    if self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.et is not None:
-                        isl_so.Germynd_spurnarmyndir_vidtengingarhattur_nutid_et = (
-                            self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.et
-                        )
-                    if self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.ft is not None:
-                        isl_so.Germynd_spurnarmyndir_vidtengingarhattur_nutid_ft = (
-                            self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.ft
-                        )
-                if self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð is not None:
-                    if self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.et is not None:
-                        isl_so.Germynd_spurnarmyndir_vidtengingarhattur_thatid_et = (
-                            self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.et
-                        )
-                    if self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.ft is not None:
-                        isl_so.Germynd_spurnarmyndir_vidtengingarhattur_thatid_ft = (
-                            self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.ft
-                        )
+                    )
+            if self.data.germynd.spurnarmyndir is not None:
+                if self.data.germynd.spurnarmyndir.framsöguháttur is not None:
+                    if self.data.germynd.spurnarmyndir.framsöguháttur.nútíð is not None:
+                        if self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.et is not None:
+                            isl_so.Germynd_spurnarmyndir_framsoguhattur_nutid_et = (
+                                self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.et
+                            )
+                        if self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.ft is not None:
+                            isl_so.Germynd_spurnarmyndir_framsoguhattur_nutid_ft = (
+                                self.data.germynd.spurnarmyndir.framsöguháttur.nútíð.ft
+                            )
+                    if self.data.germynd.spurnarmyndir.framsöguháttur.þátíð is not None:
+                        if self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.et is not None:
+                            isl_so.Germynd_spurnarmyndir_framsoguhattur_thatid_et = (
+                                self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.et
+                            )
+                        if self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.ft is not None:
+                            isl_so.Germynd_spurnarmyndir_framsoguhattur_thatid_ft = (
+                                self.data.germynd.spurnarmyndir.framsöguháttur.þátíð.ft
+                            )
+                if self.data.germynd.spurnarmyndir.viðtengingarháttur is not None:
+                    if self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð is not None:
+                        if self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.et is not None:
+                            isl_so.Germynd_spurnarmyndir_vidtengingarhattur_nutid_et = (
+                                self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.et
+                            )
+                        if self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.ft is not None:
+                            isl_so.Germynd_spurnarmyndir_vidtengingarhattur_nutid_ft = (
+                                self.data.germynd.spurnarmyndir.viðtengingarháttur.nútíð.ft
+                            )
+                    if self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð is not None:
+                        if self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.et is not None:
+                            isl_so.Germynd_spurnarmyndir_vidtengingarhattur_thatid_et = (
+                                self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.et
+                            )
+                        if self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.ft is not None:
+                            isl_so.Germynd_spurnarmyndir_vidtengingarhattur_thatid_ft = (
+                                self.data.germynd.spurnarmyndir.viðtengingarháttur.þátíð.ft
+                            )
         if self.data.miðmynd is not None:
             isl_so.Midmynd_Nafnhattur = self.data.miðmynd.nafnháttur
             isl_so.Midmynd_Sagnbot = self.data.miðmynd.sagnbót

@@ -1,0 +1,155 @@
+{
+	"orð": "hæfa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hæfa",
+		"sagnbót": "hæft",
+		"boðháttur": {
+			"stýfður": "hæf",
+			"et": "hæfðu",
+			"ft": "hæfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hæfi", "hæfir", "hæfir"],
+					"ft": ["hæfum", "hæfið", "hæfa"]
+				},
+				"þátíð": {
+					"et": ["hæfði", "hæfðir", "hæfði"],
+					"ft": ["hæfðum", "hæfðuð", "hæfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hæfi", "hæfir", "hæfi"],
+					"ft": ["hæfum", "hæfið", "hæfi"]
+				},
+				"þátíð": {
+					"et": ["hæfði", "hæfðir", "hæfði"],
+					"ft": ["hæfðum", "hæfðuð", "hæfðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hæfir", "hæfir", "hæfir"],
+					"ft": ["hæfir", "hæfir", "hæfir"]
+				},
+				"þátíð": {
+					"et": ["hæfði", "hæfði", "hæfði"],
+					"ft": ["hæfði", "hæfði", "hæfði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hæfi", "hæfi", "hæfi"],
+					"ft": ["hæfi", "hæfi", "hæfi"]
+				},
+				"þátíð": {
+					"et": ["hæfði", "hæfði", "hæfði"],
+					"ft": ["hæfði", "hæfði", "hæfði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hæfirðu",
+					"ft": "hæfiði"
+				},
+				"þátíð": {
+					"et": "hæfðirðu",
+					"ft": "hæfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hæfirðu",
+					"ft": "hæfiði"
+				},
+				"þátíð": {
+					"et": "hæfðirðu",
+					"ft": "hæfðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "búast",
+		"sagnbót": "búist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["býst", "býst", "býst"],
+					"ft": ["búumst", "búist", "búast"]
+				},
+				"þátíð": {
+					"et": ["bjóst", "bjóst", "bjóst"],
+					"ft": ["bjuggumst", "bjuggust", "bjuggust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búist", "búist", "búist"],
+					"ft": ["búumst", "búist", "búist"]
+				},
+				"þátíð": {
+					"et": ["byggist", "byggist", "byggist"],
+					"ft": ["byggjumst", "byggjust", "byggjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "býstu"
+				},
+				"þátíð": {
+					"et": "bjóstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "búistu"
+				},
+				"þátíð": {
+					"et": "byggistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hæfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hæfður", "hæfðan", "hæfðum", "hæfðs"],
+					"kvk": ["hæfð", "hæfða", "hæfðri", "hæfðrar"],
+					"hk": ["hæft", "hæft", "hæfðu", "hæfðs"]
+				},
+				"ft": {
+					"kk": ["hæfðir", "hæfða", "hæfðum", "hæfðra"],
+					"kvk": ["hæfðar", "hæfðar", "hæfðum", "hæfðra"],
+					"hk": ["hæfð", "hæfð", "hæfðum", "hæfðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hæfði", "hæfða", "hæfða", "hæfða"],
+					"kvk": ["hæfða", "hæfðu", "hæfðu", "hæfðu"],
+					"hk": ["hæfða", "hæfða", "hæfða", "hæfða"]
+				},
+				"ft": {
+					"kk": ["hæfðu", "hæfðu", "hæfðu", "hæfðu"],
+					"kvk": ["hæfðu", "hæfðu", "hæfðu", "hæfðu"],
+					"hk": ["hæfðu", "hæfðu", "hæfðu", "hæfðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hæfa",
+	"hash": "0988b82a7415399fe9ceacfc84a92541de1d4020486a4a5db7b3da05cdcf7ee7"
+}
