@@ -54,9 +54,76 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "endast",
+		"sagnbót": "enst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endist", "endist", "endist"],
+					"ft": ["endumst", "endist", "endast"]
+				},
+				"þátíð": {
+					"et": ["entist", "entist", "entist"],
+					"ft": ["entumst", "entust", "entust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endist", "endist", "endist"],
+					"ft": ["endumst", "endist", "endist"]
+				},
+				"þátíð": {
+					"et": ["entist", "entist", "entist"],
+					"ft": ["entumst", "entust", "entust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endist", "endist", "endist"],
+					"ft": ["endist", "endist", "endist"]
+				},
+				"þátíð": {
+					"et": ["entist", "entist", "entist"],
+					"ft": ["entist", "entist", "entist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endist", "endist", "endist"],
+					"ft": ["endist", "endist", "endist"]
+				},
+				"þátíð": {
+					"et": ["entist", "entist", "entist"],
+					"ft": ["entist", "entist", "entist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endistu"
+				},
+				"þátíð": {
+					"et": "entistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endistu"
+				},
+				"þátíð": {
+					"et": "entistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "endandi"
 	},
 	"kennistrengur": "so-enda",
-	"hash": "ac5b421ba9a7252ff7499cf4614afba21ff6bd2ee80de9cebbcab533d79b91a1"
+	"hash": "bcf1b5dc147eae4bdea17d4316c773bbef6b4352e5319d47d1181dd643e96554"
 }

@@ -1,0 +1,132 @@
+{
+	"orð": "lýsa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lýsa",
+		"sagnbót": "lýst",
+		"boðháttur": {
+			"stýfður": "lýs",
+			"et": "lýstu",
+			"ft": "lýsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lýsi", "lýsir", "lýsir"],
+					"ft": ["lýsum", "lýsið", "lýsa"]
+				},
+				"þátíð": {
+					"et": ["lýsti", "lýstir", "lýsti"],
+					"ft": ["lýstum", "lýstuð", "lýstu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lýsi", "lýsir", "lýsi"],
+					"ft": ["lýsum", "lýsið", "lýsi"]
+				},
+				"þátíð": {
+					"et": ["lýsti", "lýstir", "lýsti"],
+					"ft": ["lýstum", "lýstuð", "lýstu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lýsirðu",
+					"ft": "lýsiði"
+				},
+				"þátíð": {
+					"et": "lýstirðu",
+					"ft": "lýstuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lýsirðu",
+					"ft": "lýsiði"
+				},
+				"þátíð": {
+					"et": "lýstirðu",
+					"ft": "lýstuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lýsast",
+		"sagnbót": "lýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lýsist", "lýsist", "lýsist"],
+					"ft": ["lýsumst", "lýsist", "lýsast"]
+				},
+				"þátíð": {
+					"et": ["lýstist", "lýstist", "lýstist"],
+					"ft": ["lýstumst", "lýstust", "lýstust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lýsist", "lýsist", "lýsist"],
+					"ft": ["lýsumst", "lýsist", "lýsist"]
+				},
+				"þátíð": {
+					"et": ["lýstist", "lýstist", "lýstist"],
+					"ft": ["lýstumst", "lýstust", "lýstust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lýsistu"
+				},
+				"þátíð": {
+					"et": "lýstistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lýsistu"
+				},
+				"þátíð": {
+					"et": "lýstistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lýsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lýstur", "lýstan", "lýstum", "lýsts"],
+					"kvk": ["lýst", "lýsta", "lýstri", "lýstrar"],
+					"hk": ["lýst", "lýst", "lýstu", "lýsts"]
+				},
+				"ft": {
+					"kk": ["lýstir", "lýsta", "lýstum", "lýstra"],
+					"kvk": ["lýstar", "lýstar", "lýstum", "lýstra"],
+					"hk": ["búin", "búin", "lýstum", "lýstra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lýsti", "lýsta", "lýsta", "lýsta"],
+					"kvk": ["lýsta", "lýstu", "lýstu", "lýstu"],
+					"hk": ["lýsta", "lýsta", "lýsta", "lýsta"]
+				},
+				"ft": {
+					"kk": ["lýstu", "lýstu", "lýstu", "lýstu"],
+					"kvk": ["lýstu", "lýstu", "lýstu", "lýstu"],
+					"hk": ["lýstu", "lýstu", "lýstu", "lýstu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lýsa",
+	"hash": "f3a21bacb630b5db10711a67aaf99edd0fae6724180631fd3434c10fc5430115"
+}

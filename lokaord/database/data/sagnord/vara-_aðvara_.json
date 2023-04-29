@@ -1,0 +1,133 @@
+{
+	"orð": "vara",
+	"flokkur": "sagnorð",
+	"merking": "aðvara",
+	"germynd": {
+		"nafnháttur": "vara",
+		"sagnbót": "varað",
+		"boðháttur": {
+			"stýfður": "vara",
+			"et": "varaðu",
+			"ft": "varið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vara", "varar", "varar"],
+					"ft": ["vörum", "varið", "vara"]
+				},
+				"þátíð": {
+					"et": ["varaði", "varaðir", "varaði"],
+					"ft": ["vöruðum", "vöruðuð", "vöruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vari", "varir", "vari"],
+					"ft": ["vörum", "varið", "vari"]
+				},
+				"þátíð": {
+					"et": ["varaði", "varaðir", "varaði"],
+					"ft": ["vöruðum", "vöruðuð", "vöruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vararðu",
+					"ft": "variði"
+				},
+				"þátíð": {
+					"et": "varaðirðu",
+					"ft": "vöruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "varirðu",
+					"ft": "variði"
+				},
+				"þátíð": {
+					"et": "vararirðu",
+					"ft": "vöruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "varast",
+		"sagnbót": "varast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["varast", "varast", "varast"],
+					"ft": ["vörumst", "varist", "varast"]
+				},
+				"þátíð": {
+					"et": ["varaðist", "varaðist", "varaðist"],
+					"ft": ["vöruðumst", "vöruðust", "vöruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["varist", "varist", "varist"],
+					"ft": ["vörumst", "varist", "varist"]
+				},
+				"þátíð": {
+					"et": ["varaðist", "varaðist", "varaðist"],
+					"ft": ["vöruðumst", "vöruðust", "vöruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "varastu"
+				},
+				"þátíð": {
+					"et": "varaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "varistu"
+				},
+				"þátíð": {
+					"et": "varaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "varandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["varaður", "varaðan", "vöruðum", "varaðs"],
+					"kvk": ["vöruð", "varaða", "varaðri", "varaðrar"],
+					"hk": ["varað", "varað", "vöruðu", "varaðs"]
+				},
+				"ft": {
+					"kk": ["varaðir", "varaða", "vöruðum", "varaðra"],
+					"kvk": ["varaðar", "varaðar", "vöruðum", "varaðra"],
+					"hk": ["vöruð", "vöruð", "vöruðum", "varaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["varaði", "varaða", "varaða", "varaða"],
+					"kvk": ["varaða", "vöruðu", "vöruðu", "vöruðu"],
+					"hk": ["varaða", "varaða", "varaða", "varaða"]
+				},
+				"ft": {
+					"kk": ["vöruðu", "vöruðu", "vöruðu", "vöruðu"],
+					"kvk": ["vöruðu", "vöruðu", "vöruðu", "vöruðu"],
+					"hk": ["vöruðu", "vöruðu", "vöruðu", "vöruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vara-_aðvara_",
+	"hash": "825118cedffc744ec69d1e05cc813ab8b3e0142513f8dac63caf53ac858efb02"
+}

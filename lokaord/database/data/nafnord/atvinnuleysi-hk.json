@@ -1,0 +1,27 @@
+{
+	"orð": "atvinnuleysi",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"beygingar": ["et-ág", "et-mg"],
+			"kennistrengur": "no-leysi-hk-ó"
+		}
+	],
+	"et": {
+		"ág": ["atvinnuleysi", "atvinnuleysi", "atvinnuleysi", "atvinnuleysis"],
+		"mg": ["atvinnuleysið", "atvinnuleysið", "atvinnuleysinu", "atvinnuleysisins"]
+	},
+	"kennistrengur": "no-atvinnuleysi-hk",
+	"hash": "1d6f1186af17ac12b75691fd35360c9a01abf6b45ea3ed9c62123b119bb3631b"
+}
