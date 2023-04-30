@@ -127,7 +127,7 @@ alias lokaord="$HOME/repos/loka-ord/bin/lokaord"
 
 og vista í `.bashrc` eða sambærilegri skrá, þá er hægt að spara sér að þurfa að skrifa endalaust `python main.py` og skrifa í staðinn einfaldlega `lokaord`. Fyrir Windows þyrfti að skrifa `.bat` skrá sambærilega bash `bin/lokaord` skriptunni og síðan bæta henni í path eða útbúa sambærilegt alias á Windows.
 
-### Smíða allt uppá nýtt
+### Smíða allt uppá nýtt eða einungis breytingar
 
 Eftirfarandi skipun endursmíðar gagnagrunn, skrifar út í skrár, byggir sjón og prentar út tölulegar upplýsingar í formi markdown töflu eins og þeirrar sem sýnd er ofar í þessari textaskrá.
 
