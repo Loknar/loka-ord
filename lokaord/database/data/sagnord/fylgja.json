@@ -1,0 +1,132 @@
+{
+	"orð": "fylgja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "fylgja",
+		"sagnbót": "fylgst",
+		"boðháttur": {
+			"stýfður": "fylg",
+			"et": "fylgdu",
+			"ft": "fylgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fylgi", "fylgir", "fylgir"],
+					"ft": ["fylgjum", "fylgið", "fylgja"]
+				},
+				"þátíð": {
+					"et": ["fylgdi", "fylgdir", "fylgdi"],
+					"ft": ["fylgdum", "fylgduð", "fylgdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fylgi", "fylgir", "fylgi"],
+					"ft": ["fylgjum", "fylgið", "fylgi"]
+				},
+				"þátíð": {
+					"et": ["fylgdi", "fylgdir", "fylgdi"],
+					"ft": ["fylgdum", "fylgduð", "fylgdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fylgirðu",
+					"ft": "fylgiði"
+				},
+				"þátíð": {
+					"et": "fylgdirðu",
+					"ft": "fylgduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fylgirðu",
+					"ft": "fylgiði"
+				},
+				"þátíð": {
+					"et": "fylgdirðu",
+					"ft": "fylgduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fylgjast",
+		"sagnbót": "fylgst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fylgist", "fylgist", "fylgist"],
+					"ft": ["fylgjumst", "fylgist", "fylgjast"]
+				},
+				"þátíð": {
+					"et": ["fylgdist", "fylgdist", "fylgdist"],
+					"ft": ["fylgdumst", "fylgdust", "fylgdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fylgist", "fylgist", "fylgist"],
+					"ft": ["fylgjumst", "fylgist", "fylgist"]
+				},
+				"þátíð": {
+					"et": ["fylgdist", "fylgdist", "fylgdist"],
+					"ft": ["fylgdumst", "fylgdust", "fylgdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fylgistu"
+				},
+				"þátíð": {
+					"et": "fylgdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fylgistu"
+				},
+				"þátíð": {
+					"et": "fylgdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fylgjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fylgdur", "fylgdan", "fylgdum", "fylgds"],
+					"kvk": ["fylgd", "fylgda", "fylgdri", "fylgdrar"],
+					"hk": ["fylgt", "fylgt", "fylgdu", "fylgds"]
+				},
+				"ft": {
+					"kk": ["fylgdir", "fylgda", "fylgdum", "fylgdra"],
+					"kvk": ["fylgdar", "fylgdar", "fylgdum", "fylgdra"],
+					"hk": ["fylgd", "fylgd", "fylgdum", "fylgdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fylgdi", "fylgda", "fylgda", "fylgda"],
+					"kvk": ["fylgda", "fylgdu", "fylgdu", "fylgdu"],
+					"hk": ["fylgda", "fylgda", "fylgda", "fylgda"]
+				},
+				"ft": {
+					"kk": ["fylgdu", "fylgdu", "fylgdu", "fylgdu"],
+					"kvk": ["fylgdu", "fylgdu", "fylgdu", "fylgdu"],
+					"hk": ["fylgdu", "fylgdu", "fylgdu", "fylgdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fylgja",
+	"hash": "238408aae1e85ffe0089763e04363fce2722d9edda7428d298758d1b0310e905"
+}
