@@ -9,8 +9,8 @@ def print_help_and_exit():
     if lokaord.ArgParser is not None:
         lokaord.ArgParser.print_help(sys.stderr)
     else:
-        logman.warning('lokaord.ArgParser was None.')
-        logman.error('Exiting ..')
+        lokaord.logman.warning('lokaord.ArgParser was None.')
+        lokaord.logman.error('Exiting ..')
     sys.exit(1)
 
 
@@ -51,8 +51,8 @@ if __name__ == '__main__':
     ))
     lokaord.ArgParser.add_argument(
         '-wf-ts', '--write-files-timestamp', metavar=('TIMESTAMP', ), help=(
-            'Timestamp in the form of "%Y-%m-%dT%H:%M" (example: "2023-04-20T18:30"), only words'
-            ' which have changed on or after provided timestamp are written from database to'
+            'Timestamp in the form of "%%Y-%%m-%%dT%%H:%%M" (example: "2023-04-20T18:30"), only'
+            ' words which have changed on or after provided timestamp are written from database to'
             ' datafiles, if not provided all words are written from database to datafiles.'
         )
     )
