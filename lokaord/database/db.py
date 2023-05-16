@@ -44,6 +44,7 @@ def backup_sqlite_db_file(folder_name):
     assert(not os.path.islink(sqlite_db_file))
     assert(os.path.isfile(sqlite_db_file))
     shutil.copy(sqlite_db_file, sqlite_db_bak_file)
+    logman.info(f'Backed up current "db.sqlite" file to "db_{timestamp_str}.sqlite".')
 
 
 def delete_sqlite_db_file(folder_name):
@@ -92,3 +93,13 @@ def init_db():
     #
     from lokaord.database import models
     Base.metadata.create_all(bind=Engine)
+
+
+def init(name: str):
+    global Session
+    if Session is None:
+        setup_data_directory(name)
+        db_uri = create_db_uri(name)
+        setup_connection(db_uri, db_echo=False)
+        init_db()
+        logman.info('Database initialized.')

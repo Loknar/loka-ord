@@ -7,8 +7,12 @@ CLI for adding words to SQL database that are in turn written to files.
 import collections
 import json
 
-from lokaord.version import __version__
+from lokaord import handlers
 from lokaord import logman
+from lokaord import structs
+from lokaord.database import db
+from lokaord.database.models import isl
+from lokaord.version import __version__
 # from lokaord.importer import add_word, lookup_nafnord, lookup_lysingarord, lookup_sagnord
 
 
@@ -83,7 +87,9 @@ def input_nafnord_cli():
             ]
         )
         data['orð'] = fallbeyging_et_ag[0]
-        isl_ord_lookup = lookup_nafnord({'orð': data['orð'], 'kyn': kyn})
+        isl_ord_lookup = db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+            isl.Ord.Ord==data['orð'], isl.Nafnord.Kyn==isl.Kyn[structs.Kyn(data['kyn']).name]
+        ).first()
         if isl_ord_lookup is not None:
             raise Exception('Þetta orð er nú þegar í grunninum?')
         logman.info('kyn: %s' % (kyn, ))
@@ -115,7 +121,9 @@ def input_nafnord_cli():
         )
         if data['orð'] is None:
             data['orð'] = data['ft']['ág'][0]
-            isl_ord_lookup = lookup_nafnord({'orð': data['orð'], 'kyn': kyn})
+            isl_ord_lookup = db.Session.query(isl.Nafnord).join(isl.Ord).filter(
+                isl.Ord.Ord==data['orð'], isl.Nafnord.Kyn==isl.Kyn[structs.Kyn(data['kyn']).name]
+            ).first()
             if isl_ord_lookup is not None:
                 raise Exception('Þetta orð er nú þegar í grunninum?')
         # ft.mg

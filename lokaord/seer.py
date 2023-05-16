@@ -6,12 +6,14 @@ Scan text, attempt to identify words.
 """
 import copy
 import datetime
+import itertools
 import json
 import pickle
 import platform
 import os
 import pathlib
 import sys
+from typing import Callable
 
 from lokaord import logman
 from lokaord.database.models.utils import TimestampIsoformat as ts_iso
@@ -29,17 +31,51 @@ def search_word(word):
             print(
                 (
                     '\033[34m├\033[0m \033[36m{m}\033[0m\n'
-                    '\033[34m├\033[0m \033[33m{h}\033[0m\n'
+                    '\033[34m├\033[0m \033[33m{k} ({h})\033[0m\n'
                     '\033[34m└\033[0m \033[35m{f}\033[0m'
                 ).format(
                     m=option['mynd'],
+                    k=sight['hash'][option['hash']]['d']['kennistrengur'],
                     h=option['hash'],
                     f=sight['hash'][option['hash']]['f']
                 )
             )
     else:
-        print('fann ekki')
+        print('fannst ekki')
     print('\033[36m---\033[0m')
+
+
+def word_change_possibilities(word: str) -> list[str]:
+    myset = set([word])
+    def uppercase(word: str):
+        return '%s%s' % (word[0].upper(), word[1:])
+    def lowercase(word: str):
+        return word.lower()
+    def ellify(word: str):
+        return word.replace('ll', 'łl')
+    def apply_possibility(
+        word: str, possibility: list[bool], changes: list[Callable[[str], str]]
+    ) -> str:
+        if len(possibility) != len(changes):
+            raise Exception('possibility and changes should have same length')
+        e_word = word
+        for i in range(len(possibility)):
+            if possibility[i] is True:
+                e_word = changes[i](e_word)
+        return e_word
+    changes = [
+        uppercase,
+        lowercase,
+        ellify
+    ]
+    possibilities = sorted(
+        list(set(itertools.permutations(
+            [True] * len(changes) + [False] * (len(changes) - 1),
+            len(changes)))), reverse=True
+    )
+    for possibility in possibilities:
+        myset.add(apply_possibility(word, possibility, changes))
+    return list(myset)
 
 
 def scan_sentence(sentence):
@@ -65,6 +101,7 @@ def scan_sentence(sentence):
             for option in sight['orð'][word]:
                 scanned_word['möguleikar'].append({
                     'm': option['mynd'],
+                    'k': sight['hash'][option['hash']]['d']['kennistrengur'],
                     'h': option['hash'],
                     'f': sight['hash'][option['hash']]['f']
                 })
@@ -74,17 +111,22 @@ def scan_sentence(sentence):
         onhanging_chars = set(['.', ',', '(', ')', '[', ']', '-', '/'])
         msg = ''
         e_word = word.strip()
-        if e_word[-1] in onhanging_chars:
-            scanned_word['fylgir'] = e_word[-1]
+        while e_word[-1] in onhanging_chars:
+            if scanned_word['fylgir'] is None:
+                scanned_word['fylgir'] = ''
+            scanned_word['fylgir'] = '%s%s' % (e_word[-1], scanned_word['fylgir'])
             e_word = e_word[:-1]
-        if e_word[0] in onhanging_chars:
-            scanned_word['leiðir'] = e_word[0]
+        while e_word[0] in onhanging_chars:
+            if scanned_word['leiðir'] is None:
+                scanned_word['leiðir'] = ''
+            scanned_word['leiðir'] += e_word[0]
             e_word = e_word[1:]
         if word in sight['skammstafanir']:
             myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
             scanned_word['staða'] = 'skammstöfun'
             scanned_word['möguleikar'].append({
                 'm': myndir,
+                'k': sight['skammstafanir'][word]['kennistrengur'],
                 'h': sight['skammstafanir'][word]['hash'],
                 'f': sight['hash'][sight['skammstafanir'][word]['hash']]['f']
             })
@@ -96,34 +138,33 @@ def scan_sentence(sentence):
             scanned_word['staða'] = 'skammstöfun'
             scanned_word['möguleikar'].append({
                 'm': myndir,
+                'k': sight['skammstafanir'][word]['kennistrengur'],
                 'h': sight['skammstafanir'][e_word]['hash'],
                 'f': sight['hash'][sight['skammstafanir'][e_word]['hash']]['f']
             })
             found += 1
             scanned_sentence.append(scanned_word)
             continue
-        if e_word not in sight['orð'] and 'll' in e_word:
-            e_word = e_word.replace('ll', 'łl')
-        if e_word not in sight['orð'] and e_word[0] == e_word[0].lower():
-            e_word = '%s%s' % (e_word[0].upper(), e_word[1:])
-        if e_word not in sight['orð']:
-            e_word = e_word.lower()
-        if e_word in sight['orð']:
-            scanned_word['orð-hreinsað'] = e_word
-            scanned_word['staða'] = 'mögulega'
-            for option in sight['orð'][e_word]:
-                scanned_word['möguleikar'].append({
-                    'm': option['mynd'],
-                    'h': option['hash'],
-                    'f': sight['hash'][option['hash']]['f']
-                })
-            maybe += 1
-        elif e_word.isdigit():
-            scanned_word['orð-hreinsað'] = e_word
-            scanned_word['staða'] = 'tala'
-        else:
-            scanned_word['staða'] = 'vantar'
-            missing += 1
+        e_word_possibilities = word_change_possibilities(e_word)
+        for e_word_p in e_word_possibilities:
+            if e_word_p in sight['orð']:
+                scanned_word['orð-hreinsað'] = e_word
+                scanned_word['staða'] = 'mögulega'
+                for option in sight['orð'][e_word_p]:
+                    scanned_word['möguleikar'].append({
+                        'm': option['mynd'],
+                        'k': sight['hash'][option['hash']]['d']['kennistrengur'],
+                        'h': option['hash'],
+                        'f': sight['hash'][option['hash']]['f']
+                    })
+                maybe += 1
+                break
+            elif e_word_p.isdigit():
+                scanned_word['orð-hreinsað'] = e_word_p
+                scanned_word['staða'] = 'tala'
+            else:
+                scanned_word['staða'] = 'vantar'
+                missing += 1
         scanned_sentence.append(scanned_word)
     highlighted_sentence_list = []
     for scanned_word in scanned_sentence:
@@ -169,7 +210,7 @@ def scan_sentence(sentence):
             print(
                 (
                     '\033[34m├\033[0m \033[36m{m}\033[0m\n'
-                    '\033[34m├\033[0m \033[33m{h}\033[0m\n'
+                    '\033[34m├\033[0m \033[33m{k} ({h})\033[0m\n'
                     '\033[34m└\033[0m \033[35m{f}\033[0m'
                 ).format(**option)
             )

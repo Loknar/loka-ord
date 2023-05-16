@@ -1,105 +1,122 @@
 #!/usr/bin/python
-import argparse
-import sys
+import datetime
+
+from pathlib import Path
+from typing import Optional
+
+import typer
+from typing_extensions import Annotated
 
 import lokaord
 
+app = typer.Typer(
+    chain=True,
+    name=lokaord.Name,
+    context_settings={'help_option_names': ['-h', '--help']},
+    add_completion=False
+)
 
-def print_help_and_exit():
-    if lokaord.ArgParser is not None:
-        lokaord.ArgParser.print_help(sys.stderr)
-    else:
-        lokaord.logman.warning('lokaord.ArgParser was None.')
-        lokaord.logman.error('Exiting ..')
-    sys.exit(1)
+
+def version(value: bool):
+    if value:
+        print('%s %s' % (lokaord.Name, lokaord.__version__))
+        raise typer.Exit()
+
+
+@app.callback(invoke_without_command=True)
+def common(
+    version: Annotated[
+        Optional[bool], typer.Option(
+            '--version', '-v', callback=version, help='Print version and exit.'
+        )
+    ] = None,
+    logger_name: Annotated[str, typer.Option('--logger-name', '-ln')] = lokaord.Name,
+    log_directory: Annotated[
+        Path, typer.Option(
+            '--log-directory', '-ldir', help='Directory to write logs in. Should already exist.'
+        )
+    ] = './logs/',
+    role: Annotated[lokaord.LoggerRoles, typer.Option('--role', '-r')] = 'cli'
+):
+    lokaord.Ts = datetime.datetime.now()
+    if log_directory.match('logs') and not log_directory.exists():
+        log_directory.mkdir()
+    log_directory = log_directory.resolve()
+    if not log_directory.exists():
+        raise typer.BadParameter(f'Please ensure provided log-directory "{log_directory}" exists.')
+    if not log_directory.is_dir():
+        raise typer.BadParameter(f'Provided log-directory "{log_directory}" is not a directory.')
+    lokaord.logman.init(logger_name, role=role, output_dir=log_directory)
+
+
+@app.command('build-db', help='Import words from JSON datafiles to database.')
+def build_db(
+    rebuild: Annotated[Optional[bool], typer.Option('--rebuild', '-r')] = False,
+    changes_only: Annotated[Optional[bool], typer.Option('--changes-only', '-ch')] = False
+):
+    if rebuild and changes_only:
+        raise typer.BadParameter('build-db: --rebuild and --changes-only are mutually exclusive.')
+    lokaord.build_db(rebuild, changes_only)
+
+
+@app.command('backup-db', help='Create backup of current SQLite database file.')
+def backup_db():
+    lokaord.backup_db()
+
+
+@app.command(help='Write words from database to JSON datafiles.')
+def write_files(
+    timestamp: Annotated[Optional[datetime.datetime], typer.Option('--timestamp', '-ts')] = None,
+    time_offset: Annotated[Optional[lokaord.TimeOffset], typer.Option('--time-offset', '-to')] = None,
+    this_run: Annotated[Optional[bool], typer.Option('--this-run', '-tr')] = False
+):
+    if timestamp is not None and time_offset is not None:
+        logman.warning('Both timestamp and time_offset specified, using timestamp.')
+    ts = timestamp
+    if ts is None and time_offset is not None:
+        ts = lokaord.get_offset_time(time_offset)
+    if this_run is True:
+        if ts is not None:
+            logman.warning('Overriding timestamp with this_run.')
+        ts = lokaord.Ts
+    lokaord.write_files(ts)
+
+
+@app.command(help='Build word search.')
+def build_sight():
+    lokaord.build_sight()
+
+
+@app.command(help='Search for a single word in sight file.')
+def search(word: str):
+    lokaord.search(word)
+
+@app.command(help='Search for words in a sentence in sight file.')
+def scan_sentence(sentence: str):
+    lokaord.scan_sentence(sentence)
+
+
+@app.command(help='Print database word count data in JSON string.')
+def stats():
+    lokaord.get_stats()
+
+
+@app.command(help='Print database word count in Markdown table.')
+def md_stats():
+    lokaord.get_md_stats()
+
+
+@app.command(help='Add word CLI.')
+def add_word():
+    lokaord.logman.error('todo: fix this command')
+    raise typer.Exit()
+    lokaord.add_word()
+
+
+@app.command(help='Run fiddle.')
+def run_fiddle():
+    lokaord.run_fiddle()
 
 
 if __name__ == '__main__':
-    lokaord.ArgParser = argparse.ArgumentParser(
-        description='\033[33mLoka-Orð\033[0m', formatter_class=argparse.RawTextHelpFormatter
-    )
-    lokaord.ArgParser.prog = 'lokaord'
-    lokaord.ArgParser._actions[0].help = 'Show this help message and exit.'
-    lokaord.ArgParser.add_argument('-v', '--version', action='store_true', help=(
-        'Print version and exit.'
-    ))
-    lokaord.ArgParser.add_argument('-ln', '--logger-name', default='lokaord', help=(
-        'Define logger name (Default: "lokaord").'
-    ))
-    lokaord.ArgParser.add_argument('-ldir', '--log-directory', default='./logs/', help=(
-        'Directory to write logs in. Default: "./logs/".'
-    ))
-    lokaord.ArgParser.add_argument('-r', '--role', default='cli', help=(
-        'Define runner role.\n'
-        'Available options: "cli", "api", "cron", "hook", "mod" (Default: "cli").'
-    ))
-    lokaord.ArgParser.add_argument('-bdb', '--build-db', action='store_true', help=(
-        'Import words from datafiles to SQLite database.'
-    ))
-    lokaord.ArgParser.add_argument('-rbdb', '--rebuild-db', action='store_true', help=(
-        'Delete current SQLite database if exists and rebuild from datafiles.'
-    ))
-    lokaord.ArgParser.add_argument('-bdb-ch', '--build-db-changed', action='store_true', help=(
-        'Import words to SQLite database from datafiles which have changed according to git or are'
-        ' not currently tracked by git.'
-    ))
-    lokaord.ArgParser.add_argument('-bakdb', '--backup-db', action='store_true', help=(
-        'Create backup of current SQLite database file.'
-    ))
-    lokaord.ArgParser.add_argument('-wf', '--write-files', action='store_true', help=(
-        'Write data from database to JSON textfiles.'
-    ))
-    lokaord.ArgParser.add_argument(
-        '-wf-ts', '--write-files-timestamp', metavar=('TIMESTAMP', ), help=(
-            'Timestamp in the form of "%%Y-%%m-%%dT%%H:%%M" (example: "2023-04-20T18:30"), only'
-            ' words which have changed on or after provided timestamp are written from database to'
-            ' datafiles, if not provided all words are written from database to datafiles.'
-        )
-    )
-    lokaord.ArgParser.add_argument('-aw', '--add-word', action='store_true', help=(
-        'Add word CLI.'
-    ))
-    lokaord.ArgParser.add_argument('-st', '--stats', action='store_true', help=(
-        'Print database word count data in JSON string.'
-    ))
-    lokaord.ArgParser.add_argument('-mdst', '--md-stats', action='store_true', help=(
-        'Print database word count in Markdown table.'
-    ))
-    lokaord.ArgParser.add_argument('-bs', '--build-sight', action='store_true', help=(
-        'Build sight for seer.'
-    ))
-    lokaord.ArgParser.add_argument('-s', '--search', metavar=('WORD', ), help=(
-        'Search for word in sight file.'
-    ))
-    lokaord.ArgParser.add_argument('-ss', '--scan-sentence', metavar=('SENTENCE', ), help=(
-        'Search for words in sentence in sight file.'
-    ))
-    lokaord.ArgParser.add_argument('-fdl', '--run-fiddle', action='store_true', help=(
-        'Run fiddle.'
-    ))
-    pargs = lokaord.ArgParser.parse_args()
-    if len(sys.argv) == 1:
-        print_help_and_exit()
-    if pargs.version is True:
-        print('%s %s' % (lokaord.ArgParser.prog, lokaord.__version__))
-        sys.exit(0)
-    arguments = {
-        'logger_name': pargs.logger_name,
-        'log_directory': pargs.log_directory,
-        'role': pargs.role,
-        'build_db': pargs.build_db,
-        'rebuild_db': pargs.rebuild_db,
-        'build_db_ch': pargs.build_db_changed,
-        'backup_db': pargs.backup_db,
-        'write_files': pargs.write_files,
-        'write_files_ts': pargs.write_files_timestamp,
-        'add_word': None,
-        'add_word_cli': pargs.add_word,
-        'stats': pargs.stats,
-        'md_stats': pargs.md_stats,
-        'build_sight': pargs.build_sight,
-        'search': pargs.search,
-        'scan_sentence': pargs.scan_sentence,
-        'run_fiddle': pargs.run_fiddle,
-    }
-    lokaord.main(arguments)
+    app(prog_name=lokaord.Name)

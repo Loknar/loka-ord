@@ -301,7 +301,7 @@ def init(name=None, role='cli', output_dir='./logs/', log_to_cli=True, log_to_fi
         Logger.warning('logger already initialized')
 
     output_dir_abs = os.path.abspath(output_dir)
-    if output_dir.startswith('./'):
+    if type(output_dir) is str and output_dir.startswith('./'):
         output_dir_abs = os.path.abspath(
             os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', output_dir)
         )

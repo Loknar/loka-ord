@@ -44,33 +44,33 @@ python main.py --help
 Smíða gagnagrunn:
 
 ```bash
-python main.py --build-db
+python main.py build-db
 ```
 
 Skrifa orð úr grunni í textaskrár:
 
 ```bash
-python main.py --write-files
+python main.py write-files
 ```
 
 Bæta við orði í gegnum skipanalínu (CLI):
 
 ```bash
-python main.py --add-word
+python main.py add-word
 ```
 
 ### Orðaviðbætur
 
-Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `--add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmörkuð, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
+Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmörkuð, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
 
 ```bash
-python main.py --build-db --write-files
+python main.py build-db -ch  write-files -tr
 ```
 
 eða
 
 ```bash
-python main.py --rebuild-db --write-files
+python main.py build-db -r write-files
 ```
 
 til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa síðan innihald gagnagrunnsins aftur í textaskrár.
@@ -102,19 +102,19 @@ svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunnin
 Til að athuga hvort orð sé til staðar í grunni er hægt að gera uppflettingu í smíðuðum gagnagrunni með tólum að eigin vali, leita að JSON skrá með nafni sem inniheldur umrætt orð, eða með því að smíða sjón fyrir sjáanda (e. sight for seer):
 
 ```bash
-python main.py --build-sight
+python main.py build-sight
 ```
 
 ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða þegar JSON skrárn hafa breyst, en er svo hægt að nota fyrir uppflettingu á stökum orðum:
 
 ```bash
-python main.py --search "orð"
+python main.py search "orð"
 ```
 
 eða fyrir heilu setningarnar:
 
 ```bash
-python main.py --scan-sentence "Hér er haugur orða í hóflega langri setningu."
+python main.py scan-sentence "Hér er haugur orða í hóflega langri setningu."
 ```
 
 ### Þægilegri keyrsluskipun
@@ -132,16 +132,16 @@ og vista í `.bashrc` eða sambærilegri skrá, þá er hægt að spara sér að
 Eftirfarandi skipun endursmíðar gagnagrunn, skrifar út í skrár, byggir sjón og prentar út tölulegar upplýsingar í formi markdown töflu eins og þeirrar sem sýnd er ofar í þessari textaskrá.
 
 ```bash
-lokaord -rbdb -wf -bs -mdst
+lokaord build-db -r write-files build-sight md-stats
 ```
 
 Hér er svo skipun til að færa einungis gögn úr breyttum skrám í grunn og skrifa svo aftur í skrár breytt orð (notar git, og svo `Edited` tímaskráningu á orðum sem er uppfærð þegar orð í grunni breytast)
 
 ```bash
-lokaord -bdb-ch -wf-ts "2023-04-20T22:30" -bs -mdst
+lokaord build-db -ch  write-files -ts "2023-04-20T22:30" build-sight md-stats
 ```
 
-þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð (til þæginda standa gildin `"last10min"` og `"last30min"` einnig til boða).
+þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð (til þæginda stendur flaggið `-to` og gildin `"last2min"`, `"last10min"` og `"last30min"` einnig til boða, sem og flaggið `-tr` fyrir núverandi keyrslu).
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 
