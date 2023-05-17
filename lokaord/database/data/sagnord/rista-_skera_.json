@@ -1,0 +1,89 @@
+{
+	"orð": "rista",
+	"flokkur": "sagnorð",
+	"merking": "skera",
+	"germynd": {
+		"nafnháttur": "rista",
+		"sagnbót": "rist",
+		"boðháttur": {
+			"stýfður": "rist",
+			"et": "ristu",
+			"ft": "ristið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["risti", "ristir", "ristir"],
+					"ft": ["ristum", "ristið", "rista"]
+				},
+				"þátíð": {
+					"et": ["risti", "ristir", "risti"],
+					"ft": ["ristum", "rist", "ristu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["risti", "ristir", "risti"],
+					"ft": ["ristum", "ristið", "risti"]
+				},
+				"þátíð": {
+					"et": ["risti", "ristir", "risti"],
+					"ft": ["ristum", "rist", "ristu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ristirðu",
+					"ft": "ristiði"
+				},
+				"þátíð": {
+					"et": "ristirðu",
+					"ft": "risti"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ristirðu",
+					"ft": "ristiði"
+				},
+				"þátíð": {
+					"et": "ristirðu",
+					"ft": "risti"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ristandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ristur", "ristan", "ristum", "rists"],
+					"kvk": ["rist", "rista", "ristri", "ristrar"],
+					"hk": ["rist", "rist", "ristu", "rists"]
+				},
+				"ft": {
+					"kk": ["ristir", "rista", "ristum", "ristra"],
+					"kvk": ["ristar", "ristar", "ristum", "ristra"],
+					"hk": ["rist", "rist", "ristum", "ristra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["risti", "rista", "rista", "rista"],
+					"kvk": ["rista", "ristu", "ristu", "ristu"],
+					"hk": ["rista", "rista", "rista", "rista"]
+				},
+				"ft": {
+					"kk": ["ristu", "ristu", "ristu", "ristu"],
+					"kvk": ["ristu", "ristu", "ristu", "ristu"],
+					"hk": ["ristu", "ristu", "ristu", "ristu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rista-_skera_",
+	"hash": "31422428bc83e00ff7528b6475e7d856407904feaffaaff2c7f736122b15e69a"
+}

@@ -1,0 +1,115 @@
+{
+	"orð": "lenda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lenda",
+		"sagnbót": "lent",
+		"boðháttur": {
+			"stýfður": "lent",
+			"et": "lentu",
+			"ft": "lendið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lendi", "lendir", "lendir"],
+					"ft": ["lendum", "lendið", "lenda"]
+				},
+				"þátíð": {
+					"et": ["lenti", "lentir", "lenti"],
+					"ft": ["lentum", "lentuð", "lentu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lendi", "lendir", "lendi"],
+					"ft": ["lendum", "lendið", "lendi"]
+				},
+				"þátíð": {
+					"et": ["lenti", "lentir", "lenti"],
+					"ft": ["lentum", "lentuð", "lentu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lendirðu",
+					"ft": "lendiði"
+				},
+				"þátíð": {
+					"et": "lentirðu",
+					"ft": "lentuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lendirðu",
+					"ft": "lendiði"
+				},
+				"þátíð": {
+					"et": "lentirðu",
+					"ft": "lentuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lendast",
+		"sagnbót": "lenst",
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lendir", "lendir", "lendir"],
+					"ft": ["lendir", "lendir", "lendir"]
+				},
+				"þátíð": {
+					"et": ["lenti", "lenti", "lenti"],
+					"ft": ["lenti", "lenti", "lenti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lendi", "lendi", "lendi"],
+					"ft": ["lendi", "lendi", "lendi"]
+				},
+				"þátíð": {
+					"et": ["lenti", "lenti", "lenti"],
+					"ft": ["lenti", "lenti", "lenti"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lendandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lentur", "lentan", "lentum", "lents"],
+					"kvk": ["lent", "lenta", "lentri", "lentrar"],
+					"hk": ["lent", "lent", "lentu", "lents"]
+				},
+				"ft": {
+					"kk": ["lentir", "lenta", "lentum", "lentra"],
+					"kvk": ["lentar", "lentar", "lentum", "lentra"],
+					"hk": ["lent", "lent", "lentum", "lentra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lenti", "lenta", "lenta", "lenta"],
+					"kvk": ["lenta", "lentu", "lentu", "lentu"],
+					"hk": ["lenta", "lenta", "lenta", "lenta"]
+				},
+				"ft": {
+					"kk": ["lentu", "lentu", "lentu", "lentu"],
+					"kvk": ["lentu", "lentu", "lentu", "lentu"],
+					"hk": ["lentu", "lentu", "lentu", "lentu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lenda",
+	"hash": "c9321ef066036deb53c27b26ed66f90bae613bc5778c6da8bf4813b6bfac75c9"
+}
