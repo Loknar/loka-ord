@@ -1,0 +1,142 @@
+{
+	"orð": "einskorða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"kennistrengur": "so-skorða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "einskorða",
+		"sagnbót": "einskorðað",
+		"boðháttur": {
+			"stýfður": "einskorða",
+			"et": "einskorðaðu",
+			"ft": "einskorðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einskorða", "einskorðar", "einskorðar"],
+					"ft": ["einskorðum", "einskorðið", "einskorða"]
+				},
+				"þátíð": {
+					"et": ["einskorðaði", "einskorðaðir", "einskorðaði"],
+					"ft": ["einskorðuðum", "einskorðuðuð", "einskorðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einskorði", "einskorðir", "einskorði"],
+					"ft": ["einskorðum", "einskorðið", "einskorði"]
+				},
+				"þátíð": {
+					"et": ["einskorðaði", "einskorðaðir", "einskorðaði"],
+					"ft": ["einskorðuðum", "einskorðuðuð", "einskorðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einskorðarðu",
+					"ft": "einskorðiði"
+				},
+				"þátíð": {
+					"et": "einskorðaðirðu",
+					"ft": "einskorðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einskorðirðu",
+					"ft": "einskorðiði"
+				},
+				"þátíð": {
+					"et": "einskorðaðirðu",
+					"ft": "einskorðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "einskorðast",
+		"sagnbót": "einskorðast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einskorðast", "einskorðast", "einskorðast"],
+					"ft": ["einskorðumst", "einskorðist", "einskorðast"]
+				},
+				"þátíð": {
+					"et": ["einskorðaðist", "einskorðaðist", "einskorðaðist"],
+					"ft": ["einskorðuðumst", "einskorðuðust", "einskorðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einskorðist", "einskorðist", "einskorðist"],
+					"ft": ["einskorðumst", "einskorðist", "einskorðist"]
+				},
+				"þátíð": {
+					"et": ["einskorðaðist", "einskorðaðist", "einskorðaðist"],
+					"ft": ["einskorðuðumst", "einskorðuðust", "einskorðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einskorðastu"
+				},
+				"þátíð": {
+					"et": "einskorðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einskorðistu"
+				},
+				"þátíð": {
+					"et": "einskorðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "einskorðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["einskorðaður", "einskorðaðan", "einskorðuðum", "einskorðaðs"],
+					"kvk": ["einskorðuð", "einskorðaða", "einskorðaðri", "einskorðaðrar"],
+					"hk": ["einskorðað", "einskorðað", "einskorðuðu", "einskorðaðs"]
+				},
+				"ft": {
+					"kk": ["einskorðaðir", "einskorðaða", "einskorðuðum", "einskorðaðra"],
+					"kvk": ["einskorðaðar", "einskorðaðar", "einskorðuðum", "einskorðaðra"],
+					"hk": ["einskorðuð", "einskorðuð", "einskorðuðum", "einskorðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["einskorðaði", "einskorðaða", "einskorðaða", "einskorðaða"],
+					"kvk": ["einskorðaða", "einskorðuðu", "einskorðuðu", "einskorðuðu"],
+					"hk": ["einskorðaða", "einskorðaða", "einskorðaða", "einskorðaða"]
+				},
+				"ft": {
+					"kk": ["einskorðuðu", "einskorðuðu", "einskorðuðu", "einskorðuðu"],
+					"kvk": ["einskorðuðu", "einskorðuðu", "einskorðuðu", "einskorðuðu"],
+					"hk": ["einskorðuðu", "einskorðuðu", "einskorðuðu", "einskorðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-einskorða",
+	"hash": "be8d2c351dcccb3b644d788c1fd48f5de27fa0e8b2f3c0fbe0a1e6ac147d0ec0"
+}
