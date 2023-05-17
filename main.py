@@ -89,10 +89,14 @@ def build_sight():
 
 @app.command(help='Search for a single word in sight file.')
 def search(word: str):
+    if word == '':
+        raise typer.BadParameter('Word can\'t be empty string.')
     lokaord.search(word)
 
 @app.command(help='Search for words in a sentence in sight file.')
 def scan_sentence(sentence: str):
+    if sentence == '':
+        raise typer.BadParameter('Sentence can\'t be empty string.')
     lokaord.scan_sentence(sentence)
 
 
