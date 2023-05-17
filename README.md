@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 226 | 264 | 195 | 685 | 109 | 128 | 153 | 390 | **1075** |
-| **Lýsingarorð** | 11 |   |   |   | 62 |   |   |   | 51 | **113** |
-| **Sagnorð**     |   |   |   |   | 141 |   |   |   | 43 | **184** |
+| **Nafnorð**     |   | 226 | 264 | 195 | 685 | 111 | 128 | 154 | 393 | **1078** |
+| **Lýsingarorð** | 11 |   |   |   | 63 |   |   |   | 51 | **114** |
+| **Sagnorð**     |   |   |   |   | 141 |   |   |   | 44 | **185** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 2 | **42** |
 | **Smáorð**      |   |   |   |   |   |   |   |   |   | **182** |
-| **Alls** |   |   |   |   | **1163** |   |   |   | **513** | **1676** |
+| **Alls** |   |   |   |   | **1164** |   |   |   | **517** | **1681** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   |  | 2 | 1 | 3 | 23 | 16 | 10 | 49 | **52** |
 | **Alls**  |   |   |   | **248** |   |   |   | **224** | **472** |
 
-**Samtals:** 2148 orð.
+**Samtals:** 2153 orð.
 
 55 skammstafanir.
 
@@ -64,7 +64,7 @@ python main.py add-word
 Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmörkuð, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
 
 ```bash
-python main.py build-db -ch  write-files -tr
+python main.py build-db -ch write-files -tr
 ```
 
 eða
@@ -138,7 +138,7 @@ lokaord build-db -r write-files build-sight md-stats
 Hér er svo skipun til að færa einungis gögn úr breyttum skrám í grunn og skrifa svo aftur í skrár breytt orð (notar git, og svo `Edited` tímaskráningu á orðum sem er uppfærð þegar orð í grunni breytast)
 
 ```bash
-lokaord build-db -ch  write-files -ts "2023-04-20T22:30" build-sight md-stats
+lokaord build-db -ch write-files -ts "2023-04-20T22:30" build-sight md-stats
 ```
 
 þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð (til þæginda stendur flaggið `-to` og gildin `"last2min"`, `"last10min"` og `"last30min"` einnig til boða, sem og flaggið `-tr` fyrir núverandi keyrslu).

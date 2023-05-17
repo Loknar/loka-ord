@@ -1,0 +1,142 @@
+{
+	"orð": "framfylgja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "so-fylgja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framfylgja",
+		"sagnbót": "framfylgst",
+		"boðháttur": {
+			"stýfður": "framfylg",
+			"et": "framfylgdu",
+			"ft": "framfylgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framfylgi", "framfylgir", "framfylgir"],
+					"ft": ["framfylgjum", "framfylgið", "framfylgja"]
+				},
+				"þátíð": {
+					"et": ["framfylgdi", "framfylgdir", "framfylgdi"],
+					"ft": ["framfylgdum", "framfylgduð", "framfylgdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framfylgi", "framfylgir", "framfylgi"],
+					"ft": ["framfylgjum", "framfylgið", "framfylgi"]
+				},
+				"þátíð": {
+					"et": ["framfylgdi", "framfylgdir", "framfylgdi"],
+					"ft": ["framfylgdum", "framfylgduð", "framfylgdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framfylgirðu",
+					"ft": "framfylgiði"
+				},
+				"þátíð": {
+					"et": "framfylgdirðu",
+					"ft": "framfylgduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framfylgirðu",
+					"ft": "framfylgiði"
+				},
+				"þátíð": {
+					"et": "framfylgdirðu",
+					"ft": "framfylgduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "framfylgjast",
+		"sagnbót": "framfylgst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framfylgist", "framfylgist", "framfylgist"],
+					"ft": ["framfylgjumst", "framfylgist", "framfylgjast"]
+				},
+				"þátíð": {
+					"et": ["framfylgdist", "framfylgdist", "framfylgdist"],
+					"ft": ["framfylgdumst", "framfylgdust", "framfylgdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framfylgist", "framfylgist", "framfylgist"],
+					"ft": ["framfylgjumst", "framfylgist", "framfylgist"]
+				},
+				"þátíð": {
+					"et": ["framfylgdist", "framfylgdist", "framfylgdist"],
+					"ft": ["framfylgdumst", "framfylgdust", "framfylgdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framfylgistu"
+				},
+				"þátíð": {
+					"et": "framfylgdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framfylgistu"
+				},
+				"þátíð": {
+					"et": "framfylgdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framfylgjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framfylgdur", "framfylgdan", "framfylgdum", "framfylgds"],
+					"kvk": ["framfylgd", "framfylgda", "framfylgdri", "framfylgdrar"],
+					"hk": ["framfylgt", "framfylgt", "framfylgdu", "framfylgds"]
+				},
+				"ft": {
+					"kk": ["framfylgdir", "framfylgda", "framfylgdum", "framfylgdra"],
+					"kvk": ["framfylgdar", "framfylgdar", "framfylgdum", "framfylgdra"],
+					"hk": ["framfylgd", "framfylgd", "framfylgdum", "framfylgdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framfylgdi", "framfylgda", "framfylgda", "framfylgda"],
+					"kvk": ["framfylgda", "framfylgdu", "framfylgdu", "framfylgdu"],
+					"hk": ["framfylgda", "framfylgda", "framfylgda", "framfylgda"]
+				},
+				"ft": {
+					"kk": ["framfylgdu", "framfylgdu", "framfylgdu", "framfylgdu"],
+					"kvk": ["framfylgdu", "framfylgdu", "framfylgdu", "framfylgdu"],
+					"hk": ["framfylgdu", "framfylgdu", "framfylgdu", "framfylgdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framfylgja",
+	"hash": "982db126b265d2c90e5c33d64c15d62c7a6edc54f61acb9c1e75ad1ce5d5e024"
+}

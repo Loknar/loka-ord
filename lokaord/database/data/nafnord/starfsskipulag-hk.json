@@ -1,0 +1,27 @@
+{
+	"orð": "starfsskipulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"beygingar": ["et-ág", "et-mg"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["starfsskipulag", "starfsskipulag", "starfsskipulagi", "starfsskipulags"],
+		"mg": ["starfsskipulagið", "starfsskipulagið", "starfsskipulaginu", "starfsskipulagsins"]
+	},
+	"kennistrengur": "no-starfsskipulag-hk",
+	"hash": "74232eb9b07c115c67af20b3f6da63da5394678e33fe3e2ecf3201a629bf1019"
+}
