@@ -100,6 +100,11 @@ def scan_sentence(sentence: str):
     lokaord.scan_sentence(sentence)
 
 
+@app.command(help='Short for the "scan-sentence" command.')
+def ss(sentence: str):
+    scan_sentence(sentence)
+
+
 @app.command(help='Print database word count data in JSON string.')
 def stats():
     lokaord.get_stats()
