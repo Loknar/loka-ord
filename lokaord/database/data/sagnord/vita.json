@@ -1,0 +1,88 @@
+{
+	"orð": "vita",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "vita",
+		"sagnbót": "vitað",
+		"boðháttur": {
+			"stýfður": "vit",
+			"et": "vittu",
+			"ft": "vitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veit", "veist", "veit"],
+					"ft": ["vitum", "vitið", "vita"]
+				},
+				"þátíð": {
+					"et": ["vissi", "vissir", "vissi"],
+					"ft": ["vissum", "vissuð", "vissu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viti", "vitir", "viti"],
+					"ft": ["vitum", "vitið", "viti"]
+				},
+				"þátíð": {
+					"et": ["vissi", "vissir", "vissi"],
+					"ft": ["vissum", "vissuð", "vissu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veistu",
+					"ft": "vitiði"
+				},
+				"þátíð": {
+					"et": "vissirðu",
+					"ft": "vissuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vitirðu",
+					"ft": "vitiði"
+				},
+				"þátíð": {
+					"et": "vissirðu",
+					"ft": "vissuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vitandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["viss", "vissan", "vissum", "viss"],
+					"kvk": ["viss", "vissa", "vissri", "vissrar"],
+					"hk": ["visst", "visst", "vissu", "viss"]
+				},
+				"ft": {
+					"kk": ["vissir", "vissa", "vissum", "vissra"],
+					"kvk": ["vissar", "vissar", "vissum", "vissra"],
+					"hk": ["viss", "viss", "vissum", "vissra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vissi", "vissa", "vissa", "vissa"],
+					"kvk": ["vissa", "vissu", "vissu", "vissu"],
+					"hk": ["vissa", "vissa", "vissa", "vissa"]
+				},
+				"ft": {
+					"kk": ["vissu", "vissu", "vissu", "vissu"],
+					"kvk": ["vissu", "vissu", "vissu", "vissu"],
+					"hk": ["vissu", "vissu", "vissu", "vissu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vita",
+	"hash": "6a6e312bcbb29097c9aa9ae5645b9490ea79d36c34113155a901388d3f1195fb"
+}
