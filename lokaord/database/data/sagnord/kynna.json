@@ -1,0 +1,114 @@
+{
+	"orð": "kynna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kynna",
+		"sagnbót": "kynnt",
+		"boðháttur": {
+			"stýfður": "kynn",
+			"et": "kynntu",
+			"ft": "kynnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kynni", "kynnir", "kynnir"],
+					"ft": ["kynnum", "kynnið", "kynna"]
+				},
+				"þátíð": {
+					"et": ["kynnti", "kynntir", "kynnti"],
+					"ft": ["kynntum", "kynntuð", "kynntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kynni", "kynnir", "kynni"],
+					"ft": ["kynnum", "kynnið", "kynni"]
+				},
+				"þátíð": {
+					"et": ["kynnti", "kynntir", "kynnti"],
+					"ft": ["kynntum", "kynntuð", "kynntu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kynnirðu",
+					"ft": "kynniði"
+				},
+				"þátíð": {
+					"et": "kynntirðu",
+					"ft": "kynntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kynnirðu",
+					"ft": "kynniði"
+				},
+				"þátíð": {
+					"et": "kynntirðu",
+					"ft": "kynntuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kynnast",
+		"sagnbót": "kynnst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kynnist", "kynnist", "kynnist"],
+					"ft": ["kynnumst", "kynnist", "kynnast"]
+				},
+				"þátíð": {
+					"et": ["kynntist", "kynntist", "kynntist"],
+					"ft": ["kynntumst", "kynntust", "kynntust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kynnist", "kynnist", "kynnist"],
+					"ft": ["kynnumst", "kynnist", "kynnist"]
+				},
+				"þátíð": {
+					"et": ["kynntist", "kynntist", "kynntist"],
+					"ft": ["kynntumst", "kynntust", "kynntust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kynnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kynntur", "kynntan", "kynntum", "kynnts"],
+					"kvk": ["kynnt", "kynnta", "kynntri", "kynntrar"],
+					"hk": ["kynnt", "kynnt", "kynntu", "kynnts"]
+				},
+				"ft": {
+					"kk": ["kynntir", "kynnta", "kynntum", "kynntra"],
+					"kvk": ["kynntar", "kynntar", "kynntum", "kynntra"],
+					"hk": ["kynnt", "kynnt", "kynntum", "kynntra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kynnti", "kynnta", "kynnta", "kynnta"],
+					"kvk": ["kynnta", "kynntu", "kynntu", "kynntu"],
+					"hk": ["kynnta", "kynnta", "kynnta", "kynnta"]
+				},
+				"ft": {
+					"kk": ["kynntu", "kynntu", "kynntu", "kynntu"],
+					"kvk": ["kynntu", "kynntu", "kynntu", "kynntu"],
+					"hk": ["kynntu", "kynntu", "kynntu", "kynntu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kynna",
+	"hash": "f48d78a011f05b64e649fbd56c2951284590378d2af488f561c002588e59388e"
+}
