@@ -138,7 +138,7 @@ def scan_sentence(sentence):
             scanned_word['staða'] = 'skammstöfun'
             scanned_word['möguleikar'].append({
                 'm': myndir,
-                'k': sight['skammstafanir'][word]['kennistrengur'],
+                'k': sight['skammstafanir'][e_word]['kennistrengur'],
                 'h': sight['skammstafanir'][e_word]['hash'],
                 'f': sight['hash'][sight['skammstafanir'][e_word]['hash']]['f']
             })
