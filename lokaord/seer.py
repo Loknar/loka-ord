@@ -162,9 +162,11 @@ def scan_sentence(sentence):
             elif e_word_p.isdigit():
                 scanned_word['orð-hreinsað'] = e_word_p
                 scanned_word['staða'] = 'tala'
+                break
             else:
                 scanned_word['staða'] = 'vantar'
-                missing += 1
+        if scanned_word['staða'] == 'vantar':
+            missing += 1
         scanned_sentence.append(scanned_word)
     highlighted_sentence_list = []
     for scanned_word in scanned_sentence:
