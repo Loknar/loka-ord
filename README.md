@@ -117,6 +117,8 @@ eða fyrir heilu setningarnar:
 python main.py scan-sentence "Hér er haugur orða í hóflega langri setningu."
 ```
 
+einnig er stytt nafn `ss` fyrir þessa skipun, þ.e. `python main.py ss "Hér er setning."`.
+
 ### Þægilegri keyrsluskipun
 
 Til þæginda er hægt á linux/unix að skilgreina alias eins og til dæmis
