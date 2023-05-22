@@ -11,6 +11,7 @@ import git
 from lokaord import logman
 from lokaord.database import db
 from lokaord.database.models import isl
+from lokaord.exc import VoidKennistrengurError
 from lokaord import handlers
 
 
@@ -20,6 +21,7 @@ def import_datafiles_to_db():
     """
     logman.info('Running import for all datafiles to database ..')
     tasks = []
+    task_retries = []
     for handler in handlers.list_handlers():
         kjarna_ord, samsett_ord = handler.get_files_list_sorted()
         tasks.append({
@@ -47,14 +49,35 @@ def import_datafiles_to_db():
         handler = task['handler']
         logman.info('Checking samsett-orð files for %s ..' % (handler.group.value, ))
         for ord_file in task['samsett-orð']:
-            logman.info('Orð file "%s"' % (ord_file, ))
-            isl_ord = handler()
-            isl_ord.load_from_file(ord_file)
-            _, changes_made = isl_ord.write_to_db()
-            if changes_made is True:
-                logman.info('Orð %s in file "%s" was changed.' % (
-                    isl_ord.data.kennistrengur, ord_file
-                ))
+            try:
+                logman.info('Orð file "%s"' % (ord_file, ))
+                isl_ord = handler()
+                isl_ord.load_from_file(ord_file)
+                _, changes_made = isl_ord.write_to_db()
+                if changes_made is True:
+                    logman.info('Orð %s in file "%s" was changed.' % (
+                        isl_ord.data.kennistrengur, ord_file
+                    ))
+            except VoidKennistrengurError:
+                logman.info('Encountered void kennistrengur, skipping.')
+                task_retries.append({
+                    'handler': handler,
+                    'file': ord_file,
+                })
+    # samsett-orð with void kennistrengur
+    # these are usually words samsett/combined from other samsett-orð
+    logman.info('Retrying importing samsett orð encountering void kennistrengur.')
+    for task in task_retries:
+        handler = task['handler']
+        ord_file = task['file']
+        logman.info('Orð file "%s"' % (ord_file, ))
+        isl_ord = handler()
+        isl_ord.load_from_file(ord_file)
+        _, changes_made = isl_ord.write_to_db()
+        if changes_made is True:
+            logman.info('Orð %s in file "%s" was changed.' % (
+                isl_ord.data.kennistrengur, ord_file
+            ))
     # skammstafanir
     logman.info('Importing skammstafanir.')
     for skammstofun_file in handlers.Skammstofun.get_files_list_sorted():

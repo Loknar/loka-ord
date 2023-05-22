@@ -24,6 +24,7 @@ import pydantic
 from lokaord import logman
 from lokaord.database import db
 from lokaord.database.models import isl
+from lokaord.exc import VoidKennistrengurError
 from lokaord import structs
 
 
@@ -115,7 +116,7 @@ class Ord:
                     db.Session.query(isl.Ord).filter_by(Kennistrengur=ohl.kennistrengur).first()
                 )
                 if isl_ord_oh is None:
-                    raise Exception(
+                    raise VoidKennistrengurError(
                         f'Orðhluti with kennistrengur "{ohl.kennistrengur}" not found.'
                     )
                 samsetning = None
@@ -724,11 +725,9 @@ class Ord:
             Kennistrengur=ordhluti['kennistrengur']
         ).first()
         if isl_ord is None:
-            raise Exception('Orð with kennistrengur "%s" not found.' % (
+            raise VoidKennistrengurError('Orð with kennistrengur "%s" not found.' % (
                 ordhluti['kennistrengur'],
             ))
-        if isl_ord is None:
-            raise Exception('orð for orðhluti not found?')
         loaded_ord = handler()
         loaded_ord.load_from_db(isl_ord)
         isl_ord_dict = loaded_ord.data.dict()
