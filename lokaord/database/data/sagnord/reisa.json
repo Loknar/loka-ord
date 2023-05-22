@@ -1,0 +1,132 @@
+{
+	"orð": "reisa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "reisa",
+		"sagnbót": "reist",
+		"boðháttur": {
+			"stýfður": "reis",
+			"et": "reistu",
+			"ft": "reisið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reisi", "reisir", "reisir"],
+					"ft": ["reisum", "reisið", "reisa"]
+				},
+				"þátíð": {
+					"et": ["reisti", "reistir", "reisti"],
+					"ft": ["reistum", "reistuð", "reistu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reisi", "reisir", "reisi"],
+					"ft": ["reisum", "reisið", "reisi"]
+				},
+				"þátíð": {
+					"et": ["reisti", "reistir", "reisti"],
+					"ft": ["reistum", "reistuð", "reistu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reisirðu",
+					"ft": "reisiði"
+				},
+				"þátíð": {
+					"et": "reistirðu",
+					"ft": "reistuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reisirðu",
+					"ft": "reisiði"
+				},
+				"þátíð": {
+					"et": "reistirðu",
+					"ft": "reistuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "reisast",
+		"sagnbót": "reist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reisist", "reisist", "reisist"],
+					"ft": ["reisumst", "reisist", "reisast"]
+				},
+				"þátíð": {
+					"et": ["reistist", "reistist", "reistist"],
+					"ft": ["reistumst", "reistust", "reistust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reisist", "reisist", "reisist"],
+					"ft": ["reisumst", "reisist", "reisist"]
+				},
+				"þátíð": {
+					"et": ["reistist", "reistist", "reistist"],
+					"ft": ["reistumst", "reistust", "reistust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reisistu"
+				},
+				"þátíð": {
+					"et": "reististu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reisistu"
+				},
+				"þátíð": {
+					"et": "reististu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reisandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reistur", "reistan", "reistum", "reists"],
+					"kvk": ["reist", "reista", "reistri", "reistrar"],
+					"hk": ["reist", "reist", "reistu", "reists"]
+				},
+				"ft": {
+					"kk": ["reistir", "reista", "reistum", "reistra"],
+					"kvk": ["reistar", "reistar", "reistum", "reistra"],
+					"hk": ["reist", "reist", "reistum", "reistra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["reisti", "reista", "reista", "reista"],
+					"kvk": ["reista", "reistu", "reistu", "reistu"],
+					"hk": ["reista", "reista", "reista", "reista"]
+				},
+				"ft": {
+					"kk": ["reistu", "reistu", "reistu", "reistu"],
+					"kvk": ["reistu", "reistu", "reistu", "reistu"],
+					"hk": ["reistu", "reistu", "reistu", "reistu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reisa",
+	"hash": "063b04c83f54c7d89cf27dbfcf448bb37594184f76f6b50c27c776b33c45bfce"
+}

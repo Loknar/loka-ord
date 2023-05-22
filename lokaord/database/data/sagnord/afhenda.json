@@ -1,0 +1,165 @@
+{
+	"orð": "afhenda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"kennistrengur": "so-henda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afhenda",
+		"sagnbót": "afhent",
+		"boðháttur": {
+			"stýfður": "afhenda",
+			"et": "afhentu",
+			"ft": "afhendið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afhendi", "afhendir", "afhendir"],
+					"ft": ["afhendum", "afhendið", "afhenda"]
+				},
+				"þátíð": {
+					"et": ["afhenti", "afhentir", "afhenti"],
+					"ft": ["afhentum", "afhentuð", "afhentu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afhendi", "afhendir", "afhendi"],
+					"ft": ["afhendum", "afhendið", "afhendi"]
+				},
+				"þátíð": {
+					"et": ["afhenti", "afhentir", "afhenti"],
+					"ft": ["afhentum", "afhentuð", "afhentu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afhendirðu",
+					"ft": "afhendiði"
+				},
+				"þátíð": {
+					"et": "afhentirðu",
+					"ft": "afhentuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afhendirðu",
+					"ft": "afhendiði"
+				},
+				"þátíð": {
+					"et": "afhentirðu",
+					"ft": "afhentuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afhendast",
+		"sagnbót": "afhenst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afhendist", "afhendist", "afhendist"],
+					"ft": ["afhendumst", "afhendist", "afhendast"]
+				},
+				"þátíð": {
+					"et": ["afhentist", "afhentist", "afhentist"],
+					"ft": ["afhentumst", "afhentust", "afhentust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afhendist", "afhendist", "afhendist"],
+					"ft": ["afhendumst", "afhendist", "afhendist"]
+				},
+				"þátíð": {
+					"et": ["afhentist", "afhentist", "afhentist"],
+					"ft": ["afhentumst", "afhentust", "afhentust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afhendist", "afhendist", "afhendist"],
+					"ft": ["afhendist", "afhendist", "afhendist"]
+				},
+				"þátíð": {
+					"et": ["afhentist", "afhentist", "afhentist"],
+					"ft": ["afhentist", "afhentist", "afhentist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afhendist", "afhendist", "afhendist"],
+					"ft": ["afhendist", "afhendist", "afhendist"]
+				},
+				"þátíð": {
+					"et": ["afhentist", "afhentist", "afhentist"],
+					"ft": ["afhentist", "afhentist", "afhentist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afhendistu"
+				},
+				"þátíð": {
+					"et": "afhentistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afhendistu"
+				},
+				"þátíð": {
+					"et": "afhentistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afhendandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afhentur", "afhentan", "afhentum", "afhents"],
+					"kvk": ["afhent", "afhenta", "afhentri", "afhentrar"],
+					"hk": ["afhent", "afhent", "afhentu", "afhents"]
+				},
+				"ft": {
+					"kk": ["afhentir", "afhenta", "afhentum", "afhentra"],
+					"kvk": ["afhentar", "afhentar", "afhentum", "afhentra"],
+					"hk": ["afhent", "afhent", "afhentum", "afhentra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["afhenti", "afhenta", "afhenta", "afhenta"],
+					"kvk": ["afhenta", "afhentu", "afhentu", "afhentu"],
+					"hk": ["afhenta", "afhenta", "afhenta", "afhenta"]
+				},
+				"ft": {
+					"kk": ["afhentu", "afhentu", "afhentu", "afhentu"],
+					"kvk": ["afhentu", "afhentu", "afhentu", "afhentu"],
+					"hk": ["afhentu", "afhentu", "afhentu", "afhentu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afhenda",
+	"hash": "4984fa3958930b47576f7d03fdea14894c4468e146b35e580dd3c751c2cf8111"
+}
