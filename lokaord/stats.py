@@ -223,6 +223,15 @@ def get_words_count():
                         ).filter(
                             isl.Ord.Samsett == False
                         ).count()
+                    ),
+                    'hk': (
+                        db.Session.query(isl.Sernafn).join(isl.Ord).filter(
+                            isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
+                        ).filter(
+                            isl.Sernafn.Kyn == isl.Kyn.Hvorugkyn
+                        ).filter(
+                            isl.Ord.Samsett == False
+                        ).count()
                     )
                 },
                 'kyn-samsett': {
@@ -240,6 +249,15 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
+                        ).filter(
+                            isl.Ord.Samsett == True
+                        ).count()
+                    ),
+                    'hk': (
+                        db.Session.query(isl.Sernafn).join(isl.Ord).filter(
+                            isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
+                        ).filter(
+                            isl.Sernafn.Kyn == isl.Kyn.Hvorugkyn
                         ).filter(
                             isl.Ord.Samsett == True
                         ).count()
@@ -431,7 +449,7 @@ def get_words_count_markdown_table():
         '| Kenninöfn | {sn_k_kk} | {sn_k_kvk} |   | {sn_k_k} | {sn_k_s_kk} | {sn_k_s_kvk} |   |'
         ' {sn_k_s} | **{sn_k_a}** |\n'
         '| Miłlinöfn |   |   |   |   |   |   |   |   | **{sn_m}** |\n'
-        '| Gælunöfn  | {sn_g_kk} | {sn_g_kvk} |   | {sn_g_k} | {sn_g_s_kk} | {sn_g_s_kvk} |   |'
+        '| Gælunöfn  | {sn_g_kk} | {sn_g_kvk} | {sn_g_hk} | {sn_g_k} | {sn_g_s_kk} | {sn_g_s_kvk} | {sn_g_s_hk} |'
         ' {sn_g_s} | **{sn_g_a}** |\n'
         '| Örnefni   | {sn_o_kk} | {sn_o_kvk} | {sn_o_hk} | {sn_o_k} | {sn_o_s_kk} | {sn_o_s_kvk}'
         ' | {sn_o_s_hk} | {sn_o_s} | **{sn_o_a}** |\n'
@@ -476,9 +494,11 @@ def get_words_count_markdown_table():
         sn_e_a=data['sérnöfn']['eiginnöfn']['samtals'],
         sn_g_kk=data['sérnöfn']['gælunöfn']['kyn-kjarnaorð']['kk'],
         sn_g_kvk=data['sérnöfn']['gælunöfn']['kyn-kjarnaorð']['kvk'],
+        sn_g_hk=data['sérnöfn']['gælunöfn']['kyn-kjarnaorð']['hk'] or '',
         sn_g_k=data['sérnöfn']['gælunöfn']['kjarnaorð'],
         sn_g_s_kk=data['sérnöfn']['gælunöfn']['kyn-samsett']['kk'] or '',
         sn_g_s_kvk=data['sérnöfn']['gælunöfn']['kyn-samsett']['kvk'] or '',
+        sn_g_s_hk=data['sérnöfn']['gælunöfn']['kyn-samsett']['hk'] or '',
         sn_g_s=data['sérnöfn']['gælunöfn']['samsett'] or '',
         sn_g_a=data['sérnöfn']['gælunöfn']['samtals'],
         sn_k_kk=data['sérnöfn']['kenninöfn']['kyn-kjarnaorð']['kk'] or '',
