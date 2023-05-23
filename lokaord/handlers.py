@@ -3164,8 +3164,6 @@ class Sernafn(Ord):
             match self.data.undirflokkur:
                 case structs.Sernafnaflokkar.Eiginnafn:
                     subfolder_2 = 'eigin'
-                case structs.Sernafnaflokkar.Gaelunafn:
-                    subfolder_2 = 'gaelu'
                 case structs.Sernafnaflokkar.Kenninafn:
                     subfolder_2 = 'kenni'
                 case _:

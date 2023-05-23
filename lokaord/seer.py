@@ -379,11 +379,6 @@ def build_sight(filename='sight', use_pointless=None):
             'dir': os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'eigin'),
         },
         {
-            'name': 'sérnöfn, gælunafn (kk)',
-            'root': datafiles_dir_abs,
-            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'gaelu'),
-        },
-        {
             'name': 'sérnöfn, kenninafn (kk)',
             'root': datafiles_dir_abs,
             'dir': os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'kenni'),
@@ -394,11 +389,6 @@ def build_sight(filename='sight', use_pointless=None):
             'dir': os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'eigin'),
         },
         {
-            'name': 'sérnöfn, gælunafn (kvk)',
-            'root': datafiles_dir_abs,
-            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'gaelu'),
-        },
-        {
             'name': 'sérnöfn, kenninafn (kvk)',
             'root': datafiles_dir_abs,
             'dir': os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'kenni'),
@@ -407,6 +397,21 @@ def build_sight(filename='sight', use_pointless=None):
             'name': 'sérnöfn, miłlinafn',
             'root': datafiles_dir_abs,
             'dir': os.path.join('sernofn', 'mannanofn', 'islensk-millinofn'),
+        },
+        {
+            'name': 'sérnöfn, gælunafn (kk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'gaelunofn', 'kk'),
+        },
+        {
+            'name': 'sérnöfn, gælunafn (kvk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'gaelunofn', 'kvk'),
+        },
+        {
+            'name': 'sérnöfn, gælunafn (hk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'gaelunofn', 'hk'),
         },
         {
             'name': 'sérnöfn, örnefni',
