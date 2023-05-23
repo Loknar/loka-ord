@@ -3152,8 +3152,7 @@ class Sernafn(Ord):
 
     def make_filename(self):
         if self.data.undirflokkur in (
-            structs.Sernafnaflokkar.Eiginnafn, structs.Sernafnaflokkar.Gaelunafn,
-            structs.Sernafnaflokkar.Kenninafn
+            structs.Sernafnaflokkar.Eiginnafn, structs.Sernafnaflokkar.Kenninafn
         ):
             match self.data.kyn:
                 case structs.Kyn.Kvenkyn:
@@ -3161,7 +3160,7 @@ class Sernafn(Ord):
                 case structs.Kyn.Karlkyn:
                     subfolder_1 = 'islensk-karlmannsnofn'
                 case _:
-                    raise Exception('only kvenkyn and karlyn currently implemented')
+                    raise Exception('only kvenkyn and karlkyn currently implemented')
             match self.data.undirflokkur:
                 case structs.Sernafnaflokkar.Eiginnafn:
                     subfolder_2 = 'eigin'
@@ -3175,6 +3174,12 @@ class Sernafn(Ord):
                 self.data.undirflokkur.get_folder(),
                 subfolder_1,
                 subfolder_2,
+                '%s%s.json' % (self.data.orð, self._fno_extras())
+            )
+        if self.data.undirflokkur is structs.Sernafnaflokkar.Gaelunafn:
+            return os.path.join(
+                self.data.undirflokkur.get_folder(),
+                self.data.kyn.value,
                 '%s%s.json' % (self.data.orð, self._fno_extras())
             )
         if self.data.undirflokkur is structs.Sernafnaflokkar.Ornefni:
@@ -3245,12 +3250,13 @@ class Sernafn(Ord):
         samsett_ord_files_list = []
         ufl_folders = [  # list folders instead of structs.Sernafnaflokkar get_folder shenanigans
             os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'eigin'),
-            os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'gaelu'),
             os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'kenni'),
             os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'eigin'),
-            os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'gaelu'),
             os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'kenni'),
             os.path.join('sernofn', 'mannanofn', 'islensk-millinofn'),
+            os.path.join('sernofn', 'gaelunofn', 'kk'),
+            os.path.join('sernofn', 'gaelunofn', 'kvk'),
+            os.path.join('sernofn', 'gaelunofn', 'hk'),
             os.path.join('sernofn', 'ornefni'),
         ]
         for ufl_folder in ufl_folders:

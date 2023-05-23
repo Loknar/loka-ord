@@ -100,7 +100,7 @@ class Sernafnaflokkar(MultiEnum):
     MultiEnum for subclasses of sérnöfn.
     """
     Eiginnafn = 'eiginnafn', 'sérn.en', os.path.join('sernofn', 'mannanofn')
-    Gaelunafn = 'gælunafn', 'sérn.gn', os.path.join('sernofn', 'mannanofn')
+    Gaelunafn = 'gælunafn', 'sérn.gn', os.path.join('sernofn', 'gaelunofn')
     Kenninafn = 'kenninafn', 'sérn.kn', os.path.join('sernofn', 'mannanofn')
     Millinafn = 'miłlinafn', 'sérn.mn', os.path.join('sernofn', 'mannanofn', 'islensk-millinofn')
     Ornefni = 'örnefni', 'sérn.ön', os.path.join('sernofn', 'ornefni')
