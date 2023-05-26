@@ -78,7 +78,9 @@ def word_change_possibilities(word: str) -> list[str]:
     return list(myset)
 
 
-def scan_sentence(sentence):
+def scan_sentence(sentence: str, clean_str: bool = True):
+    if clean_str is True:
+        sentence = clean_string(sentence)
     sight = load_sight()
     print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (sentence, ))
     scanned_sentence = []
@@ -108,7 +110,7 @@ def scan_sentence(sentence):
             found += 1
             scanned_sentence.append(scanned_word)
             continue
-        onhanging_chars = set(['.', ',', ':', ';', '(', ')', '[', ']', '-', '/'])
+        onhanging_chars = set(['.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“'])
         msg = ''
         e_word = word.strip()
         while e_word[-1] in onhanging_chars:
@@ -503,3 +505,13 @@ def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
                 raise Exception('Peculiar key-value type.')
     else:
         raise Exception('Peculiar ord_data type.')
+
+
+def clean_string(mystr: str) -> str:
+    cleaned_str = mystr
+    remove_strings = [
+        '\xad',  # stundum notað til að tilgreina skiptingu orða á vefsíðum
+    ]
+    for remove_string in remove_strings:
+        cleaned_str = cleaned_str.replace(remove_string, '')
+    return cleaned_str
