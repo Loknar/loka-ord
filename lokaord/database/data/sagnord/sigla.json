@@ -1,0 +1,88 @@
+{
+	"orð": "sigla",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sigla",
+		"sagnbót": "siglt",
+		"boðháttur": {
+			"stýfður": "sigl",
+			"et": "sigldu",
+			"ft": "siglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sigli", "siglir", "siglir"],
+					"ft": ["siglum", "siglið", "sigla"]
+				},
+				"þátíð": {
+					"et": ["sigldi", "sigldir", "sigldi"],
+					"ft": ["sigldum", "siglduð", "sigldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sigli", "siglir", "sigli"],
+					"ft": ["siglum", "siglið", "siglið"]
+				},
+				"þátíð": {
+					"et": ["sigldi", "sigldir", "sigldi"],
+					"ft": ["sigldum", "siglduð", "sigldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "siglirðu",
+					"ft": "sigliði"
+				},
+				"þátíð": {
+					"et": "sigldirðu",
+					"ft": "siglduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "siglirðu",
+					"ft": "sigliði"
+				},
+				"þátíð": {
+					"et": "sigldirðu",
+					"ft": "siglduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "siglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sigldur", "sigldan", "sigldum", "siglds"],
+					"kvk": ["sigld", "siglda", "sigldri", "sigldrar"],
+					"hk": ["siglt", "siglt", "sigldu", "siglds"]
+				},
+				"ft": {
+					"kk": ["sigldir", "siglda", "sigldum", "sigldra"],
+					"kvk": ["sigldar", "sigldar", "sigldum", "sigldra"],
+					"hk": ["sigld", "sigld", "sigldum", "sigldra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sigldi", "siglda", "siglda", "siglda"],
+					"kvk": ["siglda", "sigldu", "sigldu", "sigldu"],
+					"hk": ["siglda", "siglda", "siglda", "siglda"]
+				},
+				"ft": {
+					"kk": ["sigldu", "sigldu", "sigldu", "sigldu"],
+					"kvk": ["sigldu", "sigldu", "sigldu", "sigldu"],
+					"hk": ["sigldu", "sigldu", "sigldu", "sigldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sigla",
+	"hash": "c27531e8569b8ac956aa29db42a942080bb3900cbca1ada2e6c57e822847dab5"
+}

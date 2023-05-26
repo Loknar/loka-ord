@@ -1,0 +1,27 @@
+{
+	"orð": "Landhelgisgæslan",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "helgis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-helgi-kvk-ó"
+		},
+		{
+			"beygingar": ["et-mg"],
+			"kennistrengur": "no-gæsla-kvk"
+		}
+	],
+	"et": {
+		"mg": ["Landhelgisgæslan", "Landhelgisgæsluna", "Landhelgisgæslunni", "Landhelgisgæslunnar"]
+	},
+	"kennistrengur": "sérn.ön-Landhelgisgæslan-kvk",
+	"hash": "01c4aa064061e462acd307d3f6a75a22e33cd73390dce5381b6a5ac3893657ba"
+}
