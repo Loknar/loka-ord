@@ -41,19 +41,26 @@ pip install -Ur requirements.txt
 python main.py --help
 ```
 
-Smíða gagnagrunn:
+Í upphafi ertu einungis með orðagögnin í formi textaskráa, það þarf því að búa til SQLite gagnagrunn og lesa öłl orðin inn í hann, og smíða orðaforleit. Það er hægt að gera með skipuninni:
 
 ```bash
+python main.py init
+```
+
+Þessi skipun er jafngild skipuninni `python main.py build-db write-files build-sight md-stats`, eða eftirfarandi skipunum:
+
+```bash
+# smíða grunn
 python main.py build-db
-```
-
-Skrifa orð úr grunni í textaskrár:
-
-```bash
+# skrifa orð úr grunni í textaskrár
 python main.py write-files
+# smíða orðaforleit
+python main.py build-sight
+# prenta út töluleg gögn á markdown sniði
+python main.py md-stats
 ```
 
-Bæta við orði í gegnum skipanalínu (CLI):
+**TODO: laga þessa virkni, er brotin eins og er** Bæta við orði í gegnum skipanalínu (CLI):
 
 ```bash
 python main.py add-word
@@ -64,7 +71,9 @@ python main.py add-word
 Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmörkuð, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
 
 ```bash
-python main.py build-db -ch write-files -tr
+python main.py update
+# jafngilt skipuninni
+python main.py build-db -ch write-files -tr build-sight md-stats
 ```
 
 eða
@@ -91,7 +100,8 @@ Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá
 			"kennistrengur": "lo-legur-ó"
 		}
 	],
-	"kennistrengur": "lo-hóflegur"
+	"kennistrengur": "lo-hóflegur",
+	"hash": "tba"
 }
 ```
 
@@ -127,7 +137,7 @@ Til þæginda er hægt á linux/unix að skilgreina alias eins og til dæmis
 alias lokaord="$HOME/repos/loka-ord/bin/lokaord"
 ```
 
-og vista í `.bashrc` eða sambærilegri skrá, þá er hægt að spara sér að þurfa að skrifa endalaust `python main.py` og skrifa í staðinn einfaldlega `lokaord`. Fyrir Windows þyrfti að skrifa `.bat` skrá sambærilega bash `bin/lokaord` skriptunni og síðan bæta henni í path eða útbúa sambærilegt alias á Windows.
+og vista í `.bashrc` eða sambærilegri skrá, þá er hægt að spara sér að þurfa að skrifa endalaust `python main.py` og skrifa í staðinn einfaldlega `lokaord`. Fyrir Windows er hægt að notast við `.bat` skrána á sambærilegan hátt og `bin/lokaord` skriptuna, þ.e. bæta henni í path eða útbúa sambærilegt alias á Windows.
 
 ### Smíða allt uppá nýtt eða einungis breytingar
 

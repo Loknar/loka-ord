@@ -1,7 +1,8 @@
 #!/usr/bin/python
 import datetime
-
 from pathlib import Path
+import sys
+
 from typing import Optional
 
 import typer
@@ -47,6 +48,8 @@ def common(
     if not log_directory.is_dir():
         raise typer.BadParameter(f'Provided log-directory "{log_directory}" is not a directory.')
     lokaord.logman.init(logger_name, role=role, output_dir=log_directory)
+    if len(sys.argv) <= 1:
+        print('No commands provided. Try running with flag --help for info on available commands.')
 
 
 @app.command('build-db', help='Import words from JSON datafiles to database.')
@@ -112,6 +115,22 @@ def stats():
 
 @app.command(help='Print database word count in Markdown table.')
 def md_stats():
+    lokaord.get_md_stats()
+
+
+@app.command(help='Initialize lokaord (same as: "build-db write-files build-sight md-stats").')
+def init(rebuild: Annotated[Optional[bool], typer.Option('--rebuild', '-r')] = False):
+    lokaord.build_db(rebuild)
+    lokaord.write_files()
+    lokaord.build_sight()
+    lokaord.get_md_stats()
+
+
+@app.command(help='Update lokaord (same as: "build-db -ch write-files -tr build-sight md-stats").')
+def update():
+    lokaord.build_db(changes_only=True)
+    lokaord.write_files(lokaord.Ts)
+    lokaord.build_sight()
     lokaord.get_md_stats()
 
 

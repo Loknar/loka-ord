@@ -50,8 +50,10 @@ def get_offset_time(offset: TimeOffset) -> datetime.datetime:
             raise Exception('Unimplemented offset?')
 
 
-def backup_db():
-    db.backup_sqlite_db_file(Name)
+def backup_db(name: str = None):
+    if name is None:
+        name = Name
+    db.backup_sqlite_db_file(name)
 
 
 def build_db(rebuild: bool = False, changes_only: bool = False):
