@@ -1,0 +1,132 @@
+{
+	"orð": "sjá",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sjá",
+		"sagnbót": "séð",
+		"boðháttur": {
+			"stýfður": "sjá",
+			"et": "sjáðu",
+			"ft": "sjáið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sé", "sérð", "sér"],
+					"ft": ["sjáum", "sjáið", "sjá"]
+				},
+				"þátíð": {
+					"et": ["sá", "sást", "sá"],
+					"ft": ["sáum", "sáuð", "sáu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjái", "sjáir", "sjái"],
+					"ft": ["sjáum", "sjáið", "sjái"]
+				},
+				"þátíð": {
+					"et": ["sæi", "sæir", "sæi"],
+					"ft": ["sæjum", "sæjuð", "sæju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérðu",
+					"ft": "sjáiði"
+				},
+				"þátíð": {
+					"et": "sástu",
+					"ft": "sáuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjáirðu",
+					"ft": "sjáiði"
+				},
+				"þátíð": {
+					"et": "sæirðu",
+					"ft": "sæuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sjást",
+		"sagnbót": "sést",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sést", "sést", "sést"],
+					"ft": ["sjáumst", "sjáist", "sjást"]
+				},
+				"þátíð": {
+					"et": ["sást", "sást", "sást"],
+					"ft": ["sáumst", "sáust", "sáust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjáist", "sjáist", "sjáist"],
+					"ft": ["sjáumst", "sjáist", "sjáist"]
+				},
+				"þátíð": {
+					"et": ["sæist", "sæist", "sæist"],
+					"ft": ["sæumst", "sæust", "sæust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "séstu"
+				},
+				"þátíð": {
+					"et": "sástu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjáistu"
+				},
+				"þátíð": {
+					"et": "sæistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjáandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["séður", "séðan", "séðum", "séðs"],
+					"kvk": ["séð", "séða", "séðri", "séðrar"],
+					"hk": ["séð", "séð", "séðu", "séðs"]
+				},
+				"ft": {
+					"kk": ["séðir", "séða", "séðum", "séðra"],
+					"kvk": ["séðar", "séðar", "séðum", "séðra"],
+					"hk": ["séð", "séð", "séðum", "séðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["séði", "séða", "séða", "séða"],
+					"kvk": ["séða", "séðu", "séðu", "séðu"],
+					"hk": ["séða", "séða", "séða", "séða"]
+				},
+				"ft": {
+					"kk": ["séðu", "séðu", "séðu", "séðu"],
+					"kvk": ["séðu", "séðu", "séðu", "séðu"],
+					"hk": ["séðu", "séðu", "séðu", "séðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjá",
+	"hash": "0dcbfcc9912229ad5108e08703ef6c8b16a1f2d708097cbf2342fd1676ebe19d"
+}

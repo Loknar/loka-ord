@@ -1,0 +1,132 @@
+{
+	"orð": "spyrja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "spyrja",
+		"sagnbót": "spurt",
+		"boðháttur": {
+			"stýfður": "spyr",
+			"et": "spyrðu",
+			"ft": "spyrjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spyr", "spyrð", "spyr"],
+					"ft": ["spyrjum", "spyrjið", "spyrja"]
+				},
+				"þátíð": {
+					"et": ["spurði", "spurðir", "spurði"],
+					"ft": ["spurðum", "spurðuð", "spurðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spyrji", "spyrjir", "spyrji"],
+					"ft": ["spyrjum", "spyrjið", "spyrji"]
+				},
+				"þátíð": {
+					"et": ["spyrði", "spyrðir", "spyrði"],
+					"ft": ["spyrðum", "spyrðuð", "spyrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spyrðu",
+					"ft": "spyrjiði"
+				},
+				"þátíð": {
+					"et": "spurðistu",
+					"ft": "spurðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spyrjirðu",
+					"ft": "spyrjiði"
+				},
+				"þátíð": {
+					"et": "spyrðirðu",
+					"ft": "spyrðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spyrjast",
+		"sagnbót": "spurst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spyrst", "spyrst", "spyrst"],
+					"ft": ["spyrjumst", "spyrjist", "spyrjast"]
+				},
+				"þátíð": {
+					"et": ["spurðist", "spurðist", "spurðist"],
+					"ft": ["spurðumst", "spurðust", "spurðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spyrjist", "spyrjist", "spyrjist"],
+					"ft": ["spyrjumst", "spyrjist", "spyrjist"]
+				},
+				"þátíð": {
+					"et": ["spyrðist", "spyrðist", "spyrðist"],
+					"ft": ["spyrðumst", "spyrðust", "spyrðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spyrstu"
+				},
+				"þátíð": {
+					"et": "spyrjistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spurðistu"
+				},
+				"þátíð": {
+					"et": "spyrðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spyrjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spurður", "spurðan", "spurðum", "spurðs"],
+					"kvk": ["spurð", "spurða", "spurðri", "spurðrar"],
+					"hk": ["spurt", "spurt", "spurðu", "spurðs"]
+				},
+				"ft": {
+					"kk": ["spurðir", "spurða", "spurðum", "spurðra"],
+					"kvk": ["spurðar", "spurðar", "spurðum", "spurðra"],
+					"hk": ["spurð", "spurð", "spurðum", "spurðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["spurði", "spurða", "spurða", "spurða"],
+					"kvk": ["spurða", "spurðu", "spurðu", "spurðu"],
+					"hk": ["spurða", "spurða", "spurða", "spurða"]
+				},
+				"ft": {
+					"kk": ["spurðu", "spurðu", "spurðu", "spurðu"],
+					"kvk": ["spurðu", "spurðu", "spurðu", "spurðu"],
+					"hk": ["spurðu", "spurðu", "spurðu", "spurðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spyrja",
+	"hash": "18fb4367a89fd575b6b0ecf35beedc0fe29e5c8588d8c5fdfa9eea1cf1af7cc1"
+}
