@@ -1,0 +1,89 @@
+{
+	"orð": "velta",
+	"flokkur": "sagnorð",
+	"merking": "steypast",
+	"germynd": {
+		"nafnháttur": "velta",
+		"sagnbót": "oltið",
+		"boðháttur": {
+			"stýfður": "velt",
+			"et": "veltu",
+			"ft": "veltið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["velt", "veltur", "veltur"],
+					"ft": ["veltum", "veltið", "velta"]
+				},
+				"þátíð": {
+					"et": ["valt", "valst", "valt"],
+					"ft": ["ultum", "ultuð", "ultu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["velti", "veltir", "velti"],
+					"ft": ["veltum", "veltið", "velti"]
+				},
+				"þátíð": {
+					"et": ["ylti", "yltir", "ylti"],
+					"ft": ["yltum", "yltuð", "yltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "velturðu",
+					"ft": "veltiði"
+				},
+				"þátíð": {
+					"et": "valstu",
+					"ft": "ultuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veltirðu",
+					"ft": "veltiði"
+				},
+				"þátíð": {
+					"et": "yltirðu",
+					"ft": "yltuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veltandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["oltinn", "oltinn", "oltnum", "oltins"],
+					"kvk": ["oltin", "oltna", "oltinni", "oltinnar"],
+					"hk": ["oltið", "oltið", "oltnu", "oltins"]
+				},
+				"ft": {
+					"kk": ["oltnir", "oltna", "oltnum", "oltinna"],
+					"kvk": ["oltnar", "oltnar", "oltnum", "oltinna"],
+					"hk": ["oltin", "oltin", "oltnum", "oltinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["oltni", "oltna", "oltna", "oltna"],
+					"kvk": ["oltna", "oltnu", "oltnu", "oltnu"],
+					"hk": ["oltna", "oltna", "oltna", "oltna"]
+				},
+				"ft": {
+					"kk": ["oltnu", "oltnu", "oltnu", "oltnu"],
+					"kvk": ["oltnu", "oltnu", "oltnu", "oltnu"],
+					"hk": ["oltnu", "oltnu", "oltnu", "oltnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-velta-_steypast_",
+	"hash": "368ab13c9d05e0a7e922d78fc9df203dbc843f928dbfee0ea4069954f99c2216"
+}
