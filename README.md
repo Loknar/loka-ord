@@ -72,11 +72,9 @@ Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunni
 
 ```bash
 python main.py update
-# jafngilt skipuninni
-python main.py build-db -ch write-files -tr build-sight md-stats
 ```
 
-eða
+sem er jafngild skipuninni `python main.py build-db -ch write-files -tr build-sight md-stats`, eða
 
 ```bash
 python main.py build-db -r write-files
