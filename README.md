@@ -11,7 +11,7 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | **Sagnorð**     |   |   |   |   | 153 |   |   |   | 48 | **201** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 2 | **42** |
-| **Smáorð**      |   |   |   |   |   |   |   |   |   | **191** |
+| **Smáorð**      |   |   |   |   | 172 |   |   |   | 19 | **191** |
 | **Alls** |   |   |   |   | **1283** |   |   |   | **624** | **1907** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |

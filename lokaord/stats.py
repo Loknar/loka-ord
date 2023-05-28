@@ -123,6 +123,40 @@ def get_words_count():
             ).count()
         },
         'smáorð': {
+            'kjarnaorð': (
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Forsetning, Samsett=False
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Atviksord, Samsett=False
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Nafnhattarmerki, Samsett=False
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Samtenging, Samsett=False
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Upphropun, Samsett=False
+                ).count()
+            ),
+            'samsett': (
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Forsetning, Samsett=True
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Atviksord, Samsett=True
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Nafnhattarmerki, Samsett=True
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Samtenging, Samsett=True
+                ).count() +
+                db.Session.query(isl.Ord).filter_by(
+                    Ordflokkur=isl.Ordflokkar.Upphropun, Samsett=True
+                ).count()
+            ),
             'samtals': (
                 db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Forsetning).count() +
                 db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Atviksord).count() +
@@ -439,7 +473,7 @@ def get_words_count_markdown_table():
         '| **Sagnorð**     |   |   |   |   | {so_k} |   |   |   | {so_s} | **{so_a}** |\n'
         '| **Töluorð**     |   |   |   |   | {to_k} |   |   |   | {to_s} | **{to_a}** |\n'
         '| **Fornöfn**     |   |   |   |   | {fn_k} |   |   |   | {fn_s} | **{fn_a}** |\n'
-        '| **Smáorð**      |   |   |   |   |   |   |   |   |   | **{smo_a}** |\n'
+        '| **Smáorð**      |   |   |   |   | {smo_a_k} |   |   |   | {smo_a_s} | **{smo_a}** |\n'
         '| **Alls** |   |   |   |   | **{a_1_k}** |   |   |   | **{a_1_s}** | **{a_1_a}** |\n'
         '\n'
         '| Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |\n'
@@ -481,6 +515,8 @@ def get_words_count_markdown_table():
         fn_k=data['fornöfn']['kjarnaorð'],
         fn_s=data['fornöfn']['samsett'],
         fn_a=data['fornöfn']['samtals'],
+        smo_a_k=data['smáorð']['kjarnaorð'],
+        smo_a_s=data['smáorð']['samsett'],
         smo_a=data['smáorð']['samtals'],
         a_1_k=data['allt-nema-sérnöfn']['kjarnaorð'],
         a_1_s=data['allt-nema-sérnöfn']['samsett'],
