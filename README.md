@@ -151,7 +151,7 @@ Hér er svo skipun til að færa einungis gögn úr breyttum skrám í grunn og 
 lokaord build-db -ch write-files -ts "2023-04-20T22:30" build-sight md-stats
 ```
 
-þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð (til þæginda stendur flaggið `-to` og gildin `"last2min"`, `"last10min"` og `"last30min"` einnig til boða, sem og flaggið `-tr` fyrir núverandi keyrslu).
+þar sem tímapunkturinn `"2023-04-20T22:30"` tilgreinir hve gamlar breytingar á orðum eigi að skrifa úr grunni í orð (til þæginda stendur flaggið `-to` og gildin `"last2min"`, `"last10min"` og `"last30min"` einnig til boða, sem og flaggið `-tr` fyrir tímapunkt upphafs núverandi keyrslu).
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 
