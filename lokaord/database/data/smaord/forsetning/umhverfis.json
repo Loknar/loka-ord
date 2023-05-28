@@ -2,7 +2,19 @@
 	"orð": "umhverfis",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "hverfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hverfi-hk"
+		}
+	],
 	"stýrir": ["þolfall"],
 	"kennistrengur": "smáo.fs-umhverfis",
-	"hash": "c1ededd855fb4983ec84a462c242937701a384e6b18cd0edcd220ca639e83604"
+	"hash": "9cd71674fd1009bbabb955819dcd4c8e007c56bf39f432d659ee3aa60c4c17aa"
 }
