@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 258 | 314 | 227 | 799 | 143 | 186 | 187 | 516 | **1315** |
-| **Lýsingarorð** | 14 |   |   |   | 83 |   |   |   | 75 | **158** |
+| **Nafnorð**     |   | 263 | 314 | 228 | 805 | 143 | 186 | 187 | 516 | **1321** |
+| **Lýsingarorð** | 14 |   |   |   | 84 |   |   |   | 75 | **159** |
 | **Sagnorð**     |   |   |   |   | 167 |   |   |   | 52 | **219** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 2 | **42** |
 | **Smáorð**      |   |   |   |   | 175 |   |   |   | 20 | **195** |
-| **Alls** |   |   |   |   | **1334** |   |   |   | **675** | **2009** |
+| **Alls** |   |   |   |   | **1341** |   |   |   | **675** | **2016** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 116 | 120 |   | 236 | 29 | 145 |   | 174 | **410** |
 | Kenninöfn |  |  |   |  | 15 | 13 |   | 28 | **28** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **11** |
-| Gælunöfn  | 8 | 10 |  | 18 | 1 |  | 2 | 3 | **21** |
+| Gælunöfn  | 9 | 10 |  | 19 | 7 |  | 2 | 9 | **28** |
 | Örnefni   | 1 | 2 | 2 | 5 | 27 | 25 | 15 | 67 | **72** |
-| **Alls**  |   |   |   | **270** |   |   |   | **272** | **542** |
+| **Alls**  |   |   |   | **271** |   |   |   | **278** | **549** |
 
-**Samtals:** 2551 orð.
+**Samtals:** 2565 orð.
 
 57 skammstafanir.
 
@@ -105,7 +105,7 @@ Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá
 
 svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunninum þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum.
 
-Gildið í `"hash"` þarf bara að vera strengur sem er ekki tómur, þetta gildi er uppfært með hakkagildi sem endurspeglar gögn orðsins, þannig að fyrir sömu gögn verður hakkagildið það sama, og þegar gögnin breytast þá breytist hakkagildið.
+Gildið í `"hash"` þarf bara að vera strengur sem er ekki tómur, þetta gildi er uppfært með hakkagildi sem endurspeglar gögn orðsins þegar `write-files` er keyrt, svo að fyrir sömu gögn verður hakkagildið það sama, og þegar gögnin breytast þá breytist hakkagildið.
 
 Athugið að kröfur til skráarnafna eru mismunandi miłli orðflokka, til dæmis þurfa nafnorð að hafa kyn orðsins í skráarnafni, þá eru "ósjálfstæð" orð (notað fyrir orðhluta sem geta ekki staðið einir) með `-ó` í skráarnafni, og orð sem eru sérstaklega aðgreind með "merkingu" innihalda merkinguna í skráarnafni á sniðinu `-_merking_`.
 
