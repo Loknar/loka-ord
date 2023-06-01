@@ -1,0 +1,155 @@
+{
+	"orð": "reikna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "reikna",
+		"sagnbót": "reiknað",
+		"boðháttur": {
+			"stýfður": "reikna",
+			"et": "reiknaðu",
+			"ft": "reiknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reikna", "reiknar", "reiknar"],
+					"ft": ["reiknum", "reiknið", "reikna"]
+				},
+				"þátíð": {
+					"et": ["reiknaði", "reiknaðir", "reiknaði"],
+					"ft": ["reiknuðum", "reiknuðuð", "reiknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reikni", "reiknir", "reikni"],
+					"ft": ["reiknum", "reiknið", "reikni"]
+				},
+				"þátíð": {
+					"et": ["reiknaði", "reiknaðir", "reiknaði"],
+					"ft": ["reiknuðum", "reiknuðuð", "reiknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reiknarðu",
+					"ft": "reikniði"
+				},
+				"þátíð": {
+					"et": "reiknaðirðu",
+					"ft": "reiknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reiknirðu",
+					"ft": "reikniði"
+				},
+				"þátíð": {
+					"et": "reiknaðirðu",
+					"ft": "reiknuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "reiknast",
+		"sagnbót": "reiknast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reiknast", "reiknast", "reiknast"],
+					"ft": ["reiknumst", "reiknist", "reiknast"]
+				},
+				"þátíð": {
+					"et": ["reiknaðist", "reiknaðist", "reiknaðist"],
+					"ft": ["reiknuðumst", "reiknuðust", "reiknuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reiknist", "reiknist", "reiknist"],
+					"ft": ["reiknumst", "reiknist", "reiknist"]
+				},
+				"þátíð": {
+					"et": ["reiknaðist", "reiknaðist", "reiknaðist"],
+					"ft": ["reiknuðumst", "reiknuðust", "reiknuðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reiknast", "reiknast", "reiknast"],
+					"ft": ["reiknast", "reiknast", "reiknast"]
+				},
+				"þátíð": {
+					"et": ["reiknaðist", "reiknaðist", "reiknaðist"],
+					"ft": ["reiknaðist", "reiknaðist", "reiknaðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reiknist", "reiknist", "reiknist"],
+					"ft": ["reiknist", "reiknist", "reiknist"]
+				},
+				"þátíð": {
+					"et": ["reiknaðist", "reiknaðist", "reiknaðist"],
+					"ft": ["reiknaðist", "reiknaðist", "reiknaðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reiknastu"
+				},
+				"þátíð": {
+					"et": "reiknaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reiknistu"
+				},
+				"þátíð": {
+					"et": "reiknaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reiknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reiknaður", "reiknaðan", "reiknuðum", "reiknaðs"],
+					"kvk": ["reiknuð", "reiknaða", "reiknaðri", "reiknaðrar"],
+					"hk": ["reiknað", "reiknað", "reiknuðu", "reiknaðs"]
+				},
+				"ft": {
+					"kk": ["reiknaðir", "reiknaða", "reiknuðum", "reiknaðra"],
+					"kvk": ["reiknaðar", "reiknaðar", "reiknuðum", "reiknaðra"],
+					"hk": ["reiknuð", "reiknuð", "reiknuðum", "reiknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["reiknaði", "reiknaða", "reiknaða", "reiknaða"],
+					"kvk": ["reiknaða", "reiknuðu", "reiknuðu", "reiknuðu"],
+					"hk": ["reiknaða", "reiknaða", "reiknaða", "reiknaða"]
+				},
+				"ft": {
+					"kk": ["reiknuðu", "reiknuðu", "reiknuðu", "reiknuðu"],
+					"kvk": ["reiknuðu", "reiknuðu", "reiknuðu", "reiknuðu"],
+					"hk": ["reiknuðu", "reiknuðu", "reiknuðu", "reiknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reikna",
+	"hash": "20997bfde92952e410448e9379694fba4e590a71c3b0e0e02fd9ca6e26c0e78b"
+}

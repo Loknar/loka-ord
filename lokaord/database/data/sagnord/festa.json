@@ -1,0 +1,132 @@
+{
+	"orð": "festa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "festa",
+		"sagnbót": "fest",
+		"boðháttur": {
+			"stýfður": "fest",
+			"et": "festu",
+			"ft": "festið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["festi", "festir", "festir"],
+					"ft": ["festum", "festið", "festa"]
+				},
+				"þátíð": {
+					"et": ["festi", "festir", "festi"],
+					"ft": ["festum", "festuð", "festu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["festi", "festir", "festi"],
+					"ft": ["festum", "festið", "festi"]
+				},
+				"þátíð": {
+					"et": ["festi", "festir", "festi"],
+					"ft": ["festum", "festuð", "festu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "festirðu",
+					"ft": "festiði"
+				},
+				"þátíð": {
+					"et": "festirðu",
+					"ft": "festuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "festirðu",
+					"ft": "festiði"
+				},
+				"þátíð": {
+					"et": "festirðu",
+					"ft": "festuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "festast",
+		"sagnbót": "fest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["festist", "festist", "festist"],
+					"ft": ["festumst", "festist", "festast"]
+				},
+				"þátíð": {
+					"et": ["festist", "festist", "festist"],
+					"ft": ["festumst", "festust", "festust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["festist", "festist", "festist"],
+					"ft": ["festumst", "festist", "festist"]
+				},
+				"þátíð": {
+					"et": ["festist", "festist", "festist"],
+					"ft": ["festumst", "festust", "festust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "festistu"
+				},
+				"þátíð": {
+					"et": "festistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "festistu"
+				},
+				"þátíð": {
+					"et": "festistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "festandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["festur", "festan", "festum", "fests"],
+					"kvk": ["fest", "festa", "festri", "festrar"],
+					"hk": ["fest", "fest", "festu", "fests"]
+				},
+				"ft": {
+					"kk": ["festir", "festa", "festum", "festra"],
+					"kvk": ["festar", "festar", "festum", "festra"],
+					"hk": ["fest", "fest", "festum", "festra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["festi", "festa", "festa", "festa"],
+					"kvk": ["festa", "festu", "festu", "festu"],
+					"hk": ["festa", "festa", "festa", "festa"]
+				},
+				"ft": {
+					"kk": ["festu", "festu", "festu", "festu"],
+					"kvk": ["festu", "festu", "festu", "festu"],
+					"hk": ["festu", "festu", "festu", "festu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-festa",
+	"hash": "f94b750734d92f3b0a1ccfe9110783e0b079ad334e3774443b714c76a9484d54"
+}
