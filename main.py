@@ -101,6 +101,7 @@ def scan_sentence(sentence: str):
     if sentence == '':
         raise typer.BadParameter('Sentence can\'t be empty string.')
     lokaord.scan_sentence(sentence)
+    lokaord.get_runtime()
 
 
 @app.command(help='Short for the "scan-sentence" command.')
@@ -118,12 +119,18 @@ def md_stats():
     lokaord.get_md_stats()
 
 
+@app.command(help='Print runtime of script so far.')
+def runtime():
+    lokaord.get_runtime()
+
+
 @app.command(help='Initialize lokaord (same as: "build-db write-files build-sight md-stats").')
 def init(rebuild: Annotated[Optional[bool], typer.Option('--rebuild', '-r')] = False):
     lokaord.build_db(rebuild)
     lokaord.write_files()
     lokaord.build_sight()
     lokaord.get_md_stats()
+    lokaord.get_runtime()
 
 
 @app.command(help='Update lokaord (same as: "build-db -ch write-files -tr build-sight md-stats").')
@@ -132,6 +139,7 @@ def update():
     lokaord.write_files(lokaord.Ts)
     lokaord.build_sight()
     lokaord.get_md_stats()
+    lokaord.get_runtime()
 
 
 @app.command(help='Add word CLI.')

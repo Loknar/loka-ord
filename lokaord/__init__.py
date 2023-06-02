@@ -92,7 +92,11 @@ def get_stats():
 
 def get_md_stats():
     db.init(Name)
-    print(stats.get_words_count_markdown_table())
+    print('\nMarkdown Table Stats:\n\n%s' % (stats.get_words_count_markdown_table(), ))
+
+
+def get_runtime():
+    print('\nRuntime: %s' % (stats.calc_runtime(), ))
 
 
 def add_word():

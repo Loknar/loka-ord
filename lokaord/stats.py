@@ -1,4 +1,7 @@
 #!/usr/bin/python
+import datetime
+
+import lokaord
 from lokaord.database import db
 from lokaord.database.models import isl
 
@@ -463,6 +466,9 @@ def get_words_count():
 
 
 def get_words_count_markdown_table():
+    '''
+    get word count stats and render into markdown table string
+    '''
     data = get_words_count()
     md_table = (
         '|   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |\n'
@@ -561,3 +567,18 @@ def get_words_count_markdown_table():
         skamm=data['skammstafanir'],
     )
     return md_table
+
+
+def calc_runtime():
+    '''
+    return runtime timedelta info as a human readable string
+    '''
+    now = datetime.datetime.now()
+    duration = now - lokaord.Ts
+    days = int(duration.days)
+    t_seconds = int(duration.seconds)
+    hours = int(days * 24 + t_seconds // 3600)
+    minutes = int((t_seconds % 3600) // 60)
+    seconds = int(t_seconds % 60)
+    days_str = f'{days} days, ' if days != 0 else ''
+    return '{}{:02}:{:02}:{:02}'.format(days_str, hours, minutes, seconds)
