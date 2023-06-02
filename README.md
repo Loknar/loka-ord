@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 263 | 314 | 228 | 805 | 143 | 186 | 187 | 516 | **1321** |
-| **Lýsingarorð** | 14 |   |   |   | 84 |   |   |   | 75 | **159** |
-| **Sagnorð**     |   |   |   |   | 167 |   |   |   | 52 | **219** |
+| **Nafnorð**     |   | 266 | 323 | 233 | 822 | 155 | 195 | 193 | 543 | **1365** |
+| **Lýsingarorð** | 14 |   |   |   | 88 |   |   |   | 77 | **165** |
+| **Sagnorð**     |   |   |   |   | 169 |   |   |   | 54 | **223** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 2 | **42** |
-| **Smáorð**      |   |   |   |   | 175 |   |   |   | 20 | **195** |
-| **Alls** |   |   |   |   | **1341** |   |   |   | **675** | **2016** |
+| **Smáorð**      |   |   |   |   | 175 |   |   |   | 21 | **196** |
+| **Alls** |   |   |   |   | **1364** |   |   |   | **707** | **2071** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 116 | 120 |   | 236 | 29 | 145 |   | 174 | **410** |
-| Kenninöfn |  |  |   |  | 15 | 13 |   | 28 | **28** |
+| Eiginnöfn | 117 | 120 |   | 237 | 29 | 146 |   | 175 | **412** |
+| Kenninöfn |  |  |   |  | 16 | 14 |   | 30 | **30** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **11** |
 | Gælunöfn  | 10 | 10 |  | 20 | 7 |  | 2 | 9 | **29** |
-| Örnefni   | 1 | 2 | 2 | 5 | 27 | 25 | 15 | 67 | **72** |
-| **Alls**  |   |   |   | **272** |   |   |   | **278** | **550** |
+| Örnefni   | 1 | 3 | 2 | 6 | 29 | 26 | 15 | 70 | **76** |
+| **Alls**  |   |   |   | **274** |   |   |   | **284** | **558** |
 
-**Samtals:** 2566 orð.
+**Samtals:** 2629 orð.
 
 57 skammstafanir.
 
@@ -74,13 +74,15 @@ Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunni
 python main.py update
 ```
 
-sem er jafngild skipuninni `python main.py build-db -ch write-files -tr build-sight md-stats`, eða
+sem er jafngild skipuninni `python main.py build-db -ch write-files -tr build-sight md-stats`.
+
+Hægt er að endursmíða gagnagrunn með
 
 ```bash
-python main.py build-db -r write-files
+python main.py build-db -r write-files build-sight md-stats
 ```
 
-til að smíða/endursmíða gagnagrunninn með viðbættu orðunum og færa síðan innihald gagnagrunnsins aftur í textaskrár.
+sem þá eyðir núverandi gagnagrunni og smíðar nýjan útfrá orðaskrám.
 
 Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá þarf ekki að græja beygingarmyndir þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar ég bætti við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
 
