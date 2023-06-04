@@ -49,7 +49,10 @@ def common(
         raise typer.BadParameter(f'Provided log-directory "{log_directory}" is not a directory.')
     lokaord.logman.init(logger_name, role=role, output_dir=log_directory)
     if len(sys.argv) <= 1:
-        print('No commands provided. Try running with flag --help for info on available commands.')
+        print(
+            'Usage: lokaord [OPTIONS] COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...\n'
+            'Try \'lokaord -h\' for help.'
+        )
 
 
 @app.command('build-db', help='Import words from JSON datafiles to database.')
