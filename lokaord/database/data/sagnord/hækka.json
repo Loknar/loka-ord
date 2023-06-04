@@ -1,0 +1,88 @@
+{
+	"orð": "hækka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hækka",
+		"sagnbót": "hækkað",
+		"boðháttur": {
+			"stýfður": "hækka",
+			"et": "hækkaðu",
+			"ft": "hækkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hækka", "hækkar", "hækkar"],
+					"ft": ["hækkum", "hækkið", "hækka"]
+				},
+				"þátíð": {
+					"et": ["hækkaði", "hækkaðir", "hækkaði"],
+					"ft": ["hækkuðum", "hækkuðuð", "hækkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hækki", "hækkir", "hækki"],
+					"ft": ["hækkum", "hækkið", "hækki"]
+				},
+				"þátíð": {
+					"et": ["hækkaði", "hækkaðir", "hækkaði"],
+					"ft": ["hækkuðum", "hækkuðuð", "hækkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hækkarðu",
+					"ft": "hækkiði"
+				},
+				"þátíð": {
+					"et": "hækkaðirðu",
+					"ft": "hækkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hækkirðu",
+					"ft": "hækkiði"
+				},
+				"þátíð": {
+					"et": "hækkaðirðu",
+					"ft": "hækkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hækkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hækkaður", "hækkaðan", "hækkuðum", "hækkaðs"],
+					"kvk": ["hækkuð", "hækkaða", "hækkaðri", "hækkaðrar"],
+					"hk": ["hækkað", "hækkað", "hækkuðu", "hækkaðs"]
+				},
+				"ft": {
+					"kk": ["hækkaðir", "hækkaða", "stæðkkuðum", "hækkaðra"],
+					"kvk": ["hækkaðar", "hækkaðar", "hækkuðum", "hækkaðra"],
+					"hk": ["hækkuð", "hækkuð", "hækkuðum", "hækkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hækkaði", "hækkaða", "hækkaða", "hækkaða"],
+					"kvk": ["hækkaða", "hækkuðu", "hækkuðu", "hækkuðu"],
+					"hk": ["hækkaða", "hækkaða", "hækkaða", "hækkaða"]
+				},
+				"ft": {
+					"kk": ["hækkuðu", "hækkuðu", "hækkuðu", "hækkuðu"],
+					"kvk": ["hækkuðu", "hækkuðu", "hækkuðu", "hækkuðu"],
+					"hk": ["hækkuðu", "hækkuðu", "hækkuðu", "hækkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hækka",
+	"hash": "1b4009e19370969a75a32232d9477f1f2f0e69b030ecc5dbfbfb5c97a64f83e5"
+}

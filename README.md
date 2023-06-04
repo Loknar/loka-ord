@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 266 | 323 | 233 | 822 | 155 | 195 | 193 | 543 | **1365** |
-| **Lýsingarorð** | 14 |   |   |   | 88 |   |   |   | 77 | **165** |
-| **Sagnorð**     |   |   |   |   | 169 |   |   |   | 54 | **223** |
+| **Nafnorð**     |   | 265 | 323 | 234 | 822 | 158 | 195 | 195 | 548 | **1370** |
+| **Lýsingarorð** | 14 |   |   |   | 90 |   |   |   | 77 | **167** |
+| **Sagnorð**     |   |   |   |   | 172 |   |   |   | 54 | **226** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 2 | **42** |
 | **Smáorð**      |   |   |   |   | 175 |   |   |   | 21 | **196** |
-| **Alls** |   |   |   |   | **1364** |   |   |   | **707** | **2071** |
+| **Alls** |   |   |   |   | **1369** |   |   |   | **712** | **2081** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 117 | 120 |   | 237 | 29 | 146 |   | 175 | **412** |
-| Kenninöfn |  |  |   |  | 16 | 14 |   | 30 | **30** |
+| Eiginnöfn | 120 | 120 |   | 240 | 30 | 146 |   | 176 | **416** |
+| Kenninöfn |  |  |   |  | 17 | 14 |   | 31 | **31** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **11** |
 | Gælunöfn  | 10 | 10 |  | 20 | 7 |  | 2 | 9 | **29** |
-| Örnefni   | 1 | 3 | 2 | 6 | 29 | 26 | 15 | 70 | **76** |
-| **Alls**  |   |   |   | **274** |   |   |   | **284** | **558** |
+| Örnefni   | 1 | 3 | 2 | 6 | 30 | 27 | 15 | 72 | **78** |
+| **Alls**  |   |   |   | **277** |   |   |   | **288** | **565** |
 
-**Samtals:** 2629 orð.
+**Samtals:** 2646 orð.
 
 57 skammstafanir.
 
@@ -119,7 +119,7 @@ Til að athuga hvort orð sé til staðar í grunni er hægt að gera uppflettin
 python main.py build-sight
 ```
 
-ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða þegar JSON skrárn hafa breyst, en er svo hægt að nota fyrir uppflettingu á stökum orðum:
+ofangreind skipun býr til forsmíðaða orðauppflettingu útfrá orðagögnum í JSON skrám og vistar í `lokaord/database/data/disk/lokaord/sight.pointless` (eða `lokaord/database/data/disk/lokaord/sight.pickle` á windows), þessa forsmíðuðu leit þarf að endursmíða þegar JSON skrár hafa breyst, en er svo hægt að nota fyrir uppflettingu á stökum orðum:
 
 ```bash
 python main.py search "orð"

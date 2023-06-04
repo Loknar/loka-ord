@@ -1,0 +1,132 @@
+{
+	"orð": "stækka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stækka",
+		"sagnbót": "stækkað",
+		"boðháttur": {
+			"stýfður": "stækka",
+			"et": "stækkaðu",
+			"ft": "stækkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stækka", "stækkar", "stækkar"],
+					"ft": ["stækkum", "stækkið", "stækka"]
+				},
+				"þátíð": {
+					"et": ["stækkaði", "stækkaðir", "stækkaði"],
+					"ft": ["stækkuðum", "stækkuðuð", "stækkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stækki", "stækkir", "stækki"],
+					"ft": ["stækkum", "stækkið", "stækki"]
+				},
+				"þátíð": {
+					"et": ["stækkaði", "stækkaðir", "stækkaði"],
+					"ft": ["stækkuðum", "stækkuðuð", "stækkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stækkarðu",
+					"ft": "stækkiði"
+				},
+				"þátíð": {
+					"et": "stækkaðirðu",
+					"ft": "stækkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stækkirðu",
+					"ft": "stækkiði"
+				},
+				"þátíð": {
+					"et": "stækkaðirðu",
+					"ft": "stækkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stækkast",
+		"sagnbót": "stækkast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stækkast", "stækkast", "stækkast"],
+					"ft": ["stækkumst", "stækkist", "stækkast"]
+				},
+				"þátíð": {
+					"et": ["stækkaðist", "stækkaðist", "stækkaðist"],
+					"ft": ["stækkuðumst", "stækkuðust", "stækkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stækkist", "stækkist", "stækkist"],
+					"ft": ["stækkumst", "stækkist", "stækkist"]
+				},
+				"þátíð": {
+					"et": ["stækkaðist", "stækkaðist", "stækkaðist"],
+					"ft": ["stækkuðumst", "stækkuðust", "stækkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stækkastu"
+				},
+				"þátíð": {
+					"et": "stækkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stækkistu"
+				},
+				"þátíð": {
+					"et": "stækkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stækkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stækkaður", "stækkaðan", "stækkuðum", "stækkaðs"],
+					"kvk": ["stækkuð", "stækkaða", "stækkaðri", "stækkaðrar"],
+					"hk": ["stækkað", "stækkað", "stækkuðu", "stækkaðs"]
+				},
+				"ft": {
+					"kk": ["stækkaðir", "stækkaða", "stæðkkuðum", "stækkaðra"],
+					"kvk": ["stækkaðar", "stækkaðar", "stækkuðum", "stækkaðra"],
+					"hk": ["stækkuð", "stækkuð", "stækkuðum", "stækkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stækkaði", "stækkaða", "stækkaða", "stækkaða"],
+					"kvk": ["stækkaða", "stækkuðu", "stækkuðu", "stækkuðu"],
+					"hk": ["stækkaða", "stækkaða", "stækkaða", "stækkaða"]
+				},
+				"ft": {
+					"kk": ["stækkuðu", "stækkuðu", "stækkuðu", "stækkuðu"],
+					"kvk": ["stækkuðu", "stækkuðu", "stækkuðu", "stækkuðu"],
+					"hk": ["stækkuðu", "stækkuðu", "stækkuðu", "stækkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stækka",
+	"hash": "2ee728770e5ba84cad00ff51e91d1b7e56ec3c51e41737741bdf1b24f3e357ef"
+}

@@ -55,8 +55,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "lækkandi"
+		"nútíðar": "lækkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lækkaður", "lækkaðan", "lækkuðum", "lækkaðs"],
+					"kvk": ["lækkuð", "lækkaða", "lækkaðri", "lækkaðrar"],
+					"hk": ["lækkað", "lækkað", "lækkuðu", "lækkaðs"]
+				},
+				"ft": {
+					"kk": ["lækkaðir", "lækkaða", "stæðkkuðum", "lækkaðra"],
+					"kvk": ["lækkaðar", "lækkaðar", "lækkuðum", "lækkaðra"],
+					"hk": ["lækkuð", "lækkuð", "lækkuðum", "lækkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lækkaði", "lækkaða", "lækkaða", "lækkaða"],
+					"kvk": ["lækkaða", "lækkuðu", "lækkuðu", "lækkuðu"],
+					"hk": ["lækkaða", "lækkaða", "lækkaða", "lækkaða"]
+				},
+				"ft": {
+					"kk": ["lækkuðu", "lækkuðu", "lækkuðu", "lækkuðu"],
+					"kvk": ["lækkuðu", "lækkuðu", "lækkuðu", "lækkuðu"],
+					"hk": ["lækkuðu", "lækkuðu", "lækkuðu", "lækkuðu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-lækka",
-	"hash": "badb7706d691dc1f5f77220ba5170980e3ee86947c643d27e8632218582014ad"
+	"hash": "87917d69d5f881b510183b01d1d852accb6d82a3a02c5f713b2f922d3a0dd6d2"
 }
