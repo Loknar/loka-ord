@@ -1,0 +1,37 @@
+name: Loka-Orð
+
+on:
+  # Trigger workflow on any pull request
+  pull_request:
+  # Trigger workflow on pushes to the master branch
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Initialize database
+        run: |
+          # smíða grunn
+          python main.py build-db
+          # skrifa orð úr grunni í textaskrár
+          python main.py write-files
+          # smíða orðaforleit
+          python main.py build-sight
+          # prenta út töluleg gögn á markdown sniði
+          python main.py md-stats
