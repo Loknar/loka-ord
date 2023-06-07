@@ -1,0 +1,132 @@
+{
+	"orð": "greiða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "greiða",
+		"sagnbót": "greitt",
+		"boðháttur": {
+			"stýfður": "greið",
+			"et": "greiddu",
+			"ft": "greiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greiði", "greiðir", "greiðir"],
+					"ft": ["greiðum", "greiðið", "greiða"]
+				},
+				"þátíð": {
+					"et": ["greiddi", "greiddir", "greiddi"],
+					"ft": ["greiddum", "greidduð", "greiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greiði", "greiðir", "greiði"],
+					"ft": ["greiðum", "greiðið", "greiði"]
+				},
+				"þátíð": {
+					"et": ["greiddi", "greiddir", "greiddi"],
+					"ft": ["greddum", "greidduð", "greiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greiðirðu",
+					"ft": "greiðiði"
+				},
+				"þátíð": {
+					"et": "greiddirðu",
+					"ft": "greidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greiðirðu",
+					"ft": "greiðiði"
+				},
+				"þátíð": {
+					"et": "greiddirðu",
+					"ft": "greidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "greiðast",
+		"sagnbót": "greiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greiðist", "greiðist", "greiðist"],
+					"ft": ["greiðumst", "greiðist", "greiðast"]
+				},
+				"þátíð": {
+					"et": ["greiddist", "greiddist", "greiddist"],
+					"ft": ["greiddumst", "greiddust", "greiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greiðist", "greiðist", "greiðist"],
+					"ft": ["greiðumst", "greiðist", "greiðist"]
+				},
+				"þátíð": {
+					"et": ["greiddist", "greiddist", "greiddist"],
+					"ft": ["greiddumst", "greiddust", "greiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greiðstu"
+				},
+				"þátíð": {
+					"et": "barstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greiðistu"
+				},
+				"þátíð": {
+					"et": "bæristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "greiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["greiddur", "greiddan", "greiddum", "greidds"],
+					"kvk": ["greidd", "greidda", "greiddri", "greiddrar"],
+					"hk": ["greitt", "greitt", "greiddu", "greidds"]
+				},
+				"ft": {
+					"kk": ["greiddir", "greidda", "greiddum", "greiddra"],
+					"kvk": ["greiddar", "greiddar", "greiddum", "greiddra"],
+					"hk": ["greidd", "greidd", "greiddum", "greiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["greiddi", "greidda", "greidda", "greidda"],
+					"kvk": ["greidda", "greiddu", "greiddu", "greiddu"],
+					"hk": ["greidda", "greidda", "greidda", "greidda"]
+				},
+				"ft": {
+					"kk": ["greiddu", "greiddu", "greiddu", "greiddu"],
+					"kvk": ["greiddu", "greiddu", "greiddu", "greiddu"],
+					"hk": ["greiddu", "greiddu", "greiddu", "greiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-greiða",
+	"hash": "b43871df8885b5f1cfeb137a2299fe8727f559e3b6853a981a38015bed58f458"
+}
