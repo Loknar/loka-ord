@@ -110,7 +110,9 @@ def scan_sentence(sentence: str, clean_str: bool = True):
             found += 1
             scanned_sentence.append(scanned_word)
             continue
-        onhanging_chars = set(['.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“'])
+        onhanging_chars = set([
+            '.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“', '?', '!', '´', '%'
+        ])
         msg = ''
         e_word = word.strip()
         while e_word[-1] in onhanging_chars:
