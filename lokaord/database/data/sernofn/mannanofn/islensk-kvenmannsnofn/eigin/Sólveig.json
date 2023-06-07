@@ -3,9 +3,19 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Sól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sól-kvk"
+		},
+		{
+			"kennistrengur": "sérn.en-veig-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Sólveig", "Sólveigu", "Sólveigu", "Sólveigar"]
 	},
 	"kennistrengur": "sérn.en-Sólveig-kvk",
-	"hash": "20ce63abe65aa5d3aa27ee3811e4309bfbcda904307d661e7e5bedc1ef835c6d"
+	"hash": "23ee5ff9a24bba0a0eecc2cc55ccac448f7ad7883e06fd0befd70425beff6da6"
 }
