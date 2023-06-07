@@ -152,6 +152,11 @@ def add_word():
     lokaord.add_word()
 
 
+@app.command(help='Check if git repo is clean, raise exception if not.')
+def assert_clean_git():
+    lokaord.assert_clean_git()
+
+
 @app.command(help='Run fiddle.')
 def run_fiddle():
     lokaord.run_fiddle()

@@ -2,7 +2,10 @@
 import datetime
 from enum import Enum
 import json
+import os
 import sys
+
+import git
 
 from lokaord import cli
 from lokaord import exporter
@@ -102,6 +105,25 @@ def get_runtime():
 def add_word():
     db.init(Name)
     cli.add_word_cli()
+
+
+def assert_clean_git():
+    repo_dir_abs = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
+    repo = git.Repo(repo_dir_abs)
+    if repo.is_dirty():
+        changed_files = repo.index.diff(None)
+        untracked_files = repo.untracked_files
+        feedback = '\n\n'
+        if len(changed_files) != 0:
+            feedback += 'Changes:\n'
+            for changed_file in changed_files:
+                feedback += '    %s\n' % (changed_file.a_path, )
+        if len(untracked_files) != 0:
+            feedback += 'Untracked:\n'
+            for untracked_file in untracked_files:
+                feedback += '    %s\n' % (untracked_file, )
+        raise Exception(feedback)
+    print('\nOur git repo is all clean!')
 
 
 def run_fiddle():
