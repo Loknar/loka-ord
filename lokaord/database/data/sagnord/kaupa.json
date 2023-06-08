@@ -1,0 +1,88 @@
+{
+	"orð": "kaupa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kaupa",
+		"sagnbót": "keypt",
+		"boðháttur": {
+			"stýfður": "kaup",
+			"et": "kauptu",
+			"ft": "kaupið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kaupi", "kaupir", "kaupir"],
+					"ft": ["kaupum", "kaupið", "kaupa"]
+				},
+				"þátíð": {
+					"et": ["keypti", "keyptir", "keypti"],
+					"ft": ["keyptum", "keyptuð", "keyptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kaupi", "kaupir", "kaupi"],
+					"ft": ["kaupum", "kaupið", "kaupi"]
+				},
+				"þátíð": {
+					"et": ["keypti", "keyptir", "keypti"],
+					"ft": ["keyptum", "keyptuð", "keyptu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kaupirðu",
+					"ft": "kaupiði"
+				},
+				"þátíð": {
+					"et": "keyptirðu",
+					"ft": "keyptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kaupirðu",
+					"ft": "kaupiði"
+				},
+				"þátíð": {
+					"et": "keyptirðu",
+					"ft": "keyptuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kaupandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["keyptur", "keyptan", "keyptum", "keypts"],
+					"kvk": ["keypt", "keypta", "keyptri", "keyptrar"],
+					"hk": ["keypt", "keypt", "keyptu", "keypts"]
+				},
+				"ft": {
+					"kk": ["keyptir", "keypta", "keyptum", "keyptra"],
+					"kvk": ["keyptar", "keyptar", "keyptum", "keyptra"],
+					"hk": ["keypt", "keypt", "keyptum", "keyptra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["keypti", "keypta", "keypta", "keypta"],
+					"kvk": ["keypta", "keyptu", "keyptu", "keyptu"],
+					"hk": ["keypta", "keypta", "keypta", "keypta"]
+				},
+				"ft": {
+					"kk": ["keyptu", "keyptu", "keyptu", "keyptu"],
+					"kvk": ["keyptu", "keyptu", "keyptu", "keyptu"],
+					"hk": ["keyptu", "keyptu", "keyptu", "keyptu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kaupa",
+	"hash": "b18b64dec461acc4edd6e7fe865b3030fbd317915bd88b88e8f84f865693dd97"
+}

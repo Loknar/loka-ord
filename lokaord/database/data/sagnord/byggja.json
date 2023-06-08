@@ -1,0 +1,132 @@
+{
+	"orð": "byggja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "byggja",
+		"sagnbót": "byggt",
+		"boðháttur": {
+			"stýfður": "bygg",
+			"et": "byggðu",
+			"ft": "byggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["byggi", "byggir", "byggir"],
+					"ft": ["byggjum", "byggið", "byggja"]
+				},
+				"þátíð": {
+					"et": ["byggði", "byggðir", "byggði"],
+					"ft": ["byggðum", "byggðuð", "byggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["byggi", "byggir", "byggi"],
+					"ft": ["byggjum", "byggið", "byggi"]
+				},
+				"þátíð": {
+					"et": ["byggði", "byggðir", "byggði"],
+					"ft": ["byggðum", "byggðuð", "byggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "byggirðu",
+					"ft": "byggiði"
+				},
+				"þátíð": {
+					"et": "byggðirðu",
+					"ft": "byggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "byggirðu",
+					"ft": "byggiði"
+				},
+				"þátíð": {
+					"et": "byggðirðu",
+					"ft": "byggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "byggjast",
+		"sagnbót": "byggst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["byggist", "byggist", "byggist"],
+					"ft": ["byggjumst", "byggist", "byggjast"]
+				},
+				"þátíð": {
+					"et": ["byggðist", "byggðist", "byggðist"],
+					"ft": ["byggðumst", "byggðust", "byggðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["byggist", "byggist", "byggist"],
+					"ft": ["byggjumst", "byggist", "byggist"]
+				},
+				"þátíð": {
+					"et": ["byggðist", "byggðist", "byggðist"],
+					"ft": ["byggðumst", "byggðust", "byggðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "byggistu"
+				},
+				"þátíð": {
+					"et": "byggðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "byggistu"
+				},
+				"þátíð": {
+					"et": "byggðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "byggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["byggður", "byggðan", "byggðum", "byggðs"],
+					"kvk": ["byggð", "byggða", "byggðri", "byggðrar"],
+					"hk": ["byggt", "byggt", "byggðu", "byggðs"]
+				},
+				"ft": {
+					"kk": ["byggðir", "byggða", "byggðum", "byggðra"],
+					"kvk": ["byggðar", "byggðar", "byggðum", "byggðra"],
+					"hk": ["byggð", "byggð", "byggðum", "byggðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["byggði", "byggða", "byggða", "byggða"],
+					"kvk": ["byggða", "byggðu", "byggðu", "byggðu"],
+					"hk": ["byggða", "byggða", "byggða", "byggða"]
+				},
+				"ft": {
+					"kk": ["byggðu", "byggðu", "byggðu", "byggðu"],
+					"kvk": ["byggðu", "byggðu", "byggðu", "byggðu"],
+					"hk": ["byggðu", "byggðu", "byggðu", "byggðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-byggja",
+	"hash": "d6d227b61dacd42fb5ac9e76815ed865d783f96ddbe037e0348eff9502e881d6"
+}
