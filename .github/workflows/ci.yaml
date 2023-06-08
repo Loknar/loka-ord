@@ -33,6 +33,11 @@ jobs:
           python main.py write-files
           # smíða orðaforleit
           python main.py build-sight
+          # sýna runtime
+          python main.py runtime
+          # prófa orðaforleit
+          python main search "orð"
+          python main scan-sentence "Hér er haugur orða í hóflega langri setningu."
           # prenta út töluleg gögn á markdown sniði
           python main.py md-stats
           # ganga úr skugga um að orð séu óbreytt eftir smíði
