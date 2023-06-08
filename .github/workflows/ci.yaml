@@ -28,16 +28,14 @@ jobs:
       - name: Initialize database
         run: |
           # smíða grunn
-          python main.py build-db
+          python main.py build-db runtime
           # skrifa orð úr grunni í textaskrár
-          python main.py write-files
+          python main.py write-files runtime
           # smíða orðaforleit
           python main.py build-sight
-          # sýna runtime
-          python main.py runtime
           # prófa orðaforleit
-          python main search "orð"
-          python main scan-sentence "Hér er haugur orða í hóflega langri setningu."
+          python main.py search "orð"
+          python main.py scan-sentence "Hér er haugur orða í hóflega langri setningu."
           # prenta út töluleg gögn á markdown sniði
           python main.py md-stats
           # ganga úr skugga um að orð séu óbreytt eftir smíði
