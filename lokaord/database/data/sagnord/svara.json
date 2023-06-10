@@ -1,0 +1,132 @@
+{
+	"orð": "svara",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "svara",
+		"sagnbót": "svarað",
+		"boðháttur": {
+			"stýfður": "svara",
+			"et": "svaraðu",
+			"ft": "svarið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svara", "svarar", "svarar"],
+					"ft": ["svörum", "svarið", "svara"]
+				},
+				"þátíð": {
+					"et": ["svaraði", "svaraðir", "svaraði"],
+					"ft": ["svöruðum", "svöruðuð", "svöruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svari", "svarir", "svari"],
+					"ft": ["svörum", "svarið", "svari"]
+				},
+				"þátíð": {
+					"et": ["svaraði", "svaraðir", "svaraði"],
+					"ft": ["svöruðum", "svöruðuð", "svöruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svararðu",
+					"ft": "svariði"
+				},
+				"þátíð": {
+					"et": "svaraðirðu",
+					"ft": "svöruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svarirðu",
+					"ft": "svariði"
+				},
+				"þátíð": {
+					"et": "svararirðu",
+					"ft": "svöruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "svarast",
+		"sagnbót": "svarast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svarast", "svarast", "svarast"],
+					"ft": ["svörumst", "svarist", "svarast"]
+				},
+				"þátíð": {
+					"et": ["svaraðist", "svaraðist", "svaraðist"],
+					"ft": ["svöruðumst", "svöruðust", "svöruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svarist", "svarist", "svarist"],
+					"ft": ["svörumst", "svarist", "svarist"]
+				},
+				"þátíð": {
+					"et": ["svaraðist", "svaraðist", "svaraðist"],
+					"ft": ["svöruðumst", "svöruðust", "svöruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svarastu"
+				},
+				"þátíð": {
+					"et": "svaraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svaristu"
+				},
+				"þátíð": {
+					"et": "svaraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "svarandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["svaraður", "svaraðan", "svöruðum", "svaraðs"],
+					"kvk": ["svöruð", "svaraða", "svaraðri", "svaraðrar"],
+					"hk": ["svarað", "svarað", "svöruðu", "svaraðs"]
+				},
+				"ft": {
+					"kk": ["svaraðir", "svaraða", "svöruðum", "svaraðra"],
+					"kvk": ["svaraðar", "svaraðar", "svöruðum", "svaraðra"],
+					"hk": ["svöruð", "svöruð", "svöruðum", "svaraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["svaraði", "svaraða", "svaraða", "svaraða"],
+					"kvk": ["svaraða", "svöruðu", "svöruðu", "svöruðu"],
+					"hk": ["svaraða", "svaraða", "svaraða", "svaraða"]
+				},
+				"ft": {
+					"kk": ["svöruðu", "svöruðu", "svöruðu", "svöruðu"],
+					"kvk": ["svöruðu", "svöruðu", "svöruðu", "svöruðu"],
+					"hk": ["svöruðu", "svöruðu", "svöruðu", "svöruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-svara",
+	"hash": "4bc7fd80c37bbef876b6514b972a0abc237b33843cc338a8fa6cb1d40e51a9a9"
+}

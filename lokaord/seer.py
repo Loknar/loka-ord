@@ -167,6 +167,12 @@ def scan_sentence(sentence: str, clean_str: bool = True):
                 scanned_word['orð-hreinsað'] = e_word_p
                 scanned_word['staða'] = 'tala'
                 break
+            elif (
+                len(e_word_p) >= 5 and e_word_p[-4] == '.' and e_word_p.replace('.', '').isdigit()
+            ):
+                scanned_word['orð-hreinsað'] = e_word_p
+                scanned_word['staða'] = 'tala'
+                break
             else:
                 scanned_word['staða'] = 'vantar'
         if scanned_word['staða'] == 'vantar':
