@@ -34,8 +34,9 @@ def import_datafiles_to_db():
     for task in tasks:
         handler = task['handler']
         logman.info('Checking kjarna-orð files for %s ..' % (handler.group.value, ))
-        for ord_file in task['kjarna-orð']:
-            logman.info('Orð file "%s"' % (ord_file, ))
+        wordCount = len(task['kjarna-orð'])
+        for index, ord_file in enumerate(task['kjarna-orð']):
+            logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
             isl_ord = handler()
             isl_ord.load_from_file(ord_file)
             _, changes_made = isl_ord.write_to_db()
@@ -48,9 +49,10 @@ def import_datafiles_to_db():
     for task in tasks:
         handler = task['handler']
         logman.info('Checking samsett-orð files for %s ..' % (handler.group.value, ))
-        for ord_file in task['samsett-orð']:
+        wordCount = len(task['samsett-orð'])
+        for index, ord_file in enumerate(task['samsett-orð']):
             try:
-                logman.info('Orð file "%s"' % (ord_file, ))
+                logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
                 isl_ord = handler()
                 isl_ord.load_from_file(ord_file)
                 _, changes_made = isl_ord.write_to_db()
