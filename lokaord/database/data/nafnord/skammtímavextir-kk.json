@@ -1,0 +1,27 @@
+{
+	"orð": "skammtímavextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"beygingar": ["ft-ág", "ft-mg"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["skammtímavextir", "skammtímavexti", "skammtímavöxtum", "skammtímavaxta"],
+		"mg": ["skammtímavextirnir", "skammtímavextina", "skammtímavöxtunum", "skammtímavaxtanna"]
+	},
+	"kennistrengur": "no-skammtímavextir-kk",
+	"hash": "b04ae51d9900d812fa21715d0ea34831b4339d8e7a965a0494b37a999b960149"
+}
