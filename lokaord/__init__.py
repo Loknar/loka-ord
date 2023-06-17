@@ -29,6 +29,15 @@ class LoggerRoles(str, Enum):
     mod = 'mod'
 
 
+class LogLevel(str, Enum):
+    notset = 'notset'
+    debug = 'debug'
+    info = 'info'
+    warn = 'warn'
+    error = 'error'
+    critical = 'critical'
+
+
 class TimeOffset(str, Enum):
     last2min = 'last2min'
     last10min = 'last10min'

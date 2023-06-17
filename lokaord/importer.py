@@ -33,35 +33,43 @@ def import_datafiles_to_db():
     logman.info('Importing kjarna orð.')
     for task in tasks:
         handler = task['handler']
-        logman.info('Checking kjarna-orð files for %s ..' % (handler.group.value, ))
+        logman.info('Doing kjarna-orð files for %s ..' % (handler.group.value, ))
         wordCount = len(task['kjarna-orð'])
         for index, ord_file in enumerate(task['kjarna-orð']):
-            logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+            if index % 100 == 0:
+                logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+            else:
+                logman.debug('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
             isl_ord = handler()
             isl_ord.load_from_file(ord_file)
             _, changes_made = isl_ord.write_to_db()
             if changes_made is True:
-                logman.info('Orð %s in file "%s" was changed.' % (
+                logman.debug('Orð %s in file "%s" was changed.' % (
                     isl_ord.data.kennistrengur, ord_file
                 ))
     # samsett-orð
     logman.info('Importing samsett orð.')
     for task in tasks:
         handler = task['handler']
-        logman.info('Checking samsett-orð files for %s ..' % (handler.group.value, ))
+        logman.info('Doing samsett-orð files for %s ..' % (handler.group.value, ))
         wordCount = len(task['samsett-orð'])
         for index, ord_file in enumerate(task['samsett-orð']):
             try:
-                logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+                if index % 100 == 0:
+                    logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+                else:
+                    logman.debug('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
                 isl_ord = handler()
                 isl_ord.load_from_file(ord_file)
                 _, changes_made = isl_ord.write_to_db()
                 if changes_made is True:
-                    logman.info('Orð %s in file "%s" was changed.' % (
+                    logman.debug('Orð %s in file "%s" was changed.' % (
                         isl_ord.data.kennistrengur, ord_file
                     ))
             except VoidKennistrengurError:
-                logman.info('Encountered void kennistrengur, skipping.')
+                logman.debug('Encountered void kennistrengur for orð %s in file "%s", skipping.' % (
+                    isl_ord.data.kennistrengur, ord_file
+                ))
                 task_retries.append({
                     'handler': handler,
                     'file': ord_file,
@@ -72,23 +80,23 @@ def import_datafiles_to_db():
     for task in task_retries:
         handler = task['handler']
         ord_file = task['file']
-        logman.info('Orð file "%s"' % (ord_file, ))
+        logman.debug('Orð file "%s"' % (ord_file, ))
         isl_ord = handler()
         isl_ord.load_from_file(ord_file)
         _, changes_made = isl_ord.write_to_db()
         if changes_made is True:
-            logman.info('Orð %s in file "%s" was changed.' % (
+            logman.debug('Orð %s in file "%s" was changed.' % (
                 isl_ord.data.kennistrengur, ord_file
             ))
     # skammstafanir
     logman.info('Importing skammstafanir.')
     for skammstofun_file in handlers.Skammstofun.get_files_list_sorted():
-        logman.info('Skammstöfun file "%s"' % (skammstofun_file, ))
+        logman.debug('Skammstöfun file "%s"' % (skammstofun_file, ))
         skammstofun = handlers.Skammstofun()
         skammstofun.load_from_file(skammstofun_file)
         _, changes_made = skammstofun.write_to_db()
         if changes_made is True:
-            logman.info('Skammstöfun %s in file "%s" was changed.' % (
+            logman.debug('Skammstöfun %s in file "%s" was changed.' % (
                 skammstofun.data.kennistrengur, skammstofun_file
             ))
     logman.info('Done importing data from datafiles to database.')

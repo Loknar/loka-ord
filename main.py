@@ -32,6 +32,7 @@ def common(
         )
     ] = None,
     logger_name: Annotated[str, typer.Option('--logger-name', '-ln')] = lokaord.Name,
+    loglevel: Annotated[lokaord.LogLevel, typer.Option('--loglevel', '-ll')] = 'info',
     log_directory: Annotated[
         Path, typer.Option(
             '--log-directory', '-ldir', help='Directory to write logs in. Should already exist.'
@@ -47,7 +48,7 @@ def common(
         raise typer.BadParameter(f'Please ensure provided log-directory "{log_directory}" exists.')
     if not log_directory.is_dir():
         raise typer.BadParameter(f'Provided log-directory "{log_directory}" is not a directory.')
-    lokaord.logman.init(logger_name, role=role, output_dir=log_directory)
+    lokaord.logman.init(logger_name, level=loglevel, role=role, output_dir=log_directory)
     if len(sys.argv) <= 1:
         print(
             'Usage: lokaord [OPTIONS] COMMAND1 [ARGS]... [COMMAND2 [ARGS]...]...\n'

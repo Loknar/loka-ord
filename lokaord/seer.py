@@ -432,7 +432,7 @@ def build_sight(filename='sight', use_pointless=None):
     for task in knowledge_tasks:
         logman.info('Accumulating "%s" knowledge ..' % (task['name'], ))
         for ord_file in sorted(pathlib.Path(os.path.join(task['root'], task['dir'])).iterdir()):
-            logman.info('File %s ..' % (os.path.join(task['dir'], ord_file.name), ))
+            logman.debug('File %s ..' % (os.path.join(task['dir'], ord_file.name), ))
             ord_data = None
             with ord_file.open(mode='r', encoding='utf-8') as fi:
                 ord_data = json.loads(fi.read())
@@ -460,8 +460,9 @@ def build_sight(filename='sight', use_pointless=None):
             sight['kennistrengur'][ord_data['kennistrengur']] = ord_data['hash']
             if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
                 add_myndir(ord_data, sight, ord_mynd, ord_data['hash'])
+    logman.info('Accumulating "skammstafanir" knowledge ..')
     for sk_file in sorted(pathlib.Path(os.path.join(task['root'], 'skammstafanir')).iterdir()):
-        logman.info('File %s ..' % (os.path.join('skammstafanir', sk_file.name), ))
+        logman.debug('File %s ..' % (os.path.join('skammstafanir', sk_file.name), ))
         sk_data = None
         with sk_file.open(mode='r', encoding='utf-8') as fi:
             sk_data = json.loads(fi.read())

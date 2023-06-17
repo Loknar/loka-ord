@@ -43,6 +43,15 @@ Log_Config = {
     'time_format': '%Y-%m-%dT%H:%M:%S'
 }
 
+Log_Levels = {
+    'notset': logging.NOTSET,
+    'debug': logging.DEBUG,
+    'info': logging.INFO,
+    'warn': logging.WARN,
+    'error': logging.ERROR,
+    'critical': logging.CRITICAL,
+}
+
 
 class JSONFormatter(logging.Formatter):
     '''formats log records to single line minified JSON format'''
@@ -215,7 +224,8 @@ class ColoredFormatter(logging.Formatter):
 
 
 def configure_logger(
-    name, role, config, output_dir='./', log_to_cli=False, colored_cli=True, log_to_file=True
+    name, role, config, output_dir='./', log_to_cli=False, colored_cli=True, log_to_file=True,
+    log_to_json=True
 ):
     logger = logging.getLogger(name)
     log_level = config['loglevel']
@@ -261,9 +271,10 @@ def configure_logger(
             log_file_json, 'a', encoding='utf-8', delay=True
         )
         file_handler_json.setLevel(log_level)
-        formatter_json = JSONFormatter(config['json_format'])
-        file_handler_json.setFormatter(formatter_json)
-        logger.addHandler(file_handler_json)
+        if log_to_json:
+            formatter_json = JSONFormatter(config['json_format'])
+            file_handler_json.setFormatter(formatter_json)
+            logger.addHandler(file_handler_json)
     return logger
 
 
@@ -290,12 +301,20 @@ def extend_log_functions(logger_to_extend):
     log = logger_to_extend.log
 
 
-def init(name=None, role='cli', output_dir='./logs/', log_to_cli=True, log_to_file=True):
-    global Name, Logger, Log_Config
+def init(
+    name=None, level=None, role='cli', output_dir='./logs/', log_to_cli=True, colored_cli=True,
+    log_to_file=True, log_to_json=False
+):
+    global Name, Logger, Log_Config, Log_Levels
     assert(role in ('cli', 'api', 'cron', 'hook', 'mod'))
+
+    log_config = copy.deepcopy(Log_Config)
 
     if name is None:
         name = Name
+
+    if level in Log_Levels:
+        log_config['loglevel'] = Log_Levels[level]
 
     if Logger is not None:
         Logger.warning('logger already initialized')
@@ -307,7 +326,8 @@ def init(name=None, role='cli', output_dir='./logs/', log_to_cli=True, log_to_fi
         )
 
     # create main logger
-    Logger = configure_logger(name, role, Log_Config, output_dir_abs, log_to_cli, log_to_file)
+    Logger = configure_logger(
+        name, role, log_config, output_dir_abs, log_to_cli, colored_cli, log_to_file, log_to_json)
     # extend log functions
     extend_log_functions(Logger)
 

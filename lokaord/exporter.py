@@ -36,7 +36,7 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
         edited_str = ''
         if ts is not None:
             edited_str = ' (edited: %s)' % (isl_ord_record.Edited.isoformat(), )
-        logman.info('Wrote orð with id=%s to file "%s"%s.' % (
+        logman.debug('Wrote orð with id=%s to file "%s"%s.' % (
             isl_ord_record.Ord_id, isl_ord.make_filename(), edited_str
         ))
     logman.info('Writing skammstafanir data from database to datafiles ..')
@@ -54,7 +54,7 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
         edited_str = ''
         if ts is not None:
             edited_str = ' (edited: %s)' % (skammstofun_record.Edited.isoformat(), )
-        logman.info('Wrote skammstöfun with id=%s to file "%s"%s.' % (
+        logman.debug('Wrote skammstöfun with id=%s to file "%s"%s.' % (
             skammstofun_record.Skammstofun_id, skammstofun.make_filename(), edited_str
         ))
     logman.info('Done writing data from database to datafiles.')
