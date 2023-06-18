@@ -60,6 +60,8 @@ python main.py build-sight
 python main.py md-stats
 ```
 
+Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 3000 orð) þá tekur `init` ferlið einhvern tíma. Tölva með góða spekka og linux stýrikerfi klárar það á um einni og hálfri mínútu, meðalgóð fartölva með linux stýrikerfi þarf kringum fjórar mínútur, þá hefur sýnt sig að á tölvum með windows stýrikerfi sé ferlið töluvert lengra, geti jafnvel tekið yfir 20 mínútur.
+
 **TODO: laga þessa virkni, er brotin eins og er** Bæta við orði í gegnum skipanalínu (CLI):
 
 ```bash
