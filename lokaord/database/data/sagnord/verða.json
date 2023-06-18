@@ -1,0 +1,88 @@
+{
+	"orð": "verða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "verða",
+		"sagnbót": "orðið",
+		"boðháttur": {
+			"stýfður": "verð",
+			"et": "vertu",
+			"ft": "verðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verð", "verður", "verður"],
+					"ft": ["verðum", "verðið", "verða"]
+				},
+				"þátíð": {
+					"et": ["varð", "varðst", "varð"],
+					"ft": ["urðum", "urðuð", "urðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verði", "verðir", "verði"],
+					"ft": ["verðum", "verðið", "verði"]
+				},
+				"þátíð": {
+					"et": ["yrði", "yrðir", "yrði"],
+					"ft": ["yrðum", "yrðuð", "yrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðurðu",
+					"ft": "verðiði"
+				},
+				"þátíð": {
+					"et": "varðstu",
+					"ft": "urðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðirðu",
+					"ft": "verðiði"
+				},
+				"þátíð": {
+					"et": "yrðirðu",
+					"ft": "yrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["orðinn", "orðinn", "orðnum", "orðins"],
+					"kvk": ["orðin", "orðna", "orðinni", "orðinnar"],
+					"hk": ["orðið", "orðið", "orðnu", "orðins"]
+				},
+				"ft": {
+					"kk": ["orðnir", "orðna", "orðnum", "orðinna"],
+					"kvk": ["orðnar", "orðnar", "orðnum", "orðinna"],
+					"hk": ["orðin", "orðin", "orðnum", "orðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["orðni", "orðna", "orðna", "orðna"],
+					"kvk": ["orðna", "orðnu", "orðnu", "orðnu"],
+					"hk": ["orðna", "orðna", "orðna", "orðna"]
+				},
+				"ft": {
+					"kk": ["orðnu", "orðnu", "orðnu", "orðnu"],
+					"kvk": ["orðnu", "orðnu", "orðnu", "orðnu"],
+					"hk": ["orðnu", "orðnu", "orðnu", "orðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verða",
+	"hash": "3501d53a9e28748169afb5f11c060a4bf44a6993017f1abe695566e054b38110"
+}
