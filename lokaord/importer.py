@@ -37,9 +37,9 @@ def import_datafiles_to_db():
         wordCount = len(task['kjarna-orð'])
         for index, ord_file in enumerate(task['kjarna-orð']):
             if index % 100 == 0:
-                logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+                logman.info('Orð %s of %s, file "%s"' % (index + 1, wordCount, ord_file, ))
             else:
-                logman.debug('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+                logman.debug('Orð %s of %s, file "%s"' % (index + 1, wordCount, ord_file, ))
             isl_ord = handler()
             isl_ord.load_from_file(ord_file)
             _, changes_made = isl_ord.write_to_db()
@@ -56,9 +56,9 @@ def import_datafiles_to_db():
         for index, ord_file in enumerate(task['samsett-orð']):
             try:
                 if index % 100 == 0:
-                    logman.info('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+                    logman.info('Orð %s of %s, file "%s"' % (index + 1, wordCount, ord_file, ))
                 else:
-                    logman.debug('Orð %s of %s, file "%s"' % (index, wordCount, ord_file, ))
+                    logman.debug('Orð %s of %s, file "%s"' % (index + 1, wordCount, ord_file, ))
                 isl_ord = handler()
                 isl_ord.load_from_file(ord_file)
                 _, changes_made = isl_ord.write_to_db()
