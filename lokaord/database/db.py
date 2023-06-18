@@ -102,4 +102,4 @@ def init(name: str):
         db_uri = create_db_uri(name)
         setup_connection(db_uri, db_echo=False)
         init_db()
-        logman.info('Database initialized.')
+        logman.info('Database connection initialized.')
