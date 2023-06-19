@@ -1,0 +1,155 @@
+{
+	"orð": "senda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "senda",
+		"sagnbót": "sent",
+		"boðháttur": {
+			"stýfður": "send",
+			"et": "sentu",
+			"ft": "sendið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sendi", "sendir", "sendir"],
+					"ft": ["sendum", "sendið", "senda"]
+				},
+				"þátíð": {
+					"et": ["senti", "sentir", "senti"],
+					"ft": ["sentum", "sentuð", "sentu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sendi", "sendir", "sendi"],
+					"ft": ["sendum", "sendið", "sendi"]
+				},
+				"þátíð": {
+					"et": ["senti", "sentir", "senti"],
+					"ft": ["sentum", "sentuð", "sentu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sendirðu",
+					"ft": "sendiði"
+				},
+				"þátíð": {
+					"et": "sentirðu",
+					"ft": "sentuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sendirðu",
+					"ft": "sendiði"
+				},
+				"þátíð": {
+					"et": "sentirðu",
+					"ft": "sentuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sendast",
+		"sagnbót": "senst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sendist", "sendist", "sendist"],
+					"ft": ["sendumst", "sendist", "sendast"]
+				},
+				"þátíð": {
+					"et": ["sentist", "sentist", "sentist"],
+					"ft": ["sentumst", "sentust", "sentust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sendist", "sendist", "sendist"],
+					"ft": ["sendumst", "sendist", "sendist"]
+				},
+				"þátíð": {
+					"et": ["sentist", "sentist", "sentist"],
+					"ft": ["sentumst", "sentust", "sentust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sendist", "sendist", "sendist"],
+					"ft": ["sendist", "sendist", "sendist"]
+				},
+				"þátíð": {
+					"et": ["sentist", "sentist", "sentist"],
+					"ft": ["sentist", "sentist", "sentist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sendist", "sendist", "sendist"],
+					"ft": ["sendist", "sendist", "sendist"]
+				},
+				"þátíð": {
+					"et": ["sentist", "sentist", "sentist"],
+					"ft": ["sentist", "sentist", "sentist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sendistu"
+				},
+				"þátíð": {
+					"et": "sentistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sendistu"
+				},
+				"þátíð": {
+					"et": "sentistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sendandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sentur", "sentan", "sentum", "sents"],
+					"kvk": ["sent", "senta", "sentri", "sentrar"],
+					"hk": ["sent", "sent", "sentu", "sents"]
+				},
+				"ft": {
+					"kk": ["sentir", "senta", "sentum", "sentra"],
+					"kvk": ["sentar", "sentar", "sentum", "sentra"],
+					"hk": ["sent", "sent", "sentum", "sentra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["senti", "senta", "senta", "senta"],
+					"kvk": ["senta", "sentu", "sentu", "sentu"],
+					"hk": ["senta", "senta", "senta", "senta"]
+				},
+				"ft": {
+					"kk": ["sentu", "sentu", "sentu", "sentu"],
+					"kvk": ["sentu", "sentu", "sentu", "sentu"],
+					"hk": ["sentu", "sentu", "sentu", "sentu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-senda",
+	"hash": "3717e03c1d6941a020c06428fa86adf3081aabe6f1a09a3fa82595290f79832c"
+}
