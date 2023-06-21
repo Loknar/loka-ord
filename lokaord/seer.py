@@ -71,7 +71,9 @@ def word_change_possibilities(word: str) -> list[str]:
     possibilities = sorted(
         list(set(itertools.permutations(
             [True] * len(changes) + [False] * (len(changes) - 1),
-            len(changes)))), reverse=True
+            len(changes)))
+        ),
+        reverse=True
     )
     for possibility in possibilities:
         myset.add(apply_possibility(word, possibility, changes))
@@ -447,7 +449,7 @@ def build_sight(filename='sight', use_pointless=None):
                 ord_data['tölugildi'] = str(ord_data['tölugildi'])
             if (
                 ord_mynd.startswith('smáorð') or
-                ord_mynd == 'sérnafn.millinafn' or
+                ord_mynd == 'sérnafn.miłlinafn' or
                 ('óbeygjanlegt' in ord_data and ord_data['óbeygjanlegt'] is True)
             ):
                 if ord_data['orð'] not in sight['orð']:
