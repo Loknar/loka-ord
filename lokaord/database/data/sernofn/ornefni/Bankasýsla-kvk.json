@@ -1,0 +1,23 @@
+{
+	"orð": "Bankasýsla",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"beygingar": ["et-ág", "et-mg"],
+			"kennistrengur": "no-sýsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Bankasýsla", "Bankasýslu", "Bankasýslu", "Bankasýslu"],
+		"mg": ["Bankasýslan", "Bankasýsluna", "Bankasýslunni", "Bankasýslunnar"]
+	},
+	"kennistrengur": "sérn.ön-Bankasýsla-kvk",
+	"hash": "df173e8da1ac01bd71cafbc85331831b12f855d8681b5ac5c651dcbd470aa77b"
+}
