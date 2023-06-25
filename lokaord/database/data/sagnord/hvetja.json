@@ -1,0 +1,88 @@
+{
+	"orð": "hvetja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hvetja",
+		"sagnbót": "hvatt",
+		"boðháttur": {
+			"stýfður": "hvet",
+			"et": "hvettu",
+			"ft": "hvetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hvet", "hvetur", "hvetur"],
+					"ft": ["hvetjum", "hvetjið", "hvetja"]
+				},
+				"þátíð": {
+					"et": ["hvatti", "hvattir", "hvatti"],
+					"ft": ["hvöttum", "hvöttuð", "hvöttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hvetji", "hvetjir", "hvetji"],
+					"ft": ["hvetjum", "hvetjið", "hvetji"]
+				},
+				"þátíð": {
+					"et": ["hvetti", "hvettir", "hvettir"],
+					"ft": ["hvettum", "hvettuð", "hvettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hveturðu",
+					"ft": "hvetjiði"
+				},
+				"þátíð": {
+					"et": "hvattirðu",
+					"ft": "hvöttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hvetjirðu",
+					"ft": "hvetjiði"
+				},
+				"þátíð": {
+					"et": "hvettirðu",
+					"ft": "hvettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hvetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hvattur", "hvattan", "hvöttum", "hvatts"],
+					"kvk": ["hvött", "hvatta", "hvattri", "hvattrar"],
+					"hk": ["hvatt", "hvatt", "hvöttu", "hvatts"]
+				},
+				"ft": {
+					"kk": ["hvattir", "hvatta", "hvöttum", "hvattra"],
+					"kvk": ["hvattar", "hvattar", "hvöttum", "hvattra"],
+					"hk": ["hvött", "hvött", "hvöttum", "hvattra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hvatti", "hvatta", "hvatta", "hvatta"],
+					"kvk": ["hvatta", "hvöttu", "hvöttu", "hvöttu"],
+					"hk": ["hvatta", "hvatta", "hvatta", "hvatta"]
+				},
+				"ft": {
+					"kk": ["hvöttu", "hvöttu", "hvöttu", "hvöttu"],
+					"kvk": ["hvöttu", "hvöttu", "hvöttu", "hvöttu"],
+					"hk": ["hvöttu", "hvöttu", "hvöttu", "hvöttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hvetja",
+	"hash": "dd61e9bbfca93032d260f6643336fa72e003f09821d1fe524d31ceda77d4f7dc"
+}
