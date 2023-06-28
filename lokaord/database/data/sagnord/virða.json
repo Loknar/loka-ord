@@ -1,0 +1,132 @@
+{
+	"orð": "virða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "virða",
+		"sagnbót": "virt",
+		"boðháttur": {
+			"stýfður": "virð",
+			"et": "virtu",
+			"ft": "virðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["virði", "virðir", "virðir"],
+					"ft": ["virðum", "virðið", "virða"]
+				},
+				"þátíð": {
+					"et": ["virti", "virtir", "virti"],
+					"ft": ["virtum", "virtuð", "virtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["virði", "virðir", "virði"],
+					"ft": ["virðum", "virðið", "virði"]
+				},
+				"þátíð": {
+					"et": ["virti", "virtir", "virti"],
+					"ft": ["virtum", "virtuð", "virtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "virðirðu",
+					"ft": "virðiði"
+				},
+				"þátíð": {
+					"et": "virtirðu",
+					"ft": "virtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "virðirðu",
+					"ft": "virðiði"
+				},
+				"þátíð": {
+					"et": "virtirðu",
+					"ft": "virtuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "virðast",
+		"sagnbót": "virðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["virðist", "virðist", "virðist"],
+					"ft": ["virðumst", "virðist", "virðast"]
+				},
+				"þátíð": {
+					"et": ["virtist", "virtist", "virtist"],
+					"ft": ["virtumst", "virtust", "virtust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["virðist", "virðist", "virðist"],
+					"ft": ["virðumst", "virðist", "virðist"]
+				},
+				"þátíð": {
+					"et": ["virtist", "virtist", "virtist"],
+					"ft": ["virtumst", "virtust", "virtust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "virðistu"
+				},
+				"þátíð": {
+					"et": "virtistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "virðistu"
+				},
+				"þátíð": {
+					"et": "virtistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "virðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["virtur", "virtan", "virtum", "virts"],
+					"kvk": ["virt", "virta", "virtri", "virtrar"],
+					"hk": ["rætt", "rætt", "virtu", "virts"]
+				},
+				"ft": {
+					"kk": ["virtir", "virta", "virtum", "virtra"],
+					"kvk": ["virtar", "virtar", "virtum", "virtra"],
+					"hk": ["virt", "virt", "virtum", "virtra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["virti", "virta", "virta", "virta"],
+					"kvk": ["virta", "virtu", "virtu", "virtu"],
+					"hk": ["virta", "virta", "virta", "virta"]
+				},
+				"ft": {
+					"kk": ["virtu", "virtu", "virtu", "virtu"],
+					"kvk": ["virtu", "virtu", "virtu", "virtu"],
+					"hk": ["virtu", "virtu", "virtu", "virtu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-virða",
+	"hash": "31f05776a61ee82da8f37eae0cc04ec9648ead25d68066230d04ac3df016f73b"
+}
