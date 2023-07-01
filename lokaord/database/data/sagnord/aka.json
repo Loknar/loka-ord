@@ -1,0 +1,114 @@
+{
+	"orð": "aka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "aka",
+		"sagnbót": "ekið",
+		"boðháttur": {
+			"stýfður": "ak",
+			"et": "aktu",
+			"ft": "akið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ek", "ekur", "ekur"],
+					"ft": ["ökum", "akið", "aka"]
+				},
+				"þátíð": {
+					"et": ["ók", "ókst", "ók"],
+					"ft": ["ókum", "ókuð", "óku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aki", "akir", "aki"],
+					"ft": ["ökum", "akið", "aki"]
+				},
+				"þátíð": {
+					"et": ["æki", "ækir", "æki"],
+					"ft": ["ækjum", "ækjuð", "ækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ekurðu",
+					"ft": "akiði"
+				},
+				"þátíð": {
+					"et": "ókstu",
+					"ft": "ókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "akirðu",
+					"ft": "akiði"
+				},
+				"þátíð": {
+					"et": "ækirðu",
+					"ft": "ækjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "akast",
+		"sagnbót": "ekist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ekst", "ekst", "ekst"],
+					"ft": ["ökumst", "akist", "akast"]
+				},
+				"þátíð": {
+					"et": ["ókst", "ókst", "ókst"],
+					"ft": ["ókumst", "ókust", "ókust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["akist", "akist", "akist"],
+					"ft": ["ökumst", "akist", "akist"]
+				},
+				"þátíð": {
+					"et": ["ækist", "ækist", "ækist"],
+					"ft": ["ækjumst", "ækjust", "ækjust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "akandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ekinn", "ekinn", "eknum", "ekins"],
+					"kvk": ["ekin", "ekna", "ekinni", "ekinnar"],
+					"hk": ["ekið", "ekið", "eknu", "ekins"]
+				},
+				"ft": {
+					"kk": ["eknir", "ekna", "eknum", "ekinna"],
+					"kvk": ["eknar", "eknar", "eknum", "ekinna"],
+					"hk": ["ekin", "ekin", "eknum", "ekinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ekni", "ekna", "ekna", "ekna"],
+					"kvk": ["ekna", "eknu", "eknu", "eknu"],
+					"hk": ["ekna", "ekna", "ekna", "ekna"]
+				},
+				"ft": {
+					"kk": ["eknu", "eknu", "eknu", "eknu"],
+					"kvk": ["eknu", "eknu", "eknu", "eknu"],
+					"hk": ["eknu", "eknu", "eknu", "eknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aka",
+	"hash": "e777b722bdb48b18908641a8d40d2ddaec0812348149f9f2c67cfdbda4a0b427"
+}

@@ -1,0 +1,88 @@
+{
+	"orð": "inna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "inna",
+		"sagnbót": "innt",
+		"boðháttur": {
+			"stýfður": "inn",
+			"et": "inntu",
+			"ft": "innið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["inni", "innir", "innir"],
+					"ft": ["innum", "innið", "inna"]
+				},
+				"þátíð": {
+					"et": ["innti", "inntir", "innti"],
+					"ft": ["inntum", "inntuð", "inntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["inni", "innir", "inni"],
+					"ft": ["innum", "innið", "inni"]
+				},
+				"þátíð": {
+					"et": ["innti", "inntir", "innti"],
+					"ft": ["inntum", "inntuð", "inntu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "innirðu",
+					"ft": "inniði"
+				},
+				"þátíð": {
+					"et": "inntirðu",
+					"ft": "inntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "innirðu",
+					"ft": "inniði"
+				},
+				"þátíð": {
+					"et": "inntirðu",
+					"ft": "inntuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "innandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["inntur", "inntan", "inntum", "innts"],
+					"kvk": ["innt", "innta", "inntri", "inntrar"],
+					"hk": ["innt", "innt", "inntu", "innts"]
+				},
+				"ft": {
+					"kk": ["inntir", "innta", "inntum", "inntra"],
+					"kvk": ["inntar", "inntar", "inntum", "inntra"],
+					"hk": ["innt", "innt", "inntum", "inntra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["innti", "innta", "innta", "innta"],
+					"kvk": ["innta", "inntu", "inntu", "inntu"],
+					"hk": ["innta", "innta", "innta", "innta"]
+				},
+				"ft": {
+					"kk": ["inntu", "inntu", "inntu", "inntu"],
+					"kvk": ["inntu", "inntu", "inntu", "inntu"],
+					"hk": ["inntu", "inntu", "inntu", "inntu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-inna",
+	"hash": "33cd17b9ab4b4a0384cf640f2725e371530a3fe5eca93e3c8d7703ac03f15761"
+}

@@ -1,0 +1,132 @@
+{
+	"orð": "reka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "reka",
+		"sagnbót": "rekið",
+		"boðháttur": {
+			"stýfður": "rek",
+			"et": "rektu",
+			"ft": "rekið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rek", "rekur", "rekur"],
+					"ft": ["rekum", "rekið", "reka"]
+				},
+				"þátíð": {
+					"et": ["rak", "rakst", "rak"],
+					"ft": ["rákum", "rákuð", "ráku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reki", "rekir", "reki"],
+					"ft": ["rekum", "rekið", "reki"]
+				},
+				"þátíð": {
+					"et": ["ræki", "rækir", "ræki"],
+					"ft": ["rækjum", "rækjuð", "rækjuð"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rekurðu",
+					"ft": "rekiði"
+				},
+				"þátíð": {
+					"et": "rakstu",
+					"ft": "rákuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rekirðu",
+					"ft": "rekiði"
+				},
+				"þátíð": {
+					"et": "rækirðu",
+					"ft": "rækjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rekast",
+		"sagnbót": "rekist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rekst", "rekst", "rekst"],
+					"ft": ["rekumst", "rekist", "rekast"]
+				},
+				"þátíð": {
+					"et": ["rakst", "rakst", "rakst"],
+					"ft": ["rákumst", "rákust", "rákust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rekist", "rekist", "rekist"],
+					"ft": ["rekumst", "rekist", "rekist"]
+				},
+				"þátíð": {
+					"et": ["rækist", "rækist", "rækist"],
+					"ft": ["rækjumst", "rækjust", "rækjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rekstu"
+				},
+				"þátíð": {
+					"et": "rakstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rekistu"
+				},
+				"þátíð": {
+					"et": "rækistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rekandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rekinn", "rekinn", "reknum", "rekins"],
+					"kvk": ["rekin", "rekna", "rekinni", "rekinnar"],
+					"hk": ["rekið", "rekið", "reknu", "rekins"]
+				},
+				"ft": {
+					"kk": ["reknir", "rekna", "reknum", "rekinna"],
+					"kvk": ["reknar", "reknar", "reknum", "rekinna"],
+					"hk": ["rekin", "rekin", "reknum", "rekinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["rekni", "rekna", "rekna", "rekna"],
+					"kvk": ["rekna", "reknu", "reknu", "reknu"],
+					"hk": ["rekna", "rekna", "rekna", "rekna"]
+				},
+				"ft": {
+					"kk": ["reknu", "reknu", "reknu", "reknu"],
+					"kvk": ["reknu", "reknu", "reknu", "reknu"],
+					"hk": ["reknu", "reknu", "reknu", "reknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reka",
+	"hash": "326a43d2dc0116e0c24f18111d404b4dbb74f18058d2221e4d4bdffff1c056db"
+}
