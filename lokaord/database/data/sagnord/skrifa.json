@@ -1,0 +1,132 @@
+{
+	"orð": "skrifa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skrifa",
+		"sagnbót": "skrifað",
+		"boðháttur": {
+			"stýfður": "skrifa",
+			"et": "skrifaðu",
+			"ft": "skrifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrifa", "skrifar", "skrifar"],
+					"ft": ["skrifum", "skrifið", "skrifa"]
+				},
+				"þátíð": {
+					"et": ["skrifaði", "skrifaðir", "skrifaði"],
+					"ft": ["skrifuðum", "skrifuðuð", "skrifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrifi", "skrifir", "skrifi"],
+					"ft": ["skrifum", "skrifið", "skrifi"]
+				},
+				"þátíð": {
+					"et": ["skrifaði", "skrifaðir", "skrifaði"],
+					"ft": ["skrifuðum", "skrifuðuð", "skrifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrifarðu",
+					"ft": "skrifiði"
+				},
+				"þátíð": {
+					"et": "skrifaðirðu",
+					"ft": "skrifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrifirðu",
+					"ft": "skrifiði"
+				},
+				"þátíð": {
+					"et": "skrifaðirðu",
+					"ft": "skrifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skrifast",
+		"sagnbót": "skrifast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrifast", "skrifast", "skrifast"],
+					"ft": ["skrifumst", "skrifist", "skrifast"]
+				},
+				"þátíð": {
+					"et": ["skrifaðist", "skrifaðist", "skrifaðist"],
+					"ft": ["skrifuðumst", "skrifuðust", "skrifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrifist", "skrifist", "skrifist"],
+					"ft": ["skrifumst", "skrifist", "skrifist"]
+				},
+				"þátíð": {
+					"et": ["skrifaðist", "skrifaðist", "skrifaðist"],
+					"ft": ["skrifuðumst", "skrifuðust", "skrifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrifastu"
+				},
+				"þátíð": {
+					"et": "skrifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrifistu"
+				},
+				"þátíð": {
+					"et": "skrifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrifaður", "skrifaðan", "skrifuðum", "skrifaðs"],
+					"kvk": ["skrifuð", "skrifaða", "skrifaðri", "skrifaðrar"],
+					"hk": ["skrifað", "skrifað", "skrifuðu", "skrifaðs"]
+				},
+				"ft": {
+					"kk": ["skrifaðir", "skrifaða", "skrifuðum", "skrifaðra"],
+					"kvk": ["skrifaðar", "skrifaðar", "skrifuðum", "skrifaðra"],
+					"hk": ["skrifuð", "skrifuð", "skrifuðum", "skrifaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skrifaði", "skrifaða", "skrifaða", "skrifaða"],
+					"kvk": ["skrifaða", "skrifuðu", "skrifuðu", "skrifuðu"],
+					"hk": ["skrifaða", "skrifaða", "skrifaða", "skrifaða"]
+				},
+				"ft": {
+					"kk": ["skrifuðu", "skrifuðu", "skrifuðu", "skrifuðu"],
+					"kvk": ["skrifuðu", "skrifuðu", "skrifuðu", "skrifuðu"],
+					"hk": ["skrifuðu", "skrifuðu", "skrifuðu", "skrifuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrifa",
+	"hash": "b19ca63a3c4bbf16aa329a48944fdb70043e91e8187e53a7d69b3ecd1a0830e8"
+}

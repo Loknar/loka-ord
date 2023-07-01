@@ -1,0 +1,88 @@
+{
+	"orð": "nema",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "nema",
+		"sagnbót": "numið",
+		"boðháttur": {
+			"stýfður": "nem",
+			"et": "nemdu",
+			"ft": "nemið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nem", "nemur", "nemur"],
+					"ft": ["nemum", "nemið", "nema"]
+				},
+				"þátíð": {
+					"et": ["nam", "namst", "nam"],
+					"ft": ["námum", "námuð", "námu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nemi", "nemir", "nemi"],
+					"ft": ["nemum", "nemið", "nemi"]
+				},
+				"þátíð": {
+					"et": ["næmi", "næmir", "næmi"],
+					"ft": ["næmum", "næmuð", "næmu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nemurðu",
+					"ft": "nemiði"
+				},
+				"þátíð": {
+					"et": "namstu",
+					"ft": "námuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nemirðu",
+					"ft": "nemiði"
+				},
+				"þátíð": {
+					"et": "næmirðu",
+					"ft": "næmuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nemandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["numinn", "numinn", "numdum", "numins"],
+					"kvk": ["numin", "numda", "numinni", "numinnar"],
+					"hk": ["numið", "numið", "numdu", "numins"]
+				},
+				"ft": {
+					"kk": ["numdir", "numda", "numdum", "numinna"],
+					"kvk": ["numdar", "numdar", "numdum", "numinna"],
+					"hk": ["numin", "numin", "numdum", "numinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["numdi", "numda", "numda", "numda"],
+					"kvk": ["numda", "numdu", "numdu", "numdu"],
+					"hk": ["numda", "numda", "numda", "numda"]
+				},
+				"ft": {
+					"kk": ["numdu", "numdu", "numdu", "numdu"],
+					"kvk": ["numdu", "numdu", "numdu", "numdu"],
+					"hk": ["numdu", "numdu", "numdu", "numdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nema",
+	"hash": "74099e9cf5634b1051201fa3ab5e7927cb044aeec5dbd185b85b90b51a6e894c"
+}

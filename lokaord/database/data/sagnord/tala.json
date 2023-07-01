@@ -1,0 +1,132 @@
+{
+	"orð": "tala",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "tala",
+		"sagnbót": "talað",
+		"boðháttur": {
+			"stýfður": "tala",
+			"et": "talaðu",
+			"ft": "talið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tala", "talar", "talar"],
+					"ft": ["tölum", "talið", "tala"]
+				},
+				"þátíð": {
+					"et": ["talaði", "talaðir", "talaði"],
+					"ft": ["töluðum", "töluðuð", "töluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tali", "talir", "tali"],
+					"ft": ["tölum", "talið", "tali"]
+				},
+				"þátíð": {
+					"et": ["talaði", "talaðir", "talaði"],
+					"ft": ["töluðum", "töluðuð", "töluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "talarðu",
+					"ft": "taliði"
+				},
+				"þátíð": {
+					"et": "talaðirðu",
+					"ft": "töluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "talirðu",
+					"ft": "taliði"
+				},
+				"þátíð": {
+					"et": "talaðirðu",
+					"ft": "töluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "talast",
+		"sagnbót": "talast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["talast", "talast", "talast"],
+					"ft": ["tölumst", "talist", "talast"]
+				},
+				"þátíð": {
+					"et": ["talaðist", "talaðist", "talaðist"],
+					"ft": ["töluðumst", "töluðust", "töluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["talist", "talist", "talist"],
+					"ft": ["tölumst", "talist", "talist"]
+				},
+				"þátíð": {
+					"et": ["talaðist", "talaðist", "talaðist"],
+					"ft": ["töluðumst", "töluðust", "töluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "talastu"
+				},
+				"þátíð": {
+					"et": "talaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "talistu"
+				},
+				"þátíð": {
+					"et": "talaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "talandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["talaður", "talaðan", "töluðum", "talaðs"],
+					"kvk": ["töluð", "talaða", "talaðri", "talaðrar"],
+					"hk": ["talað", "talað", "töluðu", "talaðs"]
+				},
+				"ft": {
+					"kk": ["talaðir", "talaða", "töluðum", "talaðra"],
+					"kvk": ["talaðar", "talaðar", "töluðum", "talaðra"],
+					"hk": ["töluð", "töluð", "töluðum", "talaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["talaði", "talaða", "talaða", "talaða"],
+					"kvk": ["talaða", "töluðu", "töluðu", "töluðu"],
+					"hk": ["talaða", "talaða", "talaða", "talaða"]
+				},
+				"ft": {
+					"kk": ["töluðu", "töluðu", "töluðu", "töluðu"],
+					"kvk": ["töluðu", "töluðu", "töluðu", "töluðu"],
+					"hk": ["töluðu", "töluðu", "töluðu", "töluðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tala",
+	"hash": "70be6c652835c50059f25af0478e19c8f05f33faf3864e0ddb5768d605c7f357"
+}

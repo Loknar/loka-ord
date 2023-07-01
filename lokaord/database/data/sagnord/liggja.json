@@ -1,0 +1,111 @@
+{
+	"orð": "liggja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "liggja",
+		"sagnbót": "legið",
+		"boðháttur": {
+			"stýfður": "ligg",
+			"et": "liggðu",
+			"ft": "liggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ligg", "liggur", "liggur"],
+					"ft": ["liggjum", "liggið", "liggja"]
+				},
+				"þátíð": {
+					"et": ["lá", "lást", "lát"],
+					"ft": ["láum", "láuð", "láu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["liggi", "liggir", "liggi"],
+					"ft": ["liggjum", "liggið", "liggi"]
+				},
+				"þátíð": {
+					"et": ["lægi", "lægir", "lægi"],
+					"ft": ["lægjum", "lægjuð", "lægju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["liggur", "liggur", "liggur"],
+					"ft": ["liggur", "liggur", "liggur"]
+				},
+				"þátíð": {
+					"et": ["lá", "lá", "lá"],
+					"ft": ["lá", "lá", "lá"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["liggi", "liggi", "liggi"],
+					"ft": ["liggi", "liggi", "liggi"]
+				},
+				"þátíð": {
+					"et": ["lægi", "lægi", "lægi"],
+					"ft": ["lægi", "lægi", "lægi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "liggurðu",
+					"ft": "liggiði"
+				},
+				"þátíð": {
+					"et": "lástu",
+					"ft": "láguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "liggirðu",
+					"ft": "liggiði"
+				},
+				"þátíð": {
+					"et": "lægirðu",
+					"ft": "lægjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "liggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leginn", "leginn", "legnum", "legins"],
+					"kvk": ["legin", "legna", "leginni", "leginnar"],
+					"hk": ["legið", "legið", "legnu", "legins"]
+				},
+				"ft": {
+					"kk": ["legnir", "legna", "legnum", "leginna"],
+					"kvk": ["legnar", "legnar", "legnum", "leginna"],
+					"hk": ["legin", "legin", "legnum", "leginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["legni", "legna", "legna", "legna"],
+					"kvk": ["legna", "legnu", "legnu", "legnu"],
+					"hk": ["legna", "legna", "legna", "legna"]
+				},
+				"ft": {
+					"kk": ["legnu", "legnu", "legnu", "legnu"],
+					"kvk": ["legnu", "legnu", "legnu", "legnu"],
+					"hk": ["legnu", "legnu", "legnu", "legnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-liggja",
+	"hash": "0cc3805823d5624c6a7327c76cabfafb9c6f82ef45fb818bad969dd65088f15b"
+}
