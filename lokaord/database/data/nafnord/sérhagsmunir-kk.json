@@ -1,0 +1,27 @@
+{
+	"orð": "sérhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft-ág", "ft-mg"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["sérhagsmunir", "sérhagsmuni", "sérhagsmunum", "sérhagsmuna"],
+		"mg": ["sérhagsmunirnir", "sérhagsmunina", "sérhagsmununum", "sérhagsmunanna"]
+	},
+	"kennistrengur": "no-sérhagsmunir-kk",
+	"hash": "7efe874cdd2d4813c5596f97b61cc0202a5f417b55dfa8eb5656377169b442be"
+}

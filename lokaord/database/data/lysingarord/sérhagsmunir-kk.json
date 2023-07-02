@@ -1,0 +1,31 @@
+{
+	"orð": "sérhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft-ág", "ft-mg"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"et": {
+		"ág": ["hagsmunaaðili", "hagsmunaaðila", "hagsmunaaðila", "hagsmunaaðila"],
+		"mg": ["hagsmunaaðilinn", "hagsmunaaðilann", "hagsmunaaðilanum", "hagsmunaaðilans"]
+	},
+	"ft": {
+		"ág": ["hagsmunaaðilar", "hagsmunaaðila", "hagsmunaaðilum", "hagsmunaaðila"],
+		"mg": ["hagsmunaaðilarnir", "hagsmunaaðilana", "hagsmunaaðilunum", "hagsmunaaðilanna"]
+	},
+	"kennistrengur": "no-sérhagsmunir-kk",
+	"hash": "tba"
+}

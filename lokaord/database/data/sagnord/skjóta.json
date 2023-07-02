@@ -1,0 +1,132 @@
+{
+	"orð": "skjóta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skjóta",
+		"sagnbót": "skotið",
+		"boðháttur": {
+			"stýfður": "skjót",
+			"et": "skjóttu",
+			"ft": "skjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skýt", "skýtur", "skýtur"],
+					"ft": ["skjótum", "skjótið", "skjóta"]
+				},
+				"þátíð": {
+					"et": ["skaut", "skaust", "skaut"],
+					"ft": ["skutum", "skutuð", "skutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skjóti", "skjótir", "skjóti"],
+					"ft": ["skjótum", "skjótið", "skjóti"]
+				},
+				"þátíð": {
+					"et": ["skyti", "skytir", "skyti"],
+					"ft": ["skytum", "skytuð", "skytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skýturðu",
+					"ft": "skjótiði"
+				},
+				"þátíð": {
+					"et": "skaustu",
+					"ft": "skutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skjótirðu",
+					"ft": "skjótiði"
+				},
+				"þátíð": {
+					"et": "skytirðu",
+					"ft": "skytuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skjótast",
+		"sagnbót": "skotist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skýst", "skýst", "skýst"],
+					"ft": ["skjótumst", "skjótist", "skjótast"]
+				},
+				"þátíð": {
+					"et": ["skaust", "skaust", "skaust"],
+					"ft": ["skutumst", "skutust", "skutust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skjótist", "skjótist", "skjótist"],
+					"ft": ["skjótumst", "skjótist", "skjótist"]
+				},
+				"þátíð": {
+					"et": ["skytist", "skytist", "skytist"],
+					"ft": ["skytumst", "skytust", "skytust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skýstu"
+				},
+				"þátíð": {
+					"et": "skaustu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skjótistu"
+				},
+				"þátíð": {
+					"et": "skytistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skotinn", "skotinn", "skotnum", "skotins"],
+					"kvk": ["skotin", "skotna", "skotinni", "skotinnar"],
+					"hk": ["skotið", "skotið", "skotnu", "skotins"]
+				},
+				"ft": {
+					"kk": ["skotnir", "skotna", "skotnum", "skotinna"],
+					"kvk": ["skotnar", "skotnar", "skotnum", "skotinna"],
+					"hk": ["skotin", "skotin", "skotnum", "skotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skotni", "skotna", "skotna", "skotna"],
+					"kvk": ["skotna", "skotnu", "skotnu", "skotnu"],
+					"hk": ["skotna", "skotna", "skotna", "skotna"]
+				},
+				"ft": {
+					"kk": ["skotnu", "skotnu", "skotnu", "skotnu"],
+					"kvk": ["skotnu", "skotnu", "skotnu", "skotnu"],
+					"hk": ["skotnu", "skotnu", "skotnu", "skotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skjóta",
+	"hash": "d94b58b6da57564aa0bbb11e7c153d36d05c531a81e3f2f36ce397737ba6ea0e"
+}
