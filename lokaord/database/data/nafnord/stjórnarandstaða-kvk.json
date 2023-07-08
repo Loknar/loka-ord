@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnarandstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-and-ó"
+		},
+		{
+			"beygingar": ["et-ág", "et-mg"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnarandstaða", "stjórnarandstöðu", "stjórnarandstöðu", "stjórnarandstöðu"],
+		"mg": ["stjórnarandstaðan", "stjórnarandstöðuna", "stjórnarandstöðunni", "stjórnarandstöðunnar"]
+	},
+	"kennistrengur": "no-stjórnarandstaða-kvk",
+	"hash": "db020eb92f46738929e53822d1af05048bd4bf95371ff2ab85f8443de86446d4"
+}
