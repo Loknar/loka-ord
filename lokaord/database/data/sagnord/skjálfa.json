@@ -1,0 +1,88 @@
+{
+	"orð": "skjálfa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skjálfa",
+		"sagnbót": "skolfið",
+		"boðháttur": {
+			"stýfður": "skjálf",
+			"et": "skjálfðu",
+			"ft": "skjálfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skelf", "skelfur", "skelfur"],
+					"ft": ["skjálfum", "skjálfið", "skjálfa"]
+				},
+				"þátíð": {
+					"et": ["skalf", "skalfst", "skalf"],
+					"ft": ["skulfum", "skulfuð", "skulfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skjálfi", "skjálfir", "skjálfi"],
+					"ft": ["skjálfum", "skjálfið", "skjálfi"]
+				},
+				"þátíð": {
+					"et": ["skylfi", "skylfir", "skylfi"],
+					"ft": ["skylfum", "skylfuð", "skylfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skelfurðu",
+					"ft": "skelfiði"
+				},
+				"þátíð": {
+					"et": "skalfstu",
+					"ft": "skulfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skelfirðu",
+					"ft": "skelfiði"
+				},
+				"þátíð": {
+					"et": "skylfirðu",
+					"ft": "skylfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skjálfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skolfinn", "skolfinn", "skolfnum", "skolfins"],
+					"kvk": ["skolfin", "skolfna", "skolfinni", "skolfinnar"],
+					"hk": ["skolfið", "skolfið", "skolfnu", "skolfins"]
+				},
+				"ft": {
+					"kk": ["skolfnir", "skolfna", "skolfnum", "skolfinna"],
+					"kvk": ["skolfnar", "skolfnar", "skolfnum", "skolfinna"],
+					"hk": ["skolfin", "skolfin", "skolfnum", "skolfinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skolfni", "skolfna", "skolfna", "skolfna"],
+					"kvk": ["skolfna", "skolfnu", "skolfnu", "skolfnu"],
+					"hk": ["skolfna", "skolfna", "skolfna", "skolfna"]
+				},
+				"ft": {
+					"kk": ["skolfnu", "skolfnu", "skolfnu", "skolfnu"],
+					"kvk": ["skolfnu", "skolfnu", "skolfnu", "skolfnu"],
+					"hk": ["skolfnu", "skolfnu", "skolfnu", "skolfnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skjálfa",
+	"hash": "84541b6b387f782176951336ec39c5705170ba4e0aa254ec2c794b226d665242"
+}
