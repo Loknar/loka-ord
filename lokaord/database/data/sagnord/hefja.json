@@ -1,0 +1,132 @@
+{
+	"orð": "hefja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hefja",
+		"sagnbót": "hafið",
+		"boðháttur": {
+			"stýfður": "hef",
+			"et": "hefðu",
+			"ft": "hefjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hef", "hefrð", "hefr"],
+					"ft": ["hefjum", "hefjið", "hefja"]
+				},
+				"þátíð": {
+					"et": ["hóf", "hófst", "hóf"],
+					"ft": ["hófum", "hófuð", "hófu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefji", "hefjir", "hefji"],
+					"ft": ["hefjum", "hefjið", "hefji"]
+				},
+				"þátíð": {
+					"et": ["hæfi", "hæfir", "hæfi"],
+					"ft": ["hæfum", "hæfuð", "hæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hefurðu",
+					"ft": "hefjiði"
+				},
+				"þátíð": {
+					"et": "hófstu",
+					"ft": "hófuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hefjirðu",
+					"ft": "hefjiði"
+				},
+				"þátíð": {
+					"et": "hæfirðu",
+					"ft": "hæfuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hefjast",
+		"sagnbót": "hafist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefst", "hefst", "hefst"],
+					"ft": ["hefjumst", "hefjist", "hefjast"]
+				},
+				"þátíð": {
+					"et": ["hófst", "hófst", "hófst"],
+					"ft": ["hófumst", "hófust", "hófust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefjist", "hefjist", "hefjist"],
+					"ft": ["hefjumst", "hefjist", "hefjist"]
+				},
+				"þátíð": {
+					"et": ["hæfist", "hæfist", "hæfist"],
+					"ft": ["hæfumst", "hæfust", "hæfust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hefstu"
+				},
+				"þátíð": {
+					"et": "hófstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hefjistu"
+				},
+				"þátíð": {
+					"et": "hæfistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hefjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hafinn", "hafinn", "höfnum", "hafins"],
+					"kvk": ["hafin", "hafna", "hafinni", "hafinnar"],
+					"hk": ["hafið", "hafið", "höfnu", "hafins"]
+				},
+				"ft": {
+					"kk": ["hafnir", "hafna", "höfnum", "hafinna"],
+					"kvk": ["hafnar", "hafnar", "höfnum", "hafinna"],
+					"hk": ["hafin", "hafin", "höfnum", "hafinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hafni", "hafna", "hafna", "hafna"],
+					"kvk": ["hafna", "höfnu", "höfnu", "höfnu"],
+					"hk": ["hafna", "hafna", "hafna", "hafna"]
+				},
+				"ft": {
+					"kk": ["höfnu", "höfnu", "höfnu", "höfnu"],
+					"kvk": ["höfnu", "höfnu", "höfnu", "höfnu"],
+					"hk": ["höfnu", "höfnu", "höfnu", "höfnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hefja",
+	"hash": "a7fc8a6e89bd2c14bfd29bbc144c888cf88c49058a11748ca5e63482d68c68c6"
+}
