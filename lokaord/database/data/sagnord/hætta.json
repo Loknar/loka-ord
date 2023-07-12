@@ -1,0 +1,88 @@
+{
+	"orð": "hætta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hætta",
+		"sagnbót": "hætt",
+		"boðháttur": {
+			"stýfður": "hætt",
+			"et": "hættu",
+			"ft": "hættið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hætti", "hættir", "hættir"],
+					"ft": ["hættum", "hættið", "hætta"]
+				},
+				"þátíð": {
+					"et": ["hætti", "hættir", "hætti"],
+					"ft": ["hættum", "hættuð", "hættu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hætti", "hættir", "hætti"],
+					"ft": ["hættum", "hættið", "hætti"]
+				},
+				"þátíð": {
+					"et": ["hætti", "hættir", "hætti"],
+					"ft": ["hættum", "hættuð", "hættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hættirðu",
+					"ft": "hættiði"
+				},
+				"þátíð": {
+					"et": "hættirðu",
+					"ft": "hættuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hættirðu",
+					"ft": "hættiði"
+				},
+				"þátíð": {
+					"et": "hættirðu",
+					"ft": "hættuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hættandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hættur", "hættan", "hættum", "hætts"],
+					"kvk": ["hætt", "hætta", "hættri", "hættrar"],
+					"hk": ["hætt", "hætt", "hættu", "hætts"]
+				},
+				"ft": {
+					"kk": ["hættir", "hætta", "hættum", "hættra"],
+					"kvk": ["hættar", "hættar", "hættum", "hættra"],
+					"hk": ["hætt", "hætt", "hættum", "hættra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hætti", "hætta", "hætta", "hætta"],
+					"kvk": ["hætta", "hættu", "hættu", "hættu"],
+					"hk": ["hætta", "hætta", "hætta", "hætta"]
+				},
+				"ft": {
+					"kk": ["hættu", "hættu", "hættu", "hættu"],
+					"kvk": ["hættu", "hættu", "hættu", "hættu"],
+					"hk": ["hættu", "hættu", "hættu", "hættu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hætta",
+	"hash": "7b228d4397b18b3de584728f3742a079799ebfe0d32a435ae6349960a3883fc8"
+}
