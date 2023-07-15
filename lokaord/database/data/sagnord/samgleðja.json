@@ -1,0 +1,142 @@
+{
+	"orð": "samgleðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"kennistrengur": "so-gleðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samgleðja",
+		"sagnbót": "samglatt",
+		"boðháttur": {
+			"stýfður": "samgleð",
+			"et": "samgleddu",
+			"ft": "samgleðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samgleð", "samgleður", "samgleður"],
+					"ft": ["samgleðjum", "samgleðjið", "samgleðja"]
+				},
+				"þátíð": {
+					"et": ["samgladdi", "samgladdir", "samgladdi"],
+					"ft": ["samglöddum", "samglödduð", "samglöddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samgleðji", "samgleðjir", "samgleðji"],
+					"ft": ["samgleðjum", "samgleðjið", "samgleðji"]
+				},
+				"þátíð": {
+					"et": ["samgleddi", "samgleddir", "samgleddi"],
+					"ft": ["samgleddum", "samgledduð", "samgleddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samgleðurðu",
+					"ft": "samgleðjiði"
+				},
+				"þátíð": {
+					"et": "samgladdirðu",
+					"ft": "samglödduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samgleðjirðu",
+					"ft": "samgleðjiði"
+				},
+				"þátíð": {
+					"et": "samgleddirðu",
+					"ft": "samgledduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "samgleðjast",
+		"sagnbót": "samglaðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samgleðst", "samgleðst", "samgleðst"],
+					"ft": ["samgleðjumst", "samgleðjist", "samgleðjast"]
+				},
+				"þátíð": {
+					"et": ["samgladdist", "samgladdist", "samgladdist"],
+					"ft": ["samglöddumst", "samglöddust", "samglöddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samgleðjist", "samgleðjist", "samgleðjist"],
+					"ft": ["samgleðjumst", "samgleðjist", "samgleðjist"]
+				},
+				"þátíð": {
+					"et": ["samgleddist", "samgleddist", "samgleddist"],
+					"ft": ["samgleddumst", "samgleddust", "samgleddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samgleðstu"
+				},
+				"þátíð": {
+					"et": "samgladdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samgleðjistu"
+				},
+				"þátíð": {
+					"et": "samgleddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samgleðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samgladdur", "samgladdan", "samglöddum", "samgladds"],
+					"kvk": ["samglödd", "samgladda", "samgladdri", "samgladdrar"],
+					"hk": ["samglatt", "samglatt", "samglöddu", "samgladds"]
+				},
+				"ft": {
+					"kk": ["samgladdir", "samgladda", "samglöddum", "samgladdra"],
+					"kvk": ["samgladdar", "samgladdar", "samglöddum", "samgladdra"],
+					"hk": ["samglödd", "samglödd", "samglöddum", "samgladdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["samgladdi", "samgladda", "samgladda", "samgladda"],
+					"kvk": ["samgladda", "samglöddu", "samglöddu", "samglöddu"],
+					"hk": ["samgladda", "samgladda", "samgladda", "samgladda"]
+				},
+				"ft": {
+					"kk": ["samglöddu", "samglöddu", "samglöddu", "samglöddu"],
+					"kvk": ["samglöddu", "samglöddu", "samglöddu", "samglöddu"],
+					"hk": ["samglöddu", "samglöddu", "samglöddu", "samglöddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samgleðja",
+	"hash": "eefe8c81d73fa3b0cb49e302e1a9bdf34d01c20c90a66e2777998a59d052bd1c"
+}

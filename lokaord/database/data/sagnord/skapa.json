@@ -1,0 +1,132 @@
+{
+	"orð": "skapa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skapa",
+		"sagnbót": "skapað",
+		"boðháttur": {
+			"stýfður": "skapa",
+			"et": "skapaðu",
+			"ft": "skapið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skapa", "skapar", "skapar"],
+					"ft": ["sköpum", "skapið", "skapa"]
+				},
+				"þátíð": {
+					"et": ["skapaði", "skapaðir", "skapaði"],
+					"ft": ["sköpuðum", "sköpuðuð", "sköpuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skapi", "skapir", "skapi"],
+					"ft": ["sköpum", "skapið", "skapi"]
+				},
+				"þátíð": {
+					"et": ["skapaði", "skapaðir", "skapaði"],
+					"ft": ["sköpuðum", "sköpuðuð", "sköpuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skaparðu",
+					"ft": "skapiði"
+				},
+				"þátíð": {
+					"et": "skapaðirðu",
+					"ft": "sköpuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skapirðu",
+					"ft": "skapiði"
+				},
+				"þátíð": {
+					"et": "skapaðirðu",
+					"ft": "sköpuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skapast",
+		"sagnbót": "skapast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skapast", "skapast", "skapast"],
+					"ft": ["sköpumst", "skapist", "skapast"]
+				},
+				"þátíð": {
+					"et": ["skapaðist", "skapaðist", "skapaðist"],
+					"ft": ["sköpuðumst", "sköpuðust", "sköpuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skapist", "skapist", "skapist"],
+					"ft": ["sköpumst", "skapist", "skapist"]
+				},
+				"þátíð": {
+					"et": ["skapaðist", "skapaðist", "skapaðist"],
+					"ft": ["sköpuðumst", "sköpuðust", "sköpuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skapastu"
+				},
+				"þátíð": {
+					"et": "skapaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skapistu"
+				},
+				"þátíð": {
+					"et": "skapaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skapandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skapaður", "skapaðan", "sköpuðum", "skapaðs"],
+					"kvk": ["sköpuð", "skapaða", "skapaðri", "skapaðrar"],
+					"hk": ["skapað", "skapað", "sköpuðu", "skapaðs"]
+				},
+				"ft": {
+					"kk": ["skapaðir", "skapaða", "sköpuðum", "skapaðra"],
+					"kvk": ["skapaðar", "skapaðar", "sköpuðum", "skapaðra"],
+					"hk": ["sköpuð", "sköpuð", "sköpuðum", "skapaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skapaði", "skapaða", "skapaða", "skapaða"],
+					"kvk": ["skapaða", "sköpuðu", "sköpuðu", "sköpuðu"],
+					"hk": ["skapaða", "skapaða", "skapaða", "skapaða"]
+				},
+				"ft": {
+					"kk": ["sköpuðu", "sköpuðu", "sköpuðu", "sköpuðu"],
+					"kvk": ["sköpuðu", "sköpuðu", "sköpuðu", "sköpuðu"],
+					"hk": ["sköpuðu", "sköpuðu", "sköpuðu", "sköpuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skapa",
+	"hash": "92851894958abb54aa68fe534cfdb7a8f4f862be49e15dc12cb7710e7428cb12"
+}

@@ -1,0 +1,88 @@
+{
+	"orð": "þakka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þakka",
+		"sagnbót": "þakkað",
+		"boðháttur": {
+			"stýfður": "þakka",
+			"et": "þakkaðu",
+			"ft": "þakkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þakka", "þakkar", "þakkar"],
+					"ft": ["þökkum", "þakkið", "þakka"]
+				},
+				"þátíð": {
+					"et": ["þakkaði", "þakkaðir", "þakkaði"],
+					"ft": ["þökkuðum", "þökkuðuð", "þökkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þakki", "þakkir", "þakki"],
+					"ft": ["þökkum", "þakkið", "þakki"]
+				},
+				"þátíð": {
+					"et": ["þakkaði", "þakkaðir", "þakkaði"],
+					"ft": ["þökkuðum", "þökkuðuð", "þökkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þakkarðu",
+					"ft": "þakkiði"
+				},
+				"þátíð": {
+					"et": "þakkaðirðu",
+					"ft": "þökkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þakkirðu",
+					"ft": "þakkiði"
+				},
+				"þátíð": {
+					"et": "þakkaðirðu",
+					"ft": "þökkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þakkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þakkaður", "þakkaðan", "þökkuðum", "þakkaðs"],
+					"kvk": ["þökkuð", "þakkaða", "þakkaðri", "þakkaðrar"],
+					"hk": ["þakkað", "þakkað", "þökkuðu", "þakkaðs"]
+				},
+				"ft": {
+					"kk": ["þakkaðir", "þakkaða", "stæðkkuðum", "þakkaðra"],
+					"kvk": ["þakkaðar", "þakkaðar", "þökkuðum", "þakkaðra"],
+					"hk": ["þökkuð", "þökkuð", "þökkuðum", "þakkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þakkaði", "þakkaða", "þakkaða", "þakkaða"],
+					"kvk": ["þakkaða", "þökkuðu", "þökkuðu", "þökkuðu"],
+					"hk": ["þakkaða", "þakkaða", "þakkaða", "þakkaða"]
+				},
+				"ft": {
+					"kk": ["þökkuðu", "þökkuðu", "þökkuðu", "þökkuðu"],
+					"kvk": ["þökkuðu", "þökkuðu", "þökkuðu", "þökkuðu"],
+					"hk": ["þökkuðu", "þökkuðu", "þökkuðu", "þökkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þakka",
+	"hash": "fa19f15a5094caeb8cf5f4789d702e9ee1ff461003df3f74c5d591ab38373a33"
+}
