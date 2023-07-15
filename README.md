@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 355 | 439 | 294 | 1088 | 280 | 327 | 307 | 914 | **2002** |
-| **Lýsingarorð** | 25 |   |   |   | 132 |   |   |   | 150 | **282** |
-| **Sagnorð**     |   |   |   |   | 238 |   |   |   | 73 | **311** |
+| **Nafnorð**     |   | 355 | 440 | 294 | 1089 | 281 | 327 | 309 | 917 | **2006** |
+| **Lýsingarorð** | 25 |   |   |   | 134 |   |   |   | 150 | **284** |
+| **Sagnorð**     |   |   |   |   | 240 |   |   |   | 73 | **313** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 41 |   |   |   | 2 | **43** |
 | **Smáorð**      |   |   |   |   | 199 |   |   |   | 34 | **233** |
-| **Alls** |   |   |   |   | **1768** |   |   |   | **1183** | **2951** |
+| **Alls** |   |   |   |   | **1773** |   |   |   | **1186** | **2959** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 145 | 126 |   | 271 | 49 | 159 |   | 208 | **479** |
+| Eiginnöfn | 145 | 126 |   | 271 | 50 | 159 |   | 209 | **480** |
 | Kenninöfn |  |  |   |  | 48 | 43 |   | 91 | **91** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **15** |
 | Gælunöfn  | 19 | 11 |  | 30 | 8 | 2 | 2 | 12 | **42** |
 | Örnefni   | 1 | 4 | 2 | 7 | 42 | 44 | 21 | 107 | **114** |
-| **Alls**  |   |   |   | **323** |   |   |   | **418** | **741** |
+| **Alls**  |   |   |   | **323** |   |   |   | **419** | **742** |
 
-**Samtals:** 3692 orð.
+**Samtals:** 3701 orð.
 
 64 skammstafanir.
 
@@ -41,7 +41,7 @@ pip install -Ur requirements.txt
 python main.py --help
 ```
 
-Í upphafi ertu einungis með orðagögnin í formi textaskráa, það þarf því að búa til SQLite gagnagrunn og lesa öłl orðin inn í hann, og smíða orðaforleit. Það er hægt að gera með skipuninni:
+Í upphafi ertu einungis með orðagögnin í formi textaskráa, því þarf að smíða SQLite gagnagrunn og lesa öłl orðin inn í hann, og smíða síðan orðaforleit. Það er hægt að gera með skipuninni:
 
 ```bash
 python main.py init

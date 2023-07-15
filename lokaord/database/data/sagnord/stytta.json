@@ -1,0 +1,132 @@
+{
+	"orð": "stytta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stytta",
+		"sagnbót": "stytt",
+		"boðháttur": {
+			"stýfður": "stytt",
+			"et": "styttu",
+			"ft": "styttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stytti", "styttir", "styttir"],
+					"ft": ["styttum", "styttið", "stytta"]
+				},
+				"þátíð": {
+					"et": ["stytti", "styttir", "stytti"],
+					"ft": ["styttum", "styttuð", "styttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stytti", "styttir", "stytti"],
+					"ft": ["styttum", "styttið", "stytti"]
+				},
+				"þátíð": {
+					"et": ["stytti", "styttir", "stytti"],
+					"ft": ["styttum", "styttuð", "styttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "styttirðu",
+					"ft": "styttiði"
+				},
+				"þátíð": {
+					"et": "styttirðu",
+					"ft": "styttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "styttirðu",
+					"ft": "styttiði"
+				},
+				"þátíð": {
+					"et": "styttirðu",
+					"ft": "styttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "styttast",
+		"sagnbót": "styst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["styttist", "styttist", "styttist"],
+					"ft": ["styttumst", "styttist", "styttast"]
+				},
+				"þátíð": {
+					"et": ["styttist", "styttist", "styttist"],
+					"ft": ["styttumst", "styttust", "styttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["styttist", "styttist", "styttist"],
+					"ft": ["styttumst", "styttist", "styttist"]
+				},
+				"þátíð": {
+					"et": ["styttist", "styttist", "styttist"],
+					"ft": ["styttumst", "styttust", "styttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "styttistu"
+				},
+				"þátíð": {
+					"et": "styttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "styttistu"
+				},
+				"þátíð": {
+					"et": "styttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "styttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["styttur", "styttan", "styttum", "stytts"],
+					"kvk": ["stytt", "stytta", "styttri", "styttrar"],
+					"hk": ["stytt", "stytt", "styttu", "stytts"]
+				},
+				"ft": {
+					"kk": ["styttir", "stytta", "styttum", "styttra"],
+					"kvk": ["styttar", "styttar", "styttum", "styttra"],
+					"hk": ["stytt", "stytt", "styttum", "styttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stytti", "stytta", "stytta", "stytta"],
+					"kvk": ["stytta", "styttu", "styttu", "styttu"],
+					"hk": ["stytta", "stytta", "stytta", "stytta"]
+				},
+				"ft": {
+					"kk": ["styttu", "styttu", "styttu", "styttu"],
+					"kvk": ["styttu", "styttu", "styttu", "styttu"],
+					"hk": ["styttu", "styttu", "styttu", "styttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stytta",
+	"hash": "c39ff6ed25c3b5774787dc60b7b1ccc755c495227d4e4de8cd21ead766e1e5ea"
+}
