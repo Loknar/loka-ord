@@ -1,0 +1,132 @@
+{
+	"orð": "þýða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þýða",
+		"sagnbót": "þýtt",
+		"boðháttur": {
+			"stýfður": "þýð",
+			"et": "þýddu",
+			"ft": "þýðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þýði", "þýðir", "þýðir"],
+					"ft": ["þýðum", "þýðið", "þýða"]
+				},
+				"þátíð": {
+					"et": ["þýddi", "þýddir", "þýddi"],
+					"ft": ["þýddum", "þýdduð", "þýddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þýði", "þýðir", "þýði"],
+					"ft": ["þýðum", "þýðið", "þýði"]
+				},
+				"þátíð": {
+					"et": ["þýddi", "þýddir", "þýddi"],
+					"ft": ["þýddum", "þýdduð", "þýddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þýðirðu",
+					"ft": "þýðiði"
+				},
+				"þátíð": {
+					"et": "þýddirðu",
+					"ft": "þýdduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þýðirðu",
+					"ft": "þýðiði"
+				},
+				"þátíð": {
+					"et": "þýddirðu",
+					"ft": "þýdduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þýðast",
+		"sagnbót": "þýðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þýðist", "þýðist", "þýðist"],
+					"ft": ["þýðumst", "þýðist", "þýðast"]
+				},
+				"þátíð": {
+					"et": ["þýddist", "þýddist", "þýddist"],
+					"ft": ["þýddumst", "þýddust", "þýddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þýðist", "þýðist", "þýðist"],
+					"ft": ["þýðumst", "þýðist", "þýðist"]
+				},
+				"þátíð": {
+					"et": ["þýddist", "þýddist", "þýddist"],
+					"ft": ["þýddumst", "þýddust", "þýddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þýðistu"
+				},
+				"þátíð": {
+					"et": "þýddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þýðistu"
+				},
+				"þátíð": {
+					"et": "þýddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þýðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þýddur", "þýddan", "þýddum", "þýdds"],
+					"kvk": ["þýdd", "þýdda", "þýddri", "þýddrar"],
+					"hk": ["þýtt", "þýtt", "þýddu", "þýdds"]
+				},
+				"ft": {
+					"kk": ["þýddir", "þýdda", "þýddum", "þýddra"],
+					"kvk": ["þýddar", "þýddar", "þýddum", "þýddra"],
+					"hk": ["þýdd", "þýdd", "þýddum", "þýddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þýddi", "þýdda", "þýdda", "þýdda"],
+					"kvk": ["þýdda", "þýddu", "þýddu", "þýddu"],
+					"hk": ["þýdda", "þýdda", "þýdda", "þýdda"]
+				},
+				"ft": {
+					"kk": ["þýddu", "þýddu", "þýddu", "þýddu"],
+					"kvk": ["þýddu", "þýddu", "þýddu", "þýddu"],
+					"hk": ["þýddu", "þýddu", "þýddu", "þýddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þýða",
+	"hash": "c374566c71829eeff6e7b00848ce31d9827f16d0686df69fd2b44fb38b2be8ac"
+}
