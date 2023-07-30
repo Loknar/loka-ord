@@ -1,0 +1,88 @@
+{
+	"orð": "slökkva",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "slökkva",
+		"sagnbót": "slökkt",
+		"boðháttur": {
+			"stýfður": "slökk",
+			"et": "slökktu",
+			"ft": "slökkvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slekk", "slekkur", "slekkur"],
+					"ft": ["slökkvum", "slökkvið", "slökkva"]
+				},
+				"þátíð": {
+					"et": ["slökkti", "slökktir", "slökkti"],
+					"ft": ["slökktum", "slökktuð", "slökktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slökkvi", "slökkvir", "slökkvi"],
+					"ft": ["slökkvum", "slökkvið", "slökkvi"]
+				},
+				"þátíð": {
+					"et": ["slekkti", "slekktir", "slekkti"],
+					"ft": ["slekktum", "slekktuð", "slekktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slekkurðu",
+					"ft": "slökkviði"
+				},
+				"þátíð": {
+					"et": "slökktirðu",
+					"ft": "slökktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slökkvirðu",
+					"ft": "slökkviði"
+				},
+				"þátíð": {
+					"et": "slekktirðu",
+					"ft": "slekktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slökkvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slökktur", "slökktan", "slökktum", "slökkts"],
+					"kvk": ["slökkt", "slökkta", "slökktri", "slökktrar"],
+					"hk": ["slökkt", "slökkt", "slökktu", "slökkts"]
+				},
+				"ft": {
+					"kk": ["slökktir", "slökkta", "slökktum", "slökktra"],
+					"kvk": ["slökktar", "slökktar", "slökktum", "slökktra"],
+					"hk": ["slökkt", "slökkt", "slökktum", "slökktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["slökkti", "slökkta", "slökkta", "slökkta"],
+					"kvk": ["slökkta", "slökktu", "slökktu", "slökktu"],
+					"hk": ["slökkta", "slökkta", "slökkta", "slökkta"]
+				},
+				"ft": {
+					"kk": ["slökktu", "slökktu", "slökktu", "slökktu"],
+					"kvk": ["slökktu", "slökktu", "slökktu", "slökktu"],
+					"hk": ["slökktu", "slökktu", "slökktu", "slökktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slökkva",
+	"hash": "7b533d70a77eae36cf213ee6495c13504e9a58c73c413fce27a7944804bb552c"
+}
