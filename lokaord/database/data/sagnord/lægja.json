@@ -1,0 +1,155 @@
+{
+	"orð": "lægja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lægja",
+		"sagnbót": "lægt",
+		"boðháttur": {
+			"stýfður": "læg",
+			"et": "lægðu",
+			"ft": "lægið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lægi", "lægir", "lægir"],
+					"ft": ["lægjum", "lægið", "lægja"]
+				},
+				"þátíð": {
+					"et": ["lægði", "lægðir", "lægði"],
+					"ft": ["lægðum", "lægðuð", "lægðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lægi", "lægir", "lægi"],
+					"ft": ["lægjum", "lægið", "lægi"]
+				},
+				"þátíð": {
+					"et": ["lægði", "lægðir", "lægði"],
+					"ft": ["lægðum", "lægðuð", "lægðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lægir", "lægir", "lægir"],
+					"ft": ["lægir", "lægir", "lægir"]
+				},
+				"þátíð": {
+					"et": ["lægði", "lægði", "lægði"],
+					"ft": ["lægði", "lægði", "lægði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lægi", "lægi", "lægi"],
+					"ft": ["lægi", "lægi", "lægi"]
+				},
+				"þátíð": {
+					"et": ["lægði", "lægði", "lægði"],
+					"ft": ["lægði", "lægði", "lægði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lægirðu",
+					"ft": "lægiði"
+				},
+				"þátíð": {
+					"et": "lægðirðu",
+					"ft": "lægðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lægirðu",
+					"ft": "lægiði"
+				},
+				"þátíð": {
+					"et": "lægðirðu",
+					"ft": "lægðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lægjast",
+		"sagnbót": "lægst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lægist", "lægist", "lægist"],
+					"ft": ["lægjumst", "lægist", "lægjast"]
+				},
+				"þátíð": {
+					"et": ["lægðist", "lægðist", "lægðist"],
+					"ft": ["lægðumst", "lægðust", "lægðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lægist", "lægist", "lægist"],
+					"ft": ["lægjumst", "lægist", "lægist"]
+				},
+				"þátíð": {
+					"et": ["lægðist", "lægðist", "lægðist"],
+					"ft": ["lægðumst", "lægðust", "lægðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lægistu"
+				},
+				"þátíð": {
+					"et": "lægðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lægistu"
+				},
+				"þátíð": {
+					"et": "lægðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lægjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lægður", "lægðan", "lægðum", "lægðs"],
+					"kvk": ["lægð", "lægða", "lægðri", "lægðrar"],
+					"hk": ["sagt", "sagt", "lægðu", "lægðs"]
+				},
+				"ft": {
+					"kk": ["lægðir", "lægða", "lægðum", "lægðra"],
+					"kvk": ["lægðar", "lægðar", "lægðum", "lægðra"],
+					"hk": ["lægð", "lægð", "lægðum", "lægðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lægði", "lægða", "lægða", "lægða"],
+					"kvk": ["lægða", "lægðu", "lægðu", "lægðu"],
+					"hk": ["lægða", "lægða", "lægða", "lægða"]
+				},
+				"ft": {
+					"kk": ["lægðu", "lægðu", "lægðu", "lægðu"],
+					"kvk": ["lægðu", "lægðu", "lægðu", "lægðu"],
+					"hk": ["lægðu", "lægðu", "lægðu", "lægðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lægja",
+	"hash": "516fb4a48be982211fbd6d2066695790c5b908dcd5216761bb37f8be43b77652"
+}

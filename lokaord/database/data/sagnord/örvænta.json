@@ -1,0 +1,73 @@
+{
+	"orð": "örvænta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ör",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-ör-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-vænta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "örvænta",
+		"sagnbót": "örvænt",
+		"boðháttur": {
+			"stýfður": "örvænt",
+			"et": "örvæntu",
+			"ft": "örvæntið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["örvænti", "örvæntir", "örvæntir"],
+					"ft": ["örvæntum", "örvæntið", "örvænta"]
+				},
+				"þátíð": {
+					"et": ["örvænti", "örvæntir", "örvænti"],
+					"ft": ["örvæntum", "örvæntuð", "örvæntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["örvænti", "örvæntir", "örvænti"],
+					"ft": ["örvæntum", "örvæntið", "örvænti"]
+				},
+				"þátíð": {
+					"et": ["örvænti", "örvæntir", "örvænti"],
+					"ft": ["örvæntum", "örvæntuð", "örvæntu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "örvæntirðu",
+					"ft": "örvæntiði"
+				},
+				"þátíð": {
+					"et": "örvæntirðu",
+					"ft": "örvæntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "örvæntirðu",
+					"ft": "örvæntiði"
+				},
+				"þátíð": {
+					"et": "örvæntirðu",
+					"ft": "örvæntuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "örvæntandi"
+	},
+	"kennistrengur": "so-örvænta",
+	"hash": "9eb5761d1032ba02167c9951c8891052dcf1b2ae9e01d866599834debf475bb3"
+}
