@@ -131,10 +131,52 @@ class Ordasamsetningar(str, Enum):
 
 
 class NafnordaBeygingar(str, Enum):
+    Et = 'et'
     Et_ag = 'et-ág'
     Et_mg = 'et-mg'
+    Ft = 'ft'
     Ft_ag = 'ft-ág'
     Ft_mg = 'ft-mg'
+
+
+class LysingarordaBeygingar(str, Enum):
+    # frumstig
+    Frumstig = 'frumstig'
+    Frumstig_sb = 'frumstig-sb'
+    Frumstig_sb_et = 'frumstig-sb-et'
+    Frumstig_sb_ft = 'frumstig-sb-ft'
+    Frumstig_vb = 'frumstig-vb'
+    Frumstig_vb_et = 'frumstig-vb-et'
+    Frumstig_vb_ft = 'frumstig-vb-ft'
+    # miðstig
+    Midstig = 'miðstig'
+    Midstig_vb_et = 'miðstig-vb-et'
+    Midstig_vb_ft = 'miðstig-vb-ft'
+    # efstastig
+    Efstastig = 'efstastig'
+    Efstastig_sb = 'efstastig-sb'
+    Efstastig_sb_et = 'efstastig-sb-et'
+    Efstastig_sb_ft = 'efstastig-sb-ft'
+    Efstastig_vb = 'efstastig-vb'
+    Efstastig_vb_et = 'efstastig-vb-et'
+    Efstastig_vb_ft = 'efstastig-vb-ft'
+
+
+class SagnordaBeygingar(str, Enum):
+    # germynd
+    Germynd = 'germynd'
+    Germynd_personuleg = 'germynd-persónuleg'
+    Germynd_opersonuleg = 'germynd-ópersónuleg'
+    Germynd_spurnarmyndir = 'germynd-spurnarmyndir'
+    # miðmynd
+    Midmynd = 'miðmynd'
+    Midmynd_personuleg = 'miðmynd-persónuleg'
+    Midmynd_opersonuleg = 'miðmynd-ópersónuleg'
+    Midmynd_spurnarmyndir = 'miðmynd-spurnarmyndir'
+    # lýsingarháttur
+    Lysingarhattur = 'lýsingarháttur'
+    Lysingarhattur_nutidar = 'lýsingarháttur-nútíðar'
+    Lysingarhattur_thatidar = 'lýsingarháttur-þátíðar'
 
 
 class Fall(str, Enum):
@@ -179,7 +221,10 @@ class SamsettOrdhluti(BaseModel):
     hástafa: bool | None = False
     leiðir: NonEmptyStr | None
     fylgir: NonEmptyStr | None
-    beygingar: conlist(NafnordaBeygingar, min_items=1, max_items=4, unique_items=True) | None
+    beygingar: conlist(
+        NafnordaBeygingar | LysingarordaBeygingar | SagnordaBeygingar,
+        min_items=1, max_items=4, unique_items=True
+    ) | None
     ósjálfstætt: bool | None = False
     datahash: NonEmptyStr | None = Field(alias='hash')
     kennistrengur: NonEmptyStr | None
@@ -228,6 +273,34 @@ class SamsettOrdhluti(BaseModel):
     def hastafa_lagstafa_mutually_exclusive(cls, val, values, **kwargs):
         if val is True and 'lágstafa' in values and values['lágstafa'] is True:
             raise ValueError('hástafa and lágstafa are mutually exclusive')
+        return val
+
+    @validator('kennistrengur')
+    def check_beygingar_based_on_kennistrengur(cls, val, values, **kwargs):
+        if 'beygingar' in values and values['beygingar']:
+            if val.startswith('no-') or val.startswith('sérn.'):  # nafnorð/sérnöfn
+                for beyging in values['beygingar']:
+                    if type(beyging) is not NafnordaBeygingar:
+                        raise ValueError(
+                            f'inappropriate beyging "{beyging}" for nafnorð/sérnöfn (orð: {val})'
+                        )
+            elif val.startswith('lo-'):  # lýsingarorð
+                for beyging in values['beygingar']:
+                    if type(beyging) is not LysingarordaBeygingar:
+                        raise ValueError(
+                            f'inappropriate beyging "{beyging}" for lýsingarorð (orð: {val})'
+                        )
+            elif val.startswith('so-'):  # sagnorð
+                for beyging in values['beygingar']:
+                    if type(beyging) is not SagnordaBeygingar:
+                        raise ValueError(
+                            f'inappropriate beyging "{beyging}" for sagnorð (orð: {val})'
+                        )
+            else:
+                for beyging in values['beygingar']:
+                    raise ValueError(
+                        f'unsupported beyging "{beyging}" for orð (orð: {val})'
+                    )
         return val
 
     @root_validator

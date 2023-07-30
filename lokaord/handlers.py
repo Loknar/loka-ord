@@ -26,6 +26,7 @@ from lokaord.database import db
 from lokaord.database.models import isl
 from lokaord.exc import VoidKennistrengurError
 from lokaord import structs
+from lokaord.structs import NafnordaBeygingar, LysingarordaBeygingar, SagnordaBeygingar
 
 
 def list_handlers():
@@ -121,19 +122,143 @@ class Ord:
                     )
                 samsetning = None
                 lo_myndir = None
+                # ---------------------------------------------------------------------------------
+                # write beygingar config to database
+                # nafnorð/sérnöfn base beygingar
                 exclude_et_ag = False
                 exclude_et_mg = False
                 exclude_ft_ag = False
                 exclude_ft_mg = False
+                # lýsingarorð base beygingar
+                exclude_frumstig_sb_et = False
+                exclude_frumstig_sb_ft = False
+                exclude_frumstig_vb_et = False
+                exclude_frumstig_vb_ft = False
+                exclude_midstig_vb_et = False
+                exclude_midstig_vb_ft = False
+                exclude_efstastig_sb_et = False
+                exclude_efstastig_sb_ft = False
+                exclude_efstastig_vb_et = False
+                exclude_efstastig_vb_ft = False
+                # sagnorð base beygingar
+                exclude_germynd_personuleg = False
+                exclude_germynd_opersonuleg = False
+                exclude_germynd_spurnarmyndir = False
+                exclude_midmynd_personuleg = False
+                exclude_midmynd_opersonuleg = False
+                exclude_midmynd_spurnarmyndir = False
+                exclude_lysingarhattur_nutidar = False
+                exclude_lysingarhattur_thatidar = False
+                #
                 if ohl.samsetning is not None:
                     samsetning = isl.Ordasamsetningar[ohl.samsetning.name]
                 if ohl.myndir is not None:
                     lo_myndir = isl.LysingarordMyndir[ohl.myndir.name]
                 if ohl.beygingar is not None:
-                    exclude_et_ag = structs.NafnordaBeygingar.Et_ag not in ohl.beygingar
-                    exclude_et_mg = structs.NafnordaBeygingar.Et_mg not in ohl.beygingar
-                    exclude_ft_ag = structs.NafnordaBeygingar.Ft_ag not in ohl.beygingar
-                    exclude_ft_mg = structs.NafnordaBeygingar.Ft_mg not in ohl.beygingar
+                    # in pydantic model we check based on orðflokkur if appropriate beygingar are
+                    # declared based on orðflokkur, so we should only get here with with
+                    # appropriate beygingar for given orðflokkur
+                    #
+                    # nafnorð/sérnöfn
+                    exclude_et_ag = (
+                        NafnordaBeygingar.Et not in ohl.beygingar and
+                        NafnordaBeygingar.Et_ag not in ohl.beygingar
+                    )
+                    exclude_et_mg = (
+                        NafnordaBeygingar.Et not in ohl.beygingar and
+                        NafnordaBeygingar.Et_mg not in ohl.beygingar
+                    )
+                    exclude_ft_ag = (
+                        NafnordaBeygingar.Ft not in ohl.beygingar and
+                        NafnordaBeygingar.Ft_ag not in ohl.beygingar
+                    )
+                    exclude_ft_mg = (
+                        NafnordaBeygingar.Ft not in ohl.beygingar and
+                        NafnordaBeygingar.Ft_mg not in ohl.beygingar
+                    )
+                    # lýsingarorð
+                    exclude_frumstig_sb_et = (
+                        LysingarordaBeygingar.Frumstig not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_sb not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_sb_et not in ohl.beygingar
+                    )
+                    exclude_frumstig_sb_ft = (
+                        LysingarordaBeygingar.Frumstig not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_sb not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_sb_ft not in ohl.beygingar
+                    )
+                    exclude_frumstig_vb_et = (
+                        LysingarordaBeygingar.Frumstig not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_vb not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_vb_et not in ohl.beygingar
+                    )
+                    exclude_frumstig_vb_ft = (
+                        LysingarordaBeygingar.Frumstig not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_vb not in ohl.beygingar and
+                        LysingarordaBeygingar.Frumstig_vb_ft not in ohl.beygingar
+                    )
+                    exclude_midstig_vb_et = (
+                        LysingarordaBeygingar.Midstig not in ohl.beygingar and
+                        LysingarordaBeygingar.Midstig_vb_et not in ohl.beygingar
+                    )
+                    exclude_midstig_vb_ft = (
+                        LysingarordaBeygingar.Midstig not in ohl.beygingar and
+                        LysingarordaBeygingar.Midstig_vb_ft not in ohl.beygingar
+                    )
+                    exclude_efstastig_sb_et = (
+                        LysingarordaBeygingar.Efstastig not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_sb not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_sb_et not in ohl.beygingar
+                    )
+                    exclude_efstastig_sb_ft = (
+                        LysingarordaBeygingar.Efstastig not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_sb not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_sb_ft not in ohl.beygingar
+                    )
+                    exclude_efstastig_vb_et = (
+                        LysingarordaBeygingar.Efstastig not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_vb not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_vb_et not in ohl.beygingar
+                    )
+                    exclude_efstastig_vb_ft = (
+                        LysingarordaBeygingar.Efstastig not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_vb not in ohl.beygingar and
+                        LysingarordaBeygingar.Efstastig_vb_ft not in ohl.beygingar
+                    )
+                    # sagnorð
+                    exclude_germynd_personuleg = (
+                        SagnordaBeygingar.Germynd not in ohl.beygingar and
+                        SagnordaBeygingar.Germynd_personuleg not in ohl.beygingar
+                    )
+                    exclude_germynd_opersonuleg = (
+                        SagnordaBeygingar.Germynd not in ohl.beygingar and
+                        SagnordaBeygingar.Germynd_opersonuleg not in ohl.beygingar
+                    )
+                    exclude_germynd_spurnarmyndir = (
+                        SagnordaBeygingar.Germynd not in ohl.beygingar and
+                        SagnordaBeygingar.Germynd_spurnarmyndir not in ohl.beygingar
+                    )
+                    exclude_midmynd_personuleg = (
+                        SagnordaBeygingar.Midmynd not in ohl.beygingar and
+                        SagnordaBeygingar.Midmynd_personuleg not in ohl.beygingar
+                    )
+                    exclude_midmynd_opersonuleg = (
+                        SagnordaBeygingar.Midmynd not in ohl.beygingar and
+                        SagnordaBeygingar.Midmynd_opersonuleg not in ohl.beygingar
+                    )
+                    exclude_midmynd_spurnarmyndir = (
+                        SagnordaBeygingar.Midmynd not in ohl.beygingar and
+                        SagnordaBeygingar.Midmynd_spurnarmyndir not in ohl.beygingar
+                    )
+                    exclude_lysingarhattur_nutidar = (
+                        SagnordaBeygingar.Lysingarhattur not in ohl.beygingar and
+                        SagnordaBeygingar.Lysingarhattur_nutidar not in ohl.beygingar
+                    )
+                    exclude_lysingarhattur_thatidar = (
+                        SagnordaBeygingar.Lysingarhattur not in ohl.beygingar and
+                        SagnordaBeygingar.Lysingarhattur_thatidar not in ohl.beygingar
+                    )
+                # ---------------------------------------------------------------------------------
                 isl_ordhluti_data = {
                     'fk_Ord_id': isl_ord_oh.Ord_id,
                     'Ordmynd': ohl.mynd,
@@ -144,10 +269,31 @@ class Ord:
                     'Hastafa': ohl.hástafa,
                     'Leidir': ohl.leiðir,
                     'Fylgir': ohl.fylgir,
+                    # nafnorð/sérnöfn beygingar excluders
                     'Exclude_et_ag': exclude_et_ag,
                     'Exclude_et_mg': exclude_et_mg,
                     'Exclude_ft_ag': exclude_ft_ag,
-                    'Exclude_ft_mg': exclude_ft_mg
+                    'Exclude_ft_mg': exclude_ft_mg,
+                    # lýsingarorð beygingar excluders
+                    'Exclude_frumstig_sb_et': exclude_frumstig_sb_et,
+                    'Exclude_frumstig_sb_ft': exclude_frumstig_sb_ft,
+                    'Exclude_frumstig_vb_et': exclude_frumstig_vb_et,
+                    'Exclude_frumstig_vb_ft': exclude_frumstig_vb_ft,
+                    'Exclude_midstig_vb_et': exclude_midstig_vb_et,
+                    'Exclude_midstig_vb_ft': exclude_midstig_vb_ft,
+                    'Exclude_efstastig_sb_et': exclude_efstastig_sb_et,
+                    'Exclude_efstastig_sb_ft': exclude_efstastig_sb_ft,
+                    'Exclude_efstastig_vb_et': exclude_efstastig_vb_et,
+                    'Exclude_efstastig_vb_ft': exclude_efstastig_vb_ft,
+                    # sagnorð beygingar excluders
+                    'Exclude_germynd_personuleg': exclude_germynd_personuleg,
+                    'Exclude_germynd_opersonuleg': exclude_germynd_opersonuleg,
+                    'Exclude_germynd_spurnarmyndir': exclude_germynd_spurnarmyndir,
+                    'Exclude_midmynd_personuleg': exclude_midmynd_personuleg,
+                    'Exclude_midmynd_opersonuleg': exclude_midmynd_opersonuleg,
+                    'Exclude_midmynd_spurnarmyndir': exclude_midmynd_spurnarmyndir,
+                    'Exclude_lysingarhattur_nutidar': exclude_lysingarhattur_nutidar,
+                    'Exclude_lysingarhattur_thatidar': exclude_lysingarhattur_thatidar,
                 }
                 isl_ordhluti = (
                     db.Session.query(isl.SamsettOrdhluti).filter_by(**isl_ordhluti_data).first()
@@ -224,21 +370,207 @@ class Ord:
                     oh_data['leiðir'] = isl_ord_oh.Leidir
                 if isl_ord_oh.Fylgir is not None:
                     oh_data['fylgir'] = isl_ord_oh.Fylgir
+                # ---------------------------------------------------------------------------------
+                # load beygingar config from database and transcribe to the json form where
+                # inclusivity is declared instead of exclusivity
+                if (
+                    isl_ord_oh.Exclude_et_ag is True or  # nafnorð/sérnöfn
+                    isl_ord_oh.Exclude_et_mg is True or
+                    isl_ord_oh.Exclude_ft_ag is True or
+                    isl_ord_oh.Exclude_ft_mg is True or
+                    isl_ord_oh.Exclude_frumstig_sb_et is True or  # lýsingarorð
+                    isl_ord_oh.Exclude_frumstig_sb_ft is True or
+                    isl_ord_oh.Exclude_frumstig_vb_et is True or
+                    isl_ord_oh.Exclude_frumstig_vb_ft is True or
+                    isl_ord_oh.Exclude_midstig_vb_et is True or
+                    isl_ord_oh.Exclude_midstig_vb_ft is True or
+                    isl_ord_oh.Exclude_efstastig_sb_et is True or
+                    isl_ord_oh.Exclude_efstastig_sb_ft is True or
+                    isl_ord_oh.Exclude_efstastig_vb_et is True or
+                    isl_ord_oh.Exclude_efstastig_vb_ft is True or
+                    isl_ord_oh.Exclude_germynd_personuleg is True or  # sagnorð
+                    isl_ord_oh.Exclude_germynd_opersonuleg is True or
+                    isl_ord_oh.Exclude_germynd_spurnarmyndir is True or
+                    isl_ord_oh.Exclude_midmynd_personuleg is True or
+                    isl_ord_oh.Exclude_midmynd_opersonuleg is True or
+                    isl_ord_oh.Exclude_midmynd_spurnarmyndir is True or
+                    isl_ord_oh.Exclude_lysingarhattur_nutidar is True or
+                    isl_ord_oh.Exclude_lysingarhattur_thatidar is True
+                ):
+                    oh_data['beygingar'] = []
+                # nafnorð/sérnöfn
                 if (
                     isl_ord_oh.Exclude_et_ag is True or
                     isl_ord_oh.Exclude_et_mg is True or
                     isl_ord_oh.Exclude_ft_ag is True or
                     isl_ord_oh.Exclude_ft_mg is True
                 ):
-                    oh_data['beygingar'] = []
-                    if isl_ord_oh.Exclude_et_ag is False:
-                        oh_data['beygingar'].append('et-ág')
-                    if isl_ord_oh.Exclude_et_mg is False:
-                        oh_data['beygingar'].append('et-mg')
-                    if isl_ord_oh.Exclude_ft_ag is False:
-                        oh_data['beygingar'].append('ft-ág')
-                    if isl_ord_oh.Exclude_ft_mg is False:
-                        oh_data['beygingar'].append('ft-mg')
+                    if isl_ord_oh.Exclude_et_ag is False and isl_ord_oh.Exclude_et_mg is False:
+                        # oh_data['beygingar'].append('et')
+                        oh_data['beygingar'].append(NafnordaBeygingar.Et.value)
+                    else:
+                        if isl_ord_oh.Exclude_et_ag is False:
+                            oh_data['beygingar'].append(NafnordaBeygingar.Et_ag.value)
+                        if isl_ord_oh.Exclude_et_mg is False:
+                            oh_data['beygingar'].append(NafnordaBeygingar.Et_mg.value)
+                    if isl_ord_oh.Exclude_ft_ag is False and isl_ord_oh.Exclude_ft_mg is False:
+                        oh_data['beygingar'].append(NafnordaBeygingar.Ft.value)
+                    else:
+                        if isl_ord_oh.Exclude_ft_ag is False:
+                            oh_data['beygingar'].append(NafnordaBeygingar.Ft_ag.value)
+                        if isl_ord_oh.Exclude_ft_mg is False:
+                            oh_data['beygingar'].append(NafnordaBeygingar.Ft_mg.value)
+                # lýsingarorð
+                if (
+                    isl_ord_oh.Exclude_frumstig_sb_et is True or
+                    isl_ord_oh.Exclude_frumstig_sb_ft is True or
+                    isl_ord_oh.Exclude_frumstig_vb_et is True or
+                    isl_ord_oh.Exclude_frumstig_vb_ft is True or
+                    isl_ord_oh.Exclude_midstig_vb_et is True or
+                    isl_ord_oh.Exclude_midstig_vb_ft is True or
+                    isl_ord_oh.Exclude_efstastig_sb_et is True or
+                    isl_ord_oh.Exclude_efstastig_sb_ft is True or
+                    isl_ord_oh.Exclude_efstastig_vb_et is True or
+                    isl_ord_oh.Exclude_efstastig_vb_ft is True
+                ):
+                    if (
+                        isl_ord_oh.Exclude_frumstig_sb_et is False and
+                        isl_ord_oh.Exclude_frumstig_sb_ft is False and
+                        isl_ord_oh.Exclude_frumstig_vb_et is False and
+                        isl_ord_oh.Exclude_frumstig_vb_ft is False
+                    ):
+                        oh_data['beygingar'].append(LysingarordaBeygingar.Frumstig.value)
+                    else:
+                        if (
+                            isl_ord_oh.Exclude_frumstig_sb_et is False and
+                            isl_ord_oh.Exclude_frumstig_sb_ft is False
+                        ):
+                            oh_data['beygingar'].append(LysingarordaBeygingar.Frumstig_sb.value)
+                        else:
+                            if isl_ord_oh.Exclude_frumstig_sb_et is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Frumstig_sb_et.value
+                                )
+                            if isl_ord_oh.Exclude_frumstig_sb_ft is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Frumstig_sb_ft.value
+                                )
+                        if (
+                            isl_ord_oh.Exclude_frumstig_vb_et is False and
+                            isl_ord_oh.Exclude_frumstig_vb_ft is False
+                        ):
+                            oh_data['beygingar'].append(LysingarordaBeygingar.Frumstig_vb.value)
+                        else:
+                            if isl_ord_oh.Exclude_frumstig_vb_et is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Frumstig_vb_et.value
+                                )
+                            if isl_ord_oh.Exclude_frumstig_vb_ft is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Frumstig_vb_ft.value
+                                )
+                    if (
+                        isl_ord_oh.Exclude_midstig_vb_et is False and
+                        isl_ord_oh.Exclude_midstig_vb_ft is False
+                    ):
+                        oh_data['beygingar'].append(LysingarordaBeygingar.Midstig.value)
+                    else:
+                        if isl_ord_oh.Exclude_midstig_vb_et is False:
+                            oh_data['beygingar'].append(LysingarordaBeygingar.Midstig_vb_et.value)
+                        if isl_ord_oh.Exclude_midstig_vb_ft is False:
+                            oh_data['beygingar'].append(LysingarordaBeygingar.Midstig_vb_ft.value)
+                    if (
+                        isl_ord_oh.Exclude_efstastig_sb_et is False and
+                        isl_ord_oh.Exclude_efstastig_sb_ft is False and
+                        isl_ord_oh.Exclude_efstastig_vb_et is False and
+                        isl_ord_oh.Exclude_efstastig_vb_ft is False
+                    ):
+                        oh_data['beygingar'].append(LysingarordaBeygingar.Efstastig.value)
+                    else:
+                        if (
+                            isl_ord_oh.Exclude_efstastig_sb_et is False and
+                            isl_ord_oh.Exclude_efstastig_sb_ft is False
+                        ):
+                            oh_data['beygingar'].append(LysingarordaBeygingar.Efstastig_sb.value)
+                        else:
+                            if isl_ord_oh.Exclude_efstastig_sb_et is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Efstastig_sb_et.value
+                                )
+                            if isl_ord_oh.Exclude_efstastig_sb_ft is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Efstastig_sb_ft.value
+                                )
+                        if (
+                            isl_ord_oh.Exclude_efstastig_vb_et is False and
+                            isl_ord_oh.Exclude_efstastig_vb_ft is False
+                        ):
+                            oh_data['beygingar'].append(LysingarordaBeygingar.Efstastig_vb.value)
+                        else:
+                            if isl_ord_oh.Exclude_efstastig_vb_et is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Efstastig_vb_et.value
+                                )
+                            if isl_ord_oh.Exclude_efstastig_vb_ft is False:
+                                oh_data['beygingar'].append(
+                                    LysingarordaBeygingar.Efstastig_vb_ft.value
+                                )
+                # sagnorð
+                if (
+                    isl_ord_oh.Exclude_germynd_personuleg is True or
+                    isl_ord_oh.Exclude_germynd_opersonuleg is True or
+                    isl_ord_oh.Exclude_germynd_spurnarmyndir is True or
+                    isl_ord_oh.Exclude_midmynd_personuleg is True or
+                    isl_ord_oh.Exclude_midmynd_opersonuleg is True or
+                    isl_ord_oh.Exclude_midmynd_spurnarmyndir is True or
+                    isl_ord_oh.Exclude_lysingarhattur_nutidar is True or
+                    isl_ord_oh.Exclude_lysingarhattur_thatidar is True
+                ):
+                    if (
+                        isl_ord_oh.Exclude_germynd_personuleg is False and
+                        isl_ord_oh.Exclude_germynd_opersonuleg is False and
+                        isl_ord_oh.Exclude_germynd_spurnarmyndir is False
+                    ):
+                        oh_data['beygingar'].append(SagnordaBeygingar.Germynd.value)
+                    else:
+                        if isl_ord_oh.Exclude_germynd_personuleg is False:
+                            oh_data['beygingar'].append(SagnordaBeygingar.Germynd_personuleg.value)
+                        if isl_ord_oh.Exclude_germynd_opersonuleg is False:
+                            oh_data['beygingar'].append(SagnordaBeygingar.Germynd_opersonuleg.value)
+                        if isl_ord_oh.Exclude_germynd_spurnarmyndir is False:
+                            oh_data['beygingar'].append(
+                                SagnordaBeygingar.Germynd_spurnarmyndir.value
+                            )
+                    if (
+                        isl_ord_oh.Exclude_midmynd_personuleg is False and
+                        isl_ord_oh.Exclude_midmynd_opersonuleg is False and
+                        isl_ord_oh.Exclude_midmynd_spurnarmyndir is False
+                    ):
+                        oh_data['beygingar'].append(SagnordaBeygingar.Midmynd.value)
+                    else:
+                        if isl_ord_oh.Exclude_midmynd_personuleg is False:
+                            oh_data['beygingar'].append(SagnordaBeygingar.Midmynd_personuleg.value)
+                        if isl_ord_oh.Exclude_midmynd_opersonuleg is False:
+                            oh_data['beygingar'].append(SagnordaBeygingar.Midmynd_opersonuleg.value)
+                        if isl_ord_oh.Exclude_midmynd_spurnarmyndir is False:
+                            oh_data['beygingar'].append(
+                                SagnordaBeygingar.Midmynd_spurnarmyndir.value
+                            )
+                    if (
+                        isl_ord_oh.Exclude_lysingarhattur_nutidar is False and
+                        isl_ord_oh.Exclude_lysingarhattur_thatidar is False
+                    ):
+                        oh_data['beygingar'].append(SagnordaBeygingar.Lysingarhattur.value)
+                    else:
+                        if isl_ord_oh.Exclude_lysingarhattur_nutidar is False:
+                            oh_data['beygingar'].append(
+                                SagnordaBeygingar.Lysingarhattur_nutidar.value
+                            )
+                        if isl_ord_oh.Exclude_lysingarhattur_thatidar is False:
+                            oh_data['beygingar'].append(
+                                SagnordaBeygingar.Lysingarhattur_thatidar.value
+                            )
+                # ---------------------------------------------------------------------------------
                 oh_data['kennistrengur'] = isl_ord_oh_ord.Kennistrengur
                 ord_data['samsett'].append(oh_data)
                 next_ordhluti_id = isl_ord_oh.fk_NaestiOrdhluti_id
@@ -379,9 +711,10 @@ class Ord:
                 tracebacks.append(traceback.format_exc())
         if self.data is None:
             tracebacks_str = ''.join(tracebacks)
-            raise ValueError(
-                f'◈◈◈\n{tracebacks_str}Data didn\'t fit into any of the annotated structs.'
-            )
+            raise ValueError((
+                f'◈◈◈\n{tracebacks_str}Data didn\'t fit into any of the annotated structs.\n'
+                f'  (filename: {filename})'
+            ))
         if 'samsett' in self.data.dict() and self.data.samsett is not None:
             data_derived_beygingar = self.derive_beygingar_from_samsett(self.data.dict())
             self.data = struct(**data_derived_beygingar)
@@ -738,25 +1071,232 @@ class Ord:
         for key in remove_keys:
             if key in isl_ord_dict:
                 del isl_ord_dict[key]
-        # apply beygingar filter
+        # -----------------------------------------------------------------------------------------
+        # apply beygingar filters config to orð data
+        # nafnorð/sérnöfn
         if 'beygingar' in ordhluti:
-            if 'et-ág' not in ordhluti['beygingar']:
-                if 'et' in isl_ord_dict and 'ág' in isl_ord_dict['et']:
-                    del isl_ord_dict['et']['ág']
-            if 'et-mg' not in ordhluti['beygingar']:
-                if 'et' in isl_ord_dict and 'mg' in isl_ord_dict['et']:
-                    del isl_ord_dict['et']['mg']
-            if 'ft-ág' not in ordhluti['beygingar']:
-                if 'ft' in isl_ord_dict and 'ág' in isl_ord_dict['ft']:
-                    del isl_ord_dict['ft']['ág']
-            if 'ft-mg' not in ordhluti['beygingar']:
-                if 'ft' in isl_ord_dict and 'mg' in isl_ord_dict['ft']:
-                    del isl_ord_dict['ft']['mg']
+            if 'et' not in ordhluti['beygingar']:
+                if 'et-ág' not in ordhluti['beygingar']:
+                    if 'et' in isl_ord_dict and 'ág' in isl_ord_dict['et']:
+                        del isl_ord_dict['et']['ág']
+                if 'et-mg' not in ordhluti['beygingar']:
+                    if 'et' in isl_ord_dict and 'mg' in isl_ord_dict['et']:
+                        del isl_ord_dict['et']['mg']
+            if 'ft' not in ordhluti['beygingar']:
+                if 'ft-ág' not in ordhluti['beygingar']:
+                    if 'ft' in isl_ord_dict and 'ág' in isl_ord_dict['ft']:
+                        del isl_ord_dict['ft']['ág']
+                if 'ft-mg' not in ordhluti['beygingar']:
+                    if 'ft' in isl_ord_dict and 'mg' in isl_ord_dict['ft']:
+                        del isl_ord_dict['ft']['mg']
             if 'et' in isl_ord_dict and len(isl_ord_dict['et'].keys()) == 0:
                 del isl_ord_dict['et']
             if 'ft' in isl_ord_dict and len(isl_ord_dict['ft'].keys()) == 0:
                 del isl_ord_dict['ft']
-        isl_ord_dict = self.apply_ordhluti_ch_to_dict(isl_ord_dict, ordhluti)       
+            # lýsingarorð
+            if 'frumstig' not in ordhluti['beygingar']:
+                if 'frumstig-sb' not in ordhluti['beygingar']:
+                    if 'frumstig-sb-et' not in ordhluti['beygingar']:
+                        if (
+                            'frumstig' in isl_ord_dict and
+                            'sb' in isl_ord_dict['frumstig'] and
+                            'et' in isl_ord_dict['frumstig']['sb']
+                        ):
+                            del isl_ord_dict['frumstig']['sb']['et']
+                    if 'frumstig-sb-ft' not in ordhluti['beygingar']:
+                        if (
+                            'frumstig' in isl_ord_dict and
+                            'sb' in isl_ord_dict['frumstig'] and
+                            'ft' in isl_ord_dict['frumstig']['sb']
+                        ):
+                            del isl_ord_dict['frumstig']['sb']['ft']
+                    if (
+                        'frumstig' in isl_ord_dict and
+                        'sb' in isl_ord_dict['frumstig'] and
+                        len(isl_ord_dict['frumstig']['sb']) == 0
+                    ):
+                        del isl_ord_dict['frumstig']['sb']
+                if 'frumstig-vb' not in ordhluti['beygingar']:
+                    if 'frumstig-vb-et' not in ordhluti['beygingar']:
+                        if (
+                            'frumstig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['frumstig'] and
+                            'et' in isl_ord_dict['frumstig']['vb']
+                        ):
+                            del isl_ord_dict['frumstig']['vb']['et']
+                    if 'frumstig-vb-ft' not in ordhluti['beygingar']:
+                        if (
+                            'frumstig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['frumstig'] and
+                            'ft' in isl_ord_dict['frumstig']['vb']
+                        ):
+                            del isl_ord_dict['frumstig']['vb']['ft']
+                    if (
+                        'frumstig' in isl_ord_dict and
+                        'vb' in isl_ord_dict['frumstig'] and
+                        len(isl_ord_dict['frumstig']['vb']) == 0
+                    ):
+                        del isl_ord_dict['frumstig']['vb']
+                if (
+                    'frumstig' in isl_ord_dict and
+                    len(isl_ord_dict['frumstig']) == 0
+                ):
+                    del isl_ord_dict['frumstig']
+            if 'miðstig' not in ordhluti['beygingar']:
+                if 'miðstig-vb-et' not in ordhluti['beygingar']:
+                    if (
+                        'miðstig' in isl_ord_dict and
+                        'vb' in isl_ord_dict['miðstig'] and
+                        'et' in isl_ord_dict['miðstig']['vb']
+                    ):
+                        del isl_ord_dict['miðstig']['vb']['et']
+                if 'miðstig-vb-ft' not in ordhluti['beygingar']:
+                    if (
+                        'miðstig' in isl_ord_dict and
+                        'vb' in isl_ord_dict['miðstig'] and
+                        'ft' in isl_ord_dict['miðstig']['vb']
+                    ):
+                        del isl_ord_dict['miðstig']['vb']['ft']
+                if (
+                    'miðstig' in isl_ord_dict and
+                    'vb' in isl_ord_dict['miðstig'] and
+                    len(isl_ord_dict['miðstig']['vb']) == 0
+                ):
+                    del isl_ord_dict['miðstig']['vb']
+                if (
+                    'miðstig' in isl_ord_dict and
+                    len(isl_ord_dict['miðstig']) == 0
+                ):
+                    del isl_ord_dict['miðstig']
+            if 'efstastig' not in ordhluti['beygingar']:
+                if 'efstastig-sb' not in ordhluti['beygingar']:
+                    if 'efstastig-sb-et' not in ordhluti['beygingar']:
+                        if (
+                            'efstastig' in isl_ord_dict and
+                            'sb' in isl_ord_dict['efstastig'] and
+                            'et' in isl_ord_dict['efstastig']['sb']
+                        ):
+                            del isl_ord_dict['efstastig']['sb']['et']
+                    if 'efstastig-sb-ft' not in ordhluti['beygingar']:
+                        if (
+                            'efstastig' in isl_ord_dict and
+                            'sb' in isl_ord_dict['efstastig'] and
+                            'ft' in isl_ord_dict['efstastig']['sb']
+                        ):
+                            del isl_ord_dict['efstastig']['sb']['ft']
+                    if (
+                        'efstastig' in isl_ord_dict and
+                        'sb' in isl_ord_dict['efstastig'] and
+                        len(isl_ord_dict['efstastig']['sb']) == 0
+                    ):
+                        del isl_ord_dict['efstastig']['sb']
+                if 'efstastig-vb' not in ordhluti['beygingar']:
+                    if 'efstastig-vb-et' not in ordhluti['beygingar']:
+                        if (
+                            'efstastig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['efstastig'] and
+                            'et' in isl_ord_dict['efstastig']['vb']
+                        ):
+                            del isl_ord_dict['efstastig']['vb']['et']
+                    if 'efstastig-vb-ft' not in ordhluti['beygingar']:
+                        if (
+                            'efstastig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['efstastig'] and
+                            'ft' in isl_ord_dict['efstastig']['vb']
+                        ):
+                            del isl_ord_dict['efstastig']['vb']['ft']
+                    if (
+                        'efstastig' in isl_ord_dict and
+                        'vb' in isl_ord_dict['efstastig'] and
+                        len(isl_ord_dict['efstastig']['vb']) == 0
+                    ):
+                        del isl_ord_dict['efstastig']['vb']
+                if 'efstastig' in isl_ord_dict and len(isl_ord_dict['efstastig']) == 0:
+                    del isl_ord_dict['efstastig']
+            # sagnorð
+            if 'germynd' not in ordhluti['beygingar']:
+                if 'germynd-persónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'germynd' in isl_ord_dict and
+                        'persónuleg' in isl_ord_dict['germynd']
+                    ):
+                        del isl_ord_dict['germynd']['persónuleg']
+                if 'germynd-ópersónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'germynd' in isl_ord_dict and
+                        'ópersónuleg' in isl_ord_dict['germynd']
+                    ):
+                        del isl_ord_dict['germynd']['ópersónuleg']
+                if 'germynd-spurnarmyndir' not in ordhluti['beygingar']:
+                    if (
+                        'germynd' in isl_ord_dict and
+                        'spurnarmyndir' in isl_ord_dict['germynd']
+                    ):
+                        del isl_ord_dict['germynd']['spurnarmyndir']
+                if (
+                    'germynd-persónuleg' not in ordhluti['beygingar'] and
+                    'germynd-ópersónuleg' not in ordhluti['beygingar'] and
+                    'germynd-spurnarmyndir' not in ordhluti['beygingar']
+                ):
+                    if 'germynd' in isl_ord_dict:
+                        if 'nafnháttur' in isl_ord_dict['germynd']:
+                            del isl_ord_dict['germynd']['nafnháttur']
+                        if 'sagnbót' in isl_ord_dict['germynd']:
+                            del isl_ord_dict['germynd']['sagnbót']
+                        if 'boðháttur' in isl_ord_dict['germynd']:
+                            del isl_ord_dict['germynd']['boðháttur']
+                if 'germynd' in isl_ord_dict and len(isl_ord_dict['germynd']) == 0:
+                    del isl_ord_dict['germynd']
+            if 'miðmynd' not in ordhluti['beygingar']:
+                if 'miðmynd-persónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'miðmynd' in isl_ord_dict and
+                        'persónuleg' in isl_ord_dict['miðmynd']
+                    ):
+                        del isl_ord_dict['miðmynd']['persónuleg']
+                if 'miðmynd-ópersónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'miðmynd' in isl_ord_dict and
+                        'ópersónuleg' in isl_ord_dict['miðmynd']
+                    ):
+                        del isl_ord_dict['miðmynd']['ópersónuleg']
+                if 'miðmynd-spurnarmyndir' not in ordhluti['beygingar']:
+                    if (
+                        'miðmynd' in isl_ord_dict and
+                        'spurnarmyndir' in isl_ord_dict['miðmynd']
+                    ):
+                        del isl_ord_dict['miðmynd']['spurnarmyndir']
+                if (
+                    'miðmynd-persónuleg' not in ordhluti['beygingar'] and
+                    'miðmynd-ópersónuleg' not in ordhluti['beygingar'] and
+                    'miðmynd-spurnarmyndir' not in ordhluti['beygingar']
+                ):
+                    if 'miðmynd' in isl_ord_dict:
+                        if 'nafnháttur' in isl_ord_dict['miðmynd']:
+                            del isl_ord_dict['miðmynd']['nafnháttur']
+                        if 'sagnbót' in isl_ord_dict['miðmynd']:
+                            del isl_ord_dict['miðmynd']['sagnbót']
+                        if 'boðháttur' in isl_ord_dict['miðmynd']:
+                            del isl_ord_dict['miðmynd']['boðháttur']
+                if 'miðmynd' in isl_ord_dict and len(isl_ord_dict['miðmynd']) == 0:
+                    del isl_ord_dict['miðmynd']
+            if 'lýsingarháttur' not in ordhluti['beygingar']:
+                if 'lýsingarháttur-nútíðar' not in ordhluti['beygingar']:
+                    if (
+                        'lýsingarháttur' in isl_ord_dict and
+                        'nútíðar' in isl_ord_dict['lýsingarháttur']
+                    ):
+                        del isl_ord_dict['lýsingarháttur']['nútíðar']
+                if 'lýsingarháttur-þátíðar' not in ordhluti['beygingar']:
+                    if (
+                        'lýsingarháttur' in isl_ord_dict and
+                        'þátíðar' in isl_ord_dict['lýsingarháttur']
+                    ):
+                        del isl_ord_dict['lýsingarháttur']['þátíðar']
+                if 'lýsingarháttur' in isl_ord_dict and len(isl_ord_dict['lýsingarháttur']) == 0:
+                    del isl_ord_dict['lýsingarháttur']
+        # -----------------------------------------------------------------------------------------
+        isl_ord_dict = self.apply_ordhluti_ch_to_dict(isl_ord_dict, ordhluti)
         return isl_ord_dict
 
     def get_lo_myndir_beygingar(self, ordhluti: dict | OrderedDict) -> dict | OrderedDict:

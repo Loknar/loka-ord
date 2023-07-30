@@ -127,11 +127,33 @@ class SamsettOrdhluti(Base):
     Hastafa = utils.boolean_default_false()  # stilling til að hástafa upphafsstaf orðhluta
     Leidir = utils.word()
     Fylgir = utils.word()
-    # exclude specific beygingar ("beygingar": ["et-ág", "et-mg", "ft-ág", "ft-mg"])
+    # <Beygingar-filters>
+    # nafnorð/sérnöfn
     Exclude_et_ag = utils.boolean_default_false()
     Exclude_et_mg = utils.boolean_default_false()
     Exclude_ft_ag = utils.boolean_default_false()
     Exclude_ft_mg = utils.boolean_default_false()
+    # lýsingarorð
+    Exclude_frumstig_sb_et = utils.boolean_default_false()
+    Exclude_frumstig_sb_ft = utils.boolean_default_false()
+    Exclude_frumstig_vb_et = utils.boolean_default_false()
+    Exclude_frumstig_vb_ft = utils.boolean_default_false()
+    Exclude_midstig_vb_et = utils.boolean_default_false()
+    Exclude_midstig_vb_ft = utils.boolean_default_false()
+    Exclude_efstastig_sb_et = utils.boolean_default_false()
+    Exclude_efstastig_sb_ft = utils.boolean_default_false()
+    Exclude_efstastig_vb_et = utils.boolean_default_false()
+    Exclude_efstastig_vb_ft = utils.boolean_default_false()
+    # sagnorð
+    Exclude_germynd_personuleg = utils.boolean_default_false()
+    Exclude_germynd_opersonuleg = utils.boolean_default_false()
+    Exclude_germynd_spurnarmyndir = utils.boolean_default_false()
+    Exclude_midmynd_personuleg = utils.boolean_default_false()
+    Exclude_midmynd_opersonuleg = utils.boolean_default_false()
+    Exclude_midmynd_spurnarmyndir = utils.boolean_default_false()
+    Exclude_lysingarhattur_nutidar = utils.boolean_default_false()
+    Exclude_lysingarhattur_thatidar = utils.boolean_default_false()
+    # </Beygingar-filters>
     Edited = utils.timestamp_edited()
     Created = utils.timestamp_created()
 
