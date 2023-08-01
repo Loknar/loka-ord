@@ -94,6 +94,11 @@ def build_sight():
     lokaord.build_sight()
 
 
+@app.command(help='Pack word files into packed JSON files intended for web use.')
+def webpack(wpp: Annotated[Optional[int], typer.Option('--words-per-pack', '-wpp')] = 3000):
+    lokaord.webpack(words_per_pack=wpp)
+
+
 @app.command(help='Search for a single word in sight file.')
 def search(word: str):
     if word == '':

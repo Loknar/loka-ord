@@ -5,9 +5,11 @@ Seer of words
 Scan text, attempt to identify words.
 """
 import copy
+from collections import deque
 import datetime
 import itertools
 import json
+import math
 import pickle
 import platform
 import os
@@ -15,8 +17,11 @@ import pathlib
 import sys
 from typing import Callable
 
+import git
+
 from lokaord import logman
 from lokaord.database.models.utils import TimestampIsoformat as ts_iso
+from lokaord.handlers import DecimalJSONEncoder, MyIndentJSONEncoder
 from lokaord.version import __version__ as version
 
 if platform.system() == 'Linux':
@@ -285,7 +290,7 @@ def build_sight(filename='sight', use_pointless=None):
     if not os.path.exists(sight_storage_dir_abs):
         os.makedirs(sight_storage_dir_abs)
         logman.Logger.info('Created data directory "%s" for "%s.%s".' % (
-            filename, sight_storage_dir_abs, 'pointless' if use_pointless is True else 'pickle'
+            sight_storage_dir_abs, filename, 'pointless' if use_pointless is True else 'pickle'
         ))
     sight_filepath_rel = os.path.join(sight_storage_dir_rel, '%s.%s' % (
         filename, 'pointless' if use_pointless is True else 'pickle'
@@ -518,11 +523,197 @@ def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
         raise Exception('Peculiar ord_data type.')
 
 
+def webpack(words_per_pack: int = 3000):
+    """
+    Pack lokaorð JSON datafiles to more compact JSON datafiles suitable for webclient usage.
+    """
+    logman.info('Running webpack.')
+    ts_str = datetime.datetime.utcnow().strftime(ts_iso)
+    root_storage_dir_abs = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
+    webpack_dirpath_rel = os.path.join('database', 'disk', 'lokaord', 'webpack')
+    webpack_min_dirpath_rel = os.path.join(webpack_dirpath_rel, 'min')
+    webpack_dirpath_abs = os.path.join(root_storage_dir_abs, webpack_dirpath_rel)
+    webpack_min_dirpath_abs = os.path.join(root_storage_dir_abs, webpack_min_dirpath_rel)
+    if not os.path.exists(webpack_dirpath_abs):  # create directory if needed
+        os.makedirs(webpack_dirpath_abs)
+        logman.Logger.info('Created data directory "%s" for compact files for web.' % (
+            webpack_dirpath_abs,
+        ))
+    if not os.path.exists(webpack_min_dirpath_abs):  # create directory if needed
+        os.makedirs(webpack_min_dirpath_abs)
+        logman.Logger.info('Created data directory "%s" for compact files for web.' % (
+            webpack_min_dirpath_abs,
+        ))
+    datafiles_dir_abs = os.path.join(root_storage_dir_abs, 'database', 'data')
+    ord_dirs = [
+        'nafnord',
+        'lysingarord',
+        'sagnord',
+        'greinir',
+        os.path.join('toluord', 'fjoldatolur'),
+        os.path.join('toluord', 'radtolur'),
+        os.path.join('fornofn', 'abendingar'),
+        os.path.join('fornofn', 'afturbeygt'),
+        os.path.join('fornofn', 'eignar'),
+        os.path.join('fornofn', 'oakvedin'),
+        os.path.join('fornofn', 'personu'),
+        os.path.join('fornofn', 'spurnar'),
+        os.path.join('smaord', 'forsetning'),
+        os.path.join('smaord', 'atviksord'),
+        os.path.join('smaord', 'nafnhattarmerki'),
+        os.path.join('smaord', 'samtenging'),
+        os.path.join('smaord', 'upphropun'),
+        os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'eigin'),
+        os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'kenni'),
+        os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'eigin'),
+        os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'kenni'),
+        os.path.join('sernofn', 'mannanofn', 'islensk-millinofn'),
+        os.path.join('sernofn', 'gaelunofn', 'kk'),
+        os.path.join('sernofn', 'gaelunofn', 'kvk'),
+        os.path.join('sernofn', 'gaelunofn', 'hk'),
+        os.path.join('sernofn', 'ornefni'),
+    ]
+    repo_dir_abs = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
+    repo = git.Repo(repo_dir_abs)
+    head_sha = repo.head.object.hexsha
+    added_kennistrengir = set()
+    file_queue = deque()
+    for ord_dir in ord_dirs:
+        ord_dir_abs = os.path.join(datafiles_dir_abs, ord_dir)
+        for ord_file in sorted(pathlib.Path(ord_dir_abs).iterdir()):
+            file_queue.append(os.path.join(ord_dir_abs, ord_file.name))
+    packs_count = math.ceil(len(file_queue) / words_per_pack)
+    samsett_ord_keep_keys = [
+        'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
+        'kennistrengur', 'ósjálfstætt', 'stýrir', 'fleiryrt'
+    ]
+    logman.info('Packing words ..')
+    for pack in range(1, packs_count + 1):
+        webpack_data = {
+            'version': version,
+            'timestamp': ts_str,
+            'head': head_sha,
+            'count': None,
+            'nr': {'pack': pack, 'packs': packs_count},
+            'orð': [],
+        }
+        word_count = 0
+        while word_count < words_per_pack:
+            try:
+                file_path = file_queue.popleft()
+            except IndexError:
+                break
+            logman.debug(f'Webpack orð {file_path}')
+            ord_data = None
+            with open(file_path, 'r', encoding='utf-8') as fi:
+                ord_data = json.loads(fi.read())
+            # check if orð is samsett, just add it if it's not samsett
+            if 'samsett' not in ord_data:
+                webpack_data['orð'].append(ord_data)
+                if ord_data['kennistrengur'] in added_kennistrengir:
+                    raise Exception('Already added? (%s)' % (ord_data['kennistrengur'], ))
+                added_kennistrengir.add(ord_data['kennistrengur'])
+                word_count += 1
+                continue
+            # if samsett, check if all orðhlutar are present, add if so
+            ordhlutar_all_present = True
+            for ordhluti in ord_data['samsett']:
+                if ordhluti['kennistrengur'] not in added_kennistrengir:
+                    ordhlutar_all_present = False
+                    break
+            if ordhlutar_all_present:
+                # if all ordhlutar present, then delete beygingar and then go and add it
+                for key in sorted(ord_data.keys()):
+                    if key not in samsett_ord_keep_keys:
+                        del ord_data[key]
+                webpack_data['orð'].append(ord_data)
+                if ord_data['kennistrengur'] in added_kennistrengir:
+                    raise Exception('Already added? (%s)' % (ord_data['kennistrengur'], ))
+                added_kennistrengir.add(ord_data['kennistrengur'])
+                word_count += 1
+                continue
+            else:
+                # if not all orðhlutar present, throw file_path back at end of queue
+                file_queue.append(file_path)
+                continue
+        webpack_data['count'] = len(webpack_data['orð'])
+        webpack_data_json_pretty = json.dumps(
+            webpack_data, indent='\t', ensure_ascii=False, separators=(',', ': '),
+            cls=MyIndentJSONEncoder
+        )
+        webpack_data_json_min = json.dumps(
+            webpack_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True,
+            cls=DecimalJSONEncoder
+        )
+        # write to files
+        webpack_filename = 'lokaord-%s.json' % (pack, )
+        webpack_filename_min = 'lokaord-%s.min.json' % (pack, )
+        webpack_filename_abs = os.path.join(webpack_dirpath_abs, webpack_filename)
+        webpack_filename_min_abs = os.path.join(webpack_min_dirpath_abs, webpack_filename_min)
+        logman.info('Writing webpacked lokaord file "%s" ..' % (webpack_filename, ))
+        with open(webpack_filename_abs, mode='w', encoding='utf-8') as outfile:
+            outfile.write(webpack_data_json_pretty)
+        with open(webpack_filename_min_abs, mode='w', encoding='utf-8') as outfile:
+            outfile.write(webpack_data_json_min)
+    logman.info('Packing skammstafanir ..')
+    skamm_dir = 'skammstafanir'
+    skamm_dir_abs = os.path.join(datafiles_dir_abs, skamm_dir)
+    skamm_file_queue = deque()
+    added_skamm_kennistrengir = set()
+    for skamm_file in sorted(pathlib.Path(skamm_dir_abs).iterdir()):
+        skamm_file_queue.append(os.path.join(skamm_dir_abs, skamm_file.name))
+    skamm_packs_count = math.ceil(len(skamm_file_queue) / words_per_pack)
+    for pack in range(1, skamm_packs_count + 1):
+        webpack_skamm_data = {
+            'version': version,
+            'timestamp': ts_str,
+            'head': head_sha,
+            'count': None,
+            'nr': {'pack': pack, 'packs': skamm_packs_count},
+            'skammstafanir': [],
+        }
+        skamm_count = 0
+        while word_count < words_per_pack:
+            try:
+                file_path = skamm_file_queue.popleft()
+            except IndexError:
+                break
+            logman.debug(f'Webpack skammstafanir {file_path}')
+            skamm_data = None
+            with open(file_path, 'r', encoding='utf-8') as fi:
+                skamm_data = json.loads(fi.read())
+            webpack_skamm_data['skammstafanir'].append(skamm_data)
+            if skamm_data['kennistrengur'] in added_skamm_kennistrengir:
+                raise Exception('Already added? (%s)' % (skamm_data['kennistrengur'], ))
+            added_kennistrengir.add(ord_data['kennistrengur'])
+            skamm_count += 1
+        webpack_skamm_data['count'] = len(webpack_skamm_data['skammstafanir'])
+        webpack_data_json_pretty = json.dumps(
+            webpack_skamm_data, indent='\t', ensure_ascii=False, separators=(',', ': '),
+            cls=MyIndentJSONEncoder
+        )
+        webpack_data_json_min = json.dumps(
+            webpack_skamm_data, separators=(',', ':'), ensure_ascii=False, sort_keys=True,
+            cls=DecimalJSONEncoder
+        )
+        # write to files
+        webpack_filename = 'skamm-%s.json' % (pack, )
+        webpack_filename_min = 'skamm-%s.min.json' % (pack, )
+        webpack_filename_abs = os.path.join(webpack_dirpath_abs, webpack_filename)
+        webpack_filename_min_abs = os.path.join(webpack_min_dirpath_abs, webpack_filename_min)
+        logman.info('Writing webpacked skammstafanir file "%s" ..' % (webpack_filename, ))
+        with open(webpack_filename_abs, mode='w', encoding='utf-8') as outfile:
+            outfile.write(webpack_data_json_pretty)
+        with open(webpack_filename_min_abs, mode='w', encoding='utf-8') as outfile:
+            outfile.write(webpack_data_json_min)
+    logman.info('Webpack: done.')
+
+
 def clean_string(mystr: str) -> str:
     cleaned_str = mystr
-    remove_strings = [
+    remove_chars = [
         '\xad',  # stundum notað til að tilgreina skiptingu orða á vefsíðum
     ]
-    for remove_string in remove_strings:
-        cleaned_str = cleaned_str.replace(remove_string, '')
+    for remove_char in remove_chars:
+        cleaned_str = cleaned_str.replace(remove_char, '')
     return cleaned_str

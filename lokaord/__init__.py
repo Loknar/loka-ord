@@ -83,6 +83,10 @@ def write_files(ts: datetime.datetime = None):
     exporter.write_datafiles_from_db(ts)
 
 
+def webpack(words_per_pack: int = 3000):
+    seer.webpack(words_per_pack)
+
+
 def build_sight():
     seer.build_sight()
 
@@ -132,7 +136,7 @@ def assert_clean_git():
             for untracked_file in untracked_files:
                 feedback += '    %s\n' % (untracked_file, )
         raise Exception(feedback)
-    print('\nOur git repo is all clean!')
+    print('\nThe git repo is all clean!')
 
 
 def run_fiddle():
