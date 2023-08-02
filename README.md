@@ -81,6 +81,12 @@ sem er jafngild skipuninni `python main.py build-db -ch write-files -tr build-si
 Hægt er að endursmíða gagnagrunn með
 
 ```bash
+python main.py init -r
+```
+
+eða
+
+```bash
 python main.py build-db -r write-files build-sight md-stats
 ```
 
