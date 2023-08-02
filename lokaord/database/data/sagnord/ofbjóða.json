@@ -1,0 +1,122 @@
+{
+	"orð": "ofbjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofbjóða",
+		"sagnbót": "ofboðið",
+		"boðháttur": {
+			"stýfður": "ofbjóð",
+			"et": "ofbjóddu",
+			"ft": "ofbjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofbýð", "ofbyður", "ofbýður"],
+					"ft": ["ofbjóðum", "ofbjóðið", "ofbjóða"]
+				},
+				"þátíð": {
+					"et": ["ofbauð", "ofbauðst", "ofbauð"],
+					"ft": ["ofbuðum", "ofbuðuð", "ofbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofbjóði", "ofbjóðir", "ofbjóði"],
+					"ft": ["ofbjóðum", "ofbjóðið", "ofbjóði"]
+				},
+				"þátíð": {
+					"et": ["ofbyði", "ofbyðir", "ofbyði"],
+					"ft": ["ofbyðum", "ofbyðuð", "ofbyðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofbýður", "ofbýður", "ofbýður"],
+					"ft": ["ofbýður", "ofbýður", "ofbýður"]
+				},
+				"þátíð": {
+					"et": ["ofbauð", "ofbauð", "ofbauð"],
+					"ft": ["ofbauð", "ofbauð", "ofbauð"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofbjóði", "ofbjóði", "ofbjóði"],
+					"ft": ["ofbjóði", "ofbjóði", "ofbjóði"]
+				},
+				"þátíð": {
+					"et": ["ofbyði", "ofbyði", "ofbyði"],
+					"ft": ["ofbyði", "ofbyði", "ofbyði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofbýðurðu",
+					"ft": "ofbjóðiði"
+				},
+				"þátíð": {
+					"et": "ofbauðstu",
+					"ft": "ofbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofbjóðirðu",
+					"ft": "ofbjóðiði"
+				},
+				"þátíð": {
+					"et": "ofbyðirðu",
+					"ft": "ofbyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofbjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofboðinn", "ofboðinn", "ofboðnum", "ofboðins"],
+					"kvk": ["ofboðin", "ofboðna", "ofboðinni", "ofboðinnar"],
+					"hk": ["ofboðið", "ofboðið", "ofboðnu", "ofboðins"]
+				},
+				"ft": {
+					"kk": ["ofboðnir", "ofboðna", "ofboðnum", "ofboðinna"],
+					"kvk": ["ofboðnar", "ofboðnar", "ofboðnum", "ofboðinna"],
+					"hk": ["ofboðin", "ofboðin", "ofboðnum", "ofboðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ofboðni", "ofboðna", "ofboðna", "ofboðna"],
+					"kvk": ["ofboðna", "ofboðnu", "ofboðnu", "ofboðnu"],
+					"hk": ["ofboðna", "ofboðna", "ofboðna", "ofboðna"]
+				},
+				"ft": {
+					"kk": ["ofboðnu", "ofboðnu", "ofboðnu", "ofboðnu"],
+					"kvk": ["ofboðnu", "ofboðnu", "ofboðnu", "ofboðnu"],
+					"hk": ["ofboðnu", "ofboðnu", "ofboðnu", "ofboðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofbjóða",
+	"hash": "730e1634e4f1879fb5a917f7d92521263759c5478dd069b797816a0cb3303bf9"
+}

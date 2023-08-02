@@ -1,0 +1,178 @@
+{
+	"orð": "bjóða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "bjóða",
+		"sagnbót": "boðið",
+		"boðháttur": {
+			"stýfður": "bjóð",
+			"et": "bjóddu",
+			"ft": "bjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["býð", "byður", "býður"],
+					"ft": ["bjóðum", "bjóðið", "bjóða"]
+				},
+				"þátíð": {
+					"et": ["bauð", "bauðst", "bauð"],
+					"ft": ["buðum", "buðuð", "buðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bjóði", "bjóðir", "bjóði"],
+					"ft": ["bjóðum", "bjóðið", "bjóði"]
+				},
+				"þátíð": {
+					"et": ["byði", "byðir", "byði"],
+					"ft": ["byðum", "byðuð", "byðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["býður", "býður", "býður"],
+					"ft": ["býður", "býður", "býður"]
+				},
+				"þátíð": {
+					"et": ["bauð", "bauð", "bauð"],
+					"ft": ["bauð", "bauð", "bauð"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bjóði", "bjóði", "bjóði"],
+					"ft": ["bjóði", "bjóði", "bjóði"]
+				},
+				"þátíð": {
+					"et": ["byði", "byði", "byði"],
+					"ft": ["byði", "byði", "byði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "býðurðu",
+					"ft": "bjóðiði"
+				},
+				"þátíð": {
+					"et": "bauðstu",
+					"ft": "buðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bjóðirðu",
+					"ft": "bjóðiði"
+				},
+				"þátíð": {
+					"et": "byðirðu",
+					"ft": "byðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bjóðast",
+		"sagnbót": "boðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["býðst", "býðst", "býðst"],
+					"ft": ["bjóðumst", "bjóðist", "bjóðast"]
+				},
+				"þátíð": {
+					"et": ["bauðst", "bauðst", "bauðst"],
+					"ft": ["buðumst", "buðust", "buðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bjóðist", "bjóðist", "bjóðist"],
+					"ft": ["bjóðumst", "bjóðist", "bjóðist"]
+				},
+				"þátíð": {
+					"et": ["byðist", "byðist", "byðist"],
+					"ft": ["byðumst", "byðust", "byðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["býðst", "býðst", "býðst"],
+					"ft": ["býðst", "býðst", "býðst"]
+				},
+				"þátíð": {
+					"et": ["bauðst", "bauðst", "bauðst"],
+					"ft": ["bauðst", "bauðst", "bauðst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bjóðist", "bjóðist", "bjóðist"],
+					"ft": ["bjóðist", "bjóðist", "bjóðist"]
+				},
+				"þátíð": {
+					"et": ["byðist", "byðist", "byðist"],
+					"ft": ["byðist", "byðist", "byðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "býðstu"
+				},
+				"þátíð": {
+					"et": "bauðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bjóðistu"
+				},
+				"þátíð": {
+					"et": "byðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["boðinn", "boðinn", "boðnum", "boðins"],
+					"kvk": ["boðin", "boðna", "boðinni", "boðinnar"],
+					"hk": ["boðið", "boðið", "boðnu", "boðins"]
+				},
+				"ft": {
+					"kk": ["boðnir", "boðna", "boðnum", "boðinna"],
+					"kvk": ["boðnar", "boðnar", "boðnum", "boðinna"],
+					"hk": ["boðin", "boðin", "boðnum", "boðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["boðni", "boðna", "boðna", "boðna"],
+					"kvk": ["boðna", "boðnu", "boðnu", "boðnu"],
+					"hk": ["boðna", "boðna", "boðna", "boðna"]
+				},
+				"ft": {
+					"kk": ["boðnu", "boðnu", "boðnu", "boðnu"],
+					"kvk": ["boðnu", "boðnu", "boðnu", "boðnu"],
+					"hk": ["boðnu", "boðnu", "boðnu", "boðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bjóða",
+	"hash": "971077d864c10e842523cb322170ecac742e5447e204e7ddcb208eccda1ac967"
+}

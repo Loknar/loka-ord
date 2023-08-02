@@ -1,0 +1,111 @@
+{
+	"orð": "skelfa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skelfa",
+		"sagnbót": "skelft",
+		"boðháttur": {
+			"stýfður": "skelf",
+			"et": "skelfdu",
+			"ft": "skelfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skelfi", "skelfir", "skelfir"],
+					"ft": ["skelfum", "skelfið", "skelfa"]
+				},
+				"þátíð": {
+					"et": ["skelfdi", "skelfdir", "skelfdi"],
+					"ft": ["skelfdum", "skelfduð", "skelfdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skelfi", "skelfir", "skelfi"],
+					"ft": ["skelfum", "skelfið", "skelfi"]
+				},
+				"þátíð": {
+					"et": ["skelfdi", "skelfdir", "skelfdi"],
+					"ft": ["skelfdum", "skelfduð", "skelfdu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skelfir", "skelfir", "skelfir"],
+					"ft": ["skelfir", "skelfir", "skelfir"]
+				},
+				"þátíð": {
+					"et": ["skelfdi", "skelfdi", "skelfdi"],
+					"ft": ["skelfdi", "skelfdi", "skelfdi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skelfi", "skelfi", "skelfi"],
+					"ft": ["skelfi", "skelfi", "skelfi"]
+				},
+				"þátíð": {
+					"et": ["skelfdi", "skelfdi", "skelfdi"],
+					"ft": ["skelfdi", "skelfdi", "skelfdi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skelfirðu",
+					"ft": "skelfiði"
+				},
+				"þátíð": {
+					"et": "skelfdirðu",
+					"ft": "skelfduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skelfirðu",
+					"ft": "skelfiði"
+				},
+				"þátíð": {
+					"et": "skelfdirðu",
+					"ft": "skelfduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skelfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skelfdur", "skelfdan", "skelfdum", "skelfds"],
+					"kvk": ["skelfd", "skelfda", "skelfdri", "skelfdrar"],
+					"hk": ["skelft", "skelft", "skelfdu", "skelfds"]
+				},
+				"ft": {
+					"kk": ["skelfdir", "skelfda", "skelfdum", "skelfdra"],
+					"kvk": ["skelfdar", "skelfdar", "skelfdum", "skelfdra"],
+					"hk": ["skelfd", "skelfd", "skelfdum", "skelfdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skelfdi", "skelfda", "skelfda", "skelfda"],
+					"kvk": ["skelfda", "skelfdu", "skelfdu", "skelfdu"],
+					"hk": ["skelfda", "skelfda", "skelfda", "skelfda"]
+				},
+				"ft": {
+					"kk": ["skelfdu", "skelfdu", "skelfdu", "skelfdu"],
+					"kvk": ["skelfdu", "skelfdu", "skelfdu", "skelfdu"],
+					"hk": ["skelfdu", "skelfdu", "skelfdu", "skelfdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skelfa",
+	"hash": "d2c47902ea3fa099ffdf2f65bc7c9cf41b4e187e0aaf3e127c5fb41b7f2b7b99"
+}
