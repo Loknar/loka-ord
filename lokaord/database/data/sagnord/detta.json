@@ -1,0 +1,111 @@
+{
+	"orð": "detta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "detta",
+		"sagnbót": "dottið",
+		"boðháttur": {
+			"stýfður": "dett",
+			"et": "dettu",
+			"ft": "dettið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dett", "dettur", "dettur"],
+					"ft": ["dettum", "dettið", "detta"]
+				},
+				"þátíð": {
+					"et": ["datt", "dast", "datt"],
+					"ft": ["duttum", "duttuð", "duttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["detti", "dettir", "detti"],
+					"ft": ["dettum", "dettið", "detti"]
+				},
+				"þátíð": {
+					"et": ["dytti", "dyttir", "dytti"],
+					"ft": ["dyttum", "dyttuð", "dyttu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dettur", "dettur", "dettur"],
+					"ft": ["dettur", "dettur", "dettur"]
+				},
+				"þátíð": {
+					"et": ["datt", "datt", "datt"],
+					"ft": ["datt", "datt", "datt"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["detti", "detti", "detti"],
+					"ft": ["detti", "detti", "detti"]
+				},
+				"þátíð": {
+					"et": ["dytti", "dytti", "dytti"],
+					"ft": ["dytti", "dytti", "dytti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "detturðu",
+					"ft": "dettiði"
+				},
+				"þátíð": {
+					"et": "dastu",
+					"ft": "duttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dettirðu",
+					"ft": "dettiði"
+				},
+				"þátíð": {
+					"et": "dyttirðu",
+					"ft": "dyttuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dettandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dottinn", "dottinn", "dottnum", "dottins"],
+					"kvk": ["dottin", "dottna", "dottinni", "dottinnar"],
+					"hk": ["dottið", "dottið", "dottnu", "dottins"]
+				},
+				"ft": {
+					"kk": ["dottnir", "dottna", "dottnum", "dottinna"],
+					"kvk": ["dottnar", "dottnar", "dottnum", "dottinna"],
+					"hk": ["dottin", "dottin", "dottnum", "dottinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["dottni", "dottna", "dottna", "dottna"],
+					"kvk": ["dottna", "dottnu", "dottnu", "dottnu"],
+					"hk": ["dottna", "dottna", "dottna", "dottna"]
+				},
+				"ft": {
+					"kk": ["dottnu", "dottnu", "dottnu", "dottnu"],
+					"kvk": ["dottnu", "dottnu", "dottnu", "dottnu"],
+					"hk": ["dottnu", "dottnu", "dottnu", "dottnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-detta",
+	"hash": "fa4e0b46881c2596ce9c362fd941430b1204a569d6f2892fbc85a72323dc35f5"
+}
