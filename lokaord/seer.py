@@ -85,7 +85,7 @@ def word_change_possibilities(word: str) -> list[str]:
     return list(myset)
 
 
-def scan_sentence(sentence: str, clean_str: bool = True):
+def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = True):
     if clean_str is True:
         sentence = clean_string(sentence)
     sight = load_sight()
@@ -159,7 +159,7 @@ def scan_sentence(sentence: str, clean_str: bool = True):
         e_word_possibilities = word_change_possibilities(e_word)
         for e_word_p in e_word_possibilities:
             if e_word_p in sight['orð']:
-                scanned_word['orð-hreinsað'] = e_word
+                scanned_word['orð-hreinsað'] = e_word_p
                 scanned_word['staða'] = 'mögulega'
                 for option in sight['orð'][e_word_p]:
                     scanned_word['möguleikar'].append({
@@ -225,14 +225,15 @@ def scan_sentence(sentence: str, clean_str: bool = True):
             highlighted_sentence_list.append(
                 '\033[41m\033[37m%s\033[0m' % (scanned_word['orð'], )
             )
-        for option in scanned_word['möguleikar']:
-            print(
-                (
-                    '\033[34m├\033[0m \033[36m{m}\033[0m\n'
-                    '\033[34m├\033[0m \033[33m{k} ({h})\033[0m\n'
-                    '\033[34m└\033[0m \033[35m{f}\033[0m'
-                ).format(**option)
-            )
+        if hide_matches is False:
+            for option in scanned_word['möguleikar']:
+                print(
+                    (
+                        '\033[34m├\033[0m \033[36m{m}\033[0m\n'
+                        '\033[34m├\033[0m \033[33m{k} ({h})\033[0m\n'
+                        '\033[34m└\033[0m \033[35m{f}\033[0m'
+                    ).format(**option)
+                )
     highlighted_sentence = ' '.join(highlighted_sentence_list)
     print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (highlighted_sentence, ))
     print('Fannst: %s/%s, %s %%' % (

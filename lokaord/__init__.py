@@ -95,8 +95,8 @@ def search(word: str):
     seer.search_word(word)
 
 
-def scan_sentence(sentence: str):
-    seer.scan_sentence(sentence)
+def scan_sentence(sentence: str, hide_matches: bool = False):
+    seer.scan_sentence(sentence, hide_matches=hide_matches)
 
 
 def get_stats():

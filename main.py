@@ -106,16 +106,22 @@ def search(word: str):
     lokaord.search(word)
 
 @app.command(help='Search for words in a sentence in sight file.')
-def scan_sentence(sentence: str):
+def scan_sentence(
+    sentence: str,
+    hide_matches: Annotated[Optional[bool], typer.Option('--hide-matches', '-hm')] = False
+):
     if sentence == '':
         raise typer.BadParameter('Sentence can\'t be empty string.')
-    lokaord.scan_sentence(sentence)
+    lokaord.scan_sentence(sentence, hide_matches)
     lokaord.get_runtime()
 
 
 @app.command(help='Short for the "scan-sentence" command.')
-def ss(sentence: str):
-    scan_sentence(sentence)
+def ss(
+    sentence: str,
+    hide_matches: Annotated[Optional[bool], typer.Option('--hide-matches', '-hm')] = False
+):
+    scan_sentence(sentence, hide_matches)
 
 
 @app.command(help='Print database word count data in JSON string.')
