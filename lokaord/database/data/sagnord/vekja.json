@@ -1,0 +1,132 @@
+{
+	"orð": "vekja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "vekja",
+		"sagnbót": "vakið",
+		"boðháttur": {
+			"stýfður": "vek",
+			"et": "vektu",
+			"ft": "vekið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vek", "vekur", "vekur"],
+					"ft": ["vekjum", "vekið", "vekja"]
+				},
+				"þátíð": {
+					"et": ["vakti", "vaktir", "vakti"],
+					"ft": ["vöktum", "vöktuð", "vöktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veki", "vekir", "veki"],
+					"ft": ["vekjum", "vekið", "veki"]
+				},
+				"þátíð": {
+					"et": ["vekti", "vektir", "vekti"],
+					"ft": ["vektum", "vektuð", "vektu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verkurðu",
+					"ft": "vekiði"
+				},
+				"þátíð": {
+					"et": "vaktirðu",
+					"ft": "vöktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vekirðu",
+					"ft": "vekiði"
+				},
+				"þátíð": {
+					"et": "vektirðu",
+					"ft": "vektuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vekjast",
+		"sagnbót": "vakist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vekst", "vekst", "vekst"],
+					"ft": ["vekjumst", "vekist", "vekjast"]
+				},
+				"þátíð": {
+					"et": ["vaktist", "vaktist", "vaktist"],
+					"ft": ["vöktumst", "vöktust", "vöktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vekist", "vekist", "vekist"],
+					"ft": ["vekjumst", "vekist", "vekist"]
+				},
+				"þátíð": {
+					"et": ["vektist", "vektist", "vektist"],
+					"ft": ["vektumst", "vektust", "vektust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vekstu"
+				},
+				"þátíð": {
+					"et": "vaktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vekistu"
+				},
+				"þátíð": {
+					"et": "vektistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vekjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vakinn", "vakinn", "vöktum", "vakins"],
+					"kvk": ["vakin", "vakta", "vakinni", "vakinnar"],
+					"hk": ["vakið", "vakið", "vöktu", "vakins"]
+				},
+				"ft": {
+					"kk": ["vaktir", "vakta", "vöktum", "vakinna"],
+					"kvk": ["vaktar", "vaktar", "vöktum", "vakinna"],
+					"hk": ["vakin", "vakin", "vöktum", "vakinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vakti", "vakta", "vakta", "vakta"],
+					"kvk": ["vakta", "vöktu", "vöktu", "vöktu"],
+					"hk": ["vakta", "vakta", "vakta", "vakta"]
+				},
+				"ft": {
+					"kk": ["vöktu", "vöktu", "vöktu", "vöktu"],
+					"kvk": ["vöktu", "vöktu", "vöktu", "vöktu"],
+					"hk": ["vöktu", "vöktu", "vöktu", "vöktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vekja",
+	"hash": "0360ce8a536ef9079053758f5344a5360408b778459069f85337147b22da7e7b"
+}
