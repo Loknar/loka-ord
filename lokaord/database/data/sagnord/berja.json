@@ -1,0 +1,132 @@
+{
+	"orð": "berja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "berja",
+		"sagnbót": "barið",
+		"boðháttur": {
+			"stýfður": "ber",
+			"et": "berðu",
+			"ft": "berjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ber", "berð", "ber"],
+					"ft": ["berjum", "berjið", "berja"]
+				},
+				"þátíð": {
+					"et": ["barði", "barðir", "barði"],
+					"ft": ["börðum", "börðuð", "börðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["berji", "berjir", "berji"],
+					"ft": ["berjum", "berjið", "berji"]
+				},
+				"þátíð": {
+					"et": ["berði", "berðir", "berði"],
+					"ft": ["berðum", "berðuð", "berðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "berðu",
+					"ft": "berjiði"
+				},
+				"þátíð": {
+					"et": "barðirðu",
+					"ft": "börðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "berjirðu",
+					"ft": "berjiði"
+				},
+				"þátíð": {
+					"et": "berðirðu",
+					"ft": "berðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "berjast",
+		"sagnbót": "barist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["berst", "berst", "berst"],
+					"ft": ["berjumst", "berjist", "berjast"]
+				},
+				"þátíð": {
+					"et": ["barðist", "barðist", "barðist"],
+					"ft": ["börðumst", "börðust", "börðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["berjist", "berjist", "berjist"],
+					"ft": ["berjumst", "berjist", "berjist"]
+				},
+				"þátíð": {
+					"et": ["berðist", "berðist", "berðist"],
+					"ft": ["berðumst", "berðust", "berðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "berstu"
+				},
+				"þátíð": {
+					"et": "barðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "berjistu"
+				},
+				"þátíð": {
+					"et": "berðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "berjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["barinn", "barinn", "börnum", "barins"],
+					"kvk": ["barin", "barða", "barinni", "barinnar"],
+					"hk": ["barið", "barið", "börnu", "barins"]
+				},
+				"ft": {
+					"kk": ["barnir", "barða", "börnum", "barinna"],
+					"kvk": ["barðar", "barðar", "börnum", "barinna"],
+					"hk": ["barin", "barin", "börnum", "barinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["barni", "barða", "barða", "barða"],
+					"kvk": ["barða", "börnu", "börnu", "börnu"],
+					"hk": ["barða", "barða", "barða", "barða"]
+				},
+				"ft": {
+					"kk": ["börnu", "börnu", "börnu", "börnu"],
+					"kvk": ["börnu", "börnu", "börnu", "börnu"],
+					"hk": ["börnu", "börnu", "börnu", "börnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-berja",
+	"hash": "2ce3b5d04dd54bb07b2e8eb4fccfed4b839f39b0b6223dac240d17a412defb97"
+}

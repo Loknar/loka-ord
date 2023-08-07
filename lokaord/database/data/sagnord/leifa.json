@@ -1,0 +1,155 @@
+{
+	"orð": "leifa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "leifa",
+		"sagnbót": "leift",
+		"boðháttur": {
+			"stýfður": "leif",
+			"et": "leifðu",
+			"ft": "leifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leifi", "leifir", "leifir"],
+					"ft": ["leifum", "leifið", "leifa"]
+				},
+				"þátíð": {
+					"et": ["leifði", "leifðir", "leifði"],
+					"ft": ["leifðum", "leifðuð", "leifðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leifi", "leifir", "leifi"],
+					"ft": ["leifum", "leifið", "leifi"]
+				},
+				"þátíð": {
+					"et": ["leifði", "leifðir", "leifði"],
+					"ft": ["leifðum", "leifðuð", "leifðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leifir", "leifir", "leifir"],
+					"ft": ["leifir", "leifir", "leifir"]
+				},
+				"þátíð": {
+					"et": ["leifði", "leifði", "leifði"],
+					"ft": ["leifði", "leifði", "leifði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leifi", "leifi", "leifi"],
+					"ft": ["leifi", "leifi", "leifi"]
+				},
+				"þátíð": {
+					"et": ["leifði", "leifði", "leifði"],
+					"ft": ["leifði", "leifði", "leifði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leifirðu",
+					"ft": "leifiði"
+				},
+				"þátíð": {
+					"et": "leifðirðu",
+					"ft": "leifðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leifirðu",
+					"ft": "leifiði"
+				},
+				"þátíð": {
+					"et": "leifðirðu",
+					"ft": "leifðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leifast",
+		"sagnbót": "leifst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leifist", "leifist", "leifist"],
+					"ft": ["leifumst", "leifist", "leifast"]
+				},
+				"þátíð": {
+					"et": ["leifðist", "leifðist", "leifðist"],
+					"ft": ["leifðumst", "leifðust", "leifðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leifist", "leifist", "leifist"],
+					"ft": ["leifumst", "leifist", "leifist"]
+				},
+				"þátíð": {
+					"et": ["leifðist", "leifðist", "leifðist"],
+					"ft": ["leifðumst", "leifðust", "leifðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leifistu"
+				},
+				"þátíð": {
+					"et": "leifðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leifistu"
+				},
+				"þátíð": {
+					"et": "leifðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leifður", "leifðan", "leifðum", "leifðs"],
+					"kvk": ["leifð", "leifða", "leifðri", "leifðrar"],
+					"hk": ["leift", "leift", "leifðu", "leifðs"]
+				},
+				"ft": {
+					"kk": ["leifðir", "leifða", "leifðum", "leifðra"],
+					"kvk": ["leifðar", "leifðar", "leifðum", "leifðra"],
+					"hk": ["leifð", "leifð", "leifðum", "leifðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["leifði", "leifða", "leifða", "leifða"],
+					"kvk": ["leifða", "leifðu", "leifðu", "leifðu"],
+					"hk": ["leifða", "leifða", "leifða", "leifða"]
+				},
+				"ft": {
+					"kk": ["leifðu", "leifðu", "leifðu", "leifðu"],
+					"kvk": ["leifðu", "leifðu", "leifðu", "leifðu"],
+					"hk": ["leifðu", "leifðu", "leifðu", "leifðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leifa",
+	"hash": "17bb67c819b74d4ece81568a5e86cae6427fa50a9f670e0db90ad51acb37ea86"
+}

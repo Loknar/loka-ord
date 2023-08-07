@@ -1,0 +1,155 @@
+{
+	"orð": "leyfa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "leyfa",
+		"sagnbót": "leyft",
+		"boðháttur": {
+			"stýfður": "leyf",
+			"et": "leyfðu",
+			"ft": "leyfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leyfi", "leyfir", "leyfir"],
+					"ft": ["leyfum", "leyfið", "leyfa"]
+				},
+				"þátíð": {
+					"et": ["leyfði", "leyfðir", "leyfði"],
+					"ft": ["leyfðum", "leyfðuð", "leyfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leyfi", "leyfir", "leyfi"],
+					"ft": ["leyfum", "leyfið", "leyfi"]
+				},
+				"þátíð": {
+					"et": ["leyfði", "leyfðir", "leyfði"],
+					"ft": ["leyfðum", "leyfðuð", "leyfðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leyfir", "leyfir", "leyfir"],
+					"ft": ["leyfir", "leyfir", "leyfir"]
+				},
+				"þátíð": {
+					"et": ["leyfði", "leyfði", "leyfði"],
+					"ft": ["leyfði", "leyfði", "leyfði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leyfi", "leyfi", "leyfi"],
+					"ft": ["leyfi", "leyfi", "leyfi"]
+				},
+				"þátíð": {
+					"et": ["leyfði", "leyfði", "leyfði"],
+					"ft": ["leyfði", "leyfði", "leyfði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leyfirðu",
+					"ft": "leyfiði"
+				},
+				"þátíð": {
+					"et": "leyfðirðu",
+					"ft": "leyfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leyfirðu",
+					"ft": "leyfiði"
+				},
+				"þátíð": {
+					"et": "leyfðirðu",
+					"ft": "leyfðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leyfast",
+		"sagnbót": "leyfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leyfist", "leyfist", "leyfist"],
+					"ft": ["leyfumst", "leyfist", "leyfast"]
+				},
+				"þátíð": {
+					"et": ["leyfðist", "leyfðist", "leyfðist"],
+					"ft": ["leyfðumst", "leyfðust", "leyfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leyfist", "leyfist", "leyfist"],
+					"ft": ["leyfumst", "leyfist", "leyfist"]
+				},
+				"þátíð": {
+					"et": ["leyfðist", "leyfðist", "leyfðist"],
+					"ft": ["leyfðumst", "leyfðust", "leyfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leyfistu"
+				},
+				"þátíð": {
+					"et": "leyfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leyfistu"
+				},
+				"þátíð": {
+					"et": "leyfðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leyfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leyfður", "leyfðan", "leyfðum", "leyfðs"],
+					"kvk": ["leyfð", "leyfða", "leyfðri", "leyfðrar"],
+					"hk": ["leyft", "leyft", "leyfðu", "leyfðs"]
+				},
+				"ft": {
+					"kk": ["leyfðir", "leyfða", "leyfðum", "leyfðra"],
+					"kvk": ["leyfðar", "leyfðar", "leyfðum", "leyfðra"],
+					"hk": ["leyfð", "leyfð", "leyfðum", "leyfðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["leyfði", "leyfða", "leyfða", "leyfða"],
+					"kvk": ["leyfða", "leyfðu", "leyfðu", "leyfðu"],
+					"hk": ["leyfða", "leyfða", "leyfða", "leyfða"]
+				},
+				"ft": {
+					"kk": ["leyfðu", "leyfðu", "leyfðu", "leyfðu"],
+					"kvk": ["leyfðu", "leyfðu", "leyfðu", "leyfðu"],
+					"hk": ["leyfðu", "leyfðu", "leyfðu", "leyfðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leyfa",
+	"hash": "8a6880278e32f554f9b2d2e342c9dc9812d2e37b62f515812f89132caa6aaae4"
+}
