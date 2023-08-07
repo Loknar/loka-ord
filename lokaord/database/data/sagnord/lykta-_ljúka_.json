@@ -1,0 +1,156 @@
+{
+	"orð": "lykta",
+	"flokkur": "sagnorð",
+	"merking": "ljúka",
+	"germynd": {
+		"nafnháttur": "lykta",
+		"sagnbót": "lyktað",
+		"boðháttur": {
+			"stýfður": "lykta",
+			"et": "lyktaðu",
+			"ft": "lyktið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lykta", "lyktar", "lyktar"],
+					"ft": ["lyktum", "lyktið", "lykta"]
+				},
+				"þátíð": {
+					"et": ["lyktaði", "lyktaðir", "lyktaði"],
+					"ft": ["lyktuðum", "lyktuðuð", "lyktuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lykti", "lyktir", "lykti"],
+					"ft": ["lyktum", "lyktið", "lykti"]
+				},
+				"þátíð": {
+					"et": ["lyktaði", "lyktaðir", "lyktaði"],
+					"ft": ["lyktuðum", "lyktuðuð", "lyktuðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lyktar", "lyktar", "lyktar"],
+					"ft": ["lyktar", "lyktar", "lyktar"]
+				},
+				"þátíð": {
+					"et": ["lyktaði", "lyktaði", "lyktaði"],
+					"ft": ["lyktaði", "lyktaði", "lyktaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lykti", "lykti", "lykti"],
+					"ft": ["lykti", "lykti", "lykti"]
+				},
+				"þátíð": {
+					"et": ["lyktaði", "lyktaði", "lyktaði"],
+					"ft": ["lyktaði", "lyktaði", "lyktaði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lyktarðu",
+					"ft": "lyktiði"
+				},
+				"þátíð": {
+					"et": "lyktaðirðu",
+					"ft": "lyktuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lyktirðu",
+					"ft": "lyktiði"
+				},
+				"þátíð": {
+					"et": "lyktaðirðu",
+					"ft": "lyktuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lyktast",
+		"sagnbót": "lyktast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lyktast", "lyktast", "lyktast"],
+					"ft": ["lyktumst", "lyktumst", "lyktist"]
+				},
+				"þátíð": {
+					"et": ["lyktaðist", "lyktaðist", "lyktaðist"],
+					"ft": ["lyktuðumst", "lyktuðust", "lyktuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lyktist", "lyktist", "lyktist"],
+					"ft": ["lyktumst", "lyktist", "lyktist"]
+				},
+				"þátíð": {
+					"et": ["lyktaðist", "lyktaðist", "lyktaðist"],
+					"ft": ["lyktuðumst", "lyktuðust", "lyktuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lyktastu"
+				},
+				"þátíð": {
+					"et": "lyktaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lyktistu"
+				},
+				"þátíð": {
+					"et": "lyktaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lyktandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lyktaður", "lyktaðan", "lyktuðum", "lyktaðs"],
+					"kvk": ["lyktuð", "lyktaða", "lyktaðri", "lyktaðrar"],
+					"hk": ["lyktað", "lyktað", "lyktuðu", "lyktaðs"]
+				},
+				"ft": {
+					"kk": ["lyktaðir", "lyktaða", "lyktuðum", "lyktaðra"],
+					"kvk": ["lyktaðar", "lyktaðar", "lyktuðum", "lyktaðra"],
+					"hk": ["lyktuð", "lyktuð", "lyktuðum", "lyktaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lyktaði", "lyktaða", "lyktaða", "lyktaða"],
+					"kvk": ["lyktaða", "lyktuðu", "lyktuðu", "lyktuðu"],
+					"hk": ["lyktaða", "lyktaða", "lyktaða", "lyktaða"]
+				},
+				"ft": {
+					"kk": ["lyktuðu", "lyktuðu", "lyktuðu", "lyktuðu"],
+					"kvk": ["lyktuðu", "lyktuðu", "lyktuðu", "lyktuðu"],
+					"hk": ["lyktuðu", "lyktuðu", "lyktuðu", "lyktuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lykta-_ljúka_",
+	"hash": "a206cd827465154f7d6b44b0de55dab892abac50d4d89f4dd8ad5b10528c7086"
+}

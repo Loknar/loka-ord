@@ -1,0 +1,73 @@
+{
+	"orð": "álykta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-lykta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "álykta",
+		"sagnbót": "ályktað",
+		"boðháttur": {
+			"stýfður": "álykta",
+			"et": "ályktaðu",
+			"ft": "ályktið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["álykta", "ályktar", "ályktar"],
+					"ft": ["ályktum", "ályktið", "álykta"]
+				},
+				"þátíð": {
+					"et": ["ályktaði", "ályktaðir", "ályktaði"],
+					"ft": ["ályktuðum", "ályktuðuð", "ályktuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["álykti", "ályktir", "álykti"],
+					"ft": ["ályktum", "ályktið", "álykti"]
+				},
+				"þátíð": {
+					"et": ["ályktaði", "ályktaðir", "ályktaði"],
+					"ft": ["ályktuðum", "ályktuðuð", "ályktuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ályktarðu",
+					"ft": "ályktiði"
+				},
+				"þátíð": {
+					"et": "ályktaðirðu",
+					"ft": "ályktuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ályktirðu",
+					"ft": "ályktiði"
+				},
+				"þátíð": {
+					"et": "ályktaðirðu",
+					"ft": "ályktuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ályktandi"
+	},
+	"kennistrengur": "so-álykta",
+	"hash": "43fc63456a24009a143706b6015d732cdc46708ef8b6b4564233fa95a6363e40"
+}

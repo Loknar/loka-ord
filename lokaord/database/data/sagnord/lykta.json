@@ -1,0 +1,88 @@
+{
+	"orð": "lykta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lykta",
+		"sagnbót": "lyktað",
+		"boðháttur": {
+			"stýfður": "lykta",
+			"et": "lyktaðu",
+			"ft": "lyktið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lykta", "lyktar", "lyktar"],
+					"ft": ["lyktum", "lyktið", "lykta"]
+				},
+				"þátíð": {
+					"et": ["lyktaði", "lyktaðir", "lyktaði"],
+					"ft": ["lyktuðum", "lyktuðuð", "lyktuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lykti", "lyktir", "lykti"],
+					"ft": ["lyktum", "lyktið", "lykti"]
+				},
+				"þátíð": {
+					"et": ["lyktaði", "lyktaðir", "lyktaði"],
+					"ft": ["lyktuðum", "lyktuðuð", "lyktuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lyktarðu",
+					"ft": "lyktiði"
+				},
+				"þátíð": {
+					"et": "lyktaðirðu",
+					"ft": "lyktuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lyktirðu",
+					"ft": "lyktiði"
+				},
+				"þátíð": {
+					"et": "lyktaðirðu",
+					"ft": "lyktuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lyktandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lyktaður", "lyktaðan", "lyktuðum", "lyktaðs"],
+					"kvk": ["lyktuð", "lyktaða", "lyktaðri", "lyktaðrar"],
+					"hk": ["lyktað", "lyktað", "lyktuðu", "lyktaðs"]
+				},
+				"ft": {
+					"kk": ["lyktaðir", "lyktaða", "lyktuðum", "lyktaðra"],
+					"kvk": ["lyktaðar", "lyktaðar", "lyktuðum", "lyktaðra"],
+					"hk": ["lyktuð", "lyktuð", "lyktuðum", "lyktaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lyktaði", "lyktaða", "lyktaða", "lyktaða"],
+					"kvk": ["lyktaða", "lyktuðu", "lyktuðu", "lyktuðu"],
+					"hk": ["lyktaða", "lyktaða", "lyktaða", "lyktaða"]
+				},
+				"ft": {
+					"kk": ["lyktuðu", "lyktuðu", "lyktuðu", "lyktuðu"],
+					"kvk": ["lyktuðu", "lyktuðu", "lyktuðu", "lyktuðu"],
+					"hk": ["lyktuðu", "lyktuðu", "lyktuðu", "lyktuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lykta",
+	"hash": "3bd1dbc32df7e600b7e42f83ac44a311cebf43d23933c66bb0da858185765252"
+}
