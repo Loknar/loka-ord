@@ -1,0 +1,112 @@
+{
+	"orð": "brenna",
+	"flokkur": "sagnorð",
+	"merking": "brann",
+	"germynd": {
+		"nafnháttur": "brenna",
+		"sagnbót": "brunnið",
+		"boðháttur": {
+			"stýfður": "brenn",
+			"et": "brenndu",
+			"ft": "brennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brenn", "brennur", "brennur"],
+					"ft": ["brennum", "brennið", "brenna"]
+				},
+				"þátíð": {
+					"et": ["brann", "brannst", "brann"],
+					"ft": ["brunnum", "brunnuð", "brunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brenni", "brennir", "brenni"],
+					"ft": ["brennum", "brennið", "brenni"]
+				},
+				"þátíð": {
+					"et": ["brynni", "brynnir", "brynni"],
+					"ft": ["brynnum", "brynnuð", "brynnu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brennur", "brennur", "brennur"],
+					"ft": ["brennur", "brennur", "brennur"]
+				},
+				"þátíð": {
+					"et": ["brann", "brann", "brann"],
+					"ft": ["brann", "brann", "brann"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brenni", "brenni", "brenni"],
+					"ft": ["brenni", "brenni", "brenni"]
+				},
+				"þátíð": {
+					"et": ["brynni", "brynni", "brynni"],
+					"ft": ["brynni", "brynni", "brynni"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brennurðu",
+					"ft": "brenniði"
+				},
+				"þátíð": {
+					"et": "brannstu",
+					"ft": "brunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brennirðu",
+					"ft": "brenniði"
+				},
+				"þátíð": {
+					"et": "brynnirðu",
+					"ft": "brynnuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brennandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brunninn", "brunninn", "brunnum", "brunnins"],
+					"kvk": ["brunnin", "brunna", "brunninni", "brunninnar"],
+					"hk": ["brunnið", "brunnið", "brunnu", "brunnins"]
+				},
+				"ft": {
+					"kk": ["brunnir", "brunna", "brunnum", "brunninna"],
+					"kvk": ["brunnar", "brunnar", "brunnum", "brunninna"],
+					"hk": ["brunnin", "brunnin", "brunnum", "brunninna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["brunni", "brunna", "brunna", "brunna"],
+					"kvk": ["brunna", "brunnu", "brunnu", "brunnu"],
+					"hk": ["brunna", "brunna", "brunna", "brunna"]
+				},
+				"ft": {
+					"kk": ["brunnu", "brunnu", "brunnu", "brunnu"],
+					"kvk": ["brunnu", "brunnu", "brunnu", "brunnu"],
+					"hk": ["brunnu", "brunnu", "brunnu", "brunnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brenna-_brann_",
+	"hash": "a8b8fee81a7c650c359e3e0d775ced9aebdf78dba9581a1b5daf14605b8d2f5e"
+}

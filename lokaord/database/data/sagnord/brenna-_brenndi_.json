@@ -1,0 +1,133 @@
+{
+	"orð": "brenna",
+	"flokkur": "sagnorð",
+	"merking": "brenndi",
+	"germynd": {
+		"nafnháttur": "brenna",
+		"sagnbót": "brennt",
+		"boðháttur": {
+			"stýfður": "brenn",
+			"et": "brenndu",
+			"ft": "brennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brenni", "brennir", "brennir"],
+					"ft": ["brennum", "brennið", "brenna"]
+				},
+				"þátíð": {
+					"et": ["brenndi", "brenndir", "brenndi"],
+					"ft": ["brenndum", "brennduð", "brenndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brenni", "brennir", "brenni"],
+					"ft": ["brennum", "brennið", "brenni"]
+				},
+				"þátíð": {
+					"et": ["brenndi", "brenndir", "brenndi"],
+					"ft": ["brenndum", "brennduð", "brenndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brennirðu",
+					"ft": "brenniði"
+				},
+				"þátíð": {
+					"et": "brenndirðu",
+					"ft": "brennduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brennirðu",
+					"ft": "brenniði"
+				},
+				"þátíð": {
+					"et": "brenndirðu",
+					"ft": "brennduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "brennast",
+		"sagnbót": "brennst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brennist", "brennist", "brennist"],
+					"ft": ["brennumst", "brennist", "brennast"]
+				},
+				"þátíð": {
+					"et": ["brenndist", "brenndist", "brenndist"],
+					"ft": ["brenndumst", "brenndust", "brenndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brennist", "brennist", "brennist"],
+					"ft": ["brennumst", "brennist", "brennist"]
+				},
+				"þátíð": {
+					"et": ["brenndist", "brenndist", "brenndist"],
+					"ft": ["brenndumst", "brenndust", "brenndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brennistu"
+				},
+				"þátíð": {
+					"et": "brenndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brennistu"
+				},
+				"þátíð": {
+					"et": "brenndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brennandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brenndur", "brenndan", "brenndum", "brennds"],
+					"kvk": ["brennd", "brennda", "brenndri", "brenndrar"],
+					"hk": ["brennt", "brennt", "brenndu", "brennds"]
+				},
+				"ft": {
+					"kk": ["brenndir", "brennda", "brenndum", "brenndra"],
+					"kvk": ["brenndar", "brenndar", "brenndum", "brenndra"],
+					"hk": ["brennd", "brennd", "brenndum", "brenndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["brenndi", "brennda", "brennda", "brennda"],
+					"kvk": ["brennda", "brenndu", "brenndu", "brenndu"],
+					"hk": ["brennda", "brennda", "brennda", "brennda"]
+				},
+				"ft": {
+					"kk": ["brenndu", "brenndu", "brenndu", "brenndu"],
+					"kvk": ["brenndu", "brenndu", "brenndu", "brenndu"],
+					"hk": ["brenndu", "brenndu", "brenndu", "brenndu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brenna-_brenndi_",
+	"hash": "b76a4d783509afd7823af03e78c9ccb6d24dd654d997d773cf70ef67d107b098"
+}

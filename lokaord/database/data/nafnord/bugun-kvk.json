@@ -2,6 +2,16 @@
 	"orð": "bugun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bugur-kk"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["bugun", "bugun", "bugun", "bugunar"],
 		"mg": ["bugunin", "bugunina", "buguninni", "bugunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["buganirnar", "buganirnar", "bugununum", "bugananna"]
 	},
 	"kennistrengur": "no-bugun-kvk",
-	"hash": "d78a6a4ec32efea35965ac44d3042bfca4cf23cd40971717ac4178c20b32ead6"
+	"hash": "8526e8bbb3a467b2aa5d436a75c6e4448b640549e8be784d53acf1967b6b265c"
 }
