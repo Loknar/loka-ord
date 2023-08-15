@@ -54,6 +54,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "þakkast",
+		"sagnbót": "þakkast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þakkast", "þakkast", "þakkast"],
+					"ft": ["þökkumst", "þakkist", "þakkast"]
+				},
+				"þátíð": {
+					"et": ["þakkaðist", "þakkaðist", "þakkaðist"],
+					"ft": ["þökkuðumst", "þökuðust", "þökkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þakkist", "þakkist", "þakkist"],
+					"ft": ["þökkumst", "þakkist", "þakkist"]
+				},
+				"þátíð": {
+					"et": ["þakkaðist", "þakkaðist", "þakkaðist"],
+					"ft": ["þökkuðumst", "þökkuðust", "þökkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þakkastu"
+				},
+				"þátíð": {
+					"et": "þakkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þakkistu"
+				},
+				"þátíð": {
+					"et": "þakkaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "þakkandi",
 		"þátíðar": {
@@ -84,5 +128,5 @@
 		}
 	},
 	"kennistrengur": "so-þakka",
-	"hash": "fa19f15a5094caeb8cf5f4789d702e9ee1ff461003df3f74c5d591ab38373a33"
+	"hash": "fefb71e4679204694edf0407bc985e3646eba9a8c16687e9baa042ff8eb84068"
 }
