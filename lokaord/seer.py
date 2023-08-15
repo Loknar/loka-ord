@@ -188,12 +188,14 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
     highlighted_sentence_list = []
     for scanned_word in scanned_sentence:
         if scanned_word['staða'] == 'fannst':
-            print('"%s" \033[42m\033[30m FANNST \033[0m' % (scanned_word['orð'], ))
+            if hide_matches is False:
+                print('"%s" \033[42m\033[30m FANNST \033[0m' % (scanned_word['orð'], ))
             highlighted_sentence_list.append(
                 '\033[42m\033[30m%s\033[0m' % (scanned_word['orð'], )
             )
         elif scanned_word['staða'] == 'mögulega':
-            print('"%s" \033[43m\033[30m MÖGULEGA \033[0m "%s"' % (
+            if hide_matches is False:
+                print('"%s" \033[43m\033[30m MÖGULEGA \033[0m "%s"' % (
                 scanned_word['orð'],
                 scanned_word['orð-hreinsað']
             ))
@@ -205,9 +207,10 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
                 )
             )
         elif scanned_word['staða'] == 'tala':
-            print('"%s" \033[46m\033[30m TALA \033[0m' % (
-                scanned_word['orð-hreinsað'],
-            ))
+            if hide_matches is False:
+                print('"%s" \033[46m\033[30m TALA \033[0m' % (
+                    scanned_word['orð-hreinsað'],
+                ))
             highlighted_sentence_list.append(
                 '%s%s%s' % (
                     '' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
@@ -216,12 +219,14 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
                 )
             )
         elif scanned_word['staða'] == 'skammstöfun':
-            print('"%s" \033[44m\033[37m SKAMMSTÖFUN \033[0m' % (scanned_word['orð'], ))
+            if hide_matches is False:
+                print('"%s" \033[44m\033[37m SKAMMSTÖFUN \033[0m' % (scanned_word['orð'], ))
             highlighted_sentence_list.append(
                 '\033[44m\033[37m%s\033[0m' % (scanned_word['orð'], )
             )
         elif scanned_word['staða'] == 'vantar':
-            print('"%s" \033[41m\033[37m VANTAR \033[0m' % (scanned_word['orð'], ))
+            if hide_matches is False:
+                print('"%s" \033[41m\033[37m VANTAR \033[0m' % (scanned_word['orð'], ))
             highlighted_sentence_list.append(
                 '\033[41m\033[37m%s\033[0m' % (scanned_word['orð'], )
             )
@@ -234,8 +239,10 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
                         '\033[34m└\033[0m \033[35m{f}\033[0m'
                     ).format(**option)
                 )
+    if hide_matches is False:
+        print('\033[36m---\033[0m\n')
     highlighted_sentence = ' '.join(highlighted_sentence_list)
-    print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (highlighted_sentence, ))
+    print('%s\n\033[36m---\033[0m' % (highlighted_sentence, ))
     print('Fannst: %s/%s, %s %%' % (
         found, len(scanned_sentence), format(100 * found/len(scanned_sentence), '.3g'))
     )
