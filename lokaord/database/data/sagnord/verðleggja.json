@@ -1,0 +1,165 @@
+{
+	"orð": "verðleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verðleggja",
+		"sagnbót": "verðlagt",
+		"boðháttur": {
+			"stýfður": "verðlegg",
+			"et": "verðleggðu",
+			"ft": "verðleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðlegg", "verðleggur", "verðleggur"],
+					"ft": ["verðleggjum", "verðleggið", "verðleggja"]
+				},
+				"þátíð": {
+					"et": ["verðlagði", "verðlagðir", "verðlagði"],
+					"ft": ["verðlögðum", "verðlögðuð", "verðlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðleggi", "verðleggir", "verðleggi"],
+					"ft": ["verðleggjum", "verðleggið", "verðleggi"]
+				},
+				"þátíð": {
+					"et": ["verðleggði", "verðleggðir", "verðleggði"],
+					"ft": ["verðleggðum", "verðleggðuð", "verðleggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðleggurðu",
+					"ft": "verðleggiði"
+				},
+				"þátíð": {
+					"et": "verðlagðirðu",
+					"ft": "verðlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðleggirðu",
+					"ft": "verðleggiði"
+				},
+				"þátíð": {
+					"et": "verðleggðirðu",
+					"ft": "verðleggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "verðleggjast",
+		"sagnbót": "verðleggst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðleggst", "verðleggst", "verðleggst"],
+					"ft": ["verðleggjumst", "verðleggist", "verðleggjast"]
+				},
+				"þátíð": {
+					"et": ["verðlagðist", "verðlagðist", "verðlagðist"],
+					"ft": ["verðlögðumst", "verðlögðust", "verðlögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðleggist", "verðleggist", "verðleggist"],
+					"ft": ["verðleggjumst", "verðleggist", "verðleggist"]
+				},
+				"þátíð": {
+					"et": ["verðlegðist", "verðlegðist", "verðlegðist"],
+					"ft": ["verðlegðumst", "verðlegðist", "verðlegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðleggst", "verðleggst", "verðleggst"],
+					"ft": ["verðleggst", "verðleggst", "verðleggst"]
+				},
+				"þátíð": {
+					"et": ["verðlagðist", "verðlagðist", "verðlagðist"],
+					"ft": ["verðlagðist", "verðlagðist", "verðlagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðleggist", "verðleggist", "verðleggist"],
+					"ft": ["verðleggist", "verðleggist", "verðleggist"]
+				},
+				"þátíð": {
+					"et": ["verðlegðist", "verðlegðist", "verðlegðist"],
+					"ft": ["verðlegðist", "verðlegðist", "verðlegðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðleggstu"
+				},
+				"þátíð": {
+					"et": "verðlagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðleggistu"
+				},
+				"þátíð": {
+					"et": "verðlegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verðlagður", "verðlagðan", "verðlögðum", "verðlagðs"],
+					"kvk": ["verðlögð", "verðlagða", "verðlagðri", "verðlagðrar"],
+					"hk": ["verðlagt", "verðlagt", "verðlögðu", "verðlagðs"]
+				},
+				"ft": {
+					"kk": ["verðlagðir", "verðlagða", "verðlögðum", "verðlagðra"],
+					"kvk": ["verðlagðar", "verðlagðar", "verðlögðum", "verðlagðra"],
+					"hk": ["verðlögð", "verðlögð", "verðlögðum", "verðlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["verðlagði", "verðlagða", "verðlagða", "verðlagða"],
+					"kvk": ["verðlagða", "verðlögðu", "verðlögðu", "verðlögðu"],
+					"hk": ["verðlagða", "verðlagða", "verðlagða", "verðlagða"]
+				},
+				"ft": {
+					"kk": ["verðlögðu", "verðlögðu", "verðlögðu", "verðlögðu"],
+					"kvk": ["verðlögðu", "verðlögðu", "verðlögðu", "verðlögðu"],
+					"hk": ["verðlögðu", "verðlögðu", "verðlögðu", "verðlögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verðleggja",
+	"hash": "37a1295af8e613e32131a1563de7b3f4840ce47348394ead06d63a06f8c75b67"
+}
