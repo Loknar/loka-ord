@@ -1,0 +1,137 @@
+{
+	"orð": "meta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "meta",
+		"sagnbót": "metið",
+		"boðháttur": {
+			"stýfður": "met",
+			"et": "mettu",
+			"ft": "metið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["met", "metur", "metur"],
+					"ft": ["metum", "metið", "meta"]
+				},
+				"þátíð": {
+					"et": ["mat", "mast", "mat"],
+					"ft": ["mátum", "mátuð", "mátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["meti", "metir", "meti"],
+					"ft": ["metum", "metið", "meti"]
+				},
+				"þátíð": {
+					"et": ["mæti", "mætir", "mæti"],
+					"ft": ["mætum", "mætuð", "mætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "meturðu",
+					"ft": "metiði"
+				},
+				"þátíð": {
+					"et": "mastu",
+					"ft": "mátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "metirðu",
+					"ft": "metiði"
+				},
+				"þátíð": {
+					"et": "mætirðu",
+					"ft": "mætuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "metast",
+		"sagnbót": "metist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mest", "mest", "mest"],
+					"ft": ["metumst", "metist", "metast"]
+				},
+				"þátíð": {
+					"et": ["mast", "mast", "mast"],
+					"ft": ["mátumst", "mátust", "mátust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["metist", "metist", "metist"],
+					"ft": ["metumst", "metist", "metist"]
+				},
+				"þátíð": {
+					"et": ["mætist", "mætist", "mætist"],
+					"ft": ["mætumst", "mætust", "mætust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mest", "mest", "mest"],
+					"ft": ["mest", "mest", "mest"]
+				},
+				"þátíð": {
+					"et": ["mast", "mast", "mast"],
+					"ft": ["mast", "mast", "mast"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["metist", "metist", "metist"],
+					"ft": ["metist", "metist", "metist"]
+				},
+				"þátíð": {
+					"et": ["mætist", "mætist", "mætist"],
+					"ft": ["mætist", "mætist", "mætist"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "metandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["metinn", "metinn", "metnum", "metins"],
+					"kvk": ["metin", "metna", "metinni", "metinnar"],
+					"hk": ["metið", "metið", "metnu", "metins"]
+				},
+				"ft": {
+					"kk": ["metnir", "metna", "metnum", "metinna"],
+					"kvk": ["metnar", "metnar", "metnum", "metinna"],
+					"hk": ["metin", "metin", "metnum", "metinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["metni", "metna", "metna", "metna"],
+					"kvk": ["metna", "metnu", "metnu", "metnu"],
+					"hk": ["metna", "metna", "metna", "metna"]
+				},
+				"ft": {
+					"kk": ["metnu", "metnu", "metnu", "metnu"],
+					"kvk": ["metnu", "metnu", "metnu", "metnu"],
+					"hk": ["metnu", "metnu", "metnu", "metnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-meta",
+	"hash": "1553c4b0ada160ad0b8ed7bab18c718afd0dee3d94c6c7310ab73fa46c75e206"
+}
