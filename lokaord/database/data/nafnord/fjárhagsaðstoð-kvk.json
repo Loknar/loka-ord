@@ -1,0 +1,32 @@
+{
+	"orð": "fjárhagsaðstoð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stoð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsaðstoð", "fjárhagsaðstoð", "fjárhagsaðstoð", "fjárhagsaðstoðar"],
+		"mg": ["fjárhagsaðstoðin", "fjárhagsaðstoðina", "fjárhagsaðstoðinni", "fjárhagsaðstoðarinnar"]
+	},
+	"kennistrengur": "no-fjárhagsaðstoð-kvk",
+	"hash": "cac4202f8202d64e1d580e4056c7cb5d879831518f0355ae26f83ce24d8a761e"
+}
