@@ -1,0 +1,73 @@
+{
+	"orð": "tilheyra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-heyra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilheyra",
+		"sagnbót": "tilheyrt",
+		"boðháttur": {
+			"stýfður": "tilheyr",
+			"et": "tilheyrðu",
+			"ft": "tilheyrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilheyri", "tilheyrir", "tilheyrir"],
+					"ft": ["tilheyrum", "tilheyrið", "tilheyra"]
+				},
+				"þátíð": {
+					"et": ["tilheyrði", "tilheyrðir", "tilheyrði"],
+					"ft": ["tilheyrðum", "tilheyrðuð", "tilheyrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilheyri", "tilheyrir", "tilheyri"],
+					"ft": ["tilheyrum", "tilheyrið", "tilheyri"]
+				},
+				"þátíð": {
+					"et": ["tilheyrði", "tilheyrðir", "tilheyrði"],
+					"ft": ["tilheyrðum", "tilheyrðuð", "tilheyrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilheyrirðu",
+					"ft": "tilheyriði"
+				},
+				"þátíð": {
+					"et": "tilheyrðirðu",
+					"ft": "tilheyrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilheyrirðu",
+					"ft": "tilheyriði"
+				},
+				"þátíð": {
+					"et": "tilheyrðirðu",
+					"ft": "tilheyrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilheyrandi"
+	},
+	"kennistrengur": "so-tilheyra",
+	"hash": "205f5a165f8d13d92a42ff808a28bbb57bfc2299f2b03ab2a439eb4ddcd9d639"
+}
