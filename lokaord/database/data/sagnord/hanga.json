@@ -1,0 +1,88 @@
+{
+	"orð": "hanga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hanga",
+		"sagnbót": "hangið",
+		"boðháttur": {
+			"stýfður": "hang",
+			"et": "hangtu",
+			"ft": "hangið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hangi", "hangir", "hangir"],
+					"ft": ["höngum", "hangið", "hanga"]
+				},
+				"þátíð": {
+					"et": ["hékk", "hékkst", "hékk"],
+					"ft": ["héngum", "hénguð", "héngu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hangi", "hangir", "hangi"],
+					"ft": ["höngum", "hangið", "hangi"]
+				},
+				"þátíð": {
+					"et": ["héngi", "héngir", "héngi"],
+					"ft": ["héngum", "hénguð", "héngu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hangirðu",
+					"ft": "hangiði"
+				},
+				"þátíð": {
+					"et": "héngstu",
+					"ft": "hénguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hangirðu",
+					"ft": "hangiði"
+				},
+				"þátíð": {
+					"et": "héngirðu",
+					"ft": "hénguði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hangandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hanginn", "hanginn", "höngnum", "hangins"],
+					"kvk": ["hangin", "hangna", "hanginni", "hanginnar"],
+					"hk": ["hangið", "hangið", "höngnu", "hangins"]
+				},
+				"ft": {
+					"kk": ["hangnir", "hangna", "höngnum", "hanginna"],
+					"kvk": ["hangnar", "hangnar", "höngnum", "hanginna"],
+					"hk": ["hangin", "hangin", "höngnum", "hanginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hangni", "hangna", "hangna", "hangna"],
+					"kvk": ["hangna", "höngnu", "höngnu", "höngnu"],
+					"hk": ["hangna", "hangna", "hangna", "hangna"]
+				},
+				"ft": {
+					"kk": ["höngnu", "höngnu", "höngnu", "höngnu"],
+					"kvk": ["höngnu", "höngnu", "höngnu", "höngnu"],
+					"hk": ["höngnu", "höngnu", "höngnu", "höngnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hanga",
+	"hash": "aaf42707e822a00357bdb79922ce0bb18d0cb349f157f416f3095851134db4f5"
+}
