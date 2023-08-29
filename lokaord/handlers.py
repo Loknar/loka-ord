@@ -1529,231 +1529,261 @@ class Lysingarord(Ord):
         if self.data.frumstig is not None:
             if self.data.frumstig.sb is not None:
                 if self.data.frumstig.sb.et is not None:
-                    isl_lo.fk_Frumstig_sb_et_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_sb_et_kk_Fallbeyging_id,
-                            self.data.frumstig.sb.et.kk,
-                            changes_made
+                    if self.data.frumstig.sb.et.kk is not None:
+                        isl_lo.fk_Frumstig_sb_et_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_sb_et_kk_Fallbeyging_id,
+                                self.data.frumstig.sb.et.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_sb_et_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_sb_et_kvk_Fallbeyging_id,
-                            self.data.frumstig.sb.et.kvk,
-                            changes_made
+                    if self.data.frumstig.sb.et.kvk is not None:
+                        isl_lo.fk_Frumstig_sb_et_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_sb_et_kvk_Fallbeyging_id,
+                                self.data.frumstig.sb.et.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_sb_et_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_sb_et_hk_Fallbeyging_id,
-                            self.data.frumstig.sb.et.hk,
-                            changes_made
+                    if self.data.frumstig.sb.et.hk is not None:
+                        isl_lo.fk_Frumstig_sb_et_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_sb_et_hk_Fallbeyging_id,
+                                self.data.frumstig.sb.et.hk,
+                                changes_made
+                            )
                         )
-                    )
-            if self.data.frumstig.sb.ft is not None:
-                    isl_lo.fk_Frumstig_sb_ft_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_sb_ft_kk_Fallbeyging_id,
-                            self.data.frumstig.sb.ft.kk,
-                            changes_made
+                if self.data.frumstig.sb.ft is not None:
+                    if self.data.frumstig.sb.ft.kk is not None:
+                        isl_lo.fk_Frumstig_sb_ft_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_sb_ft_kk_Fallbeyging_id,
+                                self.data.frumstig.sb.ft.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_sb_ft_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_sb_ft_kvk_Fallbeyging_id,
-                            self.data.frumstig.sb.ft.kvk,
-                            changes_made
+                    if self.data.frumstig.sb.ft.kvk is not None:
+                        isl_lo.fk_Frumstig_sb_ft_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_sb_ft_kvk_Fallbeyging_id,
+                                self.data.frumstig.sb.ft.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_sb_ft_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_sb_ft_hk_Fallbeyging_id,
-                            self.data.frumstig.sb.ft.hk,
-                            changes_made
+                    if self.data.frumstig.sb.ft.hk is not None:
+                        isl_lo.fk_Frumstig_sb_ft_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_sb_ft_hk_Fallbeyging_id,
+                                self.data.frumstig.sb.ft.hk,
+                                changes_made
+                            )
                         )
-                    )
             if self.data.frumstig.vb is not None:
                 if self.data.frumstig.vb.et is not None:
-                    isl_lo.fk_Frumstig_vb_et_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_vb_et_kk_Fallbeyging_id,
-                            self.data.frumstig.vb.et.kk,
-                            changes_made
+                    if self.data.frumstig.vb.et.kk is not None:
+                        isl_lo.fk_Frumstig_vb_et_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_vb_et_kk_Fallbeyging_id,
+                                self.data.frumstig.vb.et.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_vb_et_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_vb_et_kvk_Fallbeyging_id,
-                            self.data.frumstig.vb.et.kvk,
-                            changes_made
+                    if self.data.frumstig.vb.et.kvk is not None:
+                        isl_lo.fk_Frumstig_vb_et_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_vb_et_kvk_Fallbeyging_id,
+                                self.data.frumstig.vb.et.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_vb_et_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_vb_et_hk_Fallbeyging_id,
-                            self.data.frumstig.vb.et.hk,
-                            changes_made
+                    if self.data.frumstig.vb.et.hk is not None:
+                        isl_lo.fk_Frumstig_vb_et_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_vb_et_hk_Fallbeyging_id,
+                                self.data.frumstig.vb.et.hk,
+                                changes_made
+                            )
                         )
-                    )
                 if self.data.frumstig.vb.ft is not None:
-                    isl_lo.fk_Frumstig_vb_ft_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_vb_ft_kk_Fallbeyging_id,
-                            self.data.frumstig.vb.ft.kk,
-                            changes_made
+                    if self.data.frumstig.vb.ft.kk is not None:
+                        isl_lo.fk_Frumstig_vb_ft_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_vb_ft_kk_Fallbeyging_id,
+                                self.data.frumstig.vb.ft.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_vb_ft_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_vb_ft_kvk_Fallbeyging_id,
-                            self.data.frumstig.vb.ft.kvk,
-                            changes_made
+                    if self.data.frumstig.vb.ft.kvk is not None:
+                        isl_lo.fk_Frumstig_vb_ft_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_vb_ft_kvk_Fallbeyging_id,
+                                self.data.frumstig.vb.ft.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Frumstig_vb_ft_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Frumstig_vb_ft_hk_Fallbeyging_id,
-                            self.data.frumstig.vb.ft.hk,
-                            changes_made
+                    if self.data.frumstig.vb.ft.hk is not None:
+                        isl_lo.fk_Frumstig_vb_ft_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Frumstig_vb_ft_hk_Fallbeyging_id,
+                                self.data.frumstig.vb.ft.hk,
+                                changes_made
+                            )
                         )
-                    )
         if self.data.miðstig is not None:
             if self.data.miðstig.vb is not None:
                 if self.data.miðstig.vb.et is not None:
-                    isl_lo.fk_Midstig_vb_et_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Midstig_vb_et_kk_Fallbeyging_id,
-                            self.data.miðstig.vb.et.kk,
-                            changes_made
+                    if self.data.miðstig.vb.et.kk is not None:
+                        isl_lo.fk_Midstig_vb_et_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Midstig_vb_et_kk_Fallbeyging_id,
+                                self.data.miðstig.vb.et.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Midstig_vb_et_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Midstig_vb_et_kvk_Fallbeyging_id,
-                            self.data.miðstig.vb.et.kvk,
-                            changes_made
+                    if self.data.miðstig.vb.et.kvk is not None:
+                        isl_lo.fk_Midstig_vb_et_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Midstig_vb_et_kvk_Fallbeyging_id,
+                                self.data.miðstig.vb.et.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Midstig_vb_et_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Midstig_vb_et_hk_Fallbeyging_id,
-                            self.data.miðstig.vb.et.hk,
-                            changes_made
+                    if self.data.miðstig.vb.et.hk is not None:
+                        isl_lo.fk_Midstig_vb_et_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Midstig_vb_et_hk_Fallbeyging_id,
+                                self.data.miðstig.vb.et.hk,
+                                changes_made
+                            )
                         )
-                    )
                 if self.data.miðstig.vb.ft is not None:
-                    isl_lo.fk_Midstig_vb_ft_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Midstig_vb_ft_kk_Fallbeyging_id,
-                            self.data.miðstig.vb.ft.kk,
-                            changes_made
+                    if self.data.miðstig.vb.ft.kk is not None:
+                        isl_lo.fk_Midstig_vb_ft_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Midstig_vb_ft_kk_Fallbeyging_id,
+                                self.data.miðstig.vb.ft.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Midstig_vb_ft_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Midstig_vb_ft_kvk_Fallbeyging_id,
-                            self.data.miðstig.vb.ft.kvk,
-                            changes_made
+                    if self.data.miðstig.vb.ft.kvk is not None:
+                        isl_lo.fk_Midstig_vb_ft_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Midstig_vb_ft_kvk_Fallbeyging_id,
+                                self.data.miðstig.vb.ft.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Midstig_vb_ft_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Midstig_vb_ft_hk_Fallbeyging_id,
-                            self.data.miðstig.vb.ft.hk,
-                            changes_made
+                    if self.data.miðstig.vb.ft.hk is not None:
+                        isl_lo.fk_Midstig_vb_ft_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Midstig_vb_ft_hk_Fallbeyging_id,
+                                self.data.miðstig.vb.ft.hk,
+                                changes_made
+                            )
                         )
-                    )
         if self.data.efstastig is not None:
             if self.data.efstastig.sb is not None:
                 if self.data.efstastig.sb.et is not None:
-                    isl_lo.fk_Efstastig_sb_et_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_sb_et_kk_Fallbeyging_id,
-                            self.data.efstastig.sb.et.kk,
-                            changes_made
+                    if self.data.efstastig.sb.et.kk is not None:
+                        isl_lo.fk_Efstastig_sb_et_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_sb_et_kk_Fallbeyging_id,
+                                self.data.efstastig.sb.et.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_sb_et_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_sb_et_kvk_Fallbeyging_id,
-                            self.data.efstastig.sb.et.kvk,
-                            changes_made
+                    if self.data.efstastig.sb.et.kvk is not None:
+                        isl_lo.fk_Efstastig_sb_et_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_sb_et_kvk_Fallbeyging_id,
+                                self.data.efstastig.sb.et.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_sb_et_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_sb_et_hk_Fallbeyging_id,
-                            self.data.efstastig.sb.et.hk,
-                            changes_made
+                    if self.data.efstastig.sb.et.hk is not None:
+                        isl_lo.fk_Efstastig_sb_et_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_sb_et_hk_Fallbeyging_id,
+                                self.data.efstastig.sb.et.hk,
+                                changes_made
+                            )
                         )
-                    )
                 if self.data.efstastig.sb.ft is not None:
-                    isl_lo.fk_Efstastig_sb_ft_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_sb_ft_kk_Fallbeyging_id,
-                            self.data.efstastig.sb.ft.kk,
-                            changes_made
+                    if self.data.efstastig.sb.ft.kk is not None:
+                        isl_lo.fk_Efstastig_sb_ft_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_sb_ft_kk_Fallbeyging_id,
+                                self.data.efstastig.sb.ft.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_sb_ft_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_sb_ft_kvk_Fallbeyging_id,
-                            self.data.efstastig.sb.ft.kvk,
-                            changes_made
+                    if self.data.efstastig.sb.ft.kvk is not None:
+                        isl_lo.fk_Efstastig_sb_ft_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_sb_ft_kvk_Fallbeyging_id,
+                                self.data.efstastig.sb.ft.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_sb_ft_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_sb_ft_hk_Fallbeyging_id,
-                            self.data.efstastig.sb.ft.hk,
-                            changes_made
+                    if self.data.efstastig.sb.ft.hk is not None:
+                        isl_lo.fk_Efstastig_sb_ft_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_sb_ft_hk_Fallbeyging_id,
+                                self.data.efstastig.sb.ft.hk,
+                                changes_made
+                            )
                         )
-                    )
             if self.data.efstastig.vb is not None:
                 if self.data.efstastig.vb.et is not None:
-                    isl_lo.fk_Efstastig_vb_et_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_vb_et_kk_Fallbeyging_id,
-                            self.data.efstastig.vb.et.kk,
-                            changes_made
+                    if self.data.efstastig.vb.et.kk is not None:
+                        isl_lo.fk_Efstastig_vb_et_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_vb_et_kk_Fallbeyging_id,
+                                self.data.efstastig.vb.et.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_vb_et_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_vb_et_kvk_Fallbeyging_id,
-                            self.data.efstastig.vb.et.kvk,
-                            changes_made
+                    if self.data.efstastig.vb.et.kvk is not None:
+                        isl_lo.fk_Efstastig_vb_et_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_vb_et_kvk_Fallbeyging_id,
+                                self.data.efstastig.vb.et.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_vb_et_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_vb_et_hk_Fallbeyging_id,
-                            self.data.efstastig.vb.et.hk,
-                            changes_made
+                    if self.data.efstastig.vb.et.hk is not None:
+                        isl_lo.fk_Efstastig_vb_et_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_vb_et_hk_Fallbeyging_id,
+                                self.data.efstastig.vb.et.hk,
+                                changes_made
+                            )
                         )
-                    )
                 if self.data.efstastig.vb.ft is not None:
-                    isl_lo.fk_Efstastig_vb_ft_kk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_vb_ft_kk_Fallbeyging_id,
-                            self.data.efstastig.vb.ft.kk,
-                            changes_made
+                    if self.data.efstastig.vb.ft.kk is not None:
+                        isl_lo.fk_Efstastig_vb_ft_kk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_vb_ft_kk_Fallbeyging_id,
+                                self.data.efstastig.vb.ft.kk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_vb_ft_kvk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_vb_ft_kvk_Fallbeyging_id,
-                            self.data.efstastig.vb.ft.kvk,
-                            changes_made
+                    if self.data.efstastig.vb.ft.kvk is not None:
+                        isl_lo.fk_Efstastig_vb_ft_kvk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_vb_ft_kvk_Fallbeyging_id,
+                                self.data.efstastig.vb.ft.kvk,
+                                changes_made
+                            )
                         )
-                    )
-                    isl_lo.fk_Efstastig_vb_ft_hk_Fallbeyging_id, changes_made = (
-                        self.write_fallbeyging_to_db(
-                            isl_lo.fk_Efstastig_vb_ft_hk_Fallbeyging_id,
-                            self.data.efstastig.vb.ft.hk,
-                            changes_made
+                    if self.data.efstastig.vb.ft.hk is not None:
+                        isl_lo.fk_Efstastig_vb_ft_hk_Fallbeyging_id, changes_made = (
+                            self.write_fallbeyging_to_db(
+                                isl_lo.fk_Efstastig_vb_ft_hk_Fallbeyging_id,
+                                self.data.efstastig.vb.ft.hk,
+                                changes_made
+                            )
                         )
-                    )
         changes_made = changes_made or db.Session.is_modified(isl_lo)
         if db.Session.is_modified(isl_lo):
             db.Session.commit()
@@ -2533,29 +2563,29 @@ class Sagnord(Ord):
                             {}
                         )
                     if (
-                        isl_so.Midmynd_spurnarmyndir_framsoguhattur_thatid_et is not None
-                        # isl_so.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None
+                        isl_so.Midmynd_spurnarmyndir_framsoguhattur_thatid_et is not None or
+                        isl_so.Midmynd_spurnarmyndir_framsoguhattur_thatid_ft is not None
                     ):
                         ord_data['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð'] = (
                             {}
                         )
                 if (
                     isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et is not None or
-                    # isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None or
-                    isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None
-                    # isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
+                    isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None or
+                    isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None or
+                    isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
                 ):
                     ord_data['miðmynd']['spurnarmyndir']['viðtengingarháttur'] = {}
                     if (
-                        isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et is not None
-                        # isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None
+                        isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_et is not None or
+                        isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_nutid_ft is not None
                     ):
                         ord_data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð'] = (
                             {}
                         )
                     if (
-                        isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None
-                        # isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
+                        isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_et is not None or
+                        isl_so.Midmynd_spurnarmyndir_vidtengingarhattur_thatid_ft is not None
                     ):
                         ord_data['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð'] = (
                             {}

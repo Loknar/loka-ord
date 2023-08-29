@@ -451,15 +451,42 @@ class NafnordData(OrdData):
 
 
 class LysingarordKyn(BaseModel):
-    kk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    kvk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    hk: conlist(NonEmptyStr, min_items=4, max_items=4)
+    kk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
+    kvk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
+    hk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
 
     def dict(self, *args, **kwargs):
         data_dict = super().dict(*args, **kwargs)
-        return OrderedDict({
-            'kk': data_dict['kk'], 'kvk': data_dict['kvk'], 'hk': data_dict['hk']
-        })
+        ordered_dict = OrderedDict()
+        if data_dict['kk'] is not None:
+            ordered_dict['kk'] = data_dict['kk']
+        if data_dict['kvk'] is not None:
+            ordered_dict['kvk'] = data_dict['kvk']
+        if data_dict['hk'] is not None:
+            ordered_dict['hk'] = data_dict['hk']
+        return ordered_dict
+
+    @validator('hk')
+    def not_void_of_data(cls, val, values, **kwargs):
+        """at least one of kk/kvk/hk should be provided, and should have some non-None/null data"""
+        has_data = False
+        if val is not None:
+            for beyging in val:
+                if beyging is not None:
+                    has_data = True
+        if not has_data:
+            if 'kk' in values and values['kk'] is not None:
+                for beyging in values['kk']:
+                    if beyging is not None:
+                        has_data = True
+        if not has_data:
+            if 'kvk' in values and values['kvk'] is not None:
+                for beyging in values['kvk']:
+                    if beyging is not None:
+                        has_data = True
+        if not has_data:
+            raise ValueError('lýsingarorð kyn should not be void of data')
+        return val
 
 
 class LysingarordEtFt(BaseModel):
@@ -468,7 +495,20 @@ class LysingarordEtFt(BaseModel):
 
     def dict(self, *args, **kwargs):
         data_dict = super().dict(*args, **kwargs)
-        return OrderedDict({'et': data_dict['et'], 'ft': data_dict['ft']})
+        ordered_dict = OrderedDict()
+        if 'et' in data_dict and data_dict['et'] is not None:
+            ordered_dict['et'] = data_dict['et']
+        if 'ft' in data_dict and data_dict['ft'] is not None:
+            ordered_dict['ft'] = data_dict['ft']
+        return ordered_dict
+
+    @validator('ft')
+    def not_void_of_data(cls, val, values, **kwargs):
+        if val is None:
+            if 'et' not in values or values['et'] is None:
+                raise ValueError('lýsingarorð et/ft should not be void of data')
+        return val
+
 
 
 class LysingarordStig(BaseModel):
