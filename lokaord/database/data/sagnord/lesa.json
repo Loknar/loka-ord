@@ -1,0 +1,92 @@
+{
+	"orð": "lesa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lesa",
+		"sagnbót": "lesið",
+		"boðháttur": {
+			"stýfður": "les",
+			"et": "lestu",
+			"ft": "lesið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["les", "lest", "les"],
+					"ft": ["lesum", "lesið", "lesa"]
+				},
+				"þátíð": {
+					"et": ["las", "last", "las"],
+					"ft": ["lásum", "lásuð", "lásu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lesi", "lesir", "lesi"],
+					"ft": ["lesum", "lesið", "lesi"]
+				},
+				"þátíð": {
+					"et": ["læsi", "læsir", "læsi"],
+					"ft": ["læsum", "læsuð", "læsu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lestu",
+					"ft": "lesiði"
+				},
+				"þátíð": {
+					"et": "lastu",
+					"ft": "lásuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lesirðu",
+					"ft": "lesiði"
+				},
+				"þátíð": {
+					"et": "læsirðu",
+					"ft": "læsuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lesast",
+		"sagnbót": "lesist"
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lesandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lesinn", "lesinn", "lesnum", "lesins"],
+					"kvk": ["lesin", "lesna", "lesinni", "lesinnar"],
+					"hk": ["lesið", "lesið", "lesnu", "lesins"]
+				},
+				"ft": {
+					"kk": ["lesnir", "lesna", "lesnum", "lesinna"],
+					"kvk": ["lesnar", "lesnar", "lesnum", "lesinna"],
+					"hk": ["lesin", "lesin", "lesnum", "lesinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lesni", "lesna", "lesna", "lesna"],
+					"kvk": ["lesna", "lesnu", "lesnu", "lesnu"],
+					"hk": ["lesna", "lesna", "lesna", "lesna"]
+				},
+				"ft": {
+					"kk": ["lesnu", "lesnu", "lesnu", "lesnu"],
+					"kvk": ["lesnu", "lesnu", "lesnu", "lesnu"],
+					"hk": ["lesnu", "lesnu", "lesnu", "lesnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lesa",
+	"hash": "94794995f85ba0d72053458c7147c8bd5224b377892826a95dff6f095f55c77a"
+}
