@@ -2,14 +2,21 @@
 	"orð": "félag",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fé",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
 	"et": {
 		"ág": ["félag", "félag", "félagi", "félags"],
 		"mg": ["félagið", "félagið", "félaginu", "félagsins"]
 	},
-	"ft": {
-		"ág": ["félög", "félög", "félögum", "félaga"],
-		"mg": ["félögin", "félögin", "félögunum", "félaganna"]
-	},
 	"kennistrengur": "no-félag-hk",
-	"hash": "07e4498dc5c01620dd7b72a2482b6c6141813300c0dc6c35d4b7b171afb0e23c"
+	"hash": "5fe0f6581521da0ce7f69366e2cc255fc1dbe2fef245fdb1c820d32998cdc563"
 }

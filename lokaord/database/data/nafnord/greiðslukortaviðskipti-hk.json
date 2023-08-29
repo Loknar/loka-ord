@@ -1,0 +1,35 @@
+{
+	"orð": "greiðslukortaviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "korta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslukortaviðskipti", "greiðslukortaviðskipti", "greiðslukortaviðskipti", "greiðslukortaviðskiptis"],
+		"mg": ["greiðslukortaviðskiptið", "greiðslukortaviðskiptið", "greiðslukortaviðskiptinu", "greiðslukortaviðskiptisins"]
+	},
+	"ft": {
+		"ág": ["greiðslukortaviðskipti", "greiðslukortaviðskipti", "greiðslukortaviðskiptum", "greiðslukortaviðskipta"],
+		"mg": ["greiðslukortaviðskiptin", "greiðslukortaviðskiptin", "greiðslukortaviðskiptunum", "greiðslukortaviðskiptanna"]
+	},
+	"kennistrengur": "no-greiðslukortaviðskipti-hk",
+	"hash": "26d0e8046eca02ccd67fae4b966a9aa4be4d6442d3a45dce785244bcf471c084"
+}
