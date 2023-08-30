@@ -1,0 +1,132 @@
+{
+	"orð": "biðja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "biðja",
+		"sagnbót": "beðið",
+		"boðháttur": {
+			"stýfður": "bið",
+			"et": "biddu",
+			"ft": "biðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bið", "biður", "biður"],
+					"ft": ["biðjum", "biðjið", "biðja"]
+				},
+				"þátíð": {
+					"et": ["bað", "baðst", "bað"],
+					"ft": ["báðum", "báðuð", "báðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["biðji", "biðjir", "biðji"],
+					"ft": ["biðjum", "biðjið", "biðji"]
+				},
+				"þátíð": {
+					"et": ["bæði", "bæðir", "bæði"],
+					"ft": ["bæðum", "bæðuð", "bæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "biðurðu",
+					"ft": "biðjiði"
+				},
+				"þátíð": {
+					"et": "baðstu",
+					"ft": "báðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "biðjirðu",
+					"ft": "biðjiði"
+				},
+				"þátíð": {
+					"et": "bæðirðu",
+					"ft": "bæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "biðjast",
+		"sagnbót": "beðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["biðst", "biðst", "biðst"],
+					"ft": ["biðjumst", "biðjist", "biðjast"]
+				},
+				"þátíð": {
+					"et": ["baðst", "baðst", "baðst"],
+					"ft": ["báðumst", "báðust", "báðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["biðjist", "biðjist", "biðjist"],
+					"ft": ["biðjumst", "biðjist", "biðjist"]
+				},
+				"þátíð": {
+					"et": ["bæðist", "bæðist", "bæðist"],
+					"ft": ["bæðumst", "bæðust", "bæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "biðstu"
+				},
+				"þátíð": {
+					"et": "baðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "biðjistu"
+				},
+				"þátíð": {
+					"et": "bæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "biðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["beðinn", "beðinn", "beðnum", "beðins"],
+					"kvk": ["beðin", "beðna", "beðinni", "beðinnar"],
+					"hk": ["beðið", "beðið", "beðnu", "beðins"]
+				},
+				"ft": {
+					"kk": ["beðnir", "beðna", "beðnum", "beðinna"],
+					"kvk": ["beðnar", "beðnar", "beðnum", "beðinna"],
+					"hk": ["beðin", "beðin", "beðnum", "beðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["beðni", "beðna", "beðna", "beðna"],
+					"kvk": ["beðna", "beðnu", "beðnu", "beðnu"],
+					"hk": ["beðna", "beðna", "beðna", "beðna"]
+				},
+				"ft": {
+					"kk": ["beðnu", "beðnu", "beðnu", "beðnu"],
+					"kvk": ["beðnu", "beðnu", "beðnu", "beðnu"],
+					"hk": ["beðnu", "beðnu", "beðnu", "beðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-biðja",
+	"hash": "1dc9989e3ecbaded5772b99af1fa53cf02f5ed379b7a9c9ef273f33f0802a91a"
+}
