@@ -1,0 +1,142 @@
+{
+	"orð": "útskýra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "so-skýra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útskýra",
+		"sagnbót": "útskýrt",
+		"boðháttur": {
+			"stýfður": "útskýr",
+			"et": "útskýrðu",
+			"ft": "útskýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskýri", "útskýrir", "útskýrir"],
+					"ft": ["útskýrum", "útskýrið", "útskýra"]
+				},
+				"þátíð": {
+					"et": ["útskýrði", "útskýrðir", "útskýrði"],
+					"ft": ["útskýrðum", "útskýrðuð", "útskýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskýri", "útskýrir", "útskýri"],
+					"ft": ["útskýrum", "útskýrið", "útskýri"]
+				},
+				"þátíð": {
+					"et": ["útskýrði", "útskýrðir", "útskýrði"],
+					"ft": ["útskýrðum", "útskýrðuð", "útskýrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskýrirðu",
+					"ft": "útskýriði"
+				},
+				"þátíð": {
+					"et": "útskýrðirðu",
+					"ft": "útskýrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskýrirðu",
+					"ft": "útskýriði"
+				},
+				"þátíð": {
+					"et": "útskýrðirðu",
+					"ft": "útskýrðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útskýrast",
+		"sagnbót": "útskýrst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskýrist", "útskýrist", "útskýrist"],
+					"ft": ["útskýrumst", "útskýrist", "útskýrast"]
+				},
+				"þátíð": {
+					"et": ["útskýrðist", "útskýrðist", "útskýrðist"],
+					"ft": ["útskýrðumst", "útskýrðust", "útskýrðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskýrist", "útskýrist", "útskýrist"],
+					"ft": ["útskýrumst", "útskýrist", "útskýrist"]
+				},
+				"þátíð": {
+					"et": ["útskýrðist", "útskýrðist", "útskýrðist"],
+					"ft": ["útskýrðumst", "útskýrðust", "útskýrðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskýristu"
+				},
+				"þátíð": {
+					"et": "útskýrðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskýristu"
+				},
+				"þátíð": {
+					"et": "útskýrðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útskýrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útskýrður", "útskýrðan", "útskýrðum", "útskýrðs"],
+					"kvk": ["útskýrð", "útskýrða", "útskýrðri", "útskýrðar"],
+					"hk": ["útskýrt", "útskýrt", "útskýrðu", "útskýrs"]
+				},
+				"ft": {
+					"kk": ["útskýrðir", "útskýrða", "útskýrðum", "útskýrðra"],
+					"kvk": ["útskýrðar", "útskýrðar", "útskýrðum", "útskýrðra"],
+					"hk": ["útskýrð", "útskýrð", "útskýrðum", "útskýrðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útskýrði", "útskýrða", "útskýrða", "útskýrða"],
+					"kvk": ["útskýrða", "útskýrðu", "útskýrðu", "útskýrðu"],
+					"hk": ["útskýrða", "útskýrða", "útskýrða", "útskýrða"]
+				},
+				"ft": {
+					"kk": ["útskýrðu", "útskýrðu", "útskýrðu", "útskýrðu"],
+					"kvk": ["útskýrðu", "útskýrðu", "útskýrðu", "útskýrðu"],
+					"hk": ["útskýrðu", "útskýrðu", "útskýrðu", "útskýrðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útskýra",
+	"hash": "4b8cc496d123927f55ada4be65142716ccedb1e9dec3e1f44778d25a7d1a2c9d"
+}

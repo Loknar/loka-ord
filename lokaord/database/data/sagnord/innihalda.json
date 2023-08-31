@@ -1,0 +1,99 @@
+{
+	"orð": "innihalda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "inni",
+			"samsetning": "bandstafs",
+			"kennistrengur": "smáo.ao-inn"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-halda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "innihalda",
+		"sagnbót": "innihaldið",
+		"boðháttur": {
+			"stýfður": "innihald",
+			"et": "innihaltu",
+			"ft": "innihaldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["inniheld", "inniheldur", "inniheldur"],
+					"ft": ["innihöldum", "innihaldið", "innihalda"]
+				},
+				"þátíð": {
+					"et": ["innihélt", "innihélst", "innihélt"],
+					"ft": ["innihéldum", "innihélduð", "innihéldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["innihaldi", "innihaldir", "innihaldi"],
+					"ft": ["innihöldum", "innihaldið", "innihaldi"]
+				},
+				"þátíð": {
+					"et": ["innihéldi", "innihéldir", "innihéldi"],
+					"ft": ["innihéldum", "innihélduð", "innihéldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "inniheldurðu",
+					"ft": "innihaldiði"
+				},
+				"þátíð": {
+					"et": "innihélstu",
+					"ft": "innihélduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "innihaldirðu",
+					"ft": "innihaldiði"
+				},
+				"þátíð": {
+					"et": "innihéldirðu",
+					"ft": "innihélduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "innihaldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["innihaldinn", "innihaldinn", "innihöldnum", "innihaldins"],
+					"kvk": ["innihaldin", "innihaldna", "innihaldinni", "innihaldinnar"],
+					"hk": ["innihaldið", "innihaldið", "innihöldnu", "innihaldins"]
+				},
+				"ft": {
+					"kk": ["innihaldnir", "innihaldna", "innihöldnum", "innihaldinna"],
+					"kvk": ["innihaldnar", "innihaldnar", "innihöldnum", "innihaldinna"],
+					"hk": ["innihaldin", "innihaldin", "innihöldnum", "innihaldinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["innihaldni", "innihaldna", "innihaldna", "innihaldna"],
+					"kvk": ["innihaldna", "innihöldnu", "innihöldnu", "innihöldnu"],
+					"hk": ["innihaldna", "innihaldna", "innihaldna", "innihaldna"]
+				},
+				"ft": {
+					"kk": ["innihöldnu", "innihöldnu", "innihöldnu", "innihöldnu"],
+					"kvk": ["innihöldnu", "innihöldnu", "innihöldnu", "innihöldnu"],
+					"hk": ["innihöldnu", "innihöldnu", "innihöldnu", "innihöldnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-innihalda",
+	"hash": "1cf473f7b0124ba868c542a8cc87154c5e0afba6ed0f098ac573bb705d1ee324"
+}
