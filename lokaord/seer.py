@@ -118,7 +118,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
             scanned_sentence.append(scanned_word)
             continue
         onhanging_chars = set([
-            '.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“', '”', '?', '!', '´', '%'
+            '.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“', '”', '?', '!', '´', '%',
+            '°', '%',
         ])
         msg = ''
         e_word = word.strip()
