@@ -128,6 +128,10 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
                 scanned_word['fylgir'] = ''
             scanned_word['fylgir'] = '%s%s' % (e_word[-1], scanned_word['fylgir'])
             e_word = e_word[:-1]
+            if e_word == '':
+                break
+        if e_word == '':
+            continue
         while e_word[0] in onhanging_chars:
             if scanned_word['leiðir'] is None:
                 scanned_word['leiðir'] = ''
