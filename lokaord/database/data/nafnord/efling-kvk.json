@@ -2,10 +2,21 @@
 	"orð": "efling",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "efl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-efla"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["efling", "eflingu", "eflingu", "eflingar"],
 		"mg": ["eflingin", "eflinguna", "eflingunni", "eflingarinnar"]
 	},
 	"kennistrengur": "no-efling-kvk",
-	"hash": "378095c4fb808159ca2d13d2b39323b25b810bfeb148d9d2cb08352ce99cc370"
+	"hash": "896b4a386fa5dd80d30309ac1c95b926d8b9ba9e43089e34e17156a3b90152e8"
 }

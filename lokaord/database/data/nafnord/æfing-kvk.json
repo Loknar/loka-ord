@@ -2,6 +2,16 @@
 	"orð": "æfing",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "æf",
+			"samsetning": "stofn",
+			"kennistrengur": "so-æfa"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["æfing", "æfingu", "æfingu", "æfingar"],
 		"mg": ["æfingin", "æfinguna", "æfingunni", "æfingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["æfingarnar", "æfingarnar", "æfingunum", "æfinganna"]
 	},
 	"kennistrengur": "no-æfing-kvk",
-	"hash": "f3dff5598fa0143097e193c92c3c3db293751788d87ef0f96badd49d15748cdc"
+	"hash": "0a110ece3da79e36933c6d7dea11e7d8750dda08be5b4299c305d327e2d23be1"
 }

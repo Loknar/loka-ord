@@ -2,6 +2,16 @@
 	"orð": "nýting",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "nýt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-nýta"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["nýting", "nýtingu", "nýtingu", "nýtingar"],
 		"mg": ["nýtingin", "nýtinguna", "nýtingunni", "nýtingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["nýtingarnar", "nýtingarnar", "nýtingunum", "nýtinganna"]
 	},
 	"kennistrengur": "no-nýting-kvk",
-	"hash": "876f920f981fe3e57c27d429009b97fe57d5d8656739311c08a15dd356f68dde"
+	"hash": "8949257bdfbc970a66f8f1aa5219c101698a76fb63f3565884bc0f7cb0da5d7d"
 }

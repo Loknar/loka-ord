@@ -26,6 +26,29 @@
 				}
 			}
 		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þykir", "þykir", "þykir"],
+					"ft": ["þykir", "þykir", "þykir"]
+				},
+				"þátíð": {
+					"et": ["þótti", "þótti", "þótti"],
+					"ft": ["þótti", "þótti", "þótti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þyki", "þyki", "þyki"],
+					"ft": ["þyki", "þyki", "þyki"]
+				},
+				"þátíð": {
+					"et": ["þætti", "þætti", "þætti"],
+					"ft": ["þætti", "þætti", "þætti"]
+				}
+			}
+		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -97,5 +120,5 @@
 		"nútíðar": "þykjandi"
 	},
 	"kennistrengur": "so-þykja",
-	"hash": "555cc39dc672ef62b7c3a0976903a98b2004f524fd56a6154f61f33bc5ef9844"
+	"hash": "5f86c4b537f3e9289828bed48e5c35b4eb276bd887c2c164cf6624625f91be59"
 }

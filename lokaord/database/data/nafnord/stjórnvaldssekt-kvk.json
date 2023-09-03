@@ -1,0 +1,30 @@
+{
+	"orð": "stjórnvaldssekt",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "valds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vald-hk"
+		},
+		{
+			"kennistrengur": "no-sekt-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnvaldssekt", "stjórnvaldssekt", "stjórnvaldssekt", "stjórnvaldssektar"],
+		"mg": ["stjórnvaldssektin", "stjórnvaldssektina", "stjórnvaldssektinni", "stjórnvaldssektarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnvaldssektir", "stjórnvaldssektir", "stjórnvaldssektum", "stjórnvaldssekta"],
+		"mg": ["stjórnvaldssektirnar", "stjórnvaldssektirnar", "stjórnvaldssektunum", "stjórnvaldssektanna"]
+	},
+	"kennistrengur": "no-stjórnvaldssekt-kvk",
+	"hash": "a185f6f256553b974aff7e5d7fc9aa480cd3887fdf2698b7593793201d01f1c6"
+}

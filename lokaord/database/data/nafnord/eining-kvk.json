@@ -2,6 +2,16 @@
 	"orð": "eining",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["eining", "einingu", "einingu", "einingar"],
 		"mg": ["einingin", "eininguna", "einingunni", "einingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["einingarnar", "einingarnar", "einingunum", "eininganna"]
 	},
 	"kennistrengur": "no-eining-kvk",
-	"hash": "35dabbf62c545ac488caafec2a27dcfa85a4edd69cfe298023156178b23c2abc"
+	"hash": "7bf1cb72debfd0745726961d2c1b4568d9b02253996c3e92dfde0514b330b059"
 }

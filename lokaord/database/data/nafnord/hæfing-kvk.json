@@ -2,6 +2,16 @@
 	"orð": "hæfing",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hæf",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hæfa"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hæfing", "hæfingu", "hæfingu", "hæfingar"],
 		"mg": ["hæfingin", "hæfinguna", "hæfingunni", "hæfingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hæfingarnar", "hæfingarnar", "hæfingunum", "hæfinganna"]
 	},
 	"kennistrengur": "no-hæfing-kvk",
-	"hash": "f5c6d954fe03bd47e801e01d898adec5067e0d9ccca61e624cd8409c7c616ad1"
+	"hash": "29aa9bfa314c3c8ec8ae5f73a86e0a456dd1222e9472f54cc7a0991026360b4d"
 }

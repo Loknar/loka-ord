@@ -10,13 +10,16 @@
 			"kennistrengur": "no-eimur-kk"
 		},
 		{
-			"beygingar": ["ft-ág"],
+			"beygingar": ["et-ág", "ft-ág"],
 			"kennistrengur": "no-skip-hk"
 		}
 	],
+	"et": {
+		"ág": ["Eimskip", "Eimskip", "Eimskipi", "Eimskips"]
+	},
 	"ft": {
 		"ág": ["Eimskip", "Eimskip", "Eimskipum", "Eimskipa"]
 	},
 	"kennistrengur": "sérn.ön-Eimskip-hk",
-	"hash": "cb786c92755ee3e1f32a9de08532b7878bee219a97ee8b6b646370b433cc0919"
+	"hash": "4f3bf2b66dc3acd3f94832d91d86f6e0049ea15ab3a2b7d6b1be55ca25eee560"
 }

@@ -2,6 +2,16 @@
 	"orð": "lýsing",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lýs",
+			"samsetning": "stofn",
+			"kennistrengur": "so-lýsa"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lýsing", "lýsingu", "lýsingu", "lýsingar"],
 		"mg": ["lýsingin", "lýsinguna", "lýsingunni", "lýsingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["lýsingarnar", "lýsingarnar", "lýsingunum", "lýsinganna"]
 	},
 	"kennistrengur": "no-lýsing-kvk",
-	"hash": "e4260c5d3e3ca7d7eb1cc6605ce4691c077104b9f4ff0d9c95294fcbb4c24cfc"
+	"hash": "4dd7832fdbe1005e85ceca130da8e2ab4ea2cb706e8164e963f06d53cb85cf08"
 }

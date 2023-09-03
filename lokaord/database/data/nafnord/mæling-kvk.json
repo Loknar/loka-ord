@@ -2,6 +2,16 @@
 	"orð": "mæling",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mæl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-mæla"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["mæling", "mælingu", "mælingu", "mælingar"],
 		"mg": ["mælingin", "mælinguna", "mælingunni", "mælingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["mælingarnar", "mælingarnar", "mælingunum", "mælinganna"]
 	},
 	"kennistrengur": "no-mæling-kvk",
-	"hash": "aebefb270d7e40b3c0216786b85d4232fc43aa1d409b99c050739d105e3eac24"
+	"hash": "108473473304dd3d7ecca1e321e20063936a58887c9f48a08b9406ed9be58263"
 }
