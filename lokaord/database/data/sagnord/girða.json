@@ -1,0 +1,88 @@
+{
+	"orð": "girða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "girða",
+		"sagnbót": "girt",
+		"boðháttur": {
+			"stýfður": "girð",
+			"et": "girtu",
+			"ft": "girðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["girði", "girðir", "girðir"],
+					"ft": ["girðum", "girðið", "girða"]
+				},
+				"þátíð": {
+					"et": ["girti", "girtir", "girti"],
+					"ft": ["girtum", "girtuð", "girtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["girði", "girðir", "girði"],
+					"ft": ["girðum", "girðið", "girði"]
+				},
+				"þátíð": {
+					"et": ["girti", "girtir", "girti"],
+					"ft": ["girtum", "girtuð", "girtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "girðirðu",
+					"ft": "girðiði"
+				},
+				"þátíð": {
+					"et": "girtirðu",
+					"ft": "girtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "girðirðu",
+					"ft": "girðiði"
+				},
+				"þátíð": {
+					"et": "girtirðu",
+					"ft": "girtuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "girðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["girtur", "girtan", "girtum", "girts"],
+					"kvk": ["girt", "girta", "girtri", "girtrar"],
+					"hk": ["rætt", "rætt", "girtu", "girts"]
+				},
+				"ft": {
+					"kk": ["girtir", "girta", "girtum", "girtra"],
+					"kvk": ["girtar", "girtar", "girtum", "girtra"],
+					"hk": ["girt", "girt", "girtum", "girtra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["girti", "girta", "girta", "girta"],
+					"kvk": ["girta", "girtu", "girtu", "girtu"],
+					"hk": ["girta", "girta", "girta", "girta"]
+				},
+				"ft": {
+					"kk": ["girtu", "girtu", "girtu", "girtu"],
+					"kvk": ["girtu", "girtu", "girtu", "girtu"],
+					"hk": ["girtu", "girtu", "girtu", "girtu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-girða",
+	"hash": "c7c0f11adab99e18150f73b46cdaeb3fef3c0c5b91ae5ab0474e5cfbf550331b"
+}

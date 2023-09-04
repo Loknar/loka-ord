@@ -1,0 +1,132 @@
+{
+	"orð": "hirða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hirða",
+		"sagnbót": "hirt",
+		"boðháttur": {
+			"stýfður": "hirð",
+			"et": "hirtu",
+			"ft": "hirðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hirði", "hirðir", "hirðir"],
+					"ft": ["hirðum", "hirðið", "hirða"]
+				},
+				"þátíð": {
+					"et": ["hirti", "hirtir", "hirti"],
+					"ft": ["hirtum", "hirtuð", "hirtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hirði", "hirðir", "hirði"],
+					"ft": ["hirðum", "hirðið", "hirði"]
+				},
+				"þátíð": {
+					"et": ["hirti", "hirtir", "hirti"],
+					"ft": ["hirtum", "hirtuð", "hirtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hirðirðu",
+					"ft": "hirðiði"
+				},
+				"þátíð": {
+					"et": "hirtirðu",
+					"ft": "hirtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hirðirðu",
+					"ft": "hirðiði"
+				},
+				"þátíð": {
+					"et": "hirtirðu",
+					"ft": "hirtuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hirðast",
+		"sagnbót": "hirðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hirðist", "hirðist", "hirðist"],
+					"ft": ["hirðumst", "hirðist", "hirðast"]
+				},
+				"þátíð": {
+					"et": ["hirtist", "hirtist", "hirtist"],
+					"ft": ["hirtumst", "hirtust", "hirtust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hirðist", "hirðist", "hirðist"],
+					"ft": ["hirðumst", "hirðist", "hirðist"]
+				},
+				"þátíð": {
+					"et": ["hirtist", "hirtist", "hirtist"],
+					"ft": ["hirtumst", "hirtust", "hirtust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hirðistu"
+				},
+				"þátíð": {
+					"et": "hirtistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hirðistu"
+				},
+				"þátíð": {
+					"et": "hirtistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hirðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hirtur", "hirtan", "hirtum", "hirts"],
+					"kvk": ["hirt", "hirta", "hirtri", "hirtrar"],
+					"hk": ["rætt", "rætt", "hirtu", "hirts"]
+				},
+				"ft": {
+					"kk": ["hirtir", "hirta", "hirtum", "hirtra"],
+					"kvk": ["hirtar", "hirtar", "hirtum", "hirtra"],
+					"hk": ["hirt", "hirt", "hirtum", "hirtra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hirti", "hirta", "hirta", "hirta"],
+					"kvk": ["hirta", "hirtu", "hirtu", "hirtu"],
+					"hk": ["hirta", "hirta", "hirta", "hirta"]
+				},
+				"ft": {
+					"kk": ["hirtu", "hirtu", "hirtu", "hirtu"],
+					"kvk": ["hirtu", "hirtu", "hirtu", "hirtu"],
+					"hk": ["hirtu", "hirtu", "hirtu", "hirtu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hirða",
+	"hash": "b172c7785c72e749288322bffa12c878196caf630dda78747a0a5cb7626f8098"
+}

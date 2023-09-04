@@ -1,0 +1,73 @@
+{
+	"orð": "mótmæla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mót",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-mót"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-mæla-_segja_"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mótmæla",
+		"sagnbót": "mótmælt",
+		"boðháttur": {
+			"stýfður": "mótmæl",
+			"et": "mótmæltu",
+			"ft": "mótmælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mótmæli", "mótmælir", "mótmælir"],
+					"ft": ["mótmælum", "mótmælið", "mótmæla"]
+				},
+				"þátíð": {
+					"et": ["mótmælti", "mótmæltir", "mótmælti"],
+					"ft": ["mótmæltum", "mótmæltuð", "mótmæltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mótmæli", "mótmælir", "mótmæli"],
+					"ft": ["mótmælum", "mótmælið", "mótmæli"]
+				},
+				"þátíð": {
+					"et": ["mótmælti", "mótmæltir", "mótmælti"],
+					"ft": ["mótmæltum", "mótmæltuð", "mótmæltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mótmælirðu",
+					"ft": "mótmæliði"
+				},
+				"þátíð": {
+					"et": "mótmæltirðu",
+					"ft": "mótmæltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mótmælirðu",
+					"ft": "mótmæliði"
+				},
+				"þátíð": {
+					"et": "mótmæltirðu",
+					"ft": "mótmæltuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mótmælandi"
+	},
+	"kennistrengur": "so-mótmæla",
+	"hash": "6d678fce2dab880300db30550abfbdc8ce88a2ba026ac1366bc4e678f2fb7323"
+}
