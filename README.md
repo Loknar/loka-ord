@@ -7,12 +7,12 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Nafnorð**     |   | 453 | 532 | 375 | 1360 | 423 | 511 | 470 | 1404 | **2764** |
-| **Lýsingarorð** | 40 |   |   |   | 184 |   |   |   | 252 | **436** |
-| **Sagnorð**     |   |   |   |   | 334 |   |   |   | 100 | **434** |
+| **Lýsingarorð** | 40 |   |   |   | 185 |   |   |   | 252 | **437** |
+| **Sagnorð**     |   |   |   |   | 335 |   |   |   | 100 | **435** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 42 |   |   |   | 3 | **45** |
 | **Smáorð**      |   |   |   |   | 232 |   |   |   | 53 | **285** |
-| **Alls** |   |   |   |   | **2222** |   |   |   | **1822** | **4044** |
+| **Alls** |   |   |   |   | **2224** |   |   |   | **1822** | **4046** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   | 2 | 6 | 2 | 10 | 61 | 69 | 39 | 169 | **179** |
 | **Alls**  |   |   |   | **423** |   |   |   | **652** | **1075** |
 
-**Samtals:** 5119 orð.
+**Samtals:** 5121 orð.
 
 69 skammstafanir.
 
@@ -34,6 +34,15 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 ```bash
 pip install -Ur requirements.txt
 ```
+
+Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu sett upp og virkjað virtualenv í núverandi session með að keyra eftirfarandi:
+
+```bash
+python -m venv env
+source env/bin/activate
+```
+
+þar sem `env` er nafnið á virtualenv sem þú býrð til, samnefnd mappa verður til, getur afvirkjað virtualenv í núverandi skipanalínu session með skipuninni `deactivate`. Athugaðu að þetta virtualenv er ekki virkjað er þú opnar nýtt skipanalínu session, þarft að virkja það með `source env/bin/activate` fyrir hvert session.
 
 ## Notkun (Usage)
 
