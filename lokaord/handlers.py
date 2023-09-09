@@ -2196,8 +2196,8 @@ class Sagnord(Ord):
             isl_so.Midmynd_Nafnhattur = self.data.miðmynd.nafnháttur
             isl_so.Midmynd_Sagnbot = self.data.miðmynd.sagnbót
             if self.data.miðmynd.boðháttur is not None:
-                isl_so.Midmynd_Bodhattur_et
-                isl_so.Midmynd_Bodhattur_ft
+                isl_so.Midmynd_Bodhattur_et = self.data.miðmynd.boðháttur.et
+                isl_so.Midmynd_Bodhattur_ft = self.data.miðmynd.boðháttur.ft
             if self.data.miðmynd.persónuleg is not None:
                 if self.data.miðmynd.persónuleg.framsöguháttur is not None:
                     isl_so.fk_Midmynd_personuleg_framsoguhattur, changes_made = (
