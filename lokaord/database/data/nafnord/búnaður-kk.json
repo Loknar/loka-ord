@@ -2,10 +2,22 @@
 	"orð": "búnaður",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "bú",
+			"samsetning": "stofn",
+			"kennistrengur": "so-búa"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-aður-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["búnaður", "búnað", "búnaði", "búnaðar"],
 		"mg": ["búnaðurinn", "búnaðinn", "búnaðinum", "búnaðarins"]
 	},
 	"kennistrengur": "no-búnaður-kk",
-	"hash": "396cf58bc7958d8df8d8be4cf66833abe152a2cfd4ea3d1393a295cf60a425aa"
+	"hash": "29277a8dcf23cbb3a9715fbc5d07a5a1e3b5e7e866ff0d23948da311c0ea7d73"
 }

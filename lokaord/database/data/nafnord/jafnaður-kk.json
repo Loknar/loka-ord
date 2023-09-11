@@ -2,10 +2,21 @@
 	"orð": "jafnaður",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "jafn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-jafn"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aður-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["jafnaður", "jafnað", "jafnaði", "jafnaðar"],
 		"mg": ["jafnaðurinn", "jafnaðinn", "jafnaðinum", "jafnaðarins"]
 	},
 	"kennistrengur": "no-jafnaður-kk",
-	"hash": "05b63d2bf41e3da262deee761f0d6d23918ca195db45a5697cb3598144762206"
+	"hash": "b39c31efa6ea69de8f5d21fb628f39bdb312d4a2f92c765eb0814f6ed5516159"
 }
