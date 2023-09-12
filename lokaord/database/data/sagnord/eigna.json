@@ -1,0 +1,136 @@
+{
+	"orð": "eigna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "eigna",
+		"sagnbót": "eignað",
+		"boðháttur": {
+			"stýfður": "eigna",
+			"et": "eignaðu",
+			"ft": "eignið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eigna", "eignar", "eignar"],
+					"ft": ["eignum", "eignið", "eigna"]
+				},
+				"þátíð": {
+					"et": ["eignaði", "eignaðir", "eignaði"],
+					"ft": ["eignuðum", "eignuðuð", "eignuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eigni", "eignir", "eigni"],
+					"ft": ["eignum", "eignið", "eigni"]
+				},
+				"þátíð": {
+					"et": ["eignaði", "eignaðir", "eignaði"],
+					"ft": ["eignuðum", "eignuðuð", "eignuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eignarðu",
+					"ft": "eigniði"
+				},
+				"þátíð": {
+					"et": "eignaðirðu",
+					"ft": "eignuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eignirðu",
+					"ft": "eigniði"
+				},
+				"þátíð": {
+					"et": "eignaðirðu",
+					"ft": "eignuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "eignast",
+		"sagnbót": "eignast",
+		"boðháttur": {
+			"et": "eignastu",
+			"ft": "eignist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eignast", "eignast", "eignast"],
+					"ft": ["eignumst", "eignist", "eignast"]
+				},
+				"þátíð": {
+					"et": ["eignaðist", "eignaðist", "eignaðist"],
+					"ft": ["eignuðumst", "eignuðust", "eignuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eignist", "eignist", "eignist"],
+					"ft": ["eignumst", "eignist", "eignist"]
+				},
+				"þátíð": {
+					"et": ["eignaðist", "eignaðist", "eignaðist"],
+					"ft": ["eignuðumst", "eignuðust", "eignuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eignastu"
+				},
+				"þátíð": {
+					"et": "eignaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eignistu"
+				},
+				"þátíð": {
+					"et": "eignaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eignandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eignaður", "eignaðan", "eignuðum", "eignaðs"],
+					"kvk": ["eignuð", "eignaða", "eignaðri", "eignaðrar"],
+					"hk": ["eignað", "eignað", "eignuðu", "eignaðs"]
+				},
+				"ft": {
+					"kk": ["eignaðir", "eignaða", "eignuðum", "eignaðra"],
+					"kvk": ["eignaðar", "eignaðar", "eignuðum", "eignaðra"],
+					"hk": ["eignuð", "eignuð", "eignuðum", "eignaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["eignaði", "eignaða", "eignaða", "eignaða"],
+					"kvk": ["eignaða", "eignuðu", "eignuðu", "eignuðu"],
+					"hk": ["eignaða", "eignaða", "eignaða", "eignaða"]
+				},
+				"ft": {
+					"kk": ["eignuðu", "eignuðu", "eignuðu", "eignuðu"],
+					"kvk": ["eignuðu", "eignuðu", "eignuðu", "eignuðu"],
+					"hk": ["eignuðu", "eignuðu", "eignuðu", "eignuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eigna",
+	"hash": "f751f41104d76236b86e320f35ce6bd60d540172c259a9bf7178c6da96b0e3b6"
+}
