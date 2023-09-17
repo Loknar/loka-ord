@@ -1,0 +1,99 @@
+{
+	"orð": "viðhalda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-halda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "viðhalda",
+		"sagnbót": "viðhaldið",
+		"boðháttur": {
+			"stýfður": "viðhald",
+			"et": "viðhaltu",
+			"ft": "viðhaldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðheld", "viðheldur", "viðheldur"],
+					"ft": ["viðhöldum", "viðhaldið", "viðhalda"]
+				},
+				"þátíð": {
+					"et": ["viðhélt", "viðhélst", "viðhélt"],
+					"ft": ["viðhéldum", "viðhélduð", "viðhéldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðhaldi", "viðhaldir", "viðhaldi"],
+					"ft": ["viðhöldum", "viðhaldið", "viðhaldi"]
+				},
+				"þátíð": {
+					"et": ["viðhéldi", "viðhéldir", "viðhéldi"],
+					"ft": ["viðhéldum", "viðhélduð", "viðhéldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "viðheldurðu",
+					"ft": "viðhaldiði"
+				},
+				"þátíð": {
+					"et": "viðhélstu",
+					"ft": "viðhélduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "viðhaldirðu",
+					"ft": "viðhaldiði"
+				},
+				"þátíð": {
+					"et": "viðhéldirðu",
+					"ft": "viðhélduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "viðhaldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["viðhaldinn", "viðhaldinn", "viðhöldnum", "viðhaldins"],
+					"kvk": ["viðhaldin", "viðhaldna", "viðhaldinni", "viðhaldinnar"],
+					"hk": ["viðhaldið", "viðhaldið", "viðhöldnu", "viðhaldins"]
+				},
+				"ft": {
+					"kk": ["viðhaldnir", "viðhaldna", "viðhöldnum", "viðhaldinna"],
+					"kvk": ["viðhaldnar", "viðhaldnar", "viðhöldnum", "viðhaldinna"],
+					"hk": ["viðhaldin", "viðhaldin", "viðhöldnum", "viðhaldinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["viðhaldni", "viðhaldna", "viðhaldna", "viðhaldna"],
+					"kvk": ["viðhaldna", "viðhöldnu", "viðhöldnu", "viðhöldnu"],
+					"hk": ["viðhaldna", "viðhaldna", "viðhaldna", "viðhaldna"]
+				},
+				"ft": {
+					"kk": ["viðhöldnu", "viðhöldnu", "viðhöldnu", "viðhöldnu"],
+					"kvk": ["viðhöldnu", "viðhöldnu", "viðhöldnu", "viðhöldnu"],
+					"hk": ["viðhöldnu", "viðhöldnu", "viðhöldnu", "viðhöldnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-viðhalda",
+	"hash": "8796f92908374b3387c4e6c1cf686f0e951d39daf24e6967a76fd9b0e0f81cd6"
+}
