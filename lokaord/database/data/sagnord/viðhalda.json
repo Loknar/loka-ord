@@ -8,7 +8,6 @@
 			"kennistrengur": "smáo.fs-við"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-halda"
 		}
 	],
@@ -65,6 +64,59 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "viðhaldast",
+		"sagnbót": "viðhaldist",
+		"boðháttur": {
+			"et": "viðhalstu",
+			"ft": "viðhaldist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðhelst", "viðhelst", "viðhelst"],
+					"ft": ["viðhöldumst", "viðhaldist", "viðhaldast"]
+				},
+				"þátíð": {
+					"et": ["viðhélst", "viðhélst", "viðhélst"],
+					"ft": ["viðhéldumst", "viðhéldust", "viðhéldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðhaldist", "viðhaldist", "viðhaldist"],
+					"ft": ["viðhöldumst", "viðhaldist", "viðhaldist"]
+				},
+				"þátíð": {
+					"et": ["viðhéldist", "viðhéldist", "viðhéldist"],
+					"ft": ["viðhéldumst", "viðhéldust", "viðhéldust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðhelst", "viðhelst", "viðhelst"],
+					"ft": ["viðhelst", "viðhelst", "viðhelst"]
+				},
+				"þátíð": {
+					"et": ["viðhélst", "viðhélst", "viðhélst"],
+					"ft": ["viðhélst", "viðhélst", "viðhélst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðhaldist", "viðhaldist", "viðhaldist"],
+					"ft": ["viðhaldist", "viðhaldist", "viðhaldist"]
+				},
+				"þátíð": {
+					"et": ["viðhéldist", "viðhéldist", "viðhéldist"],
+					"ft": ["viðhéldist", "viðhéldist", "viðhéldist"]
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "viðhaldandi",
 		"þátíðar": {
@@ -95,5 +147,5 @@
 		}
 	},
 	"kennistrengur": "so-viðhalda",
-	"hash": "8796f92908374b3387c4e6c1cf686f0e951d39daf24e6967a76fd9b0e0f81cd6"
+	"hash": "fbb902e4b120c41132c642ab7bc3ef4a524a25615110f9a5406f814103a77573"
 }
