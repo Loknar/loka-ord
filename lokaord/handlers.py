@@ -3968,9 +3968,9 @@ class Skammstofun(Ord):
             if j < data_myndir_count:
                 if j < db_myndir_count:
                     if isl_sk_myndir[j].Mynd != self.data.myndir[j]:
-                        sl_sk_myndir[j].Mynd = self.data.myndir[j]
-                        b.Session.commit()
-                        hanges_made = True
+                        isl_sk_myndir[j].Mynd = self.data.myndir[j]
+                        db.Session.commit()
+                        changes_made = True
                 else:
                     isl_sk_mynd = isl.SkammstofunMynd(
                         fk_Skammstofun_id=isl_sk.Skammstofun_id,
