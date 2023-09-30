@@ -1356,7 +1356,8 @@ class Ord:
                 lo_myndir_beygingar = self.get_lo_myndir_beygingar(ordhluti)
                 beygingar = self.merge_dict_to_dict(lo_myndir_beygingar, beygingar)
             else:
-                raise Exception('should not happen?')
+                oh_beygingar = self.ordhluti_get_beygingar(ordhluti)
+                beygingar = self.merge_dict_to_dict(oh_beygingar, beygingar)
         return beygingar
 
     def derive_beygingar_from_samsett(self, data: dict | OrderedDict) -> dict | OrderedDict:

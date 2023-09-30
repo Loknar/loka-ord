@@ -151,6 +151,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
             continue
         elif e_word in sight['skammstafanir']:
             myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][e_word]['myndir']])
+            scanned_word['orð-hreinsað'] = e_word
             scanned_word['staða'] = 'skammstöfun'
             scanned_word['möguleikar'].append({
                 'm': myndir,
@@ -226,9 +227,18 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
         elif scanned_word['staða'] == 'skammstöfun':
             if hide_matches is False:
                 print('"%s" \033[44m\033[37m SKAMMSTÖFUN \033[0m' % (scanned_word['orð'], ))
-            highlighted_sentence_list.append(
-                '\033[44m\033[37m%s\033[0m' % (scanned_word['orð'], )
-            )
+            if scanned_word['orð-hreinsað'] is None:
+                highlighted_sentence_list.append(
+                    '\033[44m\033[37m%s\033[0m' % (scanned_word['orð'], )
+                )
+            else:
+                highlighted_sentence_list.append(
+                    '%s%s%s' % (
+                        '' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
+                        '\033[44m\033[37m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
+                        '' if scanned_word['fylgir'] is None else scanned_word['fylgir']
+                    )
+                )
         elif scanned_word['staða'] == 'vantar':
             if hide_matches is False:
                 print('"%s" \033[41m\033[37m VANTAR \033[0m' % (scanned_word['orð'], ))
