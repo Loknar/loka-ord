@@ -1,0 +1,132 @@
+{
+	"orð": "götva",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "götva",
+		"sagnbót": "götvað",
+		"boðháttur": {
+			"stýfður": "götva",
+			"et": "götvaðu",
+			"ft": "götvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["götva", "götvar", "götvar"],
+					"ft": ["götvum", "götvið", "götva"]
+				},
+				"þátíð": {
+					"et": ["götvaði", "götvaðir", "götvaði"],
+					"ft": ["götvuðum", "götvuðuð", "götvuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["götvi", "götvir", "götvi"],
+					"ft": ["götvum", "götvið", "götvi"]
+				},
+				"þátíð": {
+					"et": ["götvaði", "götvaðir", "götvaði"],
+					"ft": ["götvuðum", "götvuðuð", "götvuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "götvarðu",
+					"ft": "götviði"
+				},
+				"þátíð": {
+					"et": "götvaðirðu",
+					"ft": "götvuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "götvirðu",
+					"ft": "götviði"
+				},
+				"þátíð": {
+					"et": "götvaðirðu",
+					"ft": "götvuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "götvast",
+		"sagnbót": "götvast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["götvast", "götvast", "götvast"],
+					"ft": ["götvumst", "götvist", "götvast"]
+				},
+				"þátíð": {
+					"et": ["götvaðist", "götvaðist", "götvaðist"],
+					"ft": ["götvuðumst", "götvuðust", "götvuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["götvist", "götvist", "götvist"],
+					"ft": ["götvumst", "götvist", "götvist"]
+				},
+				"þátíð": {
+					"et": ["götvaðist", "götvaðist", "götvaðist"],
+					"ft": ["götvuðumst", "götvuðust", "götvuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "götvastu"
+				},
+				"þátíð": {
+					"et": "götvaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "götvistu"
+				},
+				"þátíð": {
+					"et": "götvaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "götvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["götvaður", "götvaðan", "götvuðum", "götvaðs"],
+					"kvk": ["götvuð", "götvaða", "götvaðri", "götvaðrar"],
+					"hk": ["götvað", "götvað", "götvuðu", "götvaðs"]
+				},
+				"ft": {
+					"kk": ["götvaðir", "götvaða", "götvuðum", "götvaðra"],
+					"kvk": ["götvaðar", "götvaðar", "götvuðum", "götvaðra"],
+					"hk": ["götvuð", "götvuð", "götvuðum", "götvaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["götvaði", "götvaða", "götvaða", "götvaða"],
+					"kvk": ["götvaða", "götvuðu", "götvuðu", "götvuðu"],
+					"hk": ["götvaða", "götvaða", "götvaða", "götvaða"]
+				},
+				"ft": {
+					"kk": ["götvuðu", "götvuðu", "götvuðu", "götvuðu"],
+					"kvk": ["götvuðu", "götvuðu", "götvuðu", "götvuðu"],
+					"hk": ["götvuðu", "götvuðu", "götvuðu", "götvuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-götva",
+	"hash": "686018963fa29b653f01edcfee01f76f77df5c512a78942c52a31e608da528b9"
+}

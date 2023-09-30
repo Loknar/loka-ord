@@ -1,0 +1,73 @@
+{
+	"orð": "leiðbeina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leið-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-beina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "leiðbeina",
+		"sagnbót": "leiðbeint",
+		"boðháttur": {
+			"stýfður": "leiðbein",
+			"et": "leiðbeindu",
+			"ft": "leiðbeinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leiðbeini", "leiðbeinir", "leiðbeinir"],
+					"ft": ["leiðbeinum", "leiðbeinið", "leiðbeina"]
+				},
+				"þátíð": {
+					"et": ["leiðbeindi", "leiðbeindir", "leiðbeindi"],
+					"ft": ["leiðbeindum", "leiðbeinduð", "leiðbeindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leiðbeini", "leiðbeinir", "leiðbeini"],
+					"ft": ["leiðbeinum", "leiðbeinið", "leiðbeini"]
+				},
+				"þátíð": {
+					"et": ["leiðbeindi", "leiðbeindir", "leiðbeindi"],
+					"ft": ["leiðbeindum", "leiðbeinduð", "leiðbeindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leiðbeinirðu",
+					"ft": "leiðbeiniði"
+				},
+				"þátíð": {
+					"et": "leiðbeindirðu",
+					"ft": "leiðbeinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leiðbeinirðu",
+					"ft": "leiðbeiniði"
+				},
+				"þátíð": {
+					"et": "leiðbeindirðu",
+					"ft": "leiðbeinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leiðbeinandi"
+	},
+	"kennistrengur": "so-leiðbeina",
+	"hash": "72596239995da2f0a0cd959009951f297418a6667dee44fd729cc4a1912aaaaa"
+}
