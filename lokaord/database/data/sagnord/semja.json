@@ -1,0 +1,143 @@
+{
+	"orð": "semja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "semja",
+		"sagnbót": "samið",
+		"boðháttur": {
+			"stýfður": "sem",
+			"et": "semdu",
+			"ft": "semjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sem", "semur", "semur"],
+					"ft": ["semjum", "semjið", "semja"]
+				},
+				"þátíð": {
+					"et": ["samdi", "samdir", "samdi"],
+					"ft": ["sömdum", "sömduð", "sömdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["semji", "semjir", "semji"],
+					"ft": ["semjum", "semjið", "semji"]
+				},
+				"þátíð": {
+					"et": ["semdi", "semdir", "semdi"],
+					"ft": ["semdum", "semduð", "semdu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["semur", "semur", "semur"],
+					"ft": ["semur", "semur", "semur"]
+				},
+				"þátíð": {
+					"et": ["samdi", "samdi", "samdi"],
+					"ft": ["samdi", "samdi", "samdi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["semji", "semji", "semji"],
+					"ft": ["semji", "semji", "semji"]
+				},
+				"þátíð": {
+					"et": ["semdi", "semdi", "semdi"],
+					"ft": ["semdi", "semdi", "semdi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "semurðu",
+					"ft": "semjiði"
+				},
+				"þátíð": {
+					"et": "samdirðu",
+					"ft": "sömduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "semjirðu",
+					"ft": "semjiði"
+				},
+				"þátíð": {
+					"et": "semdirðu",
+					"ft": "semduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "semjast",
+		"sagnbót": "samist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["semst", "semst", "semst"],
+					"ft": ["semjumst", "semjist", "semjast"]
+				},
+				"þátíð": {
+					"et": ["samdist", "samdist", "samdist"],
+					"ft": ["sömdumst", "sömdust", "sömdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["semjist", "semjist", "semjist"],
+					"ft": ["semjumst", "semjist", "semjist"]
+				},
+				"þátíð": {
+					"et": ["semdist", "semdist", "semdist"],
+					"ft": ["semdumst", "semdust", "semdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "semstu"
+				},
+				"þátíð": {
+					"et": "samdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "semjistu"
+				},
+				"þátíð": {
+					"et": "semdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "semjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["saminn", "saminn", "sömdum", "samins"],
+					"kvk": ["samin", "samda", "samdri", "samdrar"],
+					"hk": ["samið", "samið", "sömdu", "samins"]
+				},
+				"ft": {
+					"kk": ["samdir", "samda", "sömdum", "samdra"],
+					"kvk": ["samdar", "samdar", "sömdum", "samdra"],
+					"hk": ["samin", "samin", "sömdum", "samdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-semja",
+	"hash": "baa7aef41cdcd844cffcdb56f433857f3f1cb373995a899059da4161ac620a7c"
+}

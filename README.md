@@ -1,48 +1,55 @@
 # Loka-Orð
 
-Frjálst gagnasafn yfir íslensk orð, beygingamyndir þeirra og fleira, undir frjálsu almenningseignarleyfi (e. public domain licence).
+Frjálst gagnasafn yfir íslensk orð, beygingamyndir og samsetningu þeirra og fleira, undir frjálsu almenningseignarleyfi (e. public domain licence).
 
 Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 507 | 577 | 413 | 1497 | 492 | 587 | 549 | 1628 | **3125** |
+| **Nafnorð**     |   | 510 | 578 | 416 | 1504 | 496 | 589 | 551 | 1636 | **3140** |
 | **Lýsingarorð** | 41 |   |   |   | 199 |   |   |   | 285 | **484** |
-| **Sagnorð**     |   |   |   |   | 350 |   |   |   | 112 | **462** |
+| **Sagnorð**     |   |   |   |   | 352 |   |   |   | 112 | **464** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 42 |   |   |   | 3 | **45** |
 | **Smáorð**      |   |   |   |   | 235 |   |   |   | 64 | **299** |
-| **Alls** |   |   |   |   | **2393** |   |   |   | **2102** | **4495** |
+| **Alls** |   |   |   |   | **2402** |   |   |   | **2110** | **4512** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 267 | 134 |   | 401 | 160 | 169 |   | 329 | **730** |
-| Kenninöfn |  |  |   |  | 98 | 92 |   | 190 | **190** |
+| Eiginnöfn | 267 | 134 |   | 401 | 162 | 172 |   | 334 | **735** |
+| Kenninöfn |  |  |   |  | 100 | 94 |   | 194 | **194** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **47** |
 | Gælunöfn  | 24 | 23 |  | 47 | 9 | 5 | 2 | 16 | **63** |
 | Örnefni   | 2 | 6 | 3 | 11 | 83 | 76 | 47 | 206 | **217** |
-| **Alls**  |   |   |   | **495** |   |   |   | **752** | **1247** |
+| **Alls**  |   |   |   | **495** |   |   |   | **761** | **1256** |
 
-**Samtals:** 5742 orð.
+**Samtals:** 5768 orð.
 
 104 skammstafanir.
 
 ## Forkröfur (Requirements)
 
-`Python3.10` eða nýrra, `pip` og pakkar listaðir í `requirements.txt`, sækir og setur upp pakka með
+`Python3.10` eða nýrra, `pip` og pakkar listaðir í skránni `requirements.txt`.
 
-```bash
-pip install -Ur requirements.txt
-```
-
-Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu sett upp og virkjað virtualenv í núverandi session með að keyra eftirfarandi:
+Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu sett upp virtualenv með að keyra eftirfarandi:
 
 ```bash
 python -m venv env
+```
+
+og virkjað það í núverandi session með
+
+```bash
 source env/bin/activate
 ```
 
 þar sem `env` er nafnið á virtualenv sem þú býrð til, samnefnd mappa verður til, getur afvirkjað virtualenv í núverandi skipanalínu session með skipuninni `deactivate`. Athugaðu að þetta virtualenv er ekki virkjað er þú opnar nýtt skipanalínu session, þarft að virkja það með `source env/bin/activate` fyrir hvert session.
+
+Þú sækir og setur upp [PyPI](https://pypi.org/) pakkana með
+
+```bash
+pip install -Ur requirements.txt
+```
 
 ## Notkun (Usage)
 
@@ -93,7 +100,7 @@ Hægt er að endursmíða gagnagrunn með
 python main.py init -r
 ```
 
-eða
+sem jafngildir
 
 ```bash
 python main.py build-db -r write-files build-sight md-stats
