@@ -6,30 +6,30 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 511 | 580 | 416 | 1507 | 505 | 590 | 552 | 1647 | **3154** |
+| **Nafnorð**     |   | 521 | 580 | 417 | 1518 | 505 | 590 | 552 | 1647 | **3165** |
 | **Lýsingarorð** | 42 |   |   |   | 199 |   |   |   | 287 | **486** |
 | **Sagnorð**     |   |   |   |   | 356 |   |   |   | 112 | **468** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 42 |   |   |   | 3 | **45** |
 | **Smáorð**      |   |   |   |   | 235 |   |   |   | 64 | **299** |
-| **Alls** |   |   |   |   | **2409** |   |   |   | **2123** | **4532** |
+| **Alls** |   |   |   |   | **2420** |   |   |   | **2123** | **4543** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 272 | 134 |   | 406 | 173 | 172 |   | 345 | **751** |
+| Eiginnöfn | 293 | 134 |   | 427 | 196 | 172 |   | 368 | **795** |
 | Kenninöfn |  |  |   |  | 100 | 94 |   | 194 | **194** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **47** |
 | Gælunöfn  | 24 | 23 |  | 47 | 9 | 5 | 2 | 16 | **63** |
 | Örnefni   | 2 | 6 | 3 | 11 | 83 | 76 | 47 | 206 | **217** |
-| **Alls**  |   |   |   | **500** |   |   |   | **772** | **1272** |
+| **Alls**  |   |   |   | **521** |   |   |   | **795** | **1316** |
 
-**Samtals:** 5804 orð.
+**Samtals:** 5859 orð.
 
 104 skammstafanir.
 
 ## Forkröfur (Requirements)
 
-`Python3.10` eða nýrra, `pip` og pakkar listaðir í skránni `requirements.txt`.
+`Python3.10` eða nýrra, `pip` og [PyPI](https://pypi.org/) pakkar listaðir í skránni `requirements.txt`.
 
 Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu sett upp virtualenv með að keyra eftirfarandi:
 
@@ -45,7 +45,7 @@ source env/bin/activate
 
 þar sem `env` er nafnið á virtualenv sem þú býrð til, samnefnd mappa verður til, getur afvirkjað virtualenv í núverandi skipanalínu session með skipuninni `deactivate`. Athugaðu að þetta virtualenv er ekki virkjað er þú opnar nýtt skipanalínu session, þarft að virkja það með `source env/bin/activate` fyrir hvert session.
 
-Þú sækir og setur upp [PyPI](https://pypi.org/) pakkana með
+Þú sækir og setur upp pakkana með
 
 ```bash
 pip install -Ur requirements.txt
