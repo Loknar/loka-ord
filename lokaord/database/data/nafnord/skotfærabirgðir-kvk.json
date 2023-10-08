@@ -1,0 +1,27 @@
+{
+	"orð": "skotfærabirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skot",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skot-hk"
+		},
+		{
+			"mynd": "færa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-færi-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["skotfærabirgðir", "skotfærabirgðir", "skotfærabirgðum", "skotfærabirgða"],
+		"mg": ["skotfærabirgðirnar", "skotfærabirgðirnar", "skotfærabirgðunum", "skotfærabirgðanna"]
+	},
+	"kennistrengur": "no-skotfærabirgðir-kvk",
+	"hash": "c761ca9a7483b49999fe234abf7a890ed958548cffa548a8884256932fb2c052"
+}

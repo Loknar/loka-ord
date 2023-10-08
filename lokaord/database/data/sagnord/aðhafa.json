@@ -1,0 +1,114 @@
+{
+	"orð": "aðhafa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd"],
+			"kennistrengur": "so-hafa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aðhafa",
+		"sagnbót": "aðhaft",
+		"boðháttur": {
+			"stýfður": "aðhaf",
+			"et": "aðhafðu",
+			"ft": "aðhafið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aðhef", "aðhefur", "aðhefur"],
+					"ft": ["aðhöfum", "aðhafið", "aðhafa"]
+				},
+				"þátíð": {
+					"et": ["aðhafði", "aðhafðir", "aðhafði"],
+					"ft": ["aðhöfðum", "aðhöfðuð", "aðhöfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aðhafi", "aðhafir", "aðhafi"],
+					"ft": ["aðhöfum", "aðhafið", "aðhafi"]
+				},
+				"þátíð": {
+					"et": ["aðhefði", "aðhefðir", "aðhefði"],
+					"ft": ["aðhefðum", "aðhefðuð", "aðhefðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aðhefurðu",
+					"ft": "aðhafiði"
+				},
+				"þátíð": {
+					"et": "aðhafðirðu",
+					"ft": "aðhöfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aðhafirðu",
+					"ft": "aðhafiði"
+				},
+				"þátíð": {
+					"et": "aðhefðirðu",
+					"ft": "aðhefðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "aðhafast",
+		"sagnbót": "aðhafst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aðhefst", "aðhefst", "aðhefst"],
+					"ft": ["aðhöfumst", "aðhafist", "aðhafast"]
+				},
+				"þátíð": {
+					"et": ["aðhafðist", "aðhafðist", "aðhafðist"],
+					"ft": ["aðhöfðumst", "aðhöfðust", "aðhöfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aðhafist", "aðhafist", "aðhafist"],
+					"ft": ["aðhöfumst", "aðhafist", "aðhafist"]
+				},
+				"þátíð": {
+					"et": ["aðhefðist", "aðhefðist", "aðhefðist"],
+					"ft": ["aðhefðumst", "aðhefðust", "aðhefðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aðhefstu"
+				},
+				"þátíð": {
+					"et": "aðhafðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aðhafistu"
+				},
+				"þátíð": {
+					"et": "aðhefðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aðhafa",
+	"hash": "35e3db303f82aa5252803581b0bf6bd2afd49674a04bd2b69c6285ec29f9816b"
+}
