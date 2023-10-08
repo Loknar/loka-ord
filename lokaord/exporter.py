@@ -23,6 +23,8 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
     logman.info('Writing orð data from database to datafiles ..')
     handlers_map = handlers.get_handlers_map()
     query_isl_ord_records = db.Session.query(isl.Ord).order_by(isl.Ord.Ord_id)  # all orð
+    count = query_isl_ord_records.count()
+    counter = 1
     if ts is not None:
         query_isl_ord_records = (
             db.Session.query(isl.Ord).filter(isl.Ord.Edited >= ts).order_by(isl.Ord.Ord_id)
@@ -36,9 +38,15 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
         edited_str = ''
         if ts is not None:
             edited_str = ' (edited: %s)' % (isl_ord_record.Edited.isoformat(), )
-        logman.debug('Wrote orð with id=%s to file "%s"%s.' % (
-            isl_ord_record.Ord_id, isl_ord.make_filename(), edited_str
-        ))
+        if counter % 1000 == 0:
+            logman.info('(%s/%s) Wrote orð with id=%s to file "%s"%s.' % (
+                counter, count, isl_ord_record.Ord_id, isl_ord.make_filename(), edited_str
+            ))
+        else:
+            logman.debug('(%s/%s) Wrote orð with id=%s to file "%s"%s.' % (
+                counter, count, isl_ord_record.Ord_id, isl_ord.make_filename(), edited_str
+            ))
+        counter += 1
     logman.info('Writing skammstafanir data from database to datafiles ..')
     query_skammstafanir_records = (
         db.Session.query(isl.Skammstofun).order_by(isl.Skammstofun.Skammstofun_id)
