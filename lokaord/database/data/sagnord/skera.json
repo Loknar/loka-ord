@@ -1,0 +1,159 @@
+{
+	"orð": "skera",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skera",
+		"sagnbót": "skorið",
+		"boðháttur": {
+			"stýfður": "sker",
+			"et": "skerðu",
+			"ft": "skerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sker", "skerð", "sker"],
+					"ft": ["skerum", "skerið", "skera"]
+				},
+				"þátíð": {
+					"et": ["skar", "skarst", "skar"],
+					"ft": ["skárum", "skáruð", "skáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skeri", "skerir", "skeri"],
+					"ft": ["skerum", "skerið", "skeri"]
+				},
+				"þátíð": {
+					"et": ["skæri", "skærir", "skæri"],
+					"ft": ["skærum", "skæruð", "skæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skerðu",
+					"ft": "skeriði"
+				},
+				"þátíð": {
+					"et": "skarstu",
+					"ft": "skáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skerirðu",
+					"ft": "skeriði"
+				},
+				"þátíð": {
+					"et": "skærirðu",
+					"ft": "skæruði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skerast",
+		"sagnbót": "skorist",
+		"boðháttur": {
+			"et": "skerstu",
+			"ft": "skerist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skerst", "skerst", "skerst"],
+					"ft": ["skerumst", "skerist", "skerast"]
+				},
+				"þátíð": {
+					"et": ["skarst", "skarst", "skarst"],
+					"ft": ["skárumst", "skárust", "skárust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skerist", "skerist", "skerist"],
+					"ft": ["skerumst", "skerist", "skerist"]
+				},
+				"þátíð": {
+					"et": ["skærist", "skærist", "skærist"],
+					"ft": ["skærumst", "skærust", "skærust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skerst", "skerst", "skerst"],
+					"ft": ["skerst", "skerst", "skerst"]
+				},
+				"þátíð": {
+					"et": ["skarst", "skarst", "skarst"],
+					"ft": ["skarst", "skarst", "skarst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skerist", "skerist", "skerist"],
+					"ft": ["skerist", "skerist", "skerist"]
+				},
+				"þátíð": {
+					"et": ["skærist", "skærist", "skærist"],
+					"ft": ["skærist", "skærist", "skærist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skerstu"
+				},
+				"þátíð": {
+					"et": "skarstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skeristu"
+				},
+				"þátíð": {
+					"et": "skæristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skorinn", "skorinn", "skornum", "skorins"],
+					"kvk": ["skorin", "skorna", "skorinni", "skorinnar"],
+					"hk": ["skorið", "skorið", "skornu", "skorins"]
+				},
+				"ft": {
+					"kk": ["skornir", "skorna", "skornum", "skorinna"],
+					"kvk": ["skornar", "skornar", "skornum", "skorinna"],
+					"hk": ["skorin", "skorin", "skornum", "skorinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skorni", "skorna", "skorna", "skorna"],
+					"kvk": ["skorna", "skornu", "skornu", "skornu"],
+					"hk": ["skorna", "skorna", "skorna", "skorna"]
+				},
+				"ft": {
+					"kk": ["skornu", "skornu", "skornu", "skornu"],
+					"kvk": ["skornu", "skornu", "skornu", "skornu"],
+					"hk": ["skornu", "skornu", "skornu", "skornu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skera",
+	"hash": "54c060dd03982f6a3e0510e81285d98401b8607cfde37a7bbab0cbd75b66f289"
+}
