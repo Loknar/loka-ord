@@ -1,0 +1,88 @@
+{
+	"orð": "stemma",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stemma",
+		"sagnbót": "stemmt",
+		"boðháttur": {
+			"stýfður": "stemm",
+			"et": "stemmdu",
+			"ft": "stemmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stemmi", "stemmir", "stemmir"],
+					"ft": ["stemmum", "stemmið", "stemma"]
+				},
+				"þátíð": {
+					"et": ["stemmdi", "stemmdir", "stemmdi"],
+					"ft": ["stemmdum", "stemmduð", "stemmdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stemmi", "stemmir", "stemmi"],
+					"ft": ["stemmum", "stemmið", "stemmi"]
+				},
+				"þátíð": {
+					"et": ["stemmdi", "stemmdir", "stemmdi"],
+					"ft": ["stemmdum", "stemmduð", "stemmdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stemmirðu",
+					"ft": "stemmiði"
+				},
+				"þátíð": {
+					"et": "stemmdirðu",
+					"ft": "stemmduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stemmirðu",
+					"ft": "stemmiði"
+				},
+				"þátíð": {
+					"et": "stemmdirðu",
+					"ft": "stemmduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stemmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stemmdur", "stemmdan", "stemmdum", "stemmds"],
+					"kvk": ["stemmd", "stemmda", "stemmdri", "stemmdrar"],
+					"hk": ["stemmt", "stemmt", "stemmdu", "stemmds"]
+				},
+				"ft": {
+					"kk": ["stemmdir", "stemmda", "stemmdum", "stemmdra"],
+					"kvk": ["stemmdar", "stemmdar", "stemmdum", "stemmdra"],
+					"hk": ["stemmd", "stemmd", "stemmdum", "stemmdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stemmdi", "stemmda", "stemmda", "stemmda"],
+					"kvk": ["stemmda", "stemmdu", "stemmdu", "stemmdu"],
+					"hk": ["stemmda", "stemmda", "stemmda", "stemmda"]
+				},
+				"ft": {
+					"kk": ["stemmdu", "stemmdu", "stemmdu", "stemmdu"],
+					"kvk": ["stemmdu", "stemmdu", "stemmdu", "stemmdu"],
+					"hk": ["stemmdu", "stemmdu", "stemmdu", "stemmdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stemma",
+	"hash": "339f1670348099e745feb9fea930a65f782e5e3de8b0826f34d6004e2bfee9b8"
+}

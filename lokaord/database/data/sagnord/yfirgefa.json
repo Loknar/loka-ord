@@ -1,0 +1,143 @@
+{
+	"orð": "yfirgefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd-persónuleg", "miðmynd-spurnarmyndir", "lýsingarháttur"],
+			"kennistrengur": "so-gefa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirgefa",
+		"sagnbót": "yfirgefið",
+		"boðháttur": {
+			"stýfður": "yfirgef",
+			"et": "yfirgefðu",
+			"ft": "yfirgefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirgef", "yfirgefur", "yfirgefur"],
+					"ft": ["yfirgefum", "yfirgefið", "yfirgefa"]
+				},
+				"þátíð": {
+					"et": ["yfirgaf", "yfirgafst", "yfirgaf"],
+					"ft": ["yfirgáfum", "yfirgáfuð", "yfirgáfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirgefi", "yfirgefir", "yfirgefi"],
+					"ft": ["yfirgefum", "yfirgefið", "yfirgefi"]
+				},
+				"þátíð": {
+					"et": ["yfirgæfi", "yfirgæfir", "yfirgæfi"],
+					"ft": ["yfirgæfum", "yfirgæfuð", "yfirgæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirgefurðu",
+					"ft": "yfirgefiði"
+				},
+				"þátíð": {
+					"et": "yfirgafstu",
+					"ft": "yfirgáfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirgefirðu",
+					"ft": "yfirgefiði"
+				},
+				"þátíð": {
+					"et": "yfirgæfirðu",
+					"ft": "yfirgæfuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "yfirgefast",
+		"sagnbót": "yfirgefist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirgefst", "yfirgefst", "yfirgefst"],
+					"ft": ["yfirgefumst", "yfirgefist", "yfirgefast"]
+				},
+				"þátíð": {
+					"et": ["yfirgafst", "yfirgafst", "yfirgafst"],
+					"ft": ["yfirgáfumst", "yfirgáfust", "yfirgáfust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirgefist", "yfirgefist", "yfirgefist"],
+					"ft": ["yfirgefumst", "yfirgefist", "yfirgefist"]
+				},
+				"þátíð": {
+					"et": ["yfirgæfist", "yfirgæfist", "yfirgæfist"],
+					"ft": ["yfirgæfumst", "yfirgæfust", "yfirgæfust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirgefstu"
+				},
+				"þátíð": {
+					"et": "yfirgafstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirgefistu"
+				},
+				"þátíð": {
+					"et": "yfirgæfistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirgefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirgefinn", "yfirgefinn", "yfirgefnum", "yfirgefins"],
+					"kvk": ["yfirgefin", "yfirgefna", "yfirgefinni", "yfirgefinnar"],
+					"hk": ["yfirgefið", "yfirgefið", "yfirgefnu", "yfirgefins"]
+				},
+				"ft": {
+					"kk": ["yfirgefnir", "yfirgefna", "yfirgefnum", "yfirgefinna"],
+					"kvk": ["yfirgefnar", "yfirgefnar", "yfirgefnum", "yfirgefinna"],
+					"hk": ["yfirgefin", "yfirgefin", "yfirgefnum", "yfirgefinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["yfirgefni", "yfirgefna", "yfirgefna", "yfirgefna"],
+					"kvk": ["yfirgefna", "yfirgefnu", "yfirgefnu", "yfirgefnu"],
+					"hk": ["yfirgefna", "yfirgefna", "yfirgefna", "yfirgefna"]
+				},
+				"ft": {
+					"kk": ["yfirgefnu", "yfirgefnu", "yfirgefnu", "yfirgefnu"],
+					"kvk": ["yfirgefnu", "yfirgefnu", "yfirgefnu", "yfirgefnu"],
+					"hk": ["yfirgefnu", "yfirgefnu", "yfirgefnu", "yfirgefnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirgefa",
+	"hash": "9efe80716e84711a0957db3f963e62dc4fdb7c93c50feb26d01d85f9a45b0ab5"
+}

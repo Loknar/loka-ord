@@ -1,0 +1,132 @@
+{
+	"orð": "deila",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "deila",
+		"sagnbót": "deilt",
+		"boðháttur": {
+			"stýfður": "deil",
+			"et": "deildu",
+			"ft": "deilið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["deili", "deilir", "deilir"],
+					"ft": ["deilum", "deilið", "deila"]
+				},
+				"þátíð": {
+					"et": ["deildi", "deildir", "deildi"],
+					"ft": ["deildum", "deilduð", "deildu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["deili", "deilir", "deili"],
+					"ft": ["deilum", "deilið", "deili"]
+				},
+				"þátíð": {
+					"et": ["deildi", "deildir", "deildi"],
+					"ft": ["deildum", "deilduð", "deildu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "deilirðu",
+					"ft": "deiliði"
+				},
+				"þátíð": {
+					"et": "deildirðu",
+					"ft": "deilduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "deilirðu",
+					"ft": "deiliði"
+				},
+				"þátíð": {
+					"et": "deildirðu",
+					"ft": "deilduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "deilast",
+		"sagnbót": "deilst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["deilist", "deilist", "deilist"],
+					"ft": ["deilumst", "deilist", "deilast"]
+				},
+				"þátíð": {
+					"et": ["deildist", "deildist", "deildist"],
+					"ft": ["deildumst", "deildust", "deildust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["deilist", "deilist", "deilist"],
+					"ft": ["deilumst", "deilist", "deilist"]
+				},
+				"þátíð": {
+					"et": ["deildist", "deildist", "deildist"],
+					"ft": ["deildumst", "deildust", "deildust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "deilistu"
+				},
+				"þátíð": {
+					"et": "deildistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "deilistu"
+				},
+				"þátíð": {
+					"et": "deildistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "deilandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["deildur", "deildan", "deildum", "deilds"],
+					"kvk": ["deild", "deilda", "deildri", "deildrar"],
+					"hk": ["deilt", "deilt", "deildu", "deilds"]
+				},
+				"ft": {
+					"kk": ["deildir", "deilda", "deildum", "deildra"],
+					"kvk": ["deildar", "deildar", "deildum", "deildra"],
+					"hk": ["deild", "deild", "deildum", "deildra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["deildi", "deilda", "deilda", "deilda"],
+					"kvk": ["deilda", "deildu", "deildu", "deildu"],
+					"hk": ["deilda", "deilda", "deilda", "deilda"]
+				},
+				"ft": {
+					"kk": ["deildu", "deildu", "deildu", "deildu"],
+					"kvk": ["deildu", "deildu", "deildu", "deildu"],
+					"hk": ["deildu", "deildu", "deildu", "deildu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-deila",
+	"hash": "d0ea5ac7b5af40451a080a526aa34306c6b22de54dbce66b225dd0522c0402ef"
+}

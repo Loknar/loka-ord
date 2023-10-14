@@ -1,0 +1,159 @@
+{
+	"orð": "fylkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "fylkja",
+		"sagnbót": "fylkt",
+		"boðháttur": {
+			"stýfður": "fylk",
+			"et": "fylktu",
+			"ft": "fylkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fylki", "fylkir", "fylkir"],
+					"ft": ["fylkjum", "fylkið", "fylkja"]
+				},
+				"þátíð": {
+					"et": ["fylkti", "fylktir", "fylkti"],
+					"ft": ["fylktum", "fylktuð", "fylktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fylki", "fylkir", "fylki"],
+					"ft": ["fylkjum", "fylkið", "fylki"]
+				},
+				"þátíð": {
+					"et": ["fylkti", "fylktir", "fylkti"],
+					"ft": ["fylktum", "fylktuð", "fylktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fylkirðu",
+					"ft": "fylkiði"
+				},
+				"þátíð": {
+					"et": "fylktirðu",
+					"ft": "fylktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fylkirðu",
+					"ft": "fylkiði"
+				},
+				"þátíð": {
+					"et": "fylktirðu",
+					"ft": "fylktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fylkjast",
+		"sagnbót": "fylkst",
+		"boðháttur": {
+			"et": "fylkstu",
+			"ft": "fylkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fylkist", "fylkist", "fylkist"],
+					"ft": ["fylkjumst", "fylkist", "fylkjast"]
+				},
+				"þátíð": {
+					"et": ["fylktist", "fylktist", "fylktist"],
+					"ft": ["fylktumst", "fylktust", "fylktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fylkist", "fylkist", "fylkist"],
+					"ft": ["fylkjumst", "fylkist", "fylkist"]
+				},
+				"þátíð": {
+					"et": ["fylktist", "fylktist", "fylktist"],
+					"ft": ["fylktumst", "fylktist", "fylktist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fylkist", "fylkist", "fylkist"],
+					"ft": ["fylkjumst", "fylkist", "fylkist"]
+				},
+				"þátíð": {
+					"et": ["fylktist", "fylktist", "fylktist"],
+					"ft": ["fylktumst", "fylktust", "fylktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fylkist", "fylkist", "fylkist"],
+					"ft": ["fylkist", "fylkist", "fylkist"]
+				},
+				"þátíð": {
+					"et": ["fylktist", "fylktist", "fylktist"],
+					"ft": ["fylktist", "fylktist", "fylktist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fylkistu"
+				},
+				"þátíð": {
+					"et": "fylktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fylkistu"
+				},
+				"þátíð": {
+					"et": "fylktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fylkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fylktur", "fylktan", "fylktum", "fylkts"],
+					"kvk": ["fylkt", "fylkta", "fylktri", "fylktrar"],
+					"hk": ["fylkt", "fylkt", "fylktu", "fylkts"]
+				},
+				"ft": {
+					"kk": ["fylktir", "fylkta", "fylktum", "fylktra"],
+					"kvk": ["fylktar", "fylktar", "fylktum", "fylktra"],
+					"hk": ["fylkt", "fylkt", "fylktum", "fylktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fylkti", "fylkta", "fylkta", "fylkta"],
+					"kvk": ["fylkta", "fylktu", "fylktu", "fylktu"],
+					"hk": ["fylkta", "fylkta", "fylkta", "fylkta"]
+				},
+				"ft": {
+					"kk": ["fylktu", "fylktu", "fylktu", "fylktu"],
+					"kvk": ["fylktu", "fylktu", "fylktu", "fylktu"],
+					"hk": ["fylktu", "fylktu", "fylktu", "fylktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fylkja",
+	"hash": "d08a176ef399ae39da73b81d13c7000b428ed974a92dd84bbbe703d82e822ecb"
+}

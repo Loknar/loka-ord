@@ -1,0 +1,27 @@
+{
+	"orð": "húsaleigulög",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"ft": {
+		"ág": ["húsaleigulög", "húsaleigulög", "húsaleigulögum", "húsaleigulaga"],
+		"mg": ["húsaleigulögin", "húsaleigulögin", "húsaleigulögunum", "húsaleigulaganna"]
+	},
+	"kennistrengur": "no-húsaleigulög-hk",
+	"hash": "ef3c716fb9b89054aaa9d536e6f2a2df9339e847ab03ff9419a90126e3306b24"
+}

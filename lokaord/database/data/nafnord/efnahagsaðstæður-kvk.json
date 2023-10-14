@@ -1,0 +1,32 @@
+{
+	"orð": "efnahagsaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["efnahagsaðstæður", "efnahagsaðstæður", "efnahagsaðstæðum", "efnahagsaðstæðna"],
+		"mg": ["efnahagsaðstæðurnar", "efnahagsaðstæðurnar", "efnahagsaðstæðunum", "efnahagsaðstæðnanna"]
+	},
+	"kennistrengur": "no-efnahagsaðstæður-kvk",
+	"hash": "47decfa3716ffb5507049049218b00396229d3beeac72863d6136596376d3c38"
+}

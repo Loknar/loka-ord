@@ -1,0 +1,88 @@
+{
+	"orð": "sofa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sofa",
+		"sagnbót": "sofið",
+		"boðháttur": {
+			"stýfður": "sof",
+			"et": "sofðu",
+			"ft": "sofið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sef", "sefur", "sefur"],
+					"ft": ["sofum", "sofið", "sofa"]
+				},
+				"þátíð": {
+					"et": ["svaf", "svafst", "svaf"],
+					"ft": ["sváfum", "sváfuð", "sváfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sofi", "sofir", "sofi"],
+					"ft": ["sofum", "sofið", "sofi"]
+				},
+				"þátíð": {
+					"et": ["svæfi", "svæfir", "svæfi"],
+					"ft": ["svæfum", "svæfuð", "svæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sefurðu",
+					"ft": "sofiði"
+				},
+				"þátíð": {
+					"et": "svafstu",
+					"ft": "sváfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sofirðu",
+					"ft": "sofiði"
+				},
+				"þátíð": {
+					"et": "svæfirðu",
+					"ft": "svæfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sofandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sofinn", "sofinn", "sofnum", "sofins"],
+					"kvk": ["sofin", "sofna", "sofinni", "sofinnar"],
+					"hk": ["sofið", "sofið", "sofnu", "sofins"]
+				},
+				"ft": {
+					"kk": ["sofnir", "sofna", "sofnum", "sofinna"],
+					"kvk": ["sofnar", "sofnar", "sofnum", "sofinna"],
+					"hk": ["sofin", "sofin", "sofnum", "sofinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sofni", "sofna", "sofna", "sofna"],
+					"kvk": ["sofna", "sofnu", "sofnu", "sofnu"],
+					"hk": ["sofna", "sofna", "sofna", "sofna"]
+				},
+				"ft": {
+					"kk": ["sofnu", "sofnu", "sofnu", "sofnu"],
+					"kvk": ["sofnu", "sofnu", "sofnu", "sofnu"],
+					"hk": ["sofnu", "sofnu", "sofnu", "sofnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sofa",
+	"hash": "518ef362609f7105fcf52c7e3ce6c14ae8eaa1c67f09e72c666c733726aef1cd"
+}

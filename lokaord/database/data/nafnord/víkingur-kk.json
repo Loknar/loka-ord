@@ -2,6 +2,16 @@
 	"orð": "víkingur",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "vík",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vík-kvk"
+		},
+		{
+			"kennistrengur": "no-ingur-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["víkingur", "víking", "víkingi", "víkings"],
 		"mg": ["víkingurinn", "víkinginn", "víkingnum", "víkingsins"]
@@ -11,5 +21,5 @@
 		"mg": ["víkingarnir", "víkingana", "víkingunum", "víkinganna"]
 	},
 	"kennistrengur": "no-víkingur-kk",
-	"hash": "865901b474c420b524619ae121683380a415b3325b5cc05990a03a304766d3c3"
+	"hash": "69eee8a4ec1f713a4e8d4626886fd3a06ac95a0b51ff02782f8e743119195cd0"
 }

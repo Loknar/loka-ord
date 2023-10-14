@@ -2,6 +2,16 @@
 	"orð": "dómandi",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "dóm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-andi-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["dómandi", "dómanda", "dómanda", "dómanda"],
 		"mg": ["dómandinn", "dómandann", "dómandanum", "dómandans"]
@@ -11,5 +21,5 @@
 		"mg": ["dómendurnir", "dómendurna", "dómendunum", "dómendanna"]
 	},
 	"kennistrengur": "no-dómandi-kk",
-	"hash": "54d182c5e04b027aa0190db8a6d8700227a02292de634282b46fe0435283ca63"
+	"hash": "edf2d3d7d5fd5056232fc1951a0dfea8ce15b5a8c2aa00213ee7e3862f26238e"
 }

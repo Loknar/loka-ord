@@ -1,0 +1,132 @@
+{
+	"orð": "leigja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "leigja",
+		"sagnbót": "leigt",
+		"boðháttur": {
+			"stýfður": "leig",
+			"et": "leigðu",
+			"ft": "leigið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leigi", "leigir", "leigir"],
+					"ft": ["leigjum", "leigið", "leigja"]
+				},
+				"þátíð": {
+					"et": ["leigði", "leigðir", "leigði"],
+					"ft": ["leigðum", "leigðuð", "leigðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leigi", "leigir", "leigi"],
+					"ft": ["leigjum", "leigið", "leigi"]
+				},
+				"þátíð": {
+					"et": ["leigði", "leigðir", "leigði"],
+					"ft": ["leigðum", "leigðuð", "leigðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leigirðu",
+					"ft": "leigiði"
+				},
+				"þátíð": {
+					"et": "leigðirðu",
+					"ft": "leigðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leigirðu",
+					"ft": "leigiði"
+				},
+				"þátíð": {
+					"et": "leigðirðu",
+					"ft": "leigðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leigjast",
+		"sagnbót": "leigst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leigist", "leigist", "leigist"],
+					"ft": ["leigjumst", "leigist", "leigjast"]
+				},
+				"þátíð": {
+					"et": ["leigðist", "leigðist", "leigðist"],
+					"ft": ["leigðumst", "leigðust", "leigðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leigist", "leigist", "leigist"],
+					"ft": ["leigjumst", "leigist", "leigist"]
+				},
+				"þátíð": {
+					"et": ["leigðist", "leigðist", "leigðist"],
+					"ft": ["leigðumst", "leigðust", "leigðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leigistu"
+				},
+				"þátíð": {
+					"et": "leigðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leigistu"
+				},
+				"þátíð": {
+					"et": "leigðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leigjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leigður", "leigðan", "leigðum", "leigðs"],
+					"kvk": ["leigð", "leigða", "leigðri", "leigðrar"],
+					"hk": ["leigt", "leigt", "leigðu", "leigðs"]
+				},
+				"ft": {
+					"kk": ["leigðir", "leigða", "leigðum", "leigðra"],
+					"kvk": ["leigðar", "leigðar", "leigðum", "leigðra"],
+					"hk": ["leigð", "leigð", "leigðum", "leigðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["leigði", "leigða", "leigða", "leigða"],
+					"kvk": ["leigða", "leigðu", "leigðu", "leigðu"],
+					"hk": ["leigða", "leigða", "leigða", "leigða"]
+				},
+				"ft": {
+					"kk": ["leigðu", "leigðu", "leigðu", "leigðu"],
+					"kvk": ["leigðu", "leigðu", "leigðu", "leigðu"],
+					"hk": ["leigðu", "leigðu", "leigðu", "leigðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leigja",
+	"hash": "3c2dd27cd572109ef806164f5d2ab5f271c0cdc9422285e4edc61227abd85459"
+}
