@@ -972,6 +972,237 @@ class Ord:
                 ord_dict[key] = self.apply_ordhluti_ch_to_dict(ord_dict[key], ordhluti)
         return ord_dict
 
+    def apply_beygingar_filters(
+        self, isl_ord_dict: dict | OrderedDict, ordhluti: dict | OrderedDict
+    ) -> dict | OrderedDict:
+        """
+        apply beygingar filtering to contents in a provided dict
+        """
+        if 'beygingar' in ordhluti:
+            # nafnorð/sérnöfn
+            if 'et' not in ordhluti['beygingar']:
+                if 'et-ág' not in ordhluti['beygingar']:
+                    if 'et' in isl_ord_dict and 'ág' in isl_ord_dict['et']:
+                        del isl_ord_dict['et']['ág']
+                if 'et-mg' not in ordhluti['beygingar']:
+                    if 'et' in isl_ord_dict and 'mg' in isl_ord_dict['et']:
+                        del isl_ord_dict['et']['mg']
+            if 'ft' not in ordhluti['beygingar']:
+                if 'ft-ág' not in ordhluti['beygingar']:
+                    if 'ft' in isl_ord_dict and 'ág' in isl_ord_dict['ft']:
+                        del isl_ord_dict['ft']['ág']
+                if 'ft-mg' not in ordhluti['beygingar']:
+                    if 'ft' in isl_ord_dict and 'mg' in isl_ord_dict['ft']:
+                        del isl_ord_dict['ft']['mg']
+            if 'et' in isl_ord_dict and len(isl_ord_dict['et'].keys()) == 0:
+                del isl_ord_dict['et']
+            if 'ft' in isl_ord_dict and len(isl_ord_dict['ft'].keys()) == 0:
+                del isl_ord_dict['ft']
+            # lýsingarorð (and not "myndir" mapped)
+            if 'myndir' not in ordhluti:
+                if 'frumstig' not in ordhluti['beygingar']:
+                    if 'frumstig-sb' not in ordhluti['beygingar']:
+                        if 'frumstig-sb-et' not in ordhluti['beygingar']:
+                            if (
+                                'frumstig' in isl_ord_dict and
+                                'sb' in isl_ord_dict['frumstig'] and
+                                'et' in isl_ord_dict['frumstig']['sb']
+                            ):
+                                del isl_ord_dict['frumstig']['sb']['et']
+                        if 'frumstig-sb-ft' not in ordhluti['beygingar']:
+                            if (
+                                'frumstig' in isl_ord_dict and
+                                'sb' in isl_ord_dict['frumstig'] and
+                                'ft' in isl_ord_dict['frumstig']['sb']
+                            ):
+                                del isl_ord_dict['frumstig']['sb']['ft']
+                        if (
+                            'frumstig' in isl_ord_dict and
+                            'sb' in isl_ord_dict['frumstig'] and
+                            len(isl_ord_dict['frumstig']['sb']) == 0
+                        ):
+                            del isl_ord_dict['frumstig']['sb']
+                    if 'frumstig-vb' not in ordhluti['beygingar']:
+                        if 'frumstig-vb-et' not in ordhluti['beygingar']:
+                            if (
+                                'frumstig' in isl_ord_dict and
+                                'vb' in isl_ord_dict['frumstig'] and
+                                'et' in isl_ord_dict['frumstig']['vb']
+                            ):
+                                del isl_ord_dict['frumstig']['vb']['et']
+                        if 'frumstig-vb-ft' not in ordhluti['beygingar']:
+                            if (
+                                'frumstig' in isl_ord_dict and
+                                'vb' in isl_ord_dict['frumstig'] and
+                                'ft' in isl_ord_dict['frumstig']['vb']
+                            ):
+                                del isl_ord_dict['frumstig']['vb']['ft']
+                        if (
+                            'frumstig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['frumstig'] and
+                            len(isl_ord_dict['frumstig']['vb']) == 0
+                        ):
+                            del isl_ord_dict['frumstig']['vb']
+                    if (
+                        'frumstig' in isl_ord_dict and
+                        len(isl_ord_dict['frumstig']) == 0
+                    ):
+                        del isl_ord_dict['frumstig']
+                if 'miðstig' not in ordhluti['beygingar']:
+                    if 'miðstig-vb-et' not in ordhluti['beygingar']:
+                        if (
+                            'miðstig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['miðstig'] and
+                            'et' in isl_ord_dict['miðstig']['vb']
+                        ):
+                            del isl_ord_dict['miðstig']['vb']['et']
+                    if 'miðstig-vb-ft' not in ordhluti['beygingar']:
+                        if (
+                            'miðstig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['miðstig'] and
+                            'ft' in isl_ord_dict['miðstig']['vb']
+                        ):
+                            del isl_ord_dict['miðstig']['vb']['ft']
+                    if (
+                        'miðstig' in isl_ord_dict and
+                        'vb' in isl_ord_dict['miðstig'] and
+                        len(isl_ord_dict['miðstig']['vb']) == 0
+                    ):
+                        del isl_ord_dict['miðstig']['vb']
+                    if (
+                        'miðstig' in isl_ord_dict and
+                        len(isl_ord_dict['miðstig']) == 0
+                    ):
+                        del isl_ord_dict['miðstig']
+                if 'efstastig' not in ordhluti['beygingar']:
+                    if 'efstastig-sb' not in ordhluti['beygingar']:
+                        if 'efstastig-sb-et' not in ordhluti['beygingar']:
+                            if (
+                                'efstastig' in isl_ord_dict and
+                                'sb' in isl_ord_dict['efstastig'] and
+                                'et' in isl_ord_dict['efstastig']['sb']
+                            ):
+                                del isl_ord_dict['efstastig']['sb']['et']
+                        if 'efstastig-sb-ft' not in ordhluti['beygingar']:
+                            if (
+                                'efstastig' in isl_ord_dict and
+                                'sb' in isl_ord_dict['efstastig'] and
+                                'ft' in isl_ord_dict['efstastig']['sb']
+                            ):
+                                del isl_ord_dict['efstastig']['sb']['ft']
+                        if (
+                            'efstastig' in isl_ord_dict and
+                            'sb' in isl_ord_dict['efstastig'] and
+                            len(isl_ord_dict['efstastig']['sb']) == 0
+                        ):
+                            del isl_ord_dict['efstastig']['sb']
+                    if 'efstastig-vb' not in ordhluti['beygingar']:
+                        if 'efstastig-vb-et' not in ordhluti['beygingar']:
+                            if (
+                                'efstastig' in isl_ord_dict and
+                                'vb' in isl_ord_dict['efstastig'] and
+                                'et' in isl_ord_dict['efstastig']['vb']
+                            ):
+                                del isl_ord_dict['efstastig']['vb']['et']
+                        if 'efstastig-vb-ft' not in ordhluti['beygingar']:
+                            if (
+                                'efstastig' in isl_ord_dict and
+                                'vb' in isl_ord_dict['efstastig'] and
+                                'ft' in isl_ord_dict['efstastig']['vb']
+                            ):
+                                del isl_ord_dict['efstastig']['vb']['ft']
+                        if (
+                            'efstastig' in isl_ord_dict and
+                            'vb' in isl_ord_dict['efstastig'] and
+                            len(isl_ord_dict['efstastig']['vb']) == 0
+                        ):
+                            del isl_ord_dict['efstastig']['vb']
+                    if 'efstastig' in isl_ord_dict and len(isl_ord_dict['efstastig']) == 0:
+                        del isl_ord_dict['efstastig']
+            # sagnorð
+            if 'germynd' not in ordhluti['beygingar']:
+                if 'germynd-persónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'germynd' in isl_ord_dict and
+                        'persónuleg' in isl_ord_dict['germynd']
+                    ):
+                        del isl_ord_dict['germynd']['persónuleg']
+                if 'germynd-ópersónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'germynd' in isl_ord_dict and
+                        'ópersónuleg' in isl_ord_dict['germynd']
+                    ):
+                        del isl_ord_dict['germynd']['ópersónuleg']
+                if 'germynd-spurnarmyndir' not in ordhluti['beygingar']:
+                    if (
+                        'germynd' in isl_ord_dict and
+                        'spurnarmyndir' in isl_ord_dict['germynd']
+                    ):
+                        del isl_ord_dict['germynd']['spurnarmyndir']
+                if (
+                    'germynd-persónuleg' not in ordhluti['beygingar'] and
+                    'germynd-ópersónuleg' not in ordhluti['beygingar'] and
+                    'germynd-spurnarmyndir' not in ordhluti['beygingar']
+                ):
+                    if 'germynd' in isl_ord_dict:
+                        if 'nafnháttur' in isl_ord_dict['germynd']:
+                            del isl_ord_dict['germynd']['nafnháttur']
+                        if 'sagnbót' in isl_ord_dict['germynd']:
+                            del isl_ord_dict['germynd']['sagnbót']
+                        if 'boðháttur' in isl_ord_dict['germynd']:
+                            del isl_ord_dict['germynd']['boðháttur']
+                if 'germynd' in isl_ord_dict and len(isl_ord_dict['germynd']) == 0:
+                    del isl_ord_dict['germynd']
+            if 'miðmynd' not in ordhluti['beygingar']:
+                if 'miðmynd-persónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'miðmynd' in isl_ord_dict and
+                        'persónuleg' in isl_ord_dict['miðmynd']
+                    ):
+                        del isl_ord_dict['miðmynd']['persónuleg']
+                if 'miðmynd-ópersónuleg' not in ordhluti['beygingar']:
+                    if (
+                        'miðmynd' in isl_ord_dict and
+                        'ópersónuleg' in isl_ord_dict['miðmynd']
+                    ):
+                        del isl_ord_dict['miðmynd']['ópersónuleg']
+                if 'miðmynd-spurnarmyndir' not in ordhluti['beygingar']:
+                    if (
+                        'miðmynd' in isl_ord_dict and
+                        'spurnarmyndir' in isl_ord_dict['miðmynd']
+                    ):
+                        del isl_ord_dict['miðmynd']['spurnarmyndir']
+                if (
+                    'miðmynd-persónuleg' not in ordhluti['beygingar'] and
+                    'miðmynd-ópersónuleg' not in ordhluti['beygingar'] and
+                    'miðmynd-spurnarmyndir' not in ordhluti['beygingar']
+                ):
+                    if 'miðmynd' in isl_ord_dict:
+                        if 'nafnháttur' in isl_ord_dict['miðmynd']:
+                            del isl_ord_dict['miðmynd']['nafnháttur']
+                        if 'sagnbót' in isl_ord_dict['miðmynd']:
+                            del isl_ord_dict['miðmynd']['sagnbót']
+                        if 'boðháttur' in isl_ord_dict['miðmynd']:
+                            del isl_ord_dict['miðmynd']['boðháttur']
+                if 'miðmynd' in isl_ord_dict and len(isl_ord_dict['miðmynd']) == 0:
+                    del isl_ord_dict['miðmynd']
+            if 'lýsingarháttur' not in ordhluti['beygingar']:
+                if 'lýsingarháttur-nútíðar' not in ordhluti['beygingar']:
+                    if (
+                        'lýsingarháttur' in isl_ord_dict and
+                        'nútíðar' in isl_ord_dict['lýsingarháttur']
+                    ):
+                        del isl_ord_dict['lýsingarháttur']['nútíðar']
+                if 'lýsingarháttur-þátíðar' not in ordhluti['beygingar']:
+                    if (
+                        'lýsingarháttur' in isl_ord_dict and
+                        'þátíðar' in isl_ord_dict['lýsingarháttur']
+                    ):
+                        del isl_ord_dict['lýsingarháttur']['þátíðar']
+                if 'lýsingarháttur' in isl_ord_dict and len(isl_ord_dict['lýsingarháttur']) == 0:
+                    del isl_ord_dict['lýsingarháttur']
+        return isl_ord_dict
+
     def prepend_str_to_dict(
         self, ord_str: str, ord_dict: dict | OrderedDict
     ) -> dict | OrderedDict:
@@ -1071,231 +1302,7 @@ class Ord:
         for key in remove_keys:
             if key in isl_ord_dict:
                 del isl_ord_dict[key]
-        # -----------------------------------------------------------------------------------------
-        # apply beygingar filters config to orð data
-        # nafnorð/sérnöfn
-        if 'beygingar' in ordhluti:
-            if 'et' not in ordhluti['beygingar']:
-                if 'et-ág' not in ordhluti['beygingar']:
-                    if 'et' in isl_ord_dict and 'ág' in isl_ord_dict['et']:
-                        del isl_ord_dict['et']['ág']
-                if 'et-mg' not in ordhluti['beygingar']:
-                    if 'et' in isl_ord_dict and 'mg' in isl_ord_dict['et']:
-                        del isl_ord_dict['et']['mg']
-            if 'ft' not in ordhluti['beygingar']:
-                if 'ft-ág' not in ordhluti['beygingar']:
-                    if 'ft' in isl_ord_dict and 'ág' in isl_ord_dict['ft']:
-                        del isl_ord_dict['ft']['ág']
-                if 'ft-mg' not in ordhluti['beygingar']:
-                    if 'ft' in isl_ord_dict and 'mg' in isl_ord_dict['ft']:
-                        del isl_ord_dict['ft']['mg']
-            if 'et' in isl_ord_dict and len(isl_ord_dict['et'].keys()) == 0:
-                del isl_ord_dict['et']
-            if 'ft' in isl_ord_dict and len(isl_ord_dict['ft'].keys()) == 0:
-                del isl_ord_dict['ft']
-            # lýsingarorð
-            if 'frumstig' not in ordhluti['beygingar']:
-                if 'frumstig-sb' not in ordhluti['beygingar']:
-                    if 'frumstig-sb-et' not in ordhluti['beygingar']:
-                        if (
-                            'frumstig' in isl_ord_dict and
-                            'sb' in isl_ord_dict['frumstig'] and
-                            'et' in isl_ord_dict['frumstig']['sb']
-                        ):
-                            del isl_ord_dict['frumstig']['sb']['et']
-                    if 'frumstig-sb-ft' not in ordhluti['beygingar']:
-                        if (
-                            'frumstig' in isl_ord_dict and
-                            'sb' in isl_ord_dict['frumstig'] and
-                            'ft' in isl_ord_dict['frumstig']['sb']
-                        ):
-                            del isl_ord_dict['frumstig']['sb']['ft']
-                    if (
-                        'frumstig' in isl_ord_dict and
-                        'sb' in isl_ord_dict['frumstig'] and
-                        len(isl_ord_dict['frumstig']['sb']) == 0
-                    ):
-                        del isl_ord_dict['frumstig']['sb']
-                if 'frumstig-vb' not in ordhluti['beygingar']:
-                    if 'frumstig-vb-et' not in ordhluti['beygingar']:
-                        if (
-                            'frumstig' in isl_ord_dict and
-                            'vb' in isl_ord_dict['frumstig'] and
-                            'et' in isl_ord_dict['frumstig']['vb']
-                        ):
-                            del isl_ord_dict['frumstig']['vb']['et']
-                    if 'frumstig-vb-ft' not in ordhluti['beygingar']:
-                        if (
-                            'frumstig' in isl_ord_dict and
-                            'vb' in isl_ord_dict['frumstig'] and
-                            'ft' in isl_ord_dict['frumstig']['vb']
-                        ):
-                            del isl_ord_dict['frumstig']['vb']['ft']
-                    if (
-                        'frumstig' in isl_ord_dict and
-                        'vb' in isl_ord_dict['frumstig'] and
-                        len(isl_ord_dict['frumstig']['vb']) == 0
-                    ):
-                        del isl_ord_dict['frumstig']['vb']
-                if (
-                    'frumstig' in isl_ord_dict and
-                    len(isl_ord_dict['frumstig']) == 0
-                ):
-                    del isl_ord_dict['frumstig']
-            if 'miðstig' not in ordhluti['beygingar']:
-                if 'miðstig-vb-et' not in ordhluti['beygingar']:
-                    if (
-                        'miðstig' in isl_ord_dict and
-                        'vb' in isl_ord_dict['miðstig'] and
-                        'et' in isl_ord_dict['miðstig']['vb']
-                    ):
-                        del isl_ord_dict['miðstig']['vb']['et']
-                if 'miðstig-vb-ft' not in ordhluti['beygingar']:
-                    if (
-                        'miðstig' in isl_ord_dict and
-                        'vb' in isl_ord_dict['miðstig'] and
-                        'ft' in isl_ord_dict['miðstig']['vb']
-                    ):
-                        del isl_ord_dict['miðstig']['vb']['ft']
-                if (
-                    'miðstig' in isl_ord_dict and
-                    'vb' in isl_ord_dict['miðstig'] and
-                    len(isl_ord_dict['miðstig']['vb']) == 0
-                ):
-                    del isl_ord_dict['miðstig']['vb']
-                if (
-                    'miðstig' in isl_ord_dict and
-                    len(isl_ord_dict['miðstig']) == 0
-                ):
-                    del isl_ord_dict['miðstig']
-            if 'efstastig' not in ordhluti['beygingar']:
-                if 'efstastig-sb' not in ordhluti['beygingar']:
-                    if 'efstastig-sb-et' not in ordhluti['beygingar']:
-                        if (
-                            'efstastig' in isl_ord_dict and
-                            'sb' in isl_ord_dict['efstastig'] and
-                            'et' in isl_ord_dict['efstastig']['sb']
-                        ):
-                            del isl_ord_dict['efstastig']['sb']['et']
-                    if 'efstastig-sb-ft' not in ordhluti['beygingar']:
-                        if (
-                            'efstastig' in isl_ord_dict and
-                            'sb' in isl_ord_dict['efstastig'] and
-                            'ft' in isl_ord_dict['efstastig']['sb']
-                        ):
-                            del isl_ord_dict['efstastig']['sb']['ft']
-                    if (
-                        'efstastig' in isl_ord_dict and
-                        'sb' in isl_ord_dict['efstastig'] and
-                        len(isl_ord_dict['efstastig']['sb']) == 0
-                    ):
-                        del isl_ord_dict['efstastig']['sb']
-                if 'efstastig-vb' not in ordhluti['beygingar']:
-                    if 'efstastig-vb-et' not in ordhluti['beygingar']:
-                        if (
-                            'efstastig' in isl_ord_dict and
-                            'vb' in isl_ord_dict['efstastig'] and
-                            'et' in isl_ord_dict['efstastig']['vb']
-                        ):
-                            del isl_ord_dict['efstastig']['vb']['et']
-                    if 'efstastig-vb-ft' not in ordhluti['beygingar']:
-                        if (
-                            'efstastig' in isl_ord_dict and
-                            'vb' in isl_ord_dict['efstastig'] and
-                            'ft' in isl_ord_dict['efstastig']['vb']
-                        ):
-                            del isl_ord_dict['efstastig']['vb']['ft']
-                    if (
-                        'efstastig' in isl_ord_dict and
-                        'vb' in isl_ord_dict['efstastig'] and
-                        len(isl_ord_dict['efstastig']['vb']) == 0
-                    ):
-                        del isl_ord_dict['efstastig']['vb']
-                if 'efstastig' in isl_ord_dict and len(isl_ord_dict['efstastig']) == 0:
-                    del isl_ord_dict['efstastig']
-            # sagnorð
-            if 'germynd' not in ordhluti['beygingar']:
-                if 'germynd-persónuleg' not in ordhluti['beygingar']:
-                    if (
-                        'germynd' in isl_ord_dict and
-                        'persónuleg' in isl_ord_dict['germynd']
-                    ):
-                        del isl_ord_dict['germynd']['persónuleg']
-                if 'germynd-ópersónuleg' not in ordhluti['beygingar']:
-                    if (
-                        'germynd' in isl_ord_dict and
-                        'ópersónuleg' in isl_ord_dict['germynd']
-                    ):
-                        del isl_ord_dict['germynd']['ópersónuleg']
-                if 'germynd-spurnarmyndir' not in ordhluti['beygingar']:
-                    if (
-                        'germynd' in isl_ord_dict and
-                        'spurnarmyndir' in isl_ord_dict['germynd']
-                    ):
-                        del isl_ord_dict['germynd']['spurnarmyndir']
-                if (
-                    'germynd-persónuleg' not in ordhluti['beygingar'] and
-                    'germynd-ópersónuleg' not in ordhluti['beygingar'] and
-                    'germynd-spurnarmyndir' not in ordhluti['beygingar']
-                ):
-                    if 'germynd' in isl_ord_dict:
-                        if 'nafnháttur' in isl_ord_dict['germynd']:
-                            del isl_ord_dict['germynd']['nafnháttur']
-                        if 'sagnbót' in isl_ord_dict['germynd']:
-                            del isl_ord_dict['germynd']['sagnbót']
-                        if 'boðháttur' in isl_ord_dict['germynd']:
-                            del isl_ord_dict['germynd']['boðháttur']
-                if 'germynd' in isl_ord_dict and len(isl_ord_dict['germynd']) == 0:
-                    del isl_ord_dict['germynd']
-            if 'miðmynd' not in ordhluti['beygingar']:
-                if 'miðmynd-persónuleg' not in ordhluti['beygingar']:
-                    if (
-                        'miðmynd' in isl_ord_dict and
-                        'persónuleg' in isl_ord_dict['miðmynd']
-                    ):
-                        del isl_ord_dict['miðmynd']['persónuleg']
-                if 'miðmynd-ópersónuleg' not in ordhluti['beygingar']:
-                    if (
-                        'miðmynd' in isl_ord_dict and
-                        'ópersónuleg' in isl_ord_dict['miðmynd']
-                    ):
-                        del isl_ord_dict['miðmynd']['ópersónuleg']
-                if 'miðmynd-spurnarmyndir' not in ordhluti['beygingar']:
-                    if (
-                        'miðmynd' in isl_ord_dict and
-                        'spurnarmyndir' in isl_ord_dict['miðmynd']
-                    ):
-                        del isl_ord_dict['miðmynd']['spurnarmyndir']
-                if (
-                    'miðmynd-persónuleg' not in ordhluti['beygingar'] and
-                    'miðmynd-ópersónuleg' not in ordhluti['beygingar'] and
-                    'miðmynd-spurnarmyndir' not in ordhluti['beygingar']
-                ):
-                    if 'miðmynd' in isl_ord_dict:
-                        if 'nafnháttur' in isl_ord_dict['miðmynd']:
-                            del isl_ord_dict['miðmynd']['nafnháttur']
-                        if 'sagnbót' in isl_ord_dict['miðmynd']:
-                            del isl_ord_dict['miðmynd']['sagnbót']
-                        if 'boðháttur' in isl_ord_dict['miðmynd']:
-                            del isl_ord_dict['miðmynd']['boðháttur']
-                if 'miðmynd' in isl_ord_dict and len(isl_ord_dict['miðmynd']) == 0:
-                    del isl_ord_dict['miðmynd']
-            if 'lýsingarháttur' not in ordhluti['beygingar']:
-                if 'lýsingarháttur-nútíðar' not in ordhluti['beygingar']:
-                    if (
-                        'lýsingarháttur' in isl_ord_dict and
-                        'nútíðar' in isl_ord_dict['lýsingarháttur']
-                    ):
-                        del isl_ord_dict['lýsingarháttur']['nútíðar']
-                if 'lýsingarháttur-þátíðar' not in ordhluti['beygingar']:
-                    if (
-                        'lýsingarháttur' in isl_ord_dict and
-                        'þátíðar' in isl_ord_dict['lýsingarháttur']
-                    ):
-                        del isl_ord_dict['lýsingarháttur']['þátíðar']
-                if 'lýsingarháttur' in isl_ord_dict and len(isl_ord_dict['lýsingarháttur']) == 0:
-                    del isl_ord_dict['lýsingarháttur']
-        # -----------------------------------------------------------------------------------------
+        isl_ord_dict = self.apply_beygingar_filters(isl_ord_dict, ordhluti)
         isl_ord_dict = self.apply_ordhluti_ch_to_dict(isl_ord_dict, ordhluti)
         return isl_ord_dict
 
@@ -1348,7 +1355,11 @@ class Ord:
         """
         if 'mynd' in samsett[-1]:
             return {}
-        beygingar = self.ordhluti_get_beygingar(samsett[-1])
+        if 'myndir' in samsett[-1]:
+            beygingar = self.get_lo_myndir_beygingar(samsett[-1])
+            beygingar = self.apply_beygingar_filters(beygingar, samsett[-1])
+        else:
+            beygingar = self.ordhluti_get_beygingar(samsett[-1])
         for ordhluti in reversed(samsett[:-1]):
             if 'mynd' in ordhluti:
                 beygingar = self.prepend_str_to_dict(ordhluti['mynd'], beygingar)

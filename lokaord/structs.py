@@ -285,11 +285,19 @@ class SamsettOrdhluti(BaseModel):
                             f'inappropriate beyging "{beyging}" for nafnorð/sérnöfn (orð: {val})'
                         )
             elif val.startswith('lo-'):  # lýsingarorð
-                for beyging in values['beygingar']:
-                    if type(beyging) is not LysingarordaBeygingar:
-                        raise ValueError(
-                            f'inappropriate beyging "{beyging}" for lýsingarorð (orð: {val})'
-                        )
+                if 'myndir' in values and values['myndir'] is not None:
+                    for beyging in values['beygingar']:
+                        if type(beyging) is not NafnordaBeygingar:
+                            raise ValueError(
+                                f'inappropriate beyging "{beyging}" for lýsingarorð with "myndir"'
+                                f' mapping (orð: {val})'
+                            )
+                else:
+                    for beyging in values['beygingar']:
+                        if type(beyging) is not LysingarordaBeygingar:
+                            raise ValueError(
+                                f'inappropriate beyging "{beyging}" for lýsingarorð (orð: {val})'
+                            )
             elif val.startswith('so-'):  # sagnorð
                 for beyging in values['beygingar']:
                     if type(beyging) is not SagnordaBeygingar:
