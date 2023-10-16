@@ -1,0 +1,142 @@
+{
+	"orð": "skuldsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skuldsetja",
+		"sagnbót": "skuldsett",
+		"boðháttur": {
+			"stýfður": "skuldset",
+			"et": "skuldsettu",
+			"ft": "skuldsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldset", "skuldsetur", "skuldsetur"],
+					"ft": ["skuldsetjum", "skuldsetjið", "skuldsetja"]
+				},
+				"þátíð": {
+					"et": ["skuldsetti", "skuldsettir", "skuldsett"],
+					"ft": ["skuldsettum", "skuldsettuð", "skuldsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldsetji", "skuldsetjir", "skuldsetji"],
+					"ft": ["skuldsetjum", "skuldsetjið", "skuldsetji"]
+				},
+				"þátíð": {
+					"et": ["skuldsetti", "skuldsettir", "skuldsetti"],
+					"ft": ["skuldsettum", "skuldsettuð", "skuldsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldseturðu",
+					"ft": "skuldsetjiði"
+				},
+				"þátíð": {
+					"et": "skuldsettirðu",
+					"ft": "skuldsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldsetjirðu",
+					"ft": "skuldsetjiði"
+				},
+				"þátíð": {
+					"et": "skuldsettirðu",
+					"ft": "skuldsettuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skuldsetjast",
+		"sagnbót": "skuldsest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldsest", "skuldsest", "skuldsest"],
+					"ft": ["skuldsetjumst", "skuldsetjist", "skuldsetjast"]
+				},
+				"þátíð": {
+					"et": ["skuldsettist", "skuldsettist", "skuldsettist"],
+					"ft": ["skuldsettumst", "skuldsettust", "skuldsettust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldsetjist", "skuldsetjist", "skuldsetjist"],
+					"ft": ["skuldsetjumst", "skuldsetjist", "skuldsetjist"]
+				},
+				"þátíð": {
+					"et": ["skuldsettist", "skuldsettist", "skuldsettist"],
+					"ft": ["skuldsettumst", "skuldsettust", "skuldsettust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldsestu"
+				},
+				"þátíð": {
+					"et": "skuldsettistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldsetjistu"
+				},
+				"þátíð": {
+					"et": "skuldsettistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skuldsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skuldsettur", "skuldsettan", "skuldsettum", "skuldsetts"],
+					"kvk": ["skuldsett", "skuldsetta", "skuldsettri", "skuldsettrar"],
+					"hk": ["skuldsett", "skuldsett", "skuldsettu", "skuldsetts"]
+				},
+				"ft": {
+					"kk": ["skuldsettir", "skuldsetta", "skuldsettum", "skuldsettra"],
+					"kvk": ["skuldsettar", "skuldsettar", "skuldsettum", "skuldsettra"],
+					"hk": ["skuldsett", "skuldsett", "skuldsettum", "skuldsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skuldsetti", "skuldsetta", "skuldsetta", "skuldsetta"],
+					"kvk": ["skuldsetta", "skuldsettu", "skuldsettu", "skuldsettu"],
+					"hk": ["skuldsetta", "skuldsetta", "skuldsetta", "skuldsetta"]
+				},
+				"ft": {
+					"kk": ["skuldsettu", "skuldsettu", "skuldsettu", "skuldsettu"],
+					"kvk": ["skuldsettu", "skuldsettu", "skuldsettu", "skuldsettu"],
+					"hk": ["skuldsettu", "skuldsettu", "skuldsettu", "skuldsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skuldsetja",
+	"hash": "dc7f0408f5277c73fd76f135ec53289eb8924d76928ab62b3f8b19ab1f2edf98"
+}
