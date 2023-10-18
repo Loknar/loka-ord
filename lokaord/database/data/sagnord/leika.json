@@ -1,0 +1,155 @@
+{
+	"orð": "leika",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "leika",
+		"sagnbót": "leikið",
+		"boðháttur": {
+			"stýfður": "leik",
+			"et": "leiktu",
+			"ft": "leikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leik", "leikur", "leikur"],
+					"ft": ["leikum", "leikið", "leika"]
+				},
+				"þátíð": {
+					"et": ["lék", "lékst", "lék"],
+					"ft": ["lékum", "lékuð", "léku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leiki", "leikir", "leiki"],
+					"ft": ["leikum", "leikið", "leiki"]
+				},
+				"þátíð": {
+					"et": ["léki", "lékir", "léki"],
+					"ft": ["lékum", "lékuð", "lékuð"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leikur", "leikur", "leikur"],
+					"ft": ["leikur", "leikur", "leikur"]
+				},
+				"þátíð": {
+					"et": ["lék", "lék", "lék"],
+					"ft": ["lék", "lék", "lék"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leiki", "leiki", "leiki"],
+					"ft": ["leiki", "leiki", "leiki"]
+				},
+				"þátíð": {
+					"et": ["léki", "léki", "léki"],
+					"ft": ["léki", "léki", "léki"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leikurðu",
+					"ft": "leikiði"
+				},
+				"þátíð": {
+					"et": "lékstu",
+					"ft": "lékuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leikirðu",
+					"ft": "leikiði"
+				},
+				"þátíð": {
+					"et": "lékirðu",
+					"ft": "lékuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leikast",
+		"sagnbót": "leikist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leikst", "leikst", "leikst"],
+					"ft": ["leikumst", "leikist", "leikast"]
+				},
+				"þátíð": {
+					"et": ["lékst", "lékst", "lékst"],
+					"ft": ["lékumst", "lékust", "lékust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leikist", "leikist", "leikist"],
+					"ft": ["leikumst", "leikist", "leikist"]
+				},
+				"þátíð": {
+					"et": ["lékist", "lékist", "lékist"],
+					"ft": ["lékumst", "lékust", "lékust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leikstu"
+				},
+				"þátíð": {
+					"et": "lékstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leikistu"
+				},
+				"þátíð": {
+					"et": "lékistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leikandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leikinn", "leikinn", "leiknum", "leikins"],
+					"kvk": ["leikin", "leikna", "leikinni", "leikinnar"],
+					"hk": ["leikið", "leikið", "leiknu", "leikins"]
+				},
+				"ft": {
+					"kk": ["leiknir", "leikna", "leiknum", "leikinna"],
+					"kvk": ["leiknar", "leiknar", "leiknum", "leikinna"],
+					"hk": ["leikin", "leikin", "leiknum", "leikinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["leikni", "leikna", "leikna", "leikna"],
+					"kvk": ["leikna", "leiknu", "leiknu", "leiknu"],
+					"hk": ["leikna", "leikna", "leikna", "leikna"]
+				},
+				"ft": {
+					"kk": ["leiknu", "leiknu", "leiknu", "leiknu"],
+					"kvk": ["leiknu", "leiknu", "leiknu", "leiknu"],
+					"hk": ["leiknu", "leiknu", "leiknu", "leiknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leika",
+	"hash": "aa8cfc602839ca7483dfdf0543cbcbd802b4385a05188f50bd6b6a97f02f4f51"
+}
