@@ -1,0 +1,53 @@
+{
+	"orð": "bókstafstrúaður",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "stafs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stafur-kk"
+		},
+		{
+			"mynd": "trú",
+			"samsetning": "stofn",
+			"kennistrengur": "so-trúa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bókstafstrúaður", "bókstafstrúaðan", "bókstafstrúuðum", "bókstafstrúaðs"],
+				"kvk": ["bókstafstrúuð", "bókstafstrúaða", "bókstafstrúaðri", "bókstafstrúaðrar"],
+				"hk": ["bókstafstrúað", "bókstafstrúað", "bókstafstrúuðu", "bókstafstrúaðs"]
+			},
+			"ft": {
+				"kk": ["bókstafstrúaðir", "bókstafstrúaða", "bókstafstrúuðum", "bókstafstrúaðra"],
+				"kvk": ["bókstafstrúaðar", "bókstafstrúaðar", "bókstafstrúuðum", "bókstafstrúaðra"],
+				"hk": ["bókstafstrúuð", "bókstafstrúuð", "bókstafstrúuðum", "bókstafstrúaðra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bókstafstrúaði", "bókstafstrúaða", "bókstafstrúaða", "bókstafstrúaða"],
+				"kvk": ["bókstafstrúaða", "bókstafstrúuðu", "bókstafstrúuðu", "bókstafstrúuðu"],
+				"hk": ["bókstafstrúaða", "bókstafstrúaða", "bókstafstrúaða", "bókstafstrúaða"]
+			},
+			"ft": {
+				"kk": ["bókstafstrúuðu", "bókstafstrúuðu", "bókstafstrúuðu", "bókstafstrúuðu"],
+				"kvk": ["bókstafstrúuðu", "bókstafstrúuðu", "bókstafstrúuðu", "bókstafstrúuðu"],
+				"hk": ["bókstafstrúuðu", "bókstafstrúuðu", "bókstafstrúuðu", "bókstafstrúuðu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bókstafstrúaður",
+	"hash": "c99917adf59ba4bc27733d90f633f68fa7b4185176f886a2a1acec9b9f05e07d"
+}

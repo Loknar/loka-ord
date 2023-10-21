@@ -1,6 +1,16 @@
 {
 	"orð": "hækkaður",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hækk",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hækka"
+		},
+		{
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-hækkaður",
-	"hash": "ba30cb536e822cb37719b258214245fa13c595a4ddf9d3bcb7f7d8a0f87ca9ea"
+	"hash": "4320352feb592cf0baa6c97ca27868abb1dd305113c128b3b2eba98bc57b46e0"
 }
