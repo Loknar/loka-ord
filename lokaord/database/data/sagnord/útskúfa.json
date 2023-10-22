@@ -1,0 +1,146 @@
+{
+	"orð": "útskúfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "so-skúfa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útskúfa",
+		"sagnbót": "útskúfað",
+		"boðháttur": {
+			"stýfður": "útskúfa",
+			"et": "útskúfaðu",
+			"ft": "útskúfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskúfa", "útskúfar", "útskúfar"],
+					"ft": ["útskúfum", "útskúfið", "útskúfa"]
+				},
+				"þátíð": {
+					"et": ["útskúfaði", "útskúfaðir", "útskúfaði"],
+					"ft": ["útskúfuðum", "útskúfuðuð", "útskúfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskúfi", "útskúfir", "útskúfi"],
+					"ft": ["útskúfum", "útskúfið", "útskúfi"]
+				},
+				"þátíð": {
+					"et": ["útskúfaði", "útskúfaðir", "útskúfaði"],
+					"ft": ["útskúfuðum", "útskúfuðuð", "útskúfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskúfarðu",
+					"ft": "útskúfiði"
+				},
+				"þátíð": {
+					"et": "útskúfaðirðu",
+					"ft": "útskúfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskúfirðu",
+					"ft": "útskúfiði"
+				},
+				"þátíð": {
+					"et": "útskúfaðirðu",
+					"ft": "útskúfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útskúfast",
+		"sagnbót": "útskúfast",
+		"boðháttur": {
+			"et": "útskúfastu",
+			"ft": "útskúfist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskúfast", "útskúfast", "útskúfast"],
+					"ft": ["útskúfumst", "útskúfist", "útskúfast"]
+				},
+				"þátíð": {
+					"et": ["útskúfaðist", "útskúfaðist", "útskúfaðist"],
+					"ft": ["útskúfuðumst", "útskúfuðust", "útskúfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskúfist", "útskúfist", "útskúfist"],
+					"ft": ["útskúfumst", "útskúfist", "útskúfist"]
+				},
+				"þátíð": {
+					"et": ["útskúfaðist", "útskúfaðist", "útskúfaðist"],
+					"ft": ["útskúfuðumst", "útskúfuðust", "útskúfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskúfastu"
+				},
+				"þátíð": {
+					"et": "útskúfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskúfistu"
+				},
+				"þátíð": {
+					"et": "útskúfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útskúfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útskúfaður", "útskúfaðan", "útskúfuðum", "útskúfaðs"],
+					"kvk": ["útskúfuð", "útskúfaða", "útskúfaðri", "útskúfaðrar"],
+					"hk": ["útskúfað", "útskúfað", "útskúfuðu", "útskúfaðs"]
+				},
+				"ft": {
+					"kk": ["útskúfaðir", "útskúfaða", "útskúfuðum", "útskúfaðra"],
+					"kvk": ["útskúfaðar", "útskúfaðar", "útskúfuðum", "útskúfaðra"],
+					"hk": ["útskúfuð", "útskúfuð", "útskúfuðum", "útskúfaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útskúfaði", "útskúfaða", "útskúfaða", "útskúfaða"],
+					"kvk": ["útskúfaða", "útskúfuðu", "útskúfuðu", "útskúfuðu"],
+					"hk": ["útskúfaða", "útskúfaða", "útskúfaða", "útskúfaða"]
+				},
+				"ft": {
+					"kk": ["útskúfuðu", "útskúfuðu", "útskúfuðu", "útskúfuðu"],
+					"kvk": ["útskúfuðu", "útskúfuðu", "útskúfuðu", "útskúfuðu"],
+					"hk": ["útskúfuðu", "útskúfuðu", "útskúfuðu", "útskúfuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útskúfa",
+	"hash": "538d14a5c30433ae5fe2b9fd00bb4c700449640b4f718d3bd96d15836b83c6a1"
+}
