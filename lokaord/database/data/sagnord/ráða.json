@@ -1,0 +1,136 @@
+{
+	"orð": "ráða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ráða",
+		"sagnbót": "ráðið",
+		"boðháttur": {
+			"stýfður": "ráð",
+			"et": "ráddu",
+			"ft": "ráðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ræð", "ræður", "ræður"],
+					"ft": ["ráðum", "ráðið", "ráða"]
+				},
+				"þátíð": {
+					"et": ["réð", "réðst", "réð"],
+					"ft": ["réðum", "réðuð", "réðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ráði", "ráðir", "ráði"],
+					"ft": ["ráðum", "ráðið", "ráði"]
+				},
+				"þátíð": {
+					"et": ["réði", "réðir", "réði"],
+					"ft": ["réðum", "réðuð", "réðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ræðurðu",
+					"ft": "ráðiði"
+				},
+				"þátíð": {
+					"et": "réðstu",
+					"ft": "réðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ráðirðu",
+					"ft": "ráðiði"
+				},
+				"þátíð": {
+					"et": "réðirðu",
+					"ft": "réðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ráðast",
+		"sagnbót": "ráðist",
+		"boðháttur": {
+			"et": "ráðstu",
+			"ft": "ráðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ræðst", "ræðst", "ræðst"],
+					"ft": ["ráðumst", "ráðist", "ráðast"]
+				},
+				"þátíð": {
+					"et": ["réðst", "réðst", "réðst"],
+					"ft": ["réðumst", "réðust", "réðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ráðist", "ráðist", "ráðist"],
+					"ft": ["ráðumst", "ráðist", "ráðist"]
+				},
+				"þátíð": {
+					"et": ["réðist", "réðist", "réðist"],
+					"ft": ["réðumst", "réðust", "réðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ræðstu"
+				},
+				"þátíð": {
+					"et": "réðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ráðistu"
+				},
+				"þátíð": {
+					"et": "réðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ráðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ráðinn", "ráðinn", "ráðnum", "ráðins"],
+					"kvk": ["ráðin", "ráðna", "ráðinni", "ráðinnar"],
+					"hk": ["ráðið", "ráðið", "ráðnu", "ráðins"]
+				},
+				"ft": {
+					"kk": ["ráðnir", "ráðna", "ráðnum", "ráðinna"],
+					"kvk": ["ráðnar", "ráðnar", "ráðnum", "ráðinna"],
+					"hk": ["ráðin", "ráðin", "ráðnum", "ráðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ráðni", "ráðna", "ráðna", "ráðna"],
+					"kvk": ["ráðna", "ráðnu", "ráðnu", "ráðnu"],
+					"hk": ["ráðna", "ráðna", "ráðna", "ráðna"]
+				},
+				"ft": {
+					"kk": ["ráðnu", "ráðnu", "ráðnu", "ráðnu"],
+					"kvk": ["ráðnu", "ráðnu", "ráðnu", "ráðnu"],
+					"hk": ["ráðnu", "ráðnu", "ráðnu", "ráðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ráða",
+	"hash": "abfd62bc2a08e1c016f78194294d867a7292d8f1f6e9735c3538b5eae08b6eb5"
+}
