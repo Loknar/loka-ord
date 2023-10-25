@@ -1,0 +1,99 @@
+{
+	"orð": "yfirfara",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-fara"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirfara",
+		"sagnbót": "yfirfarið",
+		"boðháttur": {
+			"stýfður": "yfirfar",
+			"et": "yfirfarðu",
+			"ft": "yfirfarið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirfer", "yfirferð", "yfirfer"],
+					"ft": ["yfirförum", "yfirfarið", "yfirfara"]
+				},
+				"þátíð": {
+					"et": ["yfirfór", "yfirfórst", "yfirfór"],
+					"ft": ["yfirfórum", "yfirfóruð", "yfirfóru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirfari", "yfirfarir", "yfirfari"],
+					"ft": ["yfirförum", "yfirfarið", "yfirfari"]
+				},
+				"þátíð": {
+					"et": ["yfirfæri", "yfirfærir", "yfirfæri"],
+					"ft": ["yfirfærum", "yfirfæruð", "yfirfæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirferðu",
+					"ft": "yfirfariði"
+				},
+				"þátíð": {
+					"et": "yfirfórstu",
+					"ft": "yfirfóruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirfarirðu",
+					"ft": "yfirfariði"
+				},
+				"þátíð": {
+					"et": "yfirfærirðu",
+					"ft": "yfirfæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirfarandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirfarinn", "yfirfarinn", "yfirförnum", "yfirfarins"],
+					"kvk": ["yfirfarin", "yfirfarna", "yfirfarinni", "yfirfarinnar"],
+					"hk": ["yfirfarið", "yfirfarið", "yfirförnu", "yfirfarins"]
+				},
+				"ft": {
+					"kk": ["yfirfarnir", "yfirfarna", "yfirförnum", "yfirfarinna"],
+					"kvk": ["yfirfarnar", "yfirfarnar", "yfirförnum", "yfirfarinna"],
+					"hk": ["yfirfarin", "yfirfarin", "yfirförnum", "yfirfarinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["yfirfarni", "yfirfarna", "yfirfarna", "yfirfarna"],
+					"kvk": ["yfirfarna", "yfirförnu", "yfirförnu", "yfirförnu"],
+					"hk": ["yfirfarna", "yfirfarna", "yfirfarna", "yfirfarna"]
+				},
+				"ft": {
+					"kk": ["yfirförnu", "yfirförnu", "yfirförnu", "yfirförnu"],
+					"kvk": ["yfirförnu", "yfirförnu", "yfirförnu", "yfirförnu"],
+					"hk": ["yfirförnu", "yfirförnu", "yfirförnu", "yfirförnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirfara",
+	"hash": "eae6f31b43a93137f230dba0d47a9867cfda796ee6a39a69f1590702b29d9430"
+}
