@@ -1,0 +1,48 @@
+{
+	"orð": "einkennisklæddur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "kennis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kenni-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-klæddur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["einkennisklæddur", "einkennisklæddan", "einkennisklæddum", "einkennisklædds"],
+				"kvk": ["einkennisklædd", "einkennisklædda", "einkennisklæddri", "einkennisklæddrar"],
+				"hk": ["einkennisklætt", "einkennisklætt", "einkennisklæddu", "einkennisklædds"]
+			},
+			"ft": {
+				"kk": ["einkennisklæddir", "einkennisklædda", "einkennisklæddum", "einkennisklæddra"],
+				"kvk": ["einkennisklæddar", "einkennisklæddar", "einkennisklæddum", "einkennisklæddra"],
+				"hk": ["einkennisklædd", "einkennisklædd", "einkennisklæddum", "einkennisklæddra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["einkennisklæddi", "einkennisklædda", "einkennisklædda", "einkennisklædda"],
+				"kvk": ["einkennisklædda", "einkennisklæddu", "einkennisklæddu", "einkennisklæddu"],
+				"hk": ["einkennisklædda", "einkennisklædda", "einkennisklædda", "einkennisklædda"]
+			},
+			"ft": {
+				"kk": ["einkennisklæddu", "einkennisklæddu", "einkennisklæddu", "einkennisklæddu"],
+				"kvk": ["einkennisklæddu", "einkennisklæddu", "einkennisklæddu", "einkennisklæddu"],
+				"hk": ["einkennisklæddu", "einkennisklæddu", "einkennisklæddu", "einkennisklæddu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-einkennisklæddur",
+	"hash": "8ee60d44db177e4c987b317ba4bbb1e91f4bc8aaacbd3167a943887b340a0a3f"
+}

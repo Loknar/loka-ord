@@ -1,0 +1,88 @@
+{
+	"orð": "rækja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "rækja",
+		"sagnbót": "rækt",
+		"boðháttur": {
+			"stýfður": "ræk",
+			"et": "ræktu",
+			"ft": "rækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ræki", "rækir", "rækir"],
+					"ft": ["rækjum", "rækið", "rækja"]
+				},
+				"þátíð": {
+					"et": ["rækti", "ræktir", "rækti"],
+					"ft": ["ræktum", "ræktuð", "ræktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ræki", "rækir", "ræki"],
+					"ft": ["rækjum", "rækið", "ræki"]
+				},
+				"þátíð": {
+					"et": ["rækti", "ræktir", "rækti"],
+					"ft": ["ræktum", "ræktuð", "ræktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rækirðu",
+					"ft": "rækiði"
+				},
+				"þátíð": {
+					"et": "ræktirðu",
+					"ft": "ræktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rækirðu",
+					"ft": "rækiði"
+				},
+				"þátíð": {
+					"et": "ræktirðu",
+					"ft": "ræktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rækjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ræktur", "ræktan", "ræktum", "rækts"],
+					"kvk": ["rækt", "rækta", "ræktri", "ræktrar"],
+					"hk": ["rækt", "rækt", "ræktu", "rækts"]
+				},
+				"ft": {
+					"kk": ["ræktir", "rækta", "ræktum", "ræktra"],
+					"kvk": ["ræktar", "ræktar", "ræktum", "ræktra"],
+					"hk": ["rækt", "rækt", "ræktum", "ræktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["rækti", "rækta", "rækta", "rækta"],
+					"kvk": ["rækta", "ræktu", "ræktu", "ræktu"],
+					"hk": ["rækta", "rækta", "rækta", "rækta"]
+				},
+				"ft": {
+					"kk": ["ræktu", "ræktu", "ræktu", "ræktu"],
+					"kvk": ["ræktu", "ræktu", "ræktu", "ræktu"],
+					"hk": ["ræktu", "ræktu", "ræktu", "ræktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rækja",
+	"hash": "8573e1c2856bdb9a4cf34aab4bcaa22399ea4b085f0359093219e1f20b7ddad0"
+}

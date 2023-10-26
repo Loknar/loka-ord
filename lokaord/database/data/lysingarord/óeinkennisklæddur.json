@@ -1,0 +1,53 @@
+{
+	"orð": "óeinkennisklæddur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "kennis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kenni-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-klæddur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["óeinkennisklæddur", "óeinkennisklæddan", "óeinkennisklæddum", "óeinkennisklædds"],
+				"kvk": ["óeinkennisklædd", "óeinkennisklædda", "óeinkennisklæddri", "óeinkennisklæddrar"],
+				"hk": ["óeinkennisklætt", "óeinkennisklætt", "óeinkennisklæddu", "óeinkennisklædds"]
+			},
+			"ft": {
+				"kk": ["óeinkennisklæddir", "óeinkennisklædda", "óeinkennisklæddum", "óeinkennisklæddra"],
+				"kvk": ["óeinkennisklæddar", "óeinkennisklæddar", "óeinkennisklæddum", "óeinkennisklæddra"],
+				"hk": ["óeinkennisklædd", "óeinkennisklædd", "óeinkennisklæddum", "óeinkennisklæddra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["óeinkennisklæddi", "óeinkennisklædda", "óeinkennisklædda", "óeinkennisklædda"],
+				"kvk": ["óeinkennisklædda", "óeinkennisklæddu", "óeinkennisklæddu", "óeinkennisklæddu"],
+				"hk": ["óeinkennisklædda", "óeinkennisklædda", "óeinkennisklædda", "óeinkennisklædda"]
+			},
+			"ft": {
+				"kk": ["óeinkennisklæddu", "óeinkennisklæddu", "óeinkennisklæddu", "óeinkennisklæddu"],
+				"kvk": ["óeinkennisklæddu", "óeinkennisklæddu", "óeinkennisklæddu", "óeinkennisklæddu"],
+				"hk": ["óeinkennisklæddu", "óeinkennisklæddu", "óeinkennisklæddu", "óeinkennisklæddu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-óeinkennisklæddur",
+	"hash": "b505997072071a4912509c0f9398dca0c31c009c9fe2b8b254d88c05cc923927"
+}

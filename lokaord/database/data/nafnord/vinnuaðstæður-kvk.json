@@ -1,0 +1,27 @@
+{
+	"orð": "vinnuaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vinnuaðstæður", "vinnuaðstæður", "vinnuaðstæðum", "vinnuaðstæðna"],
+		"mg": ["vinnuaðstæðurnar", "vinnuaðstæðurnar", "vinnuaðstæðunum", "vinnuaðstæðnanna"]
+	},
+	"kennistrengur": "no-vinnuaðstæður-kvk",
+	"hash": "6c76c686b8ab319d62b9041880c09efcceaffaa7e326a5b76cf3f0942c0431a7"
+}
