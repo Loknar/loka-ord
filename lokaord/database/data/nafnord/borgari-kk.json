@@ -2,6 +2,16 @@
 	"orð": "borgari",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "borg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-borg-kvk"
+		},
+		{
+			"kennistrengur": "no-ari-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["borgari", "borgara", "borgara", "borgara"],
 		"mg": ["borgarinn", "borgarann", "borgaranum", "borgarans"]
@@ -11,5 +21,5 @@
 		"mg": ["borgararnir", "borgarana", "borgurunum", "borgaranna"]
 	},
 	"kennistrengur": "no-borgari-kk",
-	"hash": "f3cd61706ab56cbffe63c87699956a23a4658a8d2b92beb58d049b538a658479"
+	"hash": "b0960a5afc1dab4d2189ed63cfcf84febd986a8af7c74a7e394c0303c42a68c3"
 }

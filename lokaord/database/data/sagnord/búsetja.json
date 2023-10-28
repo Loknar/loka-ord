@@ -1,0 +1,99 @@
+{
+	"orð": "búsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bú",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bú-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "búsetja",
+		"sagnbót": "búsett",
+		"boðháttur": {
+			"stýfður": "búset",
+			"et": "búsettu",
+			"ft": "búsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["búset", "búsetur", "búsetur"],
+					"ft": ["búsetjum", "búsetjið", "búsetja"]
+				},
+				"þátíð": {
+					"et": ["búsetti", "búsettir", "búsett"],
+					"ft": ["búsettum", "búsettuð", "búsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búsetji", "búsetjir", "búsetji"],
+					"ft": ["búsetjum", "búsetjið", "búsetji"]
+				},
+				"þátíð": {
+					"et": ["búsetti", "búsettir", "búsetti"],
+					"ft": ["búsettum", "búsettuð", "búsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "búseturðu",
+					"ft": "búsetjiði"
+				},
+				"þátíð": {
+					"et": "búsettirðu",
+					"ft": "búsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "búsetjirðu",
+					"ft": "búsetjiði"
+				},
+				"þátíð": {
+					"et": "búsettirðu",
+					"ft": "búsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "búsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["búsettur", "búsettan", "búsettum", "búsetts"],
+					"kvk": ["búsett", "búsetta", "búsettri", "búsettrar"],
+					"hk": ["búsett", "búsett", "búsettu", "búsetts"]
+				},
+				"ft": {
+					"kk": ["búsettir", "búsetta", "búsettum", "búsettra"],
+					"kvk": ["búsettar", "búsettar", "búsettum", "búsettra"],
+					"hk": ["búsett", "búsett", "búsettum", "búsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["búsetti", "búsetta", "búsetta", "búsetta"],
+					"kvk": ["búsetta", "búsettu", "búsettu", "búsettu"],
+					"hk": ["búsetta", "búsetta", "búsetta", "búsetta"]
+				},
+				"ft": {
+					"kk": ["búsettu", "búsettu", "búsettu", "búsettu"],
+					"kvk": ["búsettu", "búsettu", "búsettu", "búsettu"],
+					"hk": ["búsettu", "búsettu", "búsettu", "búsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-búsetja",
+	"hash": "6d3280b609347ea92c3b37eda153fa4ab4e204bee27f7692d2a4cd350ea58a27"
+}
