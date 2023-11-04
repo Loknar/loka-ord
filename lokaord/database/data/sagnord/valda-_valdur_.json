@@ -1,0 +1,84 @@
+{
+	"orð": "valda",
+	"flokkur": "sagnorð",
+	"merking": "valdur",
+	"germynd": {
+		"nafnháttur": "valda",
+		"sagnbót": "valdið",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veld", "veldur", "veldur"],
+					"ft": ["völdum", "valdið", "valda"]
+				},
+				"þátíð": {
+					"et": ["ołli", "ołlir", "ołli"],
+					"ft": ["ołlum", "ołluð", "ołlu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["valdi", "valdir", "valdi"],
+					"ft": ["völdum", "valdið", "valdi"]
+				},
+				"þátíð": {
+					"et": ["yłli", "yłlir", "yłli"],
+					"ft": ["yłlum", "yłluð", "yłlu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veldurðu",
+					"ft": "valdiði"
+				},
+				"þátíð": {
+					"et": "ołlirðu",
+					"ft": "ołluði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "valdirðu",
+					"ft": "valdiði"
+				},
+				"þátíð": {
+					"et": "yłlirðu",
+					"ft": "yłluði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "valdandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["valdur", "valdan", "völdum", "valdins"],
+					"kvk": ["völd", "valda", "valdri", "valdrar"],
+					"hk": ["valt", "valt", "völdu", "valds"]
+				},
+				"ft": {
+					"kk": ["valdir", "valda", "völdum", "valdra"],
+					"kvk": ["valdar", "valdar", "völdum", "valdra"],
+					"hk": ["völd", "völd", "völdum", "valdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["valdi", "valda", "valda", "valda"],
+					"kvk": ["valda", "valdu", "valdu", "valdu"],
+					"hk": ["valda", "valda", "valda", "valda"]
+				},
+				"ft": {
+					"kk": ["valdu", "valdu", "valdu", "valdu"],
+					"kvk": ["valdu", "valdu", "valdu", "valdu"],
+					"hk": ["valdu", "valdu", "valdu", "valdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-valda-_valdur_",
+	"hash": "555145f467d413df80ba1291ab1dd65ccc3ca66d17b7bf5f41633a7423ab133c"
+}

@@ -2,6 +2,16 @@
 	"orð": "aðildarfélag",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "aðildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-aðild-kvk"
+		},
+		{
+			"kennistrengur": "no-félag-hk"
+		}
+	],
 	"et": {
 		"ág": ["aðildarfélag", "aðildarfélag", "aðildarfélagi", "aðildarfélags"],
 		"mg": ["aðildarfélagið", "aðildarfélagið", "aðildarfélaginu", "aðildarfélagsins"]
@@ -11,5 +21,5 @@
 		"mg": ["aðildarfélögin", "aðildarfélögin", "aðildarfélögunum", "aðildarfélaganna"]
 	},
 	"kennistrengur": "no-aðildarfélag-hk",
-	"hash": "3c9e70883866081fe939d2ee84e32f992f618dbddaaedd2bead58d53bdebc25f"
+	"hash": "b135aabb3be8811f7f4fa5d4cb99f0048281d87981dfd15d9fd7b9e3fbab76bb"
 }

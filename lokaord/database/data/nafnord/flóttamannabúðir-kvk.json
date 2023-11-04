@@ -1,0 +1,27 @@
+{
+	"orð": "flóttamannabúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flótta",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flótti-kk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "stofn",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["flóttamannabúðir", "flóttamannabúðir", "flóttamannabúðum", "flóttamannabúða"],
+		"mg": ["flóttamannabúðirnar", "flóttamannabúðirnar", "flóttamannabúðunum", "flóttamannabúðanna"]
+	},
+	"kennistrengur": "no-flóttamannabúðir-kvk",
+	"hash": "72678d313ff00c5ad0da21f81dfb51e24788806816321abed19dbccb3014ae20"
+}

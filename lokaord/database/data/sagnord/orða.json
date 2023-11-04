@@ -1,0 +1,132 @@
+{
+	"orð": "orða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "orða",
+		"sagnbót": "orðað",
+		"boðháttur": {
+			"stýfður": "orða",
+			"et": "orðaðu",
+			"ft": "orðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orða", "orðar", "orðar"],
+					"ft": ["orðum", "orðið", "orða"]
+				},
+				"þátíð": {
+					"et": ["orðaði", "orðaðir", "orðaði"],
+					"ft": ["orðuðum", "orðuðu", "orðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orði", "orðir", "orði"],
+					"ft": ["orðum", "orðið", "orði"]
+				},
+				"þátíð": {
+					"et": ["orðaði", "orðaðir", "orðaði"],
+					"ft": ["orðuðum", "orðuðuð", "orðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orðarðu",
+					"ft": "orðiði"
+				},
+				"þátíð": {
+					"et": "orðaðirðu",
+					"ft": "orðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orðirðu",
+					"ft": "orðiði"
+				},
+				"þátíð": {
+					"et": "orðaðirðu",
+					"ft": "orðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "orðast",
+		"sagnbót": "orðast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orðast", "orðast", "orðast"],
+					"ft": ["orðumst", "orðist", "orðast"]
+				},
+				"þátíð": {
+					"et": ["orðaðist", "orðaðist", "orðaðist"],
+					"ft": ["orðuðumst", "orðuðust", "orðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orðist", "orðist", "orðist"],
+					"ft": ["orðumst", "orðist", "orðist"]
+				},
+				"þátíð": {
+					"et": ["orðaðist", "orðaðist", "orðaðist"],
+					"ft": ["orðuðumst", "orðuðust", "orðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orðastu"
+				},
+				"þátíð": {
+					"et": "orðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orðistu"
+				},
+				"þátíð": {
+					"et": "orðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "orðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["orðaður", "orðaðan", "orðuðum", "orðaðs"],
+					"kvk": ["orðuð", "orðaða", "orðaðri", "orðaðrar"],
+					"hk": ["orðað", "orðað", "orðuðu", "orðaðs"]
+				},
+				"ft": {
+					"kk": ["orðaðir", "orðaða", "orðuðum", "orðaðra"],
+					"kvk": ["orðaðar", "orðaðar", "orðuðum", "orðaðra"],
+					"hk": ["orðuð", "orðuð", "orðuðum", "orðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["orðaði", "orðaða", "orðaða", "orðaða"],
+					"kvk": ["orðaða", "orðuðu", "orðuðu", "orðuðu"],
+					"hk": ["orðaða", "orðaða", "orðaða", "orðaða"]
+				},
+				"ft": {
+					"kk": ["orðuðu", "orðuðu", "orðuðu", "orðuðu"],
+					"kvk": ["orðuðu", "orðuðu", "orðuðu", "orðuðu"],
+					"hk": ["orðuðu", "orðuðu", "orðuðu", "orðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-orða",
+	"hash": "9723ec98352cdc778be093cbbc54b13ec7713332b63309c8a38f30e35df6fd0c"
+}

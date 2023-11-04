@@ -1,0 +1,114 @@
+{
+	"orð": "grípa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "grípa",
+		"sagnbót": "gripið",
+		"boðháttur": {
+			"stýfður": "gríp",
+			"et": "gríptu",
+			"ft": "grípið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gríp", "grípur", "grípur"],
+					"ft": ["grípum", "grípið", "grípa"]
+				},
+				"þátíð": {
+					"et": ["greip", "greipst", "greip"],
+					"ft": ["gripum", "gripuð", "gripu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grípi", "grípir", "grípi"],
+					"ft": ["grípum", "grípið", "grípi"]
+				},
+				"þátíð": {
+					"et": ["gripi", "gripir", "gripi"],
+					"ft": ["gripum", "gripuð", "gripu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grípurðu",
+					"ft": "grípiði"
+				},
+				"þátíð": {
+					"et": "greipstu",
+					"ft": "gripuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grípirðu",
+					"ft": "grípiði"
+				},
+				"þátíð": {
+					"et": "gripirðu",
+					"ft": "gripuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "grípast",
+		"sagnbót": "gripist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grípst", "grípst", "grípst"],
+					"ft": ["rípumst", "grípist", "grípast"]
+				},
+				"þátíð": {
+					"et": ["greipst", "greipst", "greipst"],
+					"ft": ["gripumst", "gripust", "gripust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grípist", "grípist", "grípist"],
+					"ft": ["grípumst", "grípist", "grípist"]
+				},
+				"þátíð": {
+					"et": ["gripist", "gripist", "gripist"],
+					"ft": ["gripumst", "gripust", "gripust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grípandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gripinn", "gripinn", "gripnum", "gripins"],
+					"kvk": ["gripin", "gripna", "gripinni", "gripinnar"],
+					"hk": ["gripið", "gripið", "gripnu", "gripins"]
+				},
+				"ft": {
+					"kk": ["gripnir", "gripna", "gripnum", "gripinna"],
+					"kvk": ["gripnar", "gripnar", "gripnum", "gripinna"],
+					"hk": ["gripin", "gripin", "gripnum", "gripinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gripni", "gripna", "gripna", "gripna"],
+					"kvk": ["gripna", "gripnu", "gripnu", "gripnu"],
+					"hk": ["gripna", "gripna", "gripna", "gripna"]
+				},
+				"ft": {
+					"kk": ["gripnu", "gripnu", "gripnu", "gripnu"],
+					"kvk": ["gripnu", "gripnu", "gripnu", "gripnu"],
+					"hk": ["gripnu", "gripnu", "gripnu", "gripnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-grípa",
+	"hash": "e6d74b54070ef07fbb41a2c695ffdd36302f0f5a2fcacc1408a347285b090915"
+}
