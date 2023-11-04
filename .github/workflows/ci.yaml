@@ -40,3 +40,5 @@ jobs:
           python main.py md-stats
           # ganga úr skugga um að orð séu óbreytt eftir smíði
           python main.py assert-clean-git
+          # keyra webpack, nemur kennistrengur endurtekningar
+          python main.py webpack
