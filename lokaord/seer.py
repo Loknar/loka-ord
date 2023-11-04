@@ -546,7 +546,7 @@ def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
         raise Exception('Peculiar ord_data type.')
 
 
-def webpack(words_per_pack: int = 3000):
+def webpack(words_per_pack: int = 3000, include_hashes: bool = True):
     """
     Pack lokaorð JSON datafiles to more compact JSON datafiles suitable for webclient usage.
     """
@@ -606,9 +606,12 @@ def webpack(words_per_pack: int = 3000):
         for ord_file in sorted(pathlib.Path(ord_dir_abs).iterdir()):
             file_queue.append(os.path.join(ord_dir_abs, ord_file.name))
     packs_count = math.ceil(len(file_queue) / words_per_pack)
+    remove_keys = []
+    if not include_hashes:
+        remove_keys.append('hash')
     samsett_ord_keep_keys = [
-        'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
-        'kennistrengur', 'ósjálfstætt', 'stýrir', 'fleiryrt'
+        'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'kennistrengur',
+        'hash', 'ósjálfstætt', 'stýrir', 'fleiryrt'
     ]
     logman.info('Packing words ..')
     for pack in range(1, packs_count + 1):
@@ -630,11 +633,16 @@ def webpack(words_per_pack: int = 3000):
             ord_data = None
             with open(file_path, 'r', encoding='utf-8') as fi:
                 ord_data = json.loads(fi.read())
+            # make sure kennistrengur is unique
+            if ord_data['kennistrengur'] in added_kennistrengir:
+                raise Exception('Already added? (%s)' % (ord_data['kennistrengur'], ))
+            # remove unwanted keys
+            for key in sorted(ord_data.keys()):
+                if key in remove_keys:
+                    del ord_data[key]
             # check if orð is samsett, just add it if it's not samsett
             if 'samsett' not in ord_data:
                 webpack_data['orð'].append(ord_data)
-                if ord_data['kennistrengur'] in added_kennistrengir:
-                    raise Exception('Already added? (%s)' % (ord_data['kennistrengur'], ))
                 added_kennistrengir.add(ord_data['kennistrengur'])
                 word_count += 1
                 continue
@@ -650,8 +658,6 @@ def webpack(words_per_pack: int = 3000):
                     if key not in samsett_ord_keep_keys:
                         del ord_data[key]
                 webpack_data['orð'].append(ord_data)
-                if ord_data['kennistrengur'] in added_kennistrengir:
-                    raise Exception('Already added? (%s)' % (ord_data['kennistrengur'], ))
                 added_kennistrengir.add(ord_data['kennistrengur'])
                 word_count += 1
                 continue
