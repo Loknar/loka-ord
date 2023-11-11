@@ -1,0 +1,88 @@
+{
+	"orð": "gjósa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gjósa",
+		"sagnbót": "gosið",
+		"boðháttur": {
+			"stýfður": "gjós",
+			"et": "gjóstu",
+			"ft": "gjósið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gýs", "gýst", "gýs"],
+					"ft": ["gjósum", "gjósið", "gjósa"]
+				},
+				"þátíð": {
+					"et": ["gaus", "gaust", "gaus"],
+					"ft": ["gusum", "gusuð", "gusu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjósi", "gjósir", "gjósi"],
+					"ft": ["gjósum", "gjósið", "gjósi"]
+				},
+				"þátíð": {
+					"et": ["gysi", "gysir", "gysi"],
+					"ft": ["gysum", "gysuð", "gysu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gýstu",
+					"ft": "gjósiði"
+				},
+				"þátíð": {
+					"et": "gaustu",
+					"ft": "gusuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjósirðu",
+					"ft": "gjósiði"
+				},
+				"þátíð": {
+					"et": "gysirðu",
+					"ft": "gysuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjósandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gosinn", "gosinn", "gosnum", "gosins"],
+					"kvk": ["gosin", "gosna", "gosinni", "gosinnar"],
+					"hk": ["gosið", "gosið", "gosnu", "gosins"]
+				},
+				"ft": {
+					"kk": ["gosnir", "gosna", "gosnum", "gosinna"],
+					"kvk": ["gosnar", "gosnar", "gosnum", "gosinna"],
+					"hk": ["gosin", "gosin", "gosnum", "gosinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gosni", "gosna", "gosna", "gosna"],
+					"kvk": ["gosna", "gosnu", "gosnu", "gosnu"],
+					"hk": ["gosna", "gosna", "gosna", "gosna"]
+				},
+				"ft": {
+					"kk": ["gosnu", "gosnu", "gosnu", "gosnu"],
+					"kvk": ["gosnu", "gosnu", "gosnu", "gosnu"],
+					"hk": ["gosnu", "gosnu", "gosnu", "gosnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjósa",
+	"hash": "bacfeb6a8233d199028d553544369b538d9323dbc5c263d65a8f952c5f46af3f"
+}
