@@ -1,0 +1,27 @@
+{
+	"orð": "gjaldþrotaskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "þrota",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þrot-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["gjaldþrotaskipti", "gjaldþrotaskipti", "gjaldþrotaskiptum", "gjaldþrotaskipta"],
+		"mg": ["gjaldþrotaskiptin", "gjaldþrotaskiptin", "gjaldþrotaskiptunum", "gjaldþrotaskiptanna"]
+	},
+	"kennistrengur": "no-gjaldþrotaskipti-hk",
+	"hash": "dc631425b0b9a7d8f290f9c10aa58ee843e8b1f43ccc470d044221953d4fbb83"
+}

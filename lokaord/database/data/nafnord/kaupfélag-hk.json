@@ -2,6 +2,16 @@
 	"orð": "kaupfélag",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"kennistrengur": "no-félag-hk"
+		}
+	],
 	"et": {
 		"ág": ["kaupfélag", "kaupfélag", "kaupfélagi", "kaupfélags"],
 		"mg": ["kaupfélagið", "kaupfélagið", "kaupfélaginu", "kaupfélagsins"]
@@ -11,5 +21,5 @@
 		"mg": ["kaupfélögin", "kaupfélögin", "kaupfélögunum", "kaupfélaganna"]
 	},
 	"kennistrengur": "no-kaupfélag-hk",
-	"hash": "d688fcd96ba6f4cefe125f45665566b338c91221770e19f448af5f5fcb976670"
+	"hash": "052522bb632cb2d488716bbb2a722a7c02c66527788307a022c10ec7219df687"
 }

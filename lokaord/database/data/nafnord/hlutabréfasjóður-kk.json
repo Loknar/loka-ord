@@ -1,0 +1,30 @@
+{
+	"orð": "hlutabréfasjóður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-sjóður-kk"
+		}
+	],
+	"et": {
+		"ág": ["hlutabréfasjóður", "hlutabréfasjóð", "hlutabréfasjóð", "hlutabréfasjóðs"],
+		"mg": ["hlutabréfasjóðurinn", "hlutabréfasjóðinn", "hlutabréfasjóðnum", "hlutabréfasjóðsins"]
+	},
+	"ft": {
+		"ág": ["hlutabréfasjóðir", "hlutabréfasjóði", "hlutabréfasjóðum", "hlutabréfasjóða"],
+		"mg": ["hlutabréfasjóðirnir", "hlutabréfasjóðina", "hlutabréfasjóðunum", "hlutabréfasjóðanna"]
+	},
+	"kennistrengur": "no-hlutabréfasjóður-kk",
+	"hash": "67512bcc54230607fb70af1c3c9e31e900abcd7cf0740a0cfb490989e68bf129"
+}
