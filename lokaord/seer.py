@@ -176,13 +176,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
                     })
                 maybe += 1
                 break
-            elif e_word_p.isdigit():
-                scanned_word['orð-hreinsað'] = e_word_p
-                scanned_word['staða'] = 'tala'
-                break
-            elif (
-                len(e_word_p) >= 5 and e_word_p[-4] == '.' and e_word_p.replace('.', '').isdigit()
-            ):
+            elif check_if_string_is_number(e_word_p):
                 scanned_word['orð-hreinsað'] = e_word_p
                 scanned_word['staða'] = 'tala'
                 break
@@ -746,3 +740,23 @@ def clean_string(mystr: str) -> str:
     for remove_char in remove_chars:
         cleaned_str = cleaned_str.replace(remove_char, '')
     return cleaned_str
+
+
+def check_if_string_is_number(mystr: str) -> bool:
+    '''
+    couple of checks to determine if string contains number
+    todo: improve maybe
+    '''
+    if mystr.isdigit():
+        return True
+    if len(mystr) >= 5 and mystr[-4] == '.' and mystr.replace('.', '', 1).isdigit():
+        # example: 100.000
+        # might wanna add checks for 1.000.000 too?
+        return True
+    try:
+        float(mystr.replace(',', '.', 1))
+        return True
+    except ValueError:
+        pass
+    # more checks?
+    return False
