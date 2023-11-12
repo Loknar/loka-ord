@@ -149,6 +149,20 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
             found += 1
             scanned_sentence.append(scanned_word)
             continue
+        elif word[-1] in onhanging_chars and word[:-1] in sight['skammstafanir']:
+            myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word[:-1]]['myndir']])
+            scanned_word['staða'] = 'skammstöfun'
+            scanned_word['orð-hreinsað'] = word[:-1]
+            scanned_word['fylgir'] = word[-1]
+            scanned_word['möguleikar'].append({
+                'm': myndir,
+                'k': sight['skammstafanir'][word[:-1]]['kennistrengur'],
+                'h': sight['skammstafanir'][word[:-1]]['hash'],
+                'f': sight['hash'][sight['skammstafanir'][word[:-1]]['hash']]['f']
+            })
+            found += 1
+            scanned_sentence.append(scanned_word)
+            continue
         elif e_word in sight['skammstafanir']:
             myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][e_word]['myndir']])
             scanned_word['orð-hreinsað'] = e_word
