@@ -1,0 +1,32 @@
+{
+	"orð": "Dýraverndarsamband",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "Dýra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dýr-hk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-band-hk"
+		}
+	],
+	"et": {
+		"ág": ["Dýraverndarsamband", "Dýraverndarsamband", "Dýraverndarsambandi", "Dýraverndarsambands"]
+	},
+	"kennistrengur": "sérn.ön-Dýraverndarsamband-hk",
+	"hash": "111c67cd451409cafac4ca3b34c043657f3d908cd3940c999989584b05456212"
+}

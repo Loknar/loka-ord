@@ -1,0 +1,132 @@
+{
+	"orð": "stjórna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stjórna",
+		"sagnbót": "stjórnað",
+		"boðháttur": {
+			"stýfður": "stjórna",
+			"et": "stjórnaðu",
+			"ft": "stjórnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stjórna", "stjórnar", "stjórnar"],
+					"ft": ["stjórnum", "stjórnið", "stjórna"]
+				},
+				"þátíð": {
+					"et": ["stjórnaði", "stjórnaðir", "stjórnaði"],
+					"ft": ["stjórnuðum", "stjórnuðuð", "stjórnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stjórni", "stjórnir", "stjórni"],
+					"ft": ["stjórnum", "stjórnið", "stjórni"]
+				},
+				"þátíð": {
+					"et": ["stjórnaði", "stjórnaðir", "stjórnaði"],
+					"ft": ["stjórnuðum", "stjórnuðuð", "stjórnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stjórnarðu",
+					"ft": "stjórniði"
+				},
+				"þátíð": {
+					"et": "stjórnaðirðu",
+					"ft": "stjórnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stjórnirðu",
+					"ft": "stjórniði"
+				},
+				"þátíð": {
+					"et": "stjórnaðirðu",
+					"ft": "stjórnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stjórnast",
+		"sagnbót": "stjórnast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stjórnast", "stjórnast", "stjórnast"],
+					"ft": ["stjórnumst", "stjórnist", "stjórnast"]
+				},
+				"þátíð": {
+					"et": ["stjórnaðist", "stjórnaðist", "stjórnaðist"],
+					"ft": ["stjórnuðumst", "stjórnuðust", "stjórnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stjórnist", "stjórnist", "stjórnist"],
+					"ft": ["stjórnumst", "stjórnist", "stjórnist"]
+				},
+				"þátíð": {
+					"et": ["stjórnaðist", "stjórnaðist", "stjórnaðist"],
+					"ft": ["stjórnuðumst", "stjórnuðust", "stjórnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stjórnastu"
+				},
+				"þátíð": {
+					"et": "stjórnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stjórnistu"
+				},
+				"þátíð": {
+					"et": "stjórnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stjórnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stjórnaður", "stjórnaðan", "stjórnuðum", "stjórnaðs"],
+					"kvk": ["stjórnuð", "stjórnaða", "stjórnaðri", "stjórnaðrar"],
+					"hk": ["stjórnað", "stjórnað", "stjórnuðu", "stjórnaðs"]
+				},
+				"ft": {
+					"kk": ["stjórnaðir", "stjórnaða", "stjórnuðum", "stjórnaðra"],
+					"kvk": ["stjórnaðar", "stjórnaðar", "stjórnuðum", "stjórnaðra"],
+					"hk": ["stjórnuð", "stjórnuð", "stjórnuðum", "stjórnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stjórnaði", "stjórnaða", "stjórnaða", "stjórnaða"],
+					"kvk": ["stjórnaða", "stjórnuðu", "stjórnuðu", "stjórnuðu"],
+					"hk": ["stjórnaða", "stjórnaða", "stjórnaða", "stjórnaða"]
+				},
+				"ft": {
+					"kk": ["stjórnuðu", "stjórnuðu", "stjórnuðu", "stjórnuðu"],
+					"kvk": ["stjórnuðu", "stjórnuðu", "stjórnuðu", "stjórnuðu"],
+					"hk": ["stjórnuðu", "stjórnuðu", "stjórnuðu", "stjórnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stjórna",
+	"hash": "2d98ec3319a1c957bcd2b0253b381683561694c0d5ea0cd7544ec5db4935b583"
+}
