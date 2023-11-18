@@ -126,8 +126,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "mælandi"
+		"nútíðar": "mælandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mældur", "mældan", "mældum", "mælds"],
+					"kvk": ["mæld", "mælda", "mældri", "mældrar"],
+					"hk": ["mælt", "mælt", "mældu", "mælds"]
+				},
+				"ft": {
+					"kk": ["mældir", "mælda", "mældum", "mældra"],
+					"kvk": ["mældar", "mældar", "mældum", "mældra"],
+					"hk": ["mæld", "mæld", "mældum", "mældra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["mældi", "mælda", "mælda", "mælda"],
+					"kvk": ["mælda", "mældu", "mældu", "mældu"],
+					"hk": ["mælda", "mælda", "mælda", "mælda"]
+				},
+				"ft": {
+					"kk": ["mældu", "mældu", "mældu", "mældu"],
+					"kvk": ["mældu", "mældu", "mældu", "mældu"],
+					"hk": ["mældu", "mældu", "mældu", "mældu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-mæla",
-	"hash": "2ca01f2ae692585851f6c15b2e4fa1e4a068dc5cf9fbe26950c7b3afa0846a81"
+	"hash": "fbeb8621c9a9b54bde2210bc3afd0e71a90a03c6fcac49cdc7f4af9dc2f31656"
 }

@@ -1,0 +1,118 @@
+{
+	"orð": "kæla",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kæla",
+		"sagnbót": "kælt",
+		"boðháttur": {
+			"stýfður": "kæl",
+			"et": "kældu",
+			"ft": "kælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kæli", "kælir", "kælir"],
+					"ft": ["kælum", "kælið", "kæla"]
+				},
+				"þátíð": {
+					"et": ["kældi", "kældir", "kældi"],
+					"ft": ["kældum", "kælduð", "kældu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kæli", "kælir", "kæli"],
+					"ft": ["kælum", "kælið", "kæli"]
+				},
+				"þátíð": {
+					"et": ["kældi", "kældir", "kældi"],
+					"ft": ["kældum", "kælduð", "kældu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kælirðu",
+					"ft": "kæliði"
+				},
+				"þátíð": {
+					"et": "kældirðu",
+					"ft": "kælduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kælirðu",
+					"ft": "kæliði"
+				},
+				"þátíð": {
+					"et": "kældirðu",
+					"ft": "kælduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kælast",
+		"sagnbót": "kælst",
+		"boðháttur": {
+			"et": "kælistu",
+			"ft": "kælist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kælist", "kælist", "kælist"],
+					"ft": ["kælumst", "kælist", "kælast"]
+				},
+				"þátíð": {
+					"et": ["kældist", "kældist", "kældist"],
+					"ft": ["kældumst", "kældust", "kældust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kælist", "kælist", "kælist"],
+					"ft": ["kælumst", "kælist", "kælist"]
+				},
+				"þátíð": {
+					"et": ["kældist", "kældist", "kældist"],
+					"ft": ["kældumst", "kældust", "kældust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kælandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kældur", "kældan", "kældum", "kælds"],
+					"kvk": ["kæld", "kælda", "kældri", "kældrar"],
+					"hk": ["kælt", "kælt", "kældu", "kælds"]
+				},
+				"ft": {
+					"kk": ["kældir", "kælda", "kældum", "kældra"],
+					"kvk": ["kældar", "kældar", "kældum", "kældra"],
+					"hk": ["kæld", "kæld", "kældum", "kældra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kældi", "kælda", "kælda", "kælda"],
+					"kvk": ["kælda", "kældu", "kældu", "kældu"],
+					"hk": ["kælda", "kælda", "kælda", "kælda"]
+				},
+				"ft": {
+					"kk": ["kældu", "kældu", "kældu", "kældu"],
+					"kvk": ["kældu", "kældu", "kældu", "kældu"],
+					"hk": ["kældu", "kældu", "kældu", "kældu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kæla",
+	"hash": "17af1b21b2a2973f23db800a3d7df4abcd423b47162750b3d77f44a1b4c2176b"
+}
