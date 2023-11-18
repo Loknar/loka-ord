@@ -1,0 +1,30 @@
+{
+	"orð": "leiguhúsnæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"kennistrengur": "no-næði-hk"
+		}
+	],
+	"et": {
+		"ág": ["leiguhúsnæði", "leiguhúsnæði", "leiguhúsnæði", "leiguhúsnæðis"],
+		"mg": ["leiguhúsnæðið", "leiguhúsnæðið", "leiguhúsnæðinu", "leiguhúsnæðisins"]
+	},
+	"ft": {
+		"ág": ["leiguhúsnæði", "leiguhúsnæði", "leiguhúsnæðum", "leiguhúsnæða"],
+		"mg": ["leiguhúsnæðin", "leiguhúsnæðin", "leiguhúsnæðunum", "leiguhúsnæðanna"]
+	},
+	"kennistrengur": "no-leiguhúsnæði-hk",
+	"hash": "c0007feb25d68483d84723e0d74106bd974fb58634fd59f00488985e21bb2219"
+}

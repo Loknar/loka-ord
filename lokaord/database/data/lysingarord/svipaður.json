@@ -1,6 +1,16 @@
 {
 	"orð": "svipaður",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "svip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-svipur-kk"
+		},
+		{
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-svipaður",
-	"hash": "2a0461f684944ad272b8a6a7520c2890e6e3294dbd1e9bac0c9563b69a27beeb"
+	"hash": "91459e77c99dbe4f02ce962f30eeb4766fe75c0072c0a20eb4aa4f8dec692a35"
 }

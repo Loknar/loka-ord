@@ -1,0 +1,132 @@
+{
+	"orð": "hlaða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hlaða",
+		"sagnbót": "hlaðið",
+		"boðháttur": {
+			"stýfður": "hlað",
+			"et": "hladdu",
+			"ft": "hlaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hleð", "hleður", "hleður"],
+					"ft": ["hlöðum", "hlaðið", "hlaða"]
+				},
+				"þátíð": {
+					"et": ["hlóð", "hlóðst", "hlóð"],
+					"ft": ["hlóðum", "hlóðuð", "hlóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlaði", "hlaðir", "hlaði"],
+					"ft": ["hlöðum", "hlaðið", "hlaði"]
+				},
+				"þátíð": {
+					"et": ["hlæði", "hlæðir", "hlæði"],
+					"ft": ["hlæðum", "hlæðuð", "hlæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hleðurðu",
+					"ft": "hlaðiði"
+				},
+				"þátíð": {
+					"et": "hlóðstu",
+					"ft": "hlóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlaðirðu",
+					"ft": "hlaðiði"
+				},
+				"þátíð": {
+					"et": "hlæðirðu",
+					"ft": "hlæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hlaðast",
+		"sagnbót": "hlaðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hleðst", "hleðst", "hleðst"],
+					"ft": ["hlöðumst", "hlaðist", "hlaðast"]
+				},
+				"þátíð": {
+					"et": ["hlóðst", "hlóðst", "hlóðst"],
+					"ft": ["hlóðumst", "hlóðust", "hlóðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlaðist", "hlaðist", "hlaðist"],
+					"ft": ["hlöðumst", "hlaðist", "hlaðist"]
+				},
+				"þátíð": {
+					"et": ["hlæðist", "hlæðist", "hlæðist"],
+					"ft": ["hlæðumst", "hlæðust", "hlæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hleðstu"
+				},
+				"þátíð": {
+					"et": "hlóðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlaðistu"
+				},
+				"þátíð": {
+					"et": "hlæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlaðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlaðinn", "hlaðinn", "hlöðnum", "hlaðins"],
+					"kvk": ["hlaðin", "hlaðna", "hlaðinni", "hlaðinnar"],
+					"hk": ["hlaðið", "hlaðið", "hlöðnu", "hlaðins"]
+				},
+				"ft": {
+					"kk": ["hlaðnir", "hlaðna", "hlöðnum", "hlaðinna"],
+					"kvk": ["hlaðnar", "hlaðnar", "hlöðnum", "hlaðinna"],
+					"hk": ["hlaðin", "hlaðin", "hlöðnum", "hlaðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hlaðni", "hlaðna", "hlaðna", "hlaðna"],
+					"kvk": ["hlaðna", "hlöðnu", "hlöðnu", "hlöðnu"],
+					"hk": ["hlaðna", "hlaðna", "hlaðna", "hlaðna"]
+				},
+				"ft": {
+					"kk": ["hlöðnu", "hlöðnu", "hlöðnu", "hlöðnu"],
+					"kvk": ["hlöðnu", "hlöðnu", "hlöðnu", "hlöðnu"],
+					"hk": ["hlöðnu", "hlöðnu", "hlöðnu", "hlöðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlaða",
+	"hash": "2b9937e70ed735b54eac22f10d1b95716caea26f571ee2b3e5d4d3ed7767eeab"
+}
