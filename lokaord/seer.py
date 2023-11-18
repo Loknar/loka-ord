@@ -52,11 +52,13 @@ def search_word(word):
 
 def word_change_possibilities(word: str) -> list[str]:
     myset = set([word])
-    def uppercase(word: str):
+    def uppercase(word: str) -> str:
         return '%s%s' % (word[0].upper(), word[1:])
-    def lowercase(word: str):
+    def lowercase(word: str) -> str:
         return word.lower()
-    def ellify(word: str):
+    def lower_then_uppercase(word: str) -> str:
+        return uppercase(lowercase(word))
+    def ellify(word: str) -> str:
         return word.replace('ll', 'łl')
     def apply_possibility(
         word: str, possibility: list[bool], changes: list[Callable[[str], str]]
@@ -71,6 +73,7 @@ def word_change_possibilities(word: str) -> list[str]:
     changes = [
         uppercase,
         lowercase,
+        lower_then_uppercase,
         ellify
     ]
     possibilities = sorted(
