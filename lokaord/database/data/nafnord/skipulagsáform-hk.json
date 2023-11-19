@@ -1,0 +1,32 @@
+{
+	"orð": "skipulagsáform",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-form-hk"
+		}
+	],
+	"ft": {
+		"ág": ["skipulagsáform", "skipulagsáform", "skipulagsáformum", "skipulagsáforma"],
+		"mg": ["skipulagsáformin", "skipulagsáformin", "skipulagsáformunum", "skipulagsáformanna"]
+	},
+	"kennistrengur": "no-skipulagsáform-hk",
+	"hash": "860272e011ac74400cd40d1690d59d5deed0ea58303111e3fbc183e7fb023917"
+}

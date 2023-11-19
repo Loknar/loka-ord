@@ -6,32 +6,32 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 593 | 640 | 474 | 1707 | 657 | 799 | 752 | 2208 | **3915** |
-| **Lýsingarorð** | 49 |   |   |   | 233 |   |   |   | 385 | **618** |
+| **Nafnorð**     |   | 593 | 642 | 475 | 1710 | 661 | 808 | 755 | 2224 | **3934** |
+| **Lýsingarorð** | 50 |   |   |   | 233 |   |   |   | 389 | **622** |
 | **Sagnorð**     |   |   |   |   | 451 |   |   |   | 146 | **597** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 42 |   |   |   | 4 | **46** |
-| **Smáorð**      |   |   |   |   | 245 |   |   |   | 74 | **319** |
-| **Alls** |   |   |   |   | **2748** |   |   |   | **2827** | **5575** |
+| **Smáorð**      |   |   |   |   | 245 |   |   |   | 75 | **320** |
+| **Alls** |   |   |   |   | **2751** |   |   |   | **2848** | **5599** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 491 | 150 |   | 641 | 359 | 187 |   | 546 | **1187** |
-| Kenninöfn |  |  |   |  | 128 | 122 |   | 250 | **250** |
+| Kenninöfn |  |  |   |  | 130 | 124 |   | 254 | **254** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **54** |
 | Gælunöfn  | 27 | 24 |  | 51 | 10 | 6 | 2 | 18 | **69** |
-| Örnefni   | 4 | 15 | 6 | 25 | 100 | 90 | 75 | 265 | **290** |
-| **Alls**  |   |   |   | **758** |   |   |   | **1092** | **1850** |
+| Örnefni   | 4 | 15 | 6 | 25 | 101 | 93 | 75 | 269 | **294** |
+| **Alls**  |   |   |   | **758** |   |   |   | **1100** | **1858** |
 
-**Samtals:** 7425 orð.
+**Samtals:** 7457 orð.
 
-112 skammstafanir.
+116 skammstafanir.
 
 ## Forkröfur (Requirements)
 
 `Python3.10` eða nýrra, `pip` og [PyPI](https://pypi.org/) pakkar listaðir í skránni `requirements.txt`.
 
-Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu sett upp virtualenv með að keyra eftirfarandi:
+Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu útbúið sýndarumhverfi (e. virtual environment) með að keyra eftirfarandi:
 
 ```bash
 python -m venv env
@@ -43,7 +43,7 @@ og virkjað það í núverandi session með
 source env/bin/activate
 ```
 
-þar sem `env` er nafnið á virtualenv sem þú býrð til, samnefnd mappa verður til, getur afvirkjað virtualenv í núverandi skipanalínu session með skipuninni `deactivate`. Athugaðu að þetta virtualenv er ekki virkjað er þú opnar nýtt skipanalínu session, þarft að virkja það með `source env/bin/activate` fyrir hvert session.
+þar sem `env` er nafnið á virtualenv sem búið er til, samnefnd mappa verður til, getur afvirkjað virtualenv í núverandi skipanalínu session með skipuninni `deactivate`. Athugaðu að þetta virtualenv er ekki virkjað er þú opnar nýtt skipanalínu session, þarft að virkja það með `source env/bin/activate` fyrir hvert session.
 
 Þú sækir og setur upp pakkana með
 
