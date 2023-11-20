@@ -557,7 +557,9 @@ def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
         raise Exception('Peculiar ord_data type.')
 
 
-def webpack(words_per_pack: int = 3000, include_hashes: bool = True):
+def webpack(
+    words_per_pack: int = 3000, include_hash: bool = False, include_kennistrengur: bool = False
+):
     """
     Pack lokaorð JSON datafiles to more compact JSON datafiles suitable for webclient usage.
     """
@@ -618,8 +620,10 @@ def webpack(words_per_pack: int = 3000, include_hashes: bool = True):
             file_queue.append(os.path.join(ord_dir_abs, ord_file.name))
     packs_count = math.ceil(len(file_queue) / words_per_pack)
     remove_keys = []
-    if not include_hashes:
+    if not include_hash:
         remove_keys.append('hash')
+    if not include_kennistrengur:
+        remove_keys.append('kennistrengur')
     samsett_ord_keep_keys = [
         'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'kennistrengur',
         'hash', 'ósjálfstætt', 'stýrir', 'fleiryrt'
@@ -645,8 +649,9 @@ def webpack(words_per_pack: int = 3000, include_hashes: bool = True):
             with open(file_path, 'r', encoding='utf-8') as fi:
                 ord_data = json.loads(fi.read())
             # make sure kennistrengur is unique
-            if ord_data['kennistrengur'] in added_kennistrengir:
-                raise Exception('Already added? (%s)' % (ord_data['kennistrengur'], ))
+            kennistrengur = ord_data['kennistrengur']
+            if kennistrengur in added_kennistrengir:
+                raise Exception('Already added? (%s)' % (kennistrengur, ))
             # remove unwanted keys
             for key in sorted(ord_data.keys()):
                 if key in remove_keys:
@@ -654,7 +659,7 @@ def webpack(words_per_pack: int = 3000, include_hashes: bool = True):
             # check if orð is samsett, just add it if it's not samsett
             if 'samsett' not in ord_data:
                 webpack_data['orð'].append(ord_data)
-                added_kennistrengir.add(ord_data['kennistrengur'])
+                added_kennistrengir.add(kennistrengur)
                 word_count += 1
                 continue
             # if samsett, check if all orðhlutar are present, add if so
@@ -669,7 +674,7 @@ def webpack(words_per_pack: int = 3000, include_hashes: bool = True):
                     if key not in samsett_ord_keep_keys:
                         del ord_data[key]
                 webpack_data['orð'].append(ord_data)
-                added_kennistrengir.add(ord_data['kennistrengur'])
+                added_kennistrengir.add(kennistrengur)
                 word_count += 1
                 continue
             else:
@@ -722,10 +727,15 @@ def webpack(words_per_pack: int = 3000, include_hashes: bool = True):
             skamm_data = None
             with open(file_path, 'r', encoding='utf-8') as fi:
                 skamm_data = json.loads(fi.read())
-            webpack_skamm_data['skammstafanir'].append(skamm_data)
-            if skamm_data['kennistrengur'] in added_skamm_kennistrengir:
+            # remove unwanted keys
+            kennistrengur = skamm_data['kennistrengur']
+            if kennistrengur in added_skamm_kennistrengir:
                 raise Exception('Already added? (%s)' % (skamm_data['kennistrengur'], ))
-            added_kennistrengir.add(ord_data['kennistrengur'])
+            for key in sorted(skamm_data.keys()):
+                if key in remove_keys:
+                    del skamm_data[key]
+            webpack_skamm_data['skammstafanir'].append(skamm_data)
+            added_kennistrengir.add(kennistrengur)
             skamm_count += 1
         webpack_skamm_data['count'] = len(webpack_skamm_data['skammstafanir'])
         webpack_data_json_pretty = json.dumps(
