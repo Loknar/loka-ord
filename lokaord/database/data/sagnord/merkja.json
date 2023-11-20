@@ -1,0 +1,132 @@
+{
+	"orð": "merkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "merkja",
+		"sagnbót": "merkt",
+		"boðháttur": {
+			"stýfður": "merk",
+			"et": "merktu",
+			"ft": "merkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["merki", "merkir", "merkir"],
+					"ft": ["merkjum", "merkið", "merkja"]
+				},
+				"þátíð": {
+					"et": ["merkti", "merktir", "merkti"],
+					"ft": ["merktum", "merktuð", "merktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["merki", "merkir", "merki"],
+					"ft": ["merkjum", "merkið", "merki"]
+				},
+				"þátíð": {
+					"et": ["merkti", "merktir", "merkti"],
+					"ft": ["merktum", "merktuð", "merktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "merkirðu",
+					"ft": "merkiði"
+				},
+				"þátíð": {
+					"et": "merktirðu",
+					"ft": "merktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "merkirðu",
+					"ft": "merkiði"
+				},
+				"þátíð": {
+					"et": "merktirðu",
+					"ft": "merktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "merkjast",
+		"sagnbót": "merkst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["merkist", "merkist", "merkist"],
+					"ft": ["merkjumst", "merkist", "merkjast"]
+				},
+				"þátíð": {
+					"et": ["merktist", "merktist", "merktist"],
+					"ft": ["merktumst", "merktust", "merktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["merkist", "merkist", "merkist"],
+					"ft": ["merkjumst", "merkist", "merkist"]
+				},
+				"þátíð": {
+					"et": ["merktist", "merktist", "merktist"],
+					"ft": ["merktumst", "merktust", "merktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "merkistu"
+				},
+				"þátíð": {
+					"et": "merktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "merkistu"
+				},
+				"þátíð": {
+					"et": "merktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "merkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["merktur", "merktan", "merktum", "merkts"],
+					"kvk": ["merkt", "merkta", "merktri", "merktrar"],
+					"hk": ["merkt", "merkt", "merktu", "merkts"]
+				},
+				"ft": {
+					"kk": ["merktir", "merkta", "merktum", "merktra"],
+					"kvk": ["merktar", "merktar", "merktum", "merktra"],
+					"hk": ["merkt", "merkt", "merktum", "merktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["merkti", "merkta", "merkta", "merkta"],
+					"kvk": ["merkta", "merktu", "merktu", "merktu"],
+					"hk": ["merkta", "merkta", "merkta", "merkta"]
+				},
+				"ft": {
+					"kk": ["merktu", "merktu", "merktu", "merktu"],
+					"kvk": ["merktu", "merktu", "merktu", "merktu"],
+					"hk": ["merktu", "merktu", "merktu", "merktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-merkja",
+	"hash": "e92dada872dd0eb188f9ebd39d6cb9b101f1bee8244f29aec3622f9771ed8e20"
+}

@@ -1,0 +1,174 @@
+{
+	"orð": "gjöreyðileggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjör",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"mynd": "eyði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-eyði-hk"
+		},
+		{
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjöreyðileggja",
+		"sagnbót": "gjöreyðilagt",
+		"boðháttur": {
+			"stýfður": "gjöreyðilegg",
+			"et": "gjöreyðileggðu",
+			"ft": "gjöreyðileggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjöreyðilegg", "gjöreyðileggur", "gjöreyðileggur"],
+					"ft": ["gjöreyðileggjum", "gjöreyðileggið", "gjöreyðileggja"]
+				},
+				"þátíð": {
+					"et": ["gjöreyðilagði", "gjöreyðilagðir", "gjöreyðilagði"],
+					"ft": ["gjöreyðilögðum", "gjöreyðilögðuð", "gjöreyðilögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjöreyðileggi", "gjöreyðileggir", "gjöreyðileggi"],
+					"ft": ["gjöreyðileggjum", "gjöreyðileggið", "gjöreyðileggi"]
+				},
+				"þátíð": {
+					"et": ["gjöreyðileggði", "gjöreyðileggðir", "gjöreyðileggði"],
+					"ft": ["gjöreyðileggðum", "gjöreyðileggðuð", "gjöreyðileggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjöreyðileggurðu",
+					"ft": "gjöreyðileggiði"
+				},
+				"þátíð": {
+					"et": "gjöreyðilagðirðu",
+					"ft": "gjöreyðilögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjöreyðileggirðu",
+					"ft": "gjöreyðileggiði"
+				},
+				"þátíð": {
+					"et": "gjöreyðileggðirðu",
+					"ft": "gjöreyðileggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gjöreyðileggjast",
+		"sagnbót": "gjöreyðileggst",
+		"boðháttur": {
+			"et": "gjöreyðileggstu",
+			"ft": "gjöreyðileggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjöreyðileggst", "gjöreyðileggst", "gjöreyðileggst"],
+					"ft": ["gjöreyðileggjumst", "gjöreyðileggist", "gjöreyðileggjast"]
+				},
+				"þátíð": {
+					"et": ["gjöreyðilagðist", "gjöreyðilagðist", "gjöreyðilagðist"],
+					"ft": ["gjöreyðilögðumst", "gjöreyðilögðust", "gjöreyðilögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjöreyðileggist", "gjöreyðileggist", "gjöreyðileggist"],
+					"ft": ["gjöreyðileggjumst", "gjöreyðileggist", "gjöreyðileggist"]
+				},
+				"þátíð": {
+					"et": ["gjöreyðilegðist", "gjöreyðilegðist", "gjöreyðilegðist"],
+					"ft": ["gjöreyðilegðumst", "gjöreyðilegðist", "gjöreyðilegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjöreyðileggst", "gjöreyðileggst", "gjöreyðileggst"],
+					"ft": ["gjöreyðileggst", "gjöreyðileggst", "gjöreyðileggst"]
+				},
+				"þátíð": {
+					"et": ["gjöreyðilagðist", "gjöreyðilagðist", "gjöreyðilagðist"],
+					"ft": ["gjöreyðilagðist", "gjöreyðilagðist", "gjöreyðilagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjöreyðileggist", "gjöreyðileggist", "gjöreyðileggist"],
+					"ft": ["gjöreyðileggist", "gjöreyðileggist", "gjöreyðileggist"]
+				},
+				"þátíð": {
+					"et": ["gjöreyðilegðist", "gjöreyðilegðist", "gjöreyðilegðist"],
+					"ft": ["gjöreyðilegðist", "gjöreyðilegðist", "gjöreyðilegðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjöreyðileggstu"
+				},
+				"þátíð": {
+					"et": "gjöreyðilagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjöreyðileggistu"
+				},
+				"þátíð": {
+					"et": "gjöreyðilegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjöreyðileggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gjöreyðilagður", "gjöreyðilagðan", "gjöreyðilögðum", "gjöreyðilagðs"],
+					"kvk": ["gjöreyðilögð", "gjöreyðilagða", "gjöreyðilagðri", "gjöreyðilagðrar"],
+					"hk": ["gjöreyðilagt", "gjöreyðilagt", "gjöreyðilögðu", "gjöreyðilagðs"]
+				},
+				"ft": {
+					"kk": ["gjöreyðilagðir", "gjöreyðilagða", "gjöreyðilögðum", "gjöreyðilagðra"],
+					"kvk": ["gjöreyðilagðar", "gjöreyðilagðar", "gjöreyðilögðum", "gjöreyðilagðra"],
+					"hk": ["gjöreyðilögð", "gjöreyðilögð", "gjöreyðilögðum", "gjöreyðilagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gjöreyðilagði", "gjöreyðilagða", "gjöreyðilagða", "gjöreyðilagða"],
+					"kvk": ["gjöreyðilagða", "gjöreyðilögðu", "gjöreyðilögðu", "gjöreyðilögðu"],
+					"hk": ["gjöreyðilagða", "gjöreyðilagða", "gjöreyðilagða", "gjöreyðilagða"]
+				},
+				"ft": {
+					"kk": ["gjöreyðilögðu", "gjöreyðilögðu", "gjöreyðilögðu", "gjöreyðilögðu"],
+					"kvk": ["gjöreyðilögðu", "gjöreyðilögðu", "gjöreyðilögðu", "gjöreyðilögðu"],
+					"hk": ["gjöreyðilögðu", "gjöreyðilögðu", "gjöreyðilögðu", "gjöreyðilögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjöreyðileggja",
+	"hash": "66ffb9c4ce75127b9fc49b54bac57ef0f0a6c72fed6ec3a00165ad7e41a1c44a"
+}

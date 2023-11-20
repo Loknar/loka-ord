@@ -1,0 +1,27 @@
+{
+	"orð": "deiliskipulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "deili",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-deila"
+		},
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["deiliskipulag", "deiliskipulag", "deiliskipulagi", "deiliskipulags"],
+		"mg": ["deiliskipulagið", "deiliskipulagið", "deiliskipulaginu", "deiliskipulagsins"]
+	},
+	"kennistrengur": "no-deiliskipulag-hk",
+	"hash": "7bc2f3431aa4c15725cc8d10313e3dea1e8b69401d2c5d16f52dba76afcf455b"
+}
