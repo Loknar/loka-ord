@@ -1,0 +1,132 @@
+{
+	"orð": "vakta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "vakta",
+		"sagnbót": "vaktað",
+		"boðháttur": {
+			"stýfður": "vakta",
+			"et": "vaktaðu",
+			"ft": "vaktið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vakta", "vaktar", "vaktar"],
+					"ft": ["vöktum", "vaktið", "vakta"]
+				},
+				"þátíð": {
+					"et": ["vaktaði", "vaktaðir", "vaktaði"],
+					"ft": ["vöktuðum", "vöktuðuð", "vöktuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vakti", "vaktir", "vakti"],
+					"ft": ["vöktum", "vaktið", "vakti"]
+				},
+				"þátíð": {
+					"et": ["vaktaði", "vaktaðir", "vaktaði"],
+					"ft": ["vöktuðum", "vöktuðuð", "vöktuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vaktarðu",
+					"ft": "vaktiði"
+				},
+				"þátíð": {
+					"et": "vaktaðirðu",
+					"ft": "vöktuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaktirðu",
+					"ft": "vaktiði"
+				},
+				"þátíð": {
+					"et": "vaktaðirðu",
+					"ft": "vöktuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vaktast",
+		"sagnbót": "vaktast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vaktast", "vaktast", "vaktast"],
+					"ft": ["vöktumst", "vaktist", "vaktast"]
+				},
+				"þátíð": {
+					"et": ["vaktaðist", "vaktaðist", "vaktaðist"],
+					"ft": ["vöktuðumst", "vöktuðust", "vöktuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vaktist", "vaktist", "vaktist"],
+					"ft": ["vöktumst", "vaktist", "vaktist"]
+				},
+				"þátíð": {
+					"et": ["vaktaðist", "vaktaðist", "vaktaðist"],
+					"ft": ["vöktuðumst", "vöktuðust", "vöktuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vaktastu"
+				},
+				"þátíð": {
+					"et": "vaktaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaktistu"
+				},
+				"þátíð": {
+					"et": "vaktaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vaktandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vaktaður", "vaktaðan", "vöktuðum", "vaktaðs"],
+					"kvk": ["vöktuð", "vaktaða", "vaktaðri", "vaktaðrar"],
+					"hk": ["vaktað", "vaktað", "vöktuðu", "vaktaðs"]
+				},
+				"ft": {
+					"kk": ["vaktaðir", "vaktaða", "vöktuðum", "vaktaðra"],
+					"kvk": ["vaktaðar", "vaktaðar", "vöktuðum", "vaktaðra"],
+					"hk": ["vöktuð", "vöktuð", "vöktuðum", "vaktaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vaktaði", "vaktaða", "vaktaða", "vaktaða"],
+					"kvk": ["vaktaða", "vöktuðu", "vöktuðu", "vöktuðu"],
+					"hk": ["vaktaða", "vaktaða", "vaktaða", "vaktaða"]
+				},
+				"ft": {
+					"kk": ["vöktuðu", "vöktuðu", "vöktuðu", "vöktuðu"],
+					"kvk": ["vöktuðu", "vöktuðu", "vöktuðu", "vöktuðu"],
+					"hk": ["vöktuðu", "vöktuðu", "vöktuðu", "vöktuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vakta",
+	"hash": "07ca77da8b3ff41a6a9704e99e07e053bf9c2202dbf9c593f2596302ede7d26b"
+}
