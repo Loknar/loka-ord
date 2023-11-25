@@ -1,0 +1,78 @@
+{
+	"orð": "lukkast",
+	"flokkur": "sagnorð",
+	"miðmynd": {
+		"nafnháttur": "lukkast",
+		"sagnbót": "lukkast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lukkast", "lukkast", "lukkast"],
+					"ft": ["lukkumst", "lukkist", "lukkast"]
+				},
+				"þátíð": {
+					"et": ["lukkaðist", "lukkaðist", "lukkaðist"],
+					"ft": ["lukkuðumst", "lukkuðust", "lukkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lukkist", "lukkist", "lukkist"],
+					"ft": ["lukkumst", "lukkist", "lukkist"]
+				},
+				"þátíð": {
+					"et": ["lukkaðist", "lukkaðist", "lukkaðist"],
+					"ft": ["lukkuðumst", "lukkuðust", "lukkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lukkastu"
+				},
+				"þátíð": {
+					"et": "lukkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lukkistu"
+				},
+				"þátíð": {
+					"et": "lukkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lukkaður", "lukkaðan", "lukkuðum", "lukkaðs"],
+					"kvk": ["lukkuð", "lukkaða", "lukkaðri", "lukkaðrar"],
+					"hk": ["lukkað", "lukkað", "lukkuðu", "lukkaðs"]
+				},
+				"ft": {
+					"kk": ["lukkaðir", "lukkaða", "lukkuðum", "lukkaðra"],
+					"kvk": ["lukkaðar", "lukkaðar", "lukkuðum", "lukkaðra"],
+					"hk": ["lukkuð", "lukkuð", "lukkuðum", "lukkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lukkaði", "lukkaða", "lukkaða", "lukkaða"],
+					"kvk": ["lukkaða", "lukkuðu", "lukkuðu", "lukkuðu"],
+					"hk": ["lukkaða", "lukkaða", "lukkaða", "lukkaða"]
+				},
+				"ft": {
+					"kk": ["lukkuðu", "lukkuðu", "lukkuðu", "lukkuðu"],
+					"kvk": ["lukkuðu", "lukkuðu", "lukkuðu", "lukkuðu"],
+					"hk": ["lukkuðu", "lukkuðu", "lukkuðu", "lukkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lukkast",
+	"hash": "a4ee473e049015cd828b154f9f11dc49de5e3e56724433513e53866ef596c27a"
+}
