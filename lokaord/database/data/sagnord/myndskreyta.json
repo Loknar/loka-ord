@@ -1,0 +1,142 @@
+{
+	"orð": "myndskreyta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mynd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"kennistrengur": "so-skreyta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "myndskreyta",
+		"sagnbót": "myndskreytt",
+		"boðháttur": {
+			"stýfður": "myndskreyt",
+			"et": "myndskreyttu",
+			"ft": "myndskreytið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["myndskreyti", "myndskreytir", "myndskreytir"],
+					"ft": ["myndskreytum", "myndskreytið", "myndskreyta"]
+				},
+				"þátíð": {
+					"et": ["myndskreytti", "myndskreyttir", "myndskreytti"],
+					"ft": ["myndskreyttum", "myndskreyttuð", "myndskreyttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["myndskreyti", "myndskreytir", "myndskreyti"],
+					"ft": ["myndskreytum", "myndskreytið", "myndskreytið"]
+				},
+				"þátíð": {
+					"et": ["myndskreytti", "myndskreyttir", "myndskreytti"],
+					"ft": ["myndskreyttum", "myndskreyttuð", "myndskreyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "myndskreytirðu",
+					"ft": "myndskreytiði"
+				},
+				"þátíð": {
+					"et": "myndskreyttirðu",
+					"ft": "myndskreyttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "myndskreytirðu",
+					"ft": "myndskreytiði"
+				},
+				"þátíð": {
+					"et": "myndskreyttirðu",
+					"ft": "myndskreyttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "myndskreytast",
+		"sagnbót": "myndskreyst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["myndskreytist", "myndskreytist", "myndskreytist"],
+					"ft": ["myndskreytumst", "myndskreytist", "myndskreytast"]
+				},
+				"þátíð": {
+					"et": ["myndskreyttist", "myndskreyttist", "myndskreyttist"],
+					"ft": ["myndskreyttumst", "myndskreyttust", "myndskreyttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["myndskreytist", "myndskreytist", "myndskreytist"],
+					"ft": ["myndskreytumst", "myndskreytist", "myndskreytist"]
+				},
+				"þátíð": {
+					"et": ["myndskreyttist", "myndskreyttist", "myndskreyttist"],
+					"ft": ["myndskreyttumst", "myndskreyttust", "myndskreyttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "myndskreytistu"
+				},
+				"þátíð": {
+					"et": "myndskreyttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "myndskreytistu"
+				},
+				"þátíð": {
+					"et": "myndskreyttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "myndskreytandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["myndskreyttur", "myndskreyttan", "myndskreyttum", "myndskreytts"],
+					"kvk": ["myndskreytt", "myndskreytta", "myndskreyttri", "myndskreyttrar"],
+					"hk": ["myndskreytt", "myndskreytt", "myndskreyttu", "myndskreytts"]
+				},
+				"ft": {
+					"kk": ["myndskreyttir", "myndskreytta", "myndskreyttum", "myndskreyttra"],
+					"kvk": ["myndskreyttar", "myndskreyttar", "myndskreyttum", "myndskreyttra"],
+					"hk": ["myndskreytt", "myndskreytt", "myndskreyttum", "myndskreyttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["myndskreytti", "myndskreytta", "myndskreytta", "myndskreytta"],
+					"kvk": ["myndskreytta", "myndskreyttu", "myndskreyttu", "myndskreyttu"],
+					"hk": ["myndskreytta", "myndskreytta", "myndskreytta", "myndskreytta"]
+				},
+				"ft": {
+					"kk": ["myndskreyttu", "myndskreyttu", "myndskreyttu", "myndskreyttu"],
+					"kvk": ["myndskreyttu", "myndskreyttu", "myndskreyttu", "myndskreyttu"],
+					"hk": ["myndskreyttu", "myndskreyttu", "myndskreyttu", "myndskreyttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-myndskreyta",
+	"hash": "7adb8df83f4f2d0325f513acaba924f1acf9c2e7392bb61ee5fa4fd154ed2e90"
+}
