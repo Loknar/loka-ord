@@ -1,0 +1,99 @@
+{
+	"orð": "handtaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handtaka",
+		"sagnbót": "handtekið",
+		"boðháttur": {
+			"stýfður": "handtak",
+			"et": "handtaktu",
+			"ft": "handtakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handtek", "handtekur", "handtekur"],
+					"ft": ["handtökum", "handtakið", "handtaka"]
+				},
+				"þátíð": {
+					"et": ["handtók", "handtókst", "handtók"],
+					"ft": ["handtókum", "handtókuð", "handtóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handtaki", "handtakir", "handtaki"],
+					"ft": ["handtökum", "handtakið", "handtaki"]
+				},
+				"þátíð": {
+					"et": ["handtæki", "handtækir", "handtæki"],
+					"ft": ["handtækjum", "handtækjuð", "handtækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handtekurðu",
+					"ft": "handtakiði"
+				},
+				"þátíð": {
+					"et": "handtókstu",
+					"ft": "handtókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handtakirðu",
+					"ft": "handtakiði"
+				},
+				"þátíð": {
+					"et": "handtækirðu",
+					"ft": "handtækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handtakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handtekinn", "handtekinn", "handteknum", "handtekins"],
+					"kvk": ["handtekin", "handtekna", "handtekinni", "handtekinnar"],
+					"hk": ["handtekið", "handtekið", "handteknu", "handtekins"]
+				},
+				"ft": {
+					"kk": ["handteknir", "handtekna", "handteknum", "handtekinna"],
+					"kvk": ["handteknar", "handteknar", "handteknum", "handtekinna"],
+					"hk": ["handtekin", "handtekin", "handteknum", "handtekinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handtekni", "handtekna", "handtekna", "handtekna"],
+					"kvk": ["handtekna", "handteknu", "handteknu", "handteknu"],
+					"hk": ["handtekna", "handtekna", "handtekna", "handtekna"]
+				},
+				"ft": {
+					"kk": ["handteknu", "handteknu", "handteknu", "handteknu"],
+					"kvk": ["handteknu", "handteknu", "handteknu", "handteknu"],
+					"hk": ["handteknu", "handteknu", "handteknu", "handteknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handtaka",
+	"hash": "50ab42ec4285f5d4bd42dea028ae4c650073b718ce74b581852d73f47af75878"
+}
