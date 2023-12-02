@@ -1,0 +1,88 @@
+{
+	"orð": "síga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "síga",
+		"sagnbót": "sigið",
+		"boðháttur": {
+			"stýfður": "síg",
+			"et": "sígðu",
+			"ft": "sígið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["síg", "sígur", "sígur"],
+					"ft": ["sígum", "sígið", "síga"]
+				},
+				"þátíð": {
+					"et": ["seig", "seigst", "seig"],
+					"ft": ["sigum", "siguð", "sigu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sígi", "sígir", "sígi"],
+					"ft": ["sígum", "sígið", "sígi"]
+				},
+				"þátíð": {
+					"et": ["sigi", "sigir", "sigi"],
+					"ft": ["sigum", "siguð", "sigu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sígurðu",
+					"ft": "sígiði"
+				},
+				"þátíð": {
+					"et": "seigstu",
+					"ft": "siguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sígirðu",
+					"ft": "sígiði"
+				},
+				"þátíð": {
+					"et": "sigirðu",
+					"ft": "siguði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sígandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["siginn", "siginn", "signum", "sigins"],
+					"kvk": ["sigin", "signa", "siginni", "siginnar"],
+					"hk": ["sigið", "sigið", "signu", "sigins"]
+				},
+				"ft": {
+					"kk": ["signir", "signa", "signum", "siginna"],
+					"kvk": ["signar", "signar", "signum", "siginna"],
+					"hk": ["sigin", "sigin", "signum", "siginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["signi", "signa", "signa", "signa"],
+					"kvk": ["signa", "signu", "signu", "signu"],
+					"hk": ["signa", "signa", "signa", "signa"]
+				},
+				"ft": {
+					"kk": ["signu", "signu", "signu", "signu"],
+					"kvk": ["signu", "signu", "signu", "signu"],
+					"hk": ["signu", "signu", "signu", "signu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-síga",
+	"hash": "80afe6fe08e9ef1c308c47eaccfc3da090cb77521661b2822e8e504ccb7de532"
+}

@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 599 | 655 | 482 | 1736 | 691 | 859 | 792 | 2342 | **4078** |
-| **Lýsingarorð** | 53 |   |   |   | 251 |   |   |   | 425 | **676** |
-| **Sagnorð**     |   |   |   |   | 479 |   |   |   | 156 | **635** |
+| **Nafnorð**     |   | 599 | 658 | 483 | 1740 | 700 | 864 | 798 | 2362 | **4102** |
+| **Lýsingarorð** | 54 |   |   |   | 251 |   |   |   | 430 | **681** |
+| **Sagnorð**     |   |   |   |   | 483 |   |   |   | 159 | **642** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 42 |   |   |   | 4 | **46** |
-| **Smáorð**      |   |   |   |   | 248 |   |   |   | 91 | **339** |
-| **Alls** |   |   |   |   | **2826** |   |   |   | **3028** | **5854** |
+| **Smáorð**      |   |   |   |   | 248 |   |   |   | 92 | **340** |
+| **Alls** |   |   |   |   | **2834** |   |   |   | **3057** | **5891** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 493 | 150 |   | 643 | 380 | 190 |   | 570 | **1213** |
-| Kenninöfn |  |  |   |  | 136 | 132 |   | 268 | **268** |
+| Eiginnöfn | 493 | 150 |   | 643 | 381 | 191 |   | 572 | **1215** |
+| Kenninöfn |  |  |   |  | 137 | 133 |   | 270 | **270** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **55** |
 | Gælunöfn  | 27 | 24 |  | 51 | 10 | 7 | 2 | 19 | **70** |
 | Örnefni   | 4 | 15 | 6 | 25 | 107 | 99 | 83 | 289 | **314** |
-| **Alls**  |   |   |   | **761** |   |   |   | **1159** | **1920** |
+| **Alls**  |   |   |   | **761** |   |   |   | **1163** | **1924** |
 
-**Samtals:** 7774 orð.
+**Samtals:** 7815 orð.
 
 120 skammstafanir.
 
@@ -31,21 +31,21 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 `Python3.10` eða nýrra, `pip` og [PyPI](https://pypi.org/) pakkar listaðir í skránni `requirements.txt`.
 
-Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu útbúið sýndarumhverfi (e. virtual environment) með að keyra eftirfarandi:
+Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu útbúið sýndarumhverfi (e. virtual environment) með eftirfarandi skipun:
 
 ```bash
 python -m venv env
 ```
 
-og virkjað það í núverandi session með
+þar sem `env` er nafnið á virtualenv sem búið er til, samnefnd mappa verður til, þú virkjar það í núverandi skipanalínu með
 
 ```bash
 source env/bin/activate
 ```
 
-þar sem `env` er nafnið á virtualenv sem búið er til, samnefnd mappa verður til, getur afvirkjað virtualenv í núverandi skipanalínu session með skipuninni `deactivate`. Athugaðu að þetta virtualenv er ekki virkjað er þú opnar nýtt skipanalínu session, þarft að virkja það með `source env/bin/activate` fyrir hvert session.
+getur afvirkjað sýndarumhverfið í núverandi með skipuninni `deactivate`. Athugaðu að þetta sýndarumhverfi er ekki sjálfkrafa virkjað þegar þú opnar nýja skipanalínu, þú þarft að velja/virkja það með `source env/bin/activate`.
 
-Þú sækir og setur upp pakkana með
+Þú sækir og setur upp nauðsynlega pakka með
 
 ```bash
 pip install -Ur requirements.txt
