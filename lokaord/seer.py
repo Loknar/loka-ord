@@ -97,6 +97,12 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
     found = 0
     maybe = 0
     missing = 0
+    onhanging_chars = set([
+        '.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“', '”', '?', '!', '´', '%',
+        '°', '%', '–', '…', '·',
+    ])
+    onhanging_chars_with_dot = onhanging_chars.copy()
+    onhanging_chars_with_dot.remove('.')
     for word in sentence.split(' '):
         if word == '':
             continue
@@ -120,12 +126,10 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
             found += 1
             scanned_sentence.append(scanned_word)
             continue
-        onhanging_chars = set([
-            '.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“', '”', '?', '!', '´', '%',
-            '°', '%', '–', '…', '·',
-        ])
         msg = ''
         e_word = word.strip()
+        e_word_with_dot = word.strip()
+        scanned_word_alt = copy.deepcopy(scanned_word)
         while e_word[-1] in onhanging_chars:
             if scanned_word['fylgir'] is None:
                 scanned_word['fylgir'] = ''
@@ -140,6 +144,18 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
                 scanned_word['leiðir'] = ''
             scanned_word['leiðir'] += e_word[0]
             e_word = e_word[1:]
+        while e_word_with_dot[-1] in onhanging_chars_with_dot:
+            if scanned_word_alt['fylgir'] is None:
+                scanned_word_alt['fylgir'] = ''
+            scanned_word_alt['fylgir'] = '%s%s' % (e_word_with_dot[-1], scanned_word_alt['fylgir'])
+            e_word_with_dot = e_word_with_dot[:-1]
+            if e_word_with_dot == '':
+                break
+        while e_word_with_dot[0] in onhanging_chars_with_dot:
+            if scanned_word_alt['leiðir'] is None:
+                scanned_word_alt['leiðir'] = ''
+            scanned_word_alt['leiðir'] += e_word_with_dot[0]
+            e_word_with_dot = e_word_with_dot[1:]
         if word in sight['skammstafanir']:
             myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
             scanned_word['staða'] = 'skammstöfun'
@@ -165,6 +181,21 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
             })
             found += 1
             scanned_sentence.append(scanned_word)
+            continue
+        elif e_word_with_dot in sight['skammstafanir']:
+            myndir = (
+                ' / '.join(['"%s"' % x for x in sight['skammstafanir'][e_word_with_dot]['myndir']])
+            )
+            scanned_word_alt['orð-hreinsað'] = e_word_with_dot
+            scanned_word_alt['staða'] = 'skammstöfun'
+            scanned_word_alt['möguleikar'].append({
+                'm': myndir,
+                'k': sight['skammstafanir'][e_word_with_dot]['kennistrengur'],
+                'h': sight['skammstafanir'][e_word_with_dot]['hash'],
+                'f': sight['hash'][sight['skammstafanir'][e_word_with_dot]['hash']]['f']
+            })
+            found += 1
+            scanned_sentence.append(scanned_word_alt)
             continue
         elif e_word in sight['skammstafanir']:
             myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][e_word]['myndir']])
