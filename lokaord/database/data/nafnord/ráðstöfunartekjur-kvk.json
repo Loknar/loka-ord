@@ -1,0 +1,27 @@
+{
+	"orð": "ráðstöfunartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"mynd": "stöfunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stöfun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["ráðstöfunartekjur", "ráðstöfunartekjur", "ráðstöfunartekjum", "ráðstöfunartekna"],
+		"mg": ["ráðstöfunartekjurnar", "ráðstöfunartekjurnar", "ráðstöfunartekjunum", "ráðstöfunarteknanna"]
+	},
+	"kennistrengur": "no-ráðstöfunartekjur-kvk",
+	"hash": "c98eda15cd5dd41959082c2c3e65da7268a570015fb44a11a0a35f9387193d8a"
+}

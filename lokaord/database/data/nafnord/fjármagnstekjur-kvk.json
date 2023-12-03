@@ -1,0 +1,27 @@
+{
+	"orð": "fjármagnstekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjármagnstekjur", "fjármagnstekjur", "fjármagnstekjum", "fjármagnstekna"],
+		"mg": ["fjármagnstekjurnar", "fjármagnstekjurnar", "fjármagnstekjunum", "fjármagnsteknanna"]
+	},
+	"kennistrengur": "no-fjármagnstekjur-kvk",
+	"hash": "9ea9bf84eea91ee67eb73454d3e499c3e30e3dcd1a6baf89d36ba7a2eb408e6f"
+}
