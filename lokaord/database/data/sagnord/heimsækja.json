@@ -1,0 +1,99 @@
+{
+	"orð": "heimsækja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heim",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-heim"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-sækja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heimsækja",
+		"sagnbót": "heimsótt",
+		"boðháttur": {
+			"stýfður": "heimsæk",
+			"et": "heimsæktu",
+			"ft": "heimsækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heimsæki", "heimsækir", "heimsækir"],
+					"ft": ["heimsækjum", "heimsækið", "heimsækja"]
+				},
+				"þátíð": {
+					"et": ["heimsótti", "heimsóttir", "heimsótti"],
+					"ft": ["heimsóttum", "heimsóttuð", "heimsóttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heimsæki", "heimsækir", "heimsæki"],
+					"ft": ["heimsækjum", "heimsækið", "heimsæki"]
+				},
+				"þátíð": {
+					"et": ["heimsækti", "heimsæktir", "heimsækti"],
+					"ft": ["heimsæktum", "heimsæktuð", "heimsæktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heimsækirðu",
+					"ft": "heimsækiði"
+				},
+				"þátíð": {
+					"et": "heimsæktirðu",
+					"ft": "heimsæktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heimsækirðu",
+					"ft": "heimsækiði"
+				},
+				"þátíð": {
+					"et": "heimsæktirðu",
+					"ft": "heimsæktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heimsækjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heimsóttur", "heimsóttan", "heimsóttum", "heimsótts"],
+					"kvk": ["heimsótt", "heimsótta", "heimsóttri", "heimsóttrar"],
+					"hk": ["heimsótt", "heimsótt", "heimsóttu", "heimsótts"]
+				},
+				"ft": {
+					"kk": ["heimsóttir", "heimsótta", "heimsóttum", "heimsóttra"],
+					"kvk": ["heimsóttar", "heimsóttar", "heimsóttum", "heimsóttra"],
+					"hk": ["heimsótt", "heimsótt", "heimsóttum", "heimsóttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["heimsótti", "heimsótta", "heimsótta", "heimsótta"],
+					"kvk": ["heimsótta", "heimsóttu", "heimsóttu", "heimsóttu"],
+					"hk": ["heimsótta", "heimsótta", "heimsótta", "heimsótta"]
+				},
+				"ft": {
+					"kk": ["heimsóttu", "heimsóttu", "heimsóttu", "heimsóttu"],
+					"kvk": ["heimsóttu", "heimsóttu", "heimsóttu", "heimsóttu"],
+					"hk": ["heimsóttu", "heimsóttu", "heimsóttu", "heimsóttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heimsækja",
+	"hash": "d33184ba99b5556044be02c0da1979b0c18d9695ebe06e119cfff913aec1bade"
+}
