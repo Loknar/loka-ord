@@ -1,0 +1,142 @@
+{
+	"orð": "framleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framleiða",
+		"sagnbót": "framleitt",
+		"boðháttur": {
+			"stýfður": "framleið",
+			"et": "framleiddu",
+			"ft": "framleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framleiði", "framleiðir", "framleiðir"],
+					"ft": ["framleiðum", "framleiðið", "framleiða"]
+				},
+				"þátíð": {
+					"et": ["framleiddi", "framleiddir", "framleiddi"],
+					"ft": ["framleiddum", "framleidduð", "framleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framleiði", "framleiðir", "framleiði"],
+					"ft": ["framleiðum", "framleiðið", "framleiði"]
+				},
+				"þátíð": {
+					"et": ["framleiddi", "framleiddir", "framleiddi"],
+					"ft": ["framleiddum", "framleidduð", "framleiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framleiðirðu",
+					"ft": "framleiðiði"
+				},
+				"þátíð": {
+					"et": "framleiddirðu",
+					"ft": "framleidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framleiðirðu",
+					"ft": "framleiðiði"
+				},
+				"þátíð": {
+					"et": "framleiddirðu",
+					"ft": "framleidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "framleiðast",
+		"sagnbót": "framleiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framleiðist", "framleiðist", "framleiðist"],
+					"ft": ["framleiðumst", "framleiðist", "framleiðast"]
+				},
+				"þátíð": {
+					"et": ["framleiddist", "framleiddist", "framleiddist"],
+					"ft": ["framleiddumst", "framleiddust", "framleiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framleiðist", "framleiðist", "framleiðist"],
+					"ft": ["framleiðumst", "framleiðist", "framleiðist"]
+				},
+				"þátíð": {
+					"et": ["framleiddist", "framleiddist", "framleiddist"],
+					"ft": ["framleiddumst", "framleiddust", "framleiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framleiðistu"
+				},
+				"þátíð": {
+					"et": "framleiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framleiðistu"
+				},
+				"þátíð": {
+					"et": "framleiddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framleiddur", "framleiddan", "framleiddum", "framleidds"],
+					"kvk": ["framleidd", "framleidda", "framleiddri", "framleiddrar"],
+					"hk": ["framleitt", "framleitt", "framleiddu", "framleidds"]
+				},
+				"ft": {
+					"kk": ["framleiddir", "framleidda", "framleiddum", "framleiddra"],
+					"kvk": ["framleiddar", "framleiddar", "framleiddum", "framleiddra"],
+					"hk": ["framleidd", "framleidd", "framleiddum", "framleiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framleiddi", "framleidda", "framleidda", "framleidda"],
+					"kvk": ["framleidda", "framleiddu", "framleiddu", "framleiddu"],
+					"hk": ["framleidda", "framleidda", "framleidda", "framleidda"]
+				},
+				"ft": {
+					"kk": ["framleiddu", "framleiddu", "framleiddu", "framleiddu"],
+					"kvk": ["framleiddu", "framleiddu", "framleiddu", "framleiddu"],
+					"hk": ["framleiddu", "framleiddu", "framleiddu", "framleiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framleiða",
+	"hash": "5dc3ab4cb475f71911e33ff980d27e8ce5952220d83f4431a5cb8c634447626a"
+}
