@@ -28,6 +28,9 @@ class LoggerRoles(str, Enum):
     hook = 'hook'
     mod = 'mod'
 
+    def __str__(self):
+        return self.name
+
 
 class LogLevel(str, Enum):
     notset = 'notset'
@@ -37,11 +40,17 @@ class LogLevel(str, Enum):
     error = 'error'
     critical = 'critical'
 
+    def __str__(self):
+        return self.name
+
 
 class TimeOffset(str, Enum):
     last2min = 'last2min'
     last10min = 'last10min'
     last30min = 'last30min'
+
+    def __str__(self):
+        return self.name
 
 
 def get_offset_time(offset: TimeOffset) -> datetime.datetime:
