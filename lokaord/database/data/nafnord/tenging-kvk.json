@@ -2,6 +2,16 @@
 	"orð": "tenging",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "teng",
+			"samsetning": "stofn",
+			"kennistrengur": "so-tengja"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tenging", "tengingu", "tengingu", "tengingar"],
 		"mg": ["tengingin", "tenginguna", "tengingunni", "tengingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["tengingarnar", "tengingarnar", "tengingunum", "tenginganna"]
 	},
 	"kennistrengur": "no-tenging-kvk",
-	"hash": "ce1eaa02089b67dbc951725afe4f81b5443039c190f901369d0d2ab0ae8da234"
+	"hash": "9b13e7687f735800804378275077a7047086e67ea417c8fe5f5c0c08bae456e5"
 }
