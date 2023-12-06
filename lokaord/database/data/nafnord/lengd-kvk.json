@@ -2,6 +2,16 @@
 	"orð": "lengd",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leng",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-langur"
+		},
+		{
+			"kennistrengur": "no-d-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lengd", "lengd", "lengd", "lengdar"],
 		"mg": ["lengdin", "lengdina", "lengdinni", "lengdarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["lengdirnar", "lengdirnar", "lengdunum", "lengdanna"]
 	},
 	"kennistrengur": "no-lengd-kvk",
-	"hash": "07b14dd58b6e94d15d3af79c162918a3720bd0df13f3b887669335bf308bf9f1"
+	"hash": "22163eab2d0ef1a47d5302e3fec4d21dde991bfbec1385b46d2d2d1d91551231"
 }
