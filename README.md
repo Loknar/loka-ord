@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 622 | 668 | 496 | 1786 | 738 | 925 | 839 | 2502 | **4288** |
+| **Nafnorð**     |   | 627 | 668 | 498 | 1793 | 738 | 925 | 839 | 2502 | **4295** |
 | **Lýsingarorð** | 54 |   |   |   | 262 |   |   |   | 456 | **718** |
 | **Sagnorð**     |   |   |   |   | 501 |   |   |   | 171 | **672** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 42 |   |   |   | 4 | **46** |
 | **Smáorð**      |   |   |   |   | 250 |   |   |   | 95 | **345** |
-| **Alls** |   |   |   |   | **2911** |   |   |   | **3238** | **6149** |
+| **Alls** |   |   |   |   | **2918** |   |   |   | **3238** | **6156** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 676 | 151 |   | 827 | 505 | 193 |   | 698 | **1525** |
+| Eiginnöfn | 769 | 151 |   | 920 | 526 | 193 |   | 719 | **1639** |
 | Kenninöfn |  |  |   |  | 140 | 137 |   | 277 | **277** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **56** |
 | Gælunöfn  | 27 | 24 |  | 51 | 10 | 7 | 2 | 19 | **70** |
 | Örnefni   | 6 | 16 | 7 | 29 | 111 | 102 | 86 | 299 | **328** |
-| **Alls**  |   |   |   | **950** |   |   |   | **1306** | **2256** |
+| **Alls**  |   |   |   | **1043** |   |   |   | **1327** | **2370** |
 
-**Samtals:** 8405 orð.
+**Samtals:** 8526 orð.
 
 121 skammstafanir.
 
@@ -43,7 +43,7 @@ python -m venv env
 source env/bin/activate
 ```
 
-getur afvirkjað sýndarumhverfið í núverandi með skipuninni `deactivate`. Athugaðu að þetta sýndarumhverfi er ekki sjálfkrafa virkjað þegar þú opnar nýja skipanalínu, þú þarft að velja/virkja það með `source env/bin/activate`.
+getur afvirkjað sýndarumhverfið með skipuninni `deactivate`. Athugaðu að þetta sýndarumhverfi er ekki sjálfkrafa virkjað þegar þú opnar nýja skipanalínu, þú þarft að velja/virkja það með `source env/bin/activate` í nýrri skipanalínu.
 
 Þú sækir og setur upp nauðsynlega pakka með
 
