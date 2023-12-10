@@ -7,9 +7,12 @@ from decimal import Decimal
 from enum import Enum
 import json
 import os
-from typing import Union
+from typing import Annotated, Any, Optional, Union
 
-from pydantic import BaseModel, conlist, Field, root_validator, StrictStr, validator
+from pydantic import BaseModel, conlist, Field, model_serializer, StringConstraints, validator
+
+
+NonEmptyStr = Annotated[str, StringConstraints(strict=True, min_length=1)]
 
 
 class MultiEnum(Enum):
@@ -34,9 +37,6 @@ class MultiEnum(Enum):
 
     def get_folder(self):
         return self._all_values[2]
-
-    def get_all_names_isl():
-        return [flokkur.value for flokkur in Ordflokkar]
 
     def __repr__(self):
         return '<%s.%s: %s>' % (
@@ -203,31 +203,19 @@ class FleiryrtTypa(str, Enum):
     Laus = 'laus'
 
 
-class NonEmptyStr(StrictStr):
-    min_length=1
-
-
 class SamsettOrdhluti(BaseModel):
 
-    mynd: NonEmptyStr | None
-    samsetning: Ordasamsetningar | None
-    myndir: LysingarordMyndir | None
-    orð: NonEmptyStr | None
-    flokkur: Ordflokkar | None
-    undirflokkur: Fornafnaflokkar | Toluordaflokkar | Smaordaflokkar | Sernafnaflokkar | None
-    kyn: Kyn | None
-    merking: NonEmptyStr | None
-    lágstafa: bool | None = False
-    hástafa: bool | None = False
-    leiðir: NonEmptyStr | None
-    fylgir: NonEmptyStr | None
-    beygingar: conlist(
-        NafnordaBeygingar | LysingarordaBeygingar | SagnordaBeygingar,
-        min_items=1, max_items=4, unique_items=True
-    ) | None
-    ósjálfstætt: bool | None = False
-    datahash: NonEmptyStr | None = Field(alias='hash')
-    kennistrengur: NonEmptyStr | None
+    mynd: Optional[NonEmptyStr] = None
+    samsetning: Optional[Ordasamsetningar] = None
+    myndir: Optional[LysingarordMyndir] = None
+    lágstafa: Optional[bool] = False
+    hástafa: Optional[bool] = False
+    leiðir: Optional[NonEmptyStr] = None
+    fylgir: Optional[NonEmptyStr] = None
+    beygingar: Optional[conlist(
+        NafnordaBeygingar | LysingarordaBeygingar | SagnordaBeygingar, min_length=1, max_length=4
+    )] = None
+    kennistrengur: Optional[NonEmptyStr] = None
 
     @validator('samsetning')
     def samsetning_tied_to_mynd(cls, val, values, **kwargs):
@@ -243,30 +231,6 @@ class SamsettOrdhluti(BaseModel):
         if val is not None:
             if 'mynd' in values and values['mynd'] is not None:
                 raise ValueError('mynd+samsetning should not be set when myndir is set')
-        return val
-
-    @validator('undirflokkur')
-    def undirflokkur_constraints_based_on_flokkur(cls, val, values, **kwargs):
-        fl_m_ufl = (Ordflokkar.Fornafn, Ordflokkar.Toluord, Ordflokkar.Smaord, Ordflokkar.Sernafn)
-        if values['flokkur'] in fl_m_ufl:
-            if val is None:
-                raise ValueError('missing undirflokkur')
-        if values['flokkur'] is Ordflokkar.Fornafn and type(val) is not Fornafnaflokkar:
-            raise ValueError('invalid fornafn undirflokkur')
-        if values['flokkur'] is Ordflokkar.Toluord and type(val) is not Toluordaflokkar:
-            raise ValueError('invalid töluorð undirflokkur')
-        if values['flokkur'] is Ordflokkar.Smaord and type(val) is not Smaordaflokkar:
-            raise ValueError('invalid smáorð undirflokkur')
-        if values['flokkur'] is Ordflokkar.Sernafn and type(val) is not Sernafnaflokkar:
-            raise ValueError('invalid sérnafn undirflokkur')
-        return val
-
-    @validator('kyn')
-    def kyn_restrictions(cls, val, values, **kwargs):
-        if val is not None and values['flokkur'] not in (
-            Ordflokkar.Nafnord, Ordflokkar.Fornafn, Ordflokkar.Sernafn
-        ):
-            raise ValueError('kyn is set only for nafnorð, fornöfn and sérnöfn')
         return val
 
     @validator('hástafa')
@@ -311,28 +275,15 @@ class SamsettOrdhluti(BaseModel):
                     )
         return val
 
-    @root_validator
-    def kyn_requirements_post_check(cls, values):
-        if values.get('kyn') is None:
-            if values.get('flokkur') == Ordflokkar.Nafnord:
-                raise ValueError('kyn should always be set for nafnorð')
-            if (
-                values.get('flokkur') == Ordflokkar.Sernafn and
-                values.get('undirflokkur') != Sernafnaflokkar.Millinafn
-            ):
-                raise ValueError('kyn should always be set for sérnafn other than miłlinöfn')
-        return values
-
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
-            'mynd', 'samsetning', 'myndir', 'orð', 'flokkur', 'undirflokkur', 'kyn', 'merking',
-            'lágstafa', 'hástafa', 'leiðir', 'fylgir', 'beygingar', 'ósjálfstætt', 'datahash',
+            'mynd', 'samsetning', 'myndir', 'lágstafa', 'hástafa', 'leiðir', 'fylgir', 'beygingar',
             'kennistrengur'
         ]
-        key_map = {'datahash': 'hash'}
-        keys_values = ('samsetning', 'myndir', 'flokkur', 'undirflokkur', 'kyn')
+        keys_values = ('samsetning', 'myndir')
         keys_list_values = ('beygingar', )
         keys_only_if_true = ('lágstafa', 'hástafa', 'ósjálfstætt')
         for key in key_order:
@@ -343,8 +294,6 @@ class SamsettOrdhluti(BaseModel):
                     data[key] = []
                     for val in data_dict[key]:
                         data[key].append(val.value)
-                elif key in key_map:
-                    data[key_map[key]] = data_dict[key]
                 elif key in keys_only_if_true:
                     if data_dict[key] is True:
                         data[key] = data_dict[key]
@@ -356,14 +305,16 @@ class SamsettOrdhluti(BaseModel):
 class OrdData(BaseModel):
     orð: NonEmptyStr
     flokkur: Ordflokkar
-    undirflokkur: Fornafnaflokkar | Toluordaflokkar | Smaordaflokkar | Sernafnaflokkar | None
-    merking: NonEmptyStr | None
-    samsett: conlist(SamsettOrdhluti, min_items=1) | None
-    tölugildi: Decimal | None
-    óbeygjanlegt: bool | None
-    ósjálfstætt: bool | None
-    datahash: NonEmptyStr | None = Field(alias='hash')
-    kennistrengur: NonEmptyStr | None
+    undirflokkur: Optional[
+        Fornafnaflokkar | Toluordaflokkar | Smaordaflokkar | Sernafnaflokkar
+    ] = None
+    merking: Optional[NonEmptyStr] = None
+    samsett: Optional[conlist(SamsettOrdhluti, min_length=1)] = None
+    tölugildi: Optional[Decimal] = None
+    óbeygjanlegt: Optional[bool] = None
+    ósjálfstætt: Optional[bool] = None
+    datahash: Optional[NonEmptyStr] = Field(default=None, alias='hash')
+    kennistrengur: Optional[NonEmptyStr] = None
 
     @validator('undirflokkur')
     def undirflokkur_constraints_based_on_flokkur(cls, val, values, **kwargs):
@@ -383,8 +334,8 @@ class OrdData(BaseModel):
 
 
 class NafnordBeygingarAgMgSet(BaseModel):
-    ág: conlist(NonEmptyStr, min_items=4, max_items=4) | None
-    mg: conlist(NonEmptyStr, min_items=4, max_items=4) | None
+    ág: Optional[conlist(NonEmptyStr, min_length=4, max_length=4)] = None
+    mg: Optional[conlist(NonEmptyStr, min_length=4, max_length=4)] = None
 
     @validator('ág', 'mg')
     def ag_mg_constraint(cls, val, values, **kwargs):
@@ -399,9 +350,10 @@ class NafnordBeygingarAgMgSet(BaseModel):
             raise ValueError('either ág or mg must be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'ág' in data_dict and data_dict['ág'] is not None:
             data['ág'] = data_dict['ág']
         if 'mg' in data_dict and data_dict['mg'] is not None:
@@ -411,8 +363,8 @@ class NafnordBeygingarAgMgSet(BaseModel):
 
 class NafnordData(OrdData):
     kyn: Kyn
-    et: NafnordBeygingarAgMgSet | None
-    ft: NafnordBeygingarAgMgSet | None
+    et: Optional[NafnordBeygingarAgMgSet] = None
+    ft: Optional[NafnordBeygingarAgMgSet] = None
 
     @validator('flokkur')
     def should_be_nafnord(cls, val, values, **kwargs):
@@ -434,9 +386,10 @@ class NafnordData(OrdData):
                 raise ValueError('nafnorð should have either et or ft beygingar')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'kyn', 'tölugildi', 'merking', 'samsett', 'et', 'ft', 'ósjálfstætt',
             'kennistrengur', 'datahash'
@@ -459,20 +412,21 @@ class NafnordData(OrdData):
 
 
 class LysingarordKyn(BaseModel):
-    kk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
-    kvk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
-    hk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
+    kk: Optional[conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
+    kvk: Optional[conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
+    hk: Optional[conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        ordered_dict = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if data_dict['kk'] is not None:
-            ordered_dict['kk'] = data_dict['kk']
+            data['kk'] = data_dict['kk']
         if data_dict['kvk'] is not None:
-            ordered_dict['kvk'] = data_dict['kvk']
+            data['kvk'] = data_dict['kvk']
         if data_dict['hk'] is not None:
-            ordered_dict['hk'] = data_dict['hk']
-        return ordered_dict
+            data['hk'] = data_dict['hk']
+        return data
 
     @validator('hk')
     def not_void_of_data(cls, val, values, **kwargs):
@@ -498,17 +452,18 @@ class LysingarordKyn(BaseModel):
 
 
 class LysingarordEtFt(BaseModel):
-    et: LysingarordKyn | None
-    ft: LysingarordKyn | None
+    et: Optional[LysingarordKyn] = None
+    ft: Optional[LysingarordKyn] = None
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        ordered_dict = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'et' in data_dict and data_dict['et'] is not None:
-            ordered_dict['et'] = data_dict['et']
+            data['et'] = data_dict['et']
         if 'ft' in data_dict and data_dict['ft'] is not None:
-            ordered_dict['ft'] = data_dict['ft']
-        return ordered_dict
+            data['ft'] = data_dict['ft']
+        return data
 
     @validator('ft')
     def not_void_of_data(cls, val, values, **kwargs):
@@ -520,12 +475,13 @@ class LysingarordEtFt(BaseModel):
 
 
 class LysingarordStig(BaseModel):
-    sb: LysingarordEtFt | None
-    vb: LysingarordEtFt | None
+    sb: Optional[LysingarordEtFt] = None
+    vb: Optional[LysingarordEtFt] = None
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'sb' in data_dict and data_dict['sb'] is not None:
             data['sb'] = data_dict['sb']
         if 'vb' in data_dict and data_dict['vb'] is not None:
@@ -534,9 +490,9 @@ class LysingarordStig(BaseModel):
 
 
 class LysingarordData(OrdData):
-    frumstig: LysingarordStig | None
-    miðstig: LysingarordStig | None
-    efstastig: LysingarordStig | None
+    frumstig: Optional[LysingarordStig] = None
+    miðstig: Optional[LysingarordStig] = None
+    efstastig: Optional[LysingarordStig] = None
 
     @validator('flokkur')
     def should_be_lysingarord(cls, val, values, **kwargs):
@@ -564,9 +520,10 @@ class LysingarordData(OrdData):
             )
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'tölugildi', 'merking', 'samsett', 'frumstig', 'miðstig',
             'efstastig', 'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -589,13 +546,14 @@ class LysingarordData(OrdData):
 
 
 class SagnordBodhattur(BaseModel):
-    stýfður: NonEmptyStr | None
-    et: NonEmptyStr | None
-    ft: NonEmptyStr | None
+    stýfður: Optional[NonEmptyStr] = None
+    et: Optional[NonEmptyStr] = None
+    ft: Optional[NonEmptyStr] = None
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'stýfður' in data_dict and data_dict['stýfður'] is not None:
             data['stýfður'] = data_dict['stýfður']
         if 'et' in data_dict and data_dict['et'] is not None:
@@ -606,8 +564,8 @@ class SagnordBodhattur(BaseModel):
 
 
 class SagnordTalaL(BaseModel):
-    et: conlist(NonEmptyStr, min_items=3, max_items=3) | None
-    ft: conlist(NonEmptyStr, min_items=3, max_items=3) | None
+    et: Optional[conlist(NonEmptyStr, min_length=3, max_length=3)] = None
+    ft: Optional[conlist(NonEmptyStr, min_length=3, max_length=3)] = None
 
     @validator('ft')
     def et_ft_constraint(cls, val, values, **kwargs):
@@ -616,9 +574,10 @@ class SagnordTalaL(BaseModel):
                 raise ValueError('either et or ft should be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'et' in data_dict and data_dict['et'] is not None:
             data['et'] = data_dict['et']
         if 'ft' in data_dict and data_dict['ft'] is not None:
@@ -627,8 +586,8 @@ class SagnordTalaL(BaseModel):
 
 
 class SagnordTidL(BaseModel):
-    nútíð: SagnordTalaL | None
-    þátíð: SagnordTalaL | None
+    nútíð: Optional[SagnordTalaL] = None
+    þátíð: Optional[SagnordTalaL] = None
 
     @validator('þátíð')
     def nutid_thatid_constraint(cls, val, values, **kwargs):
@@ -637,9 +596,10 @@ class SagnordTidL(BaseModel):
                 raise ValueError('either nútíð or þátíð should be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'nútíð' in data_dict and data_dict['nútíð'] is not None:
             data['nútíð'] = data_dict['nútíð']
         if 'þátíð' in data_dict and data_dict['þátíð'] is not None:
@@ -648,13 +608,14 @@ class SagnordTidL(BaseModel):
 
 
 class SagnordHatturL(BaseModel):
-    frumlag: Fall | None
+    frumlag: Optional[Fall] = None
     framsöguháttur: SagnordTidL
     viðtengingarháttur: SagnordTidL
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'frumlag' in data_dict and data_dict['frumlag'] is not None:
             data['frumlag'] = data_dict['frumlag']
         data['framsöguháttur'] =  data_dict['framsöguháttur']
@@ -663,8 +624,8 @@ class SagnordHatturL(BaseModel):
 
 
 class SagnordTala(BaseModel):
-    et: NonEmptyStr | None
-    ft: NonEmptyStr | None
+    et: Optional[NonEmptyStr] = None
+    ft: Optional[NonEmptyStr] = None
 
     @validator('ft')
     def et_ft_constraint(cls, val, values, **kwargs):
@@ -673,9 +634,10 @@ class SagnordTala(BaseModel):
                 raise ValueError('either et or ft should be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'et' in data_dict and data_dict['et'] is not None:
             data['et'] = data_dict['et']
         if 'ft' in data_dict and data_dict['ft'] is not None:
@@ -684,8 +646,8 @@ class SagnordTala(BaseModel):
 
 
 class SagnordTid(BaseModel):
-    nútíð: SagnordTala | None
-    þátíð: SagnordTala | None
+    nútíð: Optional[SagnordTala] = None
+    þátíð: Optional[SagnordTala] = None
 
     @validator('þátíð')
     def nutid_thatid_constraint(cls, val, values, **kwargs):
@@ -694,9 +656,10 @@ class SagnordTid(BaseModel):
                 raise ValueError('either nútíð or þátíð should be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'nútíð' in data_dict and data_dict['nútíð'] is not None:
             data['nútíð'] = data_dict['nútíð']
         if 'þátíð' in data_dict and data_dict['þátíð'] is not None:
@@ -708,27 +671,28 @@ class SagnordHattur(BaseModel):
     framsöguháttur: SagnordTid
     viðtengingarháttur: SagnordTid
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        return OrderedDict({
-            'framsöguháttur': data_dict['framsöguháttur'],
-            'viðtengingarháttur': data_dict['viðtengingarháttur']
-        })
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
+        data['framsöguháttur'] = data_dict['framsöguháttur']
+        data['viðtengingarháttur'] = data_dict['viðtengingarháttur']
+        return data
 
 
 class SagnordMynd(BaseModel):
     nafnháttur: NonEmptyStr
-    sagnbót: NonEmptyStr | None
-    boðháttur: SagnordBodhattur | None
-    persónuleg: SagnordHatturL | None
-    ópersónuleg: SagnordHatturL | None
-    spurnarmyndir: SagnordHattur | None
+    sagnbót: Optional[NonEmptyStr] = None
+    boðháttur: Optional[SagnordBodhattur] = None
+    persónuleg: Optional[SagnordHatturL] = None
+    ópersónuleg: Optional[SagnordHatturL] = None
+    spurnarmyndir: Optional[SagnordHattur] = None
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict({
-            'nafnháttur': data_dict['nafnháttur']
-        })
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
+        data['nafnháttur'] = data_dict['nafnháttur']
         if 'sagnbót' in data_dict and data_dict['sagnbót'] is not None:
             data['sagnbót'] = data_dict['sagnbót']
         if 'boðháttur' in data_dict and data_dict['boðháttur'] is not None:
@@ -743,27 +707,36 @@ class SagnordMynd(BaseModel):
 
 
 class SagnordLhTTK(BaseModel):
-    kk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    kvk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    hk: conlist(NonEmptyStr, min_items=4, max_items=4)
+    kk: conlist(NonEmptyStr, min_length=4, max_length=4)
+    kvk: conlist(NonEmptyStr, min_length=4, max_length=4)
+    hk: conlist(NonEmptyStr, min_length=4, max_length=4)
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        return OrderedDict({'kk': data_dict['kk'], 'kvk': data_dict['kvk'], 'hk': data_dict['hk']})
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
+        data['kk'] = data_dict['kk']
+        data['kvk'] = data_dict['kvk']
+        data['hk'] = data_dict['hk']
+        return data
 
 
 class SagnordLhTT(BaseModel):
     et: SagnordLhTTK
     ft: SagnordLhTTK
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        return OrderedDict({'et': data_dict['et'], 'ft': data_dict['ft']})
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
+        data['et'] = data_dict['et']
+        data['ft'] = data_dict['ft']
+        return data
 
 
 class SagnordLhT(BaseModel):
-    sb: SagnordLhTT | None
-    vb: SagnordLhTT | None
+    sb: Optional[SagnordLhTT] = None
+    vb: Optional[SagnordLhTT] = None
 
     @validator('vb')
     def sb_vb_constraint(cls, val, values, **kwargs):
@@ -772,9 +745,10 @@ class SagnordLhT(BaseModel):
                 raise ValueError('either sb or vb should be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'sb' in data_dict and data_dict['sb'] is not None:
             data['sb'] = data_dict['sb']
         if 'vb' in data_dict and data_dict['vb'] is not None:
@@ -783,12 +757,13 @@ class SagnordLhT(BaseModel):
 
 
 class SagnordLysingarhattur(BaseModel):
-    nútíðar: NonEmptyStr | None
-    þátíðar: SagnordLhT | None
+    nútíðar: Optional[NonEmptyStr] = None
+    þátíðar: Optional[SagnordLhT] = None
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'nútíðar' in data_dict and data_dict['nútíðar'] is not None:
             data['nútíðar'] = data_dict['nútíðar']
         if 'þátíðar' in data_dict and data_dict['þátíðar'] is not None:
@@ -797,11 +772,11 @@ class SagnordLysingarhattur(BaseModel):
 
 
 class SagnordData(OrdData):
-    germynd: SagnordMynd | None
-    miðmynd: SagnordMynd | None
-    lýsingarháttur: SagnordLysingarhattur | None
-    óskháttur_1p_ft: NonEmptyStr | None
-    óskháttur_3p: NonEmptyStr | None
+    germynd: Optional[SagnordMynd] = None
+    miðmynd: Optional[SagnordMynd] = None
+    lýsingarháttur: Optional[SagnordLysingarhattur] = None
+    óskháttur_1p_ft: Optional[NonEmptyStr] = None
+    óskháttur_3p: Optional[NonEmptyStr] = None
 
     @validator('flokkur')
     def should_be_sagnord(cls, val, values, **kwargs):
@@ -815,9 +790,10 @@ class SagnordData(OrdData):
             raise ValueError('undirflokkur should not be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'tölugildi', 'merking', 'samsett', 'germynd', 'miðmynd',
             'lýsingarháttur', 'óskháttur_1p_ft', 'óskháttur_3p', 'ósjálfstætt', 'óbeygjanlegt',
@@ -841,15 +817,18 @@ class SagnordData(OrdData):
 
 
 class GreinirKyn(BaseModel):
-    kk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    kvk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    hk: conlist(NonEmptyStr, min_items=4, max_items=4)
+    kk: conlist(NonEmptyStr, min_length=4, max_length=4)
+    kvk: conlist(NonEmptyStr, min_length=4, max_length=4)
+    hk: conlist(NonEmptyStr, min_length=4, max_length=4)
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        return OrderedDict({
-            'kk': data_dict['kk'], 'kvk': data_dict['kvk'], 'hk': data_dict['hk']
-        })
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
+        data['kk'] = data_dict['kk']
+        data['kvk'] = data_dict['kvk']
+        data['hk'] = data_dict['hk']
+        return data
 
 
 class GreinirData(OrdData):
@@ -868,9 +847,10 @@ class GreinirData(OrdData):
             raise ValueError('undirflokkur should not be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'merking', 'samsett', 'tölugildi', 'et', 'ft', 'kennistrengur',
             'datahash'
@@ -889,9 +869,9 @@ class GreinirData(OrdData):
 
 
 class FornafnKyn(BaseModel):
-    kk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
-    kvk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
-    hk: conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
+    kk: Optional[conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
+    kvk: Optional[conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
+    hk: Optional[conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
 
     @validator('hk')
     def kk_kvk_hk_constraint(cls, val, values, **kwargs):
@@ -901,9 +881,10 @@ class FornafnKyn(BaseModel):
                     raise ValueError('at least one of kk, kvk, hk should be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'kk' in data_dict and data_dict['kk'] is not None:
             data['kk'] = data_dict['kk']
         if 'kvk' in data_dict and data_dict['kvk'] is not None:
@@ -914,10 +895,10 @@ class FornafnKyn(BaseModel):
 
 
 class FornafnData(OrdData):
-    persóna: Persona | None
-    kyn: Kyn | None
-    et: FornafnKyn | conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
-    ft: FornafnKyn | conlist(NonEmptyStr | None, min_items=4, max_items=4) | None
+    persóna: Optional[Persona] = None
+    kyn: Optional[Kyn] = None
+    et: Optional[FornafnKyn | conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
+    ft: Optional[FornafnKyn | conlist(Optional[NonEmptyStr], min_length=4, max_length=4)] = None
 
     @validator('flokkur')
     def should_be_fornafn(cls, val, values, **kwargs):
@@ -945,9 +926,10 @@ class FornafnData(OrdData):
             raise ValueError('either et or ft should be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'merking', 'samsett', 'persóna', 'kyn', 'samsett',
             'et', 'ft', 'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -970,15 +952,18 @@ class FornafnData(OrdData):
 
 
 class ToluordKyn(BaseModel):
-    kk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    kvk: conlist(NonEmptyStr, min_items=4, max_items=4)
-    hk: conlist(NonEmptyStr, min_items=4, max_items=4)
+    kk: conlist(NonEmptyStr, min_length=4, max_length=4)
+    kvk: conlist(NonEmptyStr, min_length=4, max_length=4)
+    hk: conlist(NonEmptyStr, min_length=4, max_length=4)
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        return OrderedDict({
-            'kk': data_dict['kk'], 'kvk': data_dict['kvk'], 'hk': data_dict['hk']
-        })
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
+        data['kk'] = data_dict['kk']
+        data['kvk'] = data_dict['kvk']
+        data['hk'] = data_dict['hk']
+        return data
 
 
 class ToluordEtFt(BaseModel):
@@ -988,8 +973,8 @@ class ToluordEtFt(BaseModel):
 
 class FjoldatalaData(OrdData):
     tölugildi: Decimal
-    et: ToluordKyn | None
-    ft: ToluordKyn | None
+    et: Optional[ToluordKyn] = None
+    ft: Optional[ToluordKyn] = None
 
     @validator('flokkur')
     def should_be_toluord(cls, val, values, **kwargs):
@@ -1013,9 +998,10 @@ class FjoldatalaData(OrdData):
                     raise ValueError('et and ft can both be unset only if óbeygjanlegt')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'et', 'ft',
             'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -1039,8 +1025,8 @@ class FjoldatalaData(OrdData):
 
 class RadtalaData(OrdData):
     tölugildi: Decimal
-    sb: ToluordEtFt | None
-    vb: ToluordEtFt | None
+    sb: Optional[ToluordEtFt] = None
+    vb: Optional[ToluordEtFt] = None
 
     @validator('flokkur')
     def should_be_toluord(cls, val, values, **kwargs):
@@ -1056,9 +1042,10 @@ class RadtalaData(OrdData):
             raise ValueError('undirflokkur should be raðtala')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'sb', 'vb',
             'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -1081,7 +1068,7 @@ class RadtalaData(OrdData):
 
 
 class ForsetningData(OrdData):
-    stýrir: conlist(Fall2, min_items=1, max_items=3)
+    stýrir: conlist(Fall2, min_length=1, max_length=3)
 
     @validator('flokkur')
     def should_be_smaord(cls, val, values, **kwargs):
@@ -1097,9 +1084,10 @@ class ForsetningData(OrdData):
             raise ValueError('undirflokkur should be forsetning')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'stýrir',
             'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -1122,8 +1110,8 @@ class ForsetningData(OrdData):
 
 
 class AtviksordData(OrdData):
-    miðstig: NonEmptyStr | None
-    efstastig: NonEmptyStr | None
+    miðstig: Optional[NonEmptyStr] = None
+    efstastig: Optional[NonEmptyStr] = None
 
     @validator('flokkur')
     def should_be_smaord(cls, val, values, **kwargs):
@@ -1139,9 +1127,10 @@ class AtviksordData(OrdData):
             raise ValueError('undirflokkur should be atviksorð')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'miðstig',
             'efstastig', 'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -1179,9 +1168,10 @@ class NafnhattarmerkiData(OrdData):
             raise ValueError('undirflokkur should be nafnháttarmerki')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'ósjálfstætt',
             'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -1205,11 +1195,11 @@ class NafnhattarmerkiData(OrdData):
 
 class SamtengingFleiryrt(BaseModel):
     týpa: FleiryrtTypa
-    fylgiorð: conlist(NonEmptyStr, min_items=1, max_items=5)
+    fylgiorð: conlist(NonEmptyStr, min_length=1, max_length=5)
 
 
 class SamtengingData(OrdData):
-    fleiryrt: conlist(SamtengingFleiryrt, min_items=1, max_items=5) | None
+    fleiryrt: Optional[conlist(SamtengingFleiryrt, min_length=1, max_length=5)] = None
 
     @validator('flokkur')
     def should_be_smaord(cls, val, values, **kwargs):
@@ -1225,9 +1215,10 @@ class SamtengingData(OrdData):
             raise ValueError('undirflokkur should be samtenging')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'fleiryrt',
             'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -1265,9 +1256,10 @@ class UpphropunData(OrdData):
             raise ValueError('undirflokkur should be upphrópun')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'ósjálfstætt',
             'óbeygjanlegt', 'kennistrengur', 'datahash'
@@ -1290,8 +1282,8 @@ class UpphropunData(OrdData):
 
 
 class SernafnBeygingarAgMgSet(BaseModel):
-    ág: conlist(NonEmptyStr, min_items=4, max_items=4) | None
-    mg: conlist(NonEmptyStr, min_items=4, max_items=4) | None
+    ág: Optional[conlist(NonEmptyStr, min_length=4, max_length=4)] = None
+    mg: Optional[conlist(NonEmptyStr, min_length=4, max_length=4)] = None
 
     @validator('mg')
     def mg_constraint(cls, val, values, **kwargs):
@@ -1299,9 +1291,10 @@ class SernafnBeygingarAgMgSet(BaseModel):
             raise ValueError('either ág or mg must be set')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         if 'ág' in data_dict and data_dict['ág'] is not None:
             data['ág'] = data_dict['ág']
         if 'mg' in data_dict and data_dict['mg'] is not None:
@@ -1310,9 +1303,9 @@ class SernafnBeygingarAgMgSet(BaseModel):
 
 
 class SernafnData(OrdData):
-    kyn: Kyn | None
-    et: SernafnBeygingarAgMgSet | None
-    ft: SernafnBeygingarAgMgSet | None
+    kyn: Optional[Kyn] = None
+    et: Optional[SernafnBeygingarAgMgSet] = None
+    ft: Optional[SernafnBeygingarAgMgSet] = None
 
     @validator('flokkur')
     def should_be_sernafn(cls, val, values, **kwargs):
@@ -1338,9 +1331,10 @@ class SernafnData(OrdData):
             raise ValueError('miłlinafn should not have kyn')
         return val
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'orð', 'flokkur', 'undirflokkur', 'kyn', 'tölugildi', 'merking', 'samsett', 'et', 'ft',
             'ósjálfstætt', 'kennistrengur', 'datahash'
@@ -1364,15 +1358,16 @@ class SernafnData(OrdData):
 
 class SkammstofunData(BaseModel):
     skammstöfun: NonEmptyStr
-    merking: NonEmptyStr | None
-    frasi: conlist(NonEmptyStr, min_items=1)
-    myndir: conlist(NonEmptyStr, min_items=1)
-    datahash: NonEmptyStr | None = Field(alias='hash')
-    kennistrengur: NonEmptyStr | None
+    merking: Optional[NonEmptyStr] = None
+    frasi: conlist(NonEmptyStr, min_length=1)
+    myndir: conlist(NonEmptyStr, min_length=1)
+    datahash: Optional[NonEmptyStr] = Field(default=None, alias='hash')
+    kennistrengur: Optional[NonEmptyStr] = None
 
-    def dict(self, *args, **kwargs):
-        data_dict = super().dict(*args, **kwargs)
-        data = OrderedDict()
+    @model_serializer(mode='wrap')
+    def serialize(self, handler) -> dict[str, Any]:
+        data_dict = handler(self)
+        data = dict()
         key_order = [
             'skammstöfun', 'merking', 'frasi', 'myndir', 'kennistrengur', 'datahash'
         ]

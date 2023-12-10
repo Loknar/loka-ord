@@ -707,7 +707,7 @@ class Ord:
                 self.data = struct(**data)
                 correct_struct = struct
                 break
-            except pydantic.error_wrappers.ValidationError:
+            except pydantic.ValidationError:
                 tracebacks.append(traceback.format_exc())
         if self.data is None:
             tracebacks_str = ''.join(tracebacks)
