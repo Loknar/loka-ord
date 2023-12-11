@@ -17,6 +17,7 @@ import string
 import traceback
 import types
 import typing
+from typing import Optional
 
 import pydantic
 
@@ -26,28 +27,6 @@ from lokaord.database.models import isl
 from lokaord.exc import VoidKennistrengurError
 from lokaord import structs
 from lokaord.structs import NafnordaBeygingar, LysingarordaBeygingar, SagnordaBeygingar
-
-
-def list_handlers():
-    return [Nafnord, Lysingarord, Greinir, Fornafn, Toluord, Sagnord, Smaord, Sernafn]
-
-
-def get_handlers_map():
-    handlers = list_handlers()
-    handlers_map = {}
-    for handler in handlers:
-        handlers_map[handler.group.name] = handler
-        handlers_map[handler.group.value] = handler
-    for ordflokkur in isl.Ordflokkar:
-        if ordflokkur.name in handlers_map:
-            continue
-        if ordflokkur.name in structs.Toluordaflokkar.__members__.keys():
-            handlers_map[ordflokkur.name] = Toluord
-            handlers_map[structs.Toluordaflokkar[ordflokkur.name].value] = Toluord
-        elif ordflokkur.name in structs.Smaordaflokkar.__members__.keys():
-            handlers_map[ordflokkur.name] = Smaord
-            handlers_map[structs.Smaordaflokkar[ordflokkur.name].value] = Smaord
-    return handlers_map
 
 
 class Ord:
@@ -60,8 +39,7 @@ class Ord:
     loaded_from_db: bool = None
 
     group: structs.Ordflokkar = None
-    struct = structs.OrdData
-    data: structs.OrdData = None
+    data: Optional[structs.OrdData] = None
 
     datafiles_dir = os.path.abspath(
         os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
@@ -940,13 +918,10 @@ class Ord:
             ord_str_ch += ordhluti['fylgir']
         return ord_str_ch
 
-    def apply_ordhluti_ch_to_dict(
-        self, ord_dict: dict, ordhluti: dict
-    ) -> dict:
+    def apply_ordhluti_ch_to_dict(self, ord_dict: dict, ordhluti: dict) -> dict:
         """
         apply certain orðhluti rules to contents in a provided dict
         """
-        dictos = (dict, )
         dont_change_keys = set(['frumlag'])
         for key in ord_dict:
             if key in dont_change_keys:
@@ -961,17 +936,15 @@ class Ord:
                         ord_dict[key][i] = (
                             self.apply_ordhluti_ch_to_ord(ord_dict[key][i], ordhluti)
                         )
-                    elif type(ord_dict[key][i]) in dictos:
+                    elif isinstance(ord_dict[key][i], dict):
                         ord_dict[key][i] = (
                             self.apply_ordhluti_ch_to_dict(ord_dict[key][i], ordhluti)
                         )
-            elif type(ord_dict[key]) in dictos:
+            elif isinstance(ord_dict[key], dict):
                 ord_dict[key] = self.apply_ordhluti_ch_to_dict(ord_dict[key], ordhluti)
         return ord_dict
 
-    def apply_beygingar_filters(
-        self, isl_ord_dict: dict, ordhluti: dict
-    ) -> dict:
+    def apply_beygingar_filters(self, isl_ord_dict: dict, ordhluti: dict) -> dict:
         """
         apply beygingar filtering to contents in a provided dict
         """
@@ -1222,9 +1195,7 @@ class Ord:
                 ord_dict[key] = self.prepend_str_to_dict(ord_str, ord_dict[key])
         return ord_dict
 
-    def merge_dict_to_dict(
-        self, pre_dict: dict, ord_dict: dict
-    ) -> dict:
+    def merge_dict_to_dict(self, pre_dict: dict, ord_dict: dict) -> dict:
         """
         prepend pre beygingar dict to parallel values in beygingar dict
         """
@@ -1392,7 +1363,6 @@ class Ord:
             if key in data:
                 derived[key] = data[key]
         if data['flokkur'] == 'lýsingarorð' and 'mynd' in data['samsett'][-1]:
-            # perhaps we should do this with other orðflokkar too?
             derived['óbeygjanlegt'] = True
         return derived
 
@@ -1403,7 +1373,7 @@ class Nafnord(Ord):
     """
 
     group = structs.Ordflokkar.Nafnord
-    data: structs.NafnordData | None
+    data: Optional[structs.NafnordData] = None
 
     def make_filename(self):
         return os.path.join(
@@ -1509,7 +1479,7 @@ class Lysingarord(Ord):
     """
 
     group = structs.Ordflokkar.Lysingarord
-    data: structs.LysingarordData | None
+    data: Optional[structs.LysingarordData] = None
 
     def make_filename(self):
         return os.path.join(
@@ -2091,7 +2061,7 @@ class Sagnord(Ord):
     """
 
     group = structs.Ordflokkar.Sagnord
-    data: structs.SagnordData | None
+    data: Optional[structs.SagnordData] = None
 
     def make_filename(self):
         return os.path.join(
@@ -2868,7 +2838,7 @@ class Greinir(Ord):
     """
 
     group = structs.Ordflokkar.Greinir
-    data: structs.GreinirData | None
+    data: Optional[structs.GreinirData] = None
 
     def make_filename(self):
         return os.path.join(
@@ -2989,7 +2959,7 @@ class Fornafn(Ord):
     """
 
     group = structs.Ordflokkar.Fornafn
-    data: structs.FornafnData | None
+    data: Optional[structs.FornafnData] = None
 
     def make_filename(self):
         return os.path.join(
@@ -3176,7 +3146,7 @@ class Toluord(Ord):
     """
 
     group = structs.Ordflokkar.Toluord
-    data: structs.FjoldatalaData | structs.RadtalaData | None
+    data: Optional[structs.FjoldatalaData | structs.RadtalaData] = None
 
     def make_filename(self):
         return os.path.join(
@@ -3503,10 +3473,10 @@ class Smaord(Ord):
     """
 
     group = structs.Ordflokkar.Smaord
-    data: typing.Union[
-        structs.ForsetningData, structs.AtviksordData, structs.NafnhattarmerkiData,
-        structs.SamtengingData, structs.UpphropunData, None
-    ]
+    data: Optional[
+        structs.ForsetningData | structs.AtviksordData | structs.NafnhattarmerkiData |
+        structs.SamtengingData | structs.UpphropunData
+    ] = None
 
     def make_filename(self):
         return os.path.join(
@@ -3726,7 +3696,7 @@ class Sernafn(Ord):
     """
 
     group = structs.Ordflokkar.Sernafn
-    data: structs.SernafnData | None
+    data: Optional[structs.SernafnData] = None
 
     def make_filename(self):
         if self.data.undirflokkur in (
@@ -3885,7 +3855,7 @@ class Skammstofun(Ord):
     """
     Skammstöfun handler
     """
-    data: structs.SkammstofunData | None
+    data: Optional[structs.SkammstofunData] = None
 
     def make_filename(self):
         return os.path.join(
@@ -4102,3 +4072,25 @@ class DecimalJSONEncoder(json.JSONEncoder):
             if f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->"' in s:
                 s = s.replace(f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->"', '')
             yield s
+
+
+def list_handlers():
+    return [Nafnord, Lysingarord, Greinir, Fornafn, Toluord, Sagnord, Smaord, Sernafn]
+
+
+def get_handlers_map():
+    handlers = list_handlers()
+    handlers_map = {}
+    for handler in handlers:
+        handlers_map[handler.group.name] = handler
+        handlers_map[handler.group.value] = handler
+    for ordflokkur in isl.Ordflokkar:
+        if ordflokkur.name in handlers_map:
+            continue
+        if ordflokkur.name in structs.Toluordaflokkar.__members__.keys():
+            handlers_map[ordflokkur.name] = Toluord
+            handlers_map[structs.Toluordaflokkar[ordflokkur.name].value] = Toluord
+        elif ordflokkur.name in structs.Smaordaflokkar.__members__.keys():
+            handlers_map[ordflokkur.name] = Smaord
+            handlers_map[structs.Smaordaflokkar[ordflokkur.name].value] = Smaord
+    return handlers_map
