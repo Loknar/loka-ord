@@ -52,14 +52,19 @@ def search_word(word):
 
 def word_change_possibilities(word: str) -> list[str]:
     myset = set([word])
+
     def uppercase(word: str) -> str:
         return '%s%s' % (word[0].upper(), word[1:])
+
     def lowercase(word: str) -> str:
         return word.lower()
+
     def lower_then_uppercase(word: str) -> str:
         return uppercase(lowercase(word))
+
     def ellify(word: str) -> str:
         return word.replace('ll', 'łl')
+
     def apply_possibility(
         word: str, possibility: list[bool], changes: list[Callable[[str], str]]
     ) -> str:
@@ -70,6 +75,7 @@ def word_change_possibilities(word: str) -> list[str]:
             if possibility[i] is True:
                 e_word = changes[i](e_word)
         return e_word
+
     changes = [
         uppercase,
         lowercase,
@@ -126,7 +132,6 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
             found += 1
             scanned_sentence.append(scanned_word)
             continue
-        msg = ''
         e_word = word.strip()
         e_word_with_dot = word.strip()
         scanned_word_alt = copy.deepcopy(scanned_word)
@@ -244,9 +249,9 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
         elif scanned_word['staða'] == 'mögulega':
             if hide_matches is False:
                 print('"%s" \033[43m\033[30m MÖGULEGA \033[0m "%s"' % (
-                scanned_word['orð'],
-                scanned_word['orð-hreinsað']
-            ))
+                    scanned_word['orð'],
+                    scanned_word['orð-hreinsað']
+                ))
             highlighted_sentence_list.append(
                 '%s%s%s' % (
                     '' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
@@ -301,13 +306,13 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
     highlighted_sentence = ' '.join(highlighted_sentence_list)
     print('%s\n\033[36m---\033[0m' % (highlighted_sentence, ))
     print('Fannst: %s/%s, %s %%' % (
-        found, len(scanned_sentence), format(100 * found/len(scanned_sentence), '.3g'))
+        found, len(scanned_sentence), format(100 * found / len(scanned_sentence), '.3g'))
     )
     print('Kannski: %s/%s, %s %%' % (
-        maybe, len(scanned_sentence), format(100 * maybe/len(scanned_sentence), '.3g'))
+        maybe, len(scanned_sentence), format(100 * maybe / len(scanned_sentence), '.3g'))
     )
     print('Vantar: %s/%s, %s %%' % (
-        missing, len(scanned_sentence), format(100 * missing/len(scanned_sentence), '.3g'))
+        missing, len(scanned_sentence), format(100 * missing / len(scanned_sentence), '.3g'))
     )
 
 
@@ -559,17 +564,17 @@ def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
     ])
     if ord_data is None:
         return
-    elif type(ord_data) is str:
+    elif isinstance(ord_data, str):
         if ord_data not in sight['orð']:
             sight['orð'][ord_data] = []
         sight['orð'][ord_data].append({'mynd': curr_ord_mynd, 'hash': ord_hash})
-    elif type(ord_data) is dict:
+    elif isinstance(ord_data, dict):
         for key in ord_data:
             if key in ignore_keys:
                 continue
-            if type(ord_data[key]) in (dict, str):
+            if isinstance(ord_data[key], (dict, str)):
                 add_myndir(ord_data[key], sight, '%s-%s' % (curr_ord_mynd, key), ord_hash)
-            elif type(ord_data[key]) is list:
+            elif isinstance(ord_data[key], list):
                 temp_ord_mynd = '%s-%s' % (curr_ord_mynd, key)
                 if len(ord_data[key]) == 4:
                     add_myndir(ord_data[key][0], sight, '%s-%s' % (temp_ord_mynd, 'nf'), ord_hash)

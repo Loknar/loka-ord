@@ -9,8 +9,6 @@ import os
 import git
 
 from lokaord import logman
-from lokaord.database import db
-from lokaord.database.models import isl
 from lokaord.exc import VoidKennistrengurError
 from lokaord import handlers
 

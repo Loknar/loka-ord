@@ -12,7 +12,7 @@ import traceback
 if platform.system() == 'Windows':
     import colorama
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 Name = 'logman'
 Logger = None
@@ -59,9 +59,11 @@ class JSONFormatter(logging.Formatter):
     def __init__(self, recordfields=None):
         # https://docs.python.org/3/library/logging.html#logrecord-objects
         if recordfields is not None:
-            assert(type(recordfields) is list)
+            if not (isinstance(recordfields, list)):
+                raise Exception('recordfields should be list')
             for recordfield in recordfields:
-                assert(type(recordfield) is str)
+                if not (isinstance(recordfield, str)):
+                    raise Exception('recordfield should be str')
             self.recordfields = recordfields
         else:
             self.recordfields = ['ts', 'level', 'msg', 'pathname', 'lineno']
@@ -169,32 +171,39 @@ class ColoredFormatter(logging.Formatter):
             }
 
     def assert_valid_styles(self, styles):
-        assert(type(styles) is dict)
+        if not isinstance(styles, dict):
+            raise Exception('styles should be dict')
         for name in styles:
-            assert(type(name) is str)
+            if not isinstance(name, str):
+                raise Exception('name should be str')
             for style in styles[name]:
-                assert(type(style) is dict)
+                if not isinstance(style, dict):
+                    raise Exception('style should be dict')
                 for key in style.keys():
-                    assert(type(key) is str)
+                    if not isinstance(key, str):
+                        raise Exception('key should be str')
                     value = style[key]
                     if key in ('color', 'background'):
-                        assert(type(value) in (str, int))
+                        if not isinstance(value, (str, int)):
+                            raise Exception('value should be str or int')
                     else:
-                        assert(key in self.styling_set_map.keys())
-                        assert(type(value) is bool)
+                        if key not in self.styling_set_map.keys():
+                            raise Exception('key should be in styling_set_map')
+                        if not isinstance(value, bool):
+                            raise Exception('value should be bool')
 
     def get_style_codes(self, style):
         style_codes = []
         for key in style.keys():
             if key == 'color':
-                if type(style[key]) is str:
+                if isinstance(style[key], str):
                     style_codes.append(self.color_map[style[key]])
-                elif type(style[key]) is int:
+                elif isinstance(style[key], int):
                     style_codes.append(style[key])
             elif key == 'background':
-                if type(style[key]) is str:
+                if isinstance(style[key], str):
                     style_codes.append(self.background_map[style[key]])
-                elif type(style[key]) is int:
+                elif isinstance(style[key], int):
                     style_codes.append(style[key])
             elif key in self.styling_set_map.keys() and style[key] is True:
                 style_codes.append(self.styling_set_map[key])
@@ -306,7 +315,8 @@ def init(
     log_to_file=True, log_to_json=False
 ):
     global Name, Logger, Log_Config, Log_Levels
-    assert(role in ('cli', 'api', 'cron', 'hook', 'mod'))
+    if role not in ('cli', 'api', 'cron', 'hook', 'mod'):
+        raise Exception('unexpected role')
 
     log_config = copy.deepcopy(Log_Config)
 
@@ -320,7 +330,7 @@ def init(
         Logger.warning('logger already initialized')
 
     output_dir_abs = os.path.abspath(output_dir)
-    if type(output_dir) is str and output_dir.startswith('./'):
+    if isinstance(output_dir, str) and output_dir.startswith('./'):
         output_dir_abs = os.path.abspath(
             os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', output_dir)
         )

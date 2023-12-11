@@ -2,12 +2,10 @@
 """
 Data structure definitions and validation for word files, powered mostly by pydantic.
 """
-from collections import OrderedDict
 from decimal import Decimal
 from enum import Enum
-import json
 import os
-from typing import Annotated, Any, Optional, Union
+from typing import Annotated, Any, Optional
 
 from pydantic import BaseModel, conlist, Field, model_serializer, StringConstraints, validator
 
@@ -244,27 +242,27 @@ class SamsettOrdhluti(BaseModel):
         if 'beygingar' in values and values['beygingar']:
             if val.startswith('no-') or val.startswith('sérn.'):  # nafnorð/sérnöfn
                 for beyging in values['beygingar']:
-                    if type(beyging) is not NafnordaBeygingar:
+                    if not isinstance(beyging, NafnordaBeygingar):
                         raise ValueError(
                             f'inappropriate beyging "{beyging}" for nafnorð/sérnöfn (orð: {val})'
                         )
             elif val.startswith('lo-'):  # lýsingarorð
                 if 'myndir' in values and values['myndir'] is not None:
                     for beyging in values['beygingar']:
-                        if type(beyging) is not NafnordaBeygingar:
+                        if not isinstance(beyging, NafnordaBeygingar):
                             raise ValueError(
                                 f'inappropriate beyging "{beyging}" for lýsingarorð with "myndir"'
                                 f' mapping (orð: {val})'
                             )
                 else:
                     for beyging in values['beygingar']:
-                        if type(beyging) is not LysingarordaBeygingar:
+                        if not isinstance(beyging, LysingarordaBeygingar):
                             raise ValueError(
                                 f'inappropriate beyging "{beyging}" for lýsingarorð (orð: {val})'
                             )
             elif val.startswith('so-'):  # sagnorð
                 for beyging in values['beygingar']:
-                    if type(beyging) is not SagnordaBeygingar:
+                    if not isinstance(beyging, SagnordaBeygingar):
                         raise ValueError(
                             f'inappropriate beyging "{beyging}" for sagnorð (orð: {val})'
                         )
@@ -322,13 +320,13 @@ class OrdData(BaseModel):
         if values['flokkur'] in fl_m_ufl:
             if val is None:
                 raise ValueError('missing undirflokkur')
-        if values['flokkur'] is Ordflokkar.Fornafn and type(val) is not Fornafnaflokkar:
+        if values['flokkur'] is Ordflokkar.Fornafn and not isinstance(val, Fornafnaflokkar):
             raise ValueError('invalid fornafn undirflokkur')
-        if values['flokkur'] is Ordflokkar.Toluord and type(val) is not Toluordaflokkar:
+        if values['flokkur'] is Ordflokkar.Toluord and not isinstance(val, Toluordaflokkar):
             raise ValueError('invalid töluorð undirflokkur')
-        if values['flokkur'] is Ordflokkar.Smaord and type(val) is not Smaordaflokkar:
+        if values['flokkur'] is Ordflokkar.Smaord and not isinstance(val, Smaordaflokkar):
             raise ValueError('invalid smáorð undirflokkur')
-        if values['flokkur'] is Ordflokkar.Sernafn and type(val) is not Sernafnaflokkar:
+        if values['flokkur'] is Ordflokkar.Sernafn and not isinstance(val, Sernafnaflokkar):
             raise ValueError('invalid sérnafn undirflokkur')
         return val
 
@@ -473,7 +471,6 @@ class LysingarordEtFt(BaseModel):
         return val
 
 
-
 class LysingarordStig(BaseModel):
     sb: Optional[LysingarordEtFt] = None
     vb: Optional[LysingarordEtFt] = None
@@ -570,7 +567,7 @@ class SagnordTalaL(BaseModel):
     @validator('ft')
     def et_ft_constraint(cls, val, values, **kwargs):
         if val is None:
-             if 'et' not in values or values['et'] is None:
+            if 'et' not in values or values['et'] is None:
                 raise ValueError('either et or ft should be set')
         return val
 
@@ -592,7 +589,7 @@ class SagnordTidL(BaseModel):
     @validator('þátíð')
     def nutid_thatid_constraint(cls, val, values, **kwargs):
         if val is None:
-             if 'nútíð' not in values or values['nútíð'] is None:
+            if 'nútíð' not in values or values['nútíð'] is None:
                 raise ValueError('either nútíð or þátíð should be set')
         return val
 
@@ -618,8 +615,8 @@ class SagnordHatturL(BaseModel):
         data = dict()
         if 'frumlag' in data_dict and data_dict['frumlag'] is not None:
             data['frumlag'] = data_dict['frumlag']
-        data['framsöguháttur'] =  data_dict['framsöguháttur']
-        data['viðtengingarháttur'] =  data_dict['viðtengingarháttur']
+        data['framsöguháttur'] = data_dict['framsöguháttur']
+        data['viðtengingarháttur'] = data_dict['viðtengingarháttur']
         return data
 
 
@@ -630,7 +627,7 @@ class SagnordTala(BaseModel):
     @validator('ft')
     def et_ft_constraint(cls, val, values, **kwargs):
         if val is None:
-             if 'et' not in values or values['et'] is None:
+            if 'et' not in values or values['et'] is None:
                 raise ValueError('either et or ft should be set')
         return val
 
@@ -652,7 +649,7 @@ class SagnordTid(BaseModel):
     @validator('þátíð')
     def nutid_thatid_constraint(cls, val, values, **kwargs):
         if val is None:
-             if 'nútíð' not in values or values['nútíð'] is None:
+            if 'nútíð' not in values or values['nútíð'] is None:
                 raise ValueError('either nútíð or þátíð should be set')
         return val
 
@@ -741,7 +738,7 @@ class SagnordLhT(BaseModel):
     @validator('vb')
     def sb_vb_constraint(cls, val, values, **kwargs):
         if val is None:
-             if 'sb' not in values or values['sb'] is None:
+            if 'sb' not in values or values['sb'] is None:
                 raise ValueError('either sb or vb should be set')
         return val
 
@@ -910,17 +907,20 @@ class FornafnData(OrdData):
     def should_be_set(cls, val, values, **kwargs):
         if val is None:
             raise ValueError('undirflokkur should be set')
-        elif type(val) is not Fornafnaflokkar:
+        elif not isinstance(val, Fornafnaflokkar):
             raise ValueError('undirflokkur should be fornafnaflokkur')
         return val
 
     @validator('ft')
     def et_ft_constraint(cls, val, values, **kwargs):
         if val is not None:
-            if type(val) is list:
-                if 'et' in values and values['et'] is not None and type(values['et']) is not list:
+            if isinstance(val, list):
+                if (
+                    'et' in values and values['et'] is not None and
+                    not isinstance(values['et'], list)
+                ):
                     raise ValueError('when both et and ft are set they should have same type')
-            elif 'et' in values and values['et'] is not None and type(values['et']) is list:
+            elif 'et' in values and values['et'] is not None and isinstance(values['et'], list):
                 raise ValueError('when et and ft are both set they should have same type')
         elif 'et' not in values or values['et'] is None:
             raise ValueError('either et or ft should be set')
@@ -1317,7 +1317,7 @@ class SernafnData(OrdData):
     def should_be_set(cls, val, values, **kwargs):
         if val is None:
             raise ValueError('undirflokkur should be set')
-        elif type(val) is not Sernafnaflokkar:
+        elif not isinstance(val, Sernafnaflokkar):
             raise ValueError('undirflokkur should be sérnafn undirflokkur')
         return val
 

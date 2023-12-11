@@ -3,7 +3,6 @@ import datetime
 from enum import Enum
 import json
 import os
-import sys
 
 import git
 
@@ -14,8 +13,7 @@ from lokaord import logman
 from lokaord import seer
 from lokaord import stats
 from lokaord.database import db
-from lokaord.database.models import isl
-from lokaord.version import __version__
+from lokaord.version import __version__  # noqa
 
 Name = 'lokaord'
 Ts = None

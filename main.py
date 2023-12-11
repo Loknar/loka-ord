@@ -6,9 +6,11 @@ import sys
 from typing import Optional
 
 import typer
-from typing_extensions import Annotated
+from typer import Option
+from typing import Annotated
 
 import lokaord
+from lokaord import logman
 
 app = typer.Typer(
     chain=True,
@@ -27,18 +29,18 @@ def version(value: bool):
 @app.callback(invoke_without_command=True)
 def common(
     version: Annotated[
-        Optional[bool], typer.Option(
+        Optional[bool], Option(
             '--version', '-v', callback=version, help='Print version and exit.'
         )
     ] = None,
-    logger_name: Annotated[str, typer.Option('--logger-name', '-ln')] = lokaord.Name,
-    loglevel: Annotated[lokaord.LogLevel, typer.Option('--loglevel', '-ll')] = 'info',
+    logger_name: Annotated[str, Option('--logger-name', '-ln')] = lokaord.Name,
+    loglevel: Annotated[lokaord.LogLevel, Option('--loglevel', '-ll')] = 'info',
     log_directory: Annotated[
-        Path, typer.Option(
+        Path, Option(
             '--log-directory', '-ldir', help='Directory to write logs in. Should already exist.'
         )
     ] = './logs/',
-    role: Annotated[lokaord.LoggerRoles, typer.Option('--role', '-r')] = 'cli'
+    role: Annotated[lokaord.LoggerRoles, Option('--role', '-r')] = 'cli'
 ):
     lokaord.Ts = datetime.datetime.now()
     if log_directory.match('logs') and not log_directory.exists():
@@ -58,8 +60,8 @@ def common(
 
 @app.command('build-db', help='Import words from JSON datafiles to database.')
 def build_db(
-    rebuild: Annotated[Optional[bool], typer.Option('--rebuild', '-r')] = False,
-    changes_only: Annotated[Optional[bool], typer.Option('--changes-only', '-ch')] = False
+    rebuild: Annotated[Optional[bool], Option('--rebuild', '-r')] = False,
+    changes_only: Annotated[Optional[bool], Option('--changes-only', '-ch')] = False
 ):
     if rebuild and changes_only:
         raise typer.BadParameter('build-db: --rebuild and --changes-only are mutually exclusive.')
@@ -73,9 +75,9 @@ def backup_db():
 
 @app.command(help='Write words from database to JSON datafiles.')
 def write_files(
-    timestamp: Annotated[Optional[datetime.datetime], typer.Option('--timestamp', '-ts')] = None,
-    time_offset: Annotated[Optional[lokaord.TimeOffset], typer.Option('--time-offset', '-to')] = None,
-    this_run: Annotated[Optional[bool], typer.Option('--this-run', '-tr')] = False
+    timestamp: Annotated[Optional[datetime.datetime], Option('--timestamp', '-ts')] = None,
+    time_offset: Annotated[Optional[lokaord.TimeOffset], Option('--time-offset', '-to')] = None,
+    this_run: Annotated[Optional[bool], Option('--this-run', '-tr')] = False
 ):
     if timestamp is not None and time_offset is not None:
         logman.warning('Both timestamp and time_offset specified, using timestamp.')
@@ -95,7 +97,7 @@ def build_sight():
 
 
 @app.command(help='Pack word files into packed JSON files intended for web use.')
-def webpack(wpp: Annotated[Optional[int], typer.Option('--words-per-pack', '-wpp')] = 3000):
+def webpack(wpp: Annotated[Optional[int], Option('--words-per-pack', '-wpp')] = 3000):
     lokaord.webpack(words_per_pack=wpp)
 
 
@@ -105,10 +107,11 @@ def search(word: str):
         raise typer.BadParameter('Word can\'t be empty string.')
     lokaord.search(word)
 
+
 @app.command(help='Search for words in a sentence in sight file.')
 def scan_sentence(
     sentence: str,
-    hide_matches: Annotated[Optional[bool], typer.Option('--hide-matches', '-hm')] = False
+    hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False
 ):
     if sentence == '':
         raise typer.BadParameter('Sentence can\'t be empty string.')
@@ -119,7 +122,7 @@ def scan_sentence(
 @app.command(help='Short for the "scan-sentence" command.')
 def ss(
     sentence: str,
-    hide_matches: Annotated[Optional[bool], typer.Option('--hide-matches', '-hm')] = False
+    hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False
 ):
     scan_sentence(sentence, hide_matches)
 
@@ -140,7 +143,7 @@ def runtime():
 
 
 @app.command(help='Initialize lokaord (same as: "build-db write-files build-sight md-stats").')
-def init(rebuild: Annotated[Optional[bool], typer.Option('--rebuild', '-r')] = False):
+def init(rebuild: Annotated[Optional[bool], Option('--rebuild', '-r')] = False):
     lokaord.build_db(rebuild)
     lokaord.write_files()
     lokaord.build_sight()

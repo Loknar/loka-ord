@@ -5,6 +5,7 @@ import lokaord
 from lokaord.database import db
 from lokaord.database.models import isl
 
+
 def get_words_count():
     '''
     collect some basic word count stats
@@ -13,48 +14,36 @@ def get_words_count():
         'nafnorð': {
             'kyn-kjarnaorð': {
                 'kk': (
-                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
-                        isl.Nafnord.Kyn == isl.Kyn.Karlkyn
-                    ).filter(
-                        isl.Ord.Samsett == False
-                    ).count()
+                    db.Session.query(isl.Nafnord).filter_by(
+                        Kyn=isl.Kyn.Karlkyn
+                    ).join(isl.Ord).filter_by(Samsett=False).count()
                 ),
                 'kvk': (
-                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
-                        isl.Nafnord.Kyn == isl.Kyn.Kvenkyn
-                    ).filter(
-                        isl.Ord.Samsett == False
-                    ).count()
+                    db.Session.query(isl.Nafnord).filter_by(
+                        Kyn=isl.Kyn.Kvenkyn
+                    ).join(isl.Ord).filter_by(Samsett=False).count()
                 ),
                 'hk': (
-                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
-                        isl.Nafnord.Kyn == isl.Kyn.Hvorugkyn
-                    ).filter(
-                        isl.Ord.Samsett == False
-                    ).count()
+                    db.Session.query(isl.Nafnord).filter_by(
+                        Kyn=isl.Kyn.Hvorugkyn
+                    ).join(isl.Ord).filter_by(Samsett=False).count()
                 ),
             },
             'kyn-samsett': {
                 'kk': (
-                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
-                        isl.Nafnord.Kyn == isl.Kyn.Karlkyn
-                    ).filter(
-                        isl.Ord.Samsett == True
-                    ).count()
+                    db.Session.query(isl.Nafnord).filter_by(
+                        Kyn=isl.Kyn.Karlkyn
+                    ).join(isl.Ord).filter_by(Samsett=True).count()
                 ),
                 'kvk': (
-                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
-                        isl.Nafnord.Kyn == isl.Kyn.Kvenkyn
-                    ).filter(
-                        isl.Ord.Samsett == True
-                    ).count()
+                    db.Session.query(isl.Nafnord).filter_by(
+                        Kyn=isl.Kyn.Kvenkyn
+                    ).join(isl.Ord).filter_by(Samsett=True).count()
                 ),
                 'hk': (
-                    db.Session.query(isl.Nafnord).join(isl.Ord).filter(
-                        isl.Nafnord.Kyn == isl.Kyn.Hvorugkyn
-                    ).filter(
-                        isl.Ord.Samsett == True
-                    ).count()
+                    db.Session.query(isl.Nafnord).filter_by(
+                        Kyn=isl.Kyn.Hvorugkyn
+                    ).join(isl.Ord).filter_by(Samsett=True).count()
                 )
             },
             'kjarnaorð': db.Session.query(isl.Ord).filter_by(
@@ -173,14 +162,10 @@ def get_words_count():
         'allt-nema-sérnöfn': {
             'kjarnaorð': db.Session.query(isl.Ord).filter(
                 isl.Ord.Ordflokkur != isl.Ordflokkar.Sernafn
-            ).filter(
-                isl.Ord.Samsett == False
-            ).count(),
+            ).filter_by(Samsett=False).count(),
             'samsett': db.Session.query(isl.Ord).filter(
                 isl.Ord.Ordflokkur != isl.Ordflokkar.Sernafn
-            ).filter(
-                isl.Ord.Samsett == True
-            ).count(),
+            ).filter_by(Samsett=True).count(),
             'samtals': db.Session.query(isl.Ord).filter(
                 isl.Ord.Ordflokkur != isl.Ordflokkar.Sernafn
             ).count()
@@ -193,18 +178,14 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Eiginnafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Eiginnafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     )
                 },
                 'kyn-samsett': {
@@ -213,30 +194,22 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Eiginnafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Eiginnafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     )
                 },
                 'kjarnaorð': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Eiginnafn
-                ).filter(
-                    isl.Ord.Samsett == False
-                ).count(),
+                ).filter_by(Samsett=False).count(),
                 'samsett': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Eiginnafn
-                ).filter(
-                    isl.Ord.Samsett == True
-                ).count(),
+                ).filter_by(Samsett=True).count(),
                 'samtals': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Eiginnafn
                 ).count()
@@ -248,27 +221,21 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     ),
                     'hk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Hvorugkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     )
                 },
                 'kyn-samsett': {
@@ -277,39 +244,29 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     ),
                     'hk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Hvorugkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     )
                 },
                 'kjarnaorð': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
-                ).filter(
-                    isl.Ord.Samsett == False
-                ).count(),
+                ).filter_by(Samsett=False).count(),
                 'samsett': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
-                ).filter(
-                    isl.Ord.Samsett == True
-                ).count(),
+                ).filter_by(Samsett=True).count(),
                 'samtals': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Gaelunafn
                 ).count()
@@ -321,18 +278,14 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Kenninafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Kenninafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     )
                 },
                 'kyn-samsett': {
@@ -341,36 +294,28 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Kenninafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Kenninafn
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     )
                 },
                 'kjarnaorð': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Kenninafn
-                ).filter(
-                    isl.Ord.Samsett == False
-                ).count(),
+                ).filter_by(Samsett=False).count(),
                 'samsett': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Kenninafn
-                ).filter(
-                    isl.Ord.Samsett == True
-                ).count(),
+                ).filter_by(Samsett=True).count(),
                 'samtals': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Kenninafn
                 ).count()
             },
             'millinöfn': {
-                'samtals':  db.Session.query(isl.Sernafn).join(isl.Ord).filter(
+                'samtals': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Millinafn
                 ).count()
             },
@@ -381,27 +326,21 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     ),
                     'hk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Hvorugkyn
-                        ).filter(
-                            isl.Ord.Samsett == False
-                        ).count()
+                        ).filter_by(Samsett=False).count()
                     )
                 },
                 'kyn-samsett': {
@@ -410,48 +349,38 @@ def get_words_count():
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Karlkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     ),
                     'kvk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Kvenkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     ),
                     'hk': (
                         db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                             isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
                         ).filter(
                             isl.Sernafn.Kyn == isl.Kyn.Hvorugkyn
-                        ).filter(
-                            isl.Ord.Samsett == True
-                        ).count()
+                        ).filter_by(Samsett=True).count()
                     )
                 },
                 'kjarnaorð': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
-                ).filter(
-                    isl.Ord.Samsett == False
-                ).count(),
+                ).filter_by(Samsett=False).count(),
                 'samsett': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
-                ).filter(
-                    isl.Ord.Samsett == True
-                ).count(),
+                ).filter_by(Samsett=True).count(),
                 'samtals': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
                     isl.Sernafn.Undirflokkur == isl.Sernafnaflokkar.Ornefni
                 ).count()
             },
-            'kjarnaorð': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
-                isl.Ord.Samsett == False
+            'kjarnaorð': db.Session.query(isl.Sernafn).join(isl.Ord).filter_by(
+                Samsett=False
             ).count(),
-            'samsett': db.Session.query(isl.Sernafn).join(isl.Ord).filter(
-                isl.Ord.Samsett == True
+            'samsett': db.Session.query(isl.Sernafn).join(isl.Ord).filter_by(
+                Samsett=True
             ).count(),
             'samtals': db.Session.query(isl.Sernafn).count(),
         },
@@ -489,8 +418,8 @@ def get_words_count_markdown_table():
         '| Kenninöfn | {sn_k_kk} | {sn_k_kvk} |   | {sn_k_k} | {sn_k_s_kk} | {sn_k_s_kvk} |   |'
         ' {sn_k_s} | **{sn_k_a}** |\n'
         '| Miłlinöfn |   |   |   |   |   |   |   |   | **{sn_m}** |\n'
-        '| Gælunöfn  | {sn_g_kk} | {sn_g_kvk} | {sn_g_hk} | {sn_g_k} | {sn_g_s_kk} | {sn_g_s_kvk} | {sn_g_s_hk} |'
-        ' {sn_g_s} | **{sn_g_a}** |\n'
+        '| Gælunöfn  | {sn_g_kk} | {sn_g_kvk} | {sn_g_hk} | {sn_g_k} | {sn_g_s_kk} | {sn_g_s_kvk}'
+        ' | {sn_g_s_hk} | {sn_g_s} | **{sn_g_a}** |\n'
         '| Örnefni   | {sn_o_kk} | {sn_o_kvk} | {sn_o_hk} | {sn_o_k} | {sn_o_s_kk} | {sn_o_s_kvk}'
         ' | {sn_o_s_hk} | {sn_o_s} | **{sn_o_a}** |\n'
         '| **Alls**  |   |   |   | **{a_2_k}** |   |   |   | **{a_2_s}** | **{a_2_a}** |\n'
@@ -569,9 +498,10 @@ def get_words_count_markdown_table():
     return md_table
 
 
-def calc_runtime():
+def calc_runtime() -> str:
     '''
-    return runtime timedelta info as a human readable string
+    uses external datetime object lokaord.Ts
+    returns runtime timedelta info as a human readable string
     '''
     now = datetime.datetime.now()
     duration = now - lokaord.Ts

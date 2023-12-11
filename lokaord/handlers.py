@@ -4,7 +4,6 @@ Handler classes for import/export functionality.
 
 Importing data from files to SQL database, and exporting data from SQL database to files.
 """
-from collections import OrderedDict
 import copy
 import datetime
 from decimal import Decimal
@@ -579,7 +578,7 @@ class Ord:
         return ord_data
 
     @classmethod
-    def get_files_list_sorted(cls, override_dir_rel: str=None) -> tuple[list[str], list[str]]:
+    def get_files_list_sorted(cls, override_dir_rel: str = None) -> tuple[list[str], list[str]]:
         """
         Get lists of files for the orðflokkur.
 
@@ -699,13 +698,11 @@ class Ord:
         if merking is not None and 'merking' not in data:
             data['merking'] = merking
         tracebacks = []
-        correct_struct = None
         for struct in list(typing.get_args(self.__annotations__['data'])):
             if struct is types.NoneType:
                 continue
             try:
                 self.data = struct(**data)
-                correct_struct = struct
                 break
             except pydantic.ValidationError:
                 tracebacks.append(traceback.format_exc())
@@ -921,7 +918,7 @@ class Ord:
             ]
         return data
 
-    def apply_ordhluti_ch_to_ord(self, ord_str: str, ordhluti: dict | OrderedDict) -> str:
+    def apply_ordhluti_ch_to_ord(self, ord_str: str, ordhluti: dict) -> str:
         """
         apply certain orðhluti rules to a provided orð
         implemented rules:
@@ -944,23 +941,23 @@ class Ord:
         return ord_str_ch
 
     def apply_ordhluti_ch_to_dict(
-        self, ord_dict: dict | OrderedDict, ordhluti: dict | OrderedDict
-    ) -> dict | OrderedDict:
+        self, ord_dict: dict, ordhluti: dict
+    ) -> dict:
         """
         apply certain orðhluti rules to contents in a provided dict
         """
-        dictos = (dict, OrderedDict)
+        dictos = (dict, )
         dont_change_keys = set(['frumlag'])
         for key in ord_dict:
             if key in dont_change_keys:
                 continue
-            if type(ord_dict[key]) is str:
+            if isinstance(ord_dict[key], str):
                 ord_dict[key] = self.apply_ordhluti_ch_to_ord(ord_dict[key], ordhluti)
-            elif type(ord_dict[key]) is list:
+            elif isinstance(ord_dict[key], list):
                 for i in range(0, len(ord_dict[key])):
                     if ord_dict[key][i] is None:
                         continue
-                    elif type(ord_dict[key][i]) is str:
+                    elif isinstance(ord_dict[key][i], str):
                         ord_dict[key][i] = (
                             self.apply_ordhluti_ch_to_ord(ord_dict[key][i], ordhluti)
                         )
@@ -973,8 +970,8 @@ class Ord:
         return ord_dict
 
     def apply_beygingar_filters(
-        self, isl_ord_dict: dict | OrderedDict, ordhluti: dict | OrderedDict
-    ) -> dict | OrderedDict:
+        self, isl_ord_dict: dict, ordhluti: dict
+    ) -> dict:
         """
         apply beygingar filtering to contents in a provided dict
         """
@@ -1203,71 +1200,67 @@ class Ord:
                     del isl_ord_dict['lýsingarháttur']
         return isl_ord_dict
 
-    def prepend_str_to_dict(
-        self, ord_str: str, ord_dict: dict | OrderedDict
-    ) -> dict | OrderedDict:
+    def prepend_str_to_dict(self, ord_str: str, ord_dict: dict) -> dict:
         """
         prepend str to all appropriate values in beygingar dict
         """
-        dictos = (dict, OrderedDict)
         dont_change_keys = set(['frumlag'])
         for key in ord_dict:
             if key in dont_change_keys:
                 continue
-            if type(ord_dict[key]) is str:
+            if isinstance(ord_dict[key], str):
                 ord_dict[key] = '%s%s' % (ord_str, ord_dict[key])
-            elif type(ord_dict[key]) is list:
+            elif isinstance(ord_dict[key], list):
                 for i in range(0, len(ord_dict[key])):
                     if ord_dict[key][i] is None:
                         continue
-                    elif type(ord_dict[key][i]) is str:
+                    elif isinstance(ord_dict[key][i], str):
                         ord_dict[key][i] = '%s%s' % (ord_str, ord_dict[key][i])
-                    elif type(ord_dict[key][i]) in dictos:
+                    elif isinstance(ord_dict[key][i], dict):
                         ord_dict[key][i] = self.prepend_str_to_dict(ord_str, ord_dict[key][i])
-            elif type(ord_dict[key]) in dictos:
+            elif isinstance(ord_dict[key], dict):
                 ord_dict[key] = self.prepend_str_to_dict(ord_str, ord_dict[key])
         return ord_dict
 
     def merge_dict_to_dict(
-        self, pre_dict: dict | OrderedDict, ord_dict: dict | OrderedDict
-    ) -> dict | OrderedDict:
+        self, pre_dict: dict, ord_dict: dict
+    ) -> dict:
         """
         prepend pre beygingar dict to parallel values in beygingar dict
         """
-        dictos = (dict, OrderedDict)
         dont_change_keys = set(['frumlag'])
         for key in ord_dict:
             if key in dont_change_keys:
                 continue
             if key not in pre_dict:
                 raise Exception('Key "%s" missing from pre_dict.' % (key, ))
-            if type(ord_dict[key]) is str:
-                if type(pre_dict[key]) is not str:
+            if isinstance(ord_dict[key], str):
+                if not isinstance(pre_dict[key], str):
                     raise Exception('Key pre_dict["%s"] should be str.' % (key, ))
                 ord_dict[key] = '%s%s' % (pre_dict[key], ord_dict[key])
-            elif type(ord_dict[key]) is list:
-                if type(pre_dict[key]) is not list:
+            elif isinstance(ord_dict[key], list):
+                if not isinstance(pre_dict[key], list):
                     raise Exception('Key pre_dict["%s"] should be list.' % (key, ))
                 for i in range(0, len(ord_dict[key])):
                     if ord_dict[key][i] is None:
                         continue
-                    elif type(ord_dict[key][i]) is str:
-                        if type(pre_dict[key][i]) is not str:
+                    elif isinstance(ord_dict[key][i], str):
+                        if not isinstance(pre_dict[key][i], str):
                             raise Exception('Key pre_dict["%s"][%s] should be str.' % (key, i))
                         ord_dict[key][i] = '%s%s' % (pre_dict[key][i], ord_dict[key][i])
-                    elif type(ord_dict[key][i]) in dictos:
-                        if type(pre_dict[key][i]) not in dictos:
+                    elif isinstance(ord_dict[key][i], dict):
+                        if not isinstance(pre_dict[key][i], dict):
                             raise Exception('Key pre_dict["%s"][%s] should be dict.' % (key, i))
                         ord_dict[key][i] = (
                             self.merge_dict_to_dict(pre_dict[key][i], ord_dict[key][i])
                         )
-            elif type(ord_dict[key]) in dictos:
-                if type(pre_dict[key]) not in dictos:
+            elif isinstance(ord_dict[key], dict):
+                if not isinstance(pre_dict[key], dict):
                     raise Exception('Key pre_dict["%s"] should be dict.' % (key, ))
                 ord_dict[key] = self.merge_dict_to_dict(pre_dict[key], ord_dict[key])
         return ord_dict
 
-    def ordhluti_get_beygingar(self, ordhluti: dict | OrderedDict) -> dict | OrderedDict:
+    def ordhluti_get_beygingar(self, ordhluti: dict) -> dict:
         """
         Usage:  beygingar = self.ordhluti_get_beygingar(ordhluti)
         Before: @ordhluti is a dict containing mynd and samsetning type, or myndir type, and
@@ -1306,7 +1299,7 @@ class Ord:
         isl_ord_dict = self.apply_ordhluti_ch_to_dict(isl_ord_dict, ordhluti)
         return isl_ord_dict
 
-    def get_lo_myndir_beygingar(self, ordhluti: dict | OrderedDict) -> dict | OrderedDict:
+    def get_lo_myndir_beygingar(self, ordhluti: dict) -> dict:
         """
         map lýsingarorð beygingar to nafnorð-like beygingar (also sérnafn-like)
         """
@@ -1347,7 +1340,7 @@ class Ord:
         }
         return lo_myndir_beygingar
 
-    def merge_ordhlutar(self, samsett: list[dict | OrderedDict:]) -> dict | OrderedDict:
+    def merge_ordhlutar(self, samsett: list[dict:]) -> dict:
         """
         Usage:  beygingar = self.merge_ordhlutar(samsett)
         Before: @samsett is a list of dicts containging info on combination of a orð.
@@ -1371,7 +1364,7 @@ class Ord:
                 beygingar = self.merge_dict_to_dict(oh_beygingar, beygingar)
         return beygingar
 
-    def derive_beygingar_from_samsett(self, data: dict | OrderedDict) -> dict | OrderedDict:
+    def derive_beygingar_from_samsett(self, data: dict) -> dict:
         """
         Usage:  derived = self.derive_beygingar_from_samsett(data)
         Before: @data is a dict containing orð data which is combined, that is, it has a samsett
@@ -1812,7 +1805,7 @@ class Lysingarord(Ord):
             kennistr = self.make_kennistrengur()
             if self.data.kennistrengur != kennistr:
                 raise Exception(
-                    'Orð id=%s, loaded from db, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+                    'Orð id=%s, from db, kennistrengur mismatch, loaded="%s", derived="%s"' % (
                         isl_ord.Ord_id, self.data.kennistrengur, kennistr
                     )
                 )
@@ -3029,19 +3022,19 @@ class Fornafn(Ord):
                 isl_ord.Edited = datetime.datetime.utcnow()
                 db.Session.commit()
             return (isl_ord, changes_made)
-        if type(self.data.et) is list:
+        if isinstance(self.data.et, list):
             isl_fn.fk_et_Fallbeyging_id, changes_made = self.write_fallbeyging_to_db(
                 isl_fn.fk_et_Fallbeyging_id,
                 self.data.et,
                 changes_made
             )
-        if type(self.data.ft) is list:
+        if isinstance(self.data.ft, list):
             isl_fn.fk_ft_Fallbeyging_id, changes_made = self.write_fallbeyging_to_db(
                 isl_fn.fk_ft_Fallbeyging_id,
                 self.data.ft,
                 changes_made
             )
-        if self.data.et is not None and type(self.data.et) is not list:
+        if self.data.et is not None and not isinstance(self.data.et, list):
             if self.data.et.kk is not None:
                 isl_fn.fk_et_kk_Fallbeyging_id, changes_made = self.write_fallbeyging_to_db(
                     isl_fn.fk_et_kk_Fallbeyging_id,
@@ -3060,7 +3053,7 @@ class Fornafn(Ord):
                     self.data.et.hk,
                     changes_made
                 )
-        if self.data.ft is not None and type(self.data.ft) is not list:
+        if self.data.ft is not None and not isinstance(self.data.ft, list):
             if self.data.ft.kk is not None:
                 isl_fn.fk_ft_kk_Fallbeyging_id, changes_made = self.write_fallbeyging_to_db(
                     isl_fn.fk_ft_kk_Fallbeyging_id,
@@ -3329,7 +3322,6 @@ class Toluord(Ord):
             db.Session.commit()
         return (isl_ord, changes_made)
 
-
     @classmethod
     def get_files_list_sorted(cls):
         kjarna_ord_files_list = []
@@ -3381,14 +3373,18 @@ class Toluord(Ord):
             if isl_ft.fk_et_kk_Fallbeyging_id is not None:
                 ord_data['et']['kk'] = self.load_fallbeyging_from_db(isl_ft.fk_et_kk_Fallbeyging_id)
             if isl_ft.fk_et_kvk_Fallbeyging_id is not None:
-                ord_data['et']['kvk'] = self.load_fallbeyging_from_db(isl_ft.fk_et_kvk_Fallbeyging_id)
+                ord_data['et']['kvk'] = self.load_fallbeyging_from_db(
+                    isl_ft.fk_et_kvk_Fallbeyging_id
+                )
             if isl_ft.fk_et_hk_Fallbeyging_id is not None:
                 ord_data['et']['hk'] = self.load_fallbeyging_from_db(isl_ft.fk_et_hk_Fallbeyging_id)
             # ft
             if isl_ft.fk_ft_kk_Fallbeyging_id is not None:
                 ord_data['ft']['kk'] = self.load_fallbeyging_from_db(isl_ft.fk_ft_kk_Fallbeyging_id)
             if isl_ft.fk_ft_kvk_Fallbeyging_id is not None:
-                ord_data['ft']['kvk'] = self.load_fallbeyging_from_db(isl_ft.fk_ft_kvk_Fallbeyging_id)
+                ord_data['ft']['kvk'] = self.load_fallbeyging_from_db(
+                    isl_ft.fk_ft_kvk_Fallbeyging_id
+                )
             if isl_ft.fk_ft_hk_Fallbeyging_id is not None:
                 ord_data['ft']['hk'] = self.load_fallbeyging_from_db(isl_ft.fk_ft_hk_Fallbeyging_id)
             if 'et' not in ord_data and 'ft' not in ord_data:
@@ -3912,10 +3908,9 @@ class Skammstofun(Ord):
                 continue
             if not json_file.name.endswith('.json'):
                 continue
-            json_data = None
             try:
                 with json_file.open(mode='r', encoding='utf-8') as fi:
-                    json_data = json.loads(fi.read())
+                    json.loads(fi.read())
             except json.decoder.JSONDecodeError:
                 raise Exception(f'File "{json_file.name}" has invalid JSON format.')
             json_file_rel = os.path.join(files_directory_rel, json_file.name)
@@ -4041,6 +4036,7 @@ class MyIndentJSONEncoder(json.JSONEncoder):
     r_strengur = ''.join(
         random.choices(string.ascii_uppercase + string.ascii_lowercase + string.digits, k=20)
     )
+
     def default(self, obj):
         if isinstance(obj, Decimal):
             return (
@@ -4049,6 +4045,7 @@ class MyIndentJSONEncoder(json.JSONEncoder):
                 f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->'
             )
         return super(MyIndentJSONEncoder, self).default(obj)
+
     def iterencode(self, o, _one_shot=False):
         list_lvl = 0
         keys_to_differently_encode = [
@@ -4088,6 +4085,7 @@ class DecimalJSONEncoder(json.JSONEncoder):
     r_strengur = ''.join(
         random.choices(string.ascii_uppercase + string.ascii_lowercase + string.digits, k=20)
     )
+
     def default(self, obj):
         if isinstance(obj, Decimal):
             return (
@@ -4096,6 +4094,7 @@ class DecimalJSONEncoder(json.JSONEncoder):
                 f'FJARLAEGJA_GAESALAPPIR_{self.r_strengur}->'
             )
         return super(DecimalJSONEncoder, self).default(obj)
+
     def iterencode(self, o, _one_shot=False):
         for s in super(DecimalJSONEncoder, self).iterencode(o, _one_shot=_one_shot):
             if f'"<-FJARLAEGJA_GAESALAPPIR_{self.r_strengur}' in s:
