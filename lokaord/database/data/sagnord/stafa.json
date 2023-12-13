@@ -78,8 +78,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "stafandi"
+		"nútíðar": "stafandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stafaður", "stafaðan", "stöfuðum", "stafaðs"],
+					"kvk": ["stöfuð", "stafaða", "stafaðri", "stafaðrar"],
+					"hk": ["stafað", "stafað", "stöfuðu", "stafaðs"]
+				},
+				"ft": {
+					"kk": ["stafaðir", "stafaða", "stöfuðum", "stafaðra"],
+					"kvk": ["stafaðar", "stafaðar", "stöfuðum", "stafaðra"],
+					"hk": ["stöfuð", "stöfuð", "stöfuðum", "stafaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stafaði", "stafaða", "stafaða", "stafaða"],
+					"kvk": ["stafaða", "stöfuðu", "stöfuðu", "stöfuðu"],
+					"hk": ["stafaða", "stafaða", "stafaða", "stafaða"]
+				},
+				"ft": {
+					"kk": ["stöfuðu", "stöfuðu", "stöfuðu", "stöfuðu"],
+					"kvk": ["stöfuðu", "stöfuðu", "stöfuðu", "stöfuðu"],
+					"hk": ["stöfuðu", "stöfuðu", "stöfuðu", "stöfuðu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-stafa",
-	"hash": "fe9d4cc7fe6f6fdf0b699c01fad225979dd18cf3649e9f71a0c5927960899627"
+	"hash": "54cf038b09ffe6865945f9ed7d34ed421587deaf9f7f66682e3653de1bbc41de"
 }

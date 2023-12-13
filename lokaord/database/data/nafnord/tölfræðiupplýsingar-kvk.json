@@ -1,0 +1,32 @@
+{
+	"orð": "tölfræðiupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "töl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["tölfræðiupplýsingar", "tölfræðiupplýsingar", "tölfræðiupplýsingum", "tölfræðiupplýsinga"],
+		"mg": ["tölfræðiupplýsingarnar", "tölfræðiupplýsingarnar", "tölfræðiupplýsingunum", "tölfræðiupplýsinganna"]
+	},
+	"kennistrengur": "no-tölfræðiupplýsingar-kvk",
+	"hash": "a22dde4b9e36649aa99a1eeb73a4ce5acf28060d5b68b41bcb27a29a6a54adcf"
+}
