@@ -2,6 +2,17 @@
 	"orð": "þjónusta",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þjón",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þjóna"
+		},
+		{
+			"leiðir": "u",
+			"kennistrengur": "no-sta-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["þjónusta", "þjónustu", "þjónustu", "þjónustu"],
 		"mg": ["þjónustan", "þjónustuna", "þjónustunni", "þjónustunnar"]
@@ -11,5 +22,5 @@
 		"mg": ["þjónusturnar", "þjónusturnar", "þjónustunum", "þjónustanna"]
 	},
 	"kennistrengur": "no-þjónusta-kvk",
-	"hash": "ac2c448cd39b7caa80f8ef56ae7c02bdaa9cb3e39be099412c20e49b3e9272cc"
+	"hash": "2ca0615ad8545a278c3f8116805346f936a2b197af1f844b0c9bd103f0eb47a8"
 }
