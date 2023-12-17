@@ -1,0 +1,31 @@
+{
+	"orð": "bókmenntaverðlaun",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "mennta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mennt-kvk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-laun-hk"
+		}
+	],
+	"ft": {
+		"ág": ["bókmenntaverðlaun", "bókmenntaverðlaun", "bókmenntaverðlaunum", "bókmenntaverðlauna"],
+		"mg": ["bókmenntaverðlaunin", "bókmenntaverðlaunin", "bókmenntaverðlaununum", "bókmenntaverðlaunanna"]
+	},
+	"kennistrengur": "no-bókmenntaverðlaun-hk",
+	"hash": "b065bb99ea124c7bf844ff7914844ba2d88957c4ad9173f386c8fb00e4dd01a2"
+}
