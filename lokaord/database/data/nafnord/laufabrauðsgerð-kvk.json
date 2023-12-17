@@ -1,0 +1,27 @@
+{
+	"orð": "laufabrauðsgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "laufa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lauf-hk"
+		},
+		{
+			"mynd": "brauðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-brauð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["laufabrauðsgerð", "laufabrauðsgerð", "laufabrauðsgerð", "laufabrauðsgerðar"],
+		"mg": ["laufabrauðsgerðin", "laufabrauðsgerðina", "laufabrauðsgerðinni", "laufabrauðsgerðarinnar"]
+	},
+	"kennistrengur": "no-laufabrauðsgerð-kvk",
+	"hash": "883bb3c26922b636eed6929ab31ffecaac122d6420e3b6eec8a091707f3a1f23"
+}
