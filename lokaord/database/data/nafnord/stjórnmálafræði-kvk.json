@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnmálafræði",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fræði-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnmálafræði", "stjórnmálafræði", "stjórnmálafræði", "stjórnmálafræði"],
+		"mg": ["stjórnmálafræðin", "stjórnmálafræðina", "stjórnmálafræðinni", "stjórnmálafræðinnar"]
+	},
+	"kennistrengur": "no-stjórnmálafræði-kvk",
+	"hash": "65c7f29f8307586c60b133c14217c62ec7431a131e67269bc70bca169a90fae6"
+}
