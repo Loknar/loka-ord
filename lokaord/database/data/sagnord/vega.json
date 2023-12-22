@@ -1,0 +1,114 @@
+{
+	"orð": "vega",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "vega",
+		"sagnbót": "vegið",
+		"boðháttur": {
+			"stýfður": "veg",
+			"et": "vegðu",
+			"ft": "vegið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veg", "vegur", "vegur"],
+					"ft": ["vegum", "vegið", "vega"]
+				},
+				"þátíð": {
+					"et": ["vó", "vóst", "vó"],
+					"ft": ["vógum", "vóguð", "vógu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vegi", "vegir", "vegi"],
+					"ft": ["vegum", "vegið", "vegi"]
+				},
+				"þátíð": {
+					"et": ["vægi", "vægir", "vægi"],
+					"ft": ["vægjum", "vægjuð", "vægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vegurðu",
+					"ft": "vegiði"
+				},
+				"þátíð": {
+					"et": "vóstu",
+					"ft": "vóguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vegirðu",
+					"ft": "vegiði"
+				},
+				"þátíð": {
+					"et": "vægirðu",
+					"ft": "vægjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vegast",
+		"sagnbót": "vegist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vegst", "vegst", "vegst"],
+					"ft": ["vegumst", "vegist", "vegast"]
+				},
+				"þátíð": {
+					"et": ["vóst", "vóst", "vóst"],
+					"ft": ["vógumst", "vógust", "vógust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vegist", "vegist", "vegist"],
+					"ft": ["vegumst", "vegist", "vegist"]
+				},
+				"þátíð": {
+					"et": ["vægist", "vægist", "vægist"],
+					"ft": ["vægjumst", "vægjust", "vægjust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vegandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veginn", "veginn", "vegnum", "vegins"],
+					"kvk": ["vegin", "vegna", "veginni", "veginnar"],
+					"hk": ["vegið", "vegið", "vegnum", "vegins"]
+				},
+				"ft": {
+					"kk": ["vegnir", "vegna", "vegnum", "veginna"],
+					"kvk": ["vegnar", "vegnar", "vegnum", "veginna"],
+					"hk": ["vegin", "vegin", "vegnum", "veginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vegni", "vegna", "vegna", "vegna"],
+					"kvk": ["vegna", "vegnu", "vegnu", "vegnu"],
+					"hk": ["vegna", "vegna", "vegna", "vegna"]
+				},
+				"ft": {
+					"kk": ["vegnu", "vegnu", "vegnu", "vegnu"],
+					"kvk": ["vegnu", "vegnu", "vegnu", "vegnu"],
+					"hk": ["vegnu", "vegnu", "vegnu", "vegnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vega",
+	"hash": "a0969153fbf0b0c6f310fa595a2bfe44255168e77c2bfc7462d27e11a9fb0b75"
+}
