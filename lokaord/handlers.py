@@ -3707,15 +3707,17 @@ class Sernafn(Ord):
                     subfolder_1 = 'islensk-kvenmannsnofn'
                 case structs.Kyn.Karlkyn:
                     subfolder_1 = 'islensk-karlmannsnofn'
+                case structs.Kyn.Hvorugkyn:
+                    subfolder_1 = 'islensk-hvormannsnofn'
                 case _:
-                    raise Exception('only kvenkyn and karlkyn currently implemented')
+                    raise Exception('unexpected kyn')
             match self.data.undirflokkur:
                 case structs.Sernafnaflokkar.Eiginnafn:
                     subfolder_2 = 'eigin'
                 case structs.Sernafnaflokkar.Kenninafn:
                     subfolder_2 = 'kenni'
                 case _:
-                    raise Exception('should not happen')
+                    raise Exception('unexpected sérnafnaundirflokkur')
             return os.path.join(
                 self.data.undirflokkur.get_folder(),
                 subfolder_1,
@@ -3799,6 +3801,8 @@ class Sernafn(Ord):
             os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'kenni'),
             os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'eigin'),
             os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'kenni'),
+            os.path.join('sernofn', 'mannanofn', 'islensk-hvormannsnofn', 'eigin'),
+            os.path.join('sernofn', 'mannanofn', 'islensk-hvormannsnofn', 'kenni'),
             os.path.join('sernofn', 'mannanofn', 'islensk-millinofn'),
             os.path.join('sernofn', 'gaelunofn', 'kk'),
             os.path.join('sernofn', 'gaelunofn', 'kvk'),

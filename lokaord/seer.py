@@ -481,6 +481,16 @@ def build_sight(filename='sight', use_pointless=None):
             'dir': os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'kenni'),
         },
         {
+            'name': 'sérnöfn, eiginnafn (hk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-hvormannsnofn', 'eigin'),
+        },
+        {
+            'name': 'sérnöfn, kenninafn (hk)',
+            'root': datafiles_dir_abs,
+            'dir': os.path.join('sernofn', 'mannanofn', 'islensk-hvormannsnofn', 'kenni'),
+        },
+        {
             'name': 'sérnöfn, miłlinafn',
             'root': datafiles_dir_abs,
             'dir': os.path.join('sernofn', 'mannanofn', 'islensk-millinofn'),
