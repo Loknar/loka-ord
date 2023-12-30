@@ -1,0 +1,155 @@
+{
+	"orð": "lána",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lána",
+		"sagnbót": "lánað",
+		"boðháttur": {
+			"stýfður": "lána",
+			"et": "lánaðu",
+			"ft": "lánið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lána", "lánar", "lánar"],
+					"ft": ["lánum", "lánið", "lána"]
+				},
+				"þátíð": {
+					"et": ["lánaði", "lánaðir", "lánaði"],
+					"ft": ["lánuðum", "lánuðuð", "lánuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["láni", "lánir", "láni"],
+					"ft": ["lánum", "lánið", "láni"]
+				},
+				"þátíð": {
+					"et": ["lánaði", "lánaðir", "lánaði"],
+					"ft": ["lánuðum", "lánuðuð", "lánuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lánarðu",
+					"ft": "lániði"
+				},
+				"þátíð": {
+					"et": "lánaðirðu",
+					"ft": "lánuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lánirðu",
+					"ft": "lániði"
+				},
+				"þátíð": {
+					"et": "lánaðirðu",
+					"ft": "lánuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lánast",
+		"sagnbót": "lánast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lánast", "lánast", "lánast"],
+					"ft": ["lánumst", "lánist", "lánast"]
+				},
+				"þátíð": {
+					"et": ["lánaðist", "lánaðist", "lánaðist"],
+					"ft": ["lánuðumst", "lánuðust", "lánuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lánist", "lánist", "lánist"],
+					"ft": ["lánumst", "lánist", "lánist"]
+				},
+				"þátíð": {
+					"et": ["lánaðist", "lánaðist", "lánaðist"],
+					"ft": ["lánuðumst", "lánuðust", "lánuðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lánast", "lánast", "lánast"],
+					"ft": ["lánast", "lánast", "lánast"]
+				},
+				"þátíð": {
+					"et": ["lánaðist", "lánaðist", "lánaðist"],
+					"ft": ["lánaðist", "lánaðist", "lánaðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lánist", "lánist", "lánist"],
+					"ft": ["lánist", "lánist", "lánist"]
+				},
+				"þátíð": {
+					"et": ["lánaðist", "lánaðist", "lánaðist"],
+					"ft": ["lánaðist", "lánaðist", "lánaðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lánastu"
+				},
+				"þátíð": {
+					"et": "lánaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lánistu"
+				},
+				"þátíð": {
+					"et": "lánaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lánandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lánaður", "lánaðan", "lánuðum", "lánaðs"],
+					"kvk": ["lánuð", "lánaða", "lánaðri", "lánaðrar"],
+					"hk": ["lánað", "lánað", "lánuðu", "lánaðs"]
+				},
+				"ft": {
+					"kk": ["lánaðir", "lánaða", "lánuðum", "lánaðra"],
+					"kvk": ["lánaðar", "lánaðar", "lánuðum", "lánaðra"],
+					"hk": ["lánuð", "lánuð", "lánuðum", "lánaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lánaði", "lánaða", "lánaða", "lánaða"],
+					"kvk": ["lánaða", "lánuðu", "lánuðu", "lánuðu"],
+					"hk": ["lánaða", "lánaða", "lánaða", "lánaða"]
+				},
+				"ft": {
+					"kk": ["lánuðu", "lánuðu", "lánuðu", "lánuðu"],
+					"kvk": ["lánuðu", "lánuðu", "lánuðu", "lánuðu"],
+					"hk": ["lánuðu", "lánuðu", "lánuðu", "lánuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lána",
+	"hash": "8830140dd8203785700353d4197e3dd81447d0f08dd60748096a053f173ad873"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "þvertaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þver",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þver"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þvertaka",
+		"sagnbót": "þvertekið",
+		"boðháttur": {
+			"stýfður": "þvertak",
+			"et": "þvertaktu",
+			"ft": "þvertakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þvertek", "þvertekur", "þvertekur"],
+					"ft": ["þvertökum", "þvertakið", "þvertaka"]
+				},
+				"þátíð": {
+					"et": ["þvertók", "þvertókst", "þvertók"],
+					"ft": ["þvertókum", "þvertókuð", "þvertóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þvertaki", "þvertakir", "þvertaki"],
+					"ft": ["þvertökum", "þvertakið", "þvertaki"]
+				},
+				"þátíð": {
+					"et": ["þvertæki", "þvertækir", "þvertæki"],
+					"ft": ["þvertækjum", "þvertækjuð", "þvertækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þvertekurðu",
+					"ft": "þvertakiði"
+				},
+				"þátíð": {
+					"et": "þvertókstu",
+					"ft": "þvertókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þvertakirðu",
+					"ft": "þvertakiði"
+				},
+				"þátíð": {
+					"et": "þvertækirðu",
+					"ft": "þvertækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þvertakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þvertekinn", "þvertekinn", "þverteknum", "þvertekins"],
+					"kvk": ["þvertekin", "þvertekna", "þvertekinni", "þvertekinnar"],
+					"hk": ["þvertekið", "þvertekið", "þverteknu", "þvertekins"]
+				},
+				"ft": {
+					"kk": ["þverteknir", "þvertekna", "þverteknum", "þvertekinna"],
+					"kvk": ["þverteknar", "þverteknar", "þverteknum", "þvertekinna"],
+					"hk": ["þvertekin", "þvertekin", "þverteknum", "þvertekinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þvertekni", "þvertekna", "þvertekna", "þvertekna"],
+					"kvk": ["þvertekna", "þverteknu", "þverteknu", "þverteknu"],
+					"hk": ["þvertekna", "þvertekna", "þvertekna", "þvertekna"]
+				},
+				"ft": {
+					"kk": ["þverteknu", "þverteknu", "þverteknu", "þverteknu"],
+					"kvk": ["þverteknu", "þverteknu", "þverteknu", "þverteknu"],
+					"hk": ["þverteknu", "þverteknu", "þverteknu", "þverteknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þvertaka",
+	"hash": "c498fb9c6f2ae63a854d0e23b08cb23c1674b64ee83a05bcf66b5664249f93de"
+}

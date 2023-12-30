@@ -1,0 +1,27 @@
+{
+	"orð": "hagfræðiskrif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skrif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hagfræðiskrif", "hagfræðiskrif", "hagfræðiskrifum", "hagfræðiskrifa"],
+		"mg": ["hagfræðiskrifin", "hagfræðiskrifin", "hagfræðiskrifunum", "hagfræðiskrifanna"]
+	},
+	"kennistrengur": "no-hagfræðiskrif-hk",
+	"hash": "3a4a0dada133a5497ca6ca593ed244a78ebc54a520525f545d4addc8ab0108dd"
+}

@@ -1,0 +1,132 @@
+{
+	"orð": "væða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "væða",
+		"sagnbót": "vætt",
+		"boðháttur": {
+			"stýfður": "væð",
+			"et": "væddu",
+			"ft": "væðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["væði", "væðir", "væðir"],
+					"ft": ["væðum", "væðið", "væða"]
+				},
+				"þátíð": {
+					"et": ["væddi", "væddir", "væddi"],
+					"ft": ["væddum", "vædduð", "væddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["væði", "væðir", "væði"],
+					"ft": ["væðum", "væðið", "væði"]
+				},
+				"þátíð": {
+					"et": ["væddi", "væddir", "væddi"],
+					"ft": ["væddum", "vædduð", "væddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "væðirðu",
+					"ft": "væðiði"
+				},
+				"þátíð": {
+					"et": "væddirðu",
+					"ft": "vædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "væðirðu",
+					"ft": "væðiði"
+				},
+				"þátíð": {
+					"et": "væddirðu",
+					"ft": "vædduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "væðast",
+		"sagnbót": "væðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["væðist", "væðist", "væðist"],
+					"ft": ["væðumst", "væðist", "væðast"]
+				},
+				"þátíð": {
+					"et": ["væddist", "væddist", "væddist"],
+					"ft": ["væddumst", "væddust", "væddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["væðist", "væðist", "væðist"],
+					"ft": ["væðumst", "væðist", "væðist"]
+				},
+				"þátíð": {
+					"et": ["væddist", "væddist", "væddist"],
+					"ft": ["væddumst", "væddust", "væddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "væðistu"
+				},
+				"þátíð": {
+					"et": "væddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "væðistu"
+				},
+				"þátíð": {
+					"et": "væddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "væðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["væddur", "væddan", "væddum", "vædds"],
+					"kvk": ["vædd", "vædda", "væddri", "væddrar"],
+					"hk": ["vætt", "vætt", "væddu", "vædds"]
+				},
+				"ft": {
+					"kk": ["væddir", "vædda", "væddum", "væddra"],
+					"kvk": ["væddar", "væddar", "væddum", "væddra"],
+					"hk": ["vædd", "vædd", "væddum", "væddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["væddi", "vædda", "vædda", "vædda"],
+					"kvk": ["vædda", "væddu", "væddu", "væddu"],
+					"hk": ["vædda", "vædda", "vædda", "vædda"]
+				},
+				"ft": {
+					"kk": ["væddu", "væddu", "væddu", "væddu"],
+					"kvk": ["væddu", "væddu", "væddu", "væddu"],
+					"hk": ["væddu", "væddu", "væddu", "væddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-væða",
+	"hash": "fc74fa93fa7a67a1eef0437c2bb7f7376c3f0ce26b255f804852bd2da34b8979"
+}
