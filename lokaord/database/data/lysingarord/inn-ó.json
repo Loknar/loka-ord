@@ -1,0 +1,73 @@
+{
+	"orð": "inn",
+	"flokkur": "lýsingarorð",
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["inn", "inn", "num", "ins"],
+				"kvk": ["in", "na", "inni", "innar"],
+				"hk": ["ið", "ið", "nu", "ins"]
+			},
+			"ft": {
+				"kk": ["nir", "na", "num", "inna"],
+				"kvk": ["nar", "nar", "num", "inna"],
+				"hk": ["in", "in", "num", "inna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ni", "na", "na", "na"],
+				"kvk": ["na", "nu", "nu", "nu"],
+				"hk": ["na", "na", "na", "na"]
+			},
+			"ft": {
+				"kk": ["nu", "nu", "nu", "nu"],
+				"kvk": ["nu", "nu", "nu", "nu"],
+				"hk": ["nu", "nu", "nu", "nu"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["nari", "nari", "nari", "nari"],
+				"kvk": ["nari", "nari", "nari", "nari"],
+				"hk": ["nara", "nara", "nara", "nara"]
+			},
+			"ft": {
+				"kk": ["nari", "nari", "nari", "nari"],
+				"kvk": ["nari", "nari", "nari", "nari"],
+				"hk": ["nari", "nari", "nari", "nari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["nastur", "nastan", "nustum", "nasts"],
+				"kvk": ["nust", "nasta", "nastri", "nastrar"],
+				"hk": ["nast", "nast", "nustu", "nasts"]
+			},
+			"ft": {
+				"kk": ["nastir", "nasta", "nustum", "nastra"],
+				"kvk": ["nastar", "nastar", "nustum", "nastra"],
+				"hk": ["nust", "nust", "nustum", "nastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["nasti", "nasta", "nasta", "nasta"],
+				"kvk": ["nasta", "nustu", "nustu", "nustu"],
+				"hk": ["nasta", "nasta", "nasta", "nasta"]
+			},
+			"ft": {
+				"kk": ["nustu", "nustu", "nustu", "nustu"],
+				"kvk": ["nustu", "nustu", "nustu", "nustu"],
+				"hk": ["nustu", "nustu", "nustu", "nustu"]
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "lo-inn-ó",
+	"hash": "469289a9731355d26151265a3532e6ac91b0257fdac9d40e8d56a9e82a9310e7"
+}

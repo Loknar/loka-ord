@@ -1,6 +1,16 @@
 {
 	"orð": "búinn",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bú",
+			"samsetning": "stofn",
+			"kennistrengur": "so-búa"
+		},
+		{
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-búinn",
-	"hash": "3cd989a55b512596c331f070ec38fa2ebab6acfbe709eafde8822e2afdd45fa7"
+	"hash": "c92bde3d3308351516071d823d595ea76b21093ff93bd12f4c352a29c6860132"
 }

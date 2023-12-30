@@ -1,0 +1,99 @@
+{
+	"orð": "samanstanda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "saman",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-saman"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-standa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samanstanda",
+		"sagnbót": "samanstaðið",
+		"boðháttur": {
+			"stýfður": "samanstatt",
+			"et": "samanstattu",
+			"ft": "samanstandið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samanstend", "samanstendur", "samanstendur"],
+					"ft": ["samanstöndum", "samanstandið", "samanstanda"]
+				},
+				"þátíð": {
+					"et": ["samanstóð", "samanstóðst", "samanstóð"],
+					"ft": ["samanstóðum", "samanstóðuð", "samanstóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samanstandi", "samanstandir", "samanstandi"],
+					"ft": ["samanstöndum", "samanstandið", "samanstandi"]
+				},
+				"þátíð": {
+					"et": ["samanstæði", "samanstæðir", "samanstæði"],
+					"ft": ["samanstæðum", "samanstæðuð", "samanstæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samanstendurðu",
+					"ft": "samanstandiði"
+				},
+				"þátíð": {
+					"et": "samanstóðstu",
+					"ft": "samanstóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samanstandirðu",
+					"ft": "samanstandiði"
+				},
+				"þátíð": {
+					"et": "samanstæðirðu",
+					"ft": "samanstæðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samanstandandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samanstaðinn", "samanstaðinn", "samanstöðnum", "samanstaðins"],
+					"kvk": ["samanstaðin", "samanstaðna", "samanstaðinni", "samanstaðinnar"],
+					"hk": ["samanstaðið", "samanstaðið", "samanstöðnu", "samanstaðins"]
+				},
+				"ft": {
+					"kk": ["samanstaðnir", "samanstaðna", "samanstöðnum", "samanstaðinna"],
+					"kvk": ["samanstaðnar", "samanstaðnar", "samanstöðnum", "samanstaðinna"],
+					"hk": ["samanstaðin", "samanstaðin", "samanstöðnum", "samanstaðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["samanstaðni", "samanstaðna", "samanstaðna", "samanstaðna"],
+					"kvk": ["samanstaðna", "samanstöðnu", "samanstöðnu", "samanstöðnu"],
+					"hk": ["samanstaðna", "samanstaðna", "samanstaðna", "samanstaðna"]
+				},
+				"ft": {
+					"kk": ["samanstöðnu", "samanstöðnu", "samanstöðnu", "samanstöðnu"],
+					"kvk": ["samanstöðnu", "samanstöðnu", "samanstöðnu", "samanstöðnu"],
+					"hk": ["samanstöðnu", "samanstöðnu", "samanstöðnu", "samanstöðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samanstanda",
+	"hash": "e8e888e25f63aee1b3a5ad35bbcb107b3b38d135918e927ce202003893b20aed"
+}

@@ -8,26 +8,26 @@
 			"kennistrengur": "smáo.fs-á"
 		},
 		{
-			"kennistrengur": "so-rétta"
+			"kennistrengur": "so-rétta-_réttir_"
 		}
 	],
 	"germynd": {
 		"nafnháttur": "árétta",
-		"sagnbót": "árétt",
+		"sagnbót": "áréttað",
 		"boðháttur": {
-			"stýfður": "árétt",
-			"et": "áréttu",
+			"stýfður": "árétta",
+			"et": "áréttaðu",
 			"ft": "áréttið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["árétti", "áréttir", "áréttir"],
+					"et": ["árétta", "áréttar", "áréttar"],
 					"ft": ["áréttum", "áréttið", "árétta"]
 				},
 				"þátíð": {
-					"et": ["árétti", "áréttir", "árétti"],
-					"ft": ["áréttum", "áréttuð", "áréttu"]
+					"et": ["áréttaði", "áréttaðir", "áréttaði"],
+					"ft": ["áréttuðum", "áréttuðuð", "áréttuðu"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -36,20 +36,20 @@
 					"ft": ["áréttum", "áréttið", "árétti"]
 				},
 				"þátíð": {
-					"et": ["árétti", "áréttir", "árétti"],
-					"ft": ["áréttum", "áréttuð", "áréttu"]
+					"et": ["áréttaði", "áréttaðir", "áréttaði"],
+					"ft": ["áréttuðum", "áréttuðuð", "áréttuðu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "áréttirðu",
+					"et": "áréttarðu",
 					"ft": "áréttiði"
 				},
 				"þátíð": {
-					"et": "áréttirðu",
-					"ft": "áréttuði"
+					"et": "áréttaðirðu",
+					"ft": "áréttuðuði"
 				}
 			},
 			"viðtengingarháttur": {
@@ -58,8 +58,8 @@
 					"ft": "áréttiði"
 				},
 				"þátíð": {
-					"et": "áréttirðu",
-					"ft": "áréttuði"
+					"et": "áréttaðirðu",
+					"ft": "áréttuðuði"
 				}
 			}
 		}
@@ -70,12 +70,12 @@
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["áréttist", "áréttist", "áréttist"],
+					"et": ["áréttast", "áréttast", "áréttast"],
 					"ft": ["áréttumst", "áréttist", "áréttast"]
 				},
 				"þátíð": {
-					"et": ["áréttist", "áréttist", "áréttist"],
-					"ft": ["áréttumst", "áréttust", "áréttust"]
+					"et": ["áréttaðist", "áréttaðist", "áréttaðist"],
+					"ft": ["áréttuðumst", "áréttuðust", "áréttuðust"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -84,18 +84,18 @@
 					"ft": ["áréttumst", "áréttist", "áréttist"]
 				},
 				"þátíð": {
-					"et": ["áréttist", "áréttist", "áréttist"],
-					"ft": ["áréttumst", "áréttust", "áréttust"]
+					"et": ["áréttaðist", "áréttaðist", "áréttaðist"],
+					"ft": ["áréttuðumst", "áréttuðust", "áréttuðust"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "áréttistu"
+					"et": "áréttastu"
 				},
 				"þátíð": {
-					"et": "áréttistu"
+					"et": "áréttaðistu"
 				}
 			},
 			"viðtengingarháttur": {
@@ -103,7 +103,7 @@
 					"et": "áréttistu"
 				},
 				"þátíð": {
-					"et": "áréttistu"
+					"et": "áréttaðistu"
 				}
 			}
 		}
@@ -113,30 +113,30 @@
 		"þátíðar": {
 			"sb": {
 				"et": {
-					"kk": ["áréttur", "áréttan", "áréttum", "árétts"],
-					"kvk": ["árétt", "árétta", "áréttri", "áréttrar"],
-					"hk": ["árétt", "árétt", "áréttu", "árétts"]
+					"kk": ["áréttaður", "áréttaðan", "áréttuðum", "áréttaðs"],
+					"kvk": ["áréttuð", "áréttaða", "áréttaðri", "áréttaðrar"],
+					"hk": ["áréttað", "áréttað", "áréttuðu", "áréttaðs"]
 				},
 				"ft": {
-					"kk": ["áréttir", "árétta", "áréttum", "áréttra"],
-					"kvk": ["áréttar", "áréttar", "áréttum", "áréttra"],
-					"hk": ["árétt", "árétt", "áréttum", "áréttra"]
+					"kk": ["áréttaðir", "áréttaða", "áréttuðum", "áréttaðra"],
+					"kvk": ["áréttaðar", "áréttaðar", "áréttuðum", "áréttaðra"],
+					"hk": ["áréttuð", "áréttuð", "áréttuðum", "áréttaðra"]
 				}
 			},
 			"vb": {
 				"et": {
-					"kk": ["árétti", "árétta", "árétta", "árétta"],
-					"kvk": ["árétta", "áréttu", "áréttu", "áréttu"],
-					"hk": ["árétta", "árétta", "árétta", "árétta"]
+					"kk": ["áréttaði", "áréttaða", "áréttaða", "áréttaða"],
+					"kvk": ["áréttaða", "áréttuðu", "áréttuðu", "áréttuðu"],
+					"hk": ["áréttaða", "áréttaða", "áréttaða", "áréttaða"]
 				},
 				"ft": {
-					"kk": ["áréttu", "áréttu", "áréttu", "áréttu"],
-					"kvk": ["áréttu", "áréttu", "áréttu", "áréttu"],
-					"hk": ["áréttu", "áréttu", "áréttu", "áréttu"]
+					"kk": ["áréttuðu", "áréttuðu", "áréttuðu", "áréttuðu"],
+					"kvk": ["áréttuðu", "áréttuðu", "áréttuðu", "áréttuðu"],
+					"hk": ["áréttuðu", "áréttuðu", "áréttuðu", "áréttuðu"]
 				}
 			}
 		}
 	},
 	"kennistrengur": "so-árétta",
-	"hash": "48dfff20cb4e2eb34d901dc13451c3ac2d5882ee2fcc75e29931ff01c6845bee"
+	"hash": "6e8d9528cb78e313ce09d575d799d47e917bf795feac4f6f7d62ecc507f7fa02"
 }
