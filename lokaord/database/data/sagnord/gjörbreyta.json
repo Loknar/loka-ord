@@ -1,0 +1,142 @@
+{
+	"orð": "gjörbreyta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjör",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"kennistrengur": "so-breyta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjörbreyta",
+		"sagnbót": "gjörbreytt",
+		"boðháttur": {
+			"stýfður": "gjörbreyt",
+			"et": "gjörbreyttu",
+			"ft": "gjörbreytið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjörbreyti", "gjörbreytir", "gjörbreytir"],
+					"ft": ["gjörbreytum", "gjörbreytið", "gjörbreyta"]
+				},
+				"þátíð": {
+					"et": ["gjörbreytti", "gjörbreyttir", "gjörbreytti"],
+					"ft": ["gjörbreyttum", "gjörbreyttuð", "gjörbreyttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjörbreyti", "gjörbreytir", "gjörbreyti"],
+					"ft": ["gjörbreytum", "gjörbreytið", "gjörbreyti"]
+				},
+				"þátíð": {
+					"et": ["gjörbreytti", "gjörbreyttir", "gjörbreytti"],
+					"ft": ["gjörbreyttum", "gjörbreyttuð", "gjörbreyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjörbreytirðu",
+					"ft": "gjörbreytiði"
+				},
+				"þátíð": {
+					"et": "gjörbreyttirðu",
+					"ft": "gjörbreyttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjörbreytirðu",
+					"ft": "gjörbreytiði"
+				},
+				"þátíð": {
+					"et": "gjörbreyttirðu",
+					"ft": "gjörbreyttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gjörbreytast",
+		"sagnbót": "gjörbreyst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjörbreytist", "gjörbreytist", "gjörbreytist"],
+					"ft": ["gjörbreytumst", "gjörbreytist", "gjörbreytast"]
+				},
+				"þátíð": {
+					"et": ["gjörbreyttist", "gjörbreyttist", "gjörbreyttist"],
+					"ft": ["gjörbreyttumst", "gjörbreyttust", "gjörbreyttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjörbreytist", "gjörbreytist", "gjörbreytist"],
+					"ft": ["gjörbreytumst", "gjörbreytist", "gjörbreytist"]
+				},
+				"þátíð": {
+					"et": ["gjörbreyttist", "gjörbreyttist", "gjörbreyttist"],
+					"ft": ["gjörbreyttumst", "gjörbreyttust", "gjörbreyttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjörbreytistu"
+				},
+				"þátíð": {
+					"et": "gjörbreyttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjörbreytistu"
+				},
+				"þátíð": {
+					"et": "gjörbreyttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjörbreytandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gjörbreyttur", "gjörbreyttan", "gjörbreyttum", "gjörbreytts"],
+					"kvk": ["gjörbreytt", "gjörbreytta", "gjörbreyttri", "gjörbreyttrar"],
+					"hk": ["gjörbreytt", "gjörbreytt", "gjörbreyttu", "gjörbreytts"]
+				},
+				"ft": {
+					"kk": ["gjörbreyttir", "gjörbreytta", "gjörbreyttum", "gjörbreyttra"],
+					"kvk": ["gjörbreyttar", "gjörbreyttar", "gjörbreyttum", "gjörbreyttra"],
+					"hk": ["gjörbreytt", "gjörbreytt", "gjörbreyttum", "gjörbreyttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gjörbreytti", "gjörbreytta", "gjörbreytta", "gjörbreytta"],
+					"kvk": ["gjörbreytta", "gjörbreyttu", "gjörbreyttu", "gjörbreyttu"],
+					"hk": ["gjörbreytta", "gjörbreytta", "gjörbreytta", "gjörbreytta"]
+				},
+				"ft": {
+					"kk": ["gjörbreyttu", "gjörbreyttu", "gjörbreyttu", "gjörbreyttu"],
+					"kvk": ["gjörbreyttu", "gjörbreyttu", "gjörbreyttu", "gjörbreyttu"],
+					"hk": ["gjörbreyttu", "gjörbreyttu", "gjörbreyttu", "gjörbreyttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjörbreyta",
+	"hash": "b1ed5cfcb3a8ab9cc88737db1a13f7c70c54c86db075af61a27cf7422d9192c6"
+}

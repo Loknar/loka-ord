@@ -1,0 +1,32 @@
+{
+	"orð": "alþjóðastjórnmál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "al",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-ałlur"
+		},
+		{
+			"mynd": "þjóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"ft": {
+		"ág": ["alþjóðastjórnmál", "alþjóðastjórnmál", "alþjóðastjórnmálum", "alþjóðastjórnmála"],
+		"mg": ["alþjóðastjórnmálin", "alþjóðastjórnmálin", "alþjóðastjórnmálunum", "alþjóðastjórnmálanna"]
+	},
+	"kennistrengur": "no-alþjóðastjórnmál-hk",
+	"hash": "995be0dee2b25c97d3b557f354f76c8b7592fc02efcc0f8357250fadce899aa9"
+}
