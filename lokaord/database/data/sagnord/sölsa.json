@@ -1,0 +1,132 @@
+{
+	"orð": "sölsa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sölsa",
+		"sagnbót": "sölsað",
+		"boðháttur": {
+			"stýfður": "sölsa",
+			"et": "sölsaðu",
+			"ft": "sölsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sölsa", "sölsar", "sölsar"],
+					"ft": ["sölsum", "sölsið", "sölsa"]
+				},
+				"þátíð": {
+					"et": ["sölsaði", "sölsaðir", "sölsaði"],
+					"ft": ["sölsuðum", "sölsuðuð", "sölsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sölsi", "sölsir", "sölsi"],
+					"ft": ["sölsum", "sölsið", "sölsi"]
+				},
+				"þátíð": {
+					"et": ["sölsaði", "sölsaðir", "sölsaði"],
+					"ft": ["sölsuðum", "sölsuðuð", "sölsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sölsarðu",
+					"ft": "sölsiði"
+				},
+				"þátíð": {
+					"et": "sölsaðirðu",
+					"ft": "sölsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sölsirðu",
+					"ft": "sölsiði"
+				},
+				"þátíð": {
+					"et": "sölsaðirðu",
+					"ft": "sölsuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sölsast",
+		"sagnbót": "sölsast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sölsast", "sölsast", "sölsast"],
+					"ft": ["sölsumst", "sölsist", "sölsast"]
+				},
+				"þátíð": {
+					"et": ["sölsaðist", "sölsaðist", "sölsaðist"],
+					"ft": ["sölsuðumst", "sölsuðust", "sölsuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sölsist", "sölsist", "sölsist"],
+					"ft": ["sölsumst", "sölsist", "sölsist"]
+				},
+				"þátíð": {
+					"et": ["sölsaðist", "sölsaðist", "sölsaðist"],
+					"ft": ["sölsuðumst", "sölsuðust", "sölsuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sölsastu"
+				},
+				"þátíð": {
+					"et": "sölsaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sölsistu"
+				},
+				"þátíð": {
+					"et": "sölsaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sölsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sölsaður", "sölsaðan", "sölsuðum", "sölsaðs"],
+					"kvk": ["sölsuð", "sölsaða", "sölsaðri", "sölsaðrar"],
+					"hk": ["sölsað", "sölsað", "sölsuðu", "sölsaðs"]
+				},
+				"ft": {
+					"kk": ["sölsaðir", "sölsaða", "sölsuðum", "sölsaðra"],
+					"kvk": ["sölsaðar", "sölsaðar", "sölsðuðum", "sölsaðra"],
+					"hk": ["sölsuð", "sölsuð", "sölsuðum", "sölsaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sölsaði", "sölsaða", "sölsaða", "sölsaða"],
+					"kvk": ["sölsaða", "sölsuðu", "sölsuðu", "sölsuðu"],
+					"hk": ["sölsaða", "sölsaða", "sölsaða", "sölsaða"]
+				},
+				"ft": {
+					"kk": ["sölsuðu", "sölsuðu", "sölsuðu", "sölsuðu"],
+					"kvk": ["sölsuðu", "sölsuðu", "sölsuðu", "sölsuðu"],
+					"hk": ["sölsuðu", "sölsuðu", "sölsuðu", "sölsuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sölsa",
+	"hash": "c796597d135f37835510b9e640bc33123106e0c6234da4766975f57119b934bb"
+}
