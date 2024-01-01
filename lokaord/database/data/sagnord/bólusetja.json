@@ -1,0 +1,99 @@
+{
+	"orð": "bólusetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bólu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bóla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bólusetja",
+		"sagnbót": "bólusett",
+		"boðháttur": {
+			"stýfður": "bóluset",
+			"et": "bólusettu",
+			"ft": "bólusetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bóluset", "bólusetur", "bólusetur"],
+					"ft": ["bólusetjum", "bólusetjið", "bólusetja"]
+				},
+				"þátíð": {
+					"et": ["bólusetti", "bólusettir", "bólusett"],
+					"ft": ["bólusettum", "bólusettuð", "bólusettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bólusetji", "bólusetjir", "bólusetji"],
+					"ft": ["bólusetjum", "bólusetjið", "bólusetji"]
+				},
+				"þátíð": {
+					"et": ["bólusetti", "bólusettir", "bólusetti"],
+					"ft": ["bólusettum", "bólusettuð", "bólusettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bóluseturðu",
+					"ft": "bólusetjiði"
+				},
+				"þátíð": {
+					"et": "bólusettirðu",
+					"ft": "bólusettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bólusetjirðu",
+					"ft": "bólusetjiði"
+				},
+				"þátíð": {
+					"et": "bólusettirðu",
+					"ft": "bólusettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bólusetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bólusettur", "bólusettan", "bólusettum", "bólusetts"],
+					"kvk": ["bólusett", "bólusetta", "bólusettri", "bólusettrar"],
+					"hk": ["bólusett", "bólusett", "bólusettu", "bólusetts"]
+				},
+				"ft": {
+					"kk": ["bólusettir", "bólusetta", "bólusettum", "bólusettra"],
+					"kvk": ["bólusettar", "bólusettar", "bólusettum", "bólusettra"],
+					"hk": ["bólusett", "bólusett", "bólusettum", "bólusettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["bólusetti", "bólusetta", "bólusetta", "bólusetta"],
+					"kvk": ["bólusetta", "bólusettu", "bólusettu", "bólusettu"],
+					"hk": ["bólusetta", "bólusetta", "bólusetta", "bólusetta"]
+				},
+				"ft": {
+					"kk": ["bólusettu", "bólusettu", "bólusettu", "bólusettu"],
+					"kvk": ["bólusettu", "bólusettu", "bólusettu", "bólusettu"],
+					"hk": ["bólusettu", "bólusettu", "bólusettu", "bólusettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bólusetja",
+	"hash": "fc98f457c791cb2cf8b57a400b25b01aa97d5ded9c095ec281da83abd43de8c1"
+}
