@@ -8,9 +8,75 @@
 			"kennistrengur": "no-vá-kvk"
 		},
 		{
-			"kennistrengur": "no-vatn-hk"
+			"kennistrengur": "lo-lyndur"
 		}
 	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vályndur", "vályndan", "vályndum", "válynds"],
+				"kvk": ["válynd", "válynda", "vályndri", "vályndrar"],
+				"hk": ["válynt", "válynt", "vályndu", "válynds"]
+			},
+			"ft": {
+				"kk": ["vályndir", "válynda", "vályndum", "vályndra"],
+				"kvk": ["vályndar", "vályndar", "vályndum", "vályndra"],
+				"hk": ["válynd", "válynd", "vályndum", "vályndra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vályndi", "válynda", "válynda", "válynda"],
+				"kvk": ["válynda", "vályndu", "vályndu", "vályndu"],
+				"hk": ["válynda", "válynda", "válynda", "válynda"]
+			},
+			"ft": {
+				"kk": ["vályndu", "vályndu", "vályndu", "vályndu"],
+				"kvk": ["vályndu", "vályndu", "vályndu", "vályndu"],
+				"hk": ["vályndu", "vályndu", "vályndu", "vályndu"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["vályndari", "vályndari", "vályndari", "vályndari"],
+				"kvk": ["vályndari", "vályndari", "vályndari", "vályndari"],
+				"hk": ["vályndara", "vályndara", "vályndara", "vályndara"]
+			},
+			"ft": {
+				"kk": ["vályndari", "vályndari", "vályndari", "vályndari"],
+				"kvk": ["vályndari", "vályndari", "vályndari", "vályndari"],
+				"hk": ["vályndari", "vályndari", "vályndari", "vályndari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["vályndastur", "vályndastan", "vályndustum", "vályndasts"],
+				"kvk": ["vályndust", "vályndasta", "vályndastri", "vályndastrar"],
+				"hk": ["vályndast", "vályndast", "vályndustu", "vályndasts"]
+			},
+			"ft": {
+				"kk": ["vályndastir", "vályndasta", "vályndustum", "vályndastra"],
+				"kvk": ["vályndastar", "vályndastar", "vályndustum", "vályndastra"],
+				"hk": ["vályndust", "vályndust", "vályndustum", "vályndastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vályndasti", "vályndasta", "vályndasta", "vályndasta"],
+				"kvk": ["vályndasta", "vályndustu", "vályndustu", "vályndustu"],
+				"hk": ["vályndasta", "vályndasta", "vályndasta", "vályndasta"]
+			},
+			"ft": {
+				"kk": ["vályndustu", "vályndustu", "vályndustu", "vályndustu"],
+				"kvk": ["vályndustu", "vályndustu", "vályndustu", "vályndustu"],
+				"hk": ["vályndustu", "vályndustu", "vályndustu", "vályndustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-vályndur",
-	"hash": "b33466a66335fa84fd3ce9ed8104b9d4cc42b7094697615e85feae30c8460adf"
+	"hash": "b86aaf7469a49fab3f4a5ff974149c9f2441c38ac32211d7d2da8238603a6cc8"
 }

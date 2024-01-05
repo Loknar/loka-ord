@@ -1,0 +1,88 @@
+{
+	"orð": "hljóma",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hljóma",
+		"sagnbót": "hljómað",
+		"boðháttur": {
+			"stýfður": "hljóma",
+			"et": "hljómaðu",
+			"ft": "hljómið"
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hljómarðu",
+					"ft": "hljómiði"
+				},
+				"þátíð": {
+					"et": "hljómaðirðu",
+					"ft": "hljómuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hljómirðu",
+					"ft": "hljómaðirðu"
+				},
+				"þátíð": {
+					"et": "hljómaðirðu",
+					"ft": "hljómuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hljómast",
+		"sagnbót": "hljómast",
+		"boðháttur": {
+			"et": "hljómastu",
+			"ft": "hljómast"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hljómast", "hljómast", "hljómast"],
+					"ft": ["hljómumst", "hljómist", "hljómast"]
+				},
+				"þátíð": {
+					"et": ["hljómaðist", "hljómaðist", "hljómaðist"],
+					"ft": ["hljómuðumst", "hljómuðust", "hljómuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hljómist", "hljómist", "hljómist"],
+					"ft": ["hljómumst", "hljómist", "hljómist"]
+				},
+				"þátíð": {
+					"et": ["hljómaðist", "hljómaðist", "hljómaðist"],
+					"ft": ["hljómuðumst", "hljómuðust", "hljómuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hljómastu"
+				},
+				"þátíð": {
+					"et": "hljómaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hljómistu"
+				},
+				"þátíð": {
+					"et": "hljómaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hljómandi"
+	},
+	"kennistrengur": "so-hljóma",
+	"hash": "eb9d51fa0269e6d9aab41d7975d92326835b0a9bb2a22712d7ef297057a4a654"
+}
