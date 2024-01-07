@@ -1,0 +1,61 @@
+{
+	"orð": "ábyrgjast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-byrgja"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ábyrgjast",
+		"sagnbót": "ábyrgst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ábyrgist", "ábyrgist", "ábyrgist"],
+					"ft": ["ábyrgjumst", "ábyrgist", "ábyrgjast"]
+				},
+				"þátíð": {
+					"et": ["ábyrgðist", "ábyrgðist", "ábyrgðist"],
+					"ft": ["ábyrgðumst", "ábyrgðust", "ábyrgðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ábyrgist", "ábyrgist", "ábyrgist"],
+					"ft": ["ábyrgjumst", "ábyrgist", "ábyrgist"]
+				},
+				"þátíð": {
+					"et": ["ábyrgðist", "ábyrgðist", "ábyrgðist"],
+					"ft": ["ábyrgðumst", "ábyrgðust", "ábyrgðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ábyrgistu"
+				},
+				"þátíð": {
+					"et": "ábyrgðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ábyrgistu"
+				},
+				"þátíð": {
+					"et": "ábyrgðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ábyrgjast",
+	"hash": "b0f194da87936a695062dc8e33796e5ce9e1aafc5e88a6ce719c932aa51e96ca"
+}

@@ -1,0 +1,38 @@
+{
+	"orð": "Alþjóðagjaldeyrissjóður",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Al",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-ałlur"
+		},
+		{
+			"mynd": "þjóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-sjóður-kk"
+		}
+	],
+	"et": {
+		"ág": ["Alþjóðagjaldeyrissjóður", "Alþjóðagjaldeyrissjóð", "Alþjóðagjaldeyrissjóð", "Alþjóðagjaldeyrissjóðs"],
+		"mg": ["Alþjóðagjaldeyrissjóðurinn", "Alþjóðagjaldeyrissjóðinn", "Alþjóðagjaldeyrissjóðnum", "Alþjóðagjaldeyrissjóðsins"]
+	},
+	"kennistrengur": "sérn.ön-Alþjóðagjaldeyrissjóður-kk",
+	"hash": "72e7b501ad6a633b7f985aaa4ac070c9f6531635e76e50e6107ad48b9aac9062"
+}

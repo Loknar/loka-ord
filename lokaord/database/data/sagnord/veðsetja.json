@@ -1,0 +1,99 @@
+{
+	"orð": "veðsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veðsetja",
+		"sagnbót": "veðsett",
+		"boðháttur": {
+			"stýfður": "veðset",
+			"et": "veðsettu",
+			"ft": "veðsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veðset", "veðsetur", "veðsetur"],
+					"ft": ["veðsetjum", "veðsetjið", "veðsetja"]
+				},
+				"þátíð": {
+					"et": ["veðsetti", "veðsettir", "veðsett"],
+					"ft": ["veðsettum", "veðsettuð", "veðsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veðsetji", "veðsetjir", "veðsetji"],
+					"ft": ["veðsetjum", "veðsetjið", "veðsetji"]
+				},
+				"þátíð": {
+					"et": ["veðsetti", "veðsettir", "veðsetti"],
+					"ft": ["veðsettum", "veðsettuð", "veðsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veðseturðu",
+					"ft": "veðsetjiði"
+				},
+				"þátíð": {
+					"et": "veðsettirðu",
+					"ft": "veðsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veðsetjirðu",
+					"ft": "veðsetjiði"
+				},
+				"þátíð": {
+					"et": "veðsettirðu",
+					"ft": "veðsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veðsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veðsettur", "veðsettan", "veðsettum", "veðsetts"],
+					"kvk": ["veðsett", "veðsetta", "veðsettri", "veðsettrar"],
+					"hk": ["veðsett", "veðsett", "veðsettu", "veðsetts"]
+				},
+				"ft": {
+					"kk": ["veðsettir", "veðsetta", "veðsettum", "veðsettra"],
+					"kvk": ["veðsettar", "veðsettar", "veðsettum", "veðsettra"],
+					"hk": ["veðsett", "veðsett", "veðsettum", "veðsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["veðsetti", "veðsetta", "veðsetta", "veðsetta"],
+					"kvk": ["veðsetta", "veðsettu", "veðsettu", "veðsettu"],
+					"hk": ["veðsetta", "veðsetta", "veðsetta", "veðsetta"]
+				},
+				"ft": {
+					"kk": ["veðsettu", "veðsettu", "veðsettu", "veðsettu"],
+					"kvk": ["veðsettu", "veðsettu", "veðsettu", "veðsettu"],
+					"hk": ["veðsettu", "veðsettu", "veðsettu", "veðsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-veðsetja",
+	"hash": "48a153d4ccb8952b88c0791bf0fdc6217d0602e97360cb1f9d37eab675f4e64a"
+}
