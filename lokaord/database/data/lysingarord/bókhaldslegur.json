@@ -1,0 +1,48 @@
+{
+	"orð": "bókhaldslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bókhaldslegur", "bókhaldslegan", "bókhaldslegum", "bókhaldslegs"],
+				"kvk": ["bókhaldsleg", "bókhaldslega", "bókhaldslegri", "bókhaldslegrar"],
+				"hk": ["bókhaldslegt", "bókhaldslegt", "bókhaldslegu", "bókhaldslegs"]
+			},
+			"ft": {
+				"kk": ["bókhaldslegir", "bókhaldslega", "bókhaldslegum", "bókhaldslegra"],
+				"kvk": ["bókhaldslegar", "bókhaldslegar", "bókhaldslegum", "bókhaldslegra"],
+				"hk": ["bókhaldsleg", "bókhaldsleg", "bókhaldslegum", "bókhaldslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bókhaldslegi", "bókhaldslega", "bókhaldslega", "bókhaldslega"],
+				"kvk": ["bókhaldslega", "bókhaldslegu", "bókhaldslegu", "bókhaldslegu"],
+				"hk": ["bókhaldslega", "bókhaldslega", "bókhaldslega", "bókhaldslega"]
+			},
+			"ft": {
+				"kk": ["bókhaldslegu", "bókhaldslegu", "bókhaldslegu", "bókhaldslegu"],
+				"kvk": ["bókhaldslegu", "bókhaldslegu", "bókhaldslegu", "bókhaldslegu"],
+				"hk": ["bókhaldslegu", "bókhaldslegu", "bókhaldslegu", "bókhaldslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bókhaldslegur",
+	"hash": "e5de0c9a177d9d2ccba674253462384b5bb5da1782f9a125debe1020a1378292"
+}
