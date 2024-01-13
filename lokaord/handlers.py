@@ -703,10 +703,22 @@ class Ord:
             self.data.datahash = datahash
 
     def write_to_file(self, filename: str = None):
+        """
+        before writing to file we check if the file exists and if its contents are the same as what
+        we would be writing to it
+        """
         if filename is None:
             filename = self.make_filename()
         filename_abs = os.path.join(self.datafiles_dir, filename)
         ord_data_json_str = self._ord_data_to_fancy_json_str(self.data.dict())
+        current_str = None
+        if os.path.isfile(filename_abs):
+            with open(filename_abs, mode='r', encoding='utf-8') as fi:
+                current_str = fi.read()
+            if ord_data_json_str == current_str:
+                return  # content of file is the same so writing to file is not needed
+        else:
+            logman.warning(f'Writing orð to a new file "{filename}".')  # usually human error
         with open(filename_abs, mode='w', encoding='utf-8') as fo:
             fo.write(ord_data_json_str)
 
