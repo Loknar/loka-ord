@@ -1,6 +1,16 @@
 {
 	"orð": "lenskur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "len",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lenda-kvk"
+		},
+		{
+			"kennistrengur": "lo-skur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-lenskur",
-	"hash": "d1aaf3b4031a8afac5f9c7b6e4554e9e289c24675aac3e3e25c8821dd2ba71a4"
+	"hash": "db48e8218a3aa62e04ea4d7fdc13d3e8c59b7db4ec4b7001d9fc6ffa4ed7cc8e"
 }

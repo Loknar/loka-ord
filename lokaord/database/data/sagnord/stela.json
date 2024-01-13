@@ -1,0 +1,136 @@
+{
+	"orð": "stela",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stela",
+		"sagnbót": "stolið",
+		"boðháttur": {
+			"stýfður": "stel",
+			"et": "steldu",
+			"ft": "stelið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stel", "stelur", "stelur"],
+					"ft": ["stelum", "stelið", "stela"]
+				},
+				"þátíð": {
+					"et": ["stal", "stalst", "stal"],
+					"ft": ["stálum", "stáluð", "stálu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["steli", "stelir", "steli"],
+					"ft": ["stelum", "stelið", "steli"]
+				},
+				"þátíð": {
+					"et": ["stæli", "stælir", "stæli"],
+					"ft": ["stælum", "stæluð", "stælu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stelurðu",
+					"ft": "steliði"
+				},
+				"þátíð": {
+					"et": "stalstu",
+					"ft": "stáluði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stelirðu",
+					"ft": "steliði"
+				},
+				"þátíð": {
+					"et": "stælirðu",
+					"ft": "stæluði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stelast",
+		"sagnbót": "stolist",
+		"boðháttur": {
+			"et": "stelstu",
+			"ft": "stelist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stelst", "stelst", "stelst"],
+					"ft": ["stelumst", "stelist", "stelast"]
+				},
+				"þátíð": {
+					"et": ["stalst", "stalst", "stalst"],
+					"ft": ["stálumst", "stálust", "stálust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stelist", "stelist", "stelist"],
+					"ft": ["stelumst", "stelist", "stelist"]
+				},
+				"þátíð": {
+					"et": ["stælist", "stælist", "stælist"],
+					"ft": ["stælumst", "stælust", "stælust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stelstu"
+				},
+				"þátíð": {
+					"et": "stalstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stelistu"
+				},
+				"þátíð": {
+					"et": "stælistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stelandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stolinn", "stolinn", "stolnum", "stolins"],
+					"kvk": ["stolin", "stolna", "stolinni", "stolinnar"],
+					"hk": ["stolið", "stolið", "stolnu", "stolins"]
+				},
+				"ft": {
+					"kk": ["stolnir", "stolna", "stolnum", "stolinna"],
+					"kvk": ["stolnar", "stolnar", "stolnum", "stolinna"],
+					"hk": ["stolin", "stolin", "stolnum", "stolinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stolni", "stolna", "stolna", "stolna"],
+					"kvk": ["stolna", "stolnu", "stolnu", "stolnu"],
+					"hk": ["stolna", "stolna", "stolna", "stolna"]
+				},
+				"ft": {
+					"kk": ["stolnu", "stolnu", "stolnu", "stolnu"],
+					"kvk": ["stolnu", "stolnu", "stolnu", "stolnu"],
+					"hk": ["stolnu", "stolnu", "stolnu", "stolnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stela",
+	"hash": "2e62b92331cb650139fc22fd1834b933dc9be221141cd59b96a83ad1e27e7dc9"
+}

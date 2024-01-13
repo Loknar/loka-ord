@@ -1,0 +1,112 @@
+{
+	"orð": "sleppa",
+	"flokkur": "sagnorð",
+	"merking": "sleppti",
+	"germynd": {
+		"nafnháttur": "sleppa",
+		"sagnbót": "sleppt",
+		"boðháttur": {
+			"stýfður": "slepp",
+			"et": "slepptu",
+			"ft": "sleppið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sleppi", "sleppir", "sleppir"],
+					"ft": ["sleppum", "sleppið", "sleppa"]
+				},
+				"þátíð": {
+					"et": ["sleppti", "slepptir", "sleppti"],
+					"ft": ["slepptum", "slepptuð", "slepptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sleppi", "sleppir", "sleppi"],
+					"ft": ["sleppum", "sleppið", "sleppi"]
+				},
+				"þátíð": {
+					"et": ["sleppti", "slepptir", "sleppti"],
+					"ft": ["slepptum", "slepptuð", "slepptu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sleppir", "sleppir", "sleppir"],
+					"ft": ["sleppir", "sleppir", "sleppir"]
+				},
+				"þátíð": {
+					"et": ["sleppti", "sleppti", "sleppti"],
+					"ft": ["sleppti", "sleppti", "sleppti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sleppi", "sleppi", "sleppi"],
+					"ft": ["sleppi", "sleppi", "sleppi"]
+				},
+				"þátíð": {
+					"et": ["sleppti", "sleppti", "sleppti"],
+					"ft": ["sleppti", "sleppti", "sleppti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sleppirðu",
+					"ft": "sleppiði"
+				},
+				"þátíð": {
+					"et": "slepptirðu",
+					"ft": "slepptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sleppirðu",
+					"ft": "sleppiði"
+				},
+				"þátíð": {
+					"et": "slepptirðu",
+					"ft": "slepptuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sleppandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slepptur", "slepptan", "slepptum", "sleppts"],
+					"kvk": ["sleppt", "sleppta", "slepptri", "slepptrar"],
+					"hk": ["sleppt", "sleppt", "slepptu", "sleppts"]
+				},
+				"ft": {
+					"kk": ["slepptir", "sleppta", "slepptum", "slepptra"],
+					"kvk": ["slepptar", "slepptar", "slepptum", "slepptra"],
+					"hk": ["sleppt", "sleppt", "slepptum", "slepptra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sleppti", "sleppta", "sleppta", "sleppta"],
+					"kvk": ["sleppta", "slepptu", "slepptu", "slepptu"],
+					"hk": ["sleppta", "sleppta", "sleppta", "sleppta"]
+				},
+				"ft": {
+					"kk": ["slepptu", "slepptu", "slepptu", "slepptu"],
+					"kvk": ["slepptu", "slepptu", "slepptu", "slepptu"],
+					"hk": ["slepptu", "slepptu", "slepptu", "slepptu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sleppa-_sleppti_",
+	"hash": "90f55c24e8c5026c305e87a95ecd742aac8355525230c4646a778c9cf8e3a3a4"
+}

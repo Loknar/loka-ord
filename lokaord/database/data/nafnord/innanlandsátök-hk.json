@@ -1,0 +1,32 @@
+{
+	"orð": "innanlandsátök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "innan",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-innan"
+		},
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["innanlandsátök", "innanlandsátök", "innanlandsátökum", "innanlandsátaka"],
+		"mg": ["innanlandsátökin", "innanlandsátökin", "innanlandsátökunum", "innanlandsátakanna"]
+	},
+	"kennistrengur": "no-innanlandsátök-hk",
+	"hash": "9790e92da7ba7c8872d773b552fedb45bdce36d0a08c608a86c75eb19065119b"
+}

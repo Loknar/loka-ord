@@ -1,6 +1,16 @@
 {
 	"orð": "norskur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "nor",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.ön-Noregur-kk"
+		},
+		{
+			"kennistrengur": "lo-skur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-norskur",
-	"hash": "f14fc0661875dd53eacf06667e707164dd54a9cd8428f548e35410f50bc4a1d3"
+	"hash": "b60b0f2159ce474322446eab0567be453d82d1041995a3fb94fa43d573310bd4"
 }

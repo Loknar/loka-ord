@@ -1,0 +1,89 @@
+{
+	"orð": "sleppa",
+	"flokkur": "sagnorð",
+	"merking": "slapp",
+	"germynd": {
+		"nafnháttur": "sleppa",
+		"sagnbót": "sloppið",
+		"boðháttur": {
+			"stýfður": "slepp",
+			"et": "slepptu",
+			"ft": "sleppið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slepp", "sleppur", "sleppur"],
+					"ft": ["sleppum", "sleppið", "sleppa"]
+				},
+				"þátíð": {
+					"et": ["slapp", "slappst", "slapp"],
+					"ft": ["sluppum", "sluppuð", "sluppu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sleppi", "sleppir", "sleppi"],
+					"ft": ["sleppum", "sleppið", "sleppi"]
+				},
+				"þátíð": {
+					"et": ["slyppi", "slyppir", "slyppi"],
+					"ft": ["slyppum", "slyppuð", "slyppu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sleppurðu",
+					"ft": "sleppiði"
+				},
+				"þátíð": {
+					"et": "slappstu",
+					"ft": "sluppuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sleppirðu",
+					"ft": "sleppiði"
+				},
+				"þátíð": {
+					"et": "slyppirðu",
+					"ft": "slyppuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sleppandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sloppinn", "sloppinn", "sloppnum", "sloppins"],
+					"kvk": ["sloppin", "sloppna", "sloppinni", "sloppinnar"],
+					"hk": ["sloppið", "sloppið", "sloppnu", "sloppins"]
+				},
+				"ft": {
+					"kk": ["sloppnir", "sloppna", "sloppnum", "sloppinna"],
+					"kvk": ["sloppnar", "sloppnar", "sloppnum", "sloppinna"],
+					"hk": ["sloppin", "sloppin", "sloppnum", "sloppinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sloppni", "sloppna", "sloppna", "sloppna"],
+					"kvk": ["sloppna", "sloppnu", "sloppnu", "sloppnu"],
+					"hk": ["sloppna", "sloppna", "sloppna", "sloppna"]
+				},
+				"ft": {
+					"kk": ["sloppnu", "sloppnu", "sloppnu", "sloppnu"],
+					"kvk": ["sloppnu", "sloppnu", "sloppnu", "sloppnu"],
+					"hk": ["sloppnu", "sloppnu", "sloppnu", "sloppnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sleppa-_slapp_",
+	"hash": "e8f7fc3eee170c2afa1b0be202dbd4ee13c123bc486cf9413c4b7f7ffc486aa5"
+}
