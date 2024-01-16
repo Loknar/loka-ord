@@ -2,6 +2,16 @@
 	"orð": "skipafélag",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skipa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skip-hk"
+		},
+		{
+			"kennistrengur": "no-félag-hk"
+		}
+	],
 	"et": {
 		"ág": ["skipafélag", "skipafélag", "skipafélagi", "skipafélags"],
 		"mg": ["skipafélagið", "skipafélagið", "skipafélaginu", "skipafélagsins"]
@@ -11,5 +21,5 @@
 		"mg": ["skipafélögin", "skipafélögin", "skipafélögunum", "skipafélaganna"]
 	},
 	"kennistrengur": "no-skipafélag-hk",
-	"hash": "18d94f9688b3106dae34a0090bec1ed74bb68e48d705aa034f1e737bca2d77d8"
+	"hash": "ef3c1239caa4258157402f8cf0aa353514bcfe7d4f92a9b84ac4be0cea6243d2"
 }

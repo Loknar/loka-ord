@@ -1,0 +1,111 @@
+{
+	"orð": "passa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "passa",
+		"sagnbót": "passað",
+		"boðháttur": {
+			"stýfður": "passa",
+			"et": "passaðu",
+			"ft": "passið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["passa", "passar", "passar"],
+					"ft": ["pössum", "passið", "passa"]
+				},
+				"þátíð": {
+					"et": ["passaði", "passaðir", "passaði"],
+					"ft": ["pössuðum", "pössuðuð", "pössuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["passi", "passir", "passi"],
+					"ft": ["pössum", "passið", "passi"]
+				},
+				"þátíð": {
+					"et": ["passaði", "passaðir", "passaði"],
+					"ft": ["pössuðum", "pössuðuð", "pössuðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["passar", "passar", "passar"],
+					"ft": ["passar", "passar", "passar"]
+				},
+				"þátíð": {
+					"et": ["passaði", "passaði", "passaði"],
+					"ft": ["passaði", "passaði", "passaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["passi", "passi", "passi"],
+					"ft": ["passi", "passi", "passi"]
+				},
+				"þátíð": {
+					"et": ["passaði", "passaði", "passaði"],
+					"ft": ["passaði", "passaði", "passaði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "passarðu",
+					"ft": "passiði"
+				},
+				"þátíð": {
+					"et": "passaðirðu",
+					"ft": "pössuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "passirðu",
+					"ft": "passiði"
+				},
+				"þátíð": {
+					"et": "passaðirðu",
+					"ft": "pössuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "passandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["passaður", "passaðan", "pössuðum", "passaðs"],
+					"kvk": ["pössuð", "passaða", "passaðri", "passaðrar"],
+					"hk": ["passað", "passað", "pössuðu", "passaðs"]
+				},
+				"ft": {
+					"kk": ["passaðir", "passaða", "pössuðum", "passaðra"],
+					"kvk": ["passaðar", "passaðar", "pössuðum", "passaðra"],
+					"hk": ["pössuð", "pössuð", "pössuðum", "passaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["passaði", "passaða", "passaða", "passaða"],
+					"kvk": ["passaða", "pössuðu", "pössuðu", "pössuðu"],
+					"hk": ["passaða", "passaða", "passaða", "passaða"]
+				},
+				"ft": {
+					"kk": ["pössuðu", "pössuðu", "pössuðu", "pössuðu"],
+					"kvk": ["pössuðu", "pössuðu", "pössuðu", "pössuðu"],
+					"hk": ["pössuðu", "pössuðu", "pössuðu", "pössuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-passa",
+	"hash": "ca707cef8e1306d0d56f951a18c0a3e513abafc839230913c797b6fcf4e903bb"
+}

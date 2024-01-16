@@ -1,0 +1,169 @@
+{
+	"orð": "kortleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kort",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kortleggja",
+		"sagnbót": "kortlagt",
+		"boðháttur": {
+			"stýfður": "kortlegg",
+			"et": "kortleggðu",
+			"ft": "kortleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kortlegg", "kortleggur", "kortleggur"],
+					"ft": ["kortleggjum", "kortleggið", "kortleggja"]
+				},
+				"þátíð": {
+					"et": ["kortlagði", "kortlagðir", "kortlagði"],
+					"ft": ["kortlögðum", "kortlögðuð", "kortlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kortleggi", "kortleggir", "kortleggi"],
+					"ft": ["kortleggjum", "kortleggið", "kortleggi"]
+				},
+				"þátíð": {
+					"et": ["kortleggði", "kortleggðir", "kortleggði"],
+					"ft": ["kortleggðum", "kortleggðuð", "kortleggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kortleggurðu",
+					"ft": "kortleggiði"
+				},
+				"þátíð": {
+					"et": "kortlagðirðu",
+					"ft": "kortlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kortleggirðu",
+					"ft": "kortleggiði"
+				},
+				"þátíð": {
+					"et": "kortleggðirðu",
+					"ft": "kortleggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kortleggjast",
+		"sagnbót": "kortleggst",
+		"boðháttur": {
+			"et": "kortleggstu",
+			"ft": "kortleggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kortleggst", "kortleggst", "kortleggst"],
+					"ft": ["kortleggjumst", "kortleggist", "kortleggjast"]
+				},
+				"þátíð": {
+					"et": ["kortlagðist", "kortlagðist", "kortlagðist"],
+					"ft": ["kortlögðumst", "kortlögðust", "kortlögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kortleggist", "kortleggist", "kortleggist"],
+					"ft": ["kortleggjumst", "kortleggist", "kortleggist"]
+				},
+				"þátíð": {
+					"et": ["kortlegðist", "kortlegðist", "kortlegðist"],
+					"ft": ["kortlegðumst", "kortlegðist", "kortlegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kortleggst", "kortleggst", "kortleggst"],
+					"ft": ["kortleggst", "kortleggst", "kortleggst"]
+				},
+				"þátíð": {
+					"et": ["kortlagðist", "kortlagðist", "kortlagðist"],
+					"ft": ["kortlagðist", "kortlagðist", "kortlagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kortleggist", "kortleggist", "kortleggist"],
+					"ft": ["kortleggjumst", "kortleggist", "kortleggist"]
+				},
+				"þátíð": {
+					"et": ["kortlegðist", "kortlegðist", "kortlegðist"],
+					"ft": ["kortlegðumst", "kortlegðust", "kortlegðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kortleggstu"
+				},
+				"þátíð": {
+					"et": "kortlagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kortleggistu"
+				},
+				"þátíð": {
+					"et": "kortlegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kortleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kortlagður", "kortlagðan", "kortlögðum", "kortlagðs"],
+					"kvk": ["kortlögð", "kortlagða", "kortlagðri", "kortlagðrar"],
+					"hk": ["kortlagt", "kortlagt", "kortlögðu", "kortlagðs"]
+				},
+				"ft": {
+					"kk": ["kortlagðir", "kortlagða", "kortlögðum", "kortlagðra"],
+					"kvk": ["kortlagðar", "kortlagðar", "kortlögðum", "kortlagðra"],
+					"hk": ["kortlögð", "kortlögð", "kortlögðum", "kortlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kortlagði", "kortlagða", "kortlagða", "kortlagða"],
+					"kvk": ["kortlagða", "kortlögðu", "kortlögðu", "kortlögðu"],
+					"hk": ["kortlagða", "kortlagða", "kortlagða", "kortlagða"]
+				},
+				"ft": {
+					"kk": ["kortlögðu", "kortlögðu", "kortlögðu", "kortlögðu"],
+					"kvk": ["kortlögðu", "kortlögðu", "kortlögðu", "kortlögðu"],
+					"hk": ["kortlögðu", "kortlögðu", "kortlögðu", "kortlögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kortleggja",
+	"hash": "5cdf204357fd4418bc5147a3352325b4e48fd017b22bec7eca9e1245f3dff280"
+}

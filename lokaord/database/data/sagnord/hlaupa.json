@@ -1,0 +1,136 @@
+{
+	"orð": "hlaupa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hlaupa",
+		"sagnbót": "hlaupið",
+		"boðháttur": {
+			"stýfður": "hlaup",
+			"et": "hlauptu",
+			"ft": "hlaupið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hleyp", "hleypur", "hleypur"],
+					"ft": ["hlaupum", "hlaupið", "hlaupa"]
+				},
+				"þátíð": {
+					"et": ["hljóp", "hljópst", "hljóp"],
+					"ft": ["hlupum", "hlupuð", "hlupu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlaupi", "hlaupir", "hlaupi"],
+					"ft": ["hlaupum", "hlaupið", "hlaupi"]
+				},
+				"þátíð": {
+					"et": ["hlypi", "hlypir", "hlypi"],
+					"ft": ["hlypum", "hlypuð", "hlypu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hleyprðu",
+					"ft": "hlaupiði"
+				},
+				"þátíð": {
+					"et": "hljópstu",
+					"ft": "hlupuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlaupirðu",
+					"ft": "hlaupiði"
+				},
+				"þátíð": {
+					"et": "hlypirðu",
+					"ft": "hlypjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hlaupast",
+		"sagnbót": "hlaupist",
+		"boðháttur": {
+			"et": "hlaupstu",
+			"ft": "hlaupist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hleypst", "hleypst", "hleypst"],
+					"ft": ["hlaupumst", "hlaupist", "hlaupast"]
+				},
+				"þátíð": {
+					"et": ["hljópst", "hljópst", "hljópst"],
+					"ft": ["hlupumst", "hlupust", "hlupust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlaupist", "hlaupist", "hlaupist"],
+					"ft": ["hlaupumst", "hlaupist", "hlaupist"]
+				},
+				"þátíð": {
+					"et": ["hlypist", "hlypist", "hlypist"],
+					"ft": ["hlypjumst", "hlypjust", "hlypjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hleypstu"
+				},
+				"þátíð": {
+					"et": "hljópstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlaupistu"
+				},
+				"þátíð": {
+					"et": "hlypistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlaupandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlaupinn", "hlaupinn", "hlaupnum", "hlaupins"],
+					"kvk": ["hlaupin", "hlaupna", "hlaupinni", "hlaupinnar"],
+					"hk": ["hlaupið", "hlaupið", "hlaupnu", "hlaupins"]
+				},
+				"ft": {
+					"kk": ["hlaupnir", "hlaupna", "hlaupnum", "hlaupinna"],
+					"kvk": ["hlaupnar", "hlaupnar", "hlaupnum", "hlaupinna"],
+					"hk": ["hlaupin", "hlaupin", "hlaupnum", "hlaupinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hlaupni", "hlaupna", "hlaupna", "hlaupna"],
+					"kvk": ["hlaupna", "hlaupnu", "hlaupnu", "hlaupnu"],
+					"hk": ["hlaupna", "hlaupna", "hlaupna", "hlaupna"]
+				},
+				"ft": {
+					"kk": ["hlaupnu", "hlaupnu", "hlaupnu", "hlaupnu"],
+					"kvk": ["hlaupnu", "hlaupnu", "hlaupnu", "hlaupnu"],
+					"hk": ["hlaupnu", "hlaupnu", "hlaupnu", "hlaupnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlaupa",
+	"hash": "dd634b457140d13187dcfca3e873e364d3c0c5d7dcf5c7b70f66d6c1c6fb7c3e"
+}
