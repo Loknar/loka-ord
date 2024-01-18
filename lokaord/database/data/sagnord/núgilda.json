@@ -83,8 +83,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "núgildandi"
+		"nútíðar": "núgildandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["núgiltur", "núgiltan", "núgiltum", "núgilts"],
+					"kvk": ["núgilt", "núgilta", "núgiltri", "núgiltrar"],
+					"hk": ["núgilt", "núgilt", "núgiltu", "núgilts"]
+				},
+				"ft": {
+					"kk": ["núgiltir", "núgilta", "núgiltum", "núgiltra"],
+					"kvk": ["núgiltar", "núgiltar", "núgiltum", "núgiltra"],
+					"hk": ["núgilt", "núgilt", "núgiltum", "núgiltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["núgilti", "núgilta", "núgilta", "núgilta"],
+					"kvk": ["núgilta", "núgiltu", "núgiltu", "núgiltu"],
+					"hk": ["núgilta", "núgilta", "núgilta", "núgilta"]
+				},
+				"ft": {
+					"kk": ["núgiltu", "núgiltu", "núgiltu", "núgiltu"],
+					"kvk": ["núgiltu", "núgiltu", "núgiltu", "núgiltu"],
+					"hk": ["núgiltu", "núgiltu", "núgiltu", "núgiltu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-núgilda",
-	"hash": "c33ef8dfe653c820e49224266b98c50d988ff2f412bbfacd00e149bb234d75dd"
+	"hash": "0b14ab78741f40dcec30e55d219f92035d100374da576149ad655f643413333d"
 }
