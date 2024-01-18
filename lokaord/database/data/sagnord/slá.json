@@ -1,0 +1,136 @@
+{
+	"orð": "slá",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "slá",
+		"sagnbót": "slegið",
+		"boðháttur": {
+			"stýfður": "slá",
+			"et": "sláðu",
+			"ft": "sláið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slæ", "slærð", "slær"],
+					"ft": ["sláum", "sláið", "slá"]
+				},
+				"þátíð": {
+					"et": ["sló", "slóst", "sló"],
+					"ft": ["slógum", "slóguð", "slógu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slái", "sláir", "slái"],
+					"ft": ["sláum", "sláið", "slái"]
+				},
+				"þátíð": {
+					"et": ["slægi", "slægir", "slægi"],
+					"ft": ["slægjum", "slægjuð", "slægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slærðu",
+					"ft": "sláiði"
+				},
+				"þátíð": {
+					"et": "slóstu",
+					"ft": "slóguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sláirðu",
+					"ft": "sláiði"
+				},
+				"þátíð": {
+					"et": "slægirðu",
+					"ft": "slægjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slást",
+		"sagnbót": "slegist",
+		"boðháttur": {
+			"et": "slástu",
+			"ft": "sláist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slæst", "slæst", "slæst"],
+					"ft": ["sláumst", "sláist", "slást"]
+				},
+				"þátíð": {
+					"et": ["slóst", "slóst", "slóst"],
+					"ft": ["slógumst", "slógust", "slógust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sláist", "sláist", "sláist"],
+					"ft": ["sláumst", "sláist", "sláist"]
+				},
+				"þátíð": {
+					"et": ["slægist", "slægist", "slægist"],
+					"ft": ["slægjumst", "slægjust", "slægjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slæstu"
+				},
+				"þátíð": {
+					"et": "slóstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sláistu"
+				},
+				"þátíð": {
+					"et": "slægistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sláandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sleginn", "sleginn", "slegnum", "slegins"],
+					"kvk": ["slegin", "slegna", "sleginni", "sleginnar"],
+					"hk": ["slegið", "slegið", "slegnu", "slegins"]
+				},
+				"ft": {
+					"kk": ["slegnir", "slegna", "slegnum", "sleginna"],
+					"kvk": ["slegnar", "slegnar", "slegnum", "sleginna"],
+					"hk": ["slegin", "slegin", "slegnum", "sleginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["slegni", "slegna", "slegna", "slegna"],
+					"kvk": ["slegna", "slegnu", "slegnu", "slegnu"],
+					"hk": ["slegna", "slegna", "slegna", "slegna"]
+				},
+				"ft": {
+					"kk": ["slegnu", "slegnu", "slegnu", "slegnu"],
+					"kvk": ["slegnu", "slegnu", "slegnu", "slegnu"],
+					"hk": ["slegnu", "slegnu", "slegnu", "slegnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slá",
+	"hash": "52b6b3df5d4b3933a63468eb28f95a5fdf110b8dc594ab91211b427ff79e34f2"
+}

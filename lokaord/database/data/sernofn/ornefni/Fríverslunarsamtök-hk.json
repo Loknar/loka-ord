@@ -1,0 +1,32 @@
+{
+	"orð": "Fríverslunarsamtök",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "Frí",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frí-hk"
+		},
+		{
+			"mynd": "verslunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verslun-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft-ág"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["Fríverslunarsamtök", "Fríverslunarsamtök", "Fríverslunarsamtökum", "Fríverslunarsamtaka"]
+	},
+	"kennistrengur": "sérn.ön-Fríverslunarsamtök-hk",
+	"hash": "0054dd822f56a0ddd3d904d02193c1a435929744a99d16a5fc0a2811fa53c2ec"
+}

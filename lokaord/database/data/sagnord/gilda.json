@@ -73,8 +73,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "gildandi"
+		"nútíðar": "gildandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["giltur", "giltan", "giltum", "gilts"],
+					"kvk": ["gilt", "gilta", "giltri", "giltrar"],
+					"hk": ["gilt", "gilt", "giltu", "gilts"]
+				},
+				"ft": {
+					"kk": ["giltir", "gilta", "giltum", "giltra"],
+					"kvk": ["giltar", "giltar", "giltum", "giltra"],
+					"hk": ["gilt", "gilt", "giltum", "giltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gilti", "gilta", "gilta", "gilta"],
+					"kvk": ["gilta", "giltu", "giltu", "giltu"],
+					"hk": ["gilta", "gilta", "gilta", "gilta"]
+				},
+				"ft": {
+					"kk": ["giltu", "giltu", "giltu", "giltu"],
+					"kvk": ["giltu", "giltu", "giltu", "giltu"],
+					"hk": ["giltu", "giltu", "giltu", "giltu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-gilda",
-	"hash": "dc4eb5cdae82482a3d863d6b3359e6dd04305ff2854e4a2c6cf5b181a455d3d2"
+	"hash": "b068ecb9935db6ac4032526c38b96449236f4488e25955a28d0a9b62fd9755da"
 }

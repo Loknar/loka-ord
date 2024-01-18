@@ -1,0 +1,32 @@
+{
+	"orð": "fríverslunarsamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "frí",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frí-hk"
+		},
+		{
+			"mynd": "verslunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verslun-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fríverslunarsamtök", "fríverslunarsamtök", "fríverslunarsamtökum", "fríverslunarsamtaka"],
+		"mg": ["fríverslunarsamtökin", "fríverslunarsamtökin", "fríverslunarsamtökunum", "fríverslunarsamtakanna"]
+	},
+	"kennistrengur": "no-fríverslunarsamtök-hk",
+	"hash": "1fc5828688933cefea96bf962de9a060daac38b91bea52f9acae2e16aa99a813"
+}
