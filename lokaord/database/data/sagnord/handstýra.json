@@ -1,0 +1,99 @@
+{
+	"orð": "handstýra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-stýra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handstýra",
+		"sagnbót": "handstýrt",
+		"boðháttur": {
+			"stýfður": "handstýr",
+			"et": "handstýrðu",
+			"ft": "handstýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handstýri", "handstýrir", "handstýrir"],
+					"ft": ["handstýrum", "handstýrið", "handstýra"]
+				},
+				"þátíð": {
+					"et": ["handstýrði", "handstýrðir", "handstýrði"],
+					"ft": ["handstýrðum", "handstýrðuð", "handstýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handstýri", "handstýrir", "handstýri"],
+					"ft": ["handstýrum", "handstýrið", "handstýri"]
+				},
+				"þátíð": {
+					"et": ["handstýrði", "handstýrðir", "handstýrði"],
+					"ft": ["handstýrðum", "handstýrðuð", "handstýrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handstýrirðu",
+					"ft": "handstýriði"
+				},
+				"þátíð": {
+					"et": "handstýrðirðu",
+					"ft": "handstýrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handstýrirðu",
+					"ft": "handstýriði"
+				},
+				"þátíð": {
+					"et": "handstýrðirðu",
+					"ft": "handstýrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handstýrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handstýrður", "handstýrðan", "handstýrðum", "handstýrðs"],
+					"kvk": ["handstýrð", "handstýrða", "handstýrðri", "handstýrðrar"],
+					"hk": ["handstýrt", "handstýrt", "handstýrðu", "handstýrðs"]
+				},
+				"ft": {
+					"kk": ["handstýrðir", "handstýrða", "handstýrðum", "handstýrðra"],
+					"kvk": ["handstýrðar", "handstýrðar", "handstýrðum", "handstýrðra"],
+					"hk": ["handstýrð", "handstýrð", "handstýrðum", "handstýrðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handstýrði", "handstýrða", "handstýrða", "handstýrða"],
+					"kvk": ["handstýrða", "handstýrðu", "handstýrðu", "handstýrðu"],
+					"hk": ["handstýrða", "handstýrða", "handstýrða", "handstýrða"]
+				},
+				"ft": {
+					"kk": ["handstýrðu", "handstýrðu", "handstýrðu", "handstýrðu"],
+					"kvk": ["handstýrðu", "handstýrðu", "handstýrðu", "handstýrðu"],
+					"hk": ["handstýrðu", "handstýrðu", "handstýrðu", "handstýrðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handstýra",
+	"hash": "942e7b8672b62194dd9f8071a2af9e7d11f0fcc9080904600722df9902851341"
+}

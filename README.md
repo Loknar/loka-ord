@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 697 | 721 | 535 | 1953 | 926 | 1147 | 1028 | 3101 | **5054** |
+| **Nafnorð**     |   | 697 | 721 | 535 | 1953 | 931 | 1151 | 1030 | 3112 | **5065** |
 | **Lýsingarorð** | 59 |   |   |   | 291 |   |   |   | 559 | **850** |
-| **Sagnorð**     |   |   |   |   | 563 |   |   |   | 205 | **768** |
+| **Sagnorð**     |   |   |   |   | 563 |   |   |   | 206 | **769** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 42 |   |   |   | 7 | **49** |
 | **Smáorð**      |   |   |   |   | 262 |   |   |   | 108 | **370** |
-| **Alls** |   |   |   |   | **3181** |   |   |   | **3990** | **7171** |
+| **Alls** |   |   |   |   | **3181** |   |   |   | **4002** | **7183** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1164 | 318 | 8 | 1490 | 864 | 386 | 5 | 1255 | **2745** |
-| Kenninöfn |  |  |  |  | 154 | 151 | 2 | 307 | **307** |
+| Kenninöfn |  |  |  |  | 155 | 152 | 2 | 309 | **309** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **63** |
 | Gælunöfn  | 29 | 25 |  | 54 | 10 | 9 | 2 | 21 | **75** |
 | Örnefni   | 7 | 17 | 10 | 34 | 130 | 113 | 98 | 341 | **375** |
-| **Alls**  |   |   |   | **1628** |   |   |   | **1937** | **3565** |
+| **Alls**  |   |   |   | **1628** |   |   |   | **1939** | **3567** |
 
-**Samtals:** 10736 orð.
+**Samtals:** 10750 orð.
 
 129 skammstafanir.
 
@@ -37,13 +37,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 python -m venv env
 ```
 
-þar sem `env` er nafnið á virtualenv sem búið er til, samnefnd mappa verður til, þú virkjar það í núverandi skipanalínu með
+þar sem `env` er nafnið á sýndarumhverfinu sem búið er til, samnefnd mappa verður til, þú virkjar það í núverandi skipanalínu með
 
 ```bash
 source env/bin/activate
 ```
 
-getur afvirkjað sýndarumhverfið með skipuninni `deactivate`. Athugaðu að þetta sýndarumhverfi er ekki sjálfkrafa virkjað þegar þú opnar nýja skipanalínu, þú þarft að velja/virkja það með `source env/bin/activate` í nýrri skipanalínu.
+getur afvirkjað sýndarumhverfið með skipuninni `deactivate`. Athugaðu að þetta sýndarumhverfi er ekki sjálfkrafa virkjað þegar þú opnar nýja skipanalínu, þú þarft að velja/virkja það með `source env/bin/activate`.
 
 Þú sækir og setur upp nauðsynlega pakka með
 
@@ -57,13 +57,13 @@ pip install -Ur requirements.txt
 python main.py --help
 ```
 
-Í upphafi ertu einungis með orðagögnin í formi textaskráa, því þarf að smíða SQLite gagnagrunn og lesa öłl orðin inn í hann, og smíða síðan orðaforleit. Það er hægt að gera með skipuninni:
+Í upphafi ertu einungis með orðagögnin í formi textaskráa, þú þarft að smíða SQLite gagnagrunn og lesa öłl orðin inn í hann, og smíða síðan orðaforleit. Það er gert með skipuninni:
 
 ```bash
 python main.py init
 ```
 
-Þessi skipun er jafngild skipuninni `python main.py build-db write-files build-sight md-stats`, eða eftirfarandi skipunum:
+Þessi skipun jafngildir skipuninni `python main.py build-db write-files build-sight md-stats`, eða eftirfarandi runu skipana:
 
 ```bash
 # smíða grunn
@@ -92,7 +92,7 @@ Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunni
 python main.py update
 ```
 
-sem er jafngild skipuninni `python main.py build-db -ch write-files -tr build-sight md-stats`.
+sem jafngildir skipuninni `python main.py build-db -ch write-files -tr build-sight md-stats`.
 
 Hægt er að endursmíða gagnagrunn með
 
@@ -106,9 +106,9 @@ sem jafngildir
 python main.py build-db -r write-files build-sight md-stats
 ```
 
-sem þá eyðir núverandi gagnagrunni og smíðar nýjan útfrá orðaskrám.
+`init` með flaggið `-r` eyðir núverandi gagnagrunni og smíðar síðan nýjan útfrá orðaskrám.
 
-Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá þarf ekki að græja beygingarmyndir þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar ég bætti við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
+Athugið að þegar sett er saman JSON skrá fyrir samsett orð þá þarf ekki að ganga frá beygingarmyndum þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar ég bætti við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
 
 ```json
 {
@@ -129,11 +129,11 @@ Athugið að þegar verið er að henda saman JSON skrá fyrir samsett orð þá
 }
 ```
 
-svo þegar búið var að smíða grunninn og skrifa út JSON skrár úr grunninum þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum.
+svo þegar ég keyrði `update` þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum.
 
-Gildið í `"hash"` þarf bara að vera strengur sem er ekki tómur, þetta gildi er uppfært með hakkagildi sem endurspeglar gögn orðsins þegar `write-files` er keyrt, svo að fyrir sömu gögn verður hakkagildið það sama, og þegar gögnin breytast þá breytist hakkagildið.
+Gildið í `"hash"` þarf að vera strengur sem er ekki tómur, þetta gildi er uppfært með hakkagildi sem endurspeglar gögn orðsins þegar `update` og/eða `write-files` er keyrt, svo að fyrir sömu gögn verður hakkagildið það sama, og þegar gögnin breytast þá breytist hakkagildið.
 
-Athugið að kröfur til skráarnafna eru mismunandi miłli orðflokka, til dæmis þurfa nafnorð að hafa kyn orðsins í skráarnafni, þá eru "ósjálfstæð" orð (notað fyrir orðhluta sem geta ekki staðið einir) með `-ó` í skráarnafni, og orð sem eru sérstaklega aðgreind með "merkingu" innihalda merkinguna í skráarnafni á sniðinu `-_merking_`.
+Athugið að kröfur til skráarnafna eru mismunandi miłli orðflokka, til dæmis þurfa nafnorð að hafa kyn orðsins í skráarnafni, þá eru "ósjálfstæð" orð (notað fyrir orðhluta sem ekki eru látnir standa einir) með `-ó` í skráarnafni, og þau orð sem eru sérstaklega aðgreind með "merkingu" innihalda merkinguna í skráarnafni á sniðinu `-_merking_` (sjá t.d. skrána `mæla-_segja_.json`).
 
 ### Orðaleit
 
