@@ -1,0 +1,132 @@
+{
+	"orð": "kasta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kasta",
+		"sagnbót": "kastað",
+		"boðháttur": {
+			"stýfður": "kasta",
+			"et": "kastaðu",
+			"ft": "kastið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kasta", "kastar", "kastar"],
+					"ft": ["köstum", "kastið", "kasta"]
+				},
+				"þátíð": {
+					"et": ["kastaði", "kastaðir", "kastaði"],
+					"ft": ["köstuðum", "köstuðuð", "köstuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kasti", "kastir", "kasti"],
+					"ft": ["köstum", "kastið", "kasti"]
+				},
+				"þátíð": {
+					"et": ["kastaði", "kastaðir", "kastaði"],
+					"ft": ["köstuðum", "köstuðuð", "köstuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kastarðu",
+					"ft": "kastiði"
+				},
+				"þátíð": {
+					"et": "kastaðirðu",
+					"ft": "köstuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kastirðu",
+					"ft": "kastiði"
+				},
+				"þátíð": {
+					"et": "kastaðirðu",
+					"ft": "köstuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kastast",
+		"sagnbót": "kastast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kastast", "kastast", "kastast"],
+					"ft": ["köstumst", "kastist", "kastast"]
+				},
+				"þátíð": {
+					"et": ["kastaðist", "kastaðist", "kastaðist"],
+					"ft": ["köstuðumst", "köstuðust", "köstuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kastist", "kastist", "kastist"],
+					"ft": ["köstumst", "kastist", "kastist"]
+				},
+				"þátíð": {
+					"et": ["kastaðist", "kastaðist", "kastaðist"],
+					"ft": ["köstuðumst", "köstuðust", "köstuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kastastu"
+				},
+				"þátíð": {
+					"et": "kastaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kastistu"
+				},
+				"þátíð": {
+					"et": "kastaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kastandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kastaður", "kastaðan", "köstuðum", "kastaðs"],
+					"kvk": ["köstuð", "kastaða", "kastaðri", "kastaðrar"],
+					"hk": ["kastað", "kastað", "köstuðu", "kastaðs"]
+				},
+				"ft": {
+					"kk": ["kastaðir", "kastaða", "köstuðum", "kastaðra"],
+					"kvk": ["kastaðar", "kastaðar", "köstuðum", "kastaðra"],
+					"hk": ["köstuð", "köstuð", "köstuðum", "kastaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kastaði", "kastaða", "kastaða", "kastaða"],
+					"kvk": ["kastaða", "köstuðu", "köstuðu", "köstuðu"],
+					"hk": ["kastaða", "kastaða", "kastaða", "kastaða"]
+				},
+				"ft": {
+					"kk": ["köstuðu", "köstuðu", "köstuðu", "köstuðu"],
+					"kvk": ["köstuðu", "köstuðu", "köstuðu", "köstuðu"],
+					"hk": ["köstuðu", "köstuðu", "köstuðu", "köstuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kasta",
+	"hash": "7c8a8faf9d88877bb6fa65fbad5e0dbbe4b0a0ca9eb712ae6be30e89f7fe19ea"
+}

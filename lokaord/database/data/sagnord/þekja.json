@@ -1,0 +1,132 @@
+{
+	"orð": "þekja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þekja",
+		"sagnbót": "þakið",
+		"boðháttur": {
+			"stýfður": "þek",
+			"et": "þektu",
+			"ft": "þekið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þek", "þekur", "þekur"],
+					"ft": ["þekjum", "þekið", "þekja"]
+				},
+				"þátíð": {
+					"et": ["þakti", "þaktir", "þakti"],
+					"ft": ["röktum", "röktuð", "röktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þeki", "þekir", "þeki"],
+					"ft": ["þekjum", "þekið", "þeki"]
+				},
+				"þátíð": {
+					"et": ["þekti", "þektir", "þekti"],
+					"ft": ["þektum", "þektuð", "þektu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þekurðu",
+					"ft": "þekiði"
+				},
+				"þátíð": {
+					"et": "þaktirðu",
+					"ft": "röktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þekirðu",
+					"ft": "þekiði"
+				},
+				"þátíð": {
+					"et": "þektirðu",
+					"ft": "þektuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þekjast",
+		"sagnbót": "þekist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þekst", "þekst", "þekst"],
+					"ft": ["þekjumst", "þekist", "þekjast"]
+				},
+				"þátíð": {
+					"et": ["þaktist", "þaktist", "þaktist"],
+					"ft": ["röktumst", "röktust", "röktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þekist", "þekist", "þekist"],
+					"ft": ["þekjumst", "þekist", "þekist"]
+				},
+				"þátíð": {
+					"et": ["þektist", "þektist", "þektist"],
+					"ft": ["þektumst", "þektust", "þektust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þekstu"
+				},
+				"þátíð": {
+					"et": "þaktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þekistu"
+				},
+				"þátíð": {
+					"et": "þektistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þekjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þakinn", "þakinn", "röktum", "þakins"],
+					"kvk": ["þakin", "þakta", "þakinni", "þakinnar"],
+					"hk": ["þakið", "þakið", "röktu", "þakins"]
+				},
+				"ft": {
+					"kk": ["þaknir", "þakna", "röktum", "þakinna"],
+					"kvk": ["þaktar", "þaktar", "röktum", "þakinna"],
+					"hk": ["þakin", "þakin", "röktum", "þakinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þakti", "þakta", "þakta", "þakta"],
+					"kvk": ["þakta", "röktu", "röktu", "röktu"],
+					"hk": ["þakta", "þakta", "þakta", "þakta"]
+				},
+				"ft": {
+					"kk": ["röktu", "röktu", "röktu", "röktu"],
+					"kvk": ["röktu", "röktu", "röktu", "röktu"],
+					"hk": ["röktu", "röktu", "röktu", "röktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þekja",
+	"hash": "e8139b00f98ae4055c95cfbc0bd11f543100ae20870c92c759bfa87428ce388c"
+}
