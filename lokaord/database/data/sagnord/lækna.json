@@ -1,0 +1,155 @@
+{
+	"orð": "lækna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lækna",
+		"sagnbót": "læknað",
+		"boðháttur": {
+			"stýfður": "lækna",
+			"et": "læknaðu",
+			"ft": "læknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lækna", "læknar", "læknar"],
+					"ft": ["læknum", "læknið", "lækna"]
+				},
+				"þátíð": {
+					"et": ["læknaði", "læknaðir", "læknaði"],
+					"ft": ["læknuðum", "læknuðuð", "læknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lækni", "læknir", "lækni"],
+					"ft": ["læknum", "læknið", "lækni"]
+				},
+				"þátíð": {
+					"et": ["læknaði", "læknaðir", "læknaði"],
+					"ft": ["læknuðum", "læknuðuð", "læknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "læknarðu",
+					"ft": "lækniði"
+				},
+				"þátíð": {
+					"et": "læknaðirðu",
+					"ft": "læknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "læknirðu",
+					"ft": "lækniði"
+				},
+				"þátíð": {
+					"et": "læknaðirðu",
+					"ft": "læknuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "læknast",
+		"sagnbót": "læknast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["læknast", "læknast", "læknast"],
+					"ft": ["læknumst", "læknist", "læknast"]
+				},
+				"þátíð": {
+					"et": ["læknaðist", "læknaðist", "læknaðist"],
+					"ft": ["læknuðumst", "læknuðust", "læknuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["læknist", "læknist", "læknist"],
+					"ft": ["læknumst", "læknist", "læknist"]
+				},
+				"þátíð": {
+					"et": ["læknaðist", "læknaðist", "læknaðist"],
+					"ft": ["læknuðumst", "læknuðust", "læknuðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["læknast", "læknast", "læknast"],
+					"ft": ["læknast", "læknast", "læknast"]
+				},
+				"þátíð": {
+					"et": ["læknaðist", "læknaðist", "læknaðist"],
+					"ft": ["læknaðist", "læknaðist", "læknaðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["læknist", "læknist", "læknist"],
+					"ft": ["læknist", "læknist", "læknist"]
+				},
+				"þátíð": {
+					"et": ["læknaðist", "læknaðist", "læknaðist"],
+					"ft": ["læknaðist", "læknaðist", "læknaðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "læknastu"
+				},
+				"þátíð": {
+					"et": "læknaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "læknistu"
+				},
+				"þátíð": {
+					"et": "læknaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "læknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["læknaður", "læknaðan", "læknuðum", "læknaðs"],
+					"kvk": ["læknuð", "læknaða", "læknaðri", "læknaðrar"],
+					"hk": ["læknað", "læknað", "læknuðu", "læknaðs"]
+				},
+				"ft": {
+					"kk": ["læknaðir", "læknaða", "læknuðum", "læknaðra"],
+					"kvk": ["læknaðar", "læknaðar", "læknuðum", "læknaðra"],
+					"hk": ["læknuð", "læknuð", "læknuðum", "læknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["læknaði", "læknaða", "læknaða", "læknaða"],
+					"kvk": ["læknaða", "læknuðu", "læknuðu", "læknuðu"],
+					"hk": ["læknaða", "læknaða", "læknaða", "læknaða"]
+				},
+				"ft": {
+					"kk": ["læknuðu", "læknuðu", "læknuðu", "læknuðu"],
+					"kvk": ["læknuðu", "læknuðu", "læknuðu", "læknuðu"],
+					"hk": ["læknuðu", "læknuðu", "læknuðu", "læknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lækna",
+	"hash": "bf633298518bcd3acface5577db068528fa97341aad21222550a1b947cc9ba63"
+}

@@ -1,0 +1,132 @@
+{
+	"orð": "læsa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "læsa",
+		"sagnbót": "læst",
+		"boðháttur": {
+			"stýfður": "læs",
+			"et": "læstu",
+			"ft": "læsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["læsi", "læsir", "læsir"],
+					"ft": ["læsum", "læsið", "læsa"]
+				},
+				"þátíð": {
+					"et": ["læsti", "læstir", "læsti"],
+					"ft": ["læstum", "læstuð", "læstu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["læsi", "læsir", "læsi"],
+					"ft": ["læsum", "læsið", "læsi"]
+				},
+				"þátíð": {
+					"et": ["læsti", "læstir", "læsti"],
+					"ft": ["læstum", "læstuð", "læstu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "læsirðu",
+					"ft": "læsiði"
+				},
+				"þátíð": {
+					"et": "læstirðu",
+					"ft": "læstuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "læsirðu",
+					"ft": "læsiði"
+				},
+				"þátíð": {
+					"et": "læstirðu",
+					"ft": "læstuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "læsast",
+		"sagnbót": "læst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["læsist", "læsist", "læsist"],
+					"ft": ["læsumst", "læsist", "læsast"]
+				},
+				"þátíð": {
+					"et": ["læstist", "læstist", "læstist"],
+					"ft": ["læstumst", "læstust", "læstust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["læsist", "læsist", "læsist"],
+					"ft": ["læsumst", "læsist", "læsist"]
+				},
+				"þátíð": {
+					"et": ["læstist", "læstist", "læstist"],
+					"ft": ["læstumst", "læstust", "læstust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "læsistu"
+				},
+				"þátíð": {
+					"et": "læstistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "læsistu"
+				},
+				"þátíð": {
+					"et": "læstistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "læsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["læstur", "læstan", "læstum", "læsts"],
+					"kvk": ["læst", "læsta", "læstri", "læstrar"],
+					"hk": ["læst", "læst", "læstu", "læsts"]
+				},
+				"ft": {
+					"kk": ["læstir", "læsta", "læstum", "læstra"],
+					"kvk": ["læstar", "læstar", "læstum", "læstra"],
+					"hk": ["læst", "læst", "læstum", "læstra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["læsti", "læsta", "læsta", "læsta"],
+					"kvk": ["læsta", "læstu", "læstu", "læstu"],
+					"hk": ["læsta", "læsta", "læsta", "læsta"]
+				},
+				"ft": {
+					"kk": ["læstu", "læstu", "læstu", "læstu"],
+					"kvk": ["læstu", "læstu", "læstu", "læstu"],
+					"hk": ["læstu", "læstu", "læstu", "læstu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-læsa",
+	"hash": "3c85ce16f00f80fd11c0dfec0865a0cb10bfaf10503095b747643ac9c2f6551c"
+}
