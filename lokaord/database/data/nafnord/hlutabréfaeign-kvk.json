@@ -1,0 +1,30 @@
+{
+	"orð": "hlutabréfaeign",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-eign-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hlutabréfaeign", "hlutabréfaeign", "hlutabréfaeign", "hlutabréfaeignar"],
+		"mg": ["hlutabréfaeignin", "hlutabréfaeignina", "hlutabréfaeigninni", "hlutabréfaeignarinnar"]
+	},
+	"ft": {
+		"ág": ["hlutabréfaeignir", "hlutabréfaeignir", "hlutabréfaeignum", "hlutabréfaeigna"],
+		"mg": ["hlutabréfaeignirnar", "hlutabréfaeignirnar", "hlutabréfaeignunum", "hlutabréfaeignanna"]
+	},
+	"kennistrengur": "no-hlutabréfaeign-kvk",
+	"hash": "adf1d743f7d86d07d8d483a3fc3de11a27d142c81ced1689ac747ae9422e97d5"
+}

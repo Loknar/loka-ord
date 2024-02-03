@@ -1,0 +1,22 @@
+{
+	"orð": "rekstrartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["rekstrartekjur", "rekstrartekjur", "rekstrartekjum", "rekstrartekna"],
+		"mg": ["rekstrartekjurnar", "rekstrartekjurnar", "rekstrartekjunum", "rekstrarteknanna"]
+	},
+	"kennistrengur": "no-rekstrartekjur-kvk",
+	"hash": "a679e06de203ff60c123d0a092ab30f963dbb9f92e52533aa19a305f3b9eec0b"
+}

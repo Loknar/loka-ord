@@ -1,0 +1,142 @@
+{
+	"orð": "auglýsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "aug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-auga-hk"
+		},
+		{
+			"kennistrengur": "so-lýsa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "auglýsa",
+		"sagnbót": "auglýst",
+		"boðháttur": {
+			"stýfður": "auglýs",
+			"et": "auglýstu",
+			"ft": "auglýsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["auglýsi", "auglýsir", "auglýsir"],
+					"ft": ["auglýsum", "auglýsið", "auglýsa"]
+				},
+				"þátíð": {
+					"et": ["auglýsti", "auglýstir", "auglýsti"],
+					"ft": ["auglýstum", "auglýstuð", "auglýstu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["auglýsi", "auglýsir", "auglýsi"],
+					"ft": ["auglýsum", "auglýsið", "auglýsi"]
+				},
+				"þátíð": {
+					"et": ["auglýsti", "auglýstir", "auglýsti"],
+					"ft": ["auglýstum", "auglýstuð", "auglýstu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "auglýsirðu",
+					"ft": "auglýsiði"
+				},
+				"þátíð": {
+					"et": "auglýstirðu",
+					"ft": "auglýstuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "auglýsirðu",
+					"ft": "auglýsiði"
+				},
+				"þátíð": {
+					"et": "auglýstirðu",
+					"ft": "auglýstuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "auglýsast",
+		"sagnbót": "auglýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["auglýsist", "auglýsist", "auglýsist"],
+					"ft": ["auglýsumst", "auglýsist", "auglýsast"]
+				},
+				"þátíð": {
+					"et": ["auglýstist", "auglýstist", "auglýstist"],
+					"ft": ["auglýstumst", "auglýstust", "auglýstust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["auglýsist", "auglýsist", "auglýsist"],
+					"ft": ["auglýsumst", "auglýsist", "auglýsist"]
+				},
+				"þátíð": {
+					"et": ["auglýstist", "auglýstist", "auglýstist"],
+					"ft": ["auglýstumst", "auglýstust", "auglýstust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "auglýsistu"
+				},
+				"þátíð": {
+					"et": "auglýstistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "auglýsistu"
+				},
+				"þátíð": {
+					"et": "auglýstistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "auglýsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["auglýstur", "auglýstan", "auglýstum", "auglýsts"],
+					"kvk": ["auglýst", "auglýsta", "auglýstri", "auglýstrar"],
+					"hk": ["auglýst", "auglýst", "auglýstu", "auglýsts"]
+				},
+				"ft": {
+					"kk": ["auglýstir", "auglýsta", "auglýstum", "auglýstra"],
+					"kvk": ["auglýstar", "auglýstar", "auglýstum", "auglýstra"],
+					"hk": ["auglýst", "auglýst", "auglýstum", "auglýstra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["auglýsti", "auglýsta", "auglýsta", "auglýsta"],
+					"kvk": ["auglýsta", "auglýstu", "auglýstu", "auglýstu"],
+					"hk": ["auglýsta", "auglýsta", "auglýsta", "auglýsta"]
+				},
+				"ft": {
+					"kk": ["auglýstu", "auglýstu", "auglýstu", "auglýstu"],
+					"kvk": ["auglýstu", "auglýstu", "auglýstu", "auglýstu"],
+					"hk": ["auglýstu", "auglýstu", "auglýstu", "auglýstu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-auglýsa",
+	"hash": "d0d44d1140607260c92c5d0bfd25ba4df0d86348c197597568276792063b4078"
+}
