@@ -1,0 +1,99 @@
+{
+	"orð": "útsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útsetja",
+		"sagnbót": "útsett",
+		"boðháttur": {
+			"stýfður": "útset",
+			"et": "útsettu",
+			"ft": "útsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útset", "útsetur", "útsetur"],
+					"ft": ["útsetjum", "útsetjið", "útsetja"]
+				},
+				"þátíð": {
+					"et": ["útsetti", "útsettir", "útsett"],
+					"ft": ["útsettum", "útsettuð", "útsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útsetji", "útsetjir", "útsetji"],
+					"ft": ["útsetjum", "útsetjið", "útsetji"]
+				},
+				"þátíð": {
+					"et": ["útsetti", "útsettir", "útsetti"],
+					"ft": ["útsettum", "útsettuð", "útsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útseturðu",
+					"ft": "útsetjiði"
+				},
+				"þátíð": {
+					"et": "útsettirðu",
+					"ft": "útsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útsetjirðu",
+					"ft": "útsetjiði"
+				},
+				"þátíð": {
+					"et": "útsettirðu",
+					"ft": "útsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útsettur", "útsettan", "útsettum", "útsetts"],
+					"kvk": ["útsett", "útsetta", "útsettri", "útsettrar"],
+					"hk": ["útsett", "útsett", "útsettu", "útsetts"]
+				},
+				"ft": {
+					"kk": ["útsettir", "útsetta", "útsettum", "útsettra"],
+					"kvk": ["útsettar", "útsettar", "útsettum", "útsettra"],
+					"hk": ["útsett", "útsett", "útsettum", "útsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útsetti", "útsetta", "útsetta", "útsetta"],
+					"kvk": ["útsetta", "útsettu", "útsettu", "útsettu"],
+					"hk": ["útsetta", "útsetta", "útsetta", "útsetta"]
+				},
+				"ft": {
+					"kk": ["útsettu", "útsettu", "útsettu", "útsettu"],
+					"kvk": ["útsettu", "útsettu", "útsettu", "útsettu"],
+					"hk": ["útsettu", "útsettu", "útsettu", "útsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útsetja",
+	"hash": "98563aa6fb7a1f25450262dc85341a7b71470bf244c776c28cb89662fb1ca8fb"
+}
