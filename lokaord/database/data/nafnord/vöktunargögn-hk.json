@@ -1,0 +1,22 @@
+{
+	"orð": "vöktunargögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vöktunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vöktun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["vöktunargögn", "vöktunargögn", "vöktunargögnum", "vöktunargagna"],
+		"mg": ["vöktunargögnin", "vöktunargögnin", "vöktunargögnunum", "vöktunargagnanna"]
+	},
+	"kennistrengur": "no-vöktunargögn-hk",
+	"hash": "d6ac5076c002c67964940d457b910655958e94f03bd850e612290959e422f73f"
+}
