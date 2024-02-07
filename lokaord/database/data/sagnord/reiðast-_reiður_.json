@@ -1,0 +1,61 @@
+{
+	"orð": "reiðast",
+	"flokkur": "sagnorð",
+	"merking": "reiður",
+	"samsett": [
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-reiða"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "reiðast",
+		"sagnbót": "reiðst",
+		"boðháttur": {
+			"et": "reiðstu",
+			"ft": "reiðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reiðist", "reiðist", "reiðist"],
+					"ft": ["reiðumst", "reiðist", "reiðast"]
+				},
+				"þátíð": {
+					"et": ["reiddist", "reiddist", "reiddist"],
+					"ft": ["reiddumst", "reiddust", "reiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reiðist", "reiðist", "reiðist"],
+					"ft": ["reiðumst", "reiðist", "reiðist"]
+				},
+				"þátíð": {
+					"et": ["reiddist", "reiddist", "reiddist"],
+					"ft": ["reiddumst", "reiddust", "reiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reiðstu"
+				},
+				"þátíð": {
+					"et": "reiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reiðistu"
+				},
+				"þátíð": {
+					"et": "reiddistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reiðast-_reiður_",
+	"hash": "823b8da676738f1e39bfbb15cafb2b887728da3061b1ab4b73c633e6394a8879"
+}

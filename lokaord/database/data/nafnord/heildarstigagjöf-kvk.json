@@ -1,0 +1,27 @@
+{
+	"orð": "heildarstigagjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "stiga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stig-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarstigagjöf", "heildarstigagjöf", "heildarstigagjöf", "heildarstigagjafar"],
+		"mg": ["heildarstigagjöfin", "heildarstigagjöfina", "heildarstigagjöfinni", "heildarstigagjafarinnar"]
+	},
+	"kennistrengur": "no-heildarstigagjöf-kvk",
+	"hash": "1a1f91a9af64cde19b9a2de83e88aaa350b0afcc2c5e54f8289119134e68c86e"
+}

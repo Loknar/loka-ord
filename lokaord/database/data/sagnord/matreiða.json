@@ -1,0 +1,147 @@
+{
+	"orð": "matreiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mat",
+			"samsetning": "stofn",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "miðmynd", "lýsingarháttur"],
+			"kennistrengur": "so-reiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "matreiða",
+		"sagnbót": "matreitt",
+		"boðháttur": {
+			"stýfður": "matreið",
+			"et": "matreiddu",
+			"ft": "matreiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["matreiði", "matreiðir", "matreiðir"],
+					"ft": ["matreiðum", "matreiðið", "matreiða"]
+				},
+				"þátíð": {
+					"et": ["matreiddi", "matreiddir", "matreiddi"],
+					"ft": ["matreiddum", "matreidduð", "matreiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["matreiði", "matreiðir", "matreiði"],
+					"ft": ["matreiðum", "matreiðið", "matreiði"]
+				},
+				"þátíð": {
+					"et": ["matreiddi", "matreiddir", "matreiddi"],
+					"ft": ["matreddum", "matreidduð", "matreiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "matreiðirðu",
+					"ft": "matreiðiði"
+				},
+				"þátíð": {
+					"et": "matreiddirðu",
+					"ft": "matreidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "matreiðirðu",
+					"ft": "matreiðiði"
+				},
+				"þátíð": {
+					"et": "matreiddirðu",
+					"ft": "matreidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "matreiðast",
+		"sagnbót": "matreiðst",
+		"boðháttur": {
+			"et": "matreiðstu",
+			"ft": "matreiðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["matreiðist", "matreiðist", "matreiðist"],
+					"ft": ["matreiðumst", "matreiðist", "matreiðast"]
+				},
+				"þátíð": {
+					"et": ["matreiddist", "matreiddist", "matreiddist"],
+					"ft": ["matreiddumst", "matreiddust", "matreiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["matreiðist", "matreiðist", "matreiðist"],
+					"ft": ["matreiðumst", "matreiðist", "matreiðist"]
+				},
+				"þátíð": {
+					"et": ["matreiddist", "matreiddist", "matreiddist"],
+					"ft": ["matreiddumst", "matreiddust", "matreiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "matreiðstu"
+				},
+				"þátíð": {
+					"et": "matreiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "matreiðistu"
+				},
+				"þátíð": {
+					"et": "matreiddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "matreiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["matreiddur", "matreiddan", "matreiddum", "matreidds"],
+					"kvk": ["matreidd", "matreidda", "matreiddri", "matreiddrar"],
+					"hk": ["matreitt", "matreitt", "matreiddu", "matreidds"]
+				},
+				"ft": {
+					"kk": ["matreiddir", "matreidda", "matreiddum", "matreiddra"],
+					"kvk": ["matreiddar", "matreiddar", "matreiddum", "matreiddra"],
+					"hk": ["matreidd", "matreidd", "matreiddum", "matreiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["matreiddi", "matreidda", "matreidda", "matreidda"],
+					"kvk": ["matreidda", "matreiddu", "matreiddu", "matreiddu"],
+					"hk": ["matreidda", "matreidda", "matreidda", "matreidda"]
+				},
+				"ft": {
+					"kk": ["matreiddu", "matreiddu", "matreiddu", "matreiddu"],
+					"kvk": ["matreiddu", "matreiddu", "matreiddu", "matreiddu"],
+					"hk": ["matreiddu", "matreiddu", "matreiddu", "matreiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-matreiða",
+	"hash": "d6e77386940a6d0d2b5e4fd03ecf09b52a87a8f45e0b4607fc273d9b77d7dd8c"
+}
