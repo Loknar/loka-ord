@@ -1,0 +1,88 @@
+{
+	"orð": "fljóta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "fljóta",
+		"sagnbót": "flotið",
+		"boðháttur": {
+			"stýfður": "fljót",
+			"et": "fljóttu",
+			"ft": "fljótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flýt", "flýtur", "flýtur"],
+					"ft": ["fljótum", "fljótið", "fljóta"]
+				},
+				"þátíð": {
+					"et": ["flaut", "flaust", "flaut"],
+					"ft": ["flutum", "flutuð", "flutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fljóti", "fljótir", "fljóti"],
+					"ft": ["fljótum", "fljótið", "fljóti"]
+				},
+				"þátíð": {
+					"et": ["flyti", "flytir", "flyti"],
+					"ft": ["flytum", "flytuð", "flytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flýturðu",
+					"ft": "fljótiði"
+				},
+				"þátíð": {
+					"et": "flaustu",
+					"ft": "flutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fljótirðu",
+					"ft": "fljótiði"
+				},
+				"þátíð": {
+					"et": "flytirðu",
+					"ft": "flytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fljótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flotinn", "flotinn", "flotnum", "flotins"],
+					"kvk": ["flotin", "flotna", "flotinni", "flotinnar"],
+					"hk": ["flotið", "flotið", "flotnu", "flotins"]
+				},
+				"ft": {
+					"kk": ["flotnir", "flotna", "flotnum", "flotinna"],
+					"kvk": ["flotnar", "flotnar", "flotnum", "flotinna"],
+					"hk": ["flotin", "flotin", "flotnum", "flotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["flotni", "flotna", "flotna", "flotna"],
+					"kvk": ["flotna", "flotnu", "flotnu", "flotnu"],
+					"hk": ["flotna", "flotna", "flotna", "flotna"]
+				},
+				"ft": {
+					"kk": ["flotnu", "flotnu", "flotnu", "flotnu"],
+					"kvk": ["flotnu", "flotnu", "flotnu", "flotnu"],
+					"hk": ["flotnu", "flotnu", "flotnu", "flotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fljóta",
+	"hash": "510e4231a2ef1d41b2bfd5b77bdeb1f19fe373c0b1b3f14be7f3c082c7e43323"
+}

@@ -3,10 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "hk",
 	"merking": "endir",
+	"samsett": [
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lok-hk"
+		}
+	],
 	"ft": {
 		"ág": ["lok", "lok", "lokum", "loka"],
 		"mg": ["lokin", "lokin", "lokunum", "lokanna"]
 	},
 	"kennistrengur": "no-lok-hk-_endir_",
-	"hash": "ebdc78f8dcfed7ed7a7e285892ddf74b54f01f18e96117e944073ee7fb92e782"
+	"hash": "209d14110fba051682a489d5e0a1fdb1da9e8d33c92ddf4a928f7a714f622533"
 }
