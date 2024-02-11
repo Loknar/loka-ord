@@ -1,0 +1,88 @@
+{
+	"orð": "kynda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kynda",
+		"sagnbót": "kynt",
+		"boðháttur": {
+			"stýfður": "kynd",
+			"et": "kyntu",
+			"ft": "kyndið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyndi", "kyndir", "kyndir"],
+					"ft": ["kyndum", "kyndið", "kynda"]
+				},
+				"þátíð": {
+					"et": ["kynti", "kyntir", "kynti"],
+					"ft": ["kyntum", "kyntuð", "kyntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyndi", "kyndir", "kyndi"],
+					"ft": ["kyndum", "kyndið", "kyndi"]
+				},
+				"þátíð": {
+					"et": ["kynti", "kyntir", "kynti"],
+					"ft": ["kyntum", "kyntuð", "kyntu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyndirðu",
+					"ft": "kyndiði"
+				},
+				"þátíð": {
+					"et": "kyntirðu",
+					"ft": "kyntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyndirðu",
+					"ft": "kyndiði"
+				},
+				"þátíð": {
+					"et": "kyntirðu",
+					"ft": "kyntuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kyndandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kyntur", "kyntan", "kyntum", "kynts"],
+					"kvk": ["kynt", "kynta", "kyntri", "kyntrar"],
+					"hk": ["kynt", "kynt", "kyntu", "kynts"]
+				},
+				"ft": {
+					"kk": ["kyntir", "kynta", "kyntum", "kyntra"],
+					"kvk": ["kyntar", "kyntar", "kyntum", "kyntra"],
+					"hk": ["kynt", "kynt", "kyntum", "kyntra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kynti", "kynta", "kynta", "kynta"],
+					"kvk": ["kynta", "kyntu", "kyntu", "kyntu"],
+					"hk": ["kynta", "kynta", "kynta", "kynta"]
+				},
+				"ft": {
+					"kk": ["kyntu", "kyntu", "kyntu", "kyntu"],
+					"kvk": ["kyntu", "kyntu", "kyntu", "kyntu"],
+					"hk": ["kyntu", "kyntu", "kyntu", "kyntu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kynda",
+	"hash": "4fd50b4bd7e06e3cfb493cdbed9bee24c3913b11ea61fb207cadc4e4b4ed689d"
+}
