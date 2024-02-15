@@ -1,0 +1,27 @@
+{
+	"orð": "dekkjaverkstæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "dekkja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dekk-hk"
+		},
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stæði-hk"
+		}
+	],
+	"et": {
+		"ág": ["dekkjaverkstæði", "dekkjaverkstæði", "dekkjaverkstæði", "dekkjaverkstæðis"],
+		"mg": ["dekkjaverkstæðið", "dekkjaverkstæðið", "dekkjaverkstæðinu", "dekkjaverkstæðisins"]
+	},
+	"kennistrengur": "no-dekkjaverkstæði-hk",
+	"hash": "ed4ffa567ac15d9a0abf590f3425a43b30075c7abf84a74a1d6f4af97a9862a8"
+}
