@@ -1,0 +1,83 @@
+{
+	"orð": "ljúga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ljúga",
+		"sagnbót": "logið",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lýg", "lýgur", "lýgur"],
+					"ft": ["ljúgum", "ljúgið", "ljúga"]
+				},
+				"þátíð": {
+					"et": ["laug", "laugst", "laug"],
+					"ft": ["flugum", "fluguð", "flugu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ljúgi", "ljúgir", "ljúgi"],
+					"ft": ["ljúgum", "ljúgið", "ljúgi"]
+				},
+				"þátíð": {
+					"et": ["flygi", "flygir", "flygi"],
+					"ft": ["flygjum", "flygjuð", "flygju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lýgurðu",
+					"ft": "ljúgiði"
+				},
+				"þátíð": {
+					"et": "laugstu",
+					"ft": "fluguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fjúgirðu",
+					"ft": "ljúgiði"
+				},
+				"þátíð": {
+					"et": "flygirðu",
+					"ft": "flygjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ljúgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["loginn", "loginn", "lognum", "logins"],
+					"kvk": ["login", "logna", "loginni", "loginnar"],
+					"hk": ["logið", "logið", "lognu", "logins"]
+				},
+				"ft": {
+					"kk": ["lognir", "logna", "lognum", "loginna"],
+					"kvk": ["lognar", "lognar", "lognum", "loginna"],
+					"hk": ["login", "login", "lognum", "loginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["logni", "logna", "logna", "logna"],
+					"kvk": ["logna", "lognu", "lognu", "lognu"],
+					"hk": ["logna", "logna", "logna", "logna"]
+				},
+				"ft": {
+					"kk": ["lognu", "lognu", "lognu", "lognu"],
+					"kvk": ["lognu", "lognu", "lognu", "lognu"],
+					"hk": ["lognu", "lognu", "lognu", "lognu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ljúga",
+	"hash": "16a00dac44d39d47ffd4d4b14e596b5e5df063b83b325063df5d5ed34c94a843"
+}
