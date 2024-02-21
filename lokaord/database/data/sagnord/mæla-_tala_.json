@@ -1,0 +1,160 @@
+{
+	"orð": "mæla",
+	"flokkur": "sagnorð",
+	"merking": "tala",
+	"germynd": {
+		"nafnháttur": "mæla",
+		"sagnbót": "mælt",
+		"boðháttur": {
+			"stýfður": "mæl",
+			"et": "mæltu",
+			"ft": "mælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mæli", "mælir", "mælir"],
+					"ft": ["mælum", "mælið", "mæla"]
+				},
+				"þátíð": {
+					"et": ["mælti", "mæltir", "mælti"],
+					"ft": ["mæltum", "mæltuð", "mæltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mæli", "mælir", "mæli"],
+					"ft": ["mælum", "mælið", "mæli"]
+				},
+				"þátíð": {
+					"et": ["mælti", "mæltir", "mælti"],
+					"ft": ["mæltum", "mæltuð", "mæltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mælirðu",
+					"ft": "mæliði"
+				},
+				"þátíð": {
+					"et": "mæltirðu",
+					"ft": "mæltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mælirðu",
+					"ft": "mæliði"
+				},
+				"þátíð": {
+					"et": "mæltirðu",
+					"ft": "mæltuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "mælast",
+		"sagnbót": "mælst",
+		"boðháttur": {
+			"et": "mælistu",
+			"ft": "mælist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mælist", "mælist", "mælist"],
+					"ft": ["mælumst", "mælist", "mælast"]
+				},
+				"þátíð": {
+					"et": ["mæltist", "mæltist", "mæltist"],
+					"ft": ["mæltumst", "mæltust", "mæltust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mælist", "mælist", "mælist"],
+					"ft": ["mælumst", "mælist", "mælist"]
+				},
+				"þátíð": {
+					"et": ["mæltist", "mæltist", "mæltist"],
+					"ft": ["mæltumst", "mæltust", "mæltust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mælist", "mælist", "mælist"],
+					"ft": ["mælist", "mælist", "mælist"]
+				},
+				"þátíð": {
+					"et": ["mæltist", "mæltist", "mæltist"],
+					"ft": ["mæltist", "mæltist", "mæltist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mælist", "mælist", "mælist"],
+					"ft": ["mælist", "mælist", "mælist"]
+				},
+				"þátíð": {
+					"et": ["mæltist", "mæltist", "mæltist"],
+					"ft": ["mæltist", "mæltist", "mæltist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mælistu"
+				},
+				"þátíð": {
+					"et": "mæltistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mælistu"
+				},
+				"þátíð": {
+					"et": "mæltistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mælandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mæltur", "mæltan", "mæltum", "mælts"],
+					"kvk": ["mælt", "mælta", "mæltri", "mæltrar"],
+					"hk": ["mælt", "mælt", "mæltu", "mælts"]
+				},
+				"ft": {
+					"kk": ["mæltir", "mælta", "mæltum", "mæltra"],
+					"kvk": ["mæltar", "mæltar", "mæltum", "mæltra"],
+					"hk": ["mælt", "mælt", "mæltum", "mæltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["mælti", "mælta", "mælta", "mælta"],
+					"kvk": ["mælta", "mæltu", "mæltu", "mæltu"],
+					"hk": ["mælta", "mælta", "mælta", "mælta"]
+				},
+				"ft": {
+					"kk": ["mæltu", "mæltu", "mæltu", "mæltu"],
+					"kvk": ["mæltu", "mæltu", "mæltu", "mæltu"],
+					"hk": ["mæltu", "mæltu", "mæltu", "mæltu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mæla-_tala_",
+	"hash": "c22756605d5f9505ab15fe886e7794b64cccf2c6f5c0a8977ecabdb3f5ec73a3"
+}
