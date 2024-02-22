@@ -1,0 +1,132 @@
+{
+	"orð": "sneiða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sneiða",
+		"sagnbót": "sneitt",
+		"boðháttur": {
+			"stýfður": "sneið",
+			"et": "sneiddu",
+			"ft": "sneiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sneiði", "sneiðir", "sneiðir"],
+					"ft": ["sneiðum", "sneiðið", "sneiða"]
+				},
+				"þátíð": {
+					"et": ["sneiddi", "sneiddir", "sneiddi"],
+					"ft": ["sneiddum", "sneidduð", "sneiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sneiði", "sneiðir", "sneiði"],
+					"ft": ["sneiðum", "sneiðið", "sneiði"]
+				},
+				"þátíð": {
+					"et": ["sneiddi", "sneiddir", "sneiddi"],
+					"ft": ["sneiddum", "sneidduð", "sneiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sneiðirðu",
+					"ft": "sneiðiði"
+				},
+				"þátíð": {
+					"et": "sneiddirðu",
+					"ft": "sneidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sneiðirðu",
+					"ft": "sneiðiði"
+				},
+				"þátíð": {
+					"et": "sneiddirðu",
+					"ft": "sneidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sneiðast",
+		"sagnbót": "sneiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sneiðist", "sneiðist", "sneiðist"],
+					"ft": ["sneiðumst", "sneiðist", "sneiðast"]
+				},
+				"þátíð": {
+					"et": ["sneiddist", "sneiddist", "sneiddist"],
+					"ft": ["sneiddumst", "sneiddust", "sneiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sneiðist", "sneiðist", "sneiðist"],
+					"ft": ["sneiðumst", "sneiðist", "sneiðist"]
+				},
+				"þátíð": {
+					"et": ["sneiddist", "sneiddist", "sneiddist"],
+					"ft": ["sneiddumst", "sneiddust", "sneiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sneiðistu"
+				},
+				"þátíð": {
+					"et": "sneiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sneiðistu"
+				},
+				"þátíð": {
+					"et": "sneiddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sneiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sneiddur", "sneiddan", "sneiddum", "sneidds"],
+					"kvk": ["sneidd", "sneidda", "sneiddri", "sneiddrar"],
+					"hk": ["sneitt", "sneitt", "sneiddu", "sneidds"]
+				},
+				"ft": {
+					"kk": ["sneiddir", "sneidda", "sneiddum", "sneiddra"],
+					"kvk": ["sneiddar", "sneiddar", "sneiddum", "sneiddra"],
+					"hk": ["sneidd", "sneidd", "sneiddum", "sneiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sneiddi", "sneidda", "sneidda", "sneidda"],
+					"kvk": ["sneidda", "sneiddu", "sneiddu", "sneiddu"],
+					"hk": ["sneidda", "sneidda", "sneidda", "sneidda"]
+				},
+				"ft": {
+					"kk": ["sneiddu", "sneiddu", "sneiddu", "sneiddu"],
+					"kvk": ["sneiddu", "sneiddu", "sneiddu", "sneiddu"],
+					"hk": ["sneiddu", "sneiddu", "sneiddu", "sneiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sneiða",
+	"hash": "cfe75455a172b2d2f724cc296aa264dcec794a313f06371849f5977e36914b64"
+}
