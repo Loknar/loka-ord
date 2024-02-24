@@ -1,0 +1,118 @@
+{
+	"orð": "mylja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "mylja",
+		"sagnbót": "mulið",
+		"boðháttur": {
+			"stýfður": "myl",
+			"et": "myldu",
+			"ft": "myljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["myl", "mylur", "mylur"],
+					"ft": ["myljum", "myljið", "mylja"]
+				},
+				"þátíð": {
+					"et": ["muldi", "muldir", "muldi"],
+					"ft": ["muldum", "mulduð", "muldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mylji", "myljir", "mylji"],
+					"ft": ["myljum", "myljið", "mylji"]
+				},
+				"þátíð": {
+					"et": ["myldi", "myldir", "myldi"],
+					"ft": ["myldum", "mylduð", "myldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mylurðu",
+					"ft": "myljiði"
+				},
+				"þátíð": {
+					"et": "muldirðu",
+					"ft": "mulduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "myljirðu",
+					"ft": "myljiði"
+				},
+				"þátíð": {
+					"et": "myldirðu",
+					"ft": "mylduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "myljast",
+		"sagnbót": "mulist",
+		"boðháttur": {
+			"et": "mylstu",
+			"ft": "myljist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mylst", "mylst", "mylst"],
+					"ft": ["myljumst", "myljist", "myljast"]
+				},
+				"þátíð": {
+					"et": ["muldist", "muldist", "muldist"],
+					"ft": ["muldumst", "muldust", "muldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["myljist", "myljist", "myljist"],
+					"ft": ["myljumst", "myljist", "myljist"]
+				},
+				"þátíð": {
+					"et": ["myldist", "myldist", "myldist"],
+					"ft": ["myldumst", "myldust", "myldust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "myljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mulinn", "mulinn", "muldum", "mulins"],
+					"kvk": ["mulin", "mulda", "mulinni", "mulinnar"],
+					"hk": ["mulið", "mulið", "muldu", "mulins"]
+				},
+				"ft": {
+					"kk": ["muldir", "mulda", "muldum", "mulinna"],
+					"kvk": ["muldar", "muldar", "muldum", "mulinna"],
+					"hk": ["mulin", "mulin", "muldum", "mulinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["muldi", "mulda", "mulda", "mulda"],
+					"kvk": ["mulda", "muldu", "muldu", "muldu"],
+					"hk": ["mulda", "mulda", "mulda", "mulda"]
+				},
+				"ft": {
+					"kk": ["muldu", "muldu", "muldu", "muldu"],
+					"kvk": ["muldu", "muldu", "muldu", "muldu"],
+					"hk": ["muldu", "muldu", "muldu", "muldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mylja",
+	"hash": "ab5aa05dfd375b3f17db74a56ee42e76bc6926c458754c26415519a0aa6b43b4"
+}

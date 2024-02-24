@@ -2,6 +2,16 @@
 	"orð": "veiting",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "veit",
+			"samsetning": "stofn",
+			"kennistrengur": "so-veita"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["veiting", "veitingu", "veitingu", "veitingar"],
 		"mg": ["veitingin", "veitinguna", "veitingunni", "veitingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["veitingarnar", "veitingarnar", "veitingunum", "veitinganna"]
 	},
 	"kennistrengur": "no-veiting-kvk",
-	"hash": "a94121d0ae1997a0680a8e9a469f8162198c7c7f3a03aabb1ba14e61adcab1c4"
+	"hash": "0c324faf983479d2b0c4b1fad3fd5634d4d39afff82806ab78a7360799255ec5"
 }
