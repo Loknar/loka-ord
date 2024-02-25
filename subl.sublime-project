@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".",
+			"folder_exclude_patterns": ["env"],
+			"file_exclude_patterns": ["subl.sublime-workspace"]
+		}
+	],
+	"settings": {
+		"draw_white_space": "all",
+		"index_files": true,
+		"pep8_ignore": ["W191", "W504"],
+		"rulers": [100]
+	}
+}
