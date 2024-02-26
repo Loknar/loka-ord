@@ -133,8 +133,8 @@ def stats():
 
 
 @app.command(help='Print database word count in Markdown table.')
-def md_stats():
-	lokaord.get_md_stats()
+def md_stats(update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False):
+	print(lokaord.get_md_stats(update_readme_table=update_readme))
 
 
 @app.command(help='Print runtime of script so far.')
@@ -143,20 +143,23 @@ def runtime():
 
 
 @app.command(help='Initialize lokaord (same as: "build-db write-files build-sight md-stats").')
-def init(rebuild: Annotated[Optional[bool], Option('--rebuild', '-r')] = False):
+def init(
+	rebuild: Annotated[Optional[bool], Option('--rebuild', '-r')] = False,
+	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False
+):
 	lokaord.build_db(rebuild)
 	lokaord.write_files()
 	lokaord.build_sight()
-	lokaord.get_md_stats()
+	print(lokaord.get_md_stats(update_readme_table=update_readme))
 	lokaord.get_runtime()
 
 
 @app.command(help='Update lokaord (same as: "build-db -ch write-files -tr build-sight md-stats").')
-def update():
+def update(update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False):
 	lokaord.build_db(changes_only=True)
 	lokaord.write_files(lokaord.Ts)
 	lokaord.build_sight()
-	lokaord.get_md_stats()
+	print(lokaord.get_md_stats(update_readme_table=update_readme))
 	lokaord.get_runtime()
 
 

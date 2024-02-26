@@ -113,9 +113,34 @@ def get_stats():
 	))
 
 
-def get_md_stats():
+def get_md_stats(update_readme_table: bool = False):
+	pre_str = 'Gagnasafnið telur eftirfarandi fjölda orða:\n\n'
+	post_str = '\n\n## Forkröfur (Requirements)'
 	db.init(Name)
-	print('\nMarkdown Table Stats:\n\n%s' % (stats.get_words_count_markdown_table(), ))
+	md_stats_str = stats.get_words_count_markdown_table()
+	# print table to output
+	print('\nMarkdown Table Stats:\n\n%s' % (md_stats_str, ))
+	if update_readme_table is True:
+		# update table in readme file
+		readme_file = os.path.realpath(
+			os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'README.md')
+		)
+		readme_file_contents = None
+		with open(readme_file, 'r') as rfi:
+			readme_file_contents = rfi.read()
+		if readme_file_contents.find(pre_str) == -1:
+			raise Exception('Failed to find pre-string.')
+		if readme_file_contents.find(post_str) == -1:
+			raise Exception('Failed to find post-string.')
+		readme_file_index_a = readme_file_contents.find(pre_str) + len(pre_str)
+		readme_file_index_b = readme_file_contents.find(post_str)
+		updated_readme_file_contents = '{pre}{table}{post}'.format(
+			pre=readme_file_contents[:readme_file_index_a],
+			table=md_stats_str,
+			post=readme_file_contents[readme_file_index_b:]
+		)
+		with open(readme_file, 'w') as wfi:
+			wfi.write(updated_readme_file_contents)
 
 
 def get_runtime():
