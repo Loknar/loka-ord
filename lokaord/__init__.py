@@ -113,15 +113,12 @@ def get_stats():
 	))
 
 
-def get_md_stats(update_readme_table: bool = False):
+def get_md_stats(update_readme_table: bool = False) -> str:
 	pre_str = 'Gagnasafnið telur eftirfarandi fjölda orða:\n\n'
 	post_str = '\n\n## Forkröfur (Requirements)'
 	db.init(Name)
 	md_stats_str = stats.get_words_count_markdown_table()
-	# print table to output
-	print('\nMarkdown Table Stats:\n\n%s' % (md_stats_str, ))
 	if update_readme_table is True:
-		# update table in readme file
 		readme_file = os.path.realpath(
 			os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'README.md')
 		)
@@ -141,6 +138,7 @@ def get_md_stats(update_readme_table: bool = False):
 		)
 		with open(readme_file, 'w') as wfi:
 			wfi.write(updated_readme_file_contents)
+	return '\nMarkdown Table Stats:\n\n%s' % (md_stats_str, )
 
 
 def get_runtime():
