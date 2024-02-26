@@ -1,0 +1,99 @@
+{
+	"orð": "uppskera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "uppskera",
+		"sagnbót": "uppskorið",
+		"boðháttur": {
+			"stýfður": "uppsker",
+			"et": "uppskerðu",
+			"ft": "uppskerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppsker", "uppskerð", "uppsker"],
+					"ft": ["uppskerum", "uppskerið", "uppskera"]
+				},
+				"þátíð": {
+					"et": ["uppskar", "uppskarst", "uppskar"],
+					"ft": ["uppskárum", "uppskáruð", "uppskáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppskeri", "uppskerir", "uppskeri"],
+					"ft": ["uppskerum", "uppskerið", "uppskeri"]
+				},
+				"þátíð": {
+					"et": ["uppskæri", "uppskærir", "uppskæri"],
+					"ft": ["uppskærum", "uppskæruð", "uppskæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppskerðu",
+					"ft": "uppskeriði"
+				},
+				"þátíð": {
+					"et": "uppskarstu",
+					"ft": "uppskáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppskerirðu",
+					"ft": "uppskeriði"
+				},
+				"þátíð": {
+					"et": "uppskærirðu",
+					"ft": "uppskæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "uppskerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["uppskorinn", "uppskorinn", "uppskornum", "uppskorins"],
+					"kvk": ["uppskorin", "uppskorna", "uppskorinni", "uppskorinnar"],
+					"hk": ["uppskorið", "uppskorið", "uppskornu", "uppskorins"]
+				},
+				"ft": {
+					"kk": ["uppskornir", "uppskorna", "uppskornum", "uppskorinna"],
+					"kvk": ["uppskornar", "uppskornar", "uppskornum", "uppskorinna"],
+					"hk": ["uppskorin", "uppskorin", "uppskornum", "uppskorinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["uppskorni", "uppskorna", "uppskorna", "uppskorna"],
+					"kvk": ["uppskorna", "uppskornu", "uppskornu", "uppskornu"],
+					"hk": ["uppskorna", "uppskorna", "uppskorna", "uppskorna"]
+				},
+				"ft": {
+					"kk": ["uppskornu", "uppskornu", "uppskornu", "uppskornu"],
+					"kvk": ["uppskornu", "uppskornu", "uppskornu", "uppskornu"],
+					"hk": ["uppskornu", "uppskornu", "uppskornu", "uppskornu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-uppskera",
+	"hash": "802bf05f972c60c721179289453bc0e960c5e1de8254bfd9b964d392ab2624c0"
+}
