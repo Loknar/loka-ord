@@ -1,0 +1,30 @@
+{
+	"orð": "debetkortafærsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "debet",
+			"samsetning": "stofn",
+			"kennistrengur": "no-debet-hk"
+		},
+		{
+			"mynd": "korta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"kennistrengur": "no-færsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["debetkortafærsla", "debetkortafærslu", "debetkortafærslu", "debetkortafærslu"],
+		"mg": ["debetkortafærslan", "debetkortafærsluna", "debetkortafærslunni", "debetkortafærslunnar"]
+	},
+	"ft": {
+		"ág": ["debetkortafærslur", "debetkortafærslur", "debetkortafærslum", "debetkortafærslna"],
+		"mg": ["debetkortafærslurnar", "debetkortafærslurnar", "debetkortafærslunum", "debetkortafærslnanna"]
+	},
+	"kennistrengur": "no-debetkortafærsla-kvk",
+	"hash": "30cc5421845112d42d6db61ab59fd77a00a06d6f0dc5aa7606e51cf0fef69d13"
+}

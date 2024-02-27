@@ -1,0 +1,27 @@
+{
+	"orð": "greiðslufyrirmæli",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mæli-hk"
+		}
+	],
+	"ft": {
+		"ág": ["greiðslufyrirmæli", "greiðslufyrirmæli", "greiðslufyrirmælum", "greiðslufyrirmæla"],
+		"mg": ["greiðslufyrirmælin", "greiðslufyrirmælin", "greiðslufyrirmælunum", "greiðslufyrirmælanna"]
+	},
+	"kennistrengur": "no-greiðslufyrirmæli-hk",
+	"hash": "84df244ededccc80ffc0d4ef1cf1493a6966465d22495e69fee2462bf00ac4a7"
+}
