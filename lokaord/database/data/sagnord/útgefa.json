@@ -1,0 +1,99 @@
+{
+	"orð": "útgefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gefa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útgefa",
+		"sagnbót": "útgefið",
+		"boðháttur": {
+			"stýfður": "útgef",
+			"et": "útgefðu",
+			"ft": "útgefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útgef", "útgefur", "útgefur"],
+					"ft": ["útgefum", "útgefið", "útgefa"]
+				},
+				"þátíð": {
+					"et": ["útgaf", "útgafst", "útgaf"],
+					"ft": ["útgáfum", "útgáfuð", "útgáfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útgefi", "útgefir", "útgefi"],
+					"ft": ["útgefum", "útgefið", "útgefi"]
+				},
+				"þátíð": {
+					"et": ["útgæfi", "útgæfir", "útgæfi"],
+					"ft": ["útgæfum", "útgæfuð", "útgæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útgefurðu",
+					"ft": "útgefiði"
+				},
+				"þátíð": {
+					"et": "útgafstu",
+					"ft": "útgáfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útgefirðu",
+					"ft": "útgefiði"
+				},
+				"þátíð": {
+					"et": "útgæfirðu",
+					"ft": "útgæfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útgefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útgefinn", "útgefinn", "útgefnum", "útgefins"],
+					"kvk": ["útgefin", "útgefna", "útgefinni", "útgefinnar"],
+					"hk": ["útgefið", "útgefið", "útgefnu", "útgefins"]
+				},
+				"ft": {
+					"kk": ["útgefnir", "útgefna", "útgefnum", "útgefinna"],
+					"kvk": ["útgefnar", "útgefnar", "útgefnum", "útgefinna"],
+					"hk": ["útgefin", "útgefin", "útgefnum", "útgefinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útgefni", "útgefna", "útgefna", "útgefna"],
+					"kvk": ["útgefna", "útgefnu", "útgefnu", "útgefnu"],
+					"hk": ["útgefna", "útgefna", "útgefna", "útgefna"]
+				},
+				"ft": {
+					"kk": ["útgefnu", "útgefnu", "útgefnu", "útgefnu"],
+					"kvk": ["útgefnu", "útgefnu", "útgefnu", "útgefnu"],
+					"hk": ["útgefnu", "útgefnu", "útgefnu", "útgefnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útgefa",
+	"hash": "01821dd673580bf17d3e2ebdba035c3d6c63f371136331a714acc8a11a17a287"
+}
