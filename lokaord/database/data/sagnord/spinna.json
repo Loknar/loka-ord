@@ -1,0 +1,118 @@
+{
+	"orð": "spinna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "spinna",
+		"sagnbót": "spunnið",
+		"boðháttur": {
+			"stýfður": "spinn",
+			"et": "spinndu",
+			"ft": "spinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spinn", "spinnur", "spinnur"],
+					"ft": ["spinnum", "spinnið", "spinna"]
+				},
+				"þátíð": {
+					"et": ["vann", "vannst", "vann"],
+					"ft": ["spunnum", "spunnuð", "spunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spinni", "spinnir", "spinni"],
+					"ft": ["spinnum", "spinnið", "spinni"]
+				},
+				"þátíð": {
+					"et": ["spynni", "spynnir", "spynni"],
+					"ft": ["spynnum", "spynnuð", "spynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spinnurðu",
+					"ft": "spinniði"
+				},
+				"þátíð": {
+					"et": "vannstu",
+					"ft": "spunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spinnirðu",
+					"ft": "spinniði"
+				},
+				"þátíð": {
+					"et": "spynnirðu",
+					"ft": "spynnuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spinnast",
+		"sagnbót": "spunnist",
+		"boðháttur": {
+			"et": "spinnstu",
+			"ft": "spinnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spinnst", "spinnst", "spinnst"],
+					"ft": ["spinnumst", "spinnist", "spinnast"]
+				},
+				"þátíð": {
+					"et": ["vannst", "vannst", "vannst"],
+					"ft": ["spunnumst", "spunnust", "spunnust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spinnist", "spinnist", "spinnist"],
+					"ft": ["spinnumst", "spinnist", "spinnist"]
+				},
+				"þátíð": {
+					"et": ["spynnist", "spynnist", "spynnist"],
+					"ft": ["spynnumst", "spynnust", "spynnust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spunninn", "spunninn", "spunnum", "spunnins"],
+					"kvk": ["spunnin", "spunna", "spunninni", "spunninnar"],
+					"hk": ["spunnið", "spunnið", "spunnu", "spunnins"]
+				},
+				"ft": {
+					"kk": ["spunnir", "spunna", "spunnum", "spunninna"],
+					"kvk": ["spunnar", "spunnar", "spunnum", "spunninna"],
+					"hk": ["spunnin", "spunnin", "spunnnum", "spunninna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["spunni", "spunna", "spunna", "spunna"],
+					"kvk": ["spunna", "spunnu", "spunnu", "spunnu"],
+					"hk": ["spunna", "spunna", "spunna", "spunna"]
+				},
+				"ft": {
+					"kk": ["spunnu", "spunnu", "spunnu", "spunnu"],
+					"kvk": ["spunnu", "spunnu", "spunnu", "spunnu"],
+					"hk": ["spunnu", "spunnu", "spunnu", "spunnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spinna",
+	"hash": "9299654a1de50d71e624a1e9138f51ec48a1208166d4def2caea1bb804796806"
+}
