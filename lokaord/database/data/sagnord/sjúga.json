@@ -1,0 +1,150 @@
+{
+	"orð": "sjúga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sjúga",
+		"sagnbót": "sogið",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýg", "sýgur", "sýgur"],
+					"ft": ["sjúgum", "sjúgið", "sjúga"]
+				},
+				"þátíð": {
+					"et": ["flaug", "flaugst", "flaug"],
+					"ft": ["flugum", "fluguð", "flugu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjúgi", "sjúgir", "sjúgi"],
+					"ft": ["sjúgum", "sjúgið", "sjúgi"]
+				},
+				"þátíð": {
+					"et": ["sygi", "sygir", "sygi"],
+					"ft": ["sygjum", "sygjuð", "sygju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýgur", "sýgur", "sýgur"],
+					"ft": ["sýgur", "sýgur", "sýgur"]
+				},
+				"þátíð": {
+					"et": ["flaug", "flaug", "flaug"],
+					"ft": ["flaug", "flaug", "flaug"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjúgi", "sjúgi", "sjúgi"],
+					"ft": ["sjúgi", "sjúgi", "sjúgi"]
+				},
+				"þátíð": {
+					"et": ["sygi", "sygi", "sygi"],
+					"ft": ["sygi", "sygi", "sygi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sýgurðu",
+					"ft": "sjúgiði"
+				},
+				"þátíð": {
+					"et": "flaugstu",
+					"ft": "fluguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fjúgirðu",
+					"ft": "sjúgiði"
+				},
+				"þátíð": {
+					"et": "sygirðu",
+					"ft": "sygjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sjúgast",
+		"sagnbót": "sogist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýgst", "sýgst", "sýgst"],
+					"ft": ["sjúgumst", "sjúgist", "sjúgast"]
+				},
+				"þátíð": {
+					"et": ["flaugst", "flaugst", "flaugst"],
+					"ft": ["flugumst", "flugust", "flugust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjúgist", "sjúgist", "sjúgist"],
+					"ft": ["sjúgumst", "sjúgist", "sjúgist"]
+				},
+				"þátíð": {
+					"et": ["sygist", "sygist", "sygist"],
+					"ft": ["sygjumst", "sygjust", "sygjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sýgstu"
+				},
+				"þátíð": {
+					"et": "flaugstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjúgistu"
+				},
+				"þátíð": {
+					"et": "sygistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjúgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["soginn", "soginn", "sognum", "sogins"],
+					"kvk": ["sogin", "sogna", "soginni", "soginnar"],
+					"hk": ["sogið", "sogið", "sognu", "sogins"]
+				},
+				"ft": {
+					"kk": ["sognir", "sogna", "sognum", "soginna"],
+					"kvk": ["sognar", "sognar", "sognum", "soginna"],
+					"hk": ["sogin", "sogin", "sognum", "soginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sogni", "sogna", "sogna", "sogna"],
+					"kvk": ["sogna", "sognu", "sognu", "sognu"],
+					"hk": ["sogna", "sogna", "sogna", "sogna"]
+				},
+				"ft": {
+					"kk": ["sognu", "sognu", "sognu", "sognu"],
+					"kvk": ["sognu", "sognu", "sognu", "sognu"],
+					"hk": ["sognu", "sognu", "sognu", "sognu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjúga",
+	"hash": "81eb79bafa90972ec8469fccd377664a1da368c47fbea543d887ae1612aec2d8"
+}
