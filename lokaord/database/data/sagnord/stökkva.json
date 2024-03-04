@@ -1,0 +1,88 @@
+{
+	"orð": "stökkva",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stökkva",
+		"sagnbót": "stokkið",
+		"boðháttur": {
+			"stýfður": "stökk",
+			"et": "stökktu",
+			"ft": "stökkvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stekk", "stekkur", "stekkur"],
+					"ft": ["stökkvum", "stökkvið", "stökkva"]
+				},
+				"þátíð": {
+					"et": ["stökk", "stökkst", "stökk"],
+					"ft": ["stukkum", "stukkuð", "stukku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stökkvi", "stökkvir", "stökkvi"],
+					"ft": ["stökkvum", "stökkvið", "stökkvi"]
+				},
+				"þátíð": {
+					"et": ["stykki", "stykkir", "stykki"],
+					"ft": ["stykkjum", "stykkjuð", "stykkju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stekkurðu",
+					"ft": "stökkviði"
+				},
+				"þátíð": {
+					"et": "stökkstu",
+					"ft": "stukkuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stökkvirðu",
+					"ft": "stökkviði"
+				},
+				"þátíð": {
+					"et": "stykkirðu",
+					"ft": "stykkjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stökkvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stokkinn", "stokkinn", "stokknum", "stokkins"],
+					"kvk": ["stokkin", "stokkna", "stokkinni", "stokkinnar"],
+					"hk": ["stokkið", "stokkið", "stokknu", "stokkins"]
+				},
+				"ft": {
+					"kk": ["stokknir", "stokkna", "stokknum", "stokkinna"],
+					"kvk": ["stokknar", "stokknar", "stokknum", "stokkinna"],
+					"hk": ["stokkin", "stokkin", "stokknum", "stokkinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stokkni", "stokkna", "stokkna", "stokkna"],
+					"kvk": ["stokkna", "stokknu", "stokknu", "stokknu"],
+					"hk": ["stokkna", "stokkna", "stokkna", "stokkna"]
+				},
+				"ft": {
+					"kk": ["stokknu", "stokknu", "stokknu", "stokknu"],
+					"kvk": ["stokknu", "stokknu", "stokknu", "stokknu"],
+					"hk": ["stokknu", "stokknu", "stokknu", "stokknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stökkva",
+	"hash": "73e7990dc0605d48946933c1d4b7d2e27de8093da0699459a7b1b3198f176c4a"
+}
