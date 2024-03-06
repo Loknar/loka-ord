@@ -1,0 +1,159 @@
+{
+	"orð": "skekkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skekkja",
+		"sagnbót": "skekkt",
+		"boðháttur": {
+			"stýfður": "skekk",
+			"et": "skekktu",
+			"ft": "skekkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skekki", "skekkir", "skekkir"],
+					"ft": ["skekkjum", "skekkið", "skekkja"]
+				},
+				"þátíð": {
+					"et": ["skekkti", "skekktir", "skekkti"],
+					"ft": ["skekktum", "skekktuð", "skekktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skekki", "skekkir", "skekki"],
+					"ft": ["skekkjum", "skekkið", "skekki"]
+				},
+				"þátíð": {
+					"et": ["skekkti", "skekktir", "skekkti"],
+					"ft": ["skekktum", "skekktuð", "skekktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skekkirðu",
+					"ft": "skekkiði"
+				},
+				"þátíð": {
+					"et": "skekktirðu",
+					"ft": "skekktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skekkirðu",
+					"ft": "skekkiði"
+				},
+				"þátíð": {
+					"et": "skekktirðu",
+					"ft": "skekktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skekkjast",
+		"sagnbót": "skekkst",
+		"boðháttur": {
+			"et": "skekkstu",
+			"ft": "skekkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skekkist", "skekkist", "skekkist"],
+					"ft": ["skekkjumst", "skekkist", "skekkjast"]
+				},
+				"þátíð": {
+					"et": ["skekktist", "skekktist", "skekktist"],
+					"ft": ["skekktumst", "skekktust", "skekktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skekkist", "skekkist", "skekkist"],
+					"ft": ["skekkjumst", "skekkist", "skekkist"]
+				},
+				"þátíð": {
+					"et": ["skekktist", "skekktist", "skekktist"],
+					"ft": ["skekktumst", "skekktist", "skekktist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skekkist", "skekkist", "skekkist"],
+					"ft": ["skekkjumst", "skekkist", "skekkist"]
+				},
+				"þátíð": {
+					"et": ["skekktist", "skekktist", "skekktist"],
+					"ft": ["skekktumst", "skekktust", "skekktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skekkist", "skekkist", "skekkist"],
+					"ft": ["skekkist", "skekkist", "skekkist"]
+				},
+				"þátíð": {
+					"et": ["skekktist", "skekktist", "skekktist"],
+					"ft": ["skekktist", "skekktist", "skekktist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skekkistu"
+				},
+				"þátíð": {
+					"et": "skekktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skekkistu"
+				},
+				"þátíð": {
+					"et": "skekktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skekkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skekktur", "skekktan", "skekktum", "skekkts"],
+					"kvk": ["skekkt", "skekkta", "skekktri", "skekktrar"],
+					"hk": ["skekkt", "skekkt", "skekktu", "skekkts"]
+				},
+				"ft": {
+					"kk": ["skekktir", "skekkta", "skekktum", "skekktra"],
+					"kvk": ["skekktar", "skekktar", "skekktum", "skekktra"],
+					"hk": ["skekkt", "skekkt", "skekktum", "skekktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skekkti", "skekkta", "skekkta", "skekkta"],
+					"kvk": ["skekkta", "skekktu", "skekktu", "skekktu"],
+					"hk": ["skekkta", "skekkta", "skekkta", "skekkta"]
+				},
+				"ft": {
+					"kk": ["skekktu", "skekktu", "skekktu", "skekktu"],
+					"kvk": ["skekktu", "skekktu", "skekktu", "skekktu"],
+					"hk": ["skekktu", "skekktu", "skekktu", "skekktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skekkja",
+	"hash": "b528336f640321c3d391786b66284e47babd4f9b70a98aeeb030ba8673d64093"
+}

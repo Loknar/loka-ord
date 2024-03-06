@@ -2,14 +2,24 @@
 	"orð": "greining",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "grein",
+			"samsetning": "stofn",
+			"kennistrengur": "so-greina"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["greining", "greiningu", "greiningu", "greiningar"],
-		"mg": ["greiningin", "greininguna", "greiningunni", "greiningunnar"]
+		"mg": ["greiningin", "greininguna", "greiningunni", "greiningarinnar"]
 	},
 	"ft": {
 		"ág": ["greiningar", "greiningar", "greiningum", "greininga"],
 		"mg": ["greiningarnar", "greiningarnar", "greiningunum", "greininganna"]
 	},
 	"kennistrengur": "no-greining-kvk",
-	"hash": "ff527ddd211b0714aa383a8cd977aa4ebcce11d503a644cbf19973622888bee7"
+	"hash": "05035d25f4e34784bccf7a48714ea7bcb84349b3f563e3726fd8567aef20ce5f"
 }

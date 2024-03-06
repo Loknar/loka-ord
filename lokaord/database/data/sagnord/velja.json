@@ -1,0 +1,155 @@
+{
+	"orð": "velja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "velja",
+		"sagnbót": "valið",
+		"boðháttur": {
+			"stýfður": "vel",
+			"et": "veldu",
+			"ft": "veljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vel", "velur", "velur"],
+					"ft": ["veljum", "veljið", "velja"]
+				},
+				"þátíð": {
+					"et": ["valdi", "valdir", "valdi"],
+					"ft": ["völdum", "völduð", "völdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["velji", "veljir", "velji"],
+					"ft": ["veljum", "veljið", "velji"]
+				},
+				"þátíð": {
+					"et": ["veldi", "veldir", "veldi"],
+					"ft": ["veldum", "velduð", "veldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "velurðu",
+					"ft": "veljiði"
+				},
+				"þátíð": {
+					"et": "valdirðu",
+					"ft": "völduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veljirðu",
+					"ft": "veljiði"
+				},
+				"þátíð": {
+					"et": "veldirðu",
+					"ft": "velduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "veljast",
+		"sagnbót": "valist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["velst", "velst", "velst"],
+					"ft": ["veljumst", "veljist", "veljast"]
+				},
+				"þátíð": {
+					"et": ["valdist", "valdist", "valdist"],
+					"ft": ["völdumst", "völdust", "völdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veljist", "veljist", "veljist"],
+					"ft": ["veljumst", "veljist", "veljist"]
+				},
+				"þátíð": {
+					"et": ["veldist", "veldist", "veldist"],
+					"ft": ["veldumst", "veldust", "veldust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["velst", "velst", "velst"],
+					"ft": ["velst", "velst", "velst"]
+				},
+				"þátíð": {
+					"et": ["valdist", "valdist", "valdist"],
+					"ft": ["valdist", "valdist", "valdist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veljist", "veljist", "veljist"],
+					"ft": ["veljist", "veljist", "veljist"]
+				},
+				"þátíð": {
+					"et": ["veldist", "veldist", "veldist"],
+					"ft": ["veldist", "veldist", "veldist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "velstu"
+				},
+				"þátíð": {
+					"et": "valdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veljistu"
+				},
+				"þátíð": {
+					"et": "veldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["valinn", "valinn", "völdum", "valins"],
+					"kvk": ["valin", "valda", "valinni", "valinnar"],
+					"hk": ["valið", "valið", "völdu", "valins"]
+				},
+				"ft": {
+					"kk": ["valdir", "valda", "völdum", "valinna"],
+					"kvk": ["valdar", "valdar", "völdum", "valinna"],
+					"hk": ["valin", "valin", "völdum", "valinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["valdi", "valda", "valda", "valda"],
+					"kvk": ["valda", "völdu", "völdu", "völdu"],
+					"hk": ["valda", "valda", "valda", "valda"]
+				},
+				"ft": {
+					"kk": ["völdu", "völdu", "völdu", "völdu"],
+					"kvk": ["völdu", "völdu", "völdu", "völdu"],
+					"hk": ["völdu", "völdu", "völdu", "völdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-velja",
+	"hash": "4462b9e6e1fac001d12ea8ee027d4a0423a5848bb8f317cc778cb11ad4ce6139"
+}
