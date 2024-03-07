@@ -1,0 +1,43 @@
+{
+	"orð": "gjaldfrjáls",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-frjáls"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["gjaldfrjáls", "gjaldfrjálsan", "gjaldfrjálsum", "gjaldfrjálss"],
+				"kvk": ["gjaldfrjáls", "gjaldfrjálsa", "gjaldfrjálsri", "gjaldfrjálsrar"],
+				"hk": ["gjaldfrjálst", "gjaldfrjálst", "gjaldfrjálsu", "gjaldfrjálss"]
+			},
+			"ft": {
+				"kk": ["gjaldfrjálsir", "gjaldfrjálsa", "gjaldfrjálsum", "gjaldfrjálsra"],
+				"kvk": ["gjaldfrjálsar", "gjaldfrjálsar", "gjaldfrjálsum", "gjaldfrjálsra"],
+				"hk": ["gjaldfrjáls", "gjaldfrjáls", "gjaldfrjálsum", "gjaldfrjálsra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gjaldfrjálsi", "gjaldfrjálsa", "gjaldfrjálsa", "gjaldfrjálsa"],
+				"kvk": ["gjaldfrjálsa", "gjaldfrjálsu", "gjaldfrjálsu", "gjaldfrjálsu"],
+				"hk": ["gjaldfrjálsa", "gjaldfrjálsa", "gjaldfrjálsa", "gjaldfrjálsa"]
+			},
+			"ft": {
+				"kk": ["gjaldfrjálsu", "gjaldfrjálsu", "gjaldfrjálsu", "gjaldfrjálsu"],
+				"kvk": ["gjaldfrjálsu", "gjaldfrjálsu", "gjaldfrjálsu", "gjaldfrjálsu"],
+				"hk": ["gjaldfrjálsu", "gjaldfrjálsu", "gjaldfrjálsu", "gjaldfrjálsu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-gjaldfrjáls",
+	"hash": "b8d63e77c66d54822b3682191d7e3532101c96fd08b3e80936bbed29d0eabbd1"
+}

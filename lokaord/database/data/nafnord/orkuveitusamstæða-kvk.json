@@ -1,0 +1,35 @@
+{
+	"orð": "orkuveitusamstæða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "veitu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-veita-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["orkuveitusamstæða", "orkuveitusamstæðu", "orkuveitusamstæðu", "orkuveitusamstæðu"],
+		"mg": ["orkuveitusamstæðan", "orkuveitusamstæðuna", "orkuveitusamstæðunni", "orkuveitusamstæðunnar"]
+	},
+	"ft": {
+		"ág": ["orkuveitusamstæður", "orkuveitusamstæður", "orkuveitusamstæðum", "orkuveitusamstæðna"],
+		"mg": ["orkuveitusamstæðurnar", "orkuveitusamstæðurnar", "orkuveitusamstæðunum", "orkuveitusamstæðnanna"]
+	},
+	"kennistrengur": "no-orkuveitusamstæða-kvk",
+	"hash": "981081a26246e505c077639eb57967da48720147d96556fd978cdb6066239478"
+}

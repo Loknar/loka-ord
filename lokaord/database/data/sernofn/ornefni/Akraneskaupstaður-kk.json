@@ -1,0 +1,32 @@
+{
+	"orð": "Akraneskaupstaður",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Akra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-akur-kk"
+		},
+		{
+			"mynd": "nes",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nes-hk"
+		},
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-staður-kk"
+		}
+	],
+	"et": {
+		"ág": ["Akraneskaupstaður", "Akraneskaupstað", "Akraneskaupstað", "Akraneskaupstaðar"]
+	},
+	"kennistrengur": "sérn.ön-Akraneskaupstaður-kk",
+	"hash": "1ea8b77d32b36498a79083e7b50a07b333b181b422c8a6ccf121617a2ab3f1cb"
+}

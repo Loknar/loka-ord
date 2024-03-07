@@ -1,0 +1,169 @@
+{
+	"orð": "skattleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skattleggja",
+		"sagnbót": "skattlagt",
+		"boðháttur": {
+			"stýfður": "skattlegg",
+			"et": "skattleggðu",
+			"ft": "skattleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skattlegg", "skattleggur", "skattleggur"],
+					"ft": ["skattleggjum", "skattleggið", "skattleggja"]
+				},
+				"þátíð": {
+					"et": ["skattlagði", "skattlagðir", "skattlagði"],
+					"ft": ["skattlögðum", "skattlögðuð", "skattlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skattleggi", "skattleggir", "skattleggi"],
+					"ft": ["skattleggjum", "skattleggið", "skattleggi"]
+				},
+				"þátíð": {
+					"et": ["skattleggði", "skattleggðir", "skattleggði"],
+					"ft": ["skattleggðum", "skattleggðuð", "skattleggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skattleggurðu",
+					"ft": "skattleggiði"
+				},
+				"þátíð": {
+					"et": "skattlagðirðu",
+					"ft": "skattlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skattleggirðu",
+					"ft": "skattleggiði"
+				},
+				"þátíð": {
+					"et": "skattleggðirðu",
+					"ft": "skattleggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skattleggjast",
+		"sagnbót": "skattleggst",
+		"boðháttur": {
+			"et": "skattleggstu",
+			"ft": "skattleggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skattleggst", "skattleggst", "skattleggst"],
+					"ft": ["skattleggjumst", "skattleggist", "skattleggjast"]
+				},
+				"þátíð": {
+					"et": ["skattlagðist", "skattlagðist", "skattlagðist"],
+					"ft": ["skattlögðumst", "skattlögðust", "skattlögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skattleggist", "skattleggist", "skattleggist"],
+					"ft": ["skattleggjumst", "skattleggist", "skattleggist"]
+				},
+				"þátíð": {
+					"et": ["skattlegðist", "skattlegðist", "skattlegðist"],
+					"ft": ["skattlegðumst", "skattlegðist", "skattlegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skattleggst", "skattleggst", "skattleggst"],
+					"ft": ["skattleggst", "skattleggst", "skattleggst"]
+				},
+				"þátíð": {
+					"et": ["skattlagðist", "skattlagðist", "skattlagðist"],
+					"ft": ["skattlagðist", "skattlagðist", "skattlagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skattleggist", "skattleggist", "skattleggist"],
+					"ft": ["skattleggjumst", "skattleggist", "skattleggist"]
+				},
+				"þátíð": {
+					"et": ["skattlegðist", "skattlegðist", "skattlegðist"],
+					"ft": ["skattlegðumst", "skattlegðust", "skattlegðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skattleggstu"
+				},
+				"þátíð": {
+					"et": "skattlagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skattleggistu"
+				},
+				"þátíð": {
+					"et": "skattlegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skattleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skattlagður", "skattlagðan", "skattlögðum", "skattlagðs"],
+					"kvk": ["skattlögð", "skattlagða", "skattlagðri", "skattlagðrar"],
+					"hk": ["skattlagt", "skattlagt", "skattlögðu", "skattlagðs"]
+				},
+				"ft": {
+					"kk": ["skattlagðir", "skattlagða", "skattlögðum", "skattlagðra"],
+					"kvk": ["skattlagðar", "skattlagðar", "skattlögðum", "skattlagðra"],
+					"hk": ["skattlögð", "skattlögð", "skattlögðum", "skattlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skattlagði", "skattlagða", "skattlagða", "skattlagða"],
+					"kvk": ["skattlagða", "skattlögðu", "skattlögðu", "skattlögðu"],
+					"hk": ["skattlagða", "skattlagða", "skattlagða", "skattlagða"]
+				},
+				"ft": {
+					"kk": ["skattlögðu", "skattlögðu", "skattlögðu", "skattlögðu"],
+					"kvk": ["skattlögðu", "skattlögðu", "skattlögðu", "skattlögðu"],
+					"hk": ["skattlögðu", "skattlögðu", "skattlögðu", "skattlögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skattleggja",
+	"hash": "c2057cafa3e1a46c574e37cbde4698783bc932739e25d1aed8213f9aabcead78"
+}
