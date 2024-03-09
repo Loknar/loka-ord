@@ -1,0 +1,27 @@
+{
+	"orð": "innanlandsflug",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "innan",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-innan"
+		},
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-flug-hk"
+		}
+	],
+	"et": {
+		"ág": ["innanlandsflug", "innanlandsflug", "innanlandsflugi", "innanlandsflugs"],
+		"mg": ["innanlandsflugið", "innanlandsflugið", "innanlandsfluginu", "innanlandsflugsins"]
+	},
+	"kennistrengur": "no-innanlandsflug-hk",
+	"hash": "6b028d48ec2a58c768b85c1c86b368127dd7c999ed67cd878412c97ec32f422a"
+}
