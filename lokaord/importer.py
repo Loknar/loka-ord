@@ -4,6 +4,8 @@ Importer functionality
 
 Importing data from files to SQL database.
 """
+from collections import deque
+import json
 import os
 
 import git
@@ -75,7 +77,8 @@ def import_datafiles_to_db():
 	# samsett-orð with void kennistrengur
 	# these are usually words samsett/combined from other samsett-orð
 	logman.info('Retrying importing samsett orð encountering void kennistrengur.')
-	for task in task_retries:
+	task_retries_arranged = arrange_task_retries(task_retries)  # order matters here
+	for task in task_retries_arranged:
 		handler = task['handler']
 		ord_file = task['file']
 		logman.debug('Orð file "%s"' % (ord_file, ))
@@ -165,3 +168,53 @@ def get_changed_and_untracked_data_files():
 		if untracked_file.startswith(datafiles_dir_rel):
 			files.append(untracked_file[dfdr_len:])
 	return files
+
+
+def arrange_task_retries(task_retries: list) -> list:
+	"""
+	arrange task retries of samsett-orð with void kennistrengur
+	task_retries is a list of dicts with 'handler' and 'file'
+	problem: when adding samsett orð we need all orðhlutar to be already added to the database, so
+	the order of import depends on samsetning orða
+	solution: order task_retries properly
+	"""
+	max_retries = 20
+	task_retries_kennistrengir = set()
+	task_queue = deque()
+	for task in task_retries:
+		file_data = None
+		file_abspath = os.path.join(task['handler'].datafiles_dir, task['file'])
+		with open(file_abspath, mode='r', encoding='utf-8') as fi:
+			file_data = json.loads(fi.read())
+		task['kennistrengur'] = file_data['kennistrengur']
+		task_retries_kennistrengir.add(file_data['kennistrengur'])
+		task['samsett_kennistrengir'] = []
+		for ordhluti in file_data['samsett']:
+			task['samsett_kennistrengir'].append(ordhluti['kennistrengur'])
+		task_queue.append(task)
+	kennistrengir_added = set()
+	arrangement_retries = {}
+	task_retries_arranged = []
+	while True:
+		task = None
+		try:
+			task = task_queue.popleft()
+		except IndexError:
+			break  # deque is empty
+		no_problem = True
+		# ef enginn orðhlutakennistrengur í task_retries_kennistrengir eða ef þeim kennistrengjum
+		# hefur verið bætt við þá er ekkert vandamál
+		for oh_k in task['samsett_kennistrengir']:
+			if oh_k in task_retries_kennistrengir and oh_k not in kennistrengir_added:
+				no_problem = False
+		if no_problem is True:
+			task_retries_arranged.append(task)
+			kennistrengir_added.add(task['kennistrengur'])
+			continue
+		if task['file'] not in arrangement_retries:
+			arrangement_retries[task['file']] = 0
+		arrangement_retries[task['file']] += 1
+		if arrangement_retries[task['file']] > max_retries:
+			raise Exception('Max retries reached for file "%s".' % (task['file'], ))
+		task_queue.append(task)
+	return task_retries_arranged

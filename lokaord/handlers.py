@@ -63,6 +63,15 @@ class Ord:
 		changes_made = False
 		isl_ord = db.Session.query(isl.Ord).filter_by(Kennistrengur=self.data.kennistrengur).first()
 		if isl_ord is None:
+			if self.data.samsett is not None:
+				for ohl in self.data.samsett:
+					isl_ord_oh = (
+						db.Session.query(isl.Ord).filter_by(Kennistrengur=ohl.kennistrengur).first()
+					)
+					if isl_ord_oh is None:
+						raise VoidKennistrengurError(
+							f'Orðhluti with kennistrengur "{ohl.kennistrengur}" not found. (1)'
+						)
 			isl_ord = isl.Ord()
 			db.Session.add(isl_ord)
 			changes_made = True
@@ -95,7 +104,7 @@ class Ord:
 				)
 				if isl_ord_oh is None:
 					raise VoidKennistrengurError(
-						f'Orðhluti with kennistrengur "{ohl.kennistrengur}" not found.'
+						f'Orðhluti with kennistrengur "{ohl.kennistrengur}" not found. (2)'
 					)
 				samsetning = None
 				lo_myndir = None
@@ -1265,7 +1274,7 @@ class Ord:
 			Kennistrengur=ordhluti['kennistrengur']
 		).first()
 		if isl_ord is None:
-			raise VoidKennistrengurError('Orð with kennistrengur "%s" not found.' % (
+			raise VoidKennistrengurError('Orð with kennistrengur "%s" not found. (3)' % (
 				ordhluti['kennistrengur'],
 			))
 		loaded_ord = handler()
