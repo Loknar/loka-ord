@@ -1,0 +1,32 @@
+{
+	"orð": "náttúruverndarsamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "náttúru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-náttúra-kvk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["náttúruverndarsamtök", "náttúruverndarsamtök", "náttúruverndarsamtökum", "náttúruverndarsamtaka"],
+		"mg": ["náttúruverndarsamtökin", "náttúruverndarsamtökin", "náttúruverndarsamtökunum", "náttúruverndarsamtakanna"]
+	},
+	"kennistrengur": "no-náttúruverndarsamtök-hk",
+	"hash": "2d3fa2bb433c3d5e9c63302585dc3f8466a0a39dee38ad30d6e759c7642107bf"
+}

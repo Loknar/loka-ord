@@ -1,0 +1,27 @@
+{
+	"orð": "reglugerðardrög",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "reglu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-regla-kvk"
+		},
+		{
+			"mynd": "gerðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gerð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-drag-hk"
+		}
+	],
+	"ft": {
+		"ág": ["reglugerðardrög", "reglugerðardrög", "reglugerðardrögum", "reglugerðardraga"],
+		"mg": ["reglugerðardrögin", "reglugerðardrögin", "reglugerðardrögunum", "reglugerðardraganna"]
+	},
+	"kennistrengur": "no-reglugerðardrög-hk",
+	"hash": "7ae7ee7c2d71b52948cb99ce9e94ef4c3542ba13417bebc32a8e0e6e906bf3dc"
+}
