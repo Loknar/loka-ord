@@ -1,0 +1,32 @@
+{
+	"orð": "kynþáttafordómar",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "þátta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-dómur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["kynþáttafordómar", "kynþáttafordóma", "kynþáttafordómum", "kynþáttafordóma"],
+		"mg": ["kynþáttafordómarnir", "kynþáttafordómana", "kynþáttafordómunum", "kynþáttafordómanna"]
+	},
+	"kennistrengur": "no-kynþáttafordómar-kk",
+	"hash": "d066df6147fe3f682472e2fcb492fc61447723fe15d38dd2b2a239f934150183"
+}
