@@ -1,0 +1,155 @@
+{
+	"orð": "hreyfa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hreyfa",
+		"sagnbót": "hreyft",
+		"boðháttur": {
+			"stýfður": "hreyf",
+			"et": "hreyfðu",
+			"ft": "hreyfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hreyfi", "hreyfir", "hreyfir"],
+					"ft": ["hreyfum", "hreyfið", "hreyfa"]
+				},
+				"þátíð": {
+					"et": ["hreyfði", "hreyfðir", "hreyfði"],
+					"ft": ["hreyfðum", "hreyfðuð", "hreyfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hreyfi", "hreyfir", "hreyfi"],
+					"ft": ["hreyfum", "hreyfið", "hreyfi"]
+				},
+				"þátíð": {
+					"et": ["hreyfði", "hreyfðir", "hreyfði"],
+					"ft": ["hreyfðum", "hreyfðuð", "hreyfðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hreyfir", "hreyfir", "hreyfir"],
+					"ft": ["hreyfir", "hreyfir", "hreyfir"]
+				},
+				"þátíð": {
+					"et": ["hreyfði", "hreyfði", "hreyfði"],
+					"ft": ["hreyfði", "hreyfði", "hreyfði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hreyfi", "hreyfi", "hreyfi"],
+					"ft": ["hreyfi", "hreyfi", "hreyfi"]
+				},
+				"þátíð": {
+					"et": ["hreyfði", "hreyfði", "hreyfði"],
+					"ft": ["hreyfði", "hreyfði", "hreyfði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hreyfirðu",
+					"ft": "hreyfiði"
+				},
+				"þátíð": {
+					"et": "hreyfðirðu",
+					"ft": "hreyfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hreyfirðu",
+					"ft": "hreyfiði"
+				},
+				"þátíð": {
+					"et": "hreyfðirðu",
+					"ft": "hreyfðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hreyfast",
+		"sagnbót": "hreyfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hreyfist", "hreyfist", "hreyfist"],
+					"ft": ["hreyfumst", "hreyfist", "hreyfast"]
+				},
+				"þátíð": {
+					"et": ["hreyfðist", "hreyfðist", "hreyfðist"],
+					"ft": ["hreyfðumst", "hreyfðust", "hreyfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hreyfist", "hreyfist", "hreyfist"],
+					"ft": ["hreyfumst", "hreyfist", "hreyfist"]
+				},
+				"þátíð": {
+					"et": ["hreyfðist", "hreyfðist", "hreyfðist"],
+					"ft": ["hreyfðumst", "hreyfðust", "hreyfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hreyfistu"
+				},
+				"þátíð": {
+					"et": "hreyfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hreyfistu"
+				},
+				"þátíð": {
+					"et": "hreyfðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hreyfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hreyfður", "hreyfðan", "hreyfðum", "hreyfðs"],
+					"kvk": ["hreyfð", "hreyfða", "hreyfðri", "hreyfðrar"],
+					"hk": ["hreyft", "hreyft", "hreyfðu", "hreyfðs"]
+				},
+				"ft": {
+					"kk": ["hreyfðir", "hreyfða", "hreyfðum", "hreyfðra"],
+					"kvk": ["hreyfðar", "hreyfðar", "hreyfðum", "hreyfðra"],
+					"hk": ["hreyfð", "hreyfð", "hreyfðum", "hreyfðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hreyfði", "hreyfða", "hreyfða", "hreyfða"],
+					"kvk": ["hreyfða", "hreyfðu", "hreyfðu", "hreyfðu"],
+					"hk": ["hreyfða", "hreyfða", "hreyfða", "hreyfða"]
+				},
+				"ft": {
+					"kk": ["hreyfðu", "hreyfðu", "hreyfðu", "hreyfðu"],
+					"kvk": ["hreyfðu", "hreyfðu", "hreyfðu", "hreyfðu"],
+					"hk": ["hreyfðu", "hreyfðu", "hreyfðu", "hreyfðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hreyfa",
+	"hash": "04cda3153ac6368a377dcd2b8056171b2fdd2773a64e7ae2b334228e21b22e6e"
+}

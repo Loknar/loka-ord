@@ -2,6 +2,16 @@
 	"orð": "hreyfing",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hreyf",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hreyfa"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hreyfing", "hreyfingu", "hreyfingu", "hreyfingar"],
 		"mg": ["hreyfingin", "hreyfinguna", "hreyfingunni", "hreyfingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hreyfingarnar", "hreyfingarnar", "hreyfingunum", "hreyfinganna"]
 	},
 	"kennistrengur": "no-hreyfing-kvk",
-	"hash": "54f5ecb0a93567f588adeca23646b1d5a3a3f32603367c2d4ec1abd387734f0d"
+	"hash": "77ed7f562625da2939e83f5819a68efa15fb79e14ed8fa97201d76dcc9df7fd1"
 }

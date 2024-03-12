@@ -1,0 +1,32 @@
+{
+	"orð": "hryðjuverkasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hryðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hryðja-kvk"
+		},
+		{
+			"mynd": "verka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hryðjuverkasamtök", "hryðjuverkasamtök", "hryðjuverkasamtökum", "hryðjuverkasamtaka"],
+		"mg": ["hryðjuverkasamtökin", "hryðjuverkasamtökin", "hryðjuverkasamtökunum", "hryðjuverkasamtakanna"]
+	},
+	"kennistrengur": "no-hryðjuverkasamtök-hk",
+	"hash": "eaf605fbf07f42e63a1c05db64cd5618e78b44f38587730c73a16417d3555f61"
+}

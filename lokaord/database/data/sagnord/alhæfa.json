@@ -1,0 +1,73 @@
+{
+	"orð": "alhæfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "al",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-ałlur"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-hæfa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "alhæfa",
+		"sagnbót": "alhæft",
+		"boðháttur": {
+			"stýfður": "alhæf",
+			"et": "alhæfðu",
+			"ft": "alhæfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["alhæfi", "alhæfir", "alhæfir"],
+					"ft": ["alhæfum", "alhæfið", "alhæfa"]
+				},
+				"þátíð": {
+					"et": ["alhæfði", "alhæfðir", "alhæfði"],
+					"ft": ["alhæfðum", "alhæfðuð", "alhæfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["alhæfi", "alhæfir", "alhæfi"],
+					"ft": ["alhæfum", "alhæfið", "alhæfi"]
+				},
+				"þátíð": {
+					"et": ["alhæfði", "alhæfðir", "alhæfði"],
+					"ft": ["alhæfðum", "alhæfðuð", "alhæfðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "alhæfirðu",
+					"ft": "alhæfiði"
+				},
+				"þátíð": {
+					"et": "alhæfðirðu",
+					"ft": "alhæfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "alhæfirðu",
+					"ft": "alhæfiði"
+				},
+				"þátíð": {
+					"et": "alhæfðirðu",
+					"ft": "alhæfðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "alhæfandi"
+	},
+	"kennistrengur": "so-alhæfa",
+	"hash": "b4aca2df3fdb84887059f11a5ed3eda1a1cb21c27df6ca39fe9c849ea9f250a4"
+}
