@@ -1,0 +1,99 @@
+{
+	"orð": "kyrrsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kyrr",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kyrr"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kyrrsetja",
+		"sagnbót": "kyrrsett",
+		"boðháttur": {
+			"stýfður": "kyrrset",
+			"et": "kyrrsettu",
+			"ft": "kyrrsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyrrset", "kyrrsetur", "kyrrsetur"],
+					"ft": ["kyrrsetjum", "kyrrsetjið", "kyrrsetja"]
+				},
+				"þátíð": {
+					"et": ["kyrrsetti", "kyrrsettir", "kyrrsett"],
+					"ft": ["kyrrsettum", "kyrrsettuð", "kyrrsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyrrsetji", "kyrrsetjir", "kyrrsetji"],
+					"ft": ["kyrrsetjum", "kyrrsetjið", "kyrrsetji"]
+				},
+				"þátíð": {
+					"et": ["kyrrsetti", "kyrrsettir", "kyrrsetti"],
+					"ft": ["kyrrsettum", "kyrrsettuð", "kyrrsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyrrseturðu",
+					"ft": "kyrrsetjiði"
+				},
+				"þátíð": {
+					"et": "kyrrsettirðu",
+					"ft": "kyrrsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyrrsetjirðu",
+					"ft": "kyrrsetjiði"
+				},
+				"þátíð": {
+					"et": "kyrrsettirðu",
+					"ft": "kyrrsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kyrrsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kyrrsettur", "kyrrsettan", "kyrrsettum", "kyrrsetts"],
+					"kvk": ["kyrrsett", "kyrrsetta", "kyrrsettri", "kyrrsettrar"],
+					"hk": ["kyrrsett", "kyrrsett", "kyrrsettu", "kyrrsetts"]
+				},
+				"ft": {
+					"kk": ["kyrrsettir", "kyrrsetta", "kyrrsettum", "kyrrsettra"],
+					"kvk": ["kyrrsettar", "kyrrsettar", "kyrrsettum", "kyrrsettra"],
+					"hk": ["kyrrsett", "kyrrsett", "kyrrsettum", "kyrrsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kyrrsetti", "kyrrsetta", "kyrrsetta", "kyrrsetta"],
+					"kvk": ["kyrrsetta", "kyrrsettu", "kyrrsettu", "kyrrsettu"],
+					"hk": ["kyrrsetta", "kyrrsetta", "kyrrsetta", "kyrrsetta"]
+				},
+				"ft": {
+					"kk": ["kyrrsettu", "kyrrsettu", "kyrrsettu", "kyrrsettu"],
+					"kvk": ["kyrrsettu", "kyrrsettu", "kyrrsettu", "kyrrsettu"],
+					"hk": ["kyrrsettu", "kyrrsettu", "kyrrsettu", "kyrrsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kyrrsetja",
+	"hash": "82cd060e9be1674dae65409bbd23a02bc1547867c35c4293d514089f5a28d457"
+}
