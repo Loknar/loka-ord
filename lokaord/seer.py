@@ -27,6 +27,8 @@ from lokaord.version import __version__ as version
 if platform.system() == 'Linux':
 	import pointless
 
+WPP = 12000  # default words per page in webpack
+
 
 def search_word(word):
 	sight = load_sight()
@@ -604,7 +606,7 @@ def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
 
 
 def webpack(
-	words_per_pack: int = 12000, include_hash: bool = False, include_kennistrengur: bool = False
+	words_per_pack: int = WPP, include_hash: bool = False, include_kennistrengur: bool = False
 ):
 	"""
 	Pack lokaorð JSON datafiles to more compact JSON datafiles suitable for webclient usage.

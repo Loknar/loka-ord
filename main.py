@@ -97,7 +97,7 @@ def build_sight():
 
 
 @app.command(help='Pack word files into packed JSON files intended for web use.')
-def webpack(wpp: Annotated[Optional[int], Option('--words-per-pack', '-wpp')] = 12000):
+def webpack(wpp: Annotated[Optional[int], Option('--words-per-pack', '-wpp')] = lokaord.seer.WPP):
 	lokaord.webpack(words_per_pack=wpp)
 
 
