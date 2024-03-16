@@ -90,7 +90,7 @@ def write_files(ts: datetime.datetime = None):
 	exporter.write_datafiles_from_db(ts)
 
 
-def webpack(words_per_pack: int = 3000):
+def webpack(words_per_pack: int = 12000):
 	seer.webpack(words_per_pack)
 
 
