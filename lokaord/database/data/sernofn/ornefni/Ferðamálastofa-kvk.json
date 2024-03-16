@@ -1,0 +1,28 @@
+{
+	"orð": "Ferðamálastofa",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stofa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Ferðamálastofa", "Ferðamálastofu", "Ferðamálastofu", "Ferðamálastofu"],
+		"mg": ["Ferðamálastofan", "Ferðamálastofuna", "Ferðamálastofunni", "Ferðamálastofunnar"]
+	},
+	"kennistrengur": "sérn.ön-Ferðamálastofa-kvk",
+	"hash": "a21f007cc80e519e4c2ec1eaa0b3c6dafb80e4de71fb25b630cc2a8c280a4a92"
+}
