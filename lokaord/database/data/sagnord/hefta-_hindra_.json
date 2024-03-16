@@ -1,0 +1,133 @@
+{
+	"orð": "hefta",
+	"flokkur": "sagnorð",
+	"merking": "hindra",
+	"germynd": {
+		"nafnháttur": "hefta",
+		"sagnbót": "heft",
+		"boðháttur": {
+			"stýfður": "heft",
+			"et": "heftu",
+			"ft": "heftið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefti", "heftir", "heftir"],
+					"ft": ["heftum", "heftið", "hefta"]
+				},
+				"þátíð": {
+					"et": ["hefti", "heftir", "hefti"],
+					"ft": ["heftum", "heftuð", "heftu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefti", "heftir", "hefti"],
+					"ft": ["heftum", "heftið", "hefti"]
+				},
+				"þátíð": {
+					"et": ["hefti", "heftir", "hefti"],
+					"ft": ["heftum", "heftuð", "heftu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heftirðu",
+					"ft": "heftiði"
+				},
+				"þátíð": {
+					"et": "heftirðu",
+					"ft": "heftuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heftirðu",
+					"ft": "heftiði"
+				},
+				"þátíð": {
+					"et": "heftirðu",
+					"ft": "heftuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "heftast",
+		"sagnbót": "bæst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heftist", "heftist", "heftist"],
+					"ft": ["heftumst", "heftist", "heftast"]
+				},
+				"þátíð": {
+					"et": ["heftist", "heftist", "heftist"],
+					"ft": ["heftumst", "heftust", "heftust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heftist", "heftist", "heftist"],
+					"ft": ["heftumst", "heftist", "heftist"]
+				},
+				"þátíð": {
+					"et": ["heftist", "heftist", "heftist"],
+					"ft": ["heftumst", "heftust", "heftust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heftistu"
+				},
+				"þátíð": {
+					"et": "heftistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heftistu"
+				},
+				"þátíð": {
+					"et": "heftistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heftandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heftur", "heftan", "heftum", "hefts"],
+					"kvk": ["heft", "hefta", "heftri", "heftrar"],
+					"hk": ["heft", "heft", "heftu", "hefts"]
+				},
+				"ft": {
+					"kk": ["heftir", "hefta", "heftum", "heftra"],
+					"kvk": ["heftar", "heftar", "heftum", "heftra"],
+					"hk": ["heft", "heft", "heftum", "heftra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hefti", "hefta", "hefta", "hefta"],
+					"kvk": ["hefta", "heftu", "heftu", "heftu"],
+					"hk": ["hefta", "hefta", "hefta", "hefta"]
+				},
+				"ft": {
+					"kk": ["heftu", "heftu", "heftu", "heftu"],
+					"kvk": ["heftu", "heftu", "heftu", "heftu"],
+					"hk": ["heftu", "heftu", "heftu", "heftu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hefta-_hindra_",
+	"hash": "753c256812c3556547249b903f873c81474674252099f8f8ea877d7413d8c094"
+}

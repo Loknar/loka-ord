@@ -1,0 +1,88 @@
+{
+	"orð": "sakna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sakna",
+		"sagnbót": "saknað",
+		"boðháttur": {
+			"stýfður": "sakna",
+			"et": "saknaðu",
+			"ft": "saknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sakna", "saknar", "saknar"],
+					"ft": ["söknum", "saknið", "sakna"]
+				},
+				"þátíð": {
+					"et": ["saknaði", "saknaðir", "saknaði"],
+					"ft": ["söknuðum", "söknuðuð", "söknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sakni", "saknir", "sakni"],
+					"ft": ["saknum", "saknið", "sakni"]
+				},
+				"þátíð": {
+					"et": ["saknaði", "saknaðir", "saknaði"],
+					"ft": ["söknuðum", "söknuðuð", "söknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "saknarðu",
+					"ft": "sakniði"
+				},
+				"þátíð": {
+					"et": "saknaðirðu",
+					"ft": "söknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "saknirðu",
+					"ft": "sakniði"
+				},
+				"þátíð": {
+					"et": "saknaðirðu",
+					"ft": "söknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "saknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["saknaður", "saknaðan", "söknuðum", "saknaðs"],
+					"kvk": ["söknuð", "saknaða", "saknaðri", "saknaðrar"],
+					"hk": ["saknað", "saknað", "söknuðu", "saknaðs"]
+				},
+				"ft": {
+					"kk": ["saknaðir", "saknaða", "söknuðum", "saknaðra"],
+					"kvk": ["saknaðar", "saknaðar", "söknuðum", "saknaðra"],
+					"hk": ["söknuð", "söknuð", "söknuðum", "saknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["saknaði", "saknaða", "saknaða", "saknaða"],
+					"kvk": ["saknaða", "söknuðu", "söknuðu", "söknuðu"],
+					"hk": ["saknaða", "saknaða", "saknaða", "saknaða"]
+				},
+				"ft": {
+					"kk": ["söknuðu", "söknuðu", "söknuðu", "söknuðu"],
+					"kvk": ["söknuðu", "söknuðu", "söknuðu", "söknuðu"],
+					"hk": ["söknuðu", "söknuðu", "söknuðu", "söknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sakna",
+	"hash": "d3ae625af34db2154d778af88d067ebbefa68c2d4d27a38fc9eb1de7455d8424"
+}

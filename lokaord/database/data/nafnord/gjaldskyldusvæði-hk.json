@@ -1,0 +1,30 @@
+{
+	"orð": "gjaldskyldusvæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "skyldu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skylda-kvk"
+		},
+		{
+			"kennistrengur": "no-svæði-hk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldskyldusvæði", "gjaldskyldusvæði", "gjaldskyldusvæði", "gjaldskyldusvæðis"],
+		"mg": ["gjaldskyldusvæðið", "gjaldskyldusvæðið", "gjaldskyldusvæðinu", "gjaldskyldusvæðisins"]
+	},
+	"ft": {
+		"ág": ["gjaldskyldusvæði", "gjaldskyldusvæði", "gjaldskyldusvæðum", "gjaldskyldusvæða"],
+		"mg": ["gjaldskyldusvæðin", "gjaldskyldusvæðin", "gjaldskyldusvæðunum", "gjaldskyldusvæðanna"]
+	},
+	"kennistrengur": "no-gjaldskyldusvæði-hk",
+	"hash": "f07a3190a3c5c89f7b412c721fa36fd6a6f8f9c4cac96a2d5409cf3fd2077bba"
+}

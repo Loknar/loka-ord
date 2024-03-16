@@ -1,0 +1,27 @@
+{
+	"orð": "gjaldeyrishöft",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-haft-hk"
+		}
+	],
+	"ft": {
+		"ág": ["gjaldeyrishöft", "gjaldeyrishöft", "gjaldeyrishöftum", "gjaldeyrishafta"],
+		"mg": ["gjaldeyrishöftin", "gjaldeyrishöftin", "gjaldeyrishöftunum", "gjaldeyrishaftanna"]
+	},
+	"kennistrengur": "no-gjaldeyrishöft-hk",
+	"hash": "25743b16eba4729dc91134eda9de8389cfa23c2445725fb1eff2bdad340bafc6"
+}

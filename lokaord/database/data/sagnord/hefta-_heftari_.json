@@ -1,0 +1,133 @@
+{
+	"orð": "hefta",
+	"flokkur": "sagnorð",
+	"merking": "heftari",
+	"germynd": {
+		"nafnháttur": "hefta",
+		"sagnbót": "heftað",
+		"boðháttur": {
+			"stýfður": "hefta",
+			"et": "heftaðu",
+			"ft": "heftið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefta", "heftar", "heftar"],
+					"ft": ["heftum", "heftið", "hefta"]
+				},
+				"þátíð": {
+					"et": ["heftaði", "heftaðir", "heftaði"],
+					"ft": ["heftuðum", "heftuðuð", "heftuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefti", "heftir", "hefti"],
+					"ft": ["heftum", "heftið", "hefti"]
+				},
+				"þátíð": {
+					"et": ["heftaði", "heftaðir", "heftaði"],
+					"ft": ["heftuðum", "heftuðuð", "heftuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heftarðu",
+					"ft": "heftiði"
+				},
+				"þátíð": {
+					"et": "heftaðirðu",
+					"ft": "heftuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heftirðu",
+					"ft": "heftiði"
+				},
+				"þátíð": {
+					"et": "heftaðirðu",
+					"ft": "heftuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "heftast",
+		"sagnbót": "heftast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heftast", "heftast", "heftast"],
+					"ft": ["heftumst", "heftist", "heftast"]
+				},
+				"þátíð": {
+					"et": ["heftaðist", "heftaðist", "heftaðist"],
+					"ft": ["heftuðumst", "heftuðust", "heftuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heftist", "heftist", "heftist"],
+					"ft": ["heftumst", "heftist", "heftist"]
+				},
+				"þátíð": {
+					"et": ["heftaðist", "heftaðist", "heftaðist"],
+					"ft": ["heftuðumst", "heftuðust", "heftuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heftastu"
+				},
+				"þátíð": {
+					"et": "heftaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heftistu"
+				},
+				"þátíð": {
+					"et": "heftaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heftandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heftaður", "heftaðan", "heftuðum", "heftaðs"],
+					"kvk": ["heftuð", "heftaða", "heftaðri", "heftaðrar"],
+					"hk": ["heftað", "heftað", "heftuðu", "heftaðs"]
+				},
+				"ft": {
+					"kk": ["heftaðir", "heftaða", "heftuðum", "heftaðra"],
+					"kvk": ["heftaðar", "heftaðar", "heftuðum", "heftaðra"],
+					"hk": ["heftuð", "heftuð", "heftuðum", "heftaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["heftaði", "heftaða", "heftaða", "heftaða"],
+					"kvk": ["heftaða", "heftuðu", "heftuðu", "heftuðu"],
+					"hk": ["heftaða", "heftaða", "heftaða", "heftaða"]
+				},
+				"ft": {
+					"kk": ["heftuðu", "heftuðu", "heftuðu", "heftuðu"],
+					"kvk": ["heftuðu", "heftuðu", "heftuðu", "heftuðu"],
+					"hk": ["heftuðu", "heftuðu", "heftuðu", "heftuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hefta-_heftari_",
+	"hash": "0fd251693ff3b35ca564edf6025a0f5cf6ee44ced9e737eeb4b34177a22f291f"
+}

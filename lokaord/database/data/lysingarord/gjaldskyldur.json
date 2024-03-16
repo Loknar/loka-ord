@@ -1,0 +1,43 @@
+{
+	"orð": "gjaldskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["gjaldskyldur", "gjaldskyldan", "gjaldskyldum", "gjaldskylds"],
+				"kvk": ["gjaldskyld", "gjaldskylda", "gjaldskyldri", "gjaldskyldrar"],
+				"hk": ["gjaldskylt", "gjaldskylt", "gjaldskyldu", "gjaldskylds"]
+			},
+			"ft": {
+				"kk": ["gjaldskyldir", "gjaldskylda", "gjaldskyldum", "gjaldskyldra"],
+				"kvk": ["gjaldskyldar", "gjaldskyldar", "gjaldskyldum", "gjaldskyldra"],
+				"hk": ["gjaldskyld", "gjaldskyld", "gjaldskyldum", "gjaldskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gjaldskyldi", "gjaldskylda", "gjaldskylda", "gjaldskylda"],
+				"kvk": ["gjaldskylda", "gjaldskyldu", "gjaldskyldu", "gjaldskyldu"],
+				"hk": ["gjaldskylda", "gjaldskylda", "gjaldskylda", "gjaldskylda"]
+			},
+			"ft": {
+				"kk": ["gjaldskyldu", "gjaldskyldu", "gjaldskyldu", "gjaldskyldu"],
+				"kvk": ["gjaldskyldu", "gjaldskyldu", "gjaldskyldu", "gjaldskyldu"],
+				"hk": ["gjaldskyldu", "gjaldskyldu", "gjaldskyldu", "gjaldskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-gjaldskyldur",
+	"hash": "a0758487b5c0c9834bdeea09cf81e144d70111e6edea4211bcd1d303b8039405"
+}

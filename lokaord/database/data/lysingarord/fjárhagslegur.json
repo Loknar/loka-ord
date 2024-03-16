@@ -3,9 +3,14 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "fjárhags",
+			"mynd": "fjár",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fjárhagur-kk"
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
 		},
 		{
 			"kennistrengur": "lo-legur-ó"
@@ -78,5 +83,5 @@
 		}
 	},
 	"kennistrengur": "lo-fjárhagslegur",
-	"hash": "e7dee6fa95ea79d2b23a0f557ae72980c8414bd4d9e67834a517ba75df5dc0e2"
+	"hash": "518911240c6fb3c40f485872644b72c6637c5f711311fd285ebec397f92505df"
 }
