@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Mar",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mara-kvk"
+		},
+		{
+			"lágstafa": true,
+			"kennistrengur": "sérn.en-Grét-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Margrét", "Margréti", "Margréti", "Margrétar"]
 	},
 	"kennistrengur": "sérn.en-Margrét-kvk",
-	"hash": "d38794b631006b9141a697265a910c574932b7addb9a50a72c644aa8c72f8bbf"
+	"hash": "326ef9ab65ba45549ce9a015c2b6cd2da35919b3bf779dbff931943f8f2493be"
 }
