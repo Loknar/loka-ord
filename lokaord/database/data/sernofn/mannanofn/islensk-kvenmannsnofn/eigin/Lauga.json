@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Laug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-laug-kvk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Lauga", "Laugu", "Laugu", "Laugu"]
 	},
 	"kennistrengur": "sérn.en-Lauga-kvk",
-	"hash": "434a9bcb87e54905f91fc7d6fea873eee5c7d41e8ae28b48aa3151d8f4492478"
+	"hash": "d4e06ddb2c15f17edc7faf5a81db9b056917b55102389b7f4a8aed82355d3080"
 }
