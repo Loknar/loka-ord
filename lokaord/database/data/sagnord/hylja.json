@@ -1,0 +1,132 @@
+{
+	"orð": "hylja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hylja",
+		"sagnbót": "hulið",
+		"boðháttur": {
+			"stýfður": "hyl",
+			"et": "hyldu",
+			"ft": "hyljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hyl", "hylur", "hylur"],
+					"ft": ["hyljum", "hyljið", "hylja"]
+				},
+				"þátíð": {
+					"et": ["huldi", "huldir", "huldi"],
+					"ft": ["huldum", "hulduð", "huldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hylji", "hyljir", "hylji"],
+					"ft": ["hyljum", "hyljið", "hylji"]
+				},
+				"þátíð": {
+					"et": ["hyldi", "hyldir", "hyldi"],
+					"ft": ["hyldum", "hylduð", "hyldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hylurðu",
+					"ft": "hyljiði"
+				},
+				"þátíð": {
+					"et": "huldirðu",
+					"ft": "hulduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hyljirðu",
+					"ft": "hyljiði"
+				},
+				"þátíð": {
+					"et": "hyldirðu",
+					"ft": "hylduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hyljast",
+		"sagnbót": "hulist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hylst", "hylst", "hylst"],
+					"ft": ["hyljumst", "hyljist", "hyljast"]
+				},
+				"þátíð": {
+					"et": ["huldist", "huldist", "huldist"],
+					"ft": ["huldumst", "huldust", "huldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hyljist", "hyljist", "hyljist"],
+					"ft": ["hyljumst", "hyljist", "hyljist"]
+				},
+				"þátíð": {
+					"et": ["hyldist", "hyldist", "hyldist"],
+					"ft": ["hyldumst", "hyldust", "hyldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hylstu"
+				},
+				"þátíð": {
+					"et": "huldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hyljistu"
+				},
+				"þátíð": {
+					"et": "hyldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hyljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hulinn", "hulinn", "huldum", "hulins"],
+					"kvk": ["hulin", "hulda", "hulinni", "hulinnar"],
+					"hk": ["hulið", "hulið", "huldu", "hulins"]
+				},
+				"ft": {
+					"kk": ["huldir", "hulda", "huldum", "hulinna"],
+					"kvk": ["huldar", "huldar", "huldum", "hulinna"],
+					"hk": ["hulin", "hulin", "huldum", "hulinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["huldi", "hulda", "hulda", "hulda"],
+					"kvk": ["hulda", "huldu", "huldu", "huldu"],
+					"hk": ["hulda", "hulda", "hulda", "hulda"]
+				},
+				"ft": {
+					"kk": ["huldu", "huldu", "huldu", "huldu"],
+					"kvk": ["huldu", "huldu", "huldu", "huldu"],
+					"hk": ["huldu", "huldu", "huldu", "huldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hylja",
+	"hash": "264979b6e8e71d8d5984fb1f8fa419621d1d66eec254ac0e8df05357a3e63855"
+}
