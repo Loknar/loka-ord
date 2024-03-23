@@ -1,0 +1,133 @@
+{
+	"orð": "sala",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sala",
+		"sagnbót": "salað",
+		"boðháttur": {
+			"stýfður": "sala",
+			"et": "salaðu",
+			"ft": "salið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sala", "salar", "salar"],
+					"ft": ["sölum", "salið", "sala"]
+				},
+				"þátíð": {
+					"et": ["salaði", "salaðir", "salaði"],
+					"ft": ["söluðum", "söluðuð", "söluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sali", "salir", "sali"],
+					"ft": ["sölum", "salið", "sali"]
+				},
+				"þátíð": {
+					"et": ["salaði", "salaðir", "salaði"],
+					"ft": ["söluðum", "söluðuð", "söluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "salarðu",
+					"ft": "saliði"
+				},
+				"þátíð": {
+					"et": "salaðirðu",
+					"ft": "söluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "salirðu",
+					"ft": "saliði"
+				},
+				"þátíð": {
+					"et": "salaðirðu",
+					"ft": "söluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "salast",
+		"sagnbót": "salast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["salast", "salast", "salast"],
+					"ft": ["sölumst", "salist", "salast"]
+				},
+				"þátíð": {
+					"et": ["salaðist", "salaðist", "salaðist"],
+					"ft": ["söluðumst", "söluðust", "söluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["salist", "salist", "salist"],
+					"ft": ["sölumst", "salist", "salist"]
+				},
+				"þátíð": {
+					"et": ["salaðist", "salaðist", "salaðist"],
+					"ft": ["söluðumst", "söluðust", "söluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "salastu"
+				},
+				"þátíð": {
+					"et": "salaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "salistu"
+				},
+				"þátíð": {
+					"et": "salaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "salandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["salaður", "salaðan", "söluðum", "salaðs"],
+					"kvk": ["söluð", "salaða", "salaðri", "salaðrar"],
+					"hk": ["salað", "salað", "söluðu", "salaðs"]
+				},
+				"ft": {
+					"kk": ["salaðir", "salaða", "söluðum", "salaðra"],
+					"kvk": ["salaðar", "salaðar", "söluðum", "salaðra"],
+					"hk": ["söluð", "söluð", "söluðum", "salaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["salaði", "salaða", "salaða", "salaða"],
+					"kvk": ["salaða", "söluðu", "söluðu", "söluðu"],
+					"hk": ["salaða", "salaða", "salaða", "salaða"]
+				},
+				"ft": {
+					"kk": ["söluðu", "söluðu", "söluðu", "söluðu"],
+					"kvk": ["söluðu", "söluðu", "söluðu", "söluðu"],
+					"hk": ["söluðu", "söluðu", "söluðu", "söluðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-sala-ó",
+	"hash": "b26739bb3da449789db475d37270bb10a072f04e2b87b98f1e02ba2a25bf8dec"
+}
