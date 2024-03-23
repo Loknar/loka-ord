@@ -3,9 +3,14 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "stjórnsýslu",
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórnsýsla-kvk"
+			"kennistrengur": "no-sýsla-kvk"
 		},
 		{
 			"kennistrengur": "lo-legur-ó"
@@ -78,5 +83,5 @@
 		}
 	},
 	"kennistrengur": "lo-stjórnsýslulegur",
-	"hash": "2360b8d52341509ff4ddec8a50b60fa73591b8c5f98bb4adfdeb18a50218b60c"
+	"hash": "1eacb9201742a18e81a56643967f9aba8ee97963ef02fa52f9f32f4d3a50ff61"
 }

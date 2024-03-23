@@ -4,9 +4,14 @@
 	"undirflokkur": "atviksorð",
 	"samsett": [
 		{
-			"mynd": "stjórnsýslu",
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórnsýsla-kvk"
+			"kennistrengur": "no-sýsla-kvk"
 		},
 		{
 			"mynd": "lega",
@@ -15,5 +20,5 @@
 		}
 	],
 	"kennistrengur": "smáo.ao-stjórnsýslulega",
-	"hash": "519d86cc83ff5420687dc491782390118199d0f608e044899a6571a6259b280d"
+	"hash": "34a0db89bf70e44837dd283b5aad25bf5754ee219a1c38fc7160512a1102fbd8"
 }

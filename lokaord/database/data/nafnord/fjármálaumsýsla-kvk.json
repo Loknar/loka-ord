@@ -1,0 +1,32 @@
+{
+	"orð": "fjármálaumsýsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-sýsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármálaumsýsla", "fjármálaumsýslu", "fjármálaumsýslu", "fjármálaumsýslu"],
+		"mg": ["fjármálaumsýslan", "fjármálaumsýsluna", "fjármálaumsýslunni", "fjármálaumsýslunnar"]
+	},
+	"kennistrengur": "no-fjármálaumsýsla-kvk",
+	"hash": "727daa0547ac18d58228ee6d251b093ed2f42bddd789ba196ab7e47f7663079d"
+}

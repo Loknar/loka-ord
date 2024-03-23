@@ -1,0 +1,30 @@
+{
+	"orð": "heildarlántaka",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "lán",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"kennistrengur": "no-taka-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarlántaka", "heildarlántöku", "heildarlántöku", "heildarlántöku"],
+		"mg": ["heildarlántakan", "heildarlántökuna", "heildarlántökunni", "heildarlántökunnar"]
+	},
+	"ft": {
+		"ág": ["heildarlántökur", "heildarlántökur", "heildarlántökum", "heildarlántaka"],
+		"mg": ["heildarlántökurnar", "heildarlántökurnar", "heildarlántökunum", "heildarlántakanna"]
+	},
+	"kennistrengur": "no-heildarlántaka-kvk",
+	"hash": "b0fec13f9e51613a3c977064e0662bec09d9a8950540de3d6a099468d2fb602f"
+}

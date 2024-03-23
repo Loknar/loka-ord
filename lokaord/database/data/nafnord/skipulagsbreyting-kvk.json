@@ -4,9 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skipulags",
+			"mynd": "skipu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skipulag-hk"
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
 		},
 		{
 			"kennistrengur": "no-breyting-kvk"
@@ -21,5 +26,5 @@
 		"mg": ["skipulagsbreytingarnar", "skipulagsbreytingarnar", "skipulagsbreytingunum", "skipulagsbreytinganna"]
 	},
 	"kennistrengur": "no-skipulagsbreyting-kvk",
-	"hash": "80d089390ed4edef7f5c9e00e00cf95e252474d330a9c647f26e4285056645d0"
+	"hash": "d8cb38e2420e3c79103239ca3d8860685fe753761affb108c0fcc6e452307b95"
 }

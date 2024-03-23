@@ -1,0 +1,27 @@
+{
+	"orð": "hlutafjárkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hlutafjárkaup", "hlutafjárkaup", "hlutafjárkaupum", "hlutafjárkaupa"],
+		"mg": ["hlutafjárkaupin", "hlutafjárkaupin", "hlutafjárkaupunum", "hlutafjárkaupanna"]
+	},
+	"kennistrengur": "no-hlutafjárkaup-hk",
+	"hash": "b2c29d6312204f433a787ba4289194d095e771f045dce59709228683a0462bc7"
+}
