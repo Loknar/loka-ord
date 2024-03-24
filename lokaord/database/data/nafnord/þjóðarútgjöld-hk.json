@@ -1,0 +1,27 @@
+{
+	"orð": "þjóðarútgjöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "þjóðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["þjóðarútgjöld", "þjóðarútgjöld", "þjóðarútgjöldum", "þjóðarútgjalda"],
+		"mg": ["þjóðarútgjöldin", "þjóðarútgjöldin", "þjóðarútgjöldunum", "þjóðarútgjaldanna"]
+	},
+	"kennistrengur": "no-þjóðarútgjöld-hk",
+	"hash": "70a9ff5b3208cdd16499feeeaa00bf5193059d8dec094e29db7cbf1e61e5609d"
+}

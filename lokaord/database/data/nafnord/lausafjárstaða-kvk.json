@@ -1,0 +1,27 @@
+{
+	"orð": "lausafjárstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lausa",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-laus"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lausafjárstaða", "lausafjárstöðu", "lausafjárstöðu", "lausafjárstöðu"],
+		"mg": ["lausafjárstaðan", "lausafjárstöðuna", "lausafjárstöðunni", "lausafjárstöðunnar"]
+	},
+	"kennistrengur": "no-lausafjárstaða-kvk",
+	"hash": "b65cb57b9095ed9c95b1a55a118e8a8e4ba2ef6300bc8339cef7dd4e9df6beee"
+}
