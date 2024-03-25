@@ -2,10 +2,22 @@
 	"orð": "hernaður",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "her",
+			"samsetning": "stofn",
+			"kennistrengur": "no-her-kk"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-aður-kk-ó"
+		}
+	],
 	"et": {
-		"ág": ["hernaður", "hernað", "hernaði", "hernaðs"],
-		"mg": ["hernaðurinn", "hernaðinn", "hernaðinum", "hernaðsins"]
+		"ág": ["hernaður", "hernað", "hernaði", "hernaðar"],
+		"mg": ["hernaðurinn", "hernaðinn", "hernaðinum", "hernaðarins"]
 	},
 	"kennistrengur": "no-hernaður-kk",
-	"hash": "c9018a191876229e1dd3ae1c84bfd499e4be7d42befc781fa134bd2e11fd5582"
+	"hash": "e56ad0ca6cf5e1d1b4ac2c886918c6dbb97ed84fef0c20c0106872ce541867b3"
 }
