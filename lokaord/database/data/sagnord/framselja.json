@@ -1,0 +1,142 @@
+{
+	"orð": "framselja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "so-selja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framselja",
+		"sagnbót": "framselt",
+		"boðháttur": {
+			"stýfður": "framsel",
+			"et": "framseldu",
+			"ft": "framseljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framsel", "framselur", "framselur"],
+					"ft": ["framseljum", "framseljið", "framselja"]
+				},
+				"þátíð": {
+					"et": ["framseldi", "framseldir", "framseldi"],
+					"ft": ["framseldum", "framselduð", "framseldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framselji", "framseljir", "framselji"],
+					"ft": ["framseljum", "framseljið", "framselji"]
+				},
+				"þátíð": {
+					"et": ["framseldi", "framseldir", "framseldi"],
+					"ft": ["framseldum", "framselduð", "framseldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framselurðu",
+					"ft": "framseljiði"
+				},
+				"þátíð": {
+					"et": "framseldirðu",
+					"ft": "framselduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framseljirðu",
+					"ft": "framseljiði"
+				},
+				"þátíð": {
+					"et": "framseldirðu",
+					"ft": "framselduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "framseljast",
+		"sagnbót": "framselst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framselst", "framselst", "framselst"],
+					"ft": ["framseljumst", "framseljist", "framseljast"]
+				},
+				"þátíð": {
+					"et": ["framseldist", "framseldist", "framseldist"],
+					"ft": ["framseldumst", "framseldust", "framseldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framseljist", "framseljist", "framseljist"],
+					"ft": ["framseldumst", "framseldust", "framseldust"]
+				},
+				"þátíð": {
+					"et": ["framseldist", "framseldist", "framseldist"],
+					"ft": ["framseldumst", "framseldust", "framseldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framselstu"
+				},
+				"þátíð": {
+					"et": "framseldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framseljistu"
+				},
+				"þátíð": {
+					"et": "framseldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framseljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framseldur", "framseldan", "framseldum", "framselds"],
+					"kvk": ["framseld", "framselda", "framseldri", "framseldrar"],
+					"hk": ["framselt", "framselt", "framseldu", "framselds"]
+				},
+				"ft": {
+					"kk": ["framseldir", "framselda", "framseldum", "framseldra"],
+					"kvk": ["framseldar", "framseldar", "framseldum", "framseldra"],
+					"hk": ["framseld", "framseld", "framseldum", "framseldra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framseldi", "framselda", "framselda", "framselda"],
+					"kvk": ["framselda", "framseldu", "framseldu", "framseldu"],
+					"hk": ["framselda", "framselda", "framselda", "framselda"]
+				},
+				"ft": {
+					"kk": ["framseldu", "framseldu", "framseldu", "framseldu"],
+					"kvk": ["framseldu", "framseldu", "framseldu", "framseldu"],
+					"hk": ["framseldu", "framseldu", "framseldu", "framseldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framselja",
+	"hash": "7109aec04ed22f6d459245b610c9903b68679e8b501d95f939084a17e54b97f1"
+}
