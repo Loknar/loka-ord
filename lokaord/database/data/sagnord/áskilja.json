@@ -1,0 +1,99 @@
+{
+	"orð": "áskilja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skilja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "áskilja",
+		"sagnbót": "áskilið",
+		"boðháttur": {
+			"stýfður": "áskil",
+			"et": "áskildu",
+			"ft": "áskiljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["áskil", "áskilur", "áskilur"],
+					"ft": ["áskiljum", "áskiljið", "áskilja"]
+				},
+				"þátíð": {
+					"et": ["áskildi", "áskildir", "áskildi"],
+					"ft": ["áskildum", "áskilduð", "áskildu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["áskilji", "áskiljir", "áskilji"],
+					"ft": ["áskiljum", "áskiljið", "áskilji"]
+				},
+				"þátíð": {
+					"et": ["áskildi", "áskildir", "áskildi"],
+					"ft": ["áskildum", "áskilduð", "áskildu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "áskilurðu",
+					"ft": "áskiljiði"
+				},
+				"þátíð": {
+					"et": "áskildirðu",
+					"ft": "áskilduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "áskiljirðu",
+					"ft": "áskiljiði"
+				},
+				"þátíð": {
+					"et": "áskildirðu",
+					"ft": "áskilduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "áskiljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["áskilinn", "áskilinn", "áskildum", "áskilins"],
+					"kvk": ["áskilin", "áskilda", "áskilinni", "áskilinnar"],
+					"hk": ["áskilið", "áskilið", "áskildu", "áskilins"]
+				},
+				"ft": {
+					"kk": ["áskildir", "áskilda", "áskildum", "áskilinna"],
+					"kvk": ["áskildar", "áskildar", "áskildum", "áskilinna"],
+					"hk": ["áskilin", "áskilin", "áskildum", "áskilinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["áskildi", "áskilda", "áskilda", "áskilda"],
+					"kvk": ["áskilda", "áskildu", "áskildu", "áskildu"],
+					"hk": ["áskilda", "áskilda", "áskilda", "áskilda"]
+				},
+				"ft": {
+					"kk": ["áskildu", "áskildu", "áskildu", "áskildu"],
+					"kvk": ["áskildu", "áskildu", "áskildu", "áskildu"],
+					"hk": ["áskildu", "áskildu", "áskildu", "áskildu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-áskilja",
+	"hash": "5f77fc5d29d5389baa0d85ac76af66e83fb2e11e6948b911880b5c41de01b871"
+}
