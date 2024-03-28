@@ -1,0 +1,155 @@
+{
+	"orð": "græða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "græða",
+		"sagnbót": "grætt",
+		"boðháttur": {
+			"stýfður": "græð",
+			"et": "græddu",
+			"ft": "græðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["græði", "græðir", "græðir"],
+					"ft": ["græðum", "græðið", "græða"]
+				},
+				"þátíð": {
+					"et": ["græddi", "græddir", "græddi"],
+					"ft": ["græddum", "grædduð", "græddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["græði", "græðir", "græði"],
+					"ft": ["græðum", "græðið", "græði"]
+				},
+				"þátíð": {
+					"et": ["græddi", "græddir", "græddi"],
+					"ft": ["græddum", "grædduð", "græddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "græðirðu",
+					"ft": "græðiði"
+				},
+				"þátíð": {
+					"et": "græddirðu",
+					"ft": "grædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "græðirðu",
+					"ft": "græðiði"
+				},
+				"þátíð": {
+					"et": "græddirðu",
+					"ft": "grædduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "græðast",
+		"sagnbót": "græðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["græðist", "græðist", "græðist"],
+					"ft": ["græðumst", "græðist", "græðast"]
+				},
+				"þátíð": {
+					"et": ["græddist", "græddist", "græddist"],
+					"ft": ["græddumst", "græddust", "græddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["græðist", "græðist", "græðist"],
+					"ft": ["græðumst", "græðist", "græðist"]
+				},
+				"þátíð": {
+					"et": ["græddist", "græddist", "græddist"],
+					"ft": ["græddumst", "græddust", "græddust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["græðist", "græðist", "græðist"],
+					"ft": ["græðist", "græðist", "græðist"]
+				},
+				"þátíð": {
+					"et": ["græddist", "græddist", "græddist"],
+					"ft": ["græddist", "græddist", "græddist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["græðist", "græðist", "græðist"],
+					"ft": ["græðist", "græðist", "græðist"]
+				},
+				"þátíð": {
+					"et": ["græddist", "græddist", "græddist"],
+					"ft": ["græddist", "græddist", "græddist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "græðistu"
+				},
+				"þátíð": {
+					"et": "græddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "græðistu"
+				},
+				"þátíð": {
+					"et": "græddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "græðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["græddur", "græddan", "græddum", "grædds"],
+					"kvk": ["grædd", "grædda", "græddri", "græddrar"],
+					"hk": ["grætt", "grætt", "græddu", "grædds"]
+				},
+				"ft": {
+					"kk": ["græddir", "grædda", "græddum", "græddra"],
+					"kvk": ["græddar", "græddar", "græddum", "græddra"],
+					"hk": ["grædd", "grædd", "græddum", "græddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["græddi", "grædda", "grædda", "grædda"],
+					"kvk": ["grædda", "græddu", "græddu", "græddu"],
+					"hk": ["grædda", "grædda", "grædda", "grædda"]
+				},
+				"ft": {
+					"kk": ["græddu", "græddu", "græddu", "græddu"],
+					"kvk": ["græddu", "græddu", "græddu", "græddu"],
+					"hk": ["græddu", "græddu", "græddu", "græddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-græða",
+	"hash": "038ffe255b12e41404709c42bbf67ee7cf3ae09a9ecb84d678bd9544c1c3d15c"
+}

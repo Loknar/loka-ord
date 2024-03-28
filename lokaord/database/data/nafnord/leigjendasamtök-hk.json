@@ -1,0 +1,27 @@
+{
+	"orð": "leigjendasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leigjenda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leigjandi-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["leigjendasamtök", "leigjendasamtök", "leigjendasamtökum", "leigjendasamtaka"],
+		"mg": ["leigjendasamtökin", "leigjendasamtökin", "leigjendasamtökunum", "leigjendasamtakanna"]
+	},
+	"kennistrengur": "no-leigjendasamtök-hk",
+	"hash": "29155ec005a9284897c26a22c3d4ba89a01bec082258066721b1ec0b9ef11197"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "húsaleiguábyrgð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"kennistrengur": "no-byrgð-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["húsaleiguábyrgð", "húsaleiguábyrgð", "húsaleiguábyrgð", "húsaleiguábyrgðar"],
+		"mg": ["húsaleiguábyrgðin", "húsaleiguábyrgðina", "húsaleiguábyrgðinni", "húsaleiguábyrgðarinnar"]
+	},
+	"ft": {
+		"ág": ["húsaleiguábyrgðir", "húsaleiguábyrgðir", "húsaleiguábyrgðum", "húsaleiguábyrgða"],
+		"mg": ["húsaleiguábyrgðirnar", "húsaleiguábyrgðirnar", "húsaleiguábyrgðunum", "húsaleiguábyrgðanna"]
+	},
+	"kennistrengur": "no-húsaleiguábyrgð-kvk",
+	"hash": "fc200d4758c85ec8443f398a7c3d24b4b339e5900287e90cc5be7fa449e67bb7"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "leiguábyrgð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"kennistrengur": "no-byrgð-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["leiguábyrgð", "leiguábyrgð", "leiguábyrgð", "leiguábyrgðar"],
+		"mg": ["leiguábyrgðin", "leiguábyrgðina", "leiguábyrgðinni", "leiguábyrgðarinnar"]
+	},
+	"ft": {
+		"ág": ["leiguábyrgðir", "leiguábyrgðir", "leiguábyrgðum", "leiguábyrgða"],
+		"mg": ["leiguábyrgðirnar", "leiguábyrgðirnar", "leiguábyrgðunum", "leiguábyrgðanna"]
+	},
+	"kennistrengur": "no-leiguábyrgð-kvk",
+	"hash": "c4e36e55b07ad1f01b243e51cc2e9958a71ce249247bfba7bb6dd3c184eba639"
+}

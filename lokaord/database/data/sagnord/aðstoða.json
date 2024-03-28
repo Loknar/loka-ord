@@ -1,0 +1,73 @@
+{
+	"orð": "aðstoða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur"],
+			"kennistrengur": "so-stoða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aðstoða",
+		"sagnbót": "aðstoðað",
+		"boðháttur": {
+			"stýfður": "aðstoða",
+			"et": "aðstoðaðu",
+			"ft": "aðstoðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aðstoða", "aðstoðar", "aðstoðar"],
+					"ft": ["aðstoðum", "aðstoðið", "aðstoða"]
+				},
+				"þátíð": {
+					"et": ["aðstoðaði", "aðstoðaðir", "aðstoðaði"],
+					"ft": ["aðstoðuðum", "aðstoðuðuð", "aðstoðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aðstoði", "aðstoðir", "aðstoði"],
+					"ft": ["aðstoðum", "aðstoðið", "aðstoði"]
+				},
+				"þátíð": {
+					"et": ["aðstoðaði", "aðstoðaðir", "aðstoðaði"],
+					"ft": ["aðstoðuðum", "aðstoðuðuð", "aðstoðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aðstoðarðu",
+					"ft": "aðstoðiði"
+				},
+				"þátíð": {
+					"et": "aðstoðaðirðu",
+					"ft": "aðstoðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aðstoðirðu",
+					"ft": "aðstoðiði"
+				},
+				"þátíð": {
+					"et": "aðstoðaðirðu",
+					"ft": "aðstoðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aðstoðandi"
+	},
+	"kennistrengur": "so-aðstoða",
+	"hash": "af56b5cf214ff3dd6ab47604ba835fe9e176c8a7408d2152d5a14b8e309f542f"
+}

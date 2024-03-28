@@ -3,9 +3,14 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "efnahags",
+			"mynd": "efna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efnahagur-kk"
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
 		},
 		{
 			"kennistrengur": "lo-legur-ó"
@@ -78,5 +83,5 @@
 		}
 	},
 	"kennistrengur": "lo-efnahagslegur",
-	"hash": "e4e00d3db9cb496f41b82d421b861e5cf3bb10bd0f94782324b33d692bd0be1a"
+	"hash": "ce6f17ecd1ffc38ff9f6cb2532e763eb2de5c071931b51416d7874908949e418"
 }

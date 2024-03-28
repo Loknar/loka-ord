@@ -1,0 +1,142 @@
+{
+	"orð": "samsvara",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"kennistrengur": "so-svara"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samsvara",
+		"sagnbót": "samsvarað",
+		"boðháttur": {
+			"stýfður": "samsvara",
+			"et": "samsvaraðu",
+			"ft": "samsvarið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samsvara", "samsvarar", "samsvarar"],
+					"ft": ["samsvörum", "samsvarið", "samsvara"]
+				},
+				"þátíð": {
+					"et": ["samsvaraði", "samsvaraðir", "samsvaraði"],
+					"ft": ["samsvöruðum", "samsvöruðuð", "samsvöruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samsvari", "samsvarir", "samsvari"],
+					"ft": ["samsvörum", "samsvarið", "samsvari"]
+				},
+				"þátíð": {
+					"et": ["samsvaraði", "samsvaraðir", "samsvaraði"],
+					"ft": ["samsvöruðum", "samsvöruðuð", "samsvöruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samsvararðu",
+					"ft": "samsvariði"
+				},
+				"þátíð": {
+					"et": "samsvaraðirðu",
+					"ft": "samsvöruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samsvarirðu",
+					"ft": "samsvariði"
+				},
+				"þátíð": {
+					"et": "samsvararirðu",
+					"ft": "samsvöruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "samsvarast",
+		"sagnbót": "samsvarast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samsvarast", "samsvarast", "samsvarast"],
+					"ft": ["samsvörumst", "samsvarist", "samsvarast"]
+				},
+				"þátíð": {
+					"et": ["samsvaraðist", "samsvaraðist", "samsvaraðist"],
+					"ft": ["samsvöruðumst", "samsvöruðust", "samsvöruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samsvarist", "samsvarist", "samsvarist"],
+					"ft": ["samsvörumst", "samsvarist", "samsvarist"]
+				},
+				"þátíð": {
+					"et": ["samsvaraðist", "samsvaraðist", "samsvaraðist"],
+					"ft": ["samsvöruðumst", "samsvöruðust", "samsvöruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samsvarastu"
+				},
+				"þátíð": {
+					"et": "samsvaraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samsvaristu"
+				},
+				"þátíð": {
+					"et": "samsvaraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samsvarandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samsvaraður", "samsvaraðan", "samsvöruðum", "samsvaraðs"],
+					"kvk": ["samsvöruð", "samsvaraða", "samsvaraðri", "samsvaraðrar"],
+					"hk": ["samsvarað", "samsvarað", "samsvöruðu", "samsvaraðs"]
+				},
+				"ft": {
+					"kk": ["samsvaraðir", "samsvaraða", "samsvöruðum", "samsvaraðra"],
+					"kvk": ["samsvaraðar", "samsvaraðar", "samsvöruðum", "samsvaraðra"],
+					"hk": ["samsvöruð", "samsvöruð", "samsvöruðum", "samsvaraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["samsvaraði", "samsvaraða", "samsvaraða", "samsvaraða"],
+					"kvk": ["samsvaraða", "samsvöruðu", "samsvöruðu", "samsvöruðu"],
+					"hk": ["samsvaraða", "samsvaraða", "samsvaraða", "samsvaraða"]
+				},
+				"ft": {
+					"kk": ["samsvöruðu", "samsvöruðu", "samsvöruðu", "samsvöruðu"],
+					"kvk": ["samsvöruðu", "samsvöruðu", "samsvöruðu", "samsvöruðu"],
+					"hk": ["samsvöruðu", "samsvöruðu", "samsvöruðu", "samsvöruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samsvara",
+	"hash": "89fc82f1b5b9d259196bb3738aeb210e7a1cc0f51d8c787d5487916f02315740"
+}
