@@ -1,0 +1,48 @@
+{
+	"orð": "kirsuberjarauður",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kirsu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kirsa-kvk"
+		},
+		{
+			"mynd": "berja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ber-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-rauður"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kirsuberjarauður", "kirsuberjarauðan", "kirsuberjarauðum", "kirsuberjarauðs"],
+				"kvk": ["kirsuberjarauð", "kirsuberjarauða", "kirsuberjarauðri", "kirsuberjarauðrar"],
+				"hk": ["kirsuberjarautt", "kirsuberjarautt", "kirsuberjarauðu", "kirsuberjarauðs"]
+			},
+			"ft": {
+				"kk": ["kirsuberjarauðir", "kirsuberjarauða", "kirsuberjarauðum", "kirsuberjarauðra"],
+				"kvk": ["kirsuberjarauðar", "kirsuberjarauðar", "kirsuberjarauðum", "kirsuberjarauðra"],
+				"hk": ["kirsuberjarauð", "kirsuberjarauð", "kirsuberjarauðum", "kirsuberjarauðra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kirsuberjarauði", "kirsuberjarauða", "kirsuberjarauða", "kirsuberjarauða"],
+				"kvk": ["kirsuberjarauða", "kirsuberjarauðu", "kirsuberjarauðu", "kirsuberjarauðu"],
+				"hk": ["kirsuberjarauða", "kirsuberjarauða", "kirsuberjarauða", "kirsuberjarauða"]
+			},
+			"ft": {
+				"kk": ["kirsuberjarauðu", "kirsuberjarauðu", "kirsuberjarauðu", "kirsuberjarauðu"],
+				"kvk": ["kirsuberjarauðu", "kirsuberjarauðu", "kirsuberjarauðu", "kirsuberjarauðu"],
+				"hk": ["kirsuberjarauðu", "kirsuberjarauðu", "kirsuberjarauðu", "kirsuberjarauðu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kirsuberjarauður",
+	"hash": "d0afcfb81c52aca77e59fcc21f391f76cdaab1c859458a2942f6af6bcf9e9640"
+}

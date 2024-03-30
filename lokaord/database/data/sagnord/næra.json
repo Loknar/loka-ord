@@ -54,6 +54,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "nærast",
+		"sagnbót": "nærst",
+		"boðháttur": {
+			"et": "næristu",
+			"ft": "nærist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nærist", "nærist", "nærist"],
+					"ft": ["nærumst", "nærist", "nærast"]
+				},
+				"þátíð": {
+					"et": ["nærðist", "nærðist", "nærðist"],
+					"ft": ["nærðumst", "nærðust", "nærðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nærist", "nærist", "nærist"],
+					"ft": ["nærumst", "nærist", "nærist"]
+				},
+				"þátíð": {
+					"et": ["nærðist", "nærðist", "nærðist"],
+					"ft": ["nærðumst", "nærðust", "nærðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "næristu"
+				},
+				"þátíð": {
+					"et": "nærðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "næristu"
+				},
+				"þátíð": {
+					"et": "nærðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "nærandi",
 		"þátíðar": {
@@ -84,5 +132,5 @@
 		}
 	},
 	"kennistrengur": "so-næra",
-	"hash": "17da242fd692ab53badf88caf0d4fb07a25f58b6eee344951f3f0fb87500fa59"
+	"hash": "ad4fb277624e99be27a996725b29018772c8fc67cd5959c5dbd8c56cdf01093c"
 }

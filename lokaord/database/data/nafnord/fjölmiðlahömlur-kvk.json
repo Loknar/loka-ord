@@ -1,0 +1,27 @@
+{
+	"orð": "fjölmiðlahömlur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjöl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjöl-kvk"
+		},
+		{
+			"mynd": "miðla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-miðiłl-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-hamla-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjölmiðlahömlur", "fjölmiðlahömlur", "fjölmiðlahömlum", "fjölmiðlahamla"],
+		"mg": ["fjölmiðlahömlurnar", "fjölmiðlahömlurnar", "fjölmiðlahömlunum", "fjölmiðlahamlanna"]
+	},
+	"kennistrengur": "no-fjölmiðlahömlur-kvk",
+	"hash": "533530ea32657560ff33af792cbfcd13ad29d6f875453ca613a91ec36e61655b"
+}
