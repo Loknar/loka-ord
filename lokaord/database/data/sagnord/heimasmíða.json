@@ -1,0 +1,99 @@
+{
+	"orð": "heimasmíða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heima",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-heima"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-smíða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heimasmíða",
+		"sagnbót": "heimasmíðað",
+		"boðháttur": {
+			"stýfður": "heimasmíða",
+			"et": "heimasmíðaðu",
+			"ft": "heimasmíðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heimasmíða", "heimasmíðar", "heimasmíðar"],
+					"ft": ["heimasmíðum", "heimasmíðið", "heimasmíða"]
+				},
+				"þátíð": {
+					"et": ["heimasmíðaði", "heimasmíðaðir", "heimasmíðaði"],
+					"ft": ["heimasmíðuðum", "heimasmíðuðuð", "heimasmíðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heimasmíði", "heimasmíðir", "heimasmíði"],
+					"ft": ["heimasmíðum", "heimasmíðið", "heimasmíði"]
+				},
+				"þátíð": {
+					"et": ["heimasmíðaði", "heimasmíðaðir", "heimasmíðaði"],
+					"ft": ["heimasmíðuðum", "heimasmíðuðuð", "heimasmíðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heimasmíðarðu",
+					"ft": "heimasmíðiði"
+				},
+				"þátíð": {
+					"et": "heimasmíðaðirðu",
+					"ft": "heimasmíðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heimasmíðirðu",
+					"ft": "heimasmíðiði"
+				},
+				"þátíð": {
+					"et": "heimasmíðaðirðu",
+					"ft": "heimasmíðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heimasmíðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heimasmíðaður", "heimasmíðaðan", "heimasmíðuðum", "heimasmíðaðs"],
+					"kvk": ["heimasmíðuð", "heimasmíðaða", "heimasmíðaðri", "heimasmíðaðrar"],
+					"hk": ["heimasmíðað", "heimasmíðað", "heimasmíðuðu", "heimasmíðaðs"]
+				},
+				"ft": {
+					"kk": ["heimasmíðaðir", "heimasmíðaða", "heimasmíðuðum", "heimasmíðaðra"],
+					"kvk": ["heimasmíðaðar", "heimasmíðaðar", "heimasmíðuðum", "heimasmíðaðra"],
+					"hk": ["heimasmíðuð", "heimasmíðuð", "heimasmíðuðum", "heimasmíðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["heimasmíðaði", "heimasmíðaða", "heimasmíðaða", "heimasmíðaða"],
+					"kvk": ["heimasmíðaða", "heimasmíðuðu", "heimasmíðuðu", "heimasmíðuðu"],
+					"hk": ["heimasmíðaða", "heimasmíðaða", "heimasmíðaða", "heimasmíðaða"]
+				},
+				"ft": {
+					"kk": ["heimasmíðuðu", "heimasmíðuðu", "heimasmíðuðu", "heimasmíðuðu"],
+					"kvk": ["heimasmíðuðu", "heimasmíðuðu", "heimasmíðuðu", "heimasmíðuðu"],
+					"hk": ["heimasmíðuðu", "heimasmíðuðu", "heimasmíðuðu", "heimasmíðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heimasmíða",
+	"hash": "b01a1c8be9ff3fcf5c6565722e1f74d58b4bb40b65f16e7b7b0dd2ff81d023a4"
+}
