@@ -31,6 +31,29 @@
 				}
 			}
 		},
+		"ópersónuleg": {
+			"frumlag": "þolfall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vitnar", "vitnar", "vitnar"],
+					"ft": ["vitnar", "vitnar", "vitnar"]
+				},
+				"þátíð": {
+					"et": ["vitnaði", "vitnaði", "vitnaði"],
+					"ft": ["vitnaði", "vitnaði", "vitnaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vitni", "vitni", "vitni"],
+					"ft": ["vitni", "vitni", "vitni"]
+				},
+				"þátíð": {
+					"et": ["vitnaði", "vitnaði", "vitnaði"],
+					"ft": ["vitnaði", "vitnaði", "vitnaði"]
+				}
+			}
+		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -129,5 +152,5 @@
 		"nútíðar": "vitnandi"
 	},
 	"kennistrengur": "so-vitna",
-	"hash": "a7b7ceae0f8c502be310f2776ed4ac4289941c47990e84a3aa838d37e92638f2"
+	"hash": "5e771d16d12e192cff39640da8f3d2df8348d29485535c31f483cb271b3ea8b8"
 }

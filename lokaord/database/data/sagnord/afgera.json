@@ -1,0 +1,99 @@
+{
+	"orð": "afgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afgera",
+		"sagnbót": "afgert",
+		"boðháttur": {
+			"stýfður": "afger",
+			"et": "afgerðu",
+			"ft": "afgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afgeri", "afgerir", "afgerir"],
+					"ft": ["afgerum", "afgerið", "afgera"]
+				},
+				"þátíð": {
+					"et": ["afgerði", "afgerðir", "afgerði"],
+					"ft": ["afgerðum", "afgerðuð", "afgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afgeri", "afgerir", "afgeri"],
+					"ft": ["afgerum", "afgerið", "afgeri"]
+				},
+				"þátíð": {
+					"et": ["afgerði", "afgerðir", "afgerði"],
+					"ft": ["afgerðum", "afgerðuð", "afgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afgerirðu",
+					"ft": "afgeriði"
+				},
+				"þátíð": {
+					"et": "afgerðirðu",
+					"ft": "afgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afgerirðu",
+					"ft": "afgeriði"
+				},
+				"þátíð": {
+					"et": "afgerðirðu",
+					"ft": "afgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afgerður", "afgerðan", "afgerðum", "afgerðs"],
+					"kvk": ["afgerð", "afgerða", "afgerðri", "afgerðrar"],
+					"hk": ["afgert", "afgert", "afgerðu", "afgerðs"]
+				},
+				"ft": {
+					"kk": ["afgerðir", "afgerða", "afgerðum", "afgerðra"],
+					"kvk": ["afgerðar", "afgerðar", "afgerðum", "afgerðra"],
+					"hk": ["afgerð", "afgerð", "afgerðum", "afgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["afgerði", "afgerða", "afgerða", "afgerða"],
+					"kvk": ["afgerða", "afgerðu", "afgerðu", "afgerðu"],
+					"hk": ["afgerða", "afgerða", "afgerða", "afgerða"]
+				},
+				"ft": {
+					"kk": ["afgerðu", "afgerðu", "afgerðu", "afgerðu"],
+					"kvk": ["afgerðu", "afgerðu", "afgerðu", "afgerðu"],
+					"hk": ["afgerðu", "afgerðu", "afgerðu", "afgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afgera",
+	"hash": "1e13a44ade3598d37afd9abd938fd5264a9527813a6df855e282b65eae437cf5"
+}

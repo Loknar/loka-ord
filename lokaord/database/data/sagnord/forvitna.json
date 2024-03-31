@@ -1,0 +1,97 @@
+{
+	"orð": "forvitna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["germynd-ópersónuleg", "miðmynd-persónuleg", "miðmynd-spurnarmyndir"],
+			"kennistrengur": "so-vitna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "forvitna",
+		"sagnbót": "forvitnað",
+		"boðháttur": {
+			"stýfður": "forvitna",
+			"et": "forvitnaðu",
+			"ft": "forvitnið"
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forvitnar", "forvitnar", "forvitnar"],
+					"ft": ["forvitnar", "forvitnar", "forvitnar"]
+				},
+				"þátíð": {
+					"et": ["forvitnaði", "forvitnaði", "forvitnaði"],
+					"ft": ["forvitnaði", "forvitnaði", "forvitnaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forvitni", "forvitni", "forvitni"],
+					"ft": ["forvitni", "forvitni", "forvitni"]
+				},
+				"þátíð": {
+					"et": ["forvitnaði", "forvitnaði", "forvitnaði"],
+					"ft": ["forvitnaði", "forvitnaði", "forvitnaði"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "forvitnast",
+		"sagnbót": "forvitnast",
+		"boðháttur": {
+			"et": "forvitnastu",
+			"ft": "forvitnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forvitnast", "forvitnast", "forvitnast"],
+					"ft": ["forvitnumst", "forvitnist", "forvitnast"]
+				},
+				"þátíð": {
+					"et": ["forvitnaðist", "forvitnaðist", "forvitnaðist"],
+					"ft": ["forvitnuðumst", "forvitnuðust", "forvitnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forvitnist", "forvitnist", "forvitnist"],
+					"ft": ["forvitnumst", "forvitnist", "forvitnist"]
+				},
+				"þátíð": {
+					"et": ["forvitnaðist", "forvitnaðist", "forvitnaðist"],
+					"ft": ["forvitnuðumst", "forvitnuðust", "forvitnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "forvitnastu"
+				},
+				"þátíð": {
+					"et": "forvitnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "forvitnistu"
+				},
+				"þátíð": {
+					"et": "forvitnaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-forvitna",
+	"hash": "82b8d413f0c235dd161f4e6dd2fb1ff5474fbdb7432da0c62591ece6f421e14f"
+}
