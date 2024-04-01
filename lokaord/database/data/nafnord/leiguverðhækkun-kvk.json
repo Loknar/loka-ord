@@ -1,0 +1,30 @@
+{
+	"orð": "leiguverðhækkun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-hækkun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["leiguverðhækkun", "leiguverðhækkun", "leiguverðhækkun", "leiguverðhækkunar"],
+		"mg": ["leiguverðhækkunin", "leiguverðhækkunina", "leiguverðhækkuninni", "leiguverðhækkunarinnar"]
+	},
+	"ft": {
+		"ág": ["leiguverðhækkanir", "leiguverðhækkanir", "leiguverðhækkunum", "leiguverðhækkana"],
+		"mg": ["leiguverðhækkanirnar", "leiguverðhækkanirnar", "leiguverðhækkununum", "leiguverðhækkananna"]
+	},
+	"kennistrengur": "no-leiguverðhækkun-kvk",
+	"hash": "442113877af42f1e177eaea50f7828d41a80fc97fd341c33ec4daf0ec5aa5d53"
+}
