@@ -1,0 +1,99 @@
+{
+	"orð": "sérhanna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-hanna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérhanna",
+		"sagnbót": "sérhannað",
+		"boðháttur": {
+			"stýfður": "sérhanna",
+			"et": "sérhannaðu",
+			"ft": "sérhannið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérhanna", "sérhannar", "sérhannar"],
+					"ft": ["sérhönnum", "sérhannið", "sérhanna"]
+				},
+				"þátíð": {
+					"et": ["sérhannaði", "sérhannaðir", "sérhannaði"],
+					"ft": ["sérhönnuðum", "sérhönnuðuð", "sérhönnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérhanni", "sérhannir", "sérhanni"],
+					"ft": ["sérhönnum", "sérhannið", "sérhanni"]
+				},
+				"þátíð": {
+					"et": ["sérhannaði", "sérhannaðir", "sérhannaði"],
+					"ft": ["sérhönnuðum", "sérhönnuðuð", "sérhönnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérhannarðu",
+					"ft": "sérhanniði"
+				},
+				"þátíð": {
+					"et": "sérhannaðirðu",
+					"ft": "sérhönnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérhannirðu",
+					"ft": "sérhanniði"
+				},
+				"þátíð": {
+					"et": "sérhannaðirðu",
+					"ft": "sérhönnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérhannandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérhannaður", "sérhannaðan", "sérhönnuðum", "sérhannaðs"],
+					"kvk": ["sérhönnuð", "sérhannaða", "sérhannaðri", "sérhannaðrar"],
+					"hk": ["sérhannað", "sérhannað", "sérhönnuðu", "sérhannaðs"]
+				},
+				"ft": {
+					"kk": ["sérhannaðir", "sérhannaða", "sérhönnuðum", "sérhannaðra"],
+					"kvk": ["sérhannaðar", "sérhannaðar", "sérhönnuðum", "sérhannaðra"],
+					"hk": ["sérhönnuð", "sérhönnuð", "sérhönnuðum", "sérhannaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sérhannaði", "sérhannaða", "sérhannaða", "sérhannaða"],
+					"kvk": ["sérhannaða", "sérhönnuðu", "sérhönnuðu", "sérhönnuðu"],
+					"hk": ["sérhannaða", "sérhannaða", "sérhannaða", "sérhannaða"]
+				},
+				"ft": {
+					"kk": ["sérhönnuðu", "sérhönnuðu", "sérhönnuðu", "sérhönnuðu"],
+					"kvk": ["sérhönnuðu", "sérhönnuðu", "sérhönnuðu", "sérhönnuðu"],
+					"hk": ["sérhönnuðu", "sérhönnuðu", "sérhönnuðu", "sérhönnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérhanna",
+	"hash": "9e56330719fbc2f6d76d709783ec04510073a95b9f3cde10bce4e22fef3a4f7a"
+}
