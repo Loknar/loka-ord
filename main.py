@@ -3,11 +3,11 @@ import datetime
 from pathlib import Path
 import sys
 
+from typing import Annotated
 from typing import Optional
 
 import typer
 from typer import Option
-from typing import Annotated
 
 import lokaord
 from lokaord import logman
