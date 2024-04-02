@@ -1,0 +1,30 @@
+{
+	"orð": "leigufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["leigufjárhæð", "leigufjárhæð", "leigufjárhæð", "leigufjárhæðar"],
+		"mg": ["leigufjárhæðin", "leigufjárhæðina", "leigufjárhæðinni", "leigufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["leigufjárhæðir", "leigufjárhæðir", "leigufjárhæðum", "leigufjárhæða"],
+		"mg": ["leigufjárhæðirnar", "leigufjárhæðirnar", "leigufjárhæðunum", "leigufjárhæðanna"]
+	},
+	"kennistrengur": "no-leigufjárhæð-kvk",
+	"hash": "2de5f34860880fecfde8eaf34c74d62258fd4fc57643384b1aed68dba0cf91a0"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "Kaupmannahöfn",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-höfn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Kaupmannahöfn", "Kaupmannahöfn", "Kaupmannahöfn", "Kaupmannahafnar"]
+	},
+	"kennistrengur": "sérn.ön-Kaupmannahöfn-kvk",
+	"hash": "391483b62254c5736d13b57e19f1c030a4b7f71fd901315bcabfffc55c7911d3"
+}
