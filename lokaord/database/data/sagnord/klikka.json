@@ -1,0 +1,132 @@
+{
+	"orð": "klikka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "klikka",
+		"sagnbót": "klikkað",
+		"boðháttur": {
+			"stýfður": "klikka",
+			"et": "klikkaðu",
+			"ft": "klikkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klikka", "klikkar", "klikkar"],
+					"ft": ["klikkum", "klikkið", "klikka"]
+				},
+				"þátíð": {
+					"et": ["klikkaði", "klikkaðir", "klikkaði"],
+					"ft": ["klikkuðum", "klikkuðuð", "klikkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klikki", "klikkir", "klikki"],
+					"ft": ["klikkum", "klikkið", "klikki"]
+				},
+				"þátíð": {
+					"et": ["klikkaði", "klikkaðir", "klikkaði"],
+					"ft": ["klikkuðum", "klikkuðuð", "klikkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klikkarðu",
+					"ft": "klikkiði"
+				},
+				"þátíð": {
+					"et": "klikkaðirðu",
+					"ft": "klikkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klikkirðu",
+					"ft": "klikkiði"
+				},
+				"þátíð": {
+					"et": "klikkaðirðu",
+					"ft": "klikkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klikkast",
+		"sagnbót": "klikkast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klikkast", "klikkast", "klikkast"],
+					"ft": ["klikkumst", "klikkist", "klikkast"]
+				},
+				"þátíð": {
+					"et": ["klikkaðist", "klikkaðist", "klikkaðist"],
+					"ft": ["klikkuðumst", "klikkuðust", "klikkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klikkist", "klikkist", "klikkist"],
+					"ft": ["klikkumst", "klikkist", "klikkist"]
+				},
+				"þátíð": {
+					"et": ["klikkaðist", "klikkaðist", "klikkaðist"],
+					"ft": ["klikkuðumst", "klikkuðust", "klikkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klikkastu"
+				},
+				"þátíð": {
+					"et": "klikkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klikkistu"
+				},
+				"þátíð": {
+					"et": "klikkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klikkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klikkaður", "klikkaðan", "klikkuðum", "klikkaðs"],
+					"kvk": ["klikkuð", "klikkaða", "klikkaðri", "klikkaðrar"],
+					"hk": ["klikkað", "klikkað", "klikkuðu", "klikkaðs"]
+				},
+				"ft": {
+					"kk": ["klikkaðir", "klikkaða", "klikkuðum", "klikkaðra"],
+					"kvk": ["klikkaðar", "klikkaðar", "klikkuðum", "klikkaðra"],
+					"hk": ["klikkuð", "klikkuð", "klikkuðum", "klikkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["klikkaði", "klikkaða", "klikkaða", "klikkaða"],
+					"kvk": ["klikkaða", "klikkuðu", "klikkuðu", "klikkuðu"],
+					"hk": ["klikkaða", "klikkaða", "klikkaða", "klikkaða"]
+				},
+				"ft": {
+					"kk": ["klikkuðu", "klikkuðu", "klikkuðu", "klikkuðu"],
+					"kvk": ["klikkuðu", "klikkuðu", "klikkuðu", "klikkuðu"],
+					"hk": ["klikkuðu", "klikkuðu", "klikkuðu", "klikkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klikka",
+	"hash": "8576d19d9ce81df8dd8d20658615d9553a73c3ceefd97551c25bf0c04015ca6e"
+}

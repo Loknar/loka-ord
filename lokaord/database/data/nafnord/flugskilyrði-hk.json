@@ -1,0 +1,27 @@
+{
+	"orð": "flugskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["flugskilyrði", "flugskilyrði", "flugskilyrðum", "flugskilyrða"],
+		"mg": ["flugskilyrðin", "flugskilyrðin", "flugskilyrðunum", "flugskilyrðanna"]
+	},
+	"kennistrengur": "no-flugskilyrði-hk",
+	"hash": "5efea66d849016cb6c003fffe007fb0750927796709f55dd5d88f1b52dbd4982"
+}
