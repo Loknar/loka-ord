@@ -1,0 +1,89 @@
+{
+	"orð": "sökkva",
+	"flokkur": "sagnorð",
+	"merking": "kaffæra",
+	"germynd": {
+		"nafnháttur": "sökkva",
+		"sagnbót": "sökkt",
+		"boðháttur": {
+			"stýfður": "sökk",
+			"et": "sökktu",
+			"ft": "sökkvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sekk", "sekkur", "sekkur"],
+					"ft": ["sökkvum", "sökkvið", "sökkva"]
+				},
+				"þátíð": {
+					"et": ["sökkti", "sökktir", "sökkti"],
+					"ft": ["sökktum", "sökktuð", "sökktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sökkvi", "sökkvir", "sökkvi"],
+					"ft": ["sökkvum", "sökkvið", "sökkvi"]
+				},
+				"þátíð": {
+					"et": ["sekkti", "sekktir", "sekkti"],
+					"ft": ["sekktum", "sekktuð", "sekktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sekkurðu",
+					"ft": "sökkviði"
+				},
+				"þátíð": {
+					"et": "sökktirðu",
+					"ft": "sökktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sökkvirðu",
+					"ft": "sökkviði"
+				},
+				"þátíð": {
+					"et": "sekktirðu",
+					"ft": "sekktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sökkvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sökktur", "sökktan", "sökktum", "sökkts"],
+					"kvk": ["sökkt", "sökkta", "sökktri", "sökktrar"],
+					"hk": ["sökkt", "sökkt", "sökktu", "sökkts"]
+				},
+				"ft": {
+					"kk": ["sökktir", "sökkta", "sökktum", "sökktra"],
+					"kvk": ["sökktar", "sökktar", "sökktum", "sökktra"],
+					"hk": ["sökkt", "sökkt", "sökktum", "sökktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sökkti", "sökkta", "sökkta", "sökkta"],
+					"kvk": ["sökkta", "sökktu", "sökktu", "sökktu"],
+					"hk": ["sökkta", "sökkta", "sökkta", "sökkta"]
+				},
+				"ft": {
+					"kk": ["sökktu", "sökktu", "sökktu", "sökktu"],
+					"kvk": ["sökktu", "sökktu", "sökktu", "sökktu"],
+					"hk": ["sökktu", "sökktu", "sökktu", "sökktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sökkva-_kaffæra_",
+	"hash": "6b05367b354e31ac1fdc020574a93ef6ae17bd9c35956060eb0a6c0771961f08"
+}

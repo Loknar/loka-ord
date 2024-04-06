@@ -1,0 +1,88 @@
+{
+	"orð": "sökkva",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sökkva",
+		"sagnbót": "sokkið",
+		"boðháttur": {
+			"stýfður": "sökk",
+			"et": "sökktu",
+			"ft": "sökkvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sekk", "sekkur", "sekkur"],
+					"ft": ["sökkvum", "sökkvið", "sökkva"]
+				},
+				"þátíð": {
+					"et": ["sökk", "sökkst", "sökk"],
+					"ft": ["stukkum", "stukkuð", "stukku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sökkvi", "sökkvir", "sökkvi"],
+					"ft": ["sökkvum", "sökkvið", "sökkvi"]
+				},
+				"þátíð": {
+					"et": ["sykki", "sykkir", "sykki"],
+					"ft": ["sykkjum", "sykkjuð", "sykkju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sekkurðu",
+					"ft": "sökkviði"
+				},
+				"þátíð": {
+					"et": "sökkstu",
+					"ft": "stukkuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sökkvirðu",
+					"ft": "sökkviði"
+				},
+				"þátíð": {
+					"et": "sykkirðu",
+					"ft": "sykkjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sökkvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sokkinn", "sokkinn", "sokknum", "sokkins"],
+					"kvk": ["sokkin", "sokkna", "sokkinni", "sokkinnar"],
+					"hk": ["sokkið", "sokkið", "sokknu", "sokkins"]
+				},
+				"ft": {
+					"kk": ["sokknir", "sokkna", "sokknum", "sokkinna"],
+					"kvk": ["sokknar", "sokknar", "sokknum", "sokkinna"],
+					"hk": ["sokkin", "sokkin", "sokknum", "sokkinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sokkni", "sokkna", "sokkna", "sokkna"],
+					"kvk": ["sokkna", "sokknu", "sokknu", "sokknu"],
+					"hk": ["sokkna", "sokkna", "sokkna", "sokkna"]
+				},
+				"ft": {
+					"kk": ["sokknu", "sokknu", "sokknu", "sokknu"],
+					"kvk": ["sokknu", "sokknu", "sokknu", "sokknu"],
+					"hk": ["sokknu", "sokknu", "sokknu", "sokknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sökkva",
+	"hash": "e225af592f3a758e7e08be7f4a61929a22542a6ac1d7f294879af8ace1feafad"
+}
