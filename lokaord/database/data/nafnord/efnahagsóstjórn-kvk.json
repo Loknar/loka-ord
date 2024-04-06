@@ -1,0 +1,32 @@
+{
+	"orð": "efnahagsóstjórn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stjórn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["efnahagsóstjórn", "efnahagsóstjórn", "efnahagsóstjórn", "efnahagsóstjórnar"],
+		"mg": ["efnahagsóstjórnin", "efnahagsóstjórnina", "efnahagsóstjórninni", "efnahagsóstjórnarinnar"]
+	},
+	"kennistrengur": "no-efnahagsóstjórn-kvk",
+	"hash": "4400381cf1e76c4349b48ceb6f65dec40831fd5c9d4a978cee8647380c53d467"
+}

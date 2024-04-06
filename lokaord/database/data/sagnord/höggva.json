@@ -1,0 +1,114 @@
+{
+	"orð": "höggva",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "höggva",
+		"sagnbót": "höggvið",
+		"boðháttur": {
+			"stýfður": "högg",
+			"et": "höggðu",
+			"ft": "höggvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hegg", "heggur", "heggur"],
+					"ft": ["höggvum", "höggvið", "höggva"]
+				},
+				"þátíð": {
+					"et": ["hjó", "hjóst", "hjó"],
+					"ft": ["hjuggum", "hjugguð", "hjuggum"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["höggvi", "höggvir", "höggvi"],
+					"ft": ["höggvum", "höggvið", "höggvi"]
+				},
+				"þátíð": {
+					"et": ["hjyggi", "hjyggir", "hjyggi"],
+					"ft": ["hjyggjum", "hjyggjuð", "hjyggju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heggurðu",
+					"ft": "höggviði"
+				},
+				"þátíð": {
+					"et": "hjóstu",
+					"ft": "hjugguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "höggvirðu",
+					"ft": "höggviði"
+				},
+				"þátíð": {
+					"et": "hjyggirðu",
+					"ft": "hjyggjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "höggvast",
+		"sagnbót": "höggvist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heggst", "heggst", "heggst"],
+					"ft": ["höggvumst", "höggvist", "höggvast"]
+				},
+				"þátíð": {
+					"et": ["hjóst", "hjóst", "hjóst"],
+					"ft": ["hjuggumst", "hjuggust", "hjuggust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["höggvist", "höggvist", "höggvist"],
+					"ft": ["höggvumst", "höggvist", "höggvist"]
+				},
+				"þátíð": {
+					"et": ["byggist", "byggist", "byggist"],
+					"ft": ["hjyggjumst", "hjyggjust", "hjyggjust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "höggvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["högginn", "högginn", "höggnum", "höggins"],
+					"kvk": ["höggin", "höggna", "högginni", "högginnar"],
+					"hk": ["höggið", "höggið", "höggnu", "höggins"]
+				},
+				"ft": {
+					"kk": ["höggnir", "höggna", "höggnum", "högginna"],
+					"kvk": ["höggnar", "höggnar", "höggnum", "högginna"],
+					"hk": ["höggin", "höggin", "höggnum", "högginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["höggni", "höggna", "höggna", "höggna"],
+					"kvk": ["höggna", "höggnu", "höggnu", "höggnu"],
+					"hk": ["höggna", "höggna", "höggna", "höggna"]
+				},
+				"ft": {
+					"kk": ["höggnu", "höggnu", "höggnu", "höggnu"],
+					"kvk": ["höggnu", "höggnu", "höggnu", "höggnu"],
+					"hk": ["höggnu", "höggnu", "höggnu", "höggnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-höggva",
+	"hash": "8d91a2ce5803901ab24f2ceffdb414872881373bbf63d2f029e4ee8af484d59a"
+}
