@@ -1,0 +1,133 @@
+{
+	"orð": "reka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "reka",
+		"sagnbót": "rekað",
+		"boðháttur": {
+			"stýfður": "reka",
+			"et": "rekaðu",
+			"ft": "rekið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reka", "rekar", "rekar"],
+					"ft": ["rekum", "rekið", "reka"]
+				},
+				"þátíð": {
+					"et": ["rekaði", "rekaðir", "rekaði"],
+					"ft": ["rekuðum", "rekuðuð", "rekuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reki", "rekir", "reki"],
+					"ft": ["rekum", "rekið", "reki"]
+				},
+				"þátíð": {
+					"et": ["rekaði", "rekaðir", "rekaði"],
+					"ft": ["rekuðum", "rekuðuð", "rekuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rekarðu",
+					"ft": "rekiði"
+				},
+				"þátíð": {
+					"et": "rekaðirðu",
+					"ft": "rekuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rekirðu",
+					"ft": "rekiði"
+				},
+				"þátíð": {
+					"et": "rekaðirðu",
+					"ft": "rekuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rekast",
+		"sagnbót": "rekast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rekast", "rekast", "rekast"],
+					"ft": ["rekumst", "rekist", "rekast"]
+				},
+				"þátíð": {
+					"et": ["rekaðist", "rekaðist", "rekaðist"],
+					"ft": ["rekuðumst", "rekuðust", "rekuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rekist", "rekist", "rekist"],
+					"ft": ["rekumst", "rekist", "rekist"]
+				},
+				"þátíð": {
+					"et": ["rekaðist", "rekaðist", "rekaðist"],
+					"ft": ["rekuðumst", "rekuðust", "rekuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rekastu"
+				},
+				"þátíð": {
+					"et": "rekaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rekistu"
+				},
+				"þátíð": {
+					"et": "rekaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rekandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rekaður", "rekaðan", "rekuðum", "rekaðs"],
+					"kvk": ["rekuð", "rekaða", "rekaðri", "rekaðrar"],
+					"hk": ["rekað", "rekað", "rekuðu", "rekaðs"]
+				},
+				"ft": {
+					"kk": ["rekaðir", "rekaða", "rekuðum", "rekaðra"],
+					"kvk": ["rekaðar", "rekaðar", "rekuðum", "rekaðra"],
+					"hk": ["rekuð", "rekuð", "rekuðum", "rekaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["rekaði", "rekaða", "rekaða", "rekaða"],
+					"kvk": ["rekaða", "rekuðu", "rekuðu", "rekuðu"],
+					"hk": ["rekaða", "rekaða", "rekaða", "rekaða"]
+				},
+				"ft": {
+					"kk": ["rekuðu", "rekuðu", "rekuðu", "rekuðu"],
+					"kvk": ["rekuðu", "rekuðu", "rekuðu", "rekuðu"],
+					"hk": ["rekuðu", "rekuðu", "rekuðu", "rekuðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-reka-ó",
+	"hash": "0b8ca3a3eae2c839a6f36650d68d72ba68e61cc1fe2e622fd2bf03f4a397677a"
+}
