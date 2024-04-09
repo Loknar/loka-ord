@@ -1,0 +1,99 @@
+{
+	"orð": "dagsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dagsetja",
+		"sagnbót": "dagsett",
+		"boðháttur": {
+			"stýfður": "dagset",
+			"et": "dagsettu",
+			"ft": "dagsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dagset", "dagsetur", "dagsetur"],
+					"ft": ["dagsetjum", "dagsetjið", "dagsetja"]
+				},
+				"þátíð": {
+					"et": ["dagsetti", "dagsettir", "dagsett"],
+					"ft": ["dagsettum", "dagsettuð", "dagsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dagsetji", "dagsetjir", "dagsetji"],
+					"ft": ["dagsetjum", "dagsetjið", "dagsetji"]
+				},
+				"þátíð": {
+					"et": ["dagsetti", "dagsettir", "dagsetti"],
+					"ft": ["dagsettum", "dagsettuð", "dagsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dagseturðu",
+					"ft": "dagsetjiði"
+				},
+				"þátíð": {
+					"et": "dagsettirðu",
+					"ft": "dagsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dagsetjirðu",
+					"ft": "dagsetjiði"
+				},
+				"þátíð": {
+					"et": "dagsettirðu",
+					"ft": "dagsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dagsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dagsettur", "dagsettan", "dagsettum", "dagsetts"],
+					"kvk": ["dagsett", "dagsetta", "dagsettri", "dagsettrar"],
+					"hk": ["dagsett", "dagsett", "dagsettu", "dagsetts"]
+				},
+				"ft": {
+					"kk": ["dagsettir", "dagsetta", "dagsettum", "dagsettra"],
+					"kvk": ["dagsettar", "dagsettar", "dagsettum", "dagsettra"],
+					"hk": ["dagsett", "dagsett", "dagsettum", "dagsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["dagsetti", "dagsetta", "dagsetta", "dagsetta"],
+					"kvk": ["dagsetta", "dagsettu", "dagsettu", "dagsettu"],
+					"hk": ["dagsetta", "dagsetta", "dagsetta", "dagsetta"]
+				},
+				"ft": {
+					"kk": ["dagsettu", "dagsettu", "dagsettu", "dagsettu"],
+					"kvk": ["dagsettu", "dagsettu", "dagsettu", "dagsettu"],
+					"hk": ["dagsettu", "dagsettu", "dagsettu", "dagsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dagsetja",
+	"hash": "9eb9937d00e2d4d8e38fa669712b211e2296de0981654e3da0a9e2de8b06d497"
+}
