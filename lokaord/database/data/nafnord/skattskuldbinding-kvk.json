@@ -1,0 +1,30 @@
+{
+	"orð": "skattskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skattskuldbinding", "skattskuldbindingu", "skattskuldbindingu", "skattskuldbindingar"],
+		"mg": ["skattskuldbindingin", "skattskuldbindinguna", "skattskuldbindingunni", "skattskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["skattskuldbindingar", "skattskuldbindingar", "skattskuldbindingum", "skattskuldbindinga"],
+		"mg": ["skattskuldbindingarnar", "skattskuldbindingarnar", "skattskuldbindingunum", "skattskuldbindinganna"]
+	},
+	"kennistrengur": "no-skattskuldbinding-kvk",
+	"hash": "994eaaf8841a3432b059111f8a34baaec2e16b778bd9313a02dca4a9621327a6"
+}
