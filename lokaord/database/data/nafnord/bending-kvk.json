@@ -2,6 +2,16 @@
 	"orð": "bending",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bend",
+			"samsetning": "stofn",
+			"kennistrengur": "so-benda"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["bending", "bendingu", "bendingu", "bendingar"],
 		"mg": ["bendingin", "bendinguna", "bendingunni", "bendingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["bendingarnar", "bendingarnar", "bendingunum", "bendinganna"]
 	},
 	"kennistrengur": "no-bending-kvk",
-	"hash": "849818bd05cc313e65516632b9effa4a60e0ec3bff03f275251699e63e6aa13e"
+	"hash": "3cbb11a2c909dccc2fcbe4905dd048fb539ed6d7a7f229b85c25d0cb1a109355"
 }
