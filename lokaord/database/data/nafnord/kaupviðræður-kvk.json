@@ -1,0 +1,27 @@
+{
+	"orð": "kaupviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["kaupviðræður", "kaupviðræður", "kaupviðræðum", "kaupviðræðna"],
+		"mg": ["kaupviðræðurnar", "kaupviðræðurnar", "kaupviðræðunum", "kaupviðræðnanna"]
+	},
+	"kennistrengur": "no-kaupviðræður-kvk",
+	"hash": "e697c89015423e688af30fc17af977288b60d2ca8bded391c3e776ccc0ed6374"
+}
