@@ -1,0 +1,142 @@
+{
+	"orð": "tilskylda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"kennistrengur": "so-skylda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilskylda",
+		"sagnbót": "tilskyldað",
+		"boðháttur": {
+			"stýfður": "tilskylda",
+			"et": "tilskyldaðu",
+			"ft": "tilskyldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilskylda", "tilskyldar", "tilskyldar"],
+					"ft": ["tilskyldum", "tilskyldið", "tilskylda"]
+				},
+				"þátíð": {
+					"et": ["tilskyldaði", "tilskyldaðir", "tilskyldaði"],
+					"ft": ["tilskylduðum", "tilskylduðuð", "tilskylduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilskyldi", "tilskyldir", "tilskyldi"],
+					"ft": ["tilskyldum", "tilskyldið", "tilskyldi"]
+				},
+				"þátíð": {
+					"et": ["tilskyldaði", "tilskyldaðir", "tilskyldaði"],
+					"ft": ["tilskylduðum", "tilskylduðuð", "tilskylduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilskyldarðu",
+					"ft": "tilskyldiði"
+				},
+				"þátíð": {
+					"et": "tilskyldaðirðu",
+					"ft": "tilskylduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilskyldirðu",
+					"ft": "tilskyldiði"
+				},
+				"þátíð": {
+					"et": "tilskyldaðirðu",
+					"ft": "tilskylduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tilskyldast",
+		"sagnbót": "tilskyldast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilskyldast", "tilskyldast", "tilskyldast"],
+					"ft": ["tilskyldumst", "tilskyldist", "tilskyldast"]
+				},
+				"þátíð": {
+					"et": ["tilskyldaðist", "tilskyldaðist", "tilskyldaðist"],
+					"ft": ["tilskylduðumst", "tilskylduðust", "tilskylduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilskyldist", "tilskyldist", "tilskyldist"],
+					"ft": ["tilskyldumst", "tilskyldist", "tilskyldist"]
+				},
+				"þátíð": {
+					"et": ["tilskyldaðist", "tilskyldaðist", "tilskyldaðist"],
+					"ft": ["tilskylduðumst", "tilskylduðust", "tilskylduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilskyldastu"
+				},
+				"þátíð": {
+					"et": "tilskyldaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilskyldistu"
+				},
+				"þátíð": {
+					"et": "tilskyldaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilskyldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tilskyldaður", "tilskyldaðan", "tilskylduðum", "tilskyldaðs"],
+					"kvk": ["tilskylduð", "tilskyldaða", "tilskyldaðri", "tilskyldaðrar"],
+					"hk": ["tilskyldað", "tilskyldað", "tilskylduðu", "tilskyldaðs"]
+				},
+				"ft": {
+					"kk": ["tilskyldaðir", "tilskyldaða", "tilskylduðum", "tilskyldaðra"],
+					"kvk": ["tilskyldaðar", "tilskyldaðar", "tilskylduðum", "tilskyldaðra"],
+					"hk": ["tilskylduð", "tilskylduð", "tilskylduðum", "tilskyldaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tilskyldaði", "tilskyldaða", "tilskyldaða", "tilskyldaða"],
+					"kvk": ["tilskyldaða", "tilskylduðu", "tilskylduðu", "tilskylduðu"],
+					"hk": ["tilskyldaða", "tilskyldaða", "tilskyldaða", "tilskyldaða"]
+				},
+				"ft": {
+					"kk": ["tilskylduðu", "tilskylduðu", "tilskylduðu", "tilskylduðu"],
+					"kvk": ["tilskylduðu", "tilskylduðu", "tilskylduðu", "tilskylduðu"],
+					"hk": ["tilskylduðu", "tilskylduðu", "tilskylduðu", "tilskylduðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tilskylda",
+	"hash": "f09fffcdc4003bd7c49cf753d8e00cf26e6bac6f904e4b14183cbde4e1272868"
+}

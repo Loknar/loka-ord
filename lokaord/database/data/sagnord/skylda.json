@@ -1,0 +1,132 @@
+{
+	"orð": "skylda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skylda",
+		"sagnbót": "skyldað",
+		"boðháttur": {
+			"stýfður": "skylda",
+			"et": "skyldaðu",
+			"ft": "skyldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skylda", "skyldar", "skyldar"],
+					"ft": ["skyldum", "skyldið", "skylda"]
+				},
+				"þátíð": {
+					"et": ["skyldaði", "skyldaðir", "skyldaði"],
+					"ft": ["skylduðum", "skylduðuð", "skylduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skyldi", "skyldir", "skyldi"],
+					"ft": ["skyldum", "skyldið", "skyldi"]
+				},
+				"þátíð": {
+					"et": ["skyldaði", "skyldaðir", "skyldaði"],
+					"ft": ["skylduðum", "skylduðuð", "skylduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skyldarðu",
+					"ft": "skyldiði"
+				},
+				"þátíð": {
+					"et": "skyldaðirðu",
+					"ft": "skylduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skyldirðu",
+					"ft": "skyldiði"
+				},
+				"þátíð": {
+					"et": "skyldaðirðu",
+					"ft": "skylduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skyldast",
+		"sagnbót": "skyldast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skyldast", "skyldast", "skyldast"],
+					"ft": ["skyldumst", "skyldist", "skyldast"]
+				},
+				"þátíð": {
+					"et": ["skyldaðist", "skyldaðist", "skyldaðist"],
+					"ft": ["skylduðumst", "skylduðust", "skylduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skyldist", "skyldist", "skyldist"],
+					"ft": ["skyldumst", "skyldist", "skyldist"]
+				},
+				"þátíð": {
+					"et": ["skyldaðist", "skyldaðist", "skyldaðist"],
+					"ft": ["skylduðumst", "skylduðust", "skylduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skyldastu"
+				},
+				"þátíð": {
+					"et": "skyldaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skyldistu"
+				},
+				"þátíð": {
+					"et": "skyldaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skyldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skyldaður", "skyldaðan", "skylduðum", "skyldaðs"],
+					"kvk": ["skylduð", "skyldaða", "skyldaðri", "skyldaðrar"],
+					"hk": ["skyldað", "skyldað", "skylduðu", "skyldaðs"]
+				},
+				"ft": {
+					"kk": ["skyldaðir", "skyldaða", "skylduðum", "skyldaðra"],
+					"kvk": ["skyldaðar", "skyldaðar", "skylduðum", "skyldaðra"],
+					"hk": ["skylduð", "skylduð", "skylduðum", "skyldaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skyldaði", "skyldaða", "skyldaða", "skyldaða"],
+					"kvk": ["skyldaða", "skylduðu", "skylduðu", "skylduðu"],
+					"hk": ["skyldaða", "skyldaða", "skyldaða", "skyldaða"]
+				},
+				"ft": {
+					"kk": ["skylduðu", "skylduðu", "skylduðu", "skylduðu"],
+					"kvk": ["skylduðu", "skylduðu", "skylduðu", "skylduðu"],
+					"hk": ["skylduðu", "skylduðu", "skylduðu", "skylduðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skylda",
+	"hash": "9900c0649ff0b2164c550e2d617fc21d69f3b3f63e35634d99a44ce0da1c303b"
+}
