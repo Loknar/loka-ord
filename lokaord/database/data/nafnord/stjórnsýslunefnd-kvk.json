@@ -1,0 +1,30 @@
+{
+	"orð": "stjórnsýslunefnd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"kennistrengur": "no-nefnd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnsýslunefnd", "stjórnsýslunefnd", "stjórnsýslunefnd", "stjórnsýslunefndar"],
+		"mg": ["stjórnsýslunefndin", "stjórnsýslunefndina", "stjórnsýslunefndinni", "stjórnsýslunefndarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnsýslunefndir", "stjórnsýslunefndir", "stjórnsýslunefndum", "stjórnsýslunefnda"],
+		"mg": ["stjórnsýslunefndirnar", "stjórnsýslunefndirnar", "stjórnsýslunefndunum", "stjórnsýslunefndanna"]
+	},
+	"kennistrengur": "no-stjórnsýslunefnd-kvk",
+	"hash": "4c5b791a39e4ad516fb814d2cc40025ff852f40e1c3ab10e25336df196d8e48e"
+}

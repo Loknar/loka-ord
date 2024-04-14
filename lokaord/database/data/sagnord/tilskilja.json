@@ -1,0 +1,99 @@
+{
+	"orð": "tilskilja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skilja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilskilja",
+		"sagnbót": "tilskilið",
+		"boðháttur": {
+			"stýfður": "tilskil",
+			"et": "tilskildu",
+			"ft": "tilskiljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilskil", "tilskilur", "tilskilur"],
+					"ft": ["tilskiljum", "tilskiljið", "tilskilja"]
+				},
+				"þátíð": {
+					"et": ["tilskildi", "tilskildir", "tilskildi"],
+					"ft": ["tilskildum", "tilskilduð", "tilskildu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilskilji", "tilskiljir", "tilskilji"],
+					"ft": ["tilskiljum", "tilskiljið", "tilskilji"]
+				},
+				"þátíð": {
+					"et": ["tilskildi", "tilskildir", "tilskildi"],
+					"ft": ["tilskildum", "tilskilduð", "tilskildu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilskilurðu",
+					"ft": "tilskiljiði"
+				},
+				"þátíð": {
+					"et": "tilskildirðu",
+					"ft": "tilskilduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilskiljirðu",
+					"ft": "tilskiljiði"
+				},
+				"þátíð": {
+					"et": "tilskildirðu",
+					"ft": "tilskilduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilskiljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tilskilinn", "tilskilinn", "tilskildum", "tilskilins"],
+					"kvk": ["tilskilin", "tilskilda", "tilskilinni", "tilskilinnar"],
+					"hk": ["tilskilið", "tilskilið", "tilskildu", "tilskilins"]
+				},
+				"ft": {
+					"kk": ["tilskildir", "tilskilda", "tilskildum", "tilskilinna"],
+					"kvk": ["tilskildar", "tilskildar", "tilskildum", "tilskilinna"],
+					"hk": ["tilskilin", "tilskilin", "tilskildum", "tilskilinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tilskildi", "tilskilda", "tilskilda", "tilskilda"],
+					"kvk": ["tilskilda", "tilskildu", "tilskildu", "tilskildu"],
+					"hk": ["tilskilda", "tilskilda", "tilskilda", "tilskilda"]
+				},
+				"ft": {
+					"kk": ["tilskildu", "tilskildu", "tilskildu", "tilskildu"],
+					"kvk": ["tilskildu", "tilskildu", "tilskildu", "tilskildu"],
+					"hk": ["tilskildu", "tilskildu", "tilskildu", "tilskildu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tilskilja",
+	"hash": "cfa7d5d8bbfdb5f0fb80e40f27b6ba23198366d593c3fd98b7f842dca895f074"
+}
