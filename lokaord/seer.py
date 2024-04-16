@@ -651,6 +651,8 @@ def webpack(
 		os.path.join('sernofn', 'mannanofn', 'islensk-karlmannsnofn', 'kenni'),
 		os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'eigin'),
 		os.path.join('sernofn', 'mannanofn', 'islensk-kvenmannsnofn', 'kenni'),
+		os.path.join('sernofn', 'mannanofn', 'islensk-hvormannsnofn', 'eigin'),
+		os.path.join('sernofn', 'mannanofn', 'islensk-hvormannsnofn', 'kenni'),
 		os.path.join('sernofn', 'mannanofn', 'islensk-millinofn'),
 		os.path.join('sernofn', 'gaelunofn', 'kk'),
 		os.path.join('sernofn', 'gaelunofn', 'kvk'),
@@ -692,7 +694,7 @@ def webpack(
 				file_path = file_queue.popleft()
 			except IndexError:
 				break
-			logman.debug(f'Webpack orð {file_path}')
+			logman.debug(f'Webpack orð {file_path} ({word_count}/{words_per_pack})')
 			ord_data = None
 			with open(file_path, 'r', encoding='utf-8') as fi:
 				ord_data = json.loads(fi.read())
