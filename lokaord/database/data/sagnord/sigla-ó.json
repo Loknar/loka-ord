@@ -1,0 +1,133 @@
+{
+	"orð": "sigla",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "sigla",
+		"sagnbót": "siglað",
+		"boðháttur": {
+			"stýfður": "sigla",
+			"et": "siglaðu",
+			"ft": "siglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sigla", "siglar", "siglar"],
+					"ft": ["siglum", "siglið", "sigla"]
+				},
+				"þátíð": {
+					"et": ["siglaði", "siglaðir", "siglaði"],
+					"ft": ["sigluðum", "sigluðuð", "sigluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sigli", "siglir", "sigli"],
+					"ft": ["siglum", "siglið", "sigli"]
+				},
+				"þátíð": {
+					"et": ["siglaði", "siglaðir", "siglaði"],
+					"ft": ["sigluðum", "sigluðuð", "sigluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "siglarðu",
+					"ft": "sigliði"
+				},
+				"þátíð": {
+					"et": "siglaðirðu",
+					"ft": "sigluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "siglirðu",
+					"ft": "sigliði"
+				},
+				"þátíð": {
+					"et": "siglaðirðu",
+					"ft": "sigluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "siglast",
+		"sagnbót": "siglast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["siglast", "siglast", "siglast"],
+					"ft": ["siglumst", "siglist", "siglast"]
+				},
+				"þátíð": {
+					"et": ["siglaðist", "siglaðist", "siglaðist"],
+					"ft": ["sigluðumst", "sigluðust", "sigluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["siglist", "siglist", "siglist"],
+					"ft": ["siglumst", "siglist", "siglist"]
+				},
+				"þátíð": {
+					"et": ["siglaðist", "siglaðist", "siglaðist"],
+					"ft": ["sigluðumst", "sigluðust", "sigluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "siglastu"
+				},
+				"þátíð": {
+					"et": "siglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "siglistu"
+				},
+				"þátíð": {
+					"et": "siglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "siglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["siglaður", "siglaðan", "sigluðum", "siglaðs"],
+					"kvk": ["sigluð", "siglaða", "siglaðri", "siglaðrar"],
+					"hk": ["siglað", "siglað", "sigluðu", "siglaðs"]
+				},
+				"ft": {
+					"kk": ["siglaðir", "siglaða", "sigluðum", "siglaðra"],
+					"kvk": ["siglaðar", "siglaðar", "sigluðum", "siglaðra"],
+					"hk": ["sigluð", "sigluð", "sigluðum", "siglaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["siglaði", "siglaða", "siglaða", "siglaða"],
+					"kvk": ["siglaða", "sigluðu", "sigluðu", "sigluðu"],
+					"hk": ["siglaða", "siglaða", "siglaða", "siglaða"]
+				},
+				"ft": {
+					"kk": ["sigluðu", "sigluðu", "sigluðu", "sigluðu"],
+					"kvk": ["sigluðu", "sigluðu", "sigluðu", "sigluðu"],
+					"hk": ["sigluðu", "sigluðu", "sigluðu", "sigluðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-sigla-ó",
+	"hash": "2691b08f7e1f3808b69e6bb62b887dcd9434780c50912f186bce9b5e65368c1f"
+}
