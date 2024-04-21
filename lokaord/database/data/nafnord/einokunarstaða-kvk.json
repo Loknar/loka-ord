@@ -1,0 +1,27 @@
+{
+	"orð": "einokunarstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "okunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-okun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["einokunarstaða", "einokunarstöðu", "einokunarstöðu", "einokunarstöðu"],
+		"mg": ["einokunarstaðan", "einokunarstöðuna", "einokunarstöðunni", "einokunarstöðunnar"]
+	},
+	"kennistrengur": "no-einokunarstaða-kvk",
+	"hash": "c0ccc6402b36dbd44a27f9e63086067f88e2437af56183151ec4bc3aaa0b32ab"
+}
