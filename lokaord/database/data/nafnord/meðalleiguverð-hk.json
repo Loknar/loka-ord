@@ -1,0 +1,27 @@
+{
+	"orð": "meðalleiguverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["meðalleiguverð", "meðalleiguverð", "meðalleiguverði", "meðalleiguverðs"],
+		"mg": ["meðalleiguverðið", "meðalleiguverðið", "meðalleiguverðinu", "meðalleiguverðsins"]
+	},
+	"kennistrengur": "no-meðalleiguverð-hk",
+	"hash": "2afeb08b7b3b12070cbc8c0ebfcf1761d32c4f8ac11bd7df76643ba48400b394"
+}

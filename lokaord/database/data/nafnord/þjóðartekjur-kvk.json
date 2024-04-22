@@ -1,0 +1,22 @@
+{
+	"orð": "þjóðartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þjóðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["þjóðartekjur", "þjóðartekjur", "þjóðartekjum", "þjóðartekna"],
+		"mg": ["þjóðartekjurnar", "þjóðartekjurnar", "þjóðartekjunum", "þjóðarteknanna"]
+	},
+	"kennistrengur": "no-þjóðartekjur-kvk",
+	"hash": "9d2a6556c85c082dedfdb450e6e4dc016b7a57b0fda21a8c84937682d608bcf7"
+}
