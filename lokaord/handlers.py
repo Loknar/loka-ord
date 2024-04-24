@@ -684,6 +684,9 @@ class Ord:
 		merking = self.detect_merking_in_filename(os.path.basename(filename))
 		if merking is not None and 'merking' not in data:
 			data['merking'] = merking
+		self.load_from_dict(data, filename)
+
+	def load_from_dict(self, data: dict, filename: str = None):
 		tracebacks = []
 		for struct in list(typing.get_args(self.__annotations__['data'])):
 			if struct is types.NoneType:
