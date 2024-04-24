@@ -1,0 +1,27 @@
+{
+	"orð": "heimsmarkaðsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heims",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heimur-kk"
+		},
+		{
+			"mynd": "markaðs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-markaður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["heimsmarkaðsverð", "heimsmarkaðsverð", "heimsmarkaðsverði", "heimsmarkaðsverðs"],
+		"mg": ["heimsmarkaðsverðið", "heimsmarkaðsverðið", "heimsmarkaðsverðinu", "heimsmarkaðsverðsins"]
+	},
+	"kennistrengur": "no-heimsmarkaðsverð-hk",
+	"hash": "38409450e1231b559e3532e912b9e33c014cc316fe50bcd03a0b2762d253fc12"
+}

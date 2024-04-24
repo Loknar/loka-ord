@@ -1,0 +1,27 @@
+{
+	"orð": "innkaupaverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "kaupa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["innkaupaverð", "innkaupaverð", "innkaupaverði", "innkaupaverðs"],
+		"mg": ["innkaupaverðið", "innkaupaverðið", "innkaupaverðinu", "innkaupaverðsins"]
+	},
+	"kennistrengur": "no-innkaupaverð-hk",
+	"hash": "cb0bb36bfb4cdd96150ca044ea49e0dccb632cb23c5ec886e1e9ce1e1d896f58"
+}
