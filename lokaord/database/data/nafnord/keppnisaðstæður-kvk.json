@@ -1,0 +1,27 @@
+{
+	"orð": "keppnisaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "keppnis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-keppni-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["keppnisaðstæður", "keppnisaðstæður", "keppnisaðstæðum", "keppnisaðstæðna"],
+		"mg": ["keppnisaðstæðurnar", "keppnisaðstæðurnar", "keppnisaðstæðunum", "keppnisaðstæðnanna"]
+	},
+	"kennistrengur": "no-keppnisaðstæður-kvk",
+	"hash": "84b95b9a2ba61b15befe800d7320051e7952a4b26a001a843c7aa86726cbc9a9"
+}

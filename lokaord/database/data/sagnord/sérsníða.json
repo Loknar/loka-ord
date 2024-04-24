@@ -1,0 +1,99 @@
+{
+	"orð": "sérsníða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-sníða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérsníða",
+		"sagnbót": "sérsniðið",
+		"boðháttur": {
+			"stýfður": "sérsníð",
+			"et": "sérríddu",
+			"ft": "sérsníðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérsníð", "sérsníður", "sérsníður"],
+					"ft": ["sérsníðum", "sérsníðið", "sérsníða"]
+				},
+				"þátíð": {
+					"et": ["sérsneið", "sérsneiðst", "sérsneið"],
+					"ft": ["sérsniðum", "sérsniðuð", "sérsniðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérsníði", "sérsníðir", "sérsníði"],
+					"ft": ["sérsníðum", "sérsníðið", "sérsníði"]
+				},
+				"þátíð": {
+					"et": ["sérsniði", "sérsniðir", "sérsniði"],
+					"ft": ["sérsniðum", "sérsniðuð", "sérsniðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérsníðurðu",
+					"ft": "sérsníðiði"
+				},
+				"þátíð": {
+					"et": "sérsneiðstu",
+					"ft": "sérsniðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérsníðirðu",
+					"ft": "sérsníðiði"
+				},
+				"þátíð": {
+					"et": "sérsniðirðu",
+					"ft": "sérsniðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérsníðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérsniðinn", "sérsniðinn", "sérsniðnum", "sérsniðins"],
+					"kvk": ["sérsniðin", "sérsniðna", "sérsniðinni", "sérsniðinnar"],
+					"hk": ["sérsniðið", "sérsniðið", "sérsniðnu", "sérsniðins"]
+				},
+				"ft": {
+					"kk": ["sérsniðnir", "sérsniðna", "sérsniðnum", "sérsniðinna"],
+					"kvk": ["sérsniðnar", "sérsniðnar", "sérsniðnum", "sérsniðinna"],
+					"hk": ["sérsniðin", "sérsniðin", "sérsniðnum", "sérsniðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sérsniðni", "sérsniðna", "sérsniðna", "sérsniðna"],
+					"kvk": ["sérsniðna", "sérsniðnu", "sérsniðnu", "sérsniðnu"],
+					"hk": ["sérsniðna", "sérsniðna", "sérsniðna", "sérsniðna"]
+				},
+				"ft": {
+					"kk": ["sérsniðnu", "sérsniðnu", "sérsniðnu", "sérsniðnu"],
+					"kvk": ["sérsniðnu", "sérsniðnu", "sérsniðnu", "sérsniðnu"],
+					"hk": ["sérsniðnu", "sérsniðnu", "sérsniðnu", "sérsniðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérsníða",
+	"hash": "00fcdecdb4f2d5f93a0f390331519dc1c535ce019ec01bda7e57e980f32ca98a"
+}
