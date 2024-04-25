@@ -1,0 +1,32 @@
+{
+	"orð": "sálfræðiaðstoð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sál",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sál-kvk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stoð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sálfræðiaðstoð", "sálfræðiaðstoð", "sálfræðiaðstoð", "sálfræðiaðstoðar"],
+		"mg": ["sálfræðiaðstoðin", "sálfræðiaðstoðina", "sálfræðiaðstoðinni", "sálfræðiaðstoðarinnar"]
+	},
+	"kennistrengur": "no-sálfræðiaðstoð-kvk",
+	"hash": "88d57c48bacce9421dd9489ab7e1f65d5e9aebe61bbad918a2ed751c81104a22"
+}
