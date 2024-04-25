@@ -1,0 +1,122 @@
+{
+	"orð": "lögbjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lögbjóða",
+		"sagnbót": "lögboðið",
+		"boðháttur": {
+			"stýfður": "lögbjóð",
+			"et": "lögbjóddu",
+			"ft": "lögbjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögbýð", "lögbýður", "lögbýður"],
+					"ft": ["lögbjóðum", "lögbjóðið", "lögbjóða"]
+				},
+				"þátíð": {
+					"et": ["lögbauð", "lögbauðst", "lögbauð"],
+					"ft": ["lögbuðum", "lögbuðuð", "lögbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögbjóði", "lögbjóðir", "lögbjóði"],
+					"ft": ["lögbjóðum", "lögbjóðið", "lögbjóði"]
+				},
+				"þátíð": {
+					"et": ["lögbyði", "lögbyðir", "lögbyði"],
+					"ft": ["lögbyðum", "lögbyðuð", "lögbyðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögbýður", "lögbýður", "lögbýður"],
+					"ft": ["lögbýður", "lögbýður", "lögbýður"]
+				},
+				"þátíð": {
+					"et": ["lögbauð", "lögbauð", "lögbauð"],
+					"ft": ["lögbauð", "lögbauð", "lögbauð"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögbjóði", "lögbjóði", "lögbjóði"],
+					"ft": ["lögbjóði", "lögbjóði", "lögbjóði"]
+				},
+				"þátíð": {
+					"et": ["lögbyði", "lögbyði", "lögbyði"],
+					"ft": ["lögbyði", "lögbyði", "lögbyði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lögbýðurðu",
+					"ft": "lögbjóðiði"
+				},
+				"þátíð": {
+					"et": "lögbauðstu",
+					"ft": "lögbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lögbjóðirðu",
+					"ft": "lögbjóðiði"
+				},
+				"þátíð": {
+					"et": "lögbyðirðu",
+					"ft": "lögbyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lögbjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lögboðinn", "lögboðinn", "lögboðnum", "lögboðins"],
+					"kvk": ["lögboðin", "lögboðna", "lögboðinni", "lögboðinnar"],
+					"hk": ["lögboðið", "lögboðið", "lögboðnu", "lögboðins"]
+				},
+				"ft": {
+					"kk": ["lögboðnir", "lögboðna", "lögboðnum", "lögboðinna"],
+					"kvk": ["lögboðnar", "lögboðnar", "lögboðnum", "lögboðinna"],
+					"hk": ["lögboðin", "lögboðin", "lögboðnum", "lögboðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lögboðni", "lögboðna", "lögboðna", "lögboðna"],
+					"kvk": ["lögboðna", "lögboðnu", "lögboðnu", "lögboðnu"],
+					"hk": ["lögboðna", "lögboðna", "lögboðna", "lögboðna"]
+				},
+				"ft": {
+					"kk": ["lögboðnu", "lögboðnu", "lögboðnu", "lögboðnu"],
+					"kvk": ["lögboðnu", "lögboðnu", "lögboðnu", "lögboðnu"],
+					"hk": ["lögboðnu", "lögboðnu", "lögboðnu", "lögboðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lögbjóða",
+	"hash": "46e2da37d718a55e4272b64c0b9d01d3c92929a43a25c3b709d6a6c985fcbac5"
+}
