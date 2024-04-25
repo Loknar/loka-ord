@@ -1,0 +1,101 @@
+{
+	"orð": "þvo",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þvo",
+		"sagnbót": "þvegið",
+		"boðháttur": {
+			"stýfður": "þvo",
+			"et": "þvoðu",
+			"ft": "þvoið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þvæ", "þværð", "þvær"],
+					"ft": ["þvoum", "þvoið", "þvo"]
+				},
+				"þátíð": {
+					"et": ["þvoði", "þvoðir", "þvoði"],
+					"ft": ["þvoðum", "þvoðuð", "þvoðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þvoi", "þvoir", "þvoi"],
+					"ft": ["þvoum", "þvoið", "þvoi"]
+				},
+				"þátíð": {
+					"et": ["þvægi", "þvægir", "þvægi"],
+					"ft": ["þvægjum", "þvægjuð", "þvægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þværðu",
+					"ft": "þvoiði"
+				},
+				"þátíð": {
+					"et": "þvoðirðu",
+					"ft": "þvoðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þvoirðu",
+					"ft": "þvoiði"
+				},
+				"þátíð": {
+					"et": "þvægirðu",
+					"ft": "þvægjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þvost",
+		"sagnbót": "þvegist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þvæst", "þvæst", "þvæst"],
+					"ft": ["þvoumst", "þvoist", "þvost"]
+				},
+				"þátíð": {
+					"et": ["þvoðist", "þvoðist", "þvoðist"],
+					"ft": ["þvoðumst", "þvoðust", "þvoðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þvoist", "þvoist", "þvoist"],
+					"ft": ["þvoumst", "þvoist", "þvoist"]
+				},
+				"þátíð": {
+					"et": ["þvægist", "þvægist", "þvægist"],
+					"ft": ["þvægjumst", "þvægjust", "þvægjust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þveginn", "þveginn", "þvegnum", "þvegins"],
+					"kvk": ["þvegin", "þvegna", "þveginni", "þveginnar"],
+					"hk": ["þvegið", "þvegið", "þvegnu", "þvegins"]
+				},
+				"ft": {
+					"kk": ["þvegnir", "þvegna", "þvegnum", "þveginna"],
+					"kvk": ["þvegnar", "þvegnar", "þvegnum", "þveginna"],
+					"hk": ["þvegin", "þvegin", "þvegnum", "þveginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þvo",
+	"hash": "b40cd36a2ab581b5925f2a0562129695034b02a5b7a5bd1808c94486397b5858"
+}
