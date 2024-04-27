@@ -76,7 +76,7 @@ def import_datafiles_to_db():
 				})
 	# samsett-orð with void kennistrengur
 	# these are usually words samsett/combined from other samsett-orð
-	logman.info('Retrying importing samsett orð encountering void kennistrengur.')
+	logman.info('Retrying importing samsett orð made of orð with void kennistrengur.')
 	task_retries_arranged = arrange_task_retries(task_retries)  # order matters here
 	for task in task_retries_arranged:
 		handler = task['handler']
