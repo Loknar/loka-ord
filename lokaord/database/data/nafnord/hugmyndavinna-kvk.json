@@ -4,9 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hugmynda",
+			"mynd": "hug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hugur-kk"
+		},
+		{
+			"mynd": "mynda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hugmynd-kvk"
+			"kennistrengur": "no-mynd-kvk"
 		},
 		{
 			"kennistrengur": "no-vinna-kvk"
@@ -21,5 +26,5 @@
 		"mg": ["hugmyndavinnurnar", "hugmyndavinnurnar", "hugmyndavinnunum", "hugmyndavinnanna"]
 	},
 	"kennistrengur": "no-hugmyndavinna-kvk",
-	"hash": "0f353923a6639d0fd406b4f79f6729afc916498fade10a2b15d78f08506183e8"
+	"hash": "de08cb13d607d5ea69673309d3c01f5c43743780c2b0bb75ee33d17ae903b91c"
 }
