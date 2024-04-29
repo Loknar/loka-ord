@@ -2,10 +2,21 @@
 	"orð": "fylgi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fylg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-fylgja"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["fylgi", "fylgi", "fylgi", "fylgis"],
 		"mg": ["fylgið", "fylgið", "fylginu", "fylgisins"]
 	},
 	"kennistrengur": "no-fylgi-hk",
-	"hash": "3f58e2bfe9c3bbf11ab5fcac5a60398c04cd3387123f7f22dd79ba917ea37742"
+	"hash": "e20aa1313292b85927db0c7ce7dfe2729a8ecf6bc8db116880bce26bc8cef166"
 }

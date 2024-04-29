@@ -2,14 +2,24 @@
 	"orð": "tengi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "teng",
+			"samsetning": "stofn",
+			"kennistrengur": "so-tengja"
+		},
+		{
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tengi", "tengi", "tengi", "tengis"],
-		"mg": ["tengið", "tengið", "tenginum", "tengisins"]
+		"mg": ["tengið", "tengið", "tenginu", "tengisins"]
 	},
 	"ft": {
 		"ág": ["tengi", "tengi", "tengjum", "tengja"],
 		"mg": ["tengin", "tengin", "tengjunum", "tengjanna"]
 	},
 	"kennistrengur": "no-tengi-hk",
-	"hash": "86fed186ab7ce05cfd8be898ab1b42a3f8b26c35ac7898cf2dc933c9ecdc85ee"
+	"hash": "11a8a09b6ec816e53bc0e6e8124d1b3517e503eec10395b3fdfaa91503bed8fd"
 }
