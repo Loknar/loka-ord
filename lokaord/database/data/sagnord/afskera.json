@@ -1,0 +1,99 @@
+{
+	"orð": "afskera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afskera",
+		"sagnbót": "afskorið",
+		"boðháttur": {
+			"stýfður": "afsker",
+			"et": "afskerðu",
+			"ft": "afskerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afsker", "afskerð", "afsker"],
+					"ft": ["afskerum", "afskerið", "afskera"]
+				},
+				"þátíð": {
+					"et": ["afskar", "afskarst", "afskar"],
+					"ft": ["afskárum", "afskáruð", "afskáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afskeri", "afskerir", "afskeri"],
+					"ft": ["afskerum", "afskerið", "afskeri"]
+				},
+				"þátíð": {
+					"et": ["afskæri", "afskærir", "afskæri"],
+					"ft": ["afskærum", "afskæruð", "afskæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afskerðu",
+					"ft": "afskeriði"
+				},
+				"þátíð": {
+					"et": "afskarstu",
+					"ft": "afskáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afskerirðu",
+					"ft": "afskeriði"
+				},
+				"þátíð": {
+					"et": "afskærirðu",
+					"ft": "afskæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afskerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afskorinn", "afskorinn", "afskornum", "afskorins"],
+					"kvk": ["afskorin", "afskorna", "afskorinni", "afskorinnar"],
+					"hk": ["afskorið", "afskorið", "afskornu", "afskorins"]
+				},
+				"ft": {
+					"kk": ["afskornir", "afskorna", "afskornum", "afskorinna"],
+					"kvk": ["afskornar", "afskornar", "afskornum", "afskorinna"],
+					"hk": ["afskorin", "afskorin", "afskornum", "afskorinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["afskorni", "afskorna", "afskorna", "afskorna"],
+					"kvk": ["afskorna", "afskornu", "afskornu", "afskornu"],
+					"hk": ["afskorna", "afskorna", "afskorna", "afskorna"]
+				},
+				"ft": {
+					"kk": ["afskornu", "afskornu", "afskornu", "afskornu"],
+					"kvk": ["afskornu", "afskornu", "afskornu", "afskornu"],
+					"hk": ["afskornu", "afskornu", "afskornu", "afskornu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afskera",
+	"hash": "2c9141a609d398679372ae7e06a8bb42b83150db596e0370ba0b7204c3191112"
+}
