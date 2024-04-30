@@ -153,6 +153,8 @@ class SamsettOrdhluti(Base):
 	Exclude_midmynd_spurnarmyndir = utils.boolean_default_false()
 	Exclude_lysingarhattur_nutidar = utils.boolean_default_false()
 	Exclude_lysingarhattur_thatidar = utils.boolean_default_false()
+	Exclude_lysingarhattur_thatidar_sb = utils.boolean_default_false()
+	Exclude_lysingarhattur_thatidar_vb = utils.boolean_default_false()
 	# </Beygingar-filters>
 	Edited = utils.timestamp_edited()
 	Created = utils.timestamp_created()

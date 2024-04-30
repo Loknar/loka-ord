@@ -135,6 +135,8 @@ class Ord:
 				exclude_midmynd_spurnarmyndir = False
 				exclude_lysingarhattur_nutidar = False
 				exclude_lysingarhattur_thatidar = False
+				exclude_lysingarhattur_thatidar_sb = False
+				exclude_lysingarhattur_thatidar_vb = False
 				#
 				if ohl.samsetning is not None:
 					samsetning = isl.Ordasamsetningar[ohl.samsetning.name]
@@ -244,6 +246,16 @@ class Ord:
 						SagnordaBeygingar.Lysingarhattur not in ohl.beygingar and
 						SagnordaBeygingar.Lysingarhattur_thatidar not in ohl.beygingar
 					)
+					exclude_lysingarhattur_thatidar_sb = (
+						SagnordaBeygingar.Lysingarhattur not in ohl.beygingar and
+						SagnordaBeygingar.Lysingarhattur_thatidar not in ohl.beygingar and
+						SagnordaBeygingar.Lysingarhattur_thatidar_sb not in ohl.beygingar
+					)
+					exclude_lysingarhattur_thatidar_vb = (
+						SagnordaBeygingar.Lysingarhattur not in ohl.beygingar and
+						SagnordaBeygingar.Lysingarhattur_thatidar not in ohl.beygingar and
+						SagnordaBeygingar.Lysingarhattur_thatidar_vb not in ohl.beygingar
+					)
 				# ---------------------------------------------------------------------------------
 				isl_ordhluti_data = {
 					'fk_Ord_id': isl_ord_oh.Ord_id,
@@ -280,6 +292,8 @@ class Ord:
 					'Exclude_midmynd_spurnarmyndir': exclude_midmynd_spurnarmyndir,
 					'Exclude_lysingarhattur_nutidar': exclude_lysingarhattur_nutidar,
 					'Exclude_lysingarhattur_thatidar': exclude_lysingarhattur_thatidar,
+					'Exclude_lysingarhattur_thatidar_sb': exclude_lysingarhattur_thatidar_sb,
+					'Exclude_lysingarhattur_thatidar_vb': exclude_lysingarhattur_thatidar_vb,
 				}
 				isl_ordhluti = (
 					db.Session.query(isl.SamsettOrdhluti).filter_by(**isl_ordhluti_data).first()
@@ -381,7 +395,9 @@ class Ord:
 					isl_ord_oh.Exclude_midmynd_opersonuleg is True or
 					isl_ord_oh.Exclude_midmynd_spurnarmyndir is True or
 					isl_ord_oh.Exclude_lysingarhattur_nutidar is True or
-					isl_ord_oh.Exclude_lysingarhattur_thatidar is True
+					isl_ord_oh.Exclude_lysingarhattur_thatidar is True or
+					isl_ord_oh.Exclude_lysingarhattur_thatidar_sb is True or
+					isl_ord_oh.Exclude_lysingarhattur_thatidar_vb is True
 				):
 					oh_data['beygingar'] = []
 				# nafnorð/sérnöfn
@@ -510,7 +526,9 @@ class Ord:
 					isl_ord_oh.Exclude_midmynd_opersonuleg is True or
 					isl_ord_oh.Exclude_midmynd_spurnarmyndir is True or
 					isl_ord_oh.Exclude_lysingarhattur_nutidar is True or
-					isl_ord_oh.Exclude_lysingarhattur_thatidar is True
+					isl_ord_oh.Exclude_lysingarhattur_thatidar is True or
+					isl_ord_oh.Exclude_lysingarhattur_thatidar_sb is True or
+					isl_ord_oh.Exclude_lysingarhattur_thatidar_vb is True
 				):
 					if (
 						isl_ord_oh.Exclude_germynd_personuleg is False and
@@ -556,6 +574,15 @@ class Ord:
 							oh_data['beygingar'].append(
 								SagnordaBeygingar.Lysingarhattur_thatidar.value
 							)
+						else:
+							if isl_ord_oh.Exclude_lysingarhattur_thatidar_sb is False:
+								oh_data['beygingar'].append(
+									SagnordaBeygingar.Lysingarhattur_thatidar_sb.value
+								)
+							if isl_ord_oh.Exclude_lysingarhattur_thatidar_vb is False:
+								oh_data['beygingar'].append(
+									SagnordaBeygingar.Lysingarhattur_thatidar_vb.value
+								)
 				# ---------------------------------------------------------------------------------
 				oh_data['kennistrengur'] = isl_ord_oh_ord.Kennistrengur
 				ord_data['samsett'].append(oh_data)
@@ -1189,10 +1216,27 @@ class Ord:
 						del isl_ord_dict['lýsingarháttur']['nútíðar']
 				if 'lýsingarháttur-þátíðar' not in ordhluti['beygingar']:
 					if (
+						'lýsingarháttur-þátíðar-sb' not in ordhluti['beygingar'] and
+						'lýsingarháttur-þátíðar-vb' not in ordhluti['beygingar'] and
 						'lýsingarháttur' in isl_ord_dict and
 						'þátíðar' in isl_ord_dict['lýsingarháttur']
 					):
 						del isl_ord_dict['lýsingarháttur']['þátíðar']
+					else:
+						if 'lýsingarháttur-þátíðar-sb' not in ordhluti['beygingar']:
+							if (
+								'lýsingarháttur' in isl_ord_dict and
+								'þátíðar' in isl_ord_dict['lýsingarháttur'] and
+								'sb' in isl_ord_dict['lýsingarháttur']['þátíðar']
+							):
+								del isl_ord_dict['lýsingarháttur']['þátíðar']['sb']
+						if 'lýsingarháttur-þátíðar-vb' not in ordhluti['beygingar']:
+							if (
+								'lýsingarháttur' in isl_ord_dict and
+								'þátíðar' in isl_ord_dict['lýsingarháttur'] and
+								'vb' in isl_ord_dict['lýsingarháttur']['þátíðar']
+							):
+								del isl_ord_dict['lýsingarháttur']['þátíðar']['vb']
 				if 'lýsingarháttur' in isl_ord_dict and len(isl_ord_dict['lýsingarháttur']) == 0:
 					del isl_ord_dict['lýsingarháttur']
 		return isl_ord_dict

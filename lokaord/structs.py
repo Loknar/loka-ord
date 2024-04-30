@@ -175,6 +175,8 @@ class SagnordaBeygingar(str, Enum):
 	Lysingarhattur = 'lýsingarháttur'
 	Lysingarhattur_nutidar = 'lýsingarháttur-nútíðar'
 	Lysingarhattur_thatidar = 'lýsingarháttur-þátíðar'
+	Lysingarhattur_thatidar_sb = 'lýsingarháttur-þátíðar-sb'
+	Lysingarhattur_thatidar_vb = 'lýsingarháttur-þátíðar-vb'
 
 
 class Fall(str, Enum):
