@@ -1,0 +1,99 @@
+{
+	"orð": "saksækja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sak",
+			"samsetning": "stofn",
+			"kennistrengur": "so-saka"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-sækja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "saksækja",
+		"sagnbót": "saksótt",
+		"boðháttur": {
+			"stýfður": "saksæk",
+			"et": "saksæktu",
+			"ft": "saksækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["saksæki", "saksækir", "saksækir"],
+					"ft": ["saksækjum", "saksækið", "saksækja"]
+				},
+				"þátíð": {
+					"et": ["saksótti", "saksóttir", "saksótti"],
+					"ft": ["saksóttum", "saksóttuð", "saksóttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["saksæki", "saksækir", "saksæki"],
+					"ft": ["saksækjum", "saksækið", "saksæki"]
+				},
+				"þátíð": {
+					"et": ["saksækti", "saksæktir", "saksækti"],
+					"ft": ["saksæktum", "saksæktuð", "saksæktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "saksækirðu",
+					"ft": "saksækiði"
+				},
+				"þátíð": {
+					"et": "saksæktirðu",
+					"ft": "saksæktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "saksækirðu",
+					"ft": "saksækiði"
+				},
+				"þátíð": {
+					"et": "saksæktirðu",
+					"ft": "saksæktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "saksækjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["saksóttur", "saksóttan", "saksóttum", "saksótts"],
+					"kvk": ["saksótt", "saksótta", "saksóttri", "saksóttrar"],
+					"hk": ["saksótt", "saksótt", "saksóttu", "saksótts"]
+				},
+				"ft": {
+					"kk": ["saksóttir", "saksótta", "saksóttum", "saksóttra"],
+					"kvk": ["saksóttar", "saksóttar", "saksóttum", "saksóttra"],
+					"hk": ["saksótt", "saksótt", "saksóttum", "saksóttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["saksótti", "saksótta", "saksótta", "saksótta"],
+					"kvk": ["saksótta", "saksóttu", "saksóttu", "saksóttu"],
+					"hk": ["saksótta", "saksótta", "saksótta", "saksótta"]
+				},
+				"ft": {
+					"kk": ["saksóttu", "saksóttu", "saksóttu", "saksóttu"],
+					"kvk": ["saksóttu", "saksóttu", "saksóttu", "saksóttu"],
+					"hk": ["saksóttu", "saksóttu", "saksóttu", "saksóttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-saksækja",
+	"hash": "aa4b780cb4e9e43310a1e7a90eff9841500d6ac5b05fe339a98933de8e80c802"
+}

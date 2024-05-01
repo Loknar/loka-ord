@@ -1,0 +1,73 @@
+{
+	"orð": "staðhæfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-hæfa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "staðhæfa",
+		"sagnbót": "staðhæft",
+		"boðháttur": {
+			"stýfður": "staðhæf",
+			"et": "staðhæfðu",
+			"ft": "staðhæfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staðhæfi", "staðhæfir", "staðhæfir"],
+					"ft": ["staðhæfum", "staðhæfið", "staðhæfa"]
+				},
+				"þátíð": {
+					"et": ["staðhæfði", "staðhæfðir", "staðhæfði"],
+					"ft": ["staðhæfðum", "staðhæfðuð", "staðhæfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staðhæfi", "staðhæfir", "staðhæfi"],
+					"ft": ["staðhæfum", "staðhæfið", "staðhæfi"]
+				},
+				"þátíð": {
+					"et": ["staðhæfði", "staðhæfðir", "staðhæfði"],
+					"ft": ["staðhæfðum", "staðhæfðuð", "staðhæfðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staðhæfirðu",
+					"ft": "staðhæfiði"
+				},
+				"þátíð": {
+					"et": "staðhæfðirðu",
+					"ft": "staðhæfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staðhæfirðu",
+					"ft": "staðhæfiði"
+				},
+				"þátíð": {
+					"et": "staðhæfðirðu",
+					"ft": "staðhæfðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "staðhæfandi"
+	},
+	"kennistrengur": "so-staðhæfa",
+	"hash": "079719e78b0016d26ad2a32ae4ac55d6f8136295e1a47e76b509e674aa1a2cb7"
+}
