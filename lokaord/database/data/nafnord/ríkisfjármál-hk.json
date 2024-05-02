@@ -1,0 +1,27 @@
+{
+	"orð": "ríkisfjármál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"ft": {
+		"ág": ["ríkisfjármál", "ríkisfjármál", "ríkisfjármálum", "ríkisfjármála"],
+		"mg": ["ríkisfjármálin", "ríkisfjármálin", "ríkisfjármálunum", "ríkisfjármálanna"]
+	},
+	"kennistrengur": "no-ríkisfjármál-hk",
+	"hash": "1d75fa9cfb7abfebbae490ad81dc55950054ddb3725262a47b00b9f19e2000fa"
+}

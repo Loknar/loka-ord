@@ -1,0 +1,99 @@
+{
+	"orð": "sviðsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "svið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-svið-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sviðsetja",
+		"sagnbót": "sviðsett",
+		"boðháttur": {
+			"stýfður": "sviðset",
+			"et": "sviðsettu",
+			"ft": "sviðsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sviðset", "sviðsetur", "sviðsetur"],
+					"ft": ["sviðsetjum", "sviðsetjið", "sviðsetja"]
+				},
+				"þátíð": {
+					"et": ["sviðsetti", "sviðsettir", "sviðsett"],
+					"ft": ["sviðsettum", "sviðsettuð", "sviðsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sviðsetji", "sviðsetjir", "sviðsetji"],
+					"ft": ["sviðsetjum", "sviðsetjið", "sviðsetji"]
+				},
+				"þátíð": {
+					"et": ["sviðsetti", "sviðsettir", "sviðsetti"],
+					"ft": ["sviðsettum", "sviðsettuð", "sviðsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sviðseturðu",
+					"ft": "sviðsetjiði"
+				},
+				"þátíð": {
+					"et": "sviðsettirðu",
+					"ft": "sviðsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sviðsetjirðu",
+					"ft": "sviðsetjiði"
+				},
+				"þátíð": {
+					"et": "sviðsettirðu",
+					"ft": "sviðsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sviðsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sviðsettur", "sviðsettan", "sviðsettum", "sviðsetts"],
+					"kvk": ["sviðsett", "sviðsetta", "sviðsettri", "sviðsettrar"],
+					"hk": ["sviðsett", "sviðsett", "sviðsettu", "sviðsetts"]
+				},
+				"ft": {
+					"kk": ["sviðsettir", "sviðsetta", "sviðsettum", "sviðsettra"],
+					"kvk": ["sviðsettar", "sviðsettar", "sviðsettum", "sviðsettra"],
+					"hk": ["sviðsett", "sviðsett", "sviðsettum", "sviðsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sviðsetti", "sviðsetta", "sviðsetta", "sviðsetta"],
+					"kvk": ["sviðsetta", "sviðsettu", "sviðsettu", "sviðsettu"],
+					"hk": ["sviðsetta", "sviðsetta", "sviðsetta", "sviðsetta"]
+				},
+				"ft": {
+					"kk": ["sviðsettu", "sviðsettu", "sviðsettu", "sviðsettu"],
+					"kvk": ["sviðsettu", "sviðsettu", "sviðsettu", "sviðsettu"],
+					"hk": ["sviðsettu", "sviðsettu", "sviðsettu", "sviðsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sviðsetja",
+	"hash": "b2a2c2c1188a3d4fe53b4f7dcb1e3e8ab3e8fb1c5a5d2fbf6c6134398eee6fc9"
+}
