@@ -1,6 +1,16 @@
 {
 	"orð": "brugga",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brugg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brugg-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "brugga",
 		"sagnbót": "bruggað",
@@ -44,7 +54,7 @@
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "bruggiðru",
+					"et": "bruggirðu",
 					"ft": "bruggiði"
 				},
 				"þátíð": {
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "bruggast",
 		"sagnbót": "bruggast",
+		"boðháttur": {
+			"et": "bruggastu",
+			"ft": "bruggist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-brugga",
-	"hash": "83abdd432e2b8ebd7d7486e3e0689f503f1956e9d4e59153a073bed62d5a82e4"
+	"hash": "f35062f9144d4f92a2a527a83ba8d0c7afb33c6e19b6b9d4057e2ba955efca4b"
 }

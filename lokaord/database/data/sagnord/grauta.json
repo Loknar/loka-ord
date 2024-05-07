@@ -1,6 +1,16 @@
 {
 	"orð": "grauta",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "graut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grautur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "grauta",
 		"sagnbót": "grautað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "grautast",
 		"sagnbót": "grautast",
+		"boðháttur": {
+			"et": "grautastu",
+			"ft": "grautist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-grauta",
-	"hash": "47e4f880f0456499d36f9c7bb0c5e785d5c0da84e58c50f368aece8a672e267a"
+	"hash": "dbf96e425b2d00e93b86dbe9b0bf335b3d9e26ecb6dd6aa0d3157e7dc3fc2759"
 }

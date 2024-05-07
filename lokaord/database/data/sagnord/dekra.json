@@ -1,6 +1,17 @@
 {
 	"orð": "dekra",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dekr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dekur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "dekra",
 		"sagnbót": "dekrað",
@@ -84,5 +95,5 @@
 		}
 	},
 	"kennistrengur": "so-dekra",
-	"hash": "f77aec98aaa66810757efddc9b435f1da3a09af8dedf893d0a99bb92ec6d8f73"
+	"hash": "24f0cca7e1aa16bd38783c1215e74cea27f9d884e1bebf96959775addeae9e97"
 }

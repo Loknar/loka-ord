@@ -1,6 +1,16 @@
 {
 	"orð": "eina",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "eina",
 		"sagnbót": "einað",
@@ -103,7 +113,7 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "finnandi",
+		"nútíðar": "einandi",
 		"þátíðar": {
 			"sb": {
 				"et": {
@@ -133,5 +143,5 @@
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "so-eina-ó",
-	"hash": "aaa7120a85d6768ab3b7694b877a97d2705ba77c9c5048791fe4d4f8a204504f"
+	"hash": "98ce7dff5bb3cea45be2a3844e51fbe94f85a620fd2e17296d14293dcefff128"
 }

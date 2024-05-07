@@ -1,6 +1,16 @@
 {
 	"orð": "bora",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bor-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "bora",
 		"sagnbót": "borað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "borast",
 		"sagnbót": "borast",
+		"boðháttur": {
+			"et": "borastu",
+			"ft": "borist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-bora",
-	"hash": "db55cccaf384faa0c625f8af20e0106c19fd4696d917923579724c0b0111086b"
+	"hash": "18f2082e7ea692b24a7398c39dae39f32908e52494d240d2d3ca43b3baeec546"
 }

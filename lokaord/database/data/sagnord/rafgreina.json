@@ -1,0 +1,99 @@
+{
+	"orð": "rafgreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rafgreina",
+		"sagnbót": "rafgreint",
+		"boðháttur": {
+			"stýfður": "rafgrein",
+			"et": "rafgreindu",
+			"ft": "rafgreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rafgreini", "rafgreinir", "rafgreinir"],
+					"ft": ["rafgreinum", "rafgreinið", "rafgreina"]
+				},
+				"þátíð": {
+					"et": ["rafgreindi", "rafgreindir", "rafgreindi"],
+					"ft": ["rafgreindum", "rafgreinduð", "rafgreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rafgreini", "rafgreinir", "rafgreini"],
+					"ft": ["rafgreinum", "rafgreinið", "rafgreini"]
+				},
+				"þátíð": {
+					"et": ["rafgreindi", "rafgreindir", "rafgreindi"],
+					"ft": ["rafgreindum", "rafgreinduð", "rafgreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rafgreinirðu",
+					"ft": "rafgreiniði"
+				},
+				"þátíð": {
+					"et": "rafgreindirðu",
+					"ft": "rafgreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rafgreinirðu",
+					"ft": "rafgreiniði"
+				},
+				"þátíð": {
+					"et": "rafgreindirðu",
+					"ft": "rafgreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rafgreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rafgreindur", "rafgreindan", "rafgreindum", "rafgreinds"],
+					"kvk": ["rafgreind", "rafgreinda", "rafgreindri", "rafgreindrar"],
+					"hk": ["rafgreint", "rafgreint", "rafgreindu", "rafgreinds"]
+				},
+				"ft": {
+					"kk": ["rafgreindir", "rafgreinda", "rafgreindum", "rafgreindra"],
+					"kvk": ["rafgreindar", "rafgreindar", "rafgreindum", "rafgreindra"],
+					"hk": ["rafgreind", "rafgreind", "rafgreindum", "rafgreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["rafgreindi", "rafgreinda", "rafgreinda", "rafgreinda"],
+					"kvk": ["rafgreinda", "rafgreindu", "rafgreindu", "rafgreindu"],
+					"hk": ["rafgreinda", "rafgreinda", "rafgreinda", "rafgreinda"]
+				},
+				"ft": {
+					"kk": ["rafgreindu", "rafgreindu", "rafgreindu", "rafgreindu"],
+					"kvk": ["rafgreindu", "rafgreindu", "rafgreindu", "rafgreindu"],
+					"hk": ["rafgreindu", "rafgreindu", "rafgreindu", "rafgreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rafgreina",
+	"hash": "5676ead71bf2d170d70baa810d6835ab0c9436bc0248df51ad91708524d53c7d"
+}

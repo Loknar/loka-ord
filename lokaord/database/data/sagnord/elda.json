@@ -1,6 +1,16 @@
 {
 	"orð": "elda",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-eldur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "elda",
 		"sagnbót": "eldað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "eldast",
 		"sagnbót": "eldast",
+		"boðháttur": {
+			"et": "eldastu",
+			"ft": "eldist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-elda",
-	"hash": "71452cb68718999c9f5f4dec18b29f2a3b4e80bf47bf43d57c4fc5ca9cccc2a2"
+	"hash": "dfca843b2788131f81a12c6282ff75eea323b4c9a1f5a96aee33830e44d79047"
 }

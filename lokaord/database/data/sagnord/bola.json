@@ -1,6 +1,16 @@
 {
 	"orð": "bola",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bolur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "bola",
 		"sagnbót": "bolað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "bolast",
 		"sagnbót": "bolast",
+		"boðháttur": {
+			"et": "bolastu",
+			"ft": "bolist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-bola",
-	"hash": "c84d3dcc5e7ee1af229fed7522fb0574b6d4dd998ed74cac3c54249f188555e7"
+	"hash": "6668828eeb25492f4d5d1661297d082c7f3fe7ca4b6c759be37c5090363276f2"
 }

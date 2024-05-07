@@ -1,6 +1,16 @@
 {
 	"orð": "eigna",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eign",
+			"samsetning": "stofn",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "eigna",
 		"sagnbót": "eignað",
@@ -132,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-eigna",
-	"hash": "f751f41104d76236b86e320f35ce6bd60d540172c259a9bf7178c6da96b0e3b6"
+	"hash": "54b0e1103ab67784d754058bc1d5a9b250270cde5381a5d2165c12f03c125268"
 }

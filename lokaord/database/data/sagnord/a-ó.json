@@ -1,0 +1,137 @@
+{
+	"orð": "a",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "a",
+		"sagnbót": "að",
+		"boðháttur": {
+			"stýfður": "a",
+			"et": "aðu",
+			"ft": "ið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["a", "ar", "ar"],
+					"ft": ["um", "ið", "a"]
+				},
+				"þátíð": {
+					"et": ["aði", "aðir", "aði"],
+					"ft": ["uðum", "uðuð", "uðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["i", "ir", "i"],
+					"ft": ["um", "ið", "i"]
+				},
+				"þátíð": {
+					"et": ["aði", "aðir", "aði"],
+					"ft": ["uðum", "uðuð", "uðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "arðu",
+					"ft": "iði"
+				},
+				"þátíð": {
+					"et": "aðirðu",
+					"ft": "uðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "irðu",
+					"ft": "iði"
+				},
+				"þátíð": {
+					"et": "aðirðu",
+					"ft": "uðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ast",
+		"sagnbót": "ast",
+		"boðháttur": {
+			"et": "astu",
+			"ft": "ist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ast", "ast", "ast"],
+					"ft": ["umst", "ist", "ast"]
+				},
+				"þátíð": {
+					"et": ["aðist", "aðist", "aðist"],
+					"ft": ["uðumst", "uðust", "uðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ist", "ist", "ist"],
+					"ft": ["umst", "ist", "ist"]
+				},
+				"þátíð": {
+					"et": ["aðist", "aðist", "aðist"],
+					"ft": ["uðumst", "uðust", "uðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "astu"
+				},
+				"þátíð": {
+					"et": "aðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "istu"
+				},
+				"þátíð": {
+					"et": "aðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "andi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aður", "aðan", "uðum", "aðs"],
+					"kvk": ["uð", "aða", "aðri", "aðrar"],
+					"hk": ["að", "að", "uðu", "aðs"]
+				},
+				"ft": {
+					"kk": ["aðir", "aða", "uðum", "aðra"],
+					"kvk": ["aðar", "aðar", "uðum", "aðra"],
+					"hk": ["uð", "uð", "uðum", "aðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["aði", "aða", "aða", "aða"],
+					"kvk": ["aða", "uðu", "uðu", "uðu"],
+					"hk": ["aða", "aða", "aða", "aða"]
+				},
+				"ft": {
+					"kk": ["uðu", "uðu", "uðu", "uðu"],
+					"kvk": ["uðu", "uðu", "uðu", "uðu"],
+					"hk": ["uðu", "uðu", "uðu", "uðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-a-ó",
+	"hash": "d7aa9c7fd73bbe439c7f6c04a03c99886dae5479f8ae1f371323ef2323f961e3"
+}
