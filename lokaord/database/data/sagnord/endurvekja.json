@@ -1,0 +1,99 @@
+{
+	"orð": "endurvekja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-endur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-vekja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurvekja",
+		"sagnbót": "endurvakið",
+		"boðháttur": {
+			"stýfður": "endurvek",
+			"et": "endurvektu",
+			"ft": "endurvekið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurvek", "endurvekur", "endurvekur"],
+					"ft": ["endurvekjum", "endurvekið", "endurvekja"]
+				},
+				"þátíð": {
+					"et": ["endurvakti", "endurvaktir", "endurvakti"],
+					"ft": ["endurvöktum", "endurvöktuð", "endurvöktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurveki", "endurvekir", "endurveki"],
+					"ft": ["endurvekjum", "endurvekið", "endurveki"]
+				},
+				"þátíð": {
+					"et": ["endurvekti", "endurvektir", "endurvekti"],
+					"ft": ["endurvektum", "endurvektuð", "endurvektu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurverkurðu",
+					"ft": "endurvekiði"
+				},
+				"þátíð": {
+					"et": "endurvaktirðu",
+					"ft": "endurvöktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurvekirðu",
+					"ft": "endurvekiði"
+				},
+				"þátíð": {
+					"et": "endurvektirðu",
+					"ft": "endurvektuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurvekjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurvakinn", "endurvakinn", "endurvöktum", "endurvakins"],
+					"kvk": ["endurvakin", "endurvakta", "endurvakinni", "endurvakinnar"],
+					"hk": ["endurvakið", "endurvakið", "endurvöktu", "endurvakins"]
+				},
+				"ft": {
+					"kk": ["endurvaktir", "endurvakta", "endurvöktum", "endurvakinna"],
+					"kvk": ["endurvaktar", "endurvaktar", "endurvöktum", "endurvakinna"],
+					"hk": ["endurvakin", "endurvakin", "endurvöktum", "endurvakinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["endurvakti", "endurvakta", "endurvakta", "endurvakta"],
+					"kvk": ["endurvakta", "endurvöktu", "endurvöktu", "endurvöktu"],
+					"hk": ["endurvakta", "endurvakta", "endurvakta", "endurvakta"]
+				},
+				"ft": {
+					"kk": ["endurvöktu", "endurvöktu", "endurvöktu", "endurvöktu"],
+					"kvk": ["endurvöktu", "endurvöktu", "endurvöktu", "endurvöktu"],
+					"hk": ["endurvöktu", "endurvöktu", "endurvöktu", "endurvöktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurvekja",
+	"hash": "e927cba43834650a877b0aa16758063fb44a4189855677de04470bcfeec64dc6"
+}
