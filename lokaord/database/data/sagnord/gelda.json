@@ -1,0 +1,132 @@
+{
+	"orð": "gelda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gelda",
+		"sagnbót": "gelt",
+		"boðháttur": {
+			"stýfður": "geld",
+			"et": "geltu",
+			"ft": "geldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geldi", "geldir", "geldir"],
+					"ft": ["geldum", "geldið", "gelda"]
+				},
+				"þátíð": {
+					"et": ["gelti", "geltir", "gelti"],
+					"ft": ["geltum", "geltuð", "geltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["geldi", "geldir", "geldi"],
+					"ft": ["geldum", "geldið", "geldi"]
+				},
+				"þátíð": {
+					"et": ["gelti", "geltir", "gelti"],
+					"ft": ["geltum", "geltuð", "geltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geldirðu",
+					"ft": "geldiði"
+				},
+				"þátíð": {
+					"et": "geltirðu",
+					"ft": "geltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "geldirðu",
+					"ft": "geldiði"
+				},
+				"þátíð": {
+					"et": "geltirðu",
+					"ft": "geltuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "geldast",
+		"sagnbót": "gelst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geldist", "geldist", "geldist"],
+					"ft": ["geldumst", "geldist", "geldast"]
+				},
+				"þátíð": {
+					"et": ["geltist", "geltist", "geltist"],
+					"ft": ["geltumst", "geltust", "geltust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["geldist", "geldist", "geldist"],
+					"ft": ["geldumst", "geldist", "geldist"]
+				},
+				"þátíð": {
+					"et": ["geltist", "geltist", "geltist"],
+					"ft": ["geltumst", "geltust", "geltust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geldistu"
+				},
+				"þátíð": {
+					"et": "geltistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "geldistu"
+				},
+				"þátíð": {
+					"et": "geltistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "geldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["geltur", "geltan", "geltum", "gelts"],
+					"kvk": ["gelt", "gelta", "geltri", "geltrar"],
+					"hk": ["gelt", "gelt", "geltu", "gelts"]
+				},
+				"ft": {
+					"kk": ["geltir", "gelta", "geltum", "geltra"],
+					"kvk": ["geltar", "geltar", "geltum", "geltra"],
+					"hk": ["gelt", "gelt", "geltum", "geltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gelti", "gelta", "gelta", "gelta"],
+					"kvk": ["gelta", "geltu", "geltu", "geltu"],
+					"hk": ["gelta", "gelta", "gelta", "gelta"]
+				},
+				"ft": {
+					"kk": ["geltu", "geltu", "geltu", "geltu"],
+					"kvk": ["geltu", "geltu", "geltu", "geltu"],
+					"hk": ["geltu", "geltu", "geltu", "geltu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gelda",
+	"hash": "c118ca23002e18c695f38eab5b5bf54e4ad2902ef3691b879439f081eb4ad9de"
+}

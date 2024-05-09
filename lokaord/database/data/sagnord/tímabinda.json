@@ -1,0 +1,146 @@
+{
+	"orð": "tímabinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tímabinda",
+		"sagnbót": "tímabundið",
+		"boðháttur": {
+			"stýfður": "tímabind",
+			"et": "tímabittu",
+			"ft": "tímabindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tímabind", "tímabindur", "tímabindur"],
+					"ft": ["tímabindum", "tímabindið", "tímabinda"]
+				},
+				"þátíð": {
+					"et": ["tímabatt", "tímabast", "tímabatt"],
+					"ft": ["tímabundum", "tímabunduð", "tímabundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tímabindi", "tímabindir", "tímabindi"],
+					"ft": ["tímabindum", "tímabindið", "tímabindi"]
+				},
+				"þátíð": {
+					"et": ["tímabyndi", "tímabyndir", "tímabyndi"],
+					"ft": ["tímabyndum", "tímabynduð", "tímabyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tímabindurðu",
+					"ft": "tímabindiði"
+				},
+				"þátíð": {
+					"et": "tímabastu",
+					"ft": "tímabunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tímabindirðu",
+					"ft": "tímabindiði"
+				},
+				"þátíð": {
+					"et": "tímabyndirðu",
+					"ft": "tímabynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tímabindast",
+		"sagnbót": "tímabundist",
+		"boðháttur": {
+			"et": "tímabinstu",
+			"ft": "tímabindist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tímabinst", "tímabinst", "tímabinst"],
+					"ft": ["tímabindumst", "tímabindist", "tímabindast"]
+				},
+				"þátíð": {
+					"et": ["tímabast", "tímabast", "tímabast"],
+					"ft": ["tímabundumst", "tímabundust", "tímabundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tímabindist", "tímabindist", "tímabindist"],
+					"ft": ["tímabindumst", "tímabindist", "tímabindist"]
+				},
+				"þátíð": {
+					"et": ["tímabyndist", "tímabyndist", "tímabyndist"],
+					"ft": ["tímabyndumst", "tímabyndust", "tímabyndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tímabinstu"
+				},
+				"þátíð": {
+					"et": "tímabastu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tímabindistu"
+				},
+				"þátíð": {
+					"et": "tímabyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tímabindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tímabundinn", "tímabundinn", "tímabundnum", "tímabundins"],
+					"kvk": ["tímabundin", "tímabundna", "tímabundinni", "tímabundinnar"],
+					"hk": ["tímabundið", "tímabundið", "tímabundnu", "tímabundins"]
+				},
+				"ft": {
+					"kk": ["tímabundnir", "tímabundna", "tímabundnum", "tímabundinna"],
+					"kvk": ["tímabundnar", "tímabundnar", "tímabundnum", "tímabundinna"],
+					"hk": ["tímabundin", "tímabundin", "tímabundnum", "tímabundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tímabundni", "tímabundna", "tímabundna", "tímabundna"],
+					"kvk": ["tímabundna", "tímabundnu", "tímabundnu", "tímabundnu"],
+					"hk": ["tímabundna", "tímabundna", "tímabundna", "tímabundna"]
+				},
+				"ft": {
+					"kk": ["tímabundnu", "tímabundnu", "tímabundnu", "tímabundnu"],
+					"kvk": ["tímabundnu", "tímabundnu", "tímabundnu", "tímabundnu"],
+					"hk": ["tímabundnu", "tímabundnu", "tímabundnu", "tímabundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tímabinda",
+	"hash": "301e723f5db19bbe6ef32f005ca5f0b569b7db412529b525d7356ff9e0697bf9"
+}
