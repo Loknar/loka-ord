@@ -1,0 +1,132 @@
+{
+	"orð": "landa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "landa",
+		"sagnbót": "landað",
+		"boðháttur": {
+			"stýfður": "landa",
+			"et": "landaðu",
+			"ft": "landið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["landa", "landar", "landar"],
+					"ft": ["löndum", "landið", "landa"]
+				},
+				"þátíð": {
+					"et": ["landaði", "landaðir", "landaði"],
+					"ft": ["lönduðum", "lönduðuð", "lönduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["landi", "landir", "landi"],
+					"ft": ["löndum", "landið", "landi"]
+				},
+				"þátíð": {
+					"et": ["landaði", "landaðir", "landaði"],
+					"ft": ["lönduðum", "lönduðuð", "lönduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "landarðu",
+					"ft": "landiði"
+				},
+				"þátíð": {
+					"et": "landaðirðu",
+					"ft": "lönduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "landirðu",
+					"ft": "landiði"
+				},
+				"þátíð": {
+					"et": "landaðirðu",
+					"ft": "lönduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "landast",
+		"sagnbót": "landast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["landast", "landast", "landast"],
+					"ft": ["löndumst", "landist", "landast"]
+				},
+				"þátíð": {
+					"et": ["landaðist", "landaðist", "landaðist"],
+					"ft": ["lönduðumst", "lönduðust", "lönduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["landist", "landist", "landist"],
+					"ft": ["löndumst", "landist", "landist"]
+				},
+				"þátíð": {
+					"et": ["landaðist", "landaðist", "landaðist"],
+					"ft": ["lönduðumst", "lönduðust", "lönduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "landastu"
+				},
+				"þátíð": {
+					"et": "landaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "landistu"
+				},
+				"þátíð": {
+					"et": "landaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "landandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["landaður", "landaðan", "lönduðum", "landaðs"],
+					"kvk": ["lönduð", "landaða", "landaðri", "landaðrar"],
+					"hk": ["landað", "landað", "lönduðu", "landaðs"]
+				},
+				"ft": {
+					"kk": ["landaðir", "landaða", "lönduðum", "landaðra"],
+					"kvk": ["landaðar", "landaðar", "lönduðum", "landaðra"],
+					"hk": ["lönduð", "lönduð", "lönduðum", "landaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["landaði", "landaða", "landaða", "landaða"],
+					"kvk": ["landaða", "lönduðu", "lönduðu", "lönduðu"],
+					"hk": ["landaða", "landaða", "landaða", "landaða"]
+				},
+				"ft": {
+					"kk": ["lönduðu", "lönduðu", "lönduðu", "lönduðu"],
+					"kvk": ["lönduðu", "lönduðu", "lönduðu", "lönduðu"],
+					"hk": ["lönduðu", "lönduðu", "lönduðu", "lönduðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-landa",
+	"hash": "0b6453f70c0dcc5261be45818c6de45aebf24dfff84f8ff9ff526c0339220b22"
+}
