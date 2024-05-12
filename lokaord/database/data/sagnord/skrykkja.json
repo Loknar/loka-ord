@@ -1,0 +1,132 @@
+{
+	"orð": "skrykkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skrykkja",
+		"sagnbót": "skrykkt",
+		"boðháttur": {
+			"stýfður": "skrykk",
+			"et": "skrykktu",
+			"ft": "skrykkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrykki", "skrykkir", "skrykkir"],
+					"ft": ["skrykkjum", "skrykkið", "skrykkja"]
+				},
+				"þátíð": {
+					"et": ["skrykkti", "skrykktir", "skrykkti"],
+					"ft": ["skrykktum", "skrykktuð", "skrykktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrykki", "skrykkir", "skrykki"],
+					"ft": ["skrykkjum", "skrykkið", "skrykki"]
+				},
+				"þátíð": {
+					"et": ["skrykkti", "skrykktir", "skrykkti"],
+					"ft": ["skrykktum", "skrykktuð", "skrykktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrykkirðu",
+					"ft": "skrykkiði"
+				},
+				"þátíð": {
+					"et": "skrykktirðu",
+					"ft": "skrykktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrykkirðu",
+					"ft": "skrykkiði"
+				},
+				"þátíð": {
+					"et": "skrykktirðu",
+					"ft": "skrykktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skrykkjast",
+		"sagnbót": "skrykkst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrykkist", "skrykkist", "skrykkist"],
+					"ft": ["skrykkjumst", "skrykkist", "skrykkjast"]
+				},
+				"þátíð": {
+					"et": ["skrykktist", "skrykktist", "skrykktist"],
+					"ft": ["skrykktust", "skrykktust", "skrykktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrykkist", "skrykkist", "skrykkist"],
+					"ft": ["skrykkjumst", "skrykkist", "skrykkist"]
+				},
+				"þátíð": {
+					"et": ["skrykktist", "skrykktist", "skrykktist"],
+					"ft": ["skrykktust", "skrykktust", "skrykktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrykkistu"
+				},
+				"þátíð": {
+					"et": "skrykktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrykkistu"
+				},
+				"þátíð": {
+					"et": "skrykktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrykkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrykktur", "skrykktan", "skrykktum", "skrykkts"],
+					"kvk": ["skrykkt", "skrykkta", "skrykktri", "skrykktrar"],
+					"hk": ["skrykkt", "skrykkt", "skrykktu", "skrykkts"]
+				},
+				"ft": {
+					"kk": ["skrykktir", "skrykkta", "skrykktum", "skrykktra"],
+					"kvk": ["skrykktar", "skrykktar", "skrykktum", "skrykktra"],
+					"hk": ["skrykkt", "skrykkt", "skrykktum", "skrykktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skrykkti", "skrykkta", "skrykkta", "skrykkta"],
+					"kvk": ["skrykkta", "skrykktu", "skrykktu", "skrykktu"],
+					"hk": ["skrykkta", "skrykkta", "skrykkta", "skrykkta"]
+				},
+				"ft": {
+					"kk": ["skrykktu", "skrykktu", "skrykktu", "skrykktu"],
+					"kvk": ["skrykktu", "skrykktu", "skrykktu", "skrykktu"],
+					"hk": ["skrykktu", "skrykktu", "skrykktu", "skrykktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrykkja",
+	"hash": "260c6777cf1ff84d51f036e9397fed6f3041b969dbef004bfd0800a6048a82bf"
+}
