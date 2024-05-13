@@ -1,0 +1,43 @@
+{
+	"orð": "starfstengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["starfstengdur", "starfstengdan", "starfstengdum", "starfstengds"],
+				"kvk": ["starfstengd", "starfstengda", "starfstengdri", "starfstengdrar"],
+				"hk": ["starfstengt", "starfstengt", "starfstengdu", "starfstengds"]
+			},
+			"ft": {
+				"kk": ["starfstengdir", "starfstengda", "starfstengdum", "starfstengdra"],
+				"kvk": ["starfstengdar", "starfstengdar", "starfstengdum", "starfstengdra"],
+				"hk": ["starfstengd", "starfstengd", "starfstengdum", "starfstengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["starfstengdi", "starfstengda", "starfstengda", "starfstengda"],
+				"kvk": ["starfstengda", "starfstengdu", "starfstengdu", "starfstengdu"],
+				"hk": ["starfstengda", "starfstengda", "starfstengda", "starfstengda"]
+			},
+			"ft": {
+				"kk": ["starfstengdu", "starfstengdu", "starfstengdu", "starfstengdu"],
+				"kvk": ["starfstengdu", "starfstengdu", "starfstengdu", "starfstengdu"],
+				"hk": ["starfstengdu", "starfstengdu", "starfstengdu", "starfstengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-starfstengdur",
+	"hash": "8c8f5b58577b045efc052447001736c150a013b93eb626eaf204c122409b2078"
+}
