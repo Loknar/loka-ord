@@ -1,6 +1,16 @@
 {
 	"orð": "hentugur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hent",
+			"samsetning": "stofn",
+			"kennistrengur": "so-henta"
+		},
+		{
+			"kennistrengur": "lo-ugur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -30,14 +40,14 @@
 	"miðstig": {
 		"vb": {
 			"et": {
-				"kk": ["hentugari", "hentugari", "hentugari", "hentugari"],
-				"kvk": ["hentugari", "hentugari", "hentugari", "hentugari"],
-				"hk": ["hentugara", "hentugara", "hentugara", "hentugara"]
+				"kk": ["hentugri", "hentugri", "hentugri", "hentugri"],
+				"kvk": ["hentugri", "hentugri", "hentugri", "hentugri"],
+				"hk": ["hentugra", "hentugra", "hentugra", "hentugra"]
 			},
 			"ft": {
-				"kk": ["hentugari", "hentugari", "hentugari", "hentugari"],
-				"kvk": ["hentugari", "hentugari", "hentugari", "hentugari"],
-				"hk": ["hentugari", "hentugari", "hentugari", "hentugari"]
+				"kk": ["hentugri", "hentugri", "hentugri", "hentugri"],
+				"kvk": ["hentugri", "hentugri", "hentugri", "hentugri"],
+				"hk": ["hentugri", "hentugri", "hentugri", "hentugri"]
 			}
 		}
 	},
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-hentugur",
-	"hash": "eb25f505438b5a658862841885f643c13b912d31e001012b890ee8b7c9cdc820"
+	"hash": "1e183eb3a9c20f04860c5477886256a4c93ba67b536858c430251f85e358a681"
 }

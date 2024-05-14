@@ -1,6 +1,16 @@
 {
 	"orð": "öflugur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "öfl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-afl-hk"
+		},
+		{
+			"kennistrengur": "lo-ugur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -30,14 +40,14 @@
 	"miðstig": {
 		"vb": {
 			"et": {
-				"kk": ["öflugari", "öflugari", "öflugari", "öflugari"],
-				"kvk": ["öflugari", "öflugari", "öflugari", "öflugari"],
-				"hk": ["öflugara", "öflugara", "öflugara", "öflugara"]
+				"kk": ["öflugri", "öflugri", "öflugri", "öflugri"],
+				"kvk": ["öflugri", "öflugri", "öflugri", "öflugri"],
+				"hk": ["öflugra", "öflugra", "öflugra", "öflugra"]
 			},
 			"ft": {
-				"kk": ["öflugari", "öflugari", "öflugari", "öflugari"],
-				"kvk": ["öflugari", "öflugari", "öflugari", "öflugari"],
-				"hk": ["öflugari", "öflugari", "öflugari", "öflugari"]
+				"kk": ["öflugri", "öflugri", "öflugri", "öflugri"],
+				"kvk": ["öflugri", "öflugri", "öflugri", "öflugri"],
+				"hk": ["öflugri", "öflugri", "öflugri", "öflugri"]
 			}
 		}
 	},
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-öflugur",
-	"hash": "4668e89cf7ab7c74baaac086b3f1ef11205228dde44d4c6f2255e7a936fa8635"
+	"hash": "91f820789cd3dddcc14a5167e2aaab299189019fcd305a15c443fb63a9cbadde"
 }
