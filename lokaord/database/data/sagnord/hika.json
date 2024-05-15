@@ -1,0 +1,73 @@
+{
+	"orð": "hika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hik-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hika",
+		"sagnbót": "hikað",
+		"boðháttur": {
+			"stýfður": "hika",
+			"et": "hikaðu",
+			"ft": "hikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hika", "hikar", "hikar"],
+					"ft": ["hikum", "hikið", "hika"]
+				},
+				"þátíð": {
+					"et": ["hikaði", "hikaðir", "hikaði"],
+					"ft": ["hikuðum", "hikuðuð", "hikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hiki", "hikir", "hiki"],
+					"ft": ["hikum", "hikið", "hiki"]
+				},
+				"þátíð": {
+					"et": ["hikaði", "hikaðir", "hikaði"],
+					"ft": ["hikuðum", "hikuðuð", "hikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hikarðu",
+					"ft": "hikiði"
+				},
+				"þátíð": {
+					"et": "hikaðirðu",
+					"ft": "hikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hikirðu",
+					"ft": "hikiði"
+				},
+				"þátíð": {
+					"et": "hikaðirðu",
+					"ft": "hikuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hikandi"
+	},
+	"kennistrengur": "so-hika",
+	"hash": "e06c6757abf5ef20c3381b6a2e7a0cec7e7ab24e3505d56d9d097147fdc3e081"
+}
