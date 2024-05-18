@@ -4,9 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "verkefna",
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "efna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-verkefni-hk"
+			"kennistrengur": "no-efni-hk"
 		},
 		{
 			"kennistrengur": "no-nefnd-kvk"
@@ -21,5 +26,5 @@
 		"mg": ["verkefnanefndirnar", "verkefnanefndirnar", "verkefnanefndunum", "verkefnanefndanna"]
 	},
 	"kennistrengur": "no-verkefnanefnd-kvk",
-	"hash": "19af72501f7f1606f5d0d39362becffbaacd0b795635df6f449f521803cec04a"
+	"hash": "71aff6e06181e61c3736710e935ba862cad76b7dd082a9adad279233d54baf06"
 }

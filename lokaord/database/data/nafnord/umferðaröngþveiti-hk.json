@@ -4,9 +4,14 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "umferðar",
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "ferðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-umferð-kvk"
+			"kennistrengur": "no-ferð-kvk"
 		},
 		{
 			"kennistrengur": "no-öngþveiti-hk"
@@ -21,5 +26,5 @@
 		"mg": ["umferðaröngþveitin", "umferðaröngþveitin", "umferðaröngþveitunum", "umferðaröngþveitanna"]
 	},
 	"kennistrengur": "no-umferðaröngþveiti-hk",
-	"hash": "eff80d11c7306ad1c753a95093c7bc0a348a09f9247981f0113c1bb5ee3c38c0"
+	"hash": "a60df3c6b4e2d0e90da0901e0c9630617fb4801c8f8b247277dfea5fc21e1b3e"
 }

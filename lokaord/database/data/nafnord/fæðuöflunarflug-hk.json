@@ -1,0 +1,27 @@
+{
+	"orð": "fæðuöflunarflug",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fæðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fæða-kvk"
+		},
+		{
+			"mynd": "öflunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öflun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-flug-hk"
+		}
+	],
+	"et": {
+		"ág": ["fæðuöflunarflug", "fæðuöflunarflug", "fæðuöflunarflugi", "fæðuöflunarflugs"],
+		"mg": ["fæðuöflunarflugið", "fæðuöflunarflugið", "fæðuöflunarfluginu", "fæðuöflunarflugsins"]
+	},
+	"kennistrengur": "no-fæðuöflunarflug-hk",
+	"hash": "5099fedfecf4b6b1d2a6762852fed1ff0c3b62d39b4b71fae6e7e89acbac0d4f"
+}

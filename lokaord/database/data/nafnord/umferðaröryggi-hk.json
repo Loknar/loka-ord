@@ -4,9 +4,14 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "umferðar",
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "ferðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-umferð-kvk"
+			"kennistrengur": "no-ferð-kvk"
 		},
 		{
 			"beygingar": ["et"],
@@ -18,5 +23,5 @@
 		"mg": ["umferðaröryggið", "umferðaröryggið", "umferðarörygginu", "umferðaröryggisins"]
 	},
 	"kennistrengur": "no-umferðaröryggi-hk",
-	"hash": "5f283ed362cae19ec6737a38c2cacf14a114fa83275d67cc9091bc8f491c08bf"
+	"hash": "98576cfc114bc1ede6b3613fe40af21a0f7ec45226d38eb44e120447340435f9"
 }
