@@ -1,0 +1,147 @@
+{
+	"orð": "ofmeta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"kennistrengur": "so-meta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofmeta",
+		"sagnbót": "ofmetið",
+		"boðháttur": {
+			"stýfður": "ofmet",
+			"et": "ofmettu",
+			"ft": "ofmetið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofmet", "ofmetur", "ofmetur"],
+					"ft": ["ofmetum", "ofmetið", "ofmeta"]
+				},
+				"þátíð": {
+					"et": ["ofmat", "ofmast", "ofmat"],
+					"ft": ["ofmátum", "ofmátuð", "ofmátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofmeti", "ofmetir", "ofmeti"],
+					"ft": ["ofmetum", "ofmetið", "ofmeti"]
+				},
+				"þátíð": {
+					"et": ["ofmæti", "ofmætir", "ofmæti"],
+					"ft": ["ofmætum", "ofmætuð", "ofmætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofmeturðu",
+					"ft": "ofmetiði"
+				},
+				"þátíð": {
+					"et": "ofmastu",
+					"ft": "ofmátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofmetirðu",
+					"ft": "ofmetiði"
+				},
+				"þátíð": {
+					"et": "ofmætirðu",
+					"ft": "ofmætuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ofmetast",
+		"sagnbót": "ofmetist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofmest", "ofmest", "ofmest"],
+					"ft": ["ofmetumst", "ofmetist", "ofmetast"]
+				},
+				"þátíð": {
+					"et": ["ofmast", "ofmast", "ofmast"],
+					"ft": ["ofmátumst", "ofmátust", "ofmátust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofmetist", "ofmetist", "ofmetist"],
+					"ft": ["ofmetumst", "ofmetist", "ofmetist"]
+				},
+				"þátíð": {
+					"et": ["ofmætist", "ofmætist", "ofmætist"],
+					"ft": ["ofmætumst", "ofmætust", "ofmætust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofmest", "ofmest", "ofmest"],
+					"ft": ["ofmest", "ofmest", "ofmest"]
+				},
+				"þátíð": {
+					"et": ["ofmast", "ofmast", "ofmast"],
+					"ft": ["ofmast", "ofmast", "ofmast"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofmetist", "ofmetist", "ofmetist"],
+					"ft": ["ofmetist", "ofmetist", "ofmetist"]
+				},
+				"þátíð": {
+					"et": ["ofmætist", "ofmætist", "ofmætist"],
+					"ft": ["ofmætist", "ofmætist", "ofmætist"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofmetandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofmetinn", "ofmetinn", "ofmetnum", "ofmetins"],
+					"kvk": ["ofmetin", "ofmetna", "ofmetinni", "ofmetinnar"],
+					"hk": ["ofmetið", "ofmetið", "ofmetnu", "ofmetins"]
+				},
+				"ft": {
+					"kk": ["ofmetnir", "ofmetna", "ofmetnum", "ofmetinna"],
+					"kvk": ["ofmetnar", "ofmetnar", "ofmetnum", "ofmetinna"],
+					"hk": ["ofmetin", "ofmetin", "ofmetnum", "ofmetinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ofmetni", "ofmetna", "ofmetna", "ofmetna"],
+					"kvk": ["ofmetna", "ofmetnu", "ofmetnu", "ofmetnu"],
+					"hk": ["ofmetna", "ofmetna", "ofmetna", "ofmetna"]
+				},
+				"ft": {
+					"kk": ["ofmetnu", "ofmetnu", "ofmetnu", "ofmetnu"],
+					"kvk": ["ofmetnu", "ofmetnu", "ofmetnu", "ofmetnu"],
+					"hk": ["ofmetnu", "ofmetnu", "ofmetnu", "ofmetnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofmeta",
+	"hash": "6c3be8047d52a0cd5dc5e9e7033a5cdf6030d36a7635c9297118222819461e38"
+}
