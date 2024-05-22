@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 911 | 934 | 712 | 2557 | 1845 | 2248 | 1981 | 6074 | **8631** |
-| **Lýsingarorð** | 92 |   |   |   | 414 |   |   |   | 1028 | **1442** |
+| **Nafnorð**     |   | 912 | 935 | 712 | 2559 | 1852 | 2251 | 1984 | 6087 | **8646** |
+| **Lýsingarorð** | 92 |   |   |   | 414 |   |   |   | 1029 | **1443** |
 | **Sagnorð**     |   |   |   |   | 793 |   |   |   | 359 | **1152** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 43 |   |   |   | 8 | **51** |
 | **Smáorð**      |   |   |   |   | 280 |   |   |   | 178 | **458** |
-| **Alls** |   |   |   |   | **4157** |   |   |   | **7657** | **11814** |
+| **Alls** |   |   |   |   | **4159** |   |   |   | **7671** | **11830** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,9 +23,9 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   | 9 | 27 | 21 | 57 | 193 | 188 | 170 | 551 | **608** |
 | **Alls**  |   |   |   | **2773** |   |   |   | **16400** | **19173** |
 
-**Samtals:** 30987 orð.
+**Samtals:** 31003 orð.
 
-154 skammstafanir.
+155 skammstafanir.
 
 ## Forkröfur (Requirements)
 
