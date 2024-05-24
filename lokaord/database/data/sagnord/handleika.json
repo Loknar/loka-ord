@@ -1,0 +1,165 @@
+{
+	"orð": "handleika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"kennistrengur": "so-leika"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handleika",
+		"sagnbót": "handleikið",
+		"boðháttur": {
+			"stýfður": "handleik",
+			"et": "handleiktu",
+			"ft": "handleikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handleik", "handleikur", "handleikur"],
+					"ft": ["handleikum", "handleikið", "handleika"]
+				},
+				"þátíð": {
+					"et": ["handlék", "handlékst", "handlék"],
+					"ft": ["handlékum", "handlékuð", "handléku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handleiki", "handleikir", "handleiki"],
+					"ft": ["handleikum", "handleikið", "handleiki"]
+				},
+				"þátíð": {
+					"et": ["handléki", "handlékir", "handléki"],
+					"ft": ["handlékum", "handlékuð", "handlékuð"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufall",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handleikur", "handleikur", "handleikur"],
+					"ft": ["handleikur", "handleikur", "handleikur"]
+				},
+				"þátíð": {
+					"et": ["handlék", "handlék", "handlék"],
+					"ft": ["handlék", "handlék", "handlék"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handleiki", "handleiki", "handleiki"],
+					"ft": ["handleiki", "handleiki", "handleiki"]
+				},
+				"þátíð": {
+					"et": ["handléki", "handléki", "handléki"],
+					"ft": ["handléki", "handléki", "handléki"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handleikurðu",
+					"ft": "handleikiði"
+				},
+				"þátíð": {
+					"et": "handlékstu",
+					"ft": "handlékuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handleikirðu",
+					"ft": "handleikiði"
+				},
+				"þátíð": {
+					"et": "handlékirðu",
+					"ft": "handlékuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "handleikast",
+		"sagnbót": "handleikist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handleikst", "handleikst", "handleikst"],
+					"ft": ["handleikumst", "handleikist", "handleikast"]
+				},
+				"þátíð": {
+					"et": ["handlékst", "handlékst", "handlékst"],
+					"ft": ["handlékumst", "handlékust", "handlékust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handleikist", "handleikist", "handleikist"],
+					"ft": ["handleikumst", "handleikist", "handleikist"]
+				},
+				"þátíð": {
+					"et": ["handlékist", "handlékist", "handlékist"],
+					"ft": ["handlékumst", "handlékust", "handlékust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handleikstu"
+				},
+				"þátíð": {
+					"et": "handlékstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handleikistu"
+				},
+				"þátíð": {
+					"et": "handlékistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handleikandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handleikinn", "handleikinn", "handleiknum", "handleikins"],
+					"kvk": ["handleikin", "handleikna", "handleikinni", "handleikinnar"],
+					"hk": ["handleikið", "handleikið", "handleiknu", "handleikins"]
+				},
+				"ft": {
+					"kk": ["handleiknir", "handleikna", "handleiknum", "handleikinna"],
+					"kvk": ["handleiknar", "handleiknar", "handleiknum", "handleikinna"],
+					"hk": ["handleikin", "handleikin", "handleiknum", "handleikinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handleikni", "handleikna", "handleikna", "handleikna"],
+					"kvk": ["handleikna", "handleiknu", "handleiknu", "handleiknu"],
+					"hk": ["handleikna", "handleikna", "handleikna", "handleikna"]
+				},
+				"ft": {
+					"kk": ["handleiknu", "handleiknu", "handleiknu", "handleiknu"],
+					"kvk": ["handleiknu", "handleiknu", "handleiknu", "handleiknu"],
+					"hk": ["handleiknu", "handleiknu", "handleiknu", "handleiknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handleika",
+	"hash": "d6db2c38a7e94a0a22edf52dfb297cef2a18210a96137b0cd743659fc820a3f7"
+}
