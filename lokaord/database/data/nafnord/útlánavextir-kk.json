@@ -1,0 +1,27 @@
+{
+	"orð": "útlánavextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["útlánavextir", "útlánavexti", "útlánavöxtum", "útlánavaxta"],
+		"mg": ["útlánavextirnir", "útlánavextina", "útlánavöxtunum", "útlánavaxtanna"]
+	},
+	"kennistrengur": "no-útlánavextir-kk",
+	"hash": "dcdeea73e2f3bb2acf3d1e01136e19faa7aad260ab0760937ba81cc33066aa0f"
+}
