@@ -2,10 +2,20 @@
 	"orð": "veikindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "veik",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-veikur"
+		},
+		{
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["veikindi", "veikindi", "veikindum", "veikinda"],
 		"mg": ["veikindin", "veikindin", "veikindunum", "veikindanna"]
 	},
 	"kennistrengur": "no-veikindi-hk",
-	"hash": "91301a5b611328bca88756e49f5203bc928ce1aa4510b94c4b0dd87fbbe949b3"
+	"hash": "07c30d565760c4164ed49590782327eca8963758369d7028278e1cf17ea2d1a6"
 }

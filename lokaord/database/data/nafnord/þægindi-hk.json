@@ -2,10 +2,20 @@
 	"orð": "þægindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "þæg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þægur"
+		},
+		{
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["þægindi", "þægindi", "þægindum", "þæginda"],
 		"mg": ["þægindin", "þægindin", "þægindunum", "þægindanna"]
 	},
 	"kennistrengur": "no-þægindi-hk",
-	"hash": "833b3babadc5d742c1a359cd0169060e63581c2a946e32ace4f645de75a27931"
+	"hash": "ba174bde9d4b437ac356ef7a90207896bef19d1d1d7f0fc3cc5a2dd9ddd2e2c0"
 }

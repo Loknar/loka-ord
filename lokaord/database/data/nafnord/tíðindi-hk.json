@@ -2,10 +2,20 @@
 	"orð": "tíðindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "tíð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tíð-kvk"
+		},
+		{
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["tíðindi", "tíðindi", "tíðindum", "tíðinda"],
 		"mg": ["tíðindin", "tíðindin", "tíðindunum", "tíðindanna"]
 	},
 	"kennistrengur": "no-tíðindi-hk",
-	"hash": "66a36cf51eee68d5c4c6df2b7b7bf51a9e2132980d5a7ff63426766232880de1"
+	"hash": "36171e5accc3973e942e2bd09bc5f188b6fe19a24fd052580173ddf3a99f00b2"
 }

@@ -2,10 +2,20 @@
 	"orð": "líkindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lík",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-líkur"
+		},
+		{
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["líkindi", "líkindi", "líkindum", "líkinda"],
 		"mg": ["líkindin", "líkindin", "líkindunum", "líkindanna"]
 	},
 	"kennistrengur": "no-líkindi-hk",
-	"hash": "08da56572b5276f6f41206e83a4547d70e77f61ef1f92edf50f97bedfff7d0ff"
+	"hash": "0f4850819186392e2c16900b47d7435be8810d75874c364ba8cfce966d0a966c"
 }

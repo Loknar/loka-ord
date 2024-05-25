@@ -2,10 +2,20 @@
 	"orð": "vísindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vís",
+			"samsetning": "stofn",
+			"kennistrengur": "so-vísa"
+		},
+		{
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["vísindi", "vísindi", "vísindum", "vísinda"],
 		"mg": ["vísindin", "vísindin", "vísindunum", "vísindanna"]
 	},
 	"kennistrengur": "no-vísindi-hk",
-	"hash": "b58cc7437089bfd02e5ec1d06b9e9faee713b74bed287b84e1812ec462038310"
+	"hash": "8cce4810dd169e0485d77c5a9ff2d61dc05f527cd77d33f4453c06630a8f6a25"
 }

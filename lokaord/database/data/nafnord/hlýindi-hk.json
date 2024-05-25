@@ -2,10 +2,20 @@
 	"orð": "hlýindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hlý",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hlýr"
+		},
+		{
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["hlýindi", "hlýindi", "hlýindum", "hlýinda"],
 		"mg": ["hlýindin", "hlýindin", "hlýindunum", "hlýindanna"]
 	},
 	"kennistrengur": "no-hlýindi-hk",
-	"hash": "19a6f14ef04bc4b4f566e062cdf927e66893668ec5708830cdca06afc39a7b86"
+	"hash": "15ac5ac5549da326a68d12f61caf5c068fbc983e1a4d2ec0ebf82a761614196b"
 }
