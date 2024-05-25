@@ -1,0 +1,22 @@
+{
+	"orð": "jarðarkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "jarðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["jarðarkaup", "jarðarkaup", "jarðarkaupum", "jarðarkaupa"],
+		"mg": ["jarðarkaupin", "jarðarkaupin", "jarðarkaupunum", "jarðarkaupanna"]
+	},
+	"kennistrengur": "no-jarðarkaup-hk",
+	"hash": "f24ef767797b47e1c77e52a92a04d54d17b803f07152578c64b6a3512d43fafc"
+}
