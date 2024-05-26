@@ -1,0 +1,121 @@
+{
+	"orð": "böðla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "böðl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-böðułl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "böðla",
+		"sagnbót": "böðlað",
+		"boðháttur": {
+			"stýfður": "böðla",
+			"et": "böðlaðu",
+			"ft": "böðlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["böðla", "böðlar", "böðlar"],
+					"ft": ["böðlum", "böðlið", "böðla"]
+				},
+				"þátíð": {
+					"et": ["böðlaði", "böðlaðir", "böðlaði"],
+					"ft": ["böðluðum", "böðluðuð", "böðluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["böðli", "böðlir", "böðli"],
+					"ft": ["böðlum", "böðlið", "böðli"]
+				},
+				"þátíð": {
+					"et": ["böðlaði", "böðlaðir", "böðlaði"],
+					"ft": ["böðluðum", "böðluðuð", "böðluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "böðlarðu",
+					"ft": "böðliði"
+				},
+				"þátíð": {
+					"et": "böðlaðirðu",
+					"ft": "böðluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "böðlirðu",
+					"ft": "böðliði"
+				},
+				"þátíð": {
+					"et": "böðlaðirðu",
+					"ft": "böðluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "böðlast",
+		"sagnbót": "böðlast",
+		"boðháttur": {
+			"et": "böðlastu",
+			"ft": "böðlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["böðlast", "böðlast", "böðlast"],
+					"ft": ["böðlumst", "böðlist", "böðlast"]
+				},
+				"þátíð": {
+					"et": ["böðlaðist", "böðlaðist", "böðlaðist"],
+					"ft": ["böðluðumst", "böðluðust", "böðluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["böðlist", "böðlist", "böðlist"],
+					"ft": ["böðlumst", "böðlist", "böðlist"]
+				},
+				"þátíð": {
+					"et": ["böðlaðist", "böðlaðist", "böðlaðist"],
+					"ft": ["böðluðumst", "böðluðust", "böðluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "böðlastu"
+				},
+				"þátíð": {
+					"et": "böðlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "böðlistu"
+				},
+				"þátíð": {
+					"et": "böðlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "böðlandi"
+	},
+	"kennistrengur": "so-böðla",
+	"hash": "7b003da00ae09bb15949af68e6d7809eed1ed189cb5017633ba54dcca7651fce"
+}
