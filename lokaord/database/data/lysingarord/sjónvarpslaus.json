@@ -1,0 +1,48 @@
+{
+	"orð": "sjónvarpslaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sjón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sjón-kvk"
+		},
+		{
+			"mynd": "varps",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varp-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sjónvarpslaus", "sjónvarpslausan", "sjónvarpslausum", "sjónvarpslauss"],
+				"kvk": ["sjónvarpslaus", "sjónvarpslausa", "sjónvarpslausri", "sjónvarpslausrar"],
+				"hk": ["sjónvarpslaust", "sjónvarpslaust", "sjónvarpslausu", "sjónvarpslauss"]
+			},
+			"ft": {
+				"kk": ["sjónvarpslausir", "sjónvarpslausa", "sjónvarpslausum", "sjónvarpslausra"],
+				"kvk": ["sjónvarpslausar", "sjónvarpslausar", "sjónvarpslausum", "sjónvarpslausra"],
+				"hk": ["sjónvarpslaus", "sjónvarpslaus", "sjónvarpslausum", "sjónvarpslausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sjónvarpslausi", "sjónvarpslausa", "sjónvarpslausa", "sjónvarpslausa"],
+				"kvk": ["sjónvarpslausa", "sjónvarpslausu", "sjónvarpslausu", "sjónvarpslausu"],
+				"hk": ["sjónvarpslausa", "sjónvarpslausa", "sjónvarpslausa", "sjónvarpslausa"]
+			},
+			"ft": {
+				"kk": ["sjónvarpslausu", "sjónvarpslausu", "sjónvarpslausu", "sjónvarpslausu"],
+				"kvk": ["sjónvarpslausu", "sjónvarpslausu", "sjónvarpslausu", "sjónvarpslausu"],
+				"hk": ["sjónvarpslausu", "sjónvarpslausu", "sjónvarpslausu", "sjónvarpslausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sjónvarpslaus",
+	"hash": "fde876a6a6936683d3828a697ec8924bbc7166e47dd9a202ab31abe5c411ae1a"
+}
