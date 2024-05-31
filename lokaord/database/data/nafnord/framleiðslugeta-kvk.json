@@ -1,0 +1,27 @@
+{
+	"orð": "framleiðslugeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðslugeta", "framleiðslugetu", "framleiðslugetu", "framleiðslugetu"],
+		"mg": ["framleiðslugetan", "framleiðslugetuna", "framleiðslugetunni", "framleiðslugetunnar"]
+	},
+	"kennistrengur": "no-framleiðslugeta-kvk",
+	"hash": "583b802b90fbabb703f60af3ba43d84edc87ab05f4fcc38d9ce610690aa04f07"
+}
