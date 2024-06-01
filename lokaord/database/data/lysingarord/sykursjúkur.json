@@ -1,0 +1,43 @@
+{
+	"orð": "sykursjúkur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sykur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sykur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-sjúkur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sykursjúkur", "sykursjúkan", "sykursjúkum", "sykursjúks"],
+				"kvk": ["sykursjúk", "sykursjúka", "sykursjúkri", "sykursjúkrar"],
+				"hk": ["sykursjúkt", "sykursjúkt", "sykursjúku", "sykursjúks"]
+			},
+			"ft": {
+				"kk": ["sykursjúkir", "sykursjúka", "sykursjúkum", "sykursjúkra"],
+				"kvk": ["sykursjúkar", "sykursjúkar", "sykursjúkum", "sykursjúkra"],
+				"hk": ["sykursjúk", "sykursjúk", "sykursjúkum", "sykursjúkra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sykursjúki", "sykursjúka", "sykursjúka", "sykursjúka"],
+				"kvk": ["sykursjúka", "sykursjúku", "sykursjúku", "sykursjúku"],
+				"hk": ["sykursjúka", "sykursjúka", "sykursjúka", "sykursjúka"]
+			},
+			"ft": {
+				"kk": ["sykursjúku", "sykursjúku", "sykursjúku", "sykursjúku"],
+				"kvk": ["sykursjúku", "sykursjúku", "sykursjúku", "sykursjúku"],
+				"hk": ["sykursjúku", "sykursjúku", "sykursjúku", "sykursjúku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sykursjúkur",
+	"hash": "e0f8b69863d215730f294d37d7649aed4240b71edc063f216b1cdf91c6fab745"
+}
