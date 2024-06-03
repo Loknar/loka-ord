@@ -1,0 +1,73 @@
+{
+	"orð": "státa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stát",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stát-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "státa",
+		"sagnbót": "státað",
+		"boðháttur": {
+			"stýfður": "státa",
+			"et": "státaðu",
+			"ft": "státið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["státa", "státar", "státar"],
+					"ft": ["státum", "státið", "státa"]
+				},
+				"þátíð": {
+					"et": ["státaði", "státaðir", "státaði"],
+					"ft": ["státuðum", "státuðuð", "státuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["státi", "státir", "státi"],
+					"ft": ["státum", "státið", "státi"]
+				},
+				"þátíð": {
+					"et": ["státaði", "státaðir", "státaði"],
+					"ft": ["státuðum", "státuðuð", "státuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "státarðu",
+					"ft": "státiði"
+				},
+				"þátíð": {
+					"et": "státaðirðu",
+					"ft": "státuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "státirðu",
+					"ft": "státiði"
+				},
+				"þátíð": {
+					"et": "státaðirðu",
+					"ft": "státuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "státandi"
+	},
+	"kennistrengur": "so-státa",
+	"hash": "29af370eb037a6c78e82938ef2bf9e2a4735fef8ce314930626a24ba1f2a8594"
+}

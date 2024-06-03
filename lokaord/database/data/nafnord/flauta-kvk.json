@@ -2,6 +2,16 @@
 	"orð": "flauta",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flaut",
+			"samsetning": "stofn",
+			"kennistrengur": "so-flauta"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["flauta", "flautu", "flautu", "flautu"],
 		"mg": ["flautan", "flautuna", "flautunni", "flautunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["flauturnar", "flauturnar", "flautunum", "flautanna"]
 	},
 	"kennistrengur": "no-flauta-kvk",
-	"hash": "05c39505c5d15b9ac0752cf8f8785dd68c197afa8d9b547a88ccb37e7f842b86"
+	"hash": "bc8a055e6daddc4d928ba1bccf2a27a852225d2dacb0e8e5b553b6b1e82dcc05"
 }
