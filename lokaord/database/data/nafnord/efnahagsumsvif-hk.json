@@ -1,0 +1,32 @@
+{
+	"orð": "efnahagsumsvif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-svif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["efnahagsumsvif", "efnahagsumsvif", "efnahagsumsvifum", "efnahagsumsvifa"],
+		"mg": ["efnahagsumsvifin", "efnahagsumsvifin", "efnahagsumsvifunum", "efnahagsumsvifanna"]
+	},
+	"kennistrengur": "no-efnahagsumsvif-hk",
+	"hash": "ee04026ec2037863a443733d8c0a5461bc3bc8b53b6d205b29c384192234b71b"
+}
