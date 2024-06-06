@@ -1,0 +1,27 @@
+{
+	"orð": "tölfræðigögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "töl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["tölfræðigögn", "tölfræðigögn", "tölfræðigögnum", "tölfræðigagna"],
+		"mg": ["tölfræðigögnin", "tölfræðigögnin", "tölfræðigögnunum", "tölfræðigagnanna"]
+	},
+	"kennistrengur": "no-tölfræðigögn-hk",
+	"hash": "65a65c34c499e94367b2014c64253dc176f63bc4b396f16d80413bf399b05a4b"
+}

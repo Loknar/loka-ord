@@ -1,0 +1,120 @@
+{
+	"orð": "lemja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lemja",
+		"sagnbót": "lamið",
+		"boðháttur": {
+			"stýfður": "lem",
+			"et": "lemdu",
+			"ft": "lemjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lem", "lemur", "lemur"],
+					"ft": ["lemjum", "lemjið", "lemja"]
+				},
+				"þátíð": {
+					"et": ["lamdi", "lamdir", "lamdi"],
+					"ft": ["lömdum", "lömduð", "lömdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lemji", "lemjir", "lemji"],
+					"ft": ["lemjum", "lemjið", "lemji"]
+				},
+				"þátíð": {
+					"et": ["lemdi", "lemdir", "lemdi"],
+					"ft": ["lemdum", "lemduð", "lemdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lemurðu",
+					"ft": "lemjiði"
+				},
+				"þátíð": {
+					"et": "lamdirðu",
+					"ft": "lömduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lemjirðu",
+					"ft": "lemjiði"
+				},
+				"þátíð": {
+					"et": "lemdirðu",
+					"ft": "lemduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lemjast",
+		"sagnbót": "lamist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lemst", "lemst", "lemst"],
+					"ft": ["lemjumst", "lemjist", "lemjast"]
+				},
+				"þátíð": {
+					"et": ["lamdist", "lamdist", "lamdist"],
+					"ft": ["lömdumst", "lömdust", "lömdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lemjist", "lemjist", "lemjist"],
+					"ft": ["lemjumst", "lemjist", "lemjist"]
+				},
+				"þátíð": {
+					"et": ["lemdist", "lemdist", "lemdist"],
+					"ft": ["lemdumst", "lemdust", "lemdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lemstu"
+				},
+				"þátíð": {
+					"et": "lamdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lemjistu"
+				},
+				"þátíð": {
+					"et": "lemdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lemjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["laminn", "laminn", "lömdum", "lamins"],
+					"kvk": ["lamin", "lamda", "lamdri", "lamdrar"],
+					"hk": ["lamið", "lamið", "lömdu", "lamins"]
+				},
+				"ft": {
+					"kk": ["lamdir", "lamda", "lömdum", "lamdra"],
+					"kvk": ["lamdar", "lamdar", "lömdum", "lamdra"],
+					"hk": ["lamin", "lamin", "lömdum", "lamdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lemja",
+	"hash": "07b8510553a5258f7d2a86151625cfb2c2613c1817ffbaed2f5fdb18806f022c"
+}
