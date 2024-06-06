@@ -1,0 +1,99 @@
+{
+	"orð": "herja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "herj",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-her-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "herja",
+		"sagnbót": "herjað",
+		"boðháttur": {
+			"stýfður": "herja",
+			"et": "herjaðu",
+			"ft": "herjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["herja", "herjar", "herjar"],
+					"ft": ["herjum", "herjið", "herja"]
+				},
+				"þátíð": {
+					"et": ["herjaði", "herjaðir", "herjaði"],
+					"ft": ["herjuðum", "herjuðuð", "herjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["herji", "herjir", "herji"],
+					"ft": ["herjum", "herjið", "herji"]
+				},
+				"þátíð": {
+					"et": ["herjaði", "herjaðir", "herjaði"],
+					"ft": ["herjuðum", "herjuðuð", "herjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "herjarðu",
+					"ft": "herjiði"
+				},
+				"þátíð": {
+					"et": "herjaðirðu",
+					"ft": "herjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "herjirðu",
+					"ft": "herjiði"
+				},
+				"þátíð": {
+					"et": "herjaðirðu",
+					"ft": "herjuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "herjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["herjaður", "herjaðan", "herjuðum", "herjaðs"],
+					"kvk": ["herjuð", "herjaða", "herjaðri", "herjaðrar"],
+					"hk": ["herjað", "herjað", "herjuðu", "herjaðs"]
+				},
+				"ft": {
+					"kk": ["herjaðir", "herjaða", "herjuðum", "herjaðra"],
+					"kvk": ["herjaðar", "herjaðar", "herjuðum", "herjaðra"],
+					"hk": ["herjuð", "herjuð", "herjuðum", "herjaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["herjaði", "herjaða", "herjaða", "herjaða"],
+					"kvk": ["herjaða", "herjuðu", "herjuðu", "herjuðu"],
+					"hk": ["herjaða", "herjaða", "herjaða", "herjaða"]
+				},
+				"ft": {
+					"kk": ["herjuðu", "herjuðu", "herjuðu", "herjuðu"],
+					"kvk": ["herjuðu", "herjuðu", "herjuðu", "herjuðu"],
+					"hk": ["herjuðu", "herjuðu", "herjuðu", "herjuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-herja",
+	"hash": "2cd14aa9adab5771130d5238c264ffca4363995c1efee766048ea1730600edf1"
+}
