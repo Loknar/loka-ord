@@ -1,0 +1,27 @@
+{
+	"orð": "starfsgetumat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "getu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-geta-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["starfsgetumat", "starfsgetumat", "starfsgetumati", "starfsgetumats"],
+		"mg": ["starfsgetumatið", "starfsgetumatið", "starfsgetumatinu", "starfsgetumatsins"]
+	},
+	"kennistrengur": "no-starfsgetumat-hk",
+	"hash": "6fc95b1ee5ba00cb59f06871c07ae7edca80ed0f4ca2ae6f9cdfe2521433c3ce"
+}
