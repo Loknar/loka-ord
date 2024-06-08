@@ -1,0 +1,121 @@
+{
+	"orð": "gatslíta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gat",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gat-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd", "lýsingarháttur"],
+			"kennistrengur": "so-slíta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gatslíta",
+		"sagnbót": "gatslitið",
+		"boðháttur": {
+			"stýfður": "gatslít",
+			"et": "gatslíttu",
+			"ft": "gatslítið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gatslít", "gatslítur", "gatslítur"],
+					"ft": ["gatslítum", "gatslítið", "gatslíta"]
+				},
+				"þátíð": {
+					"et": ["gatsleit", "gatbeist", "gatsleit"],
+					"ft": ["gatslitum", "gatslituð", "gatslitu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gatslíti", "gatslítir", "gatslíti"],
+					"ft": ["gatslítum", "gatslítið", "gatslíti"]
+				},
+				"þátíð": {
+					"et": ["gatsliti", "gatslitir", "gatsliti"],
+					"ft": ["gatslitum", "gatslituð", "gatslitu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gatslítast",
+		"sagnbót": "gatslitist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gatslítist", "gatslítist", "gatslítist"],
+					"ft": ["gatslítumst", "gatslítist", "gatslítast"]
+				},
+				"þátíð": {
+					"et": ["gatbeist", "gatbeist", "gatbeist"],
+					"ft": ["gatslitumst", "gatslitust", "gatslitust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gatslítist", "gatslítist", "gatslítist"],
+					"ft": ["gatslítumst", "gatslítist", "gatslítist"]
+				},
+				"þátíð": {
+					"et": ["gatslitist", "gatslitist", "gatslitist"],
+					"ft": ["gatslitumst", "gatslitust", "gatslitust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gatslítistu"
+				},
+				"þátíð": {
+					"et": "gatslítist"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gatslítistu"
+				},
+				"þátíð": {
+					"et": "gatslitistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gatslítandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gatslitinn", "gatslitinn", "gatslitnum", "gatslitins"],
+					"kvk": ["gatslitin", "gatslitna", "gatslitinni", "gatslitinnar"],
+					"hk": ["gatslitið", "gatslitið", "gatslitnu", "gatslitins"]
+				},
+				"ft": {
+					"kk": ["gatslitnir", "gatslitna", "gatslitnum", "gatslitinna"],
+					"kvk": ["gatslitnar", "gatslitnar", "gatslitnum", "gatslitinna"],
+					"hk": ["gatslitin", "gatslitin", "gatslitnum", "gatslitinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gatslitni", "gatslitna", "gatslitna", "gatslitna"],
+					"kvk": ["gatslitna", "gatslitnu", "gatslitnu", "gatslitnu"],
+					"hk": ["gatslitna", "gatslitna", "gatslitna", "gatslitna"]
+				},
+				"ft": {
+					"kk": ["gatslitnu", "gatslitnu", "gatslitnu", "gatslitnu"],
+					"kvk": ["gatslitnu", "gatslitnu", "gatslitnu", "gatslitnu"],
+					"hk": ["gatslitnu", "gatslitnu", "gatslitnu", "gatslitnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gatslíta",
+	"hash": "49feb4ffe03976ac34f268e85fb79c8ead57fdae4551b3dc20d655ac51812e04"
+}

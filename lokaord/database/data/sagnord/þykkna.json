@@ -1,0 +1,74 @@
+{
+	"orð": "þykkna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þykk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þykkur"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þykkna",
+		"sagnbót": "þykknað",
+		"boðháttur": {
+			"stýfður": "þykkna",
+			"et": "þykknaðu",
+			"ft": "þykknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þykkna", "þykknar", "þykknar"],
+					"ft": ["þykknum", "þykknið", "þykkna"]
+				},
+				"þátíð": {
+					"et": ["þykknaði", "þykknaðir", "þykknaði"],
+					"ft": ["þykknuðum", "þykknuðuð", "þykknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þykkni", "þykknir", "þykkni"],
+					"ft": ["þykknum", "þykknið", "þykkni"]
+				},
+				"þátíð": {
+					"et": ["þykknaði", "þykknaðir", "þykknaði"],
+					"ft": ["þykknuðum", "þykknuðuð", "þykknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þykknarðu",
+					"ft": "þykkniði"
+				},
+				"þátíð": {
+					"et": "þykknaðirðu",
+					"ft": "þykknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þykknirðu",
+					"ft": "þykkniði"
+				},
+				"þátíð": {
+					"et": "þykknaðirðu",
+					"ft": "þykknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þykknandi"
+	},
+	"kennistrengur": "so-þykkna",
+	"hash": "192b74e5d2ebe45b0f224d1b1022b631056cf4f33066c5fe9103e38216327e53"
+}

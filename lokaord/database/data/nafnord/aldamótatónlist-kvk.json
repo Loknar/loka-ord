@@ -1,0 +1,32 @@
+{
+	"orð": "aldamótatónlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "alda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öld-kvk"
+		},
+		{
+			"mynd": "móta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mót-hk"
+		},
+		{
+			"mynd": "tón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tónn-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["aldamótatónlist", "aldamótatónlist", "aldamótatónlist", "aldamótatónlistar"],
+		"mg": ["aldamótatónlistin", "aldamótatónlistina", "aldamótatónlistinni", "aldamótatónlistarinnar"]
+	},
+	"kennistrengur": "no-aldamótatónlist-kvk",
+	"hash": "03194b4f35c9427cb58b7f1b220e94505168a66e48bcc53cd941028b84bae534"
+}
