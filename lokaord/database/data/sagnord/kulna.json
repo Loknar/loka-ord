@@ -1,0 +1,100 @@
+{
+	"orð": "kulna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kul",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kul-hk"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kulna",
+		"sagnbót": "kulnað",
+		"boðháttur": {
+			"stýfður": "kulna",
+			"et": "kulnaðu",
+			"ft": "kulnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kulna", "kulnar", "kulnar"],
+					"ft": ["kulnum", "kulnið", "kulna"]
+				},
+				"þátíð": {
+					"et": ["kulnaði", "kulnaðir", "kulnaði"],
+					"ft": ["kulnuðum", "kulnuðuð", "kulnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kulni", "kulnir", "kulni"],
+					"ft": ["kulnum", "kulnið", "kulni"]
+				},
+				"þátíð": {
+					"et": ["kulnaði", "kulnaðir", "kulnaði"],
+					"ft": ["kulnuðum", "kulnuðuð", "kulnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kulnarðu",
+					"ft": "kulniði"
+				},
+				"þátíð": {
+					"et": "kulnaðirðu",
+					"ft": "kulnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kulnirðu",
+					"ft": "kulniði"
+				},
+				"þátíð": {
+					"et": "kulnaðirðu",
+					"ft": "kulnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kulnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kulnaður", "kulnaðan", "kulnuðum", "kulnaðs"],
+					"kvk": ["kulnuð", "kulnaða", "kulnaðri", "kulnaðrar"],
+					"hk": ["kulnað", "kulnað", "kulnuðu", "kulnaðs"]
+				},
+				"ft": {
+					"kk": ["kulnaðir", "kulnaða", "kulnuðum", "kulnaðra"],
+					"kvk": ["kulnaðar", "kulnaðar", "kulnuðum", "kulnaðra"],
+					"hk": ["kulnuð", "kulnuð", "kulnuðum", "kulnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kulnaði", "kulnaða", "kulnaða", "kulnaða"],
+					"kvk": ["kulnaða", "kulnuðu", "kulnuðu", "kulnuðu"],
+					"hk": ["kulnaða", "kulnaða", "kulnaða", "kulnaða"]
+				},
+				"ft": {
+					"kk": ["kulnuðu", "kulnuðu", "kulnuðu", "kulnuðu"],
+					"kvk": ["kulnuðu", "kulnuðu", "kulnuðu", "kulnuðu"],
+					"hk": ["kulnuðu", "kulnuðu", "kulnuðu", "kulnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kulna",
+	"hash": "6fb25434e53a8cdcef220c9c84a36940c462dde3bb84c1fbd468f8c4ab826c16"
+}

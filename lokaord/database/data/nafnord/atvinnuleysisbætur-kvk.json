@@ -1,0 +1,32 @@
+{
+	"orð": "atvinnuleysisbætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "leysis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leysi-hk-ó"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["atvinnuleysisbætur", "atvinnuleysisbætur", "atvinnuleysisbótum", "atvinnuleysisbóta"],
+		"mg": ["atvinnuleysisbæturnar", "atvinnuleysisbæturnar", "atvinnuleysisbótunum", "atvinnuleysisbótanna"]
+	},
+	"kennistrengur": "no-atvinnuleysisbætur-kvk",
+	"hash": "a11f2999d269182db28e5c7bc5f02b181ce49ccbe4974ee75fa677af93c65690"
+}

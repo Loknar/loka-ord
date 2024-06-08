@@ -1,0 +1,32 @@
+{
+	"orð": "hagsmunasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "muna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-munur-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hagsmunasamtök", "hagsmunasamtök", "hagsmunasamtökum", "hagsmunasamtaka"],
+		"mg": ["hagsmunasamtökin", "hagsmunasamtökin", "hagsmunasamtökunum", "hagsmunasamtakanna"]
+	},
+	"kennistrengur": "no-hagsmunasamtök-hk",
+	"hash": "95ddd5e8da4b273128452c70feb956d08b710842f04f37b420a33ad40502640c"
+}
