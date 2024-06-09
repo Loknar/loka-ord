@@ -1,0 +1,88 @@
+{
+	"orð": "drekka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "drekka",
+		"sagnbót": "drukkið",
+		"boðháttur": {
+			"stýfður": "drekk",
+			"et": "drekktu",
+			"ft": "drekkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["drekk", "drekkur", "drekkur"],
+					"ft": ["drekkum", "drekkið", "drekka"]
+				},
+				"þátíð": {
+					"et": ["drakk", "drakkst", "drakk"],
+					"ft": ["drukkum", "drukkuð", "drukku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["drekki", "drekkir", "drekki"],
+					"ft": ["drekkum", "drekkið", "drekki"]
+				},
+				"þátíð": {
+					"et": ["drykki", "drykkir", "drykki"],
+					"ft": ["drykkjum", "drykkjuð", "drykkju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "drekkurðu",
+					"ft": "drekkiði"
+				},
+				"þátíð": {
+					"et": "drakkstu",
+					"ft": "drukkuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "drekkirðu",
+					"ft": "drekkiði"
+				},
+				"þátíð": {
+					"et": "drykkirðu",
+					"ft": "drykkjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "drekkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["drukkinn", "drukkinn", "drukknum", "drukkins"],
+					"kvk": ["drukkin", "drukkna", "drukkinni", "drukkinnar"],
+					"hk": ["drukkið", "drukkið", "drukknu", "drukkins"]
+				},
+				"ft": {
+					"kk": ["drukknir", "drukkna", "drukknum", "drukkinna"],
+					"kvk": ["drukknar", "drukknar", "drukknum", "drukkinna"],
+					"hk": ["drukkin", "drukkin", "drukknum", "drukkinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["drukkni", "drukkna", "drukkna", "drukkna"],
+					"kvk": ["drukkna", "drukknu", "drukknu", "drukknu"],
+					"hk": ["drukkna", "drukkna", "drukkna", "drukkna"]
+				},
+				"ft": {
+					"kk": ["drukknu", "drukknu", "drukknu", "drukknu"],
+					"kvk": ["drukknu", "drukknu", "drukknu", "drukknu"],
+					"hk": ["drukknu", "drukknu", "drukknu", "drukknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-drekka",
+	"hash": "3058c2ae3e7fc6a298035df0bdbed9924be84a2766e16fa35a89f142c1f4519d"
+}
