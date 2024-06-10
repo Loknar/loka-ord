@@ -1,0 +1,91 @@
+{
+	"orð": "áhættumeta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"mynd": "hættu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hætta-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-meta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "áhættumeta",
+		"sagnbót": "áhættumetið",
+		"boðháttur": {
+			"stýfður": "áhættumet",
+			"et": "áhættumettu",
+			"ft": "áhættumetið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["áhættumet", "áhættumetur", "áhættumetur"],
+					"ft": ["áhættumetum", "áhættumetið", "áhættumeta"]
+				},
+				"þátíð": {
+					"et": ["áhættumat", "áhættumast", "áhættumat"],
+					"ft": ["áhættumátum", "áhættumátuð", "áhættumátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["áhættumeti", "áhættumetir", "áhættumeti"],
+					"ft": ["áhættumetum", "áhættumetið", "áhættumeti"]
+				},
+				"þátíð": {
+					"et": ["áhættumæti", "áhættumætir", "áhættumæti"],
+					"ft": ["áhættumætum", "áhættumætuð", "áhættumætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "áhættumeturðu",
+					"ft": "áhættumetiði"
+				},
+				"þátíð": {
+					"et": "áhættumastu",
+					"ft": "áhættumátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "áhættumetirðu",
+					"ft": "áhættumetiði"
+				},
+				"þátíð": {
+					"et": "áhættumætirðu",
+					"ft": "áhættumætuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["áhættumetinn", "áhættumetinn", "áhættumetnum", "áhættumetins"],
+					"kvk": ["áhættumetin", "áhættumetna", "áhættumetinni", "áhættumetinnar"],
+					"hk": ["áhættumetið", "áhættumetið", "áhættumetnu", "áhættumetins"]
+				},
+				"ft": {
+					"kk": ["áhættumetnir", "áhættumetna", "áhættumetnum", "áhættumetinna"],
+					"kvk": ["áhættumetnar", "áhættumetnar", "áhættumetnum", "áhættumetinna"],
+					"hk": ["áhættumetin", "áhættumetin", "áhættumetnum", "áhættumetinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-áhættumeta",
+	"hash": "5ad88567bc82efccc227f095c90b8e348f89a4122cde33a71d8c3d2f303dfb8e"
+}
