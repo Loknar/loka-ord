@@ -1,0 +1,99 @@
+{
+	"orð": "misbeita",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-beita"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "misbeita",
+		"sagnbót": "misbeitt",
+		"boðháttur": {
+			"stýfður": "misbeit",
+			"et": "misbeittu",
+			"ft": "misbeitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["misbeiti", "misbeitir", "misbeitir"],
+					"ft": ["misbeitum", "misbeitið", "misbeita"]
+				},
+				"þátíð": {
+					"et": ["misbeitti", "misbeittir", "misbeitti"],
+					"ft": ["misbeittum", "misbeittuð", "misbeittu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["misbeiti", "misbeitir", "misbeiti"],
+					"ft": ["misbeitum", "misbeitið", "misbeiti"]
+				},
+				"þátíð": {
+					"et": ["misbeitti", "misbeittir", "misbeitti"],
+					"ft": ["misbeittum", "misbeittuð", "misbeittu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "misbeitirðu",
+					"ft": "misbeitiði"
+				},
+				"þátíð": {
+					"et": "misbeittirðu",
+					"ft": "misbeittuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "misbeitirðu",
+					"ft": "misbeitiði"
+				},
+				"þátíð": {
+					"et": "misbeittirðu",
+					"ft": "misbeittuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "misbeitandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["misbeittur", "misbeittan", "misbeittum", "misbeitts"],
+					"kvk": ["misbeitt", "misbeitta", "misbeittri", "misbeittrar"],
+					"hk": ["misbeitt", "misbeitt", "misbeittu", "misbeitts"]
+				},
+				"ft": {
+					"kk": ["misbeittir", "misbeitta", "misbeittum", "misbeittra"],
+					"kvk": ["misbeittar", "misbeittar", "misbeittum", "misbeittra"],
+					"hk": ["misbeitt", "misbeitt", "misbeittum", "misbeittra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["misbeitti", "misbeitta", "misbeitta", "misbeitta"],
+					"kvk": ["misbeitta", "misbeittu", "misbeittu", "misbeittu"],
+					"hk": ["misbeitta", "misbeitta", "misbeitta", "misbeitta"]
+				},
+				"ft": {
+					"kk": ["misbeittu", "misbeittu", "misbeittu", "misbeittu"],
+					"kvk": ["misbeittu", "misbeittu", "misbeittu", "misbeittu"],
+					"hk": ["misbeittu", "misbeittu", "misbeittu", "misbeittu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-misbeita",
+	"hash": "8c76244b85bcb9d4dbad553e16aa5d05bee256f13959eea16242c6abd2e5eb3b"
+}

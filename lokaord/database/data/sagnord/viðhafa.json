@@ -1,0 +1,87 @@
+{
+	"orð": "viðhafa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hafa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "viðhafa",
+		"sagnbót": "viðhaft",
+		"boðháttur": {
+			"stýfður": "viðhaf",
+			"et": "viðhafðu",
+			"ft": "viðhafið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðhef", "viðhefur", "viðhefur"],
+					"ft": ["viðhöfum", "viðhafið", "viðhafa"]
+				},
+				"þátíð": {
+					"et": ["viðhafði", "viðhafðir", "viðhafði"],
+					"ft": ["viðhöfðum", "viðhöfðuð", "viðhöfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðhafi", "viðhafir", "viðhafi"],
+					"ft": ["viðhöfum", "viðhafið", "viðhafi"]
+				},
+				"þátíð": {
+					"et": ["viðhefði", "viðhefðir", "viðhefði"],
+					"ft": ["viðhefðum", "viðhefðuð", "viðhefðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "viðhefurðu",
+					"ft": "viðhafiði"
+				},
+				"þátíð": {
+					"et": "viðhafðirðu",
+					"ft": "viðhöfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "viðhafirðu",
+					"ft": "viðhafiði"
+				},
+				"þátíð": {
+					"et": "viðhefðirðu",
+					"ft": "viðhefðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "viðhafandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["viðhafður", "viðhafðan", "viðhöfðum", "viðhafðs"],
+					"kvk": ["viðhöfð", "viðhafða", "viðhafðri", "viðhafðrar"],
+					"hk": ["viðhaft", "viðhaft", "viðhöfðu", "viðhafðs"]
+				},
+				"ft": {
+					"kk": ["viðhafðir", "viðhafða", "viðhöfðum", "viðhafðra"],
+					"kvk": ["viðhafðar", "viðhafðar", "viðhöfðum", "viðhafðra"],
+					"hk": ["viðhöfð", "viðhöfð", "viðhöfðum", "viðhafðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-viðhafa",
+	"hash": "ba2bf0c381c79ed2614f669f0738c96a5fd6354bf13e46ba035ea4e7f0c636f3"
+}

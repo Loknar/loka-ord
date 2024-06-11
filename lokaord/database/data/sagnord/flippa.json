@@ -1,0 +1,73 @@
+{
+	"orð": "flippa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flipp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flipp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flippa",
+		"sagnbót": "flippað",
+		"boðháttur": {
+			"stýfður": "flippa",
+			"et": "flippaðu",
+			"ft": "flippið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flippa", "flippar", "flippar"],
+					"ft": ["flippum", "flippið", "flippa"]
+				},
+				"þátíð": {
+					"et": ["flippaði", "flippaðir", "flippaði"],
+					"ft": ["flippuðum", "flippuðuð", "flippuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flippi", "flippir", "flippi"],
+					"ft": ["flippum", "flippið", "flippi"]
+				},
+				"þátíð": {
+					"et": ["flippaði", "flippaðir", "flippaði"],
+					"ft": ["flippuðum", "flippuðuð", "flippuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flipparðu",
+					"ft": "flippiði"
+				},
+				"þátíð": {
+					"et": "flippaðirðu",
+					"ft": "flippuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flippirðu",
+					"ft": "flippiði"
+				},
+				"þátíð": {
+					"et": "flippaðirðu",
+					"ft": "flippuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flippandi"
+	},
+	"kennistrengur": "so-flippa",
+	"hash": "969d4b1957e39eeb4979ae2275471c067ed339c86698d06f0b92d9dd65e8517b"
+}
