@@ -1,0 +1,136 @@
+{
+	"orð": "ryðja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ryðja",
+		"sagnbót": "rutt",
+		"boðháttur": {
+			"stýfður": "ryð",
+			"et": "ryddu",
+			"ft": "ryðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ryð", "ryður", "ryður"],
+					"ft": ["ryðjum", "ryðjið", "ryðja"]
+				},
+				"þátíð": {
+					"et": ["ruddi", "ruddir", "ruddi"],
+					"ft": ["ruddum", "rudduð", "ruddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ryðji", "ryðjir", "ryðji"],
+					"ft": ["ryðjum", "ryðjið", "ryðji"]
+				},
+				"þátíð": {
+					"et": ["ryddi", "ryddir", "ryddi"],
+					"ft": ["ryddum", "rydduð", "ryddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ryðurðu",
+					"ft": "ryðjiði"
+				},
+				"þátíð": {
+					"et": "ruddirðu",
+					"ft": "rudduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ryðjirðu",
+					"ft": "ryðjiði"
+				},
+				"þátíð": {
+					"et": "ryddirðu",
+					"ft": "rydduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ryðjast",
+		"sagnbót": "ruðst",
+		"boðháttur": {
+			"et": "ryðstu",
+			"ft": "ryðjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ryðst", "ryðst", "ryðst"],
+					"ft": ["ryðjumst", "ryðjist", "ryðjast"]
+				},
+				"þátíð": {
+					"et": ["ruddist", "ruddist", "ruddist"],
+					"ft": ["ruddumst", "ruddust", "ruddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ryðjist", "ryðjist", "ryðjist"],
+					"ft": ["ryðjumst", "ryðjist", "ryðjist"]
+				},
+				"þátíð": {
+					"et": ["ryddist", "ryddist", "ryddist"],
+					"ft": ["ryddumst", "ryddust", "ryddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ryðstu"
+				},
+				"þátíð": {
+					"et": "ruddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ryðjistu"
+				},
+				"þátíð": {
+					"et": "ryddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ryðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ruddur", "ruddan", "ruddum", "rudds"],
+					"kvk": ["rudd", "rudda", "ruddri", "ruddrar"],
+					"hk": ["rutt", "rutt", "ruddu", "rudds"]
+				},
+				"ft": {
+					"kk": ["ruddir", "rudda", "ruddum", "ruddra"],
+					"kvk": ["ruddar", "ruddar", "ruddum", "ruddra"],
+					"hk": ["rudd", "rudd", "ruddum", "ruddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ruddi", "rudda", "rudda", "rudda"],
+					"kvk": ["rudda", "ruddu", "ruddu", "ruddu"],
+					"hk": ["rudda", "rudda", "rudda", "rudda"]
+				},
+				"ft": {
+					"kk": ["ruddu", "ruddu", "ruddu", "ruddu"],
+					"kvk": ["ruddu", "ruddu", "ruddu", "ruddu"],
+					"hk": ["ruddu", "ruddu", "ruddu", "ruddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ryðja",
+	"hash": "a3f4365ee44590e29fc0688c1b2ad2c449475f47eff96ae1efd535e973711ecc"
+}
