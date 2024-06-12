@@ -2,6 +2,16 @@
 	"orð": "sending",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "send",
+			"samsetning": "stofn",
+			"kennistrengur": "so-senda"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sending", "sendingu", "sendingu", "sendingar"],
 		"mg": ["sendingin", "sendinguna", "sendingunni", "sendingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["sendingarnar", "sendingarnar", "sendingunum", "sendinganna"]
 	},
 	"kennistrengur": "no-sending-kvk",
-	"hash": "ffd3fff8d61b1834510dc10620a772a5da53ec3197a8c5bb741f702328be71fd"
+	"hash": "7ca6393e9baedfa0c584749cffb7ae1869249bb6260471f07974e85dcb9e1288"
 }
