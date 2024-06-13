@@ -1,0 +1,132 @@
+{
+	"orð": "frétta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "frétta",
+		"sagnbót": "frétt",
+		"boðháttur": {
+			"stýfður": "frétt",
+			"et": "fréttu",
+			"ft": "fréttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frétti", "fréttir", "fréttir"],
+					"ft": ["fréttum", "fréttið", "frétta"]
+				},
+				"þátíð": {
+					"et": ["frétti", "fréttir", "frétti"],
+					"ft": ["fréttum", "fréttuð", "fréttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frétti", "fréttir", "frétti"],
+					"ft": ["fréttum", "fréttið", "frétti"]
+				},
+				"þátíð": {
+					"et": ["frétti", "fréttir", "frétti"],
+					"ft": ["fréttum", "fréttuð", "fréttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fréttirðu",
+					"ft": "fréttiði"
+				},
+				"þátíð": {
+					"et": "fréttirðu",
+					"ft": "fréttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fréttirðu",
+					"ft": "fréttiði"
+				},
+				"þátíð": {
+					"et": "fréttirðu",
+					"ft": "fréttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fréttast",
+		"sagnbót": "hist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fréttist", "fréttist", "fréttist"],
+					"ft": ["fréttumst", "fréttist", "fréttast"]
+				},
+				"þátíð": {
+					"et": ["fréttist", "fréttist", "fréttist"],
+					"ft": ["fréttumst", "fréttust", "fréttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fréttist", "fréttist", "fréttist"],
+					"ft": ["fréttumst", "fréttist", "fréttist"]
+				},
+				"þátíð": {
+					"et": ["fréttist", "fréttist", "fréttist"],
+					"ft": ["fréttumst", "fréttust", "fréttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fréttistu"
+				},
+				"þátíð": {
+					"et": "fréttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fréttistu"
+				},
+				"þátíð": {
+					"et": "fréttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fréttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fréttur", "fréttan", "fréttum", "frétts"],
+					"kvk": ["frétt", "frétta", "fréttri", "fréttrar"],
+					"hk": ["frétt", "frétt", "fréttu", "frétts"]
+				},
+				"ft": {
+					"kk": ["fréttir", "frétta", "fréttum", "fréttra"],
+					"kvk": ["fréttar", "fréttar", "fréttum", "fréttra"],
+					"hk": ["frétt", "frétt", "fréttum", "fréttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["frétti", "frétta", "frétta", "frétta"],
+					"kvk": ["frétta", "fréttu", "fréttu", "fréttu"],
+					"hk": ["frétta", "frétta", "frétta", "frétta"]
+				},
+				"ft": {
+					"kk": ["fréttu", "fréttu", "fréttu", "fréttu"],
+					"kvk": ["fréttu", "fréttu", "fréttu", "fréttu"],
+					"hk": ["fréttu", "fréttu", "fréttu", "fréttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frétta",
+	"hash": "8299db323949c4ad1180f3e23400c3af874ae227b4d12ffdd4054b977b80f78f"
+}

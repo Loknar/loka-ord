@@ -1,0 +1,80 @@
+{
+	"orð": "lykja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lykja",
+		"sagnbót": "lukið",
+		"boðháttur": {
+			"stýfður": "lyk",
+			"et": "lyktu",
+			"ft": "lykið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lyk", "lykur", "lykur"],
+					"ft": ["lykjum", "lykið", "lykja"]
+				},
+				"þátíð": {
+					"et": ["lukti", "luktir", "lukti"],
+					"ft": ["luktum", "luktuð", "luktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lyki", "lykir", "lyki"],
+					"ft": ["lykjum", "lykið", "lyki"]
+				},
+				"þátíð": {
+					"et": ["lykti", "lyktir", "lykti"],
+					"ft": ["lyktum", "lyktuð", "lyktu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lykjast",
+		"sagnbót": "lukist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lykst", "lykst", "lykst"],
+					"ft": ["lykjumst", "lykist", "lykjast"]
+				},
+				"þátíð": {
+					"et": ["luktist", "luktist", "luktist"],
+					"ft": ["luktumst", "luktust", "luktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lykist", "lykist", "lykist"],
+					"ft": ["lykjumst", "lykist", "lykist"]
+				},
+				"þátíð": {
+					"et": ["lyktist", "lyktist", "lyktist"],
+					"ft": ["lyktumst", "lyktust", "lyktust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lykjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lukinn", "lukinn", "luktum", "lukins"],
+					"kvk": ["lukin", "lukta", "lukinni", "lukinnar"],
+					"hk": ["lukið", "lukið", "luktu", "lukins"]
+				},
+				"ft": {
+					"kk": ["luktir", "lukta", "luktum", "lukinna"],
+					"kvk": ["luktar", "luktar", "luktum", "lukinna"],
+					"hk": ["lukin", "lukin", "luktum", "lukinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lykja",
+	"hash": "da63248939ef0e4876be54cc7443d49ea85c25b2830955a86666daf3fa3c292d"
+}
