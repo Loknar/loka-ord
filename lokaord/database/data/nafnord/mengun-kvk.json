@@ -2,10 +2,21 @@
 	"orð": "mengun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "meng",
+			"samsetning": "stofn",
+			"kennistrengur": "so-menga"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["mengun", "mengun", "mengun", "mengunar"],
 		"mg": ["mengunin", "mengunina", "menguninni", "mengunarinnar"]
 	},
 	"kennistrengur": "no-mengun-kvk",
-	"hash": "ef6e9c9f0f70ed59164fd6c84e8756d251c7165d8878487ee8b9b7ec993b57a2"
+	"hash": "0373855b7b4a8007e97e391d1d8879a4a744ad0a8a16f3e0bb334c7f3eba6a20"
 }
