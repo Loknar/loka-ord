@@ -2,6 +2,16 @@
 	"orð": "breyting",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "breyt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-breyta"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["breyting", "breytingu", "breytingu", "breytingar"],
 		"mg": ["breytingin", "breytinguna", "breytingunni", "breytingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["breytingarnar", "breytingarnar", "breytingunum", "breytinganna"]
 	},
 	"kennistrengur": "no-breyting-kvk",
-	"hash": "d83aba3d4ddf44fe63d25d2be4d330d970e437a0f2be5dcb591dc671184be62c"
+	"hash": "425977e93561519cd75eda63264ffbf2d845f8aa731b002c37d0850b3f94ba29"
 }
