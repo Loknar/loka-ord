@@ -1,0 +1,99 @@
+{
+	"orð": "stafsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "staf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stafur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stafsetja",
+		"sagnbót": "stafsett",
+		"boðháttur": {
+			"stýfður": "stafset",
+			"et": "stafsettu",
+			"ft": "stafsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stafset", "stafsetur", "stafsetur"],
+					"ft": ["stafsetjum", "stafsetjið", "stafsetja"]
+				},
+				"þátíð": {
+					"et": ["stafsetti", "stafsettir", "stafsett"],
+					"ft": ["stafsettum", "stafsettuð", "stafsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stafsetji", "stafsetjir", "stafsetji"],
+					"ft": ["stafsetjum", "stafsetjið", "stafsetji"]
+				},
+				"þátíð": {
+					"et": ["stafsetti", "stafsettir", "stafsetti"],
+					"ft": ["stafsettum", "stafsettuð", "stafsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stafseturðu",
+					"ft": "stafsetjiði"
+				},
+				"þátíð": {
+					"et": "stafsettirðu",
+					"ft": "stafsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stafsetjirðu",
+					"ft": "stafsetjiði"
+				},
+				"þátíð": {
+					"et": "stafsettirðu",
+					"ft": "stafsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stafsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stafsettur", "stafsettan", "stafsettum", "stafsetts"],
+					"kvk": ["stafsett", "stafsetta", "stafsettri", "stafsettrar"],
+					"hk": ["stafsett", "stafsett", "stafsettu", "stafsetts"]
+				},
+				"ft": {
+					"kk": ["stafsettir", "stafsetta", "stafsettum", "stafsettra"],
+					"kvk": ["stafsettar", "stafsettar", "stafsettum", "stafsettra"],
+					"hk": ["stafsett", "stafsett", "stafsettum", "stafsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stafsetti", "stafsetta", "stafsetta", "stafsetta"],
+					"kvk": ["stafsetta", "stafsettu", "stafsettu", "stafsettu"],
+					"hk": ["stafsetta", "stafsetta", "stafsetta", "stafsetta"]
+				},
+				"ft": {
+					"kk": ["stafsettu", "stafsettu", "stafsettu", "stafsettu"],
+					"kvk": ["stafsettu", "stafsettu", "stafsettu", "stafsettu"],
+					"hk": ["stafsettu", "stafsettu", "stafsettu", "stafsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stafsetja",
+	"hash": "786af99a58113b4df59e05d3cc4898d73874e8099b44f0d097a5d594e18fd84d"
+}
