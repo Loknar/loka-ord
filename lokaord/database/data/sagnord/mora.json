@@ -1,0 +1,73 @@
+{
+	"orð": "mora",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mor-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mora",
+		"sagnbót": "morað",
+		"boðháttur": {
+			"stýfður": "mora",
+			"et": "moraðu",
+			"ft": "morið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mora", "morar", "morar"],
+					"ft": ["morum", "morið", "mora"]
+				},
+				"þátíð": {
+					"et": ["moraði", "moraðir", "moraði"],
+					"ft": ["moruðum", "moruðuð", "moruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mori", "morir", "mori"],
+					"ft": ["morum", "morið", "mori"]
+				},
+				"þátíð": {
+					"et": ["moraði", "moraðir", "moraði"],
+					"ft": ["moruðum", "moruðuð", "moruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "morarðu",
+					"ft": "moriði"
+				},
+				"þátíð": {
+					"et": "moraðirðu",
+					"ft": "moruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "morirðu",
+					"ft": "moriði"
+				},
+				"þátíð": {
+					"et": "moraðirðu",
+					"ft": "moruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "morandi"
+	},
+	"kennistrengur": "so-mora",
+	"hash": "738012ebccb9803d9991a2e07f8253326577ab897465ee690feacf862fd46a17"
+}
