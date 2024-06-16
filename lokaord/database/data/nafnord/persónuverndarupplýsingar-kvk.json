@@ -1,0 +1,32 @@
+{
+	"orð": "persónuverndarupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["persónuverndarupplýsingar", "persónuverndarupplýsingar", "persónuverndarupplýsingum", "persónuverndarupplýsinga"],
+		"mg": ["persónuverndarupplýsingarnar", "persónuverndarupplýsingarnar", "persónuverndarupplýsingunum", "persónuverndarupplýsinganna"]
+	},
+	"kennistrengur": "no-persónuverndarupplýsingar-kvk",
+	"hash": "9b60c9bfbd1c3c38994314844d7e8e92a833bb84aaee9a62d775e06f5a677740"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "höfundarréttarsamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "höfundar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-höfundur-kk"
+		},
+		{
+			"mynd": "réttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttur-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["höfundarréttarsamtök", "höfundarréttarsamtök", "höfundarréttarsamtökum", "höfundarréttarsamtaka"],
+		"mg": ["höfundarréttarsamtökin", "höfundarréttarsamtökin", "höfundarréttarsamtökunum", "höfundarréttarsamtakanna"]
+	},
+	"kennistrengur": "no-höfundarréttarsamtök-hk",
+	"hash": "8874483f28d86f2e242c751a89de9eddee8bbd8cdd6c1997dc733516180e756d"
+}

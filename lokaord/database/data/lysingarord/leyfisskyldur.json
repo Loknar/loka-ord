@@ -1,0 +1,43 @@
+{
+	"orð": "leyfisskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "leyfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leyfi-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["leyfisskyldur", "leyfisskyldan", "leyfisskyldum", "leyfisskylds"],
+				"kvk": ["leyfisskyld", "leyfisskylda", "leyfisskyldri", "leyfisskyldrar"],
+				"hk": ["leyfisskylt", "leyfisskylt", "leyfisskyldu", "leyfisskylds"]
+			},
+			"ft": {
+				"kk": ["leyfisskyldir", "leyfisskylda", "leyfisskyldum", "leyfisskyldra"],
+				"kvk": ["leyfisskyldar", "leyfisskyldar", "leyfisskyldum", "leyfisskyldra"],
+				"hk": ["leyfisskyld", "leyfisskyld", "leyfisskyldum", "leyfisskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["leyfisskyldi", "leyfisskylda", "leyfisskylda", "leyfisskylda"],
+				"kvk": ["leyfisskylda", "leyfisskyldu", "leyfisskyldu", "leyfisskyldu"],
+				"hk": ["leyfisskylda", "leyfisskylda", "leyfisskylda", "leyfisskylda"]
+			},
+			"ft": {
+				"kk": ["leyfisskyldu", "leyfisskyldu", "leyfisskyldu", "leyfisskyldu"],
+				"kvk": ["leyfisskyldu", "leyfisskyldu", "leyfisskyldu", "leyfisskyldu"],
+				"hk": ["leyfisskyldu", "leyfisskyldu", "leyfisskyldu", "leyfisskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-leyfisskyldur",
+	"hash": "0be3b5b9166b523e1a61533886db8a7698d4ef15afefed970ed2e23a3dba700d"
+}
