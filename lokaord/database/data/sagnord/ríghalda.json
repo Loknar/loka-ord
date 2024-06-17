@@ -1,0 +1,87 @@
+{
+	"orð": "ríghalda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ríg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rígur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-halda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ríghalda",
+		"sagnbót": "ríghaldið",
+		"boðháttur": {
+			"stýfður": "ríghald",
+			"et": "ríghaltu",
+			"ft": "ríghaldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rígheld", "rígheldur", "rígheldur"],
+					"ft": ["ríghöldum", "ríghaldið", "ríghalda"]
+				},
+				"þátíð": {
+					"et": ["ríghélt", "ríghélst", "ríghélt"],
+					"ft": ["ríghéldum", "ríghélduð", "ríghéldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ríghaldi", "ríghaldir", "ríghaldi"],
+					"ft": ["ríghöldum", "ríghaldið", "ríghaldi"]
+				},
+				"þátíð": {
+					"et": ["ríghéldi", "ríghéldir", "ríghéldi"],
+					"ft": ["ríghéldum", "ríghélduð", "ríghéldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rígheldurðu",
+					"ft": "ríghaldiði"
+				},
+				"þátíð": {
+					"et": "ríghélstu",
+					"ft": "ríghélduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ríghaldirðu",
+					"ft": "ríghaldiði"
+				},
+				"þátíð": {
+					"et": "ríghéldirðu",
+					"ft": "ríghélduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ríghaldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ríghaldinn", "ríghaldinn", "ríghöldnum", "ríghaldins"],
+					"kvk": ["ríghaldin", "ríghaldna", "ríghaldinni", "ríghaldinnar"],
+					"hk": ["ríghaldið", "ríghaldið", "ríghöldnu", "ríghaldins"]
+				},
+				"ft": {
+					"kk": ["ríghaldnir", "ríghaldna", "ríghöldnum", "ríghaldinna"],
+					"kvk": ["ríghaldnar", "ríghaldnar", "ríghöldnum", "ríghaldinna"],
+					"hk": ["ríghaldin", "ríghaldin", "ríghöldnum", "ríghaldinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ríghalda",
+	"hash": "27351efc2c8400db7538f5552d949b8534ffaa64802cc5f41da527c4db0222ad"
+}
