@@ -1,0 +1,82 @@
+{
+	"orð": "skuldlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skuldlaus", "skuldlausan", "skuldlausum", "skuldlauss"],
+				"kvk": ["skuldlaus", "skuldlausa", "skuldlausri", "skuldlausrar"],
+				"hk": ["skuldlaust", "skuldlaust", "skuldlausu", "skuldlauss"]
+			},
+			"ft": {
+				"kk": ["skuldlausir", "skuldlausa", "skuldlausum", "skuldlausra"],
+				"kvk": ["skuldlausar", "skuldlausar", "skuldlausum", "skuldlausra"],
+				"hk": ["skuldlaus", "skuldlaus", "skuldlausum", "skuldlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skuldlausi", "skuldlausa", "skuldlausa", "skuldlausa"],
+				"kvk": ["skuldlausa", "skuldlausu", "skuldlausu", "skuldlausu"],
+				"hk": ["skuldlausa", "skuldlausa", "skuldlausa", "skuldlausa"]
+			},
+			"ft": {
+				"kk": ["skuldlausu", "skuldlausu", "skuldlausu", "skuldlausu"],
+				"kvk": ["skuldlausu", "skuldlausu", "skuldlausu", "skuldlausu"],
+				"hk": ["skuldlausu", "skuldlausu", "skuldlausu", "skuldlausu"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["skuldlausari", "skuldlausari", "skuldlausari", "skuldlausari"],
+				"kvk": ["skuldlausari", "skuldlausari", "skuldlausari", "skuldlausari"],
+				"hk": ["skuldlausara", "skuldlausara", "skuldlausara", "skuldlausara"]
+			},
+			"ft": {
+				"kk": ["skuldlausari", "skuldlausari", "skuldlausari", "skuldlausari"],
+				"kvk": ["skuldlausari", "skuldlausari", "skuldlausari", "skuldlausari"],
+				"hk": ["skuldlausari", "skuldlausari", "skuldlausari", "skuldlausari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["skuldlausastur", "skuldlausastan", "skuldlausustum", "skuldlausasts"],
+				"kvk": ["skuldlausust", "skuldlausasta", "skuldlausastri", "skuldlausastrar"],
+				"hk": ["skuldlausast", "skuldlausast", "skuldlausustu", "skuldlausasts"]
+			},
+			"ft": {
+				"kk": ["skuldlausastir", "skuldlausasta", "skuldlausustum", "skuldlausastra"],
+				"kvk": ["skuldlausastar", "skuldlausastar", "skuldlausustum", "skuldlausastra"],
+				"hk": ["skuldlausust", "skuldlausust", "skuldlausustum", "skuldlausastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skuldlausasti", "skuldlausasta", "skuldlausasta", "skuldlausasta"],
+				"kvk": ["skuldlausasta", "skuldlausustu", "skuldlausustu", "skuldlausustu"],
+				"hk": ["skuldlausasta", "skuldlausasta", "skuldlausasta", "skuldlausasta"]
+			},
+			"ft": {
+				"kk": ["skuldlausustu", "skuldlausustu", "skuldlausustu", "skuldlausustu"],
+				"kvk": ["skuldlausustu", "skuldlausustu", "skuldlausustu", "skuldlausustu"],
+				"hk": ["skuldlausustu", "skuldlausustu", "skuldlausustu", "skuldlausustu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skuldlaus",
+	"hash": "559bbd230793ce3fbc6f24ef0e44e5e37768cff56241c41f34f1aab412985bd1"
+}

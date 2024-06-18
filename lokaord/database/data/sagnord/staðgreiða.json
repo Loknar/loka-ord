@@ -1,0 +1,142 @@
+{
+	"orð": "staðgreiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"kennistrengur": "so-greiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "staðgreiða",
+		"sagnbót": "staðgreitt",
+		"boðháttur": {
+			"stýfður": "staðgreið",
+			"et": "staðgreiddu",
+			"ft": "staðgreiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staðgreiði", "staðgreiðir", "staðgreiðir"],
+					"ft": ["staðgreiðum", "staðgreiðið", "staðgreiða"]
+				},
+				"þátíð": {
+					"et": ["staðgreiddi", "staðgreiddir", "staðgreiddi"],
+					"ft": ["staðgreiddum", "staðgreidduð", "staðgreiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staðgreiði", "staðgreiðir", "staðgreiði"],
+					"ft": ["staðgreiðum", "staðgreiðið", "staðgreiði"]
+				},
+				"þátíð": {
+					"et": ["staðgreiddi", "staðgreiddir", "staðgreiddi"],
+					"ft": ["staðgreddum", "staðgreidduð", "staðgreiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staðgreiðirðu",
+					"ft": "staðgreiðiði"
+				},
+				"þátíð": {
+					"et": "staðgreiddirðu",
+					"ft": "staðgreidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staðgreiðirðu",
+					"ft": "staðgreiðiði"
+				},
+				"þátíð": {
+					"et": "staðgreiddirðu",
+					"ft": "staðgreidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "staðgreiðast",
+		"sagnbót": "staðgreiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staðgreiðist", "staðgreiðist", "staðgreiðist"],
+					"ft": ["staðgreiðumst", "staðgreiðist", "staðgreiðast"]
+				},
+				"þátíð": {
+					"et": ["staðgreiddist", "staðgreiddist", "staðgreiddist"],
+					"ft": ["staðgreiddumst", "staðgreiddust", "staðgreiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staðgreiðist", "staðgreiðist", "staðgreiðist"],
+					"ft": ["staðgreiðumst", "staðgreiðist", "staðgreiðist"]
+				},
+				"þátíð": {
+					"et": ["staðgreiddist", "staðgreiddist", "staðgreiddist"],
+					"ft": ["staðgreiddumst", "staðgreiddust", "staðgreiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staðgreiðstu"
+				},
+				"þátíð": {
+					"et": "staðbarstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staðgreiðistu"
+				},
+				"þátíð": {
+					"et": "staðbæristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "staðgreiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["staðgreiddur", "staðgreiddan", "staðgreiddum", "staðgreidds"],
+					"kvk": ["staðgreidd", "staðgreidda", "staðgreiddri", "staðgreiddrar"],
+					"hk": ["staðgreitt", "staðgreitt", "staðgreiddu", "staðgreidds"]
+				},
+				"ft": {
+					"kk": ["staðgreiddir", "staðgreidda", "staðgreiddum", "staðgreiddra"],
+					"kvk": ["staðgreiddar", "staðgreiddar", "staðgreiddum", "staðgreiddra"],
+					"hk": ["staðgreidd", "staðgreidd", "staðgreiddum", "staðgreiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["staðgreiddi", "staðgreidda", "staðgreidda", "staðgreidda"],
+					"kvk": ["staðgreidda", "staðgreiddu", "staðgreiddu", "staðgreiddu"],
+					"hk": ["staðgreidda", "staðgreidda", "staðgreidda", "staðgreidda"]
+				},
+				"ft": {
+					"kk": ["staðgreiddu", "staðgreiddu", "staðgreiddu", "staðgreiddu"],
+					"kvk": ["staðgreiddu", "staðgreiddu", "staðgreiddu", "staðgreiddu"],
+					"hk": ["staðgreiddu", "staðgreiddu", "staðgreiddu", "staðgreiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-staðgreiða",
+	"hash": "70a78694cfe4e200d5a061a2e20675b6699131fe6bd69e054288a9c0882c9ed0"
+}
