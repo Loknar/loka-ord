@@ -1,0 +1,121 @@
+{
+	"orð": "kúfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kúf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kúfur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kúfa",
+		"sagnbót": "kúfað",
+		"boðháttur": {
+			"stýfður": "kúfa",
+			"et": "kúfaðu",
+			"ft": "kúfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kúfa", "kúfar", "kúfar"],
+					"ft": ["kúfum", "kúfið", "kúfa"]
+				},
+				"þátíð": {
+					"et": ["kúfaði", "kúfaðir", "kúfaði"],
+					"ft": ["kúfuðum", "kúfuðuð", "kúfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kúfi", "kúfir", "kúfi"],
+					"ft": ["kúfum", "kúfið", "kúfi"]
+				},
+				"þátíð": {
+					"et": ["kúfaði", "kúfaðir", "kúfaði"],
+					"ft": ["kúfuðum", "kúfuðuð", "kúfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kúfarðu",
+					"ft": "kúfiði"
+				},
+				"þátíð": {
+					"et": "kúfaðirðu",
+					"ft": "kúfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kúfirðu",
+					"ft": "kúfiði"
+				},
+				"þátíð": {
+					"et": "kúfaðirðu",
+					"ft": "kúfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kúfast",
+		"sagnbót": "kúfast",
+		"boðháttur": {
+			"et": "kúfastu",
+			"ft": "kúfist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kúfast", "kúfast", "kúfast"],
+					"ft": ["kúfumst", "kúfist", "kúfast"]
+				},
+				"þátíð": {
+					"et": ["kúfaðist", "kúfaðist", "kúfaðist"],
+					"ft": ["kúfuðumst", "kúfuðust", "kúfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kúfist", "kúfist", "kúfist"],
+					"ft": ["kúfumst", "kúfist", "kúfist"]
+				},
+				"þátíð": {
+					"et": ["kúfaðist", "kúfaðist", "kúfaðist"],
+					"ft": ["kúfuðumst", "kúfuðust", "kúfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kúfastu"
+				},
+				"þátíð": {
+					"et": "kúfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kúfistu"
+				},
+				"þátíð": {
+					"et": "kúfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kúfandi"
+	},
+	"kennistrengur": "so-kúfa",
+	"hash": "7b6ea9e45934e2b7ada79afdd29435269f66757b86f6e440d7ac6b4ad937d0d5"
+}

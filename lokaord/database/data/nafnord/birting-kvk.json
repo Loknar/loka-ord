@@ -2,6 +2,16 @@
 	"orð": "birting",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "birt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-birta"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["birting", "birtingu", "birtingu", "birtingar"],
 		"mg": ["birtingin", "birtinguna", "birtingunni", "birtingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["birtingarnar", "birtingarnar", "birtingunum", "birtinganna"]
 	},
 	"kennistrengur": "no-birting-kvk",
-	"hash": "f81a77dd2fd366418a87c140eae84e10aba11ff77dbe8adba62d1ed4ae6511e3"
+	"hash": "65398309817cfef0d628b99cea5db5a65e048e4a81d06df88ec56b1a10fbb825"
 }

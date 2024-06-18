@@ -1,6 +1,17 @@
 {
 	"orð": "vitaður",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vit",
+			"samsetning": "stofn",
+			"kennistrengur": "so-vita"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -28,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-vitaður",
-	"hash": "5f800e32233bc7fdfe23fd28f00a8ce7b36c5ffcd285e91476ea4631724bf729"
+	"hash": "c1f423480fc4486a002558ac88c7a3f76868c39e407b80421bcf6e2ce3a2ce2f"
 }
