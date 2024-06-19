@@ -2,6 +2,16 @@
 	"orð": "sýning",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sýn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sýna"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sýning", "sýningu", "sýningu", "sýningar"],
 		"mg": ["sýningin", "sýninguna", "sýningunni", "sýningarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["sýningarnar", "sýningarnar", "sýningunum", "sýninganna"]
 	},
 	"kennistrengur": "no-sýning-kvk",
-	"hash": "2068c2d7bfdc528c593b51f93653f31d3885e96730c71dc1f43eebe4fae98e81"
+	"hash": "abd90ace4b28ce449e0929b295f2c57a9867277c0a17dc80664af414af613c79"
 }
