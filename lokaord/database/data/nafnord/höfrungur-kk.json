@@ -2,14 +2,24 @@
 	"orð": "höfrungur",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "höfr",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-haf-hk"
+		},
+		{
+			"kennistrengur": "no-ungur-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["höfrungur", "höfrung", "höfrungi", "höfrungs"],
-		"mg": ["höfrungurinn", "höfrunginn", "höfrunginum", "höfrungsins"]
+		"mg": ["höfrungurinn", "höfrunginn", "höfrungnum", "höfrungsins"]
 	},
 	"ft": {
 		"ág": ["höfrungar", "höfrunga", "höfrungum", "höfrunga"],
 		"mg": ["höfrungarnir", "höfrungana", "höfrungunum", "höfrunganna"]
 	},
 	"kennistrengur": "no-höfrungur-kk",
-	"hash": "d9f04199888374247226e9fd5c2b78f8e7335083de76f437fb182bfa20394884"
+	"hash": "b019017f96bd812ef32f2df6452e82f990f3b3f522a5f2038f762889e92b8b79"
 }

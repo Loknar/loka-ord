@@ -1,0 +1,146 @@
+{
+	"orð": "lesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lest",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lest-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lesta",
+		"sagnbót": "lestað",
+		"boðháttur": {
+			"stýfður": "lesta",
+			"et": "lestaðu",
+			"ft": "lestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lesta", "lestar", "lestar"],
+					"ft": ["lestum", "lestið", "lesta"]
+				},
+				"þátíð": {
+					"et": ["lestaði", "lestaðir", "lestaði"],
+					"ft": ["lestuðum", "lestuðuð", "lestuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lesti", "lestir", "lesti"],
+					"ft": ["lestum", "lestið", "lesti"]
+				},
+				"þátíð": {
+					"et": ["lestaði", "lestaðir", "lestaði"],
+					"ft": ["lestuðum", "lestuðuð", "lestuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lestarðu",
+					"ft": "lestiði"
+				},
+				"þátíð": {
+					"et": "lestaðirðu",
+					"ft": "lestuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lestirðu",
+					"ft": "lestiði"
+				},
+				"þátíð": {
+					"et": "lestaðirðu",
+					"ft": "lestuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lestast",
+		"sagnbót": "lestast",
+		"boðháttur": {
+			"et": "lestastu",
+			"ft": "lestist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lestast", "lestast", "lestast"],
+					"ft": ["lestumst", "lestist", "lestast"]
+				},
+				"þátíð": {
+					"et": ["lestaðist", "lestaðist", "lestaðist"],
+					"ft": ["lestuðumst", "lestuðust", "lestuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lestist", "lestist", "lestist"],
+					"ft": ["lestumst", "lestist", "lestist"]
+				},
+				"þátíð": {
+					"et": ["lestaðist", "lestaðist", "lestaðist"],
+					"ft": ["lestuðumst", "lestuðust", "lestuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lestastu"
+				},
+				"þátíð": {
+					"et": "lestaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lestistu"
+				},
+				"þátíð": {
+					"et": "lestaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lestaður", "lestaðan", "lestuðum", "lestaðs"],
+					"kvk": ["lestuð", "lestaða", "lestaðri", "lestaðrar"],
+					"hk": ["lestað", "lestað", "lestuðu", "lestaðs"]
+				},
+				"ft": {
+					"kk": ["lestaðir", "lestaða", "lestuðum", "lestaðra"],
+					"kvk": ["lestaðar", "lestaðar", "lestuðum", "lestaðra"],
+					"hk": ["lestuð", "lestuð", "lestuðum", "lestaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lestaði", "lestaða", "lestaða", "lestaða"],
+					"kvk": ["lestaða", "lestuðu", "lestuðu", "lestuðu"],
+					"hk": ["lestaða", "lestaða", "lestaða", "lestaða"]
+				},
+				"ft": {
+					"kk": ["lestuðu", "lestuðu", "lestuðu", "lestuðu"],
+					"kvk": ["lestuðu", "lestuðu", "lestuðu", "lestuðu"],
+					"hk": ["lestuðu", "lestuðu", "lestuðu", "lestuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lesta",
+	"hash": "ed3988fbb96862fbbc87994a26660cfcf2221346af40d76b196bab1a3bbaddbb"
+}

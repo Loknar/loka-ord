@@ -1,0 +1,99 @@
+{
+	"orð": "aflesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-lesta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aflesta",
+		"sagnbót": "aflestað",
+		"boðháttur": {
+			"stýfður": "aflesta",
+			"et": "aflestaðu",
+			"ft": "aflestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aflesta", "aflestar", "aflestar"],
+					"ft": ["aflestum", "aflestið", "aflesta"]
+				},
+				"þátíð": {
+					"et": ["aflestaði", "aflestaðir", "aflestaði"],
+					"ft": ["aflestuðum", "aflestuðuð", "aflestuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aflesti", "aflestir", "aflesti"],
+					"ft": ["aflestum", "aflestið", "aflesti"]
+				},
+				"þátíð": {
+					"et": ["aflestaði", "aflestaðir", "aflestaði"],
+					"ft": ["aflestuðum", "aflestuðuð", "aflestuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aflestarðu",
+					"ft": "aflestiði"
+				},
+				"þátíð": {
+					"et": "aflestaðirðu",
+					"ft": "aflestuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aflestirðu",
+					"ft": "aflestiði"
+				},
+				"þátíð": {
+					"et": "aflestaðirðu",
+					"ft": "aflestuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aflestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aflestaður", "aflestaðan", "aflestuðum", "aflestaðs"],
+					"kvk": ["aflestuð", "aflestaða", "aflestaðri", "aflestaðrar"],
+					"hk": ["aflestað", "aflestað", "aflestuðu", "aflestaðs"]
+				},
+				"ft": {
+					"kk": ["aflestaðir", "aflestaða", "aflestuðum", "aflestaðra"],
+					"kvk": ["aflestaðar", "aflestaðar", "aflestuðum", "aflestaðra"],
+					"hk": ["aflestuð", "aflestuð", "aflestuðum", "aflestaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["aflestaði", "aflestaða", "aflestaða", "aflestaða"],
+					"kvk": ["aflestaða", "aflestuðu", "aflestuðu", "aflestuðu"],
+					"hk": ["aflestaða", "aflestaða", "aflestaða", "aflestaða"]
+				},
+				"ft": {
+					"kk": ["aflestuðu", "aflestuðu", "aflestuðu", "aflestuðu"],
+					"kvk": ["aflestuðu", "aflestuðu", "aflestuðu", "aflestuðu"],
+					"hk": ["aflestuðu", "aflestuðu", "aflestuðu", "aflestuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aflesta",
+	"hash": "ac84670187c86d9052680e085690b162e95dcc1311f5232fd70ef796366d3444"
+}
