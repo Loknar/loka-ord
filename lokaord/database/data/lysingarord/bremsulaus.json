@@ -1,0 +1,43 @@
+{
+	"orð": "bremsulaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bremsu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bremsa-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bremsulaus", "bremsulausan", "bremsulausum", "bremsulauss"],
+				"kvk": ["bremsulaus", "bremsulausa", "bremsulausri", "bremsulausrar"],
+				"hk": ["bremsulaust", "bremsulaust", "bremsulausu", "bremsulauss"]
+			},
+			"ft": {
+				"kk": ["bremsulausir", "bremsulausa", "bremsulausum", "bremsulausra"],
+				"kvk": ["bremsulausar", "bremsulausar", "bremsulausum", "bremsulausra"],
+				"hk": ["bremsulaus", "bremsulaus", "bremsulausum", "bremsulausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bremsulausi", "bremsulausa", "bremsulausa", "bremsulausa"],
+				"kvk": ["bremsulausa", "bremsulausu", "bremsulausu", "bremsulausu"],
+				"hk": ["bremsulausa", "bremsulausa", "bremsulausa", "bremsulausa"]
+			},
+			"ft": {
+				"kk": ["bremsulausu", "bremsulausu", "bremsulausu", "bremsulausu"],
+				"kvk": ["bremsulausu", "bremsulausu", "bremsulausu", "bremsulausu"],
+				"hk": ["bremsulausu", "bremsulausu", "bremsulausu", "bremsulausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bremsulaus",
+	"hash": "29d438dbba534407af3b4de62d38e35287369e8d696256911561e6b036d5dbb5"
+}
