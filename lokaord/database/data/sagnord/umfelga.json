@@ -1,0 +1,104 @@
+{
+	"orð": "umfelga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "felg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-felga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umfelga",
+		"sagnbót": "umfelgað",
+		"boðháttur": {
+			"stýfður": "umfelga",
+			"et": "umfelgaðu",
+			"ft": "umfelgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umfelga", "umfelgar", "umfelgar"],
+					"ft": ["umfelgum", "umfelgið", "umfelga"]
+				},
+				"þátíð": {
+					"et": ["umfelgaði", "umfelgaðir", "umfelgaði"],
+					"ft": ["umfelguðum", "umfelguðuð", "umfelguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umfelgi", "umfelgir", "umfelgi"],
+					"ft": ["umfelgum", "umfelgið", "umfelgi"]
+				},
+				"þátíð": {
+					"et": ["umfelgaði", "umfelgaðir", "umfelgaði"],
+					"ft": ["umfelguðum", "umfelguðuð", "umfelguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umfelgarðu",
+					"ft": "umfelgiði"
+				},
+				"þátíð": {
+					"et": "umfelgaðirðu",
+					"ft": "umfelguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umfelgirðu",
+					"ft": "umfelgiði"
+				},
+				"þátíð": {
+					"et": "umfelgaðirðu",
+					"ft": "umfelguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umfelgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umfelgaður", "umfelgaðan", "umfelguðum", "umfelgaðs"],
+					"kvk": ["umfelguð", "umfelgaða", "umfelgaðri", "umfelgaðrar"],
+					"hk": ["umfelgað", "umfelgað", "umfelguðu", "umfelgaðs"]
+				},
+				"ft": {
+					"kk": ["umfelgaðir", "umfelgaða", "umfelguðum", "umfelgaðra"],
+					"kvk": ["umfelgaðar", "umfelgaðar", "umfelguðum", "umfelgaðra"],
+					"hk": ["umfelguð", "umfelguð", "umfelguðum", "umfelgaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["umfelgaði", "umfelgaða", "umfelgaða", "umfelgaða"],
+					"kvk": ["umfelgaða", "umfelguðu", "umfelguðu", "umfelguðu"],
+					"hk": ["umfelgaða", "umfelgaða", "umfelgaða", "umfelgaða"]
+				},
+				"ft": {
+					"kk": ["umfelguðu", "umfelguðu", "umfelguðu", "umfelguðu"],
+					"kvk": ["umfelguðu", "umfelguðu", "umfelguðu", "umfelguðu"],
+					"hk": ["umfelguðu", "umfelguðu", "umfelguðu", "umfelguðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umfelga",
+	"hash": "dec3f698134f57c557cf0d0eaea5dfffb68083ea7b5b8434348bed597a3cadcb"
+}
