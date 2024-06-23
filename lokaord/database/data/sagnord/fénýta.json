@@ -1,0 +1,99 @@
+{
+	"orð": "fénýta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fé",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-nýta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fénýta",
+		"sagnbót": "fénýtt",
+		"boðháttur": {
+			"stýfður": "fénút",
+			"et": "fénýttu",
+			"ft": "fénýtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fénýti", "fénýtir", "fénýtir"],
+					"ft": ["fénýtum", "fénýtið", "fénýta"]
+				},
+				"þátíð": {
+					"et": ["fénýtti", "fénýttir", "fénýtti"],
+					"ft": ["fénýttum", "fénýttuð", "fénýttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fénýti", "fénýtir", "fénýti"],
+					"ft": ["fénýtum", "fénýtið", "fénýti"]
+				},
+				"þátíð": {
+					"et": ["fénýtti", "fénýttir", "fénýtti"],
+					"ft": ["fénýttum", "fénýttuð", "fénýttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fénýtirðu",
+					"ft": "fénýtiði"
+				},
+				"þátíð": {
+					"et": "fénýttirðu",
+					"ft": "fénýttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fénýtirðu",
+					"ft": "fénýtiði"
+				},
+				"þátíð": {
+					"et": "fénýttirðu",
+					"ft": "fénýttuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fénýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fénýttur", "fénýttan", "fénýttum", "fénýtts"],
+					"kvk": ["fénýtt", "fénýtta", "fénýttri", "fénýttrar"],
+					"hk": ["fénýttt", "fénýttt", "fénýttu", "fénýtts"]
+				},
+				"ft": {
+					"kk": ["fénýttir", "fénýtta", "fénýttum", "fénýttra"],
+					"kvk": ["fénýttar", "fénýttar", "fénýttum", "fénýttra"],
+					"hk": ["fénýtt", "fénýtt", "fénýttum", "fénýttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fénýtti", "fénýtta", "fénýtta", "fénýtta"],
+					"kvk": ["fénýtta", "fénýttu", "fénýttu", "fénýttu"],
+					"hk": ["fénýtta", "fénýtta", "fénýtta", "fénýtta"]
+				},
+				"ft": {
+					"kk": ["fénýttu", "fénýttu", "fénýttu", "fénýttu"],
+					"kvk": ["fénýttu", "fénýttu", "fénýttu", "fénýttu"],
+					"hk": ["fénýttu", "fénýttu", "fénýttu", "fénýttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fénýta",
+	"hash": "0b26886484844dcd74210f7e75369edba9c11cde11172629f86261fa7447797e"
+}
