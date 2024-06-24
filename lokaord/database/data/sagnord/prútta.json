@@ -1,0 +1,87 @@
+{
+	"orð": "prútta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "prútt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-prútt-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "prútta",
+		"sagnbót": "prúttað",
+		"boðháttur": {
+			"stýfður": "prútta",
+			"et": "prúttaðu",
+			"ft": "prúttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["prútta", "prúttar", "prúttar"],
+					"ft": ["prúttum", "prúttið", "prútta"]
+				},
+				"þátíð": {
+					"et": ["prúttaði", "prúttaðir", "prúttaði"],
+					"ft": ["prúttuðum", "prúttuðuð", "prúttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["prútti", "prúttir", "prútti"],
+					"ft": ["prúttum", "prúttið", "prútti"]
+				},
+				"þátíð": {
+					"et": ["prúttaði", "prúttaðir", "prúttaði"],
+					"ft": ["prúttuðum", "prúttuðuð", "prúttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "prúttarðu",
+					"ft": "prúttiði"
+				},
+				"þátíð": {
+					"et": "prúttaðirðu",
+					"ft": "prúttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "prúttirðu",
+					"ft": "prúttiði"
+				},
+				"þátíð": {
+					"et": "prúttaðirðu",
+					"ft": "prúttuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "prúttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["prúttaður", "prúttaðan", "prúttuðum", "prúttaðs"],
+					"kvk": ["prúttuð", "prúttaða", "prúttaðri", "prúttaðrar"],
+					"hk": ["prúttað", "prúttað", "prúttuðu", "prúttaðs"]
+				},
+				"ft": {
+					"kk": ["prúttaðir", "prúttaða", "prúttuðum", "prúttaðra"],
+					"kvk": ["prúttaðar", "prúttaðar", "prúttuðum", "prúttaðra"],
+					"hk": ["prúttuð", "prúttuð", "prúttuðum", "prúttaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-prútta",
+	"hash": "2c656173beecf69cc327699b0b5dc4d288fc24200907aab924622eae3832a5b9"
+}
