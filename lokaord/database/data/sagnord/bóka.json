@@ -1,0 +1,146 @@
+{
+	"orð": "bóka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bóka",
+		"sagnbót": "bókað",
+		"boðháttur": {
+			"stýfður": "bóka",
+			"et": "bókaðu",
+			"ft": "bókið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bóka", "bókar", "bókar"],
+					"ft": ["bókum", "bókið", "bóka"]
+				},
+				"þátíð": {
+					"et": ["bókaði", "bókaðir", "bókaði"],
+					"ft": ["bókuðum", "bókuðuð", "bókuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bóki", "bókir", "bóki"],
+					"ft": ["bókum", "bókið", "bóki"]
+				},
+				"þátíð": {
+					"et": ["bókaði", "bókaðir", "bókaði"],
+					"ft": ["bókuðum", "bókuðuð", "bókuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bókarðu",
+					"ft": "bókiði"
+				},
+				"þátíð": {
+					"et": "bókaðirðu",
+					"ft": "bókuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bókirðu",
+					"ft": "bókiði"
+				},
+				"þátíð": {
+					"et": "bókaðirðu",
+					"ft": "bókuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bókast",
+		"sagnbót": "bókast",
+		"boðháttur": {
+			"et": "bókastu",
+			"ft": "bókist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bókast", "bókast", "bókast"],
+					"ft": ["bókumst", "bókist", "bókast"]
+				},
+				"þátíð": {
+					"et": ["bókaðist", "bókaðist", "bókaðist"],
+					"ft": ["bókuðumst", "bókuðust", "bókuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bókist", "bókist", "bókist"],
+					"ft": ["bókumst", "bókist", "bókist"]
+				},
+				"þátíð": {
+					"et": ["bókaðist", "bókaðist", "bókaðist"],
+					"ft": ["bókuðumst", "bókuðust", "bókuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bókastu"
+				},
+				"þátíð": {
+					"et": "bókaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bókistu"
+				},
+				"þátíð": {
+					"et": "bókaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bókandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bókaður", "bókaðan", "bókuðum", "bókaðs"],
+					"kvk": ["bókuð", "bókaða", "bókaðri", "bókaðrar"],
+					"hk": ["bókað", "bókað", "bókuðu", "bókaðs"]
+				},
+				"ft": {
+					"kk": ["bókaðir", "bókaða", "bókuðum", "bókaðra"],
+					"kvk": ["bókaðar", "bókaðar", "bókuðum", "bókaðra"],
+					"hk": ["bókuð", "bókuð", "bókuðum", "bókaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["bókaði", "bókaða", "bókaða", "bókaða"],
+					"kvk": ["bókaða", "bókuðu", "bókuðu", "bókuðu"],
+					"hk": ["bókaða", "bókaða", "bókaða", "bókaða"]
+				},
+				"ft": {
+					"kk": ["bókuðu", "bókuðu", "bókuðu", "bókuðu"],
+					"kvk": ["bókuðu", "bókuðu", "bókuðu", "bókuðu"],
+					"hk": ["bókuðu", "bókuðu", "bókuðu", "bókuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bóka",
+	"hash": "823118aad8167d2ca5a9ddea2e9998489240be005f735e725de4f705f910fee6"
+}
