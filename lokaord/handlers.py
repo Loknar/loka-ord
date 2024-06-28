@@ -2725,11 +2725,11 @@ class Sagnord(Ord):
 			)
 		# germynd ópersónuleg
 		if isl_so.Germynd_opersonuleg_frumlag == isl.Fall.Tholfall:
-			ord_data['germynd']['ópersónuleg']['frumlag'] = 'þolfall'
+			ord_data['germynd']['ópersónuleg']['frumlag'] = structs.Fall.Tholfall.value
 		elif isl_so.Germynd_opersonuleg_frumlag == isl.Fall.Thagufall:
-			ord_data['germynd']['ópersónuleg']['frumlag'] = 'þágufall'
+			ord_data['germynd']['ópersónuleg']['frumlag'] = structs.Fall.Thagufall.value
 		elif isl_so.Germynd_opersonuleg_frumlag == isl.Fall.Eignarfall:
-			ord_data['germynd']['ópersónuleg']['frumlag'] = 'eignarfall'
+			ord_data['germynd']['ópersónuleg']['frumlag'] = structs.Fall.Eignarfall.value
 		if isl_so.fk_Germynd_opersonuleg_framsoguhattur is not None:
 			ord_data['germynd']['ópersónuleg']['framsöguháttur'] = (
 				self.load_sagnbeyging_from_db(isl_so.fk_Germynd_opersonuleg_framsoguhattur)
@@ -2788,11 +2788,11 @@ class Sagnord(Ord):
 			)
 		# miðmynd ópersónuleg
 		if isl_so.Midmynd_opersonuleg_frumlag == isl.Fall.Tholfall:
-			ord_data['miðmynd']['ópersónuleg']['frumlag'] = 'þolfall'
+			ord_data['miðmynd']['ópersónuleg']['frumlag'] = structs.Fall.Tholfall.value
 		elif isl_so.Midmynd_opersonuleg_frumlag == isl.Fall.Thagufall:
-			ord_data['miðmynd']['ópersónuleg']['frumlag'] = 'þágufall'
+			ord_data['miðmynd']['ópersónuleg']['frumlag'] = structs.Fall.Thagufall.value
 		elif isl_so.Midmynd_opersonuleg_frumlag == isl.Fall.Eignarfall:
-			ord_data['miðmynd']['ópersónuleg']['frumlag'] = 'eignarfall'
+			ord_data['miðmynd']['ópersónuleg']['frumlag'] = structs.Fall.Eignarfall.value
 		if isl_so.fk_Midmynd_opersonuleg_framsoguhattur is not None:
 			ord_data['miðmynd']['ópersónuleg']['framsöguháttur'] = (
 				self.load_sagnbeyging_from_db(isl_so.fk_Midmynd_opersonuleg_framsoguhattur)

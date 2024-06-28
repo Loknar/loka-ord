@@ -180,16 +180,16 @@ class SagnordaBeygingar(str, Enum):
 
 
 class Fall(str, Enum):
-	Nefnifall = 'nefnifall'
-	Tholfall = 'þolfall'
-	Thagufall = 'þágufall'
-	Eignarfall = 'eignarfall'
+	Nefnifall = 'nefnifałl'
+	Tholfall = 'þolfałl'
+	Thagufall = 'þágufałl'
+	Eignarfall = 'eignarfałl'
 
 
 class Fall2(str, Enum):
-	Tholfall = 'þolfall'
-	Thagufall = 'þágufall'
-	Eignarfall = 'eignarfall'
+	Tholfall = 'þolfałl'
+	Thagufall = 'þágufałl'
+	Eignarfall = 'eignarfałl'
 
 
 class Persona(str, Enum):
