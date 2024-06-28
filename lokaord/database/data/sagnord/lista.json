@@ -1,0 +1,146 @@
+{
+	"orð": "lista",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "list",
+			"samsetning": "stofn",
+			"kennistrengur": "no-listi-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lista",
+		"sagnbót": "listað",
+		"boðháttur": {
+			"stýfður": "lista",
+			"et": "listaðu",
+			"ft": "listið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lista", "listar", "listar"],
+					"ft": ["listum", "listið", "lista"]
+				},
+				"þátíð": {
+					"et": ["listaði", "listaðir", "listaði"],
+					"ft": ["listuðum", "listuðuð", "listuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["listi", "listir", "listi"],
+					"ft": ["listum", "listið", "listi"]
+				},
+				"þátíð": {
+					"et": ["listaði", "listaðir", "listaði"],
+					"ft": ["listuðum", "listuðuð", "listuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "listarðu",
+					"ft": "listiði"
+				},
+				"þátíð": {
+					"et": "listaðirðu",
+					"ft": "listuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "listirðu",
+					"ft": "listiði"
+				},
+				"þátíð": {
+					"et": "listaðirðu",
+					"ft": "listuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "listast",
+		"sagnbót": "listast",
+		"boðháttur": {
+			"et": "listastu",
+			"ft": "listist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["listast", "listast", "listast"],
+					"ft": ["listumst", "listist", "listast"]
+				},
+				"þátíð": {
+					"et": ["listaðist", "listaðist", "listaðist"],
+					"ft": ["listuðumst", "listuðust", "listuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["listist", "listist", "listist"],
+					"ft": ["listumst", "listist", "listist"]
+				},
+				"þátíð": {
+					"et": ["listaðist", "listaðist", "listaðist"],
+					"ft": ["listuðumst", "listuðust", "listuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "listastu"
+				},
+				"þátíð": {
+					"et": "listaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lististu"
+				},
+				"þátíð": {
+					"et": "listaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "listandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["listaður", "listaðan", "listuðum", "listaðs"],
+					"kvk": ["listuð", "listaða", "listaðri", "listaðrar"],
+					"hk": ["listað", "listað", "listuðu", "listaðs"]
+				},
+				"ft": {
+					"kk": ["listaðir", "listaða", "listuðum", "listaðra"],
+					"kvk": ["listaðar", "listaðar", "listuðum", "listaðra"],
+					"hk": ["listuð", "listuð", "listuðum", "listaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["listaði", "listaða", "listaða", "listaða"],
+					"kvk": ["listaða", "listuðu", "listuðu", "listuðu"],
+					"hk": ["listaða", "listaða", "listaða", "listaða"]
+				},
+				"ft": {
+					"kk": ["listuðu", "listuðu", "listuðu", "listuðu"],
+					"kvk": ["listuðu", "listuðu", "listuðu", "listuðu"],
+					"hk": ["listuðu", "listuðu", "listuðu", "listuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lista",
+	"hash": "c6a3882a3ac989b9bb1d00bc61f4431531705208179fbe978f948fbcec68dc2a"
+}

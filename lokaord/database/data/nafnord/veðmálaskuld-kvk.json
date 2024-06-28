@@ -1,0 +1,30 @@
+{
+	"orð": "veðmálaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["veðmálaskuld", "veðmálaskuld", "veðmálaskuld", "veðmálaskuldar"],
+		"mg": ["veðmálaskuldin", "veðmálaskuldina", "veðmálaskuldinni", "veðmálaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["veðmálaskuldir", "veðmálaskuldir", "veðmálaskuldum", "veðmálaskulda"],
+		"mg": ["veðmálaskuldirnar", "veðmálaskuldirnar", "veðmálaskuldunum", "veðmálaskuldanna"]
+	},
+	"kennistrengur": "no-veðmálaskuld-kvk",
+	"hash": "66626a745f942be5ebd863485e22634a254bf6b865bd839bec489130b02454e1"
+}
