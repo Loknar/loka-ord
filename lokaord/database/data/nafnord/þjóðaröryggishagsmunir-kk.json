@@ -1,0 +1,32 @@
+{
+	"orð": "þjóðaröryggishagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "þjóðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "öryggis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öryggi-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["þjóðaröryggishagsmunir", "þjóðaröryggishagsmuni", "þjóðaröryggishagsmunum", "þjóðaröryggishagsmuna"],
+		"mg": ["þjóðaröryggishagsmunirnir", "þjóðaröryggishagsmunina", "þjóðaröryggishagsmununum", "þjóðaröryggishagsmunanna"]
+	},
+	"kennistrengur": "no-þjóðaröryggishagsmunir-kk",
+	"hash": "49d085efe9c36807c05d1f6eeaa8fe4540d37b8a415890ccbb26abe59171cd81"
+}

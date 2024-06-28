@@ -1,0 +1,73 @@
+{
+	"orð": "njósna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "njósn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-njósn-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "njósna",
+		"sagnbót": "njósnað",
+		"boðháttur": {
+			"stýfður": "njósna",
+			"et": "njósnaðu",
+			"ft": "njósnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["njósna", "njósnar", "njósnar"],
+					"ft": ["njósnum", "njósnið", "njósna"]
+				},
+				"þátíð": {
+					"et": ["njósnaði", "njósnaðir", "njósnaði"],
+					"ft": ["njósnuðum", "njósnuðuð", "njósnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["njósni", "njósnir", "njósni"],
+					"ft": ["njósnum", "njósnið", "njósni"]
+				},
+				"þátíð": {
+					"et": ["njósnaði", "njósnaðir", "njósnaði"],
+					"ft": ["njósnuðum", "njósnuðuð", "njósnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "njósnarðu",
+					"ft": "njósniði"
+				},
+				"þátíð": {
+					"et": "njósnaðirðu",
+					"ft": "njósnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "njósnirðu",
+					"ft": "njósniði"
+				},
+				"þátíð": {
+					"et": "njósnaðirðu",
+					"ft": "njósnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "njósnandi"
+	},
+	"kennistrengur": "so-njósna",
+	"hash": "d0c3b3a9cba0751a6b651d2257c2866ebc43b811330d491bee233aaa270f768a"
+}
