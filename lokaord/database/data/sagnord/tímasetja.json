@@ -1,0 +1,99 @@
+{
+	"orð": "tímasetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tíma",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tímasetja",
+		"sagnbót": "tímasett",
+		"boðháttur": {
+			"stýfður": "tímaset",
+			"et": "tímasettu",
+			"ft": "tímasetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tímaset", "tímasetur", "tímasetur"],
+					"ft": ["tímasetjum", "tímasetjið", "tímasetja"]
+				},
+				"þátíð": {
+					"et": ["tímasetti", "tímasettir", "tímasett"],
+					"ft": ["tímasettum", "tímasettuð", "tímasettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tímasetji", "tímasetjir", "tímasetji"],
+					"ft": ["tímasetjum", "tímasetjið", "tímasetji"]
+				},
+				"þátíð": {
+					"et": ["tímasetti", "tímasettir", "tímasetti"],
+					"ft": ["tímasettum", "tímasettuð", "tímasettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tímaseturðu",
+					"ft": "tímasetjiði"
+				},
+				"þátíð": {
+					"et": "tímasettirðu",
+					"ft": "tímasettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tímasetjirðu",
+					"ft": "tímasetjiði"
+				},
+				"þátíð": {
+					"et": "tímasettirðu",
+					"ft": "tímasettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tímasetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tímasettur", "tímasettan", "tímasettum", "tímasetts"],
+					"kvk": ["tímasett", "tímasetta", "tímasettri", "tímasettrar"],
+					"hk": ["tímasett", "tímasett", "tímasettu", "tímasetts"]
+				},
+				"ft": {
+					"kk": ["tímasettir", "tímasetta", "tímasettum", "tímasettra"],
+					"kvk": ["tímasettar", "tímasettar", "tímasettum", "tímasettra"],
+					"hk": ["tímasett", "tímasett", "tímasettum", "tímasettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tímasetti", "tímasetta", "tímasetta", "tímasetta"],
+					"kvk": ["tímasetta", "tímasettu", "tímasettu", "tímasettu"],
+					"hk": ["tímasetta", "tímasetta", "tímasetta", "tímasetta"]
+				},
+				"ft": {
+					"kk": ["tímasettu", "tímasettu", "tímasettu", "tímasettu"],
+					"kvk": ["tímasettu", "tímasettu", "tímasettu", "tímasettu"],
+					"hk": ["tímasettu", "tímasettu", "tímasettu", "tímasettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tímasetja",
+	"hash": "5a02198567d7d2378c416b540573e9e4e5ca9fe3ad4accd25cf9488d568eabb9"
+}
