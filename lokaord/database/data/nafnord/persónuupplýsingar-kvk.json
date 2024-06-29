@@ -1,0 +1,22 @@
+{
+	"orð": "persónuupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["persónuupplýsingar", "persónuupplýsingar", "persónuupplýsingum", "persónuupplýsinga"],
+		"mg": ["persónuupplýsingarnar", "persónuupplýsingarnar", "persónuupplýsingunum", "persónuupplýsinganna"]
+	},
+	"kennistrengur": "no-persónuupplýsingar-kvk",
+	"hash": "b272ec39dc524bc44926c0fa6b7753667eda4154377c6609c73fbfe76cd1fb4b"
+}
