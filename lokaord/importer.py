@@ -77,11 +77,22 @@ def import_datafiles_to_db():
 	# samsett-orð with void kennistrengur
 	# these are usually words samsett/combined from other samsett-orð
 	logman.info('Retrying importing samsett orð made of orð with void kennistrengur.')
+	logman.info('Arranging list of samsett orð made of orð with void kennistrengur ..')
 	task_retries_arranged = arrange_task_retries(task_retries)  # order matters here
+	task_retries_arranged_count = len(task_retries_arranged)
+	logman.info('Amount of words to retry: %s' % (task_retries_arranged_count, ))
+	index = 0
 	for task in task_retries_arranged:
 		handler = task['handler']
 		ord_file = task['file']
-		logman.debug('Orð file "%s"' % (ord_file, ))
+		if index % 100 == 0:
+			logman.info('Orð file "%s" (%s/%s)' % (
+				ord_file, index + 1, task_retries_arranged_count
+			))
+		else:
+			logman.debug('Orð file "%s" (%s/%s)' % (
+				ord_file, index + 1, task_retries_arranged_count
+			))
 		isl_ord = handler()
 		isl_ord.load_from_file(ord_file)
 		_, changes_made = isl_ord.write_to_db()
@@ -89,6 +100,7 @@ def import_datafiles_to_db():
 			logman.debug('Orð %s in file "%s" was changed.' % (
 				isl_ord.data.kennistrengur, ord_file
 			))
+		index += 1
 	# skammstafanir
 	logman.info('Importing skammstafanir.')
 	for skammstofun_file in handlers.Skammstofun.get_files_list_sorted():
