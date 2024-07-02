@@ -1,0 +1,32 @@
+{
+	"orð": "kaldavatnsinntak",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "lo-kaldur"
+		},
+		{
+			"mynd": "vatns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vatn-hk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"et": {
+		"ág": ["kaldavatnsinntak", "kaldavatnsinntak", "kaldavatnsinntaki", "kaldavatnsinntaks"],
+		"mg": ["kaldavatnsinntakið", "kaldavatnsinntakið", "kaldavatnsinntakinu", "kaldavatnsinntaksins"]
+	},
+	"kennistrengur": "no-kaldavatnsinntak-hk",
+	"hash": "f9ce7aec8111087e0a0ba9cbfba05264c8979bbf6575f483f018db95d08a7d8d"
+}

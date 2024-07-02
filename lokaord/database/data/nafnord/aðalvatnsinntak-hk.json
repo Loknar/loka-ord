@@ -1,0 +1,32 @@
+{
+	"orð": "aðalvatnsinntak",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "aðal",
+			"samsetning": "stofn",
+			"kennistrengur": "no-aðal-hk"
+		},
+		{
+			"mynd": "vatns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vatn-hk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"et": {
+		"ág": ["aðalvatnsinntak", "aðalvatnsinntak", "aðalvatnsinntaki", "aðalvatnsinntaks"],
+		"mg": ["aðalvatnsinntakið", "aðalvatnsinntakið", "aðalvatnsinntakinu", "aðalvatnsinntaksins"]
+	},
+	"kennistrengur": "no-aðalvatnsinntak-hk",
+	"hash": "d28744707b4ea5de700ad3c7fb997fa2c78d89067651560b0c69ff230d3c309d"
+}
