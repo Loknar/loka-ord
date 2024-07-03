@@ -1,0 +1,132 @@
+{
+	"orð": "gjalda",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gjalda",
+		"sagnbót": "goldið",
+		"boðháttur": {
+			"stýfður": "gjald",
+			"et": "gjaltu",
+			"ft": "gjaldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geld", "geldur", "geldur"],
+					"ft": ["gjöldum", "gjaldið", "gjalda"]
+				},
+				"þátíð": {
+					"et": ["galt", "galst", "galt"],
+					"ft": ["guldum", "gulduð", "guldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjaldi", "gjaldir", "gjaldi"],
+					"ft": ["gjöldum", "gjaldið", "gjaldi"]
+				},
+				"þátíð": {
+					"et": ["gyldi", "gyldir", "gyldi"],
+					"ft": ["gyldum", "gylduð", "gyldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geldurðu",
+					"ft": "gjaldiði"
+				},
+				"þátíð": {
+					"et": "galstu",
+					"ft": "gulduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjaldirðu",
+					"ft": "gjaldiði"
+				},
+				"þátíð": {
+					"et": "gyldirðu",
+					"ft": "gylduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gjaldast",
+		"sagnbót": "goldist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gelst", "gelst", "gelst"],
+					"ft": ["gjöldumst", "gjaldist", "gjaldast"]
+				},
+				"þátíð": {
+					"et": ["galst", "galst", "galst"],
+					"ft": ["guldumst", "guldust", "guldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjaldist", "gjaldist", "gjaldist"],
+					"ft": ["gjöldumst", "gjaldist", "gjaldist"]
+				},
+				"þátíð": {
+					"et": ["gyldist", "gyldist", "gyldist"],
+					"ft": ["gyldumst", "gyldust", "gyldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gelstu"
+				},
+				"þátíð": {
+					"et": "galstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjaldistu"
+				},
+				"þátíð": {
+					"et": "gyldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjaldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["goldinn", "goldinn", "goldnum", "goldins"],
+					"kvk": ["goldin", "goldna", "goldinni", "goldinnar"],
+					"hk": ["goldið", "goldið", "goldnu", "goldins"]
+				},
+				"ft": {
+					"kk": ["goldnir", "goldna", "goldnum", "goldinna"],
+					"kvk": ["goldnar", "goldnar", "goldnum", "goldinna"],
+					"hk": ["goldin", "goldin", "goldnum", "goldinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["goldni", "goldna", "goldna", "goldna"],
+					"kvk": ["goldna", "goldnu", "goldnu", "goldnu"],
+					"hk": ["goldna", "goldna", "goldna", "goldna"]
+				},
+				"ft": {
+					"kk": ["goldnu", "goldnu", "goldnu", "goldnu"],
+					"kvk": ["goldnu", "goldnu", "goldnu", "goldnu"],
+					"hk": ["goldnu", "goldnu", "goldnu", "goldnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjalda",
+	"hash": "606bfc4b0392166bf7f891f651622ef685a2f4ff24acfe0be20920ade82b3643"
+}

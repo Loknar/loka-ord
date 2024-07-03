@@ -1,0 +1,27 @@
+{
+	"orð": "hryðjuverkavá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hryðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hryðja-kvk"
+		},
+		{
+			"mynd": "verka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hryðjuverkavá", "hryðjuverkavá", "hryðjuverkavá", "hryðjuverkavár"],
+		"mg": ["hryðjuverkaváin", "hryðjuverkavána", "hryðjuverkavánni", "hryðjuverkavárinnar"]
+	},
+	"kennistrengur": "no-hryðjuverkavá-kvk",
+	"hash": "a2884589f9f93dcb4238a4f87b3c739f059083674e9e19f17e9aa339b1e1137c"
+}
