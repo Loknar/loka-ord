@@ -1,0 +1,43 @@
+{
+	"orð": "kveðinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kveð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-kveða"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kveðinn", "kveðinn", "kveðnum", "kveðins"],
+				"kvk": ["kveðin", "kveðna", "kveðinni", "kveðinnar"],
+				"hk": ["kveðið", "kveðið", "kveðnu", "kveðins"]
+			},
+			"ft": {
+				"kk": ["kveðnir", "kveðna", "kveðnum", "kveðinna"],
+				"kvk": ["kveðnar", "kveðnar", "kveðnum", "kveðinna"],
+				"hk": ["kveðin", "kveðin", "kveðnum", "kveðinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kveðni", "kveðna", "kveðna", "kveðna"],
+				"kvk": ["kveðna", "kveðnu", "kveðnu", "kveðnu"],
+				"hk": ["kveðna", "kveðna", "kveðna", "kveðna"]
+			},
+			"ft": {
+				"kk": ["kveðnu", "kveðnu", "kveðnu", "kveðnu"],
+				"kvk": ["kveðnu", "kveðnu", "kveðnu", "kveðnu"],
+				"hk": ["kveðnu", "kveðnu", "kveðnu", "kveðnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kveðinn",
+	"hash": "e79d43a21ae76279177f704ef43ddf8daec2198887d81be19807d41815b8ce38"
+}

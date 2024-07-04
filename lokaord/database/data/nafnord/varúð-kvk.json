@@ -2,10 +2,21 @@
 	"orð": "varúð",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "var",
+			"samsetning": "stofn",
+			"kennistrengur": "no-var-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-úð-kvk"
+		}
+	],
 	"et": {
 		"ág": ["varúð", "varúð", "varúð", "varúðar"],
 		"mg": ["varúðin", "varúðina", "varúðinni", "varúðarinnar"]
 	},
 	"kennistrengur": "no-varúð-kvk",
-	"hash": "dec7ad80fc717d09e6d8bf0e4e4c49af36087232d6e055a777ce219062a4ec10"
+	"hash": "1e9f590fb63feda4fd1fc3767b7a17f20608df78fea6d74105a3e273696a5967"
 }
