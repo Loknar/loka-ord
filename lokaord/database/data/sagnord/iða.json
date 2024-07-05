@@ -1,0 +1,73 @@
+{
+	"orð": "iða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ið-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "iða",
+		"sagnbót": "iðað",
+		"boðháttur": {
+			"stýfður": "iða",
+			"et": "iðaðu",
+			"ft": "iðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["iða", "iðar", "iðar"],
+					"ft": ["iðum", "iðið", "iða"]
+				},
+				"þátíð": {
+					"et": ["iðaði", "iðaðir", "iðaði"],
+					"ft": ["iðuðum", "iðuðuð", "iðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["iði", "iðir", "iði"],
+					"ft": ["iðum", "iðið", "iði"]
+				},
+				"þátíð": {
+					"et": ["iðaði", "iðaðir", "iðaði"],
+					"ft": ["iðuðum", "iðuðuð", "iðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "iðarðu",
+					"ft": "iðiði"
+				},
+				"þátíð": {
+					"et": "iðaðirðu",
+					"ft": "iðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "iðirðu",
+					"ft": "iðiði"
+				},
+				"þátíð": {
+					"et": "iðaðirðu",
+					"ft": "iðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "iðandi"
+	},
+	"kennistrengur": "so-iða",
+	"hash": "21dc49dee20f1f9f374d594f49dda0206f60c7160726f5f4c36c4e5d9c36e979"
+}
