@@ -1,0 +1,136 @@
+{
+	"orð": "strjúka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "strjúka",
+		"sagnbót": "strokið",
+		"boðháttur": {
+			"stýfður": "strjúk",
+			"et": "strjúktu",
+			"ft": "strjúkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["strýk", "strýkur", "strýkur"],
+					"ft": ["strjúkum", "strjúkið", "strjúka"]
+				},
+				"þátíð": {
+					"et": ["strauk", "straukst", "strauk"],
+					"ft": ["strukum", "strukuð", "struku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["strjúki", "strjúkir", "strjúki"],
+					"ft": ["strjúkum", "strjúkið", "strjúki"]
+				},
+				"þátíð": {
+					"et": ["stryki", "strykir", "stryki"],
+					"ft": ["strykjum", "strykjuð", "strykju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "strýkurðu",
+					"ft": "strjúkiði"
+				},
+				"þátíð": {
+					"et": "straukstu",
+					"ft": "strukuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "strjúkirðu",
+					"ft": "strjúkiði"
+				},
+				"þátíð": {
+					"et": "strykirðu",
+					"ft": "strykjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stjúkast",
+		"sagnbót": "stjúkast",
+		"boðháttur": {
+			"et": "stjúkstu",
+			"ft": "stjúkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["strýkst", "strýkst", "strýkst"],
+					"ft": ["stjúkumst", "stjúkist", "stjúkast"]
+				},
+				"þátíð": {
+					"et": ["straukst", "straukst", "straukst"],
+					"ft": ["strukumst", "strukust", "strukust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stjúkist", "stjúkist", "stjúkist"],
+					"ft": ["stjúkumst", "stjúkist", "stjúkist"]
+				},
+				"þátíð": {
+					"et": ["strykist", "strykist", "strykist"],
+					"ft": ["strykjumst", "strykjust", "strykjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "strýkstu"
+				},
+				"þátíð": {
+					"et": "straukstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stjúkistu"
+				},
+				"þátíð": {
+					"et": "strykistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "strjúkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["strokinn", "strokinn", "stroknum", "strokins"],
+					"kvk": ["strokin", "strokna", "strokinni", "strokinnar"],
+					"hk": ["strokið", "strokið", "stroknu", "strokins"]
+				},
+				"ft": {
+					"kk": ["stroknir", "strokna", "stroknum", "strokinna"],
+					"kvk": ["stroknar", "stroknar", "stroknum", "strokinna"],
+					"hk": ["strokin", "strokin", "stroknum", "strokinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["strokni", "strokna", "strokna", "strokna"],
+					"kvk": ["strokna", "stroknu", "stroknu", "stroknu"],
+					"hk": ["strokna", "strokna", "strokna", "strokna"]
+				},
+				"ft": {
+					"kk": ["stroknu", "stroknu", "stroknu", "stroknu"],
+					"kvk": ["stroknu", "stroknu", "stroknu", "stroknu"],
+					"hk": ["stroknu", "stroknu", "stroknu", "stroknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-strjúka",
+	"hash": "53183ea3bca586592794dea16ba9c51ac187094ed372c2a4cdb48674a10976e9"
+}

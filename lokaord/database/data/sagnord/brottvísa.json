@@ -1,0 +1,99 @@
+{
+	"orð": "brottvísa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brott",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-brott"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-vísa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brottvísa",
+		"sagnbót": "brottvísað",
+		"boðháttur": {
+			"stýfður": "brottvísa",
+			"et": "brottvísaðu",
+			"ft": "brottvísið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brottvísa", "brottvísar", "brottvísar"],
+					"ft": ["brottvísum", "brottvísið", "brottvísa"]
+				},
+				"þátíð": {
+					"et": ["brottvísaði", "brottvísaðir", "brottvísaði"],
+					"ft": ["brottvísuðum", "brottvísuðuð", "brottvísuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brottvísi", "brottvísir", "brottvísi"],
+					"ft": ["brottvísum", "brottvísið", "brottvísi"]
+				},
+				"þátíð": {
+					"et": ["brottvísaði", "brottvísaðir", "brottvísaði"],
+					"ft": ["brottvísuðum", "brottvísuðuð", "brottvísuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brottvísarðu",
+					"ft": "brottvísiði"
+				},
+				"þátíð": {
+					"et": "brottvísaðirðu",
+					"ft": "brottvísuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brottvísirðu",
+					"ft": "brottvísiði"
+				},
+				"þátíð": {
+					"et": "brottvísaðirðu",
+					"ft": "brottvísuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brottvísandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brottvísaður", "brottvísaðan", "brottvísuðum", "brottvísaðs"],
+					"kvk": ["brottvísuð", "brottvísaða", "brottvísaðri", "brottvísaðrar"],
+					"hk": ["brottvísað", "brottvísað", "brottvísuðu", "brottvísaðs"]
+				},
+				"ft": {
+					"kk": ["brottvísaðir", "brottvísaða", "brottvísuðum", "brottvísaðra"],
+					"kvk": ["brottvísaðar", "brottvísaðar", "brottvísðuðum", "brottvísaðra"],
+					"hk": ["brottvísuð", "brottvísuð", "brottvísuðum", "brottvísaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["brottvísaði", "brottvísaða", "brottvísaða", "brottvísaða"],
+					"kvk": ["brottvísaða", "brottvísuðu", "brottvísuðu", "brottvísuðu"],
+					"hk": ["brottvísaða", "brottvísaða", "brottvísaða", "brottvísaða"]
+				},
+				"ft": {
+					"kk": ["brottvísuðu", "brottvísuðu", "brottvísuðu", "brottvísuðu"],
+					"kvk": ["brottvísuðu", "brottvísuðu", "brottvísuðu", "brottvísuðu"],
+					"hk": ["brottvísuðu", "brottvísuðu", "brottvísuðu", "brottvísuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brottvísa",
+	"hash": "10c6b7c433d6d9be2c64c549adc0e51939de2587ec695a72a1a7b073c33cf213"
+}

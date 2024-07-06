@@ -1,0 +1,155 @@
+{
+	"orð": "kyssa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kyssa",
+		"sagnbót": "kysst",
+		"boðháttur": {
+			"stýfður": "kyss",
+			"et": "kysstu",
+			"ft": "kyssið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyssi", "kyssir", "kyssir"],
+					"ft": ["kyssum", "kyssið", "kyssa"]
+				},
+				"þátíð": {
+					"et": ["kyssti", "kysstir", "kyssti"],
+					"ft": ["kysstum", "kysstuð", "kysstu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyssi", "kyssir", "kyssi"],
+					"ft": ["kyssum", "kyssið", "kyssi"]
+				},
+				"þátíð": {
+					"et": ["kyssti", "kysstir", "kyssti"],
+					"ft": ["kysstum", "kysstuð", "kysstu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "eignarfałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyssir", "kyssir", "kyssir"],
+					"ft": ["kyssir", "kyssir", "kyssir"]
+				},
+				"þátíð": {
+					"et": ["kyssti", "kyssti", "kyssti"],
+					"ft": ["kyssti", "kyssti", "kyssti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyssi", "kyssi", "kyssi"],
+					"ft": ["kyssi", "kyssi", "kyssi"]
+				},
+				"þátíð": {
+					"et": ["kyssti", "kyssti", "kyssti"],
+					"ft": ["kyssti", "kyssti", "kyssti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyssirðu",
+					"ft": "kyssiði"
+				},
+				"þátíð": {
+					"et": "kysstirðu",
+					"ft": "kysstuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyssirðu",
+					"ft": "kyssiði"
+				},
+				"þátíð": {
+					"et": "kysstirðu",
+					"ft": "kysstuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kyssast",
+		"sagnbót": "kysst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyssist", "kyssist", "kyssist"],
+					"ft": ["kyssumst", "kyssist", "kyssast"]
+				},
+				"þátíð": {
+					"et": ["kysstist", "kysstist", "kysstist"],
+					"ft": ["kysstumst", "kysstust", "kysstust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyssist", "kyssist", "kyssist"],
+					"ft": ["kyssumst", "kyssist", "kyssist"]
+				},
+				"þátíð": {
+					"et": ["kysstist", "kysstist", "kysstist"],
+					"ft": ["kysstumst", "kysstust", "kysstust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyssistu"
+				},
+				"þátíð": {
+					"et": "kysstistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyssistu"
+				},
+				"þátíð": {
+					"et": "kyssistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kyssandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kysstur", "kysstan", "kysstum", "kyssts"],
+					"kvk": ["kysst", "kyssta", "kysstri", "kysstrar"],
+					"hk": ["kysst", "kysst", "kysstu", "kyssts"]
+				},
+				"ft": {
+					"kk": ["kysstir", "kyssta", "kysstum", "kysstra"],
+					"kvk": ["kysstar", "kysstar", "kysstum", "kysstra"],
+					"hk": ["kysst", "kysst", "kysstum", "kysstra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kyssti", "kyssta", "kyssta", "kyssta"],
+					"kvk": ["kyssta", "kysstu", "kysstu", "kysstu"],
+					"hk": ["kyssta", "kyssta", "kyssta", "kyssta"]
+				},
+				"ft": {
+					"kk": ["kysstu", "kysstu", "kysstu", "kysstu"],
+					"kvk": ["kysstu", "kysstu", "kysstu", "kysstu"],
+					"hk": ["kysstu", "kysstu", "kysstu", "kysstu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kyssa",
+	"hash": "6ab14e075913c7c6fbdf133382e21f7081c5de71ee43f54e5fe16b918be8829a"
+}
