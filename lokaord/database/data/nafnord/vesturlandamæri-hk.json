@@ -1,0 +1,27 @@
+{
+	"orð": "vesturlandamæri",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vestur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vestur-hk"
+		},
+		{
+			"mynd": "landa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mæri-hk"
+		}
+	],
+	"ft": {
+		"ág": ["vesturlandamæri", "vesturlandamæri", "vesturlandamærum", "vesturlandamæra"],
+		"mg": ["vesturlandamærin", "vesturlandamærin", "vesturlandamærunum", "vesturlandamæranna"]
+	},
+	"kennistrengur": "no-vesturlandamæri-hk",
+	"hash": "c5b7b338c5e8d59db4d5ba6dabd0d33fb287f10517ad205370c4b33496a34eac"
+}
