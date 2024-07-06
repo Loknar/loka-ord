@@ -1,0 +1,27 @@
+{
+	"orð": "efnahagsstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["efnahagsstaða", "efnahagsstöðu", "efnahagsstöðu", "efnahagsstöðu"],
+		"mg": ["efnahagsstaðan", "efnahagsstöðuna", "efnahagsstöðunni", "efnahagsstöðunnar"]
+	},
+	"kennistrengur": "no-efnahagsstaða-kvk",
+	"hash": "047aff1fca513a1dcb83291f4225c787a79d73e9e475fef676968d202cea93aa"
+}

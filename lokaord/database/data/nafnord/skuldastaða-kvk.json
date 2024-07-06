@@ -1,0 +1,22 @@
+{
+	"orð": "skuldastaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldastaða", "skuldastöðu", "skuldastöðu", "skuldastöðu"],
+		"mg": ["skuldastaðan", "skuldastöðuna", "skuldastöðunni", "skuldastöðunnar"]
+	},
+	"kennistrengur": "no-skuldastaða-kvk",
+	"hash": "6e99bbc99cffdf7c107f611336d4feec50c1102a375258a20c705674cff52810"
+}
