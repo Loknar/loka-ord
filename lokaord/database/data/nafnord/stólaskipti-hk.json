@@ -5,17 +5,18 @@
 	"samsett": [
 		{
 			"mynd": "stóla",
+			"samsetning": "eignarfalls",
 			"kennistrengur": "no-stółl-kk"
 		},
 		{
-			"beygingar": ["et"],
+			"beygingar": ["ft"],
 			"kennistrengur": "no-skipti-hk"
 		}
 	],
-	"et": {
-		"ág": ["stólaskipti", "stólaskipti", "stólaskipti", "stólaskiptis"],
-		"mg": ["stólaskiptið", "stólaskiptið", "stólaskiptinu", "stólaskiptisins"]
+	"ft": {
+		"ág": ["stólaskipti", "stólaskipti", "stólaskiptum", "stólaskipta"],
+		"mg": ["stólaskiptin", "stólaskiptin", "stólaskiptunum", "stólaskiptanna"]
 	},
 	"kennistrengur": "no-stólaskipti-hk",
-	"hash": "4ad9f3206e787fd90d8e3ff7b502f97925db8b292c430084981299822113e466"
+	"hash": "9f8379329ede2b276f200ef9cafdec71c2187e75876d72df017b58f0eadb7d24"
 }
