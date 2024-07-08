@@ -1,0 +1,25 @@
+{
+	"orð": "leiguskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["leiguskuld", "leiguskuld", "leiguskuld", "leiguskuldar"],
+		"mg": ["leiguskuldin", "leiguskuldina", "leiguskuldinni", "leiguskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["leiguskuldir", "leiguskuldir", "leiguskuldum", "leiguskulda"],
+		"mg": ["leiguskuldirnar", "leiguskuldirnar", "leiguskuldunum", "leiguskuldanna"]
+	},
+	"kennistrengur": "no-leiguskuld-kvk",
+	"hash": "56f8e622334075f38b2cb5160fa79b6b60117cbac7ef4dbbc625015e34f18952"
+}
