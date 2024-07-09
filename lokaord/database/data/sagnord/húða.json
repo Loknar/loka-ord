@@ -1,0 +1,146 @@
+{
+	"orð": "húða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "húð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-húð-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "húða",
+		"sagnbót": "húðað",
+		"boðháttur": {
+			"stýfður": "húða",
+			"et": "húðaðu",
+			"ft": "húðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húða", "húðar", "húðar"],
+					"ft": ["húðum", "húðið", "húða"]
+				},
+				"þátíð": {
+					"et": ["húðaði", "húðaðir", "húðaði"],
+					"ft": ["húðuðum", "húðuðuð", "húðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húði", "húðir", "húði"],
+					"ft": ["húðum", "húðið", "húði"]
+				},
+				"þátíð": {
+					"et": ["húðaði", "húðaðir", "húðaði"],
+					"ft": ["húðuðum", "húðuðuð", "húðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "húðarðu",
+					"ft": "húðiði"
+				},
+				"þátíð": {
+					"et": "húðaðirðu",
+					"ft": "húðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "húðirðu",
+					"ft": "húðiði"
+				},
+				"þátíð": {
+					"et": "húðaðirðu",
+					"ft": "húðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "húðast",
+		"sagnbót": "húðast",
+		"boðháttur": {
+			"et": "húðastu",
+			"ft": "húðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húðast", "húðast", "húðast"],
+					"ft": ["húðumst", "húðist", "húðast"]
+				},
+				"þátíð": {
+					"et": ["húðaðist", "húðaðist", "húðaðist"],
+					"ft": ["húðuðumst", "húðuðust", "húðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húðist", "húðist", "húðist"],
+					"ft": ["húðumst", "húðist", "húðist"]
+				},
+				"þátíð": {
+					"et": ["húðaðist", "húðaðist", "húðaðist"],
+					"ft": ["húðuðumst", "húðuðust", "húðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "húðastu"
+				},
+				"þátíð": {
+					"et": "húðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "húðistu"
+				},
+				"þátíð": {
+					"et": "húðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "húðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["húðaður", "húðaðan", "húðuðum", "húðaðs"],
+					"kvk": ["húðuð", "húðaða", "húðaðri", "húðaðrar"],
+					"hk": ["húðað", "húðað", "húðuðu", "húðaðs"]
+				},
+				"ft": {
+					"kk": ["húðaðir", "húðaða", "húðuðum", "húðaðra"],
+					"kvk": ["húðaðar", "húðaðar", "húðuðum", "húðaðra"],
+					"hk": ["húðuð", "húðuð", "húðuðum", "húðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["húðaði", "húðaða", "húðaða", "húðaða"],
+					"kvk": ["húðaða", "húðuðu", "húðuðu", "húðuðu"],
+					"hk": ["húðaða", "húðaða", "húðaða", "húðaða"]
+				},
+				"ft": {
+					"kk": ["húðuðu", "húðuðu", "húðuðu", "húðuðu"],
+					"kvk": ["húðuðu", "húðuðu", "húðuðu", "húðuðu"],
+					"hk": ["húðuðu", "húðuðu", "húðuðu", "húðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-húða",
+	"hash": "f0c91f547382b44b9965127f64feb00dbc4a70ce3ee44cc33854f7b8478149da"
+}
