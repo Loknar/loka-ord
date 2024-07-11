@@ -1,0 +1,27 @@
+{
+	"orð": "framtíðartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "tíðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tíð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["framtíðartekjur", "framtíðartekjur", "framtíðartekjum", "framtíðartekna"],
+		"mg": ["framtíðartekjurnar", "framtíðartekjurnar", "framtíðartekjunum", "framtíðarteknanna"]
+	},
+	"kennistrengur": "no-framtíðartekjur-kvk",
+	"hash": "3945bc350c50f068c6a530eb0589d4225116e3ab2fc302f8fbdf8054ccf0f725"
+}

@@ -1,0 +1,43 @@
+{
+	"orð": "skattfrjáls",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-frjáls"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skattfrjáls", "skattfrjálsan", "skattfrjálsum", "skattfrjálss"],
+				"kvk": ["skattfrjáls", "skattfrjálsa", "skattfrjálsri", "skattfrjálsrar"],
+				"hk": ["skattfrjálst", "skattfrjálst", "skattfrjálsu", "skattfrjálss"]
+			},
+			"ft": {
+				"kk": ["skattfrjálsir", "skattfrjálsa", "skattfrjálsum", "skattfrjálsra"],
+				"kvk": ["skattfrjálsar", "skattfrjálsar", "skattfrjálsum", "skattfrjálsra"],
+				"hk": ["skattfrjáls", "skattfrjáls", "skattfrjálsum", "skattfrjálsra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skattfrjálsi", "skattfrjálsa", "skattfrjálsa", "skattfrjálsa"],
+				"kvk": ["skattfrjálsa", "skattfrjálsu", "skattfrjálsu", "skattfrjálsu"],
+				"hk": ["skattfrjálsa", "skattfrjálsa", "skattfrjálsa", "skattfrjálsa"]
+			},
+			"ft": {
+				"kk": ["skattfrjálsu", "skattfrjálsu", "skattfrjálsu", "skattfrjálsu"],
+				"kvk": ["skattfrjálsu", "skattfrjálsu", "skattfrjálsu", "skattfrjálsu"],
+				"hk": ["skattfrjálsu", "skattfrjálsu", "skattfrjálsu", "skattfrjálsu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skattfrjáls",
+	"hash": "19fde2f4f77d5b42424bcdd922db1e66e363d57be371d14273ba5f13f7327a84"
+}

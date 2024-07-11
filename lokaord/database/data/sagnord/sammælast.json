@@ -1,0 +1,88 @@
+{
+	"orð": "sammælast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-mæla-_segja_"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "sammælast",
+		"sagnbót": "sammælst",
+		"boðháttur": {
+			"et": "sammælistu",
+			"ft": "sammælist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sammælist", "sammælist", "sammælist"],
+					"ft": ["sammælumst", "sammælist", "sammælast"]
+				},
+				"þátíð": {
+					"et": ["sammæltist", "sammæltist", "sammæltist"],
+					"ft": ["sammæltumst", "sammæltust", "sammæltust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sammælist", "sammælist", "sammælist"],
+					"ft": ["sammælumst", "sammælist", "sammælist"]
+				},
+				"þátíð": {
+					"et": ["sammæltist", "sammæltist", "sammæltist"],
+					"ft": ["sammæltumst", "sammæltust", "sammæltust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sammælist", "sammælist", "sammælist"],
+					"ft": ["sammælist", "sammælist", "sammælist"]
+				},
+				"þátíð": {
+					"et": ["sammæltist", "sammæltist", "sammæltist"],
+					"ft": ["sammæltist", "sammæltist", "sammæltist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sammælist", "sammælist", "sammælist"],
+					"ft": ["sammælist", "sammælist", "sammælist"]
+				},
+				"þátíð": {
+					"et": ["sammæltist", "sammæltist", "sammæltist"],
+					"ft": ["sammæltist", "sammæltist", "sammæltist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sammælistu"
+				},
+				"þátíð": {
+					"et": "sammæltistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sammælistu"
+				},
+				"þátíð": {
+					"et": "sammæltistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sammælast",
+	"hash": "42f9e637a6f8c7f3b7b5309a4a848056e8cbb366fac3976600c7ea4505f86aa8"
+}
