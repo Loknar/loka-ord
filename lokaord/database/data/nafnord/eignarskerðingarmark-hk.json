@@ -1,0 +1,30 @@
+{
+	"orð": "eignarskerðingarmark",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "skerðingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skerðing-kvk"
+		},
+		{
+			"kennistrengur": "no-mark-hk"
+		}
+	],
+	"et": {
+		"ág": ["eignarskerðingarmark", "eignarskerðingarmark", "eignarskerðingarmarki", "eignarskerðingarmarks"],
+		"mg": ["eignarskerðingarmarkið", "eignarskerðingarmarkið", "eignarskerðingarmarkinu", "eignarskerðingarmarksins"]
+	},
+	"ft": {
+		"ág": ["eignarskerðingarmörk", "eignarskerðingarmörk", "eignarskerðingarmörkum", "eignarskerðingarmarka"],
+		"mg": ["eignarskerðingarmörkin", "eignarskerðingarmörkin", "eignarskerðingarmörkunum", "eignarskerðingarmarkanna"]
+	},
+	"kennistrengur": "no-eignarskerðingarmark-hk",
+	"hash": "4883c86c8b8c739e7d90d51f5c0f98485f4043880045b0db7785d1da98335cc2"
+}

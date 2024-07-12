@@ -1,0 +1,22 @@
+{
+	"orð": "húsnæðiskaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "húsnæðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-húsnæði-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["húsnæðiskaup", "húsnæðiskaup", "húsnæðiskaupum", "húsnæðiskaupa"],
+		"mg": ["húsnæðiskaupin", "húsnæðiskaupin", "húsnæðiskaupunum", "húsnæðiskaupanna"]
+	},
+	"kennistrengur": "no-húsnæðiskaup-hk",
+	"hash": "9f14589d43077f434233e054ef599fa94fab8c6c9abc56390523bcd294c00423"
+}

@@ -1,0 +1,169 @@
+{
+	"orð": "afleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afleggja",
+		"sagnbót": "aflagt",
+		"boðháttur": {
+			"stýfður": "aflegg",
+			"et": "afleggðu",
+			"ft": "afleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aflegg", "afleggur", "afleggur"],
+					"ft": ["afleggjum", "afleggið", "afleggja"]
+				},
+				"þátíð": {
+					"et": ["aflagði", "aflagðir", "aflagði"],
+					"ft": ["aflögðum", "aflögðuð", "aflögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afleggi", "afleggir", "afleggi"],
+					"ft": ["afleggjum", "afleggið", "afleggi"]
+				},
+				"þátíð": {
+					"et": ["aflegði", "aflegðir", "aflegði"],
+					"ft": ["aflegðum", "aflegðuð", "aflegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afleggurðu",
+					"ft": "afleggiði"
+				},
+				"þátíð": {
+					"et": "aflagðirðu",
+					"ft": "aflögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afleggirðu",
+					"ft": "afleggiði"
+				},
+				"þátíð": {
+					"et": "afleggðirðu",
+					"ft": "afleggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afleggjast",
+		"sagnbót": "aflagst",
+		"boðháttur": {
+			"et": "afleggstu",
+			"ft": "afleggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afleggst", "afleggst", "afleggst"],
+					"ft": ["afleggjumst", "afleggist", "afleggjast"]
+				},
+				"þátíð": {
+					"et": ["aflagðist", "aflagðist", "aflagðist"],
+					"ft": ["aflögðumst", "aflögðust", "aflögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afleggist", "afleggist", "afleggist"],
+					"ft": ["afleggjumst", "afleggist", "afleggist"]
+				},
+				"þátíð": {
+					"et": ["aflegðist", "aflegðist", "aflegðist"],
+					"ft": ["aflegðumst", "aflegðist", "aflegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afleggst", "afleggst", "afleggst"],
+					"ft": ["afleggst", "afleggst", "afleggst"]
+				},
+				"þátíð": {
+					"et": ["aflagðist", "aflagðist", "aflagðist"],
+					"ft": ["aflagðist", "aflagðist", "aflagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afleggist", "afleggist", "afleggist"],
+					"ft": ["afleggjumst", "afleggist", "afleggist"]
+				},
+				"þátíð": {
+					"et": ["aflegðist", "aflegðist", "aflegðist"],
+					"ft": ["aflegðumst", "aflegðust", "aflegðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afleggstu"
+				},
+				"þátíð": {
+					"et": "aflagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afleggistu"
+				},
+				"þátíð": {
+					"et": "aflegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aflagður", "aflagðan", "aflögðum", "aflagðs"],
+					"kvk": ["aflögð", "aflagða", "aflagðri", "aflagðrar"],
+					"hk": ["aflagt", "aflagt", "aflögðu", "aflagðs"]
+				},
+				"ft": {
+					"kk": ["aflagðir", "aflagða", "aflögðum", "aflagðra"],
+					"kvk": ["aflagðar", "aflagðar", "aflögðum", "aflagðra"],
+					"hk": ["aflögð", "aflögð", "aflögðum", "aflagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["aflagði", "aflagða", "aflagða", "aflagða"],
+					"kvk": ["aflagða", "aflögðu", "aflögðu", "aflögðu"],
+					"hk": ["aflagða", "aflagða", "aflagða", "aflagða"]
+				},
+				"ft": {
+					"kk": ["aflögðu", "aflögðu", "aflögðu", "aflögðu"],
+					"kvk": ["aflögðu", "aflögðu", "aflögðu", "aflögðu"],
+					"hk": ["aflögðu", "aflögðu", "aflögðu", "aflögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afleggja",
+	"hash": "6d2ec46fc29066204c9a0da1ac53304ed13ed115722b6ccde94e466da4f23494"
+}
