@@ -1,0 +1,27 @@
+{
+	"orð": "matarinnkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "matar",
+			"samsetning": "stofn",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["matarinnkaup", "matarinnkaup", "matarinnkaupum", "matarinnkaupa"],
+		"mg": ["matarinnkaupin", "matarinnkaupin", "matarinnkaupunum", "matarinnkaupanna"]
+	},
+	"kennistrengur": "no-matarinnkaup-hk",
+	"hash": "c9c4ebc20410ddab8f75c3beecfa12148405078ccbce054af6deb47fcaad5b7f"
+}

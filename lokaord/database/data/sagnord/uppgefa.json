@@ -1,0 +1,165 @@
+{
+	"orð": "uppgefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"kennistrengur": "so-gefa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "uppgefa",
+		"sagnbót": "uppgefið",
+		"boðháttur": {
+			"stýfður": "uppgef",
+			"et": "uppgefðu",
+			"ft": "uppgefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppgef", "uppgefur", "uppgefur"],
+					"ft": ["uppgefum", "uppgefið", "uppgefa"]
+				},
+				"þátíð": {
+					"et": ["uppgaf", "uppgafst", "uppgaf"],
+					"ft": ["uppgáfum", "uppgáfuð", "uppgáfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppgefi", "uppgefir", "uppgefi"],
+					"ft": ["uppgefum", "uppgefið", "uppgefi"]
+				},
+				"þátíð": {
+					"et": ["uppgæfi", "uppgæfir", "uppgæfi"],
+					"ft": ["uppgæfum", "uppgæfuð", "uppgæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppgefurðu",
+					"ft": "uppgefiði"
+				},
+				"þátíð": {
+					"et": "uppgafstu",
+					"ft": "uppgáfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppgefirðu",
+					"ft": "uppgefiði"
+				},
+				"þátíð": {
+					"et": "uppgæfirðu",
+					"ft": "uppgæfuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "uppgefast",
+		"sagnbót": "uppgefist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppgefst", "uppgefst", "uppgefst"],
+					"ft": ["uppgefumst", "uppgefist", "uppgefast"]
+				},
+				"þátíð": {
+					"et": ["uppgafst", "uppgafst", "uppgafst"],
+					"ft": ["uppgáfumst", "uppgáfust", "uppgáfust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppgefist", "uppgefist", "uppgefist"],
+					"ft": ["uppgefumst", "uppgefist", "uppgefist"]
+				},
+				"þátíð": {
+					"et": ["uppgæfist", "uppgæfist", "uppgæfist"],
+					"ft": ["uppgæfumst", "uppgæfust", "uppgæfust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppgefst", "uppgefst", "uppgefst"],
+					"ft": ["uppgefst", "uppgefst", "uppgefst"]
+				},
+				"þátíð": {
+					"et": ["uppgafst", "uppgafst", "uppgafst"],
+					"ft": ["uppgáfust", "uppgáfust", "uppgáfust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppgefist", "uppgefist", "uppgefist"],
+					"ft": ["uppgefist", "uppgefist", "uppgefist"]
+				},
+				"þátíð": {
+					"et": ["uppgæfist", "uppgæfist", "uppgæfist"],
+					"ft": ["uppgæfist", "uppgæfist", "uppgæfist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppgefstu"
+				},
+				"þátíð": {
+					"et": "uppgafstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppgefistu"
+				},
+				"þátíð": {
+					"et": "uppgæfistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "uppgefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["uppgefinn", "uppgefinn", "uppgefnum", "uppgefins"],
+					"kvk": ["uppgefin", "uppgefna", "uppgefinni", "uppgefinnar"],
+					"hk": ["uppgefið", "uppgefið", "uppgefnu", "uppgefins"]
+				},
+				"ft": {
+					"kk": ["uppgefnir", "uppgefna", "uppgefnum", "uppgefinna"],
+					"kvk": ["uppgefnar", "uppgefnar", "uppgefnum", "uppgefinna"],
+					"hk": ["uppgefin", "uppgefin", "uppgefnum", "uppgefinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["uppgefni", "uppgefna", "uppgefna", "uppgefna"],
+					"kvk": ["uppgefna", "uppgefnu", "uppgefnu", "uppgefnu"],
+					"hk": ["uppgefna", "uppgefna", "uppgefna", "uppgefna"]
+				},
+				"ft": {
+					"kk": ["uppgefnu", "uppgefnu", "uppgefnu", "uppgefnu"],
+					"kvk": ["uppgefnu", "uppgefnu", "uppgefnu", "uppgefnu"],
+					"hk": ["uppgefnu", "uppgefnu", "uppgefnu", "uppgefnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-uppgefa",
+	"hash": "7fb07515ed7f666d7b68cfcbc697e595d65604935c88ae263140009000d739b4"
+}

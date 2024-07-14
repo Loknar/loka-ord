@@ -1,0 +1,135 @@
+{
+	"orð": "stóla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stółl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stóla",
+		"sagnbót": "stólað",
+		"boðháttur": {
+			"stýfður": "stóla",
+			"et": "stólaðu",
+			"ft": "stólið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stóla", "stólar", "stólar"],
+					"ft": ["stólum", "stólið", "stóla"]
+				},
+				"þátíð": {
+					"et": ["stólaði", "stólaðir", "stólaði"],
+					"ft": ["stóluðum", "stóluðuð", "stóluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stóli", "stólir", "stóli"],
+					"ft": ["stólum", "stólið", "stóli"]
+				},
+				"þátíð": {
+					"et": ["stólaði", "stólaðir", "stólaði"],
+					"ft": ["stóluðum", "stóluðuð", "stóluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stólarðu",
+					"ft": "stóliði"
+				},
+				"þátíð": {
+					"et": "stólaðirðu",
+					"ft": "stóluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stólirðu",
+					"ft": "stóliði"
+				},
+				"þátíð": {
+					"et": "stólaðirðu",
+					"ft": "stóluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stólast",
+		"sagnbót": "stólast",
+		"boðháttur": {
+			"et": "stólastu",
+			"ft": "stólist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stólast", "stólast", "stólast"],
+					"ft": ["stólumst", "stólist", "stólast"]
+				},
+				"þátíð": {
+					"et": ["stólaðist", "stólaðist", "stólaðist"],
+					"ft": ["stóluðumst", "stóluðust", "stóluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stólist", "stólist", "stólist"],
+					"ft": ["stólumst", "stólist", "stólist"]
+				},
+				"þátíð": {
+					"et": ["stólaðist", "stólaðist", "stólaðist"],
+					"ft": ["stóluðumst", "stóluðust", "stóluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stólastu"
+				},
+				"þátíð": {
+					"et": "stólaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stólistu"
+				},
+				"þátíð": {
+					"et": "stólaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stólandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stólaður", "stólaðan", "stóluðum", "stólaðs"],
+					"kvk": ["stóluð", "stólaða", "stólaðri", "stólaðrar"],
+					"hk": ["stólað", "stólað", "stóluðu", "stólaðs"]
+				},
+				"ft": {
+					"kk": ["stólaðir", "stólaða", "stóluðum", "stólaðra"],
+					"kvk": ["stólaðar", "stólaðar", "stóluðum", "stólaðra"],
+					"hk": ["stóluð", "stóluð", "stóluðum", "stólaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stóla",
+	"hash": "9bf3f305d98fed511481194beecf29cac1226a6c702712f0786aff05e5feea5a"
+}
