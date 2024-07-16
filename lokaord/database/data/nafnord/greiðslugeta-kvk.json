@@ -1,0 +1,22 @@
+{
+	"orð": "greiðslugeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslugeta", "greiðslugetu", "greiðslugetu", "greiðslugetu"],
+		"mg": ["greiðslugetan", "greiðslugetuna", "greiðslugetunni", "greiðslugetunnar"]
+	},
+	"kennistrengur": "no-greiðslugeta-kvk",
+	"hash": "8fba086d75a39d97d05b3fcd319b952cb2354f8f73061f669d1fa0457530db08"
+}

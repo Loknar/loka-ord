@@ -1,0 +1,87 @@
+{
+	"orð": "fjármagnsfrekur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"kennistrengur": "lo-frekur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fjármagnsfrekur", "fjármagnsfrekan", "fjármagnsfrekum", "fjármagnsfreks"],
+				"kvk": ["fjármagnsfrek", "fjármagnsfreka", "fjármagnsfrekri", "fjármagnsfrekrar"],
+				"hk": ["fjármagnsfrekt", "fjármagnsfrekt", "fjármagnsfreku", "fjármagnsfreks"]
+			},
+			"ft": {
+				"kk": ["fjármagnsfrekir", "fjármagnsfreka", "fjármagnsfrekum", "fjármagnsfrekra"],
+				"kvk": ["fjármagnsfrekar", "fjármagnsfrekar", "fjármagnsfrekum", "fjármagnsfrekra"],
+				"hk": ["fjármagnsfrek", "fjármagnsfrek", "fjármagnsfrekum", "fjármagnsfrekra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fjármagnsfreki", "fjármagnsfreka", "fjármagnsfreka", "fjármagnsfreka"],
+				"kvk": ["fjármagnsfreka", "fjármagnsfreku", "fjármagnsfreku", "fjármagnsfreku"],
+				"hk": ["fjármagnsfreka", "fjármagnsfreka", "fjármagnsfreka", "fjármagnsfreka"]
+			},
+			"ft": {
+				"kk": ["fjármagnsfreku", "fjármagnsfreku", "fjármagnsfreku", "fjármagnsfreku"],
+				"kvk": ["fjármagnsfreku", "fjármagnsfreku", "fjármagnsfreku", "fjármagnsfreku"],
+				"hk": ["fjármagnsfreku", "fjármagnsfreku", "fjármagnsfreku", "fjármagnsfreku"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari"],
+				"kvk": ["fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari"],
+				"hk": ["fjármagnsfrekara", "fjármagnsfrekara", "fjármagnsfrekara", "fjármagnsfrekara"]
+			},
+			"ft": {
+				"kk": ["fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari"],
+				"kvk": ["fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari"],
+				"hk": ["fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari", "fjármagnsfrekari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["fjármagnsfrekastur", "fjármagnsfrekastan", "fjármagnsfrekustum", "fjármagnsfrekasts"],
+				"kvk": ["fjármagnsfrekust", "fjármagnsfrekasta", "fjármagnsfrekastri", "fjármagnsfrekastrar"],
+				"hk": ["fjármagnsfrekast", "fjármagnsfrekast", "fjármagnsfrekustu", "fjármagnsfrekasts"]
+			},
+			"ft": {
+				"kk": ["fjármagnsfrekastir", "fjármagnsfrekasta", "fjármagnsfrekustum", "fjármagnsfrekastra"],
+				"kvk": ["fjármagnsfrekastar", "fjármagnsfrekastar", "fjármagnsfrekustum", "fjármagnsfrekastra"],
+				"hk": ["fjármagnsfrekust", "fjármagnsfrekust", "fjármagnsfrekustum", "fjármagnsfrekastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fjármagnsfrekasti", "fjármagnsfrekasta", "fjármagnsfrekasta", "fjármagnsfrekasta"],
+				"kvk": ["fjármagnsfrekasta", "fjármagnsfrekustu", "fjármagnsfrekustu", "fjármagnsfrekustu"],
+				"hk": ["fjármagnsfrekasta", "fjármagnsfrekasta", "fjármagnsfrekasta", "fjármagnsfrekasta"]
+			},
+			"ft": {
+				"kk": ["fjármagnsfrekustu", "fjármagnsfrekustu", "fjármagnsfrekustu", "fjármagnsfrekustu"],
+				"kvk": ["fjármagnsfrekustu", "fjármagnsfrekustu", "fjármagnsfrekustu", "fjármagnsfrekustu"],
+				"hk": ["fjármagnsfrekustu", "fjármagnsfrekustu", "fjármagnsfrekustu", "fjármagnsfrekustu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fjármagnsfrekur",
+	"hash": "ff3887ce3ec8f8717bd894aef0f2e15361013e4de2904e73546168f8be8a5478"
+}

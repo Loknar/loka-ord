@@ -1,0 +1,27 @@
+{
+	"orð": "Íbúðalánasjóður",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Íbúða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúð-kvk"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-sjóður-kk"
+		}
+	],
+	"et": {
+		"ág": ["Íbúðalánasjóður", "Íbúðalánasjóð", "Íbúðalánasjóð", "Íbúðalánasjóðs"]
+	},
+	"kennistrengur": "sérn.ön-Íbúðalánasjóður-kk",
+	"hash": "c03b0b90d6aa92df999a03cb81cd5fb908cf8416ba24db2046157f20650a41d6"
+}
