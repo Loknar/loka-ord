@@ -1,0 +1,135 @@
+{
+	"orð": "skrúfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skrúf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrúfa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrúfa",
+		"sagnbót": "skrúfað",
+		"boðháttur": {
+			"stýfður": "skrúfa",
+			"et": "skrúfaðu",
+			"ft": "skrúfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrúfa", "skrúfar", "skrúfar"],
+					"ft": ["skrúfum", "skrúfið", "skrúfa"]
+				},
+				"þátíð": {
+					"et": ["skrúfaði", "skrúfaðir", "skrúfaði"],
+					"ft": ["skrúfuðum", "skrúfuðuð", "skrúfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrúfi", "skrúfir", "skrúfi"],
+					"ft": ["skrúfum", "skrúfið", "skrúfi"]
+				},
+				"þátíð": {
+					"et": ["skrúfaði", "skrúfaðir", "skrúfaði"],
+					"ft": ["skrúfuðum", "skrúfuðuð", "skrúfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrúfarðu",
+					"ft": "skrúfiði"
+				},
+				"þátíð": {
+					"et": "skrúfaðirðu",
+					"ft": "skrúfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrúfirðu",
+					"ft": "skrúfiði"
+				},
+				"þátíð": {
+					"et": "skrúfaðirðu",
+					"ft": "skrúfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skrúfast",
+		"sagnbót": "skrúfast",
+		"boðháttur": {
+			"et": "skrúfastu",
+			"ft": "skrúfist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrúfast", "skrúfast", "skrúfast"],
+					"ft": ["skrúfumst", "skrúfist", "skrúfast"]
+				},
+				"þátíð": {
+					"et": ["skrúfaðist", "skrúfaðist", "skrúfaðist"],
+					"ft": ["skrúfuðumst", "skrúfuðust", "skrúfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrúfist", "skrúfist", "skrúfist"],
+					"ft": ["skrúfumst", "skrúfist", "skrúfist"]
+				},
+				"þátíð": {
+					"et": ["skrúfaðist", "skrúfaðist", "skrúfaðist"],
+					"ft": ["skrúfuðumst", "skrúfuðust", "skrúfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrúfastu"
+				},
+				"þátíð": {
+					"et": "skrúfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrúfistu"
+				},
+				"þátíð": {
+					"et": "skrúfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrúfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrúfaður", "skrúfaðan", "skrúfuðum", "skrúfaðs"],
+					"kvk": ["skrúfuð", "skrúfaða", "skrúfaðri", "skrúfaðrar"],
+					"hk": ["skrúfað", "skrúfað", "skrúfuðu", "skrúfaðs"]
+				},
+				"ft": {
+					"kk": ["skrúfaðir", "skrúfaða", "skrúfuðum", "skrúfaðra"],
+					"kvk": ["skrúfaðar", "skrúfaðar", "skrúfuðum", "skrúfaðra"],
+					"hk": ["skrúfuð", "skrúfuð", "skrúfuðum", "skrúfaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrúfa",
+	"hash": "966968c73af0f616cb0590617a95bf73a3218ef2ce9129252bdfb959b90c83d0"
+}

@@ -1,0 +1,142 @@
+{
+	"orð": "útskrifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "so-skrifa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útskrifa",
+		"sagnbót": "útskrifað",
+		"boðháttur": {
+			"stýfður": "útskrifa",
+			"et": "útskrifaðu",
+			"ft": "útskrifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskrifa", "útskrifar", "útskrifar"],
+					"ft": ["útskrifum", "útskrifið", "útskrifa"]
+				},
+				"þátíð": {
+					"et": ["útskrifaði", "útskrifaðir", "útskrifaði"],
+					"ft": ["útskrifuðum", "útskrifuðuð", "útskrifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskrifi", "útskrifir", "útskrifi"],
+					"ft": ["útskrifum", "útskrifið", "útskrifi"]
+				},
+				"þátíð": {
+					"et": ["útskrifaði", "útskrifaðir", "útskrifaði"],
+					"ft": ["útskrifuðum", "útskrifuðuð", "útskrifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskrifarðu",
+					"ft": "útskrifiði"
+				},
+				"þátíð": {
+					"et": "útskrifaðirðu",
+					"ft": "útskrifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskrifirðu",
+					"ft": "útskrifiði"
+				},
+				"þátíð": {
+					"et": "útskrifaðirðu",
+					"ft": "útskrifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útskrifast",
+		"sagnbót": "útskrifast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskrifast", "útskrifast", "útskrifast"],
+					"ft": ["útskrifumst", "útskrifist", "útskrifast"]
+				},
+				"þátíð": {
+					"et": ["útskrifaðist", "útskrifaðist", "útskrifaðist"],
+					"ft": ["útskrifuðumst", "útskrifuðust", "útskrifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskrifist", "útskrifist", "útskrifist"],
+					"ft": ["útskrifumst", "útskrifist", "útskrifist"]
+				},
+				"þátíð": {
+					"et": ["útskrifaðist", "útskrifaðist", "útskrifaðist"],
+					"ft": ["útskrifuðumst", "útskrifuðust", "útskrifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskrifastu"
+				},
+				"þátíð": {
+					"et": "útskrifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskrifistu"
+				},
+				"þátíð": {
+					"et": "útskrifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útskrifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útskrifaður", "útskrifaðan", "útskrifuðum", "útskrifaðs"],
+					"kvk": ["útskrifuð", "útskrifaða", "útskrifaðri", "útskrifaðrar"],
+					"hk": ["útskrifað", "útskrifað", "útskrifuðu", "útskrifaðs"]
+				},
+				"ft": {
+					"kk": ["útskrifaðir", "útskrifaða", "útskrifuðum", "útskrifaðra"],
+					"kvk": ["útskrifaðar", "útskrifaðar", "útskrifuðum", "útskrifaðra"],
+					"hk": ["útskrifuð", "útskrifuð", "útskrifuðum", "útskrifaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útskrifaði", "útskrifaða", "útskrifaða", "útskrifaða"],
+					"kvk": ["útskrifaða", "útskrifuðu", "útskrifuðu", "útskrifuðu"],
+					"hk": ["útskrifaða", "útskrifaða", "útskrifaða", "útskrifaða"]
+				},
+				"ft": {
+					"kk": ["útskrifuðu", "útskrifuðu", "útskrifuðu", "útskrifuðu"],
+					"kvk": ["útskrifuðu", "útskrifuðu", "útskrifuðu", "útskrifuðu"],
+					"hk": ["útskrifuðu", "útskrifuðu", "útskrifuðu", "útskrifuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útskrifa",
+	"hash": "237ee94af00c4e9d967bc9c4d9fe16fddbf973eada58ef642f5665ad7c58c4e0"
+}

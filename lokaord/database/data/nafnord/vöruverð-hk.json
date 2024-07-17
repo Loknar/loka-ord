@@ -1,0 +1,22 @@
+{
+	"orð": "vöruverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["vöruverð", "vöruverð", "vöruverði", "vöruverðs"],
+		"mg": ["vöruverðið", "vöruverðið", "vöruverðinu", "vöruverðsins"]
+	},
+	"kennistrengur": "no-vöruverð-hk",
+	"hash": "5f0bdcb677346be8b473e59c84f0f3c79c6459f6a6cf6a08ce53477904e704e7"
+}
