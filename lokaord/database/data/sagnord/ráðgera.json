@@ -1,0 +1,99 @@
+{
+	"orð": "ráðgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ráðgera",
+		"sagnbót": "ráðgert",
+		"boðháttur": {
+			"stýfður": "ráðger",
+			"et": "ráðgerðu",
+			"ft": "ráðgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ráðgeri", "ráðgerir", "ráðgerir"],
+					"ft": ["ráðgerum", "ráðgerið", "ráðgera"]
+				},
+				"þátíð": {
+					"et": ["ráðgerði", "ráðgerðir", "ráðgerði"],
+					"ft": ["ráðgerðum", "ráðgerðuð", "ráðgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ráðgeri", "ráðgerir", "ráðgeri"],
+					"ft": ["ráðgerum", "ráðgerið", "ráðgeri"]
+				},
+				"þátíð": {
+					"et": ["ráðgerði", "ráðgerðir", "ráðgerði"],
+					"ft": ["ráðgerðum", "ráðgerðuð", "ráðgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ráðgerirðu",
+					"ft": "ráðgeriði"
+				},
+				"þátíð": {
+					"et": "ráðgerðirðu",
+					"ft": "ráðgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ráðgerirðu",
+					"ft": "ráðgeriði"
+				},
+				"þátíð": {
+					"et": "ráðgerðirðu",
+					"ft": "ráðgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ráðgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ráðgerður", "ráðgerðan", "ráðgerðum", "ráðgerðs"],
+					"kvk": ["ráðgerð", "ráðgerða", "ráðgerðri", "ráðgerðrar"],
+					"hk": ["ráðgert", "ráðgert", "ráðgerðu", "ráðgerðs"]
+				},
+				"ft": {
+					"kk": ["ráðgerðir", "ráðgerða", "ráðgerðum", "ráðgerðra"],
+					"kvk": ["ráðgerðar", "ráðgerðar", "ráðgerðum", "ráðgerðra"],
+					"hk": ["ráðgerð", "ráðgerð", "ráðgerðum", "ráðgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ráðgerði", "ráðgerða", "ráðgerða", "ráðgerða"],
+					"kvk": ["ráðgerða", "ráðgerðu", "ráðgerðu", "ráðgerðu"],
+					"hk": ["ráðgerða", "ráðgerða", "ráðgerða", "ráðgerða"]
+				},
+				"ft": {
+					"kk": ["ráðgerðu", "ráðgerðu", "ráðgerðu", "ráðgerðu"],
+					"kvk": ["ráðgerðu", "ráðgerðu", "ráðgerðu", "ráðgerðu"],
+					"hk": ["ráðgerðu", "ráðgerðu", "ráðgerðu", "ráðgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ráðgera",
+	"hash": "9b89a93eb5a38c9d5aeb94d8272c1026be3368293e277df68a2ebafcde07da83"
+}
