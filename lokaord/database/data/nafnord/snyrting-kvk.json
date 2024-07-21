@@ -2,6 +2,16 @@
 	"orð": "snyrting",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "snyrt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-snyrta"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["snyrting", "snyrtingu", "snyrtingu", "snyrtingar"],
 		"mg": ["snyrtingin", "snyrtinguna", "snyrtingunni", "snyrtingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["snyrtingarnar", "snyrtingarnar", "snyrtingunum", "snyrtinganna"]
 	},
 	"kennistrengur": "no-snyrting-kvk",
-	"hash": "f19d2d8abbfd6ad77043f05f64748704b8cc91556e5e991d06d9c0adfed682c6"
+	"hash": "93629c86e0354bc739d36637013788f685b1e303dd0cf3e9a507338197da4fc1"
 }

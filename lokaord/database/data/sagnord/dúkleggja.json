@@ -1,0 +1,99 @@
+{
+	"orð": "dúkleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dúk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dúkur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dúkleggja",
+		"sagnbót": "dúklagt",
+		"boðháttur": {
+			"stýfður": "dúklegg",
+			"et": "dúkleggðu",
+			"ft": "dúkleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dúklegg", "dúkleggur", "dúkleggur"],
+					"ft": ["dúkleggjum", "dúkleggið", "dúkleggja"]
+				},
+				"þátíð": {
+					"et": ["dúklagði", "dúklagðir", "dúklagði"],
+					"ft": ["dúklögðum", "dúklögðuð", "dúklögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dúkleggi", "dúkleggir", "dúkleggi"],
+					"ft": ["dúkleggjum", "dúkleggið", "dúkleggi"]
+				},
+				"þátíð": {
+					"et": ["dúklegði", "dúklegðir", "dúklegði"],
+					"ft": ["dúklegðum", "dúklegðuð", "dúklegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dúkleggurðu",
+					"ft": "dúkleggiði"
+				},
+				"þátíð": {
+					"et": "dúklagðirðu",
+					"ft": "dúklögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dúkleggirðu",
+					"ft": "dúkleggiði"
+				},
+				"þátíð": {
+					"et": "dúkleggðirðu",
+					"ft": "dúkleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dúkleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dúklagður", "dúklagðan", "dúklögðum", "dúklagðs"],
+					"kvk": ["dúklögð", "dúklagða", "dúklagðri", "dúklagðrar"],
+					"hk": ["dúklagt", "dúklagt", "dúklögðu", "dúklagðs"]
+				},
+				"ft": {
+					"kk": ["dúklagðir", "dúklagða", "dúklögðum", "dúklagðra"],
+					"kvk": ["dúklagðar", "dúklagðar", "dúklögðum", "dúklagðra"],
+					"hk": ["dúklögð", "dúklögð", "dúklögðum", "dúklagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["dúklagði", "dúklagða", "dúklagða", "dúklagða"],
+					"kvk": ["dúklagða", "dúklögðu", "dúklögðu", "dúklögðu"],
+					"hk": ["dúklagða", "dúklagða", "dúklagða", "dúklagða"]
+				},
+				"ft": {
+					"kk": ["dúklögðu", "dúklögðu", "dúklögðu", "dúklögðu"],
+					"kvk": ["dúklögðu", "dúklögðu", "dúklögðu", "dúklögðu"],
+					"hk": ["dúklögðu", "dúklögðu", "dúklögðu", "dúklögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dúkleggja",
+	"hash": "cb4cf92f8767217bc59e9922ad2376fe4394ebffea15601bf14e01ca1ad080e2"
+}

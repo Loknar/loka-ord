@@ -1,0 +1,135 @@
+{
+	"orð": "borða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "borð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-borð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "borða",
+		"sagnbót": "borðað",
+		"boðháttur": {
+			"stýfður": "borða",
+			"et": "borðaðu",
+			"ft": "borðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["borða", "borðar", "borðar"],
+					"ft": ["borðum", "borðið", "borða"]
+				},
+				"þátíð": {
+					"et": ["borðaði", "borðaðir", "borðaði"],
+					"ft": ["borðuðum", "borðuðuð", "borðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["borði", "borðir", "borði"],
+					"ft": ["borðum", "borðið", "borði"]
+				},
+				"þátíð": {
+					"et": ["borðaði", "borðaðir", "borðaði"],
+					"ft": ["borðuðum", "borðuðuð", "borðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "borðarðu",
+					"ft": "borðiði"
+				},
+				"þátíð": {
+					"et": "borðaðirðu",
+					"ft": "borðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "borðirðu",
+					"ft": "borðiði"
+				},
+				"þátíð": {
+					"et": "borðaðirðu",
+					"ft": "borðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "borðast",
+		"sagnbót": "borðast",
+		"boðháttur": {
+			"et": "borðastu",
+			"ft": "borðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["borðast", "borðast", "borðast"],
+					"ft": ["borðumst", "borðist", "borðast"]
+				},
+				"þátíð": {
+					"et": ["borðaðist", "borðaðist", "borðaðist"],
+					"ft": ["borðuðumst", "borðuðust", "borðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["borðist", "borðist", "borðist"],
+					"ft": ["borðumst", "borðist", "borðist"]
+				},
+				"þátíð": {
+					"et": ["borðaðist", "borðaðist", "borðaðist"],
+					"ft": ["borðuðumst", "borðuðust", "borðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "borðastu"
+				},
+				"þátíð": {
+					"et": "borðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "borðistu"
+				},
+				"þátíð": {
+					"et": "borðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "borðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["borðaður", "borðaðan", "borðuðum", "borðaðs"],
+					"kvk": ["borðuð", "borðaða", "borðaðri", "borðaðrar"],
+					"hk": ["borðað", "borðað", "borðuðu", "borðaðs"]
+				},
+				"ft": {
+					"kk": ["borðaðir", "borðaða", "borðuðum", "borðaðra"],
+					"kvk": ["borðaðar", "borðaðar", "borðuðum", "borðaðra"],
+					"hk": ["borðuð", "borðuð", "borðuðum", "borðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-borða",
+	"hash": "e78586ae23e8c317a5e2ffa8ca9632b23366d5dc2ec855196490fbd150c3a398"
+}
