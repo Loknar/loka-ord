@@ -1,0 +1,143 @@
+{
+	"orð": "endurnýta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-endur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd-persónuleg", "miðmynd-spurnarmyndir", "lýsingarháttur"],
+			"kennistrengur": "so-nýta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurnýta",
+		"sagnbót": "endurnýtt",
+		"boðháttur": {
+			"stýfður": "endurnút",
+			"et": "endurnýttu",
+			"ft": "endurnýtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurnýti", "endurnýtir", "endurnýtir"],
+					"ft": ["endurnýtum", "endurnýtið", "endurnýta"]
+				},
+				"þátíð": {
+					"et": ["endurnýtti", "endurnýttir", "endurnýtti"],
+					"ft": ["endurnýttum", "endurnýttuð", "endurnýttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurnýti", "endurnýtir", "endurnýti"],
+					"ft": ["endurnýtum", "endurnýtið", "endurnýti"]
+				},
+				"þátíð": {
+					"et": ["endurnýtti", "endurnýttir", "endurnýtti"],
+					"ft": ["endurnýttum", "endurnýttuð", "endurnýttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurnýtirðu",
+					"ft": "endurnýtiði"
+				},
+				"þátíð": {
+					"et": "endurnýttirðu",
+					"ft": "endurnýttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurnýtirðu",
+					"ft": "endurnýtiði"
+				},
+				"þátíð": {
+					"et": "endurnýttirðu",
+					"ft": "endurnýttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "endurnýtast",
+		"sagnbót": "endurnýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurnýtist", "endurnýtist", "endurnýtist"],
+					"ft": ["endurnýtumst", "endurnýtist", "endurnýtast"]
+				},
+				"þátíð": {
+					"et": ["endurnýttist", "endurnýttist", "endurnýttist"],
+					"ft": ["endurnýttumst", "endurnýttust", "endurnýttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurnýtist", "endurnýtist", "endurnýtist"],
+					"ft": ["endurnýttumst", "endurnýtist", "endurnýtist"]
+				},
+				"þátíð": {
+					"et": ["endurnýttist", "endurnýttist", "endurnýttist"],
+					"ft": ["endurnýttumst", "endurnýttust", "endurnýttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurnýtistu"
+				},
+				"þátíð": {
+					"et": "endurnýttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurnýtistu"
+				},
+				"þátíð": {
+					"et": "endurnýttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurnýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurnýttur", "endurnýttan", "endurnýttum", "endurnýtts"],
+					"kvk": ["endurnýtt", "endurnýtta", "endurnýttri", "endurnýttrar"],
+					"hk": ["endurnýttt", "endurnýttt", "endurnýttu", "endurnýtts"]
+				},
+				"ft": {
+					"kk": ["endurnýttir", "endurnýtta", "endurnýttum", "endurnýttra"],
+					"kvk": ["endurnýttar", "endurnýttar", "endurnýttum", "endurnýttra"],
+					"hk": ["endurnýtt", "endurnýtt", "endurnýttum", "endurnýttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["endurnýtti", "endurnýtta", "endurnýtta", "endurnýtta"],
+					"kvk": ["endurnýtta", "endurnýttu", "endurnýttu", "endurnýttu"],
+					"hk": ["endurnýtta", "endurnýtta", "endurnýtta", "endurnýtta"]
+				},
+				"ft": {
+					"kk": ["endurnýttu", "endurnýttu", "endurnýttu", "endurnýttu"],
+					"kvk": ["endurnýttu", "endurnýttu", "endurnýttu", "endurnýttu"],
+					"hk": ["endurnýttu", "endurnýttu", "endurnýttu", "endurnýttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurnýta",
+	"hash": "132422d6e45b4a663b3ab2b10d0d4c92c71cdaaec76f456173835f93c9b49d0c"
+}

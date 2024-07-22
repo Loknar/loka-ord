@@ -1,0 +1,48 @@
+{
+	"orð": "hálfverðlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hálf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hálfverðlaus", "hálfverðlausan", "hálfverðlausum", "hálfverðlauss"],
+				"kvk": ["hálfverðlaus", "hálfverðlausa", "hálfverðlausri", "hálfverðlausrar"],
+				"hk": ["hálfverðlaust", "hálfverðlaust", "hálfverðlausu", "hálfverðlauss"]
+			},
+			"ft": {
+				"kk": ["hálfverðlausir", "hálfverðlausa", "hálfverðlausum", "hálfverðlausra"],
+				"kvk": ["hálfverðlausar", "hálfverðlausar", "hálfverðlausum", "hálfverðlausra"],
+				"hk": ["hálfverðlaus", "hálfverðlaus", "hálfverðlausum", "hálfverðlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hálfverðlausi", "hálfverðlausa", "hálfverðlausa", "hálfverðlausa"],
+				"kvk": ["hálfverðlausa", "hálfverðlausu", "hálfverðlausu", "hálfverðlausu"],
+				"hk": ["hálfverðlausa", "hálfverðlausa", "hálfverðlausa", "hálfverðlausa"]
+			},
+			"ft": {
+				"kk": ["hálfverðlausu", "hálfverðlausu", "hálfverðlausu", "hálfverðlausu"],
+				"kvk": ["hálfverðlausu", "hálfverðlausu", "hálfverðlausu", "hálfverðlausu"],
+				"hk": ["hálfverðlausu", "hálfverðlausu", "hálfverðlausu", "hálfverðlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hálfverðlaus",
+	"hash": "4e25e1f7f990d12b6ad0408eeb890fecb3cea02e17046c8c082b9a48533608ab"
+}
