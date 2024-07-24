@@ -1,0 +1,33 @@
+{
+	"orð": "Starfsgreinasamband",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "Starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "greina",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-grein-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-band-hk"
+		}
+	],
+	"et": {
+		"ág": ["Starfsgreinasamband", "Starfsgreinasamband", "Starfsgreinasambandi", "Starfsgreinasambands"],
+		"mg": ["Starfsgreinasambandið", "Starfsgreinasambandið", "Starfsgreinasambandinu", "Starfsgreinasambandsins"]
+	},
+	"kennistrengur": "sérn.ön-Starfsgreinasamband-hk",
+	"hash": "ef349d3cc2dda521eb935761d61b11f6de5ef3d0e67e20ba8f6032f3553e6d92"
+}
