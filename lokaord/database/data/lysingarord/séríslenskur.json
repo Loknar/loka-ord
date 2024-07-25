@@ -1,0 +1,48 @@
+{
+	"orð": "séríslenskur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "ís",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ís-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-lenskur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["séríslenskur", "séríslenskan", "séríslenskum", "séríslensks"],
+				"kvk": ["séríslensk", "séríslenska", "séríslenskri", "séríslenskrar"],
+				"hk": ["séríslenskt", "séríslenskt", "séríslensku", "séríslensks"]
+			},
+			"ft": {
+				"kk": ["séríslenskir", "séríslenska", "séríslenskum", "séríslenskra"],
+				"kvk": ["séríslenskar", "séríslenskar", "séríslenskum", "séríslenskra"],
+				"hk": ["séríslensk", "séríslensk", "séríslenskum", "séríslenskra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["séríslenski", "séríslenska", "séríslenska", "séríslenska"],
+				"kvk": ["séríslenska", "séríslensku", "séríslensku", "séríslensku"],
+				"hk": ["séríslenska", "séríslenska", "séríslenska", "séríslenska"]
+			},
+			"ft": {
+				"kk": ["séríslensku", "séríslensku", "séríslensku", "séríslensku"],
+				"kvk": ["séríslensku", "séríslensku", "séríslensku", "séríslensku"],
+				"hk": ["séríslensku", "séríslensku", "séríslensku", "séríslensku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-séríslenskur",
+	"hash": "80e1171a9a6ecb46e557b1c1d902d416364f7894d905f39ec0712ac7a147eab3"
+}

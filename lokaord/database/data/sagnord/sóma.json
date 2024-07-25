@@ -3,21 +3,21 @@
 	"flokkur": "sagnorð",
 	"germynd": {
 		"nafnháttur": "sóma",
-		"sagnbót": "sómað",
+		"sagnbót": "sómt",
 		"boðháttur": {
-			"stýfður": "sóma",
-			"et": "sómaðu",
+			"stýfður": "sóm",
+			"et": "sómdu",
 			"ft": "sómið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["sóma", "sómar", "sómar"],
+					"et": ["sómi", "sómir", "sómir"],
 					"ft": ["sómum", "sómið", "sóma"]
 				},
 				"þátíð": {
-					"et": ["sómaði", "sómaðir", "sómaði"],
-					"ft": ["sómuðum", "sómuðuð", "sómuðu"]
+					"et": ["sómdi", "sómdir", "sómdi"],
+					"ft": ["sómdum", "sómduð", "sómdu"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -26,30 +26,53 @@
 					"ft": ["sómum", "sómið", "sómi"]
 				},
 				"þátíð": {
-					"et": ["sómaði", "sómaðir", "sómaði"],
-					"ft": ["sómuðum", "sómuðuð", "sómuðu"]
+					"et": ["sómdi", "sómdir", "sómdi"],
+					"ft": ["sómdum", "sómduð", "sómdu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sómir", "sómir", "sómir"],
+					"ft": ["sómir", "sómir", "sómir"]
+				},
+				"þátíð": {
+					"et": ["sómdi", "sómdi", "sómdi"],
+					"ft": ["sómdi", "sómdi", "sómdi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sómi", "sómi", "sómi"],
+					"ft": ["sómi", "sómi", "sómi"]
+				},
+				"þátíð": {
+					"et": ["sómdi", "sómdi", "sómdi"],
+					"ft": ["sómdi", "sómdi", "sómdi"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "sómarðu",
+					"et": "sómirðu",
 					"ft": "sómiði"
 				},
 				"þátíð": {
-					"et": "sómaðirðu",
-					"ft": "sómuðuði"
+					"et": "sómdirðu",
+					"ft": "sómduði"
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
 					"et": "sómirðu",
-					"ft": "sómaðirðu"
+					"ft": "sómdirðu"
 				},
 				"þátíð": {
-					"et": "sómaðirðu",
-					"ft": "sómuðuði"
+					"et": "sómdirðu",
+					"ft": "sómduði"
 				}
 			}
 		}
@@ -58,5 +81,5 @@
 		"nútíðar": "sómandi"
 	},
 	"kennistrengur": "so-sóma",
-	"hash": "d2c453644690238755e4f71c8d27c06a92582c3555af210fa8e1bfbd2236bfdd"
+	"hash": "d23ec1ff53330e2c12c0ba855adeb157a2e1dc79af9a81076b1e77d16dd60113"
 }
