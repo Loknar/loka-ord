@@ -1,0 +1,87 @@
+{
+	"orð": "snarhækka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snar",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-snar"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hækka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snarhækka",
+		"sagnbót": "snarhækkað",
+		"boðháttur": {
+			"stýfður": "snarhækka",
+			"et": "snarhækkaðu",
+			"ft": "snarhækkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snarhækka", "snarhækkar", "snarhækkar"],
+					"ft": ["snarhækkum", "snarhækkið", "snarhækka"]
+				},
+				"þátíð": {
+					"et": ["snarhækkaði", "snarhækkaðir", "snarhækkaði"],
+					"ft": ["snarhækkuðum", "snarhækkuðuð", "snarhækkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snarhækki", "snarhækkir", "snarhækki"],
+					"ft": ["snarhækkum", "snarhækkið", "snarhækki"]
+				},
+				"þátíð": {
+					"et": ["snarhækkaði", "snarhækkaðir", "snarhækkaði"],
+					"ft": ["snarhækkuðum", "snarhækkuðuð", "snarhækkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snarhækkarðu",
+					"ft": "snarhækkiði"
+				},
+				"þátíð": {
+					"et": "snarhækkaðirðu",
+					"ft": "snarhækkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snarhækkirðu",
+					"ft": "snarhækkiði"
+				},
+				"þátíð": {
+					"et": "snarhækkaðirðu",
+					"ft": "snarhækkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "snarhækkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["snarhækkaður", "snarhækkaðan", "snarhækkuðum", "snarhækkaðs"],
+					"kvk": ["snarhækkuð", "snarhækkaða", "snarhækkaðri", "snarhækkaðrar"],
+					"hk": ["snarhækkað", "snarhækkað", "snarhækkuðu", "snarhækkaðs"]
+				},
+				"ft": {
+					"kk": ["snarhækkaðir", "snarhækkaða", "snarstæðkkuðum", "snarhækkaðra"],
+					"kvk": ["snarhækkaðar", "snarhækkaðar", "snarhækkuðum", "snarhækkaðra"],
+					"hk": ["snarhækkuð", "snarhækkuð", "snarhækkuðum", "snarhækkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snarhækka",
+	"hash": "2419c2dd9a8cd09f59991bcd4cf8e4c2309ba901cc29b0e62ff17f31e69f7264"
+}

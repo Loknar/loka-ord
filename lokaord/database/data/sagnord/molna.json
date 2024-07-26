@@ -1,0 +1,87 @@
+{
+	"orð": "molna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "moln",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-moli-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "molna",
+		"sagnbót": "molnað",
+		"boðháttur": {
+			"stýfður": "molna",
+			"et": "molnaðu",
+			"ft": "molnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["molna", "molnar", "molnar"],
+					"ft": ["molnum", "molnið", "molna"]
+				},
+				"þátíð": {
+					"et": ["molnaði", "molnaðir", "molnaði"],
+					"ft": ["molnuðum", "molnuðuð", "molnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["molni", "molnir", "molni"],
+					"ft": ["molnum", "molnið", "molni"]
+				},
+				"þátíð": {
+					"et": ["molnaði", "molnaðir", "molnaði"],
+					"ft": ["molnuðum", "molnuðuð", "molnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "molnarðu",
+					"ft": "molniði"
+				},
+				"þátíð": {
+					"et": "molnaðirðu",
+					"ft": "molnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "molnirðu",
+					"ft": "molniði"
+				},
+				"þátíð": {
+					"et": "molnaðirðu",
+					"ft": "molnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "molnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["molnaður", "molnaðan", "molnuðum", "molnaðs"],
+					"kvk": ["molnuð", "molnaða", "molnaðri", "molnaðrar"],
+					"hk": ["molnað", "molnað", "molnuðu", "molnaðs"]
+				},
+				"ft": {
+					"kk": ["molnaðir", "molnaða", "molnuðum", "molnaðra"],
+					"kvk": ["molnaðar", "molnaðar", "molnuðum", "molnaðra"],
+					"hk": ["molnuð", "molnuð", "molnuðum", "molnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-molna",
+	"hash": "75443d44baa9f35d79db7cdd6c87df667f229f20f50826ea262ac062b82da40a"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "fjárhagsáhyggjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-hyggja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjárhagsáhyggjur", "fjárhagsáhyggjur", "fjárhagsáhyggjum", "fjárhagsáhyggja"],
+		"mg": ["fjárhagsáhyggjurnar", "fjárhagsáhyggjurnar", "fjárhagsáhyggjunum", "fjárhagsáhyggjanna"]
+	},
+	"kennistrengur": "no-fjárhagsáhyggjur-kvk",
+	"hash": "e2ea3ccf66ee26a09653e3f5dace436da0f7a6d0bb40ba8bd6244f87e4387d97"
+}

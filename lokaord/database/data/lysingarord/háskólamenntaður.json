@@ -1,0 +1,48 @@
+{
+	"orð": "háskólamenntaður",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-menntaður"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["háskólamenntaður", "háskólamenntaðan", "háskólamenntuðum", "háskólamenntaðs"],
+				"kvk": ["háskólamenntuð", "háskólamenntaða", "háskólamenntaðri", "háskólamenntaðrar"],
+				"hk": ["háskólamenntað", "háskólamenntað", "háskólamenntuðu", "háskólamenntaðs"]
+			},
+			"ft": {
+				"kk": ["háskólamenntaðir", "háskólamenntaða", "háskólamenntuðum", "háskólamenntaðra"],
+				"kvk": ["háskólamenntaðar", "háskólamenntaðar", "háskólamenntuðum", "háskólamenntaðra"],
+				"hk": ["háskólamenntuð", "háskólamenntuð", "háskólamenntuðum", "háskólamenntaðra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["háskólamenntaði", "háskólamenntaða", "háskólamenntaða", "háskólamenntaða"],
+				"kvk": ["háskólamenntaða", "háskólamenntuðu", "háskólamenntuðu", "háskólamenntuðu"],
+				"hk": ["háskólamenntaða", "háskólamenntaða", "háskólamenntaða", "háskólamenntaða"]
+			},
+			"ft": {
+				"kk": ["háskólamenntuðu", "háskólamenntuðu", "háskólamenntuðu", "háskólamenntuðu"],
+				"kvk": ["háskólamenntuðu", "háskólamenntuðu", "háskólamenntuðu", "háskólamenntuðu"],
+				"hk": ["háskólamenntuðu", "háskólamenntuðu", "háskólamenntuðu", "háskólamenntuðu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-háskólamenntaður",
+	"hash": "c86c8b3d2ce64c8640c6f30ec483bd2f86792dcb531519c52a07a5d03c531207"
+}
