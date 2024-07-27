@@ -1,0 +1,135 @@
+{
+	"orð": "skulda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skulda",
+		"sagnbót": "skuldað",
+		"boðháttur": {
+			"stýfður": "skulda",
+			"et": "skuldaðu",
+			"ft": "skuldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skulda", "skuldar", "skuldar"],
+					"ft": ["skuldum", "skuldið", "skulda"]
+				},
+				"þátíð": {
+					"et": ["skuldaði", "skuldaðir", "skuldaði"],
+					"ft": ["skulduðum", "skulduðuð", "skulduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldi", "skuldir", "skuldi"],
+					"ft": ["skuldum", "skuldið", "skuldi"]
+				},
+				"þátíð": {
+					"et": ["skuldaði", "skuldaðir", "skuldaði"],
+					"ft": ["skulduðum", "skulduðuð", "skulduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldarðu",
+					"ft": "skuldiði"
+				},
+				"þátíð": {
+					"et": "skuldaðirðu",
+					"ft": "skulduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldirðu",
+					"ft": "skuldiði"
+				},
+				"þátíð": {
+					"et": "skuldaðirðu",
+					"ft": "skulduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skuldast",
+		"sagnbót": "skuldast",
+		"boðháttur": {
+			"et": "skuldastu",
+			"ft": "skuldist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldast", "skuldast", "skuldast"],
+					"ft": ["skuldumst", "skuldist", "skuldast"]
+				},
+				"þátíð": {
+					"et": ["skuldaðist", "skuldaðist", "skuldaðist"],
+					"ft": ["skulduðumst", "skulduðust", "skulduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldist", "skuldist", "skuldist"],
+					"ft": ["skuldumst", "skuldist", "skuldist"]
+				},
+				"þátíð": {
+					"et": ["skuldaðist", "skuldaðist", "skuldaðist"],
+					"ft": ["skulduðumst", "skulduðust", "skulduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldastu"
+				},
+				"þátíð": {
+					"et": "skuldaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldistu"
+				},
+				"þátíð": {
+					"et": "skuldaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skuldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skuldaður", "skuldaðan", "skulduðum", "skuldaðs"],
+					"kvk": ["skulduð", "skuldaða", "skuldaðri", "skuldaðrar"],
+					"hk": ["skuldað", "skuldað", "skulduðu", "skuldaðs"]
+				},
+				"ft": {
+					"kk": ["skuldaðir", "skuldaða", "skulduðum", "skuldaðra"],
+					"kvk": ["skuldaðar", "skuldaðar", "skulduðum", "skuldaðra"],
+					"hk": ["skulduð", "skulduð", "skulduðum", "skuldaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skulda",
+	"hash": "de227a0805aec82d60ea2a85aa0f9ba5515728ca02778944933df1ea38434892"
+}

@@ -1,0 +1,134 @@
+{
+	"orð": "verðskulda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "so-skulda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verðskulda",
+		"sagnbót": "verðskuldað",
+		"boðháttur": {
+			"stýfður": "verðskulda",
+			"et": "verðskuldaðu",
+			"ft": "verðskuldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðskulda", "verðskuldar", "verðskuldar"],
+					"ft": ["verðskuldum", "verðskuldið", "verðskulda"]
+				},
+				"þátíð": {
+					"et": ["verðskuldaði", "verðskuldaðir", "verðskuldaði"],
+					"ft": ["verðskulduðum", "verðskulduðuð", "verðskulduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðskuldi", "verðskuldir", "verðskuldi"],
+					"ft": ["verðskuldum", "verðskuldið", "verðskuldi"]
+				},
+				"þátíð": {
+					"et": ["verðskuldaði", "verðskuldaðir", "verðskuldaði"],
+					"ft": ["verðskulduðum", "verðskulduðuð", "verðskulduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðskuldarðu",
+					"ft": "verðskuldiði"
+				},
+				"þátíð": {
+					"et": "verðskuldaðirðu",
+					"ft": "verðskulduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðskuldirðu",
+					"ft": "verðskuldiði"
+				},
+				"þátíð": {
+					"et": "verðskuldaðirðu",
+					"ft": "verðskulduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "verðskuldast",
+		"sagnbót": "verðskuldast",
+		"boðháttur": {
+			"et": "verðskuldastu",
+			"ft": "verðskuldist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðskuldast", "verðskuldast", "verðskuldast"],
+					"ft": ["verðskuldumst", "verðskuldist", "verðskuldast"]
+				},
+				"þátíð": {
+					"et": ["verðskuldaðist", "verðskuldaðist", "verðskuldaðist"],
+					"ft": ["verðskulduðumst", "verðskulduðust", "verðskulduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðskuldist", "verðskuldist", "verðskuldist"],
+					"ft": ["verðskuldumst", "verðskuldist", "verðskuldist"]
+				},
+				"þátíð": {
+					"et": ["verðskuldaðist", "verðskuldaðist", "verðskuldaðist"],
+					"ft": ["verðskulduðumst", "verðskulduðust", "verðskulduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðskuldastu"
+				},
+				"þátíð": {
+					"et": "verðskuldaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðskuldistu"
+				},
+				"þátíð": {
+					"et": "verðskuldaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðskuldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verðskuldaður", "verðskuldaðan", "verðskulduðum", "verðskuldaðs"],
+					"kvk": ["verðskulduð", "verðskuldaða", "verðskuldaðri", "verðskuldaðrar"],
+					"hk": ["verðskuldað", "verðskuldað", "verðskulduðu", "verðskuldaðs"]
+				},
+				"ft": {
+					"kk": ["verðskuldaðir", "verðskuldaða", "verðskulduðum", "verðskuldaðra"],
+					"kvk": ["verðskuldaðar", "verðskuldaðar", "verðskulduðum", "verðskuldaðra"],
+					"hk": ["verðskulduð", "verðskulduð", "verðskulduðum", "verðskuldaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verðskulda",
+	"hash": "137ca80527005d78da9425169be7ffd0a89eb2406d49218a2d5fa86816e84f2e"
+}
