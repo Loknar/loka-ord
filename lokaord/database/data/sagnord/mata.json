@@ -1,0 +1,114 @@
+{
+	"orð": "mata",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "mata",
+		"sagnbót": "matað",
+		"boðháttur": {
+			"stýfður": "mata",
+			"et": "mataðu",
+			"ft": "matið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mata", "matar", "matar"],
+					"ft": ["mötum", "matið", "mata"]
+				},
+				"þátíð": {
+					"et": ["mataði", "mataði", "mataði"],
+					"ft": ["mötuðum", "mötuðuð", "mötuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mati", "matir", "mati"],
+					"ft": ["mötum", "matið", "mati"]
+				},
+				"þátíð": {
+					"et": ["mataði", "mataðir", "mataði"],
+					"ft": ["mötuðum", "mötuðuð", "mötuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "matarðu",
+					"ft": "matiði"
+				},
+				"þátíð": {
+					"et": "mataðirðu",
+					"ft": "mötuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "matirðu",
+					"ft": "matiði"
+				},
+				"þátíð": {
+					"et": "mataðirðu",
+					"ft": "mötuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "matast",
+		"sagnbót": "matast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["matast", "matast", "matast"],
+					"ft": ["mötumst", "matist", "matast"]
+				},
+				"þátíð": {
+					"et": ["mataðist", "mataðist", "mataðist"],
+					"ft": ["mötuðumst", "mötuðust", "mötuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["matist", "matist", "matist"],
+					"ft": ["mötumst", "matist", "matist"]
+				},
+				"þátíð": {
+					"et": ["mataðist", "mataðist", "mataðist"],
+					"ft": ["mötuðumst", "mötuðust", "mötuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "matandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mataður", "mataðan", "mötuðum", "mataðs"],
+					"kvk": ["mötuð", "mataða", "mataðri", "mataðrar"],
+					"hk": ["matað", "matað", "mötuðu", "mataðs"]
+				},
+				"ft": {
+					"kk": ["mataðir", "mataða", "mötuðum", "mataðra"],
+					"kvk": ["mataðar", "mataðar", "mötuðum", "mataðra"],
+					"hk": ["mötuð", "mötuð", "mötuðum", "mataðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["mataði", "mataða", "mataða", "mataða"],
+					"kvk": ["mataða", "mötuðu", "mötuðu", "mötuðu"],
+					"hk": ["mataða", "mataða", "mataða", "mataða"]
+				},
+				"ft": {
+					"kk": ["mötuðu", "mötuðu", "mötuðu", "mötuðu"],
+					"kvk": ["mötuðu", "mötuðu", "mötuðu", "mötuðu"],
+					"hk": ["mötuðu", "mötuðu", "mötuðu", "mötuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mata",
+	"hash": "1a36818bdcad3aaa47bcedc757be1a2610c1681bb1fd8d6c53c063aaefb7e6da"
+}
