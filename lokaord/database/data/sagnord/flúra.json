@@ -1,0 +1,135 @@
+{
+	"orð": "flúra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flúr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flúr-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flúra",
+		"sagnbót": "flúrað",
+		"boðháttur": {
+			"stýfður": "flúra",
+			"et": "flúraðu",
+			"ft": "flúrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flúra", "flúrar", "flúrar"],
+					"ft": ["flúrum", "flúrið", "flúra"]
+				},
+				"þátíð": {
+					"et": ["flúraði", "flúraðir", "flúraði"],
+					"ft": ["flúruðum", "flúruðuð", "flúruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flúri", "flúrir", "flúri"],
+					"ft": ["flúrum", "flúrið", "flúri"]
+				},
+				"þátíð": {
+					"et": ["flúraði", "flúraðir", "flúraði"],
+					"ft": ["flúruðum", "flúruðuð", "flúruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flúrarðu",
+					"ft": "flúriði"
+				},
+				"þátíð": {
+					"et": "flúraðirðu",
+					"ft": "flúruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flúrirðu",
+					"ft": "flúriði"
+				},
+				"þátíð": {
+					"et": "flúraðirðu",
+					"ft": "flúruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "flúrast",
+		"sagnbót": "flúrast",
+		"boðháttur": {
+			"et": "flúrastu",
+			"ft": "flúrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flúrast", "flúrast", "flúrast"],
+					"ft": ["flúrumst", "flúrist", "flúrast"]
+				},
+				"þátíð": {
+					"et": ["flúraðist", "flúraðist", "flúraðist"],
+					"ft": ["flúruðumst", "flúruðust", "flúruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flúrist", "flúrist", "flúrist"],
+					"ft": ["flúrumst", "flúrist", "flúrist"]
+				},
+				"þátíð": {
+					"et": ["flúraðist", "flúraðist", "flúraðist"],
+					"ft": ["flúruðumst", "flúruðust", "flúruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flúrastu"
+				},
+				"þátíð": {
+					"et": "flúraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flúristu"
+				},
+				"þátíð": {
+					"et": "flúraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flúrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flúraður", "flúraðan", "flúruðum", "flúraðs"],
+					"kvk": ["flúruð", "flúraða", "flúraðri", "flúraðrar"],
+					"hk": ["flúrað", "flúrað", "flúruðu", "flúraðs"]
+				},
+				"ft": {
+					"kk": ["flúraðir", "flúraða", "flúruðum", "flúraðra"],
+					"kvk": ["flúraðar", "flúraðar", "flúruðum", "flúraðra"],
+					"hk": ["flúruð", "flúruð", "flúruðum", "flúraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flúra",
+	"hash": "a9007a0505288b94f9690784b266bdfe010f3869349af1a66cb43e56a28b3f83"
+}

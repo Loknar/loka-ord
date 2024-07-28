@@ -1,0 +1,30 @@
+{
+	"orð": "skyndilánaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skyndi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skyndi-hk"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skyndilánaskuld", "skyndilánaskuld", "skyndilánaskuld", "skyndilánaskuldar"],
+		"mg": ["skyndilánaskuldin", "skyndilánaskuldina", "skyndilánaskuldinni", "skyndilánaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["skyndilánaskuldir", "skyndilánaskuldir", "skyndilánaskuldum", "skyndilánaskulda"],
+		"mg": ["skyndilánaskuldirnar", "skyndilánaskuldirnar", "skyndilánaskuldunum", "skyndilánaskuldanna"]
+	},
+	"kennistrengur": "no-skyndilánaskuld-kvk",
+	"hash": "9df000d31544cfda15dfef644a4b304e6a761286aa78b8f278bbda269c5d00e0"
+}
