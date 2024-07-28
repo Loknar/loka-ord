@@ -107,7 +107,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 	missing = 0
 	onhanging_chars = set([
 		'.', ',', ':', ';', '(', ')', '[', ']', '-', '/', '„', '“', '”', '?', '!', '´', '%',
-		'°', '%', '–', '‐', '…', '·',
+		'°', '%', '–', '‐', '…', '·', '—',
 	])
 	onhanging_chars_with_dot = onhanging_chars.copy()
 	onhanging_chars_with_dot.remove('.')
