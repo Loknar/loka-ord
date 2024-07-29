@@ -1,0 +1,87 @@
+{
+	"orð": "arfleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "arf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-arfur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "arfleiða",
+		"sagnbót": "arfleitt",
+		"boðháttur": {
+			"stýfður": "arfleið",
+			"et": "arfleiddu",
+			"ft": "arfleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["arfleiði", "arfleiðir", "arfleiðir"],
+					"ft": ["arfleiðum", "arfleiðið", "arfleiða"]
+				},
+				"þátíð": {
+					"et": ["arfleiddi", "arfleiddir", "arfleiddi"],
+					"ft": ["arfleiddum", "arfleidduð", "arfleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["arfleiði", "arfleiðir", "arfleiði"],
+					"ft": ["arfleiðum", "arfleiðið", "arfleiði"]
+				},
+				"þátíð": {
+					"et": ["arfleiddi", "arfleiddir", "arfleiddi"],
+					"ft": ["arfleiddum", "arfleidduð", "arfleiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "arfleiðirðu",
+					"ft": "arfleiðiði"
+				},
+				"þátíð": {
+					"et": "arfleiddirðu",
+					"ft": "arfleidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "arfleiðirðu",
+					"ft": "arfleiðiði"
+				},
+				"þátíð": {
+					"et": "arfleiddirðu",
+					"ft": "arfleidduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "arfleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["arfleiddur", "arfleiddan", "arfleiddum", "arfleidds"],
+					"kvk": ["arfleidd", "arfleidda", "arfleiddri", "arfleiddrar"],
+					"hk": ["arfleitt", "arfleitt", "arfleiddu", "arfleidds"]
+				},
+				"ft": {
+					"kk": ["arfleiddir", "arfleidda", "arfleiddum", "arfleiddra"],
+					"kvk": ["arfleiddar", "arfleiddar", "arfleiddum", "arfleiddra"],
+					"hk": ["arfleidd", "arfleidd", "arfleiddum", "arfleiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-arfleiða",
+	"hash": "50e241da2a178bc51bed59bb9a6dde09af5b82ccccadfdc270394cdf63496176"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "áminna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-minna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "áminna",
+		"sagnbót": "áminnt",
+		"boðháttur": {
+			"stýfður": "áminn",
+			"et": "áminntu",
+			"ft": "áminnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["áminni", "áminnir", "áminnir"],
+					"ft": ["áminnum", "áminnið", "áminna"]
+				},
+				"þátíð": {
+					"et": ["áminnti", "áminntir", "áminnti"],
+					"ft": ["áminntum", "áminntuð", "áminntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["áminni", "áminnir", "áminni"],
+					"ft": ["áminnum", "áminnið", "áminni"]
+				},
+				"þátíð": {
+					"et": ["áminnti", "áminnti", "áminnti"],
+					"ft": ["áminntum", "áminntuð", "áminntu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "áminnirðu",
+					"ft": "áminniði"
+				},
+				"þátíð": {
+					"et": "áminntirðu",
+					"ft": "áminntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "áminnirðu",
+					"ft": "áminniði"
+				},
+				"þátíð": {
+					"et": "áminntirðu",
+					"ft": "áminntuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "áminnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["áminntur", "áminntan", "áminntum", "áminnts"],
+					"kvk": ["áminnt", "áminnta", "áminntri", "áminntrar"],
+					"hk": ["áminnt", "áminnt", "áminntu", "áminnts"]
+				},
+				"ft": {
+					"kk": ["áminntir", "áminnta", "áminntum", "áminntra"],
+					"kvk": ["áminntar", "áminntar", "áminntum", "áminntra"],
+					"hk": ["áminnt", "áminnt", "áminntum", "áminntra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-áminna",
+	"hash": "7d444fc129ab02eec28f1dc8c08bab6abf338c9857e9d66dda8d6978f2c55522"
+}
