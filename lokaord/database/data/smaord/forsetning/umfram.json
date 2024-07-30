@@ -2,7 +2,19 @@
 	"orð": "umfram",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		}
+	],
 	"stýrir": ["þolfałl"],
 	"kennistrengur": "smáo.fs-umfram",
-	"hash": "45129a9f597fb0d8677e4e56fdfec46800779ce5cff2cf3edb0fc5313080ed09"
+	"hash": "1ce9af20641c7bf08062de37109c09a35241fc55f10f4ff610d489f592f931b2"
 }
