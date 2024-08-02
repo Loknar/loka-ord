@@ -1,6 +1,16 @@
 {
 	"orð": "þurrka",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þurrk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-þurr"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "þurrka",
 		"sagnbót": "þurrkað",
@@ -54,6 +64,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "þurrkast",
+		"sagnbót": "þurrkast",
+		"boðháttur": {
+			"et": "þurrkastu",
+			"ft": "þurrkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þurrkast", "þurrkast", "þurrkast"],
+					"ft": ["þurrkumst", "þurrkist", "þurrkast"]
+				},
+				"þátíð": {
+					"et": ["þurrkaðist", "þurrkaðist", "þurrkaðist"],
+					"ft": ["þurrkuðumst", "þurrkuðust", "þurrkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þurrkist", "þurrkist", "þurrkist"],
+					"ft": ["þurrkumst", "þurrkist", "þurrkist"]
+				},
+				"þátíð": {
+					"et": ["þurrkaðist", "þurrkaðist", "þurrkaðist"],
+					"ft": ["þurrkuðumst", "þurrkuðust", "þurrkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þurrkastu"
+				},
+				"þátíð": {
+					"et": "þurrkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þurrkistu"
+				},
+				"þátíð": {
+					"et": "þurrkaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "þurrkandi",
 		"þátíðar": {
@@ -64,7 +122,7 @@
 					"hk": ["þurrkað", "þurrkað", "þurrkuðu", "þurrkaðs"]
 				},
 				"ft": {
-					"kk": ["þurrkaðir", "þurrkaða", "stæðkkuðum", "þurrkaðra"],
+					"kk": ["þurrkaðir", "þurrkaða", "þurrkuðum", "þurrkaðra"],
 					"kvk": ["þurrkaðar", "þurrkaðar", "þurrkuðum", "þurrkaðra"],
 					"hk": ["þurrkuð", "þurrkuð", "þurrkuðum", "þurrkaðra"]
 				}
@@ -84,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-þurrka",
-	"hash": "74bad10f86ddf8e071356a23e1f75332158a78e0d95f110a108620a35a3e9b69"
+	"hash": "654c87868f84bcc15b41fc6fd9152d8981d2d0bc9ba1b705ef944026cdf49464"
 }
