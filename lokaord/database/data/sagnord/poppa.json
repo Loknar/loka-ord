@@ -1,0 +1,135 @@
+{
+	"orð": "poppa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "popp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-popp-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "poppa",
+		"sagnbót": "poppað",
+		"boðháttur": {
+			"stýfður": "poppa",
+			"et": "poppaðu",
+			"ft": "poppið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["poppa", "poppar", "poppar"],
+					"ft": ["poppum", "poppið", "poppa"]
+				},
+				"þátíð": {
+					"et": ["poppaði", "poppaðir", "poppaði"],
+					"ft": ["poppuðum", "poppuðuð", "poppuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["poppi", "poppir", "poppi"],
+					"ft": ["poppum", "poppið", "poppi"]
+				},
+				"þátíð": {
+					"et": ["poppaði", "poppaðir", "poppaði"],
+					"ft": ["poppuðum", "poppuðuð", "poppuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "popparðu",
+					"ft": "poppiði"
+				},
+				"þátíð": {
+					"et": "poppaðirðu",
+					"ft": "poppuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "poppirðu",
+					"ft": "poppiði"
+				},
+				"þátíð": {
+					"et": "poppaðirðu",
+					"ft": "poppuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "poppast",
+		"sagnbót": "poppast",
+		"boðháttur": {
+			"et": "poppastu",
+			"ft": "poppist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["poppast", "poppast", "poppast"],
+					"ft": ["poppumst", "poppist", "poppast"]
+				},
+				"þátíð": {
+					"et": ["poppaðist", "poppaðist", "poppaðist"],
+					"ft": ["poppuðumst", "poppuðust", "poppuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["poppist", "poppist", "poppist"],
+					"ft": ["poppumst", "poppist", "poppist"]
+				},
+				"þátíð": {
+					"et": ["poppaðist", "poppaðist", "poppaðist"],
+					"ft": ["poppuðumst", "poppuðust", "poppuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "poppastu"
+				},
+				"þátíð": {
+					"et": "poppaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "poppistu"
+				},
+				"þátíð": {
+					"et": "poppaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "poppandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["poppaður", "poppaðan", "poppuðum", "poppaðs"],
+					"kvk": ["poppuð", "poppaða", "poppaðri", "poppaðrar"],
+					"hk": ["poppað", "poppað", "poppuðu", "poppaðs"]
+				},
+				"ft": {
+					"kk": ["poppaðir", "poppaða", "poppuðum", "poppaðra"],
+					"kvk": ["poppaðar", "poppaðar", "poppuðum", "poppaðra"],
+					"hk": ["poppuð", "poppuð", "poppuðum", "poppaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-poppa",
+	"hash": "2e5c79a35fd2a0741d0dfb0bc08dc13eed6887525b0641432462c98c4bf94c22"
+}
