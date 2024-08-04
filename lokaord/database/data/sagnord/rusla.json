@@ -1,0 +1,135 @@
+{
+	"orð": "rusla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rusl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rusl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rusla",
+		"sagnbót": "ruslað",
+		"boðháttur": {
+			"stýfður": "rusla",
+			"et": "ruslaðu",
+			"ft": "ruslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rusla", "ruslar", "ruslar"],
+					"ft": ["ruslum", "ruslið", "rusla"]
+				},
+				"þátíð": {
+					"et": ["ruslaði", "ruslaðir", "ruslaði"],
+					"ft": ["rusluðum", "rusluðuð", "rusluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rusli", "ruslir", "rusli"],
+					"ft": ["ruslum", "ruslið", "rusli"]
+				},
+				"þátíð": {
+					"et": ["ruslaði", "ruslaðir", "ruslaði"],
+					"ft": ["rusluðum", "rusluðuð", "rusluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ruslarðu",
+					"ft": "rusliði"
+				},
+				"þátíð": {
+					"et": "ruslaðirðu",
+					"ft": "rusluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ruslirðu",
+					"ft": "rusliði"
+				},
+				"þátíð": {
+					"et": "ruslaðirðu",
+					"ft": "rusluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ruslast",
+		"sagnbót": "ruslast",
+		"boðháttur": {
+			"et": "ruslastu",
+			"ft": "ruslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ruslast", "ruslast", "ruslast"],
+					"ft": ["ruslumst", "ruslist", "ruslast"]
+				},
+				"þátíð": {
+					"et": ["ruslaðist", "ruslaðist", "ruslaðist"],
+					"ft": ["rusluðumst", "rusluðust", "rusluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ruslist", "ruslist", "ruslist"],
+					"ft": ["ruslumst", "ruslist", "ruslist"]
+				},
+				"þátíð": {
+					"et": ["ruslaðist", "ruslaðist", "ruslaðist"],
+					"ft": ["rusluðumst", "rusluðust", "rusluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ruslastu"
+				},
+				"þátíð": {
+					"et": "ruslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ruslistu"
+				},
+				"þátíð": {
+					"et": "ruslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ruslandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ruslaður", "ruslaðan", "rusluðum", "ruslaðs"],
+					"kvk": ["rusluð", "ruslaða", "ruslaðri", "ruslaðrar"],
+					"hk": ["ruslað", "ruslað", "rusluðu", "ruslaðs"]
+				},
+				"ft": {
+					"kk": ["ruslaðir", "ruslaða", "rusluðum", "ruslaðra"],
+					"kvk": ["ruslaðar", "ruslaðar", "rusluðum", "ruslaðra"],
+					"hk": ["rusluð", "rusluð", "rusluðum", "ruslaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rusla",
+	"hash": "721e68f276d2f531b844958a89c6bc45a19fdcffeb18f5c4fe4c8b2bab397f83"
+}
