@@ -27,7 +27,7 @@ from lokaord.version import __version__ as version
 if platform.system() == 'Linux':
 	import pointless
 
-WPP = 12000  # default words per page in webpack
+WPP = 2500  # default words per page in webpack
 
 
 def search_word(word):
