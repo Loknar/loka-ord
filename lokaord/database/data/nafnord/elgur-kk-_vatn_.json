@@ -3,10 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "kk",
 	"merking": "vatn",
+	"samsett": [
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-elgur-kk"
+		}
+	],
 	"et": {
-		"ág": ["elgur", "elg", "elg", "elgjar"],
-		"mg": ["elgurinn", "elginn", "elgnum", "elgjarins"]
+		"ág": ["elgur", "elg", "elg", "elgs"],
+		"mg": ["elgurinn", "elginn", "elgnum", "elgsins"]
 	},
 	"kennistrengur": "no-elgur-kk-_vatn_",
-	"hash": "24852212e5f92d79c274ae27e3616f34cbe9a18aa40047e0e10d52fab1bb2a8f"
+	"hash": "619cf309ca44e34362d3ac7331a5efbf0d7da1e3de5f56e5fad1e8c28d16b020"
 }

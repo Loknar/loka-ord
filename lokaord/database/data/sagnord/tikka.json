@@ -1,0 +1,135 @@
+{
+	"orð": "tikka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tikk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tikk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tikka",
+		"sagnbót": "tikkað",
+		"boðháttur": {
+			"stýfður": "tikka",
+			"et": "tikkaðu",
+			"ft": "tikkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tikka", "tikkar", "tikkar"],
+					"ft": ["tikkum", "tikkið", "tikka"]
+				},
+				"þátíð": {
+					"et": ["tikkaði", "tikkaðir", "tikkaði"],
+					"ft": ["tikkuðum", "tikkuðuð", "tikkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tikki", "tikkir", "tikki"],
+					"ft": ["tikkum", "tikkið", "tikki"]
+				},
+				"þátíð": {
+					"et": ["tikkaði", "tikkaðir", "tikkaði"],
+					"ft": ["tikkuðum", "tikkuðuð", "tikkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tikkarðu",
+					"ft": "tikkiði"
+				},
+				"þátíð": {
+					"et": "tikkaðirðu",
+					"ft": "tikkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tikkirðu",
+					"ft": "tikkiði"
+				},
+				"þátíð": {
+					"et": "tikkaðirðu",
+					"ft": "tikkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tikkast",
+		"sagnbót": "tikkast",
+		"boðháttur": {
+			"et": "tikkastu",
+			"ft": "tikkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tikkast", "tikkast", "tikkast"],
+					"ft": ["tikkumst", "tikkist", "tikkast"]
+				},
+				"þátíð": {
+					"et": ["tikkaðist", "tikkaðist", "tikkaðist"],
+					"ft": ["tikkuðumst", "tikkuðust", "tikkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tikkist", "tikkist", "tikkist"],
+					"ft": ["tikkumst", "tikkist", "tikkist"]
+				},
+				"þátíð": {
+					"et": ["tikkaðist", "tikkaðist", "tikkaðist"],
+					"ft": ["tikkuðumst", "tikkuðust", "tikkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tikkastu"
+				},
+				"þátíð": {
+					"et": "tikkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tikkistu"
+				},
+				"þátíð": {
+					"et": "tikkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tikkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tikkaður", "tikkaðan", "tikkuðum", "tikkaðs"],
+					"kvk": ["tikkuð", "tikkaða", "tikkaðri", "tikkaðrar"],
+					"hk": ["tikkað", "tikkað", "tikkuðu", "tikkaðs"]
+				},
+				"ft": {
+					"kk": ["tikkaðir", "tikkaða", "tikkuðum", "tikkaðra"],
+					"kvk": ["tikkaðar", "tikkaðar", "tikkuðum", "tikkaðra"],
+					"hk": ["tikkuð", "tikkuð", "tikkuðum", "tikkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tikka",
+	"hash": "77948ef0cf5f326a64cac48bc36e20c3ba8b4eeec15f6f594283518d81e2acdd"
+}
