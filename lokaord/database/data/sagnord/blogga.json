@@ -1,6 +1,16 @@
 {
 	"orð": "blogga",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "blogg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-blogg-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "blogga",
 		"sagnbót": "bloggað",
@@ -44,7 +54,7 @@
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "bloggiðru",
+					"et": "bloggirðu",
 					"ft": "bloggiði"
 				},
 				"þátíð": {
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "bloggast",
 		"sagnbót": "bloggast",
+		"boðháttur": {
+			"et": "bloggastu",
+			"ft": "bloggist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-blogga",
-	"hash": "4af9017be791aa5376eca3fddbab74093ab68010d32319c62ad64c0efa7fed9a"
+	"hash": "fa7b73f7f3d344fbb3e8f1705068340c496bac4f5a1817383904d6f83332addb"
 }

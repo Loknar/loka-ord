@@ -1,0 +1,121 @@
+{
+	"orð": "hrósa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrós",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hrós-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hrósa",
+		"sagnbót": "hrósað",
+		"boðháttur": {
+			"stýfður": "hrósa",
+			"et": "hrósaðu",
+			"ft": "hrósið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrósa", "hrósar", "hrósar"],
+					"ft": ["hrósum", "hrósið", "hrósa"]
+				},
+				"þátíð": {
+					"et": ["hrósaði", "hrósaðir", "hrósaði"],
+					"ft": ["hrósuðum", "hrósuðuð", "hrósuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrósi", "hrósir", "hrósi"],
+					"ft": ["hrósum", "hrósið", "hrósi"]
+				},
+				"þátíð": {
+					"et": ["hrósaði", "hrósaðir", "hrósaði"],
+					"ft": ["hrósuðum", "hrósuðuð", "hrósuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hrósarðu",
+					"ft": "hrósiði"
+				},
+				"þátíð": {
+					"et": "hrósaðirðu",
+					"ft": "hrósuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hrósirðu",
+					"ft": "hrósiði"
+				},
+				"þátíð": {
+					"et": "hrósaðirðu",
+					"ft": "hrósuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hrósast",
+		"sagnbót": "hrósast",
+		"boðháttur": {
+			"et": "hrósastu",
+			"ft": "hrósist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrósast", "hrósast", "hrósast"],
+					"ft": ["hrósumst", "hrósist", "hrósast"]
+				},
+				"þátíð": {
+					"et": ["hrósaðist", "hrósaðist", "hrósaðist"],
+					"ft": ["hrósuðumst", "hrósuðust", "hrósuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrósist", "hrósist", "hrósist"],
+					"ft": ["hrósumst", "hrósist", "hrósist"]
+				},
+				"þátíð": {
+					"et": ["hrósaðist", "hrósaðist", "hrósaðist"],
+					"ft": ["hrósuðumst", "hrósuðust", "hrósuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hrósastu"
+				},
+				"þátíð": {
+					"et": "hrósaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hrósistu"
+				},
+				"þátíð": {
+					"et": "hrósaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hrósandi"
+	},
+	"kennistrengur": "so-hrósa",
+	"hash": "cddac86916a683af4dfbdbca5e69eb9dd3e69886e3602625eea3e8c282d36872"
+}
