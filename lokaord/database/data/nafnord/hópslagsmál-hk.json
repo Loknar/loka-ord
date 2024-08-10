@@ -1,0 +1,27 @@
+{
+	"orð": "hópslagsmál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hóp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hópur-kk"
+		},
+		{
+			"mynd": "slags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-slagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hópslagsmál", "hópslagsmál", "hópslagsmálum", "hópslagsmála"],
+		"mg": ["hópslagsmálin", "hópslagsmálin", "hópslagsmálunum", "hópslagsmálanna"]
+	},
+	"kennistrengur": "no-hópslagsmál-hk",
+	"hash": "85e4cfe6d6d3d7d8b6a45f82394eeb89a18a44e9d5819552bb4d3ed3e3a58027"
+}

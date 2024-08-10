@@ -1,0 +1,87 @@
+{
+	"orð": "brotna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brotn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-brot-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brotna",
+		"sagnbót": "brotnað",
+		"boðháttur": {
+			"stýfður": "brotna",
+			"et": "brotnaðu",
+			"ft": "brotnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brotna", "brotnar", "brotnar"],
+					"ft": ["brotnum", "brotnið", "brotna"]
+				},
+				"þátíð": {
+					"et": ["brotnaði", "brotnaðir", "brotnaði"],
+					"ft": ["brotnuðum", "brotnuðuð", "brotnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brotni", "brotnir", "brotni"],
+					"ft": ["brotnum", "brotnið", "brotni"]
+				},
+				"þátíð": {
+					"et": ["brotnaði", "brotnaðir", "brotnaði"],
+					"ft": ["brotnuðum", "brotnuðuð", "brotnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brotnarðu",
+					"ft": "brotniði"
+				},
+				"þátíð": {
+					"et": "brotnaðirðu",
+					"ft": "brotnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brotnirðu",
+					"ft": "brotniði"
+				},
+				"þátíð": {
+					"et": "brotnaðirðu",
+					"ft": "brotnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brotnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brotnaður", "brotnaðan", "brotnuðum", "brotnaðs"],
+					"kvk": ["brotnuð", "brotnaða", "brotnaðri", "brotnaðrar"],
+					"hk": ["brotnað", "brotnað", "brotnuðu", "brotnaðs"]
+				},
+				"ft": {
+					"kk": ["brotnaðir", "brotnaða", "brotnuðum", "brotnaðra"],
+					"kvk": ["brotnaðar", "brotnaðar", "brotnuðum", "brotnaðra"],
+					"hk": ["brotnuð", "brotnuð", "brotnuðum", "brotnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brotna",
+	"hash": "f7c5fabf1471f7d14450dd7f80e8c9d2638d741030b0496b996e390c91831e23"
+}
