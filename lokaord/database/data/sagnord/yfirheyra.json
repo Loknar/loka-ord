@@ -1,0 +1,87 @@
+{
+	"orð": "yfirheyra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-heyra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirheyra",
+		"sagnbót": "yfirheyrt",
+		"boðháttur": {
+			"stýfður": "yfirheyr",
+			"et": "yfirheyrðu",
+			"ft": "yfirheyrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirheyri", "yfirheyrir", "yfirheyrir"],
+					"ft": ["yfirheyrum", "yfirheyrið", "yfirheyra"]
+				},
+				"þátíð": {
+					"et": ["yfirheyrði", "yfirheyrðir", "yfirheyrði"],
+					"ft": ["yfirheyrðum", "yfirheyrðuð", "yfirheyrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirheyri", "yfirheyrir", "yfirheyri"],
+					"ft": ["yfirheyrum", "yfirheyrið", "yfirheyri"]
+				},
+				"þátíð": {
+					"et": ["yfirheyrði", "yfirheyrðir", "yfirheyrði"],
+					"ft": ["yfirheyrðum", "yfirheyrðuð", "yfirheyrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirheyrirðu",
+					"ft": "yfirheyriði"
+				},
+				"þátíð": {
+					"et": "yfirheyrðirðu",
+					"ft": "yfirheyrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirheyrirðu",
+					"ft": "yfirheyriði"
+				},
+				"þátíð": {
+					"et": "yfirheyrðirðu",
+					"ft": "yfirheyrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirheyrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirheyrður", "yfirheyrðan", "yfirheyrðum", "yfirheyrðs"],
+					"kvk": ["yfirheyrð", "yfirheyrða", "yfirheyrðri", "yfirheyrðrar"],
+					"hk": ["yfirheyrt", "yfirheyrt", "yfirheyrðu", "yfirheyrðs"]
+				},
+				"ft": {
+					"kk": ["yfirheyrðir", "yfirheyrða", "yfirheyrðum", "yfirheyrðra"],
+					"kvk": ["yfirheyrðar", "yfirheyrðar", "yfirheyrðum", "yfirheyrðra"],
+					"hk": ["yfirheyrð", "yfirheyrð", "yfirheyrðum", "yfirheyrðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirheyra",
+	"hash": "9aea18f98a2f6d29f06f7f7a06ca3de08e3cdce24872533861603fac3948d00c"
+}
