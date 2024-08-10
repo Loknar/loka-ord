@@ -8,7 +8,6 @@
 			"kennistrengur": "no-mór-kk"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-rauður"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["mórauðari", "mórauðari", "mórauðari", "mórauðari"],
+				"kvk": ["mórauðari", "mórauðari", "mórauðari", "mórauðari"],
+				"hk": ["mórauðara", "mórauðara", "mórauðara", "mórauðara"]
+			},
+			"ft": {
+				"kk": ["mórauðari", "mórauðari", "mórauðari", "mórauðari"],
+				"kvk": ["mórauðari", "mórauðari", "mórauðari", "mórauðari"],
+				"hk": ["mórauðari", "mórauðari", "mórauðari", "mórauðari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["mórauðastur", "mórauðastan", "mórauðustum", "mórauðasts"],
+				"kvk": ["mórauðust", "mórauðasta", "mórauðastri", "mórauðastrar"],
+				"hk": ["mórauðast", "mórauðast", "mórauðustu", "mórauðasts"]
+			},
+			"ft": {
+				"kk": ["mórauðastir", "mórauðasta", "mórauðustum", "mórauðastra"],
+				"kvk": ["mórauðastar", "mórauðastar", "mórauðustum", "mórauðastra"],
+				"hk": ["mórauðust", "mórauðust", "mórauðustum", "mórauðastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["mórauðasti", "mórauðasta", "mórauðasta", "mórauðasta"],
+				"kvk": ["mórauðasta", "mórauðustu", "mórauðustu", "mórauðustu"],
+				"hk": ["mórauðasta", "mórauðasta", "mórauðasta", "mórauðasta"]
+			},
+			"ft": {
+				"kk": ["mórauðustu", "mórauðustu", "mórauðustu", "mórauðustu"],
+				"kvk": ["mórauðustu", "mórauðustu", "mórauðustu", "mórauðustu"],
+				"hk": ["mórauðustu", "mórauðustu", "mórauðustu", "mórauðustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-mórauður",
-	"hash": "8a3051a268f67b996a7aad344ee2cdc56f99ebbbc00c9042e1dc336873ea6fe9"
+	"hash": "aea7d460146187233852b6e88746c437a738fb3e6f99052d751d94e9f7c2ec68"
 }
