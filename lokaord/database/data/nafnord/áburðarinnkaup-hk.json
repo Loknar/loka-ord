@@ -1,0 +1,32 @@
+{
+	"orð": "áburðarinnkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"mynd": "burðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-burður-kk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["áburðarinnkaup", "áburðarinnkaup", "áburðarinnkaupum", "áburðarinnkaupa"],
+		"mg": ["áburðarinnkaupin", "áburðarinnkaupin", "áburðarinnkaupunum", "áburðarinnkaupanna"]
+	},
+	"kennistrengur": "no-áburðarinnkaup-hk",
+	"hash": "1800fe6ee369295d496e022a101be841ec64766a680f991fa2c39860d2ca76a1"
+}
