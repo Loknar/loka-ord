@@ -1,0 +1,30 @@
+{
+	"orð": "matvörukeðja",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mat",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"kennistrengur": "no-keðja-kvk"
+		}
+	],
+	"et": {
+		"ág": ["matvörukeðja", "matvörukeðju", "matvörukeðju", "matvörukeðju"],
+		"mg": ["matvörukeðjan", "matvörukeðjuna", "matvörukeðjunni", "matvörukeðjunnar"]
+	},
+	"ft": {
+		"ág": ["matvörukeðjur", "matvörukeðjur", "matvörukeðjum", "matvörukeðja"],
+		"mg": ["matvörukeðjurnar", "matvörukeðjurnar", "matvörukeðjunum", "matvörukeðjanna"]
+	},
+	"kennistrengur": "no-matvörukeðja-kvk",
+	"hash": "9b95990568a3809fa7d635115761dc97f0af8ebe22a29a8bcaa68fe83041b813"
+}

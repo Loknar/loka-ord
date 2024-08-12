@@ -1,0 +1,35 @@
+{
+	"orð": "lágvöruverðsverslun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "verðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-verslun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágvöruverðsverslun", "lágvöruverðsverslun", "lágvöruverðsverslun", "lágvöruverðsverslunar"],
+		"mg": ["lágvöruverðsverslunin", "lágvöruverðsverslunina", "lágvöruverðsversluninni", "lágvöruverðsverslunarinnar"]
+	},
+	"ft": {
+		"ág": ["lágvöruverðsverslanir", "lágvöruverðsverslanir", "lágvöruverðsverslunum", "lágvöruverðsverslana"],
+		"mg": ["lágvöruverðsverslanirnar", "lágvöruverðsverslanirnar", "lágvöruverðsverslununum", "lágvöruverðsverslananna"]
+	},
+	"kennistrengur": "no-lágvöruverðsverslun-kvk",
+	"hash": "e3334cc451b4530d5519b689fa7d5ac61d03fce126a3cce3481f00492d08305d"
+}

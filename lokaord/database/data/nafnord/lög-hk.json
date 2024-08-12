@@ -2,10 +2,16 @@
 	"orð": "lög",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
 	"ft": {
 		"ág": ["lög", "lög", "lögum", "laga"],
 		"mg": ["lögin", "lögin", "lögunum", "laganna"]
 	},
 	"kennistrengur": "no-lög-hk",
-	"hash": "b085113d03044626996891a0af7cf4cff57cb5f238fd965d3da923b34891cdd8"
+	"hash": "07e16331bbf2b4adf1ed31852cd3449b74ade5bd4d4831efbeb291a549bda184"
 }
