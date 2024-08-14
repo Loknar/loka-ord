@@ -145,20 +145,26 @@ def runtime():
 @app.command(help='Initialize lokaord (same as: "build-db write-files build-sight md-stats").')
 def init(
 	rebuild: Annotated[Optional[bool], Option('--rebuild', '-r')] = False,
-	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False
+	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False,
+	blind: Annotated[Optional[bool], Option('--blind', '-b')] = False
 ):
 	lokaord.build_db(rebuild)
 	lokaord.write_files()
-	lokaord.build_sight()
+	if blind is False:
+		lokaord.build_sight()
 	print(lokaord.get_md_stats(update_readme_table=update_readme))
 	lokaord.get_runtime()
 
 
 @app.command(help='Update lokaord (same as: "build-db -ch write-files -tr build-sight md-stats").')
-def update(update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False):
+def update(
+	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False,
+	blind: Annotated[Optional[bool], Option('--blind', '-b')] = False
+):
 	lokaord.build_db(changes_only=True)
 	lokaord.write_files(lokaord.Ts)
-	lokaord.build_sight()
+	if blind is False:
+		lokaord.build_sight()
 	print(lokaord.get_md_stats(update_readme_table=update_readme))
 	lokaord.get_runtime()
 
