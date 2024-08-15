@@ -1,0 +1,27 @@
+{
+	"orð": "tekjuáhrif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "tekju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tekja-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-hrif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["tekjuáhrif", "tekjuáhrif", "tekjuáhrifum", "tekjuáhrifa"],
+		"mg": ["tekjuáhrifin", "tekjuáhrifin", "tekjuáhrifunum", "tekjuáhrifanna"]
+	},
+	"kennistrengur": "no-tekjuáhrif-hk",
+	"hash": "6b06ee3d2ba34252930c003f7b178f0c510e5d8d366e2bc4d0147377c13fd727"
+}

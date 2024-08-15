@@ -1,0 +1,30 @@
+{
+	"orð": "dagvinnutími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["dagvinnutími", "dagvinnutíma", "dagvinnutíma", "dagvinnutíma"],
+		"mg": ["dagvinnutíminn", "dagvinnutímann", "dagvinnutímanum", "dagvinnutímans"]
+	},
+	"ft": {
+		"ág": ["dagvinnutímar", "dagvinnutíma", "dagvinnutímum", "dagvinnutíma"],
+		"mg": ["dagvinnutímarnir", "dagvinnutímana", "dagvinnutímunum", "dagvinnutímanna"]
+	},
+	"kennistrengur": "no-dagvinnutími-kk",
+	"hash": "1051a7913016735b1f392fce68795e3c0716346f82bcfe0b5b8259fc86fe5bba"
+}
