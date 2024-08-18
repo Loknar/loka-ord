@@ -1,0 +1,32 @@
+{
+	"orð": "flóttamannaaðstoð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flótta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-flótti-kk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stoð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["flóttamannaaðstoð", "flóttamannaaðstoð", "flóttamannaaðstoð", "flóttamannaaðstoðar"],
+		"mg": ["flóttamannaaðstoðin", "flóttamannaaðstoðina", "flóttamannaaðstoðinni", "flóttamannaaðstoðarinnar"]
+	},
+	"kennistrengur": "no-flóttamannaaðstoð-kvk",
+	"hash": "6a71754d8af2ae4ac2243df959b72267d5fc1fcb731aba3998f67fc971e2d58a"
+}

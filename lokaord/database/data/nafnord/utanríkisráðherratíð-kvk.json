@@ -1,0 +1,37 @@
+{
+	"orð": "utanríkisráðherratíð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "utan",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-utan"
+		},
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"mynd": "herra",
+			"samsetning": "stofn",
+			"kennistrengur": "no-herra-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tíð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["utanríkisráðherratíð", "utanríkisráðherratíð", "utanríkisráðherratíð", "utanríkisráðherratíðar"],
+		"mg": ["utanríkisráðherratíðin", "utanríkisráðherratíðina", "utanríkisráðherratíðinni", "utanríkisráðherratíðarinnar"]
+	},
+	"kennistrengur": "no-utanríkisráðherratíð-kvk",
+	"hash": "a87b03fa99c996c8234469789546cd8571f9c13e573d59d6473ceb1f5b0a7a72"
+}
