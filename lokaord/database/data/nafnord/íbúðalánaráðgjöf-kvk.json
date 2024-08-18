@@ -1,0 +1,35 @@
+{
+	"orð": "íbúðalánaráðgjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "íbúða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúð-kvk"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["íbúðalánaráðgjöf", "íbúðalánaráðgjöf", "íbúðalánaráðgjöf", "íbúðalánaráðgjafar"],
+		"mg": ["íbúðalánaráðgjöfin", "íbúðalánaráðgjöfina", "íbúðalánaráðgjöfinni", "íbúðalánaráðgjafarinnar"]
+	},
+	"ft": {
+		"ág": ["íbúðalánaráðgjafir", "íbúðalánaráðgjafir", "íbúðalánaráðgjöfum", "íbúðalánaráðgjafa"],
+		"mg": ["íbúðalánaráðgjafirnar", "íbúðalánaráðgjafirnar", "íbúðalánaráðgjöfunum", "íbúðalánaráðgjafanna"]
+	},
+	"kennistrengur": "no-íbúðalánaráðgjöf-kvk",
+	"hash": "2178a1f04fa645f61624a1f92a0fe2ed190540e8c9b7e42dba6b5dc4f7259e3d"
+}

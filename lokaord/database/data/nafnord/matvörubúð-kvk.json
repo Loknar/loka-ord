@@ -1,0 +1,30 @@
+{
+	"orð": "matvörubúð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mat",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["matvörubúð", "matvörubúð", "matvörubúð", "matvörubúðar"],
+		"mg": ["matvörubúðin", "matvörubúðina", "matvörubúðinni", "matvörubúðarinnar"]
+	},
+	"ft": {
+		"ág": ["matvörubúðir", "matvörubúðir", "matvörubúðum", "matvörubúða"],
+		"mg": ["matvörubúðirnar", "matvörubúðirnar", "matvörubúðunum", "matvörubúðanna"]
+	},
+	"kennistrengur": "no-matvörubúð-kvk",
+	"hash": "00a9ed18202aa34a26ec7f931ec83073f9171daf9a02af781fd2884d889b60fa"
+}
