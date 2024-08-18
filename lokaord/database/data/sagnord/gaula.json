@@ -1,0 +1,73 @@
+{
+	"orð": "gaula",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gaul",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gaul-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gaula",
+		"sagnbót": "gaulað",
+		"boðháttur": {
+			"stýfður": "gaula",
+			"et": "gaulaðu",
+			"ft": "gaulið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gaula", "gaular", "gaular"],
+					"ft": ["gaulum", "gaulið", "gaula"]
+				},
+				"þátíð": {
+					"et": ["gaulaði", "gaulaðir", "gaulaði"],
+					"ft": ["gauluðum", "gauluðuð", "gauluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gauli", "gaulir", "gauli"],
+					"ft": ["gaulum", "gaulið", "gauli"]
+				},
+				"þátíð": {
+					"et": ["gaulaði", "gaulaðir", "gaulaði"],
+					"ft": ["gauluðum", "gauluðuð", "gauluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gaularðu",
+					"ft": "gauliði"
+				},
+				"þátíð": {
+					"et": "gaulaðirðu",
+					"ft": "gauluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gaulirðu",
+					"ft": "gauliði"
+				},
+				"þátíð": {
+					"et": "gaulaðirðu",
+					"ft": "gauluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gaulandi"
+	},
+	"kennistrengur": "so-gaula",
+	"hash": "62f015a79dd49868ae407e7d1631d95372a5ddb75274b44a327cc572dfe129af"
+}
