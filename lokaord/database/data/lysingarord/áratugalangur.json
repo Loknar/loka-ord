@@ -1,0 +1,48 @@
+{
+	"orð": "áratugalangur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ára",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"mynd": "tuga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-langur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["áratugalangur", "áratugalangan", "áratugalöngum", "áratugalangs"],
+				"kvk": ["áratugalöng", "áratugalanga", "áratugalangri", "áratugalangrar"],
+				"hk": ["áratugalangt", "áratugalangt", "áratugalöngu", "áratugalangs"]
+			},
+			"ft": {
+				"kk": ["áratugalangir", "áratugalanga", "áratugalöngum", "áratugalangra"],
+				"kvk": ["áratugalangar", "áratugalangar", "áratugalöngum", "áratugalangra"],
+				"hk": ["áratugalöng", "áratugalöng", "áratugalöngum", "áratugalangra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["áratugalangi", "áratugalanga", "áratugalanga", "áratugalanga"],
+				"kvk": ["áratugalanga", "áratugalöngu", "áratugalöngu", "áratugalöngu"],
+				"hk": ["áratugalanga", "áratugalanga", "áratugalanga", "áratugalanga"]
+			},
+			"ft": {
+				"kk": ["áratugalöngu", "áratugalöngu", "áratugalöngu", "áratugalöngu"],
+				"kvk": ["áratugalöngu", "áratugalöngu", "áratugalöngu", "áratugalöngu"],
+				"hk": ["áratugalöngu", "áratugalöngu", "áratugalöngu", "áratugalöngu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-áratugalangur",
+	"hash": "e12b76ceb728ac2f88a91e5d9095735f97d2ebfdc776718f5ecc25313d630a90"
+}
