@@ -2,6 +2,16 @@
 	"orð": "hörmung",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hörm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-harmur-kk"
+		},
+		{
+			"kennistrengur": "no-ung-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hörmung", "hörmung", "hörmung", "hörmungar"],
 		"mg": ["hörmungin", "hörmungina", "hörmunginni", "hörmungarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hörmungarnar", "hörmungarnar", "hörmungunum", "hörmunganna"]
 	},
 	"kennistrengur": "no-hörmung-kvk",
-	"hash": "21070aec2b1b3b4d5b75f5fc29e750f2cc5e8eba0506df0222fdc5a9f3a5b0b5"
+	"hash": "7f0467e5ced5e5dea9f4def8f09bc8dcb3ac5dc14c2daf28261313924f7ab8cc"
 }
