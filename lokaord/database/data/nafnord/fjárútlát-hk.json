@@ -1,0 +1,27 @@
+{
+	"orð": "fjárútlát",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lát-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fjárútlát", "fjárútlát", "fjárútlátum", "fjárútláta"],
+		"mg": ["fjárútlátin", "fjárútlátin", "fjárútlátunum", "fjárútlátanna"]
+	},
+	"kennistrengur": "no-fjárútlát-hk",
+	"hash": "0ed835fb369bcd2a17bd4263f036da52139f39ab769a6d8bec75fc42398176cc"
+}
