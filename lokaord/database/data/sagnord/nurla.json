@@ -1,0 +1,135 @@
+{
+	"orð": "nurla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "nurl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nurl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nurla",
+		"sagnbót": "nurlað",
+		"boðháttur": {
+			"stýfður": "nurla",
+			"et": "nurlaðu",
+			"ft": "nurlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nurla", "nurlar", "nurlar"],
+					"ft": ["nurlum", "nurlið", "nurla"]
+				},
+				"þátíð": {
+					"et": ["nurlaði", "nurlaðir", "nurlaði"],
+					"ft": ["nurluðum", "nurluðuð", "nurluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nurli", "nurlir", "nurli"],
+					"ft": ["nurlum", "nurlið", "nurli"]
+				},
+				"þátíð": {
+					"et": ["nurlaði", "nurlaðir", "nurlaði"],
+					"ft": ["nurluðum", "nurluðuð", "nurluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nurlarðu",
+					"ft": "nurliði"
+				},
+				"þátíð": {
+					"et": "nurlaðirðu",
+					"ft": "nurluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nurlirðu",
+					"ft": "nurliði"
+				},
+				"þátíð": {
+					"et": "nurlaðirðu",
+					"ft": "nurluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "nurlast",
+		"sagnbót": "nurlast",
+		"boðháttur": {
+			"et": "nurlastu",
+			"ft": "nurlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nurlast", "nurlast", "nurlast"],
+					"ft": ["nurlumst", "nurlist", "nurlast"]
+				},
+				"þátíð": {
+					"et": ["nurlaðist", "nurlaðist", "nurlaðist"],
+					"ft": ["nurluðumst", "nurluðust", "nurluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nurlist", "nurlist", "nurlist"],
+					"ft": ["nurlumst", "nurlist", "nurlist"]
+				},
+				"þátíð": {
+					"et": ["nurlaðist", "nurlaðist", "nurlaðist"],
+					"ft": ["nurluðumst", "nurluðust", "nurluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nurlastu"
+				},
+				"þátíð": {
+					"et": "nurlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nurlistu"
+				},
+				"þátíð": {
+					"et": "nurlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nurlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nurlaður", "nurlaðan", "nurluðum", "nurlaðs"],
+					"kvk": ["nurluð", "nurlaða", "nurlaðri", "nurlaðrar"],
+					"hk": ["nurlað", "nurlað", "nurluðu", "nurlaðs"]
+				},
+				"ft": {
+					"kk": ["nurlaðir", "nurlaða", "nurluðum", "nurlaðra"],
+					"kvk": ["nurlaðar", "nurlaðar", "nurluðum", "nurlaðra"],
+					"hk": ["nurluð", "nurluð", "nurluðum", "nurlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nurla",
+	"hash": "92c92fe388daa2872106e9954a26d1e1437c66a1709efbc74fed0375c6861ba9"
+}

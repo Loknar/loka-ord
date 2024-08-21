@@ -2,11 +2,22 @@
 	"orð": "lægni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lægn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-lægur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lægni", "lægni", "lægni", "lægni"],
 		"mg": ["lægnin", "lægnina", "lægninni", "lægninnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-lægni-kvk-ó",
-	"hash": "1c7b8dd465c78bfdb8a632d1830121b9b3a3f970b2e40ae26e593d68c935a289"
+	"hash": "b6e8c5151fa29f3151787ee5cfc39cdbf7d08987fd0e46ea6892a91591dd074e"
 }

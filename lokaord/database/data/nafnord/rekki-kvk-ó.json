@@ -2,11 +2,22 @@
 	"orð": "rekki",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rekk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-rakkur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["rekki", "rekki", "rekki", "rekki"],
 		"mg": ["rekkin", "rekkina", "rekkinni", "rekkinnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-rekki-kvk-ó",
-	"hash": "eac147100d5cfeb3f7a2111b0f1a30e32ce797475f2c7a460022a52b540a8121"
+	"hash": "fb854758561b30e51796c11ff43ea1cda57bd4583a6193d12d9e9582286281b6"
 }

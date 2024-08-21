@@ -2,11 +2,22 @@
 	"orð": "vitni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vitn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-vitur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["vitni", "vitni", "vitni", "vitni"],
 		"mg": ["vitnin", "vitnina", "vitninni", "vitninnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-vitni-kvk-ó",
-	"hash": "0397e4709372bd8b9036b23ff223a1ae8c753b2e40a458ae49ad44df6d9264b7"
+	"hash": "d1c759903b20fba15c3fc2cead01e2ccd72d861cd2c4aaad85f642640dd6c14b"
 }

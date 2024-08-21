@@ -2,11 +2,22 @@
 	"orð": "semi",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sem",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-samur-ó"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["semi", "semi", "semi", "semi"],
 		"mg": ["semin", "semina", "seminni", "seminnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-semi-kvk-ó",
-	"hash": "fde5caba873b5bdd782c4428c7e2838e55c59e416b7cfdeba925d11efc376f75"
+	"hash": "4ab3ec3b2f53ad62efde17eecb62d6c29a44dccfa6db2efd164e1621543f5666"
 }

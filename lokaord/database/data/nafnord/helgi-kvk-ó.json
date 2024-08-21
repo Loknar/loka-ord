@@ -2,11 +2,22 @@
 	"orð": "helgi",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "helg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-helgur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["helgi", "helgi", "helgi", "helgi"],
 		"mg": ["helgin", "helgina", "helginni", "helginnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-helgi-kvk-ó",
-	"hash": "f689cedb1822237ba79152313a777ebf9d79135a5056d23fbeb16966f0b612bf"
+	"hash": "6a3684a84beac06e962622f8f55661af3021c3fc8a86c0f27f49d2f43e503d54"
 }

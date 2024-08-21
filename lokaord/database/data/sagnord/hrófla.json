@@ -1,0 +1,135 @@
+{
+	"orð": "hrófla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrófl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hrófl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hrófla",
+		"sagnbót": "hróflað",
+		"boðháttur": {
+			"stýfður": "hrófla",
+			"et": "hróflaðu",
+			"ft": "hróflið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrófla", "hróflar", "hróflar"],
+					"ft": ["hróflum", "hróflið", "hrófla"]
+				},
+				"þátíð": {
+					"et": ["hróflaði", "hróflaðir", "hróflaði"],
+					"ft": ["hrófluðum", "hrófluðuð", "hrófluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrófli", "hróflir", "hrófli"],
+					"ft": ["hróflum", "hróflið", "hrófli"]
+				},
+				"þátíð": {
+					"et": ["hróflaði", "hróflaðir", "hróflaði"],
+					"ft": ["hrófluðum", "hrófluðuð", "hrófluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hróflarðu",
+					"ft": "hrófliði"
+				},
+				"þátíð": {
+					"et": "hróflaðirðu",
+					"ft": "hrófluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hróflirðu",
+					"ft": "hrófliði"
+				},
+				"þátíð": {
+					"et": "hróflaðirðu",
+					"ft": "hrófluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hróflast",
+		"sagnbót": "hróflast",
+		"boðháttur": {
+			"et": "hróflastu",
+			"ft": "hróflist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hróflast", "hróflast", "hróflast"],
+					"ft": ["hróflumst", "hróflist", "hróflast"]
+				},
+				"þátíð": {
+					"et": ["hróflaðist", "hróflaðist", "hróflaðist"],
+					"ft": ["hrófluðumst", "hrófluðust", "hrófluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hróflist", "hróflist", "hróflist"],
+					"ft": ["hróflumst", "hróflist", "hróflist"]
+				},
+				"þátíð": {
+					"et": ["hróflaðist", "hróflaðist", "hróflaðist"],
+					"ft": ["hrófluðumst", "hrófluðust", "hrófluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hróflastu"
+				},
+				"þátíð": {
+					"et": "hróflaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hróflistu"
+				},
+				"þátíð": {
+					"et": "hróflaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hróflandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hróflaður", "hróflaðan", "hrófluðum", "hróflaðs"],
+					"kvk": ["hrófluð", "hróflaða", "hróflaðri", "hróflaðrar"],
+					"hk": ["hróflað", "hróflað", "hrófluðu", "hróflaðs"]
+				},
+				"ft": {
+					"kk": ["hróflaðir", "hróflaða", "hrófluðum", "hróflaðra"],
+					"kvk": ["hróflaðar", "hróflaðar", "hrófluðum", "hróflaðra"],
+					"hk": ["hrófluð", "hrófluð", "hrófluðum", "hróflaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hrófla",
+	"hash": "23f3517f89d6bf9ef13cf0198f73d55a55e7054615a9f8e9ff158ca820fbb028"
+}

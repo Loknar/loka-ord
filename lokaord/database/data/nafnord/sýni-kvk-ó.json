@@ -2,11 +2,22 @@
 	"orð": "sýni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sýn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sýnn"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sýni", "sýni", "sýni", "sýni"],
 		"mg": ["sýnin", "sýnina", "sýninni", "sýninnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-sýni-kvk-ó",
-	"hash": "24538acb309e0fb8e31af0da98f34c7934dba62306f46f93fbf52d0775d4e57b"
+	"hash": "e3b0b9ce88460d9e498fb96d33ab1db9426885e7a58d8a56eac4f90be84c3358"
 }
