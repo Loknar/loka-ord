@@ -1,0 +1,27 @@
+{
+	"orð": "efnahagshorfur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-horfa-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["efnahagshorfur", "efnahagshorfur", "efnahagshorfum", "efnahagshorfa"],
+		"mg": ["efnahagshorfurnar", "efnahagshorfurnar", "efnahagshorfunum", "efnahagshorfanna"]
+	},
+	"kennistrengur": "no-efnahagshorfur-kvk",
+	"hash": "e2e765a9da9e1518d42906ae28e2784f32442eb6421ec7aaf1ce47e7c0595702"
+}

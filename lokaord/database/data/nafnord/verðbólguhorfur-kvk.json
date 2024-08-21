@@ -1,0 +1,27 @@
+{
+	"orð": "verðbólguhorfur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bólgu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bólga-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-horfa-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["verðbólguhorfur", "verðbólguhorfur", "verðbólguhorfum", "verðbólguhorfa"],
+		"mg": ["verðbólguhorfurnar", "verðbólguhorfurnar", "verðbólguhorfunum", "verðbólguhorfanna"]
+	},
+	"kennistrengur": "no-verðbólguhorfur-kvk",
+	"hash": "e11c08a39cb85b195490670744eeca030d19c638ffcf24c70261207de09b64be"
+}
