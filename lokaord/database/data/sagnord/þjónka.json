@@ -1,0 +1,135 @@
+{
+	"orð": "þjónka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þjónk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þjónkan-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þjónka",
+		"sagnbót": "þjónkað",
+		"boðháttur": {
+			"stýfður": "þjónka",
+			"et": "þjónkaðu",
+			"ft": "þjónkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þjónka", "þjónkar", "þjónkar"],
+					"ft": ["þjónkum", "þjónkið", "þjónka"]
+				},
+				"þátíð": {
+					"et": ["þjónkaði", "þjónkaðir", "þjónkaði"],
+					"ft": ["þjónkuðum", "þjónkuðuð", "þjónkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þjónki", "þjónkir", "þjónki"],
+					"ft": ["þjónkum", "þjónkið", "þjónki"]
+				},
+				"þátíð": {
+					"et": ["þjónkaði", "þjónkaðir", "þjónkaði"],
+					"ft": ["þjónkuðum", "þjónkuðuð", "þjónkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þjónkarðu",
+					"ft": "þjónkiði"
+				},
+				"þátíð": {
+					"et": "þjónkaðirðu",
+					"ft": "þjónkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þjónkirðu",
+					"ft": "þjónkiði"
+				},
+				"þátíð": {
+					"et": "þjónkaðirðu",
+					"ft": "þjónkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þjónkast",
+		"sagnbót": "þjónkast",
+		"boðháttur": {
+			"et": "þjónkastu",
+			"ft": "þjónkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þjónkast", "þjónkast", "þjónkast"],
+					"ft": ["þjónkumst", "þjónkist", "þjónkast"]
+				},
+				"þátíð": {
+					"et": ["þjónkaðist", "þjónkaðist", "þjónkaðist"],
+					"ft": ["þjónkuðumst", "þjónkuðust", "þjónkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þjónkist", "þjónkist", "þjónkist"],
+					"ft": ["þjónkumst", "þjónkist", "þjónkist"]
+				},
+				"þátíð": {
+					"et": ["þjónkaðist", "þjónkaðist", "þjónkaðist"],
+					"ft": ["þjónkuðumst", "þjónkuðust", "þjónkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þjónkastu"
+				},
+				"þátíð": {
+					"et": "þjónkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þjónkistu"
+				},
+				"þátíð": {
+					"et": "þjónkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þjónkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þjónkaður", "þjónkaðan", "þjónkuðum", "þjónkaðs"],
+					"kvk": ["þjónkuð", "þjónkaða", "þjónkaðri", "þjónkaðrar"],
+					"hk": ["þjónkað", "þjónkað", "þjónkuðu", "þjónkaðs"]
+				},
+				"ft": {
+					"kk": ["þjónkaðir", "þjónkaða", "þjónkuðum", "þjónkaðra"],
+					"kvk": ["þjónkaðar", "þjónkaðar", "þjónkuðum", "þjónkaðra"],
+					"hk": ["þjónkuð", "þjónkuð", "þjónkuðum", "þjónkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þjónka",
+	"hash": "bb89a9090d3ffafdcf9e6190247b45313dd13dacbc9ebc450b1288350e29b48c"
+}
