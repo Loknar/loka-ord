@@ -1,0 +1,35 @@
+{
+	"orð": "meðalleigufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["meðalleigufjárhæð", "meðalleigufjárhæð", "meðalleigufjárhæð", "meðalleigufjárhæðar"],
+		"mg": ["meðalleigufjárhæðin", "meðalleigufjárhæðina", "meðalleigufjárhæðinni", "meðalleigufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["meðalleigufjárhæðir", "meðalleigufjárhæðir", "meðalleigufjárhæðum", "meðalleigufjárhæða"],
+		"mg": ["meðalleigufjárhæðirnar", "meðalleigufjárhæðirnar", "meðalleigufjárhæðunum", "meðalleigufjárhæðanna"]
+	},
+	"kennistrengur": "no-meðalleigufjárhæð-kvk",
+	"hash": "0b34e424ded0ff0d18b44f298bcbc351f988f82ed5f1a03043601920980e0a99"
+}

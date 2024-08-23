@@ -1,6 +1,16 @@
 {
 	"orð": "leitinn",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "leit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leit-kvk"
+		},
+		{
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-leitinn",
-	"hash": "7b0e582dd03dc89e20c5d62c9e8f2e1272f8e9aaf07ffb16e06e4f7871134a81"
+	"hash": "179ad6d6ba6273c9e8a8b727c7c3a110c680e2f1811e9e09ede5d6effc61a9d5"
 }
