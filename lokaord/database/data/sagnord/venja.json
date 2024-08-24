@@ -1,0 +1,120 @@
+{
+	"orð": "venja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "venja",
+		"sagnbót": "vanið",
+		"boðháttur": {
+			"stýfður": "ven",
+			"et": "vendu",
+			"ft": "venjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ven", "venur", "venur"],
+					"ft": ["venjum", "venjið", "venja"]
+				},
+				"þátíð": {
+					"et": ["vandi", "vandir", "vandi"],
+					"ft": ["vöndum", "vönduð", "vöndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["venji", "venjir", "venji"],
+					"ft": ["venjum", "venjið", "venji"]
+				},
+				"þátíð": {
+					"et": ["vendi", "vendir", "vendi"],
+					"ft": ["vendum", "venduð", "vendu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "venurðu",
+					"ft": "venjiði"
+				},
+				"þátíð": {
+					"et": "vandirðu",
+					"ft": "vönduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "venjirðu",
+					"ft": "venjiði"
+				},
+				"þátíð": {
+					"et": "vendirðu",
+					"ft": "venduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "venjast",
+		"sagnbót": "vanist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["venst", "venst", "venst"],
+					"ft": ["venjumst", "venjist", "venjast"]
+				},
+				"þátíð": {
+					"et": ["vandist", "vandist", "vandist"],
+					"ft": ["vöndumst", "vöndust", "vöndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["venjist", "venjist", "venjist"],
+					"ft": ["venjumst", "venjist", "venjist"]
+				},
+				"þátíð": {
+					"et": ["vendist", "vendist", "vendist"],
+					"ft": ["vendumst", "vendust", "vendust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "venstu"
+				},
+				"þátíð": {
+					"et": "vandistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "venjistu"
+				},
+				"þátíð": {
+					"et": "vendistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "venjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vaninn", "vaninn", "vöndum", "vanins"],
+					"kvk": ["vanin", "vanda", "vandri", "vandrar"],
+					"hk": ["vanið", "vanið", "vöndu", "vanins"]
+				},
+				"ft": {
+					"kk": ["vandir", "vanda", "vöndum", "vandra"],
+					"kvk": ["vandar", "vandar", "vöndum", "vandra"],
+					"hk": ["vanin", "vanin", "vöndum", "vandra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-venja",
+	"hash": "d5503cfd9edadaf79b74ed97c315ed8a5d45d597b187d1fe9e4534493aebb0cf"
+}

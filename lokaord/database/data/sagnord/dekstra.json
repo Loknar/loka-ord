@@ -1,0 +1,87 @@
+{
+	"orð": "dekstra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dekstr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dekur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dekstra",
+		"sagnbót": "dekstrað",
+		"boðháttur": {
+			"stýfður": "dekstra",
+			"et": "dekstraðu",
+			"ft": "dekstrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dekstra", "dekstrar", "dekstrar"],
+					"ft": ["dekstrum", "dekstrið", "dekstra"]
+				},
+				"þátíð": {
+					"et": ["dekstraði", "dekstraðir", "dekstraði"],
+					"ft": ["dekstruðum", "dekstruðuð", "dekstruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dekstri", "dekstrir", "dekstri"],
+					"ft": ["dekstrum", "dekstrið", "dekstri"]
+				},
+				"þátíð": {
+					"et": ["dekstraði", "dekstraðir", "dekstraði"],
+					"ft": ["dekstruðum", "dekstruðuð", "dekstruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dekstrarðu",
+					"ft": "dekstriði"
+				},
+				"þátíð": {
+					"et": "dekstraðirðu",
+					"ft": "dekstruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dekstrirðu",
+					"ft": "dekstriði"
+				},
+				"þátíð": {
+					"et": "dekstraðirðu",
+					"ft": "dekstruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dekstrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dekstraður", "dekstraðan", "dekstruðum", "dekstraðs"],
+					"kvk": ["dekstruð", "dekstraða", "dekstraðri", "dekstraðrar"],
+					"hk": ["dekstrað", "dekstrað", "dekstruðu", "dekstraðs"]
+				},
+				"ft": {
+					"kk": ["dekstraðir", "dekstraða", "dekstruðum", "dekstraðra"],
+					"kvk": ["dekstraðar", "dekstraðar", "dekstruðum", "dekstraðra"],
+					"hk": ["dekstruð", "dekstruð", "dekstruðum", "dekstraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dekstra",
+	"hash": "ee4e86936842b755cdaed4791fb434691e67137b7f31db2c803064a9034e64cb"
+}

@@ -8,7 +8,6 @@
 			"kennistrengur": "so-vita"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-aður-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["vitaðri", "vitaðri", "vitaðri", "vitaðri"],
+				"kvk": ["vitaðri", "vitaðri", "vitaðri", "vitaðri"],
+				"hk": ["vitaðra", "vitaðra", "vitaðra", "vitaðra"]
+			},
+			"ft": {
+				"kk": ["vitaðri", "vitaðri", "vitaðri", "vitaðri"],
+				"kvk": ["vitaðri", "vitaðri", "vitaðri", "vitaðri"],
+				"hk": ["vitaðri", "vitaðri", "vitaðri", "vitaðri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["vitaðastur", "vitaðastan", "vituðustum", "vitaðasts"],
+				"kvk": ["vituðust", "vitaðasta", "vitaðastri", "vitaðastrar"],
+				"hk": ["vitaðast", "vitaðast", "vituðustu", "vitaðasts"]
+			},
+			"ft": {
+				"kk": ["vitaðastir", "vitaðasta", "vituðustum", "vitaðastra"],
+				"kvk": ["vitaðastar", "vitaðastar", "vituðustum", "vitaðastra"],
+				"hk": ["vituðust", "vituðust", "vituðustum", "vitaðastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vitaðasti", "vitaðasta", "vitaðasta", "vitaðasta"],
+				"kvk": ["vitaðasta", "vituðustu", "vituðustu", "vituðustu"],
+				"hk": ["vitaðasta", "vitaðasta", "vitaðasta", "vitaðasta"]
+			},
+			"ft": {
+				"kk": ["vituðustu", "vituðustu", "vituðustu", "vituðustu"],
+				"kvk": ["vituðustu", "vituðustu", "vituðustu", "vituðustu"],
+				"hk": ["vituðustu", "vituðustu", "vituðustu", "vituðustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-vitaður",
-	"hash": "c1f423480fc4486a002558ac88c7a3f76868c39e407b80421bcf6e2ce3a2ce2f"
+	"hash": "99179389956fe88541ae9d4d0519ce5bed2c118cc88acbeff1cd865df44b677d"
 }
