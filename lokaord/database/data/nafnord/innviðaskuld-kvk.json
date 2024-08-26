@@ -1,0 +1,30 @@
+{
+	"orð": "innviðaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "viða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viður-kk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["innviðaskuld", "innviðaskuld", "innviðaskuld", "innviðaskuldar"],
+		"mg": ["innviðaskuldin", "innviðaskuldina", "innviðaskuldinni", "innviðaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["innviðaskuldir", "innviðaskuldir", "innviðaskuldum", "innviðaskulda"],
+		"mg": ["innviðaskuldirnar", "innviðaskuldirnar", "innviðaskuldunum", "innviðaskuldanna"]
+	},
+	"kennistrengur": "no-innviðaskuld-kvk",
+	"hash": "711ace78a842999749efd45dc9f6b7cf9dd9fbf3db62f28671d781c2481e33f3"
+}
