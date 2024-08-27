@@ -1,0 +1,32 @@
+{
+	"orð": "framhaldsskólastig",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stig-hk"
+		}
+	],
+	"et": {
+		"ág": ["framhaldsskólastig", "framhaldsskólastig", "framhaldsskólastigi", "framhaldsskólastigs"],
+		"mg": ["framhaldsskólastigið", "framhaldsskólastigið", "framhaldsskólastiginu", "framhaldsskólastigsins"]
+	},
+	"kennistrengur": "no-framhaldsskólastig-hk",
+	"hash": "7668d450e7cc95cb4305de5b05ace969ac5f5f1743f8ac2335f57eae139f897c"
+}

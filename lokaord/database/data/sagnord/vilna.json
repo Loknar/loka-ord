@@ -1,0 +1,135 @@
+{
+	"orð": "vilna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "viln",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-vilja"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vilna",
+		"sagnbót": "vilnað",
+		"boðháttur": {
+			"stýfður": "vilna",
+			"et": "vilnaðu",
+			"ft": "vilnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vilna", "vilnar", "vilnar"],
+					"ft": ["vilnum", "vilnið", "vilna"]
+				},
+				"þátíð": {
+					"et": ["vilnaði", "vilnaðir", "vilnaði"],
+					"ft": ["vilnuðum", "vilnuðuð", "vilnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vilni", "vilnir", "vilni"],
+					"ft": ["vilnum", "vilnið", "vilni"]
+				},
+				"þátíð": {
+					"et": ["vilnaði", "vilnaðir", "vilnaði"],
+					"ft": ["vilnuðum", "vilnuðuð", "vilnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vilnarðu",
+					"ft": "vilniði"
+				},
+				"þátíð": {
+					"et": "vilnaðirðu",
+					"ft": "vilnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vilnirðu",
+					"ft": "vilniði"
+				},
+				"þátíð": {
+					"et": "vilnaðirðu",
+					"ft": "vilnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vilnast",
+		"sagnbót": "vilnast",
+		"boðháttur": {
+			"et": "vilnastu",
+			"ft": "vilnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vilnast", "vilnast", "vilnast"],
+					"ft": ["vilnumst", "vilnist", "vilnast"]
+				},
+				"þátíð": {
+					"et": ["vilnaðist", "vilnaðist", "vilnaðist"],
+					"ft": ["vilnuðumst", "vilnuðust", "vilnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vilnist", "vilnist", "vilnist"],
+					"ft": ["vilnumst", "vilnist", "vilnist"]
+				},
+				"þátíð": {
+					"et": ["vilnaðist", "vilnaðist", "vilnaðist"],
+					"ft": ["vilnuðumst", "vilnuðust", "vilnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vilnastu"
+				},
+				"þátíð": {
+					"et": "vilnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vilnistu"
+				},
+				"þátíð": {
+					"et": "vilnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vilnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vilnaður", "vilnaðan", "vilnuðum", "vilnaðs"],
+					"kvk": ["vilnuð", "vilnaða", "vilnaðri", "vilnaðrar"],
+					"hk": ["vilnað", "vilnað", "vilnuðu", "vilnaðs"]
+				},
+				"ft": {
+					"kk": ["vilnaðir", "vilnaða", "vilnuðum", "vilnaðra"],
+					"kvk": ["vilnaðar", "vilnaðar", "vilnuðum", "vilnaðra"],
+					"hk": ["vilnuð", "vilnuð", "vilnuðum", "vilnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vilna",
+	"hash": "6249c97bdcde21c92bb61670b060c41c19a34d3a36d485b3fa732fe825e663e6"
+}
