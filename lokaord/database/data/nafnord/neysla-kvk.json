@@ -2,6 +2,17 @@
 	"orð": "neysla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ney",
+			"samsetning": "stofn",
+			"kennistrengur": "so-neyta"
+		},
+		{
+			"leiðir": "sl",
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["neysla", "neyslu", "neyslu", "neyslu"],
 		"mg": ["neyslan", "neysluna", "neyslunni", "neyslunnar"]
@@ -11,5 +22,5 @@
 		"mg": ["neyslurnar", "neyslurnar", "neyslunum", "neyslanna"]
 	},
 	"kennistrengur": "no-neysla-kvk",
-	"hash": "fd46cb7f10df9a4497d95900b28855453c89dae9ae3b168917f1717587c37822"
+	"hash": "93e59fe5d9ad91fcf510d12112e9a7c63edd650c4d70add6235c0029febda5cb"
 }

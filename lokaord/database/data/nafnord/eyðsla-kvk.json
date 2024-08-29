@@ -2,10 +2,22 @@
 	"orð": "eyðsla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eyð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-eyða"
+		},
+		{
+			"leiðir": "sl",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["eyðsla", "eyðslu", "eyðslu", "eyðslu"],
 		"mg": ["eyðslan", "eyðsluna", "eyðslunni", "eyðslunnar"]
 	},
 	"kennistrengur": "no-eyðsla-kvk",
-	"hash": "fdbe1ed5b2b92ee47d975218e3e4f555abffd0d62fcfc77f22c5d6b66cb82542"
+	"hash": "3e759c436e88118ea94667283e6f4966c838567727bd81a308f8ecb97b546392"
 }

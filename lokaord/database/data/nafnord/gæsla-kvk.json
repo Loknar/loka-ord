@@ -2,6 +2,17 @@
 	"orð": "gæsla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gæ",
+			"samsetning": "stofn",
+			"kennistrengur": "so-gæta"
+		},
+		{
+			"leiðir": "sl",
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["gæsla", "gæslu", "gæslu", "gæslu"],
 		"mg": ["gæslan", "gæsluna", "gæslunni", "gæslunnar"]
@@ -11,5 +22,5 @@
 		"mg": ["gæslurnar", "gæslurnar", "gæslunum", "gæslanna"]
 	},
 	"kennistrengur": "no-gæsla-kvk",
-	"hash": "9b9fb61434138f6e37a3622279ad5e52212014d72aaa1a3bb18d0603efd2814b"
+	"hash": "909ac1474df260675a5dd47f59f875383fc9b527624a45806972d27821f9330b"
 }
