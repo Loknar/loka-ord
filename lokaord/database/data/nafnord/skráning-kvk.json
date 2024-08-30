@@ -2,6 +2,17 @@
 	"orð": "skráning",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skrá",
+			"samsetning": "stofn",
+			"kennistrengur": "so-skrá"
+		},
+		{
+			"leiðir": "n",
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["skráning", "skráningu", "skráningu", "skráningar"],
 		"mg": ["skráningin", "skráninguna", "skráningunni", "skráningarinnar"]
@@ -11,5 +22,5 @@
 		"mg": ["skráningarnar", "skráningarnar", "skráningunum", "skráninganna"]
 	},
 	"kennistrengur": "no-skráning-kvk",
-	"hash": "082a61df658415267bfd9a512a2931dcba6ce17d412c51b74336ba9831563ea8"
+	"hash": "2508d5317899f13c373e88c88a93582eaedcd263b07c42a66f5c9ab51e67136c"
 }
