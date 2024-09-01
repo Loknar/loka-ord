@@ -1,0 +1,22 @@
+{
+	"orð": "auglýsingatekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "auglýsinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-auglýsing-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["auglýsingatekjur", "auglýsingatekjur", "auglýsingatekjum", "auglýsingatekna"],
+		"mg": ["auglýsingatekjurnar", "auglýsingatekjurnar", "auglýsingatekjunum", "auglýsingateknanna"]
+	},
+	"kennistrengur": "no-auglýsingatekjur-kvk",
+	"hash": "68b6c6e039b914207a5047d0b817f819da70b0a954bf8e0d2961dbdaa04c4176"
+}
