@@ -1,0 +1,87 @@
+{
+	"orð": "slökkna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slökkn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-slökkva"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slökkna",
+		"sagnbót": "slökknað",
+		"boðháttur": {
+			"stýfður": "slökkna",
+			"et": "slökknaðu",
+			"ft": "slökknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slökkna", "slökknar", "slökknar"],
+					"ft": ["slökknum", "slökknið", "slökkna"]
+				},
+				"þátíð": {
+					"et": ["slökknaði", "slökknaðir", "slökknaði"],
+					"ft": ["slökknuðum", "slökknuðuð", "slökknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slökkni", "slökknir", "slökkni"],
+					"ft": ["slökknum", "slökknið", "slökkni"]
+				},
+				"þátíð": {
+					"et": ["slökknaði", "slökknaðir", "slökknaði"],
+					"ft": ["slökknuðum", "slökknuðuð", "slökknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slökknarðu",
+					"ft": "slökkniði"
+				},
+				"þátíð": {
+					"et": "slökknaðirðu",
+					"ft": "slökknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slökknirðu",
+					"ft": "slökkniði"
+				},
+				"þátíð": {
+					"et": "slökknaðirðu",
+					"ft": "slökknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slökknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slökknaður", "slökknaðan", "slökknuðum", "slökknaðs"],
+					"kvk": ["slökknuð", "slökknaða", "slökknaðri", "slökknaðrar"],
+					"hk": ["slökknað", "slökknað", "slökknuðu", "slökknaðs"]
+				},
+				"ft": {
+					"kk": ["slökknaðir", "slökknaða", "slökknuðum", "slökknaðra"],
+					"kvk": ["slökknaðar", "slökknaðar", "slökknuðum", "slökknaðra"],
+					"hk": ["slökknuð", "slökknuð", "slökknuðum", "slökknaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slökkna",
+	"hash": "96343edfd7da8ad1a1c697f69b99c913798a21dcdc9e4763a0aa185bfc055613"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "slokkna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slokkn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-slökkva"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slokkna",
+		"sagnbót": "slokknað",
+		"boðháttur": {
+			"stýfður": "slokkna",
+			"et": "slokknaðu",
+			"ft": "slokknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slokkna", "slokknar", "slokknar"],
+					"ft": ["slokknum", "slokknið", "slokkna"]
+				},
+				"þátíð": {
+					"et": ["slokknaði", "slokknaðir", "slokknaði"],
+					"ft": ["slokknuðum", "slokknuðuð", "slokknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slokkni", "slokknir", "slokkni"],
+					"ft": ["slokknum", "slokknið", "slokkni"]
+				},
+				"þátíð": {
+					"et": ["slokknaði", "slokknaðir", "slokknaði"],
+					"ft": ["slokknuðum", "slokknuðuð", "slokknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slokknarðu",
+					"ft": "slokkniði"
+				},
+				"þátíð": {
+					"et": "slokknaðirðu",
+					"ft": "slokknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slokknirðu",
+					"ft": "slokkniði"
+				},
+				"þátíð": {
+					"et": "slokknaðirðu",
+					"ft": "slokknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slokknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slokknaður", "slokknaðan", "slokknuðum", "slokknaðs"],
+					"kvk": ["slokknuð", "slokknaða", "slokknaðri", "slokknaðrar"],
+					"hk": ["slokknað", "slokknað", "slokknuðu", "slokknaðs"]
+				},
+				"ft": {
+					"kk": ["slokknaðir", "slokknaða", "slokknuðum", "slokknaðra"],
+					"kvk": ["slokknaðar", "slokknaðar", "slokknuðum", "slokknaðra"],
+					"hk": ["slokknuð", "slokknuð", "slokknuðum", "slokknaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slokkna",
+	"hash": "4772b0e59eb688794ae48caf841ebc3dcbf2b59d4df2cbd9454edad9c3b2d2dd"
+}
