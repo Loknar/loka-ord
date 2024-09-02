@@ -1,0 +1,27 @@
+{
+	"orð": "handboltaiðkun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"mynd": "bolta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bolti-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-iðkun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["handboltaiðkun", "handboltaiðkun", "handboltaiðkun", "handboltaiðkunar"],
+		"mg": ["handboltaiðkunin", "handboltaiðkunina", "handboltaiðkuninni", "handboltaiðkunarinnar"]
+	},
+	"kennistrengur": "no-handboltaiðkun-kvk",
+	"hash": "7e525cad629b1025c7d650f0cd22300b4a62365d8320abc31a5e991d36f646e1"
+}
