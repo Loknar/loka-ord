@@ -1,0 +1,115 @@
+{
+	"orð": "hefna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hefna",
+		"sagnbót": "hefnt",
+		"boðháttur": {
+			"stýfður": "hefn",
+			"et": "hefndu",
+			"ft": "hefnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefni", "hefnir", "hefnir"],
+					"ft": ["hefnum", "hefnið", "hefna"]
+				},
+				"þátíð": {
+					"et": ["hefndi", "hefndir", "hefndi"],
+					"ft": ["hefndum", "hefnduð", "hefndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefni", "hefnir", "hefni"],
+					"ft": ["hefnum", "hefnið", "hefni"]
+				},
+				"þátíð": {
+					"et": ["hefndi", "hefndir", "hefndi"],
+					"ft": ["hefndum", "hefnduð", "hefndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hefnirðu",
+					"ft": "hefniði"
+				},
+				"þátíð": {
+					"et": "hefndirðu",
+					"ft": "hefnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hefnirðu",
+					"ft": "hefniði"
+				},
+				"þátíð": {
+					"et": "hefndirðu",
+					"ft": "hefnduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hefnast",
+		"sagnbót": "hefnst",
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefnist", "hefnist", "hefnist"],
+					"ft": ["hefnist", "hefnist", "hefnist"]
+				},
+				"þátíð": {
+					"et": ["hefndist", "hefndist", "hefndist"],
+					"ft": ["hefndist", "hefndist", "hefndist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefnist", "hefnist", "hefnist"],
+					"ft": ["hefnist", "hefnist", "hefnist"]
+				},
+				"þátíð": {
+					"et": ["hefndist", "hefndist", "hefndist"],
+					"ft": ["hefndist", "hefndist", "hefndist"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hefnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hefndur", "hefndan", "hefndum", "hefnds"],
+					"kvk": ["hefnd", "hefnda", "hefndri", "hefndrar"],
+					"hk": ["hefnt", "hefnt", "hefndu", "hefnds"]
+				},
+				"ft": {
+					"kk": ["hefndir", "hefnda", "hefndum", "hefndra"],
+					"kvk": ["hefndar", "hefndar", "hefndum", "hefndra"],
+					"hk": ["hefnd", "hefnd", "hefndum", "hefndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hefndi", "hefnda", "hefnda", "hefnda"],
+					"kvk": ["hefnda", "hefndu", "hefndu", "hefndu"],
+					"hk": ["hefnda", "hefnda", "hefnda", "hefnda"]
+				},
+				"ft": {
+					"kk": ["hefndu", "hefndu", "hefndu", "hefndu"],
+					"kvk": ["hefndu", "hefndu", "hefndu", "hefndu"],
+					"hk": ["hefndu", "hefndu", "hefndu", "hefndu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hefna",
+	"hash": "72b6bfbd75686f7683bb2652298949ef362cf448c502bcbc20b7acfa2066429d"
+}
