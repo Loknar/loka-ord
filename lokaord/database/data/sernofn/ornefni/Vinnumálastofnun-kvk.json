@@ -1,0 +1,27 @@
+{
+	"orð": "Vinnumálastofnun",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-stofnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Vinnumálastofnun", "Vinnumálastofnun", "Vinnumálastofnun", "Vinnumálastofnunar"]
+	},
+	"kennistrengur": "sérn.ön-Vinnumálastofnun-kvk",
+	"hash": "542e6fd4eaf4da195641624e8f7885b120f054abbd52452f62b4144d4e0148fe"
+}
