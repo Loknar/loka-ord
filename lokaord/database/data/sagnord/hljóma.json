@@ -1,6 +1,17 @@
 {
 	"orð": "hljóma",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hljóm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hljómur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "hljóma",
 		"sagnbót": "hljómað",
@@ -8,6 +19,28 @@
 			"stýfður": "hljóma",
 			"et": "hljómaðu",
 			"ft": "hljómið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hljóma", "hljómar", "hljómar"],
+					"ft": ["hljómum", "hljómið", "hljóma"]
+				},
+				"þátíð": {
+					"et": ["hljómaði", "hljómaðir", "hljómaði"],
+					"ft": ["hljómuðum", "hljómuðuð", "hljómuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hljómi", "hljómir", "hljómi"],
+					"ft": ["hljómum", "hljómið", "hljómi"]
+				},
+				"þátíð": {
+					"et": ["hljómaði", "hljómaðir", "hljómaði"],
+					"ft": ["hljómuðum", "hljómuðuð", "hljómuðu"]
+				}
+			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
@@ -23,7 +56,7 @@
 			"viðtengingarháttur": {
 				"nútíð": {
 					"et": "hljómirðu",
-					"ft": "hljómaðirðu"
+					"ft": "hljómiði"
 				},
 				"þátíð": {
 					"et": "hljómaðirðu",
@@ -37,7 +70,7 @@
 		"sagnbót": "hljómast",
 		"boðháttur": {
 			"et": "hljómastu",
-			"ft": "hljómast"
+			"ft": "hljómist"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
@@ -84,5 +117,5 @@
 		"nútíðar": "hljómandi"
 	},
 	"kennistrengur": "so-hljóma",
-	"hash": "eb9d51fa0269e6d9aab41d7975d92326835b0a9bb2a22712d7ef297057a4a654"
+	"hash": "e82a53bd7e248733fa2f8a3982fa71091d2506316d67dbb1dd9658e7e8366e36"
 }
