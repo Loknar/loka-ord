@@ -1,0 +1,146 @@
+{
+	"orð": "flokka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flokk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flokkur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flokka",
+		"sagnbót": "flokkað",
+		"boðháttur": {
+			"stýfður": "flokka",
+			"et": "flokkaðu",
+			"ft": "flokkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flokka", "flokkar", "flokkar"],
+					"ft": ["flokkum", "flokkið", "flokka"]
+				},
+				"þátíð": {
+					"et": ["flokkaði", "flokkaðir", "flokkaði"],
+					"ft": ["flokkuðum", "flokkuðuð", "flokkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flokki", "flokkir", "flokki"],
+					"ft": ["flokkum", "flokkið", "flokki"]
+				},
+				"þátíð": {
+					"et": ["flokkaði", "flokkaðir", "flokkaði"],
+					"ft": ["flokkuðum", "flokkuðuð", "flokkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flokkarðu",
+					"ft": "flokkiði"
+				},
+				"þátíð": {
+					"et": "flokkaðirðu",
+					"ft": "flokkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flokkirðu",
+					"ft": "flokkiði"
+				},
+				"þátíð": {
+					"et": "flokkaðirðu",
+					"ft": "flokkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "flokkast",
+		"sagnbót": "flokkast",
+		"boðháttur": {
+			"et": "flokkastu",
+			"ft": "flokkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flokkast", "flokkast", "flokkast"],
+					"ft": ["flokkumst", "flokkist", "flokkast"]
+				},
+				"þátíð": {
+					"et": ["flokkaðist", "flokkaðist", "flokkaðist"],
+					"ft": ["flokkuðumst", "flokkuðust", "flokkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flokkist", "flokkist", "flokkist"],
+					"ft": ["flokkumst", "flokkist", "flokkist"]
+				},
+				"þátíð": {
+					"et": ["flokkaðist", "flokkaðist", "flokkaðist"],
+					"ft": ["flokkuðumst", "flokkuðust", "flokkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flokkastu"
+				},
+				"þátíð": {
+					"et": "flokkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flokkistu"
+				},
+				"þátíð": {
+					"et": "flokkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flokkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flokkaður", "flokkaðan", "flokkuðum", "flokkaðs"],
+					"kvk": ["flokkuð", "flokkaða", "flokkaðri", "flokkaðrar"],
+					"hk": ["flokkað", "flokkað", "flokkuðu", "flokkaðs"]
+				},
+				"ft": {
+					"kk": ["flokkaðir", "flokkaða", "flokkuðum", "flokkaðra"],
+					"kvk": ["flokkaðar", "flokkaðar", "flokkuðum", "flokkaðra"],
+					"hk": ["flokkuð", "flokkuð", "flokkuðum", "flokkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["flokkaði", "flokkaða", "flokkaða", "flokkaða"],
+					"kvk": ["flokkaða", "flokkuðu", "flokkuðu", "flokkuðu"],
+					"hk": ["flokkaða", "flokkaða", "flokkaða", "flokkaða"]
+				},
+				"ft": {
+					"kk": ["flokkuðu", "flokkuðu", "flokkuðu", "flokkuðu"],
+					"kvk": ["flokkuðu", "flokkuðu", "flokkuðu", "flokkuðu"],
+					"hk": ["flokkuðu", "flokkuðu", "flokkuðu", "flokkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flokka",
+	"hash": "a3472a3a71de23ba336d3c718078e800808e7e1b416d91972a27eaa4ba2e5043"
+}
