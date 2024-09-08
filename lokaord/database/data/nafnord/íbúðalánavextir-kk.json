@@ -1,0 +1,27 @@
+{
+	"orð": "íbúðalánavextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "íbúða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúð-kvk"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["íbúðalánavextir", "íbúðalánavexti", "íbúðalánavöxtum", "íbúðalánavaxta"],
+		"mg": ["íbúðalánavextirnir", "íbúðalánavextina", "íbúðalánavöxtunum", "íbúðalánavaxtanna"]
+	},
+	"kennistrengur": "no-íbúðalánavextir-kk",
+	"hash": "9fbbadb85d565e03cc3c94db1e87cef73cecb968965fd4ec7734845e42edd75d"
+}

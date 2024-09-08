@@ -1,0 +1,43 @@
+{
+	"orð": "evrutengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "evru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-evra-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["evrutengdur", "evrutengdan", "evrutengdum", "evrutengds"],
+				"kvk": ["evrutengd", "evrutengda", "evrutengdri", "evrutengdrar"],
+				"hk": ["evrutengt", "evrutengt", "evrutengdu", "evrutengds"]
+			},
+			"ft": {
+				"kk": ["evrutengdir", "evrutengda", "evrutengdum", "evrutengdra"],
+				"kvk": ["evrutengdar", "evrutengdar", "evrutengdum", "evrutengdra"],
+				"hk": ["evrutengd", "evrutengd", "evrutengdum", "evrutengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["evrutengdi", "evrutengda", "evrutengda", "evrutengda"],
+				"kvk": ["evrutengda", "evrutengdu", "evrutengdu", "evrutengdu"],
+				"hk": ["evrutengda", "evrutengda", "evrutengda", "evrutengda"]
+			},
+			"ft": {
+				"kk": ["evrutengdu", "evrutengdu", "evrutengdu", "evrutengdu"],
+				"kvk": ["evrutengdu", "evrutengdu", "evrutengdu", "evrutengdu"],
+				"hk": ["evrutengdu", "evrutengdu", "evrutengdu", "evrutengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-evrutengdur",
+	"hash": "db8427e54b1f11d1ad23ba32cb419dd060d980a51765e853b112d1f26cd33cbf"
+}

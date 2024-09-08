@@ -1,0 +1,22 @@
+{
+	"orð": "evrutenging",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "evru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-evra-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tenging-kvk"
+		}
+	],
+	"et": {
+		"ág": ["evrutenging", "evrutengingu", "evrutengingu", "evrutengingar"],
+		"mg": ["evrutengingin", "evrutenginguna", "evrutengingunni", "evrutengingarinnar"]
+	},
+	"kennistrengur": "no-evrutenging-kvk",
+	"hash": "d91f8810e8b6b1fb8ad802cf7700d2cc3265ea87ff61be8f83d9d249d8acd8d0"
+}
