@@ -1,0 +1,131 @@
+{
+	"orð": "tilneyða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-neyða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilneyða",
+		"sagnbót": "tilneytt",
+		"boðháttur": {
+			"stýfður": "tilneyð",
+			"et": "tilneyddu",
+			"ft": "tilneyðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilneyði", "tilneyðir", "tilneyðir"],
+					"ft": ["tilneyðum", "tilneyðið", "tilneyða"]
+				},
+				"þátíð": {
+					"et": ["tilneyddi", "tilneyddir", "tilneyddi"],
+					"ft": ["tilneyddum", "tilneydduð", "tilneyddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilneyði", "tilneyðir", "tilneyði"],
+					"ft": ["tilneyðum", "tilneyðið", "tilneyði"]
+				},
+				"þátíð": {
+					"et": ["tilneyddi", "tilneyddir", "tilneyddi"],
+					"ft": ["tilneyddum", "tilneydduð", "tilneyddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilneyðirðu",
+					"ft": "tilneyðiði"
+				},
+				"þátíð": {
+					"et": "tilneyddirðu",
+					"ft": "tilneydduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilneyðirðu",
+					"ft": "tilneyðiði"
+				},
+				"þátíð": {
+					"et": "tilneyddirðu",
+					"ft": "tilneydduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tilneyðast",
+		"sagnbót": "tilneyðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilneyðist", "tilneyðist", "tilneyðist"],
+					"ft": ["tilneyðumst", "tilneyðist", "tilneyðast"]
+				},
+				"þátíð": {
+					"et": ["tilneyddist", "tilneyddist", "tilneyddist"],
+					"ft": ["tilneyddumst", "tilneyddust", "tilneyddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilneyðist", "tilneyðist", "tilneyðist"],
+					"ft": ["tilneyðumst", "tilneyðist", "tilneyðist"]
+				},
+				"þátíð": {
+					"et": ["tilneyddist", "tilneyddist", "tilneyddist"],
+					"ft": ["tilneyddumst", "tilneyddust", "tilneyddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilneyðistu"
+				},
+				"þátíð": {
+					"et": "tilneyddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilneyðistu"
+				},
+				"þátíð": {
+					"et": "tilneyddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilneyðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tilneyddur", "tilneyddan", "tilneyddum", "tilneydds"],
+					"kvk": ["tilneydd", "tilneydda", "tilneyddri", "tilneyddrar"],
+					"hk": ["tilneytt", "tilneytt", "tilneyddu", "tilneydds"]
+				},
+				"ft": {
+					"kk": ["tilneyddir", "tilneydda", "tilneyddum", "tilneyddra"],
+					"kvk": ["tilneyddar", "tilneyddar", "tilneyddum", "tilneyddra"],
+					"hk": ["tilneydd", "tilneydd", "tilneyddum", "tilneyddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tilneyða",
+	"hash": "e34d50b813e5111ddb27e257920bd44809826b6d73bb4df374f7600b0404f416"
+}
