@@ -1,0 +1,161 @@
+{
+	"orð": "orsaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "or",
+			"kennistrengur": "so-saka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "orsaka",
+		"sagnbót": "orsakað",
+		"boðháttur": {
+			"stýfður": "orsaka",
+			"et": "orsakaðu",
+			"ft": "orsakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orsaka", "orsakar", "orsakar"],
+					"ft": ["orsökum", "orsakið", "orsaka"]
+				},
+				"þátíð": {
+					"et": ["orsakaði", "orsakaðir", "orsakaði"],
+					"ft": ["orsökuðum", "orsökuðuð", "orsökuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orsaki", "orsakir", "orsaki"],
+					"ft": ["orsökum", "orsakið", "orsaki"]
+				},
+				"þátíð": {
+					"et": ["orsakaði", "orsakaðir", "orsakaði"],
+					"ft": ["orsökuðum", "orsökuðuð", "orsökuðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orsakar", "orsakar", "orsakar"],
+					"ft": ["orsakar", "orsakar", "orsakar"]
+				},
+				"þátíð": {
+					"et": ["orsakaði", "orsakaði", "orsakaði"],
+					"ft": ["orsakaði", "orsakaði", "orsakaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orsaki", "orsaki", "orsaki"],
+					"ft": ["orsaki", "orsaki", "orsaki"]
+				},
+				"þátíð": {
+					"et": ["orsakaði", "orsakaði", "orsakaði"],
+					"ft": ["orsakaði", "orsakaði", "orsakaði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orsakarðu",
+					"ft": "orsakiði"
+				},
+				"þátíð": {
+					"et": "orsakaðirðu",
+					"ft": "orsökuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orsakirðu",
+					"ft": "orsakiði"
+				},
+				"þátíð": {
+					"et": "orsakaðirðu",
+					"ft": "orsökuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "orsakast",
+		"sagnbót": "orsakast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orsakast", "orsakast", "orsakast"],
+					"ft": ["orsökumst", "orsakist", "orsakast"]
+				},
+				"þátíð": {
+					"et": ["orsakaðist", "orsakaðist", "orsakaðist"],
+					"ft": ["orsökuðumst", "orsökuðust", "orsökuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orsakist", "orsakist", "orsakist"],
+					"ft": ["orsökumst", "orsakist", "orsakist"]
+				},
+				"þátíð": {
+					"et": ["orsakaðist", "orsakaðist", "orsakaðist"],
+					"ft": ["orsökuðumst", "orsökuðust", "orsökuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orsakastu"
+				},
+				"þátíð": {
+					"et": "orsakaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orsakistu"
+				},
+				"þátíð": {
+					"et": "orsakaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "orsakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["orsakaður", "orsakaðan", "orsökuðum", "orsakaðs"],
+					"kvk": ["orsökuð", "orsakaða", "orsakaðri", "orsakaðrar"],
+					"hk": ["orsakað", "orsakað", "orsökuðu", "orsakaðs"]
+				},
+				"ft": {
+					"kk": ["orsakaðir", "orsakaða", "orsökuðum", "orsakaðra"],
+					"kvk": ["orsakaðar", "orsakaðar", "orsökuðum", "orsakaðra"],
+					"hk": ["orsökuð", "orsökuð", "orsökuðum", "orsakaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["orsakaði", "orsakaða", "orsakaða", "orsakaða"],
+					"kvk": ["orsakaða", "orsökuðu", "orsökuðu", "orsökuðu"],
+					"hk": ["orsakaða", "orsakaða", "orsakaða", "orsakaða"]
+				},
+				"ft": {
+					"kk": ["orsökuðu", "orsökuðu", "orsökuðu", "orsökuðu"],
+					"kvk": ["orsökuðu", "orsökuðu", "orsökuðu", "orsökuðu"],
+					"hk": ["orsökuðu", "orsökuðu", "orsökuðu", "orsökuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-orsaka",
+	"hash": "25276d953cf0e32b7a98a9c75fc19002c08abc91630bfe803850e31dd21dc2bf"
+}
