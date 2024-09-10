@@ -1,0 +1,27 @@
+{
+	"orð": "útgjaldavöxtur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "gjalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"et": {
+		"ág": ["útgjaldavöxtur", "útgjaldavöxt", "útgjaldavexti", "útgjaldavaxtar"],
+		"mg": ["útgjaldavöxturinn", "útgjaldavöxtinn", "útgjaldavextinum", "útgjaldavaxtarins"]
+	},
+	"kennistrengur": "no-útgjaldavöxtur-kk",
+	"hash": "91c80c8ea709650b844cbb38b71bd3f7d0ad7d88096120fa1d4a1096edcb04ba"
+}
