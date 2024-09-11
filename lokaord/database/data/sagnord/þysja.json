@@ -1,0 +1,135 @@
+{
+	"orð": "þysja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þysj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þys-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þysja",
+		"sagnbót": "þysjað",
+		"boðháttur": {
+			"stýfður": "þysja",
+			"et": "þysjaðu",
+			"ft": "þysjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þysja", "þysjar", "þysjar"],
+					"ft": ["þysjum", "þysjið", "þysja"]
+				},
+				"þátíð": {
+					"et": ["þysjaði", "þysjaðir", "þysjaði"],
+					"ft": ["þysjuðum", "þysjuðuð", "þysjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þysji", "þysjir", "þysji"],
+					"ft": ["þysjum", "þysjið", "þysji"]
+				},
+				"þátíð": {
+					"et": ["þysjaði", "þysjaðir", "þysjaði"],
+					"ft": ["þysjuðum", "þysjuðuð", "þysjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þysjarðu",
+					"ft": "þysjiði"
+				},
+				"þátíð": {
+					"et": "þysjaðirðu",
+					"ft": "þysjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þysjirðu",
+					"ft": "þysjiði"
+				},
+				"þátíð": {
+					"et": "þysjaðirðu",
+					"ft": "þysjuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þysjast",
+		"sagnbót": "þysjast",
+		"boðháttur": {
+			"et": "þysjastu",
+			"ft": "þysjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þysjast", "þysjast", "þysjast"],
+					"ft": ["þysjumst", "þysjist", "þysjast"]
+				},
+				"þátíð": {
+					"et": ["þysjaðist", "þysjaðist", "þysjaðist"],
+					"ft": ["þysjuðumst", "þysjuðust", "þysjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þysjist", "þysjist", "þysjist"],
+					"ft": ["þysjumst", "þysjist", "þysjist"]
+				},
+				"þátíð": {
+					"et": ["þysjaðist", "þysjaðist", "þysjaðist"],
+					"ft": ["þysjuðumst", "þysjuðust", "þysjuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þysjastu"
+				},
+				"þátíð": {
+					"et": "þysjaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þysjistu"
+				},
+				"þátíð": {
+					"et": "þysjaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þysjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þysjaður", "þysjaðan", "þysjuðum", "þysjaðs"],
+					"kvk": ["þysjuð", "þysjaða", "þysjaðri", "þysjaðrar"],
+					"hk": ["þysjað", "þysjað", "þysjuðu", "þysjaðs"]
+				},
+				"ft": {
+					"kk": ["þysjaðir", "þysjaða", "þysjuðum", "þysjaðra"],
+					"kvk": ["þysjaðar", "þysjaðar", "þysjuðum", "þysjaðra"],
+					"hk": ["þysjuð", "þysjuð", "þysjuðum", "þysjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þysja",
+	"hash": "dcebf1b194d114ae8e361387c8af669a8088a63cf0391fbb140982a68e725c76"
+}
