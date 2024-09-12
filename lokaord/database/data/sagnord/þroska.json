@@ -1,0 +1,135 @@
+{
+	"orð": "þroska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þrosk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þroski-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þroska",
+		"sagnbót": "þroskað",
+		"boðháttur": {
+			"stýfður": "þroska",
+			"et": "þroskaðu",
+			"ft": "þroskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þroska", "þroskar", "þroskar"],
+					"ft": ["þroskum", "þroskið", "þroska"]
+				},
+				"þátíð": {
+					"et": ["þroskaði", "þroskaðir", "þroskaði"],
+					"ft": ["þroskuðum", "þroskuðuð", "þroskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þroski", "þroskir", "þroski"],
+					"ft": ["þroskum", "þroskið", "þroski"]
+				},
+				"þátíð": {
+					"et": ["þroskaði", "þroskaðir", "þroskaði"],
+					"ft": ["þroskuðum", "þroskuðuð", "þroskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þroskarðu",
+					"ft": "þroskiði"
+				},
+				"þátíð": {
+					"et": "þroskaðirðu",
+					"ft": "þroskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þroskirðu",
+					"ft": "þroskiði"
+				},
+				"þátíð": {
+					"et": "þroskaðirðu",
+					"ft": "þroskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þroskast",
+		"sagnbót": "þroskast",
+		"boðháttur": {
+			"et": "þroskastu",
+			"ft": "þroskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þroskast", "þroskast", "þroskast"],
+					"ft": ["þroskumst", "þroskist", "þroskast"]
+				},
+				"þátíð": {
+					"et": ["þroskaðist", "þroskaðist", "þroskaðist"],
+					"ft": ["þroskuðumst", "þroskuðust", "þroskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þroskist", "þroskist", "þroskist"],
+					"ft": ["þroskumst", "þroskist", "þroskist"]
+				},
+				"þátíð": {
+					"et": ["þroskaðist", "þroskaðist", "þroskaðist"],
+					"ft": ["þroskuðumst", "þroskuðust", "þroskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þroskastu"
+				},
+				"þátíð": {
+					"et": "þroskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þroskistu"
+				},
+				"þátíð": {
+					"et": "þroskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þroskandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þroskaður", "þroskaðan", "þroskuðum", "þroskaðs"],
+					"kvk": ["þroskuð", "þroskaða", "þroskaðri", "þroskaðrar"],
+					"hk": ["þroskað", "þroskað", "þroskuðu", "þroskaðs"]
+				},
+				"ft": {
+					"kk": ["þroskaðir", "þroskaða", "þroskuðum", "þroskaðra"],
+					"kvk": ["þroskaðar", "þroskaðar", "þroskuðum", "þroskaðra"],
+					"hk": ["þroskuð", "þroskuð", "þroskuðum", "þroskaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þroska",
+	"hash": "56ddd038b3cc70b55b924342d130f2dd5b307f29622bb0e30a0321ddcd397efb"
+}

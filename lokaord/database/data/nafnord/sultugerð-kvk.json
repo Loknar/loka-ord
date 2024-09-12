@@ -1,0 +1,22 @@
+{
+	"orð": "sultugerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sultu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sulta-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sultugerð", "sultugerð", "sultugerð", "sultugerðar"],
+		"mg": ["sultugerðin", "sultugerðina", "sultugerðinni", "sultugerðarinnar"]
+	},
+	"kennistrengur": "no-sultugerð-kvk",
+	"hash": "e3f2f4bcd7539221d59cd949beaa4568b125a34bc24ef1690e56a2bf4a8f3d3e"
+}

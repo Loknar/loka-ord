@@ -1,0 +1,154 @@
+{
+	"orð": "fyrirgefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gefa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fyrirgefa",
+		"sagnbót": "fyrirgefið",
+		"boðháttur": {
+			"stýfður": "fyrirgef",
+			"et": "fyrirgefðu",
+			"ft": "fyrirgefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirgef", "fyrirgefur", "fyrirgefur"],
+					"ft": ["fyrirgefum", "fyrirgefið", "fyrirgefa"]
+				},
+				"þátíð": {
+					"et": ["fyrirgaf", "fyrirgafst", "fyrirgaf"],
+					"ft": ["fyrirgáfum", "fyrirgáfuð", "fyrirgáfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirgefi", "fyrirgefir", "fyrirgefi"],
+					"ft": ["fyrirgefum", "fyrirgefið", "fyrirgefi"]
+				},
+				"þátíð": {
+					"et": ["fyrirgæfi", "fyrirgæfir", "fyrirgæfi"],
+					"ft": ["fyrirgæfum", "fyrirgæfuð", "fyrirgæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirgefurðu",
+					"ft": "fyrirgefiði"
+				},
+				"þátíð": {
+					"et": "fyrirgafstu",
+					"ft": "fyrirgáfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirgefirðu",
+					"ft": "fyrirgefiði"
+				},
+				"þátíð": {
+					"et": "fyrirgæfirðu",
+					"ft": "fyrirgæfuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fyrirgefast",
+		"sagnbót": "fyrirgefist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirgefst", "fyrirgefst", "fyrirgefst"],
+					"ft": ["fyrirgefumst", "fyrirgefist", "fyrirgefast"]
+				},
+				"þátíð": {
+					"et": ["fyrirgafst", "fyrirgafst", "fyrirgafst"],
+					"ft": ["fyrirgáfumst", "fyrirgáfust", "fyrirgáfust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirgefist", "fyrirgefist", "fyrirgefist"],
+					"ft": ["fyrirgefumst", "fyrirgefist", "fyrirgefist"]
+				},
+				"þátíð": {
+					"et": ["fyrirgæfist", "fyrirgæfist", "fyrirgæfist"],
+					"ft": ["fyrirgæfumst", "fyrirgæfust", "fyrirgæfust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirgefst", "fyrirgefst", "fyrirgefst"],
+					"ft": ["fyrirgefst", "fyrirgefst", "fyrirgefst"]
+				},
+				"þátíð": {
+					"et": ["fyrirgafst", "fyrirgafst", "fyrirgafst"],
+					"ft": ["fyrirgáfust", "fyrirgáfust", "fyrirgáfust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirgefist", "fyrirgefist", "fyrirgefist"],
+					"ft": ["fyrirgefist", "fyrirgefist", "fyrirgefist"]
+				},
+				"þátíð": {
+					"et": ["fyrirgæfist", "fyrirgæfist", "fyrirgæfist"],
+					"ft": ["fyrirgæfist", "fyrirgæfist", "fyrirgæfist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirgefstu"
+				},
+				"þátíð": {
+					"et": "fyrirgafstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirgefistu"
+				},
+				"þátíð": {
+					"et": "fyrirgæfistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fyrirgefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fyrirgefinn", "fyrirgefinn", "fyrirgefnum", "fyrirgefins"],
+					"kvk": ["fyrirgefin", "fyrirgefna", "fyrirgefinni", "fyrirgefinnar"],
+					"hk": ["fyrirgefið", "fyrirgefið", "fyrirgefnu", "fyrirgefins"]
+				},
+				"ft": {
+					"kk": ["fyrirgefnir", "fyrirgefna", "fyrirgefnum", "fyrirgefinna"],
+					"kvk": ["fyrirgefnar", "fyrirgefnar", "fyrirgefnum", "fyrirgefinna"],
+					"hk": ["fyrirgefin", "fyrirgefin", "fyrirgefnum", "fyrirgefinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fyrirgefa",
+	"hash": "9bf68ce0b5c7b32d0548c00a6c3fca9d6cd24dccae02f2fe6e6d00ff0f37f16c"
+}

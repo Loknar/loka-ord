@@ -1,0 +1,154 @@
+{
+	"orð": "hagnýta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-nýta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hagnýta",
+		"sagnbót": "hagnýtt",
+		"boðháttur": {
+			"stýfður": "hagnýt",
+			"et": "hagnýttu",
+			"ft": "hagnýtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hagnýti", "hagnýtir", "hagnýtir"],
+					"ft": ["hagnýtum", "hagnýtið", "hagnýta"]
+				},
+				"þátíð": {
+					"et": ["hagnýtti", "hagnýttir", "hagnýtti"],
+					"ft": ["hagnýttum", "hagnýttuð", "hagnýttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hagnýti", "hagnýtir", "hagnýti"],
+					"ft": ["hagnýtum", "hagnýtið", "hagnýti"]
+				},
+				"þátíð": {
+					"et": ["hagnýtti", "hagnýttir", "hagnýtti"],
+					"ft": ["hagnýttum", "hagnýttuð", "hagnýttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hagnýtirðu",
+					"ft": "hagnýtiði"
+				},
+				"þátíð": {
+					"et": "hagnýttirðu",
+					"ft": "hagnýttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hagnýtirðu",
+					"ft": "hagnýtiði"
+				},
+				"þátíð": {
+					"et": "hagnýttirðu",
+					"ft": "hagnýttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hagnýtast",
+		"sagnbót": "hagnýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hagnýtist", "hagnýtist", "hagnýtist"],
+					"ft": ["hagnýtumst", "hagnýtist", "hagnýtast"]
+				},
+				"þátíð": {
+					"et": ["hagnýttist", "hagnýttist", "hagnýttist"],
+					"ft": ["hagnýttumst", "hagnýttust", "hagnýttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hagnýtist", "hagnýtist", "hagnýtist"],
+					"ft": ["hagnýttumst", "hagnýtist", "hagnýtist"]
+				},
+				"þátíð": {
+					"et": ["hagnýttist", "hagnýttist", "hagnýttist"],
+					"ft": ["hagnýttumst", "hagnýttust", "hagnýttust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hagnýtist", "hagnýtist", "hagnýtist"],
+					"ft": ["hagnýtist", "hagnýtist", "hagnýtist"]
+				},
+				"þátíð": {
+					"et": ["hagnýttist", "hagnýttist", "hagnýttist"],
+					"ft": ["hagnýttist", "hagnýttist", "hagnýttist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hagnýtist", "hagnýtist", "hagnýtist"],
+					"ft": ["hagnýtist", "hagnýtist", "hagnýtist"]
+				},
+				"þátíð": {
+					"et": ["hagnýttist", "hagnýttist", "hagnýttist"],
+					"ft": ["hagnýttist", "hagnýttist", "hagnýttist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hagnýtistu"
+				},
+				"þátíð": {
+					"et": "hagnýttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hagnýtistu"
+				},
+				"þátíð": {
+					"et": "hagnýttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hagnýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hagnýttur", "hagnýttan", "hagnýttum", "hagnýtts"],
+					"kvk": ["hagnýtt", "hagnýtta", "hagnýttri", "hagnýttrar"],
+					"hk": ["hagnýttt", "hagnýttt", "hagnýttu", "hagnýtts"]
+				},
+				"ft": {
+					"kk": ["hagnýttir", "hagnýtta", "hagnýttum", "hagnýttra"],
+					"kvk": ["hagnýttar", "hagnýttar", "hagnýttum", "hagnýttra"],
+					"hk": ["hagnýtt", "hagnýtt", "hagnýttum", "hagnýttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hagnýta",
+	"hash": "d8e3b21302be03e8cb0bb2a375b1da1621492d2f8d6789e7fdec0bf05b9e373c"
+}
