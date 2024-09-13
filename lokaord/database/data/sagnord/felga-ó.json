@@ -1,0 +1,100 @@
+{
+	"orð": "felga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "felg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-felga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "felga",
+		"sagnbót": "felgað",
+		"boðháttur": {
+			"stýfður": "felga",
+			"et": "felgaðu",
+			"ft": "felgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["felga", "felgar", "felgar"],
+					"ft": ["felgum", "felgið", "felga"]
+				},
+				"þátíð": {
+					"et": ["felgaði", "felgaðir", "felgaði"],
+					"ft": ["felguðum", "felguðuð", "felguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["felgi", "felgir", "felgi"],
+					"ft": ["felgum", "felgið", "felgi"]
+				},
+				"þátíð": {
+					"et": ["felgaði", "felgaðir", "felgaði"],
+					"ft": ["felguðum", "felguðuð", "felguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "felgarðu",
+					"ft": "felgiði"
+				},
+				"þátíð": {
+					"et": "felgaðirðu",
+					"ft": "felguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "felgirðu",
+					"ft": "felgiði"
+				},
+				"þátíð": {
+					"et": "felgaðirðu",
+					"ft": "felguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "felgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["felgaður", "felgaðan", "felguðum", "felgaðs"],
+					"kvk": ["felguð", "felgaða", "felgaðri", "felgaðrar"],
+					"hk": ["felgað", "felgað", "felguðu", "felgaðs"]
+				},
+				"ft": {
+					"kk": ["felgaðir", "felgaða", "felguðum", "felgaðra"],
+					"kvk": ["felgaðar", "felgaðar", "felguðum", "felgaðra"],
+					"hk": ["felguð", "felguð", "felguðum", "felgaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["felgaði", "felgaða", "felgaða", "felgaða"],
+					"kvk": ["felgaða", "felguðu", "felguðu", "felguðu"],
+					"hk": ["felgaða", "felgaða", "felgaða", "felgaða"]
+				},
+				"ft": {
+					"kk": ["felguðu", "felguðu", "felguðu", "felguðu"],
+					"kvk": ["felguðu", "felguðu", "felguðu", "felguðu"],
+					"hk": ["felguðu", "felguðu", "felguðu", "felguðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-felga-ó",
+	"hash": "13be50818aa561f1e07ae5c465635f79cefa399afe24412b5d3e0b26b735384d"
+}

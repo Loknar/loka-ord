@@ -1,0 +1,135 @@
+{
+	"orð": "seinka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "seink",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-seinn"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "seinka",
+		"sagnbót": "seinkað",
+		"boðháttur": {
+			"stýfður": "seinka",
+			"et": "seinkaðu",
+			"ft": "seinkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seinka", "seinkar", "seinkar"],
+					"ft": ["seinkum", "seinkið", "seinka"]
+				},
+				"þátíð": {
+					"et": ["seinkaði", "seinkaðir", "seinkaði"],
+					"ft": ["seinkuðum", "seinkuðuð", "seinkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seinki", "seinkir", "seinki"],
+					"ft": ["seinkum", "seinkið", "seinki"]
+				},
+				"þátíð": {
+					"et": ["seinkaði", "seinkaðir", "seinkaði"],
+					"ft": ["seinkuðum", "seinkuðuð", "seinkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seinkarðu",
+					"ft": "seinkiði"
+				},
+				"þátíð": {
+					"et": "seinkaðirðu",
+					"ft": "seinkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seinkirðu",
+					"ft": "seinkiði"
+				},
+				"þátíð": {
+					"et": "seinkaðirðu",
+					"ft": "seinkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "seinkast",
+		"sagnbót": "seinkast",
+		"boðháttur": {
+			"et": "seinkastu",
+			"ft": "seinkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seinkast", "seinkast", "seinkast"],
+					"ft": ["seinkumst", "seinkist", "seinkast"]
+				},
+				"þátíð": {
+					"et": ["seinkaðist", "seinkaðist", "seinkaðist"],
+					"ft": ["seinkuðumst", "seinkuðust", "seinkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seinkist", "seinkist", "seinkist"],
+					"ft": ["seinkumst", "seinkist", "seinkist"]
+				},
+				"þátíð": {
+					"et": ["seinkaðist", "seinkaðist", "seinkaðist"],
+					"ft": ["seinkuðumst", "seinkuðust", "seinkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seinkastu"
+				},
+				"þátíð": {
+					"et": "seinkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seinkistu"
+				},
+				"þátíð": {
+					"et": "seinkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "seinkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["seinkaður", "seinkaðan", "seinkuðum", "seinkaðs"],
+					"kvk": ["seinkuð", "seinkaða", "seinkaðri", "seinkaðrar"],
+					"hk": ["seinkað", "seinkað", "seinkuðu", "seinkaðs"]
+				},
+				"ft": {
+					"kk": ["seinkaðir", "seinkaða", "seinkuðum", "seinkaðra"],
+					"kvk": ["seinkaðar", "seinkaðar", "seinkuðum", "seinkaðra"],
+					"hk": ["seinkuð", "seinkuð", "seinkuðum", "seinkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-seinka",
+	"hash": "e4893e5e70742e1220e99a4de42181a215b4624dddd5eaac2a5ad03b8fef7e9f"
+}
