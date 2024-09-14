@@ -1,0 +1,131 @@
+{
+	"orð": "afbaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-baka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afbaka",
+		"sagnbót": "afbakað",
+		"boðháttur": {
+			"stýfður": "afbaka",
+			"et": "afbakaðu",
+			"ft": "afbakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afbaka", "afbakar", "afbakar"],
+					"ft": ["afbökum", "afbakið", "afbaka"]
+				},
+				"þátíð": {
+					"et": ["afbakaði", "afbakaðir", "afbakaði"],
+					"ft": ["afbökuðum", "afbökuðuð", "afbökuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afbaki", "afbakir", "afbaki"],
+					"ft": ["afbökum", "afbakið", "afbaki"]
+				},
+				"þátíð": {
+					"et": ["afbakaði", "afbakaðir", "afbakaði"],
+					"ft": ["afbökuðum", "afbökuðuð", "afbökuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afbakarðu",
+					"ft": "afbakiði"
+				},
+				"þátíð": {
+					"et": "afbakaðirðu",
+					"ft": "afbökuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afbakirðu",
+					"ft": "afbakiði"
+				},
+				"þátíð": {
+					"et": "afbakaðirðu",
+					"ft": "afbökuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afbakast",
+		"sagnbót": "afbakast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afbakast", "afbakast", "afbakast"],
+					"ft": ["afbökumst", "afbakist", "afbakast"]
+				},
+				"þátíð": {
+					"et": ["afbakaðist", "afbakaðist", "afbakaðist"],
+					"ft": ["afbökuðumst", "afbökuðust", "afbökuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afbakist", "afbakist", "afbakist"],
+					"ft": ["afbökumst", "afbakist", "afbakist"]
+				},
+				"þátíð": {
+					"et": ["afbakaðist", "afbakaðist", "afbakaðist"],
+					"ft": ["afbökuðumst", "afbökuðust", "afbökuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afbakastu"
+				},
+				"þátíð": {
+					"et": "afbakaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afbakistu"
+				},
+				"þátíð": {
+					"et": "afbakaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afbakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afbakaður", "afbakaðan", "afbökuðum", "afbakaðs"],
+					"kvk": ["afbökuð", "afbakaða", "afbakaðri", "afbakaðrar"],
+					"hk": ["afbakað", "afbakað", "afbökuðu", "afbakaðs"]
+				},
+				"ft": {
+					"kk": ["afbakaðir", "afbakaða", "afbökuðum", "afbakaðra"],
+					"kvk": ["afbakaðar", "afbakaðar", "afbökuðum", "afbakaðra"],
+					"hk": ["afbökuð", "afbökuð", "afbökuðum", "afbakaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afbaka",
+	"hash": "3c4bbc454936db66188a0362f632932bfdef636f08fceccaba52939c64e77278"
+}

@@ -2,11 +2,22 @@
 	"orð": "brýði",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "brýð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brúður-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["brýði", "brýði", "brýði", "brýði"],
 		"mg": ["brýðin", "brýðina", "brýðinni", "brýðinnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-brýði-kvk-ó",
-	"hash": "3c054552bc1606bac49ef7b2fa13e147efb583a49fce1286dbd58fcc209e848e"
+	"hash": "828a72b8e3616eb899a7476689e4e08f560a61540be01ae70d3a4ab35921de5d"
 }
