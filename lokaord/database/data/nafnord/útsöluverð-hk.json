@@ -1,0 +1,27 @@
+{
+	"orð": "útsöluverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["útsöluverð", "útsöluverð", "útsöluverði", "útsöluverðs"],
+		"mg": ["útsöluverðið", "útsöluverðið", "útsöluverðinu", "útsöluverðsins"]
+	},
+	"kennistrengur": "no-útsöluverð-hk",
+	"hash": "ffe508f1478d4ac5c56294122e71c8a3fb04093e3eaac66d166a705e3914cb3b"
+}
