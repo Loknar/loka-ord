@@ -1,0 +1,135 @@
+{
+	"orð": "pota",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "pot",
+			"samsetning": "stofn",
+			"kennistrengur": "no-pot-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "pota",
+		"sagnbót": "potað",
+		"boðháttur": {
+			"stýfður": "pota",
+			"et": "potaðu",
+			"ft": "potið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pota", "potar", "potar"],
+					"ft": ["potum", "potið", "pota"]
+				},
+				"þátíð": {
+					"et": ["potaði", "potaðir", "potaði"],
+					"ft": ["potuðum", "potuðuð", "potuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["poti", "potir", "poti"],
+					"ft": ["potum", "potið", "poti"]
+				},
+				"þátíð": {
+					"et": ["potaði", "potaðir", "potaði"],
+					"ft": ["potuðum", "potuðuð", "potuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "potarðu",
+					"ft": "potiði"
+				},
+				"þátíð": {
+					"et": "potaðirðu",
+					"ft": "potuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "potirðu",
+					"ft": "potiði"
+				},
+				"þátíð": {
+					"et": "potaðirðu",
+					"ft": "potuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "potast",
+		"sagnbót": "potast",
+		"boðháttur": {
+			"et": "potastu",
+			"ft": "potist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["potast", "potast", "potast"],
+					"ft": ["potumst", "potist", "potast"]
+				},
+				"þátíð": {
+					"et": ["potaðist", "potaðist", "potaðist"],
+					"ft": ["potuðumst", "potuðust", "potuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["potist", "potist", "potist"],
+					"ft": ["potumst", "potist", "potist"]
+				},
+				"þátíð": {
+					"et": ["potaðist", "potaðist", "potaðist"],
+					"ft": ["potuðumst", "potuðust", "potuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "potastu"
+				},
+				"þátíð": {
+					"et": "potaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "potistu"
+				},
+				"þátíð": {
+					"et": "potaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "potandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["potaður", "potaðan", "potuðum", "potaðs"],
+					"kvk": ["potuð", "potaða", "potaðri", "potaðrar"],
+					"hk": ["potað", "potað", "potuðu", "potaðs"]
+				},
+				"ft": {
+					"kk": ["potaðir", "potaða", "potuðum", "potaðra"],
+					"kvk": ["potaðar", "potaðar", "potuðum", "potaðra"],
+					"hk": ["potuð", "potuð", "potuðum", "potaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-pota",
+	"hash": "2a61acf94304727526c1dc9b6d320165f0559432a3866eb1e91ea1510b6066da"
+}
