@@ -1,0 +1,26 @@
+{
+	"orð": "lántökukostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lán",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["lántökukostnaður", "lántökukostnað", "lántökukostnaði", "lántökukostnaðar"],
+		"mg": ["lántökukostnaðurinn", "lántökukostnaðinn", "lántökukostnaðinum", "lántökukostnaðarins"]
+	},
+	"kennistrengur": "no-lántökukostnaður-kk",
+	"hash": "864cc76e6dd8a91cfeceefb359cc96641ce443cbad527d85d2218b9e4adef2f6"
+}
