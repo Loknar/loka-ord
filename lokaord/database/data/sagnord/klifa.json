@@ -1,0 +1,135 @@
+{
+	"orð": "klifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-klif-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "klifa",
+		"sagnbót": "klifað",
+		"boðháttur": {
+			"stýfður": "klifa",
+			"et": "klifaðu",
+			"ft": "klifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klifa", "klifar", "klifar"],
+					"ft": ["klifum", "klifið", "klifa"]
+				},
+				"þátíð": {
+					"et": ["klifaði", "klifaðir", "klifaði"],
+					"ft": ["klifuðum", "klifuðuð", "klifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klifi", "klifir", "klifi"],
+					"ft": ["klifum", "klifið", "klifi"]
+				},
+				"þátíð": {
+					"et": ["klifaði", "klifaðir", "klifaði"],
+					"ft": ["klifuðum", "klifuðuð", "klifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klifarðu",
+					"ft": "klifiði"
+				},
+				"þátíð": {
+					"et": "klifaðirðu",
+					"ft": "klifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klifirðu",
+					"ft": "klifiði"
+				},
+				"þátíð": {
+					"et": "klifaðirðu",
+					"ft": "klifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klifast",
+		"sagnbót": "klifast",
+		"boðháttur": {
+			"et": "klifastu",
+			"ft": "klifist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klifast", "klifast", "klifast"],
+					"ft": ["klifumst", "klifist", "klifast"]
+				},
+				"þátíð": {
+					"et": ["klifaðist", "klifaðist", "klifaðist"],
+					"ft": ["klifuðumst", "klifuðust", "klifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klifist", "klifist", "klifist"],
+					"ft": ["klifumst", "klifist", "klifist"]
+				},
+				"þátíð": {
+					"et": ["klifaðist", "klifaðist", "klifaðist"],
+					"ft": ["klifuðumst", "klifuðust", "klifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klifastu"
+				},
+				"þátíð": {
+					"et": "klifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klifistu"
+				},
+				"þátíð": {
+					"et": "klifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klifaður", "klifaðan", "klifuðum", "klifaðs"],
+					"kvk": ["klifuð", "klifaða", "klifaðri", "klifaðrar"],
+					"hk": ["klifað", "klifað", "klifuðu", "klifaðs"]
+				},
+				"ft": {
+					"kk": ["klifaðir", "klifaða", "klifuðum", "klifaðra"],
+					"kvk": ["klifaðar", "klifaðar", "klifuðum", "klifaðra"],
+					"hk": ["klifuð", "klifuð", "klifuðum", "klifaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klifa",
+	"hash": "f32a8360a1f5734b7c060075cd31dd15712c31b67ec3655ed9d629baf3f6d481"
+}

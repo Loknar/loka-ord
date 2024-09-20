@@ -1,0 +1,27 @@
+{
+	"orð": "afkomuáhyggjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "afkomu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-afkoma-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-hyggja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["afkomuáhyggjur", "afkomuáhyggjur", "afkomuáhyggjum", "afkomuáhyggja"],
+		"mg": ["afkomuáhyggjurnar", "afkomuáhyggjurnar", "afkomuáhyggjunum", "afkomuáhyggjanna"]
+	},
+	"kennistrengur": "no-afkomuáhyggjur-kvk",
+	"hash": "83126c4b4dea996ebcfb99c26d963302bb34dae12efff915fac2c0c3464ab47c"
+}
