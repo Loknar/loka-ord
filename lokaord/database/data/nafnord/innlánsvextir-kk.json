@@ -1,0 +1,27 @@
+{
+	"orð": "innlánsvextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "láns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["innlánsvextir", "innlánsvexti", "innlánsvöxtum", "innlánsvaxta"],
+		"mg": ["innlánsvextirnir", "innlánsvextina", "innlánsvöxtunum", "innlánsvaxtanna"]
+	},
+	"kennistrengur": "no-innlánsvextir-kk",
+	"hash": "2602d4c843fa7d02f3655e2c5efceb4aa0c7f120b4f73521d41b210ae8145e79"
+}

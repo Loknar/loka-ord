@@ -1,0 +1,120 @@
+{
+	"orð": "hemja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "hemja",
+		"sagnbót": "hamið",
+		"boðháttur": {
+			"stýfður": "hem",
+			"et": "hemdu",
+			"ft": "hemjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hem", "hemur", "hemur"],
+					"ft": ["hemjum", "hemjið", "hemja"]
+				},
+				"þátíð": {
+					"et": ["hamdi", "hamdir", "hamdi"],
+					"ft": ["hömdum", "hömduð", "hömdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hemji", "hemjir", "hemji"],
+					"ft": ["hemjum", "hemjið", "hemji"]
+				},
+				"þátíð": {
+					"et": ["hemdi", "hemdir", "hemdi"],
+					"ft": ["hemdum", "hemduð", "hemdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hemurðu",
+					"ft": "hemjiði"
+				},
+				"þátíð": {
+					"et": "hamdirðu",
+					"ft": "hömduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hemjirðu",
+					"ft": "hemjiði"
+				},
+				"þátíð": {
+					"et": "hemdirðu",
+					"ft": "hemduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hemjast",
+		"sagnbót": "hamist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hemst", "hemst", "hemst"],
+					"ft": ["hemjumst", "hemjist", "hemjast"]
+				},
+				"þátíð": {
+					"et": ["hamdist", "hamdist", "hamdist"],
+					"ft": ["hömdumst", "hömdust", "hömdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hemjist", "hemjist", "hemjist"],
+					"ft": ["hemjumst", "hemjist", "hemjist"]
+				},
+				"þátíð": {
+					"et": ["hemdist", "hemdist", "hemdist"],
+					"ft": ["hemdumst", "hemdust", "hemdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hemstu"
+				},
+				"þátíð": {
+					"et": "hamdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hemjistu"
+				},
+				"þátíð": {
+					"et": "hemdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hemjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["haminn", "haminn", "hömdum", "hamins"],
+					"kvk": ["hamin", "hamda", "hamdri", "hamdrar"],
+					"hk": ["hamið", "hamið", "hömdu", "hamins"]
+				},
+				"ft": {
+					"kk": ["hamdir", "hamda", "hömdum", "hamdra"],
+					"kvk": ["hamdar", "hamdar", "hömdum", "hamdra"],
+					"hk": ["hamin", "hamin", "hömdum", "hamdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hemja",
+	"hash": "2bbc1682e12815f5362191683e2c9d2944da256b805b470fc3f49d373089335b"
+}
