@@ -1,0 +1,35 @@
+{
+	"orð": "myndbandsupptaka",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mynd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "bands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-band-hk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"kennistrengur": "no-taka-kvk"
+		}
+	],
+	"et": {
+		"ág": ["myndbandsupptaka", "myndbandsupptöku", "myndbandsupptöku", "myndbandsupptöku"],
+		"mg": ["myndbandsupptakan", "myndbandsupptökuna", "myndbandsupptökunni", "myndbandsupptökunnar"]
+	},
+	"ft": {
+		"ág": ["myndbandsupptökur", "myndbandsupptökur", "myndbandsupptökum", "myndbandsupptaka"],
+		"mg": ["myndbandsupptökurnar", "myndbandsupptökurnar", "myndbandsupptökunum", "myndbandsupptakanna"]
+	},
+	"kennistrengur": "no-myndbandsupptaka-kvk",
+	"hash": "ad88cf4e565d5f62158aa3b1318fa3e64c8694e6b621a2b2ee64e8f77a6f82e1"
+}
