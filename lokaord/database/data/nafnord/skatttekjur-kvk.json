@@ -1,0 +1,22 @@
+{
+	"orð": "skatttekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["skatttekjur", "skatttekjur", "skatttekjum", "skatttekna"],
+		"mg": ["skatttekjurnar", "skatttekjurnar", "skatttekjunum", "skattteknanna"]
+	},
+	"kennistrengur": "no-skatttekjur-kvk",
+	"hash": "d9449bfbd49202db83b7fb90f4793b1bcf6a47092e0f98cddee5e9061de6f9f2"
+}

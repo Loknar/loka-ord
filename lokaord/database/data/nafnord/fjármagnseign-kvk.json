@@ -1,0 +1,30 @@
+{
+	"orð": "fjármagnseign",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"kennistrengur": "no-eign-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármagnseign", "fjármagnseign", "fjármagnseign", "fjármagnseignar"],
+		"mg": ["fjármagnseignin", "fjármagnseignina", "fjármagnseigninni", "fjármagnseignarinnar"]
+	},
+	"ft": {
+		"ág": ["fjármagnseignir", "fjármagnseignir", "fjármagnseignum", "fjármagnseigna"],
+		"mg": ["fjármagnseignirnar", "fjármagnseignirnar", "fjármagnseignunum", "fjármagnseignanna"]
+	},
+	"kennistrengur": "no-fjármagnseign-kvk",
+	"hash": "7d733da15981d6c4254710de65fe53e2ab4f81bb09624db8d9cb9fe5b2bde063"
+}

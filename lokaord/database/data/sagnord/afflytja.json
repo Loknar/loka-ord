@@ -1,0 +1,87 @@
+{
+	"orð": "afflytja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-flytja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afflytja",
+		"sagnbót": "afflutt",
+		"boðháttur": {
+			"stýfður": "afflyt",
+			"et": "afflyttu",
+			"ft": "afflytjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afflyt", "afflytur", "afflytur"],
+					"ft": ["afflytjum", "afflytjið", "afflytja"]
+				},
+				"þátíð": {
+					"et": ["afflutti", "affluttir", "afflutti"],
+					"ft": ["affluttum", "affluttuð", "affluttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afflytji", "afflytjir", "afflytji"],
+					"ft": ["afflytjum", "afflytjið", "afflytji"]
+				},
+				"þátíð": {
+					"et": ["afflytti", "afflyttir", "afflytti"],
+					"ft": ["afflyttum", "afflyttuð", "afflyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afflyturðu",
+					"ft": "afflytjiði"
+				},
+				"þátíð": {
+					"et": "affluttirðu",
+					"ft": "affluttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afflytjirðu",
+					"ft": "afflytjiði"
+				},
+				"þátíð": {
+					"et": "afflyttirðu",
+					"ft": "afflyttuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afflytjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["affluttur", "affluttan", "affluttum", "afflutts"],
+					"kvk": ["afflutt", "afflutta", "affluttri", "affluttrar"],
+					"hk": ["afflutt", "afflutt", "affluttu", "afflutts"]
+				},
+				"ft": {
+					"kk": ["affluttir", "afflutta", "affluttum", "affluttra"],
+					"kvk": ["affluttar", "affluttar", "affluttum", "affluttra"],
+					"hk": ["afflutt", "afflutt", "affluttum", "affluttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afflytja",
+	"hash": "efad20ed3b23e611d996466ef2e28778d349b5e5ede741841f539de2a5e1b81d"
+}

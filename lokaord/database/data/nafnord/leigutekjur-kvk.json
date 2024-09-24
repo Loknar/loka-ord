@@ -1,0 +1,22 @@
+{
+	"orð": "leigutekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["leigutekjur", "leigutekjur", "leigutekjum", "leigutekna"],
+		"mg": ["leigutekjurnar", "leigutekjurnar", "leigutekjunum", "leiguteknanna"]
+	},
+	"kennistrengur": "no-leigutekjur-kvk",
+	"hash": "da40ac02bffdf2dd75088a27f90ffa7800711bf8bb7419aa3c87ab51bd9ba02e"
+}

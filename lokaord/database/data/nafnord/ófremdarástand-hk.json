@@ -1,0 +1,32 @@
+{
+	"orð": "ófremdarástand",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "fremdar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fremd-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stand-hk"
+		}
+	],
+	"et": {
+		"ág": ["ófremdarástand", "ófremdarástand", "ófremdarástandi", "ófremdarástands"],
+		"mg": ["ófremdarástandið", "ófremdarástandið", "ófremdarástandinu", "ófremdarástandsins"]
+	},
+	"kennistrengur": "no-ófremdarástand-hk",
+	"hash": "03e860f3be81698646677bb8da0336e0fa4e30e321da25128dc5acfa113e3dd6"
+}
