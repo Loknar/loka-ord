@@ -1,0 +1,65 @@
+{
+	"orð": "undirgangast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "undir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-undir"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-ganga"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "undirgangast",
+		"sagnbót": "undirgengist",
+		"boðháttur": {
+			"et": "undirgangstu",
+			"ft": "undirgangist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["undirgengst", "undirgengst", "undirgengst"],
+					"ft": ["undirgöngumst", "undirgangist", "undirgangast"]
+				},
+				"þátíð": {
+					"et": ["undirgekkst", "undirgekkst", "undirgekkst"],
+					"ft": ["undirgengumst", "undirgengust", "undirgengust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["undirgangist", "undirgangist", "undirgangist"],
+					"ft": ["undirgöngumst", "undirgangist", "undirgangist"]
+				},
+				"þátíð": {
+					"et": ["undirgengist", "undirgengist", "undirgengist"],
+					"ft": ["undirgengjumst", "undirgengjust", "undirgengjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "undirgengstu"
+				},
+				"þátíð": {
+					"et": "undirgekkstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "undirgangistu"
+				},
+				"þátíð": {
+					"et": "undirgengistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-undirgangast",
+	"hash": "a6128fbf87487a81d1d18729753d417192d19b4b19429efbd0c9572474fea137"
+}
