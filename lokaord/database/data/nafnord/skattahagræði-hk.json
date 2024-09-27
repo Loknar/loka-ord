@@ -1,0 +1,27 @@
+{
+	"orð": "skattahagræði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skatta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "hag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ræði-hk"
+		}
+	],
+	"et": {
+		"ág": ["skattahagræði", "skattahagræði", "skattahagræði", "skattahagræðis"],
+		"mg": ["skattahagræðið", "skattahagræðið", "skattahagræðinu", "skattahagræðisins"]
+	},
+	"kennistrengur": "no-skattahagræði-hk",
+	"hash": "4c5d71f4de473cd1cd7e8d692f142ac2d9d58c95dcb18ad767d76e9dd867b155"
+}

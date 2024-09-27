@@ -1,0 +1,135 @@
+{
+	"orð": "spóla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spól-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spóla",
+		"sagnbót": "spólað",
+		"boðháttur": {
+			"stýfður": "spóla",
+			"et": "spólaðu",
+			"ft": "spólið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spóla", "spólar", "spólar"],
+					"ft": ["spólum", "spólið", "spóla"]
+				},
+				"þátíð": {
+					"et": ["spólaði", "spólaðir", "spólaði"],
+					"ft": ["spóluðum", "spóluðuð", "spóluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spóli", "spólir", "spóli"],
+					"ft": ["spólum", "spólið", "spóli"]
+				},
+				"þátíð": {
+					"et": ["spólaði", "spólaðir", "spólaði"],
+					"ft": ["spóluðum", "spóluðuð", "spóluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spólarðu",
+					"ft": "spóliði"
+				},
+				"þátíð": {
+					"et": "spólaðirðu",
+					"ft": "spóluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spólirðu",
+					"ft": "spóliði"
+				},
+				"þátíð": {
+					"et": "spólaðirðu",
+					"ft": "spóluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spólast",
+		"sagnbót": "spólast",
+		"boðháttur": {
+			"et": "spólastu",
+			"ft": "spólist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spólast", "spólast", "spólast"],
+					"ft": ["spólumst", "spólist", "spólast"]
+				},
+				"þátíð": {
+					"et": ["spólaðist", "spólaðist", "spólaðist"],
+					"ft": ["spóluðumst", "spóluðust", "spóluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spólist", "spólist", "spólist"],
+					"ft": ["spólumst", "spólist", "spólist"]
+				},
+				"þátíð": {
+					"et": ["spólaðist", "spólaðist", "spólaðist"],
+					"ft": ["spóluðumst", "spóluðust", "spóluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spólastu"
+				},
+				"þátíð": {
+					"et": "spólaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spólistu"
+				},
+				"þátíð": {
+					"et": "spólaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spólandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spólaður", "spólaðan", "spóluðum", "spólaðs"],
+					"kvk": ["spóluð", "spólaða", "spólaðri", "spólaðrar"],
+					"hk": ["spólað", "spólað", "spóluðu", "spólaðs"]
+				},
+				"ft": {
+					"kk": ["spólaðir", "spólaða", "spóluðum", "spólaðra"],
+					"kvk": ["spólaðar", "spólaðar", "spóluðum", "spólaðra"],
+					"hk": ["spóluð", "spóluð", "spóluðum", "spólaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spóla",
+	"hash": "00458bc93e0c6538c0728509229d333d248c3b4c6acc8ba15be587c78cd73747"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "hagstjórnarmistök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hagstjórnarmistök", "hagstjórnarmistök", "hagstjórnarmistökum", "hagstjórnarmistaka"],
+		"mg": ["hagstjórnarmistökin", "hagstjórnarmistökin", "hagstjórnarmistökunum", "hagstjórnarmistakanna"]
+	},
+	"kennistrengur": "no-hagstjórnarmistök-hk",
+	"hash": "c4031d31fcd3ed929c60ba57191568ca5032e46e94222a1254488847ebb78f62"
+}

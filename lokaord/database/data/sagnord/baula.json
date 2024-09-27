@@ -1,0 +1,87 @@
+{
+	"orð": "baula",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "baul",
+			"samsetning": "stofn",
+			"kennistrengur": "no-baul-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "baula",
+		"sagnbót": "baulað",
+		"boðháttur": {
+			"stýfður": "baula",
+			"et": "baulaðu",
+			"ft": "baulið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["baula", "baular", "baular"],
+					"ft": ["baulum", "baulið", "baula"]
+				},
+				"þátíð": {
+					"et": ["baulaði", "baulaðir", "baulaði"],
+					"ft": ["bauluðum", "bauluðuð", "bauluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bauli", "baulir", "bauli"],
+					"ft": ["baulum", "baulið", "bauli"]
+				},
+				"þátíð": {
+					"et": ["baulaði", "baulaðir", "baulaði"],
+					"ft": ["bauluðum", "bauluðuð", "bauluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "baularðu",
+					"ft": "bauliði"
+				},
+				"þátíð": {
+					"et": "baulaðirðu",
+					"ft": "bauluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "baulirðu",
+					"ft": "bauliði"
+				},
+				"þátíð": {
+					"et": "baulaðirðu",
+					"ft": "bauluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "baulandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["baulaður", "baulaðan", "bauluðum", "baulaðs"],
+					"kvk": ["bauluð", "baulaða", "baulaðri", "baulaðrar"],
+					"hk": ["baulað", "baulað", "bauluðu", "baulaðs"]
+				},
+				"ft": {
+					"kk": ["baulaðir", "baulaða", "bauluðum", "baulaðra"],
+					"kvk": ["baulaðar", "baulaðar", "bauluðum", "baulaðra"],
+					"hk": ["bauluð", "bauluð", "bauluðum", "baulaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-baula",
+	"hash": "cbcbaa15f3cc96a46258a52a25876343cacac03d1a0fd908bb42b765a24169de"
+}

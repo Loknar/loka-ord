@@ -1,0 +1,124 @@
+{
+	"orð": "skatta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "skatta",
+		"sagnbót": "skattað",
+		"boðháttur": {
+			"stýfður": "skatta",
+			"et": "skattaðu",
+			"ft": "skattið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skatta", "skattar", "skattar"],
+					"ft": ["sköttum", "skattið", "skatta"]
+				},
+				"þátíð": {
+					"et": ["skattaði", "skattaðir", "skattaði"],
+					"ft": ["sköttuðum", "sköttuðuð", "sköttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skatti", "skattir", "skatti"],
+					"ft": ["sköttum", "skattið", "skatti"]
+				},
+				"þátíð": {
+					"et": ["skattaði", "skattaðir", "skattaði"],
+					"ft": ["sköttuðum", "sköttuðuð", "sköttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skattarðu",
+					"ft": "skattiði"
+				},
+				"þátíð": {
+					"et": "skattaðirðu",
+					"ft": "sköttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skattirðu",
+					"ft": "skattiði"
+				},
+				"þátíð": {
+					"et": "skattaðirðu",
+					"ft": "sköttuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skattast",
+		"sagnbót": "skattast",
+		"boðháttur": {
+			"et": "skattastu",
+			"ft": "skattist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skattast", "skattast", "skattast"],
+					"ft": ["sköttumst", "skattist", "skattast"]
+				},
+				"þátíð": {
+					"et": ["skattaðist", "skattaðist", "skattaðist"],
+					"ft": ["sköttuðumst", "sköttuðust", "sköttuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skattist", "skattist", "skattist"],
+					"ft": ["sköttumst", "skattist", "skattist"]
+				},
+				"þátíð": {
+					"et": ["skattaðist", "skattaðist", "skattaðist"],
+					"ft": ["sköttuðumst", "sköttuðust", "sköttuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skattastu"
+				},
+				"þátíð": {
+					"et": "skattaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skattistu"
+				},
+				"þátíð": {
+					"et": "skattaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skattandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skattaður", "skattaðan", "sköttuðum", "skattaðs"],
+					"kvk": ["sköttuð", "skattaða", "skattaðri", "skattaðrar"],
+					"hk": ["skattað", "skattað", "sköttuðu", "skattaðs"]
+				},
+				"ft": {
+					"kk": ["skattaðir", "skattaða", "sköttuðum", "skattaðra"],
+					"kvk": ["skattaðar", "skattaðar", "sköttuðum", "skattaðra"],
+					"hk": ["sköttuð", "sköttuð", "sköttuðum", "skattaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skatta",
+	"hash": "e3c13c3040a406ad212dd61b8673892fd2298fae3de48114d6e12ef03b88717e"
+}
