@@ -1,0 +1,99 @@
+{
+	"orð": "gerja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gerj",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-ger-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gerja",
+		"sagnbót": "gerjað",
+		"boðháttur": {
+			"stýfður": "gerja",
+			"et": "gerjaðu",
+			"ft": "gerjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gerja", "gerjar", "gerjar"],
+					"ft": ["gerjum", "gerjið", "gerja"]
+				},
+				"þátíð": {
+					"et": ["gerjaði", "gerjaðir", "gerjaði"],
+					"ft": ["gerjuðum", "gerjuðuð", "gerjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gerji", "gerjir", "gerji"],
+					"ft": ["gerjum", "gerjið", "gerji"]
+				},
+				"þátíð": {
+					"et": ["gerjaði", "gerjaðir", "gerjaði"],
+					"ft": ["gerjuðum", "gerjuðuð", "gerjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gerjarðu",
+					"ft": "gerjiði"
+				},
+				"þátíð": {
+					"et": "gerjaðirðu",
+					"ft": "gerjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gerjirðu",
+					"ft": "gerjiði"
+				},
+				"þátíð": {
+					"et": "gerjaðirðu",
+					"ft": "gerjuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gerjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gerjaður", "gerjaðan", "gerjuðum", "gerjaðs"],
+					"kvk": ["gerjuð", "gerjaða", "gerjaðri", "gerjaðrar"],
+					"hk": ["gerjað", "gerjað", "gerjuðu", "gerjaðs"]
+				},
+				"ft": {
+					"kk": ["gerjaðir", "gerjaða", "gerjuðum", "gerjaðra"],
+					"kvk": ["gerjaðar", "gerjaðar", "gerjuðum", "gerjaðra"],
+					"hk": ["gerjuð", "gerjuð", "gerjuðum", "gerjaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gerjaði", "gerjaða", "gerjaða", "gerjaða"],
+					"kvk": ["gerjaða", "gerjuðu", "gerjuðu", "gerjuðu"],
+					"hk": ["gerjaða", "gerjaða", "gerjaða", "gerjaða"]
+				},
+				"ft": {
+					"kk": ["gerjuðu", "gerjuðu", "gerjuðu", "gerjuðu"],
+					"kvk": ["gerjuðu", "gerjuðu", "gerjuðu", "gerjuðu"],
+					"hk": ["gerjuðu", "gerjuðu", "gerjuðu", "gerjuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gerja",
+	"hash": "f8e1f7311a6c5ff3b8ae25f0ce6df7a614227dd4222c05f99aa0df36743e20e5"
+}

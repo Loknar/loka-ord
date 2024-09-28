@@ -1,0 +1,32 @@
+{
+	"orð": "þungunarrofslöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þungunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þungun-kvk"
+		},
+		{
+			"mynd": "rofs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rof-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["þungunarrofslöggjöf", "þungunarrofslöggjöf", "þungunarrofslöggjöf", "þungunarrofslöggjafar"],
+		"mg": ["þungunarrofslöggjöfin", "þungunarrofslöggjöfina", "þungunarrofslöggjöfinni", "þungunarrofslöggjafarinnar"]
+	},
+	"kennistrengur": "no-þungunarrofslöggjöf-kvk",
+	"hash": "4f1fafe59c504926ea080a6c5f2d992a6500a0dc706debf8f29ec733a83631af"
+}

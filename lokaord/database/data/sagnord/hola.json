@@ -1,0 +1,135 @@
+{
+	"orð": "hola",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hola-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hola",
+		"sagnbót": "holað",
+		"boðháttur": {
+			"stýfður": "hola",
+			"et": "holaðu",
+			"ft": "holið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hola", "holar", "holar"],
+					"ft": ["holum", "holið", "hola"]
+				},
+				"þátíð": {
+					"et": ["holaði", "holaðir", "holaði"],
+					"ft": ["holuðum", "holuðuð", "holuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holi", "holir", "holi"],
+					"ft": ["holum", "holið", "holi"]
+				},
+				"þátíð": {
+					"et": ["holaði", "holaðir", "holaði"],
+					"ft": ["holuðum", "holuðuð", "holuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "holarðu",
+					"ft": "holiði"
+				},
+				"þátíð": {
+					"et": "holaðirðu",
+					"ft": "holuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "holirðu",
+					"ft": "holiði"
+				},
+				"þátíð": {
+					"et": "holaðirðu",
+					"ft": "holuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "holast",
+		"sagnbót": "holast",
+		"boðháttur": {
+			"et": "holastu",
+			"ft": "holist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["holast", "holast", "holast"],
+					"ft": ["holumst", "holist", "holast"]
+				},
+				"þátíð": {
+					"et": ["holaðist", "holaðist", "holaðist"],
+					"ft": ["holuðumst", "holuðust", "holuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holist", "holist", "holist"],
+					"ft": ["holumst", "holist", "holist"]
+				},
+				"þátíð": {
+					"et": ["holaðist", "holaðist", "holaðist"],
+					"ft": ["holuðumst", "holuðust", "holuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "holastu"
+				},
+				"þátíð": {
+					"et": "holaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "holistu"
+				},
+				"þátíð": {
+					"et": "holaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "holandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["holaður", "holaðan", "holuðum", "holaðs"],
+					"kvk": ["holuð", "holaða", "holaðri", "holaðrar"],
+					"hk": ["holað", "holað", "holuðu", "holaðs"]
+				},
+				"ft": {
+					"kk": ["holaðir", "holaða", "holuðum", "holaðra"],
+					"kvk": ["holaðar", "holaðar", "holuðum", "holaðra"],
+					"hk": ["holuð", "holuð", "holuðum", "holaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hola",
+	"hash": "e2e3a9ed3c343daebb0125113fea553929b491daaaa36afaf2d829e0a53ded99"
+}
