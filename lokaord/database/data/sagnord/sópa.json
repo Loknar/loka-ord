@@ -1,6 +1,16 @@
 {
 	"orð": "sópa",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sóp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sóp-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "sópa",
 		"sagnbót": "sópað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "sópast",
 		"sagnbót": "sópast",
+		"boðháttur": {
+			"et": "sópastu",
+			"ft": "sópist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-sópa",
-	"hash": "bb6abc7c53b3482a2e89c8a1c050e631890fe416d4cb4104df1248e30c4fe10e"
+	"hash": "85b755bce95641eb667642d03b4b36cb659f44d88aac2ea684598a6e00fc6785"
 }
