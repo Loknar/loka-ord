@@ -1,0 +1,73 @@
+{
+	"orð": "bardúsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bar",
+			"samsetning": "stofn",
+			"kennistrengur": "so-berja"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-dúsa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bardúsa",
+		"sagnbót": "bardúsað",
+		"boðháttur": {
+			"stýfður": "bardúsa",
+			"et": "bardúsaðu",
+			"ft": "bardúsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bardúsa", "bardúsar", "bardúsar"],
+					"ft": ["bardúsum", "bardúsið", "bardúsa"]
+				},
+				"þátíð": {
+					"et": ["bardúsaði", "bardúsaðir", "bardúsaði"],
+					"ft": ["bardúsuðum", "bardúsuðuð", "bardúsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bardúsi", "bardúsir", "bardúsi"],
+					"ft": ["bardúsum", "bardúsið", "bardúsi"]
+				},
+				"þátíð": {
+					"et": ["bardúsaði", "bardúsaðir", "bardúsaði"],
+					"ft": ["bardúsuðum", "bardúsuðuð", "bardúsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bardúsarðu",
+					"ft": "bardúsiði"
+				},
+				"þátíð": {
+					"et": "bardúsaðirðu",
+					"ft": "bardúsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bardúsirðu",
+					"ft": "bardúsiði"
+				},
+				"þátíð": {
+					"et": "bardúsaðirðu",
+					"ft": "bardúsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bardúsandi"
+	},
+	"kennistrengur": "so-bardúsa",
+	"hash": "0e7e39d038190573bb2b33d1bc5daf22c7ddff94911e612c689f305fa9735aef"
+}

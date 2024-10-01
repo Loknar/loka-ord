@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluþátttaka",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "þátt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"kennistrengur": "no-taka-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluþátttaka", "greiðsluþátttöku", "greiðsluþátttöku", "greiðsluþátttöku"],
+		"mg": ["greiðsluþátttakan", "greiðsluþátttökuna", "greiðsluþátttökunni", "greiðsluþátttökunnar"]
+	},
+	"ft": {
+		"ág": ["greiðsluþátttökur", "greiðsluþátttökur", "greiðsluþátttökum", "greiðsluþátttaka"],
+		"mg": ["greiðsluþátttökurnar", "greiðsluþátttökurnar", "greiðsluþátttökunum", "greiðsluþátttakanna"]
+	},
+	"kennistrengur": "no-greiðsluþátttaka-kvk",
+	"hash": "eacc0f1d49e37a2492da83636f80973873adf7816727df3dcd5a694e2fe71067"
+}
