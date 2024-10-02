@@ -1,0 +1,87 @@
+{
+	"orð": "mygla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mygl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mygla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mygla",
+		"sagnbót": "myglað",
+		"boðháttur": {
+			"stýfður": "mygla",
+			"et": "myglaðu",
+			"ft": "myglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mygla", "myglar", "myglar"],
+					"ft": ["myglum", "myglið", "mygla"]
+				},
+				"þátíð": {
+					"et": ["myglaði", "myglaðir", "myglaði"],
+					"ft": ["mygluðum", "mygluðuð", "mygluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mygli", "myglir", "mygli"],
+					"ft": ["myglum", "myglið", "mygli"]
+				},
+				"þátíð": {
+					"et": ["myglaði", "myglaðir", "myglaði"],
+					"ft": ["mygluðum", "mygluðuð", "mygluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "myglarðu",
+					"ft": "mygliði"
+				},
+				"þátíð": {
+					"et": "myglaðirðu",
+					"ft": "mygluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "myglirðu",
+					"ft": "mygliði"
+				},
+				"þátíð": {
+					"et": "myglaðirðu",
+					"ft": "mygluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "myglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["myglaður", "myglaðan", "mygluðum", "myglaðs"],
+					"kvk": ["mygluð", "myglaða", "myglaðri", "myglaðrar"],
+					"hk": ["myglað", "myglað", "mygluðu", "myglaðs"]
+				},
+				"ft": {
+					"kk": ["myglaðir", "myglaða", "mygluðum", "myglaðra"],
+					"kvk": ["myglaðar", "myglaðar", "mygluðum", "myglaðra"],
+					"hk": ["mygluð", "mygluð", "mygluðum", "myglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mygla",
+	"hash": "d450d0d8697ec60bec5d43c2d4decaba299060ac827e15929943d16a606fce79"
+}

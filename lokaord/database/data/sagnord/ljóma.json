@@ -1,0 +1,135 @@
+{
+	"orð": "ljóma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ljóm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ljómi-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ljóma",
+		"sagnbót": "ljómað",
+		"boðháttur": {
+			"stýfður": "ljóma",
+			"et": "ljómaðu",
+			"ft": "ljómið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ljóma", "ljómar", "ljómar"],
+					"ft": ["ljómum", "ljómið", "ljóma"]
+				},
+				"þátíð": {
+					"et": ["ljómaði", "ljómaðir", "ljómaði"],
+					"ft": ["ljómuðum", "ljómuðuð", "ljómuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ljómi", "ljómir", "ljómi"],
+					"ft": ["ljómum", "ljómið", "ljómi"]
+				},
+				"þátíð": {
+					"et": ["ljómaði", "ljómaðir", "ljómaði"],
+					"ft": ["ljómuðum", "ljómuðuð", "ljómuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ljómarðu",
+					"ft": "ljómiði"
+				},
+				"þátíð": {
+					"et": "ljómaðirðu",
+					"ft": "ljómuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ljómirðu",
+					"ft": "ljómiði"
+				},
+				"þátíð": {
+					"et": "ljómaðirðu",
+					"ft": "ljómuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ljómast",
+		"sagnbót": "ljómast",
+		"boðháttur": {
+			"et": "ljómastu",
+			"ft": "ljómist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ljómast", "ljómast", "ljómast"],
+					"ft": ["ljómumst", "ljómist", "ljómast"]
+				},
+				"þátíð": {
+					"et": ["ljómaðist", "ljómaðist", "ljómaðist"],
+					"ft": ["ljómuðumst", "ljómuðust", "ljómuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ljómist", "ljómist", "ljómist"],
+					"ft": ["ljómumst", "ljómist", "ljómist"]
+				},
+				"þátíð": {
+					"et": ["ljómaðist", "ljómaðist", "ljómaðist"],
+					"ft": ["ljómuðumst", "ljómuðust", "ljómuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ljómastu"
+				},
+				"þátíð": {
+					"et": "ljómaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ljómistu"
+				},
+				"þátíð": {
+					"et": "ljómaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ljómandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ljómaður", "ljómaðan", "ljómuðum", "ljómaðs"],
+					"kvk": ["ljómuð", "ljómaða", "ljómaðri", "ljómaðrar"],
+					"hk": ["ljómað", "ljómað", "ljómuðu", "ljómaðs"]
+				},
+				"ft": {
+					"kk": ["ljómaðir", "ljómaða", "ljómuðum", "ljómaðra"],
+					"kvk": ["ljómaðar", "ljómaðar", "ljómuðum", "ljómaðra"],
+					"hk": ["ljómuð", "ljómuð", "ljómuðum", "ljómaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ljóma",
+	"hash": "c15a18188ec78837edf35a2459650dfa53289690998e675cbc3f4143d24c2b95"
+}
