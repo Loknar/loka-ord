@@ -1,0 +1,27 @@
+{
+	"orð": "heildarútgjöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarútgjöld", "heildarútgjöld", "heildarútgjöldum", "heildarútgjalda"],
+		"mg": ["heildarútgjöldin", "heildarútgjöldin", "heildarútgjöldunum", "heildarútgjaldanna"]
+	},
+	"kennistrengur": "no-heildarútgjöld-hk",
+	"hash": "c5a890007605951acb661e075fd5d62e841e29e4a58e26f9175afb99c544b696"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "fæðingarorlofsgreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fæðingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fæðing-kvk"
+		},
+		{
+			"mynd": "orlofs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orlof-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fæðingarorlofsgreiðsla", "fæðingarorlofsgreiðslu", "fæðingarorlofsgreiðslu", "fæðingarorlofsgreiðslu"],
+		"mg": ["fæðingarorlofsgreiðslan", "fæðingarorlofsgreiðsluna", "fæðingarorlofsgreiðslunni", "fæðingarorlofsgreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["fæðingarorlofsgreiðslur", "fæðingarorlofsgreiðslur", "fæðingarorlofsgreiðslum", "fæðingarorlofsgreiðslna"],
+		"mg": ["fæðingarorlofsgreiðslurnar", "fæðingarorlofsgreiðslurnar", "fæðingarorlofsgreiðslunum", "fæðingarorlofsgreiðslnanna"]
+	},
+	"kennistrengur": "no-fæðingarorlofsgreiðsla-kvk",
+	"hash": "e29d7ba91ad85ec01708beb277cee14fa12f33eb91c8e409a37685e757392cba"
+}

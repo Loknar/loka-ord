@@ -1,0 +1,30 @@
+{
+	"orð": "skuldabréfaflokkur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-flokkur-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldabréfaflokkur", "skuldabréfaflokk", "skuldabréfaflokki", "skuldabréfaflokks"],
+		"mg": ["skuldabréfaflokkurinn", "skuldabréfaflokkinn", "skuldabréfaflokknum", "skuldabréfaflokksins"]
+	},
+	"ft": {
+		"ág": ["skuldabréfaflokkar", "skuldabréfaflokka", "skuldabréfaflokkum", "skuldabréfaflokka"],
+		"mg": ["skuldabréfaflokkarnir", "skuldabréfaflokkana", "skuldabréfaflokkunum", "skuldabréfaflokkanna"]
+	},
+	"kennistrengur": "no-skuldabréfaflokkur-kk",
+	"hash": "bc3248ed6cd307c47206503a685aa6adc339a1a68cd5459461e6680db321ace7"
+}

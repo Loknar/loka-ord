@@ -1,0 +1,25 @@
+{
+	"orð": "heildarskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarskuld", "heildarskuld", "heildarskuld", "heildarskuldar"],
+		"mg": ["heildarskuldin", "heildarskuldina", "heildarskuldinni", "heildarskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["heildarskuldir", "heildarskuldir", "heildarskuldum", "heildarskulda"],
+		"mg": ["heildarskuldirnar", "heildarskuldirnar", "heildarskuldunum", "heildarskuldanna"]
+	},
+	"kennistrengur": "no-heildarskuld-kvk",
+	"hash": "77c4ec34dc6217afd28857a87a033e70c5acb8810ec058bab10c06d7ae79d8a5"
+}

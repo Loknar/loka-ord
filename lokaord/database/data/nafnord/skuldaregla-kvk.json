@@ -1,0 +1,25 @@
+{
+	"orð": "skuldaregla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-regla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaregla", "skuldareglu", "skuldareglu", "skuldareglu"],
+		"mg": ["skuldareglan", "skuldaregluna", "skuldareglunni", "skuldareglunnar"]
+	},
+	"ft": {
+		"ág": ["skuldareglur", "skuldareglur", "skuldareglum", "skuldareglna"],
+		"mg": ["skuldareglurnar", "skuldareglurnar", "skuldareglunum", "skuldareglnanna"]
+	},
+	"kennistrengur": "no-skuldaregla-kvk",
+	"hash": "663ed78e5af0690ab1e56bb2797dc6ebe8aaf8906c2365caabbea479ea53d568"
+}
