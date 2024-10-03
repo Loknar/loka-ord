@@ -1,0 +1,27 @@
+{
+	"orð": "viðbótarskatttekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["viðbótarskatttekjur", "viðbótarskatttekjur", "viðbótarskatttekjum", "viðbótarskatttekna"],
+		"mg": ["viðbótarskatttekjurnar", "viðbótarskatttekjurnar", "viðbótarskatttekjunum", "viðbótarskattteknanna"]
+	},
+	"kennistrengur": "no-viðbótarskatttekjur-kvk",
+	"hash": "fea22c1b6055f1411a338a0690f5aa65c4e62a9184415ffc26baef89e2397ad5"
+}
