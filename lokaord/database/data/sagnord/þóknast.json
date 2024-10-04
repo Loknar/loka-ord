@@ -1,0 +1,65 @@
+{
+	"orð": "þóknast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þókn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þóknan-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "þóknast",
+		"sagnbót": "þóknast",
+		"boðháttur": {
+			"et": "þóknastu",
+			"ft": "þóknist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þóknast", "þóknast", "þóknast"],
+					"ft": ["þóknumst", "þóknist", "þóknast"]
+				},
+				"þátíð": {
+					"et": ["þóknaðist", "þóknaðist", "þóknaðist"],
+					"ft": ["þóknuðumst", "þóknuðust", "þóknuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þóknist", "þóknist", "þóknist"],
+					"ft": ["þóknumst", "þóknist", "þóknist"]
+				},
+				"þátíð": {
+					"et": ["þóknaðist", "þóknaðist", "þóknaðist"],
+					"ft": ["þóknuðumst", "þóknuðust", "þóknuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þóknastu"
+				},
+				"þátíð": {
+					"et": "þóknaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þóknistu"
+				},
+				"þátíð": {
+					"et": "þóknaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þóknast",
+	"hash": "1007d6bbc46926c1eb8f2f221104e411e1a091dce213b6c89e59a00d04def9f6"
+}

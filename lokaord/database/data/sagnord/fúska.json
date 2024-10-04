@@ -1,0 +1,87 @@
+{
+	"orð": "fúska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fúsk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fúsk-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fúska",
+		"sagnbót": "fúskað",
+		"boðháttur": {
+			"stýfður": "fúska",
+			"et": "fúskaðu",
+			"ft": "fúskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fúska", "fúskar", "fúskar"],
+					"ft": ["fúskum", "fúskið", "fúska"]
+				},
+				"þátíð": {
+					"et": ["fúskaði", "fúskaðir", "fúskaði"],
+					"ft": ["fúskuðum", "fúskuðuð", "fúskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fúski", "fúskir", "fúski"],
+					"ft": ["fúskum", "fúskið", "fúski"]
+				},
+				"þátíð": {
+					"et": ["fúskaði", "fúskaðir", "fúskaði"],
+					"ft": ["fúskuðum", "fúskuðuð", "fúskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fúskarðu",
+					"ft": "fúskiði"
+				},
+				"þátíð": {
+					"et": "fúskaðirðu",
+					"ft": "fúskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fúskirðu",
+					"ft": "fúskiði"
+				},
+				"þátíð": {
+					"et": "fúskaðirðu",
+					"ft": "fúskuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fúskandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fúskaður", "fúskaðan", "fúskuðum", "fúskaðs"],
+					"kvk": ["fúskuð", "fúskaða", "fúskaðri", "fúskaðrar"],
+					"hk": ["fúskað", "fúskað", "fúskuðu", "fúskaðs"]
+				},
+				"ft": {
+					"kk": ["fúskaðir", "fúskaða", "fúskuðum", "fúskaðra"],
+					"kvk": ["fúskaðar", "fúskaðar", "fúskuðum", "fúskaðra"],
+					"hk": ["fúskuð", "fúskuð", "fúskuðum", "fúskaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fúska",
+	"hash": "4b8e3198775a7c415205cd7ef60d62d6486eda48822ea45228620b2b6f19c257"
+}

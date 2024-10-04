@@ -1,0 +1,135 @@
+{
+	"orð": "fegra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fegr",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-fagur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fegra",
+		"sagnbót": "fegrað",
+		"boðháttur": {
+			"stýfður": "fegra",
+			"et": "fegraðu",
+			"ft": "fegrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fegra", "fegrar", "fegrar"],
+					"ft": ["fegrum", "fegrið", "fegra"]
+				},
+				"þátíð": {
+					"et": ["fegraði", "fegraðir", "fegraði"],
+					"ft": ["fegruðum", "fegruðuð", "fegruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fegri", "fegrir", "fegri"],
+					"ft": ["fegrum", "fegrið", "fegri"]
+				},
+				"þátíð": {
+					"et": ["fegraði", "fegraðir", "fegraði"],
+					"ft": ["fegruðum", "fegruðuð", "fegruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fegrarðu",
+					"ft": "fegriði"
+				},
+				"þátíð": {
+					"et": "fegraðirðu",
+					"ft": "fegruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fegrirðu",
+					"ft": "fegriði"
+				},
+				"þátíð": {
+					"et": "fegraðirðu",
+					"ft": "fegruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fegrast",
+		"sagnbót": "fegrast",
+		"boðháttur": {
+			"et": "fegrastu",
+			"ft": "fegrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fegrast", "fegrast", "fegrast"],
+					"ft": ["fegrumst", "fegrist", "fegrast"]
+				},
+				"þátíð": {
+					"et": ["fegraðist", "fegraðist", "fegraðist"],
+					"ft": ["fegruðumst", "fegruðust", "fegruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fegrist", "fegrist", "fegrist"],
+					"ft": ["fegrumst", "fegrist", "fegrist"]
+				},
+				"þátíð": {
+					"et": ["fegraðist", "fegraðist", "fegraðist"],
+					"ft": ["fegruðumst", "fegruðust", "fegruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fegrastu"
+				},
+				"þátíð": {
+					"et": "fegraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fegristu"
+				},
+				"þátíð": {
+					"et": "fegraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fegrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fegraður", "fegraðan", "fegruðum", "fegraðs"],
+					"kvk": ["fegruð", "fegraða", "fegraðri", "fegraðrar"],
+					"hk": ["fegrað", "fegrað", "fegruðu", "fegraðs"]
+				},
+				"ft": {
+					"kk": ["fegraðir", "fegraða", "fegruðum", "fegraðra"],
+					"kvk": ["fegraðar", "fegraðar", "fegruðum", "fegraðra"],
+					"hk": ["fegruð", "fegruð", "fegruðum", "fegraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fegra",
+	"hash": "f8f0d75298d07b42dc661b2d403eb1409979aff1368ab1a6ea778bd12d19fed7"
+}
