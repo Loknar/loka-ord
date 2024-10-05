@@ -1,0 +1,147 @@
+{
+	"orð": "fyrirframgreiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "so-greiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fyrirframgreiða",
+		"sagnbót": "fyrirframgreitt",
+		"boðháttur": {
+			"stýfður": "fyrirframgreið",
+			"et": "fyrirframgreiddu",
+			"ft": "fyrirframgreiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirframgreiði", "fyrirframgreiðir", "fyrirframgreiðir"],
+					"ft": ["fyrirframgreiðum", "fyrirframgreiðið", "fyrirframgreiða"]
+				},
+				"þátíð": {
+					"et": ["fyrirframgreiddi", "fyrirframgreiddir", "fyrirframgreiddi"],
+					"ft": ["fyrirframgreiddum", "fyrirframgreidduð", "fyrirframgreiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirframgreiði", "fyrirframgreiðir", "fyrirframgreiði"],
+					"ft": ["fyrirframgreiðum", "fyrirframgreiðið", "fyrirframgreiði"]
+				},
+				"þátíð": {
+					"et": ["fyrirframgreiddi", "fyrirframgreiddir", "fyrirframgreiddi"],
+					"ft": ["fyrirframgreddum", "fyrirframgreidduð", "fyrirframgreiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirframgreiðirðu",
+					"ft": "fyrirframgreiðiði"
+				},
+				"þátíð": {
+					"et": "fyrirframgreiddirðu",
+					"ft": "fyrirframgreidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirframgreiðirðu",
+					"ft": "fyrirframgreiðiði"
+				},
+				"þátíð": {
+					"et": "fyrirframgreiddirðu",
+					"ft": "fyrirframgreidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fyrirframgreiðast",
+		"sagnbót": "fyrirframgreiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirframgreiðist", "fyrirframgreiðist", "fyrirframgreiðist"],
+					"ft": ["fyrirframgreiðumst", "fyrirframgreiðist", "fyrirframgreiðast"]
+				},
+				"þátíð": {
+					"et": ["fyrirframgreiddist", "fyrirframgreiddist", "fyrirframgreiddist"],
+					"ft": ["fyrirframgreiddumst", "fyrirframgreiddust", "fyrirframgreiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirframgreiðist", "fyrirframgreiðist", "fyrirframgreiðist"],
+					"ft": ["fyrirframgreiðumst", "fyrirframgreiðist", "fyrirframgreiðist"]
+				},
+				"þátíð": {
+					"et": ["fyrirframgreiddist", "fyrirframgreiddist", "fyrirframgreiddist"],
+					"ft": ["fyrirframgreiddumst", "fyrirframgreiddust", "fyrirframgreiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirframgreiðstu"
+				},
+				"þátíð": {
+					"et": "fyrirframbarstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirframgreiðistu"
+				},
+				"þátíð": {
+					"et": "fyrirframbæristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fyrirframgreiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fyrirframgreiddur", "fyrirframgreiddan", "fyrirframgreiddum", "fyrirframgreidds"],
+					"kvk": ["fyrirframgreidd", "fyrirframgreidda", "fyrirframgreiddri", "fyrirframgreiddrar"],
+					"hk": ["fyrirframgreitt", "fyrirframgreitt", "fyrirframgreiddu", "fyrirframgreidds"]
+				},
+				"ft": {
+					"kk": ["fyrirframgreiddir", "fyrirframgreidda", "fyrirframgreiddum", "fyrirframgreiddra"],
+					"kvk": ["fyrirframgreiddar", "fyrirframgreiddar", "fyrirframgreiddum", "fyrirframgreiddra"],
+					"hk": ["fyrirframgreidd", "fyrirframgreidd", "fyrirframgreiddum", "fyrirframgreiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fyrirframgreiddi", "fyrirframgreidda", "fyrirframgreidda", "fyrirframgreidda"],
+					"kvk": ["fyrirframgreidda", "fyrirframgreiddu", "fyrirframgreiddu", "fyrirframgreiddu"],
+					"hk": ["fyrirframgreidda", "fyrirframgreidda", "fyrirframgreidda", "fyrirframgreidda"]
+				},
+				"ft": {
+					"kk": ["fyrirframgreiddu", "fyrirframgreiddu", "fyrirframgreiddu", "fyrirframgreiddu"],
+					"kvk": ["fyrirframgreiddu", "fyrirframgreiddu", "fyrirframgreiddu", "fyrirframgreiddu"],
+					"hk": ["fyrirframgreiddu", "fyrirframgreiddu", "fyrirframgreiddu", "fyrirframgreiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fyrirframgreiða",
+	"hash": "b14c7804b3f11f367a1c1d0f288defa8ca15c91dc410900852f5ab537ec0bf87"
+}
