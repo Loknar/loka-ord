@@ -1,0 +1,135 @@
+{
+	"orð": "pissa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "piss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-piss-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "pissa",
+		"sagnbót": "pissað",
+		"boðháttur": {
+			"stýfður": "pissa",
+			"et": "pissaðu",
+			"ft": "pissið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pissa", "pissar", "pissar"],
+					"ft": ["pissum", "pissið", "pissa"]
+				},
+				"þátíð": {
+					"et": ["pissaði", "pissaðir", "pissaði"],
+					"ft": ["pissuðum", "pissuðuð", "pissuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pissi", "pissir", "pissi"],
+					"ft": ["pissum", "pissið", "pissi"]
+				},
+				"þátíð": {
+					"et": ["pissaði", "pissaðir", "pissaði"],
+					"ft": ["pissuðum", "pissuðuð", "pissuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pissarðu",
+					"ft": "pissiði"
+				},
+				"þátíð": {
+					"et": "pissaðirðu",
+					"ft": "pissuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pissirðu",
+					"ft": "pissiði"
+				},
+				"þátíð": {
+					"et": "pissaðirðu",
+					"ft": "pissuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "pissast",
+		"sagnbót": "pissast",
+		"boðháttur": {
+			"et": "pissastu",
+			"ft": "pissist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pissast", "pissast", "pissast"],
+					"ft": ["pissumst", "pissist", "pissast"]
+				},
+				"þátíð": {
+					"et": ["pissaðist", "pissaðist", "pissaðist"],
+					"ft": ["pissuðumst", "pissuðust", "pissuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pissist", "pissist", "pissist"],
+					"ft": ["pissumst", "pissist", "pissist"]
+				},
+				"þátíð": {
+					"et": ["pissaðist", "pissaðist", "pissaðist"],
+					"ft": ["pissuðumst", "pissuðust", "pissuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pissastu"
+				},
+				"þátíð": {
+					"et": "pissaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pissistu"
+				},
+				"þátíð": {
+					"et": "pissaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "pissandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["pissaður", "pissaðan", "pissuðum", "pissaðs"],
+					"kvk": ["pissuð", "pissaða", "pissaðri", "pissaðrar"],
+					"hk": ["pissað", "pissað", "pissuðu", "pissaðs"]
+				},
+				"ft": {
+					"kk": ["pissaðir", "pissaða", "pissuðum", "pissaðra"],
+					"kvk": ["pissaðar", "pissaðar", "pissuðum", "pissaðra"],
+					"hk": ["pissuð", "pissuð", "pissuðum", "pissaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-pissa",
+	"hash": "f7030f2699b37b7c3be05ff182dccf6f89b8b24f903ef41d2abe20d4147d5ca4"
+}

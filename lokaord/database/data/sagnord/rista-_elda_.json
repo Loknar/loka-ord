@@ -2,6 +2,16 @@
 	"orð": "rista",
 	"flokkur": "sagnorð",
 	"merking": "elda",
+	"samsett": [
+		{
+			"mynd": "rist",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rist-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "rista",
 		"sagnbót": "ristað",
@@ -58,6 +68,10 @@
 	"miðmynd": {
 		"nafnháttur": "ristast",
 		"sagnbót": "ristast",
+		"boðháttur": {
+			"et": "ristastu",
+			"ft": "ristist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -129,5 +143,5 @@
 		}
 	},
 	"kennistrengur": "so-rista-_elda_",
-	"hash": "7acb0fce96ebae3ce40d770ff0807820c6726d4d3519499dab15659007a688d5"
+	"hash": "3b655c4eb308587a8a02377beef0dab08ecd6b8b67d766125fce745f810fa4ba"
 }
