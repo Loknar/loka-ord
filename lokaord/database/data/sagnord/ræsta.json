@@ -1,0 +1,88 @@
+{
+	"orð": "ræsta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "ræsta",
+		"sagnbót": "ræst",
+		"boðháttur": {
+			"stýfður": "ræst",
+			"et": "ræstu",
+			"ft": "ræstið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ræsti", "ræstir", "ræstir"],
+					"ft": ["ræstum", "ræstið", "ræsta"]
+				},
+				"þátíð": {
+					"et": ["ræsti", "ræstir", "ræsti"],
+					"ft": ["ræstum", "ræst", "ræstu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ræsti", "ræstir", "ræsti"],
+					"ft": ["ræstum", "ræstið", "ræsti"]
+				},
+				"þátíð": {
+					"et": ["ræsti", "ræstir", "ræsti"],
+					"ft": ["ræstum", "ræst", "ræstu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ræstirðu",
+					"ft": "ræstiði"
+				},
+				"þátíð": {
+					"et": "ræstirðu",
+					"ft": "ræsti"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ræstirðu",
+					"ft": "ræstiði"
+				},
+				"þátíð": {
+					"et": "ræstirðu",
+					"ft": "ræsti"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ræstandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ræstur", "ræstan", "ræstum", "ræsts"],
+					"kvk": ["ræst", "ræsta", "ræstri", "ræstrar"],
+					"hk": ["ræst", "ræst", "ræstu", "ræsts"]
+				},
+				"ft": {
+					"kk": ["ræstir", "ræsta", "ræstum", "ræstra"],
+					"kvk": ["ræstar", "ræstar", "ræstum", "ræstra"],
+					"hk": ["ræst", "ræst", "ræstum", "ræstra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ræsti", "ræsta", "ræsta", "ræsta"],
+					"kvk": ["ræsta", "ræstu", "ræstu", "ræstu"],
+					"hk": ["ræsta", "ræsta", "ræsta", "ræsta"]
+				},
+				"ft": {
+					"kk": ["ræstu", "ræstu", "ræstu", "ræstu"],
+					"kvk": ["ræstu", "ræstu", "ræstu", "ræstu"],
+					"hk": ["ræstu", "ræstu", "ræstu", "ræstu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ræsta",
+	"hash": "49f28f5e0e54e3b581ca166a2cc75c1c96291bed0d0d7e11cc64b8e5f39f73d4"
+}
