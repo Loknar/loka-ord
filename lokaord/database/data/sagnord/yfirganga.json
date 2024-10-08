@@ -1,0 +1,110 @@
+{
+	"orð": "yfirganga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ganga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirganga",
+		"sagnbót": "yfirgengið",
+		"boðháttur": {
+			"stýfður": "yfirgakk",
+			"et": "yfirgakktu",
+			"ft": "yfirgangið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirgeng", "yfirgengur", "yfirgengur"],
+					"ft": ["yfirgöngum", "yfirgangið", "yfirganga"]
+				},
+				"þátíð": {
+					"et": ["yfirgekk", "yfirgekkst", "yfirgekk"],
+					"ft": ["yfirgengum", "yfirgenguð", "yfirgengu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirgangi", "yfirgangir", "yfirgangi"],
+					"ft": ["yfirgöngum", "yfirgangið", "yfirgangi"]
+				},
+				"þátíð": {
+					"et": ["yfirgengi", "yfirgengir", "yfirgengi"],
+					"ft": ["yfirgengjum", "yfirgengjuð", "yfirgengju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirgengur", "yfirgengur", "yfirgengur"],
+					"ft": ["yfirgengur", "yfirgengur", "yfirgengur"]
+				},
+				"þátíð": {
+					"et": ["yfirgekk", "yfirgekk", "yfirgekk"],
+					"ft": ["yfirgekk", "yfirgekk", "yfirgekk"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirgangi", "yfirgangi", "yfirgangi"],
+					"ft": ["yfirgangi", "yfirgangi", "yfirgangi"]
+				},
+				"þátíð": {
+					"et": ["yfirgengi", "yfirgengi", "yfirgengi"],
+					"ft": ["yfirgengi", "yfirgengi", "yfirgengi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirgengurðu",
+					"ft": "yfirgangiði"
+				},
+				"þátíð": {
+					"et": "yfirgekkstu",
+					"ft": "yfirgenguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirgangirðu",
+					"ft": "yfirgangiði"
+				},
+				"þátíð": {
+					"et": "yfirgengirðu",
+					"ft": "yfirgengjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirgangandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirgenginn", "yfirgenginn", "yfirgengnum", "yfirgengins"],
+					"kvk": ["yfirgengin", "yfirgengna", "yfirgenginni", "yfirgenginnar"],
+					"hk": ["yfirgengið", "yfirgengið", "yfirgengnu", "yfirgengins"]
+				},
+				"ft": {
+					"kk": ["yfirgengnir", "yfirgengna", "yfirgengnum", "yfirgenginna"],
+					"kvk": ["yfirgengnar", "yfirgengnar", "yfirgengnum", "yfirgenginna"],
+					"hk": ["yfirgengin", "yfirgengin", "yfirgengnum", "yfirgenginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirganga",
+	"hash": "48e37635ee6e41cf45687ba9d8c69c48d6621850c8565efaf8f99eb9c81793fe"
+}

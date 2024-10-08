@@ -1,0 +1,27 @@
+{
+	"orð": "vopnasölubann",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vopna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vopn-hk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-bann-hk"
+		}
+	],
+	"et": {
+		"ág": ["vopnasölubann", "vopnasölubann", "vopnasölubanni", "vopnasölubanns"],
+		"mg": ["vopnasölubannið", "vopnasölubannið", "vopnasölubanninu", "vopnasölubannsins"]
+	},
+	"kennistrengur": "no-vopnasölubann-hk",
+	"hash": "297f297b8dab515f183734b17ac9b61265458151d851354afdc21828c84f6bbc"
+}
