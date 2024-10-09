@@ -4,9 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "útrýmingar",
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "rýmingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-útrýming-kvk"
+			"kennistrengur": "no-rýming-kvk"
 		},
 		{
 			"kennistrengur": "no-hætta-kvk"
@@ -21,5 +26,5 @@
 		"mg": ["útrýmingarhætturnar", "útrýmingarhætturnar", "útrýmingarhættunum", "útrýmingarhættanna"]
 	},
 	"kennistrengur": "no-útrýmingarhætta-kvk",
-	"hash": "408b675b978140859a06516a19447e6322f330be0c5f1e866714332c519ef0d4"
+	"hash": "03ba473bbee953b55bda021b3e186f215a1d525c1ab16449f78c3512d38c5b1a"
 }
