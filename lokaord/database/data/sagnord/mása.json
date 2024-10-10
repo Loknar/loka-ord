@@ -1,0 +1,73 @@
+{
+	"orð": "mása",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "más",
+			"samsetning": "stofn",
+			"kennistrengur": "no-más-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mása",
+		"sagnbót": "másað",
+		"boðháttur": {
+			"stýfður": "mása",
+			"et": "másaðu",
+			"ft": "másið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mása", "másar", "másar"],
+					"ft": ["másum", "másið", "mása"]
+				},
+				"þátíð": {
+					"et": ["másaði", "másaðir", "másaði"],
+					"ft": ["másuðum", "másuðuð", "másuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mási", "másir", "mási"],
+					"ft": ["másum", "másið", "mási"]
+				},
+				"þátíð": {
+					"et": ["másaði", "másaðir", "másaði"],
+					"ft": ["másuðum", "másuðuð", "másuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "másarðu",
+					"ft": "másiði"
+				},
+				"þátíð": {
+					"et": "másaðirðu",
+					"ft": "másuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "másirðu",
+					"ft": "másiði"
+				},
+				"þátíð": {
+					"et": "másaðirðu",
+					"ft": "másuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "másandi"
+	},
+	"kennistrengur": "so-mása",
+	"hash": "1482e88f453cbf6caca99f7f5b912caa28e99dcc16c71d3cc6587360f6c02035"
+}

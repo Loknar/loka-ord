@@ -1,0 +1,135 @@
+{
+	"orð": "vissa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "viss",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-viss"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vissa",
+		"sagnbót": "vissað",
+		"boðháttur": {
+			"stýfður": "vissa",
+			"et": "vissaðu",
+			"ft": "vissið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vissa", "vissar", "vissar"],
+					"ft": ["vissum", "vissið", "vissa"]
+				},
+				"þátíð": {
+					"et": ["vissaði", "vissaðir", "vissaði"],
+					"ft": ["vissuðum", "vissuðuð", "vissuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vissi", "vissir", "vissi"],
+					"ft": ["vissum", "vissið", "vissi"]
+				},
+				"þátíð": {
+					"et": ["vissaði", "vissaðir", "vissaði"],
+					"ft": ["vissuðum", "vissuðuð", "vissuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vissarðu",
+					"ft": "vissiði"
+				},
+				"þátíð": {
+					"et": "vissaðirðu",
+					"ft": "vissuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vissirðu",
+					"ft": "vissiði"
+				},
+				"þátíð": {
+					"et": "vissaðirðu",
+					"ft": "vissuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vissast",
+		"sagnbót": "vissast",
+		"boðháttur": {
+			"et": "vissastu",
+			"ft": "vissist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vissast", "vissast", "vissast"],
+					"ft": ["vissumst", "vissist", "vissast"]
+				},
+				"þátíð": {
+					"et": ["vissaðist", "vissaðist", "vissaðist"],
+					"ft": ["vissuðumst", "vissuðust", "vissuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vissist", "vissist", "vissist"],
+					"ft": ["vissumst", "vissist", "vissist"]
+				},
+				"þátíð": {
+					"et": ["vissaðist", "vissaðist", "vissaðist"],
+					"ft": ["vissuðumst", "vissuðust", "vissuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vissastu"
+				},
+				"þátíð": {
+					"et": "vissaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vissistu"
+				},
+				"þátíð": {
+					"et": "vissaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vissandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vissaður", "vissaðan", "vissuðum", "vissaðs"],
+					"kvk": ["vissuð", "vissaða", "vissaðri", "vissaðrar"],
+					"hk": ["vissað", "vissað", "vissuðu", "vissaðs"]
+				},
+				"ft": {
+					"kk": ["vissaðir", "vissaða", "vissuðum", "vissaðra"],
+					"kvk": ["vissaðar", "vissaðar", "vissuðum", "vissaðra"],
+					"hk": ["vissuð", "vissuð", "vissuðum", "vissaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vissa",
+	"hash": "84ac7471e5a174a4e1a4b787cd5c2e5fa156f805145476ad5f4b4ada42b315d0"
+}

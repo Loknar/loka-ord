@@ -2,6 +2,16 @@
 	"orð": "kitla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kitl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kitl-hk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kitla", "kitlu", "kitlu", "kitlu"],
 		"mg": ["kitlan", "kitluna", "kitlunni", "kitlunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["kitlurnar", "kitlurnar", "kitlunum", "kitlanna"]
 	},
 	"kennistrengur": "no-kitla-kvk",
-	"hash": "65e010fc2182156b59bfe32f1617500f17ad267a3139f3ae2fd05b2ca9b4cd6f"
+	"hash": "b99457a0423e2d1b6971fbf8fdb3f94e824325234eb159bcbd12c2c113567bd6"
 }
