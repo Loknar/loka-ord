@@ -1,0 +1,135 @@
+{
+	"orð": "brúa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brú",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brú-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brúa",
+		"sagnbót": "brúað",
+		"boðháttur": {
+			"stýfður": "brúa",
+			"et": "brúaðu",
+			"ft": "brúið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brúa", "brúar", "brúar"],
+					"ft": ["brúum", "brúið", "brúa"]
+				},
+				"þátíð": {
+					"et": ["brúaði", "brúaðir", "brúaði"],
+					"ft": ["brúuðum", "brúuðuð", "brúuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brúi", "brúir", "brúi"],
+					"ft": ["brúum", "brúið", "brúi"]
+				},
+				"þátíð": {
+					"et": ["brúaði", "brúaðir", "brúaði"],
+					"ft": ["brúuðum", "brúuðuð", "brúuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brúarðu",
+					"ft": "brúiði"
+				},
+				"þátíð": {
+					"et": "brúaðirðu",
+					"ft": "brúuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brúirðu",
+					"ft": "brúiði"
+				},
+				"þátíð": {
+					"et": "brúaðirðu",
+					"ft": "brúuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "brúast",
+		"sagnbót": "brúast",
+		"boðháttur": {
+			"et": "brúastu",
+			"ft": "brúist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brúast", "brúast", "brúast"],
+					"ft": ["brúumst", "brúist", "brúast"]
+				},
+				"þátíð": {
+					"et": ["brúaðist", "brúaðist", "brúaðist"],
+					"ft": ["brúuðumst", "brúuðust", "brúuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brúist", "brúist", "brúist"],
+					"ft": ["brúumst", "brúist", "brúist"]
+				},
+				"þátíð": {
+					"et": ["brúaðist", "brúaðist", "brúaðist"],
+					"ft": ["brúuðumst", "brúuðust", "brúuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brúastu"
+				},
+				"þátíð": {
+					"et": "brúaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brúistu"
+				},
+				"þátíð": {
+					"et": "brúaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brúandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brúaður", "brúaðan", "brúuðum", "brúaðs"],
+					"kvk": ["brúuð", "brúaða", "brúaðri", "brúaðrar"],
+					"hk": ["brúað", "brúað", "brúuðu", "brúaðs"]
+				},
+				"ft": {
+					"kk": ["brúaðir", "brúaða", "brúuðum", "brúaðra"],
+					"kvk": ["brúaðar", "brúaðar", "brúuðum", "brúaðra"],
+					"hk": ["brúuð", "brúuð", "brúuðum", "brúaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brúa",
+	"hash": "db9577aa68e5df00dea9fe9560b7e35afcfaa89f0d06a09647b7ad0ae6dbc084"
+}

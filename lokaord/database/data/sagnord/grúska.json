@@ -1,0 +1,121 @@
+{
+	"orð": "grúska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grúsk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grúsk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grúska",
+		"sagnbót": "grúskað",
+		"boðháttur": {
+			"stýfður": "grúska",
+			"et": "grúskaðu",
+			"ft": "grúskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grúska", "grúskar", "grúskar"],
+					"ft": ["grúskum", "grúskið", "grúska"]
+				},
+				"þátíð": {
+					"et": ["grúskaði", "grúskaðir", "grúskaði"],
+					"ft": ["grúskuðum", "grúskuðuð", "grúskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grúski", "grúskir", "grúski"],
+					"ft": ["grúskum", "grúskið", "grúski"]
+				},
+				"þátíð": {
+					"et": ["grúskaði", "grúskaðir", "grúskaði"],
+					"ft": ["grúskuðum", "grúskuðuð", "grúskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grúskarðu",
+					"ft": "grúskiði"
+				},
+				"þátíð": {
+					"et": "grúskaðirðu",
+					"ft": "grúskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grúskirðu",
+					"ft": "grúskiði"
+				},
+				"þátíð": {
+					"et": "grúskaðirðu",
+					"ft": "grúskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "grúskast",
+		"sagnbót": "grúskast",
+		"boðháttur": {
+			"et": "grúskastu",
+			"ft": "grúskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grúskast", "grúskast", "grúskast"],
+					"ft": ["grúskumst", "grúskist", "grúskast"]
+				},
+				"þátíð": {
+					"et": ["grúskaðist", "grúskaðist", "grúskaðist"],
+					"ft": ["grúskuðumst", "grúskuðust", "grúskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grúskist", "grúskist", "grúskist"],
+					"ft": ["grúskumst", "grúskist", "grúskist"]
+				},
+				"þátíð": {
+					"et": ["grúskaðist", "grúskaðist", "grúskaðist"],
+					"ft": ["grúskuðumst", "grúskuðust", "grúskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grúskastu"
+				},
+				"þátíð": {
+					"et": "grúskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grúskistu"
+				},
+				"þátíð": {
+					"et": "grúskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grúskandi"
+	},
+	"kennistrengur": "so-grúska",
+	"hash": "6bc03027b2289b9d84aefbb526f96e4a965508eb5e8977c0402e4292e51e3039"
+}
