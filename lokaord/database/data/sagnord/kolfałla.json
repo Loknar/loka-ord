@@ -1,0 +1,86 @@
+{
+	"orð": "kolfałla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-fałla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kolfałla",
+		"sagnbót": "kolfałlið",
+		"boðháttur": {
+			"stýfður": "kolfałl",
+			"ft": "kolfałlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kolfełl", "kolfełlur", "kolfełlur"],
+					"ft": ["kolfełlum", "kolfałlið", "kolfałla"]
+				},
+				"þátíð": {
+					"et": ["kolféłl", "kolféllst", "kolféłl"],
+					"ft": ["kolféłlum", "kolféłluð", "kolféłlu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kolfałli", "kolfałlir", "kolfałli"],
+					"ft": ["kolföłlum", "kolfałlið", "kolfałli"]
+				},
+				"þátíð": {
+					"et": ["kolféłli", "kolféłlir", "kolféłli"],
+					"ft": ["kolféłlum", "kolféłluð", "kolféłlu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kolfełlurðu",
+					"ft": "kolfałliði"
+				},
+				"þátíð": {
+					"et": "kolféllstu",
+					"ft": "kolféłluði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kolfałlirðu",
+					"ft": "kolfałliði"
+				},
+				"þátíð": {
+					"et": "kolféłlirðu",
+					"ft": "kolféłluði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kolfałlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kolfałlinn", "kolfałlinn", "kolföłlnum", "kolfałlins"],
+					"kvk": ["kolfałlin", "kolfałlna", "kolfałlinni", "kolfałlinnar"],
+					"hk": ["kolfałlið", "kolfałlið", "kolföłlnu", "kolfałlins"]
+				},
+				"ft": {
+					"kk": ["kolfałlnir", "kolfałlna", "kolföłlnum", "kolfałlinna"],
+					"kvk": ["kolfałlnar", "kolfałlnar", "kolföłlnum", "kolfałlinna"],
+					"hk": ["kolfałlin", "kolfałlin", "kolföłlnum", "kolfałlinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kolfałla",
+	"hash": "37e14ca17c5b2dd8048c59bc2e2161cad5060dfe7e63d190491c2d72ec6f84c0"
+}

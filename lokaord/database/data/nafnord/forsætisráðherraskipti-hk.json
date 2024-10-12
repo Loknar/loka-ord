@@ -1,0 +1,32 @@
+{
+	"orð": "forsætisráðherraskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "forsætis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-forsæti-hk"
+		},
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"mynd": "herra",
+			"samsetning": "stofn",
+			"kennistrengur": "no-herra-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["forsætisráðherraskipti", "forsætisráðherraskipti", "forsætisráðherraskiptum", "forsætisráðherraskipta"],
+		"mg": ["forsætisráðherraskiptin", "forsætisráðherraskiptin", "forsætisráðherraskiptunum", "forsætisráðherraskiptanna"]
+	},
+	"kennistrengur": "no-forsætisráðherraskipti-hk",
+	"hash": "ccd14c2eb2d4ba2d92895444b6d8e1b61fa70230e5755598e7f974f9b521867b"
+}
