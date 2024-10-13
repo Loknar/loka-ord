@@ -1,0 +1,135 @@
+{
+	"orð": "slútta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slútt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slútt-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slútta",
+		"sagnbót": "slúttað",
+		"boðháttur": {
+			"stýfður": "slútta",
+			"et": "slúttaðu",
+			"ft": "slúttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slútta", "slúttar", "slúttar"],
+					"ft": ["slúttum", "slúttið", "slútta"]
+				},
+				"þátíð": {
+					"et": ["slúttaði", "slúttaðir", "slúttaði"],
+					"ft": ["slúttuðum", "slúttuðuð", "slúttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slútti", "slúttir", "slútti"],
+					"ft": ["slúttum", "slúttið", "slútti"]
+				},
+				"þátíð": {
+					"et": ["slúttaði", "slúttaðir", "slúttaði"],
+					"ft": ["slúttuðum", "slúttuðuð", "slúttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slúttarðu",
+					"ft": "slúttiði"
+				},
+				"þátíð": {
+					"et": "slúttaðirðu",
+					"ft": "slúttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slúttirðu",
+					"ft": "slúttiði"
+				},
+				"þátíð": {
+					"et": "slúttaðirðu",
+					"ft": "slúttuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slúttast",
+		"sagnbót": "slúttast",
+		"boðháttur": {
+			"et": "slúttastu",
+			"ft": "slúttist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slúttast", "slúttast", "slúttast"],
+					"ft": ["slúttumst", "slúttist", "slúttast"]
+				},
+				"þátíð": {
+					"et": ["slúttaðist", "slúttaðist", "slúttaðist"],
+					"ft": ["slúttuðumst", "slúttuðust", "slúttuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slúttist", "slúttist", "slúttist"],
+					"ft": ["slúttumst", "slúttist", "slúttist"]
+				},
+				"þátíð": {
+					"et": ["slúttaðist", "slúttaðist", "slúttaðist"],
+					"ft": ["slúttuðumst", "slúttuðust", "slúttuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slúttastu"
+				},
+				"þátíð": {
+					"et": "slúttaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slúttistu"
+				},
+				"þátíð": {
+					"et": "slúttaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slúttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slúttaður", "slúttaðan", "slúttuðum", "slúttaðs"],
+					"kvk": ["slúttuð", "slúttaða", "slúttaðri", "slúttaðrar"],
+					"hk": ["slúttað", "slúttað", "slúttuðu", "slúttaðs"]
+				},
+				"ft": {
+					"kk": ["slúttaðir", "slúttaða", "slúttuðum", "slúttaðra"],
+					"kvk": ["slúttaðar", "slúttaðar", "slúttuðum", "slúttaðra"],
+					"hk": ["slúttuð", "slúttuð", "slúttuðum", "slúttaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slútta",
+	"hash": "d9ce8680620dca034648eba793844ade2aa02e4d7b53b9a476a45b012c8f759b"
+}
