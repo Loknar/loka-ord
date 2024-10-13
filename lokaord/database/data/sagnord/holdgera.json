@@ -1,0 +1,131 @@
+{
+	"orð": "holdgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hold",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hold-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "holdgera",
+		"sagnbót": "holdgert",
+		"boðháttur": {
+			"stýfður": "holdger",
+			"et": "holdgerðu",
+			"ft": "holdgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["holdgeri", "holdgerir", "holdgerir"],
+					"ft": ["holdgerum", "holdgerið", "holdgera"]
+				},
+				"þátíð": {
+					"et": ["holdgerði", "holdgerðir", "holdgerði"],
+					"ft": ["holdgerðum", "holdgerðuð", "holdgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holdgeri", "holdgerir", "holdgeri"],
+					"ft": ["holdgerum", "holdgerið", "holdgeri"]
+				},
+				"þátíð": {
+					"et": ["holdgerði", "holdgerðir", "holdgerði"],
+					"ft": ["holdgerðum", "holdgerðuð", "holdgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "holdgerirðu",
+					"ft": "holdgeriði"
+				},
+				"þátíð": {
+					"et": "holdgerðirðu",
+					"ft": "holdgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "holdgerirðu",
+					"ft": "holdgeriði"
+				},
+				"þátíð": {
+					"et": "holdgerðirðu",
+					"ft": "holdgerðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "holdgerast",
+		"sagnbót": "holdgerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["holdgerist", "holdgerist", "holdgerist"],
+					"ft": ["holdgerumst", "holdgerist", "holdgerast"]
+				},
+				"þátíð": {
+					"et": ["holdgerðist", "holdgerðist", "holdgerðist"],
+					"ft": ["holdgerðumst", "holdgerðust", "holdgerðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holdgerist", "holdgerist", "holdgerist"],
+					"ft": ["holdgerumst", "holdgerist", "holdgerist"]
+				},
+				"þátíð": {
+					"et": ["holdgerðist", "holdgerðist", "holdgerðist"],
+					"ft": ["holdgerðumst", "holdgerðust", "holdgerðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "holdgeristu"
+				},
+				"þátíð": {
+					"et": "holdgerðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "holdgeristu"
+				},
+				"þátíð": {
+					"et": "holdgerðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "holdgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["holdgerður", "holdgerðan", "holdgerðum", "holdgerðs"],
+					"kvk": ["holdgerð", "holdgerða", "holdgerðri", "holdgerðrar"],
+					"hk": ["holdgert", "holdgert", "holdgerðu", "holdgerðs"]
+				},
+				"ft": {
+					"kk": ["holdgerðir", "holdgerða", "holdgerðum", "holdgerðra"],
+					"kvk": ["holdgerðar", "holdgerðar", "holdgerðum", "holdgerðra"],
+					"hk": ["holdgerð", "holdgerð", "holdgerðum", "holdgerðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-holdgera",
+	"hash": "45d57e1ab832134de4bc20c14e77eda876ad025ce4b7740363fe0296800ceadb"
+}

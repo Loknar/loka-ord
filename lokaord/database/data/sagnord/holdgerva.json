@@ -1,0 +1,64 @@
+{
+	"orð": "holdgerva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hold",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hold-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-gerva-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "holdgervast",
+		"sagnbót": "holdgervst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["holdgervist", "holdgervist", "holdgervist"],
+					"ft": ["holdgervumst", "holdgervist", "holdgervast"]
+				},
+				"þátíð": {
+					"et": ["holdgervðist", "holdgervðist", "holdgervðist"],
+					"ft": ["holdgervðumst", "holdgervðust", "holdgervðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holdgervist", "holdgervist", "holdgervist"],
+					"ft": ["holdgervumst", "holdgervist", "holdgervist"]
+				},
+				"þátíð": {
+					"et": ["holdgervðist", "holdgervðist", "holdgervðist"],
+					"ft": ["holdgervðumst", "holdgervðust", "holdgervðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "holdgervistu"
+				},
+				"þátíð": {
+					"et": "holdgervðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "holdgervistu"
+				},
+				"þátíð": {
+					"et": "holdgervðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "holdgervandi"
+	},
+	"kennistrengur": "so-holdgerva",
+	"hash": "c12a4d7cac81f44ee9b9633edc576fc9ac4ec4d2386cb9e62ebac33144a51e42"
+}

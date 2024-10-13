@@ -1,0 +1,48 @@
+{
+	"orð": "arfavitlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "arfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-arfi-kk"
+		},
+		{
+			"mynd": "vit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vit-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["arfavitlaus", "arfavitlausan", "arfavitlausum", "arfavitlauss"],
+				"kvk": ["arfavitlaus", "arfavitlausa", "arfavitlausri", "arfavitlausrar"],
+				"hk": ["arfavitlaust", "arfavitlaust", "arfavitlausu", "arfavitlauss"]
+			},
+			"ft": {
+				"kk": ["arfavitlausir", "arfavitlausa", "arfavitlausum", "arfavitlausra"],
+				"kvk": ["arfavitlausar", "arfavitlausar", "arfavitlausum", "arfavitlausra"],
+				"hk": ["arfavitlaus", "arfavitlaus", "arfavitlausum", "arfavitlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["arfavitlausi", "arfavitlausa", "arfavitlausa", "arfavitlausa"],
+				"kvk": ["arfavitlausa", "arfavitlausu", "arfavitlausu", "arfavitlausu"],
+				"hk": ["arfavitlausa", "arfavitlausa", "arfavitlausa", "arfavitlausa"]
+			},
+			"ft": {
+				"kk": ["arfavitlausu", "arfavitlausu", "arfavitlausu", "arfavitlausu"],
+				"kvk": ["arfavitlausu", "arfavitlausu", "arfavitlausu", "arfavitlausu"],
+				"hk": ["arfavitlausu", "arfavitlausu", "arfavitlausu", "arfavitlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-arfavitlaus",
+	"hash": "4dc633b0c2061d388de3fda163a9f5c453fd68c9b9898813e02f6b2678dae682"
+}
