@@ -1,0 +1,27 @@
+{
+	"orð": "skildagatíð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"mynd": "daga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tíð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skildagatíð", "skildagatíð", "skildagatíð", "skildagatíðar"],
+		"mg": ["skildagatíðin", "skildagatíðina", "skildagatíðinni", "skildagatíðarinnar"]
+	},
+	"kennistrengur": "no-skildagatíð-kvk",
+	"hash": "bec969ab99adf8c3c070b8234c0de36e26c27a4114eda96712bfa82d40a8ca07"
+}

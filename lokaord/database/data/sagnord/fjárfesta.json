@@ -1,0 +1,73 @@
+{
+	"orð": "fjárfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fjárfesta",
+		"sagnbót": "fjárfest",
+		"boðháttur": {
+			"stýfður": "fjárfest",
+			"et": "fjárfestu",
+			"ft": "fjárfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fjárfesti", "fjárfestir", "fjárfestir"],
+					"ft": ["fjárfestum", "fjárfestið", "fjárfesta"]
+				},
+				"þátíð": {
+					"et": ["fjárfesti", "fjárfestir", "fjárfesti"],
+					"ft": ["fjárfestum", "fjárfestuð", "fjárfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fjárfesti", "fjárfestir", "fjárfesti"],
+					"ft": ["fjárfestum", "fjárfestið", "fjárfesti"]
+				},
+				"þátíð": {
+					"et": ["fjárfesti", "fjárfestir", "fjárfesti"],
+					"ft": ["fjárfestum", "fjárfestuð", "fjárfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fjárfestirðu",
+					"ft": "fjárfestiði"
+				},
+				"þátíð": {
+					"et": "fjárfestirðu",
+					"ft": "fjárfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fjárfestirðu",
+					"ft": "fjárfestiði"
+				},
+				"þátíð": {
+					"et": "fjárfestirðu",
+					"ft": "fjárfestuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fjárfestandi"
+	},
+	"kennistrengur": "so-fjárfesta",
+	"hash": "c9ae09abc672852e54cc9ecda5a6164a8ae5fc2040b27fb649c47a4fb3d8c98b"
+}
