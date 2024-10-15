@@ -1,6 +1,17 @@
 {
 	"orð": "boða",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "boð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "boða",
 		"sagnbót": "boðað",
@@ -84,5 +95,5 @@
 		}
 	},
 	"kennistrengur": "so-boða",
-	"hash": "2fd1817cd81861a719c48ecf2eecc8673bacf0985a58df80617a452164bf0e38"
+	"hash": "303bbb1c30dcca85ae6509b09767ff55a5093a7ba6b1f77937f6144e8a8054e9"
 }

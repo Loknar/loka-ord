@@ -1,0 +1,32 @@
+{
+	"orð": "táknmálsaðgengi",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "tákn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tákn-hk"
+		},
+		{
+			"mynd": "máls",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gengi-hk"
+		}
+	],
+	"et": {
+		"ág": ["táknmálsaðgengi", "táknmálsaðgengi", "táknmálsaðgengi", "táknmálsaðgengis"],
+		"mg": ["táknmálsaðgengið", "táknmálsaðgengið", "táknmálsaðgenginu", "táknmálsaðgengisins"]
+	},
+	"kennistrengur": "no-táknmálsaðgengi-hk",
+	"hash": "b0f18d2d9512cfc6c8b2bffd1371d66993606a71af01b8f2bb1969676f627cc6"
+}
