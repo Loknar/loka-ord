@@ -1,0 +1,154 @@
+{
+	"orð": "vannýta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "van",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-van-ó"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-nýta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vannýta",
+		"sagnbót": "vannýtt",
+		"boðháttur": {
+			"stýfður": "vannýt",
+			"et": "vannýttu",
+			"ft": "vannýtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vannýti", "vannýtir", "vannýtir"],
+					"ft": ["vannýtum", "vannýtið", "vannýta"]
+				},
+				"þátíð": {
+					"et": ["vannýtti", "vannýttir", "vannýtti"],
+					"ft": ["vannýttum", "vannýttuð", "vannýttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vannýti", "vannýtir", "vannýti"],
+					"ft": ["vannýtum", "vannýtið", "vannýti"]
+				},
+				"þátíð": {
+					"et": ["vannýtti", "vannýttir", "vannýtti"],
+					"ft": ["vannýttum", "vannýttuð", "vannýttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vannýtirðu",
+					"ft": "vannýtiði"
+				},
+				"þátíð": {
+					"et": "vannýttirðu",
+					"ft": "vannýttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vannýtirðu",
+					"ft": "vannýtiði"
+				},
+				"þátíð": {
+					"et": "vannýttirðu",
+					"ft": "vannýttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vannýtast",
+		"sagnbót": "vannýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vannýtist", "vannýtist", "vannýtist"],
+					"ft": ["vannýtumst", "vannýtist", "vannýtast"]
+				},
+				"þátíð": {
+					"et": ["vannýttist", "vannýttist", "vannýttist"],
+					"ft": ["vannýttumst", "vannýttust", "vannýttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vannýtist", "vannýtist", "vannýtist"],
+					"ft": ["vannýttumst", "vannýtist", "vannýtist"]
+				},
+				"þátíð": {
+					"et": ["vannýttist", "vannýttist", "vannýttist"],
+					"ft": ["vannýttumst", "vannýttust", "vannýttust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vannýtist", "vannýtist", "vannýtist"],
+					"ft": ["vannýtist", "vannýtist", "vannýtist"]
+				},
+				"þátíð": {
+					"et": ["vannýttist", "vannýttist", "vannýttist"],
+					"ft": ["vannýttist", "vannýttist", "vannýttist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vannýtist", "vannýtist", "vannýtist"],
+					"ft": ["vannýtist", "vannýtist", "vannýtist"]
+				},
+				"þátíð": {
+					"et": ["vannýttist", "vannýttist", "vannýttist"],
+					"ft": ["vannýttist", "vannýttist", "vannýttist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vannýtistu"
+				},
+				"þátíð": {
+					"et": "vannýttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vannýtistu"
+				},
+				"þátíð": {
+					"et": "vannýttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vannýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vannýttur", "vannýttan", "vannýttum", "vannýtts"],
+					"kvk": ["vannýtt", "vannýtta", "vannýttri", "vannýttrar"],
+					"hk": ["vannýttt", "vannýttt", "vannýttu", "vannýtts"]
+				},
+				"ft": {
+					"kk": ["vannýttir", "vannýtta", "vannýttum", "vannýttra"],
+					"kvk": ["vannýttar", "vannýttar", "vannýttum", "vannýttra"],
+					"hk": ["vannýtt", "vannýtt", "vannýttum", "vannýttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vannýta",
+	"hash": "421091bd8bf6e37bc0b1d38c4bbe4a8817fa508f9cf45997cc690e72d71bfe76"
+}
