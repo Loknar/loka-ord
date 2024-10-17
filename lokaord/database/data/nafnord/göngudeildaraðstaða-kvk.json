@@ -1,0 +1,35 @@
+{
+	"orð": "göngudeildaraðstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "göngu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ganga-kvk"
+		},
+		{
+			"mynd": "deildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-deild-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["göngudeildaraðstaða", "göngudeildaraðstöðu", "göngudeildaraðstöðu", "göngudeildaraðstöðu"],
+		"mg": ["göngudeildaraðstaðan", "göngudeildaraðstöðuna", "göngudeildaraðstöðunni", "göngudeildaraðstöðunnar"]
+	},
+	"ft": {
+		"ág": ["göngudeildaraðstöður", "göngudeildaraðstöður", "göngudeildaraðstöðum", "göngudeildaraðstaða"],
+		"mg": ["göngudeildaraðstöðurnar", "göngudeildaraðstöðurnar", "göngudeildaraðstöðunum", "göngudeildaraðstaðanna"]
+	},
+	"kennistrengur": "no-göngudeildaraðstaða-kvk",
+	"hash": "120f845b0b19eff380afcad00005882933ddb75efffa06bedb2db404b30a553c"
+}

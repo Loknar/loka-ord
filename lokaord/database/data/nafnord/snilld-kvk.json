@@ -2,6 +2,16 @@
 	"orð": "snilld",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "snill",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sniłli-kvk"
+		},
+		{
+			"kennistrengur": "no-d-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["snilld", "snilld", "snilld", "snilldar"],
 		"mg": ["snilldin", "snilldina", "snilldinni", "snilldarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["snilldirnar", "snilldirnar", "snilldunum", "snilldanna"]
 	},
 	"kennistrengur": "no-snilld-kvk",
-	"hash": "4d86e9e67effd6b056462df02c7e1aa376b758bd9a517329d0147ae0089c98b1"
+	"hash": "ae23219ace639e7b1324129b20efc4a6b04d816dc585bf79a3387b6ccc36f221"
 }

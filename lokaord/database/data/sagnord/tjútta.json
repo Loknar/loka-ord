@@ -1,0 +1,135 @@
+{
+	"orð": "tjútta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tjútt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tjútt-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tjútta",
+		"sagnbót": "tjúttað",
+		"boðháttur": {
+			"stýfður": "tjútta",
+			"et": "tjúttaðu",
+			"ft": "tjúttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tjútta", "tjúttar", "tjúttar"],
+					"ft": ["tjúttum", "tjúttið", "tjútta"]
+				},
+				"þátíð": {
+					"et": ["tjúttaði", "tjúttaðir", "tjúttaði"],
+					"ft": ["tjúttuðum", "tjúttuðuð", "tjúttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tjútti", "tjúttir", "tjútti"],
+					"ft": ["tjúttum", "tjúttið", "tjútti"]
+				},
+				"þátíð": {
+					"et": ["tjúttaði", "tjúttaðir", "tjúttaði"],
+					"ft": ["tjúttuðum", "tjúttuðuð", "tjúttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tjúttarðu",
+					"ft": "tjúttiði"
+				},
+				"þátíð": {
+					"et": "tjúttaðirðu",
+					"ft": "tjúttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tjúttirðu",
+					"ft": "tjúttiði"
+				},
+				"þátíð": {
+					"et": "tjúttaðirðu",
+					"ft": "tjúttuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tjúttast",
+		"sagnbót": "tjúttast",
+		"boðháttur": {
+			"et": "tjúttastu",
+			"ft": "tjúttist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tjúttast", "tjúttast", "tjúttast"],
+					"ft": ["tjúttumst", "tjúttist", "tjúttast"]
+				},
+				"þátíð": {
+					"et": ["tjúttaðist", "tjúttaðist", "tjúttaðist"],
+					"ft": ["tjúttuðumst", "tjúttuðust", "tjúttuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tjúttist", "tjúttist", "tjúttist"],
+					"ft": ["tjúttumst", "tjúttist", "tjúttist"]
+				},
+				"þátíð": {
+					"et": ["tjúttaðist", "tjúttaðist", "tjúttaðist"],
+					"ft": ["tjúttuðumst", "tjúttuðust", "tjúttuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tjúttastu"
+				},
+				"þátíð": {
+					"et": "tjúttaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tjúttistu"
+				},
+				"þátíð": {
+					"et": "tjúttaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tjúttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tjúttaður", "tjúttaðan", "tjúttuðum", "tjúttaðs"],
+					"kvk": ["tjúttuð", "tjúttaða", "tjúttaðri", "tjúttaðrar"],
+					"hk": ["tjúttað", "tjúttað", "tjúttuðu", "tjúttaðs"]
+				},
+				"ft": {
+					"kk": ["tjúttaðir", "tjúttaða", "tjúttuðum", "tjúttaðra"],
+					"kvk": ["tjúttaðar", "tjúttaðar", "tjúttuðum", "tjúttaðra"],
+					"hk": ["tjúttuð", "tjúttuð", "tjúttuðum", "tjúttaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tjútta",
+	"hash": "9b16f16c645573a3172820b738f393a04f955f89a192a63da28ac15793b72978"
+}

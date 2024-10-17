@@ -1,0 +1,48 @@
+{
+	"orð": "krabbameinssjúkur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "krabba",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-krabbi-kk"
+		},
+		{
+			"mynd": "meins",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mein-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-sjúkur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["krabbameinssjúkur", "krabbameinssjúkan", "krabbameinssjúkum", "krabbameinssjúks"],
+				"kvk": ["krabbameinssjúk", "krabbameinssjúka", "krabbameinssjúkri", "krabbameinssjúkrar"],
+				"hk": ["krabbameinssjúkt", "krabbameinssjúkt", "krabbameinssjúku", "krabbameinssjúks"]
+			},
+			"ft": {
+				"kk": ["krabbameinssjúkir", "krabbameinssjúka", "krabbameinssjúkum", "krabbameinssjúkra"],
+				"kvk": ["krabbameinssjúkar", "krabbameinssjúkar", "krabbameinssjúkum", "krabbameinssjúkra"],
+				"hk": ["krabbameinssjúk", "krabbameinssjúk", "krabbameinssjúkum", "krabbameinssjúkra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["krabbameinssjúki", "krabbameinssjúka", "krabbameinssjúka", "krabbameinssjúka"],
+				"kvk": ["krabbameinssjúka", "krabbameinssjúku", "krabbameinssjúku", "krabbameinssjúku"],
+				"hk": ["krabbameinssjúka", "krabbameinssjúka", "krabbameinssjúka", "krabbameinssjúka"]
+			},
+			"ft": {
+				"kk": ["krabbameinssjúku", "krabbameinssjúku", "krabbameinssjúku", "krabbameinssjúku"],
+				"kvk": ["krabbameinssjúku", "krabbameinssjúku", "krabbameinssjúku", "krabbameinssjúku"],
+				"hk": ["krabbameinssjúku", "krabbameinssjúku", "krabbameinssjúku", "krabbameinssjúku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-krabbameinssjúkur",
+	"hash": "b125c99bc5b8557a549b3a1feca479efe855c5dcfeca94dd361b5585d0b07320"
+}
