@@ -1,0 +1,27 @@
+{
+	"orð": "eiginfjárstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eigin",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-eiginn"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eiginfjárstaða", "eiginfjárstöðu", "eiginfjárstöðu", "eiginfjárstöðu"],
+		"mg": ["eiginfjárstaðan", "eiginfjárstöðuna", "eiginfjárstöðunni", "eiginfjárstöðunnar"]
+	},
+	"kennistrengur": "no-eiginfjárstaða-kvk",
+	"hash": "6486a7e75ef76289521cfd71cfad2c34d29b4f2338797470c4120038c9b28cf8"
+}

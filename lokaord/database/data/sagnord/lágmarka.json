@@ -1,0 +1,131 @@
+{
+	"orð": "lágmarka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-marka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lágmarka",
+		"sagnbót": "lágmarkað",
+		"boðháttur": {
+			"stýfður": "lágmarka",
+			"et": "lágmarkaðu",
+			"ft": "lágmarkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lágmarka", "lágmarkar", "lágmarkar"],
+					"ft": ["lágmörkum", "lágmarkið", "lágmarka"]
+				},
+				"þátíð": {
+					"et": ["lágmarkaði", "lágmarkaðir", "lágmarkaði"],
+					"ft": ["lágmörkuðum", "lágmörkuðuð", "lágmörkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lágmarki", "lágmarkir", "lágmarki"],
+					"ft": ["lágmörkum", "lágmarkið", "lágmarki"]
+				},
+				"þátíð": {
+					"et": ["lágmarkaði", "lágmarkaðir", "lágmarkaði"],
+					"ft": ["lágmörkuðum", "lágmörkuðuð", "lágmörkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lágmarkarðu",
+					"ft": "lágmarkiði"
+				},
+				"þátíð": {
+					"et": "lágmarkaðirðu",
+					"ft": "lágmörkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lágmarkirðu",
+					"ft": "lágmarkiði"
+				},
+				"þátíð": {
+					"et": "lágmarkaðirðu",
+					"ft": "lágmörkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lágmarkast",
+		"sagnbót": "lágmarkast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lágmarkast", "lágmarkast", "lágmarkast"],
+					"ft": ["lágmörkumst", "lágmarkist", "lágmarkast"]
+				},
+				"þátíð": {
+					"et": ["lágmarkaðist", "lágmarkaðist", "lágmarkaðist"],
+					"ft": ["lágmörkuðumst", "lágmörkuðust", "lágmörkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lágmarkist", "lágmarkist", "lágmarkist"],
+					"ft": ["lágmörkumst", "lágmarkist", "lágmarkist"]
+				},
+				"þátíð": {
+					"et": ["lágmarkaðist", "lágmarkaðist", "lágmarkaðist"],
+					"ft": ["lágmörkuðumst", "lágmörkuðust", "lágmörkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lágmarkastu"
+				},
+				"þátíð": {
+					"et": "lágmarkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lágmarkistu"
+				},
+				"þátíð": {
+					"et": "lágmarkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lágmarkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lágmarkaður", "lágmarkaðan", "lágmörkuðum", "lágmarkaðs"],
+					"kvk": ["lágmörkuð", "lágmarkaða", "lágmarkaðri", "lágmarkaðrar"],
+					"hk": ["lágmarkað", "lágmarkað", "lágmörkuðu", "lágmarkaðs"]
+				},
+				"ft": {
+					"kk": ["lágmarkaðir", "lágmarkaða", "lágmörkuðum", "lágmarkaðra"],
+					"kvk": ["lágmarkaðar", "lágmarkaðar", "lágmörkuðum", "lágmarkaðra"],
+					"hk": ["lágmörkuð", "lágmörkuð", "lágmörkuðum", "lágmarkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lágmarka",
+	"hash": "20cedd54bd6113e78694347c020942698a1af19f7c4b6dc1d8cb014676521c35"
+}

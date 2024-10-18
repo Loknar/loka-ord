@@ -1,0 +1,135 @@
+{
+	"orð": "smygla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "smygl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-smygl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "smygla",
+		"sagnbót": "smyglað",
+		"boðháttur": {
+			"stýfður": "smygla",
+			"et": "smyglaðu",
+			"ft": "smyglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["smygla", "smyglar", "smyglar"],
+					"ft": ["smyglum", "smyglið", "smygla"]
+				},
+				"þátíð": {
+					"et": ["smyglaði", "smyglaðir", "smyglaði"],
+					"ft": ["smygluðum", "smygluðuð", "smygluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["smygli", "smyglir", "smygli"],
+					"ft": ["smyglum", "smyglið", "smygli"]
+				},
+				"þátíð": {
+					"et": ["smyglaði", "smyglaðir", "smyglaði"],
+					"ft": ["smygluðum", "smygluðuð", "smygluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "smyglarðu",
+					"ft": "smygliði"
+				},
+				"þátíð": {
+					"et": "smyglaðirðu",
+					"ft": "smygluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "smyglirðu",
+					"ft": "smygliði"
+				},
+				"þátíð": {
+					"et": "smyglaðirðu",
+					"ft": "smygluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "smyglast",
+		"sagnbót": "smyglast",
+		"boðháttur": {
+			"et": "smyglastu",
+			"ft": "smyglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["smyglast", "smyglast", "smyglast"],
+					"ft": ["smyglumst", "smyglist", "smyglast"]
+				},
+				"þátíð": {
+					"et": ["smyglaðist", "smyglaðist", "smyglaðist"],
+					"ft": ["smygluðumst", "smygluðust", "smygluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["smyglist", "smyglist", "smyglist"],
+					"ft": ["smyglumst", "smyglist", "smyglist"]
+				},
+				"þátíð": {
+					"et": ["smyglaðist", "smyglaðist", "smyglaðist"],
+					"ft": ["smygluðumst", "smygluðust", "smygluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "smyglastu"
+				},
+				"þátíð": {
+					"et": "smyglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "smyglistu"
+				},
+				"þátíð": {
+					"et": "smyglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "smyglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["smyglaður", "smyglaðan", "smygluðum", "smyglaðs"],
+					"kvk": ["smygluð", "smyglaða", "smyglaðri", "smyglaðrar"],
+					"hk": ["smyglað", "smyglað", "smygluðu", "smyglaðs"]
+				},
+				"ft": {
+					"kk": ["smyglaðir", "smyglaða", "smygluðum", "smyglaðra"],
+					"kvk": ["smyglaðar", "smyglaðar", "smygluðum", "smyglaðra"],
+					"hk": ["smygluð", "smygluð", "smygluðum", "smyglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-smygla",
+	"hash": "8848d5655cb282570977add8987c009e237a2855c199d904ac9628195d66aaf2"
+}

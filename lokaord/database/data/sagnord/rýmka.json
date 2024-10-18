@@ -1,0 +1,135 @@
+{
+	"orð": "rýmka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rýmk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-rými-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rýmka",
+		"sagnbót": "rýmkað",
+		"boðháttur": {
+			"stýfður": "rýmka",
+			"et": "rýmkaðu",
+			"ft": "rýmkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rýmka", "rýmkar", "rýmkar"],
+					"ft": ["rýmkum", "rýmkið", "rýmka"]
+				},
+				"þátíð": {
+					"et": ["rýmkaði", "rýmkaðir", "rýmkaði"],
+					"ft": ["rýmkuðum", "rýmkuðuð", "rýmkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rýmki", "rýmkir", "rýmki"],
+					"ft": ["rýmkum", "rýmkið", "rýmki"]
+				},
+				"þátíð": {
+					"et": ["rýmkaði", "rýmkaðir", "rýmkaði"],
+					"ft": ["rýmkuðum", "rýmkuðuð", "rýmkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rýmkarðu",
+					"ft": "rýmkiði"
+				},
+				"þátíð": {
+					"et": "rýmkaðirðu",
+					"ft": "rýmkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rýmkirðu",
+					"ft": "rýmkiði"
+				},
+				"þátíð": {
+					"et": "rýmkaðirðu",
+					"ft": "rýmkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rýmkast",
+		"sagnbót": "rýmkast",
+		"boðháttur": {
+			"et": "rýmkastu",
+			"ft": "rýmkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rýmkast", "rýmkast", "rýmkast"],
+					"ft": ["rýmkumst", "rýmkist", "rýmkast"]
+				},
+				"þátíð": {
+					"et": ["rýmkaðist", "rýmkaðist", "rýmkaðist"],
+					"ft": ["rýmkuðumst", "rýmkuðust", "rýmkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rýmkist", "rýmkist", "rýmkist"],
+					"ft": ["rýmkumst", "rýmkist", "rýmkist"]
+				},
+				"þátíð": {
+					"et": ["rýmkaðist", "rýmkaðist", "rýmkaðist"],
+					"ft": ["rýmkuðumst", "rýmkuðust", "rýmkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rýmkastu"
+				},
+				"þátíð": {
+					"et": "rýmkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rýmkistu"
+				},
+				"þátíð": {
+					"et": "rýmkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rýmkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rýmkaður", "rýmkaðan", "rýmkuðum", "rýmkaðs"],
+					"kvk": ["rýmkuð", "rýmkaða", "rýmkaðri", "rýmkaðrar"],
+					"hk": ["rýmkað", "rýmkað", "rýmkuðu", "rýmkaðs"]
+				},
+				"ft": {
+					"kk": ["rýmkaðir", "rýmkaða", "rýmkuðum", "rýmkaðra"],
+					"kvk": ["rýmkaðar", "rýmkaðar", "rýmkuðum", "rýmkaðra"],
+					"hk": ["rýmkuð", "rýmkuð", "rýmkuðum", "rýmkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rýmka",
+	"hash": "a0235408df11e02409ecd29dbf672e576c875abd32b3589e2b1ae70ebd95dd33"
+}
