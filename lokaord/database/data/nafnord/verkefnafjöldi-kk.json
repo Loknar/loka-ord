@@ -1,0 +1,27 @@
+{
+	"orð": "verkefnafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["verkefnafjöldi", "verkefnafjölda", "verkefnafjölda", "verkefnafjölda"],
+		"mg": ["verkefnafjöldinn", "verkefnafjöldann", "verkefnafjöldanum", "verkefnafjöldans"]
+	},
+	"kennistrengur": "no-verkefnafjöldi-kk",
+	"hash": "527e9f7ee4e88b47619326a30fc13fc5e2507dbdd747da2cc272b0a5dd802bc1"
+}

@@ -2,10 +2,22 @@
 	"orð": "hæfni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hæf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hæfur"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hæfni", "hæfni", "hæfni", "hæfni"],
 		"mg": ["hæfnin", "hæfnina", "hæfninni", "hæfninnar"]
 	},
 	"kennistrengur": "no-hæfni-kvk",
-	"hash": "08b55df6587cc2035c3fef0ecc6500b56d9cd2e864688197a5fd940310aca7ef"
+	"hash": "7b28534530410a85128ab2cf072479ddccd977cf5958e46b4ef3381d0a8eed63"
 }
