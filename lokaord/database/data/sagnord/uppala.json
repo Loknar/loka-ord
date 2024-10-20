@@ -1,0 +1,135 @@
+{
+	"orð": "uppala",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ala"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "uppala",
+		"sagnbót": "uppalið",
+		"boðháttur": {
+			"stýfður": "uppal",
+			"et": "uppaldu",
+			"ft": "uppalið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppel", "uppelur", "uppelur"],
+					"ft": ["uppölum", "uppalið", "uppala"]
+				},
+				"þátíð": {
+					"et": ["uppaldi", "uppaldir", "uppaldi"],
+					"ft": ["uppöldum", "uppölduð", "uppöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppali", "uppalir", "uppali"],
+					"ft": ["uppölum", "uppalið", "uppali"]
+				},
+				"þátíð": {
+					"et": ["uppæli", "uppælir", "uppæli"],
+					"ft": ["uppælum", "uppæluð", "uppælu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppelurðu",
+					"ft": "uppaliði"
+				},
+				"þátíð": {
+					"et": "uppólstu",
+					"ft": "uppóluði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppalirðu",
+					"ft": "uppaliði"
+				},
+				"þátíð": {
+					"et": "uppælirðu",
+					"ft": "uppæluði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "uppalast",
+		"sagnbót": "uppalist",
+		"boðháttur": {
+			"et": "uppelstu",
+			"ft": "uppalist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppelst", "uppelst", "uppelst"],
+					"ft": ["uppölumst", "uppalist", "uppalast"]
+				},
+				"þátíð": {
+					"et": ["uppólst", "uppólst", "uppólst"],
+					"ft": ["uppólumst", "uppólust", "uppólust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppalist", "uppalist", "uppalist"],
+					"ft": ["uppölumst", "uppalist", "uppalist"]
+				},
+				"þátíð": {
+					"et": ["uppælist", "uppælist", "uppælist"],
+					"ft": ["uppælumst", "uppælust", "uppælust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppelstu"
+				},
+				"þátíð": {
+					"et": "uppólstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppalistu"
+				},
+				"þátíð": {
+					"et": "uppælistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "uppalandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["uppalinn", "uppalinn", "uppöldum", "uppalins"],
+					"kvk": ["uppalin", "uppalda", "uppalinni", "uppalinnar"],
+					"hk": ["uppalið", "uppalið", "uppöldu", "uppalins"]
+				},
+				"ft": {
+					"kk": ["uppaldir", "uppalda", "uppöldum", "uppalinna"],
+					"kvk": ["uppaldar", "uppaldar", "uppöldum", "uppalinna"],
+					"hk": ["uppalin", "uppalin", "uppöldum", "uppalinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-uppala",
+	"hash": "a5a06595d5ae2c6e4ac6822dbf4a2cc1f95f8be45201dc5d768a6ed22dd45f9e"
+}

@@ -1,0 +1,61 @@
+{
+	"orð": "skakklappast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skakk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skakkur"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-lappa"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "skakklappast",
+		"sagnbót": "skakklappast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skakklappast", "skakklappast", "skakklappast"],
+					"ft": ["skakklappumst", "skakklappist", "skakklappast"]
+				},
+				"þátíð": {
+					"et": ["skakklappaðist", "skakklappaðist", "skakklappaðist"],
+					"ft": ["skakklöppuðumst", "skakklöppuðust", "skakklöppuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skakklappist", "skakklappist", "skakklappist"],
+					"ft": ["skakklöppumst", "skakklappist", "skakklappist"]
+				},
+				"þátíð": {
+					"et": ["skakklappaðist", "skakklappaðist", "skakklappaðist"],
+					"ft": ["skakklöppuðumst", "skakklöppuðust", "skakklöppuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skakklappastu"
+				},
+				"þátíð": {
+					"et": "skakklappaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skakklappistu"
+				},
+				"þátíð": {
+					"et": "skakklappaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skakklappast",
+	"hash": "3fd0a539fbb2b552d04bdc86313da8f9a4909629cfbf4335e5551d69bedff1d3"
+}

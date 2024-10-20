@@ -1,0 +1,32 @@
+{
+	"orð": "kosningafyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kosninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kosning-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["kosningafyrirkomulag", "kosningafyrirkomulag", "kosningafyrirkomulagi", "kosningafyrirkomulags"],
+		"mg": ["kosningafyrirkomulagið", "kosningafyrirkomulagið", "kosningafyrirkomulaginu", "kosningafyrirkomulagsins"]
+	},
+	"kennistrengur": "no-kosningafyrirkomulag-hk",
+	"hash": "666f9ff12aeb14b3418237e075601ff3f2e6d61bb2fba859a081af40bb2cd15c"
+}
