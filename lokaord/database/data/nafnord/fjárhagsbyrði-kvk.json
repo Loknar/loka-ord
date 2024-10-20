@@ -1,0 +1,27 @@
+{
+	"orð": "fjárhagsbyrði",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-byrði-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsbyrði", "fjárhagsbyrði", "fjárhagsbyrði", "fjárhagsbyrðar"],
+		"mg": ["fjárhagsbyrðin", "fjárhagsbyrðina", "fjárhagsbyrðinni", "fjárhagsbyrðarinnar"]
+	},
+	"kennistrengur": "no-fjárhagsbyrði-kvk",
+	"hash": "94c435b53b6411600c11af63d172e272f06c28a41d8f8232c0f434357947ddee"
+}
