@@ -1,0 +1,27 @@
+{
+	"orð": "fjármálastjórn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stjórn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármálastjórn", "fjármálastjórn", "fjármálastjórn", "fjármálastjórnar"],
+		"mg": ["fjármálastjórnin", "fjármálastjórnina", "fjármálastjórninni", "fjármálastjórnarinnar"]
+	},
+	"kennistrengur": "no-fjármálastjórn-kvk",
+	"hash": "c81a71461694092e3284a90a7a935de5966b05cc2a778c310b4e335a7bdb2dca"
+}

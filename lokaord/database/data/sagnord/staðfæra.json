@@ -1,0 +1,87 @@
+{
+	"orð": "staðfæra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-færa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "staðfæra",
+		"sagnbót": "staðfært",
+		"boðháttur": {
+			"stýfður": "staðfær",
+			"et": "staðfærðu",
+			"ft": "staðfærið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staðfæri", "staðfærir", "staðfærir"],
+					"ft": ["staðfærum", "staðfærið", "staðfæra"]
+				},
+				"þátíð": {
+					"et": ["staðfærði", "staðfærðir", "staðfærði"],
+					"ft": ["staðfærðum", "staðfærðuð", "staðfærðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staðfæri", "staðfærir", "staðfæri"],
+					"ft": ["staðfærum", "staðfærið", "staðfæri"]
+				},
+				"þátíð": {
+					"et": ["staðfærði", "staðfærðir", "staðfærði"],
+					"ft": ["staðfærðum", "staðfærðuð", "staðfærðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staðfærirðu",
+					"ft": "staðfæriði"
+				},
+				"þátíð": {
+					"et": "staðfærðirðu",
+					"ft": "staðfærðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staðfærirðu",
+					"ft": "staðfæriði"
+				},
+				"þátíð": {
+					"et": "staðfærðirðu",
+					"ft": "staðfærðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "staðfærandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["staðfærður", "staðfærðan", "staðfærðum", "staðfærðs"],
+					"kvk": ["staðfærð", "staðfærða", "staðfærðri", "staðfærðrar"],
+					"hk": ["staðfært", "staðfært", "staðfærðu", "staðfærðs"]
+				},
+				"ft": {
+					"kk": ["staðfærðir", "staðfærða", "staðfærðum", "staðfærðra"],
+					"kvk": ["staðfærðar", "staðfærðar", "staðfærðum", "staðfærðra"],
+					"hk": ["staðfærð", "staðfærð", "staðfærðum", "staðfærðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-staðfæra",
+	"hash": "1d5fc57e4cd65357c1240463d5e087d9c2a00533e839d33215814feb4d853128"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "ríkisútgjöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["ríkisútgjöld", "ríkisútgjöld", "ríkisútgjöldum", "ríkisútgjalda"],
+		"mg": ["ríkisútgjöldin", "ríkisútgjöldin", "ríkisútgjöldunum", "ríkisútgjaldanna"]
+	},
+	"kennistrengur": "no-ríkisútgjöld-hk",
+	"hash": "747b8e65bb622e8e0f33402cee425677f91a3481083c89e34651797529127154"
+}

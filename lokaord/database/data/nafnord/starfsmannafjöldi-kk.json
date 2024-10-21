@@ -1,0 +1,27 @@
+{
+	"orð": "starfsmannafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["starfsmannafjöldi", "starfsmannafjölda", "starfsmannafjölda", "starfsmannafjölda"],
+		"mg": ["starfsmannafjöldinn", "starfsmannafjöldann", "starfsmannafjöldanum", "starfsmannafjöldans"]
+	},
+	"kennistrengur": "no-starfsmannafjöldi-kk",
+	"hash": "3782e9a4c37fdf53e6243282e7280740cc715286a1c83586c46bb3199b6f6e53"
+}
