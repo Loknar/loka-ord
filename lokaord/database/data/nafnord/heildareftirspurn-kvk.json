@@ -1,0 +1,27 @@
+{
+	"orð": "heildareftirspurn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-spurn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildareftirspurn", "heildareftirspurn", "heildareftirspurn", "heildareftirspurnar"],
+		"mg": ["heildareftirspurnin", "heildareftirspurnina", "heildareftirspurninni", "heildareftirspurnarinnar"]
+	},
+	"kennistrengur": "no-heildareftirspurn-kvk",
+	"hash": "d23e10adacccf7d36029c70c1ece2c321ae35921240fc4f4ce1bb4e9b1649425"
+}

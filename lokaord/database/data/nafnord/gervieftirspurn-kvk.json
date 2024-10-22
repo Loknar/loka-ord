@@ -1,0 +1,27 @@
+{
+	"orð": "gervieftirspurn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gervi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gervi-hk"
+		},
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-spurn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gervieftirspurn", "gervieftirspurn", "gervieftirspurn", "gervieftirspurnar"],
+		"mg": ["gervieftirspurnin", "gervieftirspurnina", "gervieftirspurninni", "gervieftirspurnarinnar"]
+	},
+	"kennistrengur": "no-gervieftirspurn-kvk",
+	"hash": "ac7e61263987fc32f9fbe3188d40ff1bacd6060eca965fb72b33b7a44f504569"
+}

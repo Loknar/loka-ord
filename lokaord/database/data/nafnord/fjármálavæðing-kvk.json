@@ -1,0 +1,27 @@
+{
+	"orð": "fjármálavæðing",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-væðing-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármálavæðing", "fjármálavæðingu", "fjármálavæðingu", "fjármálavæðingar"],
+		"mg": ["fjármálavæðingin", "fjármálavæðinguna", "fjármálavæðingunni", "fjármálavæðingarinnar"]
+	},
+	"kennistrengur": "no-fjármálavæðing-kvk",
+	"hash": "119c95ee751fac4422f8e74afd5c768b7b40a77f8bcd38c12ec473c9d51bc41c"
+}
