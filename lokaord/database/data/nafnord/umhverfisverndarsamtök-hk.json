@@ -1,0 +1,32 @@
+{
+	"orð": "umhverfisverndarsamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "umhverfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-umhverfi-hk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["umhverfisverndarsamtök", "umhverfisverndarsamtök", "umhverfisverndarsamtökum", "umhverfisverndarsamtaka"],
+		"mg": ["umhverfisverndarsamtökin", "umhverfisverndarsamtökin", "umhverfisverndarsamtökunum", "umhverfisverndarsamtakanna"]
+	},
+	"kennistrengur": "no-umhverfisverndarsamtök-hk",
+	"hash": "486c9fbe8bb28b66a179ad49fb4934fa87267c04ae44cb93490b311473438304"
+}

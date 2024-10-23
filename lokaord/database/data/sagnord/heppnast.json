@@ -1,0 +1,82 @@
+{
+	"orð": "heppnast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hepp",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heppinn"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["miðmynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "heppnast",
+		"sagnbót": "heppnast",
+		"boðháttur": {
+			"et": "heppnastu",
+			"ft": "heppnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heppnast", "heppnast", "heppnast"],
+					"ft": ["heppnumst", "heppnist", "heppnast"]
+				},
+				"þátíð": {
+					"et": ["heppnaðist", "heppnaðist", "heppnaðist"],
+					"ft": ["heppnuðumst", "heppnuðust", "heppnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heppnist", "heppnist", "heppnist"],
+					"ft": ["heppnumst", "heppnist", "heppnist"]
+				},
+				"þátíð": {
+					"et": ["heppnaðist", "heppnaðist", "heppnaðist"],
+					"ft": ["heppnuðumst", "heppnuðust", "heppnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heppnastu"
+				},
+				"þátíð": {
+					"et": "heppnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heppnistu"
+				},
+				"þátíð": {
+					"et": "heppnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heppnaður", "heppnaðan", "heppnuðum", "heppnaðs"],
+					"kvk": ["heppnuð", "heppnaða", "heppnaðri", "heppnaðrar"],
+					"hk": ["heppnað", "heppnað", "heppnuðu", "heppnaðs"]
+				},
+				"ft": {
+					"kk": ["heppnaðir", "heppnaða", "heppnuðum", "heppnaðra"],
+					"kvk": ["heppnaðar", "heppnaðar", "heppnuðum", "heppnaðra"],
+					"hk": ["heppnuð", "heppnuð", "heppnuðum", "heppnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heppnast",
+	"hash": "e7202162af566abef34ad18892915bd72e1c5bca626adfc3c0a9e67622fdf1a2"
+}

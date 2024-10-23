@@ -1,0 +1,32 @@
+{
+	"orð": "lífeyristökualdur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aldur-kk"
+		}
+	],
+	"et": {
+		"ág": ["lífeyristökualdur", "lífeyristökualdur", "lífeyristökualdri", "lífeyristökualdurs"],
+		"mg": ["lífeyristökualdurinn", "lífeyristökualdurinn", "lífeyristökualdrinum", "lífeyristökualdursins"]
+	},
+	"kennistrengur": "no-lífeyristökualdur-kk",
+	"hash": "76f2573601dac20a0d1799523c5df69e0e42808d53a6cf5fdfb959b120b334f4"
+}

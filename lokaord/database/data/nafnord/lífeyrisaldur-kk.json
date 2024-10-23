@@ -1,0 +1,27 @@
+{
+	"orð": "lífeyrisaldur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aldur-kk"
+		}
+	],
+	"et": {
+		"ág": ["lífeyrisaldur", "lífeyrisaldur", "lífeyrisaldri", "lífeyrisaldurs"],
+		"mg": ["lífeyrisaldurinn", "lífeyrisaldurinn", "lífeyrisaldrinum", "lífeyrisaldursins"]
+	},
+	"kennistrengur": "no-lífeyrisaldur-kk",
+	"hash": "5217353d4ac3369d45a40559bd22665e9681bcbf5db76d263623e8b39b561f3b"
+}

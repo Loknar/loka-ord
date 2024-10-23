@@ -1,0 +1,27 @@
+{
+	"orð": "félagssamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["félagssamtök", "félagssamtök", "félagssamtökum", "félagssamtaka"],
+		"mg": ["félagssamtökin", "félagssamtökin", "félagssamtökunum", "félagssamtakanna"]
+	},
+	"kennistrengur": "no-félagssamtök-hk",
+	"hash": "f067e67e45bf7a588d08af21b61ec4856b2be595592ff8ba110024bdc0db1585"
+}

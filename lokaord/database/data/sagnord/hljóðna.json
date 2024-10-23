@@ -1,0 +1,88 @@
+{
+	"orð": "hljóðna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hljóð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hljóð-hk"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hljóðna",
+		"sagnbót": "hljóðnað",
+		"boðháttur": {
+			"stýfður": "hljóðna",
+			"et": "hljóðnaðu",
+			"ft": "hljóðnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hljóðna", "hljóðnar", "hljóðnar"],
+					"ft": ["hljóðnum", "hljóðnið", "hljóðna"]
+				},
+				"þátíð": {
+					"et": ["hljóðnaði", "hljóðnaðir", "hljóðnaði"],
+					"ft": ["hljóðnuðum", "hljóðnuðuð", "hljóðnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hljóðni", "hljóðnir", "hljóðni"],
+					"ft": ["hljóðnum", "hljóðnið", "hljóðni"]
+				},
+				"þátíð": {
+					"et": ["hljóðnaði", "hljóðnaðir", "hljóðnaði"],
+					"ft": ["hljóðnuðum", "hljóðnuðuð", "hljóðnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hljóðnarðu",
+					"ft": "hljóðniði"
+				},
+				"þátíð": {
+					"et": "hljóðnaðirðu",
+					"ft": "hljóðnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hljóðnirðu",
+					"ft": "hljóðniði"
+				},
+				"þátíð": {
+					"et": "hljóðnaðirðu",
+					"ft": "hljóðnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hljóðnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hljóðnaður", "hljóðnaðan", "hljóðnuðum", "hljóðnaðs"],
+					"kvk": ["hljóðnuð", "hljóðnaða", "hljóðnaðri", "hljóðnaðrar"],
+					"hk": ["hljóðnað", "hljóðnað", "hljóðnuðu", "hljóðnaðs"]
+				},
+				"ft": {
+					"kk": ["hljóðnaðir", "hljóðnaða", "hljóðnuðum", "hljóðnaðra"],
+					"kvk": ["hljóðnaðar", "hljóðnaðar", "hljóðnuðum", "hljóðnaðra"],
+					"hk": ["hljóðnuð", "hljóðnuð", "hljóðnuðum", "hljóðnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hljóðna",
+	"hash": "f0dfb0b483c96bda7efbc5408f6822c6f10b20636ad73e30a22227e918e6c5c1"
+}
