@@ -323,13 +323,14 @@ def load_sight(filename='sight', use_pointless=None):
 		use_pointless = (platform.system() == 'Linux')
 	if use_pointless is True and platform.system() != 'Linux':
 		logman.warning('Using pointless only available on Linux.')
-	assert('/' not in filename)
-	assert('.' not in filename)
+	if '/' in filename or '.' in filename:
+		raise Exception('Illegal filename.')
 	root_storage_dir_abs = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
 	sight_storage_dir_rel = os.path.join('database', 'disk', 'lokaord')
 	sight_filepath_rel = os.path.join(sight_storage_dir_rel, '%s.%s' % (
 		filename, 'pointless' if use_pointless is True else 'pickle'
 	))
+	logman.info('Loading sight file "%s" ..' % (sight_filepath_rel, ))
 	sight_filepath_abs = os.path.join(root_storage_dir_abs, sight_filepath_rel)
 	if not os.path.isfile(sight_filepath_abs):
 		logman.error('No file "%s", try building sight.' % (sight_filepath_rel, ))
@@ -341,7 +342,8 @@ def load_sight(filename='sight', use_pointless=None):
 	else:
 		with open(sight_filepath_abs, 'rb') as file:
 			sight = pickle.load(file)
-	assert(sight is not None)
+	if sight is None:
+		raise Exception('No filename?')
 	logman.info('Loaded sight file "%s", ts: %s, v: %s' % (
 		sight_filepath_rel, sight['ts'], sight['v']
 	))
@@ -811,6 +813,7 @@ def webpack(
 
 def clean_string(mystr: str) -> str:
 	cleaned_str = mystr
+	cleaned_str = cleaned_str.replace('\n', ' ')
 	remove_chars = [
 		'\xad',  # stundum notað til að tilgreina skiptingu orða á vefsíðum
 	]

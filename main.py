@@ -7,7 +7,7 @@ from typing import Annotated
 from typing import Optional
 
 import typer
-from typer import Option
+from typer import Argument, Option
 
 import lokaord
 from lokaord import logman
@@ -110,21 +110,30 @@ def search(word: str):
 
 @app.command(help='Search for words in a sentence in sight file.')
 def scan_sentence(
-	sentence: str,
-	hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False
+	sentence: Annotated[Optional[str], Argument()] = None,
+	hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False,
+	input_file: Annotated[Optional[Path], Option('--input-file', '-i')] = None
 ):
 	if sentence == '':
 		raise typer.BadParameter('Sentence can\'t be empty string.')
+	if sentence is None and input_file is not None:
+		if not input_file.is_file():
+			raise typer.BadParameter('--input-file must point to a file.')
+		with input_file.open() as infile:
+			sentence = infile.read()
+	if sentence is None and input_file is None:
+		raise typer.BadParameter('Either SENTENCE or --input-file PATH must be provided.')
 	lokaord.scan_sentence(sentence, hide_matches)
 	lokaord.get_runtime()
 
 
 @app.command(help='Short for the "scan-sentence" command.')
 def ss(
-	sentence: str,
-	hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False
+	sentence: Annotated[Optional[str], Argument()] = None,
+	hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False,
+	input_file: Annotated[Optional[Path], Option('--input-file', '-i')] = None
 ):
-	scan_sentence(sentence, hide_matches)
+	scan_sentence(sentence, hide_matches, input_file)
 
 
 @app.command(help='Print database word count data in JSON string.')
@@ -172,7 +181,7 @@ def update(
 @app.command(help='Add word CLI.')
 def add_word():
 	lokaord.logman.error('todo: fix this command')
-	raise typer.Exit()
+	raise typer.Exit(code=1)
 	lokaord.add_word()
 
 

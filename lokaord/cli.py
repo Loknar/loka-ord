@@ -16,8 +16,7 @@ from lokaord.version import __version__
 # from lokaord.importer import add_word, lookup_nafnord, lookup_lysingarord, lookup_sagnord
 
 
-def add_word_cli():
-	header = '''lokaorð (%s)
+Header = """lokaorð (%s)
     \033[33m___       __    __                           __   ________    ____
    /   | ____/ /___/ /  _      ______  _________/ /  / ____/ /   /  _/
   / /| |/ __  / __  /  | | /| / / __ \\/ ___/ __  /  / /   / /    / /
@@ -30,7 +29,11 @@ def add_word_cli():
       3) Sagnorð      (dæmi: "gefa", "hjálpa", "kenna")
 
     (Einungis stuðningur fyrir ofangreinda orðflokka eins og er.)
-    ''' % (__version__, )
+"""
+
+
+def add_word_cli():
+	header = Header % (__version__, )  # noqa: E101
 	print(header)
 	ordflokkur = None
 	while ordflokkur not in ('1', '2', '3'):
