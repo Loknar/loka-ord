@@ -1,0 +1,121 @@
+{
+	"orð": "eðla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eðl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-eðli-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eðla",
+		"sagnbót": "eðlað",
+		"boðháttur": {
+			"stýfður": "eðla",
+			"et": "eðlaðu",
+			"ft": "eðlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eðla", "eðlar", "eðlar"],
+					"ft": ["eðlum", "eðlið", "eðla"]
+				},
+				"þátíð": {
+					"et": ["eðlaði", "eðlaðir", "eðlaði"],
+					"ft": ["eðluðum", "eðluðuð", "eðluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eðli", "eðlir", "eðli"],
+					"ft": ["eðlum", "eðlið", "eðli"]
+				},
+				"þátíð": {
+					"et": ["eðlaði", "eðlaðir", "eðlaði"],
+					"ft": ["eðluðum", "eðluðuð", "eðluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eðlarðu",
+					"ft": "eðliði"
+				},
+				"þátíð": {
+					"et": "eðlaðirðu",
+					"ft": "eðluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eðlirðu",
+					"ft": "eðliði"
+				},
+				"þátíð": {
+					"et": "eðlaðirðu",
+					"ft": "eðluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "eðlast",
+		"sagnbót": "eðlast",
+		"boðháttur": {
+			"et": "eðlastu",
+			"ft": "eðlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eðlast", "eðlast", "eðlast"],
+					"ft": ["eðlumst", "eðlist", "eðlast"]
+				},
+				"þátíð": {
+					"et": ["eðlaðist", "eðlaðist", "eðlaðist"],
+					"ft": ["eðluðumst", "eðluðust", "eðluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eðlist", "eðlist", "eðlist"],
+					"ft": ["eðlumst", "eðlist", "eðlist"]
+				},
+				"þátíð": {
+					"et": ["eðlaðist", "eðlaðist", "eðlaðist"],
+					"ft": ["eðluðumst", "eðluðust", "eðluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eðlastu"
+				},
+				"þátíð": {
+					"et": "eðlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eðlistu"
+				},
+				"þátíð": {
+					"et": "eðlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eðlandi"
+	},
+	"kennistrengur": "so-eðla",
+	"hash": "df1e35f91335864126ce7a29d7f6100f75518ed90a31f2f0df648c4c29f4a815"
+}

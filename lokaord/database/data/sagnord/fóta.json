@@ -1,0 +1,73 @@
+{
+	"orð": "fóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fót",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fótur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fóta",
+		"sagnbót": "fótað",
+		"boðháttur": {
+			"stýfður": "fóta",
+			"et": "fótaðu",
+			"ft": "fótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fóta", "fótar", "fótar"],
+					"ft": ["fótum", "fótið", "fóta"]
+				},
+				"þátíð": {
+					"et": ["fótaði", "fótaðir", "fótaði"],
+					"ft": ["fótuðum", "fótuðuð", "fótuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fóti", "fótir", "fóti"],
+					"ft": ["fótum", "fótið", "fóti"]
+				},
+				"þátíð": {
+					"et": ["fótaði", "fótaðir", "fótaði"],
+					"ft": ["fótuðum", "fótuðuð", "fótuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fótarðu",
+					"ft": "fótiði"
+				},
+				"þátíð": {
+					"et": "fótaðirðu",
+					"ft": "fótuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fótirðu",
+					"ft": "fótiði"
+				},
+				"þátíð": {
+					"et": "fótaðirðu",
+					"ft": "fótuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fótandi"
+	},
+	"kennistrengur": "so-fóta",
+	"hash": "166d4c2821fcfa7c7da472e4a4850a7ec3f4c382ead9c1c02c204f7bdd8aef72"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "fjárfestingarátak",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "festingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjárfestingarátak", "fjárfestingarátak", "fjárfestingarátaki", "fjárfestingarátaks"],
+		"mg": ["fjárfestingarátakið", "fjárfestingarátakið", "fjárfestingarátakinu", "fjárfestingarátaksins"]
+	},
+	"kennistrengur": "no-fjárfestingarátak-hk",
+	"hash": "d112e83df72da18e8a19653eff21c4b138558fdcb023453f7f615b17c43e4acc"
+}

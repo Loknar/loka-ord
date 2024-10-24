@@ -2,6 +2,16 @@
 	"orð": "kerling",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kerl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kerla-kvk"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kerling", "kerlingu", "kerlingu", "kerlingar"],
 		"mg": ["kerlingin", "kerlinguna", "kerlingunni", "kerlingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["kerlingarnar", "kerlingarnar", "kerlingunum", "kerlinganna"]
 	},
 	"kennistrengur": "no-kerling-kvk",
-	"hash": "3b9f27bbd7b6e87ddb26a655146e3f0c7a2bf82e5d581184c7343817ff52fca4"
+	"hash": "2e093815465a87b4853703eff7adf15f28fd138c33daf6dfe6ebca685743083a"
 }

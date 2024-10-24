@@ -6,26 +6,26 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1154 | 1142 | 938 | 3234 | 3546 | 4311 | 3676 | 11533 | **14767** |
-| **Lýsingarorð** | 152 |   |   |   | 511 |   |   |   | 1747 | **2258** |
-| **Sagnorð**     |   |   |   |   | 979 |   |   |   | 609 | **1588** |
+| **Nafnorð**     |   | 1154 | 1147 | 938 | 3239 | 3567 | 4350 | 3692 | 11609 | **14848** |
+| **Lýsingarorð** | 152 |   |   |   | 512 |   |   |   | 1761 | **2273** |
+| **Sagnorð**     |   |   |   |   | 980 |   |   |   | 613 | **1593** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 43 |   |   |   | 8 | **51** |
-| **Smáorð**      |   |   |   |   | 299 |   |   |   | 280 | **579** |
-| **Alls** |   |   |   |   | **5136** |   |   |   | **14187** | **19323** |
+| **Smáorð**      |   |   |   |   | 299 |   |   |   | 282 | **581** |
+| **Alls** |   |   |   |   | **5143** |   |   |   | **14283** | **19426** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1264 | 1245 | 12 | 2521 | 954 | 1238 | 7 | 2199 | **4720** |
 | Kenninöfn |  |  |  |  | 4598 | 4596 | 4571 | 13765 | **13765** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **246** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **247** |
 | Gælunöfn  | 77 | 47 |  | 124 | 42 | 23 | 2 | 67 | **191** |
-| Örnefni   | 14 | 43 | 37 | 94 | 458 | 371 | 347 | 1176 | **1270** |
-| **Alls**  |   |   |   | **2934** |   |   |   | **17258** | **20192** |
+| Örnefni   | 14 | 43 | 37 | 94 | 461 | 371 | 348 | 1180 | **1274** |
+| **Alls**  |   |   |   | **2935** |   |   |   | **17262** | **20197** |
 
-**Samtals:** 39515 orð.
+**Samtals:** 39623 orð.
 
-239 skammstafanir.
+240 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -155,7 +155,11 @@ eða fyrir heilu setningarnar:
 python main.py scan-sentence "Hér er haugur orða í hóflega langri setningu."
 ```
 
-einnig er stytt nafn `ss` fyrir þessa skipun, þ.e. `python main.py ss "Hér er setning."`.
+einnig er stytt nafn `ss` fyrir þessa skipun, þ.e. `python main.py ss "Hér er setning."`. Síðan er einnig hægt að láta lesa texta úr textaskrá:
+
+```bash
+python main.py ss -i input.txt
+```
 
 ### Þægilegri keyrsluskipun
 

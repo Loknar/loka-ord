@@ -1,0 +1,48 @@
+{
+	"orð": "kvikmyndatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kvik",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kvikur"
+		},
+		{
+			"mynd": "mynda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kvikmyndatengdur", "kvikmyndatengdan", "kvikmyndatengdum", "kvikmyndatengds"],
+				"kvk": ["kvikmyndatengd", "kvikmyndatengda", "kvikmyndatengdri", "kvikmyndatengdrar"],
+				"hk": ["kvikmyndatengt", "kvikmyndatengt", "kvikmyndatengdu", "kvikmyndatengds"]
+			},
+			"ft": {
+				"kk": ["kvikmyndatengdir", "kvikmyndatengda", "kvikmyndatengdum", "kvikmyndatengdra"],
+				"kvk": ["kvikmyndatengdar", "kvikmyndatengdar", "kvikmyndatengdum", "kvikmyndatengdra"],
+				"hk": ["kvikmyndatengd", "kvikmyndatengd", "kvikmyndatengdum", "kvikmyndatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kvikmyndatengdi", "kvikmyndatengda", "kvikmyndatengda", "kvikmyndatengda"],
+				"kvk": ["kvikmyndatengda", "kvikmyndatengdu", "kvikmyndatengdu", "kvikmyndatengdu"],
+				"hk": ["kvikmyndatengda", "kvikmyndatengda", "kvikmyndatengda", "kvikmyndatengda"]
+			},
+			"ft": {
+				"kk": ["kvikmyndatengdu", "kvikmyndatengdu", "kvikmyndatengdu", "kvikmyndatengdu"],
+				"kvk": ["kvikmyndatengdu", "kvikmyndatengdu", "kvikmyndatengdu", "kvikmyndatengdu"],
+				"hk": ["kvikmyndatengdu", "kvikmyndatengdu", "kvikmyndatengdu", "kvikmyndatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kvikmyndatengdur",
+	"hash": "d4729f04c595ebf87ca38a1a3a83b6c2d1a8b06a5c2cd096a027b0635c950025"
+}

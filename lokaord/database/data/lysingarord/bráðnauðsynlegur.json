@@ -1,0 +1,53 @@
+{
+	"orð": "bráðnauðsynlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bráð-kvk"
+		},
+		{
+			"mynd": "nauð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nauð-kvk"
+		},
+		{
+			"mynd": "syn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-syn-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bráðnauðsynlegur", "bráðnauðsynlegan", "bráðnauðsynlegum", "bráðnauðsynlegs"],
+				"kvk": ["bráðnauðsynleg", "bráðnauðsynlega", "bráðnauðsynlegri", "bráðnauðsynlegrar"],
+				"hk": ["bráðnauðsynlegt", "bráðnauðsynlegt", "bráðnauðsynlegu", "bráðnauðsynlegs"]
+			},
+			"ft": {
+				"kk": ["bráðnauðsynlegir", "bráðnauðsynlega", "bráðnauðsynlegum", "bráðnauðsynlegra"],
+				"kvk": ["bráðnauðsynlegar", "bráðnauðsynlegar", "bráðnauðsynlegum", "bráðnauðsynlegra"],
+				"hk": ["bráðnauðsynleg", "bráðnauðsynleg", "bráðnauðsynlegum", "bráðnauðsynlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bráðnauðsynlegi", "bráðnauðsynlega", "bráðnauðsynlega", "bráðnauðsynlega"],
+				"kvk": ["bráðnauðsynlega", "bráðnauðsynlegu", "bráðnauðsynlegu", "bráðnauðsynlegu"],
+				"hk": ["bráðnauðsynlega", "bráðnauðsynlega", "bráðnauðsynlega", "bráðnauðsynlega"]
+			},
+			"ft": {
+				"kk": ["bráðnauðsynlegu", "bráðnauðsynlegu", "bráðnauðsynlegu", "bráðnauðsynlegu"],
+				"kvk": ["bráðnauðsynlegu", "bráðnauðsynlegu", "bráðnauðsynlegu", "bráðnauðsynlegu"],
+				"hk": ["bráðnauðsynlegu", "bráðnauðsynlegu", "bráðnauðsynlegu", "bráðnauðsynlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bráðnauðsynlegur",
+	"hash": "5770aad50aa5043521b701a1b43fe196f32b4f939872a6d2692212ae6990473d"
+}

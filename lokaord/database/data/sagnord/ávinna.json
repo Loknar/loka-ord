@@ -1,0 +1,117 @@
+{
+	"orð": "ávinna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vinna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ávinna",
+		"sagnbót": "áunnið",
+		"boðháttur": {
+			"stýfður": "ávinn",
+			"et": "ávinndu",
+			"ft": "ávinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ávinn", "ávinnur", "ávinnur"],
+					"ft": ["ávinnum", "ávinnið", "ávinna"]
+				},
+				"þátíð": {
+					"et": ["ávann", "ávannst", "ávann"],
+					"ft": ["áunnum", "áunnuð", "áunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ávinni", "ávinnir", "ávinni"],
+					"ft": ["ávinnum", "ávinnið", "ávinni"]
+				},
+				"þátíð": {
+					"et": ["áynni", "áynnir", "áynni"],
+					"ft": ["áynnum", "áynnuð", "áynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ávinnurðu",
+					"ft": "ávinniði"
+				},
+				"þátíð": {
+					"et": "ávannstu",
+					"ft": "áunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ávinnirðu",
+					"ft": "ávinniði"
+				},
+				"þátíð": {
+					"et": "áynnirðu",
+					"ft": "áynnuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ávinnast",
+		"sagnbót": "áunnist",
+		"boðháttur": {
+			"et": "ávinnstu",
+			"ft": "ávinnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ávinnst", "ávinnst", "ávinnst"],
+					"ft": ["ávinnumst", "ávinnist", "ávinnast"]
+				},
+				"þátíð": {
+					"et": ["ávannst", "ávannst", "ávannst"],
+					"ft": ["áunnumst", "áunnust", "áunnust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ávinnist", "ávinnist", "ávinnist"],
+					"ft": ["ávinnumst", "ávinnist", "ávinnist"]
+				},
+				"þátíð": {
+					"et": ["áynnist", "áynnist", "áynnist"],
+					"ft": ["áynnumst", "áynnust", "áynnust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ávinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["áunninn", "áunninn", "áunnum", "áunnins"],
+					"kvk": ["áunnin", "áunna", "áunninni", "áunninnar"],
+					"hk": ["áunnið", "áunnið", "áunnu", "áunnins"]
+				},
+				"ft": {
+					"kk": ["áunnir", "áunna", "áunnum", "áunninna"],
+					"kvk": ["áunnar", "áunnar", "áunnum", "áunninna"],
+					"hk": ["áunnin", "áunnin", "áunnnum", "áunninna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ávinna",
+	"hash": "18dc472cf17cc1424cb14c30e85155cf347d35beca70768d3470bf0e7dd57a71"
+}
