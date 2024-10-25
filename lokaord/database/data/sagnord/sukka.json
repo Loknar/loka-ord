@@ -1,0 +1,135 @@
+{
+	"orð": "sukka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sukk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sukk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sukka",
+		"sagnbót": "sukkað",
+		"boðháttur": {
+			"stýfður": "sukka",
+			"et": "sukkaðu",
+			"ft": "sukkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sukka", "sukkar", "sukkar"],
+					"ft": ["sukkum", "sukkið", "sukka"]
+				},
+				"þátíð": {
+					"et": ["sukkaði", "sukkaðir", "sukkaði"],
+					"ft": ["sukkuðum", "sukkuðuð", "sukkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sukki", "sukkir", "sukki"],
+					"ft": ["sukkum", "sukkið", "sukki"]
+				},
+				"þátíð": {
+					"et": ["sukkaði", "sukkaðir", "sukkaði"],
+					"ft": ["sukkuðum", "sukkuðuð", "sukkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sukkarðu",
+					"ft": "sukkiði"
+				},
+				"þátíð": {
+					"et": "sukkaðirðu",
+					"ft": "sukkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sukkirðu",
+					"ft": "sukkiði"
+				},
+				"þátíð": {
+					"et": "sukkaðirðu",
+					"ft": "sukkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sukkast",
+		"sagnbót": "sukkast",
+		"boðháttur": {
+			"et": "sukkastu",
+			"ft": "sukkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sukkast", "sukkast", "sukkast"],
+					"ft": ["sukkumst", "sukkist", "sukkast"]
+				},
+				"þátíð": {
+					"et": ["sukkaðist", "sukkaðist", "sukkaðist"],
+					"ft": ["sukkuðumst", "sukkuðust", "sukkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sukkist", "sukkist", "sukkist"],
+					"ft": ["sukkumst", "sukkist", "sukkist"]
+				},
+				"þátíð": {
+					"et": ["sukkaðist", "sukkaðist", "sukkaðist"],
+					"ft": ["sukkuðumst", "sukkuðust", "sukkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sukkastu"
+				},
+				"þátíð": {
+					"et": "sukkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sukkistu"
+				},
+				"þátíð": {
+					"et": "sukkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sukkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sukkaður", "sukkaðan", "sukkuðum", "sukkaðs"],
+					"kvk": ["sukkuð", "sukkaða", "sukkaðri", "sukkaðrar"],
+					"hk": ["sukkað", "sukkað", "sukkuðu", "sukkaðs"]
+				},
+				"ft": {
+					"kk": ["sukkaðir", "sukkaða", "sukkuðum", "sukkaðra"],
+					"kvk": ["sukkaðar", "sukkaðar", "sukkuðum", "sukkaðra"],
+					"hk": ["sukkuð", "sukkuð", "sukkuðum", "sukkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sukka",
+	"hash": "509f7e7e6e69738d56b4a5e5d48cfb4a5fcb4f48b69e048febe8066aa49db505"
+}
