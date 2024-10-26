@@ -1,0 +1,87 @@
+{
+	"orð": "tútna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tútn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-túta-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tútna",
+		"sagnbót": "tútnað",
+		"boðháttur": {
+			"stýfður": "tútna",
+			"et": "tútnaðu",
+			"ft": "tútnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tútna", "tútnar", "tútnar"],
+					"ft": ["tútnum", "tútnið", "tútna"]
+				},
+				"þátíð": {
+					"et": ["tútnaði", "tútnaðir", "tútnaði"],
+					"ft": ["tútnuðum", "tútnuðuð", "tútnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tútni", "tútnir", "tútni"],
+					"ft": ["tútnum", "tútnið", "tútni"]
+				},
+				"þátíð": {
+					"et": ["tútnaði", "tútnaðir", "tútnaði"],
+					"ft": ["tútnuðum", "tútnuðuð", "tútnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tútnarðu",
+					"ft": "tútniði"
+				},
+				"þátíð": {
+					"et": "tútnaðirðu",
+					"ft": "tútnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tútnirðu",
+					"ft": "tútniði"
+				},
+				"þátíð": {
+					"et": "tútnaðirðu",
+					"ft": "tútnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tútnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tútnaður", "tútnaðan", "tútnuðum", "tútnaðs"],
+					"kvk": ["tútnuð", "tútnaða", "tútnaðri", "tútnaðrar"],
+					"hk": ["tútnað", "tútnað", "tútnuðu", "tútnaðs"]
+				},
+				"ft": {
+					"kk": ["tútnaðir", "tútnaða", "tútnuðum", "tútnaðra"],
+					"kvk": ["tútnaðar", "tútnaðar", "tútnuðum", "tútnaðra"],
+					"hk": ["tútnuð", "tútnuð", "tútnuðum", "tútnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tútna",
+	"hash": "c13380e2a168ee7bd5e40d156001d86436cf7c6ebebf121e166e5e0df0da33e0"
+}

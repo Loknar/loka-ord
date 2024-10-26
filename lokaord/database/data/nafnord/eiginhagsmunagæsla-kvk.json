@@ -1,0 +1,32 @@
+{
+	"orð": "eiginhagsmunagæsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eigin",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-eiginn"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "muna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-munur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gæsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eiginhagsmunagæsla", "eiginhagsmunagæslu", "eiginhagsmunagæslu", "eiginhagsmunagæslu"],
+		"mg": ["eiginhagsmunagæslan", "eiginhagsmunagæsluna", "eiginhagsmunagæslunni", "eiginhagsmunagæslunnar"]
+	},
+	"kennistrengur": "no-eiginhagsmunagæsla-kvk",
+	"hash": "aac8c2fb56ae8ade821098183a5c552f2efad004c0094a2e714c421436c43ded"
+}
