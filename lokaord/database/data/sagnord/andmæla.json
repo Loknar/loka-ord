@@ -1,0 +1,73 @@
+{
+	"orð": "andmæla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "no-andi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-mæla-_segja_"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "andmæla",
+		"sagnbót": "andmælt",
+		"boðháttur": {
+			"stýfður": "andmæl",
+			"et": "andmæltu",
+			"ft": "andmælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["andmæli", "andmælir", "andmælir"],
+					"ft": ["andmælum", "andmælið", "andmæla"]
+				},
+				"þátíð": {
+					"et": ["andmælti", "andmæltir", "andmælti"],
+					"ft": ["andmæltum", "andmæltuð", "andmæltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["andmæli", "andmælir", "andmæli"],
+					"ft": ["andmælum", "andmælið", "andmæli"]
+				},
+				"þátíð": {
+					"et": ["andmælti", "andmæltir", "andmælti"],
+					"ft": ["andmæltum", "andmæltuð", "andmæltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "andmælirðu",
+					"ft": "andmæliði"
+				},
+				"þátíð": {
+					"et": "andmæltirðu",
+					"ft": "andmæltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "andmælirðu",
+					"ft": "andmæliði"
+				},
+				"þátíð": {
+					"et": "andmæltirðu",
+					"ft": "andmæltuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "andmælandi"
+	},
+	"kennistrengur": "so-andmæla",
+	"hash": "daff80a877b979a29e3a5347aa7cb3baf0b6345a9a17e089b548b27444084957"
+}
