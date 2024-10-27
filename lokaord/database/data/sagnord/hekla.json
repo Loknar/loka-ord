@@ -1,0 +1,135 @@
+{
+	"orð": "hekla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hekl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hekl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hekla",
+		"sagnbót": "heklað",
+		"boðháttur": {
+			"stýfður": "hekla",
+			"et": "heklaðu",
+			"ft": "heklið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hekla", "heklar", "heklar"],
+					"ft": ["heklum", "heklið", "hekla"]
+				},
+				"þátíð": {
+					"et": ["heklaði", "heklaðir", "heklaði"],
+					"ft": ["hekluðum", "hekluðuð", "hekluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hekli", "heklir", "hekli"],
+					"ft": ["heklum", "heklið", "hekli"]
+				},
+				"þátíð": {
+					"et": ["heklaði", "heklaðir", "heklaði"],
+					"ft": ["hekluðum", "hekluðuð", "hekluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heklarðu",
+					"ft": "hekliði"
+				},
+				"þátíð": {
+					"et": "heklaðirðu",
+					"ft": "hekluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heklirðu",
+					"ft": "hekliði"
+				},
+				"þátíð": {
+					"et": "heklaðirðu",
+					"ft": "hekluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "heklast",
+		"sagnbót": "heklast",
+		"boðháttur": {
+			"et": "heklastu",
+			"ft": "heklist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heklast", "heklast", "heklast"],
+					"ft": ["heklumst", "heklist", "heklast"]
+				},
+				"þátíð": {
+					"et": ["heklaðist", "heklaðist", "heklaðist"],
+					"ft": ["hekluðumst", "hekluðust", "hekluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heklist", "heklist", "heklist"],
+					"ft": ["heklumst", "heklist", "heklist"]
+				},
+				"þátíð": {
+					"et": ["heklaðist", "heklaðist", "heklaðist"],
+					"ft": ["hekluðumst", "hekluðust", "hekluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heklastu"
+				},
+				"þátíð": {
+					"et": "heklaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heklistu"
+				},
+				"þátíð": {
+					"et": "heklaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heklandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heklaður", "heklaðan", "hekluðum", "heklaðs"],
+					"kvk": ["hekluð", "heklaða", "heklaðri", "heklaðrar"],
+					"hk": ["heklað", "heklað", "hekluðu", "heklaðs"]
+				},
+				"ft": {
+					"kk": ["heklaðir", "heklaða", "hekluðum", "heklaðra"],
+					"kvk": ["heklaðar", "heklaðar", "hekluðum", "heklaðra"],
+					"hk": ["hekluð", "hekluð", "hekluðum", "heklaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hekla",
+	"hash": "b77f9fe69bf47782085eb2032b78b57e056cb197c8e4760cdb171e685c24e799"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "lífeyristekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lífeyristekjur", "lífeyristekjur", "lífeyristekjum", "lífeyristekna"],
+		"mg": ["lífeyristekjurnar", "lífeyristekjurnar", "lífeyristekjunum", "lífeyristeknanna"]
+	},
+	"kennistrengur": "no-lífeyristekjur-kvk",
+	"hash": "86b017a56a3d1c21a9125c7b5c495927f699202323c2ec011f9339dff6710129"
+}

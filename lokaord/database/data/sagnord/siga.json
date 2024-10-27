@@ -1,0 +1,120 @@
+{
+	"orð": "siga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "siga",
+		"sagnbót": "sigað",
+		"boðháttur": {
+			"stýfður": "siga",
+			"et": "sigaðu",
+			"ft": "sigið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["siga", "sigar", "sigar"],
+					"ft": ["sigum", "sigið", "siga"]
+				},
+				"þátíð": {
+					"et": ["sigaði", "sigaðir", "sigaði"],
+					"ft": ["siguðum", "siguðuð", "siguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sigi", "sigir", "sigi"],
+					"ft": ["sigum", "sigið", "sigi"]
+				},
+				"þátíð": {
+					"et": ["sigaði", "sigaðir", "sigaði"],
+					"ft": ["siguðum", "siguðuð", "siguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sigarðu",
+					"ft": "sigiði"
+				},
+				"þátíð": {
+					"et": "sigaðirðu",
+					"ft": "siguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sigirðu",
+					"ft": "sigiði"
+				},
+				"þátíð": {
+					"et": "sigaðirðu",
+					"ft": "siguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sigast",
+		"sagnbót": "sigast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sigast", "sigast", "sigast"],
+					"ft": ["sigumst", "sigist", "sigast"]
+				},
+				"þátíð": {
+					"et": ["sigaðist", "sigaðist", "sigaðist"],
+					"ft": ["siguðumst", "siguðust", "siguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sigist", "sigist", "sigist"],
+					"ft": ["sigumst", "sigist", "sigist"]
+				},
+				"þátíð": {
+					"et": ["sigaðist", "sigaðist", "sigaðist"],
+					"ft": ["siguðumst", "siguðust", "siguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sigastu"
+				},
+				"þátíð": {
+					"et": "sigaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sigistu"
+				},
+				"þátíð": {
+					"et": "sigaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sigandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sigaður", "sigaðan", "siguðum", "sigaðs"],
+					"kvk": ["siguð", "sigaða", "sigaðri", "sigaðrar"],
+					"hk": ["sigað", "sigað", "siguðu", "sigaðs"]
+				},
+				"ft": {
+					"kk": ["sigaðir", "sigaða", "siguðum", "sigaðra"],
+					"kvk": ["sigaðar", "sigaðar", "siguðum", "sigaðra"],
+					"hk": ["siguð", "siguð", "siguðum", "sigaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-siga",
+	"hash": "85d3eb7e34be45c1d4b2aea193915ad57b3cfdde0ef045b18844da582e446699"
+}

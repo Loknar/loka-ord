@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-hekla-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Hekla", "Heklu", "Heklu", "Heklu"]
 	},
 	"kennistrengur": "sérn.en-Hekla-kvk",
-	"hash": "6195f748961c74d91136566a18c956447ca7f44f8d605f479a71eb41ca267f3f"
+	"hash": "47c0146c736d8d9a0d0e69fbb31502a97343fac2190f288d0b2f002a7cda9f71"
 }

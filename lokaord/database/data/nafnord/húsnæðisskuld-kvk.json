@@ -1,0 +1,25 @@
+{
+	"orð": "húsnæðisskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "húsnæðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-húsnæði-hk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["húsnæðisskuld", "húsnæðisskuld", "húsnæðisskuld", "húsnæðisskuldar"],
+		"mg": ["húsnæðisskuldin", "húsnæðisskuldina", "húsnæðisskuldinni", "húsnæðisskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["húsnæðisskuldir", "húsnæðisskuldir", "húsnæðisskuldum", "húsnæðisskulda"],
+		"mg": ["húsnæðisskuldirnar", "húsnæðisskuldirnar", "húsnæðisskuldunum", "húsnæðisskuldanna"]
+	},
+	"kennistrengur": "no-húsnæðisskuld-kvk",
+	"hash": "e7ef2dd9f030857aa96bb77f5e6b534cd6aca5bf83dafda267afc843aa8976a2"
+}
