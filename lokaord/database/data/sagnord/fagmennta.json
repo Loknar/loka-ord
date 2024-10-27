@@ -1,0 +1,142 @@
+{
+	"orð": "fagmennta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fag-hk"
+		},
+		{
+			"kennistrengur": "so-mennta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fagmennta",
+		"sagnbót": "fagmenntað",
+		"boðháttur": {
+			"stýfður": "fagmennta",
+			"et": "fagmenntaðu",
+			"ft": "fagmenntið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fagmennta", "fagmenntar", "fagmenntar"],
+					"ft": ["fagmenntum", "fagmenntið", "fagmennta"]
+				},
+				"þátíð": {
+					"et": ["fagmenntaði", "fagmenntaðir", "fagmenntaði"],
+					"ft": ["fagmenntuðum", "fagmenntuðuð", "fagmenntuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fagmennti", "fagmenntir", "fagmennti"],
+					"ft": ["fagmenntum", "fagmenntið", "fagmennti"]
+				},
+				"þátíð": {
+					"et": ["fagmenntaði", "fagmenntaðir", "fagmenntaði"],
+					"ft": ["fagmenntuðum", "fagmenntuðuð", "fagmenntuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fagmenntarðu",
+					"ft": "fagmenntiði"
+				},
+				"þátíð": {
+					"et": "fagmenntaðirðu",
+					"ft": "fagmenntuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fagmenntirðu",
+					"ft": "fagmenntiði"
+				},
+				"þátíð": {
+					"et": "fagmenntaðirðu",
+					"ft": "fagmenntuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fagmenntast",
+		"sagnbót": "fagmenntast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fagmenntast", "fagmenntast", "fagmenntast"],
+					"ft": ["fagmenntumst", "fagmenntist", "fagmenntast"]
+				},
+				"þátíð": {
+					"et": ["fagmenntaðist", "fagmenntaðist", "fagmenntaðist"],
+					"ft": ["fagmenntuðumst", "fagmenntuðust", "fagmenntuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fagmenntist", "fagmenntist", "fagmenntist"],
+					"ft": ["fagmenntumst", "fagmenntist", "fagmenntist"]
+				},
+				"þátíð": {
+					"et": ["fagmenntaðist", "fagmenntaðist", "fagmenntaðist"],
+					"ft": ["fagmenntuðumst", "fagmenntuðust", "fagmenntuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fagmenntastu"
+				},
+				"þátíð": {
+					"et": "fagmenntaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fagmenntistu"
+				},
+				"þátíð": {
+					"et": "fagmenntaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fagmenntandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fagmenntaður", "fagmenntaðan", "fagmenntuðum", "fagmenntaðs"],
+					"kvk": ["fagmenntuð", "fagmenntaða", "fagmenntaðri", "fagmenntaðrar"],
+					"hk": ["fagmenntað", "fagmenntað", "fagmenntuðu", "fagmenntaðs"]
+				},
+				"ft": {
+					"kk": ["fagmenntaðir", "fagmenntaða", "fagmenntuðum", "fagmenntaðra"],
+					"kvk": ["fagmenntaðar", "fagmenntaðar", "fagmenntuðum", "fagmenntaðra"],
+					"hk": ["fagmenntuð", "fagmenntuð", "fagmenntuðum", "fagmenntaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fagmenntaði", "fagmenntaða", "fagmenntaða", "fagmenntaða"],
+					"kvk": ["fagmenntaða", "fagmenntuðu", "fagmenntuðu", "fagmenntuðu"],
+					"hk": ["fagmenntaða", "fagmenntaða", "fagmenntaða", "fagmenntaða"]
+				},
+				"ft": {
+					"kk": ["fagmenntuðu", "fagmenntuðu", "fagmenntuðu", "fagmenntuðu"],
+					"kvk": ["fagmenntuðu", "fagmenntuðu", "fagmenntuðu", "fagmenntuðu"],
+					"hk": ["fagmenntuðu", "fagmenntuðu", "fagmenntuðu", "fagmenntuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fagmennta",
+	"hash": "40ae9e2568f0b919a1f743c7ec6e287368f12b81a13097fd273bc50de8f82dee"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "landssamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["landssamtök", "landssamtök", "landssamtökum", "landssamtaka"],
+		"mg": ["landssamtökin", "landssamtökin", "landssamtökunum", "landssamtakanna"]
+	},
+	"kennistrengur": "no-landssamtök-hk",
+	"hash": "875ba9d59eaeb93b82067e57b86ba50724f9b5dc4d3fd93274994132ce68833b"
+}
