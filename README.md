@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1161 | 1150 | 942 | 3253 | 3594 | 4404 | 3733 | 11731 | **14984** |
-| **Lýsingarorð** | 155 |   |   |   | 519 |   |   |   | 1786 | **2305** |
-| **Sagnorð**     |   |   |   |   | 986 |   |   |   | 620 | **1606** |
+| **Nafnorð**     |   | 1165 | 1155 | 943 | 3263 | 3610 | 4408 | 3741 | 11759 | **15022** |
+| **Lýsingarorð** | 157 |   |   |   | 521 |   |   |   | 1792 | **2313** |
+| **Sagnorð**     |   |   |   |   | 988 |   |   |   | 621 | **1609** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 43 |   |   |   | 8 | **51** |
-| **Smáorð**      |   |   |   |   | 299 |   |   |   | 290 | **589** |
-| **Alls** |   |   |   |   | **5170** |   |   |   | **14445** | **19615** |
+| **Smáorð**      |   |   |   |   | 300 |   |   |   | 291 | **591** |
+| **Alls** |   |   |   |   | **5185** |   |   |   | **14481** | **19666** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,12 +20,12 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Kenninöfn |  |  |  |  | 4598 | 4596 | 4571 | 13765 | **13765** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **255** |
 | Gælunöfn  | 79 | 47 |  | 126 | 42 | 23 | 2 | 67 | **193** |
-| Örnefni   | 14 | 43 | 37 | 94 | 464 | 372 | 348 | 1184 | **1278** |
-| **Alls**  |   |   |   | **2944** |   |   |   | **17267** | **20211** |
+| Örnefni   | 14 | 44 | 37 | 95 | 465 | 372 | 349 | 1186 | **1281** |
+| **Alls**  |   |   |   | **2945** |   |   |   | **17269** | **20214** |
 
-**Samtals:** 39826 orð.
+**Samtals:** 39880 orð.
 
-242 skammstafanir.
+244 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -108,7 +108,7 @@ python main.py build-db -r write-files build-sight md-stats
 
 `init` með flaggið `-r` eyðir núverandi gagnagrunni og smíðar síðan nýjan útfrá orðaskrám.
 
-Athugið að þegar sett er saman JSON skrá fyrir samsett orð þá þarf ekki að ganga frá beygingarmyndum þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar ég bætti við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
+Athugið að þegar sett er saman JSON skrá fyrir samsett orð þá þarf ekki að ganga frá beygingarmyndum þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar bætt var við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
 
 ```json
 {
@@ -129,9 +129,9 @@ Athugið að þegar sett er saman JSON skrá fyrir samsett orð þá þarf ekki 
 }
 ```
 
-svo þegar ég keyrði `update` þá bættust beygingarmyndirnar við út frá upplýsingunum í `"samsett"` listanum.
+svo þegar keyrt var `update` þá bættust beygingarmyndirnar við út frá `"samsett"` upplýsingalistanum.
 
-Gildið í `"hash"` þarf að vera strengur sem er ekki tómur, þetta gildi er uppfært með hakkagildi sem endurspeglar gögn orðsins þegar `update` og/eða `write-files` er keyrt, svo að fyrir sömu gögn verður hakkagildið það sama, og þegar gögnin breytast þá breytist hakkagildið.
+Gildið í `"hash"` á að vera strengur sem er ekki tómur, gildið er sett sem sextándakerfis hakkagildi sem endurspeglar gögn orðsins þegar `update` og/eða `write-files` er keyrt, svo að fyrir sömu gögn er hakkagildið það sama, og þegar gögn breytast þá breytist hakkagildið (sjá `Ord.get_data_hash` í `handlers.py`).
 
 Athugið að kröfur til skráarnafna eru mismunandi miłli orðflokka, til dæmis þurfa nafnorð að hafa kyn orðsins í skráarnafni, þá eru "ósjálfstæð" orð (notað fyrir orðhluta sem ekki eru látnir standa einir) með `-ó` í skráarnafni, og þau orð sem eru sérstaklega aðgreind með "merkingu" innihalda merkinguna í skráarnafni á sniðinu `-_merking_` (sjá t.d. skrána `mæla-_segja_.json`).
 

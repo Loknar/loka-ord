@@ -1,0 +1,27 @@
+{
+	"orð": "matvöruverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "mat",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["matvöruverð", "matvöruverð", "matvöruverði", "matvöruverðs"],
+		"mg": ["matvöruverðið", "matvöruverðið", "matvöruverðinu", "matvöruverðsins"]
+	},
+	"kennistrengur": "no-matvöruverð-hk",
+	"hash": "2fe769cc1097fa0d586865070e75b3e53d4940dd466b95451c51153f9b195cfa"
+}

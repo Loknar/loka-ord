@@ -3,16 +3,14 @@
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"merking": "andardráttur",
-	"samsett": [
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-önd-kvk"
-		}
-	],
 	"et": {
 		"ág": ["önd", "önd", "önd", "andar"],
 		"mg": ["öndin", "öndina", "öndinni", "andarinnar"]
 	},
+	"ft": {
+		"ág": ["andir", "andir", "öndum", "anda"],
+		"mg": ["andirnar", "andirnar", "öndunum", "andanna"]
+	},
 	"kennistrengur": "no-önd-kvk-_andardráttur_",
-	"hash": "b9211e78daad729954f38bd0022d8a20e0e65e041bc3d4ac752bdc685abdca43"
+	"hash": "8f5a9d372db16cfaa1f6e3a14a5bbcd838acb20e9c2b41f0e5d9db81df846f97"
 }
