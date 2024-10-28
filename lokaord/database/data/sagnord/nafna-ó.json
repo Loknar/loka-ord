@@ -1,0 +1,133 @@
+{
+	"orð": "nafna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "nafna",
+		"sagnbót": "nafnað",
+		"boðháttur": {
+			"stýfður": "nafna",
+			"et": "nafnaðu",
+			"ft": "nafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nafna", "nafnar", "nafnar"],
+					"ft": ["nöfnum", "nafnið", "nafna"]
+				},
+				"þátíð": {
+					"et": ["nafnaði", "nafnaðir", "nafnaði"],
+					"ft": ["nöfnuðum", "nöfnuðuð", "nöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nafni", "nafnir", "nafni"],
+					"ft": ["nöfnum", "nafnið", "nafni"]
+				},
+				"þátíð": {
+					"et": ["nafnaði", "nafnaðir", "nafnaði"],
+					"ft": ["nöfnuðum", "nöfnuðuð", "nöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nafnarðu",
+					"ft": "nafniði"
+				},
+				"þátíð": {
+					"et": "nafnaðirðu",
+					"ft": "nöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nafnirðu",
+					"ft": "nafniði"
+				},
+				"þátíð": {
+					"et": "nafnaðirðu",
+					"ft": "nöfnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "nafnast",
+		"sagnbót": "nafnast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nafnast", "nafnast", "nafnast"],
+					"ft": ["nöfnumst", "nafnist", "nafnast"]
+				},
+				"þátíð": {
+					"et": ["nafnaðist", "nafnaðist", "nafnaðist"],
+					"ft": ["nöfnuðumst", "nöfnuðust", "nöfnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nafnist", "nafnist", "nafnist"],
+					"ft": ["nöfnumst", "nafnist", "nafnist"]
+				},
+				"þátíð": {
+					"et": ["nafnaðist", "nafnaðist", "nafnaðist"],
+					"ft": ["nöfnuðumst", "nöfnuðust", "nöfnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nafnastu"
+				},
+				"þátíð": {
+					"et": "nafnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nafnistu"
+				},
+				"þátíð": {
+					"et": "nafnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nafnaður", "nafnaðan", "nöfnuðum", "nafnaðs"],
+					"kvk": ["nöfnuð", "nafnaða", "nafnaðri", "nafnaðrar"],
+					"hk": ["nafnað", "nafnað", "nöfnuðu", "nafnaðs"]
+				},
+				"ft": {
+					"kk": ["nafnaðir", "nafnaða", "nöfnuðum", "nafnaðra"],
+					"kvk": ["nafnaðar", "nafnaðar", "nöfnuðum", "nafnaðra"],
+					"hk": ["nöfnuð", "nöfnuð", "nöfnuðum", "nafnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nafnaði", "nafnaða", "nafnaða", "nafnaða"],
+					"kvk": ["nafnaða", "nöfnuðu", "nöfnuðu", "nöfnuðu"],
+					"hk": ["nafnaða", "nafnaða", "nafnaða", "nafnaða"]
+				},
+				"ft": {
+					"kk": ["nöfnuðu", "nöfnuðu", "nöfnuðu", "nöfnuðu"],
+					"kvk": ["nöfnuðu", "nöfnuðu", "nöfnuðu", "nöfnuðu"],
+					"hk": ["nöfnuðu", "nöfnuðu", "nöfnuðu", "nöfnuðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-nafna-ó",
+	"hash": "6572847ca89ead5793d2fc90c2a19b3ce88380de7e3b5db9cad81905af9aea95"
+}

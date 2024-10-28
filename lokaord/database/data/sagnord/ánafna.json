@@ -1,0 +1,131 @@
+{
+	"orð": "ánafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-nafna-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ánafna",
+		"sagnbót": "ánafnað",
+		"boðháttur": {
+			"stýfður": "ánafna",
+			"et": "ánafnaðu",
+			"ft": "ánafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ánafna", "ánafnar", "ánafnar"],
+					"ft": ["ánöfnum", "ánafnið", "ánafna"]
+				},
+				"þátíð": {
+					"et": ["ánafnaði", "ánafnaðir", "ánafnaði"],
+					"ft": ["ánöfnuðum", "ánöfnuðuð", "ánöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ánafni", "ánafnir", "ánafni"],
+					"ft": ["ánöfnum", "ánafnið", "ánafni"]
+				},
+				"þátíð": {
+					"et": ["ánafnaði", "ánafnaðir", "ánafnaði"],
+					"ft": ["ánöfnuðum", "ánöfnuðuð", "ánöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ánafnarðu",
+					"ft": "ánafniði"
+				},
+				"þátíð": {
+					"et": "ánafnaðirðu",
+					"ft": "ánöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ánafnirðu",
+					"ft": "ánafniði"
+				},
+				"þátíð": {
+					"et": "ánafnaðirðu",
+					"ft": "ánöfnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ánafnast",
+		"sagnbót": "ánafnast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ánafnast", "ánafnast", "ánafnast"],
+					"ft": ["ánöfnumst", "ánafnist", "ánafnast"]
+				},
+				"þátíð": {
+					"et": ["ánafnaðist", "ánafnaðist", "ánafnaðist"],
+					"ft": ["ánöfnuðumst", "ánöfnuðust", "ánöfnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ánafnist", "ánafnist", "ánafnist"],
+					"ft": ["ánöfnumst", "ánafnist", "ánafnist"]
+				},
+				"þátíð": {
+					"et": ["ánafnaðist", "ánafnaðist", "ánafnaðist"],
+					"ft": ["ánöfnuðumst", "ánöfnuðust", "ánöfnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ánafnastu"
+				},
+				"þátíð": {
+					"et": "ánafnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ánafnistu"
+				},
+				"þátíð": {
+					"et": "ánafnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ánafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ánafnaður", "ánafnaðan", "ánöfnuðum", "ánafnaðs"],
+					"kvk": ["ánöfnuð", "ánafnaða", "ánafnaðri", "ánafnaðrar"],
+					"hk": ["ánafnað", "ánafnað", "ánöfnuðu", "ánafnaðs"]
+				},
+				"ft": {
+					"kk": ["ánafnaðir", "ánafnaða", "ánöfnuðum", "ánafnaðra"],
+					"kvk": ["ánafnaðar", "ánafnaðar", "ánöfnuðum", "ánafnaðra"],
+					"hk": ["ánöfnuð", "ánöfnuð", "ánöfnuðum", "ánafnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ánafna",
+	"hash": "77f9b158c1e1b6e49238021d3c0eb85b01fecaae1ecc1a81e1e2fcc7d6957929"
+}

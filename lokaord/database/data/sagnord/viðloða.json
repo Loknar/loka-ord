@@ -1,0 +1,140 @@
+{
+	"orð": "viðloða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"mynd": "loð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-loð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "viðloða",
+		"sagnbót": "viðloðað",
+		"boðháttur": {
+			"stýfður": "viðloða",
+			"et": "viðloðaðu",
+			"ft": "viðloðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðloða", "viðloðar", "viðloðar"],
+					"ft": ["viðloðum", "viðloðið", "viðloða"]
+				},
+				"þátíð": {
+					"et": ["viðloðaði", "viðloðaðir", "viðloðaði"],
+					"ft": ["viðloðuðum", "viðloðuðuð", "viðloðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðloði", "viðloðir", "viðloði"],
+					"ft": ["viðloðum", "viðloðið", "viðloði"]
+				},
+				"þátíð": {
+					"et": ["viðloðaði", "viðloðaðir", "viðloðaði"],
+					"ft": ["viðloðuðum", "viðloðuðuð", "viðloðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "viðloðarðu",
+					"ft": "viðloðiði"
+				},
+				"þátíð": {
+					"et": "viðloðaðirðu",
+					"ft": "viðloðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "viðloðirðu",
+					"ft": "viðloðiði"
+				},
+				"þátíð": {
+					"et": "viðloðaðirðu",
+					"ft": "viðloðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "viðloðast",
+		"sagnbót": "viðloðast",
+		"boðháttur": {
+			"et": "viðloðastu",
+			"ft": "viðloðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðloðast", "viðloðast", "viðloðast"],
+					"ft": ["viðloðumst", "viðloðist", "viðloðast"]
+				},
+				"þátíð": {
+					"et": ["viðloðaðist", "viðloðaðist", "viðloðaðist"],
+					"ft": ["viðloðuðumst", "viðloðuðust", "viðloðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðloðist", "viðloðist", "viðloðist"],
+					"ft": ["viðloðumst", "viðloðist", "viðloðist"]
+				},
+				"þátíð": {
+					"et": ["viðloðaðist", "viðloðaðist", "viðloðaðist"],
+					"ft": ["viðloðuðumst", "viðloðuðust", "viðloðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "viðloðastu"
+				},
+				"þátíð": {
+					"et": "viðloðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "viðloðistu"
+				},
+				"þátíð": {
+					"et": "viðloðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "viðloðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["viðloðaður", "viðloðaðan", "viðloðuðum", "viðloðaðs"],
+					"kvk": ["viðloðuð", "viðloðaða", "viðloðaðri", "viðloðaðrar"],
+					"hk": ["viðloðað", "viðloðað", "viðloðuðu", "viðloðaðs"]
+				},
+				"ft": {
+					"kk": ["viðloðaðir", "viðloðaða", "viðloðuðum", "viðloðaðra"],
+					"kvk": ["viðloðaðar", "viðloðaðar", "viðloðuðum", "viðloðaðra"],
+					"hk": ["viðloðuð", "viðloðuð", "viðloðuðum", "viðloðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-viðloða",
+	"hash": "2c23245369f6b29bac76fa02e68058cdcc785c259c6d35dd9d3c39ff1bc87b3c"
+}

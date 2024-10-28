@@ -1,0 +1,87 @@
+{
+	"orð": "standsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stand-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "standsetja",
+		"sagnbót": "standsett",
+		"boðháttur": {
+			"stýfður": "standset",
+			"et": "standsettu",
+			"ft": "standsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["standset", "standsetur", "standsetur"],
+					"ft": ["standsetjum", "standsetjið", "standsetja"]
+				},
+				"þátíð": {
+					"et": ["standsetti", "standsettir", "standsett"],
+					"ft": ["standsettum", "standsettuð", "standsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["standsetji", "standsetjir", "standsetji"],
+					"ft": ["standsetjum", "standsetjið", "standsetji"]
+				},
+				"þátíð": {
+					"et": ["standsetti", "standsettir", "standsetti"],
+					"ft": ["standsettum", "standsettuð", "standsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "standseturðu",
+					"ft": "standsetjiði"
+				},
+				"þátíð": {
+					"et": "standsettirðu",
+					"ft": "standsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "standsetjirðu",
+					"ft": "standsetjiði"
+				},
+				"þátíð": {
+					"et": "standsettirðu",
+					"ft": "standsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "standsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["standsettur", "standsettan", "standsettum", "standsetts"],
+					"kvk": ["standsett", "standsetta", "standsettri", "standsettrar"],
+					"hk": ["standsett", "standsett", "standsettu", "standsetts"]
+				},
+				"ft": {
+					"kk": ["standsettir", "standsetta", "standsettum", "standsettra"],
+					"kvk": ["standsettar", "standsettar", "standsettum", "standsettra"],
+					"hk": ["standsett", "standsett", "standsettum", "standsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-standsetja",
+	"hash": "4ecdb2b94951eda7c9e6ad895fb0dd7b1a512baf8e27a09d738f4a14d10ed45d"
+}

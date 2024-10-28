@@ -1,6 +1,16 @@
 {
 	"orð": "spánskur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "spán",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spánn-kk"
+		},
+		{
+			"kennistrengur": "lo-skur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-spánskur",
-	"hash": "dca372fa679d51f1e740b227cabd3f7814aad4c6a32fa10c6c687d36613b2e0d"
+	"hash": "488702f948e71a9d709abfe0687cd0b0747ed8ead7a473aa9a2265864dcafe47"
 }
