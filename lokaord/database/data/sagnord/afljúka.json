@@ -1,0 +1,64 @@
+{
+	"orð": "afljúka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ljúka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afljúka",
+		"sagnbót": "aflokið",
+		"boðháttur": {
+			"stýfður": "afljúk",
+			"et": "afljúktu",
+			"ft": "afljúkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aflýk", "aflýkur", "aflýkur"],
+					"ft": ["afljúkum", "afljúkið", "afljúka"]
+				},
+				"þátíð": {
+					"et": ["aflauk", "aflaukst", "aflauk"],
+					"ft": ["aflukum", "aflukuð", "afluku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afljúki", "afljúkir", "afljúki"],
+					"ft": ["afljúkum", "afljúkið", "afljúki"]
+				},
+				"þátíð": {
+					"et": ["aflyki", "aflykir", "aflyki"],
+					"ft": ["aflykjum", "aflykjuð", "aflykju"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aflokinn", "aflokinn", "afloknum", "aflokins"],
+					"kvk": ["aflokin", "aflokna", "aflokinni", "aflokinnar"],
+					"hk": ["aflokið", "aflokið", "afloknu", "aflokins"]
+				},
+				"ft": {
+					"kk": ["afloknir", "aflokna", "afloknum", "aflokinna"],
+					"kvk": ["afloknar", "afloknar", "afloknum", "aflokinna"],
+					"hk": ["aflokin", "aflokin", "afloknum", "aflokinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afljúka",
+	"hash": "304cb89501a3f782608d369d1208a5bf535fd3c9175d3d7c886ea616bceb5e4e"
+}

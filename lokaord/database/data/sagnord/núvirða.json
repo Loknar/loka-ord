@@ -1,0 +1,87 @@
+{
+	"orð": "núvirða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "nú",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.st-nú"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-virða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "núvirða",
+		"sagnbót": "núvirt",
+		"boðháttur": {
+			"stýfður": "núvirð",
+			"et": "núvirtu",
+			"ft": "núvirðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["núvirði", "núvirðir", "núvirðir"],
+					"ft": ["núvirðum", "núvirðið", "núvirða"]
+				},
+				"þátíð": {
+					"et": ["núvirti", "núvirtir", "núvirti"],
+					"ft": ["núvirtum", "núvirtuð", "núvirtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["núvirði", "núvirðir", "núvirði"],
+					"ft": ["núvirðum", "núvirðið", "núvirði"]
+				},
+				"þátíð": {
+					"et": ["núvirti", "núvirtir", "núvirti"],
+					"ft": ["núvirtum", "núvirtuð", "núvirtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "núvirðirðu",
+					"ft": "núvirðiði"
+				},
+				"þátíð": {
+					"et": "núvirtirðu",
+					"ft": "núvirtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "núvirðirðu",
+					"ft": "núvirðiði"
+				},
+				"þátíð": {
+					"et": "núvirtirðu",
+					"ft": "núvirtuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "núvirðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["núvirtur", "núvirtan", "núvirtum", "núvirts"],
+					"kvk": ["núvirt", "núvirta", "núvirtri", "núvirtrar"],
+					"hk": ["núrætt", "núrætt", "núvirtu", "núvirts"]
+				},
+				"ft": {
+					"kk": ["núvirtir", "núvirta", "núvirtum", "núvirtra"],
+					"kvk": ["núvirtar", "núvirtar", "núvirtum", "núvirtra"],
+					"hk": ["núvirt", "núvirt", "núvirtum", "núvirtra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-núvirða",
+	"hash": "c3c02f131cb39957fefb9fbd504a8d842388733698c59e96abb01ddf7133f354"
+}
