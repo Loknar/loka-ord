@@ -1,0 +1,99 @@
+{
+	"orð": "forsmíða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-smíða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "forsmíða",
+		"sagnbót": "forsmíðað",
+		"boðháttur": {
+			"stýfður": "forsmíða",
+			"et": "forsmíðaðu",
+			"ft": "forsmíðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forsmíða", "forsmíðar", "forsmíðar"],
+					"ft": ["forsmíðum", "forsmíðið", "forsmíða"]
+				},
+				"þátíð": {
+					"et": ["forsmíðaði", "forsmíðaðir", "forsmíðaði"],
+					"ft": ["forsmíðuðum", "forsmíðuðuð", "forsmíðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forsmíði", "forsmíðir", "forsmíði"],
+					"ft": ["forsmíðum", "forsmíðið", "forsmíði"]
+				},
+				"þátíð": {
+					"et": ["forsmíðaði", "forsmíðaðir", "forsmíðaði"],
+					"ft": ["forsmíðuðum", "forsmíðuðuð", "forsmíðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "forsmíðarðu",
+					"ft": "forsmíðiði"
+				},
+				"þátíð": {
+					"et": "forsmíðaðirðu",
+					"ft": "forsmíðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "forsmíðirðu",
+					"ft": "forsmíðiði"
+				},
+				"þátíð": {
+					"et": "forsmíðaðirðu",
+					"ft": "forsmíðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "forsmíðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["forsmíðaður", "forsmíðaðan", "forsmíðuðum", "forsmíðaðs"],
+					"kvk": ["forsmíðuð", "forsmíðaða", "forsmíðaðri", "forsmíðaðrar"],
+					"hk": ["forsmíðað", "forsmíðað", "forsmíðuðu", "forsmíðaðs"]
+				},
+				"ft": {
+					"kk": ["forsmíðaðir", "forsmíðaða", "forsmíðuðum", "forsmíðaðra"],
+					"kvk": ["forsmíðaðar", "forsmíðaðar", "forsmíðuðum", "forsmíðaðra"],
+					"hk": ["forsmíðuð", "forsmíðuð", "forsmíðuðum", "forsmíðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["forsmíðaði", "forsmíðaða", "forsmíðaða", "forsmíðaða"],
+					"kvk": ["forsmíðaða", "forsmíðuðu", "forsmíðuðu", "forsmíðuðu"],
+					"hk": ["forsmíðaða", "forsmíðaða", "forsmíðaða", "forsmíðaða"]
+				},
+				"ft": {
+					"kk": ["forsmíðuðu", "forsmíðuðu", "forsmíðuðu", "forsmíðuðu"],
+					"kvk": ["forsmíðuðu", "forsmíðuðu", "forsmíðuðu", "forsmíðuðu"],
+					"hk": ["forsmíðuðu", "forsmíðuðu", "forsmíðuðu", "forsmíðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-forsmíða",
+	"hash": "e733999e66e2dec00a90886c6aef98d0cec0401ace4bd8c0219042b063f08038"
+}

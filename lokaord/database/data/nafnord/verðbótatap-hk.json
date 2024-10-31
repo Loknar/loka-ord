@@ -1,0 +1,27 @@
+{
+	"orð": "verðbótatap",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tap-hk"
+		}
+	],
+	"et": {
+		"ág": ["verðbótatap", "verðbótatap", "verðbótatapi", "verðbótataps"],
+		"mg": ["verðbótatapið", "verðbótatapið", "verðbótatapinu", "verðbótatapsins"]
+	},
+	"kennistrengur": "no-verðbótatap-hk",
+	"hash": "14a8a4d91b43672a2ead80ec048dd5f3a662e7e97dbc7472b7173ce3af2c35e9"
+}

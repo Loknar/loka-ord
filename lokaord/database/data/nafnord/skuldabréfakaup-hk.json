@@ -1,0 +1,27 @@
+{
+	"orð": "skuldabréfakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["skuldabréfakaup", "skuldabréfakaup", "skuldabréfakaupum", "skuldabréfakaupa"],
+		"mg": ["skuldabréfakaupin", "skuldabréfakaupin", "skuldabréfakaupunum", "skuldabréfakaupanna"]
+	},
+	"kennistrengur": "no-skuldabréfakaup-hk",
+	"hash": "4384ee8300c97dfb380575f9f9e07fb00a48a8ed0dff96689dbfb34407263093"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "skuldabréfasala",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-sala-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldabréfasala", "skuldabréfasölu", "skuldabréfasölu", "skuldabréfasölu"],
+		"mg": ["skuldabréfasalan", "skuldabréfasöluna", "skuldabréfasölunni", "skuldabréfasölunnar"]
+	},
+	"ft": {
+		"ág": ["skuldabréfasölur", "skuldabréfasölur", "skuldabréfasölum", "skuldabréfasala"],
+		"mg": ["skuldabréfasölurnar", "skuldabréfasölurnar", "skuldabréfasölunum", "skuldabréfasalanna"]
+	},
+	"kennistrengur": "no-skuldabréfasala-kvk",
+	"hash": "799312c05e2fbc6fdf040bed8be47942676a55bc8364a343f8d8cfd69a6c7f0c"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "skuldabréfamarkaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-markaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldabréfamarkaður", "skuldabréfamarkað", "skuldabréfamarkaði", "skuldabréfamarkaðar"],
+		"mg": ["skuldabréfamarkaðurinn", "skuldabréfamarkaðinn", "skuldabréfamarkaðinum", "skuldabréfamarkaðarins"]
+	},
+	"ft": {
+		"ág": ["skuldabréfamarkaðir", "skuldabréfamarkaði", "skuldabréfamörkuðum", "skuldabréfamarkaða"],
+		"mg": ["skuldabréfamarkaðirnir", "skuldabréfamarkaðina", "skuldabréfamörkuðunum", "skuldabréfamarkaðanna"]
+	},
+	"kennistrengur": "no-skuldabréfamarkaður-kk",
+	"hash": "27baed570057901b09346fa2d24d45821080601d647c1ad367b32bfb27e81e48"
+}

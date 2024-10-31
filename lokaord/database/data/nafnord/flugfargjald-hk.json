@@ -1,0 +1,30 @@
+{
+	"orð": "flugfargjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"mynd": "far",
+			"samsetning": "stofn",
+			"kennistrengur": "no-far-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["flugfargjald", "flugfargjald", "flugfargjaldi", "flugfargjalds"],
+		"mg": ["flugfargjaldið", "flugfargjaldið", "flugfargjaldinu", "flugfargjaldsins"]
+	},
+	"ft": {
+		"ág": ["flugfargjöld", "flugfargjöld", "flugfargjöldum", "flugfargjalda"],
+		"mg": ["flugfargjöldin", "flugfargjöldin", "flugfargjöldunum", "flugfargjaldanna"]
+	},
+	"kennistrengur": "no-flugfargjald-hk",
+	"hash": "28116a65db2e0b01ac8af80c2b7078e511eb5b50de101054deef2b0eee3de810"
+}
