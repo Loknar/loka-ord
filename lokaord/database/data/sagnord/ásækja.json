@@ -1,0 +1,87 @@
+{
+	"orð": "ásækja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sækja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ásækja",
+		"sagnbót": "ásótt",
+		"boðháttur": {
+			"stýfður": "ásæk",
+			"et": "ásæktu",
+			"ft": "ásækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ásæki", "ásækir", "ásækir"],
+					"ft": ["ásækjum", "ásækið", "ásækja"]
+				},
+				"þátíð": {
+					"et": ["ásótti", "ásóttir", "ásótti"],
+					"ft": ["ásóttum", "ásóttuð", "ásóttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ásæki", "ásækir", "ásæki"],
+					"ft": ["ásækjum", "ásækið", "ásæki"]
+				},
+				"þátíð": {
+					"et": ["ásækti", "ásæktir", "ásækti"],
+					"ft": ["ásæktum", "ásæktuð", "ásæktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ásækirðu",
+					"ft": "ásækiði"
+				},
+				"þátíð": {
+					"et": "ásæktirðu",
+					"ft": "ásæktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ásækirðu",
+					"ft": "ásækiði"
+				},
+				"þátíð": {
+					"et": "ásæktirðu",
+					"ft": "ásæktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ásækjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ásóttur", "ásóttan", "ásóttum", "ásótts"],
+					"kvk": ["ásótt", "ásótta", "ásóttri", "ásóttrar"],
+					"hk": ["ásótt", "ásótt", "ásóttu", "ásótts"]
+				},
+				"ft": {
+					"kk": ["ásóttir", "ásótta", "ásóttum", "ásóttra"],
+					"kvk": ["ásóttar", "ásóttar", "ásóttum", "ásóttra"],
+					"hk": ["ásótt", "ásótt", "ásóttum", "ásóttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ásækja",
+	"hash": "474be20ffd9ec8f7525e17965caac5907ba835f9f937236bfd8b66829a04887d"
+}

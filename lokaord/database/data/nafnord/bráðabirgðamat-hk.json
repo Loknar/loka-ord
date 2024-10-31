@@ -1,0 +1,27 @@
+{
+	"orð": "bráðabirgðamat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bráða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bráð-kvk"
+		},
+		{
+			"mynd": "birgða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birgð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["bráðabirgðamat", "bráðabirgðamat", "bráðabirgðamati", "bráðabirgðamats"],
+		"mg": ["bráðabirgðamatið", "bráðabirgðamatið", "bráðabirgðamatinu", "bráðabirgðamatsins"]
+	},
+	"kennistrengur": "no-bráðabirgðamat-hk",
+	"hash": "0d426fc9290960d8b4f519f7a6a34f3cdb8f4f4674ac5610b6bd6b8dfeb2002e"
+}
