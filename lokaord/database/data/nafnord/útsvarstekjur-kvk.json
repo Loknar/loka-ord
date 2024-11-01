@@ -1,0 +1,27 @@
+{
+	"orð": "útsvarstekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "svars",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-svar-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["útsvarstekjur", "útsvarstekjur", "útsvarstekjum", "útsvarstekna"],
+		"mg": ["útsvarstekjurnar", "útsvarstekjurnar", "útsvarstekjunum", "útsvarsteknanna"]
+	},
+	"kennistrengur": "no-útsvarstekjur-kvk",
+	"hash": "5af6f524a55be8c953a83729e56202307d199f760877d13b80a49858e3ab0de0"
+}

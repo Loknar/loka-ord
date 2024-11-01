@@ -1,0 +1,87 @@
+{
+	"orð": "etja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "etja",
+		"sagnbót": "att",
+		"boðháttur": {
+			"stýfður": "et",
+			"et": "ettu",
+			"ft": "etjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["et", "etur", "etur"],
+					"ft": ["etjum", "etjið", "etja"]
+				},
+				"þátíð": {
+					"et": ["atti", "attir", "atti"],
+					"ft": ["öttum", "öttuð", "öttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["etji", "etjir", "etji"],
+					"ft": ["etjum", "etjið", "etji"]
+				},
+				"þátíð": {
+					"et": ["etti", "ettir", "etti"],
+					"ft": ["ettum", "ettuð", "ettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eturðu",
+					"ft": "etjiði"
+				},
+				"þátíð": {
+					"et": "attirðu",
+					"ft": "öttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "etjirðu",
+					"ft": "etjiði"
+				},
+				"þátíð": {
+					"et": "ettirðu",
+					"ft": "ettuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "etjast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["est", "est", "est"],
+					"ft": ["etjumst", "etjist", "etjast"]
+				},
+				"þátíð": {
+					"et": ["attist", "attist", "attist"],
+					"ft": ["öttumst", "öttust", "öttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["etjist", "etjist", "etjist"],
+					"ft": ["etjumst", "etjist", "etjist"]
+				},
+				"þátíð": {
+					"et": ["ettist", "ettist", "ettist"],
+					"ft": ["ettumst", "ettust", "ettust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "etjandi"
+	},
+	"kennistrengur": "so-etja",
+	"hash": "bca28643754fe1c72b1c73e99bb127c4f33b3f5db7b44cabcf050df6a18ae873"
+}

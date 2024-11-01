@@ -1,0 +1,48 @@
+{
+	"orð": "skaðabótaskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skaða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skaði-kk"
+		},
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skaðabótaskyldur", "skaðabótaskyldan", "skaðabótaskyldum", "skaðabótaskylds"],
+				"kvk": ["skaðabótaskyld", "skaðabótaskylda", "skaðabótaskyldri", "skaðabótaskyldrar"],
+				"hk": ["skaðabótaskylt", "skaðabótaskylt", "skaðabótaskyldu", "skaðabótaskylds"]
+			},
+			"ft": {
+				"kk": ["skaðabótaskyldir", "skaðabótaskylda", "skaðabótaskyldum", "skaðabótaskyldra"],
+				"kvk": ["skaðabótaskyldar", "skaðabótaskyldar", "skaðabótaskyldum", "skaðabótaskyldra"],
+				"hk": ["skaðabótaskyld", "skaðabótaskyld", "skaðabótaskyldum", "skaðabótaskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skaðabótaskyldi", "skaðabótaskylda", "skaðabótaskylda", "skaðabótaskylda"],
+				"kvk": ["skaðabótaskylda", "skaðabótaskyldu", "skaðabótaskyldu", "skaðabótaskyldu"],
+				"hk": ["skaðabótaskylda", "skaðabótaskylda", "skaðabótaskylda", "skaðabótaskylda"]
+			},
+			"ft": {
+				"kk": ["skaðabótaskyldu", "skaðabótaskyldu", "skaðabótaskyldu", "skaðabótaskyldu"],
+				"kvk": ["skaðabótaskyldu", "skaðabótaskyldu", "skaðabótaskyldu", "skaðabótaskyldu"],
+				"hk": ["skaðabótaskyldu", "skaðabótaskyldu", "skaðabótaskyldu", "skaðabótaskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skaðabótaskyldur",
+	"hash": "6343a1076ba6c44d5bf8fd365081fa856bb9569bbdc632e46378c5b05ed90cd7"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "rekstrarútgjöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["rekstrarútgjöld", "rekstrarútgjöld", "rekstrarútgjöldum", "rekstrarútgjalda"],
+		"mg": ["rekstrarútgjöldin", "rekstrarútgjöldin", "rekstrarútgjöldunum", "rekstrarútgjaldanna"]
+	},
+	"kennistrengur": "no-rekstrarútgjöld-hk",
+	"hash": "6380772cd4006e2c245955db5a175ed311c62c4db6afeb33fd40a796bed6f6c3"
+}

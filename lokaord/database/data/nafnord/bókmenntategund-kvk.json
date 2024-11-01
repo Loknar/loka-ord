@@ -1,0 +1,30 @@
+{
+	"orð": "bókmenntategund",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "mennta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mennt-kvk"
+		},
+		{
+			"kennistrengur": "no-tegund-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókmenntategund", "bókmenntategund", "bókmenntategund", "bókmenntategundar"],
+		"mg": ["bókmenntategundin", "bókmenntategundina", "bókmenntategundinni", "bókmenntategundarinnar"]
+	},
+	"ft": {
+		"ág": ["bókmenntategundir", "bókmenntategundir", "bókmenntategundum", "bókmenntategunda"],
+		"mg": ["bókmenntategundirnar", "bókmenntategundirnar", "bókmenntategundunum", "bókmenntategundanna"]
+	},
+	"kennistrengur": "no-bókmenntategund-kvk",
+	"hash": "c5ac98714215aefa13bbf4433f17871936ba169e7a3c609899d2bb355b2b89dd"
+}

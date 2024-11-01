@@ -1,0 +1,27 @@
+{
+	"orð": "sanngirnisbætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sann",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sannur"
+		},
+		{
+			"mynd": "girnis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-girni-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["sanngirnisbætur", "sanngirnisbætur", "sanngirnisbótum", "sanngirnisbóta"],
+		"mg": ["sanngirnisbæturnar", "sanngirnisbæturnar", "sanngirnisbótunum", "sanngirnisbótanna"]
+	},
+	"kennistrengur": "no-sanngirnisbætur-kvk",
+	"hash": "3ae5e30ed0b5b3ae3fc021d852cd22f0ffb652fe177932cc993384cba83951c4"
+}
