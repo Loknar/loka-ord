@@ -1,0 +1,48 @@
+{
+	"orð": "hagsumnalegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "muna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-munur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hagsmunalegur", "hagsmunalegan", "hagsmunalegum", "hagsmunalegs"],
+				"kvk": ["hagsmunaleg", "hagsmunalega", "hagsmunalegri", "hagsmunalegrar"],
+				"hk": ["hagsmunalegt", "hagsmunalegt", "hagsmunalegu", "hagsmunalegs"]
+			},
+			"ft": {
+				"kk": ["hagsmunalegir", "hagsmunalega", "hagsmunalegum", "hagsmunalegra"],
+				"kvk": ["hagsmunalegar", "hagsmunalegar", "hagsmunalegum", "hagsmunalegra"],
+				"hk": ["hagsmunaleg", "hagsmunaleg", "hagsmunalegum", "hagsmunalegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hagsmunalegi", "hagsmunalega", "hagsmunalega", "hagsmunalega"],
+				"kvk": ["hagsmunalega", "hagsmunalegu", "hagsmunalegu", "hagsmunalegu"],
+				"hk": ["hagsmunalega", "hagsmunalega", "hagsmunalega", "hagsmunalega"]
+			},
+			"ft": {
+				"kk": ["hagsmunalegu", "hagsmunalegu", "hagsmunalegu", "hagsmunalegu"],
+				"kvk": ["hagsmunalegu", "hagsmunalegu", "hagsmunalegu", "hagsmunalegu"],
+				"hk": ["hagsmunalegu", "hagsmunalegu", "hagsmunalegu", "hagsmunalegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hagsumnalegur",
+	"hash": "bcf9249759a31c7c1e48437a82824b8a0534553860d293aaa088dbb5aaff704e"
+}

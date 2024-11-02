@@ -1,0 +1,32 @@
+{
+	"orð": "meðalheildsöluverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "heild",
+			"samsetning": "stofn",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["meðalheildsöluverð", "meðalheildsöluverð", "meðalheildsöluverði", "meðalheildsöluverðs"],
+		"mg": ["meðalheildsöluverðið", "meðalheildsöluverðið", "meðalheildsöluverðinu", "meðalheildsöluverðsins"]
+	},
+	"kennistrengur": "no-meðalheildsöluverð-hk",
+	"hash": "cdbe4fd3ea35378930380cc4dfa3ce58c7f314d5591707b5bbd280b7a75dc7b4"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "smásöluverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "smá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-smár"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["smásöluverð", "smásöluverð", "smásöluverði", "smásöluverðs"],
+		"mg": ["smásöluverðið", "smásöluverðið", "smásöluverðinu", "smásöluverðsins"]
+	},
+	"kennistrengur": "no-smásöluverð-hk",
+	"hash": "df89b06d44b4278d8352ec6ade2011f371b08980a4c707d856b5cd678621b585"
+}
