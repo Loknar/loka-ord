@@ -1,0 +1,27 @@
+{
+	"orð": "bókmenntasaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "mennta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mennt-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókmenntasaga", "bókmenntasögu", "bókmenntasögu", "bókmenntasögu"],
+		"mg": ["bókmenntasagan", "bókmenntasöguna", "bókmenntasögunni", "bókmenntasögunnar"]
+	},
+	"kennistrengur": "no-bókmenntasaga-kvk",
+	"hash": "79c5b160ff20f988dd1049570cfe506cf67cba122f529fa6f539c7f72c56c008"
+}

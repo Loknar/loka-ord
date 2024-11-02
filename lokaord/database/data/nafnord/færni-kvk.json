@@ -2,10 +2,22 @@
 	"orð": "færni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fær",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-fær"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["færni", "færni", "færni", "færni"],
 		"mg": ["færnin", "færnina", "færninni", "færninnar"]
 	},
 	"kennistrengur": "no-færni-kvk",
-	"hash": "c10751ff16a74a7dce06cc315788287a4812e143e92c06085b2462eb45721986"
+	"hash": "2ef66c496cdaa7b29a28b2e243ef9f636a1217a433a6854fdb15f3f25a909755"
 }

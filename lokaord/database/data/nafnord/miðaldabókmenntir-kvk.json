@@ -1,0 +1,32 @@
+{
+	"orð": "miðaldabókmenntir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mið-hk"
+		},
+		{
+			"mynd": "alda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öld-kvk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mennt-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["miðaldabókmenntir", "miðaldabókmenntir", "miðaldabókmenntum", "miðaldabókmennta"],
+		"mg": ["miðaldabókmenntirnar", "miðaldabókmenntirnar", "miðaldabókmenntunum", "miðaldabókmenntanna"]
+	},
+	"kennistrengur": "no-miðaldabókmenntir-kvk",
+	"hash": "1d4eea2af9fc092a814434be76b476049998cc0aca7481f292fc34594facfa41"
+}

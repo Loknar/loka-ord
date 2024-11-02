@@ -1,0 +1,32 @@
+{
+	"orð": "samtímabókmenntir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mennt-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["samtímabókmenntir", "samtímabókmenntir", "samtímabókmenntum", "samtímabókmennta"],
+		"mg": ["samtímabókmenntirnar", "samtímabókmenntirnar", "samtímabókmenntunum", "samtímabókmenntanna"]
+	},
+	"kennistrengur": "no-samtímabókmenntir-kvk",
+	"hash": "574bcc79990fd21511e23a139630529afc66fdb444bc28a3edef101dbdf293ec"
+}
