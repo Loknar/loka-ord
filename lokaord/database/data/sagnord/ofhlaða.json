@@ -1,0 +1,131 @@
+{
+	"orð": "ofhlaða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hlaða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofhlaða",
+		"sagnbót": "ofhlaðið",
+		"boðháttur": {
+			"stýfður": "ofhlað",
+			"et": "ofhladdu",
+			"ft": "ofhlaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofhleð", "ofhleður", "ofhleður"],
+					"ft": ["ofhlöðum", "ofhlaðið", "ofhlaða"]
+				},
+				"þátíð": {
+					"et": ["ofhlóð", "ofhlóðst", "ofhlóð"],
+					"ft": ["ofhlóðum", "ofhlóðuð", "ofhlóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofhlaði", "ofhlaðir", "ofhlaði"],
+					"ft": ["ofhlöðum", "ofhlaðið", "ofhlaði"]
+				},
+				"þátíð": {
+					"et": ["ofhlæði", "ofhlæðir", "ofhlæði"],
+					"ft": ["ofhlæðum", "ofhlæðuð", "ofhlæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofhleðurðu",
+					"ft": "ofhlaðiði"
+				},
+				"þátíð": {
+					"et": "ofhlóðstu",
+					"ft": "ofhlóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofhlaðirðu",
+					"ft": "ofhlaðiði"
+				},
+				"þátíð": {
+					"et": "ofhlæðirðu",
+					"ft": "ofhlæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ofhlaðast",
+		"sagnbót": "ofhlaðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofhleðst", "ofhleðst", "ofhleðst"],
+					"ft": ["ofhlöðumst", "ofhlaðist", "ofhlaðast"]
+				},
+				"þátíð": {
+					"et": ["ofhlóðst", "ofhlóðst", "ofhlóðst"],
+					"ft": ["ofhlóðumst", "ofhlóðust", "ofhlóðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofhlaðist", "ofhlaðist", "ofhlaðist"],
+					"ft": ["ofhlöðumst", "ofhlaðist", "ofhlaðist"]
+				},
+				"þátíð": {
+					"et": ["ofhlæðist", "ofhlæðist", "ofhlæðist"],
+					"ft": ["ofhlæðumst", "ofhlæðust", "ofhlæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofhleðstu"
+				},
+				"þátíð": {
+					"et": "ofhlóðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofhlaðistu"
+				},
+				"þátíð": {
+					"et": "ofhlæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofhlaðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofhlaðinn", "ofhlaðinn", "ofhlöðnum", "ofhlaðins"],
+					"kvk": ["ofhlaðin", "ofhlaðna", "ofhlaðinni", "ofhlaðinnar"],
+					"hk": ["ofhlaðið", "ofhlaðið", "ofhlöðnu", "ofhlaðins"]
+				},
+				"ft": {
+					"kk": ["ofhlaðnir", "ofhlaðna", "ofhlöðnum", "ofhlaðinna"],
+					"kvk": ["ofhlaðnar", "ofhlaðnar", "ofhlöðnum", "ofhlaðinna"],
+					"hk": ["ofhlaðin", "ofhlaðin", "ofhlöðnum", "ofhlaðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofhlaða",
+	"hash": "7b6fced10dbbf191143320b52f8aac3cbca449db42778a400194e5bd0e71ff3e"
+}

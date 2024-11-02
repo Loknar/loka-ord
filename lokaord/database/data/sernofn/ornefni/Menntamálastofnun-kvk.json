@@ -1,0 +1,27 @@
+{
+	"orð": "Menntamálastofnun",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Mennta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mennt-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-stofnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Menntamálastofnun", "Menntamálastofnun", "Menntamálastofnun", "Menntamálastofnunar"]
+	},
+	"kennistrengur": "sérn.ön-Menntamálastofnun-kvk",
+	"hash": "31c285e702395db7b3c566af34f86b716223cc9209a0d523544480aaad5972bc"
+}

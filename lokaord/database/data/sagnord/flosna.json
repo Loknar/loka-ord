@@ -1,0 +1,88 @@
+{
+	"orð": "flosna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flos",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flos-hk"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flosna",
+		"sagnbót": "flosnað",
+		"boðháttur": {
+			"stýfður": "flosna",
+			"et": "flosnaðu",
+			"ft": "flosnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flosna", "flosnar", "flosnar"],
+					"ft": ["flosnum", "flosnið", "flosna"]
+				},
+				"þátíð": {
+					"et": ["flosnaði", "flosnaðir", "flosnaði"],
+					"ft": ["flosnuðum", "flosnuðuð", "flosnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flosni", "flosnir", "flosni"],
+					"ft": ["flosnum", "flosnið", "flosni"]
+				},
+				"þátíð": {
+					"et": ["flosnaði", "flosnaðir", "flosnaði"],
+					"ft": ["flosnuðum", "flosnuðuð", "flosnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flosnarðu",
+					"ft": "flosniði"
+				},
+				"þátíð": {
+					"et": "flosnaðirðu",
+					"ft": "flosnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flosnirðu",
+					"ft": "flosniði"
+				},
+				"þátíð": {
+					"et": "flosnaðirðu",
+					"ft": "flosnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flosnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flosnaður", "flosnaðan", "flosnuðum", "flosnaðs"],
+					"kvk": ["flosnuð", "flosnaða", "flosnaðri", "flosnaðrar"],
+					"hk": ["flosnað", "flosnað", "flosnuðu", "flosnaðs"]
+				},
+				"ft": {
+					"kk": ["flosnaðir", "flosnaða", "flosnuðum", "flosnaðra"],
+					"kvk": ["flosnaðar", "flosnaðar", "flosnuðum", "flosnaðra"],
+					"hk": ["flosnuð", "flosnuð", "flosnuðum", "flosnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flosna",
+	"hash": "c57b993de9aea786e58c59b1f42eb7cc25574c0a5ee79b5286d7a1d601c5a169"
+}
