@@ -1,0 +1,30 @@
+{
+	"orð": "sjúkdómstegund",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-tegund-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjúkdómstegund", "sjúkdómstegund", "sjúkdómstegund", "sjúkdómstegundar"],
+		"mg": ["sjúkdómstegundin", "sjúkdómstegundina", "sjúkdómstegundinni", "sjúkdómstegundarinnar"]
+	},
+	"ft": {
+		"ág": ["sjúkdómstegundir", "sjúkdómstegundir", "sjúkdómstegundum", "sjúkdómstegunda"],
+		"mg": ["sjúkdómstegundirnar", "sjúkdómstegundirnar", "sjúkdómstegundunum", "sjúkdómstegundanna"]
+	},
+	"kennistrengur": "no-sjúkdómstegund-kvk",
+	"hash": "69ff671e495fc7522d6172cef018cd6793ffd462a3251eece16933a83d40e9a9"
+}
