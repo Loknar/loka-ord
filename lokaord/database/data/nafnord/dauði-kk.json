@@ -2,6 +2,16 @@
 	"orð": "dauði",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "dauð",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-dauður"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["dauði", "dauða", "dauða", "dauða"],
 		"mg": ["dauðinn", "dauðann", "dauðanum", "dauðans"]
@@ -11,5 +21,5 @@
 		"mg": ["dauðarnir", "dauðana", "dauðunum", "dauðanna"]
 	},
 	"kennistrengur": "no-dauði-kk",
-	"hash": "dd93fbe44f6353f2e5ec7e5079cbdc2b93827bfd95ab6c1109de667e4c0d9f92"
+	"hash": "d4842d7ccb28b255c06f33f5351c9b15a760c164a495e2d4c439a5e47b8adc42"
 }

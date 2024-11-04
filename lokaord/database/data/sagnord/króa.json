@@ -1,0 +1,135 @@
+{
+	"orð": "króa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kró",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kró-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "króa",
+		"sagnbót": "króað",
+		"boðháttur": {
+			"stýfður": "króa",
+			"et": "króaðu",
+			"ft": "króið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["króa", "króar", "króar"],
+					"ft": ["króum", "króið", "króa"]
+				},
+				"þátíð": {
+					"et": ["króaði", "króaðir", "króaði"],
+					"ft": ["króuðum", "króuðuð", "króuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krói", "króir", "krói"],
+					"ft": ["króum", "króið", "krói"]
+				},
+				"þátíð": {
+					"et": ["króaði", "króaðir", "króaði"],
+					"ft": ["króuðum", "króuðuð", "króuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "króarðu",
+					"ft": "króiði"
+				},
+				"þátíð": {
+					"et": "króaðirðu",
+					"ft": "króuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "króirðu",
+					"ft": "króiði"
+				},
+				"þátíð": {
+					"et": "króaðirðu",
+					"ft": "króuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "króast",
+		"sagnbót": "króast",
+		"boðháttur": {
+			"et": "króastu",
+			"ft": "króist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["króast", "króast", "króast"],
+					"ft": ["króumst", "króist", "króast"]
+				},
+				"þátíð": {
+					"et": ["króaðist", "króaðist", "króaðist"],
+					"ft": ["króuðumst", "króuðust", "króuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["króist", "króist", "króist"],
+					"ft": ["króumst", "króist", "króist"]
+				},
+				"þátíð": {
+					"et": ["króaðist", "króaðist", "króaðist"],
+					"ft": ["króuðumst", "króuðust", "króuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "króastu"
+				},
+				"þátíð": {
+					"et": "króaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "króistu"
+				},
+				"þátíð": {
+					"et": "króaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "króandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["króaður", "króaðan", "króuðum", "króaðs"],
+					"kvk": ["króuð", "króaða", "króaðri", "króaðrar"],
+					"hk": ["króað", "króað", "króuðu", "króaðs"]
+				},
+				"ft": {
+					"kk": ["króaðir", "króaða", "króuðum", "króaðra"],
+					"kvk": ["króaðar", "króaðar", "króuðum", "króaðra"],
+					"hk": ["króuð", "króuð", "króuðum", "króaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-króa",
+	"hash": "1cece2a1d49d8aa73fbf0e6adfb1c2077811d24052c1836c79c1ec3885f773a6"
+}
