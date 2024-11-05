@@ -1,0 +1,87 @@
+{
+	"orð": "hörfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hörf",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hverfa"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hörfa",
+		"sagnbót": "hörfað",
+		"boðháttur": {
+			"stýfður": "hörfa",
+			"et": "hörfaðu",
+			"ft": "hörfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hörfa", "hörfar", "hörfar"],
+					"ft": ["hörfum", "hörfið", "hörfa"]
+				},
+				"þátíð": {
+					"et": ["hörfaði", "hörfaðir", "hörfaði"],
+					"ft": ["hörfuðum", "hörfuðuð", "hörfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hörfi", "hörfir", "hörfi"],
+					"ft": ["hörfum", "hörfið", "hörfi"]
+				},
+				"þátíð": {
+					"et": ["hörfaði", "hörfaðir", "hörfaði"],
+					"ft": ["hörfuðum", "hörfuðuð", "hörfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hörfarðu",
+					"ft": "hörfiði"
+				},
+				"þátíð": {
+					"et": "hörfaðirðu",
+					"ft": "hörfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hörfirðu",
+					"ft": "hörfiði"
+				},
+				"þátíð": {
+					"et": "hörfaðirðu",
+					"ft": "hörfuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hörfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hörfaður", "hörfaðan", "hörfuðum", "hörfaðs"],
+					"kvk": ["hörfuð", "hörfaða", "hörfaðri", "hörfaðrar"],
+					"hk": ["hörfað", "hörfað", "hörfuðu", "hörfaðs"]
+				},
+				"ft": {
+					"kk": ["hörfaðir", "hörfaða", "hörfuðum", "hörfaðra"],
+					"kvk": ["hörfaðar", "hörfaðar", "hörfuðum", "hörfaðra"],
+					"hk": ["hörfuð", "hörfuð", "hörfuðum", "hörfaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hörfa",
+	"hash": "a8095360353e77dac6129d9ac3c39fba1b1388196a21d7e5ac16012afa3a0ae5"
+}
