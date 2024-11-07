@@ -1,0 +1,65 @@
+{
+	"orð": "blygðast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "blygð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-blygð-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "blygðast",
+		"sagnbót": "blygðast",
+		"boðháttur": {
+			"et": "blygðastu",
+			"ft": "blygðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["blygðast", "blygðast", "blygðast"],
+					"ft": ["blygðumst", "blygðist", "blygðast"]
+				},
+				"þátíð": {
+					"et": ["blygðaðist", "blygðaðist", "blygðaðist"],
+					"ft": ["blygðuðumst", "blygðuðust", "blygðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["blygðist", "blygðist", "blygðist"],
+					"ft": ["blygðumst", "blygðist", "blygðist"]
+				},
+				"þátíð": {
+					"et": ["blygðaðist", "blygðaðist", "blygðaðist"],
+					"ft": ["blygðuðumst", "blygðuðust", "blygðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "blygðastu"
+				},
+				"þátíð": {
+					"et": "blygðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "blygðistu"
+				},
+				"þátíð": {
+					"et": "blygðaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-blygðast",
+	"hash": "47a222141fda8769bf6872fcf1e44c1068fa5f2c7aaf7a46097fec3f6fe87704"
+}

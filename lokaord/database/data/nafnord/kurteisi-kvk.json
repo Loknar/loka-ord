@@ -2,10 +2,21 @@
 	"orð": "kurteisi",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kurteis",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kurteis"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kurteisi", "kurteisi", "kurteisi", "kurteisi"],
 		"mg": ["kurteisin", "kurteisina", "kurteisinni", "kurteisinnar"]
 	},
 	"kennistrengur": "no-kurteisi-kvk",
-	"hash": "1f9d5cdbf86c83df671b581c76e77f6b3e7ab3b0cbed48aa1995e7ff8eed1e29"
+	"hash": "009e8aa8ee4565e25b6964e96f5d2794b3cf9485be06737cc56526cf701fc364"
 }
