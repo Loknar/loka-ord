@@ -1,0 +1,87 @@
+{
+	"orð": "endurhugsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-endur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hugsa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurhugsa",
+		"sagnbót": "endurhugsað",
+		"boðháttur": {
+			"stýfður": "endurhugsa",
+			"et": "endurhugsaðu",
+			"ft": "endurhugsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurhugsa", "endurhugsar", "endurhugsar"],
+					"ft": ["endurhugsum", "endurhugsið", "endurhugsa"]
+				},
+				"þátíð": {
+					"et": ["endurhugsaði", "endurhugsaðir", "endurhugsaði"],
+					"ft": ["endurhugsuðum", "endurhugsuðuð", "endurhugsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurhugsi", "endurhugsir", "endurhugsi"],
+					"ft": ["endurhugsum", "endurhugsið", "endurhugsi"]
+				},
+				"þátíð": {
+					"et": ["endurhugsaði", "endurhugsaðir", "endurhugsaði"],
+					"ft": ["endurhugsuðum", "endurhugsuðuð", "endurhugsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurhugsarðu",
+					"ft": "endurhugsiði"
+				},
+				"þátíð": {
+					"et": "endurhugsaðirðu",
+					"ft": "endurhugsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurhugsirðu",
+					"ft": "endurhugsiði"
+				},
+				"þátíð": {
+					"et": "endurhugsaðirðu",
+					"ft": "endurhugsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurhugsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurhugsaður", "endurhugsaðan", "endurhugsuðum", "endurhugsaðs"],
+					"kvk": ["endurhugsuð", "endurhugsaða", "endurhugsaðri", "endurhugsaðrar"],
+					"hk": ["endurhugsað", "endurhugsað", "endurhugsuðu", "endurhugsaðs"]
+				},
+				"ft": {
+					"kk": ["endurhugsaðir", "endurhugsaða", "endurhugsuðum", "endurhugsaðra"],
+					"kvk": ["endurhugsaðar", "endurhugsaðar", "endurhugsuðum", "endurhugsaðra"],
+					"hk": ["endurhugsuð", "endurhugsuð", "endurhugsuðum", "endurhugsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurhugsa",
+	"hash": "64cd591f9abb24e808600a008d347c9cde7d26ef1c6a3e47736f7bbf99499039"
+}

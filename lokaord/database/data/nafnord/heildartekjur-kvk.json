@@ -1,0 +1,22 @@
+{
+	"orð": "heildartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildartekjur", "heildartekjur", "heildartekjum", "heildartekna"],
+		"mg": ["heildartekjurnar", "heildartekjurnar", "heildartekjunum", "heildarteknanna"]
+	},
+	"kennistrengur": "no-heildartekjur-kvk",
+	"hash": "1d984107dd9e39ce6418ed30d43a749a75e501e879bb3ec92ab4cdddb1d668b7"
+}

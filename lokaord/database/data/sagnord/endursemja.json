@@ -1,0 +1,110 @@
+{
+	"orð": "endursemja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-endur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-semja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endursemja",
+		"sagnbót": "endursamið",
+		"boðháttur": {
+			"stýfður": "endursem",
+			"et": "endursemdu",
+			"ft": "endursemjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endursem", "endursemur", "endursemur"],
+					"ft": ["endursemjum", "endursemjið", "endursemja"]
+				},
+				"þátíð": {
+					"et": ["endursamdi", "endursamdir", "endursamdi"],
+					"ft": ["endursömdum", "endursömduð", "endursömdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endursemji", "endursemjir", "endursemji"],
+					"ft": ["endursemjum", "endursemjið", "endursemji"]
+				},
+				"þátíð": {
+					"et": ["endursemdi", "endursemdir", "endursemdi"],
+					"ft": ["endursemdum", "endursemduð", "endursemdu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endursemur", "endursemur", "endursemur"],
+					"ft": ["endursemur", "endursemur", "endursemur"]
+				},
+				"þátíð": {
+					"et": ["endursamdi", "endursamdi", "endursamdi"],
+					"ft": ["endursamdi", "endursamdi", "endursamdi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endursemji", "endursemji", "endursemji"],
+					"ft": ["endursemji", "endursemji", "endursemji"]
+				},
+				"þátíð": {
+					"et": ["endursemdi", "endursemdi", "endursemdi"],
+					"ft": ["endursemdi", "endursemdi", "endursemdi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endursemurðu",
+					"ft": "endursemjiði"
+				},
+				"þátíð": {
+					"et": "endursamdirðu",
+					"ft": "endursömduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endursemjirðu",
+					"ft": "endursemjiði"
+				},
+				"þátíð": {
+					"et": "endursemdirðu",
+					"ft": "endursemduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endursemjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endursaminn", "endursaminn", "endursömdum", "endursamins"],
+					"kvk": ["endursamin", "endursamda", "endursamdri", "endursamdrar"],
+					"hk": ["endursamið", "endursamið", "endursömdu", "endursamins"]
+				},
+				"ft": {
+					"kk": ["endursamdir", "endursamda", "endursömdum", "endursamdra"],
+					"kvk": ["endursamdar", "endursamdar", "endursömdum", "endursamdra"],
+					"hk": ["endursamin", "endursamin", "endursömdum", "endursamdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endursemja",
+	"hash": "e30a9e2ee6e4be036db36448577cbc8747de9f81eba1bad8b51ea969520ebaad"
+}

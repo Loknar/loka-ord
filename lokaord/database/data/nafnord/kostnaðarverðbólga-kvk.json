@@ -1,0 +1,27 @@
+{
+	"orð": "kostnaðarverðbólga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kostnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostnaður-kk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-bólga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kostnaðarverðbólga", "kostnaðarverðbólgu", "kostnaðarverðbólgu", "kostnaðarverðbólgu"],
+		"mg": ["kostnaðarverðbólgan", "kostnaðarverðbólguna", "kostnaðarverðbólgunni", "kostnaðarverðbólgunnar"]
+	},
+	"kennistrengur": "no-kostnaðarverðbólga-kvk",
+	"hash": "8053b766bf2f53ce394e1164cbf42784017a09dc52304dd2329156ad7c6d51d0"
+}

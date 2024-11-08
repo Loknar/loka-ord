@@ -1,0 +1,135 @@
+{
+	"orð": "sveipa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sveip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sveipur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sveipa",
+		"sagnbót": "sveipað",
+		"boðháttur": {
+			"stýfður": "sveipa",
+			"et": "sveipaðu",
+			"ft": "sveipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sveipa", "sveipar", "sveipar"],
+					"ft": ["sveipum", "sveipið", "sveipa"]
+				},
+				"þátíð": {
+					"et": ["sveipaði", "sveipaðir", "sveipaði"],
+					"ft": ["sveipuðum", "sveipuðuð", "sveipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sveipi", "sveipir", "sveipi"],
+					"ft": ["sveipum", "sveipið", "sveipi"]
+				},
+				"þátíð": {
+					"et": ["sveipaði", "sveipaðir", "sveipaði"],
+					"ft": ["sveipuðum", "sveipuðuð", "sveipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sveiparðu",
+					"ft": "sveipiði"
+				},
+				"þátíð": {
+					"et": "sveipaðirðu",
+					"ft": "sveipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sveipirðu",
+					"ft": "sveipiði"
+				},
+				"þátíð": {
+					"et": "sveipaðirðu",
+					"ft": "sveipuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sveipast",
+		"sagnbót": "sveipast",
+		"boðháttur": {
+			"et": "sveipastu",
+			"ft": "sveipist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sveipast", "sveipast", "sveipast"],
+					"ft": ["sveipumst", "sveipist", "sveipast"]
+				},
+				"þátíð": {
+					"et": ["sveipaðist", "sveipaðist", "sveipaðist"],
+					"ft": ["sveipuðumst", "sveipuðust", "sveipuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sveipist", "sveipist", "sveipist"],
+					"ft": ["sveipumst", "sveipist", "sveipist"]
+				},
+				"þátíð": {
+					"et": ["sveipaðist", "sveipaðist", "sveipaðist"],
+					"ft": ["sveipuðumst", "sveipuðust", "sveipuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sveipastu"
+				},
+				"þátíð": {
+					"et": "sveipaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sveipistu"
+				},
+				"þátíð": {
+					"et": "sveipaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sveipandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sveipaður", "sveipaðan", "sveipuðum", "sveipaðs"],
+					"kvk": ["sveipuð", "sveipaða", "sveipaðri", "sveipaðrar"],
+					"hk": ["sveipað", "sveipað", "sveipuðu", "sveipaðs"]
+				},
+				"ft": {
+					"kk": ["sveipaðir", "sveipaða", "sveipuðum", "sveipaðra"],
+					"kvk": ["sveipaðar", "sveipaðar", "sveipuðum", "sveipaðra"],
+					"hk": ["sveipuð", "sveipuð", "sveipuðum", "sveipaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sveipa",
+	"hash": "b6f1faf6ffba0eb9c5fdc156e6c7c4f8277fa220cdada3b3786dddd442e48e77"
+}

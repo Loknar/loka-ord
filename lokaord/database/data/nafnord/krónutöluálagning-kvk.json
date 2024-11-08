@@ -1,0 +1,35 @@
+{
+	"orð": "krónutöluálagning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "krónu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-króna-kvk"
+		},
+		{
+			"mynd": "tölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"kennistrengur": "no-lagning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["krónutöluálagning", "krónutöluálagningu", "krónutöluálagningu", "krónutöluálagningar"],
+		"mg": ["krónutöluálagningin", "krónutöluálagninguna", "krónutöluálagningunni", "krónutöluálagningarinnar"]
+	},
+	"ft": {
+		"ág": ["krónutöluálagningar", "krónutöluálagningar", "krónutöluálagningum", "krónutöluálagninga"],
+		"mg": ["krónutöluálagningarnar", "krónutöluálagningarnar", "krónutöluálagningunum", "krónutöluálagninganna"]
+	},
+	"kennistrengur": "no-krónutöluálagning-kvk",
+	"hash": "f4aa5c485fd0d008ac9d49161cc87441105099a451870ccfcc0efec1ff2c8d51"
+}

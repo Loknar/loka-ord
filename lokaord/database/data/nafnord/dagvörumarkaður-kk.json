@@ -1,0 +1,30 @@
+{
+	"orð": "dagvörumarkaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"kennistrengur": "no-markaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["dagvörumarkaður", "dagvörumarkað", "dagvörumarkaði", "dagvörumarkaðar"],
+		"mg": ["dagvörumarkaðurinn", "dagvörumarkaðinn", "dagvörumarkaðinum", "dagvörumarkaðarins"]
+	},
+	"ft": {
+		"ág": ["dagvörumarkaðir", "dagvörumarkaði", "dagvörumörkuðum", "dagvörumarkaða"],
+		"mg": ["dagvörumarkaðirnir", "dagvörumarkaðina", "dagvörumörkuðunum", "dagvörumarkaðanna"]
+	},
+	"kennistrengur": "no-dagvörumarkaður-kk",
+	"hash": "c2da9446569867c50052b1603cd9424da008281d01830ca8cb6f85beebaa9f0b"
+}

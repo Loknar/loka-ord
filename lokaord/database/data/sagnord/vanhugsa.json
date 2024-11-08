@@ -8,6 +8,7 @@
 			"kennistrengur": "smáo.ao-van-ó"
 		},
 		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-hugsa"
 		}
 	],
@@ -64,77 +65,6 @@
 			}
 		}
 	},
-	"miðmynd": {
-		"nafnháttur": "vanhugsast",
-		"sagnbót": "vanhugsast",
-		"boðháttur": {
-			"et": "vanhugsastu",
-			"ft": "vanhugsist"
-		},
-		"persónuleg": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["vanhugsast", "vanhugsast", "vanhugsast"],
-					"ft": ["vanhugsumst", "vanhugsist", "vanhugsast"]
-				},
-				"þátíð": {
-					"et": ["vanhugsaðist", "vanhugsaðist", "vanhugsaðist"],
-					"ft": ["vanhugsuðumst", "vanhugsuðust", "vanhugsuðust"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["vanhugsist", "vanhugsist", "vanhugsist"],
-					"ft": ["vanhugsumst", "vanhugsist", "vanhugsist"]
-				},
-				"þátíð": {
-					"et": ["vanhugsaðist", "vanhugsaðist", "vanhugsaðist"],
-					"ft": ["vanhugsuðumst", "vanhugsuðust", "vanhugsuðust"]
-				}
-			}
-		},
-		"ópersónuleg": {
-			"frumlag": "þágufałl",
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["vanhugsast", "vanhugsast", "vanhugsast"],
-					"ft": ["vanhugsast", "vanhugsast", "vanhugsast"]
-				},
-				"þátíð": {
-					"et": ["vanhugsaðist", "vanhugsaðist", "vanhugsaðist"],
-					"ft": ["vanhugsaðist", "vanhugsaðist", "vanhugsaðist"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["vanhugsist", "vanhugsist", "vanhugsist"],
-					"ft": ["vanhugsist", "vanhugsist", "vanhugsist"]
-				},
-				"þátíð": {
-					"et": ["vanhugsaðist", "vanhugsaðist", "vanhugsaðist"],
-					"ft": ["vanhugsaðist", "vanhugsaðist", "vanhugsaðist"]
-				}
-			}
-		},
-		"spurnarmyndir": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": "vanhugsastu"
-				},
-				"þátíð": {
-					"et": "vanhugsaðistu"
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": "vanhugsistu"
-				},
-				"þátíð": {
-					"et": "vanhugsaðistu"
-				}
-			}
-		}
-	},
 	"lýsingarháttur": {
 		"nútíðar": "vanhugsandi",
 		"þátíðar": {
@@ -149,21 +79,9 @@
 					"kvk": ["vanhugsaðar", "vanhugsaðar", "vanhugsuðum", "vanhugsaðra"],
 					"hk": ["vanhugsuð", "vanhugsuð", "vanhugsuðum", "vanhugsaðra"]
 				}
-			},
-			"vb": {
-				"et": {
-					"kk": ["vanhugsaði", "vanhugsaða", "vanhugsaða", "vanhugsaða"],
-					"kvk": ["vanhugsaða", "vanhugsuðu", "vanhugsuðu", "vanhugsuðu"],
-					"hk": ["vanhugsaða", "vanhugsaða", "vanhugsaða", "vanhugsaða"]
-				},
-				"ft": {
-					"kk": ["vanhugsuðu", "vanhugsuðu", "vanhugsuðu", "vanhugsuðu"],
-					"kvk": ["vanhugsuðu", "vanhugsuðu", "vanhugsuðu", "vanhugsuðu"],
-					"hk": ["vanhugsuðu", "vanhugsuðu", "vanhugsuðu", "vanhugsuðu"]
-				}
 			}
 		}
 	},
 	"kennistrengur": "so-vanhugsa",
-	"hash": "8cce50f51d6ccfd98096d9b6a0cbe395a7d8fec3966a6cfe750c01643d407b69"
+	"hash": "a3a9371975bf84ae0c95e63440589062fc98fbf2f471df8dadce74e754b06e55"
 }
