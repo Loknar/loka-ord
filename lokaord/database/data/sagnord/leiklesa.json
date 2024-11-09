@@ -1,0 +1,87 @@
+{
+	"orð": "leiklesa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "leik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leikur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lesa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "leiklesa",
+		"sagnbót": "leiklesið",
+		"boðháttur": {
+			"stýfður": "leikles",
+			"et": "leiklestu",
+			"ft": "leiklesið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leikles", "leiklest", "leikles"],
+					"ft": ["leiklesum", "leiklesið", "leiklesa"]
+				},
+				"þátíð": {
+					"et": ["leiklas", "leiklast", "leiklas"],
+					"ft": ["leiklásum", "leiklásuð", "leiklásu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leiklesi", "leiklesir", "leiklesi"],
+					"ft": ["leiklesum", "leiklesið", "leiklesi"]
+				},
+				"þátíð": {
+					"et": ["leiklæsi", "leiklæsir", "leiklæsi"],
+					"ft": ["leiklæsum", "leiklæsuð", "leiklæsu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leiklestu",
+					"ft": "leiklesiði"
+				},
+				"þátíð": {
+					"et": "leiklastu",
+					"ft": "leiklásuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leiklesirðu",
+					"ft": "leiklesiði"
+				},
+				"þátíð": {
+					"et": "leiklæsirðu",
+					"ft": "leiklæsuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leiklesandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leiklesinn", "leiklesinn", "leiklesnum", "leiklesins"],
+					"kvk": ["leiklesin", "leiklesna", "leiklesinni", "leiklesinnar"],
+					"hk": ["leiklesið", "leiklesið", "leiklesnu", "leiklesins"]
+				},
+				"ft": {
+					"kk": ["leiklesnir", "leiklesna", "leiklesnum", "leiklesinna"],
+					"kvk": ["leiklesnar", "leiklesnar", "leiklesnum", "leiklesinna"],
+					"hk": ["leiklesin", "leiklesin", "leiklesnum", "leiklesinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leiklesa",
+	"hash": "5322fb12e94158cd1467a1f0d4c13cc2f9093ec522e90916c33be23cf5a826ec"
+}
