@@ -2,6 +2,16 @@
 	"orð": "leifð",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leif-kvk"
+		},
+		{
+			"kennistrengur": "no-ð-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["leifð", "leifð", "leifð", "leifðar"],
 		"mg": ["leifðin", "leifðina", "leifðinni", "leifðarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["leifðirnar", "leifðirnar", "leifðunum", "leifðanna"]
 	},
 	"kennistrengur": "no-leifð-kvk",
-	"hash": "28c51135d593d1d36d221d851988c3282d78196bbc45151184326d78c2525bb5"
+	"hash": "1f2dca795298a813d89aa250187f941fb9b996862ed14a75beb2dc372d994b6c"
 }
