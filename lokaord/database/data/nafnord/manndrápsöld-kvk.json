@@ -1,0 +1,27 @@
+{
+	"orð": "manndrápsöld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"mynd": "dráps",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dráp-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-öld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["manndrápsöld", "manndrápsöld", "manndrápsöld", "manndrápsaldar"],
+		"mg": ["manndrápsöldin", "manndrápsöldina", "manndrápsöldinni", "manndrápsaldarinnar"]
+	},
+	"kennistrengur": "no-manndrápsöld-kvk",
+	"hash": "bec7eee9100f2dfbb4ccd4ba822b053e6cda72788e2352dea4f5f52c290767f9"
+}

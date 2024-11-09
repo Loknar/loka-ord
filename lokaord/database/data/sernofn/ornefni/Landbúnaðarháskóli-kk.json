@@ -5,23 +5,13 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "Land",
-			"samsetning": "stofn",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "búnaðar",
+			"mynd": "Landbúnaðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-búnaður-kk"
-		},
-		{
-			"mynd": "há",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-hár"
+			"kennistrengur": "no-landbúnaður-kk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-skóli-kk"
+			"kennistrengur": "no-háskóli-kk"
 		}
 	],
 	"et": {
@@ -29,5 +19,5 @@
 		"mg": ["Landbúnaðarháskólinn", "Landbúnaðarháskólann", "Landbúnaðarháskólanum", "Landbúnaðarháskólans"]
 	},
 	"kennistrengur": "sérn.ön-Landbúnaðarháskóli-kk",
-	"hash": "499272d315478d15c9a8e27d46722af991c408b377bdf5753b4a91cd6eec8ef0"
+	"hash": "d2c64150de84599b916ec1ab4603c179d1e97bc464a7aa76021573ac220b2774"
 }

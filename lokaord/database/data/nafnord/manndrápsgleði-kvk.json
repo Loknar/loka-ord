@@ -1,0 +1,27 @@
+{
+	"orð": "manndrápsgleði",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"mynd": "dráps",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dráp-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gleði-kvk"
+		}
+	],
+	"et": {
+		"ág": ["manndrápsgleði", "manndrápsgleði", "manndrápsgleði", "manndrápsgleði"],
+		"mg": ["manndrápsgleðin", "manndrápsgleðina", "manndrápsgleðinni", "manndrápsgleðinnar"]
+	},
+	"kennistrengur": "no-manndrápsgleði-kvk",
+	"hash": "7c56a15217a07ea25030844ac96403a35fcdada5e8c72998d32b9b8de8aee7f8"
+}
