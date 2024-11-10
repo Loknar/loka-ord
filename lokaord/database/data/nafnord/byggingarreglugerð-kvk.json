@@ -1,0 +1,30 @@
+{
+	"orð": "byggingarreglugerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"mynd": "reglu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-regla-kvk"
+		},
+		{
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["byggingarreglugerð", "byggingarreglugerð", "byggingarreglugerð", "byggingarreglugerðar"],
+		"mg": ["byggingarreglugerðin", "byggingarreglugerðina", "byggingarreglugerðinni", "byggingarreglugerðarinnar"]
+	},
+	"ft": {
+		"ág": ["byggingarreglugerðir", "byggingarreglugerðir", "byggingarreglugerðum", "byggingarreglugerða"],
+		"mg": ["byggingarreglugerðirnar", "byggingarreglugerðirnar", "byggingarreglugerðunum", "byggingarreglugerðanna"]
+	},
+	"kennistrengur": "no-byggingarreglugerð-kvk",
+	"hash": "0cfaa1801f93d4cb3cbea4881afce1ead8933f279c1d376bc9d8008cf55f40ad"
+}
