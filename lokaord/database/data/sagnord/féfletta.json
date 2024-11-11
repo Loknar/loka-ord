@@ -1,0 +1,87 @@
+{
+	"orð": "féfletta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fé",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-fletta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "féfletta",
+		"sagnbót": "féflett",
+		"boðháttur": {
+			"stýfður": "féflett",
+			"et": "féflettu",
+			"ft": "féflettið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["féfletti", "féflettir", "féflettir"],
+					"ft": ["féflettum", "féflettið", "féfletta"]
+				},
+				"þátíð": {
+					"et": ["féfletti", "féflettir", "féfletti"],
+					"ft": ["féflettum", "féflettuð", "féflettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["féfletti", "féflettir", "féfletti"],
+					"ft": ["féflettum", "féflettið", "féfletti"]
+				},
+				"þátíð": {
+					"et": ["féfletti", "féflettir", "féfletti"],
+					"ft": ["féflettum", "féflettuð", "féflettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "féflettirðu",
+					"ft": "féflettiði"
+				},
+				"þátíð": {
+					"et": "féflettirðu",
+					"ft": "féflettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "féflettirðu",
+					"ft": "féflettiði"
+				},
+				"þátíð": {
+					"et": "féflettirðu",
+					"ft": "féflettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "féflettandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["féflettur", "féflettan", "féflettum", "féfletts"],
+					"kvk": ["féflett", "féfletta", "féflettri", "féflettrar"],
+					"hk": ["féflett", "féflett", "féflettu", "féfletts"]
+				},
+				"ft": {
+					"kk": ["féflettir", "féfletta", "féflettum", "féflettra"],
+					"kvk": ["féflettar", "féflettar", "féflettum", "féflettra"],
+					"hk": ["féflett", "féflett", "féflettum", "féflettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-féfletta",
+	"hash": "53c1b3adae882a796713a2003721a853e7302cd652330e59a054b581a38328f3"
+}
