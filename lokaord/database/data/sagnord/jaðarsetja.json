@@ -1,0 +1,87 @@
+{
+	"orð": "jaðarsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jaðar",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jaðar-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jaðarsetja",
+		"sagnbót": "jaðarsett",
+		"boðháttur": {
+			"stýfður": "jaðarset",
+			"et": "jaðarsettu",
+			"ft": "jaðarsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jaðarset", "jaðarsetur", "jaðarsetur"],
+					"ft": ["jaðarsetjum", "jaðarsetjið", "jaðarsetja"]
+				},
+				"þátíð": {
+					"et": ["jaðarsetti", "jaðarsettir", "jaðarsett"],
+					"ft": ["jaðarsettum", "jaðarsettuð", "jaðarsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jaðarsetji", "jaðarsetjir", "jaðarsetji"],
+					"ft": ["jaðarsetjum", "jaðarsetjið", "jaðarsetji"]
+				},
+				"þátíð": {
+					"et": ["jaðarsetti", "jaðarsettir", "jaðarsetti"],
+					"ft": ["jaðarsettum", "jaðarsettuð", "jaðarsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "jaðarseturðu",
+					"ft": "jaðarsetjiði"
+				},
+				"þátíð": {
+					"et": "jaðarsettirðu",
+					"ft": "jaðarsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "jaðarsetjirðu",
+					"ft": "jaðarsetjiði"
+				},
+				"þátíð": {
+					"et": "jaðarsettirðu",
+					"ft": "jaðarsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "jaðarsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["jaðarsettur", "jaðarsettan", "jaðarsettum", "jaðarsetts"],
+					"kvk": ["jaðarsett", "jaðarsetta", "jaðarsettri", "jaðarsettrar"],
+					"hk": ["jaðarsett", "jaðarsett", "jaðarsettu", "jaðarsetts"]
+				},
+				"ft": {
+					"kk": ["jaðarsettir", "jaðarsetta", "jaðarsettum", "jaðarsettra"],
+					"kvk": ["jaðarsettar", "jaðarsettar", "jaðarsettum", "jaðarsettra"],
+					"hk": ["jaðarsett", "jaðarsett", "jaðarsettum", "jaðarsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-jaðarsetja",
+	"hash": "eb9de05332898cc72e746ecd5e04fc99b1c0bc8153cabb877a3b5cdc5eb36ba7"
+}

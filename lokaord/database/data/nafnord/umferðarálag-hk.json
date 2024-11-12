@@ -1,0 +1,32 @@
+{
+	"orð": "umferðarálag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "ferðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["umferðarálag", "umferðarálag", "umferðarálagi", "umferðarálags"],
+		"mg": ["umferðarálagið", "umferðarálagið", "umferðarálaginu", "umferðarálagsins"]
+	},
+	"kennistrengur": "no-umferðarálag-hk",
+	"hash": "76fd41c3e5bf8a38dfa78d213638c6812c5d7fde51ec1c515ea74a5eb09069a4"
+}

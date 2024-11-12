@@ -1,6 +1,16 @@
 {
 	"orð": "stífla",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stífl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stífla-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "stífla",
 		"sagnbót": "stíflað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "stíflast",
 		"sagnbót": "stíflast",
+		"boðháttur": {
+			"et": "stíflastu",
+			"ft": "stíflist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-stífla",
-	"hash": "d8dbae57378d2956a3f366de7aa13703c3d193cfdf824767e2167d3b39341efc"
+	"hash": "91713c69341bd6bac0cf37d4cdad5b8e3fbcd79c634a0bea535c260152f4c757"
 }

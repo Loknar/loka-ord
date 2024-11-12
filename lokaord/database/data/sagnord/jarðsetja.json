@@ -1,0 +1,87 @@
+{
+	"orð": "jarðsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jarð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jarðsetja",
+		"sagnbót": "jarðsett",
+		"boðháttur": {
+			"stýfður": "jarðset",
+			"et": "jarðsettu",
+			"ft": "jarðsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jarðset", "jarðsetur", "jarðsetur"],
+					"ft": ["jarðsetjum", "jarðsetjið", "jarðsetja"]
+				},
+				"þátíð": {
+					"et": ["jarðsetti", "jarðsettir", "jarðsett"],
+					"ft": ["jarðsettum", "jarðsettuð", "jarðsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jarðsetji", "jarðsetjir", "jarðsetji"],
+					"ft": ["jarðsetjum", "jarðsetjið", "jarðsetji"]
+				},
+				"þátíð": {
+					"et": ["jarðsetti", "jarðsettir", "jarðsetti"],
+					"ft": ["jarðsettum", "jarðsettuð", "jarðsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "jarðseturðu",
+					"ft": "jarðsetjiði"
+				},
+				"þátíð": {
+					"et": "jarðsettirðu",
+					"ft": "jarðsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "jarðsetjirðu",
+					"ft": "jarðsetjiði"
+				},
+				"þátíð": {
+					"et": "jarðsettirðu",
+					"ft": "jarðsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "jarðsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["jarðsettur", "jarðsettan", "jarðsettum", "jarðsetts"],
+					"kvk": ["jarðsett", "jarðsetta", "jarðsettri", "jarðsettrar"],
+					"hk": ["jarðsett", "jarðsett", "jarðsettu", "jarðsetts"]
+				},
+				"ft": {
+					"kk": ["jarðsettir", "jarðsetta", "jarðsettum", "jarðsettra"],
+					"kvk": ["jarðsettar", "jarðsettar", "jarðsettum", "jarðsettra"],
+					"hk": ["jarðsett", "jarðsett", "jarðsettum", "jarðsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-jarðsetja",
+	"hash": "5f8f4cfb1e356431bbf92f64e9e1ef0917c48c28d9ce9b4e5aaf1e8d186fbfd1"
+}
