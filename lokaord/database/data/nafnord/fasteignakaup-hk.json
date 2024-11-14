@@ -1,0 +1,22 @@
+{
+	"orð": "fasteignakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fasteigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fasteignakaup", "fasteignakaup", "fasteignakaupum", "fasteignakaupa"],
+		"mg": ["fasteignakaupin", "fasteignakaupin", "fasteignakaupunum", "fasteignakaupanna"]
+	},
+	"kennistrengur": "no-fasteignakaup-hk",
+	"hash": "75331a83bcde8202dae249c3fee7e39dfd831c7a324c420d12626d6ea6c3b442"
+}
