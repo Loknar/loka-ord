@@ -77,6 +77,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "miðast",
+		"sagnbót": "miðast",
+		"boðháttur": {
+			"et": "miðastu",
+			"ft": "miðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["miðast", "miðast", "miðast"],
+					"ft": ["miðumst", "miðist", "miðast"]
+				},
+				"þátíð": {
+					"et": ["miðaðist", "miðaðist", "miðaðist"],
+					"ft": ["miðuðumst", "miðuðust", "miðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["miðist", "miðist", "miðist"],
+					"ft": ["miðumst", "miðist", "miðist"]
+				},
+				"þátíð": {
+					"et": ["miðaðist", "miðaðist", "miðaðist"],
+					"ft": ["miðuðumst", "miðuðust", "miðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "miðastu"
+				},
+				"þátíð": {
+					"et": "miðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "miðistu"
+				},
+				"þátíð": {
+					"et": "miðaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "miðandi",
 		"þátíðar": {
@@ -107,5 +155,5 @@
 		}
 	},
 	"kennistrengur": "so-miða",
-	"hash": "4618aee749a57e6ce0ec0bc0c1153742f4d9171bdcd655bd771fd53504ab8b17"
+	"hash": "e87d2a08920177fbb95227f5c449438a8d563004d9817740cdf99261fce4f9a0"
 }

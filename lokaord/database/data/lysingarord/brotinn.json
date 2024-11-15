@@ -8,7 +8,6 @@
 			"kennistrengur": "so-brjóta"
 		},
 		{
-			"beygingar": ["frumstig", "miðstig"],
 			"kennistrengur": "lo-inn-ó"
 		}
 	],
@@ -52,6 +51,32 @@
 			}
 		}
 	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["brotnastur", "brotnastan", "brotnustum", "brotnasts"],
+				"kvk": ["brotnust", "brotnasta", "brotnastri", "brotnastrar"],
+				"hk": ["brotnast", "brotnast", "brotnustu", "brotnasts"]
+			},
+			"ft": {
+				"kk": ["brotnastir", "brotnasta", "brotnustum", "brotnastra"],
+				"kvk": ["brotnastar", "brotnastar", "brotnustum", "brotnastra"],
+				"hk": ["brotnust", "brotnust", "brotnustum", "brotnastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["brotnasti", "brotnasta", "brotnasta", "brotnasta"],
+				"kvk": ["brotnasta", "brotnustu", "brotnustu", "brotnustu"],
+				"hk": ["brotnasta", "brotnasta", "brotnasta", "brotnasta"]
+			},
+			"ft": {
+				"kk": ["brotnustu", "brotnustu", "brotnustu", "brotnustu"],
+				"kvk": ["brotnustu", "brotnustu", "brotnustu", "brotnustu"],
+				"hk": ["brotnustu", "brotnustu", "brotnustu", "brotnustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-brotinn",
-	"hash": "5bbf123c95ea2dff4be86f960bd649dc123125e32e42ef1fed5179c4dd615db1"
+	"hash": "eabc5f0e47c0c27aff2386b05d67a2fe4a5ac8b402170e90fb3cc1cb340fd66f"
 }
