@@ -1,0 +1,135 @@
+{
+	"orð": "trafala",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "trafal",
+			"samsetning": "stofn",
+			"kennistrengur": "no-trafali-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "trafala",
+		"sagnbót": "trafalað",
+		"boðháttur": {
+			"stýfður": "trafala",
+			"et": "trafalaðu",
+			"ft": "trafalið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trafala", "trafalar", "trafalar"],
+					"ft": ["trafalum", "trafalið", "trafala"]
+				},
+				"þátíð": {
+					"et": ["trafalaði", "trafalaðir", "trafalaði"],
+					"ft": ["trafaluðum", "trafaluðuð", "trafaluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trafali", "trafalir", "trafali"],
+					"ft": ["trafalum", "trafalið", "trafali"]
+				},
+				"þátíð": {
+					"et": ["trafalaði", "trafalaðir", "trafalaði"],
+					"ft": ["trafaluðum", "trafaluðuð", "trafaluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "trafalarðu",
+					"ft": "trafaliði"
+				},
+				"þátíð": {
+					"et": "trafalaðirðu",
+					"ft": "trafaluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "trafalirðu",
+					"ft": "trafaliði"
+				},
+				"þátíð": {
+					"et": "trafalaðirðu",
+					"ft": "trafaluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "trafalast",
+		"sagnbót": "trafalast",
+		"boðháttur": {
+			"et": "trafalastu",
+			"ft": "trafalist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trafalast", "trafalast", "trafalast"],
+					"ft": ["trafalumst", "trafalist", "trafalast"]
+				},
+				"þátíð": {
+					"et": ["trafalaðist", "trafalaðist", "trafalaðist"],
+					"ft": ["trafaluðumst", "trafaluðust", "trafaluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trafalist", "trafalist", "trafalist"],
+					"ft": ["trafalumst", "trafalist", "trafalist"]
+				},
+				"þátíð": {
+					"et": ["trafalaðist", "trafalaðist", "trafalaðist"],
+					"ft": ["trafaluðumst", "trafaluðust", "trafaluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "trafalastu"
+				},
+				"þátíð": {
+					"et": "trafalaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "trafalistu"
+				},
+				"þátíð": {
+					"et": "trafalaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "trafalandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["trafalaður", "trafalaðan", "trafaluðum", "trafalaðs"],
+					"kvk": ["trafaluð", "trafalaða", "trafalaðri", "trafalaðrar"],
+					"hk": ["trafalað", "trafalað", "trafaluðu", "trafalaðs"]
+				},
+				"ft": {
+					"kk": ["trafalaðir", "trafalaða", "trafaluðum", "trafalaðra"],
+					"kvk": ["trafalaðar", "trafalaðar", "trafaluðum", "trafalaðra"],
+					"hk": ["trafaluð", "trafaluð", "trafaluðum", "trafalaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-trafala",
+	"hash": "fdf7e54856427d6f8cc72e3d2908b180c53596d82107afc591ddaa8f5c2999d2"
+}

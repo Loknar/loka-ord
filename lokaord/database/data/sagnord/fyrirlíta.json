@@ -1,0 +1,87 @@
+{
+	"orð": "fyrirlíta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-byggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fyrirbyggja",
+		"sagnbót": "fyrirbyggt",
+		"boðháttur": {
+			"stýfður": "fyrirbygg",
+			"et": "fyrirbyggðu",
+			"ft": "fyrirbyggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirbyggi", "fyrirbyggir", "fyrirbyggir"],
+					"ft": ["fyrirbyggjum", "fyrirbyggið", "fyrirbyggja"]
+				},
+				"þátíð": {
+					"et": ["fyrirbyggði", "fyrirbyggðir", "fyrirbyggði"],
+					"ft": ["fyrirbyggðum", "fyrirbyggðuð", "fyrirbyggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirbyggi", "fyrirbyggir", "fyrirbyggi"],
+					"ft": ["fyrirbyggjum", "fyrirbyggið", "fyrirbyggi"]
+				},
+				"þátíð": {
+					"et": ["fyrirbyggði", "fyrirbyggðir", "fyrirbyggði"],
+					"ft": ["fyrirbyggðum", "fyrirbyggðuð", "fyrirbyggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirbyggirðu",
+					"ft": "fyrirbyggiði"
+				},
+				"þátíð": {
+					"et": "fyrirbyggðirðu",
+					"ft": "fyrirbyggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirbyggirðu",
+					"ft": "fyrirbyggiði"
+				},
+				"þátíð": {
+					"et": "fyrirbyggðirðu",
+					"ft": "fyrirbyggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fyrirbyggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fyrirbyggður", "fyrirbyggðan", "fyrirbyggðum", "fyrirbyggðs"],
+					"kvk": ["fyrirbyggð", "fyrirbyggða", "fyrirbyggðri", "fyrirbyggðrar"],
+					"hk": ["fyrirbyggt", "fyrirbyggt", "fyrirbyggðu", "fyrirbyggðs"]
+				},
+				"ft": {
+					"kk": ["fyrirbyggðir", "fyrirbyggða", "fyrirbyggðum", "fyrirbyggðra"],
+					"kvk": ["fyrirbyggðar", "fyrirbyggðar", "fyrirbyggðum", "fyrirbyggðra"],
+					"hk": ["fyrirbyggð", "fyrirbyggð", "fyrirbyggðum", "fyrirbyggðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fyrirlíta",
+	"hash": "0fc614f7a19e8fa8f3eb3096bc2a53ce20ded6f00fab1535963e9e41bf2eaa08"
+}

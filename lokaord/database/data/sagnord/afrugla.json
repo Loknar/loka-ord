@@ -1,0 +1,131 @@
+{
+	"orð": "afrugla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-rugla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afrugla",
+		"sagnbót": "afruglað",
+		"boðháttur": {
+			"stýfður": "afrugla",
+			"et": "afruglaðu",
+			"ft": "afruglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afrugla", "afruglar", "afruglar"],
+					"ft": ["afruglum", "afruglið", "afrugla"]
+				},
+				"þátíð": {
+					"et": ["afruglaði", "afruglaðir", "afruglaði"],
+					"ft": ["afrugluðum", "afrugluðuð", "afrugluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afrugli", "afruglir", "afrugli"],
+					"ft": ["afruglum", "afruglið", "afrugli"]
+				},
+				"þátíð": {
+					"et": ["afruglaði", "afruglaðir", "afruglaði"],
+					"ft": ["afrugluðum", "afrugluðuð", "afrugluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afruglarðu",
+					"ft": "afrugliði"
+				},
+				"þátíð": {
+					"et": "afruglaðirðu",
+					"ft": "afrugluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afruglirðu",
+					"ft": "afrugliði"
+				},
+				"þátíð": {
+					"et": "afruglaðirðu",
+					"ft": "afrugluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afruglast",
+		"sagnbót": "afruglast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afruglast", "afruglast", "afruglast"],
+					"ft": ["afruglumst", "afruglist", "afruglast"]
+				},
+				"þátíð": {
+					"et": ["afruglaðist", "afruglaðist", "afruglaðist"],
+					"ft": ["afrugluðumst", "afrugluðust", "afrugluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afruglist", "afruglist", "afruglist"],
+					"ft": ["afruglumst", "afruglist", "afruglist"]
+				},
+				"þátíð": {
+					"et": ["afruglaðist", "afruglaðist", "afruglaðist"],
+					"ft": ["afrugluðumst", "afrugluðust", "afrugluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afruglastu"
+				},
+				"þátíð": {
+					"et": "afruglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afruglistu"
+				},
+				"þátíð": {
+					"et": "afruglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afruglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afruglaður", "afruglaðan", "afrugluðum", "afruglaðs"],
+					"kvk": ["afrugluð", "afruglaða", "afruglaðri", "afruglaðrar"],
+					"hk": ["afruglað", "afruglað", "afrugluðu", "afruglaðs"]
+				},
+				"ft": {
+					"kk": ["afruglaðir", "afruglaða", "afrugluðum", "afruglaðra"],
+					"kvk": ["afruglaðar", "afruglaðar", "afrugluðum", "afruglaðra"],
+					"hk": ["afrugluð", "afrugluð", "afrugluðum", "afruglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afrugla",
+	"hash": "ef2d615add7128d55775b862810815a5bd30811f4ad0859e8dc79ac24cd5b2b5"
+}
