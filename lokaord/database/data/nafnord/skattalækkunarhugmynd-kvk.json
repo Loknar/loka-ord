@@ -1,0 +1,35 @@
+{
+	"orð": "skattalækkunarhugmynd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "lækkunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lækkun-kvk"
+		},
+		{
+			"mynd": "hug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hugur-kk"
+		},
+		{
+			"kennistrengur": "no-mynd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skattalækkunarhugmynd", "skattalækkunarhugmynd", "skattalækkunarhugmynd", "skattalækkunarhugmyndar"],
+		"mg": ["skattalækkunarhugmyndin", "skattalækkunarhugmyndina", "skattalækkunarhugmyndinni", "skattalækkunarhugmyndarinnar"]
+	},
+	"ft": {
+		"ág": ["skattalækkunarhugmyndir", "skattalækkunarhugmyndir", "skattalækkunarhugmyndum", "skattalækkunarhugmynda"],
+		"mg": ["skattalækkunarhugmyndirnar", "skattalækkunarhugmyndirnar", "skattalækkunarhugmyndunum", "skattalækkunarhugmyndanna"]
+	},
+	"kennistrengur": "no-skattalækkunarhugmynd-kvk",
+	"hash": "0c4a42212b4a9c22fbac4adfbb6fbc17b886c79ac7d7d7f8b728f7f6a9469c11"
+}
