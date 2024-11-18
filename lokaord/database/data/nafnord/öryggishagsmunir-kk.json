@@ -1,0 +1,27 @@
+{
+	"orð": "öryggishagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "öryggis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öryggi-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["öryggishagsmunir", "öryggishagsmuni", "öryggishagsmunum", "öryggishagsmuna"],
+		"mg": ["öryggishagsmunirnir", "öryggishagsmunina", "öryggishagsmununum", "öryggishagsmunanna"]
+	},
+	"kennistrengur": "no-öryggishagsmunir-kk",
+	"hash": "4ae7af28257a404ded7fe9abdf7206e062345c49ee4588757e4539caa9a26e8f"
+}

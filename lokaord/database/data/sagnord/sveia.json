@@ -1,0 +1,135 @@
+{
+	"orð": "sveia",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "svei",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-svei"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sveia",
+		"sagnbót": "sveiað",
+		"boðháttur": {
+			"stýfður": "sveia",
+			"et": "sveiaðu",
+			"ft": "sveiið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sveia", "sveiar", "sveiar"],
+					"ft": ["sveium", "sveiið", "sveia"]
+				},
+				"þátíð": {
+					"et": ["sveiaði", "sveiaðir", "sveiaði"],
+					"ft": ["sveiuðum", "sveiuðuð", "sveiuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sveii", "sveiir", "sveii"],
+					"ft": ["sveium", "sveiið", "sveii"]
+				},
+				"þátíð": {
+					"et": ["sveiaði", "sveiaðir", "sveiaði"],
+					"ft": ["sveiuðum", "sveiuðuð", "sveiuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sveiarðu",
+					"ft": "sveiiði"
+				},
+				"þátíð": {
+					"et": "sveiaðirðu",
+					"ft": "sveiuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sveiirðu",
+					"ft": "sveiiði"
+				},
+				"þátíð": {
+					"et": "sveiaðirðu",
+					"ft": "sveiuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sveiast",
+		"sagnbót": "sveiast",
+		"boðháttur": {
+			"et": "sveiastu",
+			"ft": "sveiist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sveiast", "sveiast", "sveiast"],
+					"ft": ["sveiumst", "sveiist", "sveiast"]
+				},
+				"þátíð": {
+					"et": ["sveiaðist", "sveiaðist", "sveiaðist"],
+					"ft": ["sveiuðumst", "sveiuðust", "sveiuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sveiist", "sveiist", "sveiist"],
+					"ft": ["sveiumst", "sveiist", "sveiist"]
+				},
+				"þátíð": {
+					"et": ["sveiaðist", "sveiaðist", "sveiaðist"],
+					"ft": ["sveiuðumst", "sveiuðust", "sveiuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sveiastu"
+				},
+				"þátíð": {
+					"et": "sveiaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sveiistu"
+				},
+				"þátíð": {
+					"et": "sveiaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sveiandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sveiaður", "sveiaðan", "sveiuðum", "sveiaðs"],
+					"kvk": ["sveiuð", "sveiaða", "sveiaðri", "sveiaðrar"],
+					"hk": ["sveiað", "sveiað", "sveiuðu", "sveiaðs"]
+				},
+				"ft": {
+					"kk": ["sveiaðir", "sveiaða", "sveiuðum", "sveiaðra"],
+					"kvk": ["sveiaðar", "sveiaðar", "sveiuðum", "sveiaðra"],
+					"hk": ["sveiuð", "sveiuð", "sveiuðum", "sveiaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sveia",
+	"hash": "527ac76f1e1fa7884f1d82f95fe4a18bc9431d2935390942eb096a2049aec88d"
+}

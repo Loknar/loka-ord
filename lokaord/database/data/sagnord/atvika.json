@@ -1,0 +1,118 @@
+{
+	"orð": "atvika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd"],
+			"kennistrengur": "so-vika"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "atvika",
+		"sagnbót": "atvikað",
+		"boðháttur": {
+			"stýfður": "atvika",
+			"et": "atvikaðu",
+			"ft": "atvikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["atvika", "atvikar", "atvikar"],
+					"ft": ["atvikum", "atvikið", "atvika"]
+				},
+				"þátíð": {
+					"et": ["atvikaði", "atvikaðir", "atvikaði"],
+					"ft": ["atvikuðum", "atvikuðuð", "atvikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["atviki", "atvikir", "atviki"],
+					"ft": ["atvikum", "atvikið", "atviki"]
+				},
+				"þátíð": {
+					"et": ["atvikaði", "atvikaðir", "atvikaði"],
+					"ft": ["atvikuðum", "atvikuðuð", "atvikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "atvikarðu",
+					"ft": "atvikiði"
+				},
+				"þátíð": {
+					"et": "atvikaðirðu",
+					"ft": "atvikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "atvikirðu",
+					"ft": "atvikiði"
+				},
+				"þátíð": {
+					"et": "atvikaðirðu",
+					"ft": "atvikuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "atvikast",
+		"sagnbót": "atvikast",
+		"boðháttur": {
+			"et": "atvikastu",
+			"ft": "atvikist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["atvikast", "atvikast", "atvikast"],
+					"ft": ["atvikumst", "atvikist", "atvikast"]
+				},
+				"þátíð": {
+					"et": ["atvikaðist", "atvikaðist", "atvikaðist"],
+					"ft": ["atvikuðumst", "atvikuðust", "atvikuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["atvikist", "atvikist", "atvikist"],
+					"ft": ["atvikumst", "atvikist", "atvikist"]
+				},
+				"þátíð": {
+					"et": ["atvikaðist", "atvikaðist", "atvikaðist"],
+					"ft": ["atvikuðumst", "atvikuðust", "atvikuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "atvikastu"
+				},
+				"þátíð": {
+					"et": "atvikaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "atvikistu"
+				},
+				"þátíð": {
+					"et": "atvikaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-atvika",
+	"hash": "5469e5ecd4f946dace235b00c9f61cbc5c0fb4e10a6d38966329d43fab936b4c"
+}

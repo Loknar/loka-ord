@@ -1,0 +1,27 @@
+{
+	"orð": "hernaðarútgjöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hernaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hernaður-kk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hernaðarútgjöld", "hernaðarútgjöld", "hernaðarútgjöldum", "hernaðarútgjalda"],
+		"mg": ["hernaðarútgjöldin", "hernaðarútgjöldin", "hernaðarútgjöldunum", "hernaðarútgjaldanna"]
+	},
+	"kennistrengur": "no-hernaðarútgjöld-hk",
+	"hash": "71ba82e852dc7f8a75ec192bf884d84cc40c76d127ac49f1390764590c21308e"
+}

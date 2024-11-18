@@ -1,0 +1,131 @@
+{
+	"orð": "afskrifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skrifa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afskrifa",
+		"sagnbót": "afskrifað",
+		"boðháttur": {
+			"stýfður": "afskrifa",
+			"et": "afskrifaðu",
+			"ft": "afskrifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afskrifa", "afskrifar", "afskrifar"],
+					"ft": ["afskrifum", "afskrifið", "afskrifa"]
+				},
+				"þátíð": {
+					"et": ["afskrifaði", "afskrifaðir", "afskrifaði"],
+					"ft": ["afskrifuðum", "afskrifuðuð", "afskrifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afskrifi", "afskrifir", "afskrifi"],
+					"ft": ["afskrifum", "afskrifið", "afskrifi"]
+				},
+				"þátíð": {
+					"et": ["afskrifaði", "afskrifaðir", "afskrifaði"],
+					"ft": ["afskrifuðum", "afskrifuðuð", "afskrifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afskrifarðu",
+					"ft": "afskrifiði"
+				},
+				"þátíð": {
+					"et": "afskrifaðirðu",
+					"ft": "afskrifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afskrifirðu",
+					"ft": "afskrifiði"
+				},
+				"þátíð": {
+					"et": "afskrifaðirðu",
+					"ft": "afskrifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afskrifast",
+		"sagnbót": "afskrifast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afskrifast", "afskrifast", "afskrifast"],
+					"ft": ["afskrifumst", "afskrifist", "afskrifast"]
+				},
+				"þátíð": {
+					"et": ["afskrifaðist", "afskrifaðist", "afskrifaðist"],
+					"ft": ["afskrifuðumst", "afskrifuðust", "afskrifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afskrifist", "afskrifist", "afskrifist"],
+					"ft": ["afskrifumst", "afskrifist", "afskrifist"]
+				},
+				"þátíð": {
+					"et": ["afskrifaðist", "afskrifaðist", "afskrifaðist"],
+					"ft": ["afskrifuðumst", "afskrifuðust", "afskrifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afskrifastu"
+				},
+				"þátíð": {
+					"et": "afskrifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afskrifistu"
+				},
+				"þátíð": {
+					"et": "afskrifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afskrifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afskrifaður", "afskrifaðan", "afskrifuðum", "afskrifaðs"],
+					"kvk": ["afskrifuð", "afskrifaða", "afskrifaðri", "afskrifaðrar"],
+					"hk": ["afskrifað", "afskrifað", "afskrifuðu", "afskrifaðs"]
+				},
+				"ft": {
+					"kk": ["afskrifaðir", "afskrifaða", "afskrifuðum", "afskrifaðra"],
+					"kvk": ["afskrifaðar", "afskrifaðar", "afskrifuðum", "afskrifaðra"],
+					"hk": ["afskrifuð", "afskrifuð", "afskrifuðum", "afskrifaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afskrifa",
+	"hash": "8857a5a667995a462f9d958f581a013729e60b324bb625696756761d7dc79952"
+}

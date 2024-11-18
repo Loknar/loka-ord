@@ -1,0 +1,135 @@
+{
+	"orð": "vika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vik-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vika",
+		"sagnbót": "vikað",
+		"boðháttur": {
+			"stýfður": "vika",
+			"et": "vikaðu",
+			"ft": "vikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vika", "vikar", "vikar"],
+					"ft": ["vikum", "vikið", "vika"]
+				},
+				"þátíð": {
+					"et": ["vikaði", "vikaðir", "vikaði"],
+					"ft": ["vikuðum", "vikuðuð", "vikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viki", "vikir", "viki"],
+					"ft": ["vikum", "vikið", "viki"]
+				},
+				"þátíð": {
+					"et": ["vikaði", "vikaðir", "vikaði"],
+					"ft": ["vikuðum", "vikuðuð", "vikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vikarðu",
+					"ft": "vikiði"
+				},
+				"þátíð": {
+					"et": "vikaðirðu",
+					"ft": "vikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vikirðu",
+					"ft": "vikiði"
+				},
+				"þátíð": {
+					"et": "vikaðirðu",
+					"ft": "vikuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vikast",
+		"sagnbót": "vikast",
+		"boðháttur": {
+			"et": "vikastu",
+			"ft": "vikist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vikast", "vikast", "vikast"],
+					"ft": ["vikumst", "vikist", "vikast"]
+				},
+				"þátíð": {
+					"et": ["vikaðist", "vikaðist", "vikaðist"],
+					"ft": ["vikuðumst", "vikuðust", "vikuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vikist", "vikist", "vikist"],
+					"ft": ["vikumst", "vikist", "vikist"]
+				},
+				"þátíð": {
+					"et": ["vikaðist", "vikaðist", "vikaðist"],
+					"ft": ["vikuðumst", "vikuðust", "vikuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vikastu"
+				},
+				"þátíð": {
+					"et": "vikaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vikistu"
+				},
+				"þátíð": {
+					"et": "vikaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vikandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vikaður", "vikaðan", "vikuðum", "vikaðs"],
+					"kvk": ["vikuð", "vikaða", "vikaðri", "vikaðrar"],
+					"hk": ["vikað", "vikað", "vikuðu", "vikaðs"]
+				},
+				"ft": {
+					"kk": ["vikaðir", "vikaða", "vikuðum", "vikaðra"],
+					"kvk": ["vikaðar", "vikaðar", "vikuðum", "vikaðra"],
+					"hk": ["vikuð", "vikuð", "vikuðum", "vikaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vika",
+	"hash": "5a251640fd68792b6681e725089210801708c32b50ee914e4a5f24cfcf09dd52"
+}

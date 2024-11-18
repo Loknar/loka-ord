@@ -1,0 +1,32 @@
+{
+	"orð": "innviðauppbygging",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "viða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viður-kk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-bygging-kvk"
+		}
+	],
+	"et": {
+		"ág": ["innviðauppbygging", "innviðauppbyggingu", "innviðauppbyggingu", "innviðauppbyggingar"],
+		"mg": ["innviðauppbyggingin", "innviðauppbygginguna", "innviðauppbyggingunni", "innviðauppbyggingarinnar"]
+	},
+	"kennistrengur": "no-innviðauppbygging-kvk",
+	"hash": "97ac00ca6c7fd076c53b92c3cf1417556ae80386ef033066c5bf770223456323"
+}
