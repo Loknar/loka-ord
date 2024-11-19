@@ -1,0 +1,30 @@
+{
+	"orð": "borgarlögmaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "borgar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-borg-kvk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"kennistrengur": "no-maður-kk"
+		}
+	],
+	"et": {
+		"ág": ["borgarlögmaður", "borgarlögmann", "borgarlögmanni", "borgarlögmanns"],
+		"mg": ["borgarlögmaðurinn", "borgarlögmanninn", "borgarlögmanninum", "borgarlögmannsins"]
+	},
+	"ft": {
+		"ág": ["borgarlögmenn", "borgarlögmenn", "borgarlögmönnum", "borgarlögmanna"],
+		"mg": ["borgarlögmennirnir", "borgarlögmennina", "borgarlögmönnunum", "borgarlögmannanna"]
+	},
+	"kennistrengur": "no-borgarlögmaður-kk",
+	"hash": "b52b2dd249c91291ff0a5c50a4144a317e61d2826521185c838bfba64546f21e"
+}
