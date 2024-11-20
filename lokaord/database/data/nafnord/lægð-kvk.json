@@ -2,6 +2,16 @@
 	"orð": "lægð",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "læg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-lægja"
+		},
+		{
+			"kennistrengur": "no-ð-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lægð", "lægð", "lægð", "lægðar"],
 		"mg": ["lægðin", "lægðina", "lægðinni", "lægðarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["lægðirnar", "lægðirnar", "lægðunum", "lægðanna"]
 	},
 	"kennistrengur": "no-lægð-kvk",
-	"hash": "b4015aef0151e4a64cbce7217d6224b82d95e398e17f1ecdab9f31a2969861ba"
+	"hash": "eecd026c08af3d5e4916e0992c43d33ad1f38d1a482061f88d1b1d48ab374429"
 }

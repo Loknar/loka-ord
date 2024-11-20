@@ -1,0 +1,66 @@
+{
+	"orð": "tönnlast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tönn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tönn-kvk"
+		},
+		{
+			"leiðir": "l",
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "tönnlast",
+		"sagnbót": "tönnlast",
+		"boðháttur": {
+			"et": "tönnlastu",
+			"ft": "tönnlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tönnlast", "tönnlast", "tönnlast"],
+					"ft": ["tönnlumst", "tönnlist", "tönnlast"]
+				},
+				"þátíð": {
+					"et": ["tönnlaðist", "tönnlaðist", "tönnlaðist"],
+					"ft": ["tönnluðumst", "tönnluðust", "tönnluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tönnlist", "tönnlist", "tönnlist"],
+					"ft": ["tönnlumst", "tönnlist", "tönnlist"]
+				},
+				"þátíð": {
+					"et": ["tönnlaðist", "tönnlaðist", "tönnlaðist"],
+					"ft": ["tönnluðumst", "tönnluðust", "tönnluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tönnlastu"
+				},
+				"þátíð": {
+					"et": "tönnlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tönnlistu"
+				},
+				"þátíð": {
+					"et": "tönnlaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tönnlast",
+	"hash": "ff1887fe661db6bdc8dcf57ff8e1cf0c638700c9c435f9a21875f006c8985e95"
+}

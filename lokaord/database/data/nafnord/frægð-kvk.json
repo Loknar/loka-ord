@@ -2,10 +2,21 @@
 	"orð": "frægð",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fræg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-frægur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ð-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["frægð", "frægð", "frægð", "frægðar"],
 		"mg": ["frægðin", "frægðina", "frægðinni", "frægðarinnar"]
 	},
 	"kennistrengur": "no-frægð-kvk",
-	"hash": "30e715e41581568f29ed72adc6df1080b834b2eb455419499969838459883511"
+	"hash": "96cfeb42bca94c65181ac6c3b756ae7d435165480918d499563e73ba7f9c1cd6"
 }
