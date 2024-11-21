@@ -1,0 +1,135 @@
+{
+	"orð": "spauga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spaug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spaug-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spauga",
+		"sagnbót": "spaugað",
+		"boðháttur": {
+			"stýfður": "spauga",
+			"et": "spaugaðu",
+			"ft": "spaugið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spauga", "spaugar", "spaugar"],
+					"ft": ["spaugum", "spaugið", "spauga"]
+				},
+				"þátíð": {
+					"et": ["spaugaði", "spaugaðir", "spaugaði"],
+					"ft": ["spauguðum", "spauguðuð", "spauguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spaugi", "spaugir", "spaugi"],
+					"ft": ["spaugum", "spaugið", "spaugi"]
+				},
+				"þátíð": {
+					"et": ["spaugaði", "spaugaðir", "spaugaði"],
+					"ft": ["spauguðum", "spauguðuð", "spauguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spaugarðu",
+					"ft": "spaugiði"
+				},
+				"þátíð": {
+					"et": "spaugaðirðu",
+					"ft": "spauguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spaugirðu",
+					"ft": "spaugiði"
+				},
+				"þátíð": {
+					"et": "spaugaðirðu",
+					"ft": "spauguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spaugast",
+		"sagnbót": "spaugast",
+		"boðháttur": {
+			"et": "spaugastu",
+			"ft": "spaugist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spaugast", "spaugast", "spaugast"],
+					"ft": ["spaugumst", "spaugist", "spaugast"]
+				},
+				"þátíð": {
+					"et": ["spaugaðist", "spaugaðist", "spaugaðist"],
+					"ft": ["spauguðumst", "spauguðust", "spauguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spaugist", "spaugist", "spaugist"],
+					"ft": ["spaugumst", "spaugist", "spaugist"]
+				},
+				"þátíð": {
+					"et": ["spaugaðist", "spaugaðist", "spaugaðist"],
+					"ft": ["spauguðumst", "spauguðust", "spauguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spaugastu"
+				},
+				"þátíð": {
+					"et": "spaugaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spaugistu"
+				},
+				"þátíð": {
+					"et": "spaugaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spaugandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spaugaður", "spaugaðan", "spauguðum", "spaugaðs"],
+					"kvk": ["spauguð", "spaugaða", "spaugaðri", "spaugaðrar"],
+					"hk": ["spaugað", "spaugað", "spauguðu", "spaugaðs"]
+				},
+				"ft": {
+					"kk": ["spaugaðir", "spaugaða", "spauguðum", "spaugaðra"],
+					"kvk": ["spaugaðar", "spaugaðar", "spauguðum", "spaugaðra"],
+					"hk": ["spauguð", "spauguð", "spauguðum", "spaugaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spauga",
+	"hash": "7425717c758d98ce2909af4f0cac5f5af7db8c14181b6e2756b3d4f677b5a3de"
+}
