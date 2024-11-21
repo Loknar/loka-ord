@@ -814,6 +814,7 @@ def clean_string(mystr: str) -> str:
 	cleaned_str = cleaned_str.replace('/', ' / ')
 	remove_chars = [
 		'\xad',  # stundum notað til að tilgreina skiptingu orða á vefsíðum
+		'\u200b',  # zero width space
 	]
 	for remove_char in remove_chars:
 		cleaned_str = cleaned_str.replace(remove_char, '')
