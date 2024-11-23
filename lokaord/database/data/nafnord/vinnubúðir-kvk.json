@@ -1,0 +1,22 @@
+{
+	"orð": "vinnubúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vinnubúðir", "vinnubúðir", "vinnubúðum", "vinnubúða"],
+		"mg": ["vinnubúðirnar", "vinnubúðirnar", "vinnubúðunum", "vinnubúðanna"]
+	},
+	"kennistrengur": "no-vinnubúðir-kvk",
+	"hash": "4df083466fe606c6d0053bc734b7c0db32e40cd6003f09db0692282d2c333422"
+}

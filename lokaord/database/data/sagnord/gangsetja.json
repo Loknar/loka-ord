@@ -1,0 +1,87 @@
+{
+	"orð": "gangsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gang",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gangur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gangsetja",
+		"sagnbót": "gangsett",
+		"boðháttur": {
+			"stýfður": "gangset",
+			"et": "gangsettu",
+			"ft": "gangsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gangset", "gangsetur", "gangsetur"],
+					"ft": ["gangsetjum", "gangsetjið", "gangsetja"]
+				},
+				"þátíð": {
+					"et": ["gangsetti", "gangsettir", "gangsett"],
+					"ft": ["gangsettum", "gangsettuð", "gangsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gangsetji", "gangsetjir", "gangsetji"],
+					"ft": ["gangsetjum", "gangsetjið", "gangsetji"]
+				},
+				"þátíð": {
+					"et": ["gangsetti", "gangsettir", "gangsetti"],
+					"ft": ["gangsettum", "gangsettuð", "gangsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gangseturðu",
+					"ft": "gangsetjiði"
+				},
+				"þátíð": {
+					"et": "gangsettirðu",
+					"ft": "gangsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gangsetjirðu",
+					"ft": "gangsetjiði"
+				},
+				"þátíð": {
+					"et": "gangsettirðu",
+					"ft": "gangsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gangsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gangsettur", "gangsettan", "gangsettum", "gangsetts"],
+					"kvk": ["gangsett", "gangsetta", "gangsettri", "gangsettrar"],
+					"hk": ["gangsett", "gangsett", "gangsettu", "gangsetts"]
+				},
+				"ft": {
+					"kk": ["gangsettir", "gangsetta", "gangsettum", "gangsettra"],
+					"kvk": ["gangsettar", "gangsettar", "gangsettum", "gangsettra"],
+					"hk": ["gangsett", "gangsett", "gangsettum", "gangsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gangsetja",
+	"hash": "9e93c6d9a2eec266a3242526e98b52b456c504ebf9edb3d07886529ead4146a8"
+}
