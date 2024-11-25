@@ -1,6 +1,17 @@
 {
 	"orð": "biðla",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "biðl",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-biðja"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "biðla",
 		"sagnbót": "biðlað",
@@ -84,5 +95,5 @@
 		}
 	},
 	"kennistrengur": "so-biðla",
-	"hash": "2c33713a157d0f605a82b7a7c9c6133ff885fd4abb02337b861286744f15623d"
+	"hash": "7a491d80eb71cac9a8b5bc76da29a67d6e6050fa6a77b9b03f1fd00e35e83336"
 }

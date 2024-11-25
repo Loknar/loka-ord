@@ -54,6 +54,22 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "lesast",
+		"sagnbót": "lesist",
+		"persónuleg": {
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lesist", "lesist", "lesist"],
+					"ft": ["lesumst", "lesist", "lesist"]
+				},
+				"þátíð": {
+					"et": ["læsist", "læsist", "læsist"],
+					"ft": ["læsumst", "læsust", "læsust"]
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "lesandi",
 		"þátíðar": {
@@ -84,5 +100,5 @@
 		}
 	},
 	"kennistrengur": "so-lesa",
-	"hash": "b1aeae4afdcf3eb404eb37e95fb0f555b8f88a397601b72dff57113b9fd16e13"
+	"hash": "f395e48c98ae6f696b1fa2d2ee2d63bc7ce66dbddf50cfefb25ca6cf1ed6f7f6"
 }
