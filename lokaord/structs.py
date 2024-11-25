@@ -608,8 +608,15 @@ class SagnordTidL(BaseModel):
 
 class SagnordHatturL(BaseModel):
 	frumlag: Optional[Fall] = None
-	framsöguháttur: SagnordTidL
-	viðtengingarháttur: SagnordTidL
+	framsöguháttur: Optional[SagnordTidL] = None
+	viðtengingarháttur: Optional[SagnordTidL] = None
+
+	@validator('viðtengingarháttur')
+	def framsogu_vidtengingar_constraint(cls, val, values, **kwargs):
+		if val is None:
+			if 'framsöguháttur' not in values or values['framsöguháttur'] is None:
+				raise ValueError('either framsöguháttur or viðtengingarháttur should be set')
+		return val
 
 	@model_serializer(mode='wrap')
 	def serialize(self, handler) -> dict[str, Any]:
@@ -617,8 +624,10 @@ class SagnordHatturL(BaseModel):
 		data = dict()
 		if 'frumlag' in data_dict and data_dict['frumlag'] is not None:
 			data['frumlag'] = data_dict['frumlag']
-		data['framsöguháttur'] = data_dict['framsöguháttur']
-		data['viðtengingarháttur'] = data_dict['viðtengingarháttur']
+		if 'framsöguháttur' in data_dict and data_dict['framsöguháttur'] is not None:
+			data['framsöguháttur'] = data_dict['framsöguháttur']
+		if 'viðtengingarháttur' in data_dict and data_dict['viðtengingarháttur'] is not None:
+			data['viðtengingarháttur'] = data_dict['viðtengingarháttur']
 		return data
 
 
