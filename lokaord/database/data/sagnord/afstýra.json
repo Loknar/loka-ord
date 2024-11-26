@@ -1,0 +1,73 @@
+{
+	"orð": "afstýra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-stýra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afstýra",
+		"sagnbót": "afstýrt",
+		"boðháttur": {
+			"stýfður": "afstýr",
+			"et": "afstýrðu",
+			"ft": "afstýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afstýri", "afstýrir", "afstýrir"],
+					"ft": ["afstýrum", "afstýrið", "afstýra"]
+				},
+				"þátíð": {
+					"et": ["afstýrði", "afstýrðir", "afstýrði"],
+					"ft": ["afstýrðum", "afstýrðuð", "afstýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afstýri", "afstýrir", "afstýri"],
+					"ft": ["afstýrum", "afstýrið", "afstýri"]
+				},
+				"þátíð": {
+					"et": ["afstýrði", "afstýrðir", "afstýrði"],
+					"ft": ["afstýrðum", "afstýrðuð", "afstýrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afstýrirðu",
+					"ft": "afstýriði"
+				},
+				"þátíð": {
+					"et": "afstýrðirðu",
+					"ft": "afstýrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afstýrirðu",
+					"ft": "afstýriði"
+				},
+				"þátíð": {
+					"et": "afstýrðirðu",
+					"ft": "afstýrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afstýrandi"
+	},
+	"kennistrengur": "so-afstýra",
+	"hash": "31564bb6458b1e6ab56d431d9cd91f71bb1ddef8b90c1b36301615cc7fa0f8cd"
+}
