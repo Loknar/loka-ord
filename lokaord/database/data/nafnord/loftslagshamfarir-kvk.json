@@ -1,0 +1,32 @@
+{
+	"orð": "loftslagshamfarir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lofts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-loft-hk"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"mynd": "ham",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hamur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-för-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["loftslagshamfarir", "loftslagshamfarir", "loftslagshamförum", "loftslagshamfara"],
+		"mg": ["loftslagshamfarirnar", "loftslagshamfarirnar", "loftslagshamförunum", "loftslagshamfaranna"]
+	},
+	"kennistrengur": "no-loftslagshamfarir-kvk",
+	"hash": "012b6175f13ba4fa373808fe1254d3cda6187a30bf1a91340bb6e20477a79d20"
+}

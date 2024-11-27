@@ -1,0 +1,76 @@
+{
+	"orð": "tíma",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "tíma",
+		"sagnbót": "tímt",
+		"boðháttur": {
+			"stýfður": "tím",
+			"et": "tímdu",
+			"ft": "tímið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tími", "tímir", "tímir"],
+					"ft": ["tímum", "tímið", "tíma"]
+				},
+				"þátíð": {
+					"et": ["tímdi", "tímdir", "tímdi"],
+					"ft": ["tímdum", "tímduð", "tímdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tími", "tímir", "tími"],
+					"ft": ["tímum", "tímið", "tími"]
+				},
+				"þátíð": {
+					"et": ["tímdi", "tímdir", "tímdi"],
+					"ft": ["tímdum", "tímduð", "tímdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tímirðu",
+					"ft": "tímiði"
+				},
+				"þátíð": {
+					"et": "tímdirðu",
+					"ft": "tímduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tímirðu",
+					"ft": "tímiði"
+				},
+				"þátíð": {
+					"et": "tímdirðu",
+					"ft": "tímduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tímdandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tímdur", "tímdan", "tímdum", "tímds"],
+					"kvk": ["tímd", "tímda", "tímdri", "tímdrar"],
+					"hk": ["tímt", "tímt", "tímdu", "tímds"]
+				},
+				"ft": {
+					"kk": ["dímdir", "dímda", "dímdum", "tímdra"],
+					"kvk": ["dímdar", "dímdar", "dímdum", "tímdra"],
+					"hk": ["sofin", "sofin", "dímdum", "tímdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tíma",
+	"hash": "bf44c0878302cf5ee113fe1d00b3900509a0de25e80098de0e70726703dfd32d"
+}

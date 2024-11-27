@@ -1,0 +1,131 @@
+{
+	"orð": "gereyða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ger",
+			"samsetning": "stofn",
+			"kennistrengur": "so-gera"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-eyða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gereyða",
+		"sagnbót": "gereytt",
+		"boðháttur": {
+			"stýfður": "gereyð",
+			"et": "gereyddu",
+			"ft": "gereyðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gereyði", "gereyðir", "gereyðir"],
+					"ft": ["gereyðum", "gereyðið", "gereyða"]
+				},
+				"þátíð": {
+					"et": ["gereyddi", "gereyddir", "gereyddi"],
+					"ft": ["gereyddum", "gereydduð", "gereyddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gereyði", "gereyðir", "gereyði"],
+					"ft": ["gereyðum", "gereyðið", "gereyði"]
+				},
+				"þátíð": {
+					"et": ["gereyddi", "gereyddir", "gereyddi"],
+					"ft": ["gereyddum", "gereydduð", "gereyddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gereyðirðu",
+					"ft": "gereyðiði"
+				},
+				"þátíð": {
+					"et": "gereyddirðu",
+					"ft": "gereydduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gereyðirðu",
+					"ft": "gereyðiði"
+				},
+				"þátíð": {
+					"et": "gereyddirðu",
+					"ft": "gereydduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gereyðast",
+		"sagnbót": "gereyðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gereyðist", "gereyðist", "gereyðist"],
+					"ft": ["gereyðumst", "gereyðist", "gereyðast"]
+				},
+				"þátíð": {
+					"et": ["gereyddist", "gereyddist", "gereyddist"],
+					"ft": ["gereyddumst", "gereyddust", "gereyddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gereyðist", "gereyðist", "gereyðist"],
+					"ft": ["gereyðumst", "gereyðist", "gereyðist"]
+				},
+				"þátíð": {
+					"et": ["gereyddist", "gereyddist", "gereyddist"],
+					"ft": ["gereyddumst", "gereyddust", "gereyddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gereyðistu"
+				},
+				"þátíð": {
+					"et": "gereyddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gereyðistu"
+				},
+				"þátíð": {
+					"et": "gereyddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gereyðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gereyddur", "gereyddan", "gereyddum", "gereydds"],
+					"kvk": ["gereydd", "gereydda", "gereyddri", "gereyddrar"],
+					"hk": ["gereytt", "gereytt", "gereyddu", "gereydds"]
+				},
+				"ft": {
+					"kk": ["gereyddir", "gereydda", "gereyddum", "gereyddra"],
+					"kvk": ["gereyddar", "gereyddar", "gereyddum", "gereyddra"],
+					"hk": ["gereydd", "gereydd", "gereyddum", "gereyddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gereyða",
+	"hash": "1eca0ef7a3615428e37a72e0b9b61b294d58b20aa3b74c9822ee5be99c6f491b"
+}

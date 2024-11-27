@@ -1,0 +1,73 @@
+{
+	"orð": "sveima",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sveim",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sveim-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sveima",
+		"sagnbót": "sveimað",
+		"boðháttur": {
+			"stýfður": "sveima",
+			"et": "sveimaðu",
+			"ft": "sveimið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sveima", "sveimar", "sveimar"],
+					"ft": ["sveimum", "sveimið", "sveima"]
+				},
+				"þátíð": {
+					"et": ["sveimaði", "sveimaðir", "sveimaði"],
+					"ft": ["sveimuðum", "sveimuðuð", "sveimuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sveimi", "sveimir", "sveimi"],
+					"ft": ["sveimum", "sveimið", "sveimi"]
+				},
+				"þátíð": {
+					"et": ["sveimaði", "sveimaðir", "sveimaði"],
+					"ft": ["sveimuðum", "sveimuðuð", "sveimuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sveimarðu",
+					"ft": "sveimiði"
+				},
+				"þátíð": {
+					"et": "sveimaðirðu",
+					"ft": "sveimuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sveimirðu",
+					"ft": "sveimiði"
+				},
+				"þátíð": {
+					"et": "sveimaðirðu",
+					"ft": "sveimuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sveimandi"
+	},
+	"kennistrengur": "so-sveima",
+	"hash": "3873dcc8c4b56f07187cab55b6f70658fa7b69b21f5f8e13f16fc233daa2c469"
+}
