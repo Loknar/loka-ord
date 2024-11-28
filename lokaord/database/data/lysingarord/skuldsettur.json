@@ -1,0 +1,82 @@
+{
+	"orð": "skuldsettur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "lo-settur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skuldsettur", "skuldsettan", "skuldsettum", "skuldsetts"],
+				"kvk": ["skuldsett", "skuldsetta", "skuldsettri", "skuldsettrar"],
+				"hk": ["skuldsett", "skuldsett", "skuldsettu", "skuldsetts"]
+			},
+			"ft": {
+				"kk": ["skuldsettir", "skuldsetta", "skuldsettum", "skuldsettra"],
+				"kvk": ["skuldsettar", "skuldsettar", "skuldsettum", "skuldsettra"],
+				"hk": ["skuldsett", "skuldsett", "skuldsettum", "skuldsettra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skuldsetti", "skuldsetta", "skuldsetta", "skuldsetta"],
+				"kvk": ["skuldsetta", "skuldsettu", "skuldsettu", "skuldsettu"],
+				"hk": ["skuldsetta", "skuldsetta", "skuldsetta", "skuldsetta"]
+			},
+			"ft": {
+				"kk": ["skuldsettu", "skuldsettu", "skuldsettu", "skuldsettu"],
+				"kvk": ["skuldsettu", "skuldsettu", "skuldsettu", "skuldsettu"],
+				"hk": ["skuldsettu", "skuldsettu", "skuldsettu", "skuldsettu"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["skuldsettari", "skuldsettari", "skuldsettari", "skuldsettari"],
+				"kvk": ["skuldsettari", "skuldsettari", "skuldsettari", "skuldsettari"],
+				"hk": ["skuldsettara", "skuldsettara", "skuldsettara", "skuldsettara"]
+			},
+			"ft": {
+				"kk": ["skuldsettari", "skuldsettari", "skuldsettari", "skuldsettari"],
+				"kvk": ["skuldsettari", "skuldsettari", "skuldsettari", "skuldsettari"],
+				"hk": ["skuldsettari", "skuldsettari", "skuldsettari", "skuldsettari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["skuldsettastur", "skuldsettastan", "skuldsettustum", "skuldsettasts"],
+				"kvk": ["skuldsettust", "skuldsettasta", "skuldsettastri", "skuldsettastrar"],
+				"hk": ["skuldsettast", "skuldsettast", "skuldsettustu", "skuldsettasts"]
+			},
+			"ft": {
+				"kk": ["skuldsettastir", "skuldsettasta", "skuldsettustum", "skuldsettastra"],
+				"kvk": ["skuldsettastar", "skuldsettastar", "skuldsettustum", "skuldsettastra"],
+				"hk": ["skuldsettust", "skuldsettust", "skuldsettustum", "skuldsettastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skuldsettasti", "skuldsettasta", "skuldsettasta", "skuldsettasta"],
+				"kvk": ["skuldsettasta", "skuldsettustu", "skuldsettustu", "skuldsettustu"],
+				"hk": ["skuldsettasta", "skuldsettasta", "skuldsettasta", "skuldsettasta"]
+			},
+			"ft": {
+				"kk": ["skuldsettustu", "skuldsettustu", "skuldsettustu", "skuldsettustu"],
+				"kvk": ["skuldsettustu", "skuldsettustu", "skuldsettustu", "skuldsettustu"],
+				"hk": ["skuldsettustu", "skuldsettustu", "skuldsettustu", "skuldsettustu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skuldsettur",
+	"hash": "d9ee686b289294ec41a85655ae1d93a98fd57a0c43167facb8b7b56b8b877b16"
+}

@@ -1,0 +1,131 @@
+{
+	"orð": "frábiðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frá",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-frá"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-biðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frábiðja",
+		"sagnbót": "frábeðið",
+		"boðháttur": {
+			"stýfður": "frábið",
+			"et": "frábiddu",
+			"ft": "frábiðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frábið", "frábiður", "frábiður"],
+					"ft": ["frábiðjum", "frábiðjið", "frábiðja"]
+				},
+				"þátíð": {
+					"et": ["frábað", "frábaðst", "frábað"],
+					"ft": ["frábáðum", "frábáðuð", "frábáðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frábiðji", "frábiðjir", "frábiðji"],
+					"ft": ["frábiðjum", "frábiðjið", "frábiðji"]
+				},
+				"þátíð": {
+					"et": ["frábæði", "frábæðir", "frábæði"],
+					"ft": ["frábæðum", "frábæðuð", "frábæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frábiðurðu",
+					"ft": "frábiðjiði"
+				},
+				"þátíð": {
+					"et": "frábaðstu",
+					"ft": "frábáðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frábiðjirðu",
+					"ft": "frábiðjiði"
+				},
+				"þátíð": {
+					"et": "frábæðirðu",
+					"ft": "frábæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "frábiðjast",
+		"sagnbót": "frábeðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frábiðst", "frábiðst", "frábiðst"],
+					"ft": ["frábiðjumst", "frábiðjist", "frábiðjast"]
+				},
+				"þátíð": {
+					"et": ["frábaðst", "frábaðst", "frábaðst"],
+					"ft": ["frábáðumst", "frábáðust", "frábáðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frábiðjist", "frábiðjist", "frábiðjist"],
+					"ft": ["frábiðjumst", "frábiðjist", "frábiðjist"]
+				},
+				"þátíð": {
+					"et": ["frábæðist", "frábæðist", "frábæðist"],
+					"ft": ["frábæðumst", "frábæðust", "frábæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frábiðstu"
+				},
+				"þátíð": {
+					"et": "frábaðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frábiðjistu"
+				},
+				"þátíð": {
+					"et": "frábæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frábiðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frábeðinn", "frábeðinn", "frábeðnum", "frábeðins"],
+					"kvk": ["frábeðin", "frábeðna", "frábeðinni", "frábeðinnar"],
+					"hk": ["frábeðið", "frábeðið", "frábeðnu", "frábeðins"]
+				},
+				"ft": {
+					"kk": ["frábeðnir", "frábeðna", "frábeðnum", "frábeðinna"],
+					"kvk": ["frábeðnar", "frábeðnar", "frábeðnum", "frábeðinna"],
+					"hk": ["frábeðin", "frábeðin", "frábeðnum", "frábeðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frábiðja",
+	"hash": "91c39395b2b8c5453c9ca6b44930aa5255dabbe3f765cba840e9dfde1cac3799"
+}

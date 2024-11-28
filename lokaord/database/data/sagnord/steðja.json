@@ -1,0 +1,73 @@
+{
+	"orð": "steðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "steðj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-steðji-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "steðja",
+		"sagnbót": "steðjað",
+		"boðháttur": {
+			"stýfður": "steðja",
+			"et": "steðjaðu",
+			"ft": "steðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["steðja", "steðjar", "steðjar"],
+					"ft": ["steðjum", "steðjið", "steðja"]
+				},
+				"þátíð": {
+					"et": ["steðjaði", "steðjaðir", "steðjaði"],
+					"ft": ["steðjuðum", "steðjuðuð", "steðjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["steðji", "steðjir", "steðji"],
+					"ft": ["steðjum", "steðjið", "steðji"]
+				},
+				"þátíð": {
+					"et": ["steðjaði", "steðjaðir", "steðjaði"],
+					"ft": ["steðjuðum", "steðjuðuð", "steðjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "steðjarðu",
+					"ft": "steðjiði"
+				},
+				"þátíð": {
+					"et": "steðjaðirðu",
+					"ft": "steðjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "steðjirðu",
+					"ft": "steðjiði"
+				},
+				"þátíð": {
+					"et": "steðjaðirðu",
+					"ft": "steðjuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "steðjandi"
+	},
+	"kennistrengur": "so-steðja",
+	"hash": "82c069fdbb50980d6333bf2fff57d63a22bcbe651f9c06eba9905f2b825514c0"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "tilsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilsetja",
+		"sagnbót": "tilsett",
+		"boðháttur": {
+			"stýfður": "tilset",
+			"et": "tilsettu",
+			"ft": "tilsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilset", "tilsetur", "tilsetur"],
+					"ft": ["tilsetjum", "tilsetjið", "tilsetja"]
+				},
+				"þátíð": {
+					"et": ["tilsetti", "tilsettir", "tilsett"],
+					"ft": ["tilsettum", "tilsettuð", "tilsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilsetji", "tilsetjir", "tilsetji"],
+					"ft": ["tilsetjum", "tilsetjið", "tilsetji"]
+				},
+				"þátíð": {
+					"et": ["tilsetti", "tilsettir", "tilsetti"],
+					"ft": ["tilsettum", "tilsettuð", "tilsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilseturðu",
+					"ft": "tilsetjiði"
+				},
+				"þátíð": {
+					"et": "tilsettirðu",
+					"ft": "tilsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilsetjirðu",
+					"ft": "tilsetjiði"
+				},
+				"þátíð": {
+					"et": "tilsettirðu",
+					"ft": "tilsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tilsettur", "tilsettan", "tilsettum", "tilsetts"],
+					"kvk": ["tilsett", "tilsetta", "tilsettri", "tilsettrar"],
+					"hk": ["tilsett", "tilsett", "tilsettu", "tilsetts"]
+				},
+				"ft": {
+					"kk": ["tilsettir", "tilsetta", "tilsettum", "tilsettra"],
+					"kvk": ["tilsettar", "tilsettar", "tilsettum", "tilsettra"],
+					"hk": ["tilsett", "tilsett", "tilsettum", "tilsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tilsetja",
+	"hash": "23e36d030980478f2824b891ccd4be563a6f2e385d6f0e92935880185e541f8b"
+}

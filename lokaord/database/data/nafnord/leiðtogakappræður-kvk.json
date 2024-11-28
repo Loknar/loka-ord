@@ -1,0 +1,32 @@
+{
+	"orð": "leiðtogakappræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leið-kvk"
+		},
+		{
+			"mynd": "toga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-togi-kk"
+		},
+		{
+			"mynd": "kapp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kapp-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["leiðtogakappræður", "leiðtogakappræður", "leiðtogakappræðum", "leiðtogakappræðna"],
+		"mg": ["leiðtogakappræðurnar", "leiðtogakappræðurnar", "leiðtogakappræðunum", "leiðtogakappræðnanna"]
+	},
+	"kennistrengur": "no-leiðtogakappræður-kvk",
+	"hash": "b863074c8d272db73bce8e061cbac1ce07578c31bdb53107b9522c6e3fdbe852"
+}
