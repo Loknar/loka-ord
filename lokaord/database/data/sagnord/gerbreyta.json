@@ -1,0 +1,142 @@
+{
+	"orð": "gerbreyta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ger",
+			"samsetning": "stofn",
+			"kennistrengur": "so-gera"
+		},
+		{
+			"kennistrengur": "so-breyta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gerbreyta",
+		"sagnbót": "gerbreytt",
+		"boðháttur": {
+			"stýfður": "gerbreyt",
+			"et": "gerbreyttu",
+			"ft": "gerbreytið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gerbreyti", "gerbreytir", "gerbreytir"],
+					"ft": ["gerbreytum", "gerbreytið", "gerbreyta"]
+				},
+				"þátíð": {
+					"et": ["gerbreytti", "gerbreyttir", "gerbreytti"],
+					"ft": ["gerbreyttum", "gerbreyttuð", "gerbreyttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gerbreyti", "gerbreytir", "gerbreyti"],
+					"ft": ["gerbreytum", "gerbreytið", "gerbreyti"]
+				},
+				"þátíð": {
+					"et": ["gerbreytti", "gerbreyttir", "gerbreytti"],
+					"ft": ["gerbreyttum", "gerbreyttuð", "gerbreyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gerbreytirðu",
+					"ft": "gerbreytiði"
+				},
+				"þátíð": {
+					"et": "gerbreyttirðu",
+					"ft": "gerbreyttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gerbreytirðu",
+					"ft": "gerbreytiði"
+				},
+				"þátíð": {
+					"et": "gerbreyttirðu",
+					"ft": "gerbreyttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gerbreytast",
+		"sagnbót": "gerbreyst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gerbreytist", "gerbreytist", "gerbreytist"],
+					"ft": ["gerbreytumst", "gerbreytist", "gerbreytast"]
+				},
+				"þátíð": {
+					"et": ["gerbreyttist", "gerbreyttist", "gerbreyttist"],
+					"ft": ["gerbreyttumst", "gerbreyttust", "gerbreyttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gerbreytist", "gerbreytist", "gerbreytist"],
+					"ft": ["gerbreytumst", "gerbreytist", "gerbreytist"]
+				},
+				"þátíð": {
+					"et": ["gerbreyttist", "gerbreyttist", "gerbreyttist"],
+					"ft": ["gerbreyttumst", "gerbreyttust", "gerbreyttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gerbreytistu"
+				},
+				"þátíð": {
+					"et": "gerbreyttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gerbreytistu"
+				},
+				"þátíð": {
+					"et": "gerbreyttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gerbreytandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gerbreyttur", "gerbreyttan", "gerbreyttum", "gerbreytts"],
+					"kvk": ["gerbreytt", "gerbreytta", "gerbreyttri", "gerbreyttrar"],
+					"hk": ["gerbreytt", "gerbreytt", "gerbreyttu", "gerbreytts"]
+				},
+				"ft": {
+					"kk": ["gerbreyttir", "gerbreytta", "gerbreyttum", "gerbreyttra"],
+					"kvk": ["gerbreyttar", "gerbreyttar", "gerbreyttum", "gerbreyttra"],
+					"hk": ["gerbreytt", "gerbreytt", "gerbreyttum", "gerbreyttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gerbreytti", "gerbreytta", "gerbreytta", "gerbreytta"],
+					"kvk": ["gerbreytta", "gerbreyttu", "gerbreyttu", "gerbreyttu"],
+					"hk": ["gerbreytta", "gerbreytta", "gerbreytta", "gerbreytta"]
+				},
+				"ft": {
+					"kk": ["gerbreyttu", "gerbreyttu", "gerbreyttu", "gerbreyttu"],
+					"kvk": ["gerbreyttu", "gerbreyttu", "gerbreyttu", "gerbreyttu"],
+					"hk": ["gerbreyttu", "gerbreyttu", "gerbreyttu", "gerbreyttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gerbreyta",
+	"hash": "c2ec2075b668960278e09bb356bb547c30262d35176d135ec5f2432702572bf9"
+}
