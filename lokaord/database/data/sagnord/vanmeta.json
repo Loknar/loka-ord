@@ -1,0 +1,87 @@
+{
+	"orð": "vanmeta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "van",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-van-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-meta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vanmeta",
+		"sagnbót": "vanmetið",
+		"boðháttur": {
+			"stýfður": "vanmet",
+			"et": "vanmettu",
+			"ft": "vanmetið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vanmet", "vanmetur", "vanmetur"],
+					"ft": ["vanmetum", "vanmetið", "vanmeta"]
+				},
+				"þátíð": {
+					"et": ["vanmat", "vanmast", "vanmat"],
+					"ft": ["vanmátum", "vanmátuð", "vanmátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vanmeti", "vanmetir", "vanmeti"],
+					"ft": ["vanmetum", "vanmetið", "vanmeti"]
+				},
+				"þátíð": {
+					"et": ["vanmæti", "vanmætir", "vanmæti"],
+					"ft": ["vanmætum", "vanmætuð", "vanmætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vanmeturðu",
+					"ft": "vanmetiði"
+				},
+				"þátíð": {
+					"et": "vanmastu",
+					"ft": "vanmátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vanmetirðu",
+					"ft": "vanmetiði"
+				},
+				"þátíð": {
+					"et": "vanmætirðu",
+					"ft": "vanmætuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vanmetandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vanmetinn", "vanmetinn", "vanmetnum", "vanmetins"],
+					"kvk": ["vanmetin", "vanmetna", "vanmetinni", "vanmetinnar"],
+					"hk": ["vanmetið", "vanmetið", "vanmetnu", "vanmetins"]
+				},
+				"ft": {
+					"kk": ["vanmetnir", "vanmetna", "vanmetnum", "vanmetinna"],
+					"kvk": ["vanmetnar", "vanmetnar", "vanmetnum", "vanmetinna"],
+					"hk": ["vanmetin", "vanmetin", "vanmetnum", "vanmetinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vanmeta",
+	"hash": "5cb5c69680c1c39294bb2c17527aad90b036954954aec26c8e907d5c05189458"
+}

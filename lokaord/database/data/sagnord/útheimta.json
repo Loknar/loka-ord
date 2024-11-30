@@ -1,0 +1,131 @@
+{
+	"orð": "útheimta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-heimta-_fá_"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útheimta",
+		"sagnbót": "útheimt",
+		"boðháttur": {
+			"stýfður": "útheimt",
+			"et": "útheimtu",
+			"ft": "útheimtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útheimti", "útheimtir", "útheimtir"],
+					"ft": ["útheimtum", "útheimtið", "útheimta"]
+				},
+				"þátíð": {
+					"et": ["útheimti", "útheimtir", "útheimti"],
+					"ft": ["útheimtum", "útheimtuð", "útheimtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útheimti", "útheimtir", "útheimti"],
+					"ft": ["útheimtum", "útheimtið", "útheimti"]
+				},
+				"þátíð": {
+					"et": ["útheimti", "útheimtir", "útheimti"],
+					"ft": ["útheimtum", "útheimtuð", "útheimtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útheimtirðu",
+					"ft": "útheimtiði"
+				},
+				"þátíð": {
+					"et": "útheimtirðu",
+					"ft": "útheimtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útheimtirðu",
+					"ft": "útheimtiði"
+				},
+				"þátíð": {
+					"et": "útheimtirðu",
+					"ft": "útheimtuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útheimtast",
+		"sagnbót": "útheimst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útheimtist", "útheimtist", "útheimtist"],
+					"ft": ["útheimtumst", "útheimtist", "útheimtast"]
+				},
+				"þátíð": {
+					"et": ["útheimtist", "útheimtist", "útheimtist"],
+					"ft": ["útheimtumst", "útheimtust", "útheimtust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útheimtist", "útheimtist", "útheimtist"],
+					"ft": ["útheimtumst", "útheimtist", "útheimtist"]
+				},
+				"þátíð": {
+					"et": ["útheimtist", "útheimtist", "útheimtist"],
+					"ft": ["útheimtumst", "útheimtust", "útheimtust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útheimtistu"
+				},
+				"þátíð": {
+					"et": "útheimtistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útheimtistu"
+				},
+				"þátíð": {
+					"et": "útheimtistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útheimtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útheimtur", "útheimtan", "útheimtum", "útheimts"],
+					"kvk": ["útheimtuð", "útheimta", "útheimtri", "útheimtrar"],
+					"hk": ["útheimt", "útheimt", "útheimtu", "útheimts"]
+				},
+				"ft": {
+					"kk": ["útheimtir", "útheimta", "útheimtum", "útheimtra"],
+					"kvk": ["útheimtar", "útheimtar", "útheimtum", "útheimtra"],
+					"hk": ["útheimtuð", "útheimtuð", "útheimtum", "útheimtra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útheimta",
+	"hash": "c17bb70da4c28da70301d6d42e741726bb86b7716e48132fd83de6f0895c010b"
+}
