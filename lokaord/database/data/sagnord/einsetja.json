@@ -1,0 +1,87 @@
+{
+	"orð": "einsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "einsetja",
+		"sagnbót": "einsett",
+		"boðháttur": {
+			"stýfður": "einset",
+			"et": "einsettu",
+			"ft": "einsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einset", "einsetur", "einsetur"],
+					"ft": ["einsetjum", "einsetjið", "einsetja"]
+				},
+				"þátíð": {
+					"et": ["einsetti", "einsettir", "einsett"],
+					"ft": ["einsettum", "einsettuð", "einsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einsetji", "einsetjir", "einsetji"],
+					"ft": ["einsetjum", "einsetjið", "einsetji"]
+				},
+				"þátíð": {
+					"et": ["einsetti", "einsettir", "einsetti"],
+					"ft": ["einsettum", "einsettuð", "einsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einseturðu",
+					"ft": "einsetjiði"
+				},
+				"þátíð": {
+					"et": "einsettirðu",
+					"ft": "einsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einsetjirðu",
+					"ft": "einsetjiði"
+				},
+				"þátíð": {
+					"et": "einsettirðu",
+					"ft": "einsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "einsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["einsettur", "einsettan", "einsettum", "einsetts"],
+					"kvk": ["einsett", "einsetta", "einsettri", "einsettrar"],
+					"hk": ["einsett", "einsett", "einsettu", "einsetts"]
+				},
+				"ft": {
+					"kk": ["einsettir", "einsetta", "einsettum", "einsettra"],
+					"kvk": ["einsettar", "einsettar", "einsettum", "einsettra"],
+					"hk": ["einsett", "einsett", "einsettum", "einsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-einsetja",
+	"hash": "c64485c1c18471c3ec3cf874fa335dab46e1c171d39699e886a8481542735f56"
+}

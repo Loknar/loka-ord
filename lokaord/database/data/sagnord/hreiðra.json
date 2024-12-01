@@ -1,0 +1,135 @@
+{
+	"orð": "hreiðra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hreiðr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hreiður-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hreiðra",
+		"sagnbót": "hreiðrað",
+		"boðháttur": {
+			"stýfður": "hreiðra",
+			"et": "hreiðraðu",
+			"ft": "hreiðrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hreiðra", "hreiðrar", "hreiðrar"],
+					"ft": ["hreiðrum", "hreiðrið", "hreiðra"]
+				},
+				"þátíð": {
+					"et": ["hreiðraði", "hreiðraðir", "hreiðraði"],
+					"ft": ["hreiðruðum", "hreiðruðuð", "hreiðruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hreiðri", "hreiðrir", "hreiðri"],
+					"ft": ["hreiðrum", "hreiðrið", "hreiðri"]
+				},
+				"þátíð": {
+					"et": ["hreiðraði", "hreiðraðir", "hreiðraði"],
+					"ft": ["hreiðruðum", "hreiðruðuð", "hreiðruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hreiðrarðu",
+					"ft": "hreiðriði"
+				},
+				"þátíð": {
+					"et": "hreiðraðirðu",
+					"ft": "hreiðruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hreiðrirðu",
+					"ft": "hreiðriði"
+				},
+				"þátíð": {
+					"et": "hreiðraðirðu",
+					"ft": "hreiðruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hreiðrast",
+		"sagnbót": "hreiðrast",
+		"boðháttur": {
+			"et": "hreiðrastu",
+			"ft": "hreiðrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hreiðrast", "hreiðrast", "hreiðrast"],
+					"ft": ["hreiðrumst", "hreiðrist", "hreiðrast"]
+				},
+				"þátíð": {
+					"et": ["hreiðraðist", "hreiðraðist", "hreiðraðist"],
+					"ft": ["hreiðruðumst", "hreiðruðust", "hreiðruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hreiðrist", "hreiðrist", "hreiðrist"],
+					"ft": ["hreiðrumst", "hreiðrist", "hreiðrist"]
+				},
+				"þátíð": {
+					"et": ["hreiðraðist", "hreiðraðist", "hreiðraðist"],
+					"ft": ["hreiðruðumst", "hreiðruðust", "hreiðruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hreiðrastu"
+				},
+				"þátíð": {
+					"et": "hreiðraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hreiðristu"
+				},
+				"þátíð": {
+					"et": "hreiðraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hreiðrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hreiðraður", "hreiðraðan", "hreiðruðum", "hreiðraðs"],
+					"kvk": ["hreiðruð", "hreiðraða", "hreiðraðri", "hreiðraðrar"],
+					"hk": ["hreiðrað", "hreiðrað", "hreiðruðu", "hreiðraðs"]
+				},
+				"ft": {
+					"kk": ["hreiðraðir", "hreiðraða", "hreiðruðum", "hreiðraðra"],
+					"kvk": ["hreiðraðar", "hreiðraðar", "hreiðruðum", "hreiðraðra"],
+					"hk": ["hreiðruð", "hreiðruð", "hreiðruðum", "hreiðraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hreiðra",
+	"hash": "27863d62023d62f802e2cd731cb35ff7da101746d490aace8e66494573e8a625"
+}
