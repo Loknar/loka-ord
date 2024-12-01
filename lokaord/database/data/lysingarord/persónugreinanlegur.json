@@ -1,0 +1,48 @@
+{
+	"orð": "persónugreinanlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"mynd": "greinan",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-greina"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["persónugreinanlegur", "persónugreinanlegan", "persónugreinanlegum", "persónugreinanlegs"],
+				"kvk": ["persónugreinanleg", "persónugreinanlega", "persónugreinanlegri", "persónugreinanlegrar"],
+				"hk": ["persónugreinanlegt", "persónugreinanlegt", "persónugreinanlegu", "persónugreinanlegs"]
+			},
+			"ft": {
+				"kk": ["persónugreinanlegir", "persónugreinanlega", "persónugreinanlegum", "persónugreinanlegra"],
+				"kvk": ["persónugreinanlegar", "persónugreinanlegar", "persónugreinanlegum", "persónugreinanlegra"],
+				"hk": ["persónugreinanleg", "persónugreinanleg", "persónugreinanlegum", "persónugreinanlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["persónugreinanlegi", "persónugreinanlega", "persónugreinanlega", "persónugreinanlega"],
+				"kvk": ["persónugreinanlega", "persónugreinanlegu", "persónugreinanlegu", "persónugreinanlegu"],
+				"hk": ["persónugreinanlega", "persónugreinanlega", "persónugreinanlega", "persónugreinanlega"]
+			},
+			"ft": {
+				"kk": ["persónugreinanlegu", "persónugreinanlegu", "persónugreinanlegu", "persónugreinanlegu"],
+				"kvk": ["persónugreinanlegu", "persónugreinanlegu", "persónugreinanlegu", "persónugreinanlegu"],
+				"hk": ["persónugreinanlegu", "persónugreinanlegu", "persónugreinanlegu", "persónugreinanlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-persónugreinanlegur",
+	"hash": "f94875999de0e1c167b4e518c26b828eacf49e73ed9167dad52a217bd777a35f"
+}
