@@ -1,0 +1,87 @@
+{
+	"orð": "heila",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heil",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heiłl"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heila",
+		"sagnbót": "heilað",
+		"boðháttur": {
+			"stýfður": "heila",
+			"et": "heilaðu",
+			"ft": "heilið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heila", "heilar", "heilar"],
+					"ft": ["heilum", "heilið", "heila"]
+				},
+				"þátíð": {
+					"et": ["heilaði", "heilaðir", "heilaði"],
+					"ft": ["heiluðum", "heiluðuð", "heiluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heili", "heilir", "heili"],
+					"ft": ["heilum", "heilið", "heili"]
+				},
+				"þátíð": {
+					"et": ["heilaði", "heilaðir", "heilaði"],
+					"ft": ["heiluðum", "heiluðuð", "heiluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heilarðu",
+					"ft": "heiliði"
+				},
+				"þátíð": {
+					"et": "heilaðirðu",
+					"ft": "heiluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heilirðu",
+					"ft": "heiliði"
+				},
+				"þátíð": {
+					"et": "heilaðirðu",
+					"ft": "heiluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heilandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heilaður", "heilaðan", "heiluðum", "heilaðs"],
+					"kvk": ["heiluð", "heilaða", "heilaðri", "heilaðrar"],
+					"hk": ["heilað", "heilað", "heiluðu", "heilaðs"]
+				},
+				"ft": {
+					"kk": ["heilaðir", "heilaða", "heiluðum", "heilaðra"],
+					"kvk": ["heilaðar", "heilaðar", "heiluðum", "heilaðra"],
+					"hk": ["heiluð", "heiluð", "heiluðum", "heilaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heila",
+	"hash": "36859979a592a51a285681db30d5a0ed3b87d90a3fcb487f25f3dbed53970483"
+}
