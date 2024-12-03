@@ -1,0 +1,27 @@
+{
+	"orð": "samkeppnishömlur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "keppnis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-keppni-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-hamla-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["samkeppnishömlur", "samkeppnishömlur", "samkeppnishömlum", "samkeppnishamla"],
+		"mg": ["samkeppnishömlurnar", "samkeppnishömlurnar", "samkeppnishömlunum", "samkeppnishamlanna"]
+	},
+	"kennistrengur": "no-samkeppnishömlur-kvk",
+	"hash": "a00f082e525f6ef290fff2dec9a1b2218061e9918ce831c4d46244a91052d602"
+}

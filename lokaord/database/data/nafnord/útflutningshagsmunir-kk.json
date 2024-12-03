@@ -1,0 +1,32 @@
+{
+	"orð": "útflutningshagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "flutnings",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["útflutningshagsmunir", "útflutningshagsmuni", "útflutningshagsmunum", "útflutningshagsmuna"],
+		"mg": ["útflutningshagsmunirnir", "útflutningshagsmunina", "útflutningshagsmununum", "útflutningshagsmunanna"]
+	},
+	"kennistrengur": "no-útflutningshagsmunir-kk",
+	"hash": "202ab1321556439b75cede714c797b936ee4d69d291e53d4f5930152f7928d55"
+}

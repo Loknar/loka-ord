@@ -1,0 +1,32 @@
+{
+	"orð": "samkeppnislöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "keppnis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-keppni-kvk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["samkeppnislöggjöf", "samkeppnislöggjöf", "samkeppnislöggjöf", "samkeppnislöggjafar"],
+		"mg": ["samkeppnislöggjöfin", "samkeppnislöggjöfina", "samkeppnislöggjöfinni", "samkeppnislöggjafarinnar"]
+	},
+	"kennistrengur": "no-samkeppnislöggjöf-kvk",
+	"hash": "0e96089c2932b861c85f971b5f2a57bfabe87c787071aff6c1869c8e61fec15b"
+}

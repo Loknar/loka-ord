@@ -2,10 +2,21 @@
 	"orð": "leiðindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leiði-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["leiðindi", "leiðindi", "leiðindum", "leiðinda"],
 		"mg": ["leiðindin", "leiðindin", "leiðindunum", "leiðindanna"]
 	},
 	"kennistrengur": "no-leiðindi-hk",
-	"hash": "66e76eccca52cfadabe821efb214a2bf53db6eab72359eeab9b1fae245823b64"
+	"hash": "24b600b76c467ec8ce4f360e50d22e03cb8d363209cde1dc08cab3ccb5b55b2e"
 }
