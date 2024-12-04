@@ -1,0 +1,27 @@
+{
+	"orð": "bóluefnakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bólu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bóla-kvk"
+		},
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["bóluefnakaup", "bóluefnakaup", "bóluefnakaupum", "bóluefnakaupa"],
+		"mg": ["bóluefnakaupin", "bóluefnakaupin", "bóluefnakaupunum", "bóluefnakaupanna"]
+	},
+	"kennistrengur": "no-bóluefnakaup-hk",
+	"hash": "1dab0d34e93c4bb38bdb0cc3a0ba0f2c1baef602a91b6590ae1c423c15770698"
+}

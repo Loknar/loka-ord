@@ -1,0 +1,30 @@
+{
+	"orð": "fjármagnsgreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármagnsgreiðsla", "fjármagnsgreiðslu", "fjármagnsgreiðslu", "fjármagnsgreiðslu"],
+		"mg": ["fjármagnsgreiðslan", "fjármagnsgreiðsluna", "fjármagnsgreiðslunni", "fjármagnsgreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["fjármagnsgreiðslur", "fjármagnsgreiðslur", "fjármagnsgreiðslum", "fjármagnsgreiðslna"],
+		"mg": ["fjármagnsgreiðslurnar", "fjármagnsgreiðslurnar", "fjármagnsgreiðslunum", "fjármagnsgreiðslnanna"]
+	},
+	"kennistrengur": "no-fjármagnsgreiðsla-kvk",
+	"hash": "ecc3b015b9a84ae8c289f7fe77e1a83f0f247081bc9314d8d1645ff66fd2ada8"
+}

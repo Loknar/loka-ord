@@ -1,0 +1,30 @@
+{
+	"orð": "skattfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skattfjárhæð", "skattfjárhæð", "skattfjárhæð", "skattfjárhæðar"],
+		"mg": ["skattfjárhæðin", "skattfjárhæðina", "skattfjárhæðinni", "skattfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["skattfjárhæðir", "skattfjárhæðir", "skattfjárhæðum", "skattfjárhæða"],
+		"mg": ["skattfjárhæðirnar", "skattfjárhæðirnar", "skattfjárhæðunum", "skattfjárhæðanna"]
+	},
+	"kennistrengur": "no-skattfjárhæð-kvk",
+	"hash": "e7ed70825116150928261d64356771a8f6265b9baec43a6be54b689c49c151fb"
+}

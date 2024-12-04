@@ -1,0 +1,135 @@
+{
+	"orð": "poka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "pok",
+			"samsetning": "stofn",
+			"kennistrengur": "no-poki-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "poka",
+		"sagnbót": "pokað",
+		"boðháttur": {
+			"stýfður": "poka",
+			"et": "pokaðu",
+			"ft": "pokið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["poka", "pokar", "pokar"],
+					"ft": ["pokum", "pokið", "poka"]
+				},
+				"þátíð": {
+					"et": ["pokaði", "pokaðir", "pokaði"],
+					"ft": ["pokuðum", "pokuðuð", "pokuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["poki", "pokir", "poki"],
+					"ft": ["pokum", "pokið", "poki"]
+				},
+				"þátíð": {
+					"et": ["pokaði", "pokaðir", "pokaði"],
+					"ft": ["pokuðum", "pokuðuð", "pokuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pokarðu",
+					"ft": "pokiði"
+				},
+				"þátíð": {
+					"et": "pokaðirðu",
+					"ft": "pokuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pokirðu",
+					"ft": "pokiði"
+				},
+				"þátíð": {
+					"et": "pokaðirðu",
+					"ft": "pokuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "pokast",
+		"sagnbót": "pokast",
+		"boðháttur": {
+			"et": "pokastu",
+			"ft": "pokist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pokast", "pokast", "pokast"],
+					"ft": ["pokumst", "pokist", "pokast"]
+				},
+				"þátíð": {
+					"et": ["pokaðist", "pokaðist", "pokaðist"],
+					"ft": ["pokuðumst", "pokuðust", "pokuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pokist", "pokist", "pokist"],
+					"ft": ["pokumst", "pokist", "pokist"]
+				},
+				"þátíð": {
+					"et": ["pokaðist", "pokaðist", "pokaðist"],
+					"ft": ["pokuðumst", "pokuðust", "pokuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pokastu"
+				},
+				"þátíð": {
+					"et": "pokaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pokistu"
+				},
+				"þátíð": {
+					"et": "pokaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "pokandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["pokaður", "pokaðan", "pokuðum", "pokaðs"],
+					"kvk": ["pokuð", "pokaða", "pokaðri", "pokaðrar"],
+					"hk": ["pokað", "pokað", "pokuðu", "pokaðs"]
+				},
+				"ft": {
+					"kk": ["pokaðir", "pokaða", "pokuðum", "pokaðra"],
+					"kvk": ["pokaðar", "pokaðar", "pokuðum", "pokaðra"],
+					"hk": ["pokuð", "pokuð", "pokuðum", "pokaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-poka",
+	"hash": "f50f7f76e4ccc42c679839aeeb44e6d7c0b687c6c0c85668ae89e8cdfa435f57"
+}

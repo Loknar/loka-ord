@@ -1,0 +1,22 @@
+{
+	"orð": "rauntekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "raun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["rauntekjur", "rauntekjur", "rauntekjum", "rauntekna"],
+		"mg": ["rauntekjurnar", "rauntekjurnar", "rauntekjunum", "raunteknanna"]
+	},
+	"kennistrengur": "no-rauntekjur-kvk",
+	"hash": "d74e9a17c0b9999e1908487b2e4c6fbbbbc92de18bbf3d762e87f4a791d4b378"
+}

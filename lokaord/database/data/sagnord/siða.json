@@ -1,0 +1,135 @@
+{
+	"orð": "siða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-siður-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "siða",
+		"sagnbót": "siðað",
+		"boðháttur": {
+			"stýfður": "siða",
+			"et": "siðaðu",
+			"ft": "siðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["siða", "siðar", "siðar"],
+					"ft": ["siðum", "siðið", "siða"]
+				},
+				"þátíð": {
+					"et": ["siðaði", "siðaðir", "siðaði"],
+					"ft": ["siðuðum", "siðuðuð", "siðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["siði", "siðir", "siði"],
+					"ft": ["siðum", "siðið", "siði"]
+				},
+				"þátíð": {
+					"et": ["siðaði", "siðaðir", "siðaði"],
+					"ft": ["siðuðum", "siðuðuð", "siðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "siðarðu",
+					"ft": "siðiði"
+				},
+				"þátíð": {
+					"et": "siðaðirðu",
+					"ft": "siðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "siðirðu",
+					"ft": "siðiði"
+				},
+				"þátíð": {
+					"et": "siðaðirðu",
+					"ft": "siðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "siðast",
+		"sagnbót": "siðast",
+		"boðháttur": {
+			"et": "siðastu",
+			"ft": "siðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["siðast", "siðast", "siðast"],
+					"ft": ["siðumst", "siðist", "siðast"]
+				},
+				"þátíð": {
+					"et": ["siðaðist", "siðaðist", "siðaðist"],
+					"ft": ["siðuðumst", "siðuðust", "siðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["siðist", "siðist", "siðist"],
+					"ft": ["siðumst", "siðist", "siðist"]
+				},
+				"þátíð": {
+					"et": ["siðaðist", "siðaðist", "siðaðist"],
+					"ft": ["siðuðumst", "siðuðust", "siðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "siðastu"
+				},
+				"þátíð": {
+					"et": "siðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "siðistu"
+				},
+				"þátíð": {
+					"et": "siðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "siðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["siðaður", "siðaðan", "siðuðum", "siðaðs"],
+					"kvk": ["siðuð", "siðaða", "siðaðri", "siðaðrar"],
+					"hk": ["siðað", "siðað", "siðuðu", "siðaðs"]
+				},
+				"ft": {
+					"kk": ["siðaðir", "siðaða", "siðuðum", "siðaðra"],
+					"kvk": ["siðaðar", "siðaðar", "siðuðum", "siðaðra"],
+					"hk": ["siðuð", "siðuð", "siðuðum", "siðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-siða",
+	"hash": "584fe9de4155508562796e3438a5ee7e499d44ca85b63a268389e65a56a73164"
+}

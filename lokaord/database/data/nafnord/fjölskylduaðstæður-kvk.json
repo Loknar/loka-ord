@@ -1,0 +1,27 @@
+{
+	"orð": "fjölskylduaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjölskyldu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjölskylda-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjölskylduaðstæður", "fjölskylduaðstæður", "fjölskylduaðstæðum", "fjölskylduaðstæðna"],
+		"mg": ["fjölskylduaðstæðurnar", "fjölskylduaðstæðurnar", "fjölskylduaðstæðunum", "fjölskylduaðstæðnanna"]
+	},
+	"kennistrengur": "no-fjölskylduaðstæður-kvk",
+	"hash": "4777a1dc2020d1e1a3d69df37aa6c20bba1ae61cdd1f8f2bfe6ee496ea46e7a5"
+}

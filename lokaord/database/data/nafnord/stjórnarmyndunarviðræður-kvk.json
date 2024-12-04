@@ -1,0 +1,32 @@
+{
+	"orð": "stjórnarmyndunarviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "myndunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-myndun-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnarmyndunarviðræður", "stjórnarmyndunarviðræður", "stjórnarmyndunarviðræðum", "stjórnarmyndunarviðræðna"],
+		"mg": ["stjórnarmyndunarviðræðurnar", "stjórnarmyndunarviðræðurnar", "stjórnarmyndunarviðræðunum", "stjórnarmyndunarviðræðnanna"]
+	},
+	"kennistrengur": "no-stjórnarmyndunarviðræður-kvk",
+	"hash": "e6910f7c49e07f97df617a774df775710eb434b132ebeac46070bc3485a29823"
+}

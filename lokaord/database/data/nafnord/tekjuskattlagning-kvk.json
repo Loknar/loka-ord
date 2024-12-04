@@ -1,0 +1,30 @@
+{
+	"orð": "tekjuskattlagning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tekju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tekja-kvk"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-lagning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tekjuskattlagning", "tekjuskattlagningu", "tekjuskattlagningu", "tekjuskattlagningar"],
+		"mg": ["tekjuskattlagningin", "tekjuskattlagninguna", "tekjuskattlagningunni", "tekjuskattlagningarinnar"]
+	},
+	"ft": {
+		"ág": ["tekjuskattlagningar", "tekjuskattlagningar", "tekjuskattlagningum", "tekjuskattlagninga"],
+		"mg": ["tekjuskattlagningarnar", "tekjuskattlagningarnar", "tekjuskattlagningunum", "tekjuskattlagninganna"]
+	},
+	"kennistrengur": "no-tekjuskattlagning-kvk",
+	"hash": "530cf7a66329a7b32aa9d1e0732eeac7cd8288de0aff10604036230bb04b8c14"
+}

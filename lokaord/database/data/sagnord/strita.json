@@ -1,0 +1,135 @@
+{
+	"orð": "strita",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "strit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-strit-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "strita",
+		"sagnbót": "stritað",
+		"boðháttur": {
+			"stýfður": "strita",
+			"et": "stritaðu",
+			"ft": "stritið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["strita", "stritar", "stritar"],
+					"ft": ["stritum", "stritið", "strita"]
+				},
+				"þátíð": {
+					"et": ["stritaði", "stritaðir", "stritaði"],
+					"ft": ["strituðum", "strituðuð", "strituðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["striti", "stritir", "striti"],
+					"ft": ["stritum", "stritið", "striti"]
+				},
+				"þátíð": {
+					"et": ["stritaði", "stritaðir", "stritaði"],
+					"ft": ["strituðum", "strituðuð", "strituðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stritarðu",
+					"ft": "stritiði"
+				},
+				"þátíð": {
+					"et": "stritaðirðu",
+					"ft": "strituðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stritirðu",
+					"ft": "stritiði"
+				},
+				"þátíð": {
+					"et": "stritaðirðu",
+					"ft": "strituðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stritast",
+		"sagnbót": "stritast",
+		"boðháttur": {
+			"et": "stritastu",
+			"ft": "stritist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stritast", "stritast", "stritast"],
+					"ft": ["stritumst", "stritist", "stritast"]
+				},
+				"þátíð": {
+					"et": ["stritaðist", "stritaðist", "stritaðist"],
+					"ft": ["strituðumst", "strituðust", "strituðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stritist", "stritist", "stritist"],
+					"ft": ["stritumst", "stritist", "stritist"]
+				},
+				"þátíð": {
+					"et": ["stritaðist", "stritaðist", "stritaðist"],
+					"ft": ["strituðumst", "strituðust", "strituðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stritastu"
+				},
+				"þátíð": {
+					"et": "stritaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stritistu"
+				},
+				"þátíð": {
+					"et": "stritaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stritandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stritaður", "stritaðan", "strituðum", "stritaðs"],
+					"kvk": ["strituð", "stritaða", "stritaðri", "stritaðrar"],
+					"hk": ["stritað", "stritað", "strituðu", "stritaðs"]
+				},
+				"ft": {
+					"kk": ["stritaðir", "stritaða", "strituðum", "stritaðra"],
+					"kvk": ["stritaðar", "stritaðar", "strituðum", "stritaðra"],
+					"hk": ["strituð", "strituð", "strituðum", "stritaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-strita",
+	"hash": "380fa74299f57c9d6d658c222a075acbf67b5cb4ef545b07aab7f800919a8451"
+}
