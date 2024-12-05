@@ -1,0 +1,32 @@
+{
+	"orð": "langtímahagsæld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lang",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-langur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "hag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-sæld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["langtímahagsæld", "langtímahagsæld", "langtímahagsæld", "langtímahagsældar"],
+		"mg": ["langtímahagsældin", "langtímahagsældina", "langtímahagsældinni", "langtímahagsældarinnar"]
+	},
+	"kennistrengur": "no-langtímahagsæld-kvk",
+	"hash": "bcdad1ff069271119d9fb7bff1402d0050a51b0d5a7610bcb8a005bd766c362e"
+}
