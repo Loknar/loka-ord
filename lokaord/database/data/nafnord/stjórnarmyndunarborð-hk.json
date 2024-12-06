@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnarmyndunarborð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "myndunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-myndun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-borð-hk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnarmyndunarborð", "stjórnarmyndunarborð", "stjórnarmyndunarborði", "stjórnarmyndunarborðs"],
+		"mg": ["stjórnarmyndunarborðið", "stjórnarmyndunarborðið", "stjórnarmyndunarborðinu", "stjórnarmyndunarborðsins"]
+	},
+	"kennistrengur": "no-stjórnarmyndunarborð-hk",
+	"hash": "16a35cb163a42acf1b7dc7f21fb59db48ad8fb266cd88d1edf9f7dec8aa64871"
+}

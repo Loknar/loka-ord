@@ -2,10 +2,21 @@
 	"orð": "sparnaður",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "sparn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-spara"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aður-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sparnaður", "sparnað", "sparnaði", "sparnaðar"],
 		"mg": ["sparnaðurinn", "sparnaðinn", "sparnaðinum", "sparnaðarins"]
 	},
 	"kennistrengur": "no-sparnaður-kk",
-	"hash": "b60a1162784dbdcf0dd49a4f6f87e7c5fee1deddf3cbf7707e570d566b4879de"
+	"hash": "613d774b448e5e9d7039c8671867afac186871fb24e19d8ca05edbd2686882a8"
 }

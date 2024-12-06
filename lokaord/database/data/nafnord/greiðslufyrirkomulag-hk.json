@@ -1,0 +1,32 @@
+{
+	"orð": "greiðslufyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslufyrirkomulag", "greiðslufyrirkomulag", "greiðslufyrirkomulagi", "greiðslufyrirkomulags"],
+		"mg": ["greiðslufyrirkomulagið", "greiðslufyrirkomulagið", "greiðslufyrirkomulaginu", "greiðslufyrirkomulagsins"]
+	},
+	"kennistrengur": "no-greiðslufyrirkomulag-hk",
+	"hash": "0808acb4b239c500de9adbfb559777cb4cbd9aabe5d68289c85657e8df530a6a"
+}

@@ -1,0 +1,131 @@
+{
+	"orð": "storka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "stork",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "storka",
+		"sagnbót": "storkað",
+		"boðháttur": {
+			"stýfður": "storka",
+			"et": "storkaðu",
+			"ft": "storkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["storka", "storkar", "storkar"],
+					"ft": ["storkum", "storkið", "storka"]
+				},
+				"þátíð": {
+					"et": ["storkaði", "storkaðir", "storkaði"],
+					"ft": ["storkuðum", "storkuðuð", "storkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["storki", "storkir", "storki"],
+					"ft": ["storkum", "storkið", "storki"]
+				},
+				"þátíð": {
+					"et": ["storkaði", "storkaðir", "storkaði"],
+					"ft": ["storkuðum", "storkuðuð", "storkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "storkarðu",
+					"ft": "storkiði"
+				},
+				"þátíð": {
+					"et": "storkaðirðu",
+					"ft": "storkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "storkirðu",
+					"ft": "storkiði"
+				},
+				"þátíð": {
+					"et": "storkaðirðu",
+					"ft": "storkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "storkast",
+		"sagnbót": "storkast",
+		"boðháttur": {
+			"et": "storkastu",
+			"ft": "storkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["storkast", "storkast", "storkast"],
+					"ft": ["storkumst", "storkist", "storkast"]
+				},
+				"þátíð": {
+					"et": ["storkaðist", "storkaðist", "storkaðist"],
+					"ft": ["storkuðumst", "storkuðust", "storkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["storkist", "storkist", "storkist"],
+					"ft": ["storkumst", "storkist", "storkist"]
+				},
+				"þátíð": {
+					"et": ["storkaðist", "storkaðist", "storkaðist"],
+					"ft": ["storkuðumst", "storkuðust", "storkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "storkastu"
+				},
+				"þátíð": {
+					"et": "storkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "storkistu"
+				},
+				"þátíð": {
+					"et": "storkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "storkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["storkaður", "storkaðan", "storkuðum", "storkaðs"],
+					"kvk": ["storkuð", "storkaða", "storkaðri", "storkaðrar"],
+					"hk": ["storkað", "storkað", "storkuðu", "storkaðs"]
+				},
+				"ft": {
+					"kk": ["storkaðir", "storkaða", "storkuðum", "storkaðra"],
+					"kvk": ["storkaðar", "storkaðar", "storkuðum", "storkaðra"],
+					"hk": ["storkuð", "storkuð", "storkuðum", "storkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-storka",
+	"hash": "c7b5b7bf413208a377beb8f8344fa18e643973bba0ce2a3f39880a9cf6fc4b6e"
+}
