@@ -1,0 +1,32 @@
+{
+	"orð": "samfélagslöggæsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gæsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["samfélagslöggæsla", "samfélagslöggæslu", "samfélagslöggæslu", "samfélagslöggæslu"],
+		"mg": ["samfélagslöggæslan", "samfélagslöggæsluna", "samfélagslöggæslunni", "samfélagslöggæslunnar"]
+	},
+	"kennistrengur": "no-samfélagslöggæsla-kvk",
+	"hash": "2df1e9a61d11e4045116581bc41222b2a4481ff095b63ed19d2d120cc4237298"
+}
