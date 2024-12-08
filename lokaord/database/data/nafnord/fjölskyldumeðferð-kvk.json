@@ -1,0 +1,27 @@
+{
+	"orð": "fjölskyldumeðferð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjölskyldu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjölskylda-kvk"
+		},
+		{
+			"mynd": "með",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-með"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ferð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjölskyldumeðferð", "fjölskyldumeðferð", "fjölskyldumeðferð", "fjölskyldumeðferðar"],
+		"mg": ["fjölskyldumeðferðin", "fjölskyldumeðferðina", "fjölskyldumeðferðinni", "fjölskyldumeðferðarinnar"]
+	},
+	"kennistrengur": "no-fjölskyldumeðferð-kvk",
+	"hash": "07cc952fc27794fbf02ec889e3b348606e825760a442ec4c269ee87b6280cfe6"
+}

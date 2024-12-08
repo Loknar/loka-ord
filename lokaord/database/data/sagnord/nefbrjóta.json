@@ -1,0 +1,99 @@
+{
+	"orð": "nefbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "nef",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nef-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nefbrjóta",
+		"sagnbót": "nefbrotið",
+		"boðháttur": {
+			"stýfður": "nefbrjót",
+			"et": "nefbrjóttu",
+			"ft": "nefbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nefbrýt", "nefbrýtur", "nefbrýtur"],
+					"ft": ["nefbrjótum", "nefbrjótið", "nefbrjóta"]
+				},
+				"þátíð": {
+					"et": ["nefbraut", "nefbraust", "nefbraut"],
+					"ft": ["nefbrutum", "nefbrutuð", "nefbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nefbrjóti", "nefbrjótir", "nefbrjóti"],
+					"ft": ["nefbrjótum", "nefbrjótið", "nefbrjóti"]
+				},
+				"þátíð": {
+					"et": ["nefbryti", "nefbrytir", "nefbryti"],
+					"ft": ["nefbrytum", "nefbrytuð", "nefbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nefbrýturðu",
+					"ft": "nefbrjótiði"
+				},
+				"þátíð": {
+					"et": "nefbraustu",
+					"ft": "nefbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nefbrjótirðu",
+					"ft": "nefbrjótiði"
+				},
+				"þátíð": {
+					"et": "nefbrytirðu",
+					"ft": "nefbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nefbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nefbrotinn", "nefbrotinn", "nefbrotnum", "nefbrotins"],
+					"kvk": ["nefbrotin", "nefbrotna", "nefbrotinni", "nefbrotinnar"],
+					"hk": ["nefbrotið", "nefbrotið", "nefbrotnu", "nefbrotins"]
+				},
+				"ft": {
+					"kk": ["nefbrotnir", "nefbrotna", "nefbrotnum", "nefbrotinna"],
+					"kvk": ["nefbrotnar", "nefbrotnar", "nefbrotnum", "nefbrotinna"],
+					"hk": ["nefbrotin", "nefbrotin", "nefbrotnum", "nefbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nefbrotni", "nefbrotna", "nefbrotna", "nefbrotna"],
+					"kvk": ["nefbrotna", "nefbrotnu", "nefbrotnu", "nefbrotnu"],
+					"hk": ["nefbrotna", "nefbrotna", "nefbrotna", "nefbrotna"]
+				},
+				"ft": {
+					"kk": ["nefbrotnu", "nefbrotnu", "nefbrotnu", "nefbrotnu"],
+					"kvk": ["nefbrotnu", "nefbrotnu", "nefbrotnu", "nefbrotnu"],
+					"hk": ["nefbrotnu", "nefbrotnu", "nefbrotnu", "nefbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nefbrjóta",
+	"hash": "1cf2783609a26a0802c410da4f92f71bda340974448b621cad259498af8cc741"
+}
