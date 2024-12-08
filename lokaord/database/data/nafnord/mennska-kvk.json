@@ -2,10 +2,22 @@
 	"orð": "mennska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "menn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"leiðir": "sk",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["mennska", "mennsku", "mennsku", "mennsku"],
 		"mg": ["mennskan", "mennskuna", "mennskunni", "mennskunnar"]
 	},
 	"kennistrengur": "no-mennska-kvk",
-	"hash": "7261dcf9dbdb0bc22c67f7d52f27e923e7eb650198ad388d99dca269a90a7f76"
+	"hash": "96dd6e87fb26dddee5fbf08f6969ebc720760e9304eb29fc95dc9fbd064feb3d"
 }

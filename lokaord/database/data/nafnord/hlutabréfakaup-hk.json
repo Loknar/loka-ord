@@ -1,0 +1,27 @@
+{
+	"orð": "hlutabréfakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hlutabréfakaup", "hlutabréfakaup", "hlutabréfakaupum", "hlutabréfakaupa"],
+		"mg": ["hlutabréfakaupin", "hlutabréfakaupin", "hlutabréfakaupunum", "hlutabréfakaupanna"]
+	},
+	"kennistrengur": "no-hlutabréfakaup-hk",
+	"hash": "5574806d6cc48c3029c930e82b53ab1a1eac849a63d685bedffa625498908cb3"
+}

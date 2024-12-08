@@ -1,0 +1,154 @@
+{
+	"orð": "stórgræða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stór",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-stór"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-græða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stórgræða",
+		"sagnbót": "stórgrætt",
+		"boðháttur": {
+			"stýfður": "stórgræð",
+			"et": "stórgræddu",
+			"ft": "stórgræðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stórgræði", "stórgræðir", "stórgræðir"],
+					"ft": ["stórgræðum", "stórgræðið", "stórgræða"]
+				},
+				"þátíð": {
+					"et": ["stórgræddi", "stórgræddir", "stórgræddi"],
+					"ft": ["stórgræddum", "stórgrædduð", "stórgræddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stórgræði", "stórgræðir", "stórgræði"],
+					"ft": ["stórgræðum", "stórgræðið", "stórgræði"]
+				},
+				"þátíð": {
+					"et": ["stórgræddi", "stórgræddir", "stórgræddi"],
+					"ft": ["stórgræddum", "stórgrædduð", "stórgræddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stórgræðirðu",
+					"ft": "stórgræðiði"
+				},
+				"þátíð": {
+					"et": "stórgræddirðu",
+					"ft": "stórgrædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stórgræðirðu",
+					"ft": "stórgræðiði"
+				},
+				"þátíð": {
+					"et": "stórgræddirðu",
+					"ft": "stórgrædduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stórgræðast",
+		"sagnbót": "stórgræðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stórgræðist", "stórgræðist", "stórgræðist"],
+					"ft": ["stórgræðumst", "stórgræðist", "stórgræðast"]
+				},
+				"þátíð": {
+					"et": ["stórgræddist", "stórgræddist", "stórgræddist"],
+					"ft": ["stórgræddumst", "stórgræddust", "stórgræddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stórgræðist", "stórgræðist", "stórgræðist"],
+					"ft": ["stórgræðumst", "stórgræðist", "stórgræðist"]
+				},
+				"þátíð": {
+					"et": ["stórgræddist", "stórgræddist", "stórgræddist"],
+					"ft": ["stórgræddumst", "stórgræddust", "stórgræddust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stórgræðist", "stórgræðist", "stórgræðist"],
+					"ft": ["stórgræðist", "stórgræðist", "stórgræðist"]
+				},
+				"þátíð": {
+					"et": ["stórgræddist", "stórgræddist", "stórgræddist"],
+					"ft": ["stórgræddist", "stórgræddist", "stórgræddist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stórgræðist", "stórgræðist", "stórgræðist"],
+					"ft": ["stórgræðist", "stórgræðist", "stórgræðist"]
+				},
+				"þátíð": {
+					"et": ["stórgræddist", "stórgræddist", "stórgræddist"],
+					"ft": ["stórgræddist", "stórgræddist", "stórgræddist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stórgræðistu"
+				},
+				"þátíð": {
+					"et": "stórgræddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stórgræðistu"
+				},
+				"þátíð": {
+					"et": "stórgræddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stórgræðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stórgræddur", "stórgræddan", "stórgræddum", "stórgrædds"],
+					"kvk": ["stórgrædd", "stórgrædda", "stórgræddri", "stórgræddrar"],
+					"hk": ["stórgrætt", "stórgrætt", "stórgræddu", "stórgrædds"]
+				},
+				"ft": {
+					"kk": ["stórgræddir", "stórgrædda", "stórgræddum", "stórgræddra"],
+					"kvk": ["stórgræddar", "stórgræddar", "stórgræddum", "stórgræddra"],
+					"hk": ["stórgrædd", "stórgrædd", "stórgræddum", "stórgræddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stórgræða",
+	"hash": "4bb33d8c35d3065d414a58b21e2aece10c0bd0d017c368fd611086782c4d5af3"
+}

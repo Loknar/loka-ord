@@ -1,0 +1,70 @@
+{
+	"orð": "búktala",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "búk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-búkur-kk"
+		},
+		{
+			"beygingar": ["germynd"],
+			"kennistrengur": "so-tala"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "búktala",
+		"sagnbót": "búktalað",
+		"boðháttur": {
+			"stýfður": "búktala",
+			"et": "búktalaðu",
+			"ft": "búktalið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["búktala", "búktalar", "búktalar"],
+					"ft": ["búktölum", "búktalið", "búktala"]
+				},
+				"þátíð": {
+					"et": ["búktalaði", "búktalaðir", "búktalaði"],
+					"ft": ["búktöluðum", "búktöluðuð", "búktöluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búktali", "búktalir", "búktali"],
+					"ft": ["búktölum", "búktalið", "búktali"]
+				},
+				"þátíð": {
+					"et": ["búktalaði", "búktalaðir", "búktalaði"],
+					"ft": ["búktöluðum", "búktöluðuð", "búktöluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "búktalarðu",
+					"ft": "búktaliði"
+				},
+				"þátíð": {
+					"et": "búktalaðirðu",
+					"ft": "búktöluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "búktalirðu",
+					"ft": "búktaliði"
+				},
+				"þátíð": {
+					"et": "búktalaðirðu",
+					"ft": "búktöluðuði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-búktala",
+	"hash": "7dc0e33670afb511cb451ce356328199c4fc44f31c04cc5a7193497bd51a1aec"
+}
