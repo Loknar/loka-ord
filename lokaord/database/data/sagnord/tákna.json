@@ -1,0 +1,135 @@
+{
+	"orð": "tákna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tákn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tákn-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tákna",
+		"sagnbót": "táknað",
+		"boðháttur": {
+			"stýfður": "tákna",
+			"et": "táknaðu",
+			"ft": "táknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tákna", "táknar", "táknar"],
+					"ft": ["táknum", "táknið", "tákna"]
+				},
+				"þátíð": {
+					"et": ["táknaði", "táknaðir", "táknaði"],
+					"ft": ["táknuðum", "táknuðuð", "táknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tákni", "táknir", "tákni"],
+					"ft": ["táknum", "táknið", "tákni"]
+				},
+				"þátíð": {
+					"et": ["táknaði", "táknaðir", "táknaði"],
+					"ft": ["táknuðum", "táknuðuð", "táknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "táknarðu",
+					"ft": "tákniði"
+				},
+				"þátíð": {
+					"et": "táknaðirðu",
+					"ft": "táknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "táknirðu",
+					"ft": "tákniði"
+				},
+				"þátíð": {
+					"et": "táknaðirðu",
+					"ft": "táknuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "táknast",
+		"sagnbót": "táknast",
+		"boðháttur": {
+			"et": "táknastu",
+			"ft": "táknist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["táknast", "táknast", "táknast"],
+					"ft": ["táknumst", "táknist", "táknast"]
+				},
+				"þátíð": {
+					"et": ["táknaðist", "táknaðist", "táknaðist"],
+					"ft": ["táknuðumst", "táknuðust", "táknuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["táknist", "táknist", "táknist"],
+					"ft": ["táknumst", "táknist", "táknist"]
+				},
+				"þátíð": {
+					"et": ["táknaðist", "táknaðist", "táknaðist"],
+					"ft": ["táknuðumst", "táknuðust", "táknuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "táknastu"
+				},
+				"þátíð": {
+					"et": "táknaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "táknistu"
+				},
+				"þátíð": {
+					"et": "táknaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "táknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["táknaður", "táknaðan", "táknuðum", "táknaðs"],
+					"kvk": ["táknuð", "táknaða", "táknaðri", "táknaðrar"],
+					"hk": ["táknað", "táknað", "táknuðu", "táknaðs"]
+				},
+				"ft": {
+					"kk": ["táknaðir", "táknaða", "táknuðum", "táknaðra"],
+					"kvk": ["táknaðar", "táknaðar", "táknuðum", "táknaðra"],
+					"hk": ["táknuð", "táknuð", "táknuðum", "táknaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tákna",
+	"hash": "1ae222328399d8b004f519b5b4b7568219b12e74b888a6d12201e7901b67c3f1"
+}

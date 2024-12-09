@@ -1,0 +1,131 @@
+{
+	"orð": "andvarpa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "no-andi-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-varpa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "andvarpa",
+		"sagnbót": "andvarpað",
+		"boðháttur": {
+			"stýfður": "andvarpa",
+			"et": "andvarpaðu",
+			"ft": "andvarpið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["andvarpa", "andvarpar", "andvarpar"],
+					"ft": ["andvörpum", "andvarpið", "andvarpa"]
+				},
+				"þátíð": {
+					"et": ["andvarpaði", "andvarpaðir", "andvarpaði"],
+					"ft": ["andvörpuðum", "andvörpuðuð", "andvörpuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["andvarpi", "andvarpir", "andvarpi"],
+					"ft": ["andvörpum", "andvarpið", "andvarpi"]
+				},
+				"þátíð": {
+					"et": ["andvarpaði", "andvarpaðir", "andvarpaði"],
+					"ft": ["andvörpuðum", "andvörpuðuð", "andvörpuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "andvarparðu",
+					"ft": "andvarpiði"
+				},
+				"þátíð": {
+					"et": "andvarpaðirðu",
+					"ft": "andvörpuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "andvarpirðu",
+					"ft": "andvarpiði"
+				},
+				"þátíð": {
+					"et": "andvarpaðirðu",
+					"ft": "andvörpuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "andvarpast",
+		"sagnbót": "andvarpast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["andvarpast", "andvarpast", "andvarpast"],
+					"ft": ["andvörpumst", "andvarpist", "andvarpast"]
+				},
+				"þátíð": {
+					"et": ["andvarpaðist", "andvarpaðist", "andvarpaðist"],
+					"ft": ["andvörpuðumst", "andvörpuðust", "andvörpuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["andvarpist", "andvarpist", "andvarpist"],
+					"ft": ["andvörpumst", "andvarpist", "andvarpist"]
+				},
+				"þátíð": {
+					"et": ["andvarpaðist", "andvarpaðist", "andvarpaðist"],
+					"ft": ["andvörpuðumst", "andvörpuðust", "andvörpuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "andvarpastu"
+				},
+				"þátíð": {
+					"et": "andvarpaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "andvarpistu"
+				},
+				"þátíð": {
+					"et": "andvarpaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "andvarpandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["andvarpaður", "andvarpaðan", "andvörpuðum", "andvarpaðs"],
+					"kvk": ["andvörpuð", "andvarpaða", "andvarpaðri", "andvarpaðrar"],
+					"hk": ["andvarpað", "andvarpað", "andvörpuðu", "andvarpaðs"]
+				},
+				"ft": {
+					"kk": ["andvarpaðir", "andvarpaða", "andvörpuðum", "andvarpaðra"],
+					"kvk": ["andvarpaðar", "andvarpaðar", "andvörpuðum", "andvarpaðra"],
+					"hk": ["andvörpuð", "andvörpuð", "andvörpuðum", "andvarpaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-andvarpa",
+	"hash": "8ec180fd0ed5a5ea56cd4f6a128116c3144af2e24f3e3e494f1c80a83d7d5dcc"
+}

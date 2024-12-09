@@ -1,0 +1,76 @@
+{
+	"orð": "syngja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "syngja",
+		"sagnbót": "sungið",
+		"boðháttur": {
+			"stýfður": "syng",
+			"et": "syngdu",
+			"ft": "syngið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["syng", "syngur", "syngur"],
+					"ft": ["syngjum", "syngið", "syngja"]
+				},
+				"þátíð": {
+					"et": ["söng", "söngst", "söng"],
+					"ft": ["sungum", "sunguð", "sungu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["syngi", "syngir", "syngi"],
+					"ft": ["syngjum", "syngið", "syngi"]
+				},
+				"þátíð": {
+					"et": ["syngi", "syngir", "syngi"],
+					"ft": ["syngjum", "syngjuð", "syngju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "syngurðu",
+					"ft": "syngiði"
+				},
+				"þátíð": {
+					"et": "söngstu",
+					"ft": "sunguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "syngirðu",
+					"ft": "syngiði"
+				},
+				"þátíð": {
+					"et": "syngirðu",
+					"ft": "syngjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "syngjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sunginn", "sunginn", "sungnum", "sungins"],
+					"kvk": ["sungin", "sungna", "sunginni", "sunginnar"],
+					"hk": ["sungið", "sungið", "sungnu", "sungins"]
+				},
+				"ft": {
+					"kk": ["sungnir", "sungna", "sungnum", "sunginna"],
+					"kvk": ["sungnar", "sungnar", "sungnum", "sunginna"],
+					"hk": ["sungin", "sungin", "sungnum", "sunginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-syngja",
+	"hash": "9513acb930fb0d4ff34a6eb737bb41ad2671c2751278319a6116c3e2db12f9e4"
+}
