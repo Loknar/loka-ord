@@ -1,0 +1,135 @@
+{
+	"orð": "þröngva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þröngv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-þröngur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þröngva",
+		"sagnbót": "þröngvað",
+		"boðháttur": {
+			"stýfður": "þröngva",
+			"et": "þröngvaðu",
+			"ft": "þröngvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þröngva", "þröngvar", "þröngvar"],
+					"ft": ["þröngvum", "þröngvið", "þröngva"]
+				},
+				"þátíð": {
+					"et": ["þröngvaði", "þröngvaðir", "þröngvaði"],
+					"ft": ["þröngvuðum", "þröngvuðuð", "þröngvuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þröngvi", "þröngvir", "þröngvi"],
+					"ft": ["þröngvum", "þröngvið", "þröngvi"]
+				},
+				"þátíð": {
+					"et": ["þröngvaði", "þröngvaðir", "þröngvaði"],
+					"ft": ["þröngvuðum", "þröngvuðuð", "þröngvuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þröngvarðu",
+					"ft": "þröngviði"
+				},
+				"þátíð": {
+					"et": "þröngvaðirðu",
+					"ft": "þröngvuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þröngvirðu",
+					"ft": "þröngviði"
+				},
+				"þátíð": {
+					"et": "þröngvaðirðu",
+					"ft": "þröngvuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þröngvast",
+		"sagnbót": "þröngvast",
+		"boðháttur": {
+			"et": "þröngvastu",
+			"ft": "þröngvist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þröngvast", "þröngvast", "þröngvast"],
+					"ft": ["þröngvumst", "þröngvist", "þröngvast"]
+				},
+				"þátíð": {
+					"et": ["þröngvaðist", "þröngvaðist", "þröngvaðist"],
+					"ft": ["þröngvuðumst", "þröngvuðust", "þröngvuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þröngvist", "þröngvist", "þröngvist"],
+					"ft": ["þröngvumst", "þröngvist", "þröngvist"]
+				},
+				"þátíð": {
+					"et": ["þröngvaðist", "þröngvaðist", "þröngvaðist"],
+					"ft": ["þröngvuðumst", "þröngvuðust", "þröngvuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þröngvastu"
+				},
+				"þátíð": {
+					"et": "þröngvaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þröngvistu"
+				},
+				"þátíð": {
+					"et": "þröngvaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þröngvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þröngvaður", "þröngvaðan", "þröngvuðum", "þröngvaðs"],
+					"kvk": ["þröngvuð", "þröngvaða", "þröngvaðri", "þröngvaðrar"],
+					"hk": ["þröngvað", "þröngvað", "þröngvuðu", "þröngvaðs"]
+				},
+				"ft": {
+					"kk": ["þröngvaðir", "þröngvaða", "þröngvuðum", "þröngvaðra"],
+					"kvk": ["þröngvaðar", "þröngvaðar", "þröngvuðum", "þröngvaðra"],
+					"hk": ["þröngvuð", "þröngvuð", "þröngvuðum", "þröngvaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þröngva",
+	"hash": "957ca692d9a3f130b3500a57b29d94a88f86bb393f925bf6a9537a7fa43712ef"
+}
