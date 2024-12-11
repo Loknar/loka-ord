@@ -1,0 +1,30 @@
+{
+	"orð": "dagvöruverslun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"kennistrengur": "no-verslun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["dagvöruverslun", "dagvöruverslun", "dagvöruverslun", "dagvöruverslunar"],
+		"mg": ["dagvöruverslunin", "dagvöruverslunina", "dagvöruversluninni", "dagvöruverslunarinnar"]
+	},
+	"ft": {
+		"ág": ["dagvöruverslanir", "dagvöruverslanir", "dagvöruverslunum", "dagvöruverslana"],
+		"mg": ["dagvöruverslanirnar", "dagvöruverslanirnar", "dagvöruverslununum", "dagvöruverslananna"]
+	},
+	"kennistrengur": "no-dagvöruverslun-kvk",
+	"hash": "e033ea8ec0418c8225105bffb4692271d865dac5bf2763f3d0732c5bda829bab"
+}
