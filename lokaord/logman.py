@@ -266,7 +266,7 @@ def configure_logger(
 			output_dir, config['filename'].format(name=name, role=role, format='')
 		)
 		file_handler_readable = logging.FileHandler(
-			log_file_readable, 'a', encoding='utf-8', delay=True
+			log_file_readable, mode='a', encoding='utf-8', delay=True
 		)
 		file_handler_readable.setLevel(log_level)
 		formatter_readable = logging.Formatter(config['format'], config['time_format'])
@@ -277,7 +277,7 @@ def configure_logger(
 			output_dir, config['filename'].format(name=name, role=role, format='.json')
 		)
 		file_handler_json = logging.FileHandler(
-			log_file_json, 'a', encoding='utf-8', delay=True
+			log_file_json, mode='a', encoding='utf-8', delay=True
 		)
 		file_handler_json.setLevel(log_level)
 		if log_to_json:
