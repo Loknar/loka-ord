@@ -1,0 +1,132 @@
+{
+	"orð": "þætta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þætta",
+		"sagnbót": "þætt",
+		"boðháttur": {
+			"stýfður": "þætt",
+			"et": "þættu",
+			"ft": "þættið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þætti", "þættir", "þættir"],
+					"ft": ["þættum", "þættið", "þætta"]
+				},
+				"þátíð": {
+					"et": ["þætti", "þættir", "þætti"],
+					"ft": ["þættum", "þættuð", "þættu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þætti", "þættir", "þætti"],
+					"ft": ["þættum", "þættið", "þætti"]
+				},
+				"þátíð": {
+					"et": ["þætti", "þættir", "þætti"],
+					"ft": ["þættum", "þættuð", "þættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þættirðu",
+					"ft": "þættiði"
+				},
+				"þátíð": {
+					"et": "þættirðu",
+					"ft": "þættuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þættirðu",
+					"ft": "þættiði"
+				},
+				"þátíð": {
+					"et": "þættirðu",
+					"ft": "þættuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þættast",
+		"sagnbót": "hist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þættist", "þættist", "þættist"],
+					"ft": ["þættumst", "þættist", "þættast"]
+				},
+				"þátíð": {
+					"et": ["þættist", "þættist", "þættist"],
+					"ft": ["þættumst", "þættust", "þættust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þættist", "þættist", "þættist"],
+					"ft": ["þættumst", "þættist", "þættist"]
+				},
+				"þátíð": {
+					"et": ["þættist", "þættist", "þættist"],
+					"ft": ["þættumst", "þættust", "þættust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þættistu"
+				},
+				"þátíð": {
+					"et": "þættistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þættistu"
+				},
+				"þátíð": {
+					"et": "þættistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þættandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þættur", "þættan", "þættum", "þætts"],
+					"kvk": ["þætt", "þætta", "þættri", "þættrar"],
+					"hk": ["þætt", "þætt", "þættu", "þætts"]
+				},
+				"ft": {
+					"kk": ["þættir", "þætta", "þættum", "þættra"],
+					"kvk": ["þættar", "þættar", "þættum", "þættra"],
+					"hk": ["þætt", "þætt", "þættum", "þættra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þætti", "þætta", "þætta", "þætta"],
+					"kvk": ["þætta", "þættu", "þættu", "þættu"],
+					"hk": ["þætta", "þætta", "þætta", "þætta"]
+				},
+				"ft": {
+					"kk": ["þættu", "þættu", "þættu", "þættu"],
+					"kvk": ["þættu", "þættu", "þættu", "þættu"],
+					"hk": ["þættu", "þættu", "þættu", "þættu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þætta",
+	"hash": "5d061c58bb544baed2d3fddad3685b5ea1cef92a5f89c8f8d547ee6be02ee951"
+}

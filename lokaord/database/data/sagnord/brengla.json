@@ -1,0 +1,135 @@
+{
+	"orð": "brengla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brengl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brengl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brengla",
+		"sagnbót": "brenglað",
+		"boðháttur": {
+			"stýfður": "brengla",
+			"et": "brenglaðu",
+			"ft": "brenglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brengla", "brenglar", "brenglar"],
+					"ft": ["brenglum", "brenglið", "brengla"]
+				},
+				"þátíð": {
+					"et": ["brenglaði", "brenglaðir", "brenglaði"],
+					"ft": ["brengluðum", "brengluðuð", "brengluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brengli", "brenglir", "brengli"],
+					"ft": ["brenglum", "brenglið", "brengli"]
+				},
+				"þátíð": {
+					"et": ["brenglaði", "brenglaðir", "brenglaði"],
+					"ft": ["brengluðum", "brengluðuð", "brengluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brenglarðu",
+					"ft": "brengliði"
+				},
+				"þátíð": {
+					"et": "brenglaðirðu",
+					"ft": "brengluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brenglirðu",
+					"ft": "brengliði"
+				},
+				"þátíð": {
+					"et": "brenglaðirðu",
+					"ft": "brengluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "brenglast",
+		"sagnbót": "brenglast",
+		"boðháttur": {
+			"et": "brenglastu",
+			"ft": "brenglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brenglast", "brenglast", "brenglast"],
+					"ft": ["brenglumst", "brenglist", "brenglast"]
+				},
+				"þátíð": {
+					"et": ["brenglaðist", "brenglaðist", "brenglaðist"],
+					"ft": ["brengluðumst", "brengluðust", "brengluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brenglist", "brenglist", "brenglist"],
+					"ft": ["brenglumst", "brenglist", "brenglist"]
+				},
+				"þátíð": {
+					"et": ["brenglaðist", "brenglaðist", "brenglaðist"],
+					"ft": ["brengluðumst", "brengluðust", "brengluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brenglastu"
+				},
+				"þátíð": {
+					"et": "brenglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brenglistu"
+				},
+				"þátíð": {
+					"et": "brenglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brenglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brenglaður", "brenglaðan", "brengluðum", "brenglaðs"],
+					"kvk": ["brengluð", "brenglaða", "brenglaðri", "brenglaðrar"],
+					"hk": ["brenglað", "brenglað", "brengluðu", "brenglaðs"]
+				},
+				"ft": {
+					"kk": ["brenglaðir", "brenglaða", "brengluðum", "brenglaðra"],
+					"kvk": ["brenglaðar", "brenglaðar", "brengluðum", "brenglaðra"],
+					"hk": ["brengluð", "brengluð", "brengluðum", "brenglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brengla",
+	"hash": "08b2a643cf17a5aa8cbc56b375808d8952038662545251f2ffb7d9b63c0cfebb"
+}

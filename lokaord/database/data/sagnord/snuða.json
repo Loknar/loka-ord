@@ -1,0 +1,135 @@
+{
+	"orð": "snuða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snuð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snuð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snuða",
+		"sagnbót": "snuðað",
+		"boðháttur": {
+			"stýfður": "snuða",
+			"et": "snuðaðu",
+			"ft": "snuðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snuða", "snuðar", "snuðar"],
+					"ft": ["snuðum", "snuðið", "snuða"]
+				},
+				"þátíð": {
+					"et": ["snuðaði", "snuðaðir", "snuðaði"],
+					"ft": ["snuðuðum", "snuðuðuð", "snuðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snuði", "snuðir", "snuði"],
+					"ft": ["snuðum", "snuðið", "snuði"]
+				},
+				"þátíð": {
+					"et": ["snuðaði", "snuðaðir", "snuðaði"],
+					"ft": ["snuðuðum", "snuðuðuð", "snuðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snuðarðu",
+					"ft": "snuðiði"
+				},
+				"þátíð": {
+					"et": "snuðaðirðu",
+					"ft": "snuðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snuðirðu",
+					"ft": "snuðiði"
+				},
+				"þátíð": {
+					"et": "snuðaðirðu",
+					"ft": "snuðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "snuðast",
+		"sagnbót": "snuðast",
+		"boðháttur": {
+			"et": "snuðastu",
+			"ft": "snuðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snuðast", "snuðast", "snuðast"],
+					"ft": ["snuðumst", "snuðist", "snuðast"]
+				},
+				"þátíð": {
+					"et": ["snuðaðist", "snuðaðist", "snuðaðist"],
+					"ft": ["snuðuðumst", "snuðuðust", "snuðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snuðist", "snuðist", "snuðist"],
+					"ft": ["snuðumst", "snuðist", "snuðist"]
+				},
+				"þátíð": {
+					"et": ["snuðaðist", "snuðaðist", "snuðaðist"],
+					"ft": ["snuðuðumst", "snuðuðust", "snuðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snuðastu"
+				},
+				"þátíð": {
+					"et": "snuðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snuðistu"
+				},
+				"þátíð": {
+					"et": "snuðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "snuðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["snuðaður", "snuðaðan", "snuðuðum", "snuðaðs"],
+					"kvk": ["snuðuð", "snuðaða", "snuðaðri", "snuðaðrar"],
+					"hk": ["snuðað", "snuðað", "snuðuðu", "snuðaðs"]
+				},
+				"ft": {
+					"kk": ["snuðaðir", "snuðaða", "snuðuðum", "snuðaðra"],
+					"kvk": ["snuðaðar", "snuðaðar", "snuðuðum", "snuðaðra"],
+					"hk": ["snuðuð", "snuðuð", "snuðuðum", "snuðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snuða",
+	"hash": "f8dd0b5632a24c81792d56ed879dbb2d215bac2bfeba338f2393cdbbb16efaa0"
+}
