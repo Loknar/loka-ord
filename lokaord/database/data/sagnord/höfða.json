@@ -1,0 +1,135 @@
+{
+	"orð": "höfða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "höfð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-höfuð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "höfða",
+		"sagnbót": "höfðað",
+		"boðháttur": {
+			"stýfður": "höfða",
+			"et": "höfðaðu",
+			"ft": "höfðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["höfða", "höfðar", "höfðar"],
+					"ft": ["höfðum", "höfðið", "höfða"]
+				},
+				"þátíð": {
+					"et": ["höfðaði", "höfðaðir", "höfðaði"],
+					"ft": ["höfðuðum", "höfðuðuð", "höfðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["höfði", "höfðir", "höfði"],
+					"ft": ["höfðum", "höfðið", "höfði"]
+				},
+				"þátíð": {
+					"et": ["höfðaði", "höfðaðir", "höfðaði"],
+					"ft": ["höfðuðum", "höfðuðuð", "höfðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "höfðarðu",
+					"ft": "höfðiði"
+				},
+				"þátíð": {
+					"et": "höfðaðirðu",
+					"ft": "höfðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "höfðirðu",
+					"ft": "höfðiði"
+				},
+				"þátíð": {
+					"et": "höfðaðirðu",
+					"ft": "höfðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "höfðast",
+		"sagnbót": "höfðast",
+		"boðháttur": {
+			"et": "höfðastu",
+			"ft": "höfðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["höfðast", "höfðast", "höfðast"],
+					"ft": ["höfðumst", "höfðist", "höfðast"]
+				},
+				"þátíð": {
+					"et": ["höfðaðist", "höfðaðist", "höfðaðist"],
+					"ft": ["höfðuðumst", "höfðuðust", "höfðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["höfðist", "höfðist", "höfðist"],
+					"ft": ["höfðumst", "höfðist", "höfðist"]
+				},
+				"þátíð": {
+					"et": ["höfðaðist", "höfðaðist", "höfðaðist"],
+					"ft": ["höfðuðumst", "höfðuðust", "höfðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "höfðastu"
+				},
+				"þátíð": {
+					"et": "höfðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "höfðistu"
+				},
+				"þátíð": {
+					"et": "höfðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "höfðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["höfðaður", "höfðaðan", "höfðuðum", "höfðaðs"],
+					"kvk": ["höfðuð", "höfðaða", "höfðaðri", "höfðaðrar"],
+					"hk": ["höfðað", "höfðað", "höfðuðu", "höfðaðs"]
+				},
+				"ft": {
+					"kk": ["höfðaðir", "höfðaða", "höfðuðum", "höfðaðra"],
+					"kvk": ["höfðaðar", "höfðaðar", "höfðuðum", "höfðaðra"],
+					"hk": ["höfðuð", "höfðuð", "höfðuðum", "höfðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-höfða",
+	"hash": "f2f228a404ee0b6e5aec39bbd44db3ce57f1077ec3d4a1cb5f14e616f33385c9"
+}

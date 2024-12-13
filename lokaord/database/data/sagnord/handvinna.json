@@ -1,0 +1,128 @@
+{
+	"orð": "handvinna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"kennistrengur": "so-vinna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handvinna",
+		"sagnbót": "handunnið",
+		"boðháttur": {
+			"stýfður": "handvinn",
+			"et": "handvinndu",
+			"ft": "handvinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handvinn", "handvinnur", "handvinnur"],
+					"ft": ["handvinnum", "handvinnið", "handvinna"]
+				},
+				"þátíð": {
+					"et": ["handvann", "handvannst", "handvann"],
+					"ft": ["handunnum", "handunnuð", "handunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handvinni", "handvinnir", "handvinni"],
+					"ft": ["handvinnum", "handvinnið", "handvinni"]
+				},
+				"þátíð": {
+					"et": ["handynni", "handynnir", "handynni"],
+					"ft": ["handynnum", "handynnuð", "handynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handvinnurðu",
+					"ft": "handvinniði"
+				},
+				"þátíð": {
+					"et": "handvannstu",
+					"ft": "handunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handvinnirðu",
+					"ft": "handvinniði"
+				},
+				"þátíð": {
+					"et": "handynnirðu",
+					"ft": "handynnuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "handvinnast",
+		"sagnbót": "handunnist",
+		"boðháttur": {
+			"et": "handvinnstu",
+			"ft": "handvinnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handvinnst", "handvinnst", "handvinnst"],
+					"ft": ["handvinnumst", "handvinnist", "handvinnast"]
+				},
+				"þátíð": {
+					"et": ["handvannst", "handvannst", "handvannst"],
+					"ft": ["handunnumst", "handunnust", "handunnust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handvinnist", "handvinnist", "handvinnist"],
+					"ft": ["handvinnumst", "handvinnist", "handvinnist"]
+				},
+				"þátíð": {
+					"et": ["handynnist", "handynnist", "handynnist"],
+					"ft": ["handynnumst", "handynnust", "handynnust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handvinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handunninn", "handunninn", "handunnum", "handunnins"],
+					"kvk": ["handunnin", "handunna", "handunninni", "handunninnar"],
+					"hk": ["handunnið", "handunnið", "handunnu", "handunnins"]
+				},
+				"ft": {
+					"kk": ["handunnir", "handunna", "handunnum", "handunninna"],
+					"kvk": ["handunnar", "handunnar", "handunnum", "handunninna"],
+					"hk": ["handunnin", "handunnin", "handunnnum", "handunninna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handunni", "handunna", "handunna", "handunna"],
+					"kvk": ["handunna", "handunnu", "handunnu", "handunnu"],
+					"hk": ["handunna", "handunna", "handunna", "handunna"]
+				},
+				"ft": {
+					"kk": ["handunnu", "handunnu", "handunnu", "handunnu"],
+					"kvk": ["handunnu", "handunnu", "handunnu", "handunnu"],
+					"hk": ["handunnu", "handunnu", "handunnu", "handunnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handvinna",
+	"hash": "892a48c25d9cb38f94fa0d988ccfd41d93f865939ba5bdd722d501ff18a709b6"
+}
