@@ -1,0 +1,64 @@
+{
+	"orð": "móttaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mót",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-mót"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "móttaka",
+		"sagnbót": "móttekið",
+		"boðháttur": {
+			"stýfður": "móttak",
+			"et": "móttaktu",
+			"ft": "móttakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["móttek", "móttekur", "móttekur"],
+					"ft": ["móttökum", "móttakið", "móttaka"]
+				},
+				"þátíð": {
+					"et": ["móttók", "móttókst", "móttók"],
+					"ft": ["móttókum", "móttókuð", "móttóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["móttaki", "móttakir", "móttaki"],
+					"ft": ["móttökum", "móttakið", "móttaki"]
+				},
+				"þátíð": {
+					"et": ["móttæki", "móttækir", "móttæki"],
+					"ft": ["móttækjum", "móttækjuð", "móttækju"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["móttekinn", "móttekinn", "mótteknum", "móttekins"],
+					"kvk": ["móttekin", "móttekna", "móttekinni", "móttekinnar"],
+					"hk": ["móttekið", "móttekið", "mótteknu", "móttekins"]
+				},
+				"ft": {
+					"kk": ["mótteknir", "móttekna", "mótteknum", "móttekinna"],
+					"kvk": ["mótteknar", "mótteknar", "mótteknum", "móttekinna"],
+					"hk": ["móttekin", "móttekin", "mótteknum", "móttekinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-móttaka",
+	"hash": "76d73aa4b4210d02715401cd60251a8d9de2adce36f61c9ae575c62e54bfcf3a"
+}
