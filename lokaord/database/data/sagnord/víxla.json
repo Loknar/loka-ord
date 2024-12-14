@@ -1,0 +1,135 @@
+{
+	"orð": "víxla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "víxl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-víxl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "víxla",
+		"sagnbót": "víxlað",
+		"boðháttur": {
+			"stýfður": "víxla",
+			"et": "víxlaðu",
+			"ft": "víxlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["víxla", "víxlar", "víxlar"],
+					"ft": ["víxlum", "víxlið", "víxla"]
+				},
+				"þátíð": {
+					"et": ["víxlaði", "víxlaðir", "víxlaði"],
+					"ft": ["víxluðum", "víxluðuð", "víxluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["víxli", "víxlir", "víxli"],
+					"ft": ["víxlum", "víxlið", "víxli"]
+				},
+				"þátíð": {
+					"et": ["víxlaði", "víxlaðir", "víxlaði"],
+					"ft": ["víxluðum", "víxluðuð", "víxluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "víxlarðu",
+					"ft": "víxliði"
+				},
+				"þátíð": {
+					"et": "víxlaðirðu",
+					"ft": "víxluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "víxlirðu",
+					"ft": "víxliði"
+				},
+				"þátíð": {
+					"et": "víxlaðirðu",
+					"ft": "víxluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "víxlast",
+		"sagnbót": "víxlast",
+		"boðháttur": {
+			"et": "víxlastu",
+			"ft": "víxlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["víxlast", "víxlast", "víxlast"],
+					"ft": ["víxlumst", "víxlist", "víxlast"]
+				},
+				"þátíð": {
+					"et": ["víxlaðist", "víxlaðist", "víxlaðist"],
+					"ft": ["víxluðumst", "víxluðust", "víxluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["víxlist", "víxlist", "víxlist"],
+					"ft": ["víxlumst", "víxlist", "víxlist"]
+				},
+				"þátíð": {
+					"et": ["víxlaðist", "víxlaðist", "víxlaðist"],
+					"ft": ["víxluðumst", "víxluðust", "víxluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "víxlastu"
+				},
+				"þátíð": {
+					"et": "víxlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "víxlistu"
+				},
+				"þátíð": {
+					"et": "víxlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "víxlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["víxlaður", "víxlaðan", "víxluðum", "víxlaðs"],
+					"kvk": ["víxluð", "víxlaða", "víxlaðri", "víxlaðrar"],
+					"hk": ["víxlað", "víxlað", "víxluðu", "víxlaðs"]
+				},
+				"ft": {
+					"kk": ["víxlaðir", "víxlaða", "víxluðum", "víxlaðra"],
+					"kvk": ["víxlaðar", "víxlaðar", "víxluðum", "víxlaðra"],
+					"hk": ["víxluð", "víxluð", "víxluðum", "víxlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-víxla",
+	"hash": "a65719cd6e468ecf895206176b864d2388d79a09cf8d3010838a72f69a1394f4"
+}

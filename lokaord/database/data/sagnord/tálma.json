@@ -1,0 +1,135 @@
+{
+	"orð": "tálma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tálm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tálmi-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tálma",
+		"sagnbót": "tálmað",
+		"boðháttur": {
+			"stýfður": "tálma",
+			"et": "tálmaðu",
+			"ft": "tálmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tálma", "tálmar", "tálmar"],
+					"ft": ["tálmum", "tálmið", "tálma"]
+				},
+				"þátíð": {
+					"et": ["tálmaði", "tálmaðir", "tálmaði"],
+					"ft": ["tálmuðum", "tálmuðuð", "tálmuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tálmi", "tálmir", "tálmi"],
+					"ft": ["tálmum", "tálmið", "tálmi"]
+				},
+				"þátíð": {
+					"et": ["tálmaði", "tálmaðir", "tálmaði"],
+					"ft": ["tálmuðum", "tálmuðuð", "tálmuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tálmarðu",
+					"ft": "tálmiði"
+				},
+				"þátíð": {
+					"et": "tálmaðirðu",
+					"ft": "tálmuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tálmirðu",
+					"ft": "tálmiði"
+				},
+				"þátíð": {
+					"et": "tálmaðirðu",
+					"ft": "tálmuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tálmast",
+		"sagnbót": "tálmast",
+		"boðháttur": {
+			"et": "tálmastu",
+			"ft": "tálmist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tálmast", "tálmast", "tálmast"],
+					"ft": ["tálmumst", "tálmist", "tálmast"]
+				},
+				"þátíð": {
+					"et": ["tálmaðist", "tálmaðist", "tálmaðist"],
+					"ft": ["tálmuðumst", "tálmuðust", "tálmuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tálmist", "tálmist", "tálmist"],
+					"ft": ["tálmumst", "tálmist", "tálmist"]
+				},
+				"þátíð": {
+					"et": ["tálmaðist", "tálmaðist", "tálmaðist"],
+					"ft": ["tálmuðumst", "tálmuðust", "tálmuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tálmastu"
+				},
+				"þátíð": {
+					"et": "tálmaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tálmistu"
+				},
+				"þátíð": {
+					"et": "tálmaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tálmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tálmaður", "tálmaðan", "tálmuðum", "tálmaðs"],
+					"kvk": ["tálmuð", "tálmaða", "tálmaðri", "tálmaðrar"],
+					"hk": ["tálmað", "tálmað", "tálmuðu", "tálmaðs"]
+				},
+				"ft": {
+					"kk": ["tálmaðir", "tálmaða", "tálmuðum", "tálmaðra"],
+					"kvk": ["tálmaðar", "tálmaðar", "tálmuðum", "tálmaðra"],
+					"hk": ["tálmuð", "tálmuð", "tálmuðum", "tálmaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tálma",
+	"hash": "0f1c115f5fdfb36676de06067b4f2b0c2832afda647ac2198ca765d1ac899f10"
+}
