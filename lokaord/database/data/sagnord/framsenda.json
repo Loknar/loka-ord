@@ -1,0 +1,165 @@
+{
+	"orð": "framsenda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "so-senda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framsenda",
+		"sagnbót": "framsent",
+		"boðháttur": {
+			"stýfður": "framsend",
+			"et": "framsentu",
+			"ft": "framsendið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framsendi", "framsendir", "framsendir"],
+					"ft": ["framsendum", "framsendið", "framsenda"]
+				},
+				"þátíð": {
+					"et": ["framsenti", "framsentir", "framsenti"],
+					"ft": ["framsentum", "framsentuð", "framsentu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framsendi", "framsendir", "framsendi"],
+					"ft": ["framsendum", "framsendið", "framsendi"]
+				},
+				"þátíð": {
+					"et": ["framsenti", "framsentir", "framsenti"],
+					"ft": ["framsentum", "framsentuð", "framsentu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framsendirðu",
+					"ft": "framsendiði"
+				},
+				"þátíð": {
+					"et": "framsentirðu",
+					"ft": "framsentuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framsendirðu",
+					"ft": "framsendiði"
+				},
+				"þátíð": {
+					"et": "framsentirðu",
+					"ft": "framsentuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "framsendast",
+		"sagnbót": "framsenst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framsendist", "framsendist", "framsendist"],
+					"ft": ["framsendumst", "framsendist", "framsendast"]
+				},
+				"þátíð": {
+					"et": ["framsentist", "framsentist", "framsentist"],
+					"ft": ["framsentumst", "framsentust", "framsentust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framsendist", "framsendist", "framsendist"],
+					"ft": ["framsendumst", "framsendist", "framsendist"]
+				},
+				"þátíð": {
+					"et": ["framsentist", "framsentist", "framsentist"],
+					"ft": ["framsentumst", "framsentust", "framsentust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framsendist", "framsendist", "framsendist"],
+					"ft": ["framsendist", "framsendist", "framsendist"]
+				},
+				"þátíð": {
+					"et": ["framsentist", "framsentist", "framsentist"],
+					"ft": ["framsentist", "framsentist", "framsentist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framsendist", "framsendist", "framsendist"],
+					"ft": ["framsendist", "framsendist", "framsendist"]
+				},
+				"þátíð": {
+					"et": ["framsentist", "framsentist", "framsentist"],
+					"ft": ["framsentist", "framsentist", "framsentist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framsendistu"
+				},
+				"þátíð": {
+					"et": "framsentistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framsendistu"
+				},
+				"þátíð": {
+					"et": "framsentistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framsendandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framsentur", "framsentan", "framsentum", "framsents"],
+					"kvk": ["framsent", "framsenta", "framsentri", "framsentrar"],
+					"hk": ["framsent", "framsent", "framsentu", "framsents"]
+				},
+				"ft": {
+					"kk": ["framsentir", "framsenta", "framsentum", "framsentra"],
+					"kvk": ["framsentar", "framsentar", "framsentum", "framsentra"],
+					"hk": ["framsent", "framsent", "framsentum", "framsentra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framsenti", "framsenta", "framsenta", "framsenta"],
+					"kvk": ["framsenta", "framsentu", "framsentu", "framsentu"],
+					"hk": ["framsenta", "framsenta", "framsenta", "framsenta"]
+				},
+				"ft": {
+					"kk": ["framsentu", "framsentu", "framsentu", "framsentu"],
+					"kvk": ["framsentu", "framsentu", "framsentu", "framsentu"],
+					"hk": ["framsentu", "framsentu", "framsentu", "framsentu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framsenda",
+	"hash": "979acfd181e99d8160cd4019410f2b0e91696b1b8a95ce9233d604e0ebc170c3"
+}
