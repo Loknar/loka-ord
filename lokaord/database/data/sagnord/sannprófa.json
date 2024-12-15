@@ -1,0 +1,142 @@
+{
+	"orð": "sannprófa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sann",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sannur"
+		},
+		{
+			"kennistrengur": "so-prófa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sannprófa",
+		"sagnbót": "sannprófað",
+		"boðháttur": {
+			"stýfður": "sannprófa",
+			"et": "sannprófaðu",
+			"ft": "sannprófið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sannprófa", "sannprófar", "sannprófar"],
+					"ft": ["sannprófum", "sannprófið", "sannprófa"]
+				},
+				"þátíð": {
+					"et": ["sannprófaði", "sannprófaðir", "sannprófaði"],
+					"ft": ["sannprófuðum", "sannprófuðuð", "sannprófuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sannprófi", "sannprófir", "sannprófi"],
+					"ft": ["sannprófum", "sannprófið", "sannprófi"]
+				},
+				"þátíð": {
+					"et": ["sannprófaði", "sannprófaðir", "sannprófaði"],
+					"ft": ["sannprófuðum", "sannprófuðuð", "sannprófuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sannprófarðu",
+					"ft": "sannprófiði"
+				},
+				"þátíð": {
+					"et": "sannprófaðirðu",
+					"ft": "sannprófuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sannprófirðu",
+					"ft": "sannprófiði"
+				},
+				"þátíð": {
+					"et": "sannprófaðirðu",
+					"ft": "sannprófuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sannprófast",
+		"sagnbót": "sannprófast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sannprófast", "sannprófast", "sannprófast"],
+					"ft": ["sannprófumst", "sannprófist", "sannprófast"]
+				},
+				"þátíð": {
+					"et": ["sannprófaðist", "sannprófaðist", "sannprófaðist"],
+					"ft": ["sannprófuðumst", "sannprófuðust", "sannprófuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sannprófist", "sannprófist", "sannprófist"],
+					"ft": ["sannprófumst", "sannprófist", "sannprófist"]
+				},
+				"þátíð": {
+					"et": ["sannprófaðist", "sannprófaðist", "sannprófaðist"],
+					"ft": ["sannprófuðumst", "sannprófuðust", "sannprófuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sannprófastu"
+				},
+				"þátíð": {
+					"et": "sannprófaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sannprófistu"
+				},
+				"þátíð": {
+					"et": "sannprófaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sannprófandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sannprófaður", "sannprófaðan", "sannprófuðum", "sannprófaðs"],
+					"kvk": ["sannprófuð", "sannprófaða", "sannprófaðri", "sannprófaðrar"],
+					"hk": ["sannprófað", "sannprófað", "sannprófuðu", "sannprófaðs"]
+				},
+				"ft": {
+					"kk": ["sannprófaðir", "sannprófaða", "sannprófuðum", "sannprófaðra"],
+					"kvk": ["sannprófaðar", "sannprófaðar", "sannprófuðum", "sannprófaðra"],
+					"hk": ["sannprófuð", "sannprófuð", "sannprófuðum", "sannprófaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sannprófaði", "sannprófaða", "sannprófaða", "sannprófaða"],
+					"kvk": ["sannprófaða", "sannprófuðu", "sannprófuðu", "sannprófuðu"],
+					"hk": ["sannprófaða", "sannprófaða", "sannprófaða", "sannprófaða"]
+				},
+				"ft": {
+					"kk": ["sannprófuðu", "sannprófuðu", "sannprófuðu", "sannprófuðu"],
+					"kvk": ["sannprófuðu", "sannprófuðu", "sannprófuðu", "sannprófuðu"],
+					"hk": ["sannprófuðu", "sannprófuðu", "sannprófuðu", "sannprófuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sannprófa",
+	"hash": "dac2d6f6cbc98e27e81f71fedfca46337c55399a087543d4dd8b319d20208d7c"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "vörumerkjaréttur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "merkja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-merki-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-réttur-kk"
+		}
+	],
+	"et": {
+		"ág": ["vörumerkjaréttur", "vörumerkjarétt", "vörumerkjarétti", "vörumerkjaréttar"],
+		"mg": ["vörumerkjarétturinn", "vörumerkjaréttinn", "vörumerkjaréttinum", "vörumerkjaréttarins"]
+	},
+	"kennistrengur": "no-vörumerkjaréttur-kk",
+	"hash": "1b0f0726661e186d9ecf4f7e7655898d7b081b1d492eeb77d56e680315305aa7"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "bráðabirgðarannsókn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bráða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bráð-kvk"
+		},
+		{
+			"mynd": "birgða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birgð-kvk"
+		},
+		{
+			"mynd": "rann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rann-hk"
+		},
+		{
+			"kennistrengur": "no-sókn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bráðabirgðarannsókn", "bráðabirgðarannsókn", "bráðabirgðarannsókn", "bráðabirgðarannsóknar"],
+		"mg": ["bráðabirgðarannsóknin", "bráðabirgðarannsóknina", "bráðabirgðarannsókninni", "bráðabirgðarannsóknarinnar"]
+	},
+	"ft": {
+		"ág": ["bráðabirgðarannsóknir", "bráðabirgðarannsóknir", "bráðabirgðarannsóknum", "bráðabirgðarannsókna"],
+		"mg": ["bráðabirgðarannsóknirnar", "bráðabirgðarannsóknirnar", "bráðabirgðarannsóknunum", "bráðabirgðarannsóknanna"]
+	},
+	"kennistrengur": "no-bráðabirgðarannsókn-kvk",
+	"hash": "7cac413f566057a01e2cbb85a43eb2f6a5fe08661da428c2138c554f7ae23f12"
+}
