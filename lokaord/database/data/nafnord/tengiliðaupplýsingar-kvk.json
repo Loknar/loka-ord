@@ -1,0 +1,32 @@
+{
+	"orð": "tengiliðaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tengi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tengi-hk"
+		},
+		{
+			"mynd": "liða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-liður-kk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["tengiliðaupplýsingar", "tengiliðaupplýsingar", "tengiliðaupplýsingum", "tengiliðaupplýsinga"],
+		"mg": ["tengiliðaupplýsingarnar", "tengiliðaupplýsingarnar", "tengiliðaupplýsingunum", "tengiliðaupplýsinganna"]
+	},
+	"kennistrengur": "no-tengiliðaupplýsingar-kvk",
+	"hash": "07227179e4c7702a9bde27bbf6ca600cdac5e2a980969fd48ad278a1d4898d21"
+}
