@@ -1,0 +1,135 @@
+{
+	"orð": "ulla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ull",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ull-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ulla",
+		"sagnbót": "ullað",
+		"boðháttur": {
+			"stýfður": "ulla",
+			"et": "ullaðu",
+			"ft": "ullið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ulla", "ullar", "ullar"],
+					"ft": ["ullum", "ullið", "ulla"]
+				},
+				"þátíð": {
+					"et": ["ullaði", "ullaðir", "ullaði"],
+					"ft": ["ulluðum", "ulluðuð", "ulluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ulli", "ullir", "ulli"],
+					"ft": ["ullum", "ullið", "ulli"]
+				},
+				"þátíð": {
+					"et": ["ullaði", "ullaðir", "ullaði"],
+					"ft": ["ulluðum", "ulluðuð", "ulluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ullarðu",
+					"ft": "ulliði"
+				},
+				"þátíð": {
+					"et": "ullaðirðu",
+					"ft": "ulluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ullirðu",
+					"ft": "ulliði"
+				},
+				"þátíð": {
+					"et": "ullaðirðu",
+					"ft": "ulluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ullast",
+		"sagnbót": "ullast",
+		"boðháttur": {
+			"et": "ullastu",
+			"ft": "ullist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ullast", "ullast", "ullast"],
+					"ft": ["ullumst", "ullist", "ullast"]
+				},
+				"þátíð": {
+					"et": ["ullaðist", "ullaðist", "ullaðist"],
+					"ft": ["ulluðumst", "ulluðust", "ulluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ullist", "ullist", "ullist"],
+					"ft": ["ullumst", "ullist", "ullist"]
+				},
+				"þátíð": {
+					"et": ["ullaðist", "ullaðist", "ullaðist"],
+					"ft": ["ulluðumst", "ulluðust", "ulluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ullastu"
+				},
+				"þátíð": {
+					"et": "ullaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ullistu"
+				},
+				"þátíð": {
+					"et": "ullaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ullandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ullaður", "ullaðan", "ulluðum", "ullaðs"],
+					"kvk": ["ulluð", "ullaða", "ullaðri", "ullaðrar"],
+					"hk": ["ullað", "ullað", "ulluðu", "ullaðs"]
+				},
+				"ft": {
+					"kk": ["ullaðir", "ullaða", "ulluðum", "ullaðra"],
+					"kvk": ["ullaðar", "ullaðar", "ulluðum", "ullaðra"],
+					"hk": ["ulluð", "ulluð", "ulluðum", "ullaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ulla",
+	"hash": "f42ec4bf4e1bfdad14051bc2f871712ce417d24d0d7bd8447e368d477647082d"
+}
