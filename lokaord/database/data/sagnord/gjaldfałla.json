@@ -1,0 +1,64 @@
+{
+	"orð": "gjaldfałla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-fałla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjaldfałla",
+		"sagnbót": "gjaldfałlið",
+		"boðháttur": {
+			"stýfður": "gjaldfałl",
+			"ft": "gjaldfałlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjaldfełl", "gjaldfełlur", "gjaldfełlur"],
+					"ft": ["gjaldfełlum", "gjaldfałlið", "gjaldfałla"]
+				},
+				"þátíð": {
+					"et": ["gjaldféłl", "gjaldféllst", "gjaldféłl"],
+					"ft": ["gjaldféłlum", "gjaldféłluð", "gjaldféłlu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjaldfałli", "gjaldfałlir", "gjaldfałli"],
+					"ft": ["gjaldföłlum", "gjaldfałlið", "gjaldfałli"]
+				},
+				"þátíð": {
+					"et": ["gjaldféłli", "gjaldféłlir", "gjaldféłli"],
+					"ft": ["gjaldféłlum", "gjaldféłluð", "gjaldféłlu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjaldfałlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gjaldfałlinn", "gjaldfałlinn", "gjaldföłlnum", "gjaldfałlins"],
+					"kvk": ["gjaldfałlin", "gjaldfałlna", "gjaldfałlinni", "gjaldfałlinnar"],
+					"hk": ["gjaldfałlið", "gjaldfałlið", "gjaldföłlnu", "gjaldfałlins"]
+				},
+				"ft": {
+					"kk": ["gjaldfałlnir", "gjaldfałlna", "gjaldföłlnum", "gjaldfałlinna"],
+					"kvk": ["gjaldfałlnar", "gjaldfałlnar", "gjaldföłlnum", "gjaldfałlinna"],
+					"hk": ["gjaldfałlin", "gjaldfałlin", "gjaldföłlnum", "gjaldfałlinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjaldfałla",
+	"hash": "314de3a3eab4ef15c260fa4e9a678ab0e561566b7950de1a5a4b9f8c58799126"
+}
