@@ -1,0 +1,27 @@
+{
+	"orð": "póstsamgöngur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "póst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-póstur-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ganga-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["póstsamgöngur", "póstsamgöngur", "póstsamgöngum", "póstsamgangna"],
+		"mg": ["póstsamgöngurnar", "póstsamgöngurnar", "póstsamgöngunum", "póstsamgangnanna"]
+	},
+	"kennistrengur": "no-póstsamgöngur-kvk",
+	"hash": "2f3fe36b84738dc3b275c1d498729be3250735968de4024742b836ee4b8c5f96"
+}
