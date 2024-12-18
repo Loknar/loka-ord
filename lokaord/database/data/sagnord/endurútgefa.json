@@ -1,0 +1,104 @@
+{
+	"orð": "endurútgefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-endur"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gefa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurútgefa",
+		"sagnbót": "endurútgefið",
+		"boðháttur": {
+			"stýfður": "endurútgef",
+			"et": "endurútgefðu",
+			"ft": "endurútgefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurútgef", "endurútgefur", "endurútgefur"],
+					"ft": ["endurútgefum", "endurútgefið", "endurútgefa"]
+				},
+				"þátíð": {
+					"et": ["endurútgaf", "endurútgafst", "endurútgaf"],
+					"ft": ["endurútgáfum", "endurútgáfuð", "endurútgáfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurútgefi", "endurútgefir", "endurútgefi"],
+					"ft": ["endurútgefum", "endurútgefið", "endurútgefi"]
+				},
+				"þátíð": {
+					"et": ["endurútgæfi", "endurútgæfir", "endurútgæfi"],
+					"ft": ["endurútgæfum", "endurútgæfuð", "endurútgæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurútgefurðu",
+					"ft": "endurútgefiði"
+				},
+				"þátíð": {
+					"et": "endurútgafstu",
+					"ft": "endurútgáfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurútgefirðu",
+					"ft": "endurútgefiði"
+				},
+				"þátíð": {
+					"et": "endurútgæfirðu",
+					"ft": "endurútgæfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurútgefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurútgefinn", "endurútgefinn", "endurútgefnum", "endurútgefins"],
+					"kvk": ["endurútgefin", "endurútgefna", "endurútgefinni", "endurútgefinnar"],
+					"hk": ["endurútgefið", "endurútgefið", "endurútgefnu", "endurútgefins"]
+				},
+				"ft": {
+					"kk": ["endurútgefnir", "endurútgefna", "endurútgefnum", "endurútgefinna"],
+					"kvk": ["endurútgefnar", "endurútgefnar", "endurútgefnum", "endurútgefinna"],
+					"hk": ["endurútgefin", "endurútgefin", "endurútgefnum", "endurútgefinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["endurútgefni", "endurútgefna", "endurútgefna", "endurútgefna"],
+					"kvk": ["endurútgefna", "endurútgefnu", "endurútgefnu", "endurútgefnu"],
+					"hk": ["endurútgefna", "endurútgefna", "endurútgefna", "endurútgefna"]
+				},
+				"ft": {
+					"kk": ["endurútgefnu", "endurútgefnu", "endurútgefnu", "endurútgefnu"],
+					"kvk": ["endurútgefnu", "endurútgefnu", "endurútgefnu", "endurútgefnu"],
+					"hk": ["endurútgefnu", "endurútgefnu", "endurútgefnu", "endurútgefnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurútgefa",
+	"hash": "70d91e2d918083a9a0a0b14b42ea93125471a5bdbcd5aaf8fd9f782e89f61072"
+}

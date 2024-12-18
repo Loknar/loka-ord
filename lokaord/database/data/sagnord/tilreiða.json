@@ -1,0 +1,135 @@
+{
+	"orð": "tilreiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-reiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilreiða",
+		"sagnbót": "tilreitt",
+		"boðháttur": {
+			"stýfður": "tilreið",
+			"et": "tilreiddu",
+			"ft": "tilreiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilreiði", "tilreiðir", "tilreiðir"],
+					"ft": ["tilreiðum", "tilreiðið", "tilreiða"]
+				},
+				"þátíð": {
+					"et": ["tilreiddi", "tilreiddir", "tilreiddi"],
+					"ft": ["tilreiddum", "tilreidduð", "tilreiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilreiði", "tilreiðir", "tilreiði"],
+					"ft": ["tilreiðum", "tilreiðið", "tilreiði"]
+				},
+				"þátíð": {
+					"et": ["tilreiddi", "tilreiddir", "tilreiddi"],
+					"ft": ["tilreddum", "tilreidduð", "tilreiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilreiðirðu",
+					"ft": "tilreiðiði"
+				},
+				"þátíð": {
+					"et": "tilreiddirðu",
+					"ft": "tilreidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilreiðirðu",
+					"ft": "tilreiðiði"
+				},
+				"þátíð": {
+					"et": "tilreiddirðu",
+					"ft": "tilreidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tilreiðast",
+		"sagnbót": "tilreiðst",
+		"boðháttur": {
+			"et": "tilreiðstu",
+			"ft": "tilreiðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilreiðist", "tilreiðist", "tilreiðist"],
+					"ft": ["tilreiðumst", "tilreiðist", "tilreiðast"]
+				},
+				"þátíð": {
+					"et": ["tilreiddist", "tilreiddist", "tilreiddist"],
+					"ft": ["tilreiddumst", "tilreiddust", "tilreiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilreiðist", "tilreiðist", "tilreiðist"],
+					"ft": ["tilreiðumst", "tilreiðist", "tilreiðist"]
+				},
+				"þátíð": {
+					"et": ["tilreiddist", "tilreiddist", "tilreiddist"],
+					"ft": ["tilreiddumst", "tilreiddust", "tilreiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilreiðstu"
+				},
+				"þátíð": {
+					"et": "tilreiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilreiðistu"
+				},
+				"þátíð": {
+					"et": "tilreiddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilreiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tilreiddur", "tilreiddan", "tilreiddum", "tilreidds"],
+					"kvk": ["tilreidd", "tilreidda", "tilreiddri", "tilreiddrar"],
+					"hk": ["tilreitt", "tilreitt", "tilreiddu", "tilreidds"]
+				},
+				"ft": {
+					"kk": ["tilreiddir", "tilreidda", "tilreiddum", "tilreiddra"],
+					"kvk": ["tilreiddar", "tilreiddar", "tilreiddum", "tilreiddra"],
+					"hk": ["tilreidd", "tilreidd", "tilreiddum", "tilreiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tilreiða",
+	"hash": "ab0b5b8e585dc624344dd54a5acc1d5643ba97c6cf0e49eac5a53df693d3c1d3"
+}
