@@ -1,0 +1,43 @@
+{
+	"orð": "menntunartengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "menntunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-menntun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["menntunartengdur", "menntunartengdan", "menntunartengdum", "menntunartengds"],
+				"kvk": ["menntunartengd", "menntunartengda", "menntunartengdri", "menntunartengdrar"],
+				"hk": ["menntunartengt", "menntunartengt", "menntunartengdu", "menntunartengds"]
+			},
+			"ft": {
+				"kk": ["menntunartengdir", "menntunartengda", "menntunartengdum", "menntunartengdra"],
+				"kvk": ["menntunartengdar", "menntunartengdar", "menntunartengdum", "menntunartengdra"],
+				"hk": ["menntunartengd", "menntunartengd", "menntunartengdum", "menntunartengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["menntunartengdi", "menntunartengda", "menntunartengda", "menntunartengda"],
+				"kvk": ["menntunartengda", "menntunartengdu", "menntunartengdu", "menntunartengdu"],
+				"hk": ["menntunartengda", "menntunartengda", "menntunartengda", "menntunartengda"]
+			},
+			"ft": {
+				"kk": ["menntunartengdu", "menntunartengdu", "menntunartengdu", "menntunartengdu"],
+				"kvk": ["menntunartengdu", "menntunartengdu", "menntunartengdu", "menntunartengdu"],
+				"hk": ["menntunartengdu", "menntunartengdu", "menntunartengdu", "menntunartengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-menntunartengdur",
+	"hash": "2c76a29fdcde6f6730e84294d02bc516166a6635267dfe0b5fc85ede815ab3d5"
+}
