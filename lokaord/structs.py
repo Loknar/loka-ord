@@ -213,7 +213,7 @@ class SamsettOrdhluti(BaseModel):
 	leiðir: Optional[NonEmptyStr] = None
 	fylgir: Optional[NonEmptyStr] = None
 	beygingar: Optional[conlist(
-		NafnordaBeygingar | LysingarordaBeygingar | SagnordaBeygingar, min_length=1, max_length=4
+		NafnordaBeygingar | LysingarordaBeygingar | SagnordaBeygingar, min_length=1, max_length=7
 	)] = None
 	kennistrengur: Optional[NonEmptyStr] = None
 
