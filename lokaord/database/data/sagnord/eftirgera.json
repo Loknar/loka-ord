@@ -1,0 +1,98 @@
+{
+	"orð": "eftirgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eftirgera",
+		"sagnbót": "eftirgert",
+		"boðháttur": {
+			"stýfður": "eftirger",
+			"et": "eftirgerðu",
+			"ft": "eftirgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eftirgeri", "eftirgerir", "eftirgerir"],
+					"ft": ["eftirgerum", "eftirgerið", "eftirgera"]
+				},
+				"þátíð": {
+					"et": ["eftirgerði", "eftirgerðir", "eftirgerði"],
+					"ft": ["eftirgerðum", "eftirgerðuð", "eftirgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eftirgeri", "eftirgerir", "eftirgeri"],
+					"ft": ["eftirgerum", "eftirgerið", "eftirgeri"]
+				},
+				"þátíð": {
+					"et": ["eftirgerði", "eftirgerðir", "eftirgerði"],
+					"ft": ["eftirgerðum", "eftirgerðuð", "eftirgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eftirgerirðu",
+					"ft": "eftirgeriði"
+				},
+				"þátíð": {
+					"et": "eftirgerðirðu",
+					"ft": "eftirgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eftirgerirðu",
+					"ft": "eftirgeriði"
+				},
+				"þátíð": {
+					"et": "eftirgerðirðu",
+					"ft": "eftirgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eftirgerður", "eftirgerðan", "eftirgerðum", "eftirgerðs"],
+					"kvk": ["eftirgerð", "eftirgerða", "eftirgerðri", "eftirgerðrar"],
+					"hk": ["eftirgert", "eftirgert", "eftirgerðu", "eftirgerðs"]
+				},
+				"ft": {
+					"kk": ["eftirgerðir", "eftirgerða", "eftirgerðum", "eftirgerðra"],
+					"kvk": ["eftirgerðar", "eftirgerðar", "eftirgerðum", "eftirgerðra"],
+					"hk": ["eftirgerð", "eftirgerð", "eftirgerðum", "eftirgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["eftirgerði", "eftirgerða", "eftirgerða", "eftirgerða"],
+					"kvk": ["eftirgerða", "eftirgerðu", "eftirgerðu", "eftirgerðu"],
+					"hk": ["eftirgerða", "eftirgerða", "eftirgerða", "eftirgerða"]
+				},
+				"ft": {
+					"kk": ["eftirgerðu", "eftirgerðu", "eftirgerðu", "eftirgerðu"],
+					"kvk": ["eftirgerðu", "eftirgerðu", "eftirgerðu", "eftirgerðu"],
+					"hk": ["eftirgerðu", "eftirgerðu", "eftirgerðu", "eftirgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eftirgera",
+	"hash": "ba21759d0db5526da2838ea2468b948d63feb1d01bc5cf6838d9c46eed3e10ae"
+}

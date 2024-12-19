@@ -1,0 +1,32 @@
+{
+	"orð": "alþjóðasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "al",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-ałlur"
+		},
+		{
+			"mynd": "þjóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["alþjóðasamtök", "alþjóðasamtök", "alþjóðasamtökum", "alþjóðasamtaka"],
+		"mg": ["alþjóðasamtökin", "alþjóðasamtökin", "alþjóðasamtökunum", "alþjóðasamtakanna"]
+	},
+	"kennistrengur": "no-alþjóðasamtök-hk",
+	"hash": "1ed8c4a83ae9f02af87179df22456dbceb202cb4fd458cf5f83560bbe677c79d"
+}

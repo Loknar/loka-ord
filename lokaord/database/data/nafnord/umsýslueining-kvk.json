@@ -1,0 +1,27 @@
+{
+	"orð": "umsýslueining",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-eining-kvk"
+		}
+	],
+	"et": {
+		"ág": ["umsýslueining", "umsýslueiningu", "umsýslueiningu", "umsýslueiningar"],
+		"mg": ["umsýslueiningin", "umsýslueininguna", "umsýslueiningunni", "umsýslueiningarinnar"]
+	},
+	"kennistrengur": "no-umsýslueining-kvk",
+	"hash": "babff7dcd5c291839a01a4f623f850ecf89ac968e7ba70ca6506e5546b475bde"
+}

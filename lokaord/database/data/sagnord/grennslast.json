@@ -1,0 +1,65 @@
+{
+	"orð": "grennslast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grennsl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grennslun-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "grennslast",
+		"sagnbót": "grennslast",
+		"boðháttur": {
+			"et": "grennslastu",
+			"ft": "grennslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grennslast", "grennslast", "grennslast"],
+					"ft": ["grennslumst", "grennslist", "grennslast"]
+				},
+				"þátíð": {
+					"et": ["grennslaðist", "grennslaðist", "grennslaðist"],
+					"ft": ["grennsluðumst", "grennsluðust", "grennsluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grennslist", "grennslist", "grennslist"],
+					"ft": ["grennslumst", "grennslist", "grennslist"]
+				},
+				"þátíð": {
+					"et": ["grennslaðist", "grennslaðist", "grennslaðist"],
+					"ft": ["grennsluðumst", "grennsluðust", "grennsluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grennslastu"
+				},
+				"þátíð": {
+					"et": "grennslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grennslistu"
+				},
+				"þátíð": {
+					"et": "grennslaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-grennslast",
+	"hash": "fabff9eac4796a5d1eb0147e4604e8466f68361a87b10b2f4ca684b9df8d13c4"
+}

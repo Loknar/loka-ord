@@ -1,0 +1,27 @@
+{
+	"orð": "listaverkakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lista",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-list-kvk"
+		},
+		{
+			"mynd": "verka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["listaverkakaup", "listaverkakaup", "listaverkakaupum", "listaverkakaupa"],
+		"mg": ["listaverkakaupin", "listaverkakaupin", "listaverkakaupunum", "listaverkakaupanna"]
+	},
+	"kennistrengur": "no-listaverkakaup-hk",
+	"hash": "686fc5e3d25ddef4c673d279365f93d3527cc5a71f24dd9c7a7a6ff777a5deec"
+}

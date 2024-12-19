@@ -1,0 +1,35 @@
+{
+	"orð": "bókhaldsaðferð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"kennistrengur": "no-ferð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókhaldsaðferð", "bókhaldsaðferð", "bókhaldsaðferð", "bókhaldsaðferðar"],
+		"mg": ["bókhaldsaðferðin", "bókhaldsaðferðina", "bókhaldsaðferðinni", "bókhaldsaðferðarinnar"]
+	},
+	"ft": {
+		"ág": ["bókhaldsaðferðir", "bókhaldsaðferðir", "bókhaldsaðferðum", "bókhaldsaðferða"],
+		"mg": ["bókhaldsaðferðirnar", "bókhaldsaðferðirnar", "bókhaldsaðferðunum", "bókhaldsaðferðanna"]
+	},
+	"kennistrengur": "no-bókhaldsaðferð-kvk",
+	"hash": "4cb3372fd9742facb1b33afa529e97f40a60da46d99346b424535896935c9850"
+}

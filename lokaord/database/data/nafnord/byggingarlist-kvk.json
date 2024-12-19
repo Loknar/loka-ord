@@ -1,0 +1,22 @@
+{
+	"orð": "byggingarlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["byggingarlist", "byggingarlist", "byggingarlist", "byggingarlistar"],
+		"mg": ["byggingarlistin", "byggingarlistina", "byggingarlistinni", "byggingarlistarinnar"]
+	},
+	"kennistrengur": "no-byggingarlist-kvk",
+	"hash": "c50a0f26a545598b4ff3a9aa6d98015df3073da022352306777d9dc3636ff2fa"
+}

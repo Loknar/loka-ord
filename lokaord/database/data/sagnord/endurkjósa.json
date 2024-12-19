@@ -1,0 +1,87 @@
+{
+	"orð": "endurkjósa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-endur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-birta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurbirta",
+		"sagnbót": "endurbirt",
+		"boðháttur": {
+			"stýfður": "endurbirt",
+			"et": "endurbirtu",
+			"ft": "endurbirtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurbirti", "endurbirtir", "endurbirtir"],
+					"ft": ["endurbirtum", "endurbirtið", "endurbirta"]
+				},
+				"þátíð": {
+					"et": ["endurbirti", "endurbirtir", "endurbirti"],
+					"ft": ["endurbirtum", "endurbirtuð", "endurbirtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurbirti", "endurbirtir", "endurbirti"],
+					"ft": ["endurbirtum", "endurbirtið", "endurbirti"]
+				},
+				"þátíð": {
+					"et": ["endurbirti", "endurbirtir", "endurbirti"],
+					"ft": ["endurbirtum", "endurbirtuð", "endurbirtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurbirtirðu",
+					"ft": "endurbirtiði"
+				},
+				"þátíð": {
+					"et": "endurbirtirðu",
+					"ft": "endurbirtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurbirtirðu",
+					"ft": "endurbirtiði"
+				},
+				"þátíð": {
+					"et": "endurbirtirðu",
+					"ft": "endurbirtuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurbirtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurbirtur", "endurbirtan", "endurbirtum", "endurbirts"],
+					"kvk": ["endurbirt", "endurbirta", "endurbirtri", "endurbirtrar"],
+					"hk": ["endurbirt", "endurbirt", "endurbirtu", "endurbirts"]
+				},
+				"ft": {
+					"kk": ["endurbirtir", "endurbirta", "endurbirtum", "endurbirtra"],
+					"kvk": ["endurbirtar", "endurbirtar", "endurbirtum", "endurbirtra"],
+					"hk": ["endurbirt", "endurbirt", "endurbirtum", "endurbirtra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurkjósa",
+	"hash": "3005f9afbfdb72c7c22c7b8bc61d8dbca273e35e6e5141503bd8c6ec32127140"
+}

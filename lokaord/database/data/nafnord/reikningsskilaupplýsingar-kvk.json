@@ -1,0 +1,27 @@
+{
+	"orð": "reikningsskilaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "reiknings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"mynd": "skila",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["reikningsskilaupplýsingar", "reikningsskilaupplýsingar", "reikningsskilaupplýsingum", "reikningsskilaupplýsinga"],
+		"mg": ["reikningsskilaupplýsingarnar", "reikningsskilaupplýsingarnar", "reikningsskilaupplýsingunum", "reikningsskilaupplýsinganna"]
+	},
+	"kennistrengur": "no-reikningsskilaupplýsingar-kvk",
+	"hash": "545de4d3823536e234841f1aac156e7c9f9b731b01bb61e40200fe6964bad806"
+}

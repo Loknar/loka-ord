@@ -1,0 +1,30 @@
+{
+	"orð": "fjárskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárskuldbinding", "fjárskuldbindingu", "fjárskuldbindingu", "fjárskuldbindingar"],
+		"mg": ["fjárskuldbindingin", "fjárskuldbindinguna", "fjárskuldbindingunni", "fjárskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["fjárskuldbindingar", "fjárskuldbindingar", "fjárskuldbindingum", "fjárskuldbindinga"],
+		"mg": ["fjárskuldbindingarnar", "fjárskuldbindingarnar", "fjárskuldbindingunum", "fjárskuldbindinganna"]
+	},
+	"kennistrengur": "no-fjárskuldbinding-kvk",
+	"hash": "10aa253b6767905ec39842348c9afa87159d015f8b3f15913addc9296d2dd752"
+}

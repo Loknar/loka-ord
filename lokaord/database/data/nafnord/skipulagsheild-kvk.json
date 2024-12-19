@@ -1,0 +1,27 @@
+{
+	"orð": "skipulagsheild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-heild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skipulagsheild", "skipulagsheild", "skipulagsheild", "skipulagsheildar"],
+		"mg": ["skipulagsheildin", "skipulagsheildina", "skipulagsheildinni", "skipulagsheildarinnar"]
+	},
+	"kennistrengur": "no-skipulagsheild-kvk",
+	"hash": "73b0f7e638f75e886cc59540e78ef00e67a6e5ab8156b343b17d2e84141e8f80"
+}

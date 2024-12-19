@@ -1,0 +1,131 @@
+{
+	"orð": "lögleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lögleiða",
+		"sagnbót": "lögleitt",
+		"boðháttur": {
+			"stýfður": "lögleið",
+			"et": "lögleiddu",
+			"ft": "lögleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögleiði", "lögleiðir", "lögleiðir"],
+					"ft": ["lögleiðum", "lögleiðið", "lögleiða"]
+				},
+				"þátíð": {
+					"et": ["lögleiddi", "lögleiddir", "lögleiddi"],
+					"ft": ["lögleiddum", "lögleidduð", "lögleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögleiði", "lögleiðir", "lögleiði"],
+					"ft": ["lögleiðum", "lögleiðið", "lögleiði"]
+				},
+				"þátíð": {
+					"et": ["lögleiddi", "lögleiddir", "lögleiddi"],
+					"ft": ["lögleiddum", "lögleidduð", "lögleiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lögleiðirðu",
+					"ft": "lögleiðiði"
+				},
+				"þátíð": {
+					"et": "lögleiddirðu",
+					"ft": "lögleidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lögleiðirðu",
+					"ft": "lögleiðiði"
+				},
+				"þátíð": {
+					"et": "lögleiddirðu",
+					"ft": "lögleidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lögleiðast",
+		"sagnbót": "lögleiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögleiðist", "lögleiðist", "lögleiðist"],
+					"ft": ["lögleiðumst", "lögleiðist", "lögleiðast"]
+				},
+				"þátíð": {
+					"et": ["lögleiddist", "lögleiddist", "lögleiddist"],
+					"ft": ["lögleiddumst", "lögleiddust", "lögleiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögleiðist", "lögleiðist", "lögleiðist"],
+					"ft": ["lögleiðumst", "lögleiðist", "lögleiðist"]
+				},
+				"þátíð": {
+					"et": ["lögleiddist", "lögleiddist", "lögleiddist"],
+					"ft": ["lögleiddumst", "lögleiddust", "lögleiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lögleiðistu"
+				},
+				"þátíð": {
+					"et": "lögleiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lögleiðistu"
+				},
+				"þátíð": {
+					"et": "lögleiddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lögleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lögleiddur", "lögleiddan", "lögleiddum", "lögleidds"],
+					"kvk": ["lögleidd", "lögleidda", "lögleiddri", "lögleiddrar"],
+					"hk": ["lögleitt", "lögleitt", "lögleiddu", "lögleidds"]
+				},
+				"ft": {
+					"kk": ["lögleiddir", "lögleidda", "lögleiddum", "lögleiddra"],
+					"kvk": ["lögleiddar", "lögleiddar", "lögleiddum", "lögleiddra"],
+					"hk": ["lögleidd", "lögleidd", "lögleiddum", "lögleiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lögleiða",
+	"hash": "a1d80fc70ccca7dce3a4cc90752d552f0ed66f39f29695b76523e61574c8fd59"
+}

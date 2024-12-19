@@ -1,0 +1,27 @@
+{
+	"orð": "fastafjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "fasta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasti-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["fastafjármunir", "fastafjármuni", "fastafjármunum", "fastafjármuna"],
+		"mg": ["fastafjármunirnir", "fastafjármunina", "fastafjármununum", "fastafjármunanna"]
+	},
+	"kennistrengur": "no-fastafjármunir-kk",
+	"hash": "8e4602449c53ca9ad3dfce3691aade24b73c405090022b50c2ffa8969c4c2a2e"
+}
