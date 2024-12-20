@@ -1,0 +1,48 @@
+{
+	"orð": "lögformlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "form",
+			"samsetning": "stofn",
+			"kennistrengur": "no-form-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["lögformlegur", "lögformlegan", "lögformlegum", "lögformlegs"],
+				"kvk": ["lögformleg", "lögformlega", "lögformlegri", "lögformlegrar"],
+				"hk": ["lögformlegt", "lögformlegt", "lögformlegu", "lögformlegs"]
+			},
+			"ft": {
+				"kk": ["lögformlegir", "lögformlega", "lögformlegum", "lögformlegra"],
+				"kvk": ["lögformlegar", "lögformlegar", "lögformlegum", "lögformlegra"],
+				"hk": ["lögformleg", "lögformleg", "lögformlegum", "lögformlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lögformlegi", "lögformlega", "lögformlega", "lögformlega"],
+				"kvk": ["lögformlega", "lögformlegu", "lögformlegu", "lögformlegu"],
+				"hk": ["lögformlega", "lögformlega", "lögformlega", "lögformlega"]
+			},
+			"ft": {
+				"kk": ["lögformlegu", "lögformlegu", "lögformlegu", "lögformlegu"],
+				"kvk": ["lögformlegu", "lögformlegu", "lögformlegu", "lögformlegu"],
+				"hk": ["lögformlegu", "lögformlegu", "lögformlegu", "lögformlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-lögformlegur",
+	"hash": "1d9b7a385485f848f069beddf72c82644ab8dfccb6189e0f4d71c24d282113ef"
+}

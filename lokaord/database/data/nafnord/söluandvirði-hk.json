@@ -1,0 +1,27 @@
+{
+	"orð": "söluandvirði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-and-ó"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-virði-hk"
+		}
+	],
+	"et": {
+		"ág": ["söluandvirði", "söluandvirði", "söluandvirði", "söluandvirðis"],
+		"mg": ["söluandvirðið", "söluandvirðið", "söluandvirðinu", "söluandvirðisins"]
+	},
+	"kennistrengur": "no-söluandvirði-hk",
+	"hash": "21aeb6fcae4175fc275c0bd35c7bd0c6662397bdbda53585541e5d8f8c981622"
+}

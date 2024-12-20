@@ -1,0 +1,142 @@
+{
+	"orð": "útvarpa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "so-varpa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útvarpa",
+		"sagnbót": "útvarpað",
+		"boðháttur": {
+			"stýfður": "útvarpa",
+			"et": "útvarpaðu",
+			"ft": "útvarpið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útvarpa", "útvarpar", "útvarpar"],
+					"ft": ["útvörpum", "útvarpið", "útvarpa"]
+				},
+				"þátíð": {
+					"et": ["útvarpaði", "útvarpaðir", "útvarpaði"],
+					"ft": ["útvörpuðum", "útvörpuðuð", "útvörpuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útvarpi", "útvarpir", "útvarpi"],
+					"ft": ["útvörpum", "útvarpið", "útvarpi"]
+				},
+				"þátíð": {
+					"et": ["útvarpaði", "útvarpaðir", "útvarpaði"],
+					"ft": ["útvörpuðum", "útvörpuðuð", "útvörpuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útvarparðu",
+					"ft": "útvarpiði"
+				},
+				"þátíð": {
+					"et": "útvarpaðirðu",
+					"ft": "útvörpuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útvarpirðu",
+					"ft": "útvarpiði"
+				},
+				"þátíð": {
+					"et": "útvarpaðirðu",
+					"ft": "útvörpuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útvarpast",
+		"sagnbót": "útvarpast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útvarpast", "útvarpast", "útvarpast"],
+					"ft": ["útvörpumst", "útvarpist", "útvarpast"]
+				},
+				"þátíð": {
+					"et": ["útvarpaðist", "útvarpaðist", "útvarpaðist"],
+					"ft": ["útvörpuðumst", "útvörpuðust", "útvörpuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útvarpist", "útvarpist", "útvarpist"],
+					"ft": ["útvörpumst", "útvarpist", "útvarpist"]
+				},
+				"þátíð": {
+					"et": ["útvarpaðist", "útvarpaðist", "útvarpaðist"],
+					"ft": ["útvörpuðumst", "útvörpuðust", "útvörpuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útvarpastu"
+				},
+				"þátíð": {
+					"et": "útvarpaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útvarpistu"
+				},
+				"þátíð": {
+					"et": "útvarpaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útvarpandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útvarpaður", "útvarpaðan", "útvörpuðum", "útvarpaðs"],
+					"kvk": ["útvörpuð", "útvarpaða", "útvarpaðri", "útvarpaðrar"],
+					"hk": ["útvarpað", "útvarpað", "útvörpuðu", "útvarpaðs"]
+				},
+				"ft": {
+					"kk": ["útvarpaðir", "útvarpaða", "útvörpuðum", "útvarpaðra"],
+					"kvk": ["útvarpaðar", "útvarpaðar", "útvörpuðum", "útvarpaðra"],
+					"hk": ["útvörpuð", "útvörpuð", "útvörpuðum", "útvarpaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útvarpaði", "útvarpaða", "útvarpaða", "útvarpaða"],
+					"kvk": ["útvarpaða", "útvörpuðu", "útvörpuðu", "útvörpuðu"],
+					"hk": ["útvarpaða", "útvarpaða", "útvarpaða", "útvarpaða"]
+				},
+				"ft": {
+					"kk": ["útvörpuðu", "útvörpuðu", "útvörpuðu", "útvörpuðu"],
+					"kvk": ["útvörpuðu", "útvörpuðu", "útvörpuðu", "útvörpuðu"],
+					"hk": ["útvörpuðu", "útvörpuðu", "útvörpuðu", "útvörpuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útvarpa",
+	"hash": "6c9f1b27e75ecc6cc9c0b04dd533b6791d0076665726bdb009f1efbe78778ac8"
+}

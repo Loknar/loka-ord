@@ -2,6 +2,16 @@
 	"orð": "lofun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lof",
+			"samsetning": "stofn",
+			"kennistrengur": "so-lofa"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lofun", "lofun", "lofun", "lofunar"],
 		"mg": ["lofunin", "lofunina", "lofuninni", "lofunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["lofanirnar", "lofanirnar", "lofununum", "lofananna"]
 	},
 	"kennistrengur": "no-lofun-kvk",
-	"hash": "3811d1cad514b553aaaf39ce008b6d01bf50e508ce0c371bc653d2a1dd56d640"
+	"hash": "4df948ce064842833d82232c2346a6d42418a12d4924272690c2dac5c459b03b"
 }

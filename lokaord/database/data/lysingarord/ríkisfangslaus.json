@@ -1,0 +1,48 @@
+{
+	"orð": "ríkisfangslaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "fangs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fang-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ríkisfangslaus", "ríkisfangslausan", "ríkisfangslausum", "ríkisfangslauss"],
+				"kvk": ["ríkisfangslaus", "ríkisfangslausa", "ríkisfangslausri", "ríkisfangslausrar"],
+				"hk": ["ríkisfangslaust", "ríkisfangslaust", "ríkisfangslausu", "ríkisfangslauss"]
+			},
+			"ft": {
+				"kk": ["ríkisfangslausir", "ríkisfangslausa", "ríkisfangslausum", "ríkisfangslausra"],
+				"kvk": ["ríkisfangslausar", "ríkisfangslausar", "ríkisfangslausum", "ríkisfangslausra"],
+				"hk": ["ríkisfangslaus", "ríkisfangslaus", "ríkisfangslausum", "ríkisfangslausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ríkisfangslausi", "ríkisfangslausa", "ríkisfangslausa", "ríkisfangslausa"],
+				"kvk": ["ríkisfangslausa", "ríkisfangslausu", "ríkisfangslausu", "ríkisfangslausu"],
+				"hk": ["ríkisfangslausa", "ríkisfangslausa", "ríkisfangslausa", "ríkisfangslausa"]
+			},
+			"ft": {
+				"kk": ["ríkisfangslausu", "ríkisfangslausu", "ríkisfangslausu", "ríkisfangslausu"],
+				"kvk": ["ríkisfangslausu", "ríkisfangslausu", "ríkisfangslausu", "ríkisfangslausu"],
+				"hk": ["ríkisfangslausu", "ríkisfangslausu", "ríkisfangslausu", "ríkisfangslausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ríkisfangslaus",
+	"hash": "5469095cafec85907b0e4ad4c970a963a2db9c49ca325f9efc4e7451f61534d3"
+}
