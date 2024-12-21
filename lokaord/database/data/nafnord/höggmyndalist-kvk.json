@@ -1,0 +1,27 @@
+{
+	"orð": "höggmyndalist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "högg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-högg-hk"
+		},
+		{
+			"mynd": "mynda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["höggmyndalist", "höggmyndalist", "höggmyndalist", "höggmyndalistar"],
+		"mg": ["höggmyndalistin", "höggmyndalistina", "höggmyndalistinni", "höggmyndalistarinnar"]
+	},
+	"kennistrengur": "no-höggmyndalist-kvk",
+	"hash": "2ed6cb6e78f66589f8700f64b66ac6454001586ce22f3cb94da20ab47c3394e5"
+}
