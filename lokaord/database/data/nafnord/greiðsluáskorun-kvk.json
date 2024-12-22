@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluáskorun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"kennistrengur": "no-skorun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluáskorun", "greiðsluáskorun", "greiðsluáskorun", "greiðsluáskorunar"],
+		"mg": ["greiðsluáskorunin", "greiðsluáskorunina", "greiðsluáskoruninni", "greiðsluáskorunarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðsluáskoranir", "greiðsluáskoranir", "greiðsluáskorunum", "greiðsluáskorana"],
+		"mg": ["greiðsluáskoranirnar", "greiðsluáskoranirnar", "greiðsluáskorununum", "greiðsluáskorananna"]
+	},
+	"kennistrengur": "no-greiðsluáskorun-kvk",
+	"hash": "031bf9f95bbdb605c0f949971a5ccfb207f5d035bcb6dec1786c0560e1e21e0c"
+}

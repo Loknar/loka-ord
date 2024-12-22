@@ -1,0 +1,87 @@
+{
+	"orð": "aðhæfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hæfa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aðhæfa",
+		"sagnbót": "aðhæft",
+		"boðháttur": {
+			"stýfður": "aðhæf",
+			"et": "aðhæfðu",
+			"ft": "aðhæfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aðhæfi", "aðhæfir", "aðhæfir"],
+					"ft": ["aðhæfum", "aðhæfið", "aðhæfa"]
+				},
+				"þátíð": {
+					"et": ["aðhæfði", "aðhæfðir", "aðhæfði"],
+					"ft": ["aðhæfðum", "aðhæfðuð", "aðhæfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aðhæfi", "aðhæfir", "aðhæfi"],
+					"ft": ["aðhæfum", "aðhæfið", "aðhæfi"]
+				},
+				"þátíð": {
+					"et": ["aðhæfði", "aðhæfðir", "aðhæfði"],
+					"ft": ["aðhæfðum", "aðhæfðuð", "aðhæfðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aðhæfirðu",
+					"ft": "aðhæfiði"
+				},
+				"þátíð": {
+					"et": "aðhæfðirðu",
+					"ft": "aðhæfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aðhæfirðu",
+					"ft": "aðhæfiði"
+				},
+				"þátíð": {
+					"et": "aðhæfðirðu",
+					"ft": "aðhæfðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aðhæfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aðhæfður", "aðhæfðan", "aðhæfðum", "aðhæfðs"],
+					"kvk": ["aðhæfð", "aðhæfða", "aðhæfðri", "aðhæfðrar"],
+					"hk": ["aðhæft", "aðhæft", "aðhæfðu", "aðhæfðs"]
+				},
+				"ft": {
+					"kk": ["aðhæfðir", "aðhæfða", "aðhæfðum", "aðhæfðra"],
+					"kvk": ["aðhæfðar", "aðhæfðar", "aðhæfðum", "aðhæfðra"],
+					"hk": ["aðhæfð", "aðhæfð", "aðhæfðum", "aðhæfðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aðhæfa",
+	"hash": "5bd8b6f56026472a7586fc3bf67eb6bee6345ff6637fb91af0c1e6fd3a474d74"
+}
