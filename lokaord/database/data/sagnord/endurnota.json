@@ -1,0 +1,87 @@
+{
+	"orð": "endurnota",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-nota"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurnota",
+		"sagnbót": "endurnotað",
+		"boðháttur": {
+			"stýfður": "endurnota",
+			"et": "endurnotaðu",
+			"ft": "endurnotið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurnota", "endurnotar", "endurnotar"],
+					"ft": ["endurnotum", "endurnotið", "endurnota"]
+				},
+				"þátíð": {
+					"et": ["endurnotaði", "endurnotaðir", "endurnotaði"],
+					"ft": ["endurnotuðum", "endurnotuðuð", "endurnotuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurnoti", "endurnotir", "endurnoti"],
+					"ft": ["endurnotum", "endurnotið", "endurnoti"]
+				},
+				"þátíð": {
+					"et": ["endurnotaði", "endurnotaðir", "endurnotaði"],
+					"ft": ["endurnotuðum", "endurnotuðuð", "endurnotuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurnotarðu",
+					"ft": "endurnotiði"
+				},
+				"þátíð": {
+					"et": "endurnotaðirðu",
+					"ft": "endurnotuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurnotirðu",
+					"ft": "endurnotiði"
+				},
+				"þátíð": {
+					"et": "endurnotaðirðu",
+					"ft": "endurnotuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurnotandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurnotaður", "endurnotaðan", "endurnotuðum", "endurnotaðs"],
+					"kvk": ["endurnotuð", "endurnotaða", "endurnotaðri", "endurnotaðrar"],
+					"hk": ["endurnotað", "endurnotað", "endurnotuðu", "endurnotaðs"]
+				},
+				"ft": {
+					"kk": ["endurnotaðir", "endurnotaða", "endurnotuðum", "endurnotaðra"],
+					"kvk": ["endurnotaðar", "endurnotaðar", "endurnotuðum", "endurnotaðra"],
+					"hk": ["endurnotuð", "endurnotuð", "endurnotuðum", "endurnotaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurnota",
+	"hash": "290612db2ee23b2e11a39a4c30909d96a5ec987fdd49945f85bd192cabd01974"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "listaverkasala",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lista",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-list-kvk"
+		},
+		{
+			"mynd": "verka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"kennistrengur": "no-sala-kvk"
+		}
+	],
+	"et": {
+		"ág": ["listaverkasala", "listaverkasölu", "listaverkasölu", "listaverkasölu"],
+		"mg": ["listaverkasalan", "listaverkasöluna", "listaverkasölunni", "listaverkasölunnar"]
+	},
+	"ft": {
+		"ág": ["listaverkasölur", "listaverkasölur", "listaverkasölum", "listaverkasala"],
+		"mg": ["listaverkasölurnar", "listaverkasölurnar", "listaverkasölunum", "listaverkasalanna"]
+	},
+	"kennistrengur": "no-listaverkasala-kvk",
+	"hash": "fbf26f59a4daf6c3f976ea22ea66be460ccc0516ab9b9ef9211e752f05257b90"
+}
