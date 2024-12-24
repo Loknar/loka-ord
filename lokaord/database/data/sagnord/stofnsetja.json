@@ -1,0 +1,87 @@
+{
+	"orð": "stofnsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stofn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stofn-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stofnsetja",
+		"sagnbót": "stofnsett",
+		"boðháttur": {
+			"stýfður": "stofnset",
+			"et": "stofnsettu",
+			"ft": "stofnsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stofnset", "stofnsetur", "stofnsetur"],
+					"ft": ["stofnsetjum", "stofnsetjið", "stofnsetja"]
+				},
+				"þátíð": {
+					"et": ["stofnsetti", "stofnsettir", "stofnsett"],
+					"ft": ["stofnsettum", "stofnsettuð", "stofnsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stofnsetji", "stofnsetjir", "stofnsetji"],
+					"ft": ["stofnsetjum", "stofnsetjið", "stofnsetji"]
+				},
+				"þátíð": {
+					"et": ["stofnsetti", "stofnsettir", "stofnsetti"],
+					"ft": ["stofnsettum", "stofnsettuð", "stofnsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stofnseturðu",
+					"ft": "stofnsetjiði"
+				},
+				"þátíð": {
+					"et": "stofnsettirðu",
+					"ft": "stofnsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stofnsetjirðu",
+					"ft": "stofnsetjiði"
+				},
+				"þátíð": {
+					"et": "stofnsettirðu",
+					"ft": "stofnsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stofnsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stofnsettur", "stofnsettan", "stofnsettum", "stofnsetts"],
+					"kvk": ["stofnsett", "stofnsetta", "stofnsettri", "stofnsettrar"],
+					"hk": ["stofnsett", "stofnsett", "stofnsettu", "stofnsetts"]
+				},
+				"ft": {
+					"kk": ["stofnsettir", "stofnsetta", "stofnsettum", "stofnsettra"],
+					"kvk": ["stofnsettar", "stofnsettar", "stofnsettum", "stofnsettra"],
+					"hk": ["stofnsett", "stofnsett", "stofnsettum", "stofnsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stofnsetja",
+	"hash": "629803cd1dbcecaee69e76e8d5b47fa98764cf625d5e41f7d78d635b48a203f0"
+}
