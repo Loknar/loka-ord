@@ -1,0 +1,30 @@
+{
+	"orð": "skuldheimtumaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "heimtu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heimta-kvk"
+		},
+		{
+			"kennistrengur": "no-maður-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldheimtumaður", "skuldheimtumann", "skuldheimtumanni", "skuldheimtumanns"],
+		"mg": ["skuldheimtumaðurinn", "skuldheimtumanninn", "skuldheimtumanninum", "skuldheimtumannsins"]
+	},
+	"ft": {
+		"ág": ["skuldheimtumenn", "skuldheimtumenn", "skuldheimtumönnum", "skuldheimtumanna"],
+		"mg": ["skuldheimtumennirnir", "skuldheimtumennina", "skuldheimtumönnunum", "skuldheimtumannanna"]
+	},
+	"kennistrengur": "no-skuldheimtumaður-kk",
+	"hash": "f10f73581367bc2a63548a93a0ce7ce7b4de7ca42df0f58d712880aa1a4e9a56"
+}

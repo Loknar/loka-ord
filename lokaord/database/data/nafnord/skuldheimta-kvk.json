@@ -1,0 +1,25 @@
+{
+	"orð": "skuldheimta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-heimta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldheimta", "skuldheimtu", "skuldheimtu", "skuldheimtu"],
+		"mg": ["skuldheimtan", "skuldheimtuna", "skuldheimtunni", "skuldheimtunnar"]
+	},
+	"ft": {
+		"ág": ["skuldheimtur", "skuldheimtur", "skuldheimtum", "skuldheimta"],
+		"mg": ["skuldheimturnar", "skuldheimturnar", "skuldheimtunum", "skuldheimtanna"]
+	},
+	"kennistrengur": "no-skuldheimta-kvk",
+	"hash": "9436d3bdc6ad7ef74cd16bd835c0a00b823325554a135daf4b80a2c724e75759"
+}

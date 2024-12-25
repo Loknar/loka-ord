@@ -1,0 +1,120 @@
+{
+	"orð": "æta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "æta",
+		"sagnbót": "ætt",
+		"boðháttur": {
+			"stýfður": "æt",
+			"et": "ættu",
+			"ft": "ætið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["æti", "ætir", "ætir"],
+					"ft": ["ætum", "ætið", "æta"]
+				},
+				"þátíð": {
+					"et": ["ætti", "ættir", "ætti"],
+					"ft": ["ættum", "ættuð", "ættu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["æti", "ætir", "æti"],
+					"ft": ["ætum", "ætið", "æti"]
+				},
+				"þátíð": {
+					"et": ["ætti", "ættir", "ætti"],
+					"ft": ["ættum", "ættuð", "ættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ætirðu",
+					"ft": "ætiði"
+				},
+				"þátíð": {
+					"et": "ættirðu",
+					"ft": "ættuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ætirðu",
+					"ft": "ætiði"
+				},
+				"þátíð": {
+					"et": "ættirðu",
+					"ft": "ættuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ætast",
+		"sagnbót": "bæst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ætist", "ætist", "ætist"],
+					"ft": ["ætumst", "ætist", "ætast"]
+				},
+				"þátíð": {
+					"et": ["ættist", "ættist", "ættist"],
+					"ft": ["ættumst", "ættust", "ættust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ætist", "ætist", "ætist"],
+					"ft": ["ætumst", "ætist", "ætist"]
+				},
+				"þátíð": {
+					"et": ["ættist", "ættist", "ættist"],
+					"ft": ["ættumst", "ættust", "ættust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ætistu"
+				},
+				"þátíð": {
+					"et": "ættistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ætistu"
+				},
+				"þátíð": {
+					"et": "ættistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ætandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ættur", "ættan", "ættum", "ætts"],
+					"kvk": ["ætt", "ætta", "ættri", "ættrar"],
+					"hk": ["ætt", "ætt", "ættu", "ætts"]
+				},
+				"ft": {
+					"kk": ["ættir", "ætta", "ættum", "ættra"],
+					"kvk": ["ættar", "ættar", "ættum", "ættra"],
+					"hk": ["ætt", "ætt", "ættum", "ættra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-æta",
+	"hash": "65e884b7da8e6467ccc50e4b89a466ec30004dba71ccf3b00fe235fa45f1f333"
+}

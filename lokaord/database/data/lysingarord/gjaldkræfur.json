@@ -1,0 +1,43 @@
+{
+	"orð": "gjaldkræfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kræfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["gjaldkræfur", "gjaldkræfan", "gjaldkræfum", "gjaldkræfs"],
+				"kvk": ["gjaldkræf", "gjaldkræfa", "gjaldkræfri", "gjaldkræfrar"],
+				"hk": ["gjaldkræft", "gjaldkræft", "gjaldkræfu", "gjaldkræfs"]
+			},
+			"ft": {
+				"kk": ["gjaldkræfir", "gjaldkræfa", "gjaldkræfum", "gjaldkræfra"],
+				"kvk": ["gjaldkræfar", "gjaldkræfar", "gjaldkræfum", "gjaldkræfra"],
+				"hk": ["gjaldkræf", "gjaldkræf", "gjaldkræfum", "gjaldkræfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gjaldkræfi", "gjaldkræfa", "gjaldkræfa", "gjaldkræfa"],
+				"kvk": ["gjaldkræfa", "gjaldkræfu", "gjaldkræfu", "gjaldkræfu"],
+				"hk": ["gjaldkræfa", "gjaldkræfa", "gjaldkræfa", "gjaldkræfa"]
+			},
+			"ft": {
+				"kk": ["gjaldkræfu", "gjaldkræfu", "gjaldkræfu", "gjaldkræfu"],
+				"kvk": ["gjaldkræfu", "gjaldkræfu", "gjaldkræfu", "gjaldkræfu"],
+				"hk": ["gjaldkræfu", "gjaldkræfu", "gjaldkræfu", "gjaldkræfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-gjaldkræfur",
+	"hash": "2a4a71c782af1433985c647b881f1c8e2be6b3fa64584c13f3641bfaaccfaf1d"
+}
