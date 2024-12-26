@@ -1,0 +1,131 @@
+{
+	"orð": "sérgreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérgreina",
+		"sagnbót": "sérgreint",
+		"boðháttur": {
+			"stýfður": "sérgrein",
+			"et": "sérgreindu",
+			"ft": "sérgreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérgreini", "sérgreinir", "sérgreinir"],
+					"ft": ["sérgreinum", "sérgreinið", "sérgreina"]
+				},
+				"þátíð": {
+					"et": ["sérgreindi", "sérgreindir", "sérgreindi"],
+					"ft": ["sérgreindum", "sérgreinduð", "sérgreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérgreini", "sérgreinir", "sérgreini"],
+					"ft": ["sérgreinum", "sérgreinið", "sérgreini"]
+				},
+				"þátíð": {
+					"et": ["sérgreindi", "sérgreindir", "sérgreindi"],
+					"ft": ["sérgreindum", "sérgreinduð", "sérgreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérgreinirðu",
+					"ft": "sérgreiniði"
+				},
+				"þátíð": {
+					"et": "sérgreindirðu",
+					"ft": "sérgreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérgreinirðu",
+					"ft": "sérgreiniði"
+				},
+				"þátíð": {
+					"et": "sérgreindirðu",
+					"ft": "sérgreinduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sérgreinast",
+		"sagnbót": "sérgreinst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérgreinist", "sérgreinist", "sérgreinist"],
+					"ft": ["sérgreinumst", "sérgreinist", "sérgreinast"]
+				},
+				"þátíð": {
+					"et": ["sérgreindist", "sérgreindist", "sérgreindist"],
+					"ft": ["sérgreindumst", "sérgreindust", "sérgreindust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérgreinist", "sérgreinist", "sérgreinist"],
+					"ft": ["sérgreinumst", "sérgreinist", "sérgreinist"]
+				},
+				"þátíð": {
+					"et": ["sérgreindist", "sérgreindist", "sérgreindist"],
+					"ft": ["sérgreindumst", "sérgreindust", "sérgreindust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérgreinistu"
+				},
+				"þátíð": {
+					"et": "sérgreindistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérgreinistu"
+				},
+				"þátíð": {
+					"et": "sérgreindistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérgreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérgreindur", "sérgreindan", "sérgreindum", "sérgreinds"],
+					"kvk": ["sérgreind", "sérgreinda", "sérgreindri", "sérgreindrar"],
+					"hk": ["sérgreint", "sérgreint", "sérgreindu", "sérgreinds"]
+				},
+				"ft": {
+					"kk": ["sérgreindir", "sérgreinda", "sérgreindum", "sérgreindra"],
+					"kvk": ["sérgreindar", "sérgreindar", "sérgreindum", "sérgreindra"],
+					"hk": ["sérgreind", "sérgreind", "sérgreindum", "sérgreindra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérgreina",
+	"hash": "c20c0ab204850a53a2cb308069557b3ae262b91028adc5ea1bcb623dbcd7627b"
+}

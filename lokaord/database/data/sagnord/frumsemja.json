@@ -1,0 +1,154 @@
+{
+	"orð": "frumsemja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frum-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-semja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frumsemja",
+		"sagnbót": "frumsamið",
+		"boðháttur": {
+			"stýfður": "frumsem",
+			"et": "frumsemdu",
+			"ft": "frumsemjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumsem", "frumsemur", "frumsemur"],
+					"ft": ["frumsemjum", "frumsemjið", "frumsemja"]
+				},
+				"þátíð": {
+					"et": ["frumsamdi", "frumsamdir", "frumsamdi"],
+					"ft": ["frumsömdum", "frumsömduð", "frumsömdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumsemji", "frumsemjir", "frumsemji"],
+					"ft": ["frumsemjum", "frumsemjið", "frumsemji"]
+				},
+				"þátíð": {
+					"et": ["frumsemdi", "frumsemdir", "frumsemdi"],
+					"ft": ["frumsemdum", "frumsemduð", "frumsemdu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumsemur", "frumsemur", "frumsemur"],
+					"ft": ["frumsemur", "frumsemur", "frumsemur"]
+				},
+				"þátíð": {
+					"et": ["frumsamdi", "frumsamdi", "frumsamdi"],
+					"ft": ["frumsamdi", "frumsamdi", "frumsamdi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumsemji", "frumsemji", "frumsemji"],
+					"ft": ["frumsemji", "frumsemji", "frumsemji"]
+				},
+				"þátíð": {
+					"et": ["frumsemdi", "frumsemdi", "frumsemdi"],
+					"ft": ["frumsemdi", "frumsemdi", "frumsemdi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frumsemurðu",
+					"ft": "frumsemjiði"
+				},
+				"þátíð": {
+					"et": "frumsamdirðu",
+					"ft": "frumsömduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frumsemjirðu",
+					"ft": "frumsemjiði"
+				},
+				"þátíð": {
+					"et": "frumsemdirðu",
+					"ft": "frumsemduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "frumsemjast",
+		"sagnbót": "frumsamist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumsemst", "frumsemst", "frumsemst"],
+					"ft": ["frumsemjumst", "frumsemjist", "frumsemjast"]
+				},
+				"þátíð": {
+					"et": ["frumsamdist", "frumsamdist", "frumsamdist"],
+					"ft": ["frumsömdumst", "frumsömdust", "frumsömdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumsemjist", "frumsemjist", "frumsemjist"],
+					"ft": ["frumsemjumst", "frumsemjist", "frumsemjist"]
+				},
+				"þátíð": {
+					"et": ["frumsemdist", "frumsemdist", "frumsemdist"],
+					"ft": ["frumsemdumst", "frumsemdust", "frumsemdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frumsemstu"
+				},
+				"þátíð": {
+					"et": "frumsamdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frumsemjistu"
+				},
+				"þátíð": {
+					"et": "frumsemdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frumsemjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frumsaminn", "frumsaminn", "frumsömdum", "frumsamins"],
+					"kvk": ["frumsamin", "frumsamda", "frumsamdri", "frumsamdrar"],
+					"hk": ["frumsamið", "frumsamið", "frumsömdu", "frumsamins"]
+				},
+				"ft": {
+					"kk": ["frumsamdir", "frumsamda", "frumsömdum", "frumsamdra"],
+					"kvk": ["frumsamdar", "frumsamdar", "frumsömdum", "frumsamdra"],
+					"hk": ["frumsamin", "frumsamin", "frumsömdum", "frumsamdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frumsemja",
+	"hash": "2b57a118ad60ac34987d282409e5a7c2b96dbf5b0f0c96fe5bc43bdd3939ada8"
+}

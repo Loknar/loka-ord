@@ -1,0 +1,154 @@
+{
+	"orð": "umsemja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-semja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umsemja",
+		"sagnbót": "umsamið",
+		"boðháttur": {
+			"stýfður": "umsem",
+			"et": "umsemdu",
+			"ft": "umsemjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umsem", "umsemur", "umsemur"],
+					"ft": ["umsemjum", "umsemjið", "umsemja"]
+				},
+				"þátíð": {
+					"et": ["umsamdi", "umsamdir", "umsamdi"],
+					"ft": ["umsömdum", "umsömduð", "umsömdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umsemji", "umsemjir", "umsemji"],
+					"ft": ["umsemjum", "umsemjið", "umsemji"]
+				},
+				"þátíð": {
+					"et": ["umsemdi", "umsemdir", "umsemdi"],
+					"ft": ["umsemdum", "umsemduð", "umsemdu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umsemur", "umsemur", "umsemur"],
+					"ft": ["umsemur", "umsemur", "umsemur"]
+				},
+				"þátíð": {
+					"et": ["umsamdi", "umsamdi", "umsamdi"],
+					"ft": ["umsamdi", "umsamdi", "umsamdi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umsemji", "umsemji", "umsemji"],
+					"ft": ["umsemji", "umsemji", "umsemji"]
+				},
+				"þátíð": {
+					"et": ["umsemdi", "umsemdi", "umsemdi"],
+					"ft": ["umsemdi", "umsemdi", "umsemdi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umsemurðu",
+					"ft": "umsemjiði"
+				},
+				"þátíð": {
+					"et": "umsamdirðu",
+					"ft": "umsömduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umsemjirðu",
+					"ft": "umsemjiði"
+				},
+				"þátíð": {
+					"et": "umsemdirðu",
+					"ft": "umsemduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "umsemjast",
+		"sagnbót": "umsamist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umsemst", "umsemst", "umsemst"],
+					"ft": ["umsemjumst", "umsemjist", "umsemjast"]
+				},
+				"þátíð": {
+					"et": ["umsamdist", "umsamdist", "umsamdist"],
+					"ft": ["umsömdumst", "umsömdust", "umsömdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umsemjist", "umsemjist", "umsemjist"],
+					"ft": ["umsemjumst", "umsemjist", "umsemjist"]
+				},
+				"þátíð": {
+					"et": ["umsemdist", "umsemdist", "umsemdist"],
+					"ft": ["umsemdumst", "umsemdust", "umsemdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umsemstu"
+				},
+				"þátíð": {
+					"et": "umsamdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umsemjistu"
+				},
+				"þátíð": {
+					"et": "umsemdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umsemjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umsaminn", "umsaminn", "umsömdum", "umsamins"],
+					"kvk": ["umsamin", "umsamda", "umsamdri", "umsamdrar"],
+					"hk": ["umsamið", "umsamið", "umsömdu", "umsamins"]
+				},
+				"ft": {
+					"kk": ["umsamdir", "umsamda", "umsömdum", "umsamdra"],
+					"kvk": ["umsamdar", "umsamdar", "umsömdum", "umsamdra"],
+					"hk": ["umsamin", "umsamin", "umsömdum", "umsamdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umsemja",
+	"hash": "8fdf6b406072f3a6ce85d529b471a40da97682232b40a08a6b94486e202aff16"
+}

@@ -1,0 +1,131 @@
+{
+	"orð": "framleigja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leigja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framleigja",
+		"sagnbót": "framleigt",
+		"boðháttur": {
+			"stýfður": "framleig",
+			"et": "framleigðu",
+			"ft": "framleigið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framleigi", "framleigir", "framleigir"],
+					"ft": ["framleigjum", "framleigið", "framleigja"]
+				},
+				"þátíð": {
+					"et": ["framleigði", "framleigðir", "framleigði"],
+					"ft": ["framleigðum", "framleigðuð", "framleigðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framleigi", "framleigir", "framleigi"],
+					"ft": ["framleigjum", "framleigið", "framleigi"]
+				},
+				"þátíð": {
+					"et": ["framleigði", "framleigðir", "framleigði"],
+					"ft": ["framleigðum", "framleigðuð", "framleigðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framleigirðu",
+					"ft": "framleigiði"
+				},
+				"þátíð": {
+					"et": "framleigðirðu",
+					"ft": "framleigðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framleigirðu",
+					"ft": "framleigiði"
+				},
+				"þátíð": {
+					"et": "framleigðirðu",
+					"ft": "framleigðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "framleigjast",
+		"sagnbót": "framleigst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framleigist", "framleigist", "framleigist"],
+					"ft": ["framleigjumst", "framleigist", "framleigjast"]
+				},
+				"þátíð": {
+					"et": ["framleigðist", "framleigðist", "framleigðist"],
+					"ft": ["framleigðumst", "framleigðust", "framleigðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framleigist", "framleigist", "framleigist"],
+					"ft": ["framleigjumst", "framleigist", "framleigist"]
+				},
+				"þátíð": {
+					"et": ["framleigðist", "framleigðist", "framleigðist"],
+					"ft": ["framleigðumst", "framleigðust", "framleigðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framleigistu"
+				},
+				"þátíð": {
+					"et": "framleigðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framleigistu"
+				},
+				"þátíð": {
+					"et": "framleigðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framleigjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framleigður", "framleigðan", "framleigðum", "framleigðs"],
+					"kvk": ["framleigð", "framleigða", "framleigðri", "framleigðrar"],
+					"hk": ["framleigt", "framleigt", "framleigðu", "framleigðs"]
+				},
+				"ft": {
+					"kk": ["framleigðir", "framleigða", "framleigðum", "framleigðra"],
+					"kvk": ["framleigðar", "framleigðar", "framleigðum", "framleigðra"],
+					"hk": ["framleigð", "framleigð", "framleigðum", "framleigðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framleigja",
+	"hash": "63f659917ec728f45a1ef34f45b0682ec6433dd30e9291c7b6241076e89866c7"
+}
