@@ -1,0 +1,27 @@
+{
+	"orð": "sameignarslit",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-slit-hk"
+		}
+	],
+	"ft": {
+		"ág": ["sameignarslit", "sameignarslit", "sameignarslitum", "sameignarslita"],
+		"mg": ["sameignarslitin", "sameignarslitin", "sameignarslitunum", "sameignarslitanna"]
+	},
+	"kennistrengur": "no-sameignarslit-hk",
+	"hash": "943b0968209810978c0d4e9c298d05142490687d74d1eb37f7627e593da3e203"
+}

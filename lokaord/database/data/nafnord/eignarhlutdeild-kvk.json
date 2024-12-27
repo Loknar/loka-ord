@@ -1,0 +1,27 @@
+{
+	"orð": "eignarhlutdeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignarhlutdeild", "eignarhlutdeild", "eignarhlutdeild", "eignarhlutdeildar"],
+		"mg": ["eignarhlutdeildin", "eignarhlutdeildina", "eignarhlutdeildinni", "eignarhlutdeildarinnar"]
+	},
+	"kennistrengur": "no-eignarhlutdeild-kvk",
+	"hash": "cbc8e0e53be033b26140cc85af737ff413a89d8ef389a7bce7770560bf6763a5"
+}
