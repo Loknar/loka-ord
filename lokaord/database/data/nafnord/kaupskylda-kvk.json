@@ -1,0 +1,22 @@
+{
+	"orð": "kaupskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kaupskylda", "kaupskyldu", "kaupskyldu", "kaupskyldu"],
+		"mg": ["kaupskyldan", "kaupskylduna", "kaupskyldunni", "kaupskyldunnar"]
+	},
+	"kennistrengur": "no-kaupskylda-kvk",
+	"hash": "bca2753ad3aa23c7620c07d4935179e5ed3f563ce43e011dd1f8174807c7e0c7"
+}

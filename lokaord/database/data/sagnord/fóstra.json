@@ -1,0 +1,135 @@
+{
+	"orð": "fóstra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fóstr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fóstur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fóstra",
+		"sagnbót": "fóstrað",
+		"boðháttur": {
+			"stýfður": "fóstra",
+			"et": "fóstraðu",
+			"ft": "fóstrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fóstra", "fóstrar", "fóstrar"],
+					"ft": ["fóstrum", "fóstrið", "fóstra"]
+				},
+				"þátíð": {
+					"et": ["fóstraði", "fóstraðir", "fóstraði"],
+					"ft": ["fóstruðum", "fóstruðuð", "fóstruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fóstri", "fóstrir", "fóstri"],
+					"ft": ["fóstrum", "fóstrið", "fóstri"]
+				},
+				"þátíð": {
+					"et": ["fóstraði", "fóstraðir", "fóstraði"],
+					"ft": ["fóstruðum", "fóstruðuð", "fóstruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fóstrarðu",
+					"ft": "fóstriði"
+				},
+				"þátíð": {
+					"et": "fóstraðirðu",
+					"ft": "fóstruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fóstrirðu",
+					"ft": "fóstriði"
+				},
+				"þátíð": {
+					"et": "fóstraðirðu",
+					"ft": "fóstruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fóstrast",
+		"sagnbót": "fóstrast",
+		"boðháttur": {
+			"et": "fóstrastu",
+			"ft": "fóstrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fóstrast", "fóstrast", "fóstrast"],
+					"ft": ["fóstrumst", "fóstrist", "fóstrast"]
+				},
+				"þátíð": {
+					"et": ["fóstraðist", "fóstraðist", "fóstraðist"],
+					"ft": ["fóstruðumst", "fóstruðust", "fóstruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fóstrist", "fóstrist", "fóstrist"],
+					"ft": ["fóstrumst", "fóstrist", "fóstrist"]
+				},
+				"þátíð": {
+					"et": ["fóstraðist", "fóstraðist", "fóstraðist"],
+					"ft": ["fóstruðumst", "fóstruðust", "fóstruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fóstrastu"
+				},
+				"þátíð": {
+					"et": "fóstraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fóstristu"
+				},
+				"þátíð": {
+					"et": "fóstraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fóstrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fóstraður", "fóstraðan", "fóstruðum", "fóstraðs"],
+					"kvk": ["fóstruð", "fóstraða", "fóstraðri", "fóstraðrar"],
+					"hk": ["fóstrað", "fóstrað", "fóstruðu", "fóstraðs"]
+				},
+				"ft": {
+					"kk": ["fóstraðir", "fóstraða", "fóstruðum", "fóstraðra"],
+					"kvk": ["fóstraðar", "fóstraðar", "fóstruðum", "fóstraðra"],
+					"hk": ["fóstruð", "fóstruð", "fóstruðum", "fóstraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fóstra",
+	"hash": "54dd24c258d5ea1899abb477adca870a9d48e7e5a6b264d3baf7e11b73e2b001"
+}

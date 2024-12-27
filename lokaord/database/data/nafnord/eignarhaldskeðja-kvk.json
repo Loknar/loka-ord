@@ -1,0 +1,30 @@
+{
+	"orð": "eignarhaldskeðja",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"kennistrengur": "no-keðja-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignarhaldskeðja", "eignarhaldskeðju", "eignarhaldskeðju", "eignarhaldskeðju"],
+		"mg": ["eignarhaldskeðjan", "eignarhaldskeðjuna", "eignarhaldskeðjunni", "eignarhaldskeðjunnar"]
+	},
+	"ft": {
+		"ág": ["eignarhaldskeðjur", "eignarhaldskeðjur", "eignarhaldskeðjum", "eignarhaldskeðja"],
+		"mg": ["eignarhaldskeðjurnar", "eignarhaldskeðjurnar", "eignarhaldskeðjunum", "eignarhaldskeðjanna"]
+	},
+	"kennistrengur": "no-eignarhaldskeðja-kvk",
+	"hash": "8a7ede7be770dc66ded1e854cfa8bc1f7b9c8e89753aa7588f65ee7f7bb26b9b"
+}

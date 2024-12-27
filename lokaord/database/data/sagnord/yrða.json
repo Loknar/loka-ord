@@ -55,8 +55,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "yrðandi"
+		"nútíðar": "yrðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yrtur", "yrtan", "yrtum", "yrts"],
+					"kvk": ["yrt", "yrta", "yrtri", "yrtrar"],
+					"hk": ["yrt", "yrt", "yrtu", "yrts"]
+				},
+				"ft": {
+					"kk": ["yrtir", "yrta", "yrtum", "yrtra"],
+					"kvk": ["yrtar", "yrtar", "yrtum", "yrtra"],
+					"hk": ["yrt", "yrt", "yrtum", "yrtra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["yrti", "yrta", "yrta", "yrta"],
+					"kvk": ["yrta", "yrtu", "yrtu", "yrtu"],
+					"hk": ["yrta", "yrta", "yrta", "yrta"]
+				},
+				"ft": {
+					"kk": ["yrtu", "yrtu", "yrtu", "yrtu"],
+					"kvk": ["yrtu", "yrtu", "yrtu", "yrtu"],
+					"hk": ["yrtu", "yrtu", "yrtu", "yrtu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-yrða",
-	"hash": "f839c8e26ca6b7c74e1030c9e2d7cff7206ff55d2bbcd8e3ad5b79b2bad8642f"
+	"hash": "3e4c4def08f4108c83aa9f07e0379280936d3a3c8c00d5895a889ce5c76b1192"
 }

@@ -1,0 +1,87 @@
+{
+	"orð": "atyrða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-yrða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "atyrða",
+		"sagnbót": "atyrt",
+		"boðháttur": {
+			"stýfður": "atyrð",
+			"et": "atyrtu",
+			"ft": "atyrðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["atyrði", "atyrðir", "atyrðir"],
+					"ft": ["atyrðum", "atyrðið", "atyrða"]
+				},
+				"þátíð": {
+					"et": ["atyrti", "atyrtir", "atyrti"],
+					"ft": ["atyrtum", "atyrtuð", "atyrtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["atyrði", "atyrðir", "atyrði"],
+					"ft": ["atyrðum", "atyrðið", "atyrði"]
+				},
+				"þátíð": {
+					"et": ["atyrti", "atyrtir", "atyrti"],
+					"ft": ["atyrtum", "atyrtuð", "atyrtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "atyrðirðu",
+					"ft": "atyrðiði"
+				},
+				"þátíð": {
+					"et": "atyrtirðu",
+					"ft": "atyrtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "atyrðirðu",
+					"ft": "atyrðiði"
+				},
+				"þátíð": {
+					"et": "atyrtirðu",
+					"ft": "atyrtuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "atyrðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["atyrtur", "atyrtan", "atyrtum", "atyrts"],
+					"kvk": ["atyrt", "atyrta", "atyrtri", "atyrtrar"],
+					"hk": ["atyrt", "atyrt", "atyrtu", "atyrts"]
+				},
+				"ft": {
+					"kk": ["atyrtir", "atyrta", "atyrtum", "atyrtra"],
+					"kvk": ["atyrtar", "atyrtar", "atyrtum", "atyrtra"],
+					"hk": ["atyrt", "atyrt", "atyrtum", "atyrtra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-atyrða",
+	"hash": "102d73baefd09784fcae6b5f643eb06257ab4420ded46611d43f831d744ffd93"
+}

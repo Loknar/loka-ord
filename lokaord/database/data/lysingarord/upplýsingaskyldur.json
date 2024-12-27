@@ -1,0 +1,48 @@
+{
+	"orð": "upplýsingaskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "lýsinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lýsing-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["upplýsingaskyldur", "upplýsingaskyldan", "upplýsingaskyldum", "upplýsingaskylds"],
+				"kvk": ["upplýsingaskyld", "upplýsingaskylda", "upplýsingaskyldri", "upplýsingaskyldrar"],
+				"hk": ["upplýsingaskylt", "upplýsingaskylt", "upplýsingaskyldu", "upplýsingaskylds"]
+			},
+			"ft": {
+				"kk": ["upplýsingaskyldir", "upplýsingaskylda", "upplýsingaskyldum", "upplýsingaskyldra"],
+				"kvk": ["upplýsingaskyldar", "upplýsingaskyldar", "upplýsingaskyldum", "upplýsingaskyldra"],
+				"hk": ["upplýsingaskyld", "upplýsingaskyld", "upplýsingaskyldum", "upplýsingaskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["upplýsingaskyldi", "upplýsingaskylda", "upplýsingaskylda", "upplýsingaskylda"],
+				"kvk": ["upplýsingaskylda", "upplýsingaskyldu", "upplýsingaskyldu", "upplýsingaskyldu"],
+				"hk": ["upplýsingaskylda", "upplýsingaskylda", "upplýsingaskylda", "upplýsingaskylda"]
+			},
+			"ft": {
+				"kk": ["upplýsingaskyldu", "upplýsingaskyldu", "upplýsingaskyldu", "upplýsingaskyldu"],
+				"kvk": ["upplýsingaskyldu", "upplýsingaskyldu", "upplýsingaskyldu", "upplýsingaskyldu"],
+				"hk": ["upplýsingaskyldu", "upplýsingaskyldu", "upplýsingaskyldu", "upplýsingaskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-upplýsingaskyldur",
+	"hash": "0b55a400a04b32523df28623d04b1fecd3275537b27ea0d14cf0cb50235cbee9"
+}

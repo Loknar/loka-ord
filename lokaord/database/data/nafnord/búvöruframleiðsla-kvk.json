@@ -1,0 +1,32 @@
+{
+	"orð": "búvöruframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bú",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bú-hk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["búvöruframleiðsla", "búvöruframleiðslu", "búvöruframleiðslu", "búvöruframleiðslu"],
+		"mg": ["búvöruframleiðslan", "búvöruframleiðsluna", "búvöruframleiðslunni", "búvöruframleiðslunnar"]
+	},
+	"kennistrengur": "no-búvöruframleiðsla-kvk",
+	"hash": "009898bad2672d9ff014f402441b637f071f52711dd8dec2bc381f1528403880"
+}
