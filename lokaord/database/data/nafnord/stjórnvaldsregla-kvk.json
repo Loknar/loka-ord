@@ -1,0 +1,30 @@
+{
+	"orð": "stjórnvaldsregla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "valds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vald-hk"
+		},
+		{
+			"kennistrengur": "no-regla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnvaldsregla", "stjórnvaldsreglu", "stjórnvaldsreglu", "stjórnvaldsreglu"],
+		"mg": ["stjórnvaldsreglan", "stjórnvaldsregluna", "stjórnvaldsreglunni", "stjórnvaldsreglunnar"]
+	},
+	"ft": {
+		"ág": ["stjórnvaldsreglur", "stjórnvaldsreglur", "stjórnvaldsreglum", "stjórnvaldsreglna"],
+		"mg": ["stjórnvaldsreglurnar", "stjórnvaldsreglurnar", "stjórnvaldsreglunum", "stjórnvaldsreglnanna"]
+	},
+	"kennistrengur": "no-stjórnvaldsregla-kvk",
+	"hash": "55ca27ac72387a5d544bf94733d2a5f40a11d018ef8e712fd0b2ea9083d7dc60"
+}

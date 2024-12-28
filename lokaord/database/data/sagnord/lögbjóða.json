@@ -8,7 +8,7 @@
 			"kennistrengur": "no-lög-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur"],
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-bjóða"
 		}
 	],
@@ -39,29 +39,6 @@
 				"þátíð": {
 					"et": ["lögbyði", "lögbyðir", "lögbyði"],
 					"ft": ["lögbyðum", "lögbyðuð", "lögbyðu"]
-				}
-			}
-		},
-		"ópersónuleg": {
-			"frumlag": "þágufałl",
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["lögbýður", "lögbýður", "lögbýður"],
-					"ft": ["lögbýður", "lögbýður", "lögbýður"]
-				},
-				"þátíð": {
-					"et": ["lögbauð", "lögbauð", "lögbauð"],
-					"ft": ["lögbauð", "lögbauð", "lögbauð"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["lögbjóði", "lögbjóði", "lögbjóði"],
-					"ft": ["lögbjóði", "lögbjóði", "lögbjóði"]
-				},
-				"þátíð": {
-					"et": ["lögbyði", "lögbyði", "lögbyði"],
-					"ft": ["lögbyði", "lögbyði", "lögbyði"]
 				}
 			}
 		},
@@ -102,21 +79,9 @@
 					"kvk": ["lögboðnar", "lögboðnar", "lögboðnum", "lögboðinna"],
 					"hk": ["lögboðin", "lögboðin", "lögboðnum", "lögboðinna"]
 				}
-			},
-			"vb": {
-				"et": {
-					"kk": ["lögboðni", "lögboðna", "lögboðna", "lögboðna"],
-					"kvk": ["lögboðna", "lögboðnu", "lögboðnu", "lögboðnu"],
-					"hk": ["lögboðna", "lögboðna", "lögboðna", "lögboðna"]
-				},
-				"ft": {
-					"kk": ["lögboðnu", "lögboðnu", "lögboðnu", "lögboðnu"],
-					"kvk": ["lögboðnu", "lögboðnu", "lögboðnu", "lögboðnu"],
-					"hk": ["lögboðnu", "lögboðnu", "lögboðnu", "lögboðnu"]
-				}
 			}
 		}
 	},
 	"kennistrengur": "so-lögbjóða",
-	"hash": "484d175998163d051365fe87be76a6368899036010a4bdc03bbd2509ad90dc3b"
+	"hash": "c4980f831bd8b5a9b09ef5805d01915830d91d740d0c2d222bb4644d8f4b3424"
 }

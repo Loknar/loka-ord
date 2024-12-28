@@ -1,0 +1,65 @@
+{
+	"orð": "afleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afleiða",
+		"sagnbót": "afleitt",
+		"boðháttur": {
+			"stýfður": "afleið",
+			"et": "afleiddu",
+			"ft": "afleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afleiði", "afleiðir", "afleiðir"],
+					"ft": ["afleiðum", "afleiðið", "afleiða"]
+				},
+				"þátíð": {
+					"et": ["afleiddi", "afleiddir", "afleiddi"],
+					"ft": ["afleiddum", "afleidduð", "afleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afleiði", "afleiðir", "afleiði"],
+					"ft": ["afleiðum", "afleiðið", "afleiði"]
+				},
+				"þátíð": {
+					"et": ["afleiddi", "afleiddir", "afleiddi"],
+					"ft": ["afleiddum", "afleidduð", "afleiddu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afleiddur", "afleiddan", "afleiddum", "afleidds"],
+					"kvk": ["afleidd", "afleidda", "afleiddri", "afleiddrar"],
+					"hk": ["afleitt", "afleitt", "afleiddu", "afleidds"]
+				},
+				"ft": {
+					"kk": ["afleiddir", "afleidda", "afleiddum", "afleiddra"],
+					"kvk": ["afleiddar", "afleiddar", "afleiddum", "afleiddra"],
+					"hk": ["afleidd", "afleidd", "afleiddum", "afleiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afleiða",
+	"hash": "19851b8a33d91d08a8c8e2a5246d30b81e13768272bff5d5f7bc1c9338ccefc1"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "uppgræða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-græða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "uppgræða",
+		"sagnbót": "uppgrætt",
+		"boðháttur": {
+			"stýfður": "uppgræð",
+			"et": "uppgræddu",
+			"ft": "uppgræðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppgræði", "uppgræðir", "uppgræðir"],
+					"ft": ["uppgræðum", "uppgræðið", "uppgræða"]
+				},
+				"þátíð": {
+					"et": ["uppgræddi", "uppgræddir", "uppgræddi"],
+					"ft": ["uppgræddum", "uppgrædduð", "uppgræddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppgræði", "uppgræðir", "uppgræði"],
+					"ft": ["uppgræðum", "uppgræðið", "uppgræði"]
+				},
+				"þátíð": {
+					"et": ["uppgræddi", "uppgræddir", "uppgræddi"],
+					"ft": ["uppgræddum", "uppgrædduð", "uppgræddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppgræðirðu",
+					"ft": "uppgræðiði"
+				},
+				"þátíð": {
+					"et": "uppgræddirðu",
+					"ft": "uppgrædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppgræðirðu",
+					"ft": "uppgræðiði"
+				},
+				"þátíð": {
+					"et": "uppgræddirðu",
+					"ft": "uppgrædduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "uppgræðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["uppgræddur", "uppgræddan", "uppgræddum", "uppgrædds"],
+					"kvk": ["uppgrædd", "uppgrædda", "uppgræddri", "uppgræddrar"],
+					"hk": ["uppgrætt", "uppgrætt", "uppgræddu", "uppgrædds"]
+				},
+				"ft": {
+					"kk": ["uppgræddir", "uppgrædda", "uppgræddum", "uppgræddra"],
+					"kvk": ["uppgræddar", "uppgræddar", "uppgræddum", "uppgræddra"],
+					"hk": ["uppgrædd", "uppgrædd", "uppgræddum", "uppgræddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-uppgræða",
+	"hash": "b562671f8aa69122c9cc784bf4ef4a9b0f017a11f222dbb4fc0ea6779a02a71b"
+}

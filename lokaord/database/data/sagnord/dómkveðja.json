@@ -1,0 +1,65 @@
+{
+	"orð": "dómkveðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dóm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-kveðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dómkveðja",
+		"sagnbót": "dómkvatt",
+		"boðháttur": {
+			"stýfður": "dómkveð",
+			"et": "dómkveddu",
+			"ft": "dómkveðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dómkveð", "dómkveður", "dómkveður"],
+					"ft": ["dómkveðjum", "dómkveðjið", "dómkveðja"]
+				},
+				"þátíð": {
+					"et": ["dómkvaddi", "dómkvaddir", "dómkvaddi"],
+					"ft": ["dómkvöddum", "dómkvödduð", "dómkvöddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dómkveðji", "dómkveðjir", "dómkveðji"],
+					"ft": ["dómkveðjum", "dómkveðjið", "dómkveðji"]
+				},
+				"þátíð": {
+					"et": ["dómkveddi", "dómkveddir", "dómkveddi"],
+					"ft": ["dómkveddum", "dómkvedduð", "dómkveddu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dómkveðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dómkvaddur", "dómkvaddan", "dómkvöddum", "dómkvadds"],
+					"kvk": ["dómkvadd", "dómkvadda", "dómkvaddri", "dómkvaddrar"],
+					"hk": ["dómgert", "dómgert", "dómkvöddu", "dómkvadds"]
+				},
+				"ft": {
+					"kk": ["dómkvaddir", "dómkvadda", "dómkvöddum", "dómkvaddra"],
+					"kvk": ["dómkvaddar", "dómkvaddar", "dómkvöddum", "dómkvaddra"],
+					"hk": ["dómkvadd", "dómkvadd", "dómkvöddum", "dómkvaddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dómkveðja",
+	"hash": "887ba64114105375f6587a33e76fb2f286f33eab98eda68b87a67fb1d1d94750"
+}

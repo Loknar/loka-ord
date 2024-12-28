@@ -1,0 +1,87 @@
+{
+	"orð": "frambjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frambjóða",
+		"sagnbót": "framboðið",
+		"boðháttur": {
+			"stýfður": "frambjóð",
+			"et": "frambjóddu",
+			"ft": "frambjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frambýð", "frambýður", "frambýður"],
+					"ft": ["frambjóðum", "frambjóðið", "frambjóða"]
+				},
+				"þátíð": {
+					"et": ["frambauð", "frambauðst", "frambauð"],
+					"ft": ["frambuðum", "frambuðuð", "frambuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frambjóði", "frambjóðir", "frambjóði"],
+					"ft": ["frambjóðum", "frambjóðið", "frambjóði"]
+				},
+				"þátíð": {
+					"et": ["frambyði", "frambyðir", "frambyði"],
+					"ft": ["frambyðum", "frambyðuð", "frambyðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frambýðurðu",
+					"ft": "frambjóðiði"
+				},
+				"þátíð": {
+					"et": "frambauðstu",
+					"ft": "frambuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frambjóðirðu",
+					"ft": "frambjóðiði"
+				},
+				"þátíð": {
+					"et": "frambyðirðu",
+					"ft": "frambyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frambjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framboðinn", "framboðinn", "framboðnum", "framboðins"],
+					"kvk": ["framboðin", "framboðna", "framboðinni", "framboðinnar"],
+					"hk": ["framboðið", "framboðið", "framboðnu", "framboðins"]
+				},
+				"ft": {
+					"kk": ["framboðnir", "framboðna", "framboðnum", "framboðinna"],
+					"kvk": ["framboðnar", "framboðnar", "framboðnum", "framboðinna"],
+					"hk": ["framboðin", "framboðin", "framboðnum", "framboðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frambjóða",
+	"hash": "162f800d809abb8d781a0b771b1aa855c971a37aedd425f7de761669c4a5ee01"
+}
