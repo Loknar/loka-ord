@@ -1,0 +1,31 @@
+{
+	"orð": "leiguliðaafnot",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "liða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-liði-kk"
+		},
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"kennistrengur": "no-not-hk"
+		}
+	],
+	"ft": {
+		"ág": ["leiguliðaafnot", "leiguliðaafnot", "leiguliðaafnotum", "leiguliðaafnota"],
+		"mg": ["leiguliðaafnotin", "leiguliðaafnotin", "leiguliðaafnotunum", "leiguliðaafnotanna"]
+	},
+	"kennistrengur": "no-leiguliðaafnot-hk",
+	"hash": "20ce4e20907714cfa433ec15c43be9a47253826c5d9503f3096dbd23f0719d0f"
+}

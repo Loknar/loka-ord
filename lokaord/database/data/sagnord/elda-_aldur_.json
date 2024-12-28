@@ -1,0 +1,133 @@
+{
+	"orð": "elda",
+	"flokkur": "sagnorð",
+	"merking": "aldur",
+	"germynd": {
+		"nafnháttur": "elda",
+		"sagnbót": "elt",
+		"boðháttur": {
+			"stýfður": "eld",
+			"et": "eltu",
+			"ft": "eldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eldi", "eldir", "eldir"],
+					"ft": ["eldum", "eldið", "elda"]
+				},
+				"þátíð": {
+					"et": ["elti", "eltir", "elti"],
+					"ft": ["eltum", "eltuð", "eltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eldi", "eldir", "eldi"],
+					"ft": ["eldum", "eldið", "eldi"]
+				},
+				"þátíð": {
+					"et": ["elti", "eltir", "elti"],
+					"ft": ["eltum", "eltuð", "eltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eldirðu",
+					"ft": "eldiði"
+				},
+				"þátíð": {
+					"et": "eltirðu",
+					"ft": "eltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eldirðu",
+					"ft": "eldiði"
+				},
+				"þátíð": {
+					"et": "eltirðu",
+					"ft": "eltuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "eldast",
+		"sagnbót": "elst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eldist", "eldist", "eldist"],
+					"ft": ["eldumst", "eldist", "eldast"]
+				},
+				"þátíð": {
+					"et": ["eltist", "eltist", "eltist"],
+					"ft": ["eltumst", "eltust", "eltust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eldist", "eldist", "eldist"],
+					"ft": ["eldumst", "eldist", "eldist"]
+				},
+				"þátíð": {
+					"et": ["eltist", "eltist", "eltist"],
+					"ft": ["eltumst", "eltust", "eltust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eldistu"
+				},
+				"þátíð": {
+					"et": "eltistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eldistu"
+				},
+				"þátíð": {
+					"et": "eltistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eltur", "eltan", "eltum", "elts"],
+					"kvk": ["elt", "elta", "eltri", "eltrar"],
+					"hk": ["elt", "elt", "eltu", "elts"]
+				},
+				"ft": {
+					"kk": ["eltir", "elta", "eltum", "eltra"],
+					"kvk": ["eltar", "eltar", "eltum", "eltra"],
+					"hk": ["elt", "elt", "eltum", "eltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["elti", "elta", "elta", "elta"],
+					"kvk": ["elta", "eltu", "eltu", "eltu"],
+					"hk": ["elta", "elta", "elta", "elta"]
+				},
+				"ft": {
+					"kk": ["eltu", "eltu", "eltu", "eltu"],
+					"kvk": ["eltu", "eltu", "eltu", "eltu"],
+					"hk": ["eltu", "eltu", "eltu", "eltu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-elda-_aldur_",
+	"hash": "dc91c5962bd1c467737d34489a2a31b9e2406ec68a0a81ceb0788069cf761788"
+}

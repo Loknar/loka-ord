@@ -1,0 +1,32 @@
+{
+	"orð": "afnotaumráð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "nota",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-not-hk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ráð-hk"
+		}
+	],
+	"ft": {
+		"ág": ["afnotaumráð", "afnotaumráð", "afnotaumráðum", "afnotaumráða"],
+		"mg": ["afnotaumráðin", "afnotaumráðin", "afnotaumráðunum", "afnotaumráðanna"]
+	},
+	"kennistrengur": "no-afnotaumráð-hk",
+	"hash": "9e1544ed1848d07a8a625dfb261d305b2653d6d36bfc8fa45a91f8b075cfd56f"
+}

@@ -1,0 +1,142 @@
+{
+	"orð": "úrelda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-elda-_aldur_"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "úrelda",
+		"sagnbót": "úrelt",
+		"boðháttur": {
+			"stýfður": "úreld",
+			"et": "úreltu",
+			"ft": "úreldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["úreldi", "úreldir", "úreldir"],
+					"ft": ["úreldum", "úreldið", "úrelda"]
+				},
+				"þátíð": {
+					"et": ["úrelti", "úreltir", "úrelti"],
+					"ft": ["úreltum", "úreltuð", "úreltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["úreldi", "úreldir", "úreldi"],
+					"ft": ["úreldum", "úreldið", "úreldi"]
+				},
+				"þátíð": {
+					"et": ["úrelti", "úreltir", "úrelti"],
+					"ft": ["úreltum", "úreltuð", "úreltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "úreldirðu",
+					"ft": "úreldiði"
+				},
+				"þátíð": {
+					"et": "úreltirðu",
+					"ft": "úreltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "úreldirðu",
+					"ft": "úreldiði"
+				},
+				"þátíð": {
+					"et": "úreltirðu",
+					"ft": "úreltuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "úreldast",
+		"sagnbót": "úrelst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["úreldist", "úreldist", "úreldist"],
+					"ft": ["úreldumst", "úreldist", "úreldast"]
+				},
+				"þátíð": {
+					"et": ["úreltist", "úreltist", "úreltist"],
+					"ft": ["úreltumst", "úreltust", "úreltust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["úreldist", "úreldist", "úreldist"],
+					"ft": ["úreldumst", "úreldist", "úreldist"]
+				},
+				"þátíð": {
+					"et": ["úreltist", "úreltist", "úreltist"],
+					"ft": ["úreltumst", "úreltust", "úreltust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "úreldistu"
+				},
+				"þátíð": {
+					"et": "úreltistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "úreldistu"
+				},
+				"þátíð": {
+					"et": "úreltistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["úreltur", "úreltan", "úreltum", "úrelts"],
+					"kvk": ["úrelt", "úrelta", "úreltri", "úreltrar"],
+					"hk": ["úrelt", "úrelt", "úreltu", "úrelts"]
+				},
+				"ft": {
+					"kk": ["úreltir", "úrelta", "úreltum", "úreltra"],
+					"kvk": ["úreltar", "úreltar", "úreltum", "úreltra"],
+					"hk": ["úrelt", "úrelt", "úreltum", "úreltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["úrelti", "úrelta", "úrelta", "úrelta"],
+					"kvk": ["úrelta", "úreltu", "úreltu", "úreltu"],
+					"hk": ["úrelta", "úrelta", "úrelta", "úrelta"]
+				},
+				"ft": {
+					"kk": ["úreltu", "úreltu", "úreltu", "úreltu"],
+					"kvk": ["úreltu", "úreltu", "úreltu", "úreltu"],
+					"hk": ["úreltu", "úreltu", "úreltu", "úreltu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-úrelda",
+	"hash": "3662beb80944e1b3e586b0db6c37c04a24e26ac4796bc66982e770f6b8a0261d"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "ættliðaskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ætt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ætt-kvk"
+		},
+		{
+			"mynd": "liða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-liður-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["ættliðaskipti", "ættliðaskipti", "ættliðaskiptum", "ættliðaskipta"],
+		"mg": ["ættliðaskiptin", "ættliðaskiptin", "ættliðaskiptunum", "ættliðaskiptanna"]
+	},
+	"kennistrengur": "no-ættliðaskipti-hk",
+	"hash": "645fd5d222ab02ead7949a430b6c7af5488837bc3df96396003f009fb7ba979b"
+}
