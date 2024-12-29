@@ -1,0 +1,22 @@
+{
+	"orð": "gjaldhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldhæð", "gjaldhæð", "gjaldhæð", "gjaldhæðar"],
+		"mg": ["gjaldhæðin", "gjaldhæðina", "gjaldhæðinni", "gjaldhæðarinnar"]
+	},
+	"kennistrengur": "no-gjaldhæð-kvk",
+	"hash": "7cc16f1adcea76f723c8a3f89c7d649128f895fd4083d04d8ae346dc9abb720e"
+}

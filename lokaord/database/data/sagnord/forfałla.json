@@ -1,0 +1,108 @@
+{
+	"orð": "forfałla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-fałla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "forfałla",
+		"sagnbót": "forfałlið",
+		"boðháttur": {
+			"stýfður": "forfałl",
+			"ft": "forfałlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forfełl", "forfełlur", "forfełlur"],
+					"ft": ["forfełlum", "forfałlið", "forfałla"]
+				},
+				"þátíð": {
+					"et": ["forféłl", "forféllst", "forféłl"],
+					"ft": ["forféłlum", "forféłluð", "forféłlu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forfałli", "forfałlir", "forfałli"],
+					"ft": ["forföłlum", "forfałlið", "forfałli"]
+				},
+				"þátíð": {
+					"et": ["forféłli", "forféłlir", "forféłli"],
+					"ft": ["forféłlum", "forféłluð", "forféłlu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "forfałlast",
+		"sagnbót": "forfałlist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forfellst", "forfellst", "forfellst"],
+					"ft": ["forföłlumst", "forfałlist", "forfałlast"]
+				},
+				"þátíð": {
+					"et": ["forféllst", "forféllst", "forféłlst"],
+					"ft": ["forféłlumst", "forféllust", "forféłlust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forfałlist", "forfałlist", "forfałlist"],
+					"ft": ["forföłlumst", "forfałlist", "forfałlist"]
+				},
+				"þátíð": {
+					"et": ["forféłlist", "forféłlist", "forféłlist"],
+					"ft": ["forféłlumst", "forféłlust", "forféłlust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "forfellstu"
+				},
+				"þátíð": {
+					"et": "forféllstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "forfałlistu"
+				},
+				"þátíð": {
+					"et": "forféłlistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "forfałlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["forfałlinn", "forfałlinn", "forföłlnum", "forfałlins"],
+					"kvk": ["forfałlin", "forfałlna", "forfałlinni", "forfałlinnar"],
+					"hk": ["forfałlið", "forfałlið", "forföłlnu", "forfałlins"]
+				},
+				"ft": {
+					"kk": ["forfałlnir", "forfałlna", "forföłlnum", "forfałlinna"],
+					"kvk": ["forfałlnar", "forfałlnar", "forföłlnum", "forfałlinna"],
+					"hk": ["forfałlin", "forfałlin", "forföłlnum", "forfałlinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-forfałla",
+	"hash": "b761ca4ff439883b4b02d6e5f594d4338a76378064a61990f392e5681bf216a0"
+}
