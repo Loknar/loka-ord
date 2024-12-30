@@ -1,0 +1,48 @@
+{
+	"orð": "fjałlskilaskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fjałl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjałl-hk"
+		},
+		{
+			"mynd": "skila",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fjałlskilaskyldur", "fjałlskilaskyldan", "fjałlskilaskyldum", "fjałlskilaskylds"],
+				"kvk": ["fjałlskilaskyld", "fjałlskilaskylda", "fjałlskilaskyldri", "fjałlskilaskyldrar"],
+				"hk": ["fjałlskilaskylt", "fjałlskilaskylt", "fjałlskilaskyldu", "fjałlskilaskylds"]
+			},
+			"ft": {
+				"kk": ["fjałlskilaskyldir", "fjałlskilaskylda", "fjałlskilaskyldum", "fjałlskilaskyldra"],
+				"kvk": ["fjałlskilaskyldar", "fjałlskilaskyldar", "fjałlskilaskyldum", "fjałlskilaskyldra"],
+				"hk": ["fjałlskilaskyld", "fjałlskilaskyld", "fjałlskilaskyldum", "fjałlskilaskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fjałlskilaskyldi", "fjałlskilaskylda", "fjałlskilaskylda", "fjałlskilaskylda"],
+				"kvk": ["fjałlskilaskylda", "fjałlskilaskyldu", "fjałlskilaskyldu", "fjałlskilaskyldu"],
+				"hk": ["fjałlskilaskylda", "fjałlskilaskylda", "fjałlskilaskylda", "fjałlskilaskylda"]
+			},
+			"ft": {
+				"kk": ["fjałlskilaskyldu", "fjałlskilaskyldu", "fjałlskilaskyldu", "fjałlskilaskyldu"],
+				"kvk": ["fjałlskilaskyldu", "fjałlskilaskyldu", "fjałlskilaskyldu", "fjałlskilaskyldu"],
+				"hk": ["fjałlskilaskyldu", "fjałlskilaskyldu", "fjałlskilaskyldu", "fjałlskilaskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fjałlskilaskyldur",
+	"hash": "f5b85fedb692e1f5816e894b4c03414f0596b6bf40f2ce71f5d0cc47976bc115"
+}

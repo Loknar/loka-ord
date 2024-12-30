@@ -1,0 +1,65 @@
+{
+	"orð": "innsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "innsetja",
+		"sagnbót": "innsett",
+		"boðháttur": {
+			"stýfður": "innset",
+			"et": "innsettu",
+			"ft": "innsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["innset", "innsetur", "innsetur"],
+					"ft": ["innsetjum", "innsetjið", "innsetja"]
+				},
+				"þátíð": {
+					"et": ["innsetti", "innsettir", "innsett"],
+					"ft": ["innsettum", "innsettuð", "innsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["innsetji", "innsetjir", "innsetji"],
+					"ft": ["innsetjum", "innsetjið", "innsetji"]
+				},
+				"þátíð": {
+					"et": ["innsetti", "innsettir", "innsetti"],
+					"ft": ["innsettum", "innsettuð", "innsettu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "innsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["innsettur", "innsettan", "innsettum", "innsetts"],
+					"kvk": ["innsett", "innsetta", "innsettri", "innsettrar"],
+					"hk": ["innsett", "innsett", "innsettu", "innsetts"]
+				},
+				"ft": {
+					"kk": ["innsettir", "innsetta", "innsettum", "innsettra"],
+					"kvk": ["innsettar", "innsettar", "innsettum", "innsettra"],
+					"hk": ["innsett", "innsett", "innsettum", "innsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-innsetja",
+	"hash": "511fdfe4c81594f791c049c4b51820460651dea8111cc3ef5aa6805d656032e1"
+}
