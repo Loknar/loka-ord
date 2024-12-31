@@ -1,0 +1,27 @@
+{
+	"orð": "meðallambsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "lambs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lamb-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["meðallambsverð", "meðallambsverð", "meðallambsverði", "meðallambsverðs"],
+		"mg": ["meðallambsverðið", "meðallambsverðið", "meðallambsverðinu", "meðallambsverðsins"]
+	},
+	"kennistrengur": "no-meðallambsverð-hk",
+	"hash": "829a6b6baadf757e68bd0ac8b8de9c47e727777d8dff5f8dea8fc140e5058603"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "nytja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "nytj",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-nyt-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nytja",
+		"sagnbót": "nytjað",
+		"boðháttur": {
+			"stýfður": "nytja",
+			"et": "nytjaðu",
+			"ft": "nytjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nytja", "nytjar", "nytjar"],
+					"ft": ["nytjum", "nytjið", "nytja"]
+				},
+				"þátíð": {
+					"et": ["nytjaði", "nytjaðir", "nytjaði"],
+					"ft": ["nytjuðum", "nytjuðuð", "nytjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nytji", "nytjir", "nytji"],
+					"ft": ["nytjum", "nytjið", "nytji"]
+				},
+				"þátíð": {
+					"et": ["nytjaði", "nytjaðir", "nytjaði"],
+					"ft": ["nytjuðum", "nytjuðuð", "nytjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nytjarðu",
+					"ft": "nytjiði"
+				},
+				"þátíð": {
+					"et": "nytjaðirðu",
+					"ft": "nytjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nytjirðu",
+					"ft": "nytjiði"
+				},
+				"þátíð": {
+					"et": "nytjaðirðu",
+					"ft": "nytjuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "nytjast",
+		"sagnbót": "nytjast",
+		"boðháttur": {
+			"et": "nytjastu",
+			"ft": "nytjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nytjast", "nytjast", "nytjast"],
+					"ft": ["nytjumst", "nytjist", "nytjast"]
+				},
+				"þátíð": {
+					"et": ["nytjaðist", "nytjaðist", "nytjaðist"],
+					"ft": ["nytjuðumst", "nytjuðust", "nytjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nytjist", "nytjist", "nytjist"],
+					"ft": ["nytjumst", "nytjist", "nytjist"]
+				},
+				"þátíð": {
+					"et": ["nytjaðist", "nytjaðist", "nytjaðist"],
+					"ft": ["nytjuðumst", "nytjuðust", "nytjuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nytjastu"
+				},
+				"þátíð": {
+					"et": "nytjaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nytjistu"
+				},
+				"þátíð": {
+					"et": "nytjaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nytjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nytjaður", "nytjaðan", "nytjuðum", "nytjaðs"],
+					"kvk": ["nytjuð", "nytjaða", "nytjaðri", "nytjaðrar"],
+					"hk": ["nytjað", "nytjað", "nytjuðu", "nytjaðs"]
+				},
+				"ft": {
+					"kk": ["nytjaðir", "nytjaða", "nytjuðum", "nytjaðra"],
+					"kvk": ["nytjaðar", "nytjaðar", "nytjuðum", "nytjaðra"],
+					"hk": ["nytjuð", "nytjuð", "nytjuðum", "nytjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nytja",
+	"hash": "92df8a08fb42d4f0d0701f7c1f923ba637a732687c4addcbc33cfad39ab0cd99"
+}
