@@ -1,0 +1,87 @@
+{
+	"orð": "stighækka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stig",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stig-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hækka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stighækka",
+		"sagnbót": "stighækkað",
+		"boðháttur": {
+			"stýfður": "stighækka",
+			"et": "stighækkaðu",
+			"ft": "stighækkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stighækka", "stighækkar", "stighækkar"],
+					"ft": ["stighækkum", "stighækkið", "stighækka"]
+				},
+				"þátíð": {
+					"et": ["stighækkaði", "stighækkaðir", "stighækkaði"],
+					"ft": ["stighækkuðum", "stighækkuðuð", "stighækkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stighækki", "stighækkir", "stighækki"],
+					"ft": ["stighækkum", "stighækkið", "stighækki"]
+				},
+				"þátíð": {
+					"et": ["stighækkaði", "stighækkaðir", "stighækkaði"],
+					"ft": ["stighækkuðum", "stighækkuðuð", "stighækkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stighækkarðu",
+					"ft": "stighækkiði"
+				},
+				"þátíð": {
+					"et": "stighækkaðirðu",
+					"ft": "stighækkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stighækkirðu",
+					"ft": "stighækkiði"
+				},
+				"þátíð": {
+					"et": "stighækkaðirðu",
+					"ft": "stighækkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stighækkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stighækkaður", "stighækkaðan", "stighækkuðum", "stighækkaðs"],
+					"kvk": ["stighækkuð", "stighækkaða", "stighækkaðri", "stighækkaðrar"],
+					"hk": ["stighækkað", "stighækkað", "stighækkuðu", "stighækkaðs"]
+				},
+				"ft": {
+					"kk": ["stighækkaðir", "stighækkaða", "stigstæðkkuðum", "stighækkaðra"],
+					"kvk": ["stighækkaðar", "stighækkaðar", "stighækkuðum", "stighækkaðra"],
+					"hk": ["stighækkuð", "stighækkuð", "stighækkuðum", "stighækkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stighækka",
+	"hash": "842d5d6f2bf315448626a8e5f36c462830fecc4c299ae78c82483edaa4db9cb7"
+}

@@ -8,6 +8,7 @@
 			"kennistrengur": "no-eyra-hk"
 		},
 		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-merkja"
 		}
 	],
@@ -64,50 +65,6 @@
 			}
 		}
 	},
-	"miðmynd": {
-		"nafnháttur": "eyrnamerkjast",
-		"sagnbót": "eyrnamerkst",
-		"persónuleg": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["eyrnamerkist", "eyrnamerkist", "eyrnamerkist"],
-					"ft": ["eyrnamerkjumst", "eyrnamerkist", "eyrnamerkjast"]
-				},
-				"þátíð": {
-					"et": ["eyrnamerktist", "eyrnamerktist", "eyrnamerktist"],
-					"ft": ["eyrnamerktumst", "eyrnamerktust", "eyrnamerktust"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["eyrnamerkist", "eyrnamerkist", "eyrnamerkist"],
-					"ft": ["eyrnamerkjumst", "eyrnamerkist", "eyrnamerkist"]
-				},
-				"þátíð": {
-					"et": ["eyrnamerktist", "eyrnamerktist", "eyrnamerktist"],
-					"ft": ["eyrnamerktumst", "eyrnamerktust", "eyrnamerktust"]
-				}
-			}
-		},
-		"spurnarmyndir": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": "eyrnamerkistu"
-				},
-				"þátíð": {
-					"et": "eyrnamerktistu"
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": "eyrnamerkistu"
-				},
-				"þátíð": {
-					"et": "eyrnamerktistu"
-				}
-			}
-		}
-	},
 	"lýsingarháttur": {
 		"nútíðar": "eyrnamerkjandi",
 		"þátíðar": {
@@ -122,21 +79,9 @@
 					"kvk": ["eyrnamerktar", "eyrnamerktar", "eyrnamerktum", "eyrnamerktra"],
 					"hk": ["eyrnamerkt", "eyrnamerkt", "eyrnamerktum", "eyrnamerktra"]
 				}
-			},
-			"vb": {
-				"et": {
-					"kk": ["eyrnamerkti", "eyrnamerkta", "eyrnamerkta", "eyrnamerkta"],
-					"kvk": ["eyrnamerkta", "eyrnamerktu", "eyrnamerktu", "eyrnamerktu"],
-					"hk": ["eyrnamerkta", "eyrnamerkta", "eyrnamerkta", "eyrnamerkta"]
-				},
-				"ft": {
-					"kk": ["eyrnamerktu", "eyrnamerktu", "eyrnamerktu", "eyrnamerktu"],
-					"kvk": ["eyrnamerktu", "eyrnamerktu", "eyrnamerktu", "eyrnamerktu"],
-					"hk": ["eyrnamerktu", "eyrnamerktu", "eyrnamerktu", "eyrnamerktu"]
-				}
 			}
 		}
 	},
 	"kennistrengur": "so-eyrnamerkja",
-	"hash": "6e1d64cf1f9d3e2bd35c4abcae5d3ecad0e3ceaa5b25ed5483dc6bf93c26de37"
+	"hash": "0fe2bd82e7633ae07dff4d2a5f90948081cc8048fa507040eabe835000effe43"
 }

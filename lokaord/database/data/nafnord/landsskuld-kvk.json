@@ -1,0 +1,25 @@
+{
+	"orð": "landsskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landsskuld", "landsskuld", "landsskuld", "landsskuldar"],
+		"mg": ["landsskuldin", "landsskuldina", "landsskuldinni", "landsskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["landsskuldir", "landsskuldir", "landsskuldum", "landsskulda"],
+		"mg": ["landsskuldirnar", "landsskuldirnar", "landsskuldunum", "landsskuldanna"]
+	},
+	"kennistrengur": "no-landsskuld-kvk",
+	"hash": "c69363a7e667eadd3a9b74a0c4f62d004f78e28504723c5fea6bf70e6d44746b"
+}

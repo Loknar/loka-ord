@@ -1,0 +1,87 @@
+{
+	"orð": "eyrnamarka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eyrna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyra-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-marka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eyrnamarka",
+		"sagnbót": "eyrnamarkað",
+		"boðháttur": {
+			"stýfður": "eyrnamarka",
+			"et": "eyrnamarkaðu",
+			"ft": "eyrnamarkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eyrnamarka", "eyrnamarkar", "eyrnamarkar"],
+					"ft": ["eyrnamörkum", "eyrnamarkið", "eyrnamarka"]
+				},
+				"þátíð": {
+					"et": ["eyrnamarkaði", "eyrnamarkaðir", "eyrnamarkaði"],
+					"ft": ["eyrnamörkuðum", "eyrnamörkuðuð", "eyrnamörkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eyrnamarki", "eyrnamarkir", "eyrnamarki"],
+					"ft": ["eyrnamörkum", "eyrnamarkið", "eyrnamarki"]
+				},
+				"þátíð": {
+					"et": ["eyrnamarkaði", "eyrnamarkaðir", "eyrnamarkaði"],
+					"ft": ["eyrnamörkuðum", "eyrnamörkuðuð", "eyrnamörkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eyrnamarkarðu",
+					"ft": "eyrnamarkiði"
+				},
+				"þátíð": {
+					"et": "eyrnamarkaðirðu",
+					"ft": "eyrnamörkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eyrnamarkirðu",
+					"ft": "eyrnamarkiði"
+				},
+				"þátíð": {
+					"et": "eyrnamarkaðirðu",
+					"ft": "eyrnamörkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eyrnamarkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eyrnamarkaður", "eyrnamarkaðan", "eyrnamörkuðum", "eyrnamarkaðs"],
+					"kvk": ["eyrnamörkuð", "eyrnamarkaða", "eyrnamarkaðri", "eyrnamarkaðrar"],
+					"hk": ["eyrnamarkað", "eyrnamarkað", "eyrnamörkuðu", "eyrnamarkaðs"]
+				},
+				"ft": {
+					"kk": ["eyrnamarkaðir", "eyrnamarkaða", "eyrnamörkuðum", "eyrnamarkaðra"],
+					"kvk": ["eyrnamarkaðar", "eyrnamarkaðar", "eyrnamörkuðum", "eyrnamarkaðra"],
+					"hk": ["eyrnamörkuð", "eyrnamörkuð", "eyrnamörkuðum", "eyrnamarkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eyrnamarka",
+	"hash": "7d67fdd45a77bb148a685f58cf892a4ca8f628aa9de636a2f623c7f0d066fbd1"
+}
