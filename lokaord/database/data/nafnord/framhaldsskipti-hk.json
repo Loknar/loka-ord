@@ -1,0 +1,27 @@
+{
+	"orð": "framhaldsskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["framhaldsskipti", "framhaldsskipti", "framhaldsskiptum", "framhaldsskipta"],
+		"mg": ["framhaldsskiptin", "framhaldsskiptin", "framhaldsskiptunum", "framhaldsskiptanna"]
+	},
+	"kennistrengur": "no-framhaldsskipti-hk",
+	"hash": "007ac14f5cd1ebecd989d490dec3a9da3659c2d1b11bc4bb1377b815ab594712"
+}

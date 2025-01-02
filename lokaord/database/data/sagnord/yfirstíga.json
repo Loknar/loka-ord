@@ -1,0 +1,87 @@
+{
+	"orð": "yfirstíga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-stíga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirstíga",
+		"sagnbót": "yfirstigið",
+		"boðháttur": {
+			"stýfður": "yfirstíg",
+			"et": "yfirstígðu",
+			"ft": "yfirstígið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirstíg", "yfirstígur", "yfirstígur"],
+					"ft": ["yfirstígum", "yfirstígið", "yfirstíga"]
+				},
+				"þátíð": {
+					"et": ["yfirsteig", "yfirsteigst", "yfirsteig"],
+					"ft": ["yfirstigum", "yfirstiguð", "yfirstigu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirstígi", "yfirstígir", "yfirstígi"],
+					"ft": ["yfirstígum", "yfirstígið", "yfirstígi"]
+				},
+				"þátíð": {
+					"et": ["yfirstigi", "yfirstigir", "yfirstigi"],
+					"ft": ["yfirstigjum", "yfirstigjuð", "yfirstigju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirstígurðu",
+					"ft": "yfirstígiði"
+				},
+				"þátíð": {
+					"et": "yfirsteigstu",
+					"ft": "yfirstiguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirstígirðu",
+					"ft": "yfirstígiði"
+				},
+				"þátíð": {
+					"et": "yfirstigirðu",
+					"ft": "yfirstigjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirstígandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirstiginn", "yfirstiginn", "yfirstignum", "yfirstigins"],
+					"kvk": ["yfirstigin", "yfirstigna", "yfirstiginni", "yfirstiginnar"],
+					"hk": ["yfirstigið", "yfirstigið", "yfirstignu", "yfirstigins"]
+				},
+				"ft": {
+					"kk": ["yfirstignir", "yfirstigna", "yfirstignum", "yfirstiginna"],
+					"kvk": ["yfirstignar", "yfirstignar", "yfirstignum", "yfirstiginna"],
+					"hk": ["yfirstigin", "yfirstigin", "yfirstignum", "yfirstiginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirstíga",
+	"hash": "198e3e283f20359d2fd588b50f13d7ba532703bf2a1118da7df1c8f63e1b33cf"
+}
