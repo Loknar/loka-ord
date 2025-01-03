@@ -1,0 +1,27 @@
+{
+	"orð": "fasteignarmatsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fasteignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"mynd": "mats",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mat-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["fasteignarmatsverð", "fasteignarmatsverð", "fasteignarmatsverði", "fasteignarmatsverðs"],
+		"mg": ["fasteignarmatsverðið", "fasteignarmatsverðið", "fasteignarmatsverðinu", "fasteignarmatsverðsins"]
+	},
+	"kennistrengur": "no-fasteignarmatsverð-hk",
+	"hash": "31213bfee326d57c4ee04d00ea99896d7c9615796f6b74c990f3ead4c27c2568"
+}

@@ -1,0 +1,22 @@
+{
+	"orð": "byggingartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["byggingartími", "byggingartíma", "byggingartíma", "byggingartíma"],
+		"mg": ["byggingartíminn", "byggingartímann", "byggingartímanum", "byggingartímans"]
+	},
+	"kennistrengur": "no-byggingartími-kk",
+	"hash": "8334abac86a509a24cda8ec0efe55068d80c422d09d0729161a5b9fb44c56d0d"
+}

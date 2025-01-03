@@ -1,0 +1,32 @@
+{
+	"orð": "heildarfasteignarmatsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "fasteignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"mynd": "mats",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mat-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarfasteignarmatsverð", "heildarfasteignarmatsverð", "heildarfasteignarmatsverði", "heildarfasteignarmatsverðs"],
+		"mg": ["heildarfasteignarmatsverðið", "heildarfasteignarmatsverðið", "heildarfasteignarmatsverðinu", "heildarfasteignarmatsverðsins"]
+	},
+	"kennistrengur": "no-heildarfasteignarmatsverð-hk",
+	"hash": "a2cfd4e71823593e084fdf551c9eedbe678abd1f39e31662449fab8c7865b0a9"
+}

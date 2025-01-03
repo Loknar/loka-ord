@@ -1,0 +1,131 @@
+{
+	"orð": "hefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "hef",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hefa",
+		"sagnbót": "hefað",
+		"boðháttur": {
+			"stýfður": "hefa",
+			"et": "hefaðu",
+			"ft": "hefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefa", "hefar", "hefar"],
+					"ft": ["hefum", "hefið", "hefa"]
+				},
+				"þátíð": {
+					"et": ["hefaði", "hefaðir", "hefaði"],
+					"ft": ["hefuðum", "hefuðuð", "hefuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefi", "hefir", "hefi"],
+					"ft": ["hefum", "hefið", "hefi"]
+				},
+				"þátíð": {
+					"et": ["hefaði", "hefaðir", "hefaði"],
+					"ft": ["hefuðum", "hefuðuð", "hefuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hefarðu",
+					"ft": "hefiði"
+				},
+				"þátíð": {
+					"et": "hefaðirðu",
+					"ft": "hefuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hefirðu",
+					"ft": "hefiði"
+				},
+				"þátíð": {
+					"et": "hefaðirðu",
+					"ft": "hefuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hefast",
+		"sagnbót": "hefast",
+		"boðháttur": {
+			"et": "hefastu",
+			"ft": "hefist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hefast", "hefast", "hefast"],
+					"ft": ["hefumst", "hefist", "hefast"]
+				},
+				"þátíð": {
+					"et": ["hefaðist", "hefaðist", "hefaðist"],
+					"ft": ["hefuðumst", "hefuðust", "hefuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hefist", "hefist", "hefist"],
+					"ft": ["hefumst", "hefist", "hefist"]
+				},
+				"þátíð": {
+					"et": ["hefaðist", "hefaðist", "hefaðist"],
+					"ft": ["hefuðumst", "hefuðust", "hefuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hefastu"
+				},
+				"þátíð": {
+					"et": "hefaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hefistu"
+				},
+				"þátíð": {
+					"et": "hefaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hefaður", "hefaðan", "hefuðum", "hefaðs"],
+					"kvk": ["hefuð", "hefaða", "hefaðri", "hefaðrar"],
+					"hk": ["hefað", "hefað", "hefuðu", "hefaðs"]
+				},
+				"ft": {
+					"kk": ["hefaðir", "hefaða", "hefuðum", "hefaðra"],
+					"kvk": ["hefaðar", "hefaðar", "hefuðum", "hefaðra"],
+					"hk": ["hefuð", "hefuð", "hefuðum", "hefaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hefa",
+	"hash": "370f444ee4f0818f01c50505f348398f660db7ba4c4d9be0edff495c24c75d55"
+}

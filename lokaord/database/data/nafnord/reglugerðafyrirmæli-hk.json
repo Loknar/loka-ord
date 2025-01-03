@@ -1,0 +1,32 @@
+{
+	"orð": "reglugerðafyrirmæli",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "reglu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-regla-kvk"
+		},
+		{
+			"mynd": "gerða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gerð-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mæli-hk"
+		}
+	],
+	"ft": {
+		"ág": ["reglugerðafyrirmæli", "reglugerðafyrirmæli", "reglugerðafyrirmælum", "reglugerðafyrirmæla"],
+		"mg": ["reglugerðafyrirmælin", "reglugerðafyrirmælin", "reglugerðafyrirmælunum", "reglugerðafyrirmælanna"]
+	},
+	"kennistrengur": "no-reglugerðafyrirmæli-hk",
+	"hash": "2e38938637281c3e2edf5e0ac736585446b94480218cd9fccfde1ecd11809fd8"
+}

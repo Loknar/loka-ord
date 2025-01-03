@@ -1,0 +1,87 @@
+{
+	"orð": "hnitsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hnit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnit-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hnitsetja",
+		"sagnbót": "hnitsett",
+		"boðháttur": {
+			"stýfður": "hnitset",
+			"et": "hnitsettu",
+			"ft": "hnitsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnitset", "hnitsetur", "hnitsetur"],
+					"ft": ["hnitsetjum", "hnitsetjið", "hnitsetja"]
+				},
+				"þátíð": {
+					"et": ["hnitsetti", "hnitsettir", "hnitsett"],
+					"ft": ["hnitsettum", "hnitsettuð", "hnitsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnitsetji", "hnitsetjir", "hnitsetji"],
+					"ft": ["hnitsetjum", "hnitsetjið", "hnitsetji"]
+				},
+				"þátíð": {
+					"et": ["hnitsetti", "hnitsettir", "hnitsetti"],
+					"ft": ["hnitsettum", "hnitsettuð", "hnitsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnitseturðu",
+					"ft": "hnitsetjiði"
+				},
+				"þátíð": {
+					"et": "hnitsettirðu",
+					"ft": "hnitsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnitsetjirðu",
+					"ft": "hnitsetjiði"
+				},
+				"þátíð": {
+					"et": "hnitsettirðu",
+					"ft": "hnitsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hnitsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hnitsettur", "hnitsettan", "hnitsettum", "hnitsetts"],
+					"kvk": ["hnitsett", "hnitsetta", "hnitsettri", "hnitsettrar"],
+					"hk": ["hnitsett", "hnitsett", "hnitsettu", "hnitsetts"]
+				},
+				"ft": {
+					"kk": ["hnitsettir", "hnitsetta", "hnitsettum", "hnitsettra"],
+					"kvk": ["hnitsettar", "hnitsettar", "hnitsettum", "hnitsettra"],
+					"hk": ["hnitsett", "hnitsett", "hnitsettum", "hnitsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hnitsetja",
+	"hash": "089c2bd4a9980572c9e1415bc4c9f4c9786bea87c6b6673ac26963ed162e7d92"
+}

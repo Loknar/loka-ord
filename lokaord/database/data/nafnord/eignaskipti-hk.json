@@ -1,0 +1,22 @@
+{
+	"orð": "eignaskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["eignaskipti", "eignaskipti", "eignaskiptum", "eignaskipta"],
+		"mg": ["eignaskiptin", "eignaskiptin", "eignaskiptunum", "eignaskiptanna"]
+	},
+	"kennistrengur": "no-eignaskipti-hk",
+	"hash": "cbf041f5efb77561e716319355cf1c26c87f4d752692b34b7651e3140f8873aa"
+}

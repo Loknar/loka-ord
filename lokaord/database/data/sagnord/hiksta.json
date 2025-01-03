@@ -1,0 +1,121 @@
+{
+	"orð": "hiksta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hikst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hiksti-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hiksta",
+		"sagnbót": "hikstað",
+		"boðháttur": {
+			"stýfður": "hiksta",
+			"et": "hikstaðu",
+			"ft": "hikstið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hiksta", "hikstar", "hikstar"],
+					"ft": ["hikstum", "hikstið", "hiksta"]
+				},
+				"þátíð": {
+					"et": ["hikstaði", "hikstaðir", "hikstaði"],
+					"ft": ["hikstuðum", "hikstuðuð", "hikstuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hiksti", "hikstir", "hiksti"],
+					"ft": ["hikstum", "hikstið", "hiksti"]
+				},
+				"þátíð": {
+					"et": ["hikstaði", "hikstaðir", "hikstaði"],
+					"ft": ["hikstuðum", "hikstuðuð", "hikstuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hikstarðu",
+					"ft": "hikstiði"
+				},
+				"þátíð": {
+					"et": "hikstaðirðu",
+					"ft": "hikstuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hikstirðu",
+					"ft": "hikstiði"
+				},
+				"þátíð": {
+					"et": "hikstaðirðu",
+					"ft": "hikstuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hikstast",
+		"sagnbót": "hikstast",
+		"boðháttur": {
+			"et": "hikstastu",
+			"ft": "hikstist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hikstast", "hikstast", "hikstast"],
+					"ft": ["hikstumst", "hikstist", "hikstast"]
+				},
+				"þátíð": {
+					"et": ["hikstaðist", "hikstaðist", "hikstaðist"],
+					"ft": ["hikstuðumst", "hikstuðust", "hikstuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hikstist", "hikstist", "hikstist"],
+					"ft": ["hikstumst", "hikstist", "hikstist"]
+				},
+				"þátíð": {
+					"et": ["hikstaðist", "hikstaðist", "hikstaðist"],
+					"ft": ["hikstuðumst", "hikstuðust", "hikstuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hikstastu"
+				},
+				"þátíð": {
+					"et": "hikstaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hikstistu"
+				},
+				"þátíð": {
+					"et": "hikstaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hikstandi"
+	},
+	"kennistrengur": "so-hiksta",
+	"hash": "f4ef04973ee372bd7c05cd0c7e1db52c52c8854f2874ab7ef0658515d28deafc"
+}

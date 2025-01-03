@@ -1,0 +1,30 @@
+{
+	"orð": "landeignaskrá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"kennistrengur": "no-skrá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landeignaskrá", "landeignaskrá", "landeignaskrá", "landeignaskrár"],
+		"mg": ["landeignaskráin", "landeignaskrána", "landeignaskránni", "landeignaskrárinnar"]
+	},
+	"ft": {
+		"ág": ["landeignaskrár", "landeignaskrár", "landeignaskrám", "landeignaskráa"],
+		"mg": ["landeignaskrárnar", "landeignaskrárnar", "landeignaskránum", "landeignaskránna"]
+	},
+	"kennistrengur": "no-landeignaskrá-kvk",
+	"hash": "84d05257cc3ceaa34b09003b1932d59da010063a4271af031dd629c4369ee20a"
+}

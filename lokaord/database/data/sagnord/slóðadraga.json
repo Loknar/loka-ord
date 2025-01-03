@@ -1,0 +1,87 @@
+{
+	"orð": "slóðadraga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-slóði-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-draga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slóðadraga",
+		"sagnbót": "slóðadregið",
+		"boðháttur": {
+			"stýfður": "slóðadrag",
+			"et": "slóðadragðu",
+			"ft": "slóðadragið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slóðadreg", "slóðadregur", "slóðadregur"],
+					"ft": ["slóðadrögum", "slóðadragið", "slóðadraga"]
+				},
+				"þátíð": {
+					"et": ["slóðadró", "slóðadróst", "slóðadró"],
+					"ft": ["slóðadrógum", "slóðadróguð", "slóðadrógu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slóðadragi", "slóðadragir", "slóðadragi"],
+					"ft": ["slóðadrögum", "slóðadragið", "slóðadragi"]
+				},
+				"þátíð": {
+					"et": ["slóðadrægi", "slóðadrægir", "slóðadrægi"],
+					"ft": ["slóðadrægjum", "slóðadrægjuð", "slóðadrægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slóðadregurðu",
+					"ft": "slóðadragiði"
+				},
+				"þátíð": {
+					"et": "slóðadróstu",
+					"ft": "slóðadróguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slóðadragirðu",
+					"ft": "slóðadragiði"
+				},
+				"þátíð": {
+					"et": "slóðadrægirðu",
+					"ft": "slóðadrægjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slóðadragandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slóðadreginn", "slóðadreginn", "slóðadregnum", "slóðadregins"],
+					"kvk": ["slóðadregin", "slóðadregna", "slóðadreginni", "slóðadreginnar"],
+					"hk": ["slóðadregið", "slóðadregið", "slóðadregnu", "slóðadregins"]
+				},
+				"ft": {
+					"kk": ["slóðadregnir", "slóðadregna", "slóðadregnum", "slóðadreginna"],
+					"kvk": ["slóðadregnar", "slóðadregnar", "slóðadregnum", "slóðadreginna"],
+					"hk": ["slóðadregin", "slóðadregin", "slóðadregnum", "slóðadreginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slóðadraga",
+	"hash": "e132639ec8204b429c446bbbdd1f2817a79bd2ac58d9e1e12cfa95fc0cb8256d"
+}
