@@ -93,7 +93,7 @@ def word_change_possibilities(word: str) -> list[str]:
 	)
 	for possibility in possibilities:
 		myset.add(apply_possibility(word, possibility, changes))
-	return sorted(list(myset))
+	return sorted(list(myset), reverse=True)
 
 
 def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = True):
