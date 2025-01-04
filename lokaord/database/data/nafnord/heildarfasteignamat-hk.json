@@ -1,0 +1,27 @@
+{
+	"orð": "heildarfasteignamat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "fasteigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarfasteignamat", "heildarfasteignamat", "heildarfasteignamati", "heildarfasteignamats"],
+		"mg": ["heildarfasteignamatið", "heildarfasteignamatið", "heildarfasteignamatinu", "heildarfasteignamatsins"]
+	},
+	"kennistrengur": "no-heildarfasteignamat-hk",
+	"hash": "09aaa6c440a4b6f72249ece864dac763993cc9c58bdb32861902bb81333d6746"
+}

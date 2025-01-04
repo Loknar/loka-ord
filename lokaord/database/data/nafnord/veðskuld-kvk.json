@@ -1,0 +1,25 @@
+{
+	"orð": "veðskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["veðskuld", "veðskuld", "veðskuld", "veðskuldar"],
+		"mg": ["veðskuldin", "veðskuldina", "veðskuldinni", "veðskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["veðskuldir", "veðskuldir", "veðskuldum", "veðskulda"],
+		"mg": ["veðskuldirnar", "veðskuldirnar", "veðskuldunum", "veðskuldanna"]
+	},
+	"kennistrengur": "no-veðskuld-kvk",
+	"hash": "c04acabe8b7568c581bf4eb1180a7fb129d158e03268f95818509c54bf636408"
+}

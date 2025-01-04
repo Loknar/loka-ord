@@ -1,0 +1,154 @@
+{
+	"orð": "ónýta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-nýta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ónýta",
+		"sagnbót": "ónýtt",
+		"boðháttur": {
+			"stýfður": "ónýt",
+			"et": "ónýttu",
+			"ft": "ónýtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ónýti", "ónýtir", "ónýtir"],
+					"ft": ["ónýtum", "ónýtið", "ónýta"]
+				},
+				"þátíð": {
+					"et": ["ónýtti", "ónýttir", "ónýtti"],
+					"ft": ["ónýttum", "ónýttuð", "ónýttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ónýti", "ónýtir", "ónýti"],
+					"ft": ["ónýtum", "ónýtið", "ónýti"]
+				},
+				"þátíð": {
+					"et": ["ónýtti", "ónýttir", "ónýtti"],
+					"ft": ["ónýttum", "ónýttuð", "ónýttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ónýtirðu",
+					"ft": "ónýtiði"
+				},
+				"þátíð": {
+					"et": "ónýttirðu",
+					"ft": "ónýttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ónýtirðu",
+					"ft": "ónýtiði"
+				},
+				"þátíð": {
+					"et": "ónýttirðu",
+					"ft": "ónýttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ónýtast",
+		"sagnbót": "ónýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ónýtist", "ónýtist", "ónýtist"],
+					"ft": ["ónýtumst", "ónýtist", "ónýtast"]
+				},
+				"þátíð": {
+					"et": ["ónýttist", "ónýttist", "ónýttist"],
+					"ft": ["ónýttumst", "ónýttust", "ónýttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ónýtist", "ónýtist", "ónýtist"],
+					"ft": ["ónýttumst", "ónýtist", "ónýtist"]
+				},
+				"þátíð": {
+					"et": ["ónýttist", "ónýttist", "ónýttist"],
+					"ft": ["ónýttumst", "ónýttust", "ónýttust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ónýtist", "ónýtist", "ónýtist"],
+					"ft": ["ónýtist", "ónýtist", "ónýtist"]
+				},
+				"þátíð": {
+					"et": ["ónýttist", "ónýttist", "ónýttist"],
+					"ft": ["ónýttist", "ónýttist", "ónýttist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ónýtist", "ónýtist", "ónýtist"],
+					"ft": ["ónýtist", "ónýtist", "ónýtist"]
+				},
+				"þátíð": {
+					"et": ["ónýttist", "ónýttist", "ónýttist"],
+					"ft": ["ónýttist", "ónýttist", "ónýttist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ónýtistu"
+				},
+				"þátíð": {
+					"et": "ónýttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ónýtistu"
+				},
+				"þátíð": {
+					"et": "ónýttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ónýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ónýttur", "ónýttan", "ónýttum", "ónýtts"],
+					"kvk": ["ónýtt", "ónýtta", "ónýttri", "ónýttrar"],
+					"hk": ["ónýttt", "ónýttt", "ónýttu", "ónýtts"]
+				},
+				"ft": {
+					"kk": ["ónýttir", "ónýtta", "ónýttum", "ónýttra"],
+					"kvk": ["ónýttar", "ónýttar", "ónýttum", "ónýttra"],
+					"hk": ["ónýtt", "ónýtt", "ónýttum", "ónýttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ónýta",
+	"hash": "b3929491561fa8b0915e8d5349a102c2d3e8ed7897f932f5cbaafcc8ef6a1791"
+}

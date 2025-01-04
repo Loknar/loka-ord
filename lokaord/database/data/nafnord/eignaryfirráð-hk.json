@@ -1,0 +1,27 @@
+{
+	"orð": "eignaryfirráð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ráð-hk"
+		}
+	],
+	"ft": {
+		"ág": ["eignaryfirráð", "eignaryfirráð", "eignaryfirráðum", "eignaryfirráða"],
+		"mg": ["eignaryfirráðin", "eignaryfirráðin", "eignaryfirráðunum", "eignaryfirráðanna"]
+	},
+	"kennistrengur": "no-eignaryfirráð-hk",
+	"hash": "9cc6ff808867ed7dcebbc1e292825e6b940ebf2b530ae782a911c1a287eacfe6"
+}

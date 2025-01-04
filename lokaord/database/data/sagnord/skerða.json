@@ -54,6 +54,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "skerðast",
+		"sagnbót": "skerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skerðist", "skerðist", "skerðist"],
+					"ft": ["skerðumst", "skerðist", "skerðast"]
+				},
+				"þátíð": {
+					"et": ["skertist", "skertist", "skertist"],
+					"ft": ["skertumst", "skertust", "skertust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skerðist", "skerðist", "skerðist"],
+					"ft": ["skerðumst", "skerðist", "skerðist"]
+				},
+				"þátíð": {
+					"et": ["skertist", "skertist", "skerðist"],
+					"ft": ["skertumst", "skertust", "skertust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skerðistu"
+				},
+				"þátíð": {
+					"et": "skertistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skerðistu"
+				},
+				"þátíð": {
+					"et": "skertistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "skerðandi",
 		"þátíðar": {
@@ -84,5 +128,5 @@
 		}
 	},
 	"kennistrengur": "so-skerða",
-	"hash": "c68c465e1eeb4ec275cc737a03fdfd1b43c2cbe476bbc39f0907f33f63ea09eb"
+	"hash": "66127a70be0849cd9a2d4b59725b0266b3c60c799f237df342bf8fa8032c2760"
 }

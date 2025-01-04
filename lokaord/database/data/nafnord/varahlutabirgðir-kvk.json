@@ -1,0 +1,27 @@
+{
+	"orð": "varahlutabirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vara",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vari-kk"
+		},
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["varahlutabirgðir", "varahlutabirgðir", "varahlutabirgðum", "varahlutabirgða"],
+		"mg": ["varahlutabirgðirnar", "varahlutabirgðirnar", "varahlutabirgðunum", "varahlutabirgðanna"]
+	},
+	"kennistrengur": "no-varahlutabirgðir-kvk",
+	"hash": "ca2eb162fc0e1b241e253be52efd4f9d4c8e19a6cc4d15a8dcfcff87292896e2"
+}

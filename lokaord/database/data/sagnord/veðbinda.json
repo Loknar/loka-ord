@@ -1,0 +1,99 @@
+{
+	"orð": "veðbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veðbinda",
+		"sagnbót": "veðbundið",
+		"boðháttur": {
+			"stýfður": "veðbind",
+			"et": "veðbittu",
+			"ft": "veðbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veðbind", "veðbindur", "veðbindur"],
+					"ft": ["veðbindum", "veðbindið", "veðbinda"]
+				},
+				"þátíð": {
+					"et": ["veðbatt", "veðbast", "veðbatt"],
+					"ft": ["veðbundum", "veðbunduð", "veðbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veðbindi", "veðbindir", "veðbindi"],
+					"ft": ["veðbindum", "veðbindið", "veðbindi"]
+				},
+				"þátíð": {
+					"et": ["veðbyndi", "veðbyndir", "veðbyndi"],
+					"ft": ["veðbyndum", "veðbynduð", "veðbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veðbindurðu",
+					"ft": "veðbindiði"
+				},
+				"þátíð": {
+					"et": "veðbastu",
+					"ft": "veðbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veðbindirðu",
+					"ft": "veðbindiði"
+				},
+				"þátíð": {
+					"et": "veðbyndirðu",
+					"ft": "veðbynduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veðbindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veðbundinn", "veðbundinn", "veðbundnum", "veðbundins"],
+					"kvk": ["veðbundin", "veðbundna", "veðbundinni", "veðbundinnar"],
+					"hk": ["veðbundið", "veðbundið", "veðbundnu", "veðbundins"]
+				},
+				"ft": {
+					"kk": ["veðbundnir", "veðbundna", "veðbundnum", "veðbundinna"],
+					"kvk": ["veðbundnar", "veðbundnar", "veðbundnum", "veðbundinna"],
+					"hk": ["veðbundin", "veðbundin", "veðbundnum", "veðbundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["veðbundni", "veðbundna", "veðbundna", "veðbundna"],
+					"kvk": ["veðbundna", "veðbundnu", "veðbundnu", "veðbundnu"],
+					"hk": ["veðbundna", "veðbundna", "veðbundna", "veðbundna"]
+				},
+				"ft": {
+					"kk": ["veðbundnu", "veðbundnu", "veðbundnu", "veðbundnu"],
+					"kvk": ["veðbundnu", "veðbundnu", "veðbundnu", "veðbundnu"],
+					"hk": ["veðbundnu", "veðbundnu", "veðbundnu", "veðbundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-veðbinda",
+	"hash": "15fb0b9741de361819e73784e8fee9c05b496a85e578a4b0b2b22291948d50bb"
+}

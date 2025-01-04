@@ -1,0 +1,87 @@
+{
+	"orð": "verðskuldaður",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "so-skulda"
+		},
+		{
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["verðskuldaður", "verðskuldaðan", "verðskulduðum", "verðskuldaðs"],
+				"kvk": ["verðskulduð", "verðskuldaða", "verðskuldaðri", "verðskuldaðrar"],
+				"hk": ["verðskuldað", "verðskuldað", "verðskulduðu", "verðskuldaðs"]
+			},
+			"ft": {
+				"kk": ["verðskuldaðir", "verðskuldaða", "verðskulduðum", "verðskuldaðra"],
+				"kvk": ["verðskuldaðar", "verðskuldaðar", "verðskulduðum", "verðskuldaðra"],
+				"hk": ["verðskulduð", "verðskulduð", "verðskulduðum", "verðskuldaðra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["verðskuldaði", "verðskuldaða", "verðskuldaða", "verðskuldaða"],
+				"kvk": ["verðskuldaða", "verðskulduðu", "verðskulduðu", "verðskulduðu"],
+				"hk": ["verðskuldaða", "verðskuldaða", "verðskuldaða", "verðskuldaða"]
+			},
+			"ft": {
+				"kk": ["verðskulduðu", "verðskulduðu", "verðskulduðu", "verðskulduðu"],
+				"kvk": ["verðskulduðu", "verðskulduðu", "verðskulduðu", "verðskulduðu"],
+				"hk": ["verðskulduðu", "verðskulduðu", "verðskulduðu", "verðskulduðu"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["verðskuldaðri", "verðskuldaðri", "verðskuldaðri", "verðskuldaðri"],
+				"kvk": ["verðskuldaðri", "verðskuldaðri", "verðskuldaðri", "verðskuldaðri"],
+				"hk": ["verðskuldaðra", "verðskuldaðra", "verðskuldaðra", "verðskuldaðra"]
+			},
+			"ft": {
+				"kk": ["verðskuldaðri", "verðskuldaðri", "verðskuldaðri", "verðskuldaðri"],
+				"kvk": ["verðskuldaðri", "verðskuldaðri", "verðskuldaðri", "verðskuldaðri"],
+				"hk": ["verðskuldaðri", "verðskuldaðri", "verðskuldaðri", "verðskuldaðri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["verðskuldaðastur", "verðskuldaðastan", "verðskulduðustum", "verðskuldaðasts"],
+				"kvk": ["verðskulduðust", "verðskuldaðasta", "verðskuldaðastri", "verðskuldaðastrar"],
+				"hk": ["verðskuldaðast", "verðskuldaðast", "verðskulduðustu", "verðskuldaðasts"]
+			},
+			"ft": {
+				"kk": ["verðskuldaðastir", "verðskuldaðasta", "verðskulduðustum", "verðskuldaðastra"],
+				"kvk": ["verðskuldaðastar", "verðskuldaðastar", "verðskulduðustum", "verðskuldaðastra"],
+				"hk": ["verðskulduðust", "verðskulduðust", "verðskulduðustum", "verðskuldaðastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["verðskuldaðasti", "verðskuldaðasta", "verðskuldaðasta", "verðskuldaðasta"],
+				"kvk": ["verðskuldaðasta", "verðskulduðustu", "verðskulduðustu", "verðskulduðustu"],
+				"hk": ["verðskuldaðasta", "verðskuldaðasta", "verðskuldaðasta", "verðskuldaðasta"]
+			},
+			"ft": {
+				"kk": ["verðskulduðustu", "verðskulduðustu", "verðskulduðustu", "verðskulduðustu"],
+				"kvk": ["verðskulduðustu", "verðskulduðustu", "verðskulduðustu", "verðskulduðustu"],
+				"hk": ["verðskulduðustu", "verðskulduðustu", "verðskulduðustu", "verðskulduðustu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-verðskuldaður",
+	"hash": "a788643a7b3c84a26a1aee937dff43b51ad74055347dfc92381955e23b3f8367"
+}

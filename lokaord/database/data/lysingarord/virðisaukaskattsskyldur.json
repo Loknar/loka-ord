@@ -1,0 +1,53 @@
+{
+	"orð": "virðisaukaskattsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "virðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-virði-hk"
+		},
+		{
+			"mynd": "auka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-auki-kk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["virðisaukaskattsskyldur", "virðisaukaskattsskyldan", "virðisaukaskattsskyldum", "virðisaukaskattsskylds"],
+				"kvk": ["virðisaukaskattsskyld", "virðisaukaskattsskylda", "virðisaukaskattsskyldri", "virðisaukaskattsskyldrar"],
+				"hk": ["virðisaukaskattsskylt", "virðisaukaskattsskylt", "virðisaukaskattsskyldu", "virðisaukaskattsskylds"]
+			},
+			"ft": {
+				"kk": ["virðisaukaskattsskyldir", "virðisaukaskattsskylda", "virðisaukaskattsskyldum", "virðisaukaskattsskyldra"],
+				"kvk": ["virðisaukaskattsskyldar", "virðisaukaskattsskyldar", "virðisaukaskattsskyldum", "virðisaukaskattsskyldra"],
+				"hk": ["virðisaukaskattsskyld", "virðisaukaskattsskyld", "virðisaukaskattsskyldum", "virðisaukaskattsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["virðisaukaskattsskyldi", "virðisaukaskattsskylda", "virðisaukaskattsskylda", "virðisaukaskattsskylda"],
+				"kvk": ["virðisaukaskattsskylda", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu"],
+				"hk": ["virðisaukaskattsskylda", "virðisaukaskattsskylda", "virðisaukaskattsskylda", "virðisaukaskattsskylda"]
+			},
+			"ft": {
+				"kk": ["virðisaukaskattsskyldu", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu"],
+				"kvk": ["virðisaukaskattsskyldu", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu"],
+				"hk": ["virðisaukaskattsskyldu", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu", "virðisaukaskattsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-virðisaukaskattsskyldur",
+	"hash": "f05a50acef2d7e1ff5e4c2cc8783804368b6d8a533d8b0900cd9e7c2d6fa171a"
+}
