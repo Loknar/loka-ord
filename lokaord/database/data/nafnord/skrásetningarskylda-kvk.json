@@ -1,0 +1,27 @@
+{
+	"orð": "skrásetningarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skrá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"mynd": "setningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-setning-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skrásetningarskylda", "skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu"],
+		"mg": ["skrásetningarskyldan", "skrásetningarskylduna", "skrásetningarskyldunni", "skrásetningarskyldunnar"]
+	},
+	"kennistrengur": "no-skrásetningarskylda-kvk",
+	"hash": "54c3c738b76531866b436af784ba931d866a8c80e4529c3e20f4035b6a67cb63"
+}

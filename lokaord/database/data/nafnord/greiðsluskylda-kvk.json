@@ -1,0 +1,22 @@
+{
+	"orð": "greiðsluskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluskylda", "greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu"],
+		"mg": ["greiðsluskyldan", "greiðsluskylduna", "greiðsluskyldunni", "greiðsluskyldunnar"]
+	},
+	"kennistrengur": "no-greiðsluskylda-kvk",
+	"hash": "4fef5a9a727aa663901a8d9ce2929b90df88a46ea9e4c7528618ca3980966946"
+}

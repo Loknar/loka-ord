@@ -1,0 +1,48 @@
+{
+	"orð": "skrásetningarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skrá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"mynd": "setningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-setning-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skrásetningarskyldur", "skrásetningarskyldan", "skrásetningarskyldum", "skrásetningarskylds"],
+				"kvk": ["skrásetningarskyld", "skrásetningarskylda", "skrásetningarskyldri", "skrásetningarskyldrar"],
+				"hk": ["skrásetningarskylt", "skrásetningarskylt", "skrásetningarskyldu", "skrásetningarskylds"]
+			},
+			"ft": {
+				"kk": ["skrásetningarskyldir", "skrásetningarskylda", "skrásetningarskyldum", "skrásetningarskyldra"],
+				"kvk": ["skrásetningarskyldar", "skrásetningarskyldar", "skrásetningarskyldum", "skrásetningarskyldra"],
+				"hk": ["skrásetningarskyld", "skrásetningarskyld", "skrásetningarskyldum", "skrásetningarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skrásetningarskyldi", "skrásetningarskylda", "skrásetningarskylda", "skrásetningarskylda"],
+				"kvk": ["skrásetningarskylda", "skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu"],
+				"hk": ["skrásetningarskylda", "skrásetningarskylda", "skrásetningarskylda", "skrásetningarskylda"]
+			},
+			"ft": {
+				"kk": ["skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu"],
+				"kvk": ["skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu"],
+				"hk": ["skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu", "skrásetningarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skrásetningarskyldur",
+	"hash": "b2b5c880a0004409c010e165acf2abe0dedf328e681d18d6d50e57a7127c2c6f"
+}

@@ -1,0 +1,25 @@
+{
+	"orð": "skuldskeyting",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-skeyting-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldskeyting", "skuldskeytingu", "skuldskeytingu", "skuldskeytingar"],
+		"mg": ["skuldskeytingin", "skuldskeytinguna", "skuldskeytingunni", "skuldskeytingarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldskeytingar", "skuldskeytingar", "skuldskeytingum", "skuldskeytinga"],
+		"mg": ["skuldskeytingarnar", "skuldskeytingarnar", "skuldskeytingunum", "skuldskeytinganna"]
+	},
+	"kennistrengur": "no-skuldskeyting-kvk",
+	"hash": "dc7f93b5482dece23db06122e450cdc23ef385068576576f9e69b85b9ca6a47c"
+}

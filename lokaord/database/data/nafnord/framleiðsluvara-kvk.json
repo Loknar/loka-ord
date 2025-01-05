@@ -1,0 +1,30 @@
+{
+	"orð": "framleiðsluvara",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-vara-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðsluvara", "framleiðsluvöru", "framleiðsluvöru", "framleiðsluvöru"],
+		"mg": ["framleiðsluvaran", "framleiðsluvöruna", "framleiðsluvörunni", "framleiðsluvörunnar"]
+	},
+	"ft": {
+		"ág": ["framleiðsluvörur", "framleiðsluvörur", "framleiðsluvörum", "framleiðsluvara"],
+		"mg": ["framleiðsluvörurnar", "framleiðsluvörurnar", "framleiðsluvörunum", "framleiðsluvaranna"]
+	},
+	"kennistrengur": "no-framleiðsluvara-kvk",
+	"hash": "a833f307fbc5f2aa20d5fa2584545f83a3e2399760071a6d159bb06447d3fc8f"
+}

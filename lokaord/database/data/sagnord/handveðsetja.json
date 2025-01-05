@@ -1,0 +1,104 @@
+{
+	"orð": "handveðsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handveðsetja",
+		"sagnbót": "handveðsett",
+		"boðháttur": {
+			"stýfður": "handveðset",
+			"et": "handveðsettu",
+			"ft": "handveðsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handveðset", "handveðsetur", "handveðsetur"],
+					"ft": ["handveðsetjum", "handveðsetjið", "handveðsetja"]
+				},
+				"þátíð": {
+					"et": ["handveðsetti", "handveðsettir", "handveðsett"],
+					"ft": ["handveðsettum", "handveðsettuð", "handveðsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handveðsetji", "handveðsetjir", "handveðsetji"],
+					"ft": ["handveðsetjum", "handveðsetjið", "handveðsetji"]
+				},
+				"þátíð": {
+					"et": ["handveðsetti", "handveðsettir", "handveðsetti"],
+					"ft": ["handveðsettum", "handveðsettuð", "handveðsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handveðseturðu",
+					"ft": "handveðsetjiði"
+				},
+				"þátíð": {
+					"et": "handveðsettirðu",
+					"ft": "handveðsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handveðsetjirðu",
+					"ft": "handveðsetjiði"
+				},
+				"þátíð": {
+					"et": "handveðsettirðu",
+					"ft": "handveðsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handveðsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handveðsettur", "handveðsettan", "handveðsettum", "handveðsetts"],
+					"kvk": ["handveðsett", "handveðsetta", "handveðsettri", "handveðsettrar"],
+					"hk": ["handveðsett", "handveðsett", "handveðsettu", "handveðsetts"]
+				},
+				"ft": {
+					"kk": ["handveðsettir", "handveðsetta", "handveðsettum", "handveðsettra"],
+					"kvk": ["handveðsettar", "handveðsettar", "handveðsettum", "handveðsettra"],
+					"hk": ["handveðsett", "handveðsett", "handveðsettum", "handveðsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handveðsetti", "handveðsetta", "handveðsetta", "handveðsetta"],
+					"kvk": ["handveðsetta", "handveðsettu", "handveðsettu", "handveðsettu"],
+					"hk": ["handveðsetta", "handveðsetta", "handveðsetta", "handveðsetta"]
+				},
+				"ft": {
+					"kk": ["handveðsettu", "handveðsettu", "handveðsettu", "handveðsettu"],
+					"kvk": ["handveðsettu", "handveðsettu", "handveðsettu", "handveðsettu"],
+					"hk": ["handveðsettu", "handveðsettu", "handveðsettu", "handveðsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handveðsetja",
+	"hash": "99703906ca0895fe2a4f30f88a7cb5270be9b48d25871c14e0334cfe796e0151"
+}

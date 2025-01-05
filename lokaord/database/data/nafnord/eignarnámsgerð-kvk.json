@@ -1,0 +1,30 @@
+{
+	"orð": "eignarnámsgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignarnámsgerð", "eignarnámsgerð", "eignarnámsgerð", "eignarnámsgerðar"],
+		"mg": ["eignarnámsgerðin", "eignarnámsgerðina", "eignarnámsgerðinni", "eignarnámsgerðarinnar"]
+	},
+	"ft": {
+		"ág": ["eignarnámsgerðir", "eignarnámsgerðir", "eignarnámsgerðum", "eignarnámsgerða"],
+		"mg": ["eignarnámsgerðirnar", "eignarnámsgerðirnar", "eignarnámsgerðunum", "eignarnámsgerðanna"]
+	},
+	"kennistrengur": "no-eignarnámsgerð-kvk",
+	"hash": "37c609283cc81aebf8acb89f282e98b7edbd4da5db458766b3148e283fd141a6"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "veðskuldabréf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-bréf-hk"
+		}
+	],
+	"et": {
+		"ág": ["veðskuldabréf", "veðskuldabréf", "veðskuldabréfi", "veðskuldabréfs"],
+		"mg": ["veðskuldabréfið", "veðskuldabréfið", "veðskuldabréfinu", "veðskuldabréfsins"]
+	},
+	"ft": {
+		"ág": ["veðskuldabréf", "veðskuldabréf", "veðskuldabréfum", "veðskuldabréfa"],
+		"mg": ["veðskuldabréfin", "veðskuldabréfin", "veðskuldabréfunum", "veðskuldabréfanna"]
+	},
+	"kennistrengur": "no-veðskuldabréf-hk",
+	"hash": "74b4d8760edbafa4e010e0f6807100e2af8ca22a639e3266c02d53c00dd39980"
+}

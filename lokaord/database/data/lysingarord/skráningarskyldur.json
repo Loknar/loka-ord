@@ -1,0 +1,43 @@
+{
+	"orð": "skráningarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skráningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skráning-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skráningarskyldur", "skráningarskyldan", "skráningarskyldum", "skráningarskylds"],
+				"kvk": ["skráningarskyld", "skráningarskylda", "skráningarskyldri", "skráningarskyldrar"],
+				"hk": ["skráningarskylt", "skráningarskylt", "skráningarskyldu", "skráningarskylds"]
+			},
+			"ft": {
+				"kk": ["skráningarskyldir", "skráningarskylda", "skráningarskyldum", "skráningarskyldra"],
+				"kvk": ["skráningarskyldar", "skráningarskyldar", "skráningarskyldum", "skráningarskyldra"],
+				"hk": ["skráningarskyld", "skráningarskyld", "skráningarskyldum", "skráningarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skráningarskyldi", "skráningarskylda", "skráningarskylda", "skráningarskylda"],
+				"kvk": ["skráningarskylda", "skráningarskyldu", "skráningarskyldu", "skráningarskyldu"],
+				"hk": ["skráningarskylda", "skráningarskylda", "skráningarskylda", "skráningarskylda"]
+			},
+			"ft": {
+				"kk": ["skráningarskyldu", "skráningarskyldu", "skráningarskyldu", "skráningarskyldu"],
+				"kvk": ["skráningarskyldu", "skráningarskyldu", "skráningarskyldu", "skráningarskyldu"],
+				"hk": ["skráningarskyldu", "skráningarskyldu", "skráningarskyldu", "skráningarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skráningarskyldur",
+	"hash": "a453b7189c8a82106c8dc42abf31cc8c036c33581136f706483d58ed0e138969"
+}

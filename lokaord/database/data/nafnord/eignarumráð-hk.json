@@ -1,0 +1,27 @@
+{
+	"orð": "eignarumráð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ráð-hk"
+		}
+	],
+	"ft": {
+		"ág": ["eignarumráð", "eignarumráð", "eignarumráðum", "eignarumráða"],
+		"mg": ["eignarumráðin", "eignarumráðin", "eignarumráðunum", "eignarumráðanna"]
+	},
+	"kennistrengur": "no-eignarumráð-hk",
+	"hash": "c6e1b53ef081f6e8c7c0ef0995f529540e604c58b0a321e0299a832f8db1463e"
+}

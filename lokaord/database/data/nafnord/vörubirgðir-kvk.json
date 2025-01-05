@@ -1,0 +1,22 @@
+{
+	"orð": "vörubirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vörubirgðir", "vörubirgðir", "vörubirgðum", "vörubirgða"],
+		"mg": ["vörubirgðirnar", "vörubirgðirnar", "vörubirgðunum", "vörubirgðanna"]
+	},
+	"kennistrengur": "no-vörubirgðir-kvk",
+	"hash": "25d06d725381fedc310af67ce36e332e454294c783c9fa781ab65bca8c6d9000"
+}

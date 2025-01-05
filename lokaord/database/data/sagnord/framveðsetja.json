@@ -1,0 +1,104 @@
+{
+	"orð": "framveðsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framveðsetja",
+		"sagnbót": "framveðsett",
+		"boðháttur": {
+			"stýfður": "framveðset",
+			"et": "framveðsettu",
+			"ft": "framveðsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framveðset", "framveðsetur", "framveðsetur"],
+					"ft": ["framveðsetjum", "framveðsetjið", "framveðsetja"]
+				},
+				"þátíð": {
+					"et": ["framveðsetti", "framveðsettir", "framveðsett"],
+					"ft": ["framveðsettum", "framveðsettuð", "framveðsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framveðsetji", "framveðsetjir", "framveðsetji"],
+					"ft": ["framveðsetjum", "framveðsetjið", "framveðsetji"]
+				},
+				"þátíð": {
+					"et": ["framveðsetti", "framveðsettir", "framveðsetti"],
+					"ft": ["framveðsettum", "framveðsettuð", "framveðsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framveðseturðu",
+					"ft": "framveðsetjiði"
+				},
+				"þátíð": {
+					"et": "framveðsettirðu",
+					"ft": "framveðsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framveðsetjirðu",
+					"ft": "framveðsetjiði"
+				},
+				"þátíð": {
+					"et": "framveðsettirðu",
+					"ft": "framveðsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framveðsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framveðsettur", "framveðsettan", "framveðsettum", "framveðsetts"],
+					"kvk": ["framveðsett", "framveðsetta", "framveðsettri", "framveðsettrar"],
+					"hk": ["framveðsett", "framveðsett", "framveðsettu", "framveðsetts"]
+				},
+				"ft": {
+					"kk": ["framveðsettir", "framveðsetta", "framveðsettum", "framveðsettra"],
+					"kvk": ["framveðsettar", "framveðsettar", "framveðsettum", "framveðsettra"],
+					"hk": ["framveðsett", "framveðsett", "framveðsettum", "framveðsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framveðsetti", "framveðsetta", "framveðsetta", "framveðsetta"],
+					"kvk": ["framveðsetta", "framveðsettu", "framveðsettu", "framveðsettu"],
+					"hk": ["framveðsetta", "framveðsetta", "framveðsetta", "framveðsetta"]
+				},
+				"ft": {
+					"kk": ["framveðsettu", "framveðsettu", "framveðsettu", "framveðsettu"],
+					"kvk": ["framveðsettu", "framveðsettu", "framveðsettu", "framveðsettu"],
+					"hk": ["framveðsettu", "framveðsettu", "framveðsettu", "framveðsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framveðsetja",
+	"hash": "aaf93e2093dbc8b30e146c0c1bae0e2a11b0d295bfa42ff89e447b2c4d07ab76"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "innlausnarfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "lausnar",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lausn-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["innlausnarfjárhæð", "innlausnarfjárhæð", "innlausnarfjárhæð", "innlausnarfjárhæðar"],
+		"mg": ["innlausnarfjárhæðin", "innlausnarfjárhæðina", "innlausnarfjárhæðinni", "innlausnarfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["innlausnarfjárhæðir", "innlausnarfjárhæðir", "innlausnarfjárhæðum", "innlausnarfjárhæða"],
+		"mg": ["innlausnarfjárhæðirnar", "innlausnarfjárhæðirnar", "innlausnarfjárhæðunum", "innlausnarfjárhæðanna"]
+	},
+	"kennistrengur": "no-innlausnarfjárhæð-kvk",
+	"hash": "5420b5be8df5bfc9654674f4fd4fd0bfbb0dbeb67909012f1678d3e6ec8fd1a2"
+}

@@ -1,0 +1,177 @@
+{
+	"orð": "innleysa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leysa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "innleysa",
+		"sagnbót": "innleyst",
+		"boðháttur": {
+			"stýfður": "innleys",
+			"et": "innleystu",
+			"ft": "innleysið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["innleysi", "innleysir", "innleysir"],
+					"ft": ["innleysum", "innleysið", "innleysa"]
+				},
+				"þátíð": {
+					"et": ["innleysti", "innleystir", "innleysti"],
+					"ft": ["innleystum", "innleystuð", "innleystu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["innleysi", "innleysir", "innleysi"],
+					"ft": ["innleysum", "innleysið", "innleysi"]
+				},
+				"þátíð": {
+					"et": ["innleysti", "innleystir", "innleysti"],
+					"ft": ["innleystum", "innleystuð", "innleystu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["innleysir", "innleysir", "innleysir"],
+					"ft": ["innleysir", "innleysir", "innleysir"]
+				},
+				"þátíð": {
+					"et": ["innleysti", "innleysti", "innleysti"],
+					"ft": ["innleysti", "innleysti", "innleysti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["innleysi", "innleysi", "innleysi"],
+					"ft": ["innleysi", "innleysi", "innleysi"]
+				},
+				"þátíð": {
+					"et": ["innleysti", "innleysti", "innleysti"],
+					"ft": ["innleysti", "innleysti", "innleysti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "innleysirðu",
+					"ft": "innleysiði"
+				},
+				"þátíð": {
+					"et": "innleystirðu",
+					"ft": "innleystuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "innleysirðu",
+					"ft": "innleysiði"
+				},
+				"þátíð": {
+					"et": "innleystirðu",
+					"ft": "innleystuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "innleysast",
+		"sagnbót": "innleyst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["innleysist", "innleysist", "innleysist"],
+					"ft": ["innleysumst", "innleysist", "innleysast"]
+				},
+				"þátíð": {
+					"et": ["innleystist", "innleystist", "innleystist"],
+					"ft": ["innleystumst", "innleystust", "innleystust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["innleysist", "innleysist", "innleysist"],
+					"ft": ["innleysumst", "innleysist", "innleysist"]
+				},
+				"þátíð": {
+					"et": ["innleystist", "innleystist", "innleystist"],
+					"ft": ["innleystumst", "innleystust", "innleystust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["innleysist", "innleysist", "innleysist"],
+					"ft": ["innleysist", "innleysist", "innleysist"]
+				},
+				"þátíð": {
+					"et": ["innleystist", "innleystist", "innleystist"],
+					"ft": ["innleystist", "innleystist", "innleystist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["innleysist", "innleysist", "innleysist"],
+					"ft": ["innleysist", "innleysist", "innleysist"]
+				},
+				"þátíð": {
+					"et": ["innleystist", "innleystist", "innleystist"],
+					"ft": ["innleystist", "innleystist", "innleystist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "innleysistu"
+				},
+				"þátíð": {
+					"et": "innleystistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "innleysistu"
+				},
+				"þátíð": {
+					"et": "innleystistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "innleysandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["innleystur", "innleystan", "innleystum", "innleysts"],
+					"kvk": ["innleyst", "innleysta", "innleystri", "innleystrar"],
+					"hk": ["innleyst", "innleyst", "innleystu", "innleysts"]
+				},
+				"ft": {
+					"kk": ["innleystir", "innleysta", "innleystum", "innleystra"],
+					"kvk": ["innleystar", "innleystar", "innleystum", "innleystra"],
+					"hk": ["innleyst", "innleyst", "innleystum", "innleystra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-innleysa",
+	"hash": "c4a7b5ab893d6b15d69c5a396d98ce0e1892e8f588d46f92468be7ce62c9b8de"
+}

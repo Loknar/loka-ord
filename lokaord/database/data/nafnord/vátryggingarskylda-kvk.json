@@ -1,0 +1,27 @@
+{
+	"orð": "vátryggingarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vátryggingarskylda", "vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu"],
+		"mg": ["vátryggingarskyldan", "vátryggingarskylduna", "vátryggingarskyldunni", "vátryggingarskyldunnar"]
+	},
+	"kennistrengur": "no-vátryggingarskylda-kvk",
+	"hash": "fe2134004511df8bbd33502b441030cb31884ff29d650e84a50619ec96f8e910"
+}
