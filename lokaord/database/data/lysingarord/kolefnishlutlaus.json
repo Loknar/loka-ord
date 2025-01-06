@@ -1,0 +1,53 @@
+{
+	"orð": "kolefnishlutlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kolefnishlutlaus", "kolefnishlutlausan", "kolefnishlutlausum", "kolefnishlutlauss"],
+				"kvk": ["kolefnishlutlaus", "kolefnishlutlausa", "kolefnishlutlausri", "kolefnishlutlausrar"],
+				"hk": ["kolefnishlutlaust", "kolefnishlutlaust", "kolefnishlutlausu", "kolefnishlutlauss"]
+			},
+			"ft": {
+				"kk": ["kolefnishlutlausir", "kolefnishlutlausa", "kolefnishlutlausum", "kolefnishlutlausra"],
+				"kvk": ["kolefnishlutlausar", "kolefnishlutlausar", "kolefnishlutlausum", "kolefnishlutlausra"],
+				"hk": ["kolefnishlutlaus", "kolefnishlutlaus", "kolefnishlutlausum", "kolefnishlutlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kolefnishlutlausi", "kolefnishlutlausa", "kolefnishlutlausa", "kolefnishlutlausa"],
+				"kvk": ["kolefnishlutlausa", "kolefnishlutlausu", "kolefnishlutlausu", "kolefnishlutlausu"],
+				"hk": ["kolefnishlutlausa", "kolefnishlutlausa", "kolefnishlutlausa", "kolefnishlutlausa"]
+			},
+			"ft": {
+				"kk": ["kolefnishlutlausu", "kolefnishlutlausu", "kolefnishlutlausu", "kolefnishlutlausu"],
+				"kvk": ["kolefnishlutlausu", "kolefnishlutlausu", "kolefnishlutlausu", "kolefnishlutlausu"],
+				"hk": ["kolefnishlutlausu", "kolefnishlutlausu", "kolefnishlutlausu", "kolefnishlutlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kolefnishlutlaus",
+	"hash": "bb346134f2252c2bba63536fcedb3f5fdf329d45bca19d3be88717182b2d301c"
+}

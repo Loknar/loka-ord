@@ -1,0 +1,32 @@
+{
+	"orð": "aðalatvinnurekstur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "aðal",
+			"samsetning": "stofn",
+			"kennistrengur": "no-aðal-hk"
+		},
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rekstur-kk"
+		}
+	],
+	"et": {
+		"ág": ["aðalatvinnurekstur", "aðalatvinnurekstur", "aðalatvinnurekstri", "aðalatvinnurekstrar"],
+		"mg": ["aðalatvinnureksturinn", "aðalatvinnureksturinn", "aðalatvinnurekstrinum", "aðalatvinnurekstrarins"]
+	},
+	"kennistrengur": "no-aðalatvinnurekstur-kk",
+	"hash": "c46f4c4b9f5e647f9cfbea28df6911d055bc7f111c15a794861a71ee6c4fcb7d"
+}

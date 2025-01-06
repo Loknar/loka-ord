@@ -1,0 +1,135 @@
+{
+	"orð": "fastráða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fast",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-fastur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ráða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fastráða",
+		"sagnbót": "fastráðið",
+		"boðháttur": {
+			"stýfður": "fastráð",
+			"et": "fastráddu",
+			"ft": "fastráðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fastræð", "fastræður", "fastræður"],
+					"ft": ["fastráðum", "fastráðið", "fastráða"]
+				},
+				"þátíð": {
+					"et": ["fastréð", "fastréðst", "fastréð"],
+					"ft": ["fastréðum", "fastréðuð", "fastréðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fastráði", "fastráðir", "fastráði"],
+					"ft": ["fastráðum", "fastráðið", "fastráði"]
+				},
+				"þátíð": {
+					"et": ["fastréði", "fastréðir", "fastréði"],
+					"ft": ["fastréðum", "fastréðuð", "fastréðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fastræðurðu",
+					"ft": "fastráðiði"
+				},
+				"þátíð": {
+					"et": "fastréðstu",
+					"ft": "fastréðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fastráðirðu",
+					"ft": "fastráðiði"
+				},
+				"þátíð": {
+					"et": "fastréðirðu",
+					"ft": "fastréðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fastráðast",
+		"sagnbót": "fastráðist",
+		"boðháttur": {
+			"et": "fastráðstu",
+			"ft": "fastráðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fastræðst", "fastræðst", "fastræðst"],
+					"ft": ["fastráðumst", "fastráðist", "fastráðast"]
+				},
+				"þátíð": {
+					"et": ["fastréðst", "fastréðst", "fastréðst"],
+					"ft": ["fastréðumst", "fastréðust", "fastréðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fastráðist", "fastráðist", "fastráðist"],
+					"ft": ["fastráðumst", "fastráðist", "fastráðist"]
+				},
+				"þátíð": {
+					"et": ["fastréðist", "fastréðist", "fastréðist"],
+					"ft": ["fastréðumst", "fastréðust", "fastréðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fastræðstu"
+				},
+				"þátíð": {
+					"et": "fastréðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fastráðistu"
+				},
+				"þátíð": {
+					"et": "fastréðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fastráðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fastráðinn", "fastráðinn", "fastráðnum", "fastráðins"],
+					"kvk": ["fastráðin", "fastráðna", "fastráðinni", "fastráðinnar"],
+					"hk": ["fastráðið", "fastráðið", "fastráðnu", "fastráðins"]
+				},
+				"ft": {
+					"kk": ["fastráðnir", "fastráðna", "fastráðnum", "fastráðinna"],
+					"kvk": ["fastráðnar", "fastráðnar", "fastráðnum", "fastráðinna"],
+					"hk": ["fastráðin", "fastráðin", "fastráðnum", "fastráðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fastráða",
+	"hash": "ac14647bce5b9a03ec656f19d8e6bd506fc155c0b68817c38de11c1eee7285b5"
+}
