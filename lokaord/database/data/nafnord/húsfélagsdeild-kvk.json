@@ -1,0 +1,30 @@
+{
+	"orð": "húsfélagsdeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["húsfélagsdeild", "húsfélagsdeild", "húsfélagsdeild", "húsfélagsdeildar"],
+		"mg": ["húsfélagsdeildin", "húsfélagsdeildina", "húsfélagsdeildinni", "húsfélagsdeildarinnar"]
+	},
+	"ft": {
+		"ág": ["húsfélagsdeildir", "húsfélagsdeildir", "húsfélagsdeildum", "húsfélagsdeilda"],
+		"mg": ["húsfélagsdeildirnar", "húsfélagsdeildirnar", "húsfélagsdeildunum", "húsfélagsdeildanna"]
+	},
+	"kennistrengur": "no-húsfélagsdeild-kvk",
+	"hash": "10c70fb1835ad472c60a5a7dac854fec3ac8a7ab93286d3a47fedb6874d98af5"
+}

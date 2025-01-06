@@ -1,0 +1,30 @@
+{
+	"orð": "hússjóðsgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "sjóðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjóður-kk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["hússjóðsgjald", "hússjóðsgjald", "hússjóðsgjaldi", "hússjóðsgjalds"],
+		"mg": ["hússjóðsgjaldið", "hússjóðsgjaldið", "hússjóðsgjaldinu", "hússjóðsgjaldsins"]
+	},
+	"ft": {
+		"ág": ["hússjóðsgjöld", "hússjóðsgjöld", "hússjóðsgjöldum", "hússjóðsgjalda"],
+		"mg": ["hússjóðsgjöldin", "hússjóðsgjöldin", "hússjóðsgjöldunum", "hússjóðsgjaldanna"]
+	},
+	"kennistrengur": "no-hússjóðsgjald-hk",
+	"hash": "2e00e6f0faca8b6dac9b8c84783ff094afaf9122d48cfa30380bb50bdcbeafea"
+}

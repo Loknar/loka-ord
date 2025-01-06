@@ -1,0 +1,42 @@
+{
+	"orð": "eignarnuminn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"kennistrengur": "lo-numinn"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["eignarnuminn", "eignarnuminn", "eignarnumdum", "eignarnumins"],
+				"kvk": ["eignarnumin", "eignarnumda", "eignarnuminni", "eignarnuminnar"],
+				"hk": ["eignarnumið", "eignarnumið", "eignarnumdu", "eignarnumins"]
+			},
+			"ft": {
+				"kk": ["eignarnumdir", "eignarnumda", "eignarnumdum", "eignarnuminna"],
+				"kvk": ["eignarnumdar", "eignarnumdar", "eignarnumdum", "eignarnuminna"],
+				"hk": ["eignarnumin", "eignarnumin", "eignarnumdum", "eignarnuminna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["eignarnumdi", "eignarnumda", "eignarnumda", "eignarnumda"],
+				"kvk": ["eignarnumda", "eignarnumdu", "eignarnumdu", "eignarnumdu"],
+				"hk": ["eignarnumda", "eignarnumda", "eignarnumda", "eignarnumda"]
+			},
+			"ft": {
+				"kk": ["eignarnumdu", "eignarnumdu", "eignarnumdu", "eignarnumdu"],
+				"kvk": ["eignarnumdu", "eignarnumdu", "eignarnumdu", "eignarnumdu"],
+				"hk": ["eignarnumdu", "eignarnumdu", "eignarnumdu", "eignarnumdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-eignarnuminn",
+	"hash": "fa379684fd18d45851d6822ff8c04e7c191f2859e1bd90d1bcc5bc032a6dfce6"
+}

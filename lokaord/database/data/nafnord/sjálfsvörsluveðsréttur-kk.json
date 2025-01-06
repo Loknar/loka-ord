@@ -1,0 +1,32 @@
+{
+	"orð": "sjálfsvörsluveðsréttur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "sjálfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjálf-hk"
+		},
+		{
+			"mynd": "vörslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varsla-kvk"
+		},
+		{
+			"mynd": "veðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-réttur-kk"
+		}
+	],
+	"et": {
+		"ág": ["sjálfsvörsluveðsréttur", "sjálfsvörsluveðsrétt", "sjálfsvörsluveðsrétti", "sjálfsvörsluveðsréttar"],
+		"mg": ["sjálfsvörsluveðsrétturinn", "sjálfsvörsluveðsréttinn", "sjálfsvörsluveðsréttinum", "sjálfsvörsluveðsréttarins"]
+	},
+	"kennistrengur": "no-sjálfsvörsluveðsréttur-kk",
+	"hash": "4cac37bb06561cadf1b6defaaa3ce38b969d1117ad6c074bb0c55acef0bb9493"
+}

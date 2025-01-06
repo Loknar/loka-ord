@@ -1,0 +1,43 @@
+{
+	"orð": "greiðsluskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["greiðsluskyldur", "greiðsluskyldan", "greiðsluskyldum", "greiðsluskylds"],
+				"kvk": ["greiðsluskyld", "greiðsluskylda", "greiðsluskyldri", "greiðsluskyldrar"],
+				"hk": ["greiðsluskylt", "greiðsluskylt", "greiðsluskyldu", "greiðsluskylds"]
+			},
+			"ft": {
+				"kk": ["greiðsluskyldir", "greiðsluskylda", "greiðsluskyldum", "greiðsluskyldra"],
+				"kvk": ["greiðsluskyldar", "greiðsluskyldar", "greiðsluskyldum", "greiðsluskyldra"],
+				"hk": ["greiðsluskyld", "greiðsluskyld", "greiðsluskyldum", "greiðsluskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["greiðsluskyldi", "greiðsluskylda", "greiðsluskylda", "greiðsluskylda"],
+				"kvk": ["greiðsluskylda", "greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu"],
+				"hk": ["greiðsluskylda", "greiðsluskylda", "greiðsluskylda", "greiðsluskylda"]
+			},
+			"ft": {
+				"kk": ["greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu"],
+				"kvk": ["greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu"],
+				"hk": ["greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu", "greiðsluskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-greiðsluskyldur",
+	"hash": "d474a901d6692f2f7d071fd30ede2bfe439c1515d1a14ed3b3c2e3039c7e6a7c"
+}

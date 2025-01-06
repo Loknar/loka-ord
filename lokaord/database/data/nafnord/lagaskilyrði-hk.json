@@ -1,0 +1,27 @@
+{
+	"orð": "lagaskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "laga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["lagaskilyrði", "lagaskilyrði", "lagaskilyrðum", "lagaskilyrða"],
+		"mg": ["lagaskilyrðin", "lagaskilyrðin", "lagaskilyrðunum", "lagaskilyrðanna"]
+	},
+	"kennistrengur": "no-lagaskilyrði-hk",
+	"hash": "551e23c3e785bc59bd102d815b7411676288ad8a1a1e25403c99b18c2532a45e"
+}

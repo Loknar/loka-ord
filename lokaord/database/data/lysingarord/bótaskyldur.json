@@ -1,0 +1,43 @@
+{
+	"orð": "bótaskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bótaskyldur", "bótaskyldan", "bótaskyldum", "bótaskylds"],
+				"kvk": ["bótaskyld", "bótaskylda", "bótaskyldri", "bótaskyldrar"],
+				"hk": ["bótaskylt", "bótaskylt", "bótaskyldu", "bótaskylds"]
+			},
+			"ft": {
+				"kk": ["bótaskyldir", "bótaskylda", "bótaskyldum", "bótaskyldra"],
+				"kvk": ["bótaskyldar", "bótaskyldar", "bótaskyldum", "bótaskyldra"],
+				"hk": ["bótaskyld", "bótaskyld", "bótaskyldum", "bótaskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bótaskyldi", "bótaskylda", "bótaskylda", "bótaskylda"],
+				"kvk": ["bótaskylda", "bótaskyldu", "bótaskyldu", "bótaskyldu"],
+				"hk": ["bótaskylda", "bótaskylda", "bótaskylda", "bótaskylda"]
+			},
+			"ft": {
+				"kk": ["bótaskyldu", "bótaskyldu", "bótaskyldu", "bótaskyldu"],
+				"kvk": ["bótaskyldu", "bótaskyldu", "bótaskyldu", "bótaskyldu"],
+				"hk": ["bótaskyldu", "bótaskyldu", "bótaskyldu", "bótaskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bótaskyldur",
+	"hash": "42892f9c6f3d451219a4d61836f9028770a60626712246140a5c8ad42d1a4958"
+}

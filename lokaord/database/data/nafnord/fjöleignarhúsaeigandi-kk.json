@@ -1,0 +1,35 @@
+{
+	"orð": "fjöleignarhúsaeigandi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "fjöl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjöl-kvk"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"kennistrengur": "no-eigandi-kk"
+		}
+	],
+	"et": {
+		"ág": ["fjöleignarhúsaeigandi", "fjöleignarhúsaeiganda", "fjöleignarhúsaeiganda", "fjöleignarhúsaeiganda"],
+		"mg": ["fjöleignarhúsaeigandinn", "fjöleignarhúsaeigandann", "fjöleignarhúsaeigandanum", "fjöleignarhúsaeigandans"]
+	},
+	"ft": {
+		"ág": ["fjöleignarhúsaeigendur", "fjöleignarhúsaeigendur", "fjöleignarhúsaeigendum", "fjöleignarhúsaeigenda"],
+		"mg": ["fjöleignarhúsaeigendurnir", "fjöleignarhúsaeigendurna", "fjöleignarhúsaeigendunum", "fjöleignarhúsaeigendanna"]
+	},
+	"kennistrengur": "no-fjöleignarhúsaeigandi-kk",
+	"hash": "064a4d145e94df85a9fc8c2ee16e59400d81a30845ee41bc9ed1989cd23f516c"
+}

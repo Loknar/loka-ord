@@ -1,0 +1,32 @@
+{
+	"orð": "leiguhúsalöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["leiguhúsalöggjöf", "leiguhúsalöggjöf", "leiguhúsalöggjöf", "leiguhúsalöggjafar"],
+		"mg": ["leiguhúsalöggjöfin", "leiguhúsalöggjöfina", "leiguhúsalöggjöfinni", "leiguhúsalöggjafarinnar"]
+	},
+	"kennistrengur": "no-leiguhúsalöggjöf-kvk",
+	"hash": "e164bc55ed67f0a45d1a243f01d66864888658b55f4cb6547ef3051dd2b1dce9"
+}

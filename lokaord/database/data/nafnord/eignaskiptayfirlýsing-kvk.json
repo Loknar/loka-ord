@@ -1,0 +1,35 @@
+{
+	"orð": "eignaskiptayfirlýsing",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "skipta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skipti-hk"
+		},
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"kennistrengur": "no-lýsing-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignaskiptayfirlýsing", "eignaskiptayfirlýsingu", "eignaskiptayfirlýsingu", "eignaskiptayfirlýsingar"],
+		"mg": ["eignaskiptayfirlýsingin", "eignaskiptayfirlýsinguna", "eignaskiptayfirlýsingunni", "eignaskiptayfirlýsingarinnar"]
+	},
+	"ft": {
+		"ág": ["eignaskiptayfirlýsingar", "eignaskiptayfirlýsingar", "eignaskiptayfirlýsingum", "eignaskiptayfirlýsinga"],
+		"mg": ["eignaskiptayfirlýsingarnar", "eignaskiptayfirlýsingarnar", "eignaskiptayfirlýsingunum", "eignaskiptayfirlýsinganna"]
+	},
+	"kennistrengur": "no-eignaskiptayfirlýsing-kvk",
+	"hash": "396b8d4aa2d9ff9c5e73c6ec3b116542f210fa60fc4a78251e018b767e3c3ed6"
+}

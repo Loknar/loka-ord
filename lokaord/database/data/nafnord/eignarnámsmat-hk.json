@@ -1,0 +1,27 @@
+{
+	"orð": "eignarnámsmat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["eignarnámsmat", "eignarnámsmat", "eignarnámsmati", "eignarnámsmats"],
+		"mg": ["eignarnámsmatið", "eignarnámsmatið", "eignarnámsmatinu", "eignarnámsmatsins"]
+	},
+	"kennistrengur": "no-eignarnámsmat-hk",
+	"hash": "c04d059e62f44e69ca0cc256d045cab2214750ba4ca82bcccf31fab68bf3c736"
+}

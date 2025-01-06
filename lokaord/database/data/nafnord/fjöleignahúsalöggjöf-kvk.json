@@ -1,0 +1,37 @@
+{
+	"orð": "fjöleignahúsalöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjöl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjöl-kvk"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjöleignarhúsalöggjöf", "fjöleignarhúsalöggjöf", "fjöleignarhúsalöggjöf", "fjöleignarhúsalöggjafar"],
+		"mg": ["fjöleignarhúsalöggjöfin", "fjöleignarhúsalöggjöfina", "fjöleignarhúsalöggjöfinni", "fjöleignarhúsalöggjafarinnar"]
+	},
+	"kennistrengur": "no-fjöleignahúsalöggjöf-kvk",
+	"hash": "132c7dbea92f9f5ffbb39321c3fb568a4bd3ca263f83b1cd8908633104dd7662"
+}

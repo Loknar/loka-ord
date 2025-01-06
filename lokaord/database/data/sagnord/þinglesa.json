@@ -1,0 +1,87 @@
+{
+	"orð": "þinglesa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lesa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þinglesa",
+		"sagnbót": "þinglesið",
+		"boðháttur": {
+			"stýfður": "þingles",
+			"et": "þinglestu",
+			"ft": "þinglesið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þingles", "þinglest", "þingles"],
+					"ft": ["þinglesum", "þinglesið", "þinglesa"]
+				},
+				"þátíð": {
+					"et": ["þinglas", "þinglast", "þinglas"],
+					"ft": ["þinglásum", "þinglásuð", "þinglásu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þinglesi", "þinglesir", "þinglesi"],
+					"ft": ["þinglesum", "þinglesið", "þinglesi"]
+				},
+				"þátíð": {
+					"et": ["þinglæsi", "þinglæsir", "þinglæsi"],
+					"ft": ["þinglæsum", "þinglæsuð", "þinglæsu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þinglestu",
+					"ft": "þinglesiði"
+				},
+				"þátíð": {
+					"et": "þinglastu",
+					"ft": "þinglásuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þinglesirðu",
+					"ft": "þinglesiði"
+				},
+				"þátíð": {
+					"et": "þinglæsirðu",
+					"ft": "þinglæsuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þinglesandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þinglesinn", "þinglesinn", "þinglesnum", "þinglesins"],
+					"kvk": ["þinglesin", "þinglesna", "þinglesinni", "þinglesinnar"],
+					"hk": ["þinglesið", "þinglesið", "þinglesnu", "þinglesins"]
+				},
+				"ft": {
+					"kk": ["þinglesnir", "þinglesna", "þinglesnum", "þinglesinna"],
+					"kvk": ["þinglesnar", "þinglesnar", "þinglesnum", "þinglesinna"],
+					"hk": ["þinglesin", "þinglesin", "þinglesnum", "þinglesinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þinglesa",
+	"hash": "fdd64cc5ed72242c7672cdd7610c5090179b1fec8294e09d13b3f3da24b23f4c"
+}

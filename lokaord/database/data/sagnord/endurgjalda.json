@@ -1,0 +1,87 @@
+{
+	"orð": "endurgjalda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gjalda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurgjalda",
+		"sagnbót": "endurgoldið",
+		"boðháttur": {
+			"stýfður": "endurgjald",
+			"et": "endurgjaltu",
+			"ft": "endurgjaldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurgeld", "endurgeldur", "endurgeldur"],
+					"ft": ["endurgjöldum", "endurgjaldið", "endurgjalda"]
+				},
+				"þátíð": {
+					"et": ["endurgalt", "endurgalst", "endurgalt"],
+					"ft": ["endurguldum", "endurgulduð", "endurguldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurgjaldi", "endurgjaldir", "endurgjaldi"],
+					"ft": ["endurgjöldum", "endurgjaldið", "endurgjaldi"]
+				},
+				"þátíð": {
+					"et": ["endurgyldi", "endurgyldir", "endurgyldi"],
+					"ft": ["endurgyldum", "endurgylduð", "endurgyldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurgeldurðu",
+					"ft": "endurgjaldiði"
+				},
+				"þátíð": {
+					"et": "endurgalstu",
+					"ft": "endurgulduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurgjaldirðu",
+					"ft": "endurgjaldiði"
+				},
+				"þátíð": {
+					"et": "endurgyldirðu",
+					"ft": "endurgylduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurgjaldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurgoldinn", "endurgoldinn", "endurgoldnum", "endurgoldins"],
+					"kvk": ["endurgoldin", "endurgoldna", "endurgoldinni", "endurgoldinnar"],
+					"hk": ["endurgoldið", "endurgoldið", "endurgoldnu", "endurgoldins"]
+				},
+				"ft": {
+					"kk": ["endurgoldnir", "endurgoldna", "endurgoldnum", "endurgoldinna"],
+					"kvk": ["endurgoldnar", "endurgoldnar", "endurgoldnum", "endurgoldinna"],
+					"hk": ["endurgoldin", "endurgoldin", "endurgoldnum", "endurgoldinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurgjalda",
+	"hash": "70a7a347378cb25feb918f1524ddadfc3e83d33dafe18e398d5d90e1b8d78970"
+}

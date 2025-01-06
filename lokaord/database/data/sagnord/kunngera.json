@@ -1,0 +1,131 @@
+{
+	"orð": "kunngera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kunn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kunnur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kunngera",
+		"sagnbót": "kunngert",
+		"boðháttur": {
+			"stýfður": "kunnger",
+			"et": "kunngerðu",
+			"ft": "kunngerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kunngeri", "kunngerir", "kunngerir"],
+					"ft": ["kunngerum", "kunngerið", "kunngera"]
+				},
+				"þátíð": {
+					"et": ["kunngerði", "kunngerðir", "kunngerði"],
+					"ft": ["kunngerðum", "kunngerðuð", "kunngerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kunngeri", "kunngerir", "kunngeri"],
+					"ft": ["kunngerum", "kunngerið", "kunngeri"]
+				},
+				"þátíð": {
+					"et": ["kunngerði", "kunngerðir", "kunngerði"],
+					"ft": ["kunngerðum", "kunngerðuð", "kunngerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kunngerirðu",
+					"ft": "kunngeriði"
+				},
+				"þátíð": {
+					"et": "kunngerðirðu",
+					"ft": "kunngerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kunngerirðu",
+					"ft": "kunngeriði"
+				},
+				"þátíð": {
+					"et": "kunngerðirðu",
+					"ft": "kunngerðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kunngerast",
+		"sagnbót": "kunngerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kunngerist", "kunngerist", "kunngerist"],
+					"ft": ["kunngerumst", "kunngerist", "kunngerast"]
+				},
+				"þátíð": {
+					"et": ["kunngerðist", "kunngerðist", "kunngerðist"],
+					"ft": ["kunngerðumst", "kunngerðust", "kunngerðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kunngerist", "kunngerist", "kunngerist"],
+					"ft": ["kunngerumst", "kunngerist", "kunngerist"]
+				},
+				"þátíð": {
+					"et": ["kunngerðist", "kunngerðist", "kunngerðist"],
+					"ft": ["kunngerðumst", "kunngerðust", "kunngerðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kunngeristu"
+				},
+				"þátíð": {
+					"et": "kunngerðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kunngeristu"
+				},
+				"þátíð": {
+					"et": "kunngerðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kunngerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kunngerður", "kunngerðan", "kunngerðum", "kunngerðs"],
+					"kvk": ["kunngerð", "kunngerða", "kunngerðri", "kunngerðrar"],
+					"hk": ["kunngert", "kunngert", "kunngerðu", "kunngerðs"]
+				},
+				"ft": {
+					"kk": ["kunngerðir", "kunngerða", "kunngerðum", "kunngerðra"],
+					"kvk": ["kunngerðar", "kunngerðar", "kunngerðum", "kunngerðra"],
+					"hk": ["kunngerð", "kunngerð", "kunngerðum", "kunngerðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kunngera",
+	"hash": "5f462c5e0d6cfc8d2f9615aff2d2e9a12e2607b19ed320a80eadae4ab2784cd8"
+}

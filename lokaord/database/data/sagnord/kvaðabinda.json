@@ -1,0 +1,146 @@
+{
+	"orð": "kvaðabinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kvaða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kvöð-kvk"
+		},
+		{
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kvaðabinda",
+		"sagnbót": "kvaðabundið",
+		"boðháttur": {
+			"stýfður": "kvaðabind",
+			"et": "kvaðabittu",
+			"ft": "kvaðabindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvaðabind", "kvaðabindur", "kvaðabindur"],
+					"ft": ["kvaðabindum", "kvaðabindið", "kvaðabinda"]
+				},
+				"þátíð": {
+					"et": ["kvaðabatt", "kvaðabast", "kvaðabatt"],
+					"ft": ["kvaðabundum", "kvaðabunduð", "kvaðabundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvaðabindi", "kvaðabindir", "kvaðabindi"],
+					"ft": ["kvaðabindum", "kvaðabindið", "kvaðabindi"]
+				},
+				"þátíð": {
+					"et": ["kvaðabyndi", "kvaðabyndir", "kvaðabyndi"],
+					"ft": ["kvaðabyndum", "kvaðabynduð", "kvaðabyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvaðabindurðu",
+					"ft": "kvaðabindiði"
+				},
+				"þátíð": {
+					"et": "kvaðabastu",
+					"ft": "kvaðabunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvaðabindirðu",
+					"ft": "kvaðabindiði"
+				},
+				"þátíð": {
+					"et": "kvaðabyndirðu",
+					"ft": "kvaðabynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kvaðabindast",
+		"sagnbót": "kvaðabundist",
+		"boðháttur": {
+			"et": "kvaðabinstu",
+			"ft": "kvaðabindist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvaðabinst", "kvaðabinst", "kvaðabinst"],
+					"ft": ["kvaðabindumst", "kvaðabindist", "kvaðabindast"]
+				},
+				"þátíð": {
+					"et": ["kvaðabast", "kvaðabast", "kvaðabast"],
+					"ft": ["kvaðabundumst", "kvaðabundust", "kvaðabundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvaðabindist", "kvaðabindist", "kvaðabindist"],
+					"ft": ["kvaðabindumst", "kvaðabindist", "kvaðabindist"]
+				},
+				"þátíð": {
+					"et": ["kvaðabyndist", "kvaðabyndist", "kvaðabyndist"],
+					"ft": ["kvaðabyndumst", "kvaðabyndust", "kvaðabyndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvaðabinstu"
+				},
+				"þátíð": {
+					"et": "kvaðabastu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvaðabindistu"
+				},
+				"þátíð": {
+					"et": "kvaðabyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kvaðabindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kvaðabundinn", "kvaðabundinn", "kvaðabundnum", "kvaðabundins"],
+					"kvk": ["kvaðabundin", "kvaðabundna", "kvaðabundinni", "kvaðabundinnar"],
+					"hk": ["kvaðabundið", "kvaðabundið", "kvaðabundnu", "kvaðabundins"]
+				},
+				"ft": {
+					"kk": ["kvaðabundnir", "kvaðabundna", "kvaðabundnum", "kvaðabundinna"],
+					"kvk": ["kvaðabundnar", "kvaðabundnar", "kvaðabundnum", "kvaðabundinna"],
+					"hk": ["kvaðabundin", "kvaðabundin", "kvaðabundnum", "kvaðabundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kvaðabundni", "kvaðabundna", "kvaðabundna", "kvaðabundna"],
+					"kvk": ["kvaðabundna", "kvaðabundnu", "kvaðabundnu", "kvaðabundnu"],
+					"hk": ["kvaðabundna", "kvaðabundna", "kvaðabundna", "kvaðabundna"]
+				},
+				"ft": {
+					"kk": ["kvaðabundnu", "kvaðabundnu", "kvaðabundnu", "kvaðabundnu"],
+					"kvk": ["kvaðabundnu", "kvaðabundnu", "kvaðabundnu", "kvaðabundnu"],
+					"hk": ["kvaðabundnu", "kvaðabundnu", "kvaðabundnu", "kvaðabundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kvaðabinda",
+	"hash": "1bc375db6b090fd473927d675486f464e2a4eed3e282163df466711ef12f0e6a"
+}

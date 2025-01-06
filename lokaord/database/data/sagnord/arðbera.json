@@ -1,0 +1,87 @@
+{
+	"orð": "arðbera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "arð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-arður-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "arðbera",
+		"sagnbót": "arðborið",
+		"boðháttur": {
+			"stýfður": "arðber",
+			"et": "arðberðu",
+			"ft": "arðberið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["arðber", "arðberð", "arðber"],
+					"ft": ["arðberum", "arðberið", "arðbera"]
+				},
+				"þátíð": {
+					"et": ["arðbar", "arðbarst", "arðbar"],
+					"ft": ["arðbárum", "arðbáruð", "arðbáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["arðberi", "arðberir", "arðberi"],
+					"ft": ["arðberum", "arðberið", "arðberi"]
+				},
+				"þátíð": {
+					"et": ["arðbæri", "arðbærir", "arðbæri"],
+					"ft": ["arðbærum", "arðbæruð", "arðbæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "arðberðu",
+					"ft": "arðberiði"
+				},
+				"þátíð": {
+					"et": "arðbarstu",
+					"ft": "arðbáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "arðberirðu",
+					"ft": "arðberiði"
+				},
+				"þátíð": {
+					"et": "arðbærirðu",
+					"ft": "arðbæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "arðberandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["arðborinn", "arðborinn", "arðbornum", "arðborins"],
+					"kvk": ["arðborin", "arðborna", "arðborinni", "arðborinnar"],
+					"hk": ["arðborið", "arðborið", "arðbornu", "arðborins"]
+				},
+				"ft": {
+					"kk": ["arðbornir", "arðborna", "arðbornum", "arðborinna"],
+					"kvk": ["arðbornar", "arðbornar", "arðbornum", "arðborinna"],
+					"hk": ["arðborin", "arðborin", "arðbornum", "arðborinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-arðbera",
+	"hash": "ea5b41f783370496eebb804312c0d48d664231c1aa41f2401a209ebfa490d424"
+}

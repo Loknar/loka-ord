@@ -1,0 +1,30 @@
+{
+	"orð": "eignarnámsheimild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"kennistrengur": "no-heimild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignarnámsheimild", "eignarnámsheimild", "eignarnámsheimild", "eignarnámsheimildar"],
+		"mg": ["eignarnámsheimildin", "eignarnámsheimildina", "eignarnámsheimildinni", "eignarnámsheimildarinnar"]
+	},
+	"ft": {
+		"ág": ["eignarnámsheimildir", "eignarnámsheimildir", "eignarnámsheimildum", "eignarnámsheimilda"],
+		"mg": ["eignarnámsheimildirnar", "eignarnámsheimildirnar", "eignarnámsheimildunum", "eignarnámsheimildanna"]
+	},
+	"kennistrengur": "no-eignarnámsheimild-kvk",
+	"hash": "fd03312b28710c4008acba0fe2424fa2bf6ca9db36b6c84ac10b06905a466dd5"
+}

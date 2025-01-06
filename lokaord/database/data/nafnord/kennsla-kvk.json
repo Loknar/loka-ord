@@ -2,6 +2,17 @@
 	"orð": "kennsla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kenn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-kenna"
+		},
+		{
+			"leiðir": "sl",
+			"kennistrengur": "no-a-kvk-ó-_na_"
+		}
+	],
 	"et": {
 		"ág": ["kennsla", "kennslu", "kennslu", "kennslu"],
 		"mg": ["kennslan", "kennsluna", "kennslunni", "kennslunnar"]
@@ -11,5 +22,5 @@
 		"mg": ["kennslurnar", "kennslurnar", "kennslunum", "kennslnanna"]
 	},
 	"kennistrengur": "no-kennsla-kvk",
-	"hash": "b9b9b321a484dd709188c43dd4b0b8c483964493a7770176a20fe59586e9e2e0"
+	"hash": "60de844f43989d6e5def6fb5f6f5de19d427b9e35142e7ecb56e7c6e518b0729"
 }

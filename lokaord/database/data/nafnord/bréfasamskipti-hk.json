@@ -1,0 +1,27 @@
+{
+	"orð": "bréfasamskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["bréfasamskipti", "bréfasamskipti", "bréfasamskiptum", "bréfasamskipta"],
+		"mg": ["bréfasamskiptin", "bréfasamskiptin", "bréfasamskiptunum", "bréfasamskiptanna"]
+	},
+	"kennistrengur": "no-bréfasamskipti-hk",
+	"hash": "a8c72eef6f827f1b416060b8a60e1d7dac7a4c40a7aed312bf73322dc3fc8a37"
+}

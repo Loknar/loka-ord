@@ -1,0 +1,35 @@
+{
+	"orð": "húsfélagssamþykkt",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"kennistrengur": "no-þykkt-kvk"
+		}
+	],
+	"et": {
+		"ág": ["húsfélagssamþykkt", "húsfélagssamþykkt", "húsfélagssamþykkt", "húsfélagssamþykktar"],
+		"mg": ["húsfélagssamþykktin", "húsfélagssamþykktina", "húsfélagssamþykktinni", "húsfélagssamþykktarinnar"]
+	},
+	"ft": {
+		"ág": ["húsfélagssamþykktir", "húsfélagssamþykktir", "húsfélagssamþykktum", "húsfélagssamþykkta"],
+		"mg": ["húsfélagssamþykktirnar", "húsfélagssamþykktirnar", "húsfélagssamþykktunum", "húsfélagssamþykktanna"]
+	},
+	"kennistrengur": "no-húsfélagssamþykkt-kvk",
+	"hash": "17ba4afd6ade9dc17caf7e432c4d70333bc63a980568173c77c56c50a1b0da2a"
+}

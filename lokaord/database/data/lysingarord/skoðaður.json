@@ -1,6 +1,16 @@
 {
 	"orð": "skoðaður",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skoð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-skoða"
+		},
+		{
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -9,7 +19,7 @@
 				"hk": ["skoðað", "skoðað", "skoðuðu", "skoðaðs"]
 			},
 			"ft": {
-				"kk": ["skoðaðir", "skoðaða", "skoðuum", "skoðaðra"],
+				"kk": ["skoðaðir", "skoðaða", "skoðuðum", "skoðaðra"],
 				"kvk": ["skoðaðar", "skoðaðar", "skoðuðum", "skoðaðra"],
 				"hk": ["skoðuð", "skoðuð", "skoðuðum", "skoðaðra"]
 			}
@@ -51,7 +61,7 @@
 			"ft": {
 				"kk": ["skoðaðastir", "skoðaðasta", "skoðuðustum", "skoðaðastra"],
 				"kvk": ["skoðaðastar", "skoðaðastar", "skoðuðustum", "skoðaðastra"],
-				"hk": ["skoðaðust", "skoðaðust", "skoðuðustum", "skoðaðastra"]
+				"hk": ["skoðuðust", "skoðuðust", "skoðuðustum", "skoðaðastra"]
 			}
 		},
 		"vb": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-skoðaður",
-	"hash": "1822bb502cc0f97af1f34a5af9afdfb05b394bed8f125a5ee61e9466797ab695"
+	"hash": "fcb287764602712ee3d1fc8a1de74d2439757475a3dac40dc071ff48e050cd48"
 }

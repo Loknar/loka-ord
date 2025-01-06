@@ -1,0 +1,30 @@
+{
+	"orð": "bótafjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bótafjárhæð", "bótafjárhæð", "bótafjárhæð", "bótafjárhæðar"],
+		"mg": ["bótafjárhæðin", "bótafjárhæðina", "bótafjárhæðinni", "bótafjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["bótafjárhæðir", "bótafjárhæðir", "bótafjárhæðum", "bótafjárhæða"],
+		"mg": ["bótafjárhæðirnar", "bótafjárhæðirnar", "bótafjárhæðunum", "bótafjárhæðanna"]
+	},
+	"kennistrengur": "no-bótafjárhæð-kvk",
+	"hash": "f38d7efd5e4905e0bc27d17b2350d4bf9f07a21f76330bbcba2ae0ab0ca558d6"
+}

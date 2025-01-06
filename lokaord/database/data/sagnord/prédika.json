@@ -1,0 +1,131 @@
+{
+	"orð": "prédika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "prédik",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "prédika",
+		"sagnbót": "prédikað",
+		"boðháttur": {
+			"stýfður": "prédika",
+			"et": "prédikaðu",
+			"ft": "prédikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["prédika", "prédikar", "prédikar"],
+					"ft": ["prédikum", "prédikið", "prédika"]
+				},
+				"þátíð": {
+					"et": ["prédikaði", "prédikaðir", "prédikaði"],
+					"ft": ["prédikuðum", "prédikuðuð", "prédikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["prédiki", "prédikir", "prédiki"],
+					"ft": ["prédikum", "prédikið", "prédiki"]
+				},
+				"þátíð": {
+					"et": ["prédikaði", "prédikaðir", "prédikaði"],
+					"ft": ["prédikuðum", "prédikuðuð", "prédikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "prédikarðu",
+					"ft": "prédikiði"
+				},
+				"þátíð": {
+					"et": "prédikaðirðu",
+					"ft": "prédikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "prédikirðu",
+					"ft": "prédikiði"
+				},
+				"þátíð": {
+					"et": "prédikaðirðu",
+					"ft": "prédikuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "prédikast",
+		"sagnbót": "prédikast",
+		"boðháttur": {
+			"et": "prédikastu",
+			"ft": "prédikist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["prédikast", "prédikast", "prédikast"],
+					"ft": ["prédikumst", "prédikist", "prédikast"]
+				},
+				"þátíð": {
+					"et": ["prédikaðist", "prédikaðist", "prédikaðist"],
+					"ft": ["prédikuðumst", "prédikuðust", "prédikuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["prédikist", "prédikist", "prédikist"],
+					"ft": ["prédikumst", "prédikist", "prédikist"]
+				},
+				"þátíð": {
+					"et": ["prédikaðist", "prédikaðist", "prédikaðist"],
+					"ft": ["prédikuðumst", "prédikuðust", "prédikuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "prédikastu"
+				},
+				"þátíð": {
+					"et": "prédikaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "prédikistu"
+				},
+				"þátíð": {
+					"et": "prédikaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "prédikandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["prédikaður", "prédikaðan", "prédikuðum", "prédikaðs"],
+					"kvk": ["prédikuð", "prédikaða", "prédikaðri", "prédikaðrar"],
+					"hk": ["prédikað", "prédikað", "prédikuðu", "prédikaðs"]
+				},
+				"ft": {
+					"kk": ["prédikaðir", "prédikaða", "prédikuðum", "prédikaðra"],
+					"kvk": ["prédikaðar", "prédikaðar", "prédikuðum", "prédikaðra"],
+					"hk": ["prédikuð", "prédikuð", "prédikuðum", "prédikaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-prédika",
+	"hash": "11837a239b183a92fa50ee5e499bda95aa646e9ccc07a6a9a044eb0f48889935"
+}

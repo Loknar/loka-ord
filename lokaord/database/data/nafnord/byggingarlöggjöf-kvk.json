@@ -1,0 +1,27 @@
+{
+	"orð": "byggingarlöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["byggingarlöggjöf", "byggingarlöggjöf", "byggingarlöggjöf", "byggingarlöggjafar"],
+		"mg": ["byggingarlöggjöfin", "byggingarlöggjöfina", "byggingarlöggjöfinni", "byggingarlöggjafarinnar"]
+	},
+	"kennistrengur": "no-byggingarlöggjöf-kvk",
+	"hash": "3b36be9a7f7a06096fd3021a2cc1f7ff38694406726e04195fd656f363802cd3"
+}

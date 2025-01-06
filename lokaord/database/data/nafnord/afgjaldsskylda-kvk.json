@@ -1,0 +1,30 @@
+{
+	"orð": "afgjaldsskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["afgjaldsskylda", "afgjaldsskyldu", "afgjaldsskyldu", "afgjaldsskyldu"],
+		"mg": ["afgjaldsskyldan", "afgjaldsskylduna", "afgjaldsskyldunni", "afgjaldsskyldunnar"]
+	},
+	"ft": {
+		"ág": ["afgjaldsskyldur", "afgjaldsskyldur", "afgjaldsskyldum", "afgjaldsskyldna"],
+		"mg": ["afgjaldsskyldurnar", "afgjaldsskyldurnar", "afgjaldsskyldunum", "afgjaldsskyldnanna"]
+	},
+	"kennistrengur": "no-afgjaldsskylda-kvk",
+	"hash": "b4c0216893e00ff290536a6af2309a918e22f1c3cea7e45c62ea8df69821dd2f"
+}
