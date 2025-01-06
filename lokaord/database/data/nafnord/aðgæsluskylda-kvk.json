@@ -1,0 +1,27 @@
+{
+	"orð": "aðgæsluskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["aðgæsluskylda", "aðgæsluskyldu", "aðgæsluskyldu", "aðgæsluskyldu"],
+		"mg": ["aðgæsluskyldan", "aðgæsluskylduna", "aðgæsluskyldunni", "aðgæsluskyldunnar"]
+	},
+	"kennistrengur": "no-aðgæsluskylda-kvk",
+	"hash": "52bde26a384a218f613f14ed1964dc19250243576b4dc81aeb4124b2b0692c36"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "lánaskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lánaskuldbinding", "lánaskuldbindingu", "lánaskuldbindingu", "lánaskuldbindingar"],
+		"mg": ["lánaskuldbindingin", "lánaskuldbindinguna", "lánaskuldbindingunni", "lánaskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["lánaskuldbindingar", "lánaskuldbindingar", "lánaskuldbindingum", "lánaskuldbindinga"],
+		"mg": ["lánaskuldbindingarnar", "lánaskuldbindingarnar", "lánaskuldbindingunum", "lánaskuldbindinganna"]
+	},
+	"kennistrengur": "no-lánaskuldbinding-kvk",
+	"hash": "dbec7a710400c0c5152e52b483b4ee6cc0ff29b7b83d582ec738f4aa10247e98"
+}
