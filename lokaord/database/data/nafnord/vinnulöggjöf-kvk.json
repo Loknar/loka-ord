@@ -1,0 +1,27 @@
+{
+	"orð": "vinnulöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vinnulöggjöf", "vinnulöggjöf", "vinnulöggjöf", "vinnulöggjafar"],
+		"mg": ["vinnulöggjöfin", "vinnulöggjöfina", "vinnulöggjöfinni", "vinnulöggjafarinnar"]
+	},
+	"kennistrengur": "no-vinnulöggjöf-kvk",
+	"hash": "9ebe31a5ca1cdbeb09cfe194a06cfc0574f7366fc82f4a3ba4f000ffa639152a"
+}

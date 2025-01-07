@@ -1,0 +1,87 @@
+{
+	"orð": "fastsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fast",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-fastur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fastsetja",
+		"sagnbót": "fastsett",
+		"boðháttur": {
+			"stýfður": "fastset",
+			"et": "fastsettu",
+			"ft": "fastsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fastset", "fastsetur", "fastsetur"],
+					"ft": ["fastsetjum", "fastsetjið", "fastsetja"]
+				},
+				"þátíð": {
+					"et": ["fastsetti", "fastsettir", "fastsett"],
+					"ft": ["fastsettum", "fastsettuð", "fastsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fastsetji", "fastsetjir", "fastsetji"],
+					"ft": ["fastsetjum", "fastsetjið", "fastsetji"]
+				},
+				"þátíð": {
+					"et": ["fastsetti", "fastsettir", "fastsetti"],
+					"ft": ["fastsettum", "fastsettuð", "fastsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fastseturðu",
+					"ft": "fastsetjiði"
+				},
+				"þátíð": {
+					"et": "fastsettirðu",
+					"ft": "fastsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fastsetjirðu",
+					"ft": "fastsetjiði"
+				},
+				"þátíð": {
+					"et": "fastsettirðu",
+					"ft": "fastsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fastsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fastsettur", "fastsettan", "fastsettum", "fastsetts"],
+					"kvk": ["fastsett", "fastsetta", "fastsettri", "fastsettrar"],
+					"hk": ["fastsett", "fastsett", "fastsettu", "fastsetts"]
+				},
+				"ft": {
+					"kk": ["fastsettir", "fastsetta", "fastsettum", "fastsettra"],
+					"kvk": ["fastsettar", "fastsettar", "fastsettum", "fastsettra"],
+					"hk": ["fastsett", "fastsett", "fastsettum", "fastsettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fastsetja",
+	"hash": "2b020a373b0344217a41bf294d8ac33752f903f9ba0238e23a61fd36ae4fc9db"
+}

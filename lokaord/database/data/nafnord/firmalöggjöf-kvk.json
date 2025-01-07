@@ -1,0 +1,27 @@
+{
+	"orð": "firmalöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "firma",
+			"samsetning": "stofn",
+			"kennistrengur": "no-firma-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["firmalöggjöf", "firmalöggjöf", "firmalöggjöf", "firmalöggjafar"],
+		"mg": ["firmalöggjöfin", "firmalöggjöfina", "firmalöggjöfinni", "firmalöggjafarinnar"]
+	},
+	"kennistrengur": "no-firmalöggjöf-kvk",
+	"hash": "5f8c8caf1e7865219ba93e56504eb81da8609261ebd46eb20a26cf0f61e6f79f"
+}
