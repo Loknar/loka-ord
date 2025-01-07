@@ -1,0 +1,22 @@
+{
+	"orð": "skuldavandi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vandi-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldavandi", "skuldavanda", "skuldavanda", "skuldavanda"],
+		"mg": ["skuldavandinn", "skuldavandann", "skuldavandanum", "skuldavandans"]
+	},
+	"kennistrengur": "no-skuldavandi-kk",
+	"hash": "c62cfa1ff121f553b437116831e31dea1c1cb056b722fce8f5550eb7d7b01dc9"
+}

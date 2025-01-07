@@ -1,0 +1,142 @@
+{
+	"orð": "grannskoða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-granni-kk"
+		},
+		{
+			"kennistrengur": "so-skoða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grannskoða",
+		"sagnbót": "grannskoðað",
+		"boðháttur": {
+			"stýfður": "grannskoða",
+			"et": "grannskoðaðu",
+			"ft": "grannskoðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grannskoða", "grannskoðar", "grannskoðar"],
+					"ft": ["grannskoðum", "grannskoðið", "grannskoða"]
+				},
+				"þátíð": {
+					"et": ["grannskoðaði", "grannskoðaðir", "grannskoðaði"],
+					"ft": ["grannskoðuðum", "grannskoðuðuð", "grannskoðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grannskoði", "grannskoðir", "grannskoði"],
+					"ft": ["grannskoðum", "grannskoðið", "grannskoði"]
+				},
+				"þátíð": {
+					"et": ["grannskoðaði", "grannskoðaðir", "grannskoðaði"],
+					"ft": ["grannskoðuðum", "grannskoðuðuð", "grannskoðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grannskoðarðu",
+					"ft": "grannskoðiði"
+				},
+				"þátíð": {
+					"et": "grannskoðaðirðu",
+					"ft": "grannskoðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grannskoðirðu",
+					"ft": "grannskoðiði"
+				},
+				"þátíð": {
+					"et": "grannskoðaðirðu",
+					"ft": "grannskoðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "grannskoðast",
+		"sagnbót": "grannskoðast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grannskoðast", "grannskoðast", "grannskoðast"],
+					"ft": ["grannskoðumst", "grannskoðist", "grannskoðast"]
+				},
+				"þátíð": {
+					"et": ["grannskoðaðist", "grannskoðaðist", "grannskoðaðist"],
+					"ft": ["grannskoðuðumst", "grannskoðuðust", "grannskoðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grannskoðist", "grannskoðist", "grannskoðist"],
+					"ft": ["grannskoðumst", "grannskoðist", "grannskoðist"]
+				},
+				"þátíð": {
+					"et": ["grannskoðaðist", "grannskoðaðist", "grannskoðaðist"],
+					"ft": ["grannskoðuðumst", "grannskoðuðust", "grannskoðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grannskoðastu"
+				},
+				"þátíð": {
+					"et": "grannskoðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grannskoðistu"
+				},
+				"þátíð": {
+					"et": "grannskoðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grannskoðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["grannskoðaður", "grannskoðaðan", "grannskoðuðum", "grannskoðaðs"],
+					"kvk": ["grannskoðuð", "grannskoðaða", "grannskoðaðri", "grannskoðaðrar"],
+					"hk": ["grannskoðað", "grannskoðað", "grannskoðuðu", "grannskoðaðs"]
+				},
+				"ft": {
+					"kk": ["grannskoðaðir", "grannskoðaða", "grannskoðuum", "grannskoðaðra"],
+					"kvk": ["grannskoðaðar", "grannskoðaðar", "grannskoðuðum", "grannskoðaðra"],
+					"hk": ["grannskoðuð", "grannskoðuð", "grannskoðuðum", "grannskoðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["grannskoðaði", "grannskoðaða", "grannskoðaða", "grannskoðaða"],
+					"kvk": ["grannskoðaða", "grannskoðuðu", "grannskoðuðu", "grannskoðuðu"],
+					"hk": ["grannskoðaða", "grannskoðaða", "grannskoðaða", "grannskoðaða"]
+				},
+				"ft": {
+					"kk": ["grannskoðuðu", "grannskoðuðu", "grannskoðuðu", "grannskoðuðu"],
+					"kvk": ["grannskoðuðu", "grannskoðuðu", "grannskoðuðu", "grannskoðuðu"],
+					"hk": ["grannskoðuðu", "grannskoðuðu", "grannskoðuðu", "grannskoðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-grannskoða",
+	"hash": "36b0e32713fb8a6980e52611f49557960654ebec264ad2bab766864bb50f7e7f"
+}

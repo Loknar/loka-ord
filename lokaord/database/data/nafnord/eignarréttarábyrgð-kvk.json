@@ -1,0 +1,30 @@
+{
+	"orð": "eignarréttarábyrgð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "réttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttur-kk"
+		},
+		{
+			"kennistrengur": "no-ábyrgð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignarréttarábyrgð", "eignarréttarábyrgð", "eignarréttarábyrgð", "eignarréttarábyrgðar"],
+		"mg": ["eignarréttarábyrgðin", "eignarréttarábyrgðina", "eignarréttarábyrgðinni", "eignarréttarábyrgðarinnar"]
+	},
+	"ft": {
+		"ág": ["eignarréttarábyrgðir", "eignarréttarábyrgðir", "eignarréttarábyrgðum", "eignarréttarábyrgða"],
+		"mg": ["eignarréttarábyrgðirnar", "eignarréttarábyrgðirnar", "eignarréttarábyrgðunum", "eignarréttarábyrgðanna"]
+	},
+	"kennistrengur": "no-eignarréttarábyrgð-kvk",
+	"hash": "fd8614c79f17a37409ba991f621cf355b19f36b0e272d140031775d5596bbb94"
+}

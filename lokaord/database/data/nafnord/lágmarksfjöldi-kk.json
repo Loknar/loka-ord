@@ -1,0 +1,27 @@
+{
+	"orð": "lágmarksfjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksfjöldi", "lágmarksfjölda", "lágmarksfjölda", "lágmarksfjölda"],
+		"mg": ["lágmarksfjöldinn", "lágmarksfjöldann", "lágmarksfjöldanum", "lágmarksfjöldans"]
+	},
+	"kennistrengur": "no-lágmarksfjöldi-kk",
+	"hash": "d71cafb2e13377e5567c2504304a5d088132ae0696ca5884108bd2fff8e71712"
+}

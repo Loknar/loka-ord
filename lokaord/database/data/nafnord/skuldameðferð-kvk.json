@@ -1,0 +1,30 @@
+{
+	"orð": "skuldameðferð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "með",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-með"
+		},
+		{
+			"kennistrengur": "no-ferð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldameðferð", "skuldameðferð", "skuldameðferð", "skuldameðferðar"],
+		"mg": ["skuldameðferðin", "skuldameðferðina", "skuldameðferðinni", "skuldameðferðarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldameðferðir", "skuldameðferðir", "skuldameðferðum", "skuldameðferða"],
+		"mg": ["skuldameðferðirnar", "skuldameðferðirnar", "skuldameðferðunum", "skuldameðferðanna"]
+	},
+	"kennistrengur": "no-skuldameðferð-kvk",
+	"hash": "3dc80bbb060005621fc8e9eb9992f5131f70059dd29f5a3d92f38ab01ebe3b1d"
+}

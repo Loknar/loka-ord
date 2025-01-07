@@ -1,0 +1,31 @@
+{
+	"orð": "samstæðureikningsskil",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "stæðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stæða-kvk"
+		},
+		{
+			"mynd": "reiknings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"kennistrengur": "no-skil-hk"
+		}
+	],
+	"ft": {
+		"ág": ["samstæðureikningsskil", "samstæðureikningsskil", "samstæðureikningsskilum", "samstæðureikningsskila"],
+		"mg": ["samstæðureikningsskilin", "samstæðureikningsskilin", "samstæðureikningsskilunum", "samstæðureikningsskilanna"]
+	},
+	"kennistrengur": "no-samstæðureikningsskil-hk",
+	"hash": "0aceb507be84a18b77d178af7bea05a343f52a00d086ad674f7a4fa034c753ae"
+}

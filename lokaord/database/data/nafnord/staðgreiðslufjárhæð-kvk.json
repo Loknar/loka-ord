@@ -1,0 +1,35 @@
+{
+	"orð": "staðgreiðslufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["staðgreiðslufjárhæð", "staðgreiðslufjárhæð", "staðgreiðslufjárhæð", "staðgreiðslufjárhæðar"],
+		"mg": ["staðgreiðslufjárhæðin", "staðgreiðslufjárhæðina", "staðgreiðslufjárhæðinni", "staðgreiðslufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["staðgreiðslufjárhæðir", "staðgreiðslufjárhæðir", "staðgreiðslufjárhæðum", "staðgreiðslufjárhæða"],
+		"mg": ["staðgreiðslufjárhæðirnar", "staðgreiðslufjárhæðirnar", "staðgreiðslufjárhæðunum", "staðgreiðslufjárhæðanna"]
+	},
+	"kennistrengur": "no-staðgreiðslufjárhæð-kvk",
+	"hash": "c0330543e0d0df89117713161c0cc75eda3e0c4b80b90efddac2323e726ba52c"
+}

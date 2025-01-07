@@ -1,0 +1,32 @@
+{
+	"orð": "stjórnsýslufyrirmæli",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mæli-hk"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnsýslufyrirmæli", "stjórnsýslufyrirmæli", "stjórnsýslufyrirmælum", "stjórnsýslufyrirmæla"],
+		"mg": ["stjórnsýslufyrirmælin", "stjórnsýslufyrirmælin", "stjórnsýslufyrirmælunum", "stjórnsýslufyrirmælanna"]
+	},
+	"kennistrengur": "no-stjórnsýslufyrirmæli-hk",
+	"hash": "6dde860540e31e9dbdd95d12fb366f90307db7ff5eb45313be862186660cab90"
+}

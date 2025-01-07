@@ -1,0 +1,32 @@
+{
+	"orð": "efnahagslögsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["efnahagslögsaga", "efnahagslögsögu", "efnahagslögsögu", "efnahagslögsögu"],
+		"mg": ["efnahagslögsagan", "efnahagslögsöguna", "efnahagslögsögunni", "efnahagslögsögunnar"]
+	},
+	"kennistrengur": "no-efnahagslögsaga-kvk",
+	"hash": "e96464cc6ce09ad7a6457ef06b22cd16cdcd940b0a6751bfbdc42c637789683c"
+}
