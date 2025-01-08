@@ -2,6 +2,16 @@
 	"orð": "hækkun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hækk",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hækka"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hækkun", "hækkun", "hækkun", "hækkunar"],
 		"mg": ["hækkunin", "hækkunina", "hækkuninni", "hækkunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hækkanirnar", "hækkanirnar", "hækkununum", "hækkananna"]
 	},
 	"kennistrengur": "no-hækkun-kvk",
-	"hash": "3f21301ab532c28537c1eacc82d55136a38314fbb449ad5221bc5fd6f34f61e3"
+	"hash": "2363ec27765d8081ec67a2c278a5bc677f34b1fb96f55e0ddea01e037f9e9386"
 }

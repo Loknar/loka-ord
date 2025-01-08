@@ -1,0 +1,87 @@
+{
+	"orð": "leyfisbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "leyfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leyfi-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "leyfisbinda",
+		"sagnbót": "leyfisbundið",
+		"boðháttur": {
+			"stýfður": "leyfisbind",
+			"et": "leyfisbittu",
+			"ft": "leyfisbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leyfisbind", "leyfisbindur", "leyfisbindur"],
+					"ft": ["leyfisbindum", "leyfisbindið", "leyfisbinda"]
+				},
+				"þátíð": {
+					"et": ["leyfisbatt", "leyfisbast", "leyfisbatt"],
+					"ft": ["leyfisbundum", "leyfisbunduð", "leyfisbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leyfisbindi", "leyfisbindir", "leyfisbindi"],
+					"ft": ["leyfisbindum", "leyfisbindið", "leyfisbindi"]
+				},
+				"þátíð": {
+					"et": ["leyfisbyndi", "leyfisbyndir", "leyfisbyndi"],
+					"ft": ["leyfisbyndum", "leyfisbynduð", "leyfisbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leyfisbindurðu",
+					"ft": "leyfisbindiði"
+				},
+				"þátíð": {
+					"et": "leyfisbastu",
+					"ft": "leyfisbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leyfisbindirðu",
+					"ft": "leyfisbindiði"
+				},
+				"þátíð": {
+					"et": "leyfisbyndirðu",
+					"ft": "leyfisbynduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leyfisbindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leyfisbundinn", "leyfisbundinn", "leyfisbundnum", "leyfisbundins"],
+					"kvk": ["leyfisbundin", "leyfisbundna", "leyfisbundinni", "leyfisbundinnar"],
+					"hk": ["leyfisbundið", "leyfisbundið", "leyfisbundnu", "leyfisbundins"]
+				},
+				"ft": {
+					"kk": ["leyfisbundnir", "leyfisbundna", "leyfisbundnum", "leyfisbundinna"],
+					"kvk": ["leyfisbundnar", "leyfisbundnar", "leyfisbundnum", "leyfisbundinna"],
+					"hk": ["leyfisbundin", "leyfisbundin", "leyfisbundnum", "leyfisbundinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leyfisbinda",
+	"hash": "210a77571e798c7c3fadff1a59e7fc5cfc20bc8605ae4429c80f97ff3a62df8f"
+}

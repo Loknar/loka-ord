@@ -2,6 +2,16 @@
 	"orð": "lækkun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lækk",
+			"samsetning": "stofn",
+			"kennistrengur": "so-lækka"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lækkun", "lækkun", "lækkun", "lækkunar"],
 		"mg": ["lækkunin", "lækkunina", "lækkuninni", "lækkunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["lækkanirnar", "lækkanirnar", "lækkununum", "lækkananna"]
 	},
 	"kennistrengur": "no-lækkun-kvk",
-	"hash": "985182ee5674b04d3cabc2d27dbde9f97ce1b35b6db3b428e78ac47dd8c26d00"
+	"hash": "3524113400943ce1be18f2d64225fed4ad14b97c6b650cdb8e48042b7e38e428"
 }

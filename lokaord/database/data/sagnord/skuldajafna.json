@@ -1,0 +1,146 @@
+{
+	"orð": "skuldajafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "so-jafna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skuldajafna",
+		"sagnbót": "skuldajafnað",
+		"boðháttur": {
+			"stýfður": "skuldajafna",
+			"et": "skuldajafnaðu",
+			"ft": "skuldajafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldajafna", "skuldajafnar", "skuldajafnar"],
+					"ft": ["skuldajöfnum", "skuldajafnið", "skuldajafna"]
+				},
+				"þátíð": {
+					"et": ["skuldajafnaði", "skuldajafnaðir", "skuldajafnaði"],
+					"ft": ["skuldajöfnuðum", "skuldajöfnuðuð", "skuldajöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldajafni", "skuldajafnir", "skuldajafni"],
+					"ft": ["skuldajöfnum", "skuldajafnið", "skuldajafni"]
+				},
+				"þátíð": {
+					"et": ["skuldajafnaði", "skuldajafnaðir", "skuldajafnaði"],
+					"ft": ["skuldajöfnuðum", "skuldajöfnuðuð", "skuldajöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldajafnarðu",
+					"ft": "skuldajafniði"
+				},
+				"þátíð": {
+					"et": "skuldajafnaðirðu",
+					"ft": "skuldajöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldajafnirðu",
+					"ft": "skuldajafniði"
+				},
+				"þátíð": {
+					"et": "skuldajafnaðirðu",
+					"ft": "skuldajöfnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skuldajafnast",
+		"sagnbót": "skuldajafnast",
+		"boðháttur": {
+			"et": "skuldajafnastu",
+			"ft": "skuldajafnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldajafnast", "skuldajafnast", "skuldajafnast"],
+					"ft": ["skuldajöfnumst", "skuldajafnist", "skuldajafnast"]
+				},
+				"þátíð": {
+					"et": ["skuldajafnaðist", "skuldajafnaðist", "skuldajafnaðist"],
+					"ft": ["skuldajöfnuðumst", "skuldajöfnuðust", "skuldajöfnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldajafnist", "skuldajafnist", "skuldajafnist"],
+					"ft": ["skuldajöfnumst", "skuldajafnist", "skuldajafnist"]
+				},
+				"þátíð": {
+					"et": ["skuldajafnaðist", "skuldajafnaðist", "skuldajafnaðist"],
+					"ft": ["skuldajöfnuðumst", "skuldajöfnuðust", "skuldajöfnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldajafnastu"
+				},
+				"þátíð": {
+					"et": "skuldajafnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldajafnistu"
+				},
+				"þátíð": {
+					"et": "skuldajafnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skuldajafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skuldajafnaður", "skuldajafnaðan", "skuldajöfnuðum", "skuldajafnaðs"],
+					"kvk": ["skuldajöfnuð", "skuldajafnaða", "skuldajafnaðri", "skuldajafnaðrar"],
+					"hk": ["skuldajafnað", "skuldajafnað", "skuldajöfnuðu", "skuldajafnaðs"]
+				},
+				"ft": {
+					"kk": ["skuldajafnaðir", "skuldajafnaða", "skuldajöfnuðum", "skuldajafnaðra"],
+					"kvk": ["skuldajafnaðar", "skuldajafnaðar", "skuldajöfnuðum", "skuldajafnaðra"],
+					"hk": ["skuldajöfnuð", "skuldajöfnuð", "skuldajöfnuðum", "skuldajafnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skuldajafnaði", "skuldajafnaða", "skuldajafnaða", "skuldajafnaða"],
+					"kvk": ["skuldajafnaða", "skuldajöfnuðu", "skuldajöfnuðu", "skuldajöfnuðu"],
+					"hk": ["skuldajafnaða", "skuldajafnaða", "skuldajafnaða", "skuldajafnaða"]
+				},
+				"ft": {
+					"kk": ["skuldajöfnuðu", "skuldajöfnuðu", "skuldajöfnuðu", "skuldajöfnuðu"],
+					"kvk": ["skuldajöfnuðu", "skuldajöfnuðu", "skuldajöfnuðu", "skuldajöfnuðu"],
+					"hk": ["skuldajöfnuðu", "skuldajöfnuðu", "skuldajöfnuðu", "skuldajöfnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skuldajafna",
+	"hash": "bb1a20a6827f077ac4a03c6c90cb86810f3b75464e6efd04b7ee5a9bf68bacea"
+}
