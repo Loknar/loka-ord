@@ -1,0 +1,35 @@
+{
+	"orð": "verðbréfamiðstöð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"mynd": "mið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mið-hk"
+		},
+		{
+			"kennistrengur": "no-stöð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verðbréfamiðstöð", "verðbréfamiðstöð", "verðbréfamiðstöð", "verðbréfamiðstöðvar"],
+		"mg": ["verðbréfamiðstöðin", "verðbréfamiðstöðina", "verðbréfamiðstöðinni", "verðbréfamiðstöðvarinnar"]
+	},
+	"ft": {
+		"ág": ["verðbréfamiðstöðvar", "verðbréfamiðstöðvar", "verðbréfamiðstöðvum", "verðbréfamiðstöðva"],
+		"mg": ["verðbréfamiðstöðvarnar", "verðbréfamiðstöðvarnar", "verðbréfamiðstöðvunum", "verðbréfamiðstöðvanna"]
+	},
+	"kennistrengur": "no-verðbréfamiðstöð-kvk",
+	"hash": "895241d7ad0831fbd30b7beb8cd1027b976503b94eae56a249c0ec91eb198a6b"
+}
