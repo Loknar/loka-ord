@@ -1,0 +1,27 @@
+{
+	"orð": "innlausnarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "lausnar",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lausn-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["innlausnarskylda", "innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu"],
+		"mg": ["innlausnarskyldan", "innlausnarskylduna", "innlausnarskyldunni", "innlausnarskyldunnar"]
+	},
+	"kennistrengur": "no-innlausnarskylda-kvk",
+	"hash": "fda679ccea4bb9a1b2039861c10f3e3059e8172b97ca74a58939ea1fa5ca24ed"
+}
