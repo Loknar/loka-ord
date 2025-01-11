@@ -1,0 +1,48 @@
+{
+	"orð": "tilkynningarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"mynd": "kynningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kynning-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["tilkynningarskyldur", "tilkynningarskyldan", "tilkynningarskyldum", "tilkynningarskylds"],
+				"kvk": ["tilkynningarskyld", "tilkynningarskylda", "tilkynningarskyldri", "tilkynningarskyldrar"],
+				"hk": ["tilkynningarskylt", "tilkynningarskylt", "tilkynningarskyldu", "tilkynningarskylds"]
+			},
+			"ft": {
+				"kk": ["tilkynningarskyldir", "tilkynningarskylda", "tilkynningarskyldum", "tilkynningarskyldra"],
+				"kvk": ["tilkynningarskyldar", "tilkynningarskyldar", "tilkynningarskyldum", "tilkynningarskyldra"],
+				"hk": ["tilkynningarskyld", "tilkynningarskyld", "tilkynningarskyldum", "tilkynningarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tilkynningarskyldi", "tilkynningarskylda", "tilkynningarskylda", "tilkynningarskylda"],
+				"kvk": ["tilkynningarskylda", "tilkynningarskyldu", "tilkynningarskyldu", "tilkynningarskyldu"],
+				"hk": ["tilkynningarskylda", "tilkynningarskylda", "tilkynningarskylda", "tilkynningarskylda"]
+			},
+			"ft": {
+				"kk": ["tilkynningarskyldu", "tilkynningarskyldu", "tilkynningarskyldu", "tilkynningarskyldu"],
+				"kvk": ["tilkynningarskyldu", "tilkynningarskyldu", "tilkynningarskyldu", "tilkynningarskyldu"],
+				"hk": ["tilkynningarskyldu", "tilkynningarskyldu", "tilkynningarskyldu", "tilkynningarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-tilkynningarskyldur",
+	"hash": "f28ffce8f64040dc55e1da26b0b8ad3a37b0c2932d3868c93ff19b67b1b62691"
+}
