@@ -1,0 +1,131 @@
+{
+	"orð": "verðbæta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bæta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verðbæta",
+		"sagnbót": "verðbætt",
+		"boðháttur": {
+			"stýfður": "verðbæt",
+			"et": "verðbættu",
+			"ft": "verðbætið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðbæti", "verðbætir", "verðbætir"],
+					"ft": ["verðbætum", "verðbætið", "verðbæta"]
+				},
+				"þátíð": {
+					"et": ["verðbætti", "verðbættir", "verðbætti"],
+					"ft": ["verðbættum", "verðbættuð", "verðbættu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðbæti", "verðbætir", "verðbæti"],
+					"ft": ["verðbætum", "verðbætið", "verðbæti"]
+				},
+				"þátíð": {
+					"et": ["verðbætti", "verðbættir", "verðbætti"],
+					"ft": ["verðbættum", "verðbættuð", "verðbættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðbætirðu",
+					"ft": "verðbætiði"
+				},
+				"þátíð": {
+					"et": "verðbættirðu",
+					"ft": "verðbættuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðbætirðu",
+					"ft": "verðbætiði"
+				},
+				"þátíð": {
+					"et": "verðbættirðu",
+					"ft": "verðbættuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "verðbætast",
+		"sagnbót": "verðbæst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðbætist", "verðbætist", "verðbætist"],
+					"ft": ["verðbætumst", "verðbætist", "verðbætast"]
+				},
+				"þátíð": {
+					"et": ["verðbættist", "verðbættist", "verðbættist"],
+					"ft": ["verðbættumst", "verðbættust", "verðbættust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðbætist", "verðbætist", "verðbætist"],
+					"ft": ["verðbætumst", "verðbætist", "verðbætist"]
+				},
+				"þátíð": {
+					"et": ["verðbættist", "verðbættist", "verðbættist"],
+					"ft": ["verðbættumst", "verðbættust", "verðbættust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðbætistu"
+				},
+				"þátíð": {
+					"et": "verðbættistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðbætistu"
+				},
+				"þátíð": {
+					"et": "verðbættistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðbætandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verðbættur", "verðbættan", "verðbættum", "verðbætts"],
+					"kvk": ["verðbætt", "verðbætta", "verðbættri", "verðbættrar"],
+					"hk": ["verðbætt", "verðbætt", "verðbættu", "verðbætts"]
+				},
+				"ft": {
+					"kk": ["verðbættir", "verðbætta", "verðbættum", "verðbættra"],
+					"kvk": ["verðbættar", "verðbættar", "verðbættum", "verðbættra"],
+					"hk": ["verðbætt", "verðbætt", "verðbættum", "verðbættra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verðbæta",
+	"hash": "6c6b61ac7eb06108614662be158682b63657a0df8141b102c2541a0a3447e895"
+}

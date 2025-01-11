@@ -1,0 +1,32 @@
+{
+	"orð": "úrslitaáhrif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"mynd": "slita",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-slit-hk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-hrif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["úrslitaáhrif", "úrslitaáhrif", "úrslitaáhrifum", "úrslitaáhrifa"],
+		"mg": ["úrslitaáhrifin", "úrslitaáhrifin", "úrslitaáhrifunum", "úrslitaáhrifanna"]
+	},
+	"kennistrengur": "no-úrslitaáhrif-hk",
+	"hash": "f8aa25923572117a2ab348de1a400bf284cffbf39c7298c0967c4e2800fd41d6"
+}

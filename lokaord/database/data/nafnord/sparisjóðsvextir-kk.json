@@ -1,0 +1,27 @@
+{
+	"orð": "sparisjóðsvextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "spari",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-spara"
+		},
+		{
+			"mynd": "sjóðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjóður-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["sparisjóðsvextir", "sparisjóðsvexti", "sparisjóðsvöxtum", "sparisjóðsvaxta"],
+		"mg": ["sparisjóðsvextirnir", "sparisjóðsvextina", "sparisjóðsvöxtunum", "sparisjóðsvaxtanna"]
+	},
+	"kennistrengur": "no-sparisjóðsvextir-kk",
+	"hash": "5029021cbe8de8b2a10d87ce616b52a0315e5e1e80362e615ceb10877d4f672d"
+}

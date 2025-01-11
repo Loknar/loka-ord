@@ -1,0 +1,30 @@
+{
+	"orð": "stofnsjóðseign",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stofn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stofn-kk"
+		},
+		{
+			"mynd": "sjóðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjóður-kk"
+		},
+		{
+			"kennistrengur": "no-eign-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stofnsjóðseign", "stofnsjóðseign", "stofnsjóðseign", "stofnsjóðseignar"],
+		"mg": ["stofnsjóðseignin", "stofnsjóðseignina", "stofnsjóðseigninni", "stofnsjóðseignarinnar"]
+	},
+	"ft": {
+		"ág": ["stofnsjóðseignir", "stofnsjóðseignir", "stofnsjóðseignum", "stofnsjóðseigna"],
+		"mg": ["stofnsjóðseignirnar", "stofnsjóðseignirnar", "stofnsjóðseignunum", "stofnsjóðseignanna"]
+	},
+	"kennistrengur": "no-stofnsjóðseign-kvk",
+	"hash": "c81a5260e5985c01f17c9d681d9f0c64e44d4b125f0015b310bcd3b9e4b11d47"
+}

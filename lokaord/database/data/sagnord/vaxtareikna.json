@@ -1,0 +1,86 @@
+{
+	"orð": "vaxtareikna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vaxta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vöxtur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-reikna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vaxtareikna",
+		"sagnbót": "vaxtareiknað",
+		"boðháttur": {
+			"stýfður": "vaxtareikna",
+			"et": "vaxtareiknaðu",
+			"ft": "vaxtareiknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vaxtareikna", "vaxtareiknar", "vaxtareiknar"],
+					"ft": ["vaxtareiknum", "vaxtareiknið", "vaxtareikna"]
+				},
+				"þátíð": {
+					"et": ["vaxtareiknaði", "vaxtareiknaðir", "vaxtareiknaði"],
+					"ft": ["vaxtareiknuðum", "vaxtareiknuðuð", "vaxtareiknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vaxtareikni", "vaxtareiknir", "vaxtareikni"],
+					"ft": ["vaxtareiknum", "vaxtareiknið", "vaxtareikni"]
+				},
+				"þátíð": {
+					"et": ["vaxtareiknaði", "vaxtareiknaðir", "vaxtareiknaði"],
+					"ft": ["vaxtareiknuðum", "vaxtareiknuðuð", "vaxtareiknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vaxtareiknarðu",
+					"ft": "vaxtareikniði"
+				},
+				"þátíð": {
+					"et": "vaxtareiknaðirðu",
+					"ft": "vaxtareiknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaxtareiknirðu",
+					"ft": "vaxtareikniði"
+				},
+				"þátíð": {
+					"et": "vaxtareiknaðirðu",
+					"ft": "vaxtareiknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vaxtareiknaður", "vaxtareiknaðan", "vaxtareiknuðum", "vaxtareiknaðs"],
+					"kvk": ["vaxtareiknuð", "vaxtareiknaða", "vaxtareiknaðri", "vaxtareiknaðrar"],
+					"hk": ["vaxtareiknað", "vaxtareiknað", "vaxtareiknuðu", "vaxtareiknaðs"]
+				},
+				"ft": {
+					"kk": ["vaxtareiknaðir", "vaxtareiknaða", "vaxtareiknuðum", "vaxtareiknaðra"],
+					"kvk": ["vaxtareiknaðar", "vaxtareiknaðar", "vaxtareiknuðum", "vaxtareiknaðra"],
+					"hk": ["vaxtareiknuð", "vaxtareiknuð", "vaxtareiknuðum", "vaxtareiknaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vaxtareikna",
+	"hash": "493b576218a29be5c296669944f319609a071ea20750be8269355b1868e948e6"
+}
