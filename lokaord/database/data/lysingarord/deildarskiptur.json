@@ -1,0 +1,43 @@
+{
+	"orð": "deildarskiptur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "deildar",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-deildur"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skiptur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["deildarskiptur", "deildarskiptan", "deildarskiptum", "deildarskipts"],
+				"kvk": ["deildarskipt", "deildarskipta", "deildarskiptri", "deildarskiptrar"],
+				"hk": ["deildarskipt", "deildarskipt", "deildarskiptu", "deildarskipts"]
+			},
+			"ft": {
+				"kk": ["deildarskiptir", "deildarskipta", "deildarskiptum", "deildarskiptra"],
+				"kvk": ["deildarskiptar", "deildarskiptar", "deildarskiptum", "deildarskiptra"],
+				"hk": ["deildarskipt", "deildarskipt", "deildarskiptum", "deildarskiptra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["deildarskipti", "deildarskipta", "deildarskipta", "deildarskipta"],
+				"kvk": ["deildarskipta", "deildarskiptu", "deildarskiptu", "deildarskiptu"],
+				"hk": ["deildarskipta", "deildarskipta", "deildarskipta", "deildarskipta"]
+			},
+			"ft": {
+				"kk": ["deildarskiptu", "deildarskiptu", "deildarskiptu", "deildarskiptu"],
+				"kvk": ["deildarskiptu", "deildarskiptu", "deildarskiptu", "deildarskiptu"],
+				"hk": ["deildarskiptu", "deildarskiptu", "deildarskiptu", "deildarskiptu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-deildarskiptur",
+	"hash": "7162ff4351f8d6031b19725588fec15727c5cf2eccca228d6e6a64ad8d9df36e"
+}

@@ -1,0 +1,43 @@
+{
+	"orð": "deildaskiptur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "deilda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-deild-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skiptur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["deildaskiptur", "deildaskiptan", "deildaskiptum", "deildaskipts"],
+				"kvk": ["deildaskipt", "deildaskipta", "deildaskiptri", "deildaskiptrar"],
+				"hk": ["deildaskipt", "deildaskipt", "deildaskiptu", "deildaskipts"]
+			},
+			"ft": {
+				"kk": ["deildaskiptir", "deildaskipta", "deildaskiptum", "deildaskiptra"],
+				"kvk": ["deildaskiptar", "deildaskiptar", "deildaskiptum", "deildaskiptra"],
+				"hk": ["deildaskipt", "deildaskipt", "deildaskiptum", "deildaskiptra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["deildaskipti", "deildaskipta", "deildaskipta", "deildaskipta"],
+				"kvk": ["deildaskipta", "deildaskiptu", "deildaskiptu", "deildaskiptu"],
+				"hk": ["deildaskipta", "deildaskipta", "deildaskipta", "deildaskipta"]
+			},
+			"ft": {
+				"kk": ["deildaskiptu", "deildaskiptu", "deildaskiptu", "deildaskiptu"],
+				"kvk": ["deildaskiptu", "deildaskiptu", "deildaskiptu", "deildaskiptu"],
+				"hk": ["deildaskiptu", "deildaskiptu", "deildaskiptu", "deildaskiptu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-deildaskiptur",
+	"hash": "eb90eb84ab6695d292b6a9e789697bb9be94595f46e500d3be7f4456c30cdddb"
+}

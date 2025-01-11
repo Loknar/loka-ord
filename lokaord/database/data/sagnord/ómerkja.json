@@ -1,0 +1,87 @@
+{
+	"orð": "ómerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ómerkja",
+		"sagnbót": "ómerkt",
+		"boðháttur": {
+			"stýfður": "ómerk",
+			"et": "ómerktu",
+			"ft": "ómerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ómerki", "ómerkir", "ómerkir"],
+					"ft": ["ómerkjum", "ómerkið", "ómerkja"]
+				},
+				"þátíð": {
+					"et": ["ómerkti", "ómerktir", "ómerkti"],
+					"ft": ["ómerktum", "ómerktuð", "ómerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ómerki", "ómerkir", "ómerki"],
+					"ft": ["ómerkjum", "ómerkið", "ómerki"]
+				},
+				"þátíð": {
+					"et": ["ómerkti", "ómerktir", "ómerkti"],
+					"ft": ["ómerktum", "ómerktuð", "ómerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ómerkirðu",
+					"ft": "ómerkiði"
+				},
+				"þátíð": {
+					"et": "ómerktirðu",
+					"ft": "ómerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ómerkirðu",
+					"ft": "ómerkiði"
+				},
+				"þátíð": {
+					"et": "ómerktirðu",
+					"ft": "ómerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ómerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ómerktur", "ómerktan", "ómerktum", "ómerkts"],
+					"kvk": ["ómerkt", "ómerkta", "ómerktri", "ómerktrar"],
+					"hk": ["ómerkt", "ómerkt", "ómerktu", "ómerkts"]
+				},
+				"ft": {
+					"kk": ["ómerktir", "ómerkta", "ómerktum", "ómerktra"],
+					"kvk": ["ómerktar", "ómerktar", "ómerktum", "ómerktra"],
+					"hk": ["ómerkt", "ómerkt", "ómerktum", "ómerktra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ómerkja",
+	"hash": "0966d3371584ecea536eb3915d380796f3cf7ff274e3e14ec2eed50315514dfa"
+}
