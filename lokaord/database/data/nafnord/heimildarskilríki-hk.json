@@ -1,0 +1,27 @@
+{
+	"orð": "heimildarskilríki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heimildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heimild-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ríki-hk"
+		}
+	],
+	"ft": {
+		"ág": ["heimildarskilríki", "heimildarskilríki", "heimildarskilríkjum", "heimildarskilríkja"],
+		"mg": ["heimildarskilríkin", "heimildarskilríkin", "heimildarskilríkjunum", "heimildarskilríkjanna"]
+	},
+	"kennistrengur": "no-heimildarskilríki-hk",
+	"hash": "bc2963f4d09b48199452badeafa7577ac61aeb82c1a195b1b4c3c92fde0ac43f"
+}

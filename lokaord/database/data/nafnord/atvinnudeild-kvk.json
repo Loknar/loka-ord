@@ -1,0 +1,30 @@
+{
+	"orð": "atvinnudeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["atvinnudeild", "atvinnudeild", "atvinnudeild", "atvinnudeildar"],
+		"mg": ["atvinnudeildin", "atvinnudeildina", "atvinnudeildinni", "atvinnudeildarinnar"]
+	},
+	"ft": {
+		"ág": ["atvinnudeildir", "atvinnudeildir", "atvinnudeildum", "atvinnudeilda"],
+		"mg": ["atvinnudeildirnar", "atvinnudeildirnar", "atvinnudeildunum", "atvinnudeildanna"]
+	},
+	"kennistrengur": "no-atvinnudeild-kvk",
+	"hash": "4fee594e2739fb5e2e1134786a94d6bd17d9477ff0fc67372ee72457b7d790bb"
+}

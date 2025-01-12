@@ -1,0 +1,30 @@
+{
+	"orð": "skuldarlúkningarmaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skuldar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "lúkningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lúkning-kvk"
+		},
+		{
+			"kennistrengur": "no-maður-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldarlúkningarmaður", "skuldarlúkningarmann", "skuldarlúkningarmanni", "skuldarlúkningarmanns"],
+		"mg": ["skuldarlúkningarmaðurinn", "skuldarlúkningarmanninn", "skuldarlúkningarmanninum", "skuldarlúkningarmannsins"]
+	},
+	"ft": {
+		"ág": ["skuldarlúkningarmenn", "skuldarlúkningarmenn", "skuldarlúkningarmönnum", "skuldarlúkningarmanna"],
+		"mg": ["skuldarlúkningarmennirnir", "skuldarlúkningarmennina", "skuldarlúkningarmönnunum", "skuldarlúkningarmannanna"]
+	},
+	"kennistrengur": "no-skuldarlúkningarmaður-kk",
+	"hash": "6e33ded46b08a94ec604cf86e62c8440faf1c3fc7ff0cb80a1e9f63038c951e5"
+}

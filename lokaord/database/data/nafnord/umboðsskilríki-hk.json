@@ -1,0 +1,32 @@
+{
+	"orð": "umboðsskilríki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ríki-hk"
+		}
+	],
+	"ft": {
+		"ág": ["umboðsskilríki", "umboðsskilríki", "umboðsskilríkjum", "umboðsskilríkja"],
+		"mg": ["umboðsskilríkin", "umboðsskilríkin", "umboðsskilríkjunum", "umboðsskilríkjanna"]
+	},
+	"kennistrengur": "no-umboðsskilríki-hk",
+	"hash": "36a787811513828abfc5eb28512a6d27950a37c9b2e8c563800a00aed37151b6"
+}

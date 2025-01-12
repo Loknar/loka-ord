@@ -1,0 +1,131 @@
+{
+	"orð": "undirskrifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "undir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-undir"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skrifa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "undirskrifa",
+		"sagnbót": "undirskrifað",
+		"boðháttur": {
+			"stýfður": "undirskrifa",
+			"et": "undirskrifaðu",
+			"ft": "undirskrifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["undirskrifa", "undirskrifar", "undirskrifar"],
+					"ft": ["undirskrifum", "undirskrifið", "undirskrifa"]
+				},
+				"þátíð": {
+					"et": ["undirskrifaði", "undirskrifaðir", "undirskrifaði"],
+					"ft": ["undirskrifuðum", "undirskrifuðuð", "undirskrifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["undirskrifi", "undirskrifir", "undirskrifi"],
+					"ft": ["undirskrifum", "undirskrifið", "undirskrifi"]
+				},
+				"þátíð": {
+					"et": ["undirskrifaði", "undirskrifaðir", "undirskrifaði"],
+					"ft": ["undirskrifuðum", "undirskrifuðuð", "undirskrifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "undirskrifarðu",
+					"ft": "undirskrifiði"
+				},
+				"þátíð": {
+					"et": "undirskrifaðirðu",
+					"ft": "undirskrifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "undirskrifirðu",
+					"ft": "undirskrifiði"
+				},
+				"þátíð": {
+					"et": "undirskrifaðirðu",
+					"ft": "undirskrifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "undirskrifast",
+		"sagnbót": "undirskrifast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["undirskrifast", "undirskrifast", "undirskrifast"],
+					"ft": ["undirskrifumst", "undirskrifist", "undirskrifast"]
+				},
+				"þátíð": {
+					"et": ["undirskrifaðist", "undirskrifaðist", "undirskrifaðist"],
+					"ft": ["undirskrifuðumst", "undirskrifuðust", "undirskrifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["undirskrifist", "undirskrifist", "undirskrifist"],
+					"ft": ["undirskrifumst", "undirskrifist", "undirskrifist"]
+				},
+				"þátíð": {
+					"et": ["undirskrifaðist", "undirskrifaðist", "undirskrifaðist"],
+					"ft": ["undirskrifuðumst", "undirskrifuðust", "undirskrifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "undirskrifastu"
+				},
+				"þátíð": {
+					"et": "undirskrifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "undirskrifistu"
+				},
+				"þátíð": {
+					"et": "undirskrifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "undirskrifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["undirskrifaður", "undirskrifaðan", "undirskrifuðum", "undirskrifaðs"],
+					"kvk": ["undirskrifuð", "undirskrifaða", "undirskrifaðri", "undirskrifaðrar"],
+					"hk": ["undirskrifað", "undirskrifað", "undirskrifuðu", "undirskrifaðs"]
+				},
+				"ft": {
+					"kk": ["undirskrifaðir", "undirskrifaða", "undirskrifuðum", "undirskrifaðra"],
+					"kvk": ["undirskrifaðar", "undirskrifaðar", "undirskrifuðum", "undirskrifaðra"],
+					"hk": ["undirskrifuð", "undirskrifuð", "undirskrifuðum", "undirskrifaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-undirskrifa",
+	"hash": "221215d8a5f2905838d6dc9a8194c6507da78ece76d220caab3c18dc9059b257"
+}
