@@ -3,10 +3,10 @@
 	"flokkur": "sagnorð",
 	"germynd": {
 		"nafnháttur": "fyrna",
-		"sagnbót": "fyrnað",
+		"sagnbót": "fyrnt",
 		"boðháttur": {
 			"stýfður": "fyrna",
-			"et": "fyrnaðu",
+			"et": "fyrndu",
 			"ft": "fyrnið"
 		},
 		"persónuleg": {
@@ -16,8 +16,8 @@
 					"ft": ["fyrnum", "fyrnið", "fyrna"]
 				},
 				"þátíð": {
-					"et": ["fyrnaði", "fyrnaðir", "fyrnaði"],
-					"ft": ["fyrnuðum", "fyrnuðuð", "fyrnuðu"]
+					"et": ["fyrndi", "fyrndir", "fyrndi"],
+					"ft": ["fyrndum", "fyrnduð", "fyrndu"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -26,20 +26,20 @@
 					"ft": ["fyrnum", "fyrnið", "fyrni"]
 				},
 				"þátíð": {
-					"et": ["fyrnaði", "fyrnaðir", "fyrnaði"],
-					"ft": ["fyrnuðum", "fyrnuðuð", "fyrnuðu"]
+					"et": ["fyrndi", "fyrndir", "fyrndi"],
+					"ft": ["fyrndum", "fyrnduð", "fyrndu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "fyrnarðu",
+					"et": "fyrnirðu",
 					"ft": "fyrniði"
 				},
 				"þátíð": {
-					"et": "fyrnaðirðu",
-					"ft": "fyrnuðuði"
+					"et": "fyrndirðu",
+					"ft": "fyrnduði"
 				}
 			},
 			"viðtengingarháttur": {
@@ -48,28 +48,24 @@
 					"ft": "fyrniði"
 				},
 				"þátíð": {
-					"et": "fyrnaðirðu",
-					"ft": "fyrnuðuði"
+					"et": "fyrndirðu",
+					"ft": "fyrnduði"
 				}
 			}
 		}
 	},
 	"miðmynd": {
 		"nafnháttur": "fyrnast",
-		"sagnbót": "fyrnast",
-		"boðháttur": {
-			"et": "fyrnastu",
-			"ft": "fyrnist"
-		},
+		"sagnbót": "fyrnst",
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["fyrnast", "fyrnast", "fyrnast"],
+					"et": ["fyrnist", "fyrnist", "fyrnist"],
 					"ft": ["fyrnumst", "fyrnist", "fyrnast"]
 				},
 				"þátíð": {
-					"et": ["fyrnaðist", "fyrnaðist", "fyrnaðist"],
-					"ft": ["fyrnuðumst", "fyrnuðust", "fyrnuðust"]
+					"et": ["fyrndist", "fyrndist", "fyrndist"],
+					"ft": ["fyrndumst", "fyrndust", "fyrndust"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -78,41 +74,18 @@
 					"ft": ["fyrnumst", "fyrnist", "fyrnist"]
 				},
 				"þátíð": {
-					"et": ["fyrnaðist", "fyrnaðist", "fyrnaðist"],
-					"ft": ["fyrnuðumst", "fyrnuðust", "fyrnuðust"]
-				}
-			}
-		},
-		"ópersónuleg": {
-			"frumlag": "þágufałl",
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["fyrnast", "fyrnast", "fyrnast"],
-					"ft": ["fyrnast", "fyrnast", "fyrnast"]
-				},
-				"þátíð": {
-					"et": ["fyrnaðist", "fyrnaðist", "fyrnaðist"],
-					"ft": ["fyrnaðist", "fyrnaðist", "fyrnaðist"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["fyrnast", "fyrnast", "fyrnast"],
-					"ft": ["fyrnast", "fyrnast", "fyrnast"]
-				},
-				"þátíð": {
-					"et": ["fyrnaðist", "fyrnaðist", "fyrnaðist"],
-					"ft": ["fyrnaðist", "fyrnaðist", "fyrnaðist"]
+					"et": ["fyrndist", "fyrndist", "fyrndist"],
+					"ft": ["fyrndumst", "fyrndust", "fyrndust"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "fyrnastu"
+					"et": "fyrnistu"
 				},
 				"þátíð": {
-					"et": "fyrnaðistu"
+					"et": "fyrndistu"
 				}
 			},
 			"viðtengingarháttur": {
@@ -120,7 +93,7 @@
 					"et": "fyrnistu"
 				},
 				"þátíð": {
-					"et": "fyrnaðistu"
+					"et": "fyrndistu"
 				}
 			}
 		}
@@ -130,30 +103,30 @@
 		"þátíðar": {
 			"sb": {
 				"et": {
-					"kk": ["fyrnaður", "fyrnaðan", "fyrnuðum", "fyrnaðs"],
-					"kvk": ["fyrnuð", "fyrnaða", "fyrnaðri", "fyrnaðrar"],
-					"hk": ["fyrnað", "fyrnað", "fyrnuðu", "fyrnaðs"]
+					"kk": ["fyrndur", "fyrndan", "fyrndum", "fyrnds"],
+					"kvk": ["fyrnd", "fyrnda", "fyrndri", "fyrndrar"],
+					"hk": ["fyrnd", "fyrnd", "fyrndu", "fyrnds"]
 				},
 				"ft": {
-					"kk": ["fyrnaðir", "fyrnaða", "fyrnuðum", "fyrnaðra"],
-					"kvk": ["fyrnaðar", "fyrnaðar", "fyrnuðum", "fyrnaðra"],
-					"hk": ["fyrnuð", "fyrnuð", "fyrnuðum", "fyrnaðra"]
+					"kk": ["fyrndir", "fyrnda", "fyrndum", "fyrndra"],
+					"kvk": ["fyrndar", "fyrndar", "fyrndum", "fyrndra"],
+					"hk": ["fyrnd", "fyrnd", "fyrndum", "fyrndra"]
 				}
 			},
 			"vb": {
 				"et": {
-					"kk": ["fyrnaði", "fyrnaða", "fyrnaða", "fyrnaða"],
-					"kvk": ["fyrnaða", "fyrnuðu", "fyrnuðu", "fyrnuðu"],
-					"hk": ["fyrnaða", "fyrnaða", "fyrnaða", "fyrnaða"]
+					"kk": ["fyrndi", "fyrnda", "fyrnda", "fyrnda"],
+					"kvk": ["fyrnda", "fyrndu", "fyrndu", "fyrndu"],
+					"hk": ["fyrnda", "fyrnda", "fyrnda", "fyrnda"]
 				},
 				"ft": {
-					"kk": ["fyrnuðu", "fyrnuðu", "fyrnuðu", "fyrnuðu"],
-					"kvk": ["fyrnuðu", "fyrnuðu", "fyrnuðu", "fyrnuðu"],
-					"hk": ["fyrnuðu", "fyrnuðu", "fyrnuðu", "fyrnuðu"]
+					"kk": ["fyrndu", "fyrndu", "fyrndu", "fyrndu"],
+					"kvk": ["fyrndu", "fyrndu", "fyrndu", "fyrndu"],
+					"hk": ["fyrndu", "fyrndu", "fyrndu", "fyrndu"]
 				}
 			}
 		}
 	},
 	"kennistrengur": "so-fyrna",
-	"hash": "0a3e744fe18fb14f7c51ac9d00c5c77c10bb664d88ee076abe6ac337639b7cc9"
+	"hash": "34a6d85b0087937fff2adaca1aee4b9612cd33c79e98143b3dbf6457af264c4c"
 }
