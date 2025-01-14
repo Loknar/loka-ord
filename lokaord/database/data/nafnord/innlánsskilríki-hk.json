@@ -1,0 +1,32 @@
+{
+	"orð": "innlánsskilríki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "láns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ríki-hk"
+		}
+	],
+	"ft": {
+		"ág": ["innlánsskilríki", "innlánsskilríki", "innlánsskilríkjum", "innlánsskilríkja"],
+		"mg": ["innlánsskilríkin", "innlánsskilríkin", "innlánsskilríkjunum", "innlánsskilríkjanna"]
+	},
+	"kennistrengur": "no-innlánsskilríki-hk",
+	"hash": "730abe513dc2e8a6e01662cdf360a537473f9784e534edf6e609ce9a39fe16f5"
+}

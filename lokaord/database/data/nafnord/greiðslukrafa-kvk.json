@@ -1,0 +1,25 @@
+{
+	"orð": "greiðslukrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslukrafa", "greiðslukröfu", "greiðslukröfu", "greiðslukröfu"],
+		"mg": ["greiðslukrafan", "greiðslukröfuna", "greiðslukröfunni", "greiðslukröfunnar"]
+	},
+	"ft": {
+		"ág": ["greiðslukröfur", "greiðslukröfur", "greiðslukröfum", "greiðslukrafna"],
+		"mg": ["greiðslukröfurnar", "greiðslukröfurnar", "greiðslukröfunum", "greiðslukrafnanna"]
+	},
+	"kennistrengur": "no-greiðslukrafa-kvk",
+	"hash": "3f0fda43f471df488707ba365dd22a2eadf8c54284647e77c8c9a8ec0330759d"
+}

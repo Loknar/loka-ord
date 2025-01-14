@@ -1,0 +1,32 @@
+{
+	"orð": "meðalútlánavextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["meðalútlánavextir", "meðalútlánavexti", "meðalútlánavöxtum", "meðalútlánavaxta"],
+		"mg": ["meðalútlánavextirnir", "meðalútlánavextina", "meðalútlánavöxtunum", "meðalútlánavaxtanna"]
+	},
+	"kennistrengur": "no-meðalútlánavextir-kk",
+	"hash": "da3bc75ff56c95057e2b4427c35ff9ac39e1e6968c956302fb1dfa5ca34d9860"
+}

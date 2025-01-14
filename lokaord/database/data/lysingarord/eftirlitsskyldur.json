@@ -1,0 +1,43 @@
+{
+	"orð": "eftirlitsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "eftirlits",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eftirlit-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["eftirlitsskyldur", "eftirlitsskyldan", "eftirlitsskyldum", "eftirlitsskylds"],
+				"kvk": ["eftirlitsskyld", "eftirlitsskylda", "eftirlitsskyldri", "eftirlitsskyldrar"],
+				"hk": ["eftirlitsskylt", "eftirlitsskylt", "eftirlitsskyldu", "eftirlitsskylds"]
+			},
+			"ft": {
+				"kk": ["eftirlitsskyldir", "eftirlitsskylda", "eftirlitsskyldum", "eftirlitsskyldra"],
+				"kvk": ["eftirlitsskyldar", "eftirlitsskyldar", "eftirlitsskyldum", "eftirlitsskyldra"],
+				"hk": ["eftirlitsskyld", "eftirlitsskyld", "eftirlitsskyldum", "eftirlitsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["eftirlitsskyldi", "eftirlitsskylda", "eftirlitsskylda", "eftirlitsskylda"],
+				"kvk": ["eftirlitsskylda", "eftirlitsskyldu", "eftirlitsskyldu", "eftirlitsskyldu"],
+				"hk": ["eftirlitsskylda", "eftirlitsskylda", "eftirlitsskylda", "eftirlitsskylda"]
+			},
+			"ft": {
+				"kk": ["eftirlitsskyldu", "eftirlitsskyldu", "eftirlitsskyldu", "eftirlitsskyldu"],
+				"kvk": ["eftirlitsskyldu", "eftirlitsskyldu", "eftirlitsskyldu", "eftirlitsskyldu"],
+				"hk": ["eftirlitsskyldu", "eftirlitsskyldu", "eftirlitsskyldu", "eftirlitsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-eftirlitsskyldur",
+	"hash": "5542336b03e11a662d9331866e091a40a1b190844c4d3bb14336af9b4b4e8959"
+}

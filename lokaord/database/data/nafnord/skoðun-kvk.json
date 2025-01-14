@@ -2,6 +2,16 @@
 	"orð": "skoðun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skoð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-skoða"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["skoðun", "skoðun", "skoðun", "skoðunar"],
 		"mg": ["skoðunin", "skoðunina", "skoðuninni", "skoðunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["skoðanirnar", "skoðanirnar", "skoðununum", "skoðananna"]
 	},
 	"kennistrengur": "no-skoðun-kvk",
-	"hash": "e344cb73d2620644deb3e312572276af7e5315e7c4aa531e4c6ba6e86a94dcb4"
+	"hash": "749fd0708ba89f99584fe6919e36ed751dc3075c2e93dc14c15ee34be809f29d"
 }

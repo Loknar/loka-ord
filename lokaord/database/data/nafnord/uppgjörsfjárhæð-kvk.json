@@ -1,0 +1,35 @@
+{
+	"orð": "uppgjörsfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "gjörs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["uppgjörsfjárhæð", "uppgjörsfjárhæð", "uppgjörsfjárhæð", "uppgjörsfjárhæðar"],
+		"mg": ["uppgjörsfjárhæðin", "uppgjörsfjárhæðina", "uppgjörsfjárhæðinni", "uppgjörsfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["uppgjörsfjárhæðir", "uppgjörsfjárhæðir", "uppgjörsfjárhæðum", "uppgjörsfjárhæða"],
+		"mg": ["uppgjörsfjárhæðirnar", "uppgjörsfjárhæðirnar", "uppgjörsfjárhæðunum", "uppgjörsfjárhæðanna"]
+	},
+	"kennistrengur": "no-uppgjörsfjárhæð-kvk",
+	"hash": "d70bd15f49e4aa05dac76d910dc14c8da2d87ba680605e22759e79d1b9beab2c"
+}
