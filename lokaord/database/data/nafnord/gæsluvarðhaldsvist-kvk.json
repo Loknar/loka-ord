@@ -1,0 +1,30 @@
+{
+	"orð": "gæsluvarðhaldsvist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"mynd": "varð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vörður-kk"
+		},
+		{
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vist-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gæsluvarðhaldvist", "gæsluvarðhaldvist", "gæsluvarðhaldivist", "gæsluvarðhaldsvistar"],
+		"mg": ["gæsluvarðhaldiðvistin", "gæsluvarðhaldiðvistina", "gæsluvarðhaldinuvistinni", "gæsluvarðhaldsinsvistarinnar"]
+	},
+	"kennistrengur": "no-gæsluvarðhaldsvist-kvk",
+	"hash": "289595433fe9e037998bdea70b5baca8d04f3ebe88974ea0d7b437fdaac3d8be"
+}

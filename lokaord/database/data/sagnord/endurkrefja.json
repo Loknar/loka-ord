@@ -1,0 +1,87 @@
+{
+	"orð": "endurkrefja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-krefja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurkrefja",
+		"sagnbót": "endurkrafið",
+		"boðháttur": {
+			"stýfður": "endurkref",
+			"et": "endurkrefðu",
+			"ft": "endurkrefjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurkref", "endurkrefur", "endurkrefur"],
+					"ft": ["endurkrefjum", "endurkrefjið", "endurkrefja"]
+				},
+				"þátíð": {
+					"et": ["endurkrafði", "endurkrafðir", "endurkrafði"],
+					"ft": ["endurkröfðum", "endurkröfðuð", "endurkröfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurkrefji", "endurkrefjir", "endurkrefji"],
+					"ft": ["endurkrefjum", "endurkrefjið", "endurkrefji"]
+				},
+				"þátíð": {
+					"et": ["endurkrefði", "endurkrefðir", "endurkrefði"],
+					"ft": ["endurkrefðum", "endurkrefðuð", "endurkrefðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurkrefurðu",
+					"ft": "endurkrefjiði"
+				},
+				"þátíð": {
+					"et": "endurkrafðirðu",
+					"ft": "endurkröfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurkrefjirðu",
+					"ft": "endurkrefjiði"
+				},
+				"þátíð": {
+					"et": "endurkrefðirðu",
+					"ft": "endurkrefðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurkrefjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurkrafinn", "endurkrafinn", "endurkröfðum", "endurkrafins"],
+					"kvk": ["endurkrafin", "endurkrafða", "endurkrafinni", "endurkrafinnar"],
+					"hk": ["endurkrafið", "endurkrafið", "endurkröfðu", "endurkrafins"]
+				},
+				"ft": {
+					"kk": ["endurkrafðir", "endurkrafða", "endurkröfðum", "endurkrafinna"],
+					"kvk": ["endurkrafðar", "endurkrafðar", "endurkröfðum", "endurkrafinna"],
+					"hk": ["endurkrafin", "endurkrafin", "endurkröfðum", "endurkrafinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurkrefja",
+	"hash": "83fc47a42d12e5d1874f3243ef8770865e62bd3db68a85046fa52eb7c73510b5"
+}

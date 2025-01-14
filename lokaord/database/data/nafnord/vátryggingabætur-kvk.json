@@ -1,0 +1,27 @@
+{
+	"orð": "vátryggingabætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vátryggingabætur", "vátryggingabætur", "vátryggingabótum", "vátryggingabóta"],
+		"mg": ["vátryggingabæturnar", "vátryggingabæturnar", "vátryggingabótunum", "vátryggingabótanna"]
+	},
+	"kennistrengur": "no-vátryggingabætur-kvk",
+	"hash": "c5fbd7d9a87040db0225b8a95f33756692be3706939134034ae2acaf2a84e2b5"
+}
