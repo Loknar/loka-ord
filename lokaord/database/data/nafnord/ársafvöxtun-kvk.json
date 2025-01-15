@@ -1,0 +1,32 @@
+{
+	"orð": "ársafvöxtun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "árs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "vöxt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vöxtur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["ársafvöxtun", "ársafvöxtun", "ársafvöxtun", "ársafvöxtunar"],
+		"mg": ["ársafvöxtunin", "ársafvöxtunina", "ársafvöxtuninni", "ársafvöxtunarinnar"]
+	},
+	"kennistrengur": "no-ársafvöxtun-kvk",
+	"hash": "ca1d164b0f1fab9697693c08ada63b310ca4f1783e137e423f96d99b6ba6dd8f"
+}

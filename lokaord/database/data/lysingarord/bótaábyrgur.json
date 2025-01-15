@@ -1,0 +1,48 @@
+{
+	"orð": "bótaábyrgur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-byrgur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bótaábyrgur", "bótaábyrgan", "bótaábyrgum", "bótaábyrgs"],
+				"kvk": ["bótaábyrg", "bótaábyrga", "bótaábyrgri", "bótaábyrgrar"],
+				"hk": ["bótaábyrgt", "bótaábyrgt", "bótaábyrgu", "bótaábyrgs"]
+			},
+			"ft": {
+				"kk": ["bótaábyrgir", "bótaábyrga", "bótaábyrgum", "bótaábyrgra"],
+				"kvk": ["bótaábyrgar", "bótaábyrgar", "bótaábyrgum", "bótaábyrgra"],
+				"hk": ["bótaábyrg", "bótaábyrg", "bótaábyrgum", "bótaábyrgra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bótaábyrgi", "bótaábyrga", "bótaábyrga", "bótaábyrga"],
+				"kvk": ["bótaábyrga", "bótaábyrgu", "bótaábyrgu", "bótaábyrgu"],
+				"hk": ["bótaábyrga", "bótaábyrga", "bótaábyrga", "bótaábyrga"]
+			},
+			"ft": {
+				"kk": ["bótaábyrgu", "bótaábyrgu", "bótaábyrgu", "bótaábyrgu"],
+				"kvk": ["bótaábyrgu", "bótaábyrgu", "bótaábyrgu", "bótaábyrgu"],
+				"hk": ["bótaábyrgu", "bótaábyrgu", "bótaábyrgu", "bótaábyrgu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bótaábyrgur",
+	"hash": "7f76e4a9abaebf873f0ec5032883fd9a4bf7a8dca3695ed01f07a4c46c74149b"
+}

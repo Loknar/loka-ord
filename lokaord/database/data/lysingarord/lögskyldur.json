@@ -1,0 +1,43 @@
+{
+	"orð": "lögskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["lögskyldur", "lögskyldan", "lögskyldum", "lögskylds"],
+				"kvk": ["lögskyld", "lögskylda", "lögskyldri", "lögskyldrar"],
+				"hk": ["lögskylt", "lögskylt", "lögskyldu", "lögskylds"]
+			},
+			"ft": {
+				"kk": ["lögskyldir", "lögskylda", "lögskyldum", "lögskyldra"],
+				"kvk": ["lögskyldar", "lögskyldar", "lögskyldum", "lögskyldra"],
+				"hk": ["lögskyld", "lögskyld", "lögskyldum", "lögskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lögskyldi", "lögskylda", "lögskylda", "lögskylda"],
+				"kvk": ["lögskylda", "lögskyldu", "lögskyldu", "lögskyldu"],
+				"hk": ["lögskylda", "lögskylda", "lögskylda", "lögskylda"]
+			},
+			"ft": {
+				"kk": ["lögskyldu", "lögskyldu", "lögskyldu", "lögskyldu"],
+				"kvk": ["lögskyldu", "lögskyldu", "lögskyldu", "lögskyldu"],
+				"hk": ["lögskyldu", "lögskyldu", "lögskyldu", "lögskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-lögskyldur",
+	"hash": "ae1b81191817cd45fca167cc56ee53ff4307b9fa8b9e330dc4e506e72f2390c8"
+}

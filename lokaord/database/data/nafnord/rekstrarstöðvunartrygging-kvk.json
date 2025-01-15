@@ -1,0 +1,30 @@
+{
+	"orð": "rekstrarstöðvunartrygging",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"mynd": "stöðvunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stöðvun-kvk"
+		},
+		{
+			"kennistrengur": "no-trygging-kvk"
+		}
+	],
+	"et": {
+		"ág": ["rekstrarstöðvunartrygging", "rekstrarstöðvunartryggingu", "rekstrarstöðvunartryggingu", "rekstrarstöðvunartryggingar"],
+		"mg": ["rekstrarstöðvunartryggingin", "rekstrarstöðvunartrygginguna", "rekstrarstöðvunartryggingunni", "rekstrarstöðvunartryggingarinnar"]
+	},
+	"ft": {
+		"ág": ["rekstrarstöðvunartryggingar", "rekstrarstöðvunartryggingar", "rekstrarstöðvunartryggingum", "rekstrarstöðvunartrygginga"],
+		"mg": ["rekstrarstöðvunartryggingarnar", "rekstrarstöðvunartryggingarnar", "rekstrarstöðvunartryggingunum", "rekstrarstöðvunartrygginganna"]
+	},
+	"kennistrengur": "no-rekstrarstöðvunartrygging-kvk",
+	"hash": "446614621c4eeb91c8c5b764f3fcb79c91373913c0283866ebc0dffbc68b216e"
+}
