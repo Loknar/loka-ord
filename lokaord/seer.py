@@ -828,9 +828,25 @@ def check_if_string_is_number(mystr: str) -> bool:
 	'''
 	if mystr.isdigit():
 		return True
-	if len(mystr) >= 5 and mystr[-4] == '.' and mystr.replace('.', '', 1).isdigit():
+	if len(mystr) >= 5 and mystr[-4] == '.' and (mystr[:-4] + mystr[-3:]).isdigit():
 		# example: 100.000
-		# might wanna add checks for 1.000.000 too?
+		return True
+	if (
+		len(mystr) >= 9 and
+		mystr[-4] == '.' and
+		mystr[-8] == '.' and
+		(mystr[:-8] + mystr[-7:-4] + mystr[-3:]).isdigit()
+	):
+		# example: 1.000.000
+		return True
+	if (
+		len(mystr) >= 13 and
+		mystr[-4] == '.' and
+		mystr[-8] == '.' and
+		mystr[-12] == '.' and
+		(mystr[:-12] + mystr[-11:-8] + mystr[-7:-4] + mystr[-3:]).isdigit()
+	):
+		# example: 1.000.000.000
 		return True
 	try:
 		float(mystr.replace(',', '.', 1))
