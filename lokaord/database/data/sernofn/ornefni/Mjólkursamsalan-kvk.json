@@ -1,0 +1,27 @@
+{
+	"orð": "Mjólkursamsalan",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Mjólkur",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mjólk-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et-mg"],
+			"kennistrengur": "no-sala-kvk"
+		}
+	],
+	"et": {
+		"mg": ["Mjólkursamsalan", "Mjólkursamsöluna", "Mjólkursamsölunni", "Mjólkursamsölunnar"]
+	},
+	"kennistrengur": "sérn.ön-Mjólkursamsalan-kvk",
+	"hash": "d51b13d544efe6755d26dcfc17de9873d7200f0e447f4fc0efe8a732a8657af7"
+}

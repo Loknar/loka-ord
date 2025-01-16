@@ -8,7 +8,12 @@
 			"kennistrengur": "no-ryk-hk"
 		},
 		{
-			"kennistrengur": "so-suga-ó"
+			"mynd": "sug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-suga-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
 		}
 	],
 	"germynd": {
@@ -67,6 +72,10 @@
 	"miðmynd": {
 		"nafnháttur": "ryksugast",
 		"sagnbót": "ryksugast",
+		"boðháttur": {
+			"et": "ryksugastu",
+			"ft": "ryksugist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -138,5 +147,5 @@
 		}
 	},
 	"kennistrengur": "so-ryksuga",
-	"hash": "515ce56d7a514dddeea2c21c2a16626afcd323d2fe5ac9b78ed829f2c50f1f0b"
+	"hash": "f26de67948efb7418df2b5392a562f958ca7b92c20bc57e59c3ab178b700df7c"
 }
