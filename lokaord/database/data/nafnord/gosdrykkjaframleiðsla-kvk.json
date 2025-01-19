@@ -1,0 +1,32 @@
+{
+	"orð": "gosdrykkjaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gos",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gos-hk"
+		},
+		{
+			"mynd": "drykkja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-drykkur-kk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gosdrykkjaframleiðsla", "gosdrykkjaframleiðslu", "gosdrykkjaframleiðslu", "gosdrykkjaframleiðslu"],
+		"mg": ["gosdrykkjaframleiðslan", "gosdrykkjaframleiðsluna", "gosdrykkjaframleiðslunni", "gosdrykkjaframleiðslunnar"]
+	},
+	"kennistrengur": "no-gosdrykkjaframleiðsla-kvk",
+	"hash": "41f489870a3fd724d97a9135b89f8146146f22b39ff63314ecaf86504c43906c"
+}
