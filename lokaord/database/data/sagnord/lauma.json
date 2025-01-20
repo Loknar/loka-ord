@@ -1,9 +1,19 @@
 {
 	"orð": "lauma",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "laum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-laum-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "lauma",
-		"sagnbót": "laumast",
+		"sagnbót": "laumað",
 		"boðháttur": {
 			"stýfður": "lauma",
 			"et": "laumaðu",
@@ -45,7 +55,7 @@
 			"viðtengingarháttur": {
 				"nútíð": {
 					"et": "laumirðu",
-					"ft": "laumiðið"
+					"ft": "laumiði"
 				},
 				"þátíð": {
 					"et": "laumaðirðu",
@@ -112,9 +122,9 @@
 					"hk": ["laumað", "laumað", "laumuðu", "laumaðs"]
 				},
 				"ft": {
-					"kk": ["laumaðir", "laumaða", "laumaðum", "fundinna"],
-					"kvk": ["laumaðar", "laumaðar", "laumaðum", "fundinna"],
-					"hk": ["fundin", "fundin", "laumaðum", "fundinna"]
+					"kk": ["laumaðir", "laumaða", "laumuðum", "laumaðra"],
+					"kvk": ["laumaðar", "laumaðar", "laumuðum", "laumaðra"],
+					"hk": ["laumuð", "laumuð", "laumuðum", "laumaðra"]
 				}
 			},
 			"vb": {
@@ -132,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-lauma",
-	"hash": "253a3b42a13d20dc74ee55cd8fe4dd1a7b6f0818e8283a2786fabc68840031a8"
+	"hash": "8f36852fd21f3f35366362b665cf75db5ea0453a6abcf3d92cf8186d3774c881"
 }
