@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-hrund-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Hrund", "Hrund", "Hrund", "Hrundar"]
 	},
 	"kennistrengur": "sérn.en-Hrund-kvk",
-	"hash": "4a1547f0f597c725a4babf42a9ee7f87b5e06c0bf1dac036e91eea901a162a41"
+	"hash": "297044cee668ca7eb07211dde0213d34bdefb6582545c529495a4103572fa248"
 }
