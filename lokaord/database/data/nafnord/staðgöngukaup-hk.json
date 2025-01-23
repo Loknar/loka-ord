@@ -1,0 +1,27 @@
+{
+	"orð": "staðgöngukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "göngu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ganga-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["staðgöngukaup", "staðgöngukaup", "staðgöngukaupum", "staðgöngukaupa"],
+		"mg": ["staðgöngukaupin", "staðgöngukaupin", "staðgöngukaupunum", "staðgöngukaupanna"]
+	},
+	"kennistrengur": "no-staðgöngukaup-hk",
+	"hash": "5420dbf8d02f7aef2e10597b59d616dded58f02ce322a184b03950d82fa01b7a"
+}

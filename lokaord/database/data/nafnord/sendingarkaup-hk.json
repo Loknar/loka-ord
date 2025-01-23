@@ -1,0 +1,22 @@
+{
+	"orð": "sendingarkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sendingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sending-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["sendingarkaup", "sendingarkaup", "sendingarkaupum", "sendingarkaupa"],
+		"mg": ["sendingarkaupin", "sendingarkaupin", "sendingarkaupunum", "sendingarkaupanna"]
+	},
+	"kennistrengur": "no-sendingarkaup-hk",
+	"hash": "0965cbd0f15bccfef5d41941b481b997d3a8445f4944203881148df302b7fcd1"
+}

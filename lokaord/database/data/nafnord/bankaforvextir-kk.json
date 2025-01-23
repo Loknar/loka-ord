@@ -1,0 +1,27 @@
+{
+	"orð": "bankaforvextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["bankaforvextir", "bankaforvexti", "bankaforvöxtum", "bankaforvaxta"],
+		"mg": ["bankaforvextirnir", "bankaforvextina", "bankaforvöxtunum", "bankaforvaxtanna"]
+	},
+	"kennistrengur": "no-bankaforvextir-kk",
+	"hash": "82fb52d86f9b994671b88614ab842421d8fd78eafbcddd2dfcd28bdd322955fa"
+}

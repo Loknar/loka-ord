@@ -1,0 +1,87 @@
+{
+	"orð": "afsegja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-segja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afsegja",
+		"sagnbót": "afsagt",
+		"boðháttur": {
+			"stýfður": "afseg",
+			"et": "afsegðu",
+			"ft": "afsegið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afsegi", "afsegir", "afsegir"],
+					"ft": ["afsegjum", "afsegið", "afsegja"]
+				},
+				"þátíð": {
+					"et": ["afsagði", "afsagðir", "afsagði"],
+					"ft": ["afsögðum", "afsögðuð", "afsögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afsegi", "afsegir", "afsegi"],
+					"ft": ["afsegjum", "afsegið", "afsegi"]
+				},
+				"þátíð": {
+					"et": ["afsegði", "afsegðir", "afsegði"],
+					"ft": ["afsegðum", "afsegðuð", "afsegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afsegirðu",
+					"ft": "afsegiði"
+				},
+				"þátíð": {
+					"et": "afsagðirðu",
+					"ft": "afsögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afsegirðu",
+					"ft": "afsegiði"
+				},
+				"þátíð": {
+					"et": "afsegðirðu",
+					"ft": "afsegðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afsegjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afsagður", "afsagðan", "afsögðum", "afsagðs"],
+					"kvk": ["afsögð", "afsagða", "afsagðri", "afsagðrar"],
+					"hk": ["afsagt", "afsagt", "afsögðu", "afsagðs"]
+				},
+				"ft": {
+					"kk": ["afsagðir", "afsagða", "afsögðum", "afsagðra"],
+					"kvk": ["afsagðar", "afsagðar", "afsögðum", "afsagðra"],
+					"hk": ["afsögð", "afsögð", "afsögðum", "afsagðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afsegja",
+	"hash": "c19de06b3c0897340abacd5dfeb0f198074d10b57e309acaca41fba62359b842"
+}

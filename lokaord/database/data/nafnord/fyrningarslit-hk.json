@@ -1,0 +1,22 @@
+{
+	"orð": "fyrningarslit",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fyrningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fyrning-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-slit-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fyrningarslit", "fyrningarslit", "fyrningarslitum", "fyrningarslita"],
+		"mg": ["fyrningarslitin", "fyrningarslitin", "fyrningarslitunum", "fyrningarslitanna"]
+	},
+	"kennistrengur": "no-fyrningarslit-hk",
+	"hash": "a08d22b809af6216fa47ebdae546f05bd071647b7b128388ad808b30866b96e0"
+}

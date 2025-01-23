@@ -1,0 +1,27 @@
+{
+	"orð": "staðgreiðsluverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["staðgreiðsluverð", "staðgreiðsluverð", "staðgreiðsluverði", "staðgreiðsluverðs"],
+		"mg": ["staðgreiðsluverðið", "staðgreiðsluverðið", "staðgreiðsluverðinu", "staðgreiðsluverðsins"]
+	},
+	"kennistrengur": "no-staðgreiðsluverð-hk",
+	"hash": "ae39b572aec5682f18c19a97bf69597da2e646917b5a7702ed8ed2143e37eb73"
+}

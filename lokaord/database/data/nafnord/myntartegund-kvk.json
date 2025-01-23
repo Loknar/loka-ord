@@ -1,0 +1,25 @@
+{
+	"orð": "myntartegund",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "myntar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynt-kvk"
+		},
+		{
+			"kennistrengur": "no-tegund-kvk"
+		}
+	],
+	"et": {
+		"ág": ["myntartegund", "myntartegund", "myntartegund", "myntartegundar"],
+		"mg": ["myntartegundin", "myntartegundina", "myntartegundinni", "myntartegundarinnar"]
+	},
+	"ft": {
+		"ág": ["myntartegundir", "myntartegundir", "myntartegundum", "myntartegunda"],
+		"mg": ["myntartegundirnar", "myntartegundirnar", "myntartegundunum", "myntartegundanna"]
+	},
+	"kennistrengur": "no-myntartegund-kvk",
+	"hash": "b17851eb1b7e39e2790359a6f45d514ec4e26e778ec98a26951c18f088c99870"
+}

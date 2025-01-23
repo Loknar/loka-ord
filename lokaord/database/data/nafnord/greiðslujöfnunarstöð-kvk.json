@@ -1,0 +1,30 @@
+{
+	"orð": "greiðslujöfnunarstöð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "jöfnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jöfnun-kvk"
+		},
+		{
+			"kennistrengur": "no-stöð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslujöfnunarstöð", "greiðslujöfnunarstöð", "greiðslujöfnunarstöð", "greiðslujöfnunarstöðvar"],
+		"mg": ["greiðslujöfnunarstöðin", "greiðslujöfnunarstöðina", "greiðslujöfnunarstöðinni", "greiðslujöfnunarstöðvarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðslujöfnunarstöðvar", "greiðslujöfnunarstöðvar", "greiðslujöfnunarstöðvum", "greiðslujöfnunarstöðva"],
+		"mg": ["greiðslujöfnunarstöðvarnar", "greiðslujöfnunarstöðvarnar", "greiðslujöfnunarstöðvunum", "greiðslujöfnunarstöðvanna"]
+	},
+	"kennistrengur": "no-greiðslujöfnunarstöð-kvk",
+	"hash": "3076497bba50dff01a6886f863436aa593b13566462a5dd9d081816e25e5119e"
+}

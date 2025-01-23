@@ -1,0 +1,22 @@
+{
+	"orð": "reiðukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "reiðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reiða-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["reiðukaup", "reiðukaup", "reiðukaupum", "reiðukaupa"],
+		"mg": ["reiðukaupin", "reiðukaupin", "reiðukaupunum", "reiðukaupanna"]
+	},
+	"kennistrengur": "no-reiðukaup-hk",
+	"hash": "b0a95bb7d4f99f9eaad6ca6f7f8f82a72cb10bb10056dfa1e4cbcacf4c044c97"
+}

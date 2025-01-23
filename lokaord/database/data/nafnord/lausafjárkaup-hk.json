@@ -1,0 +1,27 @@
+{
+	"orð": "lausafjárkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lausa",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-laus"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["lausafjárkaup", "lausafjárkaup", "lausafjárkaupum", "lausafjárkaupa"],
+		"mg": ["lausafjárkaupin", "lausafjárkaupin", "lausafjárkaupunum", "lausafjárkaupanna"]
+	},
+	"kennistrengur": "no-lausafjárkaup-hk",
+	"hash": "dfdd2051a86d50c7519999ccf8de1f961e456f712c58c4d8f9d637cb02c4f98c"
+}

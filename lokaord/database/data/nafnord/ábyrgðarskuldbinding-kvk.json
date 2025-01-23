@@ -1,0 +1,30 @@
+{
+	"orð": "ábyrgðarskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ábyrgðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ábyrgð-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ábyrgðarskuldbinding", "ábyrgðarskuldbindingu", "ábyrgðarskuldbindingu", "ábyrgðarskuldbindingar"],
+		"mg": ["ábyrgðarskuldbindingin", "ábyrgðarskuldbindinguna", "ábyrgðarskuldbindingunni", "ábyrgðarskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["ábyrgðarskuldbindingar", "ábyrgðarskuldbindingar", "ábyrgðarskuldbindingum", "ábyrgðarskuldbindinga"],
+		"mg": ["ábyrgðarskuldbindingarnar", "ábyrgðarskuldbindingarnar", "ábyrgðarskuldbindingunum", "ábyrgðarskuldbindinganna"]
+	},
+	"kennistrengur": "no-ábyrgðarskuldbinding-kvk",
+	"hash": "2f5307d2326108263934c82c7f0931c8c696880812c4343b1ee08c2d407bfb6b"
+}

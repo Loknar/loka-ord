@@ -1,0 +1,130 @@
+{
+	"orð": "afborga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-borga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afborga",
+		"sagnbót": "afborgað",
+		"boðháttur": {
+			"stýfður": "afborga",
+			"et": "afborgaðu",
+			"ft": "afborgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afborga", "afborgar", "afborgar"],
+					"ft": ["afborgum", "afborgið", "afborga"]
+				},
+				"þátíð": {
+					"et": ["afborgaði", "afborgaðir", "afborgaði"],
+					"ft": ["afborguðum", "afborguðuð", "afborguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afborgi", "afborgir", "afborgi"],
+					"ft": ["afborgum", "afborgið", "afborgi"]
+				},
+				"þátíð": {
+					"et": ["afborgaði", "afborgaðir", "afborgaði"],
+					"ft": ["afborguðum", "afborguðuð", "afborguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afborgarðu",
+					"ft": "afborgiði"
+				},
+				"þátíð": {
+					"et": "afborgaðirðu",
+					"ft": "afborguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afborgirðu",
+					"ft": "afborgiði"
+				},
+				"þátíð": {
+					"et": "afborgaðirðu",
+					"ft": "afborguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afborgast",
+		"sagnbót": "afborgast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afborgast", "afborgast", "afborgast"],
+					"ft": ["afborgumst", "afborgist", "afborgast"]
+				},
+				"þátíð": {
+					"et": ["afborgaðist", "afborgaðist", "afborgaðist"],
+					"ft": ["afborguðumst", "afborguðust", "afborguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afborgist", "afborgist", "afborgist"],
+					"ft": ["afborgumst", "afborgist", "afborgist"]
+				},
+				"þátíð": {
+					"et": ["afborgaðist", "afborgaðist", "afborgaðist"],
+					"ft": ["afborguðumst", "afborguðust", "afborguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afborgastu"
+				},
+				"þátíð": {
+					"et": "afborgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afborgistu"
+				},
+				"þátíð": {
+					"et": "afborgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afborgaður", "afborgaðan", "afborguðum", "afborgaðs"],
+					"kvk": ["afborguð", "afborgaða", "afborgaðri", "afborgaðrar"],
+					"hk": ["afborgað", "afborgað", "afborguðu", "afborgaðs"]
+				},
+				"ft": {
+					"kk": ["afborgaðir", "afborgaða", "afborguðum", "afborgaðra"],
+					"kvk": ["afborgaðar", "afborgaðar", "afborguðum", "afborgaðra"],
+					"hk": ["afborguð", "afborguð", "afborguðum", "afborgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afborga",
+	"hash": "9ff120e1e95fd75c083da1cc528c85d1158c2783004743986904117fda70df12"
+}

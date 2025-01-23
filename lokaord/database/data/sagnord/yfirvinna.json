@@ -1,0 +1,117 @@
+{
+	"orð": "yfirvinna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vinna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirvinna",
+		"sagnbót": "yfirunnið",
+		"boðháttur": {
+			"stýfður": "yfirvinn",
+			"et": "yfirvinndu",
+			"ft": "yfirvinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirvinn", "yfirvinnur", "yfirvinnur"],
+					"ft": ["yfirvinnum", "yfirvinnið", "yfirvinna"]
+				},
+				"þátíð": {
+					"et": ["yfirvann", "yfirvannst", "yfirvann"],
+					"ft": ["yfirunnum", "yfirunnuð", "yfirunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirvinni", "yfirvinnir", "yfirvinni"],
+					"ft": ["yfirvinnum", "yfirvinnið", "yfirvinni"]
+				},
+				"þátíð": {
+					"et": ["yfirynni", "yfirynnir", "yfirynni"],
+					"ft": ["yfirynnum", "yfirynnuð", "yfirynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirvinnurðu",
+					"ft": "yfirvinniði"
+				},
+				"þátíð": {
+					"et": "yfirvannstu",
+					"ft": "yfirunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirvinnirðu",
+					"ft": "yfirvinniði"
+				},
+				"þátíð": {
+					"et": "yfirynnirðu",
+					"ft": "yfirynnuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "yfirvinnast",
+		"sagnbót": "yfirunnist",
+		"boðháttur": {
+			"et": "yfirvinnstu",
+			"ft": "yfirvinnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirvinnst", "yfirvinnst", "yfirvinnst"],
+					"ft": ["yfirvinnumst", "yfirvinnist", "yfirvinnast"]
+				},
+				"þátíð": {
+					"et": ["yfirvannst", "yfirvannst", "yfirvannst"],
+					"ft": ["yfirunnumst", "yfirunnust", "yfirunnust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirvinnist", "yfirvinnist", "yfirvinnist"],
+					"ft": ["yfirvinnumst", "yfirvinnist", "yfirvinnist"]
+				},
+				"þátíð": {
+					"et": ["yfirynnist", "yfirynnist", "yfirynnist"],
+					"ft": ["yfirynnumst", "yfirynnust", "yfirynnust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirvinnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirunninn", "yfirunninn", "yfirunnum", "yfirunnins"],
+					"kvk": ["yfirunnin", "yfirunna", "yfirunninni", "yfirunninnar"],
+					"hk": ["yfirunnið", "yfirunnið", "yfirunnu", "yfirunnins"]
+				},
+				"ft": {
+					"kk": ["yfirunnir", "yfirunna", "yfirunnum", "yfirunninna"],
+					"kvk": ["yfirunnar", "yfirunnar", "yfirunnum", "yfirunninna"],
+					"hk": ["yfirunnin", "yfirunnin", "yfirunnnum", "yfirunninna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirvinna",
+	"hash": "a190eb14b470b837d886eaa9714ab5c7f29ac350bb08f63c38b06a9b59b0ad5a"
+}

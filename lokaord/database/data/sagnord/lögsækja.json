@@ -1,0 +1,87 @@
+{
+	"orð": "lögsækja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sækja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lögsækja",
+		"sagnbót": "lögsótt",
+		"boðháttur": {
+			"stýfður": "lögsæk",
+			"et": "lögsæktu",
+			"ft": "lögsækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögsæki", "lögsækir", "lögsækir"],
+					"ft": ["lögsækjum", "lögsækið", "lögsækja"]
+				},
+				"þátíð": {
+					"et": ["lögsótti", "lögsóttir", "lögsótti"],
+					"ft": ["lögsóttum", "lögsóttuð", "lögsóttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögsæki", "lögsækir", "lögsæki"],
+					"ft": ["lögsækjum", "lögsækið", "lögsæki"]
+				},
+				"þátíð": {
+					"et": ["lögsækti", "lögsæktir", "lögsækti"],
+					"ft": ["lögsæktum", "lögsæktuð", "lögsæktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lögsækirðu",
+					"ft": "lögsækiði"
+				},
+				"þátíð": {
+					"et": "lögsæktirðu",
+					"ft": "lögsæktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lögsækirðu",
+					"ft": "lögsækiði"
+				},
+				"þátíð": {
+					"et": "lögsæktirðu",
+					"ft": "lögsæktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lögsækjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lögsóttur", "lögsóttan", "lögsóttum", "lögsótts"],
+					"kvk": ["lögsótt", "lögsótta", "lögsóttri", "lögsóttrar"],
+					"hk": ["lögsótt", "lögsótt", "lögsóttu", "lögsótts"]
+				},
+				"ft": {
+					"kk": ["lögsóttir", "lögsótta", "lögsóttum", "lögsóttra"],
+					"kvk": ["lögsóttar", "lögsóttar", "lögsóttum", "lögsóttra"],
+					"hk": ["lögsótt", "lögsótt", "lögsóttum", "lögsóttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lögsækja",
+	"hash": "b00f117fa534bdcc5073a55a33fd8362fdec36111f3d1e3db101939b0f222fe6"
+}

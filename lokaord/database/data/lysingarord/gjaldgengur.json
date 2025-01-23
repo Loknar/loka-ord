@@ -1,0 +1,43 @@
+{
+	"orð": "gjaldgengur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-gengur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["gjaldgengur", "gjaldgengan", "gjaldgengum", "gjaldgengs"],
+				"kvk": ["gjaldgeng", "gjaldgenga", "gjaldgengri", "gjaldgengrar"],
+				"hk": ["gjaldgengt", "gjaldgengt", "gjaldgengu", "gjaldgengs"]
+			},
+			"ft": {
+				"kk": ["gjaldgengir", "gjaldgenga", "gjaldgengum", "gjaldgengra"],
+				"kvk": ["gjaldgengar", "gjaldgengar", "gjaldgengum", "gjaldgengra"],
+				"hk": ["gjaldgeng", "gjaldgeng", "gjaldgengum", "gjaldgengra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gjaldgengi", "gjaldgenga", "gjaldgenga", "gjaldgenga"],
+				"kvk": ["gjaldgenga", "gjaldgengu", "gjaldgengu", "gjaldgengu"],
+				"hk": ["gjaldgenga", "gjaldgenga", "gjaldgenga", "gjaldgenga"]
+			},
+			"ft": {
+				"kk": ["gjaldgengu", "gjaldgengu", "gjaldgengu", "gjaldgengu"],
+				"kvk": ["gjaldgengu", "gjaldgengu", "gjaldgengu", "gjaldgengu"],
+				"hk": ["gjaldgengu", "gjaldgengu", "gjaldgengu", "gjaldgengu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-gjaldgengur",
+	"hash": "e5cc1644e06cb51e6c847d801e9d527abfc2fc3de182327aaf2307877a622ac4"
+}
