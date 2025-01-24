@@ -1,0 +1,22 @@
+{
+	"orð": "pöntunarkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "pöntunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-pöntun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["pöntunarkaup", "pöntunarkaup", "pöntunarkaupum", "pöntunarkaupa"],
+		"mg": ["pöntunarkaupin", "pöntunarkaupin", "pöntunarkaupunum", "pöntunarkaupanna"]
+	},
+	"kennistrengur": "no-pöntunarkaup-hk",
+	"hash": "c783687ce9d4cc91b5a63645920205b7f6fb7517295612abe44881cea5ca1705"
+}

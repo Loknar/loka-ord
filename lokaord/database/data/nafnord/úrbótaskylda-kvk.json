@@ -1,0 +1,27 @@
+{
+	"orð": "úrbótaskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["úrbótaskylda", "úrbótaskyldu", "úrbótaskyldu", "úrbótaskyldu"],
+		"mg": ["úrbótaskyldan", "úrbótaskylduna", "úrbótaskyldunni", "úrbótaskyldunnar"]
+	},
+	"kennistrengur": "no-úrbótaskylda-kvk",
+	"hash": "42fdfea8152737dde7a93313f145f5120159c2957e73b9e5ec8208daeada77a6"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "kaupsamningsgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "samnings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-samningur-kk"
+		},
+		{
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kaupsamningsgerð", "kaupsamningsgerð", "kaupsamningsgerð", "kaupsamningsgerðar"],
+		"mg": ["kaupsamningsgerðin", "kaupsamningsgerðina", "kaupsamningsgerðinni", "kaupsamningsgerðarinnar"]
+	},
+	"ft": {
+		"ág": ["kaupsamningsgerðir", "kaupsamningsgerðir", "kaupsamningsgerðum", "kaupsamningsgerða"],
+		"mg": ["kaupsamningsgerðirnar", "kaupsamningsgerðirnar", "kaupsamningsgerðunum", "kaupsamningsgerðanna"]
+	},
+	"kennistrengur": "no-kaupsamningsgerð-kvk",
+	"hash": "9717efa6a61fe12970f3a849e9645970f028d869b08f249c0bf75c38de058719"
+}

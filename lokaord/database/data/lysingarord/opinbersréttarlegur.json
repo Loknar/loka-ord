@@ -1,0 +1,53 @@
+{
+	"orð": "opinbersréttarlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "opin",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-opinn"
+		},
+		{
+			"mynd": "bers",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "lo-ber"
+		},
+		{
+			"mynd": "réttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["opinbersréttarlegur", "opinbersréttarlegan", "opinbersréttarlegum", "opinbersréttarlegs"],
+				"kvk": ["opinbersréttarleg", "opinbersréttarlega", "opinbersréttarlegri", "opinbersréttarlegrar"],
+				"hk": ["opinbersréttarlegt", "opinbersréttarlegt", "opinbersréttarlegu", "opinbersréttarlegs"]
+			},
+			"ft": {
+				"kk": ["opinbersréttarlegir", "opinbersréttarlega", "opinbersréttarlegum", "opinbersréttarlegra"],
+				"kvk": ["opinbersréttarlegar", "opinbersréttarlegar", "opinbersréttarlegum", "opinbersréttarlegra"],
+				"hk": ["opinbersréttarleg", "opinbersréttarleg", "opinbersréttarlegum", "opinbersréttarlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["opinbersréttarlegi", "opinbersréttarlega", "opinbersréttarlega", "opinbersréttarlega"],
+				"kvk": ["opinbersréttarlega", "opinbersréttarlegu", "opinbersréttarlegu", "opinbersréttarlegu"],
+				"hk": ["opinbersréttarlega", "opinbersréttarlega", "opinbersréttarlega", "opinbersréttarlega"]
+			},
+			"ft": {
+				"kk": ["opinbersréttarlegu", "opinbersréttarlegu", "opinbersréttarlegu", "opinbersréttarlegu"],
+				"kvk": ["opinbersréttarlegu", "opinbersréttarlegu", "opinbersréttarlegu", "opinbersréttarlegu"],
+				"hk": ["opinbersréttarlegu", "opinbersréttarlegu", "opinbersréttarlegu", "opinbersréttarlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-opinbersréttarlegur",
+	"hash": "77505d2259408a2db9edcf1ace208c94720573b812c1c5778cd6baf52e52db7b"
+}
