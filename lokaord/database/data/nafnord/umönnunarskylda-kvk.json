@@ -1,0 +1,27 @@
+{
+	"orð": "umönnunarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "önnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-önnun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["umönnunarskylda", "umönnunarskyldu", "umönnunarskyldu", "umönnunarskyldu"],
+		"mg": ["umönnunarskyldan", "umönnunarskylduna", "umönnunarskyldunni", "umönnunarskyldunnar"]
+	},
+	"kennistrengur": "no-umönnunarskylda-kvk",
+	"hash": "5b94d1bda01dfd6446dcbcec42ab9610a0e1c5b28b8472d5548511cccd6c8d14"
+}

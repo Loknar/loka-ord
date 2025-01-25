@@ -1,0 +1,99 @@
+{
+	"orð": "fyrirgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fyrirgera",
+		"sagnbót": "fyrirgert",
+		"boðháttur": {
+			"stýfður": "fyrirger",
+			"et": "fyrirgerðu",
+			"ft": "fyrirgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirgeri", "fyrirgerir", "fyrirgerir"],
+					"ft": ["fyrirgerum", "fyrirgerið", "fyrirgera"]
+				},
+				"þátíð": {
+					"et": ["fyrirgerði", "fyrirgerðir", "fyrirgerði"],
+					"ft": ["fyrirgerðum", "fyrirgerðuð", "fyrirgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirgeri", "fyrirgerir", "fyrirgeri"],
+					"ft": ["fyrirgerum", "fyrirgerið", "fyrirgeri"]
+				},
+				"þátíð": {
+					"et": ["fyrirgerði", "fyrirgerðir", "fyrirgerði"],
+					"ft": ["fyrirgerðum", "fyrirgerðuð", "fyrirgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirgerirðu",
+					"ft": "fyrirgeriði"
+				},
+				"þátíð": {
+					"et": "fyrirgerðirðu",
+					"ft": "fyrirgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirgerirðu",
+					"ft": "fyrirgeriði"
+				},
+				"þátíð": {
+					"et": "fyrirgerðirðu",
+					"ft": "fyrirgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fyrirgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fyrirgerður", "fyrirgerðan", "fyrirgerðum", "fyrirgerðs"],
+					"kvk": ["fyrirgerð", "fyrirgerða", "fyrirgerðri", "fyrirgerðrar"],
+					"hk": ["fyrirgert", "fyrirgert", "fyrirgerðu", "fyrirgerðs"]
+				},
+				"ft": {
+					"kk": ["fyrirgerðir", "fyrirgerða", "fyrirgerðum", "fyrirgerðra"],
+					"kvk": ["fyrirgerðar", "fyrirgerðar", "fyrirgerðum", "fyrirgerðra"],
+					"hk": ["fyrirgerð", "fyrirgerð", "fyrirgerðum", "fyrirgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fyrirgerði", "fyrirgerða", "fyrirgerða", "fyrirgerða"],
+					"kvk": ["fyrirgerða", "fyrirgerðu", "fyrirgerðu", "fyrirgerðu"],
+					"hk": ["fyrirgerða", "fyrirgerða", "fyrirgerða", "fyrirgerða"]
+				},
+				"ft": {
+					"kk": ["fyrirgerðu", "fyrirgerðu", "fyrirgerðu", "fyrirgerðu"],
+					"kvk": ["fyrirgerðu", "fyrirgerðu", "fyrirgerðu", "fyrirgerðu"],
+					"hk": ["fyrirgerðu", "fyrirgerðu", "fyrirgerðu", "fyrirgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fyrirgera",
+	"hash": "432249b5e0afa3852b08c4788579421eb2ee3a63f64c2805648474c61b5569aa"
+}

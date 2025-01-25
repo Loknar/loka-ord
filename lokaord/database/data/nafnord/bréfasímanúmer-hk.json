@@ -1,0 +1,30 @@
+{
+	"orð": "bréfasímanúmer",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"mynd": "síma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sími-kk"
+		},
+		{
+			"kennistrengur": "no-númer-hk"
+		}
+	],
+	"et": {
+		"ág": ["bréfasímanúmer", "bréfasímanúmer", "bréfasímanúmeri", "bréfasímanúmers"],
+		"mg": ["bréfasímanúmerið", "bréfasímanúmerið", "bréfasímanúmerinu", "bréfasímanúmersins"]
+	},
+	"ft": {
+		"ág": ["bréfasímanúmer", "bréfasímanúmer", "bréfasímanúmerum", "bréfasímanúmera"],
+		"mg": ["bréfasímanúmerin", "bréfasímanúmerin", "bréfasímanúmerunum", "bréfasímanúmeranna"]
+	},
+	"kennistrengur": "no-bréfasímanúmer-hk",
+	"hash": "dcdb0b71c7b133886e7e2a149c5c9ddd0686341ae050d1bfa0c7d7097062e753"
+}
