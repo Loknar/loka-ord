@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluaðlögun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"kennistrengur": "no-lögun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["námsaðlögun", "námsaðlögun", "námsaðlögun", "námsaðlögunar"],
+		"mg": ["námsaðlögunin", "námsaðlögunina", "námsaðlöguninni", "námsaðlögunarinnar"]
+	},
+	"ft": {
+		"ág": ["námsaðlaganir", "námsaðlaganir", "námsaðlögunum", "námsaðlagana"],
+		"mg": ["námsaðlaganirnar", "námsaðlaganirnar", "námsaðlögununum", "námsaðlagananna"]
+	},
+	"kennistrengur": "no-námsaðlögun-kvk",
+	"hash": "811abd5bc0539f5d1ee11510f2ee12a75134625d6a17f1da45abe13e7933bac2"
+}

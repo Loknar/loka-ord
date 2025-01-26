@@ -1,0 +1,30 @@
+{
+	"orð": "sjálfskuldarábyrgð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjálf",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.áb-sjálfur"
+		},
+		{
+			"mynd": "skuldar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-ábyrgð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["meðábyrgð", "meðábyrgð", "meðábyrgð", "meðábyrgðar"],
+		"mg": ["meðábyrgðin", "meðábyrgðina", "meðábyrgðinni", "meðábyrgðarinnar"]
+	},
+	"ft": {
+		"ág": ["meðábyrgðir", "meðábyrgðir", "meðábyrgðum", "meðábyrgða"],
+		"mg": ["meðábyrgðirnar", "meðábyrgðirnar", "meðábyrgðunum", "meðábyrgðanna"]
+	},
+	"kennistrengur": "no-meðábyrgð-kvk",
+	"hash": "6ae7cd475a526f89b437537a9b303727c1a5815d465cec8f63536682db8e20c1"
+}
