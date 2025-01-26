@@ -1,0 +1,30 @@
+{
+	"orð": "ábyrgðarpóstsending",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ábyrgðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ábyrgð-kvk"
+		},
+		{
+			"mynd": "póst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-póstur-kk"
+		},
+		{
+			"kennistrengur": "no-sending-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ábyrgðarpóstsending", "ábyrgðarpóstsendingu", "ábyrgðarpóstsendingu", "ábyrgðarpóstsendingar"],
+		"mg": ["ábyrgðarpóstsendingin", "ábyrgðarpóstsendinguna", "ábyrgðarpóstsendingunni", "ábyrgðarpóstsendingarinnar"]
+	},
+	"ft": {
+		"ág": ["ábyrgðarpóstsendingar", "ábyrgðarpóstsendingar", "ábyrgðarpóstsendingum", "ábyrgðarpóstsendinga"],
+		"mg": ["ábyrgðarpóstsendingarnar", "ábyrgðarpóstsendingarnar", "ábyrgðarpóstsendingunum", "ábyrgðarpóstsendinganna"]
+	},
+	"kennistrengur": "no-ábyrgðarpóstsending-kvk",
+	"hash": "e1fa35f4020dfa773c0af667db093cd3c1f646f2f781570ec8ce14b328665f6b"
+}

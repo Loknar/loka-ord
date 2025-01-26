@@ -1,0 +1,30 @@
+{
+	"orð": "samningsskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "samnings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-samningur-kk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["samningsskuldbinding", "samningsskuldbindingu", "samningsskuldbindingu", "samningsskuldbindingar"],
+		"mg": ["samningsskuldbindingin", "samningsskuldbindinguna", "samningsskuldbindingunni", "samningsskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["samningsskuldbindingar", "samningsskuldbindingar", "samningsskuldbindingum", "samningsskuldbindinga"],
+		"mg": ["samningsskuldbindingarnar", "samningsskuldbindingarnar", "samningsskuldbindingunum", "samningsskuldbindinganna"]
+	},
+	"kennistrengur": "no-samningsskuldbinding-kvk",
+	"hash": "3fefa239f51cbbc4efca911ed3721670ffefa2f8a2b152df0d478e6a6c6f2d67"
+}

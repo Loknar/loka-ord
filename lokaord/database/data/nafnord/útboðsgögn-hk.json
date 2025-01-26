@@ -1,0 +1,27 @@
+{
+	"orð": "útboðsgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["útboðsgögn", "útboðsgögn", "útboðsgögnum", "útboðsgagna"],
+		"mg": ["útboðsgögnin", "útboðsgögnin", "útboðsgögnunum", "útboðsgagnanna"]
+	},
+	"kennistrengur": "no-útboðsgögn-hk",
+	"hash": "a2fa17c7f5bdbf6da01738af107559bb07e66dbd8da0e9247a9295f334268735"
+}

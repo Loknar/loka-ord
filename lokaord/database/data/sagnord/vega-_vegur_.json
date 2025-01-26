@@ -1,0 +1,136 @@
+{
+	"orð": "vega",
+	"flokkur": "sagnorð",
+	"merking": "vegur",
+	"samsett": [
+		{
+			"mynd": "veg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vegur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vega",
+		"sagnbót": "vegað",
+		"boðháttur": {
+			"stýfður": "vega",
+			"et": "vegaðu",
+			"ft": "vegið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vega", "vegar", "vegar"],
+					"ft": ["vegum", "vegið", "vega"]
+				},
+				"þátíð": {
+					"et": ["vegaði", "vegaðir", "vegaði"],
+					"ft": ["veguðum", "veguðuð", "veguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vegi", "vegir", "vegi"],
+					"ft": ["vegum", "vegið", "vegi"]
+				},
+				"þátíð": {
+					"et": ["vegaði", "vegaðir", "vegaði"],
+					"ft": ["veguðum", "veguðuð", "veguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vegarðu",
+					"ft": "vegiði"
+				},
+				"þátíð": {
+					"et": "vegaðirðu",
+					"ft": "veguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vegirðu",
+					"ft": "vegiði"
+				},
+				"þátíð": {
+					"et": "vegaðirðu",
+					"ft": "veguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vegast",
+		"sagnbót": "vegast",
+		"boðháttur": {
+			"et": "vegastu",
+			"ft": "vegist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vegast", "vegast", "vegast"],
+					"ft": ["vegumst", "vegist", "vegast"]
+				},
+				"þátíð": {
+					"et": ["vegaðist", "vegaðist", "vegaðist"],
+					"ft": ["veguðumst", "veguðust", "veguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vegist", "vegist", "vegist"],
+					"ft": ["vegumst", "vegist", "vegist"]
+				},
+				"þátíð": {
+					"et": ["vegaðist", "vegaðist", "vegaðist"],
+					"ft": ["veguðumst", "veguðust", "veguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vegastu"
+				},
+				"þátíð": {
+					"et": "vegaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vegistu"
+				},
+				"þátíð": {
+					"et": "vegaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vegandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vegaður", "vegaðan", "veguðum", "vegaðs"],
+					"kvk": ["veguð", "vegaða", "vegaðri", "vegaðrar"],
+					"hk": ["vegað", "vegað", "veguðu", "vegaðs"]
+				},
+				"ft": {
+					"kk": ["vegaðir", "vegaða", "veguðum", "vegaðra"],
+					"kvk": ["vegaðar", "vegaðar", "veguðum", "vegaðra"],
+					"hk": ["veguð", "veguð", "veguðum", "vegaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vega-_vegur_",
+	"hash": "57c7e3858e9e7e7bc705867cc3dc4212329107e346206068a400e99be02aa431"
+}

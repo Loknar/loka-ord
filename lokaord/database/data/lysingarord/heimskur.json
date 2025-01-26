@@ -1,6 +1,16 @@
 {
 	"orð": "heimskur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "heim",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-heim"
+		},
+		{
+			"kennistrengur": "lo-skur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-heimskur",
-	"hash": "9e4c3601573d0f0a99fc52733092576a7ae387e7ce873118dfdc8bc3ce36d4c5"
+	"hash": "6af58216d68f8b78b4dfd3baa9228a06606e00cb41ccea0c22d1686298b2c754"
 }

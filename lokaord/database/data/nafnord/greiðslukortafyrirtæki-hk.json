@@ -1,0 +1,35 @@
+{
+	"orð": "greiðslukortafyrirtæki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "korta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"kennistrengur": "no-tæki-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslukortafyrirtæki", "greiðslukortafyrirtæki", "greiðslukortafyrirtæki", "greiðslukortafyrirtækis"],
+		"mg": ["greiðslukortafyrirtækið", "greiðslukortafyrirtækið", "greiðslukortafyrirtækinu", "greiðslukortafyrirtækisins"]
+	},
+	"ft": {
+		"ág": ["greiðslukortafyrirtæki", "greiðslukortafyrirtæki", "greiðslukortafyrirtækjum", "greiðslukortafyrirtækja"],
+		"mg": ["greiðslukortafyrirtækin", "greiðslukortafyrirtækin", "greiðslukortafyrirtækjunum", "greiðslukortafyrirtækjanna"]
+	},
+	"kennistrengur": "no-greiðslukortafyrirtæki-hk",
+	"hash": "d02693ab95f5cdb9cbe041776475c848a112353c236731ae9eaa36e1876e15eb"
+}

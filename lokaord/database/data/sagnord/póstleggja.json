@@ -1,0 +1,87 @@
+{
+	"orð": "póstleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "póst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-póstur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "póstleggja",
+		"sagnbót": "póstlagt",
+		"boðháttur": {
+			"stýfður": "póstlegg",
+			"et": "póstleggðu",
+			"ft": "póstleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["póstlegg", "póstleggur", "póstleggur"],
+					"ft": ["póstleggjum", "póstleggið", "póstleggja"]
+				},
+				"þátíð": {
+					"et": ["póstlagði", "póstlagðir", "póstlagði"],
+					"ft": ["póstlögðum", "póstlögðuð", "póstlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["póstleggi", "póstleggir", "póstleggi"],
+					"ft": ["póstleggjum", "póstleggið", "póstleggi"]
+				},
+				"þátíð": {
+					"et": ["póstlegði", "póstlegðir", "póstlegði"],
+					"ft": ["póstlegðum", "póstlegðuð", "póstlegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "póstleggurðu",
+					"ft": "póstleggiði"
+				},
+				"þátíð": {
+					"et": "póstlagðirðu",
+					"ft": "póstlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "póstleggirðu",
+					"ft": "póstleggiði"
+				},
+				"þátíð": {
+					"et": "póstleggðirðu",
+					"ft": "póstleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "póstleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["póstlagður", "póstlagðan", "póstlögðum", "póstlagðs"],
+					"kvk": ["póstlögð", "póstlagða", "póstlagðri", "póstlagðrar"],
+					"hk": ["póstlagt", "póstlagt", "póstlögðu", "póstlagðs"]
+				},
+				"ft": {
+					"kk": ["póstlagðir", "póstlagða", "póstlögðum", "póstlagðra"],
+					"kvk": ["póstlagðar", "póstlagðar", "póstlögðum", "póstlagðra"],
+					"hk": ["póstlögð", "póstlögð", "póstlögðum", "póstlagðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-póstleggja",
+	"hash": "9e379a7e4b75f07a58a189c1fe0e0da456988de8a5c34b17338dc2fcd1652bf0"
+}
