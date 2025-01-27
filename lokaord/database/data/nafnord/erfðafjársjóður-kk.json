@@ -1,0 +1,30 @@
+{
+	"orð": "erfðafjársjóður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "erfða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-erfð-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-sjóður-kk"
+		}
+	],
+	"et": {
+		"ág": ["erfðafjársjóður", "erfðafjársjóð", "erfðafjársjóð", "erfðafjársjóðs"],
+		"mg": ["erfðafjársjóðurinn", "erfðafjársjóðinn", "erfðafjársjóðnum", "erfðafjársjóðsins"]
+	},
+	"ft": {
+		"ág": ["erfðafjársjóðir", "erfðafjársjóði", "erfðafjársjóðum", "erfðafjársjóða"],
+		"mg": ["erfðafjársjóðirnir", "erfðafjársjóðina", "erfðafjársjóðunum", "erfðafjársjóðanna"]
+	},
+	"kennistrengur": "no-erfðafjársjóður-kk",
+	"hash": "eba968ed3419ab33b36f1001f308b5d5d7b93f897d18d62f41cc416fa22d079e"
+}

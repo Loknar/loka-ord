@@ -1,0 +1,48 @@
+{
+	"orð": "arfleiðsluhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "arf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-arfur-kk"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["arfleiðsluhæfur", "arfleiðsluhæfan", "arfleiðsluhæfum", "arfleiðsluhæfs"],
+				"kvk": ["arfleiðsluhæf", "arfleiðsluhæfa", "arfleiðsluhæfri", "arfleiðsluhæfrar"],
+				"hk": ["arfleiðsluhæft", "arfleiðsluhæft", "arfleiðsluhæfu", "arfleiðsluhæfs"]
+			},
+			"ft": {
+				"kk": ["arfleiðsluhæfir", "arfleiðsluhæfa", "arfleiðsluhæfum", "arfleiðsluhæfra"],
+				"kvk": ["arfleiðsluhæfar", "arfleiðsluhæfar", "arfleiðsluhæfum", "arfleiðsluhæfra"],
+				"hk": ["arfleiðsluhæf", "arfleiðsluhæf", "arfleiðsluhæfum", "arfleiðsluhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["arfleiðsluhæfi", "arfleiðsluhæfa", "arfleiðsluhæfa", "arfleiðsluhæfa"],
+				"kvk": ["arfleiðsluhæfa", "arfleiðsluhæfu", "arfleiðsluhæfu", "arfleiðsluhæfu"],
+				"hk": ["arfleiðsluhæfa", "arfleiðsluhæfa", "arfleiðsluhæfa", "arfleiðsluhæfa"]
+			},
+			"ft": {
+				"kk": ["arfleiðsluhæfu", "arfleiðsluhæfu", "arfleiðsluhæfu", "arfleiðsluhæfu"],
+				"kvk": ["arfleiðsluhæfu", "arfleiðsluhæfu", "arfleiðsluhæfu", "arfleiðsluhæfu"],
+				"hk": ["arfleiðsluhæfu", "arfleiðsluhæfu", "arfleiðsluhæfu", "arfleiðsluhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-arfleiðsluhæfur",
+	"hash": "56e57443108e8fce6f2bc8f7a83536268bc9688473f809399aa4296fe53b90f5"
+}

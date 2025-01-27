@@ -1,0 +1,87 @@
+{
+	"orð": "sortna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sortn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-sorta-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sortna",
+		"sagnbót": "sortnað",
+		"boðháttur": {
+			"stýfður": "sortna",
+			"et": "sortnaðu",
+			"ft": "sortnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sortna", "sortnar", "sortnar"],
+					"ft": ["sortnum", "sortnið", "sortna"]
+				},
+				"þátíð": {
+					"et": ["sortnaði", "sortnaðir", "sortnaði"],
+					"ft": ["sortnuðum", "sortnuðuð", "sortnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sortni", "sortnir", "sortni"],
+					"ft": ["sortnum", "sortnið", "sortni"]
+				},
+				"þátíð": {
+					"et": ["sortnaði", "sortnaðir", "sortnaði"],
+					"ft": ["sortnuðum", "sortnuðuð", "sortnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sortnarðu",
+					"ft": "sortniði"
+				},
+				"þátíð": {
+					"et": "sortnaðirðu",
+					"ft": "sortnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sortnirðu",
+					"ft": "sortniði"
+				},
+				"þátíð": {
+					"et": "sortnaðirðu",
+					"ft": "sortnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sortnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sortnaður", "sortnaðan", "sortnuðum", "sortnaðs"],
+					"kvk": ["sortnuð", "sortnaða", "sortnaðri", "sortnaðrar"],
+					"hk": ["sortnað", "sortnað", "sortnuðu", "sortnaðs"]
+				},
+				"ft": {
+					"kk": ["sortnaðir", "sortnaða", "sortnuðum", "sortnaðra"],
+					"kvk": ["sortnaðar", "sortnaðar", "sortnuðum", "sortnaðra"],
+					"hk": ["sortnuð", "sortnuð", "sortnuðum", "sortnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sortna",
+	"hash": "66c7300325375e508feb2e9297f7a398794d12310067a57279273d88b45a3be9"
+}

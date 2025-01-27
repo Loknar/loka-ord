@@ -1,0 +1,135 @@
+{
+	"orð": "rúnka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rúnk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rúnk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rúnka",
+		"sagnbót": "rúnkað",
+		"boðháttur": {
+			"stýfður": "rúnka",
+			"et": "rúnkaðu",
+			"ft": "rúnkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rúnka", "rúnkar", "rúnkar"],
+					"ft": ["rúnkum", "rúnkið", "rúnka"]
+				},
+				"þátíð": {
+					"et": ["rúnkaði", "rúnkaðir", "rúnkaði"],
+					"ft": ["rúnkuðum", "rúnkuðuð", "rúnkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rúnki", "rúnkir", "rúnki"],
+					"ft": ["rúnkum", "rúnkið", "rúnki"]
+				},
+				"þátíð": {
+					"et": ["rúnkaði", "rúnkaðir", "rúnkaði"],
+					"ft": ["rúnkuðum", "rúnkuðuð", "rúnkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rúnkarðu",
+					"ft": "rúnkiði"
+				},
+				"þátíð": {
+					"et": "rúnkaðirðu",
+					"ft": "rúnkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rúnkirðu",
+					"ft": "rúnkiði"
+				},
+				"þátíð": {
+					"et": "rúnkaðirðu",
+					"ft": "rúnkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rúnkast",
+		"sagnbót": "rúnkast",
+		"boðháttur": {
+			"et": "rúnkastu",
+			"ft": "rúnkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rúnkast", "rúnkast", "rúnkast"],
+					"ft": ["rúnkumst", "rúnkist", "rúnkast"]
+				},
+				"þátíð": {
+					"et": ["rúnkaðist", "rúnkaðist", "rúnkaðist"],
+					"ft": ["rúnkuðumst", "rúnkuðust", "rúnkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rúnkist", "rúnkist", "rúnkist"],
+					"ft": ["rúnkumst", "rúnkist", "rúnkist"]
+				},
+				"þátíð": {
+					"et": ["rúnkaðist", "rúnkaðist", "rúnkaðist"],
+					"ft": ["rúnkuðumst", "rúnkuðust", "rúnkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rúnkastu"
+				},
+				"þátíð": {
+					"et": "rúnkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rúnkistu"
+				},
+				"þátíð": {
+					"et": "rúnkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rúnkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rúnkaður", "rúnkaðan", "rúnkuðum", "rúnkaðs"],
+					"kvk": ["rúnkuð", "rúnkaða", "rúnkaðri", "rúnkaðrar"],
+					"hk": ["rúnkað", "rúnkað", "rúnkuðu", "rúnkaðs"]
+				},
+				"ft": {
+					"kk": ["rúnkaðir", "rúnkaða", "rúnkuðum", "rúnkaðra"],
+					"kvk": ["rúnkaðar", "rúnkaðar", "rúnkuðum", "rúnkaðra"],
+					"hk": ["rúnkuð", "rúnkuð", "rúnkuðum", "rúnkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rúnka",
+	"hash": "5cf0701371d54e844325a5688316f4c8ed6d45defb12c9db052a32757481bc9a"
+}

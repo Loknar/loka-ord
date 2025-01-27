@@ -1,0 +1,76 @@
+{
+	"orð": "stynja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "stynja",
+		"sagnbót": "stunið",
+		"boðháttur": {
+			"stýfður": "styn",
+			"et": "styndu",
+			"ft": "stynjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["styn", "stynur", "stynur"],
+					"ft": ["stynjum", "stynjið", "stynja"]
+				},
+				"þátíð": {
+					"et": ["stundi", "stundir", "stundi"],
+					"ft": ["stundum", "stunduð", "stundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stynji", "stynjir", "stynji"],
+					"ft": ["stynjum", "stynjið", "stynji"]
+				},
+				"þátíð": {
+					"et": ["styndi", "styndir", "styndi"],
+					"ft": ["styndum", "stynduð", "styndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stynurðu",
+					"ft": "stynjiði"
+				},
+				"þátíð": {
+					"et": "stundirðu",
+					"ft": "stunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stynjirðu",
+					"ft": "stynjiði"
+				},
+				"þátíð": {
+					"et": "styndirðu",
+					"ft": "stynduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stynjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stuninn", "stuninn", "stundum", "stunins"],
+					"kvk": ["stunin", "stunda", "stuninni", "stuninnar"],
+					"hk": ["stunið", "stunið", "stundu", "stunins"]
+				},
+				"ft": {
+					"kk": ["stundir", "stunda", "stundum", "stuninna"],
+					"kvk": ["stundar", "stundar", "stundum", "stuninna"],
+					"hk": ["stunin", "stunin", "stundum", "stuninna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stynja",
+	"hash": "1b70d043a2031e6f99805a1038a6a322354e7593a704d7fb0319e74a7ace958d"
+}

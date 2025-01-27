@@ -1,0 +1,135 @@
+{
+	"orð": "runka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "runk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-runk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "runka",
+		"sagnbót": "runkað",
+		"boðháttur": {
+			"stýfður": "runka",
+			"et": "runkaðu",
+			"ft": "runkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["runka", "runkar", "runkar"],
+					"ft": ["runkum", "runkið", "runka"]
+				},
+				"þátíð": {
+					"et": ["runkaði", "runkaðir", "runkaði"],
+					"ft": ["runkuðum", "runkuðuð", "runkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["runki", "runkir", "runki"],
+					"ft": ["runkum", "runkið", "runki"]
+				},
+				"þátíð": {
+					"et": ["runkaði", "runkaðir", "runkaði"],
+					"ft": ["runkuðum", "runkuðuð", "runkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "runkarðu",
+					"ft": "runkiði"
+				},
+				"þátíð": {
+					"et": "runkaðirðu",
+					"ft": "runkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "runkirðu",
+					"ft": "runkiði"
+				},
+				"þátíð": {
+					"et": "runkaðirðu",
+					"ft": "runkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "runkast",
+		"sagnbót": "runkast",
+		"boðháttur": {
+			"et": "runkastu",
+			"ft": "runkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["runkast", "runkast", "runkast"],
+					"ft": ["runkumst", "runkist", "runkast"]
+				},
+				"þátíð": {
+					"et": ["runkaðist", "runkaðist", "runkaðist"],
+					"ft": ["runkuðumst", "runkuðust", "runkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["runkist", "runkist", "runkist"],
+					"ft": ["runkumst", "runkist", "runkist"]
+				},
+				"þátíð": {
+					"et": ["runkaðist", "runkaðist", "runkaðist"],
+					"ft": ["runkuðumst", "runkuðust", "runkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "runkastu"
+				},
+				"þátíð": {
+					"et": "runkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "runkistu"
+				},
+				"þátíð": {
+					"et": "runkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "runkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["runkaður", "runkaðan", "runkuðum", "runkaðs"],
+					"kvk": ["runkuð", "runkaða", "runkaðri", "runkaðrar"],
+					"hk": ["runkað", "runkað", "runkuðu", "runkaðs"]
+				},
+				"ft": {
+					"kk": ["runkaðir", "runkaða", "runkuðum", "runkaðra"],
+					"kvk": ["runkaðar", "runkaðar", "runkuðum", "runkaðra"],
+					"hk": ["runkuð", "runkuð", "runkuðum", "runkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-runka",
+	"hash": "df6c1b0ae99b04ae1e8848f36a2ce50c14e26c8c64f223c38e24b2d71dd7c521"
+}
