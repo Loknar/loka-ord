@@ -1,0 +1,122 @@
+{
+	"orð": "heita",
+	"flokkur": "sagnorð",
+	"merking": "verma",
+	"samsett": [
+		{
+			"mynd": "heit",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heitur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heita",
+		"sagnbót": "heitað",
+		"boðháttur": {
+			"stýfður": "heita",
+			"et": "heitaðu",
+			"ft": "heitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heita", "heitar", "heitar"],
+					"ft": ["heitum", "heitið", "heita"]
+				},
+				"þátíð": {
+					"et": ["heitaði", "heitaðir", "heitaði"],
+					"ft": ["heituðum", "heituðuð", "heituðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heiti", "heitir", "heiti"],
+					"ft": ["heitum", "heitið", "heiti"]
+				},
+				"þátíð": {
+					"et": ["heitaði", "heitaðir", "heitaði"],
+					"ft": ["heituðum", "heituðuð", "heituðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heitarðu",
+					"ft": "heitiði"
+				},
+				"þátíð": {
+					"et": "heitaðirðu",
+					"ft": "heituðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heitirðu",
+					"ft": "heitiði"
+				},
+				"þátíð": {
+					"et": "heitaðirðu",
+					"ft": "heituðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "heitast",
+		"sagnbót": "heitast",
+		"boðháttur": {
+			"et": "heitastu",
+			"ft": "heitist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heitast", "heitast", "heitast"],
+					"ft": ["heitumst", "heitist", "heitast"]
+				},
+				"þátíð": {
+					"et": ["heitaðist", "heitaðist", "heitaðist"],
+					"ft": ["heituðumst", "heituðust", "heituðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heitist", "heitist", "heitist"],
+					"ft": ["heitumst", "heitist", "heitist"]
+				},
+				"þátíð": {
+					"et": ["heitaðist", "heitaðist", "heitaðist"],
+					"ft": ["heituðumst", "heituðust", "heituðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heitastu"
+				},
+				"þátíð": {
+					"et": "heitaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heitistu"
+				},
+				"þátíð": {
+					"et": "heitaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heitandi"
+	},
+	"kennistrengur": "so-heita-_verma_",
+	"hash": "1712ac42a44ff341a4fa19515b677345e41d30d8513c225fc46fcc3d0a4c388e"
+}

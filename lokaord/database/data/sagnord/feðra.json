@@ -1,0 +1,135 @@
+{
+	"orð": "feðra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "feðr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-faðir-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "feðra",
+		"sagnbót": "feðrað",
+		"boðháttur": {
+			"stýfður": "feðra",
+			"et": "feðraðu",
+			"ft": "feðrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["feðra", "feðrar", "feðrar"],
+					"ft": ["feðrum", "feðrið", "feðra"]
+				},
+				"þátíð": {
+					"et": ["feðraði", "feðraðir", "feðraði"],
+					"ft": ["feðruðum", "feðruðuð", "feðruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["feðri", "feðrir", "feðri"],
+					"ft": ["feðrum", "feðrið", "feðri"]
+				},
+				"þátíð": {
+					"et": ["feðraði", "feðraðir", "feðraði"],
+					"ft": ["feðruðum", "feðruðuð", "feðruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "feðrarðu",
+					"ft": "feðriði"
+				},
+				"þátíð": {
+					"et": "feðraðirðu",
+					"ft": "feðruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "feðrirðu",
+					"ft": "feðriði"
+				},
+				"þátíð": {
+					"et": "feðraðirðu",
+					"ft": "feðruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "feðrast",
+		"sagnbót": "feðrast",
+		"boðháttur": {
+			"et": "feðrastu",
+			"ft": "feðrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["feðrast", "feðrast", "feðrast"],
+					"ft": ["feðrumst", "feðrist", "feðrast"]
+				},
+				"þátíð": {
+					"et": ["feðraðist", "feðraðist", "feðraðist"],
+					"ft": ["feðruðumst", "feðruðust", "feðruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["feðrist", "feðrist", "feðrist"],
+					"ft": ["feðrumst", "feðrist", "feðrist"]
+				},
+				"þátíð": {
+					"et": ["feðraðist", "feðraðist", "feðraðist"],
+					"ft": ["feðruðumst", "feðruðust", "feðruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "feðrastu"
+				},
+				"þátíð": {
+					"et": "feðraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "feðristu"
+				},
+				"þátíð": {
+					"et": "feðraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "feðrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["feðraður", "feðraðan", "feðruðum", "feðraðs"],
+					"kvk": ["feðruð", "feðraða", "feðraðri", "feðraðrar"],
+					"hk": ["feðrað", "feðrað", "feðruðu", "feðraðs"]
+				},
+				"ft": {
+					"kk": ["feðraðir", "feðraða", "feðruðum", "feðraðra"],
+					"kvk": ["feðraðar", "feðraðar", "feðruðum", "feðraðra"],
+					"hk": ["feðruð", "feðruð", "feðruðum", "feðraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-feðra",
+	"hash": "fdcc9258b6e80aded0ed37a22025136362f51cc3309e50053fdbb5e1318a630f"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "skuldfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skuldfesta",
+		"sagnbót": "skuldfest",
+		"boðháttur": {
+			"stýfður": "skuldfest",
+			"et": "skuldfestu",
+			"ft": "skuldfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldfesti", "skuldfestir", "skuldfestir"],
+					"ft": ["skuldfestum", "skuldfestið", "skuldfesta"]
+				},
+				"þátíð": {
+					"et": ["skuldfesti", "skuldfestir", "skuldfesti"],
+					"ft": ["skuldfestum", "skuldfestuð", "skuldfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldfesti", "skuldfestir", "skuldfesti"],
+					"ft": ["skuldfestum", "skuldfestið", "skuldfesti"]
+				},
+				"þátíð": {
+					"et": ["skuldfesti", "skuldfestir", "skuldfesti"],
+					"ft": ["skuldfestum", "skuldfestuð", "skuldfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldfestirðu",
+					"ft": "skuldfestiði"
+				},
+				"þátíð": {
+					"et": "skuldfestirðu",
+					"ft": "skuldfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldfestirðu",
+					"ft": "skuldfestiði"
+				},
+				"þátíð": {
+					"et": "skuldfestirðu",
+					"ft": "skuldfestuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skuldfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skuldfestur", "skuldfestan", "skuldfestum", "skuldfests"],
+					"kvk": ["skuldfest", "skuldfesta", "skuldfestri", "skuldfestrar"],
+					"hk": ["skuldfest", "skuldfest", "skuldfestu", "skuldfests"]
+				},
+				"ft": {
+					"kk": ["skuldfestir", "skuldfesta", "skuldfestum", "skuldfestra"],
+					"kvk": ["skuldfestar", "skuldfestar", "skuldfestum", "skuldfestra"],
+					"hk": ["skuldfest", "skuldfest", "skuldfestum", "skuldfestra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skuldfesta",
+	"hash": "a092ed1579ac66a224e46b3449c8a902077f42b3345a0d11878e453a580c1b72"
+}

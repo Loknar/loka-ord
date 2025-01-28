@@ -1,0 +1,129 @@
+{
+	"orð": "kvæna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kvæna",
+		"sagnbót": "kvænt",
+		"boðháttur": {
+			"stýfður": "kvæn",
+			"et": "kvæntu",
+			"ft": "kvænið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvæni", "kvænir", "kvænir"],
+					"ft": ["kvænum", "kvænið", "kvæna"]
+				},
+				"þátíð": {
+					"et": ["kvænti", "kvæntir", "kvænti"],
+					"ft": ["kvæntum", "kvæntuð", "kvæntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvæni", "kvænir", "kvæni"],
+					"ft": ["kvænum", "kvænið", "kvæni"]
+				},
+				"þátíð": {
+					"et": ["kvænti", "kvænti", "kvænti"],
+					"ft": ["kvæntum", "kvæntuð", "kvæntu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvænirðu",
+					"ft": "kvæniði"
+				},
+				"þátíð": {
+					"et": "kvæntirðu",
+					"ft": "kvæntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvænirðu",
+					"ft": "kvæniði"
+				},
+				"þátíð": {
+					"et": "kvæntirðu",
+					"ft": "kvæntuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kvænast",
+		"sagnbót": "kvænst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvænist", "kvænist", "kvænist"],
+					"ft": ["kvænumst", "kvænist", "kvænast"]
+				},
+				"þátíð": {
+					"et": ["kvæntist", "kvæntist", "kvæntist"],
+					"ft": ["kvæntumst", "kvæntust", "kvæntust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gefist", "gefist", "gefist"],
+					"ft": ["gefumst", "gefist", "gefist"]
+				},
+				"þátíð": {
+					"et": ["gæfi", "gæfir", "gæfi"],
+					"ft": ["gæfum", "gæfuð", "gæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvænistu"
+				},
+				"þátíð": {
+					"et": "kvæntistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvænistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kvænandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kvæntur", "kvæntan", "kvæntum", "kvænts"],
+					"kvk": ["kvænt", "kvænta", "kvæntri", "kvæntrar"],
+					"hk": ["kvænt", "kvænt", "kvæntu", "kvænts"]
+				},
+				"ft": {
+					"kk": ["kvæntir", "kvænta", "kvæntum", "kvæntra"],
+					"kvk": ["kvæntar", "kvæntar", "kvæntum", "kvæntra"],
+					"hk": ["kvænt", "kvænt", "kvæntum", "kvæntra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kvænti", "kvænta", "kvænta", "kvænta"],
+					"kvk": ["kvænta", "kvæntu", "kvæntu", "kvæntu"],
+					"hk": ["kvænta", "kvænta", "kvænta", "kvænta"]
+				},
+				"ft": {
+					"kk": ["kvæntu", "kvæntu", "kvæntu", "kvæntu"],
+					"kvk": ["kvæntu", "kvæntu", "kvæntu", "kvæntu"],
+					"hk": ["kvæntu", "kvæntu", "kvæntu", "kvæntu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kvæna",
+	"hash": "50372d08fec573d56859a41a0941441524f55366f3244198745b5a11dc906eff"
+}
