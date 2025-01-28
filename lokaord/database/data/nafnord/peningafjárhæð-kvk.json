@@ -1,0 +1,30 @@
+{
+	"orð": "peningafjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["peningafjárhæð", "peningafjárhæð", "peningafjárhæð", "peningafjárhæðar"],
+		"mg": ["peningafjárhæðin", "peningafjárhæðina", "peningafjárhæðinni", "peningafjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["peningafjárhæðir", "peningafjárhæðir", "peningafjárhæðum", "peningafjárhæða"],
+		"mg": ["peningafjárhæðirnar", "peningafjárhæðirnar", "peningafjárhæðunum", "peningafjárhæðanna"]
+	},
+	"kennistrengur": "no-peningafjárhæð-kvk",
+	"hash": "3171a561ce468ef5e60582ede24c0d911aba404d0a03cdeda1f00f35df15752a"
+}

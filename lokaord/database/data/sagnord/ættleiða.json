@@ -1,0 +1,87 @@
+{
+	"orð": "ættleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ætt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ætt-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ættleiða",
+		"sagnbót": "ættleitt",
+		"boðháttur": {
+			"stýfður": "ættleið",
+			"et": "ættleiddu",
+			"ft": "ættleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ættleiði", "ættleiðir", "ættleiðir"],
+					"ft": ["ættleiðum", "ættleiðið", "ættleiða"]
+				},
+				"þátíð": {
+					"et": ["ættleiddi", "ættleiddir", "ættleiddi"],
+					"ft": ["ættleiddum", "ættleidduð", "ættleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ættleiði", "ættleiðir", "ættleiði"],
+					"ft": ["ættleiðum", "ættleiðið", "ættleiði"]
+				},
+				"þátíð": {
+					"et": ["ættleiddi", "ættleiddir", "ættleiddi"],
+					"ft": ["ættleiddum", "ættleidduð", "ættleiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ættleiðirðu",
+					"ft": "ættleiðiði"
+				},
+				"þátíð": {
+					"et": "ættleiddirðu",
+					"ft": "ættleidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ættleiðirðu",
+					"ft": "ættleiðiði"
+				},
+				"þátíð": {
+					"et": "ættleiddirðu",
+					"ft": "ættleidduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ættleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ættleiddur", "ættleiddan", "ættleiddum", "ættleidds"],
+					"kvk": ["ættleidd", "ættleidda", "ættleiddri", "ættleiddrar"],
+					"hk": ["ættleitt", "ættleitt", "ættleiddu", "ættleidds"]
+				},
+				"ft": {
+					"kk": ["ættleiddir", "ættleidda", "ættleiddum", "ættleiddra"],
+					"kvk": ["ættleiddar", "ættleiddar", "ættleiddum", "ættleiddra"],
+					"hk": ["ættleidd", "ættleidd", "ættleiddum", "ættleiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ættleiða",
+	"hash": "eb1a0d3be8edb90687271a4c659f59eda1371a2750ec7f50d94b244b54f4be83"
+}

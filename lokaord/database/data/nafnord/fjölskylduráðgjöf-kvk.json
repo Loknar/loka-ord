@@ -1,0 +1,30 @@
+{
+	"orð": "fjölskylduráðgjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjölskyldu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjölskylda-kvk"
+		},
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjölskylduráðgjöf", "fjölskylduráðgjöf", "fjölskylduráðgjöf", "fjölskylduráðgjafar"],
+		"mg": ["fjölskylduráðgjöfin", "fjölskylduráðgjöfina", "fjölskylduráðgjöfinni", "fjölskylduráðgjafarinnar"]
+	},
+	"ft": {
+		"ág": ["fjölskylduráðgjafir", "fjölskylduráðgjafir", "fjölskylduráðgjöfum", "fjölskylduráðgjafa"],
+		"mg": ["fjölskylduráðgjafirnar", "fjölskylduráðgjafirnar", "fjölskylduráðgjöfunum", "fjölskylduráðgjafanna"]
+	},
+	"kennistrengur": "no-fjölskylduráðgjöf-kvk",
+	"hash": "478704fdd0e57b8c12a7d3773ac422a21e0769a85b7b4f38bf03c725452584aa"
+}

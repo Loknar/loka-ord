@@ -1,0 +1,30 @@
+{
+	"orð": "fjölskylduættleiðing",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjölskyldu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjölskylda-kvk"
+		},
+		{
+			"mynd": "ætt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ætt-kvk"
+		},
+		{
+			"kennistrengur": "no-leiðing-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjölskylduættleiðing", "fjölskylduættleiðingu", "fjölskylduættleiðingu", "fjölskylduættleiðingar"],
+		"mg": ["fjölskylduættleiðingin", "fjölskylduættleiðinguna", "fjölskylduættleiðingunni", "fjölskylduættleiðingarinnar"]
+	},
+	"ft": {
+		"ág": ["fjölskylduættleiðingar", "fjölskylduættleiðingar", "fjölskylduættleiðingum", "fjölskylduættleiðinga"],
+		"mg": ["fjölskylduættleiðingarnar", "fjölskylduættleiðingarnar", "fjölskylduættleiðingunum", "fjölskylduættleiðinganna"]
+	},
+	"kennistrengur": "no-fjölskylduættleiðing-kvk",
+	"hash": "48c7fe632743558ae416593b9cbaf121f9a3861be099c7a752a227ab620650fa"
+}
