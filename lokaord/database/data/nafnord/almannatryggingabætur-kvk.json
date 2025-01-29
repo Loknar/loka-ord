@@ -1,0 +1,32 @@
+{
+	"orð": "almannatryggingabætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "al",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-ałlur"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["almannatryggingabætur", "almannatryggingabætur", "almannatryggingabótum", "almannatryggingabóta"],
+		"mg": ["almannatryggingabæturnar", "almannatryggingabæturnar", "almannatryggingabótunum", "almannatryggingabótanna"]
+	},
+	"kennistrengur": "no-almannatryggingabætur-kvk",
+	"hash": "a58e7deb75b71c9a284c8a7345a10549acb01919b3b03fa62ab59a20d82b41c1"
+}

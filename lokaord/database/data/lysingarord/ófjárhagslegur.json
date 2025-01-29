@@ -1,0 +1,53 @@
+{
+	"orð": "ófjárhagslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ófjárhagslegur", "ófjárhagslegan", "ófjárhagslegum", "ófjárhagslegs"],
+				"kvk": ["ófjárhagsleg", "ófjárhagslega", "ófjárhagslegri", "ófjárhagslegrar"],
+				"hk": ["ófjárhagslegt", "ófjárhagslegt", "ófjárhagslegu", "ófjárhagslegs"]
+			},
+			"ft": {
+				"kk": ["ófjárhagslegir", "ófjárhagslega", "ófjárhagslegum", "ófjárhagslegra"],
+				"kvk": ["ófjárhagslegar", "ófjárhagslegar", "ófjárhagslegum", "ófjárhagslegra"],
+				"hk": ["ófjárhagsleg", "ófjárhagsleg", "ófjárhagslegum", "ófjárhagslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ófjárhagslegi", "ófjárhagslega", "ófjárhagslega", "ófjárhagslega"],
+				"kvk": ["ófjárhagslega", "ófjárhagslegu", "ófjárhagslegu", "ófjárhagslegu"],
+				"hk": ["ófjárhagslega", "ófjárhagslega", "ófjárhagslega", "ófjárhagslega"]
+			},
+			"ft": {
+				"kk": ["ófjárhagslegu", "ófjárhagslegu", "ófjárhagslegu", "ófjárhagslegu"],
+				"kvk": ["ófjárhagslegu", "ófjárhagslegu", "ófjárhagslegu", "ófjárhagslegu"],
+				"hk": ["ófjárhagslegu", "ófjárhagslegu", "ófjárhagslegu", "ófjárhagslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ófjárhagslegur",
+	"hash": "ce194179f4e13fae7ce190af841d9bb8e6dc20cb807386c7668ad90c530c542d"
+}

@@ -1,0 +1,25 @@
+{
+	"orð": "skuldaábyrgð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-ábyrgð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaábyrgð", "skuldaábyrgð", "skuldaábyrgð", "skuldaábyrgðar"],
+		"mg": ["skuldaábyrgðin", "skuldaábyrgðina", "skuldaábyrgðinni", "skuldaábyrgðarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldaábyrgðir", "skuldaábyrgðir", "skuldaábyrgðum", "skuldaábyrgða"],
+		"mg": ["skuldaábyrgðirnar", "skuldaábyrgðirnar", "skuldaábyrgðunum", "skuldaábyrgðanna"]
+	},
+	"kennistrengur": "no-skuldaábyrgð-kvk",
+	"hash": "8a8a5c97ddf804ef20d7f6dc30a8d35eadbc6b2f48b04b7973bee15c32bda637"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "séreignaskipan",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skipan-kvk"
+		}
+	],
+	"et": {
+		"ág": ["séreignaskipan", "séreignaskipan", "séreignaskipan", "séreignaskipanar"],
+		"mg": ["séreignaskipanin", "séreignaskipanina", "séreignaskipaninni", "séreignaskipaninnar"]
+	},
+	"kennistrengur": "no-séreignaskipan-kvk",
+	"hash": "962ddfcf33589a852a04b88c383b372b17303944c2a1fa7795cd6881f19657cc"
+}

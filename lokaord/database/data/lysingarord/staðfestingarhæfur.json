@@ -1,0 +1,48 @@
+{
+	"orð": "staðfestingarhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "festingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["staðfestingarhæfur", "staðfestingarhæfan", "staðfestingarhæfum", "staðfestingarhæfs"],
+				"kvk": ["staðfestingarhæf", "staðfestingarhæfa", "staðfestingarhæfri", "staðfestingarhæfrar"],
+				"hk": ["staðfestingarhæft", "staðfestingarhæft", "staðfestingarhæfu", "staðfestingarhæfs"]
+			},
+			"ft": {
+				"kk": ["staðfestingarhæfir", "staðfestingarhæfa", "staðfestingarhæfum", "staðfestingarhæfra"],
+				"kvk": ["staðfestingarhæfar", "staðfestingarhæfar", "staðfestingarhæfum", "staðfestingarhæfra"],
+				"hk": ["staðfestingarhæf", "staðfestingarhæf", "staðfestingarhæfum", "staðfestingarhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["staðfestingarhæfi", "staðfestingarhæfa", "staðfestingarhæfa", "staðfestingarhæfa"],
+				"kvk": ["staðfestingarhæfa", "staðfestingarhæfu", "staðfestingarhæfu", "staðfestingarhæfu"],
+				"hk": ["staðfestingarhæfa", "staðfestingarhæfa", "staðfestingarhæfa", "staðfestingarhæfa"]
+			},
+			"ft": {
+				"kk": ["staðfestingarhæfu", "staðfestingarhæfu", "staðfestingarhæfu", "staðfestingarhæfu"],
+				"kvk": ["staðfestingarhæfu", "staðfestingarhæfu", "staðfestingarhæfu", "staðfestingarhæfu"],
+				"hk": ["staðfestingarhæfu", "staðfestingarhæfu", "staðfestingarhæfu", "staðfestingarhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-staðfestingarhæfur",
+	"hash": "b2e8d09e22179b42b9d0053b9cae1cfc54b2dbbc7714fbacc51d6ad3d4ada5b8"
+}

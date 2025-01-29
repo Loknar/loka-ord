@@ -1,0 +1,27 @@
+{
+	"orð": "eignarskilríki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ríki-hk"
+		}
+	],
+	"ft": {
+		"ág": ["eignarskilríki", "eignarskilríki", "eignarskilríkjum", "eignarskilríkja"],
+		"mg": ["eignarskilríkin", "eignarskilríkin", "eignarskilríkjunum", "eignarskilríkjanna"]
+	},
+	"kennistrengur": "no-eignarskilríki-hk",
+	"hash": "91f12403a1ecef38b161d3aa7ba47c6d0b5f6e601159f5d0db2a5d0f09b6c9bf"
+}
