@@ -1,6 +1,17 @@
 {
 	"orð": "bułla",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bułl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bułl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "bułla",
 		"sagnbót": "bułlað",
@@ -57,6 +68,10 @@
 	"miðmynd": {
 		"nafnháttur": "bułlast",
 		"sagnbót": "bułlast",
+		"boðháttur": {
+			"et": "bułlastu",
+			"ft": "bułlist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -116,5 +131,5 @@
 		}
 	},
 	"kennistrengur": "so-bułla",
-	"hash": "2953202cbf96e80d57b18a0e0ebdea34b1faa61dfcce381b51425a134a7a8f13"
+	"hash": "5d6a197145b9413fe756b18a8b372d4e0c3670a0699f42075821a71cc47517d2"
 }

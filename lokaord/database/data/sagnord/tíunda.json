@@ -1,0 +1,135 @@
+{
+	"orð": "tíunda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tíund",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tíund-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tíunda",
+		"sagnbót": "tíundað",
+		"boðháttur": {
+			"stýfður": "tíunda",
+			"et": "tíundaðu",
+			"ft": "tíundið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tíunda", "tíundar", "tíundar"],
+					"ft": ["tíundum", "tíundið", "tíunda"]
+				},
+				"þátíð": {
+					"et": ["tíundaði", "tíundaðir", "tíundaði"],
+					"ft": ["tíunduðum", "tíunduðuð", "tíunduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tíundi", "tíundir", "tíundi"],
+					"ft": ["tíundum", "tíundið", "tíundi"]
+				},
+				"þátíð": {
+					"et": ["tíundaði", "tíundaðir", "tíundaði"],
+					"ft": ["tíunduðum", "tíunduðuð", "tíunduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tíundarðu",
+					"ft": "tíundiði"
+				},
+				"þátíð": {
+					"et": "tíundaðirðu",
+					"ft": "tíunduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tíundirðu",
+					"ft": "tíundiði"
+				},
+				"þátíð": {
+					"et": "tíundaðirðu",
+					"ft": "tíunduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tíundast",
+		"sagnbót": "tíundast",
+		"boðháttur": {
+			"et": "tíundastu",
+			"ft": "tíundist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tíundast", "tíundast", "tíundast"],
+					"ft": ["tíundumst", "tíundist", "tíundast"]
+				},
+				"þátíð": {
+					"et": ["tíundaðist", "tíundaðist", "tíundaðist"],
+					"ft": ["tíunduðumst", "tíunduðust", "tíunduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tíundist", "tíundist", "tíundist"],
+					"ft": ["tíundumst", "tíundist", "tíundist"]
+				},
+				"þátíð": {
+					"et": ["tíundaðist", "tíundaðist", "tíundaðist"],
+					"ft": ["tíunduðumst", "tíunduðust", "tíunduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tíundastu"
+				},
+				"þátíð": {
+					"et": "tíundaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tíundistu"
+				},
+				"þátíð": {
+					"et": "tíundaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tíundandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tíundaður", "tíundaðan", "tíunduðum", "tíundaðs"],
+					"kvk": ["tíunduð", "tíundaða", "tíundaðri", "tíundaðrar"],
+					"hk": ["tíundað", "tíundað", "tíunduðu", "tíundaðs"]
+				},
+				"ft": {
+					"kk": ["tíundaðir", "tíundaða", "tíunduðum", "tíundaðra"],
+					"kvk": ["tíundaðar", "tíundaðar", "tíunduðum", "tíundaðra"],
+					"hk": ["tíunduð", "tíunduð", "tíunduðum", "tíundaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tíunda",
+	"hash": "56bae62444d512389a57dddf035dc58b84e545590398dbf912d040de2728a3c4"
+}

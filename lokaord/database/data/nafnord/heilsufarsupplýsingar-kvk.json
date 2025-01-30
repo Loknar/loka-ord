@@ -1,0 +1,27 @@
+{
+	"orð": "heilsufarsupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heilsu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heilsa-kvk"
+		},
+		{
+			"mynd": "fars",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-far-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heilsufarsupplýsingar", "heilsufarsupplýsingar", "heilsufarsupplýsingum", "heilsufarsupplýsinga"],
+		"mg": ["heilsufarsupplýsingarnar", "heilsufarsupplýsingarnar", "heilsufarsupplýsingunum", "heilsufarsupplýsinganna"]
+	},
+	"kennistrengur": "no-heilsufarsupplýsingar-kvk",
+	"hash": "8c233e46e1c368cc7ea8abe1d2e834614d7f40304f1d5efeb07d580e6f3fa706"
+}
