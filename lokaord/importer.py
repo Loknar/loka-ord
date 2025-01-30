@@ -190,7 +190,7 @@ def arrange_task_retries(task_retries: list) -> list:
 	the order of import depends on samsetning orða
 	solution: order task_retries properly
 	"""
-	max_retries = 20
+	max_retries = 50
 	task_retries_kennistrengir = set()
 	task_queue = deque()
 	for task in task_retries:
