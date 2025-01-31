@@ -1,0 +1,32 @@
+{
+	"orð": "grundvałlarupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "grund",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grund-kvk"
+		},
+		{
+			"mynd": "vałlar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vöłlur-kk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["grundvałlarupplýsingar", "grundvałlarupplýsingar", "grundvałlarupplýsingum", "grundvałlarupplýsinga"],
+		"mg": ["grundvałlarupplýsingarnar", "grundvałlarupplýsingarnar", "grundvałlarupplýsingunum", "grundvałlarupplýsinganna"]
+	},
+	"kennistrengur": "no-grundvałlarupplýsingar-kvk",
+	"hash": "f553d494164b2536243d24762156504d6ff9809ebcd102cab9bd79f82c9a472e"
+}

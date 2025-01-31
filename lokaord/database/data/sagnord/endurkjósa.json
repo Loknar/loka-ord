@@ -9,79 +9,79 @@
 		},
 		{
 			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
-			"kennistrengur": "so-birta"
+			"kennistrengur": "so-kjósa"
 		}
 	],
 	"germynd": {
-		"nafnháttur": "endurbirta",
-		"sagnbót": "endurbirt",
+		"nafnháttur": "endurkjósa",
+		"sagnbót": "endurkosið",
 		"boðháttur": {
-			"stýfður": "endurbirt",
-			"et": "endurbirtu",
-			"ft": "endurbirtið"
+			"stýfður": "endurkjós",
+			"et": "endurkjóstu",
+			"ft": "endurkjósið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["endurbirti", "endurbirtir", "endurbirtir"],
-					"ft": ["endurbirtum", "endurbirtið", "endurbirta"]
+					"et": ["endurkýs", "endurkýst", "endurkýs"],
+					"ft": ["endurkjósum", "endurkjósið", "endurkjósa"]
 				},
 				"þátíð": {
-					"et": ["endurbirti", "endurbirtir", "endurbirti"],
-					"ft": ["endurbirtum", "endurbirtuð", "endurbirtu"]
+					"et": ["endurkaus", "endurkaust", "endurkaus"],
+					"ft": ["endurkusum", "endurkusuð", "endurkusu"]
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": ["endurbirti", "endurbirtir", "endurbirti"],
-					"ft": ["endurbirtum", "endurbirtið", "endurbirti"]
+					"et": ["endurkjósi", "endurkjósir", "endurkjósi"],
+					"ft": ["endurkjósum", "endurkjósið", "endurkjósi"]
 				},
 				"þátíð": {
-					"et": ["endurbirti", "endurbirtir", "endurbirti"],
-					"ft": ["endurbirtum", "endurbirtuð", "endurbirtu"]
+					"et": ["endurkysi", "endurkysir", "endurkysi"],
+					"ft": ["endurkysum", "endurkysuð", "endurkysu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "endurbirtirðu",
-					"ft": "endurbirtiði"
+					"et": "endurkýstu",
+					"ft": "endurkjósiði"
 				},
 				"þátíð": {
-					"et": "endurbirtirðu",
-					"ft": "endurbirtuði"
+					"et": "endurkaustu",
+					"ft": "endurkusuði"
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "endurbirtirðu",
-					"ft": "endurbirtiði"
+					"et": "endurkjósirðu",
+					"ft": "endurkjósiði"
 				},
 				"þátíð": {
-					"et": "endurbirtirðu",
-					"ft": "endurbirtuði"
+					"et": "endurkysirðu",
+					"ft": "endurkysuði"
 				}
 			}
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "endurbirtandi",
+		"nútíðar": "endurkjósandi",
 		"þátíðar": {
 			"sb": {
 				"et": {
-					"kk": ["endurbirtur", "endurbirtan", "endurbirtum", "endurbirts"],
-					"kvk": ["endurbirt", "endurbirta", "endurbirtri", "endurbirtrar"],
-					"hk": ["endurbirt", "endurbirt", "endurbirtu", "endurbirts"]
+					"kk": ["endurkosinn", "endurkosinn", "endurkosnum", "endurkosins"],
+					"kvk": ["endurkosin", "endurkosna", "endurkosinni", "endurkosinnar"],
+					"hk": ["endurkosið", "endurkosið", "endurkosnu", "endurkosins"]
 				},
 				"ft": {
-					"kk": ["endurbirtir", "endurbirta", "endurbirtum", "endurbirtra"],
-					"kvk": ["endurbirtar", "endurbirtar", "endurbirtum", "endurbirtra"],
-					"hk": ["endurbirt", "endurbirt", "endurbirtum", "endurbirtra"]
+					"kk": ["endurkosnir", "endurkosna", "endurkosnum", "endurkosinna"],
+					"kvk": ["endurkosnar", "endurkosnar", "endurkosnum", "endurkosinna"],
+					"hk": ["endurkosin", "endurkosin", "endurkosnum", "endurkosinna"]
 				}
 			}
 		}
 	},
 	"kennistrengur": "so-endurkjósa",
-	"hash": "e8ef6c9e000d16ca0cc3878a41c33ca1cdf91fa77f95b46e792e36784a592478"
+	"hash": "2e485885ad1115eea35607880160695e7abb19563b033419e40b78f6a31295c5"
 }

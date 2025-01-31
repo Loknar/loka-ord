@@ -1,0 +1,27 @@
+{
+	"orð": "atvinnuhjálp",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hjálp-kvk"
+		}
+	],
+	"et": {
+		"ág": ["atvinnuhjálp", "atvinnuhjálp", "atvinnuhjálp", "atvinnuhjálpar"],
+		"mg": ["atvinnuhjálpin", "atvinnuhjálpina", "atvinnuhjálpinni", "atvinnuhjálparinnar"]
+	},
+	"kennistrengur": "no-atvinnuhjálp-kvk",
+	"hash": "cb803ea9948e26eb6cfdd0fca8bac1879e8e662fc7a6c5e7b8b2deb22e08ca1c"
+}

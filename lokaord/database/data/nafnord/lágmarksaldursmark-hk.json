@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarksaldursmark",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "aldurs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-aldur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mark-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksaldursmark", "lágmarksaldursmark", "lágmarksaldursmarki", "lágmarksaldursmarks"],
+		"mg": ["lágmarksaldursmarkið", "lágmarksaldursmarkið", "lágmarksaldursmarkinu", "lágmarksaldursmarksins"]
+	},
+	"kennistrengur": "no-lágmarksaldursmark-hk",
+	"hash": "29cf52260da5ffb09b935680b6eb08e2e7e2d6985daa400aac1d724ad9352f21"
+}

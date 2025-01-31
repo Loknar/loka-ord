@@ -1,0 +1,32 @@
+{
+	"orð": "hámarksaldursmark",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "aldurs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-aldur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mark-hk"
+		}
+	],
+	"et": {
+		"ág": ["hámarksaldursmark", "hámarksaldursmark", "hámarksaldursmarki", "hámarksaldursmarks"],
+		"mg": ["hámarksaldursmarkið", "hámarksaldursmarkið", "hámarksaldursmarkinu", "hámarksaldursmarksins"]
+	},
+	"kennistrengur": "no-hámarksaldursmark-hk",
+	"hash": "026c4d469474ad1e65db8c4f26e4f7487626bf58518a039e0475d5cde5c4f6a5"
+}

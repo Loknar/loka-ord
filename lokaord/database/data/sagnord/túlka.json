@@ -1,6 +1,16 @@
 {
 	"orð": "túlka",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "túlk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-túlkur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "túlka",
 		"sagnbót": "túlkað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "túlkast",
 		"sagnbót": "túlkast",
+		"boðháttur": {
+			"et": "túlkastu",
+			"ft": "túlkist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-túlka",
-	"hash": "4cebe4ee04b1fc14222a6dcf5a9990c844b9135bdbcf30227c42a5e0bade9ee8"
+	"hash": "1ab8cc669c189ff8a9b99a8d4af4b4cd40012a655efd95c44528eb35e811f611"
 }
