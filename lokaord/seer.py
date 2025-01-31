@@ -14,6 +14,7 @@ import pickle
 import platform
 import os
 import pathlib
+import re
 import sys
 from typing import Callable
 
@@ -232,6 +233,10 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				scanned_word['orð-hreinsað'] = e_word_p
 				scanned_word['staða'] = 'tala'
 				break
+			elif re.fullmatch(r"(?:2[0-3]|[01]\d|\d):[0-5]\d$", e_word_p) is not None:
+				scanned_word['orð-hreinsað'] = e_word_p
+				scanned_word['staða'] = 'tími'
+				break
 			else:
 				scanned_word['staða'] = 'vantar'
 		if scanned_word['staða'] == 'vantar':
@@ -261,6 +266,18 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 		elif scanned_word['staða'] == 'tala':
 			if hide_matches is False:
 				print('"%s" \033[46m\033[30m TALA \033[0m' % (
+					scanned_word['orð-hreinsað'],
+				))
+			highlighted_sentence_list.append(
+				'%s%s%s' % (
+					'' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
+					'\033[46m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
+					'' if scanned_word['fylgir'] is None else scanned_word['fylgir']
+				)
+			)
+		elif scanned_word['staða'] == 'tími':
+			if hide_matches is False:
+				print('"%s" \033[46m\033[30m TÍMI \033[0m' % (
 					scanned_word['orð-hreinsað'],
 				))
 			highlighted_sentence_list.append(
