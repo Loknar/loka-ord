@@ -1,0 +1,30 @@
+{
+	"orð": "stjórnsýsluábyrgð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"kennistrengur": "no-ábyrgð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnsýsluábyrgð", "stjórnsýsluábyrgð", "stjórnsýsluábyrgð", "stjórnsýsluábyrgðar"],
+		"mg": ["stjórnsýsluábyrgðin", "stjórnsýsluábyrgðina", "stjórnsýsluábyrgðinni", "stjórnsýsluábyrgðarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnsýsluábyrgðir", "stjórnsýsluábyrgðir", "stjórnsýsluábyrgðum", "stjórnsýsluábyrgða"],
+		"mg": ["stjórnsýsluábyrgðirnar", "stjórnsýsluábyrgðirnar", "stjórnsýsluábyrgðunum", "stjórnsýsluábyrgðanna"]
+	},
+	"kennistrengur": "no-stjórnsýsluábyrgð-kvk",
+	"hash": "7f2e9526bf63669387cd33918b24746178f1e9cdf5380c8a47434e15311689dc"
+}

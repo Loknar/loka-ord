@@ -1,0 +1,32 @@
+{
+	"orð": "fiskveiðilögsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fisk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fiskur-kk"
+		},
+		{
+			"mynd": "veiði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veiði-kvk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fiskveiðilögsaga", "fiskveiðilögsögu", "fiskveiðilögsögu", "fiskveiðilögsögu"],
+		"mg": ["fiskveiðilögsagan", "fiskveiðilögsöguna", "fiskveiðilögsögunni", "fiskveiðilögsögunnar"]
+	},
+	"kennistrengur": "no-fiskveiðilögsaga-kvk",
+	"hash": "1cd13ecc7c67043051634e73ed9827d2e2c2824782f1912f2c2cf6ed6ac0ed86"
+}

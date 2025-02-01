@@ -1,0 +1,87 @@
+{
+	"orð": "endurmerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurmerkja",
+		"sagnbót": "endurmerkt",
+		"boðháttur": {
+			"stýfður": "endurmerk",
+			"et": "endurmerktu",
+			"ft": "endurmerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurmerki", "endurmerkir", "endurmerkir"],
+					"ft": ["endurmerkjum", "endurmerkið", "endurmerkja"]
+				},
+				"þátíð": {
+					"et": ["endurmerkti", "endurmerktir", "endurmerkti"],
+					"ft": ["endurmerktum", "endurmerktuð", "endurmerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurmerki", "endurmerkir", "endurmerki"],
+					"ft": ["endurmerkjum", "endurmerkið", "endurmerki"]
+				},
+				"þátíð": {
+					"et": ["endurmerkti", "endurmerktir", "endurmerkti"],
+					"ft": ["endurmerktum", "endurmerktuð", "endurmerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurmerkirðu",
+					"ft": "endurmerkiði"
+				},
+				"þátíð": {
+					"et": "endurmerktirðu",
+					"ft": "endurmerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurmerkirðu",
+					"ft": "endurmerkiði"
+				},
+				"þátíð": {
+					"et": "endurmerktirðu",
+					"ft": "endurmerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurmerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurmerktur", "endurmerktan", "endurmerktum", "endurmerkts"],
+					"kvk": ["endurmerkt", "endurmerkta", "endurmerktri", "endurmerktrar"],
+					"hk": ["endurmerkt", "endurmerkt", "endurmerktu", "endurmerkts"]
+				},
+				"ft": {
+					"kk": ["endurmerktir", "endurmerkta", "endurmerktum", "endurmerktra"],
+					"kvk": ["endurmerktar", "endurmerktar", "endurmerktum", "endurmerktra"],
+					"hk": ["endurmerkt", "endurmerkt", "endurmerktum", "endurmerktra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurmerkja",
+	"hash": "bc82b67c5e4c4aaa4f5c71bca15751cb0a5173632b14fec25c760fd4dfdab8ea"
+}

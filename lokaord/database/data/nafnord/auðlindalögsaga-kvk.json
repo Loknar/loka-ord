@@ -1,0 +1,32 @@
+{
+	"orð": "auðlindalögsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "auð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-auður-kk"
+		},
+		{
+			"mynd": "linda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lind-kvk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["auðlindalögsaga", "auðlindalögsögu", "auðlindalögsögu", "auðlindalögsögu"],
+		"mg": ["auðlindalögsagan", "auðlindalögsöguna", "auðlindalögsögunni", "auðlindalögsögunnar"]
+	},
+	"kennistrengur": "no-auðlindalögsaga-kvk",
+	"hash": "eb579aa969fdc413078dd3e954576d1bdbb2fa240b6693770efc3f5c14c566ab"
+}

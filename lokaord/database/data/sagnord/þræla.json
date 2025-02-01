@@ -1,0 +1,135 @@
+{
+	"orð": "þræla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þræl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þræłl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þræla",
+		"sagnbót": "þrælað",
+		"boðháttur": {
+			"stýfður": "þræla",
+			"et": "þrælaðu",
+			"ft": "þrælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þræla", "þrælar", "þrælar"],
+					"ft": ["þrælum", "þrælið", "þræla"]
+				},
+				"þátíð": {
+					"et": ["þrælaði", "þrælaðir", "þrælaði"],
+					"ft": ["þræluðum", "þræluðuð", "þræluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þræli", "þrælir", "þræli"],
+					"ft": ["þrælum", "þrælið", "þræli"]
+				},
+				"þátíð": {
+					"et": ["þrælaði", "þrælaðir", "þrælaði"],
+					"ft": ["þræluðum", "þræluðuð", "þræluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þrælarðu",
+					"ft": "þræliði"
+				},
+				"þátíð": {
+					"et": "þrælaðirðu",
+					"ft": "þræluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þrælirðu",
+					"ft": "þræliði"
+				},
+				"þátíð": {
+					"et": "þrælaðirðu",
+					"ft": "þræluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þrælast",
+		"sagnbót": "þrælast",
+		"boðháttur": {
+			"et": "þrælastu",
+			"ft": "þrælist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þrælast", "þrælast", "þrælast"],
+					"ft": ["þrælumst", "þrælist", "þrælast"]
+				},
+				"þátíð": {
+					"et": ["þrælaðist", "þrælaðist", "þrælaðist"],
+					"ft": ["þræluðumst", "þræluðust", "þræluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þrælist", "þrælist", "þrælist"],
+					"ft": ["þrælumst", "þrælist", "þrælist"]
+				},
+				"þátíð": {
+					"et": ["þrælaðist", "þrælaðist", "þrælaðist"],
+					"ft": ["þræluðumst", "þræluðust", "þræluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þrælastu"
+				},
+				"þátíð": {
+					"et": "þrælaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þrælistu"
+				},
+				"þátíð": {
+					"et": "þrælaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þrælandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þrælaður", "þrælaðan", "þræluðum", "þrælaðs"],
+					"kvk": ["þræluð", "þrælaða", "þrælaðri", "þrælaðrar"],
+					"hk": ["þrælað", "þrælað", "þræluðu", "þrælaðs"]
+				},
+				"ft": {
+					"kk": ["þrælaðir", "þrælaða", "þræluðum", "þrælaðra"],
+					"kvk": ["þrælaðar", "þrælaðar", "þræluðum", "þrælaðra"],
+					"hk": ["þræluð", "þræluð", "þræluðum", "þrælaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þræla",
+	"hash": "10e3cbe971c1dc612ff505c4487069a704d56c37a187f46f70a3b2a2751ed4c1"
+}
