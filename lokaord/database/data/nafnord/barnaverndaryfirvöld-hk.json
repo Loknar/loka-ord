@@ -1,0 +1,32 @@
+{
+	"orð": "barnaverndaryfirvöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "barna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-barn-hk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["barnaverndaryfirvöld", "barnaverndaryfirvöld", "barnaverndaryfirvöldum", "barnaverndaryfirvalda"],
+		"mg": ["barnaverndaryfirvöldin", "barnaverndaryfirvöldin", "barnaverndaryfirvöldunum", "barnaverndaryfirvaldanna"]
+	},
+	"kennistrengur": "no-barnaverndaryfirvöld-hk",
+	"hash": "b5117dd2fa7a2b8734c140c357bb4e512bdbf78d99f60d6d5f2ad72d5ba779f9"
+}

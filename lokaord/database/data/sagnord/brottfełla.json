@@ -1,0 +1,64 @@
+{
+	"orð": "brottfełla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brott",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-brott"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-fełla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brottfełla",
+		"sagnbót": "brottfellt",
+		"boðháttur": {
+			"stýfður": "brottfełl",
+			"et": "brottfelldu",
+			"ft": "brottfełlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brottfełli", "brottfełlir", "brottfełlir"],
+					"ft": ["brottfełlum", "brottfełlið", "brottfełla"]
+				},
+				"þátíð": {
+					"et": ["brottfelldi", "brottfelldir", "brottfelldum"],
+					"ft": ["brottfellduð", "brottfelldu", "brottfelldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brottfełli", "brottfełlir", "brottfełli"],
+					"ft": ["brottfełlum", "brottfełlið", "brottfełli"]
+				},
+				"þátíð": {
+					"et": ["brottfelldi", "brottfelldir", "brottfelldi"],
+					"ft": ["brottfelldum", "brottfellduð", "brottfelldu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brottfelldur", "brottfelldan", "brottfelldum", "brottfellds"],
+					"kvk": ["brottfelld", "brottfellda", "brottfelldri", "brottfelldrar"],
+					"hk": ["brottfellt", "brottfellt", "brottfelldu", "brottfellds"]
+				},
+				"ft": {
+					"kk": ["brottfelldir", "brottfellda", "brottfelldum", "brottfelldra"],
+					"kvk": ["brottfelldar", "brottfelldar", "brottfelldum", "brottfelldra"],
+					"hk": ["brottfelld", "brottfelld", "brottfelldum", "brottfelldra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brottfełla",
+	"hash": "54bf6448a7c0df07387e1b4336f283fcc06cb94f82145368984b62a152ce3b61"
+}

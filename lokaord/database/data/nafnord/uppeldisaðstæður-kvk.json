@@ -1,0 +1,32 @@
+{
+	"orð": "uppeldisaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "eldis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eldi-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["uppeldisaðstæður", "uppeldisaðstæður", "uppeldisaðstæðum", "uppeldisaðstæðna"],
+		"mg": ["uppeldisaðstæðurnar", "uppeldisaðstæðurnar", "uppeldisaðstæðunum", "uppeldisaðstæðnanna"]
+	},
+	"kennistrengur": "no-uppeldisaðstæður-kvk",
+	"hash": "10d378a07312d8b9546d77a2c8108f404c85fe9dc90bbafb53250d1dcecf27b7"
+}

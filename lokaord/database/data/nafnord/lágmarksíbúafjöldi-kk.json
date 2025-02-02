@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarksíbúafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "íbúa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúi-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksíbúafjöldi", "lágmarksíbúafjölda", "lágmarksíbúafjölda", "lágmarksíbúafjölda"],
+		"mg": ["lágmarksíbúafjöldinn", "lágmarksíbúafjöldann", "lágmarksíbúafjöldanum", "lágmarksíbúafjöldans"]
+	},
+	"kennistrengur": "no-lágmarksíbúafjöldi-kk",
+	"hash": "f64edacef81baaa9571ae1bd8969f3b1e7d6199debeef99a88dd75955886ef43"
+}

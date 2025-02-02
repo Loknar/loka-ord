@@ -1,0 +1,135 @@
+{
+	"orð": "náða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "náð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-náð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "náða",
+		"sagnbót": "náðað",
+		"boðháttur": {
+			"stýfður": "náða",
+			"et": "náðaðu",
+			"ft": "náðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["náða", "náðar", "náðar"],
+					"ft": ["náðum", "náðið", "náða"]
+				},
+				"þátíð": {
+					"et": ["náðaði", "náðaðir", "náðaði"],
+					"ft": ["náðuðum", "náðuðuð", "náðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["náði", "náðir", "náði"],
+					"ft": ["náðum", "náðið", "náði"]
+				},
+				"þátíð": {
+					"et": ["náðaði", "náðaðir", "náðaði"],
+					"ft": ["náðuðum", "náðuðuð", "náðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "náðarðu",
+					"ft": "náðiði"
+				},
+				"þátíð": {
+					"et": "náðaðirðu",
+					"ft": "náðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "náðirðu",
+					"ft": "náðiði"
+				},
+				"þátíð": {
+					"et": "náðaðirðu",
+					"ft": "náðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "náðast",
+		"sagnbót": "náðast",
+		"boðháttur": {
+			"et": "náðastu",
+			"ft": "náðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["náðast", "náðast", "náðast"],
+					"ft": ["náðumst", "náðist", "náðast"]
+				},
+				"þátíð": {
+					"et": ["náðaðist", "náðaðist", "náðaðist"],
+					"ft": ["náðuðumst", "náðuðust", "náðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["náðist", "náðist", "náðist"],
+					"ft": ["náðumst", "náðist", "náðist"]
+				},
+				"þátíð": {
+					"et": ["náðaðist", "náðaðist", "náðaðist"],
+					"ft": ["náðuðumst", "náðuðust", "náðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "náðastu"
+				},
+				"þátíð": {
+					"et": "náðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "náðistu"
+				},
+				"þátíð": {
+					"et": "náðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "náðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["náðaður", "náðaðan", "náðuðum", "náðaðs"],
+					"kvk": ["náðuð", "náðaða", "náðaðri", "náðaðrar"],
+					"hk": ["náðað", "náðað", "náðuðu", "náðaðs"]
+				},
+				"ft": {
+					"kk": ["náðaðir", "náðaða", "náðuðum", "náðaðra"],
+					"kvk": ["náðaðar", "náðaðar", "náðuðum", "náðaðra"],
+					"hk": ["náðuð", "náðuð", "náðuðum", "náðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-náða",
+	"hash": "9a75b107110dedae47b9d953f4297521655654c932ba14e023f93bc833ddfd7b"
+}

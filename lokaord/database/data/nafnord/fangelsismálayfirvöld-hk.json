@@ -1,0 +1,32 @@
+{
+	"orð": "fangelsismálayfirvöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fangelsis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fangelsi-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fangelsismálayfirvöld", "fangelsismálayfirvöld", "fangelsismálayfirvöldum", "fangelsismálayfirvalda"],
+		"mg": ["fangelsismálayfirvöldin", "fangelsismálayfirvöldin", "fangelsismálayfirvöldunum", "fangelsismálayfirvaldanna"]
+	},
+	"kennistrengur": "no-fangelsismálayfirvöld-hk",
+	"hash": "1dcef56b85a0dce234c4ec8e1fa71b2929f5184fd2152105d53b982a966f3c8a"
+}

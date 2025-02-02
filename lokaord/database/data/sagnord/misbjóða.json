@@ -1,0 +1,110 @@
+{
+	"orð": "misbjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "misbjóða",
+		"sagnbót": "misboðið",
+		"boðháttur": {
+			"stýfður": "misbjóð",
+			"et": "misbjóddu",
+			"ft": "misbjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["misbýð", "misbýður", "misbýður"],
+					"ft": ["misbjóðum", "misbjóðið", "misbjóða"]
+				},
+				"þátíð": {
+					"et": ["misbauð", "misbauðst", "misbauð"],
+					"ft": ["misbuðum", "misbuðuð", "misbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["misbjóði", "misbjóðir", "misbjóði"],
+					"ft": ["misbjóðum", "misbjóðið", "misbjóði"]
+				},
+				"þátíð": {
+					"et": ["misbyði", "misbyðir", "misbyði"],
+					"ft": ["misbyðum", "misbyðuð", "misbyðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["misbýður", "misbýður", "misbýður"],
+					"ft": ["misbýður", "misbýður", "misbýður"]
+				},
+				"þátíð": {
+					"et": ["misbauð", "misbauð", "misbauð"],
+					"ft": ["misbauð", "misbauð", "misbauð"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["misbjóði", "misbjóði", "misbjóði"],
+					"ft": ["misbjóði", "misbjóði", "misbjóði"]
+				},
+				"þátíð": {
+					"et": ["misbyði", "misbyði", "misbyði"],
+					"ft": ["misbyði", "misbyði", "misbyði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "misbýðurðu",
+					"ft": "misbjóðiði"
+				},
+				"þátíð": {
+					"et": "misbauðstu",
+					"ft": "misbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "misbjóðirðu",
+					"ft": "misbjóðiði"
+				},
+				"þátíð": {
+					"et": "misbyðirðu",
+					"ft": "misbyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "misbjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["misboðinn", "misboðinn", "misboðnum", "misboðins"],
+					"kvk": ["misboðin", "misboðna", "misboðinni", "misboðinnar"],
+					"hk": ["misboðið", "misboðið", "misboðnu", "misboðins"]
+				},
+				"ft": {
+					"kk": ["misboðnir", "misboðna", "misboðnum", "misboðinna"],
+					"kvk": ["misboðnar", "misboðnar", "misboðnum", "misboðinna"],
+					"hk": ["misboðin", "misboðin", "misboðnum", "misboðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-misbjóða",
+	"hash": "9de4e1bbf2546b0bf200c68455b7f48856318638cc20c1d729aa2ca719b233f5"
+}
