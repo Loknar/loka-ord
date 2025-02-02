@@ -1,0 +1,131 @@
+{
+	"orð": "þingfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þingfesta",
+		"sagnbót": "þingfest",
+		"boðháttur": {
+			"stýfður": "þingfest",
+			"et": "þingfestu",
+			"ft": "þingfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þingfesti", "þingfestir", "þingfestir"],
+					"ft": ["þingfestum", "þingfestið", "þingfesta"]
+				},
+				"þátíð": {
+					"et": ["þingfesti", "þingfestir", "þingfesti"],
+					"ft": ["þingfestum", "þingfestuð", "þingfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þingfesti", "þingfestir", "þingfesti"],
+					"ft": ["þingfestum", "þingfestið", "þingfesti"]
+				},
+				"þátíð": {
+					"et": ["þingfesti", "þingfestir", "þingfesti"],
+					"ft": ["þingfestum", "þingfestuð", "þingfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þingfestirðu",
+					"ft": "þingfestiði"
+				},
+				"þátíð": {
+					"et": "þingfestirðu",
+					"ft": "þingfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þingfestirðu",
+					"ft": "þingfestiði"
+				},
+				"þátíð": {
+					"et": "þingfestirðu",
+					"ft": "þingfestuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þingfestast",
+		"sagnbót": "þingfest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þingfestist", "þingfestist", "þingfestist"],
+					"ft": ["þingfestumst", "þingfestist", "þingfestast"]
+				},
+				"þátíð": {
+					"et": ["þingfestist", "þingfestist", "þingfestist"],
+					"ft": ["þingfestumst", "þingfestust", "þingfestust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þingfestist", "þingfestist", "þingfestist"],
+					"ft": ["þingfestumst", "þingfestist", "þingfestist"]
+				},
+				"þátíð": {
+					"et": ["þingfestist", "þingfestist", "þingfestist"],
+					"ft": ["þingfestumst", "þingfestust", "þingfestust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þingfestistu"
+				},
+				"þátíð": {
+					"et": "þingfestistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þingfestistu"
+				},
+				"þátíð": {
+					"et": "þingfestistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þingfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þingfestur", "þingfestan", "þingfestum", "þingfests"],
+					"kvk": ["þingfest", "þingfesta", "þingfestri", "þingfestrar"],
+					"hk": ["þingfest", "þingfest", "þingfestu", "þingfests"]
+				},
+				"ft": {
+					"kk": ["þingfestir", "þingfesta", "þingfestum", "þingfestra"],
+					"kvk": ["þingfestar", "þingfestar", "þingfestum", "þingfestra"],
+					"hk": ["þingfest", "þingfest", "þingfestum", "þingfestra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þingfesta",
+	"hash": "f19c806bb1135275c5b48bb4d2d422bdb634918b0c06a0b350b56888e89871c8"
+}

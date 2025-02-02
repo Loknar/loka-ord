@@ -1,0 +1,37 @@
+{
+	"orð": "samstarfsfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["samstarfsfyrirkomulag", "samstarfsfyrirkomulag", "samstarfsfyrirkomulagi", "samstarfsfyrirkomulags"],
+		"mg": ["samstarfsfyrirkomulagið", "samstarfsfyrirkomulagið", "samstarfsfyrirkomulaginu", "samstarfsfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-samstarfsfyrirkomulag-hk",
+	"hash": "904fa1f30caf9400402dbdd45dfc637c546e5f3caa25dfda009bcd293cbd53e8"
+}

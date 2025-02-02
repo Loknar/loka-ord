@@ -1,0 +1,48 @@
+{
+	"orð": "framfærsluskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "færslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-færsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["framfærsluskyldur", "framfærsluskyldan", "framfærsluskyldum", "framfærsluskylds"],
+				"kvk": ["framfærsluskyld", "framfærsluskylda", "framfærsluskyldri", "framfærsluskyldrar"],
+				"hk": ["framfærsluskylt", "framfærsluskylt", "framfærsluskyldu", "framfærsluskylds"]
+			},
+			"ft": {
+				"kk": ["framfærsluskyldir", "framfærsluskylda", "framfærsluskyldum", "framfærsluskyldra"],
+				"kvk": ["framfærsluskyldar", "framfærsluskyldar", "framfærsluskyldum", "framfærsluskyldra"],
+				"hk": ["framfærsluskyld", "framfærsluskyld", "framfærsluskyldum", "framfærsluskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["framfærsluskyldi", "framfærsluskylda", "framfærsluskylda", "framfærsluskylda"],
+				"kvk": ["framfærsluskylda", "framfærsluskyldu", "framfærsluskyldu", "framfærsluskyldu"],
+				"hk": ["framfærsluskylda", "framfærsluskylda", "framfærsluskylda", "framfærsluskylda"]
+			},
+			"ft": {
+				"kk": ["framfærsluskyldu", "framfærsluskyldu", "framfærsluskyldu", "framfærsluskyldu"],
+				"kvk": ["framfærsluskyldu", "framfærsluskyldu", "framfærsluskyldu", "framfærsluskyldu"],
+				"hk": ["framfærsluskyldu", "framfærsluskyldu", "framfærsluskyldu", "framfærsluskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-framfærsluskyldur",
+	"hash": "61ea43a3296ca84920ce5da90fb3687b2c0f141faae2e5c80bbc5b1d029f0464"
+}

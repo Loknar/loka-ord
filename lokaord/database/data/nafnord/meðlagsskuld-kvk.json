@@ -1,0 +1,30 @@
+{
+	"orð": "meðlagsskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "með",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-með"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["meðlagsskuld", "meðlagsskuld", "meðlagsskuld", "meðlagsskuldar"],
+		"mg": ["meðlagsskuldin", "meðlagsskuldina", "meðlagsskuldinni", "meðlagsskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["meðlagsskuldir", "meðlagsskuldir", "meðlagsskuldum", "meðlagsskulda"],
+		"mg": ["meðlagsskuldirnar", "meðlagsskuldirnar", "meðlagsskuldunum", "meðlagsskuldanna"]
+	},
+	"kennistrengur": "no-meðlagsskuld-kvk",
+	"hash": "c01a8aace927d4e65aa783e377f0e5258510dc03279ab81f1183d5fe3abc587b"
+}

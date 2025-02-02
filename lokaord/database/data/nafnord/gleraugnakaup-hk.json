@@ -1,0 +1,27 @@
+{
+	"orð": "gleraugnakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gler",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gler-hk"
+		},
+		{
+			"mynd": "augna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-auga-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["gleraugnakaup", "gleraugnakaup", "gleraugnakaupum", "gleraugnakaupa"],
+		"mg": ["gleraugnakaupin", "gleraugnakaupin", "gleraugnakaupunum", "gleraugnakaupanna"]
+	},
+	"kennistrengur": "no-gleraugnakaup-hk",
+	"hash": "45c83c026a55bf1d8caccfb907c73a267e2024330227ef5eb3d09e480f7f326c"
+}

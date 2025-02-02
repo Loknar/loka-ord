@@ -1,0 +1,27 @@
+{
+	"orð": "sérfræðiþekking",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þekking-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sérfræðiþekking", "sérfræðiþekkingu", "sérfræðiþekkingu", "sérfræðiþekkingar"],
+		"mg": ["sérfræðiþekkingin", "sérfræðiþekkinguna", "sérfræðiþekkingunni", "sérfræðiþekkingarinnar"]
+	},
+	"kennistrengur": "no-sérfræðiþekking-kvk",
+	"hash": "5eba2947f7f692778c49b422176cb08cf58edefea2decfbc179dc39c3577c404"
+}

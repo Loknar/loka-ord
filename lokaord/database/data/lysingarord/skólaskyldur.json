@@ -1,0 +1,43 @@
+{
+	"orð": "skólaskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skólaskyldur", "skólaskyldan", "skólaskyldum", "skólaskylds"],
+				"kvk": ["skólaskyld", "skólaskylda", "skólaskyldri", "skólaskyldrar"],
+				"hk": ["skólaskylt", "skólaskylt", "skólaskyldu", "skólaskylds"]
+			},
+			"ft": {
+				"kk": ["skólaskyldir", "skólaskylda", "skólaskyldum", "skólaskyldra"],
+				"kvk": ["skólaskyldar", "skólaskyldar", "skólaskyldum", "skólaskyldra"],
+				"hk": ["skólaskyld", "skólaskyld", "skólaskyldum", "skólaskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skólaskyldi", "skólaskylda", "skólaskylda", "skólaskylda"],
+				"kvk": ["skólaskylda", "skólaskyldu", "skólaskyldu", "skólaskyldu"],
+				"hk": ["skólaskylda", "skólaskylda", "skólaskylda", "skólaskylda"]
+			},
+			"ft": {
+				"kk": ["skólaskyldu", "skólaskyldu", "skólaskyldu", "skólaskyldu"],
+				"kvk": ["skólaskyldu", "skólaskyldu", "skólaskyldu", "skólaskyldu"],
+				"hk": ["skólaskyldu", "skólaskyldu", "skólaskyldu", "skólaskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skólaskyldur",
+	"hash": "577eda70a5447b5914107c1c10b853e68da14d254478ed9f59cbd48d08caae0f"
+}

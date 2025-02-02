@@ -1,0 +1,48 @@
+{
+	"orð": "forsjárskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"mynd": "sjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjá-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["forsjárskyldur", "forsjárskyldan", "forsjárskyldum", "forsjárskylds"],
+				"kvk": ["forsjárskyld", "forsjárskylda", "forsjárskyldri", "forsjárskyldrar"],
+				"hk": ["forsjárskylt", "forsjárskylt", "forsjárskyldu", "forsjárskylds"]
+			},
+			"ft": {
+				"kk": ["forsjárskyldir", "forsjárskylda", "forsjárskyldum", "forsjárskyldra"],
+				"kvk": ["forsjárskyldar", "forsjárskyldar", "forsjárskyldum", "forsjárskyldra"],
+				"hk": ["forsjárskyld", "forsjárskyld", "forsjárskyldum", "forsjárskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["forsjárskyldi", "forsjárskylda", "forsjárskylda", "forsjárskylda"],
+				"kvk": ["forsjárskylda", "forsjárskyldu", "forsjárskyldu", "forsjárskyldu"],
+				"hk": ["forsjárskylda", "forsjárskylda", "forsjárskylda", "forsjárskylda"]
+			},
+			"ft": {
+				"kk": ["forsjárskyldu", "forsjárskyldu", "forsjárskyldu", "forsjárskyldu"],
+				"kvk": ["forsjárskyldu", "forsjárskyldu", "forsjárskyldu", "forsjárskyldu"],
+				"hk": ["forsjárskyldu", "forsjárskyldu", "forsjárskyldu", "forsjárskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-forsjárskyldur",
+	"hash": "6f806e4a71214ca5ad2fe0a77711ea2a9a96fd144f424c85c2fcd7df05d67a79"
+}

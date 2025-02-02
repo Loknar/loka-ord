@@ -1,0 +1,27 @@
+{
+	"orð": "meðlagsskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "með",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-með"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["meðlagsskylda", "meðlagsskyldu", "meðlagsskyldu", "meðlagsskyldu"],
+		"mg": ["meðlagsskyldan", "meðlagsskylduna", "meðlagsskyldunni", "meðlagsskyldunnar"]
+	},
+	"kennistrengur": "no-meðlagsskylda-kvk",
+	"hash": "e7c9dcfefe902a0568c0d6dff1508f7eff59e7a5aafbc190bbb2fcd5f2814ff2"
+}
