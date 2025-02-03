@@ -1,0 +1,48 @@
+{
+	"orð": "skipulagslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skipulagslegur", "skipulagslegan", "skipulagslegum", "skipulagslegs"],
+				"kvk": ["skipulagsleg", "skipulagslega", "skipulagslegri", "skipulagslegrar"],
+				"hk": ["skipulagslegt", "skipulagslegt", "skipulagslegu", "skipulagslegs"]
+			},
+			"ft": {
+				"kk": ["skipulagslegir", "skipulagslega", "skipulagslegum", "skipulagslegra"],
+				"kvk": ["skipulagslegar", "skipulagslegar", "skipulagslegum", "skipulagslegra"],
+				"hk": ["skipulagsleg", "skipulagsleg", "skipulagslegum", "skipulagslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skipulagslegi", "skipulagslega", "skipulagslega", "skipulagslega"],
+				"kvk": ["skipulagslega", "skipulagslegu", "skipulagslegu", "skipulagslegu"],
+				"hk": ["skipulagslega", "skipulagslega", "skipulagslega", "skipulagslega"]
+			},
+			"ft": {
+				"kk": ["skipulagslegu", "skipulagslegu", "skipulagslegu", "skipulagslegu"],
+				"kvk": ["skipulagslegu", "skipulagslegu", "skipulagslegu", "skipulagslegu"],
+				"hk": ["skipulagslegu", "skipulagslegu", "skipulagslegu", "skipulagslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skipulagslegur",
+	"hash": "ac49cc2b0b76547847a3255bc94b87edcd159ce1776f0b1ff334a02c77be9d88"
+}

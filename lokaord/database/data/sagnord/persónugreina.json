@@ -1,0 +1,99 @@
+{
+	"orð": "persónugreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "persónugreina",
+		"sagnbót": "persónugreint",
+		"boðháttur": {
+			"stýfður": "persónugrein",
+			"et": "persónugreindu",
+			"ft": "persónugreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónugreini", "persónugreinir", "persónugreinir"],
+					"ft": ["persónugreinum", "persónugreinið", "persónugreina"]
+				},
+				"þátíð": {
+					"et": ["persónugreindi", "persónugreindir", "persónugreindi"],
+					"ft": ["persónugreindum", "persónugreinduð", "persónugreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónugreini", "persónugreinir", "persónugreini"],
+					"ft": ["persónugreinum", "persónugreinið", "persónugreini"]
+				},
+				"þátíð": {
+					"et": ["persónugreindi", "persónugreindir", "persónugreindi"],
+					"ft": ["persónugreindum", "persónugreinduð", "persónugreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "persónugreinirðu",
+					"ft": "persónugreiniði"
+				},
+				"þátíð": {
+					"et": "persónugreindirðu",
+					"ft": "persónugreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "persónugreinirðu",
+					"ft": "persónugreiniði"
+				},
+				"þátíð": {
+					"et": "persónugreindirðu",
+					"ft": "persónugreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "persónugreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["persónugreindur", "persónugreindan", "persónugreindum", "persónugreinds"],
+					"kvk": ["persónugreind", "persónugreinda", "persónugreindri", "persónugreindrar"],
+					"hk": ["persónugreint", "persónugreint", "persónugreindu", "persónugreinds"]
+				},
+				"ft": {
+					"kk": ["persónugreindir", "persónugreinda", "persónugreindum", "persónugreindra"],
+					"kvk": ["persónugreindar", "persónugreindar", "persónugreindum", "persónugreindra"],
+					"hk": ["persónugreind", "persónugreind", "persónugreindum", "persónugreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["persónugreindi", "persónugreinda", "persónugreinda", "persónugreinda"],
+					"kvk": ["persónugreinda", "persónugreindu", "persónugreindu", "persónugreindu"],
+					"hk": ["persónugreinda", "persónugreinda", "persónugreinda", "persónugreinda"]
+				},
+				"ft": {
+					"kk": ["persónugreindu", "persónugreindu", "persónugreindu", "persónugreindu"],
+					"kvk": ["persónugreindu", "persónugreindu", "persónugreindu", "persónugreindu"],
+					"hk": ["persónugreindu", "persónugreindu", "persónugreindu", "persónugreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-persónugreina",
+	"hash": "dd230e00990502fe2f6767264b66424699441c31cb7aeae1b76d78fac4b4ca8f"
+}

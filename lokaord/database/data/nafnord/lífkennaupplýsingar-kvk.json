@@ -1,0 +1,27 @@
+{
+	"orð": "lífkennaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "kenna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kenni-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lífkennaupplýsingar", "lífkennaupplýsingar", "lífkennaupplýsingum", "lífkennaupplýsinga"],
+		"mg": ["lífkennaupplýsingarnar", "lífkennaupplýsingarnar", "lífkennaupplýsingunum", "lífkennaupplýsinganna"]
+	},
+	"kennistrengur": "no-lífkennaupplýsingar-kvk",
+	"hash": "3106c88a842ba8f782dfce04d1ffb819f45632cfc1771cc4afc847cc6e890e11"
+}
