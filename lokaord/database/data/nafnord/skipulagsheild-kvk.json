@@ -14,7 +14,6 @@
 			"kennistrengur": "no-lag-hk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-heild-kvk"
 		}
 	],
@@ -22,6 +21,10 @@
 		"ág": ["skipulagsheild", "skipulagsheild", "skipulagsheild", "skipulagsheildar"],
 		"mg": ["skipulagsheildin", "skipulagsheildina", "skipulagsheildinni", "skipulagsheildarinnar"]
 	},
+	"ft": {
+		"ág": ["skipulagsheildir", "skipulagsheildir", "skipulagsheildum", "skipulagsheilda"],
+		"mg": ["skipulagsheildirnar", "skipulagsheildirnar", "skipulagsheildunum", "skipulagsheildanna"]
+	},
 	"kennistrengur": "no-skipulagsheild-kvk",
-	"hash": "73b0f7e638f75e886cc59540e78ef00e67a6e5ab8156b343b17d2e84141e8f80"
+	"hash": "10a33720d3440536ad3aa7d1717fd037a40770ca38e9cdd4e50031ffdec94f4a"
 }

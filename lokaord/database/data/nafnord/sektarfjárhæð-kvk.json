@@ -1,0 +1,30 @@
+{
+	"orð": "sektarfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sektar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sekt-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sektarfjárhæð", "sektarfjárhæð", "sektarfjárhæð", "sektarfjárhæðar"],
+		"mg": ["sektarfjárhæðin", "sektarfjárhæðina", "sektarfjárhæðinni", "sektarfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["sektarfjárhæðir", "sektarfjárhæðir", "sektarfjárhæðum", "sektarfjárhæða"],
+		"mg": ["sektarfjárhæðirnar", "sektarfjárhæðirnar", "sektarfjárhæðunum", "sektarfjárhæðanna"]
+	},
+	"kennistrengur": "no-sektarfjárhæð-kvk",
+	"hash": "a327efeef75c80db947453bad5a0ed2453954f6fdf333920709b9971a6299afb"
+}

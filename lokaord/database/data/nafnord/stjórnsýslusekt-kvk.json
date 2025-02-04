@@ -1,0 +1,30 @@
+{
+	"orð": "stjórnsýslusekt",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"kennistrengur": "no-sekt-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnsýslusekt", "stjórnsýslusekt", "stjórnsýslusekt", "stjórnsýslusektar"],
+		"mg": ["stjórnsýslusektin", "stjórnsýslusektina", "stjórnsýslusektinni", "stjórnsýslusektarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnsýslusektir", "stjórnsýslusektir", "stjórnsýslusektum", "stjórnsýslusekta"],
+		"mg": ["stjórnsýslusektirnar", "stjórnsýslusektirnar", "stjórnsýslusektunum", "stjórnsýslusektanna"]
+	},
+	"kennistrengur": "no-stjórnsýslusekt-kvk",
+	"hash": "546637460f31df122de20e423d004a04cf6cc9805463e2b8fba0c0c952473acd"
+}
