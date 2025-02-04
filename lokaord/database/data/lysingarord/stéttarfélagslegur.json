@@ -1,0 +1,48 @@
+{
+	"orð": "stéttarfélagslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stéttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stétt-kvk"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["stéttarfélagslegur", "stéttarfélagslegan", "stéttarfélagslegum", "stéttarfélagslegs"],
+				"kvk": ["stéttarfélagsleg", "stéttarfélagslega", "stéttarfélagslegri", "stéttarfélagslegrar"],
+				"hk": ["stéttarfélagslegt", "stéttarfélagslegt", "stéttarfélagslegu", "stéttarfélagslegs"]
+			},
+			"ft": {
+				"kk": ["stéttarfélagslegir", "stéttarfélagslega", "stéttarfélagslegum", "stéttarfélagslegra"],
+				"kvk": ["stéttarfélagslegar", "stéttarfélagslegar", "stéttarfélagslegum", "stéttarfélagslegra"],
+				"hk": ["stéttarfélagsleg", "stéttarfélagsleg", "stéttarfélagslegum", "stéttarfélagslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["stéttarfélagslegi", "stéttarfélagslega", "stéttarfélagslega", "stéttarfélagslega"],
+				"kvk": ["stéttarfélagslega", "stéttarfélagslegu", "stéttarfélagslegu", "stéttarfélagslegu"],
+				"hk": ["stéttarfélagslega", "stéttarfélagslega", "stéttarfélagslega", "stéttarfélagslega"]
+			},
+			"ft": {
+				"kk": ["stéttarfélagslegu", "stéttarfélagslegu", "stéttarfélagslegu", "stéttarfélagslegu"],
+				"kvk": ["stéttarfélagslegu", "stéttarfélagslegu", "stéttarfélagslegu", "stéttarfélagslegu"],
+				"hk": ["stéttarfélagslegu", "stéttarfélagslegu", "stéttarfélagslegu", "stéttarfélagslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-stéttarfélagslegur",
+	"hash": "ad77844fb4ac76a0036eb276ddb54a93805b34e2fc38a58926d658d2fe40dabc"
+}

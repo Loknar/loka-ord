@@ -1,0 +1,40 @@
+{
+	"orð": "fjárhagsupplýsingastofa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "lýsinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lýsing-kvk"
+		},
+		{
+			"kennistrengur": "no-stofa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsupplýsingastofa", "fjárhagsupplýsingastofu", "fjárhagsupplýsingastofu", "fjárhagsupplýsingastofu"],
+		"mg": ["fjárhagsupplýsingastofan", "fjárhagsupplýsingastofuna", "fjárhagsupplýsingastofunni", "fjárhagsupplýsingastofunnar"]
+	},
+	"ft": {
+		"ág": ["fjárhagsupplýsingastofur", "fjárhagsupplýsingastofur", "fjárhagsupplýsingastofum", "fjárhagsupplýsingastofa"],
+		"mg": ["fjárhagsupplýsingastofurnar", "fjárhagsupplýsingastofurnar", "fjárhagsupplýsingastofunum", "fjárhagsupplýsingastofanna"]
+	},
+	"kennistrengur": "no-fjárhagsupplýsingastofa-kvk",
+	"hash": "a6c57cf0bc1b4157e1c0439ab475b93f1aadf2cc313ac5ca0b5d7676813f6e3c"
+}

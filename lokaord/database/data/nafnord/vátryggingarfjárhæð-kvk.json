@@ -1,0 +1,35 @@
+{
+	"orð": "vátryggingarfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vátryggingarfjárhæð", "vátryggingarfjárhæð", "vátryggingarfjárhæð", "vátryggingarfjárhæðar"],
+		"mg": ["vátryggingarfjárhæðin", "vátryggingarfjárhæðina", "vátryggingarfjárhæðinni", "vátryggingarfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["vátryggingarfjárhæðir", "vátryggingarfjárhæðir", "vátryggingarfjárhæðum", "vátryggingarfjárhæða"],
+		"mg": ["vátryggingarfjárhæðirnar", "vátryggingarfjárhæðirnar", "vátryggingarfjárhæðunum", "vátryggingarfjárhæðanna"]
+	},
+	"kennistrengur": "no-vátryggingarfjárhæð-kvk",
+	"hash": "d9bbe66769304851bea32c8d1da9dd1a9878e45c0b5dcc70e807eb036b1e01d9"
+}

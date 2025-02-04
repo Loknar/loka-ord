@@ -1,0 +1,32 @@
+{
+	"orð": "mannanafnalöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"mynd": "nafna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nafn-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["mannanafnalöggjöf", "mannanafnalöggjöf", "mannanafnalöggjöf", "mannanafnalöggjafar"],
+		"mg": ["mannanafnalöggjöfin", "mannanafnalöggjöfina", "mannanafnalöggjöfinni", "mannanafnalöggjafarinnar"]
+	},
+	"kennistrengur": "no-mannanafnalöggjöf-kvk",
+	"hash": "25a73382980bd18d991e2db7606867e28c6d28549fa48065169aa195ee2e75fe"
+}

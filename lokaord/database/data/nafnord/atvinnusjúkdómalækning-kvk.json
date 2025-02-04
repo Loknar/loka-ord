@@ -1,0 +1,40 @@
+{
+	"orð": "atvinnusjúkdómalækning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-lækning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["atvinnusjúkdómalækning", "atvinnusjúkdómalækningu", "atvinnusjúkdómalækningu", "atvinnusjúkdómalækningar"],
+		"mg": ["atvinnusjúkdómalækningin", "atvinnusjúkdómalækninguna", "atvinnusjúkdómalækningunni", "atvinnusjúkdómalækningarinnar"]
+	},
+	"ft": {
+		"ág": ["atvinnusjúkdómalækningar", "atvinnusjúkdómalækningar", "atvinnusjúkdómalækningum", "atvinnusjúkdómalækninga"],
+		"mg": ["atvinnusjúkdómalækningarnar", "atvinnusjúkdómalækningarnar", "atvinnusjúkdómalækningunum", "atvinnusjúkdómalækninganna"]
+	},
+	"kennistrengur": "no-atvinnusjúkdómalækning-kvk",
+	"hash": "01ccb98b363b42344ff506c6482cb2dff966ab899a1749eae89ce648fb8f84c8"
+}

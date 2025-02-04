@@ -1,0 +1,30 @@
+{
+	"orð": "eignarfallsmynd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "falls",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fałl-hk"
+		},
+		{
+			"kennistrengur": "no-mynd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignarfallsmynd", "eignarfallsmynd", "eignarfallsmynd", "eignarfallsmyndar"],
+		"mg": ["eignarfallsmyndin", "eignarfallsmyndina", "eignarfallsmyndinni", "eignarfallsmyndarinnar"]
+	},
+	"ft": {
+		"ág": ["eignarfallsmyndir", "eignarfallsmyndir", "eignarfallsmyndum", "eignarfallsmynda"],
+		"mg": ["eignarfallsmyndirnar", "eignarfallsmyndirnar", "eignarfallsmyndunum", "eignarfallsmyndanna"]
+	},
+	"kennistrengur": "no-eignarfallsmynd-kvk",
+	"hash": "9c5448f5eb4e70df1fa850e4a350cc93fb934a8847ee304bcebd46de70e9bade"
+}

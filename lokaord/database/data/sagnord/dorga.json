@@ -1,0 +1,135 @@
+{
+	"orð": "dorga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dorg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dorg-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dorga",
+		"sagnbót": "dorgað",
+		"boðháttur": {
+			"stýfður": "dorga",
+			"et": "dorgaðu",
+			"ft": "dorgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dorga", "dorgar", "dorgar"],
+					"ft": ["dorgum", "dorgið", "dorga"]
+				},
+				"þátíð": {
+					"et": ["dorgaði", "dorgaðir", "dorgaði"],
+					"ft": ["dorguðum", "dorguðuð", "dorguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dorgi", "dorgir", "dorgi"],
+					"ft": ["dorgum", "dorgið", "dorgi"]
+				},
+				"þátíð": {
+					"et": ["dorgaði", "dorgaðir", "dorgaði"],
+					"ft": ["dorguðum", "dorguðuð", "dorguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dorgarðu",
+					"ft": "dorgiði"
+				},
+				"þátíð": {
+					"et": "dorgaðirðu",
+					"ft": "dorguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dorgirðu",
+					"ft": "dorgiði"
+				},
+				"þátíð": {
+					"et": "dorgaðirðu",
+					"ft": "dorguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dorgast",
+		"sagnbót": "dorgast",
+		"boðháttur": {
+			"et": "dorgastu",
+			"ft": "dorgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dorgast", "dorgast", "dorgast"],
+					"ft": ["dorgumst", "dorgist", "dorgast"]
+				},
+				"þátíð": {
+					"et": ["dorgaðist", "dorgaðist", "dorgaðist"],
+					"ft": ["dorguðumst", "dorguðust", "dorguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dorgist", "dorgist", "dorgist"],
+					"ft": ["dorgumst", "dorgist", "dorgist"]
+				},
+				"þátíð": {
+					"et": ["dorgaðist", "dorgaðist", "dorgaðist"],
+					"ft": ["dorguðumst", "dorguðust", "dorguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dorgastu"
+				},
+				"þátíð": {
+					"et": "dorgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dorgistu"
+				},
+				"þátíð": {
+					"et": "dorgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dorgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dorgaður", "dorgaðan", "dorguðum", "dorgaðs"],
+					"kvk": ["dorguð", "dorgaða", "dorgaðri", "dorgaðrar"],
+					"hk": ["dorgað", "dorgað", "dorguðu", "dorgaðs"]
+				},
+				"ft": {
+					"kk": ["dorgaðir", "dorgaða", "dorguðum", "dorgaðra"],
+					"kvk": ["dorgaðar", "dorgaðar", "dorguðum", "dorgaðra"],
+					"hk": ["dorguð", "dorguð", "dorguðum", "dorgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dorga",
+	"hash": "286e51dc740a52e093aeda22c41186671fd58e1eb55e8243aabae746f94cf030"
+}

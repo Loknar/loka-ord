@@ -2,11 +2,23 @@
 	"orð": "kvæmni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kvæm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kvæmur-ó"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kvæmni", "kvæmni", "kvæmni", "kvæmni"],
 		"mg": ["kvæmnin", "kvæmnina", "kvæmninni", "kvæmninnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-kvæmni-kvk-ó",
-	"hash": "4459a5d2677501b17c14acecac9839a955e97433507156866e3957758e834b07"
+	"hash": "bb5584446850465e8460c359aa848392fd319a3d95fe2e9cbd4bcb9a9717ee8e"
 }
