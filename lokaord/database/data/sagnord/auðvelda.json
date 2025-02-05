@@ -1,0 +1,135 @@
+{
+	"orð": "auðvelda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "auð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-auður-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-velda-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "auðvelda",
+		"sagnbót": "auðveldað",
+		"boðháttur": {
+			"stýfður": "auðvelda",
+			"et": "auðveldaðu",
+			"ft": "auðveldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["auðvelda", "auðveldar", "auðveldar"],
+					"ft": ["auðveldum", "auðveldið", "auðvelda"]
+				},
+				"þátíð": {
+					"et": ["auðveldaði", "auðveldaðir", "auðveldaði"],
+					"ft": ["auðvelduðum", "auðvelduðuð", "auðvelduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["auðveldi", "auðveldir", "auðveldi"],
+					"ft": ["auðveldum", "auðveldið", "auðveldi"]
+				},
+				"þátíð": {
+					"et": ["auðveldaði", "auðveldaðir", "auðveldaði"],
+					"ft": ["auðvelduðum", "auðvelduðuð", "auðvelduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "auðveldarðu",
+					"ft": "auðveldiði"
+				},
+				"þátíð": {
+					"et": "auðveldaðirðu",
+					"ft": "auðvelduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "auðveldirðu",
+					"ft": "auðveldiði"
+				},
+				"þátíð": {
+					"et": "auðveldaðirðu",
+					"ft": "auðvelduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "auðveldast",
+		"sagnbót": "auðveldast",
+		"boðháttur": {
+			"et": "auðveldastu",
+			"ft": "auðveldist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["auðveldast", "auðveldast", "auðveldast"],
+					"ft": ["auðveldumst", "auðveldist", "auðveldast"]
+				},
+				"þátíð": {
+					"et": ["auðveldaðist", "auðveldaðist", "auðveldaðist"],
+					"ft": ["auðvelduðumst", "auðvelduðust", "auðvelduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["auðveldist", "auðveldist", "auðveldist"],
+					"ft": ["auðveldumst", "auðveldist", "auðveldist"]
+				},
+				"þátíð": {
+					"et": ["auðveldaðist", "auðveldaðist", "auðveldaðist"],
+					"ft": ["auðvelduðumst", "auðvelduðust", "auðvelduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "auðveldastu"
+				},
+				"þátíð": {
+					"et": "auðveldaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "auðveldistu"
+				},
+				"þátíð": {
+					"et": "auðveldaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "auðveldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["auðveldaður", "auðveldaðan", "auðvelduðum", "auðveldaðs"],
+					"kvk": ["auðvelduð", "auðveldaða", "auðveldaðri", "auðveldaðrar"],
+					"hk": ["auðveldað", "auðveldað", "auðvelduðu", "auðveldaðs"]
+				},
+				"ft": {
+					"kk": ["auðveldaðir", "auðveldaða", "auðvelduðum", "auðveldaðra"],
+					"kvk": ["auðveldaðar", "auðveldaðar", "auðvelduðum", "auðveldaðra"],
+					"hk": ["auðvelduð", "auðvelduð", "auðvelduðum", "auðveldaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-auðvelda",
+	"hash": "fdc1e8b62eff8d823f713d3de59ba6fbf69d5ac833edd4dcfc4aa044763956ad"
+}

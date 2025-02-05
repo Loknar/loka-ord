@@ -1,0 +1,27 @@
+{
+	"orð": "heilsufarsástand",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heilsu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heilsa-kvk"
+		},
+		{
+			"mynd": "fars",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-far-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ástand-hk"
+		}
+	],
+	"et": {
+		"ág": ["heilsufarsástand", "heilsufarsástand", "heilsufarsástandi", "heilsufarsástands"],
+		"mg": ["heilsufarsástandið", "heilsufarsástandið", "heilsufarsástandinu", "heilsufarsástandsins"]
+	},
+	"kennistrengur": "no-heilsufarsástand-hk",
+	"hash": "aad03f907804bf26bba3f79a5bbe019391658ac06e6d08da89f13b8de6afe1c5"
+}

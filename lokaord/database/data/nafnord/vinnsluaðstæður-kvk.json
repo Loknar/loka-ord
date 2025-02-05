@@ -1,0 +1,27 @@
+{
+	"orð": "vinnsluaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vinnslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinnsla-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vinnsluaðstæður", "vinnsluaðstæður", "vinnsluaðstæðum", "vinnsluaðstæðna"],
+		"mg": ["vinnsluaðstæðurnar", "vinnsluaðstæðurnar", "vinnsluaðstæðunum", "vinnsluaðstæðnanna"]
+	},
+	"kennistrengur": "no-vinnsluaðstæður-kvk",
+	"hash": "7c63d23ff00f5e64bfe6ef74c96208afd00cc3a7a9443c52a80ee3153619d3b3"
+}

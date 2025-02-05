@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnmálahegðun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hegðun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnmálahegðun", "stjórnmálahegðun", "stjórnmálahegðun", "stjórnmálahegðunar"],
+		"mg": ["stjórnmálahegðunin", "stjórnmálahegðunina", "stjórnmálahegðuninni", "stjórnmálahegðunarinnar"]
+	},
+	"kennistrengur": "no-stjórnmálahegðun-kvk",
+	"hash": "008fe8086fa3e54c9bb43b47932278db849b5155db25008f0984f6784e99aa0f"
+}

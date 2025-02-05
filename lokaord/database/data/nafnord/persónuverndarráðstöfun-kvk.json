@@ -1,0 +1,35 @@
+{
+	"orð": "persónuverndarráðstöfun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"kennistrengur": "no-stöfun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["persónuverndarráðstöfun", "persónuverndarráðstöfun", "persónuverndarráðstöfun", "persónuverndarráðstöfunar"],
+		"mg": ["persónuverndarráðstöfunin", "persónuverndarráðstöfunina", "persónuverndarráðstöfuninni", "persónuverndarráðstöfunarinnar"]
+	},
+	"ft": {
+		"ág": ["persónuverndarráðstafanir", "persónuverndarráðstafanir", "persónuverndarráðstöfunum", "persónuverndarráðstafana"],
+		"mg": ["persónuverndarráðstafanirnar", "persónuverndarráðstafanirnar", "persónuverndarráðstöfununum", "persónuverndarráðstafananna"]
+	},
+	"kennistrengur": "no-persónuverndarráðstöfun-kvk",
+	"hash": "1afd45691eab568ac1cc37ec6ade65295ca2fd57dcc36cbe2d3adc4379f05fd5"
+}
