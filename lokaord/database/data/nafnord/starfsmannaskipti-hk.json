@@ -1,0 +1,27 @@
+{
+	"orð": "starfsmannaskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["starfsmannaskipti", "starfsmannaskipti", "starfsmannaskiptum", "starfsmannaskipta"],
+		"mg": ["starfsmannaskiptin", "starfsmannaskiptin", "starfsmannaskiptunum", "starfsmannaskiptanna"]
+	},
+	"kennistrengur": "no-starfsmannaskipti-hk",
+	"hash": "b1759203b660e12fd8bfe8b05ff8894cd4f466308cd1592670a74b10a756663e"
+}

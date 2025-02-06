@@ -1,0 +1,27 @@
+{
+	"orð": "reiðmannsnám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "reið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-reið-kvk"
+		},
+		{
+			"mynd": "manns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["reiðmannsnám", "reiðmannsnám", "reiðmannsnámi", "reiðmannsnáms"],
+		"mg": ["reiðmannsnámið", "reiðmannsnámið", "reiðmannsnáminu", "reiðmannsnámsins"]
+	},
+	"kennistrengur": "no-reiðmannsnám-hk",
+	"hash": "e7350c779ed8f7880df1767bc1fc0f55a0d4d0c601e068c12e889820d939e1f4"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "nauðlenda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "nauð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nauð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lenda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nauðlenda",
+		"sagnbót": "nauðlent",
+		"boðháttur": {
+			"stýfður": "nauðlent",
+			"et": "nauðlentu",
+			"ft": "nauðlendið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nauðlendi", "nauðlendir", "nauðlendir"],
+					"ft": ["nauðlendum", "nauðlendið", "nauðlenda"]
+				},
+				"þátíð": {
+					"et": ["nauðlenti", "nauðlentir", "nauðlenti"],
+					"ft": ["nauðlentum", "nauðlentuð", "nauðlentu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nauðlendi", "nauðlendir", "nauðlendi"],
+					"ft": ["nauðlendum", "nauðlendið", "nauðlendi"]
+				},
+				"þátíð": {
+					"et": ["nauðlenti", "nauðlentir", "nauðlenti"],
+					"ft": ["nauðlentum", "nauðlentuð", "nauðlentu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nauðlendirðu",
+					"ft": "nauðlendiði"
+				},
+				"þátíð": {
+					"et": "nauðlentirðu",
+					"ft": "nauðlentuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nauðlendirðu",
+					"ft": "nauðlendiði"
+				},
+				"þátíð": {
+					"et": "nauðlentirðu",
+					"ft": "nauðlentuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nauðlendandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nauðlentur", "nauðlentan", "nauðlentum", "nauðlents"],
+					"kvk": ["nauðlent", "nauðlenta", "nauðlentri", "nauðlentrar"],
+					"hk": ["nauðlent", "nauðlent", "nauðlentu", "nauðlents"]
+				},
+				"ft": {
+					"kk": ["nauðlentir", "nauðlenta", "nauðlentum", "nauðlentra"],
+					"kvk": ["nauðlentar", "nauðlentar", "nauðlentum", "nauðlentra"],
+					"hk": ["nauðlent", "nauðlent", "nauðlentum", "nauðlentra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nauðlenda",
+	"hash": "722319d854481a14d1235b2bed37902208a10879276c488d275b8896e6fc185a"
+}

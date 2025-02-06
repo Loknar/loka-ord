@@ -1,0 +1,32 @@
+{
+	"orð": "starfsfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["starfsfyrirkomulag", "starfsfyrirkomulag", "starfsfyrirkomulagi", "starfsfyrirkomulags"],
+		"mg": ["starfsfyrirkomulagið", "starfsfyrirkomulagið", "starfsfyrirkomulaginu", "starfsfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-starfsfyrirkomulag-hk",
+	"hash": "afc87f75ee3a74fb386693d8820e0b7ff7e82a1b63682a9c7693cc3ddf6850c6"
+}

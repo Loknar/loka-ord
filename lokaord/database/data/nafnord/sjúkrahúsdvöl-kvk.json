@@ -1,0 +1,27 @@
+{
+	"orð": "sjúkrahúsdvöl",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjúkra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-dvöl-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjúkrahúsdvöl", "sjúkrahúsdvöl", "sjúkrahúsdvöl", "sjúkrahúsdvalar"],
+		"mg": ["sjúkrahúsdvölin", "sjúkrahúsdvölina", "sjúkrahúsdvölinni", "sjúkrahúsdvalarinnar"]
+	},
+	"kennistrengur": "no-sjúkrahúsdvöl-kvk",
+	"hash": "a993755ac88c5e393edf079dfcba5b194e77291f5c909b6f494eee4ae6e6cd61"
+}
