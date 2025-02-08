@@ -1,0 +1,43 @@
+{
+	"orð": "ferðatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ferðatengdur", "ferðatengdan", "ferðatengdum", "ferðatengds"],
+				"kvk": ["ferðatengd", "ferðatengda", "ferðatengdri", "ferðatengdrar"],
+				"hk": ["ferðatengt", "ferðatengt", "ferðatengdu", "ferðatengds"]
+			},
+			"ft": {
+				"kk": ["ferðatengdir", "ferðatengda", "ferðatengdum", "ferðatengdra"],
+				"kvk": ["ferðatengdar", "ferðatengdar", "ferðatengdum", "ferðatengdra"],
+				"hk": ["ferðatengd", "ferðatengd", "ferðatengdum", "ferðatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ferðatengdi", "ferðatengda", "ferðatengda", "ferðatengda"],
+				"kvk": ["ferðatengda", "ferðatengdu", "ferðatengdu", "ferðatengdu"],
+				"hk": ["ferðatengda", "ferðatengda", "ferðatengda", "ferðatengda"]
+			},
+			"ft": {
+				"kk": ["ferðatengdu", "ferðatengdu", "ferðatengdu", "ferðatengdu"],
+				"kvk": ["ferðatengdu", "ferðatengdu", "ferðatengdu", "ferðatengdu"],
+				"hk": ["ferðatengdu", "ferðatengdu", "ferðatengdu", "ferðatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ferðatengdur",
+	"hash": "0b60840cb92291bc9dd5e6834db0d3a87b8001e7a90dd2c2b10b69b580f2ddd3"
+}

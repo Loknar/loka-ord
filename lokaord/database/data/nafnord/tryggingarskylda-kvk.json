@@ -1,0 +1,22 @@
+{
+	"orð": "tryggingarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tryggingarskylda", "tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu"],
+		"mg": ["tryggingarskyldan", "tryggingarskylduna", "tryggingarskyldunni", "tryggingarskyldunnar"]
+	},
+	"kennistrengur": "no-tryggingarskylda-kvk",
+	"hash": "959f685d3ad6f1b6151c4c48595f63b61671ff2fc1caa4f1e141c1ae97a04d44"
+}
