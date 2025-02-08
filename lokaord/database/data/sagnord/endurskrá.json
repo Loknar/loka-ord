@@ -1,0 +1,86 @@
+{
+	"orð": "endurskrá",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skrá"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurskrá",
+		"sagnbót": "endurskráð",
+		"boðháttur": {
+			"stýfður": "endurskrá",
+			"et": "endurskráðu",
+			"ft": "endurskráið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurskrái", "endurskráirð", "endurskráir"],
+					"ft": ["endurskráum", "endurskráið", "endurskrá"]
+				},
+				"þátíð": {
+					"et": ["endurskráði", "endurskráðir", "endurskráði"],
+					"ft": ["endurskráðum", "endurskráðuð", "endurskráðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurskrái", "endurskráir", "endurskrái"],
+					"ft": ["endurskráum", "endurskráið", "endurskrái"]
+				},
+				"þátíð": {
+					"et": ["endurskráði", "endurskráðir", "endurskráði"],
+					"ft": ["endurskráðum", "endurskráðuð", "endurskráðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurskráirðu",
+					"ft": "endurskráiði"
+				},
+				"þátíð": {
+					"et": "endurskráðirðu",
+					"ft": "endurskráðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurskráirðu",
+					"ft": "endurskráiði"
+				},
+				"þátíð": {
+					"et": "endurskráðirðu",
+					"ft": "endurskráðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurskráður", "endurskráðan", "endurskráðum", "endurskráðs"],
+					"kvk": ["endurskráð", "endurskráða", "endurskráðri", "endurskráðrar"],
+					"hk": ["endurskráð", "endurskráð", "endurskráðu", "endurskráðs"]
+				},
+				"ft": {
+					"kk": ["endurskráðir", "endurskráða", "endurskráðum", "endurskráðra"],
+					"kvk": ["endurskráðar", "endurskráðar", "endurskráðum", "endurskráðra"],
+					"hk": ["endurskráð", "endurskráð", "endurskráðum", "endurskráðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurskrá",
+	"hash": "7a17297c899235502e75d12c07f833d80f93dc1ad9292dcd5b1bd91b09d74863"
+}

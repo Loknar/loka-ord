@@ -1,0 +1,27 @@
+{
+	"orð": "heildarhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarhagsmunir", "heildarhagsmuni", "heildarhagsmunum", "heildarhagsmuna"],
+		"mg": ["heildarhagsmunirnir", "heildarhagsmunina", "heildarhagsmununum", "heildarhagsmunanna"]
+	},
+	"kennistrengur": "no-heildarhagsmunir-kk",
+	"hash": "155f07c78d9d5e2c26db3f75bfb6d5ff28501be6424cedb1db81ac2a58e92d85"
+}
