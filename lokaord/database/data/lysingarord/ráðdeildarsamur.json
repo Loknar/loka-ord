@@ -1,0 +1,48 @@
+{
+	"orð": "ráðdeildarsamur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"mynd": "deildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-deild-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-samur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ráðdeildarsamur", "ráðdeildarsaman", "ráðdeildarsömum", "ráðdeildarsams"],
+				"kvk": ["ráðdeildarsöm", "ráðdeildarsama", "ráðdeildarsamri", "ráðdeildarsamrar"],
+				"hk": ["ráðdeildarsamt", "ráðdeildarsamt", "ráðdeildarsömu", "ráðdeildarsams"]
+			},
+			"ft": {
+				"kk": ["ráðdeildarsamir", "ráðdeildarsama", "ráðdeildarsömum", "ráðdeildarsamra"],
+				"kvk": ["ráðdeildarsamar", "ráðdeildarsamar", "ráðdeildarsömum", "ráðdeildarsamra"],
+				"hk": ["ráðdeildarsöm", "ráðdeildarsöm", "ráðdeildarsömum", "ráðdeildarsamra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ráðdeildarsami", "ráðdeildarsama", "ráðdeildarsama", "ráðdeildarsama"],
+				"kvk": ["ráðdeildarsama", "ráðdeildarsömu", "ráðdeildarsömu", "ráðdeildarsömu"],
+				"hk": ["ráðdeildarsama", "ráðdeildarsama", "ráðdeildarsama", "ráðdeildarsama"]
+			},
+			"ft": {
+				"kk": ["ráðdeildarsömu", "ráðdeildarsömu", "ráðdeildarsömu", "ráðdeildarsömu"],
+				"kvk": ["ráðdeildarsömu", "ráðdeildarsömu", "ráðdeildarsömu", "ráðdeildarsömu"],
+				"hk": ["ráðdeildarsömu", "ráðdeildarsömu", "ráðdeildarsömu", "ráðdeildarsömu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ráðdeildarsamur",
+	"hash": "87f3a91efb66c67e0b8a9c28e13aa0c73b0a546876df1d745e72d1aa17fa5360"
+}
