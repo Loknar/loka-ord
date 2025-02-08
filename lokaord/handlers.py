@@ -4032,6 +4032,9 @@ class Skammstofun(Ord):
 				db.Session.delete(isl_sk_myndir[j])
 				db.Session.commit()
 				changes_made = True
+		if changes_made is True:
+			isl_sk.Edited = datetime.datetime.utcnow()
+			db.Session.commit()
 		return (isl_sk, changes_made)
 
 	def load_from_db(self, isl_sk: isl.Skammstofun):
