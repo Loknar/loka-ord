@@ -1,0 +1,65 @@
+{
+	"orð": "endurkveðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-kveðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurkveðja",
+		"sagnbót": "endurkvatt",
+		"boðháttur": {
+			"stýfður": "endurkveð",
+			"et": "endurkveddu",
+			"ft": "endurkveðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurkveð", "endurkveður", "endurkveður"],
+					"ft": ["endurkveðjum", "endurkveðjið", "endurkveðja"]
+				},
+				"þátíð": {
+					"et": ["endurkvaddi", "endurkvaddir", "endurkvaddi"],
+					"ft": ["endurkvöddum", "endurkvödduð", "endurkvöddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurkveðji", "endurkveðjir", "endurkveðji"],
+					"ft": ["endurkveðjum", "endurkveðjið", "endurkveðji"]
+				},
+				"þátíð": {
+					"et": ["endurkveddi", "endurkveddir", "endurkveddi"],
+					"ft": ["endurkveddum", "endurkvedduð", "endurkveddu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurkveðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurkvaddur", "endurkvaddan", "endurkvöddum", "endurkvadds"],
+					"kvk": ["endurkvadd", "endurkvadda", "endurkvaddri", "endurkvaddrar"],
+					"hk": ["endurgert", "endurgert", "endurkvöddu", "endurkvadds"]
+				},
+				"ft": {
+					"kk": ["endurkvaddir", "endurkvadda", "endurkvöddum", "endurkvaddra"],
+					"kvk": ["endurkvaddar", "endurkvaddar", "endurkvöddum", "endurkvaddra"],
+					"hk": ["endurkvadd", "endurkvadd", "endurkvöddum", "endurkvaddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurkveðja",
+	"hash": "5bedc4601d3d9464cad4529e196d60281e82c7ba04af55a2db79f3767e305d36"
+}

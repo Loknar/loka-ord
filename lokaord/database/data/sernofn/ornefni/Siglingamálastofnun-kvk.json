@@ -1,0 +1,27 @@
+{
+	"orð": "Siglingamálastofnun",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Siglinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sigling-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-stofnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Siglingamálastofnun", "Siglingamálastofnun", "Siglingamálastofnun", "Siglingamálastofnunar"]
+	},
+	"kennistrengur": "sérn.ön-Siglingamálastofnun-kvk",
+	"hash": "1b343c61c31b7af3b0646dda9924a81bbdfb9eb6c06ff0595fa36e62cb37e741"
+}

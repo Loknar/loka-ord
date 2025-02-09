@@ -1,0 +1,37 @@
+{
+	"orð": "sjálfboðaliðasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sjálf",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.áb-sjálfur"
+		},
+		{
+			"mynd": "boða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boði-kk"
+		},
+		{
+			"mynd": "liða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-liði-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["sjálfboðaliðasamtök", "sjálfboðaliðasamtök", "sjálfboðaliðasamtökum", "sjálfboðaliðasamtaka"],
+		"mg": ["sjálfboðaliðasamtökin", "sjálfboðaliðasamtökin", "sjálfboðaliðasamtökunum", "sjálfboðaliðasamtakanna"]
+	},
+	"kennistrengur": "no-sjálfboðaliðasamtök-hk",
+	"hash": "d7e89c570f3527c7f2e458ea842d392e99bdb2c80fb2572825b3e61c2e440c00"
+}
