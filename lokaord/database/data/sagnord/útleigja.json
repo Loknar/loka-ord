@@ -1,0 +1,142 @@
+{
+	"orð": "útleigja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "so-leigja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útleigja",
+		"sagnbót": "útleigt",
+		"boðháttur": {
+			"stýfður": "útleig",
+			"et": "útleigðu",
+			"ft": "útleigið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útleigi", "útleigir", "útleigir"],
+					"ft": ["útleigjum", "útleigið", "útleigja"]
+				},
+				"þátíð": {
+					"et": ["útleigði", "útleigðir", "útleigði"],
+					"ft": ["útleigðum", "útleigðuð", "útleigðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útleigi", "útleigir", "útleigi"],
+					"ft": ["útleigjum", "útleigið", "útleigi"]
+				},
+				"þátíð": {
+					"et": ["útleigði", "útleigðir", "útleigði"],
+					"ft": ["útleigðum", "útleigðuð", "útleigðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útleigirðu",
+					"ft": "útleigiði"
+				},
+				"þátíð": {
+					"et": "útleigðirðu",
+					"ft": "útleigðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útleigirðu",
+					"ft": "útleigiði"
+				},
+				"þátíð": {
+					"et": "útleigðirðu",
+					"ft": "útleigðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útleigjast",
+		"sagnbót": "útleigst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útleigist", "útleigist", "útleigist"],
+					"ft": ["útleigjumst", "útleigist", "útleigjast"]
+				},
+				"þátíð": {
+					"et": ["útleigðist", "útleigðist", "útleigðist"],
+					"ft": ["útleigðumst", "útleigðust", "útleigðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útleigist", "útleigist", "útleigist"],
+					"ft": ["útleigjumst", "útleigist", "útleigist"]
+				},
+				"þátíð": {
+					"et": ["útleigðist", "útleigðist", "útleigðist"],
+					"ft": ["útleigðumst", "útleigðust", "útleigðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útleigistu"
+				},
+				"þátíð": {
+					"et": "útleigðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útleigistu"
+				},
+				"þátíð": {
+					"et": "útleigðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útleigjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útleigður", "útleigðan", "útleigðum", "útleigðs"],
+					"kvk": ["útleigð", "útleigða", "útleigðri", "útleigðrar"],
+					"hk": ["útleigt", "útleigt", "útleigðu", "útleigðs"]
+				},
+				"ft": {
+					"kk": ["útleigðir", "útleigða", "útleigðum", "útleigðra"],
+					"kvk": ["útleigðar", "útleigðar", "útleigðum", "útleigðra"],
+					"hk": ["útleigð", "útleigð", "útleigðum", "útleigðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útleigði", "útleigða", "útleigða", "útleigða"],
+					"kvk": ["útleigða", "útleigðu", "útleigðu", "útleigðu"],
+					"hk": ["útleigða", "útleigða", "útleigða", "útleigða"]
+				},
+				"ft": {
+					"kk": ["útleigðu", "útleigðu", "útleigðu", "útleigðu"],
+					"kvk": ["útleigðu", "útleigðu", "útleigðu", "útleigðu"],
+					"hk": ["útleigðu", "útleigðu", "útleigðu", "útleigðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útleigja",
+	"hash": "d3a8175eece71da685670913992726452eab95f6be6c949a4d25f52f729b763b"
+}

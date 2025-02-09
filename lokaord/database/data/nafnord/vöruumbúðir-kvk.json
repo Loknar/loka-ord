@@ -1,0 +1,27 @@
+{
+	"orð": "vöruumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vöruumbúðir", "vöruumbúðir", "vöruumbúðum", "vöruumbúða"],
+		"mg": ["vöruumbúðirnar", "vöruumbúðirnar", "vöruumbúðunum", "vöruumbúðanna"]
+	},
+	"kennistrengur": "no-vöruumbúðir-kvk",
+	"hash": "cd587664cadebb9f4bd7156ef878ea69f185c8b64b58d97ec53d5fca364d6d84"
+}

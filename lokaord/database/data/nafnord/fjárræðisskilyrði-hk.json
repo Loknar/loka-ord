@@ -1,0 +1,32 @@
+{
+	"orð": "fjárræðisskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "ræðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ræði-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["fjárræðisskilyrði", "fjárræðisskilyrði", "fjárræðisskilyrðum", "fjárræðisskilyrða"],
+		"mg": ["fjárræðisskilyrðin", "fjárræðisskilyrðin", "fjárræðisskilyrðunum", "fjárræðisskilyrðanna"]
+	},
+	"kennistrengur": "no-fjárræðisskilyrði-hk",
+	"hash": "28e88badc3eb0919282a913fdb7c15039b6abc7a27fbc0dbd3d9ecef41b38b8c"
+}

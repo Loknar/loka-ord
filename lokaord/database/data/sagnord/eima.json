@@ -1,0 +1,135 @@
+{
+	"orð": "eima",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eim",
+			"samsetning": "stofn",
+			"kennistrengur": "no-eimur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eima",
+		"sagnbót": "eimað",
+		"boðháttur": {
+			"stýfður": "eima",
+			"et": "eimaðu",
+			"ft": "eimið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eima", "eimar", "eimar"],
+					"ft": ["eimum", "eimið", "eima"]
+				},
+				"þátíð": {
+					"et": ["eimaði", "eimaðir", "eimaði"],
+					"ft": ["eimuðum", "eimuðuð", "eimuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eimi", "eimir", "eimi"],
+					"ft": ["eimum", "eimið", "eimi"]
+				},
+				"þátíð": {
+					"et": ["eimaði", "eimaðir", "eimaði"],
+					"ft": ["eimuðum", "eimuðuð", "eimuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eimarðu",
+					"ft": "eimiði"
+				},
+				"þátíð": {
+					"et": "eimaðirðu",
+					"ft": "eimuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eimirðu",
+					"ft": "eimiði"
+				},
+				"þátíð": {
+					"et": "eimaðirðu",
+					"ft": "eimuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "eimast",
+		"sagnbót": "eimast",
+		"boðháttur": {
+			"et": "eimastu",
+			"ft": "eimist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eimast", "eimast", "eimast"],
+					"ft": ["eimumst", "eimist", "eimast"]
+				},
+				"þátíð": {
+					"et": ["eimaðist", "eimaðist", "eimaðist"],
+					"ft": ["eimuðumst", "eimuðust", "eimuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eimist", "eimist", "eimist"],
+					"ft": ["eimumst", "eimist", "eimist"]
+				},
+				"þátíð": {
+					"et": ["eimaðist", "eimaðist", "eimaðist"],
+					"ft": ["eimuðumst", "eimuðust", "eimuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eimastu"
+				},
+				"þátíð": {
+					"et": "eimaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eimistu"
+				},
+				"þátíð": {
+					"et": "eimaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eimandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eimaður", "eimaðan", "eimuðum", "eimaðs"],
+					"kvk": ["eimuð", "eimaða", "eimaðri", "eimaðrar"],
+					"hk": ["eimað", "eimað", "eimuðu", "eimaðs"]
+				},
+				"ft": {
+					"kk": ["eimaðir", "eimaða", "eimuðum", "eimaðra"],
+					"kvk": ["eimaðar", "eimaðar", "eimuðum", "eimaðra"],
+					"hk": ["eimuð", "eimuð", "eimuðum", "eimaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eima",
+	"hash": "61395fcb7ce24ddbf5c6468f84cc757900a3670e102a30d0842f409ba3556cdf"
+}

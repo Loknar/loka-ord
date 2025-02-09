@@ -1,0 +1,48 @@
+{
+	"orð": "rekstrarleyfisskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"mynd": "leyfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leyfi-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["rekstrarleyfisskyldur", "rekstrarleyfisskyldan", "rekstrarleyfisskyldum", "rekstrarleyfisskylds"],
+				"kvk": ["rekstrarleyfisskyld", "rekstrarleyfisskylda", "rekstrarleyfisskyldri", "rekstrarleyfisskyldrar"],
+				"hk": ["rekstrarleyfisskylt", "rekstrarleyfisskylt", "rekstrarleyfisskyldu", "rekstrarleyfisskylds"]
+			},
+			"ft": {
+				"kk": ["rekstrarleyfisskyldir", "rekstrarleyfisskylda", "rekstrarleyfisskyldum", "rekstrarleyfisskyldra"],
+				"kvk": ["rekstrarleyfisskyldar", "rekstrarleyfisskyldar", "rekstrarleyfisskyldum", "rekstrarleyfisskyldra"],
+				"hk": ["rekstrarleyfisskyld", "rekstrarleyfisskyld", "rekstrarleyfisskyldum", "rekstrarleyfisskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["rekstrarleyfisskyldi", "rekstrarleyfisskylda", "rekstrarleyfisskylda", "rekstrarleyfisskylda"],
+				"kvk": ["rekstrarleyfisskylda", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu"],
+				"hk": ["rekstrarleyfisskylda", "rekstrarleyfisskylda", "rekstrarleyfisskylda", "rekstrarleyfisskylda"]
+			},
+			"ft": {
+				"kk": ["rekstrarleyfisskyldu", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu"],
+				"kvk": ["rekstrarleyfisskyldu", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu"],
+				"hk": ["rekstrarleyfisskyldu", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu", "rekstrarleyfisskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-rekstrarleyfisskyldur",
+	"hash": "007b1c4586932ec923e3251c926801f67062d2bdbf13c16e4bb3b4cda52a12d6"
+}

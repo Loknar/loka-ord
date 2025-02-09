@@ -1,0 +1,87 @@
+{
+	"orð": "reima",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "reim",
+			"samsetning": "stofn",
+			"kennistrengur": "no-reim-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "reima",
+		"sagnbót": "reimað",
+		"boðháttur": {
+			"stýfður": "reima",
+			"et": "reimaðu",
+			"ft": "reimið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reima", "reimar", "reimar"],
+					"ft": ["reimum", "reimið", "reima"]
+				},
+				"þátíð": {
+					"et": ["reimaði", "reimaðir", "reimaði"],
+					"ft": ["reimuðum", "reimuðuð", "reimuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reimi", "reimir", "reimi"],
+					"ft": ["reimum", "reimið", "reimi"]
+				},
+				"þátíð": {
+					"et": ["reimaði", "reimaðir", "reimaði"],
+					"ft": ["reimuðum", "reimuðuð", "reimuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reimarðu",
+					"ft": "reimiði"
+				},
+				"þátíð": {
+					"et": "reimaðirðu",
+					"ft": "reimuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reimirðu",
+					"ft": "reimiði"
+				},
+				"þátíð": {
+					"et": "reimaðirðu",
+					"ft": "reimuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reimandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reimaður", "reimaðan", "reimuðum", "reimaðs"],
+					"kvk": ["reimuð", "reimaða", "reimaðri", "reimaðrar"],
+					"hk": ["reimað", "reimað", "reimuðu", "reimaðs"]
+				},
+				"ft": {
+					"kk": ["reimaðir", "reimaða", "reimuðum", "reimaðra"],
+					"kvk": ["reimaðar", "reimaðar", "reimuðum", "reimaðra"],
+					"hk": ["reimuð", "reimuð", "reimuðum", "reimaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reima",
+	"hash": "a8998544fe1d7dd64b5733d2643c7d5160752183c934495f1c7daca4e1bbf28f"
+}

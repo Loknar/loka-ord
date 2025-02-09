@@ -1,0 +1,22 @@
+{
+	"orð": "greiðsluupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["greiðsluupplýsingar", "greiðsluupplýsingar", "greiðsluupplýsingum", "greiðsluupplýsinga"],
+		"mg": ["greiðsluupplýsingarnar", "greiðsluupplýsingarnar", "greiðsluupplýsingunum", "greiðsluupplýsinganna"]
+	},
+	"kennistrengur": "no-greiðsluupplýsingar-kvk",
+	"hash": "fa8bb052a9aac0ac1b6be421f2714e5a01cfcd49fc9b2bda86d2560640bc3c9d"
+}
