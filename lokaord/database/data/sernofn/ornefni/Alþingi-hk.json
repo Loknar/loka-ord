@@ -3,9 +3,25 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "Al",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-ałlur"
+		},
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Alþingi", "Alþingi", "Alþingi", "Alþingis"]
 	},
 	"kennistrengur": "sérn.ön-Alþingi-hk",
-	"hash": "f7b2a68272d206ab87151b717e59698927805fe3fa4830e8430a86d1c76f5ddf"
+	"hash": "adb48c90327f807d4e2f2ee2970654ea4184bdd41c1c5dc80803ff56156dc3bb"
 }

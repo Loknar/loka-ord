@@ -1,0 +1,48 @@
+{
+	"orð": "dansk-íslenskur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "dansk-",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-danskur"
+		},
+		{
+			"mynd": "ís",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ís-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-lenskur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["dansk-íslenskur", "dansk-íslenskan", "dansk-íslenskum", "dansk-íslensks"],
+				"kvk": ["dansk-íslensk", "dansk-íslenska", "dansk-íslenskri", "dansk-íslenskrar"],
+				"hk": ["dansk-íslenskt", "dansk-íslenskt", "dansk-íslensku", "dansk-íslensks"]
+			},
+			"ft": {
+				"kk": ["dansk-íslenskir", "dansk-íslenska", "dansk-íslenskum", "dansk-íslenskra"],
+				"kvk": ["dansk-íslenskar", "dansk-íslenskar", "dansk-íslenskum", "dansk-íslenskra"],
+				"hk": ["dansk-íslensk", "dansk-íslensk", "dansk-íslenskum", "dansk-íslenskra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["dansk-íslenski", "dansk-íslenska", "dansk-íslenska", "dansk-íslenska"],
+				"kvk": ["dansk-íslenska", "dansk-íslensku", "dansk-íslensku", "dansk-íslensku"],
+				"hk": ["dansk-íslenska", "dansk-íslenska", "dansk-íslenska", "dansk-íslenska"]
+			},
+			"ft": {
+				"kk": ["dansk-íslensku", "dansk-íslensku", "dansk-íslensku", "dansk-íslensku"],
+				"kvk": ["dansk-íslensku", "dansk-íslensku", "dansk-íslensku", "dansk-íslensku"],
+				"hk": ["dansk-íslensku", "dansk-íslensku", "dansk-íslensku", "dansk-íslensku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-dansk-íslenskur",
+	"hash": "ef67340ca13593d0e4b4700491bb52a5fa32235f601d60cb4ed618f9dc1f41b3"
+}
