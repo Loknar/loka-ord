@@ -2,10 +2,21 @@
 	"orð": "stuðlan",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stuðl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-stuðla"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-an-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["stuðlan", "stuðlan", "stuðlan", "stuðlanar"],
 		"mg": ["stuðlanin", "stuðlanina", "stuðlaninni", "stuðlanarinnar"]
 	},
 	"kennistrengur": "no-stuðlan-kvk",
-	"hash": "ecf14669be09be0ea9a90d956c23be00399d97029071a4832ede0730cc483007"
+	"hash": "eaab6eb2899eb91116fcd578133135fe2f136bfc50d80edc5fc902af67fcdc09"
 }

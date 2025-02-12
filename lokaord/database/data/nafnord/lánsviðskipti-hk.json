@@ -1,0 +1,27 @@
+{
+	"orð": "lánsviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "láns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["lánsviðskipti", "lánsviðskipti", "lánsviðskiptum", "lánsviðskipta"],
+		"mg": ["lánsviðskiptin", "lánsviðskiptin", "lánsviðskiptunum", "lánsviðskiptanna"]
+	},
+	"kennistrengur": "no-lánsviðskipti-hk",
+	"hash": "499d046daee6e1f54d5cbd2a42dfba8493f0677548ab4042fa17f99ee5080539"
+}

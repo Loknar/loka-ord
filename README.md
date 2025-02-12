@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1291 | 1261 | 1040 | 3592 | 5497 | 6921 | 5965 | 18383 | **21975** |
-| **Lýsingarorð** | 220 |   |   |   | 580 |   |   |   | 2566 | **3146** |
-| **Sagnorð**     |   |   |   |   | 1068 |   |   |   | 872 | **1940** |
+| **Nafnorð**     |   | 1291 | 1255 | 1041 | 3587 | 5510 | 6988 | 5993 | 18491 | **22078** |
+| **Lýsingarorð** | 221 |   |   |   | 581 |   |   |   | 2575 | **3156** |
+| **Sagnorð**     |   |   |   |   | 1069 |   |   |   | 874 | **1943** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 39 |   |   |   | 14 | **53** |
 | **Smáorð**      |   |   |   |   | 308 |   |   |   | 362 | **670** |
-| **Alls** |   |   |   |   | **5657** |   |   |   | **22207** | **27864** |
+| **Alls** |   |   |   |   | **5654** |   |   |   | **22326** | **27980** |
 
 | Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,15 +23,15 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   | 15 | 62 | 48 | 125 | 672 | 510 | 498 | 1680 | **1805** |
 | **Alls**  |   |   |   | **3260** |   |   |   | **18018** | **21278** |
 
-**Samtals:** 49142 orð.
+**Samtals:** 49258 orð.
 
-324 skammstafanir.
+325 skammstafanir.
 
 ## Forkröfur (Requirements)
 
 `Python3.10` eða nýrra, `pip` og [PyPI](https://pypi.org/) pakkar listaðir í skránni `requirements.txt`.
 
-Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu útbúið sýndarumhverfi (e. virtual environment) með eftirfarandi skipun:
+Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu útbúið sýndarumhverfi (e. virtual environment):
 
 ```bash
 python -m venv env
@@ -57,13 +57,13 @@ pip install -Ur requirements.txt
 python main.py --help
 ```
 
-Í upphafi ertu einungis með orðagögnin í formi textaskráa, þú þarft að smíða SQLite gagnagrunn og lesa öłl orðin inn í hann, og smíða síðan orðaforleit. Það er gert með skipuninni:
+Í upphafi eru orðagögnin einungis í formi textaskráa, stofna þarf SQLite gagnagrunn og lesa öłl orðin inn í hann, og svo er einnig hægt að smíða orðaforleit. Þetta má gera með skipuninni:
 
 ```bash
 python main.py init
 ```
 
-Þessi skipun jafngildir skipuninni `python main.py build-db write-files build-sight md-stats`, eða eftirfarandi runu skipana:
+Ofangreind skipun jafngildir `python main.py build-db write-files build-sight md-stats`, eða eftirfarandi röð skipana:
 
 ```bash
 # smíða grunn

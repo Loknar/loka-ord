@@ -1,0 +1,131 @@
+{
+	"orð": "ritskoða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rit-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skoða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ritskoða",
+		"sagnbót": "ritskoðað",
+		"boðháttur": {
+			"stýfður": "ritskoða",
+			"et": "ritskoðaðu",
+			"ft": "ritskoðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ritskoða", "ritskoðar", "ritskoðar"],
+					"ft": ["ritskoðum", "ritskoðið", "ritskoða"]
+				},
+				"þátíð": {
+					"et": ["ritskoðaði", "ritskoðaðir", "ritskoðaði"],
+					"ft": ["ritskoðuðum", "ritskoðuðuð", "ritskoðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ritskoði", "ritskoðir", "ritskoði"],
+					"ft": ["ritskoðum", "ritskoðið", "ritskoði"]
+				},
+				"þátíð": {
+					"et": ["ritskoðaði", "ritskoðaðir", "ritskoðaði"],
+					"ft": ["ritskoðuðum", "ritskoðuðuð", "ritskoðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ritskoðarðu",
+					"ft": "ritskoðiði"
+				},
+				"þátíð": {
+					"et": "ritskoðaðirðu",
+					"ft": "ritskoðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ritskoðirðu",
+					"ft": "ritskoðiði"
+				},
+				"þátíð": {
+					"et": "ritskoðaðirðu",
+					"ft": "ritskoðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ritskoðast",
+		"sagnbót": "ritskoðast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ritskoðast", "ritskoðast", "ritskoðast"],
+					"ft": ["ritskoðumst", "ritskoðist", "ritskoðast"]
+				},
+				"þátíð": {
+					"et": ["ritskoðaðist", "ritskoðaðist", "ritskoðaðist"],
+					"ft": ["ritskoðuðumst", "ritskoðuðust", "ritskoðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ritskoðist", "ritskoðist", "ritskoðist"],
+					"ft": ["ritskoðumst", "ritskoðist", "ritskoðist"]
+				},
+				"þátíð": {
+					"et": ["ritskoðaðist", "ritskoðaðist", "ritskoðaðist"],
+					"ft": ["ritskoðuðumst", "ritskoðuðust", "ritskoðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ritskoðastu"
+				},
+				"þátíð": {
+					"et": "ritskoðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ritskoðistu"
+				},
+				"þátíð": {
+					"et": "ritskoðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ritskoðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ritskoðaður", "ritskoðaðan", "ritskoðuðum", "ritskoðaðs"],
+					"kvk": ["ritskoðuð", "ritskoðaða", "ritskoðaðri", "ritskoðaðrar"],
+					"hk": ["ritskoðað", "ritskoðað", "ritskoðuðu", "ritskoðaðs"]
+				},
+				"ft": {
+					"kk": ["ritskoðaðir", "ritskoðaða", "ritskoðuum", "ritskoðaðra"],
+					"kvk": ["ritskoðaðar", "ritskoðaðar", "ritskoðuðum", "ritskoðaðra"],
+					"hk": ["ritskoðuð", "ritskoðuð", "ritskoðuðum", "ritskoðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ritskoða",
+	"hash": "f18842f8801f714c9242b1faba7e13880c4dd1176e504f2d1cde6edda66437b5"
+}

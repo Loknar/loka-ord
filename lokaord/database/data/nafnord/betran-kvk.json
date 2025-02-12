@@ -2,10 +2,21 @@
 	"orð": "betran",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "betr",
+			"samsetning": "stofn",
+			"kennistrengur": "so-betra"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-an-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["betran", "betran", "betran", "betranar"],
 		"mg": ["betranin", "betranina", "betraninni", "betranarinnar"]
 	},
 	"kennistrengur": "no-betran-kvk",
-	"hash": "73517221dcd45e483eac845b45af51b969e0d6d3033030793a8cedb4d270da48"
+	"hash": "6b067751168ef2f0e86dde15d73793ccb0d738a38cab0888d8564af9db03ed0d"
 }

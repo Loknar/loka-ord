@@ -2,14 +2,21 @@
 	"orð": "leitan",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leit",
+			"samsetning": "stofn",
+			"kennistrengur": "so-leita"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-an-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["leitan", "leitan", "leitan", "leitanar"],
 		"mg": ["leitanin", "leitanina", "leitaninni", "leitanarinnar"]
 	},
-	"ft": {
-		"ág": ["leitanir", "leitanir", "leitunum", "leitana"],
-		"mg": ["leitanirnar", "leitanirnar", "leitununum", "leitananna"]
-	},
 	"kennistrengur": "no-leitan-kvk",
-	"hash": "c3522004e34261bd4a7d0b3c076879fd15e384d2b3567b8b5f20a01d4d6227ef"
+	"hash": "a0172155dd88242c210f9c5d4699c108873fd1ad967e03baf3607202664b6152"
 }

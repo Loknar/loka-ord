@@ -1,0 +1,135 @@
+{
+	"orð": "sýsla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sýsl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sýsl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sýsla",
+		"sagnbót": "sýslað",
+		"boðháttur": {
+			"stýfður": "sýsla",
+			"et": "sýslaðu",
+			"ft": "sýslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýsla", "sýslar", "sýslar"],
+					"ft": ["sýslum", "sýslið", "sýsla"]
+				},
+				"þátíð": {
+					"et": ["sýslaði", "sýslaðir", "sýslaði"],
+					"ft": ["sýsluðum", "sýsluðuð", "sýsluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sýsli", "sýslir", "sýsli"],
+					"ft": ["sýslum", "sýslið", "sýsli"]
+				},
+				"þátíð": {
+					"et": ["sýslaði", "sýslaðir", "sýslaði"],
+					"ft": ["sýsluðum", "sýsluðuð", "sýsluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sýslarðu",
+					"ft": "sýsliði"
+				},
+				"þátíð": {
+					"et": "sýslaðirðu",
+					"ft": "sýsluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sýslirðu",
+					"ft": "sýsliði"
+				},
+				"þátíð": {
+					"et": "sýslaðirðu",
+					"ft": "sýsluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sýslast",
+		"sagnbót": "sýslast",
+		"boðháttur": {
+			"et": "sýslastu",
+			"ft": "sýslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sýslast", "sýslast", "sýslast"],
+					"ft": ["sýslumst", "sýslist", "sýslast"]
+				},
+				"þátíð": {
+					"et": ["sýslaðist", "sýslaðist", "sýslaðist"],
+					"ft": ["sýsluðumst", "sýsluðust", "sýsluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sýslist", "sýslist", "sýslist"],
+					"ft": ["sýslumst", "sýslist", "sýslist"]
+				},
+				"þátíð": {
+					"et": ["sýslaðist", "sýslaðist", "sýslaðist"],
+					"ft": ["sýsluðumst", "sýsluðust", "sýsluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sýslastu"
+				},
+				"þátíð": {
+					"et": "sýslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sýslistu"
+				},
+				"þátíð": {
+					"et": "sýslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sýslandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sýslaður", "sýslaðan", "sýsluðum", "sýslaðs"],
+					"kvk": ["sýsluð", "sýslaða", "sýslaðri", "sýslaðrar"],
+					"hk": ["sýslað", "sýslað", "sýsluðu", "sýslaðs"]
+				},
+				"ft": {
+					"kk": ["sýslaðir", "sýslaða", "sýsluðum", "sýslaðra"],
+					"kvk": ["sýslaðar", "sýslaðar", "sýsluðum", "sýslaðra"],
+					"hk": ["sýsluð", "sýsluð", "sýsluðum", "sýslaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sýsla",
+	"hash": "7b733345c9291b8ce2dc6abccb0290d8aebf46cf9282f5d6771c1b6868ec21a3"
+}

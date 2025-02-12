@@ -2,6 +2,16 @@
 	"orð": "sýsla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sýsl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sýsl-hk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó-_na_"
+		}
+	],
 	"et": {
 		"ág": ["sýsla", "sýslu", "sýslu", "sýslu"],
 		"mg": ["sýslan", "sýsluna", "sýslunni", "sýslunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["sýslurnar", "sýslurnar", "sýslunum", "sýslnanna"]
 	},
 	"kennistrengur": "no-sýsla-kvk",
-	"hash": "60fa75aeb60e392c25a576c8c49e832168cfb5a203f3e6ff767043e5c41b976f"
+	"hash": "de076054d5314478f7454d24f050005f908b4eaf45e74ec8e101fc2b5f440729"
 }

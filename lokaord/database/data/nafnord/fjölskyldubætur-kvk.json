@@ -1,0 +1,22 @@
+{
+	"orð": "fjölskyldubætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjölskyldu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjölskylda-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjölskyldubætur", "fjölskyldubætur", "fjölskyldubótum", "fjölskyldubóta"],
+		"mg": ["fjölskyldubæturnar", "fjölskyldubæturnar", "fjölskyldubótunum", "fjölskyldubótanna"]
+	},
+	"kennistrengur": "no-fjölskyldubætur-kvk",
+	"hash": "ad86d90f20ab0e8689f7ce06657e0f060629b4c81022b6d09661e73272665798"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnmálaástand",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ástand-hk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnmálaástand", "stjórnmálaástand", "stjórnmálaástandi", "stjórnmálaástands"],
+		"mg": ["stjórnmálaástandið", "stjórnmálaástandið", "stjórnmálaástandinu", "stjórnmálaástandsins"]
+	},
+	"kennistrengur": "no-stjórnmálaástand-hk",
+	"hash": "55bb4fe0b5153f4212fa7d78aaec6a6ff6aa00514a4ded6a6fd7787f0ae80323"
+}

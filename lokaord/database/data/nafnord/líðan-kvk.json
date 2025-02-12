@@ -2,10 +2,21 @@
 	"orð": "líðan",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "líð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-líða"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-an-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["líðan", "líðan", "líðan", "líðanar"],
-		"mg": ["líðanin", "líðanina", "líðaninni", "líðaninnar"]
+		"mg": ["líðanin", "líðanina", "líðaninni", "líðanarinnar"]
 	},
 	"kennistrengur": "no-líðan-kvk",
-	"hash": "a29fdbd9157b4862ddf0ed9b40fa413259392f6e99f3ed455efe1d6de9d8ba17"
+	"hash": "3c0ffc594ea002378bba553e4e0a763cdc339a6e5b149c8d5cd105293a455a8e"
 }

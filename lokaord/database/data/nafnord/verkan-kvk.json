@@ -2,10 +2,21 @@
 	"orð": "verkan",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "so-verka"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-an-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["verkan", "verkan", "verkan", "verkanar"],
-		"mg": ["verkanin", "verkanina", "verkaninni", "verkaninnar"]
+		"mg": ["verkanin", "verkanina", "verkaninni", "verkanarinnar"]
 	},
 	"kennistrengur": "no-verkan-kvk",
-	"hash": "2fea3d45927d0ec9912666d622039128fd329c373935e78707f91d34ac6345f9"
+	"hash": "6142866124ff240eeb6c18642b1bdce0636e5bc2808982fdcacb4ce196fdb8f6"
 }
