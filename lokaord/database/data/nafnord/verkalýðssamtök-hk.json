@@ -1,0 +1,32 @@
+{
+	"orð": "verkalýðssamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "lýðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lýður-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["verkalýðssamtök", "verkalýðssamtök", "verkalýðssamtökum", "verkalýðssamtaka"],
+		"mg": ["verkalýðssamtökin", "verkalýðssamtökin", "verkalýðssamtökunum", "verkalýðssamtakanna"]
+	},
+	"kennistrengur": "no-verkalýðssamtök-hk",
+	"hash": "6fde41d225568071155ced91531a478ed018da1025c7494c44f222ea3ea11e56"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "kynþáttamisrétti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "þátta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rétti-hk-ó"
+		}
+	],
+	"et": {
+		"ág": ["kynþáttamisrétti", "kynþáttamisrétti", "kynþáttamisrétti", "kynþáttamisréttis"],
+		"mg": ["kynþáttamisréttið", "kynþáttamisréttið", "kynþáttamisréttinu", "kynþáttamisréttisins"]
+	},
+	"kennistrengur": "no-kynþáttamisrétti-hk",
+	"hash": "8941a35ad9c21c0dd716986ec2b42bf4bba164dd57d32ee47137cb5cd508eecd"
+}

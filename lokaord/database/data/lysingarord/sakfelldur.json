@@ -1,0 +1,43 @@
+{
+	"orð": "sakfelldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sak",
+			"samsetning": "stofn",
+			"kennistrengur": "so-saka"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-felldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sakfelldur", "sakfelldan", "sakfelldum", "sakfellds"],
+				"kvk": ["sakfelld", "sakfellda", "sakfelldri", "sakfelldrar"],
+				"hk": ["sakfellt", "sakfellt", "sakfelldu", "sakfellds"]
+			},
+			"ft": {
+				"kk": ["sakfelldir", "sakfellda", "sakfelldum", "sakfelldra"],
+				"kvk": ["sakfelldar", "sakfelldar", "sakfelldum", "sakfelldra"],
+				"hk": ["sakfelld", "sakfelld", "sakfelldum", "sakfelldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sakfelldi", "sakfellda", "sakfellda", "sakfellda"],
+				"kvk": ["sakfellda", "sakfelldu", "sakfelldu", "sakfelldu"],
+				"hk": ["sakfellda", "sakfellda", "sakfellda", "sakfellda"]
+			},
+			"ft": {
+				"kk": ["sakfelldu", "sakfelldu", "sakfelldu", "sakfelldu"],
+				"kvk": ["sakfelldu", "sakfelldu", "sakfelldu", "sakfelldu"],
+				"hk": ["sakfelldu", "sakfelldu", "sakfelldu", "sakfelldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sakfelldur",
+	"hash": "3735b374e366e8efcd6c20ca2e55c3a9ef4ddc30cd43b026615f033efd1f6cde"
+}

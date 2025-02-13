@@ -1,0 +1,32 @@
+{
+	"orð": "vinnuveitendasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "veitenda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-veitandi-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["vinnuveitendasamtök", "vinnuveitendasamtök", "vinnuveitendasamtökum", "vinnuveitendasamtaka"],
+		"mg": ["vinnuveitendasamtökin", "vinnuveitendasamtökin", "vinnuveitendasamtökunum", "vinnuveitendasamtakanna"]
+	},
+	"kennistrengur": "no-vinnuveitendasamtök-hk",
+	"hash": "4afc61aa86672d027a7f02952d5c0b62e84c8a4dadbe021e627922514cc1548c"
+}

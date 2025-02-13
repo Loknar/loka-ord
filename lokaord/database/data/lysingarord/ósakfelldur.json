@@ -1,0 +1,48 @@
+{
+	"orð": "ósakfelldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "sak",
+			"samsetning": "stofn",
+			"kennistrengur": "so-saka"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-felldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ósakfelldur", "ósakfelldan", "ósakfelldum", "ósakfellds"],
+				"kvk": ["ósakfelld", "ósakfellda", "ósakfelldri", "ósakfelldrar"],
+				"hk": ["ósakfellt", "ósakfellt", "ósakfelldu", "ósakfellds"]
+			},
+			"ft": {
+				"kk": ["ósakfelldir", "ósakfellda", "ósakfelldum", "ósakfelldra"],
+				"kvk": ["ósakfelldar", "ósakfelldar", "ósakfelldum", "ósakfelldra"],
+				"hk": ["ósakfelld", "ósakfelld", "ósakfelldum", "ósakfelldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ósakfelldi", "ósakfellda", "ósakfellda", "ósakfellda"],
+				"kvk": ["ósakfellda", "ósakfelldu", "ósakfelldu", "ósakfelldu"],
+				"hk": ["ósakfellda", "ósakfellda", "ósakfellda", "ósakfellda"]
+			},
+			"ft": {
+				"kk": ["ósakfelldu", "ósakfelldu", "ósakfelldu", "ósakfelldu"],
+				"kvk": ["ósakfelldu", "ósakfelldu", "ósakfelldu", "ósakfelldu"],
+				"hk": ["ósakfelldu", "ósakfelldu", "ósakfelldu", "ósakfelldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ósakfelldur",
+	"hash": "53ddce03bf9ef25587e2e0448e7f637e0de8e4441fff6dc367d0706786bc3d04"
+}

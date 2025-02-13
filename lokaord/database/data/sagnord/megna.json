@@ -1,0 +1,73 @@
+{
+	"orð": "megna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "megn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-megn-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "megna",
+		"sagnbót": "megnað",
+		"boðháttur": {
+			"stýfður": "megna",
+			"et": "megnaðu",
+			"ft": "megnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["megna", "megnar", "megnar"],
+					"ft": ["megnum", "megnið", "megna"]
+				},
+				"þátíð": {
+					"et": ["megnaði", "megnaðir", "megnaði"],
+					"ft": ["megnuðum", "megnuðuð", "megnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["megni", "megnir", "megni"],
+					"ft": ["megnum", "megnið", "megni"]
+				},
+				"þátíð": {
+					"et": ["megnaði", "megnaðir", "megnaði"],
+					"ft": ["megnuðum", "megnuðuð", "megnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "megnarðu",
+					"ft": "megniði"
+				},
+				"þátíð": {
+					"et": "megnaðirðu",
+					"ft": "megnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "megnirðu",
+					"ft": "megniði"
+				},
+				"þátíð": {
+					"et": "megnaðirðu",
+					"ft": "megnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "megnandi"
+	},
+	"kennistrengur": "so-megna",
+	"hash": "fcd6ef10cb3ccc1663b681bc4b08fb87233b9b52267f1807b91fe65f7f7a8b8f"
+}

@@ -2,10 +2,21 @@
 	"orð": "angan",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ang",
+			"samsetning": "stofn",
+			"kennistrengur": "so-anga"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-an-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["angan", "angan", "angan", "anganar"],
-		"mg": ["anganin", "anganina", "anganinni", "anganinnar"]
+		"mg": ["anganin", "anganina", "anganinni", "anganarinnar"]
 	},
 	"kennistrengur": "no-angan-kvk",
-	"hash": "5c8ff0a842965788441ee849af72ce5b7a94d70f5ab2b5bdfcf9822d6aa394ab"
+	"hash": "fd24d926e3924fbe195fbb47193c96a888334d67261cd4501c33bcbcfab6df0b"
 }

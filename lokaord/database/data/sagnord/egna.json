@@ -1,0 +1,143 @@
+{
+	"orð": "egna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "egna",
+		"sagnbót": "egnt",
+		"boðháttur": {
+			"stýfður": "egn",
+			"et": "egndu",
+			"ft": "egnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["egni", "egnir", "egnir"],
+					"ft": ["egnum", "egnið", "egna"]
+				},
+				"þátíð": {
+					"et": ["egndi", "egndir", "egndi"],
+					"ft": ["egndum", "egnduð", "egndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["egni", "egnir", "egni"],
+					"ft": ["egnum", "egnið", "egni"]
+				},
+				"þátíð": {
+					"et": ["egndi", "egndir", "egndi"],
+					"ft": ["egndum", "egnduð", "egndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "egnirðu",
+					"ft": "egniði"
+				},
+				"þátíð": {
+					"et": "egndirðu",
+					"ft": "egnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "egnirðu",
+					"ft": "egniði"
+				},
+				"þátíð": {
+					"et": "egndirðu",
+					"ft": "egnduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "egnast",
+		"sagnbót": "egnst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["egnist", "egnist", "egnist"],
+					"ft": ["egnumst", "egnist", "egnast"]
+				},
+				"þátíð": {
+					"et": ["egndist", "egndist", "egndist"],
+					"ft": ["egndumst", "egndust", "egndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["egnist", "egnist", "egnist"],
+					"ft": ["egnumst", "egnist", "egnist"]
+				},
+				"þátíð": {
+					"et": ["egndist", "egndist", "egndist"],
+					"ft": ["egndumst", "egndust", "egndust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["egnist", "egnist", "egnist"],
+					"ft": ["egnist", "egnist", "egnist"]
+				},
+				"þátíð": {
+					"et": ["egndist", "egndist", "egndist"],
+					"ft": ["egndist", "egndist", "egndist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["egnist", "egnist", "egnist"],
+					"ft": ["egnist", "egnist", "egnist"]
+				},
+				"þátíð": {
+					"et": ["egndist", "egndist", "egndist"],
+					"ft": ["egndist", "egndist", "egndist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "egnistu"
+				},
+				"þátíð": {
+					"et": "egndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "egnistu"
+				},
+				"þátíð": {
+					"et": "egndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "egnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["egndur", "egndan", "egndum", "egnds"],
+					"kvk": ["egnd", "egnda", "egndri", "egndrar"],
+					"hk": ["egnt", "egnt", "egndu", "egnds"]
+				},
+				"ft": {
+					"kk": ["egndir", "egnda", "egndum", "egndra"],
+					"kvk": ["egndar", "egndar", "egndum", "egndra"],
+					"hk": ["egnd", "egnd", "egndum", "egndra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-egna",
+	"hash": "50b5b562d0dd80c8a52303c6cdfb6552945fa894ffa6918924372f9df4fb9ec5"
+}

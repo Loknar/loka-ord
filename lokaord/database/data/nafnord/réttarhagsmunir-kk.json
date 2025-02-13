@@ -1,0 +1,27 @@
+{
+	"orð": "réttarhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "réttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttur-kk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["réttarhagsmunir", "réttarhagsmuni", "réttarhagsmunum", "réttarhagsmuna"],
+		"mg": ["réttarhagsmunirnir", "réttarhagsmunina", "réttarhagsmununum", "réttarhagsmunanna"]
+	},
+	"kennistrengur": "no-réttarhagsmunir-kk",
+	"hash": "dedc58e1fd0d02c04784697183efc523822d830556305a2eec6e15bbba17e0aa"
+}

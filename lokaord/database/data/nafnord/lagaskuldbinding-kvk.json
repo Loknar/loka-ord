@@ -1,0 +1,30 @@
+{
+	"orð": "lagaskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "laga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lagaskuldbinding", "lagaskuldbindingu", "lagaskuldbindingu", "lagaskuldbindingar"],
+		"mg": ["lagaskuldbindingin", "lagaskuldbindinguna", "lagaskuldbindingunni", "lagaskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["lagaskuldbindingar", "lagaskuldbindingar", "lagaskuldbindingum", "lagaskuldbindinga"],
+		"mg": ["lagaskuldbindingarnar", "lagaskuldbindingarnar", "lagaskuldbindingunum", "lagaskuldbindinganna"]
+	},
+	"kennistrengur": "no-lagaskuldbinding-kvk",
+	"hash": "b3b3820c5e2a2c8a4f25a541694eb0c300452e487c9e84e328d50a9cfcf28e4f"
+}

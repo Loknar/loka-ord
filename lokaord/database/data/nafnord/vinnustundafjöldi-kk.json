@@ -1,0 +1,27 @@
+{
+	"orð": "vinnustundafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "stunda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stund-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["vinnustundafjöldi", "vinnustundafjölda", "vinnustundafjölda", "vinnustundafjölda"],
+		"mg": ["vinnustundafjöldinn", "vinnustundafjöldann", "vinnustundafjöldanum", "vinnustundafjöldans"]
+	},
+	"kennistrengur": "no-vinnustundafjöldi-kk",
+	"hash": "cfead9551f0a4014cbedf4d733c35baab09e5f7eb0db35c055eede8d6f211cab"
+}

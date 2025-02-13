@@ -1,0 +1,48 @@
+{
+	"orð": "jafnverðmætur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "jafn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-jafn"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-mætur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["jafnverðmætur", "jafnverðmætan", "jafnverðmætum", "jafnverðmæts"],
+				"kvk": ["jafnverðmæt", "jafnverðmæta", "jafnverðmætri", "jafnverðmætrar"],
+				"hk": ["jafnverðmætt", "jafnverðmætt", "jafnverðmætu", "jafnverðmæts"]
+			},
+			"ft": {
+				"kk": ["jafnverðmætir", "jafnverðmæta", "jafnverðmætum", "jafnverðmætra"],
+				"kvk": ["jafnverðmætar", "jafnverðmætar", "jafnverðmætum", "jafnverðmætra"],
+				"hk": ["jafnverðmæt", "jafnverðmæt", "jafnverðmætum", "jafnverðmætra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["jafnverðmæti", "jafnverðmæta", "jafnverðmæta", "jafnverðmæta"],
+				"kvk": ["jafnverðmæta", "jafnverðmætu", "jafnverðmætu", "jafnverðmætu"],
+				"hk": ["jafnverðmæta", "jafnverðmæta", "jafnverðmæta", "jafnverðmæta"]
+			},
+			"ft": {
+				"kk": ["jafnverðmætu", "jafnverðmætu", "jafnverðmætu", "jafnverðmætu"],
+				"kvk": ["jafnverðmætu", "jafnverðmætu", "jafnverðmætu", "jafnverðmætu"],
+				"hk": ["jafnverðmætu", "jafnverðmætu", "jafnverðmætu", "jafnverðmætu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-jafnverðmætur",
+	"hash": "4b34609b2823a8467dcf09405f08e2861c69cbac6e9e4bf333ef55a905e9fe02"
+}
