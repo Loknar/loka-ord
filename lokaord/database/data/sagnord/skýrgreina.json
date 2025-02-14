@@ -1,0 +1,99 @@
+{
+	"orð": "skýrgreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skýr",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skýr"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skýrgreina",
+		"sagnbót": "skýrgreint",
+		"boðháttur": {
+			"stýfður": "skýrgrein",
+			"et": "skýrgreindu",
+			"ft": "skýrgreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skýrgreini", "skýrgreinir", "skýrgreinir"],
+					"ft": ["skýrgreinum", "skýrgreinið", "skýrgreina"]
+				},
+				"þátíð": {
+					"et": ["skýrgreindi", "skýrgreindir", "skýrgreindi"],
+					"ft": ["skýrgreindum", "skýrgreinduð", "skýrgreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skýrgreini", "skýrgreinir", "skýrgreini"],
+					"ft": ["skýrgreinum", "skýrgreinið", "skýrgreini"]
+				},
+				"þátíð": {
+					"et": ["skýrgreindi", "skýrgreindir", "skýrgreindi"],
+					"ft": ["skýrgreindum", "skýrgreinduð", "skýrgreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skýrgreinirðu",
+					"ft": "skýrgreiniði"
+				},
+				"þátíð": {
+					"et": "skýrgreindirðu",
+					"ft": "skýrgreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skýrgreinirðu",
+					"ft": "skýrgreiniði"
+				},
+				"þátíð": {
+					"et": "skýrgreindirðu",
+					"ft": "skýrgreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skýrgreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skýrgreindur", "skýrgreindan", "skýrgreindum", "skýrgreinds"],
+					"kvk": ["skýrgreind", "skýrgreinda", "skýrgreindri", "skýrgreindrar"],
+					"hk": ["skýrgreint", "skýrgreint", "skýrgreindu", "skýrgreinds"]
+				},
+				"ft": {
+					"kk": ["skýrgreindir", "skýrgreinda", "skýrgreindum", "skýrgreindra"],
+					"kvk": ["skýrgreindar", "skýrgreindar", "skýrgreindum", "skýrgreindra"],
+					"hk": ["skýrgreind", "skýrgreind", "skýrgreindum", "skýrgreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skýrgreindi", "skýrgreinda", "skýrgreinda", "skýrgreinda"],
+					"kvk": ["skýrgreinda", "skýrgreindu", "skýrgreindu", "skýrgreindu"],
+					"hk": ["skýrgreinda", "skýrgreinda", "skýrgreinda", "skýrgreinda"]
+				},
+				"ft": {
+					"kk": ["skýrgreindu", "skýrgreindu", "skýrgreindu", "skýrgreindu"],
+					"kvk": ["skýrgreindu", "skýrgreindu", "skýrgreindu", "skýrgreindu"],
+					"hk": ["skýrgreindu", "skýrgreindu", "skýrgreindu", "skýrgreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skýrgreina",
+	"hash": "7868859f856656c2f0119db37a69654f8bcb592d80a89718d616b830ca363d6d"
+}

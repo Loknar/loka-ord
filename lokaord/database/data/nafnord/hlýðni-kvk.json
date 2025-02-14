@@ -2,10 +2,21 @@
 	"orð": "hlýðni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hlýðn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-hlýða"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hlýðni", "hlýðni", "hlýðni", "hlýðni"],
 		"mg": ["hlýðnin", "hlýðnina", "hlýðninni", "hlýðninnar"]
 	},
 	"kennistrengur": "no-hlýðni-kvk",
-	"hash": "76ef02a0ccb373bc18adc7d1163480311eb486e4bb731c62e8ca2044c98045fc"
+	"hash": "6e206bbd54bb29745cca522750cbdf9482166bb6c12b2e86f47945a4d53acebd"
 }

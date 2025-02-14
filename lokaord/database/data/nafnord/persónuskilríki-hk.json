@@ -1,0 +1,27 @@
+{
+	"orð": "persónuskilríki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ríki-hk"
+		}
+	],
+	"ft": {
+		"ág": ["persónuskilríki", "persónuskilríki", "persónuskilríkjum", "persónuskilríkja"],
+		"mg": ["persónuskilríkin", "persónuskilríkin", "persónuskilríkjunum", "persónuskilríkjanna"]
+	},
+	"kennistrengur": "no-persónuskilríki-hk",
+	"hash": "b75f338ce4ebbbc4c89a5ec3ed4fbe0bb6dafbadfd39db11d3a704ddccc40254"
+}

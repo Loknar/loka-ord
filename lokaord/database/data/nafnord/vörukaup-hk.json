@@ -1,0 +1,22 @@
+{
+	"orð": "vörukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["vörukaup", "vörukaup", "vörukaupum", "vörukaupa"],
+		"mg": ["vörukaupin", "vörukaupin", "vörukaupunum", "vörukaupanna"]
+	},
+	"kennistrengur": "no-vörukaup-hk",
+	"hash": "199f6c783a7dc44e14e9a55978620ff9ffd184d3c2e84033f3962d27bd129c03"
+}

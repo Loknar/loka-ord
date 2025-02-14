@@ -1,0 +1,87 @@
+{
+	"orð": "andæfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "no-andi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-æfa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "andæfa",
+		"sagnbót": "andæft",
+		"boðháttur": {
+			"stýfður": "andæf",
+			"et": "andæfðu",
+			"ft": "andæfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["andæfi", "andæfir", "andæfir"],
+					"ft": ["andæfum", "andæfið", "andæfa"]
+				},
+				"þátíð": {
+					"et": ["andæfði", "andæfðir", "andæfði"],
+					"ft": ["andæfðum", "andæfðuð", "andæfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["andæfi", "andæfir", "andæfi"],
+					"ft": ["andæfum", "andæfið", "andæfi"]
+				},
+				"þátíð": {
+					"et": ["andæfði", "andæfðir", "andæfði"],
+					"ft": ["andæfðum", "andæfðuð", "andæfðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "andæfirðu",
+					"ft": "andæfiði"
+				},
+				"þátíð": {
+					"et": "andæfðirðu",
+					"ft": "andæfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "andæfirðu",
+					"ft": "andæfiði"
+				},
+				"þátíð": {
+					"et": "andæfðirðu",
+					"ft": "andæfðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "andæfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["andæfður", "andæfðan", "andæfðum", "andæfðs"],
+					"kvk": ["andæfð", "andæfða", "andæfðri", "andæfðrar"],
+					"hk": ["andæft", "andæft", "andæfðu", "andæfðs"]
+				},
+				"ft": {
+					"kk": ["andæfðir", "andæfða", "andæfðum", "andæfðra"],
+					"kvk": ["andæfðar", "andæfðar", "andæfðum", "andæfðra"],
+					"hk": ["andæfð", "andæfð", "andæfðum", "andæfðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-andæfa",
+	"hash": "6d37371be8c363015e7a17e89e0a2a183058fe811bf3ca4c83c5c11334672a1a"
+}

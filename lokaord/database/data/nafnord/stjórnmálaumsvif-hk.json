@@ -1,0 +1,32 @@
+{
+	"orð": "stjórnmálaumsvif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-svif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnmálaumsvif", "stjórnmálaumsvif", "stjórnmálaumsvifum", "stjórnmálaumsvifa"],
+		"mg": ["stjórnmálaumsvifin", "stjórnmálaumsvifin", "stjórnmálaumsvifunum", "stjórnmálaumsvifanna"]
+	},
+	"kennistrengur": "no-stjórnmálaumsvif-hk",
+	"hash": "7ca4f07a7ae81aa3164134d3853fc5aec1495f4b8876e373990a284be37a264c"
+}

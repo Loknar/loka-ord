@@ -1,0 +1,65 @@
+{
+	"orð": "hlýðnast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hlýðn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlýðni-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "hlýðnast",
+		"sagnbót": "hlýðnast",
+		"boðháttur": {
+			"et": "hlýðnastu",
+			"ft": "hlýðnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlýðnast", "hlýðnast", "hlýðnast"],
+					"ft": ["hlýðnumst", "hlýðnist", "hlýðnast"]
+				},
+				"þátíð": {
+					"et": ["hlýðnaðist", "hlýðnaðist", "hlýðnaðist"],
+					"ft": ["hlýðnuðumst", "hlýðnuðust", "hlýðnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlýðnist", "hlýðnist", "hlýðnist"],
+					"ft": ["hlýðnumst", "hlýðnist", "hlýðnist"]
+				},
+				"þátíð": {
+					"et": ["hlýðnaðist", "hlýðnaðist", "hlýðnaðist"],
+					"ft": ["hlýðnuðumst", "hlýðnuðust", "hlýðnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlýðnastu"
+				},
+				"þátíð": {
+					"et": "hlýðnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlýðnistu"
+				},
+				"þátíð": {
+					"et": "hlýðnaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlýðnast",
+	"hash": "4b4f4a4e1a450cd096a3526051544db5a67e87cc135546e976d66a948d8bf9fc"
+}

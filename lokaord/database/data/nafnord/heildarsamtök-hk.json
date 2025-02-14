@@ -1,0 +1,27 @@
+{
+	"orð": "heildarsamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarsamtök", "heildarsamtök", "heildarsamtökum", "heildarsamtaka"],
+		"mg": ["heildarsamtökin", "heildarsamtökin", "heildarsamtökunum", "heildarsamtakanna"]
+	},
+	"kennistrengur": "no-heildarsamtök-hk",
+	"hash": "fe1e65d7205c0697f9c11057b484e043fbd554378cf0af40cf1d1b7b943090ec"
+}

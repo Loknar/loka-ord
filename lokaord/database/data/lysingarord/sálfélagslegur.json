@@ -1,0 +1,48 @@
+{
+	"orð": "sálfélagslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sál",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sál-kvk"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sálfélagslegur", "sálfélagslegan", "sálfélagslegum", "sálfélagslegs"],
+				"kvk": ["sálfélagsleg", "sálfélagslega", "sálfélagslegri", "sálfélagslegrar"],
+				"hk": ["sálfélagslegt", "sálfélagslegt", "sálfélagslegu", "sálfélagslegs"]
+			},
+			"ft": {
+				"kk": ["sálfélagslegir", "sálfélagslega", "sálfélagslegum", "sálfélagslegra"],
+				"kvk": ["sálfélagslegar", "sálfélagslegar", "sálfélagslegum", "sálfélagslegra"],
+				"hk": ["sálfélagsleg", "sálfélagsleg", "sálfélagslegum", "sálfélagslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sálfélagslegi", "sálfélagslega", "sálfélagslega", "sálfélagslega"],
+				"kvk": ["sálfélagslega", "sálfélagslegu", "sálfélagslegu", "sálfélagslegu"],
+				"hk": ["sálfélagslega", "sálfélagslega", "sálfélagslega", "sálfélagslega"]
+			},
+			"ft": {
+				"kk": ["sálfélagslegu", "sálfélagslegu", "sálfélagslegu", "sálfélagslegu"],
+				"kvk": ["sálfélagslegu", "sálfélagslegu", "sálfélagslegu", "sálfélagslegu"],
+				"hk": ["sálfélagslegu", "sálfélagslegu", "sálfélagslegu", "sálfélagslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sálfélagslegur",
+	"hash": "b63c0a19b5af294c6742d9dc7f3ec890079f20d547368385ed884943fcf5416e"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "kynþáttaaðskilnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "þátta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skilnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["kynþáttaaðskilnaður", "kynþáttaaðskilnað", "kynþáttaaðskilnaði", "kynþáttaaðskilnaðar"],
+		"mg": ["kynþáttaaðskilnaðurinn", "kynþáttaaðskilnaðinn", "kynþáttaaðskilnaðinum", "kynþáttaaðskilnaðarins"]
+	},
+	"kennistrengur": "no-kynþáttaaðskilnaður-kk",
+	"hash": "871e6aaae403ed2b306927653694e2e98451000436eb729ce82289b08dcce11c"
+}

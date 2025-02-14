@@ -1,0 +1,135 @@
+{
+	"orð": "eftirláta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-láta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eftirláta",
+		"sagnbót": "eftirlátið",
+		"boðháttur": {
+			"stýfður": "eftirlát",
+			"et": "eftirláttu",
+			"ft": "eftirlátið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eftirlæt", "eftirlætur", "eftirlætur"],
+					"ft": ["eftirlátum", "eftirlátið", "eftirláta"]
+				},
+				"þátíð": {
+					"et": ["eftirlét", "eftirlést", "eftirlét"],
+					"ft": ["eftirlétum", "eftirlétuð", "eftirlétu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eftirláti", "eftirlátir", "eftirláti"],
+					"ft": ["eftirlátum", "eftirlátið", "eftirláti"]
+				},
+				"þátíð": {
+					"et": ["eftirléti", "eftirlétir", "eftirléti"],
+					"ft": ["eftirlétum", "eftirlétuð", "eftirlétu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eftirlæturðu",
+					"ft": "eftirlátiði"
+				},
+				"þátíð": {
+					"et": "eftirléstu",
+					"ft": "eftirlétuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eftirlátirðu",
+					"ft": "eftirlátiði"
+				},
+				"þátíð": {
+					"et": "eftirlétirðu",
+					"ft": "eftirlétuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "eftirlátast",
+		"sagnbót": "eftirlátist",
+		"boðháttur": {
+			"et": "eftirlástu",
+			"ft": "eftirlátist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eftirlæst", "eftirlæst", "eftirlæst"],
+					"ft": ["eftirlátumst", "eftirlátist", "eftirlátast"]
+				},
+				"þátíð": {
+					"et": ["eftirlést", "eftirlést", "eftirlést"],
+					"ft": ["eftirlétumst", "eftirlétust", "eftirlétust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eftirlátist", "eftirlátist", "eftirlátist"],
+					"ft": ["eftirlátumst", "eftirlátist", "eftirlátist"]
+				},
+				"þátíð": {
+					"et": ["eftirlétist", "eftirlétist", "eftirlétist"],
+					"ft": ["eftirlétumst", "eftirlétust", "eftirlétust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eftirlátstu"
+				},
+				"þátíð": {
+					"et": "eftirlátist"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eftirlátistu"
+				},
+				"þátíð": {
+					"et": "eftirlétistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eftirlátandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eftirlátinn", "eftirlátinn", "eftirlátnum", "eftirlátins"],
+					"kvk": ["eftirlátin", "eftirlátna", "eftirlátinni", "eftirlátinnar"],
+					"hk": ["eftirlátið", "eftirlátið", "eftirlátnu", "eftirlátins"]
+				},
+				"ft": {
+					"kk": ["eftirlátnir", "eftirlátna", "eftirlátnum", "eftirlátinna"],
+					"kvk": ["eftirlátnar", "eftirlátnar", "eftirlátnum", "eftirlátinna"],
+					"hk": ["eftirlátin", "eftirlátin", "eftirlátnum", "eftirlátinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eftirláta",
+	"hash": "a3934f273856768e9b8c4f646edd952483f9a93120a19c8a5eb3a95183d80f20"
+}

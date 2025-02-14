@@ -1,6 +1,16 @@
 {
 	"orð": "sinnaður",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sinn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sinna"
+		},
+		{
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -30,14 +40,14 @@
 	"miðstig": {
 		"vb": {
 			"et": {
-				"kk": ["sinnaðari", "sinnaðari", "sinnaðari", "sinnaðari"],
-				"kvk": ["sinnaðari", "sinnaðari", "sinnaðari", "sinnaðari"],
-				"hk": ["sinnaðara", "sinnaðara", "sinnaðara", "sinnaðara"]
+				"kk": ["sinnaðri", "sinnaðri", "sinnaðri", "sinnaðri"],
+				"kvk": ["sinnaðri", "sinnaðri", "sinnaðri", "sinnaðri"],
+				"hk": ["sinnaðra", "sinnaðra", "sinnaðra", "sinnaðra"]
 			},
 			"ft": {
-				"kk": ["sinnaðari", "sinnaðari", "sinnaðari", "sinnaðari"],
-				"kvk": ["sinnaðari", "sinnaðari", "sinnaðari", "sinnaðari"],
-				"hk": ["sinnaðari", "sinnaðari", "sinnaðari", "sinnaðari"]
+				"kk": ["sinnaðri", "sinnaðri", "sinnaðri", "sinnaðri"],
+				"kvk": ["sinnaðri", "sinnaðri", "sinnaðri", "sinnaðri"],
+				"hk": ["sinnaðri", "sinnaðri", "sinnaðri", "sinnaðri"]
 			}
 		}
 	},
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-sinnaður",
-	"hash": "34a3683ad193a6e228b40a78b22f0526a1113d71244b022e9c45e80c7aa764f8"
+	"hash": "61a4ee7f26eb8104aa6fdbfaa8607aa6455206f426d24627693d62128561702e"
 }
