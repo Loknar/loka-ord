@@ -1,0 +1,32 @@
+{
+	"orð": "persónuverndarhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["persónuverndarhagsmunir", "persónuverndarhagsmuni", "persónuverndarhagsmunum", "persónuverndarhagsmuna"],
+		"mg": ["persónuverndarhagsmunirnir", "persónuverndarhagsmunina", "persónuverndarhagsmununum", "persónuverndarhagsmunanna"]
+	},
+	"kennistrengur": "no-persónuverndarhagsmunir-kk",
+	"hash": "d832e2df30b56062b7e7a8ad02ca362f4e723d527880020bff3de9248cd3ca6f"
+}
