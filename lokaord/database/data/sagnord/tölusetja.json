@@ -1,0 +1,99 @@
+{
+	"orð": "tölusetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tölusetja",
+		"sagnbót": "tölusett",
+		"boðháttur": {
+			"stýfður": "töluset",
+			"et": "tölusettu",
+			"ft": "tölusetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["töluset", "tölusetur", "tölusetur"],
+					"ft": ["tölusetjum", "tölusetjið", "tölusetja"]
+				},
+				"þátíð": {
+					"et": ["tölusetti", "tölusettir", "tölusett"],
+					"ft": ["tölusettum", "tölusettuð", "tölusettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tölusetji", "tölusetjir", "tölusetji"],
+					"ft": ["tölusetjum", "tölusetjið", "tölusetji"]
+				},
+				"þátíð": {
+					"et": ["tölusetti", "tölusettir", "tölusetti"],
+					"ft": ["tölusettum", "tölusettuð", "tölusettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "töluseturðu",
+					"ft": "tölusetjiði"
+				},
+				"þátíð": {
+					"et": "tölusettirðu",
+					"ft": "tölusettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tölusetjirðu",
+					"ft": "tölusetjiði"
+				},
+				"þátíð": {
+					"et": "tölusettirðu",
+					"ft": "tölusettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tölusetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tölusettur", "tölusettan", "tölusettum", "tölusetts"],
+					"kvk": ["tölusett", "tölusetta", "tölusettri", "tölusettrar"],
+					"hk": ["tölusett", "tölusett", "tölusettu", "tölusetts"]
+				},
+				"ft": {
+					"kk": ["tölusettir", "tölusetta", "tölusettum", "tölusettra"],
+					"kvk": ["tölusettar", "tölusettar", "tölusettum", "tölusettra"],
+					"hk": ["tölusett", "tölusett", "tölusettum", "tölusettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tölusetti", "tölusetta", "tölusetta", "tölusetta"],
+					"kvk": ["tölusetta", "tölusettu", "tölusettu", "tölusettu"],
+					"hk": ["tölusetta", "tölusetta", "tölusetta", "tölusetta"]
+				},
+				"ft": {
+					"kk": ["tölusettu", "tölusettu", "tölusettu", "tölusettu"],
+					"kvk": ["tölusettu", "tölusettu", "tölusettu", "tölusettu"],
+					"hk": ["tölusettu", "tölusettu", "tölusettu", "tölusettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tölusetja",
+	"hash": "96b3c9fb3e21b366fa3910f2bed4b5ab4620c4d1286a21cca05b702ed0123c7e"
+}

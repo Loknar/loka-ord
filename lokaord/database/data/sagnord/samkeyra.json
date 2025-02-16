@@ -1,0 +1,87 @@
+{
+	"orð": "samkeyra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-keyra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samkeyra",
+		"sagnbót": "samkeyrt",
+		"boðháttur": {
+			"stýfður": "samkeyr",
+			"et": "samkeyrðu",
+			"ft": "samkeyrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samkeyri", "samkeyrir", "samkeyrir"],
+					"ft": ["samkeyrum", "samkeyrið", "samkeyra"]
+				},
+				"þátíð": {
+					"et": ["samkeyrði", "samkeyrðir", "samkeyrði"],
+					"ft": ["samkeyrðum", "samkeyrðuð", "samkeyrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samkeyri", "samkeyrir", "samkeyri"],
+					"ft": ["samkeyrum", "samkeyrið", "samkeyri"]
+				},
+				"þátíð": {
+					"et": ["samkeyrði", "samkeyrðir", "samkeyrði"],
+					"ft": ["samkeyrðum", "samkeyrðuð", "samkeyrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samkeyrirðu",
+					"ft": "samkeyriði"
+				},
+				"þátíð": {
+					"et": "samkeyrðirðu",
+					"ft": "samkeyrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samkeyrirðu",
+					"ft": "samkeyriði"
+				},
+				"þátíð": {
+					"et": "samkeyrðirðu",
+					"ft": "samkeyrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samkeyrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samkeyrður", "samkeyrðan", "samkeyrðum", "samkeyrðs"],
+					"kvk": ["samkeyrð", "samkeyrða", "samkeyrðri", "samkeyrðrar"],
+					"hk": ["samkeyrt", "samkeyrt", "samkeyrðu", "samkeyrðs"]
+				},
+				"ft": {
+					"kk": ["samkeyrðir", "samkeyrða", "samkeyrðum", "samkeyrðra"],
+					"kvk": ["samkeyrðar", "samkeyrðar", "samkeyrðum", "samkeyrðra"],
+					"hk": ["samkeyrð", "samkeyrð", "samkeyrðum", "samkeyrðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samkeyra",
+	"hash": "019f58299b22a1d038c13a7817064494e27559a8d1639fc1029c2847fbb4de31"
+}

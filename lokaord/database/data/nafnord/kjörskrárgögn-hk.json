@@ -1,0 +1,27 @@
+{
+	"orð": "kjörskrárgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kjör",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kjör-hk-_kosning_"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["kjörskrárgögn", "kjörskrárgögn", "kjörskrárgögnum", "kjörskrárgagna"],
+		"mg": ["kjörskrárgögnin", "kjörskrárgögnin", "kjörskrárgögnunum", "kjörskrárgagnanna"]
+	},
+	"kennistrengur": "no-kjörskrárgögn-hk",
+	"hash": "60e0021d67b9e92c6a9d538fcf14e1299f60d522c76ad5f713e1a35b88f141df"
+}

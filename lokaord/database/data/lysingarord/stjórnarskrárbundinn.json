@@ -1,0 +1,48 @@
+{
+	"orð": "stjórnarskrárbundinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-bundinn"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["stjórnarskrárbundinn", "stjórnarskrárbundinn", "stjórnarskrárbundnum", "stjórnarskrárbundins"],
+				"kvk": ["stjórnarskrárbundin", "stjórnarskrárbundna", "stjórnarskrárbundinni", "stjórnarskrárbundinnar"],
+				"hk": ["stjórnarskrárbundið", "stjórnarskrárbundið", "stjórnarskrárbundnu", "stjórnarskrárbundins"]
+			},
+			"ft": {
+				"kk": ["stjórnarskrárbundnir", "stjórnarskrárbundna", "stjórnarskrárbundnum", "stjórnarskrárbundinna"],
+				"kvk": ["stjórnarskrárbundnar", "stjórnarskrárbundnar", "stjórnarskrárbundnum", "stjórnarskrárbundinna"],
+				"hk": ["stjórnarskrárbundin", "stjórnarskrárbundin", "stjórnarskrárbundnum", "stjórnarskrárbundinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["stjórnarskrárbundni", "stjórnarskrárbundna", "stjórnarskrárbundna", "stjórnarskrárbundna"],
+				"kvk": ["stjórnarskrárbundna", "stjórnarskrárbundnu", "stjórnarskrárbundnu", "stjórnarskrárbundnu"],
+				"hk": ["stjórnarskrárbundna", "stjórnarskrárbundna", "stjórnarskrárbundna", "stjórnarskrárbundna"]
+			},
+			"ft": {
+				"kk": ["stjórnarskrárbundnu", "stjórnarskrárbundnu", "stjórnarskrárbundnu", "stjórnarskrárbundnu"],
+				"kvk": ["stjórnarskrárbundnu", "stjórnarskrárbundnu", "stjórnarskrárbundnu", "stjórnarskrárbundnu"],
+				"hk": ["stjórnarskrárbundnu", "stjórnarskrárbundnu", "stjórnarskrárbundnu", "stjórnarskrárbundnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-stjórnarskrárbundinn",
+	"hash": "268e8018dd6c3061b9a6529bd0425b75c8db6c170c165874d02a8942987d71ab"
+}
