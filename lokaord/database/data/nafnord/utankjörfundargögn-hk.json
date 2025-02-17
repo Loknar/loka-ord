@@ -1,0 +1,32 @@
+{
+	"orð": "utankjörfundargögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "utan",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-utan"
+		},
+		{
+			"mynd": "kjör",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kjör-hk-_kosning_"
+		},
+		{
+			"mynd": "fundar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fundur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["utankjörfundargögn", "utankjörfundargögn", "utankjörfundargögnum", "utankjörfundargagna"],
+		"mg": ["utankjörfundargögnin", "utankjörfundargögnin", "utankjörfundargögnunum", "utankjörfundargagnanna"]
+	},
+	"kennistrengur": "no-utankjörfundargögn-hk",
+	"hash": "bb726630f51b4971861211c10783548a06f77dde124e0533cdb32e433aa62baa"
+}

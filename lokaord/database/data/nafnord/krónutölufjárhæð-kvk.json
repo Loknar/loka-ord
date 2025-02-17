@@ -1,0 +1,35 @@
+{
+	"orð": "krónutölufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "krónu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-króna-kvk"
+		},
+		{
+			"mynd": "tölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["krónutölufjárhæð", "krónutölufjárhæð", "krónutölufjárhæð", "krónutölufjárhæðar"],
+		"mg": ["krónutölufjárhæðin", "krónutölufjárhæðina", "krónutölufjárhæðinni", "krónutölufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["krónutölufjárhæðir", "krónutölufjárhæðir", "krónutölufjárhæðum", "krónutölufjárhæða"],
+		"mg": ["krónutölufjárhæðirnar", "krónutölufjárhæðirnar", "krónutölufjárhæðunum", "krónutölufjárhæðanna"]
+	},
+	"kennistrengur": "no-krónutölufjárhæð-kvk",
+	"hash": "5ec000a3e3781c1fc4f97a8fb8a433cc73b43105af152097261e1355abf5e1fd"
+}
