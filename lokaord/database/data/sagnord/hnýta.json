@@ -4,6 +4,11 @@
 	"germynd": {
 		"nafnháttur": "hnýta",
 		"sagnbót": "hnýtt",
+		"boðháttur": {
+			"stýfður": "hnýt",
+			"et": "hnýttu",
+			"ft": "hnýtið"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -93,6 +98,23 @@
 			}
 		}
 	},
+	"lýsingarháttur": {
+		"nútíðar": "hnýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hnýttur", "hnýttan", "hnýttum", "hnýtts"],
+					"kvk": ["hnýtt", "hnýtta", "hnýttri", "hnýttrar"],
+					"hk": ["hnýtt", "hnýtt", "hnýttu", "hnýtts"]
+				},
+				"ft": {
+					"kk": ["hnýttir", "hnýtta", "hnýttum", "hnýttra"],
+					"kvk": ["hnýttar", "hnýttar", "hnýttum", "hnýttra"],
+					"hk": ["hnýtt", "hnýtt", "hnýttum", "hnýttra"]
+				}
+			}
+		}
+	},
 	"kennistrengur": "so-hnýta",
-	"hash": "09e9b551480c363fdb2b830f29f71690d3a8783d5d082124e46beb2b57d424f6"
+	"hash": "a89c4546010619a0ab49550ecb3625765ad7b2b4f9949545d64c27d28d2a6968"
 }

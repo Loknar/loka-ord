@@ -1,0 +1,27 @@
+{
+	"orð": "uppgjörsskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "gjörs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["uppgjörsskylda", "uppgjörsskyldu", "uppgjörsskyldu", "uppgjörsskyldu"],
+		"mg": ["uppgjörsskyldan", "uppgjörsskylduna", "uppgjörsskyldunni", "uppgjörsskyldunnar"]
+	},
+	"kennistrengur": "no-uppgjörsskylda-kvk",
+	"hash": "85bd8f8c01856d6c3d7b34fe29d5c01bd9e6e5140a5265d3c0bec471b8685f5b"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "þingfararkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"mynd": "farar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-för-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"et": {
+		"ág": ["þingfararkaup", "þingfararkaup", "þingfararkaupi", "þingfararkaups"],
+		"mg": ["þingfararkaupið", "þingfararkaupið", "þingfararkaupinu", "þingfararkaupsins"]
+	},
+	"kennistrengur": "no-þingfararkaup-hk",
+	"hash": "7a05f194a32eab851068389750997d7fb130f0df6fa6bbea5374ac0227897ab5"
+}

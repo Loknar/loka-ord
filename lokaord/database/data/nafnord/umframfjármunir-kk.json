@@ -1,0 +1,32 @@
+{
+	"orð": "umframfjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["umframfjármunir", "umframfjármuni", "umframfjármunum", "umframfjármuna"],
+		"mg": ["umframfjármunirnir", "umframfjármunina", "umframfjármununum", "umframfjármunanna"]
+	},
+	"kennistrengur": "no-umframfjármunir-kk",
+	"hash": "be0292e995267e805c1e4b024234f3200d00d403ba45665494b41fd0c7a3af2a"
+}

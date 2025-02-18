@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnmálabarátta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-barátta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnmálabarátta", "stjórnmálabaráttu", "stjórnmálabaráttu", "stjórnmálabaráttu"],
+		"mg": ["stjórnmálabaráttan", "stjórnmálabaráttuna", "stjórnmálabaráttunni", "stjórnmálabaráttunnar"]
+	},
+	"kennistrengur": "no-stjórnmálabarátta-kvk",
+	"hash": "31e24f85d1c196a54752f027862aa231b8342c19579aac4a65d4ce8583ac1d84"
+}

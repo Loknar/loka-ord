@@ -1,0 +1,154 @@
+{
+	"orð": "endursegja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-segja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endursegja",
+		"sagnbót": "endursagt",
+		"boðháttur": {
+			"stýfður": "endurseg",
+			"et": "endursegðu",
+			"ft": "endursegið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endursegi", "endursegir", "endursegir"],
+					"ft": ["endursegjum", "endursegið", "endursegja"]
+				},
+				"þátíð": {
+					"et": ["endursagði", "endursagðir", "endursagði"],
+					"ft": ["endursögðum", "endursögðuð", "endursögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endursegi", "endursegir", "endursegi"],
+					"ft": ["endursegjum", "endursegið", "endursegi"]
+				},
+				"þátíð": {
+					"et": ["endursegði", "endursegðir", "endursegði"],
+					"ft": ["endursegðum", "endursegðuð", "endursegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endursegirðu",
+					"ft": "endursegiði"
+				},
+				"þátíð": {
+					"et": "endursagðirðu",
+					"ft": "endursögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endursegirðu",
+					"ft": "endursegiði"
+				},
+				"þátíð": {
+					"et": "endursegðirðu",
+					"ft": "endursegðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "endursegjast",
+		"sagnbót": "endursagst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endursegist", "endursegist", "endursegist"],
+					"ft": ["endursegjumst", "endursegist", "endursegjast"]
+				},
+				"þátíð": {
+					"et": ["endursagðist", "endursagðist", "endursagðist"],
+					"ft": ["endursögðumst", "endursögðust", "endursögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endursegist", "endursegist", "endursegist"],
+					"ft": ["endursegjumst", "endursegist", "endursegist"]
+				},
+				"þátíð": {
+					"et": ["endursegðist", "endursegðist", "endursegðist"],
+					"ft": ["endursegðumst", "endursegðust", "endursegðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endursegist", "endursegist", "endursegist"],
+					"ft": ["endursegist", "endursegist", "endursegist"]
+				},
+				"þátíð": {
+					"et": ["endursagðist", "endursagðist", "endursagðist"],
+					"ft": ["endursagðist", "endursagðist", "endursagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endursegist", "endursegist", "endursegist"],
+					"ft": ["endursegist", "endursegist", "endursegist"]
+				},
+				"þátíð": {
+					"et": ["endursegðist", "endursegðist", "endursegðist"],
+					"ft": ["endursegðist", "endursegðist", "endursegðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endursegistu"
+				},
+				"þátíð": {
+					"et": "endursagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endursegistu"
+				},
+				"þátíð": {
+					"et": "endursegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endursegjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endursagður", "endursagðan", "endursögðum", "endursagðs"],
+					"kvk": ["endursögð", "endursagða", "endursagðri", "endursagðrar"],
+					"hk": ["endursagt", "endursagt", "endursögðu", "endursagðs"]
+				},
+				"ft": {
+					"kk": ["endursagðir", "endursagða", "endursögðum", "endursagðra"],
+					"kvk": ["endursagðar", "endursagðar", "endursögðum", "endursagðra"],
+					"hk": ["endursögð", "endursögð", "endursögðum", "endursagðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endursegja",
+	"hash": "a5e13d7f922ce77d661d9e0ffe994ba659c8d3678f113c0a8606a9380f6a2709"
+}

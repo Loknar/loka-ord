@@ -1,0 +1,43 @@
+{
+	"orð": "þagnarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "þagnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þögn-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["þagnarskyldur", "þagnarskyldan", "þagnarskyldum", "þagnarskylds"],
+				"kvk": ["þagnarskyld", "þagnarskylda", "þagnarskyldri", "þagnarskyldrar"],
+				"hk": ["þagnarskylt", "þagnarskylt", "þagnarskyldu", "þagnarskylds"]
+			},
+			"ft": {
+				"kk": ["þagnarskyldir", "þagnarskylda", "þagnarskyldum", "þagnarskyldra"],
+				"kvk": ["þagnarskyldar", "þagnarskyldar", "þagnarskyldum", "þagnarskyldra"],
+				"hk": ["þagnarskyld", "þagnarskyld", "þagnarskyldum", "þagnarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["þagnarskyldi", "þagnarskylda", "þagnarskylda", "þagnarskylda"],
+				"kvk": ["þagnarskylda", "þagnarskyldu", "þagnarskyldu", "þagnarskyldu"],
+				"hk": ["þagnarskylda", "þagnarskylda", "þagnarskylda", "þagnarskylda"]
+			},
+			"ft": {
+				"kk": ["þagnarskyldu", "þagnarskyldu", "þagnarskyldu", "þagnarskyldu"],
+				"kvk": ["þagnarskyldu", "þagnarskyldu", "þagnarskyldu", "þagnarskyldu"],
+				"hk": ["þagnarskyldu", "þagnarskyldu", "þagnarskyldu", "þagnarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-þagnarskyldur",
+	"hash": "28c680ac7c261dc5db50e17ea3b998415efbd1815551f3d8df86d152e368b74f"
+}
