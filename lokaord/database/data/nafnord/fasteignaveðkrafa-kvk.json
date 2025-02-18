@@ -1,0 +1,30 @@
+{
+	"orð": "fasteignaveðkrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fasteigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fasteignaveðkrafa", "fasteignaveðkröfu", "fasteignaveðkröfu", "fasteignaveðkröfu"],
+		"mg": ["fasteignaveðkrafan", "fasteignaveðkröfuna", "fasteignaveðkröfunni", "fasteignaveðkröfunnar"]
+	},
+	"ft": {
+		"ág": ["fasteignaveðkröfur", "fasteignaveðkröfur", "fasteignaveðkröfum", "fasteignaveðkrafna"],
+		"mg": ["fasteignaveðkröfurnar", "fasteignaveðkröfurnar", "fasteignaveðkröfunum", "fasteignaveðkrafnanna"]
+	},
+	"kennistrengur": "no-fasteignaveðkrafa-kvk",
+	"hash": "a3019720ac19e7e069be6bd990714e3c2fbe398d301f04c8aa3803c6556a87a1"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "framtalsskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "tals",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tal-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framtalsskylda", "framtalsskyldu", "framtalsskyldu", "framtalsskyldu"],
+		"mg": ["framtalsskyldan", "framtalsskylduna", "framtalsskyldunni", "framtalsskyldunnar"]
+	},
+	"kennistrengur": "no-framtalsskylda-kvk",
+	"hash": "eac1e6dd28fe230ff740cc20550a4c5251ffb9f7a0845eb579b3a12b536b1b9a"
+}

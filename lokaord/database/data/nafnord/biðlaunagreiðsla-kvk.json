@@ -1,0 +1,30 @@
+{
+	"orð": "biðlaunagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bið-kvk"
+		},
+		{
+			"mynd": "launa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-laun-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["biðlaunagreiðsla", "biðlaunagreiðslu", "biðlaunagreiðslu", "biðlaunagreiðslu"],
+		"mg": ["biðlaunagreiðslan", "biðlaunagreiðsluna", "biðlaunagreiðslunni", "biðlaunagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["biðlaunagreiðslur", "biðlaunagreiðslur", "biðlaunagreiðslum", "biðlaunagreiðslna"],
+		"mg": ["biðlaunagreiðslurnar", "biðlaunagreiðslurnar", "biðlaunagreiðslunum", "biðlaunagreiðslnanna"]
+	},
+	"kennistrengur": "no-biðlaunagreiðsla-kvk",
+	"hash": "e72b4a6e0ceb3c8ac86f50bafe56780c73d5f40a7a5b31224f7190355eb47afa"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "framtalsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "tals",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tal-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["framtalsskyldur", "framtalsskyldan", "framtalsskyldum", "framtalsskylds"],
+				"kvk": ["framtalsskyld", "framtalsskylda", "framtalsskyldri", "framtalsskyldrar"],
+				"hk": ["framtalsskylt", "framtalsskylt", "framtalsskyldu", "framtalsskylds"]
+			},
+			"ft": {
+				"kk": ["framtalsskyldir", "framtalsskylda", "framtalsskyldum", "framtalsskyldra"],
+				"kvk": ["framtalsskyldar", "framtalsskyldar", "framtalsskyldum", "framtalsskyldra"],
+				"hk": ["framtalsskyld", "framtalsskyld", "framtalsskyldum", "framtalsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["framtalsskyldi", "framtalsskylda", "framtalsskylda", "framtalsskylda"],
+				"kvk": ["framtalsskylda", "framtalsskyldu", "framtalsskyldu", "framtalsskyldu"],
+				"hk": ["framtalsskylda", "framtalsskylda", "framtalsskylda", "framtalsskylda"]
+			},
+			"ft": {
+				"kk": ["framtalsskyldu", "framtalsskyldu", "framtalsskyldu", "framtalsskyldu"],
+				"kvk": ["framtalsskyldu", "framtalsskyldu", "framtalsskyldu", "framtalsskyldu"],
+				"hk": ["framtalsskyldu", "framtalsskyldu", "framtalsskyldu", "framtalsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-framtalsskyldur",
+	"hash": "a03bf750dfe029753ba03a854b5d36361bff4eea532b23f493eb1b7f005f998c"
+}

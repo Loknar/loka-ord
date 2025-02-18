@@ -1,0 +1,40 @@
+{
+	"orð": "greiðsluaðlögunarumleitan",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"mynd": "lögunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lögun-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"kennistrengur": "no-leitan-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluaðlögunarumleitan", "greiðsluaðlögunarumleitan", "greiðsluaðlögunarumleitan", "greiðsluaðlögunarumleitanar"],
+		"mg": ["greiðsluaðlögunarumleitanin", "greiðsluaðlögunarumleitanina", "greiðsluaðlögunarumleitaninni", "greiðsluaðlögunarumleitanarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðsluaðlögunarumleitanir", "greiðsluaðlögunarumleitanir", "greiðsluaðlögunarumleitunum", "greiðsluaðlögunarumleitana"],
+		"mg": ["greiðsluaðlögunarumleitanirnar", "greiðsluaðlögunarumleitanirnar", "greiðsluaðlögunarumleitununum", "greiðsluaðlögunarumleitananna"]
+	},
+	"kennistrengur": "no-greiðsluaðlögunarumleitan-kvk",
+	"hash": "138c6f863320164631a51573cdbd72ff49964b24165199e9b95b677880db3067"
+}
