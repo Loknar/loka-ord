@@ -1,0 +1,27 @@
+{
+	"orð": "útlánastefna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stefna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["útlánastefna", "útlánastefnu", "útlánastefnu", "útlánastefnu"],
+		"mg": ["útlánastefnan", "útlánastefnuna", "útlánastefnunni", "útlánastefnunnar"]
+	},
+	"kennistrengur": "no-útlánastefna-kvk",
+	"hash": "ddc648effcdeebfdfeb627674e80b632af549d64c3fa8bf3c53c81106b16e39d"
+}

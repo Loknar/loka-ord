@@ -1,0 +1,135 @@
+{
+	"orð": "afráða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ráða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afráða",
+		"sagnbót": "afráðið",
+		"boðháttur": {
+			"stýfður": "afráð",
+			"et": "afráddu",
+			"ft": "afráðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afræð", "afræður", "afræður"],
+					"ft": ["afráðum", "afráðið", "afráða"]
+				},
+				"þátíð": {
+					"et": ["afréð", "afréðst", "afréð"],
+					"ft": ["afréðum", "afréðuð", "afréðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afráði", "afráðir", "afráði"],
+					"ft": ["afráðum", "afráðið", "afráði"]
+				},
+				"þátíð": {
+					"et": ["afréði", "afréðir", "afréði"],
+					"ft": ["afréðum", "afréðuð", "afréðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afræðurðu",
+					"ft": "afráðiði"
+				},
+				"þátíð": {
+					"et": "afréðstu",
+					"ft": "afréðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afráðirðu",
+					"ft": "afráðiði"
+				},
+				"þátíð": {
+					"et": "afréðirðu",
+					"ft": "afréðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afráðast",
+		"sagnbót": "afráðist",
+		"boðháttur": {
+			"et": "afráðstu",
+			"ft": "afráðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afræðst", "afræðst", "afræðst"],
+					"ft": ["afráðumst", "afráðist", "afráðast"]
+				},
+				"þátíð": {
+					"et": ["afréðst", "afréðst", "afréðst"],
+					"ft": ["afréðumst", "afréðust", "afréðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afráðist", "afráðist", "afráðist"],
+					"ft": ["afráðumst", "afráðist", "afráðist"]
+				},
+				"þátíð": {
+					"et": ["afréðist", "afréðist", "afréðist"],
+					"ft": ["afréðumst", "afréðust", "afréðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afræðstu"
+				},
+				"þátíð": {
+					"et": "afréðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afráðistu"
+				},
+				"þátíð": {
+					"et": "afréðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afráðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afráðinn", "afráðinn", "afráðnum", "afráðins"],
+					"kvk": ["afráðin", "afráðna", "afráðinni", "afráðinnar"],
+					"hk": ["afráðið", "afráðið", "afráðnu", "afráðins"]
+				},
+				"ft": {
+					"kk": ["afráðnir", "afráðna", "afráðnum", "afráðinna"],
+					"kvk": ["afráðnar", "afráðnar", "afráðnum", "afráðinna"],
+					"hk": ["afráðin", "afráðin", "afráðnum", "afráðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afráða",
+	"hash": "7ccd41f6984f2874a16e8d6d3318897ef93b5cfcabdae193e9d0539c09593b0a"
+}

@@ -1,0 +1,25 @@
+{
+	"orð": "skuldaröð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-röð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaröð", "skuldaröð", "skuldaröð", "skuldaraðar"],
+		"mg": ["skuldaröðin", "skuldaröðina", "skuldaröðinni", "skuldaraðarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldaraðir", "skuldaraðir", "skuldaröðum", "skuldaraða"],
+		"mg": ["skuldaraðirnar", "skuldaraðirnar", "skuldaröðunum", "skuldaraðanna"]
+	},
+	"kennistrengur": "no-skuldaröð-kvk",
+	"hash": "eb27feef6cc05c3d6551941f1fc2f06c74b0ea55231448909a1fcb89b3fdd975"
+}

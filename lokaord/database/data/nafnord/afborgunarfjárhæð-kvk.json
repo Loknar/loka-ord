@@ -1,0 +1,35 @@
+{
+	"orð": "afborgunarfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "borgunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-borgun-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["afborgunarfjárhæð", "afborgunarfjárhæð", "afborgunarfjárhæð", "afborgunarfjárhæðar"],
+		"mg": ["afborgunarfjárhæðin", "afborgunarfjárhæðina", "afborgunarfjárhæðinni", "afborgunarfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["afborgunarfjárhæðir", "afborgunarfjárhæðir", "afborgunarfjárhæðum", "afborgunarfjárhæða"],
+		"mg": ["afborgunarfjárhæðirnar", "afborgunarfjárhæðirnar", "afborgunarfjárhæðunum", "afborgunarfjárhæðanna"]
+	},
+	"kennistrengur": "no-afborgunarfjárhæð-kvk",
+	"hash": "8bf76d09652f24d7d119f3b9355e1126b0d4bdd7c6ca8126258309f06a5465d0"
+}

@@ -1,0 +1,22 @@
+{
+	"orð": "eignastaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignastaða", "eignastöðu", "eignastöðu", "eignastöðu"],
+		"mg": ["eignastaðan", "eignastöðuna", "eignastöðunni", "eignastöðunnar"]
+	},
+	"kennistrengur": "no-eignastaða-kvk",
+	"hash": "67b2f47fc80b923a925a2817853c42a54238ee9d3fc96862eebbe0f148156f56"
+}

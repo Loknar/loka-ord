@@ -1,0 +1,43 @@
+{
+	"orð": "starfslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["starfslegur", "starfslegan", "starfslegum", "starfslegs"],
+				"kvk": ["starfsleg", "starfslega", "starfslegri", "starfslegrar"],
+				"hk": ["starfslegt", "starfslegt", "starfslegu", "starfslegs"]
+			},
+			"ft": {
+				"kk": ["starfslegir", "starfslega", "starfslegum", "starfslegra"],
+				"kvk": ["starfslegar", "starfslegar", "starfslegum", "starfslegra"],
+				"hk": ["starfsleg", "starfsleg", "starfslegum", "starfslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["starfslegi", "starfslega", "starfslega", "starfslega"],
+				"kvk": ["starfslega", "starfslegu", "starfslegu", "starfslegu"],
+				"hk": ["starfslega", "starfslega", "starfslega", "starfslega"]
+			},
+			"ft": {
+				"kk": ["starfslegu", "starfslegu", "starfslegu", "starfslegu"],
+				"kvk": ["starfslegu", "starfslegu", "starfslegu", "starfslegu"],
+				"hk": ["starfslegu", "starfslegu", "starfslegu", "starfslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-starfslegur",
+	"hash": "27b74d88e23287dea9e21a725f78c07c3c5cd34de5ed84f033de4a3334fc9428"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "greiðsluaðlögunartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"mynd": "lögunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lögun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluaðlögunartími", "greiðsluaðlögunartíma", "greiðsluaðlögunartíma", "greiðsluaðlögunartíma"],
+		"mg": ["greiðsluaðlögunartíminn", "greiðsluaðlögunartímann", "greiðsluaðlögunartímanum", "greiðsluaðlögunartímans"]
+	},
+	"kennistrengur": "no-greiðsluaðlögunartími-kk",
+	"hash": "8b41688d80d490afea5e583acc22ca82336164e2d18c81e94aae6e6f73d76b60"
+}
