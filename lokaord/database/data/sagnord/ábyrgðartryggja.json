@@ -1,0 +1,98 @@
+{
+	"orð": "ábyrgðartryggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ábyrgðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ábyrgð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-tryggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ábyrgðartryggja",
+		"sagnbót": "ábyrgðartryggt",
+		"boðháttur": {
+			"stýfður": "ábyrgðartrygg",
+			"et": "ábyrgðartryggðu",
+			"ft": "ábyrgðartryggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ábyrgðartryggi", "ábyrgðartryggir", "ábyrgðartryggir"],
+					"ft": ["ábyrgðartryggjum", "ábyrgðartryggið", "ábyrgðartryggja"]
+				},
+				"þátíð": {
+					"et": ["ábyrgðartryggði", "ábyrgðartryggðir", "ábyrgðartryggði"],
+					"ft": ["ábyrgðartryggðum", "ábyrgðartryggðuð", "ábyrgðartryggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ábyrgðartryggi", "ábyrgðartryggir", "ábyrgðartryggi"],
+					"ft": ["ábyrgðartryggjum", "ábyrgðartryggið", "ábyrgðartryggi"]
+				},
+				"þátíð": {
+					"et": ["ábyrgðartryggði", "ábyrgðartryggðir", "ábyrgðartryggði"],
+					"ft": ["ábyrgðartryggðum", "ábyrgðartryggðuð", "ábyrgðartryggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ábyrgðartryggirðu",
+					"ft": "ábyrgðartryggiði"
+				},
+				"þátíð": {
+					"et": "ábyrgðartryggðirðu",
+					"ft": "ábyrgðartryggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ábyrgðartryggirðu",
+					"ft": "ábyrgðartryggiði"
+				},
+				"þátíð": {
+					"et": "ábyrgðartryggðirðu",
+					"ft": "ábyrgðartryggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ábyrgðartryggður", "ábyrgðartryggðan", "ábyrgðartryggðum", "ábyrgðartryggðs"],
+					"kvk": ["ábyrgðartryggð", "ábyrgðartryggða", "ábyrgðartryggðri", "ábyrgðartryggðrar"],
+					"hk": ["ábyrgðartryggt", "ábyrgðartryggt", "ábyrgðartryggðu", "ábyrgðartryggðs"]
+				},
+				"ft": {
+					"kk": ["ábyrgðartryggðir", "ábyrgðartryggða", "ábyrgðartryggðum", "ábyrgðartryggðra"],
+					"kvk": ["ábyrgðartryggðar", "ábyrgðartryggðar", "ábyrgðartryggðum", "ábyrgðartryggðra"],
+					"hk": ["ábyrgðartryggð", "ábyrgðartryggð", "ábyrgðartryggðum", "ábyrgðartryggðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ábyrgðartryggði", "ábyrgðartryggða", "ábyrgðartryggða", "ábyrgðartryggða"],
+					"kvk": ["ábyrgðartryggða", "ábyrgðartryggðu", "ábyrgðartryggðu", "ábyrgðartryggðu"],
+					"hk": ["ábyrgðartryggða", "ábyrgðartryggða", "ábyrgðartryggða", "ábyrgðartryggða"]
+				},
+				"ft": {
+					"kk": ["ábyrgðartryggðu", "ábyrgðartryggðu", "ábyrgðartryggðu", "ábyrgðartryggðu"],
+					"kvk": ["ábyrgðartryggðu", "ábyrgðartryggðu", "ábyrgðartryggðu", "ábyrgðartryggðu"],
+					"hk": ["ábyrgðartryggðu", "ábyrgðartryggðu", "ábyrgðartryggðu", "ábyrgðartryggðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ábyrgðartryggja",
+	"hash": "e90bfcd25745f04052a8963732fff550ab229ee379ffac7ab9117b2866cdd3a6"
+}

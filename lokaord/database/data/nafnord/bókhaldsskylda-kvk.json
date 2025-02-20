@@ -1,0 +1,30 @@
+{
+	"orð": "bókhaldsskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókhaldsskylda", "bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu"],
+		"mg": ["bókhaldsskyldan", "bókhaldsskylduna", "bókhaldsskyldunni", "bókhaldsskyldunnar"]
+	},
+	"ft": {
+		"ág": ["bókhaldsskyldur", "bókhaldsskyldur", "bókhaldsskyldum", "bókhaldsskyldna"],
+		"mg": ["bókhaldsskyldurnar", "bókhaldsskyldurnar", "bókhaldsskyldunum", "bókhaldsskyldnanna"]
+	},
+	"kennistrengur": "no-bókhaldsskylda-kvk",
+	"hash": "ac7090473b87955e5d54749e6c083749fc607de1d6da9e04129fb85b939b2e2a"
+}

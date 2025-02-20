@@ -1,0 +1,30 @@
+{
+	"orð": "kröfufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kröfu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-krafa-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kröfufjárhæð", "kröfufjárhæð", "kröfufjárhæð", "kröfufjárhæðar"],
+		"mg": ["kröfufjárhæðin", "kröfufjárhæðina", "kröfufjárhæðinni", "kröfufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["kröfufjárhæðir", "kröfufjárhæðir", "kröfufjárhæðum", "kröfufjárhæða"],
+		"mg": ["kröfufjárhæðirnar", "kröfufjárhæðirnar", "kröfufjárhæðunum", "kröfufjárhæðanna"]
+	},
+	"kennistrengur": "no-kröfufjárhæð-kvk",
+	"hash": "280e444c9fb777da1ed2066dd3a2dc878b71df2baca5b77a349b1643c8987735"
+}

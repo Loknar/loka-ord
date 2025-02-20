@@ -1,0 +1,22 @@
+{
+	"orð": "skuldaaukning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aukning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaaukning", "skuldaaukningu", "skuldaaukningu", "skuldaaukningar"],
+		"mg": ["skuldaaukningin", "skuldaaukninguna", "skuldaaukningunni", "skuldaaukningarinnar"]
+	},
+	"kennistrengur": "no-skuldaaukning-kvk",
+	"hash": "593dd57f33508933229aa40de9e82d4f4ba9a1f8e8757088b57e20d349f44e44"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "reifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "reif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-reifi-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "reifa",
+		"sagnbót": "reifað",
+		"boðháttur": {
+			"stýfður": "reifa",
+			"et": "reifaðu",
+			"ft": "reifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reifa", "reifar", "reifar"],
+					"ft": ["reifum", "reifið", "reifa"]
+				},
+				"þátíð": {
+					"et": ["reifaði", "reifaðir", "reifaði"],
+					"ft": ["reifuðum", "reifuðuð", "reifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reifi", "reifir", "reifi"],
+					"ft": ["reifum", "reifið", "reifi"]
+				},
+				"þátíð": {
+					"et": ["reifaði", "reifaðir", "reifaði"],
+					"ft": ["reifuðum", "reifuðuð", "reifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reifarðu",
+					"ft": "reifiði"
+				},
+				"þátíð": {
+					"et": "reifaðirðu",
+					"ft": "reifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reifirðu",
+					"ft": "reifiði"
+				},
+				"þátíð": {
+					"et": "reifaðirðu",
+					"ft": "reifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "reifast",
+		"sagnbót": "reifast",
+		"boðháttur": {
+			"et": "reifastu",
+			"ft": "reifist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reifast", "reifast", "reifast"],
+					"ft": ["reifumst", "reifist", "reifast"]
+				},
+				"þátíð": {
+					"et": ["reifaðist", "reifaðist", "reifaðist"],
+					"ft": ["reifuðumst", "reifuðust", "reifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reifist", "reifist", "reifist"],
+					"ft": ["reifumst", "reifist", "reifist"]
+				},
+				"þátíð": {
+					"et": ["reifaðist", "reifaðist", "reifaðist"],
+					"ft": ["reifuðumst", "reifuðust", "reifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reifastu"
+				},
+				"þátíð": {
+					"et": "reifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reifistu"
+				},
+				"þátíð": {
+					"et": "reifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reifaður", "reifaðan", "reifuðum", "reifaðs"],
+					"kvk": ["reifuð", "reifaða", "reifaðri", "reifaðrar"],
+					"hk": ["reifað", "reifað", "reifuðu", "reifaðs"]
+				},
+				"ft": {
+					"kk": ["reifaðir", "reifaða", "reifuðum", "reifaðra"],
+					"kvk": ["reifaðar", "reifaðar", "reifuðum", "reifaðra"],
+					"hk": ["reifuð", "reifuð", "reifuðum", "reifaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reifa",
+	"hash": "ab98318a0fe49d9853fd0ee6a0f06d690d927bd141f9912a02d66bde1310cbed"
+}

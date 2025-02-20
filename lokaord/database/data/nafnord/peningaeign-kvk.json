@@ -1,0 +1,22 @@
+{
+	"orð": "peningaeign",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-eign-kvk"
+		}
+	],
+	"et": {
+		"ág": ["peningaeign", "peningaeign", "peningaeign", "peningaeignar"],
+		"mg": ["peningaeignin", "peningaeignina", "peningaeigninni", "peningaeignarinnar"]
+	},
+	"kennistrengur": "no-peningaeign-kvk",
+	"hash": "b24838db8059e761973636df36ff6cf8efccc519de33cf71968ef15b603106d3"
+}

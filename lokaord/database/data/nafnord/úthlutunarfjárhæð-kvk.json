@@ -1,0 +1,35 @@
+{
+	"orð": "úthlutunarfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "hlutunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutun-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["úthlutunarfjárhæð", "úthlutunarfjárhæð", "úthlutunarfjárhæð", "úthlutunarfjárhæðar"],
+		"mg": ["úthlutunarfjárhæðin", "úthlutunarfjárhæðina", "úthlutunarfjárhæðinni", "úthlutunarfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["úthlutunarfjárhæðir", "úthlutunarfjárhæðir", "úthlutunarfjárhæðum", "úthlutunarfjárhæða"],
+		"mg": ["úthlutunarfjárhæðirnar", "úthlutunarfjárhæðirnar", "úthlutunarfjárhæðunum", "úthlutunarfjárhæðanna"]
+	},
+	"kennistrengur": "no-úthlutunarfjárhæð-kvk",
+	"hash": "30bb46c84dd37a97e5db8811366943118289408b88d401580994e1aa5be9f68c"
+}

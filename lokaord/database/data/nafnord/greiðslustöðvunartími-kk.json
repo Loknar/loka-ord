@@ -1,0 +1,27 @@
+{
+	"orð": "greiðslustöðvunartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "stöðvunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stöðvun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslustöðvunartími", "greiðslustöðvunartíma", "greiðslustöðvunartíma", "greiðslustöðvunartíma"],
+		"mg": ["greiðslustöðvunartíminn", "greiðslustöðvunartímann", "greiðslustöðvunartímanum", "greiðslustöðvunartímans"]
+	},
+	"kennistrengur": "no-greiðslustöðvunartími-kk",
+	"hash": "54160d9daf5e98b588cd32fe797a2fc773e292b48f359116e33dcfee04aaa27b"
+}
