@@ -1,0 +1,99 @@
+{
+	"orð": "gengistryggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gengis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gengi-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-tryggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gengistryggja",
+		"sagnbót": "gengistryggt",
+		"boðháttur": {
+			"stýfður": "gengistrygg",
+			"et": "gengistryggðu",
+			"ft": "gengistryggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gengistryggi", "gengistryggir", "gengistryggir"],
+					"ft": ["gengistryggjum", "gengistryggið", "gengistryggja"]
+				},
+				"þátíð": {
+					"et": ["gengistryggði", "gengistryggðir", "gengistryggði"],
+					"ft": ["gengistryggðum", "gengistryggðuð", "gengistryggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gengistryggi", "gengistryggir", "gengistryggi"],
+					"ft": ["gengistryggjum", "gengistryggið", "gengistryggi"]
+				},
+				"þátíð": {
+					"et": ["gengistryggði", "gengistryggðir", "gengistryggði"],
+					"ft": ["gengistryggðum", "gengistryggðuð", "gengistryggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gengistryggirðu",
+					"ft": "gengistryggiði"
+				},
+				"þátíð": {
+					"et": "gengistryggðirðu",
+					"ft": "gengistryggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gengistryggirðu",
+					"ft": "gengistryggiði"
+				},
+				"þátíð": {
+					"et": "gengistryggðirðu",
+					"ft": "gengistryggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gengistryggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gengistryggður", "gengistryggðan", "gengistryggðum", "gengistryggðs"],
+					"kvk": ["gengistryggð", "gengistryggða", "gengistryggðri", "gengistryggðrar"],
+					"hk": ["gengistryggt", "gengistryggt", "gengistryggðu", "gengistryggðs"]
+				},
+				"ft": {
+					"kk": ["gengistryggðir", "gengistryggða", "gengistryggðum", "gengistryggðra"],
+					"kvk": ["gengistryggðar", "gengistryggðar", "gengistryggðum", "gengistryggðra"],
+					"hk": ["gengistryggð", "gengistryggð", "gengistryggðum", "gengistryggðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gengistryggði", "gengistryggða", "gengistryggða", "gengistryggða"],
+					"kvk": ["gengistryggða", "gengistryggðu", "gengistryggðu", "gengistryggðu"],
+					"hk": ["gengistryggða", "gengistryggða", "gengistryggða", "gengistryggða"]
+				},
+				"ft": {
+					"kk": ["gengistryggðu", "gengistryggðu", "gengistryggðu", "gengistryggðu"],
+					"kvk": ["gengistryggðu", "gengistryggðu", "gengistryggðu", "gengistryggðu"],
+					"hk": ["gengistryggðu", "gengistryggðu", "gengistryggðu", "gengistryggðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gengistryggja",
+	"hash": "10574da46105c20124be28366534c75c4977ff8608400c84f38fe15d1f3774ec"
+}
