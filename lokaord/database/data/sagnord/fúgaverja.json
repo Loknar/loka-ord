@@ -1,0 +1,99 @@
+{
+	"orð": "fúgaverja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fúga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fúga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-verja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fúgaverja",
+		"sagnbót": "fúgavarið",
+		"boðháttur": {
+			"stýfður": "fúgaver",
+			"et": "fúgaverðu",
+			"ft": "fúgaverjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fúgaver", "fúgaverð", "fúgaver"],
+					"ft": ["fúgaverjum", "fúgaverjið", "fúgaverja"]
+				},
+				"þátíð": {
+					"et": ["fúgavarði", "fúgavarðir", "fúgavarði"],
+					"ft": ["fúgavörðum", "fúgavörðuð", "fúgavörðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fúgaverji", "fúgaverjir", "fúgaverji"],
+					"ft": ["fúgaverjum", "fúgaverjið", "fúgaverji"]
+				},
+				"þátíð": {
+					"et": ["fúgaverði", "fúgaverðir", "fúgaverði"],
+					"ft": ["fúgaverðum", "fúgaverðuð", "fúgaverðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fúgaverðu",
+					"ft": "fúgaverjiði"
+				},
+				"þátíð": {
+					"et": "fúgavarðirðu",
+					"ft": "fúgavörðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fúgaverjirðu",
+					"ft": "fúgaverjiði"
+				},
+				"þátíð": {
+					"et": "fúgaverðirðu",
+					"ft": "fúgaverðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fúgaverjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fúgavarinn", "fúgavarinn", "fúgavörðum", "fúgavarins"],
+					"kvk": ["fúgavarin", "fúgavarða", "fúgavarinni", "fúgavarinnar"],
+					"hk": ["fúgavarið", "fúgavarið", "fúgavörðu", "fúgavarins"]
+				},
+				"ft": {
+					"kk": ["fúgavarnir", "fúgavarða", "fúgavörðum", "fúgavarinna"],
+					"kvk": ["fúgavarðar", "fúgavarðar", "fúgavörðum", "fúgavarinna"],
+					"hk": ["fúgavarin", "fúgavarin", "fúgavörðum", "fúgavarinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fúgavarði", "fúgavarða", "fúgavarða", "fúgavarða"],
+					"kvk": ["fúgavarða", "fúgavörðu", "fúgavörðu", "fúgavörðu"],
+					"hk": ["fúgavarða", "fúgavarða", "fúgavarða", "fúgavarða"]
+				},
+				"ft": {
+					"kk": ["fúgavörðu", "fúgavörðu", "fúgavörðu", "fúgavörðu"],
+					"kvk": ["fúgavörðu", "fúgavörðu", "fúgavörðu", "fúgavörðu"],
+					"hk": ["fúgavörðu", "fúgavörðu", "fúgavörðu", "fúgavörðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fúgaverja",
+	"hash": "da678da52f7e19f1c01f388ae3dcc352787b7bfd37e7937233736ba9c33b92e8"
+}

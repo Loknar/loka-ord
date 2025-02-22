@@ -1,0 +1,27 @@
+{
+	"orð": "dómslögsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dóms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["dómslögsaga", "dómslögsögu", "dómslögsögu", "dómslögsögu"],
+		"mg": ["dómslögsagan", "dómslögsöguna", "dómslögsögunni", "dómslögsögunnar"]
+	},
+	"kennistrengur": "no-dómslögsaga-kvk",
+	"hash": "d0575662e7785ceb3cb2dc27176fa0bb9031e096f76afbcf41b80c932e93250f"
+}
