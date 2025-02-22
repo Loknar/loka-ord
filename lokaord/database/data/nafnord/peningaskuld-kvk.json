@@ -1,0 +1,25 @@
+{
+	"orð": "peningaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["peningaskuld", "peningaskuld", "peningaskuld", "peningaskuldar"],
+		"mg": ["peningaskuldin", "peningaskuldina", "peningaskuldinni", "peningaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["peningaskuldir", "peningaskuldir", "peningaskuldum", "peningaskulda"],
+		"mg": ["peningaskuldirnar", "peningaskuldirnar", "peningaskuldunum", "peningaskuldanna"]
+	},
+	"kennistrengur": "no-peningaskuld-kvk",
+	"hash": "feb291c3fadfbd827c5f35c5c2097b9c3e89f1bfd404921c5ef1bc7b93ccca6e"
+}

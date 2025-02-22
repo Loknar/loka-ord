@@ -1,0 +1,26 @@
+{
+	"orð": "kaupleiguréttindi",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-réttindi-hk"
+		}
+	],
+	"ft": {
+		"ág": ["kaupleiguréttindi", "kaupleiguréttindi", "kaupleiguréttindum", "kaupleiguréttinda"],
+		"mg": ["kaupleiguréttindin", "kaupleiguréttindin", "kaupleiguréttindunum", "kaupleiguréttindanna"]
+	},
+	"kennistrengur": "no-kaupleiguréttindi-hk",
+	"hash": "39eaf6fd3ebc55571dfdeceb462ceb7d7b94ff026604179891503360f44895e7"
+}

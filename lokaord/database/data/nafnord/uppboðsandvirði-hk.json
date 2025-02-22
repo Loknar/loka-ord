@@ -1,0 +1,32 @@
+{
+	"orð": "uppboðsandvirði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-and-ó"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-virði-hk"
+		}
+	],
+	"et": {
+		"ág": ["uppboðsandvirði", "uppboðsandvirði", "uppboðsandvirði", "uppboðsandvirðis"],
+		"mg": ["uppboðsandvirðið", "uppboðsandvirðið", "uppboðsandvirðinu", "uppboðsandvirðisins"]
+	},
+	"kennistrengur": "no-uppboðsandvirði-hk",
+	"hash": "27c98661c81a8bee65aee5652652536cad265d9d016afa27bb6054fd57a9248e"
+}

@@ -1,0 +1,25 @@
+{
+	"orð": "skuldakrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldakrafa", "skuldakröfu", "skuldakröfu", "skuldakröfu"],
+		"mg": ["skuldakrafan", "skuldakröfuna", "skuldakröfunni", "skuldakröfunnar"]
+	},
+	"ft": {
+		"ág": ["skuldakröfur", "skuldakröfur", "skuldakröfum", "skuldakrafna"],
+		"mg": ["skuldakröfurnar", "skuldakröfurnar", "skuldakröfunum", "skuldakrafnanna"]
+	},
+	"kennistrengur": "no-skuldakrafa-kvk",
+	"hash": "6974895aa4348b5e064096c00ca2b91b6ecff5e2f9313793288fe4983765780e"
+}
