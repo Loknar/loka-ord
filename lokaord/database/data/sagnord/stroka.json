@@ -1,0 +1,146 @@
+{
+	"orð": "stroka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "strok",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stroka-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stroka",
+		"sagnbót": "strokað",
+		"boðháttur": {
+			"stýfður": "stroka",
+			"et": "strokaðu",
+			"ft": "strokið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stroka", "strokar", "strokar"],
+					"ft": ["strokum", "strokið", "stroka"]
+				},
+				"þátíð": {
+					"et": ["strokaði", "strokaðir", "strokaði"],
+					"ft": ["strokuðum", "strokuðuð", "strokuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stroki", "strokir", "stroki"],
+					"ft": ["strokum", "strokið", "stroki"]
+				},
+				"þátíð": {
+					"et": ["strokaði", "strokaðir", "strokaði"],
+					"ft": ["strokuðum", "strokuðuð", "strokuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "strokarðu",
+					"ft": "strokiði"
+				},
+				"þátíð": {
+					"et": "strokaðirðu",
+					"ft": "strokuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "strokirðu",
+					"ft": "strokiði"
+				},
+				"þátíð": {
+					"et": "strokaðirðu",
+					"ft": "strokuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "strokast",
+		"sagnbót": "strokast",
+		"boðháttur": {
+			"et": "strokastu",
+			"ft": "strokist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["strokast", "strokast", "strokast"],
+					"ft": ["strokumst", "strokist", "strokast"]
+				},
+				"þátíð": {
+					"et": ["strokaðist", "strokaðist", "strokaðist"],
+					"ft": ["strokuðumst", "strokuðust", "strokuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["strokist", "strokist", "strokist"],
+					"ft": ["strokumst", "strokist", "strokist"]
+				},
+				"þátíð": {
+					"et": ["strokaðist", "strokaðist", "strokaðist"],
+					"ft": ["strokuðumst", "strokuðust", "strokuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "strokastu"
+				},
+				"þátíð": {
+					"et": "strokaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "strokistu"
+				},
+				"þátíð": {
+					"et": "strokaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "strokandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["strokaður", "strokaðan", "strokuðum", "strokaðs"],
+					"kvk": ["strokuð", "strokaða", "strokaðri", "strokaðrar"],
+					"hk": ["strokað", "strokað", "strokuðu", "strokaðs"]
+				},
+				"ft": {
+					"kk": ["strokaðir", "strokaða", "strokuðum", "strokaðra"],
+					"kvk": ["strokaðar", "strokaðar", "strokuðum", "strokaðra"],
+					"hk": ["strokuð", "strokuð", "strokuðum", "strokaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["strokaði", "strokaða", "strokaða", "strokaða"],
+					"kvk": ["strokaða", "strokuðu", "strokuðu", "strokuðu"],
+					"hk": ["strokaða", "strokaða", "strokaða", "strokaða"]
+				},
+				"ft": {
+					"kk": ["strokuðu", "strokuðu", "strokuðu", "strokuðu"],
+					"kvk": ["strokuðu", "strokuðu", "strokuðu", "strokuðu"],
+					"hk": ["strokuðu", "strokuðu", "strokuðu", "strokuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stroka",
+	"hash": "a79c578b6bfdf8b8a8fca29230af8fc9d6d9b678342597a820b92fdb15d49ac0"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "farmgjaldstekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "farm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-farmur-kk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["farmgjaldstekjur", "farmgjaldstekjur", "farmgjaldstekjum", "farmgjaldstekna"],
+		"mg": ["farmgjaldstekjurnar", "farmgjaldstekjurnar", "farmgjaldstekjunum", "farmgjaldsteknanna"]
+	},
+	"kennistrengur": "no-farmgjaldstekjur-kvk",
+	"hash": "f977e9bb4fc83657d88b2049e191390fb0d945801a70a26052474f5abec74290"
+}

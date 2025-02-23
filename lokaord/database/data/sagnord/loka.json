@@ -1,6 +1,16 @@
 {
 	"orð": "loka",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lok",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lok-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "loka",
 		"sagnbót": "lokað",
@@ -83,29 +93,6 @@
 				}
 			}
 		},
-		"ópersónuleg": {
-			"frumlag": "þágufałl",
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["lokast", "lokast", "lokast"],
-					"ft": ["lokast", "lokast", "lokast"]
-				},
-				"þátíð": {
-					"et": ["lokaðist", "lokaðist", "lokaðist"],
-					"ft": ["lokaðist", "lokaðist", "lokaðist"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["lokist", "lokist", "lokist"],
-					"ft": ["lokist", "lokist", "lokist"]
-				},
-				"þátíð": {
-					"et": ["lokaðist", "lokaðist", "lokaðist"],
-					"ft": ["lokaðist", "lokaðist", "lokaðist"]
-				}
-			}
-		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -155,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-loka",
-	"hash": "45ed8e867842376407d62dad1265f8a11a88e45b34e69e5f884d84004aa83eb7"
+	"hash": "a8fed3172c6ebc844108e18d40ad4032427e312de584ec983b584d66a2e6038a"
 }

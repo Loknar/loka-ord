@@ -1,0 +1,30 @@
+{
+	"orð": "farmgjaldskrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "farm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-farmur-kk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["farmgjaldskrafa", "farmgjaldskröfu", "farmgjaldskröfu", "farmgjaldskröfu"],
+		"mg": ["farmgjaldskrafan", "farmgjaldskröfuna", "farmgjaldskröfunni", "farmgjaldskröfunnar"]
+	},
+	"ft": {
+		"ág": ["farmgjaldskröfur", "farmgjaldskröfur", "farmgjaldskröfum", "farmgjaldskrafna"],
+		"mg": ["farmgjaldskröfurnar", "farmgjaldskröfurnar", "farmgjaldskröfunum", "farmgjaldskrafnanna"]
+	},
+	"kennistrengur": "no-farmgjaldskrafa-kvk",
+	"hash": "b405ab020d339aede43aa21ca7b9b11184b8ff103e27f6612923c609c33e8b6c"
+}
