@@ -1,0 +1,27 @@
+{
+	"orð": "fjárnámsgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárnámsgerð", "fjárnámsgerð", "fjárnámsgerð", "fjárnámsgerðar"],
+		"mg": ["fjárnámsgerðin", "fjárnámsgerðina", "fjárnámsgerðinni", "fjárnámsgerðarinnar"]
+	},
+	"kennistrengur": "no-fjárnámsgerð-kvk",
+	"hash": "859a727574c757322d9afd9995eff919da4d3c0454accec61bd7dcc2c7264615"
+}

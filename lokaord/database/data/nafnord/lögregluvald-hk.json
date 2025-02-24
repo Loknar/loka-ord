@@ -1,0 +1,27 @@
+{
+	"orð": "lögregluvald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "reglu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-regla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vald-hk"
+		}
+	],
+	"et": {
+		"ág": ["lögregluvald", "lögregluvald", "lögregluvaldi", "lögregluvalds"],
+		"mg": ["lögregluvaldið", "lögregluvaldið", "lögregluvaldinu", "lögregluvaldsins"]
+	},
+	"kennistrengur": "no-lögregluvald-hk",
+	"hash": "2318dfa098beee85b93990b6a0a169d446697d065b18e45a719f21e2220807e1"
+}

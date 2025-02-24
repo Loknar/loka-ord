@@ -1,0 +1,159 @@
+{
+	"orð": "lúka",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lúka",
+		"sagnbót": "lokið",
+		"boðháttur": {
+			"stýfður": "lúk",
+			"et": "lúktu",
+			"ft": "lúkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lýk", "lýkur", "lýkur"],
+					"ft": ["lúkum", "lúkið", "lúka"]
+				},
+				"þátíð": {
+					"et": ["lauk", "laukst", "lauk"],
+					"ft": ["lukum", "lukuð", "luku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lúki", "lúkir", "lúki"],
+					"ft": ["lúkum", "lúkið", "lúki"]
+				},
+				"þátíð": {
+					"et": ["lyki", "lykir", "lyki"],
+					"ft": ["lykjum", "lykjuð", "lykju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lýkur", "lýkur", "lýkur"],
+					"ft": ["lýkur", "lýkur", "lýkur"]
+				},
+				"þátíð": {
+					"et": ["lauk", "lauk", "lauk"],
+					"ft": ["lauk", "lauk", "lauk"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lúki", "lúki", "lúki"],
+					"ft": ["lúki", "lúki", "lúki"]
+				},
+				"þátíð": {
+					"et": ["lyki", "lyki", "lyki"],
+					"ft": ["lyki", "lyki", "lyki"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lýkurðu",
+					"ft": "lúkiði"
+				},
+				"þátíð": {
+					"et": "laukstu",
+					"ft": "lukuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lúkirðu",
+					"ft": "lúkiði"
+				},
+				"þátíð": {
+					"et": "lykirðu",
+					"ft": "lykjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lúkast",
+		"sagnbót": "lokist",
+		"boðháttur": {
+			"et": "lúkstu",
+			"ft": "lúkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lýkst", "lýkst", "lýkst"],
+					"ft": ["lúkumst", "lúkist", "lúkast"]
+				},
+				"þátíð": {
+					"et": ["laukst", "laukst", "laukst"],
+					"ft": ["lukumst", "lukust", "lukust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lúkist", "lúkist", "lúkist"],
+					"ft": ["lúkumst", "lúkist", "lúkist"]
+				},
+				"þátíð": {
+					"et": ["lykist", "lykist", "lykist"],
+					"ft": ["lykjumst", "lykjust", "lykjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lýkstu"
+				},
+				"þátíð": {
+					"et": "laukstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lúkistu"
+				},
+				"þátíð": {
+					"et": "lykistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lúkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lokinn", "lokinn", "loknum", "lokins"],
+					"kvk": ["lokin", "lokna", "lokinni", "lokinnar"],
+					"hk": ["lokið", "lokið", "loknu", "lokins"]
+				},
+				"ft": {
+					"kk": ["loknir", "lokna", "loknum", "lokinna"],
+					"kvk": ["loknar", "loknar", "loknum", "lokinna"],
+					"hk": ["lokin", "lokin", "loknum", "lokinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lokni", "lokna", "lokna", "lokna"],
+					"kvk": ["lokna", "loknu", "loknu", "loknu"],
+					"hk": ["lokna", "lokna", "lokna", "lokna"]
+				},
+				"ft": {
+					"kk": ["loknu", "loknu", "loknu", "loknu"],
+					"kvk": ["loknu", "loknu", "loknu", "loknu"],
+					"hk": ["loknu", "loknu", "loknu", "loknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lúka",
+	"hash": "7a697722d8b79eedf4223a45a197628867284941630dec315d9be3f611fbefd3"
+}

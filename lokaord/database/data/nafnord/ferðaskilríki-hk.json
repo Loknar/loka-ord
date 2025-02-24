@@ -1,0 +1,27 @@
+{
+	"orð": "ferðaskilríki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ríki-hk"
+		}
+	],
+	"ft": {
+		"ág": ["ferðaskilríki", "ferðaskilríki", "ferðaskilríkjum", "ferðaskilríkja"],
+		"mg": ["ferðaskilríkin", "ferðaskilríkin", "ferðaskilríkjunum", "ferðaskilríkjanna"]
+	},
+	"kennistrengur": "no-ferðaskilríki-hk",
+	"hash": "f56829918d0ab775f83fca7ca19c1719cf0a4c0de8dbabc66f6c266eb13ce809"
+}
