@@ -1,0 +1,135 @@
+{
+	"orð": "skota",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skot",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skot-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skota",
+		"sagnbót": "skotað",
+		"boðháttur": {
+			"stýfður": "skota",
+			"et": "skotaðu",
+			"ft": "skotið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skota", "skotar", "skotar"],
+					"ft": ["skotum", "skotið", "skota"]
+				},
+				"þátíð": {
+					"et": ["skotaði", "skotaðir", "skotaði"],
+					"ft": ["skotuðum", "skotuðuð", "skotuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skoti", "skotir", "skoti"],
+					"ft": ["skotum", "skotið", "skoti"]
+				},
+				"þátíð": {
+					"et": ["skotaði", "skotaðir", "skotaði"],
+					"ft": ["skotuðum", "skotuðuð", "skotuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skotarðu",
+					"ft": "skotiði"
+				},
+				"þátíð": {
+					"et": "skotaðirðu",
+					"ft": "skotuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skotirðu",
+					"ft": "skotiði"
+				},
+				"þátíð": {
+					"et": "skotaðirðu",
+					"ft": "skotuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skotast",
+		"sagnbót": "skotast",
+		"boðháttur": {
+			"et": "skotastu",
+			"ft": "skotist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skotast", "skotast", "skotast"],
+					"ft": ["skotumst", "skotist", "skotast"]
+				},
+				"þátíð": {
+					"et": ["skotaðist", "skotaðist", "skotaðist"],
+					"ft": ["skotuðumst", "skotuðust", "skotuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skotist", "skotist", "skotist"],
+					"ft": ["skotumst", "skotist", "skotist"]
+				},
+				"þátíð": {
+					"et": ["skotaðist", "skotaðist", "skotaðist"],
+					"ft": ["skotuðumst", "skotuðust", "skotuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skotastu"
+				},
+				"þátíð": {
+					"et": "skotaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skotistu"
+				},
+				"þátíð": {
+					"et": "skotaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skotandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skotaður", "skotaðan", "skotuðum", "skotaðs"],
+					"kvk": ["skotuð", "skotaða", "skotaðri", "skotaðrar"],
+					"hk": ["skotað", "skotað", "skotuðu", "skotaðs"]
+				},
+				"ft": {
+					"kk": ["skotaðir", "skotaða", "skotuðum", "skotaðra"],
+					"kvk": ["skotaðar", "skotaðar", "skotuðum", "skotaðra"],
+					"hk": ["skotuð", "skotuð", "skotuðum", "skotaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skota",
+	"hash": "194d55d8c196530c931f28c21e5eb1171760733a697b2917ad235d01ea2b7b17"
+}
