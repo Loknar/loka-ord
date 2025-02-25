@@ -1,0 +1,35 @@
+{
+	"orð": "bókhaldsrannsókn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"mynd": "rann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rann-hk"
+		},
+		{
+			"kennistrengur": "no-sókn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókhaldsrannsókn", "bókhaldsrannsókn", "bókhaldsrannsókn", "bókhaldsrannsóknar"],
+		"mg": ["bókhaldsrannsóknin", "bókhaldsrannsóknina", "bókhaldsrannsókninni", "bókhaldsrannsóknarinnar"]
+	},
+	"ft": {
+		"ág": ["bókhaldsrannsóknir", "bókhaldsrannsóknir", "bókhaldsrannsóknum", "bókhaldsrannsókna"],
+		"mg": ["bókhaldsrannsóknirnar", "bókhaldsrannsóknirnar", "bókhaldsrannsóknunum", "bókhaldsrannsóknanna"]
+	},
+	"kennistrengur": "no-bókhaldsrannsókn-kvk",
+	"hash": "be44c81aff8499d011ced92de074765b615970f04efa9474d21bca38ef723edf"
+}

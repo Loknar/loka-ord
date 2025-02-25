@@ -1,0 +1,65 @@
+{
+	"orð": "ráðgast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ráðg",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-ráða"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ráðgast",
+		"sagnbót": "ráðgast",
+		"boðháttur": {
+			"et": "ráðgastu",
+			"ft": "ráðgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ráðgast", "ráðgast", "ráðgast"],
+					"ft": ["ráðgumst", "ráðgist", "ráðgast"]
+				},
+				"þátíð": {
+					"et": ["ráðgaðist", "ráðgaðist", "ráðgaðist"],
+					"ft": ["ráðguðumst", "ráðguðust", "ráðguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ráðgist", "ráðgist", "ráðgist"],
+					"ft": ["ráðgumst", "ráðgist", "ráðgist"]
+				},
+				"þátíð": {
+					"et": ["ráðgaðist", "ráðgaðist", "ráðgaðist"],
+					"ft": ["ráðguðumst", "ráðguðust", "ráðguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ráðgastu"
+				},
+				"þátíð": {
+					"et": "ráðgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ráðgistu"
+				},
+				"þátíð": {
+					"et": "ráðgaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ráðgast",
+	"hash": "34f8f72df130632a497eca5c3b08885102a202f9355d6afc6e7c6b29b6f5d00e"
+}
