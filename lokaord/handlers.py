@@ -4097,7 +4097,7 @@ class MyIndentJSONEncoder(json.JSONEncoder):
 			'ág', 'mg', 'kk', 'kvk', 'hk', 'et', 'ft', 'stýrir', 'fylgiorð', 'beygingar'
 		]
 		state = 0
-		for s in super(MyIndentJSONEncoder, self).iterencode(o, _one_shot=_one_shot):
+		for s in super(MyIndentJSONEncoder, self).iterencode(o, _one_shot=False):
 			if state == 0:
 				if s.startswith('"') and s.endswith('"') and s[1:-1] in keys_to_differently_encode:
 					state += 1
