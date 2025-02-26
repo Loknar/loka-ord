@@ -1,0 +1,48 @@
+{
+	"orð": "ólögskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ólögskyldur", "ólögskyldan", "ólögskyldum", "ólögskylds"],
+				"kvk": ["ólögskyld", "ólögskylda", "ólögskyldri", "ólögskyldrar"],
+				"hk": ["ólögskylt", "ólögskylt", "ólögskyldu", "ólögskylds"]
+			},
+			"ft": {
+				"kk": ["ólögskyldir", "ólögskylda", "ólögskyldum", "ólögskyldra"],
+				"kvk": ["ólögskyldar", "ólögskyldar", "ólögskyldum", "ólögskyldra"],
+				"hk": ["ólögskyld", "ólögskyld", "ólögskyldum", "ólögskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ólögskyldi", "ólögskylda", "ólögskylda", "ólögskylda"],
+				"kvk": ["ólögskylda", "ólögskyldu", "ólögskyldu", "ólögskyldu"],
+				"hk": ["ólögskylda", "ólögskylda", "ólögskylda", "ólögskylda"]
+			},
+			"ft": {
+				"kk": ["ólögskyldu", "ólögskyldu", "ólögskyldu", "ólögskyldu"],
+				"kvk": ["ólögskyldu", "ólögskyldu", "ólögskyldu", "ólögskyldu"],
+				"hk": ["ólögskyldu", "ólögskyldu", "ólögskyldu", "ólögskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ólögskyldur",
+	"hash": "0d42f2137e1a2d23fa13f89648ce143c19fe204ac3022913b6a1b38f96e6ee01"
+}

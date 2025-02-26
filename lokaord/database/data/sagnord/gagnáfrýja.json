@@ -1,0 +1,91 @@
+{
+	"orð": "gagnáfrýja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gagn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-gagn-ó"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-frýja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gagnáfrýja",
+		"sagnbót": "gagnáfrýjað",
+		"boðháttur": {
+			"stýfður": "gagnáfrýja",
+			"et": "gagnáfrýjaðu",
+			"ft": "gagnáfrýið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gagnáfrýja", "gagnáfrýjar", "gagnáfrýjar"],
+					"ft": ["gagnáfrýjum", "gagnáfrýið", "gagnáfrýja"]
+				},
+				"þátíð": {
+					"et": ["gagnáfrýjaði", "gagnáfrýjaðir", "gagnáfrýjaði"],
+					"ft": ["gagnáfrýjuðum", "gagnáfrýjuðuð", "gagnáfrýjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gagnáfrýji", "gagnáfrýjir", "gagnáfrýji"],
+					"ft": ["gagnáfrýjum", "gagnáfrýjið", "gagnáfrýji"]
+				},
+				"þátíð": {
+					"et": ["gagnáfrýjaði", "gagnáfrýjaðir", "gagnáfrýjaði"],
+					"ft": ["gagnáfrýjuðum", "gagnáfrýjuðuð", "gagnáfrýjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gagnáfrýjarðu",
+					"ft": "gagnáfrýiði"
+				},
+				"þátíð": {
+					"et": "gagnáfrýjaðirðu",
+					"ft": "gagnáfrýuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gagnáfrýirðu",
+					"ft": "gagnáfrýiði"
+				},
+				"þátíð": {
+					"et": "gagnáfrýjaðirðu",
+					"ft": "gagnáfrýuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gagnáfrýjaður", "gagnáfrýjaðan", "gagnáfrýjuðum", "gagnáfrýjaðs"],
+					"kvk": ["gagnáfrýjuð", "gagnáfrýjaða", "gagnáfrýjaðri", "gagnáfrýjaðrar"],
+					"hk": ["gagnáfrýjað", "gagnáfrýjað", "gagnáfrýjuðu", "gagnáfrýjaðs"]
+				},
+				"ft": {
+					"kk": ["gagnáfrýjaðir", "gagnáfrýjaða", "gagnáfrýjuðum", "gagnáfrýjaðra"],
+					"kvk": ["gagnáfrýjaðar", "gagnáfrýjaðar", "gagnáfrýjuðum", "gagnáfrýjaðra"],
+					"hk": ["gagnáfrýjuð", "gagnáfrýjuð", "gagnáfrýjuðum", "gagnáfrýjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gagnáfrýja",
+	"hash": "ca844591ac1badbe20204672122883e054313868f5efbaff36f3a6fdc13e831a"
+}

@@ -1,6 +1,16 @@
 {
 	"orð": "spila",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spil-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "spila",
 		"sagnbót": "spilað",
@@ -44,7 +54,7 @@
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "spiliðru",
+					"et": "spilirðu",
 					"ft": "spiliði"
 				},
 				"þátíð": {
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "spilast",
 		"sagnbót": "spilast",
+		"boðháttur": {
+			"et": "spilastu",
+			"ft": "spilist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -99,8 +113,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "spilandi"
+		"nútíðar": "spilandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spilaður", "spilaðan", "spiluðum", "spilaðs"],
+					"kvk": ["spiluð", "spilaða", "spilaðri", "spilaðrar"],
+					"hk": ["spilað", "spilað", "spiluðu", "spilaðs"]
+				},
+				"ft": {
+					"kk": ["spilaðir", "spilaða", "spiluðum", "spilaðra"],
+					"kvk": ["spilaðar", "spilaðar", "spiluðum", "spilaðra"],
+					"hk": ["spiluð", "spiluð", "spiluðum", "spilaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["spilaði", "spilaða", "spilaða", "spilaða"],
+					"kvk": ["spilaða", "spiluðu", "spiluðu", "spiluðu"],
+					"hk": ["spilaða", "spilaða", "spilaða", "spilaða"]
+				},
+				"ft": {
+					"kk": ["spiluðu", "spiluðu", "spiluðu", "spiluðu"],
+					"kvk": ["spiluðu", "spiluðu", "spiluðu", "spiluðu"],
+					"hk": ["spiluðu", "spiluðu", "spiluðu", "spiluðu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-spila",
-	"hash": "daf0c28bd53b3f98af2b5a3680efc884a1b9c754a41fdd693f522a098c52f6ad"
+	"hash": "f8ed4dcf6230eb1992f9f58fb67590a7a87bd383d89b420110d5f04b6988d664"
 }

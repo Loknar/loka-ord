@@ -1,0 +1,30 @@
+{
+	"orð": "skuldabréfamál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"et": {
+		"ág": ["skuldabréfamál", "skuldabréfamál", "skuldabréfamáli", "skuldabréfamáls"],
+		"mg": ["skuldabréfamálið", "skuldabréfamálið", "skuldabréfamálinu", "skuldabréfamálsins"]
+	},
+	"ft": {
+		"ág": ["skuldabréfamál", "skuldabréfamál", "skuldabréfamálum", "skuldabréfamála"],
+		"mg": ["skuldabréfamálin", "skuldabréfamálin", "skuldabréfamálunum", "skuldabréfamálanna"]
+	},
+	"kennistrengur": "no-skuldabréfamál-hk",
+	"hash": "c3cf58eaffa6dfef11e9dd0299b847889b0e3d8fe9c987bb3acab7b465a339e1"
+}

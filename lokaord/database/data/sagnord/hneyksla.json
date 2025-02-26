@@ -1,0 +1,135 @@
+{
+	"orð": "hneyksla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hneyksl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hneyksli-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hneyksla",
+		"sagnbót": "hneykslað",
+		"boðháttur": {
+			"stýfður": "hneyksla",
+			"et": "hneykslaðu",
+			"ft": "hneykslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hneyksla", "hneykslar", "hneykslar"],
+					"ft": ["hneykslum", "hneykslið", "hneyksla"]
+				},
+				"þátíð": {
+					"et": ["hneykslaði", "hneykslaðir", "hneykslaði"],
+					"ft": ["hneyksluðum", "hneyksluðuð", "hneyksluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hneyksli", "hneykslir", "hneyksli"],
+					"ft": ["hneykslum", "hneykslið", "hneyksli"]
+				},
+				"þátíð": {
+					"et": ["hneykslaði", "hneykslaðir", "hneykslaði"],
+					"ft": ["hneyksluðum", "hneyksluðuð", "hneyksluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hneykslarðu",
+					"ft": "hneyksliði"
+				},
+				"þátíð": {
+					"et": "hneykslaðirðu",
+					"ft": "hneyksluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hneykslirðu",
+					"ft": "hneyksliði"
+				},
+				"þátíð": {
+					"et": "hneykslaðirðu",
+					"ft": "hneyksluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hneykslast",
+		"sagnbót": "hneykslast",
+		"boðháttur": {
+			"et": "hneykslastu",
+			"ft": "hneykslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hneykslast", "hneykslast", "hneykslast"],
+					"ft": ["hneykslumst", "hneykslist", "hneykslast"]
+				},
+				"þátíð": {
+					"et": ["hneykslaðist", "hneykslaðist", "hneykslaðist"],
+					"ft": ["hneyksluðumst", "hneyksluðust", "hneyksluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hneykslist", "hneykslist", "hneykslist"],
+					"ft": ["hneykslumst", "hneykslist", "hneykslist"]
+				},
+				"þátíð": {
+					"et": ["hneykslaðist", "hneykslaðist", "hneykslaðist"],
+					"ft": ["hneyksluðumst", "hneyksluðust", "hneyksluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hneykslastu"
+				},
+				"þátíð": {
+					"et": "hneykslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hneykslistu"
+				},
+				"þátíð": {
+					"et": "hneykslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hneykslandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hneykslaður", "hneykslaðan", "hneyksluðum", "hneykslaðs"],
+					"kvk": ["hneyksluð", "hneykslaða", "hneykslaðri", "hneykslaðrar"],
+					"hk": ["hneykslað", "hneykslað", "hneyksluðu", "hneykslaðs"]
+				},
+				"ft": {
+					"kk": ["hneykslaðir", "hneykslaða", "hneyksluðum", "hneykslaðra"],
+					"kvk": ["hneykslaðar", "hneykslaðar", "hneyksluðum", "hneykslaðra"],
+					"hk": ["hneyksluð", "hneyksluð", "hneyksluðum", "hneykslaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hneyksla",
+	"hash": "cb3d63b7d4395f45b3b68e9bbd7e661b204e52ee7b6f94074ee1f23e791dc168"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "fjárviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fjárviðskipti", "fjárviðskipti", "fjárviðskiptum", "fjárviðskipta"],
+		"mg": ["fjárviðskiptin", "fjárviðskiptin", "fjárviðskiptunum", "fjárviðskiptanna"]
+	},
+	"kennistrengur": "no-fjárviðskipti-hk",
+	"hash": "209cf6afb5bebba9e1a89a31daabba24d0aa1ab385c1f3e11532942e710abbe7"
+}
