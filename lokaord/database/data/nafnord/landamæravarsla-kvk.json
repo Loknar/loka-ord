@@ -1,0 +1,27 @@
+{
+	"orð": "landamæravarsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "landa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "mæra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mæri-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-varsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landamæravarsla", "landamæravörslu", "landamæravörslu", "landamæravörslu"],
+		"mg": ["landamæravarslan", "landamæravörsluna", "landamæravörslunni", "landamæravörslunnar"]
+	},
+	"kennistrengur": "no-landamæravarsla-kvk",
+	"hash": "86e79c2fffce84e0780882aba3f8d5c0e43f40e0b2d73bdba5b84875f510a1ab"
+}

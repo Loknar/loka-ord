@@ -1,0 +1,37 @@
+{
+	"orð": "umboðssöluviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["umboðssöluviðskipti", "umboðssöluviðskipti", "umboðssöluviðskiptum", "umboðssöluviðskipta"],
+		"mg": ["umboðssöluviðskiptin", "umboðssöluviðskiptin", "umboðssöluviðskiptunum", "umboðssöluviðskiptanna"]
+	},
+	"kennistrengur": "no-umboðssöluviðskipti-hk",
+	"hash": "14cf5b4e90828d7b017031c3949dd1fa96508a18e47f8194053cc55e37dfb441"
+}

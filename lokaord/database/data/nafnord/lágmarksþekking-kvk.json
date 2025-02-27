@@ -1,0 +1,27 @@
+{
+	"orð": "lágmarksþekking",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þekking-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksþekking", "lágmarksþekkingu", "lágmarksþekkingu", "lágmarksþekkingar"],
+		"mg": ["lágmarksþekkingin", "lágmarksþekkinguna", "lágmarksþekkingunni", "lágmarksþekkingarinnar"]
+	},
+	"kennistrengur": "no-lágmarksþekking-kvk",
+	"hash": "bf6f7a81ec99333f83aef0e58e554cb32bc68a5c41e6ddd37fa70ad9c5357804"
+}
