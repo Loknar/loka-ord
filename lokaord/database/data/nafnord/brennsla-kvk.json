@@ -2,6 +2,17 @@
 	"orð": "brennsla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "brenn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-brenna-_brenndi_"
+		},
+		{
+			"leiðir": "sl",
+			"kennistrengur": "no-a-kvk-ó-_na_"
+		}
+	],
 	"et": {
 		"ág": ["brennsla", "brennslu", "brennslu", "brennslu"],
 		"mg": ["brennslan", "brennsluna", "brennslunni", "brennslunnar"]
@@ -11,5 +22,5 @@
 		"mg": ["brennslurnar", "brennslurnar", "brennslunum", "brennslnanna"]
 	},
 	"kennistrengur": "no-brennsla-kvk",
-	"hash": "4b1a0f3ed3ac92d756dc1b885ed948397529211bcb9537165e7ff46659e5e0a5"
+	"hash": "cbb5a065987448681f0245b1ba415fd7d09ff3a0047bc78af5097f8aac030c7f"
 }

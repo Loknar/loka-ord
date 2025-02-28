@@ -1,0 +1,25 @@
+{
+	"orð": "byggingarvara",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"kennistrengur": "no-vara-kvk"
+		}
+	],
+	"et": {
+		"ág": ["byggingarvara", "byggingarvöru", "byggingarvöru", "byggingarvöru"],
+		"mg": ["byggingarvaran", "byggingarvöruna", "byggingarvörunni", "byggingarvörunnar"]
+	},
+	"ft": {
+		"ág": ["byggingarvörur", "byggingarvörur", "byggingarvörum", "byggingarvara"],
+		"mg": ["byggingarvörurnar", "byggingarvörurnar", "byggingarvörunum", "byggingarvaranna"]
+	},
+	"kennistrengur": "no-byggingarvara-kvk",
+	"hash": "f37d7deb97ab3d403ec20aa19e1d52772abcbb46e5173abd6a1ab2d7a10813aa"
+}

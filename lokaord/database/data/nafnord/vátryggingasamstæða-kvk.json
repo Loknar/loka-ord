@@ -1,0 +1,35 @@
+{
+	"orð": "vátryggingasamstæða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vátryggingasamstæða", "vátryggingasamstæðu", "vátryggingasamstæðu", "vátryggingasamstæðu"],
+		"mg": ["vátryggingasamstæðan", "vátryggingasamstæðuna", "vátryggingasamstæðunni", "vátryggingasamstæðunnar"]
+	},
+	"ft": {
+		"ág": ["vátryggingasamstæður", "vátryggingasamstæður", "vátryggingasamstæðum", "vátryggingasamstæðna"],
+		"mg": ["vátryggingasamstæðurnar", "vátryggingasamstæðurnar", "vátryggingasamstæðunum", "vátryggingasamstæðnanna"]
+	},
+	"kennistrengur": "no-vátryggingasamstæða-kvk",
+	"hash": "1a6a5459c6f60a4ed3653ed1e175e0e64abf677d2d30aa4fee151106cf4f56c1"
+}

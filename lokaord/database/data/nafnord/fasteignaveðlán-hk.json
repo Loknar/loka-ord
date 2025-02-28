@@ -1,0 +1,30 @@
+{
+	"orð": "fasteignaveðlán",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fasteigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"mynd": "veð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veð-hk"
+		},
+		{
+			"kennistrengur": "no-lán-hk"
+		}
+	],
+	"et": {
+		"ág": ["fasteignaveðlán", "fasteignaveðlán", "fasteignaveðláni", "fasteignaveðláns"],
+		"mg": ["fasteignaveðlánið", "fasteignaveðlánið", "fasteignaveðláninu", "fasteignaveðlánsins"]
+	},
+	"ft": {
+		"ág": ["fasteignaveðlán", "fasteignaveðĺán", "fasteignaveðlánum", "fasteignaveðlána"],
+		"mg": ["fasteignaveðlánin", "fasteignaveðlánin", "fasteignaveðlánunum", "fasteignaveðlánanna"]
+	},
+	"kennistrengur": "no-fasteignaveðlán-hk",
+	"hash": "d016a88536595ae1adfdffe3c707755cffd88d6d691dcccfcb0845e5b26cc946"
+}
