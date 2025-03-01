@@ -1,0 +1,43 @@
+{
+	"orð": "kortatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "korta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kortatengdur", "kortatengdan", "kortatengdum", "kortatengds"],
+				"kvk": ["kortatengd", "kortatengda", "kortatengdri", "kortatengdrar"],
+				"hk": ["kortatengt", "kortatengt", "kortatengdu", "kortatengds"]
+			},
+			"ft": {
+				"kk": ["kortatengdir", "kortatengda", "kortatengdum", "kortatengdra"],
+				"kvk": ["kortatengdar", "kortatengdar", "kortatengdum", "kortatengdra"],
+				"hk": ["kortatengd", "kortatengd", "kortatengdum", "kortatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kortatengdi", "kortatengda", "kortatengda", "kortatengda"],
+				"kvk": ["kortatengda", "kortatengdu", "kortatengdu", "kortatengdu"],
+				"hk": ["kortatengda", "kortatengda", "kortatengda", "kortatengda"]
+			},
+			"ft": {
+				"kk": ["kortatengdu", "kortatengdu", "kortatengdu", "kortatengdu"],
+				"kvk": ["kortatengdu", "kortatengdu", "kortatengdu", "kortatengdu"],
+				"hk": ["kortatengdu", "kortatengdu", "kortatengdu", "kortatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kortatengdur",
+	"hash": "e64ff69cfef8507947981a602fd93e5439dde9b07a565728b8c8367ad6fc1d86"
+}

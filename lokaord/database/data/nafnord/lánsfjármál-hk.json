@@ -1,0 +1,27 @@
+{
+	"orð": "lánsfjármál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "láns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"ft": {
+		"ág": ["lánsfjármál", "lánsfjármál", "lánsfjármálum", "lánsfjármála"],
+		"mg": ["lánsfjármálin", "lánsfjármálin", "lánsfjármálunum", "lánsfjármálanna"]
+	},
+	"kennistrengur": "no-lánsfjármál-hk",
+	"hash": "c7a3637ce01c776a804a4b1ea2fb1e3737063ab246a1dbcc2988d5f0e261f188"
+}

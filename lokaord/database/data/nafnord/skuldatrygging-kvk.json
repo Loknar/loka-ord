@@ -1,0 +1,25 @@
+{
+	"orð": "skuldatrygging",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-trygging-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldatrygging", "skuldatryggingu", "skuldatryggingu", "skuldatryggingar"],
+		"mg": ["skuldatryggingin", "skuldatrygginguna", "skuldatryggingunni", "skuldatryggingarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldatryggingar", "skuldatryggingar", "skuldatryggingum", "skuldatrygginga"],
+		"mg": ["skuldatryggingarnar", "skuldatryggingarnar", "skuldatryggingunum", "skuldatrygginganna"]
+	},
+	"kennistrengur": "no-skuldatrygging-kvk",
+	"hash": "cdf412e3bbedb7026081d188a218ba110beb64de3f2987d6ac13a13930316e6e"
+}
