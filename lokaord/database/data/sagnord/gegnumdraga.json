@@ -1,0 +1,87 @@
+{
+	"orð": "gegnumdraga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gegnum",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-gegnum"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-draga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gegnumdraga",
+		"sagnbót": "gegnumdregið",
+		"boðháttur": {
+			"stýfður": "gegnumdrag",
+			"et": "gegnumdragðu",
+			"ft": "gegnumdragið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gegnumdreg", "gegnumdregur", "gegnumdregur"],
+					"ft": ["gegnumdrögum", "gegnumdragið", "gegnumdraga"]
+				},
+				"þátíð": {
+					"et": ["gegnumdró", "gegnumdróst", "gegnumdró"],
+					"ft": ["gegnumdrógum", "gegnumdróguð", "gegnumdrógu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gegnumdragi", "gegnumdragir", "gegnumdragi"],
+					"ft": ["gegnumdrögum", "gegnumdragið", "gegnumdragi"]
+				},
+				"þátíð": {
+					"et": ["gegnumdrægi", "gegnumdrægir", "gegnumdrægi"],
+					"ft": ["gegnumdrægjum", "gegnumdrægjuð", "gegnumdrægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gegnumdregurðu",
+					"ft": "gegnumdragiði"
+				},
+				"þátíð": {
+					"et": "gegnumdróstu",
+					"ft": "gegnumdróguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gegnumdragirðu",
+					"ft": "gegnumdragiði"
+				},
+				"þátíð": {
+					"et": "gegnumdrægirðu",
+					"ft": "gegnumdrægjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gegnumdragandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gegnumdreginn", "gegnumdreginn", "gegnumdregnum", "gegnumdregins"],
+					"kvk": ["gegnumdregin", "gegnumdregna", "gegnumdreginni", "gegnumdreginnar"],
+					"hk": ["gegnumdregið", "gegnumdregið", "gegnumdregnu", "gegnumdregins"]
+				},
+				"ft": {
+					"kk": ["gegnumdregnir", "gegnumdregna", "gegnumdregnum", "gegnumdreginna"],
+					"kvk": ["gegnumdregnar", "gegnumdregnar", "gegnumdregnum", "gegnumdreginna"],
+					"hk": ["gegnumdregin", "gegnumdregin", "gegnumdregnum", "gegnumdreginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gegnumdraga",
+	"hash": "dec7fd521b50750b27c3eef668a76d3c97a8a021f9501d9e8faba8d8f62349ac"
+}

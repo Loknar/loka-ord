@@ -1,0 +1,135 @@
+{
+	"orð": "hraðrita",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrað",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hraður"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-rita"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hraðrita",
+		"sagnbót": "hraðritað",
+		"boðháttur": {
+			"stýfður": "hraðrita",
+			"et": "hraðritaðu",
+			"ft": "hraðritið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hraðrita", "hraðritar", "hraðritar"],
+					"ft": ["hraðritum", "hraðritið", "hraðrita"]
+				},
+				"þátíð": {
+					"et": ["hraðritaði", "hraðritaðir", "hraðritaði"],
+					"ft": ["hraðrituðum", "hraðrituðuð", "hraðrituðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hraðriti", "hraðritir", "hraðriti"],
+					"ft": ["hraðritum", "hraðritið", "hraðriti"]
+				},
+				"þátíð": {
+					"et": ["hraðritaði", "hraðritaðir", "hraðritaði"],
+					"ft": ["hraðrituðum", "hraðrituðuð", "hraðrituðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hraðritarðu",
+					"ft": "hraðritiði"
+				},
+				"þátíð": {
+					"et": "hraðritaðirðu",
+					"ft": "hraðrituðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hraðritirðu",
+					"ft": "hraðritiði"
+				},
+				"þátíð": {
+					"et": "hraðritaðirðu",
+					"ft": "hraðrituðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hraðritast",
+		"sagnbót": "hraðritast",
+		"boðháttur": {
+			"et": "hraðritastu",
+			"ft": "hraðritist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hraðritast", "hraðritast", "hraðritast"],
+					"ft": ["hraðritumst", "hraðritist", "hraðritast"]
+				},
+				"þátíð": {
+					"et": ["hraðritaðist", "hraðritaðist", "hraðritaðist"],
+					"ft": ["hraðrituðumst", "hraðrituðust", "hraðrituðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hraðritist", "hraðritist", "hraðritist"],
+					"ft": ["hraðritumst", "hraðritist", "hraðritist"]
+				},
+				"þátíð": {
+					"et": ["hraðritaðist", "hraðritaðist", "hraðritaðist"],
+					"ft": ["hraðrituðumst", "hraðrituðust", "hraðrituðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hraðritastu"
+				},
+				"þátíð": {
+					"et": "hraðritaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hraðritistu"
+				},
+				"þátíð": {
+					"et": "hraðritaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hraðritandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hraðritaður", "hraðritaðan", "hraðrituðum", "hraðritaðs"],
+					"kvk": ["hraðrituð", "hraðritaða", "hraðritaðri", "hraðritaðrar"],
+					"hk": ["hraðritað", "hraðritað", "hraðrituðu", "hraðritaðs"]
+				},
+				"ft": {
+					"kk": ["hraðritaðir", "hraðritaða", "hraðrituðum", "hraðritaðra"],
+					"kvk": ["hraðritaðar", "hraðritaðar", "hraðrituðum", "hraðritaðra"],
+					"hk": ["hraðrituð", "hraðrituð", "hraðrituðum", "hraðritaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hraðrita",
+	"hash": "28466e28c46dc1b995bde279deb1aa1c0cccadd9e97e75675ee05b899d8f14d4"
+}

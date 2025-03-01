@@ -1,0 +1,91 @@
+{
+	"orð": "fortala",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-tala"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fortala",
+		"sagnbót": "fortalað",
+		"boðháttur": {
+			"stýfður": "fortala",
+			"et": "fortalaðu",
+			"ft": "fortalið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fortala", "fortalar", "fortalar"],
+					"ft": ["fortölum", "fortalið", "fortala"]
+				},
+				"þátíð": {
+					"et": ["fortalaði", "fortalaðir", "fortalaði"],
+					"ft": ["fortöluðum", "fortöluðuð", "fortöluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fortali", "fortalir", "fortali"],
+					"ft": ["fortölum", "fortalið", "fortali"]
+				},
+				"þátíð": {
+					"et": ["fortalaði", "fortalaðir", "fortalaði"],
+					"ft": ["fortöluðum", "fortöluðuð", "fortöluðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fortalast",
+		"sagnbót": "fortalast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fortalast", "fortalast", "fortalast"],
+					"ft": ["fortölumst", "fortalist", "fortalast"]
+				},
+				"þátíð": {
+					"et": ["fortalaðist", "fortalaðist", "fortalaðist"],
+					"ft": ["fortöluðumst", "fortöluðust", "fortöluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fortalist", "fortalist", "fortalist"],
+					"ft": ["fortölumst", "fortalist", "fortalist"]
+				},
+				"þátíð": {
+					"et": ["fortalaðist", "fortalaðist", "fortalaðist"],
+					"ft": ["fortöluðumst", "fortöluðust", "fortöluðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fortalandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fortalaður", "fortalaðan", "fortöluðum", "fortalaðs"],
+					"kvk": ["fortöluð", "fortalaða", "fortalaðri", "fortalaðrar"],
+					"hk": ["fortalað", "fortalað", "fortöluðu", "fortalaðs"]
+				},
+				"ft": {
+					"kk": ["fortalaðir", "fortalaða", "fortöluðum", "fortalaðra"],
+					"kvk": ["fortalaðar", "fortalaðar", "fortöluðum", "fortalaðra"],
+					"hk": ["fortöluð", "fortöluð", "fortöluðum", "fortalaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fortala",
+	"hash": "5a264eb44d3c78e90a4f61d6a4fe2b5a39562cdd02e523df26d3a130e7261610"
+}
