@@ -1,0 +1,27 @@
+{
+	"orð": "Landkaupasjóður",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "kaupa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-sjóður-kk"
+		}
+	],
+	"et": {
+		"ág": ["Landkaupasjóður", "Landkaupasjóð", "Landkaupasjóði", "Landkaupasjóðs"]
+	},
+	"kennistrengur": "sérn.ön-Landkaupasjóður-kk",
+	"hash": "d460bf2e944c82511d10823adc4367e025e7b23c8e24055d9380ada91b51e112"
+}
