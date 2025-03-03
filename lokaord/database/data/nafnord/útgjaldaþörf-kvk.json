@@ -1,0 +1,27 @@
+{
+	"orð": "útgjaldaþörf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "gjalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þörf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["útgjaldaþörf", "útgjaldaþörf", "útgjaldaþörf", "útgjaldaþarfar"],
+		"mg": ["útgjaldaþörfin", "útgjaldaþörfina", "útgjaldaþörfinni", "útgjaldaþarfarinnar"]
+	},
+	"kennistrengur": "no-útgjaldaþörf-kvk",
+	"hash": "3e9e1f4bebe37e081d382c54545126a5dc297e7d924e7fbbd6ddaf662f657223"
+}

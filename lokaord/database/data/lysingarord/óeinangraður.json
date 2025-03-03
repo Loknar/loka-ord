@@ -1,0 +1,53 @@
+{
+	"orð": "óeinangraður",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "angr",
+			"samsetning": "stofn",
+			"kennistrengur": "so-angra"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["óeinangraður", "óeinangraðan", "óeinangruðum", "óeinangraðs"],
+				"kvk": ["óeinangruð", "óeinangraða", "óeinangraðri", "óeinangraðrar"],
+				"hk": ["óeinangrað", "óeinangrað", "óeinangruðu", "óeinangraðs"]
+			},
+			"ft": {
+				"kk": ["óeinangraðir", "óeinangraða", "óeinangruðum", "óeinangraðra"],
+				"kvk": ["óeinangraðar", "óeinangraðar", "óeinangruðum", "óeinangraðra"],
+				"hk": ["óeinangruð", "óeinangruð", "óeinangruðum", "óeinangraðra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["óeinangraði", "óeinangraða", "óeinangraða", "óeinangraða"],
+				"kvk": ["óeinangraða", "óeinangruðu", "óeinangruðu", "óeinangruðu"],
+				"hk": ["óeinangraða", "óeinangraða", "óeinangraða", "óeinangraða"]
+			},
+			"ft": {
+				"kk": ["óeinangruðu", "óeinangruðu", "óeinangruðu", "óeinangruðu"],
+				"kvk": ["óeinangruðu", "óeinangruðu", "óeinangruðu", "óeinangruðu"],
+				"hk": ["óeinangruðu", "óeinangruðu", "óeinangruðu", "óeinangruðu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-óeinangraður",
+	"hash": "840b6515a9fb5c88c88958dd33a6a920af2b0f9e5777317d9fe22aa63d437827"
+}

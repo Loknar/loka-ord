@@ -1,0 +1,98 @@
+{
+	"orð": "vangreiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "van",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-van-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-greiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vangreiða",
+		"sagnbót": "vangreitt",
+		"boðháttur": {
+			"stýfður": "vangreið",
+			"et": "vangreiddu",
+			"ft": "vangreiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vangreiði", "vangreiðir", "vangreiðir"],
+					"ft": ["vangreiðum", "vangreiðið", "vangreiða"]
+				},
+				"þátíð": {
+					"et": ["vangreiddi", "vangreiddir", "vangreiddi"],
+					"ft": ["vangreiddum", "vangreidduð", "vangreiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vangreiði", "vangreiðir", "vangreiði"],
+					"ft": ["vangreiðum", "vangreiðið", "vangreiði"]
+				},
+				"þátíð": {
+					"et": ["vangreiddi", "vangreiddir", "vangreiddi"],
+					"ft": ["vangreddum", "vangreidduð", "vangreiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vangreiðirðu",
+					"ft": "vangreiðiði"
+				},
+				"þátíð": {
+					"et": "vangreiddirðu",
+					"ft": "vangreidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vangreiðirðu",
+					"ft": "vangreiðiði"
+				},
+				"þátíð": {
+					"et": "vangreiddirðu",
+					"ft": "vangreidduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vangreiddur", "vangreiddan", "vangreiddum", "vangreidds"],
+					"kvk": ["vangreidd", "vangreidda", "vangreiddri", "vangreiddrar"],
+					"hk": ["vangreitt", "vangreitt", "vangreiddu", "vangreidds"]
+				},
+				"ft": {
+					"kk": ["vangreiddir", "vangreidda", "vangreiddum", "vangreiddra"],
+					"kvk": ["vangreiddar", "vangreiddar", "vangreiddum", "vangreiddra"],
+					"hk": ["vangreidd", "vangreidd", "vangreiddum", "vangreiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vangreiddi", "vangreidda", "vangreidda", "vangreidda"],
+					"kvk": ["vangreidda", "vangreiddu", "vangreiddu", "vangreiddu"],
+					"hk": ["vangreidda", "vangreidda", "vangreidda", "vangreidda"]
+				},
+				"ft": {
+					"kk": ["vangreiddu", "vangreiddu", "vangreiddu", "vangreiddu"],
+					"kvk": ["vangreiddu", "vangreiddu", "vangreiddu", "vangreiddu"],
+					"hk": ["vangreiddu", "vangreiddu", "vangreiddu", "vangreiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vangreiða",
+	"hash": "745f6fe2b71740de85e92ef5ccaf2a20c0a1a4146ab20a38676685fe5f9c76e2"
+}

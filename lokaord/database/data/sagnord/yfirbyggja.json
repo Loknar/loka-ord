@@ -1,0 +1,99 @@
+{
+	"orð": "yfirbyggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-byggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirbyggja",
+		"sagnbót": "yfirbyggt",
+		"boðháttur": {
+			"stýfður": "yfirbygg",
+			"et": "yfirbyggðu",
+			"ft": "yfirbyggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirbyggi", "yfirbyggir", "yfirbyggir"],
+					"ft": ["yfirbyggjum", "yfirbyggið", "yfirbyggja"]
+				},
+				"þátíð": {
+					"et": ["yfirbyggði", "yfirbyggðir", "yfirbyggði"],
+					"ft": ["yfirbyggðum", "yfirbyggðuð", "yfirbyggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirbyggi", "yfirbyggir", "yfirbyggi"],
+					"ft": ["yfirbyggjum", "yfirbyggið", "yfirbyggi"]
+				},
+				"þátíð": {
+					"et": ["yfirbyggði", "yfirbyggðir", "yfirbyggði"],
+					"ft": ["yfirbyggðum", "yfirbyggðuð", "yfirbyggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirbyggirðu",
+					"ft": "yfirbyggiði"
+				},
+				"þátíð": {
+					"et": "yfirbyggðirðu",
+					"ft": "yfirbyggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirbyggirðu",
+					"ft": "yfirbyggiði"
+				},
+				"þátíð": {
+					"et": "yfirbyggðirðu",
+					"ft": "yfirbyggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirbyggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirbyggður", "yfirbyggðan", "yfirbyggðum", "yfirbyggðs"],
+					"kvk": ["yfirbyggð", "yfirbyggða", "yfirbyggðri", "yfirbyggðrar"],
+					"hk": ["yfirbyggt", "yfirbyggt", "yfirbyggðu", "yfirbyggðs"]
+				},
+				"ft": {
+					"kk": ["yfirbyggðir", "yfirbyggða", "yfirbyggðum", "yfirbyggðra"],
+					"kvk": ["yfirbyggðar", "yfirbyggðar", "yfirbyggðum", "yfirbyggðra"],
+					"hk": ["yfirbyggð", "yfirbyggð", "yfirbyggðum", "yfirbyggðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["yfirbyggði", "yfirbyggða", "yfirbyggða", "yfirbyggða"],
+					"kvk": ["yfirbyggða", "yfirbyggðu", "yfirbyggðu", "yfirbyggðu"],
+					"hk": ["yfirbyggða", "yfirbyggða", "yfirbyggða", "yfirbyggða"]
+				},
+				"ft": {
+					"kk": ["yfirbyggðu", "yfirbyggðu", "yfirbyggðu", "yfirbyggðu"],
+					"kvk": ["yfirbyggðu", "yfirbyggðu", "yfirbyggðu", "yfirbyggðu"],
+					"hk": ["yfirbyggðu", "yfirbyggðu", "yfirbyggðu", "yfirbyggðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirbyggja",
+	"hash": "731f5f9929686d4e4cfd3a24b625652e6de9d0fcd582e0a9b3e4113fc0348ee5"
+}

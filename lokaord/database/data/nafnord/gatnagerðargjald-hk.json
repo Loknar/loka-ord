@@ -1,0 +1,30 @@
+{
+	"orð": "gatnagerðargjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gatna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gata-kvk"
+		},
+		{
+			"mynd": "gerðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gerð-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["gatnagerðargjald", "gatnagerðargjald", "gatnagerðargjaldi", "gatnagerðargjalds"],
+		"mg": ["gatnagerðargjaldið", "gatnagerðargjaldið", "gatnagerðargjaldinu", "gatnagerðargjaldsins"]
+	},
+	"ft": {
+		"ág": ["gatnagerðargjöld", "gatnagerðargjöld", "gatnagerðargjöldum", "gatnagerðargjalda"],
+		"mg": ["gatnagerðargjöldin", "gatnagerðargjöldin", "gatnagerðargjöldunum", "gatnagerðargjaldanna"]
+	},
+	"kennistrengur": "no-gatnagerðargjald-hk",
+	"hash": "bf21612ccb39634ab8bc9cf37f049c5c8126b76f68ad42bfc93f98b9f7618d9f"
+}
