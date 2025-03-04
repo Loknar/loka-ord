@@ -1,0 +1,27 @@
+{
+	"orð": "heildarnemendafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "nemenda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nemandi-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarnemendafjöldi", "heildarnemendafjölda", "heildarnemendafjölda", "heildarnemendafjölda"],
+		"mg": ["heildarnemendafjöldinn", "heildarnemendafjöldann", "heildarnemendafjöldanum", "heildarnemendafjöldans"]
+	},
+	"kennistrengur": "no-heildarnemendafjöldi-kk",
+	"hash": "1393f5b8c4c0eb5aec9977f10ba2710df561afe836f6ee81df8128218b85f6b5"
+}

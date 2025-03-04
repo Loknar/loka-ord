@@ -1,0 +1,30 @@
+{
+	"orð": "bráðabirgðagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bráða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bráð-kvk"
+		},
+		{
+			"mynd": "birgða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birgð-kvk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bráðabirgðagreiðsla", "bráðabirgðagreiðslu", "bráðabirgðagreiðslu", "bráðabirgðagreiðslu"],
+		"mg": ["bráðabirgðagreiðslan", "bráðabirgðagreiðsluna", "bráðabirgðagreiðslunni", "bráðabirgðagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["bráðabirgðagreiðslur", "bráðabirgðagreiðslur", "bráðabirgðagreiðslum", "bráðabirgðagreiðslna"],
+		"mg": ["bráðabirgðagreiðslurnar", "bráðabirgðagreiðslurnar", "bráðabirgðagreiðslunum", "bráðabirgðagreiðslnanna"]
+	},
+	"kennistrengur": "no-bráðabirgðagreiðsla-kvk",
+	"hash": "7e4910316698305cec83d51ac8be4621972e1e8e518bd06144f3b002b8b5e38a"
+}

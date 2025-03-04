@@ -1,0 +1,35 @@
+{
+	"orð": "útgjaldaframlag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "gjalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["útgjaldaframlag", "útgjaldaframlag", "útgjaldaframlagi", "útgjaldaframlags"],
+		"mg": ["útgjaldaframlagið", "útgjaldaframlagið", "útgjaldaframlaginu", "útgjaldaframlagsins"]
+	},
+	"ft": {
+		"ág": ["útgjaldaframlög", "útgjaldaframlög", "útgjaldaframlögum", "útgjaldaframlaga"],
+		"mg": ["útgjaldaframlögin", "útgjaldaframlögin", "útgjaldaframlögunum", "útgjaldaframlaganna"]
+	},
+	"kennistrengur": "no-útgjaldaframlag-hk",
+	"hash": "252aecd8795db1d7309a75a911dd329724acfcced45970669fbb8360429d7ffb"
+}

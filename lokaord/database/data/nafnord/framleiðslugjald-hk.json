@@ -1,0 +1,30 @@
+{
+	"orð": "framleiðslugjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðslugjald", "framleiðslugjald", "framleiðslugjaldi", "framleiðslugjalds"],
+		"mg": ["framleiðslugjaldið", "framleiðslugjaldið", "framleiðslugjaldinu", "framleiðslugjaldsins"]
+	},
+	"ft": {
+		"ág": ["framleiðslugjöld", "framleiðslugjöld", "framleiðslugjöldum", "framleiðslugjalda"],
+		"mg": ["framleiðslugjöldin", "framleiðslugjöldin", "framleiðslugjöldunum", "framleiðslugjaldanna"]
+	},
+	"kennistrengur": "no-framleiðslugjald-hk",
+	"hash": "d0882bb33288b94cbddb0d157f6826b36c6550bc4e07c544bba2f2539d3d319c"
+}

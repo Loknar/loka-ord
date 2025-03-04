@@ -1,0 +1,27 @@
+{
+	"orð": "heildarskatttekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarskatttekjur", "heildarskatttekjur", "heildarskatttekjum", "heildarskatttekna"],
+		"mg": ["heildarskatttekjurnar", "heildarskatttekjurnar", "heildarskatttekjunum", "heildarskattteknanna"]
+	},
+	"kennistrengur": "no-heildarskatttekjur-kvk",
+	"hash": "cc330cd7604c8a0fb256950b65762919c826627e35e26e704b0c8d465ce4f1d2"
+}

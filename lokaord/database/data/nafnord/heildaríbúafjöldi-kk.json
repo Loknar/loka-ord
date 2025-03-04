@@ -1,0 +1,27 @@
+{
+	"orð": "heildaríbúafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "íbúa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúi-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildaríbúafjöldi", "heildaríbúafjölda", "heildaríbúafjölda", "heildaríbúafjölda"],
+		"mg": ["heildaríbúafjöldinn", "heildaríbúafjöldann", "heildaríbúafjöldanum", "heildaríbúafjöldans"]
+	},
+	"kennistrengur": "no-heildaríbúafjöldi-kk",
+	"hash": "946429f8625c7c250a1dee849631b6a8d076dec35eb724894d82afe2233d2d88"
+}

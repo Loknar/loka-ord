@@ -1,0 +1,48 @@
+{
+	"orð": "útsvarsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "svars",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-svar-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["útsvarsskyldur", "útsvarsskyldan", "útsvarsskyldum", "útsvarsskylds"],
+				"kvk": ["útsvarsskyld", "útsvarsskylda", "útsvarsskyldri", "útsvarsskyldrar"],
+				"hk": ["útsvarsskylt", "útsvarsskylt", "útsvarsskyldu", "útsvarsskylds"]
+			},
+			"ft": {
+				"kk": ["útsvarsskyldir", "útsvarsskylda", "útsvarsskyldum", "útsvarsskyldra"],
+				"kvk": ["útsvarsskyldar", "útsvarsskyldar", "útsvarsskyldum", "útsvarsskyldra"],
+				"hk": ["útsvarsskyld", "útsvarsskyld", "útsvarsskyldum", "útsvarsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["útsvarsskyldi", "útsvarsskylda", "útsvarsskylda", "útsvarsskylda"],
+				"kvk": ["útsvarsskylda", "útsvarsskyldu", "útsvarsskyldu", "útsvarsskyldu"],
+				"hk": ["útsvarsskylda", "útsvarsskylda", "útsvarsskylda", "útsvarsskylda"]
+			},
+			"ft": {
+				"kk": ["útsvarsskyldu", "útsvarsskyldu", "útsvarsskyldu", "útsvarsskyldu"],
+				"kvk": ["útsvarsskyldu", "útsvarsskyldu", "útsvarsskyldu", "útsvarsskyldu"],
+				"hk": ["útsvarsskyldu", "útsvarsskyldu", "útsvarsskyldu", "útsvarsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-útsvarsskyldur",
+	"hash": "5ed91002520129dbee2333cd0f5d6f0a19ab323dea056b4f23a347e1f9975885"
+}

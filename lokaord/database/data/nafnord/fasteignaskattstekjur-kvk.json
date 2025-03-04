@@ -1,0 +1,27 @@
+{
+	"orð": "fasteignaskattstekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fasteigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fasteignaskattstekjur", "fasteignaskattstekjur", "fasteignaskattstekjum", "fasteignaskattstekna"],
+		"mg": ["fasteignaskattstekjurnar", "fasteignaskattstekjurnar", "fasteignaskattstekjunum", "fasteignaskattsteknanna"]
+	},
+	"kennistrengur": "no-fasteignaskattstekjur-kvk",
+	"hash": "3186589b15aebf971c5d62d85799abf00e752c5106859c17491f411f212b0a05"
+}

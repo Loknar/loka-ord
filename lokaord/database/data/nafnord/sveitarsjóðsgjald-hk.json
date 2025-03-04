@@ -1,0 +1,30 @@
+{
+	"orð": "sveitarsjóðsgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sveitar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sveit-kvk"
+		},
+		{
+			"mynd": "sjóðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjóður-kk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["sveitarsjóðsgjald", "sveitarsjóðsgjald", "sveitarsjóðsgjaldi", "sveitarsjóðsgjalds"],
+		"mg": ["sveitarsjóðsgjaldið", "sveitarsjóðsgjaldið", "sveitarsjóðsgjaldinu", "sveitarsjóðsgjaldsins"]
+	},
+	"ft": {
+		"ág": ["sveitarsjóðsgjöld", "sveitarsjóðsgjöld", "sveitarsjóðsgjöldum", "sveitarsjóðsgjalda"],
+		"mg": ["sveitarsjóðsgjöldin", "sveitarsjóðsgjöldin", "sveitarsjóðsgjöldunum", "sveitarsjóðsgjaldanna"]
+	},
+	"kennistrengur": "no-sveitarsjóðsgjald-hk",
+	"hash": "b2f67929d573b18348aadcdec61578a477e53ecdc59efb1811fc083e1c24acb5"
+}

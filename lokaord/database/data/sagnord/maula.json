@@ -1,0 +1,135 @@
+{
+	"orð": "maula",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "maul",
+			"samsetning": "stofn",
+			"kennistrengur": "no-maul-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "maula",
+		"sagnbót": "maulað",
+		"boðháttur": {
+			"stýfður": "maula",
+			"et": "maulaðu",
+			"ft": "maulið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["maula", "maular", "maular"],
+					"ft": ["maulum", "maulið", "maula"]
+				},
+				"þátíð": {
+					"et": ["maulaði", "maulaðir", "maulaði"],
+					"ft": ["mauluðum", "mauluðuð", "mauluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mauli", "maulir", "mauli"],
+					"ft": ["maulum", "maulið", "mauli"]
+				},
+				"þátíð": {
+					"et": ["maulaði", "maulaðir", "maulaði"],
+					"ft": ["mauluðum", "mauluðuð", "mauluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "maularðu",
+					"ft": "mauliði"
+				},
+				"þátíð": {
+					"et": "maulaðirðu",
+					"ft": "mauluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "maulirðu",
+					"ft": "mauliði"
+				},
+				"þátíð": {
+					"et": "maulaðirðu",
+					"ft": "mauluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "maulast",
+		"sagnbót": "maulast",
+		"boðháttur": {
+			"et": "maulastu",
+			"ft": "maulist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["maulast", "maulast", "maulast"],
+					"ft": ["maulumst", "maulist", "maulast"]
+				},
+				"þátíð": {
+					"et": ["maulaðist", "maulaðist", "maulaðist"],
+					"ft": ["mauluðumst", "mauluðust", "mauluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["maulist", "maulist", "maulist"],
+					"ft": ["maulumst", "maulist", "maulist"]
+				},
+				"þátíð": {
+					"et": ["maulaðist", "maulaðist", "maulaðist"],
+					"ft": ["mauluðumst", "mauluðust", "mauluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "maulastu"
+				},
+				"þátíð": {
+					"et": "maulaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "maulistu"
+				},
+				"þátíð": {
+					"et": "maulaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "maulandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["maulaður", "maulaðan", "mauluðum", "maulaðs"],
+					"kvk": ["mauluð", "maulaða", "maulaðri", "maulaðrar"],
+					"hk": ["maulað", "maulað", "mauluðu", "maulaðs"]
+				},
+				"ft": {
+					"kk": ["maulaðir", "maulaða", "mauluðum", "maulaðra"],
+					"kvk": ["maulaðar", "maulaðar", "mauluðum", "maulaðra"],
+					"hk": ["mauluð", "mauluð", "mauluðum", "maulaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-maula",
+	"hash": "f6e0b62f44ec9ff4ea91d0a9d223bd1d7b7c3318318392acff9891fd42e3f15e"
+}

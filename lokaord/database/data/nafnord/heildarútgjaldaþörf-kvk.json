@@ -1,0 +1,32 @@
+{
+	"orð": "heildarútgjaldaþörf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "gjalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þörf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarútgjaldaþörf", "heildarútgjaldaþörf", "heildarútgjaldaþörf", "heildarútgjaldaþarfar"],
+		"mg": ["heildarútgjaldaþörfin", "heildarútgjaldaþörfina", "heildarútgjaldaþörfinni", "heildarútgjaldaþarfarinnar"]
+	},
+	"kennistrengur": "no-heildarútgjaldaþörf-kvk",
+	"hash": "b85dd369d78cee7b1248d9d948fe77d88c15692a83a46eb99107dd54edfeabf7"
+}
