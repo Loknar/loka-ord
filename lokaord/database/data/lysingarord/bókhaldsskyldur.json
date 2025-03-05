@@ -1,0 +1,48 @@
+{
+	"orð": "bókhaldsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bókhaldsskyldur", "bókhaldsskyldan", "bókhaldsskyldum", "bókhaldsskylds"],
+				"kvk": ["bókhaldsskyld", "bókhaldsskylda", "bókhaldsskyldri", "bókhaldsskyldrar"],
+				"hk": ["bókhaldsskylt", "bókhaldsskylt", "bókhaldsskyldu", "bókhaldsskylds"]
+			},
+			"ft": {
+				"kk": ["bókhaldsskyldir", "bókhaldsskylda", "bókhaldsskyldum", "bókhaldsskyldra"],
+				"kvk": ["bókhaldsskyldar", "bókhaldsskyldar", "bókhaldsskyldum", "bókhaldsskyldra"],
+				"hk": ["bókhaldsskyld", "bókhaldsskyld", "bókhaldsskyldum", "bókhaldsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bókhaldsskyldi", "bókhaldsskylda", "bókhaldsskylda", "bókhaldsskylda"],
+				"kvk": ["bókhaldsskylda", "bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu"],
+				"hk": ["bókhaldsskylda", "bókhaldsskylda", "bókhaldsskylda", "bókhaldsskylda"]
+			},
+			"ft": {
+				"kk": ["bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu"],
+				"kvk": ["bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu"],
+				"hk": ["bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu", "bókhaldsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bókhaldsskyldur",
+	"hash": "a571f50c80d6bae2dbfd0bbe10321348f34b5bb281e0cd7fe5d8419a926316da"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "fjárhaldsstjórn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stjórn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhaldsstjórn", "fjárhaldsstjórn", "fjárhaldsstjórn", "fjárhaldsstjórnar"],
+		"mg": ["fjárhaldsstjórnin", "fjárhaldsstjórnina", "fjárhaldsstjórninni", "fjárhaldsstjórnarinnar"]
+	},
+	"kennistrengur": "no-fjárhaldsstjórn-kvk",
+	"hash": "d3ebb4bc1ed557d3d3a784bd5c75ee238493f8dc3616c36d893131d8d43494dd"
+}

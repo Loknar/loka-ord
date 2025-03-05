@@ -1,0 +1,27 @@
+{
+	"orð": "fjárstjórnarvald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vald-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjárstjórnarvald", "fjárstjórnarvald", "fjárstjórnarvaldi", "fjárstjórnarvalds"],
+		"mg": ["fjárstjórnarvaldið", "fjárstjórnarvaldið", "fjárstjórnarvaldinu", "fjárstjórnarvaldsins"]
+	},
+	"kennistrengur": "no-fjárstjórnarvald-hk",
+	"hash": "e21f016cc3b093fd8360d79d615cc78964daf1670ef4e96cee8492ccc728c60d"
+}

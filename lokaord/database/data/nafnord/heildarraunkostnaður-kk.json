@@ -1,0 +1,26 @@
+{
+	"orð": "heildarraunkostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "raun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raun-kvk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarraunkostnaður", "heildarraunkostnað", "heildarraunkostnaði", "heildarraunkostnaðar"],
+		"mg": ["heildarraunkostnaðurinn", "heildarraunkostnaðinn", "heildarraunkostnaðinum", "heildarraunkostnaðarins"]
+	},
+	"kennistrengur": "no-heildarraunkostnaður-kk",
+	"hash": "1ec1bccd02dae9de9d617fcc7f9a3609f1e8c4d99b79bde7d2f95c0a7df27933"
+}

@@ -1,0 +1,86 @@
+{
+	"orð": "ríkistryggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-tryggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ríkistryggja",
+		"sagnbót": "ríkistryggt",
+		"boðháttur": {
+			"stýfður": "ríkistrygg",
+			"et": "ríkistryggðu",
+			"ft": "ríkistryggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ríkistryggi", "ríkistryggir", "ríkistryggir"],
+					"ft": ["ríkistryggjum", "ríkistryggið", "ríkistryggja"]
+				},
+				"þátíð": {
+					"et": ["ríkistryggði", "ríkistryggðir", "ríkistryggði"],
+					"ft": ["ríkistryggðum", "ríkistryggðuð", "ríkistryggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ríkistryggi", "ríkistryggir", "ríkistryggi"],
+					"ft": ["ríkistryggjum", "ríkistryggið", "ríkistryggi"]
+				},
+				"þátíð": {
+					"et": ["ríkistryggði", "ríkistryggðir", "ríkistryggði"],
+					"ft": ["ríkistryggðum", "ríkistryggðuð", "ríkistryggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ríkistryggirðu",
+					"ft": "ríkistryggiði"
+				},
+				"þátíð": {
+					"et": "ríkistryggðirðu",
+					"ft": "ríkistryggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ríkistryggirðu",
+					"ft": "ríkistryggiði"
+				},
+				"þátíð": {
+					"et": "ríkistryggðirðu",
+					"ft": "ríkistryggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ríkistryggður", "ríkistryggðan", "ríkistryggðum", "ríkistryggðs"],
+					"kvk": ["ríkistryggð", "ríkistryggða", "ríkistryggðri", "ríkistryggðrar"],
+					"hk": ["ríkistryggt", "ríkistryggt", "ríkistryggðu", "ríkistryggðs"]
+				},
+				"ft": {
+					"kk": ["ríkistryggðir", "ríkistryggða", "ríkistryggðum", "ríkistryggðra"],
+					"kvk": ["ríkistryggðar", "ríkistryggðar", "ríkistryggðum", "ríkistryggðra"],
+					"hk": ["ríkistryggð", "ríkistryggð", "ríkistryggðum", "ríkistryggðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ríkistryggja",
+	"hash": "bbdcfd03027f0e25c748cf203081580d0a0fa6aa9ba96a6ec24c16a7a35edd97"
+}

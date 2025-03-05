@@ -1,0 +1,27 @@
+{
+	"orð": "heildarmatsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "mats",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mat-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarmatsverð", "heildarmatsverð", "heildarmatsverði", "heildarmatsverðs"],
+		"mg": ["heildarmatsverðið", "heildarmatsverðið", "heildarmatsverðinu", "heildarmatsverðsins"]
+	},
+	"kennistrengur": "no-heildarmatsverð-hk",
+	"hash": "78e1ed2da7567a41721431e73f56b600f4246732eed3c79424bb4ce46ce9c1c0"
+}
