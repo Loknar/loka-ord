@@ -2,6 +2,16 @@
 	"orð": "stofnun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stofn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-stofna"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["stofnun", "stofnun", "stofnun", "stofnunar"],
 		"mg": ["stofnunin", "stofnunina", "stofnuninni", "stofnunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["stofnanirnar", "stofnanirnar", "stofnununum", "stofnananna"]
 	},
 	"kennistrengur": "no-stofnun-kvk",
-	"hash": "c9525abca2a0dc6ff726b229d829e0636ba3ed37c3591ef99515150e21b70244"
+	"hash": "c2b31760388507715016dfb61a149cfc8d918c5d513315d8e3de27713e94759d"
 }
