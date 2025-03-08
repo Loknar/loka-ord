@@ -1,0 +1,27 @@
+{
+	"orð": "aðalatvinna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "aðal",
+			"samsetning": "stofn",
+			"kennistrengur": "no-aðal-hk"
+		},
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["aðalatvinna", "aðalatvinnu", "aðalatvinnu", "aðalatvinnu"],
+		"mg": ["aðalatvinnan", "aðalatvinnuna", "aðalatvinnunni", "aðalatvinnunnar"]
+	},
+	"kennistrengur": "no-aðalatvinna-kvk",
+	"hash": "682f6a4333455a736449890e352965555d7c08e044d4cacf256208e44b8aa71d"
+}

@@ -1,0 +1,142 @@
+{
+	"orð": "útdeila",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "so-deila"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útdeila",
+		"sagnbót": "útdeilt",
+		"boðháttur": {
+			"stýfður": "útdeil",
+			"et": "útdeildu",
+			"ft": "útdeilið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útdeili", "útdeilir", "útdeilir"],
+					"ft": ["útdeilum", "útdeilið", "útdeila"]
+				},
+				"þátíð": {
+					"et": ["útdeildi", "útdeildir", "útdeildi"],
+					"ft": ["útdeildum", "útdeilduð", "útdeildu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útdeili", "útdeilir", "útdeili"],
+					"ft": ["útdeilum", "útdeilið", "útdeili"]
+				},
+				"þátíð": {
+					"et": ["útdeildi", "útdeildir", "útdeildi"],
+					"ft": ["útdeildum", "útdeilduð", "útdeildu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útdeilirðu",
+					"ft": "útdeiliði"
+				},
+				"þátíð": {
+					"et": "útdeildirðu",
+					"ft": "útdeilduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útdeilirðu",
+					"ft": "útdeiliði"
+				},
+				"þátíð": {
+					"et": "útdeildirðu",
+					"ft": "útdeilduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útdeilast",
+		"sagnbót": "útdeilst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útdeilist", "útdeilist", "útdeilist"],
+					"ft": ["útdeilumst", "útdeilist", "útdeilast"]
+				},
+				"þátíð": {
+					"et": ["útdeildist", "útdeildist", "útdeildist"],
+					"ft": ["útdeildumst", "útdeildust", "útdeildust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útdeilist", "útdeilist", "útdeilist"],
+					"ft": ["útdeilumst", "útdeilist", "útdeilist"]
+				},
+				"þátíð": {
+					"et": ["útdeildist", "útdeildist", "útdeildist"],
+					"ft": ["útdeildumst", "útdeildust", "útdeildust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útdeilistu"
+				},
+				"þátíð": {
+					"et": "útdeildistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útdeilistu"
+				},
+				"þátíð": {
+					"et": "útdeildistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útdeilandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útdeildur", "útdeildan", "útdeildum", "útdeilds"],
+					"kvk": ["útdeild", "útdeilda", "útdeildri", "útdeildrar"],
+					"hk": ["útdeilt", "útdeilt", "útdeildu", "útdeilds"]
+				},
+				"ft": {
+					"kk": ["útdeildir", "útdeilda", "útdeildum", "útdeildra"],
+					"kvk": ["útdeildar", "útdeildar", "útdeildum", "útdeildra"],
+					"hk": ["útdeild", "útdeild", "útdeildum", "útdeildra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útdeildi", "útdeilda", "útdeilda", "útdeilda"],
+					"kvk": ["útdeilda", "útdeildu", "útdeildu", "útdeildu"],
+					"hk": ["útdeilda", "útdeilda", "útdeilda", "útdeilda"]
+				},
+				"ft": {
+					"kk": ["útdeildu", "útdeildu", "útdeildu", "útdeildu"],
+					"kvk": ["útdeildu", "útdeildu", "útdeildu", "útdeildu"],
+					"hk": ["útdeildu", "útdeildu", "útdeildu", "útdeildu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útdeila",
+	"hash": "15d8eda0fd7cf13889aa3615a0a281cdec31ac151c0fa59222ae663e467bf10a"
+}

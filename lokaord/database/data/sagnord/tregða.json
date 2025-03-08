@@ -1,0 +1,118 @@
+{
+	"orð": "tregða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tregð",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-tregur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tregða",
+		"sagnbót": "tregðað",
+		"boðháttur": {
+			"stýfður": "tregða",
+			"et": "tregðaðu",
+			"ft": "tregðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tregða", "tregðar", "tregðar"],
+					"ft": ["tregðum", "tregðið", "tregða"]
+				},
+				"þátíð": {
+					"et": ["tregðaði", "tregðaðir", "tregðaði"],
+					"ft": ["tregðuðum", "tregðuðuð", "tregðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tregði", "tregðir", "tregði"],
+					"ft": ["tregðum", "tregðið", "tregði"]
+				},
+				"þátíð": {
+					"et": ["tregðaði", "tregðaðir", "tregðaði"],
+					"ft": ["tregðuðum", "tregðuðuð", "tregðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tregðarðu",
+					"ft": "tregðiði"
+				},
+				"þátíð": {
+					"et": "tregðaðirðu",
+					"ft": "tregðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tregðirðu",
+					"ft": "tregðiði"
+				},
+				"þátíð": {
+					"et": "tregðaðirðu",
+					"ft": "tregðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tregðast",
+		"sagnbót": "tregðast",
+		"boðháttur": {
+			"et": "tregðastu",
+			"ft": "tregðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tregðast", "tregðast", "tregðast"],
+					"ft": ["tregðumst", "tregðist", "tregðast"]
+				},
+				"þátíð": {
+					"et": ["tregðaðist", "tregðaðist", "tregðaðist"],
+					"ft": ["tregðuðumst", "tregðuðust", "tregðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tregðist", "tregðist", "tregðist"],
+					"ft": ["tregðumst", "tregðist", "tregðist"]
+				},
+				"þátíð": {
+					"et": ["tregðaðist", "tregðaðist", "tregðaðist"],
+					"ft": ["tregðuðumst", "tregðuðust", "tregðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tregðastu"
+				},
+				"þátíð": {
+					"et": "tregðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tregðistu"
+				},
+				"þátíð": {
+					"et": "tregðaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tregða",
+	"hash": "7a0361d8020f5033a9f4c2f87141ed2801c9ee6be8359ef5204797c015aa4f06"
+}

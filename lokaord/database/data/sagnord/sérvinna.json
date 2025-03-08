@@ -1,0 +1,86 @@
+{
+	"orð": "sérvinna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vinna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérvinna",
+		"sagnbót": "sérunnið",
+		"boðháttur": {
+			"stýfður": "sérvinn",
+			"et": "sérvinndu",
+			"ft": "sérvinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérvinn", "sérvinnur", "sérvinnur"],
+					"ft": ["sérvinnum", "sérvinnið", "sérvinna"]
+				},
+				"þátíð": {
+					"et": ["sérvann", "sérvannst", "sérvann"],
+					"ft": ["sérunnum", "sérunnuð", "sérunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérvinni", "sérvinnir", "sérvinni"],
+					"ft": ["sérvinnum", "sérvinnið", "sérvinni"]
+				},
+				"þátíð": {
+					"et": ["sérynni", "sérynnir", "sérynni"],
+					"ft": ["sérynnum", "sérynnuð", "sérynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérvinnurðu",
+					"ft": "sérvinniði"
+				},
+				"þátíð": {
+					"et": "sérvannstu",
+					"ft": "sérunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérvinnirðu",
+					"ft": "sérvinniði"
+				},
+				"þátíð": {
+					"et": "sérynnirðu",
+					"ft": "sérynnuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérunninn", "sérunninn", "sérunnum", "sérunnins"],
+					"kvk": ["sérunnin", "sérunna", "sérunninni", "sérunninnar"],
+					"hk": ["sérunnið", "sérunnið", "sérunnu", "sérunnins"]
+				},
+				"ft": {
+					"kk": ["sérunnir", "sérunna", "sérunnum", "sérunninna"],
+					"kvk": ["sérunnar", "sérunnar", "sérunnum", "sérunninna"],
+					"hk": ["sérunnin", "sérunnin", "sérunnnum", "sérunninna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérvinna",
+	"hash": "2ba439d97a478266a225958004b0584ad00c8a4f0175e12af1302a0c96ab174c"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnsýsluupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnsýsluupplýsingar", "stjórnsýsluupplýsingar", "stjórnsýsluupplýsingum", "stjórnsýsluupplýsinga"],
+		"mg": ["stjórnsýsluupplýsingarnar", "stjórnsýsluupplýsingarnar", "stjórnsýsluupplýsingunum", "stjórnsýsluupplýsinganna"]
+	},
+	"kennistrengur": "no-stjórnsýsluupplýsingar-kvk",
+	"hash": "d1e10bfcac6d108be49be7643416097350a032c87f5e4ff9cbd5561a09d8f151"
+}

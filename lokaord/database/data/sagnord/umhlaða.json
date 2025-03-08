@@ -1,0 +1,130 @@
+{
+	"orð": "umhlaða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hlaða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umhlaða",
+		"sagnbót": "umhlaðið",
+		"boðháttur": {
+			"stýfður": "umhlað",
+			"et": "umhladdu",
+			"ft": "umhlaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umhleð", "umhleður", "umhleður"],
+					"ft": ["umhlöðum", "umhlaðið", "umhlaða"]
+				},
+				"þátíð": {
+					"et": ["umhlóð", "umhlóðst", "umhlóð"],
+					"ft": ["umhlóðum", "umhlóðuð", "umhlóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umhlaði", "umhlaðir", "umhlaði"],
+					"ft": ["umhlöðum", "umhlaðið", "umhlaði"]
+				},
+				"þátíð": {
+					"et": ["umhlæði", "umhlæðir", "umhlæði"],
+					"ft": ["umhlæðum", "umhlæðuð", "umhlæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umhleðurðu",
+					"ft": "umhlaðiði"
+				},
+				"þátíð": {
+					"et": "umhlóðstu",
+					"ft": "umhlóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umhlaðirðu",
+					"ft": "umhlaðiði"
+				},
+				"þátíð": {
+					"et": "umhlæðirðu",
+					"ft": "umhlæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "umhlaðast",
+		"sagnbót": "umhlaðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umhleðst", "umhleðst", "umhleðst"],
+					"ft": ["umhlöðumst", "umhlaðist", "umhlaðast"]
+				},
+				"þátíð": {
+					"et": ["umhlóðst", "umhlóðst", "umhlóðst"],
+					"ft": ["umhlóðumst", "umhlóðust", "umhlóðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umhlaðist", "umhlaðist", "umhlaðist"],
+					"ft": ["umhlöðumst", "umhlaðist", "umhlaðist"]
+				},
+				"þátíð": {
+					"et": ["umhlæðist", "umhlæðist", "umhlæðist"],
+					"ft": ["umhlæðumst", "umhlæðust", "umhlæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umhleðstu"
+				},
+				"þátíð": {
+					"et": "umhlóðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umhlaðistu"
+				},
+				"þátíð": {
+					"et": "umhlæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umhlaðinn", "umhlaðinn", "umhlöðnum", "umhlaðins"],
+					"kvk": ["umhlaðin", "umhlaðna", "umhlaðinni", "umhlaðinnar"],
+					"hk": ["umhlaðið", "umhlaðið", "umhlöðnu", "umhlaðins"]
+				},
+				"ft": {
+					"kk": ["umhlaðnir", "umhlaðna", "umhlöðnum", "umhlaðinna"],
+					"kvk": ["umhlaðnar", "umhlaðnar", "umhlöðnum", "umhlaðinna"],
+					"hk": ["umhlaðin", "umhlaðin", "umhlöðnum", "umhlaðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umhlaða",
+	"hash": "e293bb2ed2e398775a212bb58c812c9b6802679c030a87bfafbc7f6649d1b2eb"
+}

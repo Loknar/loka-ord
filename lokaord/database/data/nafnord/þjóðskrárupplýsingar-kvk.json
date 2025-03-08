@@ -1,0 +1,27 @@
+{
+	"orð": "þjóðskrárupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þjóð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["þjóðskrárupplýsingar", "þjóðskrárupplýsingar", "þjóðskrárupplýsingum", "þjóðskrárupplýsinga"],
+		"mg": ["þjóðskrárupplýsingarnar", "þjóðskrárupplýsingarnar", "þjóðskrárupplýsingunum", "þjóðskrárupplýsinganna"]
+	},
+	"kennistrengur": "no-þjóðskrárupplýsingar-kvk",
+	"hash": "7f54d1c86e9a9994c7bcf524dbef02b33ae3fcba564648c9762a5406d682c10e"
+}

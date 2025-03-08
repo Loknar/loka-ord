@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnsýslugögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnsýslugögn", "stjórnsýslugögn", "stjórnsýslugögnum", "stjórnsýslugagna"],
+		"mg": ["stjórnsýslugögnin", "stjórnsýslugögnin", "stjórnsýslugögnunum", "stjórnsýslugagnanna"]
+	},
+	"kennistrengur": "no-stjórnsýslugögn-hk",
+	"hash": "5af7a6ef758c5ff237440a932cab64f1ee5b709add06d26f199d1470c0b0434e"
+}

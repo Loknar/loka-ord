@@ -1,0 +1,30 @@
+{
+	"orð": "verðbréfaeign",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-eign-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verðbréfaeign", "verðbréfaeign", "verðbréfaeign", "verðbréfaeignar"],
+		"mg": ["verðbréfaeignin", "verðbréfaeignina", "verðbréfaeigninni", "verðbréfaeignarinnar"]
+	},
+	"ft": {
+		"ág": ["verðbréfaeignir", "verðbréfaeignir", "verðbréfaeignum", "verðbréfaeigna"],
+		"mg": ["verðbréfaeignirnar", "verðbréfaeignirnar", "verðbréfaeignunum", "verðbréfaeignanna"]
+	},
+	"kennistrengur": "no-verðbréfaeign-kvk",
+	"hash": "c0538b19cdfb0fdd350b5dc875c2e25f51617f6c8cc0a3ae033c7ebfea32d654"
+}
