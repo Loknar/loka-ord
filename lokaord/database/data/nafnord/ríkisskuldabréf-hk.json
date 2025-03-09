@@ -1,0 +1,30 @@
+{
+	"orð": "ríkisskuldabréf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-bréf-hk"
+		}
+	],
+	"et": {
+		"ág": ["ríkisskuldabréf", "ríkisskuldabréf", "ríkisskuldabréfi", "ríkisskuldabréfs"],
+		"mg": ["ríkisskuldabréfið", "ríkisskuldabréfið", "ríkisskuldabréfinu", "ríkisskuldabréfsins"]
+	},
+	"ft": {
+		"ág": ["ríkisskuldabréf", "ríkisskuldabréf", "ríkisskuldabréfum", "ríkisskuldabréfa"],
+		"mg": ["ríkisskuldabréfin", "ríkisskuldabréfin", "ríkisskuldabréfunum", "ríkisskuldabréfanna"]
+	},
+	"kennistrengur": "no-ríkisskuldabréf-hk",
+	"hash": "fe60ba6273f1fef777ea59f0fbae6f7c5572176fcb6d364e851ccf46c6f86a1f"
+}

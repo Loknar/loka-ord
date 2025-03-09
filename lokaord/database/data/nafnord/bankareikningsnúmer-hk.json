@@ -1,0 +1,30 @@
+{
+	"orð": "bankareikningsnúmer",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"mynd": "reiknings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"kennistrengur": "no-númer-hk"
+		}
+	],
+	"et": {
+		"ág": ["bankareikningsnúmer", "bankareikningsnúmer", "bankareikningsnúmeri", "bankareikningsnúmers"],
+		"mg": ["bankareikningsnúmerið", "bankareikningsnúmerið", "bankareikningsnúmerinu", "bankareikningsnúmersins"]
+	},
+	"ft": {
+		"ág": ["bankareikningsnúmer", "bankareikningsnúmer", "bankareikningsnúmerum", "bankareikningsnúmera"],
+		"mg": ["bankareikningsnúmerin", "bankareikningsnúmerin", "bankareikningsnúmerunum", "bankareikningsnúmeranna"]
+	},
+	"kennistrengur": "no-bankareikningsnúmer-hk",
+	"hash": "dfd4e362c7701b77551af5e0ea40d385c1bac6f1b9402b7073ca85fdd25ee791"
+}

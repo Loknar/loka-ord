@@ -1,0 +1,27 @@
+{
+	"orð": "heildarfjárþörf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þörf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarfjárþörf", "heildarfjárþörf", "heildarfjárþörf", "heildarfjárþarfar"],
+		"mg": ["heildarfjárþörfin", "heildarfjárþörfina", "heildarfjárþörfinni", "heildarfjárþarfarinnar"]
+	},
+	"kennistrengur": "no-heildarfjárþörf-kvk",
+	"hash": "86a8d08138a19709b909b11d9e0909d3240d6c626120b4a1c59baf716e286f7b"
+}

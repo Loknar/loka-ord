@@ -1,0 +1,128 @@
+{
+	"orð": "skuldfæra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "so-færa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skuldfæra",
+		"sagnbót": "skuldfært",
+		"boðháttur": {
+			"stýfður": "skuldfær",
+			"et": "skuldfærðu",
+			"ft": "skuldfærið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldfæri", "skuldfærir", "skuldfærir"],
+					"ft": ["skuldfærum", "skuldfærið", "skuldfæra"]
+				},
+				"þátíð": {
+					"et": ["skuldfærði", "skuldfærðir", "skuldfærði"],
+					"ft": ["skuldfærðum", "skuldfærðuð", "skuldfærðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldfæri", "skuldfærir", "skuldfæri"],
+					"ft": ["skuldfærum", "skuldfærið", "skuldfæri"]
+				},
+				"þátíð": {
+					"et": ["skuldfærði", "skuldfærðir", "skuldfærði"],
+					"ft": ["skuldfærðum", "skuldfærðuð", "skuldfærðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldfærirðu",
+					"ft": "skuldfæriði"
+				},
+				"þátíð": {
+					"et": "skuldfærðirðu",
+					"ft": "skuldfærðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldfærirðu",
+					"ft": "skuldfæriði"
+				},
+				"þátíð": {
+					"et": "skuldfærðirðu",
+					"ft": "skuldfærðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skuldfærast",
+		"sagnbót": "skuldfærst",
+		"boðháttur": {
+			"et": "skuldfærstu",
+			"ft": "skuldfærist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldfærist", "skuldfærist", "skuldfærist"],
+					"ft": ["skuldfærumst", "skuldfærist", "skuldfærast"]
+				},
+				"þátíð": {
+					"et": ["skuldfærðist", "skuldfærðist", "skuldfærðist"],
+					"ft": ["skuldfærðumst", "skuldfærðust", "skuldfærðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldfærist", "skuldfærist", "skuldfærist"],
+					"ft": ["skuldfærumst", "skuldfærist", "skuldfærist"]
+				},
+				"þátíð": {
+					"et": ["skuldfærðist", "skuldfærðist", "skuldfærðist"],
+					"ft": ["skuldfærðumst", "skuldfærðust", "skuldfærðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skuldfærandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skuldfærður", "skuldfærðan", "skuldfærðum", "skuldfærðs"],
+					"kvk": ["skuldfærð", "skuldfærða", "skuldfærðri", "skuldfærðrar"],
+					"hk": ["skuldfært", "skuldfært", "skuldfærðu", "skuldfærðs"]
+				},
+				"ft": {
+					"kk": ["skuldfærðir", "skuldfærða", "skuldfærðum", "skuldfærðra"],
+					"kvk": ["skuldfærðar", "skuldfærðar", "skuldfærðum", "skuldfærðra"],
+					"hk": ["skuldfærð", "skuldfærð", "skuldfærðum", "skuldfærðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skuldfærði", "skuldfærða", "skuldfærða", "skuldfærða"],
+					"kvk": ["skuldfærða", "skuldfærðu", "skuldfærðu", "skuldfærðu"],
+					"hk": ["skuldfærða", "skuldfærða", "skuldfærða", "skuldfærða"]
+				},
+				"ft": {
+					"kk": ["skuldfærðu", "skuldfærðu", "skuldfærðu", "skuldfærðu"],
+					"kvk": ["skuldfærðu", "skuldfærðu", "skuldfærðu", "skuldfærðu"],
+					"hk": ["skuldfærðu", "skuldfærðu", "skuldfærðu", "skuldfærðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skuldfæra",
+	"hash": "46cbdce25bb49839a3d6d62a4a481ccc6fda478c0390152d9d9fdc6eab05b204"
+}

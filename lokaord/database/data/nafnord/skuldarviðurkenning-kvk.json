@@ -1,0 +1,30 @@
+{
+	"orð": "skuldarviðurkenning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skuldar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "viður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-viður-ó"
+		},
+		{
+			"kennistrengur": "no-kenning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldarviðurkenning", "skuldarviðurkenningu", "skuldarviðurkenningu", "skuldarviðurkenningar"],
+		"mg": ["skuldarviðurkenningin", "skuldarviðurkenninguna", "skuldarviðurkenningunni", "skuldarviðurkenningarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldarviðurkenningar", "skuldarviðurkenningar", "skuldarviðurkenningum", "skuldarviðurkenninga"],
+		"mg": ["skuldarviðurkenningarnar", "skuldarviðurkenningarnar", "skuldarviðurkenningunum", "skuldarviðurkenninganna"]
+	},
+	"kennistrengur": "no-skuldarviðurkenning-kvk",
+	"hash": "9275948581c77d9468efb6a7ef2d448117fdd0f1ce4a0e41b11438e1ee87337a"
+}

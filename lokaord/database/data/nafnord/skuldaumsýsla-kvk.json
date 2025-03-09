@@ -1,0 +1,30 @@
+{
+	"orð": "skuldaumsýsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"kennistrengur": "no-sýsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaumsýsla", "skuldaumsýslu", "skuldaumsýslu", "skuldaumsýslu"],
+		"mg": ["skuldaumsýslan", "skuldaumsýsluna", "skuldaumsýslunni", "skuldaumsýslunnar"]
+	},
+	"ft": {
+		"ág": ["skuldaumsýslur", "skuldaumsýslur", "skuldaumsýslum", "skuldaumsýslna"],
+		"mg": ["skuldaumsýslurnar", "skuldaumsýslurnar", "skuldaumsýslunum", "skuldaumsýslnanna"]
+	},
+	"kennistrengur": "no-skuldaumsýsla-kvk",
+	"hash": "eec72dba35a856686f90a7816b4737efd2dde74976fe4db9f8e31f5bf98d0c24"
+}

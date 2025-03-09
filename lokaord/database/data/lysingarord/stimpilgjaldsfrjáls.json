@@ -1,0 +1,48 @@
+{
+	"orð": "stimpilgjaldsfrjáls",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stimpil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stimpiłl-kk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-frjáls"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["stimpilgjaldsfrjáls", "stimpilgjaldsfrjálsan", "stimpilgjaldsfrjálsum", "stimpilgjaldsfrjálss"],
+				"kvk": ["stimpilgjaldsfrjáls", "stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsri", "stimpilgjaldsfrjálsrar"],
+				"hk": ["stimpilgjaldsfrjálst", "stimpilgjaldsfrjálst", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálss"]
+			},
+			"ft": {
+				"kk": ["stimpilgjaldsfrjálsir", "stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsum", "stimpilgjaldsfrjálsra"],
+				"kvk": ["stimpilgjaldsfrjálsar", "stimpilgjaldsfrjálsar", "stimpilgjaldsfrjálsum", "stimpilgjaldsfrjálsra"],
+				"hk": ["stimpilgjaldsfrjáls", "stimpilgjaldsfrjáls", "stimpilgjaldsfrjálsum", "stimpilgjaldsfrjálsra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["stimpilgjaldsfrjálsi", "stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsa"],
+				"kvk": ["stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu"],
+				"hk": ["stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsa", "stimpilgjaldsfrjálsa"]
+			},
+			"ft": {
+				"kk": ["stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu"],
+				"kvk": ["stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu"],
+				"hk": ["stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu", "stimpilgjaldsfrjálsu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-stimpilgjaldsfrjáls",
+	"hash": "e0457cabfaaf0bacf9cab396fa0a933168230c7bc7416bf9d7c20140e6a929f9"
+}

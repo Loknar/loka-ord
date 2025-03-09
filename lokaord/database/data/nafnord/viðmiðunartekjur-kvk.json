@@ -1,0 +1,27 @@
+{
+	"orð": "viðmiðunartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"mynd": "miðunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-miðun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["viðmiðunartekjur", "viðmiðunartekjur", "viðmiðunartekjum", "viðmiðunartekna"],
+		"mg": ["viðmiðunartekjurnar", "viðmiðunartekjurnar", "viðmiðunartekjunum", "viðmiðunarteknanna"]
+	},
+	"kennistrengur": "no-viðmiðunartekjur-kvk",
+	"hash": "db9dda95c0f5e5cebe6bd22c0d7ed1202d6b7a59fe122be995c4f8dc87a6b473"
+}

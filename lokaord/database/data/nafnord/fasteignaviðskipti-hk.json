@@ -1,0 +1,27 @@
+{
+	"orð": "fasteignaviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fasteigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fasteign-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fasteignaviðskipti", "fasteignaviðskipti", "fasteignaviðskiptum", "fasteignaviðskipta"],
+		"mg": ["fasteignaviðskiptin", "fasteignaviðskiptin", "fasteignaviðskiptunum", "fasteignaviðskiptanna"]
+	},
+	"kennistrengur": "no-fasteignaviðskipti-hk",
+	"hash": "4db4cde39f3ba1de22cadece17d98a211035569260cb02ae652f7fd77b8e52db"
+}

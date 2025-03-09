@@ -1,0 +1,35 @@
+{
+	"orð": "staðgreiðsluskilagrein",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "skila",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"kennistrengur": "no-grein-kvk"
+		}
+	],
+	"et": {
+		"ág": ["staðgreiðsluskilagrein", "staðgreiðsluskilagrein", "staðgreiðsluskilagrein", "staðgreiðsluskilagreinar"],
+		"mg": ["staðgreiðsluskilagreinin", "staðgreiðsluskilagreinina", "staðgreiðsluskilagreininni", "staðgreiðsluskilagreinarinnar"]
+	},
+	"ft": {
+		"ág": ["staðgreiðsluskilagreinar", "staðgreiðsluskilagreinar", "staðgreiðsluskilagreinum", "staðgreiðsluskilagreina"],
+		"mg": ["staðgreiðsluskilagreinarnar", "staðgreiðsluskilagreinarnar", "staðgreiðsluskilagreinunum", "staðgreiðsluskilagreinanna"]
+	},
+	"kennistrengur": "no-staðgreiðsluskilagrein-kvk",
+	"hash": "beacff635aad9465e4f3ee10f755654004c48464dc6f602a145b40a7ebdd03d1"
+}

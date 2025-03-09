@@ -1,0 +1,30 @@
+{
+	"orð": "langtímaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lang",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-langur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["langtímaskuld", "langtímaskuld", "langtímaskuld", "langtímaskuldar"],
+		"mg": ["langtímaskuldin", "langtímaskuldina", "langtímaskuldinni", "langtímaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["langtímaskuldir", "langtímaskuldir", "langtímaskuldum", "langtímaskulda"],
+		"mg": ["langtímaskuldirnar", "langtímaskuldirnar", "langtímaskuldunum", "langtímaskuldanna"]
+	},
+	"kennistrengur": "no-langtímaskuld-kvk",
+	"hash": "32a9479287613bb708ad8e6de09e91c8825d0d8076434d8920b8515671982427"
+}

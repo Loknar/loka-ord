@@ -1,0 +1,48 @@
+{
+	"orð": "tekjuskattsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "tekju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tekja-kvk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["tekjuskattsskyldur", "tekjuskattsskyldan", "tekjuskattsskyldum", "tekjuskattsskylds"],
+				"kvk": ["tekjuskattsskyld", "tekjuskattsskylda", "tekjuskattsskyldri", "tekjuskattsskyldrar"],
+				"hk": ["tekjuskattsskylt", "tekjuskattsskylt", "tekjuskattsskyldu", "tekjuskattsskylds"]
+			},
+			"ft": {
+				"kk": ["tekjuskattsskyldir", "tekjuskattsskylda", "tekjuskattsskyldum", "tekjuskattsskyldra"],
+				"kvk": ["tekjuskattsskyldar", "tekjuskattsskyldar", "tekjuskattsskyldum", "tekjuskattsskyldra"],
+				"hk": ["tekjuskattsskyld", "tekjuskattsskyld", "tekjuskattsskyldum", "tekjuskattsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tekjuskattsskyldi", "tekjuskattsskylda", "tekjuskattsskylda", "tekjuskattsskylda"],
+				"kvk": ["tekjuskattsskylda", "tekjuskattsskyldu", "tekjuskattsskyldu", "tekjuskattsskyldu"],
+				"hk": ["tekjuskattsskylda", "tekjuskattsskylda", "tekjuskattsskylda", "tekjuskattsskylda"]
+			},
+			"ft": {
+				"kk": ["tekjuskattsskyldu", "tekjuskattsskyldu", "tekjuskattsskyldu", "tekjuskattsskyldu"],
+				"kvk": ["tekjuskattsskyldu", "tekjuskattsskyldu", "tekjuskattsskyldu", "tekjuskattsskyldu"],
+				"hk": ["tekjuskattsskyldu", "tekjuskattsskyldu", "tekjuskattsskyldu", "tekjuskattsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-tekjuskattsskyldur",
+	"hash": "c1352999756c0972644d94cab7c0f6365700c0f8b31ad9ce36c36b66c2800836"
+}

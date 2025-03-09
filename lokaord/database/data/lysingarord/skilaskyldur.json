@@ -1,0 +1,43 @@
+{
+	"orð": "skilaskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skila",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skilaskyldur", "skilaskyldan", "skilaskyldum", "skilaskylds"],
+				"kvk": ["skilaskyld", "skilaskylda", "skilaskyldri", "skilaskyldrar"],
+				"hk": ["skilaskylt", "skilaskylt", "skilaskyldu", "skilaskylds"]
+			},
+			"ft": {
+				"kk": ["skilaskyldir", "skilaskylda", "skilaskyldum", "skilaskyldra"],
+				"kvk": ["skilaskyldar", "skilaskyldar", "skilaskyldum", "skilaskyldra"],
+				"hk": ["skilaskyld", "skilaskyld", "skilaskyldum", "skilaskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skilaskyldi", "skilaskylda", "skilaskylda", "skilaskylda"],
+				"kvk": ["skilaskylda", "skilaskyldu", "skilaskyldu", "skilaskyldu"],
+				"hk": ["skilaskylda", "skilaskylda", "skilaskylda", "skilaskylda"]
+			},
+			"ft": {
+				"kk": ["skilaskyldu", "skilaskyldu", "skilaskyldu", "skilaskyldu"],
+				"kvk": ["skilaskyldu", "skilaskyldu", "skilaskyldu", "skilaskyldu"],
+				"hk": ["skilaskyldu", "skilaskyldu", "skilaskyldu", "skilaskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skilaskyldur",
+	"hash": "43d5f84d2e3d3c8ddb16a8a3ed3d8de9ffd1710d6dc0dc56adfa6f359fdcf321"
+}

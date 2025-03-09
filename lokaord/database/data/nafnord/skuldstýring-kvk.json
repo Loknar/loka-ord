@@ -1,0 +1,25 @@
+{
+	"orð": "skuldstýring",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-stýring-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldstýring", "skuldstýringu", "skuldstýringu", "skuldstýringar"],
+		"mg": ["skuldstýringin", "skuldstýringuna", "skuldstýringunni", "skuldstýringarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldstýringar", "skuldstýringar", "skuldstýringum", "skuldstýringa"],
+		"mg": ["skuldstýringarnar", "skuldstýringarnar", "skuldstýringunum", "skuldstýringanna"]
+	},
+	"kennistrengur": "no-skuldstýring-kvk",
+	"hash": "b8ac52a31774b651cf366c56ac6f0d9692d6c692493f198524d444aa2c9ff961"
+}

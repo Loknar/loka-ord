@@ -1,0 +1,27 @@
+{
+	"orð": "rekstrarfjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["rekstrarfjármunir", "rekstrarfjármuni", "rekstrarfjármunum", "rekstrarfjármuna"],
+		"mg": ["rekstrarfjármunirnir", "rekstrarfjármunina", "rekstrarfjármununum", "rekstrarfjármunanna"]
+	},
+	"kennistrengur": "no-rekstrarfjármunir-kk",
+	"hash": "8172e67a751b242df1e72980f462a03ea4c136b90b3d882a533781dc5d721dd4"
+}

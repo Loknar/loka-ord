@@ -1,0 +1,40 @@
+{
+	"orð": "gjaldeyrisviðskiptastöð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"mynd": "skipta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skipti-hk"
+		},
+		{
+			"kennistrengur": "no-stöð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldeyrisviðskiptastöð", "gjaldeyrisviðskiptastöð", "gjaldeyrisviðskiptastöð", "gjaldeyrisviðskiptastöðvar"],
+		"mg": ["gjaldeyrisviðskiptastöðin", "gjaldeyrisviðskiptastöðina", "gjaldeyrisviðskiptastöðinni", "gjaldeyrisviðskiptastöðvarinnar"]
+	},
+	"ft": {
+		"ág": ["gjaldeyrisviðskiptastöðvar", "gjaldeyrisviðskiptastöðvar", "gjaldeyrisviðskiptastöðvum", "gjaldeyrisviðskiptastöðva"],
+		"mg": ["gjaldeyrisviðskiptastöðvarnar", "gjaldeyrisviðskiptastöðvarnar", "gjaldeyrisviðskiptastöðvunum", "gjaldeyrisviðskiptastöðvanna"]
+	},
+	"kennistrengur": "no-gjaldeyrisviðskiptastöð-kvk",
+	"hash": "6afa17b767a85eb7ecfb22a901758b0ec6c262939617e677e38d3e97c4e871a3"
+}

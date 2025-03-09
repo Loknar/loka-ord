@@ -1,0 +1,27 @@
+{
+	"orð": "meðalverðlag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["meðalverðlag", "meðalverðlag", "meðalverðlagi", "meðalverðlags"],
+		"mg": ["meðalverðlagið", "meðalverðlagið", "meðalverðlaginu", "meðalverðlagsins"]
+	},
+	"kennistrengur": "no-meðalverðlag-hk",
+	"hash": "1a630b742f37973533ab5401134fd99edc77a6c8cd0b978852ea248f2be34a13"
+}
