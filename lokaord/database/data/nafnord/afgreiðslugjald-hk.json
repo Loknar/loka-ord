@@ -1,0 +1,30 @@
+{
+	"orð": "afgreiðslugjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["afgreiðslugjald", "afgreiðslugjald", "afgreiðslugjaldi", "afgreiðslugjalds"],
+		"mg": ["afgreiðslugjaldið", "afgreiðslugjaldið", "afgreiðslugjaldinu", "afgreiðslugjaldsins"]
+	},
+	"ft": {
+		"ág": ["afgreiðslugjöld", "afgreiðslugjöld", "afgreiðslugjöldum", "afgreiðslugjalda"],
+		"mg": ["afgreiðslugjöldin", "afgreiðslugjöldin", "afgreiðslugjöldunum", "afgreiðslugjaldanna"]
+	},
+	"kennistrengur": "no-afgreiðslugjald-hk",
+	"hash": "87b9daf869fb64dc21d99c27b40ef0eb1a9db3856e08ef086c703b28971358a7"
+}
