@@ -1,0 +1,35 @@
+{
+	"orð": "grunnbankareikningsnúmer",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "grunn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grunnur-kk"
+		},
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"mynd": "reiknings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"kennistrengur": "no-númer-hk"
+		}
+	],
+	"et": {
+		"ág": ["grunnbankareikningsnúmer", "grunnbankareikningsnúmer", "grunnbankareikningsnúmeri", "grunnbankareikningsnúmers"],
+		"mg": ["grunnbankareikningsnúmerið", "grunnbankareikningsnúmerið", "grunnbankareikningsnúmerinu", "grunnbankareikningsnúmersins"]
+	},
+	"ft": {
+		"ág": ["grunnbankareikningsnúmer", "grunnbankareikningsnúmer", "grunnbankareikningsnúmerum", "grunnbankareikningsnúmera"],
+		"mg": ["grunnbankareikningsnúmerin", "grunnbankareikningsnúmerin", "grunnbankareikningsnúmerunum", "grunnbankareikningsnúmeranna"]
+	},
+	"kennistrengur": "no-grunnbankareikningsnúmer-hk",
+	"hash": "995669a387528762e01d9dea2aee3e9d48cdfc1711fe2167bc8e71c0aec91c3a"
+}
