@@ -2,6 +2,16 @@
 	"orð": "renna",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "renn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-renna"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["renna", "rennu", "rennu", "rennu"],
 		"mg": ["rennan", "rennuna", "rennunni", "rennunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["rennurnar", "rennurnar", "rennunum", "rennanna"]
 	},
 	"kennistrengur": "no-renna-kvk",
-	"hash": "e46cc4df7abbaa39858f9da642d3671b731e86f669908cc7e373599fcfed95b7"
+	"hash": "7a2755f2dcc3974c52d270e1b3389a9d5bfc13a457454b9024457e86e60d8879"
 }
