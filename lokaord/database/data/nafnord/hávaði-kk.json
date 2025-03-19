@@ -2,6 +2,16 @@
 	"orð": "hávaði",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"kennistrengur": "no-vaði-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hávaði", "hávaða", "hávaða", "hávaða"],
 		"mg": ["hávaðinn", "hávaðann", "hávaðanum", "hávaðans"]
@@ -11,5 +21,5 @@
 		"mg": ["hávaðarnir", "hávaðana", "hávöðunum", "hávaðanna"]
 	},
 	"kennistrengur": "no-hávaði-kk",
-	"hash": "9c83c8b9e6658feedcd92903a27ed040af96fa5e98e46fe62fab9d001000c6c5"
+	"hash": "3bff4de32262baaf4fd532def685d62185ee277a296802e7209743ab434d7760"
 }

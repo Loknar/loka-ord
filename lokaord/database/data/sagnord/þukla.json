@@ -1,0 +1,135 @@
+{
+	"orð": "þukla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þukl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þukl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þukla",
+		"sagnbót": "þuklað",
+		"boðháttur": {
+			"stýfður": "þukla",
+			"et": "þuklaðu",
+			"ft": "þuklið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þukla", "þuklar", "þuklar"],
+					"ft": ["þuklum", "þuklið", "þukla"]
+				},
+				"þátíð": {
+					"et": ["þuklaði", "þuklaðir", "þuklaði"],
+					"ft": ["þukluðum", "þukluðuð", "þukluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þukli", "þuklir", "þukli"],
+					"ft": ["þuklum", "þuklið", "þukli"]
+				},
+				"þátíð": {
+					"et": ["þuklaði", "þuklaðir", "þuklaði"],
+					"ft": ["þukluðum", "þukluðuð", "þukluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þuklarðu",
+					"ft": "þukliði"
+				},
+				"þátíð": {
+					"et": "þuklaðirðu",
+					"ft": "þukluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þuklirðu",
+					"ft": "þukliði"
+				},
+				"þátíð": {
+					"et": "þuklaðirðu",
+					"ft": "þukluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þuklast",
+		"sagnbót": "þuklast",
+		"boðháttur": {
+			"et": "þuklastu",
+			"ft": "þuklist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þuklast", "þuklast", "þuklast"],
+					"ft": ["þuklumst", "þuklist", "þuklast"]
+				},
+				"þátíð": {
+					"et": ["þuklaðist", "þuklaðist", "þuklaðist"],
+					"ft": ["þukluðumst", "þukluðust", "þukluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þuklist", "þuklist", "þuklist"],
+					"ft": ["þuklumst", "þuklist", "þuklist"]
+				},
+				"þátíð": {
+					"et": ["þuklaðist", "þuklaðist", "þuklaðist"],
+					"ft": ["þukluðumst", "þukluðust", "þukluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þuklastu"
+				},
+				"þátíð": {
+					"et": "þuklaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þuklistu"
+				},
+				"þátíð": {
+					"et": "þuklaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þuklandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þuklaður", "þuklaðan", "þukluðum", "þuklaðs"],
+					"kvk": ["þukluð", "þuklaða", "þuklaðri", "þuklaðrar"],
+					"hk": ["þuklað", "þuklað", "þukluðu", "þuklaðs"]
+				},
+				"ft": {
+					"kk": ["þuklaðir", "þuklaða", "þukluðum", "þuklaðra"],
+					"kvk": ["þuklaðar", "þuklaðar", "þukluðum", "þuklaðra"],
+					"hk": ["þukluð", "þukluð", "þukluðum", "þuklaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þukla",
+	"hash": "a4022dc06bd44377abcbc8f2c0000c275ff918437a1585a6187948b8f4c9580e"
+}
