@@ -1,0 +1,135 @@
+{
+	"orð": "hríma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrím",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hrím-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hríma",
+		"sagnbót": "hrímað",
+		"boðháttur": {
+			"stýfður": "hríma",
+			"et": "hrímaðu",
+			"ft": "hrímið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hríma", "hrímar", "hrímar"],
+					"ft": ["hrímum", "hrímið", "hríma"]
+				},
+				"þátíð": {
+					"et": ["hrímaði", "hrímaðir", "hrímaði"],
+					"ft": ["hrímuðum", "hrímuðuð", "hrímuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrími", "hrímir", "hrími"],
+					"ft": ["hrímum", "hrímið", "hrími"]
+				},
+				"þátíð": {
+					"et": ["hrímaði", "hrímaðir", "hrímaði"],
+					"ft": ["hrímuðum", "hrímuðuð", "hrímuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hrímarðu",
+					"ft": "hrímiði"
+				},
+				"þátíð": {
+					"et": "hrímaðirðu",
+					"ft": "hrímuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hrímirðu",
+					"ft": "hrímiði"
+				},
+				"þátíð": {
+					"et": "hrímaðirðu",
+					"ft": "hrímuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hrímast",
+		"sagnbót": "hrímast",
+		"boðháttur": {
+			"et": "hrímastu",
+			"ft": "hrímist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrímast", "hrímast", "hrímast"],
+					"ft": ["hrímumst", "hrímist", "hrímast"]
+				},
+				"þátíð": {
+					"et": ["hrímaðist", "hrímaðist", "hrímaðist"],
+					"ft": ["hrímuðumst", "hrímuðust", "hrímuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrímist", "hrímist", "hrímist"],
+					"ft": ["hrímumst", "hrímist", "hrímist"]
+				},
+				"þátíð": {
+					"et": ["hrímaðist", "hrímaðist", "hrímaðist"],
+					"ft": ["hrímuðumst", "hrímuðust", "hrímuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hrímastu"
+				},
+				"þátíð": {
+					"et": "hrímaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hrímistu"
+				},
+				"þátíð": {
+					"et": "hrímaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hrímandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hrímaður", "hrímaðan", "hrímuðum", "hrímaðs"],
+					"kvk": ["hrímuð", "hrímaða", "hrímaðri", "hrímaðrar"],
+					"hk": ["hrímað", "hrímað", "hrímuðu", "hrímaðs"]
+				},
+				"ft": {
+					"kk": ["hrímaðir", "hrímaða", "hrímuðum", "hrímaðra"],
+					"kvk": ["hrímaðar", "hrímaðar", "hrímuðum", "hrímaðra"],
+					"hk": ["hrímuð", "hrímuð", "hrímuðum", "hrímaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hríma",
+	"hash": "a9c139e009b11fe00db26145c62dcce4feee0dbda93616b4782bda98300dde36"
+}
