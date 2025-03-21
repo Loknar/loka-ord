@@ -1,0 +1,32 @@
+{
+	"orð": "verkstæðisaðstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "stæðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stæði-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verkstæðisaðstaða", "verkstæðisaðstöðu", "verkstæðisaðstöðu", "verkstæðisaðstöðu"],
+		"mg": ["verkstæðisaðstaðan", "verkstæðisaðstöðuna", "verkstæðisaðstöðunni", "verkstæðisaðstöðunnar"]
+	},
+	"kennistrengur": "no-verkstæðisaðstaða-kvk",
+	"hash": "4b05ec4da02bc708e3f245ec2d6156798928c1cd9d0157ac08d98dd35019debe"
+}
