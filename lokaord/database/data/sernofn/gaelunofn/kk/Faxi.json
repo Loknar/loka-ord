@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Fax",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fax-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Faxi", "Faxa", "Faxa", "Faxa"]
 	},
 	"kennistrengur": "sérn.gn-Faxi-kk",
-	"hash": "4c02c2a0f040b6ffdfd2229afa91fffc0345eccf3a6a6f149ef9bd8e45f1f5da"
+	"hash": "d4ed0869ef8afedf655edf692f101d5e7fae333443cc2bddada6dce8ec1fe120"
 }
