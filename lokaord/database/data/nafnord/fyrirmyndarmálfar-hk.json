@@ -1,0 +1,32 @@
+{
+	"orð": "fyrirmyndarmálfar",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "myndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "mál",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-far-hk"
+		}
+	],
+	"et": {
+		"ág": ["fyrirmyndarmálfar", "fyrirmyndarmálfar", "fyrirmyndarmálfari", "fyrirmyndarmálfars"],
+		"mg": ["fyrirmyndarmálfarið", "fyrirmyndarmálfarið", "fyrirmyndarmálfarinu", "fyrirmyndarmálfarsins"]
+	},
+	"kennistrengur": "no-fyrirmyndarmálfar-hk",
+	"hash": "3c2ff908117a4bd1da820abaa348292ac12838a98baad5eb335dc541b57d42b0"
+}

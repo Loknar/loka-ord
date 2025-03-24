@@ -4,28 +4,28 @@ Frjálst gagnasafn yfir íslensk orð, beygingamyndir og samsetningu þeirra og 
 
 Gagnasafnið telur eftirfarandi fjölda orða:
 
-|   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
+|   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1325 | 1283 | 1056 | 3664 | 6138 | 7938 | 6767 | 20843 | **24507** |
-| **Lýsingarorð** | 235 |   |   |   | 597 |   |   |   | 2776 | **3373** |
-| **Sagnorð**     |   |   |   |   | 1079 |   |   |   | 930 | **2009** |
+| **Nafnorð**     |   | 1325 | 1287 | 1060 | 3672 | 6164 | 7975 | 6790 | 20929 | **24601** |
+| **Lýsingarorð** | 235 |   |   |   | 597 |   |   |   | 2780 | **3377** |
+| **Sagnorð**     |   |   |   |   | 1081 |   |   |   | 933 | **2014** |
 | **Töluorð**     |   |   |   |   | 69 |   |   |   | 10 | **79** |
 | **Fornöfn**     |   |   |   |   | 39 |   |   |   | 14 | **53** |
 | **Smáorð**      |   |   |   |   | 312 |   |   |   | 377 | **689** |
-| **Alls** |   |   |   |   | **5761** |   |   |   | **24950** | **30711** |
+| **Alls** |   |   |   |   | **5771** |   |   |   | **25043** | **30814** |
 
-| Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |
+| Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1281 | 1254 | 12 | 2547 | 964 | 1244 | 7 | 2215 | **4762** |
 | Kenninöfn |  |  |  |  | 4658 | 4656 | 4633 | 13947 | **13947** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **622** |
-| Gælunöfn  | 93 | 51 |  | 144 | 59 | 33 | 2 | 94 | **238** |
-| Örnefni   | 15 | 72 | 52 | 139 | 1061 | 760 | 784 | 2605 | **2744** |
-| **Alls**  |   |   |   | **3305** |   |   |   | **19008** | **22313** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **625** |
+| Gælunöfn  | 94 | 53 |  | 147 | 61 | 41 | 2 | 104 | **251** |
+| Örnefni   | 15 | 72 | 52 | 139 | 1073 | 766 | 794 | 2633 | **2772** |
+| **Alls**  |   |   |   | **3311** |   |   |   | **19046** | **22357** |
 
-**Samtals:** 53024 orð.
+**Samtals:** 53171 orð.
 
-341 skammstafanir.
+346 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -43,7 +43,7 @@ python -m venv env
 source env/bin/activate
 ```
 
-getur afvirkjað sýndarumhverfið með skipuninni `deactivate`. Athugaðu að þetta sýndarumhverfi er ekki sjálfkrafa virkjað þegar þú opnar nýja skipanalínu, þú þarft að velja/virkja það með `source env/bin/activate`.
+getur afvirkjað sýndarumhverfið með skipuninni `deactivate`. Athugaðu að sýndarumhverfið er ekki sjálfkrafa virkjað þegar þú opnar nýja skipanalínu, þú þarft að velja/virkja það með `source env/bin/activate`.
 
 Þú sækir og setur upp nauðsynlega pakka með
 

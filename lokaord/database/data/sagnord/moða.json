@@ -1,0 +1,135 @@
+{
+	"orð": "moða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "moð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-moð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "moða",
+		"sagnbót": "moðað",
+		"boðháttur": {
+			"stýfður": "moða",
+			"et": "moðaðu",
+			"ft": "moðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["moða", "moðar", "moðar"],
+					"ft": ["moðum", "moðið", "moða"]
+				},
+				"þátíð": {
+					"et": ["moðaði", "moðaðir", "moðaði"],
+					"ft": ["moðuðum", "moðuðuð", "moðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["moði", "moðir", "moði"],
+					"ft": ["moðum", "moðið", "moði"]
+				},
+				"þátíð": {
+					"et": ["moðaði", "moðaðir", "moðaði"],
+					"ft": ["moðuðum", "moðuðuð", "moðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "moðarðu",
+					"ft": "moðiði"
+				},
+				"þátíð": {
+					"et": "moðaðirðu",
+					"ft": "moðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "moðirðu",
+					"ft": "moðiði"
+				},
+				"þátíð": {
+					"et": "moðaðirðu",
+					"ft": "moðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "moðast",
+		"sagnbót": "moðast",
+		"boðháttur": {
+			"et": "moðastu",
+			"ft": "moðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["moðast", "moðast", "moðast"],
+					"ft": ["moðumst", "moðist", "moðast"]
+				},
+				"þátíð": {
+					"et": ["moðaðist", "moðaðist", "moðaðist"],
+					"ft": ["moðuðumst", "moðuðust", "moðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["moðist", "moðist", "moðist"],
+					"ft": ["moðumst", "moðist", "moðist"]
+				},
+				"þátíð": {
+					"et": ["moðaðist", "moðaðist", "moðaðist"],
+					"ft": ["moðuðumst", "moðuðust", "moðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "moðastu"
+				},
+				"þátíð": {
+					"et": "moðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "moðistu"
+				},
+				"þátíð": {
+					"et": "moðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "moðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["moðaður", "moðaðan", "moðuðum", "moðaðs"],
+					"kvk": ["moðuð", "moðaða", "moðaðri", "moðaðrar"],
+					"hk": ["moðað", "moðað", "moðuðu", "moðaðs"]
+				},
+				"ft": {
+					"kk": ["moðaðir", "moðaða", "moðuðum", "moðaðra"],
+					"kvk": ["moðaðar", "moðaðar", "moðuðum", "moðaðra"],
+					"hk": ["moðuð", "moðuð", "moðuðum", "moðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-moða",
+	"hash": "87ca38034f9f41e1d43ae444225f5ba6653e744c90e8a7b11f6e96c35b83a273"
+}

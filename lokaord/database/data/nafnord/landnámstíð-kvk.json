@@ -1,0 +1,27 @@
+{
+	"orð": "landnámstíð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tíð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landnámstíð", "landnámstíð", "landnámstíð", "landnámstíðar"],
+		"mg": ["landnámstíðin", "landnámstíðina", "landnámstíðinni", "landnámstíðarinnar"]
+	},
+	"kennistrengur": "no-landnámstíð-kvk",
+	"hash": "bdcd6daa60608c923101bb41686d9d4863f76cd1584eccf946e6b3fe812830e7"
+}

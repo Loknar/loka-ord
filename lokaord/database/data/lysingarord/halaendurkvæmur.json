@@ -1,0 +1,48 @@
+{
+	"orð": "halaendurkvæmur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hala",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hali-kk"
+		},
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kvæmur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["halaendurkvæmur", "halaendurkvæman", "halaendurkvæmum", "halaendurkvæms"],
+				"kvk": ["halaendurkvæm", "halaendurkvæma", "halaendurkvæmri", "halaendurkvæmrar"],
+				"hk": ["halaendurkvæmt", "halaendurkvæmt", "halaendurkvæmu", "halaendurkvæms"]
+			},
+			"ft": {
+				"kk": ["halaendurkvæmir", "halaendurkvæma", "halaendurkvæmum", "halaendurkvæmra"],
+				"kvk": ["halaendurkvæmar", "halaendurkvæmar", "halaendurkvæmum", "halaendurkvæmra"],
+				"hk": ["halaendurkvæm", "halaendurkvæm", "halaendurkvæmum", "halaendurkvæmra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["halaendurkvæmi", "halaendurkvæma", "halaendurkvæma", "halaendurkvæma"],
+				"kvk": ["halaendurkvæma", "halaendurkvæmu", "halaendurkvæmu", "halaendurkvæmu"],
+				"hk": ["halaendurkvæma", "halaendurkvæma", "halaendurkvæma", "halaendurkvæma"]
+			},
+			"ft": {
+				"kk": ["halaendurkvæmu", "halaendurkvæmu", "halaendurkvæmu", "halaendurkvæmu"],
+				"kvk": ["halaendurkvæmu", "halaendurkvæmu", "halaendurkvæmu", "halaendurkvæmu"],
+				"hk": ["halaendurkvæmu", "halaendurkvæmu", "halaendurkvæmu", "halaendurkvæmu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-halaendurkvæmur",
+	"hash": "3333380f6406a96ce61a95249d3d8b78a4de69b84fe0adb88f97040ca4d4e4e9"
+}
