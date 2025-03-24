@@ -428,7 +428,7 @@ def get_words_count_markdown_table():
 	'''
 	data = get_words_count()
 	md_table = (
-		'|   | ób.l | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |\n'
+		'|   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |\n'
 		'| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n'
 		'| **Nafnorð**     |   | {no_kk} | {no_kvk} | {no_hk} | {no_k} | {no_s_kk} | {no_s_kvk} |'
 		' {no_s_hk} | {no_s} | **{no_a}** |\n'
@@ -439,7 +439,7 @@ def get_words_count_markdown_table():
 		'| **Smáorð**      |   |   |   |   | {smo_a_k} |   |   |   | {smo_a_s} | **{smo_a}** |\n'
 		'| **Alls** |   |   |   |   | **{a_1_k}** |   |   |   | **{a_1_s}** | **{a_1_a}** |\n'
 		'\n'
-		'| Sérnöfn | kk | kvk | hk | kjarna-orð | kk | kvk | hk | samsett-orð | samtals |\n'
+		'| Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |\n'
 		'| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n'
 		'| Eiginnöfn | {sn_e_kk} | {sn_e_kvk} | {sn_e_hk} | {sn_e_k} | {sn_e_s_kk} | {sn_e_s_kvk}'
 		' | {sn_e_s_hk} | {sn_e_s} | **{sn_e_a}** |\n'
