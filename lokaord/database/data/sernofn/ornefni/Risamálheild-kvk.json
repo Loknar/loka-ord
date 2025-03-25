@@ -1,0 +1,28 @@
+{
+	"orð": "Risamálheild",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Risa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-risi-kk"
+		},
+		{
+			"mynd": "mál",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-heild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Risamálheild", "Risamálheild", "Risamálheild", "Risamálheildar"],
+		"mg": ["Risamálheildin", "Risamálheildina", "Risamálheildinni", "Risamálheildarinnar"]
+	},
+	"kennistrengur": "sérn.ön-Risamálheild-kvk",
+	"hash": "34731ef39388a601faedef513dc82886df0dac0098879982ab3fc2ba85bd6cd1"
+}

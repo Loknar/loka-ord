@@ -1,0 +1,87 @@
+{
+	"orð": "stikla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stikl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stikla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stikla",
+		"sagnbót": "stiklað",
+		"boðháttur": {
+			"stýfður": "stikla",
+			"et": "stiklaðu",
+			"ft": "stiklið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stikla", "stiklar", "stiklar"],
+					"ft": ["stiklum", "stiklið", "stikla"]
+				},
+				"þátíð": {
+					"et": ["stiklaði", "stiklaðir", "stiklaði"],
+					"ft": ["stikluðum", "stikluðuð", "stikluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stikli", "stiklir", "stikli"],
+					"ft": ["stiklum", "stiklið", "stikli"]
+				},
+				"þátíð": {
+					"et": ["stiklaði", "stiklaðir", "stiklaði"],
+					"ft": ["stikluðum", "stikluðuð", "stikluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stiklarðu",
+					"ft": "stikliði"
+				},
+				"þátíð": {
+					"et": "stiklaðirðu",
+					"ft": "stikluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stiklirðu",
+					"ft": "stikliði"
+				},
+				"þátíð": {
+					"et": "stiklaðirðu",
+					"ft": "stikluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stiklandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stiklaður", "stiklaðan", "stikluðum", "stiklaðs"],
+					"kvk": ["stikluð", "stiklaða", "stiklaðri", "stiklaðrar"],
+					"hk": ["stiklað", "stiklað", "stikluðu", "stiklaðs"]
+				},
+				"ft": {
+					"kk": ["stiklaðir", "stiklaða", "stikluðum", "stiklaðra"],
+					"kvk": ["stiklaðar", "stiklaðar", "stikluðum", "stiklaðra"],
+					"hk": ["stikluð", "stikluð", "stikluðum", "stiklaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stikla",
+	"hash": "8227a5872cc7224429cad5a89e97c8b4a41a1cebfd8db42afdd3235fb1ff0647"
+}

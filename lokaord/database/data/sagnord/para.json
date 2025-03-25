@@ -1,0 +1,132 @@
+{
+	"orð": "para",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "para",
+		"sagnbót": "parað",
+		"boðháttur": {
+			"stýfður": "para",
+			"et": "paraðu",
+			"ft": "parið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["para", "parar", "parar"],
+					"ft": ["pörum", "parið", "para"]
+				},
+				"þátíð": {
+					"et": ["paraði", "paraðir", "paraði"],
+					"ft": ["pöruðum", "pöruðuð", "pöruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pari", "parir", "pari"],
+					"ft": ["pörum", "parið", "pari"]
+				},
+				"þátíð": {
+					"et": ["paraði", "paraðir", "paraði"],
+					"ft": ["pöruðum", "pöruðuð", "pöruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pararðu",
+					"ft": "pariði"
+				},
+				"þátíð": {
+					"et": "paraðirðu",
+					"ft": "pöruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "parirðu",
+					"ft": "pariði"
+				},
+				"þátíð": {
+					"et": "pararirðu",
+					"ft": "pöruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "parast",
+		"sagnbót": "parast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["parast", "parast", "parast"],
+					"ft": ["pörumst", "parist", "parast"]
+				},
+				"þátíð": {
+					"et": ["paraðist", "paraðist", "paraðist"],
+					"ft": ["pöruðumst", "pöruðust", "pöruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["parist", "parist", "parist"],
+					"ft": ["pörumst", "parist", "parist"]
+				},
+				"þátíð": {
+					"et": ["paraðist", "paraðist", "paraðist"],
+					"ft": ["pöruðumst", "pöruðust", "pöruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "parastu"
+				},
+				"þátíð": {
+					"et": "paraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "paristu"
+				},
+				"þátíð": {
+					"et": "paraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "parandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["paraður", "paraðan", "pöruðum", "paraðs"],
+					"kvk": ["pöruð", "paraða", "paraðri", "paraðrar"],
+					"hk": ["parað", "parað", "pöruðu", "paraðs"]
+				},
+				"ft": {
+					"kk": ["paraðir", "paraða", "pöruðum", "paraðra"],
+					"kvk": ["paraðar", "paraðar", "pöruðum", "paraðra"],
+					"hk": ["pöruð", "pöruð", "pöruðum", "paraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["paraði", "paraða", "paraða", "paraða"],
+					"kvk": ["paraða", "pöruðu", "pöruðu", "pöruðu"],
+					"hk": ["paraða", "paraða", "paraða", "paraða"]
+				},
+				"ft": {
+					"kk": ["pöruðu", "pöruðu", "pöruðu", "pöruðu"],
+					"kvk": ["pöruðu", "pöruðu", "pöruðu", "pöruðu"],
+					"hk": ["pöruðu", "pöruðu", "pöruðu", "pöruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-para",
+	"hash": "e4236e159d3ff438c62351f62d4ac06544643a54c8c06018ef3d08bd84fd41e2"
+}

@@ -1,0 +1,86 @@
+{
+	"orð": "besta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "best",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-góður"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "besta",
+		"sagnbót": "bestað",
+		"boðháttur": {
+			"stýfður": "besta",
+			"et": "bestaðu",
+			"ft": "bestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["besta", "bestar", "bestar"],
+					"ft": ["bestum", "bestið", "besta"]
+				},
+				"þátíð": {
+					"et": ["bestaði", "bestaðir", "bestaði"],
+					"ft": ["bestuðum", "bestuðuð", "bestuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["besti", "bestir", "besti"],
+					"ft": ["bestum", "bestið", "besti"]
+				},
+				"þátíð": {
+					"et": ["bestaði", "bestaðir", "bestaði"],
+					"ft": ["bestuðum", "bestuðuð", "bestuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bestarðu",
+					"ft": "bestiði"
+				},
+				"þátíð": {
+					"et": "bestaðirðu",
+					"ft": "bestuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bestirðu",
+					"ft": "bestiði"
+				},
+				"þátíð": {
+					"et": "bestaðirðu",
+					"ft": "bestuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bestaður", "bestaðan", "bestuðum", "bestaðs"],
+					"kvk": ["bestuð", "bestaða", "bestaðri", "bestaðrar"],
+					"hk": ["bestað", "bestað", "bestuðu", "bestaðs"]
+				},
+				"ft": {
+					"kk": ["bestaðir", "bestaða", "bestuðum", "bestaðra"],
+					"kvk": ["bestaðar", "bestaðar", "bestuðum", "bestaðra"],
+					"hk": ["bestuð", "bestuð", "bestuðum", "bestaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-besta",
+	"hash": "b4f3e1b3c02900856de3fd186875712a06709b36626875faaf43506703fe6cb3"
+}

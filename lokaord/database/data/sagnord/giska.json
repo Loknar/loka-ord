@@ -1,0 +1,121 @@
+{
+	"orð": "giska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gisk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gisk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "giska",
+		"sagnbót": "giskað",
+		"boðháttur": {
+			"stýfður": "giska",
+			"et": "giskaðu",
+			"ft": "giskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["giska", "giskar", "giskar"],
+					"ft": ["giskum", "giskið", "giska"]
+				},
+				"þátíð": {
+					"et": ["giskaði", "giskaðir", "giskaði"],
+					"ft": ["giskuðum", "giskuðuð", "giskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["giski", "giskir", "giski"],
+					"ft": ["giskum", "giskið", "giski"]
+				},
+				"þátíð": {
+					"et": ["giskaði", "giskaðir", "giskaði"],
+					"ft": ["giskuðum", "giskuðuð", "giskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "giskarðu",
+					"ft": "giskiði"
+				},
+				"þátíð": {
+					"et": "giskaðirðu",
+					"ft": "giskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "giskirðu",
+					"ft": "giskiði"
+				},
+				"þátíð": {
+					"et": "giskaðirðu",
+					"ft": "giskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "giskast",
+		"sagnbót": "giskast",
+		"boðháttur": {
+			"et": "giskastu",
+			"ft": "giskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["giskast", "giskast", "giskast"],
+					"ft": ["giskumst", "giskist", "giskast"]
+				},
+				"þátíð": {
+					"et": ["giskaðist", "giskaðist", "giskaðist"],
+					"ft": ["giskuðumst", "giskuðust", "giskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["giskist", "giskist", "giskist"],
+					"ft": ["giskumst", "giskist", "giskist"]
+				},
+				"þátíð": {
+					"et": ["giskaðist", "giskaðist", "giskaðist"],
+					"ft": ["giskuðumst", "giskuðust", "giskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "giskastu"
+				},
+				"þátíð": {
+					"et": "giskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "giskistu"
+				},
+				"þátíð": {
+					"et": "giskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "giskandi"
+	},
+	"kennistrengur": "so-giska",
+	"hash": "74cc297653a64fac20a8019f0b1225f14942cc74fb4b6af77acc42df94ee6892"
+}
