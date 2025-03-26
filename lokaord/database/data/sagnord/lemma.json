@@ -1,0 +1,87 @@
+{
+	"orð": "lemma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lemm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lemma-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lemma",
+		"sagnbót": "lemmað",
+		"boðháttur": {
+			"stýfður": "lemma",
+			"et": "lemmaðu",
+			"ft": "lemmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lemma", "lemmar", "lemmar"],
+					"ft": ["lemmum", "lemmið", "lemma"]
+				},
+				"þátíð": {
+					"et": ["lemmaði", "lemmaðir", "lemmaði"],
+					"ft": ["lemmuðum", "lemmuðuð", "lemmuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lemmi", "lemmir", "lemmi"],
+					"ft": ["lemmum", "lemmið", "lemmi"]
+				},
+				"þátíð": {
+					"et": ["lemmaði", "lemmaðir", "lemmaði"],
+					"ft": ["lemmuðum", "lemmuðuð", "lemmuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lemmarðu",
+					"ft": "lemmiði"
+				},
+				"þátíð": {
+					"et": "lemmaðirðu",
+					"ft": "lemmuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lemmirðu",
+					"ft": "lemmiði"
+				},
+				"þátíð": {
+					"et": "lemmaðirðu",
+					"ft": "lemmuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lemmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lemmaður", "lemmaðan", "lemmuðum", "lemmaðs"],
+					"kvk": ["lemmuð", "lemmaða", "lemmaðri", "lemmaðrar"],
+					"hk": ["lemmað", "lemmað", "lemmuðu", "lemmaðs"]
+				},
+				"ft": {
+					"kk": ["lemmaðir", "lemmaða", "lemmuðum", "lemmaðra"],
+					"kvk": ["lemmaðar", "lemmaðar", "lemmuðum", "lemmaðra"],
+					"hk": ["lemmuð", "lemmuð", "lemmuðum", "lemmaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lemma",
+	"hash": "e646afa13695296d8e108da5772e33e5fa9e4f81165a6635893861cb38fdc91c"
+}
