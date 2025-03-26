@@ -828,6 +828,7 @@ def webpack(
 def clean_string(mystr: str) -> str:
 	cleaned_str = mystr
 	cleaned_str = cleaned_str.replace('\n', ' ')
+	cleaned_str = cleaned_str.replace('\t', ' ')
 	cleaned_str = cleaned_str.replace('/', ' / ')
 	remove_chars = [
 		'\xad',  # stundum notað til að tilgreina skiptingu orða á vefsíðum
