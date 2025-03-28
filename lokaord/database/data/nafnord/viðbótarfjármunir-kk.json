@@ -1,0 +1,27 @@
+{
+	"orð": "viðbótarfjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["viðbótarfjármunir", "viðbótarfjármuni", "viðbótarfjármunum", "viðbótarfjármuna"],
+		"mg": ["viðbótarfjármunirnir", "viðbótarfjármunina", "viðbótarfjármununum", "viðbótarfjármunanna"]
+	},
+	"kennistrengur": "no-viðbótarfjármunir-kk",
+	"hash": "d6a08c27f58c0e2e640db95f02a3c46b69b7eb1a3bcf57f91969cffc502f1c8c"
+}

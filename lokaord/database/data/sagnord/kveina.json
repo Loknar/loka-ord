@@ -1,0 +1,73 @@
+{
+	"orð": "kveina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kvein",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kvein-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kveina",
+		"sagnbót": "kveinað",
+		"boðháttur": {
+			"stýfður": "kveina",
+			"et": "kveinaðu",
+			"ft": "kveinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kveina", "kveinar", "kveinar"],
+					"ft": ["kveinum", "kveinið", "kveina"]
+				},
+				"þátíð": {
+					"et": ["kveinaði", "kveinaðir", "kveinaði"],
+					"ft": ["kveinuðum", "kveinuðuð", "kveinuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kveini", "kveinir", "kveini"],
+					"ft": ["kveinum", "kveinið", "kveini"]
+				},
+				"þátíð": {
+					"et": ["kveinaði", "kveinaðir", "kveinaði"],
+					"ft": ["kveinuðum", "kveinuðuð", "kveinuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kveinarðu",
+					"ft": "kveiniði"
+				},
+				"þátíð": {
+					"et": "kveinaðirðu",
+					"ft": "kveinuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kveinirðu",
+					"ft": "kveiniði"
+				},
+				"þátíð": {
+					"et": "kveinaðirðu",
+					"ft": "kveinuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kveinandi"
+	},
+	"kennistrengur": "so-kveina",
+	"hash": "1fbe3b1ce260b04064c37b8abaa32ee44acd3d010c071197727b18eea74ff164"
+}

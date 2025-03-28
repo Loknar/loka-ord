@@ -2,10 +2,22 @@
 	"orð": "risni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ris",
+			"samsetning": "stofn",
+			"kennistrengur": "so-rísa"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["risni", "risni", "risni", "risni"],
 		"mg": ["risnin", "risnina", "risninni", "risninnar"]
 	},
 	"kennistrengur": "no-risni-kvk",
-	"hash": "d63f1208ecc5183d7a0b7232552a261151584076bef59a38c883ddfa2aef1a3d"
+	"hash": "d24afad2795da5f32d710c30d7545193839f727a9508c15fc732ed0ef104547a"
 }

@@ -1,0 +1,27 @@
+{
+	"orð": "fiskveiðistjórnun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fisk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fiskur-kk"
+		},
+		{
+			"mynd": "veiði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veiði-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stjórnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fiskveiðistjórnun", "fiskveiðistjórnun", "fiskveiðistjórnun", "fiskveiðistjórnunar"],
+		"mg": ["fiskveiðistjórnunin", "fiskveiðistjórnunina", "fiskveiðistjórnuninni", "fiskveiðistjórnunarinnar"]
+	},
+	"kennistrengur": "no-fiskveiðistjórnun-kvk",
+	"hash": "e5bfa888a7a25a52d9e662ef3629decebb26638821fabe072dcdca95558daef5"
+}

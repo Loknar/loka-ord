@@ -1,0 +1,27 @@
+{
+	"orð": "kjötframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kjöt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kjöt-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kjötframleiðsla", "kjötframleiðslu", "kjötframleiðslu", "kjötframleiðslu"],
+		"mg": ["kjötframleiðslan", "kjötframleiðsluna", "kjötframleiðslunni", "kjötframleiðslunnar"]
+	},
+	"kennistrengur": "no-kjötframleiðsla-kvk",
+	"hash": "be32e1af6c059456a248cce427f6e445290e0b8083f7dff486084c9804f57c8d"
+}
