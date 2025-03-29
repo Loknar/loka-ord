@@ -1,0 +1,135 @@
+{
+	"orð": "hóa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-hó"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hóa",
+		"sagnbót": "hóað",
+		"boðháttur": {
+			"stýfður": "hóa",
+			"et": "hóaðu",
+			"ft": "hóið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hóa", "hóar", "hóar"],
+					"ft": ["hóum", "hóið", "hóa"]
+				},
+				"þátíð": {
+					"et": ["hóaði", "hóaðir", "hóaði"],
+					"ft": ["hóuðum", "hóuðuð", "hóuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hói", "hóir", "hói"],
+					"ft": ["hóum", "hóið", "hói"]
+				},
+				"þátíð": {
+					"et": ["hóaði", "hóaðir", "hóaði"],
+					"ft": ["hóuðum", "hóuðuð", "hóuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hóarðu",
+					"ft": "hóiði"
+				},
+				"þátíð": {
+					"et": "hóaðirðu",
+					"ft": "hóuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hóirðu",
+					"ft": "hóiði"
+				},
+				"þátíð": {
+					"et": "hóaðirðu",
+					"ft": "hóuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hóast",
+		"sagnbót": "hóast",
+		"boðháttur": {
+			"et": "hóastu",
+			"ft": "hóist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hóast", "hóast", "hóast"],
+					"ft": ["hóumst", "hóist", "hóast"]
+				},
+				"þátíð": {
+					"et": ["hóaðist", "hóaðist", "hóaðist"],
+					"ft": ["hóuðumst", "hóuðust", "hóuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hóist", "hóist", "hóist"],
+					"ft": ["hóumst", "hóist", "hóist"]
+				},
+				"þátíð": {
+					"et": ["hóaðist", "hóaðist", "hóaðist"],
+					"ft": ["hóuðumst", "hóuðust", "hóuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hóastu"
+				},
+				"þátíð": {
+					"et": "hóaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hóistu"
+				},
+				"þátíð": {
+					"et": "hóaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hóandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hóaður", "hóaðan", "hóuðum", "hóaðs"],
+					"kvk": ["hóuð", "hóaða", "hóaðri", "hóaðrar"],
+					"hk": ["hóað", "hóað", "hóuðu", "hóaðs"]
+				},
+				"ft": {
+					"kk": ["hóaðir", "hóaða", "hóuðum", "hóaðra"],
+					"kvk": ["hóaðar", "hóaðar", "hóuðum", "hóaðra"],
+					"hk": ["hóuð", "hóuð", "hóuðum", "hóaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hóa",
+	"hash": "d5b67eda369454faf680439027604e8b8e26c89685412278ffeca53d33eb18a2"
+}
