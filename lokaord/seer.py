@@ -826,10 +826,23 @@ def webpack(
 
 
 def clean_string(mystr: str) -> str:
+	"""
+	attempt to clean away some of the silly from the string
+	"""
 	cleaned_str = mystr
+	# skipta sumum táknum út fyrir bil
 	cleaned_str = cleaned_str.replace('\n', ' ')
 	cleaned_str = cleaned_str.replace('\t', ' ')
+	# bæta við bilum sumstaðar
 	cleaned_str = cleaned_str.replace('/', ' / ')
+	# meðhöndla annarskonar kommustafaaðferð, skipta út fyrir venjubundna kommustafi
+	cleaned_str = cleaned_str.replace('a\u0301', 'á')
+	cleaned_str = cleaned_str.replace('e\u0301', 'é')
+	cleaned_str = cleaned_str.replace('i\u0301', 'í')
+	cleaned_str = cleaned_str.replace('o\u0301', 'ó')
+	cleaned_str = cleaned_str.replace('u\u0301', 'ú')
+	cleaned_str = cleaned_str.replace('y\u0301', 'ý')
+	cleaned_str = cleaned_str.replace('o\u0308', 'ö')
 	remove_chars = [
 		'\xad',  # stundum notað til að tilgreina skiptingu orða á vefsíðum
 		'\u200b',  # zero width space
