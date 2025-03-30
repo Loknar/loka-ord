@@ -8,7 +8,6 @@
 			"kennistrengur": "so-gefa"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-inn-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["gefnari", "gefnari", "gefnari", "gefnari"],
+				"kvk": ["gefnari", "gefnari", "gefnari", "gefnari"],
+				"hk": ["gefnara", "gefnara", "gefnara", "gefnara"]
+			},
+			"ft": {
+				"kk": ["gefnari", "gefnari", "gefnari", "gefnari"],
+				"kvk": ["gefnari", "gefnari", "gefnari", "gefnari"],
+				"hk": ["gefnari", "gefnari", "gefnari", "gefnari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["gefnastur", "gefnastan", "gefnustum", "gefnasts"],
+				"kvk": ["gefnust", "gefnasta", "gefnastri", "gefnastrar"],
+				"hk": ["gefnast", "gefnast", "gefnustu", "gefnasts"]
+			},
+			"ft": {
+				"kk": ["gefnastir", "gefnasta", "gefnustum", "gefnastra"],
+				"kvk": ["gefnastar", "gefnastar", "gefnustum", "gefnastra"],
+				"hk": ["gefnust", "gefnust", "gefnustum", "gefnastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gefnasti", "gefnasta", "gefnasta", "gefnasta"],
+				"kvk": ["gefnasta", "gefnustu", "gefnustu", "gefnustu"],
+				"hk": ["gefnasta", "gefnasta", "gefnasta", "gefnasta"]
+			},
+			"ft": {
+				"kk": ["gefnustu", "gefnustu", "gefnustu", "gefnustu"],
+				"kvk": ["gefnustu", "gefnustu", "gefnustu", "gefnustu"],
+				"hk": ["gefnustu", "gefnustu", "gefnustu", "gefnustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-gefinn",
-	"hash": "70f5b9ffd7cd6a2e9afda65413861df6bd556b1bc9b51bd23f4bae7600ad6103"
+	"hash": "ca48adc1e1cdec2618b402a7c7a61de19a1f28803bb48b4f399fb6b565585def"
 }

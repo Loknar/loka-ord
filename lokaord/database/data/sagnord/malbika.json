@@ -1,0 +1,140 @@
+{
+	"orð": "malbika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mal",
+			"samsetning": "stofn",
+			"kennistrengur": "no-möl-kvk"
+		},
+		{
+			"mynd": "bik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bik-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "malbika",
+		"sagnbót": "malbikað",
+		"boðháttur": {
+			"stýfður": "malbika",
+			"et": "malbikaðu",
+			"ft": "malbikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["malbika", "malbikar", "malbikar"],
+					"ft": ["malbikum", "malbikið", "malbika"]
+				},
+				"þátíð": {
+					"et": ["malbikaði", "malbikaðir", "malbikaði"],
+					"ft": ["malbikuðum", "malbikuðuð", "malbikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["malbiki", "malbikir", "malbiki"],
+					"ft": ["malbikum", "malbikið", "malbiki"]
+				},
+				"þátíð": {
+					"et": ["malbikaði", "malbikaðir", "malbikaði"],
+					"ft": ["malbikuðum", "malbikuðuð", "malbikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "malbikarðu",
+					"ft": "malbikiði"
+				},
+				"þátíð": {
+					"et": "malbikaðirðu",
+					"ft": "malbikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "malbikirðu",
+					"ft": "malbikiði"
+				},
+				"þátíð": {
+					"et": "malbikaðirðu",
+					"ft": "malbikuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "malbikast",
+		"sagnbót": "malbikast",
+		"boðháttur": {
+			"et": "malbikastu",
+			"ft": "malbikist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["malbikast", "malbikast", "malbikast"],
+					"ft": ["malbikumst", "malbikist", "malbikast"]
+				},
+				"þátíð": {
+					"et": ["malbikaðist", "malbikaðist", "malbikaðist"],
+					"ft": ["malbikuðumst", "malbikuðust", "malbikuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["malbikist", "malbikist", "malbikist"],
+					"ft": ["malbikumst", "malbikist", "malbikist"]
+				},
+				"þátíð": {
+					"et": ["malbikaðist", "malbikaðist", "malbikaðist"],
+					"ft": ["malbikuðumst", "malbikuðust", "malbikuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "malbikastu"
+				},
+				"þátíð": {
+					"et": "malbikaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "malbikistu"
+				},
+				"þátíð": {
+					"et": "malbikaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "malbikandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["malbikaður", "malbikaðan", "malbikuðum", "malbikaðs"],
+					"kvk": ["malbikuð", "malbikaða", "malbikaðri", "malbikaðrar"],
+					"hk": ["malbikað", "malbikað", "malbikuðu", "malbikaðs"]
+				},
+				"ft": {
+					"kk": ["malbikaðir", "malbikaða", "malbikuðum", "malbikaðra"],
+					"kvk": ["malbikaðar", "malbikaðar", "malbikuðum", "malbikaðra"],
+					"hk": ["malbikuð", "malbikuð", "malbikuðum", "malbikaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-malbika",
+	"hash": "e22b3b7253ddfab54670b8a3ed8bebb2430f115a474fdcc19f3f7e77a09b39e3"
+}
