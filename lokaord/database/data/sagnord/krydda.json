@@ -1,0 +1,135 @@
+{
+	"orð": "krydda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "krydd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-krydd-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "krydda",
+		"sagnbót": "kryddað",
+		"boðháttur": {
+			"stýfður": "krydda",
+			"et": "kryddaðu",
+			"ft": "kryddið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krydda", "kryddar", "kryddar"],
+					"ft": ["kryddum", "kryddið", "krydda"]
+				},
+				"þátíð": {
+					"et": ["kryddaði", "kryddaðir", "kryddaði"],
+					"ft": ["krydduðum", "krydduðuð", "krydduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kryddi", "kryddir", "kryddi"],
+					"ft": ["kryddum", "kryddið", "kryddi"]
+				},
+				"þátíð": {
+					"et": ["kryddaði", "kryddaðir", "kryddaði"],
+					"ft": ["krydduðum", "krydduðuð", "krydduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kryddarðu",
+					"ft": "kryddiði"
+				},
+				"þátíð": {
+					"et": "kryddaðirðu",
+					"ft": "krydduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kryddirðu",
+					"ft": "kryddiði"
+				},
+				"þátíð": {
+					"et": "kryddaðirðu",
+					"ft": "krydduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kryddast",
+		"sagnbót": "kryddast",
+		"boðháttur": {
+			"et": "kryddastu",
+			"ft": "kryddist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kryddast", "kryddast", "kryddast"],
+					"ft": ["kryddumst", "kryddist", "kryddast"]
+				},
+				"þátíð": {
+					"et": ["kryddaðist", "kryddaðist", "kryddaðist"],
+					"ft": ["krydduðumst", "krydduðust", "krydduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kryddist", "kryddist", "kryddist"],
+					"ft": ["kryddumst", "kryddist", "kryddist"]
+				},
+				"þátíð": {
+					"et": ["kryddaðist", "kryddaðist", "kryddaðist"],
+					"ft": ["krydduðumst", "krydduðust", "krydduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kryddastu"
+				},
+				"þátíð": {
+					"et": "kryddaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kryddistu"
+				},
+				"þátíð": {
+					"et": "kryddaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kryddandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kryddaður", "kryddaðan", "krydduðum", "kryddaðs"],
+					"kvk": ["krydduð", "kryddaða", "kryddaðri", "kryddaðrar"],
+					"hk": ["kryddað", "kryddað", "krydduðu", "kryddaðs"]
+				},
+				"ft": {
+					"kk": ["kryddaðir", "kryddaða", "krydduðum", "kryddaðra"],
+					"kvk": ["kryddaðar", "kryddaðar", "krydduðum", "kryddaðra"],
+					"hk": ["krydduð", "krydduð", "krydduðum", "kryddaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-krydda",
+	"hash": "19b474b2055467fd0d56b33fbf758b7c898ac2f04e1dfa5ea2b260d2c176a319"
+}

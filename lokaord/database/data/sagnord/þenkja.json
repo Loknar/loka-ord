@@ -1,0 +1,120 @@
+{
+	"orð": "þenkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þenkja",
+		"sagnbót": "þenkt",
+		"boðháttur": {
+			"stýfður": "þenk",
+			"et": "þenktu",
+			"ft": "þenkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þenki", "þenkir", "þenkir"],
+					"ft": ["þenkjum", "þenkið", "þenkja"]
+				},
+				"þátíð": {
+					"et": ["þenkti", "þenktir", "þenkti"],
+					"ft": ["þenktum", "þenktuð", "þenktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þenki", "þenkir", "þenki"],
+					"ft": ["þenkjum", "þenkið", "þenki"]
+				},
+				"þátíð": {
+					"et": ["þenkti", "þenktir", "þenkti"],
+					"ft": ["þenktum", "þenktuð", "þenktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þenkirðu",
+					"ft": "þenkiði"
+				},
+				"þátíð": {
+					"et": "ýtirðu",
+					"ft": "þenktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þenkirðu",
+					"ft": "þenkiði"
+				},
+				"þátíð": {
+					"et": "ýtirðu",
+					"ft": "þenktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þenkjast",
+		"sagnbót": "þenkst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þenkist", "þenkist", "þenkist"],
+					"ft": ["þenkjumst", "þenkist", "þenkjast"]
+				},
+				"þátíð": {
+					"et": ["þenktist", "þenktist", "þenktist"],
+					"ft": ["þenktumst", "þenktust", "þenktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þenkist", "þenkist", "þenkist"],
+					"ft": ["þenkjumst", "þenkist", "þenkist"]
+				},
+				"þátíð": {
+					"et": ["þenktist", "þenktist", "þenktist"],
+					"ft": ["þenktumst", "þenktust", "þenktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þenkistu"
+				},
+				"þátíð": {
+					"et": "þenktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þenkistu"
+				},
+				"þátíð": {
+					"et": "þenktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þenkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þenktur", "þenktan", "þenktum", "þenkts"],
+					"kvk": ["þenkt", "þenkta", "þenktri", "þenktrar"],
+					"hk": ["þenkt", "þenkt", "þenktu", "þenkts"]
+				},
+				"ft": {
+					"kk": ["þenktir", "þenkta", "þenktum", "þenktra"],
+					"kvk": ["þenktar", "þenktar", "þenktum", "þenktra"],
+					"hk": ["þenkt", "þenkt", "þenktum", "þenktra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þenkja",
+	"hash": "96bd0ebcf3bb022fa68a27283fde2d146d667cf4f9379dbd9c76fae5a7148db4"
+}

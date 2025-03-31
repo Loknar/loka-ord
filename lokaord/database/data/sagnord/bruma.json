@@ -1,0 +1,95 @@
+{
+	"orð": "bruma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brum-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bruma",
+		"sagnbót": "brumað",
+		"boðháttur": {
+			"stýfður": "bruma",
+			"et": "brumaðu",
+			"ft": "brumið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bruma", "brumar", "brumar"],
+					"ft": ["brumum", "brumið", "bruma"]
+				},
+				"þátíð": {
+					"et": ["brumaði", "brumaðir", "brumaði"],
+					"ft": ["brumuðum", "brumuðuð", "brumuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brumi", "brumir", "brumi"],
+					"ft": ["brumum", "brumið", "brumi"]
+				},
+				"þátíð": {
+					"et": ["brumaði", "brumaðir", "brumaði"],
+					"ft": ["brumuðum", "brumuðuð", "brumuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "brumast",
+		"sagnbót": "brumast",
+		"boðháttur": {
+			"et": "brumastu",
+			"ft": "brumist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brumast", "brumast", "brumast"],
+					"ft": ["brumumst", "brumist", "brumast"]
+				},
+				"þátíð": {
+					"et": ["brumaðist", "brumaðist", "brumaðist"],
+					"ft": ["brumuðumst", "brumuðust", "brumuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brumist", "brumist", "brumist"],
+					"ft": ["brumumst", "brumist", "brumist"]
+				},
+				"þátíð": {
+					"et": ["brumaðist", "brumaðist", "brumaðist"],
+					"ft": ["brumuðumst", "brumuðust", "brumuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brumandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brumaður", "brumaðan", "brumuðum", "brumaðs"],
+					"kvk": ["brumuð", "brumaða", "brumaðri", "brumaðrar"],
+					"hk": ["brumað", "brumað", "brumuðu", "brumaðs"]
+				},
+				"ft": {
+					"kk": ["brumaðir", "brumaða", "brumuðum", "brumaðra"],
+					"kvk": ["brumaðar", "brumaðar", "brumuðum", "brumaðra"],
+					"hk": ["brumuð", "brumuð", "brumuðum", "brumaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bruma",
+	"hash": "6c2b23700bc819c736916f771948a477543b9e0f5cf9b86441cfe85e76d5ae64"
+}

@@ -2,10 +2,21 @@
 	"orð": "bægir",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "bæg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-bægja"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ir-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["bægir", "bægi", "bægi", "bægis"],
 		"mg": ["bægirinn", "bæginn", "bæginum", "bægisins"]
 	},
 	"kennistrengur": "no-bægir-kk",
-	"hash": "7bb49c5c0f5050331d8925a1512c477b8a3e7b313ab8c5a58c880b0236c659bf"
+	"hash": "d963f646b427c6c9ee5fbb70c7242ccb9604d8384f4d0b10ed0e0847e833b624"
 }

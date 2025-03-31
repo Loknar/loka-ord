@@ -1,0 +1,27 @@
+{
+	"orð": "matjurtarækt",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mat",
+			"samsetning": "stofn",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"mynd": "jurta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jurt-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rækt-kvk"
+		}
+	],
+	"et": {
+		"ág": ["matjurtarækt", "matjurtarækt", "matjurtarækt", "matjurtaræktar"],
+		"mg": ["matjurtaræktin", "matjurtaræktina", "matjurtaræktinni", "matjurtaræktarinnar"]
+	},
+	"kennistrengur": "no-matjurtarækt-kvk",
+	"hash": "b2e13de6eed98b8b57af815df95eca23bf90a834b8f70949bb0c410468a22159"
+}
