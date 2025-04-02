@@ -6,6 +6,7 @@ Scan text, attempt to identify words.
 """
 import copy
 from collections import deque
+from collections.abc import Iterable
 import datetime
 import itertools
 import json
@@ -53,8 +54,31 @@ def search_word(word):
 	print('\033[36m---\033[0m')
 
 
-def word_change_possibilities(word: str) -> list[str]:
-	myset = set([word])
+def word_change_possibilities(word: str) -> Iterable[str]:
+	"""
+	provide possible word adjustments for identification attempt purposes
+	"""
+
+	def ellify(word: str) -> Iterable[str]:
+		"""
+		provide all possibilities of ll -> łl replacements
+		"""
+		occurances = []
+		for loc in range(len(word)):
+			if word[loc:loc+2] == 'll':
+				occurances.append(loc)
+		len_occurances = len(occurances)
+		if len_occurances == 0:
+			return [word]
+		combinations = [x for x in itertools.product([False, True], repeat=len_occurances)]
+		possibilities = []
+		for i in range(len(combinations)):
+			option = word
+			for j in range(len_occurances):
+				if combinations[i][j] is True:
+					option = option[:occurances[j]] + 'łl' + option[occurances[j]+2:]
+			possibilities.append(option)
+		return possibilities
 
 	def uppercase(word: str) -> str:
 		return '%s%s' % (word[0].upper(), word[1:])
@@ -65,35 +89,34 @@ def word_change_possibilities(word: str) -> list[str]:
 	def lower_then_uppercase(word: str) -> str:
 		return uppercase(lowercase(word))
 
-	def ellify(word: str) -> str:
-		return word.replace('ll', 'łl')
-
 	def apply_possibility(
-		word: str, possibility: list[bool], changes: list[Callable[[str], str]]
+		word: str, applier: list[bool], change_functions: list[Callable[[str], str]]
 	) -> str:
-		if len(possibility) != len(changes):
-			raise Exception('possibility and changes should have same length')
+		if len(applier) != len(change_functions):
+			raise Exception('applier and change_functions lists should have same length')
 		e_word = word
-		for i in range(len(possibility)):
-			if possibility[i] is True:
-				e_word = changes[i](e_word)
+		for i in range(len(applier)):
+			if applier[i] is True:
+				e_word = change_functions[i](e_word)
 		return e_word
 
-	changes = [
+	change_functions = [
 		uppercase,
 		lowercase,
 		lower_then_uppercase,
-		ellify
 	]
-	possibilities = sorted(
+	len_change_functions = len(change_functions)
+	appliers = sorted(
 		list(set(itertools.permutations(
-			[True] * len(changes) + [False] * (len(changes) - 1),
-			len(changes)))
+			[True] * len_change_functions + [False] * (len_change_functions - 1),
+			len_change_functions))
 		),
 		reverse=True
 	)
-	for possibility in possibilities:
-		myset.add(apply_possibility(word, possibility, changes))
+	myset = set([word])
+	for ellified in ellify(word):
+		for applier in appliers:
+			myset.add(apply_possibility(ellified, applier, change_functions))
 	return sorted(list(myset), reverse=True)
 
 
