@@ -1,0 +1,32 @@
+{
+	"orð": "kolefnisbókhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["kolefnisbókhald", "kolefnisbókhald", "kolefnisbókhaldi", "kolefnisbókhalds"],
+		"mg": ["kolefnisbókhaldið", "kolefnisbókhaldið", "kolefnisbókhaldinu", "kolefnisbókhaldsins"]
+	},
+	"kennistrengur": "no-kolefnisbókhald-hk",
+	"hash": "095a1f1808824c92879a4c2ae4a3aa0b1001dcfd9c495f1573f78d18a0a19b77"
+}

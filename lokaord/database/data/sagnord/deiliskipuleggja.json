@@ -1,0 +1,174 @@
+{
+	"orð": "deiliskipuleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "deili",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-deila"
+		},
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "deiliskipuleggja",
+		"sagnbót": "deiliskipulagt",
+		"boðháttur": {
+			"stýfður": "deiliskipulegg",
+			"et": "deiliskipuleggðu",
+			"ft": "deiliskipuleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["deiliskipulegg", "deiliskipuleggur", "deiliskipuleggur"],
+					"ft": ["deiliskipuleggjum", "deiliskipuleggið", "deiliskipuleggja"]
+				},
+				"þátíð": {
+					"et": ["deiliskipulagði", "deiliskipulagðir", "deiliskipulagði"],
+					"ft": ["deiliskipulögðum", "deiliskipulögðuð", "deiliskipulögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["deiliskipuleggi", "deiliskipuleggir", "deiliskipuleggi"],
+					"ft": ["deiliskipuleggjum", "deiliskipuleggið", "deiliskipuleggi"]
+				},
+				"þátíð": {
+					"et": ["deiliskipulegði", "deiliskipulegðir", "deiliskipulegði"],
+					"ft": ["deiliskipulegðum", "deiliskipulegðuð", "deiliskipulegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "deiliskipuleggurðu",
+					"ft": "deiliskipuleggiði"
+				},
+				"þátíð": {
+					"et": "deiliskipulagðirðu",
+					"ft": "deiliskipulögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "deiliskipuleggirðu",
+					"ft": "deiliskipuleggiði"
+				},
+				"þátíð": {
+					"et": "deiliskipuleggðirðu",
+					"ft": "deiliskipuleggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "deiliskipuleggjast",
+		"sagnbót": "deiliskipulagst",
+		"boðháttur": {
+			"et": "deiliskipuleggstu",
+			"ft": "deiliskipuleggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["deiliskipuleggst", "deiliskipuleggst", "deiliskipuleggst"],
+					"ft": ["deiliskipuleggjumst", "deiliskipuleggist", "deiliskipuleggjast"]
+				},
+				"þátíð": {
+					"et": ["deiliskipulagðist", "deiliskipulagðist", "deiliskipulagðist"],
+					"ft": ["deiliskipulögðumst", "deiliskipulögðust", "deiliskipulögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["deiliskipuleggist", "deiliskipuleggist", "deiliskipuleggist"],
+					"ft": ["deiliskipuleggjumst", "deiliskipuleggist", "deiliskipuleggist"]
+				},
+				"þátíð": {
+					"et": ["deiliskipulegðist", "deiliskipulegðist", "deiliskipulegðist"],
+					"ft": ["deiliskipulegðumst", "deiliskipulegðist", "deiliskipulegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["deiliskipuleggst", "deiliskipuleggst", "deiliskipuleggst"],
+					"ft": ["deiliskipuleggst", "deiliskipuleggst", "deiliskipuleggst"]
+				},
+				"þátíð": {
+					"et": ["deiliskipulagðist", "deiliskipulagðist", "deiliskipulagðist"],
+					"ft": ["deiliskipulagðist", "deiliskipulagðist", "deiliskipulagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["deiliskipuleggist", "deiliskipuleggist", "deiliskipuleggist"],
+					"ft": ["deiliskipuleggjumst", "deiliskipuleggist", "deiliskipuleggist"]
+				},
+				"þátíð": {
+					"et": ["deiliskipulegðist", "deiliskipulegðist", "deiliskipulegðist"],
+					"ft": ["deiliskipulegðumst", "deiliskipulegðust", "deiliskipulegðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "deiliskipuleggstu"
+				},
+				"þátíð": {
+					"et": "deiliskipulagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "deiliskipuleggistu"
+				},
+				"þátíð": {
+					"et": "deiliskipulegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "deiliskipuleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["deiliskipulagður", "deiliskipulagðan", "deiliskipulögðum", "deiliskipulagðs"],
+					"kvk": ["deiliskipulögð", "deiliskipulagða", "deiliskipulagðri", "deiliskipulagðrar"],
+					"hk": ["deiliskipulagt", "deiliskipulagt", "deiliskipulögðu", "deiliskipulagðs"]
+				},
+				"ft": {
+					"kk": ["deiliskipulagðir", "deiliskipulagða", "deiliskipulögðum", "deiliskipulagðra"],
+					"kvk": ["deiliskipulagðar", "deiliskipulagðar", "deiliskipulögðum", "deiliskipulagðra"],
+					"hk": ["deiliskipulögð", "deiliskipulögð", "deiliskipulögðum", "deiliskipulagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["deiliskipulagði", "deiliskipulagða", "deiliskipulagða", "deiliskipulagða"],
+					"kvk": ["deiliskipulagða", "deiliskipulögðu", "deiliskipulögðu", "deiliskipulögðu"],
+					"hk": ["deiliskipulagða", "deiliskipulagða", "deiliskipulagða", "deiliskipulagða"]
+				},
+				"ft": {
+					"kk": ["deiliskipulögðu", "deiliskipulögðu", "deiliskipulögðu", "deiliskipulögðu"],
+					"kvk": ["deiliskipulögðu", "deiliskipulögðu", "deiliskipulögðu", "deiliskipulögðu"],
+					"hk": ["deiliskipulögðu", "deiliskipulögðu", "deiliskipulögðu", "deiliskipulögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-deiliskipuleggja",
+	"hash": "abe0da2d454e0479df8ef8ac64f37ef1a6fe64af9ad0d27e977dc147c6d10274"
+}
