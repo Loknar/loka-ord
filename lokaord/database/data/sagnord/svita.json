@@ -1,0 +1,135 @@
+{
+	"orð": "svita",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "svit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sviti-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "svita",
+		"sagnbót": "svitað",
+		"boðháttur": {
+			"stýfður": "svita",
+			"et": "svitaðu",
+			"ft": "svitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svita", "svitar", "svitar"],
+					"ft": ["svitum", "svitið", "svita"]
+				},
+				"þátíð": {
+					"et": ["svitaði", "svitaðir", "svitaði"],
+					"ft": ["svituðum", "svituðuð", "svituðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sviti", "svitir", "sviti"],
+					"ft": ["svitum", "svitið", "sviti"]
+				},
+				"þátíð": {
+					"et": ["svitaði", "svitaðir", "svitaði"],
+					"ft": ["svituðum", "svituðuð", "svituðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svitarðu",
+					"ft": "svitiði"
+				},
+				"þátíð": {
+					"et": "svitaðirðu",
+					"ft": "svituðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svitirðu",
+					"ft": "svitiði"
+				},
+				"þátíð": {
+					"et": "svitaðirðu",
+					"ft": "svituðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "svitast",
+		"sagnbót": "svitast",
+		"boðháttur": {
+			"et": "svitastu",
+			"ft": "svitist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svitast", "svitast", "svitast"],
+					"ft": ["svitumst", "svitist", "svitast"]
+				},
+				"þátíð": {
+					"et": ["svitaðist", "svitaðist", "svitaðist"],
+					"ft": ["svituðumst", "svituðust", "svituðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svitist", "svitist", "svitist"],
+					"ft": ["svitumst", "svitist", "svitist"]
+				},
+				"þátíð": {
+					"et": ["svitaðist", "svitaðist", "svitaðist"],
+					"ft": ["svituðumst", "svituðust", "svituðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svitastu"
+				},
+				"þátíð": {
+					"et": "svitaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svitistu"
+				},
+				"þátíð": {
+					"et": "svitaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "svitandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["svitaður", "svitaðan", "svituðum", "svitaðs"],
+					"kvk": ["svituð", "svitaða", "svitaðri", "svitaðrar"],
+					"hk": ["svitað", "svitað", "svituðu", "svitaðs"]
+				},
+				"ft": {
+					"kk": ["svitaðir", "svitaða", "svituðum", "svitaðra"],
+					"kvk": ["svitaðar", "svitaðar", "svituðum", "svitaðra"],
+					"hk": ["svituð", "svituð", "svituðum", "svitaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-svita",
+	"hash": "746711e0183ffeec76ed045107e481726f8dfa68ea2a624c4117384067c0d76b"
+}
