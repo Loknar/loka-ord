@@ -1,0 +1,27 @@
+{
+	"orð": "kynslóðaskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "slóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-slóð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["kynslóðaskipti", "kynslóðaskipti", "kynslóðaskiptum", "kynslóðaskipta"],
+		"mg": ["kynslóðaskiptin", "kynslóðaskiptin", "kynslóðaskiptunum", "kynslóðaskiptanna"]
+	},
+	"kennistrengur": "no-kynslóðaskipti-hk",
+	"hash": "f9c1d1e3729d3adc27a237c5b21807b35beecc00adf81f6f02721d346419eda9"
+}
