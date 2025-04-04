@@ -1,0 +1,73 @@
+{
+	"orð": "drottna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "drottn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-drottinn-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "drottna",
+		"sagnbót": "drottnað",
+		"boðháttur": {
+			"stýfður": "drottna",
+			"et": "drottnaðu",
+			"ft": "drottnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["drottna", "drottnar", "drottnar"],
+					"ft": ["drottnum", "drottnið", "drottna"]
+				},
+				"þátíð": {
+					"et": ["drottnaði", "drottnaðir", "drottnaði"],
+					"ft": ["drottnuðum", "drottnuðuð", "drottnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["drottni", "drottnir", "drottni"],
+					"ft": ["drottnum", "drottnið", "drottni"]
+				},
+				"þátíð": {
+					"et": ["drottnaði", "drottnaðir", "drottnaði"],
+					"ft": ["drottnuðum", "drottnuðuð", "drottnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "drottnarðu",
+					"ft": "drottniði"
+				},
+				"þátíð": {
+					"et": "drottnaðirðu",
+					"ft": "drottnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "drottnirðu",
+					"ft": "drottniði"
+				},
+				"þátíð": {
+					"et": "drottnaðirðu",
+					"ft": "drottnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "drottnandi"
+	},
+	"kennistrengur": "so-drottna",
+	"hash": "05d48100182fe2a208f545ca172ad3cc7f389e8e0bfa84c21d5314241a272561"
+}

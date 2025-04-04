@@ -1,0 +1,136 @@
+{
+	"orð": "vaska",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "vaska",
+		"sagnbót": "vaskað",
+		"boðháttur": {
+			"stýfður": "vaska",
+			"et": "vaskaðu",
+			"ft": "vaskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vaska", "vaskar", "vaskar"],
+					"ft": ["vöskum", "vaskið", "vaska"]
+				},
+				"þátíð": {
+					"et": ["vaskaði", "vaskaðir", "vaskaði"],
+					"ft": ["vöskuðum", "vöskuðuð", "vöskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vaski", "vaskir", "vaski"],
+					"ft": ["vöskum", "vaskið", "vaski"]
+				},
+				"þátíð": {
+					"et": ["vaskaði", "vaskaðir", "vaskaði"],
+					"ft": ["vöskuðum", "vöskuðuð", "vöskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vaskarðu",
+					"ft": "vaskiði"
+				},
+				"þátíð": {
+					"et": "vaskaðirðu",
+					"ft": "vöskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaskirðu",
+					"ft": "vaskiði"
+				},
+				"þátíð": {
+					"et": "vaskaðirðu",
+					"ft": "vöskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vaskast",
+		"sagnbót": "vaskist",
+		"boðháttur": {
+			"et": "vaskstu",
+			"ft": "vaskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vaskast", "vaskast", "vaskast"],
+					"ft": ["vöskumst", "vaskist", "vaskast"]
+				},
+				"þátíð": {
+					"et": ["vaskaðist", "vaskaðist", "vaskaðist"],
+					"ft": ["vöskuðumst", "vöskuðust", "vöskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vaskist", "vaskist", "vaskist"],
+					"ft": ["vöskumst", "vaskist", "vaskist"]
+				},
+				"þátíð": {
+					"et": ["vaskaðist", "vaskaðist", "vaskaðist"],
+					"ft": ["vöskuðumst", "vöskuðust", "vöskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vaskastu"
+				},
+				"þátíð": {
+					"et": "vaskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaskistu"
+				},
+				"þátíð": {
+					"et": "vaskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vaskandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vaskaður", "vaskaðan", "vöskuðum", "vaskaðs"],
+					"kvk": ["vöskuð", "vaskaða", "vaskaðri", "vaskaðrar"],
+					"hk": ["vaskað", "vaskað", "vöskuðu", "vaskaðs"]
+				},
+				"ft": {
+					"kk": ["vaskaðir", "vaskaða", "vöskuðum", "vaskaðra"],
+					"kvk": ["vaskaðar", "vaskaðar", "vöskuðum", "vaskaðra"],
+					"hk": ["vöskuð", "vöskuð", "vöskuðum", "vaskaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vaskaði", "vaskaða", "vaskaða", "vaskaða"],
+					"kvk": ["vaskaða", "vöskuðu", "vöskuðu", "vöskuðu"],
+					"hk": ["vaskaða", "vaskaða", "vaskaða", "vaskaða"]
+				},
+				"ft": {
+					"kk": ["vöskuðu", "vöskuðu", "vöskuðu", "vöskuðu"],
+					"kvk": ["vöskuðu", "vöskuðu", "vöskuðu", "vöskuðu"],
+					"hk": ["vöskuðu", "vöskuðu", "vöskuðu", "vöskuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vaska",
+	"hash": "ce4dbec5255ad68689fb336c9bab8a444b3a71a7b1c9d1d3daf11c32d4da31c8"
+}

@@ -1,0 +1,65 @@
+{
+	"orð": "burðast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "burð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-burður-kk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "burðast",
+		"sagnbót": "burðast",
+		"boðháttur": {
+			"et": "burðastu",
+			"ft": "burðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["burðast", "burðast", "burðast"],
+					"ft": ["burðumst", "burðist", "burðast"]
+				},
+				"þátíð": {
+					"et": ["burðaðist", "burðaðist", "burðaðist"],
+					"ft": ["burðuðumst", "burðuðust", "burðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["burðist", "burðist", "burðist"],
+					"ft": ["burðumst", "burðist", "burðist"]
+				},
+				"þátíð": {
+					"et": ["burðaðist", "burðaðist", "burðaðist"],
+					"ft": ["burðuðumst", "burðuðust", "burðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "burðastu"
+				},
+				"þátíð": {
+					"et": "burðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "burðistu"
+				},
+				"þátíð": {
+					"et": "burðaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-burðast",
+	"hash": "3c0531ea3b5fd4ef1e1a7273bbd4996b7102af317e7ab31f2686786d39eae5d0"
+}
