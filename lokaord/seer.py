@@ -853,25 +853,33 @@ def clean_string(mystr: str) -> str:
 	attempt to clean away some of the silly from the string
 	"""
 	cleaned_str = mystr
-	# skipta sumum táknum út fyrir bil
-	cleaned_str = cleaned_str.replace('\n', ' ')
-	cleaned_str = cleaned_str.replace('\t', ' ')
-	# bæta við bilum sumstaðar
-	cleaned_str = cleaned_str.replace('/', ' / ')
-	# meðhöndla annarskonar kommustafaaðferð, skipta út fyrir venjubundna kommustafi
-	cleaned_str = cleaned_str.replace('a\u0301', 'á')
-	cleaned_str = cleaned_str.replace('e\u0301', 'é')
-	cleaned_str = cleaned_str.replace('i\u0301', 'í')
-	cleaned_str = cleaned_str.replace('o\u0301', 'ó')
-	cleaned_str = cleaned_str.replace('u\u0301', 'ú')
-	cleaned_str = cleaned_str.replace('y\u0301', 'ý')
-	cleaned_str = cleaned_str.replace('o\u0308', 'ö')
-	remove_chars = [
-		'\xad',  # stundum notað til að tilgreina skiptingu orða á vefsíðum
-		'\u200b',  # zero width space
+	replacements = [
+		# skipta sumum táknum út fyrir bil
+		('\n', ' '),
+		('\t', ' '),
+		# bæta við bilum sumstaðar
+		('/', ' / '),
+		# meðhöndla annarskonar kommustafaaðferð, skipta út fyrir venjubundna kommustafi
+		('A\u0301', 'Á'),
+		('E\u0301', 'É'),
+		('I\u0301', 'Í'),
+		('O\u0301', 'Ó'),
+		('U\u0301', 'Ú'),
+		('Y\u0301', 'Ý'),
+		('O\u0308', 'Ö'),
+		('a\u0301', 'á'),
+		('e\u0301', 'é'),
+		('i\u0301', 'í'),
+		('o\u0301', 'ó'),
+		('u\u0301', 'ú'),
+		('y\u0301', 'ý'),
+		('o\u0308', 'ö'),
+		# fjarlægja óæskileg tákn
+		('\xad', ''),  # stundum notað til að tilgreina skiptingu orða á vefsíðum
+		('\u200b', ''),  # zero width space
 	]
-	for remove_char in remove_chars:
-		cleaned_str = cleaned_str.replace(remove_char, '')
+	for search_str, replace_str in replacements:
+		cleaned_str = cleaned_str.replace(search_str, replace_str)
 	return cleaned_str
 
 
