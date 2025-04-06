@@ -1,0 +1,135 @@
+{
+	"orð": "krumla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kruml",
+			"samsetning": "stofn",
+			"kennistrengur": "no-krumla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "krumla",
+		"sagnbót": "krumlað",
+		"boðháttur": {
+			"stýfður": "krumla",
+			"et": "krumlaðu",
+			"ft": "krumlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krumla", "krumlar", "krumlar"],
+					"ft": ["krumlum", "krumlið", "krumla"]
+				},
+				"þátíð": {
+					"et": ["krumlaði", "krumlaðir", "krumlaði"],
+					"ft": ["krumluðum", "krumluðuð", "krumluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krumli", "krumlir", "krumli"],
+					"ft": ["krumlum", "krumlið", "krumli"]
+				},
+				"þátíð": {
+					"et": ["krumlaði", "krumlaðir", "krumlaði"],
+					"ft": ["krumluðum", "krumluðuð", "krumluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "krumlarðu",
+					"ft": "krumliði"
+				},
+				"þátíð": {
+					"et": "krumlaðirðu",
+					"ft": "krumluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "krumlirðu",
+					"ft": "krumliði"
+				},
+				"þátíð": {
+					"et": "krumlaðirðu",
+					"ft": "krumluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "krumlast",
+		"sagnbót": "krumlast",
+		"boðháttur": {
+			"et": "krumlastu",
+			"ft": "krumlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krumlast", "krumlast", "krumlast"],
+					"ft": ["krumlumst", "krumlist", "krumlast"]
+				},
+				"þátíð": {
+					"et": ["krumlaðist", "krumlaðist", "krumlaðist"],
+					"ft": ["krumluðumst", "krumluðust", "krumluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krumlist", "krumlist", "krumlist"],
+					"ft": ["krumlumst", "krumlist", "krumlist"]
+				},
+				"þátíð": {
+					"et": ["krumlaðist", "krumlaðist", "krumlaðist"],
+					"ft": ["krumluðumst", "krumluðust", "krumluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "krumlastu"
+				},
+				"þátíð": {
+					"et": "krumlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "krumlistu"
+				},
+				"þátíð": {
+					"et": "krumlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "krumlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["krumlaður", "krumlaðan", "krumluðum", "krumlaðs"],
+					"kvk": ["krumluð", "krumlaða", "krumlaðri", "krumlaðrar"],
+					"hk": ["krumlað", "krumlað", "krumluðu", "krumlaðs"]
+				},
+				"ft": {
+					"kk": ["krumlaðir", "krumlaða", "krumluðum", "krumlaðra"],
+					"kvk": ["krumlaðar", "krumlaðar", "krumluðum", "krumlaðra"],
+					"hk": ["krumluð", "krumluð", "krumluðum", "krumlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-krumla",
+	"hash": "a3fc3c14f2b6f5a97b1cc7795e1e20a84d4fb2b295a6e86c36b9490004dc0d5f"
+}

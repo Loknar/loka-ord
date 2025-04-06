@@ -1,0 +1,65 @@
+{
+	"orð": "dauðadæma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dauða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dauði-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-dæma"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dauðadæma",
+		"sagnbót": "dauðadæmt",
+		"boðháttur": {
+			"stýfður": "dauðadæm",
+			"et": "dauðadæmdu",
+			"ft": "dauðadæmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dauðadæmi", "dauðadæmir", "dauðadæmir"],
+					"ft": ["dauðadæmum", "dauðadæmið", "dauðadæma"]
+				},
+				"þátíð": {
+					"et": ["dauðadæmdi", "dauðadæmdir", "dauðadæmdi"],
+					"ft": ["dauðadæmdum", "dauðadæmduð", "dauðadæmdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dauðadæmi", "dauðadæmir", "dauðadæmi"],
+					"ft": ["dauðadæmum", "dauðadæmið", "dauðadæmi"]
+				},
+				"þátíð": {
+					"et": ["dauðadæmdi", "dauðadæmdir", "dauðadæmdi"],
+					"ft": ["dauðadæmdum", "dauðadæmduð", "dauðadæmdu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dauðadæmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dauðadæmdur", "dauðadæmdan", "dauðadæmdum", "dauðadæmds"],
+					"kvk": ["dauðadæmd", "dauðadæmda", "dauðadæmdri", "dauðadæmdrar"],
+					"hk": ["dauðakært", "dauðakært", "dauðadæmdu", "dauðadæmds"]
+				},
+				"ft": {
+					"kk": ["dauðadæmdir", "dauðadæmda", "dauðadæmdum", "dauðadæmdra"],
+					"kvk": ["dauðadæmdar", "dauðadæmdar", "dauðadæmdum", "dauðadæmdra"],
+					"hk": ["dauðadæmd", "dauðadæmd", "dauðadæmdum", "dauðadæmdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dauðadæma",
+	"hash": "5c5f3271ae3f4062e0d4f2f54a3f4cf4acc7b3c79ede2a6f10d64946ceb5a25e"
+}

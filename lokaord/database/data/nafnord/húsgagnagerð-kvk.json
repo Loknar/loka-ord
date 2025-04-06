@@ -1,0 +1,30 @@
+{
+	"orð": "húsgagnagerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "gagna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gagn-hk"
+		},
+		{
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["húsgagnagerð", "húsgagnagerð", "húsgagnagerð", "húsgagnagerðar"],
+		"mg": ["húsgagnagerðin", "húsgagnagerðina", "húsgagnagerðinni", "húsgagnagerðarinnar"]
+	},
+	"ft": {
+		"ág": ["húsgagnagerðir", "húsgagnagerðir", "húsgagnagerðum", "húsgagnagerða"],
+		"mg": ["húsgagnagerðirnar", "húsgagnagerðirnar", "húsgagnagerðunum", "húsgagnagerðanna"]
+	},
+	"kennistrengur": "no-húsgagnagerð-kvk",
+	"hash": "87c03eaad388a23bfda51c0d40589d4544f5bcb7e54779c8c913863a383280ed"
+}
