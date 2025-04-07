@@ -1,0 +1,74 @@
+{
+	"orð": "grassera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grass",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gras-hk"
+		},
+		{
+			"leiðir": "er",
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grassera",
+		"sagnbót": "grasserað",
+		"boðháttur": {
+			"stýfður": "grassera",
+			"et": "grasseraðu",
+			"ft": "grasserið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grassera", "grasserar", "grasserar"],
+					"ft": ["grasserum", "grasserið", "grassera"]
+				},
+				"þátíð": {
+					"et": ["grasseraði", "grasseraðir", "grasseraði"],
+					"ft": ["grasseruðum", "grasseruðuð", "grasseruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grasseri", "grasserir", "grasseri"],
+					"ft": ["grasserum", "grasserið", "grasseri"]
+				},
+				"þátíð": {
+					"et": ["grasseraði", "grasseraðir", "grasseraði"],
+					"ft": ["grasseruðum", "grasseruðuð", "grasseruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grasserarðu",
+					"ft": "grasseriði"
+				},
+				"þátíð": {
+					"et": "grasseraðirðu",
+					"ft": "grasseruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grasserirðu",
+					"ft": "grasseriði"
+				},
+				"þátíð": {
+					"et": "grasseraðirðu",
+					"ft": "grasseruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grasserandi"
+	},
+	"kennistrengur": "so-grassera",
+	"hash": "107f5cab8c36785d39c929792c072c68e66b5f88e09403f382e6d801c89c4973"
+}
