@@ -1,0 +1,146 @@
+{
+	"orð": "skóla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skóla",
+		"sagnbót": "skólað",
+		"boðháttur": {
+			"stýfður": "skóla",
+			"et": "skólaðu",
+			"ft": "skólið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skóla", "skólar", "skólar"],
+					"ft": ["skólum", "skólið", "skóla"]
+				},
+				"þátíð": {
+					"et": ["skólaði", "skólaðir", "skólaði"],
+					"ft": ["skóluðum", "skóluðuð", "skóluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skóli", "skólir", "skóli"],
+					"ft": ["skólum", "skólið", "skóli"]
+				},
+				"þátíð": {
+					"et": ["skólaði", "skólaðir", "skólaði"],
+					"ft": ["skóluðum", "skóluðuð", "skóluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skólarðu",
+					"ft": "skóliði"
+				},
+				"þátíð": {
+					"et": "skólaðirðu",
+					"ft": "skóluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skólirðu",
+					"ft": "skóliði"
+				},
+				"þátíð": {
+					"et": "skólaðirðu",
+					"ft": "skóluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skólast",
+		"sagnbót": "skólast",
+		"boðháttur": {
+			"et": "skólastu",
+			"ft": "skólist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skólast", "skólast", "skólast"],
+					"ft": ["skólumst", "skólist", "skólast"]
+				},
+				"þátíð": {
+					"et": ["skólaðist", "skólaðist", "skólaðist"],
+					"ft": ["skóluðumst", "skóluðust", "skóluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skólist", "skólist", "skólist"],
+					"ft": ["skólumst", "skólist", "skólist"]
+				},
+				"þátíð": {
+					"et": ["skólaðist", "skólaðist", "skólaðist"],
+					"ft": ["skóluðumst", "skóluðust", "skóluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skólastu"
+				},
+				"þátíð": {
+					"et": "skólaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skólistu"
+				},
+				"þátíð": {
+					"et": "skólaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skólandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skólaður", "skólaðan", "skóluðum", "skólaðs"],
+					"kvk": ["skóluð", "skólaða", "skólaðri", "skólaðrar"],
+					"hk": ["skólað", "skólað", "skóluðu", "skólaðs"]
+				},
+				"ft": {
+					"kk": ["skólaðir", "skólaða", "skóluðum", "skólaðra"],
+					"kvk": ["skólaðar", "skólaðar", "skóluðum", "skólaðra"],
+					"hk": ["skóluð", "skóluð", "skóluðum", "skólaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skólaði", "skólaða", "skólaða", "skólaða"],
+					"kvk": ["skólaða", "skóluðu", "skóluðu", "skóluðu"],
+					"hk": ["skólaða", "skólaða", "skólaða", "skólaða"]
+				},
+				"ft": {
+					"kk": ["skóluðu", "skóluðu", "skóluðu", "skóluðu"],
+					"kvk": ["skóluðu", "skóluðu", "skóluðu", "skóluðu"],
+					"hk": ["skóluðu", "skóluðu", "skóluðu", "skóluðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skóla",
+	"hash": "dc2050628d0b4b535e79728f2effc1f86ca3100c1da1b094156f16715360edd7"
+}
