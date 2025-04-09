@@ -1,0 +1,27 @@
+{
+	"orð": "tómstundaiðkun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tóm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tóm-hk"
+		},
+		{
+			"mynd": "stunda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stund-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-iðkun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tómstundaiðkun", "tómstundaiðkun", "tómstundaiðkun", "tómstundaiðkunar"],
+		"mg": ["tómstundaiðkunin", "tómstundaiðkunina", "tómstundaiðkuninni", "tómstundaiðkunarinnar"]
+	},
+	"kennistrengur": "no-tómstundaiðkun-kvk",
+	"hash": "0e5e591cfb060921d175da8e8687627cefa4abcb3d391d63d5fc63c3481dcb86"
+}

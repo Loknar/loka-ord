@@ -1,0 +1,27 @@
+{
+	"orð": "temprunarskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "temprunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-temprun-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["temprunarskilyrði", "temprunarskilyrði", "temprunarskilyrðum", "temprunarskilyrða"],
+		"mg": ["temprunarskilyrðin", "temprunarskilyrðin", "temprunarskilyrðunum", "temprunarskilyrðanna"]
+	},
+	"kennistrengur": "no-temprunarskilyrði-hk",
+	"hash": "31923a0406b254c70b57ee40c418370c6c3c1cd733c7f7addc69ccd7f6be434b"
+}

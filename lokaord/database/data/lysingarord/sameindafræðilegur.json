@@ -1,0 +1,53 @@
+{
+	"orð": "sameindafræðilegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "einda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eind-kvk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sameindafræðilegur", "sameindafræðilegan", "sameindafræðilegum", "sameindafræðilegs"],
+				"kvk": ["sameindafræðileg", "sameindafræðilega", "sameindafræðilegri", "sameindafræðilegrar"],
+				"hk": ["sameindafræðilegt", "sameindafræðilegt", "sameindafræðilegu", "sameindafræðilegs"]
+			},
+			"ft": {
+				"kk": ["sameindafræðilegir", "sameindafræðilega", "sameindafræðilegum", "sameindafræðilegra"],
+				"kvk": ["sameindafræðilegar", "sameindafræðilegar", "sameindafræðilegum", "sameindafræðilegra"],
+				"hk": ["sameindafræðileg", "sameindafræðileg", "sameindafræðilegum", "sameindafræðilegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sameindafræðilegi", "sameindafræðilega", "sameindafræðilega", "sameindafræðilega"],
+				"kvk": ["sameindafræðilega", "sameindafræðilegu", "sameindafræðilegu", "sameindafræðilegu"],
+				"hk": ["sameindafræðilega", "sameindafræðilega", "sameindafræðilega", "sameindafræðilega"]
+			},
+			"ft": {
+				"kk": ["sameindafræðilegu", "sameindafræðilegu", "sameindafræðilegu", "sameindafræðilegu"],
+				"kvk": ["sameindafræðilegu", "sameindafræðilegu", "sameindafræðilegu", "sameindafræðilegu"],
+				"hk": ["sameindafræðilegu", "sameindafræðilegu", "sameindafræðilegu", "sameindafræðilegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sameindafræðilegur",
+	"hash": "880c9323b598611fef9705fa0f36e77bcc1cfd53ceba1341a431fce2af35d443"
+}

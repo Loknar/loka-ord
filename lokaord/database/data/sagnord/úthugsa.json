@@ -1,0 +1,87 @@
+{
+	"orð": "úthugsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hugsa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "úthugsa",
+		"sagnbót": "úthugsað",
+		"boðháttur": {
+			"stýfður": "úthugsa",
+			"et": "úthugsaðu",
+			"ft": "úthugsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["úthugsa", "úthugsar", "úthugsar"],
+					"ft": ["úthugsum", "úthugsið", "úthugsa"]
+				},
+				"þátíð": {
+					"et": ["úthugsaði", "úthugsaðir", "úthugsaði"],
+					"ft": ["úthugsuðum", "úthugsuðuð", "úthugsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["úthugsi", "úthugsir", "úthugsi"],
+					"ft": ["úthugsum", "úthugsið", "úthugsi"]
+				},
+				"þátíð": {
+					"et": ["úthugsaði", "úthugsaðir", "úthugsaði"],
+					"ft": ["úthugsuðum", "úthugsuðuð", "úthugsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "úthugsarðu",
+					"ft": "úthugsiði"
+				},
+				"þátíð": {
+					"et": "úthugsaðirðu",
+					"ft": "úthugsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "úthugsirðu",
+					"ft": "úthugsiði"
+				},
+				"þátíð": {
+					"et": "úthugsaðirðu",
+					"ft": "úthugsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "úthugsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["úthugsaður", "úthugsaðan", "úthugsuðum", "úthugsaðs"],
+					"kvk": ["úthugsuð", "úthugsaða", "úthugsaðri", "úthugsaðrar"],
+					"hk": ["úthugsað", "úthugsað", "úthugsuðu", "úthugsaðs"]
+				},
+				"ft": {
+					"kk": ["úthugsaðir", "úthugsaða", "úthugsuðum", "úthugsaðra"],
+					"kvk": ["úthugsaðar", "úthugsaðar", "úthugsuðum", "úthugsaðra"],
+					"hk": ["úthugsuð", "úthugsuð", "úthugsuðum", "úthugsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-úthugsa",
+	"hash": "4fe929a98e4d1260c424841fb25713fab6e6ff1d9f4f1b30355fd85b9177f469"
+}

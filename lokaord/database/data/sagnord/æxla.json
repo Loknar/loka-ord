@@ -1,0 +1,135 @@
+{
+	"orð": "æxla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "æxl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-æxli-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "æxla",
+		"sagnbót": "æxlað",
+		"boðháttur": {
+			"stýfður": "æxla",
+			"et": "æxlaðu",
+			"ft": "æxlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["æxla", "æxlar", "æxlar"],
+					"ft": ["æxlum", "æxlið", "æxla"]
+				},
+				"þátíð": {
+					"et": ["æxlaði", "æxlaðir", "æxlaði"],
+					"ft": ["æxluðum", "æxluðuð", "æxluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["æxli", "æxlir", "æxli"],
+					"ft": ["æxlum", "æxlið", "æxli"]
+				},
+				"þátíð": {
+					"et": ["æxlaði", "æxlaðir", "æxlaði"],
+					"ft": ["æxluðum", "æxluðuð", "æxluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "æxlarðu",
+					"ft": "æxliði"
+				},
+				"þátíð": {
+					"et": "æxlaðirðu",
+					"ft": "æxluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "æxlirðu",
+					"ft": "æxliði"
+				},
+				"þátíð": {
+					"et": "æxlaðirðu",
+					"ft": "æxluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "æxlast",
+		"sagnbót": "æxlast",
+		"boðháttur": {
+			"et": "æxlastu",
+			"ft": "æxlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["æxlast", "æxlast", "æxlast"],
+					"ft": ["æxlumst", "æxlist", "æxlast"]
+				},
+				"þátíð": {
+					"et": ["æxlaðist", "æxlaðist", "æxlaðist"],
+					"ft": ["æxluðumst", "æxluðust", "æxluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["æxlist", "æxlist", "æxlist"],
+					"ft": ["æxlumst", "æxlist", "æxlist"]
+				},
+				"þátíð": {
+					"et": ["æxlaðist", "æxlaðist", "æxlaðist"],
+					"ft": ["æxluðumst", "æxluðust", "æxluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "æxlastu"
+				},
+				"þátíð": {
+					"et": "æxlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "æxlistu"
+				},
+				"þátíð": {
+					"et": "æxlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "æxlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["æxlaður", "æxlaðan", "æxluðum", "æxlaðs"],
+					"kvk": ["æxluð", "æxlaða", "æxlaðri", "æxlaðrar"],
+					"hk": ["æxlað", "æxlað", "æxluðu", "æxlaðs"]
+				},
+				"ft": {
+					"kk": ["æxlaðir", "æxlaða", "æxluðum", "æxlaðra"],
+					"kvk": ["æxlaðar", "æxlaðar", "æxluðum", "æxlaðra"],
+					"hk": ["æxluð", "æxluð", "æxluðum", "æxlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-æxla",
+	"hash": "44b4a1a529714188ed0f594b888c3241d77858fb569a52f0e647521937474bdb"
+}
