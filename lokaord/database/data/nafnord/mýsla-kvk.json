@@ -2,6 +2,17 @@
 	"orð": "mýsla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mýs",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mús-kvk"
+		},
+		{
+			"leiðir": "l",
+			"kennistrengur": "no-a-kvk-ó-_na_"
+		}
+	],
 	"et": {
 		"ág": ["mýsla", "mýslu", "mýslu", "mýslu"],
 		"mg": ["mýslan", "mýsluna", "mýslunni", "mýslunnar"]
@@ -11,5 +22,5 @@
 		"mg": ["mýslurnar", "mýslurnar", "mýslunum", "mýslnanna"]
 	},
 	"kennistrengur": "no-mýsla-kvk",
-	"hash": "2d108885271923a9512359f499f018ea292acfaac4abe8abfcf92fad6a586358"
+	"hash": "b12350cb6df37c319c48a1109d8f2412f355b549f2bfb21f46fc9cd71d8b4b5c"
 }

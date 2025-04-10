@@ -1,0 +1,140 @@
+{
+	"orð": "umskipa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "skip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skip-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umskipa",
+		"sagnbót": "umskipað",
+		"boðháttur": {
+			"stýfður": "umskipa",
+			"et": "umskipaðu",
+			"ft": "umskipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umskipa", "umskipar", "umskipar"],
+					"ft": ["umskipum", "umskipið", "umskipa"]
+				},
+				"þátíð": {
+					"et": ["umskipaði", "umskipaðir", "umskipaði"],
+					"ft": ["umskipuðum", "umskipuðuð", "umskipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umskipi", "umskipir", "umskipi"],
+					"ft": ["umskipum", "umskipið", "umskipi"]
+				},
+				"þátíð": {
+					"et": ["umskipaði", "umskipaðir", "umskipaði"],
+					"ft": ["umskipuðum", "umskipuðuð", "umskipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umskiparðu",
+					"ft": "umskipiði"
+				},
+				"þátíð": {
+					"et": "umskipaðirðu",
+					"ft": "umskipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umskipirðu",
+					"ft": "umskipiði"
+				},
+				"þátíð": {
+					"et": "umskipaðirðu",
+					"ft": "umskipuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "umskipast",
+		"sagnbót": "umskipast",
+		"boðháttur": {
+			"et": "umskipastu",
+			"ft": "umskipist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umskipast", "umskipast", "umskipast"],
+					"ft": ["umskipumst", "umskipist", "umskipast"]
+				},
+				"þátíð": {
+					"et": ["umskipaðist", "umskipaðist", "umskipaðist"],
+					"ft": ["umskipuðumst", "umskipuðust", "umskipuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umskipist", "umskipist", "umskipist"],
+					"ft": ["umskipumst", "umskipist", "umskipist"]
+				},
+				"þátíð": {
+					"et": ["umskipaðist", "umskipaðist", "umskipaðist"],
+					"ft": ["umskipuðumst", "umskipuðust", "umskipuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umskipastu"
+				},
+				"þátíð": {
+					"et": "umskipaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umskipistu"
+				},
+				"þátíð": {
+					"et": "umskipaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umskipandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umskipaður", "umskipaðan", "umskipuðum", "umskipaðs"],
+					"kvk": ["umskipuð", "umskipaða", "umskipaðri", "umskipaðrar"],
+					"hk": ["umskipað", "umskipað", "umskipuðu", "umskipaðs"]
+				},
+				"ft": {
+					"kk": ["umskipaðir", "umskipaða", "umskipuðum", "umskipaðra"],
+					"kvk": ["umskipaðar", "umskipaðar", "umskipuðum", "umskipaðra"],
+					"hk": ["umskipuð", "umskipuð", "umskipuðum", "umskipaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umskipa",
+	"hash": "339309db60ea38eb1b5627113e3c4ab1a6e25cbc4e633103b0235b8af72ebbca"
+}

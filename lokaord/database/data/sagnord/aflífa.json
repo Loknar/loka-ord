@@ -1,0 +1,92 @@
+{
+	"orð": "aflífa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aflífa",
+		"sagnbót": "aflífað",
+		"boðháttur": {
+			"stýfður": "aflífa",
+			"et": "aflífaðu",
+			"ft": "aflífið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aflífa", "aflífar", "aflífar"],
+					"ft": ["aflífum", "aflífið", "aflífa"]
+				},
+				"þátíð": {
+					"et": ["aflífaði", "aflífaðir", "aflífaði"],
+					"ft": ["aflífuðum", "aflífuðuð", "aflífuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aflífi", "aflífir", "aflífi"],
+					"ft": ["aflífum", "aflífið", "aflífi"]
+				},
+				"þátíð": {
+					"et": ["aflífaði", "aflífaðir", "aflífaði"],
+					"ft": ["aflífuðum", "aflífuðuð", "aflífuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aflífarðu",
+					"ft": "aflífiði"
+				},
+				"þátíð": {
+					"et": "aflífaðirðu",
+					"ft": "aflífuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aflífirðu",
+					"ft": "aflífiði"
+				},
+				"þátíð": {
+					"et": "aflífaðirðu",
+					"ft": "aflífuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aflífandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aflífaður", "aflífaðan", "aflífuðum", "aflífaðs"],
+					"kvk": ["aflífuð", "aflífaða", "aflífaðri", "aflífaðrar"],
+					"hk": ["aflífað", "aflífað", "aflífuðu", "aflífaðs"]
+				},
+				"ft": {
+					"kk": ["aflífaðir", "aflífaða", "aflífuðum", "aflífaðra"],
+					"kvk": ["aflífaðar", "aflífaðar", "aflífuðum", "aflífaðra"],
+					"hk": ["aflífuð", "aflífuð", "aflífuðum", "aflífaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aflífa",
+	"hash": "355e60281ca51786ba772e261a7c479e31f8661f2e0a2bf2a2240dfe23110e76"
+}

@@ -1,0 +1,51 @@
+{
+	"orð": "ilma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ilm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ilmur-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ilma",
+		"sagnbót": "ilmað",
+		"boðháttur": {
+			"stýfður": "ilma",
+			"et": "ilmaðu",
+			"ft": "ilmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ilma", "ilmar", "ilmar"],
+					"ft": ["ilmum", "ilmið", "ilma"]
+				},
+				"þátíð": {
+					"et": ["ilmaði", "ilmaðir", "ilmaði"],
+					"ft": ["ilmuðum", "ilmuðuð", "ilmuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ilmi", "ilmir", "ilmi"],
+					"ft": ["ilmum", "ilmið", "ilmi"]
+				},
+				"þátíð": {
+					"et": ["ilmaði", "ilmaðir", "ilmaði"],
+					"ft": ["ilmuðum", "ilmuðuð", "ilmuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ilmandi"
+	},
+	"kennistrengur": "so-ilma",
+	"hash": "8fc2271c69a98fc3340fcfff503f68ef6fb0e8603c423f546e5a3677946f33d1"
+}

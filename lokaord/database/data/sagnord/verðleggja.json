@@ -8,6 +8,7 @@
 			"kennistrengur": "no-verð-hk"
 		},
 		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-leggja"
 		}
 	],
@@ -64,77 +65,6 @@
 			}
 		}
 	},
-	"miðmynd": {
-		"nafnháttur": "verðleggjast",
-		"sagnbót": "verðlagst",
-		"boðháttur": {
-			"et": "verðleggstu",
-			"ft": "verðleggist"
-		},
-		"persónuleg": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["verðleggst", "verðleggst", "verðleggst"],
-					"ft": ["verðleggjumst", "verðleggist", "verðleggjast"]
-				},
-				"þátíð": {
-					"et": ["verðlagðist", "verðlagðist", "verðlagðist"],
-					"ft": ["verðlögðumst", "verðlögðust", "verðlögðust"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["verðleggist", "verðleggist", "verðleggist"],
-					"ft": ["verðleggjumst", "verðleggist", "verðleggist"]
-				},
-				"þátíð": {
-					"et": ["verðlegðist", "verðlegðist", "verðlegðist"],
-					"ft": ["verðlegðumst", "verðlegðist", "verðlegðist"]
-				}
-			}
-		},
-		"ópersónuleg": {
-			"frumlag": "þágufałl",
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["verðleggst", "verðleggst", "verðleggst"],
-					"ft": ["verðleggst", "verðleggst", "verðleggst"]
-				},
-				"þátíð": {
-					"et": ["verðlagðist", "verðlagðist", "verðlagðist"],
-					"ft": ["verðlagðist", "verðlagðist", "verðlagðist"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["verðleggist", "verðleggist", "verðleggist"],
-					"ft": ["verðleggjumst", "verðleggist", "verðleggist"]
-				},
-				"þátíð": {
-					"et": ["verðlegðist", "verðlegðist", "verðlegðist"],
-					"ft": ["verðlegðumst", "verðlegðust", "verðlegðust"]
-				}
-			}
-		},
-		"spurnarmyndir": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": "verðleggstu"
-				},
-				"þátíð": {
-					"et": "verðlagðistu"
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": "verðleggistu"
-				},
-				"þátíð": {
-					"et": "verðlegðistu"
-				}
-			}
-		}
-	},
 	"lýsingarháttur": {
 		"nútíðar": "verðleggjandi",
 		"þátíðar": {
@@ -149,21 +79,9 @@
 					"kvk": ["verðlagðar", "verðlagðar", "verðlögðum", "verðlagðra"],
 					"hk": ["verðlögð", "verðlögð", "verðlögðum", "verðlagðra"]
 				}
-			},
-			"vb": {
-				"et": {
-					"kk": ["verðlagði", "verðlagða", "verðlagða", "verðlagða"],
-					"kvk": ["verðlagða", "verðlögðu", "verðlögðu", "verðlögðu"],
-					"hk": ["verðlagða", "verðlagða", "verðlagða", "verðlagða"]
-				},
-				"ft": {
-					"kk": ["verðlögðu", "verðlögðu", "verðlögðu", "verðlögðu"],
-					"kvk": ["verðlögðu", "verðlögðu", "verðlögðu", "verðlögðu"],
-					"hk": ["verðlögðu", "verðlögðu", "verðlögðu", "verðlögðu"]
-				}
 			}
 		}
 	},
 	"kennistrengur": "so-verðleggja",
-	"hash": "a3456f627f3b97656704edc063564e3f7928157065e0ac1fba6ade43fdba72cb"
+	"hash": "774bfafa864054c61d2ad9c7bed0ed282b3f47af0c830384a99d75b1d5ab6188"
 }
