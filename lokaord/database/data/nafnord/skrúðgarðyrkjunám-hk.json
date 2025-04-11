@@ -1,0 +1,32 @@
+{
+	"orð": "skrúðgarðyrkjunám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skrúð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrúð-hk"
+		},
+		{
+			"mynd": "garð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-garður-kk"
+		},
+		{
+			"mynd": "yrkju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-yrkja-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["skrúðgarðyrkjunám", "skrúðgarðyrkjunám", "skrúðgarðyrkjunámi", "skrúðgarðyrkjunáms"],
+		"mg": ["skrúðgarðyrkjunámið", "skrúðgarðyrkjunámið", "skrúðgarðyrkjunáminu", "skrúðgarðyrkjunámsins"]
+	},
+	"kennistrengur": "no-skrúðgarðyrkjunám-hk",
+	"hash": "d0f29842896c21373ac0b7d26b44ac08dc3ca77dfa0ef37969b248c97e79ab90"
+}

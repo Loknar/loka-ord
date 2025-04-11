@@ -1,0 +1,27 @@
+{
+	"orð": "afurðastöðvaverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "afurða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-afurð-kvk"
+		},
+		{
+			"mynd": "stöðva",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stöð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["afurðastöðvaverð", "afurðastöðvaverð", "afurðastöðvaverði", "afurðastöðvaverðs"],
+		"mg": ["afurðastöðvaverðið", "afurðastöðvaverðið", "afurðastöðvaverðinu", "afurðastöðvaverðsins"]
+	},
+	"kennistrengur": "no-afurðastöðvaverð-hk",
+	"hash": "770e2d105f45e9a687b233373c21776a16b5958e49654996b7f1f9a74d9bbd1f"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "skólameistarastaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"mynd": "meistara",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-meistari-kk"
+		},
+		{
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skólameistarastaða", "skólameistarastöðu", "skólameistarastöðu", "skólameistarastöðu"],
+		"mg": ["skólameistarastaðan", "skólameistarastöðuna", "skólameistarastöðunni", "skólameistarastöðunnar"]
+	},
+	"ft": {
+		"ág": ["skólameistarastöður", "skólameistarastöður", "skólameistarastöðum", "skólameistarastaðna"],
+		"mg": ["skólameistarastöðurnar", "skólameistarastöðurnar", "skólameistarastöðunum", "skólameistarastaðnanna"]
+	},
+	"kennistrengur": "no-skólameistarastaða-kvk",
+	"hash": "b6b793f3113d8e33cc9bcb9133c28d969e7e603a1756334986dafdef5b176374"
+}

@@ -8,7 +8,6 @@
 			"kennistrengur": "so-bera"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-inn-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["bornari", "bornari", "bornari", "bornari"],
+				"kvk": ["bornari", "bornari", "bornari", "bornari"],
+				"hk": ["bornara", "bornara", "bornara", "bornara"]
+			},
+			"ft": {
+				"kk": ["bornari", "bornari", "bornari", "bornari"],
+				"kvk": ["bornari", "bornari", "bornari", "bornari"],
+				"hk": ["bornari", "bornari", "bornari", "bornari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["bornastur", "bornastan", "bornustum", "bornasts"],
+				"kvk": ["bornust", "bornasta", "bornastri", "bornastrar"],
+				"hk": ["bornast", "bornast", "bornustu", "bornasts"]
+			},
+			"ft": {
+				"kk": ["bornastir", "bornasta", "bornustum", "bornastra"],
+				"kvk": ["bornastar", "bornastar", "bornustum", "bornastra"],
+				"hk": ["bornust", "bornust", "bornustum", "bornastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bornasti", "bornasta", "bornasta", "bornasta"],
+				"kvk": ["bornasta", "bornustu", "bornustu", "bornustu"],
+				"hk": ["bornasta", "bornasta", "bornasta", "bornasta"]
+			},
+			"ft": {
+				"kk": ["bornustu", "bornustu", "bornustu", "bornustu"],
+				"kvk": ["bornustu", "bornustu", "bornustu", "bornustu"],
+				"hk": ["bornustu", "bornustu", "bornustu", "bornustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-borinn",
-	"hash": "f8f7e96eb26fea54c7dcb56bb62e51635b1e7cd026212124a01ddceb44097ba8"
+	"hash": "b7587a19a9e9b6d10c4128fdc27120d78afcf8d980789e455a9b1a21cfa94356"
 }
