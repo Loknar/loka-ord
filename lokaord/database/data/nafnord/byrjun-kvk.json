@@ -2,6 +2,16 @@
 	"orð": "byrjun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byrj",
+			"samsetning": "stofn",
+			"kennistrengur": "so-byrja"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["byrjun", "byrjun", "byrjun", "byrjunar"],
 		"mg": ["byrjunin", "byrjunina", "byrjuninni", "byrjunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["byrjanirnar", "byrjanirnar", "byrjununum", "byrjananna"]
 	},
 	"kennistrengur": "no-byrjun-kvk",
-	"hash": "baf97df8f403ba0796ea68dd5e989ef39d0450e1361628333d50131f5f97a19d"
+	"hash": "75110e305e7a9db7212b1064e1ba8b49ea2cfedae33b710ccff6db85f2b9a707"
 }
