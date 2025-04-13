@@ -1,0 +1,135 @@
+{
+	"orð": "lofta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "loft",
+			"samsetning": "stofn",
+			"kennistrengur": "no-loft-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lofta",
+		"sagnbót": "loftað",
+		"boðháttur": {
+			"stýfður": "lofta",
+			"et": "loftaðu",
+			"ft": "loftið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lofta", "loftar", "loftar"],
+					"ft": ["loftum", "loftið", "lofta"]
+				},
+				"þátíð": {
+					"et": ["loftaði", "loftaðir", "loftaði"],
+					"ft": ["loftuðum", "loftuðuð", "loftuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lofti", "loftir", "lofti"],
+					"ft": ["loftum", "loftið", "lofti"]
+				},
+				"þátíð": {
+					"et": ["loftaði", "loftaðir", "loftaði"],
+					"ft": ["loftuðum", "loftuðuð", "loftuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "loftarðu",
+					"ft": "loftiði"
+				},
+				"þátíð": {
+					"et": "loftaðirðu",
+					"ft": "loftuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "loftirðu",
+					"ft": "loftiði"
+				},
+				"þátíð": {
+					"et": "loftaðirðu",
+					"ft": "loftuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "loftast",
+		"sagnbót": "loftast",
+		"boðháttur": {
+			"et": "loftastu",
+			"ft": "loftist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["loftast", "loftast", "loftast"],
+					"ft": ["loftumst", "loftist", "loftast"]
+				},
+				"þátíð": {
+					"et": ["loftaðist", "loftaðist", "loftaðist"],
+					"ft": ["loftuðumst", "loftuðust", "loftuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["loftist", "loftist", "loftist"],
+					"ft": ["loftumst", "loftist", "loftist"]
+				},
+				"þátíð": {
+					"et": ["loftaðist", "loftaðist", "loftaðist"],
+					"ft": ["loftuðumst", "loftuðust", "loftuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "loftastu"
+				},
+				"þátíð": {
+					"et": "loftaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "loftistu"
+				},
+				"þátíð": {
+					"et": "loftaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "loftandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["loftaður", "loftaðan", "loftuðum", "loftaðs"],
+					"kvk": ["loftuð", "loftaða", "loftaðri", "loftaðrar"],
+					"hk": ["loftað", "loftað", "loftuðu", "loftaðs"]
+				},
+				"ft": {
+					"kk": ["loftaðir", "loftaða", "loftuðum", "loftaðra"],
+					"kvk": ["loftaðar", "loftaðar", "loftuðum", "loftaðra"],
+					"hk": ["loftuð", "loftuð", "loftuðum", "loftaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lofta",
+	"hash": "16ae5d2585f10e84a1ff1bdf360546fc835c64f3e3b31f21daa544c4cf41bfdf"
+}
