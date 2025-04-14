@@ -1,0 +1,70 @@
+{
+	"orð": "snússa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snúss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snússa-kvk"
+		},
+		{
+			"beygingar": ["germynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snússa",
+		"sagnbót": "snússað",
+		"boðháttur": {
+			"stýfður": "snússa",
+			"et": "snússaðu",
+			"ft": "snússið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snússa", "snússar", "snússar"],
+					"ft": ["snússum", "snússið", "snússa"]
+				},
+				"þátíð": {
+					"et": ["snússaði", "snússaðir", "snússaði"],
+					"ft": ["snússuðum", "snússuðuð", "snússuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snússi", "snússir", "snússi"],
+					"ft": ["snússum", "snússið", "snússi"]
+				},
+				"þátíð": {
+					"et": ["snússaði", "snússaðir", "snússaði"],
+					"ft": ["snússuðum", "snússuðuð", "snússuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snússarðu",
+					"ft": "snússiði"
+				},
+				"þátíð": {
+					"et": "snússaðirðu",
+					"ft": "snússuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snússirðu",
+					"ft": "snússiði"
+				},
+				"þátíð": {
+					"et": "snússaðirðu",
+					"ft": "snússuðuði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snússa",
+	"hash": "b36f1a81ae3fedcd2d197613a31c3f74496f1ccb708df87836a8c32f83241491"
+}

@@ -1,0 +1,143 @@
+{
+	"orð": "þenja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þenja",
+		"sagnbót": "þanið",
+		"boðháttur": {
+			"stýfður": "þen",
+			"et": "þendu",
+			"ft": "þenjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þen", "þenur", "þenur"],
+					"ft": ["þenjum", "þenjið", "þenja"]
+				},
+				"þátíð": {
+					"et": ["þandi", "þandir", "þandi"],
+					"ft": ["þöndum", "þönduð", "þöndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þenji", "þenjir", "þenji"],
+					"ft": ["þenjum", "þenjið", "þenji"]
+				},
+				"þátíð": {
+					"et": ["þendi", "þendir", "þendi"],
+					"ft": ["þendum", "þenduð", "þendu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þenur", "þenur", "þenur"],
+					"ft": ["þenur", "þenur", "þenur"]
+				},
+				"þátíð": {
+					"et": ["þandi", "þandi", "þandi"],
+					"ft": ["þandi", "þandi", "þandi"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þenji", "þenji", "þenji"],
+					"ft": ["þenji", "þenji", "þenji"]
+				},
+				"þátíð": {
+					"et": ["þendi", "þendi", "þendi"],
+					"ft": ["þendi", "þendi", "þendi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þenurðu",
+					"ft": "þenjiði"
+				},
+				"þátíð": {
+					"et": "þandirðu",
+					"ft": "þönduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þenjirðu",
+					"ft": "þenjiði"
+				},
+				"þátíð": {
+					"et": "þendirðu",
+					"ft": "þenduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þenjast",
+		"sagnbót": "þanist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þenst", "þenst", "þenst"],
+					"ft": ["þenjumst", "þenjist", "þenjast"]
+				},
+				"þátíð": {
+					"et": ["þandist", "þandist", "þandist"],
+					"ft": ["þöndumst", "þöndust", "þöndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þenjist", "þenjist", "þenjist"],
+					"ft": ["þenjumst", "þenjist", "þenjist"]
+				},
+				"þátíð": {
+					"et": ["þendist", "þendist", "þendist"],
+					"ft": ["þendumst", "þendust", "þendust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þenstu"
+				},
+				"þátíð": {
+					"et": "þandistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þenjistu"
+				},
+				"þátíð": {
+					"et": "þendistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þenjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þaninn", "þaninn", "þöndum", "þanins"],
+					"kvk": ["þanin", "þanda", "þaninni", "þaninnar"],
+					"hk": ["þanið", "þanið", "þöndu", "þanins"]
+				},
+				"ft": {
+					"kk": ["þandir", "þanda", "þöndum", "þaninna"],
+					"kvk": ["þandar", "þandar", "þöndum", "þandra"],
+					"hk": ["þanin", "þanin", "þöndum", "þandra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þenja",
+	"hash": "626e4505649397b38b62a84976c2e5b57fe30ffd5e82b5ae51544629fc130aa9"
+}

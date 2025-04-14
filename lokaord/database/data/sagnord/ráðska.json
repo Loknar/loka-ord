@@ -1,0 +1,121 @@
+{
+	"orð": "ráðska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ráðsk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-ráða"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ráðska",
+		"sagnbót": "ráðskað",
+		"boðháttur": {
+			"stýfður": "ráðska",
+			"et": "ráðskaðu",
+			"ft": "ráðskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ráðska", "ráðskar", "ráðskar"],
+					"ft": ["ráðskum", "ráðskið", "ráðska"]
+				},
+				"þátíð": {
+					"et": ["ráðskaði", "ráðskaðir", "ráðskaði"],
+					"ft": ["ráðskuðum", "ráðskuðuð", "ráðskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ráðski", "ráðskir", "ráðski"],
+					"ft": ["ráðskum", "ráðskið", "ráðski"]
+				},
+				"þátíð": {
+					"et": ["ráðskaði", "ráðskaðir", "ráðskaði"],
+					"ft": ["ráðskuðum", "ráðskuðuð", "ráðskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ráðskarðu",
+					"ft": "ráðskiði"
+				},
+				"þátíð": {
+					"et": "ráðskaðirðu",
+					"ft": "ráðskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ráðskirðu",
+					"ft": "ráðskiði"
+				},
+				"þátíð": {
+					"et": "ráðskaðirðu",
+					"ft": "ráðskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ráðskast",
+		"sagnbót": "ráðskast",
+		"boðháttur": {
+			"et": "ráðskastu",
+			"ft": "ráðskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ráðskast", "ráðskast", "ráðskast"],
+					"ft": ["ráðskumst", "ráðskist", "ráðskast"]
+				},
+				"þátíð": {
+					"et": ["ráðskaðist", "ráðskaðist", "ráðskaðist"],
+					"ft": ["ráðskuðumst", "ráðskuðust", "ráðskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ráðskist", "ráðskist", "ráðskist"],
+					"ft": ["ráðskumst", "ráðskist", "ráðskist"]
+				},
+				"þátíð": {
+					"et": ["ráðskaðist", "ráðskaðist", "ráðskaðist"],
+					"ft": ["ráðskuðumst", "ráðskuðust", "ráðskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ráðskastu"
+				},
+				"þátíð": {
+					"et": "ráðskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ráðskistu"
+				},
+				"þátíð": {
+					"et": "ráðskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ráðskandi"
+	},
+	"kennistrengur": "so-ráðska",
+	"hash": "100acb9b93096a94c65410e9952518fbd0a623b320a8aee723bd85281c9b8bc1"
+}
