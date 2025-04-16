@@ -2,14 +2,24 @@
 	"orð": "vina",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vin",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vinur-kk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["vina", "vinu", "vinu", "vinu"],
 		"mg": ["vinan", "vinuna", "vinunni", "vinunnar"]
 	},
 	"ft": {
-		"ág": ["vinur", "vinur", "vinum", "kvenna"],
-		"mg": ["vinurnar", "vinurnar", "vinunum", "kvennanna"]
+		"ág": ["vinur", "vinur", "vinum", "vina"],
+		"mg": ["vinurnar", "vinurnar", "vinunum", "vinanna"]
 	},
 	"kennistrengur": "no-vina-kvk",
-	"hash": "baa21d6cd869436b4b4c6a00c4bc9114bea50a6801969e81cbb32e08e388386d"
+	"hash": "78b2b08d349c517bfde9a67ff673428cfb4fc744cfac8003ad283cc3a4597a95"
 }

@@ -2,6 +2,16 @@
 	"orð": "hnignun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hnign",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hnigna"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hnignun", "hnignun", "hnignun", "hnignunar"],
 		"mg": ["hnignunin", "hnignunina", "hnignuninni", "hnignunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hnignanirnar", "hnignanirnar", "hnignununum", "hnignananna"]
 	},
 	"kennistrengur": "no-hnignun-kvk",
-	"hash": "e0f463cedf6b502a9c82da8a4c059d6b5158ed7f7c9dba9dc89389bbcdf39743"
+	"hash": "9aef667b1eb815752574fc0d1d8ca3e16cebe0440c9c45f33c64125482c21a52"
 }

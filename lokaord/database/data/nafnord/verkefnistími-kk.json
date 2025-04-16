@@ -1,0 +1,27 @@
+{
+	"orð": "verkefnistími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["verkefnistími", "verkefnistíma", "verkefnistíma", "verkefnistíma"],
+		"mg": ["verkefnistíminn", "verkefnistímann", "verkefnistímanum", "verkefnistímans"]
+	},
+	"kennistrengur": "no-verkefnistími-kk",
+	"hash": "897f350e5d85cc87ee120e7953434a623b4fd34982f883bcae0c1966d228554c"
+}

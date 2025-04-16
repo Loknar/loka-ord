@@ -2,6 +2,16 @@
 	"orð": "beða",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "beð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-beð-hk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["beða", "beðu", "beðu", "beðu"],
 		"mg": ["beðan", "beðuna", "beðunni", "beðunnar"]
@@ -12,5 +22,5 @@
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-beða-kvk-ó",
-	"hash": "2da459e45e2efd0b576d7c3dd0430f25aafb21baa98528f54aafee389d666014"
+	"hash": "37418b2432b07443b82307d92665290cf56eff901c6c39235ba34d09b40c6916"
 }

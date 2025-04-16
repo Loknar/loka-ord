@@ -1,0 +1,27 @@
+{
+	"orð": "kynbótarækt",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rækt-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kynbótarækt", "kynbótarækt", "kynbótarækt", "kynbótaræktar"],
+		"mg": ["kynbótaræktin", "kynbótaræktina", "kynbótaræktinni", "kynbótaræktarinnar"]
+	},
+	"kennistrengur": "no-kynbótarækt-kvk",
+	"hash": "6b853b0571d34d7fa58893a2a8d2ad06bf47710544d900e21aed08ae5dc1923d"
+}

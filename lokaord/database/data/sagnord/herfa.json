@@ -1,0 +1,87 @@
+{
+	"orð": "herfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "herf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-herfa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "herfa",
+		"sagnbót": "herfað",
+		"boðháttur": {
+			"stýfður": "herfa",
+			"et": "herfaðu",
+			"ft": "herfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["herfa", "herfar", "herfar"],
+					"ft": ["herfum", "herfið", "herfa"]
+				},
+				"þátíð": {
+					"et": ["herfaði", "herfaðir", "herfaði"],
+					"ft": ["herfuðum", "herfuðuð", "herfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["herfi", "herfir", "herfi"],
+					"ft": ["herfum", "herfið", "herfi"]
+				},
+				"þátíð": {
+					"et": ["herfaði", "herfaðir", "herfaði"],
+					"ft": ["herfuðum", "herfuðuð", "herfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "herfarðu",
+					"ft": "herfiði"
+				},
+				"þátíð": {
+					"et": "herfaðirðu",
+					"ft": "herfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "herfirðu",
+					"ft": "herfiði"
+				},
+				"þátíð": {
+					"et": "herfaðirðu",
+					"ft": "herfuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "herfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["herfaður", "herfaðan", "herfuðum", "herfaðs"],
+					"kvk": ["herfuð", "herfaða", "herfaðri", "herfaðrar"],
+					"hk": ["herfað", "herfað", "herfuðu", "herfaðs"]
+				},
+				"ft": {
+					"kk": ["herfaðir", "herfaða", "herfuðum", "herfaðra"],
+					"kvk": ["herfaðar", "herfaðar", "herfuðum", "herfaðra"],
+					"hk": ["herfuð", "herfuð", "herfuðum", "herfaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-herfa",
+	"hash": "f052ae4ddc042a43df97d0477f95a0704335ceccc06cb9d44340dfb937e23489"
+}

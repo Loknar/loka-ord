@@ -1,0 +1,32 @@
+{
+	"orð": "skipulagslöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skipulagslöggjöf", "skipulagslöggjöf", "skipulagslöggjöf", "skipulagslöggjafar"],
+		"mg": ["skipulagslöggjöfin", "skipulagslöggjöfina", "skipulagslöggjöfinni", "skipulagslöggjafarinnar"]
+	},
+	"kennistrengur": "no-skipulagslöggjöf-kvk",
+	"hash": "5928f44d1a2bd9e7608e29327af19d121a58d1780e2743bb87a1a398a548a65c"
+}
