@@ -1,0 +1,87 @@
+{
+	"orð": "nývirkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ný",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-nýr"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-virkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nývirkja",
+		"sagnbót": "nývirkjað",
+		"boðháttur": {
+			"stýfður": "nývirkja",
+			"et": "nývirkjaðu",
+			"ft": "nývirkjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nývirkja", "nývirkjar", "nývirkjar"],
+					"ft": ["nývirkjum", "nývirkjið", "nývirkja"]
+				},
+				"þátíð": {
+					"et": ["nývirkjaði", "nývirkjaðir", "nývirkjaði"],
+					"ft": ["nývirkjuðum", "nývirkjuðuð", "nývirkjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nývirki", "nývirkir", "nývirki"],
+					"ft": ["nývirkjum", "nývirkið", "nývirki"]
+				},
+				"þátíð": {
+					"et": ["nývirkjaði", "nývirkjaðir", "nývirkjaði"],
+					"ft": ["nývirkjuðum", "nývirkjuðuð", "nývirkjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nývirkjarðu",
+					"ft": "nývirkjiði"
+				},
+				"þátíð": {
+					"et": "nývirkjaðirðu",
+					"ft": "nývirkjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nývirkjirðu",
+					"ft": "nývirkjiði"
+				},
+				"þátíð": {
+					"et": "nývirkjaðirðu",
+					"ft": "nývirkjuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nývirkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nývirkjaður", "nývirkjaðan", "nývirkjuðum", "nývirkjaðs"],
+					"kvk": ["nývirkjuð", "nývirkjaða", "nývirkjaðri", "nývirkjaðrar"],
+					"hk": ["nývirkjað", "nývirkjað", "nývirkjuðu", "nývirkjaðs"]
+				},
+				"ft": {
+					"kk": ["nývirkjaðir", "nývirkjaða", "nývirkjuðum", "nývirkjaðra"],
+					"kvk": ["nývirkjaðar", "nývirkjaðar", "nývirkjuðum", "nývirkjaðra"],
+					"hk": ["nývirkjuð", "nývirkjuð", "nývirkjuðum", "nývirkjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nývirkja",
+	"hash": "05d093cb5b1e2cb2bb9a4b4dafc1bf8c3c804f9629ec9881d7ce25aaa75612c6"
+}
