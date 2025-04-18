@@ -1,0 +1,87 @@
+{
+	"orð": "stífna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stífn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-stífur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stífna",
+		"sagnbót": "stífnað",
+		"boðháttur": {
+			"stýfður": "stífna",
+			"et": "stífnaðu",
+			"ft": "stífnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stífna", "stífnar", "stífnar"],
+					"ft": ["stífnum", "stífnið", "stífna"]
+				},
+				"þátíð": {
+					"et": ["stífnaði", "stífnaðir", "stífnaði"],
+					"ft": ["stífnuðum", "stífnuðuð", "stífnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stífni", "stífnir", "stífni"],
+					"ft": ["stífnum", "stífnið", "stífni"]
+				},
+				"þátíð": {
+					"et": ["stífnaði", "stífnaðir", "stífnaði"],
+					"ft": ["stífnuðum", "stífnuðuð", "stífnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stífnarðu",
+					"ft": "stífniði"
+				},
+				"þátíð": {
+					"et": "stífnaðirðu",
+					"ft": "stífnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stífnirðu",
+					"ft": "stífniði"
+				},
+				"þátíð": {
+					"et": "stífnaðirðu",
+					"ft": "stífnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stífnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stífnaður", "stífnaðan", "stífnuðum", "stífnaðs"],
+					"kvk": ["stífnuð", "stífnaða", "stífnaðri", "stífnaðrar"],
+					"hk": ["stífnað", "stífnað", "stífnuðu", "stífnaðs"]
+				},
+				"ft": {
+					"kk": ["stífnaðir", "stífnaða", "stífnuðum", "stífnaðra"],
+					"kvk": ["stífnaðar", "stífnaðar", "stífnuðum", "stífnaðra"],
+					"hk": ["stífnuð", "stífnuð", "stífnuðum", "stífnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stífna",
+	"hash": "a092d815f73deccc2641aa9b76e2882110115ae6ae26789bfeaa0aebbf2412b9"
+}

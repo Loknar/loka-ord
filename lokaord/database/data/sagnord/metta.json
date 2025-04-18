@@ -1,0 +1,135 @@
+{
+	"orð": "metta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mett",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-mettur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "metta",
+		"sagnbót": "mettað",
+		"boðháttur": {
+			"stýfður": "metta",
+			"et": "mettaðu",
+			"ft": "mettið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["metta", "mettar", "mettar"],
+					"ft": ["mettum", "mettið", "metta"]
+				},
+				"þátíð": {
+					"et": ["mettaði", "mettaðir", "mettaði"],
+					"ft": ["mettuðum", "mettuðuð", "mettuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["metti", "mettir", "metti"],
+					"ft": ["mettum", "mettið", "metti"]
+				},
+				"þátíð": {
+					"et": ["mettaði", "mettaðir", "mettaði"],
+					"ft": ["mettuðum", "mettuðuð", "mettuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mettarðu",
+					"ft": "mettiði"
+				},
+				"þátíð": {
+					"et": "mettaðirðu",
+					"ft": "mettuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mettirðu",
+					"ft": "mettiði"
+				},
+				"þátíð": {
+					"et": "mettaðirðu",
+					"ft": "mettuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "mettast",
+		"sagnbót": "mettast",
+		"boðháttur": {
+			"et": "mettastu",
+			"ft": "mettist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mettast", "mettast", "mettast"],
+					"ft": ["mettumst", "mettist", "mettast"]
+				},
+				"þátíð": {
+					"et": ["mettaðist", "mettaðist", "mettaðist"],
+					"ft": ["mettuðumst", "mettuðust", "mettuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mettist", "mettist", "mettist"],
+					"ft": ["mettumst", "mettist", "mettist"]
+				},
+				"þátíð": {
+					"et": ["mettaðist", "mettaðist", "mettaðist"],
+					"ft": ["mettuðumst", "mettuðust", "mettuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mettastu"
+				},
+				"þátíð": {
+					"et": "mettaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mettistu"
+				},
+				"þátíð": {
+					"et": "mettaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mettandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mettaður", "mettaðan", "mettuðum", "mettaðs"],
+					"kvk": ["mettuð", "mettaða", "mettaðri", "mettaðrar"],
+					"hk": ["mettað", "mettað", "mettuðu", "mettaðs"]
+				},
+				"ft": {
+					"kk": ["mettaðir", "mettaða", "mettuðum", "mettaðra"],
+					"kvk": ["mettaðar", "mettaðar", "mettuðum", "mettaðra"],
+					"hk": ["mettuð", "mettuð", "mettuðum", "mettaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-metta",
+	"hash": "4d664be4651395b6825801a64b0d631ef9518421cd17272fcc6c1ad8163c952f"
+}

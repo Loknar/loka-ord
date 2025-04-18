@@ -2,10 +2,22 @@
 	"orð": "illska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ill",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-iłlur"
+		},
+		{
+			"leiðir": "sk",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["illska", "illsku", "illsku", "illsku"],
 		"mg": ["illskan", "illskuna", "illskunni", "illskunnar"]
 	},
 	"kennistrengur": "no-illska-kvk",
-	"hash": "a7d815646ed1ec872b40eda86fc83008d3227537744ac8782a6925aa9947f8f5"
+	"hash": "bb3a8f3f0ce6b30e532a3c5c52cd504bbd2c8c43bc05379aad3a557f5f7cc972"
 }

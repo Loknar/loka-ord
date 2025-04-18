@@ -1,0 +1,135 @@
+{
+	"orð": "skunda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skund",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skundi-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skunda",
+		"sagnbót": "skundað",
+		"boðháttur": {
+			"stýfður": "skunda",
+			"et": "skundaðu",
+			"ft": "skundið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skunda", "skundar", "skundar"],
+					"ft": ["skundum", "skundið", "skunda"]
+				},
+				"þátíð": {
+					"et": ["skundaði", "skundaðir", "skundaði"],
+					"ft": ["skunduðum", "skunduðuð", "skunduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skundi", "skundir", "skundi"],
+					"ft": ["skundum", "skundið", "skundi"]
+				},
+				"þátíð": {
+					"et": ["skundaði", "skundaðir", "skundaði"],
+					"ft": ["skunduðum", "skunduðuð", "skunduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skundarðu",
+					"ft": "skundiði"
+				},
+				"þátíð": {
+					"et": "skundaðirðu",
+					"ft": "skunduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skundirðu",
+					"ft": "skundiði"
+				},
+				"þátíð": {
+					"et": "skundaðirðu",
+					"ft": "skunduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skundast",
+		"sagnbót": "skundast",
+		"boðháttur": {
+			"et": "skundastu",
+			"ft": "skundist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skundast", "skundast", "skundast"],
+					"ft": ["skundumst", "skundist", "skundast"]
+				},
+				"þátíð": {
+					"et": ["skundaðist", "skundaðist", "skundaðist"],
+					"ft": ["skunduðumst", "skunduðust", "skunduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skundist", "skundist", "skundist"],
+					"ft": ["skundumst", "skundist", "skundist"]
+				},
+				"þátíð": {
+					"et": ["skundaðist", "skundaðist", "skundaðist"],
+					"ft": ["skunduðumst", "skunduðust", "skunduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skundastu"
+				},
+				"þátíð": {
+					"et": "skundaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skundistu"
+				},
+				"þátíð": {
+					"et": "skundaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skundandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skundaður", "skundaðan", "skunduðum", "skundaðs"],
+					"kvk": ["skunduð", "skundaða", "skundaðri", "skundaðrar"],
+					"hk": ["skundað", "skundað", "skunduðu", "skundaðs"]
+				},
+				"ft": {
+					"kk": ["skundaðir", "skundaða", "skunduðum", "skundaðra"],
+					"kvk": ["skundaðar", "skundaðar", "skunduðum", "skundaðra"],
+					"hk": ["skunduð", "skunduð", "skunduðum", "skundaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skunda",
+	"hash": "b89f90622ea5c0999494635da6c6377451e18271425dcedd38f6689814173fee"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "strunsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "struns",
+			"samsetning": "stofn",
+			"kennistrengur": "no-struns-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "strunsa",
+		"sagnbót": "strunsað",
+		"boðháttur": {
+			"stýfður": "strunsa",
+			"et": "strunsaðu",
+			"ft": "strunsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["strunsa", "strunsar", "strunsar"],
+					"ft": ["strunsum", "strunsið", "strunsa"]
+				},
+				"þátíð": {
+					"et": ["strunsaði", "strunsaðir", "strunsaði"],
+					"ft": ["strunsuðum", "strunsuðuð", "strunsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["strunsi", "strunsir", "strunsi"],
+					"ft": ["strunsum", "strunsið", "strunsi"]
+				},
+				"þátíð": {
+					"et": ["strunsaði", "strunsaðir", "strunsaði"],
+					"ft": ["strunsuðum", "strunsuðuð", "strunsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "strunsarðu",
+					"ft": "strunsiði"
+				},
+				"þátíð": {
+					"et": "strunsaðirðu",
+					"ft": "strunsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "strunsirðu",
+					"ft": "strunsiði"
+				},
+				"þátíð": {
+					"et": "strunsaðirðu",
+					"ft": "strunsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "strunsandi"
+	},
+	"kennistrengur": "so-strunsa",
+	"hash": "532bbc4c97ebab1a739247af3b2a37f10872602f88a28f4eea3359802a60b29c"
+}

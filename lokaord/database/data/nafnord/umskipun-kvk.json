@@ -4,9 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "umskip",
+			"mynd": "um",
 			"samsetning": "stofn",
-			"kennistrengur": "so-umskipa"
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "skip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skip-hk"
 		},
 		{
 			"beygingar": ["et"],
@@ -18,5 +23,5 @@
 		"mg": ["umskipunin", "umskipunina", "umskipuninni", "umskipunarinnar"]
 	},
 	"kennistrengur": "no-umskipun-kvk",
-	"hash": "e21c379187df860ba1377f8fe4761ede104a9d3ec698c0849c557648d5fca555"
+	"hash": "8c827d9a7402ef8338aadaf894338f9188c53721fa09548d92d64ade2a00d840"
 }

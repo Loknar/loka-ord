@@ -1,0 +1,135 @@
+{
+	"orð": "þéra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.p-þér"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þéra",
+		"sagnbót": "þérað",
+		"boðháttur": {
+			"stýfður": "þéra",
+			"et": "þéraðu",
+			"ft": "þérið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þéra", "þérar", "þérar"],
+					"ft": ["þérum", "þérið", "þéra"]
+				},
+				"þátíð": {
+					"et": ["þéraði", "þéraðir", "þéraði"],
+					"ft": ["þéruðum", "þéruðuð", "þéruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þéri", "þérir", "þéri"],
+					"ft": ["þérum", "þérið", "þéri"]
+				},
+				"þátíð": {
+					"et": ["þéraði", "þéraðir", "þéraði"],
+					"ft": ["þéruðum", "þéruðuð", "þéruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þérarðu",
+					"ft": "þériði"
+				},
+				"þátíð": {
+					"et": "þéraðirðu",
+					"ft": "þéruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þérirðu",
+					"ft": "þériði"
+				},
+				"þátíð": {
+					"et": "þéraðirðu",
+					"ft": "þéruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þérast",
+		"sagnbót": "þérast",
+		"boðháttur": {
+			"et": "þérastu",
+			"ft": "þérist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þérast", "þérast", "þérast"],
+					"ft": ["þérumst", "þérist", "þérast"]
+				},
+				"þátíð": {
+					"et": ["þéraðist", "þéraðist", "þéraðist"],
+					"ft": ["þéruðumst", "þéruðust", "þéruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þérist", "þérist", "þérist"],
+					"ft": ["þérumst", "þérist", "þérist"]
+				},
+				"þátíð": {
+					"et": ["þéraðist", "þéraðist", "þéraðist"],
+					"ft": ["þéruðumst", "þéruðust", "þéruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þérastu"
+				},
+				"þátíð": {
+					"et": "þéraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þéristu"
+				},
+				"þátíð": {
+					"et": "þéraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þérandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þéraður", "þéraðan", "þéruðum", "þéraðs"],
+					"kvk": ["þéruð", "þéraða", "þéraðri", "þéraðrar"],
+					"hk": ["þérað", "þérað", "þéruðu", "þéraðs"]
+				},
+				"ft": {
+					"kk": ["þéraðir", "þéraða", "þéruðum", "þéraðra"],
+					"kvk": ["þéraðar", "þéraðar", "þéruðum", "þéraðra"],
+					"hk": ["þéruð", "þéruð", "þéruðum", "þéraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þéra",
+	"hash": "dfbe7a585e44d72337057487fd842700a6aa2df51068fc9361f0312c6fcc1b2d"
+}

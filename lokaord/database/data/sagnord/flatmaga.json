@@ -1,0 +1,78 @@
+{
+	"orð": "flatmaga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flat",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-flatur"
+		},
+		{
+			"mynd": "mag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-magi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flatmaga",
+		"sagnbót": "flatmagað",
+		"boðháttur": {
+			"stýfður": "flatmaga",
+			"et": "flatmagaðu",
+			"ft": "flatmagið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flatmaga", "flatmagar", "flatmagar"],
+					"ft": ["flatmagum", "flatmagið", "flatmaga"]
+				},
+				"þátíð": {
+					"et": ["flatmagaði", "flatmagaðir", "flatmagaði"],
+					"ft": ["flatmaguðum", "flatmaguðuð", "flatmaguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flatmagi", "flatmagir", "flatmagi"],
+					"ft": ["flatmagum", "flatmagið", "flatmagi"]
+				},
+				"þátíð": {
+					"et": ["flatmagaði", "flatmagaðir", "flatmagaði"],
+					"ft": ["flatmaguðum", "flatmaguðuð", "flatmaguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flatmagarðu",
+					"ft": "flatmagiði"
+				},
+				"þátíð": {
+					"et": "flatmagaðirðu",
+					"ft": "flatmaguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flatmagirðu",
+					"ft": "flatmagiði"
+				},
+				"þátíð": {
+					"et": "flatmagaðirðu",
+					"ft": "flatmaguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flatmagandi"
+	},
+	"kennistrengur": "so-flatmaga",
+	"hash": "20d641c6d45c30840545d7134f7af1caa779624de64b988a60a5ad586264f943"
+}
