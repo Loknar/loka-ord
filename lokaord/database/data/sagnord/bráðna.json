@@ -1,6 +1,17 @@
 {
 	"orð": "bráðna",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bráðn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-bráð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "bráðna",
 		"sagnbót": "bráðnað",
@@ -84,5 +95,5 @@
 		}
 	},
 	"kennistrengur": "so-bráðna",
-	"hash": "c7c0d008a9a62d00613fad5347805e731eb353a3382dcf821b8bdc066f9e1194"
+	"hash": "dfe074c00ffc5da12dba06bff8517c7ca9ace7f2b6b0620a4c2fe0e0d6f4b049"
 }

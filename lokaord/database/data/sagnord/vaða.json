@@ -1,0 +1,124 @@
+{
+	"orð": "vaða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "vaða",
+		"sagnbót": "vaðið",
+		"boðháttur": {
+			"stýfður": "vað",
+			"et": "vaddu",
+			"ft": "vaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veð", "veðurð", "veður"],
+					"ft": ["vöðum", "vaðið", "vaða"]
+				},
+				"þátíð": {
+					"et": ["óð", "óðst", "óð"],
+					"ft": ["óðum", "óðuð", "óðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vaði", "vaðir", "vaði"],
+					"ft": ["vöðum", "vaðið", "vaði"]
+				},
+				"þátíð": {
+					"et": ["væði", "væðir", "væði"],
+					"ft": ["væðjum", "væðjuð", "væðju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veðurðu",
+					"ft": "vaðiði"
+				},
+				"þátíð": {
+					"et": "óðstu",
+					"ft": "óðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaðirðu",
+					"ft": "vaðiði"
+				},
+				"þátíð": {
+					"et": "væðirðu",
+					"ft": "væðjuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vaðast",
+		"sagnbót": "vaðist",
+		"boðháttur": {
+			"et": "vaðstu",
+			"ft": "vaðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veðst", "veðst", "veðst"],
+					"ft": ["vöðumst", "vaðist", "vaðast"]
+				},
+				"þátíð": {
+					"et": ["óðst", "óðst", "óðst"],
+					"ft": ["óðumst", "óðust", "óðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vaðist", "vaðist", "vaðist"],
+					"ft": ["vöðumst", "vaðist", "vaðist"]
+				},
+				"þátíð": {
+					"et": ["væðist", "væðist", "væðist"],
+					"ft": ["væðjumst", "væðjust", "væðjust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veðstu"
+				},
+				"þátíð": {
+					"et": "óðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaðistu"
+				},
+				"þátíð": {
+					"et": "væðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vaðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vaðinn", "vaðinn", "vaðnum", "vaðins"],
+					"kvk": ["vaðin", "vaðna", "vaðinni", "vaðinnar"],
+					"hk": ["vaðið", "vaðið", "vaðnu", "vaðins"]
+				},
+				"ft": {
+					"kk": ["vaðnir", "vaðna", "vaðnum", "vaðinna"],
+					"kvk": ["vaðnar", "vaðnar", "vaðnum", "vaðinna"],
+					"hk": ["vaðin", "vaðin", "vaðnum", "vaðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vaða",
+	"hash": "2e5c7024a90110b7ad93e0d29b24fc4809c88bef5108c7273b94719a391ec1dc"
+}

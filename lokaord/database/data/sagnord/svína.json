@@ -1,0 +1,135 @@
+{
+	"orð": "svína",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "svín",
+			"samsetning": "stofn",
+			"kennistrengur": "no-svín-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "svína",
+		"sagnbót": "svínað",
+		"boðháttur": {
+			"stýfður": "svína",
+			"et": "svínaðu",
+			"ft": "svínið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svína", "svínar", "svínar"],
+					"ft": ["svínum", "svínið", "svína"]
+				},
+				"þátíð": {
+					"et": ["svínaði", "svínaðir", "svínaði"],
+					"ft": ["svínuðum", "svínuðuð", "svínuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svíni", "svínir", "svíni"],
+					"ft": ["svínum", "svínið", "svíni"]
+				},
+				"þátíð": {
+					"et": ["svínaði", "svínaðir", "svínaði"],
+					"ft": ["svínuðum", "svínuðuð", "svínuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svínarðu",
+					"ft": "svíniði"
+				},
+				"þátíð": {
+					"et": "svínaðirðu",
+					"ft": "svínuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svínirðu",
+					"ft": "svíniði"
+				},
+				"þátíð": {
+					"et": "svínaðirðu",
+					"ft": "svínuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "svínast",
+		"sagnbót": "svínast",
+		"boðháttur": {
+			"et": "svínastu",
+			"ft": "svínist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svínast", "svínast", "svínast"],
+					"ft": ["svínumst", "svínist", "svínast"]
+				},
+				"þátíð": {
+					"et": ["svínaðist", "svínaðist", "svínaðist"],
+					"ft": ["svínuðumst", "svínuðust", "svínuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svínist", "svínist", "svínist"],
+					"ft": ["svínumst", "svínist", "svínist"]
+				},
+				"þátíð": {
+					"et": ["svínaðist", "svínaðist", "svínaðist"],
+					"ft": ["svínuðumst", "svínuðust", "svínuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svínastu"
+				},
+				"þátíð": {
+					"et": "svínaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svínistu"
+				},
+				"þátíð": {
+					"et": "svínaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "svínandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["svínaður", "svínaðan", "svínuðum", "svínaðs"],
+					"kvk": ["svínuð", "svínaða", "svínaðri", "svínaðrar"],
+					"hk": ["svínað", "svínað", "svínuðu", "svínaðs"]
+				},
+				"ft": {
+					"kk": ["svínaðir", "svínaða", "svínuðum", "svínaðra"],
+					"kvk": ["svínaðar", "svínaðar", "svínuðum", "svínaðra"],
+					"hk": ["svínuð", "svínuð", "svínuðum", "svínaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-svína",
+	"hash": "4f4e449ce5d67ff966f3059b904982028d711bb0eeb006d7af6362f554133c2f"
+}

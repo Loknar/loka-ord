@@ -1,0 +1,81 @@
+{
+	"orð": "lesta",
+	"flokkur": "sagnorð",
+	"merking": "skaða",
+	"germynd": {
+		"nafnháttur": "lesta",
+		"sagnbót": "lest",
+		"boðháttur": {
+			"stýfður": "lest",
+			"et": "lestu",
+			"ft": "lestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lesti", "lestir", "lestir"],
+					"ft": ["lestum", "lestið", "lesta"]
+				},
+				"þátíð": {
+					"et": ["lesti", "lestir", "lesti"],
+					"ft": ["lestum", "lestuð", "lestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lesti", "lestir", "lesti"],
+					"ft": ["lestum", "lestið", "lesti"]
+				},
+				"þátíð": {
+					"et": ["lesti", "lestir", "lesti"],
+					"ft": ["lestum", "lestuð", "lestu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lestast",
+		"sagnbót": "lest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lestist", "lestist", "lestist"],
+					"ft": ["lestumst", "lestist", "lestast"]
+				},
+				"þátíð": {
+					"et": ["lestist", "lestist", "lestist"],
+					"ft": ["lestumst", "lestust", "lestust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lestist", "lestist", "lestist"],
+					"ft": ["lestumst", "lestist", "lestist"]
+				},
+				"þátíð": {
+					"et": ["lestist", "lestist", "lestist"],
+					"ft": ["lestumst", "lestust", "lestust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lestur", "lestan", "lestum", "lests"],
+					"kvk": ["lest", "lesta", "lestri", "lestrar"],
+					"hk": ["lest", "lest", "lestu", "lests"]
+				},
+				"ft": {
+					"kk": ["lestir", "lesta", "lestum", "lestra"],
+					"kvk": ["lestar", "lestar", "lestum", "lestra"],
+					"hk": ["lest", "lest", "lestum", "lestra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lesta-_skaða_",
+	"hash": "d6a3d69b2370cb2903a8c2489d84414cba714a8f1a2e0b33c157d2f6b0910d28"
+}

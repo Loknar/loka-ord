@@ -1,0 +1,27 @@
+{
+	"orð": "gervigreindarsköpun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gervi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gervi-hk"
+		},
+		{
+			"mynd": "greindar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greind-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-sköpun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gervigreindarsköpun", "gervigreindarsköpun", "gervigreindarsköpun", "gervigreindarsköpunar"],
+		"mg": ["gervigreindarsköpunin", "gervigreindarsköpunina", "gervigreindarsköpuninni", "gervigreindarsköpunarinnar"]
+	},
+	"kennistrengur": "no-gervigreindarsköpun-kvk",
+	"hash": "72bd757fddd03c2cf2142ad8fc4c9dbfacfe370ff7a0cda2efda0cc3d0c457fe"
+}

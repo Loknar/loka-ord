@@ -1,0 +1,135 @@
+{
+	"orð": "stugga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stugg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stuggur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stugga",
+		"sagnbót": "stuggað",
+		"boðháttur": {
+			"stýfður": "stugga",
+			"et": "stuggaðu",
+			"ft": "stuggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stugga", "stuggar", "stuggar"],
+					"ft": ["stuggum", "stuggið", "stugga"]
+				},
+				"þátíð": {
+					"et": ["stuggaði", "stuggaðir", "stuggaði"],
+					"ft": ["stugguðum", "stugguðuð", "stugguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stuggi", "stuggir", "stuggi"],
+					"ft": ["stuggum", "stuggið", "stuggi"]
+				},
+				"þátíð": {
+					"et": ["stuggaði", "stuggaðir", "stuggaði"],
+					"ft": ["stugguðum", "stugguðuð", "stugguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stuggarðu",
+					"ft": "stuggiði"
+				},
+				"þátíð": {
+					"et": "stuggaðirðu",
+					"ft": "stugguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stuggirðu",
+					"ft": "stuggiði"
+				},
+				"þátíð": {
+					"et": "stuggaðirðu",
+					"ft": "stugguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stuggast",
+		"sagnbót": "stuggast",
+		"boðháttur": {
+			"et": "stuggastu",
+			"ft": "stuggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stuggast", "stuggast", "stuggast"],
+					"ft": ["stuggumst", "stuggist", "stuggast"]
+				},
+				"þátíð": {
+					"et": ["stuggaðist", "stuggaðist", "stuggaðist"],
+					"ft": ["stugguðumst", "stugguðust", "stugguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stuggist", "stuggist", "stuggist"],
+					"ft": ["stuggumst", "stuggist", "stuggist"]
+				},
+				"þátíð": {
+					"et": ["stuggaðist", "stuggaðist", "stuggaðist"],
+					"ft": ["stugguðumst", "stugguðust", "stugguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stuggastu"
+				},
+				"þátíð": {
+					"et": "stuggaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stuggistu"
+				},
+				"þátíð": {
+					"et": "stuggaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stuggandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stuggaður", "stuggaðan", "stugguðum", "stuggaðs"],
+					"kvk": ["stugguð", "stuggaða", "stuggaðri", "stuggaðrar"],
+					"hk": ["stuggað", "stuggað", "stugguðu", "stuggaðs"]
+				},
+				"ft": {
+					"kk": ["stuggaðir", "stuggaða", "stugguðum", "stuggaðra"],
+					"kvk": ["stuggaðar", "stuggaðar", "stugguðum", "stuggaðra"],
+					"hk": ["stugguð", "stugguð", "stugguðum", "stuggaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stugga",
+	"hash": "29c52524f9c37b1a78db75890975b8323cf8a841a213cf32dae48ef809924a57"
+}

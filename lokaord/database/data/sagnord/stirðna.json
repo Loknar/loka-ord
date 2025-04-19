@@ -1,0 +1,87 @@
+{
+	"orð": "stirðna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stirðn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-stirður"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stirðna",
+		"sagnbót": "stirðnað",
+		"boðháttur": {
+			"stýfður": "stirðna",
+			"et": "stirðnaðu",
+			"ft": "stirðnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stirðna", "stirðnar", "stirðnar"],
+					"ft": ["stirðnum", "stirðnið", "stirðna"]
+				},
+				"þátíð": {
+					"et": ["stirðnaði", "stirðnaðir", "stirðnaði"],
+					"ft": ["stirðnuðum", "stirðnuðuð", "stirðnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stirðni", "stirðnir", "stirðni"],
+					"ft": ["stirðnum", "stirðnið", "stirðni"]
+				},
+				"þátíð": {
+					"et": ["stirðnaði", "stirðnaðir", "stirðnaði"],
+					"ft": ["stirðnuðum", "stirðnuðuð", "stirðnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stirðnarðu",
+					"ft": "stirðniði"
+				},
+				"þátíð": {
+					"et": "stirðnaðirðu",
+					"ft": "stirðnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stirðnirðu",
+					"ft": "stirðniði"
+				},
+				"þátíð": {
+					"et": "stirðnaðirðu",
+					"ft": "stirðnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stirðnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stirðnaður", "stirðnaðan", "stirðnuðum", "stirðnaðs"],
+					"kvk": ["stirðnuð", "stirðnaða", "stirðnaðri", "stirðnaðrar"],
+					"hk": ["stirðnað", "stirðnað", "stirðnuðu", "stirðnaðs"]
+				},
+				"ft": {
+					"kk": ["stirðnaðir", "stirðnaða", "stirðnuðum", "stirðnaðra"],
+					"kvk": ["stirðnaðar", "stirðnaðar", "stirðnuðum", "stirðnaðra"],
+					"hk": ["stirðnuð", "stirðnuð", "stirðnuðum", "stirðnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stirðna",
+	"hash": "36b30d6f8999793650d950fe7b54b618425e6b1b7f0a79e9c58ccbb8c1709f6e"
+}

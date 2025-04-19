@@ -1,0 +1,27 @@
+{
+	"orð": "hugbúnaðargerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hugur-kk"
+		},
+		{
+			"mynd": "búnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-búnaður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hugbúnaðargerð", "hugbúnaðargerð", "hugbúnaðargerð", "hugbúnaðargerðar"],
+		"mg": ["hugbúnaðargerðin", "hugbúnaðargerðina", "hugbúnaðargerðinni", "hugbúnaðargerðarinnar"]
+	},
+	"kennistrengur": "no-hugbúnaðargerð-kvk",
+	"hash": "83829f38ed508fabd606690dfb391273ea83f16bfd3797c18cc9768a37b667c4"
+}

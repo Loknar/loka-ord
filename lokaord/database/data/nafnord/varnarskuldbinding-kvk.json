@@ -1,0 +1,30 @@
+{
+	"orð": "varnarskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "varnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vörn-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["varnarskuldbinding", "varnarskuldbindingu", "varnarskuldbindingu", "varnarskuldbindingar"],
+		"mg": ["varnarskuldbindingin", "varnarskuldbindinguna", "varnarskuldbindingunni", "varnarskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["varnarskuldbindingar", "varnarskuldbindingar", "varnarskuldbindingum", "varnarskuldbindinga"],
+		"mg": ["varnarskuldbindingarnar", "varnarskuldbindingarnar", "varnarskuldbindingunum", "varnarskuldbindinganna"]
+	},
+	"kennistrengur": "no-varnarskuldbinding-kvk",
+	"hash": "166dc67581e60d6492df2714ba7ee0a11380ad4f953767ce43fa69ba60e27f3e"
+}
