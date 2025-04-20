@@ -1,0 +1,43 @@
+{
+	"orð": "lesblindur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "les",
+			"samsetning": "stofn",
+			"kennistrengur": "so-lesa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-blindur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["lesblindur", "lesblindan", "lesblindum", "lesblinds"],
+				"kvk": ["lesblind", "lesblinda", "lesblindri", "lesblindrar"],
+				"hk": ["lesblint", "lesblint", "lesblindu", "lesblinds"]
+			},
+			"ft": {
+				"kk": ["lesblindir", "lesblinda", "lesblindum", "lesblindra"],
+				"kvk": ["lesblindar", "lesblindar", "lesblindum", "lesblindra"],
+				"hk": ["lesblind", "lesblind", "lesblindum", "lesblindra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lesblindi", "lesblinda", "lesblinda", "lesblinda"],
+				"kvk": ["lesblinda", "lesblindu", "lesblindu", "lesblindu"],
+				"hk": ["lesblinda", "lesblinda", "lesblinda", "lesblinda"]
+			},
+			"ft": {
+				"kk": ["lesblindu", "lesblindu", "lesblindu", "lesblindu"],
+				"kvk": ["lesblindu", "lesblindu", "lesblindu", "lesblindu"],
+				"hk": ["lesblindu", "lesblindu", "lesblindu", "lesblindu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-lesblindur",
+	"hash": "1a2d3612dfe5fe9eb36dedeec6a5adf9f2fad938518be83b83f5ced588c3ca57"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "fjármunatekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "muna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-munur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjármunatekjur", "fjármunatekjur", "fjármunatekjum", "fjármunatekna"],
+		"mg": ["fjármunatekjurnar", "fjármunatekjurnar", "fjármunatekjunum", "fjármunateknanna"]
+	},
+	"kennistrengur": "no-fjármunatekjur-kvk",
+	"hash": "245eeb84284698e98de1780620c2fa16e2dd1fe0a38309260b6ae400b1d2c390"
+}

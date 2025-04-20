@@ -1,0 +1,87 @@
+{
+	"orð": "sjósetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sjó",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sjór-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sjósetja",
+		"sagnbót": "sjósett",
+		"boðháttur": {
+			"stýfður": "sjóset",
+			"et": "sjósettu",
+			"ft": "sjósetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjóset", "sjósetur", "sjósetur"],
+					"ft": ["sjósetjum", "sjósetjið", "sjósetja"]
+				},
+				"þátíð": {
+					"et": ["sjósetti", "sjósettir", "sjósett"],
+					"ft": ["sjósettum", "sjósettuð", "sjósettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjósetji", "sjósetjir", "sjósetji"],
+					"ft": ["sjósetjum", "sjósetjið", "sjósetji"]
+				},
+				"þátíð": {
+					"et": ["sjósetti", "sjósettir", "sjósetti"],
+					"ft": ["sjósettum", "sjósettuð", "sjósettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjóseturðu",
+					"ft": "sjósetjiði"
+				},
+				"þátíð": {
+					"et": "sjósettirðu",
+					"ft": "sjósettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjósetjirðu",
+					"ft": "sjósetjiði"
+				},
+				"þátíð": {
+					"et": "sjósettirðu",
+					"ft": "sjósettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjósetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sjósettur", "sjósettan", "sjósettum", "sjósetts"],
+					"kvk": ["sjósett", "sjósetta", "sjósettri", "sjósettrar"],
+					"hk": ["sjósett", "sjósett", "sjósettu", "sjósetts"]
+				},
+				"ft": {
+					"kk": ["sjósettir", "sjósetta", "sjósettum", "sjósettra"],
+					"kvk": ["sjósettar", "sjósettar", "sjósettum", "sjósettra"],
+					"hk": ["sjósett", "sjósett", "sjósettum", "sjósettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjósetja",
+	"hash": "20f5265daff6c185a8dae4d9ec80de8040f4ce417551b3194332e12f89a9a6fa"
+}

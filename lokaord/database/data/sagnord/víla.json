@@ -1,0 +1,135 @@
+{
+	"orð": "víla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "víl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-víl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "víla",
+		"sagnbót": "vílað",
+		"boðháttur": {
+			"stýfður": "víla",
+			"et": "vílaðu",
+			"ft": "vílið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["víla", "vílar", "vílar"],
+					"ft": ["vílum", "vílið", "víla"]
+				},
+				"þátíð": {
+					"et": ["vílaði", "vílaðir", "vílaði"],
+					"ft": ["víluðum", "víluðuð", "víluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["víli", "vílir", "víli"],
+					"ft": ["vílum", "vílið", "víli"]
+				},
+				"þátíð": {
+					"et": ["vílaði", "vílaðir", "vílaði"],
+					"ft": ["víluðum", "víluðuð", "víluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vílarðu",
+					"ft": "víliði"
+				},
+				"þátíð": {
+					"et": "vílaðirðu",
+					"ft": "víluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vílirðu",
+					"ft": "víliði"
+				},
+				"þátíð": {
+					"et": "vílaðirðu",
+					"ft": "víluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vílast",
+		"sagnbót": "vílast",
+		"boðháttur": {
+			"et": "vílastu",
+			"ft": "vílist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vílast", "vílast", "vílast"],
+					"ft": ["vílumst", "vílist", "vílast"]
+				},
+				"þátíð": {
+					"et": ["vílaðist", "vílaðist", "vílaðist"],
+					"ft": ["víluðumst", "víluðust", "víluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vílist", "vílist", "vílist"],
+					"ft": ["vílumst", "vílist", "vílist"]
+				},
+				"þátíð": {
+					"et": ["vílaðist", "vílaðist", "vílaðist"],
+					"ft": ["víluðumst", "víluðust", "víluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vílastu"
+				},
+				"þátíð": {
+					"et": "vílaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vílistu"
+				},
+				"þátíð": {
+					"et": "vílaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vílandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vílaður", "vílaðan", "víluðum", "vílaðs"],
+					"kvk": ["víluð", "vílaða", "vílaðri", "vílaðrar"],
+					"hk": ["vílað", "vílað", "víluðu", "vílaðs"]
+				},
+				"ft": {
+					"kk": ["vílaðir", "vílaða", "víluðum", "vílaðra"],
+					"kvk": ["vílaðar", "vílaðar", "víluðum", "vílaðra"],
+					"hk": ["víluð", "víluð", "víluðum", "vílaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-víla",
+	"hash": "a079959a7b13690e7c2236f1a73fef18f0d8651bfe7fc23782fecf7a7ef7a739"
+}

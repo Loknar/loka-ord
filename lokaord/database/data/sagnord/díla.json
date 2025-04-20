@@ -1,0 +1,73 @@
+{
+	"orð": "díla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "díl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-díłl-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "díla",
+		"sagnbót": "dílað",
+		"boðháttur": {
+			"stýfður": "díla",
+			"et": "dílaðu",
+			"ft": "dílið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["díla", "dílar", "dílar"],
+					"ft": ["dílum", "dílið", "díla"]
+				},
+				"þátíð": {
+					"et": ["dílaði", "dílaðir", "dílaði"],
+					"ft": ["díluðum", "díluðuð", "díluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["díli", "dílir", "díli"],
+					"ft": ["dílum", "dílið", "díli"]
+				},
+				"þátíð": {
+					"et": ["dílaði", "dílaðir", "dílaði"],
+					"ft": ["díluðum", "díluðuð", "díluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dílarðu",
+					"ft": "díliði"
+				},
+				"þátíð": {
+					"et": "dílaðirðu",
+					"ft": "díluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dílirðu",
+					"ft": "díliði"
+				},
+				"þátíð": {
+					"et": "dílaðirðu",
+					"ft": "díluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dílandi"
+	},
+	"kennistrengur": "so-díla",
+	"hash": "c931d465e06ab2ea7f7edca1979a2f216cf94c32132dfbc51733191592ed19d0"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "tábrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tá-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tábrjóta",
+		"sagnbót": "tábrotið",
+		"boðháttur": {
+			"stýfður": "tábrjót",
+			"et": "tábrjóttu",
+			"ft": "tábrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tábrýt", "tábrýtur", "tábrýtur"],
+					"ft": ["tábrjótum", "tábrjótið", "tábrjóta"]
+				},
+				"þátíð": {
+					"et": ["tábraut", "tábraust", "tábraut"],
+					"ft": ["tábrutum", "tábrutuð", "tábrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tábrjóti", "tábrjótir", "tábrjóti"],
+					"ft": ["tábrjótum", "tábrjótið", "tábrjóti"]
+				},
+				"þátíð": {
+					"et": ["tábryti", "tábrytir", "tábryti"],
+					"ft": ["tábrytum", "tábrytuð", "tábrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tábrýturðu",
+					"ft": "tábrjótiði"
+				},
+				"þátíð": {
+					"et": "tábraustu",
+					"ft": "tábrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tábrjótirðu",
+					"ft": "tábrjótiði"
+				},
+				"þátíð": {
+					"et": "tábrytirðu",
+					"ft": "tábrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tábrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tábrotinn", "tábrotinn", "tábrotnum", "tábrotins"],
+					"kvk": ["tábrotin", "tábrotna", "tábrotinni", "tábrotinnar"],
+					"hk": ["tábrotið", "tábrotið", "tábrotnu", "tábrotins"]
+				},
+				"ft": {
+					"kk": ["tábrotnir", "tábrotna", "tábrotnum", "tábrotinna"],
+					"kvk": ["tábrotnar", "tábrotnar", "tábrotnum", "tábrotinna"],
+					"hk": ["tábrotin", "tábrotin", "tábrotnum", "tábrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tábrotni", "tábrotna", "tábrotna", "tábrotna"],
+					"kvk": ["tábrotna", "tábrotnu", "tábrotnu", "tábrotnu"],
+					"hk": ["tábrotna", "tábrotna", "tábrotna", "tábrotna"]
+				},
+				"ft": {
+					"kk": ["tábrotnu", "tábrotnu", "tábrotnu", "tábrotnu"],
+					"kvk": ["tábrotnu", "tábrotnu", "tábrotnu", "tábrotnu"],
+					"hk": ["tábrotnu", "tábrotnu", "tábrotnu", "tábrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tábrjóta",
+	"hash": "0ba18acf2a067d288caef5df6379e1edb8561e021aa825a39019642d08cf2199"
+}

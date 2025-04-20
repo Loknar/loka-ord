@@ -1,0 +1,142 @@
+{
+	"orð": "afsaga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"kennistrengur": "so-saga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afsaga",
+		"sagnbót": "afsagað",
+		"boðháttur": {
+			"stýfður": "afsaga",
+			"et": "afsagaðu",
+			"ft": "afsagið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afsaga", "afsagar", "afsagar"],
+					"ft": ["afsögum", "afsagið", "afsaga"]
+				},
+				"þátíð": {
+					"et": ["afsagaði", "afsagaðir", "afsagaði"],
+					"ft": ["afsöguðum", "afsöguðuð", "afsöguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afsagi", "afsagir", "afsagi"],
+					"ft": ["afsögum", "afsagið", "afsagi"]
+				},
+				"þátíð": {
+					"et": ["afsagaði", "afsagaðir", "afsagaði"],
+					"ft": ["afsöguðum", "afsöguðuð", "afsöguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afsagarðu",
+					"ft": "afsagiði"
+				},
+				"þátíð": {
+					"et": "afsagaðirðu",
+					"ft": "afsöguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afsagirðu",
+					"ft": "afsagiði"
+				},
+				"þátíð": {
+					"et": "afsagaðirðu",
+					"ft": "afsöguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afsagast",
+		"sagnbót": "afsagast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afsagast", "afsagast", "afsagast"],
+					"ft": ["afsögumst", "afsagist", "afsagast"]
+				},
+				"þátíð": {
+					"et": ["afsagaðist", "afsagaðist", "afsagaðist"],
+					"ft": ["afsöguðumst", "afsöguðust", "afsöguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afsagist", "afsagist", "afsagist"],
+					"ft": ["afsögumst", "afsagist", "afsagist"]
+				},
+				"þátíð": {
+					"et": ["afsagaðist", "afsagaðist", "afsagaðist"],
+					"ft": ["afsöguðumst", "afsöguðust", "afsöguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afsagastu"
+				},
+				"þátíð": {
+					"et": "afsagaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afsagistu"
+				},
+				"þátíð": {
+					"et": "afsagaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afsagandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afsagaður", "afsagaðan", "afsöguðum", "afsagaðs"],
+					"kvk": ["afsöguð", "afsagaða", "afsagaðri", "afsagaðrar"],
+					"hk": ["afsagað", "afsagað", "afsöguðu", "afsagaðs"]
+				},
+				"ft": {
+					"kk": ["afsagaðir", "afsagaða", "afsöguðum", "afsagaðra"],
+					"kvk": ["afsagaðar", "afsagaðar", "afsöguðum", "afsagaðra"],
+					"hk": ["afsöguð", "afsöguð", "afsöguðum", "afsagaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["afsagaði", "afsagaða", "afsagaða", "afsagaða"],
+					"kvk": ["afsagaða", "afsöguðu", "afsöguðu", "afsöguðu"],
+					"hk": ["afsagaða", "afsagaða", "afsagaða", "afsagaða"]
+				},
+				"ft": {
+					"kk": ["afsöguðu", "afsöguðu", "afsöguðu", "afsöguðu"],
+					"kvk": ["afsöguðu", "afsöguðu", "afsöguðu", "afsöguðu"],
+					"hk": ["afsöguðu", "afsöguðu", "afsöguðu", "afsöguðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afsaga",
+	"hash": "4960f2368d90061d9c703b2120d43e619b0b5d2430f674f0d5b6b6c55a9957e4"
+}

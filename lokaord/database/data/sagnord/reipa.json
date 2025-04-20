@@ -1,0 +1,87 @@
+{
+	"orð": "reipa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "reip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-reip-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "reipa",
+		"sagnbót": "reipað",
+		"boðháttur": {
+			"stýfður": "reipa",
+			"et": "reipaðu",
+			"ft": "reipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reipa", "reipar", "reipar"],
+					"ft": ["reipum", "reipið", "reipa"]
+				},
+				"þátíð": {
+					"et": ["reipaði", "reipaðir", "reipaði"],
+					"ft": ["reipuðum", "reipuðuð", "reipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reipi", "reipir", "reipi"],
+					"ft": ["reipum", "reipið", "reipi"]
+				},
+				"þátíð": {
+					"et": ["reipaði", "reipaðir", "reipaði"],
+					"ft": ["reipuðum", "reipuðuð", "reipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reiparðu",
+					"ft": "reipiði"
+				},
+				"þátíð": {
+					"et": "reipaðirðu",
+					"ft": "reipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reipirðu",
+					"ft": "reipiði"
+				},
+				"þátíð": {
+					"et": "reipaðirðu",
+					"ft": "reipuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reipandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reipaður", "reipaðan", "reipuðum", "reipaðs"],
+					"kvk": ["reipuð", "reipaða", "reipaðri", "reipaðrar"],
+					"hk": ["reipað", "reipað", "reipuðu", "reipaðs"]
+				},
+				"ft": {
+					"kk": ["reipaðir", "reipaða", "reipuðum", "reipaðra"],
+					"kvk": ["reipaðar", "reipaðar", "reipuðum", "reipaðra"],
+					"hk": ["reipuð", "reipuð", "reipuðum", "reipaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reipa",
+	"hash": "a289e808e8711145d42130f427b42eb430d9653317a63eca4127e92bfbfa359d"
+}

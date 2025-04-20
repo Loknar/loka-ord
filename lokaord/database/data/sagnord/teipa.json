@@ -1,0 +1,87 @@
+{
+	"orð": "teipa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "teip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-teip-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "teipa",
+		"sagnbót": "teipað",
+		"boðháttur": {
+			"stýfður": "teipa",
+			"et": "teipaðu",
+			"ft": "teipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["teipa", "teipar", "teipar"],
+					"ft": ["teipum", "teipið", "teipa"]
+				},
+				"þátíð": {
+					"et": ["teipaði", "teipaðir", "teipaði"],
+					"ft": ["teipuðum", "teipuðuð", "teipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["teipi", "teipir", "teipi"],
+					"ft": ["teipum", "teipið", "teipi"]
+				},
+				"þátíð": {
+					"et": ["teipaði", "teipaðir", "teipaði"],
+					"ft": ["teipuðum", "teipuðuð", "teipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "teiparðu",
+					"ft": "teipiði"
+				},
+				"þátíð": {
+					"et": "teipaðirðu",
+					"ft": "teipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "teipirðu",
+					"ft": "teipiði"
+				},
+				"þátíð": {
+					"et": "teipaðirðu",
+					"ft": "teipuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "teipandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["teipaður", "teipaðan", "teipuðum", "teipaðs"],
+					"kvk": ["teipuð", "teipaða", "teipaðri", "teipaðrar"],
+					"hk": ["teipað", "teipað", "teipuðu", "teipaðs"]
+				},
+				"ft": {
+					"kk": ["teipaðir", "teipaða", "teipuðum", "teipaðra"],
+					"kvk": ["teipaðar", "teipaðar", "teipuðum", "teipaðra"],
+					"hk": ["teipuð", "teipuð", "teipuðum", "teipaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-teipa",
+	"hash": "1a73a5320b3176b9f39b099044eda6fe54e3c540d6c25dbc5811134dfe91a923"
+}

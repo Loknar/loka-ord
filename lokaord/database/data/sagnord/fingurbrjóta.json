@@ -1,0 +1,99 @@
+{
+	"orð": "fingurbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fingur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fingur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fingurbrjóta",
+		"sagnbót": "fingurbrotið",
+		"boðháttur": {
+			"stýfður": "fingurbrjót",
+			"et": "fingurbrjóttu",
+			"ft": "fingurbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fingurbrýt", "fingurbrýtur", "fingurbrýtur"],
+					"ft": ["fingurbrjótum", "fingurbrjótið", "fingurbrjóta"]
+				},
+				"þátíð": {
+					"et": ["fingurbraut", "fingurbraust", "fingurbraut"],
+					"ft": ["fingurbrutum", "fingurbrutuð", "fingurbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fingurbrjóti", "fingurbrjótir", "fingurbrjóti"],
+					"ft": ["fingurbrjótum", "fingurbrjótið", "fingurbrjóti"]
+				},
+				"þátíð": {
+					"et": ["fingurbryti", "fingurbrytir", "fingurbryti"],
+					"ft": ["fingurbrytum", "fingurbrytuð", "fingurbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fingurbrýturðu",
+					"ft": "fingurbrjótiði"
+				},
+				"þátíð": {
+					"et": "fingurbraustu",
+					"ft": "fingurbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fingurbrjótirðu",
+					"ft": "fingurbrjótiði"
+				},
+				"þátíð": {
+					"et": "fingurbrytirðu",
+					"ft": "fingurbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fingurbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fingurbrotinn", "fingurbrotinn", "fingurbrotnum", "fingurbrotins"],
+					"kvk": ["fingurbrotin", "fingurbrotna", "fingurbrotinni", "fingurbrotinnar"],
+					"hk": ["fingurbrotið", "fingurbrotið", "fingurbrotnu", "fingurbrotins"]
+				},
+				"ft": {
+					"kk": ["fingurbrotnir", "fingurbrotna", "fingurbrotnum", "fingurbrotinna"],
+					"kvk": ["fingurbrotnar", "fingurbrotnar", "fingurbrotnum", "fingurbrotinna"],
+					"hk": ["fingurbrotin", "fingurbrotin", "fingurbrotnum", "fingurbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fingurbrotni", "fingurbrotna", "fingurbrotna", "fingurbrotna"],
+					"kvk": ["fingurbrotna", "fingurbrotnu", "fingurbrotnu", "fingurbrotnu"],
+					"hk": ["fingurbrotna", "fingurbrotna", "fingurbrotna", "fingurbrotna"]
+				},
+				"ft": {
+					"kk": ["fingurbrotnu", "fingurbrotnu", "fingurbrotnu", "fingurbrotnu"],
+					"kvk": ["fingurbrotnu", "fingurbrotnu", "fingurbrotnu", "fingurbrotnu"],
+					"hk": ["fingurbrotnu", "fingurbrotnu", "fingurbrotnu", "fingurbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fingurbrjóta",
+	"hash": "6a5793e55a01c70715f5636544c6ec388f1eb2ccaa0bfdef1f14cb754d8892f6"
+}

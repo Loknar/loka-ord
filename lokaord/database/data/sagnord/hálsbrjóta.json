@@ -1,0 +1,99 @@
+{
+	"orð": "hálsbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "háls",
+			"samsetning": "stofn",
+			"kennistrengur": "no-háls-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hálsbrjóta",
+		"sagnbót": "hálsbrotið",
+		"boðháttur": {
+			"stýfður": "hálsbrjót",
+			"et": "hálsbrjóttu",
+			"ft": "hálsbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hálsbrýt", "hálsbrýtur", "hálsbrýtur"],
+					"ft": ["hálsbrjótum", "hálsbrjótið", "hálsbrjóta"]
+				},
+				"þátíð": {
+					"et": ["hálsbraut", "hálsbraust", "hálsbraut"],
+					"ft": ["hálsbrutum", "hálsbrutuð", "hálsbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hálsbrjóti", "hálsbrjótir", "hálsbrjóti"],
+					"ft": ["hálsbrjótum", "hálsbrjótið", "hálsbrjóti"]
+				},
+				"þátíð": {
+					"et": ["hálsbryti", "hálsbrytir", "hálsbryti"],
+					"ft": ["hálsbrytum", "hálsbrytuð", "hálsbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hálsbrýturðu",
+					"ft": "hálsbrjótiði"
+				},
+				"þátíð": {
+					"et": "hálsbraustu",
+					"ft": "hálsbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hálsbrjótirðu",
+					"ft": "hálsbrjótiði"
+				},
+				"þátíð": {
+					"et": "hálsbrytirðu",
+					"ft": "hálsbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hálsbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hálsbrotinn", "hálsbrotinn", "hálsbrotnum", "hálsbrotins"],
+					"kvk": ["hálsbrotin", "hálsbrotna", "hálsbrotinni", "hálsbrotinnar"],
+					"hk": ["hálsbrotið", "hálsbrotið", "hálsbrotnu", "hálsbrotins"]
+				},
+				"ft": {
+					"kk": ["hálsbrotnir", "hálsbrotna", "hálsbrotnum", "hálsbrotinna"],
+					"kvk": ["hálsbrotnar", "hálsbrotnar", "hálsbrotnum", "hálsbrotinna"],
+					"hk": ["hálsbrotin", "hálsbrotin", "hálsbrotnum", "hálsbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hálsbrotni", "hálsbrotna", "hálsbrotna", "hálsbrotna"],
+					"kvk": ["hálsbrotna", "hálsbrotnu", "hálsbrotnu", "hálsbrotnu"],
+					"hk": ["hálsbrotna", "hálsbrotna", "hálsbrotna", "hálsbrotna"]
+				},
+				"ft": {
+					"kk": ["hálsbrotnu", "hálsbrotnu", "hálsbrotnu", "hálsbrotnu"],
+					"kvk": ["hálsbrotnu", "hálsbrotnu", "hálsbrotnu", "hálsbrotnu"],
+					"hk": ["hálsbrotnu", "hálsbrotnu", "hálsbrotnu", "hálsbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hálsbrjóta",
+	"hash": "d7c2045bf87f76b363f3b23de4506cfab23f2783419fb541808ca6cf20b65070"
+}

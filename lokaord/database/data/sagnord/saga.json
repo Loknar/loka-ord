@@ -1,0 +1,132 @@
+{
+	"orð": "saga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "saga",
+		"sagnbót": "sagað",
+		"boðháttur": {
+			"stýfður": "saga",
+			"et": "sagaðu",
+			"ft": "sagið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["saga", "sagar", "sagar"],
+					"ft": ["sögum", "sagið", "saga"]
+				},
+				"þátíð": {
+					"et": ["sagaði", "sagaðir", "sagaði"],
+					"ft": ["söguðum", "söguðuð", "söguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sagi", "sagir", "sagi"],
+					"ft": ["sögum", "sagið", "sagi"]
+				},
+				"þátíð": {
+					"et": ["sagaði", "sagaðir", "sagaði"],
+					"ft": ["söguðum", "söguðuð", "söguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sagarðu",
+					"ft": "sagiði"
+				},
+				"þátíð": {
+					"et": "sagaðirðu",
+					"ft": "söguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sagirðu",
+					"ft": "sagiði"
+				},
+				"þátíð": {
+					"et": "sagaðirðu",
+					"ft": "söguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sagast",
+		"sagnbót": "sagast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sagast", "sagast", "sagast"],
+					"ft": ["sögumst", "sagist", "sagast"]
+				},
+				"þátíð": {
+					"et": ["sagaðist", "sagaðist", "sagaðist"],
+					"ft": ["söguðumst", "söguðust", "söguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sagist", "sagist", "sagist"],
+					"ft": ["sögumst", "sagist", "sagist"]
+				},
+				"þátíð": {
+					"et": ["sagaðist", "sagaðist", "sagaðist"],
+					"ft": ["söguðumst", "söguðust", "söguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sagastu"
+				},
+				"þátíð": {
+					"et": "sagaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sagistu"
+				},
+				"þátíð": {
+					"et": "sagaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sagandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sagaður", "sagaðan", "söguðum", "sagaðs"],
+					"kvk": ["söguð", "sagaða", "sagaðri", "sagaðrar"],
+					"hk": ["sagað", "sagað", "söguðu", "sagaðs"]
+				},
+				"ft": {
+					"kk": ["sagaðir", "sagaða", "söguðum", "sagaðra"],
+					"kvk": ["sagaðar", "sagaðar", "söguðum", "sagaðra"],
+					"hk": ["söguð", "söguð", "söguðum", "sagaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sagaði", "sagaða", "sagaða", "sagaða"],
+					"kvk": ["sagaða", "söguðu", "söguðu", "söguðu"],
+					"hk": ["sagaða", "sagaða", "sagaða", "sagaða"]
+				},
+				"ft": {
+					"kk": ["söguðu", "söguðu", "söguðu", "söguðu"],
+					"kvk": ["söguðu", "söguðu", "söguðu", "söguðu"],
+					"hk": ["söguðu", "söguðu", "söguðu", "söguðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-saga",
+	"hash": "1656df22c6cfaaf07324f1fb2f18bf6376ae156fe85ff648444a45434ba528c0"
+}

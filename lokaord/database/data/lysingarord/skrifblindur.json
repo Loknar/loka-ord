@@ -1,0 +1,43 @@
+{
+	"orð": "skrifblindur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skrif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrif-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-blindur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skrifblindur", "skrifblindan", "skrifblindum", "skrifblinds"],
+				"kvk": ["skrifblind", "skrifblinda", "skrifblindri", "skrifblindrar"],
+				"hk": ["skrifblint", "skrifblint", "skrifblindu", "skrifblinds"]
+			},
+			"ft": {
+				"kk": ["skrifblindir", "skrifblinda", "skrifblindum", "skrifblindra"],
+				"kvk": ["skrifblindar", "skrifblindar", "skrifblindum", "skrifblindra"],
+				"hk": ["skrifblind", "skrifblind", "skrifblindum", "skrifblindra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skrifblindi", "skrifblinda", "skrifblinda", "skrifblinda"],
+				"kvk": ["skrifblinda", "skrifblindu", "skrifblindu", "skrifblindu"],
+				"hk": ["skrifblinda", "skrifblinda", "skrifblinda", "skrifblinda"]
+			},
+			"ft": {
+				"kk": ["skrifblindu", "skrifblindu", "skrifblindu", "skrifblindu"],
+				"kvk": ["skrifblindu", "skrifblindu", "skrifblindu", "skrifblindu"],
+				"hk": ["skrifblindu", "skrifblindu", "skrifblindu", "skrifblindu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skrifblindur",
+	"hash": "e66ebfc5b7cc7ff3d755aa718e1c467dd115d8c9798fe313ace19b15d92ab3a8"
+}
