@@ -1,6 +1,16 @@
 {
 	"orð": "svindla",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "svindl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-svindl-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "svindla",
 		"sagnbót": "svindlað",
@@ -31,29 +41,6 @@
 				}
 			}
 		},
-		"ópersónuleg": {
-			"frumlag": "þágufałl",
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["svindlar", "svindlar", "svindlar"],
-					"ft": ["svindlar", "svindlar", "svindlar"]
-				},
-				"þátíð": {
-					"et": ["svindlaði", "svindlaði", "svindlaði"],
-					"ft": ["svindlaði", "svindlaði", "svindlaði"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["svindli", "svindli", "svindli"],
-					"ft": ["svindli", "svindli", "svindli"]
-				},
-				"þátíð": {
-					"et": ["svindlaði", "svindlaði", "svindlaði"],
-					"ft": ["svindlaði", "svindlaði", "svindlaði"]
-				}
-			}
-		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -80,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "svindlast",
 		"sagnbót": "svindlast",
+		"boðháttur": {
+			"et": "svindlastu",
+			"ft": "svindlist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -151,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-svindla",
-	"hash": "51e4de3141de3006cd9d38d8c495517c0d874c1259a6c96688a476ceccb79cdc"
+	"hash": "4311014cb6c92d3a9761c949cd7020a6bfd24e35c7ad443d83a44bd111691d71"
 }
