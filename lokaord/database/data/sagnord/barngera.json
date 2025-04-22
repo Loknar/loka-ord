@@ -1,0 +1,86 @@
+{
+	"orð": "barngera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "barn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-barn-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "barngera",
+		"sagnbót": "barngert",
+		"boðháttur": {
+			"stýfður": "barnger",
+			"et": "barngerðu",
+			"ft": "barngerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["barngeri", "barngerir", "barngerir"],
+					"ft": ["barngerum", "barngerið", "barngera"]
+				},
+				"þátíð": {
+					"et": ["barngerði", "barngerðir", "barngerði"],
+					"ft": ["barngerðum", "barngerðuð", "barngerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["barngeri", "barngerir", "barngeri"],
+					"ft": ["barngerum", "barngerið", "barngeri"]
+				},
+				"þátíð": {
+					"et": ["barngerði", "barngerðir", "barngerði"],
+					"ft": ["barngerðum", "barngerðuð", "barngerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "barngerirðu",
+					"ft": "barngeriði"
+				},
+				"þátíð": {
+					"et": "barngerðirðu",
+					"ft": "barngerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "barngerirðu",
+					"ft": "barngeriði"
+				},
+				"þátíð": {
+					"et": "barngerðirðu",
+					"ft": "barngerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["barngerður", "barngerðan", "barngerðum", "barngerðs"],
+					"kvk": ["barngerð", "barngerða", "barngerðri", "barngerðrar"],
+					"hk": ["barngert", "barngert", "barngerðu", "barngerðs"]
+				},
+				"ft": {
+					"kk": ["barngerðir", "barngerða", "barngerðum", "barngerðra"],
+					"kvk": ["barngerðar", "barngerðar", "barngerðum", "barngerðra"],
+					"hk": ["barngerð", "barngerð", "barngerðum", "barngerðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-barngera",
+	"hash": "25019d3b48846cd3fe183b40bb8d0ed45844f04ddecc8dbec8f1c2fcdf655ad0"
+}
