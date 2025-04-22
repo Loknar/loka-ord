@@ -1,0 +1,135 @@
+{
+	"orð": "murka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "murk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-murk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "murka",
+		"sagnbót": "murkað",
+		"boðháttur": {
+			"stýfður": "murka",
+			"et": "murkaðu",
+			"ft": "murkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["murka", "murkar", "murkar"],
+					"ft": ["murkum", "murkið", "murka"]
+				},
+				"þátíð": {
+					"et": ["murkaði", "murkaðir", "murkaði"],
+					"ft": ["murkuðum", "murkuðuð", "murkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["murki", "murkir", "murki"],
+					"ft": ["murkum", "murkið", "murki"]
+				},
+				"þátíð": {
+					"et": ["murkaði", "murkaðir", "murkaði"],
+					"ft": ["murkuðum", "murkuðuð", "murkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "murkarðu",
+					"ft": "murkiði"
+				},
+				"þátíð": {
+					"et": "murkaðirðu",
+					"ft": "murkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "murkirðu",
+					"ft": "murkiði"
+				},
+				"þátíð": {
+					"et": "murkaðirðu",
+					"ft": "murkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "murkast",
+		"sagnbót": "murkast",
+		"boðháttur": {
+			"et": "murkastu",
+			"ft": "murkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["murkast", "murkast", "murkast"],
+					"ft": ["murkumst", "murkist", "murkast"]
+				},
+				"þátíð": {
+					"et": ["murkaðist", "murkaðist", "murkaðist"],
+					"ft": ["murkuðumst", "murkuðust", "murkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["murkist", "murkist", "murkist"],
+					"ft": ["murkumst", "murkist", "murkist"]
+				},
+				"þátíð": {
+					"et": ["murkaðist", "murkaðist", "murkaðist"],
+					"ft": ["murkuðumst", "murkuðust", "murkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "murkastu"
+				},
+				"þátíð": {
+					"et": "murkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "murkistu"
+				},
+				"þátíð": {
+					"et": "murkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "murkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["murkaður", "murkaðan", "murkuðum", "murkaðs"],
+					"kvk": ["murkuð", "murkaða", "murkaðri", "murkaðrar"],
+					"hk": ["murkað", "murkað", "murkuðu", "murkaðs"]
+				},
+				"ft": {
+					"kk": ["murkaðir", "murkaða", "murkuðum", "murkaðra"],
+					"kvk": ["murkaðar", "murkaðar", "murkuðum", "murkaðra"],
+					"hk": ["murkuð", "murkuð", "murkuðum", "murkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-murka",
+	"hash": "7723075973678b5f4cedf358f9b379982ca09a66eab803a8e6100024af7ea007"
+}

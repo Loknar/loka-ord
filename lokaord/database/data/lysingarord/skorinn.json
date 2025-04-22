@@ -1,6 +1,17 @@
 {
 	"orð": "skorinn",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skor",
+			"samsetning": "stofn",
+			"kennistrengur": "so-skera"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -28,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-skorinn",
-	"hash": "30ac55f723c237935f2d003cc2136b149574c78bf1a3903e19ce0c572d8761b9"
+	"hash": "443125780796f17609d915fa6c6411d7bf728f2fae651835bab6755e2d0b5efd"
 }

@@ -1,0 +1,135 @@
+{
+	"orð": "frumflytja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frum-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-flytja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frumflytja",
+		"sagnbót": "frumflutt",
+		"boðháttur": {
+			"stýfður": "frumflyt",
+			"et": "frumflyttu",
+			"ft": "frumflytjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumflyt", "frumflytur", "frumflytur"],
+					"ft": ["frumflytjum", "frumflytjið", "frumflytja"]
+				},
+				"þátíð": {
+					"et": ["frumflutti", "frumfluttir", "frumflutti"],
+					"ft": ["frumfluttum", "frumfluttuð", "frumfluttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumflytji", "frumflytjir", "frumflytji"],
+					"ft": ["frumflytjum", "frumflytjið", "frumflytji"]
+				},
+				"þátíð": {
+					"et": ["frumflytti", "frumflyttir", "frumflytti"],
+					"ft": ["frumflyttum", "frumflyttuð", "frumflyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frumflyturðu",
+					"ft": "frumflytjiði"
+				},
+				"þátíð": {
+					"et": "frumfluttirðu",
+					"ft": "frumfluttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frumflytjirðu",
+					"ft": "frumflytjiði"
+				},
+				"þátíð": {
+					"et": "frumflyttirðu",
+					"ft": "frumflyttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "frumflytjast",
+		"sagnbót": "frumflust",
+		"boðháttur": {
+			"et": "frumflystu",
+			"ft": "frumflytjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumflyst", "frumflyst", "frumflyst"],
+					"ft": ["frumflytjumst", "frumflytjist", "frumflytjast"]
+				},
+				"þátíð": {
+					"et": ["frumfluttist", "frumfluttist", "frumfluttist"],
+					"ft": ["frumfluttumst", "frumfluttust", "frumfluttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumflytjist", "frumflytjist", "frumflytjist"],
+					"ft": ["frumflytjumst", "frumflytjist", "frumflytjist"]
+				},
+				"þátíð": {
+					"et": ["frumflyttist", "frumflyttist", "frumflyttist"],
+					"ft": ["frumflyttumst", "frumflyttust", "frumflyttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frumflystu"
+				},
+				"þátíð": {
+					"et": "frumfluttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frumflytjistu"
+				},
+				"þátíð": {
+					"et": "frumflyttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frumflytjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frumfluttur", "frumfluttan", "frumfluttum", "frumflutts"],
+					"kvk": ["frumflutt", "frumflutta", "frumfluttri", "frumfluttrar"],
+					"hk": ["frumflutt", "frumflutt", "frumfluttu", "frumflutts"]
+				},
+				"ft": {
+					"kk": ["frumfluttir", "frumflutta", "frumfluttum", "frumfluttra"],
+					"kvk": ["frumfluttar", "frumfluttar", "frumfluttum", "frumfluttra"],
+					"hk": ["frumflutt", "frumflutt", "frumfluttum", "frumfluttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frumflytja",
+	"hash": "3d7c1cf6631676edd0a37e8bb7d80605987b116fcf77bfb0a63cf894671e72a2"
+}

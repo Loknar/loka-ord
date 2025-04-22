@@ -1,0 +1,35 @@
+{
+	"orð": "arðgreiðsluupphæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "arð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-arður-kk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["arðgreiðsluupphæð", "arðgreiðsluupphæð", "arðgreiðsluupphæð", "arðgreiðsluupphæðar"],
+		"mg": ["arðgreiðsluupphæðin", "arðgreiðsluupphæðina", "arðgreiðsluupphæðinni", "arðgreiðsluupphæðarinnar"]
+	},
+	"ft": {
+		"ág": ["arðgreiðsluupphæðir", "arðgreiðsluupphæðir", "arðgreiðsluupphæðum", "arðgreiðsluupphæða"],
+		"mg": ["arðgreiðsluupphæðirnar", "arðgreiðsluupphæðirnar", "arðgreiðsluupphæðunum", "arðgreiðsluupphæðanna"]
+	},
+	"kennistrengur": "no-arðgreiðsluupphæð-kvk",
+	"hash": "3ff082cf87a89f863c0097db1d5a2f83a26fd47c5efb65aa6cc32fb07d198356"
+}

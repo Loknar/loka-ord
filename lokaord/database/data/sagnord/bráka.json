@@ -1,0 +1,135 @@
+{
+	"orð": "bráka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brák",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brák-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bráka",
+		"sagnbót": "brákað",
+		"boðháttur": {
+			"stýfður": "bráka",
+			"et": "brákaðu",
+			"ft": "brákið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bráka", "brákar", "brákar"],
+					"ft": ["brákum", "brákið", "bráka"]
+				},
+				"þátíð": {
+					"et": ["brákaði", "brákaðir", "brákaði"],
+					"ft": ["brákuðum", "brákuðuð", "brákuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bráki", "brákir", "bráki"],
+					"ft": ["brákum", "brákið", "bráki"]
+				},
+				"þátíð": {
+					"et": ["brákaði", "brákaðir", "brákaði"],
+					"ft": ["brákuðum", "brákuðuð", "brákuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brákarðu",
+					"ft": "brákiði"
+				},
+				"þátíð": {
+					"et": "brákaðirðu",
+					"ft": "brákuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brákirðu",
+					"ft": "brákiði"
+				},
+				"þátíð": {
+					"et": "brákaðirðu",
+					"ft": "brákuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "brákast",
+		"sagnbót": "brákast",
+		"boðháttur": {
+			"et": "brákastu",
+			"ft": "brákist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brákast", "brákast", "brákast"],
+					"ft": ["brákumst", "brákist", "brákast"]
+				},
+				"þátíð": {
+					"et": ["brákaðist", "brákaðist", "brákaðist"],
+					"ft": ["brákuðumst", "brákuðust", "brákuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brákist", "brákist", "brákist"],
+					"ft": ["brákumst", "brákist", "brákist"]
+				},
+				"þátíð": {
+					"et": ["brákaðist", "brákaðist", "brákaðist"],
+					"ft": ["brákuðumst", "brákuðust", "brákuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brákastu"
+				},
+				"þátíð": {
+					"et": "brákaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brákistu"
+				},
+				"þátíð": {
+					"et": "brákaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brákandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brákaður", "brákaðan", "brákuðum", "brákaðs"],
+					"kvk": ["brákuð", "brákaða", "brákaðri", "brákaðrar"],
+					"hk": ["brákað", "brákað", "brákuðu", "brákaðs"]
+				},
+				"ft": {
+					"kk": ["brákaðir", "brákaða", "brákuðum", "brákaðra"],
+					"kvk": ["brákaðar", "brákaðar", "brákuðum", "brákaðra"],
+					"hk": ["brákuð", "brákuð", "brákuðum", "brákaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bráka",
+	"hash": "79ae84010586af17f719e4a220c3d1da922a9cc3a3997b90f78642786302f388"
+}

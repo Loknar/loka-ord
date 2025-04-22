@@ -1,0 +1,43 @@
+{
+	"orð": "þinglegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["þinglegur", "þinglegan", "þinglegum", "þinglegs"],
+				"kvk": ["þingleg", "þinglega", "þinglegri", "þinglegrar"],
+				"hk": ["þinglegt", "þinglegt", "þinglegu", "þinglegs"]
+			},
+			"ft": {
+				"kk": ["þinglegir", "þinglega", "þinglegum", "þinglegra"],
+				"kvk": ["þinglegar", "þinglegar", "þinglegum", "þinglegra"],
+				"hk": ["þingleg", "þingleg", "þinglegum", "þinglegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["þinglegi", "þinglega", "þinglega", "þinglega"],
+				"kvk": ["þinglega", "þinglegu", "þinglegu", "þinglegu"],
+				"hk": ["þinglega", "þinglega", "þinglega", "þinglega"]
+			},
+			"ft": {
+				"kk": ["þinglegu", "þinglegu", "þinglegu", "þinglegu"],
+				"kvk": ["þinglegu", "þinglegu", "þinglegu", "þinglegu"],
+				"hk": ["þinglegu", "þinglegu", "þinglegu", "þinglegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-þinglegur",
+	"hash": "a2d31b5503c6d99e572afff1d29de8d8d54775c33bbcf7c91915c8418e0fa51c"
+}

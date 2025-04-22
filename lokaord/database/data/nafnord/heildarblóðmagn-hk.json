@@ -1,0 +1,27 @@
+{
+	"orð": "heildarblóðmagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "blóð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-blóð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarblóðmagn", "heildarblóðmagn", "heildarblóðmagni", "heildarblóðmagns"],
+		"mg": ["heildarblóðmagnið", "heildarblóðmagnið", "heildarblóðmagninu", "heildarblóðmagnsins"]
+	},
+	"kennistrengur": "no-heildarblóðmagn-hk",
+	"hash": "5711be187c50c942fecb594deff946c15ae20f3bcf7bc9d92170fbb7b41fcabf"
+}

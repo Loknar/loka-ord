@@ -1,0 +1,135 @@
+{
+	"orð": "skikka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skikk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skikk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skikka",
+		"sagnbót": "skikkað",
+		"boðháttur": {
+			"stýfður": "skikka",
+			"et": "skikkaðu",
+			"ft": "skikkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skikka", "skikkar", "skikkar"],
+					"ft": ["skikkum", "skikkið", "skikka"]
+				},
+				"þátíð": {
+					"et": ["skikkaði", "skikkaðir", "skikkaði"],
+					"ft": ["skikkuðum", "skikkuðuð", "skikkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skikki", "skikkir", "skikki"],
+					"ft": ["skikkum", "skikkið", "skikki"]
+				},
+				"þátíð": {
+					"et": ["skikkaði", "skikkaðir", "skikkaði"],
+					"ft": ["skikkuðum", "skikkuðuð", "skikkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skikkarðu",
+					"ft": "skikkiði"
+				},
+				"þátíð": {
+					"et": "skikkaðirðu",
+					"ft": "skikkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skikkirðu",
+					"ft": "skikkiði"
+				},
+				"þátíð": {
+					"et": "skikkaðirðu",
+					"ft": "skikkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skikkast",
+		"sagnbót": "skikkast",
+		"boðháttur": {
+			"et": "skikkastu",
+			"ft": "skikkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skikkast", "skikkast", "skikkast"],
+					"ft": ["skikkumst", "skikkist", "skikkast"]
+				},
+				"þátíð": {
+					"et": ["skikkaðist", "skikkaðist", "skikkaðist"],
+					"ft": ["skikkuðumst", "skikkuðust", "skikkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skikkist", "skikkist", "skikkist"],
+					"ft": ["skikkumst", "skikkist", "skikkist"]
+				},
+				"þátíð": {
+					"et": ["skikkaðist", "skikkaðist", "skikkaðist"],
+					"ft": ["skikkuðumst", "skikkuðust", "skikkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skikkastu"
+				},
+				"þátíð": {
+					"et": "skikkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skikkistu"
+				},
+				"þátíð": {
+					"et": "skikkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skikkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skikkaður", "skikkaðan", "skikkuðum", "skikkaðs"],
+					"kvk": ["skikkuð", "skikkaða", "skikkaðri", "skikkaðrar"],
+					"hk": ["skikkað", "skikkað", "skikkuðu", "skikkaðs"]
+				},
+				"ft": {
+					"kk": ["skikkaðir", "skikkaða", "skikkuðum", "skikkaðra"],
+					"kvk": ["skikkaðar", "skikkaðar", "skikkuðum", "skikkaðra"],
+					"hk": ["skikkuð", "skikkuð", "skikkuðum", "skikkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skikka",
+	"hash": "9e5a07e7468f9b8448c8189a71b7202d200747f810190f800395c81620255d8b"
+}

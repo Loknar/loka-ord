@@ -1,0 +1,35 @@
+{
+	"orð": "veiðigjaldainnheimta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "veiði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veiði-kvk"
+		},
+		{
+			"mynd": "gjalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"kennistrengur": "no-heimta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["veiðigjaldainnheimta", "veiðigjaldainnheimtu", "veiðigjaldainnheimtu", "veiðigjaldainnheimtu"],
+		"mg": ["veiðigjaldainnheimtan", "veiðigjaldainnheimtuna", "veiðigjaldainnheimtunni", "veiðigjaldainnheimtunnar"]
+	},
+	"ft": {
+		"ág": ["veiðigjaldainnheimtur", "veiðigjaldainnheimtur", "veiðigjaldainnheimtum", "veiðigjaldainnheimta"],
+		"mg": ["veiðigjaldainnheimturnar", "veiðigjaldainnheimturnar", "veiðigjaldainnheimtunum", "veiðigjaldainnheimtanna"]
+	},
+	"kennistrengur": "no-veiðigjaldainnheimta-kvk",
+	"hash": "bc6a8a207a0b6dce8871d0958f464430e6ec63f28277aa9a7564e878258d4ad6"
+}

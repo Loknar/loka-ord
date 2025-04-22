@@ -1,0 +1,87 @@
+{
+	"orð": "frumsýna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frum-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sýna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frumsýna",
+		"sagnbót": "frumsýnt",
+		"boðháttur": {
+			"stýfður": "frumsýn",
+			"et": "frumsýndu",
+			"ft": "frumsýnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumsýni", "frumsýnir", "frumsýnir"],
+					"ft": ["frumsýnum", "frumsýnið", "frumsýna"]
+				},
+				"þátíð": {
+					"et": ["frumsýndi", "frumsýndir", "frumsýndi"],
+					"ft": ["frumsýndum", "frumsýnduð", "frumsýndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumsýni", "frumsýnir", "frumsýni"],
+					"ft": ["frumsýnum", "frumsýnið", "frumsýni"]
+				},
+				"þátíð": {
+					"et": ["frumsýndi", "frumsýndir", "frumsýndi"],
+					"ft": ["frumsýndum", "frumsýnduð", "frumsýndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frumsýnirðu",
+					"ft": "frumsýniði"
+				},
+				"þátíð": {
+					"et": "frumsýndirðu",
+					"ft": "frumsýnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frumsýnirðu",
+					"ft": "frumsýniði"
+				},
+				"þátíð": {
+					"et": "frumsýndirðu",
+					"ft": "frumsýnduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frumsýnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frumsýndur", "frumsýndan", "frumsýndum", "frumsýnds"],
+					"kvk": ["frumsýnd", "frumsýnda", "frumsýndri", "frumsýndrar"],
+					"hk": ["frumsýnt", "frumsýnt", "frumsýndu", "frumsýnds"]
+				},
+				"ft": {
+					"kk": ["frumsýndir", "frumsýnda", "frumsýndum", "frumsýndra"],
+					"kvk": ["frumsýndar", "frumsýndar", "frumsýndum", "frumsýndra"],
+					"hk": ["frumsýnd", "frumsýnd", "frumsýndum", "frumsýndra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frumsýna",
+	"hash": "fa112a7526538a744207f4a9fc9fcda06b15d0605ee6feb7e5e79cb426b5a8a5"
+}

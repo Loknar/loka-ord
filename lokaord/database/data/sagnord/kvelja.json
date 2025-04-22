@@ -1,0 +1,143 @@
+{
+	"orð": "kvelja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kvelja",
+		"sagnbót": "kvalið",
+		"boðháttur": {
+			"stýfður": "kvel",
+			"et": "kveldu",
+			"ft": "kveljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvel", "kvelur", "kvelur"],
+					"ft": ["kveljum", "kveljið", "kvelja"]
+				},
+				"þátíð": {
+					"et": ["kvaldi", "kvaldir", "kvaldi"],
+					"ft": ["kvöldum", "kvölduð", "kvöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvelji", "kveljir", "kvelji"],
+					"ft": ["kveljum", "kveljið", "kvelji"]
+				},
+				"þátíð": {
+					"et": ["kveldi", "kveldir", "kveldi"],
+					"ft": ["kveldum", "kvelduð", "kveldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvelurðu",
+					"ft": "kveljiði"
+				},
+				"þátíð": {
+					"et": "kvaldirðu",
+					"ft": "kvölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kveljirðu",
+					"ft": "kveljiði"
+				},
+				"þátíð": {
+					"et": "kveldirðu",
+					"ft": "kvelduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kveljast",
+		"sagnbót": "kvalist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvelst", "kvelst", "kvelst"],
+					"ft": ["kveljumst", "kveljist", "kveljast"]
+				},
+				"þátíð": {
+					"et": ["kvaldist", "kvaldist", "kvaldist"],
+					"ft": ["kvöldumst", "kvöldust", "kvöldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kveljist", "kveljist", "kveljist"],
+					"ft": ["kveljumst", "kveljist", "kveljist"]
+				},
+				"þátíð": {
+					"et": ["kveldist", "kveldist", "kveldist"],
+					"ft": ["kveldumst", "kveldust", "kveldust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvelst", "kvelst", "kvelst"],
+					"ft": ["kvelst", "kvelst", "kvelst"]
+				},
+				"þátíð": {
+					"et": ["kvaldist", "kvaldist", "kvaldist"],
+					"ft": ["kvaldist", "kvaldist", "kvaldist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kveljist", "kveljist", "kveljist"],
+					"ft": ["kveljist", "kveljist", "kveljist"]
+				},
+				"þátíð": {
+					"et": ["kveldist", "kveldist", "kveldist"],
+					"ft": ["kveldist", "kveldist", "kveldist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvelstu"
+				},
+				"þátíð": {
+					"et": "kvaldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kveljistu"
+				},
+				"þátíð": {
+					"et": "kveldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kveljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kvalinn", "kvalinn", "kvöldum", "kvalins"],
+					"kvk": ["kvalin", "kvalda", "kvalinni", "kvalinnar"],
+					"hk": ["kvalið", "kvalið", "kvöldu", "kvalins"]
+				},
+				"ft": {
+					"kk": ["kvaldir", "kvalda", "kvöldum", "kvalinna"],
+					"kvk": ["kvaldar", "kvaldar", "kvöldum", "kvalinna"],
+					"hk": ["kvalin", "kvalin", "kvöldum", "kvalinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kvelja",
+	"hash": "5792b9edfc307aafca815a46001d9d815b96d0cd93590dd996d4fde64d031753"
+}

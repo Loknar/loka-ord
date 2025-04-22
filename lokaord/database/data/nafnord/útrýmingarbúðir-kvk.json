@@ -1,0 +1,27 @@
+{
+	"orð": "útrýmingarbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "rýmingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rýming-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["útrýmingarbúðir", "útrýmingarbúðir", "útrýmingarbúðum", "útrýmingarbúða"],
+		"mg": ["útrýmingarbúðirnar", "útrýmingarbúðirnar", "útrýmingarbúðunum", "útrýmingarbúðanna"]
+	},
+	"kennistrengur": "no-útrýmingarbúðir-kvk",
+	"hash": "3c368b8ea3147c0c04fdd92dd69f36a2667ab7d54b3900e36f04992f7082afa6"
+}

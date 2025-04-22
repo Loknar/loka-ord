@@ -1,0 +1,121 @@
+{
+	"orð": "skála",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skál",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skál-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skála",
+		"sagnbót": "skálað",
+		"boðháttur": {
+			"stýfður": "skála",
+			"et": "skálaðu",
+			"ft": "skálið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skála", "skálar", "skálar"],
+					"ft": ["skálum", "skálið", "skála"]
+				},
+				"þátíð": {
+					"et": ["skálaði", "skálaðir", "skálaði"],
+					"ft": ["skáluðum", "skáluðuð", "skáluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skáli", "skálir", "skáli"],
+					"ft": ["skálum", "skálið", "skáli"]
+				},
+				"þátíð": {
+					"et": ["skálaði", "skálaðir", "skálaði"],
+					"ft": ["skáluðum", "skáluðuð", "skáluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skálarðu",
+					"ft": "skáliði"
+				},
+				"þátíð": {
+					"et": "skálaðirðu",
+					"ft": "skáluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skálirðu",
+					"ft": "skáliði"
+				},
+				"þátíð": {
+					"et": "skálaðirðu",
+					"ft": "skáluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skálast",
+		"sagnbót": "skálast",
+		"boðháttur": {
+			"et": "skálastu",
+			"ft": "skálist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skálast", "skálast", "skálast"],
+					"ft": ["skálumst", "skálist", "skálast"]
+				},
+				"þátíð": {
+					"et": ["skálaðist", "skálaðist", "skálaðist"],
+					"ft": ["skáluðumst", "skáluðust", "skáluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skálist", "skálist", "skálist"],
+					"ft": ["skálumst", "skálist", "skálist"]
+				},
+				"þátíð": {
+					"et": ["skálaðist", "skálaðist", "skálaðist"],
+					"ft": ["skáluðumst", "skáluðust", "skáluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skálastu"
+				},
+				"þátíð": {
+					"et": "skálaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skálistu"
+				},
+				"þátíð": {
+					"et": "skálaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skálandi"
+	},
+	"kennistrengur": "so-skála",
+	"hash": "bd4847fa49e3c7fada4838acf740587838e6bd43f8f31d34e27842bd5264b382"
+}
