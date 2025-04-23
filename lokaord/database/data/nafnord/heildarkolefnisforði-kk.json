@@ -1,0 +1,32 @@
+{
+	"orð": "heildarkolefnisforði",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-forði-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarkolefnisforði", "heildarkolefnisforða", "heildarkolefnisforða", "heildarkolefnisforða"],
+		"mg": ["heildarkolefnisforðinn", "heildarkolefnisforðann", "heildarkolefnisforðanum", "heildarkolefnisforðans"]
+	},
+	"kennistrengur": "no-heildarkolefnisforði-kk",
+	"hash": "a438600193b55f4e1206cc845ba280b16d7dc3ab0623451b82ab500321e0de6c"
+}

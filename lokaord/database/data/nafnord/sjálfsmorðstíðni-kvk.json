@@ -1,0 +1,27 @@
+{
+	"orð": "sjálfsmorðstíðni",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjálfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjálf-hk"
+		},
+		{
+			"mynd": "morðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-morð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tíðni-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjálfsmorðstíðni", "sjálfsmorðstíðni", "sjálfsmorðstíðni", "sjálfsmorðstíðni"],
+		"mg": ["sjálfsmorðstíðnin", "sjálfsmorðstíðnina", "sjálfsmorðstíðninni", "sjálfsmorðstíðninnar"]
+	},
+	"kennistrengur": "no-sjálfsmorðstíðni-kvk",
+	"hash": "c2ecc937248336bce263284f6af48e2ab9841931e8a4cde65f5e47df1431816c"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "fjölnytjaskógrækt",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjöl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjöl-kvk"
+		},
+		{
+			"mynd": "nytja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nyt-kvk"
+		},
+		{
+			"mynd": "skóg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skógur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rækt-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjölnytjaskógrækt", "fjölnytjaskógrækt", "fjölnytjaskógrækt", "fjölnytjaskógræktar"],
+		"mg": ["fjölnytjaskógræktin", "fjölnytjaskógræktina", "fjölnytjaskógræktinni", "fjölnytjaskógræktarinnar"]
+	},
+	"kennistrengur": "no-fjölnytjaskógrækt-kvk",
+	"hash": "b83b80cc82f3eafd95e6d964dbe07891ae34a253c895b04df7f9e02110999b19"
+}

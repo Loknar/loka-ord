@@ -1,0 +1,32 @@
+{
+	"orð": "landgræðsluskógrækt",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "græðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-græðsla-kvk"
+		},
+		{
+			"mynd": "skóg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skógur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rækt-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landgræðsluskógrækt", "landgræðsluskógrækt", "landgræðsluskógrækt", "landgræðsluskógræktar"],
+		"mg": ["landgræðsluskógræktin", "landgræðsluskógræktina", "landgræðsluskógræktinni", "landgræðsluskógræktarinnar"]
+	},
+	"kennistrengur": "no-landgræðsluskógrækt-kvk",
+	"hash": "d5353e4a2582cf59843f3caa1cd6ecf43e8503026feb628f9fcbf2acc9a0d332"
+}

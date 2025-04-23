@@ -1,0 +1,98 @@
+{
+	"orð": "gjörspiłla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjör",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-spiłla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjörspiłla",
+		"sagnbót": "gjörspillt",
+		"boðháttur": {
+			"stýfður": "gjörspiłl",
+			"et": "gjörspilltu",
+			"ft": "gjörspiłlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjörspiłli", "gjörspiłlir", "gjörspiłlir"],
+					"ft": ["gjörspiłlum", "gjörspiłlið", "gjörspiłla"]
+				},
+				"þátíð": {
+					"et": ["gjörspillti", "gjörspilltir", "gjörspillti"],
+					"ft": ["gjörspilltum", "gjörspilltuð", "gjörspilltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjörspiłli", "gjörspiłlir", "gjörspiłli"],
+					"ft": ["gjörspiłlum", "gjörspiłlið", "gjörspiłli"]
+				},
+				"þátíð": {
+					"et": ["gjörspillti", "gjörspilltir", "gjörspillti"],
+					"ft": ["gjörspilltum", "gjörspilltuð", "gjörspilltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjörspiłlirðu",
+					"ft": "gjörspiłliði"
+				},
+				"þátíð": {
+					"et": "gjörspilltirðu",
+					"ft": "gjörspilltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjörspiłlirðu",
+					"ft": "gjörspiłliði"
+				},
+				"þátíð": {
+					"et": "gjörspilltirðu",
+					"ft": "gjörspilltuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gjörspilltur", "gjörspilltan", "gjörspilltum", "gjörspillts"],
+					"kvk": ["gjörspillt", "gjörspillta", "gjörspilltri", "gjörspilltrar"],
+					"hk": ["gjörspillt", "gjörspillt", "gjörspilltu", "gjörspillts"]
+				},
+				"ft": {
+					"kk": ["gjörspilltir", "gjörspillta", "gjörspilltum", "gjörspilltra"],
+					"kvk": ["gjörspilltar", "gjörspilltar", "gjörspilltum", "gjörspilltra"],
+					"hk": ["gjörspillt", "gjörspillt", "gjörspilltum", "gjörspilltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gjörspillti", "gjörspillta", "gjörspillta", "gjörspillta"],
+					"kvk": ["gjörspillta", "gjörspilltu", "gjörspilltu", "gjörspilltu"],
+					"hk": ["gjörspillta", "gjörspillta", "gjörspillta", "gjörspillta"]
+				},
+				"ft": {
+					"kk": ["gjörspilltu", "gjörspilltu", "gjörspilltu", "gjörspilltu"],
+					"kvk": ["gjörspilltu", "gjörspilltu", "gjörspilltu", "gjörspilltu"],
+					"hk": ["gjörspilltu", "gjörspilltu", "gjörspilltu", "gjörspilltu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjörspiłla",
+	"hash": "64143ed840719ab78faec1a684ef2e073a4d9839b171b355c90d3ea250f3991c"
+}

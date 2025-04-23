@@ -1,0 +1,27 @@
+{
+	"orð": "loftslagsáhrif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lofts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-loft-hk"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-áhrif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["loftslagsáhrif", "loftslagsáhrif", "loftslagsáhrifum", "loftslagsáhrifa"],
+		"mg": ["loftslagsáhrifin", "loftslagsáhrifin", "loftslagsáhrifunum", "loftslagsáhrifanna"]
+	},
+	"kennistrengur": "no-loftslagsáhrif-hk",
+	"hash": "531c3ba41c8ebbb530623e73e0126089198b684d1f7196555306390d324b07a6"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "kolefnisbindingargeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "bindingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-binding-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kolefnisbindingargeta", "kolefnisbindingargetu", "kolefnisbindingargetu", "kolefnisbindingargetu"],
+		"mg": ["kolefnisbindingargetan", "kolefnisbindingargetuna", "kolefnisbindingargetunni", "kolefnisbindingargetunnar"]
+	},
+	"kennistrengur": "no-kolefnisbindingargeta-kvk",
+	"hash": "5d8f891b1f6c2afba37b59d5c5de6e88dfb41ed79458574583c78085389d0ff1"
+}

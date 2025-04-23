@@ -1,0 +1,87 @@
+{
+	"orð": "strippa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stripp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stripp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "strippa",
+		"sagnbót": "strippað",
+		"boðháttur": {
+			"stýfður": "strippa",
+			"et": "strippaðu",
+			"ft": "strippið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["strippa", "strippar", "strippar"],
+					"ft": ["strippum", "strippið", "strippa"]
+				},
+				"þátíð": {
+					"et": ["strippaði", "strippaðir", "strippaði"],
+					"ft": ["strippuðum", "strippuðuð", "strippuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["strippi", "strippir", "strippi"],
+					"ft": ["strippum", "strippið", "strippi"]
+				},
+				"þátíð": {
+					"et": ["strippaði", "strippaðir", "strippaði"],
+					"ft": ["strippuðum", "strippuðuð", "strippuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stripparðu",
+					"ft": "strippiði"
+				},
+				"þátíð": {
+					"et": "strippaðirðu",
+					"ft": "strippuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "strippirðu",
+					"ft": "strippiði"
+				},
+				"þátíð": {
+					"et": "strippaðirðu",
+					"ft": "strippuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "strippandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["strippaður", "strippaðan", "strippuðum", "strippaðs"],
+					"kvk": ["strippuð", "strippaða", "strippaðri", "strippaðrar"],
+					"hk": ["strippað", "strippað", "strippuðu", "strippaðs"]
+				},
+				"ft": {
+					"kk": ["strippaðir", "strippaða", "strippuðum", "strippaðra"],
+					"kvk": ["strippaðar", "strippaðar", "strippuðum", "strippaðra"],
+					"hk": ["strippuð", "strippuð", "strippuðum", "strippaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-strippa",
+	"hash": "15062b7f01f05c52840b81c647f7a4a6e2b58ee926df6a75157b497d22fd02b5"
+}
