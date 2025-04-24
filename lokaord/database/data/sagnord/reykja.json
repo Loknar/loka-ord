@@ -1,0 +1,132 @@
+{
+	"orð": "reykja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "reykja",
+		"sagnbót": "reykt",
+		"boðháttur": {
+			"stýfður": "reyk",
+			"et": "reyktu",
+			"ft": "reykið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reyki", "reykir", "reykir"],
+					"ft": ["reykjum", "reykið", "reykja"]
+				},
+				"þátíð": {
+					"et": ["reykti", "reyktir", "reykti"],
+					"ft": ["reyktum", "reyktuð", "reyktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reyki", "reykir", "reyki"],
+					"ft": ["reykjum", "reykið", "reyki"]
+				},
+				"þátíð": {
+					"et": ["reykti", "reyktir", "reykti"],
+					"ft": ["reyktum", "reyktuð", "reyktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reykirðu",
+					"ft": "reykiði"
+				},
+				"þátíð": {
+					"et": "reyktirðu",
+					"ft": "reyktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reykirðu",
+					"ft": "reykiði"
+				},
+				"þátíð": {
+					"et": "reyktirðu",
+					"ft": "reyktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "reykjast",
+		"sagnbót": "þóst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reykist", "reykist", "reykist"],
+					"ft": ["reykjumst", "reykist", "reykjast"]
+				},
+				"þátíð": {
+					"et": ["reyktist", "reyktist", "reyktist"],
+					"ft": ["reyktumst", "reyktust", "reyktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reykist", "reykist", "reykist"],
+					"ft": ["reykjumst", "reykist", "reykist"]
+				},
+				"þátíð": {
+					"et": ["reyktist", "reyktist", "reyktist"],
+					"ft": ["reyktumst", "reyktust", "reyktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reykistu"
+				},
+				"þátíð": {
+					"et": "reyktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reykistu"
+				},
+				"þátíð": {
+					"et": "reyktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reykjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reyktur", "reyktan", "reyktum", "reykts"],
+					"kvk": ["reykt", "reykta", "reyktri", "reyktrar"],
+					"hk": ["reykt", "reykt", "reyktu", "reykts"]
+				},
+				"ft": {
+					"kk": ["reyktir", "reykta", "reyktum", "reyktra"],
+					"kvk": ["reyktar", "reyktar", "reyktum", "reyktra"],
+					"hk": ["reykt", "reykt", "reyktum", "reyktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["reykti", "reykta", "reykta", "reykta"],
+					"kvk": ["reykta", "reyktu", "reyktu", "reyktu"],
+					"hk": ["reykta", "reykta", "reykta", "reykta"]
+				},
+				"ft": {
+					"kk": ["reyktu", "reyktu", "reyktu", "reyktu"],
+					"kvk": ["reyktu", "reyktu", "reyktu", "reyktu"],
+					"hk": ["reyktu", "reyktu", "reyktu", "reyktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reykja",
+	"hash": "7fcbde558df3225d4dd8a4058e00c1a81185f791c030150e2d3905ca712a84d4"
+}

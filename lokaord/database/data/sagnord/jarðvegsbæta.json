@@ -1,0 +1,92 @@
+{
+	"orð": "jarðvegsbæta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jarð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"mynd": "vegs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vegur-kk-_vegs_"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bæta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jarðvegsbæta",
+		"sagnbót": "jarðvegsbætt",
+		"boðháttur": {
+			"stýfður": "jarðvegsbæt",
+			"et": "jarðvegsbættu",
+			"ft": "jarðvegsbætið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jarðvegsbæti", "jarðvegsbætir", "jarðvegsbætir"],
+					"ft": ["jarðvegsbætum", "jarðvegsbætið", "jarðvegsbæta"]
+				},
+				"þátíð": {
+					"et": ["jarðvegsbætti", "jarðvegsbættir", "jarðvegsbætti"],
+					"ft": ["jarðvegsbættum", "jarðvegsbættuð", "jarðvegsbættu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jarðvegsbæti", "jarðvegsbætir", "jarðvegsbæti"],
+					"ft": ["jarðvegsbætum", "jarðvegsbætið", "jarðvegsbæti"]
+				},
+				"þátíð": {
+					"et": ["jarðvegsbætti", "jarðvegsbættir", "jarðvegsbætti"],
+					"ft": ["jarðvegsbættum", "jarðvegsbættuð", "jarðvegsbættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "jarðvegsbætirðu",
+					"ft": "jarðvegsbætiði"
+				},
+				"þátíð": {
+					"et": "jarðvegsbættirðu",
+					"ft": "jarðvegsbættuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "jarðvegsbætirðu",
+					"ft": "jarðvegsbætiði"
+				},
+				"þátíð": {
+					"et": "jarðvegsbættirðu",
+					"ft": "jarðvegsbættuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "jarðvegsbætandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["jarðvegsbættur", "jarðvegsbættan", "jarðvegsbættum", "jarðvegsbætts"],
+					"kvk": ["jarðvegsbætt", "jarðvegsbætta", "jarðvegsbættri", "jarðvegsbættrar"],
+					"hk": ["jarðvegsbætt", "jarðvegsbætt", "jarðvegsbættu", "jarðvegsbætts"]
+				},
+				"ft": {
+					"kk": ["jarðvegsbættir", "jarðvegsbætta", "jarðvegsbættum", "jarðvegsbættra"],
+					"kvk": ["jarðvegsbættar", "jarðvegsbættar", "jarðvegsbættum", "jarðvegsbættra"],
+					"hk": ["jarðvegsbætt", "jarðvegsbætt", "jarðvegsbættum", "jarðvegsbættra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-jarðvegsbæta",
+	"hash": "b79333f0b099d8e101dc3f1651d2e5d2e75c56cfc0d5ae637a0ba55747823750"
+}
