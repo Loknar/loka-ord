@@ -1,0 +1,32 @@
+{
+	"orð": "kynlífssamband",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "lífs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-band-hk"
+		}
+	],
+	"et": {
+		"ág": ["kynlífssamband", "kynlífssamband", "kynlífssambandi", "kynlífssambands"],
+		"mg": ["kynlífssambandið", "kynlífssambandið", "kynlífssambandinu", "kynlífssambandsins"]
+	},
+	"kennistrengur": "no-kynlífssamband-hk",
+	"hash": "7fb06e44012029d5873d599c39a98d07a0d4b4ecb383e080e0b91c1cca4e96ee"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "lífkolaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "kola",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lífkolaframleiðsla", "lífkolaframleiðslu", "lífkolaframleiðslu", "lífkolaframleiðslu"],
+		"mg": ["lífkolaframleiðslan", "lífkolaframleiðsluna", "lífkolaframleiðslunni", "lífkolaframleiðslunnar"]
+	},
+	"kennistrengur": "no-lífkolaframleiðsla-kvk",
+	"hash": "f92c6fcabb46e16786d46c64995e3b19ade963a0bad26b6369c60f35fcb31482"
+}

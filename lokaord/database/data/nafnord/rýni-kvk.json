@@ -2,10 +2,21 @@
 	"orð": "rýni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rýn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-rýna"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["rýni", "rýni", "rýni", "rýni"],
 		"mg": ["rýnin", "rýnina", "rýninni", "rýninnar"]
 	},
 	"kennistrengur": "no-rýni-kvk",
-	"hash": "09b75b0ae924f1c69f951bcc2d227817a416efaf444994beaac4c034855eaa85"
+	"hash": "19d94b533ffbb7e43df81e2135813a12251294bfff251a74eea5b639e3d38698"
 }

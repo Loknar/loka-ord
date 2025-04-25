@@ -1,0 +1,48 @@
+{
+	"orð": "kynlífslaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "lífs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kynlífslaus", "kynlífslausan", "kynlífslausum", "kynlífslauss"],
+				"kvk": ["kynlífslaus", "kynlífslausa", "kynlífslausri", "kynlífslausrar"],
+				"hk": ["kynlífslaust", "kynlífslaust", "kynlífslausu", "kynlífslauss"]
+			},
+			"ft": {
+				"kk": ["kynlífslausir", "kynlífslausa", "kynlífslausum", "kynlífslausra"],
+				"kvk": ["kynlífslausar", "kynlífslausar", "kynlífslausum", "kynlífslausra"],
+				"hk": ["kynlífslaus", "kynlífslaus", "kynlífslausum", "kynlífslausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kynlífslausi", "kynlífslausa", "kynlífslausa", "kynlífslausa"],
+				"kvk": ["kynlífslausa", "kynlífslausu", "kynlífslausu", "kynlífslausu"],
+				"hk": ["kynlífslausa", "kynlífslausa", "kynlífslausa", "kynlífslausa"]
+			},
+			"ft": {
+				"kk": ["kynlífslausu", "kynlífslausu", "kynlífslausu", "kynlífslausu"],
+				"kvk": ["kynlífslausu", "kynlífslausu", "kynlífslausu", "kynlífslausu"],
+				"hk": ["kynlífslausu", "kynlífslausu", "kynlífslausu", "kynlífslausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kynlífslaus",
+	"hash": "688d1f62060358ed8c64768b4604a2c50e8245e1846c1b786841cf543ad7d7d1"
+}

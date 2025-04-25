@@ -1,0 +1,27 @@
+{
+	"orð": "rafbílakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "bíla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bíłl-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["rafbílakaup", "rafbílakaup", "rafbílakaupum", "rafbílakaupa"],
+		"mg": ["rafbílakaupin", "rafbílakaupin", "rafbílakaupunum", "rafbílakaupanna"]
+	},
+	"kennistrengur": "no-rafbílakaup-hk",
+	"hash": "86af0af207d9892838fdcb2d7a3818ebb63bbf61dcf75762e27e65910921c727"
+}
