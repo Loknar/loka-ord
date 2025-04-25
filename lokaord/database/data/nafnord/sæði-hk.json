@@ -2,6 +2,16 @@
 	"orð": "sæði",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sæð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sá"
+		},
+		{
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sæði", "sæði", "sæði", "sæðis"],
 		"mg": ["sæðið", "sæðið", "sæðinu", "sæðisins"]
@@ -11,5 +21,5 @@
 		"mg": ["sæðin", "sæðin", "sæðunum", "sæðanna"]
 	},
 	"kennistrengur": "no-sæði-hk",
-	"hash": "129103f2ea992bfa807c64891e5575d3c4b04f93d1b7dc8f44b5405a6e8dc4cb"
+	"hash": "91e423aa3d69e3266b5137111da057177c7860508c7c450969692ac743abacf3"
 }

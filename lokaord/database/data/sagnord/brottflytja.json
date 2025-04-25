@@ -1,0 +1,86 @@
+{
+	"orð": "brottflytja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brott",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-brott"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-flytja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brottflytja",
+		"sagnbót": "brottflutt",
+		"boðháttur": {
+			"stýfður": "brottflyt",
+			"et": "brottflyttu",
+			"ft": "brottflytjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brottflyt", "brottflytur", "brottflytur"],
+					"ft": ["brottflytjum", "brottflytjið", "brottflytja"]
+				},
+				"þátíð": {
+					"et": ["brottflutti", "brottfluttir", "brottflutti"],
+					"ft": ["brottfluttum", "brottfluttuð", "brottfluttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brottflytji", "brottflytjir", "brottflytji"],
+					"ft": ["brottflytjum", "brottflytjið", "brottflytji"]
+				},
+				"þátíð": {
+					"et": ["brottflytti", "brottflyttir", "brottflytti"],
+					"ft": ["brottflyttum", "brottflyttuð", "brottflyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brottflyturðu",
+					"ft": "brottflytjiði"
+				},
+				"þátíð": {
+					"et": "brottfluttirðu",
+					"ft": "brottfluttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brottflytjirðu",
+					"ft": "brottflytjiði"
+				},
+				"þátíð": {
+					"et": "brottflyttirðu",
+					"ft": "brottflyttuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brottfluttur", "brottfluttan", "brottfluttum", "brottflutts"],
+					"kvk": ["brottflutt", "brottflutta", "brottfluttri", "brottfluttrar"],
+					"hk": ["brottflutt", "brottflutt", "brottfluttu", "brottflutts"]
+				},
+				"ft": {
+					"kk": ["brottfluttir", "brottflutta", "brottfluttum", "brottfluttra"],
+					"kvk": ["brottfluttar", "brottfluttar", "brottfluttum", "brottfluttra"],
+					"hk": ["brottflutt", "brottflutt", "brottfluttum", "brottfluttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brottflytja",
+	"hash": "a96b1e9d115fdb17f78e0e01f1264adee621ebdf5a9be818e2131df38b770f72"
+}

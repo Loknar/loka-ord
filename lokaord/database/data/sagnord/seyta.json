@@ -1,0 +1,132 @@
+{
+	"orð": "seyta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "seyta",
+		"sagnbót": "seytt",
+		"boðháttur": {
+			"stýfður": "seyt",
+			"et": "seyttu",
+			"ft": "seytið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seyti", "seytir", "seytir"],
+					"ft": ["seytum", "seytið", "seyta"]
+				},
+				"þátíð": {
+					"et": ["seytti", "seyttir", "seytti"],
+					"ft": ["seyttum", "seyttuð", "seyttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seyti", "seytir", "seyti"],
+					"ft": ["seytum", "seytið", "seyti"]
+				},
+				"þátíð": {
+					"et": ["seytti", "seyttir", "seytti"],
+					"ft": ["seyttum", "seyttuð", "seyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seytirðu",
+					"ft": "seytiði"
+				},
+				"þátíð": {
+					"et": "seyttirðu",
+					"ft": "seyttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seytirðu",
+					"ft": "seytiði"
+				},
+				"þátíð": {
+					"et": "seyttirðu",
+					"ft": "seyttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "seytast",
+		"sagnbót": "breyst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seytist", "seytist", "seytist"],
+					"ft": ["seytumst", "seytist", "seytast"]
+				},
+				"þátíð": {
+					"et": ["seyttist", "seyttist", "seyttist"],
+					"ft": ["seyttumst", "seyttust", "seyttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seytist", "seytist", "seytist"],
+					"ft": ["seytumst", "seytist", "seytist"]
+				},
+				"þátíð": {
+					"et": ["seyttist", "seyttist", "seyttist"],
+					"ft": ["seyttumst", "seyttust", "seyttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seytistu"
+				},
+				"þátíð": {
+					"et": "seyttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seytistu"
+				},
+				"þátíð": {
+					"et": "seyttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "seytandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["seyttur", "seyttan", "seyttum", "seytts"],
+					"kvk": ["seytt", "seytta", "seyttri", "seyttrar"],
+					"hk": ["seytt", "seytt", "seyttu", "seytts"]
+				},
+				"ft": {
+					"kk": ["seyttir", "seytta", "seyttum", "seyttra"],
+					"kvk": ["seyttar", "seyttar", "seyttum", "seyttra"],
+					"hk": ["seytt", "seytt", "seyttum", "seyttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["seytti", "seytta", "seytta", "seytta"],
+					"kvk": ["seytta", "seyttu", "seyttu", "seyttu"],
+					"hk": ["seytta", "seytta", "seytta", "seytta"]
+				},
+				"ft": {
+					"kk": ["seyttu", "seyttu", "seyttu", "seyttu"],
+					"kvk": ["seyttu", "seyttu", "seyttu", "seyttu"],
+					"hk": ["seyttu", "seyttu", "seyttu", "seyttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-seyta",
+	"hash": "abaf6733ac7eb8f2db9ce8567c05acaab10e6c52c847018dfb05c360c09c1916"
+}

@@ -1,6 +1,16 @@
 {
 	"orð": "klofa",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klof",
+			"samsetning": "stofn",
+			"kennistrengur": "no-klof-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "klofa",
 		"sagnbót": "klofað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "klofast",
 		"sagnbót": "klofast",
+		"boðháttur": {
+			"et": "klofastu",
+			"ft": "klofist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-klofa",
-	"hash": "b1b7848d59d7a0094a09fc543b3d36aaaa153f6984175f3e3a31bd08e6c493ea"
+	"hash": "d77f45ab2091fe7b53d28f398242a669c7db0aa81a8a68b050e937bc2cb8ef12"
 }
