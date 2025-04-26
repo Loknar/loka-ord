@@ -1,0 +1,27 @@
+{
+	"orð": "vöruframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vöruframleiðsla", "vöruframleiðslu", "vöruframleiðslu", "vöruframleiðslu"],
+		"mg": ["vöruframleiðslan", "vöruframleiðsluna", "vöruframleiðslunni", "vöruframleiðslunnar"]
+	},
+	"kennistrengur": "no-vöruframleiðsla-kvk",
+	"hash": "c5987fd75fbed54dce861ab94c9a24ff3238ba46d1171ebc8e72677000b9ebbc"
+}

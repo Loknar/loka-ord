@@ -1,0 +1,27 @@
+{
+	"orð": "heildarframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarframleiðsla", "heildarframleiðslu", "heildarframleiðslu", "heildarframleiðslu"],
+		"mg": ["heildarframleiðslan", "heildarframleiðsluna", "heildarframleiðslunni", "heildarframleiðslunnar"]
+	},
+	"kennistrengur": "no-heildarframleiðsla-kvk",
+	"hash": "b307b111a736c6047021951318212cb11719eaba617ae1f3ffc72b6368385c83"
+}

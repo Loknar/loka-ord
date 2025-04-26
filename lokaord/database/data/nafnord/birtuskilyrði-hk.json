@@ -1,0 +1,27 @@
+{
+	"orð": "birtuskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "birtu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birta-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["birtuskilyrði", "birtuskilyrði", "birtuskilyrðum", "birtuskilyrða"],
+		"mg": ["birtuskilyrðin", "birtuskilyrðin", "birtuskilyrðunum", "birtuskilyrðanna"]
+	},
+	"kennistrengur": "no-birtuskilyrði-hk",
+	"hash": "a79d9439104bb114755ec75e51cb63447664b231e288a9ae35c067298875a2ae"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "afkasta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-kasta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afkasta",
+		"sagnbót": "afkastað",
+		"boðháttur": {
+			"stýfður": "afkasta",
+			"et": "afkastaðu",
+			"ft": "afkastið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afkasta", "afkastar", "afkastar"],
+					"ft": ["afköstum", "afkastið", "afkasta"]
+				},
+				"þátíð": {
+					"et": ["afkastaði", "afkastaðir", "afkastaði"],
+					"ft": ["afköstuðum", "afköstuðuð", "afköstuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afkasti", "afkastir", "afkasti"],
+					"ft": ["afköstum", "afkastið", "afkasti"]
+				},
+				"þátíð": {
+					"et": ["afkastaði", "afkastaðir", "afkastaði"],
+					"ft": ["afköstuðum", "afköstuðuð", "afköstuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afkastarðu",
+					"ft": "afkastiði"
+				},
+				"þátíð": {
+					"et": "afkastaðirðu",
+					"ft": "afköstuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afkastirðu",
+					"ft": "afkastiði"
+				},
+				"þátíð": {
+					"et": "afkastaðirðu",
+					"ft": "afköstuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afkastandi"
+	},
+	"kennistrengur": "so-afkasta",
+	"hash": "3df7ddf7e5a2dbf7d6fd5131c211b43d6be32691efc3c60df82cf15a9ef46625"
+}
