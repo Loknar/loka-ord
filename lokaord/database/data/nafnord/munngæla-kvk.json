@@ -1,5 +1,5 @@
 {
-	"orð": "munngælur",
+	"orð": "munngæla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"samsett": [
@@ -9,14 +9,17 @@
 			"kennistrengur": "no-munnur-kk"
 		},
 		{
-			"beygingar": ["ft"],
 			"kennistrengur": "no-gæla-kvk"
 		}
 	],
+	"et": {
+		"ág": ["munngæla", "munngælu", "munngælu", "munngælu"],
+		"mg": ["munngælan", "munngæluna", "munngælunni", "munngælunnar"]
+	},
 	"ft": {
 		"ág": ["munngælur", "munngælur", "munngælum", "munngæla"],
 		"mg": ["munngælurnar", "munngælurnar", "munngælunum", "munngælanna"]
 	},
-	"kennistrengur": "no-munngælur-kvk",
-	"hash": "5d808c65f3956046bf33faaf671c7b739a8fa2b58f969c44183451208d735139"
+	"kennistrengur": "no-munngæla-kvk",
+	"hash": "d23d6db6b224f4aaca8675bb2121c2440aaa0d6d9efd301833b92c9751e86383"
 }

@@ -1,0 +1,27 @@
+{
+	"orð": "kynlífsreynsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "lífs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-reynsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kynlífsreynsla", "kynlífsreynslu", "kynlífsreynslu", "kynlífsreynslu"],
+		"mg": ["kynlífsreynslan", "kynlífsreynsluna", "kynlífsreynslunni", "kynlífsreynslunnar"]
+	},
+	"kennistrengur": "no-kynlífsreynsla-kvk",
+	"hash": "91644e3397b1cb861b498cb6f948f2bc02182afb876321e5e7cee0353b1d5e7c"
+}
