@@ -1,0 +1,77 @@
+{
+	"orð": "uppslíta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-slíta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "uppslíta",
+		"sagnbót": "uppslitið",
+		"boðháttur": {
+			"stýfður": "uppslít",
+			"et": "uppslíttu",
+			"ft": "uppslítið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppslít", "uppslítur", "uppslítur"],
+					"ft": ["uppslítum", "uppslítið", "uppslíta"]
+				},
+				"þátíð": {
+					"et": ["uppsleit", "uppbeist", "uppsleit"],
+					"ft": ["uppslitum", "uppslituð", "uppslitu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppslíti", "uppslítir", "uppslíti"],
+					"ft": ["uppslítum", "uppslítið", "uppslíti"]
+				},
+				"þátíð": {
+					"et": ["uppsliti", "uppslitir", "uppsliti"],
+					"ft": ["uppslitum", "uppslituð", "uppslitu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "uppslítandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["uppslitinn", "uppslitinn", "uppslitnum", "uppslitins"],
+					"kvk": ["uppslitin", "uppslitna", "uppslitinni", "uppslitinnar"],
+					"hk": ["uppslitið", "uppslitið", "uppslitnu", "uppslitins"]
+				},
+				"ft": {
+					"kk": ["uppslitnir", "uppslitna", "uppslitnum", "uppslitinna"],
+					"kvk": ["uppslitnar", "uppslitnar", "uppslitnum", "uppslitinna"],
+					"hk": ["uppslitin", "uppslitin", "uppslitnum", "uppslitinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["uppslitni", "uppslitna", "uppslitna", "uppslitna"],
+					"kvk": ["uppslitna", "uppslitnu", "uppslitnu", "uppslitnu"],
+					"hk": ["uppslitna", "uppslitna", "uppslitna", "uppslitna"]
+				},
+				"ft": {
+					"kk": ["uppslitnu", "uppslitnu", "uppslitnu", "uppslitnu"],
+					"kvk": ["uppslitnu", "uppslitnu", "uppslitnu", "uppslitnu"],
+					"hk": ["uppslitnu", "uppslitnu", "uppslitnu", "uppslitnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-uppslíta",
+	"hash": "621a9e86853a209f55c9e9f46b63b0fcbbcb06fd471bfeeb442650e9c51b3e7a"
+}

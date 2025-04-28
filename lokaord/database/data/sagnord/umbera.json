@@ -1,0 +1,87 @@
+{
+	"orð": "umbera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umbera",
+		"sagnbót": "umborið",
+		"boðháttur": {
+			"stýfður": "umber",
+			"et": "umberðu",
+			"ft": "umberið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umber", "umberð", "umber"],
+					"ft": ["umberum", "umberið", "umbera"]
+				},
+				"þátíð": {
+					"et": ["umbar", "umbarst", "umbar"],
+					"ft": ["umbárum", "umbáruð", "umbáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umberi", "umberir", "umberi"],
+					"ft": ["umberum", "umberið", "umberi"]
+				},
+				"þátíð": {
+					"et": ["umbæri", "umbærir", "umbæri"],
+					"ft": ["umbærum", "umbæruð", "umbæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umberðu",
+					"ft": "umberiði"
+				},
+				"þátíð": {
+					"et": "umbarstu",
+					"ft": "umbáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umberirðu",
+					"ft": "umberiði"
+				},
+				"þátíð": {
+					"et": "umbærirðu",
+					"ft": "umbæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umberandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umborinn", "umborinn", "umbornum", "umborins"],
+					"kvk": ["umborin", "umborna", "umborinni", "umborinnar"],
+					"hk": ["umborið", "umborið", "umbornu", "umborins"]
+				},
+				"ft": {
+					"kk": ["umbornir", "umborna", "umbornum", "umborinna"],
+					"kvk": ["umbornar", "umbornar", "umbornum", "umborinna"],
+					"hk": ["umborin", "umborin", "umbornum", "umborinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umbera",
+	"hash": "35e50f7f0822d82558dcbcf516b3da907e54ad5dbc5cb7ad371f3ea82f60ad16"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "kynlífstengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "lífs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kynlífstengdur", "kynlífstengdan", "kynlífstengdum", "kynlífstengds"],
+				"kvk": ["kynlífstengd", "kynlífstengda", "kynlífstengdri", "kynlífstengdrar"],
+				"hk": ["kynlífstengt", "kynlífstengt", "kynlífstengdu", "kynlífstengds"]
+			},
+			"ft": {
+				"kk": ["kynlífstengdir", "kynlífstengda", "kynlífstengdum", "kynlífstengdra"],
+				"kvk": ["kynlífstengdar", "kynlífstengdar", "kynlífstengdum", "kynlífstengdra"],
+				"hk": ["kynlífstengd", "kynlífstengd", "kynlífstengdum", "kynlífstengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kynlífstengdi", "kynlífstengda", "kynlífstengda", "kynlífstengda"],
+				"kvk": ["kynlífstengda", "kynlífstengdu", "kynlífstengdu", "kynlífstengdu"],
+				"hk": ["kynlífstengda", "kynlífstengda", "kynlífstengda", "kynlífstengda"]
+			},
+			"ft": {
+				"kk": ["kynlífstengdu", "kynlífstengdu", "kynlífstengdu", "kynlífstengdu"],
+				"kvk": ["kynlífstengdu", "kynlífstengdu", "kynlífstengdu", "kynlífstengdu"],
+				"hk": ["kynlífstengdu", "kynlífstengdu", "kynlífstengdu", "kynlífstengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kynlífstengdur",
+	"hash": "79df2c365ee7ad1cf2ce3abf1254bc7dfcc5ddfc60a08bfa54f4faa0e35d722f"
+}

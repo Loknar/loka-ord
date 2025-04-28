@@ -1,5 +1,5 @@
 {
-	"orð": "lífdagar",
+	"orð": "lífdagur",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
 	"samsett": [
@@ -9,14 +9,17 @@
 			"kennistrengur": "no-líf-hk"
 		},
 		{
-			"beygingar": ["ft"],
 			"kennistrengur": "no-dagur-kk"
 		}
 	],
+	"et": {
+		"ág": ["lífdagur", "lífdag", "lífdegi", "lífdags"],
+		"mg": ["lífdagurinn", "lífdaginn", "lífdeginum", "lífdagsins"]
+	},
 	"ft": {
 		"ág": ["lífdagar", "lífdaga", "lífdögum", "lífdaga"],
 		"mg": ["lífdagarnir", "lífdagana", "lífdögunum", "lífdaganna"]
 	},
-	"kennistrengur": "no-lífdagar-kk",
-	"hash": "69df65dca65f20309c9544a622298510c6bef240cb6b6bf4480d9c39b2e8e5a8"
+	"kennistrengur": "no-lífdagur-kk",
+	"hash": "8d19168a15bd31d08bacbbad9b5bbd17daf97cb5d8e8e91690a887951f720080"
 }
