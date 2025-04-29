@@ -1,0 +1,27 @@
+{
+	"orð": "dagskrárgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["dagskrárgerð", "dagskrárgerð", "dagskrárgerð", "dagskrárgerðar"],
+		"mg": ["dagskrárgerðin", "dagskrárgerðina", "dagskrárgerðinni", "dagskrárgerðarinnar"]
+	},
+	"kennistrengur": "no-dagskrárgerð-kvk",
+	"hash": "9ab18ce7e84478f22eea9a65e9c5b2480f2da70579f5b7383d5897e9ed919439"
+}
