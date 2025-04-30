@@ -1,0 +1,86 @@
+{
+	"orð": "sérvelja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-velja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérvelja",
+		"sagnbót": "sérvalið",
+		"boðháttur": {
+			"stýfður": "sérvel",
+			"et": "sérveldu",
+			"ft": "sérveljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérvel", "sérvelur", "sérvelur"],
+					"ft": ["sérveljum", "sérveljið", "sérvelja"]
+				},
+				"þátíð": {
+					"et": ["sérvaldi", "sérvaldir", "sérvaldi"],
+					"ft": ["sérvöldum", "sérvölduð", "sérvöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérvelji", "sérveljir", "sérvelji"],
+					"ft": ["sérveljum", "sérveljið", "sérvelji"]
+				},
+				"þátíð": {
+					"et": ["sérveldi", "sérveldir", "sérveldi"],
+					"ft": ["sérveldum", "sérvelduð", "sérveldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérvelurðu",
+					"ft": "sérveljiði"
+				},
+				"þátíð": {
+					"et": "sérvaldirðu",
+					"ft": "sérvölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérveljirðu",
+					"ft": "sérveljiði"
+				},
+				"þátíð": {
+					"et": "sérveldirðu",
+					"ft": "sérvelduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérvalinn", "sérvalinn", "sérvöldum", "sérvalins"],
+					"kvk": ["sérvalin", "sérvalda", "sérvalinni", "sérvalinnar"],
+					"hk": ["sérvalið", "sérvalið", "sérvöldu", "sérvalins"]
+				},
+				"ft": {
+					"kk": ["sérvaldir", "sérvalda", "sérvöldum", "sérvalinna"],
+					"kvk": ["sérvaldar", "sérvaldar", "sérvöldum", "sérvalinna"],
+					"hk": ["sérvalin", "sérvalin", "sérvöldum", "sérvalinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérvelja",
+	"hash": "4e88d01439bf1af11384d16b8e966259c96af14f4108456b1ae73339d2282157"
+}

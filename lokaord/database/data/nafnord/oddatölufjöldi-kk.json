@@ -1,0 +1,27 @@
+{
+	"orð": "oddatölufjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "odda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-oddur-kk"
+		},
+		{
+			"mynd": "tölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["oddatölufjöldi", "oddatölufjölda", "oddatölufjölda", "oddatölufjölda"],
+		"mg": ["oddatölufjöldinn", "oddatölufjöldann", "oddatölufjöldanum", "oddatölufjöldans"]
+	},
+	"kennistrengur": "no-oddatölufjöldi-kk",
+	"hash": "ee27f59e154531e0d3bde7a1a6a8514a1d98a5d11d0abc9a4bb4805a7d327b82"
+}
