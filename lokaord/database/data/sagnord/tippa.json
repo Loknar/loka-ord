@@ -1,0 +1,135 @@
+{
+	"orð": "tippa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tipp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tippi-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tippa",
+		"sagnbót": "tippað",
+		"boðháttur": {
+			"stýfður": "tippa",
+			"et": "tippaðu",
+			"ft": "tippið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tippa", "tippar", "tippar"],
+					"ft": ["tippum", "tippið", "tippa"]
+				},
+				"þátíð": {
+					"et": ["tippaði", "tippaðir", "tippaði"],
+					"ft": ["tippuðum", "tippuðuð", "tippuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tippi", "tippir", "tippi"],
+					"ft": ["tippum", "tippið", "tippi"]
+				},
+				"þátíð": {
+					"et": ["tippaði", "tippaðir", "tippaði"],
+					"ft": ["tippuðum", "tippuðuð", "tippuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tipparðu",
+					"ft": "tippiði"
+				},
+				"þátíð": {
+					"et": "tippaðirðu",
+					"ft": "tippuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tippirðu",
+					"ft": "tippiði"
+				},
+				"þátíð": {
+					"et": "tippaðirðu",
+					"ft": "tippuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tippast",
+		"sagnbót": "tippast",
+		"boðháttur": {
+			"et": "tippastu",
+			"ft": "tippist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tippast", "tippast", "tippast"],
+					"ft": ["tippumst", "tippist", "tippast"]
+				},
+				"þátíð": {
+					"et": ["tippaðist", "tippaðist", "tippaðist"],
+					"ft": ["tippuðumst", "tippuðust", "tippuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tippist", "tippist", "tippist"],
+					"ft": ["tippumst", "tippist", "tippist"]
+				},
+				"þátíð": {
+					"et": ["tippaðist", "tippaðist", "tippaðist"],
+					"ft": ["tippuðumst", "tippuðust", "tippuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tippastu"
+				},
+				"þátíð": {
+					"et": "tippaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tippistu"
+				},
+				"þátíð": {
+					"et": "tippaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tippandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tippaður", "tippaðan", "tippuðum", "tippaðs"],
+					"kvk": ["tippuð", "tippaða", "tippaðri", "tippaðrar"],
+					"hk": ["tippað", "tippað", "tippuðu", "tippaðs"]
+				},
+				"ft": {
+					"kk": ["tippaðir", "tippaða", "tippuðum", "tippaðra"],
+					"kvk": ["tippaðar", "tippaðar", "tippuðum", "tippaðra"],
+					"hk": ["tippuð", "tippuð", "tippuðum", "tippaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tippa",
+	"hash": "1c1f02d84f9cb4bf54db84b2cdcd0d4ee998d5b59da64e570b2dfced8d23222d"
+}

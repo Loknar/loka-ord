@@ -1,0 +1,73 @@
+{
+	"orð": "glöggva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "glöggv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-glöggur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "glöggva",
+		"sagnbót": "glöggvað",
+		"boðháttur": {
+			"stýfður": "glöggva",
+			"et": "glöggvaðu",
+			"ft": "glöggvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glöggva", "glöggvar", "glöggvar"],
+					"ft": ["glöggvum", "glöggvið", "glöggva"]
+				},
+				"þátíð": {
+					"et": ["glöggvaði", "glöggvaðir", "glöggvaði"],
+					"ft": ["glöggvuðum", "glöggvuðuð", "glöggvuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glöggvi", "glöggvir", "glöggvi"],
+					"ft": ["glöggvum", "glöggvið", "glöggvi"]
+				},
+				"þátíð": {
+					"et": ["glöggvaði", "glöggvaðir", "glöggvaði"],
+					"ft": ["glöggvuðum", "glöggvuðuð", "glöggvuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "glöggvarðu",
+					"ft": "glöggviði"
+				},
+				"þátíð": {
+					"et": "glöggvaðirðu",
+					"ft": "glöggvuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "glöggvirðu",
+					"ft": "glöggviði"
+				},
+				"þátíð": {
+					"et": "glöggvaðirðu",
+					"ft": "glöggvuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "glöggvandi"
+	},
+	"kennistrengur": "so-glöggva",
+	"hash": "c1db9c4858c0d10398d7569f3e3c6c3935da1e56bbb777371be31b0c5bbc70d3"
+}

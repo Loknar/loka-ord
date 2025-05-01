@@ -1,0 +1,70 @@
+{
+	"orð": "arfgerðargreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "arf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-arfur-kk"
+		},
+		{
+			"mynd": "gerðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gerð-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "arfgerðargreina",
+		"sagnbót": "arfgerðargreint",
+		"boðháttur": {
+			"stýfður": "arfgerðargrein",
+			"et": "arfgerðargreindu",
+			"ft": "arfgerðargreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["arfgerðargreini", "arfgerðargreinir", "arfgerðargreinir"],
+					"ft": ["arfgerðargreinum", "arfgerðargreinið", "arfgerðargreina"]
+				},
+				"þátíð": {
+					"et": ["arfgerðargreindi", "arfgerðargreindir", "arfgerðargreindi"],
+					"ft": ["arfgerðargreindum", "arfgerðargreinduð", "arfgerðargreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["arfgerðargreini", "arfgerðargreinir", "arfgerðargreini"],
+					"ft": ["arfgerðargreinum", "arfgerðargreinið", "arfgerðargreini"]
+				},
+				"þátíð": {
+					"et": ["arfgerðargreindi", "arfgerðargreindir", "arfgerðargreindi"],
+					"ft": ["arfgerðargreindum", "arfgerðargreinduð", "arfgerðargreindu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "arfgerðargreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["arfgerðargreindur", "arfgerðargreindan", "arfgerðargreindum", "arfgerðargreinds"],
+					"kvk": ["arfgerðargreind", "arfgerðargreinda", "arfgerðargreindri", "arfgerðargreindrar"],
+					"hk": ["arfgerðargreint", "arfgerðargreint", "arfgerðargreindu", "arfgerðargreinds"]
+				},
+				"ft": {
+					"kk": ["arfgerðargreindir", "arfgerðargreinda", "arfgerðargreindum", "arfgerðargreindra"],
+					"kvk": ["arfgerðargreindar", "arfgerðargreindar", "arfgerðargreindum", "arfgerðargreindra"],
+					"hk": ["arfgerðargreind", "arfgerðargreind", "arfgerðargreindum", "arfgerðargreindra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-arfgerðargreina",
+	"hash": "181adb891c0c9a171dfe282ace03daa603802a9293a7017072aae545e56e15fa"
+}

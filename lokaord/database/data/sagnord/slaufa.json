@@ -1,6 +1,16 @@
 {
 	"orð": "slaufa",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slauf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slaufa-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "slaufa",
 		"sagnbót": "slaufað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "slaufast",
 		"sagnbót": "slaufast",
+		"boðháttur": {
+			"et": "slaufastu",
+			"ft": "slaufist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-slaufa",
-	"hash": "375e8eeb4fe5b13d4b4127138dd8bb62f8ddf2db982c5ad3201cbe6e69e08bea"
+	"hash": "e102dd197ddb21e57f1c68b8daabdc449d2c94fcc2cba7e30bc0e2ab38b0adad"
 }
