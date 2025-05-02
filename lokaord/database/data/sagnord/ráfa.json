@@ -1,0 +1,73 @@
+{
+	"orð": "ráfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ráf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ráfa",
+		"sagnbót": "ráfað",
+		"boðháttur": {
+			"stýfður": "ráfa",
+			"et": "ráfaðu",
+			"ft": "ráfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ráfa", "ráfar", "ráfar"],
+					"ft": ["ráfum", "ráfið", "ráfa"]
+				},
+				"þátíð": {
+					"et": ["ráfaði", "ráfaðir", "ráfaði"],
+					"ft": ["ráfuðum", "ráfuðuð", "ráfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ráfi", "ráfir", "ráfi"],
+					"ft": ["ráfum", "ráfið", "ráfi"]
+				},
+				"þátíð": {
+					"et": ["ráfaði", "ráfaðir", "ráfaði"],
+					"ft": ["ráfuðum", "ráfuðuð", "ráfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ráfarðu",
+					"ft": "ráfiði"
+				},
+				"þátíð": {
+					"et": "ráfaðirðu",
+					"ft": "ráfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ráfirðu",
+					"ft": "ráfiði"
+				},
+				"þátíð": {
+					"et": "ráfaðirðu",
+					"ft": "ráfuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ráfandi"
+	},
+	"kennistrengur": "so-ráfa",
+	"hash": "89419ec26b370c0d2f0d1e0fcf50a09718e732fff88826baee8dd9ca7ad5ca0e"
+}
