@@ -1,0 +1,27 @@
+{
+	"orð": "einskiptistekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "skiptis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skipti-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["einskiptistekjur", "einskiptistekjur", "einskiptistekjum", "einskiptistekna"],
+		"mg": ["einskiptistekjurnar", "einskiptistekjurnar", "einskiptistekjunum", "einskiptisteknanna"]
+	},
+	"kennistrengur": "no-einskiptistekjur-kvk",
+	"hash": "283ffb8c23b15da44b0b97d75b4be7b34ab3f995e1de37888c1355200fc217eb"
+}

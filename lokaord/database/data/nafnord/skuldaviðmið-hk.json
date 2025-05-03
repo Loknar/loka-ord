@@ -1,0 +1,30 @@
+{
+	"orð": "skuldaviðmið",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"kennistrengur": "no-mið-hk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaviðmið", "skuldaviðmið", "skuldaviðmiði", "skuldaviðmiðs"],
+		"mg": ["skuldaviðmiðið", "skuldaviðmiðið", "skuldaviðmiðinu", "skuldaviðmiðsins"]
+	},
+	"ft": {
+		"ág": ["skuldaviðmið", "skuldaviðmið", "skuldaviðmiðum", "skuldaviðmiða"],
+		"mg": ["skuldaviðmiðin", "skuldaviðmiðin", "skuldaviðmiðunum", "skuldaviðmiðanna"]
+	},
+	"kennistrengur": "no-skuldaviðmið-hk",
+	"hash": "207af41454cdf2f76bba2da29df1ed2aa61b9cc0d23b915a31ccdf0d725fcdbf"
+}
