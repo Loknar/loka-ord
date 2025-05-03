@@ -1,0 +1,32 @@
+{
+	"orð": "garðyrkjuúrgangur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "garð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-garður-kk"
+		},
+		{
+			"mynd": "yrkju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-yrkja-kvk"
+		},
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gangur-kk"
+		}
+	],
+	"et": {
+		"ág": ["garðyrkjuúrgangur", "garðyrkjuúrgang", "garðyrkjuúrgangi", "garðyrkjuúrgangs"],
+		"mg": ["garðyrkjuúrgangurinn", "garðyrkjuúrganginn", "garðyrkjuúrganginum", "garðyrkjuúrgangsins"]
+	},
+	"kennistrengur": "no-garðyrkjuúrgangur-kk",
+	"hash": "c69c2e74028ffaa6d5e2e349df6aa493ea3683914350ef1a7613339844cce1d3"
+}

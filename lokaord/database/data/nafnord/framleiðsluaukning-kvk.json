@@ -1,0 +1,27 @@
+{
+	"orð": "framleiðsluaukning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aukning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðsluaukning", "framleiðsluaukningu", "framleiðsluaukningu", "framleiðsluaukningar"],
+		"mg": ["framleiðsluaukningin", "framleiðsluaukninguna", "framleiðsluaukningunni", "framleiðsluaukningarinnar"]
+	},
+	"kennistrengur": "no-framleiðsluaukning-kvk",
+	"hash": "ddfd86ecd0d5d05d775dd79ef790df717dec456b6f5b7406c905983b7054904c"
+}

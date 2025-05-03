@@ -1,0 +1,120 @@
+{
+	"orð": "kyrkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kyrkja",
+		"sagnbót": "kyrkt",
+		"boðháttur": {
+			"stýfður": "kyrk",
+			"et": "kyrktu",
+			"ft": "kyrkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyrki", "kyrkir", "kyrkir"],
+					"ft": ["kyrkjum", "kyrkið", "kyrkja"]
+				},
+				"þátíð": {
+					"et": ["kyrkti", "kyrktir", "kyrkti"],
+					"ft": ["kyrktum", "kyrktuð", "kyrktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyrki", "kyrkir", "kyrki"],
+					"ft": ["kyrkjum", "kyrkið", "kyrki"]
+				},
+				"þátíð": {
+					"et": ["kyrkti", "kyrktir", "kyrkti"],
+					"ft": ["kyrktum", "kyrktuð", "kyrktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyrkirðu",
+					"ft": "kyrkiði"
+				},
+				"þátíð": {
+					"et": "kyrktirðu",
+					"ft": "kyrktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyrkirðu",
+					"ft": "kyrkiði"
+				},
+				"þátíð": {
+					"et": "kyrktirðu",
+					"ft": "kyrktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kyrkjast",
+		"sagnbót": "sagst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyrkist", "kyrkist", "kyrkist"],
+					"ft": ["kyrkjumst", "kyrkist", "kyrkjast"]
+				},
+				"þátíð": {
+					"et": ["kyrktist", "kyrktist", "kyrktist"],
+					"ft": ["kyrktumst", "kyrktust", "kyrktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyrkist", "kyrkist", "kyrkist"],
+					"ft": ["kyrkjumst", "kyrkist", "kyrkist"]
+				},
+				"þátíð": {
+					"et": ["kyrktist", "kyrktist", "kyrktist"],
+					"ft": ["kyrktumst", "kyrktust", "kyrktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyrkistu"
+				},
+				"þátíð": {
+					"et": "kyrktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyrkistu"
+				},
+				"þátíð": {
+					"et": "kyrktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kyrkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kyrktur", "kyrktan", "kyrktum", "kyrkts"],
+					"kvk": ["kyrkt", "kyrkta", "kyrktri", "kyrktrar"],
+					"hk": ["sagt", "sagt", "kyrktu", "kyrkts"]
+				},
+				"ft": {
+					"kk": ["kyrktir", "kyrkta", "kyrktum", "kyrktra"],
+					"kvk": ["kyrktar", "kyrktar", "kyrktum", "kyrktra"],
+					"hk": ["kyrkt", "kyrkt", "kyrktum", "kyrktra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kyrkja",
+	"hash": "2e8a4fa06370a4bad69e0ce8c292da41edc9f57c56a00239542634e5722437c7"
+}

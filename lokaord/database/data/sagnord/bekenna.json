@@ -1,0 +1,97 @@
+{
+	"orð": "bekenna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "bekenna",
+		"sagnbót": "bekennt",
+		"boðháttur": {
+			"stýfður": "bekenn",
+			"et": "bekenndu",
+			"ft": "bekennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bekenni", "bekennir", "bekennir"],
+					"ft": ["bekennum", "bekennið", "bekenna"]
+				},
+				"þátíð": {
+					"et": ["bekenndi", "bekenndir", "bekenndi"],
+					"ft": ["bekenndum", "bekennduð", "bekenndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bekenni", "bekennir", "bekenni"],
+					"ft": ["bekennum", "bekennið", "bekenni"]
+				},
+				"þátíð": {
+					"et": ["bekenndi", "bekenndir", "bekenndi"],
+					"ft": ["bekenndum", "bekennduð", "bekenndu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bekennast",
+		"sagnbót": "bekennst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bekennist", "bekennist", "bekennist"],
+					"ft": ["bekennumst", "bekennist", "bekennast"]
+				},
+				"þátíð": {
+					"et": ["bekenndist", "bekenndist", "bekenndist"],
+					"ft": ["bekenndumst", "bekenndust", "bekenndust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bekennist", "bekennist", "bekennist"],
+					"ft": ["bekennumst", "bekennist", "bekennist"]
+				},
+				"þátíð": {
+					"et": ["bekenndist", "bekenndist", "bekenndist"],
+					"ft": ["bekenndumst", "bekenndust", "bekenndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bekennistu"
+				},
+				"þátíð": {
+					"et": "bekenndistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bekennistu"
+				},
+				"þátíð": {
+					"et": "bekenndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bekenndur", "bekenndan", "bekenndum", "bekennds"],
+					"kvk": ["bekennd", "bekennda", "bekenndri", "bekenndrar"],
+					"hk": ["bekennt", "bekennt", "bekenndu", "bekennds"]
+				},
+				"ft": {
+					"kk": ["bekenndir", "bekennda", "bekenndum", "bekenndra"],
+					"kvk": ["bekenndar", "bekenndar", "bekenndum", "bekenndra"],
+					"hk": ["bekennd", "bekennd", "bekenndum", "bekenndra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bekenna",
+	"hash": "3545de29fb5a116b99b2d3578de9d3f15c9eb6a91b42c65834ea81c81c6d234a"
+}

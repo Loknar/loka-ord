@@ -1,0 +1,99 @@
+{
+	"orð": "útirækta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "úti",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-úti"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-rækta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útirækta",
+		"sagnbót": "útiræktað",
+		"boðháttur": {
+			"stýfður": "útirækta",
+			"et": "útiræktaðu",
+			"ft": "útiræktið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útirækta", "útiræktar", "útiræktar"],
+					"ft": ["útiræktum", "útiræktið", "útirækta"]
+				},
+				"þátíð": {
+					"et": ["útiræktaði", "útiræktaðir", "útiræktaði"],
+					"ft": ["útiræktuðum", "útiræktuðuð", "útiræktuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útirækti", "útiræktir", "útirækti"],
+					"ft": ["útiræktum", "útiræktið", "útirækti"]
+				},
+				"þátíð": {
+					"et": ["útiræktaði", "útiræktaðir", "útiræktaði"],
+					"ft": ["útiræktuðum", "útiræktuðuð", "útiræktuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útiræktarðu",
+					"ft": "útiræktiði"
+				},
+				"þátíð": {
+					"et": "útiræktaðirðu",
+					"ft": "útiræktuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útiræktirðu",
+					"ft": "útiræktiði"
+				},
+				"þátíð": {
+					"et": "útiræktaðirðu",
+					"ft": "útiræktuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útiræktandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útiræktaður", "útiræktaðan", "útiræktuðum", "útiræktaðs"],
+					"kvk": ["útiræktuð", "útiræktaða", "útiræktaðri", "útiræktaðrar"],
+					"hk": ["útiræktað", "útiræktað", "útiræktuðu", "útiræktaðs"]
+				},
+				"ft": {
+					"kk": ["útiræktaðir", "útiræktaða", "útiræktuðum", "útiræktaðra"],
+					"kvk": ["útiræktaðar", "útiræktaðar", "útiræktuðum", "útiræktaðra"],
+					"hk": ["útiræktuð", "útiræktuð", "útiræktuðum", "útiræktaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útiræktaði", "útiræktaða", "útiræktaða", "útiræktaða"],
+					"kvk": ["útiræktaða", "útiræktuðu", "útiræktuðu", "útiræktuðu"],
+					"hk": ["útiræktaða", "útiræktaða", "útiræktaða", "útiræktaða"]
+				},
+				"ft": {
+					"kk": ["útiræktuðu", "útiræktuðu", "útiræktuðu", "útiræktuðu"],
+					"kvk": ["útiræktuðu", "útiræktuðu", "útiræktuðu", "útiræktuðu"],
+					"hk": ["útiræktuðu", "útiræktuðu", "útiræktuðu", "útiræktuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útirækta",
+	"hash": "03c8a2823e8a20e25861ca09b2f35b1b69dc26fa86702bb3dfd3e59fd3a96b53"
+}
