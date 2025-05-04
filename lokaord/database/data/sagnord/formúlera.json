@@ -1,0 +1,88 @@
+{
+	"orð": "formúlera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "formúl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-formúla-kvk"
+		},
+		{
+			"leiðir": "er",
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "formúlera",
+		"sagnbót": "formúlerað",
+		"boðháttur": {
+			"stýfður": "formúlera",
+			"et": "formúleraðu",
+			"ft": "formúlerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["formúlera", "formúlerar", "formúlerar"],
+					"ft": ["formúlerum", "formúlerið", "formúlera"]
+				},
+				"þátíð": {
+					"et": ["formúleraði", "formúleraðir", "formúleraði"],
+					"ft": ["formúleruðum", "formúleruðuð", "formúleruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["formúleri", "formúlerir", "formúleri"],
+					"ft": ["formúlerum", "formúlerið", "formúleri"]
+				},
+				"þátíð": {
+					"et": ["formúleraði", "formúleraðir", "formúleraði"],
+					"ft": ["formúleruðum", "formúleruðuð", "formúleruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "formúlerarðu",
+					"ft": "formúleriði"
+				},
+				"þátíð": {
+					"et": "formúleraðirðu",
+					"ft": "formúleruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "formúlerirðu",
+					"ft": "formúleriði"
+				},
+				"þátíð": {
+					"et": "formúleraðirðu",
+					"ft": "formúleruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "formúlerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["formúleraður", "formúleraðan", "formúleruðum", "formúleraðs"],
+					"kvk": ["formúleruð", "formúleraða", "formúleraðri", "formúleraðrar"],
+					"hk": ["formúlerað", "formúlerað", "formúleruðu", "formúleraðs"]
+				},
+				"ft": {
+					"kk": ["formúleraðir", "formúleraða", "formúleruðum", "formúleraðra"],
+					"kvk": ["formúleraðar", "formúleraðar", "formúleruðum", "formúleraðra"],
+					"hk": ["formúleruð", "formúleruð", "formúleruðum", "formúleraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-formúlera",
+	"hash": "054caadbf01ff7e45fa6a291e2454b5dcbdcfd6b016eee1eb4b871bc2c79bc8a"
+}

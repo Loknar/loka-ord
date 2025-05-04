@@ -1,0 +1,70 @@
+{
+	"orð": "myndbirta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mynd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"beygingar": ["germynd"],
+			"kennistrengur": "so-birta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "myndbirta",
+		"sagnbót": "myndbirt",
+		"boðháttur": {
+			"stýfður": "myndbirt",
+			"et": "myndbirtu",
+			"ft": "myndbirtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["myndbirti", "myndbirtir", "myndbirtir"],
+					"ft": ["myndbirtum", "myndbirtið", "myndbirta"]
+				},
+				"þátíð": {
+					"et": ["myndbirti", "myndbirtir", "myndbirti"],
+					"ft": ["myndbirtum", "myndbirtuð", "myndbirtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["myndbirti", "myndbirtir", "myndbirti"],
+					"ft": ["myndbirtum", "myndbirtið", "myndbirti"]
+				},
+				"þátíð": {
+					"et": ["myndbirti", "myndbirtir", "myndbirti"],
+					"ft": ["myndbirtum", "myndbirtuð", "myndbirtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "myndbirtirðu",
+					"ft": "myndbirtiði"
+				},
+				"þátíð": {
+					"et": "myndbirtirðu",
+					"ft": "myndbirtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "myndbirtirðu",
+					"ft": "myndbirtiði"
+				},
+				"þátíð": {
+					"et": "myndbirtirðu",
+					"ft": "myndbirtuði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-myndbirta",
+	"hash": "6b0dbc1f8d3fb4620243e9e7a478fbb254b5d287395d8f6fee773aa48cac1133"
+}
