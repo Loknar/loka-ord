@@ -1,0 +1,30 @@
+{
+	"orð": "fjármögnunarleið",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mögnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mögnun-kvk"
+		},
+		{
+			"kennistrengur": "no-leið-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármögnunarleið", "fjármögnunarleið", "fjármögnunarleið", "fjármögnunarleiðar"],
+		"mg": ["fjármögnunarleiðin", "fjármögnunarleiðina", "fjármögnunarleiðinni", "fjármögnunarleiðarinnar"]
+	},
+	"ft": {
+		"ág": ["fjármögnunarleiðir", "fjármögnunarleiðir", "fjármögnunarleiðum", "fjármögnunarleiða"],
+		"mg": ["fjármögnunarleiðirnar", "fjármögnunarleiðirnar", "fjármögnunarleiðunum", "fjármögnunarleiðanna"]
+	},
+	"kennistrengur": "no-fjármögnunarleið-kvk",
+	"hash": "418be5e8e30e26c783833c833da56e84783d8776de97bdbadc11bdef81536942"
+}

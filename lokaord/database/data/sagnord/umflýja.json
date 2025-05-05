@@ -1,0 +1,87 @@
+{
+	"orð": "umflýja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-flýja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umflýja",
+		"sagnbót": "umflúið",
+		"boðháttur": {
+			"stýfður": "umflý",
+			"et": "umflýðu",
+			"ft": "umflýið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umflý", "umflýrð", "umflýr"],
+					"ft": ["umflýjum", "umflýið", "umflýja"]
+				},
+				"þátíð": {
+					"et": ["umflúði", "umflúðir", "umflúði"],
+					"ft": ["umflúðum", "umflúðuð", "umflúðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umflýi", "umflýir", "umflýi"],
+					"ft": ["umflýjum", "umflýið", "umflýi"]
+				},
+				"þátíð": {
+					"et": ["umflýði", "umflýðir", "umflýði"],
+					"ft": ["umflýðum", "umflýðuð", "umflýðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umflýrðu",
+					"ft": "umflýiði"
+				},
+				"þátíð": {
+					"et": "umflúðirðu",
+					"ft": "umflúðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umflýirðu",
+					"ft": "umflýiði"
+				},
+				"þátíð": {
+					"et": "umflýðirðu",
+					"ft": "umflýðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umflýjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umflúinn", "umflúinn", "umflúnum", "umflúins"],
+					"kvk": ["umflúin", "umflúna", "umflúinni", "umflúinnar"],
+					"hk": ["umflúið", "umflúið", "umflúnu", "umflúins"]
+				},
+				"ft": {
+					"kk": ["umflúnir", "umflúna", "umflúnum", "umflúinna"],
+					"kvk": ["umflúnar", "umflúnar", "umflúnum", "umflúinna"],
+					"hk": ["umflúin", "umflúin", "umflúnum", "umflúinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umflýja",
+	"hash": "2a3438f0ef5152bc190ffa948f75976fbd475f28c3f9f8fc68aed275a252c59c"
+}

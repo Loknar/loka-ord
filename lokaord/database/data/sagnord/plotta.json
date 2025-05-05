@@ -1,0 +1,135 @@
+{
+	"orð": "plotta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "plott",
+			"samsetning": "stofn",
+			"kennistrengur": "no-plott-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "plotta",
+		"sagnbót": "plottað",
+		"boðháttur": {
+			"stýfður": "plotta",
+			"et": "plottaðu",
+			"ft": "plottið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["plotta", "plottar", "plottar"],
+					"ft": ["plottum", "plottið", "plotta"]
+				},
+				"þátíð": {
+					"et": ["plottaði", "plottaðir", "plottaði"],
+					"ft": ["plottuðum", "plottuðuð", "plottuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["plotti", "plottir", "plotti"],
+					"ft": ["plottum", "plottið", "plotti"]
+				},
+				"þátíð": {
+					"et": ["plottaði", "plottaðir", "plottaði"],
+					"ft": ["plottuðum", "plottuðuð", "plottuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "plottarðu",
+					"ft": "plottiði"
+				},
+				"þátíð": {
+					"et": "plottaðirðu",
+					"ft": "plottuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "plottirðu",
+					"ft": "plottiði"
+				},
+				"þátíð": {
+					"et": "plottaðirðu",
+					"ft": "plottuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "plottast",
+		"sagnbót": "plottast",
+		"boðháttur": {
+			"et": "plottastu",
+			"ft": "plottist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["plottast", "plottast", "plottast"],
+					"ft": ["plottumst", "plottist", "plottast"]
+				},
+				"þátíð": {
+					"et": ["plottaðist", "plottaðist", "plottaðist"],
+					"ft": ["plottuðumst", "plottuðust", "plottuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["plottist", "plottist", "plottist"],
+					"ft": ["plottumst", "plottist", "plottist"]
+				},
+				"þátíð": {
+					"et": ["plottaðist", "plottaðist", "plottaðist"],
+					"ft": ["plottuðumst", "plottuðust", "plottuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "plottastu"
+				},
+				"þátíð": {
+					"et": "plottaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "plottistu"
+				},
+				"þátíð": {
+					"et": "plottaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "plottandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["plottaður", "plottaðan", "plottuðum", "plottaðs"],
+					"kvk": ["plottuð", "plottaða", "plottaðri", "plottaðrar"],
+					"hk": ["plottað", "plottað", "plottuðu", "plottaðs"]
+				},
+				"ft": {
+					"kk": ["plottaðir", "plottaða", "plottuðum", "plottaðra"],
+					"kvk": ["plottaðar", "plottaðar", "plottuðum", "plottaðra"],
+					"hk": ["plottuð", "plottuð", "plottuðum", "plottaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-plotta",
+	"hash": "57bf6ac04d2e5ac4b5e39bf8eec9b841620a842a3c7fba2075b617b72443e548"
+}

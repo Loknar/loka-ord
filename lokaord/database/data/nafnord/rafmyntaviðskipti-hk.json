@@ -1,0 +1,32 @@
+{
+	"orð": "rafmyntaviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "mynta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynt-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["rafmyntaviðskipti", "rafmyntaviðskipti", "rafmyntaviðskiptum", "rafmyntaviðskipta"],
+		"mg": ["rafmyntaviðskiptin", "rafmyntaviðskiptin", "rafmyntaviðskiptunum", "rafmyntaviðskiptanna"]
+	},
+	"kennistrengur": "no-rafmyntaviðskipti-hk",
+	"hash": "d853d049049cc95fb0d83a6bc21dd5752a6b6d80028548085d2b06c857bc64ec"
+}
