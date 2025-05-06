@@ -1,0 +1,27 @@
+{
+	"orð": "gjaldeyriskaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["gjaldeyriskaup", "gjaldeyriskaup", "gjaldeyriskaupum", "gjaldeyriskaupa"],
+		"mg": ["gjaldeyriskaupin", "gjaldeyriskaupin", "gjaldeyriskaupunum", "gjaldeyriskaupanna"]
+	},
+	"kennistrengur": "no-gjaldeyriskaup-hk",
+	"hash": "a36089a3f3aa65cc908c284a89cf622e6298a79be5f0ba222d0791bb7f91eca6"
+}
