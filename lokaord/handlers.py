@@ -45,6 +45,11 @@ class Ord:
 		os.path.join(os.path.dirname(os.path.realpath(__file__)), 'database', 'data')
 	)
 
+	non_inherited_keys_via_samsett_ord = set([
+		'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
+		'kennistrengur', 'ósjálfstætt', 'óbeygjanlegt', 'fleiryrt', 'stýrir'
+	])
+
 	def __init__(self, loaded_from_file: bool = None, loaded_from_db: bool = None):
 		self.loaded_from_file = loaded_from_file
 		self.loaded_from_db = loaded_from_db
@@ -1313,25 +1318,21 @@ class Ord:
 		# find which handler to use
 		ordhluti_flokkur_abbr = ordhluti['kennistrengur'].split('-')[0].split('.')[0]
 		if ordhluti_flokkur_abbr not in handlers_map:
-			raise Exception('Missing handler for kennistrengur "%s".' % (
-				ordhluti['kennistrengur'],
-			))
+			raise Exception(
+				'Missing handler for kennistrengur "%s".' % (ordhluti['kennistrengur'], )
+			)
 		handler = handlers_map[ordhluti_flokkur_abbr]
 		isl_ord = db.Session.query(isl.Ord).filter_by(
 			Kennistrengur=ordhluti['kennistrengur']
 		).first()
 		if isl_ord is None:
-			raise VoidKennistrengurError('Orð with kennistrengur "%s" not found. (3)' % (
-				ordhluti['kennistrengur'],
-			))
+			raise VoidKennistrengurError(
+				'Orð with kennistrengur "%s" not found. (3)' % (ordhluti['kennistrengur'], )
+			)
 		loaded_ord = handler()
 		loaded_ord.load_from_db(isl_ord)
 		isl_ord_dict = loaded_ord.data.dict()
-		remove_keys = [
-			'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
-			'kennistrengur', 'ósjálfstætt', 'stýrir', 'fleiryrt'
-		]
-		for key in remove_keys:
+		for key in self.non_inherited_keys_via_samsett_ord:
 			if key in isl_ord_dict:
 				del isl_ord_dict[key]
 		isl_ord_dict = self.apply_beygingar_filters(isl_ord_dict, ordhluti)
@@ -1411,20 +1412,16 @@ class Ord:
 		After:  @derived is a dict containing orð data, but has overwritten beygingar for the orð
 				based on samsett data.
 		"""
-		non_beygingar_keys = [
-			'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
-			'kennistrengur', 'ósjálfstætt', 'óbeygjanlegt', 'fleiryrt', 'stýrir'
-		]
 		preserve_keys = ['fleiryrt', 'stýrir']
 		derived = copy.deepcopy(data)
 		# delete current beygingar from orð data
 		for key in data:
-			if key not in non_beygingar_keys:
+			if key not in self.non_inherited_keys_via_samsett_ord:
 				del derived[key]
 		derived_beygingar = self.merge_ordhlutar(derived['samsett'])
 		# add derived beygingar to orð data
 		for key in derived_beygingar:
-			if key in non_beygingar_keys:
+			if key in self.non_inherited_keys_via_samsett_ord:
 				raise Exception('Should not happen!')
 			derived[key] = derived_beygingar[key]
 		for key in preserve_keys:
