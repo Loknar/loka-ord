@@ -1,0 +1,66 @@
+{
+	"orð": "dvína",
+	"flokkur": "sagnorð",
+	"merking": "veik",
+	"samsett": [
+		{
+			"mynd": "dvín",
+			"samsetning": "stofn",
+			"kennistrengur": "so-dvína-_sterk_"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dvína",
+		"sagnbót": "dvínað",
+		"boðháttur": {
+			"stýfður": "dvína",
+			"et": "dvínaðu",
+			"ft": "dvínið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dvína", "dvínar", "dvínar"],
+					"ft": ["dvínum", "dvínið", "dvína"]
+				},
+				"þátíð": {
+					"et": ["dvínaði", "dvínaðir", "dvínaði"],
+					"ft": ["dvínuðum", "dvínuðuð", "dvínuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dvíni", "dvínir", "dvíni"],
+					"ft": ["dvínum", "dvínið", "dvíni"]
+				},
+				"þátíð": {
+					"et": ["dvínaði", "dvínaðir", "dvínaði"],
+					"ft": ["dvínuðum", "dvínuðuð", "dvínuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dvínandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dvínaður", "dvínaðan", "dvínuðum", "dvínaðs"],
+					"kvk": ["dvínuð", "dvínaða", "dvínaðri", "dvínaðrar"],
+					"hk": ["dvínað", "dvínað", "dvínuðu", "dvínaðs"]
+				},
+				"ft": {
+					"kk": ["dvínaðir", "dvínaða", "dvínuðum", "dvínaðra"],
+					"kvk": ["dvínaðar", "dvínaðar", "dvínuðum", "dvínaðra"],
+					"hk": ["dvínuð", "dvínuð", "dvínuðum", "dvínaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dvína-_veik_",
+	"hash": "5c39d4d79ca50cb0c8250c8597dcb9d4ff6d47e5d9ed4d5627fbd838d82ff638"
+}
