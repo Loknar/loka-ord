@@ -1,0 +1,32 @@
+{
+	"orð": "háskólasamstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["háskólasamstaða", "háskólasamstöðu", "háskólasamstöðu", "háskólasamstöðu"],
+		"mg": ["háskólasamstaðan", "háskólasamstöðuna", "háskólasamstöðunni", "háskólasamstöðunnar"]
+	},
+	"kennistrengur": "no-háskólasamstaða-kvk",
+	"hash": "9a908be46bd0df19d8b0bc0d21d104904d8c4bc00b7bd727c67843d1b7862833"
+}

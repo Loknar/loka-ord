@@ -2,6 +2,16 @@
 	"orð": "læknir",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lækn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-lækna"
+		},
+		{
+			"kennistrengur": "no-ir-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["læknir", "lækni", "lækni", "læknis"],
 		"mg": ["læknirinn", "lækninn", "lækninum", "læknisins"]
@@ -11,5 +21,5 @@
 		"mg": ["læknarnir", "læknana", "læknunum", "læknanna"]
 	},
 	"kennistrengur": "no-læknir-kk",
-	"hash": "5856e79ab4cc863362073753139ce174b0b6771426463b6234781093befbdd80"
+	"hash": "7b7eb8cfeec6840e602a8936b2f8f4954ed63bd52ba1e1947985ea1aad7445f7"
 }
