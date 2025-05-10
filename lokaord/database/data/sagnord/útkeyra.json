@@ -1,0 +1,99 @@
+{
+	"orð": "útkeyra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-keyra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útkeyra",
+		"sagnbót": "útkeyrt",
+		"boðháttur": {
+			"stýfður": "útkeyr",
+			"et": "útkeyrðu",
+			"ft": "útkeyrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útkeyri", "útkeyrir", "útkeyrir"],
+					"ft": ["útkeyrum", "útkeyrið", "útkeyra"]
+				},
+				"þátíð": {
+					"et": ["útkeyrði", "útkeyrðir", "útkeyrði"],
+					"ft": ["útkeyrðum", "útkeyrðuð", "útkeyrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útkeyri", "útkeyrir", "útkeyri"],
+					"ft": ["útkeyrum", "útkeyrið", "útkeyri"]
+				},
+				"þátíð": {
+					"et": ["útkeyrði", "útkeyrðir", "útkeyrði"],
+					"ft": ["útkeyrðum", "útkeyrðuð", "útkeyrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útkeyrirðu",
+					"ft": "útkeyriði"
+				},
+				"þátíð": {
+					"et": "útkeyrðirðu",
+					"ft": "útkeyrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útkeyrirðu",
+					"ft": "útkeyriði"
+				},
+				"þátíð": {
+					"et": "útkeyrðirðu",
+					"ft": "útkeyrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útkeyrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útkeyrður", "útkeyrðan", "útkeyrðum", "útkeyrðs"],
+					"kvk": ["útkeyrð", "útkeyrða", "útkeyrðri", "útkeyrðrar"],
+					"hk": ["útkeyrt", "útkeyrt", "útkeyrðu", "útkeyrðs"]
+				},
+				"ft": {
+					"kk": ["útkeyrðir", "útkeyrða", "útkeyrðum", "útkeyrðra"],
+					"kvk": ["útkeyrðar", "útkeyrðar", "útkeyrðum", "útkeyrðra"],
+					"hk": ["útkeyrð", "útkeyrð", "útkeyrðum", "útkeyrðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útkeyrði", "útkeyrða", "útkeyrða", "útkeyrða"],
+					"kvk": ["útkeyrða", "útkeyrðu", "útkeyrðu", "útkeyrðu"],
+					"hk": ["útkeyrða", "útkeyrða", "útkeyrða", "útkeyrða"]
+				},
+				"ft": {
+					"kk": ["útkeyrðu", "útkeyrðu", "útkeyrðu", "útkeyrðu"],
+					"kvk": ["útkeyrðu", "útkeyrðu", "útkeyrðu", "útkeyrðu"],
+					"hk": ["útkeyrðu", "útkeyrðu", "útkeyrðu", "útkeyrðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útkeyra",
+	"hash": "4ad09e58c9bce6c4ef824cbe04d9b1b873d1be1e8f14fff7ee8182eb7c4471f5"
+}

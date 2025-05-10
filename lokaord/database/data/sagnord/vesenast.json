@@ -1,0 +1,65 @@
+{
+	"orð": "vesenast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vesen",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vesen-hk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "vesenast",
+		"sagnbót": "vesenast",
+		"boðháttur": {
+			"et": "vesenastu",
+			"ft": "vesenist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vesenast", "vesenast", "vesenast"],
+					"ft": ["vesenumst", "vesenist", "vesenast"]
+				},
+				"þátíð": {
+					"et": ["vesenaðist", "vesenaðist", "vesenaðist"],
+					"ft": ["vesenuðumst", "vesenuðust", "vesenuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vesenist", "vesenist", "vesenist"],
+					"ft": ["vesenumst", "vesenist", "vesenist"]
+				},
+				"þátíð": {
+					"et": ["vesenaðist", "vesenaðist", "vesenaðist"],
+					"ft": ["vesenuðumst", "vesenuðust", "vesenuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vesenastu"
+				},
+				"þátíð": {
+					"et": "vesenaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vesenistu"
+				},
+				"þátíð": {
+					"et": "vesenaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vesenast",
+	"hash": "74e490cac0b2e609ac2d91f7299fcf7827627377ea9b857c1f3d26cf43b2aebb"
+}

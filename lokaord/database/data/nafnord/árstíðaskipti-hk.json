@@ -1,0 +1,27 @@
+{
+	"orð": "árstíðaskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "árs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"mynd": "tíða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tíð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["árstíðaskipti", "árstíðaskipti", "árstíðaskiptum", "árstíðaskipta"],
+		"mg": ["árstíðaskiptin", "árstíðaskiptin", "árstíðaskiptunum", "árstíðaskiptanna"]
+	},
+	"kennistrengur": "no-árstíðaskipti-hk",
+	"hash": "2ddb8cea798381b0c2f1352daf5276329b1c5fceb30358525e8046a948718097"
+}

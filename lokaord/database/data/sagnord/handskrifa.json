@@ -1,0 +1,142 @@
+{
+	"orð": "handskrifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"kennistrengur": "so-skrifa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handskrifa",
+		"sagnbót": "handskrifað",
+		"boðháttur": {
+			"stýfður": "handskrifa",
+			"et": "handskrifaðu",
+			"ft": "handskrifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handskrifa", "handskrifar", "handskrifar"],
+					"ft": ["handskrifum", "handskrifið", "handskrifa"]
+				},
+				"þátíð": {
+					"et": ["handskrifaði", "handskrifaðir", "handskrifaði"],
+					"ft": ["handskrifuðum", "handskrifuðuð", "handskrifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handskrifi", "handskrifir", "handskrifi"],
+					"ft": ["handskrifum", "handskrifið", "handskrifi"]
+				},
+				"þátíð": {
+					"et": ["handskrifaði", "handskrifaðir", "handskrifaði"],
+					"ft": ["handskrifuðum", "handskrifuðuð", "handskrifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handskrifarðu",
+					"ft": "handskrifiði"
+				},
+				"þátíð": {
+					"et": "handskrifaðirðu",
+					"ft": "handskrifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handskrifirðu",
+					"ft": "handskrifiði"
+				},
+				"þátíð": {
+					"et": "handskrifaðirðu",
+					"ft": "handskrifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "handskrifast",
+		"sagnbót": "handskrifast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handskrifast", "handskrifast", "handskrifast"],
+					"ft": ["handskrifumst", "handskrifist", "handskrifast"]
+				},
+				"þátíð": {
+					"et": ["handskrifaðist", "handskrifaðist", "handskrifaðist"],
+					"ft": ["handskrifuðumst", "handskrifuðust", "handskrifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handskrifist", "handskrifist", "handskrifist"],
+					"ft": ["handskrifumst", "handskrifist", "handskrifist"]
+				},
+				"þátíð": {
+					"et": ["handskrifaðist", "handskrifaðist", "handskrifaðist"],
+					"ft": ["handskrifuðumst", "handskrifuðust", "handskrifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handskrifastu"
+				},
+				"þátíð": {
+					"et": "handskrifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handskrifistu"
+				},
+				"þátíð": {
+					"et": "handskrifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handskrifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handskrifaður", "handskrifaðan", "handskrifuðum", "handskrifaðs"],
+					"kvk": ["handskrifuð", "handskrifaða", "handskrifaðri", "handskrifaðrar"],
+					"hk": ["handskrifað", "handskrifað", "handskrifuðu", "handskrifaðs"]
+				},
+				"ft": {
+					"kk": ["handskrifaðir", "handskrifaða", "handskrifuðum", "handskrifaðra"],
+					"kvk": ["handskrifaðar", "handskrifaðar", "handskrifuðum", "handskrifaðra"],
+					"hk": ["handskrifuð", "handskrifuð", "handskrifuðum", "handskrifaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handskrifaði", "handskrifaða", "handskrifaða", "handskrifaða"],
+					"kvk": ["handskrifaða", "handskrifuðu", "handskrifuðu", "handskrifuðu"],
+					"hk": ["handskrifaða", "handskrifaða", "handskrifaða", "handskrifaða"]
+				},
+				"ft": {
+					"kk": ["handskrifuðu", "handskrifuðu", "handskrifuðu", "handskrifuðu"],
+					"kvk": ["handskrifuðu", "handskrifuðu", "handskrifuðu", "handskrifuðu"],
+					"hk": ["handskrifuðu", "handskrifuðu", "handskrifuðu", "handskrifuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handskrifa",
+	"hash": "b4821670c31ec330d528ea1d71b30c376e26dd6a61d2b2631795b5be55edae7b"
+}
