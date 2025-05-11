@@ -121,15 +121,19 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 
 
 def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = True):
+	"""
+	identify known whole words from a sentence string
+	"""
 	if clean_str is True:
 		sentence = clean_string(sentence)
 	sight = load_sight()
-	print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (sentence, ))
+	if hide_matches is False:
+		print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (sentence, ))
 	scanned_sentence = []
 	found = 0
 	maybe = 0
 	missing = 0
-	onhanging_chars = set('.,:;()[]-/„“”?!´%°%–‐…·—‘"*\'‚')
+	onhanging_chars = set('.,:;()[]-/„“”?!´%°%–‐…·—‘"*\'‚|')
 	onhanging_chars_with_dot = onhanging_chars.copy()
 	onhanging_chars_with_dot.remove('.')
 	for word in sentence.split(' '):
@@ -356,6 +360,9 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 
 
 def load_sight(filename='sight', use_pointless=None):
+	"""
+	load data to identify whole words
+	"""
 	if use_pointless is None:
 		use_pointless = (platform.system() == 'Linux')
 	if use_pointless is True and platform.system() != 'Linux':
@@ -388,6 +395,9 @@ def load_sight(filename='sight', use_pointless=None):
 
 
 def build_sight(filename='sight', use_pointless=None):
+	"""
+	collect and construct data to identify whole words
+	"""
 	if use_pointless is None:
 		use_pointless = (platform.system() == 'Linux')
 	logman.info('Building sight ..')
@@ -407,14 +417,6 @@ def build_sight(filename='sight', use_pointless=None):
 		filename, 'pointless' if use_pointless is True else 'pickle'
 	))
 	sight_filepath_abs = os.path.join(root_storage_dir_abs, sight_filepath_rel)
-	sight = {
-		'orð': {},
-		'hash': {},
-		'kennistrengur': {},
-		'skammstafanir': {},
-		'ts': ts,
-		'v': version
-	}
 	knowledge_tasks = [
 		{
 			'name': 'nafnorð',
@@ -557,6 +559,14 @@ def build_sight(filename='sight', use_pointless=None):
 			'dir': os.path.join('sernofn', 'ornefni'),
 		}
 	]
+	sight = {
+		'orð': {},
+		'hash': {},
+		'kennistrengur': {},
+		'skammstafanir': {},
+		'ts': ts,
+		'v': version
+	}
 	for task in knowledge_tasks:
 		logman.info('Accumulating "%s" knowledge ..' % (task['name'], ))
 		for ord_file in sorted(pathlib.Path(os.path.join(task['root'], task['dir'])).iterdir()):
