@@ -1,0 +1,135 @@
+{
+	"orð": "aumka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "aumk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-aumur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aumka",
+		"sagnbót": "aumkað",
+		"boðháttur": {
+			"stýfður": "aumka",
+			"et": "aumkaðu",
+			"ft": "aumkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aumka", "aumkar", "aumkar"],
+					"ft": ["aumkum", "aumkið", "aumka"]
+				},
+				"þátíð": {
+					"et": ["aumkaði", "aumkaðir", "aumkaði"],
+					"ft": ["aumkuðum", "aumkuðuð", "aumkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aumki", "aumkir", "aumki"],
+					"ft": ["aumkum", "aumkið", "aumki"]
+				},
+				"þátíð": {
+					"et": ["aumkaði", "aumkaðir", "aumkaði"],
+					"ft": ["aumkuðum", "aumkuðuð", "aumkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aumkarðu",
+					"ft": "aumkiði"
+				},
+				"þátíð": {
+					"et": "aumkaðirðu",
+					"ft": "aumkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aumkirðu",
+					"ft": "aumkiði"
+				},
+				"þátíð": {
+					"et": "aumkaðirðu",
+					"ft": "aumkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "aumkast",
+		"sagnbót": "aumkast",
+		"boðháttur": {
+			"et": "aumkastu",
+			"ft": "aumkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aumkast", "aumkast", "aumkast"],
+					"ft": ["aumkumst", "aumkist", "aumkast"]
+				},
+				"þátíð": {
+					"et": ["aumkaðist", "aumkaðist", "aumkaðist"],
+					"ft": ["aumkuðumst", "aumkuðust", "aumkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aumkist", "aumkist", "aumkist"],
+					"ft": ["aumkumst", "aumkist", "aumkist"]
+				},
+				"þátíð": {
+					"et": ["aumkaðist", "aumkaðist", "aumkaðist"],
+					"ft": ["aumkuðumst", "aumkuðust", "aumkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aumkastu"
+				},
+				"þátíð": {
+					"et": "aumkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aumkistu"
+				},
+				"þátíð": {
+					"et": "aumkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aumkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aumkaður", "aumkaðan", "aumkuðum", "aumkaðs"],
+					"kvk": ["aumkuð", "aumkaða", "aumkaðri", "aumkaðrar"],
+					"hk": ["aumkað", "aumkað", "aumkuðu", "aumkaðs"]
+				},
+				"ft": {
+					"kk": ["aumkaðir", "aumkaða", "aumkuðum", "aumkaðra"],
+					"kvk": ["aumkaðar", "aumkaðar", "aumkuðum", "aumkaðra"],
+					"hk": ["aumkuð", "aumkuð", "aumkuðum", "aumkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aumka",
+	"hash": "0f3af1d6f3df338b331b76c588d43bf59211e96c2da9394aec06f400a015e408"
+}

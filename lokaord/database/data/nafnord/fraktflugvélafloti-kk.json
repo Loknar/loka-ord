@@ -1,0 +1,35 @@
+{
+	"orð": "fraktflugvélafloti",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "frakt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frakt-kvk"
+		},
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"mynd": "véla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vél-kvk"
+		},
+		{
+			"kennistrengur": "no-floti-kk"
+		}
+	],
+	"et": {
+		"ág": ["fraktflugvélafloti", "fraktflugvélaflota", "fraktflugvélaflota", "fraktflugvélaflota"],
+		"mg": ["fraktflugvélaflotinn", "fraktflugvélaflotann", "fraktflugvélaflotanum", "fraktflugvélaflotans"]
+	},
+	"ft": {
+		"ág": ["fraktflugvélaflotar", "fraktflugvélaflota", "fraktflugvélaflotum", "fraktflugvélaflota"],
+		"mg": ["fraktflugvélaflotarnir", "fraktflugvélaflotana", "fraktflugvélaflotunum", "fraktflugvélaflotanna"]
+	},
+	"kennistrengur": "no-fraktflugvélafloti-kk",
+	"hash": "249da5aa2e328a5c903e95224b1c9a5e022c36f2f606aff8344c155ca297d1f4"
+}

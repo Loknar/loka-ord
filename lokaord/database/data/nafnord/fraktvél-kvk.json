@@ -1,0 +1,25 @@
+{
+	"orð": "fraktvél",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "frakt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frakt-kvk"
+		},
+		{
+			"kennistrengur": "no-vél-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fraktvél", "fraktvél", "fraktvél", "fraktvélar"],
+		"mg": ["fraktvélin", "fraktvélina", "fraktvélinni", "fraktvélarinnar"]
+	},
+	"ft": {
+		"ág": ["fraktvélar", "fraktvélar", "fraktvélum", "fraktvéla"],
+		"mg": ["fraktvélarnar", "fraktvélarnar", "fraktvélunum", "fraktvélanna"]
+	},
+	"kennistrengur": "no-fraktvél-kvk",
+	"hash": "8d87e7ff39298a96988d01d24df0e6d613ecae33268c886a23e227c31a4b61c4"
+}

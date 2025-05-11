@@ -1,0 +1,30 @@
+{
+	"orð": "fraktflugvél",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "frakt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frakt-kvk"
+		},
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"kennistrengur": "no-vél-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fraktflugvél", "fraktflugvél", "fraktflugvél", "fraktflugvélar"],
+		"mg": ["fraktflugvélin", "fraktflugvélina", "fraktflugvélinni", "fraktflugvélarinnar"]
+	},
+	"ft": {
+		"ág": ["fraktflugvélar", "fraktflugvélar", "fraktflugvélum", "fraktflugvéla"],
+		"mg": ["fraktflugvélarnar", "fraktflugvélarnar", "fraktflugvélunum", "fraktflugvélanna"]
+	},
+	"kennistrengur": "no-fraktflugvél-kvk",
+	"hash": "a58cf5c5044be172819f41e3a86d6371a9b784974c237cf5b7c2abae114f4d17"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "fragtflugvél",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fragt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fragt-kvk"
+		},
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"kennistrengur": "no-vél-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fragtflugvél", "fragtflugvél", "fragtflugvél", "fragtflugvélar"],
+		"mg": ["fragtflugvélin", "fragtflugvélina", "fragtflugvélinni", "fragtflugvélarinnar"]
+	},
+	"ft": {
+		"ág": ["fragtflugvélar", "fragtflugvélar", "fragtflugvélum", "fragtflugvéla"],
+		"mg": ["fragtflugvélarnar", "fragtflugvélarnar", "fragtflugvélunum", "fragtflugvélanna"]
+	},
+	"kennistrengur": "no-fragtflugvél-kvk",
+	"hash": "35ca70a40fb4d7ff657f1a1c7e43985e6f3e7df0667667bbe82b5dc247f68097"
+}

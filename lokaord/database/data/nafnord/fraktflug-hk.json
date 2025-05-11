@@ -1,0 +1,22 @@
+{
+	"orð": "fraktflug",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "frakt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frakt-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-flug-hk"
+		}
+	],
+	"et": {
+		"ág": ["fraktflug", "fraktflug", "fraktflugi", "fraktflugs"],
+		"mg": ["fraktflugið", "fraktflugið", "fraktfluginu", "fraktflugsins"]
+	},
+	"kennistrengur": "no-fraktflug-hk",
+	"hash": "99d63a807011e1c46cd512fef499a2fef9e3f440e5b30b65eb930a4bad87808a"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "keðjuábyrgðarhugsun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "keðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-keðja-kvk"
+		},
+		{
+			"mynd": "ábyrgðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ábyrgð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hugsun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["keðjuábyrgðarhugsun", "keðjuábyrgðarhugsun", "keðjuábyrgðarhugsun", "keðjuábyrgðarhugsunar"],
+		"mg": ["keðjuábyrgðarhugsunin", "keðjuábyrgðarhugsunina", "keðjuábyrgðarhugsuninni", "keðjuábyrgðarhugsunarinnar"]
+	},
+	"kennistrengur": "no-keðjuábyrgðarhugsun-kvk",
+	"hash": "9bda1d5827e267eab43b4d985fc41d7e7ac84ff33afb00e43f4320d1207966ff"
+}

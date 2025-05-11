@@ -1,0 +1,27 @@
+{
+	"orð": "öryggisgleraugu",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "öryggis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öryggi-hk"
+		},
+		{
+			"mynd": "gler",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gler-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-auga-hk"
+		}
+	],
+	"ft": {
+		"ág": ["öryggisgleraugu", "öryggisgleraugu", "öryggisgleraugum", "öryggisgleraugna"],
+		"mg": ["öryggisgleraugun", "öryggisgleraugun", "öryggisgleraugunum", "öryggisgleraugnanna"]
+	},
+	"kennistrengur": "no-öryggisgleraugu-hk",
+	"hash": "fa0892ffd611536cdfcb53cb12e3c5a9d4c7bf00c9177bdd46717a3cb814c3d4"
+}
