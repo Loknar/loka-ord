@@ -120,6 +120,7 @@ def scan_sentence(
 		if not input_file.is_file():
 			raise typer.BadParameter('--input-file must point to a file.')
 		with input_file.open() as infile:
+			logman.info('Reading sentence from file "%s" ..' % (str(input_file), ))
 			sentence = infile.read()
 	if sentence is None and input_file is None:
 		raise typer.BadParameter('Either SENTENCE or --input-file PATH must be provided.')
