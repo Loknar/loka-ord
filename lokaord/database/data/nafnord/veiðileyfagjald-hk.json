@@ -1,0 +1,30 @@
+{
+	"orð": "veiðileyfagjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "veiði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veiði-kvk"
+		},
+		{
+			"mynd": "leyfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leyfi-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["veiðileyfagjald", "veiðileyfagjald", "veiðileyfagjaldi", "veiðileyfagjalds"],
+		"mg": ["veiðileyfagjaldið", "veiðileyfagjaldið", "veiðileyfagjaldinu", "veiðileyfagjaldsins"]
+	},
+	"ft": {
+		"ág": ["veiðileyfagjöld", "veiðileyfagjöld", "veiðileyfagjöldum", "veiðileyfagjalda"],
+		"mg": ["veiðileyfagjöldin", "veiðileyfagjöldin", "veiðileyfagjöldunum", "veiðileyfagjaldanna"]
+	},
+	"kennistrengur": "no-veiðileyfagjald-hk",
+	"hash": "376708bea91af9e56157257c91db95ee194ab9f133c8345a42e915f3ac4bc53d"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "landbúnaðartengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "búnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-búnaður-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["landbúnaðartengdur", "landbúnaðartengdan", "landbúnaðartengdum", "landbúnaðartengds"],
+				"kvk": ["landbúnaðartengd", "landbúnaðartengda", "landbúnaðartengdri", "landbúnaðartengdrar"],
+				"hk": ["landbúnaðartengt", "landbúnaðartengt", "landbúnaðartengdu", "landbúnaðartengds"]
+			},
+			"ft": {
+				"kk": ["landbúnaðartengdir", "landbúnaðartengda", "landbúnaðartengdum", "landbúnaðartengdra"],
+				"kvk": ["landbúnaðartengdar", "landbúnaðartengdar", "landbúnaðartengdum", "landbúnaðartengdra"],
+				"hk": ["landbúnaðartengd", "landbúnaðartengd", "landbúnaðartengdum", "landbúnaðartengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["landbúnaðartengdi", "landbúnaðartengda", "landbúnaðartengda", "landbúnaðartengda"],
+				"kvk": ["landbúnaðartengda", "landbúnaðartengdu", "landbúnaðartengdu", "landbúnaðartengdu"],
+				"hk": ["landbúnaðartengda", "landbúnaðartengda", "landbúnaðartengda", "landbúnaðartengda"]
+			},
+			"ft": {
+				"kk": ["landbúnaðartengdu", "landbúnaðartengdu", "landbúnaðartengdu", "landbúnaðartengdu"],
+				"kvk": ["landbúnaðartengdu", "landbúnaðartengdu", "landbúnaðartengdu", "landbúnaðartengdu"],
+				"hk": ["landbúnaðartengdu", "landbúnaðartengdu", "landbúnaðartengdu", "landbúnaðartengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-landbúnaðartengdur",
+	"hash": "1150b75c88d6d4896ee60606e4105985f400ef556587a114d513ac95f441b82a"
+}

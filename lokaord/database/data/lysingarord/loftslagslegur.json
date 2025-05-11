@@ -1,0 +1,48 @@
+{
+	"orð": "loftslagslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lofts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-loft-hk"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["loftslagslegur", "loftslagslegan", "loftslagslegum", "loftslagslegs"],
+				"kvk": ["loftslagsleg", "loftslagslega", "loftslagslegri", "loftslagslegrar"],
+				"hk": ["loftslagslegt", "loftslagslegt", "loftslagslegu", "loftslagslegs"]
+			},
+			"ft": {
+				"kk": ["loftslagslegir", "loftslagslega", "loftslagslegum", "loftslagslegra"],
+				"kvk": ["loftslagslegar", "loftslagslegar", "loftslagslegum", "loftslagslegra"],
+				"hk": ["loftslagsleg", "loftslagsleg", "loftslagslegum", "loftslagslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["loftslagslegi", "loftslagslega", "loftslagslega", "loftslagslega"],
+				"kvk": ["loftslagslega", "loftslagslegu", "loftslagslegu", "loftslagslegu"],
+				"hk": ["loftslagslega", "loftslagslega", "loftslagslega", "loftslagslega"]
+			},
+			"ft": {
+				"kk": ["loftslagslegu", "loftslagslegu", "loftslagslegu", "loftslagslegu"],
+				"kvk": ["loftslagslegu", "loftslagslegu", "loftslagslegu", "loftslagslegu"],
+				"hk": ["loftslagslegu", "loftslagslegu", "loftslagslegu", "loftslagslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-loftslagslegur",
+	"hash": "65ef2ba267e108d56879bb257c0cb1b03e6a46b4fff84700674709d2a66d51b3"
+}
