@@ -1,6 +1,16 @@
 {
 	"orð": "ríma",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rím",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rím-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "ríma",
 		"sagnbót": "rímað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "rímast",
 		"sagnbót": "rímast",
+		"boðháttur": {
+			"et": "rímastu",
+			"ft": "rímist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-ríma",
-	"hash": "f5149f62489dc0beb6f5346584b4b85a055fe9114a1716a0b31b476e8f06ebec"
+	"hash": "47a68346569444582dab0ad5b6466c5989b21620611a45d2a22fd40a61aea2ef"
 }

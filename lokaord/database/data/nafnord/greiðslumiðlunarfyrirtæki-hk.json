@@ -1,0 +1,35 @@
+{
+	"orð": "greiðslumiðlunarfyrirtæki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "miðlunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-miðlun-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"kennistrengur": "no-tæki-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslumiðlunarfyrirtæki", "greiðslumiðlunarfyrirtæki", "greiðslumiðlunarfyrirtæki", "greiðslumiðlunarfyrirtækis"],
+		"mg": ["greiðslumiðlunarfyrirtækið", "greiðslumiðlunarfyrirtækið", "greiðslumiðlunarfyrirtækinu", "greiðslumiðlunarfyrirtækisins"]
+	},
+	"ft": {
+		"ág": ["greiðslumiðlunarfyrirtæki", "greiðslumiðlunarfyrirtæki", "greiðslumiðlunarfyrirtækjum", "greiðslumiðlunarfyrirtækja"],
+		"mg": ["greiðslumiðlunarfyrirtækin", "greiðslumiðlunarfyrirtækin", "greiðslumiðlunarfyrirtækjunum", "greiðslumiðlunarfyrirtækjanna"]
+	},
+	"kennistrengur": "no-greiðslumiðlunarfyrirtæki-hk",
+	"hash": "248450fc5fbf2d93907fbaff7eccf269272689b193b5344963788610e90e1791"
+}
