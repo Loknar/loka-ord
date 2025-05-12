@@ -1,0 +1,135 @@
+{
+	"orð": "píska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "písk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-pískur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "píska",
+		"sagnbót": "pískað",
+		"boðháttur": {
+			"stýfður": "píska",
+			"et": "pískaðu",
+			"ft": "pískið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["píska", "pískar", "pískar"],
+					"ft": ["pískum", "pískið", "píska"]
+				},
+				"þátíð": {
+					"et": ["pískaði", "pískaðir", "pískaði"],
+					"ft": ["pískuðum", "pískuðuð", "pískuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["píski", "pískir", "píski"],
+					"ft": ["pískum", "pískið", "píski"]
+				},
+				"þátíð": {
+					"et": ["pískaði", "pískaðir", "pískaði"],
+					"ft": ["pískuðum", "pískuðuð", "pískuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pískarðu",
+					"ft": "pískiði"
+				},
+				"þátíð": {
+					"et": "pískaðirðu",
+					"ft": "pískuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pískirðu",
+					"ft": "pískiði"
+				},
+				"þátíð": {
+					"et": "pískaðirðu",
+					"ft": "pískuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "pískast",
+		"sagnbót": "pískast",
+		"boðháttur": {
+			"et": "pískastu",
+			"ft": "pískist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pískast", "pískast", "pískast"],
+					"ft": ["pískumst", "pískist", "pískast"]
+				},
+				"þátíð": {
+					"et": ["pískaðist", "pískaðist", "pískaðist"],
+					"ft": ["pískuðumst", "pískuðust", "pískuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pískist", "pískist", "pískist"],
+					"ft": ["pískumst", "pískist", "pískist"]
+				},
+				"þátíð": {
+					"et": ["pískaðist", "pískaðist", "pískaðist"],
+					"ft": ["pískuðumst", "pískuðust", "pískuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pískastu"
+				},
+				"þátíð": {
+					"et": "pískaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pískistu"
+				},
+				"þátíð": {
+					"et": "pískaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "pískandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["pískaður", "pískaðan", "pískuðum", "pískaðs"],
+					"kvk": ["pískuð", "pískaða", "pískaðri", "pískaðrar"],
+					"hk": ["pískað", "pískað", "pískuðu", "pískaðs"]
+				},
+				"ft": {
+					"kk": ["pískaðir", "pískaða", "pískuðum", "pískaðra"],
+					"kvk": ["pískaðar", "pískaðar", "pískuðum", "pískaðra"],
+					"hk": ["pískuð", "pískuð", "pískuðum", "pískaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-píska",
+	"hash": "89a4f72eb6f35d81a4818d194e596e431266bb065e97724b1b4a4b0a448599a3"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "handpilla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-pilla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handpilla",
+		"sagnbót": "handpillað",
+		"boðháttur": {
+			"stýfður": "handpilla",
+			"et": "handpillaðu",
+			"ft": "handpillið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handpilla", "handpillar", "handpillar"],
+					"ft": ["handpillum", "handpillið", "handpilla"]
+				},
+				"þátíð": {
+					"et": ["handpillaði", "handpillaðir", "handpillaði"],
+					"ft": ["handpilluðum", "handpilluðuð", "handpilluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handpilli", "handpillir", "handpilli"],
+					"ft": ["handpillum", "handpillið", "handpilli"]
+				},
+				"þátíð": {
+					"et": ["handpillaði", "handpillaðir", "handpillaði"],
+					"ft": ["handpilluðum", "handpilluðuð", "handpilluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handpillarðu",
+					"ft": "handpilliði"
+				},
+				"þátíð": {
+					"et": "handpillaðirðu",
+					"ft": "handpilluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handpillirðu",
+					"ft": "handpilliði"
+				},
+				"þátíð": {
+					"et": "handpillaðirðu",
+					"ft": "handpilluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handpillandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handpillaður", "handpillaðan", "handpilluðum", "handpillaðs"],
+					"kvk": ["handpilluð", "handpillaða", "handpillaðri", "handpillaðrar"],
+					"hk": ["handpillað", "handpillað", "handpilluðu", "handpillaðs"]
+				},
+				"ft": {
+					"kk": ["handpillaðir", "handpillaða", "handpilluðum", "handpillaðra"],
+					"kvk": ["handpillaðar", "handpillaðar", "handpilluðum", "handpillaðra"],
+					"hk": ["handpilluð", "handpilluð", "handpilluðum", "handpillaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handpillaði", "handpillaða", "handpillaða", "handpillaða"],
+					"kvk": ["handpillaða", "handpilluðu", "handpilluðu", "handpilluðu"],
+					"hk": ["handpillaða", "handpillaða", "handpillaða", "handpillaða"]
+				},
+				"ft": {
+					"kk": ["handpilluðu", "handpilluðu", "handpilluðu", "handpilluðu"],
+					"kvk": ["handpilluðu", "handpilluðu", "handpilluðu", "handpilluðu"],
+					"hk": ["handpilluðu", "handpilluðu", "handpilluðu", "handpilluðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handpilla",
+	"hash": "c80b22b0c1d7e4ddab6c50a60d39adc18062a0b2af3c02660242d4c5df8190b7"
+}
