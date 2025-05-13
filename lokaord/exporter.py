@@ -31,6 +31,9 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
 		)
 		logman.info('Exporting orð edited after ts: %s.' % (ts.isoformat(), ))
 	for isl_ord_record in query_isl_ord_records:
+		logman.debug('Writing orð from db to file "%s" (%s)' % (
+			isl_ord_record.Ord, isl_ord_record.Kennistrengur
+		))
 		handler = handlers_map[isl_ord_record.Ordflokkur.name]
 		isl_ord = handler()
 		isl_ord.load_from_db(isl_ord_record)
