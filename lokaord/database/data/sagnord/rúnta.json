@@ -1,0 +1,73 @@
+{
+	"orð": "rúnta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rúnt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rúntur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rúnta",
+		"sagnbót": "rúntað",
+		"boðháttur": {
+			"stýfður": "rúnta",
+			"et": "rúntaðu",
+			"ft": "rúntið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rúnta", "rúntar", "rúntar"],
+					"ft": ["rúntum", "rúntið", "rúnta"]
+				},
+				"þátíð": {
+					"et": ["rúntaði", "rúntaðir", "rúntaði"],
+					"ft": ["rúntuðum", "rúntuðuð", "rúntuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rúnti", "rúntir", "rúnti"],
+					"ft": ["rúntum", "rúntið", "rúnti"]
+				},
+				"þátíð": {
+					"et": ["rúntaði", "rúntaðir", "rúntaði"],
+					"ft": ["rúntuðum", "rúntuðuð", "rúntuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rúntarðu",
+					"ft": "rúntiði"
+				},
+				"þátíð": {
+					"et": "rúntaðirðu",
+					"ft": "rúntuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rúntirðu",
+					"ft": "rúntiði"
+				},
+				"þátíð": {
+					"et": "rúntaðirðu",
+					"ft": "rúntuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rúntandi"
+	},
+	"kennistrengur": "so-rúnta",
+	"hash": "3231d181b16b91ee0806fa9a94d821a9fc2b4fbd79b1fbc8ec233585aa81a1f7"
+}
