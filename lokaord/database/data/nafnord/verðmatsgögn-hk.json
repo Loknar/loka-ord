@@ -1,0 +1,27 @@
+{
+	"orð": "verðmatsgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "mats",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mat-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["verðmatsgögn", "verðmatsgögn", "verðmatsgögnum", "verðmatsgagna"],
+		"mg": ["verðmatsgögnin", "verðmatsgögnin", "verðmatsgögnunum", "verðmatsgagnanna"]
+	},
+	"kennistrengur": "no-verðmatsgögn-hk",
+	"hash": "b2aa93f025c7c6c5dd65730fe99db64d9aeefa17797fdbdada2f2a5f65480231"
+}

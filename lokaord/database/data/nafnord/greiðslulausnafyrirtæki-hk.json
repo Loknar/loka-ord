@@ -1,0 +1,35 @@
+{
+	"orð": "greiðslulausnafyrirtæki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "lausna",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lausn-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"kennistrengur": "no-tæki-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslulausnafyrirtæki", "greiðslulausnafyrirtæki", "greiðslulausnafyrirtæki", "greiðslulausnafyrirtækis"],
+		"mg": ["greiðslulausnafyrirtækið", "greiðslulausnafyrirtækið", "greiðslulausnafyrirtækinu", "greiðslulausnafyrirtækisins"]
+	},
+	"ft": {
+		"ág": ["greiðslulausnafyrirtæki", "greiðslulausnafyrirtæki", "greiðslulausnafyrirtækjum", "greiðslulausnafyrirtækja"],
+		"mg": ["greiðslulausnafyrirtækin", "greiðslulausnafyrirtækin", "greiðslulausnafyrirtækjunum", "greiðslulausnafyrirtækjanna"]
+	},
+	"kennistrengur": "no-greiðslulausnafyrirtæki-hk",
+	"hash": "e9691e0c7ac7c40eed9d08a1d6892cfc6a02d40756a8658af359629e21dd1574"
+}

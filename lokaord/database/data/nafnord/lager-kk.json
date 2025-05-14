@@ -2,6 +2,16 @@
 	"orð": "lager",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"kennistrengur": "no-er-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lager", "lager", "lager", "lagers"],
 		"mg": ["lagerinn", "lagerinn", "lagernum", "lagersins"]
@@ -11,5 +21,5 @@
 		"mg": ["lagerarnir", "lagerana", "lagerunum", "lageranna"]
 	},
 	"kennistrengur": "no-lager-kk",
-	"hash": "679796bf5816954e330c5de60c28d2c6e0eb83bf1759beb04b8460d629fb6675"
+	"hash": "47a5ab7dc4583e361c4fda1f971afb36bef674080b341564d74d37ac4f132cc1"
 }

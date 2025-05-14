@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-lýra-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Lýra", "Lýru", "Lýru", "Lýru"]
 	},
 	"kennistrengur": "sérn.en-Lýra-kvk",
-	"hash": "026efa869cb955f6714c6202b4b4a50494fe023c9c7b651339b0e54b3ec3222a"
+	"hash": "1fc1b73fe491a8ab047a7b1d47026d63967f20b211746109b66c7167734e8442"
 }
