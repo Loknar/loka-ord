@@ -150,12 +150,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 		if word in sight['orð']:
 			scanned_word['staða'] = 'fannst'
 			for option in sight['orð'][word]:
-				scanned_word['möguleikar'].append({
-					'm': option['mynd'],
-					'k': sight['hash'][option['hash']]['d']['kennistrengur'],
-					'h': option['hash'],
-					'f': sight['hash'][option['hash']]['f']
-				})
+				scanned_word['möguleikar'].append({'k': option[0], 'm': option[1]})
 			found += 1
 			scanned_sentence.append(scanned_word)
 			continue
@@ -192,10 +187,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
 			scanned_word['staða'] = 'skammstöfun'
 			scanned_word['möguleikar'].append({
-				'm': myndir,
 				'k': sight['skammstafanir'][word]['kennistrengur'],
-				'h': sight['skammstafanir'][word]['hash'],
-				'f': sight['hash'][sight['skammstafanir'][word]['hash']]['f']
+				'm': myndir
 			})
 			found += 1
 			scanned_sentence.append(scanned_word)
@@ -206,10 +199,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			scanned_word['orð-hreinsað'] = word[:-1]
 			scanned_word['fylgir'] = word[-1]
 			scanned_word['möguleikar'].append({
-				'm': myndir,
 				'k': sight['skammstafanir'][word[:-1]]['kennistrengur'],
-				'h': sight['skammstafanir'][word[:-1]]['hash'],
-				'f': sight['hash'][sight['skammstafanir'][word[:-1]]['hash']]['f']
+				'm': myndir
 			})
 			found += 1
 			scanned_sentence.append(scanned_word)
@@ -221,10 +212,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			scanned_word_alt['orð-hreinsað'] = e_word_with_dot
 			scanned_word_alt['staða'] = 'skammstöfun'
 			scanned_word_alt['möguleikar'].append({
-				'm': myndir,
 				'k': sight['skammstafanir'][e_word_with_dot]['kennistrengur'],
-				'h': sight['skammstafanir'][e_word_with_dot]['hash'],
-				'f': sight['hash'][sight['skammstafanir'][e_word_with_dot]['hash']]['f']
+				'm': myndir
 			})
 			found += 1
 			scanned_sentence.append(scanned_word_alt)
@@ -234,10 +223,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			scanned_word['orð-hreinsað'] = e_word
 			scanned_word['staða'] = 'skammstöfun'
 			scanned_word['möguleikar'].append({
-				'm': myndir,
 				'k': sight['skammstafanir'][e_word]['kennistrengur'],
-				'h': sight['skammstafanir'][e_word]['hash'],
-				'f': sight['hash'][sight['skammstafanir'][e_word]['hash']]['f']
+				'm': myndir
 			})
 			found += 1
 			scanned_sentence.append(scanned_word)
@@ -249,10 +236,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				scanned_word['staða'] = 'mögulega'
 				for option in sight['orð'][e_word_p]:
 					scanned_word['möguleikar'].append({
-						'm': option['mynd'],
-						'k': sight['hash'][option['hash']]['d']['kennistrengur'],
-						'h': option['hash'],
-						'f': sight['hash'][option['hash']]['f']
+						'k': option[0],
+						'm': option[1]
 					})
 				maybe += 1
 				break
@@ -339,9 +324,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			for option in scanned_word['möguleikar']:
 				print(
 					(
-						'\033[34m├\033[0m \033[36m{m}\033[0m\n'
-						'\033[34m├\033[0m \033[33m{k} ({h})\033[0m\n'
-						'\033[34m└\033[0m \033[35m{f}\033[0m'
+						'\033[34m├\033[0m \033[33m{k}\033[0m\n'
+						'\033[34m└\033[0m \033[36m{m}\033[0m'
 					).format(**option)
 				)
 	if hide_matches is False:
@@ -366,9 +350,9 @@ def load_sight(filename='sight', use_pointless=None):
 	if use_pointless is None:
 		use_pointless = (platform.system() == 'Linux')
 	if use_pointless is True and platform.system() != 'Linux':
-		logman.warning('Using pointless only available on Linux.')
+		logman.warning('Using pointless only supported on Linux.')
 	if '/' in filename or '.' in filename:
-		raise Exception('Illegal filename.')
+		raise Exception('Bad filename.')
 	root_storage_dir_abs = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
 	sight_storage_dir_rel = os.path.join('database', 'disk', 'lokaord')
 	sight_filepath_rel = os.path.join(sight_storage_dir_rel, '%s.%s' % (
@@ -559,14 +543,7 @@ def build_sight(filename='sight', use_pointless=None):
 			'dir': os.path.join('sernofn', 'ornefni'),
 		}
 	]
-	sight = {
-		'orð': {},
-		'hash': {},
-		'kennistrengur': {},
-		'skammstafanir': {},
-		'ts': ts,
-		'v': version
-	}
+	sight = {'orð': {}, 'skammstafanir': {}, 'ts': ts, 'v': version}
 	for task in knowledge_tasks:
 		logman.info('Accumulating "%s" knowledge ..' % (task['name'], ))
 		for ord_file in sorted(pathlib.Path(os.path.join(task['root'], task['dir'])).iterdir()):
@@ -574,30 +551,16 @@ def build_sight(filename='sight', use_pointless=None):
 			ord_data = None
 			with ord_file.open(mode='r', encoding='utf-8') as fi:
 				ord_data = json.loads(fi.read())
-			ord_mynd = ord_data['flokkur']
-			if 'undirflokkur' in ord_data:
-				ord_mynd += '.%s' % (ord_data['undirflokkur'], )
-			if 'kyn' in ord_data:
-				ord_mynd += '.%s' % (ord_data['kyn'], )
-			if 'tölugildi' in ord_data and ord_data['tölugildi'] > 4294967295:
-				# pointless styður ekki of stórar tölur (max 0xffffffff)
-				# long too large for mere 32 bits
-				ord_data['tölugildi'] = str(ord_data['tölugildi'])
 			if (
-				ord_mynd.startswith('smáorð') or
-				ord_mynd == 'sérnafn.miłlinafn' or
+				ord_data['flokkur'] == 'smáorð' or
+				(ord_data['flokkur'] == 'sérnafn' and ord_data['undirflokkur'] == 'miłlinafn') or
 				('óbeygjanlegt' in ord_data and ord_data['óbeygjanlegt'] is True)
 			):
 				if ord_data['orð'] not in sight['orð']:
 					sight['orð'][ord_data['orð']] = []
-				sight['orð'][ord_data['orð']].append({'mynd': ord_mynd, 'hash': ord_data['hash']})
-			sight['hash'][ord_data['hash']] = {
-				'f': os.path.join(task['dir'], ord_file.name),
-				'd': copy.deepcopy(ord_data)
-			}
-			sight['kennistrengur'][ord_data['kennistrengur']] = ord_data['hash']
+				sight['orð'][ord_data['orð']].append([ord_data['kennistrengur'], ''])
 			if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
-				add_myndir(ord_data, sight, ord_mynd, ord_data['hash'])
+				add_myndir(ord_data, sight, '', ord_data['kennistrengur'])
 	logman.info('Accumulating "skammstafanir" knowledge ..')
 	for sk_file in sorted(pathlib.Path(os.path.join(task['root'], 'skammstafanir')).iterdir()):
 		logman.debug('File %s ..' % (os.path.join('skammstafanir', sk_file.name), ))
@@ -605,10 +568,6 @@ def build_sight(filename='sight', use_pointless=None):
 		with sk_file.open(mode='r', encoding='utf-8') as fi:
 			sk_data = json.loads(fi.read())
 		sight['skammstafanir'][sk_data['skammstöfun']] = sk_data
-		sight['hash'][sk_data['hash']] = {
-			'f': os.path.join('skammstafanir', sk_file.name),
-			'd': copy.deepcopy(sk_data)
-		}
 	logman.info('Writing sight to "%s" ..' % (sight_filepath_rel, ))
 	if use_pointless is True:
 		pointless.serialize(sight, sight_filepath_abs)
@@ -618,40 +577,44 @@ def build_sight(filename='sight', use_pointless=None):
 	logman.info('Sight has been written.')
 
 
-def add_myndir(ord_data, sight, curr_ord_mynd, ord_hash):
+def add_myndir(ord_data, sight, curr_ord_mynd, ord_ks):
 	ignore_keys = set([
-		'orð', 'flokkur', 'undirflokkur', 'kyn', 'hash', 'samsett', 'persóna', 'frumlag',
-		'fleiryrt', 'óbeygjanlegt', 'tölugildi', 'stýrir'
+		'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
+		'kennistrengur', 'ósjálfstætt', 'óbeygjanlegt', 'persóna', 'frumlag', 'fleiryrt', 'stýrir'
 	])
 	if ord_data is None:
 		return
-	elif isinstance(ord_data, str):
+	if isinstance(ord_data, str):
 		if ord_data not in sight['orð']:
 			sight['orð'][ord_data] = []
-		sight['orð'][ord_data].append({'mynd': curr_ord_mynd, 'hash': ord_hash})
+		sight['orð'][ord_data].append([ord_ks, curr_ord_mynd])
 	elif isinstance(ord_data, dict):
 		for key in ord_data:
 			if key in ignore_keys:
 				continue
 			if isinstance(ord_data[key], (dict, str)):
-				add_myndir(ord_data[key], sight, '%s-%s' % (curr_ord_mynd, key), ord_hash)
+				if curr_ord_mynd == '':
+					next_ord_mynd = key
+				else:
+					next_ord_mynd = '%s-%s' % (curr_ord_mynd, key)
+				add_myndir(ord_data[key], sight, next_ord_mynd, ord_ks)
 			elif isinstance(ord_data[key], list):
 				temp_ord_mynd = '%s-%s' % (curr_ord_mynd, key)
 				if len(ord_data[key]) == 4:
-					add_myndir(ord_data[key][0], sight, '%s-%s' % (temp_ord_mynd, 'nf'), ord_hash)
-					add_myndir(ord_data[key][1], sight, '%s-%s' % (temp_ord_mynd, 'þf'), ord_hash)
-					add_myndir(ord_data[key][2], sight, '%s-%s' % (temp_ord_mynd, 'þgf'), ord_hash)
-					add_myndir(ord_data[key][3], sight, '%s-%s' % (temp_ord_mynd, 'ef'), ord_hash)
+					add_myndir(ord_data[key][0], sight, '%s-%s' % (temp_ord_mynd, 'nf'), ord_ks)
+					add_myndir(ord_data[key][1], sight, '%s-%s' % (temp_ord_mynd, 'þf'), ord_ks)
+					add_myndir(ord_data[key][2], sight, '%s-%s' % (temp_ord_mynd, 'þgf'), ord_ks)
+					add_myndir(ord_data[key][3], sight, '%s-%s' % (temp_ord_mynd, 'ef'), ord_ks)
 				elif len(ord_data[key]) == 3:
-					add_myndir(ord_data[key][0], sight, '%s-%s' % (temp_ord_mynd, '1p'), ord_hash)
-					add_myndir(ord_data[key][1], sight, '%s-%s' % (temp_ord_mynd, '2p'), ord_hash)
-					add_myndir(ord_data[key][2], sight, '%s-%s' % (temp_ord_mynd, '3p'), ord_hash)
+					add_myndir(ord_data[key][0], sight, '%s-%s' % (temp_ord_mynd, '1p'), ord_ks)
+					add_myndir(ord_data[key][1], sight, '%s-%s' % (temp_ord_mynd, '2p'), ord_ks)
+					add_myndir(ord_data[key][2], sight, '%s-%s' % (temp_ord_mynd, '3p'), ord_ks)
 				else:
-					raise Exception('Peculiar list length.')
+					raise Exception('Unexpected list length.')
 			else:
-				raise Exception('Peculiar key-value type.')
+				raise Exception('Unexpected key-value type.')
 	else:
-		raise Exception('Peculiar ord_data type.')
+		raise Exception('Unexpected ord_data type.')
 
 
 def webpack(
@@ -724,8 +687,8 @@ def webpack(
 	if not include_kennistrengur:
 		remove_keys.append('kennistrengur')
 	samsett_ord_keep_keys = [
-		'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'kennistrengur',
-		'hash', 'ósjálfstætt', 'stýrir', 'fleiryrt'
+		'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
+		'kennistrengur', 'ósjálfstætt', 'óbeygjanlegt', 'persóna', 'frumlag', 'fleiryrt', 'stýrir'
 	]
 	logman.info('Packing words ..')
 	for pack in range(1, packs_count + 1):
