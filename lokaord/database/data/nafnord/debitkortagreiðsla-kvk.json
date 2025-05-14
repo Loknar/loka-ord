@@ -1,0 +1,30 @@
+{
+	"orð": "debitkortagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "debit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-debit-hk"
+		},
+		{
+			"mynd": "korta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["debitkortagreiðsla", "debitkortagreiðslu", "debitkortagreiðslu", "debitkortagreiðslu"],
+		"mg": ["debitkortagreiðslan", "debitkortagreiðsluna", "debitkortagreiðslunni", "debitkortagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["debitkortagreiðslur", "debitkortagreiðslur", "debitkortagreiðslum", "debitkortagreiðslna"],
+		"mg": ["debitkortagreiðslurnar", "debitkortagreiðslurnar", "debitkortagreiðslunum", "debitkortagreiðslnanna"]
+	},
+	"kennistrengur": "no-debitkortagreiðsla-kvk",
+	"hash": "fb48e821d0346c5d2b069f15911f674d8fc9359e8fe7fb9c7110c5916de05e16"
+}

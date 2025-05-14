@@ -1,0 +1,22 @@
+{
+	"orð": "borgarmörk",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "borgar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-borg-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mark-hk"
+		}
+	],
+	"ft": {
+		"ág": ["borgarmörk", "borgarmörk", "borgarmörkum", "borgarmarka"],
+		"mg": ["borgarmörkin", "borgarmörkin", "borgarmörkunum", "borgarmarkanna"]
+	},
+	"kennistrengur": "no-borgarmörk-hk",
+	"hash": "59c726940e8caffffeb466d2d49433d93a5a75ec21e1212083d613b7c36a19a2"
+}

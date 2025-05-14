@@ -1,0 +1,99 @@
+{
+	"orð": "nýreisa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ný",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-nýr"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-reisa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nýreisa",
+		"sagnbót": "nýreist",
+		"boðháttur": {
+			"stýfður": "nýreis",
+			"et": "nýreistu",
+			"ft": "nýreisið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nýreisi", "nýreisir", "nýreisir"],
+					"ft": ["nýreisum", "nýreisið", "nýreisa"]
+				},
+				"þátíð": {
+					"et": ["nýreisti", "nýreistir", "nýreisti"],
+					"ft": ["nýreistum", "nýreistuð", "nýreistu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nýreisi", "nýreisir", "nýreisi"],
+					"ft": ["nýreisum", "nýreisið", "nýreisi"]
+				},
+				"þátíð": {
+					"et": ["nýreisti", "nýreistir", "nýreisti"],
+					"ft": ["nýreistum", "nýreistuð", "nýreistu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nýreisirðu",
+					"ft": "nýreisiði"
+				},
+				"þátíð": {
+					"et": "nýreistirðu",
+					"ft": "nýreistuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nýreisirðu",
+					"ft": "nýreisiði"
+				},
+				"þátíð": {
+					"et": "nýreistirðu",
+					"ft": "nýreistuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nýreisandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nýreistur", "nýreistan", "nýreistum", "nýreists"],
+					"kvk": ["nýreist", "nýreista", "nýreistri", "nýreistrar"],
+					"hk": ["nýreist", "nýreist", "nýreistu", "nýreists"]
+				},
+				"ft": {
+					"kk": ["nýreistir", "nýreista", "nýreistum", "nýreistra"],
+					"kvk": ["nýreistar", "nýreistar", "nýreistum", "nýreistra"],
+					"hk": ["nýreist", "nýreist", "nýreistum", "nýreistra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nýreisti", "nýreista", "nýreista", "nýreista"],
+					"kvk": ["nýreista", "nýreistu", "nýreistu", "nýreistu"],
+					"hk": ["nýreista", "nýreista", "nýreista", "nýreista"]
+				},
+				"ft": {
+					"kk": ["nýreistu", "nýreistu", "nýreistu", "nýreistu"],
+					"kvk": ["nýreistu", "nýreistu", "nýreistu", "nýreistu"],
+					"hk": ["nýreistu", "nýreistu", "nýreistu", "nýreistu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nýreisa",
+	"hash": "0a11482ebb8d469e82b00f59546e7acd4b9bf04ba04c92c22b9f1489b97df18b"
+}

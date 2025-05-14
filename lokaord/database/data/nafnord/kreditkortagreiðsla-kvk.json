@@ -1,0 +1,30 @@
+{
+	"orð": "kreditkortagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kredit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kredit-hk"
+		},
+		{
+			"mynd": "korta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kreditkortagreiðsla", "kreditkortagreiðslu", "kreditkortagreiðslu", "kreditkortagreiðslu"],
+		"mg": ["kreditkortagreiðslan", "kreditkortagreiðsluna", "kreditkortagreiðslunni", "kreditkortagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["kreditkortagreiðslur", "kreditkortagreiðslur", "kreditkortagreiðslum", "kreditkortagreiðslna"],
+		"mg": ["kreditkortagreiðslurnar", "kreditkortagreiðslurnar", "kreditkortagreiðslunum", "kreditkortagreiðslnanna"]
+	},
+	"kennistrengur": "no-kreditkortagreiðsla-kvk",
+	"hash": "ad29b56b1202b52293dbb7fb19968e7b950d3c66e0a21760edd4416fef99f5c6"
+}

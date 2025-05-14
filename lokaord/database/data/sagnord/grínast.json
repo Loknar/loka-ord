@@ -1,0 +1,65 @@
+{
+	"orð": "grínast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grín",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grín-hk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "grínast",
+		"sagnbót": "grínast",
+		"boðháttur": {
+			"et": "grínastu",
+			"ft": "grínist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grínast", "grínast", "grínast"],
+					"ft": ["grínumst", "grínist", "grínast"]
+				},
+				"þátíð": {
+					"et": ["grínaðist", "grínaðist", "grínaðist"],
+					"ft": ["grínuðumst", "grínuðust", "grínuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grínist", "grínist", "grínist"],
+					"ft": ["grínumst", "grínist", "grínist"]
+				},
+				"þátíð": {
+					"et": ["grínaðist", "grínaðist", "grínaðist"],
+					"ft": ["grínuðumst", "grínuðust", "grínuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grínastu"
+				},
+				"þátíð": {
+					"et": "grínaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grínistu"
+				},
+				"þátíð": {
+					"et": "grínaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-grínast",
+	"hash": "29d7a282a5df88a42d5cfd81ff6a8194ce9bdb304b9a571957c64819a767edd7"
+}

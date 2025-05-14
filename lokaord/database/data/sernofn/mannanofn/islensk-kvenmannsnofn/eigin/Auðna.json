@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-auðna-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Auðna", "Auðnu", "Auðnu", "Auðnu"]
 	},
 	"kennistrengur": "sérn.en-Auðna-kvk",
-	"hash": "522169c42e4bba1e57903918c0c22d4b99dd17a199cbc49f3e1f892839c94437"
+	"hash": "1d89014d2fe6af9070fca297e37a39abc5a5942ac97b9f9c1a461a44b715e1ac"
 }

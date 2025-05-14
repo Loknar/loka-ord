@@ -1,0 +1,35 @@
+{
+	"orð": "stjórnvaldsaðgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "valds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vald-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnvaldsaðgerð", "stjórnvaldsaðgerð", "stjórnvaldsaðgerð", "stjórnvaldsaðgerðar"],
+		"mg": ["stjórnvaldsaðgerðin", "stjórnvaldsaðgerðina", "stjórnvaldsaðgerðinni", "stjórnvaldsaðgerðarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnvaldsaðgerðir", "stjórnvaldsaðgerðir", "stjórnvaldsaðgerðum", "stjórnvaldsaðgerða"],
+		"mg": ["stjórnvaldsaðgerðirnar", "stjórnvaldsaðgerðirnar", "stjórnvaldsaðgerðunum", "stjórnvaldsaðgerðanna"]
+	},
+	"kennistrengur": "no-stjórnvaldsaðgerð-kvk",
+	"hash": "f57a0c4b85c366289207a80956fddf9e1d7392946d5e36047da9e570b5d6c91a"
+}

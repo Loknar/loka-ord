@@ -1,0 +1,27 @@
+{
+	"orð": "færsluhirðing",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "færslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-færsla-kvk"
+		},
+		{
+			"mynd": "hirð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hirða"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["færsluhirðing", "færsluhirðingu", "færsluhirðingu", "færsluhirðingar"],
+		"mg": ["færsluhirðingin", "færsluhirðinguna", "færsluhirðingunni", "færsluhirðingarinnar"]
+	},
+	"kennistrengur": "no-færsluhirðing-kvk",
+	"hash": "e4bb2cc47900a1c3b2082a748c29db5f88c8b59f12a8834f57d933683b5e9568"
+}

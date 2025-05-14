@@ -1,0 +1,53 @@
+{
+	"orð": "mótorhjólagengislegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "mótor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mótor-kk"
+		},
+		{
+			"mynd": "hjóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hjól-hk"
+		},
+		{
+			"mynd": "gengis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gengi-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["mótorhjólagengislegur", "mótorhjólagengislegan", "mótorhjólagengislegum", "mótorhjólagengislegs"],
+				"kvk": ["mótorhjólagengisleg", "mótorhjólagengislega", "mótorhjólagengislegri", "mótorhjólagengislegrar"],
+				"hk": ["mótorhjólagengislegt", "mótorhjólagengislegt", "mótorhjólagengislegu", "mótorhjólagengislegs"]
+			},
+			"ft": {
+				"kk": ["mótorhjólagengislegir", "mótorhjólagengislega", "mótorhjólagengislegum", "mótorhjólagengislegra"],
+				"kvk": ["mótorhjólagengislegar", "mótorhjólagengislegar", "mótorhjólagengislegum", "mótorhjólagengislegra"],
+				"hk": ["mótorhjólagengisleg", "mótorhjólagengisleg", "mótorhjólagengislegum", "mótorhjólagengislegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["mótorhjólagengislegi", "mótorhjólagengislega", "mótorhjólagengislega", "mótorhjólagengislega"],
+				"kvk": ["mótorhjólagengislega", "mótorhjólagengislegu", "mótorhjólagengislegu", "mótorhjólagengislegu"],
+				"hk": ["mótorhjólagengislega", "mótorhjólagengislega", "mótorhjólagengislega", "mótorhjólagengislega"]
+			},
+			"ft": {
+				"kk": ["mótorhjólagengislegu", "mótorhjólagengislegu", "mótorhjólagengislegu", "mótorhjólagengislegu"],
+				"kvk": ["mótorhjólagengislegu", "mótorhjólagengislegu", "mótorhjólagengislegu", "mótorhjólagengislegu"],
+				"hk": ["mótorhjólagengislegu", "mótorhjólagengislegu", "mótorhjólagengislegu", "mótorhjólagengislegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-mótorhjólagengislegur",
+	"hash": "c19f7c31c53077cd61f9b67878a8f4e9e18158fbe5c313b9c3693a54ac9439ee"
+}
