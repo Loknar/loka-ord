@@ -1,0 +1,27 @@
+{
+	"orð": "hráefniskaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hrá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hrár"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hráefniskaup", "hráefniskaup", "hráefniskaupum", "hráefniskaupa"],
+		"mg": ["hráefniskaupin", "hráefniskaupin", "hráefniskaupunum", "hráefniskaupanna"]
+	},
+	"kennistrengur": "no-hráefniskaup-hk",
+	"hash": "b473ae938b2a71b3855d37b84b2f59ece5bb57a62d14b75a10e849e2b957ba47"
+}

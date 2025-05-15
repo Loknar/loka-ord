@@ -1,0 +1,32 @@
+{
+	"orð": "raforkuviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["raforkuviðskipti", "raforkuviðskipti", "raforkuviðskiptum", "raforkuviðskipta"],
+		"mg": ["raforkuviðskiptin", "raforkuviðskiptin", "raforkuviðskiptunum", "raforkuviðskiptanna"]
+	},
+	"kennistrengur": "no-raforkuviðskipti-hk",
+	"hash": "c692bae8d32c3bd76ca2f66873c494c2a7787e72979282a0fdb89acaf3a4da43"
+}

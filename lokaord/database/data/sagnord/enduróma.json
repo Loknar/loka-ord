@@ -55,7 +55,7 @@
 			"viðtengingarháttur": {
 				"nútíð": {
 					"et": "endurómirðu",
-					"ft": "endurómaðirðu"
+					"ft": "endurómiði"
 				},
 				"þátíð": {
 					"et": "endurómaðirðu",
@@ -65,8 +65,22 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "endurómandi"
+		"nútíðar": "endurómandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurómaður", "endurómaðan", "endurómuðum", "endurómaðs"],
+					"kvk": ["endurómuð", "endurómaða", "endurómaðri", "endurómaðrar"],
+					"hk": ["endurómað", "endurómað", "endurómuðu", "endurómaðs"]
+				},
+				"ft": {
+					"kk": ["endurómaðir", "endurómaða", "endurómuðum", "endurómaðra"],
+					"kvk": ["endurómaðar", "endurómaðar", "endurómuðum", "endurómaðra"],
+					"hk": ["endurómuð", "endurómuð", "endurómuðum", "endurómaðra"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-enduróma",
-	"hash": "fd408326c7d5c5b24076d4518312d8c74e7fae2b913a84e837da8b3e7d7e514e"
+	"hash": "4c867b2fd47977c3eddd8d1b93f6952bcf319a09c23412c73a2cdd312b75e3e9"
 }

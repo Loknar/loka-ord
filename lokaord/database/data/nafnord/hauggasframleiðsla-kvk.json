@@ -1,0 +1,32 @@
+{
+	"orð": "hauggasframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "haug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-haugur-kk"
+		},
+		{
+			"mynd": "gas",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gas-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hauggasframleiðsla", "hauggasframleiðslu", "hauggasframleiðslu", "hauggasframleiðslu"],
+		"mg": ["hauggasframleiðslan", "hauggasframleiðsluna", "hauggasframleiðslunni", "hauggasframleiðslunnar"]
+	},
+	"kennistrengur": "no-hauggasframleiðsla-kvk",
+	"hash": "818b9d15749c8dbf1507bad0f0ddea4872b8af61ce46a897fb1972a916193898"
+}
