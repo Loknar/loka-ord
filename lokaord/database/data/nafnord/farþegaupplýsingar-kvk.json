@@ -1,0 +1,32 @@
+{
+	"orð": "farþegaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "far",
+			"samsetning": "stofn",
+			"kennistrengur": "no-far-hk"
+		},
+		{
+			"mynd": "þega",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þegi-kk-ó"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["farþegaupplýsingar", "farþegaupplýsingar", "farþegaupplýsingum", "farþegaupplýsinga"],
+		"mg": ["farþegaupplýsingarnar", "farþegaupplýsingarnar", "farþegaupplýsingunum", "farþegaupplýsinganna"]
+	},
+	"kennistrengur": "no-farþegaupplýsingar-kvk",
+	"hash": "df288327f12448e6ae954ae2e51df2fba9154fb0d5de9aafc3f7ad85a7f136a4"
+}

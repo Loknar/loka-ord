@@ -1,0 +1,87 @@
+{
+	"orð": "verðmeta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-meta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verðmeta",
+		"sagnbót": "verðmetið",
+		"boðháttur": {
+			"stýfður": "verðmet",
+			"et": "verðmettu",
+			"ft": "verðmetið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðmet", "verðmetur", "verðmetur"],
+					"ft": ["verðmetum", "verðmetið", "verðmeta"]
+				},
+				"þátíð": {
+					"et": ["verðmat", "verðmast", "verðmat"],
+					"ft": ["verðmátum", "verðmátuð", "verðmátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðmeti", "verðmetir", "verðmeti"],
+					"ft": ["verðmetum", "verðmetið", "verðmeti"]
+				},
+				"þátíð": {
+					"et": ["verðmæti", "verðmætir", "verðmæti"],
+					"ft": ["verðmætum", "verðmætuð", "verðmætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðmeturðu",
+					"ft": "verðmetiði"
+				},
+				"þátíð": {
+					"et": "verðmastu",
+					"ft": "verðmátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðmetirðu",
+					"ft": "verðmetiði"
+				},
+				"þátíð": {
+					"et": "verðmætirðu",
+					"ft": "verðmætuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðmetandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verðmetinn", "verðmetinn", "verðmetnum", "verðmetins"],
+					"kvk": ["verðmetin", "verðmetna", "verðmetinni", "verðmetinnar"],
+					"hk": ["verðmetið", "verðmetið", "verðmetnu", "verðmetins"]
+				},
+				"ft": {
+					"kk": ["verðmetnir", "verðmetna", "verðmetnum", "verðmetinna"],
+					"kvk": ["verðmetnar", "verðmetnar", "verðmetnum", "verðmetinna"],
+					"hk": ["verðmetin", "verðmetin", "verðmetnum", "verðmetinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verðmeta",
+	"hash": "b7e994410460e1462b76c5468c2532ef472188e1006e41c51398167fd733f369"
+}

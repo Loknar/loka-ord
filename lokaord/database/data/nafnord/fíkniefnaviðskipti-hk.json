@@ -1,0 +1,32 @@
+{
+	"orð": "fíkniefnaviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fíkni",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-fíkn-kvk"
+		},
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fíkniefnaviðskipti", "fíkniefnaviðskipti", "fíkniefnaviðskiptum", "fíkniefnaviðskipta"],
+		"mg": ["fíkniefnaviðskiptin", "fíkniefnaviðskiptin", "fíkniefnaviðskiptunum", "fíkniefnaviðskiptanna"]
+	},
+	"kennistrengur": "no-fíkniefnaviðskipti-hk",
+	"hash": "ac7487d105f8d95b35d8d173b7a3ab10f5306a21e9dd0f91f96683a475f52012"
+}
