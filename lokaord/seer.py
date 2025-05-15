@@ -39,15 +39,9 @@ def search_word(word):
 		for option in sight['orð'][word]:
 			print(
 				(
-					'\033[34m├\033[0m \033[36m{m}\033[0m\n'
-					'\033[34m├\033[0m \033[33m{k} ({h})\033[0m\n'
-					'\033[34m└\033[0m \033[35m{f}\033[0m'
-				).format(
-					m=option['mynd'],
-					k=sight['hash'][option['hash']]['d']['kennistrengur'],
-					h=option['hash'],
-					f=sight['hash'][option['hash']]['f']
-				)
+					'\033[34m├\033[0m \033[33m{k}\033[0m\n'
+					'\033[34m└\033[0m \033[36m{m}\033[0m'
+				).format(k=option[0], m=option[1])
 			)
 	else:
 		print('fannst ekki')
@@ -556,9 +550,10 @@ def build_sight(filename='sight', use_pointless=None):
 				(ord_data['flokkur'] == 'sérnafn' and ord_data['undirflokkur'] == 'miłlinafn') or
 				('óbeygjanlegt' in ord_data and ord_data['óbeygjanlegt'] is True)
 			):
-				if ord_data['orð'] not in sight['orð']:
-					sight['orð'][ord_data['orð']] = []
-				sight['orð'][ord_data['orð']].append([ord_data['kennistrengur'], ''])
+				if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
+					if ord_data['orð'] not in sight['orð']:
+						sight['orð'][ord_data['orð']] = []
+					sight['orð'][ord_data['orð']].append([ord_data['kennistrengur'], ''])
 			if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
 				add_myndir(ord_data, sight, '', ord_data['kennistrengur'])
 	logman.info('Accumulating "skammstafanir" knowledge ..')
