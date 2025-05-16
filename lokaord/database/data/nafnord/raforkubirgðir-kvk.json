@@ -1,0 +1,27 @@
+{
+	"orð": "raforkubirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["raforkubirgðir", "raforkubirgðir", "raforkubirgðum", "raforkubirgða"],
+		"mg": ["raforkubirgðirnar", "raforkubirgðirnar", "raforkubirgðunum", "raforkubirgðanna"]
+	},
+	"kennistrengur": "no-raforkubirgðir-kvk",
+	"hash": "9b35a9f162b95e3aa714dfede541ab3138c863126014755bb6525f27b403826a"
+}

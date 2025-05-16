@@ -1,0 +1,32 @@
+{
+	"orð": "raforkuframboð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-boð-hk"
+		}
+	],
+	"et": {
+		"ág": ["raforkuframboð", "raforkuframboð", "raforkuframboði", "raforkuframboðs"],
+		"mg": ["raforkuframboðið", "raforkuframboðið", "raforkuframboðinu", "raforkuframboðsins"]
+	},
+	"kennistrengur": "no-raforkuframboð-hk",
+	"hash": "4258ab9b54d0fb965c4783986fb04965cd2622b130ebffe746f317d3d90449b6"
+}

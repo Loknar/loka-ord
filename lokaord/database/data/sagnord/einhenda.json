@@ -1,0 +1,140 @@
+{
+	"orð": "einhenda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-henda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "einhenda",
+		"sagnbót": "einhent",
+		"boðháttur": {
+			"stýfður": "einhend",
+			"et": "einhentu",
+			"ft": "einhendið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einhendi", "einhendir", "einhendir"],
+					"ft": ["einhendum", "einhendið", "einhenda"]
+				},
+				"þátíð": {
+					"et": ["einhenti", "einhentir", "einhenti"],
+					"ft": ["einhentum", "einhentuð", "einhentu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einhendi", "einhendir", "einhendi"],
+					"ft": ["einhendum", "einhendið", "einhendi"]
+				},
+				"þátíð": {
+					"et": ["einhenti", "einhentir", "einhenti"],
+					"ft": ["einhentum", "einhentuð", "einhentu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einhendirðu",
+					"ft": "einhendiði"
+				},
+				"þátíð": {
+					"et": "einhentirðu",
+					"ft": "einhentuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einhendirðu",
+					"ft": "einhendiði"
+				},
+				"þátíð": {
+					"et": "einhentirðu",
+					"ft": "einhentuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "einhendast",
+		"sagnbót": "einhenst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einhendist", "einhendist", "einhendist"],
+					"ft": ["einhendumst", "einhendist", "einhendast"]
+				},
+				"þátíð": {
+					"et": ["einhentist", "einhentist", "einhentist"],
+					"ft": ["einhentumst", "einhentust", "einhentust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einhendist", "einhendist", "einhendist"],
+					"ft": ["einhendumst", "einhendist", "einhendist"]
+				},
+				"þátíð": {
+					"et": ["einhentist", "einhentist", "einhentist"],
+					"ft": ["einhentumst", "einhentust", "einhentust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einhendist", "einhendist", "einhendist"],
+					"ft": ["einhendist", "einhendist", "einhendist"]
+				},
+				"þátíð": {
+					"et": ["einhentist", "einhentist", "einhentist"],
+					"ft": ["einhentist", "einhentist", "einhentist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einhendist", "einhendist", "einhendist"],
+					"ft": ["einhendist", "einhendist", "einhendist"]
+				},
+				"þátíð": {
+					"et": ["einhentist", "einhentist", "einhentist"],
+					"ft": ["einhentist", "einhentist", "einhentist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einhendistu"
+				},
+				"þátíð": {
+					"et": "einhentistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einhendistu"
+				},
+				"þátíð": {
+					"et": "einhentistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "einhendandi"
+	},
+	"kennistrengur": "so-einhenda",
+	"hash": "a8db727a64cc761005e9fa4b4d37fd1140a1451489a363652f2f2cabab1ac226"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "kolaorkuframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kola",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kolaorkuframleiðsla", "kolaorkuframleiðslu", "kolaorkuframleiðslu", "kolaorkuframleiðslu"],
+		"mg": ["kolaorkuframleiðslan", "kolaorkuframleiðsluna", "kolaorkuframleiðslunni", "kolaorkuframleiðslunnar"]
+	},
+	"kennistrengur": "no-kolaorkuframleiðsla-kvk",
+	"hash": "f5dcd938133202f49538061173836ff8ff672bd8b69a4c7598b0ed8327288938"
+}

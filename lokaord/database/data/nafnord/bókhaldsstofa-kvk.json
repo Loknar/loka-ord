@@ -1,0 +1,30 @@
+{
+	"orð": "bókhaldsstofa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"kennistrengur": "no-stofa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókhaldsstofa", "bókhaldsstofu", "bókhaldsstofu", "bókhaldsstofu"],
+		"mg": ["bókhaldsstofan", "bókhaldsstofuna", "bókhaldsstofunni", "bókhaldsstofunnar"]
+	},
+	"ft": {
+		"ág": ["bókhaldsstofur", "bókhaldsstofur", "bókhaldsstofum", "bókhaldsstofa"],
+		"mg": ["bókhaldsstofurnar", "bókhaldsstofurnar", "bókhaldsstofunum", "bókhaldsstofanna"]
+	},
+	"kennistrengur": "no-bókhaldsstofa-kvk",
+	"hash": "c21726bb24e4a53a69d450c755e6a59ecf4b254a93efcc0b9eeabd07e789b46c"
+}

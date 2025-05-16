@@ -1,0 +1,32 @@
+{
+	"orð": "heildarraforkubirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarraforkubirgðir", "heildarraforkubirgðir", "heildarraforkubirgðum", "heildarraforkubirgða"],
+		"mg": ["heildarraforkubirgðirnar", "heildarraforkubirgðirnar", "heildarraforkubirgðunum", "heildarraforkubirgðanna"]
+	},
+	"kennistrengur": "no-heildarraforkubirgðir-kvk",
+	"hash": "d3faf77b51f108adfa601e3756469b44d17378016749f415a06fdedd825c71b3"
+}
