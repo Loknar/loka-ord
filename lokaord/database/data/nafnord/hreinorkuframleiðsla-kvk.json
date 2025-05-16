@@ -1,0 +1,32 @@
+{
+	"orð": "hreinorkuframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hrein",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hreinn"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hreinorkuframleiðsla", "hreinorkuframleiðslu", "hreinorkuframleiðslu", "hreinorkuframleiðslu"],
+		"mg": ["hreinorkuframleiðslan", "hreinorkuframleiðsluna", "hreinorkuframleiðslunni", "hreinorkuframleiðslunnar"]
+	},
+	"kennistrengur": "no-hreinorkuframleiðsla-kvk",
+	"hash": "abe94a3535785eaf61d57e33b67ac20ed59cf2f73848a86e0c2fc174820b2485"
+}

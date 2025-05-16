@@ -1,0 +1,27 @@
+{
+	"orð": "heildarrafmagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarrafmagn", "heildarrafmagn", "heildarrafmagni", "heildarrafmagns"],
+		"mg": ["heildarrafmagnið", "heildarrafmagnið", "heildarrafmagninu", "heildarrafmagnsins"]
+	},
+	"kennistrengur": "no-heildarrafmagn-hk",
+	"hash": "f26895abb14da3b5a2deaec53925c5a2163faf909aef5d0647a99e5ea5176dbd"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "sólarorkuframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sólar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sól-kvk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sólarorkuframleiðsla", "sólarorkuframleiðslu", "sólarorkuframleiðslu", "sólarorkuframleiðslu"],
+		"mg": ["sólarorkuframleiðslan", "sólarorkuframleiðsluna", "sólarorkuframleiðslunni", "sólarorkuframleiðslunnar"]
+	},
+	"kennistrengur": "no-sólarorkuframleiðsla-kvk",
+	"hash": "9b8bf25a0dcba19eedcf13652085365bba6c0011bbfa4ca2e048be0e8d8f1488"
+}

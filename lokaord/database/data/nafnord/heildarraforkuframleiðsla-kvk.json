@@ -1,0 +1,40 @@
+{
+	"orð": "heildarraforkuframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarraforkuframleiðsla", "heildarraforkuframleiðslu", "heildarraforkuframleiðslu", "heildarraforkuframleiðslu"],
+		"mg": ["heildarraforkuframleiðslan", "heildarraforkuframleiðsluna", "heildarraforkuframleiðslunni", "heildarraforkuframleiðslunnar"]
+	},
+	"ft": {
+		"ág": ["heildarraforkuframleiðslur", "heildarraforkuframleiðslur", "heildarraforkuframleiðslum", "heildarraforkuframleiðslna"],
+		"mg": ["heildarraforkuframleiðslurnar", "heildarraforkuframleiðslurnar", "heildarraforkuframleiðslunum", "heildarraforkuframleiðslnanna"]
+	},
+	"kennistrengur": "no-heildarraforkuframleiðsla-kvk",
+	"hash": "a59ad52651a8e94ac9bea0aca765a160a30731a9b72ca98aa96dc14f12f590de"
+}

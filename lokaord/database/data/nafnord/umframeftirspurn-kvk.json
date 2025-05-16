@@ -1,0 +1,32 @@
+{
+	"orð": "umframeftirspurn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-spurn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["umframeftirspurn", "umframeftirspurn", "umframeftirspurn", "umframeftirspurnar"],
+		"mg": ["umframeftirspurnin", "umframeftirspurnina", "umframeftirspurninni", "umframeftirspurnarinnar"]
+	},
+	"kennistrengur": "no-umframeftirspurn-kvk",
+	"hash": "34fcd46eee525df60e2ba84faee68cac70421195b59c6aa8f991dc2f7f65971e"
+}

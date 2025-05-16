@@ -1,0 +1,27 @@
+{
+	"orð": "staðreyndaþekking",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "reynda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reynd-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þekking-kvk"
+		}
+	],
+	"et": {
+		"ág": ["staðreyndaþekking", "staðreyndaþekkingu", "staðreyndaþekkingu", "staðreyndaþekkingar"],
+		"mg": ["staðreyndaþekkingin", "staðreyndaþekkinguna", "staðreyndaþekkingunni", "staðreyndaþekkingarinnar"]
+	},
+	"kennistrengur": "no-staðreyndaþekking-kvk",
+	"hash": "cfe62b4c700919e6eb6c3a5d67e32def44a0958c27848d1a481b0b3925e074f4"
+}
