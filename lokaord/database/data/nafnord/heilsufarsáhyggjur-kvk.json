@@ -1,0 +1,27 @@
+{
+	"orð": "heilsufarsáhyggjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heilsu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heilsa-kvk"
+		},
+		{
+			"mynd": "fars",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-far-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-áhyggja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heilsufarsáhyggjur", "heilsufarsáhyggjur", "heilsufarsáhyggjum", "heilsufarsáhyggja"],
+		"mg": ["heilsufarsáhyggjurnar", "heilsufarsáhyggjurnar", "heilsufarsáhyggjunum", "heilsufarsáhyggjanna"]
+	},
+	"kennistrengur": "no-heilsufarsáhyggjur-kvk",
+	"hash": "5fc2dd0ea2bd79c0b3530c4c80c8c31e498e04bddf0919bd54f5d856d3efb97d"
+}
