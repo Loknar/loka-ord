@@ -1,0 +1,87 @@
+{
+	"orð": "hrútskýra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrút",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hrútur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skýra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hrútskýra",
+		"sagnbót": "hrútskýrt",
+		"boðháttur": {
+			"stýfður": "hrútskýr",
+			"et": "hrútskýrðu",
+			"ft": "hrútskýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrútskýri", "hrútskýrir", "hrútskýrir"],
+					"ft": ["hrútskýrum", "hrútskýrið", "hrútskýra"]
+				},
+				"þátíð": {
+					"et": ["hrútskýrði", "hrútskýrðir", "hrútskýrði"],
+					"ft": ["hrútskýrðum", "hrútskýrðuð", "hrútskýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrútskýri", "hrútskýrir", "hrútskýri"],
+					"ft": ["hrútskýrum", "hrútskýrið", "hrútskýri"]
+				},
+				"þátíð": {
+					"et": ["hrútskýrði", "hrútskýrðir", "hrútskýrði"],
+					"ft": ["hrútskýrðum", "hrútskýrðuð", "hrútskýrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hrútskýrirðu",
+					"ft": "hrútskýriði"
+				},
+				"þátíð": {
+					"et": "hrútskýrðirðu",
+					"ft": "hrútskýrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hrútskýrirðu",
+					"ft": "hrútskýriði"
+				},
+				"þátíð": {
+					"et": "hrútskýrðirðu",
+					"ft": "hrútskýrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hrútskýrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hrútskýrður", "hrútskýrðan", "hrútskýrðum", "hrútskýrðs"],
+					"kvk": ["hrútskýrð", "hrútskýrða", "hrútskýrðri", "hrútskýrðar"],
+					"hk": ["hrútskýrt", "hrútskýrt", "hrútskýrðu", "hrútskýrs"]
+				},
+				"ft": {
+					"kk": ["hrútskýrðir", "hrútskýrða", "hrútskýrðum", "hrútskýrðra"],
+					"kvk": ["hrútskýrðar", "hrútskýrðar", "hrútskýrðum", "hrútskýrðra"],
+					"hk": ["hrútskýrð", "hrútskýrð", "hrútskýrðum", "hrútskýrðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hrútskýra",
+	"hash": "46d164a8e26223fa5d768ac44456a4ac44ec30b9cd91b33bbc7061114ec3559e"
+}

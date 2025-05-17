@@ -2,10 +2,21 @@
 	"orð": "fræði",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fræð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-fræða"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["fræði", "fræði", "fræðum", "fræða"],
 		"mg": ["fræðin", "fræðin", "fræðunum", "fræðanna"]
 	},
 	"kennistrengur": "no-fræði-hk",
-	"hash": "63f72188c6821be0011ac3ecbcd7d51c05e4f6a9d6ceb7c016afcdd1f2342de8"
+	"hash": "1716791316ecc9e3c38f9e223174b926d0ead86790701d906b9056d6203a13c9"
 }

@@ -2,10 +2,21 @@
 	"orð": "fræði",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fræð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-fræða"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["fræði", "fræði", "fræði", "fræði"],
 		"mg": ["fræðin", "fræðina", "fræðinni", "fræðinnar"]
 	},
 	"kennistrengur": "no-fræði-kvk",
-	"hash": "eb8753defa4013c10436d9a69f0816c7eec9af1adb62f02af651bfe0b55895c8"
+	"hash": "0398cf9d39550569d3c26c47ae26bceb882cf9bee2447ed661496519cce01acb"
 }
