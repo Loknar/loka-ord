@@ -1,0 +1,76 @@
+{
+	"orð": "gjóta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gjóta",
+		"sagnbót": "gotið",
+		"boðháttur": {
+			"stýfður": "gjót",
+			"et": "gjóttu",
+			"ft": "gjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gýt", "gýtur", "gýtur"],
+					"ft": ["gjótum", "gjótið", "gjóta"]
+				},
+				"þátíð": {
+					"et": ["gaut", "gaust", "gaut"],
+					"ft": ["gutum", "gutuð", "gutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjóti", "gjótir", "gjóti"],
+					"ft": ["gjótum", "gjótið", "gjóti"]
+				},
+				"þátíð": {
+					"et": ["gyti", "gytir", "gyti"],
+					"ft": ["gytum", "gytuð", "gytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gýturðu",
+					"ft": "gjótiði"
+				},
+				"þátíð": {
+					"et": "gaustu",
+					"ft": "gutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjótirðu",
+					"ft": "gjótiði"
+				},
+				"þátíð": {
+					"et": "gytirðu",
+					"ft": "gytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gotinn", "gotinn", "gotnum", "gotins"],
+					"kvk": ["gotin", "gotna", "gotinni", "gotinnar"],
+					"hk": ["gotið", "gotið", "gotnu", "gotins"]
+				},
+				"ft": {
+					"kk": ["gotnir", "gotna", "gotnum", "gotinna"],
+					"kvk": ["gotnar", "gotnar", "gotnum", "gotinna"],
+					"hk": ["gotin", "gotin", "gotnum", "gotinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjóta",
+	"hash": "59fc6aaed2052d122004d1b6649ae1d4b78adce284d809c5ff2b0f4949834040"
+}

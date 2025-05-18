@@ -1,0 +1,131 @@
+{
+	"orð": "handsala",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sala-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handsala",
+		"sagnbót": "handsalað",
+		"boðháttur": {
+			"stýfður": "handsala",
+			"et": "handsalaðu",
+			"ft": "handsalið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handsala", "handsalar", "handsalar"],
+					"ft": ["handsölum", "handsalið", "handsala"]
+				},
+				"þátíð": {
+					"et": ["handsalaði", "handsalaðir", "handsalaði"],
+					"ft": ["handsöluðum", "handsöluðuð", "handsöluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handsali", "handsalir", "handsali"],
+					"ft": ["handsölum", "handsalið", "handsali"]
+				},
+				"þátíð": {
+					"et": ["handsalaði", "handsalaðir", "handsalaði"],
+					"ft": ["handsöluðum", "handsöluðuð", "handsöluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handsalarðu",
+					"ft": "handsaliði"
+				},
+				"þátíð": {
+					"et": "handsalaðirðu",
+					"ft": "handsöluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handsalirðu",
+					"ft": "handsaliði"
+				},
+				"þátíð": {
+					"et": "handsalaðirðu",
+					"ft": "handsöluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "handsalast",
+		"sagnbót": "handsalast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handsalast", "handsalast", "handsalast"],
+					"ft": ["handsölumst", "handsalist", "handsalast"]
+				},
+				"þátíð": {
+					"et": ["handsalaðist", "handsalaðist", "handsalaðist"],
+					"ft": ["handsöluðumst", "handsöluðust", "handsöluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handsalist", "handsalist", "handsalist"],
+					"ft": ["handsölumst", "handsalist", "handsalist"]
+				},
+				"þátíð": {
+					"et": ["handsalaðist", "handsalaðist", "handsalaðist"],
+					"ft": ["handsöluðumst", "handsöluðust", "handsöluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handsalastu"
+				},
+				"þátíð": {
+					"et": "handsalaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handsalistu"
+				},
+				"þátíð": {
+					"et": "handsalaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handsalandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handsalaður", "handsalaðan", "handsöluðum", "handsalaðs"],
+					"kvk": ["handsöluð", "handsalaða", "handsalaðri", "handsalaðrar"],
+					"hk": ["handsalað", "handsalað", "handsöluðu", "handsalaðs"]
+				},
+				"ft": {
+					"kk": ["handsalaðir", "handsalaða", "handsöluðum", "handsalaðra"],
+					"kvk": ["handsalaðar", "handsalaðar", "handsöluðum", "handsalaðra"],
+					"hk": ["handsöluð", "handsöluð", "handsöluðum", "handsalaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handsala",
+	"hash": "78629b82cb20153a8c560995fd1351ab680bab89272cd10bc72daa4c72992c98"
+}

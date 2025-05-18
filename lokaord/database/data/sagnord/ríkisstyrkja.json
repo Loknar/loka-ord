@@ -1,0 +1,99 @@
+{
+	"orð": "ríkisstyrkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-styrkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ríkisstyrkja",
+		"sagnbót": "ríkisstyrkt",
+		"boðháttur": {
+			"stýfður": "ríkisstyrk",
+			"et": "ríkisstyrktu",
+			"ft": "ríkisstyrkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ríkisstyrki", "ríkisstyrkir", "ríkisstyrkir"],
+					"ft": ["ríkisstyrkjum", "ríkisstyrkið", "ríkisstyrkja"]
+				},
+				"þátíð": {
+					"et": ["ríkisstyrkti", "ríkisstyrktir", "ríkisstyrkti"],
+					"ft": ["ríkisstyrktum", "ríkisstyrktuð", "ríkisstyrktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ríkisstyrki", "ríkisstyrkir", "ríkisstyrki"],
+					"ft": ["ríkisstyrkjum", "ríkisstyrkið", "ríkisstyrki"]
+				},
+				"þátíð": {
+					"et": ["ríkisstyrkti", "ríkisstyrktir", "ríkisstyrkti"],
+					"ft": ["ríkisstyrktum", "ríkisstyrktuð", "ríkisstyrktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ríkisstyrkjarðu",
+					"ft": "ríkisstyrkjiði"
+				},
+				"þátíð": {
+					"et": "ríkisstyrktirðu",
+					"ft": "ríkisstyrktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ríkisstyrkjirðu",
+					"ft": "ríkisstyrkjiði"
+				},
+				"þátíð": {
+					"et": "ríkisstyrktirðu",
+					"ft": "ríkisstyrktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ríkisstyrkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ríkisstyrktur", "ríkisstyrktan", "ríkisstyrktum", "ríkisstyrkts"],
+					"kvk": ["ríkisstyrkt", "ríkisstyrkta", "ríkisstyrktri", "ríkisstyrktrar"],
+					"hk": ["ríkisstyrkt", "ríkisstyrkt", "ríkisstyrktu", "ríkisstyrkts"]
+				},
+				"ft": {
+					"kk": ["ríkisstyrktir", "ríkisstyrkta", "ríkisstyrktum", "ríkisstyrktra"],
+					"kvk": ["ríkisstyrktar", "ríkisstyrktar", "ríkisstyrktum", "ríkisstyrktra"],
+					"hk": ["ríkisstyrkt", "ríkisstyrkt", "ríkisstyrktum", "ríkisstyrktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ríkisstyrkti", "ríkisstyrkta", "ríkisstyrkta", "ríkisstyrkta"],
+					"kvk": ["ríkisstyrkta", "ríkisstyrktu", "ríkisstyrktu", "ríkisstyrktu"],
+					"hk": ["ríkisstyrkta", "ríkisstyrkta", "ríkisstyrkta", "ríkisstyrkta"]
+				},
+				"ft": {
+					"kk": ["ríkisstyrktu", "ríkisstyrktu", "ríkisstyrktu", "ríkisstyrktu"],
+					"kvk": ["ríkisstyrktu", "ríkisstyrktu", "ríkisstyrktu", "ríkisstyrktu"],
+					"hk": ["ríkisstyrktu", "ríkisstyrktu", "ríkisstyrktu", "ríkisstyrktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ríkisstyrkja",
+	"hash": "38ddb4923c49f7aee076e7ea12906e2344dc158f0a182119c502fd519aa8b2fe"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "endurgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurgera",
+		"sagnbót": "endurgert",
+		"boðháttur": {
+			"stýfður": "endurger",
+			"et": "endurgerðu",
+			"ft": "endurgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurgeri", "endurgerir", "endurgerir"],
+					"ft": ["endurgerum", "endurgerið", "endurgera"]
+				},
+				"þátíð": {
+					"et": ["endurgerði", "endurgerðir", "endurgerði"],
+					"ft": ["endurgerðum", "endurgerðuð", "endurgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurgeri", "endurgerir", "endurgeri"],
+					"ft": ["endurgerum", "endurgerið", "endurgeri"]
+				},
+				"þátíð": {
+					"et": ["endurgerði", "endurgerðir", "endurgerði"],
+					"ft": ["endurgerðum", "endurgerðuð", "endurgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurgerirðu",
+					"ft": "endurgeriði"
+				},
+				"þátíð": {
+					"et": "endurgerðirðu",
+					"ft": "endurgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurgerirðu",
+					"ft": "endurgeriði"
+				},
+				"þátíð": {
+					"et": "endurgerðirðu",
+					"ft": "endurgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurgerður", "endurgerðan", "endurgerðum", "endurgerðs"],
+					"kvk": ["endurgerð", "endurgerða", "endurgerðri", "endurgerðrar"],
+					"hk": ["endurgert", "endurgert", "endurgerðu", "endurgerðs"]
+				},
+				"ft": {
+					"kk": ["endurgerðir", "endurgerða", "endurgerðum", "endurgerðra"],
+					"kvk": ["endurgerðar", "endurgerðar", "endurgerðum", "endurgerðra"],
+					"hk": ["endurgerð", "endurgerð", "endurgerðum", "endurgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["endurgerði", "endurgerða", "endurgerða", "endurgerða"],
+					"kvk": ["endurgerða", "endurgerðu", "endurgerðu", "endurgerðu"],
+					"hk": ["endurgerða", "endurgerða", "endurgerða", "endurgerða"]
+				},
+				"ft": {
+					"kk": ["endurgerðu", "endurgerðu", "endurgerðu", "endurgerðu"],
+					"kvk": ["endurgerðu", "endurgerðu", "endurgerðu", "endurgerðu"],
+					"hk": ["endurgerðu", "endurgerðu", "endurgerðu", "endurgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurgera",
+	"hash": "8fdac57091688f9ac8c92295856eab6213a805f7d931fdf7ac0d77fceaf410a7"
+}

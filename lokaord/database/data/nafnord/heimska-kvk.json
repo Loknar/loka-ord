@@ -2,10 +2,21 @@
 	"orð": "heimska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heimsk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heimskur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["heimska", "heimsku", "heimsku", "heimsku"],
 		"mg": ["heimskan", "heimskuna", "heimskunni", "heimskunnar"]
 	},
 	"kennistrengur": "no-heimska-kvk",
-	"hash": "1366b41f3efb642ca5560152769022c4645902507a2b2ca8b0ec79a57b5f3db0"
+	"hash": "a6c9855e895ac0c7fdd6d4fe0bd5696431c22d0b27c6efd58f61d365560f7aac"
 }
