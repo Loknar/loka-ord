@@ -1,0 +1,99 @@
+{
+	"orð": "bólgna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bólgn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-bólga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bólgna",
+		"sagnbót": "bólgnað",
+		"boðháttur": {
+			"stýfður": "bólgna",
+			"et": "bólgnaðu",
+			"ft": "bólgnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bólgna", "bólgnar", "bólgnar"],
+					"ft": ["bólgnum", "bólgnið", "bólgna"]
+				},
+				"þátíð": {
+					"et": ["bólgnaði", "bólgnaðir", "bólgnaði"],
+					"ft": ["bólgnuðum", "bólgnuðuð", "bólgnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bólgni", "bólgnir", "bólgni"],
+					"ft": ["bólgnum", "bólgnið", "bólgni"]
+				},
+				"þátíð": {
+					"et": ["bólgnaði", "bólgnaðir", "bólgnaði"],
+					"ft": ["bólgnuðum", "bólgnuðuð", "bólgnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bólgnarðu",
+					"ft": "bólgniði"
+				},
+				"þátíð": {
+					"et": "bólgnaðirðu",
+					"ft": "bólgnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bólgnirðu",
+					"ft": "bólgniði"
+				},
+				"þátíð": {
+					"et": "bólgnaðirðu",
+					"ft": "bólgnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bólgnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bólgnaður", "bólgnaðan", "bólgnuðum", "bólgnaðs"],
+					"kvk": ["bólgnuð", "bólgnaða", "bólgnaðri", "bólgnaðrar"],
+					"hk": ["bólgnað", "bólgnað", "bólgnuðu", "bólgnaðs"]
+				},
+				"ft": {
+					"kk": ["bólgnaðir", "bólgnaða", "bólgnuðum", "bólgnaðra"],
+					"kvk": ["bólgnaðar", "bólgnaðar", "bólgnuðum", "bólgnaðra"],
+					"hk": ["bólgnuð", "bólgnuð", "bólgnuðum", "bólgnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["bólgnaði", "bólgnaða", "bólgnaða", "bólgnaða"],
+					"kvk": ["bólgnaða", "bólgnuðu", "bólgnuðu", "bólgnuðu"],
+					"hk": ["bólgnaða", "bólgnaða", "bólgnaða", "bólgnaða"]
+				},
+				"ft": {
+					"kk": ["bólgnuðu", "bólgnuðu", "bólgnuðu", "bólgnuðu"],
+					"kvk": ["bólgnuðu", "bólgnuðu", "bólgnuðu", "bólgnuðu"],
+					"hk": ["bólgnuðu", "bólgnuðu", "bólgnuðu", "bólgnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bólgna",
+	"hash": "4577cac3caae07d9d3c4e10eb5227bc53237854cce4fcce2ad5bdedd339c1e9d"
+}

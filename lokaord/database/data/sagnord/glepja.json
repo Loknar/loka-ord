@@ -1,0 +1,132 @@
+{
+	"orð": "glepja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "glepja",
+		"sagnbót": "glapið",
+		"boðháttur": {
+			"stýfður": "glep",
+			"et": "gleptu",
+			"ft": "glepið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glep", "glepur", "glepur"],
+					"ft": ["glepjum", "glepið", "glepja"]
+				},
+				"þátíð": {
+					"et": ["glapti", "glaptir", "glapti"],
+					"ft": ["glöptum", "glöptuð", "glöptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glepi", "glepir", "glepi"],
+					"ft": ["glepjum", "glepið", "glepi"]
+				},
+				"þátíð": {
+					"et": ["glepti", "gleptir", "glepti"],
+					"ft": ["gleptum", "gleptuð", "gleptu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "glepurðu",
+					"ft": "glepiði"
+				},
+				"þátíð": {
+					"et": "glaptirðu",
+					"ft": "glöptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "glepirðu",
+					"ft": "glepiði"
+				},
+				"þátíð": {
+					"et": "gleptirðu",
+					"ft": "gleptuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "glepjast",
+		"sagnbót": "glepist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glepst", "glepst", "glepst"],
+					"ft": ["glepjumst", "glepist", "glepjast"]
+				},
+				"þátíð": {
+					"et": ["glaptist", "glaptist", "glaptist"],
+					"ft": ["glöptumst", "glöptust", "glöptust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glepist", "glepist", "glepist"],
+					"ft": ["glepjumst", "glepist", "glepist"]
+				},
+				"þátíð": {
+					"et": ["gleptist", "gleptist", "gleptist"],
+					"ft": ["gleptumst", "gleptust", "gleptust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "glepstu"
+				},
+				"þátíð": {
+					"et": "glaptistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "glepistu"
+				},
+				"þátíð": {
+					"et": "gleptistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "glepjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["glapinn", "glapinn", "glöptum", "glapins"],
+					"kvk": ["glapin", "glapta", "glapinni", "glapinnar"],
+					"hk": ["glapið", "glapið", "glöptu", "glapins"]
+				},
+				"ft": {
+					"kk": ["glapnir", "glapna", "glöptum", "glapinna"],
+					"kvk": ["glaptar", "glaptar", "glöptum", "glapinna"],
+					"hk": ["glapin", "glapin", "glöptum", "glapinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["glapti", "glapta", "glapta", "glapta"],
+					"kvk": ["glapta", "glöptu", "glöptu", "glöptu"],
+					"hk": ["glapta", "glapta", "glapta", "glapta"]
+				},
+				"ft": {
+					"kk": ["glöptu", "glöptu", "glöptu", "glöptu"],
+					"kvk": ["glöptu", "glöptu", "glöptu", "glöptu"],
+					"hk": ["glöptu", "glöptu", "glöptu", "glöptu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-glepja",
+	"hash": "ac342fcd93a3b0f9a50dc048fb48ee56e34578d1f95b8cd715e8d57100db7f18"
+}

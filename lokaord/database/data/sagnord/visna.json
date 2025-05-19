@@ -1,0 +1,99 @@
+{
+	"orð": "visna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "visn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-visna-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "visna",
+		"sagnbót": "visnað",
+		"boðháttur": {
+			"stýfður": "visna",
+			"et": "visnaðu",
+			"ft": "visnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["visna", "visnar", "visnar"],
+					"ft": ["visnum", "visnið", "visna"]
+				},
+				"þátíð": {
+					"et": ["visnaði", "visnaðir", "visnaði"],
+					"ft": ["visnuðum", "visnuðuð", "visnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["visni", "visnir", "visni"],
+					"ft": ["visnum", "visnið", "visni"]
+				},
+				"þátíð": {
+					"et": ["visnaði", "visnaðir", "visnaði"],
+					"ft": ["visnuðum", "visnuðuð", "visnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "visnarðu",
+					"ft": "visniði"
+				},
+				"þátíð": {
+					"et": "visnaðirðu",
+					"ft": "visnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "visnirðu",
+					"ft": "visniði"
+				},
+				"þátíð": {
+					"et": "visnaðirðu",
+					"ft": "visnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "visnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["visnaður", "visnaðan", "visnuðum", "visnaðs"],
+					"kvk": ["visnuð", "visnaða", "visnaðri", "visnaðrar"],
+					"hk": ["visnað", "visnað", "visnuðu", "visnaðs"]
+				},
+				"ft": {
+					"kk": ["visnaðir", "visnaða", "visnuðum", "visnaðra"],
+					"kvk": ["visnaðar", "visnaðar", "visnuðum", "visnaðra"],
+					"hk": ["visnuð", "visnuð", "visnuðum", "visnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["visnaði", "visnaða", "visnaða", "visnaða"],
+					"kvk": ["visnaða", "visnuðu", "visnuðu", "visnuðu"],
+					"hk": ["visnaða", "visnaða", "visnaða", "visnaða"]
+				},
+				"ft": {
+					"kk": ["visnuðu", "visnuðu", "visnuðu", "visnuðu"],
+					"kvk": ["visnuðu", "visnuðu", "visnuðu", "visnuðu"],
+					"hk": ["visnuðu", "visnuðu", "visnuðu", "visnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-visna",
+	"hash": "1f659e4de32ccfe948ee47fd3c7aee751abd59bea46f252577986fd4c35213e4"
+}
