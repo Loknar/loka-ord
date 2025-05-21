@@ -1,0 +1,118 @@
+{
+	"orð": "stympa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stymp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stympa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stympa",
+		"sagnbót": "stympað",
+		"boðháttur": {
+			"stýfður": "stympa",
+			"et": "stympaðu",
+			"ft": "stympið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stympa", "stympar", "stympar"],
+					"ft": ["stympum", "stympið", "stympa"]
+				},
+				"þátíð": {
+					"et": ["stympaði", "stympaðir", "stympaði"],
+					"ft": ["stympuðum", "stympuðuð", "stympuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stympi", "stympir", "stympi"],
+					"ft": ["stympum", "stympið", "stympi"]
+				},
+				"þátíð": {
+					"et": ["stympaði", "stympaðir", "stympaði"],
+					"ft": ["stympuðum", "stympuðuð", "stympuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stymparðu",
+					"ft": "stympiði"
+				},
+				"þátíð": {
+					"et": "stympaðirðu",
+					"ft": "stympuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stympirðu",
+					"ft": "stympiði"
+				},
+				"þátíð": {
+					"et": "stympaðirðu",
+					"ft": "stympuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stympast",
+		"sagnbót": "stympast",
+		"boðháttur": {
+			"et": "stympastu",
+			"ft": "stympist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stympast", "stympast", "stympast"],
+					"ft": ["stympumst", "stympist", "stympast"]
+				},
+				"þátíð": {
+					"et": ["stympaðist", "stympaðist", "stympaðist"],
+					"ft": ["stympuðumst", "stympuðust", "stympuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stympist", "stympist", "stympist"],
+					"ft": ["stympumst", "stympist", "stympist"]
+				},
+				"þátíð": {
+					"et": ["stympaðist", "stympaðist", "stympaðist"],
+					"ft": ["stympuðumst", "stympuðust", "stympuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stympastu"
+				},
+				"þátíð": {
+					"et": "stympaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stympistu"
+				},
+				"þátíð": {
+					"et": "stympaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stympa",
+	"hash": "3cb083f616d1d934a582755401051938aa0c7fa97d1482278bcb521b3df7fd8e"
+}

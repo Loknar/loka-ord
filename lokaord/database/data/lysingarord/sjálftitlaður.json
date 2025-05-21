@@ -1,0 +1,48 @@
+{
+	"orð": "sjálftitlaður",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sjálf",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.áb-sjálfur"
+		},
+		{
+			"mynd": "titl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-titla"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sjálftitlaður", "sjálftitlaðan", "sjálftitluðum", "sjálftitlaðs"],
+				"kvk": ["sjálftitluð", "sjálftitlaða", "sjálftitlaðri", "sjálftitlaðrar"],
+				"hk": ["sjálftitlað", "sjálftitlað", "sjálftitluðu", "sjálftitlaðs"]
+			},
+			"ft": {
+				"kk": ["sjálftitlaðir", "sjálftitlaða", "sjálftitluðum", "sjálftitlaðra"],
+				"kvk": ["sjálftitlaðar", "sjálftitlaðar", "sjálftitluðum", "sjálftitlaðra"],
+				"hk": ["sjálftitluð", "sjálftitluð", "sjálftitluðum", "sjálftitlaðra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sjálftitlaði", "sjálftitlaða", "sjálftitlaða", "sjálftitlaða"],
+				"kvk": ["sjálftitlaða", "sjálftitluðu", "sjálftitluðu", "sjálftitluðu"],
+				"hk": ["sjálftitlaða", "sjálftitlaða", "sjálftitlaða", "sjálftitlaða"]
+			},
+			"ft": {
+				"kk": ["sjálftitluðu", "sjálftitluðu", "sjálftitluðu", "sjálftitluðu"],
+				"kvk": ["sjálftitluðu", "sjálftitluðu", "sjálftitluðu", "sjálftitluðu"],
+				"hk": ["sjálftitluðu", "sjálftitluðu", "sjálftitluðu", "sjálftitluðu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sjálftitlaður",
+	"hash": "4455ec210bef4d19ae17cffb4cf7c9ba9c2e6a1c39704f8fe406d346d5aa0654"
+}

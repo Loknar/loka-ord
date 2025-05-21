@@ -1,0 +1,30 @@
+{
+	"orð": "myndbandaleiga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mynd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "banda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-band-hk"
+		},
+		{
+			"kennistrengur": "no-leiga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["myndbandaleiga", "myndbandaleigu", "myndbandaleigu", "myndbandaleigu"],
+		"mg": ["myndbandaleigan", "myndbandaleiguna", "myndbandaleigunni", "myndbandaleigunnar"]
+	},
+	"ft": {
+		"ág": ["myndbandaleigur", "myndbandaleigur", "myndbandaleigum", "myndbandaleiga"],
+		"mg": ["myndbandaleigurnar", "myndbandaleigurnar", "myndbandaleigunum", "myndbandaleiganna"]
+	},
+	"kennistrengur": "no-myndbandaleiga-kvk",
+	"hash": "5e8c33e5bd0d081e372d6064cd7dacd2600537cd1f97fa44e3929680e784ef03"
+}
