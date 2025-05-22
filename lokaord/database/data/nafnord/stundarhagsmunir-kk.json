@@ -1,0 +1,27 @@
+{
+	"orð": "stundarhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "stundar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stund-kvk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["stundarhagsmunir", "stundarhagsmuni", "stundarhagsmunum", "stundarhagsmuna"],
+		"mg": ["stundarhagsmunirnir", "stundarhagsmunina", "stundarhagsmununum", "stundarhagsmunanna"]
+	},
+	"kennistrengur": "no-stundarhagsmunir-kk",
+	"hash": "5e4ffab22bc4bfa77ba7aa1270cb963306c7387d02907b6048336c1e5f870ea5"
+}

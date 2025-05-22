@@ -1,0 +1,26 @@
+{
+	"orð": "stjórnsýsluvernd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"kennistrengur": "no-vernd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnsýsluvernd", "stjórnsýsluvernd", "stjórnsýsluvernd", "stjórnsýsluverndar"],
+		"mg": ["stjórnsýsluverndin", "stjórnsýsluverndina", "stjórnsýsluverndinni", "stjórnsýsluverndarinnar"]
+	},
+	"kennistrengur": "no-stjórnsýsluvernd-kvk",
+	"hash": "c848c33d107308ed9937cbf3583fad9a384e63cc853cfa0b214b332c34712154"
+}
