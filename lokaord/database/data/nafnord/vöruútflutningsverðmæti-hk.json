@@ -1,0 +1,40 @@
+{
+	"orð": "vöruútflutningsverðmæti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "flutnings",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-mæti-hk"
+		}
+	],
+	"et": {
+		"ág": ["vöruútflutningsverðmæti", "vöruútflutningsverðmæti", "vöruútflutningsverðmæti", "vöruútflutningsverðmætis"],
+		"mg": ["vöruútflutningsverðmætið", "vöruútflutningsverðmætið", "vöruútflutningsverðmætinu", "vöruútflutningsverðmætisins"]
+	},
+	"ft": {
+		"ág": ["vöruútflutningsverðmæti", "vöruútflutningsverðmæti", "vöruútflutningsverðmætum", "vöruútflutningsverðmæta"],
+		"mg": ["vöruútflutningsverðmætin", "vöruútflutningsverðmætin", "vöruútflutningsverðmætunum", "vöruútflutningsverðmætanna"]
+	},
+	"kennistrengur": "no-vöruútflutningsverðmæti-hk",
+	"hash": "3959cfe85a90227b490db84d5a653de754718dff43a7a6964e3852581047dfd7"
+}

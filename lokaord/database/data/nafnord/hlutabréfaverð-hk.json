@@ -1,0 +1,27 @@
+{
+	"orð": "hlutabréfaverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["hlutabréfaverð", "hlutabréfaverð", "hlutabréfaverði", "hlutabréfaverðs"],
+		"mg": ["hlutabréfaverðið", "hlutabréfaverðið", "hlutabréfaverðinu", "hlutabréfaverðsins"]
+	},
+	"kennistrengur": "no-hlutabréfaverð-hk",
+	"hash": "389b7080cc8654581e505951b042ae19e40697e97b170485c8bdd54a88f1e919"
+}
