@@ -1,0 +1,32 @@
+{
+	"orð": "fíkniefnaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fíkni",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-fíkn-kvk"
+		},
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fíkniefnaframleiðsla", "fíkniefnaframleiðslu", "fíkniefnaframleiðslu", "fíkniefnaframleiðslu"],
+		"mg": ["fíkniefnaframleiðslan", "fíkniefnaframleiðsluna", "fíkniefnaframleiðslunni", "fíkniefnaframleiðslunnar"]
+	},
+	"kennistrengur": "no-fíkniefnaframleiðsla-kvk",
+	"hash": "3d4b163201cdbc94e1e6d39d1f1319ece7a711dd0bf83db1058f294d8a8de177"
+}

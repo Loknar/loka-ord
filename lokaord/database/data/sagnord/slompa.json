@@ -1,0 +1,91 @@
+{
+	"orð": "slompa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "slomp",
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slompa",
+		"sagnbót": "slompað",
+		"boðháttur": {
+			"stýfður": "slompa",
+			"et": "slompaðu",
+			"ft": "slompið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slompa", "slompar", "slompar"],
+					"ft": ["slompum", "slompið", "slompa"]
+				},
+				"þátíð": {
+					"et": ["slompaði", "slompaðir", "slompaði"],
+					"ft": ["slompuðum", "slompuðuð", "slompuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slompi", "slompir", "slompi"],
+					"ft": ["slompum", "slompið", "slompi"]
+				},
+				"þátíð": {
+					"et": ["slompaði", "slompaðir", "slompaði"],
+					"ft": ["slompuðum", "slompuðuð", "slompuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slompast",
+		"sagnbót": "slompast",
+		"boðháttur": {
+			"et": "slompastu",
+			"ft": "slompist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slompast", "slompast", "slompast"],
+					"ft": ["slompumst", "slompist", "slompast"]
+				},
+				"þátíð": {
+					"et": ["slompaðist", "slompaðist", "slompaðist"],
+					"ft": ["slompuðumst", "slompuðust", "slompuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slompist", "slompist", "slompist"],
+					"ft": ["slompumst", "slompist", "slompist"]
+				},
+				"þátíð": {
+					"et": ["slompaðist", "slompaðist", "slompaðist"],
+					"ft": ["slompuðumst", "slompuðust", "slompuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slompandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slompaður", "slompaðan", "slompuðum", "slompaðs"],
+					"kvk": ["slompuð", "slompaða", "slompaðri", "slompaðrar"],
+					"hk": ["slompað", "slompað", "slompuðu", "slompaðs"]
+				},
+				"ft": {
+					"kk": ["slompaðir", "slompaða", "slompuðum", "slompaðra"],
+					"kvk": ["slompaðar", "slompaðar", "slompuðum", "slompaðra"],
+					"hk": ["slompuð", "slompuð", "slompuðum", "slompaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slompa",
+	"hash": "26770afd9f0d72937e07cb5f1f36bce9fd458a9e26b7cb9c158c417e2a3256e4"
+}

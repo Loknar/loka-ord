@@ -1,0 +1,135 @@
+{
+	"orð": "sóla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sól-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sóla",
+		"sagnbót": "sólað",
+		"boðháttur": {
+			"stýfður": "sóla",
+			"et": "sólaðu",
+			"ft": "sólið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sóla", "sólar", "sólar"],
+					"ft": ["sólum", "sólið", "sóla"]
+				},
+				"þátíð": {
+					"et": ["sólaði", "sólaðir", "sólaði"],
+					"ft": ["sóluðum", "sóluðuð", "sóluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sóli", "sólir", "sóli"],
+					"ft": ["sólum", "sólið", "sóli"]
+				},
+				"þátíð": {
+					"et": ["sólaði", "sólaðir", "sólaði"],
+					"ft": ["sóluðum", "sóluðuð", "sóluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sólarðu",
+					"ft": "sóliði"
+				},
+				"þátíð": {
+					"et": "sólaðirðu",
+					"ft": "sóluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sólirðu",
+					"ft": "sóliði"
+				},
+				"þátíð": {
+					"et": "sólaðirðu",
+					"ft": "sóluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sólast",
+		"sagnbót": "sólast",
+		"boðháttur": {
+			"et": "sólastu",
+			"ft": "sólist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sólast", "sólast", "sólast"],
+					"ft": ["sólumst", "sólist", "sólast"]
+				},
+				"þátíð": {
+					"et": ["sólaðist", "sólaðist", "sólaðist"],
+					"ft": ["sóluðumst", "sóluðust", "sóluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sólist", "sólist", "sólist"],
+					"ft": ["sólumst", "sólist", "sólist"]
+				},
+				"þátíð": {
+					"et": ["sólaðist", "sólaðist", "sólaðist"],
+					"ft": ["sóluðumst", "sóluðust", "sóluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sólastu"
+				},
+				"þátíð": {
+					"et": "sólaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sólistu"
+				},
+				"þátíð": {
+					"et": "sólaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sólandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sólaður", "sólaðan", "sóluðum", "sólaðs"],
+					"kvk": ["sóluð", "sólaða", "sólaðri", "sólaðrar"],
+					"hk": ["sólað", "sólað", "sóluðu", "sólaðs"]
+				},
+				"ft": {
+					"kk": ["sólaðir", "sólaða", "sóluðum", "sólaðra"],
+					"kvk": ["sólaðar", "sólaðar", "sóluðum", "sólaðra"],
+					"hk": ["sóluð", "sóluð", "sóluðum", "sólaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sóla",
+	"hash": "8f4d847944c66505efbc0d482b6de4b36fb5ddfb19ae4275075a5af593a975be"
+}

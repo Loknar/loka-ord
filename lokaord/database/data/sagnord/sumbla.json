@@ -1,0 +1,135 @@
+{
+	"orð": "sumbla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sumbl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sumbl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sumbla",
+		"sagnbót": "sumblað",
+		"boðháttur": {
+			"stýfður": "sumbla",
+			"et": "sumblaðu",
+			"ft": "sumblið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sumbla", "sumblar", "sumblar"],
+					"ft": ["sumblum", "sumblið", "sumbla"]
+				},
+				"þátíð": {
+					"et": ["sumblaði", "sumblaðir", "sumblaði"],
+					"ft": ["sumbluðum", "sumbluðuð", "sumbluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sumbli", "sumblir", "sumbli"],
+					"ft": ["sumblum", "sumblið", "sumbli"]
+				},
+				"þátíð": {
+					"et": ["sumblaði", "sumblaðir", "sumblaði"],
+					"ft": ["sumbluðum", "sumbluðuð", "sumbluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sumblarðu",
+					"ft": "sumbliði"
+				},
+				"þátíð": {
+					"et": "sumblaðirðu",
+					"ft": "sumbluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sumblirðu",
+					"ft": "sumbliði"
+				},
+				"þátíð": {
+					"et": "sumblaðirðu",
+					"ft": "sumbluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sumblast",
+		"sagnbót": "sumblast",
+		"boðháttur": {
+			"et": "sumblastu",
+			"ft": "sumblist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sumblast", "sumblast", "sumblast"],
+					"ft": ["sumblumst", "sumblist", "sumblast"]
+				},
+				"þátíð": {
+					"et": ["sumblaðist", "sumblaðist", "sumblaðist"],
+					"ft": ["sumbluðumst", "sumbluðust", "sumbluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sumblist", "sumblist", "sumblist"],
+					"ft": ["sumblumst", "sumblist", "sumblist"]
+				},
+				"þátíð": {
+					"et": ["sumblaðist", "sumblaðist", "sumblaðist"],
+					"ft": ["sumbluðumst", "sumbluðust", "sumbluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sumblastu"
+				},
+				"þátíð": {
+					"et": "sumblaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sumblistu"
+				},
+				"þátíð": {
+					"et": "sumblaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sumblandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sumblaður", "sumblaðan", "sumbluðum", "sumblaðs"],
+					"kvk": ["sumbluð", "sumblaða", "sumblaðri", "sumblaðrar"],
+					"hk": ["sumblað", "sumblað", "sumbluðu", "sumblaðs"]
+				},
+				"ft": {
+					"kk": ["sumblaðir", "sumblaða", "sumbluðum", "sumblaðra"],
+					"kvk": ["sumblaðar", "sumblaðar", "sumbluðum", "sumblaðra"],
+					"hk": ["sumbluð", "sumbluð", "sumbluðum", "sumblaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sumbla",
+	"hash": "575ecf853b25e8609e2ce6a03ffeff67e9d9be3f2c1b63124cf5ce2b85cb3c78"
+}
