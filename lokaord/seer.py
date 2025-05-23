@@ -94,6 +94,16 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 				e_word = change_functions[i](e_word)
 		return e_word
 
+	def move_uppercase_to_front(mylist: Iterable[str]) -> Iterable[str]:
+		upper = []
+		lower = []
+		for entry in mylist:
+			if entry == uppercase(entry):
+				upper.append(entry)
+			else:
+				lower.append(entry)
+		return (upper + lower)
+
 	change_functions = [
 		uppercase,
 		lowercase,
@@ -111,7 +121,10 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 	for ellified in ellify(word):
 		for applier in appliers:
 			myset.add(apply_possibility(ellified, applier, change_functions))
-	return sorted(list(myset), reverse=True)
+	possibilities = sorted(list(myset), reverse=True)
+	if word == uppercase(word):
+		return move_uppercase_to_front(possibilities)
+	return possibilities
 
 
 def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = True):
@@ -127,7 +140,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 	found = 0
 	maybe = 0
 	missing = 0
-	onhanging_chars = set('.,:;()[]-/„“”?!´%°%–‐…·—‘"*\'‚|')
+	onhanging_chars = set('.,:;()[]-/„“”?!´%°%–‐…·—‘"*\'‚|•')
 	onhanging_chars_with_dot = onhanging_chars.copy()
 	onhanging_chars_with_dot.remove('.')
 	for word in sentence.split(' '):
