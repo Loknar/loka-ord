@@ -53,26 +53,32 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 	provide possible word adjustments for identification attempt purposes
 	"""
 
-	def ellify(word: str) -> Iterable[str]:
+	def deep_replace(word: str, sub_a: str, sub_b: str) -> Iterable[str]:
 		"""
-		provide all possibilities of ll -> łl replacements
+		provide all possibilities of sub_a -> sub_b replacements
 		"""
 		occurances = []
 		for loc in range(len(word)):
-			if word[loc:loc+2] == 'll':
+			if word[loc:loc + len(sub_a)] == sub_a:
 				occurances.append(loc)
-		len_occurances = len(occurances)
-		if len_occurances == 0:
+		len_occ = len(occurances)
+		if len_occ == 0:
 			return [word]
-		combinations = [x for x in itertools.product([False, True], repeat=len_occurances)]
+		combinations = [x for x in itertools.product([False, True], repeat=len_occ)]
 		possibilities = []
 		for i in range(len(combinations)):
 			option = word
-			for j in range(len_occurances):
+			for j in range(len_occ):
 				if combinations[i][j] is True:
-					option = option[:occurances[j]] + 'łl' + option[occurances[j]+2:]
+					option = option[:occurances[j]] + sub_b + option[occurances[j] + len(sub_a):]
 			possibilities.append(option)
 		return possibilities
+
+	def ellify(word: str) -> Iterable[str]:
+		"""
+		provide all possibilities of ll -> łl and LL -> ŁL replacements
+		"""
+		return (deep_replace(word, 'll', 'łl') + deep_replace(word, 'LL', 'ŁL'))
 
 	def uppercase(word: str) -> str:
 		return '%s%s' % (word[0].upper(), word[1:])
