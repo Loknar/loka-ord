@@ -1,0 +1,136 @@
+{
+	"orð": "praktísera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "praktí",
+			"samsetning": "stofn",
+			"kennistrengur": "no-praktík-kvk"
+		},
+		{
+			"leiðir": "ser",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "praktísera",
+		"sagnbót": "praktíserað",
+		"boðháttur": {
+			"stýfður": "praktísera",
+			"et": "praktíseraðu",
+			"ft": "praktíserið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["praktísera", "praktíserar", "praktíserar"],
+					"ft": ["praktíserum", "praktíserið", "praktísera"]
+				},
+				"þátíð": {
+					"et": ["praktíseraði", "praktíseraðir", "praktíseraði"],
+					"ft": ["praktíseruðum", "praktíseruðuð", "praktíseruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["praktíseri", "praktíserir", "praktíseri"],
+					"ft": ["praktíserum", "praktíserið", "praktíseri"]
+				},
+				"þátíð": {
+					"et": ["praktíseraði", "praktíseraðir", "praktíseraði"],
+					"ft": ["praktíseruðum", "praktíseruðuð", "praktíseruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "praktíserarðu",
+					"ft": "praktíseriði"
+				},
+				"þátíð": {
+					"et": "praktíseraðirðu",
+					"ft": "praktíseruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "praktíserirðu",
+					"ft": "praktíseriði"
+				},
+				"þátíð": {
+					"et": "praktíseraðirðu",
+					"ft": "praktíseruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "praktíserast",
+		"sagnbót": "praktíserast",
+		"boðháttur": {
+			"et": "praktíserastu",
+			"ft": "praktíserist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["praktíserast", "praktíserast", "praktíserast"],
+					"ft": ["praktíserumst", "praktíserist", "praktíserast"]
+				},
+				"þátíð": {
+					"et": ["praktíseraðist", "praktíseraðist", "praktíseraðist"],
+					"ft": ["praktíseruðumst", "praktíseruðust", "praktíseruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["praktíserist", "praktíserist", "praktíserist"],
+					"ft": ["praktíserumst", "praktíserist", "praktíserist"]
+				},
+				"þátíð": {
+					"et": ["praktíseraðist", "praktíseraðist", "praktíseraðist"],
+					"ft": ["praktíseruðumst", "praktíseruðust", "praktíseruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "praktíserastu"
+				},
+				"þátíð": {
+					"et": "praktíseraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "praktíseristu"
+				},
+				"þátíð": {
+					"et": "praktíseraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "praktíserandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["praktíseraður", "praktíseraðan", "praktíseruðum", "praktíseraðs"],
+					"kvk": ["praktíseruð", "praktíseraða", "praktíseraðri", "praktíseraðrar"],
+					"hk": ["praktíserað", "praktíserað", "praktíseruðu", "praktíseraðs"]
+				},
+				"ft": {
+					"kk": ["praktíseraðir", "praktíseraða", "praktíseruðum", "praktíseraðra"],
+					"kvk": ["praktíseraðar", "praktíseraðar", "praktíseruðum", "praktíseraðra"],
+					"hk": ["praktíseruð", "praktíseruð", "praktíseruðum", "praktíseraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-praktísera",
+	"hash": "7d5ee8b02faf1d012ccb34500bfdc5b694c9dc99668cf19af7378b18cfd160f7"
+}
