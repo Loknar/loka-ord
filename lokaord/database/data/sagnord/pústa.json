@@ -1,0 +1,135 @@
+{
+	"orð": "pústa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "púst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-púst-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "pústa",
+		"sagnbót": "pústað",
+		"boðháttur": {
+			"stýfður": "pústa",
+			"et": "pústaðu",
+			"ft": "pústið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pústa", "pústar", "pústar"],
+					"ft": ["pústum", "pústið", "pústa"]
+				},
+				"þátíð": {
+					"et": ["pústaði", "pústaðir", "pústaði"],
+					"ft": ["pústuðum", "pústuðuð", "pústuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pústi", "pústir", "pústi"],
+					"ft": ["pústum", "pústið", "pústi"]
+				},
+				"þátíð": {
+					"et": ["pústaði", "pústaðir", "pústaði"],
+					"ft": ["pústuðum", "pústuðuð", "pústuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pústarðu",
+					"ft": "pústiði"
+				},
+				"þátíð": {
+					"et": "pústaðirðu",
+					"ft": "pústuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pústirðu",
+					"ft": "pústiði"
+				},
+				"þátíð": {
+					"et": "pústaðirðu",
+					"ft": "pústuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "pústast",
+		"sagnbót": "pústast",
+		"boðháttur": {
+			"et": "pústastu",
+			"ft": "pústist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pústast", "pústast", "pústast"],
+					"ft": ["pústumst", "pústist", "pústast"]
+				},
+				"þátíð": {
+					"et": ["pústaðist", "pústaðist", "pústaðist"],
+					"ft": ["pústuðumst", "pústuðust", "pústuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pústist", "pústist", "pústist"],
+					"ft": ["pústumst", "pústist", "pústist"]
+				},
+				"þátíð": {
+					"et": ["pústaðist", "pústaðist", "pústaðist"],
+					"ft": ["pústuðumst", "pústuðust", "pústuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pústastu"
+				},
+				"þátíð": {
+					"et": "pústaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pústistu"
+				},
+				"þátíð": {
+					"et": "pústaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "pústandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["pústaður", "pústaðan", "pústuðum", "pústaðs"],
+					"kvk": ["pústuð", "pústaða", "pústaðri", "pústaðrar"],
+					"hk": ["pústað", "pústað", "pústuðu", "pústaðs"]
+				},
+				"ft": {
+					"kk": ["pústaðir", "pústaða", "pústuðum", "pústaðra"],
+					"kvk": ["pústaðar", "pústaðar", "pústuðum", "pústaðra"],
+					"hk": ["pústuð", "pústuð", "pústuðum", "pústaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-pústa",
+	"hash": "65672390ffeb31db49051d31ce45577e78c302d03f4a72508b8639ace88ed59e"
+}

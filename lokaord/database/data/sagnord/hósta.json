@@ -1,0 +1,121 @@
+{
+	"orð": "hósta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hóst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hóst-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hósta",
+		"sagnbót": "hóstað",
+		"boðháttur": {
+			"stýfður": "hósta",
+			"et": "hóstaðu",
+			"ft": "hóstið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hósta", "hóstar", "hóstar"],
+					"ft": ["hóstum", "hóstið", "hósta"]
+				},
+				"þátíð": {
+					"et": ["hóstaði", "hóstaðir", "hóstaði"],
+					"ft": ["hóstuðum", "hóstuðuð", "hóstuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hósti", "hóstir", "hósti"],
+					"ft": ["hóstum", "hóstið", "hósti"]
+				},
+				"þátíð": {
+					"et": ["hóstaði", "hóstaðir", "hóstaði"],
+					"ft": ["hóstuðum", "hóstuðuð", "hóstuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hóstarðu",
+					"ft": "hóstiði"
+				},
+				"þátíð": {
+					"et": "hóstaðirðu",
+					"ft": "hóstuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hóstirðu",
+					"ft": "hóstiði"
+				},
+				"þátíð": {
+					"et": "hóstaðirðu",
+					"ft": "hóstuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hóstast",
+		"sagnbót": "hóstast",
+		"boðháttur": {
+			"et": "hóstastu",
+			"ft": "hóstist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hóstast", "hóstast", "hóstast"],
+					"ft": ["hóstumst", "hóstist", "hóstast"]
+				},
+				"þátíð": {
+					"et": ["hóstaðist", "hóstaðist", "hóstaðist"],
+					"ft": ["hóstuðumst", "hóstuðust", "hóstuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hóstist", "hóstist", "hóstist"],
+					"ft": ["hóstumst", "hóstist", "hóstist"]
+				},
+				"þátíð": {
+					"et": ["hóstaðist", "hóstaðist", "hóstaðist"],
+					"ft": ["hóstuðumst", "hóstuðust", "hóstuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hóstastu"
+				},
+				"þátíð": {
+					"et": "hóstaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hóstistu"
+				},
+				"þátíð": {
+					"et": "hóstaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hóstandi"
+	},
+	"kennistrengur": "so-hósta",
+	"hash": "b77b3a81c7ec4b771750704bce0696fa2570c4321f68876746338f57635a2f8c"
+}

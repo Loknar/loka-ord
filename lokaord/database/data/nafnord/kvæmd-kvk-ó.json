@@ -2,6 +2,16 @@
 	"orð": "kvæmd",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kvæm",
+			"samsetning": "stofn",
+			"kennistrengur": "so-kvæma-ó"
+		},
+		{
+			"kennistrengur": "no-d-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kvæmd", "kvæmd", "kvæmd", "kvæmdar"],
 		"mg": ["kvæmdin", "kvæmdina", "kvæmdinni", "kvæmdarinnar"]
@@ -12,5 +22,5 @@
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-kvæmd-kvk-ó",
-	"hash": "f26bfc753fa51fbc83cfdb9823cf863538e512ca0acd08cf43940a6507e6e919"
+	"hash": "8e2db28eee850f6aec08b6bbd9f227db08689b4f78423b8725da156a867b30bc"
 }
