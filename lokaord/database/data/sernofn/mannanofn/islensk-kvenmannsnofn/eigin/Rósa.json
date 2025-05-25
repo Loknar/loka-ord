@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Rós",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rós-kvk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Rósa", "Rósu", "Rósu", "Rósu"]
 	},
 	"kennistrengur": "sérn.en-Rósa-kvk",
-	"hash": "fc7f2b8746507c7db3caa28f3bf937d4422dce04070d83c77256d1a940498adf"
+	"hash": "bbdd46e19bdfbbd1e6d34a5c003639a445cd25019a3a46d02c2f34baec241b1b"
 }

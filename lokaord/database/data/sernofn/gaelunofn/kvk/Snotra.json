@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Snotr",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-snotur"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Snotra", "Snotru", "Snotru", "Snotru"]
 	},
 	"kennistrengur": "sérn.gn-Snotra-kvk",
-	"hash": "07d5b4c51b86907e9b74461e9506621d669666cc2acc977e1831817f9fdf69cd"
+	"hash": "5045faf8e94249e5ac1ac215375a48c77fa41799a272f2b325743f9a38c59a38"
 }
