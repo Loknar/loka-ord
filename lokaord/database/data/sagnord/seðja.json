@@ -1,0 +1,136 @@
+{
+	"orð": "seðja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "seðja",
+		"sagnbót": "satt",
+		"boðháttur": {
+			"stýfður": "seð",
+			"et": "seddu",
+			"ft": "seðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seð", "seður", "seður"],
+					"ft": ["seðjum", "seðjið", "seðja"]
+				},
+				"þátíð": {
+					"et": ["saddi", "saddir", "saddi"],
+					"ft": ["söddum", "södduð", "söddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seðji", "seðjir", "seðji"],
+					"ft": ["seðjum", "seðjið", "seðji"]
+				},
+				"þátíð": {
+					"et": ["seddi", "seddir", "seddi"],
+					"ft": ["seddum", "sedduð", "seddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seðurðu",
+					"ft": "seðjiði"
+				},
+				"þátíð": {
+					"et": "saddirðu",
+					"ft": "södduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seðjirðu",
+					"ft": "seðjiði"
+				},
+				"þátíð": {
+					"et": "seddirðu",
+					"ft": "sedduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "seðjast",
+		"sagnbót": "saðst",
+		"boðháttur": {
+			"et": "seðstu",
+			"ft": "seðjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seðst", "seðst", "seðst"],
+					"ft": ["seðjumst", "seðjist", "seðjast"]
+				},
+				"þátíð": {
+					"et": ["saddist", "saddist", "saddist"],
+					"ft": ["söddumst", "söddust", "söddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seðjist", "seðjist", "seðjist"],
+					"ft": ["seðjumst", "seðjist", "seðjist"]
+				},
+				"þátíð": {
+					"et": ["seddist", "seddist", "seddist"],
+					"ft": ["seddumst", "seddust", "seddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seðstu"
+				},
+				"þátíð": {
+					"et": "saddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seðjistu"
+				},
+				"þátíð": {
+					"et": "seddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "seðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["saddur", "saddan", "söddum", "sadds"],
+					"kvk": ["södd", "sadda", "saddri", "saddrar"],
+					"hk": ["satt", "satt", "söddu", "sadds"]
+				},
+				"ft": {
+					"kk": ["saddir", "sadda", "söddum", "saddra"],
+					"kvk": ["saddar", "saddar", "söddum", "saddra"],
+					"hk": ["södd", "södd", "söddum", "saddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["saddi", "sadda", "sadda", "sadda"],
+					"kvk": ["sadda", "söddu", "söddu", "söddu"],
+					"hk": ["sadda", "sadda", "sadda", "sadda"]
+				},
+				"ft": {
+					"kk": ["söddu", "söddu", "söddu", "söddu"],
+					"kvk": ["söddu", "söddu", "söddu", "söddu"],
+					"hk": ["söddu", "söddu", "söddu", "söddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-seðja",
+	"hash": "1341df395cb0838d72a56cf01860ca8f709e201d5ad8bdc1d2f62613047a54b5"
+}
