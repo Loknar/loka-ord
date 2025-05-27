@@ -1,0 +1,27 @@
+{
+	"orð": "bókstafstrú",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "stafs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stafur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-trú-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókstafstrú", "bókstafstrú", "bókstafstrú", "bókstafstrúar"],
+		"mg": ["bókstafstrúin", "bókstafstrúna", "bókstafstrúnni", "bókstafstrúarinnar"]
+	},
+	"kennistrengur": "no-bókstafstrú-kvk",
+	"hash": "0276fafa7297bc997b3c36c3633a613cd5518b59bf3c3234bb38322c1c217df5"
+}

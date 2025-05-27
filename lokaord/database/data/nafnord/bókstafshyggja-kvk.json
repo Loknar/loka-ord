@@ -1,0 +1,27 @@
+{
+	"orð": "bókstafshyggja",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "stafs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stafur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hyggja-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bókstafshyggja", "bókstafshyggju", "bókstafshyggju", "bókstafshyggju"],
+		"mg": ["bókstafshyggjan", "bókstafshyggjuna", "bókstafshyggjunni", "bókstafshyggjunnar"]
+	},
+	"kennistrengur": "no-bókstafshyggja-kvk",
+	"hash": "947bfaf51ef8521da4cff116f80fc32b00b74d52c206c5e36fcd972f958dfa1a"
+}

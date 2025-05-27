@@ -1,0 +1,22 @@
+{
+	"orð": "hefndarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hefndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hefnd-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hefndarskylda", "hefndarskyldu", "hefndarskyldu", "hefndarskyldu"],
+		"mg": ["hefndarskyldan", "hefndarskylduna", "hefndarskyldunni", "hefndarskyldunnar"]
+	},
+	"kennistrengur": "no-hefndarskylda-kvk",
+	"hash": "afe451a2f39bda5e37c3d1fc98dedd2f63c1739edd0f1b619c655fcc57f52a42"
+}

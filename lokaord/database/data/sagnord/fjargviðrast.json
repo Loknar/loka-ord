@@ -1,0 +1,65 @@
+{
+	"orð": "fjargviðrast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fjarg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjarg-hk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-viðra"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "fjargviðrast",
+		"sagnbót": "fjargviðrast",
+		"boðháttur": {
+			"et": "fjargviðrastu",
+			"ft": "fjargviðrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fjargviðrast", "fjargviðrast", "fjargviðrast"],
+					"ft": ["fjargviðrumst", "fjargviðrist", "fjargviðrast"]
+				},
+				"þátíð": {
+					"et": ["fjargviðraðist", "fjargviðraðist", "fjargviðraðist"],
+					"ft": ["fjargviðruðumst", "fjargviðruðust", "fjargviðruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fjargviðrist", "fjargviðrist", "fjargviðrist"],
+					"ft": ["fjargviðrumst", "fjargviðrist", "fjargviðrist"]
+				},
+				"þátíð": {
+					"et": ["fjargviðraðist", "fjargviðraðist", "fjargviðraðist"],
+					"ft": ["fjargviðruðumst", "fjargviðruðust", "fjargviðruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fjargviðrastu"
+				},
+				"þátíð": {
+					"et": "fjargviðraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fjargviðristu"
+				},
+				"þátíð": {
+					"et": "fjargviðraðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fjargviðrast",
+	"hash": "043ec91704721ed3d87dd41dc8895a982a488f1f063bcc97dacf0ac589c7ac00"
+}
