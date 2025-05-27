@@ -1,0 +1,99 @@
+{
+	"orð": "víra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vír",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vír-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "víra",
+		"sagnbót": "vírað",
+		"boðháttur": {
+			"stýfður": "víra",
+			"et": "víraðu",
+			"ft": "vírið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["víra", "vírar", "vírar"],
+					"ft": ["vírum", "vírið", "víra"]
+				},
+				"þátíð": {
+					"et": ["víraði", "víraðir", "víraði"],
+					"ft": ["víruðum", "víruðuð", "víruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["víri", "vírir", "víri"],
+					"ft": ["vírum", "vírið", "víri"]
+				},
+				"þátíð": {
+					"et": ["víraði", "víraðir", "víraði"],
+					"ft": ["víruðum", "víruðuð", "víruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vírarðu",
+					"ft": "víriði"
+				},
+				"þátíð": {
+					"et": "víraðirðu",
+					"ft": "víruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vírirðu",
+					"ft": "víriði"
+				},
+				"þátíð": {
+					"et": "víraðirðu",
+					"ft": "víruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vírandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["víraður", "víraðan", "víruðum", "víraðs"],
+					"kvk": ["víruð", "víraða", "víraðri", "víraðrar"],
+					"hk": ["vírað", "vírað", "víruðu", "víraðs"]
+				},
+				"ft": {
+					"kk": ["víraðir", "víraða", "víruðum", "víraðra"],
+					"kvk": ["víraðar", "víraðar", "víruðum", "víraðra"],
+					"hk": ["víruð", "víruð", "víruðum", "víraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["víraði", "víraða", "víraða", "víraða"],
+					"kvk": ["víraða", "víruðu", "víruðu", "víruðu"],
+					"hk": ["víraða", "víraða", "víraða", "víraða"]
+				},
+				"ft": {
+					"kk": ["víruðu", "víruðu", "víruðu", "víruðu"],
+					"kvk": ["víruðu", "víruðu", "víruðu", "víruðu"],
+					"hk": ["víruðu", "víruðu", "víruðu", "víruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-víra",
+	"hash": "4b9c2ccd3374e2af022efcb93ae0743c16e67e035b061b96630cb11ac0c5c4a0"
+}

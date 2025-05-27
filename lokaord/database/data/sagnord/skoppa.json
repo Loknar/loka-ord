@@ -1,0 +1,73 @@
+{
+	"orð": "skoppa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skopp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skopp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skoppa",
+		"sagnbót": "skoppað",
+		"boðháttur": {
+			"stýfður": "skoppa",
+			"et": "skoppaðu",
+			"ft": "skoppið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skoppa", "skoppar", "skoppar"],
+					"ft": ["skoppum", "skoppið", "skoppa"]
+				},
+				"þátíð": {
+					"et": ["skoppaði", "skoppaðir", "skoppaði"],
+					"ft": ["skoppuðum", "skoppuðuð", "skoppuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skoppi", "skoppir", "skoppi"],
+					"ft": ["skoppum", "skoppið", "skoppi"]
+				},
+				"þátíð": {
+					"et": ["skoppaði", "skoppaðir", "skoppaði"],
+					"ft": ["skoppuðum", "skoppuðuð", "skoppuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skopparðu",
+					"ft": "skoppiði"
+				},
+				"þátíð": {
+					"et": "skoppaðirðu",
+					"ft": "skoppuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skoppirðu",
+					"ft": "skoppiði"
+				},
+				"þátíð": {
+					"et": "skoppaðirðu",
+					"ft": "skoppuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skoppandi"
+	},
+	"kennistrengur": "so-skoppa",
+	"hash": "81a598f8ab067f195cb6540eb1133ce5757f27749286a2718b5874d8948bfb53"
+}

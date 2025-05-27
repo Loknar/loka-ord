@@ -1,6 +1,16 @@
 {
 	"orð": "stoppa",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stopp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stopp-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "stoppa",
 		"sagnbót": "stoppað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "stoppast",
 		"sagnbót": "stoppast",
+		"boðháttur": {
+			"et": "stoppastu",
+			"ft": "stoppist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-stoppa",
-	"hash": "0e93f10c86b91a127c4b94896340717dcd6ed84215b533a017917575127f9d3c"
+	"hash": "c330dc5fe752387dbfa3edeae64fd69b7ed3150921d3e86b4528c6a53ad79ec8"
 }
