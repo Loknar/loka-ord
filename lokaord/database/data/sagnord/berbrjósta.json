@@ -1,0 +1,81 @@
+{
+	"orð": "berbrjósta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ber",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-ber"
+		},
+		{
+			"mynd": "brjóst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brjóst-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "berbrjósta",
+		"sagnbót": "berbrjóstað",
+		"boðháttur": {
+			"stýfður": "berbrjósta",
+			"et": "berbrjóstaðu",
+			"ft": "berbrjóstið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["berbrjósta", "berbrjóstar", "berbrjóstar"],
+					"ft": ["berbrjóstum", "berbrjóstið", "berbrjósta"]
+				},
+				"þátíð": {
+					"et": ["berbrjóstaði", "berbrjóstaðir", "berbrjóstaði"],
+					"ft": ["berbrjóstuðum", "berbrjóstuðuð", "berbrjóstuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["berbrjósti", "berbrjóstir", "berbrjósti"],
+					"ft": ["berbrjóstum", "berbrjóstið", "berbrjósti"]
+				},
+				"þátíð": {
+					"et": ["berbrjóstaði", "berbrjóstaðir", "berbrjóstaði"],
+					"ft": ["berbrjóstuðum", "berbrjóstuðuð", "berbrjóstuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["berbrjóstaður", "berbrjóstaðan", "berbrjóstuðum", "berbrjóstaðs"],
+					"kvk": ["berbrjóstuð", "berbrjóstaða", "berbrjóstaðri", "berbrjóstaðrar"],
+					"hk": ["berbrjóstað", "berbrjóstað", "berbrjóstuðu", "berbrjóstaðs"]
+				},
+				"ft": {
+					"kk": ["berbrjóstaðir", "berbrjóstaða", "berbrjóstuðum", "berbrjóstaðra"],
+					"kvk": ["berbrjóstaðar", "berbrjóstaðar", "berbrjóstuðum", "berbrjóstaðra"],
+					"hk": ["berbrjóstuð", "berbrjóstuð", "berbrjóstuðum", "berbrjóstaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["berbrjóstaði", "berbrjóstaða", "berbrjóstaða", "berbrjóstaða"],
+					"kvk": ["berbrjóstaða", "berbrjóstuðu", "berbrjóstuðu", "berbrjóstuðu"],
+					"hk": ["berbrjóstaða", "berbrjóstaða", "berbrjóstaða", "berbrjóstaða"]
+				},
+				"ft": {
+					"kk": ["berbrjóstuðu", "berbrjóstuðu", "berbrjóstuðu", "berbrjóstuðu"],
+					"kvk": ["berbrjóstuðu", "berbrjóstuðu", "berbrjóstuðu", "berbrjóstuðu"],
+					"hk": ["berbrjóstuðu", "berbrjóstuðu", "berbrjóstuðu", "berbrjóstuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-berbrjósta",
+	"hash": "eb513e12ee8a1725b7db628b0e12e0f4cdc60e486d9ecb58c108197e0d4cb7cd"
+}

@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Borg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-borg-kvk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Borga", "Borgu", "Borgu", "Borgu"]
 	},
 	"kennistrengur": "sérn.gn-Borga-kvk",
-	"hash": "10a60d16df0a6a770f4f3266dcd4a3e59c868eef905a25139e8767182e2b2dc3"
+	"hash": "c895b7420029772ded629e0af96d11bfc1a0ed5da72c0ee04d6b53b0bd78edfb"
 }
