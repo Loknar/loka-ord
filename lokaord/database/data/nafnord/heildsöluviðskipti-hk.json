@@ -1,0 +1,32 @@
+{
+	"orð": "heildsöluviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heild",
+			"samsetning": "stofn",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["heildsöluviðskipti", "heildsöluviðskipti", "heildsöluviðskiptum", "heildsöluviðskipta"],
+		"mg": ["heildsöluviðskiptin", "heildsöluviðskiptin", "heildsöluviðskiptunum", "heildsöluviðskiptanna"]
+	},
+	"kennistrengur": "no-heildsöluviðskipti-hk",
+	"hash": "3ec02c44c634a7407c3aec6ec66d2794917bd90871c6a9a57e81bf300a36ef05"
+}
