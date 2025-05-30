@@ -1,0 +1,87 @@
+{
+	"orð": "lifna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lifn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-lifa"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lifna",
+		"sagnbót": "lifnað",
+		"boðháttur": {
+			"stýfður": "lifna",
+			"et": "lifnaðu",
+			"ft": "lifnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lifna", "lifnar", "lifnar"],
+					"ft": ["lifnum", "lifnið", "lifna"]
+				},
+				"þátíð": {
+					"et": ["lifnaði", "lifnaðir", "lifnaði"],
+					"ft": ["lifnuðum", "lifnuðuð", "lifnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lifni", "lifnir", "lifni"],
+					"ft": ["lifnum", "lifnið", "lifni"]
+				},
+				"þátíð": {
+					"et": ["lifnaði", "lifnaðir", "lifnaði"],
+					"ft": ["lifnuðum", "lifnuðuð", "lifnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lifnarðu",
+					"ft": "lifniði"
+				},
+				"þátíð": {
+					"et": "lifnaðirðu",
+					"ft": "lifnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lifnirðu",
+					"ft": "lifniði"
+				},
+				"þátíð": {
+					"et": "lifnaðirðu",
+					"ft": "lifnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lifnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lifnaður", "lifnaðan", "lifnuðum", "lifnaðs"],
+					"kvk": ["lifnuð", "lifnaða", "lifnaðri", "lifnaðrar"],
+					"hk": ["lifnað", "lifnað", "lifnuðu", "lifnaðs"]
+				},
+				"ft": {
+					"kk": ["lifnaðir", "lifnaða", "lifnuðum", "lifnaðra"],
+					"kvk": ["lifnaðar", "lifnaðar", "lifnuðum", "lifnaðra"],
+					"hk": ["lifnuð", "lifnuð", "lifnuðum", "lifnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lifna",
+	"hash": "56c1a27334db74910e699c5dbeace0d677435c4d3c2aae01fb0bb311a560c7f3"
+}
