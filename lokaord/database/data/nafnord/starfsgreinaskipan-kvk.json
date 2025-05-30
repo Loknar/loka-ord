@@ -1,0 +1,27 @@
+{
+	"orð": "starfsgreinaskipan",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "greina",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-grein-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skipan-kvk"
+		}
+	],
+	"et": {
+		"ág": ["starfsgreinaskipan", "starfsgreinaskipan", "starfsgreinaskipan", "starfsgreinaskipanar"],
+		"mg": ["starfsgreinaskipanin", "starfsgreinaskipanina", "starfsgreinaskipaninni", "starfsgreinaskipanarinnar"]
+	},
+	"kennistrengur": "no-starfsgreinaskipan-kvk",
+	"hash": "b2cf39396b65db57fe5db3fb6e665e724ece4117fb53d7cb2f3bafc498230c8f"
+}

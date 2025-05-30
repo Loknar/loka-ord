@@ -2,10 +2,22 @@
 	"orð": "litháíska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lithá",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.ön-Litháen-hk"
+		},
+		{
+			"leiðir": "ísk",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["litháíska", "litháísku", "litháísku", "litháísku"],
 		"mg": ["litháískan", "litháískuna", "litháískunni", "litháískunnar"]
 	},
 	"kennistrengur": "no-litháíska-kvk",
-	"hash": "d5d508b5f55b51c7a88f3b427cf837ed2db4eb919eeeaee875a13af7816f6891"
+	"hash": "9d1a786ac7ffbb1de44555380458ea6677f481ba4612071fc333118398138a70"
 }
