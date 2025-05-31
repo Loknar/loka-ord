@@ -1,0 +1,27 @@
+{
+	"orð": "lífveruleifar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "veru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vera-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-leif-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lífveruleifar", "lífveruleifar", "lífveruleifum", "lífveruleifa"],
+		"mg": ["lífveruleifarnar", "lífveruleifarnar", "lífveruleifunum", "lífveruleifanna"]
+	},
+	"kennistrengur": "no-lífveruleifar-kvk",
+	"hash": "c9f4be0d6402f0e163ababf64889fb0764665fae5e5b58e6032ae432d846d4e2"
+}

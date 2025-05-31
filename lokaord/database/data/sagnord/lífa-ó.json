@@ -1,0 +1,74 @@
+{
+	"orð": "lífa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lífa",
+		"sagnbót": "lífað",
+		"boðháttur": {
+			"stýfður": "lífa",
+			"et": "lífaðu",
+			"ft": "lífið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lífa", "lífar", "lífar"],
+					"ft": ["lífum", "lífið", "lífa"]
+				},
+				"þátíð": {
+					"et": ["lífaði", "lífaðir", "lífaði"],
+					"ft": ["lífuðum", "lífuðuð", "lífuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lífi", "lífir", "lífi"],
+					"ft": ["lífum", "lífið", "lífi"]
+				},
+				"þátíð": {
+					"et": ["lífaði", "lífaðir", "lífaði"],
+					"ft": ["lífuðum", "lífuðuð", "lífuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lífarðu",
+					"ft": "lífiði"
+				},
+				"þátíð": {
+					"et": "lífaðirðu",
+					"ft": "lífuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lífirðu",
+					"ft": "lífiði"
+				},
+				"þátíð": {
+					"et": "lífaðirðu",
+					"ft": "lífuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lífandi"
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-lífa-ó",
+	"hash": "c0b7568a32fdf05c590d699cf4debeb5b16fa1b63d0da8f509c6d8efabfe1a05"
+}
