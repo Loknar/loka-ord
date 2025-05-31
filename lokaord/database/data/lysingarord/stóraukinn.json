@@ -8,7 +8,6 @@
 			"kennistrengur": "lo-stór"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-aukinn"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["stórauknari", "stórauknari", "stórauknari", "stórauknari"],
+				"kvk": ["stórauknari", "stórauknari", "stórauknari", "stórauknari"],
+				"hk": ["stórauknara", "stórauknara", "stórauknara", "stórauknara"]
+			},
+			"ft": {
+				"kk": ["stórauknari", "stórauknari", "stórauknari", "stórauknari"],
+				"kvk": ["stórauknari", "stórauknari", "stórauknari", "stórauknari"],
+				"hk": ["stórauknari", "stórauknari", "stórauknari", "stórauknari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["stórauknastur", "stórauknastan", "stórauknustum", "stórauknasts"],
+				"kvk": ["stórauknust", "stórauknasta", "stórauknastri", "stórauknastrar"],
+				"hk": ["stórauknast", "stórauknast", "stórauknustu", "stórauknasts"]
+			},
+			"ft": {
+				"kk": ["stórauknastir", "stórauknasta", "stórauknustum", "stórauknastra"],
+				"kvk": ["stórauknastar", "stórauknastar", "stórauknustum", "stórauknastra"],
+				"hk": ["stórauknust", "stórauknust", "stórauknustum", "stórauknastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["stórauknasti", "stórauknasta", "stórauknasta", "stórauknasta"],
+				"kvk": ["stórauknasta", "stórauknustu", "stórauknustu", "stórauknustu"],
+				"hk": ["stórauknasta", "stórauknasta", "stórauknasta", "stórauknasta"]
+			},
+			"ft": {
+				"kk": ["stórauknustu", "stórauknustu", "stórauknustu", "stórauknustu"],
+				"kvk": ["stórauknustu", "stórauknustu", "stórauknustu", "stórauknustu"],
+				"hk": ["stórauknustu", "stórauknustu", "stórauknustu", "stórauknustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-stóraukinn",
-	"hash": "344b68de17bef28e9a4b6baeb12f48d46b4ce1df7b1e7d26461849fb30f6b31f"
+	"hash": "89a88101bb889d735783ebad10c7807b4ba2190c2856683c9f11fbcf8dcd021f"
 }
