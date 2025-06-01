@@ -1,0 +1,27 @@
+{
+	"orð": "Tæknimenntaskólinn",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Tækni",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tækni-kvk"
+		},
+		{
+			"mynd": "mennta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mennt-kvk"
+		},
+		{
+			"beygingar": ["et-mg"],
+			"kennistrengur": "no-skóli-kk"
+		}
+	],
+	"et": {
+		"mg": ["Tæknimenntaskólinn", "Tæknimenntaskólann", "Tæknimenntaskólanum", "Tæknimenntaskólans"]
+	},
+	"kennistrengur": "sérn.ön-Tæknimenntaskólinn-kk",
+	"hash": "78f8498ee84322ef33d68ced4598aef8eec641e383ee824fad08cc20b3f9cbc9"
+}

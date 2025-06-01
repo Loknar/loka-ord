@@ -1,0 +1,35 @@
+{
+	"orð": "kaupskipaútgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "skipa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skip-hk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kaupskipaútgerð", "kaupskipaútgerð", "kaupskipaútgerð", "kaupskipaútgerðar"],
+		"mg": ["kaupskipaútgerðin", "kaupskipaútgerðina", "kaupskipaútgerðinni", "kaupskipaútgerðarinnar"]
+	},
+	"ft": {
+		"ág": ["kaupskipaútgerðir", "kaupskipaútgerðir", "kaupskipaútgerðum", "kaupskipaútgerða"],
+		"mg": ["kaupskipaútgerðirnar", "kaupskipaútgerðirnar", "kaupskipaútgerðunum", "kaupskipaútgerðanna"]
+	},
+	"kennistrengur": "no-kaupskipaútgerð-kvk",
+	"hash": "f5c44a398ab949392d758452ca5f05800a83cad231e05d622af79b13555c292e"
+}

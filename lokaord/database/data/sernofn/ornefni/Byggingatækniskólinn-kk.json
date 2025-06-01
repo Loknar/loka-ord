@@ -1,0 +1,27 @@
+{
+	"orð": "Byggingatækniskólinn",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Bygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"mynd": "tækni",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tækni-kvk"
+		},
+		{
+			"beygingar": ["et-mg"],
+			"kennistrengur": "no-skóli-kk"
+		}
+	],
+	"et": {
+		"mg": ["Byggingatækniskólinn", "Byggingatækniskólann", "Byggingatækniskólanum", "Byggingatækniskólans"]
+	},
+	"kennistrengur": "sérn.ön-Byggingatækniskólinn-kk",
+	"hash": "393c0dbaa23f165bfeae27b6547377c75da50c0897ef6f9d3d455809b26dc87c"
+}
