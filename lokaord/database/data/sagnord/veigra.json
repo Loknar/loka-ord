@@ -1,0 +1,73 @@
+{
+	"orð": "veigra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "veigr",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-veig-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veigra",
+		"sagnbót": "veigrað",
+		"boðháttur": {
+			"stýfður": "veigra",
+			"et": "veigraðu",
+			"ft": "veigrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veigra", "veigrar", "veigrar"],
+					"ft": ["veigrum", "veigrið", "veigra"]
+				},
+				"þátíð": {
+					"et": ["veigraði", "veigraðir", "veigraði"],
+					"ft": ["veigruðum", "veigruðuð", "veigruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veigri", "veigrir", "veigri"],
+					"ft": ["veigrum", "veigrið", "veigri"]
+				},
+				"þátíð": {
+					"et": ["veigraði", "veigraðir", "veigraði"],
+					"ft": ["veigruðum", "veigruðuð", "veigruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veigrarðu",
+					"ft": "veigriði"
+				},
+				"þátíð": {
+					"et": "veigraðirðu",
+					"ft": "veigruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veigrirðu",
+					"ft": "veigriði"
+				},
+				"þátíð": {
+					"et": "veigraðirðu",
+					"ft": "veigruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veigrandi"
+	},
+	"kennistrengur": "so-veigra",
+	"hash": "0cef0d7c767c8c10ac105d3d357ae77b8063c077c21e4998389f5fb348a99b83"
+}

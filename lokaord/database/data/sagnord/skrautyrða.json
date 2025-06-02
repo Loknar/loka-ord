@@ -1,0 +1,87 @@
+{
+	"orð": "skrautyrða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skraut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skraut-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-yrða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrautyrða",
+		"sagnbót": "skrautyrt",
+		"boðháttur": {
+			"stýfður": "skrautyrð",
+			"et": "skrautyrtu",
+			"ft": "skrautyrðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrautyrði", "skrautyrðir", "skrautyrðir"],
+					"ft": ["skrautyrðum", "skrautyrðið", "skrautyrða"]
+				},
+				"þátíð": {
+					"et": ["skrautyrti", "skrautyrtir", "skrautyrti"],
+					"ft": ["skrautyrtum", "skrautyrtuð", "skrautyrtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrautyrði", "skrautyrðir", "skrautyrði"],
+					"ft": ["skrautyrðum", "skrautyrðið", "skrautyrði"]
+				},
+				"þátíð": {
+					"et": ["skrautyrti", "skrautyrtir", "skrautyrti"],
+					"ft": ["skrautyrtum", "skrautyrtuð", "skrautyrtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrautyrðirðu",
+					"ft": "skrautyrðiði"
+				},
+				"þátíð": {
+					"et": "skrautyrtirðu",
+					"ft": "skrautyrtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrautyrðirðu",
+					"ft": "skrautyrðiði"
+				},
+				"þátíð": {
+					"et": "skrautyrtirðu",
+					"ft": "skrautyrtuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrautyrðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrautyrtur", "skrautyrtan", "skrautyrtum", "skrautyrts"],
+					"kvk": ["skrautyrt", "skrautyrta", "skrautyrtri", "skrautyrtrar"],
+					"hk": ["skrautyrt", "skrautyrt", "skrautyrtu", "skrautyrts"]
+				},
+				"ft": {
+					"kk": ["skrautyrtir", "skrautyrta", "skrautyrtum", "skrautyrtra"],
+					"kvk": ["skrautyrtar", "skrautyrtar", "skrautyrtum", "skrautyrtra"],
+					"hk": ["skrautyrt", "skrautyrt", "skrautyrtum", "skrautyrtra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrautyrða",
+	"hash": "d3f0b01aa935af5f6ee2ddcd675ec4fd6f79cfff2ab945cf4a70b1faab1a7f3c"
+}

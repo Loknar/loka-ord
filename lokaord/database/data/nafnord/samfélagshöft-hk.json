@@ -1,0 +1,27 @@
+{
+	"orð": "samfélagshöft",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-haft-hk"
+		}
+	],
+	"ft": {
+		"ág": ["samfélagshöft", "samfélagshöft", "samfélagshöftum", "samfélagshafta"],
+		"mg": ["samfélagshöftin", "samfélagshöftin", "samfélagshöftunum", "samfélagshaftanna"]
+	},
+	"kennistrengur": "no-samfélagshöft-hk",
+	"hash": "2738be128704b69252e3256ad9fe15b63e79bfff67a615af250bb44ade02c1c1"
+}

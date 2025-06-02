@@ -8,7 +8,7 @@
 			"kennistrengur": "no-mygla-kvk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -79,9 +79,21 @@
 					"kvk": ["myglaðar", "myglaðar", "mygluðum", "myglaðra"],
 					"hk": ["mygluð", "mygluð", "mygluðum", "myglaðra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["myglaði", "myglaða", "myglaða", "myglaða"],
+					"kvk": ["myglaða", "mygluðu", "mygluðu", "mygluðu"],
+					"hk": ["myglaða", "myglaða", "myglaða", "myglaða"]
+				},
+				"ft": {
+					"kk": ["mygluðu", "mygluðu", "mygluðu", "mygluðu"],
+					"kvk": ["mygluðu", "mygluðu", "mygluðu", "mygluðu"],
+					"hk": ["mygluðu", "mygluðu", "mygluðu", "mygluðu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-mygla",
-	"hash": "d450d0d8697ec60bec5d43c2d4decaba299060ac827e15929943d16a606fce79"
+	"hash": "9b75637792b966e0efabb982989992dd3135e00fa3fcb61c5b3a2ac6f8f37de9"
 }

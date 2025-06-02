@@ -1,6 +1,16 @@
 {
 	"orð": "ydda",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ydd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ydd-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "ydda",
 		"sagnbót": "yddað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "yddast",
 		"sagnbót": "yddast",
+		"boðháttur": {
+			"et": "yddastu",
+			"ft": "yddist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-ydda",
-	"hash": "be77407b61d8f141b3f4dc7f41e680bad11604e00d2370e4cb6f2bdd65b5d665"
+	"hash": "1aa36b33ffb9701757c2157195c2ca0a870e3ded63228eb5a4ddd8e5aa88af03"
 }

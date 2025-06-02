@@ -2,10 +2,21 @@
 	"orð": "nammi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "namm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-namm-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["nammi", "nammi", "nammi", "nammis"],
 		"mg": ["nammið", "nammið", "namminu", "nammisins"]
 	},
 	"kennistrengur": "no-nammi-hk",
-	"hash": "d00ddb7bbcc56ebc4f6fc287db4b88df2493f9af90fc75df24c72bfdfb221e5f"
+	"hash": "45a3c182b30be095150704f82b8c6ffa7c4932c62c3f4630a4dff705d5552f3a"
 }
