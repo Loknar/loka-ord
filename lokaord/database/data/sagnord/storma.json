@@ -1,0 +1,73 @@
+{
+	"orð": "storma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "storm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stormur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "storma",
+		"sagnbót": "stormað",
+		"boðháttur": {
+			"stýfður": "storma",
+			"et": "stormaðu",
+			"ft": "stormið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["storma", "stormar", "stormar"],
+					"ft": ["stormum", "stormið", "storma"]
+				},
+				"þátíð": {
+					"et": ["stormaði", "stormaðir", "stormaði"],
+					"ft": ["stormuðum", "stormuðuð", "stormuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stormi", "stormir", "stormi"],
+					"ft": ["stormum", "stormið", "stormi"]
+				},
+				"þátíð": {
+					"et": ["stormaði", "stormaðir", "stormaði"],
+					"ft": ["stormuðum", "stormuðuð", "stormuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stormarðu",
+					"ft": "stormiði"
+				},
+				"þátíð": {
+					"et": "stormaðirðu",
+					"ft": "stormuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stormirðu",
+					"ft": "stormiði"
+				},
+				"þátíð": {
+					"et": "stormaðirðu",
+					"ft": "stormuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stormandi"
+	},
+	"kennistrengur": "so-storma",
+	"hash": "c33194f83c052af71831c809977cfabd9105fe43913304ba6af33b502757312e"
+}
