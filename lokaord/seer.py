@@ -846,6 +846,7 @@ def clean_string(mystr: str) -> str:
 		('\t', ' '),
 		# bæta við bilum sumstaðar
 		('/', ' / '),
+		('[', ' ['),
 		# meðhöndla annarskonar kommustafaaðferð, skipta út fyrir venjubundna kommustafi
 		('A\u0301', 'Á'),
 		('E\u0301', 'É'),
