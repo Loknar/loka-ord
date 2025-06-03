@@ -2,6 +2,16 @@
 	"orð": "pípa",
 	"flokkur": "sagnorð",
 	"merking": "flæði",
+	"samsett": [
+		{
+			"mynd": "píp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-pípa-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "pípa",
 		"sagnbót": "pípað",
@@ -55,6 +65,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "pípast",
+		"sagnbót": "pípast",
+		"boðháttur": {
+			"et": "pípastu",
+			"ft": "pípist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pípast", "pípast", "pípast"],
+					"ft": ["pípumst", "pípist", "pípast"]
+				},
+				"þátíð": {
+					"et": ["pípaðist", "pípaðist", "pípaðist"],
+					"ft": ["pípuðumst", "pípuðust", "pípuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pípist", "pípist", "pípist"],
+					"ft": ["pípumst", "pípist", "pípist"]
+				},
+				"þátíð": {
+					"et": ["pípaðist", "pípaðist", "pípaðist"],
+					"ft": ["pípuðumst", "pípuðust", "pípuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pípastu"
+				},
+				"þátíð": {
+					"et": "pípaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pípistu"
+				},
+				"þátíð": {
+					"et": "pípaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "pípandi",
 		"þátíðar": {
@@ -85,5 +143,5 @@
 		}
 	},
 	"kennistrengur": "so-pípa-_flæði_",
-	"hash": "8c91c39c27900ed44057c3ebf07a714bc0390c0680bce150bb44690754cdc4d9"
+	"hash": "ed56b57bbb1c2e9e54f2b3c656cc47892f2b4e391488d0c7ceb0a0ffe9cbac19"
 }

@@ -1,0 +1,27 @@
+{
+	"orð": "tónbókmenntir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tónn-kk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mennt-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["tónbókmenntir", "tónbókmenntir", "tónbókmenntum", "tónbókmennta"],
+		"mg": ["tónbókmenntirnar", "tónbókmenntirnar", "tónbókmenntunum", "tónbókmenntanna"]
+	},
+	"kennistrengur": "no-tónbókmenntir-kvk",
+	"hash": "f74a2014d38a81d05eee50b3f6b051ef706d0722cc281101c22f22e1e649649d"
+}
