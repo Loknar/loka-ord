@@ -1,0 +1,65 @@
+{
+	"orð": "múga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "múg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-múgi-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "múga",
+		"sagnbót": "múgað",
+		"boðháttur": {
+			"stýfður": "múga",
+			"et": "múgaðu",
+			"ft": "múgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["múga", "múgar", "múgar"],
+					"ft": ["múgum", "múgið", "múga"]
+				},
+				"þátíð": {
+					"et": ["múgaði", "múgaðir", "múgaði"],
+					"ft": ["múguðum", "múguðuð", "múguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["múgi", "múgir", "múgi"],
+					"ft": ["múgum", "múgið", "múgi"]
+				},
+				"þátíð": {
+					"et": ["múgaði", "múgaðir", "múgaði"],
+					"ft": ["múguðum", "múguðuð", "múguðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "múgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["múgaður", "múgaðan", "múguðum", "múgaðs"],
+					"kvk": ["múguð", "múgaða", "múgaðri", "múgaðrar"],
+					"hk": ["múgað", "múgað", "múguðu", "múgaðs"]
+				},
+				"ft": {
+					"kk": ["múgaðir", "múgaða", "múguðum", "múgaðra"],
+					"kvk": ["múgaðar", "múgaðar", "múguðum", "múgaðra"],
+					"hk": ["múguð", "múguð", "múguðum", "múgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-múga",
+	"hash": "4936cdc7edf338883a796a66a3988bb62b31e9189db079f09ad25818fd9ec53c"
+}

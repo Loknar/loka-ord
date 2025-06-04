@@ -2,15 +2,25 @@
 	"orð": "tækt",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tæk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-tækur"
+		},
+		{
+			"kennistrengur": "no-t-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tækt", "tækt", "tækt", "tæktar"],
 		"mg": ["tæktin", "tæktina", "tæktinni", "tæktarinnar"]
 	},
 	"ft": {
 		"ág": ["tæktir", "tæktir", "tæktum", "tækta"],
-		"mg": ["tæktirnar", "tæktirnar", "tæktunum", "tæktnna"]
+		"mg": ["tæktirnar", "tæktirnar", "tæktunum", "tæktanna"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-tækt-kvk-ó",
-	"hash": "2c908be652905c8a2698a18a660c20d63ed8e6cc2888bcde056399546489a65d"
+	"hash": "f39b9b743f11678020bacb50eb90331bb0af2cc447eae4b09845f3043bbcab6f"
 }

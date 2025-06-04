@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"tölugildi": 5,
+	"samsett": [
+		{
+			"mynd": "fimm",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-fimm"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["fimma", "fimmu", "fimmu", "fimmu"],
 		"mg": ["fimman", "fimmuna", "fimmunni", "fimmunnar"]
@@ -12,5 +22,5 @@
 		"mg": ["fimmurnar", "fimmurnar", "fimmunum", "fimmanna"]
 	},
 	"kennistrengur": "no-fimma-kvk",
-	"hash": "8957a0cfadb0a567eeaff5e5bd0b8b3e4625502beacb0e2a7de16facd0bec055"
+	"hash": "61fecfbe98c56c237d5c7cecd3a1c430f1af2cdf6c00e247101245552bee4064"
 }

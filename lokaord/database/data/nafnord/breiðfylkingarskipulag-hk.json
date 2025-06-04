@@ -1,0 +1,32 @@
+{
+	"orð": "breiðfylkingarskipulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "breið",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-breiður"
+		},
+		{
+			"mynd": "fylkingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fylking-kvk"
+		},
+		{
+			"mynd": "skipu",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["breiðfylkingarskipulag", "breiðfylkingarskipulag", "breiðfylkingarskipulagi", "breiðfylkingarskipulags"],
+		"mg": ["breiðfylkingarskipulagið", "breiðfylkingarskipulagið", "breiðfylkingarskipulaginu", "breiðfylkingarskipulagsins"]
+	},
+	"kennistrengur": "no-breiðfylkingarskipulag-hk",
+	"hash": "5c6a00498053eb6c7c71dfec6b722afc933156b9e358a7e40ff7ce81ef8d2381"
+}

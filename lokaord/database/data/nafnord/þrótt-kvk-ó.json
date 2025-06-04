@@ -2,6 +2,16 @@
 	"orð": "þrótt",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þrót",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þróttur-kk"
+		},
+		{
+			"kennistrengur": "no-t-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["þrótt", "þrótt", "þrótt", "þróttar"],
 		"mg": ["þróttin", "þróttina", "þróttinni", "þróttarinnar"]
@@ -12,5 +22,5 @@
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-þrótt-kvk-ó",
-	"hash": "0d4f6db8a4da3f4b3a290871147a068241569c52666e532030ddff2ec41e282e"
+	"hash": "f8ffb7cbc61f11c07c8e060dbe1e107cdd31da4e9d280f71abe5b5d7d05b0cf1"
 }
