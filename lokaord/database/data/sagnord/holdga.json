@@ -1,0 +1,95 @@
+{
+	"orð": "holdga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "holdg",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-hold-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "holdga",
+		"sagnbót": "holdgað",
+		"boðháttur": {
+			"stýfður": "holdga",
+			"et": "holdgaðu",
+			"ft": "holdgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["holdga", "holdgar", "holdgar"],
+					"ft": ["holdgum", "holdgið", "holdga"]
+				},
+				"þátíð": {
+					"et": ["holdgaði", "holdgaðir", "holdgaði"],
+					"ft": ["holdguðum", "holdguðuð", "holdguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holdgi", "holdgir", "holdgi"],
+					"ft": ["holdgum", "holdgið", "holdgi"]
+				},
+				"þátíð": {
+					"et": ["holdgaði", "holdgaðir", "holdgaði"],
+					"ft": ["holdguðum", "holdguðuð", "holdguðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "holdgast",
+		"sagnbót": "holdgast",
+		"boðháttur": {
+			"et": "holdgastu",
+			"ft": "holdgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["holdgast", "holdgast", "holdgast"],
+					"ft": ["holdgumst", "holdgist", "holdgast"]
+				},
+				"þátíð": {
+					"et": ["holdgaðist", "holdgaðist", "holdgaðist"],
+					"ft": ["holdguðumst", "holdguðust", "holdguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holdgist", "holdgist", "holdgist"],
+					"ft": ["holdgumst", "holdgist", "holdgist"]
+				},
+				"þátíð": {
+					"et": ["holdgaðist", "holdgaðist", "holdgaðist"],
+					"ft": ["holdguðumst", "holdguðust", "holdguðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "holdgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["holdgaður", "holdgaðan", "holdguðum", "holdgaðs"],
+					"kvk": ["holdguð", "holdgaða", "holdgaðri", "holdgaðrar"],
+					"hk": ["holdgað", "holdgað", "holdguðu", "holdgaðs"]
+				},
+				"ft": {
+					"kk": ["holdgaðir", "holdgaða", "holdguðum", "holdgaðra"],
+					"kvk": ["holdgaðar", "holdgaðar", "holdguðum", "holdgaðra"],
+					"hk": ["holdguð", "holdguð", "holdguðum", "holdgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-holdga",
+	"hash": "3cb6f6ab569486834b33ad5cd6099405710ec6cf42d48fc4abeb85a909feb738"
+}
