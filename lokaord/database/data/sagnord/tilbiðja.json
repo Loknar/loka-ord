@@ -1,0 +1,142 @@
+{
+	"orð": "tilbiðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"kennistrengur": "so-biðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilbiðja",
+		"sagnbót": "tilbeðið",
+		"boðháttur": {
+			"stýfður": "tilbið",
+			"et": "tilbiddu",
+			"ft": "tilbiðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilbið", "tilbiður", "tilbiður"],
+					"ft": ["tilbiðjum", "tilbiðjið", "tilbiðja"]
+				},
+				"þátíð": {
+					"et": ["tilbað", "tilbaðst", "tilbað"],
+					"ft": ["tilbáðum", "tilbáðuð", "tilbáðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilbiðji", "tilbiðjir", "tilbiðji"],
+					"ft": ["tilbiðjum", "tilbiðjið", "tilbiðji"]
+				},
+				"þátíð": {
+					"et": ["tilbæði", "tilbæðir", "tilbæði"],
+					"ft": ["tilbæðum", "tilbæðuð", "tilbæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilbiðurðu",
+					"ft": "tilbiðjiði"
+				},
+				"þátíð": {
+					"et": "tilbaðstu",
+					"ft": "tilbáðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilbiðjirðu",
+					"ft": "tilbiðjiði"
+				},
+				"þátíð": {
+					"et": "tilbæðirðu",
+					"ft": "tilbæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tilbiðjast",
+		"sagnbót": "tilbeðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilbiðst", "tilbiðst", "tilbiðst"],
+					"ft": ["tilbiðjumst", "tilbiðjist", "tilbiðjast"]
+				},
+				"þátíð": {
+					"et": ["tilbaðst", "tilbaðst", "tilbaðst"],
+					"ft": ["tilbáðumst", "tilbáðust", "tilbáðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilbiðjist", "tilbiðjist", "tilbiðjist"],
+					"ft": ["tilbiðjumst", "tilbiðjist", "tilbiðjist"]
+				},
+				"þátíð": {
+					"et": ["tilbæðist", "tilbæðist", "tilbæðist"],
+					"ft": ["tilbæðumst", "tilbæðust", "tilbæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tilbiðstu"
+				},
+				"þátíð": {
+					"et": "tilbaðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilbiðjistu"
+				},
+				"þátíð": {
+					"et": "tilbæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilbiðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tilbeðinn", "tilbeðinn", "tilbeðnum", "tilbeðins"],
+					"kvk": ["tilbeðin", "tilbeðna", "tilbeðinni", "tilbeðinnar"],
+					"hk": ["tilbeðið", "tilbeðið", "tilbeðnu", "tilbeðins"]
+				},
+				"ft": {
+					"kk": ["tilbeðnir", "tilbeðna", "tilbeðnum", "tilbeðinna"],
+					"kvk": ["tilbeðnar", "tilbeðnar", "tilbeðnum", "tilbeðinna"],
+					"hk": ["tilbeðin", "tilbeðin", "tilbeðnum", "tilbeðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tilbeðni", "tilbeðna", "tilbeðna", "tilbeðna"],
+					"kvk": ["tilbeðna", "tilbeðnu", "tilbeðnu", "tilbeðnu"],
+					"hk": ["tilbeðna", "tilbeðna", "tilbeðna", "tilbeðna"]
+				},
+				"ft": {
+					"kk": ["tilbeðnu", "tilbeðnu", "tilbeðnu", "tilbeðnu"],
+					"kvk": ["tilbeðnu", "tilbeðnu", "tilbeðnu", "tilbeðnu"],
+					"hk": ["tilbeðnu", "tilbeðnu", "tilbeðnu", "tilbeðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tilbiðja",
+	"hash": "8b607c25954b1729d77653f4e34b80cb9f32026090d99def1fed01a405596a18"
+}

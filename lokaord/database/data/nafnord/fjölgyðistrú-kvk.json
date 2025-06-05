@@ -1,0 +1,27 @@
+{
+	"orð": "fjölgyðistrú",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjöl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjöl-kvk"
+		},
+		{
+			"mynd": "gyðis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-gyð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-trú-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjölgyðistrú", "fjölgyðistrú", "fjölgyðistrú", "fjölgyðistrúar"],
+		"mg": ["fjölgyðistrúin", "fjölgyðistrúna", "fjölgyðistrúnni", "fjölgyðistrúarinnar"]
+	},
+	"kennistrengur": "no-fjölgyðistrú-kvk",
+	"hash": "9c807ad124afa7583082b9fd5acb6ef35fd383e5c7ec56ca12ceeb67d6bb5b10"
+}
