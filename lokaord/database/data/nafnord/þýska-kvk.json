@@ -2,10 +2,21 @@
 	"orð": "þýska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þýsk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þýskur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["þýska", "þýsku", "þýsku", "þýsku"],
 		"mg": ["þýskan", "þýskuna", "þýskunni", "þýskunnar"]
 	},
 	"kennistrengur": "no-þýska-kvk",
-	"hash": "95c6664e781be6c36db5ddc06200de53647fc2eefaf83f3f5fc89d7c1ea1d0e8"
+	"hash": "02bb3e952e09eea0af8b9e69be5f218a43413e357a3b3a8b0cc5546f68711214"
 }

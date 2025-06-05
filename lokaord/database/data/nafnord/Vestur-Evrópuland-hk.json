@@ -4,9 +4,14 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "Vestur-Evrópu",
+			"mynd": "Vestur-",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vestur-hk"
+		},
+		{
+			"mynd": "Evrópu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "sérn.ön-Vestur-Evrópa-kvk"
+			"kennistrengur": "sérn.ön-Evrópa-kvk"
 		},
 		{
 			"kennistrengur": "no-land-hk"
@@ -21,5 +26,5 @@
 		"mg": ["Vestur-Evrópulöndin", "Vestur-Evrópulöndin", "Vestur-Evrópulöndunum", "Vestur-Evrópulandanna"]
 	},
 	"kennistrengur": "no-Vestur-Evrópuland-hk",
-	"hash": "3326a711acfbe198a6403a313751eac1c4a063e3c791c9aa9c8451638362d544"
+	"hash": "035747f95f34a580e59d8e5980d00513a2a0f14bf5c3f692e73ebfc3e558e23c"
 }
