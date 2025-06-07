@@ -1,0 +1,87 @@
+{
+	"orð": "rauðmerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rauð",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-rauður"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rauðmerkja",
+		"sagnbót": "rauðmerkt",
+		"boðháttur": {
+			"stýfður": "rauðmerk",
+			"et": "rauðmerktu",
+			"ft": "rauðmerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rauðmerki", "rauðmerkir", "rauðmerkir"],
+					"ft": ["rauðmerkjum", "rauðmerkið", "rauðmerkja"]
+				},
+				"þátíð": {
+					"et": ["rauðmerkti", "rauðmerktir", "rauðmerkti"],
+					"ft": ["rauðmerktum", "rauðmerktuð", "rauðmerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rauðmerki", "rauðmerkir", "rauðmerki"],
+					"ft": ["rauðmerkjum", "rauðmerkið", "rauðmerki"]
+				},
+				"þátíð": {
+					"et": ["rauðmerkti", "rauðmerktir", "rauðmerkti"],
+					"ft": ["rauðmerktum", "rauðmerktuð", "rauðmerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rauðmerkirðu",
+					"ft": "rauðmerkiði"
+				},
+				"þátíð": {
+					"et": "rauðmerktirðu",
+					"ft": "rauðmerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rauðmerkirðu",
+					"ft": "rauðmerkiði"
+				},
+				"þátíð": {
+					"et": "rauðmerktirðu",
+					"ft": "rauðmerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rauðmerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rauðmerktur", "rauðmerktan", "rauðmerktum", "rauðmerkts"],
+					"kvk": ["rauðmerkt", "rauðmerkta", "rauðmerktri", "rauðmerktrar"],
+					"hk": ["rauðmerkt", "rauðmerkt", "rauðmerktu", "rauðmerkts"]
+				},
+				"ft": {
+					"kk": ["rauðmerktir", "rauðmerkta", "rauðmerktum", "rauðmerktra"],
+					"kvk": ["rauðmerktar", "rauðmerktar", "rauðmerktum", "rauðmerktra"],
+					"hk": ["rauðmerkt", "rauðmerkt", "rauðmerktum", "rauðmerktra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rauðmerkja",
+	"hash": "b99710a974cf87dfcaa0b989ae64194868d7a33ea97bdba727af56c4b9578698"
+}

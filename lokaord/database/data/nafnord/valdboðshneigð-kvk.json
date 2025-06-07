@@ -1,0 +1,27 @@
+{
+	"orð": "valdboðshneigð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vald-hk"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hneigð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["valdboðshneigð", "valdboðshneigð", "valdboðshneigð", "valdboðshneigðar"],
+		"mg": ["valdboðshneigðin", "valdboðshneigðina", "valdboðshneigðinni", "valdboðshneigðarinnar"]
+	},
+	"kennistrengur": "no-valdboðshneigð-kvk",
+	"hash": "361c98364cd0ea35e72ecf33d3713933e5e8e77536464f01b40a6fd047a948ba"
+}
