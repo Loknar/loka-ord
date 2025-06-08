@@ -1,0 +1,48 @@
+{
+	"orð": "rafhlöðulaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "hlöðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlaða-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["rafhlöðulaus", "rafhlöðulausan", "rafhlöðulausum", "rafhlöðulauss"],
+				"kvk": ["rafhlöðulaus", "rafhlöðulausa", "rafhlöðulausri", "rafhlöðulausrar"],
+				"hk": ["rafhlöðulaust", "rafhlöðulaust", "rafhlöðulausu", "rafhlöðulauss"]
+			},
+			"ft": {
+				"kk": ["rafhlöðulausir", "rafhlöðulausa", "rafhlöðulausum", "rafhlöðulausra"],
+				"kvk": ["rafhlöðulausar", "rafhlöðulausar", "rafhlöðulausum", "rafhlöðulausra"],
+				"hk": ["rafhlöðulaus", "rafhlöðulaus", "rafhlöðulausum", "rafhlöðulausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["rafhlöðulausi", "rafhlöðulausa", "rafhlöðulausa", "rafhlöðulausa"],
+				"kvk": ["rafhlöðulausa", "rafhlöðulausu", "rafhlöðulausu", "rafhlöðulausu"],
+				"hk": ["rafhlöðulausa", "rafhlöðulausa", "rafhlöðulausa", "rafhlöðulausa"]
+			},
+			"ft": {
+				"kk": ["rafhlöðulausu", "rafhlöðulausu", "rafhlöðulausu", "rafhlöðulausu"],
+				"kvk": ["rafhlöðulausu", "rafhlöðulausu", "rafhlöðulausu", "rafhlöðulausu"],
+				"hk": ["rafhlöðulausu", "rafhlöðulausu", "rafhlöðulausu", "rafhlöðulausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-rafhlöðulaus",
+	"hash": "fab65368aec74f01476ff288b9885cfef4e3a00cbe00b63daeaf184b7951abe6"
+}

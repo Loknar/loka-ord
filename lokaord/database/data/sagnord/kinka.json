@@ -1,0 +1,51 @@
+{
+	"orð": "kinka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kink",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kinkan-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kinka",
+		"sagnbót": "kinkað",
+		"boðháttur": {
+			"stýfður": "kinka",
+			"et": "kinkaðu",
+			"ft": "kinkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kinka", "kinkar", "kinkar"],
+					"ft": ["kinkum", "kinkið", "kinka"]
+				},
+				"þátíð": {
+					"et": ["kinkaði", "kinkaðir", "kinkaði"],
+					"ft": ["kinkuðum", "kinkuðuð", "kinkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kinki", "kinkir", "kinki"],
+					"ft": ["kinkum", "kinkið", "kinki"]
+				},
+				"þátíð": {
+					"et": ["kinkaði", "kinkaðir", "kinkaði"],
+					"ft": ["kinkuðum", "kinkuðuð", "kinkuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kinkandi"
+	},
+	"kennistrengur": "so-kinka",
+	"hash": "43b31a5ec4bb3b49d0581d9f7c0d65ddac42307503c5fb63417848293ba3a9e6"
+}

@@ -1,0 +1,120 @@
+{
+	"orð": "klaga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "klaga",
+		"sagnbót": "klagað",
+		"boðháttur": {
+			"stýfður": "klaga",
+			"et": "klagaðu",
+			"ft": "klagið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klaga", "klagar", "klagar"],
+					"ft": ["klögum", "klagið", "klaga"]
+				},
+				"þátíð": {
+					"et": ["klagaði", "klagaðir", "klagaði"],
+					"ft": ["klöguðum", "klöguðuð", "klöguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klagi", "klagir", "klagi"],
+					"ft": ["klögum", "klagið", "klagi"]
+				},
+				"þátíð": {
+					"et": ["klagaði", "klagaðir", "klagaði"],
+					"ft": ["klöguðum", "klöguðuð", "klöguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klagarðu",
+					"ft": "klagiði"
+				},
+				"þátíð": {
+					"et": "klagaðirðu",
+					"ft": "klöguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klagirðu",
+					"ft": "klagiði"
+				},
+				"þátíð": {
+					"et": "klagaðirðu",
+					"ft": "klöguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klagast",
+		"sagnbót": "klagast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klagast", "klagast", "klagast"],
+					"ft": ["klögumst", "klagist", "klagast"]
+				},
+				"þátíð": {
+					"et": ["klagaðist", "klagaðist", "klagaðist"],
+					"ft": ["klöguðumst", "klöguðust", "klöguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klagist", "klagist", "klagist"],
+					"ft": ["klögumst", "klagist", "klagist"]
+				},
+				"þátíð": {
+					"et": ["klagaðist", "klagaðist", "klagaðist"],
+					"ft": ["klöguðumst", "klöguðust", "klöguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klagastu"
+				},
+				"þátíð": {
+					"et": "klagaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klagistu"
+				},
+				"þátíð": {
+					"et": "klagaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klagandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klagaður", "klagaðan", "klöguðum", "klagaðs"],
+					"kvk": ["klöguð", "klagaða", "klagaðri", "klagaðrar"],
+					"hk": ["klagað", "klagað", "klöguðu", "klagaðs"]
+				},
+				"ft": {
+					"kk": ["klagaðir", "klagaða", "klöguðum", "klagaðra"],
+					"kvk": ["klagaðar", "klagaðar", "klöguðum", "klagaðra"],
+					"hk": ["klöguð", "klöguð", "klöguðum", "klagaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klaga",
+	"hash": "fcda6bf1faf07310ac0a9a248bdd1db849927bd514766a905e58c3d3bb9fe10a"
+}

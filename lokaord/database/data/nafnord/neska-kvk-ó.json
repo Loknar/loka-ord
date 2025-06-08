@@ -2,11 +2,18 @@
 	"orð": "neska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"leiðir": "nesk",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["neska", "nesku", "nesku", "nesku"],
 		"mg": ["neskan", "neskuna", "neskunni", "neskunnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-neska-kvk-ó",
-	"hash": "7216016e588f07c8f3496d45e389c4e1b54f924dd5709078decd239c22be381e"
+	"hash": "5c155577942ac878f0021bfae86e44063566d3370a73e2a1d421ec49f111279a"
 }

@@ -1,0 +1,95 @@
+{
+	"orð": "kikna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "kikn",
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kikna",
+		"sagnbót": "kiknað",
+		"boðháttur": {
+			"stýfður": "kikna",
+			"et": "kiknaðu",
+			"ft": "kiknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kikna", "kiknar", "kiknar"],
+					"ft": ["kiknum", "kiknið", "kikna"]
+				},
+				"þátíð": {
+					"et": ["kiknaði", "kiknaðir", "kiknaði"],
+					"ft": ["kiknuðum", "kiknuðuð", "kiknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kikni", "kiknir", "kikni"],
+					"ft": ["kiknum", "kiknið", "kikni"]
+				},
+				"þátíð": {
+					"et": ["kiknaði", "kiknaðir", "kiknaði"],
+					"ft": ["kiknuðum", "kiknuðuð", "kiknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kiknarðu",
+					"ft": "kikniði"
+				},
+				"þátíð": {
+					"et": "kiknaðirðu",
+					"ft": "kiknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kiknirðu",
+					"ft": "kikniði"
+				},
+				"þátíð": {
+					"et": "kiknaðirðu",
+					"ft": "kiknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kiknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kiknaður", "kiknaðan", "kiknuðum", "kiknaðs"],
+					"kvk": ["kiknuð", "kiknaða", "kiknaðri", "kiknaðrar"],
+					"hk": ["kiknað", "kiknað", "kiknuðu", "kiknaðs"]
+				},
+				"ft": {
+					"kk": ["kiknaðir", "kiknaða", "kiknuðum", "kiknaðra"],
+					"kvk": ["kiknaðar", "kiknaðar", "kiknuðum", "kiknaðra"],
+					"hk": ["kiknuð", "kiknuð", "kiknuðum", "kiknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kiknaði", "kiknaða", "kiknaða", "kiknaða"],
+					"kvk": ["kiknaða", "kiknuðu", "kiknuðu", "kiknuðu"],
+					"hk": ["kiknaða", "kiknaða", "kiknaða", "kiknaða"]
+				},
+				"ft": {
+					"kk": ["kiknuðu", "kiknuðu", "kiknuðu", "kiknuðu"],
+					"kvk": ["kiknuðu", "kiknuðu", "kiknuðu", "kiknuðu"],
+					"hk": ["kiknuðu", "kiknuðu", "kiknuðu", "kiknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kikna",
+	"hash": "9fb7b27320d88e415dcac4164b93958216c06bd472f6c257afb6b75bdf1fdb0a"
+}

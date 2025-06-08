@@ -8,7 +8,6 @@
 			"kennistrengur": "no-ger-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -65,6 +64,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "gerjast",
+		"sagnbót": "gerjast",
+		"boðháttur": {
+			"et": "gerjastu",
+			"ft": "gerjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gerjast", "gerjast", "gerjast"],
+					"ft": ["gerjumst", "gerjist", "gerjast"]
+				},
+				"þátíð": {
+					"et": ["gerjaðist", "gerjaðist", "gerjaðist"],
+					"ft": ["gerjuðumst", "gerjuðust", "gerjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gerjist", "gerjist", "gerjist"],
+					"ft": ["gerjumst", "gerjist", "gerjist"]
+				},
+				"þátíð": {
+					"et": ["gerjaðist", "gerjaðist", "gerjaðist"],
+					"ft": ["gerjuðumst", "gerjuðust", "gerjuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gerjastu"
+				},
+				"þátíð": {
+					"et": "gerjaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gerjistu"
+				},
+				"þátíð": {
+					"et": "gerjaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "gerjandi",
 		"þátíðar": {
@@ -95,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-gerja",
-	"hash": "f8e1f7311a6c5ff3b8ae25f0ce6df7a614227dd4222c05f99aa0df36743e20e5"
+	"hash": "3ea176711621d237054dd8b7431e68735eb1b36ac0b372542f998f5a1a3b1909"
 }

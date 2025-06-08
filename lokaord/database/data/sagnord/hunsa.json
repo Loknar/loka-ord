@@ -1,6 +1,16 @@
 {
 	"orð": "hunsa",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "huns",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-hundur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "hunsa",
 		"sagnbót": "hunsað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "hunsast",
 		"sagnbót": "hunsast",
+		"boðháttur": {
+			"et": "hunsastu",
+			"ft": "hunsist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -109,7 +123,7 @@
 				},
 				"ft": {
 					"kk": ["hunsaðir", "hunsaða", "hunsuðum", "hunsaðra"],
-					"kvk": ["hunsaðar", "hunsaðar", "hunsðuðum", "hunsaðra"],
+					"kvk": ["hunsaðar", "hunsaðar", "hunsuðum", "hunsaðra"],
 					"hk": ["hunsuð", "hunsuð", "hunsuðum", "hunsaðra"]
 				}
 			},
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-hunsa",
-	"hash": "3871ace9a0bc0fde57fe8a43f6e6c2971865f91ac26fd4d8cc413fd13a41cba5"
+	"hash": "03b74a85d4bb660c1fff011cf86b1d78db172405a02c0bcb0bd7d2fe7d0a3fdc"
 }

@@ -2,10 +2,22 @@
 	"orð": "finnska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "finn",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.en-Finn-kk"
+		},
+		{
+			"leiðir": "sk",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["finnska", "finnsku", "finnsku", "finnsku"],
 		"mg": ["finnskan", "finnskuna", "finnskunni", "finnskunnar"]
 	},
 	"kennistrengur": "no-finnska-kvk",
-	"hash": "58d2f1325cd13e4ce0bf22a97b0b9e83b7f2ac79788dd0a0650132c0dda3df70"
+	"hash": "5b3558f066ca366e534880d9c3ba835c8248fa518a6df8011c2fe13600e2c00b"
 }

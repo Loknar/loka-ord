@@ -1,0 +1,163 @@
+{
+	"orð": "uppáleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "uppáleggja",
+		"sagnbót": "uppálagt",
+		"boðháttur": {
+			"stýfður": "uppálegg",
+			"et": "uppáleggðu",
+			"ft": "uppáleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppálegg", "uppáleggur", "uppáleggur"],
+					"ft": ["uppáleggjum", "uppáleggið", "uppáleggja"]
+				},
+				"þátíð": {
+					"et": ["uppálagði", "uppálagðir", "uppálagði"],
+					"ft": ["uppálögðum", "uppálögðuð", "uppálögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppáleggi", "uppáleggir", "uppáleggi"],
+					"ft": ["uppáleggjum", "uppáleggið", "uppáleggi"]
+				},
+				"þátíð": {
+					"et": ["uppálegði", "uppálegðir", "uppálegði"],
+					"ft": ["uppálegðum", "uppálegðuð", "uppálegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppáleggurðu",
+					"ft": "uppáleggiði"
+				},
+				"þátíð": {
+					"et": "uppálagðirðu",
+					"ft": "uppálögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppáleggirðu",
+					"ft": "uppáleggiði"
+				},
+				"þátíð": {
+					"et": "uppáleggðirðu",
+					"ft": "uppáleggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "uppáleggjast",
+		"sagnbót": "uppálagst",
+		"boðháttur": {
+			"et": "uppáleggstu",
+			"ft": "uppáleggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppáleggst", "uppáleggst", "uppáleggst"],
+					"ft": ["uppáleggjumst", "uppáleggist", "uppáleggjast"]
+				},
+				"þátíð": {
+					"et": ["uppálagðist", "uppálagðist", "uppálagðist"],
+					"ft": ["uppálögðumst", "uppálögðust", "uppálögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppáleggist", "uppáleggist", "uppáleggist"],
+					"ft": ["uppáleggjumst", "uppáleggist", "uppáleggist"]
+				},
+				"þátíð": {
+					"et": ["uppálegðist", "uppálegðist", "uppálegðist"],
+					"ft": ["uppálegðumst", "uppálegðist", "uppálegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppáleggst", "uppáleggst", "uppáleggst"],
+					"ft": ["uppáleggst", "uppáleggst", "uppáleggst"]
+				},
+				"þátíð": {
+					"et": ["uppálagðist", "uppálagðist", "uppálagðist"],
+					"ft": ["uppálagðist", "uppálagðist", "uppálagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppáleggist", "uppáleggist", "uppáleggist"],
+					"ft": ["uppáleggjumst", "uppáleggist", "uppáleggist"]
+				},
+				"þátíð": {
+					"et": ["uppálegðist", "uppálegðist", "uppálegðist"],
+					"ft": ["uppálegðumst", "uppálegðust", "uppálegðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppáleggstu"
+				},
+				"þátíð": {
+					"et": "uppálagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppáleggistu"
+				},
+				"þátíð": {
+					"et": "uppálegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "uppáleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["uppálagður", "uppálagðan", "uppálögðum", "uppálagðs"],
+					"kvk": ["uppálögð", "uppálagða", "uppálagðri", "uppálagðrar"],
+					"hk": ["uppálagt", "uppálagt", "uppálögðu", "uppálagðs"]
+				},
+				"ft": {
+					"kk": ["uppálagðir", "uppálagða", "uppálögðum", "uppálagðra"],
+					"kvk": ["uppálagðar", "uppálagðar", "uppálögðum", "uppálagðra"],
+					"hk": ["uppálögð", "uppálögð", "uppálögðum", "uppálagðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-uppáleggja",
+	"hash": "4860bc70349c2a5119f4851d042fcb6a358716f1b014baf01560664d51e1bc94"
+}
