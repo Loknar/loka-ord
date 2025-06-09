@@ -1,0 +1,131 @@
+{
+	"orð": "litfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-litur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "litfesta",
+		"sagnbót": "litfest",
+		"boðháttur": {
+			"stýfður": "litfest",
+			"et": "litfestu",
+			"ft": "litfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["litfesti", "litfestir", "litfestir"],
+					"ft": ["litfestum", "litfestið", "litfesta"]
+				},
+				"þátíð": {
+					"et": ["litfesti", "litfestir", "litfesti"],
+					"ft": ["litfestum", "litfestuð", "litfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["litfesti", "litfestir", "litfesti"],
+					"ft": ["litfestum", "litfestið", "litfesti"]
+				},
+				"þátíð": {
+					"et": ["litfesti", "litfestir", "litfesti"],
+					"ft": ["litfestum", "litfestuð", "litfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "litfestirðu",
+					"ft": "litfestiði"
+				},
+				"þátíð": {
+					"et": "litfestirðu",
+					"ft": "litfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "litfestirðu",
+					"ft": "litfestiði"
+				},
+				"þátíð": {
+					"et": "litfestirðu",
+					"ft": "litfestuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "litfestast",
+		"sagnbót": "litfest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["litfestist", "litfestist", "litfestist"],
+					"ft": ["litfestumst", "litfestist", "litfestast"]
+				},
+				"þátíð": {
+					"et": ["litfestist", "litfestist", "litfestist"],
+					"ft": ["litfestumst", "litfestust", "litfestust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["litfestist", "litfestist", "litfestist"],
+					"ft": ["litfestumst", "litfestist", "litfestist"]
+				},
+				"þátíð": {
+					"et": ["litfestist", "litfestist", "litfestist"],
+					"ft": ["litfestumst", "litfestust", "litfestust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "litfestistu"
+				},
+				"þátíð": {
+					"et": "litfestistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "litfestistu"
+				},
+				"þátíð": {
+					"et": "litfestistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "litfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["litfestur", "litfestan", "litfestum", "litfests"],
+					"kvk": ["litfest", "litfesta", "litfestri", "litfestrar"],
+					"hk": ["litfest", "litfest", "litfestu", "litfests"]
+				},
+				"ft": {
+					"kk": ["litfestir", "litfesta", "litfestum", "litfestra"],
+					"kvk": ["litfestar", "litfestar", "litfestum", "litfestra"],
+					"hk": ["litfest", "litfest", "litfestum", "litfestra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-litfesta",
+	"hash": "13994bf92a0dbe99ff3a62576af00534fbbe91eead58f23487ff20ea50d2ab3d"
+}

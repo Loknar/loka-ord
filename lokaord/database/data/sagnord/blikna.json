@@ -1,0 +1,99 @@
+{
+	"orð": "blikna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "blikn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-blika-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "blikna",
+		"sagnbót": "bliknað",
+		"boðháttur": {
+			"stýfður": "blikna",
+			"et": "bliknaðu",
+			"ft": "bliknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["blikna", "bliknar", "bliknar"],
+					"ft": ["bliknum", "bliknið", "blikna"]
+				},
+				"þátíð": {
+					"et": ["bliknaði", "bliknaðir", "bliknaði"],
+					"ft": ["bliknuðum", "bliknuðuð", "bliknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["blikni", "bliknir", "blikni"],
+					"ft": ["bliknum", "bliknið", "blikni"]
+				},
+				"þátíð": {
+					"et": ["bliknaði", "bliknaðir", "bliknaði"],
+					"ft": ["bliknuðum", "bliknuðuð", "bliknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bliknarðu",
+					"ft": "blikniði"
+				},
+				"þátíð": {
+					"et": "bliknaðirðu",
+					"ft": "bliknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bliknirðu",
+					"ft": "blikniði"
+				},
+				"þátíð": {
+					"et": "bliknaðirðu",
+					"ft": "bliknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bliknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bliknaður", "bliknaðan", "bliknuðum", "bliknaðs"],
+					"kvk": ["bliknuð", "bliknaða", "bliknaðri", "bliknaðrar"],
+					"hk": ["bliknað", "bliknað", "bliknuðu", "bliknaðs"]
+				},
+				"ft": {
+					"kk": ["bliknaðir", "bliknaða", "bliknuðum", "bliknaðra"],
+					"kvk": ["bliknaðar", "bliknaðar", "bliknuðum", "bliknaðra"],
+					"hk": ["bliknuð", "bliknuð", "bliknuðum", "bliknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["bliknaði", "bliknaða", "bliknaða", "bliknaða"],
+					"kvk": ["bliknaða", "bliknuðu", "bliknuðu", "bliknuðu"],
+					"hk": ["bliknaða", "bliknaða", "bliknaða", "bliknaða"]
+				},
+				"ft": {
+					"kk": ["bliknuðu", "bliknuðu", "bliknuðu", "bliknuðu"],
+					"kvk": ["bliknuðu", "bliknuðu", "bliknuðu", "bliknuðu"],
+					"hk": ["bliknuðu", "bliknuðu", "bliknuðu", "bliknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-blikna",
+	"hash": "1a1876ce38b4fa129a32e7a059e6c732013c84ba1137cc556781c0781a88fbdb"
+}
