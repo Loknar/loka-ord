@@ -1,0 +1,121 @@
+{
+	"orð": "fikra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fikr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fikur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fikra",
+		"sagnbót": "fikrað",
+		"boðháttur": {
+			"stýfður": "fikra",
+			"et": "fikraðu",
+			"ft": "fikrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fikra", "fikrar", "fikrar"],
+					"ft": ["fikrum", "fikrið", "fikra"]
+				},
+				"þátíð": {
+					"et": ["fikraði", "fikraðir", "fikraði"],
+					"ft": ["fikruðum", "fikruðuð", "fikruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fikri", "fikrir", "fikri"],
+					"ft": ["fikrum", "fikrið", "fikri"]
+				},
+				"þátíð": {
+					"et": ["fikraði", "fikraðir", "fikraði"],
+					"ft": ["fikruðum", "fikruðuð", "fikruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fikrarðu",
+					"ft": "fikriði"
+				},
+				"þátíð": {
+					"et": "fikraðirðu",
+					"ft": "fikruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fikrirðu",
+					"ft": "fikriði"
+				},
+				"þátíð": {
+					"et": "fikraðirðu",
+					"ft": "fikruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fikrast",
+		"sagnbót": "fikrast",
+		"boðháttur": {
+			"et": "fikrastu",
+			"ft": "fikrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fikrast", "fikrast", "fikrast"],
+					"ft": ["fikrumst", "fikrist", "fikrast"]
+				},
+				"þátíð": {
+					"et": ["fikraðist", "fikraðist", "fikraðist"],
+					"ft": ["fikruðumst", "fikruðust", "fikruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fikrist", "fikrist", "fikrist"],
+					"ft": ["fikrumst", "fikrist", "fikrist"]
+				},
+				"þátíð": {
+					"et": ["fikraðist", "fikraðist", "fikraðist"],
+					"ft": ["fikruðumst", "fikruðust", "fikruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fikrastu"
+				},
+				"þátíð": {
+					"et": "fikraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fikristu"
+				},
+				"þátíð": {
+					"et": "fikraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fikrandi"
+	},
+	"kennistrengur": "so-fikra",
+	"hash": "f8fb274fc60d55ce3e2af8338dd748b8b607326a5b698ff1c0a5c954e528e4ac"
+}

@@ -1,0 +1,43 @@
+{
+	"orð": "reykingatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "reykinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reyking-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["reykingatengdur", "reykingatengdan", "reykingatengdum", "reykingatengds"],
+				"kvk": ["reykingatengd", "reykingatengda", "reykingatengdri", "reykingatengdrar"],
+				"hk": ["reykingatengt", "reykingatengt", "reykingatengdu", "reykingatengds"]
+			},
+			"ft": {
+				"kk": ["reykingatengdir", "reykingatengda", "reykingatengdum", "reykingatengdra"],
+				"kvk": ["reykingatengdar", "reykingatengdar", "reykingatengdum", "reykingatengdra"],
+				"hk": ["reykingatengd", "reykingatengd", "reykingatengdum", "reykingatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["reykingatengdi", "reykingatengda", "reykingatengda", "reykingatengda"],
+				"kvk": ["reykingatengda", "reykingatengdu", "reykingatengdu", "reykingatengdu"],
+				"hk": ["reykingatengda", "reykingatengda", "reykingatengda", "reykingatengda"]
+			},
+			"ft": {
+				"kk": ["reykingatengdu", "reykingatengdu", "reykingatengdu", "reykingatengdu"],
+				"kvk": ["reykingatengdu", "reykingatengdu", "reykingatengdu", "reykingatengdu"],
+				"hk": ["reykingatengdu", "reykingatengdu", "reykingatengdu", "reykingatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-reykingatengdur",
+	"hash": "7d9af2f96dbfe51c6030e0e7c228be5fc5ab8e8ee9d7c29875b1b9b02e671e37"
+}

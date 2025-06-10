@@ -1,0 +1,32 @@
+{
+	"orð": "aðgangsarmband",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"mynd": "gangs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gangur-kk"
+		},
+		{
+			"mynd": "arm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-armur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-band-hk"
+		}
+	],
+	"et": {
+		"ág": ["aðgangsarmband", "aðgangsarmband", "aðgangsarmbandi", "aðgangsarmbands"],
+		"mg": ["aðgangsarmbandið", "aðgangsarmbandið", "aðgangsarmbandinu", "aðgangsarmbandsins"]
+	},
+	"kennistrengur": "no-aðgangsarmband-hk",
+	"hash": "761930720c486b5ce5ef8a1f7eaaf9bfac7b44c45c532bd9657005e41bbc4e25"
+}

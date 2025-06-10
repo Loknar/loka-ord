@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarksuppskerumagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "uppskeru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-uppskera-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksuppskerumagn", "lágmarksuppskerumagn", "lágmarksuppskerumagni", "lágmarksuppskerumagns"],
+		"mg": ["lágmarksuppskerumagnið", "lágmarksuppskerumagnið", "lágmarksuppskerumagninu", "lágmarksuppskerumagnsins"]
+	},
+	"kennistrengur": "no-lágmarksuppskerumagn-hk",
+	"hash": "7c9a7ef2cd6d71aac85f6cf476947105c3cbfbed0bca973e950657fa94b6160e"
+}

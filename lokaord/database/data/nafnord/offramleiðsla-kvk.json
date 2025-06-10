@@ -1,0 +1,27 @@
+{
+	"orð": "offramleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["offramleiðsla", "offramleiðslu", "offramleiðslu", "offramleiðslu"],
+		"mg": ["offramleiðslan", "offramleiðsluna", "offramleiðslunni", "offramleiðslunnar"]
+	},
+	"kennistrengur": "no-offramleiðsla-kvk",
+	"hash": "780e6084154b5113ce8851bc7c1290224167582e9cb5ca47c03c9d23b0f64578"
+}
