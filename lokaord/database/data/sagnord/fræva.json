@@ -1,0 +1,135 @@
+{
+	"orð": "fræva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fræv",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræva-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fræva",
+		"sagnbót": "frævað",
+		"boðháttur": {
+			"stýfður": "fræva",
+			"et": "frævaðu",
+			"ft": "frævið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fræva", "frævar", "frævar"],
+					"ft": ["frævum", "frævið", "fræva"]
+				},
+				"þátíð": {
+					"et": ["frævaði", "frævaðir", "frævaði"],
+					"ft": ["frævuðum", "frævuðuð", "frævuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frævi", "frævir", "frævi"],
+					"ft": ["frævum", "frævið", "frævi"]
+				},
+				"þátíð": {
+					"et": ["frævaði", "frævaðir", "frævaði"],
+					"ft": ["frævuðum", "frævuðuð", "frævuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frævarðu",
+					"ft": "fræviði"
+				},
+				"þátíð": {
+					"et": "frævaðirðu",
+					"ft": "frævuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frævirðu",
+					"ft": "fræviði"
+				},
+				"þátíð": {
+					"et": "frævaðirðu",
+					"ft": "frævuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "frævast",
+		"sagnbót": "frævast",
+		"boðháttur": {
+			"et": "frævastu",
+			"ft": "frævist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frævast", "frævast", "frævast"],
+					"ft": ["frævumst", "frævist", "frævast"]
+				},
+				"þátíð": {
+					"et": ["frævaðist", "frævaðist", "frævaðist"],
+					"ft": ["frævuðumst", "frævuðust", "frævuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frævist", "frævist", "frævist"],
+					"ft": ["frævumst", "frævist", "frævist"]
+				},
+				"þátíð": {
+					"et": ["frævaðist", "frævaðist", "frævaðist"],
+					"ft": ["frævuðumst", "frævuðust", "frævuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frævastu"
+				},
+				"þátíð": {
+					"et": "frævaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frævistu"
+				},
+				"þátíð": {
+					"et": "frævaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frævandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frævaður", "frævaðan", "frævuðum", "frævaðs"],
+					"kvk": ["frævuð", "frævaða", "frævaðri", "frævaðrar"],
+					"hk": ["frævað", "frævað", "frævuðu", "frævaðs"]
+				},
+				"ft": {
+					"kk": ["frævaðir", "frævaða", "frævuðum", "frævaðra"],
+					"kvk": ["frævaðar", "frævaðar", "frævuðum", "frævaðra"],
+					"hk": ["frævuð", "frævuð", "frævuðum", "frævaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fræva",
+	"hash": "20c94bd7748b242c7074a152cf499ed85d81c00a0ace8ff98a2ece2b70a73811"
+}

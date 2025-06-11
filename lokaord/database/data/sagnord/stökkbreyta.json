@@ -1,0 +1,142 @@
+{
+	"orð": "stökkbreyta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stökk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stökk-hk"
+		},
+		{
+			"kennistrengur": "so-breyta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stökkbreyta",
+		"sagnbót": "stökkbreytt",
+		"boðháttur": {
+			"stýfður": "stökkbreyt",
+			"et": "stökkbreyttu",
+			"ft": "stökkbreytið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stökkbreyti", "stökkbreytir", "stökkbreytir"],
+					"ft": ["stökkbreytum", "stökkbreytið", "stökkbreyta"]
+				},
+				"þátíð": {
+					"et": ["stökkbreytti", "stökkbreyttir", "stökkbreytti"],
+					"ft": ["stökkbreyttum", "stökkbreyttuð", "stökkbreyttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stökkbreyti", "stökkbreytir", "stökkbreyti"],
+					"ft": ["stökkbreytum", "stökkbreytið", "stökkbreyti"]
+				},
+				"þátíð": {
+					"et": ["stökkbreytti", "stökkbreyttir", "stökkbreytti"],
+					"ft": ["stökkbreyttum", "stökkbreyttuð", "stökkbreyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stökkbreytirðu",
+					"ft": "stökkbreytiði"
+				},
+				"þátíð": {
+					"et": "stökkbreyttirðu",
+					"ft": "stökkbreyttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stökkbreytirðu",
+					"ft": "stökkbreytiði"
+				},
+				"þátíð": {
+					"et": "stökkbreyttirðu",
+					"ft": "stökkbreyttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stökkbreytast",
+		"sagnbót": "stökkbreyst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stökkbreytist", "stökkbreytist", "stökkbreytist"],
+					"ft": ["stökkbreytumst", "stökkbreytist", "stökkbreytast"]
+				},
+				"þátíð": {
+					"et": ["stökkbreyttist", "stökkbreyttist", "stökkbreyttist"],
+					"ft": ["stökkbreyttumst", "stökkbreyttust", "stökkbreyttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stökkbreytist", "stökkbreytist", "stökkbreytist"],
+					"ft": ["stökkbreytumst", "stökkbreytist", "stökkbreytist"]
+				},
+				"þátíð": {
+					"et": ["stökkbreyttist", "stökkbreyttist", "stökkbreyttist"],
+					"ft": ["stökkbreyttumst", "stökkbreyttust", "stökkbreyttust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stökkbreytistu"
+				},
+				"þátíð": {
+					"et": "stökkbreyttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stökkbreytistu"
+				},
+				"þátíð": {
+					"et": "stökkbreyttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stökkbreytandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stökkbreyttur", "stökkbreyttan", "stökkbreyttum", "stökkbreytts"],
+					"kvk": ["stökkbreytt", "stökkbreytta", "stökkbreyttri", "stökkbreyttrar"],
+					"hk": ["stökkbreytt", "stökkbreytt", "stökkbreyttu", "stökkbreytts"]
+				},
+				"ft": {
+					"kk": ["stökkbreyttir", "stökkbreytta", "stökkbreyttum", "stökkbreyttra"],
+					"kvk": ["stökkbreyttar", "stökkbreyttar", "stökkbreyttum", "stökkbreyttra"],
+					"hk": ["stökkbreytt", "stökkbreytt", "stökkbreyttum", "stökkbreyttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stökkbreytti", "stökkbreytta", "stökkbreytta", "stökkbreytta"],
+					"kvk": ["stökkbreytta", "stökkbreyttu", "stökkbreyttu", "stökkbreyttu"],
+					"hk": ["stökkbreytta", "stökkbreytta", "stökkbreytta", "stökkbreytta"]
+				},
+				"ft": {
+					"kk": ["stökkbreyttu", "stökkbreyttu", "stökkbreyttu", "stökkbreyttu"],
+					"kvk": ["stökkbreyttu", "stökkbreyttu", "stökkbreyttu", "stökkbreyttu"],
+					"hk": ["stökkbreyttu", "stökkbreyttu", "stökkbreyttu", "stökkbreyttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stökkbreyta",
+	"hash": "e805c4fecf607dd24d3305ce7506d0335934946fcc06afb38a93f6ed1aaa2fa7"
+}

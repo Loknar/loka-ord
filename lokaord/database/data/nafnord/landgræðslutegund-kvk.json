@@ -1,0 +1,30 @@
+{
+	"orð": "landgræðslutegund",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "græðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-græðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-tegund-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landgræðslutegund", "landgræðslutegund", "landgræðslutegund", "landgræðslutegundar"],
+		"mg": ["landgræðslutegundin", "landgræðslutegundina", "landgræðslutegundinni", "landgræðslutegundarinnar"]
+	},
+	"ft": {
+		"ág": ["landgræðslutegundir", "landgræðslutegundir", "landgræðslutegundum", "landgræðslutegunda"],
+		"mg": ["landgræðslutegundirnar", "landgræðslutegundirnar", "landgræðslutegundunum", "landgræðslutegundanna"]
+	},
+	"kennistrengur": "no-landgræðslutegund-kvk",
+	"hash": "2c303b71a28b36db9c28c8a1b12c1d21fdfea5ecbdb22502963d3f994c5f8570"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "forskrifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skrifa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "forskrifa",
+		"sagnbót": "forskrifað",
+		"boðháttur": {
+			"stýfður": "forskrifa",
+			"et": "forskrifaðu",
+			"ft": "forskrifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forskrifa", "forskrifar", "forskrifar"],
+					"ft": ["forskrifum", "forskrifið", "forskrifa"]
+				},
+				"þátíð": {
+					"et": ["forskrifaði", "forskrifaðir", "forskrifaði"],
+					"ft": ["forskrifuðum", "forskrifuðuð", "forskrifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forskrifi", "forskrifir", "forskrifi"],
+					"ft": ["forskrifum", "forskrifið", "forskrifi"]
+				},
+				"þátíð": {
+					"et": ["forskrifaði", "forskrifaðir", "forskrifaði"],
+					"ft": ["forskrifuðum", "forskrifuðuð", "forskrifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "forskrifarðu",
+					"ft": "forskrifiði"
+				},
+				"þátíð": {
+					"et": "forskrifaðirðu",
+					"ft": "forskrifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "forskrifirðu",
+					"ft": "forskrifiði"
+				},
+				"þátíð": {
+					"et": "forskrifaðirðu",
+					"ft": "forskrifuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "forskrifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["forskrifaður", "forskrifaðan", "forskrifuðum", "forskrifaðs"],
+					"kvk": ["forskrifuð", "forskrifaða", "forskrifaðri", "forskrifaðrar"],
+					"hk": ["forskrifað", "forskrifað", "forskrifuðu", "forskrifaðs"]
+				},
+				"ft": {
+					"kk": ["forskrifaðir", "forskrifaða", "forskrifuðum", "forskrifaðra"],
+					"kvk": ["forskrifaðar", "forskrifaðar", "forskrifuðum", "forskrifaðra"],
+					"hk": ["forskrifuð", "forskrifuð", "forskrifuðum", "forskrifaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["forskrifaði", "forskrifaða", "forskrifaða", "forskrifaða"],
+					"kvk": ["forskrifaða", "forskrifuðu", "forskrifuðu", "forskrifuðu"],
+					"hk": ["forskrifaða", "forskrifaða", "forskrifaða", "forskrifaða"]
+				},
+				"ft": {
+					"kk": ["forskrifuðu", "forskrifuðu", "forskrifuðu", "forskrifuðu"],
+					"kvk": ["forskrifuðu", "forskrifuðu", "forskrifuðu", "forskrifuðu"],
+					"hk": ["forskrifuðu", "forskrifuðu", "forskrifuðu", "forskrifuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-forskrifa",
+	"hash": "13699f53642191f20f8ea1c6619cd7e3245c8c71e6168ad9a0150d0431a2c333"
+}
