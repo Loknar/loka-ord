@@ -1,0 +1,27 @@
+{
+	"orð": "samskiptagögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "skipta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skipti-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["samskiptagögn", "samskiptagögn", "samskiptagögnum", "samskiptagagna"],
+		"mg": ["samskiptagögnin", "samskiptagögnin", "samskiptagögnunum", "samskiptagagnanna"]
+	},
+	"kennistrengur": "no-samskiptagögn-hk",
+	"hash": "fd0bb60d0428047699c49e8fe5ba72738a09ff647fccdee674f0b6b11c398e23"
+}

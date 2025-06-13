@@ -1,0 +1,99 @@
+{
+	"orð": "samanbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "saman",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-saman"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samanbrjóta",
+		"sagnbót": "samanbrotið",
+		"boðháttur": {
+			"stýfður": "samanbrjót",
+			"et": "samanbrjóttu",
+			"ft": "samanbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samanbrýt", "samanbrýtur", "samanbrýtur"],
+					"ft": ["samanbrjótum", "samanbrjótið", "samanbrjóta"]
+				},
+				"þátíð": {
+					"et": ["samanbraut", "samanbraust", "samanbraut"],
+					"ft": ["samanbrutum", "samanbrutuð", "samanbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samanbrjóti", "samanbrjótir", "samanbrjóti"],
+					"ft": ["samanbrjótum", "samanbrjótið", "samanbrjóti"]
+				},
+				"þátíð": {
+					"et": ["samanbryti", "samanbrytir", "samanbryti"],
+					"ft": ["samanbrytum", "samanbrytuð", "samanbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samanbrýturðu",
+					"ft": "samanbrjótiði"
+				},
+				"þátíð": {
+					"et": "samanbraustu",
+					"ft": "samanbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samanbrjótirðu",
+					"ft": "samanbrjótiði"
+				},
+				"þátíð": {
+					"et": "samanbrytirðu",
+					"ft": "samanbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samanbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samanbrotinn", "samanbrotinn", "samanbrotnum", "samanbrotins"],
+					"kvk": ["samanbrotin", "samanbrotna", "samanbrotinni", "samanbrotinnar"],
+					"hk": ["samanbrotið", "samanbrotið", "samanbrotnu", "samanbrotins"]
+				},
+				"ft": {
+					"kk": ["samanbrotnir", "samanbrotna", "samanbrotnum", "samanbrotinna"],
+					"kvk": ["samanbrotnar", "samanbrotnar", "samanbrotnum", "samanbrotinna"],
+					"hk": ["samanbrotin", "samanbrotin", "samanbrotnum", "samanbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["samanbrotni", "samanbrotna", "samanbrotna", "samanbrotna"],
+					"kvk": ["samanbrotna", "samanbrotnu", "samanbrotnu", "samanbrotnu"],
+					"hk": ["samanbrotna", "samanbrotna", "samanbrotna", "samanbrotna"]
+				},
+				"ft": {
+					"kk": ["samanbrotnu", "samanbrotnu", "samanbrotnu", "samanbrotnu"],
+					"kvk": ["samanbrotnu", "samanbrotnu", "samanbrotnu", "samanbrotnu"],
+					"hk": ["samanbrotnu", "samanbrotnu", "samanbrotnu", "samanbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samanbrjóta",
+	"hash": "393b401291c9630d3a3610b347143438de8a1d24bc29fe8225460dbbb58b1c40"
+}

@@ -2,6 +2,16 @@
 	"orð": "goði",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "goð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-goð-hk"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["goði", "goða", "goða", "goða"],
 		"mg": ["goðinn", "goðann", "goðanum", "goðans"]
@@ -11,5 +21,5 @@
 		"mg": ["goðarnir", "goðana", "goðunum", "goðanna"]
 	},
 	"kennistrengur": "no-goði-kk",
-	"hash": "969920f1e80a5680f22ca2f60f38f989fec172aad07b5076466c2f2ae158228e"
+	"hash": "7bbdb71da1a8e65cb67443c103b56e48f1065a7be0158c143a2e525ccd5b679b"
 }

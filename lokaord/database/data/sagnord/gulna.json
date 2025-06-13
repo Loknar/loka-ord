@@ -1,0 +1,99 @@
+{
+	"orð": "gulna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "guln",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-gulur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gulna",
+		"sagnbót": "gulnað",
+		"boðháttur": {
+			"stýfður": "gulna",
+			"et": "gulnaðu",
+			"ft": "gulnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gulna", "gulnar", "gulnar"],
+					"ft": ["gulnum", "gulnið", "gulna"]
+				},
+				"þátíð": {
+					"et": ["gulnaði", "gulnaðir", "gulnaði"],
+					"ft": ["gulnuðum", "gulnuðuð", "gulnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gulni", "gulnir", "gulni"],
+					"ft": ["gulnum", "gulnið", "gulni"]
+				},
+				"þátíð": {
+					"et": ["gulnaði", "gulnaðir", "gulnaði"],
+					"ft": ["gulnuðum", "gulnuðuð", "gulnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gulnarðu",
+					"ft": "gulniði"
+				},
+				"þátíð": {
+					"et": "gulnaðirðu",
+					"ft": "gulnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gulnirðu",
+					"ft": "gulniði"
+				},
+				"þátíð": {
+					"et": "gulnaðirðu",
+					"ft": "gulnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gulnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gulnaður", "gulnaðan", "gulnuðum", "gulnaðs"],
+					"kvk": ["gulnuð", "gulnaða", "gulnaðri", "gulnaðrar"],
+					"hk": ["gulnað", "gulnað", "gulnuðu", "gulnaðs"]
+				},
+				"ft": {
+					"kk": ["gulnaðir", "gulnaða", "gulnuðum", "gulnaðra"],
+					"kvk": ["gulnaðar", "gulnaðar", "gulnuðum", "gulnaðra"],
+					"hk": ["gulnuð", "gulnuð", "gulnuðum", "gulnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gulnaði", "gulnaða", "gulnaða", "gulnaða"],
+					"kvk": ["gulnaða", "gulnuðu", "gulnuðu", "gulnuðu"],
+					"hk": ["gulnaða", "gulnaða", "gulnaða", "gulnaða"]
+				},
+				"ft": {
+					"kk": ["gulnuðu", "gulnuðu", "gulnuðu", "gulnuðu"],
+					"kvk": ["gulnuðu", "gulnuðu", "gulnuðu", "gulnuðu"],
+					"hk": ["gulnuðu", "gulnuðu", "gulnuðu", "gulnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gulna",
+	"hash": "a8f07405452886be08300540517a10ae69568be6040b3e2786554d11d9ad8597"
+}
