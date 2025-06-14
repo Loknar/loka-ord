@@ -1,0 +1,30 @@
+{
+	"orð": "framleiðslunúmer",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-númer-hk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðslunúmer", "framleiðslunúmer", "framleiðslunúmeri", "framleiðslunúmers"],
+		"mg": ["framleiðslunúmerið", "framleiðslunúmerið", "framleiðslunúmerinu", "framleiðslunúmersins"]
+	},
+	"ft": {
+		"ág": ["framleiðslunúmer", "framleiðslunúmer", "framleiðslunúmerum", "framleiðslunúmera"],
+		"mg": ["framleiðslunúmerin", "framleiðslunúmerin", "framleiðslunúmerunum", "framleiðslunúmeranna"]
+	},
+	"kennistrengur": "no-framleiðslunúmer-hk",
+	"hash": "a1687034b2f7daa1103a10d02252ed6ab8072a99d672d69ac0cccd5effe881c0"
+}
