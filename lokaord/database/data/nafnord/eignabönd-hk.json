@@ -1,0 +1,22 @@
+{
+	"orð": "eignabönd",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-band-hk"
+		}
+	],
+	"ft": {
+		"ág": ["eignabönd", "eignabönd", "eignaböndum", "eignabanda"],
+		"mg": ["eignaböndin", "eignaböndin", "eignaböndunum", "eignabandanna"]
+	},
+	"kennistrengur": "no-eignabönd-hk",
+	"hash": "bef427ace730239d88fc61a5817e3f06c9aa4c872564f33691d029f27aacdeef"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "leikskólaganga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leikur-kk"
+		},
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ganga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["leikskólaganga", "leikskólagöngu", "leikskólagöngu", "leikskólagöngu"],
+		"mg": ["leikskólagangan", "leikskólagönguna", "leikskólagöngunni", "leikskólagöngunnar"]
+	},
+	"kennistrengur": "no-leikskólaganga-kvk",
+	"hash": "b124a0c2bb1c932cec4ca2b6e06801ec7ee63b65bca8a42faa0a4ffa2049d4af"
+}

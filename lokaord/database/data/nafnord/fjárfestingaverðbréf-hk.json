@@ -1,0 +1,35 @@
+{
+	"orð": "fjárfestingaverðbréf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "festinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-bréf-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjárfestingaverðbréf", "fjárfestingaverðbréf", "fjárfestingaverðbréfi", "fjárfestingaverðbréfs"],
+		"mg": ["fjárfestingaverðbréfið", "fjárfestingaverðbréfið", "fjárfestingaverðbréfinu", "fjárfestingaverðbréfsins"]
+	},
+	"ft": {
+		"ág": ["fjárfestingaverðbréf", "fjárfestingaverðbréf", "fjárfestingaverðbréfum", "fjárfestingaverðbréfa"],
+		"mg": ["fjárfestingaverðbréfin", "fjárfestingaverðbréfin", "fjárfestingaverðbréfunum", "fjárfestingaverðbréfanna"]
+	},
+	"kennistrengur": "no-fjárfestingaverðbréf-hk",
+	"hash": "e024a5c5e5136d6fe4c8df9420967423a4a9e6083a3494d27e828cd01770b191"
+}

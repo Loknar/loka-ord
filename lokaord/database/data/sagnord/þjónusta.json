@@ -1,0 +1,99 @@
+{
+	"orð": "þjónusta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þjónust",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þjónusta-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þjónusta",
+		"sagnbót": "þjónustað",
+		"boðháttur": {
+			"stýfður": "þjónusta",
+			"et": "þjónustaðu",
+			"ft": "þjónustið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þjónusta", "þjónustar", "þjónustar"],
+					"ft": ["þjónustum", "þjónustið", "þjónusta"]
+				},
+				"þátíð": {
+					"et": ["þjónustaði", "þjónustaðir", "þjónustaði"],
+					"ft": ["þjónustuðum", "þjónustuðuð", "þjónustuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þjónusti", "þjónustir", "þjónusti"],
+					"ft": ["þjónustum", "þjónustið", "þjónusti"]
+				},
+				"þátíð": {
+					"et": ["þjónustaði", "þjónustaðir", "þjónustaði"],
+					"ft": ["þjónustuðum", "þjónustuðuð", "þjónustuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þjónustarðu",
+					"ft": "þjónustiði"
+				},
+				"þátíð": {
+					"et": "þjónustaðirðu",
+					"ft": "þjónustuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þjónustirðu",
+					"ft": "þjónustiði"
+				},
+				"þátíð": {
+					"et": "þjónustaðirðu",
+					"ft": "þjónustuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þjónustandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þjónustaður", "þjónustaðan", "þjónustuðum", "þjónustaðs"],
+					"kvk": ["þjónustuð", "þjónustaða", "þjónustaðri", "þjónustaðrar"],
+					"hk": ["þjónustað", "þjónustað", "þjónustuðu", "þjónustaðs"]
+				},
+				"ft": {
+					"kk": ["þjónustaðir", "þjónustaða", "þjónustuðum", "þjónustaðra"],
+					"kvk": ["þjónustaðar", "þjónustaðar", "þjónustuðum", "þjónustaðra"],
+					"hk": ["þjónustuð", "þjónustuð", "þjónustuðum", "þjónustaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þjónustaði", "þjónustaða", "þjónustaða", "þjónustaða"],
+					"kvk": ["þjónustaða", "þjónustuðu", "þjónustuðu", "þjónustuðu"],
+					"hk": ["þjónustaða", "þjónustaða", "þjónustaða", "þjónustaða"]
+				},
+				"ft": {
+					"kk": ["þjónustuðu", "þjónustuðu", "þjónustuðu", "þjónustuðu"],
+					"kvk": ["þjónustuðu", "þjónustuðu", "þjónustuðu", "þjónustuðu"],
+					"hk": ["þjónustuðu", "þjónustuðu", "þjónustuðu", "þjónustuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þjónusta",
+	"hash": "77b6e353bb56a4b236cff68169857468e109e19986240703c2b4cf3b1be67ebf"
+}

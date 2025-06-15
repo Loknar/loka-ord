@@ -1,0 +1,32 @@
+{
+	"orð": "fótboltavonbrigði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fót",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fótur-kk"
+		},
+		{
+			"mynd": "bolta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bolti-kk"
+		},
+		{
+			"mynd": "von",
+			"samsetning": "stofn",
+			"kennistrengur": "no-von-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-brigði-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fótboltavonbrigði", "fótboltavonbrigði", "fótboltavonbrigðum", "fótboltavonbrigða"],
+		"mg": ["fótboltavonbrigðin", "fótboltavonbrigðin", "fótboltavonbrigðunum", "fótboltavonbrigðanna"]
+	},
+	"kennistrengur": "no-fótboltavonbrigði-hk",
+	"hash": "8263b2cc37cfe760ae3fbc32d92a9df16d04369af0ca1810d54b2d5f943b42d6"
+}

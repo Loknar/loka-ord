@@ -4,9 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "regnhlífa",
+			"mynd": "regn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stakkur-kk"
+		},
+		{
+			"mynd": "hlífa",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regnhlíf-kvk"
+			"kennistrengur": "no-hlíf-kvk"
 		},
 		{
 			"kennistrengur": "no-bylting-kvk"
@@ -21,5 +26,5 @@
 		"mg": ["regnhlífabyltingarnar", "regnhlífabyltingarnar", "regnhlífabyltingunum", "regnhlífabyltinganna"]
 	},
 	"kennistrengur": "no-regnhlífabylting-kvk",
-	"hash": "9be28193c4ae913b3beb0547f587cf80eb9c83e3cad707d588af2c890c0fec11"
+	"hash": "9a9eae6e652c5428a5be0bea25cac10a0977bad118badc92966533904b328678"
 }

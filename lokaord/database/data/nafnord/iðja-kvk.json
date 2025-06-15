@@ -2,6 +2,17 @@
 	"orð": "iðja",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-iðn-kvk"
+		},
+		{
+			"leiðir": "j",
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["iðja", "iðju", "iðju", "iðju"],
 		"mg": ["iðjan", "iðjuna", "iðjunni", "iðjunnar"]
@@ -11,5 +22,5 @@
 		"mg": ["iðjurnar", "iðjurnar", "iðjunum", "iðjanna"]
 	},
 	"kennistrengur": "no-iðja-kvk",
-	"hash": "d9f83a06d0ccba13addbc132bcc6d76e3156a87bb2469e901ba3bfde8f8e351b"
+	"hash": "eeec1bdf1caa9415dac204c8c9a11ce82c1691465ad0f276ad1dfb336454205d"
 }

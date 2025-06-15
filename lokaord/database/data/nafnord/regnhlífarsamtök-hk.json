@@ -4,9 +4,14 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "regnhlífar",
+			"mynd": "regn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stakkur-kk"
+		},
+		{
+			"mynd": "hlífar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regnhlíf-kvk"
+			"kennistrengur": "no-hlíf-kvk"
 		},
 		{
 			"mynd": "sam",
@@ -23,5 +28,5 @@
 		"mg": ["regnhlífarsamtökin", "regnhlífarsamtökin", "regnhlífarsamtökunum", "regnhlífarsamtakanna"]
 	},
 	"kennistrengur": "no-regnhlífarsamtök-hk",
-	"hash": "9245058b7e5063a3506de6ceccb7e5b9bd1204ee5e2f5b38295893eb814439e1"
+	"hash": "3709e712b46b2dc4c01020429b8cc786c5bc73c78563b743e3277577b5dc8ffa"
 }

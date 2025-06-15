@@ -1,0 +1,27 @@
+{
+	"orð": "föðurlandsást",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "föður",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-faðir-kk"
+		},
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ást-kvk"
+		}
+	],
+	"et": {
+		"ág": ["föðurlandsást", "föðurlandsást", "föðurlandsást", "föðurlandsástar"],
+		"mg": ["föðurlandsástin", "föðurlandsástina", "föðurlandsástinni", "föðurlandsástarinnar"]
+	},
+	"kennistrengur": "no-föðurlandsást-kvk",
+	"hash": "639ec57c61107f8b9fe26e950b9612b10cb2aaf28abcaba4f9f407dd0e97f759"
+}
