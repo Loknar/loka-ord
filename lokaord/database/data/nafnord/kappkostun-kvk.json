@@ -1,0 +1,27 @@
+{
+	"orð": "kappkostun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kapp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kapp-hk"
+		},
+		{
+			"mynd": "kost",
+			"samsetning": "stofn",
+			"kennistrengur": "so-kosta"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["kappkostun", "kappkostun", "kappkostun", "kappkostunar"],
+		"mg": ["kappkostunin", "kappkostunina", "kappkostuninni", "kappkostunarinnar"]
+	},
+	"kennistrengur": "no-kappkostun-kvk",
+	"hash": "2800181a4e85a6bd0ac39ef4701a062abb840076e405c326fa34bed74694258b"
+}
