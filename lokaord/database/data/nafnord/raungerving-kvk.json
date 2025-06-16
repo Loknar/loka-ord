@@ -1,0 +1,27 @@
+{
+	"orð": "raungerving",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "raun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raun-kvk"
+		},
+		{
+			"mynd": "gerv",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gervi-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["raungerving", "raungervingu", "raungervingu", "raungervingar"],
+		"mg": ["raungervingin", "raungervinguna", "raungervingunni", "raungervingarinnar"]
+	},
+	"kennistrengur": "no-raungerving-kvk",
+	"hash": "ca3c850566a6ac05f0f8fd4487865681cd1624dcd45639c7e91ab206a0f5b0e0"
+}
