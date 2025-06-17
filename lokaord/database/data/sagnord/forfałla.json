@@ -8,26 +8,25 @@
 			"kennistrengur": "smáo.ao-for-ó"
 		},
 		{
-			"beygingar": ["germynd-persónuleg", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
-			"kennistrengur": "so-fałla"
+			"kennistrengur": "so-fałla-ó"
 		}
 	],
 	"germynd": {
 		"nafnháttur": "forfałla",
 		"sagnbót": "forfałlið",
 		"boðháttur": {
-			"stýfður": "forfałl",
+			"stýfður": "forfałla",
 			"ft": "forfałlið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["forfełl", "forfełlur", "forfełlur"],
-					"ft": ["forfełlum", "forfałlið", "forfałla"]
+					"et": ["forfałla", "forfałlar", "forfałlar"],
+					"ft": ["forföłlum", "forfałlið", "forfałla"]
 				},
 				"þátíð": {
-					"et": ["forféłl", "forféllst", "forféłl"],
-					"ft": ["forféłlum", "forféłluð", "forféłlu"]
+					"et": ["forfałlaði", "forfallaðir", "forfałlaði"],
+					"ft": ["forföłluðum", "forföłluðuð", "forföłluðu"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -36,24 +35,46 @@
 					"ft": ["forföłlum", "forfałlið", "forfałli"]
 				},
 				"þátíð": {
-					"et": ["forféłli", "forféłlir", "forféłli"],
-					"ft": ["forféłlum", "forféłluð", "forféłlu"]
+					"et": ["forfałlaði", "forfałlaðir", "forfałlaði"],
+					"ft": ["forföłluðum", "forföłluðuð", "forföłluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "forfałlarðu",
+					"ft": "forfałliði"
+				},
+				"þátíð": {
+					"et": "forfałlaðirðu",
+					"ft": "forföłluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "forfałlirðu",
+					"ft": "forfałliði"
+				},
+				"þátíð": {
+					"et": "forfałlaðirðu",
+					"ft": "forföłluðuði"
 				}
 			}
 		}
 	},
 	"miðmynd": {
 		"nafnháttur": "forfałlast",
-		"sagnbót": "forfałlist",
+		"sagnbót": "forfałlast",
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["forfellst", "forfellst", "forfellst"],
+					"et": ["forfałlast", "forfałlast", "forfałlast"],
 					"ft": ["forföłlumst", "forfałlist", "forfałlast"]
 				},
 				"þátíð": {
-					"et": ["forféllst", "forféllst", "forféłlst"],
-					"ft": ["forféłlumst", "forféllust", "forféłlust"]
+					"et": ["forfałlaðist", "forfałlaðist", "forfałlaðist"],
+					"ft": ["forföłluðumst", "forföłluðust", "forföłluðust"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -62,18 +83,18 @@
 					"ft": ["forföłlumst", "forfałlist", "forfałlist"]
 				},
 				"þátíð": {
-					"et": ["forféłlist", "forféłlist", "forféłlist"],
-					"ft": ["forféłlumst", "forféłlust", "forféłlust"]
+					"et": ["forfałlaðist", "forfałlaðist", "forfałlaðist"],
+					"ft": ["forföłluðumst", "forföłluðust", "forföłluðust"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "forfellstu"
+					"et": "forfałlastu"
 				},
 				"þátíð": {
-					"et": "forféllstu"
+					"et": "forfałlaðistu"
 				}
 			},
 			"viðtengingarháttur": {
@@ -81,7 +102,7 @@
 					"et": "forfałlistu"
 				},
 				"þátíð": {
-					"et": "forféłlistu"
+					"et": "forfałlaðistu"
 				}
 			}
 		}
@@ -91,18 +112,30 @@
 		"þátíðar": {
 			"sb": {
 				"et": {
-					"kk": ["forfałlinn", "forfałlinn", "forföłlnum", "forfałlins"],
-					"kvk": ["forfałlin", "forfałlna", "forfałlinni", "forfałlinnar"],
-					"hk": ["forfałlið", "forfałlið", "forföłlnu", "forfałlins"]
+					"kk": ["forfałlaður", "forfałlaðan", "forföłluðum", "forfałlaðs"],
+					"kvk": ["forföłluð", "forfałlaða", "forfałlaðri", "forfałlaðrar"],
+					"hk": ["forfałlað", "forfałlað", "forföłluðu", "forfałlaðs"]
 				},
 				"ft": {
-					"kk": ["forfałlnir", "forfałlna", "forföłlnum", "forfałlinna"],
-					"kvk": ["forfałlnar", "forfałlnar", "forföłlnum", "forfałlinna"],
-					"hk": ["forfałlin", "forfałlin", "forföłlnum", "forfałlinna"]
+					"kk": ["forfałlaðir", "forfałlaða", "forföłluðum", "forfałlaðra"],
+					"kvk": ["forfałlaðar", "forfałlaðar", "forföłluðum", "forfałlaðra"],
+					"hk": ["forföłluð", "forföłluð", "forföłluðum", "forfałlaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["forfałlaði", "forfałlaða", "forfałlaða", "forfałlaða"],
+					"kvk": ["forfałlaða", "forföłluðu", "forföłluðu", "forföłluðu"],
+					"hk": ["forfałlaða", "forfałlaða", "forfałlaða", "forfałlaða"]
+				},
+				"ft": {
+					"kk": ["forföłluðu", "forföłluðu", "forföłluðu", "forföłluðu"],
+					"kvk": ["forföłluðu", "forföłluðu", "forföłluðu", "forföłluðu"],
+					"hk": ["forföłluðu", "forföłluðu", "forföłluðu", "forföłluðu"]
 				}
 			}
 		}
 	},
 	"kennistrengur": "so-forfałla",
-	"hash": "b761ca4ff439883b4b02d6e5f594d4338a76378064a61990f392e5681bf216a0"
+	"hash": "4744823bb7bfa280b28bde55549dddbf3e351a7458c6fb72aff5656412b8ebf0"
 }

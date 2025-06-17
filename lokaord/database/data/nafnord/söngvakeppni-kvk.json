@@ -2,6 +2,16 @@
 	"orð": "söngvakeppni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "söngva",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-söngur-kk"
+		},
+		{
+			"kennistrengur": "no-keppni-kvk"
+		}
+	],
 	"et": {
 		"ág": ["söngvakeppni", "söngvakeppni", "söngvakeppni", "söngvakeppni"],
 		"mg": ["söngvakeppnin", "söngvakeppnina", "söngvakeppninni", "söngvakeppninnar"]
@@ -11,5 +21,5 @@
 		"mg": ["söngvakeppnirnar", "söngvakeppnirnar", "söngvakeppnunum", "söngvakeppnanna"]
 	},
 	"kennistrengur": "no-söngvakeppni-kvk",
-	"hash": "e022408ccb039601adb8c9e68b0ede90de92cd3f2a01240c3406b7acbf5bc3c7"
+	"hash": "c789e7f3ea1e4c2428e7d76af370c7fb2f58c23a17a216010cd6b577c5721527"
 }

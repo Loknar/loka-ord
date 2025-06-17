@@ -1,0 +1,27 @@
+{
+	"orð": "fiðlutónlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fiðlu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fiðla-kvk"
+		},
+		{
+			"mynd": "tón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tónn-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fiðlutónlist", "fiðlutónlist", "fiðlutónlist", "fiðlutónlistar"],
+		"mg": ["fiðlutónlistin", "fiðlutónlistina", "fiðlutónlistinni", "fiðlutónlistarinnar"]
+	},
+	"kennistrengur": "no-fiðlutónlist-kvk",
+	"hash": "b12ae232ec9a19d0b092948653f7440c0121cda8db305a6391181c4dae7e64e8"
+}

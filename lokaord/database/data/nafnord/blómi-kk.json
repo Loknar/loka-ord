@@ -2,6 +2,16 @@
 	"orð": "blómi",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "blóm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-blóm-hk"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["blómi", "blóma", "blóma", "blóma"],
 		"mg": ["blóminn", "blómann", "blómanum", "blómans"]
@@ -11,5 +21,5 @@
 		"mg": ["blómarnir", "blómana", "blómunum", "blómanna"]
 	},
 	"kennistrengur": "no-blómi-kk",
-	"hash": "aa1354e27f8eec5b91a78fcd3689070f2eba4090409b411e59e642e23d123fd7"
+	"hash": "72443b8c17ac598500ab773df58abfbe97311d7e23b281dfd066152f0578e5af"
 }

@@ -1,0 +1,27 @@
+{
+	"orð": "vetrarsólstöður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vetrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vetur-kk"
+		},
+		{
+			"mynd": "sól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sól-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vetrarsólstöður", "vetrarsólstöður", "vetrarsólstöðum", "vetrarsólstaða"],
+		"mg": ["vetrarsólstöðurnar", "vetrarsólstöðurnar", "vetrarsólstöðunum", "vetrarsólstaðanna"]
+	},
+	"kennistrengur": "no-vetrarsólstöður-kvk",
+	"hash": "bca4ea699d49cfc093a6e750cf987d9cd3cf7317fa47f80aa291ce3fd756a830"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "kammertónlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kammer",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kammer-hk"
+		},
+		{
+			"mynd": "tón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tónn-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kammertónlist", "kammertónlist", "kammertónlist", "kammertónlistar"],
+		"mg": ["kammertónlistin", "kammertónlistina", "kammertónlistinni", "kammertónlistarinnar"]
+	},
+	"kennistrengur": "no-kammertónlist-kvk",
+	"hash": "49cd99f51b4b6e082977dd3018ba974887d58ef4a468aa18294f79f55d1b804f"
+}
