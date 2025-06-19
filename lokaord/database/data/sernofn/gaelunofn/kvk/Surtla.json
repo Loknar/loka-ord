@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-surtla-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Surtla", "Surtlu", "Surtlu", "Surtlu"]
 	},
 	"kennistrengur": "sérn.gn-Surtla-kvk",
-	"hash": "51b35f67f3231b6aee29e214c160cde34625846b6ea4bb79cb275cdd9d6e64ca"
+	"hash": "25540e1854be523f78247829fc81b0c84d3ef0ce8f6555e9d870e4a6f14d0438"
 }

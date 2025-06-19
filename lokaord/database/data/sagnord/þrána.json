@@ -1,0 +1,99 @@
+{
+	"orð": "þrána",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þrán",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-þrái-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þrána",
+		"sagnbót": "þránað",
+		"boðháttur": {
+			"stýfður": "þrána",
+			"et": "þránaðu",
+			"ft": "þránið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þrána", "þránar", "þránar"],
+					"ft": ["þránum", "þránið", "þrána"]
+				},
+				"þátíð": {
+					"et": ["þránaði", "þránaðir", "þránaði"],
+					"ft": ["þránuðum", "þránuðuð", "þránuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þráni", "þránir", "þráni"],
+					"ft": ["þránum", "þránið", "þráni"]
+				},
+				"þátíð": {
+					"et": ["þránaði", "þránaðir", "þránaði"],
+					"ft": ["þránuðum", "þránuðuð", "þránuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þránarðu",
+					"ft": "þrániði"
+				},
+				"þátíð": {
+					"et": "þránaðirðu",
+					"ft": "þránuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þránirðu",
+					"ft": "þrániði"
+				},
+				"þátíð": {
+					"et": "þránaðirðu",
+					"ft": "þránuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þránandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þránaður", "þránaðan", "þránuðum", "þránaðs"],
+					"kvk": ["þránuð", "þránaða", "þránaðri", "þránaðrar"],
+					"hk": ["þránað", "þránað", "þránuðu", "þránaðs"]
+				},
+				"ft": {
+					"kk": ["þránaðir", "þránaða", "þránuðum", "þránaðra"],
+					"kvk": ["þránaðar", "þránaðar", "þránuðum", "þránaðra"],
+					"hk": ["þránuð", "þránuð", "þránuðum", "þránaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þránaði", "þránaða", "þránaða", "þránaða"],
+					"kvk": ["þránaða", "þránuðu", "þránuðu", "þránuðu"],
+					"hk": ["þránaða", "þránaða", "þránaða", "þránaða"]
+				},
+				"ft": {
+					"kk": ["þránuðu", "þránuðu", "þránuðu", "þránuðu"],
+					"kvk": ["þránuðu", "þránuðu", "þránuðu", "þránuðu"],
+					"hk": ["þránuðu", "þránuðu", "þránuðu", "þránuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þrána",
+	"hash": "7f72b0d338166a5915eaf4275ca54313c2b0bdafb219dce9477df81353686ff2"
+}

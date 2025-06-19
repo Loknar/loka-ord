@@ -1,0 +1,32 @@
+{
+	"orð": "tölvupóstssamskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "tölvu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tölva-kvk"
+		},
+		{
+			"mynd": "pósts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-póstur-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["tölvupóstssamskipti", "tölvupóstssamskipti", "tölvupóstssamskiptum", "tölvupóstssamskipta"],
+		"mg": ["tölvupóstssamskiptin", "tölvupóstssamskiptin", "tölvupóstssamskiptunum", "tölvupóstssamskiptanna"]
+	},
+	"kennistrengur": "no-tölvupóstssamskipti-hk",
+	"hash": "32287ac48f99e3c9ea9996d9f1086f48eb130cda756db054ab9760cb1768b92e"
+}

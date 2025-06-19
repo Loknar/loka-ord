@@ -1,0 +1,87 @@
+{
+	"orð": "brennimerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brenni",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-brenna-_brenndi_"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brennimerkja",
+		"sagnbót": "brennimerkt",
+		"boðháttur": {
+			"stýfður": "brennimerk",
+			"et": "brennimerktu",
+			"ft": "brennimerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brennimerki", "brennimerkir", "brennimerkir"],
+					"ft": ["brennimerkjum", "brennimerkið", "brennimerkja"]
+				},
+				"þátíð": {
+					"et": ["brennimerkti", "brennimerktir", "brennimerkti"],
+					"ft": ["brennimerktum", "brennimerktuð", "brennimerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brennimerki", "brennimerkir", "brennimerki"],
+					"ft": ["brennimerkjum", "brennimerkið", "brennimerki"]
+				},
+				"þátíð": {
+					"et": ["brennimerkti", "brennimerktir", "brennimerkti"],
+					"ft": ["brennimerktum", "brennimerktuð", "brennimerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brennimerkirðu",
+					"ft": "brennimerkiði"
+				},
+				"þátíð": {
+					"et": "brennimerktirðu",
+					"ft": "brennimerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brennimerkirðu",
+					"ft": "brennimerkiði"
+				},
+				"þátíð": {
+					"et": "brennimerktirðu",
+					"ft": "brennimerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brennimerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brennimerktur", "brennimerktan", "brennimerktum", "brennimerkts"],
+					"kvk": ["brennimerkt", "brennimerkta", "brennimerktri", "brennimerktrar"],
+					"hk": ["brennimerkt", "brennimerkt", "brennimerktu", "brennimerkts"]
+				},
+				"ft": {
+					"kk": ["brennimerktir", "brennimerkta", "brennimerktum", "brennimerktra"],
+					"kvk": ["brennimerktar", "brennimerktar", "brennimerktum", "brennimerktra"],
+					"hk": ["brennimerkt", "brennimerkt", "brennimerktum", "brennimerktra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brennimerkja",
+	"hash": "c9e7629245b6808105b7ce1f282598d1015716333e0fc903c64fca8f235333fd"
+}

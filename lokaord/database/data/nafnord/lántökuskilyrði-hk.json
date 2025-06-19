@@ -1,0 +1,32 @@
+{
+	"orð": "lántökuskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lán",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["lántökuskilyrði", "lántökuskilyrði", "lántökuskilyrðum", "lántökuskilyrða"],
+		"mg": ["lántökuskilyrðin", "lántökuskilyrðin", "lántökuskilyrðunum", "lántökuskilyrðanna"]
+	},
+	"kennistrengur": "no-lántökuskilyrði-hk",
+	"hash": "ccc9defea29128f876ef63681857a2d5b1de43135f82da48c9182d6b78212c11"
+}
