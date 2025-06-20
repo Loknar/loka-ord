@@ -1,0 +1,27 @@
+{
+	"orð": "öryggisaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "öryggis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öryggi-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["öryggisaðstæður", "öryggisaðstæður", "öryggisaðstæðum", "öryggisaðstæðna"],
+		"mg": ["öryggisaðstæðurnar", "öryggisaðstæðurnar", "öryggisaðstæðunum", "öryggisaðstæðnanna"]
+	},
+	"kennistrengur": "no-öryggisaðstæður-kvk",
+	"hash": "bacc33b0aea8a51c46600881b1c0cc1aed97f8545b4d6dc4d72218ebf34dd895"
+}

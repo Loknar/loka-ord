@@ -2,10 +2,22 @@
 	"orð": "fylgni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fylg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-fylgja"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["fylgni", "fylgni", "fylgni", "fylgni"],
 		"mg": ["fylgnin", "fylgnina", "fylgninni", "fylgninnar"]
 	},
 	"kennistrengur": "no-fylgni-kvk",
-	"hash": "6ff0f1273cfd72479bc9c7d42b5e753d9ea4f9badf9ea3cb9ff8088c91b0dd7e"
+	"hash": "19eeaabf481c7aeb49021b53696716f6cb4702834db68aab8c8e05cd636d02f8"
 }

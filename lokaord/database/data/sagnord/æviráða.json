@@ -1,0 +1,99 @@
+{
+	"orð": "æviráða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ævi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ævi-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-ráða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "æviráða",
+		"sagnbót": "æviráðið",
+		"boðháttur": {
+			"stýfður": "æviráð",
+			"et": "æviráddu",
+			"ft": "æviráðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["æviræð", "æviræður", "æviræður"],
+					"ft": ["æviráðum", "æviráðið", "æviráða"]
+				},
+				"þátíð": {
+					"et": ["æviréð", "æviréðst", "æviréð"],
+					"ft": ["æviréðum", "æviréðuð", "æviréðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["æviráði", "æviráðir", "æviráði"],
+					"ft": ["æviráðum", "æviráðið", "æviráði"]
+				},
+				"þátíð": {
+					"et": ["æviréði", "æviréðir", "æviréði"],
+					"ft": ["æviréðum", "æviréðuð", "æviréðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "æviræðurðu",
+					"ft": "æviráðiði"
+				},
+				"þátíð": {
+					"et": "æviréðstu",
+					"ft": "æviréðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "æviráðirðu",
+					"ft": "æviráðiði"
+				},
+				"þátíð": {
+					"et": "æviréðirðu",
+					"ft": "æviréðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "æviráðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["æviráðinn", "æviráðinn", "æviráðnum", "æviráðins"],
+					"kvk": ["æviráðin", "æviráðna", "æviráðinni", "æviráðinnar"],
+					"hk": ["æviráðið", "æviráðið", "æviráðnu", "æviráðins"]
+				},
+				"ft": {
+					"kk": ["æviráðnir", "æviráðna", "æviráðnum", "æviráðinna"],
+					"kvk": ["æviráðnar", "æviráðnar", "æviráðnum", "æviráðinna"],
+					"hk": ["æviráðin", "æviráðin", "æviráðnum", "æviráðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["æviráðni", "æviráðna", "æviráðna", "æviráðna"],
+					"kvk": ["æviráðna", "æviráðnu", "æviráðnu", "æviráðnu"],
+					"hk": ["æviráðna", "æviráðna", "æviráðna", "æviráðna"]
+				},
+				"ft": {
+					"kk": ["æviráðnu", "æviráðnu", "æviráðnu", "æviráðnu"],
+					"kvk": ["æviráðnu", "æviráðnu", "æviráðnu", "æviráðnu"],
+					"hk": ["æviráðnu", "æviráðnu", "æviráðnu", "æviráðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-æviráða",
+	"hash": "8b3d73f5c4ddc62389e9a0855699b16dee7ccf302fc73ce9c7339412186334a5"
+}

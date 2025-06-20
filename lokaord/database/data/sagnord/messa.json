@@ -1,0 +1,73 @@
+{
+	"orð": "messa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mess",
+			"samsetning": "stofn",
+			"kennistrengur": "no-messa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "messa",
+		"sagnbót": "messað",
+		"boðháttur": {
+			"stýfður": "messa",
+			"et": "messaðu",
+			"ft": "messið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["messa", "messar", "messar"],
+					"ft": ["messum", "messið", "messa"]
+				},
+				"þátíð": {
+					"et": ["messaði", "messaðir", "messaði"],
+					"ft": ["messuðum", "messuðuð", "messuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["messi", "messir", "messi"],
+					"ft": ["messum", "messið", "messi"]
+				},
+				"þátíð": {
+					"et": ["messaði", "messaðir", "messaði"],
+					"ft": ["messuðum", "messuðuð", "messuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "messarðu",
+					"ft": "messiði"
+				},
+				"þátíð": {
+					"et": "messaðirðu",
+					"ft": "messuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "messirðu",
+					"ft": "messiði"
+				},
+				"þátíð": {
+					"et": "messaðirðu",
+					"ft": "messuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "messandi"
+	},
+	"kennistrengur": "so-messa",
+	"hash": "5aded62c7f94ca15cf2b367cc5252748a6ae07f5578292a9ff39107f0b5a9cb5"
+}

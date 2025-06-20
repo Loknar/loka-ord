@@ -1,0 +1,135 @@
+{
+	"orð": "miskunna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "miskunn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-miskunn-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "miskunna",
+		"sagnbót": "miskunnað",
+		"boðháttur": {
+			"stýfður": "miskunna",
+			"et": "miskunnaðu",
+			"ft": "miskunnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["miskunna", "miskunnar", "miskunnar"],
+					"ft": ["miskunnum", "miskunnið", "miskunna"]
+				},
+				"þátíð": {
+					"et": ["miskunnaði", "miskunnaðir", "miskunnaði"],
+					"ft": ["miskunnuðum", "miskunnuðuð", "miskunnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["miskunni", "miskunnir", "miskunni"],
+					"ft": ["miskunnum", "miskunnið", "miskunni"]
+				},
+				"þátíð": {
+					"et": ["miskunnaði", "miskunnaðir", "miskunnaði"],
+					"ft": ["miskunnuðum", "miskunnuðuð", "miskunnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "miskunnarðu",
+					"ft": "miskunniði"
+				},
+				"þátíð": {
+					"et": "miskunnaðirðu",
+					"ft": "miskunnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "miskunnirðu",
+					"ft": "miskunniði"
+				},
+				"þátíð": {
+					"et": "miskunnaðirðu",
+					"ft": "miskunnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "miskunnast",
+		"sagnbót": "miskunnast",
+		"boðháttur": {
+			"et": "miskunnastu",
+			"ft": "miskunnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["miskunnast", "miskunnast", "miskunnast"],
+					"ft": ["miskunnumst", "miskunnist", "miskunnast"]
+				},
+				"þátíð": {
+					"et": ["miskunnaðist", "miskunnaðist", "miskunnaðist"],
+					"ft": ["miskunnuðumst", "miskunnuðust", "miskunnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["miskunnist", "miskunnist", "miskunnist"],
+					"ft": ["miskunnumst", "miskunnist", "miskunnist"]
+				},
+				"þátíð": {
+					"et": ["miskunnaðist", "miskunnaðist", "miskunnaðist"],
+					"ft": ["miskunnuðumst", "miskunnuðust", "miskunnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "miskunnastu"
+				},
+				"þátíð": {
+					"et": "miskunnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "miskunnistu"
+				},
+				"þátíð": {
+					"et": "miskunnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "miskunnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["miskunnaður", "miskunnaðan", "miskunnuðum", "miskunnaðs"],
+					"kvk": ["miskunnuð", "miskunnaða", "miskunnaðri", "miskunnaðrar"],
+					"hk": ["miskunnað", "miskunnað", "miskunnuðu", "miskunnaðs"]
+				},
+				"ft": {
+					"kk": ["miskunnaðir", "miskunnaða", "miskunnuðum", "miskunnaðra"],
+					"kvk": ["miskunnaðar", "miskunnaðar", "miskunnuðum", "miskunnaðra"],
+					"hk": ["miskunnuð", "miskunnuð", "miskunnuðum", "miskunnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-miskunna",
+	"hash": "8a815b552d09db809e6fd27180cd0488baeb2c3423e9b4dc4bc528f835ce4acb"
+}

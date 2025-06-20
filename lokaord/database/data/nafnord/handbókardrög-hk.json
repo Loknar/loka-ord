@@ -1,0 +1,27 @@
+{
+	"orð": "handbókardrög",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"mynd": "bókar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-drag-hk"
+		}
+	],
+	"ft": {
+		"ág": ["handbókardrög", "handbókardrög", "handbókardrögum", "handbókardraga"],
+		"mg": ["handbókardrögin", "handbókardrögin", "handbókardrögunum", "handbókardraganna"]
+	},
+	"kennistrengur": "no-handbókardrög-hk",
+	"hash": "696e9d4eeae0c6a6b4f6a9e0f7eca06fedf275f384c8dcc5cf724d32d99db18e"
+}

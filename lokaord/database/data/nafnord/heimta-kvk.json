@@ -2,6 +2,16 @@
 	"orð": "heimta",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heimt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-heimt-kvk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["heimta", "heimtu", "heimtu", "heimtu"],
 		"mg": ["heimtan", "heimtuna", "heimtunni", "heimtunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["heimturnar", "heimturnar", "heimtunum", "heimtanna"]
 	},
 	"kennistrengur": "no-heimta-kvk",
-	"hash": "2203d49aed369604ad7db29ac1ae673e08b43a293cb75f29eef9462dfae21411"
+	"hash": "2e187c34837e9be56f907ebb619e1c233f6dadec2cc08494d6d2879f3f075885"
 }

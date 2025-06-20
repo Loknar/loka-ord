@@ -1,0 +1,32 @@
+{
+	"orð": "Landsuppfræðingarfélagið",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "Lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "fræðingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fræðing-kvk"
+		},
+		{
+			"beygingar": ["et-mg"],
+			"kennistrengur": "no-félag-hk"
+		}
+	],
+	"et": {
+		"mg": ["Landsuppfræðingarfélagið", "Landsuppfræðingarfélagið", "Landsuppfræðingarfélaginu", "Landsuppfræðingarfélagsins"]
+	},
+	"kennistrengur": "sérn.ön-Landsuppfræðingarfélagið-hk",
+	"hash": "1393fd43bfee825fc34fbd56ef4f6e6d783ba9b5cff7290b2ddc4bcb75ff5097"
+}

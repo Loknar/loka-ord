@@ -1,0 +1,87 @@
+{
+	"orð": "augumlíta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "augum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-auga-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-líta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "augumlíta",
+		"sagnbót": "augumlitið",
+		"boðháttur": {
+			"stýfður": "augumlít",
+			"et": "augumlíttu",
+			"ft": "augumlítið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["augumlít", "augumlítur", "augumlítur"],
+					"ft": ["augumlítum", "augumlítið", "augumlíta"]
+				},
+				"þátíð": {
+					"et": ["augumleit", "augumleist", "augumleit"],
+					"ft": ["augumlitum", "augumlituð", "augumlitu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["augumlíti", "augumlítir", "augumlíti"],
+					"ft": ["augumlítum", "augumlítið", "augumlíti"]
+				},
+				"þátíð": {
+					"et": ["augumliti", "augumlitir", "augumliti"],
+					"ft": ["augumlitum", "augumlituð", "augumlitu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "augumlíturðu",
+					"ft": "augumlítiði"
+				},
+				"þátíð": {
+					"et": "augumleistu",
+					"ft": "augumlituði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "augumlítirðu",
+					"ft": "augumlítiði"
+				},
+				"þátíð": {
+					"et": "augumlitirðu",
+					"ft": "augumlituði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "augumlítandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["augumlitinn", "augumlitinn", "augumlitnum", "augumlitins"],
+					"kvk": ["augumlitin", "augumlitna", "augumlitinni", "augumlitinnar"],
+					"hk": ["augumlitið", "augumlitið", "augumlitnu", "augumlitins"]
+				},
+				"ft": {
+					"kk": ["augumlitnir", "augumlitna", "augumlitnum", "augumlitinna"],
+					"kvk": ["augumlitnar", "augumlitnar", "augumlitnum", "augumlitinna"],
+					"hk": ["augumlitin", "augumlitin", "augumlitnum", "augumlitinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-augumlíta",
+	"hash": "3642cca226bff1e228c5541dbc8b44caa66a1541f331404ab4f9c0dbea148479"
+}
