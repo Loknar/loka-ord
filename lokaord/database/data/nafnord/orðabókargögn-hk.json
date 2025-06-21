@@ -1,0 +1,27 @@
+{
+	"orð": "orðabókargögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "orða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orð-hk"
+		},
+		{
+			"mynd": "bókar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["orðabókargögn", "orðabókargögn", "orðabókargögnum", "orðabókargagna"],
+		"mg": ["orðabókargögnin", "orðabókargögnin", "orðabókargögnunum", "orðabókargagnanna"]
+	},
+	"kennistrengur": "no-orðabókargögn-hk",
+	"hash": "58a0a648317c811a24967b32114055833c7c3f2b2b3678ad0e5cecf808a80e6d"
+}

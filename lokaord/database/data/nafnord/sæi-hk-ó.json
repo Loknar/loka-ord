@@ -2,11 +2,22 @@
 	"orð": "sæi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sæ",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sjá"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sæi", "sæi", "sæi", "sæis"],
 		"mg": ["sæið", "sæið", "sæinu", "sæisins"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-sæi-hk-ó",
-	"hash": "dabd80ab70fb482c8dcf4dcbfed7fdc6f62e719f698f0240a736aed64fa56692"
+	"hash": "08c724b0d344967e64d8633162fc23cfa423c794b07461377992dd3a2fa811be"
 }
