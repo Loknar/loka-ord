@@ -1,0 +1,27 @@
+{
+	"orð": "framleiðniaukning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðni",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leiðni-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aukning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðniaukning", "framleiðniaukningu", "framleiðniaukningu", "framleiðniaukningar"],
+		"mg": ["framleiðniaukningin", "framleiðniaukninguna", "framleiðniaukningunni", "framleiðniaukningarinnar"]
+	},
+	"kennistrengur": "no-framleiðniaukning-kvk",
+	"hash": "d5226d4b68892e0424640289fce9caca0987d3b17041d242726a6fd68c9d7eb0"
+}
