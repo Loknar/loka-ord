@@ -1,0 +1,37 @@
+{
+	"orð": "kjarnorkusamkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kjarn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kjarni-kk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["kjarnorkusamkomulag", "kjarnorkusamkomulag", "kjarnorkusamkomulagi", "kjarnorkusamkomulags"],
+		"mg": ["kjarnorkusamkomulagið", "kjarnorkusamkomulagið", "kjarnorkusamkomulaginu", "kjarnorkusamkomulagsins"]
+	},
+	"kennistrengur": "no-kjarnorkusamkomulag-hk",
+	"hash": "2f261e76fefc1678d2c4b6d9ba3f38f43c9bc84d4d69123fccf6d5da8955637e"
+}

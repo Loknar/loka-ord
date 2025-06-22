@@ -1,0 +1,88 @@
+{
+	"orð": "væna",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "væna",
+		"sagnbót": "vænt",
+		"boðháttur": {
+			"stýfður": "væn",
+			"et": "vændu",
+			"ft": "vænið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["væni", "vænir", "vænir"],
+					"ft": ["vænum", "vænið", "væna"]
+				},
+				"þátíð": {
+					"et": ["vændi", "vændir", "vændi"],
+					"ft": ["vændum", "vænduð", "vændu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["væni", "vænir", "væni"],
+					"ft": ["vænum", "vænið", "væni"]
+				},
+				"þátíð": {
+					"et": ["vændi", "vændi", "vændi"],
+					"ft": ["vændum", "vænduð", "vændu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vænirðu",
+					"ft": "væniði"
+				},
+				"þátíð": {
+					"et": "vændirðu",
+					"ft": "vænduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vænirðu",
+					"ft": "væniði"
+				},
+				"þátíð": {
+					"et": "vændirðu",
+					"ft": "vænduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vænandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vændur", "vændan", "vændum", "vænds"],
+					"kvk": ["vænt", "vænda", "vændri", "vændrar"],
+					"hk": ["vænt", "vænt", "vændu", "vænds"]
+				},
+				"ft": {
+					"kk": ["vændir", "vænda", "vændum", "vændra"],
+					"kvk": ["vændar", "vændar", "vændum", "vændra"],
+					"hk": ["vænt", "vænt", "vændum", "vændra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vændi", "vænda", "vænda", "vænda"],
+					"kvk": ["vænda", "vændu", "vændu", "vændu"],
+					"hk": ["vænda", "vænda", "vænda", "vænda"]
+				},
+				"ft": {
+					"kk": ["vændu", "vændu", "vændu", "vændu"],
+					"kvk": ["vændu", "vændu", "vændu", "vændu"],
+					"hk": ["vændu", "vændu", "vændu", "vændu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-væna",
+	"hash": "b68eaae03f146311ba7fb5133e755cc228868c2b57e05788e74171fecc066ae2"
+}

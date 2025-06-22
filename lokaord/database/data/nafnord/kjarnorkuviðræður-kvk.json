@@ -1,0 +1,32 @@
+{
+	"orð": "kjarnorkuviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kjarn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kjarni-kk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["kjarnorkuviðræður", "kjarnorkuviðræður", "kjarnorkuviðræðum", "kjarnorkuviðræðna"],
+		"mg": ["kjarnorkuviðræðurnar", "kjarnorkuviðræðurnar", "kjarnorkuviðræðunum", "kjarnorkuviðræðnanna"]
+	},
+	"kennistrengur": "no-kjarnorkuviðræður-kvk",
+	"hash": "85589e319e677c2eeaa8443c3af0dbb70a251814f2ba2dfe560e5fe2ef24cb8c"
+}
