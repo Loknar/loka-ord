@@ -1,0 +1,174 @@
+{
+	"orð": "gereyðileggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ger",
+			"samsetning": "stofn",
+			"kennistrengur": "so-gera"
+		},
+		{
+			"mynd": "eyði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-eyði-hk"
+		},
+		{
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gereyðileggja",
+		"sagnbót": "gereyðilagt",
+		"boðháttur": {
+			"stýfður": "gereyðilegg",
+			"et": "gereyðileggðu",
+			"ft": "gereyðileggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gereyðilegg", "gereyðileggur", "gereyðileggur"],
+					"ft": ["gereyðileggjum", "gereyðileggið", "gereyðileggja"]
+				},
+				"þátíð": {
+					"et": ["gereyðilagði", "gereyðilagðir", "gereyðilagði"],
+					"ft": ["gereyðilögðum", "gereyðilögðuð", "gereyðilögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gereyðileggi", "gereyðileggir", "gereyðileggi"],
+					"ft": ["gereyðileggjum", "gereyðileggið", "gereyðileggi"]
+				},
+				"þátíð": {
+					"et": ["gereyðilegði", "gereyðilegðir", "gereyðilegði"],
+					"ft": ["gereyðilegðum", "gereyðilegðuð", "gereyðilegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gereyðileggurðu",
+					"ft": "gereyðileggiði"
+				},
+				"þátíð": {
+					"et": "gereyðilagðirðu",
+					"ft": "gereyðilögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gereyðileggirðu",
+					"ft": "gereyðileggiði"
+				},
+				"þátíð": {
+					"et": "gereyðileggðirðu",
+					"ft": "gereyðileggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gereyðileggjast",
+		"sagnbót": "gereyðilagst",
+		"boðháttur": {
+			"et": "gereyðileggstu",
+			"ft": "gereyðileggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gereyðileggst", "gereyðileggst", "gereyðileggst"],
+					"ft": ["gereyðileggjumst", "gereyðileggist", "gereyðileggjast"]
+				},
+				"þátíð": {
+					"et": ["gereyðilagðist", "gereyðilagðist", "gereyðilagðist"],
+					"ft": ["gereyðilögðumst", "gereyðilögðust", "gereyðilögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gereyðileggist", "gereyðileggist", "gereyðileggist"],
+					"ft": ["gereyðileggjumst", "gereyðileggist", "gereyðileggist"]
+				},
+				"þátíð": {
+					"et": ["gereyðilegðist", "gereyðilegðist", "gereyðilegðist"],
+					"ft": ["gereyðilegðumst", "gereyðilegðist", "gereyðilegðist"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gereyðileggst", "gereyðileggst", "gereyðileggst"],
+					"ft": ["gereyðileggst", "gereyðileggst", "gereyðileggst"]
+				},
+				"þátíð": {
+					"et": ["gereyðilagðist", "gereyðilagðist", "gereyðilagðist"],
+					"ft": ["gereyðilagðist", "gereyðilagðist", "gereyðilagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gereyðileggist", "gereyðileggist", "gereyðileggist"],
+					"ft": ["gereyðileggjumst", "gereyðileggist", "gereyðileggist"]
+				},
+				"þátíð": {
+					"et": ["gereyðilegðist", "gereyðilegðist", "gereyðilegðist"],
+					"ft": ["gereyðilegðumst", "gereyðilegðust", "gereyðilegðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gereyðileggstu"
+				},
+				"þátíð": {
+					"et": "gereyðilagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gereyðileggistu"
+				},
+				"þátíð": {
+					"et": "gereyðilegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gereyðileggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gereyðilagður", "gereyðilagðan", "gereyðilögðum", "gereyðilagðs"],
+					"kvk": ["gereyðilögð", "gereyðilagða", "gereyðilagðri", "gereyðilagðrar"],
+					"hk": ["gereyðilagt", "gereyðilagt", "gereyðilögðu", "gereyðilagðs"]
+				},
+				"ft": {
+					"kk": ["gereyðilagðir", "gereyðilagða", "gereyðilögðum", "gereyðilagðra"],
+					"kvk": ["gereyðilagðar", "gereyðilagðar", "gereyðilögðum", "gereyðilagðra"],
+					"hk": ["gereyðilögð", "gereyðilögð", "gereyðilögðum", "gereyðilagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gereyðilagði", "gereyðilagða", "gereyðilagða", "gereyðilagða"],
+					"kvk": ["gereyðilagða", "gereyðilögðu", "gereyðilögðu", "gereyðilögðu"],
+					"hk": ["gereyðilagða", "gereyðilagða", "gereyðilagða", "gereyðilagða"]
+				},
+				"ft": {
+					"kk": ["gereyðilögðu", "gereyðilögðu", "gereyðilögðu", "gereyðilögðu"],
+					"kvk": ["gereyðilögðu", "gereyðilögðu", "gereyðilögðu", "gereyðilögðu"],
+					"hk": ["gereyðilögðu", "gereyðilögðu", "gereyðilögðu", "gereyðilögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gereyðileggja",
+	"hash": "b5c7a714102ce4cf5627e3c420a681703beac8168c56581fd14973d438519a0a"
+}
