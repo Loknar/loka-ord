@@ -1,0 +1,35 @@
+{
+	"orð": "veiðigjaldsumræða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "veiði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veiði-kvk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["veiðigjaldsumræða", "veiðigjaldsumræðu", "veiðigjaldsumræðu", "veiðigjaldsumræðu"],
+		"mg": ["veiðigjaldsumræðan", "veiðigjaldsumræðuna", "veiðigjaldsumræðunni", "veiðigjaldsumræðunnar"]
+	},
+	"ft": {
+		"ág": ["veiðigjaldsumræður", "veiðigjaldsumræður", "veiðigjaldsumræðum", "veiðigjaldsumræðna"],
+		"mg": ["veiðigjaldsumræðurnar", "veiðigjaldsumræðurnar", "veiðigjaldsumræðunum", "veiðigjaldsumræðnanna"]
+	},
+	"kennistrengur": "no-veiðigjaldsumræða-kvk",
+	"hash": "9ef7385aed8a079ae523cee4497ecc42b51dff1fd3970037865608f0b82e9c91"
+}

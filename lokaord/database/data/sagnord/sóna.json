@@ -1,0 +1,135 @@
+{
+	"orð": "sóna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "són",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sónn-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sóna",
+		"sagnbót": "sónað",
+		"boðháttur": {
+			"stýfður": "sóna",
+			"et": "sónaðu",
+			"ft": "sónið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sóna", "sónar", "sónar"],
+					"ft": ["sónum", "sónið", "sóna"]
+				},
+				"þátíð": {
+					"et": ["sónaði", "sónaðir", "sónaði"],
+					"ft": ["sónuðum", "sónuðuð", "sónuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sóni", "sónir", "sóni"],
+					"ft": ["sónum", "sónið", "sóni"]
+				},
+				"þátíð": {
+					"et": ["sónaði", "sónaðir", "sónaði"],
+					"ft": ["sónuðum", "sónuðuð", "sónuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sónarðu",
+					"ft": "sóniði"
+				},
+				"þátíð": {
+					"et": "sónaðirðu",
+					"ft": "sónuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sónirðu",
+					"ft": "sóniði"
+				},
+				"þátíð": {
+					"et": "sónaðirðu",
+					"ft": "sónuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sónast",
+		"sagnbót": "sónast",
+		"boðháttur": {
+			"et": "sónastu",
+			"ft": "sónist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sónast", "sónast", "sónast"],
+					"ft": ["sónumst", "sónist", "sónast"]
+				},
+				"þátíð": {
+					"et": ["sónaðist", "sónaðist", "sónaðist"],
+					"ft": ["sónuðumst", "sónuðust", "sónuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sónist", "sónist", "sónist"],
+					"ft": ["sónumst", "sónist", "sónist"]
+				},
+				"þátíð": {
+					"et": ["sónaðist", "sónaðist", "sónaðist"],
+					"ft": ["sónuðumst", "sónuðust", "sónuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sónastu"
+				},
+				"þátíð": {
+					"et": "sónaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sónistu"
+				},
+				"þátíð": {
+					"et": "sónaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sónandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sónaður", "sónaðan", "sónuðum", "sónaðs"],
+					"kvk": ["sónuð", "sónaða", "sónaðri", "sónaðrar"],
+					"hk": ["sónað", "sónað", "sónuðu", "sónaðs"]
+				},
+				"ft": {
+					"kk": ["sónaðir", "sónaða", "sónuðum", "sónaðra"],
+					"kvk": ["sónaðar", "sónaðar", "sónuðum", "sónaðra"],
+					"hk": ["sónuð", "sónuð", "sónuðum", "sónaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sóna",
+	"hash": "f64c72d908eb1c533a3973844cd671bb01eddb49529660c7505279384ff4d9cd"
+}

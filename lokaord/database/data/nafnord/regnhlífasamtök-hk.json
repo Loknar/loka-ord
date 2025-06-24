@@ -1,0 +1,32 @@
+{
+	"orð": "regnhlífasamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "regn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stakkur-kk"
+		},
+		{
+			"mynd": "hlífa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlíf-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["regnhlífasamtök", "regnhlífasamtök", "regnhlífasamtökum", "regnhlífasamtaka"],
+		"mg": ["regnhlífasamtökin", "regnhlífasamtökin", "regnhlífasamtökunum", "regnhlífasamtakanna"]
+	},
+	"kennistrengur": "no-regnhlífasamtök-hk",
+	"hash": "6a7600700389f988c539799314035e4fb505f9cfc9da65d0d60cce7facf3850c"
+}

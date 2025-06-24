@@ -1,0 +1,27 @@
+{
+	"orð": "öryggisskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "öryggis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öryggi-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["öryggisskilyrði", "öryggisskilyrði", "öryggisskilyrðum", "öryggisskilyrða"],
+		"mg": ["öryggisskilyrðin", "öryggisskilyrðin", "öryggisskilyrðunum", "öryggisskilyrðanna"]
+	},
+	"kennistrengur": "no-öryggisskilyrði-hk",
+	"hash": "fc8bf892ea0ec3cca95d02f563f47f24508574662e33b3ab7ee6da3a625d825b"
+}

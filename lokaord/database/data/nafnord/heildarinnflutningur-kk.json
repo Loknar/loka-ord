@@ -1,0 +1,27 @@
+{
+	"orð": "heildarinnflutningur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-flutningur-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarinnflutningur", "heildarinnflutning", "heildarinnflutningi", "heildarinnflutnings"],
+		"mg": ["heildarinnflutningurinn", "heildarinnflutninginn", "heildarinnflutningnum", "heildarinnflutningsins"]
+	},
+	"kennistrengur": "no-heildarinnflutningur-kk",
+	"hash": "b422c61428fa01418db9561a3e33f5828ab75ef5af220d9c472257e70c3f3b26"
+}

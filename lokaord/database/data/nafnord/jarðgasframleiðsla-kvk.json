@@ -1,0 +1,32 @@
+{
+	"orð": "jarðgasframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "jarð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"mynd": "gas",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gas-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["jarðgasframleiðsla", "jarðgasframleiðslu", "jarðgasframleiðslu", "jarðgasframleiðslu"],
+		"mg": ["jarðgasframleiðslan", "jarðgasframleiðsluna", "jarðgasframleiðslunni", "jarðgasframleiðslunnar"]
+	},
+	"kennistrengur": "no-jarðgasframleiðsla-kvk",
+	"hash": "bdfb820882e13050ae86b08e44e6ed99bbc30cda334b05c2372512ac17f58d2f"
+}
