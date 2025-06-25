@@ -1,0 +1,135 @@
+{
+	"orð": "skruna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skrun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrun-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skruna",
+		"sagnbót": "skrunað",
+		"boðháttur": {
+			"stýfður": "skruna",
+			"et": "skrunaðu",
+			"ft": "skrunið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skruna", "skrunar", "skrunar"],
+					"ft": ["skrunum", "skrunið", "skruna"]
+				},
+				"þátíð": {
+					"et": ["skrunaði", "skrunaðir", "skrunaði"],
+					"ft": ["skrunuðum", "skrunuðuð", "skrunuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skruni", "skrunir", "skruni"],
+					"ft": ["skrunum", "skrunið", "skruni"]
+				},
+				"þátíð": {
+					"et": ["skrunaði", "skrunaðir", "skrunaði"],
+					"ft": ["skrunuðum", "skrunuðuð", "skrunuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrunarðu",
+					"ft": "skruniði"
+				},
+				"þátíð": {
+					"et": "skrunaðirðu",
+					"ft": "skrunuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrunirðu",
+					"ft": "skruniði"
+				},
+				"þátíð": {
+					"et": "skrunaðirðu",
+					"ft": "skrunuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skrunast",
+		"sagnbót": "skrunast",
+		"boðháttur": {
+			"et": "skrunastu",
+			"ft": "skrunist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrunast", "skrunast", "skrunast"],
+					"ft": ["skrunumst", "skrunist", "skrunast"]
+				},
+				"þátíð": {
+					"et": ["skrunaðist", "skrunaðist", "skrunaðist"],
+					"ft": ["skrunuðumst", "skrunuðust", "skrunuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrunist", "skrunist", "skrunist"],
+					"ft": ["skrunumst", "skrunist", "skrunist"]
+				},
+				"þátíð": {
+					"et": ["skrunaðist", "skrunaðist", "skrunaðist"],
+					"ft": ["skrunuðumst", "skrunuðust", "skrunuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrunastu"
+				},
+				"þátíð": {
+					"et": "skrunaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrunistu"
+				},
+				"þátíð": {
+					"et": "skrunaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrunandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrunaður", "skrunaðan", "skrunuðum", "skrunaðs"],
+					"kvk": ["skrunuð", "skrunaða", "skrunaðri", "skrunaðrar"],
+					"hk": ["skrunað", "skrunað", "skrunuðu", "skrunaðs"]
+				},
+				"ft": {
+					"kk": ["skrunaðir", "skrunaða", "skrunuðum", "skrunaðra"],
+					"kvk": ["skrunaðar", "skrunaðar", "skrunuðum", "skrunaðra"],
+					"hk": ["skrunuð", "skrunuð", "skrunuðum", "skrunaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skruna",
+	"hash": "11cb70c971d1d8f99cbff7a5e89198662776d16c5762e7007a8167c9eb51ecdd"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "ofhitna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur"],
+			"kennistrengur": "so-hitna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofhitna",
+		"sagnbót": "ofhitnað",
+		"boðháttur": {
+			"stýfður": "ofhitna",
+			"et": "ofhitnaðu",
+			"ft": "ofhitnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofhitna", "ofhitnar", "ofhitnar"],
+					"ft": ["ofhitnum", "ofhitnið", "ofhitna"]
+				},
+				"þátíð": {
+					"et": ["ofhitnaði", "ofhitnaðir", "ofhitnaði"],
+					"ft": ["ofhitnuðum", "ofhitnuðuð", "ofhitnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofhitni", "ofhitnir", "ofhitni"],
+					"ft": ["ofhitnum", "ofhitnið", "ofhitni"]
+				},
+				"þátíð": {
+					"et": ["ofhitnaði", "ofhitnaðir", "ofhitnaði"],
+					"ft": ["ofhitnuðum", "ofhitnuðuð", "ofhitnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofhitnarðu",
+					"ft": "ofhitniði"
+				},
+				"þátíð": {
+					"et": "ofhitnaðirðu",
+					"ft": "ofhitnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofhitnirðu",
+					"ft": "ofhitniðið"
+				},
+				"þátíð": {
+					"et": "ofhitnaðirðu",
+					"ft": "ofhitnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofhitnandi"
+	},
+	"kennistrengur": "so-ofhitna",
+	"hash": "7bcdf57cb5d2d539584fffab274fbf54cf1ea7d7c726474714cbe7673f02c214"
+}

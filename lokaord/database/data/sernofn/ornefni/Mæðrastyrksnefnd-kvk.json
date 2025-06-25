@@ -1,0 +1,27 @@
+{
+	"orð": "Mæðrastyrksnefnd",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Mæðra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-móðir-kvk"
+		},
+		{
+			"mynd": "styrks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-styrkur-kk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-nefnd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Mæðrastyrksnefnd", "Mæðrastyrksnefnd", "Mæðrastyrksnefnd", "Mæðrastyrksnefndar"]
+	},
+	"kennistrengur": "sérn.ön-Mæðrastyrksnefnd-kvk",
+	"hash": "4bbcd10c9e5956182d6bedf62acb280272c893ede474471450b38b8285a49319"
+}

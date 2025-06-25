@@ -1,0 +1,48 @@
+{
+	"orð": "einkennalaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "kenna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kenni-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["einkennalaus", "einkennalausan", "einkennalausum", "einkennalauss"],
+				"kvk": ["einkennalaus", "einkennalausa", "einkennalausri", "einkennalausrar"],
+				"hk": ["einkennalaust", "einkennalaust", "einkennalausu", "einkennalauss"]
+			},
+			"ft": {
+				"kk": ["einkennalausir", "einkennalausa", "einkennalausum", "einkennalausra"],
+				"kvk": ["einkennalausar", "einkennalausar", "einkennalausum", "einkennalausra"],
+				"hk": ["einkennalaus", "einkennalaus", "einkennalausum", "einkennalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["einkennalausi", "einkennalausa", "einkennalausa", "einkennalausa"],
+				"kvk": ["einkennalausa", "einkennalausu", "einkennalausu", "einkennalausu"],
+				"hk": ["einkennalausa", "einkennalausa", "einkennalausa", "einkennalausa"]
+			},
+			"ft": {
+				"kk": ["einkennalausu", "einkennalausu", "einkennalausu", "einkennalausu"],
+				"kvk": ["einkennalausu", "einkennalausu", "einkennalausu", "einkennalausu"],
+				"hk": ["einkennalausu", "einkennalausu", "einkennalausu", "einkennalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-einkennalaus",
+	"hash": "70d4601b61b9fa4093b4a5c534224d2262746e04796410f0011d3d72e1321ca1"
+}

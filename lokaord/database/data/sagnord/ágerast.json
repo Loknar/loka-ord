@@ -1,0 +1,61 @@
+{
+	"orð": "ágerast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ágerast",
+		"sagnbót": "ágerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ágerist", "ágerist", "ágerist"],
+					"ft": ["ágerumst", "ágerist", "ágerast"]
+				},
+				"þátíð": {
+					"et": ["ágerðist", "ágerðist", "ágerðist"],
+					"ft": ["ágerðumst", "ágerðust", "ágerðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ágerist", "ágerist", "ágerist"],
+					"ft": ["ágerumst", "ágerist", "ágerist"]
+				},
+				"þátíð": {
+					"et": ["ágerðist", "ágerðist", "ágerðist"],
+					"ft": ["ágerðumst", "ágerðust", "ágerðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ágeristu"
+				},
+				"þátíð": {
+					"et": "ágerðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ágeristu"
+				},
+				"þátíð": {
+					"et": "ágerðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ágerast",
+	"hash": "357934e73bc685269b2461a4bf676c0b2ec55f87a3c681013576b16d8cf62a6d"
+}

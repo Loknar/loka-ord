@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Dís",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dís-kvk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Dísa", "Dísu", "Dísu", "Dísu"]
 	},
 	"kennistrengur": "sérn.en-Dísa-kvk",
-	"hash": "6ee8e55cef5a76a466556d952e0cfc0738bbde30fa4315e46b3cd8d5ebd3afe2"
+	"hash": "618339ba4fda834fba3f124f2ec968faabc621ca1c452780c87c7e6d0ea87fe4"
 }
