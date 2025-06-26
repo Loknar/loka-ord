@@ -1,0 +1,87 @@
+{
+	"orð": "sussa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "suss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-suss-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sussa",
+		"sagnbót": "sussað",
+		"boðháttur": {
+			"stýfður": "sussa",
+			"et": "sussaðu",
+			"ft": "sussið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sussa", "sussar", "sussar"],
+					"ft": ["sussum", "sussið", "sussa"]
+				},
+				"þátíð": {
+					"et": ["sussaði", "sussaðir", "sussaði"],
+					"ft": ["sussuðum", "sussuðuð", "sussuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sussi", "sussir", "sussi"],
+					"ft": ["sussum", "sussið", "sussi"]
+				},
+				"þátíð": {
+					"et": ["sussaði", "sussaðir", "sussaði"],
+					"ft": ["sussuðum", "sussuðuð", "sussuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sussarðu",
+					"ft": "sussiði"
+				},
+				"þátíð": {
+					"et": "sussaðirðu",
+					"ft": "sussuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sussirðu",
+					"ft": "sussiði"
+				},
+				"þátíð": {
+					"et": "sussaðirðu",
+					"ft": "sussuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sussandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sussaður", "sussaðan", "sussuðum", "sussaðs"],
+					"kvk": ["sussuð", "sussaða", "sussaðri", "sussaðrar"],
+					"hk": ["sussað", "sussað", "sussuðu", "sussaðs"]
+				},
+				"ft": {
+					"kk": ["sussaðir", "sussaða", "sussuðum", "sussaðra"],
+					"kvk": ["sussaðar", "sussaðar", "sussuðum", "sussaðra"],
+					"hk": ["sussuð", "sussuð", "sussuðum", "sussaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sussa",
+	"hash": "135396b6b6368cd1ef504f88a5cc7f3a7684021649d809c8f2e1565c072f6e0b"
+}
