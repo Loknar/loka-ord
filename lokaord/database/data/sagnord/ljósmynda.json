@@ -1,0 +1,146 @@
+{
+	"orð": "ljósmynda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ljós",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-ljós"
+		},
+		{
+			"kennistrengur": "so-mynda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ljósmynda",
+		"sagnbót": "ljósmyndað",
+		"boðháttur": {
+			"stýfður": "ljósmynda",
+			"et": "ljósmyndaðu",
+			"ft": "ljósmyndið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ljósmynda", "ljósmyndar", "ljósmyndar"],
+					"ft": ["ljósmyndum", "ljósmyndið", "ljósmynda"]
+				},
+				"þátíð": {
+					"et": ["ljósmyndaði", "ljósmyndaðir", "ljósmyndaði"],
+					"ft": ["ljósmynduðum", "ljósmynduðuð", "ljósmynduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ljósmyndi", "ljósmyndir", "ljósmyndi"],
+					"ft": ["ljósmyndum", "ljósmyndið", "ljósmyndi"]
+				},
+				"þátíð": {
+					"et": ["ljósmyndaði", "ljósmyndaðir", "ljósmyndaði"],
+					"ft": ["ljósmynduðum", "ljósmynduðuð", "ljósmynduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ljósmyndarðu",
+					"ft": "ljósmyndiði"
+				},
+				"þátíð": {
+					"et": "ljósmyndaðirðu",
+					"ft": "ljósmynduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ljósmyndirðu",
+					"ft": "ljósmyndiði"
+				},
+				"þátíð": {
+					"et": "ljósmyndaðirðu",
+					"ft": "ljósmynduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ljósmyndast",
+		"sagnbót": "ljósmyndast",
+		"boðháttur": {
+			"et": "ljósmyndastu",
+			"ft": "ljósmyndist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ljósmyndast", "ljósmyndast", "ljósmyndast"],
+					"ft": ["ljósmyndumst", "ljósmyndist", "ljósmyndast"]
+				},
+				"þátíð": {
+					"et": ["ljósmyndaðist", "ljósmyndaðist", "ljósmyndaðist"],
+					"ft": ["ljósmynduðumst", "ljósmynduðust", "ljósmynduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ljósmyndist", "ljósmyndist", "ljósmyndist"],
+					"ft": ["ljósmyndumst", "ljósmyndist", "ljósmyndist"]
+				},
+				"þátíð": {
+					"et": ["ljósmyndaðist", "ljósmyndaðist", "ljósmyndaðist"],
+					"ft": ["ljósmynduðumst", "ljósmynduðust", "ljósmynduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ljósmyndastu"
+				},
+				"þátíð": {
+					"et": "ljósmyndaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ljósmyndistu"
+				},
+				"þátíð": {
+					"et": "ljósmyndaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ljósmyndandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ljósmyndaður", "ljósmyndaðan", "ljósmynduðum", "ljósmyndaðs"],
+					"kvk": ["ljósmynduð", "ljósmyndaða", "ljósmyndaðri", "ljósmyndaðrar"],
+					"hk": ["ljósmyndað", "ljósmyndað", "ljósmynduðu", "ljósmyndaðs"]
+				},
+				"ft": {
+					"kk": ["ljósmyndaðir", "ljósmyndaða", "ljósmynduðum", "ljósmyndaðra"],
+					"kvk": ["ljósmyndaðar", "ljósmyndaðar", "ljósmynduðum", "ljósmyndaðra"],
+					"hk": ["ljósmynduð", "ljósmynduð", "ljósmynduðum", "ljósmyndaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ljósmyndaði", "ljósmyndaða", "ljósmyndaða", "ljósmyndaða"],
+					"kvk": ["ljósmyndaða", "ljósmynduðu", "ljósmynduðu", "ljósmynduðu"],
+					"hk": ["ljósmyndaða", "ljósmyndaða", "ljósmyndaða", "ljósmyndaða"]
+				},
+				"ft": {
+					"kk": ["ljósmynduðu", "ljósmynduðu", "ljósmynduðu", "ljósmynduðu"],
+					"kvk": ["ljósmynduðu", "ljósmynduðu", "ljósmynduðu", "ljósmynduðu"],
+					"hk": ["ljósmynduðu", "ljósmynduðu", "ljósmynduðu", "ljósmynduðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ljósmynda",
+	"hash": "b5c8b164aa918d629a5ae872b8cff001e37cef0d611eb7b9fc5210fef7d22743"
+}

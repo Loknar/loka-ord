@@ -1,0 +1,27 @@
+{
+	"orð": "raforkukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["raforkukaup", "raforkukaup", "raforkukaupum", "raforkukaupa"],
+		"mg": ["raforkukaupin", "raforkukaupin", "raforkukaupunum", "raforkukaupanna"]
+	},
+	"kennistrengur": "no-raforkukaup-hk",
+	"hash": "eec6ccb971df5335e59a6a0592075e8012727dc961e397a83fde270fb91fc1fd"
+}

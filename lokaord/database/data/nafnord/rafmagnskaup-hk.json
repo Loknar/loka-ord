@@ -1,0 +1,27 @@
+{
+	"orð": "rafmagnskaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["rafmagnskaup", "rafmagnskaup", "rafmagnskaupum", "rafmagnskaupa"],
+		"mg": ["rafmagnskaupin", "rafmagnskaupin", "rafmagnskaupunum", "rafmagnskaupanna"]
+	},
+	"kennistrengur": "no-rafmagnskaup-hk",
+	"hash": "5d1f2c902ded44771d00ddf6a13f07878fba96195078782514d3bed15bba25df"
+}
