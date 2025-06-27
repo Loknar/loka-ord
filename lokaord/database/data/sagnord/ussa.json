@@ -1,0 +1,135 @@
+{
+	"orð": "ussa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "uss",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-uss"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ussa",
+		"sagnbót": "ussað",
+		"boðháttur": {
+			"stýfður": "ussa",
+			"et": "ussaðu",
+			"ft": "ussið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ussa", "ussar", "ussar"],
+					"ft": ["ussum", "ussið", "ussa"]
+				},
+				"þátíð": {
+					"et": ["ussaði", "ussaðir", "ussaði"],
+					"ft": ["ussuðum", "ussuðuð", "ussuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ussi", "ussir", "ussi"],
+					"ft": ["ussum", "ussið", "ussi"]
+				},
+				"þátíð": {
+					"et": ["ussaði", "ussaðir", "ussaði"],
+					"ft": ["ussuðum", "ussuðuð", "ussuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ussarðu",
+					"ft": "ussiði"
+				},
+				"þátíð": {
+					"et": "ussaðirðu",
+					"ft": "ussuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ussirðu",
+					"ft": "ussiði"
+				},
+				"þátíð": {
+					"et": "ussaðirðu",
+					"ft": "ussuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ussast",
+		"sagnbót": "ussast",
+		"boðháttur": {
+			"et": "ussastu",
+			"ft": "ussist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ussast", "ussast", "ussast"],
+					"ft": ["ussumst", "ussist", "ussast"]
+				},
+				"þátíð": {
+					"et": ["ussaðist", "ussaðist", "ussaðist"],
+					"ft": ["ussuðumst", "ussuðust", "ussuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ussist", "ussist", "ussist"],
+					"ft": ["ussumst", "ussist", "ussist"]
+				},
+				"þátíð": {
+					"et": ["ussaðist", "ussaðist", "ussaðist"],
+					"ft": ["ussuðumst", "ussuðust", "ussuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ussastu"
+				},
+				"þátíð": {
+					"et": "ussaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ussistu"
+				},
+				"þátíð": {
+					"et": "ussaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ussandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ussaður", "ussaðan", "ussuðum", "ussaðs"],
+					"kvk": ["ussuð", "ussaða", "ussaðri", "ussaðrar"],
+					"hk": ["ussað", "ussað", "ussuðu", "ussaðs"]
+				},
+				"ft": {
+					"kk": ["ussaðir", "ussaða", "ussuðum", "ussaðra"],
+					"kvk": ["ussaðar", "ussaðar", "ussuðum", "ussaðra"],
+					"hk": ["ussuð", "ussuð", "ussuðum", "ussaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ussa",
+	"hash": "a83eedbd2a368819cf20753dc82bd1ef6e0a1543a0b60a152a8dadb349b66398"
+}

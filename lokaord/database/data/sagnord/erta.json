@@ -1,0 +1,132 @@
+{
+	"orð": "erta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "erta",
+		"sagnbót": "ert",
+		"boðháttur": {
+			"stýfður": "ert",
+			"et": "ertu",
+			"ft": "ertið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["erti", "ertir", "ertir"],
+					"ft": ["ertum", "ertið", "erta"]
+				},
+				"þátíð": {
+					"et": ["erti", "ertir", "erti"],
+					"ft": ["ertum", "ertuð", "ertu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["erti", "ertir", "erti"],
+					"ft": ["ertum", "ertið", "erti"]
+				},
+				"þátíð": {
+					"et": ["erti", "ertir", "erti"],
+					"ft": ["ertum", "ertuð", "ertu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ertirðu",
+					"ft": "ertiði"
+				},
+				"þátíð": {
+					"et": "ertirðu",
+					"ft": "ertuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ertirðu",
+					"ft": "ertiði"
+				},
+				"þátíð": {
+					"et": "ertirðu",
+					"ft": "ertuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ertast",
+		"sagnbót": "mæst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ertist", "ertist", "ertist"],
+					"ft": ["ertumst", "ertist", "ertast"]
+				},
+				"þátíð": {
+					"et": ["ertist", "ertist", "ertist"],
+					"ft": ["ertumst", "ertust", "ertust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ertist", "ertist", "ertist"],
+					"ft": ["ertumst", "ertist", "ertist"]
+				},
+				"þátíð": {
+					"et": ["ertist", "ertist", "ertist"],
+					"ft": ["ertumst", "ertust", "ertust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ertistu"
+				},
+				"þátíð": {
+					"et": "ertistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ertistu"
+				},
+				"þátíð": {
+					"et": "ertistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ertandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ertur", "ertan", "ertum", "erts"],
+					"kvk": ["ert", "erta", "ertri", "ertrar"],
+					"hk": ["ert", "ert", "ertu", "erts"]
+				},
+				"ft": {
+					"kk": ["ertir", "erta", "ertum", "ertra"],
+					"kvk": ["ertar", "ertar", "ertum", "ertra"],
+					"hk": ["ert", "ert", "ertum", "ertra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["erti", "erta", "erta", "erta"],
+					"kvk": ["erta", "ertu", "ertu", "ertu"],
+					"hk": ["erta", "erta", "erta", "erta"]
+				},
+				"ft": {
+					"kk": ["ertu", "ertu", "ertu", "ertu"],
+					"kvk": ["ertu", "ertu", "ertu", "ertu"],
+					"hk": ["ertu", "ertu", "ertu", "ertu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-erta",
+	"hash": "b9f239935f4a271b3e5bd8dae61520a92e5d1d78975e22bf8d5ee3846a2a8c2d"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "framleiðslufjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["framleiðslufjármunir", "framleiðslufjármuni", "framleiðslufjármunum", "framleiðslufjármuna"],
+		"mg": ["framleiðslufjármunirnir", "framleiðslufjármunina", "framleiðslufjármununum", "framleiðslufjármunanna"]
+	},
+	"kennistrengur": "no-framleiðslufjármunir-kk",
+	"hash": "70c58912a4cb64f84f17d98d13d0d5a67e7ffa7d311e582c8670b978f7c19dac"
+}

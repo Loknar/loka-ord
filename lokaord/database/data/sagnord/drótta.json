@@ -1,0 +1,95 @@
+{
+	"orð": "drótta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "drótt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-drótt-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "drótta",
+		"sagnbót": "dróttað",
+		"boðháttur": {
+			"stýfður": "drótta",
+			"et": "dróttaðu",
+			"ft": "dróttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["drótta", "dróttar", "dróttar"],
+					"ft": ["dróttum", "dróttið", "drótta"]
+				},
+				"þátíð": {
+					"et": ["dróttaði", "dróttaðir", "dróttaði"],
+					"ft": ["dróttuðum", "dróttuðuð", "dróttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["drótti", "dróttir", "drótti"],
+					"ft": ["dróttum", "dróttið", "drótti"]
+				},
+				"þátíð": {
+					"et": ["dróttaði", "dróttaðir", "dróttaði"],
+					"ft": ["dróttuðum", "dróttuðuð", "dróttuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dróttast",
+		"sagnbót": "dróttast",
+		"boðháttur": {
+			"et": "dróttastu",
+			"ft": "dróttist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dróttast", "dróttast", "dróttast"],
+					"ft": ["dróttumst", "dróttist", "dróttast"]
+				},
+				"þátíð": {
+					"et": ["dróttaðist", "dróttaðist", "dróttaðist"],
+					"ft": ["dróttuðumst", "dróttuðust", "dróttuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dróttist", "dróttist", "dróttist"],
+					"ft": ["dróttumst", "dróttist", "dróttist"]
+				},
+				"þátíð": {
+					"et": ["dróttaðist", "dróttaðist", "dróttaðist"],
+					"ft": ["dróttuðumst", "dróttuðust", "dróttuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dróttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dróttaður", "dróttaðan", "dróttuðum", "dróttaðs"],
+					"kvk": ["dróttuð", "dróttaða", "dróttaðri", "dróttaðrar"],
+					"hk": ["dróttað", "dróttað", "dróttuðu", "dróttaðs"]
+				},
+				"ft": {
+					"kk": ["dróttaðir", "dróttaða", "dróttuðum", "dróttaðra"],
+					"kvk": ["dróttaðar", "dróttaðar", "dróttuðum", "dróttaðra"],
+					"hk": ["dróttuð", "dróttuð", "dróttuðum", "dróttaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-drótta",
+	"hash": "26d40a9f5275f5aa3ff25cd3a0838fff2199e15e9cfbfe8cc89e147cd702e37a"
+}

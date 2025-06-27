@@ -1,0 +1,27 @@
+{
+	"orð": "góðgerðamál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "góð",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-góður"
+		},
+		{
+			"mynd": "gerða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gerð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"ft": {
+		"ág": ["góðgerðamál", "góðgerðamál", "góðgerðamálum", "góðgerðamála"],
+		"mg": ["góðgerðamálin", "góðgerðamálin", "góðgerðamálunum", "góðgerðamálanna"]
+	},
+	"kennistrengur": "no-góðgerðamál-hk",
+	"hash": "07d979a1336f90c1b25a66bc139fe5776ad5f8e2bea378dacfb911135771349d"
+}
