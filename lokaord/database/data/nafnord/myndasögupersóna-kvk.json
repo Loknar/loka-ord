@@ -1,0 +1,30 @@
+{
+	"orð": "myndasögupersóna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mynda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "sögu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-saga-kvk"
+		},
+		{
+			"kennistrengur": "no-persóna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["myndasögupersóna", "myndasögupersónu", "myndasögupersónu", "myndasögupersónu"],
+		"mg": ["myndasögupersónan", "myndasögupersónuna", "myndasögupersónunni", "myndasögupersónunnar"]
+	},
+	"ft": {
+		"ág": ["myndasögupersónur", "myndasögupersónur", "myndasögupersónum", "myndasögupersóna"],
+		"mg": ["myndasögupersónurnar", "myndasögupersónurnar", "myndasögupersónunum", "myndasögupersónanna"]
+	},
+	"kennistrengur": "no-myndasögupersóna-kvk",
+	"hash": "e4f374afeb4204d537550e2e47d82fc4761983630c20d90b1af15700f6109f51"
+}

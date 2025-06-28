@@ -1,0 +1,48 @@
+{
+	"orð": "kinnroðalaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kinn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kinn-kvk"
+		},
+		{
+			"mynd": "roða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-roði-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kinnroðalaus", "kinnroðalausan", "kinnroðalausum", "kinnroðalauss"],
+				"kvk": ["kinnroðalaus", "kinnroðalausa", "kinnroðalausri", "kinnroðalausrar"],
+				"hk": ["kinnroðalaust", "kinnroðalaust", "kinnroðalausu", "kinnroðalauss"]
+			},
+			"ft": {
+				"kk": ["kinnroðalausir", "kinnroðalausa", "kinnroðalausum", "kinnroðalausra"],
+				"kvk": ["kinnroðalausar", "kinnroðalausar", "kinnroðalausum", "kinnroðalausra"],
+				"hk": ["kinnroðalaus", "kinnroðalaus", "kinnroðalausum", "kinnroðalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kinnroðalausi", "kinnroðalausa", "kinnroðalausa", "kinnroðalausa"],
+				"kvk": ["kinnroðalausa", "kinnroðalausu", "kinnroðalausu", "kinnroðalausu"],
+				"hk": ["kinnroðalausa", "kinnroðalausa", "kinnroðalausa", "kinnroðalausa"]
+			},
+			"ft": {
+				"kk": ["kinnroðalausu", "kinnroðalausu", "kinnroðalausu", "kinnroðalausu"],
+				"kvk": ["kinnroðalausu", "kinnroðalausu", "kinnroðalausu", "kinnroðalausu"],
+				"hk": ["kinnroðalausu", "kinnroðalausu", "kinnroðalausu", "kinnroðalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kinnroðalaus",
+	"hash": "a828e0bd35cc352c1e0a93755283f51aebcc91b6b74c73ab548feb727cdcf6d6"
+}

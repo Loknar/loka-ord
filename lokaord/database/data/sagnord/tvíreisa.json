@@ -1,0 +1,99 @@
+{
+	"orð": "tvíreisa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tví",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-tví-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-reisa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tvíreisa",
+		"sagnbót": "tvíreist",
+		"boðháttur": {
+			"stýfður": "tvíreis",
+			"et": "tvíreistu",
+			"ft": "tvíreisið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tvíreisi", "tvíreisir", "tvíreisir"],
+					"ft": ["tvíreisum", "tvíreisið", "tvíreisa"]
+				},
+				"þátíð": {
+					"et": ["tvíreisti", "tvíreistir", "tvíreisti"],
+					"ft": ["tvíreistum", "tvíreistuð", "tvíreistu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tvíreisi", "tvíreisir", "tvíreisi"],
+					"ft": ["tvíreisum", "tvíreisið", "tvíreisi"]
+				},
+				"þátíð": {
+					"et": ["tvíreisti", "tvíreistir", "tvíreisti"],
+					"ft": ["tvíreistum", "tvíreistuð", "tvíreistu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tvíreisirðu",
+					"ft": "tvíreisiði"
+				},
+				"þátíð": {
+					"et": "tvíreistirðu",
+					"ft": "tvíreistuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tvíreisirðu",
+					"ft": "tvíreisiði"
+				},
+				"þátíð": {
+					"et": "tvíreistirðu",
+					"ft": "tvíreistuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tvíreisandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tvíreistur", "tvíreistan", "tvíreistum", "tvíreists"],
+					"kvk": ["tvíreist", "tvíreista", "tvíreistri", "tvíreistrar"],
+					"hk": ["tvíreist", "tvíreist", "tvíreistu", "tvíreists"]
+				},
+				"ft": {
+					"kk": ["tvíreistir", "tvíreista", "tvíreistum", "tvíreistra"],
+					"kvk": ["tvíreistar", "tvíreistar", "tvíreistum", "tvíreistra"],
+					"hk": ["tvíreist", "tvíreist", "tvíreistum", "tvíreistra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tvíreisti", "tvíreista", "tvíreista", "tvíreista"],
+					"kvk": ["tvíreista", "tvíreistu", "tvíreistu", "tvíreistu"],
+					"hk": ["tvíreista", "tvíreista", "tvíreista", "tvíreista"]
+				},
+				"ft": {
+					"kk": ["tvíreistu", "tvíreistu", "tvíreistu", "tvíreistu"],
+					"kvk": ["tvíreistu", "tvíreistu", "tvíreistu", "tvíreistu"],
+					"hk": ["tvíreistu", "tvíreistu", "tvíreistu", "tvíreistu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tvíreisa",
+	"hash": "4275d2f91b7f2c6d140e8adddb4127a934976f460e6e762f2df2311f49a38535"
+}
