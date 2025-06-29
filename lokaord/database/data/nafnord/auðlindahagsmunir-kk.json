@@ -1,0 +1,32 @@
+{
+	"orð": "auðlindahagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "auð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-auður-kk"
+		},
+		{
+			"mynd": "linda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lind-kvk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["auðlindahagsmunir", "auðlindahagsmuni", "auðlindahagsmunum", "auðlindahagsmuna"],
+		"mg": ["auðlindahagsmunirnir", "auðlindahagsmunina", "auðlindahagsmununum", "auðlindahagsmunanna"]
+	},
+	"kennistrengur": "no-auðlindahagsmunir-kk",
+	"hash": "570276d575821d7d92acff35284c9d76455dcc951836ae06d5e18a70b093efa8"
+}

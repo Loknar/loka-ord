@@ -1,0 +1,27 @@
+{
+	"orð": "friðarhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "friðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-friður-kk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["friðarhagsmunir", "friðarhagsmuni", "friðarhagsmunum", "friðarhagsmuna"],
+		"mg": ["friðarhagsmunirnir", "friðarhagsmunina", "friðarhagsmununum", "friðarhagsmunanna"]
+	},
+	"kennistrengur": "no-friðarhagsmunir-kk",
+	"hash": "5e8a2c20bb0863bd3effe9f6cb9cca43f987dae7d1dced91ccc3c542a8407437"
+}

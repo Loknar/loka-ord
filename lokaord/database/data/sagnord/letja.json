@@ -1,0 +1,132 @@
+{
+	"orð": "letja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "letja",
+		"sagnbót": "latt",
+		"boðháttur": {
+			"stýfður": "let",
+			"et": "lettu",
+			"ft": "letjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["let", "letur", "letur"],
+					"ft": ["letjum", "letjið", "letja"]
+				},
+				"þátíð": {
+					"et": ["latti", "lattir", "latt"],
+					"ft": ["löttum", "löttuð", "löttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["letji", "letjir", "letji"],
+					"ft": ["letjum", "letjið", "letji"]
+				},
+				"þátíð": {
+					"et": ["letti", "lettir", "letti"],
+					"ft": ["lettum", "lettuð", "lettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leturðu",
+					"ft": "letjiði"
+				},
+				"þátíð": {
+					"et": "lattirðu",
+					"ft": "löttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "letjirðu",
+					"ft": "letjiði"
+				},
+				"þátíð": {
+					"et": "lettirðu",
+					"ft": "lettuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "letjast",
+		"sagnbót": "last",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lest", "lest", "lest"],
+					"ft": ["letjumst", "letjist", "letjast"]
+				},
+				"þátíð": {
+					"et": ["lattist", "lattist", "lattist"],
+					"ft": ["löttumst", "löttust", "löttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["letjist", "letjist", "letjist"],
+					"ft": ["letjumst", "letjist", "letjist"]
+				},
+				"þátíð": {
+					"et": ["lettist", "lettist", "lettist"],
+					"ft": ["lettumst", "lettust", "lettust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lestu"
+				},
+				"þátíð": {
+					"et": "lattistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "letjistu"
+				},
+				"þátíð": {
+					"et": "lettistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "letjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lattur", "lattan", "löttum", "latts"],
+					"kvk": ["lött", "latta", "lattri", "lattrar"],
+					"hk": ["latt", "latt", "löttu", "latts"]
+				},
+				"ft": {
+					"kk": ["lattir", "latta", "löttum", "lattra"],
+					"kvk": ["lattar", "lattar", "löttum", "lattra"],
+					"hk": ["lött", "lött", "löttum", "lattra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["latti", "latta", "latta", "latta"],
+					"kvk": ["latta", "löttu", "löttu", "löttu"],
+					"hk": ["latta", "latta", "latta", "latta"]
+				},
+				"ft": {
+					"kk": ["löttu", "löttu", "löttu", "löttu"],
+					"kvk": ["löttu", "löttu", "löttu", "löttu"],
+					"hk": ["löttu", "löttu", "löttu", "löttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-letja",
+	"hash": "efa2744a28d9d394058d3614799edbb0cc7763b225cd615b98bf1db210988f4d"
+}

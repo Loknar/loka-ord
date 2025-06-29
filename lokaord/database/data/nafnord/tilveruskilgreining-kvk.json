@@ -1,0 +1,35 @@
+{
+	"orð": "tilveruskilgreining",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"mynd": "veru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vera-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"kennistrengur": "no-greining-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tilveruskilgreining", "tilveruskilgreiningu", "tilveruskilgreiningu", "tilveruskilgreiningar"],
+		"mg": ["tilveruskilgreiningin", "tilveruskilgreininguna", "tilveruskilgreiningunni", "tilveruskilgreiningarinnar"]
+	},
+	"ft": {
+		"ág": ["tilveruskilgreiningar", "tilveruskilgreiningar", "tilveruskilgreiningum", "tilveruskilgreininga"],
+		"mg": ["tilveruskilgreiningarnar", "tilveruskilgreiningarnar", "tilveruskilgreiningunum", "tilveruskilgreininganna"]
+	},
+	"kennistrengur": "no-tilveruskilgreining-kvk",
+	"hash": "eeeeab98334dd05d27d20530fa802e8e1eee5ff00091dfd4589a360e8632efbe"
+}
