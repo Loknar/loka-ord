@@ -1,0 +1,135 @@
+{
+	"orð": "völsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "völs",
+			"samsetning": "stofn",
+			"kennistrengur": "no-völsi-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "völsa",
+		"sagnbót": "völsað",
+		"boðháttur": {
+			"stýfður": "völsa",
+			"et": "völsaðu",
+			"ft": "völsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["völsa", "völsar", "völsar"],
+					"ft": ["völsum", "völsið", "völsa"]
+				},
+				"þátíð": {
+					"et": ["völsaði", "völsaðir", "völsaði"],
+					"ft": ["völsuðum", "völsuðuð", "völsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["völsi", "völsir", "völsi"],
+					"ft": ["völsum", "völsið", "völsi"]
+				},
+				"þátíð": {
+					"et": ["völsaði", "völsaðir", "völsaði"],
+					"ft": ["völsuðum", "völsuðuð", "völsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "völsarðu",
+					"ft": "völsiði"
+				},
+				"þátíð": {
+					"et": "völsaðirðu",
+					"ft": "völsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "völsirðu",
+					"ft": "völsiði"
+				},
+				"þátíð": {
+					"et": "völsaðirðu",
+					"ft": "völsuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "völsast",
+		"sagnbót": "völsast",
+		"boðháttur": {
+			"et": "völsastu",
+			"ft": "völsist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["völsast", "völsast", "völsast"],
+					"ft": ["völsumst", "völsist", "völsast"]
+				},
+				"þátíð": {
+					"et": ["völsaðist", "völsaðist", "völsaðist"],
+					"ft": ["völsuðumst", "völsuðust", "völsuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["völsist", "völsist", "völsist"],
+					"ft": ["völsumst", "völsist", "völsist"]
+				},
+				"þátíð": {
+					"et": ["völsaðist", "völsaðist", "völsaðist"],
+					"ft": ["völsuðumst", "völsuðust", "völsuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "völsastu"
+				},
+				"þátíð": {
+					"et": "völsaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "völsistu"
+				},
+				"þátíð": {
+					"et": "völsaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "völsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["völsaður", "völsaðan", "völsuðum", "völsaðs"],
+					"kvk": ["völsuð", "völsaða", "völsaðri", "völsaðrar"],
+					"hk": ["völsað", "völsað", "völsuðu", "völsaðs"]
+				},
+				"ft": {
+					"kk": ["völsaðir", "völsaða", "völsuðum", "völsaðra"],
+					"kvk": ["völsaðar", "völsaðar", "völsuðum", "völsaðra"],
+					"hk": ["völsuð", "völsuð", "völsuðum", "völsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-völsa",
+	"hash": "48a3204c6926ca6467e66e2eb2e9fcc4af45de5ce48c11b3629bea7a2810fbb5"
+}
