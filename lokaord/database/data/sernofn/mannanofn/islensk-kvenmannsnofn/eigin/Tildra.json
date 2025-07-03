@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-tildra-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Tildra", "Tildru", "Tildru", "Tildru"]
 	},
 	"kennistrengur": "sérn.en-Tildra-kvk",
-	"hash": "61a7d237b1498afb46c2b1a13582c93b349609c10825f6cf1d912f7e54dde048"
+	"hash": "977e8b0c33c15585d358c012cbcaed116141bf50ca5ab0994cef60cd2096cc88"
 }

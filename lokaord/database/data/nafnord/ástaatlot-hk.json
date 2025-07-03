@@ -1,0 +1,27 @@
+{
+	"orð": "ástaatlot",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ásta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ást-kvk"
+		},
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-lot-hk"
+		}
+	],
+	"ft": {
+		"ág": ["ástaatlot", "ástaatlot", "ástaatlotum", "ástaatlota"],
+		"mg": ["ástaatlotin", "ástaatlotin", "ástaatlotunum", "ástaatlotanna"]
+	},
+	"kennistrengur": "no-ástaatlot-hk",
+	"hash": "fbb4bf4ab6f422f04385a8ee95a815f75e87b227efa0ddfe4bdc5bc9156a348a"
+}

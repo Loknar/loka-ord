@@ -1,6 +1,17 @@
 {
 	"orð": "geiga",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "geig",
+			"samsetning": "stofn",
+			"kennistrengur": "no-geigur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "geiga",
 		"sagnbót": "geigað",
@@ -84,5 +95,5 @@
 		}
 	},
 	"kennistrengur": "so-geiga",
-	"hash": "388ada628230393b1c081da79c057dc44ecfbb82036f2212d327e729d4f9e557"
+	"hash": "ce154d36f300d86896cf4cef0298b4f9b1eed153176084af13d8a8be17941549"
 }
