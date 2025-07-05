@@ -1,0 +1,27 @@
+{
+	"orð": "heildarbyggingarmagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarbyggingarmagn", "heildarbyggingarmagn", "heildarbyggingarmagni", "heildarbyggingarmagns"],
+		"mg": ["heildarbyggingarmagnið", "heildarbyggingarmagnið", "heildarbyggingarmagninu", "heildarbyggingarmagnsins"]
+	},
+	"kennistrengur": "no-heildarbyggingarmagn-hk",
+	"hash": "4a095a67cc27d596d58f7c16c5afc4c7d5d7fdffefe84788686b95b780c96ee7"
+}

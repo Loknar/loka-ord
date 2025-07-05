@@ -1,0 +1,48 @@
+{
+	"orð": "gusta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gust",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gustur-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gusta",
+		"sagnbót": "gustað",
+		"boðháttur": {
+			"stýfður": "gusta",
+			"et": "gustaðu",
+			"ft": "gustið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gusta", "gustar", "gustar"],
+					"ft": ["gustum", "gustið", "gusta"]
+				},
+				"þátíð": {
+					"et": ["gustaði", "gustaðir", "gustaði"],
+					"ft": ["gustuðum", "gustuðuð", "gustuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gusti", "gustir", "gusti"],
+					"ft": ["gustum", "gustið", "gusti"]
+				},
+				"þátíð": {
+					"et": ["gustaði", "gustaðir", "gustaði"],
+					"ft": ["gustuðum", "gustuðuð", "gustuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gusta",
+	"hash": "861a94d68e3f4eb41fd5c9a76553bba40da8950d599eaf682f6bf1c095b01d6e"
+}
