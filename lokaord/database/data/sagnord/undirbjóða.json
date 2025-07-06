@@ -1,0 +1,87 @@
+{
+	"orð": "undirbjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "undir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-undir"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "undirbjóða",
+		"sagnbót": "undirboðið",
+		"boðháttur": {
+			"stýfður": "undirbjóð",
+			"et": "undirbjóddu",
+			"ft": "undirbjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["undirbýð", "undirbýður", "undirbýður"],
+					"ft": ["undirbjóðum", "undirbjóðið", "undirbjóða"]
+				},
+				"þátíð": {
+					"et": ["undirbauð", "undirbauðst", "undirbauð"],
+					"ft": ["undirbuðum", "undirbuðuð", "undirbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["undirbjóði", "undirbjóðir", "undirbjóði"],
+					"ft": ["undirbjóðum", "undirbjóðið", "undirbjóði"]
+				},
+				"þátíð": {
+					"et": ["undirbyði", "undirbyðir", "undirbyði"],
+					"ft": ["undirbyðum", "undirbyðuð", "undirbyðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "undirbýðurðu",
+					"ft": "undirbjóðiði"
+				},
+				"þátíð": {
+					"et": "undirbauðstu",
+					"ft": "undirbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "undirbjóðirðu",
+					"ft": "undirbjóðiði"
+				},
+				"þátíð": {
+					"et": "undirbyðirðu",
+					"ft": "undirbyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "undirbjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["undirboðinn", "undirboðinn", "undirboðnum", "undirboðins"],
+					"kvk": ["undirboðin", "undirboðna", "undirboðinni", "undirboðinnar"],
+					"hk": ["undirboðið", "undirboðið", "undirboðnu", "undirboðins"]
+				},
+				"ft": {
+					"kk": ["undirboðnir", "undirboðna", "undirboðnum", "undirboðinna"],
+					"kvk": ["undirboðnar", "undirboðnar", "undirboðnum", "undirboðinna"],
+					"hk": ["undirboðin", "undirboðin", "undirboðnum", "undirboðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-undirbjóða",
+	"hash": "61681628d9c45debc860b53c19ea93d881e026935a4ef38583e841672a40d174"
+}

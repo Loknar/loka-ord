@@ -1,0 +1,32 @@
+{
+	"orð": "hlutabréfaviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hlutabréfaviðskipti", "hlutabréfaviðskipti", "hlutabréfaviðskiptum", "hlutabréfaviðskipta"],
+		"mg": ["hlutabréfaviðskiptin", "hlutabréfaviðskiptin", "hlutabréfaviðskiptunum", "hlutabréfaviðskiptanna"]
+	},
+	"kennistrengur": "no-hlutabréfaviðskipti-hk",
+	"hash": "6c881a010b16399a4338736b651d4b170b9abf34a841c9f7ae0fa9481b2e67ce"
+}

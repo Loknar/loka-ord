@@ -1,0 +1,22 @@
+{
+	"orð": "fréttaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "frétta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-frétt-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fréttaupplýsingar", "fréttaupplýsingar", "fréttaupplýsingum", "fréttaupplýsinga"],
+		"mg": ["fréttaupplýsingarnar", "fréttaupplýsingarnar", "fréttaupplýsingunum", "fréttaupplýsinganna"]
+	},
+	"kennistrengur": "no-fréttaupplýsingar-kvk",
+	"hash": "ec63661e90310710a3f395979801081d06fd8050a96d1bbd51606b3d4d4125ac"
+}

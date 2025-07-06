@@ -1,0 +1,87 @@
+{
+	"orð": "yfirbjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirbjóða",
+		"sagnbót": "yfirboðið",
+		"boðháttur": {
+			"stýfður": "yfirbjóð",
+			"et": "yfirbjóddu",
+			"ft": "yfirbjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirbýð", "yfirbýður", "yfirbýður"],
+					"ft": ["yfirbjóðum", "yfirbjóðið", "yfirbjóða"]
+				},
+				"þátíð": {
+					"et": ["yfirbauð", "yfirbauðst", "yfirbauð"],
+					"ft": ["yfirbuðum", "yfirbuðuð", "yfirbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirbjóði", "yfirbjóðir", "yfirbjóði"],
+					"ft": ["yfirbjóðum", "yfirbjóðið", "yfirbjóði"]
+				},
+				"þátíð": {
+					"et": ["yfirbyði", "yfirbyðir", "yfirbyði"],
+					"ft": ["yfirbyðum", "yfirbyðuð", "yfirbyðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirbýðurðu",
+					"ft": "yfirbjóðiði"
+				},
+				"þátíð": {
+					"et": "yfirbauðstu",
+					"ft": "yfirbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirbjóðirðu",
+					"ft": "yfirbjóðiði"
+				},
+				"þátíð": {
+					"et": "yfirbyðirðu",
+					"ft": "yfirbyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirbjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirboðinn", "yfirboðinn", "yfirboðnum", "yfirboðins"],
+					"kvk": ["yfirboðin", "yfirboðna", "yfirboðinni", "yfirboðinnar"],
+					"hk": ["yfirboðið", "yfirboðið", "yfirboðnu", "yfirboðins"]
+				},
+				"ft": {
+					"kk": ["yfirboðnir", "yfirboðna", "yfirboðnum", "yfirboðinna"],
+					"kvk": ["yfirboðnar", "yfirboðnar", "yfirboðnum", "yfirboðinna"],
+					"hk": ["yfirboðin", "yfirboðin", "yfirboðnum", "yfirboðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirbjóða",
+	"hash": "d6136542a7c694d58c35b5d7de21ffffe69c64e35db40aa9126009056a6f770a"
+}

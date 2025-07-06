@@ -1,0 +1,27 @@
+{
+	"orð": "tugmilljónatekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"mynd": "milljóna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-milljón-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["tugmilljónatekjur", "tugmilljónatekjur", "tugmilljónatekjum", "tugmilljónatekna"],
+		"mg": ["tugmilljónatekjurnar", "tugmilljónatekjurnar", "tugmilljónatekjunum", "tugmilljónateknanna"]
+	},
+	"kennistrengur": "no-tugmilljónatekjur-kvk",
+	"hash": "b185fb1736046767385149b51f994ba17678b81a3e275ec36820f4145f4f1b2f"
+}
