@@ -1,0 +1,30 @@
+{
+	"orð": "skuldaleiðrétting",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leið-kvk"
+		},
+		{
+			"kennistrengur": "no-rétting-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaleiðrétting", "skuldaleiðréttingu", "skuldaleiðréttingu", "skuldaleiðréttingar"],
+		"mg": ["skuldaleiðréttingin", "skuldaleiðréttinguna", "skuldaleiðréttingunni", "skuldaleiðréttingarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldaleiðréttingar", "skuldaleiðréttingar", "skuldaleiðréttingum", "skuldaleiðréttinga"],
+		"mg": ["skuldaleiðréttingarnar", "skuldaleiðréttingarnar", "skuldaleiðréttingunum", "skuldaleiðréttinganna"]
+	},
+	"kennistrengur": "no-skuldaleiðrétting-kvk",
+	"hash": "eeba0ad499f2e4ade16d77779a2c90c9226ee7d1d0177e01fb0e2c4a112b146c"
+}
