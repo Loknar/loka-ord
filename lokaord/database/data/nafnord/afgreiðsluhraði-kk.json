@@ -1,0 +1,27 @@
+{
+	"orð": "afgreiðsluhraði",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hraði-kk"
+		}
+	],
+	"et": {
+		"ág": ["afgreiðsluhraði", "afgreiðsluhraða", "afgreiðsluhraða", "afgreiðsluhraða"],
+		"mg": ["afgreiðsluhraðinn", "afgreiðsluhraðann", "afgreiðsluhraðanum", "afgreiðsluhraðans"]
+	},
+	"kennistrengur": "no-afgreiðsluhraði-kk",
+	"hash": "fe50e68fbfb49f131e669dd481775687c84b994f17aaf1ffb95640e240d5716c"
+}

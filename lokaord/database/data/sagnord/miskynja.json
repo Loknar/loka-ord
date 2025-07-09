@@ -1,0 +1,65 @@
+{
+	"orð": "miskynja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir"],
+			"kennistrengur": "so-kynja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "miskynja",
+		"sagnbót": "miskynjað",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["miskynja", "miskynjar", "miskynjar"],
+					"ft": ["miskynjum", "miskynjið", "miskynja"]
+				},
+				"þátíð": {
+					"et": ["miskynjaði", "miskynjaðir", "miskynjaði"],
+					"ft": ["miskynjuðum", "miskynjuðuð", "miskynjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["miskynji", "miskynjir", "miskynji"],
+					"ft": ["miskynjum", "miskynjið", "miskynji"]
+				},
+				"þátíð": {
+					"et": ["miskynjaði", "miskynjaðir", "miskynjaði"],
+					"ft": ["miskynjuðum", "miskynjuðuð", "miskynjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "miskynjarðu",
+					"ft": "miskynjiði"
+				},
+				"þátíð": {
+					"et": "miskynjaðirðu",
+					"ft": "miskynjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "miskynjirðu",
+					"ft": "miskynjiði"
+				},
+				"þátíð": {
+					"et": "miskynjaðirðu",
+					"ft": "miskynjuðuði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-miskynja",
+	"hash": "974d9bbd89a6fbdbddb8eecea790a949f025c4d235064303e59620e17b63860f"
+}

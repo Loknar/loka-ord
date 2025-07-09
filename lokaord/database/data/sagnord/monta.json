@@ -1,0 +1,121 @@
+{
+	"orð": "monta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mont",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mont-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "monta",
+		"sagnbót": "montað",
+		"boðháttur": {
+			"stýfður": "monta",
+			"et": "montaðu",
+			"ft": "montið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["monta", "montar", "montar"],
+					"ft": ["montum", "montið", "monta"]
+				},
+				"þátíð": {
+					"et": ["montaði", "montaðir", "montaði"],
+					"ft": ["montuðum", "montuðuð", "montuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["monti", "montir", "monti"],
+					"ft": ["montum", "montið", "monti"]
+				},
+				"þátíð": {
+					"et": ["montaði", "montaðir", "montaði"],
+					"ft": ["montuðum", "montuðuð", "montuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "montarðu",
+					"ft": "montiði"
+				},
+				"þátíð": {
+					"et": "montaðirðu",
+					"ft": "montuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "montirðu",
+					"ft": "montiði"
+				},
+				"þátíð": {
+					"et": "montaðirðu",
+					"ft": "montuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "montast",
+		"sagnbót": "montast",
+		"boðháttur": {
+			"et": "montastu",
+			"ft": "montist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["montast", "montast", "montast"],
+					"ft": ["montumst", "montist", "montast"]
+				},
+				"þátíð": {
+					"et": ["montaðist", "montaðist", "montaðist"],
+					"ft": ["montuðumst", "montuðust", "montuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["montist", "montist", "montist"],
+					"ft": ["montumst", "montist", "montist"]
+				},
+				"þátíð": {
+					"et": ["montaðist", "montaðist", "montaðist"],
+					"ft": ["montuðumst", "montuðust", "montuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "montastu"
+				},
+				"þátíð": {
+					"et": "montaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "montistu"
+				},
+				"þátíð": {
+					"et": "montaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "montandi"
+	},
+	"kennistrengur": "so-monta",
+	"hash": "7b934a7036923ad75116f2ae9dd859739ac2a4c692a39c3050a11b96e9819cea"
+}

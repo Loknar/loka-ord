@@ -1,0 +1,135 @@
+{
+	"orð": "skrolla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skroll",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skroll-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrolla",
+		"sagnbót": "skrollað",
+		"boðháttur": {
+			"stýfður": "skrolla",
+			"et": "skrollaðu",
+			"ft": "skrollið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrolla", "skrollar", "skrollar"],
+					"ft": ["skrollum", "skrollið", "skrolla"]
+				},
+				"þátíð": {
+					"et": ["skrollaði", "skrollaðir", "skrollaði"],
+					"ft": ["skrolluðum", "skrolluðuð", "skrolluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrolli", "skrollir", "skrolli"],
+					"ft": ["skrollum", "skrollið", "skrolli"]
+				},
+				"þátíð": {
+					"et": ["skrollaði", "skrollaðir", "skrollaði"],
+					"ft": ["skrolluðum", "skrolluðuð", "skrolluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrollarðu",
+					"ft": "skrolliði"
+				},
+				"þátíð": {
+					"et": "skrollaðirðu",
+					"ft": "skrolluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrollirðu",
+					"ft": "skrolliði"
+				},
+				"þátíð": {
+					"et": "skrollaðirðu",
+					"ft": "skrolluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skrollast",
+		"sagnbót": "skrollast",
+		"boðháttur": {
+			"et": "skrollastu",
+			"ft": "skrollist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrollast", "skrollast", "skrollast"],
+					"ft": ["skrollumst", "skrollist", "skrollast"]
+				},
+				"þátíð": {
+					"et": ["skrollaðist", "skrollaðist", "skrollaðist"],
+					"ft": ["skrolluðumst", "skrolluðust", "skrolluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrollist", "skrollist", "skrollist"],
+					"ft": ["skrollumst", "skrollist", "skrollist"]
+				},
+				"þátíð": {
+					"et": ["skrollaðist", "skrollaðist", "skrollaðist"],
+					"ft": ["skrolluðumst", "skrolluðust", "skrolluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrollastu"
+				},
+				"þátíð": {
+					"et": "skrollaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrollistu"
+				},
+				"þátíð": {
+					"et": "skrollaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrollandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrollaður", "skrollaðan", "skrolluðum", "skrollaðs"],
+					"kvk": ["skrolluð", "skrollaða", "skrollaðri", "skrollaðrar"],
+					"hk": ["skrollað", "skrollað", "skrolluðu", "skrollaðs"]
+				},
+				"ft": {
+					"kk": ["skrollaðir", "skrollaða", "skrolluðum", "skrollaðra"],
+					"kvk": ["skrollaðar", "skrollaðar", "skrolluðum", "skrollaðra"],
+					"hk": ["skrolluð", "skrolluð", "skrolluðum", "skrollaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrolla",
+	"hash": "790dd734ac5417e023f4314bc80fda7e20433f2e25d8aedbc6f070a00d0de021"
+}

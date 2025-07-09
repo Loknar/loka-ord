@@ -1,0 +1,48 @@
+{
+	"orð": "kjarnorkuknúinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kjarn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kjarni-kk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-knúinn"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kjarnorkuknúinn", "kjarnorkuknúinn", "kjarnorkuknúnum", "kjarnorkuknúins"],
+				"kvk": ["kjarnorkuknúin", "kjarnorkuknúna", "kjarnorkuknúinni", "kjarnorkuknúinnar"],
+				"hk": ["kjarnorkuknúið", "kjarnorkuknúið", "kjarnorkuknúnu", "kjarnorkuknúins"]
+			},
+			"ft": {
+				"kk": ["kjarnorkuknúnir", "kjarnorkuknúna", "kjarnorkuknúnum", "kjarnorkuknúinna"],
+				"kvk": ["kjarnorkuknúnar", "kjarnorkuknúnar", "kjarnorkuknúnum", "kjarnorkuknúinna"],
+				"hk": ["kjarnorkuknúin", "kjarnorkuknúin", "kjarnorkuknúnum", "kjarnorkuknúinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kjarnorkuknúni", "kjarnorkuknúna", "kjarnorkuknúna", "kjarnorkuknúna"],
+				"kvk": ["kjarnorkuknúna", "kjarnorkuknúnu", "kjarnorkuknúnu", "kjarnorkuknúnu"],
+				"hk": ["kjarnorkuknúna", "kjarnorkuknúna", "kjarnorkuknúna", "kjarnorkuknúna"]
+			},
+			"ft": {
+				"kk": ["kjarnorkuknúnu", "kjarnorkuknúnu", "kjarnorkuknúnu", "kjarnorkuknúnu"],
+				"kvk": ["kjarnorkuknúnu", "kjarnorkuknúnu", "kjarnorkuknúnu", "kjarnorkuknúnu"],
+				"hk": ["kjarnorkuknúnu", "kjarnorkuknúnu", "kjarnorkuknúnu", "kjarnorkuknúnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kjarnorkuknúinn",
+	"hash": "8954bd0b9f2dfda35a6f6df4cca7021fb60f454e50ad6d36904e2277f913e10c"
+}
