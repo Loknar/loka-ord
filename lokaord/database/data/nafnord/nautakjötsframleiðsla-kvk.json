@@ -1,0 +1,32 @@
+{
+	"orð": "nautakjötsframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "nauta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-naut-hk"
+		},
+		{
+			"mynd": "kjöts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kjöt-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["nautakjötsframleiðsla", "nautakjötsframleiðslu", "nautakjötsframleiðslu", "nautakjötsframleiðslu"],
+		"mg": ["nautakjötsframleiðslan", "nautakjötsframleiðsluna", "nautakjötsframleiðslunni", "nautakjötsframleiðslunnar"]
+	},
+	"kennistrengur": "no-nautakjötsframleiðsla-kvk",
+	"hash": "dce3db89b306e1e3e9864bbd3f63cae79ffab25d23fca0a6eeaad80858075013"
+}
