@@ -1,0 +1,87 @@
+{
+	"orð": "afísa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ísa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afísa",
+		"sagnbót": "afísað",
+		"boðháttur": {
+			"stýfður": "afísa",
+			"et": "afísaðu",
+			"ft": "afísið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afísa", "afísar", "afísar"],
+					"ft": ["afísum", "afísið", "afísa"]
+				},
+				"þátíð": {
+					"et": ["afísaði", "afísaðir", "afísaði"],
+					"ft": ["afísuðum", "afísuðuð", "afísuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afísi", "afísir", "afísi"],
+					"ft": ["afísum", "afísið", "afísi"]
+				},
+				"þátíð": {
+					"et": ["afísaði", "afísaðir", "afísaði"],
+					"ft": ["afísuðum", "afísuðuð", "afísuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afísarðu",
+					"ft": "afísiði"
+				},
+				"þátíð": {
+					"et": "afísaðirðu",
+					"ft": "afísuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afísirðu",
+					"ft": "afísiði"
+				},
+				"þátíð": {
+					"et": "afísaðirðu",
+					"ft": "afísuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afísandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afísaður", "afísaðan", "afísuðum", "afísaðs"],
+					"kvk": ["afísuð", "afísaða", "afísaðri", "afísaðrar"],
+					"hk": ["afísað", "afísað", "afísuðu", "afísaðs"]
+				},
+				"ft": {
+					"kk": ["afísaðir", "afísaða", "afísuðum", "afísaðra"],
+					"kvk": ["afísaðar", "afísaðar", "afísuðum", "afísaðra"],
+					"hk": ["afísuð", "afísuð", "afísuðum", "afísaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afísa",
+	"hash": "a8483726045737f32a12966024e80f1d035b26dcc3d0f1318be998882211bc3f"
+}

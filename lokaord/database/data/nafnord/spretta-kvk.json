@@ -2,6 +2,16 @@
 	"orð": "spretta",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sprett",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sprettur-kk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["spretta", "sprettu", "sprettu", "sprettu"],
 		"mg": ["sprettan", "sprettuna", "sprettunni", "sprettunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["spretturnar", "spretturnar", "sprettunum", "sprettanna"]
 	},
 	"kennistrengur": "no-spretta-kvk",
-	"hash": "d92ef0b63f99e4d43da3e2cbfe67a3bb8f29541ccbfa22686fee6dc4ea6ccbba"
+	"hash": "1214093855b343c412b1cc3b7379caa5976c85c70c29daa401ceffdbd2878798"
 }

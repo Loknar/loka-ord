@@ -1,0 +1,22 @@
+{
+	"orð": "rekstrarupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["rekstrarupplýsingar", "rekstrarupplýsingar", "rekstrarupplýsingum", "rekstrarupplýsinga"],
+		"mg": ["rekstrarupplýsingarnar", "rekstrarupplýsingarnar", "rekstrarupplýsingunum", "rekstrarupplýsinganna"]
+	},
+	"kennistrengur": "no-rekstrarupplýsingar-kvk",
+	"hash": "c8fad0ed4869e2a62162a567612ace16562766f73b58325ec31730fd3f9af2b3"
+}

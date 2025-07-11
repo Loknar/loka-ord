@@ -1,0 +1,37 @@
+{
+	"orð": "þinglokasamningsviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"mynd": "loka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lok-hk-_endir_"
+		},
+		{
+			"mynd": "samnings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-samningur-kk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["þinglokasamningsviðræður", "þinglokasamningsviðræður", "þinglokasamningsviðræðum", "þinglokasamningsviðræðna"],
+		"mg": ["þinglokasamningsviðræðurnar", "þinglokasamningsviðræðurnar", "þinglokasamningsviðræðunum", "þinglokasamningsviðræðnanna"]
+	},
+	"kennistrengur": "no-þinglokasamningsviðræður-kvk",
+	"hash": "0bd007dc077c14eb13a651ef0dae555169cf64c07eb00712bbab57bd2d611c50"
+}

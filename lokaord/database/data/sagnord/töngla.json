@@ -1,0 +1,135 @@
+{
+	"orð": "töngla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "töngl",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-töng-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "töngla",
+		"sagnbót": "tönglað",
+		"boðháttur": {
+			"stýfður": "töngla",
+			"et": "tönglaðu",
+			"ft": "tönglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["töngla", "tönglar", "tönglar"],
+					"ft": ["tönglum", "tönglið", "töngla"]
+				},
+				"þátíð": {
+					"et": ["tönglaði", "tönglaðir", "tönglaði"],
+					"ft": ["töngluðum", "töngluðuð", "töngluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["töngli", "tönglir", "töngli"],
+					"ft": ["tönglum", "tönglið", "töngli"]
+				},
+				"þátíð": {
+					"et": ["tönglaði", "tönglaðir", "tönglaði"],
+					"ft": ["töngluðum", "töngluðuð", "töngluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tönglarðu",
+					"ft": "töngliði"
+				},
+				"þátíð": {
+					"et": "tönglaðirðu",
+					"ft": "töngluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tönglirðu",
+					"ft": "töngliði"
+				},
+				"þátíð": {
+					"et": "tönglaðirðu",
+					"ft": "töngluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tönglast",
+		"sagnbót": "tönglast",
+		"boðháttur": {
+			"et": "tönglastu",
+			"ft": "tönglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tönglast", "tönglast", "tönglast"],
+					"ft": ["tönglumst", "tönglist", "tönglast"]
+				},
+				"þátíð": {
+					"et": ["tönglaðist", "tönglaðist", "tönglaðist"],
+					"ft": ["töngluðumst", "töngluðust", "töngluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tönglist", "tönglist", "tönglist"],
+					"ft": ["tönglumst", "tönglist", "tönglist"]
+				},
+				"þátíð": {
+					"et": ["tönglaðist", "tönglaðist", "tönglaðist"],
+					"ft": ["töngluðumst", "töngluðust", "töngluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tönglastu"
+				},
+				"þátíð": {
+					"et": "tönglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tönglistu"
+				},
+				"þátíð": {
+					"et": "tönglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tönglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tönglaður", "tönglaðan", "töngluðum", "tönglaðs"],
+					"kvk": ["töngluð", "tönglaða", "tönglaðri", "tönglaðrar"],
+					"hk": ["tönglað", "tönglað", "töngluðu", "tönglaðs"]
+				},
+				"ft": {
+					"kk": ["tönglaðir", "tönglaða", "töngluðum", "tönglaðra"],
+					"kvk": ["tönglaðar", "tönglaðar", "töngluðum", "tönglaðra"],
+					"hk": ["töngluð", "töngluð", "töngluðum", "tönglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-töngla",
+	"hash": "76ca9a7b1052df9d205f46f2bc23bcbc6174d9ab0564d459e9d07e62c46a698a"
+}

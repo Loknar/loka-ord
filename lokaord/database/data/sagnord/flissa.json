@@ -1,0 +1,87 @@
+{
+	"orð": "flissa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fliss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fliss-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flissa",
+		"sagnbót": "flissað",
+		"boðháttur": {
+			"stýfður": "flissa",
+			"et": "flissaðu",
+			"ft": "flissið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flissa", "flissar", "flissar"],
+					"ft": ["flissum", "flissið", "flissa"]
+				},
+				"þátíð": {
+					"et": ["flissaði", "flissaðir", "flissaði"],
+					"ft": ["flissuðum", "flissuðuð", "flissuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flissi", "flissir", "flissi"],
+					"ft": ["flissum", "flissið", "flissi"]
+				},
+				"þátíð": {
+					"et": ["flissaði", "flissaðir", "flissaði"],
+					"ft": ["flissuðum", "flissuðuð", "flissuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flissarðu",
+					"ft": "flissiði"
+				},
+				"þátíð": {
+					"et": "flissaðirðu",
+					"ft": "flissuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flissirðu",
+					"ft": "flissiði"
+				},
+				"þátíð": {
+					"et": "flissaðirðu",
+					"ft": "flissuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flissandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flissaður", "flissaðan", "flissuðum", "flissaðs"],
+					"kvk": ["flissuð", "flissaða", "flissaðri", "flissaðrar"],
+					"hk": ["flissað", "flissað", "flissuðu", "flissaðs"]
+				},
+				"ft": {
+					"kk": ["flissaðir", "flissaða", "flissuðum", "flissaðra"],
+					"kvk": ["flissaðar", "flissaðar", "flissuðum", "flissaðra"],
+					"hk": ["flissuð", "flissuð", "flissuðum", "flissaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flissa",
+	"hash": "75e62ea49034679c0bb3624bb3b4805860ea5556e95b59cc6bf25a0d34488625"
+}
