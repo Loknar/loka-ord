@@ -841,9 +841,10 @@ def clean_string(mystr: str) -> str:
 	"""
 	cleaned_str = mystr
 	replacements = [
-		# skipta sumum táknum út fyrir bil
+		# skipta ákveðnum táknum út fyrir bil
 		('\n', ' '),
 		('\t', ' '),
+		('\u202f', ' '),  # narrow no-break space
 		# bæta við bilum sumstaðar
 		('/', ' / '),
 		('[', ' ['),
