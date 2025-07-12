@@ -1,0 +1,32 @@
+{
+	"orð": "forsætisráðherratíð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "forsætis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-forsæti-hk"
+		},
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"mynd": "herra",
+			"samsetning": "stofn",
+			"kennistrengur": "no-herra-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tíð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["forsætisráðherratíð", "forsætisráðherratíð", "forsætisráðherratíð", "forsætisráðherratíðar"],
+		"mg": ["forsætisráðherratíðin", "forsætisráðherratíðina", "forsætisráðherratíðinni", "forsætisráðherratíðarinnar"]
+	},
+	"kennistrengur": "no-forsætisráðherratíð-kvk",
+	"hash": "40a7b810d9b03527febed229190d70e23f704357db503e139bdeba2c445c392e"
+}
