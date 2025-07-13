@@ -1,0 +1,87 @@
+{
+	"orð": "föndra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "föndr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-föndur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "föndra",
+		"sagnbót": "föndrað",
+		"boðháttur": {
+			"stýfður": "föndra",
+			"et": "föndraðu",
+			"ft": "föndrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["föndra", "föndrar", "föndrar"],
+					"ft": ["föndrum", "föndrið", "föndra"]
+				},
+				"þátíð": {
+					"et": ["föndraði", "föndraðir", "föndraði"],
+					"ft": ["föndruðum", "föndruðuð", "föndruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["föndri", "föndrir", "föndri"],
+					"ft": ["föndrum", "föndrið", "föndri"]
+				},
+				"þátíð": {
+					"et": ["föndraði", "föndraðir", "föndraði"],
+					"ft": ["föndruðum", "föndruðuð", "föndruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "föndrarðu",
+					"ft": "föndriði"
+				},
+				"þátíð": {
+					"et": "föndraðirðu",
+					"ft": "föndruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "föndrirðu",
+					"ft": "föndriði"
+				},
+				"þátíð": {
+					"et": "föndraðirðu",
+					"ft": "föndruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "föndrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["föndraður", "föndraðan", "föndruðum", "föndraðs"],
+					"kvk": ["föndruð", "föndraða", "föndraðri", "föndraðrar"],
+					"hk": ["föndrað", "föndrað", "föndruðu", "föndraðs"]
+				},
+				"ft": {
+					"kk": ["föndraðir", "föndraða", "föndruðum", "föndraðra"],
+					"kvk": ["föndraðar", "föndraðar", "föndruðum", "föndraðra"],
+					"hk": ["föndruð", "föndruð", "föndruðum", "föndraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-föndra",
+	"hash": "bb4578ae3183f8042e6d48cedcbed773d7b95756b1b0a231708852d6b0855370"
+}

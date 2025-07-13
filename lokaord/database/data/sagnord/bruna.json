@@ -1,0 +1,87 @@
+{
+	"orð": "bruna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brun-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bruna",
+		"sagnbót": "brunað",
+		"boðháttur": {
+			"stýfður": "bruna",
+			"et": "brunaðu",
+			"ft": "brunið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bruna", "brunar", "brunar"],
+					"ft": ["brunum", "brunið", "bruna"]
+				},
+				"þátíð": {
+					"et": ["brunaði", "brunaðir", "brunaði"],
+					"ft": ["brunuðum", "brunuðuð", "brunuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bruni", "brunir", "bruni"],
+					"ft": ["brunum", "brunið", "bruni"]
+				},
+				"þátíð": {
+					"et": ["brunaði", "brunaðir", "brunaði"],
+					"ft": ["brunuðum", "brunuðuð", "brunuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brunarðu",
+					"ft": "bruniði"
+				},
+				"þátíð": {
+					"et": "brunaðirðu",
+					"ft": "brunuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brunirðu",
+					"ft": "bruniði"
+				},
+				"þátíð": {
+					"et": "brunaðirðu",
+					"ft": "brunuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brunandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brunaður", "brunaðan", "brunuðum", "brunaðs"],
+					"kvk": ["brunuð", "brunaða", "brunaðri", "brunaðrar"],
+					"hk": ["brunað", "brunað", "brunuðu", "brunaðs"]
+				},
+				"ft": {
+					"kk": ["brunaðir", "brunaða", "brunuðum", "brunaðra"],
+					"kvk": ["brunaðar", "brunaðar", "brunuðum", "brunaðra"],
+					"hk": ["brunuð", "brunuð", "brunuðum", "brunaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bruna",
+	"hash": "85504242255ff231682e0c0853d9ac9551d9f40abb3170b5b36be9d6e580bbde"
+}

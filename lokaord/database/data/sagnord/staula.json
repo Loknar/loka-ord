@@ -1,0 +1,135 @@
+{
+	"orð": "staula",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "staul",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staul-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "staula",
+		"sagnbót": "staulað",
+		"boðháttur": {
+			"stýfður": "staula",
+			"et": "staulaðu",
+			"ft": "staulið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staula", "staular", "staular"],
+					"ft": ["staulum", "staulið", "staula"]
+				},
+				"þátíð": {
+					"et": ["staulaði", "staulaðir", "staulaði"],
+					"ft": ["stauluðum", "stauluðuð", "stauluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stauli", "staulir", "stauli"],
+					"ft": ["staulum", "staulið", "stauli"]
+				},
+				"þátíð": {
+					"et": ["staulaði", "staulaðir", "staulaði"],
+					"ft": ["stauluðum", "stauluðuð", "stauluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staularðu",
+					"ft": "stauliði"
+				},
+				"þátíð": {
+					"et": "staulaðirðu",
+					"ft": "stauluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staulirðu",
+					"ft": "stauliði"
+				},
+				"þátíð": {
+					"et": "staulaðirðu",
+					"ft": "stauluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "staulast",
+		"sagnbót": "staulast",
+		"boðháttur": {
+			"et": "staulastu",
+			"ft": "staulist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staulast", "staulast", "staulast"],
+					"ft": ["staulumst", "staulist", "staulast"]
+				},
+				"þátíð": {
+					"et": ["staulaðist", "staulaðist", "staulaðist"],
+					"ft": ["stauluðumst", "stauluðust", "stauluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staulist", "staulist", "staulist"],
+					"ft": ["staulumst", "staulist", "staulist"]
+				},
+				"þátíð": {
+					"et": ["staulaðist", "staulaðist", "staulaðist"],
+					"ft": ["stauluðumst", "stauluðust", "stauluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staulastu"
+				},
+				"þátíð": {
+					"et": "staulaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staulistu"
+				},
+				"þátíð": {
+					"et": "staulaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "staulandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["staulaður", "staulaðan", "stauluðum", "staulaðs"],
+					"kvk": ["stauluð", "staulaða", "staulaðri", "staulaðrar"],
+					"hk": ["staulað", "staulað", "stauluðu", "staulaðs"]
+				},
+				"ft": {
+					"kk": ["staulaðir", "staulaða", "stauluðum", "staulaðra"],
+					"kvk": ["staulaðar", "staulaðar", "stauluðum", "staulaðra"],
+					"hk": ["stauluð", "stauluð", "stauluðum", "staulaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-staula",
+	"hash": "36119a833d7455ecfc49a5cf8977721a71d3ad5ef09cb9ff59b5fec2ea2ce284"
+}

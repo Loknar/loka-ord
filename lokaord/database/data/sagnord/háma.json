@@ -1,0 +1,87 @@
+{
+	"orð": "háma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hám",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hám-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "háma",
+		"sagnbót": "hámað",
+		"boðháttur": {
+			"stýfður": "háma",
+			"et": "hámaðu",
+			"ft": "hámið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["háma", "hámar", "hámar"],
+					"ft": ["hámum", "hámið", "háma"]
+				},
+				"þátíð": {
+					"et": ["hámaði", "hámaðir", "hámaði"],
+					"ft": ["hámuðum", "hámuðuð", "hámuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hámi", "hámir", "hámi"],
+					"ft": ["hámum", "hámið", "hámi"]
+				},
+				"þátíð": {
+					"et": ["hámaði", "hámaðir", "hámaði"],
+					"ft": ["hámuðum", "hámuðuð", "hámuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hámarðu",
+					"ft": "hámiði"
+				},
+				"þátíð": {
+					"et": "hámaðirðu",
+					"ft": "hámuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hámirðu",
+					"ft": "hámiði"
+				},
+				"þátíð": {
+					"et": "hámaðirðu",
+					"ft": "hámuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hámandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hámaður", "hámaðan", "hámuðum", "hámaðs"],
+					"kvk": ["hámuð", "hámaða", "hámaðri", "hámaðrar"],
+					"hk": ["hámað", "hámað", "hámuðu", "hámaðs"]
+				},
+				"ft": {
+					"kk": ["hámaðir", "hámaða", "hámuðum", "hámaðra"],
+					"kvk": ["hámaðar", "hámaðar", "hámuðum", "hámaðra"],
+					"hk": ["hámuð", "hámuð", "hámuðum", "hámaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-háma",
+	"hash": "cd155017dceaabdf6a7ebfa0fdeb037ab79f3608d2f93b4dac1ab381f61134d1"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "hámhorfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hám",
+			"samsetning": "stofn",
+			"kennistrengur": "so-háma"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-horfa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hámhorfa",
+		"sagnbót": "hámhorft",
+		"boðháttur": {
+			"stýfður": "hámhorf",
+			"et": "hámhorfðu",
+			"ft": "hámhorfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hámhorfi", "hámhorfir", "hámhorfir"],
+					"ft": ["hámhorfum", "hámhorfið", "hámhorfa"]
+				},
+				"þátíð": {
+					"et": ["hámhorfði", "hámhorfðir", "hámhorfði"],
+					"ft": ["hámhorfðum", "hámhorfðuð", "hámhorfðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hámhorfi", "hámhorfir", "hámhorfi"],
+					"ft": ["hámhorfum", "hámhorfið", "hámhorfi"]
+				},
+				"þátíð": {
+					"et": ["hámhorfði", "hámhorfðir", "hámhorfði"],
+					"ft": ["hámhorfðum", "hámhorfðuð", "hámhorfðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hámhorfirðu",
+					"ft": "hámhorfiði"
+				},
+				"þátíð": {
+					"et": "hámhorfðirðu",
+					"ft": "hámhorfðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hámhorfirðu",
+					"ft": "hámhorfiði"
+				},
+				"þátíð": {
+					"et": "hámhorfðirðu",
+					"ft": "hámhorfðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hámhorfandi"
+	},
+	"kennistrengur": "so-hámhorfa",
+	"hash": "9f022de1fe2a02c08d65b4fd0922816a4304f925e2bf3a8fc8ff0e1691294080"
+}
