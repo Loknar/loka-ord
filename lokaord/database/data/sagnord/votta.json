@@ -1,6 +1,16 @@
 {
 	"orð": "votta",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vott",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vottur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "votta",
 		"sagnbót": "vottað",
@@ -116,9 +126,21 @@
 					"kvk": ["vottaðar", "vottaðar", "vottuðum", "vottaðra"],
 					"hk": ["vottuð", "vottuð", "vottuðum", "vottaðra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vottaði", "vottaða", "vottaða", "vottaða"],
+					"kvk": ["vottaða", "vottuðu", "vottuðu", "vottuðu"],
+					"hk": ["vottaða", "vottaða", "vottaða", "vottaða"]
+				},
+				"ft": {
+					"kk": ["vottuðu", "vottuðu", "vottuðu", "vottuðu"],
+					"kvk": ["vottuðu", "vottuðu", "vottuðu", "vottuðu"],
+					"hk": ["vottuðu", "vottuðu", "vottuðu", "vottuðu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-votta",
-	"hash": "6f746ca14142b5cbc75b2cc3970b55995d166818b55a4590e4f103ee4576c44a"
+	"hash": "d5d442423056859c46cc7b9e4542c20deaf34cde7ade88f6a8a6082860d294b7"
 }

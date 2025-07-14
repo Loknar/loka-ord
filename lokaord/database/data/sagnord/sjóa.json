@@ -1,0 +1,146 @@
+{
+	"orð": "sjóa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sjó",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sjór-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sjóa",
+		"sagnbót": "sjóað",
+		"boðháttur": {
+			"stýfður": "sjóa",
+			"et": "sjóaðu",
+			"ft": "sjóið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjóa", "sjóar", "sjóar"],
+					"ft": ["sjóum", "sjóið", "sjóa"]
+				},
+				"þátíð": {
+					"et": ["sjóaði", "sjóaðir", "sjóaði"],
+					"ft": ["sjóuðum", "sjóuðuð", "sjóuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjói", "sjóir", "sjói"],
+					"ft": ["sjóum", "sjóið", "sjói"]
+				},
+				"þátíð": {
+					"et": ["sjóaði", "sjóaðir", "sjóaði"],
+					"ft": ["sjóuðum", "sjóuðuð", "sjóuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjóarðu",
+					"ft": "sjóiði"
+				},
+				"þátíð": {
+					"et": "sjóaðirðu",
+					"ft": "sjóuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjóirðu",
+					"ft": "sjóiði"
+				},
+				"þátíð": {
+					"et": "sjóaðirðu",
+					"ft": "sjóuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sjóast",
+		"sagnbót": "sjóast",
+		"boðháttur": {
+			"et": "sjóastu",
+			"ft": "sjóist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjóast", "sjóast", "sjóast"],
+					"ft": ["sjóumst", "sjóist", "sjóast"]
+				},
+				"þátíð": {
+					"et": ["sjóaðist", "sjóaðist", "sjóaðist"],
+					"ft": ["sjóuðumst", "sjóuðust", "sjóuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjóist", "sjóist", "sjóist"],
+					"ft": ["sjóumst", "sjóist", "sjóist"]
+				},
+				"þátíð": {
+					"et": ["sjóaðist", "sjóaðist", "sjóaðist"],
+					"ft": ["sjóuðumst", "sjóuðust", "sjóuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjóastu"
+				},
+				"þátíð": {
+					"et": "sjóaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjóistu"
+				},
+				"þátíð": {
+					"et": "sjóaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjóandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sjóaður", "sjóaðan", "sjóuðum", "sjóaðs"],
+					"kvk": ["sjóuð", "sjóaða", "sjóaðri", "sjóaðrar"],
+					"hk": ["sjóað", "sjóað", "sjóuðu", "sjóaðs"]
+				},
+				"ft": {
+					"kk": ["sjóaðir", "sjóaða", "sjóuðum", "sjóaðra"],
+					"kvk": ["sjóaðar", "sjóaðar", "sjóuðum", "sjóaðra"],
+					"hk": ["sjóuð", "sjóuð", "sjóuðum", "sjóaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sjóaði", "sjóaða", "sjóaða", "sjóaða"],
+					"kvk": ["sjóaða", "sjóuðu", "sjóuðu", "sjóuðu"],
+					"hk": ["sjóaða", "sjóaða", "sjóaða", "sjóaða"]
+				},
+				"ft": {
+					"kk": ["sjóuðu", "sjóuðu", "sjóuðu", "sjóuðu"],
+					"kvk": ["sjóuðu", "sjóuðu", "sjóuðu", "sjóuðu"],
+					"hk": ["sjóuðu", "sjóuðu", "sjóuðu", "sjóuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjóa",
+	"hash": "6a4c43cf9e84bcff9003964408390075a2de98bcad07b57f166007b18a4bebe7"
+}

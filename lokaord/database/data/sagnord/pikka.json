@@ -1,6 +1,16 @@
 {
 	"orð": "pikka",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "pikk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-pikk-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "pikka",
 		"sagnbót": "pikkað",
@@ -56,7 +66,11 @@
 	},
 	"miðmynd": {
 		"nafnháttur": "pikkast",
-		"sagnbót": "þóst",
+		"sagnbót": "pikkast",
+		"boðháttur": {
+			"et": "pikkastu",
+			"ft": "pikkist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -108,7 +122,7 @@
 					"hk": ["pikkað", "pikkað", "pikkuðu", "pikkaðs"]
 				},
 				"ft": {
-					"kk": ["pikkaðir", "pikkaða", "stæðkkuðum", "pikkaðra"],
+					"kk": ["pikkaðir", "pikkaða", "pikkuðum", "pikkaðra"],
 					"kvk": ["pikkaðar", "pikkaðar", "pikkuðum", "pikkaðra"],
 					"hk": ["pikkuð", "pikkuð", "pikkuðum", "pikkaðra"]
 				}
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-pikka",
-	"hash": "70dd987f8e0ce290069556adba2dfcb4be934440c0923f6c0838231f608fb017"
+	"hash": "b9a2e3defe06bf864dd2ec579697c39b3823ba03ee64de99f0ca5eb7e44fc39d"
 }
