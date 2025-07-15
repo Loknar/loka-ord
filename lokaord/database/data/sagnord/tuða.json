@@ -1,0 +1,135 @@
+{
+	"orð": "tuða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tuð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tuð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tuða",
+		"sagnbót": "tuðað",
+		"boðháttur": {
+			"stýfður": "tuða",
+			"et": "tuðaðu",
+			"ft": "tuðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tuða", "tuðar", "tuðar"],
+					"ft": ["tuðum", "tuðið", "tuða"]
+				},
+				"þátíð": {
+					"et": ["tuðaði", "tuðaðir", "tuðaði"],
+					"ft": ["tuðuðum", "tuðuðuð", "tuðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tuði", "tuðir", "tuði"],
+					"ft": ["tuðum", "tuðið", "tuði"]
+				},
+				"þátíð": {
+					"et": ["tuðaði", "tuðaðir", "tuðaði"],
+					"ft": ["tuðuðum", "tuðuðuð", "tuðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tuðarðu",
+					"ft": "tuðiði"
+				},
+				"þátíð": {
+					"et": "tuðaðirðu",
+					"ft": "tuðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tuðirðu",
+					"ft": "tuðiði"
+				},
+				"þátíð": {
+					"et": "tuðaðirðu",
+					"ft": "tuðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tuðast",
+		"sagnbót": "tuðast",
+		"boðháttur": {
+			"et": "tuðastu",
+			"ft": "tuðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tuðast", "tuðast", "tuðast"],
+					"ft": ["tuðumst", "tuðist", "tuðast"]
+				},
+				"þátíð": {
+					"et": ["tuðaðist", "tuðaðist", "tuðaðist"],
+					"ft": ["tuðuðumst", "tuðuðust", "tuðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tuðist", "tuðist", "tuðist"],
+					"ft": ["tuðumst", "tuðist", "tuðist"]
+				},
+				"þátíð": {
+					"et": ["tuðaðist", "tuðaðist", "tuðaðist"],
+					"ft": ["tuðuðumst", "tuðuðust", "tuðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tuðastu"
+				},
+				"þátíð": {
+					"et": "tuðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tuðistu"
+				},
+				"þátíð": {
+					"et": "tuðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tuðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tuðaður", "tuðaðan", "tuðuðum", "tuðaðs"],
+					"kvk": ["tuðuð", "tuðaða", "tuðaðri", "tuðaðrar"],
+					"hk": ["tuðað", "tuðað", "tuðuðu", "tuðaðs"]
+				},
+				"ft": {
+					"kk": ["tuðaðir", "tuðaða", "tuðuðum", "tuðaðra"],
+					"kvk": ["tuðaðar", "tuðaðar", "tuðuðum", "tuðaðra"],
+					"hk": ["tuðuð", "tuðuð", "tuðuðum", "tuðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tuða",
+	"hash": "77faa1bff4f8e45ae7606271bc53cff19f3228e05aa0e87c8aa440cadae9d3f0"
+}

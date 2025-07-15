@@ -1,0 +1,73 @@
+{
+	"orð": "panikka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "panikk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-panikk-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "panikka",
+		"sagnbót": "panikkað",
+		"boðháttur": {
+			"stýfður": "panikka",
+			"et": "panikkaðu",
+			"ft": "panikkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["panikka", "panikkar", "panikkar"],
+					"ft": ["panikkum", "panikkið", "panikka"]
+				},
+				"þátíð": {
+					"et": ["panikkaði", "panikkaðir", "panikkaði"],
+					"ft": ["panikkuðum", "panikkuðuð", "panikkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["panikki", "panikkir", "panikki"],
+					"ft": ["panikkum", "panikkið", "panikki"]
+				},
+				"þátíð": {
+					"et": ["panikkaði", "panikkaðir", "panikkaði"],
+					"ft": ["panikkuðum", "panikkuðuð", "panikkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "panikkarðu",
+					"ft": "panikkiði"
+				},
+				"þátíð": {
+					"et": "panikkaðirðu",
+					"ft": "panikkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "panikkirðu",
+					"ft": "panikkiði"
+				},
+				"þátíð": {
+					"et": "panikkaðirðu",
+					"ft": "panikkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "panikkandi"
+	},
+	"kennistrengur": "so-panikka",
+	"hash": "a7089a3e47693d279350e44dca7239afd5b42b616dea7cea609ea2a733cc9f28"
+}

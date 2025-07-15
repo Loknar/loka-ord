@@ -1,0 +1,131 @@
+{
+	"orð": "niðurhala",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "niður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-niður"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hala"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "niðurhala",
+		"sagnbót": "niðurhalað",
+		"boðháttur": {
+			"stýfður": "niðurhala",
+			"et": "niðurhalaðu",
+			"ft": "niðurhalið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurhala", "niðurhalar", "niðurhalar"],
+					"ft": ["niðurhölum", "niðurhalið", "niðurhala"]
+				},
+				"þátíð": {
+					"et": ["niðurhalaði", "niðurhalaðir", "niðurhalaði"],
+					"ft": ["niðurhöluðum", "niðurhöluðuð", "niðurhöluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðurhali", "niðurhalir", "niðurhali"],
+					"ft": ["niðurhölum", "niðurhalið", "niðurhali"]
+				},
+				"þátíð": {
+					"et": ["niðurhalaði", "niðurhalaðir", "niðurhalaði"],
+					"ft": ["niðurhöluðum", "niðurhöluðuð", "niðurhöluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "niðurhalarðu",
+					"ft": "niðurhaliði"
+				},
+				"þátíð": {
+					"et": "niðurhalaðirðu",
+					"ft": "niðurhöluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "niðurhalirðu",
+					"ft": "niðurhaliði"
+				},
+				"þátíð": {
+					"et": "niðurhalaðirðu",
+					"ft": "niðurhöluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "niðurhalast",
+		"sagnbót": "niðurhalast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurhalast", "niðurhalast", "niðurhalast"],
+					"ft": ["niðurhölumst", "niðurhalist", "niðurhalast"]
+				},
+				"þátíð": {
+					"et": ["niðurhalaðist", "niðurhalaðist", "niðurhalaðist"],
+					"ft": ["niðurhöluðumst", "niðurhöluðust", "niðurhöluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðurhalist", "niðurhalist", "niðurhalist"],
+					"ft": ["niðurhölumst", "niðurhalist", "niðurhalist"]
+				},
+				"þátíð": {
+					"et": ["niðurhalaðist", "niðurhalaðist", "niðurhalaðist"],
+					"ft": ["niðurhöluðumst", "niðurhöluðust", "niðurhöluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "niðurhalastu"
+				},
+				"þátíð": {
+					"et": "niðurhalaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "niðurhalistu"
+				},
+				"þátíð": {
+					"et": "niðurhalaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "niðurhalandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["niðurhalaður", "niðurhalaðan", "niðurhöluðum", "niðurhalaðs"],
+					"kvk": ["niðurhöluð", "niðurhalaða", "niðurhalaðri", "niðurhalaðrar"],
+					"hk": ["niðurhalað", "niðurhalað", "niðurhöluðu", "niðurhalaðs"]
+				},
+				"ft": {
+					"kk": ["niðurhalaðir", "niðurhalaða", "niðurhöluðum", "niðurhalaðra"],
+					"kvk": ["niðurhalaðar", "niðurhalaðar", "niðurhöluðum", "niðurhalaðra"],
+					"hk": ["niðurhöluð", "niðurhöluð", "niðurhöluðum", "niðurhalaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-niðurhala",
+	"hash": "6b306a9e12e139c30ba773c45430bef709a6ece44140e390e685a41089707a7c"
+}

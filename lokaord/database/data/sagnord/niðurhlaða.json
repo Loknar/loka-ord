@@ -1,0 +1,131 @@
+{
+	"orð": "niðurhlaða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "niður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-niður"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hlaða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "niðurhlaða",
+		"sagnbót": "niðurhlaðið",
+		"boðháttur": {
+			"stýfður": "niðurhlað",
+			"et": "niðurhladdu",
+			"ft": "niðurhlaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurhleð", "niðurhleður", "niðurhleður"],
+					"ft": ["niðurhlöðum", "niðurhlaðið", "niðurhlaða"]
+				},
+				"þátíð": {
+					"et": ["niðurhlóð", "niðurhlóðst", "niðurhlóð"],
+					"ft": ["niðurhlóðum", "niðurhlóðuð", "niðurhlóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðurhlaði", "niðurhlaðir", "niðurhlaði"],
+					"ft": ["niðurhlöðum", "niðurhlaðið", "niðurhlaði"]
+				},
+				"þátíð": {
+					"et": ["niðurhlæði", "niðurhlæðir", "niðurhlæði"],
+					"ft": ["niðurhlæðum", "niðurhlæðuð", "niðurhlæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "niðurhleðurðu",
+					"ft": "niðurhlaðiði"
+				},
+				"þátíð": {
+					"et": "niðurhlóðstu",
+					"ft": "niðurhlóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "niðurhlaðirðu",
+					"ft": "niðurhlaðiði"
+				},
+				"þátíð": {
+					"et": "niðurhlæðirðu",
+					"ft": "niðurhlæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "niðurhlaðast",
+		"sagnbót": "niðurhlaðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurhleðst", "niðurhleðst", "niðurhleðst"],
+					"ft": ["niðurhlöðumst", "niðurhlaðist", "niðurhlaðast"]
+				},
+				"þátíð": {
+					"et": ["niðurhlóðst", "niðurhlóðst", "niðurhlóðst"],
+					"ft": ["niðurhlóðumst", "niðurhlóðust", "niðurhlóðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðurhlaðist", "niðurhlaðist", "niðurhlaðist"],
+					"ft": ["niðurhlöðumst", "niðurhlaðist", "niðurhlaðist"]
+				},
+				"þátíð": {
+					"et": ["niðurhlæðist", "niðurhlæðist", "niðurhlæðist"],
+					"ft": ["niðurhlæðumst", "niðurhlæðust", "niðurhlæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "niðurhleðstu"
+				},
+				"þátíð": {
+					"et": "niðurhlóðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "niðurhlaðistu"
+				},
+				"þátíð": {
+					"et": "niðurhlæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "niðurhlaðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["niðurhlaðinn", "niðurhlaðinn", "niðurhlöðnum", "niðurhlaðins"],
+					"kvk": ["niðurhlaðin", "niðurhlaðna", "niðurhlaðinni", "niðurhlaðinnar"],
+					"hk": ["niðurhlaðið", "niðurhlaðið", "niðurhlöðnu", "niðurhlaðins"]
+				},
+				"ft": {
+					"kk": ["niðurhlaðnir", "niðurhlaðna", "niðurhlöðnum", "niðurhlaðinna"],
+					"kvk": ["niðurhlaðnar", "niðurhlaðnar", "niðurhlöðnum", "niðurhlaðinna"],
+					"hk": ["niðurhlaðin", "niðurhlaðin", "niðurhlöðnum", "niðurhlaðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-niðurhlaða",
+	"hash": "57cfdb5d33e6cc3799f607fe46f307074b1457080907c08f53387b4be67b024f"
+}

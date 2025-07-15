@@ -103,8 +103,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "horfandi"
+		"nútíðar": "horfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["horfður", "horfðan", "horfðum", "horfðs"],
+					"kvk": ["horfð", "horfða", "horfðri", "horfðrar"],
+					"hk": ["horft", "horft", "horfðu", "horfðs"]
+				},
+				"ft": {
+					"kk": ["horfðir", "horfða", "horfðum", "horfðra"],
+					"kvk": ["horfðar", "horfðar", "horfðum", "horfðra"],
+					"hk": ["horfð", "horfð", "horfðum", "horfðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["horfði", "horfða", "horfða", "horfða"],
+					"kvk": ["horfða", "horfðu", "horfðu", "horfðu"],
+					"hk": ["horfða", "horfða", "horfða", "horfða"]
+				},
+				"ft": {
+					"kk": ["horfðu", "horfðu", "horfðu", "horfðu"],
+					"kvk": ["horfðu", "horfðu", "horfðu", "horfðu"],
+					"hk": ["horfðu", "horfðu", "horfðu", "horfðu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-horfa",
-	"hash": "7fb9925c83f3037b507608f08037fd663213ce60238ac42c47ae22d305d1703b"
+	"hash": "e44f0fd7ff58704cad1aa2fd1a046663464991f249080cbd91f03f234d2f9e91"
 }
