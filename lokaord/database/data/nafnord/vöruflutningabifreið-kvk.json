@@ -1,0 +1,35 @@
+{
+	"orð": "vöruflutningabifreið",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "flutninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"mynd": "bif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bif-hk"
+		},
+		{
+			"kennistrengur": "no-reið-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vöruflutningabifreið", "vöruflutningabifreið", "vöruflutningabifreið", "vöruflutningabifreiðar"],
+		"mg": ["vöruflutningabifreiðin", "vöruflutningabifreiðina", "vöruflutningabifreiðinni", "vöruflutningabifreiðarinnar"]
+	},
+	"ft": {
+		"ág": ["vöruflutningabifreiðar", "vöruflutningabifreiðar", "vöruflutningabifreiðum", "vöruflutningabifreiða"],
+		"mg": ["vöruflutningabifreiðarnar", "vöruflutningabifreiðarnar", "vöruflutningabifreiðunum", "vöruflutningabifreiðanna"]
+	},
+	"kennistrengur": "no-vöruflutningabifreið-kvk",
+	"hash": "49d0ce2054d762dbfbf29ef69b7f1528b8d408588acaf5998f1deb0e627b2f9d"
+}

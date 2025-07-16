@@ -1,0 +1,30 @@
+{
+	"orð": "vörubifreið",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "bif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bif-hk"
+		},
+		{
+			"kennistrengur": "no-reið-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vörubifreið", "vörubifreið", "vörubifreið", "vörubifreiðar"],
+		"mg": ["vörubifreiðin", "vörubifreiðina", "vörubifreiðinni", "vörubifreiðarinnar"]
+	},
+	"ft": {
+		"ág": ["vörubifreiðar", "vörubifreiðar", "vörubifreiðum", "vörubifreiða"],
+		"mg": ["vörubifreiðarnar", "vörubifreiðarnar", "vörubifreiðunum", "vörubifreiðanna"]
+	},
+	"kennistrengur": "no-vörubifreið-kvk",
+	"hash": "daca27392a8ec9b64374f8e50a8037a9efb224000226fe0001eaef8663919e68"
+}
