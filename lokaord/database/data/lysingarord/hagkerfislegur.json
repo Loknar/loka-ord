@@ -1,0 +1,48 @@
+{
+	"orð": "hagkerfislegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "kerfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kerfi-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hagkerfislegur", "hagkerfislegan", "hagkerfislegum", "hagkerfislegs"],
+				"kvk": ["hagkerfisleg", "hagkerfislega", "hagkerfislegri", "hagkerfislegrar"],
+				"hk": ["hagkerfislegt", "hagkerfislegt", "hagkerfislegu", "hagkerfislegs"]
+			},
+			"ft": {
+				"kk": ["hagkerfislegir", "hagkerfislega", "hagkerfislegum", "hagkerfislegra"],
+				"kvk": ["hagkerfislegar", "hagkerfislegar", "hagkerfislegum", "hagkerfislegra"],
+				"hk": ["hagkerfisleg", "hagkerfisleg", "hagkerfislegum", "hagkerfislegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hagkerfislegi", "hagkerfislega", "hagkerfislega", "hagkerfislega"],
+				"kvk": ["hagkerfislega", "hagkerfislegu", "hagkerfislegu", "hagkerfislegu"],
+				"hk": ["hagkerfislega", "hagkerfislega", "hagkerfislega", "hagkerfislega"]
+			},
+			"ft": {
+				"kk": ["hagkerfislegu", "hagkerfislegu", "hagkerfislegu", "hagkerfislegu"],
+				"kvk": ["hagkerfislegu", "hagkerfislegu", "hagkerfislegu", "hagkerfislegu"],
+				"hk": ["hagkerfislegu", "hagkerfislegu", "hagkerfislegu", "hagkerfislegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hagkerfislegur",
+	"hash": "5a55f3fd033b3299281cbb7f67a98ae99ba1be98e568d9814c546b84e5ad8c72"
+}

@@ -8,7 +8,6 @@
 			"kennistrengur": "smáo.fs-af"
 		},
 		{
-			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-skrifa"
 		}
 	],
@@ -123,9 +122,21 @@
 					"kvk": ["afskrifaðar", "afskrifaðar", "afskrifuðum", "afskrifaðra"],
 					"hk": ["afskrifuð", "afskrifuð", "afskrifuðum", "afskrifaðra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["afskrifaði", "afskrifaða", "afskrifaða", "afskrifaða"],
+					"kvk": ["afskrifaða", "afskrifuðu", "afskrifuðu", "afskrifuðu"],
+					"hk": ["afskrifaða", "afskrifaða", "afskrifaða", "afskrifaða"]
+				},
+				"ft": {
+					"kk": ["afskrifuðu", "afskrifuðu", "afskrifuðu", "afskrifuðu"],
+					"kvk": ["afskrifuðu", "afskrifuðu", "afskrifuðu", "afskrifuðu"],
+					"hk": ["afskrifuðu", "afskrifuðu", "afskrifuðu", "afskrifuðu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-afskrifa",
-	"hash": "8857a5a667995a462f9d958f581a013729e60b324bb625696756761d7dc79952"
+	"hash": "93bbf4379e29686750499ca4223e538cf048943a57ffc65ccb56a863fd86bcc0"
 }

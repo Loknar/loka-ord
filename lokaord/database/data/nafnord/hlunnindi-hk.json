@@ -2,10 +2,21 @@
 	"orð": "hlunnindi",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hlunn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlunnur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-indi-hk-ó"
+		}
+	],
 	"ft": {
 		"ág": ["hlunnindi", "hlunnindi", "hlunnindum", "hlunninda"],
 		"mg": ["hlunnindin", "hlunnindin", "hlunnindunum", "hlunnindanna"]
 	},
 	"kennistrengur": "no-hlunnindi-hk",
-	"hash": "8dfedf35b6dae93ac45b276108a5bfd1c438c02bb61da15be1f66dcb15a0c778"
+	"hash": "2c0aa6203f27201987fee29ba0b9afdcd1866cb9e9cfcf6fc77b82216e65f4bd"
 }

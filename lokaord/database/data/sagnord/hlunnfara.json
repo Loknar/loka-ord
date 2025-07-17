@@ -1,0 +1,99 @@
+{
+	"orð": "hlunnfara",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hlunn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlunnur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-fara"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hlunnfara",
+		"sagnbót": "hlunnfarið",
+		"boðháttur": {
+			"stýfður": "hlunnfar",
+			"et": "hlunnfarðu",
+			"ft": "hlunnfarið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlunnfer", "hlunnferð", "hlunnfer"],
+					"ft": ["hlunnförum", "hlunnfarið", "hlunnfara"]
+				},
+				"þátíð": {
+					"et": ["hlunnfór", "hlunnfórst", "hlunnfór"],
+					"ft": ["hlunnfórum", "hlunnfóruð", "hlunnfóru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlunnfari", "hlunnfarir", "hlunnfari"],
+					"ft": ["hlunnförum", "hlunnfarið", "hlunnfari"]
+				},
+				"þátíð": {
+					"et": ["hlunnfæri", "hlunnfærir", "hlunnfæri"],
+					"ft": ["hlunnfærum", "hlunnfæruð", "hlunnfæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlunnferðu",
+					"ft": "hlunnfariði"
+				},
+				"þátíð": {
+					"et": "hlunnfórstu",
+					"ft": "hlunnfóruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlunnfarirðu",
+					"ft": "hlunnfariði"
+				},
+				"þátíð": {
+					"et": "hlunnfærirðu",
+					"ft": "hlunnfæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlunnfarandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlunnfarinn", "hlunnfarinn", "hlunnförnum", "hlunnfarins"],
+					"kvk": ["hlunnfarin", "hlunnfarna", "hlunnfarinni", "hlunnfarinnar"],
+					"hk": ["hlunnfarið", "hlunnfarið", "hlunnförnu", "hlunnfarins"]
+				},
+				"ft": {
+					"kk": ["hlunnfarnir", "hlunnfarna", "hlunnförnum", "hlunnfarinna"],
+					"kvk": ["hlunnfarnar", "hlunnfarnar", "hlunnförnum", "hlunnfarinna"],
+					"hk": ["hlunnfarin", "hlunnfarin", "hlunnförnum", "hlunnfarinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hlunnfarni", "hlunnfarna", "hlunnfarna", "hlunnfarna"],
+					"kvk": ["hlunnfarna", "hlunnförnu", "hlunnförnu", "hlunnförnu"],
+					"hk": ["hlunnfarna", "hlunnfarna", "hlunnfarna", "hlunnfarna"]
+				},
+				"ft": {
+					"kk": ["hlunnförnu", "hlunnförnu", "hlunnförnu", "hlunnförnu"],
+					"kvk": ["hlunnförnu", "hlunnförnu", "hlunnförnu", "hlunnförnu"],
+					"hk": ["hlunnförnu", "hlunnförnu", "hlunnförnu", "hlunnförnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlunnfara",
+	"hash": "4d58247b70a8b12ef256d699488a241b2c55ed5639b2beb1221c3f21c665dca0"
+}

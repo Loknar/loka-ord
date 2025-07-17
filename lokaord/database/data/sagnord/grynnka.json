@@ -1,0 +1,73 @@
+{
+	"orð": "grynnka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grynnk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-grunnur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grynnka",
+		"sagnbót": "grynnkað",
+		"boðháttur": {
+			"stýfður": "grynnka",
+			"et": "grynnkaðu",
+			"ft": "grynnkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grynnka", "grynnkar", "grynnkar"],
+					"ft": ["grynnkum", "grynnkið", "grynnka"]
+				},
+				"þátíð": {
+					"et": ["grynnkaði", "grynnkaðir", "grynnkaði"],
+					"ft": ["grynnkuðum", "grynnkuðuð", "grynnkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grynnki", "grynnkir", "grynnki"],
+					"ft": ["grynnkum", "grynnkið", "grynnki"]
+				},
+				"þátíð": {
+					"et": ["grynnkaði", "grynnkaðir", "grynnkaði"],
+					"ft": ["grynnkuðum", "grynnkuðuð", "grynnkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grynnkarðu",
+					"ft": "grynnkiði"
+				},
+				"þátíð": {
+					"et": "grynnkaðirðu",
+					"ft": "grynnkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grynnkirðu",
+					"ft": "grynnkiði"
+				},
+				"þátíð": {
+					"et": "grynnkaðirðu",
+					"ft": "grynnkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grynnkandi"
+	},
+	"kennistrengur": "so-grynnka",
+	"hash": "d1870dd1b5399d85bdbd74c770ddce50213c7a2ddab3a9dea475761a86ad0a15"
+}

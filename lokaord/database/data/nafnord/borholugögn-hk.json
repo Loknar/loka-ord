@@ -1,0 +1,27 @@
+{
+	"orð": "borholugögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bor-kk"
+		},
+		{
+			"mynd": "holu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hola-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["borholugögn", "borholugögn", "borholugögnum", "borholugagna"],
+		"mg": ["borholugögnin", "borholugögnin", "borholugögnunum", "borholugagnanna"]
+	},
+	"kennistrengur": "no-borholugögn-hk",
+	"hash": "d88b8f16eba3d504a5657956f4aed6cedfa887d86c279c0b4f9469e98a95f6b0"
+}

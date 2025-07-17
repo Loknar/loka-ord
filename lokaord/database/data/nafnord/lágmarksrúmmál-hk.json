@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarksrúmmál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "rúm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rúm-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksrúmmál", "lágmarksrúmmál", "lágmarksrúmmáli", "lágmarksrúmmáls"],
+		"mg": ["lágmarksrúmmálið", "lágmarksrúmmálið", "lágmarksrúmmálinu", "lágmarksrúmmálsins"]
+	},
+	"kennistrengur": "no-lágmarksrúmmál-hk",
+	"hash": "46d699fdb6f499ef7593c90330390689756e990a7c7cf0a0373bb92344e4ebec"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "drena",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dren",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dren-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "drena",
+		"sagnbót": "drenað",
+		"boðháttur": {
+			"stýfður": "drena",
+			"et": "drenaðu",
+			"ft": "drenið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["drena", "drenar", "drenar"],
+					"ft": ["drenum", "drenið", "drena"]
+				},
+				"þátíð": {
+					"et": ["drenaði", "drenaðir", "drenaði"],
+					"ft": ["drenuðum", "drenuðuð", "drenuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dreni", "drenir", "dreni"],
+					"ft": ["drenum", "drenið", "dreni"]
+				},
+				"þátíð": {
+					"et": ["drenaði", "drenaðir", "drenaði"],
+					"ft": ["drenuðum", "drenuðuð", "drenuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "drenarðu",
+					"ft": "dreniði"
+				},
+				"þátíð": {
+					"et": "drenaðirðu",
+					"ft": "drenuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "drenirðu",
+					"ft": "dreniði"
+				},
+				"þátíð": {
+					"et": "drenaðirðu",
+					"ft": "drenuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "drenandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["drenaður", "drenaðan", "drenuðum", "drenaðs"],
+					"kvk": ["drenuð", "drenaða", "drenaðri", "drenaðrar"],
+					"hk": ["drenað", "drenað", "drenuðu", "drenaðs"]
+				},
+				"ft": {
+					"kk": ["drenaðir", "drenaða", "drenuðum", "drenaðra"],
+					"kvk": ["drenaðar", "drenaðar", "drenuðum", "drenaðra"],
+					"hk": ["drenuð", "drenuð", "drenuðum", "drenaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["drenaði", "drenaða", "drenaða", "drenaða"],
+					"kvk": ["drenaða", "drenuðu", "drenuðu", "drenuðu"],
+					"hk": ["drenaða", "drenaða", "drenaða", "drenaða"]
+				},
+				"ft": {
+					"kk": ["drenuðu", "drenuðu", "drenuðu", "drenuðu"],
+					"kvk": ["drenuðu", "drenuðu", "drenuðu", "drenuðu"],
+					"hk": ["drenuðu", "drenuðu", "drenuðu", "drenuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-drena",
+	"hash": "7d25fd27560afa52119f27d67bb3071ccd2b865a6ef196f72d080505b27f83fc"
+}

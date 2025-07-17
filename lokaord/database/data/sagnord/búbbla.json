@@ -1,0 +1,51 @@
+{
+	"orð": "búbbla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "búbbl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-búbbla-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "búbbla",
+		"sagnbót": "búbblað",
+		"boðháttur": {
+			"stýfður": "búbbla",
+			"et": "búbblaðu",
+			"ft": "búbblið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["búbbla", "búbblar", "búbblar"],
+					"ft": ["búbblum", "búbblið", "búbbla"]
+				},
+				"þátíð": {
+					"et": ["búbblaði", "búbblaðir", "búbblaði"],
+					"ft": ["búbbluðum", "búbbluðuð", "búbbluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búbbli", "búbblir", "búbbli"],
+					"ft": ["búbblum", "búbblið", "búbbli"]
+				},
+				"þátíð": {
+					"et": ["búbblaði", "búbblaðir", "búbblaði"],
+					"ft": ["búbbluðum", "búbbluðuð", "búbbluðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "búbblandi"
+	},
+	"kennistrengur": "so-búbbla",
+	"hash": "e9880cb67ca836a216f0055c709828dd533488029f47e8a3ea2b0cbd5c2e0cb9"
+}
