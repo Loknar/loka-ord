@@ -1,0 +1,32 @@
+{
+	"orð": "yfirborðsflatarmál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"mynd": "borðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-borð-hk"
+		},
+		{
+			"mynd": "flatar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-flötur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"et": {
+		"ág": ["yfirborðsflatarmál", "yfirborðsflatarmál", "yfirborðsflatarmáli", "yfirborðsflatarmáls"],
+		"mg": ["yfirborðsflatarmálið", "yfirborðsflatarmálið", "yfirborðsflatarmálinu", "yfirborðsflatarmálsins"]
+	},
+	"kennistrengur": "no-yfirborðsflatarmál-hk",
+	"hash": "f3f390e3b1ddd78a447baea77f3e4ae65e8a8df9a7b7e533af1fe26c5bf04667"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "skordýrafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skor-kvk"
+		},
+		{
+			"mynd": "dýra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dýr-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["skordýrafjöldi", "skordýrafjölda", "skordýrafjölda", "skordýrafjölda"],
+		"mg": ["skordýrafjöldinn", "skordýrafjöldann", "skordýrafjöldanum", "skordýrafjöldans"]
+	},
+	"kennistrengur": "no-skordýrafjöldi-kk",
+	"hash": "f02bb68d571c43f5986455c809d1b4a195762011522f114fb1d4215a3687824b"
+}

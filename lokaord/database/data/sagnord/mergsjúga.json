@@ -1,0 +1,105 @@
+{
+	"orð": "mergsjúga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "merg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mergur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sjúga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mergsjúga",
+		"sagnbót": "mergsogið",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mergsýg", "mergsýgur", "mergsýgur"],
+					"ft": ["mergsjúgum", "mergsjúgið", "mergsjúga"]
+				},
+				"þátíð": {
+					"et": ["mergflaug", "mergflaugst", "mergflaug"],
+					"ft": ["mergflugum", "mergfluguð", "mergflugu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mergsjúgi", "mergsjúgir", "mergsjúgi"],
+					"ft": ["mergsjúgum", "mergsjúgið", "mergsjúgi"]
+				},
+				"þátíð": {
+					"et": ["mergsygi", "mergsygir", "mergsygi"],
+					"ft": ["mergsygjum", "mergsygjuð", "mergsygju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mergsýgur", "mergsýgur", "mergsýgur"],
+					"ft": ["mergsýgur", "mergsýgur", "mergsýgur"]
+				},
+				"þátíð": {
+					"et": ["mergflaug", "mergflaug", "mergflaug"],
+					"ft": ["mergflaug", "mergflaug", "mergflaug"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mergsjúgi", "mergsjúgi", "mergsjúgi"],
+					"ft": ["mergsjúgi", "mergsjúgi", "mergsjúgi"]
+				},
+				"þátíð": {
+					"et": ["mergsygi", "mergsygi", "mergsygi"],
+					"ft": ["mergsygi", "mergsygi", "mergsygi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mergsýgurðu",
+					"ft": "mergsjúgiði"
+				},
+				"þátíð": {
+					"et": "mergflaugstu",
+					"ft": "mergfluguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mergfjúgirðu",
+					"ft": "mergsjúgiði"
+				},
+				"þátíð": {
+					"et": "mergsygirðu",
+					"ft": "mergsygjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mergsjúgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mergsoginn", "mergsoginn", "mergsognum", "mergsogins"],
+					"kvk": ["mergsogin", "mergsogna", "mergsoginni", "mergsoginnar"],
+					"hk": ["mergsogið", "mergsogið", "mergsognu", "mergsogins"]
+				},
+				"ft": {
+					"kk": ["mergsognir", "mergsogna", "mergsognum", "mergsoginna"],
+					"kvk": ["mergsognar", "mergsognar", "mergsognum", "mergsoginna"],
+					"hk": ["mergsogin", "mergsogin", "mergsognum", "mergsoginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mergsjúga",
+	"hash": "e1aa91bf7b861b85a0b41276b08488c267503668c1f77a5a01598d262e03ce07"
+}

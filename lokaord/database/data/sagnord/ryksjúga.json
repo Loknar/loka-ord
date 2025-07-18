@@ -8,6 +8,7 @@
 			"kennistrengur": "no-ryk-hk"
 		},
 		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-sjúga"
 		}
 	],
@@ -82,50 +83,6 @@
 			}
 		}
 	},
-	"miðmynd": {
-		"nafnháttur": "ryksjúgast",
-		"sagnbót": "ryksogist",
-		"persónuleg": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["ryksýgst", "ryksýgst", "ryksýgst"],
-					"ft": ["ryksjúgumst", "ryksjúgist", "ryksjúgast"]
-				},
-				"þátíð": {
-					"et": ["rykflaugst", "rykflaugst", "rykflaugst"],
-					"ft": ["rykflugumst", "rykflugust", "rykflugust"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["ryksjúgist", "ryksjúgist", "ryksjúgist"],
-					"ft": ["ryksjúgumst", "ryksjúgist", "ryksjúgist"]
-				},
-				"þátíð": {
-					"et": ["ryksygist", "ryksygist", "ryksygist"],
-					"ft": ["ryksygjumst", "ryksygjust", "ryksygjust"]
-				}
-			}
-		},
-		"spurnarmyndir": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": "ryksýgstu"
-				},
-				"þátíð": {
-					"et": "rykflaugstu"
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": "ryksjúgistu"
-				},
-				"þátíð": {
-					"et": "ryksygistu"
-				}
-			}
-		}
-	},
 	"lýsingarháttur": {
 		"nútíðar": "ryksjúgandi",
 		"þátíðar": {
@@ -140,21 +97,9 @@
 					"kvk": ["ryksognar", "ryksognar", "ryksognum", "ryksoginna"],
 					"hk": ["ryksogin", "ryksogin", "ryksognum", "ryksoginna"]
 				}
-			},
-			"vb": {
-				"et": {
-					"kk": ["ryksogni", "ryksogna", "ryksogna", "ryksogna"],
-					"kvk": ["ryksogna", "ryksognu", "ryksognu", "ryksognu"],
-					"hk": ["ryksogna", "ryksogna", "ryksogna", "ryksogna"]
-				},
-				"ft": {
-					"kk": ["ryksognu", "ryksognu", "ryksognu", "ryksognu"],
-					"kvk": ["ryksognu", "ryksognu", "ryksognu", "ryksognu"],
-					"hk": ["ryksognu", "ryksognu", "ryksognu", "ryksognu"]
-				}
 			}
 		}
 	},
 	"kennistrengur": "so-ryksjúga",
-	"hash": "62662b7842c356a14922828bde94023eb66bc76e2d3f55d2fb517639ca81bdba"
+	"hash": "6120b4376ce001e0249e3c4a08bbd912ae6d428e48a00b2bef27d95cf9b54aa2"
 }

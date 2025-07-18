@@ -1,0 +1,135 @@
+{
+	"orð": "suða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "suð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-suð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "suða",
+		"sagnbót": "suðað",
+		"boðháttur": {
+			"stýfður": "suða",
+			"et": "suðaðu",
+			"ft": "suðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["suða", "suðar", "suðar"],
+					"ft": ["suðum", "suðið", "suða"]
+				},
+				"þátíð": {
+					"et": ["suðaði", "suðaðir", "suðaði"],
+					"ft": ["suðuðum", "suðuðuð", "suðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["suði", "suðir", "suði"],
+					"ft": ["suðum", "suðið", "suði"]
+				},
+				"þátíð": {
+					"et": ["suðaði", "suðaðir", "suðaði"],
+					"ft": ["suðuðum", "suðuðuð", "suðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "suðarðu",
+					"ft": "suðiði"
+				},
+				"þátíð": {
+					"et": "suðaðirðu",
+					"ft": "suðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "suðirðu",
+					"ft": "suðiði"
+				},
+				"þátíð": {
+					"et": "suðaðirðu",
+					"ft": "suðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "suðast",
+		"sagnbót": "suðast",
+		"boðháttur": {
+			"et": "suðastu",
+			"ft": "suðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["suðast", "suðast", "suðast"],
+					"ft": ["suðumst", "suðist", "suðast"]
+				},
+				"þátíð": {
+					"et": ["suðaðist", "suðaðist", "suðaðist"],
+					"ft": ["suðuðumst", "suðuðust", "suðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["suðist", "suðist", "suðist"],
+					"ft": ["suðumst", "suðist", "suðist"]
+				},
+				"þátíð": {
+					"et": ["suðaðist", "suðaðist", "suðaðist"],
+					"ft": ["suðuðumst", "suðuðust", "suðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "suðastu"
+				},
+				"þátíð": {
+					"et": "suðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "suðistu"
+				},
+				"þátíð": {
+					"et": "suðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "suðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["suðaður", "suðaðan", "suðuðum", "suðaðs"],
+					"kvk": ["suðuð", "suðaða", "suðaðri", "suðaðrar"],
+					"hk": ["suðað", "suðað", "suðuðu", "suðaðs"]
+				},
+				"ft": {
+					"kk": ["suðaðir", "suðaða", "suðuðum", "suðaðra"],
+					"kvk": ["suðaðar", "suðaðar", "suðuðum", "suðaðra"],
+					"hk": ["suðuð", "suðuð", "suðuðum", "suðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-suða",
+	"hash": "be08a3ea77c053009364864ab0b7d7eff58f82f4f14967341e391199c01cf879"
+}
