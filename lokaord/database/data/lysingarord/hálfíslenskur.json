@@ -1,0 +1,48 @@
+{
+	"orð": "hálfíslenskur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hálf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"mynd": "ís",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ís-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-lenskur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hálfíslenskur", "hálfíslenskan", "hálfíslenskum", "hálfíslensks"],
+				"kvk": ["hálfíslensk", "hálfíslenska", "hálfíslenskri", "hálfíslenskrar"],
+				"hk": ["hálfíslenskt", "hálfíslenskt", "hálfíslensku", "hálfíslensks"]
+			},
+			"ft": {
+				"kk": ["hálfíslenskir", "hálfíslenska", "hálfíslenskum", "hálfíslenskra"],
+				"kvk": ["hálfíslenskar", "hálfíslenskar", "hálfíslenskum", "hálfíslenskra"],
+				"hk": ["hálfíslensk", "hálfíslensk", "hálfíslenskum", "hálfíslenskra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hálfíslenski", "hálfíslenska", "hálfíslenska", "hálfíslenska"],
+				"kvk": ["hálfíslenska", "hálfíslensku", "hálfíslensku", "hálfíslensku"],
+				"hk": ["hálfíslenska", "hálfíslenska", "hálfíslenska", "hálfíslenska"]
+			},
+			"ft": {
+				"kk": ["hálfíslensku", "hálfíslensku", "hálfíslensku", "hálfíslensku"],
+				"kvk": ["hálfíslensku", "hálfíslensku", "hálfíslensku", "hálfíslensku"],
+				"hk": ["hálfíslensku", "hálfíslensku", "hálfíslensku", "hálfíslensku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hálfíslenskur",
+	"hash": "5ddbfa37d92d54751e308292336715c2ce9b7ff5a17be26e50dc9d18ed8ff24e"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "hráefnisverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hrá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hrár"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["hráefnisverð", "hráefnisverð", "hráefnisverði", "hráefnisverðs"],
+		"mg": ["hráefnisverðið", "hráefnisverðið", "hráefnisverðinu", "hráefnisverðsins"]
+	},
+	"kennistrengur": "no-hráefnisverð-hk",
+	"hash": "cb32e9125fe17182da1cd75af44b27868933789abfcbc931fbd602dd207ac7ca"
+}

@@ -1,0 +1,37 @@
+{
+	"orð": "gagnasendingasamskiptareglur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gagna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gagn-hk"
+		},
+		{
+			"mynd": "sendinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sending-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "skipta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skipti-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-regla-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["gagnasendingasamskiptareglur", "gagnasendingasamskiptareglur", "gagnasendingasamskiptareglum", "gagnasendingasamskiptareglna"],
+		"mg": ["gagnasendingasamskiptareglurnar", "gagnasendingasamskiptareglurnar", "gagnasendingasamskiptareglunum", "gagnasendingasamskiptareglnanna"]
+	},
+	"kennistrengur": "no-gagnasendingasamskiptareglur-kvk",
+	"hash": "db6cdcbc1a82d2b5bb22911f8562142eaa8bb3efc8ad02d4a2e4a4c90441ebbf"
+}
