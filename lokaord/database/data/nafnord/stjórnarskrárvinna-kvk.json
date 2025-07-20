@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnarskrárvinna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnarskrárvinna", "stjórnarskrárvinnu", "stjórnarskrárvinnu", "stjórnarskrárvinnu"],
+		"mg": ["stjórnarskrárvinnan", "stjórnarskrárvinnuna", "stjórnarskrárvinnunni", "stjórnarskrárvinnunnar"]
+	},
+	"kennistrengur": "no-stjórnarskrárvinna-kvk",
+	"hash": "dfb4105208667d818f9dbb028f6db73cd80ba5472947f24a9a684c96d427ebc6"
+}

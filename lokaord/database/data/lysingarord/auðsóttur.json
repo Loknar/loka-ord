@@ -8,7 +8,6 @@
 			"kennistrengur": "no-auður-kk"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-sóttur"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["auðsóttari", "auðsóttari", "auðsóttari", "auðsóttari"],
+				"kvk": ["auðsóttari", "auðsóttari", "auðsóttari", "auðsóttari"],
+				"hk": ["auðsóttara", "auðsóttara", "auðsóttara", "auðsóttara"]
+			},
+			"ft": {
+				"kk": ["auðsóttari", "auðsóttari", "auðsóttari", "auðsóttari"],
+				"kvk": ["auðsóttari", "auðsóttari", "auðsóttari", "auðsóttari"],
+				"hk": ["auðsóttari", "auðsóttari", "auðsóttari", "auðsóttari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["auðsóttastur", "auðsóttastan", "auðsóttustum", "auðsóttasts"],
+				"kvk": ["auðsóttust", "auðsóttasta", "auðsóttastri", "auðsóttastrar"],
+				"hk": ["auðsóttast", "auðsóttast", "auðsóttustu", "auðsóttasts"]
+			},
+			"ft": {
+				"kk": ["auðsóttastir", "auðsóttasta", "auðsóttustum", "auðsóttastra"],
+				"kvk": ["auðsóttastar", "auðsóttastar", "auðsóttustum", "auðsóttastra"],
+				"hk": ["auðsóttust", "auðsóttust", "auðsóttustum", "auðsóttastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["auðsóttasti", "auðsóttasta", "auðsóttasta", "auðsóttasta"],
+				"kvk": ["auðsóttasta", "auðsóttustu", "auðsóttustu", "auðsóttustu"],
+				"hk": ["auðsóttasta", "auðsóttasta", "auðsóttasta", "auðsóttasta"]
+			},
+			"ft": {
+				"kk": ["auðsóttustu", "auðsóttustu", "auðsóttustu", "auðsóttustu"],
+				"kvk": ["auðsóttustu", "auðsóttustu", "auðsóttustu", "auðsóttustu"],
+				"hk": ["auðsóttustu", "auðsóttustu", "auðsóttustu", "auðsóttustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-auðsóttur",
-	"hash": "c5c8dac80d16c0c509665e2d86c82e0a1a9cceee848ff8468853e469d314bf41"
+	"hash": "75a9a1e0ca0e47065d1b0869a710c1062b723ec48c0a44684da7dcb1fd9e3a62"
 }
