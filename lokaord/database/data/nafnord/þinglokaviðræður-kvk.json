@@ -1,0 +1,32 @@
+{
+	"orð": "þinglokaviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"mynd": "loka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lok-hk-_endir_"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["þinglokaviðræður", "þinglokaviðræður", "þinglokaviðræðum", "þinglokaviðræðna"],
+		"mg": ["þinglokaviðræðurnar", "þinglokaviðræðurnar", "þinglokaviðræðunum", "þinglokaviðræðnanna"]
+	},
+	"kennistrengur": "no-þinglokaviðræður-kvk",
+	"hash": "bb5ac7a912a591f444d6879ed235715c24f5e734fc9fd9a5db71759256440c5d"
+}

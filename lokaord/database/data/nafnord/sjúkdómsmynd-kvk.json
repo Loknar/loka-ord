@@ -1,0 +1,30 @@
+{
+	"orð": "sjúkdómsmynd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-mynd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjúkdómsmynd", "sjúkdómsmynd", "sjúkdómsmynd", "sjúkdómsmyndar"],
+		"mg": ["sjúkdómsmyndin", "sjúkdómsmyndina", "sjúkdómsmyndinni", "sjúkdómsmyndarinnar"]
+	},
+	"ft": {
+		"ág": ["sjúkdómsmyndir", "sjúkdómsmyndir", "sjúkdómsmyndum", "sjúkdómsmynda"],
+		"mg": ["sjúkdómsmyndirnar", "sjúkdómsmyndirnar", "sjúkdómsmyndunum", "sjúkdómsmyndanna"]
+	},
+	"kennistrengur": "no-sjúkdómsmynd-kvk",
+	"hash": "287a44d7e090ad8c694abdfc6a2447b139b06e59777f2b96ac370ce786afe23a"
+}

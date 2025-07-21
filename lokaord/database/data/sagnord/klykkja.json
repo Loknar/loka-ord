@@ -1,0 +1,132 @@
+{
+	"orð": "klykkja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "klykkja",
+		"sagnbót": "klykkt",
+		"boðháttur": {
+			"stýfður": "klykk",
+			"et": "klykktu",
+			"ft": "klykkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klykki", "klykkir", "klykkir"],
+					"ft": ["klykkjum", "klykkið", "klykkja"]
+				},
+				"þátíð": {
+					"et": ["klykkti", "klykktir", "klykkti"],
+					"ft": ["klykktum", "klykktuð", "klykktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klykki", "klykkir", "klykki"],
+					"ft": ["klykkjum", "klykkið", "klykki"]
+				},
+				"þátíð": {
+					"et": ["klykkti", "klykktir", "klykkti"],
+					"ft": ["klykktum", "klykktuð", "klykktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klykkirðu",
+					"ft": "klykkiði"
+				},
+				"þátíð": {
+					"et": "klykktirðu",
+					"ft": "klykktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klykkirðu",
+					"ft": "klykkiði"
+				},
+				"þátíð": {
+					"et": "klykktirðu",
+					"ft": "klykktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klykkjast",
+		"sagnbót": "klykkjst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klykkist", "klykkist", "klykkist"],
+					"ft": ["klykkjumst", "klykkist", "klykkjast"]
+				},
+				"þátíð": {
+					"et": ["klykktist", "klykktist", "klykktist"],
+					"ft": ["klykktumst", "klykktust", "klykktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klykkist", "klykkist", "klykkist"],
+					"ft": ["klykkjumst", "klykkist", "klykkist"]
+				},
+				"þátíð": {
+					"et": ["klykktist", "klykktist", "klykktist"],
+					"ft": ["klykktumst", "klykktust", "klykktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klykkistu"
+				},
+				"þátíð": {
+					"et": "klykktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klykkistu"
+				},
+				"þátíð": {
+					"et": "klykktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klykkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klykktur", "klykktan", "klykktum", "klykkts"],
+					"kvk": ["klykkt", "klykkta", "klykktri", "klykktrar"],
+					"hk": ["klykkt", "klykkt", "klykktu", "klykkts"]
+				},
+				"ft": {
+					"kk": ["klykktir", "klykkta", "klykktum", "klykktra"],
+					"kvk": ["klykktar", "klykktar", "klykktum", "klykktra"],
+					"hk": ["klykkt", "klykkt", "klykktum", "klykktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["klykkti", "klykkta", "klykkta", "klykkta"],
+					"kvk": ["klykkta", "klykktu", "klykktu", "klykktu"],
+					"hk": ["klykkta", "klykkta", "klykkta", "klykkta"]
+				},
+				"ft": {
+					"kk": ["klykktu", "klykktu", "klykktu", "klykktu"],
+					"kvk": ["klykktu", "klykktu", "klykktu", "klykktu"],
+					"hk": ["klykktu", "klykktu", "klykktu", "klykktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klykkja",
+	"hash": "90c540934a2740e548a79c9385c9c396b7a34ac2e3166ed3fb18a6b82645e569"
+}
