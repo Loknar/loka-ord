@@ -1,0 +1,142 @@
+{
+	"orð": "steingelda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stein",
+			"samsetning": "stofn",
+			"kennistrengur": "no-steinn-kk"
+		},
+		{
+			"kennistrengur": "so-gelda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "steingelda",
+		"sagnbót": "steingelt",
+		"boðháttur": {
+			"stýfður": "steingeld",
+			"et": "steingeltu",
+			"ft": "steingeldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["steingeldi", "steingeldir", "steingeldir"],
+					"ft": ["steingeldum", "steingeldið", "steingelda"]
+				},
+				"þátíð": {
+					"et": ["steingelti", "steingeltir", "steingelti"],
+					"ft": ["steingeltum", "steingeltuð", "steingeltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["steingeldi", "steingeldir", "steingeldi"],
+					"ft": ["steingeldum", "steingeldið", "steingeldi"]
+				},
+				"þátíð": {
+					"et": ["steingelti", "steingeltir", "steingelti"],
+					"ft": ["steingeltum", "steingeltuð", "steingeltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "steingeldirðu",
+					"ft": "steingeldiði"
+				},
+				"þátíð": {
+					"et": "steingeltirðu",
+					"ft": "steingeltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "steingeldirðu",
+					"ft": "steingeldiði"
+				},
+				"þátíð": {
+					"et": "steingeltirðu",
+					"ft": "steingeltuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "steingeldast",
+		"sagnbót": "steingelst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["steingeldist", "steingeldist", "steingeldist"],
+					"ft": ["steingeldumst", "steingeldist", "steingeldast"]
+				},
+				"þátíð": {
+					"et": ["steingeltist", "steingeltist", "steingeltist"],
+					"ft": ["steingeltumst", "steingeltust", "steingeltust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["steingeldist", "steingeldist", "steingeldist"],
+					"ft": ["steingeldumst", "steingeldist", "steingeldist"]
+				},
+				"þátíð": {
+					"et": ["steingeltist", "steingeltist", "steingeltist"],
+					"ft": ["steingeltumst", "steingeltust", "steingeltust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "steingeldistu"
+				},
+				"þátíð": {
+					"et": "steingeltistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "steingeldistu"
+				},
+				"þátíð": {
+					"et": "steingeltistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "steingeldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["steingeltur", "steingeltan", "steingeltum", "steingelts"],
+					"kvk": ["steingelt", "steingelta", "steingeltri", "steingeltrar"],
+					"hk": ["steingelt", "steingelt", "steingeltu", "steingelts"]
+				},
+				"ft": {
+					"kk": ["steingeltir", "steingelta", "steingeltum", "steingeltra"],
+					"kvk": ["steingeltar", "steingeltar", "steingeltum", "steingeltra"],
+					"hk": ["steingelt", "steingelt", "steingeltum", "steingeltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["steingelti", "steingelta", "steingelta", "steingelta"],
+					"kvk": ["steingelta", "steingeltu", "steingeltu", "steingeltu"],
+					"hk": ["steingelta", "steingelta", "steingelta", "steingelta"]
+				},
+				"ft": {
+					"kk": ["steingeltu", "steingeltu", "steingeltu", "steingeltu"],
+					"kvk": ["steingeltu", "steingeltu", "steingeltu", "steingeltu"],
+					"hk": ["steingeltu", "steingeltu", "steingeltu", "steingeltu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-steingelda",
+	"hash": "8971319b27509db54d112e0c8f5fa6a22d3a1dd5e07b18a802677f749ce50f4b"
+}

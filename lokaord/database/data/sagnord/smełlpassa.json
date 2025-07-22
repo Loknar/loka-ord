@@ -1,0 +1,73 @@
+{
+	"orð": "smełlpassa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "smełl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-smełlur-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-passa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "smełlpassa",
+		"sagnbót": "smełlpassað",
+		"boðháttur": {
+			"stýfður": "smełlpassa",
+			"et": "smełlpassaðu",
+			"ft": "smełlpassið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["smełlpassa", "smełlpassar", "smełlpassar"],
+					"ft": ["smełlpössum", "smełlpassið", "smełlpassa"]
+				},
+				"þátíð": {
+					"et": ["smełlpassaði", "smełlpassaðir", "smełlpassaði"],
+					"ft": ["smełlpössuðum", "smełlpössuðuð", "smełlpössuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["smełlpassi", "smełlpassir", "smełlpassi"],
+					"ft": ["smełlpössum", "smełlpassið", "smełlpassi"]
+				},
+				"þátíð": {
+					"et": ["smełlpassaði", "smełlpassaðir", "smełlpassaði"],
+					"ft": ["smełlpössuðum", "smełlpössuðuð", "smełlpössuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "smełlpassarðu",
+					"ft": "smełlpassiði"
+				},
+				"þátíð": {
+					"et": "smełlpassaðirðu",
+					"ft": "smełlpössuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "smełlpassirðu",
+					"ft": "smełlpassiði"
+				},
+				"þátíð": {
+					"et": "smełlpassaðirðu",
+					"ft": "smełlpössuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "smełlpassandi"
+	},
+	"kennistrengur": "so-smełlpassa",
+	"hash": "2cf6ef7685198ddf6f07c09c32a2012d41c1e4cfc103349eb5b37c8b8cde1183"
+}

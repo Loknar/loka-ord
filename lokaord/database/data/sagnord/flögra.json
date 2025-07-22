@@ -1,0 +1,73 @@
+{
+	"orð": "flögra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flögr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flögur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flögra",
+		"sagnbót": "flögrað",
+		"boðháttur": {
+			"stýfður": "flögra",
+			"et": "flögraðu",
+			"ft": "flögrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flögra", "flögrar", "flögrar"],
+					"ft": ["flögrum", "flögrið", "flögra"]
+				},
+				"þátíð": {
+					"et": ["flögraði", "flögraðir", "flögraði"],
+					"ft": ["flögruðum", "flögruðuð", "flögruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flögri", "flögrir", "flögri"],
+					"ft": ["flögrum", "flögrið", "flögri"]
+				},
+				"þátíð": {
+					"et": ["flögraði", "flögraðir", "flögraði"],
+					"ft": ["flögruðum", "flögruðuð", "flögruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flögrarðu",
+					"ft": "flögriði"
+				},
+				"þátíð": {
+					"et": "flögraðirðu",
+					"ft": "flögruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flögrirðu",
+					"ft": "flögriði"
+				},
+				"þátíð": {
+					"et": "flögraðirðu",
+					"ft": "flögruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flögrandi"
+	},
+	"kennistrengur": "so-flögra",
+	"hash": "d1b7003b8d14c0e718f96c1a54536fc8dffa68b5a338285af7fdaa32397259bf"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "sporta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sport",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sport-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sporta",
+		"sagnbót": "sportað",
+		"boðháttur": {
+			"stýfður": "sporta",
+			"et": "sportaðu",
+			"ft": "sportið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sporta", "sportar", "sportar"],
+					"ft": ["sportum", "sportið", "sporta"]
+				},
+				"þátíð": {
+					"et": ["sportaði", "sportaðir", "sportaði"],
+					"ft": ["sportuðum", "sportuðuð", "sportuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sporti", "sportir", "sporti"],
+					"ft": ["sportum", "sportið", "sporti"]
+				},
+				"þátíð": {
+					"et": ["sportaði", "sportaðir", "sportaði"],
+					"ft": ["sportuðum", "sportuðuð", "sportuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sportarðu",
+					"ft": "sportiði"
+				},
+				"þátíð": {
+					"et": "sportaðirðu",
+					"ft": "sportuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sportirðu",
+					"ft": "sportiði"
+				},
+				"þátíð": {
+					"et": "sportaðirðu",
+					"ft": "sportuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sportandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sportaður", "sportaðan", "sportuðum", "sportaðs"],
+					"kvk": ["sportuð", "sportaða", "sportaðri", "sportaðrar"],
+					"hk": ["sportað", "sportað", "sportuðu", "sportaðs"]
+				},
+				"ft": {
+					"kk": ["sportaðir", "sportaða", "sportuðum", "sportaðra"],
+					"kvk": ["sportaðar", "sportaðar", "sportuðum", "sportaðra"],
+					"hk": ["sportuð", "sportuð", "sportuðum", "sportaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sporta",
+	"hash": "0fa8b80264d61dc0641deaeebfba47b05e2a67fe6cd6ffeac534d2c929e5b030"
+}

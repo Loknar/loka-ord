@@ -1,0 +1,43 @@
+{
+	"orð": "helsjúkur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hel",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hel-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-sjúkur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["helsjúkur", "helsjúkan", "helsjúkum", "helsjúks"],
+				"kvk": ["helsjúk", "helsjúka", "helsjúkri", "helsjúkrar"],
+				"hk": ["helsjúkt", "helsjúkt", "helsjúku", "helsjúks"]
+			},
+			"ft": {
+				"kk": ["helsjúkir", "helsjúka", "helsjúkum", "helsjúkra"],
+				"kvk": ["helsjúkar", "helsjúkar", "helsjúkum", "helsjúkra"],
+				"hk": ["helsjúk", "helsjúk", "helsjúkum", "helsjúkra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["helsjúki", "helsjúka", "helsjúka", "helsjúka"],
+				"kvk": ["helsjúka", "helsjúku", "helsjúku", "helsjúku"],
+				"hk": ["helsjúka", "helsjúka", "helsjúka", "helsjúka"]
+			},
+			"ft": {
+				"kk": ["helsjúku", "helsjúku", "helsjúku", "helsjúku"],
+				"kvk": ["helsjúku", "helsjúku", "helsjúku", "helsjúku"],
+				"hk": ["helsjúku", "helsjúku", "helsjúku", "helsjúku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-helsjúkur",
+	"hash": "57b4e77977f61c787418b695cd1b74f85524fa252b750e635d02dda690f6c336"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "veina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vein",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vein-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veina",
+		"sagnbót": "veinað",
+		"boðháttur": {
+			"stýfður": "veina",
+			"et": "veinaðu",
+			"ft": "veinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veina", "veinar", "veinar"],
+					"ft": ["veinum", "veinið", "veina"]
+				},
+				"þátíð": {
+					"et": ["veinaði", "veinaðir", "veinaði"],
+					"ft": ["veinuðum", "veinuðuð", "veinuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veini", "veinir", "veini"],
+					"ft": ["veinum", "veinið", "veini"]
+				},
+				"þátíð": {
+					"et": ["veinaði", "veinaðir", "veinaði"],
+					"ft": ["veinuðum", "veinuðuð", "veinuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veinarðu",
+					"ft": "veiniði"
+				},
+				"þátíð": {
+					"et": "veinaðirðu",
+					"ft": "veinuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veinirðu",
+					"ft": "veiniði"
+				},
+				"þátíð": {
+					"et": "veinaðirðu",
+					"ft": "veinuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veinaður", "veinaðan", "veinuðum", "veinaðs"],
+					"kvk": ["veinuð", "veinaða", "veinaðri", "veinaðrar"],
+					"hk": ["veinað", "veinað", "veinuðu", "veinaðs"]
+				},
+				"ft": {
+					"kk": ["veinaðir", "veinaða", "veinuðum", "veinaðra"],
+					"kvk": ["veinaðar", "veinaðar", "veinuðum", "veinaðra"],
+					"hk": ["veinuð", "veinuð", "veinuðum", "veinaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-veina",
+	"hash": "0106b7a467c683b6e80eb388ea3b5e3bc0163d4c532866e74e735b10fcafa906"
+}

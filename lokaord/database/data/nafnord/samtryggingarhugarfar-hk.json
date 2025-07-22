@@ -1,0 +1,32 @@
+{
+	"orð": "samtryggingarhugarfar",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "hugar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hugur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-far-hk"
+		}
+	],
+	"et": {
+		"ág": ["samtryggingarhugarfar", "samtryggingarhugarfar", "samtryggingarhugarfari", "samtryggingarhugarfars"],
+		"mg": ["samtryggingarhugarfarið", "samtryggingarhugarfarið", "samtryggingarhugarfarinu", "samtryggingarhugarfarsins"]
+	},
+	"kennistrengur": "no-samtryggingarhugarfar-hk",
+	"hash": "887ce697a9a69138abb15b58c5c2db66dc12e40011fecc19ee4d68b06b9d5ffe"
+}

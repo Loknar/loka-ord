@@ -1,0 +1,30 @@
+{
+	"orð": "heildarskattlagning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-lagning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarskattlagning", "heildarskattlagningu", "heildarskattlagningu", "heildarskattlagningar"],
+		"mg": ["heildarskattlagningin", "heildarskattlagninguna", "heildarskattlagningunni", "heildarskattlagningarinnar"]
+	},
+	"ft": {
+		"ág": ["heildarskattlagningar", "heildarskattlagningar", "heildarskattlagningum", "heildarskattlagninga"],
+		"mg": ["heildarskattlagningarnar", "heildarskattlagningarnar", "heildarskattlagningunum", "heildarskattlagninganna"]
+	},
+	"kennistrengur": "no-heildarskattlagning-kvk",
+	"hash": "265869283769ecf370f5a30e1856c7f4bc0fc9a95fa4132f2a68e2e45f25554c"
+}

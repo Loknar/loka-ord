@@ -1,0 +1,131 @@
+{
+	"orð": "ástandsskoða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ástands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ástand-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skoða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ástandsskoða",
+		"sagnbót": "ástandsskoðað",
+		"boðháttur": {
+			"stýfður": "ástandsskoða",
+			"et": "ástandsskoðaðu",
+			"ft": "ástandsskoðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ástandsskoða", "ástandsskoðar", "ástandsskoðar"],
+					"ft": ["ástandsskoðum", "ástandsskoðið", "ástandsskoða"]
+				},
+				"þátíð": {
+					"et": ["ástandsskoðaði", "ástandsskoðaðir", "ástandsskoðaði"],
+					"ft": ["ástandsskoðuðum", "ástandsskoðuðuð", "ástandsskoðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ástandsskoði", "ástandsskoðir", "ástandsskoði"],
+					"ft": ["ástandsskoðum", "ástandsskoðið", "ástandsskoði"]
+				},
+				"þátíð": {
+					"et": ["ástandsskoðaði", "ástandsskoðaðir", "ástandsskoðaði"],
+					"ft": ["ástandsskoðuðum", "ástandsskoðuðuð", "ástandsskoðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ástandsskoðarðu",
+					"ft": "ástandsskoðiði"
+				},
+				"þátíð": {
+					"et": "ástandsskoðaðirðu",
+					"ft": "ástandsskoðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ástandsskoðirðu",
+					"ft": "ástandsskoðiði"
+				},
+				"þátíð": {
+					"et": "ástandsskoðaðirðu",
+					"ft": "ástandsskoðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ástandsskoðast",
+		"sagnbót": "ástandsskoðast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ástandsskoðast", "ástandsskoðast", "ástandsskoðast"],
+					"ft": ["ástandsskoðumst", "ástandsskoðist", "ástandsskoðast"]
+				},
+				"þátíð": {
+					"et": ["ástandsskoðaðist", "ástandsskoðaðist", "ástandsskoðaðist"],
+					"ft": ["ástandsskoðuðumst", "ástandsskoðuðust", "ástandsskoðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ástandsskoðist", "ástandsskoðist", "ástandsskoðist"],
+					"ft": ["ástandsskoðumst", "ástandsskoðist", "ástandsskoðist"]
+				},
+				"þátíð": {
+					"et": ["ástandsskoðaðist", "ástandsskoðaðist", "ástandsskoðaðist"],
+					"ft": ["ástandsskoðuðumst", "ástandsskoðuðust", "ástandsskoðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ástandsskoðastu"
+				},
+				"þátíð": {
+					"et": "ástandsskoðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ástandsskoðistu"
+				},
+				"þátíð": {
+					"et": "ástandsskoðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ástandsskoðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ástandsskoðaður", "ástandsskoðaðan", "ástandsskoðuðum", "ástandsskoðaðs"],
+					"kvk": ["ástandsskoðuð", "ástandsskoðaða", "ástandsskoðaðri", "ástandsskoðaðrar"],
+					"hk": ["ástandsskoðað", "ástandsskoðað", "ástandsskoðuðu", "ástandsskoðaðs"]
+				},
+				"ft": {
+					"kk": ["ástandsskoðaðir", "ástandsskoðaða", "ástandsskoðuum", "ástandsskoðaðra"],
+					"kvk": ["ástandsskoðaðar", "ástandsskoðaðar", "ástandsskoðuðum", "ástandsskoðaðra"],
+					"hk": ["ástandsskoðuð", "ástandsskoðuð", "ástandsskoðuðum", "ástandsskoðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ástandsskoða",
+	"hash": "ed0e2c4eb126e65d5963747f95a0f9e414c87703fc6c33f3a1659d3b79b9b570"
+}

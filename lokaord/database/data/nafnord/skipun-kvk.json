@@ -2,6 +2,16 @@
 	"orð": "skipun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skip",
+			"samsetning": "stofn",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["skipun", "skipun", "skipun", "skipunar"],
 		"mg": ["skipunin", "skipunina", "skipuninni", "skipunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["skipanirnar", "skipanirnar", "skipununum", "skipananna"]
 	},
 	"kennistrengur": "no-skipun-kvk",
-	"hash": "50d152f6d1b4b596f10efd0d1622e0810593c4c1b69fb87412a4003a2c274ae4"
+	"hash": "4dd2f0eb5b82a984f22e42549c4e5748b26408e8dfce64a533cbd2ba4edf1f13"
 }

@@ -1,0 +1,135 @@
+{
+	"orð": "veima",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "veim",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veima-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veima",
+		"sagnbót": "veimað",
+		"boðháttur": {
+			"stýfður": "veima",
+			"et": "veimaðu",
+			"ft": "veimið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veima", "veimar", "veimar"],
+					"ft": ["veimum", "veimið", "veima"]
+				},
+				"þátíð": {
+					"et": ["veimaði", "veimaðir", "veimaði"],
+					"ft": ["veimuðum", "veimuðuð", "veimuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veimi", "veimir", "veimi"],
+					"ft": ["veimum", "veimið", "veimi"]
+				},
+				"þátíð": {
+					"et": ["veimaði", "veimaðir", "veimaði"],
+					"ft": ["veimuðum", "veimuðuð", "veimuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veimarðu",
+					"ft": "veimiði"
+				},
+				"þátíð": {
+					"et": "veimaðirðu",
+					"ft": "veimuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veimirðu",
+					"ft": "veimiði"
+				},
+				"þátíð": {
+					"et": "veimaðirðu",
+					"ft": "veimuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "veimast",
+		"sagnbót": "veimast",
+		"boðháttur": {
+			"et": "veimastu",
+			"ft": "veimist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veimast", "veimast", "veimast"],
+					"ft": ["veimumst", "veimist", "veimast"]
+				},
+				"þátíð": {
+					"et": ["veimaðist", "veimaðist", "veimaðist"],
+					"ft": ["veimuðumst", "veimuðust", "veimuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veimist", "veimist", "veimist"],
+					"ft": ["veimumst", "veimist", "veimist"]
+				},
+				"þátíð": {
+					"et": ["veimaðist", "veimaðist", "veimaðist"],
+					"ft": ["veimuðumst", "veimuðust", "veimuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veimastu"
+				},
+				"þátíð": {
+					"et": "veimaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veimistu"
+				},
+				"þátíð": {
+					"et": "veimaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veimandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veimaður", "veimaðan", "veimuðum", "veimaðs"],
+					"kvk": ["veimuð", "veimaða", "veimaðri", "veimaðrar"],
+					"hk": ["veimað", "veimað", "veimuðu", "veimaðs"]
+				},
+				"ft": {
+					"kk": ["veimaðir", "veimaða", "veimuðum", "veimaðra"],
+					"kvk": ["veimaðar", "veimaðar", "veimuðum", "veimaðra"],
+					"hk": ["veimuð", "veimuð", "veimuðum", "veimaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-veima",
+	"hash": "fe54bcee7aef02b237aee2e53b317fc2d521d60124bd76516993beace17de518"
+}

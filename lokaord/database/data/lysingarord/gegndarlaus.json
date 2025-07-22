@@ -1,0 +1,43 @@
+{
+	"orð": "gegndarlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "gegndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gegnd-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["gegndarlaus", "gegndarlausan", "gegndarlausum", "gegndarlauss"],
+				"kvk": ["gegndarlaus", "gegndarlausa", "gegndarlausri", "gegndarlausrar"],
+				"hk": ["gegndarlaust", "gegndarlaust", "gegndarlausu", "gegndarlauss"]
+			},
+			"ft": {
+				"kk": ["gegndarlausir", "gegndarlausa", "gegndarlausum", "gegndarlausra"],
+				"kvk": ["gegndarlausar", "gegndarlausar", "gegndarlausum", "gegndarlausra"],
+				"hk": ["gegndarlaus", "gegndarlaus", "gegndarlausum", "gegndarlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gegndarlausi", "gegndarlausa", "gegndarlausa", "gegndarlausa"],
+				"kvk": ["gegndarlausa", "gegndarlausu", "gegndarlausu", "gegndarlausu"],
+				"hk": ["gegndarlausa", "gegndarlausa", "gegndarlausa", "gegndarlausa"]
+			},
+			"ft": {
+				"kk": ["gegndarlausu", "gegndarlausu", "gegndarlausu", "gegndarlausu"],
+				"kvk": ["gegndarlausu", "gegndarlausu", "gegndarlausu", "gegndarlausu"],
+				"hk": ["gegndarlausu", "gegndarlausu", "gegndarlausu", "gegndarlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-gegndarlaus",
+	"hash": "9b0bfcaf7247c41ec0c7ad5ae74ebe23cf192197658faf4bf1aed5c25cc3e880"
+}

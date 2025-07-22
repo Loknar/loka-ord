@@ -1,0 +1,77 @@
+{
+	"orð": "aumingjagera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "aumingja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-aumingi-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aumingjagera",
+		"sagnbót": "aumingjagert",
+		"boðháttur": {
+			"stýfður": "aumingjager",
+			"et": "aumingjagerðu",
+			"ft": "aumingjagerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aumingjageri", "aumingjagerir", "aumingjagerir"],
+					"ft": ["aumingjagerum", "aumingjagerið", "aumingjagera"]
+				},
+				"þátíð": {
+					"et": ["aumingjagerði", "aumingjagerðir", "aumingjagerði"],
+					"ft": ["aumingjagerðum", "aumingjagerðuð", "aumingjagerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aumingjageri", "aumingjagerir", "aumingjageri"],
+					"ft": ["aumingjagerum", "aumingjagerið", "aumingjageri"]
+				},
+				"þátíð": {
+					"et": ["aumingjagerði", "aumingjagerðir", "aumingjagerði"],
+					"ft": ["aumingjagerðum", "aumingjagerðuð", "aumingjagerðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aumingjagerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aumingjagerður", "aumingjagerðan", "aumingjagerðum", "aumingjagerðs"],
+					"kvk": ["aumingjagerð", "aumingjagerða", "aumingjagerðri", "aumingjagerðrar"],
+					"hk": ["aumingjagert", "aumingjagert", "aumingjagerðu", "aumingjagerðs"]
+				},
+				"ft": {
+					"kk": ["aumingjagerðir", "aumingjagerða", "aumingjagerðum", "aumingjagerðra"],
+					"kvk": ["aumingjagerðar", "aumingjagerðar", "aumingjagerðum", "aumingjagerðra"],
+					"hk": ["aumingjagerð", "aumingjagerð", "aumingjagerðum", "aumingjagerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["aumingjagerði", "aumingjagerða", "aumingjagerða", "aumingjagerða"],
+					"kvk": ["aumingjagerða", "aumingjagerðu", "aumingjagerðu", "aumingjagerðu"],
+					"hk": ["aumingjagerða", "aumingjagerða", "aumingjagerða", "aumingjagerða"]
+				},
+				"ft": {
+					"kk": ["aumingjagerðu", "aumingjagerðu", "aumingjagerðu", "aumingjagerðu"],
+					"kvk": ["aumingjagerðu", "aumingjagerðu", "aumingjagerðu", "aumingjagerðu"],
+					"hk": ["aumingjagerðu", "aumingjagerðu", "aumingjagerðu", "aumingjagerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aumingjagera",
+	"hash": "a5bbb7360168efc45e44535014275ce009eee1895e2f406fd17b431e368b6dac"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "eignarhaldsbreyting",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"kennistrengur": "no-breyting-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignarhaldsbreyting", "eignarhaldsbreytingu", "eignarhaldsbreytingu", "eignarhaldsbreytingar"],
+		"mg": ["eignarhaldsbreytingin", "eignarhaldsbreytinguna", "eignarhaldsbreytingunni", "eignarhaldsbreytingarinnar"]
+	},
+	"ft": {
+		"ág": ["eignarhaldsbreytingar", "eignarhaldsbreytingar", "eignarhaldsbreytingum", "eignarhaldsbreytinga"],
+		"mg": ["eignarhaldsbreytingarnar", "eignarhaldsbreytingarnar", "eignarhaldsbreytingunum", "eignarhaldsbreytinganna"]
+	},
+	"kennistrengur": "no-eignarhaldsbreyting-kvk",
+	"hash": "e30b3aaac4c118395f7e902b21d7f12db1abd69603eb17b390380d833f89121c"
+}
