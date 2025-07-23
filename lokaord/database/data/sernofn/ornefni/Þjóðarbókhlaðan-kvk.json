@@ -1,0 +1,27 @@
+{
+	"orð": "Þjóðarbókhlaðan",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Þjóðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et-mg"],
+			"kennistrengur": "no-hlaða-kvk"
+		}
+	],
+	"et": {
+		"mg": ["Þjóðarbókhlaðan", "Þjóðarbókhlöðuna", "Þjóðarbókhlöðunni", "Þjóðarbókhlöðunnar"]
+	},
+	"kennistrengur": "sérn.ön-Þjóðarbókhlaðan-kvk",
+	"hash": "2255739832dc60ccd42739d69a71d97c8355e106e588cce460f8558ebf9b2dbe"
+}

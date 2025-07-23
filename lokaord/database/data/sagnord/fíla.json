@@ -1,0 +1,135 @@
+{
+	"orð": "fíla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fíl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fíla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fíla",
+		"sagnbót": "fílað",
+		"boðháttur": {
+			"stýfður": "fíla",
+			"et": "fílaðu",
+			"ft": "fílið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fíla", "fílar", "fílar"],
+					"ft": ["fílum", "fílið", "fíla"]
+				},
+				"þátíð": {
+					"et": ["fílaði", "fílaðir", "fílaði"],
+					"ft": ["fíluðum", "fíluðuð", "fíluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fíli", "fílir", "fíli"],
+					"ft": ["fílum", "fílið", "fíli"]
+				},
+				"þátíð": {
+					"et": ["fílaði", "fílaðir", "fílaði"],
+					"ft": ["fíluðum", "fíluðuð", "fíluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fílarðu",
+					"ft": "fíliði"
+				},
+				"þátíð": {
+					"et": "fílaðirðu",
+					"ft": "fíluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fílirðu",
+					"ft": "fíliði"
+				},
+				"þátíð": {
+					"et": "fílaðirðu",
+					"ft": "fíluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fílast",
+		"sagnbót": "fílast",
+		"boðháttur": {
+			"et": "fílastu",
+			"ft": "fílist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fílast", "fílast", "fílast"],
+					"ft": ["fílumst", "fílist", "fílast"]
+				},
+				"þátíð": {
+					"et": ["fílaðist", "fílaðist", "fílaðist"],
+					"ft": ["fíluðumst", "fíluðust", "fíluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fílist", "fílist", "fílist"],
+					"ft": ["fílumst", "fílist", "fílist"]
+				},
+				"þátíð": {
+					"et": ["fílaðist", "fílaðist", "fílaðist"],
+					"ft": ["fíluðumst", "fíluðust", "fíluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fílastu"
+				},
+				"þátíð": {
+					"et": "fílaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fílistu"
+				},
+				"þátíð": {
+					"et": "fílaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fílandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fílaður", "fílaðan", "fíluðum", "fílaðs"],
+					"kvk": ["fíluð", "fílaða", "fílaðri", "fílaðrar"],
+					"hk": ["fílað", "fílað", "fíluðu", "fílaðs"]
+				},
+				"ft": {
+					"kk": ["fílaðir", "fílaða", "fíluðum", "fílaðra"],
+					"kvk": ["fílaðar", "fílaðar", "fíluðum", "fílaðra"],
+					"hk": ["fíluð", "fíluð", "fíluðum", "fílaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fíla",
+	"hash": "f85fec28c813ea39e313619987f646f8c7b523e51ecc66629a4a2763814c24d6"
+}

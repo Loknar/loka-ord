@@ -1,0 +1,133 @@
+{
+	"orð": "yrkja",
+	"flokkur": "sagnorð",
+	"merking": "kveðskapur",
+	"germynd": {
+		"nafnháttur": "yrkja",
+		"sagnbót": "ort",
+		"boðháttur": {
+			"stýfður": "yrk",
+			"et": "yrktu",
+			"ft": "yrkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yrki", "yrkir", "yrkir"],
+					"ft": ["yrkjum", "yrkið", "yrkja"]
+				},
+				"þátíð": {
+					"et": ["orti", "ortir", "orti"],
+					"ft": ["ortum", "ortuð", "ortu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yrki", "yrkir", "yrki"],
+					"ft": ["yrkjum", "yrkið", "yrki"]
+				},
+				"þátíð": {
+					"et": ["orti", "ortir", "orti"],
+					"ft": ["ortum", "ortuð", "ortu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yrkirðu",
+					"ft": "yrkiði"
+				},
+				"þátíð": {
+					"et": "ortirðu",
+					"ft": "ortuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yrkirðu",
+					"ft": "yrkiði"
+				},
+				"þátíð": {
+					"et": "ortirðu",
+					"ft": "ortuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "yrkjast",
+		"sagnbót": "orst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yrkist", "yrkist", "yrkist"],
+					"ft": ["yrkjumst", "yrkist", "yrkjast"]
+				},
+				"þátíð": {
+					"et": ["ortist", "ortist", "ortist"],
+					"ft": ["ortumst", "ortust", "ortust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yrkist", "yrkist", "yrkist"],
+					"ft": ["yrkjumst", "yrkist", "yrkist"]
+				},
+				"þátíð": {
+					"et": ["ortist", "ortist", "ortist"],
+					"ft": ["ortumst", "ortust", "ortust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yrkistu"
+				},
+				"þátíð": {
+					"et": "ortistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yrkistu"
+				},
+				"þátíð": {
+					"et": "ortistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yrkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ortur", "ortan", "ortum", "orts"],
+					"kvk": ["ort", "orta", "ortri", "ortrar"],
+					"hk": ["ort", "ort", "ortu", "orts"]
+				},
+				"ft": {
+					"kk": ["ortir", "orta", "ortum", "ortra"],
+					"kvk": ["ortar", "ortar", "ortum", "ortra"],
+					"hk": ["ort", "ort", "ortum", "ortra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["orti", "orta", "orta", "orta"],
+					"kvk": ["orta", "ortu", "ortu", "ortu"],
+					"hk": ["orta", "orta", "orta", "orta"]
+				},
+				"ft": {
+					"kk": ["ortu", "ortu", "ortu", "ortu"],
+					"kvk": ["ortu", "ortu", "ortu", "ortu"],
+					"hk": ["ortu", "ortu", "ortu", "ortu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yrkja-_kveðskapur_",
+	"hash": "09a2d17d8e7f01b7a6b2ba31930868c934502ba75107349197bf89fca113505e"
+}

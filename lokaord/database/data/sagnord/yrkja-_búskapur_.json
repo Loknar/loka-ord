@@ -1,0 +1,133 @@
+{
+	"orð": "yrkja",
+	"flokkur": "sagnorð",
+	"merking": "búskapur",
+	"germynd": {
+		"nafnháttur": "yrkja",
+		"sagnbót": "yrkt",
+		"boðháttur": {
+			"stýfður": "yrk",
+			"et": "yrktu",
+			"ft": "yrkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yrki", "yrkir", "yrkir"],
+					"ft": ["yrkjum", "yrkið", "yrkja"]
+				},
+				"þátíð": {
+					"et": ["yrkti", "yrktir", "yrkti"],
+					"ft": ["yrktum", "yrktuð", "yrktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yrki", "yrkir", "yrki"],
+					"ft": ["yrkjum", "yrkið", "yrki"]
+				},
+				"þátíð": {
+					"et": ["yrkti", "yrktir", "yrkti"],
+					"ft": ["yrktum", "yrktuð", "yrktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yrkirðu",
+					"ft": "yrkiði"
+				},
+				"þátíð": {
+					"et": "yrktirðu",
+					"ft": "yrktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yrkirðu",
+					"ft": "yrkiði"
+				},
+				"þátíð": {
+					"et": "yrktirðu",
+					"ft": "yrktuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "yrkjast",
+		"sagnbót": "orst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yrkist", "yrkist", "yrkist"],
+					"ft": ["yrkjumst", "yrkist", "yrkjast"]
+				},
+				"þátíð": {
+					"et": ["yrktist", "yrktist", "yrktist"],
+					"ft": ["yrktumst", "yrktust", "yrktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yrkist", "yrkist", "yrkist"],
+					"ft": ["yrkjumst", "yrkist", "yrkist"]
+				},
+				"þátíð": {
+					"et": ["yrktist", "yrktist", "yrktist"],
+					"ft": ["yrktumst", "yrktust", "yrktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yrkistu"
+				},
+				"þátíð": {
+					"et": "yrktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yrkistu"
+				},
+				"þátíð": {
+					"et": "yrktistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yrkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yrktur", "yrktan", "yrktum", "yrkts"],
+					"kvk": ["yrkt", "yrkta", "yrktri", "yrktrar"],
+					"hk": ["yrkt", "yrkt", "yrktu", "yrkts"]
+				},
+				"ft": {
+					"kk": ["yrktir", "yrkta", "yrktum", "yrktra"],
+					"kvk": ["yrktar", "yrktar", "yrktum", "yrktra"],
+					"hk": ["yrkt", "yrkt", "yrktum", "yrktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["yrkti", "yrkta", "yrkta", "yrkta"],
+					"kvk": ["yrkta", "yrktu", "yrktu", "yrktu"],
+					"hk": ["yrkta", "yrkta", "yrkta", "yrkta"]
+				},
+				"ft": {
+					"kk": ["yrktu", "yrktu", "yrktu", "yrktu"],
+					"kvk": ["yrktu", "yrktu", "yrktu", "yrktu"],
+					"hk": ["yrktu", "yrktu", "yrktu", "yrktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yrkja-_búskapur_",
+	"hash": "1634671bc9757963ba8eab05f5ae1e4e8cca8915e66f1d8571dbdf11f82296e5"
+}

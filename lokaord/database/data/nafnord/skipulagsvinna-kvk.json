@@ -1,0 +1,27 @@
+{
+	"orð": "skipulagsvinna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skipulagsvinna", "skipulagsvinnu", "skipulagsvinnu", "skipulagsvinnu"],
+		"mg": ["skipulagsvinnan", "skipulagsvinnuna", "skipulagsvinnunni", "skipulagsvinnunnar"]
+	},
+	"kennistrengur": "no-skipulagsvinna-kvk",
+	"hash": "788e485bf236693b9c22f17cad63e35ffffd177d8ff3a1a2006937b3381e6623"
+}

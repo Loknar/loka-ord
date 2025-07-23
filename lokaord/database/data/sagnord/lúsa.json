@@ -1,0 +1,121 @@
+{
+	"orð": "lúsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lús-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lúsa",
+		"sagnbót": "lúsað",
+		"boðháttur": {
+			"stýfður": "lúsa",
+			"et": "lúsaðu",
+			"ft": "lúsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lúsa", "lúsar", "lúsar"],
+					"ft": ["lúsum", "lúsið", "lúsa"]
+				},
+				"þátíð": {
+					"et": ["lúsaði", "lúsaðir", "lúsaði"],
+					"ft": ["lúsuðum", "lúsuðuð", "lúsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lúsi", "lúsir", "lúsi"],
+					"ft": ["lúsum", "lúsið", "lúsi"]
+				},
+				"þátíð": {
+					"et": ["lúsaði", "lúsaðir", "lúsaði"],
+					"ft": ["lúsuðum", "lúsuðuð", "lúsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lúsarðu",
+					"ft": "lúsiði"
+				},
+				"þátíð": {
+					"et": "lúsaðirðu",
+					"ft": "lúsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lúsirðu",
+					"ft": "lúsiði"
+				},
+				"þátíð": {
+					"et": "lúsaðirðu",
+					"ft": "lúsuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lúsast",
+		"sagnbót": "lúsast",
+		"boðháttur": {
+			"et": "lúsastu",
+			"ft": "lúsist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lúsast", "lúsast", "lúsast"],
+					"ft": ["lúsumst", "lúsist", "lúsast"]
+				},
+				"þátíð": {
+					"et": ["lúsaðist", "lúsaðist", "lúsaðist"],
+					"ft": ["lúsuðumst", "lúsuðust", "lúsuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lúsist", "lúsist", "lúsist"],
+					"ft": ["lúsumst", "lúsist", "lúsist"]
+				},
+				"þátíð": {
+					"et": ["lúsaðist", "lúsaðist", "lúsaðist"],
+					"ft": ["lúsuðumst", "lúsuðust", "lúsuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lúsastu"
+				},
+				"þátíð": {
+					"et": "lúsaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lúsistu"
+				},
+				"þátíð": {
+					"et": "lúsaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lúsandi"
+	},
+	"kennistrengur": "so-lúsa",
+	"hash": "5fb18cb635796cb6e7eca9158ae54a2b4b1c61ade832a71e99b320724ea0f475"
+}

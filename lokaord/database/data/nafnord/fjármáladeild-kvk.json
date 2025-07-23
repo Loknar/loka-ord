@@ -1,0 +1,30 @@
+{
+	"orð": "fjármáladeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármáladeild", "fjármáladeild", "fjármáladeild", "fjármáladeildar"],
+		"mg": ["fjármáladeildin", "fjármáladeildina", "fjármáladeildinni", "fjármáladeildarinnar"]
+	},
+	"ft": {
+		"ág": ["fjármáladeildir", "fjármáladeildir", "fjármáladeildum", "fjármáladeilda"],
+		"mg": ["fjármáladeildirnar", "fjármáladeildirnar", "fjármáladeildunum", "fjármáladeildanna"]
+	},
+	"kennistrengur": "no-fjármáladeild-kvk",
+	"hash": "96a54c982bed1e74372f8f9cf8b2c1837a668cdb64c58eeb3d0a95f13069be26"
+}
