@@ -1,0 +1,143 @@
+{
+	"orð": "raðgreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rað",
+			"samsetning": "stofn",
+			"kennistrengur": "so-raða"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aðgreina",
+		"sagnbót": "aðgreint",
+		"boðháttur": {
+			"stýfður": "aðgrein",
+			"et": "aðgreindu",
+			"ft": "aðgreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aðgreini", "aðgreinir", "aðgreinir"],
+					"ft": ["aðgreinum", "aðgreinið", "aðgreina"]
+				},
+				"þátíð": {
+					"et": ["aðgreindi", "aðgreindir", "aðgreindi"],
+					"ft": ["aðgreindum", "aðgreinduð", "aðgreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aðgreini", "aðgreinir", "aðgreini"],
+					"ft": ["aðgreinum", "aðgreinið", "aðgreini"]
+				},
+				"þátíð": {
+					"et": ["aðgreindi", "aðgreindir", "aðgreindi"],
+					"ft": ["aðgreindum", "aðgreinduð", "aðgreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aðgreinirðu",
+					"ft": "aðgreiniði"
+				},
+				"þátíð": {
+					"et": "aðgreindirðu",
+					"ft": "aðgreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aðgreinirðu",
+					"ft": "aðgreiniði"
+				},
+				"þátíð": {
+					"et": "aðgreindirðu",
+					"ft": "aðgreinduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "aðgreinast",
+		"sagnbót": "aðgreinst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aðgreinist", "aðgreinist", "aðgreinist"],
+					"ft": ["aðgreinumst", "aðgreinist", "aðgreinast"]
+				},
+				"þátíð": {
+					"et": ["aðgreindist", "aðgreindist", "aðgreindist"],
+					"ft": ["aðgreindumst", "aðgreindust", "aðgreindust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aðgreinist", "aðgreinist", "aðgreinist"],
+					"ft": ["aðgreinumst", "aðgreinist", "aðgreinist"]
+				},
+				"þátíð": {
+					"et": ["aðgreindist", "aðgreindist", "aðgreindist"],
+					"ft": ["aðgreindumst", "aðgreindust", "aðgreindust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aðgreinistu"
+				},
+				"þátíð": {
+					"et": "aðgreindistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aðgreinistu"
+				},
+				"þátíð": {
+					"et": "aðgreindistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aðgreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["aðgreindur", "aðgreindan", "aðgreindum", "aðgreinds"],
+					"kvk": ["aðgreind", "aðgreinda", "aðgreindri", "aðgreindrar"],
+					"hk": ["aðgreint", "aðgreint", "aðgreindu", "aðgreinds"]
+				},
+				"ft": {
+					"kk": ["aðgreindir", "aðgreinda", "aðgreindum", "aðgreindra"],
+					"kvk": ["aðgreindar", "aðgreindar", "aðgreindum", "aðgreindra"],
+					"hk": ["aðgreind", "aðgreind", "aðgreindum", "aðgreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["aðgreindi", "aðgreinda", "aðgreinda", "aðgreinda"],
+					"kvk": ["aðgreinda", "aðgreindu", "aðgreindu", "aðgreindu"],
+					"hk": ["aðgreinda", "aðgreinda", "aðgreinda", "aðgreinda"]
+				},
+				"ft": {
+					"kk": ["aðgreindu", "aðgreindu", "aðgreindu", "aðgreindu"],
+					"kvk": ["aðgreindu", "aðgreindu", "aðgreindu", "aðgreindu"],
+					"hk": ["aðgreindu", "aðgreindu", "aðgreindu", "aðgreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-aðgreina",
+	"hash": "82dbe129a5541cdfbff17e6c5dcac50a0223347acae36c2c04a28bc0015d7c9c"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "raðgreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rað",
+			"samsetning": "stofn",
+			"kennistrengur": "so-raða"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "raðgreina",
+		"sagnbót": "raðgreint",
+		"boðháttur": {
+			"stýfður": "raðgrein",
+			"et": "raðgreindu",
+			"ft": "raðgreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["raðgreini", "raðgreinir", "raðgreinir"],
+					"ft": ["raðgreinum", "raðgreinið", "raðgreina"]
+				},
+				"þátíð": {
+					"et": ["raðgreindi", "raðgreindir", "raðgreindi"],
+					"ft": ["raðgreindum", "raðgreinduð", "raðgreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["raðgreini", "raðgreinir", "raðgreini"],
+					"ft": ["raðgreinum", "raðgreinið", "raðgreini"]
+				},
+				"þátíð": {
+					"et": ["raðgreindi", "raðgreindir", "raðgreindi"],
+					"ft": ["raðgreindum", "raðgreinduð", "raðgreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "raðgreinirðu",
+					"ft": "raðgreiniði"
+				},
+				"þátíð": {
+					"et": "raðgreindirðu",
+					"ft": "raðgreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "raðgreinirðu",
+					"ft": "raðgreiniði"
+				},
+				"þátíð": {
+					"et": "raðgreindirðu",
+					"ft": "raðgreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "raðgreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["raðgreindur", "raðgreindan", "raðgreindum", "raðgreinds"],
+					"kvk": ["raðgreind", "raðgreinda", "raðgreindri", "raðgreindrar"],
+					"hk": ["raðgreint", "raðgreint", "raðgreindu", "raðgreinds"]
+				},
+				"ft": {
+					"kk": ["raðgreindir", "raðgreinda", "raðgreindum", "raðgreindra"],
+					"kvk": ["raðgreindar", "raðgreindar", "raðgreindum", "raðgreindra"],
+					"hk": ["raðgreind", "raðgreind", "raðgreindum", "raðgreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["raðgreindi", "raðgreinda", "raðgreinda", "raðgreinda"],
+					"kvk": ["raðgreinda", "raðgreindu", "raðgreindu", "raðgreindu"],
+					"hk": ["raðgreinda", "raðgreinda", "raðgreinda", "raðgreinda"]
+				},
+				"ft": {
+					"kk": ["raðgreindu", "raðgreindu", "raðgreindu", "raðgreindu"],
+					"kvk": ["raðgreindu", "raðgreindu", "raðgreindu", "raðgreindu"],
+					"hk": ["raðgreindu", "raðgreindu", "raðgreindu", "raðgreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-raðgreina",
+	"hash": "98411d04632ab270e80c25d3cd897025d5a00971b3a61890e0e52dff543f409a"
+}

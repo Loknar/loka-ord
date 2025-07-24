@@ -1,0 +1,43 @@
+{
+	"orð": "handviss",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-viss"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["handviss", "handvissan", "handvissum", "handviss"],
+				"kvk": ["handviss", "handvissa", "handvissri", "handvissrar"],
+				"hk": ["handvisst", "handvisst", "handvissu", "handviss"]
+			},
+			"ft": {
+				"kk": ["handvissir", "handvissa", "handvissum", "handvissra"],
+				"kvk": ["handvissar", "handvissar", "handvissum", "handvissra"],
+				"hk": ["handviss", "handviss", "handvissum", "handvissra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["handvissi", "handvissa", "handvissa", "handvissa"],
+				"kvk": ["handvissa", "handvissu", "handvissu", "handvissu"],
+				"hk": ["handvissa", "handvissa", "handvissa", "handvissa"]
+			},
+			"ft": {
+				"kk": ["handvissu", "handvissu", "handvissu", "handvissu"],
+				"kvk": ["handvissu", "handvissu", "handvissu", "handvissu"],
+				"hk": ["handvissu", "handvissu", "handvissu", "handvissu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-handviss",
+	"hash": "d44969e7f0684a08c121937ff9dda59bf5a5a19e9b66802eef8ca66d2f77155a"
+}
