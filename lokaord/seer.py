@@ -146,7 +146,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 	found = 0
 	maybe = 0
 	missing = 0
-	onhanging_chars = set('.,:;()[]-/„“”?!´%°%#–‐…·—‘"*\'‚’|•')
+	onhanging_chars = set('.,:;()[]<>-/„“”?!´%°%#–‐…·—‘"*\'‚’|•')
 	onhanging_chars_with_dot = onhanging_chars.copy()
 	onhanging_chars_with_dot.remove('.')
 	for word in sentence.split(' '):
@@ -849,6 +849,7 @@ def clean_string(mystr: str) -> str:
 		('/', ' / '),
 		('[', ' ['),
 		('(', ' ('),
+		('<', ' <'),
 		# meðhöndla annarskonar kommustafaaðferð, skipta út fyrir venjubundna kommustafi
 		('A\u0301', 'Á'),
 		('E\u0301', 'É'),
