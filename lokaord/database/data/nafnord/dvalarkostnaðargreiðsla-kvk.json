@@ -1,0 +1,30 @@
+{
+	"orð": "dvalarkostnaðargreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dvalar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dvöl-kvk"
+		},
+		{
+			"mynd": "kostnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostnaður-kk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["dvalarkostnaðargreiðsla", "dvalarkostnaðargreiðslu", "dvalarkostnaðargreiðslu", "dvalarkostnaðargreiðslu"],
+		"mg": ["dvalarkostnaðargreiðslan", "dvalarkostnaðargreiðsluna", "dvalarkostnaðargreiðslunni", "dvalarkostnaðargreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["dvalarkostnaðargreiðslur", "dvalarkostnaðargreiðslur", "dvalarkostnaðargreiðslum", "dvalarkostnaðargreiðslna"],
+		"mg": ["dvalarkostnaðargreiðslurnar", "dvalarkostnaðargreiðslurnar", "dvalarkostnaðargreiðslunum", "dvalarkostnaðargreiðslnanna"]
+	},
+	"kennistrengur": "no-dvalarkostnaðargreiðsla-kvk",
+	"hash": "ff56293a4ad174d93dddaee87deffbc104a46879490ec9cde1160575f1ad231b"
+}

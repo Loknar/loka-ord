@@ -1,0 +1,135 @@
+{
+	"orð": "ropa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rop",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rop-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ropa",
+		"sagnbót": "ropað",
+		"boðháttur": {
+			"stýfður": "ropa",
+			"et": "ropaðu",
+			"ft": "ropið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ropa", "ropar", "ropar"],
+					"ft": ["ropum", "ropið", "ropa"]
+				},
+				"þátíð": {
+					"et": ["ropaði", "ropaðir", "ropaði"],
+					"ft": ["ropuðum", "ropuðuð", "ropuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ropi", "ropir", "ropi"],
+					"ft": ["ropum", "ropið", "ropi"]
+				},
+				"þátíð": {
+					"et": ["ropaði", "ropaðir", "ropaði"],
+					"ft": ["ropuðum", "ropuðuð", "ropuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "roparðu",
+					"ft": "ropiði"
+				},
+				"þátíð": {
+					"et": "ropaðirðu",
+					"ft": "ropuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ropirðu",
+					"ft": "ropiði"
+				},
+				"þátíð": {
+					"et": "ropaðirðu",
+					"ft": "ropuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ropast",
+		"sagnbót": "ropast",
+		"boðháttur": {
+			"et": "ropastu",
+			"ft": "ropist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ropast", "ropast", "ropast"],
+					"ft": ["ropumst", "ropist", "ropast"]
+				},
+				"þátíð": {
+					"et": ["ropaðist", "ropaðist", "ropaðist"],
+					"ft": ["ropuðumst", "ropuðust", "ropuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ropist", "ropist", "ropist"],
+					"ft": ["ropumst", "ropist", "ropist"]
+				},
+				"þátíð": {
+					"et": ["ropaðist", "ropaðist", "ropaðist"],
+					"ft": ["ropuðumst", "ropuðust", "ropuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ropastu"
+				},
+				"þátíð": {
+					"et": "ropaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ropistu"
+				},
+				"þátíð": {
+					"et": "ropaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ropandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ropaður", "ropaðan", "ropuðum", "ropaðs"],
+					"kvk": ["ropuð", "ropaða", "ropaðri", "ropaðrar"],
+					"hk": ["ropað", "ropað", "ropuðu", "ropaðs"]
+				},
+				"ft": {
+					"kk": ["ropaðir", "ropaða", "ropuðum", "ropaðra"],
+					"kvk": ["ropaðar", "ropaðar", "ropuðum", "ropaðra"],
+					"hk": ["ropuð", "ropuð", "ropuðum", "ropaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ropa",
+	"hash": "e8e7eadb07893b8017104bf9012aa0153b6a3621c411c0520131344e12269236"
+}

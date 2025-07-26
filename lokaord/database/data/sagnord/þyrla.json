@@ -1,0 +1,135 @@
+{
+	"orð": "þyrla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þyrl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þyrla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þyrla",
+		"sagnbót": "þyrlað",
+		"boðháttur": {
+			"stýfður": "þyrla",
+			"et": "þyrlaðu",
+			"ft": "þyrlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þyrla", "þyrlar", "þyrlar"],
+					"ft": ["þyrlum", "þyrlið", "þyrla"]
+				},
+				"þátíð": {
+					"et": ["þyrlaði", "þyrlaðir", "þyrlaði"],
+					"ft": ["þyrluðum", "þyrluðuð", "þyrluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þyrli", "þyrlir", "þyrli"],
+					"ft": ["þyrlum", "þyrlið", "þyrli"]
+				},
+				"þátíð": {
+					"et": ["þyrlaði", "þyrlaðir", "þyrlaði"],
+					"ft": ["þyrluðum", "þyrluðuð", "þyrluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þyrlarðu",
+					"ft": "þyrliði"
+				},
+				"þátíð": {
+					"et": "þyrlaðirðu",
+					"ft": "þyrluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þyrlirðu",
+					"ft": "þyrliði"
+				},
+				"þátíð": {
+					"et": "þyrlaðirðu",
+					"ft": "þyrluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þyrlast",
+		"sagnbót": "þyrlast",
+		"boðháttur": {
+			"et": "þyrlastu",
+			"ft": "þyrlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þyrlast", "þyrlast", "þyrlast"],
+					"ft": ["þyrlumst", "þyrlist", "þyrlast"]
+				},
+				"þátíð": {
+					"et": ["þyrlaðist", "þyrlaðist", "þyrlaðist"],
+					"ft": ["þyrluðumst", "þyrluðust", "þyrluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þyrlist", "þyrlist", "þyrlist"],
+					"ft": ["þyrlumst", "þyrlist", "þyrlist"]
+				},
+				"þátíð": {
+					"et": ["þyrlaðist", "þyrlaðist", "þyrlaðist"],
+					"ft": ["þyrluðumst", "þyrluðust", "þyrluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þyrlastu"
+				},
+				"þátíð": {
+					"et": "þyrlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þyrlistu"
+				},
+				"þátíð": {
+					"et": "þyrlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þyrlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þyrlaður", "þyrlaðan", "þyrluðum", "þyrlaðs"],
+					"kvk": ["þyrluð", "þyrlaða", "þyrlaðri", "þyrlaðrar"],
+					"hk": ["þyrlað", "þyrlað", "þyrluðu", "þyrlaðs"]
+				},
+				"ft": {
+					"kk": ["þyrlaðir", "þyrlaða", "þyrluðum", "þyrlaðra"],
+					"kvk": ["þyrlaðar", "þyrlaðar", "þyrluðum", "þyrlaðra"],
+					"hk": ["þyrluð", "þyrluð", "þyrluðum", "þyrlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þyrla",
+	"hash": "2ef4bde27596da2f11206cc063cb14869f22e03a154a4c2efc6206f884fad92d"
+}

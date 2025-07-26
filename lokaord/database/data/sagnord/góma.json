@@ -1,0 +1,135 @@
+{
+	"orð": "góma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "góm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gómur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "góma",
+		"sagnbót": "gómað",
+		"boðháttur": {
+			"stýfður": "góma",
+			"et": "gómaðu",
+			"ft": "gómið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["góma", "gómar", "gómar"],
+					"ft": ["gómum", "gómið", "góma"]
+				},
+				"þátíð": {
+					"et": ["gómaði", "gómaðir", "gómaði"],
+					"ft": ["gómuðum", "gómuðuð", "gómuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gómi", "gómir", "gómi"],
+					"ft": ["gómum", "gómið", "gómi"]
+				},
+				"þátíð": {
+					"et": ["gómaði", "gómaðir", "gómaði"],
+					"ft": ["gómuðum", "gómuðuð", "gómuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gómarðu",
+					"ft": "gómiði"
+				},
+				"þátíð": {
+					"et": "gómaðirðu",
+					"ft": "gómuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gómirðu",
+					"ft": "gómiði"
+				},
+				"þátíð": {
+					"et": "gómaðirðu",
+					"ft": "gómuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gómast",
+		"sagnbót": "gómast",
+		"boðháttur": {
+			"et": "gómastu",
+			"ft": "gómist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gómast", "gómast", "gómast"],
+					"ft": ["gómumst", "gómist", "gómast"]
+				},
+				"þátíð": {
+					"et": ["gómaðist", "gómaðist", "gómaðist"],
+					"ft": ["gómuðumst", "gómuðust", "gómuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gómist", "gómist", "gómist"],
+					"ft": ["gómumst", "gómist", "gómist"]
+				},
+				"þátíð": {
+					"et": ["gómaðist", "gómaðist", "gómaðist"],
+					"ft": ["gómuðumst", "gómuðust", "gómuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gómastu"
+				},
+				"þátíð": {
+					"et": "gómaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gómistu"
+				},
+				"þátíð": {
+					"et": "gómaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gómandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gómaður", "gómaðan", "gómuðum", "gómaðs"],
+					"kvk": ["gómuð", "gómaða", "gómaðri", "gómaðrar"],
+					"hk": ["gómað", "gómað", "gómuðu", "gómaðs"]
+				},
+				"ft": {
+					"kk": ["gómaðir", "gómaða", "gómuðum", "gómaðra"],
+					"kvk": ["gómaðar", "gómaðar", "gómuðum", "gómaðra"],
+					"hk": ["gómuð", "gómuð", "gómuðum", "gómaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-góma",
+	"hash": "8f0faeafefcb774b628df6914d33d07227ae5f54cf701c146e49da7fb8c0156b"
+}

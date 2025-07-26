@@ -1,0 +1,99 @@
+{
+	"orð": "uppgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "uppgera",
+		"sagnbót": "uppgert",
+		"boðháttur": {
+			"stýfður": "uppger",
+			"et": "uppgerðu",
+			"ft": "uppgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["uppgeri", "uppgerir", "uppgerir"],
+					"ft": ["uppgerum", "uppgerið", "uppgera"]
+				},
+				"þátíð": {
+					"et": ["uppgerði", "uppgerðir", "uppgerði"],
+					"ft": ["uppgerðum", "uppgerðuð", "uppgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["uppgeri", "uppgerir", "uppgeri"],
+					"ft": ["uppgerum", "uppgerið", "uppgeri"]
+				},
+				"þátíð": {
+					"et": ["uppgerði", "uppgerðir", "uppgerði"],
+					"ft": ["uppgerðum", "uppgerðuð", "uppgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "uppgerirðu",
+					"ft": "uppgeriði"
+				},
+				"þátíð": {
+					"et": "uppgerðirðu",
+					"ft": "uppgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "uppgerirðu",
+					"ft": "uppgeriði"
+				},
+				"þátíð": {
+					"et": "uppgerðirðu",
+					"ft": "uppgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "uppgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["uppgerður", "uppgerðan", "uppgerðum", "uppgerðs"],
+					"kvk": ["uppgerð", "uppgerða", "uppgerðri", "uppgerðrar"],
+					"hk": ["uppgert", "uppgert", "uppgerðu", "uppgerðs"]
+				},
+				"ft": {
+					"kk": ["uppgerðir", "uppgerða", "uppgerðum", "uppgerðra"],
+					"kvk": ["uppgerðar", "uppgerðar", "uppgerðum", "uppgerðra"],
+					"hk": ["uppgerð", "uppgerð", "uppgerðum", "uppgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["uppgerði", "uppgerða", "uppgerða", "uppgerða"],
+					"kvk": ["uppgerða", "uppgerðu", "uppgerðu", "uppgerðu"],
+					"hk": ["uppgerða", "uppgerða", "uppgerða", "uppgerða"]
+				},
+				"ft": {
+					"kk": ["uppgerðu", "uppgerðu", "uppgerðu", "uppgerðu"],
+					"kvk": ["uppgerðu", "uppgerðu", "uppgerðu", "uppgerðu"],
+					"hk": ["uppgerðu", "uppgerðu", "uppgerðu", "uppgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-uppgera",
+	"hash": "0146c64cc87beb5e685edae48a17f240efacd404fae21e87f8cb49081875caab"
+}

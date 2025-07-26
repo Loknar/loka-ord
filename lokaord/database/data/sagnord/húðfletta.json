@@ -1,0 +1,87 @@
+{
+	"orð": "húðfletta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "húð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-húð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-fletta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "húðfletta",
+		"sagnbót": "húðflett",
+		"boðháttur": {
+			"stýfður": "húðflett",
+			"et": "húðflettu",
+			"ft": "húðflettið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húðfletti", "húðflettir", "húðflettir"],
+					"ft": ["húðflettum", "húðflettið", "húðfletta"]
+				},
+				"þátíð": {
+					"et": ["húðfletti", "húðflettir", "húðfletti"],
+					"ft": ["húðflettum", "húðflettuð", "húðflettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húðfletti", "húðflettir", "húðfletti"],
+					"ft": ["húðflettum", "húðflettið", "húðfletti"]
+				},
+				"þátíð": {
+					"et": ["húðfletti", "húðflettir", "húðfletti"],
+					"ft": ["húðflettum", "húðflettuð", "húðflettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "húðflettirðu",
+					"ft": "húðflettiði"
+				},
+				"þátíð": {
+					"et": "húðflettirðu",
+					"ft": "húðflettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "húðflettirðu",
+					"ft": "húðflettiði"
+				},
+				"þátíð": {
+					"et": "húðflettirðu",
+					"ft": "húðflettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "húðflettandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["húðflettur", "húðflettan", "húðflettum", "húðfletts"],
+					"kvk": ["húðflett", "húðfletta", "húðflettri", "húðflettrar"],
+					"hk": ["húðflett", "húðflett", "húðflettu", "húðfletts"]
+				},
+				"ft": {
+					"kk": ["húðflettir", "húðfletta", "húðflettum", "húðflettra"],
+					"kvk": ["húðflettar", "húðflettar", "húðflettum", "húðflettra"],
+					"hk": ["húðflett", "húðflett", "húðflettum", "húðflettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-húðfletta",
+	"hash": "e4822ec03efed70b58dcea9cdb6807d8497fcba767ec82be1fcea1cb8ed70b9a"
+}

@@ -54,6 +54,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "troðast",
+		"sagnbót": "troðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["treðst", "treðst", "treðst"],
+					"ft": ["troðumst", "troðist", "troðast"]
+				},
+				"þátíð": {
+					"et": ["tróðst", "tróðst", "tróðst"],
+					"ft": ["tróðumst", "tróðust", "tróðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["troðist", "troðist", "troðist"],
+					"ft": ["troðumst", "troðist", "troðist"]
+				},
+				"þátíð": {
+					"et": ["træðist", "træðist", "træðist"],
+					"ft": ["træðumst", "træðust", "træðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "treðstu"
+				},
+				"þátíð": {
+					"et": "tróðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "troðistu"
+				},
+				"þátíð": {
+					"et": "træðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "troðandi",
 		"þátíðar": {
@@ -84,5 +128,5 @@
 		}
 	},
 	"kennistrengur": "so-troða",
-	"hash": "2b3c22167f842390e5f0370e2b3217a650ef4104172fa281ba0de2a0c02091bb"
+	"hash": "ff1c42e2f31aca99ad762b1a4883b9e07ff817e10bb67ea0fb35883466578504"
 }

@@ -1,0 +1,22 @@
+{
+	"orð": "fjölskylduauður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "fjölskyldu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjölskylda-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-auður-kk"
+		}
+	],
+	"et": {
+		"ág": ["fjölskylduauður", "fjölskylduauð", "fjölskylduauði", "fjölskylduauðs"],
+		"mg": ["fjölskylduauðurinn", "fjölskylduauðinn", "fjölskylduauðnum", "fjölskylduauðsins"]
+	},
+	"kennistrengur": "no-fjölskylduauður-kk",
+	"hash": "ff2f8d03e12907621e57ea3a68a558228a5c70c3a5b2e3089da0c2382e503b8a"
+}
