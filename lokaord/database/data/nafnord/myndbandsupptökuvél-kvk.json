@@ -1,0 +1,40 @@
+{
+	"orð": "myndbandsupptökuvél",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mynd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "bands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-band-hk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"kennistrengur": "no-vél-kvk"
+		}
+	],
+	"et": {
+		"ág": ["myndbandsupptökuvél", "myndbandsupptökuvél", "myndbandsupptökuvél", "myndbandsupptökuvélar"],
+		"mg": ["myndbandsupptökuvélin", "myndbandsupptökuvélina", "myndbandsupptökuvélinni", "myndbandsupptökuvélarinnar"]
+	},
+	"ft": {
+		"ág": ["myndbandsupptökuvélar", "myndbandsupptökuvélar", "myndbandsupptökuvélum", "myndbandsupptökuvéla"],
+		"mg": ["myndbandsupptökuvélarnar", "myndbandsupptökuvélarnar", "myndbandsupptökuvélunum", "myndbandsupptökuvélanna"]
+	},
+	"kennistrengur": "no-myndbandsupptökuvél-kvk",
+	"hash": "c1ae72b66fe6ead435e0ffd85e9e6331a94f923a230dd41a7e4005743a24c440"
+}
