@@ -1,0 +1,122 @@
+{
+	"orð": "nauðbíta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "nauð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nauð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-bíta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nauðbíta",
+		"sagnbót": "nauðbitið",
+		"boðháttur": {
+			"stýfður": "nauðbít",
+			"et": "nauðbíttu",
+			"ft": "nauðbítið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nauðbít", "nauðbítur", "nauðbítur"],
+					"ft": ["nauðbítum", "nauðbítið", "nauðbíta"]
+				},
+				"þátíð": {
+					"et": ["nauðbeit", "nauðbeist", "nauðbeit"],
+					"ft": ["nauðbitum", "nauðbituð", "nauðbitu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nauðbíti", "nauðbítir", "nauðbíti"],
+					"ft": ["nauðbítum", "nauðbítið", "nauðbíti"]
+				},
+				"þátíð": {
+					"et": ["nauðbiti", "nauðbitir", "nauðbiti"],
+					"ft": ["nauðbitum", "nauðbituð", "nauðbitu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nauðbítur", "nauðbítur", "nauðbítur"],
+					"ft": ["nauðbítur", "nauðbítur", "nauðbítur"]
+				},
+				"þátíð": {
+					"et": ["nauðbeit", "nauðbeit", "nauðbeit"],
+					"ft": ["nauðbeit", "nauðbeit", "nauðbeit"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nauðbíti", "nauðbíti", "nauðbíti"],
+					"ft": ["nauðbíti", "nauðbíti", "nauðbíti"]
+				},
+				"þátíð": {
+					"et": ["nauðbiti", "nauðbiti", "nauðbiti"],
+					"ft": ["nauðbiti", "nauðbiti", "nauðbiti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nauðbíturðu",
+					"ft": "nauðbítiði"
+				},
+				"þátíð": {
+					"et": "nauðbeistu",
+					"ft": "nauðbituði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nauðbítirðu",
+					"ft": "nauðbítiði"
+				},
+				"þátíð": {
+					"et": "nauðbitirðu",
+					"ft": "nauðbituði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nauðbítandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nauðbitinn", "nauðbitinn", "nauðbitnum", "nauðbitins"],
+					"kvk": ["nauðbitin", "nauðbitna", "nauðbitinni", "nauðbitinnar"],
+					"hk": ["nauðbitið", "nauðbitið", "nauðbitnu", "nauðbitins"]
+				},
+				"ft": {
+					"kk": ["nauðbitnir", "nauðbitna", "nauðbitnum", "nauðbitinna"],
+					"kvk": ["nauðbitnar", "nauðbitnar", "nauðbitnum", "nauðbitinna"],
+					"hk": ["nauðbitin", "nauðbitin", "nauðbitnum", "nauðbitinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nauðbitni", "nauðbitna", "nauðbitna", "nauðbitna"],
+					"kvk": ["nauðbitna", "nauðbitnu", "nauðbitnu", "nauðbitnu"],
+					"hk": ["nauðbitna", "nauðbitna", "nauðbitna", "nauðbitna"]
+				},
+				"ft": {
+					"kk": ["nauðbitnu", "nauðbitnu", "nauðbitnu", "nauðbitnu"],
+					"kvk": ["nauðbitnu", "nauðbitnu", "nauðbitnu", "nauðbitnu"],
+					"hk": ["nauðbitnu", "nauðbitnu", "nauðbitnu", "nauðbitnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nauðbíta",
+	"hash": "39e342fdea8ea1e75e6ece5c54a0ffd3eafcc180710f13efb258be0e643e45a4"
+}

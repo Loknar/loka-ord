@@ -1,0 +1,27 @@
+{
+	"orð": "beitarskipulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "beitar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-beit-kvk"
+		},
+		{
+			"mynd": "skipu",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["beitarskipulag", "beitarskipulag", "beitarskipulagi", "beitarskipulags"],
+		"mg": ["beitarskipulagið", "beitarskipulagið", "beitarskipulaginu", "beitarskipulagsins"]
+	},
+	"kennistrengur": "no-beitarskipulag-hk",
+	"hash": "ef52e69e62549bb89034e28b3e512bb558070689db0eb8579e500cc4ae536063"
+}

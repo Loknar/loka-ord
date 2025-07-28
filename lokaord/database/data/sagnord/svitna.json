@@ -1,0 +1,87 @@
+{
+	"orð": "svitna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "svitn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-sviti-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "svitna",
+		"sagnbót": "svitnað",
+		"boðháttur": {
+			"stýfður": "svitna",
+			"et": "svitnaðu",
+			"ft": "svitnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svitna", "svitnar", "svitnar"],
+					"ft": ["svitnum", "svitnið", "svitna"]
+				},
+				"þátíð": {
+					"et": ["svitnaði", "svitnaðir", "svitnaði"],
+					"ft": ["svitnuðum", "svitnuðuð", "svitnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svitni", "svitnir", "svitni"],
+					"ft": ["svitnum", "svitnið", "svitni"]
+				},
+				"þátíð": {
+					"et": ["svitnaði", "svitnaðir", "svitnaði"],
+					"ft": ["svitnuðum", "svitnuðuð", "svitnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svitnarðu",
+					"ft": "svitniði"
+				},
+				"þátíð": {
+					"et": "svitnaðirðu",
+					"ft": "svitnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svitnirðu",
+					"ft": "svitniði"
+				},
+				"þátíð": {
+					"et": "svitnaðirðu",
+					"ft": "svitnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "svitnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["svitnaður", "svitnaðan", "svitnuðum", "svitnaðs"],
+					"kvk": ["svitnuð", "svitnaða", "svitnaðri", "svitnaðrar"],
+					"hk": ["svitnað", "svitnað", "svitnuðu", "svitnaðs"]
+				},
+				"ft": {
+					"kk": ["svitnaðir", "svitnaða", "svitnuðum", "svitnaðra"],
+					"kvk": ["svitnaðar", "svitnaðar", "svitnuðum", "svitnaðra"],
+					"hk": ["svitnuð", "svitnuð", "svitnuðum", "svitnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-svitna",
+	"hash": "06578eab18ee7778da67f9a897d813b4ef4d696f4a00f576d896bb2693527547"
+}

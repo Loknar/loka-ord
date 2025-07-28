@@ -1,0 +1,135 @@
+{
+	"orð": "hæðarjafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hæðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hæð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-jafna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hæðarjafna",
+		"sagnbót": "hæðarjafnað",
+		"boðháttur": {
+			"stýfður": "hæðarjafna",
+			"et": "hæðarjafnaðu",
+			"ft": "hæðarjafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hæðarjafna", "hæðarjafnar", "hæðarjafnar"],
+					"ft": ["hæðarjöfnum", "hæðarjafnið", "hæðarjafna"]
+				},
+				"þátíð": {
+					"et": ["hæðarjafnaði", "hæðarjafnaðir", "hæðarjafnaði"],
+					"ft": ["hæðarjöfnuðum", "hæðarjöfnuðuð", "hæðarjöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hæðarjafni", "hæðarjafnir", "hæðarjafni"],
+					"ft": ["hæðarjöfnum", "hæðarjafnið", "hæðarjafni"]
+				},
+				"þátíð": {
+					"et": ["hæðarjafnaði", "hæðarjafnaðir", "hæðarjafnaði"],
+					"ft": ["hæðarjöfnuðum", "hæðarjöfnuðuð", "hæðarjöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hæðarjafnarðu",
+					"ft": "hæðarjafniði"
+				},
+				"þátíð": {
+					"et": "hæðarjafnaðirðu",
+					"ft": "hæðarjöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hæðarjafnirðu",
+					"ft": "hæðarjafniði"
+				},
+				"þátíð": {
+					"et": "hæðarjafnaðirðu",
+					"ft": "hæðarjöfnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hæðarjafnast",
+		"sagnbót": "hæðarjafnast",
+		"boðháttur": {
+			"et": "hæðarjafnastu",
+			"ft": "hæðarjafnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hæðarjafnast", "hæðarjafnast", "hæðarjafnast"],
+					"ft": ["hæðarjöfnumst", "hæðarjafnist", "hæðarjafnast"]
+				},
+				"þátíð": {
+					"et": ["hæðarjafnaðist", "hæðarjafnaðist", "hæðarjafnaðist"],
+					"ft": ["hæðarjöfnuðumst", "hæðarjöfnuðust", "hæðarjöfnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hæðarjafnist", "hæðarjafnist", "hæðarjafnist"],
+					"ft": ["hæðarjöfnumst", "hæðarjafnist", "hæðarjafnist"]
+				},
+				"þátíð": {
+					"et": ["hæðarjafnaðist", "hæðarjafnaðist", "hæðarjafnaðist"],
+					"ft": ["hæðarjöfnuðumst", "hæðarjöfnuðust", "hæðarjöfnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hæðarjafnastu"
+				},
+				"þátíð": {
+					"et": "hæðarjafnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hæðarjafnistu"
+				},
+				"þátíð": {
+					"et": "hæðarjafnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hæðarjafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hæðarjafnaður", "hæðarjafnaðan", "hæðarjöfnuðum", "hæðarjafnaðs"],
+					"kvk": ["hæðarjöfnuð", "hæðarjafnaða", "hæðarjafnaðri", "hæðarjafnaðrar"],
+					"hk": ["hæðarjafnað", "hæðarjafnað", "hæðarjöfnuðu", "hæðarjafnaðs"]
+				},
+				"ft": {
+					"kk": ["hæðarjafnaðir", "hæðarjafnaða", "hæðarjöfnuðum", "hæðarjafnaðra"],
+					"kvk": ["hæðarjafnaðar", "hæðarjafnaðar", "hæðarjöfnuðum", "hæðarjafnaðra"],
+					"hk": ["hæðarjöfnuð", "hæðarjöfnuð", "hæðarjöfnuðum", "hæðarjafnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hæðarjafna",
+	"hash": "d434d188f5237b577cc48a98fededaa0ef52934b8774224094b6e25b71ac0f7c"
+}

@@ -1,0 +1,65 @@
+{
+	"orð": "tárast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tár",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tár-hk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "tárast",
+		"sagnbót": "tárast",
+		"boðháttur": {
+			"et": "tárastu",
+			"ft": "tárist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tárast", "tárast", "tárast"],
+					"ft": ["tárumst", "tárist", "tárast"]
+				},
+				"þátíð": {
+					"et": ["táraðist", "táraðist", "táraðist"],
+					"ft": ["táruðumst", "táruðust", "táruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tárist", "tárist", "tárist"],
+					"ft": ["tárumst", "tárist", "tárist"]
+				},
+				"þátíð": {
+					"et": ["táraðist", "táraðist", "táraðist"],
+					"ft": ["táruðumst", "táruðust", "táruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tárastu"
+				},
+				"þátíð": {
+					"et": "táraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "táristu"
+				},
+				"þátíð": {
+					"et": "táraðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tárast",
+	"hash": "ff8337a924ebb27d53a69dff2a5f963a036ea0d58a7003c2a74455aee33286be"
+}

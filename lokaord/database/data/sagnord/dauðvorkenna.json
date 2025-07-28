@@ -1,0 +1,70 @@
+{
+	"orð": "dauðvorkenna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dauð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dauði-kk"
+		},
+		{
+			"beygingar": ["germynd"],
+			"kennistrengur": "so-vorkenna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dauðvorkenna",
+		"sagnbót": "dauðvorkennt",
+		"boðháttur": {
+			"stýfður": "dauðvorkenn",
+			"et": "dauðvorkenndu",
+			"ft": "dauðvorkennið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dauðvorkenni", "dauðvorkennir", "dauðvorkennir"],
+					"ft": ["dauðvorkennum", "dauðvorkennið", "dauðvorkenna"]
+				},
+				"þátíð": {
+					"et": ["dauðvorkenndi", "dauðvorkenndir", "dauðvorkenndi"],
+					"ft": ["dauðvorkenndum", "dauðvorkennduð", "dauðvorkenndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dauðvorkenni", "dauðvorkennir", "dauðvorkenni"],
+					"ft": ["dauðvorkennum", "dauðvorkennið", "dauðvorkenni"]
+				},
+				"þátíð": {
+					"et": ["dauðvorkenndi", "dauðvorkenndir", "dauðvorkenndi"],
+					"ft": ["dauðvorkenndum", "dauðvorkennduð", "dauðvorkenndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dauðvorkennirðu",
+					"ft": "dauðvorkenniði"
+				},
+				"þátíð": {
+					"et": "dauðvorkenndirðu",
+					"ft": "dauðvorkennduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dauðvorkennirðu",
+					"ft": "dauðvorkenniði"
+				},
+				"þátíð": {
+					"et": "dauðvorkenndirðu",
+					"ft": "dauðvorkennduði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dauðvorkenna",
+	"hash": "0d2c6df18e2084bf3ec3d819a1d3811d444e1cfe6fa2a8bac348db80bb5c5f59"
+}

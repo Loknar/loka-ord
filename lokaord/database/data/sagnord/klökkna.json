@@ -1,0 +1,99 @@
+{
+	"orð": "klökkna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klökkn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-klökkur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "klökkna",
+		"sagnbót": "klökknað",
+		"boðháttur": {
+			"stýfður": "klökkna",
+			"et": "klökknaðu",
+			"ft": "klökknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klökkna", "klökknar", "klökknar"],
+					"ft": ["klökknum", "klökknið", "klökkna"]
+				},
+				"þátíð": {
+					"et": ["klökknaði", "klökknaðir", "klökknaði"],
+					"ft": ["klökknuðum", "klökknuðuð", "klökknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klökkni", "klökknir", "klökkni"],
+					"ft": ["klökknum", "klökknið", "klökkni"]
+				},
+				"þátíð": {
+					"et": ["klökknaði", "klökknaðir", "klökknaði"],
+					"ft": ["klökknuðum", "klökknuðuð", "klökknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klökknarðu",
+					"ft": "klökkniði"
+				},
+				"þátíð": {
+					"et": "klökknaðirðu",
+					"ft": "klökknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klökknirðu",
+					"ft": "klökkniði"
+				},
+				"þátíð": {
+					"et": "klökknaðirðu",
+					"ft": "klökknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klökknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klökknaður", "klökknaðan", "klökknuðum", "klökknaðs"],
+					"kvk": ["klökknuð", "klökknaða", "klökknaðri", "klökknaðrar"],
+					"hk": ["klökknað", "klökknað", "klökknuðu", "klökknaðs"]
+				},
+				"ft": {
+					"kk": ["klökknaðir", "klökknaða", "klökknuðum", "klökknaðra"],
+					"kvk": ["klökknaðar", "klökknaðar", "klökknuðum", "klökknaðra"],
+					"hk": ["klökknuð", "klökknuð", "klökknuðum", "klökknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["klökknaði", "klökknaða", "klökknaða", "klökknaða"],
+					"kvk": ["klökknaða", "klökknuðu", "klökknuðu", "klökknuðu"],
+					"hk": ["klökknaða", "klökknaða", "klökknaða", "klökknaða"]
+				},
+				"ft": {
+					"kk": ["klökknuðu", "klökknuðu", "klökknuðu", "klökknuðu"],
+					"kvk": ["klökknuðu", "klökknuðu", "klökknuðu", "klökknuðu"],
+					"hk": ["klökknuðu", "klökknuðu", "klökknuðu", "klökknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klökkna",
+	"hash": "e4b765cab6a68ff63c370385ae20453d9e9e40d5ab0660f0b96c0fec8157516c"
+}

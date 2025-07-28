@@ -1,0 +1,65 @@
+{
+	"orð": "þvermóðskast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þvermóðsk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þvermóðska-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "þvermóðskast",
+		"sagnbót": "þvermóðskast",
+		"boðháttur": {
+			"et": "þvermóðskastu",
+			"ft": "þvermóðskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þvermóðskast", "þvermóðskast", "þvermóðskast"],
+					"ft": ["þvermóðskumst", "þvermóðskist", "þvermóðskast"]
+				},
+				"þátíð": {
+					"et": ["þvermóðskaðist", "þvermóðskaðist", "þvermóðskaðist"],
+					"ft": ["þvermóðskuðumst", "þvermóðskuðust", "þvermóðskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þvermóðskist", "þvermóðskist", "þvermóðskist"],
+					"ft": ["þvermóðskumst", "þvermóðskist", "þvermóðskist"]
+				},
+				"þátíð": {
+					"et": ["þvermóðskaðist", "þvermóðskaðist", "þvermóðskaðist"],
+					"ft": ["þvermóðskuðumst", "þvermóðskuðust", "þvermóðskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þvermóðskastu"
+				},
+				"þátíð": {
+					"et": "þvermóðskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þvermóðskistu"
+				},
+				"þátíð": {
+					"et": "þvermóðskaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þvermóðskast",
+	"hash": "2f8cc45f54a76d9d9712532709cd43ca99ed1de6100161b5cd6c024442c38423"
+}

@@ -1,0 +1,121 @@
+{
+	"orð": "hossa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hoss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hoss-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hossa",
+		"sagnbót": "hossað",
+		"boðháttur": {
+			"stýfður": "hossa",
+			"et": "hossaðu",
+			"ft": "hossið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hossa", "hossar", "hossar"],
+					"ft": ["hossum", "hossið", "hossa"]
+				},
+				"þátíð": {
+					"et": ["hossaði", "hossaðir", "hossaði"],
+					"ft": ["hossuðum", "hossuðuð", "hossuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hossi", "hossir", "hossi"],
+					"ft": ["hossum", "hossið", "hossi"]
+				},
+				"þátíð": {
+					"et": ["hossaði", "hossaðir", "hossaði"],
+					"ft": ["hossuðum", "hossuðuð", "hossuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hossarðu",
+					"ft": "hossiði"
+				},
+				"þátíð": {
+					"et": "hossaðirðu",
+					"ft": "hossuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hossirðu",
+					"ft": "hossiði"
+				},
+				"þátíð": {
+					"et": "hossaðirðu",
+					"ft": "hossuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hossast",
+		"sagnbót": "hossast",
+		"boðháttur": {
+			"et": "hossastu",
+			"ft": "hossist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hossast", "hossast", "hossast"],
+					"ft": ["hossumst", "hossist", "hossast"]
+				},
+				"þátíð": {
+					"et": ["hossaðist", "hossaðist", "hossaðist"],
+					"ft": ["hossuðumst", "hossuðust", "hossuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hossist", "hossist", "hossist"],
+					"ft": ["hossumst", "hossist", "hossist"]
+				},
+				"þátíð": {
+					"et": ["hossaðist", "hossaðist", "hossaðist"],
+					"ft": ["hossuðumst", "hossuðust", "hossuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hossastu"
+				},
+				"þátíð": {
+					"et": "hossaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hossistu"
+				},
+				"þátíð": {
+					"et": "hossaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hossandi"
+	},
+	"kennistrengur": "so-hossa",
+	"hash": "fed487e9136a3ac60dd9aef1e12ca287ed44b4302cb05127f5349d0d92de0fdf"
+}
