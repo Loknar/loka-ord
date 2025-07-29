@@ -1,0 +1,31 @@
+{
+	"orð": "vopnainnflutningskostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "vopna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vopn-hk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "flutnings",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["vopnainnflutningskostnaður", "vopnainnflutningskostnað", "vopnainnflutningskostnaði", "vopnainnflutningskostnaðar"],
+		"mg": ["vopnainnflutningskostnaðurinn", "vopnainnflutningskostnaðinn", "vopnainnflutningskostnaðinum", "vopnainnflutningskostnaðarins"]
+	},
+	"kennistrengur": "no-vopnainnflutningskostnaður-kk",
+	"hash": "cc80a1ae4b17d80596d8917b6510ee0a9de5a15211e70e9d83a7bf792eaedd98"
+}

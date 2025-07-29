@@ -1,0 +1,32 @@
+{
+	"orð": "vopnaútflutningstekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vopna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vopn-hk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "flutnings",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["vopnaútflutningstekjur", "vopnaútflutningstekjur", "vopnaútflutningstekjum", "vopnaútflutningstekna"],
+		"mg": ["vopnaútflutningstekjurnar", "vopnaútflutningstekjurnar", "vopnaútflutningstekjunum", "vopnaútflutningsteknanna"]
+	},
+	"kennistrengur": "no-vopnaútflutningstekjur-kvk",
+	"hash": "c591f4b8fcd0244d047baf493463a2a9b489c3ecd5fb4ff98fa41aa0c9ce7ddc"
+}
