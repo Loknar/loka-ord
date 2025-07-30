@@ -1,0 +1,27 @@
+{
+	"orð": "jarðskjálftavá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "jarð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"mynd": "skjálfta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skjálfti-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["jarðskjálftavá", "jarðskjálftavá", "jarðskjálftavá", "jarðskjálftavár"],
+		"mg": ["jarðskjálftaváin", "jarðskjálftavána", "jarðskjálftavánni", "jarðskjálftavárinnar"]
+	},
+	"kennistrengur": "no-jarðskjálftavá-kvk",
+	"hash": "d009f96f156af37833a468baaa3130362c8e6ce598a2b5c8232050b186a2e3cc"
+}
