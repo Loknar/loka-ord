@@ -1,18 +1,6 @@
 {
 	"orð": "heppnast",
 	"flokkur": "sagnorð",
-	"samsett": [
-		{
-			"mynd": "hepp",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-heppinn"
-		},
-		{
-			"leiðir": "n",
-			"beygingar": ["miðmynd", "lýsingarháttur-þátíðar-sb"],
-			"kennistrengur": "so-a-ó"
-		}
-	],
 	"miðmynd": {
 		"nafnháttur": "heppnast",
 		"sagnbót": "heppnast",
@@ -39,6 +27,29 @@
 				"þátíð": {
 					"et": ["heppnaðist", "heppnaðist", "heppnaðist"],
 					"ft": ["heppnuðumst", "heppnuðust", "heppnuðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heppnast", "heppnast", "heppnast"],
+					"ft": ["heppnast", "heppnast", "heppnast"]
+				},
+				"þátíð": {
+					"et": ["heppnaðist", "heppnaðist", "heppnaðist"],
+					"ft": ["heppnaðist", "heppnaðist", "heppnaðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heppnist", "heppnist", "heppnist"],
+					"ft": ["heppnist", "heppnist", "heppnist"]
+				},
+				"þátíð": {
+					"et": ["heppnaðist", "heppnaðist", "heppnaðist"],
+					"ft": ["heppnaðist", "heppnaðist", "heppnaðist"]
 				}
 			}
 		},
@@ -78,5 +89,5 @@
 		}
 	},
 	"kennistrengur": "so-heppnast",
-	"hash": "e7202162af566abef34ad18892915bd72e1c5bca626adfc3c0a9e67622fdf1a2"
+	"hash": "a365562feb5874ce56c86891d77f8df33e763cae8d075ac8a5f124d40863a280"
 }
