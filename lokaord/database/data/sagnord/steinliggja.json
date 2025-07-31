@@ -1,0 +1,110 @@
+{
+	"orð": "steinliggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stein",
+			"samsetning": "stofn",
+			"kennistrengur": "no-steinn-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-liggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "steinliggja",
+		"sagnbót": "steinlegið",
+		"boðháttur": {
+			"stýfður": "steinligg",
+			"et": "steinliggðu",
+			"ft": "steinliggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["steinligg", "steinliggur", "steinliggur"],
+					"ft": ["steinliggjum", "steinliggið", "steinliggja"]
+				},
+				"þátíð": {
+					"et": ["steinlá", "steinlást", "steinlát"],
+					"ft": ["steinláum", "steinláuð", "steinláu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["steinliggi", "steinliggir", "steinliggi"],
+					"ft": ["steinliggjum", "steinliggið", "steinliggi"]
+				},
+				"þátíð": {
+					"et": ["steinlægi", "steinlægir", "steinlægi"],
+					"ft": ["steinlægjum", "steinlægjuð", "steinlægju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["steinliggur", "steinliggur", "steinliggur"],
+					"ft": ["steinliggur", "steinliggur", "steinliggur"]
+				},
+				"þátíð": {
+					"et": ["steinlá", "steinlá", "steinlá"],
+					"ft": ["steinlá", "steinlá", "steinlá"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["steinliggi", "steinliggi", "steinliggi"],
+					"ft": ["steinliggi", "steinliggi", "steinliggi"]
+				},
+				"þátíð": {
+					"et": ["steinlægi", "steinlægi", "steinlægi"],
+					"ft": ["steinlægi", "steinlægi", "steinlægi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "steinliggurðu",
+					"ft": "steinliggiði"
+				},
+				"þátíð": {
+					"et": "steinlástu",
+					"ft": "steinláguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "steinliggirðu",
+					"ft": "steinliggiði"
+				},
+				"þátíð": {
+					"et": "steinlægirðu",
+					"ft": "steinlægjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "steinliggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["steinleginn", "steinleginn", "steinlegnum", "steinlegins"],
+					"kvk": ["steinlegin", "steinlegna", "steinleginni", "steinleginnar"],
+					"hk": ["steinlegið", "steinlegið", "steinlegnu", "steinlegins"]
+				},
+				"ft": {
+					"kk": ["steinlegnir", "steinlegna", "steinlegnum", "steinleginna"],
+					"kvk": ["steinlegnar", "steinlegnar", "steinlegnum", "steinleginna"],
+					"hk": ["steinlegin", "steinlegin", "steinlegnum", "steinleginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-steinliggja",
+	"hash": "1f3762fcd0cdf26a998b9ba2bbc4e6e226eebe606903060e4eaab1f740ade857"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "dömpa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dömp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dömp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dömpa",
+		"sagnbót": "dömpað",
+		"boðháttur": {
+			"stýfður": "dömpa",
+			"et": "dömpaðu",
+			"ft": "dömpið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dömpa", "dömpar", "dömpar"],
+					"ft": ["dömpum", "dömpið", "dömpa"]
+				},
+				"þátíð": {
+					"et": ["dömpaði", "dömpaðir", "dömpaði"],
+					"ft": ["dömpuðum", "dömpuðuð", "dömpuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dömpi", "dömpir", "dömpi"],
+					"ft": ["dömpum", "dömpið", "dömpi"]
+				},
+				"þátíð": {
+					"et": ["dömpaði", "dömpaðir", "dömpaði"],
+					"ft": ["dömpuðum", "dömpuðuð", "dömpuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dömparðu",
+					"ft": "dömpiði"
+				},
+				"þátíð": {
+					"et": "dömpaðirðu",
+					"ft": "dömpuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dömpirðu",
+					"ft": "dömpiði"
+				},
+				"þátíð": {
+					"et": "dömpaðirðu",
+					"ft": "dömpuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dömpandi"
+	},
+	"kennistrengur": "so-dömpa",
+	"hash": "e3f2f77bde21a3c8b385c233f2e8799ba9b4f248aff0719a2e0e4d3dba74d0d1"
+}
