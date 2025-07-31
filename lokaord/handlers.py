@@ -47,7 +47,7 @@ class Ord:
 
 	non_inherited_keys_via_samsett_ord = set([
 		'orð', 'flokkur', 'undirflokkur', 'merking', 'kyn', 'tölugildi', 'samsett', 'hash',
-		'kennistrengur', 'ósjálfstætt', 'óbeygjanlegt', 'fleiryrt', 'stýrir'
+		'kennistrengur', 'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'fleiryrt', 'stýrir'
 	])
 
 	def __init__(self, loaded_from_file: bool = None, loaded_from_db: bool = None):
@@ -89,6 +89,7 @@ class Ord:
 		isl_ord.Tolugildi = self.data.tölugildi
 		isl_ord.OsjalfstaedurOrdhluti = bool(self.data.ósjálfstætt)
 		isl_ord.Obeygjanlegt = bool(self.data.óbeygjanlegt)
+		isl_ord.Erlent = bool(self.data.erlent)
 		isl_ord.Merking = self.data.merking
 		isl_ord.Kennistrengur = self.data.kennistrengur
 		changes_made = changes_made or db.Session.is_modified(isl_ord)
@@ -344,6 +345,7 @@ class Ord:
 			'tölugildi': isl_ord.Tolugildi,
 			'ósjálfstætt': isl_ord.OsjalfstaedurOrdhluti,
 			'óbeygjanlegt': isl_ord.Obeygjanlegt,
+			'erlent': isl_ord.Erlent,
 			'kennistrengur': isl_ord.Kennistrengur,
 		}
 		if isl_ord.Samsett is True:

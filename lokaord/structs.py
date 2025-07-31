@@ -285,7 +285,7 @@ class SamsettOrdhluti(BaseModel):
 		]
 		keys_values = ('samsetning', 'myndir')
 		keys_list_values = ('beygingar', )
-		keys_only_if_true = ('lágstafa', 'hástafa', 'ósjálfstætt')
+		keys_only_if_true = ('lágstafa', 'hástafa')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -313,6 +313,7 @@ class OrdData(BaseModel):
 	tölugildi: Optional[Decimal] = None
 	óbeygjanlegt: Optional[bool] = None
 	ósjálfstætt: Optional[bool] = None
+	erlent: Optional[bool] = None
 	datahash: Optional[NonEmptyStr] = Field(default=None, alias='hash')
 	kennistrengur: Optional[NonEmptyStr] = None
 
@@ -392,11 +393,11 @@ class NafnordData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'kyn', 'tölugildi', 'merking', 'samsett', 'et', 'ft', 'ósjálfstætt',
-			'kennistrengur', 'datahash'
+			'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'kyn')
-		keys_only_if_true = ('ósjálfstætt', )
+		keys_only_if_true = ('erlent', 'ósjálfstætt', )
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -525,11 +526,11 @@ class LysingarordData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'tölugildi', 'merking', 'samsett', 'frumstig', 'miðstig',
-			'efstastig', 'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'efstastig', 'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', )
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -805,11 +806,11 @@ class SagnordData(OrdData):
 		key_order = [
 			'orð', 'flokkur', 'tölugildi', 'merking', 'samsett', 'germynd', 'miðmynd',
 			'lýsingarháttur', 'óskháttur_1p_ft', 'óskháttur_3p', 'ósjálfstætt', 'óbeygjanlegt',
-			'kennistrengur', 'datahash'
+			'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', )
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -943,11 +944,11 @@ class FornafnData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'merking', 'samsett', 'persóna', 'kyn', 'samsett',
-			'et', 'ft', 'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'et', 'ft', 'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1015,11 +1016,11 @@ class FjoldatalaData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'et', 'ft',
-			'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1059,11 +1060,11 @@ class RadtalaData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'sb', 'vb',
-			'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1101,11 +1102,11 @@ class ForsetningData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'stýrir',
-			'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1144,11 +1145,11 @@ class AtviksordData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'miðstig',
-			'efstastig', 'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'efstastig', 'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1185,11 +1186,11 @@ class NafnhattarmerkiData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'ósjálfstætt',
-			'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1232,11 +1233,11 @@ class SamtengingData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'fleiryrt',
-			'ósjálfstætt', 'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'ósjálfstætt', 'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1273,11 +1274,11 @@ class UpphropunData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'tölugildi', 'merking', 'samsett', 'ósjálfstætt',
-			'óbeygjanlegt', 'kennistrengur', 'datahash'
+			'óbeygjanlegt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:
@@ -1348,11 +1349,11 @@ class SernafnData(OrdData):
 		data = dict()
 		key_order = [
 			'orð', 'flokkur', 'undirflokkur', 'kyn', 'tölugildi', 'merking', 'samsett', 'et', 'ft',
-			'ósjálfstætt', 'kennistrengur', 'datahash'
+			'ósjálfstætt', 'erlent', 'kennistrengur', 'datahash'
 		]
 		key_map = {'datahash': 'hash'}
 		keys_values = ('flokkur', 'undirflokkur', 'kyn')
-		keys_only_if_true = ('ósjálfstætt', 'óbeygjanlegt')
+		keys_only_if_true = ('erlent', 'ósjálfstætt', 'óbeygjanlegt')
 		for key in key_order:
 			if data_dict[key] is not None:
 				if key in keys_values:

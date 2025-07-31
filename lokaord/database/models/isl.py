@@ -100,6 +100,7 @@ class Ord(Base):
 	Undantekning = utils.boolean_default_false()
 	OsjalfstaedurOrdhluti = utils.boolean_default_false()
 	Obeygjanlegt = utils.boolean_default_false()
+	Erlent = utils.boolean_default_false()
 	Merking = utils.word()
 	Kennistrengur = utils.word(nullable=False, unique=True)
 	Edited = utils.timestamp_edited()
