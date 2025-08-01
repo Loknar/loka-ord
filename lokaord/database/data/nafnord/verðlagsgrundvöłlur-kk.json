@@ -1,0 +1,32 @@
+{
+	"orð": "verðlagsgrundvöłlur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"mynd": "grund",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grund-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vöłlur-kk"
+		}
+	],
+	"et": {
+		"ág": ["verðlagsgrundvöłlur", "verðlagsgrundvöłl", "verðlagsgrundvełli", "verðlagsgrundvałlar"],
+		"mg": ["verðlagsgrundvöłlurinn", "verðlagsgrundvöłlinn", "verðlagsgrundvełlinum", "verðlagsgrundvałlarins"]
+	},
+	"kennistrengur": "no-verðlagsgrundvöłlur-kk",
+	"hash": "9afc256c5c2753d84b206ed749009b806789b72c735679168fd2fde694a1c2aa"
+}

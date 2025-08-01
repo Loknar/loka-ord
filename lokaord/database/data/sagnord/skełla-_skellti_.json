@@ -100,8 +100,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "skełlandi"
+		"nútíðar": "skełlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skelltur", "skelltan", "skelltum", "skellts"],
+					"kvk": ["skellt", "skellta", "skelltri", "skelltrar"],
+					"hk": ["skellt", "skellt", "skelltu", "skellts"]
+				},
+				"ft": {
+					"kk": ["skelltir", "skellta", "skelltum", "skelltra"],
+					"kvk": ["skelltar", "skelltar", "skelltum", "skelltra"],
+					"hk": ["skellt", "skellt", "skelltum", "skelltra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skellti", "skellta", "skellta", "skellta"],
+					"kvk": ["skellta", "skelltu", "skelltu", "skelltu"],
+					"hk": ["skellta", "skellta", "skellta", "skellta"]
+				},
+				"ft": {
+					"kk": ["skelltu", "skelltu", "skelltu", "skelltu"],
+					"kvk": ["skelltu", "skelltu", "skelltu", "skelltu"],
+					"hk": ["skelltu", "skelltu", "skelltu", "skelltu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-skełla-_skellti_",
-	"hash": "142dd831f2c2450d2f8396904e743b3804944d78c3f657ce87fb30555fd63a8e"
+	"hash": "41bcdcaba4c9f2bb46b90965936a788909bd0ac102ffee3159c00eba27b770ba"
 }

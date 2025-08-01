@@ -1,0 +1,48 @@
+{
+	"orð": "fjármálalæs",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-læs"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fjármálalæs", "fjármálalæsan", "fjármálalæsum", "fjármálalæss"],
+				"kvk": ["fjármálalæs", "fjármálalæsa", "fjármálalæsri", "fjármálalæsrar"],
+				"hk": ["fjármálalæst", "fjármálalæst", "fjármálalæsu", "fjármálalæss"]
+			},
+			"ft": {
+				"kk": ["fjármálalæsir", "fjármálalæsa", "fjármálalæsum", "fjármálalæsra"],
+				"kvk": ["fjármálalæsar", "fjármálalæsar", "fjármálalæsum", "fjármálalæsra"],
+				"hk": ["fjármálalæs", "fjármálalæs", "fjármálalæsum", "fjármálalæsra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fjármálalæsi", "fjármálalæsa", "fjármálalæsa", "fjármálalæsa"],
+				"kvk": ["fjármálalæsa", "fjármálalæsu", "fjármálalæsu", "fjármálalæsu"],
+				"hk": ["fjármálalæsa", "fjármálalæsa", "fjármálalæsa", "fjármálalæsa"]
+			},
+			"ft": {
+				"kk": ["fjármálalæsu", "fjármálalæsu", "fjármálalæsu", "fjármálalæsu"],
+				"kvk": ["fjármálalæsu", "fjármálalæsu", "fjármálalæsu", "fjármálalæsu"],
+				"hk": ["fjármálalæsu", "fjármálalæsu", "fjármálalæsu", "fjármálalæsu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fjármálalæs",
+	"hash": "139e297a9398d55ce5457c3ed6d79b763f58043664faf3ad49849d365411a62e"
+}

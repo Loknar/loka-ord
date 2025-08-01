@@ -1,0 +1,61 @@
+{
+	"orð": "ílengjast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "í",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-í"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-lengja"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ílengjast",
+		"sagnbót": "ílengst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ílengist", "ílengist", "ílengist"],
+					"ft": ["ílengjumst", "ílengist", "ílengjast"]
+				},
+				"þátíð": {
+					"et": ["ílengdist", "ílengdist", "ílengdist"],
+					"ft": ["ílengdumst", "ílengdust", "ílengdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ílengist", "ílengist", "ílengist"],
+					"ft": ["ílengjumst", "ílengist", "ílengist"]
+				},
+				"þátíð": {
+					"et": ["ílengdist", "ílengdist", "ílengdist"],
+					"ft": ["ílengdumst", "ílengdust", "ílengdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ílengistu"
+				},
+				"þátíð": {
+					"et": "ílengdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ílengistu"
+				},
+				"þátíð": {
+					"et": "ílengdistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ílengjast",
+	"hash": "dc59177f869e7780f4ba0e17eb742fc992dcb86c14c914bca923d0fd90784e81"
+}

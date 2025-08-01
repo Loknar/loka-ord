@@ -1,0 +1,30 @@
+{
+	"orð": "heildargreiðslumark",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-mark-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildargreiðslumark", "heildargreiðslumark", "heildargreiðslumarki", "heildargreiðslumarks"],
+		"mg": ["heildargreiðslumarkið", "heildargreiðslumarkið", "heildargreiðslumarkinu", "heildargreiðslumarksins"]
+	},
+	"ft": {
+		"ág": ["heildargreiðslumörk", "heildargreiðslumörk", "heildargreiðslumörkum", "heildargreiðslumarka"],
+		"mg": ["heildargreiðslumörkin", "heildargreiðslumörkin", "heildargreiðslumörkunum", "heildargreiðslumarkanna"]
+	},
+	"kennistrengur": "no-heildargreiðslumark-hk",
+	"hash": "5842833c899d3a3804d377c7295dd98fcd58f4dcb2cdd08936d8a46682a7b659"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "staðreyndalaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "reynda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reynd-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["staðreyndalaus", "staðreyndalausan", "staðreyndalausum", "staðreyndalauss"],
+				"kvk": ["staðreyndalaus", "staðreyndalausa", "staðreyndalausri", "staðreyndalausrar"],
+				"hk": ["staðreyndalaust", "staðreyndalaust", "staðreyndalausu", "staðreyndalauss"]
+			},
+			"ft": {
+				"kk": ["staðreyndalausir", "staðreyndalausa", "staðreyndalausum", "staðreyndalausra"],
+				"kvk": ["staðreyndalausar", "staðreyndalausar", "staðreyndalausum", "staðreyndalausra"],
+				"hk": ["staðreyndalaus", "staðreyndalaus", "staðreyndalausum", "staðreyndalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["staðreyndalausi", "staðreyndalausa", "staðreyndalausa", "staðreyndalausa"],
+				"kvk": ["staðreyndalausa", "staðreyndalausu", "staðreyndalausu", "staðreyndalausu"],
+				"hk": ["staðreyndalausa", "staðreyndalausa", "staðreyndalausa", "staðreyndalausa"]
+			},
+			"ft": {
+				"kk": ["staðreyndalausu", "staðreyndalausu", "staðreyndalausu", "staðreyndalausu"],
+				"kvk": ["staðreyndalausu", "staðreyndalausu", "staðreyndalausu", "staðreyndalausu"],
+				"hk": ["staðreyndalausu", "staðreyndalausu", "staðreyndalausu", "staðreyndalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-staðreyndalaus",
+	"hash": "b2312386c4d9f5aa1e39ac4980651926b246c778536fd0896a9af5c8fcb5dbd3"
+}

@@ -1,0 +1,43 @@
+{
+	"orð": "kynningarhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kynningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kynning-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kynningarhæfur", "kynningarhæfan", "kynningarhæfum", "kynningarhæfs"],
+				"kvk": ["kynningarhæf", "kynningarhæfa", "kynningarhæfri", "kynningarhæfrar"],
+				"hk": ["kynningarhæft", "kynningarhæft", "kynningarhæfu", "kynningarhæfs"]
+			},
+			"ft": {
+				"kk": ["kynningarhæfir", "kynningarhæfa", "kynningarhæfum", "kynningarhæfra"],
+				"kvk": ["kynningarhæfar", "kynningarhæfar", "kynningarhæfum", "kynningarhæfra"],
+				"hk": ["kynningarhæf", "kynningarhæf", "kynningarhæfum", "kynningarhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kynningarhæfi", "kynningarhæfa", "kynningarhæfa", "kynningarhæfa"],
+				"kvk": ["kynningarhæfa", "kynningarhæfu", "kynningarhæfu", "kynningarhæfu"],
+				"hk": ["kynningarhæfa", "kynningarhæfa", "kynningarhæfa", "kynningarhæfa"]
+			},
+			"ft": {
+				"kk": ["kynningarhæfu", "kynningarhæfu", "kynningarhæfu", "kynningarhæfu"],
+				"kvk": ["kynningarhæfu", "kynningarhæfu", "kynningarhæfu", "kynningarhæfu"],
+				"hk": ["kynningarhæfu", "kynningarhæfu", "kynningarhæfu", "kynningarhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kynningarhæfur",
+	"hash": "94f588fab3448f2f592dff85a0e1eb90386e006360023f72fc2d42b0f6486461"
+}
