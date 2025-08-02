@@ -1,0 +1,135 @@
+{
+	"orð": "fregna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fregn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fregn-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fregna",
+		"sagnbót": "fregnað",
+		"boðháttur": {
+			"stýfður": "fregna",
+			"et": "fregnaðu",
+			"ft": "fregnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fregna", "fregnar", "fregnar"],
+					"ft": ["fregnum", "fregnið", "fregna"]
+				},
+				"þátíð": {
+					"et": ["fregnaði", "fregnaðir", "fregnaði"],
+					"ft": ["fregnuðum", "fregnuðuð", "fregnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fregni", "fregnir", "fregni"],
+					"ft": ["fregnum", "fregnið", "fregni"]
+				},
+				"þátíð": {
+					"et": ["fregnaði", "fregnaðir", "fregnaði"],
+					"ft": ["fregnuðum", "fregnuðuð", "fregnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fregnarðu",
+					"ft": "fregniði"
+				},
+				"þátíð": {
+					"et": "fregnaðirðu",
+					"ft": "fregnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fregnirðu",
+					"ft": "fregniði"
+				},
+				"þátíð": {
+					"et": "fregnaðirðu",
+					"ft": "fregnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fregnast",
+		"sagnbót": "fregnast",
+		"boðháttur": {
+			"et": "fregnastu",
+			"ft": "fregnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fregnast", "fregnast", "fregnast"],
+					"ft": ["fregnumst", "fregnist", "fregnast"]
+				},
+				"þátíð": {
+					"et": ["fregnaðist", "fregnaðist", "fregnaðist"],
+					"ft": ["fregnuðumst", "fregnuðust", "fregnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fregnist", "fregnist", "fregnist"],
+					"ft": ["fregnumst", "fregnist", "fregnist"]
+				},
+				"þátíð": {
+					"et": ["fregnaðist", "fregnaðist", "fregnaðist"],
+					"ft": ["fregnuðumst", "fregnuðust", "fregnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fregnastu"
+				},
+				"þátíð": {
+					"et": "fregnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fregnistu"
+				},
+				"þátíð": {
+					"et": "fregnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fregnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fregnaður", "fregnaðan", "fregnuðum", "fregnaðs"],
+					"kvk": ["fregnuð", "fregnaða", "fregnaðri", "fregnaðrar"],
+					"hk": ["fregnað", "fregnað", "fregnuðu", "fregnaðs"]
+				},
+				"ft": {
+					"kk": ["fregnaðir", "fregnaða", "fregnuðum", "fregnaðra"],
+					"kvk": ["fregnaðar", "fregnaðar", "fregnuðum", "fregnaðra"],
+					"hk": ["fregnuð", "fregnuð", "fregnuðum", "fregnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fregna",
+	"hash": "8cf57c3c5e2be3d7f6a5529bad69808ba5004a7d7e5c05f7677f56afde273d2b"
+}

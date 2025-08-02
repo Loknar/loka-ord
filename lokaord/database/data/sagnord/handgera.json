@@ -1,0 +1,99 @@
+{
+	"orð": "handgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handgera",
+		"sagnbót": "handgert",
+		"boðháttur": {
+			"stýfður": "handger",
+			"et": "handgerðu",
+			"ft": "handgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handgeri", "handgerir", "handgerir"],
+					"ft": ["handgerum", "handgerið", "handgera"]
+				},
+				"þátíð": {
+					"et": ["handgerði", "handgerðir", "handgerði"],
+					"ft": ["handgerðum", "handgerðuð", "handgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handgeri", "handgerir", "handgeri"],
+					"ft": ["handgerum", "handgerið", "handgeri"]
+				},
+				"þátíð": {
+					"et": ["handgerði", "handgerðir", "handgerði"],
+					"ft": ["handgerðum", "handgerðuð", "handgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handgerirðu",
+					"ft": "handgeriði"
+				},
+				"þátíð": {
+					"et": "handgerðirðu",
+					"ft": "handgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handgerirðu",
+					"ft": "handgeriði"
+				},
+				"þátíð": {
+					"et": "handgerðirðu",
+					"ft": "handgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handgerður", "handgerðan", "handgerðum", "handgerðs"],
+					"kvk": ["handgerð", "handgerða", "handgerðri", "handgerðrar"],
+					"hk": ["handgert", "handgert", "handgerðu", "handgerðs"]
+				},
+				"ft": {
+					"kk": ["handgerðir", "handgerða", "handgerðum", "handgerðra"],
+					"kvk": ["handgerðar", "handgerðar", "handgerðum", "handgerðra"],
+					"hk": ["handgerð", "handgerð", "handgerðum", "handgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handgerði", "handgerða", "handgerða", "handgerða"],
+					"kvk": ["handgerða", "handgerðu", "handgerðu", "handgerðu"],
+					"hk": ["handgerða", "handgerða", "handgerða", "handgerða"]
+				},
+				"ft": {
+					"kk": ["handgerðu", "handgerðu", "handgerðu", "handgerðu"],
+					"kvk": ["handgerðu", "handgerðu", "handgerðu", "handgerðu"],
+					"hk": ["handgerðu", "handgerðu", "handgerðu", "handgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handgera",
+	"hash": "026259f3f214ec4fc2a15967b9e9b76bf5445e84df846d2072aa08b195fb8b3d"
+}
