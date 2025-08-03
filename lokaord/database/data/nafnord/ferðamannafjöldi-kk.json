@@ -1,0 +1,27 @@
+{
+	"orð": "ferðamannafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["ferðamannafjöldi", "ferðamannafjölda", "ferðamannafjölda", "ferðamannafjölda"],
+		"mg": ["ferðamannafjöldinn", "ferðamannafjöldann", "ferðamannafjöldanum", "ferðamannafjöldans"]
+	},
+	"kennistrengur": "no-ferðamannafjöldi-kk",
+	"hash": "276acdcb071051a5499dee49376f4c53f08a71a836bf874ad5924f228ee574c0"
+}

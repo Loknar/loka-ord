@@ -1,0 +1,48 @@
+{
+	"orð": "klukkustundarlangur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "klukku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-klukka-kvk"
+		},
+		{
+			"mynd": "stundar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stund-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-langur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["klukkustundarlangur", "klukkustundarlangan", "klukkustundarlöngum", "klukkustundarlangs"],
+				"kvk": ["klukkustundarlöng", "klukkustundarlanga", "klukkustundarlangri", "klukkustundarlangrar"],
+				"hk": ["klukkustundarlangt", "klukkustundarlangt", "klukkustundarlöngu", "klukkustundarlangs"]
+			},
+			"ft": {
+				"kk": ["klukkustundarlangir", "klukkustundarlanga", "klukkustundarlöngum", "klukkustundarlangra"],
+				"kvk": ["klukkustundarlangar", "klukkustundarlangar", "klukkustundarlöngum", "klukkustundarlangra"],
+				"hk": ["klukkustundarlöng", "klukkustundarlöng", "klukkustundarlöngum", "klukkustundarlangra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["klukkustundarlangi", "klukkustundarlanga", "klukkustundarlanga", "klukkustundarlanga"],
+				"kvk": ["klukkustundarlanga", "klukkustundarlöngu", "klukkustundarlöngu", "klukkustundarlöngu"],
+				"hk": ["klukkustundarlanga", "klukkustundarlanga", "klukkustundarlanga", "klukkustundarlanga"]
+			},
+			"ft": {
+				"kk": ["klukkustundarlöngu", "klukkustundarlöngu", "klukkustundarlöngu", "klukkustundarlöngu"],
+				"kvk": ["klukkustundarlöngu", "klukkustundarlöngu", "klukkustundarlöngu", "klukkustundarlöngu"],
+				"hk": ["klukkustundarlöngu", "klukkustundarlöngu", "klukkustundarlöngu", "klukkustundarlöngu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-klukkustundarlangur",
+	"hash": "0aee60ddadbad0b1c7353f87c82de2cbe51a5f3289b789f82a50caf909487741"
+}

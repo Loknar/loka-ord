@@ -1,0 +1,99 @@
+{
+	"orð": "betla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "betl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-betl-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "betla",
+		"sagnbót": "betlað",
+		"boðháttur": {
+			"stýfður": "betla",
+			"et": "betlaðu",
+			"ft": "betlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["betla", "betlar", "betlar"],
+					"ft": ["betlum", "betlið", "betla"]
+				},
+				"þátíð": {
+					"et": ["betlaði", "betlaðir", "betlaði"],
+					"ft": ["betluðum", "betluðuð", "betluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["betli", "betlir", "betli"],
+					"ft": ["betlum", "betlið", "betli"]
+				},
+				"þátíð": {
+					"et": ["betlaði", "betlaðir", "betlaði"],
+					"ft": ["betluðum", "betluðuð", "betluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "betlarðu",
+					"ft": "betliði"
+				},
+				"þátíð": {
+					"et": "betlaðirðu",
+					"ft": "betluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "betlirðu",
+					"ft": "betliði"
+				},
+				"þátíð": {
+					"et": "betlaðirðu",
+					"ft": "betluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "betlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["betlaður", "betlaðan", "betluðum", "betlaðs"],
+					"kvk": ["betluð", "betlaða", "betlaðri", "betlaðrar"],
+					"hk": ["betlað", "betlað", "betluðu", "betlaðs"]
+				},
+				"ft": {
+					"kk": ["betlaðir", "betlaða", "betluðum", "betlaðra"],
+					"kvk": ["betlaðar", "betlaðar", "betluðum", "betlaðra"],
+					"hk": ["betluð", "betluð", "betluðum", "betlaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["betlaði", "betlaða", "betlaða", "betlaða"],
+					"kvk": ["betlaða", "betluðu", "betluðu", "betluðu"],
+					"hk": ["betlaða", "betlaða", "betlaða", "betlaða"]
+				},
+				"ft": {
+					"kk": ["betluðu", "betluðu", "betluðu", "betluðu"],
+					"kvk": ["betluðu", "betluðu", "betluðu", "betluðu"],
+					"hk": ["betluðu", "betluðu", "betluðu", "betluðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-betla",
+	"hash": "c42c4bee0bdeddf98950c60e2f934a8400f498726fc8d26ab9168447c3cf34c8"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "ferðaleiðsögn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leið-kvk"
+		},
+		{
+			"kennistrengur": "no-sögn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ferðaleiðsögn", "ferðaleiðsögn", "ferðaleiðsögn", "ferðaleiðsagnar"],
+		"mg": ["ferðaleiðsögnin", "ferðaleiðsögnina", "ferðaleiðsögninni", "ferðaleiðsagnarinnar"]
+	},
+	"ft": {
+		"ág": ["ferðaleiðsagnir", "ferðaleiðsagnir", "ferðaleiðsögnum", "ferðaleiðsagna"],
+		"mg": ["ferðaleiðsagnirnar", "ferðaleiðsagnirnar", "ferðaleiðsögnunum", "ferðaleiðsagnanna"]
+	},
+	"kennistrengur": "no-ferðaleiðsögn-kvk",
+	"hash": "fe0bdfb7833278d3dc2cda82985db1a604182b32f4f159db9a00af1c8543b68a"
+}

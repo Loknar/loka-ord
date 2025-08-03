@@ -1,0 +1,99 @@
+{
+	"orð": "innblása",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur"],
+			"kennistrengur": "so-blása"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "innblása",
+		"sagnbót": "innblásið",
+		"boðháttur": {
+			"stýfður": "innblás",
+			"et": "innblástu",
+			"ft": "innblásið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["innblæs", "innblæst", "innblæs"],
+					"ft": ["innblásum", "innblásið", "innblása"]
+				},
+				"þátíð": {
+					"et": ["innblés", "innblést", "innblés"],
+					"ft": ["innblésum", "innblésuð", "innblésu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["innblási", "innblásir", "innblási"],
+					"ft": ["innblásum", "innblásið", "innblási"]
+				},
+				"þátíð": {
+					"et": ["innblési", "innblésir", "innblési"],
+					"ft": ["innblésum", "innblésuð", "innblésu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "innblæstu",
+					"ft": "innblásiði"
+				},
+				"þátíð": {
+					"et": "innbléstu",
+					"ft": "innblésuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "innblásirðu",
+					"ft": "innblásiði"
+				},
+				"þátíð": {
+					"et": "innblésirðu",
+					"ft": "innblésuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "innblásandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["innblásinn", "innblásinn", "innblásnum", "innblásins"],
+					"kvk": ["innblásin", "innblásna", "innblásinni", "innblásinnar"],
+					"hk": ["innblásið", "innblásið", "innblásnu", "innblásins"]
+				},
+				"ft": {
+					"kk": ["innblásnir", "innblásna", "innblásnum", "innblásinna"],
+					"kvk": ["innblásnar", "innblásnar", "innblásnum", "innblásinna"],
+					"hk": ["innblásin", "innblásin", "innblásnum", "innblásinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["innblásni", "innblásna", "innblásna", "innblásna"],
+					"kvk": ["innblásna", "innblásnu", "innblásnu", "innblásnu"],
+					"hk": ["innblásna", "innblásna", "innblásna", "innblásna"]
+				},
+				"ft": {
+					"kk": ["innblásnu", "innblásnu", "innblásnu", "innblásnu"],
+					"kvk": ["innblásnu", "innblásnu", "innblásnu", "innblásnu"],
+					"hk": ["innblásnu", "innblásnu", "innblásnu", "innblásnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-innblása",
+	"hash": "aedc90d0d80d1aa87701cbfca5d693dd024ae068d1c428676d751f5a9e1ca60f"
+}

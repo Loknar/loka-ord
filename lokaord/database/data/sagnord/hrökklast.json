@@ -1,0 +1,65 @@
+{
+	"orð": "hrökklast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrökkl",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-hrökkva"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "hrökklast",
+		"sagnbót": "hrökklast",
+		"boðháttur": {
+			"et": "hrökklastu",
+			"ft": "hrökklist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrökklast", "hrökklast", "hrökklast"],
+					"ft": ["hrökklumst", "hrökklist", "hrökklast"]
+				},
+				"þátíð": {
+					"et": ["hrökklaðist", "hrökklaðist", "hrökklaðist"],
+					"ft": ["hrökkluðumst", "hrökkluðust", "hrökkluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrökklist", "hrökklist", "hrökklist"],
+					"ft": ["hrökklumst", "hrökklist", "hrökklist"]
+				},
+				"þátíð": {
+					"et": ["hrökklaðist", "hrökklaðist", "hrökklaðist"],
+					"ft": ["hrökkluðumst", "hrökkluðust", "hrökkluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hrökklastu"
+				},
+				"þátíð": {
+					"et": "hrökklaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hrökklistu"
+				},
+				"þátíð": {
+					"et": "hrökklaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hrökklast",
+	"hash": "3d617fdf6bb79734d3b29b1dd3dd80c8728bfedd6be76ee735b8a1963692af61"
+}

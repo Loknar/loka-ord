@@ -1,0 +1,48 @@
+{
+	"orð": "fíkniefnatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fíkni",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-fíkn-kvk"
+		},
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fíkniefnatengdur", "fíkniefnatengdan", "fíkniefnatengdum", "fíkniefnatengds"],
+				"kvk": ["fíkniefnatengd", "fíkniefnatengda", "fíkniefnatengdri", "fíkniefnatengdrar"],
+				"hk": ["fíkniefnatengt", "fíkniefnatengt", "fíkniefnatengdu", "fíkniefnatengds"]
+			},
+			"ft": {
+				"kk": ["fíkniefnatengdir", "fíkniefnatengda", "fíkniefnatengdum", "fíkniefnatengdra"],
+				"kvk": ["fíkniefnatengdar", "fíkniefnatengdar", "fíkniefnatengdum", "fíkniefnatengdra"],
+				"hk": ["fíkniefnatengd", "fíkniefnatengd", "fíkniefnatengdum", "fíkniefnatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fíkniefnatengdi", "fíkniefnatengda", "fíkniefnatengda", "fíkniefnatengda"],
+				"kvk": ["fíkniefnatengda", "fíkniefnatengdu", "fíkniefnatengdu", "fíkniefnatengdu"],
+				"hk": ["fíkniefnatengda", "fíkniefnatengda", "fíkniefnatengda", "fíkniefnatengda"]
+			},
+			"ft": {
+				"kk": ["fíkniefnatengdu", "fíkniefnatengdu", "fíkniefnatengdu", "fíkniefnatengdu"],
+				"kvk": ["fíkniefnatengdu", "fíkniefnatengdu", "fíkniefnatengdu", "fíkniefnatengdu"],
+				"hk": ["fíkniefnatengdu", "fíkniefnatengdu", "fíkniefnatengdu", "fíkniefnatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fíkniefnatengdur",
+	"hash": "17eabcd408359133c285360d8753e28a6fe7094a296d277bd8217782b44f5f2d"
+}

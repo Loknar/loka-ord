@@ -1,0 +1,32 @@
+{
+	"orð": "þjóðlagatónlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þjóð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "laga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"mynd": "tón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tónn-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["þjóðlagatónlist", "þjóðlagatónlist", "þjóðlagatónlist", "þjóðlagatónlistar"],
+		"mg": ["þjóðlagatónlistin", "þjóðlagatónlistina", "þjóðlagatónlistinni", "þjóðlagatónlistarinnar"]
+	},
+	"kennistrengur": "no-þjóðlagatónlist-kvk",
+	"hash": "c2cef6de348af4afe0fa294866f95ac22e24ee70244eeb46083a472b885fa93e"
+}

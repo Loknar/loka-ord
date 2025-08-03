@@ -1,0 +1,27 @@
+{
+	"orð": "umframbirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["umframbirgðir", "umframbirgðir", "umframbirgðum", "umframbirgða"],
+		"mg": ["umframbirgðirnar", "umframbirgðirnar", "umframbirgðunum", "umframbirgðanna"]
+	},
+	"kennistrengur": "no-umframbirgðir-kvk",
+	"hash": "00c412e158807b4f8444f77977e58b4d20b1902043ed94cec512f222d5ad21c4"
+}

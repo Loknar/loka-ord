@@ -1,0 +1,35 @@
+{
+	"orð": "skammtímaútleiga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "no-leiga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skammtímaútleiga", "skammtímaútleigu", "skammtímaútleigu", "skammtímaútleigu"],
+		"mg": ["skammtímaútleigan", "skammtímaútleiguna", "skammtímaútleigunni", "skammtímaútleigunnar"]
+	},
+	"ft": {
+		"ág": ["skammtímaútleigur", "skammtímaútleigur", "skammtímaútleigum", "skammtímaútleiga"],
+		"mg": ["skammtímaútleigurnar", "skammtímaútleigurnar", "skammtímaútleigunum", "skammtímaútleiganna"]
+	},
+	"kennistrengur": "no-skammtímaútleiga-kvk",
+	"hash": "dbf0f579fd3567da4de1dc1782c1359196b54c1a335da63a3665d8518847516d"
+}
