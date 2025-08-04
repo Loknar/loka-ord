@@ -1,0 +1,30 @@
+{
+	"orð": "löggæslumynd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"kennistrengur": "no-mynd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["löggæslumynd", "löggæslumynd", "löggæslumynd", "löggæslumyndar"],
+		"mg": ["löggæslumyndin", "löggæslumyndina", "löggæslumyndinni", "löggæslumyndarinnar"]
+	},
+	"ft": {
+		"ág": ["löggæslumyndir", "löggæslumyndir", "löggæslumyndum", "löggæslumynda"],
+		"mg": ["löggæslumyndirnar", "löggæslumyndirnar", "löggæslumyndunum", "löggæslumyndanna"]
+	},
+	"kennistrengur": "no-löggæslumynd-kvk",
+	"hash": "ea28408b4a37959c43b8d9c54b3470854cb98c35c2ef1df7f2bc67a467c3a201"
+}

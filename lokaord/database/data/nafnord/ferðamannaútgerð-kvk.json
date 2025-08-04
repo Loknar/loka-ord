@@ -1,0 +1,35 @@
+{
+	"orð": "ferðamannaútgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ferðamannaútgerð", "ferðamannaútgerð", "ferðamannaútgerð", "ferðamannaútgerðar"],
+		"mg": ["ferðamannaútgerðin", "ferðamannaútgerðina", "ferðamannaútgerðinni", "ferðamannaútgerðarinnar"]
+	},
+	"ft": {
+		"ág": ["ferðamannaútgerðir", "ferðamannaútgerðir", "ferðamannaútgerðum", "ferðamannaútgerða"],
+		"mg": ["ferðamannaútgerðirnar", "ferðamannaútgerðirnar", "ferðamannaútgerðunum", "ferðamannaútgerðanna"]
+	},
+	"kennistrengur": "no-ferðamannaútgerð-kvk",
+	"hash": "91235076434948bb8533f2f0282a2a31ae323ad37ad59e1f367df3fb29ee12e4"
+}

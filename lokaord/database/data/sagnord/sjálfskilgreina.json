@@ -1,0 +1,104 @@
+{
+	"orð": "sjálfskilgreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sjálf",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.áb-sjálfur"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sjálfskilgreina",
+		"sagnbót": "sjálfskilgreint",
+		"boðháttur": {
+			"stýfður": "sjálfskilgrein",
+			"et": "sjálfskilgreindu",
+			"ft": "sjálfskilgreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjálfskilgreini", "sjálfskilgreinir", "sjálfskilgreinir"],
+					"ft": ["sjálfskilgreinum", "sjálfskilgreinið", "sjálfskilgreina"]
+				},
+				"þátíð": {
+					"et": ["sjálfskilgreindi", "sjálfskilgreindir", "sjálfskilgreindi"],
+					"ft": ["sjálfskilgreindum", "sjálfskilgreinduð", "sjálfskilgreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjálfskilgreini", "sjálfskilgreinir", "sjálfskilgreini"],
+					"ft": ["sjálfskilgreinum", "sjálfskilgreinið", "sjálfskilgreini"]
+				},
+				"þátíð": {
+					"et": ["sjálfskilgreindi", "sjálfskilgreindir", "sjálfskilgreindi"],
+					"ft": ["sjálfskilgreindum", "sjálfskilgreinduð", "sjálfskilgreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjálfskilgreinirðu",
+					"ft": "sjálfskilgreiniði"
+				},
+				"þátíð": {
+					"et": "sjálfskilgreindirðu",
+					"ft": "sjálfskilgreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjálfskilgreinirðu",
+					"ft": "sjálfskilgreiniði"
+				},
+				"þátíð": {
+					"et": "sjálfskilgreindirðu",
+					"ft": "sjálfskilgreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjálfskilgreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sjálfskilgreindur", "sjálfskilgreindan", "sjálfskilgreindum", "sjálfskilgreinds"],
+					"kvk": ["sjálfskilgreind", "sjálfskilgreinda", "sjálfskilgreindri", "sjálfskilgreindrar"],
+					"hk": ["sjálfskilgreint", "sjálfskilgreint", "sjálfskilgreindu", "sjálfskilgreinds"]
+				},
+				"ft": {
+					"kk": ["sjálfskilgreindir", "sjálfskilgreinda", "sjálfskilgreindum", "sjálfskilgreindra"],
+					"kvk": ["sjálfskilgreindar", "sjálfskilgreindar", "sjálfskilgreindum", "sjálfskilgreindra"],
+					"hk": ["sjálfskilgreind", "sjálfskilgreind", "sjálfskilgreindum", "sjálfskilgreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sjálfskilgreindi", "sjálfskilgreinda", "sjálfskilgreinda", "sjálfskilgreinda"],
+					"kvk": ["sjálfskilgreinda", "sjálfskilgreindu", "sjálfskilgreindu", "sjálfskilgreindu"],
+					"hk": ["sjálfskilgreinda", "sjálfskilgreinda", "sjálfskilgreinda", "sjálfskilgreinda"]
+				},
+				"ft": {
+					"kk": ["sjálfskilgreindu", "sjálfskilgreindu", "sjálfskilgreindu", "sjálfskilgreindu"],
+					"kvk": ["sjálfskilgreindu", "sjálfskilgreindu", "sjálfskilgreindu", "sjálfskilgreindu"],
+					"hk": ["sjálfskilgreindu", "sjálfskilgreindu", "sjálfskilgreindu", "sjálfskilgreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjálfskilgreina",
+	"hash": "fec88870fce8895abe07c36b38d4413f5d32c85f27a065e67ce4a3fba6850733"
+}

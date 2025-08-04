@@ -1,0 +1,27 @@
+{
+	"orð": "veðuraðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "veður",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veður-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["veðuraðstæður", "veðuraðstæður", "veðuraðstæðum", "veðuraðstæðna"],
+		"mg": ["veðuraðstæðurnar", "veðuraðstæðurnar", "veðuraðstæðunum", "veðuraðstæðnanna"]
+	},
+	"kennistrengur": "no-veðuraðstæður-kvk",
+	"hash": "2adb141365f0beb5ef7c3aef40619ce939254778eb64267d05dc703bf6d5e7eb"
+}
