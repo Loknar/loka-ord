@@ -1,0 +1,30 @@
+{
+	"orð": "ferðadagskrá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"kennistrengur": "no-skrá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ferðadagskrá", "ferðadagskrá", "ferðadagskrá", "ferðadagskrár"],
+		"mg": ["ferðadagskráin", "ferðadagskrána", "ferðadagskránni", "ferðadagskrárinnar"]
+	},
+	"ft": {
+		"ág": ["ferðadagskrár", "ferðadagskrár", "ferðadagskrám", "ferðadagskráa"],
+		"mg": ["ferðadagskrárnar", "ferðadagskrárnar", "ferðadagskránum", "ferðadagskránna"]
+	},
+	"kennistrengur": "no-ferðadagskrá-kvk",
+	"hash": "f11a705811535dbc637467a7bf06ee81cacc8a48606bc911400e5bfdd6b62898"
+}

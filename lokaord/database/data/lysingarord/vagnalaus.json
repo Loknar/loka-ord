@@ -1,0 +1,43 @@
+{
+	"orð": "vagnalaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vagna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vagn-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vagnalaus", "vagnalausan", "vagnalausum", "vagnalauss"],
+				"kvk": ["vagnalaus", "vagnalausa", "vagnalausri", "vagnalausrar"],
+				"hk": ["vagnalaust", "vagnalaust", "vagnalausu", "vagnalauss"]
+			},
+			"ft": {
+				"kk": ["vagnalausir", "vagnalausa", "vagnalausum", "vagnalausra"],
+				"kvk": ["vagnalausar", "vagnalausar", "vagnalausum", "vagnalausra"],
+				"hk": ["vagnalaus", "vagnalaus", "vagnalausum", "vagnalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vagnalausi", "vagnalausa", "vagnalausa", "vagnalausa"],
+				"kvk": ["vagnalausa", "vagnalausu", "vagnalausu", "vagnalausu"],
+				"hk": ["vagnalausa", "vagnalausa", "vagnalausa", "vagnalausa"]
+			},
+			"ft": {
+				"kk": ["vagnalausu", "vagnalausu", "vagnalausu", "vagnalausu"],
+				"kvk": ["vagnalausu", "vagnalausu", "vagnalausu", "vagnalausu"],
+				"hk": ["vagnalausu", "vagnalausu", "vagnalausu", "vagnalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-vagnalaus",
+	"hash": "4b18cff42f893526f122418cc95803e6d5e7ab7b07904452138ad9da7be50d8a"
+}

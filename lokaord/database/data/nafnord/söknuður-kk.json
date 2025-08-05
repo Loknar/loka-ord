@@ -2,10 +2,24 @@
 	"orð": "söknuður",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "sökn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sakna"
+		},
+		{
+			"kennistrengur": "no-uður-kk-ó"
+		}
+	],
 	"et": {
-		"ág": ["söknuður", "söknuð", "söknuði", "saknaðar"],
-		"mg": ["söknuðurinn", "söknuðinn", "söknuðinum", "saknaðarins"]
+		"ág": ["söknuður", "söknuð", "söknuði", "söknuðar"],
+		"mg": ["söknuðurinn", "söknuðinn", "söknuðinum", "söknuðarins"]
+	},
+	"ft": {
+		"ág": ["söknuðir", "söknuði", "söknuðum", "söknuða"],
+		"mg": ["söknuðirnir", "söknuðina", "söknuðunum", "söknuðanna"]
 	},
 	"kennistrengur": "no-söknuður-kk",
-	"hash": "b16199f9cbe98054ddc9146888d933f842e01a657b6176418ed91eaa44d18109"
+	"hash": "c046b977cae2c25cb6abe790023cf19f4f7f1f8b1ba9b8d53b6dd5deeeccc232"
 }
