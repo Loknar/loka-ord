@@ -1,0 +1,135 @@
+{
+	"orð": "snáfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snáf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snáf-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snáfa",
+		"sagnbót": "snáfað",
+		"boðháttur": {
+			"stýfður": "snáfa",
+			"et": "snáfaðu",
+			"ft": "snáfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snáfa", "snáfar", "snáfar"],
+					"ft": ["snáfum", "snáfið", "snáfa"]
+				},
+				"þátíð": {
+					"et": ["snáfaði", "snáfaðir", "snáfaði"],
+					"ft": ["snáfuðum", "snáfuðuð", "snáfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snáfi", "snáfir", "snáfi"],
+					"ft": ["snáfum", "snáfið", "snáfi"]
+				},
+				"þátíð": {
+					"et": ["snáfaði", "snáfaðir", "snáfaði"],
+					"ft": ["snáfuðum", "snáfuðuð", "snáfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snáfarðu",
+					"ft": "snáfiði"
+				},
+				"þátíð": {
+					"et": "snáfaðirðu",
+					"ft": "snáfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snáfirðu",
+					"ft": "snáfiði"
+				},
+				"þátíð": {
+					"et": "snáfaðirðu",
+					"ft": "snáfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "snáfast",
+		"sagnbót": "snáfast",
+		"boðháttur": {
+			"et": "snáfastu",
+			"ft": "snáfist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snáfast", "snáfast", "snáfast"],
+					"ft": ["snáfumst", "snáfist", "snáfast"]
+				},
+				"þátíð": {
+					"et": ["snáfaðist", "snáfaðist", "snáfaðist"],
+					"ft": ["snáfuðumst", "snáfuðust", "snáfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snáfist", "snáfist", "snáfist"],
+					"ft": ["snáfumst", "snáfist", "snáfist"]
+				},
+				"þátíð": {
+					"et": ["snáfaðist", "snáfaðist", "snáfaðist"],
+					"ft": ["snáfuðumst", "snáfuðust", "snáfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snáfastu"
+				},
+				"þátíð": {
+					"et": "snáfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snáfistu"
+				},
+				"þátíð": {
+					"et": "snáfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "snáfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["snáfaður", "snáfaðan", "snáfuðum", "snáfaðs"],
+					"kvk": ["snáfuð", "snáfaða", "snáfaðri", "snáfaðrar"],
+					"hk": ["snáfað", "snáfað", "snáfuðu", "snáfaðs"]
+				},
+				"ft": {
+					"kk": ["snáfaðir", "snáfaða", "snáfuðum", "snáfaðra"],
+					"kvk": ["snáfaðar", "snáfaðar", "snáfuðum", "snáfaðra"],
+					"hk": ["snáfuð", "snáfuð", "snáfuðum", "snáfaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snáfa",
+	"hash": "2d45f266aedc67be152092f07b24edbd3a3d909734d567156f7272b330000992"
+}

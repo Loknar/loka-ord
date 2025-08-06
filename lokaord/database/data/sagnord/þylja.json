@@ -1,0 +1,132 @@
+{
+	"orð": "þylja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "þylja",
+		"sagnbót": "þulið",
+		"boðháttur": {
+			"stýfður": "þyl",
+			"et": "þyldu",
+			"ft": "þyljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þyl", "þylur", "þylur"],
+					"ft": ["þyljum", "þyljið", "þylja"]
+				},
+				"þátíð": {
+					"et": ["þuldi", "þuldir", "þuldi"],
+					"ft": ["þuldum", "þulduð", "þuldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þylji", "þyljir", "þylji"],
+					"ft": ["þyljum", "þyljið", "þylji"]
+				},
+				"þátíð": {
+					"et": ["þyldi", "þyldir", "þyldi"],
+					"ft": ["þyldum", "þylduð", "þyldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þylurðu",
+					"ft": "þyljiði"
+				},
+				"þátíð": {
+					"et": "þuldirðu",
+					"ft": "þulduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þyljirðu",
+					"ft": "þyljiði"
+				},
+				"þátíð": {
+					"et": "þyldirðu",
+					"ft": "þylduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þyljast",
+		"sagnbót": "þulist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þylst", "þylst", "þylst"],
+					"ft": ["þyljumst", "þyljist", "þyljast"]
+				},
+				"þátíð": {
+					"et": ["þuldist", "þuldist", "þuldist"],
+					"ft": ["þuldumst", "þuldust", "þuldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þyljist", "þyljist", "þyljist"],
+					"ft": ["þyljumst", "þyljist", "þyljist"]
+				},
+				"þátíð": {
+					"et": ["þyldist", "þyldist", "þyldist"],
+					"ft": ["þyldumst", "þyldust", "þyldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þylstu"
+				},
+				"þátíð": {
+					"et": "þuldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þyljistu"
+				},
+				"þátíð": {
+					"et": "þyldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þyljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þulinn", "þulinn", "þuldum", "þulins"],
+					"kvk": ["þulin", "þulda", "þulinni", "þulinnar"],
+					"hk": ["þulið", "þulið", "þuldu", "þulins"]
+				},
+				"ft": {
+					"kk": ["þuldir", "þulda", "þuldum", "þulinna"],
+					"kvk": ["þuldar", "þuldar", "þuldum", "þulinna"],
+					"hk": ["þulin", "þulin", "þuldum", "þulinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þuldi", "þulda", "þulda", "þulda"],
+					"kvk": ["þulda", "þuldu", "þuldu", "þuldu"],
+					"hk": ["þulda", "þulda", "þulda", "þulda"]
+				},
+				"ft": {
+					"kk": ["þuldu", "þuldu", "þuldu", "þuldu"],
+					"kvk": ["þuldu", "þuldu", "þuldu", "þuldu"],
+					"hk": ["þuldu", "þuldu", "þuldu", "þuldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þylja",
+	"hash": "4167eaac18f1a9b3d8f0ac9664e744688e1701fef423c944a70f24cbc6b46cc9"
+}

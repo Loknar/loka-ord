@@ -1,0 +1,135 @@
+{
+	"orð": "þýfga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þýfg",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-þúfa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þýfga",
+		"sagnbót": "þýfgað",
+		"boðháttur": {
+			"stýfður": "þýfga",
+			"et": "þýfgaðu",
+			"ft": "þýfgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þýfga", "þýfgar", "þýfgar"],
+					"ft": ["þýfgum", "þýfgið", "þýfga"]
+				},
+				"þátíð": {
+					"et": ["þýfgaði", "þýfgaðir", "þýfgaði"],
+					"ft": ["þýfguðum", "þýfguðuð", "þýfguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þýfgi", "þýfgir", "þýfgi"],
+					"ft": ["þýfgum", "þýfgið", "þýfgi"]
+				},
+				"þátíð": {
+					"et": ["þýfgaði", "þýfgaðir", "þýfgaði"],
+					"ft": ["þýfguðum", "þýfguðuð", "þýfguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þýfgarðu",
+					"ft": "þýfgiði"
+				},
+				"þátíð": {
+					"et": "þýfgaðirðu",
+					"ft": "þýfguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þýfgirðu",
+					"ft": "þýfgiði"
+				},
+				"þátíð": {
+					"et": "þýfgaðirðu",
+					"ft": "þýfguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þýfgast",
+		"sagnbót": "þýfgast",
+		"boðháttur": {
+			"et": "þýfgastu",
+			"ft": "þýfgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þýfgast", "þýfgast", "þýfgast"],
+					"ft": ["þýfgumst", "þýfgist", "þýfgast"]
+				},
+				"þátíð": {
+					"et": ["þýfgaðist", "þýfgaðist", "þýfgaðist"],
+					"ft": ["þýfguðumst", "þýfguðust", "þýfguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þýfgist", "þýfgist", "þýfgist"],
+					"ft": ["þýfgumst", "þýfgist", "þýfgist"]
+				},
+				"þátíð": {
+					"et": ["þýfgaðist", "þýfgaðist", "þýfgaðist"],
+					"ft": ["þýfguðumst", "þýfguðust", "þýfguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þýfgastu"
+				},
+				"þátíð": {
+					"et": "þýfgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þýfgistu"
+				},
+				"þátíð": {
+					"et": "þýfgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þýfgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þýfgaður", "þýfgaðan", "þýfguðum", "þýfgaðs"],
+					"kvk": ["þýfguð", "þýfgaða", "þýfgaðri", "þýfgaðrar"],
+					"hk": ["þýfgað", "þýfgað", "þýfguðu", "þýfgaðs"]
+				},
+				"ft": {
+					"kk": ["þýfgaðir", "þýfgaða", "þýfguðum", "þýfgaðra"],
+					"kvk": ["þýfgaðar", "þýfgaðar", "þýfguðum", "þýfgaðra"],
+					"hk": ["þýfguð", "þýfguð", "þýfguðum", "þýfgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þýfga",
+	"hash": "be0dbd1ec6356cae78c13e94e15e8ee0893c0965a290eae72a7cb820198a6224"
+}

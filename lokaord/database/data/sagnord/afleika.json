@@ -1,0 +1,48 @@
+{
+	"orð": "afleika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd-persónuleg"],
+			"kennistrengur": "so-leika"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afleika",
+		"sagnbót": "afleikið",
+		"boðháttur": {
+			"stýfður": "afleik",
+			"et": "afleiktu",
+			"ft": "afleikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afleik", "afleikur", "afleikur"],
+					"ft": ["afleikum", "afleikið", "afleika"]
+				},
+				"þátíð": {
+					"et": ["aflék", "aflékst", "aflék"],
+					"ft": ["aflékum", "aflékuð", "afléku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afleiki", "afleikir", "afleiki"],
+					"ft": ["afleikum", "afleikið", "afleiki"]
+				},
+				"þátíð": {
+					"et": ["afléki", "aflékir", "afléki"],
+					"ft": ["aflékum", "aflékuð", "aflékuð"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afleika",
+	"hash": "e6f46f3dcf267d8a696b8c08b82733c6635d1057c41a299dd7a14b5871bff1a2"
+}

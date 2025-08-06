@@ -1,0 +1,87 @@
+{
+	"orð": "afbera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afbera",
+		"sagnbót": "afborið",
+		"boðháttur": {
+			"stýfður": "afber",
+			"et": "afberðu",
+			"ft": "afberið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afber", "afberð", "afber"],
+					"ft": ["afberum", "afberið", "afbera"]
+				},
+				"þátíð": {
+					"et": ["afbar", "afbarst", "afbar"],
+					"ft": ["afbárum", "afbáruð", "afbáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afberi", "afberir", "afberi"],
+					"ft": ["afberum", "afberið", "afberi"]
+				},
+				"þátíð": {
+					"et": ["afbæri", "afbærir", "afbæri"],
+					"ft": ["afbærum", "afbæruð", "afbæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afberðu",
+					"ft": "afberiði"
+				},
+				"þátíð": {
+					"et": "afbarstu",
+					"ft": "afbáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afberirðu",
+					"ft": "afberiði"
+				},
+				"þátíð": {
+					"et": "afbærirðu",
+					"ft": "afbæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afberandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afborinn", "afborinn", "afbornum", "afborins"],
+					"kvk": ["afborin", "afborna", "afborinni", "afborinnar"],
+					"hk": ["afborið", "afborið", "afbornu", "afborins"]
+				},
+				"ft": {
+					"kk": ["afbornir", "afborna", "afbornum", "afborinna"],
+					"kvk": ["afbornar", "afbornar", "afbornum", "afborinna"],
+					"hk": ["afborin", "afborin", "afbornum", "afborinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afbera",
+	"hash": "1e35d32d68a58c80c0a1f83bc388d42a49dd72c586d7f647ebfe916eadf66cfa"
+}
