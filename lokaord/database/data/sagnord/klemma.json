@@ -1,0 +1,136 @@
+{
+	"orð": "klemma",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "klemma",
+		"sagnbót": "klemmt",
+		"boðháttur": {
+			"stýfður": "klemm",
+			"et": "klemmdu",
+			"ft": "klemmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klemmi", "klemmir", "klemmir"],
+					"ft": ["klemmum", "klemmið", "klemma"]
+				},
+				"þátíð": {
+					"et": ["klemmdi", "klemmdir", "klemmdi"],
+					"ft": ["klemmdum", "klemmduð", "klemmdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klemmi", "klemmir", "klemmi"],
+					"ft": ["klemmum", "klemmið", "klemmi"]
+				},
+				"þátíð": {
+					"et": ["klemmdi", "klemmdir", "klemmdi"],
+					"ft": ["klemmdum", "klemmduð", "klemmdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klemmirðu",
+					"ft": "klemmiði"
+				},
+				"þátíð": {
+					"et": "klemmdirðu",
+					"ft": "klemmduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klemmirðu",
+					"ft": "klemmiði"
+				},
+				"þátíð": {
+					"et": "klemmdirðu",
+					"ft": "klemmduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klemmast",
+		"sagnbót": "klemmst",
+		"boðháttur": {
+			"et": "klemmstu",
+			"ft": "klemmist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klemmist", "klemmist", "klemmist"],
+					"ft": ["klemmumst", "klemmist", "klemmast"]
+				},
+				"þátíð": {
+					"et": ["klemmdist", "klemmdist", "klemmdist"],
+					"ft": ["klemmdumst", "klemmdust", "klemmdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klemmist", "klemmist", "klemmist"],
+					"ft": ["klemmumst", "klemmist", "klemmist"]
+				},
+				"þátíð": {
+					"et": ["klemmdist", "klemmdist", "klemmdist"],
+					"ft": ["klemmdumst", "klemmdust", "klemmdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klemmistu"
+				},
+				"þátíð": {
+					"et": "klemmdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klemmistu"
+				},
+				"þátíð": {
+					"et": "klemmdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klemmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klemmdur", "klemmdan", "klemmdum", "klemmds"],
+					"kvk": ["klemmd", "klemmda", "klemmdri", "klemmdrar"],
+					"hk": ["klemmt", "klemmt", "klemmdu", "klemmds"]
+				},
+				"ft": {
+					"kk": ["klemmdir", "klemmda", "klemmdum", "klemmdra"],
+					"kvk": ["klemmdar", "klemmdar", "klemmdum", "klemmdra"],
+					"hk": ["klemmd", "klemmd", "klemmdum", "klemmdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["klemmdi", "klemmda", "klemmda", "klemmda"],
+					"kvk": ["klemmda", "klemmdu", "klemmdu", "klemmdu"],
+					"hk": ["klemmda", "klemmda", "klemmda", "klemmda"]
+				},
+				"ft": {
+					"kk": ["klemmdu", "klemmdu", "klemmdu", "klemmdu"],
+					"kvk": ["klemmdu", "klemmdu", "klemmdu", "klemmdu"],
+					"hk": ["klemmdu", "klemmdu", "klemmdu", "klemmdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klemma",
+	"hash": "4c24dc96c37f158ec6f6526140ab6351090c61c4ae6cec38e002512283cb0c50"
+}

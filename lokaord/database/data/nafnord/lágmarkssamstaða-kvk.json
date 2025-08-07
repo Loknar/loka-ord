@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarkssamstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarkssamstaða", "lágmarkssamstöðu", "lágmarkssamstöðu", "lágmarkssamstöðu"],
+		"mg": ["lágmarkssamstaðan", "lágmarkssamstöðuna", "lágmarkssamstöðunni", "lágmarkssamstöðunnar"]
+	},
+	"kennistrengur": "no-lágmarkssamstaða-kvk",
+	"hash": "8db3a15f6ceaf22b90c2022a8970c65d7379128dbbe2016449f684fefe442b37"
+}

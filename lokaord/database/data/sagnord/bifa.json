@@ -1,0 +1,121 @@
+{
+	"orð": "bifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bif-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bifa",
+		"sagnbót": "bifað",
+		"boðháttur": {
+			"stýfður": "bifa",
+			"et": "bifaðu",
+			"ft": "bifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bifa", "bifar", "bifar"],
+					"ft": ["bifum", "bifið", "bifa"]
+				},
+				"þátíð": {
+					"et": ["bifaði", "bifaðir", "bifaði"],
+					"ft": ["bifuðum", "bifuðuð", "bifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bifi", "bifir", "bifi"],
+					"ft": ["bifum", "bifið", "bifi"]
+				},
+				"þátíð": {
+					"et": ["bifaði", "bifaðir", "bifaði"],
+					"ft": ["bifuðum", "bifuðuð", "bifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bifarðu",
+					"ft": "bifiði"
+				},
+				"þátíð": {
+					"et": "bifaðirðu",
+					"ft": "bifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bifirðu",
+					"ft": "bifiði"
+				},
+				"þátíð": {
+					"et": "bifaðirðu",
+					"ft": "bifuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bifast",
+		"sagnbót": "bifast",
+		"boðháttur": {
+			"et": "bifastu",
+			"ft": "bifist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bifast", "bifast", "bifast"],
+					"ft": ["bifumst", "bifist", "bifast"]
+				},
+				"þátíð": {
+					"et": ["bifaðist", "bifaðist", "bifaðist"],
+					"ft": ["bifuðumst", "bifuðust", "bifuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bifist", "bifist", "bifist"],
+					"ft": ["bifumst", "bifist", "bifist"]
+				},
+				"þátíð": {
+					"et": ["bifaðist", "bifaðist", "bifaðist"],
+					"ft": ["bifuðumst", "bifuðust", "bifuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bifastu"
+				},
+				"þátíð": {
+					"et": "bifaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bifistu"
+				},
+				"þátíð": {
+					"et": "bifaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bifandi"
+	},
+	"kennistrengur": "so-bifa",
+	"hash": "f0fcb21edb3eaf8c3ba72a9b06f0133c8caf87ec3e09c6b832d37ff600f75a4e"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "rauntímaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "raun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raun-kvk"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["rauntímaupplýsingar", "rauntímaupplýsingar", "rauntímaupplýsingum", "rauntímaupplýsinga"],
+		"mg": ["rauntímaupplýsingarnar", "rauntímaupplýsingarnar", "rauntímaupplýsingunum", "rauntímaupplýsinganna"]
+	},
+	"kennistrengur": "no-rauntímaupplýsingar-kvk",
+	"hash": "6da156c173f89aae6c28ec5f8294c3165882c297bcf65f39a09c75d33e3e5ae2"
+}

@@ -2,6 +2,16 @@
 	"orð": "þóknun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "þókn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þókna"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["þóknun", "þóknun", "þóknun", "þóknunar"],
 		"mg": ["þóknunin", "þóknunina", "þóknuninni", "þóknunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["þóknanirnar", "þóknanirnar", "þóknununum", "þóknananna"]
 	},
 	"kennistrengur": "no-þóknun-kvk",
-	"hash": "06e213d3889cc9bf9775e2e2188387983460f01608a0a6092579b6606ca87f86"
+	"hash": "8e6d8b91c36fe3eb9f5a9791e38f926803f2ddcc4a8d87e27608bbe22fc5aec1"
 }
