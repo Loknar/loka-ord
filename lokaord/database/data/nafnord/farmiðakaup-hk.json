@@ -1,0 +1,27 @@
+{
+	"orð": "farmiðakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "far",
+			"samsetning": "stofn",
+			"kennistrengur": "no-far-hk"
+		},
+		{
+			"mynd": "miða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-miði-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["farmiðakaup", "farmiðakaup", "farmiðakaupum", "farmiðakaupa"],
+		"mg": ["farmiðakaupin", "farmiðakaupin", "farmiðakaupunum", "farmiðakaupanna"]
+	},
+	"kennistrengur": "no-farmiðakaup-hk",
+	"hash": "ddf19b65d7bc4c32fc4d79e1c7391b7a8e8be5c31c9f5fb45a3afbc213dc0383"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "fargjaldamismunur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "far",
+			"samsetning": "stofn",
+			"kennistrengur": "no-far-hk"
+		},
+		{
+			"mynd": "gjalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"et": {
+		"ág": ["fargjaldamismunur", "fargjaldamismun", "fargjaldamismun", "fargjaldamismunar"],
+		"mg": ["fargjaldamismunurinn", "fargjaldamismuninn", "fargjaldamismuninum", "fargjaldamismunarins"]
+	},
+	"kennistrengur": "no-fargjaldamismunur-kk",
+	"hash": "07757f9a64384269bf368f42157f366edbba345757571624a1fdfeb0bf2a2391"
+}

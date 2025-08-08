@@ -1,0 +1,83 @@
+{
+	"orð": "smækka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "smækk",
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "smækka",
+		"sagnbót": "smækkað",
+		"boðháttur": {
+			"stýfður": "smækka",
+			"et": "smækkaðu",
+			"ft": "smækkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["smækka", "smækkar", "smækkar"],
+					"ft": ["smækkum", "smækkið", "smækka"]
+				},
+				"þátíð": {
+					"et": ["smækkaði", "smækkaðir", "smækkaði"],
+					"ft": ["smækkuðum", "smækkuðuð", "smækkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["smækki", "smækkir", "smækki"],
+					"ft": ["smækkum", "smækkið", "smækki"]
+				},
+				"þátíð": {
+					"et": ["smækkaði", "smækkaðir", "smækkaði"],
+					"ft": ["smækkuðum", "smækkuðuð", "smækkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "smækkarðu",
+					"ft": "smækkiði"
+				},
+				"þátíð": {
+					"et": "smækkaðirðu",
+					"ft": "smækkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "smækkirðu",
+					"ft": "smækkiði"
+				},
+				"þátíð": {
+					"et": "smækkaðirðu",
+					"ft": "smækkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "smækkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["smækkaður", "smækkaðan", "smækkuðum", "smækkaðs"],
+					"kvk": ["smækkuð", "smækkaða", "smækkaðri", "smækkaðrar"],
+					"hk": ["smækkað", "smækkað", "smækkuðu", "smækkaðs"]
+				},
+				"ft": {
+					"kk": ["smækkaðir", "smækkaða", "smækkuðum", "smækkaðra"],
+					"kvk": ["smækkaðar", "smækkaðar", "smækkuðum", "smækkaðra"],
+					"hk": ["smækkuð", "smækkuð", "smækkuðum", "smækkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-smækka",
+	"hash": "7e764cb55aa5809d369cc93fd6989446ce83f821212e65e1a086e17434f408a2"
+}

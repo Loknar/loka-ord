@@ -1,0 +1,27 @@
+{
+	"orð": "bankaviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["bankaviðskipti", "bankaviðskipti", "bankaviðskiptum", "bankaviðskipta"],
+		"mg": ["bankaviðskiptin", "bankaviðskiptin", "bankaviðskiptunum", "bankaviðskiptanna"]
+	},
+	"kennistrengur": "no-bankaviðskipti-hk",
+	"hash": "a833afa0ed654821a564f7709b8ac05a9bb4f494fb8f5e00b26248b2650f65a2"
+}

@@ -1,0 +1,136 @@
+{
+	"orð": "fókusera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fókus",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fókus-kk"
+		},
+		{
+			"leiðir": "er",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fókusera",
+		"sagnbót": "fókuserað",
+		"boðháttur": {
+			"stýfður": "fókusera",
+			"et": "fókuseraðu",
+			"ft": "fókuserið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fókusera", "fókuserar", "fókuserar"],
+					"ft": ["fókuserum", "fókuserið", "fókusera"]
+				},
+				"þátíð": {
+					"et": ["fókuseraði", "fókuseraðir", "fókuseraði"],
+					"ft": ["fókuseruðum", "fókuseruðuð", "fókuseruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fókuseri", "fókuserir", "fókuseri"],
+					"ft": ["fókuserum", "fókuserið", "fókuseri"]
+				},
+				"þátíð": {
+					"et": ["fókuseraði", "fókuseraðir", "fókuseraði"],
+					"ft": ["fókuseruðum", "fókuseruðuð", "fókuseruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fókuserarðu",
+					"ft": "fókuseriði"
+				},
+				"þátíð": {
+					"et": "fókuseraðirðu",
+					"ft": "fókuseruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fókuserirðu",
+					"ft": "fókuseriði"
+				},
+				"þátíð": {
+					"et": "fókuseraðirðu",
+					"ft": "fókuseruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fókuserast",
+		"sagnbót": "fókuserast",
+		"boðháttur": {
+			"et": "fókuserastu",
+			"ft": "fókuserist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fókuserast", "fókuserast", "fókuserast"],
+					"ft": ["fókuserumst", "fókuserist", "fókuserast"]
+				},
+				"þátíð": {
+					"et": ["fókuseraðist", "fókuseraðist", "fókuseraðist"],
+					"ft": ["fókuseruðumst", "fókuseruðust", "fókuseruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fókuserist", "fókuserist", "fókuserist"],
+					"ft": ["fókuserumst", "fókuserist", "fókuserist"]
+				},
+				"þátíð": {
+					"et": ["fókuseraðist", "fókuseraðist", "fókuseraðist"],
+					"ft": ["fókuseruðumst", "fókuseruðust", "fókuseruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fókuserastu"
+				},
+				"þátíð": {
+					"et": "fókuseraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fókuseristu"
+				},
+				"þátíð": {
+					"et": "fókuseraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fókuserandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fókuseraður", "fókuseraðan", "fókuseruðum", "fókuseraðs"],
+					"kvk": ["fókuseruð", "fókuseraða", "fókuseraðri", "fókuseraðrar"],
+					"hk": ["fókuserað", "fókuserað", "fókuseruðu", "fókuseraðs"]
+				},
+				"ft": {
+					"kk": ["fókuseraðir", "fókuseraða", "fókuseruðum", "fókuseraðra"],
+					"kvk": ["fókuseraðar", "fókuseraðar", "fókuseruðum", "fókuseraðra"],
+					"hk": ["fókuseruð", "fókuseruð", "fókuseruðum", "fókuseraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fókusera",
+	"hash": "cc109bcfa4459c4b37805906ef28951dd46fe6f8e36dadf3da7ca73905e30600"
+}

@@ -2,6 +2,16 @@
 	"orð": "loka",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lok",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lok-hk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["loka", "loku", "loku", "loku"],
 		"mg": ["lokan", "lokuna", "lokunni", "lokunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["lokurnar", "lokurnar", "lokunum", "lokanna"]
 	},
 	"kennistrengur": "no-loka-kvk",
-	"hash": "65af8e8f17941bdcbe6439e4a9bc29bdb74fc75e6909b01a02f8f1c36d15e4fd"
+	"hash": "1e97fb0cdeaa9ecba1d70e586d04c7a01aaf92d6dfd4bf84688c5144704defee"
 }

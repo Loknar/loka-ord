@@ -1,0 +1,73 @@
+{
+	"orð": "skrópa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skróp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skróp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrópa",
+		"sagnbót": "skrópað",
+		"boðháttur": {
+			"stýfður": "skrópa",
+			"et": "skrópaðu",
+			"ft": "skrópið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrópa", "skrópar", "skrópar"],
+					"ft": ["skrópum", "skrópið", "skrópa"]
+				},
+				"þátíð": {
+					"et": ["skrópaði", "skrópaðir", "skrópaði"],
+					"ft": ["skrópuðum", "skrópuðuð", "skrópuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrópi", "skrópir", "skrópi"],
+					"ft": ["skrópum", "skrópið", "skrópi"]
+				},
+				"þátíð": {
+					"et": ["skrópaði", "skrópaðir", "skrópaði"],
+					"ft": ["skrópuðum", "skrópuðuð", "skrópuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skróparðu",
+					"ft": "skrópiði"
+				},
+				"þátíð": {
+					"et": "skrópaðirðu",
+					"ft": "skrópuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrópirðu",
+					"ft": "skrópiði"
+				},
+				"þátíð": {
+					"et": "skrópaðirðu",
+					"ft": "skrópuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrópandi"
+	},
+	"kennistrengur": "so-skrópa",
+	"hash": "68e3cff9494c51616e0f9b3b2118ceb662b9a0f223b2e1dde6625031543eab1d"
+}
