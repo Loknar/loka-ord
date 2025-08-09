@@ -1,0 +1,73 @@
+{
+	"orð": "beila",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "beil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-beil-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "beila",
+		"sagnbót": "beilað",
+		"boðháttur": {
+			"stýfður": "beila",
+			"et": "beilaðu",
+			"ft": "beilið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["beila", "beilar", "beilar"],
+					"ft": ["beilum", "beilið", "beila"]
+				},
+				"þátíð": {
+					"et": ["beilaði", "beilaðir", "beilaði"],
+					"ft": ["beiluðum", "beiluðuð", "beiluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["beili", "beilir", "beili"],
+					"ft": ["beilum", "beilið", "beili"]
+				},
+				"þátíð": {
+					"et": ["beilaði", "beilaðir", "beilaði"],
+					"ft": ["beiluðum", "beiluðuð", "beiluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "beilarðu",
+					"ft": "beiliði"
+				},
+				"þátíð": {
+					"et": "beilaðirðu",
+					"ft": "beiluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "beilirðu",
+					"ft": "beiliði"
+				},
+				"þátíð": {
+					"et": "beilaðirðu",
+					"ft": "beiluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "beilandi"
+	},
+	"kennistrengur": "so-beila",
+	"hash": "f96b1cc61995c11f5215e9622dd663210611d31b147a2ecd2ce9a0465394f821"
+}

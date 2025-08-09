@@ -2,6 +2,16 @@
 	"orð": "sæld",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sæl",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sæłl"
+		},
+		{
+			"kennistrengur": "no-d-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sæld", "sæld", "sæld", "sældar"],
 		"mg": ["sældin", "sældina", "sældinni", "sældarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["sældirnar", "sældirnar", "sældunum", "sældanna"]
 	},
 	"kennistrengur": "no-sæld-kvk",
-	"hash": "f0bf8da5730edaa9d41e8fc5e5c094b2ce2230e7692b8979d4418cd414c4b35c"
+	"hash": "d39ec6eef926dd979068e5f9d70486793fabc4dc33ad547cda0d4f782e95ef1f"
 }
