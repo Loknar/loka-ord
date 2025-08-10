@@ -2,6 +2,16 @@
 	"orð": "deild",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "deil",
+			"samsetning": "stofn",
+			"kennistrengur": "so-deila"
+		},
+		{
+			"kennistrengur": "no-d-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["deild", "deild", "deild", "deildar"],
 		"mg": ["deildin", "deildina", "deildinni", "deildarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["deildirnar", "deildirnar", "deildunum", "deildanna"]
 	},
 	"kennistrengur": "no-deild-kvk",
-	"hash": "5318cabbdf8250af102fca73f56bfcf87fc05790ad34c9cf8aae8f1a8a7821b3"
+	"hash": "15aef29eeef8b8f3aa89f570eee28cab14e5280f3b3e5bb93688af18415388ee"
 }
