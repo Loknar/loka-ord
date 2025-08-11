@@ -1,0 +1,30 @@
+{
+	"orð": "heildsölugjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heild",
+			"samsetning": "stofn",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildsölugjald", "heildsölugjald", "heildsölugjaldi", "heildsölugjalds"],
+		"mg": ["heildsölugjaldið", "heildsölugjaldið", "heildsölugjaldinu", "heildsölugjaldsins"]
+	},
+	"ft": {
+		"ág": ["heildsölugjöld", "heildsölugjöld", "heildsölugjöldum", "heildsölugjalda"],
+		"mg": ["heildsölugjöldin", "heildsölugjöldin", "heildsölugjöldunum", "heildsölugjaldanna"]
+	},
+	"kennistrengur": "no-heildsölugjald-hk",
+	"hash": "13716aaaccf6d6d9ef7c64add5fdb4ddb4bbade91a45aea39ac0065a0c423f42"
+}
