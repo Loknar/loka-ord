@@ -1,0 +1,99 @@
+{
+	"orð": "heitreykja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heit",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heitur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-reykja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heitreykja",
+		"sagnbót": "heitreykt",
+		"boðháttur": {
+			"stýfður": "heitreyk",
+			"et": "heitreyktu",
+			"ft": "heitreykið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heitreyki", "heitreykir", "heitreykir"],
+					"ft": ["heitreykjum", "heitreykið", "heitreykja"]
+				},
+				"þátíð": {
+					"et": ["heitreykti", "heitreyktir", "heitreykti"],
+					"ft": ["heitreyktum", "heitreyktuð", "heitreyktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heitreyki", "heitreykir", "heitreyki"],
+					"ft": ["heitreykjum", "heitreykið", "heitreyki"]
+				},
+				"þátíð": {
+					"et": ["heitreykti", "heitreyktir", "heitreykti"],
+					"ft": ["heitreyktum", "heitreyktuð", "heitreyktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heitreykirðu",
+					"ft": "heitreykiði"
+				},
+				"þátíð": {
+					"et": "heitreyktirðu",
+					"ft": "heitreyktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heitreykirðu",
+					"ft": "heitreykiði"
+				},
+				"þátíð": {
+					"et": "heitreyktirðu",
+					"ft": "heitreyktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heitreykjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heitreyktur", "heitreyktan", "heitreyktum", "heitreykts"],
+					"kvk": ["heitreykt", "heitreykta", "heitreyktri", "heitreyktrar"],
+					"hk": ["heitreykt", "heitreykt", "heitreyktu", "heitreykts"]
+				},
+				"ft": {
+					"kk": ["heitreyktir", "heitreykta", "heitreyktum", "heitreyktra"],
+					"kvk": ["heitreyktar", "heitreyktar", "heitreyktum", "heitreyktra"],
+					"hk": ["heitreykt", "heitreykt", "heitreyktum", "heitreyktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["heitreykti", "heitreykta", "heitreykta", "heitreykta"],
+					"kvk": ["heitreykta", "heitreyktu", "heitreyktu", "heitreyktu"],
+					"hk": ["heitreykta", "heitreykta", "heitreykta", "heitreykta"]
+				},
+				"ft": {
+					"kk": ["heitreyktu", "heitreyktu", "heitreyktu", "heitreyktu"],
+					"kvk": ["heitreyktu", "heitreyktu", "heitreyktu", "heitreyktu"],
+					"hk": ["heitreyktu", "heitreyktu", "heitreyktu", "heitreyktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heitreykja",
+	"hash": "1a3c1b9aed25fb5a4c44dd065b8f74b154d1fd617ae715c9c0ab3469550605e6"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "landsvæðaskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "svæða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-svæði-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["landsvæðaskipti", "landsvæðaskipti", "landsvæðaskiptum", "landsvæðaskipta"],
+		"mg": ["landsvæðaskiptin", "landsvæðaskiptin", "landsvæðaskiptunum", "landsvæðaskiptanna"]
+	},
+	"kennistrengur": "no-landsvæðaskipti-hk",
+	"hash": "9caf67b5448f8f61e174d0f12c271b58873a3de1de555774df0cf378c3c04f5d"
+}

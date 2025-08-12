@@ -2,6 +2,16 @@
 	"orð": "æla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "æl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-æla"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["æla", "ælu", "ælu", "ælu"],
 		"mg": ["ælan", "æluna", "ælunni", "ælunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["ælurnar", "ælurnar", "ælunum", "ælanna"]
 	},
 	"kennistrengur": "no-æla-kvk",
-	"hash": "bef40be05a48e9353c152221c7bb9292110b78e3877ffb5612abdebf8cf51e9d"
+	"hash": "46356e2bd88853cbc450cc258047fe576936f05c58c38504a3243a54fd6fa7bd"
 }
