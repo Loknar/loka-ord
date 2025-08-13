@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Rökkv",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rökkvi-kk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Rökkva", "Rökkvu", "Rökkvu", "Rökkvu"]
 	},
 	"kennistrengur": "sérn.en-Rökkva-kvk",
-	"hash": "0c4a19c86dd71d805524784db1e9781321245dd8576e28ace4b2858e6f089c13"
+	"hash": "fa9937e2223562de27a9b093482259af1ef0284a77e924247b8f8e10007b35be"
 }

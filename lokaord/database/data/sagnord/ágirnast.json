@@ -1,0 +1,61 @@
+{
+	"orð": "ágirnast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-girna"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ágirnast",
+		"sagnbót": "ásagst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ágirnist", "ágirnist", "ágirnist"],
+					"ft": ["ágirnumst", "ágirnist", "ágirnast"]
+				},
+				"þátíð": {
+					"et": ["ágrintist", "ágrintist", "ágrintist"],
+					"ft": ["ágirntumst", "ágirntust", "ágirntust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ágirnist", "ágirnist", "ágirnist"],
+					"ft": ["ágirnumst", "ágirnist", "ágirnist"]
+				},
+				"þátíð": {
+					"et": ["ágirntist", "ágirntist", "ágirntist"],
+					"ft": ["ágirntumst", "ágirntust", "ágirntust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ágirnistu"
+				},
+				"þátíð": {
+					"et": "ágrintistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ágirnistu"
+				},
+				"þátíð": {
+					"et": "ágirntistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ágirnast",
+	"hash": "67d5b92ecd91c420bd0349d232c2b5c56792973831b5c005dbb6c2c4564cda08"
+}
