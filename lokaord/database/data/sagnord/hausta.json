@@ -1,0 +1,48 @@
+{
+	"orð": "hausta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "haust",
+			"samsetning": "stofn",
+			"kennistrengur": "no-haust-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hausta",
+		"sagnbót": "haustað",
+		"boðháttur": {
+			"stýfður": "hausta",
+			"et": "haustaðu",
+			"ft": "haustið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hausta", "haustar", "haustar"],
+					"ft": ["haustum", "haustið", "hausta"]
+				},
+				"þátíð": {
+					"et": ["haustaði", "haustaðir", "haustaði"],
+					"ft": ["haustuðum", "haustuðuð", "haustuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hausti", "haustir", "hausti"],
+					"ft": ["haustum", "haustið", "hausti"]
+				},
+				"þátíð": {
+					"et": ["haustaði", "haustaðir", "haustaði"],
+					"ft": ["haustuðum", "haustuðuð", "haustuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hausta",
+	"hash": "b595715886c77afd78a14836ff95f1315811306c78fe58becb97c5f2bdbfa3ff"
+}

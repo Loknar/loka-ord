@@ -1,0 +1,135 @@
+{
+	"orð": "gigga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gigg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gigg-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gigga",
+		"sagnbót": "giggað",
+		"boðháttur": {
+			"stýfður": "gigga",
+			"et": "giggaðu",
+			"ft": "giggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gigga", "giggar", "giggar"],
+					"ft": ["giggum", "giggið", "gigga"]
+				},
+				"þátíð": {
+					"et": ["giggaði", "giggaðir", "giggaði"],
+					"ft": ["gigguðum", "gigguðuð", "gigguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["giggi", "giggir", "giggi"],
+					"ft": ["giggum", "giggið", "giggi"]
+				},
+				"þátíð": {
+					"et": ["giggaði", "giggaðir", "giggaði"],
+					"ft": ["gigguðum", "gigguðuð", "gigguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "giggarðu",
+					"ft": "giggiði"
+				},
+				"þátíð": {
+					"et": "giggaðirðu",
+					"ft": "gigguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "giggirðu",
+					"ft": "giggiði"
+				},
+				"þátíð": {
+					"et": "giggaðirðu",
+					"ft": "gigguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "giggast",
+		"sagnbót": "giggast",
+		"boðháttur": {
+			"et": "giggastu",
+			"ft": "giggist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["giggast", "giggast", "giggast"],
+					"ft": ["giggumst", "giggist", "giggast"]
+				},
+				"þátíð": {
+					"et": ["giggaðist", "giggaðist", "giggaðist"],
+					"ft": ["gigguðumst", "gigguðust", "gigguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["giggist", "giggist", "giggist"],
+					"ft": ["giggumst", "giggist", "giggist"]
+				},
+				"þátíð": {
+					"et": ["giggaðist", "giggaðist", "giggaðist"],
+					"ft": ["gigguðumst", "gigguðust", "gigguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "giggastu"
+				},
+				"þátíð": {
+					"et": "giggaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "giggistu"
+				},
+				"þátíð": {
+					"et": "giggaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "giggandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["giggaður", "giggaðan", "gigguðum", "giggaðs"],
+					"kvk": ["gigguð", "giggaða", "giggaðri", "giggaðrar"],
+					"hk": ["giggað", "giggað", "gigguðu", "giggaðs"]
+				},
+				"ft": {
+					"kk": ["giggaðir", "giggaða", "gigguðum", "giggaðra"],
+					"kvk": ["giggaðar", "giggaðar", "gigguðum", "giggaðra"],
+					"hk": ["gigguð", "gigguð", "gigguðum", "giggaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gigga",
+	"hash": "c43a2b83aad29b745312c48b3a2f10bb1941b6a851d733cc949890450cd0ab91"
+}

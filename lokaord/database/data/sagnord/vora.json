@@ -1,0 +1,48 @@
+{
+	"orð": "vora",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vor-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vora",
+		"sagnbót": "vorað",
+		"boðháttur": {
+			"stýfður": "vora",
+			"et": "voraðu",
+			"ft": "vorið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vora", "vorar", "vorar"],
+					"ft": ["vorum", "vorið", "vora"]
+				},
+				"þátíð": {
+					"et": ["voraði", "voraðir", "voraði"],
+					"ft": ["voruðum", "voruðuð", "voruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vori", "vorir", "vori"],
+					"ft": ["vorum", "vorið", "vori"]
+				},
+				"þátíð": {
+					"et": ["voraði", "voraðir", "voraði"],
+					"ft": ["voruðum", "voruðuð", "voruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vora",
+	"hash": "32a3e22f8bf0ccca697d05a9075308bbfe7ce9abc7059722c12c77d4794778dc"
+}

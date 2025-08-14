@@ -1,0 +1,27 @@
+{
+	"orð": "næringarefnalosun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "næringar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heilsa-kvk"
+		},
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-losun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["næringarefnalosun", "næringarefnalosun", "næringarefnalosun", "næringarefnalosunar"],
+		"mg": ["næringarefnalosunin", "næringarefnalosunina", "næringarefnalosuninni", "næringarefnalosunarinnar"]
+	},
+	"kennistrengur": "no-næringarefnalosun-kvk",
+	"hash": "3b878e8c87fd56a9631ea35ec1abc6bfb34b961b72980e9296e08b180432307b"
+}
