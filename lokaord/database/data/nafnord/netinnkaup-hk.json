@@ -1,0 +1,27 @@
+{
+	"orð": "netinnkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "net",
+			"samsetning": "stofn",
+			"kennistrengur": "no-net-hk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["netinnkaup", "netinnkaup", "netinnkaupum", "netinnkaupa"],
+		"mg": ["netinnkaupin", "netinnkaupin", "netinnkaupunum", "netinnkaupanna"]
+	},
+	"kennistrengur": "no-netinnkaup-hk",
+	"hash": "90444400f154b6e0f00e9af8769425a647fee8ddebea69b8ffe53c6c6c4a80c2"
+}

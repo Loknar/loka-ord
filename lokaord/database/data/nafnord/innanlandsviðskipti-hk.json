@@ -1,0 +1,32 @@
+{
+	"orð": "innanlandsviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "innan",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-innan"
+		},
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["innanlandsviðskipti", "innanlandsviðskipti", "innanlandsviðskiptum", "innanlandsviðskipta"],
+		"mg": ["innanlandsviðskiptin", "innanlandsviðskiptin", "innanlandsviðskiptunum", "innanlandsviðskiptanna"]
+	},
+	"kennistrengur": "no-innanlandsviðskipti-hk",
+	"hash": "1663bd60daafaecab3dd38a01c66d5ba1be1f4f0ef482401b966db016fd59f07"
+}

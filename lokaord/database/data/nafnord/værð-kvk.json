@@ -2,6 +2,16 @@
 	"orð": "værð",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vær",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-vær"
+		},
+		{
+			"kennistrengur": "no-ð-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["værð", "værð", "værð", "værðar"],
 		"mg": ["værðin", "værðina", "værðinni", "værðarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["værðirnar", "værðirnar", "værðunum", "værðanna"]
 	},
 	"kennistrengur": "no-værð-kvk",
-	"hash": "7c4d09fe41d6b6440bea99a206a3c4c530140fdbcfda7029978d4162756714ec"
+	"hash": "1cffaa9288b08e07dbd128641cc484b3f4d1bb266b670216d9c5db7f1d191d80"
 }

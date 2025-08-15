@@ -1,0 +1,30 @@
+{
+	"orð": "faggreinadeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fag-hk"
+		},
+		{
+			"mynd": "greina",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-grein-kvk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["faggreinadeild", "faggreinadeild", "faggreinadeild", "faggreinadeildar"],
+		"mg": ["faggreinadeildin", "faggreinadeildina", "faggreinadeildinni", "faggreinadeildarinnar"]
+	},
+	"ft": {
+		"ág": ["faggreinadeildir", "faggreinadeildir", "faggreinadeildum", "faggreinadeilda"],
+		"mg": ["faggreinadeildirnar", "faggreinadeildirnar", "faggreinadeildunum", "faggreinadeildanna"]
+	},
+	"kennistrengur": "no-faggreinadeild-kvk",
+	"hash": "1aaac73f9692784ac1b276c918a798e331bb80d0a7649e62ff1f070cc5f06468"
+}

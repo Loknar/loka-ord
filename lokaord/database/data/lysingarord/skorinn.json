@@ -8,7 +8,7 @@
 			"kennistrengur": "so-skera"
 		},
 		{
-			"beygingar": ["frumstig"],
+			"beygingar": ["frumstig", "miðstig"],
 			"kennistrengur": "lo-inn-ó"
 		}
 	],
@@ -38,6 +38,20 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["skornari", "skornari", "skornari", "skornari"],
+				"kvk": ["skornari", "skornari", "skornari", "skornari"],
+				"hk": ["skornara", "skornara", "skornara", "skornara"]
+			},
+			"ft": {
+				"kk": ["skornari", "skornari", "skornari", "skornari"],
+				"kvk": ["skornari", "skornari", "skornari", "skornari"],
+				"hk": ["skornari", "skornari", "skornari", "skornari"]
+			}
+		}
+	},
 	"kennistrengur": "lo-skorinn",
-	"hash": "443125780796f17609d915fa6c6411d7bf728f2fae651835bab6755e2d0b5efd"
+	"hash": "e7c41e7aad5a4a98096f93d4938a05b5e5cff742177ca4bd436ac7b5d51f3c65"
 }

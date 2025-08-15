@@ -2,6 +2,16 @@
 	"orð": "múgi",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "múg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-múgur-kk"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["múgi", "múga", "múga", "múga"],
 		"mg": ["múginn", "múgann", "múganum", "múgans"]
@@ -11,5 +21,5 @@
 		"mg": ["múgarnir", "múgana", "múgunum", "múganna"]
 	},
 	"kennistrengur": "no-múgi-kk",
-	"hash": "8d370cb3743663c75ddcecd688ef1ce036adf4e296258cad5228844b94d2bb3b"
+	"hash": "729a1ebadcb1b8aa8a64df543ac397983afa6bdfbe44ec277404721c16c6a8f5"
 }

@@ -1,0 +1,32 @@
+{
+	"orð": "samfélagsumskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["samfélagsumskipti", "samfélagsumskipti", "samfélagsumskiptum", "samfélagsumskipta"],
+		"mg": ["samfélagsumskiptin", "samfélagsumskiptin", "samfélagsumskiptunum", "samfélagsumskiptanna"]
+	},
+	"kennistrengur": "no-samfélagsumskipti-hk",
+	"hash": "8a1cf939668034c8cd1008925cf11c974e08c7ff373987c3345b19bf6ff6815f"
+}

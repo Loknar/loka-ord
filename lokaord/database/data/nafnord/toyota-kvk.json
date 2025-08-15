@@ -2,6 +2,16 @@
 	"orð": "toyota",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "toyot",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.ön-Toyota-hk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["toyota", "toyotu", "toyotu", "toyotu"],
 		"mg": ["toyotan", "toyotuna", "toyotunni", "toyotunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["toyoturnar", "toyoturnar", "toyotunum", "toyotanna"]
 	},
 	"kennistrengur": "no-toyota-kvk",
-	"hash": "83f655179487de50433152bd8cfc2ba1e1f44756a0770a63effad4e4abce2dd9"
+	"hash": "499b3b0eb2dbc2af3226e19f497bc0d1ebce647a83a6c9245ff9ea504b60185e"
 }

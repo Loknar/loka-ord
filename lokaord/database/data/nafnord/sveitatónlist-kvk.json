@@ -1,0 +1,27 @@
+{
+	"orð": "sveitatónlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sveita",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sveit-kvk"
+		},
+		{
+			"mynd": "tón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tónn-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sveitatónlist", "sveitatónlist", "sveitatónlist", "sveitatónlistar"],
+		"mg": ["sveitatónlistin", "sveitatónlistina", "sveitatónlistinni", "sveitatónlistarinnar"]
+	},
+	"kennistrengur": "no-sveitatónlist-kvk",
+	"hash": "d663f6a601c11d95ed7bced6af850faed578b733257c386f2f9599a8b1cc0205"
+}
