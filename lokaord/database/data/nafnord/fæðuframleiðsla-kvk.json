@@ -1,0 +1,27 @@
+{
+	"orð": "fæðuframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fæðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fæða-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fæðuframleiðsla", "fæðuframleiðslu", "fæðuframleiðslu", "fæðuframleiðslu"],
+		"mg": ["fæðuframleiðslan", "fæðuframleiðsluna", "fæðuframleiðslunni", "fæðuframleiðslunnar"]
+	},
+	"kennistrengur": "no-fæðuframleiðsla-kvk",
+	"hash": "91122b565435081454b3074713a6d3dfe6f088d1b174ff356aa4f6b192a97667"
+}

@@ -1,0 +1,83 @@
+{
+	"orð": "ssh-a",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "ssh-",
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ssh-a",
+		"sagnbót": "ssh-að",
+		"boðháttur": {
+			"stýfður": "ssh-a",
+			"et": "ssh-aðu",
+			"ft": "ssh-ið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ssh-a", "ssh-ar", "ssh-ar"],
+					"ft": ["ssh-um", "ssh-ið", "ssh-a"]
+				},
+				"þátíð": {
+					"et": ["ssh-aði", "ssh-aðir", "ssh-aði"],
+					"ft": ["ssh-uðum", "ssh-uðuð", "ssh-uðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ssh-i", "ssh-ir", "ssh-i"],
+					"ft": ["ssh-um", "ssh-ið", "ssh-i"]
+				},
+				"þátíð": {
+					"et": ["ssh-aði", "ssh-aðir", "ssh-aði"],
+					"ft": ["ssh-uðum", "ssh-uðuð", "ssh-uðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ssh-arðu",
+					"ft": "ssh-iði"
+				},
+				"þátíð": {
+					"et": "ssh-aðirðu",
+					"ft": "ssh-uðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ssh-irðu",
+					"ft": "ssh-iði"
+				},
+				"þátíð": {
+					"et": "ssh-aðirðu",
+					"ft": "ssh-uðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ssh-andi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ssh-aður", "ssh-aðan", "ssh-uðum", "ssh-aðs"],
+					"kvk": ["ssh-uð", "ssh-aða", "ssh-aðri", "ssh-aðrar"],
+					"hk": ["ssh-að", "ssh-að", "ssh-uðu", "ssh-aðs"]
+				},
+				"ft": {
+					"kk": ["ssh-aðir", "ssh-aða", "ssh-uðum", "ssh-aðra"],
+					"kvk": ["ssh-aðar", "ssh-aðar", "ssh-uðum", "ssh-aðra"],
+					"hk": ["ssh-uð", "ssh-uð", "ssh-uðum", "ssh-aðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ssh-a",
+	"hash": "e49a7deefffc603f356cdf9d20103a6b46685e5e8de716dc3efa2e28877cc566"
+}

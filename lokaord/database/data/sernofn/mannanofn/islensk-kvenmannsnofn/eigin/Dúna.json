@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Dún",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dúnn-kk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Dúna", "Dúnu", "Dúnu", "Dúnu"]
 	},
 	"kennistrengur": "sérn.en-Dúna-kvk",
-	"hash": "317571e09d29897d4460d930caeefd8fb9f71e63c1d34b0d5bbd09ddbc6e6504"
+	"hash": "3664d158f8a5dfcfcbbff1cb559fbeb89ad99999e2f4d82adc72e59ee6968a65"
 }

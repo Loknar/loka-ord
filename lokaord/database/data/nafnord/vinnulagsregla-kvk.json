@@ -1,0 +1,30 @@
+{
+	"orð": "vinnulagsregla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"kennistrengur": "no-regla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vinnulagsregla", "vinnulagsreglu", "vinnulagsreglu", "vinnulagsreglu"],
+		"mg": ["vinnulagsreglan", "vinnulagsregluna", "vinnulagsreglunni", "vinnulagsreglunnar"]
+	},
+	"ft": {
+		"ág": ["vinnulagsreglur", "vinnulagsreglur", "vinnulagsreglum", "vinnulagsreglna"],
+		"mg": ["vinnulagsreglurnar", "vinnulagsreglurnar", "vinnulagsreglunum", "vinnulagsreglnanna"]
+	},
+	"kennistrengur": "no-vinnulagsregla-kvk",
+	"hash": "77fee736f257f4dbe9c646a08877688854cde30a97daba9c6c61c9d1dc4b660a"
+}
