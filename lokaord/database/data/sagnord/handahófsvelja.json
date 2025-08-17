@@ -1,0 +1,103 @@
+{
+	"orð": "handahófsvelja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "handa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"mynd": "hófs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hóf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-velja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handahófsvelja",
+		"sagnbót": "handahófsvalið",
+		"boðháttur": {
+			"stýfður": "handahófsvel",
+			"et": "handahófsveldu",
+			"ft": "handahófsveljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handahófsvel", "handahófsvelur", "handahófsvelur"],
+					"ft": ["handahófsveljum", "handahófsveljið", "handahófsvelja"]
+				},
+				"þátíð": {
+					"et": ["handahófsvaldi", "handahófsvaldir", "handahófsvaldi"],
+					"ft": ["handahófsvöldum", "handahófsvölduð", "handahófsvöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handahófsvelji", "handahófsveljir", "handahófsvelji"],
+					"ft": ["handahófsveljum", "handahófsveljið", "handahófsvelji"]
+				},
+				"þátíð": {
+					"et": ["handahófsveldi", "handahófsveldir", "handahófsveldi"],
+					"ft": ["handahófsveldum", "handahófsvelduð", "handahófsveldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handahófsvelurðu",
+					"ft": "handahófsveljiði"
+				},
+				"þátíð": {
+					"et": "handahófsvaldirðu",
+					"ft": "handahófsvölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handahófsveljirðu",
+					"ft": "handahófsveljiði"
+				},
+				"þátíð": {
+					"et": "handahófsveldirðu",
+					"ft": "handahófsvelduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handahófsvalinn", "handahófsvalinn", "handahófsvöldum", "handahófsvalins"],
+					"kvk": ["handahófsvalin", "handahófsvalda", "handahófsvalinni", "handahófsvalinnar"],
+					"hk": ["handahófsvalið", "handahófsvalið", "handahófsvöldu", "handahófsvalins"]
+				},
+				"ft": {
+					"kk": ["handahófsvaldir", "handahófsvalda", "handahófsvöldum", "handahófsvalinna"],
+					"kvk": ["handahófsvaldar", "handahófsvaldar", "handahófsvöldum", "handahófsvalinna"],
+					"hk": ["handahófsvalin", "handahófsvalin", "handahófsvöldum", "handahófsvalinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handahófsvaldi", "handahófsvalda", "handahófsvalda", "handahófsvalda"],
+					"kvk": ["handahófsvalda", "handahófsvöldu", "handahófsvöldu", "handahófsvöldu"],
+					"hk": ["handahófsvalda", "handahófsvalda", "handahófsvalda", "handahófsvalda"]
+				},
+				"ft": {
+					"kk": ["handahófsvöldu", "handahófsvöldu", "handahófsvöldu", "handahófsvöldu"],
+					"kvk": ["handahófsvöldu", "handahófsvöldu", "handahófsvöldu", "handahófsvöldu"],
+					"hk": ["handahófsvöldu", "handahófsvöldu", "handahófsvöldu", "handahófsvöldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handahófsvelja",
+	"hash": "770c8dc695235aeb40f699ee17d9c033ae7df21b5b13679d208d2a76f073cef9"
+}

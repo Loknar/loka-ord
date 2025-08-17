@@ -1,0 +1,99 @@
+{
+	"orð": "nýskapa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ný",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-nýr"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skapa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nýskapa",
+		"sagnbót": "nýskapað",
+		"boðháttur": {
+			"stýfður": "nýskapa",
+			"et": "nýskapaðu",
+			"ft": "nýskapið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nýskapa", "nýskapar", "nýskapar"],
+					"ft": ["nýsköpum", "nýskapið", "nýskapa"]
+				},
+				"þátíð": {
+					"et": ["nýskapaði", "nýskapaðir", "nýskapaði"],
+					"ft": ["nýsköpuðum", "nýsköpuðuð", "nýsköpuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nýskapi", "nýskapir", "nýskapi"],
+					"ft": ["nýsköpum", "nýskapið", "nýskapi"]
+				},
+				"þátíð": {
+					"et": ["nýskapaði", "nýskapaðir", "nýskapaði"],
+					"ft": ["nýsköpuðum", "nýsköpuðuð", "nýsköpuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nýskaparðu",
+					"ft": "nýskapiði"
+				},
+				"þátíð": {
+					"et": "nýskapaðirðu",
+					"ft": "nýsköpuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nýskapirðu",
+					"ft": "nýskapiði"
+				},
+				"þátíð": {
+					"et": "nýskapaðirðu",
+					"ft": "nýsköpuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nýskapandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nýskapaður", "nýskapaðan", "nýsköpuðum", "nýskapaðs"],
+					"kvk": ["nýsköpuð", "nýskapaða", "nýskapaðri", "nýskapaðrar"],
+					"hk": ["nýskapað", "nýskapað", "nýsköpuðu", "nýskapaðs"]
+				},
+				"ft": {
+					"kk": ["nýskapaðir", "nýskapaða", "nýsköpuðum", "nýskapaðra"],
+					"kvk": ["nýskapaðar", "nýskapaðar", "nýsköpuðum", "nýskapaðra"],
+					"hk": ["nýsköpuð", "nýsköpuð", "nýsköpuðum", "nýskapaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nýskapaði", "nýskapaða", "nýskapaða", "nýskapaða"],
+					"kvk": ["nýskapaða", "nýsköpuðu", "nýsköpuðu", "nýsköpuðu"],
+					"hk": ["nýskapaða", "nýskapaða", "nýskapaða", "nýskapaða"]
+				},
+				"ft": {
+					"kk": ["nýsköpuðu", "nýsköpuðu", "nýsköpuðu", "nýsköpuðu"],
+					"kvk": ["nýsköpuðu", "nýsköpuðu", "nýsköpuðu", "nýsköpuðu"],
+					"hk": ["nýsköpuðu", "nýsköpuðu", "nýsköpuðu", "nýsköpuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nýskapa",
+	"hash": "e7a8b98a57375c4a315699fd2591741ff5e1b619f3d2c0dbc418800be0afa3a3"
+}
