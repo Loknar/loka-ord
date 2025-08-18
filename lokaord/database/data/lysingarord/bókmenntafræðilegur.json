@@ -1,0 +1,53 @@
+{
+	"orð": "bókmenntafræðilegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "mennta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mennt-kvk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bókmenntafræðilegur", "bókmenntafræðilegan", "bókmenntafræðilegum", "bókmenntafræðilegs"],
+				"kvk": ["bókmenntafræðileg", "bókmenntafræðilega", "bókmenntafræðilegri", "bókmenntafræðilegrar"],
+				"hk": ["bókmenntafræðilegt", "bókmenntafræðilegt", "bókmenntafræðilegu", "bókmenntafræðilegs"]
+			},
+			"ft": {
+				"kk": ["bókmenntafræðilegir", "bókmenntafræðilega", "bókmenntafræðilegum", "bókmenntafræðilegra"],
+				"kvk": ["bókmenntafræðilegar", "bókmenntafræðilegar", "bókmenntafræðilegum", "bókmenntafræðilegra"],
+				"hk": ["bókmenntafræðileg", "bókmenntafræðileg", "bókmenntafræðilegum", "bókmenntafræðilegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bókmenntafræðilegi", "bókmenntafræðilega", "bókmenntafræðilega", "bókmenntafræðilega"],
+				"kvk": ["bókmenntafræðilega", "bókmenntafræðilegu", "bókmenntafræðilegu", "bókmenntafræðilegu"],
+				"hk": ["bókmenntafræðilega", "bókmenntafræðilega", "bókmenntafræðilega", "bókmenntafræðilega"]
+			},
+			"ft": {
+				"kk": ["bókmenntafræðilegu", "bókmenntafræðilegu", "bókmenntafræðilegu", "bókmenntafræðilegu"],
+				"kvk": ["bókmenntafræðilegu", "bókmenntafræðilegu", "bókmenntafræðilegu", "bókmenntafræðilegu"],
+				"hk": ["bókmenntafræðilegu", "bókmenntafræðilegu", "bókmenntafræðilegu", "bókmenntafræðilegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bókmenntafræðilegur",
+	"hash": "0e6466a9b501cb4bf99411be9bc7b70900675b82d7037bf0d9ba1f9a6b9fd6c7"
+}

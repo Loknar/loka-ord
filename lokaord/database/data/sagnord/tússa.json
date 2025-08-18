@@ -1,0 +1,87 @@
+{
+	"orð": "tússa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "túss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-túss-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tússa",
+		"sagnbót": "tússað",
+		"boðháttur": {
+			"stýfður": "tússa",
+			"et": "tússaðu",
+			"ft": "tússið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tússa", "tússar", "tússar"],
+					"ft": ["tússum", "tússið", "tússa"]
+				},
+				"þátíð": {
+					"et": ["tússaði", "tússaðir", "tússaði"],
+					"ft": ["tússuðum", "tússuðuð", "tússuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tússi", "tússir", "tússi"],
+					"ft": ["tússum", "tússið", "tússi"]
+				},
+				"þátíð": {
+					"et": ["tússaði", "tússaðir", "tússaði"],
+					"ft": ["tússuðum", "tússuðuð", "tússuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tússarðu",
+					"ft": "tússiði"
+				},
+				"þátíð": {
+					"et": "tússaðirðu",
+					"ft": "tússuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tússirðu",
+					"ft": "tússiði"
+				},
+				"þátíð": {
+					"et": "tússaðirðu",
+					"ft": "tússuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tússandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tússaður", "tússaðan", "tússuðum", "tússaðs"],
+					"kvk": ["tússuð", "tússaða", "tússaðri", "tússaðrar"],
+					"hk": ["tússað", "tússað", "tússuðu", "tússaðs"]
+				},
+				"ft": {
+					"kk": ["tússaðir", "tússaða", "tússuðum", "tússaðra"],
+					"kvk": ["tússaðar", "tússaðar", "tússuðum", "tússaðra"],
+					"hk": ["tússuð", "tússuð", "tússuðum", "tússaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tússa",
+	"hash": "4e91062bf62a266c8eb3bdd002ed1f70a9404574b4396eeb71ece56695cb52d0"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "Konungsbókhlaðan",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Konungs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-konungur-kk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et-mg"],
+			"kennistrengur": "no-hlaða-kvk"
+		}
+	],
+	"et": {
+		"mg": ["Konungsbókhlaðan", "Konungsbókhlöðuna", "Konungsbókhlöðunni", "Konungsbókhlöðunnar"]
+	},
+	"kennistrengur": "sérn.ön-Konungsbókhlaðan-kvk",
+	"hash": "79435e313087cc3767c5c10ecc1a712a169e8690c629b80f48974b6fc3c8ffe3"
+}

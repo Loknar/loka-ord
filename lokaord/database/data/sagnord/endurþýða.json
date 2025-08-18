@@ -1,0 +1,99 @@
+{
+	"orð": "endurþýða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-þýða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurþýða",
+		"sagnbót": "endurþýtt",
+		"boðháttur": {
+			"stýfður": "endurþýð",
+			"et": "endurþýddu",
+			"ft": "endurþýðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurþýði", "endurþýðir", "endurþýðir"],
+					"ft": ["endurþýðum", "endurþýðið", "endurþýða"]
+				},
+				"þátíð": {
+					"et": ["endurþýddi", "endurþýddir", "endurþýddi"],
+					"ft": ["endurþýddum", "endurþýdduð", "endurþýddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurþýði", "endurþýðir", "endurþýði"],
+					"ft": ["endurþýðum", "endurþýðið", "endurþýði"]
+				},
+				"þátíð": {
+					"et": ["endurþýddi", "endurþýddir", "endurþýddi"],
+					"ft": ["endurþýddum", "endurþýdduð", "endurþýddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurþýðirðu",
+					"ft": "endurþýðiði"
+				},
+				"þátíð": {
+					"et": "endurþýddirðu",
+					"ft": "endurþýdduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurþýðirðu",
+					"ft": "endurþýðiði"
+				},
+				"þátíð": {
+					"et": "endurþýddirðu",
+					"ft": "endurþýdduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurþýðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurþýddur", "endurþýddan", "endurþýddum", "endurþýdds"],
+					"kvk": ["endurþýdd", "endurþýdda", "endurþýddri", "endurþýddrar"],
+					"hk": ["endurþýtt", "endurþýtt", "endurþýddu", "endurþýdds"]
+				},
+				"ft": {
+					"kk": ["endurþýddir", "endurþýdda", "endurþýddum", "endurþýddra"],
+					"kvk": ["endurþýddar", "endurþýddar", "endurþýddum", "endurþýddra"],
+					"hk": ["endurþýdd", "endurþýdd", "endurþýddum", "endurþýddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["endurþýddi", "endurþýdda", "endurþýdda", "endurþýdda"],
+					"kvk": ["endurþýdda", "endurþýddu", "endurþýddu", "endurþýddu"],
+					"hk": ["endurþýdda", "endurþýdda", "endurþýdda", "endurþýdda"]
+				},
+				"ft": {
+					"kk": ["endurþýddu", "endurþýddu", "endurþýddu", "endurþýddu"],
+					"kvk": ["endurþýddu", "endurþýddu", "endurþýddu", "endurþýddu"],
+					"hk": ["endurþýddu", "endurþýddu", "endurþýddu", "endurþýddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurþýða",
+	"hash": "1898595c51bc0607865994268741193ae6e8d0b44d40dd0dd2785c37d5ec26a2"
+}
