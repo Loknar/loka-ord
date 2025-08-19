@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 30,
+	"samsett": [
+		{
+			"mynd": "þrí",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-þrí-ó"
+		},
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["þrítugasti", "þrítugasta", "þrítugasta", "þrítugasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-þrítugasti",
-	"hash": "79de46e231ae2a7d9a0d8a18f316390930d5faf3d5024bbbe1d2c7dedd83efe5"
+	"hash": "6d35712090fe418a4883aaf7b9556b7bd3de3d115c43594833520892c4c0621b"
 }

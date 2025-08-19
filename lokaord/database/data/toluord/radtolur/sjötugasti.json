@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 70,
+	"samsett": [
+		{
+			"mynd": "sjö",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-sjö"
+		},
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["sjötugasti", "sjötugasta", "sjötugasta", "sjötugasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-sjötugasti",
-	"hash": "c13017697f0f8dee7b929d1cc41c3b75d5e82754d97434ed630ed357c096b384"
+	"hash": "bbdd82bb808c6684cac137529b0b5930146aa8266e4eefa6ed796c934ced4e0b"
 }

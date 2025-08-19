@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 50,
+	"samsett": [
+		{
+			"mynd": "fimm",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-fimm"
+		},
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["fimmtugasti", "fimmtugasta", "fimmtugasta", "fimmtugasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-fimmtugasti",
-	"hash": "d93c4cca65c018690616961cb7062270e6d87930f06117d261f03ddbb3d3c7c8"
+	"hash": "c71103ab0ea126b13bc5f5b740fcda8e6dcaa5ad01d9e408d5a56f0a15cc4372"
 }

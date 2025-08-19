@@ -1,0 +1,43 @@
+{
+	"orð": "landskunnur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kunnur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["landskunnur", "landskunnan", "landskunnum", "landskunns"],
+				"kvk": ["landskunn", "landskunna", "landskunnri", "landskunnrar"],
+				"hk": ["landskunnt", "landskunnt", "landskunnu", "landskunns"]
+			},
+			"ft": {
+				"kk": ["landskunnir", "landskunna", "landskunnum", "landskunnra"],
+				"kvk": ["landskunnar", "landskunnar", "landskunnum", "landskunnra"],
+				"hk": ["landskunn", "landskunn", "landskunnum", "landskunnra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["landskunni", "landskunna", "landskunna", "landskunna"],
+				"kvk": ["landskunna", "landskunnu", "landskunnu", "landskunnu"],
+				"hk": ["landskunna", "landskunna", "landskunna", "landskunna"]
+			},
+			"ft": {
+				"kk": ["landskunnu", "landskunnu", "landskunnu", "landskunnu"],
+				"kvk": ["landskunnu", "landskunnu", "landskunnu", "landskunnu"],
+				"hk": ["landskunnu", "landskunnu", "landskunnu", "landskunnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-landskunnur",
+	"hash": "49728b18c0272067b470c518ee3739661498f14b40bebf0ef7f70b87905de5a9"
+}

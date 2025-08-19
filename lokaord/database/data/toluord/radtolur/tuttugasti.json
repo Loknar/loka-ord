@@ -3,6 +3,16 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 20,
+	"samsett": [
+		{
+			"mynd": "tuttug",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-tuttugu"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["tuttugasti", "tuttugasta", "tuttugasta", "tuttugasta"],
@@ -16,5 +26,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-tuttugasti",
-	"hash": "281204ceecdec01aa99bb8a7a3203a82ecc728a5a734b0eab94a379dae20e86b"
+	"hash": "a99d4c502d640847677c61202ac04742ed7b348cb782cabddbdded74012fc62c"
 }

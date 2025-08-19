@@ -3,6 +3,16 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 1000,
+	"samsett": [
+		{
+			"mynd": "þúsund",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-þúsund"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["þúsundasti", "þúsundasta", "þúsundasta", "þúsundasta"],
@@ -16,5 +26,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-þúsundasti",
-	"hash": "f91e1c44c156dcca0897e5be82f9b90d3a56677068c819f92b999f90ed2f41b3"
+	"hash": "29bd9c3201678ca53b19f6d6369aca40a0ea6ef339b19107bb72e86b87dc07d7"
 }

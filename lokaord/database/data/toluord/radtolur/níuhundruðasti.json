@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 900,
+	"samsett": [
+		{
+			"mynd": "níu",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-níu"
+		},
+		{
+			"mynd": "hundruð",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-hundrað"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["níuhundruðasti", "níuhundruðasta", "níuhundruðasta", "níuhundruðasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-níuhundruðasti",
-	"hash": "51ac96f4c148ad985d86b0d8d80d325273cd411bbf47d9ae8d7cc49c1b4a1826"
+	"hash": "16830bb71a9de2b4840405585f9dd2c5d90027edbc76109bbadc316ff14980e0"
 }

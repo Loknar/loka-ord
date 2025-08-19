@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 60,
+	"samsett": [
+		{
+			"mynd": "sex",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-sex"
+		},
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["sextugasti", "sextugasta", "sextugasta", "sextugasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-sextugasti",
-	"hash": "ce6578e0a0d8c5bdfe40ab28de538a2999eca862ab2a6d052e79b9a46a2b4e83"
+	"hash": "d07c5eab0b035658fb3eb00e2297f21fcfe4d210053f2adc6eaf970b6224b19f"
 }

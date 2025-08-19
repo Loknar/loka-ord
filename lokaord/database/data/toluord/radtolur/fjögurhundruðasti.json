@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 400,
+	"samsett": [
+		{
+			"mynd": "fjögur",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-fjórir"
+		},
+		{
+			"mynd": "hundruð",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-hundrað"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["fjögurhundruðasti", "fjögurhundruðasta", "fjögurhundruðasta", "fjögurhundruðasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-fjögurhundruðasti",
-	"hash": "27dbc75ec3820c66f8abda90ff205f4f37d6d8ac52677ec1f687161aae547064"
+	"hash": "dfae63db5720c2b9577e53a3f45682895522ff5a2c797024e826ac8809ccdd0a"
 }

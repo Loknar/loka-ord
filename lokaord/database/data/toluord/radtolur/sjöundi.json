@@ -3,6 +3,16 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 7,
+	"samsett": [
+		{
+			"mynd": "sjö",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-sjö"
+		},
+		{
+			"kennistrengur": "to.rt-undi-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["sjöundi", "sjöunda", "sjöunda", "sjöunda"],
@@ -16,5 +26,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-sjöundi",
-	"hash": "121c1f4e7dcd17b985363eca69aa543dcf5f5d2317b3c6abf64722fad22a6d3d"
+	"hash": "cf32468ab7c20e839ae9a12749c54da0229e475821e90b17d5cfde2d1dae7870"
 }

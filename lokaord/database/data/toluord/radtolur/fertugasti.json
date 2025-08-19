@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 40,
+	"samsett": [
+		{
+			"mynd": "fer",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-fer-ó"
+		},
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["fertugasti", "fertugasta", "fertugasta", "fertugasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-fertugasti",
-	"hash": "e33c25f76215a54937828a20fabcfbd107f716f5e8e8e8b5a86a3d0b330b476a"
+	"hash": "a598985cb0ab4374b5a5559fc9caeb0aec123190f512e9f74c3cdb6ec1a4f17d"
 }

@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 500,
+	"samsett": [
+		{
+			"mynd": "fimm",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-fimm"
+		},
+		{
+			"mynd": "hundruð",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-hundrað"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["fimmhundruðasti", "fimmhundruðasta", "fimmhundruðasta", "fimmhundruðasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-fimmhundruðasti",
-	"hash": "d44062ac8d35007e2d80e8d4704a99e01af19f1ac6268eeefdea30fbd6ae33c2"
+	"hash": "660a9e40363b8fdd0a7986958efb01ee33608e3792d0e6cc6ad7137e88961222"
 }

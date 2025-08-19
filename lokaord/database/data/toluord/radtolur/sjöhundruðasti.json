@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 700,
+	"samsett": [
+		{
+			"mynd": "sjö",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-sjö"
+		},
+		{
+			"mynd": "hundruð",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-hundrað"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["sjöhundruðasti", "sjöhundruðasta", "sjöhundruðasta", "sjöhundruðasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-sjöhundruðasti",
-	"hash": "8ccb34085cdab0b0bd2153be13e76b06906758aead7ba9a09fd4b35acd869f5c"
+	"hash": "ac374b75541ab491bc193aee26e355dee369f1754e40840e5ca6f5245fd31ec2"
 }

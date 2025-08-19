@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 90,
+	"samsett": [
+		{
+			"mynd": "ní",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-níu"
+		},
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["nítugasti", "nítugasta", "nítugasta", "nítugasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-nítugasti",
-	"hash": "a2cad0271e72996acb8b7d1585864d18ddc5cbbadb3f7af518ca678123e2ca29"
+	"hash": "ede101ad673494263ee762a197fc512e6eaa5774ac49efb12869022d117f9b9c"
 }

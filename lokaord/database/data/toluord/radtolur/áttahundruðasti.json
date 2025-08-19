@@ -3,6 +3,21 @@
 	"flokkur": "töluorð",
 	"undirflokkur": "raðtala",
 	"tölugildi": 800,
+	"samsett": [
+		{
+			"mynd": "átta",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-átta"
+		},
+		{
+			"mynd": "hundruð",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-hundrað"
+		},
+		{
+			"kennistrengur": "to.rt-asti-ó"
+		}
+	],
 	"vb": {
 		"et": {
 			"kk": ["áttahundruðasti", "áttahundruðasta", "áttahundruðasta", "áttahundruðasta"],
@@ -16,5 +31,5 @@
 		}
 	},
 	"kennistrengur": "to.rt-áttahundruðasti",
-	"hash": "a166a6f19995296af9d8e866b84d9f2162944208cee04ac776300aa5f28da9f7"
+	"hash": "d7b20aeed7ed52ba6667a711cb525a8a3201205bb297b32dc2679a84a7566ee9"
 }
