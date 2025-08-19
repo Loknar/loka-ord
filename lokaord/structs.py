@@ -7,7 +7,9 @@ from enum import Enum
 import os
 from typing import Annotated, Any, Optional
 
-from pydantic import BaseModel, conlist, Field, model_serializer, StringConstraints, validator
+from pydantic import (
+	BaseModel, conlist, Field, model_serializer, StringConstraints, validator, root_validator
+)
 
 
 NonEmptyStr = Annotated[str, StringConstraints(strict=True, min_length=1)]
@@ -984,7 +986,7 @@ class ToluordEtFt(BaseModel):
 
 
 class FjoldatalaData(OrdData):
-	tölugildi: Decimal
+	tölugildi: Optional[Decimal] = None
 	et: Optional[ToluordKyn] = None
 	ft: Optional[ToluordKyn] = None
 
@@ -1009,6 +1011,13 @@ class FjoldatalaData(OrdData):
 				if 'óbeygjanlegt' not in values or values['óbeygjanlegt'] is None:
 					raise ValueError('et and ft can both be unset only if óbeygjanlegt')
 		return val
+
+	@root_validator(skip_on_failure=True)
+	def tolugildi_should_be_set_except_if_osjalfstaett(cls, values, **kwargs):
+		if 'ósjálfstætt' not in values or values['ósjálfstætt'] is False:
+			if not isinstance(values['tölugildi'], Decimal):
+				raise ValueError('tölugildi should be Decimal')
+		return values
 
 	@model_serializer(mode='wrap')
 	def serialize(self, handler) -> dict[str, Any]:
@@ -1036,7 +1045,7 @@ class FjoldatalaData(OrdData):
 
 
 class RadtalaData(OrdData):
-	tölugildi: Decimal
+	tölugildi: Optional[Decimal] = None
 	sb: Optional[ToluordEtFt] = None
 	vb: Optional[ToluordEtFt] = None
 
@@ -1053,6 +1062,13 @@ class RadtalaData(OrdData):
 		elif val is not Toluordaflokkar.Radtala:
 			raise ValueError('undirflokkur should be raðtala')
 		return val
+
+	@root_validator(skip_on_failure=True)
+	def tolugildi_should_be_set_except_if_osjalfstaett(cls, values, **kwargs):
+		if 'ósjálfstætt' not in values or values['ósjálfstætt'] is False:
+			if not isinstance(values['tölugildi'], Decimal):
+				raise ValueError('tölugildi should be Decimal')
+		return values
 
 	@model_serializer(mode='wrap')
 	def serialize(self, handler) -> dict[str, Any]:
