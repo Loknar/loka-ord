@@ -2,10 +2,21 @@
 	"orð": "humátt",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-húm-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-átt-kvk"
+		}
+	],
 	"et": {
 		"ág": ["humátt", "humátt", "humátt", "humáttar"],
 		"mg": ["humáttin", "humáttina", "humáttinni", "humáttarinnar"]
 	},
 	"kennistrengur": "no-humátt-kvk",
-	"hash": "c449d9bae1794f544bfb2ff450496c8cc379940626c2ba97178549bf33ff8f03"
+	"hash": "66baea91d91eed66d2a3868cb2b74cb65500095034054b1fd521b8d58843cfa4"
 }

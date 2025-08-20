@@ -1,0 +1,135 @@
+{
+	"orð": "möndla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "möndl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-möndl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "möndla",
+		"sagnbót": "möndlað",
+		"boðháttur": {
+			"stýfður": "möndla",
+			"et": "möndlaðu",
+			"ft": "möndlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["möndla", "möndlar", "möndlar"],
+					"ft": ["möndlum", "möndlið", "möndla"]
+				},
+				"þátíð": {
+					"et": ["möndlaði", "möndlaðir", "möndlaði"],
+					"ft": ["möndluðum", "möndluðuð", "möndluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["möndli", "möndlir", "möndli"],
+					"ft": ["möndlum", "möndlið", "möndli"]
+				},
+				"þátíð": {
+					"et": ["möndlaði", "möndlaðir", "möndlaði"],
+					"ft": ["möndluðum", "möndluðuð", "möndluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "möndlarðu",
+					"ft": "möndliði"
+				},
+				"þátíð": {
+					"et": "möndlaðirðu",
+					"ft": "möndluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "möndlirðu",
+					"ft": "möndliði"
+				},
+				"þátíð": {
+					"et": "möndlaðirðu",
+					"ft": "möndluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "möndlast",
+		"sagnbót": "möndlast",
+		"boðháttur": {
+			"et": "möndlastu",
+			"ft": "möndlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["möndlast", "möndlast", "möndlast"],
+					"ft": ["möndlumst", "möndlist", "möndlast"]
+				},
+				"þátíð": {
+					"et": ["möndlaðist", "möndlaðist", "möndlaðist"],
+					"ft": ["möndluðumst", "möndluðust", "möndluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["möndlist", "möndlist", "möndlist"],
+					"ft": ["möndlumst", "möndlist", "möndlist"]
+				},
+				"þátíð": {
+					"et": ["möndlaðist", "möndlaðist", "möndlaðist"],
+					"ft": ["möndluðumst", "möndluðust", "möndluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "möndlastu"
+				},
+				"þátíð": {
+					"et": "möndlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "möndlistu"
+				},
+				"þátíð": {
+					"et": "möndlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "möndlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["möndlaður", "möndlaðan", "möndluðum", "möndlaðs"],
+					"kvk": ["möndluð", "möndlaða", "möndlaðri", "möndlaðrar"],
+					"hk": ["möndlað", "möndlað", "möndluðu", "möndlaðs"]
+				},
+				"ft": {
+					"kk": ["möndlaðir", "möndlaða", "möndluðum", "möndlaðra"],
+					"kvk": ["möndlaðar", "möndlaðar", "möndluðum", "möndlaðra"],
+					"hk": ["möndluð", "möndluð", "möndluðum", "möndlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-möndla",
+	"hash": "a3d9eab4d513b8722a2a8067f0b42fa9e1219b7ba82cd60a692867c46906f728"
+}

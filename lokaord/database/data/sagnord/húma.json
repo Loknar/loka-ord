@@ -1,0 +1,51 @@
+{
+	"orð": "húma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "húm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-húm-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "húma",
+		"sagnbót": "húmað",
+		"boðháttur": {
+			"stýfður": "húma",
+			"et": "húmaðu",
+			"ft": "húmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húma", "húmar", "húmar"],
+					"ft": ["húmum", "húmið", "húma"]
+				},
+				"þátíð": {
+					"et": ["húmaði", "húmaðir", "húmaði"],
+					"ft": ["húmuðum", "húmuðuð", "húmuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húmi", "húmir", "húmi"],
+					"ft": ["húmum", "húmið", "húmi"]
+				},
+				"þátíð": {
+					"et": ["húmaði", "húmaðir", "húmaði"],
+					"ft": ["húmuðum", "húmuðuð", "húmuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "húmandi"
+	},
+	"kennistrengur": "so-húma",
+	"hash": "fca276b58dda875644094d8a946bcc0d9f1c6af294fc90c04c1f9cf3d5db2011"
+}

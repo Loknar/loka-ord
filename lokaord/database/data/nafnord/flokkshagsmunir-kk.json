@@ -1,0 +1,27 @@
+{
+	"orð": "flokkshagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "flokks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-flokkur-kk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["flokkshagsmunir", "flokkshagsmuni", "flokkshagsmunum", "flokkshagsmuna"],
+		"mg": ["flokkshagsmunirnir", "flokkshagsmunina", "flokkshagsmununum", "flokkshagsmunanna"]
+	},
+	"kennistrengur": "no-flokkshagsmunir-kk",
+	"hash": "731e4bacef3ecb611b8c5a2d49167602b7ac043f237b2c71dd3c318c6ff89b8c"
+}

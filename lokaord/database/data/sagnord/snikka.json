@@ -1,0 +1,135 @@
+{
+	"orð": "snikka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snikk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snikk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snikka",
+		"sagnbót": "snikkað",
+		"boðháttur": {
+			"stýfður": "snikka",
+			"et": "snikkaðu",
+			"ft": "snikkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snikka", "snikkar", "snikkar"],
+					"ft": ["snikkum", "snikkið", "snikka"]
+				},
+				"þátíð": {
+					"et": ["snikkaði", "snikkaðir", "snikkaði"],
+					"ft": ["snikkuðum", "snikkuðuð", "snikkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snikki", "snikkir", "snikki"],
+					"ft": ["snikkum", "snikkið", "snikki"]
+				},
+				"þátíð": {
+					"et": ["snikkaði", "snikkaðir", "snikkaði"],
+					"ft": ["snikkuðum", "snikkuðuð", "snikkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snikkarðu",
+					"ft": "snikkiði"
+				},
+				"þátíð": {
+					"et": "snikkaðirðu",
+					"ft": "snikkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snikkirðu",
+					"ft": "snikkiði"
+				},
+				"þátíð": {
+					"et": "snikkaðirðu",
+					"ft": "snikkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "snikkast",
+		"sagnbót": "snikkast",
+		"boðháttur": {
+			"et": "snikkastu",
+			"ft": "snikkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snikkast", "snikkast", "snikkast"],
+					"ft": ["snikkumst", "snikkist", "snikkast"]
+				},
+				"þátíð": {
+					"et": ["snikkaðist", "snikkaðist", "snikkaðist"],
+					"ft": ["snikkuðumst", "snikkuðust", "snikkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snikkist", "snikkist", "snikkist"],
+					"ft": ["snikkumst", "snikkist", "snikkist"]
+				},
+				"þátíð": {
+					"et": ["snikkaðist", "snikkaðist", "snikkaðist"],
+					"ft": ["snikkuðumst", "snikkuðust", "snikkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snikkastu"
+				},
+				"þátíð": {
+					"et": "snikkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snikkistu"
+				},
+				"þátíð": {
+					"et": "snikkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "snikkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["snikkaður", "snikkaðan", "snikkuðum", "snikkaðs"],
+					"kvk": ["snikkuð", "snikkaða", "snikkaðri", "snikkaðrar"],
+					"hk": ["snikkað", "snikkað", "snikkuðu", "snikkaðs"]
+				},
+				"ft": {
+					"kk": ["snikkaðir", "snikkaða", "snikkuðum", "snikkaðra"],
+					"kvk": ["snikkaðar", "snikkaðar", "snikkuðum", "snikkaðra"],
+					"hk": ["snikkuð", "snikkuð", "snikkuðum", "snikkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snikka",
+	"hash": "cd234c8c14f509c73f54a81772d20c5c6cb43115c4ee9da166d760bbf59d1e9c"
+}
