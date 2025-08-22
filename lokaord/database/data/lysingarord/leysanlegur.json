@@ -8,7 +8,6 @@
 			"kennistrengur": "so-leysa"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-legur-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["leysanlegri", "leysanlegri", "leysanlegri", "leysanlegri"],
+				"kvk": ["leysanlegri", "leysanlegri", "leysanlegri", "leysanlegri"],
+				"hk": ["leysanlegra", "leysanlegra", "leysanlegra", "leysanlegra"]
+			},
+			"ft": {
+				"kk": ["leysanlegri", "leysanlegri", "leysanlegri", "leysanlegri"],
+				"kvk": ["leysanlegri", "leysanlegri", "leysanlegri", "leysanlegri"],
+				"hk": ["leysanlegri", "leysanlegri", "leysanlegri", "leysanlegri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["leysanlegastur", "leysanlegastan", "leysanlegustum", "leysanlegasts"],
+				"kvk": ["leysanlegust", "leysanlegasta", "leysanlegastri", "leysanlegastrar"],
+				"hk": ["leysanlegast", "leysanlegast", "leysanlegustu", "leysanlegasts"]
+			},
+			"ft": {
+				"kk": ["leysanlegastir", "leysanlegasta", "leysanlegustum", "leysanlegastra"],
+				"kvk": ["leysanlegastar", "leysanlegastar", "leysanlegustum", "leysanlegastra"],
+				"hk": ["leysanlegust", "leysanlegust", "leysanlegustum", "leysanlegastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["leysanlegasti", "leysanlegasta", "leysanlegasta", "leysanlegasta"],
+				"kvk": ["leysanlegasta", "leysanlegustu", "leysanlegustu", "leysanlegustu"],
+				"hk": ["leysanlegasta", "leysanlegasta", "leysanlegasta", "leysanlegasta"]
+			},
+			"ft": {
+				"kk": ["leysanlegustu", "leysanlegustu", "leysanlegustu", "leysanlegustu"],
+				"kvk": ["leysanlegustu", "leysanlegustu", "leysanlegustu", "leysanlegustu"],
+				"hk": ["leysanlegustu", "leysanlegustu", "leysanlegustu", "leysanlegustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-leysanlegur",
-	"hash": "bb6d96a4e63f8bd9ae91f22736df2099aa64b60d17ff6202758ab439d0925da5"
+	"hash": "4dd3857b294b21188d515523918670381f2f8bb16d92dd083c227ae86037692b"
 }

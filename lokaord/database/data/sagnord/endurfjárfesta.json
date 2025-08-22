@@ -1,0 +1,78 @@
+{
+	"orð": "endurfjárfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurfjárfesta",
+		"sagnbót": "endurfjárfest",
+		"boðháttur": {
+			"stýfður": "endurfjárfest",
+			"et": "endurfjárfestu",
+			"ft": "endurfjárfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurfjárfesti", "endurfjárfestir", "endurfjárfestir"],
+					"ft": ["endurfjárfestum", "endurfjárfestið", "endurfjárfesta"]
+				},
+				"þátíð": {
+					"et": ["endurfjárfesti", "endurfjárfestir", "endurfjárfesti"],
+					"ft": ["endurfjárfestum", "endurfjárfestuð", "endurfjárfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurfjárfesti", "endurfjárfestir", "endurfjárfesti"],
+					"ft": ["endurfjárfestum", "endurfjárfestið", "endurfjárfesti"]
+				},
+				"þátíð": {
+					"et": ["endurfjárfesti", "endurfjárfestir", "endurfjárfesti"],
+					"ft": ["endurfjárfestum", "endurfjárfestuð", "endurfjárfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurfjárfestirðu",
+					"ft": "endurfjárfestiði"
+				},
+				"þátíð": {
+					"et": "endurfjárfestirðu",
+					"ft": "endurfjárfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurfjárfestirðu",
+					"ft": "endurfjárfestiði"
+				},
+				"þátíð": {
+					"et": "endurfjárfestirðu",
+					"ft": "endurfjárfestuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurfjárfestandi"
+	},
+	"kennistrengur": "so-endurfjárfesta",
+	"hash": "465d33c9269fabf05488ff877726109035a3f008e7c7998912231b7e017e6304"
+}
