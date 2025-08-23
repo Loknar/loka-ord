@@ -1,0 +1,27 @@
+{
+	"orð": "lágmarksgæsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gæsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksgæsla", "lágmarksgæslu", "lágmarksgæslu", "lágmarksgæslu"],
+		"mg": ["lágmarksgæslan", "lágmarksgæsluna", "lágmarksgæslunni", "lágmarksgæslunnar"]
+	},
+	"kennistrengur": "no-lágmarksgæsla-kvk",
+	"hash": "1eedde2ae88feebd8d0bc735535b5d1e519b623cb60acf8100467329cf776b3a"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "sjúkratryggingakort",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sjúkra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"kennistrengur": "no-kort-hk"
+		}
+	],
+	"et": {
+		"ág": ["sjúkratryggingakort", "sjúkratryggingakort", "sjúkratryggingakorti", "sjúkratryggingakorts"],
+		"mg": ["sjúkratryggingakortið", "sjúkratryggingakortið", "sjúkratryggingakortinu", "sjúkratryggingakortsins"]
+	},
+	"ft": {
+		"ág": ["sjúkratryggingakort", "sjúkratryggingakort", "sjúkratryggingakortum", "sjúkratryggingakorta"],
+		"mg": ["sjúkratryggingakortin", "sjúkratryggingakortin", "sjúkratryggingakortunum", "sjúkratryggingakortanna"]
+	},
+	"kennistrengur": "no-sjúkratryggingakort-hk",
+	"hash": "5465573c53f749021bd594d98b0ce1ff589bcc3b4e03fb7351b91e849a1055ca"
+}
