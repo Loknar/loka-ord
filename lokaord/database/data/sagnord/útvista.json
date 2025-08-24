@@ -1,0 +1,99 @@
+{
+	"orð": "útvista",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-vista"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útvista",
+		"sagnbót": "útvistað",
+		"boðháttur": {
+			"stýfður": "útvista",
+			"et": "útvistaðu",
+			"ft": "útvistið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útvista", "útvistar", "útvistar"],
+					"ft": ["útvistum", "útvistið", "útvista"]
+				},
+				"þátíð": {
+					"et": ["útvistaði", "útvistaðir", "útvistaði"],
+					"ft": ["útvistuðum", "útvistuðuð", "útvistuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útvisti", "útvistir", "útvisti"],
+					"ft": ["útvistum", "útvistið", "útvisti"]
+				},
+				"þátíð": {
+					"et": ["útvistaði", "útvistaðir", "útvistaði"],
+					"ft": ["útvistuðum", "útvistuðuð", "útvistuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útvistarðu",
+					"ft": "útvistiði"
+				},
+				"þátíð": {
+					"et": "útvistaðirðu",
+					"ft": "útvistuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útvistirðu",
+					"ft": "útvistiði"
+				},
+				"þátíð": {
+					"et": "útvistaðirðu",
+					"ft": "útvistuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útvistandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útvistaður", "útvistaðan", "útvistuðum", "útvistaðs"],
+					"kvk": ["útvistuð", "útvistaða", "útvistaðri", "útvistaðrar"],
+					"hk": ["útvistað", "útvistað", "útvistuðu", "útvistaðs"]
+				},
+				"ft": {
+					"kk": ["útvistaðir", "útvistaða", "útvistuðum", "útvistaðra"],
+					"kvk": ["útvistaðar", "útvistaðar", "útvistuðum", "útvistaðra"],
+					"hk": ["útvistuð", "útvistuð", "útvistuðum", "útvistaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["útvistaði", "útvistaða", "útvistaða", "útvistaða"],
+					"kvk": ["útvistaða", "útvistuðu", "útvistuðu", "útvistuðu"],
+					"hk": ["útvistaða", "útvistaða", "útvistaða", "útvistaða"]
+				},
+				"ft": {
+					"kk": ["útvistuðu", "útvistuðu", "útvistuðu", "útvistuðu"],
+					"kvk": ["útvistuðu", "útvistuðu", "útvistuðu", "útvistuðu"],
+					"hk": ["útvistuðu", "útvistuðu", "útvistuðu", "útvistuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útvista",
+	"hash": "d353d569d170c5d87c4ab6c0f364aed15762a2a0c7da743dc22ee2d5e547a4be"
+}

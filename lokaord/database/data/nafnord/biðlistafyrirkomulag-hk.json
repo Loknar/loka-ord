@@ -1,0 +1,37 @@
+{
+	"orð": "biðlistafyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bið-kvk"
+		},
+		{
+			"mynd": "lista",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-listi-kk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["biðlistafyrirkomulag", "biðlistafyrirkomulag", "biðlistafyrirkomulagi", "biðlistafyrirkomulags"],
+		"mg": ["biðlistafyrirkomulagið", "biðlistafyrirkomulagið", "biðlistafyrirkomulaginu", "biðlistafyrirkomulagsins"]
+	},
+	"kennistrengur": "no-biðlistafyrirkomulag-hk",
+	"hash": "d5055d458b87b042f0b99222a2a12abb304ad9fecc0f685b08e15ef5cc802dfb"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "hopa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hop",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hop-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hopa",
+		"sagnbót": "hopað",
+		"boðháttur": {
+			"stýfður": "hopa",
+			"et": "hopaðu",
+			"ft": "hopið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hopa", "hopar", "hopar"],
+					"ft": ["hopum", "hopið", "hopa"]
+				},
+				"þátíð": {
+					"et": ["hopaði", "hopaðir", "hopaði"],
+					"ft": ["hopuðum", "hopuðuð", "hopuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hopi", "hopir", "hopi"],
+					"ft": ["hopum", "hopið", "hopi"]
+				},
+				"þátíð": {
+					"et": ["hopaði", "hopaðir", "hopaði"],
+					"ft": ["hopuðum", "hopuðuð", "hopuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hoparðu",
+					"ft": "hopiði"
+				},
+				"þátíð": {
+					"et": "hopaðirðu",
+					"ft": "hopuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hopirðu",
+					"ft": "hopiði"
+				},
+				"þátíð": {
+					"et": "hopaðirðu",
+					"ft": "hopuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hopandi"
+	},
+	"kennistrengur": "so-hopa",
+	"hash": "1646d156e0d1ecc8e5c8cf2391f0c5c5010c2a26d84ab0955d0b474e43a4bfd8"
+}

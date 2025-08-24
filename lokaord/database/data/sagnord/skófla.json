@@ -1,0 +1,121 @@
+{
+	"orð": "skófla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skófl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skófla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skófla",
+		"sagnbót": "skóflað",
+		"boðháttur": {
+			"stýfður": "skófla",
+			"et": "skóflaðu",
+			"ft": "skóflið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skófla", "skóflar", "skóflar"],
+					"ft": ["skóflum", "skóflið", "skófla"]
+				},
+				"þátíð": {
+					"et": ["skóflaði", "skóflaðir", "skóflaði"],
+					"ft": ["skófluðum", "skófluðuð", "skófluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skófli", "skóflir", "skófli"],
+					"ft": ["skóflum", "skóflið", "skófli"]
+				},
+				"þátíð": {
+					"et": ["skóflaði", "skóflaðir", "skóflaði"],
+					"ft": ["skófluðum", "skófluðuð", "skófluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skóflarðu",
+					"ft": "skófliði"
+				},
+				"þátíð": {
+					"et": "skóflaðirðu",
+					"ft": "skófluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skóflirðu",
+					"ft": "skófliði"
+				},
+				"þátíð": {
+					"et": "skóflaðirðu",
+					"ft": "skófluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skóflast",
+		"sagnbót": "skóflast",
+		"boðháttur": {
+			"et": "skóflastu",
+			"ft": "skóflist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skóflast", "skóflast", "skóflast"],
+					"ft": ["skóflumst", "skóflist", "skóflast"]
+				},
+				"þátíð": {
+					"et": ["skóflaðist", "skóflaðist", "skóflaðist"],
+					"ft": ["skófluðumst", "skófluðust", "skófluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skóflist", "skóflist", "skóflist"],
+					"ft": ["skóflumst", "skóflist", "skóflist"]
+				},
+				"þátíð": {
+					"et": ["skóflaðist", "skóflaðist", "skóflaðist"],
+					"ft": ["skófluðumst", "skófluðust", "skófluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skóflastu"
+				},
+				"þátíð": {
+					"et": "skóflaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skóflistu"
+				},
+				"þátíð": {
+					"et": "skóflaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skóflandi"
+	},
+	"kennistrengur": "so-skófla",
+	"hash": "cd0308b418e04677aa68a2f275cee4b44d4232a17732939a5d3115c5de3ff35f"
+}

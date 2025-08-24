@@ -1,0 +1,99 @@
+{
+	"orð": "rása",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rás",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rás-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rása",
+		"sagnbót": "rásað",
+		"boðháttur": {
+			"stýfður": "rása",
+			"et": "rásaðu",
+			"ft": "rásið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rása", "rásar", "rásar"],
+					"ft": ["rásum", "rásið", "rása"]
+				},
+				"þátíð": {
+					"et": ["rásaði", "rásaðir", "rásaði"],
+					"ft": ["rásuðum", "rásuðuð", "rásuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rási", "rásir", "rási"],
+					"ft": ["rásum", "rásið", "rási"]
+				},
+				"þátíð": {
+					"et": ["rásaði", "rásaðir", "rásaði"],
+					"ft": ["rásuðum", "rásuðuð", "rásuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rásarðu",
+					"ft": "rásiði"
+				},
+				"þátíð": {
+					"et": "rásaðirðu",
+					"ft": "rásuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rásirðu",
+					"ft": "rásiði"
+				},
+				"þátíð": {
+					"et": "rásaðirðu",
+					"ft": "rásuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rásandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rásaður", "rásaðan", "rásuðum", "rásaðs"],
+					"kvk": ["rásuð", "rásaða", "rásaðri", "rásaðrar"],
+					"hk": ["rásað", "rásað", "rásuðu", "rásaðs"]
+				},
+				"ft": {
+					"kk": ["rásaðir", "rásaða", "rásuðum", "rásaðra"],
+					"kvk": ["rásaðar", "rásaðar", "rásuðum", "rásaðra"],
+					"hk": ["rásuð", "rásuð", "rásuðum", "rásaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["rásaði", "rásaða", "rásaða", "rásaða"],
+					"kvk": ["rásaða", "rásuðu", "rásuðu", "rásuðu"],
+					"hk": ["rásaða", "rásaða", "rásaða", "rásaða"]
+				},
+				"ft": {
+					"kk": ["rásuðu", "rásuðu", "rásuðu", "rásuðu"],
+					"kvk": ["rásuðu", "rásuðu", "rásuðu", "rásuðu"],
+					"hk": ["rásuðu", "rásuðu", "rásuðu", "rásuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rása",
+	"hash": "fed99f28eab8617fb15cc7eb3f40ec6177352873890f80d60ef5078b941ee14d"
+}

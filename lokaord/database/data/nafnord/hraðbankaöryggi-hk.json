@@ -1,0 +1,27 @@
+{
+	"orð": "hraðbankaöryggi",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hrað",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hraður"
+		},
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-öryggi-hk"
+		}
+	],
+	"et": {
+		"ág": ["hraðbankaöryggi", "hraðbankaöryggi", "hraðbankaöryggi", "hraðbankaöryggis"],
+		"mg": ["hraðbankaöryggið", "hraðbankaöryggið", "hraðbankaörygginu", "hraðbankaöryggisins"]
+	},
+	"kennistrengur": "no-hraðbankaöryggi-hk",
+	"hash": "a139d360056b63ddca36c4e60457ce0392f85c26c2a42814c69db67b8ed58912"
+}

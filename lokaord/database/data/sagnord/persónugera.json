@@ -1,0 +1,142 @@
+{
+	"orð": "persónugera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "persónugera",
+		"sagnbót": "persónugert",
+		"boðháttur": {
+			"stýfður": "persónuger",
+			"et": "persónugerðu",
+			"ft": "persónugerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónugeri", "persónugerir", "persónugerir"],
+					"ft": ["persónugerum", "persónugerið", "persónugera"]
+				},
+				"þátíð": {
+					"et": ["persónugerði", "persónugerðir", "persónugerði"],
+					"ft": ["persónugerðum", "persónugerðuð", "persónugerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónugeri", "persónugerir", "persónugeri"],
+					"ft": ["persónugerum", "persónugerið", "persónugeri"]
+				},
+				"þátíð": {
+					"et": ["persónugerði", "persónugerðir", "persónugerði"],
+					"ft": ["persónugerðum", "persónugerðuð", "persónugerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "persónugerirðu",
+					"ft": "persónugeriði"
+				},
+				"þátíð": {
+					"et": "persónugerðirðu",
+					"ft": "persónugerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "persónugerirðu",
+					"ft": "persónugeriði"
+				},
+				"þátíð": {
+					"et": "persónugerðirðu",
+					"ft": "persónugerðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "persónugerast",
+		"sagnbót": "persónugerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónugerist", "persónugerist", "persónugerist"],
+					"ft": ["persónugerumst", "persónugerist", "persónugerast"]
+				},
+				"þátíð": {
+					"et": ["persónugerðist", "persónugerðist", "persónugerðist"],
+					"ft": ["persónugerðumst", "persónugerðust", "persónugerðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónugerist", "persónugerist", "persónugerist"],
+					"ft": ["persónugerumst", "persónugerist", "persónugerist"]
+				},
+				"þátíð": {
+					"et": ["persónugerðist", "persónugerðist", "persónugerðist"],
+					"ft": ["persónugerðumst", "persónugerðust", "persónugerðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "persónugeristu"
+				},
+				"þátíð": {
+					"et": "persónugerðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "persónugeristu"
+				},
+				"þátíð": {
+					"et": "persónugerðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "persónugerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["persónugerður", "persónugerðan", "persónugerðum", "persónugerðs"],
+					"kvk": ["persónugerð", "persónugerða", "persónugerðri", "persónugerðrar"],
+					"hk": ["persónugert", "persónugert", "persónugerðu", "persónugerðs"]
+				},
+				"ft": {
+					"kk": ["persónugerðir", "persónugerða", "persónugerðum", "persónugerðra"],
+					"kvk": ["persónugerðar", "persónugerðar", "persónugerðum", "persónugerðra"],
+					"hk": ["persónugerð", "persónugerð", "persónugerðum", "persónugerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["persónugerði", "persónugerða", "persónugerða", "persónugerða"],
+					"kvk": ["persónugerða", "persónugerðu", "persónugerðu", "persónugerðu"],
+					"hk": ["persónugerða", "persónugerða", "persónugerða", "persónugerða"]
+				},
+				"ft": {
+					"kk": ["persónugerðu", "persónugerðu", "persónugerðu", "persónugerðu"],
+					"kvk": ["persónugerðu", "persónugerðu", "persónugerðu", "persónugerðu"],
+					"hk": ["persónugerðu", "persónugerðu", "persónugerðu", "persónugerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-persónugera",
+	"hash": "6fb2b3157cc12b0ffe8d6ab6e73f5bc22727372d6b01af3a0e054c8b278ee73a"
+}

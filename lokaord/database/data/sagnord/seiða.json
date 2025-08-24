@@ -1,0 +1,120 @@
+{
+	"orð": "seiða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "seiða",
+		"sagnbót": "seitt",
+		"boðháttur": {
+			"stýfður": "seið",
+			"et": "seiddu",
+			"ft": "seiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seiði", "seiðir", "seiðir"],
+					"ft": ["seiðum", "seiðið", "seiða"]
+				},
+				"þátíð": {
+					"et": ["seiddi", "seiddir", "seiddi"],
+					"ft": ["seiddum", "seidduð", "seiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seiði", "seiðir", "seiði"],
+					"ft": ["seiðum", "seiðið", "seiði"]
+				},
+				"þátíð": {
+					"et": ["seiddi", "seiddir", "seiddi"],
+					"ft": ["seiddum", "seidduð", "seiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seiðirðu",
+					"ft": "seiðiði"
+				},
+				"þátíð": {
+					"et": "seiddirðu",
+					"ft": "seidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seiðirðu",
+					"ft": "seiðiði"
+				},
+				"þátíð": {
+					"et": "seiddirðu",
+					"ft": "seidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "seiðast",
+		"sagnbót": "seiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["seiðist", "seiðist", "seiðist"],
+					"ft": ["seiðumst", "seiðist", "seiðast"]
+				},
+				"þátíð": {
+					"et": ["seiddist", "seiddist", "seiddist"],
+					"ft": ["seiddumst", "seiddust", "seiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["seiðist", "seiðist", "seiðist"],
+					"ft": ["seiðumst", "seiðist", "seiðist"]
+				},
+				"þátíð": {
+					"et": ["seiddist", "seiddist", "seiddist"],
+					"ft": ["seiddumst", "seiddust", "seiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "seiðistu"
+				},
+				"þátíð": {
+					"et": "seiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "seiðistu"
+				},
+				"þátíð": {
+					"et": "seiddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "seiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["seiddur", "seiddan", "seiddum", "seidds"],
+					"kvk": ["seidd", "seidda", "seiddri", "seiddrar"],
+					"hk": ["seitt", "seitt", "seiddu", "seidds"]
+				},
+				"ft": {
+					"kk": ["seiddir", "seidda", "seiddum", "seiddra"],
+					"kvk": ["seiddar", "seiddar", "seiddum", "seiddra"],
+					"hk": ["seidd", "seidd", "seiddum", "seiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-seiða",
+	"hash": "ba72078fe6530bdd373096cab3c8bb5d4da9eeed4d8586755b72c716d4518e5c"
+}

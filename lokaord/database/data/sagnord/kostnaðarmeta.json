@@ -1,0 +1,99 @@
+{
+	"orð": "kostnaðarmeta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kostnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostnaður-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-meta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kostnaðarmeta",
+		"sagnbót": "kostnaðarmetið",
+		"boðháttur": {
+			"stýfður": "kostnaðarmet",
+			"et": "kostnaðarmettu",
+			"ft": "kostnaðarmetið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kostnaðarmet", "kostnaðarmetur", "kostnaðarmetur"],
+					"ft": ["kostnaðarmetum", "kostnaðarmetið", "kostnaðarmeta"]
+				},
+				"þátíð": {
+					"et": ["kostnaðarmat", "kostnaðarmast", "kostnaðarmat"],
+					"ft": ["kostnaðarmátum", "kostnaðarmátuð", "kostnaðarmátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kostnaðarmeti", "kostnaðarmetir", "kostnaðarmeti"],
+					"ft": ["kostnaðarmetum", "kostnaðarmetið", "kostnaðarmeti"]
+				},
+				"þátíð": {
+					"et": ["kostnaðarmæti", "kostnaðarmætir", "kostnaðarmæti"],
+					"ft": ["kostnaðarmætum", "kostnaðarmætuð", "kostnaðarmætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kostnaðarmeturðu",
+					"ft": "kostnaðarmetiði"
+				},
+				"þátíð": {
+					"et": "kostnaðarmastu",
+					"ft": "kostnaðarmátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kostnaðarmetirðu",
+					"ft": "kostnaðarmetiði"
+				},
+				"þátíð": {
+					"et": "kostnaðarmætirðu",
+					"ft": "kostnaðarmætuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kostnaðarmetandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kostnaðarmetinn", "kostnaðarmetinn", "kostnaðarmetnum", "kostnaðarmetins"],
+					"kvk": ["kostnaðarmetin", "kostnaðarmetna", "kostnaðarmetinni", "kostnaðarmetinnar"],
+					"hk": ["kostnaðarmetið", "kostnaðarmetið", "kostnaðarmetnu", "kostnaðarmetins"]
+				},
+				"ft": {
+					"kk": ["kostnaðarmetnir", "kostnaðarmetna", "kostnaðarmetnum", "kostnaðarmetinna"],
+					"kvk": ["kostnaðarmetnar", "kostnaðarmetnar", "kostnaðarmetnum", "kostnaðarmetinna"],
+					"hk": ["kostnaðarmetin", "kostnaðarmetin", "kostnaðarmetnum", "kostnaðarmetinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kostnaðarmetni", "kostnaðarmetna", "kostnaðarmetna", "kostnaðarmetna"],
+					"kvk": ["kostnaðarmetna", "kostnaðarmetnu", "kostnaðarmetnu", "kostnaðarmetnu"],
+					"hk": ["kostnaðarmetna", "kostnaðarmetna", "kostnaðarmetna", "kostnaðarmetna"]
+				},
+				"ft": {
+					"kk": ["kostnaðarmetnu", "kostnaðarmetnu", "kostnaðarmetnu", "kostnaðarmetnu"],
+					"kvk": ["kostnaðarmetnu", "kostnaðarmetnu", "kostnaðarmetnu", "kostnaðarmetnu"],
+					"hk": ["kostnaðarmetnu", "kostnaðarmetnu", "kostnaðarmetnu", "kostnaðarmetnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kostnaðarmeta",
+	"hash": "570df95cfe8ad20932627eefde044c640150b3f4c83b78e3f3817a705675b57c"
+}

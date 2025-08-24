@@ -1,0 +1,32 @@
+{
+	"orð": "hraðbankaviðhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hrað",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hraður"
+		},
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["hraðbankaviðhald", "hraðbankaviðhald", "hraðbankaviðhaldi", "hraðbankaviðhalds"],
+		"mg": ["hraðbankaviðhaldið", "hraðbankaviðhaldið", "hraðbankaviðhaldinu", "hraðbankaviðhaldsins"]
+	},
+	"kennistrengur": "no-hraðbankaviðhald-hk",
+	"hash": "8ca0a3b12b1b87b1fd61d235de952879e8b608cd146d8149950ba6ff314c0064"
+}

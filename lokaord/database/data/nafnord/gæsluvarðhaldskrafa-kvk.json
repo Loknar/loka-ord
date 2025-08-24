@@ -1,0 +1,35 @@
+{
+	"orð": "gæsluvarðhaldskrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"mynd": "varð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vörður-kk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gæsluvarðhaldskrafa", "gæsluvarðhaldskröfu", "gæsluvarðhaldskröfu", "gæsluvarðhaldskröfu"],
+		"mg": ["gæsluvarðhaldskrafan", "gæsluvarðhaldskröfuna", "gæsluvarðhaldskröfunni", "gæsluvarðhaldskröfunnar"]
+	},
+	"ft": {
+		"ág": ["gæsluvarðhaldskröfur", "gæsluvarðhaldskröfur", "gæsluvarðhaldskröfum", "gæsluvarðhaldskrafna"],
+		"mg": ["gæsluvarðhaldskröfurnar", "gæsluvarðhaldskröfurnar", "gæsluvarðhaldskröfunum", "gæsluvarðhaldskrafnanna"]
+	},
+	"kennistrengur": "no-gæsluvarðhaldskrafa-kvk",
+	"hash": "735650ff5507ad2283cdaea35be50d50941ada2e9ef22e71299d44685a195d0d"
+}
