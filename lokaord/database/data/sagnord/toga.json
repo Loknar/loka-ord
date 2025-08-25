@@ -1,6 +1,16 @@
 {
 	"orð": "toga",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tog",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tog-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "toga",
 		"sagnbót": "togað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "togast",
 		"sagnbót": "togast",
+		"boðháttur": {
+			"et": "togastu",
+			"ft": "togist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-toga",
-	"hash": "73e06daa61bfe120fc1e8b82f0c0edc3d9722198b239d2b93d51bfb20218e19c"
+	"hash": "e218784457dc53baa4291af9529c1d52473eaeafb0e6f57a830a5f7fa12944d0"
 }

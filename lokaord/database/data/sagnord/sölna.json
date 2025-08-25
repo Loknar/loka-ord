@@ -1,0 +1,99 @@
+{
+	"orð": "sölna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "söln",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-söl-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sölna",
+		"sagnbót": "sölnað",
+		"boðháttur": {
+			"stýfður": "sölna",
+			"et": "sölnaðu",
+			"ft": "sölnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sölna", "sölnar", "sölnar"],
+					"ft": ["sölnum", "sölnið", "sölna"]
+				},
+				"þátíð": {
+					"et": ["sölnaði", "sölnaðir", "sölnaði"],
+					"ft": ["sölnuðum", "sölnuðuð", "sölnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sölni", "sölnir", "sölni"],
+					"ft": ["sölnum", "sölnið", "sölni"]
+				},
+				"þátíð": {
+					"et": ["sölnaði", "sölnaðir", "sölnaði"],
+					"ft": ["sölnuðum", "sölnuðuð", "sölnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sölnarðu",
+					"ft": "sölniði"
+				},
+				"þátíð": {
+					"et": "sölnaðirðu",
+					"ft": "sölnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sölnirðu",
+					"ft": "sölniði"
+				},
+				"þátíð": {
+					"et": "sölnaðirðu",
+					"ft": "sölnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sölnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sölnaður", "sölnaðan", "sölnuðum", "sölnaðs"],
+					"kvk": ["sölnuð", "sölnaða", "sölnaðri", "sölnaðrar"],
+					"hk": ["sölnað", "sölnað", "sölnuðu", "sölnaðs"]
+				},
+				"ft": {
+					"kk": ["sölnaðir", "sölnaða", "sölnuðum", "sölnaðra"],
+					"kvk": ["sölnaðar", "sölnaðar", "sölnuðum", "sölnaðra"],
+					"hk": ["sölnuð", "sölnuð", "sölnuðum", "sölnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sölnaði", "sölnaða", "sölnaða", "sölnaða"],
+					"kvk": ["sölnaða", "sölnuðu", "sölnuðu", "sölnuðu"],
+					"hk": ["sölnaða", "sölnaða", "sölnaða", "sölnaða"]
+				},
+				"ft": {
+					"kk": ["sölnuðu", "sölnuðu", "sölnuðu", "sölnuðu"],
+					"kvk": ["sölnuðu", "sölnuðu", "sölnuðu", "sölnuðu"],
+					"hk": ["sölnuðu", "sölnuðu", "sölnuðu", "sölnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sölna",
+	"hash": "2e9f4011db92daf313cf3806e29f77d75cb6a01950275b8489d5602e4ec369ff"
+}

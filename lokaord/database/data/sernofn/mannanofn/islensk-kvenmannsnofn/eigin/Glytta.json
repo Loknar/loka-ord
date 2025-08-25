@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-glytta-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Glytta", "Glyttu", "Glyttu", "Glyttu"]
 	},
 	"kennistrengur": "sérn.en-Glytta-kvk",
-	"hash": "41602d98754e3104fdf0f550a1d9833ced5d69225bab8e83c295aaaa5f860160"
+	"hash": "e21fe8bf8e78c3a0f56cc6755e303e463aa763b513e7f74bd99d7d158be4ab20"
 }

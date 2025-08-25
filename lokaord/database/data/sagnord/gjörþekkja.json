@@ -1,0 +1,99 @@
+{
+	"orð": "gjörþekkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjör",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-þekkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjörþekkja",
+		"sagnbót": "gjörþekkt",
+		"boðháttur": {
+			"stýfður": "gjörþekk",
+			"et": "gjörþekktu",
+			"ft": "gjörþekkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjörþekki", "gjörþekkir", "gjörþekkir"],
+					"ft": ["gjörþekkjum", "gjörþekkið", "gjörþekkja"]
+				},
+				"þátíð": {
+					"et": ["gjörþekkti", "gjörþekktir", "gjörþekkti"],
+					"ft": ["gjörþekktum", "gjörþekktuð", "gjörþekktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjörþekki", "gjörþekkir", "gjörþekki"],
+					"ft": ["gjörþekkjum", "gjörþekkið", "gjörþekki"]
+				},
+				"þátíð": {
+					"et": ["gjörþekkti", "gjörþekktir", "gjörþekkti"],
+					"ft": ["gjörþekktum", "gjörþekktuð", "gjörþekktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjörþekkirðu",
+					"ft": "gjörþekkiði"
+				},
+				"þátíð": {
+					"et": "gjörþekktirðu",
+					"ft": "gjörþekktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjörþekkirðu",
+					"ft": "gjörþekkiði"
+				},
+				"þátíð": {
+					"et": "gjörþekktirðu",
+					"ft": "gjörþekktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjörþekkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gjörþekktur", "gjörþekktan", "gjörþekktum", "gjörþekkts"],
+					"kvk": ["gjörþekkt", "gjörþekkta", "gjörþekktri", "gjörþekktrar"],
+					"hk": ["gjörþekkt", "gjörþekkt", "gjörþekktu", "gjörþekkts"]
+				},
+				"ft": {
+					"kk": ["gjörþekktir", "gjörþekkta", "gjörþekktum", "gjörþekktra"],
+					"kvk": ["gjörþekktar", "gjörþekktar", "gjörþekktum", "gjörþekktra"],
+					"hk": ["gjörþekkt", "gjörþekkt", "gjörþekktum", "gjörþekktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gjörþekkti", "gjörþekkta", "gjörþekkta", "gjörþekkta"],
+					"kvk": ["gjörþekkta", "gjörþekktu", "gjörþekktu", "gjörþekktu"],
+					"hk": ["gjörþekkta", "gjörþekkta", "gjörþekkta", "gjörþekkta"]
+				},
+				"ft": {
+					"kk": ["gjörþekktu", "gjörþekktu", "gjörþekktu", "gjörþekktu"],
+					"kvk": ["gjörþekktu", "gjörþekktu", "gjörþekktu", "gjörþekktu"],
+					"hk": ["gjörþekktu", "gjörþekktu", "gjörþekktu", "gjörþekktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjörþekkja",
+	"hash": "5e039dcf36b7a39668409327d4d6d85b3ee62f416753771b0ca0eff50f60555c"
+}

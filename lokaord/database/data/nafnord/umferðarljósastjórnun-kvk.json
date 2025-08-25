@@ -1,0 +1,32 @@
+{
+	"orð": "umferðarljósastjórnun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "ferðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "ljósa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ljós-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stjórnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["umferðarljósastjórnun", "umferðarljósastjórnun", "umferðarljósastjórnun", "umferðarljósastjórnunar"],
+		"mg": ["umferðarljósastjórnunin", "umferðarljósastjórnunina", "umferðarljósastjórnuninni", "umferðarljósastjórnunarinnar"]
+	},
+	"kennistrengur": "no-umferðarljósastjórnun-kvk",
+	"hash": "4da6de1db17b99f9cd0a05ac2fad0725d476d1529cf30808b04be303c4af80c1"
+}

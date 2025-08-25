@@ -1,0 +1,99 @@
+{
+	"orð": "togna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "togn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-toga"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "togna",
+		"sagnbót": "tognað",
+		"boðháttur": {
+			"stýfður": "togna",
+			"et": "tognaðu",
+			"ft": "tognið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["togna", "tognar", "tognar"],
+					"ft": ["tognum", "tognið", "togna"]
+				},
+				"þátíð": {
+					"et": ["tognaði", "tognaðir", "tognaði"],
+					"ft": ["tognuðum", "tognuðuð", "tognuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["togni", "tognir", "togni"],
+					"ft": ["tognum", "tognið", "togni"]
+				},
+				"þátíð": {
+					"et": ["tognaði", "tognaðir", "tognaði"],
+					"ft": ["tognuðum", "tognuðuð", "tognuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tognarðu",
+					"ft": "togniði"
+				},
+				"þátíð": {
+					"et": "tognaðirðu",
+					"ft": "tognuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tognirðu",
+					"ft": "togniði"
+				},
+				"þátíð": {
+					"et": "tognaðirðu",
+					"ft": "tognuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tognandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tognaður", "tognaðan", "tognuðum", "tognaðs"],
+					"kvk": ["tognuð", "tognaða", "tognaðri", "tognaðrar"],
+					"hk": ["tognað", "tognað", "tognuðu", "tognaðs"]
+				},
+				"ft": {
+					"kk": ["tognaðir", "tognaða", "tognuðum", "tognaðra"],
+					"kvk": ["tognaðar", "tognaðar", "tognuðum", "tognaðra"],
+					"hk": ["tognuð", "tognuð", "tognuðum", "tognaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tognaði", "tognaða", "tognaða", "tognaða"],
+					"kvk": ["tognaða", "tognuðu", "tognuðu", "tognuðu"],
+					"hk": ["tognaða", "tognaða", "tognaða", "tognaða"]
+				},
+				"ft": {
+					"kk": ["tognuðu", "tognuðu", "tognuðu", "tognuðu"],
+					"kvk": ["tognuðu", "tognuðu", "tognuðu", "tognuðu"],
+					"hk": ["tognuðu", "tognuðu", "tognuðu", "tognuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-togna",
+	"hash": "031576ec8b7773c6a9169821aaf57dd3f2aabb8e7e99f0f68aa9dd29430179fa"
+}
