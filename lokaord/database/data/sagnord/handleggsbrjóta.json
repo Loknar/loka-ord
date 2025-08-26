@@ -1,0 +1,104 @@
+{
+	"orð": "handleggsbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"mynd": "leggs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leggur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handleggsbrjóta",
+		"sagnbót": "handleggsbrotið",
+		"boðháttur": {
+			"stýfður": "handleggsbrjót",
+			"et": "handleggsbrjóttu",
+			"ft": "handleggsbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handleggsbrýt", "handleggsbrýtur", "handleggsbrýtur"],
+					"ft": ["handleggsbrjótum", "handleggsbrjótið", "handleggsbrjóta"]
+				},
+				"þátíð": {
+					"et": ["handleggsbraut", "handleggsbraust", "handleggsbraut"],
+					"ft": ["handleggsbrutum", "handleggsbrutuð", "handleggsbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handleggsbrjóti", "handleggsbrjótir", "handleggsbrjóti"],
+					"ft": ["handleggsbrjótum", "handleggsbrjótið", "handleggsbrjóti"]
+				},
+				"þátíð": {
+					"et": ["handleggsbryti", "handleggsbrytir", "handleggsbryti"],
+					"ft": ["handleggsbrytum", "handleggsbrytuð", "handleggsbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handleggsbrýturðu",
+					"ft": "handleggsbrjótiði"
+				},
+				"þátíð": {
+					"et": "handleggsbraustu",
+					"ft": "handleggsbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handleggsbrjótirðu",
+					"ft": "handleggsbrjótiði"
+				},
+				"þátíð": {
+					"et": "handleggsbrytirðu",
+					"ft": "handleggsbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handleggsbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handleggsbrotinn", "handleggsbrotinn", "handleggsbrotnum", "handleggsbrotins"],
+					"kvk": ["handleggsbrotin", "handleggsbrotna", "handleggsbrotinni", "handleggsbrotinnar"],
+					"hk": ["handleggsbrotið", "handleggsbrotið", "handleggsbrotnu", "handleggsbrotins"]
+				},
+				"ft": {
+					"kk": ["handleggsbrotnir", "handleggsbrotna", "handleggsbrotnum", "handleggsbrotinna"],
+					"kvk": ["handleggsbrotnar", "handleggsbrotnar", "handleggsbrotnum", "handleggsbrotinna"],
+					"hk": ["handleggsbrotin", "handleggsbrotin", "handleggsbrotnum", "handleggsbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handleggsbrotni", "handleggsbrotna", "handleggsbrotna", "handleggsbrotna"],
+					"kvk": ["handleggsbrotna", "handleggsbrotnu", "handleggsbrotnu", "handleggsbrotnu"],
+					"hk": ["handleggsbrotna", "handleggsbrotna", "handleggsbrotna", "handleggsbrotna"]
+				},
+				"ft": {
+					"kk": ["handleggsbrotnu", "handleggsbrotnu", "handleggsbrotnu", "handleggsbrotnu"],
+					"kvk": ["handleggsbrotnu", "handleggsbrotnu", "handleggsbrotnu", "handleggsbrotnu"],
+					"hk": ["handleggsbrotnu", "handleggsbrotnu", "handleggsbrotnu", "handleggsbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handleggsbrjóta",
+	"hash": "f108e3cf78ce3860e36ceeae198fb8282714b916404228515bd7e430b110ca4e"
+}

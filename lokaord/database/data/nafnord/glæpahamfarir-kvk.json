@@ -1,0 +1,27 @@
+{
+	"orð": "glæpahamfarir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "glæpa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-glæpur-kk"
+		},
+		{
+			"mynd": "ham",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hamur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-för-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["glæpahamfarir", "glæpahamfarir", "glæpahamförum", "glæpahamfara"],
+		"mg": ["glæpahamfarirnar", "glæpahamfarirnar", "glæpahamförunum", "glæpahamfaranna"]
+	},
+	"kennistrengur": "no-glæpahamfarir-kvk",
+	"hash": "1f22b432ea366925bcebe2807fecbed07fe33e1e4905b61416274c3b7062c6a9"
+}

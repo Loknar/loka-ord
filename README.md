@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1699 | 1580 | 1456 | 4735 | 10094 | 12874 | 10582 | 33550 | **38285** |
-| **Lýsingarorð** | 383 |   |   |   | 716 |   |   |   | 4219 | **4935** |
-| **Sagnorð**     |   |   |   |   | 1260 |   |   |   | 1472 | **2732** |
+| **Nafnorð**     |   | 1701 | 1582 | 1456 | 4739 | 10108 | 12901 | 10602 | 33611 | **38350** |
+| **Lýsingarorð** | 383 |   |   |   | 717 |   |   |   | 4224 | **4941** |
+| **Sagnorð**     |   |   |   |   | 1260 |   |   |   | 1476 | **2736** |
 | **Töluorð**     |   |   |   |   | 43 |   |   |   | 61 | **104** |
 | **Fornöfn**     |   |   |   |   | 39 |   |   |   | 15 | **54** |
-| **Smáorð**      |   |   |   |   | 342 |   |   |   | 503 | **845** |
-| **Alls** |   |   |   |   | **7136** |   |   |   | **39820** | **46956** |
+| **Smáorð**      |   |   |   |   | 343 |   |   |   | 503 | **846** |
+| **Alls** |   |   |   |   | **7142** |   |   |   | **39890** | **47032** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1309 | 1263 | 14 | 2586 | 992 | 1271 | 10 | 2273 | **4859** |
 | Kenninöfn |  |  |  |  | 4772 | 4770 | 4747 | 14289 | **14289** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **830** |
-| Gælunöfn  | 232 | 96 | 3 | 331 | 128 | 130 | 8 | 266 | **597** |
-| Örnefni   | 29 | 136 | 232 | 397 | 1854 | 1346 | 1368 | 4568 | **4965** |
-| **Alls**  |   |   |   | **3985** |   |   |   | **21555** | **25540** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **835** |
+| Gælunöfn  | 234 | 97 | 3 | 334 | 128 | 130 | 8 | 266 | **600** |
+| Örnefni   | 29 | 136 | 238 | 403 | 1855 | 1346 | 1370 | 4571 | **4974** |
+| **Alls**  |   |   |   | **3999** |   |   |   | **21558** | **25557** |
 
-**Samtals:** 72496 orð.
+**Samtals:** 72589 orð.
 
 532 skammstafanir.
 
@@ -129,15 +129,15 @@ Athugið að þegar sett er saman JSON skrá fyrir samsett orð þá þarf ekki 
 }
 ```
 
-svo þegar keyrt var `update` þá bættust beygingarmyndirnar við út frá `"samsett"` upplýsingalistanum.
+svo þegar keyrt var `update` voru beygingarmyndirnar leiddar út frá `"samsett"` upplýsingalistanum og þeim svo bætt við í skrána.
 
-Gildið í `"hash"` á að vera strengur sem er ekki tómur, gildið er sett sem sextándakerfis hakkagildi sem endurspeglar gögn orðsins þegar `update` og/eða `write-files` er keyrt, svo að fyrir sömu gögn er hakkagildið það sama, og þegar gögn breytast þá breytist hakkagildið (sjá `Ord.get_data_hash` í `handlers.py`).
+Gildinu í `"hash"` er gert að vera strengur sem er ekki tómur, gildið er sett sem sextándakerfis hakkagildi sem endurspeglar gögn orðsins þegar `update` og/eða `write-files` er keyrt, svo að fyrir sömu gögn er hakkagildið það sama, og þegar gögn breytast þá breytist hakkagildið (sjá `Ord.get_data_hash` í `handlers.py`).
 
-Athugið að kröfur til skráarnafna eru mismunandi miłli orðflokka, til dæmis þurfa nafnorð að hafa kyn orðsins í skráarnafni, þá eru "ósjálfstæð" orð (notað fyrir orðhluta sem ekki eru látnir standa einir) með `-ó` í skráarnafni, og þau orð sem eru sérstaklega aðgreind með "merkingu" innihalda merkinguna í skráarnafni á sniðinu `-_merking_` (sjá t.d. skrána `mæla-_segja_.json`).
+Athugið að kröfur til skráarnafna eru misjöfn miłli orðflokka, til dæmis þurfa nafnorð að hafa kyn orðsins í skráarnafni, þá eru "ósjálfstæð" orð (notað fyrir orðhluta sem ekki eru látnir standa einir) með `-ó` í skráarnafni, og þau orð sem eru sérstaklega aðgreind með "merkingu" innihalda merkinguna í skráarnafni á sniðinu `-_merking_` (sjá t.d. skrána `mæla-_segja_.json`).
 
 ### Orðaleit
 
-Til að athuga hvort orð sé til staðar í grunni er hægt að gera uppflettingu í smíðuðum gagnagrunni með tólum að eigin vali, leita að JSON skrá með nafni sem inniheldur umrætt orð, eða með því að smíða sjón fyrir sjáanda (e. sight for seer):
+Viljirðu athuga hvort orð sé til staðar í grunni geturðu framkvæmt uppflettingu í smíðuðum gagnagrunni með tólum að eigin vali, leitað að JSON skrá með nafni sem inniheldur umrætt orð, eða með því að smíða sjón fyrir sjáanda (e. sight for seer):
 
 ```bash
 python main.py build-sight

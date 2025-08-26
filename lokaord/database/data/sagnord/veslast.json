@@ -1,0 +1,65 @@
+{
+	"orð": "veslast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vesl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vesla-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "veslast",
+		"sagnbót": "veslast",
+		"boðháttur": {
+			"et": "veslastu",
+			"ft": "veslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veslast", "veslast", "veslast"],
+					"ft": ["veslumst", "veslist", "veslast"]
+				},
+				"þátíð": {
+					"et": ["veslaðist", "veslaðist", "veslaðist"],
+					"ft": ["vesluðumst", "vesluðust", "vesluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veslist", "veslist", "veslist"],
+					"ft": ["veslumst", "veslist", "veslist"]
+				},
+				"þátíð": {
+					"et": ["veslaðist", "veslaðist", "veslaðist"],
+					"ft": ["vesluðumst", "vesluðust", "vesluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veslastu"
+				},
+				"þátíð": {
+					"et": "veslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veslistu"
+				},
+				"þátíð": {
+					"et": "veslaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-veslast",
+	"hash": "8cdbd0994444b629958b492a9f3bef78f73533cbc38e7704e8f17799a483f666"
+}
