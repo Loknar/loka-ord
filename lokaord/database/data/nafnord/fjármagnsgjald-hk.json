@@ -1,0 +1,30 @@
+{
+	"orð": "fjármagnsgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjármagnsgjald", "fjármagnsgjald", "fjármagnsgjaldi", "fjármagnsgjalds"],
+		"mg": ["fjármagnsgjaldið", "fjármagnsgjaldið", "fjármagnsgjaldinu", "fjármagnsgjaldsins"]
+	},
+	"ft": {
+		"ág": ["fjármagnsgjöld", "fjármagnsgjöld", "fjármagnsgjöldum", "fjármagnsgjalda"],
+		"mg": ["fjármagnsgjöldin", "fjármagnsgjöldin", "fjármagnsgjöldunum", "fjármagnsgjaldanna"]
+	},
+	"kennistrengur": "no-fjármagnsgjald-hk",
+	"hash": "0ec4f483ca8bd6113fa6cf8465263ab61ec80dd943f818fafece8c282a80130e"
+}

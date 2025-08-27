@@ -1,0 +1,35 @@
+{
+	"orð": "langtímafjárhagsstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lang",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-langur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "fjárhags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjárhagur-kk"
+		},
+		{
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["langtímafjárhagsstaða", "langtímafjárhagsstöðu", "langtímafjárhagsstöðu", "langtímafjárhagsstöðu"],
+		"mg": ["langtímafjárhagsstaðan", "langtímafjárhagsstöðuna", "langtímafjárhagsstöðunni", "langtímafjárhagsstöðunnar"]
+	},
+	"ft": {
+		"ág": ["langtímafjárhagsstöður", "langtímafjárhagsstöður", "langtímafjárhagsstöðum", "langtímafjárhagsstaðna"],
+		"mg": ["langtímafjárhagsstöðurnar", "langtímafjárhagsstöðurnar", "langtímafjárhagsstöðunum", "langtímafjárhagsstaðnanna"]
+	},
+	"kennistrengur": "no-langtímafjárhagsstaða-kvk",
+	"hash": "fa28923af4e99f1d406607da90039d022419af79fcaab2038b5bbc9e119bf699"
+}

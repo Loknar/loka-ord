@@ -1,0 +1,32 @@
+{
+	"orð": "verksmiðjuframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "smiðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-smiðja-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verksmiðjuframleiðsla", "verksmiðjuframleiðslu", "verksmiðjuframleiðslu", "verksmiðjuframleiðslu"],
+		"mg": ["verksmiðjuframleiðslan", "verksmiðjuframleiðsluna", "verksmiðjuframleiðslunni", "verksmiðjuframleiðslunnar"]
+	},
+	"kennistrengur": "no-verksmiðjuframleiðsla-kvk",
+	"hash": "48a51e2e1b287081379a62e0a567664cef72914465196b8433a12795f5912be6"
+}
