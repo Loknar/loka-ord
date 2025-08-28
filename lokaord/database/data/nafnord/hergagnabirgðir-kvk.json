@@ -1,0 +1,27 @@
+{
+	"orð": "hergagnabirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "her",
+			"samsetning": "stofn",
+			"kennistrengur": "no-her-kk"
+		},
+		{
+			"mynd": "gagna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gagn-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["hergagnabirgðir", "hergagnabirgðir", "hergagnabirgðum", "hergagnabirgða"],
+		"mg": ["hergagnabirgðirnar", "hergagnabirgðirnar", "hergagnabirgðunum", "hergagnabirgðanna"]
+	},
+	"kennistrengur": "no-hergagnabirgðir-kvk",
+	"hash": "ee79a2a58c6a68475d500f04016a4fe38912e3a6bd8d3692bacfd0b28cbb5400"
+}
