@@ -1,0 +1,30 @@
+{
+	"orð": "innkaupadeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "kaupa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["innkaupadeild", "innkaupadeild", "innkaupadeild", "innkaupadeildar"],
+		"mg": ["innkaupadeildin", "innkaupadeildina", "innkaupadeildinni", "innkaupadeildarinnar"]
+	},
+	"ft": {
+		"ág": ["innkaupadeildir", "innkaupadeildir", "innkaupadeildum", "innkaupadeilda"],
+		"mg": ["innkaupadeildirnar", "innkaupadeildirnar", "innkaupadeildunum", "innkaupadeildanna"]
+	},
+	"kennistrengur": "no-innkaupadeild-kvk",
+	"hash": "9db758026cb688797cd7b5de5646bb1aeddf42fc8964b333edc5ca3d2e4e5405"
+}

@@ -2,6 +2,16 @@
 	"orð": "beining",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bein",
+			"samsetning": "stofn",
+			"kennistrengur": "so-beina"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["beining", "beiningu", "beiningu", "beiningar"],
 		"mg": ["beiningin", "beininguna", "beiningunni", "beiningarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["beiningarnar", "beiningarnar", "beiningunum", "beininganna"]
 	},
 	"kennistrengur": "no-beining-kvk",
-	"hash": "f224794a5fd3e6b04d397ad1952fb6e05d92aceb6049144e987f03c6c79a9843"
+	"hash": "de95bbd23391bdf7a110f7d9c7b8e6527f01428cca977b6b506912e993bfa76b"
 }

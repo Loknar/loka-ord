@@ -1,0 +1,146 @@
+{
+	"orð": "plokka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "plokk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-plokk-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "plokka",
+		"sagnbót": "plokkað",
+		"boðháttur": {
+			"stýfður": "plokka",
+			"et": "plokkaðu",
+			"ft": "plokkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["plokka", "plokkar", "plokkar"],
+					"ft": ["plokkum", "plokkið", "plokka"]
+				},
+				"þátíð": {
+					"et": ["plokkaði", "plokkaðir", "plokkaði"],
+					"ft": ["plokkuðum", "plokkuðuð", "plokkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["plokki", "plokkir", "plokki"],
+					"ft": ["plokkum", "plokkið", "plokki"]
+				},
+				"þátíð": {
+					"et": ["plokkaði", "plokkaðir", "plokkaði"],
+					"ft": ["plokkuðum", "plokkuðuð", "plokkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "plokkarðu",
+					"ft": "plokkiði"
+				},
+				"þátíð": {
+					"et": "plokkaðirðu",
+					"ft": "plokkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "plokkirðu",
+					"ft": "plokkiði"
+				},
+				"þátíð": {
+					"et": "plokkaðirðu",
+					"ft": "plokkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "plokkast",
+		"sagnbót": "plokkast",
+		"boðháttur": {
+			"et": "plokkastu",
+			"ft": "plokkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["plokkast", "plokkast", "plokkast"],
+					"ft": ["plokkumst", "plokkist", "plokkast"]
+				},
+				"þátíð": {
+					"et": ["plokkaðist", "plokkaðist", "plokkaðist"],
+					"ft": ["plokkuðumst", "plokkuðust", "plokkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["plokkist", "plokkist", "plokkist"],
+					"ft": ["plokkumst", "plokkist", "plokkist"]
+				},
+				"þátíð": {
+					"et": ["plokkaðist", "plokkaðist", "plokkaðist"],
+					"ft": ["plokkuðumst", "plokkuðust", "plokkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "plokkastu"
+				},
+				"þátíð": {
+					"et": "plokkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "plokkistu"
+				},
+				"þátíð": {
+					"et": "plokkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "plokkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["plokkaður", "plokkaðan", "plokkuðum", "plokkaðs"],
+					"kvk": ["plokkuð", "plokkaða", "plokkaðri", "plokkaðrar"],
+					"hk": ["plokkað", "plokkað", "plokkuðu", "plokkaðs"]
+				},
+				"ft": {
+					"kk": ["plokkaðir", "plokkaða", "plokkuðum", "plokkaðra"],
+					"kvk": ["plokkaðar", "plokkaðar", "plokkuðum", "plokkaðra"],
+					"hk": ["plokkuð", "plokkuð", "plokkuðum", "plokkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["plokkaði", "plokkaða", "plokkaða", "plokkaða"],
+					"kvk": ["plokkaða", "plokkuðu", "plokkuðu", "plokkuðu"],
+					"hk": ["plokkaða", "plokkaða", "plokkaða", "plokkaða"]
+				},
+				"ft": {
+					"kk": ["plokkuðu", "plokkuðu", "plokkuðu", "plokkuðu"],
+					"kvk": ["plokkuðu", "plokkuðu", "plokkuðu", "plokkuðu"],
+					"hk": ["plokkuðu", "plokkuðu", "plokkuðu", "plokkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-plokka",
+	"hash": "30e4472299146be0742ada6f217c169441cc516726b25cec97ceee0c2ceb7201"
+}
