@@ -1,0 +1,86 @@
+{
+	"orð": "jarðvinna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jarð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vinna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jarðvinna",
+		"sagnbót": "jarðunnið",
+		"boðháttur": {
+			"stýfður": "jarðvinn",
+			"et": "jarðvinndu",
+			"ft": "jarðvinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jarðvinn", "jarðvinnur", "jarðvinnur"],
+					"ft": ["jarðvinnum", "jarðvinnið", "jarðvinna"]
+				},
+				"þátíð": {
+					"et": ["jarðvann", "jarðvannst", "jarðvann"],
+					"ft": ["jarðunnum", "jarðunnuð", "jarðunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jarðvinni", "jarðvinnir", "jarðvinni"],
+					"ft": ["jarðvinnum", "jarðvinnið", "jarðvinni"]
+				},
+				"þátíð": {
+					"et": ["jarðynni", "jarðynnir", "jarðynni"],
+					"ft": ["jarðynnum", "jarðynnuð", "jarðynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "jarðvinnurðu",
+					"ft": "jarðvinniði"
+				},
+				"þátíð": {
+					"et": "jarðvannstu",
+					"ft": "jarðunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "jarðvinnirðu",
+					"ft": "jarðvinniði"
+				},
+				"þátíð": {
+					"et": "jarðynnirðu",
+					"ft": "jarðynnuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["jarðunninn", "jarðunninn", "jarðunnum", "jarðunnins"],
+					"kvk": ["jarðunnin", "jarðunna", "jarðunninni", "jarðunninnar"],
+					"hk": ["jarðunnið", "jarðunnið", "jarðunnu", "jarðunnins"]
+				},
+				"ft": {
+					"kk": ["jarðunnir", "jarðunna", "jarðunnum", "jarðunninna"],
+					"kvk": ["jarðunnar", "jarðunnar", "jarðunnum", "jarðunninna"],
+					"hk": ["jarðunnin", "jarðunnin", "jarðunnnum", "jarðunninna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-jarðvinna",
+	"hash": "7a854b96076e140b4acb55e3ddf41027ea36b2c6d2dd76aec54122f834c4aa14"
+}

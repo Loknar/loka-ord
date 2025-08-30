@@ -1,0 +1,30 @@
+{
+	"orð": "framleiðslueining",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-eining-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðslueining", "framleiðslueiningu", "framleiðslueiningu", "framleiðslueiningar"],
+		"mg": ["framleiðslueiningin", "framleiðslueininguna", "framleiðslueiningunni", "framleiðslueiningarinnar"]
+	},
+	"ft": {
+		"ág": ["framleiðslueiningar", "framleiðslueiningar", "framleiðslueiningum", "framleiðslueininga"],
+		"mg": ["framleiðslueiningarnar", "framleiðslueiningarnar", "framleiðslueiningunum", "framleiðslueininganna"]
+	},
+	"kennistrengur": "no-framleiðslueining-kvk",
+	"hash": "570d04d2c8679b01e9528efc7f98ef88f5c0042d3d10cd0e2737377fb4b9e606"
+}

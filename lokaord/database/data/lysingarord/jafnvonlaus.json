@@ -1,0 +1,48 @@
+{
+	"orð": "jafnvonlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "jafn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-jafn"
+		},
+		{
+			"mynd": "von",
+			"samsetning": "stofn",
+			"kennistrengur": "no-von-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["jafnvonlaus", "jafnvonlausan", "jafnvonlausum", "jafnvonlauss"],
+				"kvk": ["jafnvonlaus", "jafnvonlausa", "jafnvonlausri", "jafnvonlausrar"],
+				"hk": ["jafnvonlaust", "jafnvonlaust", "jafnvonlausu", "jafnvonlauss"]
+			},
+			"ft": {
+				"kk": ["jafnvonlausir", "jafnvonlausa", "jafnvonlausum", "jafnvonlausra"],
+				"kvk": ["jafnvonlausar", "jafnvonlausar", "jafnvonlausum", "jafnvonlausra"],
+				"hk": ["jafnvonlaus", "jafnvonlaus", "jafnvonlausum", "jafnvonlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["jafnvonlausi", "jafnvonlausa", "jafnvonlausa", "jafnvonlausa"],
+				"kvk": ["jafnvonlausa", "jafnvonlausu", "jafnvonlausu", "jafnvonlausu"],
+				"hk": ["jafnvonlausa", "jafnvonlausa", "jafnvonlausa", "jafnvonlausa"]
+			},
+			"ft": {
+				"kk": ["jafnvonlausu", "jafnvonlausu", "jafnvonlausu", "jafnvonlausu"],
+				"kvk": ["jafnvonlausu", "jafnvonlausu", "jafnvonlausu", "jafnvonlausu"],
+				"hk": ["jafnvonlausu", "jafnvonlausu", "jafnvonlausu", "jafnvonlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-jafnvonlaus",
+	"hash": "9f33f8da682c3d47358cdc164be976b2663feab2637425862f6f8da5c925db77"
+}

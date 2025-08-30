@@ -1,0 +1,32 @@
+{
+	"orð": "jarðvegsheilbrigði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "jarð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"mynd": "vegs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vegur-kk-_vegs_"
+		},
+		{
+			"mynd": "heil",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heiłl"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-brigði-hk"
+		}
+	],
+	"et": {
+		"ág": ["jarðvegsheilbrigði", "jarðvegsheilbrigði", "jarðvegsheilbrigði", "jarðvegsheilbrigðis"],
+		"mg": ["jarðvegsheilbrigðið", "jarðvegsheilbrigðið", "jarðvegsheilbrigðinu", "jarðvegsheilbrigðisins"]
+	},
+	"kennistrengur": "no-jarðvegsheilbrigði-hk",
+	"hash": "bae95815ebb623bf90c191c0ffdf1ff5b99f325094bc931a110b1b0be49bc587"
+}
