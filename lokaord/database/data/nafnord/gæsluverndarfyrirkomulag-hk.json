@@ -1,0 +1,37 @@
+{
+	"orð": "gæsluverndarfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["gæsluverndarfyrirkomulag", "gæsluverndarfyrirkomulag", "gæsluverndarfyrirkomulagi", "gæsluverndarfyrirkomulags"],
+		"mg": ["gæsluverndarfyrirkomulagið", "gæsluverndarfyrirkomulagið", "gæsluverndarfyrirkomulaginu", "gæsluverndarfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-gæsluverndarfyrirkomulag-hk",
+	"hash": "84455e534a528b2233c893f5a38f1fbe752823eaf8984e5654bb8a9af1cf70ed"
+}

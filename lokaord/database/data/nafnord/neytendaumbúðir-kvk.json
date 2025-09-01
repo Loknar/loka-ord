@@ -1,0 +1,27 @@
+{
+	"orð": "neytendaumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "neytenda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-neytandi-kk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["neytendaumbúðir", "neytendaumbúðir", "neytendaumbúðum", "neytendaumbúða"],
+		"mg": ["neytendaumbúðirnar", "neytendaumbúðirnar", "neytendaumbúðunum", "neytendaumbúðanna"]
+	},
+	"kennistrengur": "no-neytendaumbúðir-kvk",
+	"hash": "8c4abc083cd5124aaba4285b74f2a3eb03717f0dae7d97e56b9a96c5f417423b"
+}

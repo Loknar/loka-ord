@@ -8,7 +8,6 @@
 			"kennistrengur": "fn.óákv-samur"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-hentur"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["samhentari", "samhentari", "samhentari", "samhentari"],
+				"kvk": ["samhentari", "samhentari", "samhentari", "samhentari"],
+				"hk": ["samhentara", "samhentara", "samhentara", "samhentara"]
+			},
+			"ft": {
+				"kk": ["samhentari", "samhentari", "samhentari", "samhentari"],
+				"kvk": ["samhentari", "samhentari", "samhentari", "samhentari"],
+				"hk": ["samhentari", "samhentari", "samhentari", "samhentari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["samhentastur", "samhentastan", "samhentustum", "samhentasts"],
+				"kvk": ["samhentust", "samhentasta", "samhentastri", "samhentastrar"],
+				"hk": ["samhentast", "samhentast", "samhentustu", "samhentasts"]
+			},
+			"ft": {
+				"kk": ["samhentastir", "samhentasta", "samhentustum", "samhentastra"],
+				"kvk": ["samhentastar", "samhentastar", "samhentustum", "samhentastra"],
+				"hk": ["samhentust", "samhentust", "samhentustum", "samhentastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["samhentasti", "samhentasta", "samhentasta", "samhentasta"],
+				"kvk": ["samhentasta", "samhentustu", "samhentustu", "samhentustu"],
+				"hk": ["samhentasta", "samhentasta", "samhentasta", "samhentasta"]
+			},
+			"ft": {
+				"kk": ["samhentustu", "samhentustu", "samhentustu", "samhentustu"],
+				"kvk": ["samhentustu", "samhentustu", "samhentustu", "samhentustu"],
+				"hk": ["samhentustu", "samhentustu", "samhentustu", "samhentustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-samhentur",
-	"hash": "4439dcbccdf9700f7d7d2095d7163e940b9d0eb8554b8d19bb447b51195f28f6"
+	"hash": "0a1e906de4c0b1cda82a69d37d669c900c2f4cfd3a2dcfca06627974e1497522"
 }

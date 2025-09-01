@@ -1,0 +1,99 @@
+{
+	"orð": "dökkna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dökkn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dökkna-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dökkna",
+		"sagnbót": "dökknað",
+		"boðháttur": {
+			"stýfður": "dökkna",
+			"et": "dökknaðu",
+			"ft": "dökknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dökkna", "dökknar", "dökknar"],
+					"ft": ["dökknum", "dökknið", "dökkna"]
+				},
+				"þátíð": {
+					"et": ["dökknaði", "dökknaðir", "dökknaði"],
+					"ft": ["dökknuðum", "dökknuðuð", "dökknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dökkni", "dökknir", "dökkni"],
+					"ft": ["dökknum", "dökknið", "dökkni"]
+				},
+				"þátíð": {
+					"et": ["dökknaði", "dökknaðir", "dökknaði"],
+					"ft": ["dökknuðum", "dökknuðuð", "dökknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dökknarðu",
+					"ft": "dökkniði"
+				},
+				"þátíð": {
+					"et": "dökknaðirðu",
+					"ft": "dökknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dökknirðu",
+					"ft": "dökkniði"
+				},
+				"þátíð": {
+					"et": "dökknaðirðu",
+					"ft": "dökknuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dökknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dökknaður", "dökknaðan", "dökknuðum", "dökknaðs"],
+					"kvk": ["dökknuð", "dökknaða", "dökknaðri", "dökknaðrar"],
+					"hk": ["dökknað", "dökknað", "dökknuðu", "dökknaðs"]
+				},
+				"ft": {
+					"kk": ["dökknaðir", "dökknaða", "dökknuðum", "dökknaðra"],
+					"kvk": ["dökknaðar", "dökknaðar", "dökknuðum", "dökknaðra"],
+					"hk": ["dökknuð", "dökknuð", "dökknuðum", "dökknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["dökknaði", "dökknaða", "dökknaða", "dökknaða"],
+					"kvk": ["dökknaða", "dökknuðu", "dökknuðu", "dökknuðu"],
+					"hk": ["dökknaða", "dökknaða", "dökknaða", "dökknaða"]
+				},
+				"ft": {
+					"kk": ["dökknuðu", "dökknuðu", "dökknuðu", "dökknuðu"],
+					"kvk": ["dökknuðu", "dökknuðu", "dökknuðu", "dökknuðu"],
+					"hk": ["dökknuðu", "dökknuðu", "dökknuðu", "dökknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dökkna",
+	"hash": "352e079b01e341b624024eac689f060f61cf35cca1c59da63ca4e3f5929b0d72"
+}

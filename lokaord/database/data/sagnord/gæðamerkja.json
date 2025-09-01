@@ -1,0 +1,99 @@
+{
+	"orð": "gæðamerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gæða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæði-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gæðamerkja",
+		"sagnbót": "gæðamerkt",
+		"boðháttur": {
+			"stýfður": "gæðamerk",
+			"et": "gæðamerktu",
+			"ft": "gæðamerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gæðamerki", "gæðamerkir", "gæðamerkir"],
+					"ft": ["gæðamerkjum", "gæðamerkið", "gæðamerkja"]
+				},
+				"þátíð": {
+					"et": ["gæðamerkti", "gæðamerktir", "gæðamerkti"],
+					"ft": ["gæðamerktum", "gæðamerktuð", "gæðamerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gæðamerki", "gæðamerkir", "gæðamerki"],
+					"ft": ["gæðamerkjum", "gæðamerkið", "gæðamerki"]
+				},
+				"þátíð": {
+					"et": ["gæðamerkti", "gæðamerktir", "gæðamerkti"],
+					"ft": ["gæðamerktum", "gæðamerktuð", "gæðamerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gæðamerkirðu",
+					"ft": "gæðamerkiði"
+				},
+				"þátíð": {
+					"et": "gæðamerktirðu",
+					"ft": "gæðamerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gæðamerkirðu",
+					"ft": "gæðamerkiði"
+				},
+				"þátíð": {
+					"et": "gæðamerktirðu",
+					"ft": "gæðamerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gæðamerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gæðamerktur", "gæðamerktan", "gæðamerktum", "gæðamerkts"],
+					"kvk": ["gæðamerkt", "gæðamerkta", "gæðamerktri", "gæðamerktrar"],
+					"hk": ["gæðamerkt", "gæðamerkt", "gæðamerktu", "gæðamerkts"]
+				},
+				"ft": {
+					"kk": ["gæðamerktir", "gæðamerkta", "gæðamerktum", "gæðamerktra"],
+					"kvk": ["gæðamerktar", "gæðamerktar", "gæðamerktum", "gæðamerktra"],
+					"hk": ["gæðamerkt", "gæðamerkt", "gæðamerktum", "gæðamerktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gæðamerkti", "gæðamerkta", "gæðamerkta", "gæðamerkta"],
+					"kvk": ["gæðamerkta", "gæðamerktu", "gæðamerktu", "gæðamerktu"],
+					"hk": ["gæðamerkta", "gæðamerkta", "gæðamerkta", "gæðamerkta"]
+				},
+				"ft": {
+					"kk": ["gæðamerktu", "gæðamerktu", "gæðamerktu", "gæðamerktu"],
+					"kvk": ["gæðamerktu", "gæðamerktu", "gæðamerktu", "gæðamerktu"],
+					"hk": ["gæðamerktu", "gæðamerktu", "gæðamerktu", "gæðamerktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gæðamerkja",
+	"hash": "3ed09566e33b88e43359620344df7ba71ff95ff0ec0c9c90af5350200470c053"
+}

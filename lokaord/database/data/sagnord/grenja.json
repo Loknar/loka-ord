@@ -1,0 +1,73 @@
+{
+	"orð": "grenja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grenj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grenj-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grenja",
+		"sagnbót": "grenjað",
+		"boðháttur": {
+			"stýfður": "grenja",
+			"et": "grenjaðu",
+			"ft": "grenjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grenja", "grenjar", "grenjar"],
+					"ft": ["grenjum", "grenjið", "grenja"]
+				},
+				"þátíð": {
+					"et": ["grenjaði", "grenjaðir", "grenjaði"],
+					"ft": ["grenjuðum", "grenjuðuð", "grenjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grenji", "grenjir", "grenji"],
+					"ft": ["grenjum", "grenjið", "grenji"]
+				},
+				"þátíð": {
+					"et": ["grenjaði", "grenjaðir", "grenjaði"],
+					"ft": ["grenjuðum", "grenjuðuð", "grenjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grenjarðu",
+					"ft": "grenjiði"
+				},
+				"þátíð": {
+					"et": "grenjaðirðu",
+					"ft": "grenjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grenjirðu",
+					"ft": "grenjiði"
+				},
+				"þátíð": {
+					"et": "grenjaðirðu",
+					"ft": "grenjuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grenjandi"
+	},
+	"kennistrengur": "so-grenja",
+	"hash": "68c1de9998660b44f42c17d31b714dba080e9b969db2680c0dba92ac9eff3898"
+}
