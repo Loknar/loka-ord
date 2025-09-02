@@ -1,0 +1,87 @@
+{
+	"orð": "tannbursta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tönn-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bursta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tannbursta",
+		"sagnbót": "tannburstað",
+		"boðháttur": {
+			"stýfður": "tannbursta",
+			"et": "tannburstaðu",
+			"ft": "tannburstið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tannbursta", "tannburstar", "tannburstar"],
+					"ft": ["tannburstum", "tannburstið", "tannbursta"]
+				},
+				"þátíð": {
+					"et": ["tannburstaði", "tannburstaðir", "tannburstaði"],
+					"ft": ["tannburstuðum", "tannburstuðuð", "tannburstuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tannbursti", "tannburstir", "tannbursti"],
+					"ft": ["tannburstum", "tannburstið", "tannbursti"]
+				},
+				"þátíð": {
+					"et": ["tannburstaði", "tannburstaðir", "tannburstaði"],
+					"ft": ["tannburstuðum", "tannburstuðuð", "tannburstuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tannburstarðu",
+					"ft": "tannburstiði"
+				},
+				"þátíð": {
+					"et": "tannburstaðirðu",
+					"ft": "tannburstuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tannburstirðu",
+					"ft": "tannburstiði"
+				},
+				"þátíð": {
+					"et": "tannburstaðirðu",
+					"ft": "tannburstuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tannburstandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tannburstaður", "tannburstaðan", "tannburstuðum", "tannburstaðs"],
+					"kvk": ["tannburstuð", "tannburstaða", "tannburstaðri", "tannburstaðrar"],
+					"hk": ["tannburstað", "tannburstað", "tannburstuðu", "tannburstaðs"]
+				},
+				"ft": {
+					"kk": ["tannburstaðir", "tannburstaða", "tannburstuðum", "tannburstaðra"],
+					"kvk": ["tannburstaðar", "tannburstaðar", "tannburstuðum", "tannburstaðra"],
+					"hk": ["tannburstuð", "tannburstuð", "tannburstuðum", "tannburstaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tannbursta",
+	"hash": "66852e72765597c7fcfe04f36a6a5ddf7e7e7f6a1542977f7b691442647c3a8c"
+}

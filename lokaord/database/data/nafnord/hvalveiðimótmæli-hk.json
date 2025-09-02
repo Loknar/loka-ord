@@ -1,0 +1,32 @@
+{
+	"orð": "hvalveiðimótmæli",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hval",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hvalur-kk"
+		},
+		{
+			"mynd": "veiði",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-veiði-kvk"
+		},
+		{
+			"mynd": "mót",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-mót"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mæli-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hvalveiðimótmæli", "hvalveiðimótmæli", "hvalveiðimótmælum", "hvalveiðimótmæla"],
+		"mg": ["hvalveiðimótmælin", "hvalveiðimótmælin", "hvalveiðimótmælunum", "hvalveiðimótmælanna"]
+	},
+	"kennistrengur": "no-hvalveiðimótmæli-hk",
+	"hash": "db21e6081230bf431769c262d8867a2b20243ce301db8260f8c1a6b230c2cd6c"
+}

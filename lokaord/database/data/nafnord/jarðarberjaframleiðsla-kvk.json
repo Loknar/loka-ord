@@ -1,0 +1,32 @@
+{
+	"orð": "jarðarberjaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "jarðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"mynd": "berja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ber-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["jarðarberjaframleiðsla", "jarðarberjaframleiðslu", "jarðarberjaframleiðslu", "jarðarberjaframleiðslu"],
+		"mg": ["jarðarberjaframleiðslan", "jarðarberjaframleiðsluna", "jarðarberjaframleiðslunni", "jarðarberjaframleiðslunnar"]
+	},
+	"kennistrengur": "no-jarðarberjaframleiðsla-kvk",
+	"hash": "3f87b90d2d351b173efb3800f60cfe28d2fc284e340708e5d4ff6237c2a01fc0"
+}

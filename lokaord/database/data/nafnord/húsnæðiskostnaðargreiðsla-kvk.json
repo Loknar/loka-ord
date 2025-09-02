@@ -1,0 +1,30 @@
+{
+	"orð": "húsnæðiskostnaðargreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "húsnæðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-húsnæði-hk"
+		},
+		{
+			"mynd": "kostnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostnaður-kk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["húsnæðiskostnaðargreiðsla", "húsnæðiskostnaðargreiðslu", "húsnæðiskostnaðargreiðslu", "húsnæðiskostnaðargreiðslu"],
+		"mg": ["húsnæðiskostnaðargreiðslan", "húsnæðiskostnaðargreiðsluna", "húsnæðiskostnaðargreiðslunni", "húsnæðiskostnaðargreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["húsnæðiskostnaðargreiðslur", "húsnæðiskostnaðargreiðslur", "húsnæðiskostnaðargreiðslum", "húsnæðiskostnaðargreiðslna"],
+		"mg": ["húsnæðiskostnaðargreiðslurnar", "húsnæðiskostnaðargreiðslurnar", "húsnæðiskostnaðargreiðslunum", "húsnæðiskostnaðargreiðslnanna"]
+	},
+	"kennistrengur": "no-húsnæðiskostnaðargreiðsla-kvk",
+	"hash": "6b4af99b001430760125f55dbf5f575ff17082cfe0402da1bb4c3064f6884333"
+}
