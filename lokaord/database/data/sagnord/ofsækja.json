@@ -1,0 +1,99 @@
+{
+	"orð": "ofsækja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-sækja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofsækja",
+		"sagnbót": "ofsótt",
+		"boðháttur": {
+			"stýfður": "ofsæk",
+			"et": "ofsæktu",
+			"ft": "ofsækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofsæki", "ofsækir", "ofsækir"],
+					"ft": ["ofsækjum", "ofsækið", "ofsækja"]
+				},
+				"þátíð": {
+					"et": ["ofsótti", "ofsóttir", "ofsótti"],
+					"ft": ["ofsóttum", "ofsóttuð", "ofsóttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofsæki", "ofsækir", "ofsæki"],
+					"ft": ["ofsækjum", "ofsækið", "ofsæki"]
+				},
+				"þátíð": {
+					"et": ["ofsækti", "ofsæktir", "ofsækti"],
+					"ft": ["ofsæktum", "ofsæktuð", "ofsæktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofsækirðu",
+					"ft": "ofsækiði"
+				},
+				"þátíð": {
+					"et": "ofsæktirðu",
+					"ft": "ofsæktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofsækirðu",
+					"ft": "ofsækiði"
+				},
+				"þátíð": {
+					"et": "ofsæktirðu",
+					"ft": "ofsæktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofsækjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofsóttur", "ofsóttan", "ofsóttum", "ofsótts"],
+					"kvk": ["ofsótt", "ofsótta", "ofsóttri", "ofsóttrar"],
+					"hk": ["ofsótt", "ofsótt", "ofsóttu", "ofsótts"]
+				},
+				"ft": {
+					"kk": ["ofsóttir", "ofsótta", "ofsóttum", "ofsóttra"],
+					"kvk": ["ofsóttar", "ofsóttar", "ofsóttum", "ofsóttra"],
+					"hk": ["ofsótt", "ofsótt", "ofsóttum", "ofsóttra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ofsótti", "ofsótta", "ofsótta", "ofsótta"],
+					"kvk": ["ofsótta", "ofsóttu", "ofsóttu", "ofsóttu"],
+					"hk": ["ofsótta", "ofsótta", "ofsótta", "ofsótta"]
+				},
+				"ft": {
+					"kk": ["ofsóttu", "ofsóttu", "ofsóttu", "ofsóttu"],
+					"kvk": ["ofsóttu", "ofsóttu", "ofsóttu", "ofsóttu"],
+					"hk": ["ofsóttu", "ofsóttu", "ofsóttu", "ofsóttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofsækja",
+	"hash": "ab01bfca8e39f6fb489039b4d32a107b907aeddf44b57cb3a39ee43589255224"
+}

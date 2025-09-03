@@ -1,0 +1,22 @@
+{
+	"orð": "landakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "landa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["landakaup", "landakaup", "landakaupum", "landakaupa"],
+		"mg": ["landakaupin", "landakaupin", "landakaupunum", "landakaupanna"]
+	},
+	"kennistrengur": "no-landakaup-hk",
+	"hash": "908baf16f85ec02bc562bb4dc0d875b9302c04ac51950364f39f3e912e5765ee"
+}

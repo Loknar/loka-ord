@@ -1,0 +1,27 @@
+{
+	"orð": "ársframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "árs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ársframleiðsla", "ársframleiðslu", "ársframleiðslu", "ársframleiðslu"],
+		"mg": ["ársframleiðslan", "ársframleiðsluna", "ársframleiðslunni", "ársframleiðslunnar"]
+	},
+	"kennistrengur": "no-ársframleiðsla-kvk",
+	"hash": "f5788dc012cbaccd1c42ed3a44c2a6494a8a2aef7dae2604db045c9c8e3219c8"
+}
