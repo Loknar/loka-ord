@@ -1,0 +1,27 @@
+{
+	"orð": "mannvistarleifar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"mynd": "vistar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vist-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-leif-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["mannvistarleifar", "mannvistarleifar", "mannvistarleifum", "mannvistarleifa"],
+		"mg": ["mannvistarleifarnar", "mannvistarleifarnar", "mannvistarleifunum", "mannvistarleifanna"]
+	},
+	"kennistrengur": "no-mannvistarleifar-kvk",
+	"hash": "12aec6b17a7d1347e368111ae4e162beb6cb0a2db315d22042dd1393c4f0e734"
+}

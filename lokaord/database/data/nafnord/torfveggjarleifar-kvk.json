@@ -1,0 +1,27 @@
+{
+	"orð": "torfveggjarleifar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "torf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-torf-hk"
+		},
+		{
+			"mynd": "veggjar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-veggur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-leif-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["torfveggjarleifar", "torfveggjarleifar", "torfveggjarleifum", "torfveggjarleifa"],
+		"mg": ["torfveggjarleifarnar", "torfveggjarleifarnar", "torfveggjarleifunum", "torfveggjarleifanna"]
+	},
+	"kennistrengur": "no-torfveggjarleifar-kvk",
+	"hash": "73083e3be79e84a169cf2d73659e3849972f8317fb176016494b81e31c51fbe7"
+}
