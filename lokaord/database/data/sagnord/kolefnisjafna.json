@@ -1,0 +1,104 @@
+{
+	"orð": "kolefnisjafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "efnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-jafna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kolefnisjafna",
+		"sagnbót": "kolefnisjafnað",
+		"boðháttur": {
+			"stýfður": "kolefnisjafna",
+			"et": "kolefnisjafnaðu",
+			"ft": "kolefnisjafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kolefnisjafna", "kolefnisjafnar", "kolefnisjafnar"],
+					"ft": ["kolefnisjöfnum", "kolefnisjafnið", "kolefnisjafna"]
+				},
+				"þátíð": {
+					"et": ["kolefnisjafnaði", "kolefnisjafnaðir", "kolefnisjafnaði"],
+					"ft": ["kolefnisjöfnuðum", "kolefnisjöfnuðuð", "kolefnisjöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kolefnisjafni", "kolefnisjafnir", "kolefnisjafni"],
+					"ft": ["kolefnisjöfnum", "kolefnisjafnið", "kolefnisjafni"]
+				},
+				"þátíð": {
+					"et": ["kolefnisjafnaði", "kolefnisjafnaðir", "kolefnisjafnaði"],
+					"ft": ["kolefnisjöfnuðum", "kolefnisjöfnuðuð", "kolefnisjöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kolefnisjafnarðu",
+					"ft": "kolefnisjafniði"
+				},
+				"þátíð": {
+					"et": "kolefnisjafnaðirðu",
+					"ft": "kolefnisjöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kolefnisjafnirðu",
+					"ft": "kolefnisjafniði"
+				},
+				"þátíð": {
+					"et": "kolefnisjafnaðirðu",
+					"ft": "kolefnisjöfnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kolefnisjafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kolefnisjafnaður", "kolefnisjafnaðan", "kolefnisjöfnuðum", "kolefnisjafnaðs"],
+					"kvk": ["kolefnisjöfnuð", "kolefnisjafnaða", "kolefnisjafnaðri", "kolefnisjafnaðrar"],
+					"hk": ["kolefnisjafnað", "kolefnisjafnað", "kolefnisjöfnuðu", "kolefnisjafnaðs"]
+				},
+				"ft": {
+					"kk": ["kolefnisjafnaðir", "kolefnisjafnaða", "kolefnisjöfnuðum", "kolefnisjafnaðra"],
+					"kvk": ["kolefnisjafnaðar", "kolefnisjafnaðar", "kolefnisjöfnuðum", "kolefnisjafnaðra"],
+					"hk": ["kolefnisjöfnuð", "kolefnisjöfnuð", "kolefnisjöfnuðum", "kolefnisjafnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kolefnisjafnaði", "kolefnisjafnaða", "kolefnisjafnaða", "kolefnisjafnaða"],
+					"kvk": ["kolefnisjafnaða", "kolefnisjöfnuðu", "kolefnisjöfnuðu", "kolefnisjöfnuðu"],
+					"hk": ["kolefnisjafnaða", "kolefnisjafnaða", "kolefnisjafnaða", "kolefnisjafnaða"]
+				},
+				"ft": {
+					"kk": ["kolefnisjöfnuðu", "kolefnisjöfnuðu", "kolefnisjöfnuðu", "kolefnisjöfnuðu"],
+					"kvk": ["kolefnisjöfnuðu", "kolefnisjöfnuðu", "kolefnisjöfnuðu", "kolefnisjöfnuðu"],
+					"hk": ["kolefnisjöfnuðu", "kolefnisjöfnuðu", "kolefnisjöfnuðu", "kolefnisjöfnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kolefnisjafna",
+	"hash": "2a30a23470a121e2a314f56bf781362b973132c51fbfaa373e2491f941991b04"
+}

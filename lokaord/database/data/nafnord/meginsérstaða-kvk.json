@@ -1,0 +1,27 @@
+{
+	"orð": "meginsérstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "megin",
+			"samsetning": "stofn",
+			"kennistrengur": "no-megin-hk"
+		},
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["meginsérstaða", "meginsérstöðu", "meginsérstöðu", "meginsérstöðu"],
+		"mg": ["meginsérstaðan", "meginsérstöðuna", "meginsérstöðunni", "meginsérstöðunnar"]
+	},
+	"kennistrengur": "no-meginsérstaða-kvk",
+	"hash": "ea416ee6d86ef3b6a4e03fb3c3a0c50e0b052fe4c4076819dc085d78d89f66a6"
+}

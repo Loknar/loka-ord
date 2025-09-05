@@ -1,0 +1,99 @@
+{
+	"orð": "löðrunga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "löðrung",
+			"samsetning": "stofn",
+			"kennistrengur": "no-löðrungur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "löðrunga",
+		"sagnbót": "löðrungað",
+		"boðháttur": {
+			"stýfður": "löðrunga",
+			"et": "löðrungaðu",
+			"ft": "löðrungið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["löðrunga", "löðrungar", "löðrungar"],
+					"ft": ["löðrungum", "löðrungið", "löðrunga"]
+				},
+				"þátíð": {
+					"et": ["löðrungaði", "löðrungaðir", "löðrungaði"],
+					"ft": ["löðrunguðum", "löðrunguðuð", "löðrunguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["löðrungi", "löðrungir", "löðrungi"],
+					"ft": ["löðrungum", "löðrungið", "löðrungi"]
+				},
+				"þátíð": {
+					"et": ["löðrungaði", "löðrungaðir", "löðrungaði"],
+					"ft": ["löðrunguðum", "löðrunguðuð", "löðrunguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "löðrungarðu",
+					"ft": "löðrungiði"
+				},
+				"þátíð": {
+					"et": "löðrungaðirðu",
+					"ft": "löðrunguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "löðrungirðu",
+					"ft": "löðrungiði"
+				},
+				"þátíð": {
+					"et": "löðrungaðirðu",
+					"ft": "löðrunguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "löðrungandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["löðrungaður", "löðrungaðan", "löðrunguðum", "löðrungaðs"],
+					"kvk": ["löðrunguð", "löðrungaða", "löðrungaðri", "löðrungaðrar"],
+					"hk": ["löðrungað", "löðrungað", "löðrunguðu", "löðrungaðs"]
+				},
+				"ft": {
+					"kk": ["löðrungaðir", "löðrungaða", "löðrunguðum", "löðrungaðra"],
+					"kvk": ["löðrungaðar", "löðrungaðar", "löðrunguðum", "löðrungaðra"],
+					"hk": ["löðrunguð", "löðrunguð", "löðrunguðum", "löðrungaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["löðrungaði", "löðrungaða", "löðrungaða", "löðrungaða"],
+					"kvk": ["löðrungaða", "löðrunguðu", "löðrunguðu", "löðrunguðu"],
+					"hk": ["löðrungaða", "löðrungaða", "löðrungaða", "löðrungaða"]
+				},
+				"ft": {
+					"kk": ["löðrunguðu", "löðrunguðu", "löðrunguðu", "löðrunguðu"],
+					"kvk": ["löðrunguðu", "löðrunguðu", "löðrunguðu", "löðrunguðu"],
+					"hk": ["löðrunguðu", "löðrunguðu", "löðrunguðu", "löðrunguðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-löðrunga",
+	"hash": "d180c8d4b1e2ac96ccf19abc2992c033a2c21b4ce4e068a9a0d7777580f96bd6"
+}
