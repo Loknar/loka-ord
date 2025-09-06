@@ -1,0 +1,27 @@
+{
+	"orð": "staðsetningargögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "setningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-setning-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["staðsetningargögn", "staðsetningargögn", "staðsetningargögnum", "staðsetningargagna"],
+		"mg": ["staðsetningargögnin", "staðsetningargögnin", "staðsetningargögnunum", "staðsetningargagnanna"]
+	},
+	"kennistrengur": "no-staðsetningargögn-hk",
+	"hash": "cbb8a86a74c34a25c9e3279260abb79d76d90836045e700a79ab392b9c12faf7"
+}

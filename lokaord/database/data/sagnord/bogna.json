@@ -1,0 +1,99 @@
+{
+	"orð": "bogna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bogn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-bogi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bogna",
+		"sagnbót": "bognað",
+		"boðháttur": {
+			"stýfður": "bogna",
+			"et": "bognaðu",
+			"ft": "bognið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bogna", "bognar", "bognar"],
+					"ft": ["bognum", "bognið", "bogna"]
+				},
+				"þátíð": {
+					"et": ["bognaði", "bognaðir", "bognaði"],
+					"ft": ["bognuðum", "bognuðuð", "bognuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bogni", "bognir", "bogni"],
+					"ft": ["bognum", "bognið", "bogni"]
+				},
+				"þátíð": {
+					"et": ["bognaði", "bognaðir", "bognaði"],
+					"ft": ["bognuðum", "bognuðuð", "bognuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bognarðu",
+					"ft": "bogniði"
+				},
+				"þátíð": {
+					"et": "bognaðirðu",
+					"ft": "bognuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bognirðu",
+					"ft": "bogniði"
+				},
+				"þátíð": {
+					"et": "bognaðirðu",
+					"ft": "bognuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bognandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bognaður", "bognaðan", "bognuðum", "bognaðs"],
+					"kvk": ["bognuð", "bognaða", "bognaðri", "bognaðrar"],
+					"hk": ["bognað", "bognað", "bognuðu", "bognaðs"]
+				},
+				"ft": {
+					"kk": ["bognaðir", "bognaða", "bognuðum", "bognaðra"],
+					"kvk": ["bognaðar", "bognaðar", "bognuðum", "bognaðra"],
+					"hk": ["bognuð", "bognuð", "bognuðum", "bognaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["bognaði", "bognaða", "bognaða", "bognaða"],
+					"kvk": ["bognaða", "bognuðu", "bognuðu", "bognuðu"],
+					"hk": ["bognaða", "bognaða", "bognaða", "bognaða"]
+				},
+				"ft": {
+					"kk": ["bognuðu", "bognuðu", "bognuðu", "bognuðu"],
+					"kvk": ["bognuðu", "bognuðu", "bognuðu", "bognuðu"],
+					"hk": ["bognuðu", "bognuðu", "bognuðu", "bognuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bogna",
+	"hash": "2a9d8eec789e163607d1ec3f618b8876c86a0e3592305b35d90cdcbaac836a29"
+}
