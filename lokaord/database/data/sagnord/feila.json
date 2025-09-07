@@ -1,0 +1,73 @@
+{
+	"orð": "feila",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "feil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-feiłl-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "feila",
+		"sagnbót": "feilað",
+		"boðháttur": {
+			"stýfður": "feila",
+			"et": "feilaðu",
+			"ft": "feilið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["feila", "feilar", "feilar"],
+					"ft": ["feilum", "feilið", "feila"]
+				},
+				"þátíð": {
+					"et": ["feilaði", "feilaðir", "feilaði"],
+					"ft": ["feiluðum", "feiluðuð", "feiluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["feili", "feilir", "feili"],
+					"ft": ["feilum", "feilið", "feili"]
+				},
+				"þátíð": {
+					"et": ["feilaði", "feilaðir", "feilaði"],
+					"ft": ["feiluðum", "feiluðuð", "feiluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "feilarðu",
+					"ft": "feiliði"
+				},
+				"þátíð": {
+					"et": "feilaðirðu",
+					"ft": "feiluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "feilirðu",
+					"ft": "feiliði"
+				},
+				"þátíð": {
+					"et": "feilaðirðu",
+					"ft": "feiluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "feilandi"
+	},
+	"kennistrengur": "so-feila",
+	"hash": "0704fc157dbe3300ed981f1d3f6e900c7d32fab289854fe735dd5a2be0991c03"
+}

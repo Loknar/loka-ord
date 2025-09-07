@@ -1,0 +1,37 @@
+{
+	"orð": "sjónvarpsþáttaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sjón-kvk"
+		},
+		{
+			"mynd": "varps",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varp-hk"
+		},
+		{
+			"mynd": "þátta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjónvarpsþáttaframleiðsla", "sjónvarpsþáttaframleiðslu", "sjónvarpsþáttaframleiðslu", "sjónvarpsþáttaframleiðslu"],
+		"mg": ["sjónvarpsþáttaframleiðslan", "sjónvarpsþáttaframleiðsluna", "sjónvarpsþáttaframleiðslunni", "sjónvarpsþáttaframleiðslunnar"]
+	},
+	"kennistrengur": "no-sjónvarpsþáttaframleiðsla-kvk",
+	"hash": "0f408d58ea43cd8136594b8752c972e22ec9dcb06c74dddf5b9c888cad26e090"
+}

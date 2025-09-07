@@ -1,0 +1,32 @@
+{
+	"orð": "kyrrstöðustjórnmál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kyrr",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kyrr"
+		},
+		{
+			"mynd": "stöðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-staða-kvk"
+		},
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"ft": {
+		"ág": ["kyrrstöðustjórnmál", "kyrrstöðustjórnmál", "kyrrstöðustjórnmálum", "kyrrstöðustjórnmála"],
+		"mg": ["kyrrstöðustjórnmálin", "kyrrstöðustjórnmálin", "kyrrstöðustjórnmálunum", "kyrrstöðustjórnmálanna"]
+	},
+	"kennistrengur": "no-kyrrstöðustjórnmál-hk",
+	"hash": "91789a964901a8f995c874f70f7f071a546936cc541108728586173aff4bba75"
+}

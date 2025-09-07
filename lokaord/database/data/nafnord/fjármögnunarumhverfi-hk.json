@@ -1,0 +1,32 @@
+{
+	"orð": "fjármögnunarumhverfi",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mögnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mögnun-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hverfi-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjármögnunarumhverfi", "fjármögnunarumhverfi", "fjármögnunarumhverfi", "fjármögnunarumhverfis"],
+		"mg": ["fjármögnunarumhverfið", "fjármögnunarumhverfið", "fjármögnunarumhverfinu", "fjármögnunarumhverfisins"]
+	},
+	"kennistrengur": "no-fjármögnunarumhverfi-hk",
+	"hash": "40ccd7ea50deb6ac330890b7a3e41d9ed242d648030a955ae6725dbde6162c63"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "uppgjörsgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "gjörs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["uppgjörsgögn", "uppgjörsgögn", "uppgjörsgögnum", "uppgjörsgagna"],
+		"mg": ["uppgjörsgögnin", "uppgjörsgögnin", "uppgjörsgögnunum", "uppgjörsgagnanna"]
+	},
+	"kennistrengur": "no-uppgjörsgögn-hk",
+	"hash": "091c35942a6bb37a7048421e8753b986092f66215ec1387642f30ec76d70f0a5"
+}
