@@ -1,0 +1,43 @@
+{
+	"orð": "vinnutengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vinnutengdur", "vinnutengdan", "vinnutengdum", "vinnutengds"],
+				"kvk": ["vinnutengd", "vinnutengda", "vinnutengdri", "vinnutengdrar"],
+				"hk": ["vinnutengt", "vinnutengt", "vinnutengdu", "vinnutengds"]
+			},
+			"ft": {
+				"kk": ["vinnutengdir", "vinnutengda", "vinnutengdum", "vinnutengdra"],
+				"kvk": ["vinnutengdar", "vinnutengdar", "vinnutengdum", "vinnutengdra"],
+				"hk": ["vinnutengd", "vinnutengd", "vinnutengdum", "vinnutengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vinnutengdi", "vinnutengda", "vinnutengda", "vinnutengda"],
+				"kvk": ["vinnutengda", "vinnutengdu", "vinnutengdu", "vinnutengdu"],
+				"hk": ["vinnutengda", "vinnutengda", "vinnutengda", "vinnutengda"]
+			},
+			"ft": {
+				"kk": ["vinnutengdu", "vinnutengdu", "vinnutengdu", "vinnutengdu"],
+				"kvk": ["vinnutengdu", "vinnutengdu", "vinnutengdu", "vinnutengdu"],
+				"hk": ["vinnutengdu", "vinnutengdu", "vinnutengdu", "vinnutengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-vinnutengdur",
+	"hash": "1ca392279f0e5fbbd9faee7412ee23a369c331afb86581a1872dbde5741ca9d6"
+}

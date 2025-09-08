@@ -1,0 +1,43 @@
+{
+	"orð": "kyntengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kyntengdur", "kyntengdan", "kyntengdum", "kyntengds"],
+				"kvk": ["kyntengd", "kyntengda", "kyntengdri", "kyntengdrar"],
+				"hk": ["kyntengt", "kyntengt", "kyntengdu", "kyntengds"]
+			},
+			"ft": {
+				"kk": ["kyntengdir", "kyntengda", "kyntengdum", "kyntengdra"],
+				"kvk": ["kyntengdar", "kyntengdar", "kyntengdum", "kyntengdra"],
+				"hk": ["kyntengd", "kyntengd", "kyntengdum", "kyntengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kyntengdi", "kyntengda", "kyntengda", "kyntengda"],
+				"kvk": ["kyntengda", "kyntengdu", "kyntengdu", "kyntengdu"],
+				"hk": ["kyntengda", "kyntengda", "kyntengda", "kyntengda"]
+			},
+			"ft": {
+				"kk": ["kyntengdu", "kyntengdu", "kyntengdu", "kyntengdu"],
+				"kvk": ["kyntengdu", "kyntengdu", "kyntengdu", "kyntengdu"],
+				"hk": ["kyntengdu", "kyntengdu", "kyntengdu", "kyntengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kyntengdur",
+	"hash": "743a8d0853cdfdd9e6efffb93ffaf579648918f632263fa33ca897de540d94b5"
+}

@@ -1,0 +1,43 @@
+{
+	"orð": "tilfinningatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "tilfinninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tilfinning-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["tilfinningatengdur", "tilfinningatengdan", "tilfinningatengdum", "tilfinningatengds"],
+				"kvk": ["tilfinningatengd", "tilfinningatengda", "tilfinningatengdri", "tilfinningatengdrar"],
+				"hk": ["tilfinningatengt", "tilfinningatengt", "tilfinningatengdu", "tilfinningatengds"]
+			},
+			"ft": {
+				"kk": ["tilfinningatengdir", "tilfinningatengda", "tilfinningatengdum", "tilfinningatengdra"],
+				"kvk": ["tilfinningatengdar", "tilfinningatengdar", "tilfinningatengdum", "tilfinningatengdra"],
+				"hk": ["tilfinningatengd", "tilfinningatengd", "tilfinningatengdum", "tilfinningatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tilfinningatengdi", "tilfinningatengda", "tilfinningatengda", "tilfinningatengda"],
+				"kvk": ["tilfinningatengda", "tilfinningatengdu", "tilfinningatengdu", "tilfinningatengdu"],
+				"hk": ["tilfinningatengda", "tilfinningatengda", "tilfinningatengda", "tilfinningatengda"]
+			},
+			"ft": {
+				"kk": ["tilfinningatengdu", "tilfinningatengdu", "tilfinningatengdu", "tilfinningatengdu"],
+				"kvk": ["tilfinningatengdu", "tilfinningatengdu", "tilfinningatengdu", "tilfinningatengdu"],
+				"hk": ["tilfinningatengdu", "tilfinningatengdu", "tilfinningatengdu", "tilfinningatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-tilfinningatengdur",
+	"hash": "1307bda046e1805d53284196b51f2c0f6b7711e224828e22fa236de877c221a9"
+}

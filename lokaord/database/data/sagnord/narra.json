@@ -1,0 +1,132 @@
+{
+	"orð": "narra",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "narra",
+		"sagnbót": "narrað",
+		"boðháttur": {
+			"stýfður": "narra",
+			"et": "narraðu",
+			"ft": "bakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["narra", "narrar", "narrar"],
+					"ft": ["nörrum", "bakið", "narra"]
+				},
+				"þátíð": {
+					"et": ["narraði", "narraðir", "narraði"],
+					"ft": ["nörruðum", "nörruðuð", "nörruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["baki", "bakir", "baki"],
+					"ft": ["nörrum", "bakið", "baki"]
+				},
+				"þátíð": {
+					"et": ["narraði", "narraðir", "narraði"],
+					"ft": ["nörruðum", "nörruðuð", "nörruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "narrarðu",
+					"ft": "bakiði"
+				},
+				"þátíð": {
+					"et": "narraðirðu",
+					"ft": "nörruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bakirðu",
+					"ft": "bakiði"
+				},
+				"þátíð": {
+					"et": "narraðirðu",
+					"ft": "nörruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "narrast",
+		"sagnbót": "narrast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["narrast", "narrast", "narrast"],
+					"ft": ["nörrumst", "bakist", "narrast"]
+				},
+				"þátíð": {
+					"et": ["narraðist", "narraðist", "narraðist"],
+					"ft": ["nörruðumst", "nörruðust", "nörruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bakist", "bakist", "bakist"],
+					"ft": ["nörrumst", "bakist", "bakist"]
+				},
+				"þátíð": {
+					"et": ["narraðist", "narraðist", "narraðist"],
+					"ft": ["nörruðumst", "nörruðust", "nörruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "narrastu"
+				},
+				"þátíð": {
+					"et": "narraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bakistu"
+				},
+				"þátíð": {
+					"et": "narraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "narrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["narraður", "narraðan", "nörruðum", "narraðs"],
+					"kvk": ["nörruð", "narraða", "narraðri", "narraðrar"],
+					"hk": ["narrað", "narrað", "nörruðu", "narraðs"]
+				},
+				"ft": {
+					"kk": ["narraðir", "narraða", "nörruðum", "narraðra"],
+					"kvk": ["narraðar", "narraðar", "nörruðum", "narraðra"],
+					"hk": ["nörruð", "nörruð", "nörruðum", "narraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["narraði", "narraða", "narraða", "narraða"],
+					"kvk": ["narraða", "nörruðu", "nörruðu", "nörruðu"],
+					"hk": ["narraða", "narraða", "narraða", "narraða"]
+				},
+				"ft": {
+					"kk": ["nörruðu", "nörruðu", "nörruðu", "nörruðu"],
+					"kvk": ["nörruðu", "nörruðu", "nörruðu", "nörruðu"],
+					"hk": ["nörruðu", "nörruðu", "nörruðu", "nörruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-narra",
+	"hash": "ce60d40c1eb2e3e988800f0a8964c7532e499f3db6b0804fe0ea4fd669eed57e"
+}

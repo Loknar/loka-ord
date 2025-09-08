@@ -1,0 +1,131 @@
+{
+	"orð": "gjöreyða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjör",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-eyða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjöreyða",
+		"sagnbót": "gjöreytt",
+		"boðháttur": {
+			"stýfður": "gjöreyð",
+			"et": "gjöreyddu",
+			"ft": "gjöreyðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjöreyði", "gjöreyðir", "gjöreyðir"],
+					"ft": ["gjöreyðum", "gjöreyðið", "gjöreyða"]
+				},
+				"þátíð": {
+					"et": ["gjöreyddi", "gjöreyddir", "gjöreyddi"],
+					"ft": ["gjöreyddum", "gjöreydduð", "gjöreyddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjöreyði", "gjöreyðir", "gjöreyði"],
+					"ft": ["gjöreyðum", "gjöreyðið", "gjöreyði"]
+				},
+				"þátíð": {
+					"et": ["gjöreyddi", "gjöreyddir", "gjöreyddi"],
+					"ft": ["gjöreyddum", "gjöreydduð", "gjöreyddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjöreyðirðu",
+					"ft": "gjöreyðiði"
+				},
+				"þátíð": {
+					"et": "gjöreyddirðu",
+					"ft": "gjöreydduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjöreyðirðu",
+					"ft": "gjöreyðiði"
+				},
+				"þátíð": {
+					"et": "gjöreyddirðu",
+					"ft": "gjöreydduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gjöreyðast",
+		"sagnbót": "gjöreyðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjöreyðist", "gjöreyðist", "gjöreyðist"],
+					"ft": ["gjöreyðumst", "gjöreyðist", "gjöreyðast"]
+				},
+				"þátíð": {
+					"et": ["gjöreyddist", "gjöreyddist", "gjöreyddist"],
+					"ft": ["gjöreyddumst", "gjöreyddust", "gjöreyddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjöreyðist", "gjöreyðist", "gjöreyðist"],
+					"ft": ["gjöreyðumst", "gjöreyðist", "gjöreyðist"]
+				},
+				"þátíð": {
+					"et": ["gjöreyddist", "gjöreyddist", "gjöreyddist"],
+					"ft": ["gjöreyddumst", "gjöreyddust", "gjöreyddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjöreyðistu"
+				},
+				"þátíð": {
+					"et": "gjöreyddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjöreyðistu"
+				},
+				"þátíð": {
+					"et": "gjöreyddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjöreyðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gjöreyddur", "gjöreyddan", "gjöreyddum", "gjöreydds"],
+					"kvk": ["gjöreydd", "gjöreydda", "gjöreyddri", "gjöreyddrar"],
+					"hk": ["gjöreytt", "gjöreytt", "gjöreyddu", "gjöreydds"]
+				},
+				"ft": {
+					"kk": ["gjöreyddir", "gjöreydda", "gjöreyddum", "gjöreyddra"],
+					"kvk": ["gjöreyddar", "gjöreyddar", "gjöreyddum", "gjöreyddra"],
+					"hk": ["gjöreydd", "gjöreydd", "gjöreyddum", "gjöreyddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjöreyða",
+	"hash": "219dbae8874628ba5999226c2e1624961d6d7cd0945a5d36aa391ab19d7cb852"
+}

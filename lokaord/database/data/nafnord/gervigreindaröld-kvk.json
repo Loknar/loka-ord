@@ -1,0 +1,27 @@
+{
+	"orð": "gervigreindaröld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gervi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gervi-hk"
+		},
+		{
+			"mynd": "greindar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greind-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-öld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gervigreindaröld", "gervigreindaröld", "gervigreindaröld", "gervigreindaraldar"],
+		"mg": ["gervigreindaröldin", "gervigreindaröldina", "gervigreindaröldinni", "gervigreindaraldarinnar"]
+	},
+	"kennistrengur": "no-gervigreindaröld-kvk",
+	"hash": "96df80befa106f557c0df5d3a973bebd18d717134716ef580ad939ba63df0857"
+}

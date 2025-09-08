@@ -1,0 +1,48 @@
+{
+	"orð": "ofureinfaldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ofur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-ofur"
+		},
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-faldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ofureinfaldur", "ofureinfaldan", "ofureinföldum", "ofureinfalds"],
+				"kvk": ["ofureinföld", "ofureinfalda", "ofureinfaldri", "ofureinfaldrar"],
+				"hk": ["ofureinfalt", "ofureinfalt", "ofureinföldu", "ofureinfalds"]
+			},
+			"ft": {
+				"kk": ["ofureinfaldir", "ofureinfalda", "ofureinföldum", "ofureinfaldra"],
+				"kvk": ["ofureinfaldar", "ofureinfaldar", "ofureinföldum", "ofureinfaldra"],
+				"hk": ["ofureinföld", "ofureinföld", "ofureinföldum", "ofureinfaldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ofureinfaldi", "ofureinfalda", "ofureinfalda", "ofureinfalda"],
+				"kvk": ["ofureinfalda", "ofureinföldu", "ofureinföldu", "ofureinföldu"],
+				"hk": ["ofureinfalda", "ofureinfalda", "ofureinfalda", "ofureinfalda"]
+			},
+			"ft": {
+				"kk": ["ofureinföldu", "ofureinföldu", "ofureinföldu", "ofureinföldu"],
+				"kvk": ["ofureinföldu", "ofureinföldu", "ofureinföldu", "ofureinföldu"],
+				"hk": ["ofureinföldu", "ofureinföldu", "ofureinföldu", "ofureinföldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ofureinfaldur",
+	"hash": "18435bcd889e0b72481796d57e4246cb8ea692801cf367756c2ec76f95bd5414"
+}

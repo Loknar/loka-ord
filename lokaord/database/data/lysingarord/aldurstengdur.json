@@ -1,0 +1,43 @@
+{
+	"orð": "aldurstengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "aldurs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-aldur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["aldurstengdur", "aldurstengdan", "aldurstengdum", "aldurstengds"],
+				"kvk": ["aldurstengd", "aldurstengda", "aldurstengdri", "aldurstengdrar"],
+				"hk": ["aldurstengt", "aldurstengt", "aldurstengdu", "aldurstengds"]
+			},
+			"ft": {
+				"kk": ["aldurstengdir", "aldurstengda", "aldurstengdum", "aldurstengdra"],
+				"kvk": ["aldurstengdar", "aldurstengdar", "aldurstengdum", "aldurstengdra"],
+				"hk": ["aldurstengd", "aldurstengd", "aldurstengdum", "aldurstengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["aldurstengdi", "aldurstengda", "aldurstengda", "aldurstengda"],
+				"kvk": ["aldurstengda", "aldurstengdu", "aldurstengdu", "aldurstengdu"],
+				"hk": ["aldurstengda", "aldurstengda", "aldurstengda", "aldurstengda"]
+			},
+			"ft": {
+				"kk": ["aldurstengdu", "aldurstengdu", "aldurstengdu", "aldurstengdu"],
+				"kvk": ["aldurstengdu", "aldurstengdu", "aldurstengdu", "aldurstengdu"],
+				"hk": ["aldurstengdu", "aldurstengdu", "aldurstengdu", "aldurstengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-aldurstengdur",
+	"hash": "723e66a39cc67c8cae1f89e66cce75b6ec4906ff1798b8db3c07fb7aa439acae"
+}

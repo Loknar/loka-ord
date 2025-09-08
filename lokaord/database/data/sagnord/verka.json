@@ -1,6 +1,16 @@
 {
 	"orð": "verka",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "verka",
 		"sagnbót": "verkað",
@@ -26,7 +36,7 @@
 					"ft": ["verkum", "verkið", "verki"]
 				},
 				"þátíð": {
-					"et": ["verkaði", "verkaði", "verkaði"],
+					"et": ["verkaði", "verkaðir", "verkaði"],
 					"ft": ["verkuðum", "verkuðuð", "verkuðu"]
 				}
 			}
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "verkast",
 		"sagnbót": "verkast",
+		"boðháttur": {
+			"et": "verkastu",
+			"ft": "verkist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-verka",
-	"hash": "0fb878998a82f413874b9bae6e2e1d97fc664d5623deff72f9cd98b9f4ce2b42"
+	"hash": "29b44e647371aef7b1e0ea6a0fabf42a46e5c2e74cbb88b241b53ad82bb35b63"
 }

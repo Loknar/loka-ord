@@ -1,0 +1,64 @@
+{
+	"orð": "afkynna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-kynna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afkynna",
+		"sagnbót": "afkynnt",
+		"boðháttur": {
+			"stýfður": "afkynn",
+			"et": "afkynntu",
+			"ft": "afkynnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afkynni", "afkynnir", "afkynnir"],
+					"ft": ["afkynnum", "afkynnið", "afkynna"]
+				},
+				"þátíð": {
+					"et": ["afkynnti", "afkynntir", "afkynnti"],
+					"ft": ["afkynntum", "afkynntuð", "afkynntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afkynni", "afkynnir", "afkynni"],
+					"ft": ["afkynnum", "afkynnið", "afkynni"]
+				},
+				"þátíð": {
+					"et": ["afkynnti", "afkynntir", "afkynnti"],
+					"ft": ["afkynntum", "afkynntuð", "afkynntu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afkynntur", "afkynntan", "afkynntum", "afkynnts"],
+					"kvk": ["afkynnt", "afkynnta", "afkynntri", "afkynntrar"],
+					"hk": ["afkynnt", "afkynnt", "afkynntu", "afkynnts"]
+				},
+				"ft": {
+					"kk": ["afkynntir", "afkynnta", "afkynntum", "afkynntra"],
+					"kvk": ["afkynntar", "afkynntar", "afkynntum", "afkynntra"],
+					"hk": ["afkynnt", "afkynnt", "afkynntum", "afkynntra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afkynna",
+	"hash": "66fa18e921eba47225df2b8c1e2982eea3c6a91901913491b8022600bb05de7a"
+}

@@ -1,0 +1,70 @@
+{
+	"orð": "fułlorðnast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fułl",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-fułl"
+		},
+		{
+			"mynd": "orðn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-orðinn"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "fułlorðnast",
+		"sagnbót": "fułlorðnast",
+		"boðháttur": {
+			"et": "fułlorðnastu",
+			"ft": "fułlorðnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fułlorðnast", "fułlorðnast", "fułlorðnast"],
+					"ft": ["fułlorðnumst", "fułlorðnist", "fułlorðnast"]
+				},
+				"þátíð": {
+					"et": ["fułlorðnaðist", "fułlorðnaðist", "fułlorðnaðist"],
+					"ft": ["fułlorðnuðumst", "fułlorðnuðust", "fułlorðnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fułlorðnist", "fułlorðnist", "fułlorðnist"],
+					"ft": ["fułlorðnumst", "fułlorðnist", "fułlorðnist"]
+				},
+				"þátíð": {
+					"et": ["fułlorðnaðist", "fułlorðnaðist", "fułlorðnaðist"],
+					"ft": ["fułlorðnuðumst", "fułlorðnuðust", "fułlorðnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fułlorðnastu"
+				},
+				"þátíð": {
+					"et": "fułlorðnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fułlorðnistu"
+				},
+				"þátíð": {
+					"et": "fułlorðnaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fułlorðnast",
+	"hash": "78cda2fea4dbc5fadb1b7c981b4aff276f6709abb6f5186893aab89a9f140f79"
+}

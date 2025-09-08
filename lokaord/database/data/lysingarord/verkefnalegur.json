@@ -1,0 +1,48 @@
+{
+	"orð": "verkefnalegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["verkefnalegur", "verkefnalegan", "verkefnalegum", "verkefnalegs"],
+				"kvk": ["verkefnaleg", "verkefnalega", "verkefnalegri", "verkefnalegrar"],
+				"hk": ["verkefnalegt", "verkefnalegt", "verkefnalegu", "verkefnalegs"]
+			},
+			"ft": {
+				"kk": ["verkefnalegir", "verkefnalega", "verkefnalegum", "verkefnalegra"],
+				"kvk": ["verkefnalegar", "verkefnalegar", "verkefnalegum", "verkefnalegra"],
+				"hk": ["verkefnaleg", "verkefnaleg", "verkefnalegum", "verkefnalegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["verkefnalegi", "verkefnalega", "verkefnalega", "verkefnalega"],
+				"kvk": ["verkefnalega", "verkefnalegu", "verkefnalegu", "verkefnalegu"],
+				"hk": ["verkefnalega", "verkefnalega", "verkefnalega", "verkefnalega"]
+			},
+			"ft": {
+				"kk": ["verkefnalegu", "verkefnalegu", "verkefnalegu", "verkefnalegu"],
+				"kvk": ["verkefnalegu", "verkefnalegu", "verkefnalegu", "verkefnalegu"],
+				"hk": ["verkefnalegu", "verkefnalegu", "verkefnalegu", "verkefnalegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-verkefnalegur",
+	"hash": "2ce65e6d7f3565c0f0635f7dc754e1b0da9dddf0f7695f34eb3d169c0127d7ac"
+}
