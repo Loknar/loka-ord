@@ -1,6 +1,16 @@
 {
 	"orð": "stressa",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stress",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stress-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "stressa",
 		"sagnbót": "stressað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "stressast",
 		"sagnbót": "stressast",
+		"boðháttur": {
+			"et": "stressastu",
+			"ft": "stressist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-stressa",
-	"hash": "c35e6f4b8cd94272edbe3e65d16066324b2ae68587a8174052b6cbd6abb27770"
+	"hash": "2ca461e1367219f1fc26835355cf36552553deafd41d3383f64b123cb673e31f"
 }
