@@ -1,0 +1,30 @@
+{
+	"orð": "gjaldtökuheimild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"kennistrengur": "no-heimild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldtökuheimild", "gjaldtökuheimild", "gjaldtökuheimild", "gjaldtökuheimildar"],
+		"mg": ["gjaldtökuheimildin", "gjaldtökuheimildina", "gjaldtökuheimildinni", "gjaldtökuheimildarinnar"]
+	},
+	"ft": {
+		"ág": ["gjaldtökuheimildir", "gjaldtökuheimildir", "gjaldtökuheimildum", "gjaldtökuheimilda"],
+		"mg": ["gjaldtökuheimildirnar", "gjaldtökuheimildirnar", "gjaldtökuheimildunum", "gjaldtökuheimildanna"]
+	},
+	"kennistrengur": "no-gjaldtökuheimild-kvk",
+	"hash": "1d086f4802e7e399550eb8caa2ca96d440db1aed43340a1e4f16cbb7492ef4ff"
+}

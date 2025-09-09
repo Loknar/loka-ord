@@ -1,0 +1,135 @@
+{
+	"orð": "dokka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dokk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dokka-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dokka",
+		"sagnbót": "dokkað",
+		"boðháttur": {
+			"stýfður": "dokka",
+			"et": "dokkaðu",
+			"ft": "dokkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dokka", "dokkar", "dokkar"],
+					"ft": ["dokkum", "dokkið", "dokka"]
+				},
+				"þátíð": {
+					"et": ["dokkaði", "dokkaðir", "dokkaði"],
+					"ft": ["dokkuðum", "dokkuðuð", "dokkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dokki", "dokkir", "dokki"],
+					"ft": ["dokkum", "dokkið", "dokki"]
+				},
+				"þátíð": {
+					"et": ["dokkaði", "dokkaðir", "dokkaði"],
+					"ft": ["dokkuðum", "dokkuðuð", "dokkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dokkarðu",
+					"ft": "dokkiði"
+				},
+				"þátíð": {
+					"et": "dokkaðirðu",
+					"ft": "dokkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dokkirðu",
+					"ft": "dokkiði"
+				},
+				"þátíð": {
+					"et": "dokkaðirðu",
+					"ft": "dokkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dokkast",
+		"sagnbót": "dokkast",
+		"boðháttur": {
+			"et": "dokkastu",
+			"ft": "dokkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dokkast", "dokkast", "dokkast"],
+					"ft": ["dokkumst", "dokkist", "dokkast"]
+				},
+				"þátíð": {
+					"et": ["dokkaðist", "dokkaðist", "dokkaðist"],
+					"ft": ["dokkuðumst", "dokkuðust", "dokkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dokkist", "dokkist", "dokkist"],
+					"ft": ["dokkumst", "dokkist", "dokkist"]
+				},
+				"þátíð": {
+					"et": ["dokkaðist", "dokkaðist", "dokkaðist"],
+					"ft": ["dokkuðumst", "dokkuðust", "dokkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dokkastu"
+				},
+				"þátíð": {
+					"et": "dokkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dokkistu"
+				},
+				"þátíð": {
+					"et": "dokkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dokkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dokkaður", "dokkaðan", "dokkuðum", "dokkaðs"],
+					"kvk": ["dokkuð", "dokkaða", "dokkaðri", "dokkaðrar"],
+					"hk": ["dokkað", "dokkað", "dokkuðu", "dokkaðs"]
+				},
+				"ft": {
+					"kk": ["dokkaðir", "dokkaða", "dokkuðum", "dokkaðra"],
+					"kvk": ["dokkaðar", "dokkaðar", "dokkuðum", "dokkaðra"],
+					"hk": ["dokkuð", "dokkuð", "dokkuðum", "dokkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dokka",
+	"hash": "1c1f02d84f9cb4bf54db84b2cdcd0d4ee998d5b59da64e570b2dfced8d23222d"
+}

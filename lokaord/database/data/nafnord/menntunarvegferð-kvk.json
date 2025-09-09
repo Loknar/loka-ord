@@ -1,0 +1,27 @@
+{
+	"orð": "menntunarvegferð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "menntunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-menntun-kvk"
+		},
+		{
+			"mynd": "veg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vegur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ferð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["menntunarvegferð", "menntunarvegferð", "menntunarvegferð", "menntunarvegferðar"],
+		"mg": ["menntunarvegferðin", "menntunarvegferðina", "menntunarvegferðinni", "menntunarvegferðarinnar"]
+	},
+	"kennistrengur": "no-menntunarvegferð-kvk",
+	"hash": "a0e71bf4abb7014a076a9dea49f53de3634bff62c4f84c37e4ede92ccb93285e"
+}
