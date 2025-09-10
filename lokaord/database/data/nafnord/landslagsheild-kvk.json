@@ -1,0 +1,30 @@
+{
+	"orð": "landslagsheild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"kennistrengur": "no-heild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landslagsheild", "landslagsheild", "landslagsheild", "landslagsheildar"],
+		"mg": ["landslagsheildin", "landslagsheildina", "landslagsheildinni", "landslagsheildarinnar"]
+	},
+	"ft": {
+		"ág": ["landslagsheildir", "landslagsheildir", "landslagsheildum", "landslagsheilda"],
+		"mg": ["landslagsheildirnar", "landslagsheildirnar", "landslagsheildunum", "landslagsheildanna"]
+	},
+	"kennistrengur": "no-landslagsheild-kvk",
+	"hash": "330875c02bd945f164c78ab6dfeeb66102731b465d4a447a9a45380911679308"
+}

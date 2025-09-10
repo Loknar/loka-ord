@@ -1,0 +1,32 @@
+{
+	"orð": "starfsmenntakennaranám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "mennta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mennt-kvk"
+		},
+		{
+			"mynd": "kennara",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kennari-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["starfsmenntakennaranám", "starfsmenntakennaranám", "starfsmenntakennaranámi", "starfsmenntakennaranáms"],
+		"mg": ["starfsmenntakennaranámið", "starfsmenntakennaranámið", "starfsmenntakennaranáminu", "starfsmenntakennaranámsins"]
+	},
+	"kennistrengur": "no-starfsmenntakennaranám-hk",
+	"hash": "e419e7ee77c774ce5a692edfe0bb784edea3be783fee73de77de40c168a40406"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "flugsamgöngur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ganga-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["flugsamgöngur", "flugsamgöngur", "flugsamgöngum", "flugsamgangna"],
+		"mg": ["flugsamgöngurnar", "flugsamgöngurnar", "flugsamgöngunum", "flugsamgangnanna"]
+	},
+	"kennistrengur": "no-flugsamgöngur-kvk",
+	"hash": "1753335f7554a4e7a3c3f5f2c3d2d17b8018f810515225d00a15dc44c6d4ed49"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "grunnskólakennaranám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "grunn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grunnur-kk"
+		},
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"mynd": "kennara",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kennari-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["grunnskólakennaranám", "grunnskólakennaranám", "grunnskólakennaranámi", "grunnskólakennaranáms"],
+		"mg": ["grunnskólakennaranámið", "grunnskólakennaranámið", "grunnskólakennaranáminu", "grunnskólakennaranámsins"]
+	},
+	"kennistrengur": "no-grunnskólakennaranám-hk",
+	"hash": "19daa84f6a710eb0514cd06b0dc1eaa9988fdc71197d92571f0d8c5aa963a8c5"
+}

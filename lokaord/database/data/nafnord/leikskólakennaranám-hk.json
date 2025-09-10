@@ -1,0 +1,32 @@
+{
+	"orð": "leikskólakennaranám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leikur-kk"
+		},
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"mynd": "kennara",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kennari-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["leikskólakennaranám", "leikskólakennaranám", "leikskólakennaranámi", "leikskólakennaranáms"],
+		"mg": ["leikskólakennaranámið", "leikskólakennaranámið", "leikskólakennaranáminu", "leikskólakennaranámsins"]
+	},
+	"kennistrengur": "no-leikskólakennaranám-hk",
+	"hash": "1ed11d3a579b582b74ef0c28581998f9a305a1aad1cbe17e4f35a047c7f87ba1"
+}

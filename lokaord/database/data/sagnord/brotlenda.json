@@ -1,0 +1,87 @@
+{
+	"orð": "brotlenda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "brot",
+			"samsetning": "stofn",
+			"kennistrengur": "no-brot-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lenda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brotlenda",
+		"sagnbót": "brotlent",
+		"boðháttur": {
+			"stýfður": "brotlent",
+			"et": "brotlentu",
+			"ft": "brotlendið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brotlendi", "brotlendir", "brotlendir"],
+					"ft": ["brotlendum", "brotlendið", "brotlenda"]
+				},
+				"þátíð": {
+					"et": ["brotlenti", "brotlentir", "brotlenti"],
+					"ft": ["brotlentum", "brotlentuð", "brotlentu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brotlendi", "brotlendir", "brotlendi"],
+					"ft": ["brotlendum", "brotlendið", "brotlendi"]
+				},
+				"þátíð": {
+					"et": ["brotlenti", "brotlentir", "brotlenti"],
+					"ft": ["brotlentum", "brotlentuð", "brotlentu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brotlendirðu",
+					"ft": "brotlendiði"
+				},
+				"þátíð": {
+					"et": "brotlentirðu",
+					"ft": "brotlentuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brotlendirðu",
+					"ft": "brotlendiði"
+				},
+				"þátíð": {
+					"et": "brotlentirðu",
+					"ft": "brotlentuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "brotlendandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brotlentur", "brotlentan", "brotlentum", "brotlents"],
+					"kvk": ["brotlent", "brotlenta", "brotlentri", "brotlentrar"],
+					"hk": ["brotlent", "brotlent", "brotlentu", "brotlents"]
+				},
+				"ft": {
+					"kk": ["brotlentir", "brotlenta", "brotlentum", "brotlentra"],
+					"kvk": ["brotlentar", "brotlentar", "brotlentum", "brotlentra"],
+					"hk": ["brotlent", "brotlent", "brotlentum", "brotlentra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brotlenda",
+	"hash": "acc1e3f9afa8b0836ecf7ab990286573c662ee7af984ea6d39386b5987b04e33"
+}

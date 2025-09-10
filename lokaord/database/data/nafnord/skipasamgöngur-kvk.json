@@ -1,0 +1,27 @@
+{
+	"orð": "skipasamgöngur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skipa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skip-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ganga-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["skipasamgöngur", "skipasamgöngur", "skipasamgöngum", "skipasamgangna"],
+		"mg": ["skipasamgöngurnar", "skipasamgöngurnar", "skipasamgöngunum", "skipasamgangnanna"]
+	},
+	"kennistrengur": "no-skipasamgöngur-kvk",
+	"hash": "a4fdb802b305c13ed2c093e6b1716f3a2ae565d59d765f41427c01a6e0456fa2"
+}
