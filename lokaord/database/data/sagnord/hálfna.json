@@ -1,0 +1,87 @@
+{
+	"orð": "hálfna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hálfn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hálfna",
+		"sagnbót": "hálfnað",
+		"boðháttur": {
+			"stýfður": "hálfna",
+			"et": "hálfnaðu",
+			"ft": "hálfnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hálfna", "hálfnar", "hálfnar"],
+					"ft": ["hálfnum", "hálfnið", "hálfna"]
+				},
+				"þátíð": {
+					"et": ["hálfnaði", "hálfnaðir", "hálfnaði"],
+					"ft": ["hálfnuðum", "hálfnuðuð", "hálfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hálfni", "hálfnir", "hálfni"],
+					"ft": ["hálfnum", "hálfnið", "hálfni"]
+				},
+				"þátíð": {
+					"et": ["hálfnaði", "hálfnaðir", "hálfnaði"],
+					"ft": ["hálfnuðum", "hálfnuðuð", "hálfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hálfnarðu",
+					"ft": "hálfniði"
+				},
+				"þátíð": {
+					"et": "hálfnaðirðu",
+					"ft": "hálfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hálfnirðu",
+					"ft": "hálfniði"
+				},
+				"þátíð": {
+					"et": "hálfnaðirðu",
+					"ft": "hálfnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hálfnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hálfnaður", "hálfnaðan", "hálfnuðum", "hálfnaðs"],
+					"kvk": ["hálfnuð", "hálfnaða", "hálfnaðri", "hálfnaðrar"],
+					"hk": ["hálfnað", "hálfnað", "hálfnuðu", "hálfnaðs"]
+				},
+				"ft": {
+					"kk": ["hálfnaðir", "hálfnaða", "hálfnuðum", "hálfnaðra"],
+					"kvk": ["hálfnaðar", "hálfnaðar", "hálfnuðum", "hálfnaðra"],
+					"hk": ["hálfnuð", "hálfnuð", "hálfnuðum", "hálfnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hálfna",
+	"hash": "b92e6fb65d6e32c6451af84211eeba941bf1eb6f12adbda300fa148c4a84ea14"
+}

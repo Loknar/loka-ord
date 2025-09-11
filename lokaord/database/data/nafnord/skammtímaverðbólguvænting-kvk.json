@@ -1,0 +1,40 @@
+{
+	"orð": "skammtímaverðbólguvænting",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bólgu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bólga-kvk"
+		},
+		{
+			"kennistrengur": "no-vænting-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skammtímaverðbólguvænting", "skammtímaverðbólguvæntingu", "skammtímaverðbólguvæntingu", "skammtímaverðbólguvæntingar"],
+		"mg": ["skammtímaverðbólguvæntingin", "skammtímaverðbólguvæntinguna", "skammtímaverðbólguvæntingunni", "skammtímaverðbólguvæntingarinnar"]
+	},
+	"ft": {
+		"ág": ["skammtímaverðbólguvæntingar", "skammtímaverðbólguvæntingar", "skammtímaverðbólguvæntingum", "skammtímaverðbólguvæntinga"],
+		"mg": ["skammtímaverðbólguvæntingarnar", "skammtímaverðbólguvæntingarnar", "skammtímaverðbólguvæntingunum", "skammtímaverðbólguvæntinganna"]
+	},
+	"kennistrengur": "no-skammtímaverðbólguvænting-kvk",
+	"hash": "5f207151b56ab507aca3da598d6367e477d334f4ff235a26f0dad0f204077036"
+}

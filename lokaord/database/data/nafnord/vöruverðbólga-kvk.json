@@ -1,0 +1,27 @@
+{
+	"orð": "vöruverðbólga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-bólga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vöruverðbólga", "vöruverðbólgu", "vöruverðbólgu", "vöruverðbólgu"],
+		"mg": ["vöruverðbólgan", "vöruverðbólguna", "vöruverðbólgunni", "vöruverðbólgunnar"]
+	},
+	"kennistrengur": "no-vöruverðbólga-kvk",
+	"hash": "6f60bd361d3244640edbf6467bc07f19ff61ed8eafa7bbac13845d54de34cc52"
+}
