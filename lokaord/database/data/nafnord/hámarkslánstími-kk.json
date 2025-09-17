@@ -1,0 +1,32 @@
+{
+	"orð": "hámarkslánstími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "láns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["hámarkslánstími", "hámarkslánstíma", "hámarkslánstíma", "hámarkslánstíma"],
+		"mg": ["hámarkslánstíminn", "hámarkslánstímann", "hámarkslánstímanum", "hámarkslánstímans"]
+	},
+	"kennistrengur": "no-hámarkslánstími-kk",
+	"hash": "589b40e2ac6fe649b26679e2846ac64d11df827c7b777aa8d0703a012f57dc1e"
+}

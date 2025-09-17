@@ -1,0 +1,76 @@
+{
+	"orð": "kasa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "kasa",
+		"sagnbót": "kasa",
+		"boðháttur": {
+			"stýfður": "kasa",
+			"et": "kasaðu",
+			"ft": "kasið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kasa", "kasar", "kasar"],
+					"ft": ["kösum", "kasið", "kasa"]
+				},
+				"þátíð": {
+					"et": ["kasaði", "kasaðir", "kasaði"],
+					"ft": ["kösuðum", "kösuðuð", "kösuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kasi", "kasir", "kasi"],
+					"ft": ["kasum", "kasið", "kasi"]
+				},
+				"þátíð": {
+					"et": ["kasaði", "kasaðir", "kasaði"],
+					"ft": ["kösuðum", "kösuðuð", "kösuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kasarðu",
+					"ft": "kasiði"
+				},
+				"þátíð": {
+					"et": "kasaðirðu",
+					"ft": "kösuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kasirðu",
+					"ft": "kasiði"
+				},
+				"þátíð": {
+					"et": "kasaðirðu",
+					"ft": "kösuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kasandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kasaður", "kasaðan", "kösuðum", "kasaðs"],
+					"kvk": ["kösuð", "kasaða", "kasaðri", "kasaðrar"],
+					"hk": ["kasað", "kasað", "kösuðu", "kasaðs"]
+				},
+				"ft": {
+					"kk": ["kasaðir", "kasaða", "kösuðum", "kasaðra"],
+					"kvk": ["kasaðar", "kasaðar", "kösuðum", "kasaðra"],
+					"hk": ["kösuð", "kösuð", "kösuðum", "kasaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kasa",
+	"hash": "0cffd751bfa9c8d38c22904e705faa86feaaf890141cc0e8cbd16cfeab19fb8e"
+}

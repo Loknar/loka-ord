@@ -1,0 +1,43 @@
+{
+	"orð": "leigulaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["leigulaus", "leigulausan", "leigulausum", "leigulauss"],
+				"kvk": ["leigulaus", "leigulausa", "leigulausri", "leigulausrar"],
+				"hk": ["leigulaust", "leigulaust", "leigulausu", "leigulauss"]
+			},
+			"ft": {
+				"kk": ["leigulausir", "leigulausa", "leigulausum", "leigulausra"],
+				"kvk": ["leigulausar", "leigulausar", "leigulausum", "leigulausra"],
+				"hk": ["leigulaus", "leigulaus", "leigulausum", "leigulausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["leigulausi", "leigulausa", "leigulausa", "leigulausa"],
+				"kvk": ["leigulausa", "leigulausu", "leigulausu", "leigulausu"],
+				"hk": ["leigulausa", "leigulausa", "leigulausa", "leigulausa"]
+			},
+			"ft": {
+				"kk": ["leigulausu", "leigulausu", "leigulausu", "leigulausu"],
+				"kvk": ["leigulausu", "leigulausu", "leigulausu", "leigulausu"],
+				"hk": ["leigulausu", "leigulausu", "leigulausu", "leigulausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-leigulaus",
+	"hash": "ea2d4c67cf9bb0a7a32eb691e6b401f970511e5511d30a888b5b181b944e1ec8"
+}

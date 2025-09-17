@@ -1,0 +1,135 @@
+{
+	"orð": "slysa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slys",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slys-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slysa",
+		"sagnbót": "slysað",
+		"boðháttur": {
+			"stýfður": "slysa",
+			"et": "slysaðu",
+			"ft": "slysið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slysa", "slysar", "slysar"],
+					"ft": ["slysum", "slysið", "slysa"]
+				},
+				"þátíð": {
+					"et": ["slysaði", "slysaðir", "slysaði"],
+					"ft": ["slysuðum", "slysuðuð", "slysuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slysi", "slysir", "slysi"],
+					"ft": ["slysum", "slysið", "slysi"]
+				},
+				"þátíð": {
+					"et": ["slysaði", "slysaðir", "slysaði"],
+					"ft": ["slysuðum", "slysuðuð", "slysuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slysarðu",
+					"ft": "slysiði"
+				},
+				"þátíð": {
+					"et": "slysaðirðu",
+					"ft": "slysuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slysirðu",
+					"ft": "slysiði"
+				},
+				"þátíð": {
+					"et": "slysaðirðu",
+					"ft": "slysuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slysast",
+		"sagnbót": "slysast",
+		"boðháttur": {
+			"et": "slysastu",
+			"ft": "slysist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slysast", "slysast", "slysast"],
+					"ft": ["slysumst", "slysist", "slysast"]
+				},
+				"þátíð": {
+					"et": ["slysaðist", "slysaðist", "slysaðist"],
+					"ft": ["slysuðumst", "slysuðust", "slysuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slysist", "slysist", "slysist"],
+					"ft": ["slysumst", "slysist", "slysist"]
+				},
+				"þátíð": {
+					"et": ["slysaðist", "slysaðist", "slysaðist"],
+					"ft": ["slysuðumst", "slysuðust", "slysuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slysastu"
+				},
+				"þátíð": {
+					"et": "slysaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slysistu"
+				},
+				"þátíð": {
+					"et": "slysaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slysandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slysaður", "slysaðan", "slysuðum", "slysaðs"],
+					"kvk": ["slysuð", "slysaða", "slysaðri", "slysaðrar"],
+					"hk": ["slysað", "slysað", "slysuðu", "slysaðs"]
+				},
+				"ft": {
+					"kk": ["slysaðir", "slysaða", "slysuðum", "slysaðra"],
+					"kvk": ["slysaðar", "slysaðar", "slysuðum", "slysaðra"],
+					"hk": ["slysuð", "slysuð", "slysuðum", "slysaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slysa",
+	"hash": "a84e9d3fcc1b8bc550779f8e68a57171b965152bad2311273a3cc0d6f52490b1"
+}
