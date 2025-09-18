@@ -1,0 +1,27 @@
+{
+	"orð": "kynslóðamunur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"mynd": "slóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-slóð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"et": {
+		"ág": ["kynslóðamunur", "kynslóðamun", "kynslóðamun", "kynslóðamunar"],
+		"mg": ["kynslóðamunurinn", "kynslóðamuninn", "kynslóðamuninum", "kynslóðamunarins"]
+	},
+	"kennistrengur": "no-kynslóðamunur-kk",
+	"hash": "61b827c8c7b0260d61966a4471a5d35fc2cb23294ddab03c9652ec501dc7b574"
+}

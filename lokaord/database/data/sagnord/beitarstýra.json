@@ -1,0 +1,64 @@
+{
+	"orð": "beitarstýra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "beitar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-beit-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-stýra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "beitarstýra",
+		"sagnbót": "beitarstýrt",
+		"boðháttur": {
+			"stýfður": "beitarstýr",
+			"et": "beitarstýrðu",
+			"ft": "beitarstýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["beitarstýri", "beitarstýrir", "beitarstýrir"],
+					"ft": ["beitarstýrum", "beitarstýrið", "beitarstýra"]
+				},
+				"þátíð": {
+					"et": ["beitarstýrði", "beitarstýrðir", "beitarstýrði"],
+					"ft": ["beitarstýrðum", "beitarstýrðuð", "beitarstýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["beitarstýri", "beitarstýrir", "beitarstýri"],
+					"ft": ["beitarstýrum", "beitarstýrið", "beitarstýri"]
+				},
+				"þátíð": {
+					"et": ["beitarstýrði", "beitarstýrðir", "beitarstýrði"],
+					"ft": ["beitarstýrðum", "beitarstýrðuð", "beitarstýrðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["beitarstýrður", "beitarstýrðan", "beitarstýrðum", "beitarstýrðs"],
+					"kvk": ["beitarstýrð", "beitarstýrða", "beitarstýrðri", "beitarstýrðrar"],
+					"hk": ["beitarstýrt", "beitarstýrt", "beitarstýrðu", "beitarstýrðs"]
+				},
+				"ft": {
+					"kk": ["beitarstýrðir", "beitarstýrða", "beitarstýrðum", "beitarstýrðra"],
+					"kvk": ["beitarstýrðar", "beitarstýrðar", "beitarstýrðum", "beitarstýrðra"],
+					"hk": ["beitarstýrð", "beitarstýrð", "beitarstýrðum", "beitarstýrðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-beitarstýra",
+	"hash": "61c069143127aa62edac58063bc8caf0b9f69fbbf8af95425776be598fd5a142"
+}

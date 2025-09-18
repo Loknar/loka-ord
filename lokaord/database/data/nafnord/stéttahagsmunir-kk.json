@@ -1,0 +1,27 @@
+{
+	"orð": "stéttahagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "stétta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stétt-kvk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["stéttahagsmunir", "stéttahagsmuni", "stéttahagsmunum", "stéttahagsmuna"],
+		"mg": ["stéttahagsmunirnir", "stéttahagsmunina", "stéttahagsmununum", "stéttahagsmunanna"]
+	},
+	"kennistrengur": "no-stéttahagsmunir-kk",
+	"hash": "f7f6c3e9269409a4662cb96ecb17fb0970a007f1d53d8f10f29a5e90b3511b9f"
+}

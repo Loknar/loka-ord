@@ -1,0 +1,146 @@
+{
+	"orð": "greipa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "greip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-greip-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "greipa",
+		"sagnbót": "greipað",
+		"boðháttur": {
+			"stýfður": "greipa",
+			"et": "greipaðu",
+			"ft": "greipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greipa", "greipar", "greipar"],
+					"ft": ["greipum", "greipið", "greipa"]
+				},
+				"þátíð": {
+					"et": ["greipaði", "greipaðir", "greipaði"],
+					"ft": ["greipuðum", "greipuðuð", "greipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greipi", "greipir", "greipi"],
+					"ft": ["greipum", "greipið", "greipi"]
+				},
+				"þátíð": {
+					"et": ["greipaði", "greipaðir", "greipaði"],
+					"ft": ["greipuðum", "greipuðuð", "greipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greiparðu",
+					"ft": "greipiði"
+				},
+				"þátíð": {
+					"et": "greipaðirðu",
+					"ft": "greipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greipirðu",
+					"ft": "greipiði"
+				},
+				"þátíð": {
+					"et": "greipaðirðu",
+					"ft": "greipuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "greipast",
+		"sagnbót": "greipast",
+		"boðháttur": {
+			"et": "greipastu",
+			"ft": "greipist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greipast", "greipast", "greipast"],
+					"ft": ["greipumst", "greipist", "greipast"]
+				},
+				"þátíð": {
+					"et": ["greipaðist", "greipaðist", "greipaðist"],
+					"ft": ["greipuðumst", "greipuðust", "greipuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greipist", "greipist", "greipist"],
+					"ft": ["greipumst", "greipist", "greipist"]
+				},
+				"þátíð": {
+					"et": ["greipaðist", "greipaðist", "greipaðist"],
+					"ft": ["greipuðumst", "greipuðust", "greipuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greipastu"
+				},
+				"þátíð": {
+					"et": "greipaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greipistu"
+				},
+				"þátíð": {
+					"et": "greipaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "greipandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["greipaður", "greipaðan", "greipuðum", "greipaðs"],
+					"kvk": ["greipuð", "greipaða", "greipaðri", "greipaðrar"],
+					"hk": ["greipað", "greipað", "greipuðu", "greipaðs"]
+				},
+				"ft": {
+					"kk": ["greipaðir", "greipaða", "greipuðum", "greipaðra"],
+					"kvk": ["greipaðar", "greipaðar", "greipuðum", "greipaðra"],
+					"hk": ["greipuð", "greipuð", "greipuðum", "greipaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["greipaði", "greipaða", "greipaða", "greipaða"],
+					"kvk": ["greipaða", "greipuðu", "greipuðu", "greipuðu"],
+					"hk": ["greipaða", "greipaða", "greipaða", "greipaða"]
+				},
+				"ft": {
+					"kk": ["greipuðu", "greipuðu", "greipuðu", "greipuðu"],
+					"kvk": ["greipuðu", "greipuðu", "greipuðu", "greipuðu"],
+					"hk": ["greipuðu", "greipuðu", "greipuðu", "greipuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-greipa",
+	"hash": "acb080f94bdd131435a2716a9dc7a97cd8632b668c84d245601e9bcdee03349d"
+}

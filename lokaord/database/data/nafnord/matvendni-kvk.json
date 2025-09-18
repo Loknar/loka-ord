@@ -1,0 +1,28 @@
+{
+	"orð": "matvendni",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mat",
+			"samsetning": "stofn",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"mynd": "vend",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-vandur"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["matvendni", "matvendni", "matvendni", "matvendni"],
+		"mg": ["matvendnin", "matvendnina", "matvendninni", "matvendninnar"]
+	},
+	"kennistrengur": "no-matvendni-kvk",
+	"hash": "d924f80aebbcdd913d3d8a97b0dc3fdfce18e8fd5c4dbe085a140c5aa48c7450"
+}
