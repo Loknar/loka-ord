@@ -1,0 +1,27 @@
+{
+	"orð": "veitingahúsarekstur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "veitinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-veiting-kvk"
+		},
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rekstur-kk"
+		}
+	],
+	"et": {
+		"ág": ["veitingahúsarekstur", "veitingahúsarekstur", "veitingahúsarekstri", "veitingahúsarekstrar"],
+		"mg": ["veitingahúsareksturinn", "veitingahúsareksturinn", "veitingahúsarekstrinum", "veitingahúsarekstrarins"]
+	},
+	"kennistrengur": "no-veitingahúsarekstur-kk",
+	"hash": "dde9e293cd09a7aed0dcaa59583d069e3284ff969bfb49caca04ea75053bc546"
+}

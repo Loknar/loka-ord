@@ -1,0 +1,48 @@
+{
+	"orð": "kolvitlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"mynd": "vit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vit-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kolvitlaus", "kolvitlausan", "kolvitlausum", "kolvitlauss"],
+				"kvk": ["kolvitlaus", "kolvitlausa", "kolvitlausri", "kolvitlausrar"],
+				"hk": ["kolvitlaust", "kolvitlaust", "kolvitlausu", "kolvitlauss"]
+			},
+			"ft": {
+				"kk": ["kolvitlausir", "kolvitlausa", "kolvitlausum", "kolvitlausra"],
+				"kvk": ["kolvitlausar", "kolvitlausar", "kolvitlausum", "kolvitlausra"],
+				"hk": ["kolvitlaus", "kolvitlaus", "kolvitlausum", "kolvitlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kolvitlausi", "kolvitlausa", "kolvitlausa", "kolvitlausa"],
+				"kvk": ["kolvitlausa", "kolvitlausu", "kolvitlausu", "kolvitlausu"],
+				"hk": ["kolvitlausa", "kolvitlausa", "kolvitlausa", "kolvitlausa"]
+			},
+			"ft": {
+				"kk": ["kolvitlausu", "kolvitlausu", "kolvitlausu", "kolvitlausu"],
+				"kvk": ["kolvitlausu", "kolvitlausu", "kolvitlausu", "kolvitlausu"],
+				"hk": ["kolvitlausu", "kolvitlausu", "kolvitlausu", "kolvitlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kolvitlaus",
+	"hash": "01ce6905b6eb1875cdab6940dbeb04b6de64aa0fcac77027508c8fce08a83311"
+}

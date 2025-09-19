@@ -1,0 +1,27 @@
+{
+	"orð": "verkbókhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["verkbókhald", "verkbókhald", "verkbókhaldi", "verkbókhalds"],
+		"mg": ["verkbókhaldið", "verkbókhaldið", "verkbókhaldinu", "verkbókhaldsins"]
+	},
+	"kennistrengur": "no-verkbókhald-hk",
+	"hash": "4ccecfee9894f9ee0d3713c639b8cf8a2ba5eba6522cbe5c41f552791a10e614"
+}

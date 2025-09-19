@@ -1,0 +1,27 @@
+{
+	"orð": "verkfræðinám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["verkfræðinám", "verkfræðinám", "verkfræðinámi", "verkfræðináms"],
+		"mg": ["verkfræðinámið", "verkfræðinámið", "verkfræðináminu", "verkfræðinámsins"]
+	},
+	"kennistrengur": "no-verkfræðinám-hk",
+	"hash": "057f64a836099aa602209ce8d8200149af5021ed0df6c4a6b5238fb656e44e9e"
+}

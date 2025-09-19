@@ -1,0 +1,135 @@
+{
+	"orð": "sjokkera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sjokker",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-sjokk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sjokkera",
+		"sagnbót": "sjokkerað",
+		"boðháttur": {
+			"stýfður": "sjokkera",
+			"et": "sjokkeraðu",
+			"ft": "sjokkerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjokkera", "sjokkerar", "sjokkerar"],
+					"ft": ["sjokkerum", "sjokkerið", "sjokkera"]
+				},
+				"þátíð": {
+					"et": ["sjokkeraði", "sjokkeraðir", "sjokkeraði"],
+					"ft": ["sjokkeruðum", "sjokkeruðuð", "sjokkeruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjokkeri", "sjokkerir", "sjokkeri"],
+					"ft": ["sjokkerum", "sjokkerið", "sjokkeri"]
+				},
+				"þátíð": {
+					"et": ["sjokkeraði", "sjokkeraðir", "sjokkeraði"],
+					"ft": ["sjokkeruðum", "sjokkeruðuð", "sjokkeruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjokkerarðu",
+					"ft": "sjokkeriði"
+				},
+				"þátíð": {
+					"et": "sjokkeraðirðu",
+					"ft": "sjokkeruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjokkerirðu",
+					"ft": "sjokkeriði"
+				},
+				"þátíð": {
+					"et": "sjokkeraðirðu",
+					"ft": "sjokkeruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sjokkerast",
+		"sagnbót": "sjokkerast",
+		"boðháttur": {
+			"et": "sjokkerastu",
+			"ft": "sjokkerist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjokkerast", "sjokkerast", "sjokkerast"],
+					"ft": ["sjokkerumst", "sjokkerist", "sjokkerast"]
+				},
+				"þátíð": {
+					"et": ["sjokkeraðist", "sjokkeraðist", "sjokkeraðist"],
+					"ft": ["sjokkeruðumst", "sjokkeruðust", "sjokkeruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjokkerist", "sjokkerist", "sjokkerist"],
+					"ft": ["sjokkerumst", "sjokkerist", "sjokkerist"]
+				},
+				"þátíð": {
+					"et": ["sjokkeraðist", "sjokkeraðist", "sjokkeraðist"],
+					"ft": ["sjokkeruðumst", "sjokkeruðust", "sjokkeruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjokkerastu"
+				},
+				"þátíð": {
+					"et": "sjokkeraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjokkeristu"
+				},
+				"þátíð": {
+					"et": "sjokkeraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjokkerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sjokkeraður", "sjokkeraðan", "sjokkeruðum", "sjokkeraðs"],
+					"kvk": ["sjokkeruð", "sjokkeraða", "sjokkeraðri", "sjokkeraðrar"],
+					"hk": ["sjokkerað", "sjokkerað", "sjokkeruðu", "sjokkeraðs"]
+				},
+				"ft": {
+					"kk": ["sjokkeraðir", "sjokkeraða", "sjokkeruðum", "sjokkeraðra"],
+					"kvk": ["sjokkeraðar", "sjokkeraðar", "sjokkeruðum", "sjokkeraðra"],
+					"hk": ["sjokkeruð", "sjokkeruð", "sjokkeruðum", "sjokkeraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjokkera",
+	"hash": "d7f289b801aa9e67131e21377eb33147bb26040b79db9762f8f171d52e0f2404"
+}

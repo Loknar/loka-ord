@@ -1,0 +1,27 @@
+{
+	"orð": "vatnsskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vatns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vatn-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["vatnsskilyrði", "vatnsskilyrði", "vatnsskilyrðum", "vatnsskilyrða"],
+		"mg": ["vatnsskilyrðin", "vatnsskilyrðin", "vatnsskilyrðunum", "vatnsskilyrðanna"]
+	},
+	"kennistrengur": "no-vatnsskilyrði-hk",
+	"hash": "cefa1b1233edcd88b7d85a47f40644f838e56eb1ff5c9c82743947aa13301242"
+}

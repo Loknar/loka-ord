@@ -1,0 +1,27 @@
+{
+	"orð": "heildarstigafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "stiga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stigi-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarstigafjöldi", "heildarstigafjölda", "heildarstigafjölda", "heildarstigafjölda"],
+		"mg": ["heildarstigafjöldinn", "heildarstigafjöldann", "heildarstigafjöldanum", "heildarstigafjöldans"]
+	},
+	"kennistrengur": "no-heildarstigafjöldi-kk",
+	"hash": "25d336663d2fcd855efe1ff64a30498b9117f45271f46409cfd1a1a4b2f6cd1e"
+}

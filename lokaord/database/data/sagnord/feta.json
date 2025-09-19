@@ -1,0 +1,87 @@
+{
+	"orð": "feta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fet",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fet-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "feta",
+		"sagnbót": "fetað",
+		"boðháttur": {
+			"stýfður": "feta",
+			"et": "fetaðu",
+			"ft": "fetið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["feta", "fetar", "fetar"],
+					"ft": ["fetum", "fetið", "feta"]
+				},
+				"þátíð": {
+					"et": ["fetaði", "fetaðir", "fetaði"],
+					"ft": ["fetuðum", "fetuðuð", "fetuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["feti", "fetir", "feti"],
+					"ft": ["fetum", "fetið", "feti"]
+				},
+				"þátíð": {
+					"et": ["fetaði", "fetaðir", "fetaði"],
+					"ft": ["fetuðum", "fetuðuð", "fetuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fetarðu",
+					"ft": "fetiði"
+				},
+				"þátíð": {
+					"et": "fetaðirðu",
+					"ft": "fetuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fetirðu",
+					"ft": "fetiði"
+				},
+				"þátíð": {
+					"et": "fetaðirðu",
+					"ft": "fetuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fetandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fetaður", "fetaðan", "fetuðum", "fetaðs"],
+					"kvk": ["fetuð", "fetaða", "fetaðri", "fetaðrar"],
+					"hk": ["fetað", "fetað", "fetuðu", "fetaðs"]
+				},
+				"ft": {
+					"kk": ["fetaðir", "fetaða", "fetuðum", "fetaðra"],
+					"kvk": ["fetaðar", "fetaðar", "fetuðum", "fetaðra"],
+					"hk": ["fetuð", "fetuð", "fetuðum", "fetaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-feta",
+	"hash": "f52b567cdd8bc44386aa3c396074638e94f2d1f646016118979d96366aad12b7"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "dekka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dekk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dekk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dekka",
+		"sagnbót": "dekkað",
+		"boðháttur": {
+			"stýfður": "dekka",
+			"et": "dekkaðu",
+			"ft": "dekkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dekka", "dekkar", "dekkar"],
+					"ft": ["dekkum", "dekkið", "dekka"]
+				},
+				"þátíð": {
+					"et": ["dekkaði", "dekkaðir", "dekkaði"],
+					"ft": ["dekkuðum", "dekkuðuð", "dekkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dekki", "dekkir", "dekki"],
+					"ft": ["dekkum", "dekkið", "dekki"]
+				},
+				"þátíð": {
+					"et": ["dekkaði", "dekkaðir", "dekkaði"],
+					"ft": ["dekkuðum", "dekkuðuð", "dekkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dekkarðu",
+					"ft": "dekkiði"
+				},
+				"þátíð": {
+					"et": "dekkaðirðu",
+					"ft": "dekkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dekkirðu",
+					"ft": "dekkiði"
+				},
+				"þátíð": {
+					"et": "dekkaðirðu",
+					"ft": "dekkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dekkast",
+		"sagnbót": "dekkast",
+		"boðháttur": {
+			"et": "dekkastu",
+			"ft": "dekkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dekkast", "dekkast", "dekkast"],
+					"ft": ["dekkumst", "dekkist", "dekkast"]
+				},
+				"þátíð": {
+					"et": ["dekkaðist", "dekkaðist", "dekkaðist"],
+					"ft": ["dekkuðumst", "dekkuðust", "dekkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dekkist", "dekkist", "dekkist"],
+					"ft": ["dekkumst", "dekkist", "dekkist"]
+				},
+				"þátíð": {
+					"et": ["dekkaðist", "dekkaðist", "dekkaðist"],
+					"ft": ["dekkuðumst", "dekkuðust", "dekkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dekkastu"
+				},
+				"þátíð": {
+					"et": "dekkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dekkistu"
+				},
+				"þátíð": {
+					"et": "dekkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dekkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dekkaður", "dekkaðan", "dekkuðum", "dekkaðs"],
+					"kvk": ["dekkuð", "dekkaða", "dekkaðri", "dekkaðrar"],
+					"hk": ["dekkað", "dekkað", "dekkuðu", "dekkaðs"]
+				},
+				"ft": {
+					"kk": ["dekkaðir", "dekkaða", "dekkuðum", "dekkaðra"],
+					"kvk": ["dekkaðar", "dekkaðar", "dekkuðum", "dekkaðra"],
+					"hk": ["dekkuð", "dekkuð", "dekkuðum", "dekkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dekka",
+	"hash": "fa29d71b2127cbdcfd555f92196db1b3bc8b80d6bc846bb835d89951d3336511"
+}

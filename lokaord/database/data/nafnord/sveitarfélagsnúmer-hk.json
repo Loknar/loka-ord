@@ -1,0 +1,30 @@
+{
+	"orð": "sveitarfélagsnúmer",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sveitar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sveit-kvk"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"kennistrengur": "no-númer-hk"
+		}
+	],
+	"et": {
+		"ág": ["sveitarfélagsnúmer", "sveitarfélagsnúmer", "sveitarfélagsnúmeri", "sveitarfélagsnúmers"],
+		"mg": ["sveitarfélagsnúmerið", "sveitarfélagsnúmerið", "sveitarfélagsnúmerinu", "sveitarfélagsnúmersins"]
+	},
+	"ft": {
+		"ág": ["sveitarfélagsnúmer", "sveitarfélagsnúmer", "sveitarfélagsnúmerum", "sveitarfélagsnúmera"],
+		"mg": ["sveitarfélagsnúmerin", "sveitarfélagsnúmerin", "sveitarfélagsnúmerunum", "sveitarfélagsnúmeranna"]
+	},
+	"kennistrengur": "no-sveitarfélagsnúmer-hk",
+	"hash": "7c36fbbadba0cdec0bad3badc0cc25ddb5652d0a7f8954b9cc4438d70b1d5597"
+}

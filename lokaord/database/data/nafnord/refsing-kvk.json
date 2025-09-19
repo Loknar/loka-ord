@@ -2,14 +2,24 @@
 	"orð": "refsing",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "refs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-refsa"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
-		"ág": ["refsing", "refsingu", "refsingu", "refsingu"],
-		"mg": ["refsingin", "refsinguna", "refsingunni", "refsingunnar"]
+		"ág": ["refsing", "refsingu", "refsingu", "refsingar"],
+		"mg": ["refsingin", "refsinguna", "refsingunni", "refsingarinnar"]
 	},
 	"ft": {
 		"ág": ["refsingar", "refsingar", "refsingum", "refsinga"],
 		"mg": ["refsingarnar", "refsingarnar", "refsingunum", "refsinganna"]
 	},
 	"kennistrengur": "no-refsing-kvk",
-	"hash": "717afa852763754b2d2793c5fadb13e60d0a8533e5fa4a58febd9de739bdd94d"
+	"hash": "6b9d8797df249819fe717c2d7350a326c59a67ba53253e6775688a267ffd7301"
 }
