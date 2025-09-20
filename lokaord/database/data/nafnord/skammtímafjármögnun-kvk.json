@@ -1,0 +1,35 @@
+{
+	"orð": "skammtímafjármögnun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-mögnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skammtímafjármögnun", "skammtímafjármögnun", "skammtímafjármögnun", "skammtímafjármögnunar"],
+		"mg": ["skammtímafjármögnunin", "skammtímafjármögnunina", "skammtímafjármögnuninni", "skammtímafjármögnunarinnar"]
+	},
+	"ft": {
+		"ág": ["skammtímafjármagnanir", "skammtímafjármagnanir", "skammtímafjármögnunum", "skammtímafjármagnana"],
+		"mg": ["skammtímafjármagnanirnar", "skammtímafjármagnanirnar", "skammtímafjármögnununum", "skammtímafjármagnananna"]
+	},
+	"kennistrengur": "no-skammtímafjármögnun-kvk",
+	"hash": "a8b1a4698ea7d87bf0e39d1e121200bb4fac2c2775ecc42332c50f53fdc876f7"
+}

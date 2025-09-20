@@ -1,0 +1,48 @@
+{
+	"orð": "óskuldsettur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-settur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["óskuldsettur", "óskuldsettan", "óskuldsettum", "óskuldsetts"],
+				"kvk": ["óskuldsett", "óskuldsetta", "óskuldsettri", "óskuldsettrar"],
+				"hk": ["óskuldsett", "óskuldsett", "óskuldsettu", "óskuldsetts"]
+			},
+			"ft": {
+				"kk": ["óskuldsettir", "óskuldsetta", "óskuldsettum", "óskuldsettra"],
+				"kvk": ["óskuldsettar", "óskuldsettar", "óskuldsettum", "óskuldsettra"],
+				"hk": ["óskuldsett", "óskuldsett", "óskuldsettum", "óskuldsettra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["óskuldsetti", "óskuldsetta", "óskuldsetta", "óskuldsetta"],
+				"kvk": ["óskuldsetta", "óskuldsettu", "óskuldsettu", "óskuldsettu"],
+				"hk": ["óskuldsetta", "óskuldsetta", "óskuldsetta", "óskuldsetta"]
+			},
+			"ft": {
+				"kk": ["óskuldsettu", "óskuldsettu", "óskuldsettu", "óskuldsettu"],
+				"kvk": ["óskuldsettu", "óskuldsettu", "óskuldsettu", "óskuldsettu"],
+				"hk": ["óskuldsettu", "óskuldsettu", "óskuldsettu", "óskuldsettu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-óskuldsettur",
+	"hash": "2bc533eb55c91fa2aa340ea10ed00b45782bcb3b4c747d512d7a429803eed256"
+}

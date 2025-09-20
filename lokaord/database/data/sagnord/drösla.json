@@ -1,0 +1,121 @@
+{
+	"orð": "drösla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "drösl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-drösułl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "drösla",
+		"sagnbót": "dröslað",
+		"boðháttur": {
+			"stýfður": "drösla",
+			"et": "dröslaðu",
+			"ft": "dröslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["drösla", "dröslar", "dröslar"],
+					"ft": ["dröslum", "dröslið", "drösla"]
+				},
+				"þátíð": {
+					"et": ["dröslaði", "dröslaðir", "dröslaði"],
+					"ft": ["drösluðum", "drösluðuð", "drösluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["drösli", "dröslir", "drösli"],
+					"ft": ["dröslum", "dröslið", "drösli"]
+				},
+				"þátíð": {
+					"et": ["dröslaði", "dröslaðir", "dröslaði"],
+					"ft": ["drösluðum", "drösluðuð", "drösluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dröslarðu",
+					"ft": "drösliði"
+				},
+				"þátíð": {
+					"et": "dröslaðirðu",
+					"ft": "drösluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dröslirðu",
+					"ft": "drösliði"
+				},
+				"þátíð": {
+					"et": "dröslaðirðu",
+					"ft": "drösluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dröslast",
+		"sagnbót": "dröslast",
+		"boðháttur": {
+			"et": "dröslastu",
+			"ft": "dröslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dröslast", "dröslast", "dröslast"],
+					"ft": ["dröslumst", "dröslist", "dröslast"]
+				},
+				"þátíð": {
+					"et": ["dröslaðist", "dröslaðist", "dröslaðist"],
+					"ft": ["drösluðumst", "drösluðust", "drösluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dröslist", "dröslist", "dröslist"],
+					"ft": ["dröslumst", "dröslist", "dröslist"]
+				},
+				"þátíð": {
+					"et": ["dröslaðist", "dröslaðist", "dröslaðist"],
+					"ft": ["drösluðumst", "drösluðust", "drösluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dröslastu"
+				},
+				"þátíð": {
+					"et": "dröslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dröslistu"
+				},
+				"þátíð": {
+					"et": "dröslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dröslandi"
+	},
+	"kennistrengur": "so-drösla",
+	"hash": "8d8ca9a501697e5989e4f1139198681836e71053a56938905f079ea85125cc97"
+}
