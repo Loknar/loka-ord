@@ -1,0 +1,31 @@
+{
+	"orð": "greiðslumiðlunarstarfsemi",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "miðlunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-miðlun-kvk"
+		},
+		{
+			"mynd": "starf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"kennistrengur": "no-semi-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["greiðslumiðlunarstarfsemi", "greiðslumiðlunarstarfsemi", "greiðslumiðlunarstarfsemi", "greiðslumiðlunarstarfsemi"],
+		"mg": ["greiðslumiðlunarstarfsemin", "greiðslumiðlunarstarfsemina", "greiðslumiðlunarstarfseminni", "greiðslumiðlunarstarfseminnar"]
+	},
+	"kennistrengur": "no-greiðslumiðlunarstarfsemi-kvk",
+	"hash": "29ba235a23b10d9f551ccabc29524c7deccb50a83c812ab43d849238a7fca2b2"
+}

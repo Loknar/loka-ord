@@ -1,0 +1,42 @@
+{
+	"orð": "smásölugreiðslufyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "smá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-smár"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["smásölugreiðslufyrirkomulag", "smásölugreiðslufyrirkomulag", "smásölugreiðslufyrirkomulagi", "smásölugreiðslufyrirkomulags"],
+		"mg": ["smásölugreiðslufyrirkomulagið", "smásölugreiðslufyrirkomulagið", "smásölugreiðslufyrirkomulaginu", "smásölugreiðslufyrirkomulagsins"]
+	},
+	"kennistrengur": "no-smásölugreiðslufyrirkomulag-hk",
+	"hash": "4dcae83eef1f8397e8fce7164939b7cef28d3aec9f2d2b32021c9988d68b7566"
+}

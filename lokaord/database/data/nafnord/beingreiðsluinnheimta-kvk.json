@@ -1,0 +1,35 @@
+{
+	"orð": "beingreiðsluinnheimta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bein",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-beinn"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"kennistrengur": "no-heimta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["beingreiðsluinnheimta", "beingreiðsluinnheimtu", "beingreiðsluinnheimtu", "beingreiðsluinnheimtu"],
+		"mg": ["beingreiðsluinnheimtan", "beingreiðsluinnheimtuna", "beingreiðsluinnheimtunni", "beingreiðsluinnheimtunnar"]
+	},
+	"ft": {
+		"ág": ["beingreiðsluinnheimtur", "beingreiðsluinnheimtur", "beingreiðsluinnheimtum", "beingreiðsluinnheimta"],
+		"mg": ["beingreiðsluinnheimturnar", "beingreiðsluinnheimturnar", "beingreiðsluinnheimtunum", "beingreiðsluinnheimtanna"]
+	},
+	"kennistrengur": "no-beingreiðsluinnheimta-kvk",
+	"hash": "385aa7489aec26a61138400d063be4a81dad8dce3d56804385ae73462584fa4e"
+}

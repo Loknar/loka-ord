@@ -1,0 +1,135 @@
+{
+	"orð": "greiðslujafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-jafna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "greiðslujafna",
+		"sagnbót": "greiðslujafnað",
+		"boðháttur": {
+			"stýfður": "greiðslujafna",
+			"et": "greiðslujafnaðu",
+			"ft": "greiðslujafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greiðslujafna", "greiðslujafnar", "greiðslujafnar"],
+					"ft": ["greiðslujöfnum", "greiðslujafnið", "greiðslujafna"]
+				},
+				"þátíð": {
+					"et": ["greiðslujafnaði", "greiðslujafnaðir", "greiðslujafnaði"],
+					"ft": ["greiðslujöfnuðum", "greiðslujöfnuðuð", "greiðslujöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greiðslujafni", "greiðslujafnir", "greiðslujafni"],
+					"ft": ["greiðslujöfnum", "greiðslujafnið", "greiðslujafni"]
+				},
+				"þátíð": {
+					"et": ["greiðslujafnaði", "greiðslujafnaðir", "greiðslujafnaði"],
+					"ft": ["greiðslujöfnuðum", "greiðslujöfnuðuð", "greiðslujöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greiðslujafnarðu",
+					"ft": "greiðslujafniði"
+				},
+				"þátíð": {
+					"et": "greiðslujafnaðirðu",
+					"ft": "greiðslujöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greiðslujafnirðu",
+					"ft": "greiðslujafniði"
+				},
+				"þátíð": {
+					"et": "greiðslujafnaðirðu",
+					"ft": "greiðslujöfnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "greiðslujafnast",
+		"sagnbót": "greiðslujafnast",
+		"boðháttur": {
+			"et": "greiðslujafnastu",
+			"ft": "greiðslujafnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greiðslujafnast", "greiðslujafnast", "greiðslujafnast"],
+					"ft": ["greiðslujöfnumst", "greiðslujafnist", "greiðslujafnast"]
+				},
+				"þátíð": {
+					"et": ["greiðslujafnaðist", "greiðslujafnaðist", "greiðslujafnaðist"],
+					"ft": ["greiðslujöfnuðumst", "greiðslujöfnuðust", "greiðslujöfnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greiðslujafnist", "greiðslujafnist", "greiðslujafnist"],
+					"ft": ["greiðslujöfnumst", "greiðslujafnist", "greiðslujafnist"]
+				},
+				"þátíð": {
+					"et": ["greiðslujafnaðist", "greiðslujafnaðist", "greiðslujafnaðist"],
+					"ft": ["greiðslujöfnuðumst", "greiðslujöfnuðust", "greiðslujöfnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greiðslujafnastu"
+				},
+				"þátíð": {
+					"et": "greiðslujafnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greiðslujafnistu"
+				},
+				"þátíð": {
+					"et": "greiðslujafnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "greiðslujafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["greiðslujafnaður", "greiðslujafnaðan", "greiðslujöfnuðum", "greiðslujafnaðs"],
+					"kvk": ["greiðslujöfnuð", "greiðslujafnaða", "greiðslujafnaðri", "greiðslujafnaðrar"],
+					"hk": ["greiðslujafnað", "greiðslujafnað", "greiðslujöfnuðu", "greiðslujafnaðs"]
+				},
+				"ft": {
+					"kk": ["greiðslujafnaðir", "greiðslujafnaða", "greiðslujöfnuðum", "greiðslujafnaðra"],
+					"kvk": ["greiðslujafnaðar", "greiðslujafnaðar", "greiðslujöfnuðum", "greiðslujafnaðra"],
+					"hk": ["greiðslujöfnuð", "greiðslujöfnuð", "greiðslujöfnuðum", "greiðslujafnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-greiðslujafna",
+	"hash": "31d4070e61f8400b724606dbcc9a833e864d445819ab6e08c3030c6b53bcd87f"
+}

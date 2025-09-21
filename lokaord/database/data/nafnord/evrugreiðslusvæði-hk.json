@@ -1,0 +1,30 @@
+{
+	"orð": "evrugreiðslusvæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "evru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-evra-kvk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-svæði-hk"
+		}
+	],
+	"et": {
+		"ág": ["evrugreiðslusvæði", "evrugreiðslusvæði", "evrugreiðslusvæði", "evrugreiðslusvæðis"],
+		"mg": ["evrugreiðslusvæðið", "evrugreiðslusvæðið", "evrugreiðslusvæðinu", "evrugreiðslusvæðisins"]
+	},
+	"ft": {
+		"ág": ["evrugreiðslusvæði", "evrugreiðslusvæði", "evrugreiðslusvæðum", "evrugreiðslusvæða"],
+		"mg": ["evrugreiðslusvæðin", "evrugreiðslusvæðin", "evrugreiðslusvæðunum", "evrugreiðslusvæðanna"]
+	},
+	"kennistrengur": "no-evrugreiðslusvæði-hk",
+	"hash": "afb75f1128a22a1f995e5c9e386815b1d6a9b321c933408c9660df8c8af469ce"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "greiðslukerfisgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "kerfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kerfi-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["greiðslukerfisgögn", "greiðslukerfisgögn", "greiðslukerfisgögnum", "greiðslukerfisgagna"],
+		"mg": ["greiðslukerfisgögnin", "greiðslukerfisgögnin", "greiðslukerfisgögnunum", "greiðslukerfisgagnanna"]
+	},
+	"kennistrengur": "no-greiðslukerfisgögn-hk",
+	"hash": "286898273aaf6c37a1f95fa64e807cdc5433bff666263e5f1976e2064623453c"
+}
