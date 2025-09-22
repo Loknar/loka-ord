@@ -1,0 +1,35 @@
+{
+	"orð": "langtímaskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lang",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-langur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["langtímaskuldbinding", "langtímaskuldbindingu", "langtímaskuldbindingu", "langtímaskuldbindingar"],
+		"mg": ["langtímaskuldbindingin", "langtímaskuldbindinguna", "langtímaskuldbindingunni", "langtímaskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["langtímaskuldbindingar", "langtímaskuldbindingar", "langtímaskuldbindingum", "langtímaskuldbindinga"],
+		"mg": ["langtímaskuldbindingarnar", "langtímaskuldbindingarnar", "langtímaskuldbindingunum", "langtímaskuldbindinganna"]
+	},
+	"kennistrengur": "no-langtímaskuldbinding-kvk",
+	"hash": "6a26e422cbbdf99a1278216970d04a8a610ccadce2c3749a76ff9bdfa667f538"
+}

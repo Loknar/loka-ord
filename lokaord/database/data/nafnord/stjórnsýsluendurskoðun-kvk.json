@@ -1,0 +1,35 @@
+{
+	"orð": "stjórnsýsluendurskoðun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"kennistrengur": "no-skoðun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnsýsluendurskoðun", "stjórnsýsluendurskoðun", "stjórnsýsluendurskoðun", "stjórnsýsluendurskoðunar"],
+		"mg": ["stjórnsýsluendurskoðunin", "stjórnsýsluendurskoðunina", "stjórnsýsluendurskoðuninni", "stjórnsýsluendurskoðunarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnsýsluendurskoðanir", "stjórnsýsluendurskoðanir", "stjórnsýsluendurskoðunum", "stjórnsýsluendurskoðana"],
+		"mg": ["stjórnsýsluendurskoðanirnar", "stjórnsýsluendurskoðanirnar", "stjórnsýsluendurskoðununum", "stjórnsýsluendurskoðananna"]
+	},
+	"kennistrengur": "no-stjórnsýsluendurskoðun-kvk",
+	"hash": "46d810a927fa1d708dd1af187fe28c927603bd3d4de17390bdf3d636acbd01c6"
+}

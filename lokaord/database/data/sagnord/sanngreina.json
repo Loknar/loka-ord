@@ -1,0 +1,98 @@
+{
+	"orð": "sanngreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sann",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sannur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sanngreina",
+		"sagnbót": "sanngreint",
+		"boðháttur": {
+			"stýfður": "sanngrein",
+			"et": "sanngreindu",
+			"ft": "sanngreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sanngreini", "sanngreinir", "sanngreinir"],
+					"ft": ["sanngreinum", "sanngreinið", "sanngreina"]
+				},
+				"þátíð": {
+					"et": ["sanngreindi", "sanngreindir", "sanngreindi"],
+					"ft": ["sanngreindum", "sanngreinduð", "sanngreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sanngreini", "sanngreinir", "sanngreini"],
+					"ft": ["sanngreinum", "sanngreinið", "sanngreini"]
+				},
+				"þátíð": {
+					"et": ["sanngreindi", "sanngreindir", "sanngreindi"],
+					"ft": ["sanngreindum", "sanngreinduð", "sanngreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sanngreinirðu",
+					"ft": "sanngreiniði"
+				},
+				"þátíð": {
+					"et": "sanngreindirðu",
+					"ft": "sanngreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sanngreinirðu",
+					"ft": "sanngreiniði"
+				},
+				"þátíð": {
+					"et": "sanngreindirðu",
+					"ft": "sanngreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sanngreindur", "sanngreindan", "sanngreindum", "sanngreinds"],
+					"kvk": ["sanngreind", "sanngreinda", "sanngreindri", "sanngreindrar"],
+					"hk": ["sanngreint", "sanngreint", "sanngreindu", "sanngreinds"]
+				},
+				"ft": {
+					"kk": ["sanngreindir", "sanngreinda", "sanngreindum", "sanngreindra"],
+					"kvk": ["sanngreindar", "sanngreindar", "sanngreindum", "sanngreindra"],
+					"hk": ["sanngreind", "sanngreind", "sanngreindum", "sanngreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sanngreindi", "sanngreinda", "sanngreinda", "sanngreinda"],
+					"kvk": ["sanngreinda", "sanngreindu", "sanngreindu", "sanngreindu"],
+					"hk": ["sanngreinda", "sanngreinda", "sanngreinda", "sanngreinda"]
+				},
+				"ft": {
+					"kk": ["sanngreindu", "sanngreindu", "sanngreindu", "sanngreindu"],
+					"kvk": ["sanngreindu", "sanngreindu", "sanngreindu", "sanngreindu"],
+					"hk": ["sanngreindu", "sanngreindu", "sanngreindu", "sanngreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sanngreina",
+	"hash": "3616303caf79ed075e719423de535f7c8a3b1fbce3c9c34613793550327d82cf"
+}

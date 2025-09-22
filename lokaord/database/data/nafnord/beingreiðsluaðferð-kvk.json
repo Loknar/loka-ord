@@ -1,0 +1,35 @@
+{
+	"orð": "beingreiðsluaðferð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bein",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-beinn"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"kennistrengur": "no-ferð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["beingreiðsluaðferð", "beingreiðsluaðferð", "beingreiðsluaðferð", "beingreiðsluaðferðar"],
+		"mg": ["beingreiðsluaðferðin", "beingreiðsluaðferðina", "beingreiðsluaðferðinni", "beingreiðsluaðferðarinnar"]
+	},
+	"ft": {
+		"ág": ["beingreiðsluaðferðir", "beingreiðsluaðferðir", "beingreiðsluaðferðum", "beingreiðsluaðferða"],
+		"mg": ["beingreiðsluaðferðirnar", "beingreiðsluaðferðirnar", "beingreiðsluaðferðunum", "beingreiðsluaðferðanna"]
+	},
+	"kennistrengur": "no-beingreiðsluaðferð-kvk",
+	"hash": "5bf05cd72ff12a01943c955d838ba7cfaa5189a2f6711cffd156fdde00fe8703"
+}

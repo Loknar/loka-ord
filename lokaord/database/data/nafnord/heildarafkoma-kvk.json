@@ -1,0 +1,27 @@
+{
+	"orð": "heildarafkoma",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-koma-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarafkoma", "heildarafkomu", "heildarafkomu", "heildarafkomu"],
+		"mg": ["heildarafkoman", "heildarafkomuna", "heildarafkomunni", "heildarafkomunnar"]
+	},
+	"kennistrengur": "no-heildarafkoma-kvk",
+	"hash": "a1134cbf2259e0b23339511e8c50242155257156479bffd62ab0c16327a9397b"
+}

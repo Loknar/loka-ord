@@ -1,0 +1,35 @@
+{
+	"orð": "skuldareigandaauðkenni",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skuldar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "eiganda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eigandi-kk"
+		},
+		{
+			"mynd": "auð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-auður-kk"
+		},
+		{
+			"kennistrengur": "no-kenni-hk"
+		}
+	],
+	"et": {
+		"ág": ["skuldareigandaauðkenni", "skuldareigandaauðkenni", "skuldareigandaauðkenni", "skuldareigandaauðkennis"],
+		"mg": ["skuldareigandaauðkennið", "skuldareigandaauðkennið", "skuldareigandaauðkenninu", "skuldareigandaauðkennisins"]
+	},
+	"ft": {
+		"ág": ["skuldareigandaauðkenni", "skuldareigandaauðkenni", "skuldareigandaauðkennum", "skuldareigandaauðkenna"],
+		"mg": ["skuldareigandaauðkennin", "skuldareigandaauðkennin", "skuldareigandaauðkennunum", "skuldareigandaauðkennanna"]
+	},
+	"kennistrengur": "no-skuldareigandaauðkenni-hk",
+	"hash": "eb68a8dca48b5d328034efa26d8c237fae0e2311c4f1df86cfb019cb7c7d5f08"
+}

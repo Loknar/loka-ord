@@ -1,0 +1,35 @@
+{
+	"orð": "skammtímaskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skammtímaskuldbinding", "skammtímaskuldbindingu", "skammtímaskuldbindingu", "skammtímaskuldbindingar"],
+		"mg": ["skammtímaskuldbindingin", "skammtímaskuldbindinguna", "skammtímaskuldbindingunni", "skammtímaskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["skammtímaskuldbindingar", "skammtímaskuldbindingar", "skammtímaskuldbindingum", "skammtímaskuldbindinga"],
+		"mg": ["skammtímaskuldbindingarnar", "skammtímaskuldbindingarnar", "skammtímaskuldbindingunum", "skammtímaskuldbindinganna"]
+	},
+	"kennistrengur": "no-skammtímaskuldbinding-kvk",
+	"hash": "3d4f48f7c279d23ebe7089c3e66e50ec90fb33c9fbd459ae58b9df7bb411b89c"
+}

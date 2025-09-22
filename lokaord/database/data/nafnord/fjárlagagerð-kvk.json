@@ -1,0 +1,27 @@
+{
+	"orð": "fjárlagagerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "laga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárlagagerð", "fjárlagagerð", "fjárlagagerð", "fjárlagagerðar"],
+		"mg": ["fjárlagagerðin", "fjárlagagerðina", "fjárlagagerðinni", "fjárlagagerðarinnar"]
+	},
+	"kennistrengur": "no-fjárlagagerð-kvk",
+	"hash": "aea79ad54c225355ba2d9410c36103fad749a8718e76ce50ba1f2acbdc6b2295"
+}

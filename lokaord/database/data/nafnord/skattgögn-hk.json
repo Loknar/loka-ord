@@ -1,0 +1,22 @@
+{
+	"orð": "skattgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["skattgögn", "skattgögn", "skattgögnum", "skattgagna"],
+		"mg": ["skattgögnin", "skattgögnin", "skattgögnunum", "skattgagnanna"]
+	},
+	"kennistrengur": "no-skattgögn-hk",
+	"hash": "d657ed552de53ecda32357dbaeea7f577e8c4a5ba1e34dd91ac39d7f50828e28"
+}
