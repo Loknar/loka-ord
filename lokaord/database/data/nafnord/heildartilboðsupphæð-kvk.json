@@ -1,0 +1,30 @@
+{
+	"orð": "heildartilboðsupphæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "tilboðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tilboð-hk"
+		},
+		{
+			"kennistrengur": "no-upphæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildartilboðsupphæð", "heildartilboðsupphæð", "heildartilboðsupphæð", "heildartilboðsupphæðar"],
+		"mg": ["heildartilboðsupphæðin", "heildartilboðsupphæðina", "heildartilboðsupphæðinni", "heildartilboðsupphæðarinnar"]
+	},
+	"ft": {
+		"ág": ["heildartilboðsupphæðir", "heildartilboðsupphæðir", "heildartilboðsupphæðum", "heildartilboðsupphæða"],
+		"mg": ["heildartilboðsupphæðirnar", "heildartilboðsupphæðirnar", "heildartilboðsupphæðunum", "heildartilboðsupphæðanna"]
+	},
+	"kennistrengur": "no-heildartilboðsupphæð-kvk",
+	"hash": "9383ad25aa8c444a8d287ee1340c26da718dbd4b4d82e6c9d5460402b4c37f79"
+}

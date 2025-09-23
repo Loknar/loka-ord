@@ -1,0 +1,30 @@
+{
+	"orð": "húsaleigugjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["húsaleigugjald", "húsaleigugjald", "húsaleigugjaldi", "húsaleigugjalds"],
+		"mg": ["húsaleigugjaldið", "húsaleigugjaldið", "húsaleigugjaldinu", "húsaleigugjaldsins"]
+	},
+	"ft": {
+		"ág": ["húsaleigugjöld", "húsaleigugjöld", "húsaleigugjöldum", "húsaleigugjalda"],
+		"mg": ["húsaleigugjöldin", "húsaleigugjöldin", "húsaleigugjöldunum", "húsaleigugjaldanna"]
+	},
+	"kennistrengur": "no-húsaleigugjald-hk",
+	"hash": "0505ef71c2c387b0926cb30c69f9a75aad91723830806735024558357c86cae8"
+}

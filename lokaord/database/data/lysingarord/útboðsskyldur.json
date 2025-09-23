@@ -1,0 +1,48 @@
+{
+	"orð": "útboðsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["útboðsskyldur", "útboðsskyldan", "útboðsskyldum", "útboðsskylds"],
+				"kvk": ["útboðsskyld", "útboðsskylda", "útboðsskyldri", "útboðsskyldrar"],
+				"hk": ["útboðsskylt", "útboðsskylt", "útboðsskyldu", "útboðsskylds"]
+			},
+			"ft": {
+				"kk": ["útboðsskyldir", "útboðsskylda", "útboðsskyldum", "útboðsskyldra"],
+				"kvk": ["útboðsskyldar", "útboðsskyldar", "útboðsskyldum", "útboðsskyldra"],
+				"hk": ["útboðsskyld", "útboðsskyld", "útboðsskyldum", "útboðsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["útboðsskyldi", "útboðsskylda", "útboðsskylda", "útboðsskylda"],
+				"kvk": ["útboðsskylda", "útboðsskyldu", "útboðsskyldu", "útboðsskyldu"],
+				"hk": ["útboðsskylda", "útboðsskylda", "útboðsskylda", "útboðsskylda"]
+			},
+			"ft": {
+				"kk": ["útboðsskyldu", "útboðsskyldu", "útboðsskyldu", "útboðsskyldu"],
+				"kvk": ["útboðsskyldu", "útboðsskyldu", "útboðsskyldu", "útboðsskyldu"],
+				"hk": ["útboðsskyldu", "útboðsskyldu", "útboðsskyldu", "útboðsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-útboðsskyldur",
+	"hash": "01b9c4bb48234ff794c1cf65ba47ec3f58436d2a84986a665da55d1cc5295bb7"
+}

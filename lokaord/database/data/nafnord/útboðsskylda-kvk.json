@@ -1,0 +1,27 @@
+{
+	"orð": "útboðsskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["útboðsskylda", "útboðsskyldu", "útboðsskyldu", "útboðsskyldu"],
+		"mg": ["útboðsskyldan", "útboðsskylduna", "útboðsskyldunni", "útboðsskyldunnar"]
+	},
+	"kennistrengur": "no-útboðsskylda-kvk",
+	"hash": "346a33d79b57b3ca5ba02e5f1e4e36d4b5924adfba459b372cbeb6c04a37b15d"
+}

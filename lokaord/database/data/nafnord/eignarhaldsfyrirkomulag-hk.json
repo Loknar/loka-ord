@@ -1,0 +1,37 @@
+{
+	"orð": "eignarhaldsfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["eignarhaldsfyrirkomulag", "eignarhaldsfyrirkomulag", "eignarhaldsfyrirkomulagi", "eignarhaldsfyrirkomulags"],
+		"mg": ["eignarhaldsfyrirkomulagið", "eignarhaldsfyrirkomulagið", "eignarhaldsfyrirkomulaginu", "eignarhaldsfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-eignarhaldsfyrirkomulag-hk",
+	"hash": "a2ffefe30046567e0721e7b3757caa10d8ee24a4b3cbf0bbdcfe0e454f779e7c"
+}

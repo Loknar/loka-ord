@@ -1,0 +1,27 @@
+{
+	"orð": "uppbyggingarþörf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þörf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["uppbyggingarþörf", "uppbyggingarþörf", "uppbyggingarþörf", "uppbyggingarþarfar"],
+		"mg": ["uppbyggingarþörfin", "uppbyggingarþörfina", "uppbyggingarþörfinni", "uppbyggingarþarfarinnar"]
+	},
+	"kennistrengur": "no-uppbyggingarþörf-kvk",
+	"hash": "b8666285fe3f55870eee11c5efce3ab4606f8c80c9d37a8100c6906d9481499e"
+}

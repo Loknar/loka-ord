@@ -1,0 +1,35 @@
+{
+	"orð": "heildarsamningsfjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "samnings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-samningur-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarsamningsfjárhæð", "heildarsamningsfjárhæð", "heildarsamningsfjárhæð", "heildarsamningsfjárhæðar"],
+		"mg": ["heildarsamningsfjárhæðin", "heildarsamningsfjárhæðina", "heildarsamningsfjárhæðinni", "heildarsamningsfjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["heildarsamningsfjárhæðir", "heildarsamningsfjárhæðir", "heildarsamningsfjárhæðum", "heildarsamningsfjárhæða"],
+		"mg": ["heildarsamningsfjárhæðirnar", "heildarsamningsfjárhæðirnar", "heildarsamningsfjárhæðunum", "heildarsamningsfjárhæðanna"]
+	},
+	"kennistrengur": "no-heildarsamningsfjárhæð-kvk",
+	"hash": "668bbe9cba9a875dec595529f4a02ead9ca6328481e79e698188d25d3ec8cd7e"
+}

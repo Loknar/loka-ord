@@ -1,0 +1,48 @@
+{
+	"orð": "sannprófanlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sann",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sannur"
+		},
+		{
+			"mynd": "prófan",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-prófa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sannprófanlegur", "sannprófanlegan", "sannprófanlegum", "sannprófanlegs"],
+				"kvk": ["sannprófanleg", "sannprófanlega", "sannprófanlegri", "sannprófanlegrar"],
+				"hk": ["sannprófanlegt", "sannprófanlegt", "sannprófanlegu", "sannprófanlegs"]
+			},
+			"ft": {
+				"kk": ["sannprófanlegir", "sannprófanlega", "sannprófanlegum", "sannprófanlegra"],
+				"kvk": ["sannprófanlegar", "sannprófanlegar", "sannprófanlegum", "sannprófanlegra"],
+				"hk": ["sannprófanleg", "sannprófanleg", "sannprófanlegum", "sannprófanlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sannprófanlegi", "sannprófanlega", "sannprófanlega", "sannprófanlega"],
+				"kvk": ["sannprófanlega", "sannprófanlegu", "sannprófanlegu", "sannprófanlegu"],
+				"hk": ["sannprófanlega", "sannprófanlega", "sannprófanlega", "sannprófanlega"]
+			},
+			"ft": {
+				"kk": ["sannprófanlegu", "sannprófanlegu", "sannprófanlegu", "sannprófanlegu"],
+				"kvk": ["sannprófanlegu", "sannprófanlegu", "sannprófanlegu", "sannprófanlegu"],
+				"hk": ["sannprófanlegu", "sannprófanlegu", "sannprófanlegu", "sannprófanlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sannprófanlegur",
+	"hash": "6020cce4aeb1b7f0db37034fd60afa9235efb1e95c5e9aaaae05d5739b1a1bae"
+}

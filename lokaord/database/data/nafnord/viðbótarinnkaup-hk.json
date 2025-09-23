@@ -1,0 +1,27 @@
+{
+	"orð": "viðbótarinnkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["viðbótarinnkaup", "viðbótarinnkaup", "viðbótarinnkaupum", "viðbótarinnkaupa"],
+		"mg": ["viðbótarinnkaupin", "viðbótarinnkaupin", "viðbótarinnkaupunum", "viðbótarinnkaupanna"]
+	},
+	"kennistrengur": "no-viðbótarinnkaup-hk",
+	"hash": "f6ded86881d2789dd6f9b184c5e1dd2826772bed6b84716109bf32966040d2cb"
+}

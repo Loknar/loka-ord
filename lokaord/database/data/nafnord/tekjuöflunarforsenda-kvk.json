@@ -1,0 +1,35 @@
+{
+	"orð": "tekjuöflunarforsenda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tekju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tekja-kvk"
+		},
+		{
+			"mynd": "öflunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öflun-kvk"
+		},
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"kennistrengur": "no-senda-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["tekjuöflunarforsenda", "tekjuöflunarforsendu", "tekjuöflunarforsendu", "tekjuöflunarforsendu"],
+		"mg": ["tekjuöflunarforsendan", "tekjuöflunarforsenduna", "tekjuöflunarforsendunni", "tekjuöflunarforsendunnar"]
+	},
+	"ft": {
+		"ág": ["tekjuöflunarforsendur", "tekjuöflunarforsendur", "tekjuöflunarforsendum", "tekjuöflunarforsendna"],
+		"mg": ["tekjuöflunarforsendurnar", "tekjuöflunarforsendurnar", "tekjuöflunarforsendunum", "tekjuöflunarforsendnanna"]
+	},
+	"kennistrengur": "no-tekjuöflunarforsenda-kvk",
+	"hash": "359eb4f64e38368ba3b426f997c36b542b620b78de96ac63ab7008a17eb53df0"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "fjáröflunarvinna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "öflunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öflun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjáröflunarvinna", "fjáröflunarvinnu", "fjáröflunarvinnu", "fjáröflunarvinnu"],
+		"mg": ["fjáröflunarvinnan", "fjáröflunarvinnuna", "fjáröflunarvinnunni", "fjáröflunarvinnunnar"]
+	},
+	"kennistrengur": "no-fjáröflunarvinna-kvk",
+	"hash": "5d0ee06ce10d657413add3273479d7cce79406cb9c9aa10806074b940b7d7425"
+}

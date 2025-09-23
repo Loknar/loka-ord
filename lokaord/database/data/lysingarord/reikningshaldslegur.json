@@ -1,0 +1,48 @@
+{
+	"orð": "reikningshaldslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "reiknings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["reikningshaldslegur", "reikningshaldslegan", "reikningshaldslegum", "reikningshaldslegs"],
+				"kvk": ["reikningshaldsleg", "reikningshaldslega", "reikningshaldslegri", "reikningshaldslegrar"],
+				"hk": ["reikningshaldslegt", "reikningshaldslegt", "reikningshaldslegu", "reikningshaldslegs"]
+			},
+			"ft": {
+				"kk": ["reikningshaldslegir", "reikningshaldslega", "reikningshaldslegum", "reikningshaldslegra"],
+				"kvk": ["reikningshaldslegar", "reikningshaldslegar", "reikningshaldslegum", "reikningshaldslegra"],
+				"hk": ["reikningshaldsleg", "reikningshaldsleg", "reikningshaldslegum", "reikningshaldslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["reikningshaldslegi", "reikningshaldslega", "reikningshaldslega", "reikningshaldslega"],
+				"kvk": ["reikningshaldslega", "reikningshaldslegu", "reikningshaldslegu", "reikningshaldslegu"],
+				"hk": ["reikningshaldslega", "reikningshaldslega", "reikningshaldslega", "reikningshaldslega"]
+			},
+			"ft": {
+				"kk": ["reikningshaldslegu", "reikningshaldslegu", "reikningshaldslegu", "reikningshaldslegu"],
+				"kvk": ["reikningshaldslegu", "reikningshaldslegu", "reikningshaldslegu", "reikningshaldslegu"],
+				"hk": ["reikningshaldslegu", "reikningshaldslegu", "reikningshaldslegu", "reikningshaldslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-reikningshaldslegur",
+	"hash": "19c5c27066ff1b92f521b98f30141ab6dc7eab6cbee45ba1861ae5374a5aa684"
+}

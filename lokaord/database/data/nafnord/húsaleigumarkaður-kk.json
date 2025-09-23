@@ -1,0 +1,30 @@
+{
+	"orð": "húsaleigumarkaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-markaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["húsaleigumarkaður", "húsaleigumarkað", "húsaleigumarkaði", "húsaleigumarkaðar"],
+		"mg": ["húsaleigumarkaðurinn", "húsaleigumarkaðinn", "húsaleigumarkaðinum", "húsaleigumarkaðarins"]
+	},
+	"ft": {
+		"ág": ["húsaleigumarkaðir", "húsaleigumarkaði", "húsaleigumörkuðum", "húsaleigumarkaða"],
+		"mg": ["húsaleigumarkaðirnir", "húsaleigumarkaðina", "húsaleigumörkuðunum", "húsaleigumarkaðanna"]
+	},
+	"kennistrengur": "no-húsaleigumarkaður-kk",
+	"hash": "6b7d251c28e695b224042458c2bac1116cb06f524b21a815b8974e4c7da6ac4b"
+}

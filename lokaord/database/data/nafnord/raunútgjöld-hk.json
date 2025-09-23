@@ -1,0 +1,27 @@
+{
+	"orð": "raunútgjöld",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raun-kvk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"ft": {
+		"ág": ["raunútgjöld", "raunútgjöld", "raunútgjöldum", "raunútgjalda"],
+		"mg": ["raunútgjöldin", "raunútgjöldin", "raunútgjöldunum", "raunútgjaldanna"]
+	},
+	"kennistrengur": "no-raunútgjöld-hk",
+	"hash": "a87e1269f477faa13ffc5e76120319da71c062c31a265efbd56f16b0fad0c125"
+}

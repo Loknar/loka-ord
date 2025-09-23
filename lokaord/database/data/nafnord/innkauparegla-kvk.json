@@ -1,0 +1,30 @@
+{
+	"orð": "innkauparegla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "kaupa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"kennistrengur": "no-regla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["innkauparegla", "innkaupareglu", "innkaupareglu", "innkaupareglu"],
+		"mg": ["innkaupareglan", "innkauparegluna", "innkaupareglunni", "innkaupareglunnar"]
+	},
+	"ft": {
+		"ág": ["innkaupareglur", "innkaupareglur", "innkaupareglum", "innkaupareglna"],
+		"mg": ["innkaupareglurnar", "innkaupareglurnar", "innkaupareglunum", "innkaupareglnanna"]
+	},
+	"kennistrengur": "no-innkauparegla-kvk",
+	"hash": "c3fc873ec7369be2a595d5a2bcefadb9bbe2e93ae35dc006b3f8c02e5e68a2c8"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "heildarinnkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarinnkaup", "heildarinnkaup", "heildarinnkaupum", "heildarinnkaupa"],
+		"mg": ["heildarinnkaupin", "heildarinnkaupin", "heildarinnkaupunum", "heildarinnkaupanna"]
+	},
+	"kennistrengur": "no-heildarinnkaup-hk",
+	"hash": "4f53b99154fb4bc362266f2d6954bfbce2485380673e5f548ad3d17c2ef567ca"
+}

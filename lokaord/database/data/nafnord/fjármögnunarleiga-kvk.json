@@ -1,0 +1,30 @@
+{
+	"orð": "fjármögnunarleiga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mögnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mögnun-kvk"
+		},
+		{
+			"kennistrengur": "no-leiga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármögnunarleiga", "fjármögnunarleigu", "fjármögnunarleigu", "fjármögnunarleigu"],
+		"mg": ["fjármögnunarleigan", "fjármögnunarleiguna", "fjármögnunarleigunni", "fjármögnunarleigunnar"]
+	},
+	"ft": {
+		"ág": ["fjármögnunarleigur", "fjármögnunarleigur", "fjármögnunarleigum", "fjármögnunarleiga"],
+		"mg": ["fjármögnunarleigurnar", "fjármögnunarleigurnar", "fjármögnunarleigunum", "fjármögnunarleiganna"]
+	},
+	"kennistrengur": "no-fjármögnunarleiga-kvk",
+	"hash": "0448121042b8740a643f9a1dd2b3668382c37ac55be258f116e980fd16102079"
+}

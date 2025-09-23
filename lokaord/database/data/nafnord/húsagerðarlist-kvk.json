@@ -1,0 +1,27 @@
+{
+	"orð": "húsagerðarlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "gerðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gerð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["húsagerðarlist", "húsagerðarlist", "húsagerðarlist", "húsagerðarlistar"],
+		"mg": ["húsagerðarlistin", "húsagerðarlistina", "húsagerðarlistinni", "húsagerðarlistarinnar"]
+	},
+	"kennistrengur": "no-húsagerðarlist-kvk",
+	"hash": "63bc28a8187703a0d8ccee832c294809ec49781a86ac1bb8eaf82cfa889246dd"
+}

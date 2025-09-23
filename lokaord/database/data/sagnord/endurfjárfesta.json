@@ -13,7 +13,7 @@
 			"kennistrengur": "no-fé-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-festa"
 		}
 	],
@@ -71,8 +71,22 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "endurfjárfestandi"
+		"nútíðar": "endurfjárfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurfjárfestur", "endurfjárfestan", "endurfjárfestum", "endurfjárfests"],
+					"kvk": ["endurfjárfest", "endurfjárfesta", "endurfjárfestri", "endurfjárfestrar"],
+					"hk": ["endurfjárfest", "endurfjárfest", "endurfjárfestu", "endurfjárfests"]
+				},
+				"ft": {
+					"kk": ["endurfjárfestir", "endurfjárfesta", "endurfjárfestum", "endurfjárfestra"],
+					"kvk": ["endurfjárfestar", "endurfjárfestar", "endurfjárfestum", "endurfjárfestra"],
+					"hk": ["endurfjárfest", "endurfjárfest", "endurfjárfestum", "endurfjárfestra"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-endurfjárfesta",
-	"hash": "465d33c9269fabf05488ff877726109035a3f008e7c7998912231b7e017e6304"
+	"hash": "77fa8a3c53d41d3ad5b9cb9f65785492e3bdf7a1093c07bb85756f69631465ca"
 }

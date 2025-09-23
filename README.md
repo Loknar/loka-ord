@@ -6,26 +6,26 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1732 | 1606 | 1493 | 4831 | 10643 | 13620 | 15706 | 39969 | **44800** |
-| **Lýsingarorð** | 401 |   |   |   | 731 |   |   |   | 4429 | **5160** |
-| **Sagnorð**     |   |   |   |   | 1277 |   |   |   | 1554 | **2831** |
+| **Nafnorð**     |   | 1732 | 1606 | 1494 | 4832 | 10689 | 13719 | 15782 | 40190 | **45022** |
+| **Lýsingarorð** | 403 |   |   |   | 731 |   |   |   | 4445 | **5176** |
+| **Sagnorð**     |   |   |   |   | 1277 |   |   |   | 1555 | **2832** |
 | **Töluorð**     |   |   |   |   | 43 |   |   |   | 61 | **104** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 16 | **54** |
 | **Smáorð**      |   |   |   |   | 341 |   |   |   | 523 | **864** |
-| **Alls** |   |   |   |   | **7262** |   |   |   | **46552** | **53814** |
+| **Alls** |   |   |   |   | **7263** |   |   |   | **46790** | **54053** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 1309 | 1263 | 14 | 2586 | 998 | 1271 | 10 | 2279 | **4865** |
-| Kenninöfn |  |  |  |  | 4777 | 4775 | 4753 | 14305 | **14305** |
+| Eiginnöfn | 1310 | 1267 | 14 | 2591 | 998 | 1273 | 10 | 2281 | **4872** |
+| Kenninöfn |  |  |  |  | 4784 | 4782 | 4760 | 14326 | **14326** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **897** |
 | Gælunöfn  | 275 | 127 | 3 | 405 | 137 | 139 | 8 | 284 | **689** |
 | Örnefni   | 29 | 138 | 278 | 445 | 1916 | 1396 | 1423 | 4735 | **5180** |
-| **Alls**  |   |   |   | **4172** |   |   |   | **21764** | **25936** |
+| **Alls**  |   |   |   | **4177** |   |   |   | **21787** | **25964** |
 
-**Samtals:** 79750 orð.
+**Samtals:** 80017 orð.
 
-563 skammstafanir.
+564 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -208,5 +208,7 @@ Orð sem bætt er í grunninn heyra undir almenningseignarleyfi verkefnisins og 
 ## Viðhaldari (Maintainer)
 
 Hæ, og takk ef þú last svona langt. Ég hef lagt grunn að **lokaorð** orðagrunninum og gef hann hér út undir LGPLv3 leyfi. Leyfið vel ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En samhliða óska ég þess að hverjar þær breytingar á virkni, gögnum eða gagnastrúktúr orðagrunnsins séu gefnar út undir sama LGPLv3 leyfi, svo að viðbætur eða breytingar eins notanda geti gagnast öðrum notendum sem grunninn nota.
+
+Orðið er frjálst.
 
 [@Loknar](https://github.com/Loknar)

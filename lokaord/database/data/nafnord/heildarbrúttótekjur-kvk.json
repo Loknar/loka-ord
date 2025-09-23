@@ -1,0 +1,27 @@
+{
+	"orð": "heildarbrúttótekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "brúttó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-brúttó"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarbrúttótekjur", "heildarbrúttótekjur", "heildarbrúttótekjum", "heildarbrúttótekna"],
+		"mg": ["heildarbrúttótekjurnar", "heildarbrúttótekjurnar", "heildarbrúttótekjunum", "heildarbrúttóteknanna"]
+	},
+	"kennistrengur": "no-heildarbrúttótekjur-kvk",
+	"hash": "260be50c882e47b641cd10d640544f58a6f6ae76f2a669877ac96bb91eec4fa0"
+}

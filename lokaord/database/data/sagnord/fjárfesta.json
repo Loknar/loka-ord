@@ -8,7 +8,7 @@
 			"kennistrengur": "no-fé-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-festa"
 		}
 	],
@@ -66,8 +66,22 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "fjárfestandi"
+		"nútíðar": "fjárfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fjárfestur", "fjárfestan", "fjárfestum", "fjárfests"],
+					"kvk": ["fjárfest", "fjárfesta", "fjárfestri", "fjárfestrar"],
+					"hk": ["fjárfest", "fjárfest", "fjárfestu", "fjárfests"]
+				},
+				"ft": {
+					"kk": ["fjárfestir", "fjárfesta", "fjárfestum", "fjárfestra"],
+					"kvk": ["fjárfestar", "fjárfestar", "fjárfestum", "fjárfestra"],
+					"hk": ["fjárfest", "fjárfest", "fjárfestum", "fjárfestra"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-fjárfesta",
-	"hash": "c9ae09abc672852e54cc9ecda5a6164a8ae5fc2040b27fb649c47a4fb3d8c98b"
+	"hash": "8ba039c757f97eb12677d41dc9c8004b05dd1abfb2dfc2f21c2658825e618c36"
 }

@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarksársvelta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "árs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-velta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksársvelta", "lágmarksársveltu", "lágmarksársveltu", "lágmarksársveltu"],
+		"mg": ["lágmarksársveltan", "lágmarksársveltuna", "lágmarksársveltunni", "lágmarksársveltunnar"]
+	},
+	"kennistrengur": "no-lágmarksársvelta-kvk",
+	"hash": "74963821114077b714529eb066a0c6693216298c65c2cb216320ac19822d5a8a"
+}

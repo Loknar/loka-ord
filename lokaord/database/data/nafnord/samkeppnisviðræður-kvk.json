@@ -1,0 +1,32 @@
+{
+	"orð": "samkeppnisviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "keppnis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-keppni-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["samkeppnisviðræður", "samkeppnisviðræður", "samkeppnisviðræðum", "samkeppnisviðræðna"],
+		"mg": ["samkeppnisviðræðurnar", "samkeppnisviðræðurnar", "samkeppnisviðræðunum", "samkeppnisviðræðnanna"]
+	},
+	"kennistrengur": "no-samkeppnisviðræður-kvk",
+	"hash": "e9f09fd1d3941b6b92557174e17b3421a89a189014db2f031fe7664dcba004bf"
+}
