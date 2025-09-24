@@ -1,0 +1,48 @@
+{
+	"orð": "skattaréttarlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skatta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "réttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skattaréttarlegur", "skattaréttarlegan", "skattaréttarlegum", "skattaréttarlegs"],
+				"kvk": ["skattaréttarleg", "skattaréttarlega", "skattaréttarlegri", "skattaréttarlegrar"],
+				"hk": ["skattaréttarlegt", "skattaréttarlegt", "skattaréttarlegu", "skattaréttarlegs"]
+			},
+			"ft": {
+				"kk": ["skattaréttarlegir", "skattaréttarlega", "skattaréttarlegum", "skattaréttarlegra"],
+				"kvk": ["skattaréttarlegar", "skattaréttarlegar", "skattaréttarlegum", "skattaréttarlegra"],
+				"hk": ["skattaréttarleg", "skattaréttarleg", "skattaréttarlegum", "skattaréttarlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skattaréttarlegi", "skattaréttarlega", "skattaréttarlega", "skattaréttarlega"],
+				"kvk": ["skattaréttarlega", "skattaréttarlegu", "skattaréttarlegu", "skattaréttarlegu"],
+				"hk": ["skattaréttarlega", "skattaréttarlega", "skattaréttarlega", "skattaréttarlega"]
+			},
+			"ft": {
+				"kk": ["skattaréttarlegu", "skattaréttarlegu", "skattaréttarlegu", "skattaréttarlegu"],
+				"kvk": ["skattaréttarlegu", "skattaréttarlegu", "skattaréttarlegu", "skattaréttarlegu"],
+				"hk": ["skattaréttarlegu", "skattaréttarlegu", "skattaréttarlegu", "skattaréttarlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skattaréttarlegur",
+	"hash": "bb82c94d76881eb90783b781ffd711362cbfc971731e267e0bd2bc639dad48e6"
+}

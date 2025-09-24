@@ -1,0 +1,32 @@
+{
+	"orð": "meirihlutaeignarhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "meiri",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-mikiłl"
+		},
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hluti-kk"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["meirihlutaeignarhald", "meirihlutaeignarhald", "meirihlutaeignarhaldi", "meirihlutaeignarhalds"],
+		"mg": ["meirihlutaeignarhaldið", "meirihlutaeignarhaldið", "meirihlutaeignarhaldinu", "meirihlutaeignarhaldsins"]
+	},
+	"kennistrengur": "no-meirihlutaeignarhald-hk",
+	"hash": "a26f7ce519e25b94866008cca3b4838f078d06b4e7378b7bf3929e5f8145c9df"
+}

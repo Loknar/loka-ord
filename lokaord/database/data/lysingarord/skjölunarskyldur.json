@@ -1,0 +1,43 @@
+{
+	"orð": "skjölunarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skjölunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skjölun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skjölunarskyldur", "skjölunarskyldan", "skjölunarskyldum", "skjölunarskylds"],
+				"kvk": ["skjölunarskyld", "skjölunarskylda", "skjölunarskyldri", "skjölunarskyldrar"],
+				"hk": ["skjölunarskylt", "skjölunarskylt", "skjölunarskyldu", "skjölunarskylds"]
+			},
+			"ft": {
+				"kk": ["skjölunarskyldir", "skjölunarskylda", "skjölunarskyldum", "skjölunarskyldra"],
+				"kvk": ["skjölunarskyldar", "skjölunarskyldar", "skjölunarskyldum", "skjölunarskyldra"],
+				"hk": ["skjölunarskyld", "skjölunarskyld", "skjölunarskyldum", "skjölunarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skjölunarskyldi", "skjölunarskylda", "skjölunarskylda", "skjölunarskylda"],
+				"kvk": ["skjölunarskylda", "skjölunarskyldu", "skjölunarskyldu", "skjölunarskyldu"],
+				"hk": ["skjölunarskylda", "skjölunarskylda", "skjölunarskylda", "skjölunarskylda"]
+			},
+			"ft": {
+				"kk": ["skjölunarskyldu", "skjölunarskyldu", "skjölunarskyldu", "skjölunarskyldu"],
+				"kvk": ["skjölunarskyldu", "skjölunarskyldu", "skjölunarskyldu", "skjölunarskyldu"],
+				"hk": ["skjölunarskyldu", "skjölunarskyldu", "skjölunarskyldu", "skjölunarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skjölunarskyldur",
+	"hash": "8d5ec51a3c542e9224a1d44e706191bf0c680279cc39e269928d5181dc832b8e"
+}

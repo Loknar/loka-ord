@@ -1,0 +1,32 @@
+{
+	"orð": "minnihlutaeignarhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "minni",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lítiłl"
+		},
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hluti-kk"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["minnihlutaeignarhald", "minnihlutaeignarhald", "minnihlutaeignarhaldi", "minnihlutaeignarhalds"],
+		"mg": ["minnihlutaeignarhaldið", "minnihlutaeignarhaldið", "minnihlutaeignarhaldinu", "minnihlutaeignarhaldsins"]
+	},
+	"kennistrengur": "no-minnihlutaeignarhald-hk",
+	"hash": "dd20e291e0eef81d6cc471fce3e6410ea9f92134c7173bf451adc597b1b216e5"
+}

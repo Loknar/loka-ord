@@ -1,0 +1,30 @@
+{
+	"orð": "hlutdeildartekja",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "deildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-deild-kvk"
+		},
+		{
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hlutdeildartekja", "hlutdeildartekju", "hlutdeildartekju", "hlutdeildartekju"],
+		"mg": ["hlutdeildartekjan", "hlutdeildartekjuna", "hlutdeildartekjunni", "hlutdeildartekjunnar"]
+	},
+	"ft": {
+		"ág": ["hlutdeildartekjur", "hlutdeildartekjur", "hlutdeildartekjum", "hlutdeildartekna"],
+		"mg": ["hlutdeildartekjurnar", "hlutdeildartekjurnar", "hlutdeildartekjunum", "hlutdeildarteknanna"]
+	},
+	"kennistrengur": "no-hlutdeildartekja-kvk",
+	"hash": "1c6acbc9ac5130dd1a30dac0fbb8969c6fcdff5f32080bf21723961ba1908b9b"
+}

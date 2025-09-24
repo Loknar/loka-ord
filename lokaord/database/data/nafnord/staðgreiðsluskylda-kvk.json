@@ -14,7 +14,6 @@
 			"kennistrengur": "no-greiðsla-kvk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-skylda-kvk"
 		}
 	],
@@ -22,6 +21,10 @@
 		"ág": ["staðgreiðsluskylda", "staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu"],
 		"mg": ["staðgreiðsluskyldan", "staðgreiðsluskylduna", "staðgreiðsluskyldunni", "staðgreiðsluskyldunnar"]
 	},
+	"ft": {
+		"ág": ["staðgreiðsluskyldur", "staðgreiðsluskyldur", "staðgreiðsluskyldum", "staðgreiðsluskyldna"],
+		"mg": ["staðgreiðsluskyldurnar", "staðgreiðsluskyldurnar", "staðgreiðsluskyldunum", "staðgreiðsluskyldnanna"]
+	},
 	"kennistrengur": "no-staðgreiðsluskylda-kvk",
-	"hash": "ada2dd0137090776e2096046c1ac3f2292f0d7dc279157a09d2f7459aa1c7fea"
+	"hash": "5bbeceb27b6ead59785c7e6d9e8d72965e982dc7f18a049d9b678efef408c471"
 }

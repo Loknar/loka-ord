@@ -1,0 +1,35 @@
+{
+	"orð": "lágmarksendurgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksendurgjald", "lágmarksendurgjald", "lágmarksendurgjaldi", "lágmarksendurgjalds"],
+		"mg": ["lágmarksendurgjaldið", "lágmarksendurgjaldið", "lágmarksendurgjaldinu", "lágmarksendurgjaldsins"]
+	},
+	"ft": {
+		"ág": ["lágmarksendurgjöld", "lágmarksendurgjöld", "lágmarksendurgjöldum", "lágmarksendurgjalda"],
+		"mg": ["lágmarksendurgjöldin", "lágmarksendurgjöldin", "lágmarksendurgjöldunum", "lágmarksendurgjaldanna"]
+	},
+	"kennistrengur": "no-lágmarksendurgjald-hk",
+	"hash": "8b72bbe1c119d3f2495758e5285f1023f76e0b404bab84836005050b73060810"
+}
