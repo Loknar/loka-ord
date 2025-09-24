@@ -1,0 +1,30 @@
+{
+	"orð": "tímabilsgreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "bils",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bil-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tímabilsgreiðsla", "tímabilsgreiðslu", "tímabilsgreiðslu", "tímabilsgreiðslu"],
+		"mg": ["tímabilsgreiðslan", "tímabilsgreiðsluna", "tímabilsgreiðslunni", "tímabilsgreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["tímabilsgreiðslur", "tímabilsgreiðslur", "tímabilsgreiðslum", "tímabilsgreiðslna"],
+		"mg": ["tímabilsgreiðslurnar", "tímabilsgreiðslurnar", "tímabilsgreiðslunum", "tímabilsgreiðslnanna"]
+	},
+	"kennistrengur": "no-tímabilsgreiðsla-kvk",
+	"hash": "6973706a124722df6b75a31a7b2f3887c9c40be388c3b57fa3b0c2950adf4771"
+}

@@ -1,0 +1,131 @@
+{
+	"orð": "útskipta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skipta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útskipta",
+		"sagnbót": "útskipt",
+		"boðháttur": {
+			"stýfður": "útskipt",
+			"et": "útskiptu",
+			"ft": "útskiptið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskipti", "útskiptir", "útskiptir"],
+					"ft": ["útskiptum", "útskiptið", "útskipta"]
+				},
+				"þátíð": {
+					"et": ["útskipti", "útskiptir", "útskipti"],
+					"ft": ["útskiptum", "útskiptuð", "útskiptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskipti", "útskiptir", "útskipti"],
+					"ft": ["útskiptum", "útskiptið", "útskipti"]
+				},
+				"þátíð": {
+					"et": ["útskipti", "útskiptir", "útskipti"],
+					"ft": ["útskiptum", "útskiptuð", "útskiptu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskiptirðu",
+					"ft": "útskiptiði"
+				},
+				"þátíð": {
+					"et": "útskiptirðu",
+					"ft": "útskiptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskiptirðu",
+					"ft": "útskiptiði"
+				},
+				"þátíð": {
+					"et": "útskiptirðu",
+					"ft": "útskiptuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útskiptast",
+		"sagnbót": "útskipst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útskiptist", "útskiptist", "útskiptist"],
+					"ft": ["útskiptumst", "útskiptist", "útskiptast"]
+				},
+				"þátíð": {
+					"et": ["útskiptist", "útskiptist", "útskiptist"],
+					"ft": ["útskiptumst", "útskiptust", "útskiptust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útskiptist", "útskiptist", "útskiptist"],
+					"ft": ["útskiptumst", "útskiptist", "útskiptist"]
+				},
+				"þátíð": {
+					"et": ["útskiptist", "útskiptist", "útskiptist"],
+					"ft": ["útskiptumst", "útskiptust", "útskiptust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útskiptistu"
+				},
+				"þátíð": {
+					"et": "útskiptistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útskiptistu"
+				},
+				"þátíð": {
+					"et": "útskiptistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útskiptandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útskiptur", "útskiptan", "útskiptum", "útskipts"],
+					"kvk": ["útskipt", "útskipta", "útskiptri", "útskiptrar"],
+					"hk": ["útgert", "útgert", "útskiptu", "útskipts"]
+				},
+				"ft": {
+					"kk": ["útskiptir", "útskipta", "útskiptum", "útskiptra"],
+					"kvk": ["útskiptar", "útskiptar", "útskiptum", "útskiptra"],
+					"hk": ["útskipt", "útskipt", "útskiptum", "útskiptra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útskipta",
+	"hash": "9ba66e4cab3aed09c28d3552e82debc2c319dd2c6859e87c8381b6760cdae14c"
+}

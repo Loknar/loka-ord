@@ -1,0 +1,30 @@
+{
+	"orð": "kaupleiguíbúð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-íbúð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kaupleiguíbúð", "kaupleiguíbúð", "kaupleiguíbúð", "kaupleiguíbúðar"],
+		"mg": ["kaupleiguíbúðin", "kaupleiguíbúðina", "kaupleiguíbúðinni", "kaupleiguíbúðarinnar"]
+	},
+	"ft": {
+		"ág": ["kaupleiguíbúðir", "kaupleiguíbúðir", "kaupleiguíbúðum", "kaupleiguíbúða"],
+		"mg": ["kaupleiguíbúðirnar", "kaupleiguíbúðirnar", "kaupleiguíbúðunum", "kaupleiguíbúðanna"]
+	},
+	"kennistrengur": "no-kaupleiguíbúð-kvk",
+	"hash": "7f305ceae2e1b8fb0fbbd10d27130a23b134f2e428fc54e25aca62772f6dab34"
+}

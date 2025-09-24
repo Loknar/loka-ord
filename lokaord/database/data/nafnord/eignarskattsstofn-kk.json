@@ -1,0 +1,30 @@
+{
+	"orð": "eignarskattsstofn",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-stofn-kk"
+		}
+	],
+	"et": {
+		"ág": ["eignarskattsstofn", "eignarskattsstofn", "eignarskattsstofni", "eignarskattsstofns"],
+		"mg": ["eignarskattsstofninn", "eignarskattsstofninn", "eignarskattsstofninum", "eignarskattsstofnsins"]
+	},
+	"ft": {
+		"ág": ["eignarskattsstofnar", "eignarskattsstofna", "eignarskattsstofnum", "eignarskattsstofna"],
+		"mg": ["eignarskattsstofnarnir", "eignarskattsstofnana", "eignarskattsstofnunum", "eignarskattsstofnanna"]
+	},
+	"kennistrengur": "no-eignarskattsstofn-kk",
+	"hash": "6690b5ef5c2e8ccf079ca9d3ede00e6f4d9dc179562b195491638fe86e3f0c2e"
+}

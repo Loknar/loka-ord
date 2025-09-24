@@ -1,0 +1,30 @@
+{
+	"orð": "auðlegðarskattsálagning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "auðlegðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-auðlegð-kvk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-álagning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["auðlegðarskattsálagning", "auðlegðarskattsálagningu", "auðlegðarskattsálagningu", "auðlegðarskattsálagningar"],
+		"mg": ["auðlegðarskattsálagningin", "auðlegðarskattsálagninguna", "auðlegðarskattsálagningunni", "auðlegðarskattsálagningarinnar"]
+	},
+	"ft": {
+		"ág": ["auðlegðarskattsálagningar", "auðlegðarskattsálagningar", "auðlegðarskattsálagningum", "auðlegðarskattsálagninga"],
+		"mg": ["auðlegðarskattsálagningarnar", "auðlegðarskattsálagningarnar", "auðlegðarskattsálagningunum", "auðlegðarskattsálagninganna"]
+	},
+	"kennistrengur": "no-auðlegðarskattsálagning-kvk",
+	"hash": "2a335a22ca6c36baacd59bbfc7c6295c54ad66eb1288d4550dcb4df5e3a399a7"
+}

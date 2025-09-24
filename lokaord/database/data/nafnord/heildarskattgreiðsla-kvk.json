@@ -1,0 +1,30 @@
+{
+	"orð": "heildarskattgreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarskattgreiðsla", "heildarskattgreiðslu", "heildarskattgreiðslu", "heildarskattgreiðslu"],
+		"mg": ["heildarskattgreiðslan", "heildarskattgreiðsluna", "heildarskattgreiðslunni", "heildarskattgreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["heildarskattgreiðslur", "heildarskattgreiðslur", "heildarskattgreiðslum", "heildarskattgreiðslna"],
+		"mg": ["heildarskattgreiðslurnar", "heildarskattgreiðslurnar", "heildarskattgreiðslunum", "heildarskattgreiðslnanna"]
+	},
+	"kennistrengur": "no-heildarskattgreiðsla-kvk",
+	"hash": "05cf3044d9be7d88d955986344f7d64686fc72b1b6ac98bcc34aa3d05d249183"
+}

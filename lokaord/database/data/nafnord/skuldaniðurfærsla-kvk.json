@@ -1,0 +1,30 @@
+{
+	"orð": "skuldaniðurfærsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "niður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-niður"
+		},
+		{
+			"kennistrengur": "no-færsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaniðurfærsla", "skuldaniðurfærslu", "skuldaniðurfærslu", "skuldaniðurfærslu"],
+		"mg": ["skuldaniðurfærslan", "skuldaniðurfærsluna", "skuldaniðurfærslunni", "skuldaniðurfærslunnar"]
+	},
+	"ft": {
+		"ág": ["skuldaniðurfærslur", "skuldaniðurfærslur", "skuldaniðurfærslum", "skuldaniðurfærslna"],
+		"mg": ["skuldaniðurfærslurnar", "skuldaniðurfærslurnar", "skuldaniðurfærslunum", "skuldaniðurfærslnanna"]
+	},
+	"kennistrengur": "no-skuldaniðurfærsla-kvk",
+	"hash": "be1c7546646956f863ea23d47e8031b3daa2950f8fabea3fa4c11d848d8777e9"
+}

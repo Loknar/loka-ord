@@ -1,0 +1,30 @@
+{
+	"orð": "skuldaaðlögun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"kennistrengur": "no-lögun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaaðlögun", "skuldaaðlögun", "skuldaaðlögun", "skuldaaðlögunar"],
+		"mg": ["skuldaaðlögunin", "skuldaaðlögunina", "skuldaaðlöguninni", "skuldaaðlögunarinnar"]
+	},
+	"ft": {
+		"ág": ["skuldaaðlaganir", "skuldaaðlaganir", "skuldaaðlögunum", "skuldaaðlagana"],
+		"mg": ["skuldaaðlaganirnar", "skuldaaðlaganirnar", "skuldaaðlögununum", "skuldaaðlagananna"]
+	},
+	"kennistrengur": "no-skuldaaðlögun-kvk",
+	"hash": "4a6a4a9d13da56cdea798794ebfd9330af868f60633c9bb73cde5fa15bdbe291"
+}

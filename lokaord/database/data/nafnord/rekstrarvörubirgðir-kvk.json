@@ -1,0 +1,27 @@
+{
+	"orð": "rekstrarvörubirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["rekstrarvörubirgðir", "rekstrarvörubirgðir", "rekstrarvörubirgðum", "rekstrarvörubirgða"],
+		"mg": ["rekstrarvörubirgðirnar", "rekstrarvörubirgðirnar", "rekstrarvörubirgðunum", "rekstrarvörubirgðanna"]
+	},
+	"kennistrengur": "no-rekstrarvörubirgðir-kvk",
+	"hash": "d99782f35e46da9a4e6dee473dfc80fca88667afc07ffa4eec383693f8915275"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "birgðabókhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "birgða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birgð-kvk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["birgðabókhald", "birgðabókhald", "birgðabókhaldi", "birgðabókhalds"],
+		"mg": ["birgðabókhaldið", "birgðabókhaldið", "birgðabókhaldinu", "birgðabókhaldsins"]
+	},
+	"kennistrengur": "no-birgðabókhald-hk",
+	"hash": "3d462341566e892f2b2f2e818a56a6533e1dffeea1a3beaf17fd23a428275c91"
+}

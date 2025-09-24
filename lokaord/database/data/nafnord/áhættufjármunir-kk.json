@@ -1,0 +1,27 @@
+{
+	"orð": "áhættufjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "áhættu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-áhætta-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["áhættufjármunir", "áhættufjármuni", "áhættufjármunum", "áhættufjármuna"],
+		"mg": ["áhættufjármunirnir", "áhættufjármunina", "áhættufjármununum", "áhættufjármunanna"]
+	},
+	"kennistrengur": "no-áhættufjármunir-kk",
+	"hash": "22444ffd00ea5a74da2b5f8781ae5c7bbdad0e3d2abbde0686aecf425e8e0ed1"
+}

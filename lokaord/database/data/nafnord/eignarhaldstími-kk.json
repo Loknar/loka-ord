@@ -1,0 +1,27 @@
+{
+	"orð": "eignarhaldstími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["eignarhaldstími", "eignarhaldstíma", "eignarhaldstíma", "eignarhaldstíma"],
+		"mg": ["eignarhaldstíminn", "eignarhaldstímann", "eignarhaldstímanum", "eignarhaldstímans"]
+	},
+	"kennistrengur": "no-eignarhaldstími-kk",
+	"hash": "6cc233f2d1636aa0ee869c05e1e979659d7b65e05f5932b524d2dbaea0cf4898"
+}

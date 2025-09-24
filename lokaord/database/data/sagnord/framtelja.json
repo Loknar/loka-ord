@@ -1,0 +1,99 @@
+{
+	"orð": "framtelja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-telja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framtelja",
+		"sagnbót": "framtalið",
+		"boðháttur": {
+			"stýfður": "framtel",
+			"et": "framteldu",
+			"ft": "framteljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framtel", "framtelur", "framtelur"],
+					"ft": ["framteljum", "framteljið", "framtelja"]
+				},
+				"þátíð": {
+					"et": ["framtaldi", "framtaldir", "framtaldi"],
+					"ft": ["framtöldum", "framtölduð", "framtöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framtelji", "framteljir", "framtelji"],
+					"ft": ["framteljum", "framteljið", "framtelji"]
+				},
+				"þátíð": {
+					"et": ["framteldi", "framteldir", "framteldi"],
+					"ft": ["framteldum", "framtelduð", "framteldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framtelurðu",
+					"ft": "framteljiði"
+				},
+				"þátíð": {
+					"et": "framtaldirðu",
+					"ft": "framtölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framteljirðu",
+					"ft": "framteljiði"
+				},
+				"þátíð": {
+					"et": "framteldirðu",
+					"ft": "framtelduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framteljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framtalinn", "framtalinn", "framtöldum", "framtalins"],
+					"kvk": ["framtalin", "framtalda", "framtaldri", "framtaldrar"],
+					"hk": ["framtalið", "framtalið", "framtöldu", "framtalins"]
+				},
+				"ft": {
+					"kk": ["framtaldir", "framtalda", "framtöldum", "framtalinna"],
+					"kvk": ["framtaldar", "framtaldar", "framtöldum", "framtalinna"],
+					"hk": ["framtalin", "framtalin", "framtöldum", "framtalinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framtaldi", "framtalda", "framtalda", "framtalda"],
+					"kvk": ["framtalda", "framtöldu", "framtöldu", "framtöldu"],
+					"hk": ["framtalda", "framtalda", "framtalda", "framtalda"]
+				},
+				"ft": {
+					"kk": ["framtöldu", "framtöldu", "framtöldu", "framtöldu"],
+					"kvk": ["framtöldu", "framtöldu", "framtöldu", "framtöldu"],
+					"hk": ["framtöldu", "framtöldu", "framtöldu", "framtöldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framtelja",
+	"hash": "4aa2e0773017bfe959257d91cb544920e94051fdd3984fd5f34443d51e4bd2fd"
+}

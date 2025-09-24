@@ -1,0 +1,87 @@
+{
+	"orð": "eftirgefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gefa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eftirgefa",
+		"sagnbót": "eftirgefið",
+		"boðháttur": {
+			"stýfður": "eftirgef",
+			"et": "eftirgefðu",
+			"ft": "eftirgefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eftirgef", "eftirgefur", "eftirgefur"],
+					"ft": ["eftirgefum", "eftirgefið", "eftirgefa"]
+				},
+				"þátíð": {
+					"et": ["eftirgaf", "eftirgafst", "eftirgaf"],
+					"ft": ["eftirgáfum", "eftirgáfuð", "eftirgáfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eftirgefi", "eftirgefir", "eftirgefi"],
+					"ft": ["eftirgefum", "eftirgefið", "eftirgefi"]
+				},
+				"þátíð": {
+					"et": ["eftirgæfi", "eftirgæfir", "eftirgæfi"],
+					"ft": ["eftirgæfum", "eftirgæfuð", "eftirgæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eftirgefurðu",
+					"ft": "eftirgefiði"
+				},
+				"þátíð": {
+					"et": "eftirgafstu",
+					"ft": "eftirgáfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eftirgefirðu",
+					"ft": "eftirgefiði"
+				},
+				"þátíð": {
+					"et": "eftirgæfirðu",
+					"ft": "eftirgæfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eftirgefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eftirgefinn", "eftirgefinn", "eftirgefnum", "eftirgefins"],
+					"kvk": ["eftirgefin", "eftirgefna", "eftirgefinni", "eftirgefinnar"],
+					"hk": ["eftirgefið", "eftirgefið", "eftirgefnu", "eftirgefins"]
+				},
+				"ft": {
+					"kk": ["eftirgefnir", "eftirgefna", "eftirgefnum", "eftirgefinna"],
+					"kvk": ["eftirgefnar", "eftirgefnar", "eftirgefnum", "eftirgefinna"],
+					"hk": ["eftirgefin", "eftirgefin", "eftirgefnum", "eftirgefinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eftirgefa",
+	"hash": "20f33ed94d69f3e4bed90a46b016c7aed8cac29c4bb92b55038af80b165b1dde"
+}

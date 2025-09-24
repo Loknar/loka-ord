@@ -1,0 +1,30 @@
+{
+	"orð": "hlutdeildarsjóður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "deildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-deild-kvk"
+		},
+		{
+			"kennistrengur": "no-sjóður-kk"
+		}
+	],
+	"et": {
+		"ág": ["hlutdeildarsjóður", "hlutdeildarsjóð", "hlutdeildarsjóði", "hlutdeildarsjóðs"],
+		"mg": ["hlutdeildarsjóðurinn", "hlutdeildarsjóðinn", "hlutdeildarsjóðnum", "hlutdeildarsjóðsins"]
+	},
+	"ft": {
+		"ág": ["hlutdeildarsjóðir", "hlutdeildarsjóði", "hlutdeildarsjóðum", "hlutdeildarsjóða"],
+		"mg": ["hlutdeildarsjóðirnir", "hlutdeildarsjóðina", "hlutdeildarsjóðunum", "hlutdeildarsjóðanna"]
+	},
+	"kennistrengur": "no-hlutdeildarsjóður-kk",
+	"hash": "c26ecb969a3012d6e494d85b2feb7ad81ba4522d6012228bfd66fc58cd80a145"
+}

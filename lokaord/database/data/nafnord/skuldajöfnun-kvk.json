@@ -1,0 +1,22 @@
+{
+	"orð": "skuldajöfnun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-jöfnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldajöfnun", "skuldajöfnun", "skuldajöfnun", "skuldajöfnunar"],
+		"mg": ["skuldajöfnunin", "skuldajöfnunina", "skuldajöfnuninni", "skuldajöfnunarinnar"]
+	},
+	"kennistrengur": "no-skuldajöfnun-kvk",
+	"hash": "01381796a02e2c7fc968e7aca309c4bd4202f0dd5224ed581ff467c5e77c2ae5"
+}

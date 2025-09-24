@@ -1,0 +1,99 @@
+{
+	"orð": "eignatengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-tengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eignatengja",
+		"sagnbót": "eignatengt",
+		"boðháttur": {
+			"stýfður": "eignateng",
+			"et": "eignatengdu",
+			"ft": "eignatengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eignatengi", "eignatengir", "eignatengir"],
+					"ft": ["eignatengjum", "eignatengið", "eignatengja"]
+				},
+				"þátíð": {
+					"et": ["eignatengdi", "eignatengdir", "eignatengdi"],
+					"ft": ["eignatengdum", "eignatengduð", "eignatengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eignatengi", "eignatengir", "eignatengi"],
+					"ft": ["eignatengjum", "eignatengið", "eignatengi"]
+				},
+				"þátíð": {
+					"et": ["eignatengdi", "eignatengdir", "eignatengdi"],
+					"ft": ["eignatengdum", "eignatengduð", "eignatengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eignatengirðu",
+					"ft": "eignatengiði"
+				},
+				"þátíð": {
+					"et": "eignatengdirðu",
+					"ft": "eignatengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eignatengirðu",
+					"ft": "eignatengiði"
+				},
+				"þátíð": {
+					"et": "eignatengdirðu",
+					"ft": "eignatengduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eignatengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eignatengdur", "eignatengdan", "eignatengdum", "eignatengds"],
+					"kvk": ["eignatengd", "eignatengda", "eignatengdri", "eignatengdrar"],
+					"hk": ["eignatengt", "eignatengt", "eignatengdu", "eignatengds"]
+				},
+				"ft": {
+					"kk": ["eignatengdir", "eignatengda", "eignatengdum", "eignatengdra"],
+					"kvk": ["eignatengdar", "eignatengdar", "eignatengdum", "eignatengdra"],
+					"hk": ["eignatengd", "eignatengd", "eignatengdum", "eignatengdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["eignatengdi", "eignatengda", "eignatengda", "eignatengda"],
+					"kvk": ["eignatengda", "eignatengdu", "eignatengdu", "eignatengdu"],
+					"hk": ["eignatengda", "eignatengda", "eignatengda", "eignatengda"]
+				},
+				"ft": {
+					"kk": ["eignatengdu", "eignatengdu", "eignatengdu", "eignatengdu"],
+					"kvk": ["eignatengdu", "eignatengdu", "eignatengdu", "eignatengdu"],
+					"hk": ["eignatengdu", "eignatengdu", "eignatengdu", "eignatengdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eignatengja",
+	"hash": "0bd1a7a6b82893993d9ed495d32a658195a83b06600525dab8f4292b66ffa9bc"
+}

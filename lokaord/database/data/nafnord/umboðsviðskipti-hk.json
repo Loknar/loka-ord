@@ -1,0 +1,32 @@
+{
+	"orð": "umboðsviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["umboðsviðskipti", "umboðsviðskipti", "umboðsviðskiptum", "umboðsviðskipta"],
+		"mg": ["umboðsviðskiptin", "umboðsviðskiptin", "umboðsviðskiptunum", "umboðsviðskiptanna"]
+	},
+	"kennistrengur": "no-umboðsviðskipti-hk",
+	"hash": "8ffe3acece7ab903703b8bd92843eb1c830ea7c58c002ea0b51dc70d5da9f9d0"
+}

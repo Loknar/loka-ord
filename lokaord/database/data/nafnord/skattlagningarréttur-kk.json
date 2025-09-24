@@ -1,0 +1,27 @@
+{
+	"orð": "skattlagningarréttur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "lagningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lagning-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-réttur-kk"
+		}
+	],
+	"et": {
+		"ág": ["skattlagningarréttur", "skattlagningarrétt", "skattlagningarrétti", "skattlagningarréttar"],
+		"mg": ["skattlagningarrétturinn", "skattlagningarréttinn", "skattlagningarréttinum", "skattlagningarréttarins"]
+	},
+	"kennistrengur": "no-skattlagningarréttur-kk",
+	"hash": "26674a45635e55422d285c062a18beeb37e91aeb2e19c3f1e879d720897bd2b3"
+}

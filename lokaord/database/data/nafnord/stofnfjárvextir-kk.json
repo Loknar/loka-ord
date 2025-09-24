@@ -1,0 +1,27 @@
+{
+	"orð": "stofnfjárvextir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "stofn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stofn-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-vöxtur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["stofnfjárvextir", "stofnfjárvexti", "stofnfjárvöxtum", "stofnfjárvaxta"],
+		"mg": ["stofnfjárvextirnir", "stofnfjárvextina", "stofnfjárvöxtunum", "stofnfjárvaxtanna"]
+	},
+	"kennistrengur": "no-stofnfjárvextir-kk",
+	"hash": "5ebbce91b7069fa1b3390408bfd1f62caa5380b5fdcd46a48a94c9909295fd08"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "eignarskattsútreikningur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"kennistrengur": "no-reikningur-kk"
+		}
+	],
+	"et": {
+		"ág": ["eignarskattsútreikningur", "eignarskattsútreikning", "eignarskattsútreikningi", "eignarskattsútreiknings"],
+		"mg": ["eignarskattsútreikningurinn", "eignarskattsútreikninginn", "eignarskattsútreikningnum", "eignarskattsútreikningsins"]
+	},
+	"ft": {
+		"ág": ["eignarskattsútreikningar", "eignarskattsútreikninga", "eignarskattsútreikningum", "eignarskattsútreikninga"],
+		"mg": ["eignarskattsútreikningarnir", "eignarskattsútreikningana", "eignarskattsútreikningunum", "eignarskattsútreikninganna"]
+	},
+	"kennistrengur": "no-eignarskattsútreikningur-kk",
+	"hash": "5b795f58e1aaea70c4fedd0c2e6a2b6fc3a11ce2d730e9ddafb0bcdd792ee6ac"
+}

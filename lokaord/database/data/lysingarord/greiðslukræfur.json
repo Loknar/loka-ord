@@ -1,0 +1,43 @@
+{
+	"orð": "greiðslukræfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kræfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["greiðslukræfur", "greiðslukræfan", "greiðslukræfum", "greiðslukræfs"],
+				"kvk": ["greiðslukræf", "greiðslukræfa", "greiðslukræfri", "greiðslukræfrar"],
+				"hk": ["greiðslukræft", "greiðslukræft", "greiðslukræfu", "greiðslukræfs"]
+			},
+			"ft": {
+				"kk": ["greiðslukræfir", "greiðslukræfa", "greiðslukræfum", "greiðslukræfra"],
+				"kvk": ["greiðslukræfar", "greiðslukræfar", "greiðslukræfum", "greiðslukræfra"],
+				"hk": ["greiðslukræf", "greiðslukræf", "greiðslukræfum", "greiðslukræfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["greiðslukræfi", "greiðslukræfa", "greiðslukræfa", "greiðslukræfa"],
+				"kvk": ["greiðslukræfa", "greiðslukræfu", "greiðslukræfu", "greiðslukræfu"],
+				"hk": ["greiðslukræfa", "greiðslukræfa", "greiðslukræfa", "greiðslukræfa"]
+			},
+			"ft": {
+				"kk": ["greiðslukræfu", "greiðslukræfu", "greiðslukræfu", "greiðslukræfu"],
+				"kvk": ["greiðslukræfu", "greiðslukræfu", "greiðslukræfu", "greiðslukræfu"],
+				"hk": ["greiðslukræfu", "greiðslukræfu", "greiðslukræfu", "greiðslukræfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-greiðslukræfur",
+	"hash": "b6855a79210cee11c526d5fda4d50137b15ba1efb5c803f3f97a156584f0e740"
+}

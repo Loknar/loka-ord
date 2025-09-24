@@ -1,0 +1,27 @@
+{
+	"orð": "skýrslugjafarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skýrslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skýrsla-kvk"
+		},
+		{
+			"mynd": "gjafar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjöf-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skýrslugjafarskylda", "skýrslugjafarskyldu", "skýrslugjafarskyldu", "skýrslugjafarskyldu"],
+		"mg": ["skýrslugjafarskyldan", "skýrslugjafarskylduna", "skýrslugjafarskyldunni", "skýrslugjafarskyldunnar"]
+	},
+	"kennistrengur": "no-skýrslugjafarskylda-kvk",
+	"hash": "26e5b2871d1f8136095df40f4e68f77e0aef6fc8551484df900d608af1b25af0"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "húsaleigustyrkur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-styrkur-kk"
+		}
+	],
+	"et": {
+		"ág": ["húsaleigustyrkur", "húsaleigustyrk", "húsaleigustyrk", "húsaleigustyrks"],
+		"mg": ["húsaleigustyrkurinn", "húsaleigustyrkinn", "húsaleigustyrknum", "húsaleigustyrksins"]
+	},
+	"ft": {
+		"ág": ["húsaleigustyrkir", "húsaleigustyrki", "húsaleigustyrkjum", "húsaleigustyrkja"],
+		"mg": ["húsaleigustyrkirnir", "húsaleigustyrkina", "húsaleigustyrkjunum", "húsaleigustyrkjanna"]
+	},
+	"kennistrengur": "no-húsaleigustyrkur-kk",
+	"hash": "09412fc104c5ed2f6bc138f2cabf50c41e2cba6d4b73d1caa092afd2ebaa40b3"
+}
