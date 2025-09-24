@@ -126,7 +126,10 @@ def import_changed_datafiles_to_db():
 	ord_files, skammstofun_files = handlers.Ord.sort_files_skammstafanir_from_ord(files)
 	kjarna_ord, samsett_ord = handlers.Ord.sort_files_to_kjarna_and_samsett_ord(ord_files)
 	# kjarna-orð
-	logman.info('Importing changed or new kjarna orð.')
+	if len(kjarna_ord) == 0:
+		logman.info('No new or changed kjarna orð.')
+	else:
+		logman.info('Importing changed or new kjarna orð.')
 	for kjarna_ord_file in kjarna_ord:
 		logman.info('Orð file "%s"' % (kjarna_ord_file, ))
 		handler = handlers_map[handlers.Ord.load_json(kjarna_ord_file)['flokkur']]
@@ -138,7 +141,10 @@ def import_changed_datafiles_to_db():
 				isl_ord.data.kennistrengur, kjarna_ord_file
 			))
 	# samsett-orð
-	logman.info('Importing changed or new samsett orð.')
+	if len(samsett_ord) == 0:
+		logman.info('No new or changed samsett orð.')
+	else:
+		logman.info('Importing changed or new samsett orð.')
 	for samsett_ord_file in samsett_ord:
 		logman.info('Orð file "%s"' % (samsett_ord_file, ))
 		handler = handlers_map[handlers.Ord.load_json(samsett_ord_file)['flokkur']]
@@ -150,7 +156,10 @@ def import_changed_datafiles_to_db():
 				isl_ord.data.kennistrengur, samsett_ord_file
 			))
 	# skammstafanir
-	logman.info('Importing changed or new skammstafanir.')
+	if len(skammstofun_files) == 0:
+		logman.info('No new or changed skammstafanir.')
+	else:
+		logman.info('Importing changed or new skammstafanir.')
 	for skammstofun_file in skammstofun_files:
 		logman.info('Skammstöfun file "%s"' % (skammstofun_file, ))
 		skammstofun = handlers.Skammstofun()
