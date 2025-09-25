@@ -1,7 +1,7 @@
 colorama==0.4.6; platform_system == 'Windows'
 GitPython==3.1.45
-pointless==1.0.26; platform_system == 'Linux'
-pydantic==2.11.7
-SQLAlchemy==2.0.41
-typer==0.16.0
+pointless==1.0.28; platform_system == 'Linux'
+pydantic==2.11.9
+SQLAlchemy==2.0.43
+typer==0.19.2
 wakepy==0.10.2.post1
