@@ -1,0 +1,35 @@
+{
+	"orð": "heildarsöluverðmæti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-mæti-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarsöluverðmæti", "heildarsöluverðmæti", "heildarsöluverðmæti", "heildarsöluverðmætis"],
+		"mg": ["heildarsöluverðmætið", "heildarsöluverðmætið", "heildarsöluverðmætinu", "heildarsöluverðmætisins"]
+	},
+	"ft": {
+		"ág": ["heildarsöluverðmæti", "heildarsöluverðmæti", "heildarsöluverðmætum", "heildarsöluverðmæta"],
+		"mg": ["heildarsöluverðmætin", "heildarsöluverðmætin", "heildarsöluverðmætunum", "heildarsöluverðmætanna"]
+	},
+	"kennistrengur": "no-heildarsöluverðmæti-hk",
+	"hash": "456e836a744b41592414e11c4c6de6d36bac2c4158be449c4323e4bd5d20a876"
+}

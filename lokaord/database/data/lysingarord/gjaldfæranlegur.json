@@ -1,0 +1,48 @@
+{
+	"orð": "gjaldfæranlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "færan",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-færa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["gjaldfæranlegur", "gjaldfæranlegan", "gjaldfæranlegum", "gjaldfæranlegs"],
+				"kvk": ["gjaldfæranleg", "gjaldfæranlega", "gjaldfæranlegri", "gjaldfæranlegrar"],
+				"hk": ["gjaldfæranlegt", "gjaldfæranlegt", "gjaldfæranlegu", "gjaldfæranlegs"]
+			},
+			"ft": {
+				"kk": ["gjaldfæranlegir", "gjaldfæranlega", "gjaldfæranlegum", "gjaldfæranlegra"],
+				"kvk": ["gjaldfæranlegar", "gjaldfæranlegar", "gjaldfæranlegum", "gjaldfæranlegra"],
+				"hk": ["gjaldfæranleg", "gjaldfæranleg", "gjaldfæranlegum", "gjaldfæranlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gjaldfæranlegi", "gjaldfæranlega", "gjaldfæranlega", "gjaldfæranlega"],
+				"kvk": ["gjaldfæranlega", "gjaldfæranlegu", "gjaldfæranlegu", "gjaldfæranlegu"],
+				"hk": ["gjaldfæranlega", "gjaldfæranlega", "gjaldfæranlega", "gjaldfæranlega"]
+			},
+			"ft": {
+				"kk": ["gjaldfæranlegu", "gjaldfæranlegu", "gjaldfæranlegu", "gjaldfæranlegu"],
+				"kvk": ["gjaldfæranlegu", "gjaldfæranlegu", "gjaldfæranlegu", "gjaldfæranlegu"],
+				"hk": ["gjaldfæranlegu", "gjaldfæranlegu", "gjaldfæranlegu", "gjaldfæranlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-gjaldfæranlegur",
+	"hash": "f6660d34feb769b45fbe5a31e8b1b3c711f8b8ef2edc7fb36a95b45b633a8e7a"
+}

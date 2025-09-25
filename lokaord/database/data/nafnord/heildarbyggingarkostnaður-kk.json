@@ -1,0 +1,26 @@
+{
+	"orð": "heildarbyggingarkostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarbyggingarkostnaður", "heildarbyggingarkostnað", "heildarbyggingarkostnaði", "heildarbyggingarkostnaðar"],
+		"mg": ["heildarbyggingarkostnaðurinn", "heildarbyggingarkostnaðinn", "heildarbyggingarkostnaðinum", "heildarbyggingarkostnaðarins"]
+	},
+	"kennistrengur": "no-heildarbyggingarkostnaður-kk",
+	"hash": "18d16da44a6b5e4ca644573ac9f501ded7646d7ef8234f4fb025fa0c365145bd"
+}

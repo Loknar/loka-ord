@@ -1,0 +1,27 @@
+{
+	"orð": "afborgunartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "borgunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-borgun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["afborgunartími", "afborgunartíma", "afborgunartíma", "afborgunartíma"],
+		"mg": ["afborgunartíminn", "afborgunartímann", "afborgunartímanum", "afborgunartímans"]
+	},
+	"kennistrengur": "no-afborgunartími-kk",
+	"hash": "f9fd988633bac8f1c530a149d3c0e52396188902ee87f7e101aa4e2742b5cdd8"
+}

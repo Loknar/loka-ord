@@ -1,0 +1,35 @@
+{
+	"orð": "séreignarsjóðshluti",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "sjóðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjóður-kk"
+		},
+		{
+			"kennistrengur": "no-hluti-kk"
+		}
+	],
+	"et": {
+		"ág": ["séreignarsjóðshluti", "séreignarsjóðshluta", "séreignarsjóðshluta", "séreignarsjóðshluta"],
+		"mg": ["séreignarsjóðshlutinn", "séreignarsjóðshlutann", "séreignarsjóðshlutanum", "séreignarsjóðshlutans"]
+	},
+	"ft": {
+		"ág": ["séreignarsjóðshlutar", "séreignarsjóðshluta", "séreignarsjóðshlutum", "séreignarsjóðshluta"],
+		"mg": ["séreignarsjóðshlutarnir", "séreignarsjóðshlutana", "séreignarsjóðshlutunum", "séreignarsjóðshlutanna"]
+	},
+	"kennistrengur": "no-séreignarsjóðshluti-kk",
+	"hash": "84a9668050ce8aa3c388f033fb9cca3977e82fdb7d1165cb300ac3423297b2cf"
+}

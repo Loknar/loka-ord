@@ -1,0 +1,27 @@
+{
+	"orð": "heildarleigutekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarleigutekjur", "heildarleigutekjur", "heildarleigutekjum", "heildarleigutekna"],
+		"mg": ["heildarleigutekjurnar", "heildarleigutekjurnar", "heildarleigutekjunum", "heildarleiguteknanna"]
+	},
+	"kennistrengur": "no-heildarleigutekjur-kvk",
+	"hash": "29508383d8850be1647067d973009c2bf6372e1eb9b842682ddd7292664b0d8b"
+}

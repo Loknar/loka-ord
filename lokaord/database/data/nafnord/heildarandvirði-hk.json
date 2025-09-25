@@ -1,0 +1,27 @@
+{
+	"orð": "heildarandvirði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "and",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-and-ó"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-virði-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarandvirði", "heildarandvirði", "heildarandvirði", "heildarandvirðis"],
+		"mg": ["heildarandvirðið", "heildarandvirðið", "heildarandvirðinu", "heildarandvirðisins"]
+	},
+	"kennistrengur": "no-heildarandvirði-hk",
+	"hash": "4ef9125353de4dba5102a1e8c61a36e14ca923b0e9e6b8a8ce488933b1965d7f"
+}

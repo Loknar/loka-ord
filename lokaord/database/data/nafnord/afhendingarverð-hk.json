@@ -1,0 +1,27 @@
+{
+	"orð": "afhendingarverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "hendingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hending-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["afhendingarverð", "afhendingarverð", "afhendingarverði", "afhendingarverðs"],
+		"mg": ["afhendingarverðið", "afhendingarverðið", "afhendingarverðinu", "afhendingarverðsins"]
+	},
+	"kennistrengur": "no-afhendingarverð-hk",
+	"hash": "159b1f2c02e16c1040c8d5798d71bdd60aad3af7b17844842af9e845e64be929"
+}

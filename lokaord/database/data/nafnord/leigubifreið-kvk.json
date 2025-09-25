@@ -1,0 +1,30 @@
+{
+	"orð": "leigubifreið",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "bif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bif-hk"
+		},
+		{
+			"kennistrengur": "no-reið-kvk"
+		}
+	],
+	"et": {
+		"ág": ["leigubifreið", "leigubifreið", "leigubifreið", "leigubifreiðar"],
+		"mg": ["leigubifreiðin", "leigubifreiðina", "leigubifreiðinni", "leigubifreiðarinnar"]
+	},
+	"ft": {
+		"ág": ["leigubifreiðar", "leigubifreiðar", "leigubifreiðum", "leigubifreiða"],
+		"mg": ["leigubifreiðarnar", "leigubifreiðarnar", "leigubifreiðunum", "leigubifreiðanna"]
+	},
+	"kennistrengur": "no-leigubifreið-kvk",
+	"hash": "3aac18dc1116f6f4d4282b90f699e1b70a88da3e29a5d6867045ea0ca5926423"
+}

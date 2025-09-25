@@ -1,0 +1,25 @@
+{
+	"orð": "fjárskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárskuld", "fjárskuld", "fjárskuld", "fjárskuldar"],
+		"mg": ["fjárskuldin", "fjárskuldina", "fjárskuldinni", "fjárskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["fjárskuldir", "fjárskuldir", "fjárskuldum", "fjárskulda"],
+		"mg": ["fjárskuldirnar", "fjárskuldirnar", "fjárskuldunum", "fjárskuldanna"]
+	},
+	"kennistrengur": "no-fjárskuld-kvk",
+	"hash": "c28af1bee3f7cc68a2a95b5333557c690518ab46ea1717e7a14ae25b2b59793d"
+}

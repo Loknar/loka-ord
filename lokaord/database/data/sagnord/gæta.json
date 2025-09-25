@@ -78,8 +78,22 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "gætandi"
+		"nútíðar": "gætandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gættur", "gættan", "gættum", "gætts"],
+					"kvk": ["gætt", "gætta", "gættri", "gættrar"],
+					"hk": ["gætt", "gætt", "gættu", "gætts"]
+				},
+				"ft": {
+					"kk": ["gættir", "gætta", "gættum", "gættra"],
+					"kvk": ["gættar", "gættar", "gættum", "gættra"],
+					"hk": ["gætt", "gætt", "gættum", "gættra"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-gæta",
-	"hash": "cb19824c54fdcc67bc8dcdd30e438d11947fec165a76f880d962e0540e386ac0"
+	"hash": "9d79139b942f7f86890f1f83f2c1973ff3d4d539d97507d6e0421faea5921d5e"
 }

@@ -1,0 +1,70 @@
+{
+	"orð": "fláka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flák",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fláki-kk"
+		},
+		{
+			"beygingar": ["germynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fláka",
+		"sagnbót": "flákað",
+		"boðháttur": {
+			"stýfður": "fláka",
+			"et": "flákaðu",
+			"ft": "flákið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fláka", "flákar", "flákar"],
+					"ft": ["flákum", "flákið", "fláka"]
+				},
+				"þátíð": {
+					"et": ["flákaði", "flákaðir", "flákaði"],
+					"ft": ["flákuðum", "flákuðuð", "flákuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fláki", "flákir", "fláki"],
+					"ft": ["flákum", "flákið", "fláki"]
+				},
+				"þátíð": {
+					"et": ["flákaði", "flákaðir", "flákaði"],
+					"ft": ["flákuðum", "flákuðuð", "flákuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flákarðu",
+					"ft": "flákiði"
+				},
+				"þátíð": {
+					"et": "flákaðirðu",
+					"ft": "flákuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flákirðu",
+					"ft": "flákiði"
+				},
+				"þátíð": {
+					"et": "flákaðirðu",
+					"ft": "flákuðuði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fláka",
+	"hash": "31df8ce56ac42b638d7d7a50ec6b981dec2aa5de844c24e86b01131bbd621a19"
+}

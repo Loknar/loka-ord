@@ -1,0 +1,25 @@
+{
+	"orð": "skattskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skattskuld", "skattskuld", "skattskuld", "skattskuldar"],
+		"mg": ["skattskuldin", "skattskuldina", "skattskuldinni", "skattskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["skattskuldir", "skattskuldir", "skattskuldum", "skattskulda"],
+		"mg": ["skattskuldirnar", "skattskuldirnar", "skattskuldunum", "skattskuldanna"]
+	},
+	"kennistrengur": "no-skattskuld-kvk",
+	"hash": "b00ee6670758e1d094c306a7ffd897ef73f7a0423fe6560fd3b9322bf011b32e"
+}

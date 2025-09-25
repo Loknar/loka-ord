@@ -1,0 +1,32 @@
+{
+	"orð": "kvikmyndaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kvik",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kvikur"
+		},
+		{
+			"mynd": "mynda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kvikmyndaframleiðsla", "kvikmyndaframleiðslu", "kvikmyndaframleiðslu", "kvikmyndaframleiðslu"],
+		"mg": ["kvikmyndaframleiðslan", "kvikmyndaframleiðsluna", "kvikmyndaframleiðslunni", "kvikmyndaframleiðslunnar"]
+	},
+	"kennistrengur": "no-kvikmyndaframleiðsla-kvk",
+	"hash": "3ad15e23f8aa96992f1f492063d54b915a515b52587be2a276f53a8a2d112ac7"
+}

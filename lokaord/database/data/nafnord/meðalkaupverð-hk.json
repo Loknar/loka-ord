@@ -1,0 +1,27 @@
+{
+	"orð": "meðalkaupverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["meðalkaupverð", "meðalkaupverð", "meðalkaupverði", "meðalkaupverðs"],
+		"mg": ["meðalkaupverðið", "meðalkaupverðið", "meðalkaupverðinu", "meðalkaupverðsins"]
+	},
+	"kennistrengur": "no-meðalkaupverð-hk",
+	"hash": "1fd79794c1870f8bc285093053480db6d1a77a7b147f2f6ef1c0055cd334908c"
+}

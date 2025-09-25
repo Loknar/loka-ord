@@ -1,0 +1,27 @@
+{
+	"orð": "heildarviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarviðskipti", "heildarviðskipti", "heildarviðskiptum", "heildarviðskipta"],
+		"mg": ["heildarviðskiptin", "heildarviðskiptin", "heildarviðskiptunum", "heildarviðskiptanna"]
+	},
+	"kennistrengur": "no-heildarviðskipti-hk",
+	"hash": "2149f6ab3283de319b0e3bdeeeb6ecdacad4311afa4c64b68195ab3ece70ac74"
+}

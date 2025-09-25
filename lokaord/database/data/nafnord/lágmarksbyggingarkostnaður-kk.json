@@ -1,0 +1,31 @@
+{
+	"orð": "lágmarksbyggingarkostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksbyggingarkostnaður", "lágmarksbyggingarkostnað", "lágmarksbyggingarkostnaði", "lágmarksbyggingarkostnaðar"],
+		"mg": ["lágmarksbyggingarkostnaðurinn", "lágmarksbyggingarkostnaðinn", "lágmarksbyggingarkostnaðinum", "lágmarksbyggingarkostnaðarins"]
+	},
+	"kennistrengur": "no-lágmarksbyggingarkostnaður-kk",
+	"hash": "4cc6bf9ea705f73dcaf1e3fb8b2bcab116bf11108a670c35c14c17b6e4f2d3bf"
+}

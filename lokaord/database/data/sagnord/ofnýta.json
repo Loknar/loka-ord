@@ -1,0 +1,154 @@
+{
+	"orð": "ofnýta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-nýta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofnýta",
+		"sagnbót": "ofnýtt",
+		"boðháttur": {
+			"stýfður": "ofnýt",
+			"et": "ofnýttu",
+			"ft": "ofnýtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofnýti", "ofnýtir", "ofnýtir"],
+					"ft": ["ofnýtum", "ofnýtið", "ofnýta"]
+				},
+				"þátíð": {
+					"et": ["ofnýtti", "ofnýttir", "ofnýtti"],
+					"ft": ["ofnýttum", "ofnýttuð", "ofnýttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofnýti", "ofnýtir", "ofnýti"],
+					"ft": ["ofnýtum", "ofnýtið", "ofnýti"]
+				},
+				"þátíð": {
+					"et": ["ofnýtti", "ofnýttir", "ofnýtti"],
+					"ft": ["ofnýttum", "ofnýttuð", "ofnýttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofnýtirðu",
+					"ft": "ofnýtiði"
+				},
+				"þátíð": {
+					"et": "ofnýttirðu",
+					"ft": "ofnýttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofnýtirðu",
+					"ft": "ofnýtiði"
+				},
+				"þátíð": {
+					"et": "ofnýttirðu",
+					"ft": "ofnýttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ofnýtast",
+		"sagnbót": "ofnýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofnýtist", "ofnýtist", "ofnýtist"],
+					"ft": ["ofnýtumst", "ofnýtist", "ofnýtast"]
+				},
+				"þátíð": {
+					"et": ["ofnýttist", "ofnýttist", "ofnýttist"],
+					"ft": ["ofnýttumst", "ofnýttust", "ofnýttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofnýtist", "ofnýtist", "ofnýtist"],
+					"ft": ["ofnýttumst", "ofnýtist", "ofnýtist"]
+				},
+				"þátíð": {
+					"et": ["ofnýttist", "ofnýttist", "ofnýttist"],
+					"ft": ["ofnýttumst", "ofnýttust", "ofnýttust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofnýtist", "ofnýtist", "ofnýtist"],
+					"ft": ["ofnýtist", "ofnýtist", "ofnýtist"]
+				},
+				"þátíð": {
+					"et": ["ofnýttist", "ofnýttist", "ofnýttist"],
+					"ft": ["ofnýttist", "ofnýttist", "ofnýttist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofnýtist", "ofnýtist", "ofnýtist"],
+					"ft": ["ofnýtist", "ofnýtist", "ofnýtist"]
+				},
+				"þátíð": {
+					"et": ["ofnýttist", "ofnýttist", "ofnýttist"],
+					"ft": ["ofnýttist", "ofnýttist", "ofnýttist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofnýtistu"
+				},
+				"þátíð": {
+					"et": "ofnýttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofnýtistu"
+				},
+				"þátíð": {
+					"et": "ofnýttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofnýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofnýttur", "ofnýttan", "ofnýttum", "ofnýtts"],
+					"kvk": ["ofnýtt", "ofnýtta", "ofnýttri", "ofnýttrar"],
+					"hk": ["ofnýttt", "ofnýttt", "ofnýttu", "ofnýtts"]
+				},
+				"ft": {
+					"kk": ["ofnýttir", "ofnýtta", "ofnýttum", "ofnýttra"],
+					"kvk": ["ofnýttar", "ofnýttar", "ofnýttum", "ofnýttra"],
+					"hk": ["ofnýtt", "ofnýtt", "ofnýttum", "ofnýttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofnýta",
+	"hash": "6fd591a4a1be25b2a61b43698592b4efb38349abf614418218b1d3cc9ad4b814"
+}
