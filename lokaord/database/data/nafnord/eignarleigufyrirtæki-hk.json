@@ -1,0 +1,35 @@
+{
+	"orð": "eignarleigufyrirtæki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"kennistrengur": "no-tæki-hk"
+		}
+	],
+	"et": {
+		"ág": ["eignarleigufyrirtæki", "eignarleigufyrirtæki", "eignarleigufyrirtæki", "eignarleigufyrirtækis"],
+		"mg": ["eignarleigufyrirtækið", "eignarleigufyrirtækið", "eignarleigufyrirtækinu", "eignarleigufyrirtækisins"]
+	},
+	"ft": {
+		"ág": ["eignarleigufyrirtæki", "eignarleigufyrirtæki", "eignarleigufyrirtækjum", "eignarleigufyrirtækja"],
+		"mg": ["eignarleigufyrirtækin", "eignarleigufyrirtækin", "eignarleigufyrirtækjunum", "eignarleigufyrirtækjanna"]
+	},
+	"kennistrengur": "no-eignarleigufyrirtæki-hk",
+	"hash": "9823a9c2dcbd3b66dee4cea174e7204219c2d420529c3d593968d08218673dd3"
+}
