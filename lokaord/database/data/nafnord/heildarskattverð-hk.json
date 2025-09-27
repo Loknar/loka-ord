@@ -1,0 +1,27 @@
+{
+	"orð": "heildarskattverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarskattverð", "heildarskattverð", "heildarskattverði", "heildarskattverðs"],
+		"mg": ["heildarskattverðið", "heildarskattverðið", "heildarskattverðinu", "heildarskattverðsins"]
+	},
+	"kennistrengur": "no-heildarskattverð-hk",
+	"hash": "0125b826ac584f6f126ebc35815f5a78cc5c5a185f97ba5fdfb89bb9b0da5642"
+}

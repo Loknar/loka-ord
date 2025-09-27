@@ -1,0 +1,142 @@
+{
+	"orð": "skattskylda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "so-skylda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skattskylda",
+		"sagnbót": "skattskyldað",
+		"boðháttur": {
+			"stýfður": "skattskylda",
+			"et": "skattskyldaðu",
+			"ft": "skattskyldið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skattskylda", "skattskyldar", "skattskyldar"],
+					"ft": ["skattskyldum", "skattskyldið", "skattskylda"]
+				},
+				"þátíð": {
+					"et": ["skattskyldaði", "skattskyldaðir", "skattskyldaði"],
+					"ft": ["skattskylduðum", "skattskylduðuð", "skattskylduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skattskyldi", "skattskyldir", "skattskyldi"],
+					"ft": ["skattskyldum", "skattskyldið", "skattskyldi"]
+				},
+				"þátíð": {
+					"et": ["skattskyldaði", "skattskyldaðir", "skattskyldaði"],
+					"ft": ["skattskylduðum", "skattskylduðuð", "skattskylduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skattskyldarðu",
+					"ft": "skattskyldiði"
+				},
+				"þátíð": {
+					"et": "skattskyldaðirðu",
+					"ft": "skattskylduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skattskyldirðu",
+					"ft": "skattskyldiði"
+				},
+				"þátíð": {
+					"et": "skattskyldaðirðu",
+					"ft": "skattskylduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skattskyldast",
+		"sagnbót": "skattskyldast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skattskyldast", "skattskyldast", "skattskyldast"],
+					"ft": ["skattskyldumst", "skattskyldist", "skattskyldast"]
+				},
+				"þátíð": {
+					"et": ["skattskyldaðist", "skattskyldaðist", "skattskyldaðist"],
+					"ft": ["skattskylduðumst", "skattskylduðust", "skattskylduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skattskyldist", "skattskyldist", "skattskyldist"],
+					"ft": ["skattskyldumst", "skattskyldist", "skattskyldist"]
+				},
+				"þátíð": {
+					"et": ["skattskyldaðist", "skattskyldaðist", "skattskyldaðist"],
+					"ft": ["skattskylduðumst", "skattskylduðust", "skattskylduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skattskyldastu"
+				},
+				"þátíð": {
+					"et": "skattskyldaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skattskyldistu"
+				},
+				"þátíð": {
+					"et": "skattskyldaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skattskyldandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skattskyldaður", "skattskyldaðan", "skattskylduðum", "skattskyldaðs"],
+					"kvk": ["skattskylduð", "skattskyldaða", "skattskyldaðri", "skattskyldaðrar"],
+					"hk": ["skattskyldað", "skattskyldað", "skattskylduðu", "skattskyldaðs"]
+				},
+				"ft": {
+					"kk": ["skattskyldaðir", "skattskyldaða", "skattskylduðum", "skattskyldaðra"],
+					"kvk": ["skattskyldaðar", "skattskyldaðar", "skattskylduðum", "skattskyldaðra"],
+					"hk": ["skattskylduð", "skattskylduð", "skattskylduðum", "skattskyldaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skattskyldaði", "skattskyldaða", "skattskyldaða", "skattskyldaða"],
+					"kvk": ["skattskyldaða", "skattskylduðu", "skattskylduðu", "skattskylduðu"],
+					"hk": ["skattskyldaða", "skattskyldaða", "skattskyldaða", "skattskyldaða"]
+				},
+				"ft": {
+					"kk": ["skattskylduðu", "skattskylduðu", "skattskylduðu", "skattskylduðu"],
+					"kvk": ["skattskylduðu", "skattskylduðu", "skattskylduðu", "skattskylduðu"],
+					"hk": ["skattskylduðu", "skattskylduðu", "skattskylduðu", "skattskylduðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skattskylda",
+	"hash": "dba8f18d78914261ac2808b263f02d71bb6aaee3c196a8bac022163ab2dfa703"
+}

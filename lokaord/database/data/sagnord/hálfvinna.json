@@ -1,0 +1,86 @@
+{
+	"orð": "hálfvinna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hálf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vinna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hálfvinna",
+		"sagnbót": "hálfunnið",
+		"boðháttur": {
+			"stýfður": "hálfvinn",
+			"et": "hálfvinndu",
+			"ft": "hálfvinnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hálfvinn", "hálfvinnur", "hálfvinnur"],
+					"ft": ["hálfvinnum", "hálfvinnið", "hálfvinna"]
+				},
+				"þátíð": {
+					"et": ["hálfvann", "hálfvannst", "hálfvann"],
+					"ft": ["hálfunnum", "hálfunnuð", "hálfunnu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hálfvinni", "hálfvinnir", "hálfvinni"],
+					"ft": ["hálfvinnum", "hálfvinnið", "hálfvinni"]
+				},
+				"þátíð": {
+					"et": ["hálfynni", "hálfynnir", "hálfynni"],
+					"ft": ["hálfynnum", "hálfynnuð", "hálfynndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hálfvinnurðu",
+					"ft": "hálfvinniði"
+				},
+				"þátíð": {
+					"et": "hálfvannstu",
+					"ft": "hálfunnuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hálfvinnirðu",
+					"ft": "hálfvinniði"
+				},
+				"þátíð": {
+					"et": "hálfynnirðu",
+					"ft": "hálfynnuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hálfunninn", "hálfunninn", "hálfunnum", "hálfunnins"],
+					"kvk": ["hálfunnin", "hálfunna", "hálfunninni", "hálfunninnar"],
+					"hk": ["hálfunnið", "hálfunnið", "hálfunnu", "hálfunnins"]
+				},
+				"ft": {
+					"kk": ["hálfunnir", "hálfunna", "hálfunnum", "hálfunninna"],
+					"kvk": ["hálfunnar", "hálfunnar", "hálfunnum", "hálfunninna"],
+					"hk": ["hálfunnin", "hálfunnin", "hálfunnnum", "hálfunninna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hálfvinna",
+	"hash": "5464b92dbbd19b3ff82ac1627d76dee82f7db1066bf6fe91f1c6b9fdf664f085"
+}

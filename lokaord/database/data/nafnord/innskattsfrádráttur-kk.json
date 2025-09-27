@@ -1,0 +1,32 @@
+{
+	"orð": "innskattsfrádráttur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"mynd": "frá",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-frá"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-dráttur-kk"
+		}
+	],
+	"et": {
+		"ág": ["innskattsfrádráttur", "innskattsfrádrátt", "innskattsfrádrætti", "innskattsfrádráttar"],
+		"mg": ["innskattsfrádrátturinn", "innskattsfrádráttinn", "innskattsfrádrættinum", "innskattsfrádráttarins"]
+	},
+	"kennistrengur": "no-innskattsfrádráttur-kk",
+	"hash": "7136a29062413d024ec40317e1713cfc24661cd7747f977094515e1b3dd07cc8"
+}

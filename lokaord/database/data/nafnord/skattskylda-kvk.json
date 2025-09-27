@@ -1,0 +1,22 @@
+{
+	"orð": "skattskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skattskylda", "skattskyldu", "skattskyldu", "skattskyldu"],
+		"mg": ["skattskyldan", "skattskylduna", "skattskyldunni", "skattskyldunnar"]
+	},
+	"kennistrengur": "no-skattskylda-kvk",
+	"hash": "6c6614a1e278570a6d836f62957caef9792ee2770542142e4ac73f8838a388b8"
+}

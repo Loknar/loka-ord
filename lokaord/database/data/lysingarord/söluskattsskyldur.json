@@ -1,0 +1,48 @@
+{
+	"orð": "söluskattsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["söluskattsskyldur", "söluskattsskyldan", "söluskattsskyldum", "söluskattsskylds"],
+				"kvk": ["söluskattsskyld", "söluskattsskylda", "söluskattsskyldri", "söluskattsskyldrar"],
+				"hk": ["söluskattsskylt", "söluskattsskylt", "söluskattsskyldu", "söluskattsskylds"]
+			},
+			"ft": {
+				"kk": ["söluskattsskyldir", "söluskattsskylda", "söluskattsskyldum", "söluskattsskyldra"],
+				"kvk": ["söluskattsskyldar", "söluskattsskyldar", "söluskattsskyldum", "söluskattsskyldra"],
+				"hk": ["söluskattsskyld", "söluskattsskyld", "söluskattsskyldum", "söluskattsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["söluskattsskyldi", "söluskattsskylda", "söluskattsskylda", "söluskattsskylda"],
+				"kvk": ["söluskattsskylda", "söluskattsskyldu", "söluskattsskyldu", "söluskattsskyldu"],
+				"hk": ["söluskattsskylda", "söluskattsskylda", "söluskattsskylda", "söluskattsskylda"]
+			},
+			"ft": {
+				"kk": ["söluskattsskyldu", "söluskattsskyldu", "söluskattsskyldu", "söluskattsskyldu"],
+				"kvk": ["söluskattsskyldu", "söluskattsskyldu", "söluskattsskyldu", "söluskattsskyldu"],
+				"hk": ["söluskattsskyldu", "söluskattsskyldu", "söluskattsskyldu", "söluskattsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-söluskattsskyldur",
+	"hash": "386f303b72f20fa2b6fb06a6deac448bc97eeae07b471e50b6807ce1c912f42e"
+}

@@ -1,0 +1,31 @@
+{
+	"orð": "lágmarkstryggingavernd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"kennistrengur": "no-vernd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarkstryggingavernd", "lágmarkstryggingavernd", "lágmarkstryggingavernd", "lágmarkstryggingaverndar"],
+		"mg": ["lágmarkstryggingaverndin", "lágmarkstryggingaverndina", "lágmarkstryggingaverndinni", "lágmarkstryggingaverndarinnar"]
+	},
+	"kennistrengur": "no-lágmarkstryggingavernd-kvk",
+	"hash": "f3f4d8beb6b5ef9237ec4207f53e8e868eeb0c0fbbf6d301f36aed63866a9b1a"
+}

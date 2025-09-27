@@ -1,0 +1,30 @@
+{
+	"orð": "lágmarksgreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksgreiðsla", "lágmarksgreiðslu", "lágmarksgreiðslu", "lágmarksgreiðslu"],
+		"mg": ["lágmarksgreiðslan", "lágmarksgreiðsluna", "lágmarksgreiðslunni", "lágmarksgreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["lágmarksgreiðslur", "lágmarksgreiðslur", "lágmarksgreiðslum", "lágmarksgreiðslna"],
+		"mg": ["lágmarksgreiðslurnar", "lágmarksgreiðslurnar", "lágmarksgreiðslunum", "lágmarksgreiðslnanna"]
+	},
+	"kennistrengur": "no-lágmarksgreiðsla-kvk",
+	"hash": "1561eea468e2cc8de2ef0259dd3f3d6957dcfc98879b0f48652758755bfc48d4"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "framtíðarskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "tíðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tíð-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framtíðarskuldbinding", "framtíðarskuldbindingu", "framtíðarskuldbindingu", "framtíðarskuldbindingar"],
+		"mg": ["framtíðarskuldbindingin", "framtíðarskuldbindinguna", "framtíðarskuldbindingunni", "framtíðarskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["framtíðarskuldbindingar", "framtíðarskuldbindingar", "framtíðarskuldbindingum", "framtíðarskuldbindinga"],
+		"mg": ["framtíðarskuldbindingarnar", "framtíðarskuldbindingarnar", "framtíðarskuldbindingunum", "framtíðarskuldbindinganna"]
+	},
+	"kennistrengur": "no-framtíðarskuldbinding-kvk",
+	"hash": "7c3ab61ad6da562d17613ea3ab359e1ecc28c4c1c58650492b65dc2c39b8602c"
+}

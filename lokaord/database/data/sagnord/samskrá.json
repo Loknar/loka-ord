@@ -1,0 +1,98 @@
+{
+	"orð": "samskrá",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-skrá"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samskrá",
+		"sagnbót": "samskráð",
+		"boðháttur": {
+			"stýfður": "samskrá",
+			"et": "samskráðu",
+			"ft": "samskráið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samskrái", "samskráirð", "samskráir"],
+					"ft": ["samskráum", "samskráið", "samskrá"]
+				},
+				"þátíð": {
+					"et": ["samskráði", "samskráðir", "samskráði"],
+					"ft": ["samskráðum", "samskráðuð", "samskráðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samskrái", "samskráir", "samskrái"],
+					"ft": ["samskráum", "samskráið", "samskrái"]
+				},
+				"þátíð": {
+					"et": ["samskráði", "samskráðir", "samskráði"],
+					"ft": ["samskráðum", "samskráðuð", "samskráðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samskráirðu",
+					"ft": "samskráiði"
+				},
+				"þátíð": {
+					"et": "samskráðirðu",
+					"ft": "samskráðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samskráirðu",
+					"ft": "samskráiði"
+				},
+				"þátíð": {
+					"et": "samskráðirðu",
+					"ft": "samskráðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samskráður", "samskráðan", "samskráðum", "samskráðs"],
+					"kvk": ["samskráð", "samskráða", "samskráðri", "samskráðrar"],
+					"hk": ["samskráð", "samskráð", "samskráðu", "samskráðs"]
+				},
+				"ft": {
+					"kk": ["samskráðir", "samskráða", "samskráðum", "samskráðra"],
+					"kvk": ["samskráðar", "samskráðar", "samskráðum", "samskráðra"],
+					"hk": ["samskráð", "samskráð", "samskráðum", "samskráðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["samskráði", "samskráða", "samskráða", "samskráða"],
+					"kvk": ["samskráða", "samskráðu", "samskráðu", "samskráðu"],
+					"hk": ["samskráða", "samskráða", "samskráða", "samskráða"]
+				},
+				"ft": {
+					"kk": ["samskráðu", "samskráðu", "samskráðu", "samskráðu"],
+					"kvk": ["samskráðu", "samskráðu", "samskráðu", "samskráðu"],
+					"hk": ["samskráðu", "samskráðu", "samskráðu", "samskráðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samskrá",
+	"hash": "a5e269f37533aa3cbcfabeb5e4381671ef46ee7f6710098b60d9c53360c06e15"
+}

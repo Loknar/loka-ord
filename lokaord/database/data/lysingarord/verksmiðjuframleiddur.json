@@ -1,0 +1,53 @@
+{
+	"orð": "verksmiðjuframleiddur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "smiðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-smiðja-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-leiddur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["verksmiðjuframleiddur", "verksmiðjuframleiddan", "verksmiðjuframleiddum", "verksmiðjuframleidds"],
+				"kvk": ["verksmiðjuframleidd", "verksmiðjuframleidda", "verksmiðjuframleiddri", "verksmiðjuframleiddrar"],
+				"hk": ["verksmiðjuframleitt", "verksmiðjuframleitt", "verksmiðjuframleiddu", "verksmiðjuframleidds"]
+			},
+			"ft": {
+				"kk": ["verksmiðjuframleiddir", "verksmiðjuframleidda", "verksmiðjuframleiddum", "verksmiðjuframleiddra"],
+				"kvk": ["verksmiðjuframleiddar", "verksmiðjuframleiddar", "verksmiðjuframleiddum", "verksmiðjuframleiddra"],
+				"hk": ["verksmiðjuframleidd", "verksmiðjuframleidd", "verksmiðjuframleiddum", "verksmiðjuframleiddra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["verksmiðjuframleiddi", "verksmiðjuframleidda", "verksmiðjuframleidda", "verksmiðjuframleidda"],
+				"kvk": ["verksmiðjuframleidda", "verksmiðjuframleiddu", "verksmiðjuframleiddu", "verksmiðjuframleiddu"],
+				"hk": ["verksmiðjuframleidda", "verksmiðjuframleidda", "verksmiðjuframleidda", "verksmiðjuframleidda"]
+			},
+			"ft": {
+				"kk": ["verksmiðjuframleiddu", "verksmiðjuframleiddu", "verksmiðjuframleiddu", "verksmiðjuframleiddu"],
+				"kvk": ["verksmiðjuframleiddu", "verksmiðjuframleiddu", "verksmiðjuframleiddu", "verksmiðjuframleiddu"],
+				"hk": ["verksmiðjuframleiddu", "verksmiðjuframleiddu", "verksmiðjuframleiddu", "verksmiðjuframleiddu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-verksmiðjuframleiddur",
+	"hash": "792cacd0a08035c25f9bc18dbb00b92ae6b63f97beeda1d67502ab9f57c9fa8d"
+}

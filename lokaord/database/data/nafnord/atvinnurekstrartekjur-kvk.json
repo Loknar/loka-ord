@@ -1,0 +1,32 @@
+{
+	"orð": "atvinnurekstrartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["atvinnurekstrartekjur", "atvinnurekstrartekjur", "atvinnurekstrartekjum", "atvinnurekstrartekna"],
+		"mg": ["atvinnurekstrartekjurnar", "atvinnurekstrartekjurnar", "atvinnurekstrartekjunum", "atvinnurekstrarteknanna"]
+	},
+	"kennistrengur": "no-atvinnurekstrartekjur-kvk",
+	"hash": "f6c2ccd6dedf16abf97b7705e347fb4a01cdcd4e29654546ffdc6a93182af12f"
+}

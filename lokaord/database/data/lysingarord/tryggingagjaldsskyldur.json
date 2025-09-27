@@ -1,0 +1,48 @@
+{
+	"orð": "tryggingagjaldsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["tryggingagjaldsskyldur", "tryggingagjaldsskyldan", "tryggingagjaldsskyldum", "tryggingagjaldsskylds"],
+				"kvk": ["tryggingagjaldsskyld", "tryggingagjaldsskylda", "tryggingagjaldsskyldri", "tryggingagjaldsskyldrar"],
+				"hk": ["tryggingagjaldsskylt", "tryggingagjaldsskylt", "tryggingagjaldsskyldu", "tryggingagjaldsskylds"]
+			},
+			"ft": {
+				"kk": ["tryggingagjaldsskyldir", "tryggingagjaldsskylda", "tryggingagjaldsskyldum", "tryggingagjaldsskyldra"],
+				"kvk": ["tryggingagjaldsskyldar", "tryggingagjaldsskyldar", "tryggingagjaldsskyldum", "tryggingagjaldsskyldra"],
+				"hk": ["tryggingagjaldsskyld", "tryggingagjaldsskyld", "tryggingagjaldsskyldum", "tryggingagjaldsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tryggingagjaldsskyldi", "tryggingagjaldsskylda", "tryggingagjaldsskylda", "tryggingagjaldsskylda"],
+				"kvk": ["tryggingagjaldsskylda", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu"],
+				"hk": ["tryggingagjaldsskylda", "tryggingagjaldsskylda", "tryggingagjaldsskylda", "tryggingagjaldsskylda"]
+			},
+			"ft": {
+				"kk": ["tryggingagjaldsskyldu", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu"],
+				"kvk": ["tryggingagjaldsskyldu", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu"],
+				"hk": ["tryggingagjaldsskyldu", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu", "tryggingagjaldsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-tryggingagjaldsskyldur",
+	"hash": "5808bef2c78fa13aa23bece004752683c3927bd1dedc1058e025fbfdb7f262d6"
+}

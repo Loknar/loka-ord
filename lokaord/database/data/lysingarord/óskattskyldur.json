@@ -1,0 +1,48 @@
+{
+	"orð": "óskattskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["óskattskyldur", "óskattskyldan", "óskattskyldum", "óskattskylds"],
+				"kvk": ["óskattskyld", "óskattskylda", "óskattskyldri", "óskattskyldrar"],
+				"hk": ["óskattskylt", "óskattskylt", "óskattskyldu", "óskattskylds"]
+			},
+			"ft": {
+				"kk": ["óskattskyldir", "óskattskylda", "óskattskyldum", "óskattskyldra"],
+				"kvk": ["óskattskyldar", "óskattskyldar", "óskattskyldum", "óskattskyldra"],
+				"hk": ["óskattskyld", "óskattskyld", "óskattskyldum", "óskattskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["óskattskyldi", "óskattskylda", "óskattskylda", "óskattskylda"],
+				"kvk": ["óskattskylda", "óskattskyldu", "óskattskyldu", "óskattskyldu"],
+				"hk": ["óskattskylda", "óskattskylda", "óskattskylda", "óskattskylda"]
+			},
+			"ft": {
+				"kk": ["óskattskyldu", "óskattskyldu", "óskattskyldu", "óskattskyldu"],
+				"kvk": ["óskattskyldu", "óskattskyldu", "óskattskyldu", "óskattskyldu"],
+				"hk": ["óskattskyldu", "óskattskyldu", "óskattskyldu", "óskattskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-óskattskyldur",
+	"hash": "bbaa3b740236279973fb89c3c7461d40dd5087b7baf8216980aca6bd63978419"
+}
