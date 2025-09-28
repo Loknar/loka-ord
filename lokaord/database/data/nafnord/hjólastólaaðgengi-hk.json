@@ -1,0 +1,32 @@
+{
+	"orð": "hjólastólaaðgengi",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hjóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hjól-hk"
+		},
+		{
+			"mynd": "stóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stółl-kk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gengi-hk"
+		}
+	],
+	"et": {
+		"ág": ["hjólastólaaðgengi", "hjólastólaaðgengi", "hjólastólaaðgengi", "hjólastólaaðgengis"],
+		"mg": ["hjólastólaaðgengið", "hjólastólaaðgengið", "hjólastólaaðgenginu", "hjólastólaaðgengisins"]
+	},
+	"kennistrengur": "no-hjólastólaaðgengi-hk",
+	"hash": "f3285e6bb7b4c18780c9eabac72cd1397fe15a9adef3786e8c713f5528463ae6"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "viðbótarvörugjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["viðbótarvörugjald", "viðbótarvörugjald", "viðbótarvörugjaldi", "viðbótarvörugjalds"],
+		"mg": ["viðbótarvörugjaldið", "viðbótarvörugjaldið", "viðbótarvörugjaldinu", "viðbótarvörugjaldsins"]
+	},
+	"ft": {
+		"ág": ["viðbótarvörugjöld", "viðbótarvörugjöld", "viðbótarvörugjöldum", "viðbótarvörugjalda"],
+		"mg": ["viðbótarvörugjöldin", "viðbótarvörugjöldin", "viðbótarvörugjöldunum", "viðbótarvörugjaldanna"]
+	},
+	"kennistrengur": "no-viðbótarvörugjald-hk",
+	"hash": "03299e1f4b610109bf64105101e2ed60b0558f374a2822acf9700d236e2916ca"
+}

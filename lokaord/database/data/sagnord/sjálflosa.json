@@ -1,0 +1,131 @@
+{
+	"orð": "sjálflosa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sjálf",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.áb-sjálfur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-losa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sjálflosa",
+		"sagnbót": "sjálflosað",
+		"boðháttur": {
+			"stýfður": "sjálflosa",
+			"et": "sjálflosaðu",
+			"ft": "sjálflosið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjálflosa", "sjálflosar", "sjálflosar"],
+					"ft": ["sjálflosum", "sjálflosið", "sjálflosa"]
+				},
+				"þátíð": {
+					"et": ["sjálflosaði", "sjálflosaðir", "sjálflosaði"],
+					"ft": ["sjálflosuðum", "sjálflosuðuð", "sjálflosuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjálflosi", "sjálflosir", "sjálflosi"],
+					"ft": ["sjálflosum", "sjálflosið", "sjálflosi"]
+				},
+				"þátíð": {
+					"et": ["sjálflosaði", "sjálflosaðir", "sjálflosaði"],
+					"ft": ["sjálflosuðum", "sjálflosuðuð", "sjálflosuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjálflosarðu",
+					"ft": "sjálflosiði"
+				},
+				"þátíð": {
+					"et": "sjálflosaðirðu",
+					"ft": "sjálflosuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjálflosirðu",
+					"ft": "sjálflosiði"
+				},
+				"þátíð": {
+					"et": "sjálflosaðirðu",
+					"ft": "sjálflosuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sjálflosast",
+		"sagnbót": "sjálflosast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjálflosast", "sjálflosast", "sjálflosast"],
+					"ft": ["sjálflosumst", "sjálflosist", "sjálflosast"]
+				},
+				"þátíð": {
+					"et": ["sjálflosaðist", "sjálflosaðist", "sjálflosaðist"],
+					"ft": ["sjálflosuðumst", "sjálflosuðust", "sjálflosuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjálflosist", "sjálflosist", "sjálflosist"],
+					"ft": ["sjálflosumst", "sjálflosist", "sjálflosist"]
+				},
+				"þátíð": {
+					"et": ["sjálflosaðist", "sjálflosaðist", "sjálflosaðist"],
+					"ft": ["sjálflosuðumst", "sjálflosuðust", "sjálflosuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjálflosastu"
+				},
+				"þátíð": {
+					"et": "sjálflosaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjálflosistu"
+				},
+				"þátíð": {
+					"et": "sjálflosaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjálflosandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sjálflosaður", "sjálflosaðan", "sjálflosuðum", "sjálflosaðs"],
+					"kvk": ["sjálflosuð", "sjálflosaða", "sjálflosaðri", "sjálflosaðrar"],
+					"hk": ["sjálflosað", "sjálflosað", "sjálflosuðu", "sjálflosaðs"]
+				},
+				"ft": {
+					"kk": ["sjálflosaðir", "sjálflosaða", "sjálflosuðum", "sjálflosaðra"],
+					"kvk": ["sjálflosaðar", "sjálflosaðar", "sjálflosðuðum", "sjálflosaðra"],
+					"hk": ["sjálflosuð", "sjálflosuð", "sjálflosuðum", "sjálflosaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjálflosa",
+	"hash": "b889cb1fec0c30735ef3ac8e6b126003b97537c11670d818b6ae8bb1131a0654"
+}

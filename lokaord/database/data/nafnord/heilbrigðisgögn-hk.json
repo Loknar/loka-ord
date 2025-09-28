@@ -1,0 +1,27 @@
+{
+	"orð": "heilbrigðisgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heil",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heiłl"
+		},
+		{
+			"mynd": "brigðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-brigði-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["heilbrigðisgögn", "heilbrigðisgögn", "heilbrigðisgögnum", "heilbrigðisgagna"],
+		"mg": ["heilbrigðisgögnin", "heilbrigðisgögnin", "heilbrigðisgögnunum", "heilbrigðisgagnanna"]
+	},
+	"kennistrengur": "no-heilbrigðisgögn-hk",
+	"hash": "a9957fd7f58aef99cae68aca8706bb746be3bb8ed9d763eac165bd4ace8b4fb2"
+}

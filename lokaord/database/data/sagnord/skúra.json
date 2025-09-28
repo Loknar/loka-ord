@@ -1,0 +1,146 @@
+{
+	"orð": "skúra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skúr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skúr-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skúra",
+		"sagnbót": "skúrað",
+		"boðháttur": {
+			"stýfður": "skúra",
+			"et": "skúraðu",
+			"ft": "skúrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skúra", "skúrar", "skúrar"],
+					"ft": ["skúrum", "skúrið", "skúra"]
+				},
+				"þátíð": {
+					"et": ["skúraði", "skúraðir", "skúraði"],
+					"ft": ["skúruðum", "skúruðuð", "skúruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skúri", "skúrir", "skúri"],
+					"ft": ["skúrum", "skúrið", "skúri"]
+				},
+				"þátíð": {
+					"et": ["skúraði", "skúraðir", "skúraði"],
+					"ft": ["skúruðum", "skúruðuð", "skúruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skúrarðu",
+					"ft": "skúriði"
+				},
+				"þátíð": {
+					"et": "skúraðirðu",
+					"ft": "skúruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skúrirðu",
+					"ft": "skúriði"
+				},
+				"þátíð": {
+					"et": "skúraðirðu",
+					"ft": "skúruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skúrast",
+		"sagnbót": "skúrast",
+		"boðháttur": {
+			"et": "skúrastu",
+			"ft": "skúrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skúrast", "skúrast", "skúrast"],
+					"ft": ["skúrumst", "skúrist", "skúrast"]
+				},
+				"þátíð": {
+					"et": ["skúraðist", "skúraðist", "skúraðist"],
+					"ft": ["skúruðumst", "skúruðust", "skúruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skúrist", "skúrist", "skúrist"],
+					"ft": ["skúrumst", "skúrist", "skúrist"]
+				},
+				"þátíð": {
+					"et": ["skúraðist", "skúraðist", "skúraðist"],
+					"ft": ["skúruðumst", "skúruðust", "skúruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skúrastu"
+				},
+				"þátíð": {
+					"et": "skúraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skúristu"
+				},
+				"þátíð": {
+					"et": "skúraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skúrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skúraður", "skúraðan", "skúruðum", "skúraðs"],
+					"kvk": ["skúruð", "skúraða", "skúraðri", "skúraðrar"],
+					"hk": ["skúrað", "skúrað", "skúruðu", "skúraðs"]
+				},
+				"ft": {
+					"kk": ["skúraðir", "skúraða", "skúruðum", "skúraðra"],
+					"kvk": ["skúraðar", "skúraðar", "skúruðum", "skúraðra"],
+					"hk": ["skúruð", "skúruð", "skúruðum", "skúraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skúraði", "skúraða", "skúraða", "skúraða"],
+					"kvk": ["skúraða", "skúruðu", "skúruðu", "skúruðu"],
+					"hk": ["skúraða", "skúraða", "skúraða", "skúraða"]
+				},
+				"ft": {
+					"kk": ["skúruðu", "skúruðu", "skúruðu", "skúruðu"],
+					"kvk": ["skúruðu", "skúruðu", "skúruðu", "skúruðu"],
+					"hk": ["skúruðu", "skúruðu", "skúruðu", "skúruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skúra",
+	"hash": "63299efe49e9c641c10e38cde3b3577c01edd1964dcfdf1703faf9d4bea3b918"
+}

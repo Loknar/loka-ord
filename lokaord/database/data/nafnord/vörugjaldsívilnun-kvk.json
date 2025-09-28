@@ -1,0 +1,30 @@
+{
+	"orð": "vörugjaldsívilnun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"kennistrengur": "no-ívilnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vörugjaldsívilnun", "vörugjaldsívilnun", "vörugjaldsívilnun", "vörugjaldsívilnunar"],
+		"mg": ["vörugjaldsívilnunin", "vörugjaldsívilnunina", "vörugjaldsívilnuninni", "vörugjaldsívilnunarinnar"]
+	},
+	"ft": {
+		"ág": ["vörugjaldsívilnanir", "vörugjaldsívilnanir", "vörugjaldsívilnunum", "vörugjaldsívilnana"],
+		"mg": ["vörugjaldsívilnanirnar", "vörugjaldsívilnanirnar", "vörugjaldsívilnununum", "vörugjaldsívilnananna"]
+	},
+	"kennistrengur": "no-vörugjaldsívilnun-kvk",
+	"hash": "3fa3d052a5d995934ac475edee143007d146f26ef69d41dadf3fabb4d78d1149"
+}

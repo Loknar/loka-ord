@@ -1,0 +1,131 @@
+{
+	"orð": "sjálfhlaða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sjálf",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.áb-sjálfur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hlaða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sjálfhlaða",
+		"sagnbót": "sjálfhlaðið",
+		"boðháttur": {
+			"stýfður": "sjálfhlað",
+			"et": "sjálfhladdu",
+			"ft": "sjálfhlaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjálfhleð", "sjálfhleður", "sjálfhleður"],
+					"ft": ["sjálfhlöðum", "sjálfhlaðið", "sjálfhlaða"]
+				},
+				"þátíð": {
+					"et": ["sjálfhlóð", "sjálfhlóðst", "sjálfhlóð"],
+					"ft": ["sjálfhlóðum", "sjálfhlóðuð", "sjálfhlóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjálfhlaði", "sjálfhlaðir", "sjálfhlaði"],
+					"ft": ["sjálfhlöðum", "sjálfhlaðið", "sjálfhlaði"]
+				},
+				"þátíð": {
+					"et": ["sjálfhlæði", "sjálfhlæðir", "sjálfhlæði"],
+					"ft": ["sjálfhlæðum", "sjálfhlæðuð", "sjálfhlæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjálfhleðurðu",
+					"ft": "sjálfhlaðiði"
+				},
+				"þátíð": {
+					"et": "sjálfhlóðstu",
+					"ft": "sjálfhlóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjálfhlaðirðu",
+					"ft": "sjálfhlaðiði"
+				},
+				"þátíð": {
+					"et": "sjálfhlæðirðu",
+					"ft": "sjálfhlæðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sjálfhlaðast",
+		"sagnbót": "sjálfhlaðist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjálfhleðst", "sjálfhleðst", "sjálfhleðst"],
+					"ft": ["sjálfhlöðumst", "sjálfhlaðist", "sjálfhlaðast"]
+				},
+				"þátíð": {
+					"et": ["sjálfhlóðst", "sjálfhlóðst", "sjálfhlóðst"],
+					"ft": ["sjálfhlóðumst", "sjálfhlóðust", "sjálfhlóðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjálfhlaðist", "sjálfhlaðist", "sjálfhlaðist"],
+					"ft": ["sjálfhlöðumst", "sjálfhlaðist", "sjálfhlaðist"]
+				},
+				"þátíð": {
+					"et": ["sjálfhlæðist", "sjálfhlæðist", "sjálfhlæðist"],
+					"ft": ["sjálfhlæðumst", "sjálfhlæðust", "sjálfhlæðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjálfhleðstu"
+				},
+				"þátíð": {
+					"et": "sjálfhlóðstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjálfhlaðistu"
+				},
+				"þátíð": {
+					"et": "sjálfhlæðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjálfhlaðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sjálfhlaðinn", "sjálfhlaðinn", "sjálfhlöðnum", "sjálfhlaðins"],
+					"kvk": ["sjálfhlaðin", "sjálfhlaðna", "sjálfhlaðinni", "sjálfhlaðinnar"],
+					"hk": ["sjálfhlaðið", "sjálfhlaðið", "sjálfhlöðnu", "sjálfhlaðins"]
+				},
+				"ft": {
+					"kk": ["sjálfhlaðnir", "sjálfhlaðna", "sjálfhlöðnum", "sjálfhlaðinna"],
+					"kvk": ["sjálfhlaðnar", "sjálfhlaðnar", "sjálfhlöðnum", "sjálfhlaðinna"],
+					"hk": ["sjálfhlaðin", "sjálfhlaðin", "sjálfhlöðnum", "sjálfhlaðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjálfhlaða",
+	"hash": "a4f080478e9911b3ff0a4d322ab5e7d03e30ba68ac87a3730b7264323046e06b"
+}

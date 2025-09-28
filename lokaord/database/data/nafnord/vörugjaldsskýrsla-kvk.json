@@ -1,0 +1,30 @@
+{
+	"orð": "vörugjaldsskýrsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"kennistrengur": "no-skýrsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vörugjaldsskýrsla", "vörugjaldsskýrslu", "vörugjaldsskýrslu", "vörugjaldsskýrslu"],
+		"mg": ["vörugjaldsskýrslan", "vörugjaldsskýrsluna", "vörugjaldsskýrslunni", "vörugjaldsskýrslunnar"]
+	},
+	"ft": {
+		"ág": ["vörugjaldsskýrslur", "vörugjaldsskýrslur", "vörugjaldsskýrslum", "vörugjaldsskýrslna"],
+		"mg": ["vörugjaldsskýrslurnar", "vörugjaldsskýrslurnar", "vörugjaldsskýrslunum", "vörugjaldsskýrslnanna"]
+	},
+	"kennistrengur": "no-vörugjaldsskýrsla-kvk",
+	"hash": "f39f13a45a662507718ef443e078e5166a2e189041aa0fc1a6724771189e82cb"
+}

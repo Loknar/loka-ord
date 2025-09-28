@@ -1,0 +1,99 @@
+{
+	"orð": "sambyggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-byggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sambyggja",
+		"sagnbót": "sambyggt",
+		"boðháttur": {
+			"stýfður": "sambygg",
+			"et": "sambyggðu",
+			"ft": "sambyggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sambyggi", "sambyggir", "sambyggir"],
+					"ft": ["sambyggjum", "sambyggið", "sambyggja"]
+				},
+				"þátíð": {
+					"et": ["sambyggði", "sambyggðir", "sambyggði"],
+					"ft": ["sambyggðum", "sambyggðuð", "sambyggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sambyggi", "sambyggir", "sambyggi"],
+					"ft": ["sambyggjum", "sambyggið", "sambyggi"]
+				},
+				"þátíð": {
+					"et": ["sambyggði", "sambyggðir", "sambyggði"],
+					"ft": ["sambyggðum", "sambyggðuð", "sambyggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sambyggirðu",
+					"ft": "sambyggiði"
+				},
+				"þátíð": {
+					"et": "sambyggðirðu",
+					"ft": "sambyggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sambyggirðu",
+					"ft": "sambyggiði"
+				},
+				"þátíð": {
+					"et": "sambyggðirðu",
+					"ft": "sambyggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sambyggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sambyggður", "sambyggðan", "sambyggðum", "sambyggðs"],
+					"kvk": ["sambyggð", "sambyggða", "sambyggðri", "sambyggðrar"],
+					"hk": ["sambyggt", "sambyggt", "sambyggðu", "sambyggðs"]
+				},
+				"ft": {
+					"kk": ["sambyggðir", "sambyggða", "sambyggðum", "sambyggðra"],
+					"kvk": ["sambyggðar", "sambyggðar", "sambyggðum", "sambyggðra"],
+					"hk": ["sambyggð", "sambyggð", "sambyggðum", "sambyggðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sambyggði", "sambyggða", "sambyggða", "sambyggða"],
+					"kvk": ["sambyggða", "sambyggðu", "sambyggðu", "sambyggðu"],
+					"hk": ["sambyggða", "sambyggða", "sambyggða", "sambyggða"]
+				},
+				"ft": {
+					"kk": ["sambyggðu", "sambyggðu", "sambyggðu", "sambyggðu"],
+					"kvk": ["sambyggðu", "sambyggðu", "sambyggðu", "sambyggðu"],
+					"hk": ["sambyggðu", "sambyggðu", "sambyggðu", "sambyggðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sambyggja",
+	"hash": "08c3250d31f8e0f945394f274b6139551038533b0b78c8ab211ec9b84c9b9110"
+}

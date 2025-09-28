@@ -1,0 +1,99 @@
+{
+	"orð": "sérsmíða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-smíða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérsmíða",
+		"sagnbót": "sérsmíðað",
+		"boðháttur": {
+			"stýfður": "sérsmíða",
+			"et": "sérsmíðaðu",
+			"ft": "sérsmíðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérsmíða", "sérsmíðar", "sérsmíðar"],
+					"ft": ["sérsmíðum", "sérsmíðið", "sérsmíða"]
+				},
+				"þátíð": {
+					"et": ["sérsmíðaði", "sérsmíðaðir", "sérsmíðaði"],
+					"ft": ["sérsmíðuðum", "sérsmíðuðuð", "sérsmíðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérsmíði", "sérsmíðir", "sérsmíði"],
+					"ft": ["sérsmíðum", "sérsmíðið", "sérsmíði"]
+				},
+				"þátíð": {
+					"et": ["sérsmíðaði", "sérsmíðaðir", "sérsmíðaði"],
+					"ft": ["sérsmíðuðum", "sérsmíðuðuð", "sérsmíðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérsmíðarðu",
+					"ft": "sérsmíðiði"
+				},
+				"þátíð": {
+					"et": "sérsmíðaðirðu",
+					"ft": "sérsmíðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérsmíðirðu",
+					"ft": "sérsmíðiði"
+				},
+				"þátíð": {
+					"et": "sérsmíðaðirðu",
+					"ft": "sérsmíðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérsmíðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérsmíðaður", "sérsmíðaðan", "sérsmíðuðum", "sérsmíðaðs"],
+					"kvk": ["sérsmíðuð", "sérsmíðaða", "sérsmíðaðri", "sérsmíðaðrar"],
+					"hk": ["sérsmíðað", "sérsmíðað", "sérsmíðuðu", "sérsmíðaðs"]
+				},
+				"ft": {
+					"kk": ["sérsmíðaðir", "sérsmíðaða", "sérsmíðuðum", "sérsmíðaðra"],
+					"kvk": ["sérsmíðaðar", "sérsmíðaðar", "sérsmíðuðum", "sérsmíðaðra"],
+					"hk": ["sérsmíðuð", "sérsmíðuð", "sérsmíðuðum", "sérsmíðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sérsmíðaði", "sérsmíðaða", "sérsmíðaða", "sérsmíðaða"],
+					"kvk": ["sérsmíðaða", "sérsmíðuðu", "sérsmíðuðu", "sérsmíðuðu"],
+					"hk": ["sérsmíðaða", "sérsmíðaða", "sérsmíðaða", "sérsmíðaða"]
+				},
+				"ft": {
+					"kk": ["sérsmíðuðu", "sérsmíðuðu", "sérsmíðuðu", "sérsmíðuðu"],
+					"kvk": ["sérsmíðuðu", "sérsmíðuðu", "sérsmíðuðu", "sérsmíðuðu"],
+					"hk": ["sérsmíðuðu", "sérsmíðuðu", "sérsmíðuðu", "sérsmíðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérsmíða",
+	"hash": "6ceb7cb695b999d208f0321901154192d2890dc9c2f11d96bdae7e5524223d9b"
+}

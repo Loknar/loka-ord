@@ -1,0 +1,27 @@
+{
+	"orð": "verksmiðjuverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "smiðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-smiðja-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["verksmiðjuverð", "verksmiðjuverð", "verksmiðjuverði", "verksmiðjuverðs"],
+		"mg": ["verksmiðjuverðið", "verksmiðjuverðið", "verksmiðjuverðinu", "verksmiðjuverðsins"]
+	},
+	"kennistrengur": "no-verksmiðjuverð-hk",
+	"hash": "996b30d581ba38213c707dfb657ecf12ab5abf2107011d4dea7a64764851c305"
+}
