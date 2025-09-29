@@ -1,0 +1,27 @@
+{
+	"orð": "geymsluumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "geymslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-geymsla-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["geymsluumbúðir", "geymsluumbúðir", "geymsluumbúðum", "geymsluumbúða"],
+		"mg": ["geymsluumbúðirnar", "geymsluumbúðirnar", "geymsluumbúðunum", "geymsluumbúðanna"]
+	},
+	"kennistrengur": "no-geymsluumbúðir-kvk",
+	"hash": "4f963e0c9d568939cdff0b73791dbf81a32f149477a0c149f46ae9c9da0f3b55"
+}

@@ -1,0 +1,53 @@
+{
+	"orð": "úrvinnslugjaldsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"mynd": "vinnslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinnsla-kvk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["úrvinnslugjaldsskyldur", "úrvinnslugjaldsskyldan", "úrvinnslugjaldsskyldum", "úrvinnslugjaldsskylds"],
+				"kvk": ["úrvinnslugjaldsskyld", "úrvinnslugjaldsskylda", "úrvinnslugjaldsskyldri", "úrvinnslugjaldsskyldrar"],
+				"hk": ["úrvinnslugjaldsskylt", "úrvinnslugjaldsskylt", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskylds"]
+			},
+			"ft": {
+				"kk": ["úrvinnslugjaldsskyldir", "úrvinnslugjaldsskylda", "úrvinnslugjaldsskyldum", "úrvinnslugjaldsskyldra"],
+				"kvk": ["úrvinnslugjaldsskyldar", "úrvinnslugjaldsskyldar", "úrvinnslugjaldsskyldum", "úrvinnslugjaldsskyldra"],
+				"hk": ["úrvinnslugjaldsskyld", "úrvinnslugjaldsskyld", "úrvinnslugjaldsskyldum", "úrvinnslugjaldsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["úrvinnslugjaldsskyldi", "úrvinnslugjaldsskylda", "úrvinnslugjaldsskylda", "úrvinnslugjaldsskylda"],
+				"kvk": ["úrvinnslugjaldsskylda", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu"],
+				"hk": ["úrvinnslugjaldsskylda", "úrvinnslugjaldsskylda", "úrvinnslugjaldsskylda", "úrvinnslugjaldsskylda"]
+			},
+			"ft": {
+				"kk": ["úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu"],
+				"kvk": ["úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu"],
+				"hk": ["úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu", "úrvinnslugjaldsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-úrvinnslugjaldsskyldur",
+	"hash": "97d914193cdd1c75e354400462834b327b63f63d019ae02382f7d602bd529f00"
+}

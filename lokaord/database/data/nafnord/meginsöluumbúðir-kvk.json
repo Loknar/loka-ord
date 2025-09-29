@@ -1,0 +1,32 @@
+{
+	"orð": "meginsöluumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "megin",
+			"samsetning": "stofn",
+			"kennistrengur": "no-megin-hk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["meginsöluumbúðir", "meginsöluumbúðir", "meginsöluumbúðum", "meginsöluumbúða"],
+		"mg": ["meginsöluumbúðirnar", "meginsöluumbúðirnar", "meginsöluumbúðunum", "meginsöluumbúðanna"]
+	},
+	"kennistrengur": "no-meginsöluumbúðir-kvk",
+	"hash": "2fb68d5a90cc2bf743bceeccbc75bd53bb0b2655e57fbb2bd989220e08b78664"
+}

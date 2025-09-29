@@ -1,0 +1,37 @@
+{
+	"orð": "rafeindatækjaúrgangur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "einda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eind-kvk"
+		},
+		{
+			"mynd": "tækja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tæki-hk"
+		},
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gangur-kk"
+		}
+	],
+	"et": {
+		"ág": ["rafeindatækjaúrgangur", "rafeindatækjaúrgang", "rafeindatækjaúrgangi", "rafeindatækjaúrgangs"],
+		"mg": ["rafeindatækjaúrgangurinn", "rafeindatækjaúrganginn", "rafeindatækjaúrganginum", "rafeindatækjaúrgangsins"]
+	},
+	"kennistrengur": "no-rafeindatækjaúrgangur-kk",
+	"hash": "be5964ffe5d8efbad498400e2c1d315b18f3dc03291ec5ec84fb3050ff06cb36"
+}

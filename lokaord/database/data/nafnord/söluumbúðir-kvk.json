@@ -1,0 +1,27 @@
+{
+	"orð": "söluumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["söluumbúðir", "söluumbúðir", "söluumbúðum", "söluumbúða"],
+		"mg": ["söluumbúðirnar", "söluumbúðirnar", "söluumbúðunum", "söluumbúðanna"]
+	},
+	"kennistrengur": "no-söluumbúðir-kvk",
+	"hash": "4c75f063a8028a7a3b39d8dd0045450d0fb8b2038a4c39bde32e05591fdcb092"
+}

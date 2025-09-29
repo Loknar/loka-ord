@@ -1,0 +1,32 @@
+{
+	"orð": "drykkjarvöruumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "drykkjar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-drykkur-kk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["drykkjarvöruumbúðir", "drykkjarvöruumbúðir", "drykkjarvöruumbúðum", "drykkjarvöruumbúða"],
+		"mg": ["drykkjarvöruumbúðirnar", "drykkjarvöruumbúðirnar", "drykkjarvöruumbúðunum", "drykkjarvöruumbúðanna"]
+	},
+	"kennistrengur": "no-drykkjarvöruumbúðir-kvk",
+	"hash": "3345a0b6e50f8e37b4fb57c09b7ef5b223ef0261ae81bb7d19757ed28c420319"
+}

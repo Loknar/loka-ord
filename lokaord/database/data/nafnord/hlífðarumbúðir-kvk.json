@@ -1,0 +1,27 @@
+{
+	"orð": "hlífðarumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hlífðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlífð-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["hlífðarumbúðir", "hlífðarumbúðir", "hlífðarumbúðum", "hlífðarumbúða"],
+		"mg": ["hlífðarumbúðirnar", "hlífðarumbúðirnar", "hlífðarumbúðunum", "hlífðarumbúðanna"]
+	},
+	"kennistrengur": "no-hlífðarumbúðir-kvk",
+	"hash": "267180cb1f3d6f63fea5de7fa689b67e8985a615128b403f52b860df0d9079cb"
+}

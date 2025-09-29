@@ -2,6 +2,16 @@
 	"orð": "leysir",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "leys",
+			"samsetning": "stofn",
+			"kennistrengur": "so-leysa"
+		},
+		{
+			"kennistrengur": "no-ir-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["leysir", "leysi", "leysi", "leysis"],
 		"mg": ["leysirinn", "leysinn", "leysinum", "leysisins"]
@@ -11,5 +21,5 @@
 		"mg": ["leysarnir", "leysana", "leysunum", "leysanna"]
 	},
 	"kennistrengur": "no-leysir-kk",
-	"hash": "9ba4e7cf73488ff80bc5a402eac3aacd4465a5e10a6dcb11a230767327420748"
+	"hash": "403578106e2af395fe439b15ba2933e59e42f8e32543dbf09dc8a0c5b8e464c1"
 }

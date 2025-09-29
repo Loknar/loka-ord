@@ -1,0 +1,27 @@
+{
+	"orð": "frystiumbúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "frysti",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-frysta"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["frystiumbúðir", "frystiumbúðir", "frystiumbúðum", "frystiumbúða"],
+		"mg": ["frystiumbúðirnar", "frystiumbúðirnar", "frystiumbúðunum", "frystiumbúðanna"]
+	},
+	"kennistrengur": "no-frystiumbúðir-kvk",
+	"hash": "c584ab768fb0a1768db070efa152159f0d8f8eb1a4511a5f53d67c295f4bc46e"
+}
