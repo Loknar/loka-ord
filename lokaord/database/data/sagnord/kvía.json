@@ -1,0 +1,135 @@
+{
+	"orð": "kvía",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kví",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kví-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kvía",
+		"sagnbót": "kvíað",
+		"boðháttur": {
+			"stýfður": "kvía",
+			"et": "kvíaðu",
+			"ft": "kvíið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvía", "kvíar", "kvíar"],
+					"ft": ["kvíum", "kvíið", "kvía"]
+				},
+				"þátíð": {
+					"et": ["kvíaði", "kvíaðir", "kvíaði"],
+					"ft": ["kvíuðum", "kvíuðuð", "kvíuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvíi", "kvíir", "kvíi"],
+					"ft": ["kvíum", "kvíið", "kvíi"]
+				},
+				"þátíð": {
+					"et": ["kvíaði", "kvíaðir", "kvíaði"],
+					"ft": ["kvíuðum", "kvíuðuð", "kvíuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvíarðu",
+					"ft": "kvíiði"
+				},
+				"þátíð": {
+					"et": "kvíaðirðu",
+					"ft": "kvíuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvíirðu",
+					"ft": "kvíiði"
+				},
+				"þátíð": {
+					"et": "kvíaðirðu",
+					"ft": "kvíuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kvíast",
+		"sagnbót": "kvíast",
+		"boðháttur": {
+			"et": "kvíastu",
+			"ft": "kvíist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvíast", "kvíast", "kvíast"],
+					"ft": ["kvíumst", "kvíist", "kvíast"]
+				},
+				"þátíð": {
+					"et": ["kvíaðist", "kvíaðist", "kvíaðist"],
+					"ft": ["kvíuðumst", "kvíuðust", "kvíuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvíist", "kvíist", "kvíist"],
+					"ft": ["kvíumst", "kvíist", "kvíist"]
+				},
+				"þátíð": {
+					"et": ["kvíaðist", "kvíaðist", "kvíaðist"],
+					"ft": ["kvíuðumst", "kvíuðust", "kvíuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvíastu"
+				},
+				"þátíð": {
+					"et": "kvíaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvíistu"
+				},
+				"þátíð": {
+					"et": "kvíaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kvíandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kvíaður", "kvíaðan", "kvíuðum", "kvíaðs"],
+					"kvk": ["kvíuð", "kvíaða", "kvíaðri", "kvíaðrar"],
+					"hk": ["kvíað", "kvíað", "kvíuðu", "kvíaðs"]
+				},
+				"ft": {
+					"kk": ["kvíaðir", "kvíaða", "kvíuðum", "kvíaðra"],
+					"kvk": ["kvíaðar", "kvíaðar", "kvíuðum", "kvíaðra"],
+					"hk": ["kvíuð", "kvíuð", "kvíuðum", "kvíaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kvía",
+	"hash": "f9be36dffc91b1e14dc49d48cc417bdb24dbf06b55a686ad08cdf053c9716cf8"
+}

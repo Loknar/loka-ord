@@ -1,0 +1,31 @@
+{
+	"orð": "erfðafjárskattsvik",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "erfða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-erfð-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-svik-hk"
+		}
+	],
+	"ft": {
+		"ág": ["erfðafjárskattsvik", "erfðafjárskattsvik", "erfðafjárskattsvikum", "erfðafjárskattsvika"],
+		"mg": ["erfðafjárskattsvikin", "erfðafjárskattsvikin", "erfðafjárskattsvikunum", "erfðafjárskattsvikanna"]
+	},
+	"kennistrengur": "no-erfðafjárskattsvik-hk",
+	"hash": "7ed2bd29ea33ce82a9c36f938f6bd8c46fc474eb62c59e1907d949da1da9343a"
+}

@@ -2,6 +2,16 @@
 	"orð": "hræra",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hrær",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hræra"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hræra", "hræru", "hræru", "hræru"],
 		"mg": ["hræran", "hræruna", "hrærunni", "hrærunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hrærurnar", "hrærurnar", "hrærunum", "hræranna"]
 	},
 	"kennistrengur": "no-hræra-kvk",
-	"hash": "6943dc7c093e9670fe10f077fef5866e3377bf147dbc0847c823b3b230ca7c88"
+	"hash": "7f5e1742e4b292882512a1685c74c28c0c55fbc5f81876072b4af67cf11aed86"
 }

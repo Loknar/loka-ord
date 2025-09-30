@@ -1,0 +1,48 @@
+{
+	"orð": "ökumælisskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "öku",
+			"samsetning": "stofn",
+			"kennistrengur": "so-aka"
+		},
+		{
+			"mynd": "mælis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mælir-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ökumælisskyldur", "ökumælisskyldan", "ökumælisskyldum", "ökumælisskylds"],
+				"kvk": ["ökumælisskyld", "ökumælisskylda", "ökumælisskyldri", "ökumælisskyldrar"],
+				"hk": ["ökumælisskylt", "ökumælisskylt", "ökumælisskyldu", "ökumælisskylds"]
+			},
+			"ft": {
+				"kk": ["ökumælisskyldir", "ökumælisskylda", "ökumælisskyldum", "ökumælisskyldra"],
+				"kvk": ["ökumælisskyldar", "ökumælisskyldar", "ökumælisskyldum", "ökumælisskyldra"],
+				"hk": ["ökumælisskyld", "ökumælisskyld", "ökumælisskyldum", "ökumælisskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ökumælisskyldi", "ökumælisskylda", "ökumælisskylda", "ökumælisskylda"],
+				"kvk": ["ökumælisskylda", "ökumælisskyldu", "ökumælisskyldu", "ökumælisskyldu"],
+				"hk": ["ökumælisskylda", "ökumælisskylda", "ökumælisskylda", "ökumælisskylda"]
+			},
+			"ft": {
+				"kk": ["ökumælisskyldu", "ökumælisskyldu", "ökumælisskyldu", "ökumælisskyldu"],
+				"kvk": ["ökumælisskyldu", "ökumælisskyldu", "ökumælisskyldu", "ökumælisskyldu"],
+				"hk": ["ökumælisskyldu", "ökumælisskyldu", "ökumælisskyldu", "ökumælisskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ökumælisskyldur",
+	"hash": "dcd1b9774069fde166e5fed43e818c581b906896af9e1e80c1274d064ed06117"
+}

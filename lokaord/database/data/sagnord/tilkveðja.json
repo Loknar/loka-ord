@@ -1,0 +1,65 @@
+{
+	"orð": "tilkveðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-kveðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tilkveðja",
+		"sagnbót": "tilkvatt",
+		"boðháttur": {
+			"stýfður": "tilkveð",
+			"et": "tilkveddu",
+			"ft": "tilkveðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tilkveð", "tilkveður", "tilkveður"],
+					"ft": ["tilkveðjum", "tilkveðjið", "tilkveðja"]
+				},
+				"þátíð": {
+					"et": ["tilkvaddi", "tilkvaddir", "tilkvaddi"],
+					"ft": ["tilkvöddum", "tilkvödduð", "tilkvöddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tilkveðji", "tilkveðjir", "tilkveðji"],
+					"ft": ["tilkveðjum", "tilkveðjið", "tilkveðji"]
+				},
+				"þátíð": {
+					"et": ["tilkveddi", "tilkveddir", "tilkveddi"],
+					"ft": ["tilkveddum", "tilkvedduð", "tilkveddu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilkveðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tilkvaddur", "tilkvaddan", "tilkvöddum", "tilkvadds"],
+					"kvk": ["tilkvödd", "tilkvadda", "tilkvaddri", "tilkvaddrar"],
+					"hk": ["tilkvatt", "tilkvatt", "tilkvöddu", "tilkvadds"]
+				},
+				"ft": {
+					"kk": ["tilkvaddir", "tilkvadda", "tilkvöddum", "tilkvaddra"],
+					"kvk": ["tilkvaddar", "tilkvaddar", "tilkvöddum", "tilkvaddra"],
+					"hk": ["tilkvödd", "tilkvödd", "tilkvöddum", "tilkvaddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tilkveðja",
+	"hash": "80237e24ee2f86bd2a14951b9bb7e8eee3af3da1dd75f655b78b345de081724a"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "oftaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "oftaka",
+		"sagnbót": "oftekið",
+		"boðháttur": {
+			"stýfður": "oftak",
+			"et": "oftaktu",
+			"ft": "oftakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["oftek", "oftekur", "oftekur"],
+					"ft": ["oftökum", "oftakið", "oftaka"]
+				},
+				"þátíð": {
+					"et": ["oftók", "oftókst", "oftók"],
+					"ft": ["oftókum", "oftókuð", "oftóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["oftaki", "oftakir", "oftaki"],
+					"ft": ["oftökum", "oftakið", "oftaki"]
+				},
+				"þátíð": {
+					"et": ["oftæki", "oftækir", "oftæki"],
+					"ft": ["oftækjum", "oftækjuð", "oftækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "oftekurðu",
+					"ft": "oftakiði"
+				},
+				"þátíð": {
+					"et": "oftókstu",
+					"ft": "oftókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "oftakirðu",
+					"ft": "oftakiði"
+				},
+				"þátíð": {
+					"et": "oftækirðu",
+					"ft": "oftækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "oftakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["oftekinn", "oftekinn", "ofteknum", "oftekins"],
+					"kvk": ["oftekin", "oftekna", "oftekinni", "oftekinnar"],
+					"hk": ["oftekið", "oftekið", "ofteknu", "oftekins"]
+				},
+				"ft": {
+					"kk": ["ofteknir", "oftekna", "ofteknum", "oftekinna"],
+					"kvk": ["ofteknar", "ofteknar", "ofteknum", "oftekinna"],
+					"hk": ["oftekin", "oftekin", "ofteknum", "oftekinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-oftaka",
+	"hash": "0cd502539470a5f24b01367245ec4cd34bc59368a1c772a92751aa529d2d75a5"
+}

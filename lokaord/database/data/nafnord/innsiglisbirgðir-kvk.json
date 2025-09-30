@@ -1,0 +1,27 @@
+{
+	"orð": "innsiglisbirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "siglis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sigli-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["innsiglisbirgðir", "innsiglisbirgðir", "innsiglisbirgðum", "innsiglisbirgða"],
+		"mg": ["innsiglisbirgðirnar", "innsiglisbirgðirnar", "innsiglisbirgðunum", "innsiglisbirgðanna"]
+	},
+	"kennistrengur": "no-innsiglisbirgðir-kvk",
+	"hash": "4710c5061ccee488a2371748c8430ed14b5e4e7eec5722bc6deee701c61c78e1"
+}

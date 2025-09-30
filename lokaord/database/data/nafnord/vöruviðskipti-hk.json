@@ -1,0 +1,27 @@
+{
+	"orð": "vöruviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["vöruviðskipti", "vöruviðskipti", "vöruviðskiptum", "vöruviðskipta"],
+		"mg": ["vöruviðskiptin", "vöruviðskiptin", "vöruviðskiptunum", "vöruviðskiptanna"]
+	},
+	"kennistrengur": "no-vöruviðskipti-hk",
+	"hash": "0043881f2588de790a4c613d62543485939563199398236672203aa5ff7bf1f8"
+}
