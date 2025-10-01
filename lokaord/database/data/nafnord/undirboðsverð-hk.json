@@ -1,0 +1,27 @@
+{
+	"orð": "undirboðsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "undir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-undir"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["undirboðsverð", "undirboðsverð", "undirboðsverði", "undirboðsverðs"],
+		"mg": ["undirboðsverðið", "undirboðsverðið", "undirboðsverðinu", "undirboðsverðsins"]
+	},
+	"kennistrengur": "no-undirboðsverð-hk",
+	"hash": "29d564c602e67acaf086333c2bc801082e11015f30850ac2e2462014a720fa7b"
+}

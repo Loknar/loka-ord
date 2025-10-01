@@ -1,0 +1,27 @@
+{
+	"orð": "innflutningsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "flutnings",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["innflutningsverð", "innflutningsverð", "innflutningsverði", "innflutningsverðs"],
+		"mg": ["innflutningsverðið", "innflutningsverðið", "innflutningsverðinu", "innflutningsverðsins"]
+	},
+	"kennistrengur": "no-innflutningsverð-hk",
+	"hash": "48136275b076c79b763b3a06e4dcfbc8e4c542ab54b3fa1cf9476e8f482e8d35"
+}

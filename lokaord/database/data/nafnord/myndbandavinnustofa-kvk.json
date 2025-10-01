@@ -1,0 +1,35 @@
+{
+	"orð": "myndbandavinnustofa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mynd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "banda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-band-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"kennistrengur": "no-stofa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["myndbandavinnustofa", "myndbandavinnustofu", "myndbandavinnustofu", "myndbandavinnustofu"],
+		"mg": ["myndbandavinnustofan", "myndbandavinnustofuna", "myndbandavinnustofunni", "myndbandavinnustofunnar"]
+	},
+	"ft": {
+		"ág": ["myndbandavinnustofur", "myndbandavinnustofur", "myndbandavinnustofum", "myndbandavinnustofa"],
+		"mg": ["myndbandavinnustofurnar", "myndbandavinnustofurnar", "myndbandavinnustofunum", "myndbandavinnustofanna"]
+	},
+	"kennistrengur": "no-myndbandavinnustofa-kvk",
+	"hash": "d4145994b569ad5010ca279cecdd335619eb82eea0a3677f25aa1aa49cedfa0d"
+}

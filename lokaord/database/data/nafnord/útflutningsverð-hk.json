@@ -1,0 +1,27 @@
+{
+	"orð": "útflutningsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "flutnings",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["útflutningsverð", "útflutningsverð", "útflutningsverði", "útflutningsverðs"],
+		"mg": ["útflutningsverðið", "útflutningsverðið", "útflutningsverðinu", "útflutningsverðsins"]
+	},
+	"kennistrengur": "no-útflutningsverð-hk",
+	"hash": "ece1d5d99a66b1a56137d71632ec63db75d37f97d61909714f3fd06fe0a01bf8"
+}

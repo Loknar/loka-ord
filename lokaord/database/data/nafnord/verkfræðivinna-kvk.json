@@ -1,0 +1,27 @@
+{
+	"orð": "verkfræðivinna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verkfræðivinna", "verkfræðivinnu", "verkfræðivinnu", "verkfræðivinnu"],
+		"mg": ["verkfræðivinnan", "verkfræðivinnuna", "verkfræðivinnunni", "verkfræðivinnunnar"]
+	},
+	"kennistrengur": "no-verkfræðivinna-kvk",
+	"hash": "22e2bd1848c7cff3d8b80d6ba834929a59d533c6089d8695739f3e23dbd30828"
+}
