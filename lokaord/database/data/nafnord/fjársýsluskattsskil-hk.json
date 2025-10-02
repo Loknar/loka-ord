@@ -1,0 +1,31 @@
+{
+	"orð": "fjársýsluskattsskil",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"mynd": "skatts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-skil-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fjársýsluskattsskil", "fjársýsluskattsskil", "fjársýsluskattsskilum", "fjársýsluskattsskila"],
+		"mg": ["fjársýsluskattsskilin", "fjársýsluskattsskilin", "fjársýsluskattsskilunum", "fjársýsluskattsskilanna"]
+	},
+	"kennistrengur": "no-fjársýsluskattsskil-hk",
+	"hash": "9a59fd841f7b9560b393b1f2f30ab28fa0017172ec3a91fb3a2dd398708369f3"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "vátryggingaiðgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "ið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ið-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["vátryggingaiðgjald", "vátryggingaiðgjald", "vátryggingaiðgjaldi", "vátryggingaiðgjalds"],
+		"mg": ["vátryggingaiðgjaldið", "vátryggingaiðgjaldið", "vátryggingaiðgjaldinu", "vátryggingaiðgjaldsins"]
+	},
+	"ft": {
+		"ág": ["vátryggingaiðgjöld", "vátryggingaiðgjöld", "vátryggingaiðgjöldum", "vátryggingaiðgjalda"],
+		"mg": ["vátryggingaiðgjöldin", "vátryggingaiðgjöldin", "vátryggingaiðgjöldunum", "vátryggingaiðgjaldanna"]
+	},
+	"kennistrengur": "no-vátryggingaiðgjald-hk",
+	"hash": "4afea22f4570e1f94e523f48bbb5dfc24282daea885959e0978e3571909fabeb"
+}

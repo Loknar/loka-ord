@@ -1,0 +1,48 @@
+{
+	"orð": "félagsréttarlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"mynd": "réttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["félagsréttarlegur", "félagsréttarlegan", "félagsréttarlegum", "félagsréttarlegs"],
+				"kvk": ["félagsréttarleg", "félagsréttarlega", "félagsréttarlegri", "félagsréttarlegrar"],
+				"hk": ["félagsréttarlegt", "félagsréttarlegt", "félagsréttarlegu", "félagsréttarlegs"]
+			},
+			"ft": {
+				"kk": ["félagsréttarlegir", "félagsréttarlega", "félagsréttarlegum", "félagsréttarlegra"],
+				"kvk": ["félagsréttarlegar", "félagsréttarlegar", "félagsréttarlegum", "félagsréttarlegra"],
+				"hk": ["félagsréttarleg", "félagsréttarleg", "félagsréttarlegum", "félagsréttarlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["félagsréttarlegi", "félagsréttarlega", "félagsréttarlega", "félagsréttarlega"],
+				"kvk": ["félagsréttarlega", "félagsréttarlegu", "félagsréttarlegu", "félagsréttarlegu"],
+				"hk": ["félagsréttarlega", "félagsréttarlega", "félagsréttarlega", "félagsréttarlega"]
+			},
+			"ft": {
+				"kk": ["félagsréttarlegu", "félagsréttarlegu", "félagsréttarlegu", "félagsréttarlegu"],
+				"kvk": ["félagsréttarlegu", "félagsréttarlegu", "félagsréttarlegu", "félagsréttarlegu"],
+				"hk": ["félagsréttarlegu", "félagsréttarlegu", "félagsréttarlegu", "félagsréttarlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-félagsréttarlegur",
+	"hash": "7b5d9f713363eea35ad1da6096b240759c982310ed3ad96260bd1186e55640b0"
+}

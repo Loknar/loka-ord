@@ -1,0 +1,32 @@
+{
+	"orð": "meðalviðmiðunarverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"mynd": "miðunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-miðun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["meðalviðmiðunarverð", "meðalviðmiðunarverð", "meðalviðmiðunarverði", "meðalviðmiðunarverðs"],
+		"mg": ["meðalviðmiðunarverðið", "meðalviðmiðunarverðið", "meðalviðmiðunarverðinu", "meðalviðmiðunarverðsins"]
+	},
+	"kennistrengur": "no-meðalviðmiðunarverð-hk",
+	"hash": "d904c4a2b52710847413e6f69e4d6da7a8c2390ddee00ded1a187f93d7b227d7"
+}
