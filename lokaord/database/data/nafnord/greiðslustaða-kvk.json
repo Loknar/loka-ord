@@ -1,0 +1,22 @@
+{
+	"orð": "greiðslustaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslustaða", "greiðslustöðu", "greiðslustöðu", "greiðslustöðu"],
+		"mg": ["greiðslustaðan", "greiðslustöðuna", "greiðslustöðunni", "greiðslustöðunnar"]
+	},
+	"kennistrengur": "no-greiðslustaða-kvk",
+	"hash": "74e316d3bedb8d08ee49fc934eed39ebaf48217537e27ff8ab28e779e489a163"
+}

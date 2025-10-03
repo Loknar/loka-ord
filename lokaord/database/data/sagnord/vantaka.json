@@ -1,0 +1,87 @@
+{
+	"orð": "vantaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "van",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-van-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vantaka",
+		"sagnbót": "vantekið",
+		"boðháttur": {
+			"stýfður": "vantak",
+			"et": "vantaktu",
+			"ft": "vantakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vantek", "vantekur", "vantekur"],
+					"ft": ["vantökum", "vantakið", "vantaka"]
+				},
+				"þátíð": {
+					"et": ["vantók", "vantókst", "vantók"],
+					"ft": ["vantókum", "vantókuð", "vantóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vantaki", "vantakir", "vantaki"],
+					"ft": ["vantökum", "vantakið", "vantaki"]
+				},
+				"þátíð": {
+					"et": ["vantæki", "vantækir", "vantæki"],
+					"ft": ["vantækjum", "vantækjuð", "vantækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vantekurðu",
+					"ft": "vantakiði"
+				},
+				"þátíð": {
+					"et": "vantókstu",
+					"ft": "vantókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vantakirðu",
+					"ft": "vantakiði"
+				},
+				"þátíð": {
+					"et": "vantækirðu",
+					"ft": "vantækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vantakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vantekinn", "vantekinn", "vanteknum", "vantekins"],
+					"kvk": ["vantekin", "vantekna", "vantekinni", "vantekinnar"],
+					"hk": ["vantekið", "vantekið", "vanteknu", "vantekins"]
+				},
+				"ft": {
+					"kk": ["vanteknir", "vantekna", "vanteknum", "vantekinna"],
+					"kvk": ["vanteknar", "vanteknar", "vanteknum", "vantekinna"],
+					"hk": ["vantekin", "vantekin", "vanteknum", "vantekinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vantaka",
+	"hash": "024e5260a986132ff1c09f48a68079452cddde31b144ae6cfd4fab59ec110f74"
+}

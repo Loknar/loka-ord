@@ -1,0 +1,25 @@
+{
+	"orð": "greiðslufrestun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-frestun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslufrestun", "greiðslufrestun", "greiðslufrestun", "greiðslufrestunar"],
+		"mg": ["greiðslufrestunin", "greiðslufrestunina", "greiðslufrestuninni", "greiðslufrestunarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðslufrestanir", "greiðslufrestanir", "greiðslufrestunum", "greiðslufrestana"],
+		"mg": ["greiðslufrestanirnar", "greiðslufrestanirnar", "greiðslufrestununum", "greiðslufrestananna"]
+	},
+	"kennistrengur": "no-greiðslufrestun-kvk",
+	"hash": "f695f1e00317f396125ca96f2a540092e567b985069891cfafd62c8190d5d532"
+}

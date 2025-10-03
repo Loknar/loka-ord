@@ -1,0 +1,35 @@
+{
+	"orð": "endurgreiðslufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["endurgreiðslufjárhæð", "endurgreiðslufjárhæð", "endurgreiðslufjárhæð", "endurgreiðslufjárhæðar"],
+		"mg": ["endurgreiðslufjárhæðin", "endurgreiðslufjárhæðina", "endurgreiðslufjárhæðinni", "endurgreiðslufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["endurgreiðslufjárhæðir", "endurgreiðslufjárhæðir", "endurgreiðslufjárhæðum", "endurgreiðslufjárhæða"],
+		"mg": ["endurgreiðslufjárhæðirnar", "endurgreiðslufjárhæðirnar", "endurgreiðslufjárhæðunum", "endurgreiðslufjárhæðanna"]
+	},
+	"kennistrengur": "no-endurgreiðslufjárhæð-kvk",
+	"hash": "e66d756843bc362916535542f8662a467637577b1b0400080b8e5c3b4faa8dfb"
+}

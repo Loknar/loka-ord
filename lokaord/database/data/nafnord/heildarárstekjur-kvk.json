@@ -1,0 +1,27 @@
+{
+	"orð": "heildarárstekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "árs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarárstekjur", "heildarárstekjur", "heildarárstekjum", "heildarárstekna"],
+		"mg": ["heildarárstekjurnar", "heildarárstekjurnar", "heildarárstekjunum", "heildarársteknanna"]
+	},
+	"kennistrengur": "no-heildarárstekjur-kvk",
+	"hash": "408f0eb3f8b3541ddea533d1e783f510fd67cfbcd6ece24519349ad1606a8f0b"
+}
