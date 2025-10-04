@@ -1,0 +1,32 @@
+{
+	"orð": "utanríkisviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "utan",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-utan"
+		},
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["utanríkisviðskipti", "utanríkisviðskipti", "utanríkisviðskiptum", "utanríkisviðskipta"],
+		"mg": ["utanríkisviðskiptin", "utanríkisviðskiptin", "utanríkisviðskiptunum", "utanríkisviðskiptanna"]
+	},
+	"kennistrengur": "no-utanríkisviðskipti-hk",
+	"hash": "90ed829794c974d399a4d310683e45dfb12350b349e021cb6b10e25c4e409063"
+}

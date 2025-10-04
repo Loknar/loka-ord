@@ -1,0 +1,87 @@
+{
+	"orð": "skuldbreyta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-breyta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skuldbreyta",
+		"sagnbót": "skuldbreytt",
+		"boðháttur": {
+			"stýfður": "skuldbreyt",
+			"et": "skuldbreyttu",
+			"ft": "skuldbreytið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skuldbreyti", "skuldbreytir", "skuldbreytir"],
+					"ft": ["skuldbreytum", "skuldbreytið", "skuldbreyta"]
+				},
+				"þátíð": {
+					"et": ["skuldbreytti", "skuldbreyttir", "skuldbreytti"],
+					"ft": ["skuldbreyttum", "skuldbreyttuð", "skuldbreyttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skuldbreyti", "skuldbreytir", "skuldbreyti"],
+					"ft": ["skuldbreytum", "skuldbreytið", "skuldbreyti"]
+				},
+				"þátíð": {
+					"et": ["skuldbreytti", "skuldbreyttir", "skuldbreytti"],
+					"ft": ["skuldbreyttum", "skuldbreyttuð", "skuldbreyttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skuldbreytirðu",
+					"ft": "skuldbreytiði"
+				},
+				"þátíð": {
+					"et": "skuldbreyttirðu",
+					"ft": "skuldbreyttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skuldbreytirðu",
+					"ft": "skuldbreytiði"
+				},
+				"þátíð": {
+					"et": "skuldbreyttirðu",
+					"ft": "skuldbreyttuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skuldbreytandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skuldbreyttur", "skuldbreyttan", "skuldbreyttum", "skuldbreytts"],
+					"kvk": ["skuldbreytt", "skuldbreytta", "skuldbreyttri", "skuldbreyttrar"],
+					"hk": ["skuldbreytt", "skuldbreytt", "skuldbreyttu", "skuldbreytts"]
+				},
+				"ft": {
+					"kk": ["skuldbreyttir", "skuldbreytta", "skuldbreyttum", "skuldbreyttra"],
+					"kvk": ["skuldbreyttar", "skuldbreyttar", "skuldbreyttum", "skuldbreyttra"],
+					"hk": ["skuldbreytt", "skuldbreytt", "skuldbreyttum", "skuldbreyttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skuldbreyta",
+	"hash": "31011d9ec0c1c6d18bfd86234323d8c89536b029d7b04d865d18088bba3105fa"
+}

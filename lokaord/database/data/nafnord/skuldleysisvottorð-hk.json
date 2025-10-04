@@ -1,0 +1,35 @@
+{
+	"orð": "skuldleysisvottorð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "leysis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leysi-hk-ó"
+		},
+		{
+			"mynd": "vott",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vottur-kk"
+		},
+		{
+			"kennistrengur": "no-orð-hk"
+		}
+	],
+	"et": {
+		"ág": ["skuldleysisvottorð", "skuldleysisvottorð", "skuldleysisvottorði", "skuldleysisvottorðs"],
+		"mg": ["skuldleysisvottorðið", "skuldleysisvottorðið", "skuldleysisvottorðinu", "skuldleysisvottorðsins"]
+	},
+	"ft": {
+		"ág": ["skuldleysisvottorð", "skuldleysisvottorð", "skuldleysisvottorðum", "skuldleysisvottorða"],
+		"mg": ["skuldleysisvottorðin", "skuldleysisvottorðin", "skuldleysisvottorðunum", "skuldleysisvottorðanna"]
+	},
+	"kennistrengur": "no-skuldleysisvottorð-hk",
+	"hash": "471a2d1060a24fe53cfacce43109b7186476e6a951eea50f75b84a2979bd3dcd"
+}

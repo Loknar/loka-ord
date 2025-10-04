@@ -1,0 +1,48 @@
+{
+	"orð": "staðgreiðsluskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["staðgreiðsluskyldur", "staðgreiðsluskyldan", "staðgreiðsluskyldum", "staðgreiðsluskylds"],
+				"kvk": ["staðgreiðsluskyld", "staðgreiðsluskylda", "staðgreiðsluskyldri", "staðgreiðsluskyldrar"],
+				"hk": ["staðgreiðsluskylt", "staðgreiðsluskylt", "staðgreiðsluskyldu", "staðgreiðsluskylds"]
+			},
+			"ft": {
+				"kk": ["staðgreiðsluskyldir", "staðgreiðsluskylda", "staðgreiðsluskyldum", "staðgreiðsluskyldra"],
+				"kvk": ["staðgreiðsluskyldar", "staðgreiðsluskyldar", "staðgreiðsluskyldum", "staðgreiðsluskyldra"],
+				"hk": ["staðgreiðsluskyld", "staðgreiðsluskyld", "staðgreiðsluskyldum", "staðgreiðsluskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["staðgreiðsluskyldi", "staðgreiðsluskylda", "staðgreiðsluskylda", "staðgreiðsluskylda"],
+				"kvk": ["staðgreiðsluskylda", "staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu"],
+				"hk": ["staðgreiðsluskylda", "staðgreiðsluskylda", "staðgreiðsluskylda", "staðgreiðsluskylda"]
+			},
+			"ft": {
+				"kk": ["staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu"],
+				"kvk": ["staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu"],
+				"hk": ["staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu", "staðgreiðsluskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-staðgreiðsluskyldur",
+	"hash": "f00771dcdd817e51a985e3b78e83805bc7f13f1362dce4fad83373aaf9c36967"
+}

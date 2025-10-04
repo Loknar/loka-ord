@@ -1,0 +1,30 @@
+{
+	"orð": "skuldaskilmáli",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"kennistrengur": "no-máli-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaskilmáli", "skuldaskilmála", "skuldaskilmála", "skuldaskilmála"],
+		"mg": ["skuldaskilmálinn", "skuldaskilmálann", "skuldaskilmálanum", "skuldaskilmálans"]
+	},
+	"ft": {
+		"ág": ["skuldaskilmálar", "skuldaskilmála", "skuldaskilmálum", "skuldaskilmála"],
+		"mg": ["skuldaskilmálarnir", "skuldaskilmálana", "skuldaskilmálunum", "skuldaskilmálanna"]
+	},
+	"kennistrengur": "no-skuldaskilmáli-kk",
+	"hash": "0ca78bc1cef707a56774ec6199b6a6e0b68d2b2ec60d6238a7b6b28700ec2f43"
+}

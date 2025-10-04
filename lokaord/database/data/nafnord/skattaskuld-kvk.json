@@ -1,0 +1,25 @@
+{
+	"orð": "skattaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skattaskuld", "skattaskuld", "skattaskuld", "skattaskuldar"],
+		"mg": ["skattaskuldin", "skattaskuldina", "skattaskuldinni", "skattaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["skattaskuldir", "skattaskuldir", "skattaskuldum", "skattaskulda"],
+		"mg": ["skattaskuldirnar", "skattaskuldirnar", "skattaskuldunum", "skattaskuldanna"]
+	},
+	"kennistrengur": "no-skattaskuld-kvk",
+	"hash": "180d7a02885e17bd0a9d37006383fc0195896963a47a053828866f56889b4e88"
+}
