@@ -1,0 +1,27 @@
+{
+	"orð": "dulmálsgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "dul",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-dulur"
+		},
+		{
+			"mynd": "máls",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["dulmálsgögn", "dulmálsgögn", "dulmálsgögnum", "dulmálsgagna"],
+		"mg": ["dulmálsgögnin", "dulmálsgögnin", "dulmálsgögnunum", "dulmálsgagnanna"]
+	},
+	"kennistrengur": "no-dulmálsgögn-hk",
+	"hash": "304d7315aa387786831bd9be8eab57939545d39f3d8d88436f798fc08c8d4876"
+}

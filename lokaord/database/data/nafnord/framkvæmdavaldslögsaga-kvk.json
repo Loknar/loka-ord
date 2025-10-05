@@ -1,0 +1,37 @@
+{
+	"orð": "framkvæmdavaldslögsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "kvæmda",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kvæmd-kvk-ó"
+		},
+		{
+			"mynd": "valds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vald-hk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["framkvæmdavaldslögsaga", "framkvæmdavaldslögsögu", "framkvæmdavaldslögsögu", "framkvæmdavaldslögsögu"],
+		"mg": ["framkvæmdavaldslögsagan", "framkvæmdavaldslögsöguna", "framkvæmdavaldslögsögunni", "framkvæmdavaldslögsögunnar"]
+	},
+	"kennistrengur": "no-framkvæmdavaldslögsaga-kvk",
+	"hash": "e3aa768975aa7a23ca9fbacc982ad5f143e7cd6c6ece3e82b939161e4b329cb0"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluviðurkenning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "viður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-viður-ó"
+		},
+		{
+			"kennistrengur": "no-kenning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluviðurkenning", "greiðsluviðurkenningu", "greiðsluviðurkenningu", "greiðsluviðurkenningar"],
+		"mg": ["greiðsluviðurkenningin", "greiðsluviðurkenninguna", "greiðsluviðurkenningunni", "greiðsluviðurkenningarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðsluviðurkenningar", "greiðsluviðurkenningar", "greiðsluviðurkenningum", "greiðsluviðurkenninga"],
+		"mg": ["greiðsluviðurkenningarnar", "greiðsluviðurkenningarnar", "greiðsluviðurkenningunum", "greiðsluviðurkenninganna"]
+	},
+	"kennistrengur": "no-greiðsluviðurkenning-kvk",
+	"hash": "0df931f7f17ff17dcdb6cade4b2929e11faa99e451f5ee882ae414353fcf99c6"
+}

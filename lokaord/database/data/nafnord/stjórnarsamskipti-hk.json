@@ -1,0 +1,27 @@
+{
+	"orð": "stjórnarsamskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnarsamskipti", "stjórnarsamskipti", "stjórnarsamskiptum", "stjórnarsamskipta"],
+		"mg": ["stjórnarsamskiptin", "stjórnarsamskiptin", "stjórnarsamskiptunum", "stjórnarsamskiptanna"]
+	},
+	"kennistrengur": "no-stjórnarsamskipti-hk",
+	"hash": "b6a67360be6c710462f0342cdbcffc6f316d9d2da7114a3d4bcdcf89d96cfd58"
+}

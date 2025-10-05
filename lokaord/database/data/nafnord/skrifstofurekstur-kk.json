@@ -1,0 +1,27 @@
+{
+	"orð": "skrifstofurekstur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skrif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrif-hk"
+		},
+		{
+			"mynd": "stofu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stofa-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rekstur-kk"
+		}
+	],
+	"et": {
+		"ág": ["skrifstofurekstur", "skrifstofurekstur", "skrifstofurekstri", "skrifstofurekstrar"],
+		"mg": ["skrifstofureksturinn", "skrifstofureksturinn", "skrifstofurekstrinum", "skrifstofurekstrarins"]
+	},
+	"kennistrengur": "no-skrifstofurekstur-kk",
+	"hash": "d97a70995c823839b0420c4dae32ceee303293c2ac34e598a21f0e2ecf36bd64"
+}

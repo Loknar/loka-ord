@@ -1,0 +1,35 @@
+{
+	"orð": "bráðabirgðastarfsheimild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bráða",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-bráður"
+		},
+		{
+			"mynd": "birgða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birgð-kvk"
+		},
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"kennistrengur": "no-heimild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["bráðabirgðastarfsheimild", "bráðabirgðastarfsheimild", "bráðabirgðastarfsheimild", "bráðabirgðastarfsheimildar"],
+		"mg": ["bráðabirgðastarfsheimildin", "bráðabirgðastarfsheimildina", "bráðabirgðastarfsheimildinni", "bráðabirgðastarfsheimildarinnar"]
+	},
+	"ft": {
+		"ág": ["bráðabirgðastarfsheimildir", "bráðabirgðastarfsheimildir", "bráðabirgðastarfsheimildum", "bráðabirgðastarfsheimilda"],
+		"mg": ["bráðabirgðastarfsheimildirnar", "bráðabirgðastarfsheimildirnar", "bráðabirgðastarfsheimildunum", "bráðabirgðastarfsheimildanna"]
+	},
+	"kennistrengur": "no-bráðabirgðastarfsheimild-kvk",
+	"hash": "b3fa1b6ed44c807e07e92041085f83158f65923d8de124a9b37ab659f869f2b9"
+}

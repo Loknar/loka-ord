@@ -1,0 +1,30 @@
+{
+	"orð": "sóttvarnarregla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sótt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sótt-kvk"
+		},
+		{
+			"mynd": "varnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vörn-kvk"
+		},
+		{
+			"kennistrengur": "no-regla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sóttvarnarregla", "sóttvarnarreglu", "sóttvarnarreglu", "sóttvarnarreglu"],
+		"mg": ["sóttvarnarreglan", "sóttvarnarregluna", "sóttvarnarreglunni", "sóttvarnarreglunnar"]
+	},
+	"ft": {
+		"ág": ["sóttvarnarreglur", "sóttvarnarreglur", "sóttvarnarreglum", "sóttvarnarreglna"],
+		"mg": ["sóttvarnarreglurnar", "sóttvarnarreglurnar", "sóttvarnarreglunum", "sóttvarnarreglnanna"]
+	},
+	"kennistrengur": "no-sóttvarnarregla-kvk",
+	"hash": "98b76fb27648879edc932c1a10b144d90ecb40415126a2dee73a7dbd5703f437"
+}

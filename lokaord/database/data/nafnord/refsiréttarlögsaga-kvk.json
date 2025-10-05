@@ -1,0 +1,32 @@
+{
+	"orð": "refsiréttarlögsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "refsi",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-refsa"
+		},
+		{
+			"mynd": "réttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttur-kk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["refsiréttarlögsaga", "refsiréttarlögsögu", "refsiréttarlögsögu", "refsiréttarlögsögu"],
+		"mg": ["refsiréttarlögsagan", "refsiréttarlögsöguna", "refsiréttarlögsögunni", "refsiréttarlögsögunnar"]
+	},
+	"kennistrengur": "no-refsiréttarlögsaga-kvk",
+	"hash": "1a4236c2f6697500886d924d94fc5159b71b279b610f3a7929857f059a2339f6"
+}

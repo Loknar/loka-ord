@@ -1,0 +1,27 @@
+{
+	"orð": "merkjamálsgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "merkja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-merki-hk"
+		},
+		{
+			"mynd": "máls",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["merkjamálsgögn", "merkjamálsgögn", "merkjamálsgögnum", "merkjamálsgagna"],
+		"mg": ["merkjamálsgögnin", "merkjamálsgögnin", "merkjamálsgögnunum", "merkjamálsgagnanna"]
+	},
+	"kennistrengur": "no-merkjamálsgögn-hk",
+	"hash": "9964f32575e058cbb916ce6732e1fb7fc0e5a4443612ed3a0dc6edd00ea1d383"
+}

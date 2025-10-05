@@ -1,0 +1,30 @@
+{
+	"orð": "stjórnarboðleið",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "boð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"kennistrengur": "no-leið-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnarboðleið", "stjórnarboðleið", "stjórnarboðleið", "stjórnarboðleiðar"],
+		"mg": ["stjórnarboðleiðin", "stjórnarboðleiðina", "stjórnarboðleiðinni", "stjórnarboðleiðarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnarboðleiðir", "stjórnarboðleiðir", "stjórnarboðleiðum", "stjórnarboðleiða"],
+		"mg": ["stjórnarboðleiðirnar", "stjórnarboðleiðirnar", "stjórnarboðleiðunum", "stjórnarboðleiðanna"]
+	},
+	"kennistrengur": "no-stjórnarboðleið-kvk",
+	"hash": "31d26006982017ebc6ed9f39631b0d1ee2f8564fc2624bc974e47dc6cf2170bc"
+}

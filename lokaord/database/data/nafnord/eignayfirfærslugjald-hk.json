@@ -1,0 +1,35 @@
+{
+	"orð": "eignayfirfærslugjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"mynd": "færslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-færsla-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["eignayfirfærslugjald", "eignayfirfærslugjald", "eignayfirfærslugjaldi", "eignayfirfærslugjalds"],
+		"mg": ["eignayfirfærslugjaldið", "eignayfirfærslugjaldið", "eignayfirfærslugjaldinu", "eignayfirfærslugjaldsins"]
+	},
+	"ft": {
+		"ág": ["eignayfirfærslugjöld", "eignayfirfærslugjöld", "eignayfirfærslugjöldum", "eignayfirfærslugjalda"],
+		"mg": ["eignayfirfærslugjöldin", "eignayfirfærslugjöldin", "eignayfirfærslugjöldunum", "eignayfirfærslugjaldanna"]
+	},
+	"kennistrengur": "no-eignayfirfærslugjald-hk",
+	"hash": "0601b0751c5e4766991a76526f9322d4f08a721f9e497c0961bb556971a37b72"
+}
