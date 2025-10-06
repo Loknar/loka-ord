@@ -1,0 +1,22 @@
+{
+	"orð": "matarkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "matar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-matur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["matarkaup", "matarkaup", "matarkaupum", "matarkaupa"],
+		"mg": ["matarkaupin", "matarkaupin", "matarkaupunum", "matarkaupanna"]
+	},
+	"kennistrengur": "no-matarkaup-hk",
+	"hash": "af6feadc6a7258012aa70812b25a42773adb0633fa121bf764f52ceb314e4cab"
+}

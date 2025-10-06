@@ -1,0 +1,33 @@
+{
+	"orð": "Alþjóðaflugmálastofnun",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Alþjóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-alþjóð-kvk"
+		},
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stofnun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Alþjóðaflugmálastofnun", "Alþjóðaflugmálastofnun", "Alþjóðaflugmálastofnun", "Alþjóðaflugmálastofnunar"],
+		"mg": ["Alþjóðaflugmálastofnunin", "Alþjóðaflugmálastofnunina", "Alþjóðaflugmálastofnuninni", "Alþjóðaflugmálastofnunarinnar"]
+	},
+	"kennistrengur": "sérn.ön-Alþjóðaflugmálastofnun-kvk",
+	"hash": "9261d9bcb2a2ea632c0435063ad9f4dd235c0b00b0d65ee0de7e2f5f04122239"
+}

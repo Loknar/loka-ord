@@ -1,0 +1,37 @@
+{
+	"orð": "bráðabirgðafyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bráða",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-bráður"
+		},
+		{
+			"mynd": "birgða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birgð-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["bráðabirgðafyrirkomulag", "bráðabirgðafyrirkomulag", "bráðabirgðafyrirkomulagi", "bráðabirgðafyrirkomulags"],
+		"mg": ["bráðabirgðafyrirkomulagið", "bráðabirgðafyrirkomulagið", "bráðabirgðafyrirkomulaginu", "bráðabirgðafyrirkomulagsins"]
+	},
+	"kennistrengur": "no-bráðabirgðafyrirkomulag-hk",
+	"hash": "5509dda5ac567bb537e4314621e92e98cdecc2f5edf91a758bced933fedf2126"
+}

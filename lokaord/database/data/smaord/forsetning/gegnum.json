@@ -2,7 +2,17 @@
 	"orð": "gegnum",
 	"flokkur": "smáorð",
 	"undirflokkur": "forsetning",
+	"samsett": [
+		{
+			"mynd": "gegn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-gegn"
+		},
+		{
+			"kennistrengur": "smáo.fs-um"
+		}
+	],
 	"stýrir": ["þolfałl"],
 	"kennistrengur": "smáo.fs-gegnum",
-	"hash": "13487867c299b30c94cbd0fde0f857ee657ccaa46e9741d45e4a6cd093ea6f93"
+	"hash": "8bc6711cfca7b7a494f4938bd1f4d3193f829639a9dd7eb25ca68660f68bb5b1"
 }
