@@ -1,0 +1,27 @@
+{
+	"orð": "innanlandserjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "innan",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-innan"
+		},
+		{
+			"mynd": "lands",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-erja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["innanlandserjur", "innanlandserjur", "innanlandserjum", "innanlandserja"],
+		"mg": ["innanlandserjurnar", "innanlandserjurnar", "innanlandserjunum", "innanlandserjanna"]
+	},
+	"kennistrengur": "no-innanlandserjur-kvk",
+	"hash": "ae62966470dae764f000742cb46bc5295be0d273a3ac1b2cdfd48d407e73c73d"
+}

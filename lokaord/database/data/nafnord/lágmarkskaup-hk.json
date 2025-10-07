@@ -1,0 +1,27 @@
+{
+	"orð": "lágmarkskaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarkskaup", "lágmarkskaup", "lágmarkskaupi", "lágmarkskaups"],
+		"mg": ["lágmarkskaupið", "lágmarkskaupið", "lágmarkskaupinu", "lágmarkskaupsins"]
+	},
+	"kennistrengur": "no-lágmarkskaup-hk",
+	"hash": "f6c7a2b2de64c71fe4ecd3bc412bda6731e2c37c6834f17b4ccbb89b503adfc6"
+}

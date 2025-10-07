@@ -1,0 +1,43 @@
+{
+	"orð": "varnartengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "varnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vörn-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["varnartengdur", "varnartengdan", "varnartengdum", "varnartengds"],
+				"kvk": ["varnartengd", "varnartengda", "varnartengdri", "varnartengdrar"],
+				"hk": ["varnartengt", "varnartengt", "varnartengdu", "varnartengds"]
+			},
+			"ft": {
+				"kk": ["varnartengdir", "varnartengda", "varnartengdum", "varnartengdra"],
+				"kvk": ["varnartengdar", "varnartengdar", "varnartengdum", "varnartengdra"],
+				"hk": ["varnartengd", "varnartengd", "varnartengdum", "varnartengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["varnartengdi", "varnartengda", "varnartengda", "varnartengda"],
+				"kvk": ["varnartengda", "varnartengdu", "varnartengdu", "varnartengdu"],
+				"hk": ["varnartengda", "varnartengda", "varnartengda", "varnartengda"]
+			},
+			"ft": {
+				"kk": ["varnartengdu", "varnartengdu", "varnartengdu", "varnartengdu"],
+				"kvk": ["varnartengdu", "varnartengdu", "varnartengdu", "varnartengdu"],
+				"hk": ["varnartengdu", "varnartengdu", "varnartengdu", "varnartengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-varnartengdur",
+	"hash": "6c63b5b1066e5825c1392dcaac8847c6848aae8b35f239b64947d99ce3c991d0"
+}

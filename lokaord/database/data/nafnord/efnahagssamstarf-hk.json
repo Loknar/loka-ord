@@ -1,0 +1,32 @@
+{
+	"orð": "efnahagssamstarf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-starf-hk"
+		}
+	],
+	"et": {
+		"ág": ["efnahagssamstarf", "efnahagssamstarf", "efnahagssamstarfi", "efnahagssamstarfs"],
+		"mg": ["efnahagssamstarfið", "efnahagssamstarfið", "efnahagssamstarfinu", "efnahagssamstarfsins"]
+	},
+	"kennistrengur": "no-efnahagssamstarf-hk",
+	"hash": "54bc77fb91dd4e9544e885eb8c951929511847839a2f803646e840795bd4729d"
+}

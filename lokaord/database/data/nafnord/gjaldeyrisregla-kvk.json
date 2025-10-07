@@ -1,0 +1,30 @@
+{
+	"orð": "gjaldeyrisregla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"kennistrengur": "no-regla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldeyrisregla", "gjaldeyrisreglu", "gjaldeyrisreglu", "gjaldeyrisreglu"],
+		"mg": ["gjaldeyrisreglan", "gjaldeyrisregluna", "gjaldeyrisreglunni", "gjaldeyrisreglunnar"]
+	},
+	"ft": {
+		"ág": ["gjaldeyrisreglur", "gjaldeyrisreglur", "gjaldeyrisreglum", "gjaldeyrisreglna"],
+		"mg": ["gjaldeyrisreglurnar", "gjaldeyrisreglurnar", "gjaldeyrisreglunum", "gjaldeyrisreglnanna"]
+	},
+	"kennistrengur": "no-gjaldeyrisregla-kvk",
+	"hash": "5f8eb739aa3b79f992b3bb89ec0afd723e2a7509f4860050b13d070a964720c0"
+}

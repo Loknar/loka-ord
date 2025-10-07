@@ -4,9 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hlutfalls",
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "falls",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hlutfałl-hk"
+			"kennistrengur": "no-fałl-hk"
 		},
 		{
 			"kennistrengur": "no-breyting-kvk"
@@ -21,5 +26,5 @@
 		"mg": ["hlutfallsbreytingarnar", "hlutfallsbreytingarnar", "hlutfallsbreytingunum", "hlutfallsbreytinganna"]
 	},
 	"kennistrengur": "no-hlutfallsbreyting-kvk",
-	"hash": "198e431a8bc68025e47909db04ce7a552b4e46713cbfd0346e069e0252c86259"
+	"hash": "ed9cbcb9b9cc84594dafaec1d3019ad2871e8cfdb5eedafe2f1968b2f070c931"
 }

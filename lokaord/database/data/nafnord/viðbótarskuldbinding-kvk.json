@@ -1,0 +1,30 @@
+{
+	"orð": "viðbótarskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["viðbótarskuldbinding", "viðbótarskuldbindingu", "viðbótarskuldbindingu", "viðbótarskuldbindingar"],
+		"mg": ["viðbótarskuldbindingin", "viðbótarskuldbindinguna", "viðbótarskuldbindingunni", "viðbótarskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["viðbótarskuldbindingar", "viðbótarskuldbindingar", "viðbótarskuldbindingum", "viðbótarskuldbindinga"],
+		"mg": ["viðbótarskuldbindingarnar", "viðbótarskuldbindingarnar", "viðbótarskuldbindingunum", "viðbótarskuldbindinganna"]
+	},
+	"kennistrengur": "no-viðbótarskuldbinding-kvk",
+	"hash": "f923b0dae73cf3e4029cb630d15a4be9c51bce6372f01533ae7215d72322fc51"
+}

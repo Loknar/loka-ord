@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluskuldbinding", "greiðsluskuldbindingu", "greiðsluskuldbindingu", "greiðsluskuldbindingar"],
+		"mg": ["greiðsluskuldbindingin", "greiðsluskuldbindinguna", "greiðsluskuldbindingunni", "greiðsluskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðsluskuldbindingar", "greiðsluskuldbindingar", "greiðsluskuldbindingum", "greiðsluskuldbindinga"],
+		"mg": ["greiðsluskuldbindingarnar", "greiðsluskuldbindingarnar", "greiðsluskuldbindingunum", "greiðsluskuldbindinganna"]
+	},
+	"kennistrengur": "no-greiðsluskuldbinding-kvk",
+	"hash": "5e9bde580895c9def8f7430cd3a79f329ff0efa1d12b410120a1de96ba3e7238"
+}

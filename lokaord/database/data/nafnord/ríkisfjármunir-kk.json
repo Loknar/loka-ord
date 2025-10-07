@@ -1,0 +1,27 @@
+{
+	"orð": "ríkisfjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["ríkisfjármunir", "ríkisfjármuni", "ríkisfjármunum", "ríkisfjármuna"],
+		"mg": ["ríkisfjármunirnir", "ríkisfjármunina", "ríkisfjármununum", "ríkisfjármunanna"]
+	},
+	"kennistrengur": "no-ríkisfjármunir-kk",
+	"hash": "722a7cef31ebe770680042cebd3339d1502c8857416018e3b1f013d306dc79a6"
+}

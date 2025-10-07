@@ -3,9 +3,14 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "hlutfalls",
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "falls",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hlutfałl-hk"
+			"kennistrengur": "no-fałl-hk"
 		},
 		{
 			"kennistrengur": "lo-legur-ó"
@@ -78,5 +83,5 @@
 		}
 	},
 	"kennistrengur": "lo-hlutfallslegur",
-	"hash": "8db2e6b183f7b39102c0484ad9cbdb4f1ad69bc60d7ef062379e5ab4872b9aca"
+	"hash": "106bbefb46aaac9a722b52e4b5e9416bad0e34cee9c64eb3291da8aaa5d7ac4f"
 }
