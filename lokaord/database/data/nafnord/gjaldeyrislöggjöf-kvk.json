@@ -1,0 +1,35 @@
+{
+	"orð": "gjaldeyrislöggjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldeyrislöggjöf", "gjaldeyrislöggjöf", "gjaldeyrislöggjöf", "gjaldeyrislöggjafar"],
+		"mg": ["gjaldeyrislöggjöfin", "gjaldeyrislöggjöfina", "gjaldeyrislöggjöfinni", "gjaldeyrislöggjafarinnar"]
+	},
+	"ft": {
+		"ág": ["gjaldeyrislöggjafir", "gjaldeyrislöggjafir", "gjaldeyrislöggjöfum", "gjaldeyrislöggjafa"],
+		"mg": ["gjaldeyrislöggjafirnar", "gjaldeyrislöggjafirnar", "gjaldeyrislöggjöfunum", "gjaldeyrislöggjafanna"]
+	},
+	"kennistrengur": "no-gjaldeyrislöggjöf-kvk",
+	"hash": "b02bd8d61a2ca612088b2e55b0ac48b260fc1d5b4996ff81c97f48a45bf8ec0a"
+}

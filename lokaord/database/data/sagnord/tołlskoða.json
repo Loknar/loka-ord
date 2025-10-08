@@ -1,0 +1,131 @@
+{
+	"orð": "tołlskoða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tołl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tołlur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skoða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tołlskoða",
+		"sagnbót": "tołlskoðað",
+		"boðháttur": {
+			"stýfður": "tołlskoða",
+			"et": "tołlskoðaðu",
+			"ft": "tołlskoðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tołlskoða", "tołlskoðar", "tołlskoðar"],
+					"ft": ["tołlskoðum", "tołlskoðið", "tołlskoða"]
+				},
+				"þátíð": {
+					"et": ["tołlskoðaði", "tołlskoðaðir", "tołlskoðaði"],
+					"ft": ["tołlskoðuðum", "tołlskoðuðuð", "tołlskoðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tołlskoði", "tołlskoðir", "tołlskoði"],
+					"ft": ["tołlskoðum", "tołlskoðið", "tołlskoði"]
+				},
+				"þátíð": {
+					"et": ["tołlskoðaði", "tołlskoðaðir", "tołlskoðaði"],
+					"ft": ["tołlskoðuðum", "tołlskoðuðuð", "tołlskoðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tołlskoðarðu",
+					"ft": "tołlskoðiði"
+				},
+				"þátíð": {
+					"et": "tołlskoðaðirðu",
+					"ft": "tołlskoðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tołlskoðirðu",
+					"ft": "tołlskoðiði"
+				},
+				"þátíð": {
+					"et": "tołlskoðaðirðu",
+					"ft": "tołlskoðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tołlskoðast",
+		"sagnbót": "tołlskoðast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tołlskoðast", "tołlskoðast", "tołlskoðast"],
+					"ft": ["tołlskoðumst", "tołlskoðist", "tołlskoðast"]
+				},
+				"þátíð": {
+					"et": ["tołlskoðaðist", "tołlskoðaðist", "tołlskoðaðist"],
+					"ft": ["tołlskoðuðumst", "tołlskoðuðust", "tołlskoðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tołlskoðist", "tołlskoðist", "tołlskoðist"],
+					"ft": ["tołlskoðumst", "tołlskoðist", "tołlskoðist"]
+				},
+				"þátíð": {
+					"et": ["tołlskoðaðist", "tołlskoðaðist", "tołlskoðaðist"],
+					"ft": ["tołlskoðuðumst", "tołlskoðuðust", "tołlskoðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tołlskoðastu"
+				},
+				"þátíð": {
+					"et": "tołlskoðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tołlskoðistu"
+				},
+				"þátíð": {
+					"et": "tołlskoðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tołlskoðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tołlskoðaður", "tołlskoðaðan", "tołlskoðuðum", "tołlskoðaðs"],
+					"kvk": ["tołlskoðuð", "tołlskoðaða", "tołlskoðaðri", "tołlskoðaðrar"],
+					"hk": ["tołlskoðað", "tołlskoðað", "tołlskoðuðu", "tołlskoðaðs"]
+				},
+				"ft": {
+					"kk": ["tołlskoðaðir", "tołlskoðaða", "tołlskoðuum", "tołlskoðaðra"],
+					"kvk": ["tołlskoðaðar", "tołlskoðaðar", "tołlskoðuðum", "tołlskoðaðra"],
+					"hk": ["tołlskoðuð", "tołlskoðuð", "tołlskoðuðum", "tołlskoðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tołlskoða",
+	"hash": "991801edbdf25af0c069b8a6aeb4185d3e4724ba8f04f9a4f99ebbcc952194a4"
+}

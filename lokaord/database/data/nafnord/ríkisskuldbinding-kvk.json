@@ -1,0 +1,30 @@
+{
+	"orð": "ríkisskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ríkisskuldbinding", "ríkisskuldbindingu", "ríkisskuldbindingu", "ríkisskuldbindingar"],
+		"mg": ["ríkisskuldbindingin", "ríkisskuldbindinguna", "ríkisskuldbindingunni", "ríkisskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["ríkisskuldbindingar", "ríkisskuldbindingar", "ríkisskuldbindingum", "ríkisskuldbindinga"],
+		"mg": ["ríkisskuldbindingarnar", "ríkisskuldbindingarnar", "ríkisskuldbindingunum", "ríkisskuldbindinganna"]
+	},
+	"kennistrengur": "no-ríkisskuldbinding-kvk",
+	"hash": "f08ed8f484502a6ece8b43c4b1218697c539faa7b4d53eccd6925966c03773e5"
+}

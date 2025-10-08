@@ -1,0 +1,87 @@
+{
+	"orð": "úttaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "úttaka",
+		"sagnbót": "úttekið",
+		"boðháttur": {
+			"stýfður": "úttak",
+			"et": "úttaktu",
+			"ft": "úttakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["úttek", "úttekur", "úttekur"],
+					"ft": ["úttökum", "úttakið", "úttaka"]
+				},
+				"þátíð": {
+					"et": ["úttók", "úttókst", "úttók"],
+					"ft": ["úttókum", "úttókuð", "úttóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["úttaki", "úttakir", "úttaki"],
+					"ft": ["úttökum", "úttakið", "úttaki"]
+				},
+				"þátíð": {
+					"et": ["úttæki", "úttækir", "úttæki"],
+					"ft": ["úttækjum", "úttækjuð", "úttækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "úttekurðu",
+					"ft": "úttakiði"
+				},
+				"þátíð": {
+					"et": "úttókstu",
+					"ft": "úttókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "úttakirðu",
+					"ft": "úttakiði"
+				},
+				"þátíð": {
+					"et": "úttækirðu",
+					"ft": "úttækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "úttakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["úttekinn", "úttekinn", "útteknum", "úttekins"],
+					"kvk": ["úttekin", "úttekna", "úttekinni", "úttekinnar"],
+					"hk": ["úttekið", "úttekið", "útteknu", "úttekins"]
+				},
+				"ft": {
+					"kk": ["útteknir", "úttekna", "útteknum", "úttekinna"],
+					"kvk": ["útteknar", "útteknar", "útteknum", "úttekinna"],
+					"hk": ["úttekin", "úttekin", "útteknum", "úttekinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-úttaka",
+	"hash": "542a8eafa9a407b6c8f23305b791a67638db8424da978545253e9dd91d974369"
+}

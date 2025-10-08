@@ -1,0 +1,30 @@
+{
+	"orð": "kaupskrárnefnd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"kennistrengur": "no-nefnd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kaupskrárnefnd", "kaupskrárnefnd", "kaupskrárnefnd", "kaupskrárnefndar"],
+		"mg": ["kaupskrárnefndin", "kaupskrárnefndina", "kaupskrárnefndinni", "kaupskrárnefndarinnar"]
+	},
+	"ft": {
+		"ág": ["kaupskrárnefndir", "kaupskrárnefndir", "kaupskrárnefndum", "kaupskrárnefnda"],
+		"mg": ["kaupskrárnefndirnar", "kaupskrárnefndirnar", "kaupskrárnefndunum", "kaupskrárnefndanna"]
+	},
+	"kennistrengur": "no-kaupskrárnefnd-kvk",
+	"hash": "3418af53bd99601e928b68966fa6e3ac8e386a615ae5adb3f77b8e67a930c391"
+}
