@@ -1,0 +1,32 @@
+{
+	"orð": "lögreglusamstarf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "reglu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-regla-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-starf-hk"
+		}
+	],
+	"et": {
+		"ág": ["lögreglusamstarf", "lögreglusamstarf", "lögreglusamstarfi", "lögreglusamstarfs"],
+		"mg": ["lögreglusamstarfið", "lögreglusamstarfið", "lögreglusamstarfinu", "lögreglusamstarfsins"]
+	},
+	"kennistrengur": "no-lögreglusamstarf-hk",
+	"hash": "6aba6010208475164e5502bc72f5f1c6b21fcb98ab09207132435a3fefb9bc22"
+}
