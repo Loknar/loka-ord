@@ -1,0 +1,32 @@
+{
+	"orð": "löggæsluhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["löggæsluhagsmunir", "löggæsluhagsmuni", "löggæsluhagsmunum", "löggæsluhagsmuna"],
+		"mg": ["löggæsluhagsmunirnir", "löggæsluhagsmunina", "löggæsluhagsmununum", "löggæsluhagsmunanna"]
+	},
+	"kennistrengur": "no-löggæsluhagsmunir-kk",
+	"hash": "2f4974337862246c75d0c9e9ee0c4d5426288dfb8eb5d259dcdb69c91520c428"
+}

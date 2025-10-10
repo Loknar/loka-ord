@@ -1,0 +1,27 @@
+{
+	"orð": "lágmarksupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lágmarksupplýsingar", "lágmarksupplýsingar", "lágmarksupplýsingum", "lágmarksupplýsinga"],
+		"mg": ["lágmarksupplýsingarnar", "lágmarksupplýsingarnar", "lágmarksupplýsingunum", "lágmarksupplýsinganna"]
+	},
+	"kennistrengur": "no-lágmarksupplýsingar-kvk",
+	"hash": "49177211e538a1d879b2c3ce4fe0c74576e56eac3522cbe4a1662c7e3809ecda"
+}

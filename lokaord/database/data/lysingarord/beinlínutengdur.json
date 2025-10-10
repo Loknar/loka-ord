@@ -1,0 +1,48 @@
+{
+	"orð": "beinlínutengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bein",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bein-hk"
+		},
+		{
+			"mynd": "línu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lína-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["beinlínutengdur", "beinlínutengdan", "beinlínutengdum", "beinlínutengds"],
+				"kvk": ["beinlínutengd", "beinlínutengda", "beinlínutengdri", "beinlínutengdrar"],
+				"hk": ["beinlínutengt", "beinlínutengt", "beinlínutengdu", "beinlínutengds"]
+			},
+			"ft": {
+				"kk": ["beinlínutengdir", "beinlínutengda", "beinlínutengdum", "beinlínutengdra"],
+				"kvk": ["beinlínutengdar", "beinlínutengdar", "beinlínutengdum", "beinlínutengdra"],
+				"hk": ["beinlínutengd", "beinlínutengd", "beinlínutengdum", "beinlínutengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["beinlínutengdi", "beinlínutengda", "beinlínutengda", "beinlínutengda"],
+				"kvk": ["beinlínutengda", "beinlínutengdu", "beinlínutengdu", "beinlínutengdu"],
+				"hk": ["beinlínutengda", "beinlínutengda", "beinlínutengda", "beinlínutengda"]
+			},
+			"ft": {
+				"kk": ["beinlínutengdu", "beinlínutengdu", "beinlínutengdu", "beinlínutengdu"],
+				"kvk": ["beinlínutengdu", "beinlínutengdu", "beinlínutengdu", "beinlínutengdu"],
+				"hk": ["beinlínutengdu", "beinlínutengdu", "beinlínutengdu", "beinlínutengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-beinlínutengdur",
+	"hash": "16d75f1dbdad4ce138f61ef987b05e6059fa24e1417071e7cec78dedefbebcfa"
+}

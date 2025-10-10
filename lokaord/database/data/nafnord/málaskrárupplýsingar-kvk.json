@@ -1,0 +1,27 @@
+{
+	"orð": "málaskrárupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["málaskrárupplýsingar", "málaskrárupplýsingar", "málaskrárupplýsingum", "málaskrárupplýsinga"],
+		"mg": ["málaskrárupplýsingarnar", "málaskrárupplýsingarnar", "málaskrárupplýsingunum", "málaskrárupplýsinganna"]
+	},
+	"kennistrengur": "no-málaskrárupplýsingar-kvk",
+	"hash": "838a54fdceba07141afeab06bf0239398b21f62e4235a2d8f8ec1739d7592cdf"
+}

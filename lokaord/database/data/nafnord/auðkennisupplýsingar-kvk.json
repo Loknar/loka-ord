@@ -1,0 +1,27 @@
+{
+	"orð": "auðkennisupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "auð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-auður-kk"
+		},
+		{
+			"mynd": "kennis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kenni-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["auðkennisupplýsingar", "auðkennisupplýsingar", "auðkennisupplýsingum", "auðkennisupplýsinga"],
+		"mg": ["auðkennisupplýsingarnar", "auðkennisupplýsingarnar", "auðkennisupplýsingunum", "auðkennisupplýsinganna"]
+	},
+	"kennistrengur": "no-auðkennisupplýsingar-kvk",
+	"hash": "80957be0054978dee204de46cabffa1813c60f9aac31433919965f9bb5f0ce9c"
+}

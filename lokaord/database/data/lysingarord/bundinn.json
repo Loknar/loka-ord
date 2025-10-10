@@ -1,6 +1,16 @@
 {
 	"orð": "bundinn",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bund",
+			"samsetning": "stofn",
+			"kennistrengur": "so-binda"
+		},
+		{
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-bundinn",
-	"hash": "d57cbdaf435979f6a28415028653ce1dc67c537e56f489b487faf059f7749b23"
+	"hash": "e3c24674dfe5bb050fcd14eb372dfc89267ae765ae3cc7bcf65be58281316e47"
 }

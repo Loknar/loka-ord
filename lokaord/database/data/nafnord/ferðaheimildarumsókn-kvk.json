@@ -1,0 +1,35 @@
+{
+	"orð": "ferðaheimildarumsókn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "heimildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heimild-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"kennistrengur": "no-sókn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ferðaheimildarumsókn", "ferðaheimildarumsókn", "ferðaheimildarumsókn", "ferðaheimildarumsóknar"],
+		"mg": ["ferðaheimildarumsóknin", "ferðaheimildarumsóknina", "ferðaheimildarumsókninni", "ferðaheimildarumsóknarinnar"]
+	},
+	"ft": {
+		"ág": ["ferðaheimildarumsóknir", "ferðaheimildarumsóknir", "ferðaheimildarumsóknum", "ferðaheimildarumsókna"],
+		"mg": ["ferðaheimildarumsóknirnar", "ferðaheimildarumsóknirnar", "ferðaheimildarumsóknunum", "ferðaheimildarumsóknanna"]
+	},
+	"kennistrengur": "no-ferðaheimildarumsókn-kvk",
+	"hash": "83448a3c1bd11c38b9db1ef2b0a356e5c7c560a00e97a7c099a8a64f22ad7d32"
+}

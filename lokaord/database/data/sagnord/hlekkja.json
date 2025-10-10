@@ -56,7 +56,7 @@
 	},
 	"miðmynd": {
 		"nafnháttur": "hlekkjast",
-		"sagnbót": "hlekkjast",
+		"sagnbót": "hlekkst",
 		"boðháttur": {
 			"et": "hlekkjastu",
 			"ft": "hlekkist"
@@ -80,6 +80,29 @@
 				"þátíð": {
 					"et": ["hlekkjaðist", "hlekkjaðist", "hlekkjaðist"],
 					"ft": ["hlekkjuðumst", "hlekkjuðust", "hlekkjuðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlekkist", "hlekkist", "hlekkist"],
+					"ft": ["hlekkist", "hlekkist", "hlekkist"]
+				},
+				"þátíð": {
+					"et": ["hlekktist", "hlekktist", "hlekktist"],
+					"ft": ["hlekktist", "hlekktist", "hlekktist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlekkist", "hlekkist", "hlekkist"],
+					"ft": ["hlekkist", "hlekkist", "hlekkist"]
+				},
+				"þátíð": {
+					"et": ["hlekktist", "hlekktist", "hlekktist"],
+					"ft": ["hlekktist", "hlekktist", "hlekktist"]
 				}
 			}
 		},
@@ -132,5 +155,5 @@
 		}
 	},
 	"kennistrengur": "so-hlekkja",
-	"hash": "1ab1ed79e7ec5db52583ecb5af67e8482cd9a3a6aada63c7fba579d484e6939a"
+	"hash": "2509b3f81baeb02eb79cce213059e76748722c28f98c9e2b7fe793da7d3e5d39"
 }

@@ -1,0 +1,22 @@
+{
+	"orð": "ferðaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["ferðaupplýsingar", "ferðaupplýsingar", "ferðaupplýsingum", "ferðaupplýsinga"],
+		"mg": ["ferðaupplýsingarnar", "ferðaupplýsingarnar", "ferðaupplýsingunum", "ferðaupplýsinganna"]
+	},
+	"kennistrengur": "no-ferðaupplýsingar-kvk",
+	"hash": "8c68bdcc5d9b8544839ded247b7370177f6351b9733880f9c60c370c1539cdc1"
+}

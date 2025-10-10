@@ -1,0 +1,30 @@
+{
+	"orð": "gæsluflugvél",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"kennistrengur": "no-vél-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gæsluflugvél", "gæsluflugvél", "gæsluflugvél", "gæsluflugvélar"],
+		"mg": ["gæsluflugvélin", "gæsluflugvélina", "gæsluflugvélinni", "gæsluflugvélarinnar"]
+	},
+	"ft": {
+		"ág": ["gæsluflugvélar", "gæsluflugvélar", "gæsluflugvélum", "gæsluflugvéla"],
+		"mg": ["gæsluflugvélarnar", "gæsluflugvélarnar", "gæsluflugvélunum", "gæsluflugvélanna"]
+	},
+	"kennistrengur": "no-gæsluflugvél-kvk",
+	"hash": "d6e63e490fe3bbcea95b41f4bb7b70a847aa414f4db2d7b192990f0d5645242a"
+}

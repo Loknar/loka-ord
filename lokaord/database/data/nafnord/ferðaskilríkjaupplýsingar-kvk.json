@@ -1,0 +1,32 @@
+{
+	"orð": "ferðaskilríkjaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ferða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"mynd": "ríkja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["ferðaskilríkjaupplýsingar", "ferðaskilríkjaupplýsingar", "ferðaskilríkjaupplýsingum", "ferðaskilríkjaupplýsinga"],
+		"mg": ["ferðaskilríkjaupplýsingarnar", "ferðaskilríkjaupplýsingarnar", "ferðaskilríkjaupplýsingunum", "ferðaskilríkjaupplýsinganna"]
+	},
+	"kennistrengur": "no-ferðaskilríkjaupplýsingar-kvk",
+	"hash": "9e9ea88e0c864b7c2acb63edd2ce641bbd205264f7de94574e83e95205451e06"
+}

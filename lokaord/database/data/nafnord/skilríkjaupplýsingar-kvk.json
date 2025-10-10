@@ -1,0 +1,27 @@
+{
+	"orð": "skilríkjaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"mynd": "ríkja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["skilríkjaupplýsingar", "skilríkjaupplýsingar", "skilríkjaupplýsingum", "skilríkjaupplýsinga"],
+		"mg": ["skilríkjaupplýsingarnar", "skilríkjaupplýsingarnar", "skilríkjaupplýsingunum", "skilríkjaupplýsinganna"]
+	},
+	"kennistrengur": "no-skilríkjaupplýsingar-kvk",
+	"hash": "2edf7afca6d044dd024b349eaf2bbe72aa2cd88a293318d55b34435174d5bf35"
+}

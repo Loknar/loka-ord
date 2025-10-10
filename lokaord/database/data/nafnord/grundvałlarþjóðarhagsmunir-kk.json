@@ -1,0 +1,37 @@
+{
+	"orð": "grundvałlarþjóðarhagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "grund",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grund-kvk"
+		},
+		{
+			"mynd": "vałlar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vöłlur-kk"
+		},
+		{
+			"mynd": "þjóðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["grundvałlarþjóðarhagsmunir", "grundvałlarþjóðarhagsmuni", "grundvałlarþjóðarhagsmunum", "grundvałlarþjóðarhagsmuna"],
+		"mg": ["grundvałlarþjóðarhagsmunirnir", "grundvałlarþjóðarhagsmunina", "grundvałlarþjóðarhagsmununum", "grundvałlarþjóðarhagsmunanna"]
+	},
+	"kennistrengur": "no-grundvałlarþjóðarhagsmunir-kk",
+	"hash": "f53e7e66169b0e9e044076b341ac3f512b6c8d744df80df8a8ae143cbe9c8e44"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "umferðarstjórn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "ferðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stjórn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["umferðarstjórn", "umferðarstjórn", "umferðarstjórn", "umferðarstjórnar"],
+		"mg": ["umferðarstjórnin", "umferðarstjórnina", "umferðarstjórninni", "umferðarstjórnarinnar"]
+	},
+	"kennistrengur": "no-umferðarstjórn-kvk",
+	"hash": "fb0becbc4325fa9acc1fda944e3131ae2b5025cc1e882a3c188c77d590e4c763"
+}

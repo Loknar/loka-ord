@@ -1,0 +1,27 @@
+{
+	"orð": "starfslokaaldur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "loka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lok-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aldur-kk"
+		}
+	],
+	"et": {
+		"ág": ["starfslokaaldur", "starfslokaaldur", "starfslokaaldri", "starfslokaaldurs"],
+		"mg": ["starfslokaaldurinn", "starfslokaaldurinn", "starfslokaaldrinum", "starfslokaaldursins"]
+	},
+	"kennistrengur": "no-starfslokaaldur-kk",
+	"hash": "60e98de2e55fb35222ebeaaf296cd134bd94b1567ef15e25e69d790ed41508eb"
+}

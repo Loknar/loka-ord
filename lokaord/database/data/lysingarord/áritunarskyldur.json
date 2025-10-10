@@ -1,0 +1,43 @@
+{
+	"orð": "áritunarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "áritunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-áritun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["áritunarskyldur", "áritunarskyldan", "áritunarskyldum", "áritunarskylds"],
+				"kvk": ["áritunarskyld", "áritunarskylda", "áritunarskyldri", "áritunarskyldrar"],
+				"hk": ["áritunarskylt", "áritunarskylt", "áritunarskyldu", "áritunarskylds"]
+			},
+			"ft": {
+				"kk": ["áritunarskyldir", "áritunarskylda", "áritunarskyldum", "áritunarskyldra"],
+				"kvk": ["áritunarskyldar", "áritunarskyldar", "áritunarskyldum", "áritunarskyldra"],
+				"hk": ["áritunarskyld", "áritunarskyld", "áritunarskyldum", "áritunarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["áritunarskyldi", "áritunarskylda", "áritunarskylda", "áritunarskylda"],
+				"kvk": ["áritunarskylda", "áritunarskyldu", "áritunarskyldu", "áritunarskyldu"],
+				"hk": ["áritunarskylda", "áritunarskylda", "áritunarskylda", "áritunarskylda"]
+			},
+			"ft": {
+				"kk": ["áritunarskyldu", "áritunarskyldu", "áritunarskyldu", "áritunarskyldu"],
+				"kvk": ["áritunarskyldu", "áritunarskyldu", "áritunarskyldu", "áritunarskyldu"],
+				"hk": ["áritunarskyldu", "áritunarskyldu", "áritunarskyldu", "áritunarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-áritunarskyldur",
+	"hash": "9bb0dfafa5c1f591ce493ded174771ca6ca801a0fe16734ebd9eaf9050d3d226"
+}
