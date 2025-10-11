@@ -1,0 +1,30 @@
+{
+	"orð": "skoteldavara",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skot",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skot-hk"
+		},
+		{
+			"mynd": "elda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eldur-kk"
+		},
+		{
+			"kennistrengur": "no-vara-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skoteldavara", "skoteldavöru", "skoteldavöru", "skoteldavöru"],
+		"mg": ["skoteldavaran", "skoteldavöruna", "skoteldavörunni", "skoteldavörunnar"]
+	},
+	"ft": {
+		"ág": ["skoteldavörur", "skoteldavörur", "skoteldavörum", "skoteldavara"],
+		"mg": ["skoteldavörurnar", "skoteldavörurnar", "skoteldavörunum", "skoteldavaranna"]
+	},
+	"kennistrengur": "no-skoteldavara-kvk",
+	"hash": "573697f4e84540850793e3ee37666c61082593bbc6a1a72dd1ea251ef7f6bedb"
+}

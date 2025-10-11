@@ -1,0 +1,99 @@
+{
+	"orð": "handhlaða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-hlaða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handhlaða",
+		"sagnbót": "handhlaðið",
+		"boðháttur": {
+			"stýfður": "handhlað",
+			"et": "handhladdu",
+			"ft": "handhlaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handhleð", "handhleður", "handhleður"],
+					"ft": ["handhlöðum", "handhlaðið", "handhlaða"]
+				},
+				"þátíð": {
+					"et": ["handhlóð", "handhlóðst", "handhlóð"],
+					"ft": ["handhlóðum", "handhlóðuð", "handhlóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handhlaði", "handhlaðir", "handhlaði"],
+					"ft": ["handhlöðum", "handhlaðið", "handhlaði"]
+				},
+				"þátíð": {
+					"et": ["handhlæði", "handhlæðir", "handhlæði"],
+					"ft": ["handhlæðum", "handhlæðuð", "handhlæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handhleðurðu",
+					"ft": "handhlaðiði"
+				},
+				"þátíð": {
+					"et": "handhlóðstu",
+					"ft": "handhlóðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handhlaðirðu",
+					"ft": "handhlaðiði"
+				},
+				"þátíð": {
+					"et": "handhlæðirðu",
+					"ft": "handhlæðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handhlaðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handhlaðinn", "handhlaðinn", "handhlöðnum", "handhlaðins"],
+					"kvk": ["handhlaðin", "handhlaðna", "handhlaðinni", "handhlaðinnar"],
+					"hk": ["handhlaðið", "handhlaðið", "handhlöðnu", "handhlaðins"]
+				},
+				"ft": {
+					"kk": ["handhlaðnir", "handhlaðna", "handhlöðnum", "handhlaðinna"],
+					"kvk": ["handhlaðnar", "handhlaðnar", "handhlöðnum", "handhlaðinna"],
+					"hk": ["handhlaðin", "handhlaðin", "handhlöðnum", "handhlaðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handhlaðni", "handhlaðna", "handhlaðna", "handhlaðna"],
+					"kvk": ["handhlaðna", "handhlöðnu", "handhlöðnu", "handhlöðnu"],
+					"hk": ["handhlaðna", "handhlaðna", "handhlaðna", "handhlaðna"]
+				},
+				"ft": {
+					"kk": ["handhlöðnu", "handhlöðnu", "handhlöðnu", "handhlöðnu"],
+					"kvk": ["handhlöðnu", "handhlöðnu", "handhlöðnu", "handhlöðnu"],
+					"hk": ["handhlöðnu", "handhlöðnu", "handhlöðnu", "handhlöðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handhlaða",
+	"hash": "7ada7ac5e490bdc780e2883bb992cd7ea32746c88f8be8ead9ad673f806b1ff7"
+}

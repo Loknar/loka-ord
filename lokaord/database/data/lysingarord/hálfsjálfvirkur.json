@@ -1,0 +1,48 @@
+{
+	"orð": "hálfsjálfvirkur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hálf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"mynd": "sjálf",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.áb-sjálfur"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-virkur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hálfsjálfvirkur", "hálfsjálfvirkan", "hálfsjálfvirkum", "hálfsjálfvirks"],
+				"kvk": ["hálfsjálfvirk", "hálfsjálfvirka", "hálfsjálfvirkri", "hálfsjálfvirkrar"],
+				"hk": ["hálfsjálfvirkt", "hálfsjálfvirkt", "hálfsjálfvirku", "hálfsjálfvirks"]
+			},
+			"ft": {
+				"kk": ["hálfsjálfvirkir", "hálfsjálfvirka", "hálfsjálfvirkum", "hálfsjálfvirkra"],
+				"kvk": ["hálfsjálfvirkar", "hálfsjálfvirkar", "hálfsjálfvirkum", "hálfsjálfvirkra"],
+				"hk": ["hálfsjálfvirk", "hálfsjálfvirk", "hálfsjálfvirkum", "hálfsjálfvirkra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hálfsjálfvirki", "hálfsjálfvirka", "hálfsjálfvirka", "hálfsjálfvirka"],
+				"kvk": ["hálfsjálfvirka", "hálfsjálfvirku", "hálfsjálfvirku", "hálfsjálfvirku"],
+				"hk": ["hálfsjálfvirka", "hálfsjálfvirka", "hálfsjálfvirka", "hálfsjálfvirka"]
+			},
+			"ft": {
+				"kk": ["hálfsjálfvirku", "hálfsjálfvirku", "hálfsjálfvirku", "hálfsjálfvirku"],
+				"kvk": ["hálfsjálfvirku", "hálfsjálfvirku", "hálfsjálfvirku", "hálfsjálfvirku"],
+				"hk": ["hálfsjálfvirku", "hálfsjálfvirku", "hálfsjálfvirku", "hálfsjálfvirku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hálfsjálfvirkur",
+	"hash": "aa3027924f10a158d55418b83dbc93ff70af6e1b8ed9c2d835f18f700e3cfc04"
+}

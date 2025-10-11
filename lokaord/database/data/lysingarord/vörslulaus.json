@@ -1,0 +1,43 @@
+{
+	"orð": "vörslulaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vörslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vörslulaus", "vörslulausan", "vörslulausum", "vörslulauss"],
+				"kvk": ["vörslulaus", "vörslulausa", "vörslulausri", "vörslulausrar"],
+				"hk": ["vörslulaust", "vörslulaust", "vörslulausu", "vörslulauss"]
+			},
+			"ft": {
+				"kk": ["vörslulausir", "vörslulausa", "vörslulausum", "vörslulausra"],
+				"kvk": ["vörslulausar", "vörslulausar", "vörslulausum", "vörslulausra"],
+				"hk": ["vörslulaus", "vörslulaus", "vörslulausum", "vörslulausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vörslulausi", "vörslulausa", "vörslulausa", "vörslulausa"],
+				"kvk": ["vörslulausa", "vörslulausu", "vörslulausu", "vörslulausu"],
+				"hk": ["vörslulausa", "vörslulausa", "vörslulausa", "vörslulausa"]
+			},
+			"ft": {
+				"kk": ["vörslulausu", "vörslulausu", "vörslulausu", "vörslulausu"],
+				"kvk": ["vörslulausu", "vörslulausu", "vörslulausu", "vörslulausu"],
+				"hk": ["vörslulausu", "vörslulausu", "vörslulausu", "vörslulausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-vörslulaus",
+	"hash": "f88bb46ee9713c379726a3c8f347319e2f21c763fa6cc8bd83c0716f12af5311"
+}

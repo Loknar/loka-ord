@@ -1,0 +1,30 @@
+{
+	"orð": "flugeldavara",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"mynd": "elda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eldur-kk"
+		},
+		{
+			"kennistrengur": "no-vara-kvk"
+		}
+	],
+	"et": {
+		"ág": ["flugeldavara", "flugeldavöru", "flugeldavöru", "flugeldavöru"],
+		"mg": ["flugeldavaran", "flugeldavöruna", "flugeldavörunni", "flugeldavörunnar"]
+	},
+	"ft": {
+		"ág": ["flugeldavörur", "flugeldavörur", "flugeldavörum", "flugeldavara"],
+		"mg": ["flugeldavörurnar", "flugeldavörurnar", "flugeldavörunum", "flugeldavaranna"]
+	},
+	"kennistrengur": "no-flugeldavara-kvk",
+	"hash": "d53cb7ec046585db5a6f0b13282593ed7f0a8c5bc43bbc462a74ceff992cbd88"
+}
