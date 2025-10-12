@@ -1,0 +1,48 @@
+{
+	"orð": "ógjaldkræfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kræfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ógjaldkræfur", "ógjaldkræfan", "ógjaldkræfum", "ógjaldkræfs"],
+				"kvk": ["ógjaldkræf", "ógjaldkræfa", "ógjaldkræfri", "ógjaldkræfrar"],
+				"hk": ["ógjaldkræft", "ógjaldkræft", "ógjaldkræfu", "ógjaldkræfs"]
+			},
+			"ft": {
+				"kk": ["ógjaldkræfir", "ógjaldkræfa", "ógjaldkræfum", "ógjaldkræfra"],
+				"kvk": ["ógjaldkræfar", "ógjaldkræfar", "ógjaldkræfum", "ógjaldkræfra"],
+				"hk": ["ógjaldkræf", "ógjaldkræf", "ógjaldkræfum", "ógjaldkræfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ógjaldkræfi", "ógjaldkræfa", "ógjaldkræfa", "ógjaldkræfa"],
+				"kvk": ["ógjaldkræfa", "ógjaldkræfu", "ógjaldkræfu", "ógjaldkræfu"],
+				"hk": ["ógjaldkræfa", "ógjaldkræfa", "ógjaldkræfa", "ógjaldkræfa"]
+			},
+			"ft": {
+				"kk": ["ógjaldkræfu", "ógjaldkræfu", "ógjaldkræfu", "ógjaldkræfu"],
+				"kvk": ["ógjaldkræfu", "ógjaldkræfu", "ógjaldkræfu", "ógjaldkræfu"],
+				"hk": ["ógjaldkræfu", "ógjaldkræfu", "ógjaldkræfu", "ógjaldkræfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ógjaldkræfur",
+	"hash": "c00d6da37cbf876047f81b0c16f9038aea99744a219dd9702c8a13aaa84efa28"
+}

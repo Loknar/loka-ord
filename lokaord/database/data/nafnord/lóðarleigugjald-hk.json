@@ -1,0 +1,30 @@
+{
+	"orð": "lóðarleigugjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lóðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lóð-kvk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["lóðarleigugjald", "lóðarleigugjald", "lóðarleigugjaldi", "lóðarleigugjalds"],
+		"mg": ["lóðarleigugjaldið", "lóðarleigugjaldið", "lóðarleigugjaldinu", "lóðarleigugjaldsins"]
+	},
+	"ft": {
+		"ág": ["lóðarleigugjöld", "lóðarleigugjöld", "lóðarleigugjöldum", "lóðarleigugjalda"],
+		"mg": ["lóðarleigugjöldin", "lóðarleigugjöldin", "lóðarleigugjöldunum", "lóðarleigugjaldanna"]
+	},
+	"kennistrengur": "no-lóðarleigugjald-hk",
+	"hash": "1d961fdda63b833c978fc32fd5e37dde3c90df47b724f6d149e7a0e0843533c6"
+}

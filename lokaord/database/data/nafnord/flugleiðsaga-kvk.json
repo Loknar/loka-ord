@@ -1,0 +1,27 @@
+{
+	"orð": "flugleiðsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leið-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["flugleiðsaga", "flugleiðsögu", "flugleiðsögu", "flugleiðsögu"],
+		"mg": ["flugleiðsagan", "flugleiðsöguna", "flugleiðsögunni", "flugleiðsögunnar"]
+	},
+	"kennistrengur": "no-flugleiðsaga-kvk",
+	"hash": "a0aef82378f0569e7a3f304e622cc6863e329eac628f387bd261068249ad34b1"
+}

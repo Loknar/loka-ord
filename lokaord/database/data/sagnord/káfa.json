@@ -1,0 +1,135 @@
+{
+	"orð": "káfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "káf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-káf-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "káfa",
+		"sagnbót": "káfað",
+		"boðháttur": {
+			"stýfður": "káfa",
+			"et": "káfaðu",
+			"ft": "káfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["káfa", "káfar", "káfar"],
+					"ft": ["káfum", "káfið", "káfa"]
+				},
+				"þátíð": {
+					"et": ["káfaði", "káfaðir", "káfaði"],
+					"ft": ["káfuðum", "káfuðuð", "káfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["káfi", "káfir", "káfi"],
+					"ft": ["káfum", "káfið", "káfi"]
+				},
+				"þátíð": {
+					"et": ["káfaði", "káfaðir", "káfaði"],
+					"ft": ["káfuðum", "káfuðuð", "káfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "káfarðu",
+					"ft": "káfiði"
+				},
+				"þátíð": {
+					"et": "káfaðirðu",
+					"ft": "káfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "káfirðu",
+					"ft": "káfiði"
+				},
+				"þátíð": {
+					"et": "káfaðirðu",
+					"ft": "káfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "káfast",
+		"sagnbót": "káfast",
+		"boðháttur": {
+			"et": "káfastu",
+			"ft": "káfist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["káfast", "káfast", "káfast"],
+					"ft": ["káfumst", "káfist", "káfast"]
+				},
+				"þátíð": {
+					"et": ["káfaðist", "káfaðist", "káfaðist"],
+					"ft": ["káfuðumst", "káfuðust", "káfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["káfist", "káfist", "káfist"],
+					"ft": ["káfumst", "káfist", "káfist"]
+				},
+				"þátíð": {
+					"et": ["káfaðist", "káfaðist", "káfaðist"],
+					"ft": ["káfuðumst", "káfuðust", "káfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "káfastu"
+				},
+				"þátíð": {
+					"et": "káfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "káfistu"
+				},
+				"þátíð": {
+					"et": "káfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "káfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["káfaður", "káfaðan", "káfuðum", "káfaðs"],
+					"kvk": ["káfuð", "káfaða", "káfaðri", "káfaðrar"],
+					"hk": ["káfað", "káfað", "káfuðu", "káfaðs"]
+				},
+				"ft": {
+					"kk": ["káfaðir", "káfaða", "káfuðum", "káfaðra"],
+					"kvk": ["káfaðar", "káfaðar", "káfuðum", "káfaðra"],
+					"hk": ["káfuð", "káfuð", "káfuðum", "káfaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-káfa",
+	"hash": "0a515a0aa37ce1d13b6ea3025552db91851c482615ca668e58ac17e54ec002be"
+}

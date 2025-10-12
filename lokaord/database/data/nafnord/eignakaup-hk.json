@@ -1,0 +1,22 @@
+{
+	"orð": "eignakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["eignakaup", "eignakaup", "eignakaupum", "eignakaupa"],
+		"mg": ["eignakaupin", "eignakaupin", "eignakaupunum", "eignakaupanna"]
+	},
+	"kennistrengur": "no-eignakaup-hk",
+	"hash": "6c808acebb7da2d19ca34d73f86de9553b57b43e9893353a2a072330160cbfc7"
+}

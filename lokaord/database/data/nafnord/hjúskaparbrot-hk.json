@@ -4,9 +4,14 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "hjúskapar",
+			"mynd": "hjú",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hjú-hk"
+		},
+		{
+			"mynd": "skapar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hjúskapur-kk"
+			"kennistrengur": "no-skapur-kk-ó"
 		},
 		{
 			"kennistrengur": "no-brot-hk"
@@ -21,5 +26,5 @@
 		"mg": ["hjúskaparbrotin", "hjúskaparbrotin", "hjúskaparbrotunum", "hjúskaparbrotanna"]
 	},
 	"kennistrengur": "no-hjúskaparbrot-hk",
-	"hash": "bc170a942570524fabc0afa190e90a94a983a5246bde33fccfc023849555e87d"
+	"hash": "01175e326e2418e6222abf5c6659238ef8abdac32ce6138aab75e747e522c395"
 }

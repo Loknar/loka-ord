@@ -1,0 +1,135 @@
+{
+	"orð": "veikla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "veikl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veikla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veikla",
+		"sagnbót": "veiklað",
+		"boðháttur": {
+			"stýfður": "veikla",
+			"et": "veiklaðu",
+			"ft": "veiklið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veikla", "veiklar", "veiklar"],
+					"ft": ["veiklum", "veiklið", "veikla"]
+				},
+				"þátíð": {
+					"et": ["veiklaði", "veiklaðir", "veiklaði"],
+					"ft": ["veikluðum", "veikluðuð", "veikluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veikli", "veiklir", "veikli"],
+					"ft": ["veiklum", "veiklið", "veikli"]
+				},
+				"þátíð": {
+					"et": ["veiklaði", "veiklaðir", "veiklaði"],
+					"ft": ["veikluðum", "veikluðuð", "veikluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veiklarðu",
+					"ft": "veikliði"
+				},
+				"þátíð": {
+					"et": "veiklaðirðu",
+					"ft": "veikluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veiklirðu",
+					"ft": "veikliði"
+				},
+				"þátíð": {
+					"et": "veiklaðirðu",
+					"ft": "veikluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "veiklast",
+		"sagnbót": "veiklast",
+		"boðháttur": {
+			"et": "veiklastu",
+			"ft": "veiklist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veiklast", "veiklast", "veiklast"],
+					"ft": ["veiklumst", "veiklist", "veiklast"]
+				},
+				"þátíð": {
+					"et": ["veiklaðist", "veiklaðist", "veiklaðist"],
+					"ft": ["veikluðumst", "veikluðust", "veikluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veiklist", "veiklist", "veiklist"],
+					"ft": ["veiklumst", "veiklist", "veiklist"]
+				},
+				"þátíð": {
+					"et": ["veiklaðist", "veiklaðist", "veiklaðist"],
+					"ft": ["veikluðumst", "veikluðust", "veikluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veiklastu"
+				},
+				"þátíð": {
+					"et": "veiklaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veiklistu"
+				},
+				"þátíð": {
+					"et": "veiklaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veiklandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veiklaður", "veiklaðan", "veikluðum", "veiklaðs"],
+					"kvk": ["veikluð", "veiklaða", "veiklaðri", "veiklaðrar"],
+					"hk": ["veiklað", "veiklað", "veikluðu", "veiklaðs"]
+				},
+				"ft": {
+					"kk": ["veiklaðir", "veiklaða", "veikluðum", "veiklaðra"],
+					"kvk": ["veiklaðar", "veiklaðar", "veikluðum", "veiklaðra"],
+					"hk": ["veikluð", "veikluð", "veikluðum", "veiklaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-veikla",
+	"hash": "a52777d71a7bd423faac8971978e90775c2959c14ab98ea3c104d8ce5595ea71"
+}
