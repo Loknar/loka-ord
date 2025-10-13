@@ -1,0 +1,87 @@
+{
+	"orð": "eiðfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eið",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eiður-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eiðfesta",
+		"sagnbót": "eiðfest",
+		"boðháttur": {
+			"stýfður": "eiðfest",
+			"et": "eiðfestu",
+			"ft": "eiðfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eiðfesti", "eiðfestir", "eiðfestir"],
+					"ft": ["eiðfestum", "eiðfestið", "eiðfesta"]
+				},
+				"þátíð": {
+					"et": ["eiðfesti", "eiðfestir", "eiðfesti"],
+					"ft": ["eiðfestum", "eiðfestuð", "eiðfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eiðfesti", "eiðfestir", "eiðfesti"],
+					"ft": ["eiðfestum", "eiðfestið", "eiðfesti"]
+				},
+				"þátíð": {
+					"et": ["eiðfesti", "eiðfestir", "eiðfesti"],
+					"ft": ["eiðfestum", "eiðfestuð", "eiðfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eiðfestirðu",
+					"ft": "eiðfestiði"
+				},
+				"þátíð": {
+					"et": "eiðfestirðu",
+					"ft": "eiðfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eiðfestirðu",
+					"ft": "eiðfestiði"
+				},
+				"þátíð": {
+					"et": "eiðfestirðu",
+					"ft": "eiðfestuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eiðfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eiðfestur", "eiðfestan", "eiðfestum", "eiðfests"],
+					"kvk": ["eiðfest", "eiðfesta", "eiðfestri", "eiðfestrar"],
+					"hk": ["eiðfest", "eiðfest", "eiðfestu", "eiðfests"]
+				},
+				"ft": {
+					"kk": ["eiðfestir", "eiðfesta", "eiðfestum", "eiðfestra"],
+					"kvk": ["eiðfestar", "eiðfestar", "eiðfestum", "eiðfestra"],
+					"hk": ["eiðfest", "eiðfest", "eiðfestum", "eiðfestra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eiðfesta",
+	"hash": "8e6082a4934948e46d28a17e7cff67f359696c9755bd36b217e5c219e5f9b92a"
+}

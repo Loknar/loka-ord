@@ -1,0 +1,132 @@
+{
+	"orð": "fletja",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "fletja",
+		"sagnbót": "flatt",
+		"boðháttur": {
+			"stýfður": "flet",
+			"et": "flettu",
+			"ft": "fletjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flet", "fletur", "fletur"],
+					"ft": ["fletjum", "fletjið", "fletja"]
+				},
+				"þátíð": {
+					"et": ["flatti", "flattir", "flatti"],
+					"ft": ["flöttum", "flöttuð", "flöttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fletji", "fletjir", "fletji"],
+					"ft": ["fletjum", "fletjið", "fletji"]
+				},
+				"þátíð": {
+					"et": ["fletti", "flettir", "fletti"],
+					"ft": ["flettum", "flettuð", "flettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fleturðu",
+					"ft": "fletjiði"
+				},
+				"þátíð": {
+					"et": "flattirðu",
+					"ft": "flöttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fletjirðu",
+					"ft": "fletjiði"
+				},
+				"þátíð": {
+					"et": "flettirðu",
+					"ft": "flettuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fletjast",
+		"sagnbót": "flast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flest", "flest", "flest"],
+					"ft": ["fletjumst", "fletjist", "fletjast"]
+				},
+				"þátíð": {
+					"et": ["flattist", "flattist", "flattist"],
+					"ft": ["flöttumst", "flöttust", "flöttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fletjist", "fletjist", "fletjist"],
+					"ft": ["fletjumst", "fletjist", "fletjist"]
+				},
+				"þátíð": {
+					"et": ["flettist", "flettist", "flettist"],
+					"ft": ["flettumst", "flettust", "flettust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flestu"
+				},
+				"þátíð": {
+					"et": "flattistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fletjistu"
+				},
+				"þátíð": {
+					"et": "flettistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fletjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flattur", "flattan", "flöttum", "flatts"],
+					"kvk": ["flött", "flatta", "flattri", "flattrar"],
+					"hk": ["flatt", "flatt", "flöttu", "flatts"]
+				},
+				"ft": {
+					"kk": ["flattir", "flatta", "flöttum", "flattra"],
+					"kvk": ["flattar", "flattar", "flöttum", "flattra"],
+					"hk": ["flött", "flött", "flöttum", "flattra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["flatti", "flatta", "flatta", "flatta"],
+					"kvk": ["flatta", "flöttu", "flöttu", "flöttu"],
+					"hk": ["flatta", "flatta", "flatta", "flatta"]
+				},
+				"ft": {
+					"kk": ["flöttu", "flöttu", "flöttu", "flöttu"],
+					"kvk": ["flöttu", "flöttu", "flöttu", "flöttu"],
+					"hk": ["flöttu", "flöttu", "flöttu", "flöttu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fletja",
+	"hash": "a6a9bcccb9e78dd415381c2e94ed37fea3e6deeb4995fcaeaf6854b3b8f377cb"
+}

@@ -1,0 +1,110 @@
+{
+	"orð": "falbjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fal",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-falur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "falbjóða",
+		"sagnbót": "falboðið",
+		"boðháttur": {
+			"stýfður": "falbjóð",
+			"et": "falbjóddu",
+			"ft": "falbjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["falbýð", "falbýður", "falbýður"],
+					"ft": ["falbjóðum", "falbjóðið", "falbjóða"]
+				},
+				"þátíð": {
+					"et": ["falbauð", "falbauðst", "falbauð"],
+					"ft": ["falbuðum", "falbuðuð", "falbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["falbjóði", "falbjóðir", "falbjóði"],
+					"ft": ["falbjóðum", "falbjóðið", "falbjóði"]
+				},
+				"þátíð": {
+					"et": ["falbyði", "falbyðir", "falbyði"],
+					"ft": ["falbyðum", "falbyðuð", "falbyðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["falbýður", "falbýður", "falbýður"],
+					"ft": ["falbýður", "falbýður", "falbýður"]
+				},
+				"þátíð": {
+					"et": ["falbauð", "falbauð", "falbauð"],
+					"ft": ["falbauð", "falbauð", "falbauð"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["falbjóði", "falbjóði", "falbjóði"],
+					"ft": ["falbjóði", "falbjóði", "falbjóði"]
+				},
+				"þátíð": {
+					"et": ["falbyði", "falbyði", "falbyði"],
+					"ft": ["falbyði", "falbyði", "falbyði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "falbýðurðu",
+					"ft": "falbjóðiði"
+				},
+				"þátíð": {
+					"et": "falbauðstu",
+					"ft": "falbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "falbjóðirðu",
+					"ft": "falbjóðiði"
+				},
+				"þátíð": {
+					"et": "falbyðirðu",
+					"ft": "falbyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "falbjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["falboðinn", "falboðinn", "falboðnum", "falboðins"],
+					"kvk": ["falboðin", "falboðna", "falboðinni", "falboðinnar"],
+					"hk": ["falboðið", "falboðið", "falboðnu", "falboðins"]
+				},
+				"ft": {
+					"kk": ["falboðnir", "falboðna", "falboðnum", "falboðinna"],
+					"kvk": ["falboðnar", "falboðnar", "falboðnum", "falboðinna"],
+					"hk": ["falboðin", "falboðin", "falboðnum", "falboðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-falbjóða",
+	"hash": "c669f6032c124b5599d58dd11b7176d0e1ce793f665b17cda54f8403973057bf"
+}

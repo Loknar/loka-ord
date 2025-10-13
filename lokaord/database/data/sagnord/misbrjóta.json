@@ -1,0 +1,65 @@
+{
+	"orð": "misbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "misbrjóta",
+		"sagnbót": "misbrotið",
+		"boðháttur": {
+			"stýfður": "misbrjót",
+			"et": "misbrjóttu",
+			"ft": "misbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["misbrýt", "misbrýtur", "misbrýtur"],
+					"ft": ["misbrjótum", "misbrjótið", "misbrjóta"]
+				},
+				"þátíð": {
+					"et": ["misbraut", "misbraust", "misbraut"],
+					"ft": ["misbrutum", "misbrutuð", "misbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["misbrjóti", "misbrjótir", "misbrjóti"],
+					"ft": ["misbrjótum", "misbrjótið", "misbrjóti"]
+				},
+				"þátíð": {
+					"et": ["misbryti", "misbrytir", "misbryti"],
+					"ft": ["misbrytum", "misbrytuð", "misbrytu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "misbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["misbrotinn", "misbrotinn", "misbrotnum", "misbrotins"],
+					"kvk": ["misbrotin", "misbrotna", "misbrotinni", "misbrotinnar"],
+					"hk": ["misbrotið", "misbrotið", "misbrotnu", "misbrotins"]
+				},
+				"ft": {
+					"kk": ["misbrotnir", "misbrotna", "misbrotnum", "misbrotinna"],
+					"kvk": ["misbrotnar", "misbrotnar", "misbrotnum", "misbrotinna"],
+					"hk": ["misbrotin", "misbrotin", "misbrotnum", "misbrotinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-misbrjóta",
+	"hash": "75467bac614911d5a6880002d3a026efcb6c10e03dbeee90891bf14bca4fdb13"
+}

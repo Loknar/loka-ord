@@ -1,0 +1,32 @@
+{
+	"orð": "stjórnmálaaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["stjórnmálaaðstæður", "stjórnmálaaðstæður", "stjórnmálaaðstæðum", "stjórnmálaaðstæðna"],
+		"mg": ["stjórnmálaaðstæðurnar", "stjórnmálaaðstæðurnar", "stjórnmálaaðstæðunum", "stjórnmálaaðstæðnanna"]
+	},
+	"kennistrengur": "no-stjórnmálaaðstæður-kvk",
+	"hash": "160d803a3439d79727d0fed9ef6c8f8b246ca940510820c0c4054a0a89c0a170"
+}

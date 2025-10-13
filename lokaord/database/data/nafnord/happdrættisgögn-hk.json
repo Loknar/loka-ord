@@ -1,0 +1,27 @@
+{
+	"orð": "happdrættisgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "happ",
+			"samsetning": "stofn",
+			"kennistrengur": "no-happ-hk"
+		},
+		{
+			"mynd": "drættis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-drætti-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["happdrættisgögn", "happdrættisgögn", "happdrættisgögnum", "happdrættisgagna"],
+		"mg": ["happdrættisgögnin", "happdrættisgögnin", "happdrættisgögnunum", "happdrættisgagnanna"]
+	},
+	"kennistrengur": "no-happdrættisgögn-hk",
+	"hash": "31440a135395967cb90f1973dbbdb8e90d4db47a14eb9efcdd4866f5319b0d32"
+}

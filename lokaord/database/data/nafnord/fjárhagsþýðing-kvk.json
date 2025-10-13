@@ -1,0 +1,27 @@
+{
+	"orð": "fjárhagsþýðing",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-þýðing-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsþýðing", "fjárhagsþýðingu", "fjárhagsþýðingu", "fjárhagsþýðingar"],
+		"mg": ["fjárhagsþýðingin", "fjárhagsþýðinguna", "fjárhagsþýðingunni", "fjárhagsþýðingarinnar"]
+	},
+	"kennistrengur": "no-fjárhagsþýðing-kvk",
+	"hash": "5eae8a831c4fac8d1c28e4e8faf589eaa8a1b2ac1eb469800e31815287bee8f6"
+}

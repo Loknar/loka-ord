@@ -2,6 +2,16 @@
 	"orð": "koma",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kom",
+			"samsetning": "stofn",
+			"kennistrengur": "so-koma"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["koma", "komu", "komu", "komu"],
 		"mg": ["koman", "komuna", "komunni", "komunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["komurnar", "komurnar", "komunum", "komanna"]
 	},
 	"kennistrengur": "no-koma-kvk",
-	"hash": "18ea87f499ae07b27d2495d09efdd4502300ab36bcbc382962caf849a29b7577"
+	"hash": "23b6b4fe3afa46fbe154fbd6c9315b910ee790863068b2b93a26819a595f07f6"
 }

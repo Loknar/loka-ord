@@ -1,0 +1,140 @@
+{
+	"orð": "fułlkomna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fułl",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-fułl"
+		},
+		{
+			"mynd": "komn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kominn"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fułlkomna",
+		"sagnbót": "fułlkomnað",
+		"boðháttur": {
+			"stýfður": "fułlkomna",
+			"et": "fułlkomnaðu",
+			"ft": "fułlkomnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fułlkomna", "fułlkomnar", "fułlkomnar"],
+					"ft": ["fułlkomnum", "fułlkomnið", "fułlkomna"]
+				},
+				"þátíð": {
+					"et": ["fułlkomnaði", "fułlkomnaðir", "fułlkomnaði"],
+					"ft": ["fułlkomnuðum", "fułlkomnuðuð", "fułlkomnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fułlkomni", "fułlkomnir", "fułlkomni"],
+					"ft": ["fułlkomnum", "fułlkomnið", "fułlkomni"]
+				},
+				"þátíð": {
+					"et": ["fułlkomnaði", "fułlkomnaðir", "fułlkomnaði"],
+					"ft": ["fułlkomnuðum", "fułlkomnuðuð", "fułlkomnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fułlkomnarðu",
+					"ft": "fułlkomniði"
+				},
+				"þátíð": {
+					"et": "fułlkomnaðirðu",
+					"ft": "fułlkomnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fułlkomnirðu",
+					"ft": "fułlkomniði"
+				},
+				"þátíð": {
+					"et": "fułlkomnaðirðu",
+					"ft": "fułlkomnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fułlkomnast",
+		"sagnbót": "fułlkomnast",
+		"boðháttur": {
+			"et": "fułlkomnastu",
+			"ft": "fułlkomnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fułlkomnast", "fułlkomnast", "fułlkomnast"],
+					"ft": ["fułlkomnumst", "fułlkomnist", "fułlkomnast"]
+				},
+				"þátíð": {
+					"et": ["fułlkomnaðist", "fułlkomnaðist", "fułlkomnaðist"],
+					"ft": ["fułlkomnuðumst", "fułlkomnuðust", "fułlkomnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fułlkomnist", "fułlkomnist", "fułlkomnist"],
+					"ft": ["fułlkomnumst", "fułlkomnist", "fułlkomnist"]
+				},
+				"þátíð": {
+					"et": ["fułlkomnaðist", "fułlkomnaðist", "fułlkomnaðist"],
+					"ft": ["fułlkomnuðumst", "fułlkomnuðust", "fułlkomnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fułlkomnastu"
+				},
+				"þátíð": {
+					"et": "fułlkomnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fułlkomnistu"
+				},
+				"þátíð": {
+					"et": "fułlkomnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fułlkomnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fułlkomnaður", "fułlkomnaðan", "fułlkomnuðum", "fułlkomnaðs"],
+					"kvk": ["fułlkomnuð", "fułlkomnaða", "fułlkomnaðri", "fułlkomnaðrar"],
+					"hk": ["fułlkomnað", "fułlkomnað", "fułlkomnuðu", "fułlkomnaðs"]
+				},
+				"ft": {
+					"kk": ["fułlkomnaðir", "fułlkomnaða", "fułlkomnuðum", "fułlkomnaðra"],
+					"kvk": ["fułlkomnaðar", "fułlkomnaðar", "fułlkomnuðum", "fułlkomnaðra"],
+					"hk": ["fułlkomnuð", "fułlkomnuð", "fułlkomnuðum", "fułlkomnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fułlkomna",
+	"hash": "a868b81c757a763ac997c12b694400dbe5b357c8825934af74b6e4600a7011d5"
+}

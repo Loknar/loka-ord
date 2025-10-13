@@ -1,0 +1,92 @@
+{
+	"orð": "endurupptaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurupptaka",
+		"sagnbót": "endurupptekið",
+		"boðháttur": {
+			"stýfður": "endurupptak",
+			"et": "endurupptaktu",
+			"ft": "endurupptakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurupptek", "endurupptekur", "endurupptekur"],
+					"ft": ["endurupptökum", "endurupptakið", "endurupptaka"]
+				},
+				"þátíð": {
+					"et": ["endurupptók", "endurupptókst", "endurupptók"],
+					"ft": ["endurupptókum", "endurupptókuð", "endurupptóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurupptaki", "endurupptakir", "endurupptaki"],
+					"ft": ["endurupptökum", "endurupptakið", "endurupptaki"]
+				},
+				"þátíð": {
+					"et": ["endurupptæki", "endurupptækir", "endurupptæki"],
+					"ft": ["endurupptækjum", "endurupptækjuð", "endurupptækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurupptekurðu",
+					"ft": "endurupptakiði"
+				},
+				"þátíð": {
+					"et": "endurupptókstu",
+					"ft": "endurupptókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurupptakirðu",
+					"ft": "endurupptakiði"
+				},
+				"þátíð": {
+					"et": "endurupptækirðu",
+					"ft": "endurupptækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurupptakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurupptekinn", "endurupptekinn", "enduruppteknum", "endurupptekins"],
+					"kvk": ["endurupptekin", "endurupptekna", "endurupptekinni", "endurupptekinnar"],
+					"hk": ["endurupptekið", "endurupptekið", "enduruppteknu", "endurupptekins"]
+				},
+				"ft": {
+					"kk": ["enduruppteknir", "endurupptekna", "enduruppteknum", "endurupptekinna"],
+					"kvk": ["enduruppteknar", "enduruppteknar", "enduruppteknum", "endurupptekinna"],
+					"hk": ["endurupptekin", "endurupptekin", "enduruppteknum", "endurupptekinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurupptaka",
+	"hash": "e4aea195a420275455a03396015c387679182b89bc5a67adf73d3e5d7976e49b"
+}

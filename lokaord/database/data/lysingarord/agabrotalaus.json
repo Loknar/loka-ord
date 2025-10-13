@@ -1,0 +1,48 @@
+{
+	"orð": "agabrotalaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "aga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-agi-kk"
+		},
+		{
+			"mynd": "brota",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-brot-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["agabrotalaus", "agabrotalausan", "agabrotalausum", "agabrotalauss"],
+				"kvk": ["agabrotalaus", "agabrotalausa", "agabrotalausri", "agabrotalausrar"],
+				"hk": ["agabrotalaust", "agabrotalaust", "agabrotalausu", "agabrotalauss"]
+			},
+			"ft": {
+				"kk": ["agabrotalausir", "agabrotalausa", "agabrotalausum", "agabrotalausra"],
+				"kvk": ["agabrotalausar", "agabrotalausar", "agabrotalausum", "agabrotalausra"],
+				"hk": ["agabrotalaus", "agabrotalaus", "agabrotalausum", "agabrotalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["agabrotalausi", "agabrotalausa", "agabrotalausa", "agabrotalausa"],
+				"kvk": ["agabrotalausa", "agabrotalausu", "agabrotalausu", "agabrotalausu"],
+				"hk": ["agabrotalausa", "agabrotalausa", "agabrotalausa", "agabrotalausa"]
+			},
+			"ft": {
+				"kk": ["agabrotalausu", "agabrotalausu", "agabrotalausu", "agabrotalausu"],
+				"kvk": ["agabrotalausu", "agabrotalausu", "agabrotalausu", "agabrotalausu"],
+				"hk": ["agabrotalausu", "agabrotalausu", "agabrotalausu", "agabrotalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-agabrotalaus",
+	"hash": "eca45ab0213b32ba1c222605252611d2dae69ff37108277494ffef248ce15d20"
+}

@@ -1,0 +1,131 @@
+{
+	"orð": "heitfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-heit-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heitfesta",
+		"sagnbót": "heitfest",
+		"boðháttur": {
+			"stýfður": "heitfest",
+			"et": "heitfestu",
+			"ft": "heitfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heitfesti", "heitfestir", "heitfestir"],
+					"ft": ["heitfestum", "heitfestið", "heitfesta"]
+				},
+				"þátíð": {
+					"et": ["heitfesti", "heitfestir", "heitfesti"],
+					"ft": ["heitfestum", "heitfestuð", "heitfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heitfesti", "heitfestir", "heitfesti"],
+					"ft": ["heitfestum", "heitfestið", "heitfesti"]
+				},
+				"þátíð": {
+					"et": ["heitfesti", "heitfestir", "heitfesti"],
+					"ft": ["heitfestum", "heitfestuð", "heitfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heitfestirðu",
+					"ft": "heitfestiði"
+				},
+				"þátíð": {
+					"et": "heitfestirðu",
+					"ft": "heitfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heitfestirðu",
+					"ft": "heitfestiði"
+				},
+				"þátíð": {
+					"et": "heitfestirðu",
+					"ft": "heitfestuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "heitfestast",
+		"sagnbót": "heitfest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heitfestist", "heitfestist", "heitfestist"],
+					"ft": ["heitfestumst", "heitfestist", "heitfestast"]
+				},
+				"þátíð": {
+					"et": ["heitfestist", "heitfestist", "heitfestist"],
+					"ft": ["heitfestumst", "heitfestust", "heitfestust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heitfestist", "heitfestist", "heitfestist"],
+					"ft": ["heitfestumst", "heitfestist", "heitfestist"]
+				},
+				"þátíð": {
+					"et": ["heitfestist", "heitfestist", "heitfestist"],
+					"ft": ["heitfestumst", "heitfestust", "heitfestust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heitfestistu"
+				},
+				"þátíð": {
+					"et": "heitfestistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heitfestistu"
+				},
+				"þátíð": {
+					"et": "heitfestistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heitfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heitfestur", "heitfestan", "heitfestum", "heitfests"],
+					"kvk": ["heitfest", "heitfesta", "heitfestri", "heitfestrar"],
+					"hk": ["heitfest", "heitfest", "heitfestu", "heitfests"]
+				},
+				"ft": {
+					"kk": ["heitfestir", "heitfesta", "heitfestum", "heitfestra"],
+					"kvk": ["heitfestar", "heitfestar", "heitfestum", "heitfestra"],
+					"hk": ["heitfest", "heitfest", "heitfestum", "heitfestra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heitfesta",
+	"hash": "93d7df676fffb465042f8a69ee5a7b9679331e8da85a54ca909db8abc1bfa31f"
+}

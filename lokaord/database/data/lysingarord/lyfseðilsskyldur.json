@@ -1,0 +1,48 @@
+{
+	"orð": "lyfseðilsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lyf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lyf-hk"
+		},
+		{
+			"mynd": "seðils",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-seðiłl-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["lyfseðilsskyldur", "lyfseðilsskyldan", "lyfseðilsskyldum", "lyfseðilsskylds"],
+				"kvk": ["lyfseðilsskyld", "lyfseðilsskylda", "lyfseðilsskyldri", "lyfseðilsskyldrar"],
+				"hk": ["lyfseðilsskylt", "lyfseðilsskylt", "lyfseðilsskyldu", "lyfseðilsskylds"]
+			},
+			"ft": {
+				"kk": ["lyfseðilsskyldir", "lyfseðilsskylda", "lyfseðilsskyldum", "lyfseðilsskyldra"],
+				"kvk": ["lyfseðilsskyldar", "lyfseðilsskyldar", "lyfseðilsskyldum", "lyfseðilsskyldra"],
+				"hk": ["lyfseðilsskyld", "lyfseðilsskyld", "lyfseðilsskyldum", "lyfseðilsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lyfseðilsskyldi", "lyfseðilsskylda", "lyfseðilsskylda", "lyfseðilsskylda"],
+				"kvk": ["lyfseðilsskylda", "lyfseðilsskyldu", "lyfseðilsskyldu", "lyfseðilsskyldu"],
+				"hk": ["lyfseðilsskylda", "lyfseðilsskylda", "lyfseðilsskylda", "lyfseðilsskylda"]
+			},
+			"ft": {
+				"kk": ["lyfseðilsskyldu", "lyfseðilsskyldu", "lyfseðilsskyldu", "lyfseðilsskyldu"],
+				"kvk": ["lyfseðilsskyldu", "lyfseðilsskyldu", "lyfseðilsskyldu", "lyfseðilsskyldu"],
+				"hk": ["lyfseðilsskyldu", "lyfseðilsskyldu", "lyfseðilsskyldu", "lyfseðilsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-lyfseðilsskyldur",
+	"hash": "0f3c72d1677761b21bee5642194fb0a31ba5e3772eee1ba328856c5d0f566c0d"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "gæsluvarðhaldstími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "gæslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæsla-kvk"
+		},
+		{
+			"mynd": "varð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vörður-kk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["gæsluvarðhaldstími", "gæsluvarðhaldstíma", "gæsluvarðhaldstíma", "gæsluvarðhaldstíma"],
+		"mg": ["gæsluvarðhaldstíminn", "gæsluvarðhaldstímann", "gæsluvarðhaldstímanum", "gæsluvarðhaldstímans"]
+	},
+	"kennistrengur": "no-gæsluvarðhaldstími-kk",
+	"hash": "1f97f813f92b862034cde7f6a382d90bdc876eb6559ca89aa2122784cb3ae575"
+}
