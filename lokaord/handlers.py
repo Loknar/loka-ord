@@ -121,7 +121,7 @@ class Ord:
 				exclude_et_mg = False
 				exclude_ft_ag = False
 				exclude_ft_mg = False
-				# lýsingarorð base beygingar
+				# lýsingarorð base beygingar (also used for atviksorð)
 				exclude_frumstig_sb_et = False
 				exclude_frumstig_sb_ft = False
 				exclude_frumstig_vb_et = False
@@ -429,7 +429,7 @@ class Ord:
 							oh_data['beygingar'].append(NafnordaBeygingar.Ft_ag.value)
 						if isl_ord_oh.Exclude_ft_mg is False:
 							oh_data['beygingar'].append(NafnordaBeygingar.Ft_mg.value)
-				# lýsingarorð
+				# lýsingarorð (and atviksorð)
 				if (
 					isl_ord_oh.Exclude_frumstig_sb_et is True or
 					isl_ord_oh.Exclude_frumstig_sb_ft is True or
@@ -1026,7 +1026,7 @@ class Ord:
 				del isl_ord_dict['et']
 			if 'ft' in isl_ord_dict and len(isl_ord_dict['ft'].keys()) == 0:
 				del isl_ord_dict['ft']
-			# lýsingarorð (and not "myndir" mapped)
+			# lýsingarorð (not "myndir" mapped) and atviksorð
 			if 'myndir' not in ordhluti:
 				if 'frumstig' not in ordhluti['beygingar']:
 					if 'frumstig-sb' not in ordhluti['beygingar']:
@@ -1047,7 +1047,7 @@ class Ord:
 						if (
 							'frumstig' in isl_ord_dict and
 							'sb' in isl_ord_dict['frumstig'] and
-							len(isl_ord_dict['frumstig']['sb']) == 0
+							len(isl_ord_dict['frumstig']['sb'].keys()) == 0
 						):
 							del isl_ord_dict['frumstig']['sb']
 					if 'frumstig-vb' not in ordhluti['beygingar']:
@@ -1068,12 +1068,14 @@ class Ord:
 						if (
 							'frumstig' in isl_ord_dict and
 							'vb' in isl_ord_dict['frumstig'] and
-							len(isl_ord_dict['frumstig']['vb']) == 0
+							len(isl_ord_dict['frumstig']['vb'].keys()) == 0
 						):
 							del isl_ord_dict['frumstig']['vb']
 					if (
-						'frumstig' in isl_ord_dict and
-						len(isl_ord_dict['frumstig']) == 0
+						'frumstig' in isl_ord_dict and (
+							isinstance(isl_ord_dict['frumstig'], str) or
+							len(isl_ord_dict['frumstig'].keys()) == 0
+						)
 					):
 						del isl_ord_dict['frumstig']
 				if 'miðstig' not in ordhluti['beygingar']:
@@ -1098,8 +1100,10 @@ class Ord:
 					):
 						del isl_ord_dict['miðstig']['vb']
 					if (
-						'miðstig' in isl_ord_dict and
-						len(isl_ord_dict['miðstig']) == 0
+						'miðstig' in isl_ord_dict and (
+							isinstance(isl_ord_dict['miðstig'], str) or
+							len(isl_ord_dict['miðstig'].keys()) == 0
+						)
 					):
 						del isl_ord_dict['miðstig']
 				if 'efstastig' not in ordhluti['beygingar']:
@@ -1145,7 +1149,12 @@ class Ord:
 							len(isl_ord_dict['efstastig']['vb']) == 0
 						):
 							del isl_ord_dict['efstastig']['vb']
-					if 'efstastig' in isl_ord_dict and len(isl_ord_dict['efstastig']) == 0:
+					if (
+						'efstastig' in isl_ord_dict and (
+							isinstance(isl_ord_dict['efstastig'], str) or
+							len(isl_ord_dict['efstastig'].keys()) == 0
+						)
+					):
 						del isl_ord_dict['efstastig']
 			# sagnorð
 			if 'germynd' not in ordhluti['beygingar']:

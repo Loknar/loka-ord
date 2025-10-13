@@ -564,16 +564,25 @@ def build_sight(filename='sight', use_pointless=None):
 			ord_data = None
 			with ord_file.open(mode='r', encoding='utf-8') as fi:
 				ord_data = json.loads(fi.read())
-			if (
-				ord_data['flokkur'] == 'smáorð' or
-				(ord_data['flokkur'] == 'sérnafn' and ord_data['undirflokkur'] == 'miłlinafn') or
-				('óbeygjanlegt' in ord_data and ord_data['óbeygjanlegt'] is True)
-			):
-				if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
+			if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
+				include_ord_base_name = False
+				if 'óbeygjanlegt' in ord_data and ord_data['óbeygjanlegt'] is True:
+					include_ord_base_name = True
+				if ord_data['flokkur'] == 'sérnafn' and ord_data['undirflokkur'] == 'miłlinafn':
+					include_ord_base_name = True
+				if (
+					ord_data['flokkur'] == 'smáorð' and (
+						ord_data['undirflokkur'] != 'atviksorð' or
+						'samsett' not in ord_data or
+						'beygingar' not in ord_data['samsett'][-1] or
+						'frumstig' in ord_data['samsett'][-1]['beygingar']
+					)
+				):
+					include_ord_base_name = True
+				if include_ord_base_name:
 					if ord_data['orð'] not in sight['orð']:
 						sight['orð'][ord_data['orð']] = []
 					sight['orð'][ord_data['orð']].append([ord_data['kennistrengur'], ''])
-			if 'ósjálfstætt' not in ord_data or ord_data['ósjálfstætt'] is False:
 				add_myndir(ord_data, sight, '', ord_data['kennistrengur'])
 	logman.info('Accumulating "skammstafanir" knowledge ..')
 	for sk_file in sorted(pathlib.Path(os.path.join(task['root'], 'skammstafanir')).iterdir()):

@@ -270,6 +270,16 @@ class SamsettOrdhluti(BaseModel):
 						raise ValueError(
 							f'inappropriate beyging "{beyging}" for sagnorð (orð: {val})'
 						)
+			elif val.startswith('smáo.ao-'):  # atviksorð ( frumstig / miðstig / efstastig )
+				for beyging in values['beygingar']:
+					if beyging not in (
+						LysingarordaBeygingar.Frumstig,
+						LysingarordaBeygingar.Midstig,
+						LysingarordaBeygingar.Efstastig
+					):
+						raise ValueError(
+							f'inappropriate beyging "{beyging}" for atviksorð (orð: {val})'
+						)
 			else:
 				for beyging in values['beygingar']:
 					raise ValueError(

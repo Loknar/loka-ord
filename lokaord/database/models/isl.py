@@ -134,7 +134,7 @@ class SamsettOrdhluti(Base):
 	Exclude_et_mg = utils.boolean_default_false()
 	Exclude_ft_ag = utils.boolean_default_false()
 	Exclude_ft_mg = utils.boolean_default_false()
-	# lýsingarorð
+	# lýsingarorð (and atviksorð)
 	Exclude_frumstig_sb_et = utils.boolean_default_false()
 	Exclude_frumstig_sb_ft = utils.boolean_default_false()
 	Exclude_frumstig_vb_et = utils.boolean_default_false()
@@ -460,7 +460,7 @@ class Forsetning(Base):
 class Atviksord(Base):
 	# Atviksorð líkjast lýsingarorðum enda hafa atviksorð þá sérstöðu á meðal smáorða að sum
 	# atviksorð stigbreytast (eins og ‚aftur - aftar - aftast‘; ‚lengi - lengur - lengst‘;
-	# ‚inn - innar - innst‘; ‚vel - betur - best‘), en eru þau þó annars eðlis en lýsingarorð.
+	# ‚inn - innar - innst‘; ‚vel - betur - best‘), en eru þó annars eðlis en lýsingarorð.
 	__tablename__ = 'Atviksord'
 	Atviksord_id = utils.integer_primary_key()
 	fk_Ord_id = utils.foreign_integer_primary_key('Ord')
