@@ -1,0 +1,43 @@
+{
+	"orð": "lánshæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "láns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["lánshæfur", "lánshæfan", "lánshæfum", "lánshæfs"],
+				"kvk": ["lánshæf", "lánshæfa", "lánshæfri", "lánshæfrar"],
+				"hk": ["lánshæft", "lánshæft", "lánshæfu", "lánshæfs"]
+			},
+			"ft": {
+				"kk": ["lánshæfir", "lánshæfa", "lánshæfum", "lánshæfra"],
+				"kvk": ["lánshæfar", "lánshæfar", "lánshæfum", "lánshæfra"],
+				"hk": ["lánshæf", "lánshæf", "lánshæfum", "lánshæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lánshæfi", "lánshæfa", "lánshæfa", "lánshæfa"],
+				"kvk": ["lánshæfa", "lánshæfu", "lánshæfu", "lánshæfu"],
+				"hk": ["lánshæfa", "lánshæfa", "lánshæfa", "lánshæfa"]
+			},
+			"ft": {
+				"kk": ["lánshæfu", "lánshæfu", "lánshæfu", "lánshæfu"],
+				"kvk": ["lánshæfu", "lánshæfu", "lánshæfu", "lánshæfu"],
+				"hk": ["lánshæfu", "lánshæfu", "lánshæfu", "lánshæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-lánshæfur",
+	"hash": "e2e518d60ee40c5da8306df25ee033d256f86e0739dbad4828d41fba4469dc20"
+}

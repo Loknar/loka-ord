@@ -1,0 +1,27 @@
+{
+	"orð": "hússtjórnarkennsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "stjórnar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-kennsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hússtjórnarkennsla", "hússtjórnarkennslu", "hússtjórnarkennslu", "hússtjórnarkennslu"],
+		"mg": ["hússtjórnarkennslan", "hússtjórnarkennsluna", "hússtjórnarkennslunni", "hússtjórnarkennslunnar"]
+	},
+	"kennistrengur": "no-hússtjórnarkennsla-kvk",
+	"hash": "80d1fddfea2e1ddfb3d117b30639c54637632a8edc63a869fc58567f857a947c"
+}

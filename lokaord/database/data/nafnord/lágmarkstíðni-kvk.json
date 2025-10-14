@@ -1,0 +1,27 @@
+{
+	"orð": "lágmarkstíðni",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tíðni-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarkstíðni", "lágmarkstíðni", "lágmarkstíðni", "lágmarkstíðni"],
+		"mg": ["lágmarkstíðnin", "lágmarkstíðnina", "lágmarkstíðninni", "lágmarkstíðninnar"]
+	},
+	"kennistrengur": "no-lágmarkstíðni-kvk",
+	"hash": "1c216ea1f1265f4cb9bd15c736911a7a02a554c80ce44e759220e987734523f4"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "sjúkdómavörn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-vörn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjúkdómavörn", "sjúkdómavörn", "sjúkdómavörn", "sjúkdómavarnar"],
+		"mg": ["sjúkdómavörnin", "sjúkdómavörnina", "sjúkdómavörninni", "sjúkdómavarnarinnar"]
+	},
+	"ft": {
+		"ág": ["sjúkdómavarnir", "sjúkdómavarnir", "sjúkdómavörnum", "sjúkdómavarna"],
+		"mg": ["sjúkdómavarnirnar", "sjúkdómavarnirnar", "sjúkdómavörnunum", "sjúkdómavarnanna"]
+	},
+	"kennistrengur": "no-sjúkdómavörn-kvk",
+	"hash": "19404eefb6695e8bd047e5b798adda2128703e7facbec90dfb4147925387ba40"
+}

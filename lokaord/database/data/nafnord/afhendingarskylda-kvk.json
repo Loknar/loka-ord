@@ -1,0 +1,27 @@
+{
+	"orð": "afhendingarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "hendingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hending-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["afhendingarskylda", "afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu"],
+		"mg": ["afhendingarskyldan", "afhendingarskylduna", "afhendingarskyldunni", "afhendingarskyldunnar"]
+	},
+	"kennistrengur": "no-afhendingarskylda-kvk",
+	"hash": "c9ad3aaa4a85c5d8dd96e277dbb6e1dac2e9cf47ed69d64d14bd07b7022ff06b"
+}

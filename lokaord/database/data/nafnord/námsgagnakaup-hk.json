@@ -1,0 +1,27 @@
+{
+	"orð": "námsgagnakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"mynd": "gagna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gagn-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["námsgagnakaup", "námsgagnakaup", "námsgagnakaupum", "námsgagnakaupa"],
+		"mg": ["námsgagnakaupin", "námsgagnakaupin", "námsgagnakaupunum", "námsgagnakaupanna"]
+	},
+	"kennistrengur": "no-námsgagnakaup-hk",
+	"hash": "b95d59f051b4e129b371f67a7e5688a6ba532835c42b2a1eb50deb5de8411cbb"
+}

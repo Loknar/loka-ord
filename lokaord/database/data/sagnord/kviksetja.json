@@ -1,0 +1,113 @@
+{
+	"orð": "kviksetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kvik",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kvikur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kviksetja",
+		"sagnbót": "kviksett",
+		"boðháttur": {
+			"stýfður": "kvikset",
+			"et": "kviksettu",
+			"ft": "kviksetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvikset", "kviksetur", "kviksetur"],
+					"ft": ["kviksetjum", "kviksetjið", "kviksetja"]
+				},
+				"þátíð": {
+					"et": ["kviksetti", "kviksettir", "kviksetti"],
+					"ft": ["kviksettum", "kviksettuð", "kviksettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kviksetji", "kviksetjir", "kviksetji"],
+					"ft": ["kviksetjum", "kviksetjið", "kviksetji"]
+				},
+				"þátíð": {
+					"et": ["kviksetti", "kviksettir", "kviksetti"],
+					"ft": ["kviksettum", "kviksettuð", "kviksettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvikseturðu",
+					"ft": "kviksetjiði"
+				},
+				"þátíð": {
+					"et": "kviksettirðu",
+					"ft": "kviksettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kviksetjirðu",
+					"ft": "kviksetjiði"
+				},
+				"þátíð": {
+					"et": "kviksettirðu",
+					"ft": "kviksettuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kviksetjast",
+		"sagnbót": "kviksest",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kviksest", "kviksest", "kviksest"],
+					"ft": ["kviksetjumst", "kviksetjist", "kviksetjast"]
+				},
+				"þátíð": {
+					"et": ["kviksettist", "kviksettist", "kviksettist"],
+					"ft": ["kviksettumst", "kviksettust", "kviksettust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kviksetjist", "kviksetjist", "kviksetjist"],
+					"ft": ["kviksetjumst", "kviksetjist", "kviksetjist"]
+				},
+				"þátíð": {
+					"et": ["kviksettist", "kviksettist", "kviksettist"],
+					"ft": ["kviksettumst", "kviksettust", "kviksettust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kviksetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kviksettur", "kviksettan", "kviksettum", "kviksetts"],
+					"kvk": ["kviksett", "kviksetta", "kviksettri", "kviksettrar"],
+					"hk": ["kviksett", "kviksett", "kviksettu", "kviksetts"]
+				},
+				"ft": {
+					"kk": ["kviksettir", "kviksetta", "kviksettum", "kviksettra"],
+					"kvk": ["kviksettar", "kviksettar", "kviksettum", "kviksettra"],
+					"hk": ["kviksett", "kviksett", "kviksettum", "kviksettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kviksetja",
+	"hash": "042ea9606dd9700efa33305ce6deb79116eedc8471ff3f3f71acf40df7f67f31"
+}

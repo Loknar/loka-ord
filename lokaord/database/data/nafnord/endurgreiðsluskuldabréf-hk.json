@@ -1,0 +1,35 @@
+{
+	"orð": "endurgreiðsluskuldabréf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-bréf-hk"
+		}
+	],
+	"et": {
+		"ág": ["endurgreiðsluskuldabréf", "endurgreiðsluskuldabréf", "endurgreiðsluskuldabréfi", "endurgreiðsluskuldabréfs"],
+		"mg": ["endurgreiðsluskuldabréfið", "endurgreiðsluskuldabréfið", "endurgreiðsluskuldabréfinu", "endurgreiðsluskuldabréfsins"]
+	},
+	"ft": {
+		"ág": ["endurgreiðsluskuldabréf", "endurgreiðsluskuldabréf", "endurgreiðsluskuldabréfum", "endurgreiðsluskuldabréfa"],
+		"mg": ["endurgreiðsluskuldabréfin", "endurgreiðsluskuldabréfin", "endurgreiðsluskuldabréfunum", "endurgreiðsluskuldabréfanna"]
+	},
+	"kennistrengur": "no-endurgreiðsluskuldabréf-hk",
+	"hash": "d9e5d0ded666839c7f0ed614ce1cf02d38d31aae4707359f22036efae8c86333"
+}

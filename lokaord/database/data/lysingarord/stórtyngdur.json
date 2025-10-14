@@ -1,0 +1,48 @@
+{
+	"orð": "stórtyngdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stór",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-stór"
+		},
+		{
+			"mynd": "tyng",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tunga-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-dur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["stórtyngdur", "stórtyngdan", "stórtyngdum", "stórtyngds"],
+				"kvk": ["stórtyngd", "stórtyngda", "stórtyngdri", "stórtyngdrar"],
+				"hk": ["stórtyngt", "stórtyngt", "stórtyngdu", "stórtyngds"]
+			},
+			"ft": {
+				"kk": ["stórtyngdir", "stórtyngda", "stórtyngdum", "stórtyngdra"],
+				"kvk": ["stórtyngdar", "stórtyngdar", "stórtyngdum", "stórtyngdra"],
+				"hk": ["stórtyngd", "stórtyngd", "stórtyngdum", "stórtyngdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["stórtyngdi", "stórtyngda", "stórtyngda", "stórtyngda"],
+				"kvk": ["stórtyngda", "stórtyngdu", "stórtyngdu", "stórtyngdu"],
+				"hk": ["stórtyngda", "stórtyngda", "stórtyngda", "stórtyngda"]
+			},
+			"ft": {
+				"kk": ["stórtyngdu", "stórtyngdu", "stórtyngdu", "stórtyngdu"],
+				"kvk": ["stórtyngdu", "stórtyngdu", "stórtyngdu", "stórtyngdu"],
+				"hk": ["stórtyngdu", "stórtyngdu", "stórtyngdu", "stórtyngdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-stórtyngdur",
+	"hash": "d674d5aa2871d45c48389cc0f025d0d152b5e210444cefdc3326c0f157b8d13d"
+}

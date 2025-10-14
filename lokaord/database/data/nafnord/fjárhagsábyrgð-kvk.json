@@ -1,0 +1,30 @@
+{
+	"orð": "fjárhagsábyrgð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"kennistrengur": "no-ábyrgð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsábyrgð", "fjárhagsábyrgð", "fjárhagsábyrgð", "fjárhagsábyrgðar"],
+		"mg": ["fjárhagsábyrgðin", "fjárhagsábyrgðina", "fjárhagsábyrgðinni", "fjárhagsábyrgðarinnar"]
+	},
+	"ft": {
+		"ág": ["fjárhagsábyrgðir", "fjárhagsábyrgðir", "fjárhagsábyrgðum", "fjárhagsábyrgða"],
+		"mg": ["fjárhagsábyrgðirnar", "fjárhagsábyrgðirnar", "fjárhagsábyrgðunum", "fjárhagsábyrgðanna"]
+	},
+	"kennistrengur": "no-fjárhagsábyrgð-kvk",
+	"hash": "d11c755fb4fb7d4e3b8c3dc578ad16939c8d56e2106fe8431514c8bcae3ad38e"
+}

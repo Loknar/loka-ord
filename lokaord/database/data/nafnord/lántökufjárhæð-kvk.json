@@ -1,0 +1,35 @@
+{
+	"orð": "lántökufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lán",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lántökufjárhæð", "lántökufjárhæð", "lántökufjárhæð", "lántökufjárhæðar"],
+		"mg": ["lántökufjárhæðin", "lántökufjárhæðina", "lántökufjárhæðinni", "lántökufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["lántökufjárhæðir", "lántökufjárhæðir", "lántökufjárhæðum", "lántökufjárhæða"],
+		"mg": ["lántökufjárhæðirnar", "lántökufjárhæðirnar", "lántökufjárhæðunum", "lántökufjárhæðanna"]
+	},
+	"kennistrengur": "no-lántökufjárhæð-kvk",
+	"hash": "387e01546df47abf7b071fcdd29d6e934a5c552f39bd0b837d24f4bd636e666d"
+}

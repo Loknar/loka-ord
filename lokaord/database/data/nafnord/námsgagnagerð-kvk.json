@@ -1,0 +1,27 @@
+{
+	"orð": "námsgagnagerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"mynd": "gagna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gagn-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["námsgagnagerð", "námsgagnagerð", "námsgagnagerð", "námsgagnagerðar"],
+		"mg": ["námsgagnagerðin", "námsgagnagerðina", "námsgagnagerðinni", "námsgagnagerðarinnar"]
+	},
+	"kennistrengur": "no-námsgagnagerð-kvk",
+	"hash": "6d0293d94f358aafcb7801f4ce2e838e63afc7d24b00db863a1d5b27f97d085c"
+}

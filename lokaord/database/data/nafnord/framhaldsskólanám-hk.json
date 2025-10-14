@@ -1,0 +1,32 @@
+{
+	"orð": "framhaldsskólanám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"mynd": "skóla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skóli-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["framhaldsskólanám", "framhaldsskólanám", "framhaldsskólanámi", "framhaldsskólanáms"],
+		"mg": ["framhaldsskólanámið", "framhaldsskólanámið", "framhaldsskólanáminu", "framhaldsskólanámsins"]
+	},
+	"kennistrengur": "no-framhaldsskólanám-hk",
+	"hash": "d1e7d5de34fdd6d0cff082963d313aa5014dee52f81f50c38313f1f5b496e4e8"
+}

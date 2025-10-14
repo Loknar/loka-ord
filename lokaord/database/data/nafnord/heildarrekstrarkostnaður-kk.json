@@ -1,0 +1,26 @@
+{
+	"orð": "heildarrekstrarkostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarrekstrarkostnaður", "heildarrekstrarkostnað", "heildarrekstrarkostnaði", "heildarrekstrarkostnaðar"],
+		"mg": ["heildarrekstrarkostnaðurinn", "heildarrekstrarkostnaðinn", "heildarrekstrarkostnaðinum", "heildarrekstrarkostnaðarins"]
+	},
+	"kennistrengur": "no-heildarrekstrarkostnaður-kk",
+	"hash": "896946e5581425abaf70f124241b468f2244c4e55c6db33a60f980252ec3f71c"
+}

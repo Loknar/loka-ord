@@ -1,0 +1,99 @@
+{
+	"orð": "endurráða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-ráða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurráða",
+		"sagnbót": "endurráðið",
+		"boðháttur": {
+			"stýfður": "endurráð",
+			"et": "endurráddu",
+			"ft": "endurráðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurræð", "endurræður", "endurræður"],
+					"ft": ["endurráðum", "endurráðið", "endurráða"]
+				},
+				"þátíð": {
+					"et": ["endurréð", "endurréðst", "endurréð"],
+					"ft": ["endurréðum", "endurréðuð", "endurréðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurráði", "endurráðir", "endurráði"],
+					"ft": ["endurráðum", "endurráðið", "endurráði"]
+				},
+				"þátíð": {
+					"et": ["endurréði", "endurréðir", "endurréði"],
+					"ft": ["endurréðum", "endurréðuð", "endurréðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurræðurðu",
+					"ft": "endurráðiði"
+				},
+				"þátíð": {
+					"et": "endurréðstu",
+					"ft": "endurréðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurráðirðu",
+					"ft": "endurráðiði"
+				},
+				"þátíð": {
+					"et": "endurréðirðu",
+					"ft": "endurréðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurráðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurráðinn", "endurráðinn", "endurráðnum", "endurráðins"],
+					"kvk": ["endurráðin", "endurráðna", "endurráðinni", "endurráðinnar"],
+					"hk": ["endurráðið", "endurráðið", "endurráðnu", "endurráðins"]
+				},
+				"ft": {
+					"kk": ["endurráðnir", "endurráðna", "endurráðnum", "endurráðinna"],
+					"kvk": ["endurráðnar", "endurráðnar", "endurráðnum", "endurráðinna"],
+					"hk": ["endurráðin", "endurráðin", "endurráðnum", "endurráðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["endurráðni", "endurráðna", "endurráðna", "endurráðna"],
+					"kvk": ["endurráðna", "endurráðnu", "endurráðnu", "endurráðnu"],
+					"hk": ["endurráðna", "endurráðna", "endurráðna", "endurráðna"]
+				},
+				"ft": {
+					"kk": ["endurráðnu", "endurráðnu", "endurráðnu", "endurráðnu"],
+					"kvk": ["endurráðnu", "endurráðnu", "endurráðnu", "endurráðnu"],
+					"hk": ["endurráðnu", "endurráðnu", "endurráðnu", "endurráðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurráða",
+	"hash": "41f531c1e6449652df2b79fa1bb91ad5bebb4d22b797f40d6e443ba4e1636464"
+}

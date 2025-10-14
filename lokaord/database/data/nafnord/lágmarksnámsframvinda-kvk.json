@@ -1,0 +1,37 @@
+{
+	"orð": "lágmarksnámsframvinda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "náms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-nám-hk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksnámsframvinda", "lágmarksnámsframvindu", "lágmarksnámsframvindu", "lágmarksnámsframvindu"],
+		"mg": ["lágmarksnámsframvindan", "lágmarksnámsframvinduna", "lágmarksnámsframvindunni", "lágmarksnámsframvindunnar"]
+	},
+	"kennistrengur": "no-lágmarksnámsframvinda-kvk",
+	"hash": "5d27f43d56cdaf1563f3f3bca9447f0a9323c719486de08d8516d4f02c1e4e9e"
+}

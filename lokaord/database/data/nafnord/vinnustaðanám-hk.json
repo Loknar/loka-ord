@@ -1,0 +1,27 @@
+{
+	"orð": "vinnustaðanám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "staða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["vinnustaðanám", "vinnustaðanám", "vinnustaðanámi", "vinnustaðanáms"],
+		"mg": ["vinnustaðanámið", "vinnustaðanámið", "vinnustaðanáminu", "vinnustaðanámsins"]
+	},
+	"kennistrengur": "no-vinnustaðanám-hk",
+	"hash": "fd3a729d2b83e566c6c261a4a4255aea51ed527bc4fbf51f523b0eeab8f49707"
+}

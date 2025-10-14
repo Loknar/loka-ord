@@ -1,0 +1,48 @@
+{
+	"orð": "fjöltyngdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fjöl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fjöl-kvk"
+		},
+		{
+			"mynd": "tyng",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tunga-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-dur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fjöltyngdur", "fjöltyngdan", "fjöltyngdum", "fjöltyngds"],
+				"kvk": ["fjöltyngd", "fjöltyngda", "fjöltyngdri", "fjöltyngdrar"],
+				"hk": ["fjöltyngt", "fjöltyngt", "fjöltyngdu", "fjöltyngds"]
+			},
+			"ft": {
+				"kk": ["fjöltyngdir", "fjöltyngda", "fjöltyngdum", "fjöltyngdra"],
+				"kvk": ["fjöltyngdar", "fjöltyngdar", "fjöltyngdum", "fjöltyngdra"],
+				"hk": ["fjöltyngd", "fjöltyngd", "fjöltyngdum", "fjöltyngdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fjöltyngdi", "fjöltyngda", "fjöltyngda", "fjöltyngda"],
+				"kvk": ["fjöltyngda", "fjöltyngdu", "fjöltyngdu", "fjöltyngdu"],
+				"hk": ["fjöltyngda", "fjöltyngda", "fjöltyngda", "fjöltyngda"]
+			},
+			"ft": {
+				"kk": ["fjöltyngdu", "fjöltyngdu", "fjöltyngdu", "fjöltyngdu"],
+				"kvk": ["fjöltyngdu", "fjöltyngdu", "fjöltyngdu", "fjöltyngdu"],
+				"hk": ["fjöltyngdu", "fjöltyngdu", "fjöltyngdu", "fjöltyngdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fjöltyngdur",
+	"hash": "083a4b121069d54ce81c0b3b0b9b05d1246a12e5fc449088d242db1182bcc96a"
+}
