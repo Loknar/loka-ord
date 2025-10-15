@@ -1,0 +1,48 @@
+{
+	"orð": "endurgreiðsluhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["endurgreiðsluhæfur", "endurgreiðsluhæfan", "endurgreiðsluhæfum", "endurgreiðsluhæfs"],
+				"kvk": ["endurgreiðsluhæf", "endurgreiðsluhæfa", "endurgreiðsluhæfri", "endurgreiðsluhæfrar"],
+				"hk": ["endurgreiðsluhæft", "endurgreiðsluhæft", "endurgreiðsluhæfu", "endurgreiðsluhæfs"]
+			},
+			"ft": {
+				"kk": ["endurgreiðsluhæfir", "endurgreiðsluhæfa", "endurgreiðsluhæfum", "endurgreiðsluhæfra"],
+				"kvk": ["endurgreiðsluhæfar", "endurgreiðsluhæfar", "endurgreiðsluhæfum", "endurgreiðsluhæfra"],
+				"hk": ["endurgreiðsluhæf", "endurgreiðsluhæf", "endurgreiðsluhæfum", "endurgreiðsluhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["endurgreiðsluhæfi", "endurgreiðsluhæfa", "endurgreiðsluhæfa", "endurgreiðsluhæfa"],
+				"kvk": ["endurgreiðsluhæfa", "endurgreiðsluhæfu", "endurgreiðsluhæfu", "endurgreiðsluhæfu"],
+				"hk": ["endurgreiðsluhæfa", "endurgreiðsluhæfa", "endurgreiðsluhæfa", "endurgreiðsluhæfa"]
+			},
+			"ft": {
+				"kk": ["endurgreiðsluhæfu", "endurgreiðsluhæfu", "endurgreiðsluhæfu", "endurgreiðsluhæfu"],
+				"kvk": ["endurgreiðsluhæfu", "endurgreiðsluhæfu", "endurgreiðsluhæfu", "endurgreiðsluhæfu"],
+				"hk": ["endurgreiðsluhæfu", "endurgreiðsluhæfu", "endurgreiðsluhæfu", "endurgreiðsluhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-endurgreiðsluhæfur",
+	"hash": "dc9bd75678bfedfb65183253205e3af5836315704e3e83dc46fba0115bdf1e6f"
+}

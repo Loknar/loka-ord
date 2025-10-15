@@ -1,0 +1,48 @@
+{
+	"orð": "afhendingarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"mynd": "hendingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hending-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["afhendingarskyldur", "afhendingarskyldan", "afhendingarskyldum", "afhendingarskylds"],
+				"kvk": ["afhendingarskyld", "afhendingarskylda", "afhendingarskyldri", "afhendingarskyldrar"],
+				"hk": ["afhendingarskylt", "afhendingarskylt", "afhendingarskyldu", "afhendingarskylds"]
+			},
+			"ft": {
+				"kk": ["afhendingarskyldir", "afhendingarskylda", "afhendingarskyldum", "afhendingarskyldra"],
+				"kvk": ["afhendingarskyldar", "afhendingarskyldar", "afhendingarskyldum", "afhendingarskyldra"],
+				"hk": ["afhendingarskyld", "afhendingarskyld", "afhendingarskyldum", "afhendingarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["afhendingarskyldi", "afhendingarskylda", "afhendingarskylda", "afhendingarskylda"],
+				"kvk": ["afhendingarskylda", "afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu"],
+				"hk": ["afhendingarskylda", "afhendingarskylda", "afhendingarskylda", "afhendingarskylda"]
+			},
+			"ft": {
+				"kk": ["afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu"],
+				"kvk": ["afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu"],
+				"hk": ["afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu", "afhendingarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-afhendingarskyldur",
+	"hash": "cbbd0521f5d80aa31918f9596ec8113c4fc7d3d8af4f9160baaf8a9f453e4a7e"
+}

@@ -1,0 +1,28 @@
+{
+	"orð": "Amtsbókasafn",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "Amts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-amt-hk"
+		},
+		{
+			"mynd": "bóka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-safn-hk"
+		}
+	],
+	"et": {
+		"ág": ["Amtsbókasafn", "Amtsbókasafn", "Amtsbókasafni", "Amtsbókasafns"],
+		"mg": ["Amtsbókasafnið", "Amtsbókasafnið", "Amtsbókasafninu", "Amtsbókasafnsins"]
+	},
+	"kennistrengur": "sérn.ön-Amtsbókasafn-hk",
+	"hash": "9e3a7a8fdff4e84567c812d3b07ac5bebde4f2ca5dbbdac94512cd611101fbef"
+}

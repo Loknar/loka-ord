@@ -1,0 +1,32 @@
+{
+	"orð": "samtímatónlist",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "tón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tónn-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-list-kvk"
+		}
+	],
+	"et": {
+		"ág": ["samtímatónlist", "samtímatónlist", "samtímatónlist", "samtímatónlistar"],
+		"mg": ["samtímatónlistin", "samtímatónlistina", "samtímatónlistinni", "samtímatónlistarinnar"]
+	},
+	"kennistrengur": "no-samtímatónlist-kvk",
+	"hash": "62d3a8cade0c9bb1241a83cfc6a053c2efb43f5625820dddf6a4a5d1e4a530b5"
+}

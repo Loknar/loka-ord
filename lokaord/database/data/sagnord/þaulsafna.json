@@ -1,0 +1,73 @@
+{
+	"orð": "þaulsafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þaul",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þaul-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-safna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þaulsafna",
+		"sagnbót": "þaulsafnað",
+		"boðháttur": {
+			"stýfður": "þaulsafna",
+			"et": "þaulsafnaðu",
+			"ft": "þaulsafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þaulsafna", "þaulsafnar", "þaulsafnar"],
+					"ft": ["þaulsöfnum", "þaulsafnið", "þaulsafna"]
+				},
+				"þátíð": {
+					"et": ["þaulsafnaði", "þaulsafnaðir", "þaulsafnaði"],
+					"ft": ["þaulsöfnuðum", "þaulsöfnuðuð", "þaulsöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þaulsafni", "þaulsafnir", "þaulsafni"],
+					"ft": ["þaulsöfnum", "þaulsafnið", "þaulsafni"]
+				},
+				"þátíð": {
+					"et": ["þaulsafnaði", "þaulsafnaðir", "þaulsafnaði"],
+					"ft": ["þaulsöfnuðum", "þaulsöfnuðuð", "þaulsöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þaulsafnarðu",
+					"ft": "þaulsafniði"
+				},
+				"þátíð": {
+					"et": "þaulsafnaðirðu",
+					"ft": "þaulsöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þaulsafnirðu",
+					"ft": "þaulsafniði"
+				},
+				"þátíð": {
+					"et": "þaulsafnaðirðu",
+					"ft": "þaulsöfnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þaulsafnandi"
+	},
+	"kennistrengur": "so-þaulsafna",
+	"hash": "c92d7e5b72a8669797b31b85cdc8f99e57e7875cf1531dfa73aff0955db65cdc"
+}

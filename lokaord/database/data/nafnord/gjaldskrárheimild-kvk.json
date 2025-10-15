@@ -1,0 +1,30 @@
+{
+	"orð": "gjaldskrárheimild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"kennistrengur": "no-heimild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldskrárheimild", "gjaldskrárheimild", "gjaldskrárheimild", "gjaldskrárheimildar"],
+		"mg": ["gjaldskrárheimildin", "gjaldskrárheimildina", "gjaldskrárheimildinni", "gjaldskrárheimildarinnar"]
+	},
+	"ft": {
+		"ág": ["gjaldskrárheimildir", "gjaldskrárheimildir", "gjaldskrárheimildum", "gjaldskrárheimilda"],
+		"mg": ["gjaldskrárheimildirnar", "gjaldskrárheimildirnar", "gjaldskrárheimildunum", "gjaldskrárheimildanna"]
+	},
+	"kennistrengur": "no-gjaldskrárheimild-kvk",
+	"hash": "8adbd9f413eb146518492eb453f93c9c1b5444e8bf1a4374f6d26519cd61fe07"
+}

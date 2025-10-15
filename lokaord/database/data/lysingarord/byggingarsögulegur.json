@@ -1,0 +1,48 @@
+{
+	"orð": "byggingarsögulegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"mynd": "sögu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-saga-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["byggingarsögulegur", "byggingarsögulegan", "byggingarsögulegum", "byggingarsögulegs"],
+				"kvk": ["byggingarsöguleg", "byggingarsögulega", "byggingarsögulegri", "byggingarsögulegrar"],
+				"hk": ["byggingarsögulegt", "byggingarsögulegt", "byggingarsögulegu", "byggingarsögulegs"]
+			},
+			"ft": {
+				"kk": ["byggingarsögulegir", "byggingarsögulega", "byggingarsögulegum", "byggingarsögulegra"],
+				"kvk": ["byggingarsögulegar", "byggingarsögulegar", "byggingarsögulegum", "byggingarsögulegra"],
+				"hk": ["byggingarsöguleg", "byggingarsöguleg", "byggingarsögulegum", "byggingarsögulegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["byggingarsögulegi", "byggingarsögulega", "byggingarsögulega", "byggingarsögulega"],
+				"kvk": ["byggingarsögulega", "byggingarsögulegu", "byggingarsögulegu", "byggingarsögulegu"],
+				"hk": ["byggingarsögulega", "byggingarsögulega", "byggingarsögulega", "byggingarsögulega"]
+			},
+			"ft": {
+				"kk": ["byggingarsögulegu", "byggingarsögulegu", "byggingarsögulegu", "byggingarsögulegu"],
+				"kvk": ["byggingarsögulegu", "byggingarsögulegu", "byggingarsögulegu", "byggingarsögulegu"],
+				"hk": ["byggingarsögulegu", "byggingarsögulegu", "byggingarsögulegu", "byggingarsögulegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-byggingarsögulegur",
+	"hash": "c5c26f8c5784c651a21967a9d7422277e5c22eb8349407be4293577cd70aef70"
+}

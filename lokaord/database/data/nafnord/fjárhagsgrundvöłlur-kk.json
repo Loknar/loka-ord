@@ -1,0 +1,32 @@
+{
+	"orð": "fjárhagsgrundvöłlur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "grund",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grund-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vöłlur-kk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsgrundvöłlur", "fjárhagsgrundvöłl", "fjárhagsgrundvełli", "fjárhagsgrundvałlar"],
+		"mg": ["fjárhagsgrundvöłlurinn", "fjárhagsgrundvöłlinn", "fjárhagsgrundvełlinum", "fjárhagsgrundvałlarins"]
+	},
+	"kennistrengur": "no-fjárhagsgrundvöłlur-kk",
+	"hash": "183a3a4e42ee4e09e5fd785858d2d8838dd667b4cd348e06a4465131cf5e25c5"
+}

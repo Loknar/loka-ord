@@ -1,0 +1,22 @@
+{
+	"orð": "byggðaleifar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byggða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-byggð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-leif-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["byggðaleifar", "byggðaleifar", "byggðaleifum", "byggðaleifa"],
+		"mg": ["byggðaleifarnar", "byggðaleifarnar", "byggðaleifunum", "byggðaleifanna"]
+	},
+	"kennistrengur": "no-byggðaleifar-kvk",
+	"hash": "253654aa2814f2a3410571e77dc980784664b696b8ac71f12c2ee252e8efa086"
+}

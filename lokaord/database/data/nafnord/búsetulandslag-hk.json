@@ -1,0 +1,32 @@
+{
+	"orð": "búsetulandslag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bú",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bú-hk"
+		},
+		{
+			"mynd": "setu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-seta-kvk"
+		},
+		{
+			"mynd": "lands",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["búsetulandslag", "búsetulandslag", "búsetulandslagi", "búsetulandslags"],
+		"mg": ["búsetulandslagið", "búsetulandslagið", "búsetulandslaginu", "búsetulandslagsins"]
+	},
+	"kennistrengur": "no-búsetulandslag-hk",
+	"hash": "e62f446e5353bc66337a756aaba16ab25df6de5bdd27fa3a2d4c6f86a34cd7ba"
+}

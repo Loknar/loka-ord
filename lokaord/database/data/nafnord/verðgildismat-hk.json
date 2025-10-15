@@ -1,0 +1,27 @@
+{
+	"orð": "verðgildismat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "gildis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gildi-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["verðgildismat", "verðgildismat", "verðgildismati", "verðgildismats"],
+		"mg": ["verðgildismatið", "verðgildismatið", "verðgildismatinu", "verðgildismatsins"]
+	},
+	"kennistrengur": "no-verðgildismat-hk",
+	"hash": "eecc66a99eed84a25a351c8ebd1048ca78df615d2c72b1a0f9847e3d3c6cbbfd"
+}

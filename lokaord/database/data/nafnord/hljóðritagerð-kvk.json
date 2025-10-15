@@ -1,0 +1,27 @@
+{
+	"orð": "hljóðritagerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hljóð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hljóð-hk"
+		},
+		{
+			"mynd": "rita",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rit-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hljóðritagerð", "hljóðritagerð", "hljóðritagerð", "hljóðritagerðar"],
+		"mg": ["hljóðritagerðin", "hljóðritagerðina", "hljóðritagerðinni", "hljóðritagerðarinnar"]
+	},
+	"kennistrengur": "no-hljóðritagerð-kvk",
+	"hash": "3b4318ae684b6a333f6a1c61a13503d86bbdaa20ab5f7ec83931468b7f1f75dc"
+}
