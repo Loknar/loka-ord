@@ -1,0 +1,31 @@
+{
+	"orð": "heildarframleiðslukostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarframleiðslukostnaður", "heildarframleiðslukostnað", "heildarframleiðslukostnaði", "heildarframleiðslukostnaðar"],
+		"mg": ["heildarframleiðslukostnaðurinn", "heildarframleiðslukostnaðinn", "heildarframleiðslukostnaðinum", "heildarframleiðslukostnaðarins"]
+	},
+	"kennistrengur": "no-heildarframleiðslukostnaður-kk",
+	"hash": "2a1fee8603345554099fa509127754a96a2f49132beea02cdbeffbaac5e2f97b"
+}

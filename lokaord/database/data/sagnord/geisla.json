@@ -1,0 +1,135 @@
+{
+	"orð": "geisla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "geisl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-geisli-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "geisla",
+		"sagnbót": "geislað",
+		"boðháttur": {
+			"stýfður": "geisla",
+			"et": "geislaðu",
+			"ft": "geislið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geisla", "geislar", "geislar"],
+					"ft": ["geislum", "geislið", "geisla"]
+				},
+				"þátíð": {
+					"et": ["geislaði", "geislaðir", "geislaði"],
+					"ft": ["geisluðum", "geisluðuð", "geisluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["geisli", "geislir", "geisli"],
+					"ft": ["geislum", "geislið", "geisli"]
+				},
+				"þátíð": {
+					"et": ["geislaði", "geislaðir", "geislaði"],
+					"ft": ["geisluðum", "geisluðuð", "geisluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geislarðu",
+					"ft": "geisliði"
+				},
+				"þátíð": {
+					"et": "geislaðirðu",
+					"ft": "geisluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "geislirðu",
+					"ft": "geisliði"
+				},
+				"þátíð": {
+					"et": "geislaðirðu",
+					"ft": "geisluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "geislast",
+		"sagnbót": "geislast",
+		"boðháttur": {
+			"et": "geislastu",
+			"ft": "geislist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geislast", "geislast", "geislast"],
+					"ft": ["geislumst", "geislist", "geislast"]
+				},
+				"þátíð": {
+					"et": ["geislaðist", "geislaðist", "geislaðist"],
+					"ft": ["geisluðumst", "geisluðust", "geisluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["geislist", "geislist", "geislist"],
+					"ft": ["geislumst", "geislist", "geislist"]
+				},
+				"þátíð": {
+					"et": ["geislaðist", "geislaðist", "geislaðist"],
+					"ft": ["geisluðumst", "geisluðust", "geisluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geislastu"
+				},
+				"þátíð": {
+					"et": "geislaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "geislistu"
+				},
+				"þátíð": {
+					"et": "geislaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "geislandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["geislaður", "geislaðan", "geisluðum", "geislaðs"],
+					"kvk": ["geisluð", "geislaða", "geislaðri", "geislaðrar"],
+					"hk": ["geislað", "geislað", "geisluðu", "geislaðs"]
+				},
+				"ft": {
+					"kk": ["geislaðir", "geislaða", "geisluðum", "geislaðra"],
+					"kvk": ["geislaðar", "geislaðar", "geisluðum", "geislaðra"],
+					"hk": ["geisluð", "geisluð", "geisluðum", "geislaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-geisla",
+	"hash": "b62d01637d099de3258cdae1feccc6fd94e9eec8698982d2b3b13e20d472a749"
+}

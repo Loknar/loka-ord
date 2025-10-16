@@ -1,0 +1,86 @@
+{
+	"orð": "tíðnivæða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tíðni",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tíðni-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-væða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tíðnivæða",
+		"sagnbót": "tíðnivætt",
+		"boðháttur": {
+			"stýfður": "tíðnivæð",
+			"et": "tíðnivæddu",
+			"ft": "tíðnivæðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tíðnivæði", "tíðnivæðir", "tíðnivæðir"],
+					"ft": ["tíðnivæðum", "tíðnivæðið", "tíðnivæða"]
+				},
+				"þátíð": {
+					"et": ["tíðnivæddi", "tíðnivæddir", "tíðnivæddi"],
+					"ft": ["tíðnivæddum", "tíðnivædduð", "tíðnivæddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tíðnivæði", "tíðnivæðir", "tíðnivæði"],
+					"ft": ["tíðnivæðum", "tíðnivæðið", "tíðnivæði"]
+				},
+				"þátíð": {
+					"et": ["tíðnivæddi", "tíðnivæddir", "tíðnivæddi"],
+					"ft": ["tíðnivæddum", "tíðnivædduð", "tíðnivæddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tíðnivæðirðu",
+					"ft": "tíðnivæðiði"
+				},
+				"þátíð": {
+					"et": "tíðnivæddirðu",
+					"ft": "tíðnivædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tíðnivæðirðu",
+					"ft": "tíðnivæðiði"
+				},
+				"þátíð": {
+					"et": "tíðnivæddirðu",
+					"ft": "tíðnivædduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tíðnivæddur", "tíðnivæddan", "tíðnivæddum", "tíðnivædds"],
+					"kvk": ["tíðnivædd", "tíðnivædda", "tíðnivæddri", "tíðnivæddrar"],
+					"hk": ["tíðnivætt", "tíðnivætt", "tíðnivæddu", "tíðnivædds"]
+				},
+				"ft": {
+					"kk": ["tíðnivæddir", "tíðnivædda", "tíðnivæddum", "tíðnivæddra"],
+					"kvk": ["tíðnivæddar", "tíðnivæddar", "tíðnivæddum", "tíðnivæddra"],
+					"hk": ["tíðnivædd", "tíðnivædd", "tíðnivæddum", "tíðnivæddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tíðnivæða",
+	"hash": "a1632d43037e0b50afb8fe4d3d09cf1b336f095c59bf2c8c22a30a95e44a99f4"
+}

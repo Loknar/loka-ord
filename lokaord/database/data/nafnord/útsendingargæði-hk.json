@@ -1,0 +1,27 @@
+{
+	"orð": "útsendingargæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "sendingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sending-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gæði-hk"
+		}
+	],
+	"ft": {
+		"ág": ["útsendingargæði", "útsendingargæði", "útsendingargæðum", "útsendingargæða"],
+		"mg": ["útsendingargæðin", "útsendingargæðin", "útsendingargæðunum", "útsendingargæðanna"]
+	},
+	"kennistrengur": "no-útsendingargæði-hk",
+	"hash": "f1f3e1532ab1aa1835cbcef7269836956f15b34e478f05befaaa1929b3eb07c8"
+}

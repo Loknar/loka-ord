@@ -1,0 +1,53 @@
+{
+	"orð": "kvikmyndafræðilegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kvik",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kvikur"
+		},
+		{
+			"mynd": "mynda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mynd-kvk"
+		},
+		{
+			"mynd": "fræði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fræði-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kvikmyndafræðilegur", "kvikmyndafræðilegan", "kvikmyndafræðilegum", "kvikmyndafræðilegs"],
+				"kvk": ["kvikmyndafræðileg", "kvikmyndafræðilega", "kvikmyndafræðilegri", "kvikmyndafræðilegrar"],
+				"hk": ["kvikmyndafræðilegt", "kvikmyndafræðilegt", "kvikmyndafræðilegu", "kvikmyndafræðilegs"]
+			},
+			"ft": {
+				"kk": ["kvikmyndafræðilegir", "kvikmyndafræðilega", "kvikmyndafræðilegum", "kvikmyndafræðilegra"],
+				"kvk": ["kvikmyndafræðilegar", "kvikmyndafræðilegar", "kvikmyndafræðilegum", "kvikmyndafræðilegra"],
+				"hk": ["kvikmyndafræðileg", "kvikmyndafræðileg", "kvikmyndafræðilegum", "kvikmyndafræðilegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kvikmyndafræðilegi", "kvikmyndafræðilega", "kvikmyndafræðilega", "kvikmyndafræðilega"],
+				"kvk": ["kvikmyndafræðilega", "kvikmyndafræðilegu", "kvikmyndafræðilegu", "kvikmyndafræðilegu"],
+				"hk": ["kvikmyndafræðilega", "kvikmyndafræðilega", "kvikmyndafræðilega", "kvikmyndafræðilega"]
+			},
+			"ft": {
+				"kk": ["kvikmyndafræðilegu", "kvikmyndafræðilegu", "kvikmyndafræðilegu", "kvikmyndafræðilegu"],
+				"kvk": ["kvikmyndafræðilegu", "kvikmyndafræðilegu", "kvikmyndafræðilegu", "kvikmyndafræðilegu"],
+				"hk": ["kvikmyndafræðilegu", "kvikmyndafræðilegu", "kvikmyndafræðilegu", "kvikmyndafræðilegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kvikmyndafræðilegur",
+	"hash": "51884ebfdd070af5c31fd159a500af605874b611239f090829aa7408f806ad4e"
+}

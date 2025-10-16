@@ -1,0 +1,32 @@
+{
+	"orð": "fjárhagsbókhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsbókhald", "fjárhagsbókhald", "fjárhagsbókhaldi", "fjárhagsbókhalds"],
+		"mg": ["fjárhagsbókhaldið", "fjárhagsbókhaldið", "fjárhagsbókhaldinu", "fjárhagsbókhaldsins"]
+	},
+	"kennistrengur": "no-fjárhagsbókhald-hk",
+	"hash": "115e82269ac36db1641fc5ccaba1a838d50476f8d3ae34f7fec60d53a7c47b75"
+}

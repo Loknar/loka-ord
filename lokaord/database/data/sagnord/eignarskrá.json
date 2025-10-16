@@ -1,0 +1,98 @@
+{
+	"orð": "eignarskrá",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-skrá"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eignarskrá",
+		"sagnbót": "eignarskráð",
+		"boðháttur": {
+			"stýfður": "eignarskrá",
+			"et": "eignarskráðu",
+			"ft": "eignarskráið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eignarskrái", "eignarskráirð", "eignarskráir"],
+					"ft": ["eignarskráum", "eignarskráið", "eignarskrá"]
+				},
+				"þátíð": {
+					"et": ["eignarskráði", "eignarskráðir", "eignarskráði"],
+					"ft": ["eignarskráðum", "eignarskráðuð", "eignarskráðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eignarskrái", "eignarskráir", "eignarskrái"],
+					"ft": ["eignarskráum", "eignarskráið", "eignarskrái"]
+				},
+				"þátíð": {
+					"et": ["eignarskráði", "eignarskráðir", "eignarskráði"],
+					"ft": ["eignarskráðum", "eignarskráðuð", "eignarskráðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eignarskráirðu",
+					"ft": "eignarskráiði"
+				},
+				"þátíð": {
+					"et": "eignarskráðirðu",
+					"ft": "eignarskráðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eignarskráirðu",
+					"ft": "eignarskráiði"
+				},
+				"þátíð": {
+					"et": "eignarskráðirðu",
+					"ft": "eignarskráðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eignarskráður", "eignarskráðan", "eignarskráðum", "eignarskráðs"],
+					"kvk": ["eignarskráð", "eignarskráða", "eignarskráðri", "eignarskráðrar"],
+					"hk": ["eignarskráð", "eignarskráð", "eignarskráðu", "eignarskráðs"]
+				},
+				"ft": {
+					"kk": ["eignarskráðir", "eignarskráða", "eignarskráðum", "eignarskráðra"],
+					"kvk": ["eignarskráðar", "eignarskráðar", "eignarskráðum", "eignarskráðra"],
+					"hk": ["eignarskráð", "eignarskráð", "eignarskráðum", "eignarskráðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["eignarskráði", "eignarskráða", "eignarskráða", "eignarskráða"],
+					"kvk": ["eignarskráða", "eignarskráðu", "eignarskráðu", "eignarskráðu"],
+					"hk": ["eignarskráða", "eignarskráða", "eignarskráða", "eignarskráða"]
+				},
+				"ft": {
+					"kk": ["eignarskráðu", "eignarskráðu", "eignarskráðu", "eignarskráðu"],
+					"kvk": ["eignarskráðu", "eignarskráðu", "eignarskráðu", "eignarskráðu"],
+					"hk": ["eignarskráðu", "eignarskráðu", "eignarskráðu", "eignarskráðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eignarskrá",
+	"hash": "e8721a4bf328352c68186b9316bd53cd4a7d61dac730cb94257e04c60479c7d5"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "dagskrártengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["dagskrártengdur", "dagskrártengdan", "dagskrártengdum", "dagskrártengds"],
+				"kvk": ["dagskrártengd", "dagskrártengda", "dagskrártengdri", "dagskrártengdrar"],
+				"hk": ["dagskrártengt", "dagskrártengt", "dagskrártengdu", "dagskrártengds"]
+			},
+			"ft": {
+				"kk": ["dagskrártengdir", "dagskrártengda", "dagskrártengdum", "dagskrártengdra"],
+				"kvk": ["dagskrártengdar", "dagskrártengdar", "dagskrártengdum", "dagskrártengdra"],
+				"hk": ["dagskrártengd", "dagskrártengd", "dagskrártengdum", "dagskrártengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["dagskrártengdi", "dagskrártengda", "dagskrártengda", "dagskrártengda"],
+				"kvk": ["dagskrártengda", "dagskrártengdu", "dagskrártengdu", "dagskrártengdu"],
+				"hk": ["dagskrártengda", "dagskrártengda", "dagskrártengda", "dagskrártengda"]
+			},
+			"ft": {
+				"kk": ["dagskrártengdu", "dagskrártengdu", "dagskrártengdu", "dagskrártengdu"],
+				"kvk": ["dagskrártengdu", "dagskrártengdu", "dagskrártengdu", "dagskrártengdu"],
+				"hk": ["dagskrártengdu", "dagskrártengdu", "dagskrártengdu", "dagskrártengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-dagskrártengdur",
+	"hash": "86cd67ebf03a41258c707d7b597ecddb905ef1acae3936869e9a40fd91c1f497"
+}

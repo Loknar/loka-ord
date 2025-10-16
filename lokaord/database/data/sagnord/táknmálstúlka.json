@@ -1,0 +1,104 @@
+{
+	"orð": "táknmálstúlka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tákn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tákn-hk"
+		},
+		{
+			"mynd": "máls",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-túlka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "táknmálstúlka",
+		"sagnbót": "táknmálstúlkað",
+		"boðháttur": {
+			"stýfður": "táknmálstúlka",
+			"et": "táknmálstúlkaðu",
+			"ft": "táknmálstúlkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["táknmálstúlka", "táknmálstúlkar", "táknmálstúlkar"],
+					"ft": ["táknmálstúlkum", "táknmálstúlkið", "táknmálstúlka"]
+				},
+				"þátíð": {
+					"et": ["táknmálstúlkaði", "táknmálstúlkaðir", "táknmálstúlkaði"],
+					"ft": ["táknmálstúlkuðum", "táknmálstúlkuðuð", "táknmálstúlkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["táknmálstúlki", "táknmálstúlkir", "táknmálstúlki"],
+					"ft": ["táknmálstúlkum", "táknmálstúlkið", "táknmálstúlki"]
+				},
+				"þátíð": {
+					"et": ["táknmálstúlkaði", "táknmálstúlkaðir", "táknmálstúlkaði"],
+					"ft": ["táknmálstúlkuðum", "táknmálstúlkuðuð", "táknmálstúlkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "táknmálstúlkarðu",
+					"ft": "táknmálstúlkiði"
+				},
+				"þátíð": {
+					"et": "táknmálstúlkaðirðu",
+					"ft": "táknmálstúlkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "táknmálstúlkirðu",
+					"ft": "táknmálstúlkiði"
+				},
+				"þátíð": {
+					"et": "táknmálstúlkaðirðu",
+					"ft": "táknmálstúlkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "táknmálstúlkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["táknmálstúlkaður", "táknmálstúlkaðan", "táknmálstúlkuðum", "táknmálstúlkaðs"],
+					"kvk": ["táknmálstúlkuð", "táknmálstúlkaða", "táknmálstúlkaðri", "táknmálstúlkaðrar"],
+					"hk": ["táknmálstúlkað", "táknmálstúlkað", "táknmálstúlkuðu", "táknmálstúlkaðs"]
+				},
+				"ft": {
+					"kk": ["táknmálstúlkaðir", "táknmálstúlkaða", "táknmálstúlkuðum", "táknmálstúlkaðra"],
+					"kvk": ["táknmálstúlkaðar", "táknmálstúlkaðar", "táknmálstúlkuðum", "táknmálstúlkaðra"],
+					"hk": ["táknmálstúlkuð", "táknmálstúlkuð", "táknmálstúlkuðum", "táknmálstúlkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["táknmálstúlkaði", "táknmálstúlkaða", "táknmálstúlkaða", "táknmálstúlkaða"],
+					"kvk": ["táknmálstúlkaða", "táknmálstúlkuðu", "táknmálstúlkuðu", "táknmálstúlkuðu"],
+					"hk": ["táknmálstúlkaða", "táknmálstúlkaða", "táknmálstúlkaða", "táknmálstúlkaða"]
+				},
+				"ft": {
+					"kk": ["táknmálstúlkuðu", "táknmálstúlkuðu", "táknmálstúlkuðu", "táknmálstúlkuðu"],
+					"kvk": ["táknmálstúlkuðu", "táknmálstúlkuðu", "táknmálstúlkuðu", "táknmálstúlkuðu"],
+					"hk": ["táknmálstúlkuðu", "táknmálstúlkuðu", "táknmálstúlkuðu", "táknmálstúlkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-táknmálstúlka",
+	"hash": "cfdeca5b0815f1cf78a173584c542e254cb91cf3e6ed42dafdbae1feb7ff56d2"
+}

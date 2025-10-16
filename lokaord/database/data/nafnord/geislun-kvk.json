@@ -2,14 +2,24 @@
 	"orð": "geislun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "geisl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-geisla"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
-		"ág": ["geislun", "geilsun", "geislun", "geislunar"],
-		"mg": ["geislunin", "geilsunina", "geilsuninni", "geislunarinnar"]
+		"ág": ["geislun", "geislun", "geislun", "geislunar"],
+		"mg": ["geislunin", "geislunina", "geisluninni", "geislunarinnar"]
 	},
 	"ft": {
 		"ág": ["geislanir", "geislanir", "geislunum", "geislana"],
 		"mg": ["geislanirnar", "geislanirnar", "geislununum", "geislananna"]
 	},
 	"kennistrengur": "no-geislun-kvk",
-	"hash": "1359c4ba568192500b8743e6414dade3c89655be84dc4af89fc0740dac64a1ac"
+	"hash": "a648436a218ce598cba4d4d0cc7ab27eb4310bebfc15b46efdbb096ded83c689"
 }

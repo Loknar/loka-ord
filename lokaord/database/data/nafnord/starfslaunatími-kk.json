@@ -1,0 +1,27 @@
+{
+	"orð": "starfslaunatími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "launa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-laun-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["starfslaunatími", "starfslaunatíma", "starfslaunatíma", "starfslaunatíma"],
+		"mg": ["starfslaunatíminn", "starfslaunatímann", "starfslaunatímanum", "starfslaunatímans"]
+	},
+	"kennistrengur": "no-starfslaunatími-kk",
+	"hash": "9a470d5ba98b23faa302680db41584253b60d778c336ed2f62f7b4d93a4690ab"
+}

@@ -1,0 +1,43 @@
+{
+	"orð": "ávísunarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ávísunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ávísun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["ávísunarskyldur", "ávísunarskyldan", "ávísunarskyldum", "ávísunarskylds"],
+				"kvk": ["ávísunarskyld", "ávísunarskylda", "ávísunarskyldri", "ávísunarskyldrar"],
+				"hk": ["ávísunarskylt", "ávísunarskylt", "ávísunarskyldu", "ávísunarskylds"]
+			},
+			"ft": {
+				"kk": ["ávísunarskyldir", "ávísunarskylda", "ávísunarskyldum", "ávísunarskyldra"],
+				"kvk": ["ávísunarskyldar", "ávísunarskyldar", "ávísunarskyldum", "ávísunarskyldra"],
+				"hk": ["ávísunarskyld", "ávísunarskyld", "ávísunarskyldum", "ávísunarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["ávísunarskyldi", "ávísunarskylda", "ávísunarskylda", "ávísunarskylda"],
+				"kvk": ["ávísunarskylda", "ávísunarskyldu", "ávísunarskyldu", "ávísunarskyldu"],
+				"hk": ["ávísunarskylda", "ávísunarskylda", "ávísunarskylda", "ávísunarskylda"]
+			},
+			"ft": {
+				"kk": ["ávísunarskyldu", "ávísunarskyldu", "ávísunarskyldu", "ávísunarskyldu"],
+				"kvk": ["ávísunarskyldu", "ávísunarskyldu", "ávísunarskyldu", "ávísunarskyldu"],
+				"hk": ["ávísunarskyldu", "ávísunarskyldu", "ávísunarskyldu", "ávísunarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-ávísunarskyldur",
+	"hash": "c650108ba294681ed8253ec71ec3bed36b4623fc6654350c70caaec6f3627a13"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "stafsetningarkennsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "staf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stafur-kk"
+		},
+		{
+			"mynd": "setningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-setning-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-kennsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stafsetningarkennsla", "stafsetningarkennslu", "stafsetningarkennslu", "stafsetningarkennslu"],
+		"mg": ["stafsetningarkennslan", "stafsetningarkennsluna", "stafsetningarkennslunni", "stafsetningarkennslunnar"]
+	},
+	"kennistrengur": "no-stafsetningarkennsla-kvk",
+	"hash": "4543e48e10d01f62415ded19d3645827921665782a74ad24b268316441d6a29f"
+}

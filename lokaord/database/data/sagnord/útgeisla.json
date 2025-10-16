@@ -1,0 +1,86 @@
+{
+	"orð": "útgeisla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-geisla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útgeisla",
+		"sagnbót": "útgeislað",
+		"boðháttur": {
+			"stýfður": "útgeisla",
+			"et": "útgeislaðu",
+			"ft": "útgeislið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útgeisla", "útgeislar", "útgeislar"],
+					"ft": ["útgeislum", "útgeislið", "útgeisla"]
+				},
+				"þátíð": {
+					"et": ["útgeislaði", "útgeislaðir", "útgeislaði"],
+					"ft": ["útgeisluðum", "útgeisluðuð", "útgeisluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útgeisli", "útgeislir", "útgeisli"],
+					"ft": ["útgeislum", "útgeislið", "útgeisli"]
+				},
+				"þátíð": {
+					"et": ["útgeislaði", "útgeislaðir", "útgeislaði"],
+					"ft": ["útgeisluðum", "útgeisluðuð", "útgeisluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útgeislarðu",
+					"ft": "útgeisliði"
+				},
+				"þátíð": {
+					"et": "útgeislaðirðu",
+					"ft": "útgeisluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útgeislirðu",
+					"ft": "útgeisliði"
+				},
+				"þátíð": {
+					"et": "útgeislaðirðu",
+					"ft": "útgeisluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útgeislaður", "útgeislaðan", "útgeisluðum", "útgeislaðs"],
+					"kvk": ["útgeisluð", "útgeislaða", "útgeislaðri", "útgeislaðrar"],
+					"hk": ["útgeislað", "útgeislað", "útgeisluðu", "útgeislaðs"]
+				},
+				"ft": {
+					"kk": ["útgeislaðir", "útgeislaða", "útgeisluðum", "útgeislaðra"],
+					"kvk": ["útgeislaðar", "útgeislaðar", "útgeisluðum", "útgeislaðra"],
+					"hk": ["útgeisluð", "útgeisluð", "útgeisluðum", "útgeislaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útgeisla",
+	"hash": "d278a1a4b7cf76022a36d0669ad4dedcc1e0e4a8c736b515854fa486d44458a4"
+}
