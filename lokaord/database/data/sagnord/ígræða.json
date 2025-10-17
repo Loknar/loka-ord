@@ -1,0 +1,87 @@
+{
+	"orð": "ígræða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "í",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-í"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-græða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ígræða",
+		"sagnbót": "ígrætt",
+		"boðháttur": {
+			"stýfður": "ígræð",
+			"et": "ígræddu",
+			"ft": "ígræðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ígræði", "ígræðir", "ígræðir"],
+					"ft": ["ígræðum", "ígræðið", "ígræða"]
+				},
+				"þátíð": {
+					"et": ["ígræddi", "ígræddir", "ígræddi"],
+					"ft": ["ígræddum", "ígrædduð", "ígræddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ígræði", "ígræðir", "ígræði"],
+					"ft": ["ígræðum", "ígræðið", "ígræði"]
+				},
+				"þátíð": {
+					"et": ["ígræddi", "ígræddir", "ígræddi"],
+					"ft": ["ígræddum", "ígrædduð", "ígræddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ígræðirðu",
+					"ft": "ígræðiði"
+				},
+				"þátíð": {
+					"et": "ígræddirðu",
+					"ft": "ígrædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ígræðirðu",
+					"ft": "ígræðiði"
+				},
+				"þátíð": {
+					"et": "ígræddirðu",
+					"ft": "ígrædduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ígræðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ígræddur", "ígræddan", "ígræddum", "ígrædds"],
+					"kvk": ["ígrædd", "ígrædda", "ígræddri", "ígræddrar"],
+					"hk": ["ígrætt", "ígrætt", "ígræddu", "ígrædds"]
+				},
+				"ft": {
+					"kk": ["ígræddir", "ígrædda", "ígræddum", "ígræddra"],
+					"kvk": ["ígræddar", "ígræddar", "ígræddum", "ígræddra"],
+					"hk": ["ígrædd", "ígrædd", "ígræddum", "ígræddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ígræða",
+	"hash": "25939d36245a850b46d46e247d4783088569a040701dc59c7d6fb92578ae7b91"
+}

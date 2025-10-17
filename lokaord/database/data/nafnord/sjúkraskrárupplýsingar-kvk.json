@@ -1,0 +1,27 @@
+{
+	"orð": "sjúkraskrárupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjúkra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["sjúkraskrárupplýsingar", "sjúkraskrárupplýsingar", "sjúkraskrárupplýsingum", "sjúkraskrárupplýsinga"],
+		"mg": ["sjúkraskrárupplýsingarnar", "sjúkraskrárupplýsingarnar", "sjúkraskrárupplýsingunum", "sjúkraskrárupplýsinganna"]
+	},
+	"kennistrengur": "no-sjúkraskrárupplýsingar-kvk",
+	"hash": "ad9b9ea110ecbb5fd27208046dc0f45571aea21df58f12ad333a9a46b498b3cd"
+}

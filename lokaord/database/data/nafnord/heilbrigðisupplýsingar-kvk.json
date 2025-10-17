@@ -1,0 +1,27 @@
+{
+	"orð": "heilbrigðisupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heil",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heiłl"
+		},
+		{
+			"mynd": "brigðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-brigði-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heilbrigðisupplýsingar", "heilbrigðisupplýsingar", "heilbrigðisupplýsingum", "heilbrigðisupplýsinga"],
+		"mg": ["heilbrigðisupplýsingarnar", "heilbrigðisupplýsingarnar", "heilbrigðisupplýsingunum", "heilbrigðisupplýsinganna"]
+	},
+	"kennistrengur": "no-heilbrigðisupplýsingar-kvk",
+	"hash": "3e6ec30e3134c00c35e157ea006685b54446da6d60afc10e420ffc428a2830d9"
+}

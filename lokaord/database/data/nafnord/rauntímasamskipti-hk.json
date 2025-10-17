@@ -1,0 +1,32 @@
+{
+	"orð": "rauntímasamskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "raun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raun-kvk"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["rauntímasamskipti", "rauntímasamskipti", "rauntímasamskiptum", "rauntímasamskipta"],
+		"mg": ["rauntímasamskiptin", "rauntímasamskiptin", "rauntímasamskiptunum", "rauntímasamskiptanna"]
+	},
+	"kennistrengur": "no-rauntímasamskipti-hk",
+	"hash": "ced00905e85da7443204d065318d821b5a0729dfb2017147af43958229ed7a0c"
+}

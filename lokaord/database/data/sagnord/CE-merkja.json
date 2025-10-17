@@ -1,0 +1,82 @@
+{
+	"orð": "CE-merkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "CE-",
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "CE-merkja",
+		"sagnbót": "CE-merkt",
+		"boðháttur": {
+			"stýfður": "CE-merk",
+			"et": "CE-merktu",
+			"ft": "CE-merkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["CE-merki", "CE-merkir", "CE-merkir"],
+					"ft": ["CE-merkjum", "CE-merkið", "CE-merkja"]
+				},
+				"þátíð": {
+					"et": ["CE-merkti", "CE-merktir", "CE-merkti"],
+					"ft": ["CE-merktum", "CE-merktuð", "CE-merktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["CE-merki", "CE-merkir", "CE-merki"],
+					"ft": ["CE-merkjum", "CE-merkið", "CE-merki"]
+				},
+				"þátíð": {
+					"et": ["CE-merkti", "CE-merktir", "CE-merkti"],
+					"ft": ["CE-merktum", "CE-merktuð", "CE-merktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "CE-merkirðu",
+					"ft": "CE-merkiði"
+				},
+				"þátíð": {
+					"et": "CE-merktirðu",
+					"ft": "CE-merktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "CE-merkirðu",
+					"ft": "CE-merkiði"
+				},
+				"þátíð": {
+					"et": "CE-merktirðu",
+					"ft": "CE-merktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["CE-merktur", "CE-merktan", "CE-merktum", "CE-merkts"],
+					"kvk": ["CE-merkt", "CE-merkta", "CE-merktri", "CE-merktrar"],
+					"hk": ["CE-merkt", "CE-merkt", "CE-merktu", "CE-merkts"]
+				},
+				"ft": {
+					"kk": ["CE-merktir", "CE-merkta", "CE-merktum", "CE-merktra"],
+					"kvk": ["CE-merktar", "CE-merktar", "CE-merktum", "CE-merktra"],
+					"hk": ["CE-merkt", "CE-merkt", "CE-merktum", "CE-merktra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-CE-merkja",
+	"hash": "60d0340b55d64c4b71b4af66ab6c835e58db55296384f6c1d0568f21351cbbe8"
+}

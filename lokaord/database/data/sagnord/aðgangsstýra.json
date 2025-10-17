@@ -1,0 +1,78 @@
+{
+	"orð": "aðgangsstýra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"mynd": "gangs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gangur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-stýra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "aðgangsstýra",
+		"sagnbót": "aðgangsstýrt",
+		"boðháttur": {
+			"stýfður": "aðgangsstýr",
+			"et": "aðgangsstýrðu",
+			"ft": "aðgangsstýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["aðgangsstýri", "aðgangsstýrir", "aðgangsstýrir"],
+					"ft": ["aðgangsstýrum", "aðgangsstýrið", "aðgangsstýra"]
+				},
+				"þátíð": {
+					"et": ["aðgangsstýrði", "aðgangsstýrðir", "aðgangsstýrði"],
+					"ft": ["aðgangsstýrðum", "aðgangsstýrðuð", "aðgangsstýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["aðgangsstýri", "aðgangsstýrir", "aðgangsstýri"],
+					"ft": ["aðgangsstýrum", "aðgangsstýrið", "aðgangsstýri"]
+				},
+				"þátíð": {
+					"et": ["aðgangsstýrði", "aðgangsstýrðir", "aðgangsstýrði"],
+					"ft": ["aðgangsstýrðum", "aðgangsstýrðuð", "aðgangsstýrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "aðgangsstýrirðu",
+					"ft": "aðgangsstýriði"
+				},
+				"þátíð": {
+					"et": "aðgangsstýrðirðu",
+					"ft": "aðgangsstýrðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "aðgangsstýrirðu",
+					"ft": "aðgangsstýriði"
+				},
+				"þátíð": {
+					"et": "aðgangsstýrðirðu",
+					"ft": "aðgangsstýrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "aðgangsstýrandi"
+	},
+	"kennistrengur": "so-aðgangsstýra",
+	"hash": "15985c2a3cef5f647b7bbde5da8fb6af6aa355cf05b9afee7e3eb1b683671ac2"
+}

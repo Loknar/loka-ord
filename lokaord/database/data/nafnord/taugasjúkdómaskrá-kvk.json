@@ -1,0 +1,35 @@
+{
+	"orð": "taugasjúkdómaskrá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tauga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taug-kvk"
+		},
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-skrá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["taugasjúkdómaskrá", "taugasjúkdómaskrá", "taugasjúkdómaskrá", "taugasjúkdómaskrár"],
+		"mg": ["taugasjúkdómaskráin", "taugasjúkdómaskrána", "taugasjúkdómaskránni", "taugasjúkdómaskrárinnar"]
+	},
+	"ft": {
+		"ág": ["taugasjúkdómaskrár", "taugasjúkdómaskrár", "taugasjúkdómaskrám", "taugasjúkdómaskráa"],
+		"mg": ["taugasjúkdómaskrárnar", "taugasjúkdómaskrárnar", "taugasjúkdómaskránum", "taugasjúkdómaskránna"]
+	},
+	"kennistrengur": "no-taugasjúkdómaskrá-kvk",
+	"hash": "fecc13f9501cbcd0fa1b1fb087da7998e81ea92b5f6d20b9f48c7a4c71c05aa2"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "kumla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kuml",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kumla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kumla",
+		"sagnbót": "kumlað",
+		"boðháttur": {
+			"stýfður": "kumla",
+			"et": "kumlaðu",
+			"ft": "kumlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kumla", "kumlar", "kumlar"],
+					"ft": ["kumlum", "kumlið", "kumla"]
+				},
+				"þátíð": {
+					"et": ["kumlaði", "kumlaðir", "kumlaði"],
+					"ft": ["kumluðum", "kumluðuð", "kumluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kumli", "kumlir", "kumli"],
+					"ft": ["kumlum", "kumlið", "kumli"]
+				},
+				"þátíð": {
+					"et": ["kumlaði", "kumlaðir", "kumlaði"],
+					"ft": ["kumluðum", "kumluðuð", "kumluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kumlarðu",
+					"ft": "kumliði"
+				},
+				"þátíð": {
+					"et": "kumlaðirðu",
+					"ft": "kumluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kumlirðu",
+					"ft": "kumliði"
+				},
+				"þátíð": {
+					"et": "kumlaðirðu",
+					"ft": "kumluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kumlast",
+		"sagnbót": "kumlast",
+		"boðháttur": {
+			"et": "kumlastu",
+			"ft": "kumlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kumlast", "kumlast", "kumlast"],
+					"ft": ["kumlumst", "kumlist", "kumlast"]
+				},
+				"þátíð": {
+					"et": ["kumlaðist", "kumlaðist", "kumlaðist"],
+					"ft": ["kumluðumst", "kumluðust", "kumluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kumlist", "kumlist", "kumlist"],
+					"ft": ["kumlumst", "kumlist", "kumlist"]
+				},
+				"þátíð": {
+					"et": ["kumlaðist", "kumlaðist", "kumlaðist"],
+					"ft": ["kumluðumst", "kumluðust", "kumluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kumlastu"
+				},
+				"þátíð": {
+					"et": "kumlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kumlistu"
+				},
+				"þátíð": {
+					"et": "kumlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kumlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kumlaður", "kumlaðan", "kumluðum", "kumlaðs"],
+					"kvk": ["kumluð", "kumlaða", "kumlaðri", "kumlaðrar"],
+					"hk": ["kumlað", "kumlað", "kumluðu", "kumlaðs"]
+				},
+				"ft": {
+					"kk": ["kumlaðir", "kumlaða", "kumluðum", "kumlaðra"],
+					"kvk": ["kumlaðar", "kumlaðar", "kumluðum", "kumlaðra"],
+					"hk": ["kumluð", "kumluð", "kumluðum", "kumlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kumla",
+	"hash": "202cadf2aeef08fa1a3a7241c6c8a3690f94d8fddfc1322e676c9aa48308fe64"
+}
