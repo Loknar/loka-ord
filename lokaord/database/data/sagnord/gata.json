@@ -1,0 +1,132 @@
+{
+	"orð": "gata",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gata",
+		"sagnbót": "gatað",
+		"boðháttur": {
+			"stýfður": "gata",
+			"et": "gataðu",
+			"ft": "gatið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gata", "gatar", "gatar"],
+					"ft": ["götum", "gatið", "gata"]
+				},
+				"þátíð": {
+					"et": ["gataði", "gataðir", "gataði"],
+					"ft": ["götuðum", "götuðuð", "götuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gati", "gatir", "gati"],
+					"ft": ["götum", "gatið", "gati"]
+				},
+				"þátíð": {
+					"et": ["gataði", "gataðir", "gataði"],
+					"ft": ["götuðum", "götuðuð", "götuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gatarðu",
+					"ft": "gatiði"
+				},
+				"þátíð": {
+					"et": "gataðirðu",
+					"ft": "götuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gatirðu",
+					"ft": "gatiði"
+				},
+				"þátíð": {
+					"et": "gataðirðu",
+					"ft": "götuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gatast",
+		"sagnbót": "gatast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gatast", "gatast", "gatast"],
+					"ft": ["gatumst", "gatist", "gatast"]
+				},
+				"þátíð": {
+					"et": ["gataðist", "gataðist", "gataðist"],
+					"ft": ["götuðumst", "götuðust", "götuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gatist", "gatist", "gatist"],
+					"ft": ["götumst", "gatist", "gatist"]
+				},
+				"þátíð": {
+					"et": ["gataðist", "gataðist", "gataðist"],
+					"ft": ["götuðumst", "götuðust", "götuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gatastu"
+				},
+				"þátíð": {
+					"et": "gataðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gatistu"
+				},
+				"þátíð": {
+					"et": "gataðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gatandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gataður", "gataðan", "götuðum", "gataðs"],
+					"kvk": ["götuð", "gataða", "gataðri", "gataðrar"],
+					"hk": ["gatað", "gatað", "götuðu", "gataðs"]
+				},
+				"ft": {
+					"kk": ["gataðir", "gataða", "götuðum", "gataðra"],
+					"kvk": ["gataðar", "gataðar", "götuðum", "gataðra"],
+					"hk": ["götuð", "götuð", "götuðum", "gataðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gataði", "gataða", "gataða", "gataða"],
+					"kvk": ["gataða", "götuðu", "götuðu", "götuðu"],
+					"hk": ["gataða", "gataða", "gataða", "gataða"]
+				},
+				"ft": {
+					"kk": ["götuðu", "götuðu", "götuðu", "götuðu"],
+					"kvk": ["götuðu", "götuðu", "götuðu", "götuðu"],
+					"hk": ["götuðu", "götuðu", "götuðu", "götuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gata",
+	"hash": "c9fcf3e4a564d561df8e8f91e41159d2453fa2184e916b7fb03b7599dbc0211b"
+}

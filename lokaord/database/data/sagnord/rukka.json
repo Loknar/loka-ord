@@ -1,6 +1,12 @@
 {
 	"orð": "rukka",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "rukk",
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "rukka",
 		"sagnbót": "rukkað",
@@ -57,6 +63,10 @@
 	"miðmynd": {
 		"nafnháttur": "rukkast",
 		"sagnbót": "rukkast",
+		"boðháttur": {
+			"et": "rukkastu",
+			"ft": "rukkist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +138,5 @@
 		}
 	},
 	"kennistrengur": "so-rukka",
-	"hash": "cf97e32657c71d92572d739ca3948091282e659ff03b6e5ba3db159cba35f77d"
+	"hash": "d5d44a546138bf85595e7132ddca59f13983b815acead53f26602ee41f428d89"
 }

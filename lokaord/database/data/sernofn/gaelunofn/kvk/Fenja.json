@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-fenja-kvk"
+		}
+	],
 	"et": {
-		"ág": ["Fenja", "Fenju", "Fenju", "Fenju"]
+		"ág": ["Fenjur", "Fenjur", "Fenjum", "Fenja"]
 	},
 	"kennistrengur": "sérn.gn-Fenja-kvk",
-	"hash": "fbfd2d68ba5373ce5b8f552493b1816bcff4e612f41db2f683236d841778d970"
+	"hash": "c6fcbd90fa81cf68b6bff165f53cb71d633229312d0f5f6ca791393779b1e8a0"
 }

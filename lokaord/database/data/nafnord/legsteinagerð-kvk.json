@@ -1,0 +1,27 @@
+{
+	"orð": "legsteinagerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-leggja"
+		},
+		{
+			"mynd": "steina",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-steinn-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["legsteinagerð", "legsteinagerð", "legsteinagerð", "legsteinagerðar"],
+		"mg": ["legsteinagerðin", "legsteinagerðina", "legsteinagerðinni", "legsteinagerðarinnar"]
+	},
+	"kennistrengur": "no-legsteinagerð-kvk",
+	"hash": "9cafefacbed04c92fe6a403cd31b998c82160e92c3e27329d430eb9399768844"
+}
