@@ -1,0 +1,27 @@
+{
+	"orð": "starfsmannabúðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-búð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["starfsmannabúðir", "starfsmannabúðir", "starfsmannabúðum", "starfsmannabúða"],
+		"mg": ["starfsmannabúðirnar", "starfsmannabúðirnar", "starfsmannabúðunum", "starfsmannabúðanna"]
+	},
+	"kennistrengur": "no-starfsmannabúðir-kvk",
+	"hash": "dcc316dc2fe825a1e2aa63a4513f286ab7dbcf5a7aa2c2437018a5f3538f0047"
+}

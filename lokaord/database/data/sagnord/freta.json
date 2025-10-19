@@ -1,0 +1,135 @@
+{
+	"orð": "freta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fret",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fret-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "freta",
+		"sagnbót": "fretað",
+		"boðháttur": {
+			"stýfður": "freta",
+			"et": "fretaðu",
+			"ft": "fretið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["freta", "fretar", "fretar"],
+					"ft": ["fretum", "fretið", "freta"]
+				},
+				"þátíð": {
+					"et": ["fretaði", "fretaðir", "fretaði"],
+					"ft": ["fretuðum", "fretuðuð", "fretuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["freti", "fretir", "freti"],
+					"ft": ["fretum", "fretið", "freti"]
+				},
+				"þátíð": {
+					"et": ["fretaði", "fretaðir", "fretaði"],
+					"ft": ["fretuðum", "fretuðuð", "fretuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fretarðu",
+					"ft": "fretiði"
+				},
+				"þátíð": {
+					"et": "fretaðirðu",
+					"ft": "fretuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fretirðu",
+					"ft": "fretiði"
+				},
+				"þátíð": {
+					"et": "fretaðirðu",
+					"ft": "fretuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fretast",
+		"sagnbót": "fretast",
+		"boðháttur": {
+			"et": "fretastu",
+			"ft": "fretist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fretast", "fretast", "fretast"],
+					"ft": ["fretumst", "fretist", "fretast"]
+				},
+				"þátíð": {
+					"et": ["fretaðist", "fretaðist", "fretaðist"],
+					"ft": ["fretuðumst", "fretuðust", "fretuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fretist", "fretist", "fretist"],
+					"ft": ["fretumst", "fretist", "fretist"]
+				},
+				"þátíð": {
+					"et": ["fretaðist", "fretaðist", "fretaðist"],
+					"ft": ["fretuðumst", "fretuðust", "fretuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fretastu"
+				},
+				"þátíð": {
+					"et": "fretaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fretistu"
+				},
+				"þátíð": {
+					"et": "fretaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fretandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fretaður", "fretaðan", "fretuðum", "fretaðs"],
+					"kvk": ["fretuð", "fretaða", "fretaðri", "fretaðrar"],
+					"hk": ["fretað", "fretað", "fretuðu", "fretaðs"]
+				},
+				"ft": {
+					"kk": ["fretaðir", "fretaða", "fretuðum", "fretaðra"],
+					"kvk": ["fretaðar", "fretaðar", "fretuðum", "fretaðra"],
+					"hk": ["fretuð", "fretuð", "fretuðum", "fretaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-freta",
+	"hash": "edd8ee00191f913f81ecf74ae9b010c86a67acd2710981cfd08e4b08e56711c2"
+}

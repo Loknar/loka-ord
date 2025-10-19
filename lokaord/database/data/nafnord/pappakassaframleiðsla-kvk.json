@@ -1,0 +1,32 @@
+{
+	"orð": "pappakassaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "pappa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-pappi-kk"
+		},
+		{
+			"mynd": "kassa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kassi-kk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["pappakassaframleiðsla", "pappakassaframleiðslu", "pappakassaframleiðslu", "pappakassaframleiðslu"],
+		"mg": ["pappakassaframleiðslan", "pappakassaframleiðsluna", "pappakassaframleiðslunni", "pappakassaframleiðslunnar"]
+	},
+	"kennistrengur": "no-pappakassaframleiðsla-kvk",
+	"hash": "4b67d04166cb17914b4fd38e41f2a9ba27b31393ebe9121593aa77671e5b9b96"
+}
