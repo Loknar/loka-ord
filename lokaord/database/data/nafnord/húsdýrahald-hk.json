@@ -1,0 +1,27 @@
+{
+	"orð": "húsdýrahald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "dýra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dýr-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["húsdýrahald", "húsdýrahald", "húsdýrahaldi", "húsdýrahalds"],
+		"mg": ["húsdýrahaldið", "húsdýrahaldið", "húsdýrahaldinu", "húsdýrahaldsins"]
+	},
+	"kennistrengur": "no-húsdýrahald-hk",
+	"hash": "6b7d99d79e83a25bef47fc404873c3fea2ac7a2de112f2880c5b7851bd1af2c4"
+}

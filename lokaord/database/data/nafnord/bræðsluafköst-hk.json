@@ -1,0 +1,27 @@
+{
+	"orð": "bræðsluafköst",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bræðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bræðsla-kvk"
+		},
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kast-hk"
+		}
+	],
+	"ft": {
+		"ág": ["bræðsluafköst", "bræðsluafköst", "bræðsluafköstum", "bræðsluafkasta"],
+		"mg": ["bræðsluafköstin", "bræðsluafköstin", "bræðsluafköstunum", "bræðsluafkastanna"]
+	},
+	"kennistrengur": "no-bræðsluafköst-hk",
+	"hash": "e14b4cbfe773a2cda8a33d4b603f57d5ce3d0084344276c166aa2fe47248a956"
+}

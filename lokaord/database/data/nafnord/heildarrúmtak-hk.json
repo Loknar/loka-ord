@@ -1,0 +1,27 @@
+{
+	"orð": "heildarrúmtak",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "rúm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rúm-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarrúmtak", "heildarrúmtak", "heildarrúmtaki", "heildarrúmtaks"],
+		"mg": ["heildarrúmtakið", "heildarrúmtakið", "heildarrúmtakinu", "heildarrúmtaksins"]
+	},
+	"kennistrengur": "no-heildarrúmtak-hk",
+	"hash": "f49df126045d61a2cb65825f6afed609f6760782d408c2ab53e7ba51bad9e9e2"
+}

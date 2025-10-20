@@ -1,0 +1,32 @@
+{
+	"orð": "heildarnafnvarmaafl",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "nafn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nafn-hk"
+		},
+		{
+			"mynd": "varma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varmi-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-afl-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarnafnvarmaafl", "heildarnafnvarmaafl", "heildarnafnvarmaafli", "heildarnafnvarmaafls"],
+		"mg": ["heildarnafnvarmaaflið", "heildarnafnvarmaaflið", "heildarnafnvarmaaflinu", "heildarnafnvarmaaflsins"]
+	},
+	"kennistrengur": "no-heildarnafnvarmaafl-hk",
+	"hash": "a8c28785764eba27448e62392b394f839ad213a6924ce2df4f5327088115e88d"
+}

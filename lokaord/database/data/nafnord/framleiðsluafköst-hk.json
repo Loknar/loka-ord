@@ -1,0 +1,32 @@
+{
+	"orð": "framleiðsluafköst",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kast-hk"
+		}
+	],
+	"ft": {
+		"ág": ["framleiðsluafköst", "framleiðsluafköst", "framleiðsluafköstum", "framleiðsluafkasta"],
+		"mg": ["framleiðsluafköstin", "framleiðsluafköstin", "framleiðsluafköstunum", "framleiðsluafkastanna"]
+	},
+	"kennistrengur": "no-framleiðsluafköst-hk",
+	"hash": "de5b01471d6c95001387017c7e97bd0e4c32af2c0ea4aeee6241173577bcd40b"
+}

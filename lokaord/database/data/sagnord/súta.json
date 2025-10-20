@@ -1,0 +1,135 @@
+{
+	"orð": "súta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sút",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sút-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "súta",
+		"sagnbót": "sútað",
+		"boðháttur": {
+			"stýfður": "súta",
+			"et": "sútaðu",
+			"ft": "sútið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["súta", "sútar", "sútar"],
+					"ft": ["sútum", "sútið", "súta"]
+				},
+				"þátíð": {
+					"et": ["sútaði", "sútaðir", "sútaði"],
+					"ft": ["sútuðum", "sútuðuð", "sútuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["súti", "sútir", "súti"],
+					"ft": ["sútum", "sútið", "súti"]
+				},
+				"þátíð": {
+					"et": ["sútaði", "sútaðir", "sútaði"],
+					"ft": ["sútuðum", "sútuðuð", "sútuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sútarðu",
+					"ft": "sútiði"
+				},
+				"þátíð": {
+					"et": "sútaðirðu",
+					"ft": "sútuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sútirðu",
+					"ft": "sútiði"
+				},
+				"þátíð": {
+					"et": "sútaðirðu",
+					"ft": "sútuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sútast",
+		"sagnbót": "sútast",
+		"boðháttur": {
+			"et": "sútastu",
+			"ft": "sútist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sútast", "sútast", "sútast"],
+					"ft": ["sútumst", "sútist", "sútast"]
+				},
+				"þátíð": {
+					"et": ["sútaðist", "sútaðist", "sútaðist"],
+					"ft": ["sútuðumst", "sútuðust", "sútuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sútist", "sútist", "sútist"],
+					"ft": ["sútumst", "sútist", "sútist"]
+				},
+				"þátíð": {
+					"et": ["sútaðist", "sútaðist", "sútaðist"],
+					"ft": ["sútuðumst", "sútuðust", "sútuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sútastu"
+				},
+				"þátíð": {
+					"et": "sútaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sútistu"
+				},
+				"þátíð": {
+					"et": "sútaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sútandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sútaður", "sútaðan", "sútuðum", "sútaðs"],
+					"kvk": ["sútuð", "sútaða", "sútaðri", "sútaðrar"],
+					"hk": ["sútað", "sútað", "sútuðu", "sútaðs"]
+				},
+				"ft": {
+					"kk": ["sútaðir", "sútaða", "sútuðum", "sútaðra"],
+					"kvk": ["sútaðar", "sútaðar", "sútuðum", "sútaðra"],
+					"hk": ["sútuð", "sútuð", "sútuðum", "sútaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-súta",
+	"hash": "9e51d3fb58c31bcc38c4d87e0b133c09d3e5cce1e3afa22d103b7d7f9186fe18"
+}

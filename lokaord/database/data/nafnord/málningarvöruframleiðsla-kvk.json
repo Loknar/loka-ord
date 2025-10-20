@@ -1,0 +1,32 @@
+{
+	"orð": "málningarvöruframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "málningar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-málning-kvk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["málningarvöruframleiðsla", "málningarvöruframleiðslu", "málningarvöruframleiðslu", "málningarvöruframleiðslu"],
+		"mg": ["málningarvöruframleiðslan", "málningarvöruframleiðsluna", "málningarvöruframleiðslunni", "málningarvöruframleiðslunnar"]
+	},
+	"kennistrengur": "no-málningarvöruframleiðsla-kvk",
+	"hash": "b7b37d6aee3e9b6d5e0375926dd2cfc26ea9b7b17bc17bb2e98775d36fe28f02"
+}
