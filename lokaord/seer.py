@@ -206,6 +206,18 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			found += 1
 			scanned_sentence.append(scanned_word)
 			continue
+		elif word.lower() in sight['skammstafanir']:
+			word_l = word.lower()
+			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word_l]['myndir']])
+			scanned_word['staða'] = 'skammstöfun'
+			scanned_word['orð-hreinsað'] = word_l
+			scanned_word['möguleikar'].append({
+				'k': sight['skammstafanir'][word_l]['kennistrengur'],
+				'm': myndir
+			})
+			found += 1
+			scanned_sentence.append(scanned_word)
+			continue
 		elif word[-1] in onhanging_chars and word[:-1] in sight['skammstafanir']:
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word[:-1]]['myndir']])
 			scanned_word['staða'] = 'skammstöfun'
