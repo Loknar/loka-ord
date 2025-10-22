@@ -1,0 +1,99 @@
+{
+	"orð": "efnagreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "efnagreina",
+		"sagnbót": "efnagreint",
+		"boðháttur": {
+			"stýfður": "efnagrein",
+			"et": "efnagreindu",
+			"ft": "efnagreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["efnagreini", "efnagreinir", "efnagreinir"],
+					"ft": ["efnagreinum", "efnagreinið", "efnagreina"]
+				},
+				"þátíð": {
+					"et": ["efnagreindi", "efnagreindir", "efnagreindi"],
+					"ft": ["efnagreindum", "efnagreinduð", "efnagreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["efnagreini", "efnagreinir", "efnagreini"],
+					"ft": ["efnagreinum", "efnagreinið", "efnagreini"]
+				},
+				"þátíð": {
+					"et": ["efnagreindi", "efnagreindir", "efnagreindi"],
+					"ft": ["efnagreindum", "efnagreinduð", "efnagreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "efnagreinirðu",
+					"ft": "efnagreiniði"
+				},
+				"þátíð": {
+					"et": "efnagreindirðu",
+					"ft": "efnagreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "efnagreinirðu",
+					"ft": "efnagreiniði"
+				},
+				"þátíð": {
+					"et": "efnagreindirðu",
+					"ft": "efnagreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "efnagreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["efnagreindur", "efnagreindan", "efnagreindum", "efnagreinds"],
+					"kvk": ["efnagreind", "efnagreinda", "efnagreindri", "efnagreindrar"],
+					"hk": ["efnagreint", "efnagreint", "efnagreindu", "efnagreinds"]
+				},
+				"ft": {
+					"kk": ["efnagreindir", "efnagreinda", "efnagreindum", "efnagreindra"],
+					"kvk": ["efnagreindar", "efnagreindar", "efnagreindum", "efnagreindra"],
+					"hk": ["efnagreind", "efnagreind", "efnagreindum", "efnagreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["efnagreindi", "efnagreinda", "efnagreinda", "efnagreinda"],
+					"kvk": ["efnagreinda", "efnagreindu", "efnagreindu", "efnagreindu"],
+					"hk": ["efnagreinda", "efnagreinda", "efnagreinda", "efnagreinda"]
+				},
+				"ft": {
+					"kk": ["efnagreindu", "efnagreindu", "efnagreindu", "efnagreindu"],
+					"kvk": ["efnagreindu", "efnagreindu", "efnagreindu", "efnagreindu"],
+					"hk": ["efnagreindu", "efnagreindu", "efnagreindu", "efnagreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-efnagreina",
+	"hash": "df04fdbead17aa7b5ffa5e4e823c6c2d29369ac6126b98e2d882c980c4e7889d"
+}

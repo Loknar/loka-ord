@@ -1,0 +1,37 @@
+{
+	"orð": "rafeindabúnaðarúrgangur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"mynd": "einda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eind-kvk"
+		},
+		{
+			"mynd": "búnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-búnaður-kk"
+		},
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gangur-kk"
+		}
+	],
+	"et": {
+		"ág": ["rafeindabúnaðarúrgangur", "rafeindabúnaðarúrgang", "rafeindabúnaðarúrgangi", "rafeindabúnaðarúrgangs"],
+		"mg": ["rafeindabúnaðarúrgangurinn", "rafeindabúnaðarúrganginn", "rafeindabúnaðarúrganginum", "rafeindabúnaðarúrgangsins"]
+	},
+	"kennistrengur": "no-rafeindabúnaðarúrgangur-kk",
+	"hash": "d8e7c90f7fdcdf7d0dcc9d98d9e976f269b4f9e9eebcfe95c461cfaa10fb12fb"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "brennsluaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "brennslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-brennsla-kvk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["brennsluaðstæður", "brennsluaðstæður", "brennsluaðstæðum", "brennsluaðstæðna"],
+		"mg": ["brennsluaðstæðurnar", "brennsluaðstæðurnar", "brennsluaðstæðunum", "brennsluaðstæðnanna"]
+	},
+	"kennistrengur": "no-brennsluaðstæður-kvk",
+	"hash": "e2d29efa83e0a2ce51e1888a824b6a61b44d99e85e313a43c93253aa90764368"
+}

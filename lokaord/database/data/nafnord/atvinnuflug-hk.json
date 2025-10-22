@@ -1,0 +1,27 @@
+{
+	"orð": "atvinnuflug",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-flug-hk"
+		}
+	],
+	"et": {
+		"ág": ["atvinnuflug", "atvinnuflug", "atvinnuflugi", "atvinnuflugs"],
+		"mg": ["atvinnuflugið", "atvinnuflugið", "atvinnufluginu", "atvinnuflugsins"]
+	},
+	"kennistrengur": "no-atvinnuflug-hk",
+	"hash": "77e1ecb2c9a5b07f6be37a16c12ff1ccb9958006ad4e9e7891fc842ab51b3d34"
+}

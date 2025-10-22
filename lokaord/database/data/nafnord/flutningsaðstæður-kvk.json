@@ -1,0 +1,27 @@
+{
+	"orð": "flutningsaðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flutnings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-flutningur-kk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["flutningsaðstæður", "flutningsaðstæður", "flutningsaðstæðum", "flutningsaðstæðna"],
+		"mg": ["flutningsaðstæðurnar", "flutningsaðstæðurnar", "flutningsaðstæðunum", "flutningsaðstæðnanna"]
+	},
+	"kennistrengur": "no-flutningsaðstæður-kvk",
+	"hash": "feba17aa40d097fab940d8ef55e3dd8af4cb232cb17c4819bd74fd2d9589b645"
+}

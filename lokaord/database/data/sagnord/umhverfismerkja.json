@@ -1,0 +1,99 @@
+{
+	"orð": "umhverfismerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "umhverfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-umhverfi-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umhverfismerkja",
+		"sagnbót": "umhverfismerkt",
+		"boðháttur": {
+			"stýfður": "umhverfismerk",
+			"et": "umhverfismerktu",
+			"ft": "umhverfismerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umhverfismerki", "umhverfismerkir", "umhverfismerkir"],
+					"ft": ["umhverfismerkjum", "umhverfismerkið", "umhverfismerkja"]
+				},
+				"þátíð": {
+					"et": ["umhverfismerkti", "umhverfismerktir", "umhverfismerkti"],
+					"ft": ["umhverfismerktum", "umhverfismerktuð", "umhverfismerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umhverfismerki", "umhverfismerkir", "umhverfismerki"],
+					"ft": ["umhverfismerkjum", "umhverfismerkið", "umhverfismerki"]
+				},
+				"þátíð": {
+					"et": ["umhverfismerkti", "umhverfismerktir", "umhverfismerkti"],
+					"ft": ["umhverfismerktum", "umhverfismerktuð", "umhverfismerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umhverfismerkirðu",
+					"ft": "umhverfismerkiði"
+				},
+				"þátíð": {
+					"et": "umhverfismerktirðu",
+					"ft": "umhverfismerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umhverfismerkirðu",
+					"ft": "umhverfismerkiði"
+				},
+				"þátíð": {
+					"et": "umhverfismerktirðu",
+					"ft": "umhverfismerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umhverfismerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umhverfismerktur", "umhverfismerktan", "umhverfismerktum", "umhverfismerkts"],
+					"kvk": ["umhverfismerkt", "umhverfismerkta", "umhverfismerktri", "umhverfismerktrar"],
+					"hk": ["umhverfismerkt", "umhverfismerkt", "umhverfismerktu", "umhverfismerkts"]
+				},
+				"ft": {
+					"kk": ["umhverfismerktir", "umhverfismerkta", "umhverfismerktum", "umhverfismerktra"],
+					"kvk": ["umhverfismerktar", "umhverfismerktar", "umhverfismerktum", "umhverfismerktra"],
+					"hk": ["umhverfismerkt", "umhverfismerkt", "umhverfismerktum", "umhverfismerktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["umhverfismerkti", "umhverfismerkta", "umhverfismerkta", "umhverfismerkta"],
+					"kvk": ["umhverfismerkta", "umhverfismerktu", "umhverfismerktu", "umhverfismerktu"],
+					"hk": ["umhverfismerkta", "umhverfismerkta", "umhverfismerkta", "umhverfismerkta"]
+				},
+				"ft": {
+					"kk": ["umhverfismerktu", "umhverfismerktu", "umhverfismerktu", "umhverfismerktu"],
+					"kvk": ["umhverfismerktu", "umhverfismerktu", "umhverfismerktu", "umhverfismerktu"],
+					"hk": ["umhverfismerktu", "umhverfismerktu", "umhverfismerktu", "umhverfismerktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umhverfismerkja",
+	"hash": "47a67e444e67552cc49628ffade44a624d4df8188560db81a1e48e869e6d6d7b"
+}

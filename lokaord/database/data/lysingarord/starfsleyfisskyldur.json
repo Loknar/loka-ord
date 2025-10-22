@@ -1,0 +1,48 @@
+{
+	"orð": "starfsleyfisskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "leyfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leyfi-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["starfsleyfisskyldur", "starfsleyfisskyldan", "starfsleyfisskyldum", "starfsleyfisskylds"],
+				"kvk": ["starfsleyfisskyld", "starfsleyfisskylda", "starfsleyfisskyldri", "starfsleyfisskyldrar"],
+				"hk": ["starfsleyfisskylt", "starfsleyfisskylt", "starfsleyfisskyldu", "starfsleyfisskylds"]
+			},
+			"ft": {
+				"kk": ["starfsleyfisskyldir", "starfsleyfisskylda", "starfsleyfisskyldum", "starfsleyfisskyldra"],
+				"kvk": ["starfsleyfisskyldar", "starfsleyfisskyldar", "starfsleyfisskyldum", "starfsleyfisskyldra"],
+				"hk": ["starfsleyfisskyld", "starfsleyfisskyld", "starfsleyfisskyldum", "starfsleyfisskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["starfsleyfisskyldi", "starfsleyfisskylda", "starfsleyfisskylda", "starfsleyfisskylda"],
+				"kvk": ["starfsleyfisskylda", "starfsleyfisskyldu", "starfsleyfisskyldu", "starfsleyfisskyldu"],
+				"hk": ["starfsleyfisskylda", "starfsleyfisskylda", "starfsleyfisskylda", "starfsleyfisskylda"]
+			},
+			"ft": {
+				"kk": ["starfsleyfisskyldu", "starfsleyfisskyldu", "starfsleyfisskyldu", "starfsleyfisskyldu"],
+				"kvk": ["starfsleyfisskyldu", "starfsleyfisskyldu", "starfsleyfisskyldu", "starfsleyfisskyldu"],
+				"hk": ["starfsleyfisskyldu", "starfsleyfisskyldu", "starfsleyfisskyldu", "starfsleyfisskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-starfsleyfisskyldur",
+	"hash": "58c00eb74582abdfc10014713417fa5eecaaa2a72f91408a9b81f6bee172d4b3"
+}

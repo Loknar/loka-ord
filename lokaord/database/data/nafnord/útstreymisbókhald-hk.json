@@ -1,0 +1,32 @@
+{
+	"orð": "útstreymisbókhald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "streymis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-streymi-hk"
+		},
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["útstreymisbókhald", "útstreymisbókhald", "útstreymisbókhaldi", "útstreymisbókhalds"],
+		"mg": ["útstreymisbókhaldið", "útstreymisbókhaldið", "útstreymisbókhaldinu", "útstreymisbókhaldsins"]
+	},
+	"kennistrengur": "no-útstreymisbókhald-hk",
+	"hash": "7a12ed2d17a0fd423270e805d407712c4724566c8caf492be2cf2e28e37c20d5"
+}

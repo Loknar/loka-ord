@@ -1,0 +1,27 @@
+{
+	"orð": "sveitarfélagamörk",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sveitar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sveit-kvk"
+		},
+		{
+			"mynd": "félaga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mark-hk"
+		}
+	],
+	"ft": {
+		"ág": ["sveitarfélagamörk", "sveitarfélagamörk", "sveitarfélagamörkum", "sveitarfélagamarka"],
+		"mg": ["sveitarfélagamörkin", "sveitarfélagamörkin", "sveitarfélagamörkunum", "sveitarfélagamarkanna"]
+	},
+	"kennistrengur": "no-sveitarfélagamörk-hk",
+	"hash": "3dc25e66bf253b86b77a40ca1b09e1d5adcadd55f969e9d961eca4d7c340c4fb"
+}

@@ -1,0 +1,74 @@
+{
+	"orð": "inn",
+	"flokkur": "lýsingarorð",
+	"merking": "um",
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["inn", "inn", "um", "ins"],
+				"kvk": ["in", "a", "inni", "innar"],
+				"hk": ["ið", "ið", "u", "ins"]
+			},
+			"ft": {
+				"kk": ["ir", "a", "um", "inna"],
+				"kvk": ["ar", "ar", "um", "inna"],
+				"hk": ["in", "in", "um", "inna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["i", "a", "a", "a"],
+				"kvk": ["a", "u", "u", "u"],
+				"hk": ["a", "a", "a", "a"]
+			},
+			"ft": {
+				"kk": ["u", "u", "u", "u"],
+				"kvk": ["u", "u", "u", "u"],
+				"hk": ["u", "u", "u", "u"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["ari", "ari", "ari", "ari"],
+				"kvk": ["ari", "ari", "ari", "ari"],
+				"hk": ["ara", "ara", "ara", "ara"]
+			},
+			"ft": {
+				"kk": ["ari", "ari", "ari", "ari"],
+				"kvk": ["ari", "ari", "ari", "ari"],
+				"hk": ["ari", "ari", "ari", "ari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["astur", "astan", "ustum", "asts"],
+				"kvk": ["ust", "asta", "astri", "astrar"],
+				"hk": ["ast", "ast", "ustu", "asts"]
+			},
+			"ft": {
+				"kk": ["astir", "asta", "ustum", "astra"],
+				"kvk": ["astar", "astar", "ustum", "astra"],
+				"hk": ["ust", "ust", "ustum", "astra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["asti", "asta", "asta", "asta"],
+				"kvk": ["asta", "ustu", "ustu", "ustu"],
+				"hk": ["asta", "asta", "asta", "asta"]
+			},
+			"ft": {
+				"kk": ["ustu", "ustu", "ustu", "ustu"],
+				"kvk": ["ustu", "ustu", "ustu", "ustu"],
+				"hk": ["ustu", "ustu", "ustu", "ustu"]
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "lo-inn-ó-_um_",
+	"hash": "ff44704103849e911851fde609f07591490339db0e859b3b7ec79d0af3d30830"
+}

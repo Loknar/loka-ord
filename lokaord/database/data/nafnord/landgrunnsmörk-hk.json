@@ -1,0 +1,27 @@
+{
+	"orð": "landgrunnsmörk",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "grunns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-grunn-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mark-hk"
+		}
+	],
+	"ft": {
+		"ág": ["landgrunnsmörk", "landgrunnsmörk", "landgrunnsmörkum", "landgrunnsmarka"],
+		"mg": ["landgrunnsmörkin", "landgrunnsmörkin", "landgrunnsmörkunum", "landgrunnsmarkanna"]
+	},
+	"kennistrengur": "no-landgrunnsmörk-hk",
+	"hash": "a2b2ac309217cd363c658fc8ab91cc71d08823f0602f3b3af7a2c46865fae3a6"
+}
