@@ -1,0 +1,48 @@
+{
+	"orð": "gervigreindartengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "gervi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gervi-hk"
+		},
+		{
+			"mynd": "greindar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greind-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["gervigreindartengdur", "gervigreindartengdan", "gervigreindartengdum", "gervigreindartengds"],
+				"kvk": ["gervigreindartengd", "gervigreindartengda", "gervigreindartengdri", "gervigreindartengdrar"],
+				"hk": ["gervigreindartengt", "gervigreindartengt", "gervigreindartengdu", "gervigreindartengds"]
+			},
+			"ft": {
+				"kk": ["gervigreindartengdir", "gervigreindartengda", "gervigreindartengdum", "gervigreindartengdra"],
+				"kvk": ["gervigreindartengdar", "gervigreindartengdar", "gervigreindartengdum", "gervigreindartengdra"],
+				"hk": ["gervigreindartengd", "gervigreindartengd", "gervigreindartengdum", "gervigreindartengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["gervigreindartengdi", "gervigreindartengda", "gervigreindartengda", "gervigreindartengda"],
+				"kvk": ["gervigreindartengda", "gervigreindartengdu", "gervigreindartengdu", "gervigreindartengdu"],
+				"hk": ["gervigreindartengda", "gervigreindartengda", "gervigreindartengda", "gervigreindartengda"]
+			},
+			"ft": {
+				"kk": ["gervigreindartengdu", "gervigreindartengdu", "gervigreindartengdu", "gervigreindartengdu"],
+				"kvk": ["gervigreindartengdu", "gervigreindartengdu", "gervigreindartengdu", "gervigreindartengdu"],
+				"hk": ["gervigreindartengdu", "gervigreindartengdu", "gervigreindartengdu", "gervigreindartengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-gervigreindartengdur",
+	"hash": "47acdb9a9f42d82a9156c2a3152c55e2e7621327463bb4a632dd48da07eabd6d"
+}
