@@ -2,10 +2,21 @@
 	"orð": "okur",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ok",
+			"samsetning": "stofn",
+			"kennistrengur": "so-okra"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ur-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["okur", "okur", "okri", "okurs"],
 		"mg": ["okrið", "okrið", "okrinu", "okursins"]
 	},
 	"kennistrengur": "no-okur-hk",
-	"hash": "019d54d073014ec63991eb49bc1bbe98f58a787c702492548fb7d12243f3ef4f"
+	"hash": "0d7924b4e254af86670f787c8e8a2412d7dc738975ef3505d2190946ddb511e4"
 }

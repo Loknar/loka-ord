@@ -2,6 +2,16 @@
 	"orð": "iður",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ið-hk"
+		},
+		{
+			"kennistrengur": "no-ur-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["iður", "iður", "iðri", "iðurs"],
 		"mg": ["iðrið", "iðrið", "iðrinu", "iðursins"]
@@ -11,5 +21,5 @@
 		"mg": ["iðrin", "iðrin", "iðrunum", "iðranna"]
 	},
 	"kennistrengur": "no-iður-hk",
-	"hash": "1063bc28c1cef8eaf91be87f94e5bac1bf147ab73b2f2fef2742c3793b60f249"
+	"hash": "579397aa93d12c62f9aad20733152d6ca1800c8f4996412743275cdbdb37f87f"
 }
