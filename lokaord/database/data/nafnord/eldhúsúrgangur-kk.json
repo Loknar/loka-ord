@@ -1,0 +1,32 @@
+{
+	"orð": "eldhúsúrgangur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "eld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-eldur-kk"
+		},
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gangur-kk"
+		}
+	],
+	"et": {
+		"ág": ["eldhúsúrgangur", "eldhúsúrgang", "eldhúsúrgangi", "eldhúsúrgangs"],
+		"mg": ["eldhúsúrgangurinn", "eldhúsúrganginn", "eldhúsúrganginum", "eldhúsúrgangsins"]
+	},
+	"kennistrengur": "no-eldhúsúrgangur-kk",
+	"hash": "b299fadf27e979d19cf08548e18b2db2ce51e447729d2328dfb4a11845814227"
+}

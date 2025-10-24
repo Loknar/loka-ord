@@ -1,0 +1,27 @@
+{
+	"orð": "heimajarðgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heima",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-heima"
+		},
+		{
+			"mynd": "jarð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jörð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heimajarðgerð", "heimajarðgerð", "heimajarðgerð", "heimajarðgerðar"],
+		"mg": ["heimajarðgerðin", "heimajarðgerðina", "heimajarðgerðinni", "heimajarðgerðarinnar"]
+	},
+	"kennistrengur": "no-heimajarðgerð-kvk",
+	"hash": "62f85bed5cbe82bd394c052bd01dafdc78768539e8b05adb15532831ba85c538"
+}

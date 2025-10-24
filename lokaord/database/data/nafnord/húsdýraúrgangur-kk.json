@@ -1,0 +1,32 @@
+{
+	"orð": "húsdýraúrgangur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "dýra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dýr-hk"
+		},
+		{
+			"mynd": "úr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-úr"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gangur-kk"
+		}
+	],
+	"et": {
+		"ág": ["húsdýraúrgangur", "húsdýraúrgang", "húsdýraúrgangi", "húsdýraúrgangs"],
+		"mg": ["húsdýraúrgangurinn", "húsdýraúrganginn", "húsdýraúrganginum", "húsdýraúrgangsins"]
+	},
+	"kennistrengur": "no-húsdýraúrgangur-kk",
+	"hash": "a3c18664ebceb9be86eda4dc9bcf9a05a4ed149598448251f2f8a16e7138c589"
+}
