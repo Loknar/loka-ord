@@ -1,0 +1,27 @@
+{
+	"orð": "mengunarlögsaga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "mengunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mengun-kvk"
+		},
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-saga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["mengunarlögsaga", "mengunarlögsögu", "mengunarlögsögu", "mengunarlögsögu"],
+		"mg": ["mengunarlögsagan", "mengunarlögsöguna", "mengunarlögsögunni", "mengunarlögsögunnar"]
+	},
+	"kennistrengur": "no-mengunarlögsaga-kvk",
+	"hash": "4e3862f5504d186c5dc9d7557e40af7266a7e9c0b1fc0357c96ec3b23648c24e"
+}

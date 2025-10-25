@@ -1,0 +1,43 @@
+{
+	"orð": "barnheldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "barn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-barn-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-heldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["barnheldur", "barnheldan", "barnheldum", "barnhelds"],
+				"kvk": ["barnheld", "barnhelda", "barnheldri", "barnheldrar"],
+				"hk": ["barnhelt", "barnhelt", "barnheldu", "barnhelds"]
+			},
+			"ft": {
+				"kk": ["barnheldir", "barnhelda", "barnheldum", "barnheldra"],
+				"kvk": ["barnheldar", "barnheldar", "barnheldum", "barnheldra"],
+				"hk": ["barnheld", "barnheld", "barnheldum", "barnheldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["barnheldi", "barnhelda", "barnhelda", "barnhelda"],
+				"kvk": ["barnhelda", "barnheldu", "barnheldu", "barnheldu"],
+				"hk": ["barnhelda", "barnhelda", "barnhelda", "barnhelda"]
+			},
+			"ft": {
+				"kk": ["barnheldu", "barnheldu", "barnheldu", "barnheldu"],
+				"kvk": ["barnheldu", "barnheldu", "barnheldu", "barnheldu"],
+				"hk": ["barnheldu", "barnheldu", "barnheldu", "barnheldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-barnheldur",
+	"hash": "bb2de780851b21db36ea4d9055fa2adb112020237f81f1ebf6275b91a1ca9f1d"
+}

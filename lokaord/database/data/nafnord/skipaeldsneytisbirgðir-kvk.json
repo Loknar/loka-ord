@@ -1,0 +1,27 @@
+{
+	"orð": "skipaeldsneytisbirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skipa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skip-hk"
+		},
+		{
+			"mynd": "eldsneytis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eldsneyti-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["skipaeldsneytisbirgðir", "skipaeldsneytisbirgðir", "skipaeldsneytisbirgðum", "skipaeldsneytisbirgða"],
+		"mg": ["skipaeldsneytisbirgðirnar", "skipaeldsneytisbirgðirnar", "skipaeldsneytisbirgðunum", "skipaeldsneytisbirgðanna"]
+	},
+	"kennistrengur": "no-skipaeldsneytisbirgðir-kvk",
+	"hash": "0b18c56a886d7fde20131db2de2024c1fc19c58966f601ca0bf5a0017804e659"
+}

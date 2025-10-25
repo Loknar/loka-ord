@@ -1,0 +1,48 @@
+{
+	"orð": "notendaleyfisskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "notenda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-notandi-kk"
+		},
+		{
+			"mynd": "leyfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leyfi-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["notendaleyfisskyldur", "notendaleyfisskyldan", "notendaleyfisskyldum", "notendaleyfisskylds"],
+				"kvk": ["notendaleyfisskyld", "notendaleyfisskylda", "notendaleyfisskyldri", "notendaleyfisskyldrar"],
+				"hk": ["notendaleyfisskylt", "notendaleyfisskylt", "notendaleyfisskyldu", "notendaleyfisskylds"]
+			},
+			"ft": {
+				"kk": ["notendaleyfisskyldir", "notendaleyfisskylda", "notendaleyfisskyldum", "notendaleyfisskyldra"],
+				"kvk": ["notendaleyfisskyldar", "notendaleyfisskyldar", "notendaleyfisskyldum", "notendaleyfisskyldra"],
+				"hk": ["notendaleyfisskyld", "notendaleyfisskyld", "notendaleyfisskyldum", "notendaleyfisskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["notendaleyfisskyldi", "notendaleyfisskylda", "notendaleyfisskylda", "notendaleyfisskylda"],
+				"kvk": ["notendaleyfisskylda", "notendaleyfisskyldu", "notendaleyfisskyldu", "notendaleyfisskyldu"],
+				"hk": ["notendaleyfisskylda", "notendaleyfisskylda", "notendaleyfisskylda", "notendaleyfisskylda"]
+			},
+			"ft": {
+				"kk": ["notendaleyfisskyldu", "notendaleyfisskyldu", "notendaleyfisskyldu", "notendaleyfisskyldu"],
+				"kvk": ["notendaleyfisskyldu", "notendaleyfisskyldu", "notendaleyfisskyldu", "notendaleyfisskyldu"],
+				"hk": ["notendaleyfisskyldu", "notendaleyfisskyldu", "notendaleyfisskyldu", "notendaleyfisskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-notendaleyfisskyldur",
+	"hash": "ecbe6d668a7bdb36b1a391073401be1fbc5c91db688fed52b830e93375209fa6"
+}

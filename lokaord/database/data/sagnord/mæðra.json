@@ -1,0 +1,135 @@
+{
+	"orð": "mæðra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mæðr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-móðir-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mæðra",
+		"sagnbót": "mæðrað",
+		"boðháttur": {
+			"stýfður": "mæðra",
+			"et": "mæðraðu",
+			"ft": "mæðrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mæðra", "mæðrar", "mæðrar"],
+					"ft": ["mæðrum", "mæðrið", "mæðra"]
+				},
+				"þátíð": {
+					"et": ["mæðraði", "mæðraðir", "mæðraði"],
+					"ft": ["mæðruðum", "mæðruðuð", "mæðruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mæðri", "mæðrir", "mæðri"],
+					"ft": ["mæðrum", "mæðrið", "mæðri"]
+				},
+				"þátíð": {
+					"et": ["mæðraði", "mæðraðir", "mæðraði"],
+					"ft": ["mæðruðum", "mæðruðuð", "mæðruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mæðrarðu",
+					"ft": "mæðriði"
+				},
+				"þátíð": {
+					"et": "mæðraðirðu",
+					"ft": "mæðruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mæðrirðu",
+					"ft": "mæðriði"
+				},
+				"þátíð": {
+					"et": "mæðraðirðu",
+					"ft": "mæðruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "mæðrast",
+		"sagnbót": "mæðrast",
+		"boðháttur": {
+			"et": "mæðrastu",
+			"ft": "mæðrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mæðrast", "mæðrast", "mæðrast"],
+					"ft": ["mæðrumst", "mæðrist", "mæðrast"]
+				},
+				"þátíð": {
+					"et": ["mæðraðist", "mæðraðist", "mæðraðist"],
+					"ft": ["mæðruðumst", "mæðruðust", "mæðruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mæðrist", "mæðrist", "mæðrist"],
+					"ft": ["mæðrumst", "mæðrist", "mæðrist"]
+				},
+				"þátíð": {
+					"et": ["mæðraðist", "mæðraðist", "mæðraðist"],
+					"ft": ["mæðruðumst", "mæðruðust", "mæðruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mæðrastu"
+				},
+				"þátíð": {
+					"et": "mæðraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mæðristu"
+				},
+				"þátíð": {
+					"et": "mæðraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mæðrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mæðraður", "mæðraðan", "mæðruðum", "mæðraðs"],
+					"kvk": ["mæðruð", "mæðraða", "mæðraðri", "mæðraðrar"],
+					"hk": ["mæðrað", "mæðrað", "mæðruðu", "mæðraðs"]
+				},
+				"ft": {
+					"kk": ["mæðraðir", "mæðraða", "mæðruðum", "mæðraðra"],
+					"kvk": ["mæðraðar", "mæðraðar", "mæðruðum", "mæðraðra"],
+					"hk": ["mæðruð", "mæðruð", "mæðruðum", "mæðraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mæðra",
+	"hash": "f258f44edfd87cdb4b09b58f9d3f0cc5feb4ca4b06f35479cd6e303b5758ed69"
+}

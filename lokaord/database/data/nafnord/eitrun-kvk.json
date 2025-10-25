@@ -2,6 +2,16 @@
 	"orð": "eitrun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eitr",
+			"samsetning": "stofn",
+			"kennistrengur": "so-eitra"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["eitrun", "eitrun", "eitrun", "eitrunar"],
 		"mg": ["eitrunin", "eitrunina", "eitruninni", "eitrunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["eitranirnar", "eitranirnar", "eitrununum", "eitrananna"]
 	},
 	"kennistrengur": "no-eitrun-kvk",
-	"hash": "a87aa2cf020cb7db9eac62de9e45fb31ae94c200521504dcc88b9c4fb335b050"
+	"hash": "ceb260368ffb718c12d84092d0ff364465ca9f17f1b133e6287fb55eeae031c1"
 }
