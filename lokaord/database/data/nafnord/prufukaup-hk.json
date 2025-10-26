@@ -1,0 +1,22 @@
+{
+	"orð": "prufukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "prufu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-prufa-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["prufukaup", "prufukaup", "prufukaupum", "prufukaupa"],
+		"mg": ["prufukaupin", "prufukaupin", "prufukaupunum", "prufukaupanna"]
+	},
+	"kennistrengur": "no-prufukaup-hk",
+	"hash": "5df28d9e0a3c002b11d8d1d839cba0b1d3c75388e9a9925c8681afe7dc1f9871"
+}

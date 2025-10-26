@@ -1,0 +1,27 @@
+{
+	"orð": "meðferðaráhrif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "með",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-með"
+		},
+		{
+			"mynd": "ferðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ferð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-áhrif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["meðferðaráhrif", "meðferðaráhrif", "meðferðaráhrifum", "meðferðaráhrifa"],
+		"mg": ["meðferðaráhrifin", "meðferðaráhrifin", "meðferðaráhrifunum", "meðferðaráhrifanna"]
+	},
+	"kennistrengur": "no-meðferðaráhrif-hk",
+	"hash": "3c647e20540be4879cb61140bc4a381eb3c1d4cf3328b7f7795146a1fdfdc871"
+}

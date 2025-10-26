@@ -1,0 +1,32 @@
+{
+	"orð": "greiðsluþátttökuverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "þátt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluþátttökuverð", "greiðsluþátttökuverð", "greiðsluþátttökuverði", "greiðsluþátttökuverðs"],
+		"mg": ["greiðsluþátttökuverðið", "greiðsluþátttökuverðið", "greiðsluþátttökuverðinu", "greiðsluþátttökuverðsins"]
+	},
+	"kennistrengur": "no-greiðsluþátttökuverð-hk",
+	"hash": "32223b097aafb3ef50b0f2ab8cfe3ea5c7bb974a90b0f9dd47a41570dda9acf7"
+}

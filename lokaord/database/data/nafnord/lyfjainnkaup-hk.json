@@ -1,0 +1,27 @@
+{
+	"orð": "lyfjainnkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lyfja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lyf-hk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["lyfjainnkaup", "lyfjainnkaup", "lyfjainnkaupum", "lyfjainnkaupa"],
+		"mg": ["lyfjainnkaupin", "lyfjainnkaupin", "lyfjainnkaupunum", "lyfjainnkaupanna"]
+	},
+	"kennistrengur": "no-lyfjainnkaup-hk",
+	"hash": "0f6516d32e4369cb036a2308f5fa653936d34ee2afaac03ec4f2e0145e177e08"
+}

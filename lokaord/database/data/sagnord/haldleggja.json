@@ -1,0 +1,99 @@
+{
+	"orð": "haldleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "haldleggja",
+		"sagnbót": "haldlagt",
+		"boðháttur": {
+			"stýfður": "haldlegg",
+			"et": "haldleggðu",
+			"ft": "haldleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["haldlegg", "haldleggur", "haldleggur"],
+					"ft": ["haldleggjum", "haldleggið", "haldleggja"]
+				},
+				"þátíð": {
+					"et": ["haldlagði", "haldlagðir", "haldlagði"],
+					"ft": ["haldlögðum", "haldlögðuð", "haldlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["haldleggi", "haldleggir", "haldleggi"],
+					"ft": ["haldleggjum", "haldleggið", "haldleggi"]
+				},
+				"þátíð": {
+					"et": ["haldlegði", "haldlegðir", "haldlegði"],
+					"ft": ["haldlegðum", "haldlegðuð", "haldlegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "haldleggurðu",
+					"ft": "haldleggiði"
+				},
+				"þátíð": {
+					"et": "haldlagðirðu",
+					"ft": "haldlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "haldleggirðu",
+					"ft": "haldleggiði"
+				},
+				"þátíð": {
+					"et": "haldleggðirðu",
+					"ft": "haldleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "haldleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["haldlagður", "haldlagðan", "haldlögðum", "haldlagðs"],
+					"kvk": ["haldlögð", "haldlagða", "haldlagðri", "haldlagðrar"],
+					"hk": ["haldlagt", "haldlagt", "haldlögðu", "haldlagðs"]
+				},
+				"ft": {
+					"kk": ["haldlagðir", "haldlagða", "haldlögðum", "haldlagðra"],
+					"kvk": ["haldlagðar", "haldlagðar", "haldlögðum", "haldlagðra"],
+					"hk": ["haldlögð", "haldlögð", "haldlögðum", "haldlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["haldlagði", "haldlagða", "haldlagða", "haldlagða"],
+					"kvk": ["haldlagða", "haldlögðu", "haldlögðu", "haldlögðu"],
+					"hk": ["haldlagða", "haldlagða", "haldlagða", "haldlagða"]
+				},
+				"ft": {
+					"kk": ["haldlögðu", "haldlögðu", "haldlögðu", "haldlögðu"],
+					"kvk": ["haldlögðu", "haldlögðu", "haldlögðu", "haldlögðu"],
+					"hk": ["haldlögðu", "haldlögðu", "haldlögðu", "haldlögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-haldleggja",
+	"hash": "e193deffb1790b7ae50a13231ab563b9dd4710c29c8e2b497d489dc5b0953ef7"
+}

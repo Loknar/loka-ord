@@ -1,0 +1,27 @@
+{
+	"orð": "lyfjagátarupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lyfja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lyf-hk"
+		},
+		{
+			"mynd": "gátar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gát-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lyfjagátarupplýsingar", "lyfjagátarupplýsingar", "lyfjagátarupplýsingum", "lyfjagátarupplýsinga"],
+		"mg": ["lyfjagátarupplýsingarnar", "lyfjagátarupplýsingarnar", "lyfjagátarupplýsingunum", "lyfjagátarupplýsinganna"]
+	},
+	"kennistrengur": "no-lyfjagátarupplýsingar-kvk",
+	"hash": "e690457ac7dabba5848f4f6e82478a44d83d68aba1d75950c37b8fe3531ec829"
+}

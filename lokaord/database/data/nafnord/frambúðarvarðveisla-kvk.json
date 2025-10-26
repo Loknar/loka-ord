@@ -1,0 +1,38 @@
+{
+	"orð": "frambúðarvarðveisla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "búðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-búð-kvk"
+		},
+		{
+			"mynd": "varð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vörður-kk"
+		},
+		{
+			"mynd": "vei",
+			"samsetning": "stofn",
+			"kennistrengur": "so-veita"
+		},
+		{
+			"leiðir": "sl",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["frambúðarvarðveisla", "frambúðarvarðveislu", "frambúðarvarðveislu", "frambúðarvarðveislu"],
+		"mg": ["frambúðarvarðveislan", "frambúðarvarðveisluna", "frambúðarvarðveislunni", "frambúðarvarðveislunnar"]
+	},
+	"kennistrengur": "no-frambúðarvarðveisla-kvk",
+	"hash": "9f024509face804edfdcaea1866b817240b4680b97a2ff2e39bcc1009ed53b00"
+}

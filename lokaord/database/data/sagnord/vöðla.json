@@ -1,0 +1,135 @@
+{
+	"orð": "vöðla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vöðl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vöðułl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vöðla",
+		"sagnbót": "vöðlað",
+		"boðháttur": {
+			"stýfður": "vöðla",
+			"et": "vöðlaðu",
+			"ft": "vöðlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vöðla", "vöðlar", "vöðlar"],
+					"ft": ["vöðlum", "vöðlið", "vöðla"]
+				},
+				"þátíð": {
+					"et": ["vöðlaði", "vöðlaðir", "vöðlaði"],
+					"ft": ["vöðluðum", "vöðluðuð", "vöðluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vöðli", "vöðlir", "vöðli"],
+					"ft": ["vöðlum", "vöðlið", "vöðli"]
+				},
+				"þátíð": {
+					"et": ["vöðlaði", "vöðlaðir", "vöðlaði"],
+					"ft": ["vöðluðum", "vöðluðuð", "vöðluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vöðlarðu",
+					"ft": "vöðliði"
+				},
+				"þátíð": {
+					"et": "vöðlaðirðu",
+					"ft": "vöðluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vöðlirðu",
+					"ft": "vöðliði"
+				},
+				"þátíð": {
+					"et": "vöðlaðirðu",
+					"ft": "vöðluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vöðlast",
+		"sagnbót": "vöðlast",
+		"boðháttur": {
+			"et": "vöðlastu",
+			"ft": "vöðlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vöðlast", "vöðlast", "vöðlast"],
+					"ft": ["vöðlumst", "vöðlist", "vöðlast"]
+				},
+				"þátíð": {
+					"et": ["vöðlaðist", "vöðlaðist", "vöðlaðist"],
+					"ft": ["vöðluðumst", "vöðluðust", "vöðluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vöðlist", "vöðlist", "vöðlist"],
+					"ft": ["vöðlumst", "vöðlist", "vöðlist"]
+				},
+				"þátíð": {
+					"et": ["vöðlaðist", "vöðlaðist", "vöðlaðist"],
+					"ft": ["vöðluðumst", "vöðluðust", "vöðluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vöðlastu"
+				},
+				"þátíð": {
+					"et": "vöðlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vöðlistu"
+				},
+				"þátíð": {
+					"et": "vöðlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vöðlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vöðlaður", "vöðlaðan", "vöðluðum", "vöðlaðs"],
+					"kvk": ["vöðluð", "vöðlaða", "vöðlaðri", "vöðlaðrar"],
+					"hk": ["vöðlað", "vöðlað", "vöðluðu", "vöðlaðs"]
+				},
+				"ft": {
+					"kk": ["vöðlaðir", "vöðlaða", "vöðluðum", "vöðlaðra"],
+					"kvk": ["vöðlaðar", "vöðlaðar", "vöðluðum", "vöðlaðra"],
+					"hk": ["vöðluð", "vöðluð", "vöðluðum", "vöðlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vöðla",
+	"hash": "05c8b40f8438502d7655120d378b11b1519b6abd2a1d435d063930e143a6abe6"
+}

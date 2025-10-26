@@ -1,0 +1,37 @@
+{
+	"orð": "hámarkssmásöluverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "smá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-smár"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["hámarkssmásöluverð", "hámarkssmásöluverð", "hámarkssmásöluverði", "hámarkssmásöluverðs"],
+		"mg": ["hámarkssmásöluverðið", "hámarkssmásöluverðið", "hámarkssmásöluverðinu", "hámarkssmásöluverðsins"]
+	},
+	"kennistrengur": "no-hámarkssmásöluverð-hk",
+	"hash": "0cbb21e8e132628e40c4f47db7d9fe47103e868ee9afe84db1d7bac9fe46e532"
+}
