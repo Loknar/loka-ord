@@ -1,0 +1,27 @@
+{
+	"orð": "lyfjagátargögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lyfja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lyf-hk"
+		},
+		{
+			"mynd": "gátar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gát-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["lyfjagátargögn", "lyfjagátargögn", "lyfjagátargögnum", "lyfjagátargagna"],
+		"mg": ["lyfjagátargögnin", "lyfjagátargögnin", "lyfjagátargögnunum", "lyfjagátargagnanna"]
+	},
+	"kennistrengur": "no-lyfjagátargögn-hk",
+	"hash": "3e650c34e32a2e9ad633faaed00068842b2c877f651597c76aae1054272b4a89"
+}

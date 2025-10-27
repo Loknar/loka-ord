@@ -1,0 +1,27 @@
+{
+	"orð": "notkunarskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "notkunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-notkun-kvk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["notkunarskilyrði", "notkunarskilyrði", "notkunarskilyrðum", "notkunarskilyrða"],
+		"mg": ["notkunarskilyrðin", "notkunarskilyrðin", "notkunarskilyrðunum", "notkunarskilyrðanna"]
+	},
+	"kennistrengur": "no-notkunarskilyrði-hk",
+	"hash": "5d9947ca493e65ff282ec0a8d88ed84ca4e4c748c8c9df4323ee2caf2475d10f"
+}

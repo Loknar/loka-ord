@@ -1,0 +1,32 @@
+{
+	"orð": "tungumálaskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "tungu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tunga-kvk"
+		},
+		{
+			"mynd": "mála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["tungumálaskilyrði", "tungumálaskilyrði", "tungumálaskilyrðum", "tungumálaskilyrða"],
+		"mg": ["tungumálaskilyrðin", "tungumálaskilyrðin", "tungumálaskilyrðunum", "tungumálaskilyrðanna"]
+	},
+	"kennistrengur": "no-tungumálaskilyrði-hk",
+	"hash": "98cfd424bbdd00eb199f1de50bf50be6b5173633cbb246b49491f56b224619ba"
+}

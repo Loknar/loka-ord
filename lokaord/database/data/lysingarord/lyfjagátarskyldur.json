@@ -1,0 +1,48 @@
+{
+	"orð": "lyfjagátarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lyfja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lyf-hk"
+		},
+		{
+			"mynd": "gátar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gát-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["lyfjagátarskyldur", "lyfjagátarskyldan", "lyfjagátarskyldum", "lyfjagátarskylds"],
+				"kvk": ["lyfjagátarskyld", "lyfjagátarskylda", "lyfjagátarskyldri", "lyfjagátarskyldrar"],
+				"hk": ["lyfjagátarskylt", "lyfjagátarskylt", "lyfjagátarskyldu", "lyfjagátarskylds"]
+			},
+			"ft": {
+				"kk": ["lyfjagátarskyldir", "lyfjagátarskylda", "lyfjagátarskyldum", "lyfjagátarskyldra"],
+				"kvk": ["lyfjagátarskyldar", "lyfjagátarskyldar", "lyfjagátarskyldum", "lyfjagátarskyldra"],
+				"hk": ["lyfjagátarskyld", "lyfjagátarskyld", "lyfjagátarskyldum", "lyfjagátarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lyfjagátarskyldi", "lyfjagátarskylda", "lyfjagátarskylda", "lyfjagátarskylda"],
+				"kvk": ["lyfjagátarskylda", "lyfjagátarskyldu", "lyfjagátarskyldu", "lyfjagátarskyldu"],
+				"hk": ["lyfjagátarskylda", "lyfjagátarskylda", "lyfjagátarskylda", "lyfjagátarskylda"]
+			},
+			"ft": {
+				"kk": ["lyfjagátarskyldu", "lyfjagátarskyldu", "lyfjagátarskyldu", "lyfjagátarskyldu"],
+				"kvk": ["lyfjagátarskyldu", "lyfjagátarskyldu", "lyfjagátarskyldu", "lyfjagátarskyldu"],
+				"hk": ["lyfjagátarskyldu", "lyfjagátarskyldu", "lyfjagátarskyldu", "lyfjagátarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-lyfjagátarskyldur",
+	"hash": "ba3459ac93431ad7be0c6e762f44dfedb5bf4d85194ce6b6a9d1731ece7eb5fc"
+}
