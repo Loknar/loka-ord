@@ -1,0 +1,43 @@
+{
+	"orð": "persónugreindur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-greindur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["persónugreindur", "persónugreindan", "persónugreindum", "persónugreinds"],
+				"kvk": ["persónugreind", "persónugreinda", "persónugreindri", "persónugreindrar"],
+				"hk": ["persónugreint", "persónugreint", "persónugreindu", "persónugreinds"]
+			},
+			"ft": {
+				"kk": ["persónugreindir", "persónugreinda", "persónugreindum", "persónugreindra"],
+				"kvk": ["persónugreindar", "persónugreindar", "persónugreindum", "persónugreindra"],
+				"hk": ["persónugreind", "persónugreind", "persónugreindum", "persónugreindra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["persónugreindi", "persónugreinda", "persónugreinda", "persónugreinda"],
+				"kvk": ["persónugreinda", "persónugreindu", "persónugreindu", "persónugreindu"],
+				"hk": ["persónugreinda", "persónugreinda", "persónugreinda", "persónugreinda"]
+			},
+			"ft": {
+				"kk": ["persónugreindu", "persónugreindu", "persónugreindu", "persónugreindu"],
+				"kvk": ["persónugreindu", "persónugreindu", "persónugreindu", "persónugreindu"],
+				"hk": ["persónugreindu", "persónugreindu", "persónugreindu", "persónugreindu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-persónugreindur",
+	"hash": "5a758d5e8732107965923166a68208e427c1295a8ce2e2141dd4ed5689ffe79f"
+}

@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "hk",
 	"tölugildi": 3,
+	"samsett": [
+		{
+			"mynd": "trí",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-þrír"
+		},
+		{
+			"kennistrengur": "no-ó-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tríó", "tríó", "tríói", "tríós"],
 		"mg": ["tríóið", "tríóið", "tríóinu", "tríósins"]
@@ -12,5 +22,5 @@
 		"mg": ["tríóin", "tríóin", "tríóunum", "tríóanna"]
 	},
 	"kennistrengur": "no-tríó-hk",
-	"hash": "048a0b2057e72a480b4e698dc8278b535362569590fe7f795791f8bf879c25e8"
+	"hash": "cadd1174536e8b2e33fdaba27e1427b97493460d2915bf3847b654b2fd590439"
 }

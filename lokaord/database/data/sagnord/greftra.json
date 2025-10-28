@@ -1,0 +1,135 @@
+{
+	"orð": "greftra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "greftr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gröftur-kk-_greftri_"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "greftra",
+		"sagnbót": "greftrað",
+		"boðháttur": {
+			"stýfður": "greftra",
+			"et": "greftraðu",
+			"ft": "greftrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greftra", "greftrar", "greftrar"],
+					"ft": ["greftrum", "greftrið", "greftra"]
+				},
+				"þátíð": {
+					"et": ["greftraði", "greftraðir", "greftraði"],
+					"ft": ["greftruðum", "greftruðuð", "greftruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greftri", "greftrir", "greftri"],
+					"ft": ["greftrum", "greftrið", "greftri"]
+				},
+				"þátíð": {
+					"et": ["greftraði", "greftraðir", "greftraði"],
+					"ft": ["greftruðum", "greftruðuð", "greftruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greftrarðu",
+					"ft": "greftriði"
+				},
+				"þátíð": {
+					"et": "greftraðirðu",
+					"ft": "greftruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greftrirðu",
+					"ft": "greftriði"
+				},
+				"þátíð": {
+					"et": "greftraðirðu",
+					"ft": "greftruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "greftrast",
+		"sagnbót": "greftrast",
+		"boðháttur": {
+			"et": "greftrastu",
+			"ft": "greftrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["greftrast", "greftrast", "greftrast"],
+					"ft": ["greftrumst", "greftrist", "greftrast"]
+				},
+				"þátíð": {
+					"et": ["greftraðist", "greftraðist", "greftraðist"],
+					"ft": ["greftruðumst", "greftruðust", "greftruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["greftrist", "greftrist", "greftrist"],
+					"ft": ["greftrumst", "greftrist", "greftrist"]
+				},
+				"þátíð": {
+					"et": ["greftraðist", "greftraðist", "greftraðist"],
+					"ft": ["greftruðumst", "greftruðust", "greftruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "greftrastu"
+				},
+				"þátíð": {
+					"et": "greftraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "greftristu"
+				},
+				"þátíð": {
+					"et": "greftraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "greftrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["greftraður", "greftraðan", "greftruðum", "greftraðs"],
+					"kvk": ["greftruð", "greftraða", "greftraðri", "greftraðrar"],
+					"hk": ["greftrað", "greftrað", "greftruðu", "greftraðs"]
+				},
+				"ft": {
+					"kk": ["greftraðir", "greftraða", "greftruðum", "greftraðra"],
+					"kvk": ["greftraðar", "greftraðar", "greftruðum", "greftraðra"],
+					"hk": ["greftruð", "greftruð", "greftruðum", "greftraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-greftra",
+	"hash": "49a8fadf59ddc766a5282ff51f61b1f38439d3d95c4e8da86592bcf2d3b543b6"
+}

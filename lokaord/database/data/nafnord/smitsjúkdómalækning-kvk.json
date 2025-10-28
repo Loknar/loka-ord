@@ -1,0 +1,35 @@
+{
+	"orð": "smitsjúkdómalækning",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "smit",
+			"samsetning": "stofn",
+			"kennistrengur": "no-smit-hk"
+		},
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-lækning-kvk"
+		}
+	],
+	"et": {
+		"ág": ["smitsjúkdómalækning", "smitsjúkdómalækningu", "smitsjúkdómalækningu", "smitsjúkdómalækningar"],
+		"mg": ["smitsjúkdómalækningin", "smitsjúkdómalækninguna", "smitsjúkdómalækningunni", "smitsjúkdómalækningarinnar"]
+	},
+	"ft": {
+		"ág": ["smitsjúkdómalækningar", "smitsjúkdómalækningar", "smitsjúkdómalækningum", "smitsjúkdómalækninga"],
+		"mg": ["smitsjúkdómalækningarnar", "smitsjúkdómalækningarnar", "smitsjúkdómalækningunum", "smitsjúkdómalækninganna"]
+	},
+	"kennistrengur": "no-smitsjúkdómalækning-kvk",
+	"hash": "52734381832d2e720ec21d51cc661363ed51465a1742308e49bf96861cc60a8b"
+}

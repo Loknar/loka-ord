@@ -1,0 +1,27 @@
+{
+	"orð": "lýðheilsuupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lýð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lýður-kk"
+		},
+		{
+			"mynd": "heilsu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heilsa-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lýðheilsuupplýsingar", "lýðheilsuupplýsingar", "lýðheilsuupplýsingum", "lýðheilsuupplýsinga"],
+		"mg": ["lýðheilsuupplýsingarnar", "lýðheilsuupplýsingarnar", "lýðheilsuupplýsingunum", "lýðheilsuupplýsinganna"]
+	},
+	"kennistrengur": "no-lýðheilsuupplýsingar-kvk",
+	"hash": "22facec12cbd3abe23c39bdf22cadebcf301ce2daf170e71e501bd29c6e9aa9e"
+}

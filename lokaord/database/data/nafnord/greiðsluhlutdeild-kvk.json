@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluhlutdeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluhlutdeild", "greiðsluhlutdeild", "greiðsluhlutdeild", "greiðsluhlutdeildar"],
+		"mg": ["greiðsluhlutdeildin", "greiðsluhlutdeildina", "greiðsluhlutdeildinni", "greiðsluhlutdeildarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðsluhlutdeildir", "greiðsluhlutdeildir", "greiðsluhlutdeildum", "greiðsluhlutdeilda"],
+		"mg": ["greiðsluhlutdeildirnar", "greiðsluhlutdeildirnar", "greiðsluhlutdeildunum", "greiðsluhlutdeildanna"]
+	},
+	"kennistrengur": "no-greiðsluhlutdeild-kvk",
+	"hash": "dae0a924e8b6067dbf498c6847b7974f01653e081c6b53ea03ba51b8bbb8c511"
+}

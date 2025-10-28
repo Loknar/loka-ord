@@ -1,0 +1,30 @@
+{
+	"orð": "krikjugarðsgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kirkju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kirkja-kvk"
+		},
+		{
+			"mynd": "garðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-garður-kk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["kirkjugarðsgjald", "kirkjugarðsgjald", "kirkjugarðsgjaldi", "kirkjugarðsgjalds"],
+		"mg": ["kirkjugarðsgjaldið", "kirkjugarðsgjaldið", "kirkjugarðsgjaldinu", "kirkjugarðsgjaldsins"]
+	},
+	"ft": {
+		"ág": ["kirkjugarðsgjöld", "kirkjugarðsgjöld", "kirkjugarðsgjöldum", "kirkjugarðsgjalda"],
+		"mg": ["kirkjugarðsgjöldin", "kirkjugarðsgjöldin", "kirkjugarðsgjöldunum", "kirkjugarðsgjaldanna"]
+	},
+	"kennistrengur": "no-krikjugarðsgjald-hk",
+	"hash": "e8bc0bc72c3e33f07c684e314f14ff2860317b54e03368793991d91fc88a3ae9"
+}

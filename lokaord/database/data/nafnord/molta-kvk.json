@@ -2,10 +2,21 @@
 	"orð": "molta",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "molt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mold-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["molta", "moltu", "moltu", "moltu"],
 		"mg": ["moltan", "moltuna", "moltunni", "moltunnar"]
 	},
 	"kennistrengur": "no-molta-kvk",
-	"hash": "4a4fa82709704d5d06ddb594f0aa8397b99075c2140e017f1041e55cfbd06ea6"
+	"hash": "5c42376937e7c5b5c3c4e1127960d94858e3eb51efc2f97cc0e064f26ba8cbb9"
 }

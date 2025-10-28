@@ -1,0 +1,48 @@
+{
+	"orð": "skipulagsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skipu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "so-skipa"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skipulagsskyldur", "skipulagsskyldan", "skipulagsskyldum", "skipulagsskylds"],
+				"kvk": ["skipulagsskyld", "skipulagsskylda", "skipulagsskyldri", "skipulagsskyldrar"],
+				"hk": ["skipulagsskylt", "skipulagsskylt", "skipulagsskyldu", "skipulagsskylds"]
+			},
+			"ft": {
+				"kk": ["skipulagsskyldir", "skipulagsskylda", "skipulagsskyldum", "skipulagsskyldra"],
+				"kvk": ["skipulagsskyldar", "skipulagsskyldar", "skipulagsskyldum", "skipulagsskyldra"],
+				"hk": ["skipulagsskyld", "skipulagsskyld", "skipulagsskyldum", "skipulagsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skipulagsskyldi", "skipulagsskylda", "skipulagsskylda", "skipulagsskylda"],
+				"kvk": ["skipulagsskylda", "skipulagsskyldu", "skipulagsskyldu", "skipulagsskyldu"],
+				"hk": ["skipulagsskylda", "skipulagsskylda", "skipulagsskylda", "skipulagsskylda"]
+			},
+			"ft": {
+				"kk": ["skipulagsskyldu", "skipulagsskyldu", "skipulagsskyldu", "skipulagsskyldu"],
+				"kvk": ["skipulagsskyldu", "skipulagsskyldu", "skipulagsskyldu", "skipulagsskyldu"],
+				"hk": ["skipulagsskyldu", "skipulagsskyldu", "skipulagsskyldu", "skipulagsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skipulagsskyldur",
+	"hash": "6559c0aaebdac86b40ad8abd9186ce9effa9543d53d1c6356e3f37c95a45a143"
+}

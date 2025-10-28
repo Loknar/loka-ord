@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "hk",
 	"tölugildi": 2,
+	"samsett": [
+		{
+			"mynd": "dú",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-tveir"
+		},
+		{
+			"kennistrengur": "no-ó-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["dúó", "dúó", "dúói", "dúós"],
 		"mg": ["dúóið", "dúóið", "dúóinu", "dúósins"]
@@ -12,5 +22,5 @@
 		"mg": ["dúóin", "dúóin", "dúóunum", "dúóanna"]
 	},
 	"kennistrengur": "no-dúó-hk",
-	"hash": "b3761b32ebda62bf3b8624a35d5916d180b3acfd4804d70d21cf83b9ac904b0a"
+	"hash": "58c524f555f865a15a4e113bffdad4ed7644f0d563c0fe3d93968687dbc2dce7"
 }

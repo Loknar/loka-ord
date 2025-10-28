@@ -1,0 +1,30 @@
+{
+	"orð": "legstaðaskrá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lega-kvk"
+		},
+		{
+			"mynd": "staða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"kennistrengur": "no-skrá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["legstaðaskrá", "legstaðaskrá", "legstaðaskrá", "legstaðaskrár"],
+		"mg": ["legstaðaskráin", "legstaðaskrána", "legstaðaskránni", "legstaðaskrárinnar"]
+	},
+	"ft": {
+		"ág": ["legstaðaskrár", "legstaðaskrár", "legstaðaskrám", "legstaðaskráa"],
+		"mg": ["legstaðaskrárnar", "legstaðaskrárnar", "legstaðaskránum", "legstaðaskránna"]
+	},
+	"kennistrengur": "no-legstaðaskrá-kvk",
+	"hash": "d14d6fa5a1e34b55139e2a4f45e83330b08b062869698a3761811cce1c50e910"
+}
