@@ -1,0 +1,22 @@
+{
+	"orð": "tekjuupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tekju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tekja-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["tekjuupplýsingar", "tekjuupplýsingar", "tekjuupplýsingum", "tekjuupplýsinga"],
+		"mg": ["tekjuupplýsingarnar", "tekjuupplýsingarnar", "tekjuupplýsingunum", "tekjuupplýsinganna"]
+	},
+	"kennistrengur": "no-tekjuupplýsingar-kvk",
+	"hash": "bfad3c334f7544d0f39176d5d5b5fb9789d609f1a2efbf9bf05c607481271516"
+}

@@ -122,8 +122,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "missandi"
+		"nútíðar": "missandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["misstur", "misstan", "misstum", "missts"],
+					"kvk": ["misst", "missta", "misstri", "misstrar"],
+					"hk": ["misst", "misst", "misstu", "missts"]
+				},
+				"ft": {
+					"kk": ["misstir", "missta", "misstum", "misstra"],
+					"kvk": ["misstar", "misstar", "misstum", "misstra"],
+					"hk": ["misst", "misst", "misstum", "misstra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["missti", "missta", "missta", "missta"],
+					"kvk": ["missta", "misstu", "misstu", "misstu"],
+					"hk": ["missta", "missta", "missta", "missta"]
+				},
+				"ft": {
+					"kk": ["misstu", "misstu", "misstu", "misstu"],
+					"kvk": ["misstu", "misstu", "misstu", "misstu"],
+					"hk": ["misstu", "misstu", "misstu", "misstu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-missa",
-	"hash": "a5cec38e91c2f8da11ca16f0309dda7b79b31fc26377adac1d4370ab75b96e1e"
+	"hash": "788ee99a2971f4236f90280d0154d8c4cf3e684963f9fcc9c766fa3e5a97b97b"
 }

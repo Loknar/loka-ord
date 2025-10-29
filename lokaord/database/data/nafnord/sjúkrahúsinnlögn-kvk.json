@@ -1,0 +1,35 @@
+{
+	"orð": "sjúkrahúsinnlögn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjúkra",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"kennistrengur": "no-lögn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjúkrahúsinnlögn", "sjúkrahúsinnlögn", "sjúkrahúsinnlögn", "sjúkrahúsinnlagnar"],
+		"mg": ["sjúkrahúsinnlögnin", "sjúkrahúsinnlögnina", "sjúkrahúsinnlögninni", "sjúkrahúsinnlagnarinnar"]
+	},
+	"ft": {
+		"ág": ["sjúkrahúsinnlagnir", "sjúkrahúsinnlagnir", "sjúkrahúsinnlögnum", "sjúkrahúsinnlagna"],
+		"mg": ["sjúkrahúsinnlagnirnar", "sjúkrahúsinnlagnirnar", "sjúkrahúsinnlögnunum", "sjúkrahúsinnlagnanna"]
+	},
+	"kennistrengur": "no-sjúkrahúsinnlögn-kvk",
+	"hash": "3d3b1b23e1d65fd3e2df554fac3350f4f2274e4472bc7b863b452de096c066e5"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "hámarksgæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gæði-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hámarksgæði", "hámarksgæði", "hámarksgæðum", "hámarksgæða"],
+		"mg": ["hámarksgæðin", "hámarksgæðin", "hámarksgæðunum", "hámarksgæðanna"]
+	},
+	"kennistrengur": "no-hámarksgæði-hk",
+	"hash": "2ace87bd0ca77fc08c39bb24b5d22d76d710a834fc98bc65651f88ada8bd7b95"
+}

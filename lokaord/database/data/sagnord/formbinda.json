@@ -1,0 +1,87 @@
+{
+	"orð": "formbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "form",
+			"samsetning": "stofn",
+			"kennistrengur": "no-form-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "formbinda",
+		"sagnbót": "formbundið",
+		"boðháttur": {
+			"stýfður": "formbind",
+			"et": "formbittu",
+			"ft": "formbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["formbind", "formbindur", "formbindur"],
+					"ft": ["formbindum", "formbindið", "formbinda"]
+				},
+				"þátíð": {
+					"et": ["formbatt", "formbast", "formbatt"],
+					"ft": ["formbundum", "formbunduð", "formbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["formbindi", "formbindir", "formbindi"],
+					"ft": ["formbindum", "formbindið", "formbindi"]
+				},
+				"þátíð": {
+					"et": ["formbyndi", "formbyndir", "formbyndi"],
+					"ft": ["formbyndum", "formbynduð", "formbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "formbindurðu",
+					"ft": "formbindiði"
+				},
+				"þátíð": {
+					"et": "formbastu",
+					"ft": "formbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "formbindirðu",
+					"ft": "formbindiði"
+				},
+				"þátíð": {
+					"et": "formbyndirðu",
+					"ft": "formbynduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "formbindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["formbundinn", "formbundinn", "formbundnum", "formbundins"],
+					"kvk": ["formbundin", "formbundna", "formbundinni", "formbundinnar"],
+					"hk": ["formbundið", "formbundið", "formbundnu", "formbundins"]
+				},
+				"ft": {
+					"kk": ["formbundnir", "formbundna", "formbundnum", "formbundinna"],
+					"kvk": ["formbundnar", "formbundnar", "formbundnum", "formbundinna"],
+					"hk": ["formbundin", "formbundin", "formbundnum", "formbundinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-formbinda",
+	"hash": "bdf992ffbbfafa11533292961c7cb322acfb9de7a34cec19eb8d0ff7df79b1c2"
+}

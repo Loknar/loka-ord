@@ -1,0 +1,141 @@
+{
+	"orð": "lögskrá",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"kennistrengur": "so-skrá"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lögskrá",
+		"sagnbót": "lögskráð",
+		"boðháttur": {
+			"stýfður": "lögskrá",
+			"et": "lögskráðu",
+			"ft": "lögskráið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögskrái", "lögskráirð", "lögskráir"],
+					"ft": ["lögskráum", "lögskráið", "lögskrá"]
+				},
+				"þátíð": {
+					"et": ["lögskráði", "lögskráðir", "lögskráði"],
+					"ft": ["lögskráðum", "lögskráðuð", "lögskráðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögskrái", "lögskráir", "lögskrái"],
+					"ft": ["lögskráum", "lögskráið", "lögskrái"]
+				},
+				"þátíð": {
+					"et": ["lögskráði", "lögskráðir", "lögskráði"],
+					"ft": ["lögskráðum", "lögskráðuð", "lögskráðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lögskráirðu",
+					"ft": "lögskráiði"
+				},
+				"þátíð": {
+					"et": "lögskráðirðu",
+					"ft": "lögskráðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lögskráirðu",
+					"ft": "lögskráiði"
+				},
+				"þátíð": {
+					"et": "lögskráðirðu",
+					"ft": "lögskráðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lögskrást",
+		"sagnbót": "lögskráðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögskráist", "lögskráist", "lögskráist"],
+					"ft": ["lögskráumst", "lögskráist", "lögskrást"]
+				},
+				"þátíð": {
+					"et": ["lögskráðist", "lögskráðist", "lögskráðist"],
+					"ft": ["lögskráðumst", "lögskráðust", "lögskráðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögskráist", "lögskráist", "lögskráist"],
+					"ft": ["lögskráumst", "lögskráist", "lögskráist"]
+				},
+				"þátíð": {
+					"et": ["lögskráðist", "lögskráðist", "lögskráðist"],
+					"ft": ["lögskráðumst", "lögskráðust", "lögskráðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lögskráistu"
+				},
+				"þátíð": {
+					"et": "lögskráðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lögskráistu"
+				},
+				"þátíð": {
+					"et": "lögskráðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lögskráður", "lögskráðan", "lögskráðum", "lögskráðs"],
+					"kvk": ["lögskráð", "lögskráða", "lögskráðri", "lögskráðrar"],
+					"hk": ["lögskráð", "lögskráð", "lögskráðu", "lögskráðs"]
+				},
+				"ft": {
+					"kk": ["lögskráðir", "lögskráða", "lögskráðum", "lögskráðra"],
+					"kvk": ["lögskráðar", "lögskráðar", "lögskráðum", "lögskráðra"],
+					"hk": ["lögskráð", "lögskráð", "lögskráðum", "lögskráðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lögskráði", "lögskráða", "lögskráða", "lögskráða"],
+					"kvk": ["lögskráða", "lögskráðu", "lögskráðu", "lögskráðu"],
+					"hk": ["lögskráða", "lögskráða", "lögskráða", "lögskráða"]
+				},
+				"ft": {
+					"kk": ["lögskráðu", "lögskráðu", "lögskráðu", "lögskráðu"],
+					"kvk": ["lögskráðu", "lögskráðu", "lögskráðu", "lögskráðu"],
+					"hk": ["lögskráðu", "lögskráðu", "lögskráðu", "lögskráðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lögskrá",
+	"hash": "44fdffa7f88ebfac6f28e5e0cee3cf7cb76bd658564ddeb676144838270998a7"
+}

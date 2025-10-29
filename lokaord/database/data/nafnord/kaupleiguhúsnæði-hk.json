@@ -1,0 +1,35 @@
+{
+	"orð": "kaupleiguhúsnæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "hús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"kennistrengur": "no-næði-hk"
+		}
+	],
+	"et": {
+		"ág": ["kaupleiguhúsnæði", "kaupleiguhúsnæði", "kaupleiguhúsnæði", "kaupleiguhúsnæðis"],
+		"mg": ["kaupleiguhúsnæðið", "kaupleiguhúsnæðið", "kaupleiguhúsnæðinu", "kaupleiguhúsnæðisins"]
+	},
+	"ft": {
+		"ág": ["kaupleiguhúsnæði", "kaupleiguhúsnæði", "kaupleiguhúsnæðum", "kaupleiguhúsnæða"],
+		"mg": ["kaupleiguhúsnæðin", "kaupleiguhúsnæðin", "kaupleiguhúsnæðunum", "kaupleiguhúsnæðanna"]
+	},
+	"kennistrengur": "no-kaupleiguhúsnæði-hk",
+	"hash": "eca033ad3ee95b5f430463d37d5ac597acc202e6d29faa53a3387e2510d07c7a"
+}

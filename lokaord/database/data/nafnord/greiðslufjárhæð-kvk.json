@@ -1,0 +1,30 @@
+{
+	"orð": "greiðslufjárhæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslufjárhæð", "greiðslufjárhæð", "greiðslufjárhæð", "greiðslufjárhæðar"],
+		"mg": ["greiðslufjárhæðin", "greiðslufjárhæðina", "greiðslufjárhæðinni", "greiðslufjárhæðarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðslufjárhæðir", "greiðslufjárhæðir", "greiðslufjárhæðum", "greiðslufjárhæða"],
+		"mg": ["greiðslufjárhæðirnar", "greiðslufjárhæðirnar", "greiðslufjárhæðunum", "greiðslufjárhæðanna"]
+	},
+	"kennistrengur": "no-greiðslufjárhæð-kvk",
+	"hash": "3195e4d0fb0258e9e3f0330efa15f0f40e6216e7b25d6e9af5a8d6ad71dfe2fe"
+}

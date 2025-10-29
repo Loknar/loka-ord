@@ -1,0 +1,30 @@
+{
+	"orð": "dagpeningagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["dagpeningagreiðsla", "dagpeningagreiðslu", "dagpeningagreiðslu", "dagpeningagreiðslu"],
+		"mg": ["dagpeningagreiðslan", "dagpeningagreiðsluna", "dagpeningagreiðslunni", "dagpeningagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["dagpeningagreiðslur", "dagpeningagreiðslur", "dagpeningagreiðslum", "dagpeningagreiðslna"],
+		"mg": ["dagpeningagreiðslurnar", "dagpeningagreiðslurnar", "dagpeningagreiðslunum", "dagpeningagreiðslnanna"]
+	},
+	"kennistrengur": "no-dagpeningagreiðsla-kvk",
+	"hash": "c6713377b127ee7536c2b6403bca625dfc157a0c369d08f96bb62db8bef4504b"
+}

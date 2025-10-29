@@ -1,0 +1,40 @@
+{
+	"orð": "lágmarksgreiðslutímabil",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"kennistrengur": "no-bil-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksgreiðslutímabil", "lágmarksgreiðslutímabil", "lágmarksgreiðslutímabili", "lágmarksgreiðslutímabils"],
+		"mg": ["lágmarksgreiðslutímabilið", "lágmarksgreiðslutímabilið", "lágmarksgreiðslutímabilinu", "lágmarksgreiðslutímabilsins"]
+	},
+	"ft": {
+		"ág": ["lágmarksgreiðslutímabil", "lágmarksgreiðslutímabil", "lágmarksgreiðslutímabilum", "lágmarksgreiðslutímabila"],
+		"mg": ["lágmarksgreiðslutímabilin", "lágmarksgreiðslutímabilin", "lágmarksgreiðslutímabilunum", "lágmarksgreiðslutímabilanna"]
+	},
+	"kennistrengur": "no-lágmarksgreiðslutímabil-hk",
+	"hash": "d3a880a0b1b60ec5baa3b83e11f726813e0c785082d3d50f86aca35c4c40370b"
+}
