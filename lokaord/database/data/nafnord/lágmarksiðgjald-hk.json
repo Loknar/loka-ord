@@ -1,0 +1,35 @@
+{
+	"orð": "lágmarksiðgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "ið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ið-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksiðgjald", "lágmarksiðgjald", "lágmarksiðgjaldi", "lágmarksiðgjalds"],
+		"mg": ["lágmarksiðgjaldið", "lágmarksiðgjaldið", "lágmarksiðgjaldinu", "lágmarksiðgjaldsins"]
+	},
+	"ft": {
+		"ág": ["lágmarksiðgjöld", "lágmarksiðgjöld", "lágmarksiðgjöldum", "lágmarksiðgjalda"],
+		"mg": ["lágmarksiðgjöldin", "lágmarksiðgjöldin", "lágmarksiðgjöldunum", "lágmarksiðgjaldanna"]
+	},
+	"kennistrengur": "no-lágmarksiðgjald-hk",
+	"hash": "74261c367e7221cbef84ea984daa39ae7d8f148aa57269025ddb8e456de0e32c"
+}

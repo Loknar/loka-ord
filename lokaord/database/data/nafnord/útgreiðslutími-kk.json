@@ -1,0 +1,27 @@
+{
+	"orð": "útgreiðslutími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["útgreiðslutími", "útgreiðslutíma", "útgreiðslutíma", "útgreiðslutíma"],
+		"mg": ["útgreiðslutíminn", "útgreiðslutímann", "útgreiðslutímanum", "útgreiðslutímans"]
+	},
+	"kennistrengur": "no-útgreiðslutími-kk",
+	"hash": "0fda7c6e64635f8dd45604b876a50850991b9d33334782b7c1c9b1a4086e22f7"
+}

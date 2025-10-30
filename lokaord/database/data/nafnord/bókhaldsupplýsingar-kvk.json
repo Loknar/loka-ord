@@ -1,0 +1,27 @@
+{
+	"orð": "bókhaldsupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["bókhaldsupplýsingar", "bókhaldsupplýsingar", "bókhaldsupplýsingum", "bókhaldsupplýsinga"],
+		"mg": ["bókhaldsupplýsingarnar", "bókhaldsupplýsingarnar", "bókhaldsupplýsingunum", "bókhaldsupplýsinganna"]
+	},
+	"kennistrengur": "no-bókhaldsupplýsingar-kvk",
+	"hash": "00266017fb1c3ad216689dc6201df0bc378540a1779dc70fbc29edb3127f3ade"
+}

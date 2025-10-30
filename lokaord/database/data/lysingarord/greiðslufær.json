@@ -1,0 +1,43 @@
+{
+	"orð": "greiðslufær",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-fær"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["greiðslufær", "greiðslufæran", "greiðslufærum", "greiðslufærs"],
+				"kvk": ["greiðslufær", "greiðslufæra", "greiðslufærri", "greiðslufærrar"],
+				"hk": ["greiðslufært", "greiðslufært", "greiðslufæru", "greiðslufærs"]
+			},
+			"ft": {
+				"kk": ["greiðslufærir", "greiðslufæra", "greiðslufærum", "greiðslufærra"],
+				"kvk": ["greiðslufærar", "greiðslufærar", "greiðslufærum", "greiðslufærra"],
+				"hk": ["greiðslufær", "greiðslufær", "greiðslufærum", "greiðslufærra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["greiðslufæri", "greiðslufæra", "greiðslufæra", "greiðslufæra"],
+				"kvk": ["greiðslufæra", "greiðslufæru", "greiðslufæru", "greiðslufæru"],
+				"hk": ["greiðslufæra", "greiðslufæra", "greiðslufæra", "greiðslufæra"]
+			},
+			"ft": {
+				"kk": ["greiðslufæru", "greiðslufæru", "greiðslufæru", "greiðslufæru"],
+				"kvk": ["greiðslufæru", "greiðslufæru", "greiðslufæru", "greiðslufæru"],
+				"hk": ["greiðslufæru", "greiðslufæru", "greiðslufæru", "greiðslufæru"]
+			}
+		}
+	},
+	"kennistrengur": "lo-greiðslufær",
+	"hash": "e532d4f2c5987f7e5d8ad88c949fce2ce221bc313da3efb19d4f157f2e7d3566"
+}

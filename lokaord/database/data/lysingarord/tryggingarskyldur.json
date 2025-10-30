@@ -1,0 +1,43 @@
+{
+	"orð": "tryggingarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["tryggingarskyldur", "tryggingarskyldan", "tryggingarskyldum", "tryggingarskylds"],
+				"kvk": ["tryggingarskyld", "tryggingarskylda", "tryggingarskyldri", "tryggingarskyldrar"],
+				"hk": ["tryggingarskylt", "tryggingarskylt", "tryggingarskyldu", "tryggingarskylds"]
+			},
+			"ft": {
+				"kk": ["tryggingarskyldir", "tryggingarskylda", "tryggingarskyldum", "tryggingarskyldra"],
+				"kvk": ["tryggingarskyldar", "tryggingarskyldar", "tryggingarskyldum", "tryggingarskyldra"],
+				"hk": ["tryggingarskyld", "tryggingarskyld", "tryggingarskyldum", "tryggingarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tryggingarskyldi", "tryggingarskylda", "tryggingarskylda", "tryggingarskylda"],
+				"kvk": ["tryggingarskylda", "tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu"],
+				"hk": ["tryggingarskylda", "tryggingarskylda", "tryggingarskylda", "tryggingarskylda"]
+			},
+			"ft": {
+				"kk": ["tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu"],
+				"kvk": ["tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu"],
+				"hk": ["tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu", "tryggingarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-tryggingarskyldur",
+	"hash": "81e44ebc9552766221bacbd4f2be894b88c4b0b602bb2e86431f3d3b2ec23676"
+}

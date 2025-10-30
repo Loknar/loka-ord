@@ -1,0 +1,135 @@
+{
+	"orð": "spíra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spír",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spíra-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spíra",
+		"sagnbót": "spírað",
+		"boðháttur": {
+			"stýfður": "spíra",
+			"et": "spíraðu",
+			"ft": "spírið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spíra", "spírar", "spírar"],
+					"ft": ["spírum", "spírið", "spíra"]
+				},
+				"þátíð": {
+					"et": ["spíraði", "spíraðir", "spíraði"],
+					"ft": ["spíruðum", "spíruðuð", "spíruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spíri", "spírir", "spíri"],
+					"ft": ["spírum", "spírið", "spíri"]
+				},
+				"þátíð": {
+					"et": ["spíraði", "spíraðir", "spíraði"],
+					"ft": ["spíruðum", "spíruðuð", "spíruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spírarðu",
+					"ft": "spíriði"
+				},
+				"þátíð": {
+					"et": "spíraðirðu",
+					"ft": "spíruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spírirðu",
+					"ft": "spíriði"
+				},
+				"þátíð": {
+					"et": "spíraðirðu",
+					"ft": "spíruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spírast",
+		"sagnbót": "spírast",
+		"boðháttur": {
+			"et": "spírastu",
+			"ft": "spírist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spírast", "spírast", "spírast"],
+					"ft": ["spírumst", "spírist", "spírast"]
+				},
+				"þátíð": {
+					"et": ["spíraðist", "spíraðist", "spíraðist"],
+					"ft": ["spíruðumst", "spíruðust", "spíruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spírist", "spírist", "spírist"],
+					"ft": ["spírumst", "spírist", "spírist"]
+				},
+				"þátíð": {
+					"et": ["spíraðist", "spíraðist", "spíraðist"],
+					"ft": ["spíruðumst", "spíruðust", "spíruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spírastu"
+				},
+				"þátíð": {
+					"et": "spíraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spíristu"
+				},
+				"þátíð": {
+					"et": "spíraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spírandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spíraður", "spíraðan", "spíruðum", "spíraðs"],
+					"kvk": ["spíruð", "spíraða", "spíraðri", "spíraðrar"],
+					"hk": ["spírað", "spírað", "spíruðu", "spíraðs"]
+				},
+				"ft": {
+					"kk": ["spíraðir", "spíraða", "spíruðum", "spíraðra"],
+					"kvk": ["spíraðar", "spíraðar", "spíruðum", "spíraðra"],
+					"hk": ["spíruð", "spíruð", "spíruðum", "spíraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spíra",
+	"hash": "afacc69e92f901b2e8d1ad34a7c5355eb760999cb8b7c239b8f97e687587a2f9"
+}

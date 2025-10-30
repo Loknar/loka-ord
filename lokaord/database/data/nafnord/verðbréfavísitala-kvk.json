@@ -1,0 +1,35 @@
+{
+	"orð": "verðbréfavísitala",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"mynd": "vísi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vísir-kk"
+		},
+		{
+			"kennistrengur": "no-tala-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verðbréfavísitala", "verðbréfavísitölu", "verðbréfavísitölu", "verðbréfavísitölu"],
+		"mg": ["verðbréfavísitalan", "verðbréfavísitöluna", "verðbréfavísitölunni", "verðbréfavísitölunnar"]
+	},
+	"ft": {
+		"ág": ["verðbréfavísitölur", "verðbréfavísitölur", "verðbréfavísitölum", "verðbréfavísitalna"],
+		"mg": ["verðbréfavísitölurnar", "verðbréfavísitölurnar", "verðbréfavísitölunum", "verðbréfavísitalnanna"]
+	},
+	"kennistrengur": "no-verðbréfavísitala-kvk",
+	"hash": "63e105bf33ce3513edaa178fa6463e052b034e08b87cb7e88d09e14041d25bf9"
+}

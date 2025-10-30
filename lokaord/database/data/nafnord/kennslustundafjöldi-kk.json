@@ -1,0 +1,27 @@
+{
+	"orð": "kennslustundafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "kennslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kennsla-kvk"
+		},
+		{
+			"mynd": "stunda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stund-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["kennslustundafjöldi", "kennslustundafjölda", "kennslustundafjölda", "kennslustundafjölda"],
+		"mg": ["kennslustundafjöldinn", "kennslustundafjöldann", "kennslustundafjöldanum", "kennslustundafjöldans"]
+	},
+	"kennistrengur": "no-kennslustundafjöldi-kk",
+	"hash": "33102b1fb52a2f926e012ae1ea58f7f391d03cc20f9e606ed7e3ed56b5273ce8"
+}

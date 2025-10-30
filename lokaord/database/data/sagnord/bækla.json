@@ -1,0 +1,95 @@
+{
+	"orð": "bækla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bækl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bækiłl-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bækla",
+		"sagnbót": "bæklað",
+		"boðháttur": {
+			"stýfður": "bækla",
+			"et": "bæklaðu",
+			"ft": "bæklið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bækla", "bæklar", "bæklar"],
+					"ft": ["bæklum", "bæklið", "bækla"]
+				},
+				"þátíð": {
+					"et": ["bæklaði", "bæklaðir", "bæklaði"],
+					"ft": ["bækluðum", "bækluðuð", "bækluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bækli", "bæklir", "bækli"],
+					"ft": ["bæklum", "bæklið", "bækli"]
+				},
+				"þátíð": {
+					"et": ["bæklaði", "bæklaðir", "bæklaði"],
+					"ft": ["bækluðum", "bækluðuð", "bækluðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bæklast",
+		"sagnbót": "bæklast",
+		"boðháttur": {
+			"et": "bæklastu",
+			"ft": "bæklist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bæklast", "bæklast", "bæklast"],
+					"ft": ["bæklumst", "bæklist", "bæklast"]
+				},
+				"þátíð": {
+					"et": ["bæklaðist", "bæklaðist", "bæklaðist"],
+					"ft": ["bækluðumst", "bækluðust", "bækluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bæklist", "bæklist", "bæklist"],
+					"ft": ["bæklumst", "bæklist", "bæklist"]
+				},
+				"þátíð": {
+					"et": ["bæklaðist", "bæklaðist", "bæklaðist"],
+					"ft": ["bækluðumst", "bækluðust", "bækluðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bæklandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bæklaður", "bæklaðan", "bækluðum", "bæklaðs"],
+					"kvk": ["bækluð", "bæklaða", "bæklaðri", "bæklaðrar"],
+					"hk": ["bæklað", "bæklað", "bækluðu", "bæklaðs"]
+				},
+				"ft": {
+					"kk": ["bæklaðir", "bæklaða", "bækluðum", "bæklaðra"],
+					"kvk": ["bæklaðar", "bæklaðar", "bækluðum", "bæklaðra"],
+					"hk": ["bækluð", "bækluð", "bækluðum", "bæklaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bækla",
+	"hash": "7a7f91e6c2c0fe506f41d88c8880c645e83c20fba8e1e2d9a7912921b758c5b3"
+}

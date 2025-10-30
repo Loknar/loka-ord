@@ -1,0 +1,121 @@
+{
+	"orð": "puða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "puð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-puð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "puða",
+		"sagnbót": "puðað",
+		"boðháttur": {
+			"stýfður": "puða",
+			"et": "puðaðu",
+			"ft": "puðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["puða", "puðar", "puðar"],
+					"ft": ["puðum", "puðið", "puða"]
+				},
+				"þátíð": {
+					"et": ["puðaði", "puðaðir", "puðaði"],
+					"ft": ["puðuðum", "puðuðuð", "puðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["puði", "puðir", "puði"],
+					"ft": ["puðum", "puðið", "puði"]
+				},
+				"þátíð": {
+					"et": ["puðaði", "puðaðir", "puðaði"],
+					"ft": ["puðuðum", "puðuðuð", "puðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "puðarðu",
+					"ft": "puðiði"
+				},
+				"þátíð": {
+					"et": "puðaðirðu",
+					"ft": "puðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "puðirðu",
+					"ft": "puðiði"
+				},
+				"þátíð": {
+					"et": "puðaðirðu",
+					"ft": "puðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "puðast",
+		"sagnbót": "puðast",
+		"boðháttur": {
+			"et": "puðastu",
+			"ft": "puðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["puðast", "puðast", "puðast"],
+					"ft": ["puðumst", "puðist", "puðast"]
+				},
+				"þátíð": {
+					"et": ["puðaðist", "puðaðist", "puðaðist"],
+					"ft": ["puðuðumst", "puðuðust", "puðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["puðist", "puðist", "puðist"],
+					"ft": ["puðumst", "puðist", "puðist"]
+				},
+				"þátíð": {
+					"et": ["puðaðist", "puðaðist", "puðaðist"],
+					"ft": ["puðuðumst", "puðuðust", "puðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "puðastu"
+				},
+				"þátíð": {
+					"et": "puðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "puðistu"
+				},
+				"þátíð": {
+					"et": "puðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "puðandi"
+	},
+	"kennistrengur": "so-puða",
+	"hash": "0d285a8e5929b7bd53c830325245a6c00b88affd2a9425b711fc897a122fdad6"
+}

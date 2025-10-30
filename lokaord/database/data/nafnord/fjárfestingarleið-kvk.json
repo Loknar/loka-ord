@@ -1,0 +1,30 @@
+{
+	"orð": "fjárfestingarleið",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "festingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"kennistrengur": "no-leið-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárfestingarleið", "fjárfestingarleið", "fjárfestingarleið", "fjárfestingarleiðar"],
+		"mg": ["fjárfestingarleiðin", "fjárfestingarleiðina", "fjárfestingarleiðinni", "fjárfestingarleiðarinnar"]
+	},
+	"ft": {
+		"ág": ["fjárfestingarleiðir", "fjárfestingarleiðir", "fjárfestingarleiðum", "fjárfestingarleiða"],
+		"mg": ["fjárfestingarleiðirnar", "fjárfestingarleiðirnar", "fjárfestingarleiðunum", "fjárfestingarleiðanna"]
+	},
+	"kennistrengur": "no-fjárfestingarleið-kvk",
+	"hash": "32b8540a33dde33cd6129c1af92477cfdf48596916ed9e3b6f70e574748e50ec"
+}

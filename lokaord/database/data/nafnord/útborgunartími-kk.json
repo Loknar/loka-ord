@@ -1,0 +1,27 @@
+{
+	"orð": "útborgunartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "borgunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-borgun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["útborgunartími", "útborgunartíma", "útborgunartíma", "útborgunartíma"],
+		"mg": ["útborgunartíminn", "útborgunartímann", "útborgunartímanum", "útborgunartímans"]
+	},
+	"kennistrengur": "no-útborgunartími-kk",
+	"hash": "8eac04d88cf264a2a036e1cb58c064f42700cc2a22dc32250531f93998609ebf"
+}

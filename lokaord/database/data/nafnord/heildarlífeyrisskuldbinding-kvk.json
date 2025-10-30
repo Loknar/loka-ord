@@ -1,0 +1,40 @@
+{
+	"orð": "heildarlífeyrisskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarlífeyrisskuldbinding", "heildarlífeyrisskuldbindingu", "heildarlífeyrisskuldbindingu", "heildarlífeyrisskuldbindingar"],
+		"mg": ["heildarlífeyrisskuldbindingin", "heildarlífeyrisskuldbindinguna", "heildarlífeyrisskuldbindingunni", "heildarlífeyrisskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["heildarlífeyrisskuldbindingar", "heildarlífeyrisskuldbindingar", "heildarlífeyrisskuldbindingum", "heildarlífeyrisskuldbindinga"],
+		"mg": ["heildarlífeyrisskuldbindingarnar", "heildarlífeyrisskuldbindingarnar", "heildarlífeyrisskuldbindingunum", "heildarlífeyrisskuldbindinganna"]
+	},
+	"kennistrengur": "no-heildarlífeyrisskuldbinding-kvk",
+	"hash": "82ddb2e4a83acebc5cae5dd4db9ced51e13a1ff8f3b2ab5a4aa84d9e07aefb31"
+}

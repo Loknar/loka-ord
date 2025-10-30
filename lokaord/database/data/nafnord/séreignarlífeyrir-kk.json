@@ -1,0 +1,32 @@
+{
+	"orð": "séreignarlífeyrir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-eyrir-kk"
+		}
+	],
+	"et": {
+		"ág": ["séreignarlífeyrir", "séreignarlífeyri", "séreignarlífeyri", "séreignarlífeyris"],
+		"mg": ["séreignarlífeyririnn", "séreignarlífeyrinn", "séreignarlífeyrinum", "séreignarlífeyrisins"]
+	},
+	"kennistrengur": "no-séreignarlífeyrir-kk",
+	"hash": "ad1daa2e23b683b292765d6b95f7778c17234c1b1e3a486e3becf4a5bc144bfe"
+}

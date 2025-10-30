@@ -1,0 +1,48 @@
+{
+	"orð": "iðgjaldsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ið-hk"
+		},
+		{
+			"mynd": "gjalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["iðgjaldsskyldur", "iðgjaldsskyldan", "iðgjaldsskyldum", "iðgjaldsskylds"],
+				"kvk": ["iðgjaldsskyld", "iðgjaldsskylda", "iðgjaldsskyldri", "iðgjaldsskyldrar"],
+				"hk": ["iðgjaldsskylt", "iðgjaldsskylt", "iðgjaldsskyldu", "iðgjaldsskylds"]
+			},
+			"ft": {
+				"kk": ["iðgjaldsskyldir", "iðgjaldsskylda", "iðgjaldsskyldum", "iðgjaldsskyldra"],
+				"kvk": ["iðgjaldsskyldar", "iðgjaldsskyldar", "iðgjaldsskyldum", "iðgjaldsskyldra"],
+				"hk": ["iðgjaldsskyld", "iðgjaldsskyld", "iðgjaldsskyldum", "iðgjaldsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["iðgjaldsskyldi", "iðgjaldsskylda", "iðgjaldsskylda", "iðgjaldsskylda"],
+				"kvk": ["iðgjaldsskylda", "iðgjaldsskyldu", "iðgjaldsskyldu", "iðgjaldsskyldu"],
+				"hk": ["iðgjaldsskylda", "iðgjaldsskylda", "iðgjaldsskylda", "iðgjaldsskylda"]
+			},
+			"ft": {
+				"kk": ["iðgjaldsskyldu", "iðgjaldsskyldu", "iðgjaldsskyldu", "iðgjaldsskyldu"],
+				"kvk": ["iðgjaldsskyldu", "iðgjaldsskyldu", "iðgjaldsskyldu", "iðgjaldsskyldu"],
+				"hk": ["iðgjaldsskyldu", "iðgjaldsskyldu", "iðgjaldsskyldu", "iðgjaldsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-iðgjaldsskyldur",
+	"hash": "2288fe5192e723377c76a53c858cd0d7e7dc774c173e1ad140772541302f411f"
+}

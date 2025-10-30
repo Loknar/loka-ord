@@ -1,0 +1,32 @@
+{
+	"orð": "lífeyrissjóðsrekstur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"mynd": "sjóðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjóður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rekstur-kk"
+		}
+	],
+	"et": {
+		"ág": ["lífeyrissjóðsrekstur", "lífeyrissjóðsrekstur", "lífeyrissjóðsrekstri", "lífeyrissjóðsrekstrar"],
+		"mg": ["lífeyrissjóðsreksturinn", "lífeyrissjóðsreksturinn", "lífeyrissjóðsrekstrinum", "lífeyrissjóðsrekstrarins"]
+	},
+	"kennistrengur": "no-lífeyrissjóðsrekstur-kk",
+	"hash": "6d21621711b5f450776fb6813e5c03a957142e220db74d6c26c40d8632369771"
+}

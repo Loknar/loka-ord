@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarksréttindaöflun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "réttinda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-réttindi-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-öflun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksréttindaöflun", "lágmarksréttindaöflun", "lágmarksréttindaöflun", "lágmarksréttindaöflunar"],
+		"mg": ["lágmarksréttindaöflunin", "lágmarksréttindaöflunina", "lágmarksréttindaöfluninni", "lágmarksréttindaöflunarinnar"]
+	},
+	"kennistrengur": "no-lágmarksréttindaöflun-kvk",
+	"hash": "a2c116992109bb8434ce1aaf02f3f3f1527945094215cd535c237559efb750a4"
+}

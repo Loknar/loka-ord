@@ -1,0 +1,26 @@
+{
+	"orð": "húsaleigukostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["húsaleigukostnaður", "húsaleigukostnað", "húsaleigukostnaði", "húsaleigukostnaðar"],
+		"mg": ["húsaleigukostnaðurinn", "húsaleigukostnaðinn", "húsaleigukostnaðinum", "húsaleigukostnaðarins"]
+	},
+	"kennistrengur": "no-húsaleigukostnaður-kk",
+	"hash": "0f218eb0c89cd14863e1f403da5d7751ddb9fd6058b4400bde9e6ff3320b7af8"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "neysluverðsvísitala",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "neyslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-neysla-kvk"
+		},
+		{
+			"mynd": "verðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "vísi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vísir-kk"
+		},
+		{
+			"kennistrengur": "no-tala-kvk"
+		}
+	],
+	"et": {
+		"ág": ["neysluverðsvísitala", "neysluverðsvísitölu", "neysluverðsvísitölu", "neysluverðsvísitölu"],
+		"mg": ["neysluverðsvísitalan", "neysluverðsvísitöluna", "neysluverðsvísitölunni", "neysluverðsvísitölunnar"]
+	},
+	"ft": {
+		"ág": ["neysluverðsvísitölur", "neysluverðsvísitölur", "neysluverðsvísitölum", "neysluverðsvísitalna"],
+		"mg": ["neysluverðsvísitölurnar", "neysluverðsvísitölurnar", "neysluverðsvísitölunum", "neysluverðsvísitalnanna"]
+	},
+	"kennistrengur": "no-neysluverðsvísitala-kvk",
+	"hash": "924e0a36a6def48d04ddcf705ff7355ee7e6b5a0344cb8953d8e7e6a2d8481ee"
+}

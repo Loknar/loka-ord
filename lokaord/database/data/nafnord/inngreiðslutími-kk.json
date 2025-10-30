@@ -1,0 +1,27 @@
+{
+	"orð": "inngreiðslutími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["inngreiðslutími", "inngreiðslutíma", "inngreiðslutíma", "inngreiðslutíma"],
+		"mg": ["inngreiðslutíminn", "inngreiðslutímann", "inngreiðslutímanum", "inngreiðslutímans"]
+	},
+	"kennistrengur": "no-inngreiðslutími-kk",
+	"hash": "91dbc9f21293bcb27f2cc09ffc5c073ba3c3d10a5f44ab0eb14f38020757fc0b"
+}

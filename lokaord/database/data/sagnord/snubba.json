@@ -1,0 +1,95 @@
+{
+	"orð": "snubba",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snubb",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snubba-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snubba",
+		"sagnbót": "snubbað",
+		"boðháttur": {
+			"stýfður": "snubba",
+			"et": "snubbaðu",
+			"ft": "snubbið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snubba", "snubbar", "snubbar"],
+					"ft": ["snubbum", "snubbið", "snubba"]
+				},
+				"þátíð": {
+					"et": ["snubbaði", "snubbaðir", "snubbaði"],
+					"ft": ["snubbuðum", "snubbuðuð", "snubbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snubbi", "snubbir", "snubbi"],
+					"ft": ["snubbum", "snubbið", "snubbi"]
+				},
+				"þátíð": {
+					"et": ["snubbaði", "snubbaðir", "snubbaði"],
+					"ft": ["snubbuðum", "snubbuðuð", "snubbuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "snubbast",
+		"sagnbót": "snubbast",
+		"boðháttur": {
+			"et": "snubbastu",
+			"ft": "snubbist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snubbast", "snubbast", "snubbast"],
+					"ft": ["snubbumst", "snubbist", "snubbast"]
+				},
+				"þátíð": {
+					"et": ["snubbaðist", "snubbaðist", "snubbaðist"],
+					"ft": ["snubbuðumst", "snubbuðust", "snubbuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snubbist", "snubbist", "snubbist"],
+					"ft": ["snubbumst", "snubbist", "snubbist"]
+				},
+				"þátíð": {
+					"et": ["snubbaðist", "snubbaðist", "snubbaðist"],
+					"ft": ["snubbuðumst", "snubbuðust", "snubbuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "snubbandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["snubbaður", "snubbaðan", "snubbuðum", "snubbaðs"],
+					"kvk": ["snubbuð", "snubbaða", "snubbaðri", "snubbaðrar"],
+					"hk": ["snubbað", "snubbað", "snubbuðu", "snubbaðs"]
+				},
+				"ft": {
+					"kk": ["snubbaðir", "snubbaða", "snubbuðum", "snubbaðra"],
+					"kvk": ["snubbaðar", "snubbaðar", "snubbuðum", "snubbaðra"],
+					"hk": ["snubbuð", "snubbuð", "snubbuðum", "snubbaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snubba",
+	"hash": "a9497829a17ef54725c795391e85824a6cb3f54c60290df6596039e6115384cb"
+}

@@ -1,0 +1,27 @@
+{
+	"orð": "dagvinnukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"et": {
+		"ág": ["dagvinnukaup", "dagvinnukaup", "dagvinnukaupi", "dagvinnukaups"],
+		"mg": ["dagvinnukaupið", "dagvinnukaupið", "dagvinnukaupinu", "dagvinnukaupsins"]
+	},
+	"kennistrengur": "no-dagvinnukaup-hk",
+	"hash": "e45e5fc33aec2778b75dba6d3eb13353d55982abc2ffd2e7688d2891089b6213"
+}

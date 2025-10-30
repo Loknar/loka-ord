@@ -1,0 +1,32 @@
+{
+	"orð": "langtímaeftirfylgd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lang",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-langur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fylgd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["langtímaeftirfylgd", "langtímaeftirfylgd", "langtímaeftirfylgd", "langtímaeftirfylgdar"],
+		"mg": ["langtímaeftirfylgdin", "langtímaeftirfylgdina", "langtímaeftirfylgdinni", "langtímaeftirfylgdarinnar"]
+	},
+	"kennistrengur": "no-langtímaeftirfylgd-kvk",
+	"hash": "dea4ff11e87a4199ed4093a1305d9f70ee6c79245e7ff649fc60b31744fc95be"
+}

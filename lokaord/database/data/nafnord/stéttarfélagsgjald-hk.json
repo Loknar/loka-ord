@@ -1,0 +1,30 @@
+{
+	"orð": "stéttarfélagsgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stéttar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stétt-kvk"
+		},
+		{
+			"mynd": "félags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-félag-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["stéttarfélagsgjald", "stéttarfélagsgjald", "stéttarfélagsgjaldi", "stéttarfélagsgjalds"],
+		"mg": ["stéttarfélagsgjaldið", "stéttarfélagsgjaldið", "stéttarfélagsgjaldinu", "stéttarfélagsgjaldsins"]
+	},
+	"ft": {
+		"ág": ["stéttarfélagsgjöld", "stéttarfélagsgjöld", "stéttarfélagsgjöldum", "stéttarfélagsgjalda"],
+		"mg": ["stéttarfélagsgjöldin", "stéttarfélagsgjöldin", "stéttarfélagsgjöldunum", "stéttarfélagsgjaldanna"]
+	},
+	"kennistrengur": "no-stéttarfélagsgjald-hk",
+	"hash": "4e44e11adf9b7f2fd89c68b2bf9b56be60aad9e7c67b8233c6eb7bfcfae2b900"
+}
