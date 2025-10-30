@@ -1,0 +1,37 @@
+{
+	"orð": "lífeyrisfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["lífeyrisfyrirkomulag", "lífeyrisfyrirkomulag", "lífeyrisfyrirkomulagi", "lífeyrisfyrirkomulags"],
+		"mg": ["lífeyrisfyrirkomulagið", "lífeyrisfyrirkomulagið", "lífeyrisfyrirkomulaginu", "lífeyrisfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-lífeyrisfyrirkomulag-hk",
+	"hash": "36387f02a8c3d642dcfb092209552c8996cbcc4a89921ebccfd2ea7d0512ad8d"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "séreignardeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["séreignardeild", "séreignardeild", "séreignardeild", "séreignardeildar"],
+		"mg": ["séreignardeildin", "séreignardeildina", "séreignardeildinni", "séreignardeildarinnar"]
+	},
+	"ft": {
+		"ág": ["séreignardeildir", "séreignardeildir", "séreignardeildum", "séreignardeilda"],
+		"mg": ["séreignardeildirnar", "séreignardeildirnar", "séreignardeildunum", "séreignardeildanna"]
+	},
+	"kennistrengur": "no-séreignardeild-kvk",
+	"hash": "644260420cec140ecbf2ecd6e63e5d6990ec8ac1a9a75f7926e48ac6cb398235"
+}

@@ -1,0 +1,37 @@
+{
+	"orð": "bókhaldsfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bók-kvk"
+		},
+		{
+			"mynd": "halds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hald-hk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["bókhaldsfyrirkomulag", "bókhaldsfyrirkomulag", "bókhaldsfyrirkomulagi", "bókhaldsfyrirkomulags"],
+		"mg": ["bókhaldsfyrirkomulagið", "bókhaldsfyrirkomulagið", "bókhaldsfyrirkomulaginu", "bókhaldsfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-bókhaldsfyrirkomulag-hk",
+	"hash": "4ff840f49a2a30422c2594464598d44ca14456997a641383c147d2a9c29fcb3f"
+}

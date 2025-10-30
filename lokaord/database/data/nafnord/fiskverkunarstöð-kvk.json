@@ -1,0 +1,30 @@
+{
+	"orð": "fiskverkunarstöð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fisk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fiskur-kk"
+		},
+		{
+			"mynd": "verkunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verkun-kvk"
+		},
+		{
+			"kennistrengur": "no-stöð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fiskverkunarstöð", "fiskverkunarstöð", "fiskverkunarstöð", "fiskverkunarstöðvar"],
+		"mg": ["fiskverkunarstöðin", "fiskverkunarstöðina", "fiskverkunarstöðinni", "fiskverkunarstöðvarinnar"]
+	},
+	"ft": {
+		"ág": ["fiskverkunarstöðvar", "fiskverkunarstöðvar", "fiskverkunarstöðvum", "fiskverkunarstöðva"],
+		"mg": ["fiskverkunarstöðvarnar", "fiskverkunarstöðvarnar", "fiskverkunarstöðvunum", "fiskverkunarstöðvanna"]
+	},
+	"kennistrengur": "no-fiskverkunarstöð-kvk",
+	"hash": "8ea0375cc27531b2201b327b58773aaa4f6504165a456e333a987c70d6fb5144"
+}

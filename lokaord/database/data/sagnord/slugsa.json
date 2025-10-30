@@ -1,0 +1,135 @@
+{
+	"orð": "slugsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slugs",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slugs-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slugsa",
+		"sagnbót": "slugsað",
+		"boðháttur": {
+			"stýfður": "slugsa",
+			"et": "slugsaðu",
+			"ft": "slugsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slugsa", "slugsar", "slugsar"],
+					"ft": ["slugsum", "slugsið", "slugsa"]
+				},
+				"þátíð": {
+					"et": ["slugsaði", "slugsaðir", "slugsaði"],
+					"ft": ["slugsuðum", "slugsuðuð", "slugsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slugsi", "slugsir", "slugsi"],
+					"ft": ["slugsum", "slugsið", "slugsi"]
+				},
+				"þátíð": {
+					"et": ["slugsaði", "slugsaðir", "slugsaði"],
+					"ft": ["slugsuðum", "slugsuðuð", "slugsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slugsarðu",
+					"ft": "slugsiði"
+				},
+				"þátíð": {
+					"et": "slugsaðirðu",
+					"ft": "slugsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slugsirðu",
+					"ft": "slugsiði"
+				},
+				"þátíð": {
+					"et": "slugsaðirðu",
+					"ft": "slugsuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slugsast",
+		"sagnbót": "slugsast",
+		"boðháttur": {
+			"et": "slugsastu",
+			"ft": "slugsist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slugsast", "slugsast", "slugsast"],
+					"ft": ["slugsumst", "slugsist", "slugsast"]
+				},
+				"þátíð": {
+					"et": ["slugsaðist", "slugsaðist", "slugsaðist"],
+					"ft": ["slugsuðumst", "slugsuðust", "slugsuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slugsist", "slugsist", "slugsist"],
+					"ft": ["slugsumst", "slugsist", "slugsist"]
+				},
+				"þátíð": {
+					"et": ["slugsaðist", "slugsaðist", "slugsaðist"],
+					"ft": ["slugsuðumst", "slugsuðust", "slugsuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slugsastu"
+				},
+				"þátíð": {
+					"et": "slugsaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slugsistu"
+				},
+				"þátíð": {
+					"et": "slugsaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slugsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slugsaður", "slugsaðan", "slugsuðum", "slugsaðs"],
+					"kvk": ["slugsuð", "slugsaða", "slugsaðri", "slugsaðrar"],
+					"hk": ["slugsað", "slugsað", "slugsuðu", "slugsaðs"]
+				},
+				"ft": {
+					"kk": ["slugsaðir", "slugsaða", "slugsuðum", "slugsaðra"],
+					"kvk": ["slugsaðar", "slugsaðar", "slugsuðum", "slugsaðra"],
+					"hk": ["slugsuð", "slugsuð", "slugsuðum", "slugsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slugsa",
+	"hash": "1777400886e77483857c93817b3678c7c42cf4e60a8f30ce1dd37df1c5588c83"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "fyrirtækjaskuldabréf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "tækja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tæki-hk"
+		},
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-bréf-hk"
+		}
+	],
+	"et": {
+		"ág": ["fyrirtækjaskuldabréf", "fyrirtækjaskuldabréf", "fyrirtækjaskuldabréfi", "fyrirtækjaskuldabréfs"],
+		"mg": ["fyrirtækjaskuldabréfið", "fyrirtækjaskuldabréfið", "fyrirtækjaskuldabréfinu", "fyrirtækjaskuldabréfsins"]
+	},
+	"ft": {
+		"ág": ["fyrirtækjaskuldabréf", "fyrirtækjaskuldabréf", "fyrirtækjaskuldabréfum", "fyrirtækjaskuldabréfa"],
+		"mg": ["fyrirtækjaskuldabréfin", "fyrirtækjaskuldabréfin", "fyrirtækjaskuldabréfunum", "fyrirtækjaskuldabréfanna"]
+	},
+	"kennistrengur": "no-fyrirtækjaskuldabréf-hk",
+	"hash": "503b488610ae7fea26e8ae22907ca02d66a01b692c6954c0151bc7f293301cbd"
+}

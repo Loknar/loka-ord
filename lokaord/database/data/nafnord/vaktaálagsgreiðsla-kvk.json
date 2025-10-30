@@ -1,0 +1,30 @@
+{
+	"orð": "vaktaálagsgreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vakta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vakt-kvk"
+		},
+		{
+			"mynd": "álags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-álag-hk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vaktaálagsgreiðsla", "vaktaálagsgreiðslu", "vaktaálagsgreiðslu", "vaktaálagsgreiðslu"],
+		"mg": ["vaktaálagsgreiðslan", "vaktaálagsgreiðsluna", "vaktaálagsgreiðslunni", "vaktaálagsgreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["vaktaálagsgreiðslur", "vaktaálagsgreiðslur", "vaktaálagsgreiðslum", "vaktaálagsgreiðslna"],
+		"mg": ["vaktaálagsgreiðslurnar", "vaktaálagsgreiðslurnar", "vaktaálagsgreiðslunum", "vaktaálagsgreiðslnanna"]
+	},
+	"kennistrengur": "no-vaktaálagsgreiðsla-kvk",
+	"hash": "c5f8b0e880d4d77e1359b1fd4f903c0d6da30073590bb7afb454406a6eba7ed8"
+}

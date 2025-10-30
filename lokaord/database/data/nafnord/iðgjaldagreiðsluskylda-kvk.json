@@ -1,0 +1,32 @@
+{
+	"orð": "iðgjaldagreiðsluskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ið-hk"
+		},
+		{
+			"mynd": "gjalda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["iðgjaldagreiðsluskylda", "iðgjaldagreiðsluskyldu", "iðgjaldagreiðsluskyldu", "iðgjaldagreiðsluskyldu"],
+		"mg": ["iðgjaldagreiðsluskyldan", "iðgjaldagreiðsluskylduna", "iðgjaldagreiðsluskyldunni", "iðgjaldagreiðsluskyldunnar"]
+	},
+	"kennistrengur": "no-iðgjaldagreiðsluskylda-kvk",
+	"hash": "090fed8c060310106ef210dd8c0838ddc922f80207c157daf68c192578d1282b"
+}

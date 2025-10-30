@@ -1,0 +1,32 @@
+{
+	"orð": "fjárfestingasamval",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "festinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-val-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjárfestingasamval", "fjárfestingasamval", "fjárfestingasamvali", "fjárfestingasamvals"],
+		"mg": ["fjárfestingasamvalið", "fjárfestingasamvalið", "fjárfestingasamvalinu", "fjárfestingasamvalsins"]
+	},
+	"kennistrengur": "no-fjárfestingasamval-hk",
+	"hash": "b7e61b617055c0488a9e335e084c6816e4ed31c351fa7eca47ce78eb28deb853"
+}

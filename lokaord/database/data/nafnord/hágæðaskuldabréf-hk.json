@@ -1,0 +1,35 @@
+{
+	"orð": "hágæðaskuldabréf",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "há",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hár"
+		},
+		{
+			"mynd": "gæða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gæði-hk"
+		},
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-bréf-hk"
+		}
+	],
+	"et": {
+		"ág": ["hágæðaskuldabréf", "hágæðaskuldabréf", "hágæðaskuldabréfi", "hágæðaskuldabréfs"],
+		"mg": ["hágæðaskuldabréfið", "hágæðaskuldabréfið", "hágæðaskuldabréfinu", "hágæðaskuldabréfsins"]
+	},
+	"ft": {
+		"ág": ["hágæðaskuldabréf", "hágæðaskuldabréf", "hágæðaskuldabréfum", "hágæðaskuldabréfa"],
+		"mg": ["hágæðaskuldabréfin", "hágæðaskuldabréfin", "hágæðaskuldabréfunum", "hágæðaskuldabréfanna"]
+	},
+	"kennistrengur": "no-hágæðaskuldabréf-hk",
+	"hash": "d06965a5ebe6020567b465afe406c12c6906f20f0744a1c1ba566c94ff2c5980"
+}

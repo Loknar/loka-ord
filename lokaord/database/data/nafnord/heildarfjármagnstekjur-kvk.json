@@ -1,0 +1,32 @@
+{
+	"orð": "heildarfjármagnstekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarfjármagnstekjur", "heildarfjármagnstekjur", "heildarfjármagnstekjum", "heildarfjármagnstekna"],
+		"mg": ["heildarfjármagnstekjurnar", "heildarfjármagnstekjurnar", "heildarfjármagnstekjunum", "heildarfjármagnsteknanna"]
+	},
+	"kennistrengur": "no-heildarfjármagnstekjur-kvk",
+	"hash": "b32774b76fda09062a03e67fe83629ec4b3d8769db754f2171881f4eb7b2480c"
+}

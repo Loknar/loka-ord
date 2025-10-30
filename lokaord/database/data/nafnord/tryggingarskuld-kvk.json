@@ -1,0 +1,25 @@
+{
+	"orð": "tryggingarskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tryggingarskuld", "tryggingarskuld", "tryggingarskuld", "tryggingarskuldar"],
+		"mg": ["tryggingarskuldin", "tryggingarskuldina", "tryggingarskuldinni", "tryggingarskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["tryggingarskuldir", "tryggingarskuldir", "tryggingarskuldum", "tryggingarskulda"],
+		"mg": ["tryggingarskuldirnar", "tryggingarskuldirnar", "tryggingarskuldunum", "tryggingarskuldanna"]
+	},
+	"kennistrengur": "no-tryggingarskuld-kvk",
+	"hash": "01a72810b22a70b8757ea967d82bc5246e85b5ac7530abdb3d476ace9ccd3cc3"
+}
