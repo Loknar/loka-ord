@@ -1,0 +1,27 @@
+{
+	"orð": "daglaunavinna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"mynd": "launa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-laun-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["daglaunavinna", "daglaunavinnu", "daglaunavinnu", "daglaunavinnu"],
+		"mg": ["daglaunavinnan", "daglaunavinnuna", "daglaunavinnunni", "daglaunavinnunnar"]
+	},
+	"kennistrengur": "no-daglaunavinna-kvk",
+	"hash": "7f16c4998b8edcc85731cd78e94f3559c568c6d9d5e059743065e411795620c7"
+}

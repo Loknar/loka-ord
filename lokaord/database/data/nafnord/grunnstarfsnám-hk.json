@@ -1,0 +1,27 @@
+{
+	"orð": "grunnstarfsnám",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "grunn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-grunnur"
+		},
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nám-hk"
+		}
+	],
+	"et": {
+		"ág": ["grunnstarfsnám", "grunnstarfsnám", "grunnstarfsnámi", "grunnstarfsnáms"],
+		"mg": ["grunnstarfsnámið", "grunnstarfsnámið", "grunnstarfsnáminu", "grunnstarfsnámsins"]
+	},
+	"kennistrengur": "no-grunnstarfsnám-hk",
+	"hash": "48e6ca5c94393c974069d49c84594e0c99b8636cb1ba6c68af1f3220bf592a37"
+}

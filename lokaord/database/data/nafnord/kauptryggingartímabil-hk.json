@@ -1,0 +1,35 @@
+{
+	"orð": "kauptryggingartímabil",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"kennistrengur": "no-bil-hk"
+		}
+	],
+	"et": {
+		"ág": ["kauptryggingartímabil", "kauptryggingartímabil", "kauptryggingartímabili", "kauptryggingartímabils"],
+		"mg": ["kauptryggingartímabilið", "kauptryggingartímabilið", "kauptryggingartímabilinu", "kauptryggingartímabilsins"]
+	},
+	"ft": {
+		"ág": ["kauptryggingartímabil", "kauptryggingartímabil", "kauptryggingartímabilum", "kauptryggingartímabila"],
+		"mg": ["kauptryggingartímabilin", "kauptryggingartímabilin", "kauptryggingartímabilunum", "kauptryggingartímabilanna"]
+	},
+	"kennistrengur": "no-kauptryggingartímabil-hk",
+	"hash": "41831c305328decab919a2a90a7cff35fced5e96321ef6419e507d095b10bfd5"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "rekkjuvoðavaðmál",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "rekkju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekkja-kvk"
+		},
+		{
+			"mynd": "voða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-voð-kvk"
+		},
+		{
+			"mynd": "vað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vað-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mál-hk"
+		}
+	],
+	"et": {
+		"ág": ["rekkjuvoðavaðmál", "rekkjuvoðavaðmál", "rekkjuvoðavaðmáli", "rekkjuvoðavaðmáls"],
+		"mg": ["rekkjuvoðavaðmálið", "rekkjuvoðavaðmálið", "rekkjuvoðavaðmálinu", "rekkjuvoðavaðmálsins"]
+	},
+	"kennistrengur": "no-rekkjuvoðavaðmál-hk",
+	"hash": "bc2c5fe7b2c9b15241758f54144a1b6e3e77146cb9be94ce87582ca78e79dccb"
+}

@@ -1,0 +1,74 @@
+{
+	"orð": "rifta",
+	"flokkur": "sagnorð",
+	"merking": "riftaðu",
+	"samsett": [
+		{
+			"mynd": "rift",
+			"samsetning": "stofn",
+			"kennistrengur": "so-rifta"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rifta",
+		"sagnbót": "riftað",
+		"boðháttur": {
+			"stýfður": "rifta",
+			"et": "riftaðu",
+			"ft": "riftið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rifta", "riftar", "riftar"],
+					"ft": ["riftum", "riftið", "rifta"]
+				},
+				"þátíð": {
+					"et": ["riftaði", "riftaðir", "riftaði"],
+					"ft": ["riftuðum", "riftuðuð", "riftuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rifti", "riftir", "rifti"],
+					"ft": ["riftum", "riftið", "rifti"]
+				},
+				"þátíð": {
+					"et": ["riftaði", "riftaðir", "riftaði"],
+					"ft": ["riftuðum", "riftuðuð", "riftuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "riftarðu",
+					"ft": "riftiði"
+				},
+				"þátíð": {
+					"et": "riftaðirðu",
+					"ft": "riftuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "riftirðu",
+					"ft": "riftiði"
+				},
+				"þátíð": {
+					"et": "riftaðirðu",
+					"ft": "riftuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "riftandi"
+	},
+	"kennistrengur": "so-rifta-_riftaðu_",
+	"hash": "e555a035ef1312d2bcfb6aace4752976b5c22a1ad946df597eb66db768b331de"
+}

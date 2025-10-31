@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarkshvíldartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "hvíldar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hvíld-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarkshvíldartími", "lágmarkshvíldartíma", "lágmarkshvíldartíma", "lágmarkshvíldartíma"],
+		"mg": ["lágmarkshvíldartíminn", "lágmarkshvíldartímann", "lágmarkshvíldartímanum", "lágmarkshvíldartímans"]
+	},
+	"kennistrengur": "no-lágmarkshvíldartími-kk",
+	"hash": "4f13449a54281787905f893cb045acb638c77d47c16e847dd71a1e7399a40f3c"
+}

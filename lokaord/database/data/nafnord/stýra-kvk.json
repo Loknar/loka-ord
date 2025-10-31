@@ -2,6 +2,16 @@
 	"orð": "stýra",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stýr",
+			"samsetning": "stofn",
+			"kennistrengur": "so-stýra"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["stýra", "stýru", "stýru", "stýru"],
 		"mg": ["stýran", "stýruna", "stýrunni", "stýrunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["stýrurnar", "stýrurnar", "stýrunum", "stýranna"]
 	},
 	"kennistrengur": "no-stýra-kvk",
-	"hash": "f732dd36a6eff7837a3d39214257929f1f2bb572d615da8d4ac5a645a7319f6d"
+	"hash": "e828145fa14187b6ca30166a5d23e02a94d807d611e65ce8ed86a2c77a2d37d2"
 }

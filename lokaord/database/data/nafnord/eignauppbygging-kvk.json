@@ -1,0 +1,27 @@
+{
+	"orð": "eignauppbygging",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-bygging-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignauppbygging", "eignauppbyggingu", "eignauppbyggingu", "eignauppbyggingar"],
+		"mg": ["eignauppbyggingin", "eignauppbygginguna", "eignauppbyggingunni", "eignauppbyggingarinnar"]
+	},
+	"kennistrengur": "no-eignauppbygging-kvk",
+	"hash": "bc098e6e802c3ccefa5c921546b6354e9ece6cf63ebd043396380113d66944f2"
+}

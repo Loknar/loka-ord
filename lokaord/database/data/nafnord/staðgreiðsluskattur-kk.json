@@ -1,0 +1,30 @@
+{
+	"orð": "staðgreiðsluskattur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-skattur-kk"
+		}
+	],
+	"et": {
+		"ág": ["staðgreiðsluskattur", "staðgreiðsluskatt", "staðgreiðsluskatti", "staðgreiðsluskatts"],
+		"mg": ["staðgreiðsluskatturinn", "staðgreiðsluskattinn", "staðgreiðsluskattinum", "staðgreiðsluskattsins"]
+	},
+	"ft": {
+		"ág": ["staðgreiðsluskattar", "staðgreiðsluskatta", "staðgreiðslusköttum", "staðgreiðsluskatta"],
+		"mg": ["staðgreiðsluskattarnir", "staðgreiðsluskattana", "staðgreiðslusköttunum", "staðgreiðsluskattanna"]
+	},
+	"kennistrengur": "no-staðgreiðsluskattur-kk",
+	"hash": "cf4186d1a20c34e24f944ea6461c9b70df7c50fd25555354018ebc13c4e3e947"
+}

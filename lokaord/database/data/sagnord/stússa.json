@@ -1,0 +1,135 @@
+{
+	"orð": "stússa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stúss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stúss-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stússa",
+		"sagnbót": "stússað",
+		"boðháttur": {
+			"stýfður": "stússa",
+			"et": "stússaðu",
+			"ft": "stússið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stússa", "stússar", "stússar"],
+					"ft": ["stússum", "stússið", "stússa"]
+				},
+				"þátíð": {
+					"et": ["stússaði", "stússaðir", "stússaði"],
+					"ft": ["stússuðum", "stússuðuð", "stússuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stússi", "stússir", "stússi"],
+					"ft": ["stússum", "stússið", "stússi"]
+				},
+				"þátíð": {
+					"et": ["stússaði", "stússaðir", "stússaði"],
+					"ft": ["stússuðum", "stússuðuð", "stússuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stússarðu",
+					"ft": "stússiði"
+				},
+				"þátíð": {
+					"et": "stússaðirðu",
+					"ft": "stússuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stússirðu",
+					"ft": "stússiði"
+				},
+				"þátíð": {
+					"et": "stússaðirðu",
+					"ft": "stússuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stússast",
+		"sagnbót": "stússast",
+		"boðháttur": {
+			"et": "stússastu",
+			"ft": "stússist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stússast", "stússast", "stússast"],
+					"ft": ["stússumst", "stússist", "stússast"]
+				},
+				"þátíð": {
+					"et": ["stússaðist", "stússaðist", "stússaðist"],
+					"ft": ["stússuðumst", "stússuðust", "stússuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stússist", "stússist", "stússist"],
+					"ft": ["stússumst", "stússist", "stússist"]
+				},
+				"þátíð": {
+					"et": ["stússaðist", "stússaðist", "stússaðist"],
+					"ft": ["stússuðumst", "stússuðust", "stússuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stússastu"
+				},
+				"þátíð": {
+					"et": "stússaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stússistu"
+				},
+				"þátíð": {
+					"et": "stússaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stússandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stússaður", "stússaðan", "stússuðum", "stússaðs"],
+					"kvk": ["stússuð", "stússaða", "stússaðri", "stússaðrar"],
+					"hk": ["stússað", "stússað", "stússuðu", "stússaðs"]
+				},
+				"ft": {
+					"kk": ["stússaðir", "stússaða", "stússuðum", "stússaðra"],
+					"kvk": ["stússaðar", "stússaðar", "stússuðum", "stússaðra"],
+					"hk": ["stússuð", "stússuð", "stússuðum", "stússaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stússa",
+	"hash": "39944c71dbccabafb3aeafb3d28a9585fdfce98e339cfd4277230d1c41069b5b"
+}
