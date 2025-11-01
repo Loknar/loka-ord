@@ -1,0 +1,27 @@
+{
+	"orð": "tilkynningaskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"mynd": "kynninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kynning-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tilkynningaskylda", "tilkynningaskyldu", "tilkynningaskyldu", "tilkynningaskyldu"],
+		"mg": ["tilkynningaskyldan", "tilkynningaskylduna", "tilkynningaskyldunni", "tilkynningaskyldunnar"]
+	},
+	"kennistrengur": "no-tilkynningaskylda-kvk",
+	"hash": "a05ef593533c9889e50e4695e71f16e4b3240f0bac79ff768d53b11df6bd0d53"
+}

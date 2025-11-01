@@ -1,0 +1,40 @@
+{
+	"orð": "atvinnusjúkdómsvörn",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"kennistrengur": "no-vörn-kvk"
+		}
+	],
+	"et": {
+		"ág": ["atvinnusjúkdómsvörn", "atvinnusjúkdómsvörn", "atvinnusjúkdómsvörn", "atvinnusjúkdómsvarnar"],
+		"mg": ["atvinnusjúkdómsvörnin", "atvinnusjúkdómsvörnina", "atvinnusjúkdómsvörninni", "atvinnusjúkdómsvarnarinnar"]
+	},
+	"ft": {
+		"ág": ["atvinnusjúkdómsvarnir", "atvinnusjúkdómsvarnir", "atvinnusjúkdómsvörnum", "atvinnusjúkdómsvarna"],
+		"mg": ["atvinnusjúkdómsvarnirnar", "atvinnusjúkdómsvarnirnar", "atvinnusjúkdómsvörnunum", "atvinnusjúkdómsvarnanna"]
+	},
+	"kennistrengur": "no-atvinnusjúkdómsvörn-kvk",
+	"hash": "b604471d9c4218be06444f34aec031357d1d0adc5662dc29e61f4538917584d7"
+}

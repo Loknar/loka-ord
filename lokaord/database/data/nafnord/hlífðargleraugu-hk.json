@@ -1,0 +1,27 @@
+{
+	"orð": "hlífðargleraugu",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hlífðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlífð-kvk"
+		},
+		{
+			"mynd": "gler",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gler-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-auga-hk"
+		}
+	],
+	"ft": {
+		"ág": ["hlífðargleraugu", "hlífðargleraugu", "hlífðargleraugum", "hlífðargleraugna"],
+		"mg": ["hlífðargleraugun", "hlífðargleraugun", "hlífðargleraugunum", "hlífðargleraugnanna"]
+	},
+	"kennistrengur": "no-hlífðargleraugu-hk",
+	"hash": "9253e5455705f59971fbb45551da129cefe4918cfce3ea1bb011ffe361cfb919"
+}

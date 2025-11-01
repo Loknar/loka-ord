@@ -1,0 +1,32 @@
+{
+	"orð": "vinnufyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vinna-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["vinnufyrirkomulag", "vinnufyrirkomulag", "vinnufyrirkomulagi", "vinnufyrirkomulags"],
+		"mg": ["vinnufyrirkomulagið", "vinnufyrirkomulagið", "vinnufyrirkomulaginu", "vinnufyrirkomulagsins"]
+	},
+	"kennistrengur": "no-vinnufyrirkomulag-hk",
+	"hash": "023534d29a5565d510d22f46f91a76132aae5f881506511db72cf4260a4ff6fc"
+}

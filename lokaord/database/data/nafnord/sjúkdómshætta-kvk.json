@@ -1,0 +1,27 @@
+{
+	"orð": "sjúkdómshætta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sjúk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sjúkur"
+		},
+		{
+			"mynd": "dóms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dómur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hætta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["sjúkdómshætta", "sjúkdómshættu", "sjúkdómshættu", "sjúkdómshættu"],
+		"mg": ["sjúkdómshættan", "sjúkdómshættuna", "sjúkdómshættunni", "sjúkdómshættunnar"]
+	},
+	"kennistrengur": "no-sjúkdómshætta-kvk",
+	"hash": "fcf97325683896997484bf6df1138832a130ba7debef49c8e8d533ea7bd321b8"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "heildarstarfsmannafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarstarfsmannafjöldi", "heildarstarfsmannafjölda", "heildarstarfsmannafjölda", "heildarstarfsmannafjölda"],
+		"mg": ["heildarstarfsmannafjöldinn", "heildarstarfsmannafjöldann", "heildarstarfsmannafjöldanum", "heildarstarfsmannafjöldans"]
+	},
+	"kennistrengur": "no-heildarstarfsmannafjöldi-kk",
+	"hash": "fb822d634d5bae09dc5c3e9de7b32be0e528cfcdd59359d50922f2845251a220"
+}

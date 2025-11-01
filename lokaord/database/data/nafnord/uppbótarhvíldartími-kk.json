@@ -1,0 +1,32 @@
+{
+	"orð": "uppbótarhvíldartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "bótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"mynd": "hvíldar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hvíld-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["uppbótarhvíldartími", "uppbótarhvíldartíma", "uppbótarhvíldartíma", "uppbótarhvíldartíma"],
+		"mg": ["uppbótarhvíldartíminn", "uppbótarhvíldartímann", "uppbótarhvíldartímanum", "uppbótarhvíldartímans"]
+	},
+	"kennistrengur": "no-uppbótarhvíldartími-kk",
+	"hash": "cd0058c44edf1a1a12bb672f6618a352b149e7452ba0974dc91704ac4b554d3d"
+}

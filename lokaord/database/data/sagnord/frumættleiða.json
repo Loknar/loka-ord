@@ -1,0 +1,92 @@
+{
+	"orð": "frumættleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frum-hk"
+		},
+		{
+			"mynd": "ætt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ætt-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frumættleiða",
+		"sagnbót": "frumættleitt",
+		"boðháttur": {
+			"stýfður": "frumættleið",
+			"et": "frumættleiddu",
+			"ft": "frumættleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumættleiði", "frumættleiðir", "frumættleiðir"],
+					"ft": ["frumættleiðum", "frumættleiðið", "frumættleiða"]
+				},
+				"þátíð": {
+					"et": ["frumættleiddi", "frumættleiddir", "frumættleiddi"],
+					"ft": ["frumættleiddum", "frumættleidduð", "frumættleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumættleiði", "frumættleiðir", "frumættleiði"],
+					"ft": ["frumættleiðum", "frumættleiðið", "frumættleiði"]
+				},
+				"þátíð": {
+					"et": ["frumættleiddi", "frumættleiddir", "frumættleiddi"],
+					"ft": ["frumættleiddum", "frumættleidduð", "frumættleiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frumættleiðirðu",
+					"ft": "frumættleiðiði"
+				},
+				"þátíð": {
+					"et": "frumættleiddirðu",
+					"ft": "frumættleidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frumættleiðirðu",
+					"ft": "frumættleiðiði"
+				},
+				"þátíð": {
+					"et": "frumættleiddirðu",
+					"ft": "frumættleidduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frumættleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frumættleiddur", "frumættleiddan", "frumættleiddum", "frumættleidds"],
+					"kvk": ["frumættleidd", "frumættleidda", "frumættleiddri", "frumættleiddrar"],
+					"hk": ["frumættleitt", "frumættleitt", "frumættleiddu", "frumættleidds"]
+				},
+				"ft": {
+					"kk": ["frumættleiddir", "frumættleidda", "frumættleiddum", "frumættleiddra"],
+					"kvk": ["frumættleiddar", "frumættleiddar", "frumættleiddum", "frumættleiddra"],
+					"hk": ["frumættleidd", "frumættleidd", "frumættleiddum", "frumættleiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frumættleiða",
+	"hash": "a1b8130e8200ab3044869e69a5087f91472ab4bb549c46a7a195ea17557bd99e"
+}
