@@ -1,0 +1,32 @@
+{
+	"orð": "heildaratkvæðamagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "at",
+			"samsetning": "stofn",
+			"kennistrengur": "no-at-hk"
+		},
+		{
+			"mynd": "kvæða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kvæði-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildaratkvæðamagn", "heildaratkvæðamagn", "heildaratkvæðamagni", "heildaratkvæðamagns"],
+		"mg": ["heildaratkvæðamagnið", "heildaratkvæðamagnið", "heildaratkvæðamagninu", "heildaratkvæðamagnsins"]
+	},
+	"kennistrengur": "no-heildaratkvæðamagn-hk",
+	"hash": "c731cfdd7401be8c0b1dfdca65506bfc94b1665a4d0470ffefde6679057de094"
+}

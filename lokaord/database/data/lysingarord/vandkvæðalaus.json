@@ -1,0 +1,48 @@
+{
+	"orð": "vandkvæðalaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vand",
+			"samsetning": "stofn",
+			"kennistrengur": "so-vanda"
+		},
+		{
+			"mynd": "kvæða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kvæði-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vandkvæðalaus", "vandkvæðalausan", "vandkvæðalausum", "vandkvæðalauss"],
+				"kvk": ["vandkvæðalaus", "vandkvæðalausa", "vandkvæðalausri", "vandkvæðalausrar"],
+				"hk": ["vandkvæðalaust", "vandkvæðalaust", "vandkvæðalausu", "vandkvæðalauss"]
+			},
+			"ft": {
+				"kk": ["vandkvæðalausir", "vandkvæðalausa", "vandkvæðalausum", "vandkvæðalausra"],
+				"kvk": ["vandkvæðalausar", "vandkvæðalausar", "vandkvæðalausum", "vandkvæðalausra"],
+				"hk": ["vandkvæðalaus", "vandkvæðalaus", "vandkvæðalausum", "vandkvæðalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vandkvæðalausi", "vandkvæðalausa", "vandkvæðalausa", "vandkvæðalausa"],
+				"kvk": ["vandkvæðalausa", "vandkvæðalausu", "vandkvæðalausu", "vandkvæðalausu"],
+				"hk": ["vandkvæðalausa", "vandkvæðalausa", "vandkvæðalausa", "vandkvæðalausa"]
+			},
+			"ft": {
+				"kk": ["vandkvæðalausu", "vandkvæðalausu", "vandkvæðalausu", "vandkvæðalausu"],
+				"kvk": ["vandkvæðalausu", "vandkvæðalausu", "vandkvæðalausu", "vandkvæðalausu"],
+				"hk": ["vandkvæðalausu", "vandkvæðalausu", "vandkvæðalausu", "vandkvæðalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-vandkvæðalaus",
+	"hash": "5dce266e47fb9ce3c3b235f85c69b675d0682aeb6733cd01720c5631056ea506"
+}

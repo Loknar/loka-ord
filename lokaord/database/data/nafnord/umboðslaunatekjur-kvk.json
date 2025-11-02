@@ -1,0 +1,32 @@
+{
+	"orð": "umboðslaunatekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"mynd": "launa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-laun-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["umboðslaunatekjur", "umboðslaunatekjur", "umboðslaunatekjum", "umboðslaunatekna"],
+		"mg": ["umboðslaunatekjurnar", "umboðslaunatekjurnar", "umboðslaunatekjunum", "umboðslaunateknanna"]
+	},
+	"kennistrengur": "no-umboðslaunatekjur-kvk",
+	"hash": "6bbad3ec2685201755eda5e114b193238038a49f39a969dd361cf67c14070c52"
+}

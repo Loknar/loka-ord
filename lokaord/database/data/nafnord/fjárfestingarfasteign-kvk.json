@@ -1,0 +1,35 @@
+{
+	"orð": "fjárfestingarfasteign",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "festingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"mynd": "fast",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-fastur"
+		},
+		{
+			"kennistrengur": "no-eign-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárfestingarfasteign", "fjárfestingarfasteign", "fjárfestingarfasteign", "fjárfestingarfasteignar"],
+		"mg": ["fjárfestingarfasteignin", "fjárfestingarfasteignina", "fjárfestingarfasteigninni", "fjárfestingarfasteignarinnar"]
+	},
+	"ft": {
+		"ág": ["fjárfestingarfasteignir", "fjárfestingarfasteignir", "fjárfestingarfasteignum", "fjárfestingarfasteigna"],
+		"mg": ["fjárfestingarfasteignirnar", "fjárfestingarfasteignirnar", "fjárfestingarfasteignunum", "fjárfestingarfasteignanna"]
+	},
+	"kennistrengur": "no-fjárfestingarfasteign-kvk",
+	"hash": "891b7d6b3bc8a950ab8827685b8e9a7b8165a5ea4ca7c43c7344ed0c0b549aa3"
+}

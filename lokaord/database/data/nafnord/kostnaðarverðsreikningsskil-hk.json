@@ -1,0 +1,31 @@
+{
+	"orð": "kostnaðarverðsreikningsskil",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kostnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostnaður-kk"
+		},
+		{
+			"mynd": "verðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "reiknings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"kennistrengur": "no-skil-hk"
+		}
+	],
+	"ft": {
+		"ág": ["kostnaðarverðsreikningsskil", "kostnaðarverðsreikningsskil", "kostnaðarverðsreikningsskilum", "kostnaðarverðsreikningsskila"],
+		"mg": ["kostnaðarverðsreikningsskilin", "kostnaðarverðsreikningsskilin", "kostnaðarverðsreikningsskilunum", "kostnaðarverðsreikningsskilanna"]
+	},
+	"kennistrengur": "no-kostnaðarverðsreikningsskil-hk",
+	"hash": "d96eef72c928fc6804106e60b595722f7190c82e8723f82a0f9e291426cc50bd"
+}

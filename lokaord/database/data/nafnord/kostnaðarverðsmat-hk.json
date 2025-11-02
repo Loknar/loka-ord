@@ -1,0 +1,27 @@
+{
+	"orð": "kostnaðarverðsmat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kostnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostnaður-kk"
+		},
+		{
+			"mynd": "verðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["kostnaðarverðsmat", "kostnaðarverðsmat", "kostnaðarverðsmati", "kostnaðarverðsmats"],
+		"mg": ["kostnaðarverðsmatið", "kostnaðarverðsmatið", "kostnaðarverðsmatinu", "kostnaðarverðsmatsins"]
+	},
+	"kennistrengur": "no-kostnaðarverðsmat-hk",
+	"hash": "18c112ea52797d3940c87996e4d5fe4ee1c39e50cbb2be6a32b309b14ae20d54"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "framleiðslukostnaðarverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "leiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiðsla-kvk"
+		},
+		{
+			"mynd": "kostnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostnaður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["framleiðslukostnaðarverð", "framleiðslukostnaðarverð", "framleiðslukostnaðarverði", "framleiðslukostnaðarverðs"],
+		"mg": ["framleiðslukostnaðarverðið", "framleiðslukostnaðarverðið", "framleiðslukostnaðarverðinu", "framleiðslukostnaðarverðsins"]
+	},
+	"kennistrengur": "no-framleiðslukostnaðarverð-hk",
+	"hash": "10d436b97fe87fd9440d0b09774357634883f113815051a0ac67519d59c6cfca"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "framtíðarfjárstreymi",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"mynd": "tíðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tíð-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-streymi-hk"
+		}
+	],
+	"et": {
+		"ág": ["framtíðarfjárstreymi", "framtíðarfjárstreymi", "framtíðarfjárstreymi", "framtíðarfjárstreymis"],
+		"mg": ["framtíðarfjárstreymið", "framtíðarfjárstreymið", "framtíðarfjárstreyminu", "framtíðarfjárstreymisins"]
+	},
+	"kennistrengur": "no-framtíðarfjárstreymi-hk",
+	"hash": "8431f0c6f60532666f39a3a80858cf9943830991877380b65bcb2712ac333594"
+}

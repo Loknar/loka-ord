@@ -1,0 +1,99 @@
+{
+	"orð": "handfæra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-færa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handfæra",
+		"sagnbót": "handfært",
+		"boðháttur": {
+			"stýfður": "handfær",
+			"et": "handfærðu",
+			"ft": "handfærið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handfæri", "handfærir", "handfærir"],
+					"ft": ["handfærum", "handfærið", "handfæra"]
+				},
+				"þátíð": {
+					"et": ["handfærði", "handfærðir", "handfærði"],
+					"ft": ["handfærðum", "handfærðuð", "handfærðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handfæri", "handfærir", "handfæri"],
+					"ft": ["handfærum", "handfærið", "handfæri"]
+				},
+				"þátíð": {
+					"et": ["handfærði", "handfærðir", "handfærði"],
+					"ft": ["handfærðum", "handfærðuð", "handfærðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handfærirðu",
+					"ft": "handfæriði"
+				},
+				"þátíð": {
+					"et": "handfærðirðu",
+					"ft": "handfærðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handfærirðu",
+					"ft": "handfæriði"
+				},
+				"þátíð": {
+					"et": "handfærðirðu",
+					"ft": "handfærðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handfærandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handfærður", "handfærðan", "handfærðum", "handfærðs"],
+					"kvk": ["handfærð", "handfærða", "handfærðri", "handfærðrar"],
+					"hk": ["handfært", "handfært", "handfærðu", "handfærðs"]
+				},
+				"ft": {
+					"kk": ["handfærðir", "handfærða", "handfærðum", "handfærðra"],
+					"kvk": ["handfærðar", "handfærðar", "handfærðum", "handfærðra"],
+					"hk": ["handfærð", "handfærð", "handfærðum", "handfærðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handfærði", "handfærða", "handfærða", "handfærða"],
+					"kvk": ["handfærða", "handfærðu", "handfærðu", "handfærðu"],
+					"hk": ["handfærða", "handfærða", "handfærða", "handfærða"]
+				},
+				"ft": {
+					"kk": ["handfærðu", "handfærðu", "handfærðu", "handfærðu"],
+					"kvk": ["handfærðu", "handfærðu", "handfærðu", "handfærðu"],
+					"hk": ["handfærðu", "handfærðu", "handfærðu", "handfærðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handfæra",
+	"hash": "f2b85da8aff6909ee007906ef0f971f9e1c1a00d523944dfa030b5a06c4586f4"
+}

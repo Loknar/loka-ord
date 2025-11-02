@@ -1,0 +1,38 @@
+{
+	"orð": "Alþjóðareikningsskilanefnd",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Al",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-ałlur"
+		},
+		{
+			"mynd": "þjóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þjóð-kvk"
+		},
+		{
+			"mynd": "reiknings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"mynd": "skila",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-nefnd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Alþjóðareikningsskilanefnd", "Alþjóðareikningsskilanefnd", "Alþjóðareikningsskilanefnd", "Alþjóðareikningsskilanefndar"],
+		"mg": ["Alþjóðareikningsskilanefndin", "Alþjóðareikningsskilanefndina", "Alþjóðareikningsskilanefndinni", "Alþjóðareikningsskilanefndarinnar"]
+	},
+	"kennistrengur": "sérn.ön-Alþjóðareikningsskilanefnd-kvk",
+	"hash": "fa97dcb81684484648a88faaa03224a2e17cc6d9fe68395258b6bf42092bbf5f"
+}

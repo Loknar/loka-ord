@@ -1,0 +1,35 @@
+{
+	"orð": "skammtímaverðbreyting",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-breyting-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skammtímaverðbreyting", "skammtímaverðbreytingu", "skammtímaverðbreytingu", "skammtímaverðbreytingar"],
+		"mg": ["skammtímaverðbreytingin", "skammtímaverðbreytinguna", "skammtímaverðbreytingunni", "skammtímaverðbreytingarinnar"]
+	},
+	"ft": {
+		"ág": ["skammtímaverðbreytingar", "skammtímaverðbreytingar", "skammtímaverðbreytingum", "skammtímaverðbreytinga"],
+		"mg": ["skammtímaverðbreytingarnar", "skammtímaverðbreytingarnar", "skammtímaverðbreytingunum", "skammtímaverðbreytinganna"]
+	},
+	"kennistrengur": "no-skammtímaverðbreyting-kvk",
+	"hash": "695cad85661f8d7649ece2eb805205545b84398c72977667124a552fe26a936c"
+}

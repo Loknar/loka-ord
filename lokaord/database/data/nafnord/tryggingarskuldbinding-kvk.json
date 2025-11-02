@@ -1,0 +1,30 @@
+{
+	"orð": "tryggingarskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tryggingarskuldbinding", "tryggingarskuldbindingu", "tryggingarskuldbindingu", "tryggingarskuldbindingar"],
+		"mg": ["tryggingarskuldbindingin", "tryggingarskuldbindinguna", "tryggingarskuldbindingunni", "tryggingarskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["tryggingarskuldbindingar", "tryggingarskuldbindingar", "tryggingarskuldbindingum", "tryggingarskuldbindinga"],
+		"mg": ["tryggingarskuldbindingarnar", "tryggingarskuldbindingarnar", "tryggingarskuldbindingunum", "tryggingarskuldbindinganna"]
+	},
+	"kennistrengur": "no-tryggingarskuldbinding-kvk",
+	"hash": "31bdb896c7390ae460cb234b65d5501074913a06d369fd18ed11bd1c51facf94"
+}

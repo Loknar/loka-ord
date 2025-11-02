@@ -1,5 +1,5 @@
 {
-	"orð": "fjármunir",
+	"orð": "fjármunur",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
 	"samsett": [
@@ -9,14 +9,17 @@
 			"kennistrengur": "no-fé-hk"
 		},
 		{
-			"beygingar": ["ft"],
 			"kennistrengur": "no-munur-kk"
 		}
 	],
+	"et": {
+		"ág": ["fjármunur", "fjármun", "fjármun", "fjármunar"],
+		"mg": ["fjármunurinn", "fjármuninn", "fjármuninum", "fjármunarins"]
+	},
 	"ft": {
 		"ág": ["fjármunir", "fjármuni", "fjármunum", "fjármuna"],
 		"mg": ["fjármunirnir", "fjármunina", "fjármununum", "fjármunanna"]
 	},
-	"kennistrengur": "no-fjármunir-kk",
-	"hash": "8e0f15b6501e9abdbfe7eed5d627fdc40f5144a612f3713e2a4ace58b144de5b"
+	"kennistrengur": "no-fjármunur-kk",
+	"hash": "642c12fd93b66405c2633b37ca1dd40ea5f0eb525335da877ddb8060766128ca"
 }

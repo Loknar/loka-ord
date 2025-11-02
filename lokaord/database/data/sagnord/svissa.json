@@ -1,0 +1,135 @@
+{
+	"orð": "svissa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sviss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sviss-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "svissa",
+		"sagnbót": "svissað",
+		"boðháttur": {
+			"stýfður": "svissa",
+			"et": "svissaðu",
+			"ft": "svissið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svissa", "svissar", "svissar"],
+					"ft": ["svissum", "svissið", "svissa"]
+				},
+				"þátíð": {
+					"et": ["svissaði", "svissaðir", "svissaði"],
+					"ft": ["svissuðum", "svissuðuð", "svissuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svissi", "svissir", "svissi"],
+					"ft": ["svissum", "svissið", "svissi"]
+				},
+				"þátíð": {
+					"et": ["svissaði", "svissaðir", "svissaði"],
+					"ft": ["svissuðum", "svissuðuð", "svissuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svissarðu",
+					"ft": "svissiði"
+				},
+				"þátíð": {
+					"et": "svissaðirðu",
+					"ft": "svissuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svissirðu",
+					"ft": "svissiði"
+				},
+				"þátíð": {
+					"et": "svissaðirðu",
+					"ft": "svissuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "svissast",
+		"sagnbót": "svissast",
+		"boðháttur": {
+			"et": "svissastu",
+			"ft": "svissist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["svissast", "svissast", "svissast"],
+					"ft": ["svissumst", "svissist", "svissast"]
+				},
+				"þátíð": {
+					"et": ["svissaðist", "svissaðist", "svissaðist"],
+					"ft": ["svissuðumst", "svissuðust", "svissuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["svissist", "svissist", "svissist"],
+					"ft": ["svissumst", "svissist", "svissist"]
+				},
+				"þátíð": {
+					"et": ["svissaðist", "svissaðist", "svissaðist"],
+					"ft": ["svissuðumst", "svissuðust", "svissuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "svissastu"
+				},
+				"þátíð": {
+					"et": "svissaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "svissistu"
+				},
+				"þátíð": {
+					"et": "svissaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "svissandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["svissaður", "svissaðan", "svissuðum", "svissaðs"],
+					"kvk": ["svissuð", "svissaða", "svissaðri", "svissaðrar"],
+					"hk": ["svissað", "svissað", "svissuðu", "svissaðs"]
+				},
+				"ft": {
+					"kk": ["svissaðir", "svissaða", "svissuðum", "svissaðra"],
+					"kvk": ["svissaðar", "svissaðar", "svissuðum", "svissaðra"],
+					"hk": ["svissuð", "svissuð", "svissuðum", "svissaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-svissa",
+	"hash": "27967bcfe2cb208113f7c9ccb91ef635a4882bce558c770108ae61c3bb4b142c"
+}

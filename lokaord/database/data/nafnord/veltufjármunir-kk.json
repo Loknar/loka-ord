@@ -1,0 +1,27 @@
+{
+	"orð": "veltufjármunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "veltu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-velta-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["veltufjármunir", "veltufjármuni", "veltufjármunum", "veltufjármuna"],
+		"mg": ["veltufjármunirnir", "veltufjármunina", "veltufjármununum", "veltufjármunanna"]
+	},
+	"kennistrengur": "no-veltufjármunir-kk",
+	"hash": "b8549ff63c766831586c24e990ac2145429b207073a71e9039b53ab2a6f51278"
+}
