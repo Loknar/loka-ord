@@ -1,0 +1,87 @@
+{
+	"orð": "átelja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-telja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "átelja",
+		"sagnbót": "átalið",
+		"boðháttur": {
+			"stýfður": "átel",
+			"et": "áteldu",
+			"ft": "áteljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["átel", "átelur", "átelur"],
+					"ft": ["áteljum", "áteljið", "átelja"]
+				},
+				"þátíð": {
+					"et": ["átaldi", "átaldir", "átaldi"],
+					"ft": ["átöldum", "átölduð", "átöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["átelji", "áteljir", "átelji"],
+					"ft": ["áteljum", "áteljið", "átelji"]
+				},
+				"þátíð": {
+					"et": ["áteldi", "áteldir", "áteldi"],
+					"ft": ["áteldum", "átelduð", "áteldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "átelurðu",
+					"ft": "áteljiði"
+				},
+				"þátíð": {
+					"et": "átaldirðu",
+					"ft": "átölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "áteljirðu",
+					"ft": "áteljiði"
+				},
+				"þátíð": {
+					"et": "áteldirðu",
+					"ft": "átelduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "áteljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["átalinn", "átalinn", "átöldum", "átalins"],
+					"kvk": ["átalin", "átalda", "átaldri", "átaldrar"],
+					"hk": ["átalið", "átalið", "átöldu", "átalins"]
+				},
+				"ft": {
+					"kk": ["átaldir", "átalda", "átöldum", "átalinna"],
+					"kvk": ["átaldar", "átaldar", "átöldum", "átalinna"],
+					"hk": ["átalin", "átalin", "átöldum", "átalinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-átelja",
+	"hash": "5b53a24de3b3dd24503fef4c029641bd121e2220e5e31a132275fd5baf7eecd5"
+}

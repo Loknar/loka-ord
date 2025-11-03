@@ -1,0 +1,27 @@
+{
+	"orð": "rekstraraðstæður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"mynd": "að",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-að"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["rekstraraðstæður", "rekstraraðstæður", "rekstraraðstæðum", "rekstraraðstæðna"],
+		"mg": ["rekstraraðstæðurnar", "rekstraraðstæðurnar", "rekstraraðstæðunum", "rekstraraðstæðnanna"]
+	},
+	"kennistrengur": "no-rekstraraðstæður-kvk",
+	"hash": "fab926d9f6d067b751d78b2cdf0d5a481a32f2e84caad60954b2715e08cd7791"
+}

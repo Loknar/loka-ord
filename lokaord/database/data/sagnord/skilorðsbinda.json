@@ -1,0 +1,104 @@
+{
+	"orð": "skilorðsbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"mynd": "orðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skilorðsbinda",
+		"sagnbót": "skilorðsbundið",
+		"boðháttur": {
+			"stýfður": "skilorðsbind",
+			"et": "skilorðsbittu",
+			"ft": "skilorðsbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skilorðsbind", "skilorðsbindur", "skilorðsbindur"],
+					"ft": ["skilorðsbindum", "skilorðsbindið", "skilorðsbinda"]
+				},
+				"þátíð": {
+					"et": ["skilorðsbatt", "skilorðsbast", "skilorðsbatt"],
+					"ft": ["skilorðsbundum", "skilorðsbunduð", "skilorðsbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skilorðsbindi", "skilorðsbindir", "skilorðsbindi"],
+					"ft": ["skilorðsbindum", "skilorðsbindið", "skilorðsbindi"]
+				},
+				"þátíð": {
+					"et": ["skilorðsbyndi", "skilorðsbyndir", "skilorðsbyndi"],
+					"ft": ["skilorðsbyndum", "skilorðsbynduð", "skilorðsbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skilorðsbindurðu",
+					"ft": "skilorðsbindiði"
+				},
+				"þátíð": {
+					"et": "skilorðsbastu",
+					"ft": "skilorðsbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skilorðsbindirðu",
+					"ft": "skilorðsbindiði"
+				},
+				"þátíð": {
+					"et": "skilorðsbyndirðu",
+					"ft": "skilorðsbynduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skilorðsbindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skilorðsbundinn", "skilorðsbundinn", "skilorðsbundnum", "skilorðsbundins"],
+					"kvk": ["skilorðsbundin", "skilorðsbundna", "skilorðsbundinni", "skilorðsbundinnar"],
+					"hk": ["skilorðsbundið", "skilorðsbundið", "skilorðsbundnu", "skilorðsbundins"]
+				},
+				"ft": {
+					"kk": ["skilorðsbundnir", "skilorðsbundna", "skilorðsbundnum", "skilorðsbundinna"],
+					"kvk": ["skilorðsbundnar", "skilorðsbundnar", "skilorðsbundnum", "skilorðsbundinna"],
+					"hk": ["skilorðsbundin", "skilorðsbundin", "skilorðsbundnum", "skilorðsbundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skilorðsbundni", "skilorðsbundna", "skilorðsbundna", "skilorðsbundna"],
+					"kvk": ["skilorðsbundna", "skilorðsbundnu", "skilorðsbundnu", "skilorðsbundnu"],
+					"hk": ["skilorðsbundna", "skilorðsbundna", "skilorðsbundna", "skilorðsbundna"]
+				},
+				"ft": {
+					"kk": ["skilorðsbundnu", "skilorðsbundnu", "skilorðsbundnu", "skilorðsbundnu"],
+					"kvk": ["skilorðsbundnu", "skilorðsbundnu", "skilorðsbundnu", "skilorðsbundnu"],
+					"hk": ["skilorðsbundnu", "skilorðsbundnu", "skilorðsbundnu", "skilorðsbundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skilorðsbinda",
+	"hash": "e0c59aabb0ef3b86a08d4c698876311e856c48056c486b9c0e7331e243880410"
+}

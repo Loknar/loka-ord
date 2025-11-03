@@ -1,0 +1,27 @@
+{
+	"orð": "skammtímaáhrif",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-áhrif-hk"
+		}
+	],
+	"ft": {
+		"ág": ["skammtímaáhrif", "skammtímaáhrif", "skammtímaáhrifum", "skammtímaáhrifa"],
+		"mg": ["skammtímaáhrifin", "skammtímaáhrifin", "skammtímaáhrifunum", "skammtímaáhrifanna"]
+	},
+	"kennistrengur": "no-skammtímaáhrif-hk",
+	"hash": "a30731b1580166368052fe57fcc41ef038c82742cc7c4537fac944175a39d67f"
+}

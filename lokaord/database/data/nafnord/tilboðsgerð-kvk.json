@@ -1,0 +1,27 @@
+{
+	"orð": "tilboðsgerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tilboðsgerð", "tilboðsgerð", "tilboðsgerð", "tilboðsgerðar"],
+		"mg": ["tilboðsgerðin", "tilboðsgerðina", "tilboðsgerðinni", "tilboðsgerðarinnar"]
+	},
+	"kennistrengur": "no-tilboðsgerð-kvk",
+	"hash": "182477d84d3227e4f2396888b92e88cd9b168770a540d15e5919acfb19d4b669"
+}

@@ -1,0 +1,43 @@
+{
+	"orð": "skoðunarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skoðunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skoðun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skoðunarskyldur", "skoðunarskyldan", "skoðunarskyldum", "skoðunarskylds"],
+				"kvk": ["skoðunarskyld", "skoðunarskylda", "skoðunarskyldri", "skoðunarskyldrar"],
+				"hk": ["skoðunarskylt", "skoðunarskylt", "skoðunarskyldu", "skoðunarskylds"]
+			},
+			"ft": {
+				"kk": ["skoðunarskyldir", "skoðunarskylda", "skoðunarskyldum", "skoðunarskyldra"],
+				"kvk": ["skoðunarskyldar", "skoðunarskyldar", "skoðunarskyldum", "skoðunarskyldra"],
+				"hk": ["skoðunarskyld", "skoðunarskyld", "skoðunarskyldum", "skoðunarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skoðunarskyldi", "skoðunarskylda", "skoðunarskylda", "skoðunarskylda"],
+				"kvk": ["skoðunarskylda", "skoðunarskyldu", "skoðunarskyldu", "skoðunarskyldu"],
+				"hk": ["skoðunarskylda", "skoðunarskylda", "skoðunarskylda", "skoðunarskylda"]
+			},
+			"ft": {
+				"kk": ["skoðunarskyldu", "skoðunarskyldu", "skoðunarskyldu", "skoðunarskyldu"],
+				"kvk": ["skoðunarskyldu", "skoðunarskyldu", "skoðunarskyldu", "skoðunarskyldu"],
+				"hk": ["skoðunarskyldu", "skoðunarskyldu", "skoðunarskyldu", "skoðunarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skoðunarskyldur",
+	"hash": "1ec74dcf3298214eaff6b023483e785506d00a68b82813d9612fbfbff28a0870"
+}

@@ -1,0 +1,22 @@
+{
+	"orð": "eignahöft",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-haft-hk"
+		}
+	],
+	"ft": {
+		"ág": ["eignahöft", "eignahöft", "eignahöftum", "eignahafta"],
+		"mg": ["eignahöftin", "eignahöftin", "eignahöftunum", "eignahaftanna"]
+	},
+	"kennistrengur": "no-eignahöft-hk",
+	"hash": "6b5ee6a4cc1045480d0cecddc3f933c88d99cb1fd400489d32b5b2f2a8d900a3"
+}

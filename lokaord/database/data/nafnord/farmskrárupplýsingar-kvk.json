@@ -1,0 +1,27 @@
+{
+	"orð": "farmskrárupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "farm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-farmur-kk"
+		},
+		{
+			"mynd": "skrár",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrá-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["farmskrárupplýsingar", "farmskrárupplýsingar", "farmskrárupplýsingum", "farmskrárupplýsinga"],
+		"mg": ["farmskrárupplýsingarnar", "farmskrárupplýsingarnar", "farmskrárupplýsingunum", "farmskrárupplýsinganna"]
+	},
+	"kennistrengur": "no-farmskrárupplýsingar-kvk",
+	"hash": "52dec1fde797c6bc809f05f97f799ea4155b79d8311c3b16cc8b780e71707b9d"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "heilbrigðisskilyrði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heil",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-heiłl"
+		},
+		{
+			"mynd": "brigðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-brigði-hk"
+		},
+		{
+			"mynd": "skil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-yrði-hk-ó"
+		}
+	],
+	"ft": {
+		"ág": ["heilbrigðisskilyrði", "heilbrigðisskilyrði", "heilbrigðisskilyrðum", "heilbrigðisskilyrða"],
+		"mg": ["heilbrigðisskilyrðin", "heilbrigðisskilyrðin", "heilbrigðisskilyrðunum", "heilbrigðisskilyrðanna"]
+	},
+	"kennistrengur": "no-heilbrigðisskilyrði-hk",
+	"hash": "d16b773253d9481404ccebdb81a4c70e1b1f8bbf3456c2421858789f4586c715"
+}

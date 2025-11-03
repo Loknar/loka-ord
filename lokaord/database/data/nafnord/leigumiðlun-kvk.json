@@ -1,0 +1,22 @@
+{
+	"orð": "leigumiðlun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-miðlun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["leigumiðlun", "leigumiðlun", "leigumiðlun", "leigumiðlunar"],
+		"mg": ["leigumiðlunin", "leigumiðlunina", "leigumiðluninni", "leigumiðlunarinnar"]
+	},
+	"kennistrengur": "no-leigumiðlun-kvk",
+	"hash": "68763049de6acb8fd4edea3f5174f9f25b66f1faf9d1d23d326f983b0623ad2b"
+}

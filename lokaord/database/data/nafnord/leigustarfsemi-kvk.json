@@ -1,0 +1,26 @@
+{
+	"orð": "leigustarfsemi",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "starf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"kennistrengur": "no-semi-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["leigustarfsemi", "leigustarfsemi", "leigustarfsemi", "leigustarfsemi"],
+		"mg": ["leigustarfsemin", "leigustarfsemina", "leigustarfseminni", "leigustarfseminnar"]
+	},
+	"kennistrengur": "no-leigustarfsemi-kvk",
+	"hash": "3c0b5b2b93917c64e0cefac5b95800b5d7ff0a5e640230646f700ab722510571"
+}
