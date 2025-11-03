@@ -1,0 +1,37 @@
+{
+	"orð": "lágmarksþátttakendafjöldi",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "þátt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"mynd": "takenda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-takandi-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-fjöldi-kk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksþátttakendafjöldi", "lágmarksþátttakendafjölda", "lágmarksþátttakendafjölda", "lágmarksþátttakendafjölda"],
+		"mg": ["lágmarksþátttakendafjöldinn", "lágmarksþátttakendafjöldann", "lágmarksþátttakendafjöldanum", "lágmarksþátttakendafjöldans"]
+	},
+	"kennistrengur": "no-lágmarksþátttakendafjöldi-kk",
+	"hash": "41417b38c577b5abbcd7e6d9a28dc967ee1eb1a12a7e05da147e62c5ea74db11"
+}

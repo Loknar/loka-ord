@@ -1,0 +1,48 @@
+{
+	"orð": "sannreynanlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sann",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sannur"
+		},
+		{
+			"mynd": "reynan",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-reyna"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sannreynanlegur", "sannreynanlegan", "sannreynanlegum", "sannreynanlegs"],
+				"kvk": ["sannreynanleg", "sannreynanlega", "sannreynanlegri", "sannreynanlegrar"],
+				"hk": ["sannreynanlegt", "sannreynanlegt", "sannreynanlegu", "sannreynanlegs"]
+			},
+			"ft": {
+				"kk": ["sannreynanlegir", "sannreynanlega", "sannreynanlegum", "sannreynanlegra"],
+				"kvk": ["sannreynanlegar", "sannreynanlegar", "sannreynanlegum", "sannreynanlegra"],
+				"hk": ["sannreynanleg", "sannreynanleg", "sannreynanlegum", "sannreynanlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sannreynanlegi", "sannreynanlega", "sannreynanlega", "sannreynanlega"],
+				"kvk": ["sannreynanlega", "sannreynanlegu", "sannreynanlegu", "sannreynanlegu"],
+				"hk": ["sannreynanlega", "sannreynanlega", "sannreynanlega", "sannreynanlega"]
+			},
+			"ft": {
+				"kk": ["sannreynanlegu", "sannreynanlegu", "sannreynanlegu", "sannreynanlegu"],
+				"kvk": ["sannreynanlegu", "sannreynanlegu", "sannreynanlegu", "sannreynanlegu"],
+				"hk": ["sannreynanlegu", "sannreynanlegu", "sannreynanlegu", "sannreynanlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sannreynanlegur",
+	"hash": "d10453b87f19c4964de7cfcc77675801a38d932602e8a54cedd206510af0b68f"
+}

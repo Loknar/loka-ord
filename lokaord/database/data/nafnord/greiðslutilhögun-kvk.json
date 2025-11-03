@@ -1,0 +1,27 @@
+{
+	"orð": "greiðslutilhögun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-högun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslutilhögun", "greiðslutilhögun", "greiðslutilhögun", "greiðslutilhögunar"],
+		"mg": ["greiðslutilhögunin", "greiðslutilhögunina", "greiðslutilhöguninni", "greiðslutilhögunarinnar"]
+	},
+	"kennistrengur": "no-greiðslutilhögun-kvk",
+	"hash": "625b243a03dcc99f537652620eef2038ab59d131d31d34e1619f9637b2308fea"
+}

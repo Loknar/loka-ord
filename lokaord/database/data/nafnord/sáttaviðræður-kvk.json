@@ -1,0 +1,27 @@
+{
+	"orð": "sáttaviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sátta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sátt-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-ræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["sáttaviðræður", "sáttaviðræður", "sáttaviðræðum", "sáttaviðræðna"],
+		"mg": ["sáttaviðræðurnar", "sáttaviðræðurnar", "sáttaviðræðunum", "sáttaviðræðnanna"]
+	},
+	"kennistrengur": "no-sáttaviðræður-kvk",
+	"hash": "874a670a47fe51979afdca6ff4d7626fc22426139e7662b451063e93165e8464"
+}

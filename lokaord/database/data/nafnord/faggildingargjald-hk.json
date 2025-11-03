@@ -1,0 +1,30 @@
+{
+	"orð": "faggildingargjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fag-hk"
+		},
+		{
+			"mynd": "gildingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gilding-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["faggildingargjald", "faggildingargjald", "faggildingargjaldi", "faggildingargjalds"],
+		"mg": ["faggildingargjaldið", "faggildingargjaldið", "faggildingargjaldinu", "faggildingargjaldsins"]
+	},
+	"ft": {
+		"ág": ["faggildingargjöld", "faggildingargjöld", "faggildingargjöldum", "faggildingargjalda"],
+		"mg": ["faggildingargjöldin", "faggildingargjöldin", "faggildingargjöldunum", "faggildingargjaldanna"]
+	},
+	"kennistrengur": "no-faggildingargjald-hk",
+	"hash": "a00377494a88ab801a92eb2508bb8dccc5d47edb4750b96785ff505fa28a180c"
+}

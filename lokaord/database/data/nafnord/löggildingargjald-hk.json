@@ -1,0 +1,30 @@
+{
+	"orð": "löggildingargjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"mynd": "gildingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gilding-kvk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["löggildingargjald", "löggildingargjald", "löggildingargjaldi", "löggildingargjalds"],
+		"mg": ["löggildingargjaldið", "löggildingargjaldið", "löggildingargjaldinu", "löggildingargjaldsins"]
+	},
+	"ft": {
+		"ág": ["löggildingargjöld", "löggildingargjöld", "löggildingargjöldum", "löggildingargjalda"],
+		"mg": ["löggildingargjöldin", "löggildingargjöldin", "löggildingargjöldunum", "löggildingargjaldanna"]
+	},
+	"kennistrengur": "no-löggildingargjald-hk",
+	"hash": "3bf648e88af2fea5b98130bd808c985648950f67ba6225fd839dc3a16ed1a274"
+}

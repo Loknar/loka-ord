@@ -1,0 +1,27 @@
+{
+	"orð": "verðhagræði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "hag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ræði-hk"
+		}
+	],
+	"et": {
+		"ág": ["verðhagræði", "verðhagræði", "verðhagræði", "verðhagræðis"],
+		"mg": ["verðhagræðið", "verðhagræðið", "verðhagræðinu", "verðhagræðisins"]
+	},
+	"kennistrengur": "no-verðhagræði-hk",
+	"hash": "c738ab275eb1c15818542dc0ea48a5b6c61414405d02e181929735d5b62478a6"
+}

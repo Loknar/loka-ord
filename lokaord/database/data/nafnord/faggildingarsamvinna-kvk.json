@@ -1,0 +1,32 @@
+{
+	"orð": "faggildingarsamvinna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fag-hk"
+		},
+		{
+			"mynd": "gildingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gilding-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vinna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["faggildingarsamvinna", "faggildingarsamvinnu", "faggildingarsamvinnu", "faggildingarsamvinnu"],
+		"mg": ["faggildingarsamvinnan", "faggildingarsamvinnuna", "faggildingarsamvinnunni", "faggildingarsamvinnunnar"]
+	},
+	"kennistrengur": "no-faggildingarsamvinna-kvk",
+	"hash": "5685024cdee908c2f92a31a76f2819b39db7ff6543fcdb563ad0923cddc8878e"
+}

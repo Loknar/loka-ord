@@ -1,0 +1,30 @@
+{
+	"orð": "tölvupóstssending",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tölvu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tölva-kvk"
+		},
+		{
+			"mynd": "pósts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-póstur-kk"
+		},
+		{
+			"kennistrengur": "no-sending-kvk"
+		}
+	],
+	"et": {
+		"ág": ["tölvupóstssending", "tölvupóstssendingu", "tölvupóstssendingu", "tölvupóstssendingar"],
+		"mg": ["tölvupóstssendingin", "tölvupóstssendinguna", "tölvupóstssendingunni", "tölvupóstssendingarinnar"]
+	},
+	"ft": {
+		"ág": ["tölvupóstssendingar", "tölvupóstssendingar", "tölvupóstssendingum", "tölvupóstssendinga"],
+		"mg": ["tölvupóstssendingarnar", "tölvupóstssendingarnar", "tölvupóstssendingunum", "tölvupóstssendinganna"]
+	},
+	"kennistrengur": "no-tölvupóstssending-kvk",
+	"hash": "df1641ddce7eb58de5a940a413e2c8c571a2f5328597f88569358ebf048ce4fe"
+}
