@@ -1,0 +1,135 @@
+{
+	"orð": "vensla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vensl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vensl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vensla",
+		"sagnbót": "venslað",
+		"boðháttur": {
+			"stýfður": "vensla",
+			"et": "venslaðu",
+			"ft": "venslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vensla", "venslar", "venslar"],
+					"ft": ["venslum", "venslið", "vensla"]
+				},
+				"þátíð": {
+					"et": ["venslaði", "venslaðir", "venslaði"],
+					"ft": ["vensluðum", "vensluðuð", "vensluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vensli", "venslir", "vensli"],
+					"ft": ["venslum", "venslið", "vensli"]
+				},
+				"þátíð": {
+					"et": ["venslaði", "venslaðir", "venslaði"],
+					"ft": ["vensluðum", "vensluðuð", "vensluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "venslarðu",
+					"ft": "vensliði"
+				},
+				"þátíð": {
+					"et": "venslaðirðu",
+					"ft": "vensluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "venslirðu",
+					"ft": "vensliði"
+				},
+				"þátíð": {
+					"et": "venslaðirðu",
+					"ft": "vensluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "venslast",
+		"sagnbót": "venslast",
+		"boðháttur": {
+			"et": "venslastu",
+			"ft": "venslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["venslast", "venslast", "venslast"],
+					"ft": ["venslumst", "venslist", "venslast"]
+				},
+				"þátíð": {
+					"et": ["venslaðist", "venslaðist", "venslaðist"],
+					"ft": ["vensluðumst", "vensluðust", "vensluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["venslist", "venslist", "venslist"],
+					"ft": ["venslumst", "venslist", "venslist"]
+				},
+				"þátíð": {
+					"et": ["venslaðist", "venslaðist", "venslaðist"],
+					"ft": ["vensluðumst", "vensluðust", "vensluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "venslastu"
+				},
+				"þátíð": {
+					"et": "venslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "venslistu"
+				},
+				"þátíð": {
+					"et": "venslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "venslandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["venslaður", "venslaðan", "vensluðum", "venslaðs"],
+					"kvk": ["vensluð", "venslaða", "venslaðri", "venslaðrar"],
+					"hk": ["venslað", "venslað", "vensluðu", "venslaðs"]
+				},
+				"ft": {
+					"kk": ["venslaðir", "venslaða", "vensluðum", "venslaðra"],
+					"kvk": ["venslaðar", "venslaðar", "vensluðum", "venslaðra"],
+					"hk": ["vensluð", "vensluð", "vensluðum", "venslaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vensla",
+	"hash": "31d115b3e5135dec265a8dcfd40c5ca6875d38dfad7419b0f757bd443c493902"
+}

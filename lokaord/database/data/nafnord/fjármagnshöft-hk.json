@@ -1,0 +1,27 @@
+{
+	"orð": "fjármagnshöft",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "magns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-haft-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fjármagnshöft", "fjármagnshöft", "fjármagnshöftum", "fjármagnshafta"],
+		"mg": ["fjármagnshöftin", "fjármagnshöftin", "fjármagnshöftunum", "fjármagnshaftanna"]
+	},
+	"kennistrengur": "no-fjármagnshöft-hk",
+	"hash": "d5bb27a5760bcb7298bc9f4f2fdea9310542e44b5c2b2335563643bf3317038c"
+}

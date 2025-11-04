@@ -1,6 +1,17 @@
 {
 	"orð": "þykktur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "þykk",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þykkja"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -29,5 +40,5 @@
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "lo-þykktur-ó",
-	"hash": "d277ad8b700852355e0497b4ea6d435b28279311ad3f0f47f7588ee17c2efb6a"
+	"hash": "5cb848981270f2ccff94987e8d40204449af54d48ed19d6dd22a5c8ec9fb26fa"
 }

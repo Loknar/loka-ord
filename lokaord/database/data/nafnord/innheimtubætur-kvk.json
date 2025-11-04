@@ -1,0 +1,27 @@
+{
+	"orð": "innheimtubætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "heimtu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heimta-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["innheimtubætur", "innheimtubætur", "innheimtubótum", "innheimtubóta"],
+		"mg": ["innheimtubæturnar", "innheimtubæturnar", "innheimtubótunum", "innheimtubótanna"]
+	},
+	"kennistrengur": "no-innheimtubætur-kvk",
+	"hash": "a4d571416c974573a069741476f9eeeb0d56e6a309c0343a4a050ecc31888df5"
+}

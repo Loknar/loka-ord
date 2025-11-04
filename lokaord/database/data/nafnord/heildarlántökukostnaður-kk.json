@@ -1,0 +1,31 @@
+{
+	"orð": "heildarlántökukostnaður",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "lán",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "töku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-taka-kvk"
+		},
+		{
+			"kennistrengur": "no-kostnaður-kk"
+		}
+	],
+	"et": {
+		"ág": ["heildarlántökukostnaður", "heildarlántökukostnað", "heildarlántökukostnaði", "heildarlántökukostnaðar"],
+		"mg": ["heildarlántökukostnaðurinn", "heildarlántökukostnaðinn", "heildarlántökukostnaðinum", "heildarlántökukostnaðarins"]
+	},
+	"kennistrengur": "no-heildarlántökukostnaður-kk",
+	"hash": "77dd14878b8681510ad451c2ead8976f83e5aa5c7ef2680dc62ed1bcd7f436cf"
+}

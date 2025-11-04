@@ -1,0 +1,32 @@
+{
+	"orð": "faggildingarsamtök",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fag-hk"
+		},
+		{
+			"mynd": "gildingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gilding-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tak-hk"
+		}
+	],
+	"ft": {
+		"ág": ["faggildingarsamtök", "faggildingarsamtök", "faggildingarsamtökum", "faggildingarsamtaka"],
+		"mg": ["faggildingarsamtökin", "faggildingarsamtökin", "faggildingarsamtökunum", "faggildingarsamtakanna"]
+	},
+	"kennistrengur": "no-faggildingarsamtök-hk",
+	"hash": "609c9af16d5599f88f82921954fbc34d0f8632d4669b81a7812761e828e4fd3d"
+}

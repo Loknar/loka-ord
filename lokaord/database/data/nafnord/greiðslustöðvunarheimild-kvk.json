@@ -1,0 +1,30 @@
+{
+	"orð": "greiðslustöðvunarheimild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "stöðvunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stöðvun-kvk"
+		},
+		{
+			"kennistrengur": "no-heimild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslustöðvunarheimild", "greiðslustöðvunarheimild", "greiðslustöðvunarheimild", "greiðslustöðvunarheimildar"],
+		"mg": ["greiðslustöðvunarheimildin", "greiðslustöðvunarheimildina", "greiðslustöðvunarheimildinni", "greiðslustöðvunarheimildarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðslustöðvunarheimildir", "greiðslustöðvunarheimildir", "greiðslustöðvunarheimildum", "greiðslustöðvunarheimilda"],
+		"mg": ["greiðslustöðvunarheimildirnar", "greiðslustöðvunarheimildirnar", "greiðslustöðvunarheimildunum", "greiðslustöðvunarheimildanna"]
+	},
+	"kennistrengur": "no-greiðslustöðvunarheimild-kvk",
+	"hash": "d76a4809949661a5eb387cf426ce44dd8fbe32986f3956a562c847ad4ffea7ec"
+}

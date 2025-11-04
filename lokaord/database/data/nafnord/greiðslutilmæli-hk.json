@@ -1,0 +1,27 @@
+{
+	"orð": "greiðslutilmæli",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-mæli-hk"
+		}
+	],
+	"ft": {
+		"ág": ["greiðslutilmæli", "greiðslutilmæli", "greiðslutilmælum", "greiðslutilmæla"],
+		"mg": ["greiðslutilmælin", "greiðslutilmælin", "greiðslutilmælunum", "greiðslutilmælanna"]
+	},
+	"kennistrengur": "no-greiðslutilmæli-hk",
+	"hash": "2f961bfc670264480fc7561dd42840e9017e2f234564d766b0950be837b76919"
+}

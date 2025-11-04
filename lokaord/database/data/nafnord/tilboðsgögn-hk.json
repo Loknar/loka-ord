@@ -1,0 +1,27 @@
+{
+	"orð": "tilboðsgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["tilboðsgögn", "tilboðsgögn", "tilboðsgögnum", "tilboðsgagna"],
+		"mg": ["tilboðsgögnin", "tilboðsgögnin", "tilboðsgögnunum", "tilboðsgagnanna"]
+	},
+	"kennistrengur": "no-tilboðsgögn-hk",
+	"hash": "78fcad19b22aaeedb28e5780faa1c39ddf0be1141f0e5a024e47ef3b024f7862"
+}

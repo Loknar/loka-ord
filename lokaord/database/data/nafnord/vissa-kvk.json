@@ -2,10 +2,21 @@
 	"orð": "vissa",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viss",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-viss"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["vissa", "vissu", "vissu", "vissu"],
 		"mg": ["vissan", "vissuna", "vissunni", "vissunnar"]
 	},
 	"kennistrengur": "no-vissa-kvk",
-	"hash": "57d7f15f6c75eae4f95199b5ca98679e70051289cfc3b46b42615458ce6996be"
+	"hash": "f1db5f053a54b4ad00d3195f110d72457e3bc4d2511b106d09794b61f5bee2e3"
 }
