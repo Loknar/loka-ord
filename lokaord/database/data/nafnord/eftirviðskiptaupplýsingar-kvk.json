@@ -1,0 +1,27 @@
+{
+	"orð": "eftirviðskiptaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eftir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-eftir"
+		},
+		{
+			"mynd": "viðskipta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðskipti-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["eftirviðskiptaupplýsingar", "eftirviðskiptaupplýsingar", "eftirviðskiptaupplýsingum", "eftirviðskiptaupplýsinga"],
+		"mg": ["eftirviðskiptaupplýsingarnar", "eftirviðskiptaupplýsingarnar", "eftirviðskiptaupplýsingunum", "eftirviðskiptaupplýsinganna"]
+	},
+	"kennistrengur": "no-eftirviðskiptaupplýsingar-kvk",
+	"hash": "f94442d2fd31aa61048735f4eb967062aef1e3880883fe2a4c7c2f317a8ebc1b"
+}

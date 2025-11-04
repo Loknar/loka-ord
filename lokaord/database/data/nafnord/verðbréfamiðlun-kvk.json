@@ -1,0 +1,27 @@
+{
+	"orð": "verðbréfamiðlun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-miðlun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verðbréfamiðlun", "verðbréfamiðlun", "verðbréfamiðlun", "verðbréfamiðlunar"],
+		"mg": ["verðbréfamiðlunin", "verðbréfamiðlunina", "verðbréfamiðluninni", "verðbréfamiðlunarinnar"]
+	},
+	"kennistrengur": "no-verðbréfamiðlun-kvk",
+	"hash": "32035a43c03ef3b86efba1af2b6d855b268a760b9f7b2566de5671c2ff0f16d7"
+}

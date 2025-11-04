@@ -1,0 +1,37 @@
+{
+	"orð": "stöðustofnunarfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stöðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-staða-kvk"
+		},
+		{
+			"mynd": "stofnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stofnun-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["stöðustofnunarfyrirkomulag", "stöðustofnunarfyrirkomulag", "stöðustofnunarfyrirkomulagi", "stöðustofnunarfyrirkomulags"],
+		"mg": ["stöðustofnunarfyrirkomulagið", "stöðustofnunarfyrirkomulagið", "stöðustofnunarfyrirkomulaginu", "stöðustofnunarfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-stöðustofnunarfyrirkomulag-hk",
+	"hash": "adf09767aef4298bc7e7da1365aa0608195348cfde32b3170b849d6439421ad2"
+}

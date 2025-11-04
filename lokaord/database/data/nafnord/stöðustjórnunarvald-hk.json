@@ -1,0 +1,27 @@
+{
+	"orð": "stöðustjórnunarvald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stöðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-staða-kvk"
+		},
+		{
+			"mynd": "stjórnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stjórnun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vald-hk"
+		}
+	],
+	"et": {
+		"ág": ["stöðustjórnunarvald", "stöðustjórnunarvald", "stöðustjórnunarvaldi", "stöðustjórnunarvalds"],
+		"mg": ["stöðustjórnunarvaldið", "stöðustjórnunarvaldið", "stöðustjórnunarvaldinu", "stöðustjórnunarvaldsins"]
+	},
+	"kennistrengur": "no-stöðustjórnunarvald-hk",
+	"hash": "07588e8b44a998d551a503cb0c5574127352c7ba4d62fe443ea374c76df5ad93"
+}
