@@ -1,0 +1,37 @@
+{
+	"orð": "uppgjörsfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "gjörs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["uppgjörsfyrirkomulag", "uppgjörsfyrirkomulag", "uppgjörsfyrirkomulagi", "uppgjörsfyrirkomulags"],
+		"mg": ["uppgjörsfyrirkomulagið", "uppgjörsfyrirkomulagið", "uppgjörsfyrirkomulaginu", "uppgjörsfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-uppgjörsfyrirkomulag-hk",
+	"hash": "48ef75bc9fc69f5f453bc5bb0c268c72f7ced8f0edd213c611610d1b5a9489dc"
+}

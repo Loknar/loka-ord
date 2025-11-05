@@ -1,0 +1,45 @@
+{
+	"orð": "landbúnaðarhrávöruafleiða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "land",
+			"samsetning": "stofn",
+			"kennistrengur": "no-land-hk"
+		},
+		{
+			"mynd": "búnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-búnaður-kk"
+		},
+		{
+			"mynd": "hrá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hrár"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"kennistrengur": "no-leiða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["landbúnaðarhrávöruafleiða", "landbúnaðarhrávöruafleiðu", "landbúnaðarhrávöruafleiðu", "landbúnaðarhrávöruafleiðu"],
+		"mg": ["landbúnaðarhrávöruafleiðan", "landbúnaðarhrávöruafleiðuna", "landbúnaðarhrávöruafleiðunni", "landbúnaðarhrávöruafleiðunnar"]
+	},
+	"ft": {
+		"ág": ["landbúnaðarhrávöruafleiður", "landbúnaðarhrávöruafleiður", "landbúnaðarhrávöruafleiðum", "landbúnaðarhrávöruafleiðna"],
+		"mg": ["landbúnaðarhrávöruafleiðurnar", "landbúnaðarhrávöruafleiðurnar", "landbúnaðarhrávöruafleiðunum", "landbúnaðarhrávöruafleiðnanna"]
+	},
+	"kennistrengur": "no-landbúnaðarhrávöruafleiða-kvk",
+	"hash": "cc83296188dffa4b6b83218021f297b9b11ec3771d92664ae8a457065e3d5aa3"
+}

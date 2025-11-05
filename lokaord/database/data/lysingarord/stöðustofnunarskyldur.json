@@ -1,0 +1,48 @@
+{
+	"orð": "stöðustofnunarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stöðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-staða-kvk"
+		},
+		{
+			"mynd": "stofnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stofnun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["stöðustofnunarskyldur", "stöðustofnunarskyldan", "stöðustofnunarskyldum", "stöðustofnunarskylds"],
+				"kvk": ["stöðustofnunarskyld", "stöðustofnunarskylda", "stöðustofnunarskyldri", "stöðustofnunarskyldrar"],
+				"hk": ["stöðustofnunarskylt", "stöðustofnunarskylt", "stöðustofnunarskyldu", "stöðustofnunarskylds"]
+			},
+			"ft": {
+				"kk": ["stöðustofnunarskyldir", "stöðustofnunarskylda", "stöðustofnunarskyldum", "stöðustofnunarskyldra"],
+				"kvk": ["stöðustofnunarskyldar", "stöðustofnunarskyldar", "stöðustofnunarskyldum", "stöðustofnunarskyldra"],
+				"hk": ["stöðustofnunarskyld", "stöðustofnunarskyld", "stöðustofnunarskyldum", "stöðustofnunarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["stöðustofnunarskyldi", "stöðustofnunarskylda", "stöðustofnunarskylda", "stöðustofnunarskylda"],
+				"kvk": ["stöðustofnunarskylda", "stöðustofnunarskyldu", "stöðustofnunarskyldu", "stöðustofnunarskyldu"],
+				"hk": ["stöðustofnunarskylda", "stöðustofnunarskylda", "stöðustofnunarskylda", "stöðustofnunarskylda"]
+			},
+			"ft": {
+				"kk": ["stöðustofnunarskyldu", "stöðustofnunarskyldu", "stöðustofnunarskyldu", "stöðustofnunarskyldu"],
+				"kvk": ["stöðustofnunarskyldu", "stöðustofnunarskyldu", "stöðustofnunarskyldu", "stöðustofnunarskyldu"],
+				"hk": ["stöðustofnunarskyldu", "stöðustofnunarskyldu", "stöðustofnunarskyldu", "stöðustofnunarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-stöðustofnunarskyldur",
+	"hash": "0221263a0f47e42001a5ecbf3a7060f8290a1db48e3b5b78c423c33201732450"
+}

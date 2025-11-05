@@ -1,0 +1,135 @@
+{
+	"orð": "káma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kám",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kám-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "káma",
+		"sagnbót": "kámað",
+		"boðháttur": {
+			"stýfður": "káma",
+			"et": "kámaðu",
+			"ft": "kámið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["káma", "kámar", "kámar"],
+					"ft": ["kámum", "kámið", "káma"]
+				},
+				"þátíð": {
+					"et": ["kámaði", "kámaðir", "kámaði"],
+					"ft": ["kámuðum", "kámuðuð", "kámuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kámi", "kámir", "kámi"],
+					"ft": ["kámum", "kámið", "kámi"]
+				},
+				"þátíð": {
+					"et": ["kámaði", "kámaðir", "kámaði"],
+					"ft": ["kámuðum", "kámuðuð", "kámuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kámarðu",
+					"ft": "kámiði"
+				},
+				"þátíð": {
+					"et": "kámaðirðu",
+					"ft": "kámuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kámirðu",
+					"ft": "kámiði"
+				},
+				"þátíð": {
+					"et": "kámaðirðu",
+					"ft": "kámuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kámast",
+		"sagnbót": "kámast",
+		"boðháttur": {
+			"et": "kámastu",
+			"ft": "kámist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kámast", "kámast", "kámast"],
+					"ft": ["kámumst", "kámist", "kámast"]
+				},
+				"þátíð": {
+					"et": ["kámaðist", "kámaðist", "kámaðist"],
+					"ft": ["kámuðumst", "kámuðust", "kámuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kámist", "kámist", "kámist"],
+					"ft": ["kámumst", "kámist", "kámist"]
+				},
+				"þátíð": {
+					"et": ["kámaðist", "kámaðist", "kámaðist"],
+					"ft": ["kámuðumst", "kámuðust", "kámuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kámastu"
+				},
+				"þátíð": {
+					"et": "kámaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kámistu"
+				},
+				"þátíð": {
+					"et": "kámaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kámandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kámaður", "kámaðan", "kámuðum", "kámaðs"],
+					"kvk": ["kámuð", "kámaða", "kámaðri", "kámaðrar"],
+					"hk": ["kámað", "kámað", "kámuðu", "kámaðs"]
+				},
+				"ft": {
+					"kk": ["kámaðir", "kámaða", "kámuðum", "kámaðra"],
+					"kvk": ["kámaðar", "kámaðar", "kámuðum", "kámaðra"],
+					"hk": ["kámuð", "kámuð", "kámuðum", "kámaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-káma",
+	"hash": "f6482e5bf22663554aff577a094d5d46db2d7b4a5c432e9fbfcb75208072ee47"
+}

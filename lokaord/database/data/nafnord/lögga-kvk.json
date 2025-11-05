@@ -2,6 +2,16 @@
 	"orð": "lögga",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lögg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lögregla-kvk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["lögga", "löggu", "löggu", "löggu"],
 		"mg": ["löggan", "lögguna", "löggunni", "löggunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["löggurnar", "löggurnar", "löggunum", "lögganna"]
 	},
 	"kennistrengur": "no-lögga-kvk",
-	"hash": "d337da887ee300a59edf4fd30116b8b487414fd78dd4e491050e4ca36a2358e2"
+	"hash": "74a40fe9305521df45de3bd24c7649c7bda04fd6201a69af418f02a8e74abb18"
 }
