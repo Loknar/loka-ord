@@ -1,0 +1,32 @@
+{
+	"orð": "skammtímamismunur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skamm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-skammur"
+		},
+		{
+			"mynd": "tíma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tími-kk"
+		},
+		{
+			"mynd": "mis",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-mis"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"et": {
+		"ág": ["skammtímamismunur", "skammtímamismun", "skammtímamismun", "skammtímamismunar"],
+		"mg": ["skammtímamismunurinn", "skammtímamismuninn", "skammtímamismuninum", "skammtímamismunarins"]
+	},
+	"kennistrengur": "no-skammtímamismunur-kk",
+	"hash": "bdec96824baffd85e4e29d058be738942bc3d4d7aa9a6f4300793e2e5dac4984"
+}

@@ -1,0 +1,147 @@
+{
+	"orð": "hlutabréfatengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hluta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "so-tengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hlutabréfatengja",
+		"sagnbót": "hlutabréfatengt",
+		"boðháttur": {
+			"stýfður": "hlutabréfateng",
+			"et": "hlutabréfatengdu",
+			"ft": "hlutabréfatengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlutabréfatengi", "hlutabréfatengir", "hlutabréfatengir"],
+					"ft": ["hlutabréfatengjum", "hlutabréfatengið", "hlutabréfatengja"]
+				},
+				"þátíð": {
+					"et": ["hlutabréfatengdi", "hlutabréfatengdir", "hlutabréfatengdi"],
+					"ft": ["hlutabréfatengdum", "hlutabréfatengduð", "hlutabréfatengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlutabréfatengi", "hlutabréfatengir", "hlutabréfatengi"],
+					"ft": ["hlutabréfatengjum", "hlutabréfatengið", "hlutabréfatengi"]
+				},
+				"þátíð": {
+					"et": ["hlutabréfatengdi", "hlutabréfatengdir", "hlutabréfatengdi"],
+					"ft": ["hlutabréfatengdum", "hlutabréfatengduð", "hlutabréfatengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlutabréfatengirðu",
+					"ft": "hlutabréfatengiði"
+				},
+				"þátíð": {
+					"et": "hlutabréfatengdirðu",
+					"ft": "hlutabréfatengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlutabréfatengirðu",
+					"ft": "hlutabréfatengiði"
+				},
+				"þátíð": {
+					"et": "hlutabréfatengdirðu",
+					"ft": "hlutabréfatengduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hlutabréfatengjast",
+		"sagnbót": "hlutabréfatengst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlutabréfatengist", "hlutabréfatengist", "hlutabréfatengist"],
+					"ft": ["hlutabréfatengjumst", "hlutabréfatengist", "hlutabréfatengjast"]
+				},
+				"þátíð": {
+					"et": ["hlutabréfatengdist", "hlutabréfatengdist", "hlutabréfatengdist"],
+					"ft": ["hlutabréfatengdumst", "hlutabréfatengdust", "hlutabréfatengdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlutabréfatengist", "hlutabréfatengist", "hlutabréfatengist"],
+					"ft": ["hlutabréfatengjumst", "hlutabréfatengist", "hlutabréfatengist"]
+				},
+				"þátíð": {
+					"et": ["hlutabréfatengdist", "hlutabréfatengdist", "hlutabréfatengdist"],
+					"ft": ["hlutabréfatengdumst", "hlutabréfatengdust", "hlutabréfatengdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlutabréfatengistu"
+				},
+				"þátíð": {
+					"et": "hlutabréfatengdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlutabréfatengistu"
+				},
+				"þátíð": {
+					"et": "hlutabréfatengdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlutabréfatengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlutabréfatengdur", "hlutabréfatengdan", "hlutabréfatengdum", "hlutabréfatengds"],
+					"kvk": ["hlutabréfatengd", "hlutabréfatengda", "hlutabréfatengdri", "hlutabréfatengdrar"],
+					"hk": ["hlutabréfatengt", "hlutabréfatengt", "hlutabréfatengdu", "hlutabréfatengds"]
+				},
+				"ft": {
+					"kk": ["hlutabréfatengdir", "hlutabréfatengda", "hlutabréfatengdum", "hlutabréfatengdra"],
+					"kvk": ["hlutabréfatengdar", "hlutabréfatengdar", "hlutabréfatengdum", "hlutabréfatengdra"],
+					"hk": ["hlutabréfatengd", "hlutabréfatengd", "hlutabréfatengdum", "hlutabréfatengdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hlutabréfatengdi", "hlutabréfatengda", "hlutabréfatengda", "hlutabréfatengda"],
+					"kvk": ["hlutabréfatengda", "hlutabréfatengdu", "hlutabréfatengdu", "hlutabréfatengdu"],
+					"hk": ["hlutabréfatengda", "hlutabréfatengda", "hlutabréfatengda", "hlutabréfatengda"]
+				},
+				"ft": {
+					"kk": ["hlutabréfatengdu", "hlutabréfatengdu", "hlutabréfatengdu", "hlutabréfatengdu"],
+					"kvk": ["hlutabréfatengdu", "hlutabréfatengdu", "hlutabréfatengdu", "hlutabréfatengdu"],
+					"hk": ["hlutabréfatengdu", "hlutabréfatengdu", "hlutabréfatengdu", "hlutabréfatengdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlutabréfatengja",
+	"hash": "5329d636ed103f6256250deb8b8bd2803f9a8b4b031195de4f5a268ed82900fc"
+}

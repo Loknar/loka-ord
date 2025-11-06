@@ -1,0 +1,142 @@
+{
+	"orð": "eignatryggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"kennistrengur": "so-tryggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "eignatryggja",
+		"sagnbót": "eignatryggt",
+		"boðháttur": {
+			"stýfður": "eignatrygg",
+			"et": "eignatryggðu",
+			"ft": "eignatryggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eignatryggi", "eignatryggir", "eignatryggir"],
+					"ft": ["eignatryggjum", "eignatryggið", "eignatryggja"]
+				},
+				"þátíð": {
+					"et": ["eignatryggði", "eignatryggðir", "eignatryggði"],
+					"ft": ["eignatryggðum", "eignatryggðuð", "eignatryggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eignatryggi", "eignatryggir", "eignatryggi"],
+					"ft": ["eignatryggjum", "eignatryggið", "eignatryggi"]
+				},
+				"þátíð": {
+					"et": ["eignatryggði", "eignatryggðir", "eignatryggði"],
+					"ft": ["eignatryggðum", "eignatryggðuð", "eignatryggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eignatryggirðu",
+					"ft": "eignatryggiði"
+				},
+				"þátíð": {
+					"et": "eignatryggðirðu",
+					"ft": "eignatryggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eignatryggirðu",
+					"ft": "eignatryggiði"
+				},
+				"þátíð": {
+					"et": "eignatryggðirðu",
+					"ft": "eignatryggðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "eignatryggjast",
+		"sagnbót": "eignatryggst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["eignatryggist", "eignatryggist", "eignatryggist"],
+					"ft": ["eignatryggjumst", "eignatryggist", "eignatryggjast"]
+				},
+				"þátíð": {
+					"et": ["eignatryggðist", "eignatryggðist", "eignatryggðist"],
+					"ft": ["eignatryggðumst", "eignatryggðust", "eignatryggðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eignatryggist", "eignatryggist", "eignatryggist"],
+					"ft": ["eignatryggjumst", "eignatryggist", "eignatryggist"]
+				},
+				"þátíð": {
+					"et": ["eignatryggðist", "eignatryggðist", "eignatryggðist"],
+					"ft": ["eignatryggðumst", "eignatryggðust", "eignatryggðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eignatryggistu"
+				},
+				"þátíð": {
+					"et": "eignatryggðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "eignatryggistu"
+				},
+				"þátíð": {
+					"et": "eignatryggðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "eignatryggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["eignatryggður", "eignatryggðan", "eignatryggðum", "eignatryggðs"],
+					"kvk": ["eignatryggð", "eignatryggða", "eignatryggðri", "eignatryggðrar"],
+					"hk": ["eignatryggt", "eignatryggt", "eignatryggðu", "eignatryggðs"]
+				},
+				"ft": {
+					"kk": ["eignatryggðir", "eignatryggða", "eignatryggðum", "eignatryggðra"],
+					"kvk": ["eignatryggðar", "eignatryggðar", "eignatryggðum", "eignatryggðra"],
+					"hk": ["eignatryggð", "eignatryggð", "eignatryggðum", "eignatryggðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["eignatryggði", "eignatryggða", "eignatryggða", "eignatryggða"],
+					"kvk": ["eignatryggða", "eignatryggðu", "eignatryggðu", "eignatryggðu"],
+					"hk": ["eignatryggða", "eignatryggða", "eignatryggða", "eignatryggða"]
+				},
+				"ft": {
+					"kk": ["eignatryggðu", "eignatryggðu", "eignatryggðu", "eignatryggðu"],
+					"kvk": ["eignatryggðu", "eignatryggðu", "eignatryggðu", "eignatryggðu"],
+					"hk": ["eignatryggðu", "eignatryggðu", "eignatryggðu", "eignatryggðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eignatryggja",
+	"hash": "2d1bd5488ddf5bd606aceab2fe6bffbef5a25e3ea29b73f42ddd444ac2c71b50"
+}

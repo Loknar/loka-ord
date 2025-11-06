@@ -1,0 +1,99 @@
+{
+	"orð": "árangurstengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "árangurs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-árangur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-tengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "árangurstengja",
+		"sagnbót": "árangurstengt",
+		"boðháttur": {
+			"stýfður": "árangursteng",
+			"et": "árangurstengdu",
+			"ft": "árangurstengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["árangurstengi", "árangurstengir", "árangurstengir"],
+					"ft": ["árangurstengjum", "árangurstengið", "árangurstengja"]
+				},
+				"þátíð": {
+					"et": ["árangurstengdi", "árangurstengdir", "árangurstengdi"],
+					"ft": ["árangurstengdum", "árangurstengduð", "árangurstengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["árangurstengi", "árangurstengir", "árangurstengi"],
+					"ft": ["árangurstengjum", "árangurstengið", "árangurstengi"]
+				},
+				"þátíð": {
+					"et": ["árangurstengdi", "árangurstengdir", "árangurstengdi"],
+					"ft": ["árangurstengdum", "árangurstengduð", "árangurstengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "árangurstengirðu",
+					"ft": "árangurstengiði"
+				},
+				"þátíð": {
+					"et": "árangurstengdirðu",
+					"ft": "árangurstengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "árangurstengirðu",
+					"ft": "árangurstengiði"
+				},
+				"þátíð": {
+					"et": "árangurstengdirðu",
+					"ft": "árangurstengduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "árangurstengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["árangurstengdur", "árangurstengdan", "árangurstengdum", "árangurstengds"],
+					"kvk": ["árangurstengd", "árangurstengda", "árangurstengdri", "árangurstengdrar"],
+					"hk": ["árangurstengt", "árangurstengt", "árangurstengdu", "árangurstengds"]
+				},
+				"ft": {
+					"kk": ["árangurstengdir", "árangurstengda", "árangurstengdum", "árangurstengdra"],
+					"kvk": ["árangurstengdar", "árangurstengdar", "árangurstengdum", "árangurstengdra"],
+					"hk": ["árangurstengd", "árangurstengd", "árangurstengdum", "árangurstengdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["árangurstengdi", "árangurstengda", "árangurstengda", "árangurstengda"],
+					"kvk": ["árangurstengda", "árangurstengdu", "árangurstengdu", "árangurstengdu"],
+					"hk": ["árangurstengda", "árangurstengda", "árangurstengda", "árangurstengda"]
+				},
+				"ft": {
+					"kk": ["árangurstengdu", "árangurstengdu", "árangurstengdu", "árangurstengdu"],
+					"kvk": ["árangurstengdu", "árangurstengdu", "árangurstengdu", "árangurstengdu"],
+					"hk": ["árangurstengdu", "árangurstengdu", "árangurstengdu", "árangurstengdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-árangurstengja",
+	"hash": "582952af3e3131e04d73bbc79c82980041e2f89f84fd0fdd588698d369078348"
+}

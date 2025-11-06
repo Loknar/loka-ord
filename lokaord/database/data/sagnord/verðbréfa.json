@@ -1,0 +1,104 @@
+{
+	"orð": "verðbréfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verðbréfa",
+		"sagnbót": "verðbréfað",
+		"boðháttur": {
+			"stýfður": "verðbréfa",
+			"et": "verðbréfaðu",
+			"ft": "verðbréfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðbréfa", "verðbréfar", "verðbréfar"],
+					"ft": ["verðbréfum", "verðbréfið", "verðbréfa"]
+				},
+				"þátíð": {
+					"et": ["verðbréfaði", "verðbréfaðir", "verðbréfaði"],
+					"ft": ["verðbréfuðum", "verðbréfuðuð", "verðbréfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðbréfi", "verðbréfir", "verðbréfi"],
+					"ft": ["verðbréfum", "verðbréfið", "verðbréfi"]
+				},
+				"þátíð": {
+					"et": ["verðbréfaði", "verðbréfaðir", "verðbréfaði"],
+					"ft": ["verðbréfuðum", "verðbréfuðuð", "verðbréfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðbréfarðu",
+					"ft": "verðbréfiði"
+				},
+				"þátíð": {
+					"et": "verðbréfaðirðu",
+					"ft": "verðbréfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðbréfirðu",
+					"ft": "verðbréfiði"
+				},
+				"þátíð": {
+					"et": "verðbréfaðirðu",
+					"ft": "verðbréfuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðbréfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verðbréfaður", "verðbréfaðan", "verðbréfuðum", "verðbréfaðs"],
+					"kvk": ["verðbréfuð", "verðbréfaða", "verðbréfaðri", "verðbréfaðrar"],
+					"hk": ["verðbréfað", "verðbréfað", "verðbréfuðu", "verðbréfaðs"]
+				},
+				"ft": {
+					"kk": ["verðbréfaðir", "verðbréfaða", "verðbréfuðum", "verðbréfaðra"],
+					"kvk": ["verðbréfaðar", "verðbréfaðar", "verðbréfuðum", "verðbréfaðra"],
+					"hk": ["verðbréfuð", "verðbréfuð", "verðbréfuðum", "verðbréfaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["verðbréfaði", "verðbréfaða", "verðbréfaða", "verðbréfaða"],
+					"kvk": ["verðbréfaða", "verðbréfuðu", "verðbréfuðu", "verðbréfuðu"],
+					"hk": ["verðbréfaða", "verðbréfaða", "verðbréfaða", "verðbréfaða"]
+				},
+				"ft": {
+					"kk": ["verðbréfuðu", "verðbréfuðu", "verðbréfuðu", "verðbréfuðu"],
+					"kvk": ["verðbréfuðu", "verðbréfuðu", "verðbréfuðu", "verðbréfuðu"],
+					"hk": ["verðbréfuðu", "verðbréfuðu", "verðbréfuðu", "verðbréfuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verðbréfa",
+	"hash": "065c0a61527d4e563bc20b45c1796add0eff2188e28a1c99d2c023c9521387a5"
+}

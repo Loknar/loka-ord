@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluvátrygging",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"kennistrengur": "no-trygging-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluvátrygging", "greiðsluvátryggingu", "greiðsluvátryggingu", "greiðsluvátryggingar"],
+		"mg": ["greiðsluvátryggingin", "greiðsluvátrygginguna", "greiðsluvátryggingunni", "greiðsluvátryggingarinnar"]
+	},
+	"ft": {
+		"ág": ["greiðsluvátryggingar", "greiðsluvátryggingar", "greiðsluvátryggingum", "greiðsluvátrygginga"],
+		"mg": ["greiðsluvátryggingarnar", "greiðsluvátryggingarnar", "greiðsluvátryggingunum", "greiðsluvátrygginganna"]
+	},
+	"kennistrengur": "no-greiðsluvátrygging-kvk",
+	"hash": "6109198bc85a5197b123f32c2d3ff060fb3e949233814bbb3f01a3759af55939"
+}

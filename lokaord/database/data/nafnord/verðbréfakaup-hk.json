@@ -1,0 +1,27 @@
+{
+	"orð": "verðbréfakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["verðbréfakaup", "verðbréfakaup", "verðbréfakaupum", "verðbréfakaupa"],
+		"mg": ["verðbréfakaupin", "verðbréfakaupin", "verðbréfakaupunum", "verðbréfakaupanna"]
+	},
+	"kennistrengur": "no-verðbréfakaup-hk",
+	"hash": "ee9de59b5a352126cbc5ee8f3e818793d90d189259d3c00dd448cfe99b1085ff"
+}

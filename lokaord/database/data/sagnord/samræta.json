@@ -1,0 +1,131 @@
+{
+	"orð": "samræta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ræta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samræta",
+		"sagnbót": "samrætt",
+		"boðháttur": {
+			"stýfður": "samræt",
+			"et": "samrættu",
+			"ft": "samrætið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samræti", "samrætir", "samrætir"],
+					"ft": ["samrætum", "samrætið", "samræta"]
+				},
+				"þátíð": {
+					"et": ["samrætti", "samrættir", "samrætti"],
+					"ft": ["samrættum", "samrættuð", "samrættu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samræti", "samrætir", "samræti"],
+					"ft": ["samrætum", "samrætið", "samræti"]
+				},
+				"þátíð": {
+					"et": ["samrætti", "samrættir", "samrætti"],
+					"ft": ["samrættum", "samrættuð", "samrættu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samrætirðu",
+					"ft": "samrætiði"
+				},
+				"þátíð": {
+					"et": "samrættirðu",
+					"ft": "samrættuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samrætirðu",
+					"ft": "samrætiði"
+				},
+				"þátíð": {
+					"et": "samrættirðu",
+					"ft": "samrættuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "samrætast",
+		"sagnbót": "samþóst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samrætist", "samrætist", "samrætist"],
+					"ft": ["samrætumst", "samrætist", "samrætast"]
+				},
+				"þátíð": {
+					"et": ["samrættist", "samrættist", "samrættist"],
+					"ft": ["samrættumst", "samrættust", "samrættust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samrætist", "samrætist", "samrætist"],
+					"ft": ["samrætumst", "samrætist", "samrætist"]
+				},
+				"þátíð": {
+					"et": ["samrættist", "samrættist", "samrættist"],
+					"ft": ["samrættumst", "samrættust", "samrættust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samrætistu"
+				},
+				"þátíð": {
+					"et": "samrættistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samrætistu"
+				},
+				"þátíð": {
+					"et": "samrættistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samrætandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samrættur", "samrættan", "samrættum", "samrætts"],
+					"kvk": ["samrætt", "samrætta", "samrættri", "samrættrar"],
+					"hk": ["samrætt", "samrætt", "samrættu", "samrætts"]
+				},
+				"ft": {
+					"kk": ["samrættir", "samrætta", "samrættum", "samrættra"],
+					"kvk": ["samrættar", "samrættar", "samrættum", "samrættra"],
+					"hk": ["samrætt", "samrætt", "samrættum", "samrættra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samræta",
+	"hash": "5f546663e0f5e8f374e06e5eefc7f84c92161baf1b16bdb1419e44c26093e65c"
+}

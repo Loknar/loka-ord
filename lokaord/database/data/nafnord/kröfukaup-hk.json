@@ -1,0 +1,22 @@
+{
+	"orð": "kröfukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kröfu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-krafa-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["kröfukaup", "kröfukaup", "kröfukaupum", "kröfukaupa"],
+		"mg": ["kröfukaupin", "kröfukaupin", "kröfukaupunum", "kröfukaupanna"]
+	},
+	"kennistrengur": "no-kröfukaup-hk",
+	"hash": "94b448abdea562243d2e31b0017b8af567dd5024ac7d4f2e3d3ca5f6da18aab0"
+}

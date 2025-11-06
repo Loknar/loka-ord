@@ -1,0 +1,30 @@
+{
+	"orð": "kaupaukagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"mynd": "auka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-auki-kk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kaupaukagreiðsla", "kaupaukagreiðslu", "kaupaukagreiðslu", "kaupaukagreiðslu"],
+		"mg": ["kaupaukagreiðslan", "kaupaukagreiðsluna", "kaupaukagreiðslunni", "kaupaukagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["kaupaukagreiðslur", "kaupaukagreiðslur", "kaupaukagreiðslum", "kaupaukagreiðslna"],
+		"mg": ["kaupaukagreiðslurnar", "kaupaukagreiðslurnar", "kaupaukagreiðslunum", "kaupaukagreiðslnanna"]
+	},
+	"kennistrengur": "no-kaupaukagreiðsla-kvk",
+	"hash": "edb7d2e0eb06cb750de4a9b7b0fccbb955687159a2916bdf631dc951c4877b6b"
+}

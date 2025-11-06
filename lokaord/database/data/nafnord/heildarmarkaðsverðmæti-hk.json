@@ -1,0 +1,35 @@
+{
+	"orð": "heildarmarkaðsverðmæti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "markaðs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-markaður-kk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-mæti-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarmarkaðsverðmæti", "heildarmarkaðsverðmæti", "heildarmarkaðsverðmæti", "heildarmarkaðsverðmætis"],
+		"mg": ["heildarmarkaðsverðmætið", "heildarmarkaðsverðmætið", "heildarmarkaðsverðmætinu", "heildarmarkaðsverðmætisins"]
+	},
+	"ft": {
+		"ág": ["heildarmarkaðsverðmæti", "heildarmarkaðsverðmæti", "heildarmarkaðsverðmætum", "heildarmarkaðsverðmæta"],
+		"mg": ["heildarmarkaðsverðmætin", "heildarmarkaðsverðmætin", "heildarmarkaðsverðmætunum", "heildarmarkaðsverðmætanna"]
+	},
+	"kennistrengur": "no-heildarmarkaðsverðmæti-hk",
+	"hash": "25c385386f3ddd4ac9be802e20e3217475d7fa9a5059c28132cfce7031a6da70"
+}

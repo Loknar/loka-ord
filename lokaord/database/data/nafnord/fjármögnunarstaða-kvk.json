@@ -1,0 +1,30 @@
+{
+	"orð": "fjármögnunarstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mögnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mögnun-kvk"
+		},
+		{
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjármögnunarstaða", "fjármögnunarstöðu", "fjármögnunarstöðu", "fjármögnunarstöðu"],
+		"mg": ["fjármögnunarstaðan", "fjármögnunarstöðuna", "fjármögnunarstöðunni", "fjármögnunarstöðunnar"]
+	},
+	"ft": {
+		"ág": ["fjármögnunarstöður", "fjármögnunarstöður", "fjármögnunarstöðum", "fjármögnunarstaðna"],
+		"mg": ["fjármögnunarstöðurnar", "fjármögnunarstöðurnar", "fjármögnunarstöðunum", "fjármögnunarstaðnanna"]
+	},
+	"kennistrengur": "no-fjármögnunarstaða-kvk",
+	"hash": "ff931d2252f6fdd138226ba179c104356fad22077b370a9b6869c876936ab046"
+}
