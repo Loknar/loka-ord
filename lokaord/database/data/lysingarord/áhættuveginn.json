@@ -1,0 +1,53 @@
+{
+	"orð": "áhættuveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"mynd": "hættu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hætta-kvk"
+		},
+		{
+			"mynd": "veg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-vega"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["áhættuveginn", "áhættuveginn", "áhættuvegnum", "áhættuvegins"],
+				"kvk": ["áhættuvegin", "áhættuvegna", "áhættuveginni", "áhættuveginnar"],
+				"hk": ["áhættuvegið", "áhættuvegið", "áhættuvegnu", "áhættuvegins"]
+			},
+			"ft": {
+				"kk": ["áhættuvegnir", "áhættuvegna", "áhættuvegnum", "áhættuveginna"],
+				"kvk": ["áhættuvegnar", "áhættuvegnar", "áhættuvegnum", "áhættuveginna"],
+				"hk": ["áhættuvegin", "áhættuvegin", "áhættuvegnum", "áhættuveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["áhættuvegni", "áhættuvegna", "áhættuvegna", "áhættuvegna"],
+				"kvk": ["áhættuvegna", "áhættuvegnu", "áhættuvegnu", "áhættuvegnu"],
+				"hk": ["áhættuvegna", "áhættuvegna", "áhættuvegna", "áhættuvegna"]
+			},
+			"ft": {
+				"kk": ["áhættuvegnu", "áhættuvegnu", "áhættuvegnu", "áhættuvegnu"],
+				"kvk": ["áhættuvegnu", "áhættuvegnu", "áhættuvegnu", "áhættuvegnu"],
+				"hk": ["áhættuvegnu", "áhættuvegnu", "áhættuvegnu", "áhættuvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-áhættuveginn",
+	"hash": "37e19391b9bfeea01ac7303edd9ef4051da9f51dee97de2d9a44257da3a1e8ab"
+}

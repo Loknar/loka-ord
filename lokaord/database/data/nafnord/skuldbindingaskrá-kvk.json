@@ -1,0 +1,30 @@
+{
+	"orð": "skuldbindingaskrá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bindinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-binding-kvk"
+		},
+		{
+			"kennistrengur": "no-skrá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldbindingaskrá", "skuldbindingaskrá", "skuldbindingaskrá", "skuldbindingaskrár"],
+		"mg": ["skuldbindingaskráin", "skuldbindingaskrána", "skuldbindingaskránni", "skuldbindingaskrárinnar"]
+	},
+	"ft": {
+		"ág": ["skuldbindingaskrár", "skuldbindingaskrár", "skuldbindingaskrám", "skuldbindingaskráa"],
+		"mg": ["skuldbindingaskrárnar", "skuldbindingaskrárnar", "skuldbindingaskránum", "skuldbindingaskránna"]
+	},
+	"kennistrengur": "no-skuldbindingaskrá-kvk",
+	"hash": "7720b114999bddb58ff08abccfd4f3419998f2b8cb7f1e029873b9e43d85b2d8"
+}

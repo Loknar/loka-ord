@@ -1,0 +1,30 @@
+{
+	"orð": "gjaldeyrisstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldeyrisstaða", "gjaldeyrisstöðu", "gjaldeyrisstöðu", "gjaldeyrisstöðu"],
+		"mg": ["gjaldeyrisstaðan", "gjaldeyrisstöðuna", "gjaldeyrisstöðunni", "gjaldeyrisstöðunnar"]
+	},
+	"ft": {
+		"ág": ["gjaldeyrisstöður", "gjaldeyrisstöður", "gjaldeyrisstöðum", "gjaldeyrisstaðna"],
+		"mg": ["gjaldeyrisstöðurnar", "gjaldeyrisstöðurnar", "gjaldeyrisstöðunum", "gjaldeyrisstaðnanna"]
+	},
+	"kennistrengur": "no-gjaldeyrisstaða-kvk",
+	"hash": "d7493a29d5a3662f53ff98feb824ce1a3933f319f95db4d45d9b84baa0c65ee8"
+}

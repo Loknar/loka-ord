@@ -1,0 +1,87 @@
+{
+	"orð": "tvítaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tví",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-tví-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tvítaka",
+		"sagnbót": "tvítekið",
+		"boðháttur": {
+			"stýfður": "tvítak",
+			"et": "tvítaktu",
+			"ft": "tvítakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tvítek", "tvítekur", "tvítekur"],
+					"ft": ["tvítökum", "tvítakið", "tvítaka"]
+				},
+				"þátíð": {
+					"et": ["tvítók", "tvítókst", "tvítók"],
+					"ft": ["tvítókum", "tvítókuð", "tvítóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tvítaki", "tvítakir", "tvítaki"],
+					"ft": ["tvítökum", "tvítakið", "tvítaki"]
+				},
+				"þátíð": {
+					"et": ["tvítæki", "tvítækir", "tvítæki"],
+					"ft": ["tvítækjum", "tvítækjuð", "tvítækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tvítekurðu",
+					"ft": "tvítakiði"
+				},
+				"þátíð": {
+					"et": "tvítókstu",
+					"ft": "tvítókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tvítakirðu",
+					"ft": "tvítakiði"
+				},
+				"þátíð": {
+					"et": "tvítækirðu",
+					"ft": "tvítækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tvítakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tvítekinn", "tvítekinn", "tvíteknum", "tvítekins"],
+					"kvk": ["tvítekin", "tvítekna", "tvítekinni", "tvítekinnar"],
+					"hk": ["tvítekið", "tvítekið", "tvíteknu", "tvítekins"]
+				},
+				"ft": {
+					"kk": ["tvíteknir", "tvítekna", "tvíteknum", "tvítekinna"],
+					"kvk": ["tvíteknar", "tvíteknar", "tvíteknum", "tvítekinna"],
+					"hk": ["tvítekin", "tvítekin", "tvíteknum", "tvítekinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tvítaka",
+	"hash": "130fb8e250f1bf2b3af34f69bfedc5f8b9da0fbb90a46794f6a243fdb4890109"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "samstæðuskilavald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"mynd": "stæðu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stæða-kvk"
+		},
+		{
+			"mynd": "skila",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skil-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-vald-hk"
+		}
+	],
+	"et": {
+		"ág": ["samstæðuskilavald", "samstæðuskilavald", "samstæðuskilavaldi", "samstæðuskilavalds"],
+		"mg": ["samstæðuskilavaldið", "samstæðuskilavaldið", "samstæðuskilavaldinu", "samstæðuskilavaldsins"]
+	},
+	"kennistrengur": "no-samstæðuskilavald-hk",
+	"hash": "d2452482f3843679b5d8b8471a00f0aefd2103bed66738a61fd5535b3c2ad2e4"
+}

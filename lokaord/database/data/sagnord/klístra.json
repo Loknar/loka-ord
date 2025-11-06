@@ -1,0 +1,99 @@
+{
+	"orð": "klístra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klístr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-klístur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "klístra",
+		"sagnbót": "klístrað",
+		"boðháttur": {
+			"stýfður": "klístra",
+			"et": "klístraðu",
+			"ft": "klístrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klístra", "klístrar", "klístrar"],
+					"ft": ["klístrum", "klístrið", "klístra"]
+				},
+				"þátíð": {
+					"et": ["klístraði", "klístraðir", "klístraði"],
+					"ft": ["klístruðum", "klístruðuð", "klístruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klístri", "klístrir", "klístri"],
+					"ft": ["klístrum", "klístrið", "klístri"]
+				},
+				"þátíð": {
+					"et": ["klístraði", "klístraðir", "klístraði"],
+					"ft": ["klístruðum", "klístruðuð", "klístruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klístrarðu",
+					"ft": "klístriði"
+				},
+				"þátíð": {
+					"et": "klístraðirðu",
+					"ft": "klístruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klístrirðu",
+					"ft": "klístriði"
+				},
+				"þátíð": {
+					"et": "klístraðirðu",
+					"ft": "klístruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klístrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klístraður", "klístraðan", "klístruðum", "klístraðs"],
+					"kvk": ["klístruð", "klístraða", "klístraðri", "klístraðrar"],
+					"hk": ["klístrað", "klístrað", "klístruðu", "klístraðs"]
+				},
+				"ft": {
+					"kk": ["klístraðir", "klístraða", "klístruðum", "klístraðra"],
+					"kvk": ["klístraðar", "klístraðar", "klístruðum", "klístraðra"],
+					"hk": ["klístruð", "klístruð", "klístruðum", "klístraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["klístraði", "klístraða", "klístraða", "klístraða"],
+					"kvk": ["klístraða", "klístruðu", "klístruðu", "klístruðu"],
+					"hk": ["klístraða", "klístraða", "klístraða", "klístraða"]
+				},
+				"ft": {
+					"kk": ["klístruðu", "klístruðu", "klístruðu", "klístruðu"],
+					"kvk": ["klístruðu", "klístruðu", "klístruðu", "klístruðu"],
+					"hk": ["klístruðu", "klístruðu", "klístruðu", "klístruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klístra",
+	"hash": "96665238da5f21863631e8a4fb16f04d498fd9dab44a89021f0a62e0fe9c361f"
+}

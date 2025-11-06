@@ -1,0 +1,32 @@
+{
+	"orð": "heildargjaldeyrisstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildargjaldeyrisstaða", "heildargjaldeyrisstöðu", "heildargjaldeyrisstöðu", "heildargjaldeyrisstöðu"],
+		"mg": ["heildargjaldeyrisstaðan", "heildargjaldeyrisstöðuna", "heildargjaldeyrisstöðunni", "heildargjaldeyrisstöðunnar"]
+	},
+	"kennistrengur": "no-heildargjaldeyrisstaða-kvk",
+	"hash": "03d3abcc9d77eac6a1b667efd9aedf85458b4b2fea627710e261ac559876957b"
+}

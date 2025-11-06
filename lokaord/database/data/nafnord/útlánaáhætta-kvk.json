@@ -1,0 +1,35 @@
+{
+	"orð": "útlánaáhætta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"kennistrengur": "no-hætta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["útlánaáhætta", "útlánaáhættu", "útlánaáhættu", "útlánaáhættu"],
+		"mg": ["útlánaáhættan", "útlánaáhættuna", "útlánaáhættunni", "útlánaáhættunnar"]
+	},
+	"ft": {
+		"ág": ["útlánaáhættur", "útlánaáhættur", "útlánaáhættum", "útlánaáhætta"],
+		"mg": ["útlánaáhætturnar", "útlánaáhætturnar", "útlánaáhættunum", "útlánaáhættanna"]
+	},
+	"kennistrengur": "no-útlánaáhætta-kvk",
+	"hash": "6c87bc4d405644858657d0e31c34c5f734e8432881baba29f439117e97687b20"
+}

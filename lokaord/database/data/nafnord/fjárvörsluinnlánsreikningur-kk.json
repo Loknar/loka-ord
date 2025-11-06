@@ -1,0 +1,40 @@
+{
+	"orð": "fjárvörsluinnlánsreikningur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "vörslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varsla-kvk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "láns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"kennistrengur": "no-reikningur-kk"
+		}
+	],
+	"et": {
+		"ág": ["fjárvörsluinnlánsreikningur", "fjárvörsluinnlánsreikning", "fjárvörsluinnlánsreikningi", "fjárvörsluinnlánsreiknings"],
+		"mg": ["fjárvörsluinnlánsreikningurinn", "fjárvörsluinnlánsreikninginn", "fjárvörsluinnlánsreikningnum", "fjárvörsluinnlánsreikningsins"]
+	},
+	"ft": {
+		"ág": ["fjárvörsluinnlánsreikningar", "fjárvörsluinnlánsreikninga", "fjárvörsluinnlánsreikningum", "fjárvörsluinnlánsreikninga"],
+		"mg": ["fjárvörsluinnlánsreikningarnir", "fjárvörsluinnlánsreikningana", "fjárvörsluinnlánsreikningunum", "fjárvörsluinnlánsreikninganna"]
+	},
+	"kennistrengur": "no-fjárvörsluinnlánsreikningur-kk",
+	"hash": "685a17cf735612229b36d94f1d48572aab2bb753f28b1f7a60c2f66c45a844de"
+}

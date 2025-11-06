@@ -1,0 +1,121 @@
+{
+	"orð": "busla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "busl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-busl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "busla",
+		"sagnbót": "buslað",
+		"boðháttur": {
+			"stýfður": "busla",
+			"et": "buslaðu",
+			"ft": "buslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["busla", "buslar", "buslar"],
+					"ft": ["buslum", "buslið", "busla"]
+				},
+				"þátíð": {
+					"et": ["buslaði", "buslaðir", "buslaði"],
+					"ft": ["busluðum", "busluðuð", "busluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["busli", "buslir", "busli"],
+					"ft": ["buslum", "buslið", "busli"]
+				},
+				"þátíð": {
+					"et": ["buslaði", "buslaðir", "buslaði"],
+					"ft": ["busluðum", "busluðuð", "busluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "buslarðu",
+					"ft": "busliði"
+				},
+				"þátíð": {
+					"et": "buslaðirðu",
+					"ft": "busluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "buslirðu",
+					"ft": "busliði"
+				},
+				"þátíð": {
+					"et": "buslaðirðu",
+					"ft": "busluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "buslast",
+		"sagnbót": "buslast",
+		"boðháttur": {
+			"et": "buslastu",
+			"ft": "buslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["buslast", "buslast", "buslast"],
+					"ft": ["buslumst", "buslist", "buslast"]
+				},
+				"þátíð": {
+					"et": ["buslaðist", "buslaðist", "buslaðist"],
+					"ft": ["busluðumst", "busluðust", "busluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["buslist", "buslist", "buslist"],
+					"ft": ["buslumst", "buslist", "buslist"]
+				},
+				"þátíð": {
+					"et": ["buslaðist", "buslaðist", "buslaðist"],
+					"ft": ["busluðumst", "busluðust", "busluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "buslastu"
+				},
+				"þátíð": {
+					"et": "buslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "buslistu"
+				},
+				"þátíð": {
+					"et": "buslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "buslandi"
+	},
+	"kennistrengur": "so-busla",
+	"hash": "74bc2f4e6a7d815209860c674f414e44bfc89b612cc5888ff44c45b8d6a002d7"
+}

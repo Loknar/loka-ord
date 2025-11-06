@@ -1,0 +1,35 @@
+{
+	"orð": "viðbótareiginfjárkrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "eigin",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-eiginn"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["viðbótareiginfjárkrafa", "viðbótareiginfjárkröfu", "viðbótareiginfjárkröfu", "viðbótareiginfjárkröfu"],
+		"mg": ["viðbótareiginfjárkrafan", "viðbótareiginfjárkröfuna", "viðbótareiginfjárkröfunni", "viðbótareiginfjárkröfunnar"]
+	},
+	"ft": {
+		"ág": ["viðbótareiginfjárkröfur", "viðbótareiginfjárkröfur", "viðbótareiginfjárkröfum", "viðbótareiginfjárkrafna"],
+		"mg": ["viðbótareiginfjárkröfurnar", "viðbótareiginfjárkröfurnar", "viðbótareiginfjárkröfunum", "viðbótareiginfjárkrafnanna"]
+	},
+	"kennistrengur": "no-viðbótareiginfjárkrafa-kvk",
+	"hash": "f6e06c136d907ca78de2f6bd5aceb8ca34137d3efcd50ad48daad44b87cc30a7"
+}

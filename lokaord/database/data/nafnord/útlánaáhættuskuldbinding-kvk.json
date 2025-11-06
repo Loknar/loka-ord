@@ -1,0 +1,45 @@
+{
+	"orð": "útlánaáhættuskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"mynd": "hættu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hætta-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["útlánaáhættuskuldbinding", "útlánaáhættuskuldbindingu", "útlánaáhættuskuldbindingu", "útlánaáhættuskuldbindingar"],
+		"mg": ["útlánaáhættuskuldbindingin", "útlánaáhættuskuldbindinguna", "útlánaáhættuskuldbindingunni", "útlánaáhættuskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["útlánaáhættuskuldbindingar", "útlánaáhættuskuldbindingar", "útlánaáhættuskuldbindingum", "útlánaáhættuskuldbindinga"],
+		"mg": ["útlánaáhættuskuldbindingarnar", "útlánaáhættuskuldbindingarnar", "útlánaáhættuskuldbindingunum", "útlánaáhættuskuldbindinganna"]
+	},
+	"kennistrengur": "no-útlánaáhættuskuldbinding-kvk",
+	"hash": "649e792f09095bc1f50a14c0d1464751c38aefeb888569a79924cb36360cfa95"
+}
