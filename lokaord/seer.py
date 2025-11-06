@@ -910,6 +910,9 @@ def clean_string(mystr: str) -> str:
 		# fjarlægja óæskileg tákn
 		('\xad', ''),  # stundum notað til að tilgreina skiptingu orða á vefsíðum
 		('\u200b', ''),  # zero width space
+		# fjarlægja ákveðin bil
+		(' o. fl.,', ' o.fl.,'),
+		(' o. fl. ', ' o.fl. '),
 	]
 	for search_str, replace_str in replacements:
 		cleaned_str = cleaned_str.replace(search_str, replace_str)
