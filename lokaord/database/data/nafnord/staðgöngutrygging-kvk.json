@@ -1,0 +1,30 @@
+{
+	"orð": "staðgöngutrygging",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"mynd": "göngu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ganga-kvk"
+		},
+		{
+			"kennistrengur": "no-trygging-kvk"
+		}
+	],
+	"et": {
+		"ág": ["staðgöngutrygging", "staðgöngutryggingu", "staðgöngutryggingu", "staðgöngutryggingar"],
+		"mg": ["staðgöngutryggingin", "staðgöngutrygginguna", "staðgöngutryggingunni", "staðgöngutryggingarinnar"]
+	},
+	"ft": {
+		"ág": ["staðgöngutryggingar", "staðgöngutryggingar", "staðgöngutryggingum", "staðgöngutrygginga"],
+		"mg": ["staðgöngutryggingarnar", "staðgöngutryggingarnar", "staðgöngutryggingunum", "staðgöngutrygginganna"]
+	},
+	"kennistrengur": "no-staðgöngutrygging-kvk",
+	"hash": "59961feca0326c1417fd75bea548bf151fbf6eeb543200b76a61c5a5eaf74e92"
+}

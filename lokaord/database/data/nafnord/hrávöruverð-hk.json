@@ -1,0 +1,27 @@
+{
+	"orð": "hrávöruverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hrá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hrár"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["hrávöruverð", "hrávöruverð", "hrávöruverði", "hrávöruverðs"],
+		"mg": ["hrávöruverðið", "hrávöruverðið", "hrávöruverðinu", "hrávöruverðsins"]
+	},
+	"kennistrengur": "no-hrávöruverð-hk",
+	"hash": "abca930864a5dad5962d6db2400e08c3b5aa31e8344a956efaab751e03f89702"
+}

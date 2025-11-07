@@ -1,0 +1,48 @@
+{
+	"orð": "gjóla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjóla-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjóla",
+		"sagnbót": "gjólað",
+		"boðháttur": {
+			"stýfður": "gjóla",
+			"et": "gjólaðu",
+			"ft": "gjólið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjóla", "gjólar", "gjólar"],
+					"ft": ["gjólum", "gjólið", "gjóla"]
+				},
+				"þátíð": {
+					"et": ["gjólaði", "gjólaðir", "gjólaði"],
+					"ft": ["gjóluðum", "gjóluðuð", "gjóluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjóli", "gjólir", "gjóli"],
+					"ft": ["gjólum", "gjólið", "gjóli"]
+				},
+				"þátíð": {
+					"et": ["gjólaði", "gjólaðir", "gjólaði"],
+					"ft": ["gjóluðum", "gjóluðuð", "gjóluðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gjóla",
+	"hash": "f365c9eae731a9146c4ee5625c062798d871c676f85b0242391303bebc35b7cc"
+}

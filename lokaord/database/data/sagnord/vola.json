@@ -1,0 +1,135 @@
+{
+	"orð": "vola",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vol-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vola",
+		"sagnbót": "volað",
+		"boðháttur": {
+			"stýfður": "vola",
+			"et": "volaðu",
+			"ft": "volið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vola", "volar", "volar"],
+					"ft": ["volum", "volið", "vola"]
+				},
+				"þátíð": {
+					"et": ["volaði", "volaðir", "volaði"],
+					"ft": ["voluðum", "voluðuð", "voluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["voli", "volir", "voli"],
+					"ft": ["volum", "volið", "voli"]
+				},
+				"þátíð": {
+					"et": ["volaði", "volaðir", "volaði"],
+					"ft": ["voluðum", "voluðuð", "voluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "volarðu",
+					"ft": "voliði"
+				},
+				"þátíð": {
+					"et": "volaðirðu",
+					"ft": "voluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "volirðu",
+					"ft": "voliði"
+				},
+				"þátíð": {
+					"et": "volaðirðu",
+					"ft": "voluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "volast",
+		"sagnbót": "volast",
+		"boðháttur": {
+			"et": "volastu",
+			"ft": "volist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["volast", "volast", "volast"],
+					"ft": ["volumst", "volist", "volast"]
+				},
+				"þátíð": {
+					"et": ["volaðist", "volaðist", "volaðist"],
+					"ft": ["voluðumst", "voluðust", "voluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["volist", "volist", "volist"],
+					"ft": ["volumst", "volist", "volist"]
+				},
+				"þátíð": {
+					"et": ["volaðist", "volaðist", "volaðist"],
+					"ft": ["voluðumst", "voluðust", "voluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "volastu"
+				},
+				"þátíð": {
+					"et": "volaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "volistu"
+				},
+				"þátíð": {
+					"et": "volaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "volandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["volaður", "volaðan", "voluðum", "volaðs"],
+					"kvk": ["voluð", "volaða", "volaðri", "volaðrar"],
+					"hk": ["volað", "volað", "voluðu", "volaðs"]
+				},
+				"ft": {
+					"kk": ["volaðir", "volaða", "voluðum", "volaðra"],
+					"kvk": ["volaðar", "volaðar", "voluðum", "volaðra"],
+					"hk": ["voluð", "voluð", "voluðum", "volaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vola",
+	"hash": "7e782bd9d5e8e426d5aab051ebd387e7dd0b7c3db21b3f5166ebe36c253649ea"
+}

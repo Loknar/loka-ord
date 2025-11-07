@@ -1,0 +1,48 @@
+{
+	"orð": "tilboðsskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"mynd": "boðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-boð-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["tilboðsskyldur", "tilboðsskyldan", "tilboðsskyldum", "tilboðsskylds"],
+				"kvk": ["tilboðsskyld", "tilboðsskylda", "tilboðsskyldri", "tilboðsskyldrar"],
+				"hk": ["tilboðsskylt", "tilboðsskylt", "tilboðsskyldu", "tilboðsskylds"]
+			},
+			"ft": {
+				"kk": ["tilboðsskyldir", "tilboðsskylda", "tilboðsskyldum", "tilboðsskyldra"],
+				"kvk": ["tilboðsskyldar", "tilboðsskyldar", "tilboðsskyldum", "tilboðsskyldra"],
+				"hk": ["tilboðsskyld", "tilboðsskyld", "tilboðsskyldum", "tilboðsskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tilboðsskyldi", "tilboðsskylda", "tilboðsskylda", "tilboðsskylda"],
+				"kvk": ["tilboðsskylda", "tilboðsskyldu", "tilboðsskyldu", "tilboðsskyldu"],
+				"hk": ["tilboðsskylda", "tilboðsskylda", "tilboðsskylda", "tilboðsskylda"]
+			},
+			"ft": {
+				"kk": ["tilboðsskyldu", "tilboðsskyldu", "tilboðsskyldu", "tilboðsskyldu"],
+				"kvk": ["tilboðsskyldu", "tilboðsskyldu", "tilboðsskyldu", "tilboðsskyldu"],
+				"hk": ["tilboðsskyldu", "tilboðsskyldu", "tilboðsskyldu", "tilboðsskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-tilboðsskyldur",
+	"hash": "93875ca4700da4d2326c0d28ba531edb485cc71cf576ab1dfe845014636c1ef2"
+}
