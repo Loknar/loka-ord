@@ -1,0 +1,27 @@
+{
+	"orð": "eignaumsjón",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-sjón-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignaumsjón", "eignaumsjón", "eignaumsjón", "eignaumsjónar"],
+		"mg": ["eignaumsjónin", "eignaumsjónina", "eignaumsjóninni", "eignaumsjónarinnar"]
+	},
+	"kennistrengur": "no-eignaumsjón-kvk",
+	"hash": "3c16794524f1b187ab07974e314f7b80b01e759684441421a1106fe182d5ef51"
+}

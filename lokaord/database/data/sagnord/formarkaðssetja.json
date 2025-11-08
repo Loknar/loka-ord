@@ -1,0 +1,104 @@
+{
+	"orð": "formarkaðssetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"mynd": "markaðs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-markaður-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "formarkaðssetja",
+		"sagnbót": "formarkaðssett",
+		"boðháttur": {
+			"stýfður": "formarkaðsset",
+			"et": "formarkaðssettu",
+			"ft": "formarkaðssetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["formarkaðsset", "formarkaðssetur", "formarkaðssetur"],
+					"ft": ["formarkaðssetjum", "formarkaðssetjið", "formarkaðssetja"]
+				},
+				"þátíð": {
+					"et": ["formarkaðssetti", "formarkaðssettir", "formarkaðssetti"],
+					"ft": ["formarkaðssettum", "formarkaðssettuð", "formarkaðssettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["formarkaðssetji", "formarkaðssetjir", "formarkaðssetji"],
+					"ft": ["formarkaðssetjum", "formarkaðssetjið", "formarkaðssetji"]
+				},
+				"þátíð": {
+					"et": ["formarkaðssetti", "formarkaðssettir", "formarkaðssetti"],
+					"ft": ["formarkaðssettum", "formarkaðssettuð", "formarkaðssettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "formarkaðsseturðu",
+					"ft": "formarkaðssetjiði"
+				},
+				"þátíð": {
+					"et": "formarkaðssettirðu",
+					"ft": "formarkaðssettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "formarkaðssetjirðu",
+					"ft": "formarkaðssetjiði"
+				},
+				"þátíð": {
+					"et": "formarkaðssettirðu",
+					"ft": "formarkaðssettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "formarkaðssetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["formarkaðssettur", "formarkaðssettan", "formarkaðssettum", "formarkaðssetts"],
+					"kvk": ["formarkaðssett", "formarkaðssetta", "formarkaðssettri", "formarkaðssettrar"],
+					"hk": ["formarkaðssett", "formarkaðssett", "formarkaðssettu", "formarkaðssetts"]
+				},
+				"ft": {
+					"kk": ["formarkaðssettir", "formarkaðssetta", "formarkaðssettum", "formarkaðssettra"],
+					"kvk": ["formarkaðssettar", "formarkaðssettar", "formarkaðssettum", "formarkaðssettra"],
+					"hk": ["formarkaðssett", "formarkaðssett", "formarkaðssettum", "formarkaðssettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["formarkaðssetti", "formarkaðssetta", "formarkaðssetta", "formarkaðssetta"],
+					"kvk": ["formarkaðssetta", "formarkaðssettu", "formarkaðssettu", "formarkaðssettu"],
+					"hk": ["formarkaðssetta", "formarkaðssetta", "formarkaðssetta", "formarkaðssetta"]
+				},
+				"ft": {
+					"kk": ["formarkaðssettu", "formarkaðssettu", "formarkaðssettu", "formarkaðssettu"],
+					"kvk": ["formarkaðssettu", "formarkaðssettu", "formarkaðssettu", "formarkaðssettu"],
+					"hk": ["formarkaðssettu", "formarkaðssettu", "formarkaðssettu", "formarkaðssettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-formarkaðssetja",
+	"hash": "00348979b5658b23fefd0193eb97304235f6f13f4e02855bf3bb406b9c03c6e6"
+}

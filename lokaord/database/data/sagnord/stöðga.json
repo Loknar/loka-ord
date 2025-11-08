@@ -1,0 +1,87 @@
+{
+	"orð": "stöðga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stöðg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-stöðugur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stöðga",
+		"sagnbót": "stöðgað",
+		"boðháttur": {
+			"stýfður": "stöðga",
+			"et": "stöðgaðu",
+			"ft": "stöðgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stöðga", "stöðgar", "stöðgar"],
+					"ft": ["stöðgum", "stöðgið", "stöðga"]
+				},
+				"þátíð": {
+					"et": ["stöðgaði", "stöðgaðir", "stöðgaði"],
+					"ft": ["stöðguðum", "stöðguðuð", "stöðguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stöðgi", "stöðgir", "stöðgi"],
+					"ft": ["stöðgum", "stöðgið", "stöðgi"]
+				},
+				"þátíð": {
+					"et": ["stöðgaði", "stöðgaðir", "stöðgaði"],
+					"ft": ["stöðguðum", "stöðguðuð", "stöðguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stöðgarðu",
+					"ft": "stöðgiði"
+				},
+				"þátíð": {
+					"et": "stöðgaðirðu",
+					"ft": "stöðguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stöðgirðu",
+					"ft": "stöðgiði"
+				},
+				"þátíð": {
+					"et": "stöðgaðirðu",
+					"ft": "stöðguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stöðgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stöðgaður", "stöðgaðan", "stöðguðum", "stöðgaðs"],
+					"kvk": ["stöðguð", "stöðgaða", "stöðgaðri", "stöðgaðrar"],
+					"hk": ["stöðgað", "stöðgað", "stöðguðu", "stöðgaðs"]
+				},
+				"ft": {
+					"kk": ["stöðgaðir", "stöðgaða", "stöðguðum", "stöðgaðra"],
+					"kvk": ["stöðgaðar", "stöðgaðar", "stöðguðum", "stöðgaðra"],
+					"hk": ["stöðguð", "stöðguð", "stöðguðum", "stöðgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stöðga",
+	"hash": "789351a3c88ad8c8179cefac67fe3907adbfdb5299a5ffd0be93eca6f760a267"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "delta-leiðréttur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "delta-",
+			"samsetning": "stofn",
+			"kennistrengur": "no-delta-kvk"
+		},
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leið-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-réttur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["delta-leiðréttur", "delta-leiðréttan", "delta-leiðréttum", "delta-leiðrétts"],
+				"kvk": ["delta-leiðrétt", "delta-leiðrétta", "delta-leiðréttri", "delta-leiðréttrar"],
+				"hk": ["delta-leiðrétt", "delta-leiðrétt", "delta-leiðréttu", "delta-leiðrétts"]
+			},
+			"ft": {
+				"kk": ["delta-leiðréttir", "delta-leiðrétta", "delta-leiðréttum", "delta-leiðréttra"],
+				"kvk": ["delta-leiðréttar", "delta-leiðréttar", "delta-leiðréttum", "delta-leiðréttra"],
+				"hk": ["delta-leiðrétt", "delta-leiðrétt", "delta-leiðréttum", "delta-leiðréttra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["delta-leiðrétti", "delta-leiðrétta", "delta-leiðrétta", "delta-leiðrétta"],
+				"kvk": ["delta-leiðrétta", "delta-leiðréttu", "delta-leiðréttu", "delta-leiðréttu"],
+				"hk": ["delta-leiðrétta", "delta-leiðrétta", "delta-leiðrétta", "delta-leiðrétta"]
+			},
+			"ft": {
+				"kk": ["delta-leiðréttu", "delta-leiðréttu", "delta-leiðréttu", "delta-leiðréttu"],
+				"kvk": ["delta-leiðréttu", "delta-leiðréttu", "delta-leiðréttu", "delta-leiðréttu"],
+				"hk": ["delta-leiðréttu", "delta-leiðréttu", "delta-leiðréttu", "delta-leiðréttu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-delta-leiðréttur",
+	"hash": "143f1575945c8027511bdc9eeb9e47e966f9d77337159e2a006969a0995fdf37"
+}

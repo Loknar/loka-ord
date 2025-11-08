@@ -1,0 +1,48 @@
+{
+	"orð": "innlausnarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "lausnar",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lausn-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["innlausnarskyldur", "innlausnarskyldan", "innlausnarskyldum", "innlausnarskylds"],
+				"kvk": ["innlausnarskyld", "innlausnarskylda", "innlausnarskyldri", "innlausnarskyldrar"],
+				"hk": ["innlausnarskylt", "innlausnarskylt", "innlausnarskyldu", "innlausnarskylds"]
+			},
+			"ft": {
+				"kk": ["innlausnarskyldir", "innlausnarskylda", "innlausnarskyldum", "innlausnarskyldra"],
+				"kvk": ["innlausnarskyldar", "innlausnarskyldar", "innlausnarskyldum", "innlausnarskyldra"],
+				"hk": ["innlausnarskyld", "innlausnarskyld", "innlausnarskyldum", "innlausnarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["innlausnarskyldi", "innlausnarskylda", "innlausnarskylda", "innlausnarskylda"],
+				"kvk": ["innlausnarskylda", "innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu"],
+				"hk": ["innlausnarskylda", "innlausnarskylda", "innlausnarskylda", "innlausnarskylda"]
+			},
+			"ft": {
+				"kk": ["innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu"],
+				"kvk": ["innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu"],
+				"hk": ["innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu", "innlausnarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-innlausnarskyldur",
+	"hash": "65390712f374dcbb825707fbe763fa04ebce91e588c749609a32b64bcfffcd45"
+}

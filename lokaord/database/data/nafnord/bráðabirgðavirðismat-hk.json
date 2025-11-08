@@ -1,0 +1,32 @@
+{
+	"orð": "bráðabirgðavirðismat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bráða",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-bráður"
+		},
+		{
+			"mynd": "birgða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-birgð-kvk"
+		},
+		{
+			"mynd": "virðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-virði-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["bráðabirgðavirðismat", "bráðabirgðavirðismat", "bráðabirgðavirðismati", "bráðabirgðavirðismats"],
+		"mg": ["bráðabirgðavirðismatið", "bráðabirgðavirðismatið", "bráðabirgðavirðismatinu", "bráðabirgðavirðismatsins"]
+	},
+	"kennistrengur": "no-bráðabirgðavirðismat-hk",
+	"hash": "d252a4388fa94dda93f30c01051e2af6d922978d04ee6edce074fba023b3d438"
+}

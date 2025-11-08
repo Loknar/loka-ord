@@ -1,0 +1,32 @@
+{
+	"orð": "endurfjármögnunargeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mögnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mögnun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["endurfjármögnunargeta", "endurfjármögnunargetu", "endurfjármögnunargetu", "endurfjármögnunargetu"],
+		"mg": ["endurfjármögnunargetan", "endurfjármögnunargetuna", "endurfjármögnunargetunni", "endurfjármögnunargetunnar"]
+	},
+	"kennistrengur": "no-endurfjármögnunargeta-kvk",
+	"hash": "636a0f3c1cfee9928a0e1d06b1dbfd458168d81ef26286b3b0e2a1dc14cbab03"
+}

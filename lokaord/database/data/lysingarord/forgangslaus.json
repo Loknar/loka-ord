@@ -1,0 +1,43 @@
+{
+	"orð": "forgangslaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "forgangs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-forgangur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["forgangslaus", "forgangslausan", "forgangslausum", "forgangslauss"],
+				"kvk": ["forgangslaus", "forgangslausa", "forgangslausri", "forgangslausrar"],
+				"hk": ["forgangslaust", "forgangslaust", "forgangslausu", "forgangslauss"]
+			},
+			"ft": {
+				"kk": ["forgangslausir", "forgangslausa", "forgangslausum", "forgangslausra"],
+				"kvk": ["forgangslausar", "forgangslausar", "forgangslausum", "forgangslausra"],
+				"hk": ["forgangslaus", "forgangslaus", "forgangslausum", "forgangslausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["forgangslausi", "forgangslausa", "forgangslausa", "forgangslausa"],
+				"kvk": ["forgangslausa", "forgangslausu", "forgangslausu", "forgangslausu"],
+				"hk": ["forgangslausa", "forgangslausa", "forgangslausa", "forgangslausa"]
+			},
+			"ft": {
+				"kk": ["forgangslausu", "forgangslausu", "forgangslausu", "forgangslausu"],
+				"kvk": ["forgangslausu", "forgangslausu", "forgangslausu", "forgangslausu"],
+				"hk": ["forgangslausu", "forgangslausu", "forgangslausu", "forgangslausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-forgangslaus",
+	"hash": "b431c84bddde12a9ec0362bcaf6cc527355734703abb9f399a3c7ec87fe84898"
+}

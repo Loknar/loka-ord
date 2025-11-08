@@ -1,0 +1,43 @@
+{
+	"orð": "flöggunarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "flöggunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-flöggun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["flöggunarskyldur", "flöggunarskyldan", "flöggunarskyldum", "flöggunarskylds"],
+				"kvk": ["flöggunarskyld", "flöggunarskylda", "flöggunarskyldri", "flöggunarskyldrar"],
+				"hk": ["flöggunarskylt", "flöggunarskylt", "flöggunarskyldu", "flöggunarskylds"]
+			},
+			"ft": {
+				"kk": ["flöggunarskyldir", "flöggunarskylda", "flöggunarskyldum", "flöggunarskyldra"],
+				"kvk": ["flöggunarskyldar", "flöggunarskyldar", "flöggunarskyldum", "flöggunarskyldra"],
+				"hk": ["flöggunarskyld", "flöggunarskyld", "flöggunarskyldum", "flöggunarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["flöggunarskyldi", "flöggunarskylda", "flöggunarskylda", "flöggunarskylda"],
+				"kvk": ["flöggunarskylda", "flöggunarskyldu", "flöggunarskyldu", "flöggunarskyldu"],
+				"hk": ["flöggunarskylda", "flöggunarskylda", "flöggunarskylda", "flöggunarskylda"]
+			},
+			"ft": {
+				"kk": ["flöggunarskyldu", "flöggunarskyldu", "flöggunarskyldu", "flöggunarskyldu"],
+				"kvk": ["flöggunarskyldu", "flöggunarskyldu", "flöggunarskyldu", "flöggunarskyldu"],
+				"hk": ["flöggunarskyldu", "flöggunarskyldu", "flöggunarskyldu", "flöggunarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-flöggunarskyldur",
+	"hash": "5af8e28dc97745d9f0c128b771af962af444874ba6054c4d0bcf686decebd933"
+}

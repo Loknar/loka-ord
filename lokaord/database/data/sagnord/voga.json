@@ -1,0 +1,135 @@
+{
+	"orð": "voga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vog",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vog-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "voga",
+		"sagnbót": "vogað",
+		"boðháttur": {
+			"stýfður": "voga",
+			"et": "vogaðu",
+			"ft": "vogið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["voga", "vogar", "vogar"],
+					"ft": ["vogum", "vogið", "voga"]
+				},
+				"þátíð": {
+					"et": ["vogaði", "vogaðir", "vogaði"],
+					"ft": ["voguðum", "voguðuð", "voguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vogi", "vogir", "vogi"],
+					"ft": ["vogum", "vogið", "vogi"]
+				},
+				"þátíð": {
+					"et": ["vogaði", "vogaðir", "vogaði"],
+					"ft": ["voguðum", "voguðuð", "voguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vogarðu",
+					"ft": "vogiði"
+				},
+				"þátíð": {
+					"et": "vogaðirðu",
+					"ft": "voguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vogirðu",
+					"ft": "vogiði"
+				},
+				"þátíð": {
+					"et": "vogaðirðu",
+					"ft": "voguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vogast",
+		"sagnbót": "vogast",
+		"boðháttur": {
+			"et": "vogastu",
+			"ft": "vogist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vogast", "vogast", "vogast"],
+					"ft": ["vogumst", "vogist", "vogast"]
+				},
+				"þátíð": {
+					"et": ["vogaðist", "vogaðist", "vogaðist"],
+					"ft": ["voguðumst", "voguðust", "voguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vogist", "vogist", "vogist"],
+					"ft": ["vogumst", "vogist", "vogist"]
+				},
+				"þátíð": {
+					"et": ["vogaðist", "vogaðist", "vogaðist"],
+					"ft": ["voguðumst", "voguðust", "voguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vogastu"
+				},
+				"þátíð": {
+					"et": "vogaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vogistu"
+				},
+				"þátíð": {
+					"et": "vogaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vogandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vogaður", "vogaðan", "voguðum", "vogaðs"],
+					"kvk": ["voguð", "vogaða", "vogaðri", "vogaðrar"],
+					"hk": ["vogað", "vogað", "voguðu", "vogaðs"]
+				},
+				"ft": {
+					"kk": ["vogaðir", "vogaða", "voguðum", "vogaðra"],
+					"kvk": ["vogaðar", "vogaðar", "voguðum", "vogaðra"],
+					"hk": ["voguð", "voguð", "voguðum", "vogaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-voga",
+	"hash": "37634475fee87f2fb5e050f5c0faa0a6dde37338ffd0f3798840275443f91e8c"
+}

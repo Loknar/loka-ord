@@ -1,0 +1,27 @@
+{
+	"orð": "fjárhagsgæsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gæsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhagsgæsla", "fjárhagsgæslu", "fjárhagsgæslu", "fjárhagsgæslu"],
+		"mg": ["fjárhagsgæslan", "fjárhagsgæsluna", "fjárhagsgæslunni", "fjárhagsgæslunnar"]
+	},
+	"kennistrengur": "no-fjárhagsgæsla-kvk",
+	"hash": "11a5aa87c696227254fe0a417685f2601076a4c4e94cf5b6a20ad79889675159"
+}

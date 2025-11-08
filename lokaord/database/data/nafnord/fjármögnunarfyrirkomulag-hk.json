@@ -1,0 +1,37 @@
+{
+	"orð": "fjármögnunarfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "mögnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mögnun-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjármögnunarfyrirkomulag", "fjármögnunarfyrirkomulag", "fjármögnunarfyrirkomulagi", "fjármögnunarfyrirkomulags"],
+		"mg": ["fjármögnunarfyrirkomulagið", "fjármögnunarfyrirkomulagið", "fjármögnunarfyrirkomulaginu", "fjármögnunarfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-fjármögnunarfyrirkomulag-hk",
+	"hash": "517969e744831833d4d8b5b026a6dd46b211c3f682b7e1f5e9e1ffc9b6b12e51"
+}

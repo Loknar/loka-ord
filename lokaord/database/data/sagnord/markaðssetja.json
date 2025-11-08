@@ -8,6 +8,7 @@
 			"kennistrengur": "no-markaður-kk"
 		},
 		{
+			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-setja"
 		}
 	],
@@ -64,50 +65,6 @@
 			}
 		}
 	},
-	"miðmynd": {
-		"nafnháttur": "markaðssetjast",
-		"sagnbót": "markaðssest",
-		"persónuleg": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["markaðssest", "markaðssest", "markaðssest"],
-					"ft": ["markaðssetjumst", "markaðssetjist", "markaðssetjast"]
-				},
-				"þátíð": {
-					"et": ["markaðssettist", "markaðssettist", "markaðssettist"],
-					"ft": ["markaðssettumst", "markaðssettust", "markaðssettust"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["markaðssetjist", "markaðssetjist", "markaðssetjist"],
-					"ft": ["markaðssetjumst", "markaðssetjist", "markaðssetjist"]
-				},
-				"þátíð": {
-					"et": ["markaðssettist", "markaðssettist", "markaðssettist"],
-					"ft": ["markaðssettumst", "markaðssettust", "markaðssettust"]
-				}
-			}
-		},
-		"spurnarmyndir": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": "markaðssestu"
-				},
-				"þátíð": {
-					"et": "markaðssettistu"
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": "markaðssetjistu"
-				},
-				"þátíð": {
-					"et": "markaðssettistu"
-				}
-			}
-		}
-	},
 	"lýsingarháttur": {
 		"nútíðar": "markaðssetjandi",
 		"þátíðar": {
@@ -138,5 +95,5 @@
 		}
 	},
 	"kennistrengur": "so-markaðssetja",
-	"hash": "b828960ae3f443c18924f4b529eae637ff36fadb9d227889fef541804af5c011"
+	"hash": "c278e79af53725912bf13dbecd8531b4ac58ecbae2171e06a55d19611a79fc47"
 }

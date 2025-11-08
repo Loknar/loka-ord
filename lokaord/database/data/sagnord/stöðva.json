@@ -1,23 +1,33 @@
 {
 	"orð": "stöðva",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stöðv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-stöð-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "stöðva",
-		"sagnbót": "stöðvt",
+		"sagnbót": "stöðvað",
 		"boðháttur": {
-			"stýfður": "stöðv",
+			"stýfður": "stöðva",
 			"et": "stöðvaðu",
 			"ft": "stöðvið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["stöðvi", "stöðvir", "stöðvir"],
+					"et": ["stöðva", "stöðvar", "stöðvar"],
 					"ft": ["stöðvum", "stöðvið", "stöðva"]
 				},
 				"þátíð": {
 					"et": ["stöðvaði", "stöðvaðir", "stöðvaði"],
-					"ft": ["stöðvaðum", "stöðvaðuð", "stöðvaðu"]
+					"ft": ["stöðvuðum", "stöðvuðuð", "stöðvuðu"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -27,19 +37,19 @@
 				},
 				"þátíð": {
 					"et": ["stöðvaði", "stöðvaðir", "stöðvaði"],
-					"ft": ["stöðvaðum", "stöðvaðuð", "stöðvaðu"]
+					"ft": ["stöðvuðum", "stöðvuðuð", "stöðvuðu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "stöðvirðu",
+					"et": "stöðvarðu",
 					"ft": "stöðviði"
 				},
 				"þátíð": {
 					"et": "stöðvaðirðu",
-					"ft": "stöðvaðuði"
+					"ft": "stöðvuðuði"
 				}
 			},
 			"viðtengingarháttur": {
@@ -49,23 +59,27 @@
 				},
 				"þátíð": {
 					"et": "stöðvaðirðu",
-					"ft": "stöðvaðuði"
+					"ft": "stöðvuðuði"
 				}
 			}
 		}
 	},
 	"miðmynd": {
 		"nafnháttur": "stöðvast",
-		"sagnbót": "stöðvst",
+		"sagnbót": "stöðvast",
+		"boðháttur": {
+			"et": "stöðvastu",
+			"ft": "stöðvist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["stöðvist", "stöðvist", "stöðvist"],
+					"et": ["stöðvast", "stöðvast", "stöðvast"],
 					"ft": ["stöðvumst", "stöðvist", "stöðvast"]
 				},
 				"þátíð": {
 					"et": ["stöðvaðist", "stöðvaðist", "stöðvaðist"],
-					"ft": ["stöðvaðumst", "stöðvaðust", "stöðvaðust"]
+					"ft": ["stöðvuðumst", "stöðvuðust", "stöðvuðust"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -75,14 +89,14 @@
 				},
 				"þátíð": {
 					"et": ["stöðvaðist", "stöðvaðist", "stöðvaðist"],
-					"ft": ["stöðvaðumst", "stöðvaðust", "stöðvaðust"]
+					"ft": ["stöðvuðumst", "stöðvuðust", "stöðvuðust"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "stöðvistu"
+					"et": "stöðvastu"
 				},
 				"þátíð": {
 					"et": "stöðvaðistu"
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-stöðva",
-	"hash": "44166230965328cbf9f11d008b8a30015e4309f466d77e7139992b9bf5f4bbe8"
+	"hash": "ceb36b9b239d3e185d48abd9a70a25f42106bb1d97bf7c0b8bb6d56de6420f70"
 }

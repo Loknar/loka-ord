@@ -1,0 +1,27 @@
+{
+	"orð": "greiðslujöfnunarréttur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "jöfnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jöfnun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-réttur-kk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslujöfnunarréttur", "greiðslujöfnunarrétt", "greiðslujöfnunarrétti", "greiðslujöfnunarréttar"],
+		"mg": ["greiðslujöfnunarrétturinn", "greiðslujöfnunarréttinn", "greiðslujöfnunarréttinum", "greiðslujöfnunarréttarins"]
+	},
+	"kennistrengur": "no-greiðslujöfnunarréttur-kk",
+	"hash": "ea7092c9c424eddba4268cb9d266fcf9eaf920063cf0797876d090bc8392815e"
+}

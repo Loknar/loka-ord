@@ -1,0 +1,30 @@
+{
+	"orð": "skuldabréfavafningur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"kennistrengur": "no-vafningur-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldabréfavafningur", "skuldabréfavafning", "skuldabréfavafningi", "skuldabréfavafnings"],
+		"mg": ["skuldabréfavafningurinn", "skuldabréfavafninginn", "skuldabréfavafningnum", "skuldabréfavafningsins"]
+	},
+	"ft": {
+		"ág": ["skuldabréfavafningar", "skuldabréfavafninga", "skuldabréfavafningum", "skuldabréfavafninga"],
+		"mg": ["skuldabréfavafningarnir", "skuldabréfavafningana", "skuldabréfavafningunum", "skuldabréfavafninganna"]
+	},
+	"kennistrengur": "no-skuldabréfavafningur-kk",
+	"hash": "8b98d9421108201ade49e1946d776a22976c901f90f571760bcb2069ccd73225"
+}

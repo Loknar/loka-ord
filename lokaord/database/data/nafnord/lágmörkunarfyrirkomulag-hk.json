@@ -1,0 +1,37 @@
+{
+	"orð": "lágmörkunarfyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "mörkunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mörkun-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmörkunarfyrirkomulag", "lágmörkunarfyrirkomulag", "lágmörkunarfyrirkomulagi", "lágmörkunarfyrirkomulags"],
+		"mg": ["lágmörkunarfyrirkomulagið", "lágmörkunarfyrirkomulagið", "lágmörkunarfyrirkomulaginu", "lágmörkunarfyrirkomulagsins"]
+	},
+	"kennistrengur": "no-lágmörkunarfyrirkomulag-hk",
+	"hash": "6f96fad3d5ab71d6b2561a28ed0d33cafc8b754726c95f0afd1967399130e553"
+}

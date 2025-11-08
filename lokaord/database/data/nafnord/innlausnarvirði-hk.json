@@ -1,0 +1,27 @@
+{
+	"orð": "innlausnarvirði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "lausnar",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lausn-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-virði-hk"
+		}
+	],
+	"et": {
+		"ág": ["innlausnarvirði", "innlausnarvirði", "innlausnarvirði", "innlausnarvirðis"],
+		"mg": ["innlausnarvirðið", "innlausnarvirðið", "innlausnarvirðinu", "innlausnarvirðisins"]
+	},
+	"kennistrengur": "no-innlausnarvirði-hk",
+	"hash": "2109f5659e137c985552581733a6ee90e4c9d06d04dd317ebcb8ca2d9c3ed9c7"
+}

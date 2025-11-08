@@ -1,0 +1,32 @@
+{
+	"orð": "fjárvörslusamband",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "vörslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varsla-kvk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-band-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjárvörslusamband", "fjárvörslusamband", "fjárvörslusambandi", "fjárvörslusambands"],
+		"mg": ["fjárvörslusambandið", "fjárvörslusambandið", "fjárvörslusambandinu", "fjárvörslusambandsins"]
+	},
+	"kennistrengur": "no-fjárvörslusamband-hk",
+	"hash": "2e4ac1edeeb617ef9afd909d4cd1b3ff1f0e22729776174af4dc9de686878918"
+}

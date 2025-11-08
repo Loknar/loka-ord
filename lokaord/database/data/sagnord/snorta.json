@@ -1,0 +1,87 @@
+{
+	"orð": "snorta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snort",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snort-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snorta",
+		"sagnbót": "snortað",
+		"boðháttur": {
+			"stýfður": "snorta",
+			"et": "snortaðu",
+			"ft": "snortið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snorta", "snortar", "snortar"],
+					"ft": ["snortum", "snortið", "snorta"]
+				},
+				"þátíð": {
+					"et": ["snortaði", "snortaðir", "snortaði"],
+					"ft": ["snortuðum", "snortuðuð", "snortuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snorti", "snortir", "snorti"],
+					"ft": ["snortum", "snortið", "snorti"]
+				},
+				"þátíð": {
+					"et": ["snortaði", "snortaðir", "snortaði"],
+					"ft": ["snortuðum", "snortuðuð", "snortuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snortarðu",
+					"ft": "snortiði"
+				},
+				"þátíð": {
+					"et": "snortaðirðu",
+					"ft": "snortuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snortirðu",
+					"ft": "snortiði"
+				},
+				"þátíð": {
+					"et": "snortaðirðu",
+					"ft": "snortuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "snortandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["snortaður", "snortaðan", "snortuðum", "snortaðs"],
+					"kvk": ["snortuð", "snortaða", "snortaðri", "snortaðrar"],
+					"hk": ["snortað", "snortað", "snortuðu", "snortaðs"]
+				},
+				"ft": {
+					"kk": ["snortaðir", "snortaða", "snortuðum", "snortaðra"],
+					"kvk": ["snortaðar", "snortaðar", "snortuðum", "snortaðra"],
+					"hk": ["snortuð", "snortuð", "snortuðum", "snortaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snorta",
+	"hash": "7bcce8f87213017c0a94a43e88bd855c9d00f8d8fcdba81d8ce4ce9a60e17da0"
+}

@@ -1,0 +1,35 @@
+{
+	"orð": "fjárhæðarviðmið",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "hæðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hæð-kvk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"kennistrengur": "no-mið-hk"
+		}
+	],
+	"et": {
+		"ág": ["fjárhæðarviðmið", "fjárhæðarviðmið", "fjárhæðarviðmiði", "fjárhæðarviðmiðs"],
+		"mg": ["fjárhæðarviðmiðið", "fjárhæðarviðmiðið", "fjárhæðarviðmiðinu", "fjárhæðarviðmiðsins"]
+	},
+	"ft": {
+		"ág": ["fjárhæðarviðmið", "fjárhæðarviðmið", "fjárhæðarviðmiðum", "fjárhæðarviðmiða"],
+		"mg": ["fjárhæðarviðmiðin", "fjárhæðarviðmiðin", "fjárhæðarviðmiðunum", "fjárhæðarviðmiðanna"]
+	},
+	"kennistrengur": "no-fjárhæðarviðmið-hk",
+	"hash": "ead60bdbcba102824bfab376e3cb21a25e3e41c0fa58947c2c468285d700a4fa"
+}

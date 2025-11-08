@@ -1,0 +1,35 @@
+{
+	"orð": "skuldabréfavísitala",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"mynd": "vísi",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vísir-kk"
+		},
+		{
+			"kennistrengur": "no-tala-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldabréfavísitala", "skuldabréfavísitölu", "skuldabréfavísitölu", "skuldabréfavísitölu"],
+		"mg": ["skuldabréfavísitalan", "skuldabréfavísitöluna", "skuldabréfavísitölunni", "skuldabréfavísitölunnar"]
+	},
+	"ft": {
+		"ág": ["skuldabréfavísitölur", "skuldabréfavísitölur", "skuldabréfavísitölum", "skuldabréfavísitalna"],
+		"mg": ["skuldabréfavísitölurnar", "skuldabréfavísitölurnar", "skuldabréfavísitölunum", "skuldabréfavísitalnanna"]
+	},
+	"kennistrengur": "no-skuldabréfavísitala-kvk",
+	"hash": "b5bab6d9aa0ab7d902cfe9099e49c101614bd681f2cb025c7a5f3f141e772ecf"
+}

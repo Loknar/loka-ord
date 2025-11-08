@@ -1,0 +1,135 @@
+{
+	"orð": "sniffa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sniff",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sniff-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sniffa",
+		"sagnbót": "sniffað",
+		"boðháttur": {
+			"stýfður": "sniffa",
+			"et": "sniffaðu",
+			"ft": "sniffið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sniffa", "sniffar", "sniffar"],
+					"ft": ["sniffum", "sniffið", "sniffa"]
+				},
+				"þátíð": {
+					"et": ["sniffaði", "sniffaðir", "sniffaði"],
+					"ft": ["sniffuðum", "sniffuðuð", "sniffuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sniffi", "sniffir", "sniffi"],
+					"ft": ["sniffum", "sniffið", "sniffi"]
+				},
+				"þátíð": {
+					"et": ["sniffaði", "sniffaðir", "sniffaði"],
+					"ft": ["sniffuðum", "sniffuðuð", "sniffuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sniffarðu",
+					"ft": "sniffiði"
+				},
+				"þátíð": {
+					"et": "sniffaðirðu",
+					"ft": "sniffuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sniffirðu",
+					"ft": "sniffiði"
+				},
+				"þátíð": {
+					"et": "sniffaðirðu",
+					"ft": "sniffuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sniffast",
+		"sagnbót": "sniffast",
+		"boðháttur": {
+			"et": "sniffastu",
+			"ft": "sniffist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sniffast", "sniffast", "sniffast"],
+					"ft": ["sniffumst", "sniffist", "sniffast"]
+				},
+				"þátíð": {
+					"et": ["sniffaðist", "sniffaðist", "sniffaðist"],
+					"ft": ["sniffuðumst", "sniffuðust", "sniffuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sniffist", "sniffist", "sniffist"],
+					"ft": ["sniffumst", "sniffist", "sniffist"]
+				},
+				"þátíð": {
+					"et": ["sniffaðist", "sniffaðist", "sniffaðist"],
+					"ft": ["sniffuðumst", "sniffuðust", "sniffuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sniffastu"
+				},
+				"þátíð": {
+					"et": "sniffaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sniffistu"
+				},
+				"þátíð": {
+					"et": "sniffaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sniffandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sniffaður", "sniffaðan", "sniffuðum", "sniffaðs"],
+					"kvk": ["sniffuð", "sniffaða", "sniffaðri", "sniffaðrar"],
+					"hk": ["sniffað", "sniffað", "sniffuðu", "sniffaðs"]
+				},
+				"ft": {
+					"kk": ["sniffaðir", "sniffaða", "sniffuðum", "sniffaðra"],
+					"kvk": ["sniffaðar", "sniffaðar", "sniffuðum", "sniffaðra"],
+					"hk": ["sniffuð", "sniffuð", "sniffuðum", "sniffaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sniffa",
+	"hash": "9bd4c727b84769becce3f6636fc59d90c9487fa00e0969de982590d4a0f01cec"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "innleysanlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "leysan",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-leysa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["innleysanlegur", "innleysanlegan", "innleysanlegum", "innleysanlegs"],
+				"kvk": ["innleysanleg", "innleysanlega", "innleysanlegri", "innleysanlegrar"],
+				"hk": ["innleysanlegt", "innleysanlegt", "innleysanlegu", "innleysanlegs"]
+			},
+			"ft": {
+				"kk": ["innleysanlegir", "innleysanlega", "innleysanlegum", "innleysanlegra"],
+				"kvk": ["innleysanlegar", "innleysanlegar", "innleysanlegum", "innleysanlegra"],
+				"hk": ["innleysanleg", "innleysanleg", "innleysanlegum", "innleysanlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["innleysanlegi", "innleysanlega", "innleysanlega", "innleysanlega"],
+				"kvk": ["innleysanlega", "innleysanlegu", "innleysanlegu", "innleysanlegu"],
+				"hk": ["innleysanlega", "innleysanlega", "innleysanlega", "innleysanlega"]
+			},
+			"ft": {
+				"kk": ["innleysanlegu", "innleysanlegu", "innleysanlegu", "innleysanlegu"],
+				"kvk": ["innleysanlegu", "innleysanlegu", "innleysanlegu", "innleysanlegu"],
+				"hk": ["innleysanlegu", "innleysanlegu", "innleysanlegu", "innleysanlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-innleysanlegur",
+	"hash": "bb9edb52631807d9dd6827b1b12ff779aac39f0865c9497406caaabdb6f9f8c0"
+}

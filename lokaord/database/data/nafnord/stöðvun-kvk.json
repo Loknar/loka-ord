@@ -2,6 +2,16 @@
 	"orð": "stöðvun",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stöðv",
+			"samsetning": "stofn",
+			"kennistrengur": "so-stöðva"
+		},
+		{
+			"kennistrengur": "no-un-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["stöðvun", "stöðvun", "stöðvun", "stöðvunar"],
 		"mg": ["stöðvunin", "stöðvunina", "stöðvuninni", "stöðvunarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["stöðvanirnar", "stöðvanirnar", "stöðvununum", "stöðvananna"]
 	},
 	"kennistrengur": "no-stöðvun-kvk",
-	"hash": "33c11d6f0fa6f749c23a3815aa59ffd65f40acd9fdb52d665dba31236db384f2"
+	"hash": "16b846ae02594020e3f47b46c32f5bbac431290a8e2c97e67d38126016733f99"
 }

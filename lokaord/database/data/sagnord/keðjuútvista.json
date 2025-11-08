@@ -1,0 +1,104 @@
+{
+	"orð": "keðjuútvista",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "keðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-keðja-kvk"
+		},
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-vista"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "keðjuútvista",
+		"sagnbót": "keðjuútvistað",
+		"boðháttur": {
+			"stýfður": "keðjuútvista",
+			"et": "keðjuútvistaðu",
+			"ft": "keðjuútvistið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["keðjuútvista", "keðjuútvistar", "keðjuútvistar"],
+					"ft": ["keðjuútvistum", "keðjuútvistið", "keðjuútvista"]
+				},
+				"þátíð": {
+					"et": ["keðjuútvistaði", "keðjuútvistaðir", "keðjuútvistaði"],
+					"ft": ["keðjuútvistuðum", "keðjuútvistuðuð", "keðjuútvistuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["keðjuútvisti", "keðjuútvistir", "keðjuútvisti"],
+					"ft": ["keðjuútvistum", "keðjuútvistið", "keðjuútvisti"]
+				},
+				"þátíð": {
+					"et": ["keðjuútvistaði", "keðjuútvistaðir", "keðjuútvistaði"],
+					"ft": ["keðjuútvistuðum", "keðjuútvistuðuð", "keðjuútvistuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "keðjuútvistarðu",
+					"ft": "keðjuútvistiði"
+				},
+				"þátíð": {
+					"et": "keðjuútvistaðirðu",
+					"ft": "keðjuútvistuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "keðjuútvistirðu",
+					"ft": "keðjuútvistiði"
+				},
+				"þátíð": {
+					"et": "keðjuútvistaðirðu",
+					"ft": "keðjuútvistuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "keðjuútvistandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["keðjuútvistaður", "keðjuútvistaðan", "keðjuútvistuðum", "keðjuútvistaðs"],
+					"kvk": ["keðjuútvistuð", "keðjuútvistaða", "keðjuútvistaðri", "keðjuútvistaðrar"],
+					"hk": ["keðjuútvistað", "keðjuútvistað", "keðjuútvistuðu", "keðjuútvistaðs"]
+				},
+				"ft": {
+					"kk": ["keðjuútvistaðir", "keðjuútvistaða", "keðjuútvistuðum", "keðjuútvistaðra"],
+					"kvk": ["keðjuútvistaðar", "keðjuútvistaðar", "keðjuútvistuðum", "keðjuútvistaðra"],
+					"hk": ["keðjuútvistuð", "keðjuútvistuð", "keðjuútvistuðum", "keðjuútvistaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["keðjuútvistaði", "keðjuútvistaða", "keðjuútvistaða", "keðjuútvistaða"],
+					"kvk": ["keðjuútvistaða", "keðjuútvistuðu", "keðjuútvistuðu", "keðjuútvistuðu"],
+					"hk": ["keðjuútvistaða", "keðjuútvistaða", "keðjuútvistaða", "keðjuútvistaða"]
+				},
+				"ft": {
+					"kk": ["keðjuútvistuðu", "keðjuútvistuðu", "keðjuútvistuðu", "keðjuútvistuðu"],
+					"kvk": ["keðjuútvistuðu", "keðjuútvistuðu", "keðjuútvistuðu", "keðjuútvistuðu"],
+					"hk": ["keðjuútvistuðu", "keðjuútvistuðu", "keðjuútvistuðu", "keðjuútvistuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-keðjuútvista",
+	"hash": "18a874d40bafa8eccdc097e2f2685df1a90a5152b05a942a4b7a5fc25253e8f4"
+}

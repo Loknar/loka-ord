@@ -1,0 +1,27 @@
+{
+	"orð": "verðbréfamagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["verðbréfamagn", "verðbréfamagn", "verðbréfamagni", "verðbréfamagns"],
+		"mg": ["verðbréfamagnið", "verðbréfamagnið", "verðbréfamagninu", "verðbréfamagnsins"]
+	},
+	"kennistrengur": "no-verðbréfamagn-hk",
+	"hash": "bfad59eddb12bc8494cf03fee0bf85fb34c5b75f1b3e368e38230a4d921bbfe2"
+}

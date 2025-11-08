@@ -1,0 +1,32 @@
+{
+	"orð": "fjárfestingaráðgjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "festinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"mynd": "ráð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráð-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárfestingaráðgjöf", "fjárfestingaráðgjöf", "fjárfestingaráðgjöf", "fjárfestingaráðgjafar"],
+		"mg": ["fjárfestingaráðgjöfin", "fjárfestingaráðgjöfina", "fjárfestingaráðgjöfinni", "fjárfestingaráðgjafarinnar"]
+	},
+	"kennistrengur": "no-fjárfestingaráðgjöf-kvk",
+	"hash": "81046c11369d8850e158e6d4d18647b76d1f082ff00c269a787cd6a988bfa716"
+}

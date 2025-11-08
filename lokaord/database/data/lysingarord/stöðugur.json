@@ -1,6 +1,16 @@
 {
 	"orð": "stöðugur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stöð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stöð-kvk"
+		},
+		{
+			"kennistrengur": "lo-ugur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -30,14 +40,14 @@
 	"miðstig": {
 		"vb": {
 			"et": {
-				"kk": ["stöðugari", "stöðugari", "stöðugari", "stöðugari"],
-				"kvk": ["stöðugari", "stöðugari", "stöðugari", "stöðugari"],
-				"hk": ["stöðugara", "stöðugara", "stöðugara", "stöðugara"]
+				"kk": ["stöðugri", "stöðugri", "stöðugri", "stöðugri"],
+				"kvk": ["stöðugri", "stöðugri", "stöðugri", "stöðugri"],
+				"hk": ["stöðugra", "stöðugra", "stöðugra", "stöðugra"]
 			},
 			"ft": {
-				"kk": ["stöðugari", "stöðugari", "stöðugari", "stöðugari"],
-				"kvk": ["stöðugari", "stöðugari", "stöðugari", "stöðugari"],
-				"hk": ["stöðugari", "stöðugari", "stöðugari", "stöðugari"]
+				"kk": ["stöðugri", "stöðugri", "stöðugri", "stöðugri"],
+				"kvk": ["stöðugri", "stöðugri", "stöðugri", "stöðugri"],
+				"hk": ["stöðugri", "stöðugri", "stöðugri", "stöðugri"]
 			}
 		}
 	},
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-stöðugur",
-	"hash": "086b1eeac7d90d5b43c0499056641ace57f125f5e949c2f699361fbc85f11931"
+	"hash": "ba7347e8a2a360cb75c7e77aa455523fd394235efc85308b991c8e197a6cf3dd"
 }

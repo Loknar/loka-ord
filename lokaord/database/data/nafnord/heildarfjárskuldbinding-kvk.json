@@ -1,0 +1,35 @@
+{
+	"orð": "heildarfjárskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarfjárskuldbinding", "heildarfjárskuldbindingu", "heildarfjárskuldbindingu", "heildarfjárskuldbindingar"],
+		"mg": ["heildarfjárskuldbindingin", "heildarfjárskuldbindinguna", "heildarfjárskuldbindingunni", "heildarfjárskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["heildarfjárskuldbindingar", "heildarfjárskuldbindingar", "heildarfjárskuldbindingum", "heildarfjárskuldbindinga"],
+		"mg": ["heildarfjárskuldbindingarnar", "heildarfjárskuldbindingarnar", "heildarfjárskuldbindingunum", "heildarfjárskuldbindinganna"]
+	},
+	"kennistrengur": "no-heildarfjárskuldbinding-kvk",
+	"hash": "7c816092743d0219dfb811cd3e6018a8f8f959fd2ae2d0962b26bb5d212227ee"
+}
