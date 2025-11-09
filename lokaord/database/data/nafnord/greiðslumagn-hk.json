@@ -1,0 +1,22 @@
+{
+	"orð": "greiðslumagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslumagn", "greiðslumagn", "greiðslumagni", "greiðslumagns"],
+		"mg": ["greiðslumagnið", "greiðslumagnið", "greiðslumagninu", "greiðslumagnsins"]
+	},
+	"kennistrengur": "no-greiðslumagn-hk",
+	"hash": "f7d40ee74d286d1b4874c12b6b6fefcae8e3b78a392121ccee6b2bde31e60d3d"
+}

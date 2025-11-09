@@ -1,0 +1,104 @@
+{
+	"orð": "gildisdagsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gildis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gildi-hk"
+		},
+		{
+			"mynd": "dag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dagur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gildisdagsetja",
+		"sagnbót": "gildisdagsett",
+		"boðháttur": {
+			"stýfður": "gildisdagset",
+			"et": "gildisdagsettu",
+			"ft": "gildisdagsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gildisdagset", "gildisdagsetur", "gildisdagsetur"],
+					"ft": ["gildisdagsetjum", "gildisdagsetjið", "gildisdagsetja"]
+				},
+				"þátíð": {
+					"et": ["gildisdagsetti", "gildisdagsettir", "gildisdagsetti"],
+					"ft": ["gildisdagsettum", "gildisdagsettuð", "gildisdagsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gildisdagsetji", "gildisdagsetjir", "gildisdagsetji"],
+					"ft": ["gildisdagsetjum", "gildisdagsetjið", "gildisdagsetji"]
+				},
+				"þátíð": {
+					"et": ["gildisdagsetti", "gildisdagsettir", "gildisdagsetti"],
+					"ft": ["gildisdagsettum", "gildisdagsettuð", "gildisdagsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gildisdagseturðu",
+					"ft": "gildisdagsetjiði"
+				},
+				"þátíð": {
+					"et": "gildisdagsettirðu",
+					"ft": "gildisdagsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gildisdagsetjirðu",
+					"ft": "gildisdagsetjiði"
+				},
+				"þátíð": {
+					"et": "gildisdagsettirðu",
+					"ft": "gildisdagsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gildisdagsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gildisdagsettur", "gildisdagsettan", "gildisdagsettum", "gildisdagsetts"],
+					"kvk": ["gildisdagsett", "gildisdagsetta", "gildisdagsettri", "gildisdagsettrar"],
+					"hk": ["gildisdagsett", "gildisdagsett", "gildisdagsettu", "gildisdagsetts"]
+				},
+				"ft": {
+					"kk": ["gildisdagsettir", "gildisdagsetta", "gildisdagsettum", "gildisdagsettra"],
+					"kvk": ["gildisdagsettar", "gildisdagsettar", "gildisdagsettum", "gildisdagsettra"],
+					"hk": ["gildisdagsett", "gildisdagsett", "gildisdagsettum", "gildisdagsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gildisdagsetti", "gildisdagsetta", "gildisdagsetta", "gildisdagsetta"],
+					"kvk": ["gildisdagsetta", "gildisdagsettu", "gildisdagsettu", "gildisdagsettu"],
+					"hk": ["gildisdagsetta", "gildisdagsetta", "gildisdagsetta", "gildisdagsetta"]
+				},
+				"ft": {
+					"kk": ["gildisdagsettu", "gildisdagsettu", "gildisdagsettu", "gildisdagsettu"],
+					"kvk": ["gildisdagsettu", "gildisdagsettu", "gildisdagsettu", "gildisdagsettu"],
+					"hk": ["gildisdagsettu", "gildisdagsettu", "gildisdagsettu", "gildisdagsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gildisdagsetja",
+	"hash": "893bd1df1652b0f9b720ddd9751eb29e4b8a0802e713acbd176efe44d4960ccf"
+}

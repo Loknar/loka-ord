@@ -1,0 +1,32 @@
+{
+	"orð": "lágmarksinnihald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "inni",
+			"samsetning": "bandstafs",
+			"kennistrengur": "smáo.ao-inn"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-hald-hk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksinnihald", "lágmarksinnihald", "lágmarksinnihaldi", "lágmarksinnihalds"],
+		"mg": ["lágmarksinnihaldið", "lágmarksinnihaldið", "lágmarksinnihaldinu", "lágmarksinnihaldsins"]
+	},
+	"kennistrengur": "no-lágmarksinnihald-hk",
+	"hash": "2cb143841e48a713af7300ee0165824e0253ba844fce4b4c595e22ae4e040ff3"
+}

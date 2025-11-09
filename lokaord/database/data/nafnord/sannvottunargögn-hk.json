@@ -1,0 +1,27 @@
+{
+	"orð": "sannvottunargögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "sann",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-sannur"
+		},
+		{
+			"mynd": "vottunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vottun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["sannvottunargögn", "sannvottunargögn", "sannvottunargögnum", "sannvottunargagna"],
+		"mg": ["sannvottunargögnin", "sannvottunargögnin", "sannvottunargögnunum", "sannvottunargagnanna"]
+	},
+	"kennistrengur": "no-sannvottunargögn-hk",
+	"hash": "3e507f48e95d17cf13ccbbdfca80ac490d457501cd367fbe1383f507bf0f5f39"
+}

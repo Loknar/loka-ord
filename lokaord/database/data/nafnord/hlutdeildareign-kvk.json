@@ -1,0 +1,30 @@
+{
+	"orð": "hlutdeildareign",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"mynd": "deildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-deild-kvk"
+		},
+		{
+			"kennistrengur": "no-eign-kvk"
+		}
+	],
+	"et": {
+		"ág": ["hlutdeildareign", "hlutdeildareign", "hlutdeildareign", "hlutdeildareignar"],
+		"mg": ["hlutdeildareignin", "hlutdeildareignina", "hlutdeildareigninni", "hlutdeildareignarinnar"]
+	},
+	"ft": {
+		"ág": ["hlutdeildareignir", "hlutdeildareignir", "hlutdeildareignum", "hlutdeildareigna"],
+		"mg": ["hlutdeildareignirnar", "hlutdeildareignirnar", "hlutdeildareignunum", "hlutdeildareignanna"]
+	},
+	"kennistrengur": "no-hlutdeildareign-kvk",
+	"hash": "dde3170df32c48b9ff7c6199ef37dd764236d3ecb2370db7f8f56cf710e42325"
+}

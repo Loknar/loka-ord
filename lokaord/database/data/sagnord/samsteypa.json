@@ -1,0 +1,99 @@
+{
+	"orð": "samsteypa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-steypa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "samsteypa",
+		"sagnbót": "samsteypt",
+		"boðháttur": {
+			"stýfður": "samsteyp",
+			"et": "samsteyptu",
+			"ft": "samsteypið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samsteypi", "samsteypir", "samsteypir"],
+					"ft": ["samsteypum", "samsteypið", "samsteypa"]
+				},
+				"þátíð": {
+					"et": ["samsteypti", "samsteyptir", "samsteypti"],
+					"ft": ["samsteyptum", "samsteyptuð", "samsteyptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samsteypi", "samsteypir", "samsteypi"],
+					"ft": ["samsteypum", "samsteypið", "samsteypi"]
+				},
+				"þátíð": {
+					"et": ["samsteypti", "samsteyptir", "samsteypti"],
+					"ft": ["samsteyptum", "samsteyptuð", "samsteyptu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samsteypirðu",
+					"ft": "samsteypiði"
+				},
+				"þátíð": {
+					"et": "samsteyptirðu",
+					"ft": "samsteyptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samsteypirðu",
+					"ft": "samsteypiði"
+				},
+				"þátíð": {
+					"et": "samsteyptirðu",
+					"ft": "samsteyptuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "samsteypandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["samsteyptur", "samsteyptan", "samsteyptum", "samsteypts"],
+					"kvk": ["samsteypt", "samsteypta", "samsteyptri", "samsteyptrar"],
+					"hk": ["samsteypt", "samsteypt", "samsteyptu", "samsteypts"]
+				},
+				"ft": {
+					"kk": ["samsteyptir", "samsteypta", "samsteyptum", "samsteyptra"],
+					"kvk": ["samsteyptar", "samsteyptar", "samsteyptum", "samsteyptra"],
+					"hk": ["samsteypt", "samsteypt", "samsteyptum", "samsteyptra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["samsteypti", "samsteypta", "samsteypta", "samsteypta"],
+					"kvk": ["samsteypta", "samsteyptu", "samsteyptu", "samsteyptu"],
+					"hk": ["samsteypta", "samsteypta", "samsteypta", "samsteypta"]
+				},
+				"ft": {
+					"kk": ["samsteyptu", "samsteyptu", "samsteyptu", "samsteyptu"],
+					"kvk": ["samsteyptu", "samsteyptu", "samsteyptu", "samsteyptu"],
+					"hk": ["samsteyptu", "samsteyptu", "samsteyptu", "samsteyptu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-samsteypa",
+	"hash": "9fe354e8084fa8968e2b204c8a22a6502e1daa4e9ed0a71d8b143f42376ba790"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "greiðsluvörumerki",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"kennistrengur": "no-merki-hk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluvörumerki", "greiðsluvörumerki", "greiðsluvörumerki", "greiðsluvörumerkis"],
+		"mg": ["greiðsluvörumerkið", "greiðsluvörumerkið", "greiðsluvörumerkinu", "greiðsluvörumerkisins"]
+	},
+	"ft": {
+		"ág": ["greiðsluvörumerki", "greiðsluvörumerki", "greiðsluvörumerkjum", "greiðsluvörumerkja"],
+		"mg": ["greiðsluvörumerkin", "greiðsluvörumerkin", "greiðsluvörumerkjunum", "greiðsluvörumerkjanna"]
+	},
+	"kennistrengur": "no-greiðsluvörumerki-hk",
+	"hash": "343f52486f3c1716467e5e3c99f0e44ff87ccdc2564cbc5a076203b3fa040b5d"
+}

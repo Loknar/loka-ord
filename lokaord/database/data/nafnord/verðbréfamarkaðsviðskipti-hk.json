@@ -1,0 +1,37 @@
+{
+	"orð": "verðbréfamarkaðsviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"mynd": "bréfa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bréf-hk"
+		},
+		{
+			"mynd": "markaðs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-markaður-kk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["verðbréfamarkaðsviðskipti", "verðbréfamarkaðsviðskipti", "verðbréfamarkaðsviðskiptum", "verðbréfamarkaðsviðskipta"],
+		"mg": ["verðbréfamarkaðsviðskiptin", "verðbréfamarkaðsviðskiptin", "verðbréfamarkaðsviðskiptunum", "verðbréfamarkaðsviðskiptanna"]
+	},
+	"kennistrengur": "no-verðbréfamarkaðsviðskipti-hk",
+	"hash": "1287e4333036aaa6911379df5af25c481d89f713336ce709192a3c215cbe5981"
+}

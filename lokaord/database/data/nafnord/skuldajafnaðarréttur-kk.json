@@ -1,0 +1,27 @@
+{
+	"orð": "skuldajafnaðarréttur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "jafnaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jöfnuður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-réttur-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldajafnaðarréttur", "skuldajafnaðarrétt", "skuldajafnaðarrétti", "skuldajafnaðarréttar"],
+		"mg": ["skuldajafnaðarrétturinn", "skuldajafnaðarréttinn", "skuldajafnaðarréttinum", "skuldajafnaðarréttarins"]
+	},
+	"kennistrengur": "no-skuldajafnaðarréttur-kk",
+	"hash": "d26f0f4ebbd47bf1430e61f1a6c854717ef5b722472a177d57cf8d17b6971cb7"
+}

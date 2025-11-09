@@ -1,0 +1,48 @@
+{
+	"orð": "starfsmannatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "starfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-starf-hk"
+		},
+		{
+			"mynd": "manna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["starfsmannatengdur", "starfsmannatengdan", "starfsmannatengdum", "starfsmannatengds"],
+				"kvk": ["starfsmannatengd", "starfsmannatengda", "starfsmannatengdri", "starfsmannatengdrar"],
+				"hk": ["starfsmannatengt", "starfsmannatengt", "starfsmannatengdu", "starfsmannatengds"]
+			},
+			"ft": {
+				"kk": ["starfsmannatengdir", "starfsmannatengda", "starfsmannatengdum", "starfsmannatengdra"],
+				"kvk": ["starfsmannatengdar", "starfsmannatengdar", "starfsmannatengdum", "starfsmannatengdra"],
+				"hk": ["starfsmannatengd", "starfsmannatengd", "starfsmannatengdum", "starfsmannatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["starfsmannatengdi", "starfsmannatengda", "starfsmannatengda", "starfsmannatengda"],
+				"kvk": ["starfsmannatengda", "starfsmannatengdu", "starfsmannatengdu", "starfsmannatengdu"],
+				"hk": ["starfsmannatengda", "starfsmannatengda", "starfsmannatengda", "starfsmannatengda"]
+			},
+			"ft": {
+				"kk": ["starfsmannatengdu", "starfsmannatengdu", "starfsmannatengdu", "starfsmannatengdu"],
+				"kvk": ["starfsmannatengdu", "starfsmannatengdu", "starfsmannatengdu", "starfsmannatengdu"],
+				"hk": ["starfsmannatengdu", "starfsmannatengdu", "starfsmannatengdu", "starfsmannatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-starfsmannatengdur",
+	"hash": "e6410912e57f8edc87493f7faba33489013f25c404b3eb52e0e256068cb0ed62"
+}

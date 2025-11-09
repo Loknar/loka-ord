@@ -1,0 +1,48 @@
+{
+	"orð": "loftslagstengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lofts",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-loft-hk"
+		},
+		{
+			"mynd": "lags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["loftslagstengdur", "loftslagstengdan", "loftslagstengdum", "loftslagstengds"],
+				"kvk": ["loftslagstengd", "loftslagstengda", "loftslagstengdri", "loftslagstengdrar"],
+				"hk": ["loftslagstengt", "loftslagstengt", "loftslagstengdu", "loftslagstengds"]
+			},
+			"ft": {
+				"kk": ["loftslagstengdir", "loftslagstengda", "loftslagstengdum", "loftslagstengdra"],
+				"kvk": ["loftslagstengdar", "loftslagstengdar", "loftslagstengdum", "loftslagstengdra"],
+				"hk": ["loftslagstengd", "loftslagstengd", "loftslagstengdum", "loftslagstengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["loftslagstengdi", "loftslagstengda", "loftslagstengda", "loftslagstengda"],
+				"kvk": ["loftslagstengda", "loftslagstengdu", "loftslagstengdu", "loftslagstengdu"],
+				"hk": ["loftslagstengda", "loftslagstengda", "loftslagstengda", "loftslagstengda"]
+			},
+			"ft": {
+				"kk": ["loftslagstengdu", "loftslagstengdu", "loftslagstengdu", "loftslagstengdu"],
+				"kvk": ["loftslagstengdu", "loftslagstengdu", "loftslagstengdu", "loftslagstengdu"],
+				"hk": ["loftslagstengdu", "loftslagstengdu", "loftslagstengdu", "loftslagstengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-loftslagstengdur",
+	"hash": "39e11c8cd22339518734266aefdcaaff540b2efa7049d1c302161fd54b372e19"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "gjaldþolskrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "þols",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þol-hk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldþolskrafa", "gjaldþolskröfu", "gjaldþolskröfu", "gjaldþolskröfu"],
+		"mg": ["gjaldþolskrafan", "gjaldþolskröfuna", "gjaldþolskröfunni", "gjaldþolskröfunnar"]
+	},
+	"ft": {
+		"ág": ["gjaldþolskröfur", "gjaldþolskröfur", "gjaldþolskröfum", "gjaldþolskrafna"],
+		"mg": ["gjaldþolskröfurnar", "gjaldþolskröfurnar", "gjaldþolskröfunum", "gjaldþolskrafnanna"]
+	},
+	"kennistrengur": "no-gjaldþolskrafa-kvk",
+	"hash": "9f99b787570afbf1984514b2f60fa6ba866457db838a3373bcab11342c305eeb"
+}

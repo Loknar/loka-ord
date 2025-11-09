@@ -1,0 +1,35 @@
+{
+	"orð": "frumtryggingaskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "frum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frum-hk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["frumtryggingaskuldbinding", "frumtryggingaskuldbindingu", "frumtryggingaskuldbindingu", "frumtryggingaskuldbindingar"],
+		"mg": ["frumtryggingaskuldbindingin", "frumtryggingaskuldbindinguna", "frumtryggingaskuldbindingunni", "frumtryggingaskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["frumtryggingaskuldbindingar", "frumtryggingaskuldbindingar", "frumtryggingaskuldbindingum", "frumtryggingaskuldbindinga"],
+		"mg": ["frumtryggingaskuldbindingarnar", "frumtryggingaskuldbindingarnar", "frumtryggingaskuldbindingunum", "frumtryggingaskuldbindinganna"]
+	},
+	"kennistrengur": "no-frumtryggingaskuldbinding-kvk",
+	"hash": "ca6c2dcb97701d507ce9326388e513fde8e324664f1c3f4aa0dc5cd05c4e44ce"
+}

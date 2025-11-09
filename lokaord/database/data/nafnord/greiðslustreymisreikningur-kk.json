@@ -1,0 +1,30 @@
+{
+	"orð": "greiðslustreymisreikningur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "streymis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-streymi-hk"
+		},
+		{
+			"kennistrengur": "no-reikningur-kk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslustreymisreikningur", "greiðslustreymisreikning", "greiðslustreymisreikningi", "greiðslustreymisreiknings"],
+		"mg": ["greiðslustreymisreikningurinn", "greiðslustreymisreikninginn", "greiðslustreymisreikningnum", "greiðslustreymisreikningsins"]
+	},
+	"ft": {
+		"ág": ["greiðslustreymisreikningar", "greiðslustreymisreikninga", "greiðslustreymisreikningum", "greiðslustreymisreikninga"],
+		"mg": ["greiðslustreymisreikningarnir", "greiðslustreymisreikningana", "greiðslustreymisreikningunum", "greiðslustreymisreikninganna"]
+	},
+	"kennistrengur": "no-greiðslustreymisreikningur-kk",
+	"hash": "fdfef815a4511ab1b343c925332273463d84100dbfc0fffaf3d2f1f73099afe6"
+}

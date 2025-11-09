@@ -1,0 +1,27 @@
+{
+	"orð": "heildarársvelta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "árs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-velta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarársvelta", "heildarársveltu", "heildarársveltu", "heildarársveltu"],
+		"mg": ["heildarársveltan", "heildarársveltuna", "heildarársveltunni", "heildarársveltunnar"]
+	},
+	"kennistrengur": "no-heildarársvelta-kvk",
+	"hash": "57fd2830b723c6e0956c2dc7d65d8cc41189b23236680eedd408dbd9799686ba"
+}

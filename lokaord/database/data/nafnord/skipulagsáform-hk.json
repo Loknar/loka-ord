@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "skipu",
+			"mynd": "skipulags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "so-skipa"
-		},
-		{
-			"mynd": "lags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
-		},
-		{
-			"mynd": "á",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-á"
+			"kennistrengur": "no-skipulag-hk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-form-hk"
+			"kennistrengur": "no-áform-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["skipulagsáformin", "skipulagsáformin", "skipulagsáformunum", "skipulagsáformanna"]
 	},
 	"kennistrengur": "no-skipulagsáform-hk",
-	"hash": "860272e011ac74400cd40d1690d59d5deed0ea58303111e3fbc183e7fb023917"
+	"hash": "b870de1ef72c742ac0b370fc1e9564f9e31522aec1b441da870b727786647c72"
 }

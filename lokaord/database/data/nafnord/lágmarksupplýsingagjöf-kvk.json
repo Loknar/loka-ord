@@ -1,0 +1,37 @@
+{
+	"orð": "lágmarksupplýsingagjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lág",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-lágur"
+		},
+		{
+			"mynd": "marks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mark-hk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "lýsinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lýsing-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["lágmarksupplýsingagjöf", "lágmarksupplýsingagjöf", "lágmarksupplýsingagjöf", "lágmarksupplýsingagjafar"],
+		"mg": ["lágmarksupplýsingagjöfin", "lágmarksupplýsingagjöfina", "lágmarksupplýsingagjöfinni", "lágmarksupplýsingagjafarinnar"]
+	},
+	"kennistrengur": "no-lágmarksupplýsingagjöf-kvk",
+	"hash": "6106c2f3fb930f09d1dad888d0a17e33e4f925adefd513ac7de4aa64b3fd1e22"
+}

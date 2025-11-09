@@ -1,0 +1,22 @@
+{
+	"orð": "greiðslugögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["greiðslugögn", "greiðslugögn", "greiðslugögnum", "greiðslugagna"],
+		"mg": ["greiðslugögnin", "greiðslugögnin", "greiðslugögnunum", "greiðslugagnanna"]
+	},
+	"kennistrengur": "no-greiðslugögn-hk",
+	"hash": "ebea20681021b95e0ec2c86318197a6d9e6b1fd2fc5da078c2663f0b179040d7"
+}

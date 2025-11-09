@@ -1,0 +1,27 @@
+{
+	"orð": "inntaksgögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"mynd": "taks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tak-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["inntaksgögn", "inntaksgögn", "inntaksgögnum", "inntaksgagna"],
+		"mg": ["inntaksgögnin", "inntaksgögnin", "inntaksgögnunum", "inntaksgagnanna"]
+	},
+	"kennistrengur": "no-inntaksgögn-hk",
+	"hash": "f80647aec91b08a85a7f89431bcc64dd7865d6e1767ae48312f54c493f42ed54"
+}

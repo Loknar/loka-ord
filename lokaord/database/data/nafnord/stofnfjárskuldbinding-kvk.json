@@ -1,0 +1,35 @@
+{
+	"orð": "stofnfjárskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stofn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stofn-kk"
+		},
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stofnfjárskuldbinding", "stofnfjárskuldbindingu", "stofnfjárskuldbindingu", "stofnfjárskuldbindingar"],
+		"mg": ["stofnfjárskuldbindingin", "stofnfjárskuldbindinguna", "stofnfjárskuldbindingunni", "stofnfjárskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["stofnfjárskuldbindingar", "stofnfjárskuldbindingar", "stofnfjárskuldbindingum", "stofnfjárskuldbindinga"],
+		"mg": ["stofnfjárskuldbindingarnar", "stofnfjárskuldbindingarnar", "stofnfjárskuldbindingunum", "stofnfjárskuldbindinganna"]
+	},
+	"kennistrengur": "no-stofnfjárskuldbinding-kvk",
+	"hash": "927c7660b5d551fbc70772011186e467f6733b34e975e929f95ba2359bc3d970"
+}

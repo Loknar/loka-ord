@@ -1,0 +1,35 @@
+{
+	"orð": "peningamarkaðsinnstæða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"mynd": "markaðs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-markaður-kk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["peningamarkaðsinnstæða", "peningamarkaðsinnstæðu", "peningamarkaðsinnstæðu", "peningamarkaðsinnstæðu"],
+		"mg": ["peningamarkaðsinnstæðan", "peningamarkaðsinnstæðuna", "peningamarkaðsinnstæðunni", "peningamarkaðsinnstæðunnar"]
+	},
+	"ft": {
+		"ág": ["peningamarkaðsinnstæður", "peningamarkaðsinnstæður", "peningamarkaðsinnstæðum", "peningamarkaðsinnstæðna"],
+		"mg": ["peningamarkaðsinnstæðurnar", "peningamarkaðsinnstæðurnar", "peningamarkaðsinnstæðunum", "peningamarkaðsinnstæðnanna"]
+	},
+	"kennistrengur": "no-peningamarkaðsinnstæða-kvk",
+	"hash": "f284ff0fd612db606693593fffcd1e8c244746202a28e6fdde2cf567f7e3450b"
+}

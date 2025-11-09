@@ -1,0 +1,48 @@
+{
+	"orð": "fjárfestingarhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"mynd": "festingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-festing-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fjárfestingarhæfur", "fjárfestingarhæfan", "fjárfestingarhæfum", "fjárfestingarhæfs"],
+				"kvk": ["fjárfestingarhæf", "fjárfestingarhæfa", "fjárfestingarhæfri", "fjárfestingarhæfrar"],
+				"hk": ["fjárfestingarhæft", "fjárfestingarhæft", "fjárfestingarhæfu", "fjárfestingarhæfs"]
+			},
+			"ft": {
+				"kk": ["fjárfestingarhæfir", "fjárfestingarhæfa", "fjárfestingarhæfum", "fjárfestingarhæfra"],
+				"kvk": ["fjárfestingarhæfar", "fjárfestingarhæfar", "fjárfestingarhæfum", "fjárfestingarhæfra"],
+				"hk": ["fjárfestingarhæf", "fjárfestingarhæf", "fjárfestingarhæfum", "fjárfestingarhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fjárfestingarhæfi", "fjárfestingarhæfa", "fjárfestingarhæfa", "fjárfestingarhæfa"],
+				"kvk": ["fjárfestingarhæfa", "fjárfestingarhæfu", "fjárfestingarhæfu", "fjárfestingarhæfu"],
+				"hk": ["fjárfestingarhæfa", "fjárfestingarhæfa", "fjárfestingarhæfa", "fjárfestingarhæfa"]
+			},
+			"ft": {
+				"kk": ["fjárfestingarhæfu", "fjárfestingarhæfu", "fjárfestingarhæfu", "fjárfestingarhæfu"],
+				"kvk": ["fjárfestingarhæfu", "fjárfestingarhæfu", "fjárfestingarhæfu", "fjárfestingarhæfu"],
+				"hk": ["fjárfestingarhæfu", "fjárfestingarhæfu", "fjárfestingarhæfu", "fjárfestingarhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fjárfestingarhæfur",
+	"hash": "550564969e96db93ba4d4fa3f85bbd918f7e913f9e1db917e47e1c03074e4460"
+}

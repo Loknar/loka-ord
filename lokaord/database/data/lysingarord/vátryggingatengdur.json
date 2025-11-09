@@ -1,0 +1,48 @@
+{
+	"orð": "vátryggingatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vátryggingatengdur", "vátryggingatengdan", "vátryggingatengdum", "vátryggingatengds"],
+				"kvk": ["vátryggingatengd", "vátryggingatengda", "vátryggingatengdri", "vátryggingatengdrar"],
+				"hk": ["vátryggingatengt", "vátryggingatengt", "vátryggingatengdu", "vátryggingatengds"]
+			},
+			"ft": {
+				"kk": ["vátryggingatengdir", "vátryggingatengda", "vátryggingatengdum", "vátryggingatengdra"],
+				"kvk": ["vátryggingatengdar", "vátryggingatengdar", "vátryggingatengdum", "vátryggingatengdra"],
+				"hk": ["vátryggingatengd", "vátryggingatengd", "vátryggingatengdum", "vátryggingatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vátryggingatengdi", "vátryggingatengda", "vátryggingatengda", "vátryggingatengda"],
+				"kvk": ["vátryggingatengda", "vátryggingatengdu", "vátryggingatengdu", "vátryggingatengdu"],
+				"hk": ["vátryggingatengda", "vátryggingatengda", "vátryggingatengda", "vátryggingatengda"]
+			},
+			"ft": {
+				"kk": ["vátryggingatengdu", "vátryggingatengdu", "vátryggingatengdu", "vátryggingatengdu"],
+				"kvk": ["vátryggingatengdu", "vátryggingatengdu", "vátryggingatengdu", "vátryggingatengdu"],
+				"hk": ["vátryggingatengdu", "vátryggingatengdu", "vátryggingatengdu", "vátryggingatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-vátryggingatengdur",
+	"hash": "f78cbec9eedf0ba6a826b1a40a3d94e32e7a75ff54f52cb79bb7e47498338ee9"
+}

@@ -1,0 +1,32 @@
+{
+	"orð": "viðbótarupplýsingagjöf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "lýsinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lýsing-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gjöf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["viðbótarupplýsingagjöf", "viðbótarupplýsingagjöf", "viðbótarupplýsingagjöf", "viðbótarupplýsingagjafar"],
+		"mg": ["viðbótarupplýsingagjöfin", "viðbótarupplýsingagjöfina", "viðbótarupplýsingagjöfinni", "viðbótarupplýsingagjafarinnar"]
+	},
+	"kennistrengur": "no-viðbótarupplýsingagjöf-kvk",
+	"hash": "dd055dad01ca786a448717c7c010027d8aa8bfb1679b493a5a04654e6328c498"
+}

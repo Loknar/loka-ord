@@ -1,0 +1,35 @@
+{
+	"orð": "vátryggingaskuldbinding",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-binding-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vátryggingaskuldbinding", "vátryggingaskuldbindingu", "vátryggingaskuldbindingu", "vátryggingaskuldbindingar"],
+		"mg": ["vátryggingaskuldbindingin", "vátryggingaskuldbindinguna", "vátryggingaskuldbindingunni", "vátryggingaskuldbindingarinnar"]
+	},
+	"ft": {
+		"ág": ["vátryggingaskuldbindingar", "vátryggingaskuldbindingar", "vátryggingaskuldbindingum", "vátryggingaskuldbindinga"],
+		"mg": ["vátryggingaskuldbindingarnar", "vátryggingaskuldbindingarnar", "vátryggingaskuldbindingunum", "vátryggingaskuldbindinganna"]
+	},
+	"kennistrengur": "no-vátryggingaskuldbinding-kvk",
+	"hash": "d4656a4284d05d2b0737f3be65b534b85462092071a52af0dfbb3ed41c552aff"
+}

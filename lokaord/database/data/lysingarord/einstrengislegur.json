@@ -1,0 +1,48 @@
+{
+	"orð": "einstrengislegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "strengis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-strengur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["einstrengislegur", "einstrengislegan", "einstrengislegum", "einstrengislegs"],
+				"kvk": ["einstrengisleg", "einstrengislega", "einstrengislegri", "einstrengislegrar"],
+				"hk": ["einstrengislegt", "einstrengislegt", "einstrengislegu", "einstrengislegs"]
+			},
+			"ft": {
+				"kk": ["einstrengislegir", "einstrengislega", "einstrengislegum", "einstrengislegra"],
+				"kvk": ["einstrengislegar", "einstrengislegar", "einstrengislegum", "einstrengislegra"],
+				"hk": ["einstrengisleg", "einstrengisleg", "einstrengislegum", "einstrengislegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["einstrengislegi", "einstrengislega", "einstrengislega", "einstrengislega"],
+				"kvk": ["einstrengislega", "einstrengislegu", "einstrengislegu", "einstrengislegu"],
+				"hk": ["einstrengislega", "einstrengislega", "einstrengislega", "einstrengislega"]
+			},
+			"ft": {
+				"kk": ["einstrengislegu", "einstrengislegu", "einstrengislegu", "einstrengislegu"],
+				"kvk": ["einstrengislegu", "einstrengislegu", "einstrengislegu", "einstrengislegu"],
+				"hk": ["einstrengislegu", "einstrengislegu", "einstrengislegu", "einstrengislegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-einstrengislegur",
+	"hash": "846b864a23ea9929125b110cf188c9a05615add05ebba04235ba644024cb622b"
+}

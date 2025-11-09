@@ -1,0 +1,27 @@
+{
+	"orð": "uppgjörskaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"mynd": "gjörs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjör-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["uppgjörskaup", "uppgjörskaup", "uppgjörskaupum", "uppgjörskaupa"],
+		"mg": ["uppgjörskaupin", "uppgjörskaupin", "uppgjörskaupunum", "uppgjörskaupanna"]
+	},
+	"kennistrengur": "no-uppgjörskaup-hk",
+	"hash": "1dfe952cb568c19bdbc2eb7ec88672d7f975e041426779bd8a71efab77fd484b"
+}

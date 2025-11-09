@@ -1,0 +1,27 @@
+{
+	"orð": "gjaldþolsmat",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "þols",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þol-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-mat-hk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldþolsmat", "gjaldþolsmat", "gjaldþolsmati", "gjaldþolsmats"],
+		"mg": ["gjaldþolsmatið", "gjaldþolsmatið", "gjaldþolsmatinu", "gjaldþolsmatsins"]
+	},
+	"kennistrengur": "no-gjaldþolsmat-hk",
+	"hash": "e44f132ca2cdb5d486cb13f3cd010160931697f1730f36d79d6d4140b5b47555"
+}

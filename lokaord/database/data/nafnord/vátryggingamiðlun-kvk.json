@@ -1,0 +1,27 @@
+{
+	"orð": "vátryggingamiðlun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-miðlun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vátryggingamiðlun", "vátryggingamiðlun", "vátryggingamiðlun", "vátryggingamiðlunar"],
+		"mg": ["vátryggingamiðlunin", "vátryggingamiðlunina", "vátryggingamiðluninni", "vátryggingamiðlunarinnar"]
+	},
+	"kennistrengur": "no-vátryggingamiðlun-kvk",
+	"hash": "30a7b19128276bcab8c4bf7c8e1600563bdb96d056901e9ec276af0bbc6ae019"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "peningainnstæða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"mynd": "inn",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-inn"
+		},
+		{
+			"kennistrengur": "no-stæða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["peningainnstæða", "peningainnstæðu", "peningainnstæðu", "peningainnstæðu"],
+		"mg": ["peningainnstæðan", "peningainnstæðuna", "peningainnstæðunni", "peningainnstæðunnar"]
+	},
+	"ft": {
+		"ág": ["peningainnstæður", "peningainnstæður", "peningainnstæðum", "peningainnstæðna"],
+		"mg": ["peningainnstæðurnar", "peningainnstæðurnar", "peningainnstæðunum", "peningainnstæðnanna"]
+	},
+	"kennistrengur": "no-peningainnstæða-kvk",
+	"hash": "9f1ef10623feffced9721616b45f730a08dc57a3a76271d58b2fdcd9dbe49ac7"
+}

@@ -1,0 +1,22 @@
+{
+	"orð": "greiðsluvirkjun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-virkjun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðsluvirkjun", "greiðsluvirkjun", "greiðsluvirkjun", "greiðsluvirkjunar"],
+		"mg": ["greiðsluvirkjunin", "greiðsluvirkjunina", "greiðsluvirkjuninni", "greiðsluvirkjunarinnar"]
+	},
+	"kennistrengur": "no-greiðsluvirkjun-kvk",
+	"hash": "e2d2d459fdd1c1dce8efc2a98ade9ec3d5f7970338fd3cc3d676654170671b4f"
+}

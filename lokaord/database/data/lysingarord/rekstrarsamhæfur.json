@@ -1,0 +1,48 @@
+{
+	"orð": "rekstrarsamhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "rekstrar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-rekstur-kk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.óákv-samur"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["rekstrarsamhæfur", "rekstrarsamhæfan", "rekstrarsamhæfum", "rekstrarsamhæfs"],
+				"kvk": ["rekstrarsamhæf", "rekstrarsamhæfa", "rekstrarsamhæfri", "rekstrarsamhæfrar"],
+				"hk": ["rekstrarsamhæft", "rekstrarsamhæft", "rekstrarsamhæfu", "rekstrarsamhæfs"]
+			},
+			"ft": {
+				"kk": ["rekstrarsamhæfir", "rekstrarsamhæfa", "rekstrarsamhæfum", "rekstrarsamhæfra"],
+				"kvk": ["rekstrarsamhæfar", "rekstrarsamhæfar", "rekstrarsamhæfum", "rekstrarsamhæfra"],
+				"hk": ["rekstrarsamhæf", "rekstrarsamhæf", "rekstrarsamhæfum", "rekstrarsamhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["rekstrarsamhæfi", "rekstrarsamhæfa", "rekstrarsamhæfa", "rekstrarsamhæfa"],
+				"kvk": ["rekstrarsamhæfa", "rekstrarsamhæfu", "rekstrarsamhæfu", "rekstrarsamhæfu"],
+				"hk": ["rekstrarsamhæfa", "rekstrarsamhæfa", "rekstrarsamhæfa", "rekstrarsamhæfa"]
+			},
+			"ft": {
+				"kk": ["rekstrarsamhæfu", "rekstrarsamhæfu", "rekstrarsamhæfu", "rekstrarsamhæfu"],
+				"kvk": ["rekstrarsamhæfu", "rekstrarsamhæfu", "rekstrarsamhæfu", "rekstrarsamhæfu"],
+				"hk": ["rekstrarsamhæfu", "rekstrarsamhæfu", "rekstrarsamhæfu", "rekstrarsamhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-rekstrarsamhæfur",
+	"hash": "b1e927df427b866cffce0cd435b16ae56bc6b8f66786bf086679716f09772796"
+}

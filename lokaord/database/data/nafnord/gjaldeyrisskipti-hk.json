@@ -1,0 +1,27 @@
+{
+	"orð": "gjaldeyrisskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "eyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eyrir-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["gjaldeyrisskipti", "gjaldeyrisskipti", "gjaldeyrisskiptum", "gjaldeyrisskipta"],
+		"mg": ["gjaldeyrisskiptin", "gjaldeyrisskiptin", "gjaldeyrisskiptunum", "gjaldeyrisskiptanna"]
+	},
+	"kennistrengur": "no-gjaldeyrisskipti-hk",
+	"hash": "6f1dea0dceac8401d36858e32513157a0b26115b43de5f70418683203ae7cf43"
+}

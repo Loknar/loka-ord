@@ -1,0 +1,30 @@
+{
+	"orð": "líftryggingaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["líftryggingaskuld", "líftryggingaskuld", "líftryggingaskuld", "líftryggingaskuldar"],
+		"mg": ["líftryggingaskuldin", "líftryggingaskuldina", "líftryggingaskuldinni", "líftryggingaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["líftryggingaskuldir", "líftryggingaskuldir", "líftryggingaskuldum", "líftryggingaskulda"],
+		"mg": ["líftryggingaskuldirnar", "líftryggingaskuldirnar", "líftryggingaskuldunum", "líftryggingaskuldanna"]
+	},
+	"kennistrengur": "no-líftryggingaskuld-kvk",
+	"hash": "72fcfdf6d02b49b60d7fafc46899847634cdda4c35a8b8d3fbfa8ecdf64341df"
+}

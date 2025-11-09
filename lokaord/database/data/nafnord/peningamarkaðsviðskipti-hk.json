@@ -1,0 +1,32 @@
+{
+	"orð": "peningamarkaðsviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"mynd": "markaðs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-markaður-kk"
+		},
+		{
+			"mynd": "við",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-við"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-skipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["peningamarkaðsviðskipti", "peningamarkaðsviðskipti", "peningamarkaðsviðskiptum", "peningamarkaðsviðskipta"],
+		"mg": ["peningamarkaðsviðskiptin", "peningamarkaðsviðskiptin", "peningamarkaðsviðskiptunum", "peningamarkaðsviðskiptanna"]
+	},
+	"kennistrengur": "no-peningamarkaðsviðskipti-hk",
+	"hash": "96a1e04ac26bc1036182806b6ea56129a96038150bd275676422f71c761174ae"
+}

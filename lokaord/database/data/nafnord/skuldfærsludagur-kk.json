@@ -1,0 +1,30 @@
+{
+	"orð": "skuldfærsludagur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "skuld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"mynd": "færslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-færsla-kvk"
+		},
+		{
+			"kennistrengur": "no-dagur-kk"
+		}
+	],
+	"et": {
+		"ág": ["skuldfærsludagur", "skuldfærsludag", "skuldfærsludegi", "skuldfærsludags"],
+		"mg": ["skuldfærsludagurinn", "skuldfærsludaginn", "skuldfærsludeginum", "skuldfærsludagsins"]
+	},
+	"ft": {
+		"ág": ["skuldfærsludagar", "skuldfærsludaga", "skuldfærsludögum", "skuldfærsludaga"],
+		"mg": ["skuldfærsludagarnir", "skuldfærsludagana", "skuldfærsludögunum", "skuldfærsludaganna"]
+	},
+	"kennistrengur": "no-skuldfærsludagur-kk",
+	"hash": "361eaa4407b14b3b1bf2a602d7d272748ad79cd8f38e11a8fc710a5d029dd842"
+}

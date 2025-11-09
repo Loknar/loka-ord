@@ -1,0 +1,30 @@
+{
+	"orð": "greiðslureikningaþjónusta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"mynd": "reikninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-reikningur-kk"
+		},
+		{
+			"kennistrengur": "no-þjónusta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["greiðslureikningaþjónusta", "greiðslureikningaþjónustu", "greiðslureikningaþjónustu", "greiðslureikningaþjónustu"],
+		"mg": ["greiðslureikningaþjónustan", "greiðslureikningaþjónustuna", "greiðslureikningaþjónustunni", "greiðslureikningaþjónustunnar"]
+	},
+	"ft": {
+		"ág": ["greiðslureikningaþjónustur", "greiðslureikningaþjónustur", "greiðslureikningaþjónustum", "greiðslureikningaþjónustna"],
+		"mg": ["greiðslureikningaþjónusturnar", "greiðslureikningaþjónusturnar", "greiðslureikningaþjónustunum", "greiðslureikningaþjónustnanna"]
+	},
+	"kennistrengur": "no-greiðslureikningaþjónusta-kvk",
+	"hash": "ae3497ca9651b5edf202fcadfd64638a2c483428062fb29902b7a8d87cf2793f"
+}
