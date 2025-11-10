@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "út",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
-		},
-		{
-			"mynd": "lána",
+			"mynd": "útlána",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lán-hk"
+			"kennistrengur": "no-útlán-hk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["útlánastarfsemin", "útlánastarfsemina", "útlánastarfseminni", "útlánastarfseminnar"]
 	},
 	"kennistrengur": "no-útlánastarfsemi-kvk",
-	"hash": "811743daf867f4849370afb7fa36f63b7df36acc427587ca483e14e2e9666a0d"
+	"hash": "ba9f8943e2c043a745058da442de7df3e93ea8dc4a8d3deb5fec9bee2a3b2a9f"
 }

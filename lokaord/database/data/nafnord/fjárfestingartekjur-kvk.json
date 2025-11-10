@@ -1,0 +1,22 @@
+{
+	"orð": "fjárfestingartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjárfestingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjárfesting-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjárfestingartekjur", "fjárfestingartekjur", "fjárfestingartekjum", "fjárfestingartekna"],
+		"mg": ["fjárfestingartekjurnar", "fjárfestingartekjurnar", "fjárfestingartekjunum", "fjárfestingarteknanna"]
+	},
+	"kennistrengur": "no-fjárfestingartekjur-kvk",
+	"hash": "c53860fa5083f1b697b59029e7b4e83e31245d1c2e094f60cfcf79c4225b2ab8"
+}

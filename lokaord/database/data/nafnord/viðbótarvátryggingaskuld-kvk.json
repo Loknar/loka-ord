@@ -1,0 +1,35 @@
+{
+	"orð": "viðbótarvátryggingaskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["viðbótarvátryggingaskuld", "viðbótarvátryggingaskuld", "viðbótarvátryggingaskuld", "viðbótarvátryggingaskuldar"],
+		"mg": ["viðbótarvátryggingaskuldin", "viðbótarvátryggingaskuldina", "viðbótarvátryggingaskuldinni", "viðbótarvátryggingaskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["viðbótarvátryggingaskuldir", "viðbótarvátryggingaskuldir", "viðbótarvátryggingaskuldum", "viðbótarvátryggingaskulda"],
+		"mg": ["viðbótarvátryggingaskuldirnar", "viðbótarvátryggingaskuldirnar", "viðbótarvátryggingaskuldunum", "viðbótarvátryggingaskuldanna"]
+	},
+	"kennistrengur": "no-viðbótarvátryggingaskuld-kvk",
+	"hash": "81e93df9a3fade51077bb27e418e2a91622088348cca4a7e1d1ba1b36bcd5fc6"
+}

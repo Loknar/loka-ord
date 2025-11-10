@@ -1,0 +1,27 @@
+{
+	"orð": "endurkaupsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "kaups",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["endurkaupsverð", "endurkaupsverð", "endurkaupsverði", "endurkaupsverðs"],
+		"mg": ["endurkaupsverðið", "endurkaupsverðið", "endurkaupsverðinu", "endurkaupsverðsins"]
+	},
+	"kennistrengur": "no-endurkaupsverð-hk",
+	"hash": "e767a1e5f5bd85eb8568dd12ff424e941feba32c8cd1533e41ccf35c0a0fa305"
+}

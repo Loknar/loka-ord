@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hag",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"mynd": "skýrslu",
+			"mynd": "hagskýrslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skýrsla-kvk"
+			"kennistrengur": "no-hagskýrsla-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["hagskýrslustarfsemin", "hagskýrslustarfsemina", "hagskýrslustarfseminni", "hagskýrslustarfseminnar"]
 	},
 	"kennistrengur": "no-hagskýrslustarfsemi-kvk",
-	"hash": "3a095204ffa6b81f6bd43a7ac7b3e41c646e1a96cee0f675850a04069a3362f7"
+	"hash": "9a92b3db57646e6df85204038f75ef9183dcf6f3756fed55ba19e7856fb876de"
 }

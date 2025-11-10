@@ -1,0 +1,35 @@
+{
+	"orð": "viðbótargjaldþolskrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "þols",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þol-hk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["viðbótargjaldþolskrafa", "viðbótargjaldþolskröfu", "viðbótargjaldþolskröfu", "viðbótargjaldþolskröfu"],
+		"mg": ["viðbótargjaldþolskrafan", "viðbótargjaldþolskröfuna", "viðbótargjaldþolskröfunni", "viðbótargjaldþolskröfunnar"]
+	},
+	"ft": {
+		"ág": ["viðbótargjaldþolskröfur", "viðbótargjaldþolskröfur", "viðbótargjaldþolskröfum", "viðbótargjaldþolskrafna"],
+		"mg": ["viðbótargjaldþolskröfurnar", "viðbótargjaldþolskröfurnar", "viðbótargjaldþolskröfunum", "viðbótargjaldþolskrafnanna"]
+	},
+	"kennistrengur": "no-viðbótargjaldþolskrafa-kvk",
+	"hash": "49d74d2e19285974f007fe8d8d422b56fa6aec9e196b652404546485854b39f3"
+}

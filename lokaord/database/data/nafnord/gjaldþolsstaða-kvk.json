@@ -1,0 +1,30 @@
+{
+	"orð": "gjaldþolsstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "þols",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þol-hk"
+		},
+		{
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["gjaldþolsstaða", "gjaldþolsstöðu", "gjaldþolsstöðu", "gjaldþolsstöðu"],
+		"mg": ["gjaldþolsstaðan", "gjaldþolsstöðuna", "gjaldþolsstöðunni", "gjaldþolsstöðunnar"]
+	},
+	"ft": {
+		"ág": ["gjaldþolsstöður", "gjaldþolsstöður", "gjaldþolsstöðum", "gjaldþolsstaðna"],
+		"mg": ["gjaldþolsstöðurnar", "gjaldþolsstöðurnar", "gjaldþolsstöðunum", "gjaldþolsstaðnanna"]
+	},
+	"kennistrengur": "no-gjaldþolsstaða-kvk",
+	"hash": "b5598e7a6727d2d52300fb7d6834eda94b3b00ebefb0f6ee23a202fe82298834"
+}

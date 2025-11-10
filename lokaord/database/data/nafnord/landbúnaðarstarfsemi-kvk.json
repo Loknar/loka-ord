@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "land",
-			"samsetning": "stofn",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "búnaðar",
+			"mynd": "landbúnaðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-búnaður-kk"
+			"kennistrengur": "no-landbúnaður-kk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["landbúnaðarstarfsemin", "landbúnaðarstarfsemina", "landbúnaðarstarfseminni", "landbúnaðarstarfseminnar"]
 	},
 	"kennistrengur": "no-landbúnaðarstarfsemi-kvk",
-	"hash": "8285359f21ff973e21582467f3c35729345a533cbdc3b7676bc43012b3401410"
+	"hash": "cb9caa7812a6975b21f70862cb8a3ccb91e8c1be43a5ee39448247df48a382f9"
 }

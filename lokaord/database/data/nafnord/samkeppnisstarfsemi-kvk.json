@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "keppnis",
+			"mynd": "samkeppnis",
 			"samsetning": "bandstafs",
-			"kennistrengur": "no-keppni-kvk"
+			"kennistrengur": "no-samkeppni-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["samkeppnisstarfsemin", "samkeppnisstarfsemina", "samkeppnisstarfseminni", "samkeppnisstarfseminnar"]
 	},
 	"kennistrengur": "no-samkeppnisstarfsemi-kvk",
-	"hash": "9ebc357bb2de4f24ab8c20a9a74bd2a5dc3e54b3bbafefccbfd87cddea70a339"
+	"hash": "bd4ffdcb67526157d1ae0073d3c2c8644e1a200b5a0b1f3e60fb816dde0bf871"
 }

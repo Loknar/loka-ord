@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "tóm",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tóm-hk"
-		},
-		{
-			"mynd": "stunda",
+			"mynd": "tómstunda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stund-kvk"
+			"kennistrengur": "no-tómstund-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["tómstundastarfsemin", "tómstundastarfsemina", "tómstundastarfseminni", "tómstundastarfseminnar"]
 	},
 	"kennistrengur": "no-tómstundastarfsemi-kvk",
-	"hash": "2414154f88df8e5752e98f561b004dfa0d666a0a52ee695d118bb12a5c91325a"
+	"hash": "f1fab7cfe13a2e814341502b439edbe99dbc0feaca217ada6befc87779d3e173"
 }

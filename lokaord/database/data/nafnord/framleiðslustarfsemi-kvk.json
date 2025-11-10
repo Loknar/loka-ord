@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "leiðslu",
+			"mynd": "framleiðslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-framleiðsla-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["framleiðslustarfsemin", "framleiðslustarfsemina", "framleiðslustarfseminni", "framleiðslustarfseminnar"]
 	},
 	"kennistrengur": "no-framleiðslustarfsemi-kvk",
-	"hash": "100dd1b8696be16aebc52ccc0f852fb10abf02f83f5867d8f9a48ab161b6dc95"
+	"hash": "18d013d13da332532c215854fe0e987d869f22092b7efd3639c0ceceef87c308"
 }

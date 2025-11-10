@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "heilsu",
+			"mynd": "heilsufars",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-heilsa-kvk"
-		},
-		{
-			"mynd": "fars",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-far-hk"
+			"kennistrengur": "no-heilsufar-hk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-heilsufarslegur",
-	"hash": "0670e6759a6035ae3636bb2919a2ee7edd86caf843d84974bcd5d5cbb449417b"
+	"hash": "c554043f9fbd1d99ccdc39c51fcd441d47d7d62509e550f4f2f4425afa42723d"
 }

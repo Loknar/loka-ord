@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kjarn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kjarni-kk"
-		},
-		{
-			"mynd": "orku",
+			"mynd": "kjarnorku",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-orka-kvk"
+			"kennistrengur": "no-kjarnorka-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["kjarnorkustarfsemin", "kjarnorkustarfsemina", "kjarnorkustarfseminni", "kjarnorkustarfseminnar"]
 	},
 	"kennistrengur": "no-kjarnorkustarfsemi-kvk",
-	"hash": "f9c9703c54c4541be03c55a6d24a6bed1085421772e5b130dd92ecc4c3564fa9"
+	"hash": "ee9585d6c622c8d4b1829db46393407baef57609e7b7597c457a2519e02fc403"
 }

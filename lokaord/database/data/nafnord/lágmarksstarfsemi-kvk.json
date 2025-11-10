@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lág",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-lágur"
-		},
-		{
-			"mynd": "marks",
+			"mynd": "lágmarks",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mark-hk"
+			"kennistrengur": "no-lágmark-hk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["lágmarksstarfsemin", "lágmarksstarfsemina", "lágmarksstarfseminni", "lágmarksstarfseminnar"]
 	},
 	"kennistrengur": "no-lágmarksstarfsemi-kvk",
-	"hash": "72c93280bc94f727b47005bc1142ba1835874f979d85050ee1c798934497e5f2"
+	"hash": "3edec1ef721d2d36e5079072d8ce72474afaae5de813a7ca1e6856f8605037fa"
 }

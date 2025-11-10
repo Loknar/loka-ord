@@ -1,0 +1,35 @@
+{
+	"orð": "heildargjaldþolsþörf",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "þols",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þol-hk"
+		},
+		{
+			"kennistrengur": "no-þörf-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildargjaldþolsþörf", "heildargjaldþolsþörf", "heildargjaldþolsþörf", "heildargjaldþolsþarfar"],
+		"mg": ["heildargjaldþolsþörfin", "heildargjaldþolsþörfina", "heildargjaldþolsþörfinni", "heildargjaldþolsþarfarinnar"]
+	},
+	"ft": {
+		"ág": ["heildargjaldþolsþarfir", "heildargjaldþolsþarfir", "heildargjaldþolsþörfum", "heildargjaldþolsþarfa"],
+		"mg": ["heildargjaldþolsþarfirnar", "heildargjaldþolsþarfirnar", "heildargjaldþolsþörfunum", "heildargjaldþolsþarfanna"]
+	},
+	"kennistrengur": "no-heildargjaldþolsþörf-kvk",
+	"hash": "360a9f6ea5debb5723051f1237959da57b7e5cd2a838b9da4c93bb03e24c026c"
+}

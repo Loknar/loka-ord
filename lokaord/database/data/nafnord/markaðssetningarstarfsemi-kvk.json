@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "markaðs",
-			"samsetning": "bandstafs",
-			"kennistrengur": "no-markaður-kk"
-		},
-		{
-			"mynd": "setningar",
+			"mynd": "markaðssetningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-setning-kvk"
+			"kennistrengur": "no-markaðssetning-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["markaðssetningarstarfsemin", "markaðssetningarstarfsemina", "markaðssetningarstarfseminni", "markaðssetningarstarfseminnar"]
 	},
 	"kennistrengur": "no-markaðssetningarstarfsemi-kvk",
-	"hash": "a0cdc80304f07dd18209f9e81c1157ea97106c6abd2c4238c87d63b8609caf92"
+	"hash": "622ccdfc25b2a567c8da6509fb12cc80aa3209c9e42f7aa5851c749158c379a6"
 }

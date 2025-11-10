@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kol",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kol-hk"
-		},
-		{
-			"mynd": "vetnis",
+			"mynd": "kolvetnis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vetni-hk"
+			"kennistrengur": "no-kolvetni-hk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["kolvetnisstarfsemin", "kolvetnisstarfsemina", "kolvetnisstarfseminni", "kolvetnisstarfseminnar"]
 	},
 	"kennistrengur": "no-kolvetnisstarfsemi-kvk",
-	"hash": "1f776f945c8401cdbca2321f8ec73411912795a3eb1529b7ada99854c732671a"
+	"hash": "a3cc6ef1976a31f42b5405c4d3fb9b5abdc150774387c3930ed29037341136b1"
 }

@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "veð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-veð-hk"
-		},
-		{
-			"mynd": "mála",
+			"mynd": "veðmála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-veðmál-hk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["veðmálastarfsemin", "veðmálastarfsemina", "veðmálastarfseminni", "veðmálastarfseminnar"]
 	},
 	"kennistrengur": "no-veðmálastarfsemi-kvk",
-	"hash": "22bedc2297a235b1ed99588f1b170389c3dbb6076ebfab795cb41b7e79b27a08"
+	"hash": "46752a987e253d79c8598c5d75312b86ab75c2067b709a7f3f3cc4006cd7ebde"
 }

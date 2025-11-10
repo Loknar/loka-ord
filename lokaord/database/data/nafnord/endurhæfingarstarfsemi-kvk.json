@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "endur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-endur-hk"
-		},
-		{
-			"mynd": "hæfingar",
+			"mynd": "endurhæfingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hæfing-kvk"
+			"kennistrengur": "no-endurhæfing-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["endurhæfingarstarfsemin", "endurhæfingarstarfsemina", "endurhæfingarstarfseminni", "endurhæfingarstarfseminnar"]
 	},
 	"kennistrengur": "no-endurhæfingarstarfsemi-kvk",
-	"hash": "996a58b79e43b3c1c8bce08fbba1cd191100ecdf7d41d5c845ed4dc59a169443"
+	"hash": "0c6dbeea1d2380c1615368985de99f90e9aa498321634cf7ec9ce55b4d47d099"
 }

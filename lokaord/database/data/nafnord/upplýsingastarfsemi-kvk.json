@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "upp",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-upp"
-		},
-		{
-			"mynd": "lýsinga",
+			"mynd": "upplýsinga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lýsing-kvk"
+			"kennistrengur": "no-upplýsing-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["upplýsingastarfsemin", "upplýsingastarfsemina", "upplýsingastarfseminni", "upplýsingastarfseminnar"]
 	},
 	"kennistrengur": "no-upplýsingastarfsemi-kvk",
-	"hash": "1f8f565f86c950c29b8310a52e13881ed212e448d2e9a18a6fcb2e13d9d387e9"
+	"hash": "9d06954672310b4746cb376fafd6e2bba8e19a0e85c2fec56ecefebd180f65f7"
 }

@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "inn",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-inn"
-		},
-		{
-			"mynd": "heimtu",
+			"mynd": "innheimtu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-heimta-kvk"
+			"kennistrengur": "no-innheimta-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["innheimtustarfsemin", "innheimtustarfsemina", "innheimtustarfseminni", "innheimtustarfseminnar"]
 	},
 	"kennistrengur": "no-innheimtustarfsemi-kvk",
-	"hash": "731cce19bffd1d37b16c47fef70ed06f80242f7c975a0d072533e64818a5e657"
+	"hash": "ca571fa4cf22e3294543b6f4e5ce9539da323f6bc740f67bd02c54832f3aa219"
 }

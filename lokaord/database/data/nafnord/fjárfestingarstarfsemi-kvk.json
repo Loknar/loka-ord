@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fjár",
+			"mynd": "fjárfestingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
+			"kennistrengur": "no-fjárfesting-kvk"
 		},
 		{
-			"mynd": "festingar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-festing-kvk"
-		},
-		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["fjárfestingarstarfsemin", "fjárfestingarstarfsemina", "fjárfestingarstarfseminni", "fjárfestingarstarfseminnar"]
 	},
 	"kennistrengur": "no-fjárfestingarstarfsemi-kvk",
-	"hash": "6726cce24bc2863893feffd579480b6fe3436f7f984ad087b58b70a84bdb2995"
+	"hash": "b0c44ce816cd92934a1bfeaa5616776835ba81a170ade67f05b028d2fae99544"
 }

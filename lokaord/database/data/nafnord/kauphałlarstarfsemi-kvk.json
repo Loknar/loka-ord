@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kaup",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kaup-hk"
-		},
-		{
-			"mynd": "hałlar",
+			"mynd": "kauphałlar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-höłl-kvk"
+			"kennistrengur": "no-kauphöłl-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["kauphałlarstarfsemin", "kauphałlarstarfsemina", "kauphałlarstarfseminni", "kauphałlarstarfseminnar"]
 	},
 	"kennistrengur": "no-kauphałlarstarfsemi-kvk",
-	"hash": "32ef64450e9a89b8cf8799ac1457cbd05e7d65c2d5299ec26ac663cb9a33574b"
+	"hash": "4a76c024bd4c4b0321acf8dd6edbc4a4612b5cedcbd7947e2d991d9b640cc0ac"
 }

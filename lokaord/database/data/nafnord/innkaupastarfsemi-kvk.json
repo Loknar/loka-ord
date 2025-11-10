@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "inn",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-inn"
-		},
-		{
-			"mynd": "kaupa",
+			"mynd": "innkaupa",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kaup-hk"
+			"kennistrengur": "no-innkaup-hk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["innkaupastarfsemin", "innkaupastarfsemina", "innkaupastarfseminni", "innkaupastarfseminnar"]
 	},
 	"kennistrengur": "no-innkaupastarfsemi-kvk",
-	"hash": "68b5068f9867eacec6890fad51358a38faa74a4f48ee19f39278205f67e26039"
+	"hash": "8484015a53b9aa402cc56030f478d1854d2252ed9895d8c5224d7194541a3f51"
 }

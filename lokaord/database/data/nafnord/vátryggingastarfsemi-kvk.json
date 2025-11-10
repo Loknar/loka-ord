@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vá",
-			"samsetning": "stofn",
-			"kennistrengur": "no-vá-kvk"
-		},
-		{
-			"mynd": "trygginga",
+			"mynd": "vátrygginga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-trygging-kvk"
+			"kennistrengur": "no-vátrygging-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["vátryggingastarfsemin", "vátryggingastarfsemina", "vátryggingastarfseminni", "vátryggingastarfseminnar"]
 	},
 	"kennistrengur": "no-vátryggingastarfsemi-kvk",
-	"hash": "6c64fc1c5ab0587f43e338c0387c2371b4307a9b4d677a9070c1a9daf8fbd3d8"
+	"hash": "f6b1292ec1d7a0f376bd1855cc34b04c0fccff6604024d16510d9d78abfc697b"
 }

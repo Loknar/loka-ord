@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "stjórn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "mála",
+			"mynd": "stjórnmála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-stjórnmál-hk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["stjórnmálastarfsemin", "stjórnmálastarfsemina", "stjórnmálastarfseminni", "stjórnmálastarfseminnar"]
 	},
 	"kennistrengur": "no-stjórnmálastarfsemi-kvk",
-	"hash": "09327e9753461e3089069cd1c2d7ea3645f39f1cd5c41dfcaa75ee40b8e62935"
+	"hash": "60b48dc34d1eee91e23fb2e8e4f0dfc34a78e8b7dd13dbd965f086742fe865e3"
 }

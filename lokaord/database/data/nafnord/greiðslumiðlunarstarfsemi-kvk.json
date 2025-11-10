@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "greiðslu",
+			"mynd": "greiðslumiðlunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greiðsla-kvk"
+			"kennistrengur": "no-greiðslumiðlun-kvk"
 		},
 		{
-			"mynd": "miðlunar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-miðlun-kvk"
-		},
-		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["greiðslumiðlunarstarfsemin", "greiðslumiðlunarstarfsemina", "greiðslumiðlunarstarfseminni", "greiðslumiðlunarstarfseminnar"]
 	},
 	"kennistrengur": "no-greiðslumiðlunarstarfsemi-kvk",
-	"hash": "29ba235a23b10d9f551ccabc29524c7deccb50a83c812ab43d849238a7fca2b2"
+	"hash": "dfe76b6312c21140c51c0757ec3a9801be66f04c177c541c7a593de8737589bb"
 }

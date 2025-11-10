@@ -1,0 +1,35 @@
+{
+	"orð": "grunngjaldþolskrafa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "grunn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-grunnur"
+		},
+		{
+			"mynd": "gjald",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjald-hk"
+		},
+		{
+			"mynd": "þols",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-þol-hk"
+		},
+		{
+			"kennistrengur": "no-krafa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["grunngjaldþolskrafa", "grunngjaldþolskröfu", "grunngjaldþolskröfu", "grunngjaldþolskröfu"],
+		"mg": ["grunngjaldþolskrafan", "grunngjaldþolskröfuna", "grunngjaldþolskröfunni", "grunngjaldþolskröfunnar"]
+	},
+	"ft": {
+		"ág": ["grunngjaldþolskröfur", "grunngjaldþolskröfur", "grunngjaldþolskröfum", "grunngjaldþolskrafna"],
+		"mg": ["grunngjaldþolskröfurnar", "grunngjaldþolskröfurnar", "grunngjaldþolskröfunum", "grunngjaldþolskrafnanna"]
+	},
+	"kennistrengur": "no-grunngjaldþolskrafa-kvk",
+	"hash": "d5b5283085d041174e59fb8d8c1c81b4e304da9335b08c7a4426a9d76f8f3781"
+}

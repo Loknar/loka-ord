@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "út",
+			"mynd": "útflutnings",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
+			"kennistrengur": "no-útflutningur-kk"
 		},
 		{
-			"mynd": "flutnings",
-			"samsetning": "stofn",
-			"kennistrengur": "no-flutningur-kk"
-		},
-		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["útflutningsstarfsemin", "útflutningsstarfsemina", "útflutningsstarfseminni", "útflutningsstarfseminnar"]
 	},
 	"kennistrengur": "no-útflutningsstarfsemi-kvk",
-	"hash": "b7f1cd0680cd74492eb30712934bfbec0e9752e698b3cce30abfe60bdee99554"
+	"hash": "8e245d3e9b2b4fcf3ad5f6d7af8d5a6d96f7d0a77698ec4332afbe1fb40c77d4"
 }

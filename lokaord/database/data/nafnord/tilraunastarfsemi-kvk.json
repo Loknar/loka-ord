@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "til",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-til"
-		},
-		{
-			"mynd": "rauna",
+			"mynd": "tilrauna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-raun-kvk"
+			"kennistrengur": "no-tilraun-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["tilraunastarfsemin", "tilraunastarfsemina", "tilraunastarfseminni", "tilraunastarfseminnar"]
 	},
 	"kennistrengur": "no-tilraunastarfsemi-kvk",
-	"hash": "4bd07222a9171bd171a60d48441b12cac28e9d54037ab5827d05b89fbf0185d0"
+	"hash": "9a6e9638b4096d3a2a5cfdd6460281ac38397e410315338848b2070e7dd0d863"
 }

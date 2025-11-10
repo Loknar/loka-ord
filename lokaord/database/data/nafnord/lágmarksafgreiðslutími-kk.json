@@ -4,27 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "lág",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-lágur"
-		},
-		{
-			"mynd": "marks",
+			"mynd": "lágmarks",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mark-hk"
+			"kennistrengur": "no-lágmark-hk"
 		},
 		{
-			"mynd": "af",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-af"
-		},
-		{
-			"mynd": "greiðslu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greiðsla-kvk"
-		},
-		{
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "no-afgreiðslutími-kk"
 		}
 	],
 	"et": {
@@ -36,5 +21,5 @@
 		"mg": ["lágmarksafgreiðslutímarnir", "lágmarksafgreiðslutímana", "lágmarksafgreiðslutímunum", "lágmarksafgreiðslutímanna"]
 	},
 	"kennistrengur": "no-lágmarksafgreiðslutími-kk",
-	"hash": "23fe5187ee7e4d65474ddeef2f184c7cb3ede5510a9d7ebd5daac5de06565f7b"
+	"hash": "3a3023da5582e06f3e6799df133bf86821e1bd1f4cf052066cd2d39b3153a85f"
 }

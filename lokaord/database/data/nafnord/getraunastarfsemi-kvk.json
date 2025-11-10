@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "get",
-			"samsetning": "stofn",
-			"kennistrengur": "so-geta"
-		},
-		{
-			"mynd": "rauna",
+			"mynd": "getrauna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-raun-kvk"
+			"kennistrengur": "no-getraun-kvk"
 		},
 		{
-			"mynd": "starf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-starf-hk"
-		},
-		{
-			"kennistrengur": "no-semi-kvk-ó"
+			"kennistrengur": "no-starfsemi-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["getraunastarfsemin", "getraunastarfsemina", "getraunastarfseminni", "getraunastarfseminnar"]
 	},
 	"kennistrengur": "no-getraunastarfsemi-kvk",
-	"hash": "061c902216abb7d92d3c7428ef466be7e343eda912df82fe87fd2832b5cbd531"
+	"hash": "addade8abc725cee72fc90fdd27c130c8f2b7d8527c735c1f846cc68744447ae"
 }

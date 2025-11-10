@@ -1,0 +1,37 @@
+{
+	"orð": "stjórnsýslufyrirkomulag",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "sýslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sýsla-kvk"
+		},
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"mynd": "komu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-koma-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-lag-hk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnsýslufyrirkomulag", "stjórnsýslufyrirkomulag", "stjórnsýslufyrirkomulagi", "stjórnsýslufyrirkomulags"],
+		"mg": ["stjórnsýslufyrirkomulagið", "stjórnsýslufyrirkomulagið", "stjórnsýslufyrirkomulaginu", "stjórnsýslufyrirkomulagsins"]
+	},
+	"kennistrengur": "no-stjórnsýslufyrirkomulag-hk",
+	"hash": "799113aafcd773d15edafca8a396b7f3bf7e6012622b954221ad5be56118ea32"
+}

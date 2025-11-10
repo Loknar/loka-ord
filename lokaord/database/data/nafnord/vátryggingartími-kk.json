@@ -1,0 +1,27 @@
+{
+	"orð": "vátryggingartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "vá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vá-kvk"
+		},
+		{
+			"mynd": "tryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["vátryggingartími", "vátryggingartíma", "vátryggingartíma", "vátryggingartíma"],
+		"mg": ["vátryggingartíminn", "vátryggingartímann", "vátryggingartímanum", "vátryggingartímans"]
+	},
+	"kennistrengur": "no-vátryggingartími-kk",
+	"hash": "e0888f9f4014bb2c8ae330fa556c014b43f8cdf11b58a7538be487dadd5727a9"
+}

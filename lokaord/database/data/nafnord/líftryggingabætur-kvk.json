@@ -1,0 +1,27 @@
+{
+	"orð": "líftryggingabætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "líf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-líf-hk"
+		},
+		{
+			"mynd": "trygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-trygging-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["líftryggingabætur", "líftryggingabætur", "líftryggingabótum", "líftryggingabóta"],
+		"mg": ["líftryggingabæturnar", "líftryggingabæturnar", "líftryggingabótunum", "líftryggingabótanna"]
+	},
+	"kennistrengur": "no-líftryggingabætur-kvk",
+	"hash": "c72ae9cac84265352583df6cb385cc840797c244c8a12ac6ec16e71432bddec1"
+}
