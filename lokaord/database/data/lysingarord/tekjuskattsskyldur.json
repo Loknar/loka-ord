@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "tekju",
+			"mynd": "tekjuskatts",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tekja-kvk"
+			"kennistrengur": "no-tekjuskattur-kk"
 		},
 		{
-			"mynd": "skatts",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skattur-kk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-tekjuskattsskyldur",
-	"hash": "c1352999756c0972644d94cab7c0f6365700c0f8b31ad9ce36c36b66c2800836"
+	"hash": "c8095b3db5560b61183640feccea3ea2532786dac8b4e7f66fb2bcbd2041a458"
 }

@@ -8,7 +8,6 @@
 			"kennistrengur": "smáo.uh-ó"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-skyldur"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["óskyldari", "óskyldari", "óskyldari", "óskyldari"],
+				"kvk": ["óskyldari", "óskyldari", "óskyldari", "óskyldari"],
+				"hk": ["óskyldara", "óskyldara", "óskyldara", "óskyldara"]
+			},
+			"ft": {
+				"kk": ["óskyldari", "óskyldari", "óskyldari", "óskyldari"],
+				"kvk": ["óskyldari", "óskyldari", "óskyldari", "óskyldari"],
+				"hk": ["óskyldari", "óskyldari", "óskyldari", "óskyldari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["óskyldastur", "óskyldastan", "óskyldustum", "óskyldasts"],
+				"kvk": ["óskyldust", "óskyldasta", "óskyldastri", "óskyldastrar"],
+				"hk": ["óskyldast", "óskyldast", "óskyldustu", "óskyldasts"]
+			},
+			"ft": {
+				"kk": ["óskyldastir", "óskyldasta", "óskyldustum", "óskyldastra"],
+				"kvk": ["óskyldastar", "óskyldastar", "óskyldustum", "óskyldastra"],
+				"hk": ["óskyldust", "óskyldust", "óskyldustum", "óskyldastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["óskyldasti", "óskyldasta", "óskyldasta", "óskyldasta"],
+				"kvk": ["óskyldasta", "óskyldustu", "óskyldustu", "óskyldustu"],
+				"hk": ["óskyldasta", "óskyldasta", "óskyldasta", "óskyldasta"]
+			},
+			"ft": {
+				"kk": ["óskyldustu", "óskyldustu", "óskyldustu", "óskyldustu"],
+				"kvk": ["óskyldustu", "óskyldustu", "óskyldustu", "óskyldustu"],
+				"hk": ["óskyldustu", "óskyldustu", "óskyldustu", "óskyldustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-óskyldur",
-	"hash": "dc74f74a09cd1dd30155ebc3184f047c1a5eaa67413f3730bfae95c748a275f0"
+	"hash": "c45188d6b5c0d3fd5ca253db99a0ed2c2abd784247ec32439cc70db1b7bc8371"
 }

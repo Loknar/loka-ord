@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fjár",
+			"mynd": "fjármála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
+			"kennistrengur": "no-fjármál-hk"
 		},
 		{
-			"mynd": "mála",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
-		},
-		{
-			"mynd": "reglu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-reglugerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["fjármálareglugerðirnar", "fjármálareglugerðirnar", "fjármálareglugerðunum", "fjármálareglugerðanna"]
 	},
 	"kennistrengur": "no-fjármálareglugerð-kvk",
-	"hash": "c00c725c37970cd06ddca3808a307b41fde33dcc437c7da06dc841d6c9cf9707"
+	"hash": "4bdcbdf5f7c84266d8246b43aa6d075144c54303edec84905ee0b0282a466b53"
 }

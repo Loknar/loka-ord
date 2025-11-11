@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "lyfja",
+			"mynd": "lyfjagátar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lyf-hk"
+			"kennistrengur": "no-lyfjagát-kvk"
 		},
 		{
-			"mynd": "gátar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gát-kvk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-lyfjagátarskyldur",
-	"hash": "ba3459ac93431ad7be0c6e762f44dfedb5bf4d85194ce6b6a9d1731ece7eb5fc"
+	"hash": "05f5a14c52d85a8504a48dcf7a07f12cedd9748c805c6adf363130663bde8839"
 }

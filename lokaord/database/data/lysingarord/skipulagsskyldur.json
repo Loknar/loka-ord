@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "skipu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "so-skipa"
-		},
-		{
-			"mynd": "lags",
+			"mynd": "skipulags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-skipulag-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-skipulagsskyldur",
-	"hash": "68bc7a9ace613a7f5f609baeb84e43dee3d135c45c47ca71567712b50be8c7d8"
+	"hash": "ab23b88e41b843827197609dd6b3fdb00b4e82ca81f90b7422122240d9bfe7c6"
 }

@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "með",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-með"
-		},
-		{
-			"mynd": "lags",
+			"mynd": "meðlags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-meðlag-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-meðlagsskyldur",
-	"hash": "afefd4c9b5c633a8ec3766141b31fa9185d0997afb3da0216b27a83a568b7d05"
+	"hash": "45e52ce50dd698b4758d47093e9714ae03a63a525aa5d25c390829088ce3bd65"
 }

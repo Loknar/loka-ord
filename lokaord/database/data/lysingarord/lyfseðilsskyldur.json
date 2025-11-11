@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "lyf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lyf-hk"
-		},
-		{
-			"mynd": "seðils",
+			"mynd": "lyfseðils",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-seðiłl-kk"
+			"kennistrengur": "no-lyfseðiłl-kk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-lyfseðilsskyldur",
-	"hash": "0f3c72d1677761b21bee5642194fb0a31ba5e3772eee1ba328856c5d0f566c0d"
+	"hash": "bbd04096379e19ab6aed6d7c0b9e04cc3ff0281671144b95a11aa18130f91006"
 }

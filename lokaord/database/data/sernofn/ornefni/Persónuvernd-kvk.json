@@ -5,18 +5,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "Persónu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-persóna-kvk"
-		},
-		{
+			"hástafa": true,
 			"beygingar": ["et-ág"],
-			"kennistrengur": "no-vernd-kvk"
+			"kennistrengur": "no-persónuvernd-kvk"
 		}
 	],
 	"et": {
 		"ág": ["Persónuvernd", "Persónuvernd", "Persónuvernd", "Persónuverndar"]
 	},
 	"kennistrengur": "sérn.ön-Persónuvernd-kvk",
-	"hash": "0fb2eecfc188db85296256f91b29bba5eba734eef7f629f859edb4e387724a10"
+	"hash": "147e0a16a80be879d99b9e207b3ed9ac7bdf5a58cee99c23bf78b42d341fe9e4"
 }

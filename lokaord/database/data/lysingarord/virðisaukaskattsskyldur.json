@@ -3,23 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "virðis",
+			"mynd": "virðisaukaskatts",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-virði-hk"
+			"kennistrengur": "no-virðisaukaskattur-kk"
 		},
 		{
-			"mynd": "auka",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-auki-kk"
-		},
-		{
-			"mynd": "skatts",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skattur-kk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -49,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-virðisaukaskattsskyldur",
-	"hash": "f05a50acef2d7e1ff5e4c2cc8783804368b6d8a533d8b0900cd9e7c2d6fa171a"
+	"hash": "be1741d4900a4110437f3b98fb22845f950f71cfbfc344c016488df815eaab21"
 }

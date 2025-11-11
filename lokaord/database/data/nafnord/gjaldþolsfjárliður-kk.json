@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "gjald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gjald-hk"
-		},
-		{
-			"mynd": "þols",
+			"mynd": "gjaldþols",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-þol-hk"
+			"kennistrengur": "no-gjaldþol-hk"
 		},
 		{
-			"mynd": "fjár",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
-		},
-		{
-			"kennistrengur": "no-liður-kk"
+			"kennistrengur": "no-fjárliður-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["gjaldþolsfjárliðirnir", "gjaldþolsfjárliðina", "gjaldþolsfjárliðunum", "gjaldþolsfjárliðanna"]
 	},
 	"kennistrengur": "no-gjaldþolsfjárliður-kk",
-	"hash": "9fb220ec422434b5bd743d495663038a65f93c2600f2c68f954463b526b0c759"
+	"hash": "95b23f6003bb4c924bc52f24d1d743e4ed7b2547a4fdfafb313bfd2bf09abfac"
 }

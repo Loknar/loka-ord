@@ -1,0 +1,42 @@
+{
+	"orð": "vátryggingarskyldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vátryggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vátrygging-kvk"
+		},
+		{
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vátryggingarskyldur", "vátryggingarskyldan", "vátryggingarskyldum", "vátryggingarskylds"],
+				"kvk": ["vátryggingarskyld", "vátryggingarskylda", "vátryggingarskyldri", "vátryggingarskyldrar"],
+				"hk": ["vátryggingarskylt", "vátryggingarskylt", "vátryggingarskyldu", "vátryggingarskylds"]
+			},
+			"ft": {
+				"kk": ["vátryggingarskyldir", "vátryggingarskylda", "vátryggingarskyldum", "vátryggingarskyldra"],
+				"kvk": ["vátryggingarskyldar", "vátryggingarskyldar", "vátryggingarskyldum", "vátryggingarskyldra"],
+				"hk": ["vátryggingarskyld", "vátryggingarskyld", "vátryggingarskyldum", "vátryggingarskyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vátryggingarskyldi", "vátryggingarskylda", "vátryggingarskylda", "vátryggingarskylda"],
+				"kvk": ["vátryggingarskylda", "vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu"],
+				"hk": ["vátryggingarskylda", "vátryggingarskylda", "vátryggingarskylda", "vátryggingarskylda"]
+			},
+			"ft": {
+				"kk": ["vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu"],
+				"kvk": ["vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu"],
+				"hk": ["vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu", "vátryggingarskyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-vátryggingarskyldur",
+	"hash": "592598b6412a3780901d090371a7c29331650dc2ea035e5c5365b8e1db702157"
+}

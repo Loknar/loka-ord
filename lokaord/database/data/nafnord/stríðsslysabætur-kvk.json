@@ -1,0 +1,27 @@
+{
+	"orð": "stríðsslysabætur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stríðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stríð-hk"
+		},
+		{
+			"mynd": "slysa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-slys-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-bót-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["stríðsslysabætur", "stríðsslysabætur", "stríðsslysabótum", "stríðsslysabóta"],
+		"mg": ["stríðsslysabæturnar", "stríðsslysabæturnar", "stríðsslysabótunum", "stríðsslysabótanna"]
+	},
+	"kennistrengur": "no-stríðsslysabætur-kvk",
+	"hash": "c9aaa4f0635bd157242565337f76c4d6ff7b9d0c3af700753737e4f3fd2f08b1"
+}

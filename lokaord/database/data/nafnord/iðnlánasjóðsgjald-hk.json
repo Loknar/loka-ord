@@ -1,0 +1,35 @@
+{
+	"orð": "iðnlánasjóðsgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "iðn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-iðn-kvk"
+		},
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"mynd": "sjóðs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjóður-kk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["iðnlánasjóðsgjald", "iðnlánasjóðsgjald", "iðnlánasjóðsgjaldi", "iðnlánasjóðsgjalds"],
+		"mg": ["iðnlánasjóðsgjaldið", "iðnlánasjóðsgjaldið", "iðnlánasjóðsgjaldinu", "iðnlánasjóðsgjaldsins"]
+	},
+	"ft": {
+		"ág": ["iðnlánasjóðsgjöld", "iðnlánasjóðsgjöld", "iðnlánasjóðsgjöldum", "iðnlánasjóðsgjalda"],
+		"mg": ["iðnlánasjóðsgjöldin", "iðnlánasjóðsgjöldin", "iðnlánasjóðsgjöldunum", "iðnlánasjóðsgjaldanna"]
+	},
+	"kennistrengur": "no-iðnlánasjóðsgjald-hk",
+	"hash": "97065ea7d8c176f2c68b580fe351f59d290b6db51af24696ad994938864a8da6"
+}

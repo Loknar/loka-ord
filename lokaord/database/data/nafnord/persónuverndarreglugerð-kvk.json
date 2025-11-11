@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "persónu",
+			"mynd": "persónuverndar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-persóna-kvk"
+			"kennistrengur": "no-persónuvernd-kvk"
 		},
 		{
-			"mynd": "verndar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vernd-kvk"
-		},
-		{
-			"mynd": "reglu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-reglugerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["persónuverndarreglugerðirnar", "persónuverndarreglugerðirnar", "persónuverndarreglugerðunum", "persónuverndarreglugerðanna"]
 	},
 	"kennistrengur": "no-persónuverndarreglugerð-kvk",
-	"hash": "bb4b9b7139b1a1175f8f03b1669100a9ef56eca069bd630647430989bd540cbb"
+	"hash": "208edb368a4b873eac5edb26f3b50212602167043f77fdb382d2fe4903bd11ae"
 }

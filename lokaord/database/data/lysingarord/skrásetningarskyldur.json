@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "skrá",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skrá-kvk"
-		},
-		{
-			"mynd": "setningar",
+			"mynd": "skrásetningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-setning-kvk"
+			"kennistrengur": "no-skrásetning-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-skrásetningarskyldur",
-	"hash": "b2b5c880a0004409c010e165acf2abe0dedf328e681d18d6d50e57a7127c2c6f"
+	"hash": "8288b9c47b843004ef4b37cfed4da733a762abcbe3c7faf68c9afaf188806f74"
 }

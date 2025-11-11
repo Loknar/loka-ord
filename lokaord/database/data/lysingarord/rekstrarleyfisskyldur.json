@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "rekstrar",
+			"mynd": "rekstrarleyfis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-rekstur-kk"
+			"kennistrengur": "no-rekstrarleyfi-hk"
 		},
 		{
-			"mynd": "leyfis",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leyfi-hk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-rekstrarleyfisskyldur",
-	"hash": "007b1c4586932ec923e3251c926801f67062d2bdbf13c16e4bb3b4cda52a12d6"
+	"hash": "f3798f139db53e0394d37eae95fb7c555176d15772ace743e794b423d88555fc"
 }

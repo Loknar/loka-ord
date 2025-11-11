@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "trygginga",
+			"mynd": "tryggingagjalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-trygging-kvk"
+			"kennistrengur": "no-tryggingagjald-hk"
 		},
 		{
-			"mynd": "gjalds",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-tryggingagjaldsskyldur",
-	"hash": "5808bef2c78fa13aa23bece004752683c3927bd1dedc1058e025fbfdb7f262d6"
+	"hash": "5e03f9773a867fc4d8028768a0dbc591b1625afb25ca6f5c1afa755f089eaefb"
 }

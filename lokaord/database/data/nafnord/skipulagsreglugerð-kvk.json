@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skipu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "so-skipa"
-		},
-		{
-			"mynd": "lags",
+			"mynd": "skipulags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-skipulag-hk"
 		},
 		{
-			"mynd": "reglu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-reglugerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skipulagsreglugerðirnar", "skipulagsreglugerðirnar", "skipulagsreglugerðunum", "skipulagsreglugerðanna"]
 	},
 	"kennistrengur": "no-skipulagsreglugerð-kvk",
-	"hash": "0eaea5e811b6608aa829285842e95096cc8f5aeb99c223c0ac9c7291422d14a0"
+	"hash": "81ece89e100f6b94745cee7211856226ca00fe0c39d854fa4932f3d71af0372f"
 }

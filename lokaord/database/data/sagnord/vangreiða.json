@@ -8,7 +8,7 @@
 			"kennistrengur": "smáo.ao-van-ó"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"beygingar": ["germynd", "miðmynd-persónuleg", "lýsingarháttur-þátíðar"],
 			"kennistrengur": "so-greiða"
 		}
 	],
@@ -65,6 +65,32 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "vangreiðast",
+		"sagnbót": "vangreiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vangreiðist", "vangreiðist", "vangreiðist"],
+					"ft": ["vangreiðumst", "vangreiðist", "vangreiðast"]
+				},
+				"þátíð": {
+					"et": ["vangreiddist", "vangreiddist", "vangreiddist"],
+					"ft": ["vangreiddumst", "vangreiddust", "vangreiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vangreiðist", "vangreiðist", "vangreiðist"],
+					"ft": ["vangreiðumst", "vangreiðist", "vangreiðist"]
+				},
+				"þátíð": {
+					"et": ["vangreiddist", "vangreiddist", "vangreiddist"],
+					"ft": ["vangreiddumst", "vangreiddust", "vangreiddust"]
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"þátíðar": {
 			"sb": {
@@ -94,5 +120,5 @@
 		}
 	},
 	"kennistrengur": "so-vangreiða",
-	"hash": "745f6fe2b71740de85e92ef5ccaf2a20c0a1a4146ab20a38676685fe5f9c76e2"
+	"hash": "c7c6c3302db350e0f4137f88049c282e25d7ec7c8d7fe1a3e5baf7664b11ef21"
 }

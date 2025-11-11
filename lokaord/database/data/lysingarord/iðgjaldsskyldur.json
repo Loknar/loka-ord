@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "ið",
-			"samsetning": "stofn",
-			"kennistrengur": "no-ið-hk"
-		},
-		{
-			"mynd": "gjalds",
+			"mynd": "iðgjalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
+			"kennistrengur": "no-iðgjald-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-iðgjaldsskyldur",
-	"hash": "2288fe5192e723377c76a53c858cd0d7e7dc774c173e1ad140772541302f411f"
+	"hash": "8eb9663ee81a55635eb9f8033e5928c9ad2848b00916bf5d56a57e6ecd4fcdf2"
 }

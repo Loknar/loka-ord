@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "notenda",
+			"mynd": "notendaleyfis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-notandi-kk"
+			"kennistrengur": "no-notendaleyfi-hk"
 		},
 		{
-			"mynd": "leyfis",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leyfi-hk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-notendaleyfisskyldur",
-	"hash": "ecbe6d668a7bdb36b1a391073401be1fbc5c91db688fed52b830e93375209fa6"
+	"hash": "7ab39bec3abb54e99e83c613f24a3e9d242c64e3271b133c2f723f310ee2c177"
 }

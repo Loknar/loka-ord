@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "endur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-endur-hk"
-		},
-		{
-			"mynd": "gjalds",
+			"mynd": "endurgjalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
+			"kennistrengur": "no-endurgjald-hk"
 		},
 		{
 			"kennistrengur": "lo-laus"
@@ -83,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-endurgjaldslaus",
-	"hash": "b5cddef14f11fbbeb6b45b71377ebea81f575dd02b62a5b84bdec71de024a725"
+	"hash": "735c52c03242edcf391c441996a5631b55866fdfff5e20c260f9a90dfc83bd5c"
 }

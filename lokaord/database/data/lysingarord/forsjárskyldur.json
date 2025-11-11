@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "for",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-for-ó"
-		},
-		{
-			"mynd": "sjár",
+			"mynd": "forsjár",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sjá-kvk"
+			"kennistrengur": "no-forsjá-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-forsjárskyldur",
-	"hash": "6f806e4a71214ca5ad2fe0a77711ea2a9a96fd144f424c85c2fcd7df05d67a79"
+	"hash": "d7843484cf2f26d57ee80894f9362bf70f28eb5df8eaecf26e561b8438792d1f"
 }

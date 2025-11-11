@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "færslu",
+			"mynd": "framfærslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-færsla-kvk"
+			"kennistrengur": "no-framfærsla-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-framfærsluskyldur",
-	"hash": "61ea43a3296ca84920ce5da90fb3687b2c0f141faae2e5c80bbc5b1d029f0464"
+	"hash": "141e615ab8c1cd32b19771b8e452d6ae4d400aa130984fed99edddf1c55899d4"
 }

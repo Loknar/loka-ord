@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "af",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-af"
-		},
-		{
-			"mynd": "hendingar",
+			"mynd": "afhendingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hending-kvk"
+			"kennistrengur": "no-afhending-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-afhendingarskyldur",
-	"hash": "cbbd0521f5d80aa31918f9596ec8113c4fc7d3d8af4f9160baaf8a9f453e4a7e"
+	"hash": "14ed626aa1ba5f554e1e1445a4bcb47d51a7e98855ee61681c33d6bfb4474a4e"
 }

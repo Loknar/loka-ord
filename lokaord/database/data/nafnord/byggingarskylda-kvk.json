@@ -1,0 +1,22 @@
+{
+	"orð": "byggingarskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["byggingarskylda", "byggingarskyldu", "byggingarskyldu", "byggingarskyldu"],
+		"mg": ["byggingarskyldan", "byggingarskylduna", "byggingarskyldunni", "byggingarskyldunnar"]
+	},
+	"kennistrengur": "no-byggingarskylda-kvk",
+	"hash": "5de3291ac0e400b9adbb0615df39b28bd6b5360b9e741cb6e37f672c6710d226"
+}

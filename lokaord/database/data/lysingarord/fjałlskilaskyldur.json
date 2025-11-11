@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "fjałl",
-			"samsetning": "stofn",
-			"kennistrengur": "no-fjałl-hk"
-		},
-		{
-			"mynd": "skila",
+			"mynd": "fjałlskila",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skil-hk"
+			"kennistrengur": "no-fjałlskil-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-fjałlskilaskyldur",
-	"hash": "f5b85fedb692e1f5816e894b4c03414f0596b6bf40f2ce71f5d0cc47976bc115"
+	"hash": "03a63f98f698e9cdc130c371f0a7f1de0ce15b498742223cfbc1d67fe014ce18"
 }

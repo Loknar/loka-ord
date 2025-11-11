@@ -4,27 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "um",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-um"
-		},
-		{
-			"mynd": "ferðar",
+			"mynd": "umferðarmerkja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ferð-kvk"
+			"kennistrengur": "no-umferðarmerki-hk"
 		},
 		{
-			"mynd": "merkja",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-merki-hk"
-		},
-		{
-			"mynd": "reglu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-reglugerð-kvk"
 		}
 	],
 	"et": {
@@ -36,5 +21,5 @@
 		"mg": ["umferðarmerkjareglugerðirnar", "umferðarmerkjareglugerðirnar", "umferðarmerkjareglugerðunum", "umferðarmerkjareglugerðanna"]
 	},
 	"kennistrengur": "no-umferðarmerkjareglugerð-kvk",
-	"hash": "d8c39418c3a1b584540316edb3bbd852491a52d6364284cd3a3e4c4faa34a25d"
+	"hash": "b672d0b45db887468c45e50b2e961b2744b7fa2886a6dd565de89e8ca7022568"
 }

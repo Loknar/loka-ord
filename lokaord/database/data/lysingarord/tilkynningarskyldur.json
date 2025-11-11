@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "til",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-til"
-		},
-		{
-			"mynd": "kynningar",
+			"mynd": "tilkynningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kynning-kvk"
+			"kennistrengur": "no-tilkynning-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-tilkynningarskyldur",
-	"hash": "f28ffce8f64040dc55e1da26b0b8ad3a37b0c2932d3868c93ff19b67b1b62691"
+	"hash": "0d0a6950a06e6dd75f210c0e2d309b5899edcecf7e56c83b1f0cde46502bc6de"
 }

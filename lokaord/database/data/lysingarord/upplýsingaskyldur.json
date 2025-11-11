@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "upp",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-upp"
-		},
-		{
-			"mynd": "lýsinga",
+			"mynd": "upplýsinga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lýsing-kvk"
+			"kennistrengur": "no-upplýsing-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-upplýsingaskyldur",
-	"hash": "0b55a400a04b32523df28623d04b1fecd3275537b27ea0d14cf0cb50235cbee9"
+	"hash": "972fbce99d2c9644ea5db3c0508764e3c8313a42c057a7f09eca2c1c9df2a576"
 }

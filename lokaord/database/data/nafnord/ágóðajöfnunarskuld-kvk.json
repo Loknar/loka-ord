@@ -1,0 +1,30 @@
+{
+	"orð": "ágóðajöfnunarskuld",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ágóða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ágóði-kk"
+		},
+		{
+			"mynd": "jöfnunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jöfnun-kvk"
+		},
+		{
+			"kennistrengur": "no-skuld-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ágóðajöfnunarskuld", "ágóðajöfnunarskuld", "ágóðajöfnunarskuld", "ágóðajöfnunarskuldar"],
+		"mg": ["ágóðajöfnunarskuldin", "ágóðajöfnunarskuldina", "ágóðajöfnunarskuldinni", "ágóðajöfnunarskuldarinnar"]
+	},
+	"ft": {
+		"ág": ["ágóðajöfnunarskuldir", "ágóðajöfnunarskuldir", "ágóðajöfnunarskuldum", "ágóðajöfnunarskulda"],
+		"mg": ["ágóðajöfnunarskuldirnar", "ágóðajöfnunarskuldirnar", "ágóðajöfnunarskuldunum", "ágóðajöfnunarskuldanna"]
+	},
+	"kennistrengur": "no-ágóðajöfnunarskuld-kvk",
+	"hash": "d7743725e2e12b33d4c1ade13f76a8a067097b3441220765db1553ede542925a"
+}

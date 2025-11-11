@@ -1,0 +1,30 @@
+{
+	"orð": "heildargreiðsluskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildargreiðsluskylda", "heildargreiðsluskyldu", "heildargreiðsluskyldu", "heildargreiðsluskyldu"],
+		"mg": ["heildargreiðsluskyldan", "heildargreiðsluskylduna", "heildargreiðsluskyldunni", "heildargreiðsluskyldunnar"]
+	},
+	"ft": {
+		"ág": ["heildargreiðsluskyldur", "heildargreiðsluskyldur", "heildargreiðsluskyldum", "heildargreiðsluskyldna"],
+		"mg": ["heildargreiðsluskyldurnar", "heildargreiðsluskyldurnar", "heildargreiðsluskyldunum", "heildargreiðsluskyldnanna"]
+	},
+	"kennistrengur": "no-heildargreiðsluskylda-kvk",
+	"hash": "f6cb5a5eb55364f8867d82dbbe2e9b4cf8122759698ee78491dee6319eb7b1d7"
+}

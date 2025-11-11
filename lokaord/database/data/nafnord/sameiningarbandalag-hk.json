@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "einingar",
+			"mynd": "sameiningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eining-kvk"
+			"kennistrengur": "no-sameining-kvk"
 		},
 		{
-			"mynd": "banda",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
-		},
-		{
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-bandalag-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["sameiningarbandalögin", "sameiningarbandalögin", "sameiningarbandalögunum", "sameiningarbandalaganna"]
 	},
 	"kennistrengur": "no-sameiningarbandalag-hk",
-	"hash": "b87fd5c026a0e2d35717459ed13badc810754d47677061d0ea2cffb50a59f7b7"
+	"hash": "b8a3abcd5d703ba75b73bbaea79fe42222ab9d8d8dcc45c86fab49f9a44b40be"
 }

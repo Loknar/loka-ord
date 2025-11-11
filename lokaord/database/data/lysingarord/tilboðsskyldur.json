@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "til",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-til"
-		},
-		{
-			"mynd": "boðs",
+			"mynd": "tilboðs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-boð-hk"
+			"kennistrengur": "no-tilboð-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-tilboðsskyldur",
-	"hash": "93875ca4700da4d2326c0d28ba531edb485cc71cf576ab1dfe845014636c1ef2"
+	"hash": "9d23d5ae87acf0b7404b93e30505958f14f33480c6588f32b4c34f9b53dfee6e"
 }

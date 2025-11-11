@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "inn",
+			"mynd": "innlausnar",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-inn"
+			"kennistrengur": "no-innlausn-kvk"
 		},
 		{
-			"mynd": "lausnar",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lausn-kvk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-innlausnarskyldur",
-	"hash": "65390712f374dcbb825707fbe763fa04ebce91e588c749609a32b64bcfffcd45"
+	"hash": "2a4cce2f1d64830b7056f277fed1c76f54adce3dc576f4c2ec76b9f9ef1e6220"
 }

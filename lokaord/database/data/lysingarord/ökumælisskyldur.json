@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "öku",
-			"samsetning": "stofn",
-			"kennistrengur": "so-aka"
-		},
-		{
-			"mynd": "mælis",
+			"mynd": "ökumælis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mælir-kk"
+			"kennistrengur": "no-ökumælir-kk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-ökumælisskyldur",
-	"hash": "dcd1b9774069fde166e5fed43e818c581b906896af9e1e80c1274d064ed06117"
+	"hash": "3eaf65bd5051d97789261022aab403232684ccf5c4a660fe0ef255315d72c2aa"
 }

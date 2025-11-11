@@ -1,0 +1,39 @@
+{
+	"orð": "skyldur",
+	"flokkur": "lýsingarorð",
+	"merking": "skuldbinding",
+	"samsett": [
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skyldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skyldur", "skyldan", "skyldum", "skylds"],
+				"kvk": ["skyld", "skylda", "skyldri", "skyldrar"],
+				"hk": ["skylt", "skylt", "skyldu", "skylds"]
+			},
+			"ft": {
+				"kk": ["skyldir", "skylda", "skyldum", "skyldra"],
+				"kvk": ["skyldar", "skyldar", "skyldum", "skyldra"],
+				"hk": ["skyld", "skyld", "skyldum", "skyldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skyldi", "skylda", "skylda", "skylda"],
+				"kvk": ["skylda", "skyldu", "skyldu", "skyldu"],
+				"hk": ["skylda", "skylda", "skylda", "skylda"]
+			},
+			"ft": {
+				"kk": ["skyldu", "skyldu", "skyldu", "skyldu"],
+				"kvk": ["skyldu", "skyldu", "skyldu", "skyldu"],
+				"hk": ["skyldu", "skyldu", "skyldu", "skyldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skyldur-_skuldbinding_",
+	"hash": "de6804017f5be5b0be45800fe8d03419a43f227d76a7f188fdac4e61894d23be"
+}

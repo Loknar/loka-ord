@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "gjald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gjald-hk"
-		},
-		{
-			"mynd": "þols",
+			"mynd": "gjaldþols",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-þol-hk"
+			"kennistrengur": "no-gjaldþol-hk"
 		},
 		{
 			"kennistrengur": "no-krafa-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["gjaldþolskröfurnar", "gjaldþolskröfurnar", "gjaldþolskröfunum", "gjaldþolskrafnanna"]
 	},
 	"kennistrengur": "no-gjaldþolskrafa-kvk",
-	"hash": "9f99b787570afbf1984514b2f60fa6ba866457db838a3373bcab11342c305eeb"
+	"hash": "b9d9538d39c49cc97f7ef733052791d8de8d863c200f3dffe382d4c2f2425b8b"
 }

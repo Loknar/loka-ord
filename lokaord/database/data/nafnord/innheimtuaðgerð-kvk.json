@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "inn",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-inn"
-		},
-		{
-			"mynd": "heimtu",
+			"mynd": "innheimtu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-heimta-kvk"
+			"kennistrengur": "no-innheimta-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["innheimtuaðgerðirnar", "innheimtuaðgerðirnar", "innheimtuaðgerðunum", "innheimtuaðgerðanna"]
 	},
 	"kennistrengur": "no-innheimtuaðgerð-kvk",
-	"hash": "d19f8c814b7ee9135674ff896f6e150c81187cf60f43de93372fa4ada06cb95c"
+	"hash": "f4224e0ed3961fb477b113215302665b2827751215c1957af2ce473e1b3477de"
 }

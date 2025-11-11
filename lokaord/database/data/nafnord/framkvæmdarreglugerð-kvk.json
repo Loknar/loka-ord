@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "kvæmdar",
+			"mynd": "framkvæmdar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kvæmd-kvk-ó"
+			"kennistrengur": "no-framkvæmd-kvk"
 		},
 		{
-			"mynd": "reglu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-reglugerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["framkvæmdarreglugerðirnar", "framkvæmdarreglugerðirnar", "framkvæmdarreglugerðunum", "framkvæmdarreglugerðanna"]
 	},
 	"kennistrengur": "no-framkvæmdarreglugerð-kvk",
-	"hash": "5a086cdcba764a09ad0cd70f82cc27f3eb191ed7bac5bdf2a19b35a069f4c521"
+	"hash": "cbef93713116c705573f3284ca4bd09559995a01d86f3e9a55fa6f96ad25254c"
 }

@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "starfs",
+			"mynd": "starfsleyfis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-starf-hk"
+			"kennistrengur": "no-starfsleyfi-hk"
 		},
 		{
-			"mynd": "leyfis",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leyfi-hk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-starfsleyfisskyldur",
-	"hash": "58c00eb74582abdfc10014713417fa5eecaaa2a72f91408a9b81f6bee172d4b3"
+	"hash": "7e0abd5ee743e110fad84a133faf1538c0ae49566e12ff75f23acdbc3a77813b"
 }

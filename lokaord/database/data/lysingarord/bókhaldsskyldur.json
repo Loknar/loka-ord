@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "bók",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bók-kvk"
-		},
-		{
-			"mynd": "halds",
+			"mynd": "bókhalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-bókhald-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-bókhaldsskyldur",
-	"hash": "a571f50c80d6bae2dbfd0bbe10321348f34b5bb281e0cd7fe5d8419a926316da"
+	"hash": "bf03b44078f09e971653919a261c3b12b54f42b58a58bcd11560c3a35cdaf324"
 }

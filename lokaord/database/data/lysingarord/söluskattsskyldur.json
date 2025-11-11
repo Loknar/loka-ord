@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "sölu",
+			"mynd": "söluskatts",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sala-kvk"
+			"kennistrengur": "no-söluskattur-kk"
 		},
 		{
-			"mynd": "skatts",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skattur-kk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-söluskattsskyldur",
-	"hash": "386f303b72f20fa2b6fb06a6deac448bc97eeae07b471e50b6807ce1c912f42e"
+	"hash": "54eb90c60998f3b69de8def4688685a9d625daa4183ca13866798e3955f25b82"
 }

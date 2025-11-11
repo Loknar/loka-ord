@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "stað",
-			"samsetning": "stofn",
-			"kennistrengur": "no-staður-kk"
-		},
-		{
-			"mynd": "greiðslu",
+			"mynd": "staðgreiðslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greiðsla-kvk"
+			"kennistrengur": "no-staðgreiðsla-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-staðgreiðsluskyldur",
-	"hash": "f00771dcdd817e51a985e3b78e83805bc7f13f1362dce4fad83373aaf9c36967"
+	"hash": "c9b7ff3bee717e9bbaeea0811f47b8b5e175663f02cdc309079ddf94f83bd251"
 }

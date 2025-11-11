@@ -3,18 +3,12 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "skaða",
+			"mynd": "skaðabóta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skaði-kk"
+			"kennistrengur": "no-skaðabót-kvk"
 		},
 		{
-			"mynd": "bóta",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bót-kvk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-skyldur"
+			"kennistrengur": "lo-skyldur-_skuldbinding_"
 		}
 	],
 	"frumstig": {
@@ -44,5 +38,5 @@
 		}
 	},
 	"kennistrengur": "lo-skaðabótaskyldur",
-	"hash": "6343a1076ba6c44d5bf8fd365081fa856bb9569bbdc632e46378c5b05ed90cd7"
+	"hash": "b00f8798bdf6ae3879fbc06d6f699b2bd04ffb103c71b06cf3e13064ebc27844"
 }
