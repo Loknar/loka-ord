@@ -1,0 +1,43 @@
+{
+	"orð": "þingborinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "þing",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þing-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-borinn"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["þingborinn", "þingborinn", "þingbornum", "þingborins"],
+				"kvk": ["þingborin", "þingborna", "þingborinni", "þingborinnar"],
+				"hk": ["þingborið", "þingborið", "þingbornu", "þingborins"]
+			},
+			"ft": {
+				"kk": ["þingbornir", "þingborna", "þingbornum", "þingborinna"],
+				"kvk": ["þingbornar", "þingbornar", "þingbornum", "þingborinna"],
+				"hk": ["þingborin", "þingborin", "þingbornum", "þingborinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["þingborni", "þingborna", "þingborna", "þingborna"],
+				"kvk": ["þingborna", "þingbornu", "þingbornu", "þingbornu"],
+				"hk": ["þingborna", "þingborna", "þingborna", "þingborna"]
+			},
+			"ft": {
+				"kk": ["þingbornu", "þingbornu", "þingbornu", "þingbornu"],
+				"kvk": ["þingbornu", "þingbornu", "þingbornu", "þingbornu"],
+				"hk": ["þingbornu", "þingbornu", "þingbornu", "þingbornu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-þingborinn",
+	"hash": "a39a5a66df446bfb77b707c2a90dc203bc1bfbb532e6a7da7e73015182c854f6"
+}

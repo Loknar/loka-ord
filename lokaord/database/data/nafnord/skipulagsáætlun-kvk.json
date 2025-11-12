@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skipu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "so-skipa"
-		},
-		{
-			"mynd": "lags",
+			"mynd": "skipulags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-skipulag-hk"
 		},
 		{
-			"mynd": "á",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-á"
-		},
-		{
-			"kennistrengur": "no-ætlun-kvk"
+			"kennistrengur": "no-áætlun-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skipulagsáætlanirnar", "skipulagsáætlanirnar", "skipulagsáætlununum", "skipulagsáætlananna"]
 	},
 	"kennistrengur": "no-skipulagsáætlun-kvk",
-	"hash": "ca58709435e490dc0ceb3df46add3004f21a37fc54c47edb915e28377375a12d"
+	"hash": "1fc3e7d478c8cc38e7d5efa035e9e5eb7864896ec28ee792b9b07094247bcde8"
 }

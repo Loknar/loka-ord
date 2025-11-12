@@ -1,0 +1,27 @@
+{
+	"orð": "heildarorkuöflun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-öflun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarorkuöflun", "heildarorkuöflun", "heildarorkuöflun", "heildarorkuöflunar"],
+		"mg": ["heildarorkuöflunin", "heildarorkuöflunina", "heildarorkuöfluninni", "heildarorkuöflunarinnar"]
+	},
+	"kennistrengur": "no-heildarorkuöflun-kvk",
+	"hash": "2cfd80566aaa8fc8d284853c4ae26cfebade699dd1afe1900fa11c5006fc1b73"
+}

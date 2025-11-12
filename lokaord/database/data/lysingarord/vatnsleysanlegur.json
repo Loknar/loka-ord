@@ -1,0 +1,48 @@
+{
+	"orð": "vatnsleysanlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vatns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vatn-hk"
+		},
+		{
+			"mynd": "leysan",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-leysa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["vatnsleysanlegur", "vatnsleysanlegan", "vatnsleysanlegum", "vatnsleysanlegs"],
+				"kvk": ["vatnsleysanleg", "vatnsleysanlega", "vatnsleysanlegri", "vatnsleysanlegrar"],
+				"hk": ["vatnsleysanlegt", "vatnsleysanlegt", "vatnsleysanlegu", "vatnsleysanlegs"]
+			},
+			"ft": {
+				"kk": ["vatnsleysanlegir", "vatnsleysanlega", "vatnsleysanlegum", "vatnsleysanlegra"],
+				"kvk": ["vatnsleysanlegar", "vatnsleysanlegar", "vatnsleysanlegum", "vatnsleysanlegra"],
+				"hk": ["vatnsleysanleg", "vatnsleysanleg", "vatnsleysanlegum", "vatnsleysanlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["vatnsleysanlegi", "vatnsleysanlega", "vatnsleysanlega", "vatnsleysanlega"],
+				"kvk": ["vatnsleysanlega", "vatnsleysanlegu", "vatnsleysanlegu", "vatnsleysanlegu"],
+				"hk": ["vatnsleysanlega", "vatnsleysanlega", "vatnsleysanlega", "vatnsleysanlega"]
+			},
+			"ft": {
+				"kk": ["vatnsleysanlegu", "vatnsleysanlegu", "vatnsleysanlegu", "vatnsleysanlegu"],
+				"kvk": ["vatnsleysanlegu", "vatnsleysanlegu", "vatnsleysanlegu", "vatnsleysanlegu"],
+				"hk": ["vatnsleysanlegu", "vatnsleysanlegu", "vatnsleysanlegu", "vatnsleysanlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-vatnsleysanlegur",
+	"hash": "b987aee92c90ae48f2eb6bbeea6cd2a032e5ae677e76f538340919273ff4652f"
+}

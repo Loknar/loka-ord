@@ -1,0 +1,73 @@
+{
+	"orð": "stifta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stift",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stift-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stifta",
+		"sagnbót": "stiftað",
+		"boðháttur": {
+			"stýfður": "stifta",
+			"et": "stiftaðu",
+			"ft": "stiftið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stifta", "stiftar", "stiftar"],
+					"ft": ["stiftum", "stiftið", "stifta"]
+				},
+				"þátíð": {
+					"et": ["stiftaði", "stiftaðir", "stiftaði"],
+					"ft": ["stiftuðum", "stiftuðuð", "stiftuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stifti", "stiftir", "stifti"],
+					"ft": ["stiftum", "stiftið", "stifti"]
+				},
+				"þátíð": {
+					"et": ["stiftaði", "stiftaðir", "stiftaði"],
+					"ft": ["stiftuðum", "stiftuðuð", "stiftuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stiftarðu",
+					"ft": "stiftiði"
+				},
+				"þátíð": {
+					"et": "stiftaðirðu",
+					"ft": "stiftuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stiftirðu",
+					"ft": "stiftiði"
+				},
+				"þátíð": {
+					"et": "stiftaðirðu",
+					"ft": "stiftuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stiftandi"
+	},
+	"kennistrengur": "so-stifta",
+	"hash": "18c8cedd31fff990d3895809e4fe8475946bc5abba46b775867cbb974806382f"
+}
