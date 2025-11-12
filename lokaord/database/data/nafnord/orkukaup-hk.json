@@ -1,0 +1,22 @@
+{
+	"orð": "orkukaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "orku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-orka-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["orkukaup", "orkukaup", "orkukaupum", "orkukaupa"],
+		"mg": ["orkukaupin", "orkukaupin", "orkukaupunum", "orkukaupanna"]
+	},
+	"kennistrengur": "no-orkukaup-hk",
+	"hash": "804dce2c44cb8c9b1dcb5db17cbf4cbcbb0a9a737c4637f6573e8440338d6fed"
+}

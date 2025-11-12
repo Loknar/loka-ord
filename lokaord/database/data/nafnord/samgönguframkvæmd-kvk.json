@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
+			"mynd": "samgöngu",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-samgöngur-kvk"
 		},
 		{
-			"mynd": "göngu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ganga-kvk"
-		},
-		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-kvæmd-kvk-ó"
+			"kennistrengur": "no-framkvæmd-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["samgönguframkvæmdirnar", "samgönguframkvæmdirnar", "samgönguframkvæmdunum", "samgönguframkvæmdanna"]
 	},
 	"kennistrengur": "no-samgönguframkvæmd-kvk",
-	"hash": "164ecd1b232fa0e67ca40c6edc92e3b84fec209d02964fa07390ba6602ac92e8"
+	"hash": "fa6d08f47384e4fb9d18b944beb2bbfb9314009fd406d280492a91fcc068d2b2"
 }

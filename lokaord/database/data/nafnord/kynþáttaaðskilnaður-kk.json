@@ -4,23 +4,13 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "þátta",
+			"mynd": "kynþátta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-þáttur-kk"
-		},
-		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
+			"kennistrengur": "no-kynþáttur-kk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-skilnaður-kk"
+			"kennistrengur": "no-aðskilnaður-kk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["kynþáttaaðskilnaðurinn", "kynþáttaaðskilnaðinn", "kynþáttaaðskilnaðinum", "kynþáttaaðskilnaðarins"]
 	},
 	"kennistrengur": "no-kynþáttaaðskilnaður-kk",
-	"hash": "871e6aaae403ed2b306927653694e2e98451000436eb729ce82289b08dcce11c"
+	"hash": "bed876375ec8219e0a7de775e9faa0429bdcf79020723e61458d71d1148b8f32"
 }

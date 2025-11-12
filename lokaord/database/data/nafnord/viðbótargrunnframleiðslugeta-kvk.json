@@ -1,0 +1,32 @@
+{
+	"orð": "viðbótargrunnframleiðslugeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðbótar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðbót-kvk"
+		},
+		{
+			"mynd": "grunn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-grunnur"
+		},
+		{
+			"mynd": "framleiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-framleiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["viðbótargrunnframleiðslugeta", "viðbótargrunnframleiðslugetu", "viðbótargrunnframleiðslugetu", "viðbótargrunnframleiðslugetu"],
+		"mg": ["viðbótargrunnframleiðslugetan", "viðbótargrunnframleiðslugetuna", "viðbótargrunnframleiðslugetunni", "viðbótargrunnframleiðslugetunnar"]
+	},
+	"kennistrengur": "no-viðbótargrunnframleiðslugeta-kvk",
+	"hash": "53459e45db6c5f284ffb34c05defba640e7b9bbe141fa315c233d6376b081ec4"
+}

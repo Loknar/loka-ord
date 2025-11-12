@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "endur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-endur-hk"
-		},
-		{
-			"mynd": "greiðslu",
+			"mynd": "endurgreiðslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greiðsla-kvk"
+			"kennistrengur": "no-endurgreiðsla-kvk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-endurgreiðsluhæfur",
-	"hash": "dc9bd75678bfedfb65183253205e3af5836315704e3e83dc46fba0115bdf1e6f"
+	"hash": "945b4e455be72a4172f5487148d746378a6fcfa5aaa6bd3d19a266152c9fa224"
 }

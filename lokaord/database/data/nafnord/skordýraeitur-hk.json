@@ -4,16 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "skor",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skor-kvk"
-		},
-		{
-			"mynd": "dýra",
+			"mynd": "skordýra",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dýr-hk"
+			"kennistrengur": "no-skordýr-hk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-eitur-hk"
 		}
 	],
@@ -21,10 +17,6 @@
 		"ág": ["skordýraeitur", "skordýraeitur", "skordýraeitri", "skordýraeiturs"],
 		"mg": ["skordýraeitrið", "skordýraeitrið", "skordýraeitrinu", "skordýraeitursins"]
 	},
-	"ft": {
-		"ág": ["skordýraeitur", "skordýraeitur", "skordýraeitrum", "skordýraeitra"],
-		"mg": ["skordýraeitrin", "skordýraeitrin", "skordýraeitrunum", "skordýraeitranna"]
-	},
 	"kennistrengur": "no-skordýraeitur-hk",
-	"hash": "739891661c7af6711d4c0ba7ba7ff9178df50bb229704882a1e4cbde74a793d3"
+	"hash": "647fda6b6e23fd83ffccc018f0a48887fd029890eeb2ef3e83eec6dbaefbfc77"
 }

@@ -1,0 +1,27 @@
+{
+	"orð": "grunnframleiðslugeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "grunn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-grunnur"
+		},
+		{
+			"mynd": "framleiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-framleiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["grunnframleiðslugeta", "grunnframleiðslugetu", "grunnframleiðslugetu", "grunnframleiðslugetu"],
+		"mg": ["grunnframleiðslugetan", "grunnframleiðslugetuna", "grunnframleiðslugetunni", "grunnframleiðslugetunnar"]
+	},
+	"kennistrengur": "no-grunnframleiðslugeta-kvk",
+	"hash": "2d4251ac41bfec99180ec3dbcccbab778a19ad1d4c97f4016580ea50ebd78c41"
+}

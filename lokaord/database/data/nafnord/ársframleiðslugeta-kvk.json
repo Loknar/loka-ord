@@ -1,0 +1,27 @@
+{
+	"orð": "ársframleiðslugeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "árs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ár-hk"
+		},
+		{
+			"mynd": "framleiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-framleiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ársframleiðslugeta", "ársframleiðslugetu", "ársframleiðslugetu", "ársframleiðslugetu"],
+		"mg": ["ársframleiðslugetan", "ársframleiðslugetuna", "ársframleiðslugetunni", "ársframleiðslugetunnar"]
+	},
+	"kennistrengur": "no-ársframleiðslugeta-kvk",
+	"hash": "02852b8af61ab18f25171877dc486ee5b5d2448b4ef643cf85770283688eacde"
+}

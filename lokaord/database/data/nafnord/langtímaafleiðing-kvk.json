@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lang",
+			"mynd": "langtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-langur"
+			"kennistrengur": "lo-langtíma"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "af",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-af"
-		},
-		{
-			"kennistrengur": "no-leiðing-kvk"
+			"kennistrengur": "no-afleiðing-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["langtímaafleiðingarnar", "langtímaafleiðingarnar", "langtímaafleiðingunum", "langtímaafleiðinganna"]
 	},
 	"kennistrengur": "no-langtímaafleiðing-kvk",
-	"hash": "01df3693690c6f69d2535f3fa0432dfb1a4969e1712f611019dee6bb4fc55980"
+	"hash": "2e0c4e9cfdebcac3a28cfbd683ab16eb691f81fc7091c83f165dad382e867089"
 }

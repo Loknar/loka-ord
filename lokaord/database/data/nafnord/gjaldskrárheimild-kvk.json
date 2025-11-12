@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "gjald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gjald-hk"
-		},
-		{
-			"mynd": "skrár",
+			"mynd": "gjaldskrár",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skrá-kvk"
+			"kennistrengur": "no-gjaldskrá-kvk"
 		},
 		{
 			"kennistrengur": "no-heimild-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["gjaldskrárheimildirnar", "gjaldskrárheimildirnar", "gjaldskrárheimildunum", "gjaldskrárheimildanna"]
 	},
 	"kennistrengur": "no-gjaldskrárheimild-kvk",
-	"hash": "8adbd9f413eb146518492eb453f93c9c1b5444e8bf1a4374f6d26519cd61fe07"
+	"hash": "d6c17ab44d7bd867140758c0cec2f9e76ab575b2948daefcc134868c81add24b"
 }

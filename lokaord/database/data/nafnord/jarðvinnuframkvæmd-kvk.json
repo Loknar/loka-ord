@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "jarð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-jörð-kvk"
-		},
-		{
-			"mynd": "vinnu",
+			"mynd": "jarðvinnu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vinna-kvk"
+			"kennistrengur": "no-jarðvinna-kvk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-kvæmd-kvk-ó"
+			"kennistrengur": "no-framkvæmd-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["jarðvinnuframkvæmdirnar", "jarðvinnuframkvæmdirnar", "jarðvinnuframkvæmdunum", "jarðvinnuframkvæmdanna"]
 	},
 	"kennistrengur": "no-jarðvinnuframkvæmd-kvk",
-	"hash": "e0737111728870dff88157135c73149af5adfec7b0300835df31329cebdeea5b"
+	"hash": "2a7932889fd724bb897b3a9d45c061e24886507b642677e8caf9b85ce6364d6b"
 }

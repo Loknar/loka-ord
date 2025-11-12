@@ -1,0 +1,30 @@
+{
+	"orð": "byggingarleyfisgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"mynd": "leyfis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leyfi-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["byggingarleyfisgjald", "byggingarleyfisgjald", "byggingarleyfisgjaldi", "byggingarleyfisgjalds"],
+		"mg": ["byggingarleyfisgjaldið", "byggingarleyfisgjaldið", "byggingarleyfisgjaldinu", "byggingarleyfisgjaldsins"]
+	},
+	"ft": {
+		"ág": ["byggingarleyfisgjöld", "byggingarleyfisgjöld", "byggingarleyfisgjöldum", "byggingarleyfisgjalda"],
+		"mg": ["byggingarleyfisgjöldin", "byggingarleyfisgjöldin", "byggingarleyfisgjöldunum", "byggingarleyfisgjaldanna"]
+	},
+	"kennistrengur": "no-byggingarleyfisgjald-hk",
+	"hash": "8b32ad722728a84d1771fd8fa0cfdf5300c18911a6b30c636af09c5381ac1b10"
+}

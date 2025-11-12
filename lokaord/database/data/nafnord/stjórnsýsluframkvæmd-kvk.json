@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "stjórn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "sýslu",
+			"mynd": "stjórnsýslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sýsla-kvk"
+			"kennistrengur": "no-stjórnsýsla-kvk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-kvæmd-kvk-ó"
+			"kennistrengur": "no-framkvæmd-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["stjórnsýsluframkvæmdirnar", "stjórnsýsluframkvæmdirnar", "stjórnsýsluframkvæmdunum", "stjórnsýsluframkvæmdanna"]
 	},
 	"kennistrengur": "no-stjórnsýsluframkvæmd-kvk",
-	"hash": "9c91a4449627e640172e0e59f2d75ab3964ce1f58c21884f8c963795267e7d6c"
+	"hash": "f1ed103b4017fccb7d2dd2e05ca6a46e78ea3a0754ba865a13e1ac1e8a72bf17"
 }

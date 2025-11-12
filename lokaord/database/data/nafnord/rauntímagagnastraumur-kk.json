@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "raun",
-			"samsetning": "stofn",
-			"kennistrengur": "no-raun-kvk"
-		},
-		{
-			"mynd": "tíma",
+			"mynd": "rauntíma",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "no-rauntími-kk"
 		},
 		{
-			"mynd": "gagna",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gagn-hk"
-		},
-		{
-			"kennistrengur": "no-straumur-kk"
+			"kennistrengur": "no-gagnastraumur-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["rauntímagagnastraumarnir", "rauntímagagnastraumana", "rauntímagagnastraumunum", "rauntímagagnastraumanna"]
 	},
 	"kennistrengur": "no-rauntímagagnastraumur-kk",
-	"hash": "e37f7450ed9a659516f97e4814b40ae2cd9624c0357d0b5a5469e33c40b869b9"
+	"hash": "c160b7d30a0b38f2095336c46e2549924759f5780899f26dc697866aa1ad3930"
 }

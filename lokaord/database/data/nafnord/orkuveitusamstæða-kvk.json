@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "orku",
+			"mynd": "orkuveitu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-orka-kvk"
+			"kennistrengur": "no-orkuveita-kvk"
 		},
 		{
-			"mynd": "veitu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-veita-kvk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"kennistrengur": "no-stæða-kvk"
+			"kennistrengur": "no-samstæða-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["orkuveitusamstæðurnar", "orkuveitusamstæðurnar", "orkuveitusamstæðunum", "orkuveitusamstæðnanna"]
 	},
 	"kennistrengur": "no-orkuveitusamstæða-kvk",
-	"hash": "981081a26246e505c077639eb57967da48720147d96556fd978cdb6066239478"
+	"hash": "698e4c654c781502769244864793e6f52735ff75fe463137d044767991fc7713"
 }
