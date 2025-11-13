@@ -1,0 +1,80 @@
+{
+	"orð": "betala",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "betala",
+		"sagnbót": "betalað",
+		"boðháttur": {
+			"stýfður": "betala",
+			"et": "betalaðu",
+			"ft": "betalið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["betala", "betalar", "betalar"],
+					"ft": ["betölum", "betalið", "betala"]
+				},
+				"þátíð": {
+					"et": ["betalaði", "betalaðir", "betalaði"],
+					"ft": ["betöluðum", "betöluðuð", "betöluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["betali", "betalir", "betali"],
+					"ft": ["betölum", "betalið", "betali"]
+				},
+				"þátíð": {
+					"et": ["betalaði", "betalaðir", "betalaði"],
+					"ft": ["betöluðum", "betöluðuð", "betöluðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "betalast",
+		"sagnbót": "betalast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["betalast", "betalast", "betalast"],
+					"ft": ["betölumst", "betalist", "betalast"]
+				},
+				"þátíð": {
+					"et": ["betalaðist", "betalaðist", "betalaðist"],
+					"ft": ["betöluðumst", "betöluðust", "betöluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["betalist", "betalist", "betalist"],
+					"ft": ["betölumst", "betalist", "betalist"]
+				},
+				"þátíð": {
+					"et": ["betalaðist", "betalaðist", "betalaðist"],
+					"ft": ["betöluðumst", "betöluðust", "betöluðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "betalandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["betalaður", "betalaðan", "betöluðum", "betalaðs"],
+					"kvk": ["betöluð", "betalaða", "betalaðri", "betalaðrar"],
+					"hk": ["betalað", "betalað", "betöluðu", "betalaðs"]
+				},
+				"ft": {
+					"kk": ["betalaðir", "betalaða", "betöluðum", "betalaðra"],
+					"kvk": ["betalaðar", "betalaðar", "betöluðum", "betalaðra"],
+					"hk": ["betöluð", "betöluð", "betöluðum", "betalaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-betala",
+	"hash": "66050cd32c2339466bc4cdc5bd572d9c921500c6172dd5bfb807b0c99f6e4987"
+}
