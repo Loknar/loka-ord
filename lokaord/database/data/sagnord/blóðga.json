@@ -1,0 +1,135 @@
+{
+	"orð": "blóðga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "blóðg",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-blóð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "blóðga",
+		"sagnbót": "blóðgað",
+		"boðháttur": {
+			"stýfður": "blóðga",
+			"et": "blóðgaðu",
+			"ft": "blóðgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["blóðga", "blóðgar", "blóðgar"],
+					"ft": ["blóðgum", "blóðgið", "blóðga"]
+				},
+				"þátíð": {
+					"et": ["blóðgaði", "blóðgaðir", "blóðgaði"],
+					"ft": ["blóðguðum", "blóðguðuð", "blóðguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["blóðgi", "blóðgir", "blóðgi"],
+					"ft": ["blóðgum", "blóðgið", "blóðgi"]
+				},
+				"þátíð": {
+					"et": ["blóðgaði", "blóðgaðir", "blóðgaði"],
+					"ft": ["blóðguðum", "blóðguðuð", "blóðguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "blóðgarðu",
+					"ft": "blóðgiði"
+				},
+				"þátíð": {
+					"et": "blóðgaðirðu",
+					"ft": "blóðguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "blóðgirðu",
+					"ft": "blóðgiði"
+				},
+				"þátíð": {
+					"et": "blóðgaðirðu",
+					"ft": "blóðguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "blóðgast",
+		"sagnbót": "blóðgast",
+		"boðháttur": {
+			"et": "blóðgastu",
+			"ft": "blóðgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["blóðgast", "blóðgast", "blóðgast"],
+					"ft": ["blóðgumst", "blóðgist", "blóðgast"]
+				},
+				"þátíð": {
+					"et": ["blóðgaðist", "blóðgaðist", "blóðgaðist"],
+					"ft": ["blóðguðumst", "blóðguðust", "blóðguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["blóðgist", "blóðgist", "blóðgist"],
+					"ft": ["blóðgumst", "blóðgist", "blóðgist"]
+				},
+				"þátíð": {
+					"et": ["blóðgaðist", "blóðgaðist", "blóðgaðist"],
+					"ft": ["blóðguðumst", "blóðguðust", "blóðguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "blóðgastu"
+				},
+				"þátíð": {
+					"et": "blóðgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "blóðgistu"
+				},
+				"þátíð": {
+					"et": "blóðgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "blóðgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["blóðgaður", "blóðgaðan", "blóðguðum", "blóðgaðs"],
+					"kvk": ["blóðguð", "blóðgaða", "blóðgaðri", "blóðgaðrar"],
+					"hk": ["blóðgað", "blóðgað", "blóðguðu", "blóðgaðs"]
+				},
+				"ft": {
+					"kk": ["blóðgaðir", "blóðgaða", "blóðguðum", "blóðgaðra"],
+					"kvk": ["blóðgaðar", "blóðgaðar", "blóðguðum", "blóðgaðra"],
+					"hk": ["blóðguð", "blóðguð", "blóðguðum", "blóðgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-blóðga",
+	"hash": "0d108476005b42daac8acc1758a5b55225021d79e259c3dd34e9b7d095623f80"
+}

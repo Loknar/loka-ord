@@ -1,0 +1,43 @@
+{
+	"orð": "kvótabundinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kvóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kvóti-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-bundinn"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kvótabundinn", "kvótabundinn", "kvótabundnum", "kvótabundins"],
+				"kvk": ["kvótabundin", "kvótabundna", "kvótabundinni", "kvótabundinnar"],
+				"hk": ["kvótabundið", "kvótabundið", "kvótabundnu", "kvótabundins"]
+			},
+			"ft": {
+				"kk": ["kvótabundnir", "kvótabundna", "kvótabundnum", "kvótabundinna"],
+				"kvk": ["kvótabundnar", "kvótabundnar", "kvótabundnum", "kvótabundinna"],
+				"hk": ["kvótabundin", "kvótabundin", "kvótabundnum", "kvótabundinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kvótabundni", "kvótabundna", "kvótabundna", "kvótabundna"],
+				"kvk": ["kvótabundna", "kvótabundnu", "kvótabundnu", "kvótabundnu"],
+				"hk": ["kvótabundna", "kvótabundna", "kvótabundna", "kvótabundna"]
+			},
+			"ft": {
+				"kk": ["kvótabundnu", "kvótabundnu", "kvótabundnu", "kvótabundnu"],
+				"kvk": ["kvótabundnu", "kvótabundnu", "kvótabundnu", "kvótabundnu"],
+				"hk": ["kvótabundnu", "kvótabundnu", "kvótabundnu", "kvótabundnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kvótabundinn",
+	"hash": "64bae96e6afac9918fb1b71204998502c422e7589717be8f4cbe27c9ab1378a3"
+}

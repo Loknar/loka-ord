@@ -1,0 +1,48 @@
+{
+	"orð": "selbitinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sel",
+			"samsetning": "stofn",
+			"kennistrengur": "no-selur-kk"
+		},
+		{
+			"mynd": "bit",
+			"samsetning": "stofn",
+			"kennistrengur": "so-bíta"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["selbitinn", "selbitinn", "selbitnum", "selbitins"],
+				"kvk": ["selbitin", "selbitna", "selbitinni", "selbitinnar"],
+				"hk": ["selbitið", "selbitið", "selbitnu", "selbitins"]
+			},
+			"ft": {
+				"kk": ["selbitnir", "selbitna", "selbitnum", "selbitinna"],
+				"kvk": ["selbitnar", "selbitnar", "selbitnum", "selbitinna"],
+				"hk": ["selbitin", "selbitin", "selbitnum", "selbitinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["selbitni", "selbitna", "selbitna", "selbitna"],
+				"kvk": ["selbitna", "selbitnu", "selbitnu", "selbitnu"],
+				"hk": ["selbitna", "selbitna", "selbitna", "selbitna"]
+			},
+			"ft": {
+				"kk": ["selbitnu", "selbitnu", "selbitnu", "selbitnu"],
+				"kvk": ["selbitnu", "selbitnu", "selbitnu", "selbitnu"],
+				"hk": ["selbitnu", "selbitnu", "selbitnu", "selbitnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-selbitinn",
+	"hash": "da58da79d02709d741c75a8252ae11bfa2dad6de5258f5300148a212b2ccaf17"
+}

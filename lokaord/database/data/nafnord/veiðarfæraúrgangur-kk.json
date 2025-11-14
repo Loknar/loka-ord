@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "veiðar",
+			"mynd": "veiðarfæra",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-veiði-kvk"
+			"kennistrengur": "no-veiðarfæri-hk"
 		},
 		{
-			"mynd": "færa",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-færi-hk"
-		},
-		{
-			"mynd": "úr",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-úr"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-gangur-kk"
+			"kennistrengur": "no-úrgangur-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["veiðarfæraúrgangurinn", "veiðarfæraúrganginn", "veiðarfæraúrganginum", "veiðarfæraúrgangsins"]
 	},
 	"kennistrengur": "no-veiðarfæraúrgangur-kk",
-	"hash": "08f8286ab2a4a6281a7562ee20d6887595cefc025dd0db5dac6d27f274623f2a"
+	"hash": "313bacdd2cf76e9a8fc492eebed2a100ab375bf1af6a075b67278a84437762e5"
 }
