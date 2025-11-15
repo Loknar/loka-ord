@@ -1,0 +1,99 @@
+{
+	"orð": "örmerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ör",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-ör-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "örmerkja",
+		"sagnbót": "örmerkt",
+		"boðháttur": {
+			"stýfður": "örmerk",
+			"et": "örmerktu",
+			"ft": "örmerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["örmerki", "örmerkir", "örmerkir"],
+					"ft": ["örmerkjum", "örmerkið", "örmerkja"]
+				},
+				"þátíð": {
+					"et": ["örmerkti", "örmerktir", "örmerkti"],
+					"ft": ["örmerktum", "örmerktuð", "örmerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["örmerki", "örmerkir", "örmerki"],
+					"ft": ["örmerkjum", "örmerkið", "örmerki"]
+				},
+				"þátíð": {
+					"et": ["örmerkti", "örmerktir", "örmerkti"],
+					"ft": ["örmerktum", "örmerktuð", "örmerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "örmerkirðu",
+					"ft": "örmerkiði"
+				},
+				"þátíð": {
+					"et": "örmerktirðu",
+					"ft": "örmerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "örmerkirðu",
+					"ft": "örmerkiði"
+				},
+				"þátíð": {
+					"et": "örmerktirðu",
+					"ft": "örmerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "örmerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["örmerktur", "örmerktan", "örmerktum", "örmerkts"],
+					"kvk": ["örmerkt", "örmerkta", "örmerktri", "örmerktrar"],
+					"hk": ["örmerkt", "örmerkt", "örmerktu", "örmerkts"]
+				},
+				"ft": {
+					"kk": ["örmerktir", "örmerkta", "örmerktum", "örmerktra"],
+					"kvk": ["örmerktar", "örmerktar", "örmerktum", "örmerktra"],
+					"hk": ["örmerkt", "örmerkt", "örmerktum", "örmerktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["örmerkti", "örmerkta", "örmerkta", "örmerkta"],
+					"kvk": ["örmerkta", "örmerktu", "örmerktu", "örmerktu"],
+					"hk": ["örmerkta", "örmerkta", "örmerkta", "örmerkta"]
+				},
+				"ft": {
+					"kk": ["örmerktu", "örmerktu", "örmerktu", "örmerktu"],
+					"kvk": ["örmerktu", "örmerktu", "örmerktu", "örmerktu"],
+					"hk": ["örmerktu", "örmerktu", "örmerktu", "örmerktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-örmerkja",
+	"hash": "5cbb3c98d929f1e5d9fd21c5e66ad5e30f28f1e0cd37dc33202913237103f3db"
+}

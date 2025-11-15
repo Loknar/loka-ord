@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "innan",
+			"mynd": "innanlands",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-innan"
-		},
-		{
-			"mynd": "lands",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
+			"kennistrengur": "smáo.ao-innanlands"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["innanlandsflugið", "innanlandsflugið", "innanlandsfluginu", "innanlandsflugsins"]
 	},
 	"kennistrengur": "no-innanlandsflug-hk",
-	"hash": "6b028d48ec2a58c768b85c1c86b368127dd7c999ed67cd878412c97ec32f422a"
+	"hash": "019abf894b80c8c5fce82314ffb7718caa828ed7ea54598ccebe4de62803e079"
 }

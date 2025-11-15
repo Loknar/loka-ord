@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "raf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-raf-hk"
-		},
-		{
-			"mynd": "línu",
+			"mynd": "raflínu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lína-kvk"
+			"kennistrengur": "no-raflína-kvk"
 		},
 		{
-			"mynd": "skipu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "so-skipa"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-skipulag-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["raflínuskipulagið", "raflínuskipulagið", "raflínuskipulaginu", "raflínuskipulagsins"]
 	},
 	"kennistrengur": "no-raflínuskipulag-hk",
-	"hash": "5731eadb6583d7baba29928591bba38613b33f8f43b15bec840c81ccd59c9b1c"
+	"hash": "5f316a566457320fe3670629af7d17fcbd1e6df3d730703724a1625419389c00"
 }

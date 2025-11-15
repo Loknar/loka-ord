@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "auð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-auður-kk"
-		},
-		{
-			"mynd": "valds",
+			"mynd": "auðvalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vald-hk"
+			"kennistrengur": "no-auðvald-hk"
 		},
 		{
-			"mynd": "skipu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "so-skipa"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-skipulag-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["auðvaldsskipulagið", "auðvaldsskipulagið", "auðvaldsskipulaginu", "auðvaldsskipulagsins"]
 	},
 	"kennistrengur": "no-auðvaldsskipulag-hk",
-	"hash": "28e0a71309e1294b87af955a092d2d100f2aa9975c4d7abe961c4db838bc5010"
+	"hash": "6e8cfeef070661b2fe85575fcce3ba4ceb552ba88fda0d9404909bc7eba972b1"
 }

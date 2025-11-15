@@ -1,0 +1,99 @@
+{
+	"orð": "sjúkdómstengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sjúkdóms",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjúkdómur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-tengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sjúkdómstengja",
+		"sagnbót": "sjúkdómstengt",
+		"boðháttur": {
+			"stýfður": "sjúkdómsteng",
+			"et": "sjúkdómstengdu",
+			"ft": "sjúkdómstengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sjúkdómstengi", "sjúkdómstengir", "sjúkdómstengir"],
+					"ft": ["sjúkdómstengjum", "sjúkdómstengið", "sjúkdómstengja"]
+				},
+				"þátíð": {
+					"et": ["sjúkdómstengdi", "sjúkdómstengdir", "sjúkdómstengdi"],
+					"ft": ["sjúkdómstengdum", "sjúkdómstengduð", "sjúkdómstengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sjúkdómstengi", "sjúkdómstengir", "sjúkdómstengi"],
+					"ft": ["sjúkdómstengjum", "sjúkdómstengið", "sjúkdómstengi"]
+				},
+				"þátíð": {
+					"et": ["sjúkdómstengdi", "sjúkdómstengdir", "sjúkdómstengdi"],
+					"ft": ["sjúkdómstengdum", "sjúkdómstengduð", "sjúkdómstengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sjúkdómstengirðu",
+					"ft": "sjúkdómstengiði"
+				},
+				"þátíð": {
+					"et": "sjúkdómstengdirðu",
+					"ft": "sjúkdómstengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sjúkdómstengirðu",
+					"ft": "sjúkdómstengiði"
+				},
+				"þátíð": {
+					"et": "sjúkdómstengdirðu",
+					"ft": "sjúkdómstengduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sjúkdómstengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sjúkdómstengdur", "sjúkdómstengdan", "sjúkdómstengdum", "sjúkdómstengds"],
+					"kvk": ["sjúkdómstengd", "sjúkdómstengda", "sjúkdómstengdri", "sjúkdómstengdrar"],
+					"hk": ["sjúkdómstengt", "sjúkdómstengt", "sjúkdómstengdu", "sjúkdómstengds"]
+				},
+				"ft": {
+					"kk": ["sjúkdómstengdir", "sjúkdómstengda", "sjúkdómstengdum", "sjúkdómstengdra"],
+					"kvk": ["sjúkdómstengdar", "sjúkdómstengdar", "sjúkdómstengdum", "sjúkdómstengdra"],
+					"hk": ["sjúkdómstengd", "sjúkdómstengd", "sjúkdómstengdum", "sjúkdómstengdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sjúkdómstengdi", "sjúkdómstengda", "sjúkdómstengda", "sjúkdómstengda"],
+					"kvk": ["sjúkdómstengda", "sjúkdómstengdu", "sjúkdómstengdu", "sjúkdómstengdu"],
+					"hk": ["sjúkdómstengda", "sjúkdómstengda", "sjúkdómstengda", "sjúkdómstengda"]
+				},
+				"ft": {
+					"kk": ["sjúkdómstengdu", "sjúkdómstengdu", "sjúkdómstengdu", "sjúkdómstengdu"],
+					"kvk": ["sjúkdómstengdu", "sjúkdómstengdu", "sjúkdómstengdu", "sjúkdómstengdu"],
+					"hk": ["sjúkdómstengdu", "sjúkdómstengdu", "sjúkdómstengdu", "sjúkdómstengdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sjúkdómstengja",
+	"hash": "6f19d90e01b2b767102ae4dec2c1d04f6b8e346929202057ff56ec1100fd8561"
+}

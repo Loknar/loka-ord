@@ -1,0 +1,22 @@
+{
+	"orð": "vaktskylda",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vakt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vakt-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-skylda-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vaktskylda", "vaktskyldu", "vaktskyldu", "vaktskyldu"],
+		"mg": ["vaktskyldan", "vaktskylduna", "vaktskyldunni", "vaktskyldunnar"]
+	},
+	"kennistrengur": "no-vaktskylda-kvk",
+	"hash": "7acda829d0ca243b358f9e1e4f79aed1d0c92842af5c15bf862c360caa468d38"
+}

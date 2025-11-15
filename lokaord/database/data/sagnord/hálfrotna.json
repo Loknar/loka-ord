@@ -64,6 +64,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "hálfrotnast",
+		"sagnbót": "hálfrotnast",
+		"boðháttur": {
+			"et": "hálfrotnastu",
+			"ft": "hálfrotnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hálfrotnast", "hálfrotnast", "hálfrotnast"],
+					"ft": ["hálfrotnumst", "hálfrotnist", "hálfrotnast"]
+				},
+				"þátíð": {
+					"et": ["hálfrotnaðist", "hálfrotnaðist", "hálfrotnaðist"],
+					"ft": ["hálfrotnuðumst", "hálfrotnuðust", "hálfrotnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hálfrotnist", "hálfrotnist", "hálfrotnist"],
+					"ft": ["hálfrotnumst", "hálfrotnist", "hálfrotnist"]
+				},
+				"þátíð": {
+					"et": ["hálfrotnaðist", "hálfrotnaðist", "hálfrotnaðist"],
+					"ft": ["hálfrotnuðumst", "hálfrotnuðust", "hálfrotnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hálfrotnastu"
+				},
+				"þátíð": {
+					"et": "hálfrotnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hálfrotnistu"
+				},
+				"þátíð": {
+					"et": "hálfrotnaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "hálfrotnandi",
 		"þátíðar": {
@@ -82,5 +130,5 @@
 		}
 	},
 	"kennistrengur": "so-hálfrotna",
-	"hash": "a1f2c84e1240d2e4f8491cfceda250727c4847dfbc2c1e637d2c3e32a75f513d"
+	"hash": "378cb52d631afbcd1d992fd374a3bb966a0edd11cb22c097d60e76181244e159"
 }

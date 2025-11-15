@@ -1,0 +1,87 @@
+{
+	"orð": "heilbrigðisskoða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heilbrigðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heilbrigði-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skoða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heilbrigðisskoða",
+		"sagnbót": "heilbrigðisskoðað",
+		"boðháttur": {
+			"stýfður": "heilbrigðisskoða",
+			"et": "heilbrigðisskoðaðu",
+			"ft": "heilbrigðisskoðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heilbrigðisskoða", "heilbrigðisskoðar", "heilbrigðisskoðar"],
+					"ft": ["heilbrigðisskoðum", "heilbrigðisskoðið", "heilbrigðisskoða"]
+				},
+				"þátíð": {
+					"et": ["heilbrigðisskoðaði", "heilbrigðisskoðaðir", "heilbrigðisskoðaði"],
+					"ft": ["heilbrigðisskoðuðum", "heilbrigðisskoðuðuð", "heilbrigðisskoðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heilbrigðisskoði", "heilbrigðisskoðir", "heilbrigðisskoði"],
+					"ft": ["heilbrigðisskoðum", "heilbrigðisskoðið", "heilbrigðisskoði"]
+				},
+				"þátíð": {
+					"et": ["heilbrigðisskoðaði", "heilbrigðisskoðaðir", "heilbrigðisskoðaði"],
+					"ft": ["heilbrigðisskoðuðum", "heilbrigðisskoðuðuð", "heilbrigðisskoðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heilbrigðisskoðarðu",
+					"ft": "heilbrigðisskoðiði"
+				},
+				"þátíð": {
+					"et": "heilbrigðisskoðaðirðu",
+					"ft": "heilbrigðisskoðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heilbrigðisskoðirðu",
+					"ft": "heilbrigðisskoðiði"
+				},
+				"þátíð": {
+					"et": "heilbrigðisskoðaðirðu",
+					"ft": "heilbrigðisskoðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heilbrigðisskoðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heilbrigðisskoðaður", "heilbrigðisskoðaðan", "heilbrigðisskoðuðum", "heilbrigðisskoðaðs"],
+					"kvk": ["heilbrigðisskoðuð", "heilbrigðisskoðaða", "heilbrigðisskoðaðri", "heilbrigðisskoðaðrar"],
+					"hk": ["heilbrigðisskoðað", "heilbrigðisskoðað", "heilbrigðisskoðuðu", "heilbrigðisskoðaðs"]
+				},
+				"ft": {
+					"kk": ["heilbrigðisskoðaðir", "heilbrigðisskoðaða", "heilbrigðisskoðuum", "heilbrigðisskoðaðra"],
+					"kvk": ["heilbrigðisskoðaðar", "heilbrigðisskoðaðar", "heilbrigðisskoðuðum", "heilbrigðisskoðaðra"],
+					"hk": ["heilbrigðisskoðuð", "heilbrigðisskoðuð", "heilbrigðisskoðuðum", "heilbrigðisskoðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heilbrigðisskoða",
+	"hash": "a0e2dbddc653081eb1a660b2f2bb5df0569c904155b903663e730fb3f6f28d71"
+}

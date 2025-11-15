@@ -1,0 +1,73 @@
+{
+	"orð": "trotta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "trott",
+			"samsetning": "stofn",
+			"kennistrengur": "no-trott-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "trotta",
+		"sagnbót": "trottað",
+		"boðháttur": {
+			"stýfður": "trotta",
+			"et": "trottaðu",
+			"ft": "trottið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trotta", "trottar", "trottar"],
+					"ft": ["trottum", "trottið", "trotta"]
+				},
+				"þátíð": {
+					"et": ["trottaði", "trottaðir", "trottaði"],
+					"ft": ["trottuðum", "trottuðuð", "trottuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trotti", "trottir", "trotti"],
+					"ft": ["trottum", "trottið", "trotti"]
+				},
+				"þátíð": {
+					"et": ["trottaði", "trottaðir", "trottaði"],
+					"ft": ["trottuðum", "trottuðuð", "trottuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "trottarðu",
+					"ft": "trottiði"
+				},
+				"þátíð": {
+					"et": "trottaðirðu",
+					"ft": "trottuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "trottirðu",
+					"ft": "trottiði"
+				},
+				"þátíð": {
+					"et": "trottaðirðu",
+					"ft": "trottuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "trottandi"
+	},
+	"kennistrengur": "so-trotta",
+	"hash": "706e61c5a1779f2995fb36e88ec31c69a6e1e40420c3327fd8e93256b9a24364"
+}

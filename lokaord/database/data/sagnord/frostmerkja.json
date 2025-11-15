@@ -1,0 +1,99 @@
+{
+	"orð": "frostmerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frost",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frost-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frostmerkja",
+		"sagnbót": "frostmerkt",
+		"boðháttur": {
+			"stýfður": "frostmerk",
+			"et": "frostmerktu",
+			"ft": "frostmerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frostmerki", "frostmerkir", "frostmerkir"],
+					"ft": ["frostmerkjum", "frostmerkið", "frostmerkja"]
+				},
+				"þátíð": {
+					"et": ["frostmerkti", "frostmerktir", "frostmerkti"],
+					"ft": ["frostmerktum", "frostmerktuð", "frostmerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frostmerki", "frostmerkir", "frostmerki"],
+					"ft": ["frostmerkjum", "frostmerkið", "frostmerki"]
+				},
+				"þátíð": {
+					"et": ["frostmerkti", "frostmerktir", "frostmerkti"],
+					"ft": ["frostmerktum", "frostmerktuð", "frostmerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frostmerkirðu",
+					"ft": "frostmerkiði"
+				},
+				"þátíð": {
+					"et": "frostmerktirðu",
+					"ft": "frostmerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frostmerkirðu",
+					"ft": "frostmerkiði"
+				},
+				"þátíð": {
+					"et": "frostmerktirðu",
+					"ft": "frostmerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frostmerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frostmerktur", "frostmerktan", "frostmerktum", "frostmerkts"],
+					"kvk": ["frostmerkt", "frostmerkta", "frostmerktri", "frostmerktrar"],
+					"hk": ["frostmerkt", "frostmerkt", "frostmerktu", "frostmerkts"]
+				},
+				"ft": {
+					"kk": ["frostmerktir", "frostmerkta", "frostmerktum", "frostmerktra"],
+					"kvk": ["frostmerktar", "frostmerktar", "frostmerktum", "frostmerktra"],
+					"hk": ["frostmerkt", "frostmerkt", "frostmerktum", "frostmerktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["frostmerkti", "frostmerkta", "frostmerkta", "frostmerkta"],
+					"kvk": ["frostmerkta", "frostmerktu", "frostmerktu", "frostmerktu"],
+					"hk": ["frostmerkta", "frostmerkta", "frostmerkta", "frostmerkta"]
+				},
+				"ft": {
+					"kk": ["frostmerktu", "frostmerktu", "frostmerktu", "frostmerktu"],
+					"kvk": ["frostmerktu", "frostmerktu", "frostmerktu", "frostmerktu"],
+					"hk": ["frostmerktu", "frostmerktu", "frostmerktu", "frostmerktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frostmerkja",
+	"hash": "99c3ec36ac91ecd6ed6787749205b1d75e6d8cd2169a2ea360ae1d7110119e78"
+}

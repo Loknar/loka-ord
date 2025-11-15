@@ -1,0 +1,87 @@
+{
+	"orð": "burðarþolsmeta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "burðarþols",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-burðarþol-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-meta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "burðarþolsmeta",
+		"sagnbót": "burðarþolsmetið",
+		"boðháttur": {
+			"stýfður": "burðarþolsmet",
+			"et": "burðarþolsmettu",
+			"ft": "burðarþolsmetið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["burðarþolsmet", "burðarþolsmetur", "burðarþolsmetur"],
+					"ft": ["burðarþolsmetum", "burðarþolsmetið", "burðarþolsmeta"]
+				},
+				"þátíð": {
+					"et": ["burðarþolsmat", "burðarþolsmast", "burðarþolsmat"],
+					"ft": ["burðarþolsmátum", "burðarþolsmátuð", "burðarþolsmátu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["burðarþolsmeti", "burðarþolsmetir", "burðarþolsmeti"],
+					"ft": ["burðarþolsmetum", "burðarþolsmetið", "burðarþolsmeti"]
+				},
+				"þátíð": {
+					"et": ["burðarþolsmæti", "burðarþolsmætir", "burðarþolsmæti"],
+					"ft": ["burðarþolsmætum", "burðarþolsmætuð", "burðarþolsmætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "burðarþolsmeturðu",
+					"ft": "burðarþolsmetiði"
+				},
+				"þátíð": {
+					"et": "burðarþolsmastu",
+					"ft": "burðarþolsmátuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "burðarþolsmetirðu",
+					"ft": "burðarþolsmetiði"
+				},
+				"þátíð": {
+					"et": "burðarþolsmætirðu",
+					"ft": "burðarþolsmætuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "burðarþolsmetandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["burðarþolsmetinn", "burðarþolsmetinn", "burðarþolsmetnum", "burðarþolsmetins"],
+					"kvk": ["burðarþolsmetin", "burðarþolsmetna", "burðarþolsmetinni", "burðarþolsmetinnar"],
+					"hk": ["burðarþolsmetið", "burðarþolsmetið", "burðarþolsmetnu", "burðarþolsmetins"]
+				},
+				"ft": {
+					"kk": ["burðarþolsmetnir", "burðarþolsmetna", "burðarþolsmetnum", "burðarþolsmetinna"],
+					"kvk": ["burðarþolsmetnar", "burðarþolsmetnar", "burðarþolsmetnum", "burðarþolsmetinna"],
+					"hk": ["burðarþolsmetin", "burðarþolsmetin", "burðarþolsmetnum", "burðarþolsmetinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-burðarþolsmeta",
+	"hash": "8a916a85823430fd85d32140479de987c95d3e26b066ab07a09da1ef79019d5c"
+}

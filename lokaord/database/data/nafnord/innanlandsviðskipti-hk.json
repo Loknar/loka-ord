@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "innan",
+			"mynd": "innanlands",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-innan"
-		},
-		{
-			"mynd": "lands",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "við",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-við"
+			"kennistrengur": "smáo.ao-innanlands"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-skipti-hk"
+			"kennistrengur": "no-viðskipti-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["innanlandsviðskiptin", "innanlandsviðskiptin", "innanlandsviðskiptunum", "innanlandsviðskiptanna"]
 	},
 	"kennistrengur": "no-innanlandsviðskipti-hk",
-	"hash": "1663bd60daafaecab3dd38a01c66d5ba1be1f4f0ef482401b966db016fd59f07"
+	"hash": "870d38b7c838924266d219e5bf283c9c5caf9757c5b66f3df5acd03e86ebdb0c"
 }

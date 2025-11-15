@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "nauta",
+			"mynd": "nautakjöts",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-naut-hk"
-		},
-		{
-			"mynd": "kjöts",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kjöt-hk"
-		},
-		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
+			"kennistrengur": "no-nautakjöt-hk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-framleiðsla-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["nautakjötsframleiðslan", "nautakjötsframleiðsluna", "nautakjötsframleiðslunni", "nautakjötsframleiðslunnar"]
 	},
 	"kennistrengur": "no-nautakjötsframleiðsla-kvk",
-	"hash": "dce3db89b306e1e3e9864bbd3f63cae79ffab25d23fca0a6eeaad80858075013"
+	"hash": "759c268700744ab5f4e1b0a725728b8b93d0bfc6be56a9d22b69ddc203cacc45"
 }

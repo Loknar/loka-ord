@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "heild",
-			"samsetning": "stofn",
-			"kennistrengur": "no-heild-kvk"
-		},
-		{
-			"mynd": "sölu",
+			"mynd": "heildsölu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sala-kvk"
+			"kennistrengur": "no-heildsala-kvk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["heildsöluverðið", "heildsöluverðið", "heildsöluverðinu", "heildsöluverðsins"]
 	},
 	"kennistrengur": "no-heildsöluverð-hk",
-	"hash": "991109e8b1fbc153e4e818353c47aeddd706f8de360fba4aa4a9b53af1f59eb9"
+	"hash": "6eb89fa58379fad783a69c58bb6b1aff471bdf4b3d1088ff82e6a7755802fd01"
 }

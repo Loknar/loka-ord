@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "innan",
+			"mynd": "innanlands",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-innan"
+			"kennistrengur": "smáo.ao-innanlands"
 		},
 		{
-			"mynd": "lands",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "vanda",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vandi-kk"
-		},
-		{
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-vandamál-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["innanlandsvandamálin", "innanlandsvandamálin", "innanlandsvandamálunum", "innanlandsvandamálanna"]
 	},
 	"kennistrengur": "no-innanlandsvandamál-hk",
-	"hash": "842febb4a61d715a7836d1036fa8c02cc73f335e2223a48fb248c0379789be41"
+	"hash": "6b537235c0ef5b552a87e55b8cc81b2d0f58fb4645188e023e60717a500c2de5"
 }

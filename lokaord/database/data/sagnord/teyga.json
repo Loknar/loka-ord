@@ -1,0 +1,87 @@
+{
+	"orð": "teyga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "teyg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-teygur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "teyga",
+		"sagnbót": "teygað",
+		"boðháttur": {
+			"stýfður": "teyga",
+			"et": "teygaðu",
+			"ft": "teygið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["teyga", "teygar", "teygar"],
+					"ft": ["teygum", "teygið", "teyga"]
+				},
+				"þátíð": {
+					"et": ["teygaði", "teygaðir", "teygaði"],
+					"ft": ["teyguðum", "teyguðuð", "teyguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["teygi", "teygir", "teygi"],
+					"ft": ["teygum", "teygið", "teygi"]
+				},
+				"þátíð": {
+					"et": ["teygaði", "teygaðir", "teygaði"],
+					"ft": ["teyguðum", "teyguðuð", "teyguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "teygarðu",
+					"ft": "teygiði"
+				},
+				"þátíð": {
+					"et": "teygaðirðu",
+					"ft": "teyguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "teygirðu",
+					"ft": "teygiði"
+				},
+				"þátíð": {
+					"et": "teygaðirðu",
+					"ft": "teyguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "teygandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["teygaður", "teygaðan", "teyguðum", "teygaðs"],
+					"kvk": ["teyguð", "teygaða", "teygaðri", "teygaðrar"],
+					"hk": ["teygað", "teygað", "teyguðu", "teygaðs"]
+				},
+				"ft": {
+					"kk": ["teygaðir", "teygaða", "teyguðum", "teygaðra"],
+					"kvk": ["teygaðar", "teygaðar", "teyguðum", "teygaðra"],
+					"hk": ["teyguð", "teyguð", "teyguðum", "teygaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-teyga",
+	"hash": "acc4f417ec170cedba28135245bffb627788ce76c943b343b3853bfd41d0e92c"
+}

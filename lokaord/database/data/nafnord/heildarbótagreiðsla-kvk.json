@@ -1,0 +1,30 @@
+{
+	"orð": "heildarbótagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heildarbótagreiðsla", "heildarbótagreiðslu", "heildarbótagreiðslu", "heildarbótagreiðslu"],
+		"mg": ["heildarbótagreiðslan", "heildarbótagreiðsluna", "heildarbótagreiðslunni", "heildarbótagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["heildarbótagreiðslur", "heildarbótagreiðslur", "heildarbótagreiðslum", "heildarbótagreiðslna"],
+		"mg": ["heildarbótagreiðslurnar", "heildarbótagreiðslurnar", "heildarbótagreiðslunum", "heildarbótagreiðslnanna"]
+	},
+	"kennistrengur": "no-heildarbótagreiðsla-kvk",
+	"hash": "64689ba5ccced49d27648290611ec7314edfc69a6ae7d894e62f99b7ff914500"
+}

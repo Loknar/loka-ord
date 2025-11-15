@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "tíðar",
+			"mynd": "framtíðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tíð-kvk"
+			"kennistrengur": "no-framtíð-kvk"
 		},
 		{
-			"mynd": "bú",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bú-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-seta-kvk"
+			"kennistrengur": "no-búseta-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["framtíðarbúsetan", "framtíðarbúsetuna", "framtíðarbúsetunni", "framtíðarbúsetunnar"]
 	},
 	"kennistrengur": "no-framtíðarbúseta-kvk",
-	"hash": "ffcbf01796c4509fe2ff1e13c93fdf23006d738e8afcdccae5b0fe99159a2b2e"
+	"hash": "169d40477aa1d6af3fc568dd43701cc5785266e8ba0dd9544a09a4c33965ed11"
 }

@@ -4,17 +4,11 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "um",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-um"
-		},
-		{
-			"mynd": "önnunar",
+			"mynd": "umönnunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-önnun-kvk"
+			"kennistrengur": "no-umönnun-kvk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-skylda-kvk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["umönnunarskylda", "umönnunarskyldu", "umönnunarskyldu", "umönnunarskyldu"],
 		"mg": ["umönnunarskyldan", "umönnunarskylduna", "umönnunarskyldunni", "umönnunarskyldunnar"]
 	},
+	"ft": {
+		"ág": ["umönnunarskyldur", "umönnunarskyldur", "umönnunarskyldum", "umönnunarskyldna"],
+		"mg": ["umönnunarskyldurnar", "umönnunarskyldurnar", "umönnunarskyldunum", "umönnunarskyldnanna"]
+	},
 	"kennistrengur": "no-umönnunarskylda-kvk",
-	"hash": "5b94d1bda01dfd6446dcbcec42ab9610a0e1c5b28b8472d5548511cccd6c8d14"
+	"hash": "7f942c8efb257f3b3d26364fec1c9886871cb78c2bac967b155ba3ddc9a11575"
 }

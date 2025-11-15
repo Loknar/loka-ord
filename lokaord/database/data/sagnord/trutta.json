@@ -1,0 +1,135 @@
+{
+	"orð": "trutta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "trutt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-trutta-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "trutta",
+		"sagnbót": "truttað",
+		"boðháttur": {
+			"stýfður": "trutta",
+			"et": "truttaðu",
+			"ft": "truttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trutta", "truttar", "truttar"],
+					"ft": ["truttum", "truttið", "trutta"]
+				},
+				"þátíð": {
+					"et": ["truttaði", "truttaðir", "truttaði"],
+					"ft": ["truttuðum", "truttuðuð", "truttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trutti", "truttir", "trutti"],
+					"ft": ["truttum", "truttið", "trutti"]
+				},
+				"þátíð": {
+					"et": ["truttaði", "truttaðir", "truttaði"],
+					"ft": ["truttuðum", "truttuðuð", "truttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "truttarðu",
+					"ft": "truttiði"
+				},
+				"þátíð": {
+					"et": "truttaðirðu",
+					"ft": "truttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "truttirðu",
+					"ft": "truttiði"
+				},
+				"þátíð": {
+					"et": "truttaðirðu",
+					"ft": "truttuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "truttast",
+		"sagnbót": "truttast",
+		"boðháttur": {
+			"et": "truttastu",
+			"ft": "truttist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["truttast", "truttast", "truttast"],
+					"ft": ["truttumst", "truttist", "truttast"]
+				},
+				"þátíð": {
+					"et": ["truttaðist", "truttaðist", "truttaðist"],
+					"ft": ["truttuðumst", "truttuðust", "truttuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["truttist", "truttist", "truttist"],
+					"ft": ["truttumst", "truttist", "truttist"]
+				},
+				"þátíð": {
+					"et": ["truttaðist", "truttaðist", "truttaðist"],
+					"ft": ["truttuðumst", "truttuðust", "truttuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "truttastu"
+				},
+				"þátíð": {
+					"et": "truttaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "truttistu"
+				},
+				"þátíð": {
+					"et": "truttaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "truttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["truttaður", "truttaðan", "truttuðum", "truttaðs"],
+					"kvk": ["truttuð", "truttaða", "truttaðri", "truttaðrar"],
+					"hk": ["truttað", "truttað", "truttuðu", "truttaðs"]
+				},
+				"ft": {
+					"kk": ["truttaðir", "truttaða", "truttuðum", "truttaðra"],
+					"kvk": ["truttaðar", "truttaðar", "truttuðum", "truttaðra"],
+					"hk": ["truttuð", "truttuð", "truttuðum", "truttaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-trutta",
+	"hash": "d26f551931d573ed153ad77fa8e78a92f0b200d2df652659fcf81a305b64779b"
+}

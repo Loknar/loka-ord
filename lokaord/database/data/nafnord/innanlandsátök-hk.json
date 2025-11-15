@@ -4,29 +4,15 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "innan",
+			"mynd": "innanlands",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-innan"
-		},
-		{
-			"mynd": "lands",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "á",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-á"
+			"kennistrengur": "smáo.ao-innanlands"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-átak-hk"
 		}
 	],
-	"ft": {
-		"ág": ["innanlandsátök", "innanlandsátök", "innanlandsátökum", "innanlandsátaka"],
-		"mg": ["innanlandsátökin", "innanlandsátökin", "innanlandsátökunum", "innanlandsátakanna"]
-	},
 	"kennistrengur": "no-innanlandsátök-hk",
-	"hash": "9790e92da7ba7c8872d773b552fedb45bdce36d0a08c608a86c75eb19065119b"
+	"hash": "04dbf545ab8fedad6e590aa920abd6c45350ab0df1377c30b60a097784970a88"
 }

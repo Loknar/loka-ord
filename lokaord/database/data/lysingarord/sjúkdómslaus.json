@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "sjúk",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "dóms",
+			"mynd": "sjúkdóms",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dómur-kk"
+			"kennistrengur": "no-sjúkdómur-kk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-sjúkdómslaus",
-	"hash": "2599f241cb91eeb0a0c2179f39f6e1f7a39288c035bb490135bfb24f1b08d22d"
+	"hash": "149e412ba597874b6358d1ea56f3ee77b2a36a3f1be233c1b2d8ff0a96131a57"
 }

@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "veiði",
-			"samsetning": "stofn",
-			"kennistrengur": "no-veiði-kvk"
-		},
-		{
-			"mynd": "gjalds",
+			"mynd": "veiðigjalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
+			"kennistrengur": "no-veiðigjald-hk"
 		},
 		{
-			"mynd": "frum",
-			"samsetning": "stofn",
-			"kennistrengur": "no-frum-hk"
-		},
-		{
-			"kennistrengur": "no-varp-hk"
+			"kennistrengur": "no-frumvarp-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["veiðigjaldsfrumvörpin", "veiðigjaldsfrumvörpin", "veiðigjaldsfrumvörpunum", "veiðigjaldsfrumvarpanna"]
 	},
 	"kennistrengur": "no-veiðigjaldsfrumvarp-hk",
-	"hash": "cbb4a4b8cec6ee7c701ce2900291eac27a3f1721e2980cd6ae1d7a9ee7ec13db"
+	"hash": "0d5040a1bdedb4c257334a8e3034dba9f7160ef311ce4a8cab263e2b2ac9badc"
 }

@@ -4,29 +4,22 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "regn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stakkur-kk"
-		},
-		{
-			"mynd": "boga",
+			"mynd": "regnboga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bogi-kk"
+			"kennistrengur": "no-regnbogi-kk"
 		},
 		{
-			"mynd": "arm",
-			"samsetning": "stofn",
-			"kennistrengur": "no-armur-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-band-hk"
+			"kennistrengur": "no-armband-hk"
 		}
 	],
 	"et": {
 		"ág": ["regnbogaarmband", "regnbogaarmband", "regnbogaarmbandi", "regnbogaarmbands"],
 		"mg": ["regnbogaarmbandið", "regnbogaarmbandið", "regnbogaarmbandinu", "regnbogaarmbandsins"]
 	},
+	"ft": {
+		"ág": ["regnbogaarmbönd", "regnbogaarmbönd", "regnbogaarmböndum", "regnbogaarmbanda"],
+		"mg": ["regnbogaarmböndin", "regnbogaarmböndin", "regnbogaarmböndunum", "regnbogaarmbandanna"]
+	},
 	"kennistrengur": "no-regnbogaarmband-hk",
-	"hash": "287c258d0a249ddf51e7fb7d3c27557ca0699ac9ea289f5bc073fd78ccc74a95"
+	"hash": "ccba4f78925823cbb8da87fb2bbb6ac1ab9174ac62dedfcbc09c26d9d59e62dd"
 }

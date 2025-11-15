@@ -1,0 +1,87 @@
+{
+	"orð": "verkjastiłla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verkja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verkur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-stiłla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verkjastiłla",
+		"sagnbót": "verkjastillt",
+		"boðháttur": {
+			"stýfður": "verkjastiłl",
+			"et": "verkjastilltu",
+			"ft": "verkjastiłlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verkjastiłli", "verkjastiłlir", "verkjastiłlir"],
+					"ft": ["verkjastiłlum", "verkjastiłlið", "verkjastiłla"]
+				},
+				"þátíð": {
+					"et": ["verkjastillti", "verkjastilltir", "verkjastillti"],
+					"ft": ["verkjastilltum", "verkjastilltuð", "verkjastilltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verkjastiłli", "verkjastiłlir", "verkjastiłli"],
+					"ft": ["verkjastiłlum", "verkjastiłlið", "verkjastiłli"]
+				},
+				"þátíð": {
+					"et": ["verkjastillti", "verkjastilltir", "verkjastillti"],
+					"ft": ["verkjastilltum", "verkjastilltuð", "verkjastilltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verkjastiłlirðu",
+					"ft": "verkjastiłliði"
+				},
+				"þátíð": {
+					"et": "verkjastilltirðu",
+					"ft": "verkjastilltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verkjastiłlirðu",
+					"ft": "verkjastiłliði"
+				},
+				"þátíð": {
+					"et": "verkjastilltirðu",
+					"ft": "verkjastilltuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verkjastiłlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verkjastilltur", "verkjastilltan", "verkjastilltum", "verkjastillts"],
+					"kvk": ["verkjastillt", "verkjastillta", "verkjastilltri", "verkjastilltrar"],
+					"hk": ["verkjastillt", "verkjastillt", "verkjastilltu", "verkjastillts"]
+				},
+				"ft": {
+					"kk": ["verkjastilltir", "verkjastillta", "verkjastilltum", "verkjastilltra"],
+					"kvk": ["verkjastilltar", "verkjastilltar", "verkjastilltum", "verkjastilltra"],
+					"hk": ["verkjastillt", "verkjastillt", "verkjastilltum", "verkjastilltra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verkjastiłla",
+	"hash": "38ab735f43908439af44a552b7cae028cc2519c2d189a64e0265a6d7f44cc84b"
+}

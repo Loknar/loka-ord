@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "verð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"mynd": "lags",
+			"mynd": "verðlags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-verðlag-hk"
 		},
 		{
 			"kennistrengur": "no-breyting-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["verðlagsbreytingarnar", "verðlagsbreytingarnar", "verðlagsbreytingunum", "verðlagsbreytinganna"]
 	},
 	"kennistrengur": "no-verðlagsbreyting-kvk",
-	"hash": "3ab4d6ff4bef47e82dccbade845f7356ed0bcbacc36f6b6f0b7e11bb5f218ac6"
+	"hash": "126e2a67fe3df111c83488aeda9dc2db4c33048f5aeb84524fe5afb968c32035"
 }

@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vöru",
+			"mynd": "vörugeymslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vara-kvk"
-		},
-		{
-			"mynd": "geymslu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-geymsla-kvk"
+			"kennistrengur": "no-vörugeymsla-kvk"
 		},
 		{
 			"kennistrengur": "no-bygging-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["vörugeymslubyggingarnar", "vörugeymslubyggingarnar", "vörugeymslubyggingunum", "vörugeymslubygginganna"]
 	},
 	"kennistrengur": "no-vörugeymslubygging-kvk",
-	"hash": "08177625ca1d0a69b3defc6ba2e947c6ceb7b209c498deef874a496cb78a37df"
+	"hash": "9eeeba2ae38735d6d0cd779de31ab72d2139c5d14ff407d84770e5d80a4a9bc1"
 }

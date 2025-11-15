@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "innan",
+			"mynd": "innanlands",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-innan"
-		},
-		{
-			"mynd": "lands",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
+			"kennistrengur": "smáo.ao-innanlands"
 		},
 		{
 			"beygingar": ["ft"],
@@ -23,5 +18,5 @@
 		"mg": ["innanlandserjurnar", "innanlandserjurnar", "innanlandserjunum", "innanlandserjanna"]
 	},
 	"kennistrengur": "no-innanlandserjur-kvk",
-	"hash": "ae62966470dae764f000742cb46bc5295be0d273a3ac1b2cdfd48d407e73c73d"
+	"hash": "0aa4543cc375d7e71a48c1cba8088b545264186947b473ed14421e841d2b6480"
 }

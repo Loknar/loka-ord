@@ -1,0 +1,99 @@
+{
+	"orð": "heimaslátra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heima",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-heima"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-slátra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heimaslátra",
+		"sagnbót": "heimaslátrað",
+		"boðháttur": {
+			"stýfður": "heimaslátra",
+			"et": "heimaslátraðu",
+			"ft": "heimaslátrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heimaslátra", "heimaslátrar", "heimaslátrar"],
+					"ft": ["heimaslátrum", "heimaslátrið", "heimaslátra"]
+				},
+				"þátíð": {
+					"et": ["heimaslátraði", "heimaslátraðir", "heimaslátraði"],
+					"ft": ["heimaslátruðum", "heimaslátruðuð", "heimaslátruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heimaslátri", "heimaslátrir", "heimaslátri"],
+					"ft": ["heimaslátrum", "heimaslátrið", "heimaslátri"]
+				},
+				"þátíð": {
+					"et": ["heimaslátraði", "heimaslátraðir", "heimaslátraði"],
+					"ft": ["heimaslátruðum", "heimaslátruðuð", "heimaslátruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heimaslátrarðu",
+					"ft": "heimaslátriði"
+				},
+				"þátíð": {
+					"et": "heimaslátraðirðu",
+					"ft": "heimaslátruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heimaslátrirðu",
+					"ft": "heimaslátriði"
+				},
+				"þátíð": {
+					"et": "heimaslátraðirðu",
+					"ft": "heimaslátruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heimaslátrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heimaslátraður", "heimaslátraðan", "heimaslátruðum", "heimaslátraðs"],
+					"kvk": ["heimaslátruð", "heimaslátraða", "heimaslátraðri", "heimaslátraðrar"],
+					"hk": ["heimaslátrað", "heimaslátrað", "heimaslátruðu", "heimaslátraðs"]
+				},
+				"ft": {
+					"kk": ["heimaslátraðir", "heimaslátraða", "heimaslátruðum", "heimaslátraðra"],
+					"kvk": ["heimaslátraðar", "heimaslátraðar", "heimaslátruðum", "heimaslátraðra"],
+					"hk": ["heimaslátruð", "heimaslátruð", "heimaslátruðum", "heimaslátraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["heimaslátraði", "heimaslátraða", "heimaslátraða", "heimaslátraða"],
+					"kvk": ["heimaslátraða", "heimaslátruðu", "heimaslátruðu", "heimaslátruðu"],
+					"hk": ["heimaslátraða", "heimaslátraða", "heimaslátraða", "heimaslátraða"]
+				},
+				"ft": {
+					"kk": ["heimaslátruðu", "heimaslátruðu", "heimaslátruðu", "heimaslátruðu"],
+					"kvk": ["heimaslátruðu", "heimaslátruðu", "heimaslátruðu", "heimaslátruðu"],
+					"hk": ["heimaslátruðu", "heimaslátruðu", "heimaslátruðu", "heimaslátruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heimaslátra",
+	"hash": "bd6bfeecb2885dc72c60199e75630cbe7ea674168f2e8a9d844a9c4f397c1015"
+}
