@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "stofn",
-			"samsetning": "stofn",
-			"kennistrengur": "so-stofna"
-		},
-		{
-			"mynd": "kostnaðar",
+			"mynd": "stofnkostnaðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kostnaður-kk"
+			"kennistrengur": "no-stofnkostnaður-kk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-framlag-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["stofnkostnaðarframlögin", "stofnkostnaðarframlögin", "stofnkostnaðarframlögunum", "stofnkostnaðarframlaganna"]
 	},
 	"kennistrengur": "no-stofnkostnaðarframlag-hk",
-	"hash": "6446b5765bb6474581cd31e0625f9f2ca170d78035b6b9d860e1e948a57f744a"
+	"hash": "3146330043c49283136b3aab1ca518852349ec656ed41d96b6cf2acd0a52cc8c"
 }

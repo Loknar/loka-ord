@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "út",
+			"mynd": "útflutnings",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
+			"kennistrengur": "no-útflutningur-kk"
 		},
 		{
-			"mynd": "flutnings",
-			"samsetning": "stofn",
-			"kennistrengur": "no-flutningur-kk"
-		},
-		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-hagsmunir-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["útflutningshagsmunirnir", "útflutningshagsmunina", "útflutningshagsmununum", "útflutningshagsmunanna"]
 	},
 	"kennistrengur": "no-útflutningshagsmunir-kk",
-	"hash": "202ab1321556439b75cede714c797b936ee4d69d291e53d4f5930152f7928d55"
+	"hash": "65663e87571380bdb4034936f031907e5419764b147c7f2133d16f80fe47c97f"
 }

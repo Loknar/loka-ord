@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "auð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-auður-kk"
-		},
-		{
-			"mynd": "linda",
+			"mynd": "auðlinda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lind-kvk"
+			"kennistrengur": "no-auðlind-kvk"
 		},
 		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-hagsmunir-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["auðlindahagsmunirnir", "auðlindahagsmunina", "auðlindahagsmununum", "auðlindahagsmunanna"]
 	},
 	"kennistrengur": "no-auðlindahagsmunir-kk",
-	"hash": "570276d575821d7d92acff35284c9d76455dcc951836ae06d5e18a70b093efa8"
+	"hash": "40851fffda3081455b5e671149e7b3f94a3e32c546ef67824781b66512d10fb7"
 }

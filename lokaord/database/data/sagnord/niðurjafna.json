@@ -1,0 +1,135 @@
+{
+	"orð": "niðurjafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "niður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-niður"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-jafna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "niðurjafna",
+		"sagnbót": "niðurjafnað",
+		"boðháttur": {
+			"stýfður": "niðurjafna",
+			"et": "niðurjafnaðu",
+			"ft": "niðurjafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurjafna", "niðurjafnar", "niðurjafnar"],
+					"ft": ["niðurjöfnum", "niðurjafnið", "niðurjafna"]
+				},
+				"þátíð": {
+					"et": ["niðurjafnaði", "niðurjafnaðir", "niðurjafnaði"],
+					"ft": ["niðurjöfnuðum", "niðurjöfnuðuð", "niðurjöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðurjafni", "niðurjafnir", "niðurjafni"],
+					"ft": ["niðurjöfnum", "niðurjafnið", "niðurjafni"]
+				},
+				"þátíð": {
+					"et": ["niðurjafnaði", "niðurjafnaðir", "niðurjafnaði"],
+					"ft": ["niðurjöfnuðum", "niðurjöfnuðuð", "niðurjöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "niðurjafnarðu",
+					"ft": "niðurjafniði"
+				},
+				"þátíð": {
+					"et": "niðurjafnaðirðu",
+					"ft": "niðurjöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "niðurjafnirðu",
+					"ft": "niðurjafniði"
+				},
+				"þátíð": {
+					"et": "niðurjafnaðirðu",
+					"ft": "niðurjöfnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "niðurjafnast",
+		"sagnbót": "niðurjafnast",
+		"boðháttur": {
+			"et": "niðurjafnastu",
+			"ft": "niðurjafnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurjafnast", "niðurjafnast", "niðurjafnast"],
+					"ft": ["niðurjöfnumst", "niðurjafnist", "niðurjafnast"]
+				},
+				"þátíð": {
+					"et": ["niðurjafnaðist", "niðurjafnaðist", "niðurjafnaðist"],
+					"ft": ["niðurjöfnuðumst", "niðurjöfnuðust", "niðurjöfnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðurjafnist", "niðurjafnist", "niðurjafnist"],
+					"ft": ["niðurjöfnumst", "niðurjafnist", "niðurjafnist"]
+				},
+				"þátíð": {
+					"et": ["niðurjafnaðist", "niðurjafnaðist", "niðurjafnaðist"],
+					"ft": ["niðurjöfnuðumst", "niðurjöfnuðust", "niðurjöfnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "niðurjafnastu"
+				},
+				"þátíð": {
+					"et": "niðurjafnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "niðurjafnistu"
+				},
+				"þátíð": {
+					"et": "niðurjafnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "niðurjafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["niðurjafnaður", "niðurjafnaðan", "niðurjöfnuðum", "niðurjafnaðs"],
+					"kvk": ["niðurjöfnuð", "niðurjafnaða", "niðurjafnaðri", "niðurjafnaðrar"],
+					"hk": ["niðurjafnað", "niðurjafnað", "niðurjöfnuðu", "niðurjafnaðs"]
+				},
+				"ft": {
+					"kk": ["niðurjafnaðir", "niðurjafnaða", "niðurjöfnuðum", "niðurjafnaðra"],
+					"kvk": ["niðurjafnaðar", "niðurjafnaðar", "niðurjöfnuðum", "niðurjafnaðra"],
+					"hk": ["niðurjöfnuð", "niðurjöfnuð", "niðurjöfnuðum", "niðurjafnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-niðurjafna",
+	"hash": "2974c7d9e4f5dcad4b4cf5be4471a43085f5f225086348d22c3e67b884779ba0"
+}

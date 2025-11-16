@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "persónu",
+			"mynd": "persónuverndar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-persóna-kvk"
+			"kennistrengur": "no-persónuvernd-kvk"
 		},
 		{
-			"mynd": "verndar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vernd-kvk"
-		},
-		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-hagsmunir-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["persónuverndarhagsmunirnir", "persónuverndarhagsmunina", "persónuverndarhagsmununum", "persónuverndarhagsmunanna"]
 	},
 	"kennistrengur": "no-persónuverndarhagsmunir-kk",
-	"hash": "d832e2df30b56062b7e7a8ad02ca362f4e723d527880020bff3de9248cd3ca6f"
+	"hash": "a52148ffff9950ae3ccf477fe88efd6f3be93727e0fff823ebdb4fb3e51084e7"
 }

@@ -1,0 +1,48 @@
+{
+	"orð": "hófsamlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hóf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hóf-hk"
+		},
+		{
+			"mynd": "sam",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sama"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hófsamlegur", "hófsamlegan", "hófsamlegum", "hófsamlegs"],
+				"kvk": ["hófsamleg", "hófsamlega", "hófsamlegri", "hófsamlegrar"],
+				"hk": ["hófsamlegt", "hófsamlegt", "hófsamlegu", "hófsamlegs"]
+			},
+			"ft": {
+				"kk": ["hófsamlegir", "hófsamlega", "hófsamlegum", "hófsamlegra"],
+				"kvk": ["hófsamlegar", "hófsamlegar", "hófsamlegum", "hófsamlegra"],
+				"hk": ["hófsamleg", "hófsamleg", "hófsamlegum", "hófsamlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hófsamlegi", "hófsamlega", "hófsamlega", "hófsamlega"],
+				"kvk": ["hófsamlega", "hófsamlegu", "hófsamlegu", "hófsamlegu"],
+				"hk": ["hófsamlega", "hófsamlega", "hófsamlega", "hófsamlega"]
+			},
+			"ft": {
+				"kk": ["hófsamlegu", "hófsamlegu", "hófsamlegu", "hófsamlegu"],
+				"kvk": ["hófsamlegu", "hófsamlegu", "hófsamlegu", "hófsamlegu"],
+				"hk": ["hófsamlegu", "hófsamlegu", "hófsamlegu", "hófsamlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hófsamlegur",
+	"hash": "733f6346fcddc23785975066cd20f19925018aac7188c463c057232b80cfb84d"
+}

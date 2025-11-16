@@ -1,0 +1,43 @@
+{
+	"orð": "einlendur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-lendur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["einlendur", "einlendan", "einlendum", "einlends"],
+				"kvk": ["einlend", "einlenda", "einlendri", "einlendrar"],
+				"hk": ["einlent", "einlent", "einlendu", "einlends"]
+			},
+			"ft": {
+				"kk": ["einlendir", "einlenda", "einlendum", "einlendra"],
+				"kvk": ["einlendar", "einlendar", "einlendum", "einlendra"],
+				"hk": ["einlend", "einlend", "einlendum", "einlendra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["einlendi", "einlenda", "einlenda", "einlenda"],
+				"kvk": ["einlenda", "einlendu", "einlendu", "einlendu"],
+				"hk": ["einlenda", "einlenda", "einlenda", "einlenda"]
+			},
+			"ft": {
+				"kk": ["einlendu", "einlendu", "einlendu", "einlendu"],
+				"kvk": ["einlendu", "einlendu", "einlendu", "einlendu"],
+				"hk": ["einlendu", "einlendu", "einlendu", "einlendu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-einlendur",
+	"hash": "f081ad8c6e266539b3f669f00f281fad8043e341384dc2614e52ac9ae84bd23c"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "sprikla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sprikl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sprikl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sprikla",
+		"sagnbót": "spriklað",
+		"boðháttur": {
+			"stýfður": "sprikla",
+			"et": "spriklaðu",
+			"ft": "spriklið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sprikla", "spriklar", "spriklar"],
+					"ft": ["spriklum", "spriklið", "sprikla"]
+				},
+				"þátíð": {
+					"et": ["spriklaði", "spriklaðir", "spriklaði"],
+					"ft": ["sprikluðum", "sprikluðuð", "sprikluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sprikli", "spriklir", "sprikli"],
+					"ft": ["spriklum", "spriklið", "sprikli"]
+				},
+				"þátíð": {
+					"et": ["spriklaði", "spriklaðir", "spriklaði"],
+					"ft": ["sprikluðum", "sprikluðuð", "sprikluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spriklarðu",
+					"ft": "sprikliði"
+				},
+				"þátíð": {
+					"et": "spriklaðirðu",
+					"ft": "sprikluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spriklirðu",
+					"ft": "sprikliði"
+				},
+				"þátíð": {
+					"et": "spriklaðirðu",
+					"ft": "sprikluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spriklast",
+		"sagnbót": "spriklast",
+		"boðháttur": {
+			"et": "spriklastu",
+			"ft": "spriklist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spriklast", "spriklast", "spriklast"],
+					"ft": ["spriklumst", "spriklist", "spriklast"]
+				},
+				"þátíð": {
+					"et": ["spriklaðist", "spriklaðist", "spriklaðist"],
+					"ft": ["sprikluðumst", "sprikluðust", "sprikluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spriklist", "spriklist", "spriklist"],
+					"ft": ["spriklumst", "spriklist", "spriklist"]
+				},
+				"þátíð": {
+					"et": ["spriklaðist", "spriklaðist", "spriklaðist"],
+					"ft": ["sprikluðumst", "sprikluðust", "sprikluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spriklastu"
+				},
+				"þátíð": {
+					"et": "spriklaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spriklistu"
+				},
+				"þátíð": {
+					"et": "spriklaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spriklandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spriklaður", "spriklaðan", "sprikluðum", "spriklaðs"],
+					"kvk": ["sprikluð", "spriklaða", "spriklaðri", "spriklaðrar"],
+					"hk": ["spriklað", "spriklað", "sprikluðu", "spriklaðs"]
+				},
+				"ft": {
+					"kk": ["spriklaðir", "spriklaða", "sprikluðum", "spriklaðra"],
+					"kvk": ["spriklaðar", "spriklaðar", "sprikluðum", "spriklaðra"],
+					"hk": ["sprikluð", "sprikluð", "sprikluðum", "spriklaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sprikla",
+	"hash": "3df5c14d061b206ad82492c6f00a02f2085ba5af2eba2894c3621246690534c1"
+}

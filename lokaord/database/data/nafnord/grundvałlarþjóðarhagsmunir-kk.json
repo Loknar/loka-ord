@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "grund",
-			"samsetning": "stofn",
-			"kennistrengur": "no-grund-kvk"
-		},
-		{
-			"mynd": "vałlar",
+			"mynd": "grundvałlar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vöłlur-kk"
+			"kennistrengur": "no-grundvöłlur-kk"
 		},
 		{
 			"mynd": "þjóðar",
@@ -19,13 +14,7 @@
 			"kennistrengur": "no-þjóð-kvk"
 		},
 		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-hagsmunir-kk"
 		}
 	],
 	"ft": {
@@ -33,5 +22,5 @@
 		"mg": ["grundvałlarþjóðarhagsmunirnir", "grundvałlarþjóðarhagsmunina", "grundvałlarþjóðarhagsmununum", "grundvałlarþjóðarhagsmunanna"]
 	},
 	"kennistrengur": "no-grundvałlarþjóðarhagsmunir-kk",
-	"hash": "f53e7e66169b0e9e044076b341ac3f512b6c8d744df80df8a8ae143cbe9c8e44"
+	"hash": "60f22b69af36e458f7fff00e926c17ab7e0e5932b571cd367e70f9db81b7ded2"
 }

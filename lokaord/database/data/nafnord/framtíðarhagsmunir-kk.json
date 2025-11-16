@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "tíðar",
+			"mynd": "framtíðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tíð-kvk"
+			"kennistrengur": "no-framtíð-kvk"
 		},
 		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-hagsmunir-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["framtíðarhagsmunirnir", "framtíðarhagsmunina", "framtíðarhagsmununum", "framtíðarhagsmunanna"]
 	},
 	"kennistrengur": "no-framtíðarhagsmunir-kk",
-	"hash": "9cff73ec549fee0b2b396352abdc6d198e21e150080927f5e30810bb58d176a5"
+	"hash": "6b35d851373e39f48345fd43f52614c26e45d6aee6d4b1acdefa9e90e4f65bef"
 }
