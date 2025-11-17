@@ -1,0 +1,135 @@
+{
+	"orð": "netja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "netj",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-net-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "netja",
+		"sagnbót": "netjað",
+		"boðháttur": {
+			"stýfður": "netja",
+			"et": "netjaðu",
+			"ft": "netjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["netja", "netjar", "netjar"],
+					"ft": ["netjum", "netjið", "netja"]
+				},
+				"þátíð": {
+					"et": ["netjaði", "netjaðir", "netjaði"],
+					"ft": ["netjuðum", "netjuðuð", "netjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["netji", "netjir", "netji"],
+					"ft": ["netjum", "netjið", "netji"]
+				},
+				"þátíð": {
+					"et": ["netjaði", "netjaðir", "netjaði"],
+					"ft": ["netjuðum", "netjuðuð", "netjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "netjarðu",
+					"ft": "netjiði"
+				},
+				"þátíð": {
+					"et": "netjaðirðu",
+					"ft": "netjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "netjirðu",
+					"ft": "netjiði"
+				},
+				"þátíð": {
+					"et": "netjaðirðu",
+					"ft": "netjuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "netjast",
+		"sagnbót": "netjast",
+		"boðháttur": {
+			"et": "netjastu",
+			"ft": "netjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["netjast", "netjast", "netjast"],
+					"ft": ["netjumst", "netjist", "netjast"]
+				},
+				"þátíð": {
+					"et": ["netjaðist", "netjaðist", "netjaðist"],
+					"ft": ["netjuðumst", "netjuðust", "netjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["netjist", "netjist", "netjist"],
+					"ft": ["netjumst", "netjist", "netjist"]
+				},
+				"þátíð": {
+					"et": ["netjaðist", "netjaðist", "netjaðist"],
+					"ft": ["netjuðumst", "netjuðust", "netjuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "netjastu"
+				},
+				"þátíð": {
+					"et": "netjaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "netjistu"
+				},
+				"þátíð": {
+					"et": "netjaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "netjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["netjaður", "netjaðan", "netjuðum", "netjaðs"],
+					"kvk": ["netjuð", "netjaða", "netjaðri", "netjaðrar"],
+					"hk": ["netjað", "netjað", "netjuðu", "netjaðs"]
+				},
+				"ft": {
+					"kk": ["netjaðir", "netjaða", "netjuðum", "netjaðra"],
+					"kvk": ["netjaðar", "netjaðar", "netjuðum", "netjaðra"],
+					"hk": ["netjuð", "netjuð", "netjuðum", "netjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-netja",
+	"hash": "4dddfd5a8c60c3daec716181fb9da3c529caa5d02951f1a6e9b12c763364c753"
+}

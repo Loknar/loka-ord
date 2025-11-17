@@ -1,0 +1,73 @@
+{
+	"orð": "leiðsegja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "leið",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leið-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-segja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "leiðsegja",
+		"sagnbót": "leiðsagt",
+		"boðháttur": {
+			"stýfður": "leiðseg",
+			"et": "leiðsegðu",
+			"ft": "leiðsegið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leiðsegi", "leiðsegir", "leiðsegir"],
+					"ft": ["leiðsegjum", "leiðsegið", "leiðsegja"]
+				},
+				"þátíð": {
+					"et": ["leiðsagði", "leiðsagðir", "leiðsagði"],
+					"ft": ["leiðsögðum", "leiðsögðuð", "leiðsögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leiðsegi", "leiðsegir", "leiðsegi"],
+					"ft": ["leiðsegjum", "leiðsegið", "leiðsegi"]
+				},
+				"þátíð": {
+					"et": ["leiðsegði", "leiðsegðir", "leiðsegði"],
+					"ft": ["leiðsegðum", "leiðsegðuð", "leiðsegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leiðsegirðu",
+					"ft": "leiðsegiði"
+				},
+				"þátíð": {
+					"et": "leiðsagðirðu",
+					"ft": "leiðsögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leiðsegirðu",
+					"ft": "leiðsegiði"
+				},
+				"þátíð": {
+					"et": "leiðsegðirðu",
+					"ft": "leiðsegðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leiðsegjandi"
+	},
+	"kennistrengur": "so-leiðsegja",
+	"hash": "7e1e9124e34e97cc3a03abc4422d31705ba1beb9bf38a65afabcdc2b9db38c29"
+}

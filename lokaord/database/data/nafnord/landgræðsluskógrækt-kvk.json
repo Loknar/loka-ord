@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "land",
-			"samsetning": "stofn",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "græðslu",
+			"mynd": "landgræðslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-græðsla-kvk"
+			"kennistrengur": "no-landgræðsla-kvk"
 		},
 		{
-			"mynd": "skóg",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skógur-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-rækt-kvk"
+			"kennistrengur": "no-skógrækt-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["landgræðsluskógræktin", "landgræðsluskógræktina", "landgræðsluskógræktinni", "landgræðsluskógræktarinnar"]
 	},
 	"kennistrengur": "no-landgræðsluskógrækt-kvk",
-	"hash": "d5353e4a2582cf59843f3caa1cd6ecf43e8503026feb628f9fcbf2acc9a0d332"
+	"hash": "8f86291d6dd072db000ec910c4142adc057188cd2c3169dd25459c837220e938"
 }

@@ -1,6 +1,16 @@
 {
 	"orð": "riðinn",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "rið",
+			"samsetning": "stofn",
+			"kennistrengur": "so-ríða"
+		},
+		{
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -27,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["riðnari", "riðnari", "riðnari", "riðnari"],
+				"kvk": ["riðnari", "riðnari", "riðnari", "riðnari"],
+				"hk": ["riðnara", "riðnara", "riðnara", "riðnara"]
+			},
+			"ft": {
+				"kk": ["riðnari", "riðnari", "riðnari", "riðnari"],
+				"kvk": ["riðnari", "riðnari", "riðnari", "riðnari"],
+				"hk": ["riðnari", "riðnari", "riðnari", "riðnari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["riðnastur", "riðnastan", "riðnustum", "riðnasts"],
+				"kvk": ["riðnust", "riðnasta", "riðnastri", "riðnastrar"],
+				"hk": ["riðnast", "riðnast", "riðnustu", "riðnasts"]
+			},
+			"ft": {
+				"kk": ["riðnastir", "riðnasta", "riðnustum", "riðnastra"],
+				"kvk": ["riðnastar", "riðnastar", "riðnustum", "riðnastra"],
+				"hk": ["riðnust", "riðnust", "riðnustum", "riðnastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["riðnasti", "riðnasta", "riðnasta", "riðnasta"],
+				"kvk": ["riðnasta", "riðnustu", "riðnustu", "riðnustu"],
+				"hk": ["riðnasta", "riðnasta", "riðnasta", "riðnasta"]
+			},
+			"ft": {
+				"kk": ["riðnustu", "riðnustu", "riðnustu", "riðnustu"],
+				"kvk": ["riðnustu", "riðnustu", "riðnustu", "riðnustu"],
+				"hk": ["riðnustu", "riðnustu", "riðnustu", "riðnustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-riðinn",
-	"hash": "2372cf30b96ad67964b516d98630b47ac45af52a190225b9094d14e254cb875c"
+	"hash": "d54c08efb88e51f7ffa40472d4e9e7c6ee3631c0546325ed0cd0946394f6d794"
 }

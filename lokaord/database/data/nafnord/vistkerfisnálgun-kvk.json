@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vist",
-			"samsetning": "stofn",
-			"kennistrengur": "no-vist-kvk"
-		},
-		{
-			"mynd": "kerfis",
+			"mynd": "vistkerfis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kerfi-hk"
+			"kennistrengur": "no-vistkerfi-hk"
 		},
 		{
 			"kennistrengur": "no-nálgun-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["vistkerfisnálganirnar", "vistkerfisnálganirnar", "vistkerfisnálgununum", "vistkerfisnálgananna"]
 	},
 	"kennistrengur": "no-vistkerfisnálgun-kvk",
-	"hash": "2ae382d0335f9ba77c66ccd3d622f562f09c0c21f9f7849b2b41073a3473dbd1"
+	"hash": "f2ddede691c904306086dd889b05e76c893646bc90409902d2ffbb8833d9ea0b"
 }

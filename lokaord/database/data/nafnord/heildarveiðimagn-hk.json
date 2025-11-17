@@ -1,0 +1,27 @@
+{
+	"orð": "heildarveiðimagn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "veiði",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veiði-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-magn-hk"
+		}
+	],
+	"et": {
+		"ág": ["heildarveiðimagn", "heildarveiðimagn", "heildarveiðimagni", "heildarveiðimagns"],
+		"mg": ["heildarveiðimagnið", "heildarveiðimagnið", "heildarveiðimagninu", "heildarveiðimagnsins"]
+	},
+	"kennistrengur": "no-heildarveiðimagn-hk",
+	"hash": "3571140342727749a53854050c7960c35f34d6dcfa244ad9d6bfe1d69bfd9bd0"
+}

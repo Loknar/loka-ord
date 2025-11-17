@@ -1,0 +1,135 @@
+{
+	"orð": "skerma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skerm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skermur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skerma",
+		"sagnbót": "skermað",
+		"boðháttur": {
+			"stýfður": "skerma",
+			"et": "skermaðu",
+			"ft": "skermið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skerma", "skermar", "skermar"],
+					"ft": ["skermum", "skermið", "skerma"]
+				},
+				"þátíð": {
+					"et": ["skermaði", "skermaðir", "skermaði"],
+					"ft": ["skermuðum", "skermuðuð", "skermuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skermi", "skermir", "skermi"],
+					"ft": ["skermum", "skermið", "skermi"]
+				},
+				"þátíð": {
+					"et": ["skermaði", "skermaðir", "skermaði"],
+					"ft": ["skermuðum", "skermuðuð", "skermuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skermarðu",
+					"ft": "skermiði"
+				},
+				"þátíð": {
+					"et": "skermaðirðu",
+					"ft": "skermuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skermirðu",
+					"ft": "skermiði"
+				},
+				"þátíð": {
+					"et": "skermaðirðu",
+					"ft": "skermuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skermast",
+		"sagnbót": "skermast",
+		"boðháttur": {
+			"et": "skermastu",
+			"ft": "skermist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skermast", "skermast", "skermast"],
+					"ft": ["skermumst", "skermist", "skermast"]
+				},
+				"þátíð": {
+					"et": ["skermaðist", "skermaðist", "skermaðist"],
+					"ft": ["skermuðumst", "skermuðust", "skermuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skermist", "skermist", "skermist"],
+					"ft": ["skermumst", "skermist", "skermist"]
+				},
+				"þátíð": {
+					"et": ["skermaðist", "skermaðist", "skermaðist"],
+					"ft": ["skermuðumst", "skermuðust", "skermuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skermastu"
+				},
+				"þátíð": {
+					"et": "skermaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skermistu"
+				},
+				"þátíð": {
+					"et": "skermaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skermandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skermaður", "skermaðan", "skermuðum", "skermaðs"],
+					"kvk": ["skermuð", "skermaða", "skermaðri", "skermaðrar"],
+					"hk": ["skermað", "skermað", "skermuðu", "skermaðs"]
+				},
+				"ft": {
+					"kk": ["skermaðir", "skermaða", "skermuðum", "skermaðra"],
+					"kvk": ["skermaðar", "skermaðar", "skermuðum", "skermaðra"],
+					"hk": ["skermuð", "skermuð", "skermuðum", "skermaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skerma",
+	"hash": "0a193d5e7c5e8d02b9ba73b7b30f05412c85473c6d50abc0ae30ef97e80cbd1e"
+}
