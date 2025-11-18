@@ -1,0 +1,135 @@
+{
+	"orð": "köggla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "köggl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-köggułl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "köggla",
+		"sagnbót": "kögglað",
+		"boðháttur": {
+			"stýfður": "köggla",
+			"et": "kögglaðu",
+			"ft": "kögglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["köggla", "kögglar", "kögglar"],
+					"ft": ["kögglum", "kögglið", "köggla"]
+				},
+				"þátíð": {
+					"et": ["kögglaði", "kögglaðir", "kögglaði"],
+					"ft": ["köggluðum", "köggluðuð", "köggluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["köggli", "kögglir", "köggli"],
+					"ft": ["kögglum", "kögglið", "köggli"]
+				},
+				"þátíð": {
+					"et": ["kögglaði", "kögglaðir", "kögglaði"],
+					"ft": ["köggluðum", "köggluðuð", "köggluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kögglarðu",
+					"ft": "köggliði"
+				},
+				"þátíð": {
+					"et": "kögglaðirðu",
+					"ft": "köggluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kögglirðu",
+					"ft": "köggliði"
+				},
+				"þátíð": {
+					"et": "kögglaðirðu",
+					"ft": "köggluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kögglast",
+		"sagnbót": "kögglast",
+		"boðháttur": {
+			"et": "kögglastu",
+			"ft": "kögglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kögglast", "kögglast", "kögglast"],
+					"ft": ["kögglumst", "kögglist", "kögglast"]
+				},
+				"þátíð": {
+					"et": ["kögglaðist", "kögglaðist", "kögglaðist"],
+					"ft": ["köggluðumst", "köggluðust", "köggluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kögglist", "kögglist", "kögglist"],
+					"ft": ["kögglumst", "kögglist", "kögglist"]
+				},
+				"þátíð": {
+					"et": ["kögglaðist", "kögglaðist", "kögglaðist"],
+					"ft": ["köggluðumst", "köggluðust", "köggluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kögglastu"
+				},
+				"þátíð": {
+					"et": "kögglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kögglistu"
+				},
+				"þátíð": {
+					"et": "kögglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kögglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kögglaður", "kögglaðan", "köggluðum", "kögglaðs"],
+					"kvk": ["köggluð", "kögglaða", "kögglaðri", "kögglaðrar"],
+					"hk": ["kögglað", "kögglað", "köggluðu", "kögglaðs"]
+				},
+				"ft": {
+					"kk": ["kögglaðir", "kögglaða", "köggluðum", "kögglaðra"],
+					"kvk": ["kögglaðar", "kögglaðar", "köggluðum", "kögglaðra"],
+					"hk": ["köggluð", "köggluð", "köggluðum", "kögglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-köggla",
+	"hash": "5f5312e1a2fb80c54179974213c1ded6ed9aafde9263c3c9e333191df69ba1e0"
+}

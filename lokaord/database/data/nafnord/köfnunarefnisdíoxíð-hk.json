@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "köfnunar",
+			"mynd": "köfnunarefnis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-köfnun-kvk"
+			"kennistrengur": "no-köfnunarefni-hk"
 		},
 		{
-			"mynd": "efnis",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
-		},
-		{
-			"mynd": "dí",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-tví-ó"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-oxíð-hk"
+			"kennistrengur": "no-díoxíð-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["köfnunarefnisdíoxíðið", "köfnunarefnisdíoxíðið", "köfnunarefnisdíoxíðinu", "köfnunarefnisdíoxíðsins"]
 	},
 	"kennistrengur": "no-köfnunarefnisdíoxíð-hk",
-	"hash": "afb256ff54bae7b1fe4a808db7238d1f41b646fa7b3f76795c72178c31a61c3f"
+	"hash": "46d7c96b85f118706eea340b6406fbdc749b9c7654921a516d55ec6e70265673"
 }

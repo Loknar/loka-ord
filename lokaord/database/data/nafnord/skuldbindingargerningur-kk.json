@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "skuld",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skuld-kvk"
-		},
-		{
-			"mynd": "bindingar",
+			"mynd": "skuldbindingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-binding-kvk"
+			"kennistrengur": "no-skuldbinding-kvk"
 		},
 		{
 			"kennistrengur": "no-gerningur-kk"
@@ -26,5 +21,5 @@
 		"mg": ["skuldbindingargerningarnir", "skuldbindingargerningana", "skuldbindingargerningunum", "skuldbindingargerninganna"]
 	},
 	"kennistrengur": "no-skuldbindingargerningur-kk",
-	"hash": "1aff2e1b99468f34dfbf7c2d562e2e30ecbdb3d339416b26ecb528e2cdf74ca6"
+	"hash": "8600e40ad4f02cb0be6dbd805d3f3274e8c7d4ea0bbd33a89f010acb4ef2e3bc"
 }

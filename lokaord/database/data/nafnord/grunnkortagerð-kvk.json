@@ -1,0 +1,27 @@
+{
+	"orð": "grunnkortagerð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "grunn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-grunnur"
+		},
+		{
+			"mynd": "korta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kort-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-gerð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["grunnkortagerð", "grunnkortagerð", "grunnkortagerð", "grunnkortagerðar"],
+		"mg": ["grunnkortagerðin", "grunnkortagerðina", "grunnkortagerðinni", "grunnkortagerðarinnar"]
+	},
+	"kennistrengur": "no-grunnkortagerð-kvk",
+	"hash": "c1a144bb697892f834dac6975886ce26b94c3d389973e61d66c115e5c9a8a2c1"
+}

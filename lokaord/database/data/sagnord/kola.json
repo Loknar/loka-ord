@@ -1,0 +1,135 @@
+{
+	"orð": "kola",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kola",
+		"sagnbót": "kolað",
+		"boðháttur": {
+			"stýfður": "kola",
+			"et": "kolaðu",
+			"ft": "kolið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kola", "kolar", "kolar"],
+					"ft": ["kolum", "kolið", "kola"]
+				},
+				"þátíð": {
+					"et": ["kolaði", "kolaðir", "kolaði"],
+					"ft": ["koluðum", "koluðuð", "koluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["koli", "kolir", "koli"],
+					"ft": ["kolum", "kolið", "koli"]
+				},
+				"þátíð": {
+					"et": ["kolaði", "kolaðir", "kolaði"],
+					"ft": ["koluðum", "koluðuð", "koluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kolarðu",
+					"ft": "koliði"
+				},
+				"þátíð": {
+					"et": "kolaðirðu",
+					"ft": "koluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kolirðu",
+					"ft": "koliði"
+				},
+				"þátíð": {
+					"et": "kolaðirðu",
+					"ft": "koluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kolast",
+		"sagnbót": "kolast",
+		"boðháttur": {
+			"et": "kolastu",
+			"ft": "kolist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kolast", "kolast", "kolast"],
+					"ft": ["kolumst", "kolist", "kolast"]
+				},
+				"þátíð": {
+					"et": ["kolaðist", "kolaðist", "kolaðist"],
+					"ft": ["koluðumst", "koluðust", "koluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kolist", "kolist", "kolist"],
+					"ft": ["kolumst", "kolist", "kolist"]
+				},
+				"þátíð": {
+					"et": ["kolaðist", "kolaðist", "kolaðist"],
+					"ft": ["koluðumst", "koluðust", "koluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kolastu"
+				},
+				"þátíð": {
+					"et": "kolaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kolistu"
+				},
+				"þátíð": {
+					"et": "kolaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kolandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kolaður", "kolaðan", "koluðum", "kolaðs"],
+					"kvk": ["koluð", "kolaða", "kolaðri", "kolaðrar"],
+					"hk": ["kolað", "kolað", "koluðu", "kolaðs"]
+				},
+				"ft": {
+					"kk": ["kolaðir", "kolaða", "koluðum", "kolaðra"],
+					"kvk": ["kolaðar", "kolaðar", "koluðum", "kolaðra"],
+					"hk": ["koluð", "koluð", "koluðum", "kolaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kola",
+	"hash": "e2331651c7e033c761749b9d99fe3a82ebb3d42b92a577b2caa5ffe5de0c7869"
+}

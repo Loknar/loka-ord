@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "sals",
+			"mynd": "framsals",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sal-hk"
+			"kennistrengur": "no-framsal-hk"
 		},
 		{
 			"kennistrengur": "no-beiðni-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["framsalsbeiðnirnar", "framsalsbeiðnirnar", "framsalsbeiðnunum", "framsalsbeiðnanna"]
 	},
 	"kennistrengur": "no-framsalsbeiðni-kvk",
-	"hash": "9dc00abb6f73a84f056b474190b453ff390506503ceba03507a24ba4af2838a8"
+	"hash": "f8068203deb917b619acabb78f5635c09764b41f91babbcb0450df73b71e72b3"
 }

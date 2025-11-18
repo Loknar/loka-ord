@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "undir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-undir"
-		},
-		{
-			"mynd": "stöðu",
+			"mynd": "undirstöðu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-staða-kvk"
+			"kennistrengur": "no-undirstaða-kvk"
 		},
 		{
-			"mynd": "af",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-af"
-		},
-		{
-			"kennistrengur": "no-urð-kvk"
+			"kennistrengur": "no-afurð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["undirstöðuafurðirnar", "undirstöðuafurðirnar", "undirstöðuafurðunum", "undirstöðuafurðanna"]
 	},
 	"kennistrengur": "no-undirstöðuafurð-kvk",
-	"hash": "743e6e940bab31fda5e797698f7d39c5c766c03792b7be9caca80fff522af706"
+	"hash": "1acd7c0725dfa14a00f0c0c985b5bddb7a3e366e139ca5232ba896f2ae49640b"
 }

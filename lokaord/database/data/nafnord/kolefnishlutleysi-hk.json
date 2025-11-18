@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kol",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kol-hk"
-		},
-		{
-			"mynd": "efnis",
+			"mynd": "kolefnis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-kolefni-hk"
 		},
 		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-leysi-hk-ó"
+			"kennistrengur": "no-hlutleysi-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["kolefnishlutleysið", "kolefnishlutleysið", "kolefnishlutleysinu", "kolefnishlutleysisins"]
 	},
 	"kennistrengur": "no-kolefnishlutleysi-hk",
-	"hash": "bb3ef2f1c6a98e8cab27a5adcc87f5c6b7f9478c54fa31b6271dbfe848aab91f"
+	"hash": "99135b1713eb08930553835770c7e5acaf13d58fce2d3681abb6044eeae6bca6"
 }

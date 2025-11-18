@@ -1,0 +1,43 @@
+{
+	"orð": "farmtengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "farm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-farmur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["farmtengdur", "farmtengdan", "farmtengdum", "farmtengds"],
+				"kvk": ["farmtengd", "farmtengda", "farmtengdri", "farmtengdrar"],
+				"hk": ["farmtengt", "farmtengt", "farmtengdu", "farmtengds"]
+			},
+			"ft": {
+				"kk": ["farmtengdir", "farmtengda", "farmtengdum", "farmtengdra"],
+				"kvk": ["farmtengdar", "farmtengdar", "farmtengdum", "farmtengdra"],
+				"hk": ["farmtengd", "farmtengd", "farmtengdum", "farmtengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["farmtengdi", "farmtengda", "farmtengda", "farmtengda"],
+				"kvk": ["farmtengda", "farmtengdu", "farmtengdu", "farmtengdu"],
+				"hk": ["farmtengda", "farmtengda", "farmtengda", "farmtengda"]
+			},
+			"ft": {
+				"kk": ["farmtengdu", "farmtengdu", "farmtengdu", "farmtengdu"],
+				"kvk": ["farmtengdu", "farmtengdu", "farmtengdu", "farmtengdu"],
+				"hk": ["farmtengdu", "farmtengdu", "farmtengdu", "farmtengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-farmtengdur",
+	"hash": "66056274cb5e94b457f54e6dc11242c154887802c47a612c33a66f320e8bc56d"
+}
