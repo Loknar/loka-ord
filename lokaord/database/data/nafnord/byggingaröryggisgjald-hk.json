@@ -1,0 +1,30 @@
+{
+	"orð": "byggingaröryggisgjald",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "byggingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"mynd": "öryggis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-öryggi-hk"
+		},
+		{
+			"kennistrengur": "no-gjald-hk"
+		}
+	],
+	"et": {
+		"ág": ["byggingaröryggisgjald", "byggingaröryggisgjald", "byggingaröryggisgjaldi", "byggingaröryggisgjalds"],
+		"mg": ["byggingaröryggisgjaldið", "byggingaröryggisgjaldið", "byggingaröryggisgjaldinu", "byggingaröryggisgjaldsins"]
+	},
+	"ft": {
+		"ág": ["byggingaröryggisgjöld", "byggingaröryggisgjöld", "byggingaröryggisgjöldum", "byggingaröryggisgjalda"],
+		"mg": ["byggingaröryggisgjöldin", "byggingaröryggisgjöldin", "byggingaröryggisgjöldunum", "byggingaröryggisgjaldanna"]
+	},
+	"kennistrengur": "no-byggingaröryggisgjald-hk",
+	"hash": "1366b9c25a720d9babdbdc1ca055f934a97a8eda1393320d5a5a7191b65d6a10"
+}

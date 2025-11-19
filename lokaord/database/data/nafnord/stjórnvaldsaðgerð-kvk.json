@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "stjórn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "valds",
+			"mynd": "stjórnvalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vald-hk"
+			"kennistrengur": "no-stjórnvald-hk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["stjórnvaldsaðgerðirnar", "stjórnvaldsaðgerðirnar", "stjórnvaldsaðgerðunum", "stjórnvaldsaðgerðanna"]
 	},
 	"kennistrengur": "no-stjórnvaldsaðgerð-kvk",
-	"hash": "f57a0c4b85c366289207a80956fddf9e1d7392946d5e36047da9e570b5d6c91a"
+	"hash": "e7ae3c988ccb07f671f981f7c088233f8190faa523b1e2da22f4e249876cf160"
 }

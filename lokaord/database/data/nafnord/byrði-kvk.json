@@ -2,14 +2,24 @@
 	"orð": "byrði",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byrð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-burður-kk"
+		},
+		{
+			"kennistrengur": "no-i-kvk-ó-_ar_"
+		}
+	],
 	"et": {
-		"ág": ["byrði", "byrði", "byrði", "byrðar"],
-		"mg": ["byrðin", "byrðina", "byrðinni", "byrðarinnar"]
+		"ág": ["byrði", "byrði", "byrði", "byrði"],
+		"mg": ["byrðin", "byrðina", "byrðinni", "byrðinnar"]
 	},
 	"ft": {
 		"ág": ["byrðar", "byrðar", "byrðum", "byrða"],
 		"mg": ["byrðarnar", "byrðarnar", "byrðunum", "byrðanna"]
 	},
 	"kennistrengur": "no-byrði-kvk",
-	"hash": "8e8fe5a24fb3d8d497236ef0eb921b010172d32128b688ccb6ff9c9f758fdb02"
+	"hash": "f3b045b82bc021e0284280485cdf1ff6875f20a51e089dc10c7fc37e96c525db"
 }

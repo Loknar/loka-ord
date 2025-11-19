@@ -2,6 +2,16 @@
 	"orð": "skíði",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skíð",
+			"samsetning": "stofn",
+			"kennistrengur": "so-skíða"
+		},
+		{
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["skíði", "skíði", "skíði", "skíðis"],
 		"mg": ["skíðið", "skíðið", "skíðinu", "skíðisins"]
@@ -11,5 +21,5 @@
 		"mg": ["skíðin", "skíðin", "skíðunum", "skíðanna"]
 	},
 	"kennistrengur": "no-skíði-hk",
-	"hash": "fafa5bef078cdbb4d2a8af3a54951904167fdb6f43c89b148a7f55bf80d25d4c"
+	"hash": "be93bc845008ea2debd6ace5a0a63b197bd7926f6558212835e9030106c98c10"
 }

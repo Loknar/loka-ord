@@ -1,0 +1,131 @@
+{
+	"orð": "loftræsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "loft",
+			"samsetning": "stofn",
+			"kennistrengur": "no-loft-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ræsa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "loftræsa",
+		"sagnbót": "loftræst",
+		"boðháttur": {
+			"stýfður": "loftræs",
+			"et": "loftræstu",
+			"ft": "loftræsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["loftræsi", "loftræsir", "loftræsir"],
+					"ft": ["loftræsum", "loftræsið", "loftræsa"]
+				},
+				"þátíð": {
+					"et": ["loftræsti", "loftræstir", "loftræsti"],
+					"ft": ["loftræstum", "loftræstuð", "loftræstu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["loftræsi", "loftræsir", "loftræsi"],
+					"ft": ["loftræsum", "loftræsið", "loftræsi"]
+				},
+				"þátíð": {
+					"et": ["loftræsti", "loftræstir", "loftræsti"],
+					"ft": ["loftræstum", "loftræstuð", "loftræstu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "loftræsirðu",
+					"ft": "loftræsiði"
+				},
+				"þátíð": {
+					"et": "loftræstirðu",
+					"ft": "loftræstuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "loftræsirðu",
+					"ft": "loftræsiði"
+				},
+				"þátíð": {
+					"et": "loftræstirðu",
+					"ft": "loftræstuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "loftræsast",
+		"sagnbót": "loftræst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["loftræsist", "loftræsist", "loftræsist"],
+					"ft": ["loftræsumst", "loftræsist", "loftræsast"]
+				},
+				"þátíð": {
+					"et": ["loftræstist", "loftræstist", "loftræstist"],
+					"ft": ["loftræstumst", "loftræstust", "loftræstust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["loftræsist", "loftræsist", "loftræsist"],
+					"ft": ["loftræsumst", "loftræsist", "loftræsist"]
+				},
+				"þátíð": {
+					"et": ["loftræstist", "loftræstist", "loftræstist"],
+					"ft": ["loftræstumst", "loftræstust", "loftræstust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "loftræsistu"
+				},
+				"þátíð": {
+					"et": "loftræstistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "loftræsistu"
+				},
+				"þátíð": {
+					"et": "loftræstistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "loftræsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["loftræstur", "loftræstan", "loftræstum", "loftræsts"],
+					"kvk": ["loftræst", "loftræsta", "loftræstri", "loftræstrar"],
+					"hk": ["loftræst", "loftræst", "loftræstu", "loftræsts"]
+				},
+				"ft": {
+					"kk": ["loftræstir", "loftræsta", "loftræstum", "loftræstra"],
+					"kvk": ["loftræstar", "loftræstar", "loftræstum", "loftræstra"],
+					"hk": ["loftræst", "loftræst", "loftræstum", "loftræstra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-loftræsa",
+	"hash": "7279ec44a1004ce28bea3d3a63562d411a9dc5a983124ee919120ff313dfded1"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "hemla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heml",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hemiłl-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hemla",
+		"sagnbót": "hemlað",
+		"boðháttur": {
+			"stýfður": "hemla",
+			"et": "hemlaðu",
+			"ft": "hemlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hemla", "hemlar", "hemlar"],
+					"ft": ["hemlum", "hemlið", "hemla"]
+				},
+				"þátíð": {
+					"et": ["hemlaði", "hemlaðir", "hemlaði"],
+					"ft": ["hemluðum", "hemluðuð", "hemluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hemli", "hemlir", "hemli"],
+					"ft": ["hemlum", "hemlið", "hemli"]
+				},
+				"þátíð": {
+					"et": ["hemlaði", "hemlaðir", "hemlaði"],
+					"ft": ["hemluðum", "hemluðuð", "hemluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hemlarðu",
+					"ft": "hemliði"
+				},
+				"þátíð": {
+					"et": "hemlaðirðu",
+					"ft": "hemluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hemlirðu",
+					"ft": "hemliði"
+				},
+				"þátíð": {
+					"et": "hemlaðirðu",
+					"ft": "hemluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hemlandi"
+	},
+	"kennistrengur": "so-hemla",
+	"hash": "d3c609888465b16db17755014cf163d30b54bd7791699388c4e7c9f5afa4b85b"
+}
