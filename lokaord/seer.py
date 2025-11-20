@@ -270,6 +270,10 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				scanned_word['orð-hreinsað'] = e_word_p
 				scanned_word['staða'] = 'tala'
 				break
+			elif check_if_string_is_roman_number(e_word_p):
+				scanned_word['orð-hreinsað'] = e_word_p.upper()
+				scanned_word['staða'] = 'tala-roman'
+				break
 			elif check_if_string_is_time(e_word_p):
 				scanned_word['orð-hreinsað'] = e_word_p
 				scanned_word['staða'] = 'tími'
@@ -307,6 +311,18 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 		elif scanned_word['staða'] == 'tala':
 			if hide_matches is False:
 				print('"%s" \033[46m\033[30m TALA \033[0m' % (
+					scanned_word['orð-hreinsað'],
+				))
+			highlighted_sentence_list.append(
+				'%s%s%s' % (
+					'' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
+					'\033[46m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
+					'' if scanned_word['fylgir'] is None else scanned_word['fylgir']
+				)
+			)
+		elif scanned_word['staða'] == 'tala-roman':
+			if hide_matches is False:
+				print('"%s" \033[46m\033[30m TALA ROMAN \033[0m' % (
 					scanned_word['orð-hreinsað'],
 				))
 			highlighted_sentence_list.append(
@@ -967,6 +983,53 @@ def check_if_string_is_date(mystr: str) -> bool:
 		pass
 	try:
 		datetime.datetime.strptime(mystr, '%Y-%m-%d')
+		return True
+	except ValueError:
+		pass
+	return False
+
+
+def parse_roman_to_int(mystr: str) -> int:
+	'''
+	string parser for roman numericals
+	'''
+	if not isinstance(mystr, str):
+		raise ValueError('input should be string')
+	if mystr == '':
+		raise ValueError('empty string is not roman')
+	mystr_upper = mystr.upper()
+	for mychar in mystr_upper:
+		if mychar not in 'IVXLCDM':
+			raise ValueError('string contains a non-roman numerical')
+	# regex for parsing roman numbers
+	# ^                   # beginning
+	# M{0,4}              # thousands - 0 to 4 M's
+	# (CM|CD|D?C{0,3})    # hundreds - 900 (CM), 400 (CD), 0-300 (0 to 3 C's),
+	#                     #            or 500-800 (D, followed by 0 to 3 C's)
+	# (XC|XL|L?X{0,3})    # tens - 90 (XC), 40 (XL), 0-30 (0 to 3 X's),
+	#                     #        or 50-80 (L, followed by 0 to 3 X's)
+	# (IX|IV|V?I{0,3})    # ones - 9 (IX), 4 (IV), 0-3 (0 to 3 I's),
+	#                     #        or 5-8 (V, followed by 0 to 3 I's)
+	# $                   # end
+	roman_regex = re.compile('^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})')
+	letters_to_values = (
+		('M', 1000), ('CM', 900), ('D', 500), ('CD', 400), ('C', 100), ('XC', 90), ('L', 50),
+		('XL', 40), ('X', 10), ('IX', 9), ('V', 5), ('IV', 4), ('I', 1)
+	)
+	if not roman_regex.search(mystr_upper):
+		raise ValueError('invalid roman numeral: %s' % (mystr_upper, ))
+	result = 0
+	index = 0
+	for letters, num_value in letters_to_values:
+		while mystr_upper[index:index + len(letters)] == letters:
+			result += num_value
+			index += len(letters)
+	return result
+
+
+def check_if_string_is_roman_number(mystr: str) -> bool:
+	try:
+		parse_roman_to_int(mystr)
 		return True
 	except ValueError:
 		pass
