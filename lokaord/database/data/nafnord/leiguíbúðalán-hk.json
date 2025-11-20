@@ -1,0 +1,30 @@
+{
+	"orð": "leiguíbúðalán",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "íbúða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúð-kvk"
+		},
+		{
+			"kennistrengur": "no-lán-hk"
+		}
+	],
+	"et": {
+		"ág": ["leiguíbúðalán", "leiguíbúðalán", "leiguíbúðaláni", "leiguíbúðaláns"],
+		"mg": ["leiguíbúðalánið", "leiguíbúðalánið", "leiguíbúðaláninu", "leiguíbúðalánsins"]
+	},
+	"ft": {
+		"ág": ["leiguíbúðalán", "leiguíbúðaĺán", "leiguíbúðalánum", "leiguíbúðalána"],
+		"mg": ["leiguíbúðalánin", "leiguíbúðalánin", "leiguíbúðalánunum", "leiguíbúðalánanna"]
+	},
+	"kennistrengur": "no-leiguíbúðalán-hk",
+	"hash": "d80f1de7c8fc5627b413b5f423cdfd2354b49460674d836c35dda57df10e6783"
+}

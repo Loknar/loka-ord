@@ -4,17 +4,11 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "bú",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bú-hk"
-		},
-		{
-			"mynd": "setu",
+			"mynd": "búsetu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-seta-kvk"
+			"kennistrengur": "no-búseta-kvk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-form-hk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["búsetuform", "búsetuform", "búsetuformi", "búsetuforms"],
 		"mg": ["búsetuformið", "búsetuformið", "búsetuforminu", "búsetuformsins"]
 	},
+	"ft": {
+		"ág": ["búsetuform", "búsetuform", "búsetuformum", "búsetuforma"],
+		"mg": ["búsetuformin", "búsetuformin", "búsetuformunum", "búsetuformanna"]
+	},
 	"kennistrengur": "no-búsetuform-hk",
-	"hash": "9dfd807b8fa07edb62b8792e99222b5be6338e0c34b1257693b85d57444b8887"
+	"hash": "3cb98af8317b7c326461741dd7fbd4d848cec68f952ab30f01cdf00685b7944b"
 }

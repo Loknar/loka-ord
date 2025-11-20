@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "inn",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-inn"
-		},
-		{
-			"mynd": "kaups",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kaup-hk"
+			"mynd": "innkaups",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-innkaup-hk"
 		},
 		{
 			"kennistrengur": "no-staður-kk"
@@ -26,5 +21,5 @@
 		"mg": ["innkaupsstaðirnir", "innkaupsstaðina", "innkaupsstöðunum", "innkaupsstaðanna"]
 	},
 	"kennistrengur": "no-innkaupsstaður-kk",
-	"hash": "248e1c90d33c4153a1304a5644fb3935136ff18f73a64c980a7773056569bbf5"
+	"hash": "597aba99ae896936c46b2150bfbda706d69b15db99df0443c32a34205af9f973"
 }

@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kjarn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kjarni-kk"
-		},
-		{
-			"mynd": "orku",
+			"mynd": "kjarnorku",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-orka-kvk"
+			"kennistrengur": "no-kjarnorka-kvk"
 		},
 		{
-			"mynd": "banda",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
-		},
-		{
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-bandalag-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kjarnorkubandalögin", "kjarnorkubandalögin", "kjarnorkubandalögunum", "kjarnorkubandalaganna"]
 	},
 	"kennistrengur": "no-kjarnorkubandalag-hk",
-	"hash": "991f53a21f998af0cba7d09fed6c3e77e475c5d68e4b11f7a32fdef453df1b4c"
+	"hash": "e41113aa368aea77a0cec8d599df2ceb5b37a4d877e0161ad1898a129f712066"
 }

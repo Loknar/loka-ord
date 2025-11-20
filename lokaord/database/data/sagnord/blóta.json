@@ -1,0 +1,87 @@
+{
+	"orð": "blóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "blót",
+			"samsetning": "stofn",
+			"kennistrengur": "no-blót-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "blóta",
+		"sagnbót": "blótað",
+		"boðháttur": {
+			"stýfður": "blóta",
+			"et": "blótaðu",
+			"ft": "blótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["blóta", "blótar", "blótar"],
+					"ft": ["blótum", "blótið", "blóta"]
+				},
+				"þátíð": {
+					"et": ["blótaði", "blótaðir", "blótaði"],
+					"ft": ["blótuðum", "blótuðuð", "blótuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["blóti", "blótir", "blóti"],
+					"ft": ["blótum", "blótið", "blóti"]
+				},
+				"þátíð": {
+					"et": ["blótaði", "blótaðir", "blótaði"],
+					"ft": ["blótuðum", "blótuðuð", "blótuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "blótarðu",
+					"ft": "blótiði"
+				},
+				"þátíð": {
+					"et": "blótaðirðu",
+					"ft": "blótuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "blótirðu",
+					"ft": "blótiði"
+				},
+				"þátíð": {
+					"et": "blótaðirðu",
+					"ft": "blótuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "blótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["blótaður", "blótaðan", "blótuðum", "blótaðs"],
+					"kvk": ["blótuð", "blótaða", "blótaðri", "blótaðrar"],
+					"hk": ["blótað", "blótað", "blótuðu", "blótaðs"]
+				},
+				"ft": {
+					"kk": ["blótaðir", "blótaða", "blótuðum", "blótaðra"],
+					"kvk": ["blótaðar", "blótaðar", "blótuðum", "blótaðra"],
+					"hk": ["blótuð", "blótuð", "blótuðum", "blótaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-blóta",
+	"hash": "e5f7b17656f596b369f2372bee620d98a933188bcfe1f801825ceb620fc037f2"
+}

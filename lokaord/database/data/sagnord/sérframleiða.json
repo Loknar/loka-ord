@@ -1,0 +1,99 @@
+{
+	"orð": "sérframleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-framleiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérframleiða",
+		"sagnbót": "sérframleitt",
+		"boðháttur": {
+			"stýfður": "sérframleið",
+			"et": "sérframleiddu",
+			"ft": "sérframleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérframleiði", "sérframleiðir", "sérframleiðir"],
+					"ft": ["sérframleiðum", "sérframleiðið", "sérframleiða"]
+				},
+				"þátíð": {
+					"et": ["sérframleiddi", "sérframleiddir", "sérframleiddi"],
+					"ft": ["sérframleiddum", "sérframleidduð", "sérframleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérframleiði", "sérframleiðir", "sérframleiði"],
+					"ft": ["sérframleiðum", "sérframleiðið", "sérframleiði"]
+				},
+				"þátíð": {
+					"et": ["sérframleiddi", "sérframleiddir", "sérframleiddi"],
+					"ft": ["sérframleiddum", "sérframleidduð", "sérframleiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérframleiðirðu",
+					"ft": "sérframleiðiði"
+				},
+				"þátíð": {
+					"et": "sérframleiddirðu",
+					"ft": "sérframleidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérframleiðirðu",
+					"ft": "sérframleiðiði"
+				},
+				"þátíð": {
+					"et": "sérframleiddirðu",
+					"ft": "sérframleidduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérframleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérframleiddur", "sérframleiddan", "sérframleiddum", "sérframleidds"],
+					"kvk": ["sérframleidd", "sérframleidda", "sérframleiddri", "sérframleiddrar"],
+					"hk": ["sérframleitt", "sérframleitt", "sérframleiddu", "sérframleidds"]
+				},
+				"ft": {
+					"kk": ["sérframleiddir", "sérframleidda", "sérframleiddum", "sérframleiddra"],
+					"kvk": ["sérframleiddar", "sérframleiddar", "sérframleiddum", "sérframleiddra"],
+					"hk": ["sérframleidd", "sérframleidd", "sérframleiddum", "sérframleiddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sérframleiddi", "sérframleidda", "sérframleidda", "sérframleidda"],
+					"kvk": ["sérframleidda", "sérframleiddu", "sérframleiddu", "sérframleiddu"],
+					"hk": ["sérframleidda", "sérframleidda", "sérframleidda", "sérframleidda"]
+				},
+				"ft": {
+					"kk": ["sérframleiddu", "sérframleiddu", "sérframleiddu", "sérframleiddu"],
+					"kvk": ["sérframleiddu", "sérframleiddu", "sérframleiddu", "sérframleiddu"],
+					"hk": ["sérframleiddu", "sérframleiddu", "sérframleiddu", "sérframleiddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérframleiða",
+	"hash": "410100a44608a824fa6e9f7017b669dbc6a7e2b5bafa1ebb18a5f22457afe433"
+}

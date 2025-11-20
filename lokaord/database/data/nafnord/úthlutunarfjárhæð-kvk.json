@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "út",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
-		},
-		{
-			"mynd": "hlutunar",
+			"mynd": "úthlutunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hlutun-kvk"
+			"kennistrengur": "no-úthlutun-kvk"
 		},
 		{
-			"mynd": "fjár",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
-		},
-		{
-			"kennistrengur": "no-hæð-kvk"
+			"kennistrengur": "no-fjárhæð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["úthlutunarfjárhæðirnar", "úthlutunarfjárhæðirnar", "úthlutunarfjárhæðunum", "úthlutunarfjárhæðanna"]
 	},
 	"kennistrengur": "no-úthlutunarfjárhæð-kvk",
-	"hash": "30bb46c84dd37a97e5db8811366943118289408b88d401580994e1aa5be9f68c"
+	"hash": "37af4e11101d5d721e5ca850e38205653d93ab33ac63138a762282d0479818d3"
 }

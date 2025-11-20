@@ -1,0 +1,30 @@
+{
+	"orð": "viðmiðunarleiguupphæð",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "viðmiðunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðmiðun-kvk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"kennistrengur": "no-upphæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["viðmiðunarleiguupphæð", "viðmiðunarleiguupphæð", "viðmiðunarleiguupphæð", "viðmiðunarleiguupphæðar"],
+		"mg": ["viðmiðunarleiguupphæðin", "viðmiðunarleiguupphæðina", "viðmiðunarleiguupphæðinni", "viðmiðunarleiguupphæðarinnar"]
+	},
+	"ft": {
+		"ág": ["viðmiðunarleiguupphæðir", "viðmiðunarleiguupphæðir", "viðmiðunarleiguupphæðum", "viðmiðunarleiguupphæða"],
+		"mg": ["viðmiðunarleiguupphæðirnar", "viðmiðunarleiguupphæðirnar", "viðmiðunarleiguupphæðunum", "viðmiðunarleiguupphæðanna"]
+	},
+	"kennistrengur": "no-viðmiðunarleiguupphæð-kvk",
+	"hash": "cce8beb7a0660f434a60eb2062673525b0c20ee1671f5e61309eec9b9a389741"
+}

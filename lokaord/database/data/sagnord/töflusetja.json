@@ -1,0 +1,99 @@
+{
+	"orð": "töflusetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "töflu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tafla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "töflusetja",
+		"sagnbót": "töflusett",
+		"boðháttur": {
+			"stýfður": "töfluset",
+			"et": "töflusettu",
+			"ft": "töflusetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["töfluset", "töflusetur", "töflusetur"],
+					"ft": ["töflusetjum", "töflusetjið", "töflusetja"]
+				},
+				"þátíð": {
+					"et": ["töflusetti", "töflusettir", "töflusetti"],
+					"ft": ["töflusettum", "töflusettuð", "töflusettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["töflusetji", "töflusetjir", "töflusetji"],
+					"ft": ["töflusetjum", "töflusetjið", "töflusetji"]
+				},
+				"þátíð": {
+					"et": ["töflusetti", "töflusettir", "töflusetti"],
+					"ft": ["töflusettum", "töflusettuð", "töflusettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "töfluseturðu",
+					"ft": "töflusetjiði"
+				},
+				"þátíð": {
+					"et": "töflusettirðu",
+					"ft": "töflusettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "töflusetjirðu",
+					"ft": "töflusetjiði"
+				},
+				"þátíð": {
+					"et": "töflusettirðu",
+					"ft": "töflusettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "töflusetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["töflusettur", "töflusettan", "töflusettum", "töflusetts"],
+					"kvk": ["töflusett", "töflusetta", "töflusettri", "töflusettrar"],
+					"hk": ["töflusett", "töflusett", "töflusettu", "töflusetts"]
+				},
+				"ft": {
+					"kk": ["töflusettir", "töflusetta", "töflusettum", "töflusettra"],
+					"kvk": ["töflusettar", "töflusettar", "töflusettum", "töflusettra"],
+					"hk": ["töflusett", "töflusett", "töflusettum", "töflusettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["töflusetti", "töflusetta", "töflusetta", "töflusetta"],
+					"kvk": ["töflusetta", "töflusettu", "töflusettu", "töflusettu"],
+					"hk": ["töflusetta", "töflusetta", "töflusetta", "töflusetta"]
+				},
+				"ft": {
+					"kk": ["töflusettu", "töflusettu", "töflusettu", "töflusettu"],
+					"kvk": ["töflusettu", "töflusettu", "töflusettu", "töflusettu"],
+					"hk": ["töflusettu", "töflusettu", "töflusettu", "töflusettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-töflusetja",
+	"hash": "48ca586eafebb3aaad529f60364ca3ad9cbf204603d09e5b1012e7763d0b90c2"
+}
