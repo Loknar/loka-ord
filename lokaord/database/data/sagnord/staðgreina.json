@@ -1,0 +1,87 @@
+{
+	"orð": "staðgreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staður-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "staðgreina",
+		"sagnbót": "staðgreint",
+		"boðháttur": {
+			"stýfður": "staðgrein",
+			"et": "staðgreindu",
+			"ft": "staðgreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staðgreini", "staðgreinir", "staðgreinir"],
+					"ft": ["staðgreinum", "staðgreinið", "staðgreina"]
+				},
+				"þátíð": {
+					"et": ["staðgreindi", "staðgreindir", "staðgreindi"],
+					"ft": ["staðgreindum", "staðgreinduð", "staðgreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staðgreini", "staðgreinir", "staðgreini"],
+					"ft": ["staðgreinum", "staðgreinið", "staðgreini"]
+				},
+				"þátíð": {
+					"et": ["staðgreindi", "staðgreindir", "staðgreindi"],
+					"ft": ["staðgreindum", "staðgreinduð", "staðgreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staðgreinirðu",
+					"ft": "staðgreiniði"
+				},
+				"þátíð": {
+					"et": "staðgreindirðu",
+					"ft": "staðgreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staðgreinirðu",
+					"ft": "staðgreiniði"
+				},
+				"þátíð": {
+					"et": "staðgreindirðu",
+					"ft": "staðgreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "staðgreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["staðgreindur", "staðgreindan", "staðgreindum", "staðgreinds"],
+					"kvk": ["staðgreind", "staðgreinda", "staðgreindri", "staðgreindrar"],
+					"hk": ["staðgreint", "staðgreint", "staðgreindu", "staðgreinds"]
+				},
+				"ft": {
+					"kk": ["staðgreindir", "staðgreinda", "staðgreindum", "staðgreindra"],
+					"kvk": ["staðgreindar", "staðgreindar", "staðgreindum", "staðgreindra"],
+					"hk": ["staðgreind", "staðgreind", "staðgreindum", "staðgreindra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-staðgreina",
+	"hash": "c3c2562174887009d4886dc7786e9e48af279b76baf93cf89176f4805bd937cc"
+}

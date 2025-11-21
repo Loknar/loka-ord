@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "húsa",
+			"mynd": "húsaleigu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"mynd": "leigu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leiga-kvk"
+			"kennistrengur": "no-húsaleiga-kvk"
 		},
 		{
 			"kennistrengur": "no-bót-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["húsaleigubæturnar", "húsaleigubæturnar", "húsaleigubótunum", "húsaleigubótanna"]
 	},
 	"kennistrengur": "no-húsaleigubót-kvk",
-	"hash": "e0103ec4eed36a8999cf47cd23e6f50c160367391174f92040b098be713dceb3"
+	"hash": "35458544f2848932dd3fa0e3b4105db10a63b7746e3b1ccaaf7a5450a0ba5bee"
 }

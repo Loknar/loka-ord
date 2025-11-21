@@ -1,0 +1,43 @@
+{
+	"orð": "leiguhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["leiguhæfur", "leiguhæfan", "leiguhæfum", "leiguhæfs"],
+				"kvk": ["leiguhæf", "leiguhæfa", "leiguhæfri", "leiguhæfrar"],
+				"hk": ["leiguhæft", "leiguhæft", "leiguhæfu", "leiguhæfs"]
+			},
+			"ft": {
+				"kk": ["leiguhæfir", "leiguhæfa", "leiguhæfum", "leiguhæfra"],
+				"kvk": ["leiguhæfar", "leiguhæfar", "leiguhæfum", "leiguhæfra"],
+				"hk": ["leiguhæf", "leiguhæf", "leiguhæfum", "leiguhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["leiguhæfi", "leiguhæfa", "leiguhæfa", "leiguhæfa"],
+				"kvk": ["leiguhæfa", "leiguhæfu", "leiguhæfu", "leiguhæfu"],
+				"hk": ["leiguhæfa", "leiguhæfa", "leiguhæfa", "leiguhæfa"]
+			},
+			"ft": {
+				"kk": ["leiguhæfu", "leiguhæfu", "leiguhæfu", "leiguhæfu"],
+				"kvk": ["leiguhæfu", "leiguhæfu", "leiguhæfu", "leiguhæfu"],
+				"hk": ["leiguhæfu", "leiguhæfu", "leiguhæfu", "leiguhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-leiguhæfur",
+	"hash": "f98cd3ffea2ac356c003fae38c4c60e84204a8bc93acd3e8c775ec9dcbe9de79"
+}

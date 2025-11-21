@@ -1,0 +1,87 @@
+{
+	"orð": "slumma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slumm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slumma-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slumma",
+		"sagnbót": "slummað",
+		"boðháttur": {
+			"stýfður": "slumma",
+			"et": "slummaðu",
+			"ft": "slummið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slumma", "slummar", "slummar"],
+					"ft": ["slummum", "slummið", "slumma"]
+				},
+				"þátíð": {
+					"et": ["slummaði", "slummaðir", "slummaði"],
+					"ft": ["slummuðum", "slummuðuð", "slummuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slummi", "slummir", "slummi"],
+					"ft": ["slummum", "slummið", "slummi"]
+				},
+				"þátíð": {
+					"et": ["slummaði", "slummaðir", "slummaði"],
+					"ft": ["slummuðum", "slummuðuð", "slummuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slummarðu",
+					"ft": "slummiði"
+				},
+				"þátíð": {
+					"et": "slummaðirðu",
+					"ft": "slummuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slummirðu",
+					"ft": "slummiði"
+				},
+				"þátíð": {
+					"et": "slummaðirðu",
+					"ft": "slummuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slummandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slummaður", "slummaðan", "slummuðum", "slummaðs"],
+					"kvk": ["slummuð", "slummaða", "slummaðri", "slummaðrar"],
+					"hk": ["slummað", "slummað", "slummuðu", "slummaðs"]
+				},
+				"ft": {
+					"kk": ["slummaðir", "slummaða", "slummuðum", "slummaðra"],
+					"kvk": ["slummaðar", "slummaðar", "slummuðum", "slummaðra"],
+					"hk": ["slummuð", "slummuð", "slummuðum", "slummaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slumma",
+	"hash": "39d01070f90d11cb6016d8209a40f91a2c958b0082d415377a0d3ee4327be0fd"
+}

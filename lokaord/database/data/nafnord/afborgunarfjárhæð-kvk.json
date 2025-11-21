@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "af",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-af"
-		},
-		{
-			"mynd": "borgunar",
+			"mynd": "afborgunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-borgun-kvk"
+			"kennistrengur": "no-afborgun-kvk"
 		},
 		{
-			"mynd": "fjár",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
-		},
-		{
-			"kennistrengur": "no-hæð-kvk"
+			"kennistrengur": "no-fjárhæð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["afborgunarfjárhæðirnar", "afborgunarfjárhæðirnar", "afborgunarfjárhæðunum", "afborgunarfjárhæðanna"]
 	},
 	"kennistrengur": "no-afborgunarfjárhæð-kvk",
-	"hash": "8bf76d09652f24d7d119f3b9355e1126b0d4bdd7c6ca8126258309f06a5465d0"
+	"hash": "f7b32a09c50a4cb956335f2d5531260ead0039bc7f5f7ff7c6791d51266efbd5"
 }

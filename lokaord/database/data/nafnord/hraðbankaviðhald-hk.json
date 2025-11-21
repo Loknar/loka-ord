@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "hrað",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-hraður"
-		},
-		{
-			"mynd": "banka",
+			"mynd": "hraðbanka",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-banki-kk"
-		},
-		{
-			"mynd": "við",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-við"
+			"kennistrengur": "no-hraðbanki-kk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-viðhald-hk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["hraðbankaviðhaldið", "hraðbankaviðhaldið", "hraðbankaviðhaldinu", "hraðbankaviðhaldsins"]
 	},
 	"kennistrengur": "no-hraðbankaviðhald-hk",
-	"hash": "8ca0a3b12b1b87b1fd61d235de952879e8b608cd146d8149950ba6ff314c0064"
+	"hash": "9a5643928542efd99c3e9f356b6f7c2e22ab32e9631f476c1ea8bdebcd54d602"
 }

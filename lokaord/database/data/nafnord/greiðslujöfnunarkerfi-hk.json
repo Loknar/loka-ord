@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "greiðslu",
+			"mynd": "greiðslujöfnunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greiðsla-kvk"
-		},
-		{
-			"mynd": "jöfnunar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-jöfnun-kvk"
+			"kennistrengur": "no-greiðslujöfnun-kvk"
 		},
 		{
 			"kennistrengur": "no-kerfi-hk"
@@ -26,5 +21,5 @@
 		"mg": ["greiðslujöfnunarkerfin", "greiðslujöfnunarkerfin", "greiðslujöfnunarkerfunum", "greiðslujöfnunarkerfanna"]
 	},
 	"kennistrengur": "no-greiðslujöfnunarkerfi-hk",
-	"hash": "1d983b78bcc85eb7f1c04fbcc1414030c9bcf36942812d99822807b84e99892e"
+	"hash": "a151cbca056bbe282ed9c6ab3ef96a10df25741b7a48ae76dbd37f8ecd2191df"
 }

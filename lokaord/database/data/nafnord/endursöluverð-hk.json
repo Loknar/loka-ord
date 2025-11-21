@@ -1,0 +1,27 @@
+{
+	"orð": "endursöluverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["endursöluverð", "endursöluverð", "endursöluverði", "endursöluverðs"],
+		"mg": ["endursöluverðið", "endursöluverðið", "endursöluverðinu", "endursöluverðsins"]
+	},
+	"kennistrengur": "no-endursöluverð-hk",
+	"hash": "5d0eb8394997f12b99947f3aa36711047e0a7e65bcb6a25615b9c014c231c24c"
+}

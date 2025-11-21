@@ -4,32 +4,22 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "veð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-veð-hk"
-		},
-		{
-			"mynd": "setningar",
+			"mynd": "veðsetningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-setning-kvk"
-		},
-		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
+			"kennistrengur": "no-veðsetning-kvk"
 		},
 		{
 			"kennistrengur": "no-fałl-hk"
 		}
 	],
 	"et": {
-		"ág": ["veðsetningarhlutfałl", "veðsetningarhlutfałl", "veðsetningarhlutfałli", "veðsetningarhlutfalls"],
-		"mg": ["veðsetningarhlutfałlið", "veðsetningarhlutfałlið", "veðsetningarhlutfałlinu", "veðsetningarhlutfallsins"]
+		"ág": ["veðsetningarfałl", "veðsetningarfałl", "veðsetningarfałli", "veðsetningarfalls"],
+		"mg": ["veðsetningarfałlið", "veðsetningarfałlið", "veðsetningarfałlinu", "veðsetningarfallsins"]
 	},
 	"ft": {
-		"ág": ["veðsetningarhlutföłl", "veðsetningarhlutföłl", "veðsetningarhlutföłlum", "veðsetningarhlutfałla"],
-		"mg": ["veðsetningarhlutföłlin", "veðsetningarhlutföłlin", "veðsetningarhlutföłlunum", "veðsetningarhlutfałlanna"]
+		"ág": ["veðsetningarföłl", "veðsetningarföłl", "veðsetningarföłlum", "veðsetningarfałla"],
+		"mg": ["veðsetningarföłlin", "veðsetningarföłlin", "veðsetningarföłlunum", "veðsetningarfałlanna"]
 	},
 	"kennistrengur": "no-veðsetningarfałl-hk",
-	"hash": "4c4884ac4c4ffc020005c0272d22121314053bad4dd37ee608c55612c30fd88d"
+	"hash": "8817b4c36b52097a27c0f98b42ad334ff1457ba04a223e32c7865a409ec068be"
 }

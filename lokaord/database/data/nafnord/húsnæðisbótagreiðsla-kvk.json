@@ -1,0 +1,30 @@
+{
+	"orð": "húsnæðisbótagreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "húsnæðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-húsnæði-hk"
+		},
+		{
+			"mynd": "bóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bót-kvk"
+		},
+		{
+			"kennistrengur": "no-greiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["húsnæðisbótagreiðsla", "húsnæðisbótagreiðslu", "húsnæðisbótagreiðslu", "húsnæðisbótagreiðslu"],
+		"mg": ["húsnæðisbótagreiðslan", "húsnæðisbótagreiðsluna", "húsnæðisbótagreiðslunni", "húsnæðisbótagreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["húsnæðisbótagreiðslur", "húsnæðisbótagreiðslur", "húsnæðisbótagreiðslum", "húsnæðisbótagreiðslna"],
+		"mg": ["húsnæðisbótagreiðslurnar", "húsnæðisbótagreiðslurnar", "húsnæðisbótagreiðslunum", "húsnæðisbótagreiðslnanna"]
+	},
+	"kennistrengur": "no-húsnæðisbótagreiðsla-kvk",
+	"hash": "10a26202a7f65751f52cc4ff8421cb5345d92934efa8b9559c406d999a3d66af"
+}

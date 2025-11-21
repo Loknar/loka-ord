@@ -1,0 +1,22 @@
+{
+	"orð": "leiguviðskipti",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-viðskipti-hk"
+		}
+	],
+	"ft": {
+		"ág": ["leiguviðskipti", "leiguviðskipti", "leiguviðskiptum", "leiguviðskipta"],
+		"mg": ["leiguviðskiptin", "leiguviðskiptin", "leiguviðskiptunum", "leiguviðskiptanna"]
+	},
+	"kennistrengur": "no-leiguviðskipti-hk",
+	"hash": "edec43a4f73bb44373ddef2942aa80c45f060c034e37c7eb02676b5bc720ff49"
+}

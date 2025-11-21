@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "skipu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "so-skipa"
-		},
-		{
-			"mynd": "lags",
+			"mynd": "skipulags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-skipulag-hk"
 		},
 		{
-			"mynd": "skil",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skil-hk"
-		},
-		{
-			"kennistrengur": "no-máli-kk"
+			"kennistrengur": "no-skilmáli-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skipulagsskilmálarnir", "skipulagsskilmálana", "skipulagsskilmálunum", "skipulagsskilmálanna"]
 	},
 	"kennistrengur": "no-skipulagsskilmáli-kk",
-	"hash": "9858714405c5bc1501b0a2126ccd172e3bfc02b85f3e90bd34dee61fab08c10a"
+	"hash": "c2b755ffbf2f9e32743384fa260d362d77ae3a3d08ede65d9dcf7c2be880408c"
 }

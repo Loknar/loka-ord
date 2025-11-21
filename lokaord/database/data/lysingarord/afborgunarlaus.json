@@ -1,0 +1,43 @@
+{
+	"orð": "afborgunarlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "afborgunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-afborgun-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["afborgunarlaus", "afborgunarlausan", "afborgunarlausum", "afborgunarlauss"],
+				"kvk": ["afborgunarlaus", "afborgunarlausa", "afborgunarlausri", "afborgunarlausrar"],
+				"hk": ["afborgunarlaust", "afborgunarlaust", "afborgunarlausu", "afborgunarlauss"]
+			},
+			"ft": {
+				"kk": ["afborgunarlausir", "afborgunarlausa", "afborgunarlausum", "afborgunarlausra"],
+				"kvk": ["afborgunarlausar", "afborgunarlausar", "afborgunarlausum", "afborgunarlausra"],
+				"hk": ["afborgunarlaus", "afborgunarlaus", "afborgunarlausum", "afborgunarlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["afborgunarlausi", "afborgunarlausa", "afborgunarlausa", "afborgunarlausa"],
+				"kvk": ["afborgunarlausa", "afborgunarlausu", "afborgunarlausu", "afborgunarlausu"],
+				"hk": ["afborgunarlausa", "afborgunarlausa", "afborgunarlausa", "afborgunarlausa"]
+			},
+			"ft": {
+				"kk": ["afborgunarlausu", "afborgunarlausu", "afborgunarlausu", "afborgunarlausu"],
+				"kvk": ["afborgunarlausu", "afborgunarlausu", "afborgunarlausu", "afborgunarlausu"],
+				"hk": ["afborgunarlausu", "afborgunarlausu", "afborgunarlausu", "afborgunarlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-afborgunarlaus",
+	"hash": "e3a4eba2f9b1d6e138a121a978f122be9daf4a0481dad7025615036d3c8288bf"
+}
