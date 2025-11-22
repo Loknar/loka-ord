@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "far",
-			"samsetning": "stofn",
-			"kennistrengur": "no-far-hk"
-		},
-		{
-			"mynd": "gjalda",
+			"mynd": "fargjalda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
+			"kennistrengur": "no-fargjald-hk"
 		},
 		{
-			"mynd": "mis",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-mis"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-mismunur-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["fargjaldamismunurinn", "fargjaldamismuninn", "fargjaldamismuninum", "fargjaldamismunarins"]
 	},
 	"kennistrengur": "no-fargjaldamismunur-kk",
-	"hash": "07757f9a64384269bf368f42157f366edbba345757571624a1fdfeb0bf2a2391"
+	"hash": "5a3072e21c1da45c27df11679982ca74f8398a221927e8375d836a3e384ed4b8"
 }

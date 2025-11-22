@@ -1,0 +1,77 @@
+{
+	"orð": "ljósastýra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ljósa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ljós-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-stýra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ljósastýra",
+		"sagnbót": "ljósastýrt",
+		"boðháttur": {
+			"stýfður": "ljósastýr",
+			"et": "ljósastýrðu",
+			"ft": "ljósastýrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ljósastýri", "ljósastýrir", "ljósastýrir"],
+					"ft": ["ljósastýrum", "ljósastýrið", "ljósastýra"]
+				},
+				"þátíð": {
+					"et": ["ljósastýrði", "ljósastýrðir", "ljósastýrði"],
+					"ft": ["ljósastýrðum", "ljósastýrðuð", "ljósastýrðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ljósastýri", "ljósastýrir", "ljósastýri"],
+					"ft": ["ljósastýrum", "ljósastýrið", "ljósastýri"]
+				},
+				"þátíð": {
+					"et": ["ljósastýrði", "ljósastýrðir", "ljósastýrði"],
+					"ft": ["ljósastýrðum", "ljósastýrðuð", "ljósastýrðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ljósastýrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ljósastýrður", "ljósastýrðan", "ljósastýrðum", "ljósastýrðs"],
+					"kvk": ["ljósastýrð", "ljósastýrða", "ljósastýrðri", "ljósastýrðrar"],
+					"hk": ["ljósastýrt", "ljósastýrt", "ljósastýrðu", "ljósastýrðs"]
+				},
+				"ft": {
+					"kk": ["ljósastýrðir", "ljósastýrða", "ljósastýrðum", "ljósastýrðra"],
+					"kvk": ["ljósastýrðar", "ljósastýrðar", "ljósastýrðum", "ljósastýrðra"],
+					"hk": ["ljósastýrð", "ljósastýrð", "ljósastýrðum", "ljósastýrðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ljósastýrði", "ljósastýrða", "ljósastýrða", "ljósastýrða"],
+					"kvk": ["ljósastýrða", "ljósastýrðu", "ljósastýrðu", "ljósastýrðu"],
+					"hk": ["ljósastýrða", "ljósastýrða", "ljósastýrða", "ljósastýrða"]
+				},
+				"ft": {
+					"kk": ["ljósastýrðu", "ljósastýrðu", "ljósastýrðu", "ljósastýrðu"],
+					"kvk": ["ljósastýrðu", "ljósastýrðu", "ljósastýrðu", "ljósastýrðu"],
+					"hk": ["ljósastýrðu", "ljósastýrðu", "ljósastýrðu", "ljósastýrðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ljósastýra",
+	"hash": "0e29bef045f3259635f3c5cf13587682950368cce007166941bde56773e3e62c"
+}

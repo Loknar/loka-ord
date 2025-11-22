@@ -1,6 +1,16 @@
 {
 	"orð": "þvera",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þver",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þver"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "þvera",
 		"sagnbót": "þverað",
@@ -44,7 +54,7 @@
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "þveriðru",
+					"et": "þverirðu",
 					"ft": "þveriði"
 				},
 				"þátíð": {
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "þverast",
 		"sagnbót": "þverast",
+		"boðháttur": {
+			"et": "þverastu",
+			"ft": "þverist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-þvera",
-	"hash": "a0d96bd9772f9ff0d27175c552eea3e41602f96e39f7e90fb009f14f34a4aef4"
+	"hash": "4c5010b9aa200dc34d56035510e9b2c8ef9de388cb03c123e4ca00ccc3068841"
 }

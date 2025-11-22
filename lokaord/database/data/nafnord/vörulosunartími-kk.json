@@ -1,0 +1,27 @@
+{
+	"orð": "vörulosunartími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "losunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-losun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["vörulosunartími", "vörulosunartíma", "vörulosunartíma", "vörulosunartíma"],
+		"mg": ["vörulosunartíminn", "vörulosunartímann", "vörulosunartímanum", "vörulosunartímans"]
+	},
+	"kennistrengur": "no-vörulosunartími-kk",
+	"hash": "865e254b78f15b223035c9efe0622893a8f4cbfbce7ce771b7f290afb21c3bc0"
+}

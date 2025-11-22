@@ -1,0 +1,99 @@
+{
+	"orð": "frumhanna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frum",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frum-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-hanna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frumhanna",
+		"sagnbót": "frumhannað",
+		"boðháttur": {
+			"stýfður": "frumhanna",
+			"et": "frumhannaðu",
+			"ft": "frumhannið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frumhanna", "frumhannar", "frumhannar"],
+					"ft": ["frumhönnum", "frumhannið", "frumhanna"]
+				},
+				"þátíð": {
+					"et": ["frumhannaði", "frumhannaðir", "frumhannaði"],
+					"ft": ["frumhönnuðum", "frumhönnuðuð", "frumhönnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frumhanni", "frumhannir", "frumhanni"],
+					"ft": ["frumhönnum", "frumhannið", "frumhanni"]
+				},
+				"þátíð": {
+					"et": ["frumhannaði", "frumhannaðir", "frumhannaði"],
+					"ft": ["frumhönnuðum", "frumhönnuðuð", "frumhönnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frumhannarðu",
+					"ft": "frumhanniði"
+				},
+				"þátíð": {
+					"et": "frumhannaðirðu",
+					"ft": "frumhönnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frumhannirðu",
+					"ft": "frumhanniði"
+				},
+				"þátíð": {
+					"et": "frumhannaðirðu",
+					"ft": "frumhönnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frumhannandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frumhannaður", "frumhannaðan", "frumhönnuðum", "frumhannaðs"],
+					"kvk": ["frumhönnuð", "frumhannaða", "frumhannaðri", "frumhannaðrar"],
+					"hk": ["frumhannað", "frumhannað", "frumhönnuðu", "frumhannaðs"]
+				},
+				"ft": {
+					"kk": ["frumhannaðir", "frumhannaða", "frumhönnuðum", "frumhannaðra"],
+					"kvk": ["frumhannaðar", "frumhannaðar", "frumhönnuðum", "frumhannaðra"],
+					"hk": ["frumhönnuð", "frumhönnuð", "frumhönnuðum", "frumhannaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["frumhannaði", "frumhannaða", "frumhannaða", "frumhannaða"],
+					"kvk": ["frumhannaða", "frumhönnuðu", "frumhönnuðu", "frumhönnuðu"],
+					"hk": ["frumhannaða", "frumhannaða", "frumhannaða", "frumhannaða"]
+				},
+				"ft": {
+					"kk": ["frumhönnuðu", "frumhönnuðu", "frumhönnuðu", "frumhönnuðu"],
+					"kvk": ["frumhönnuðu", "frumhönnuðu", "frumhönnuðu", "frumhönnuðu"],
+					"hk": ["frumhönnuðu", "frumhönnuðu", "frumhönnuðu", "frumhönnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frumhanna",
+	"hash": "920c8ed55f91b8cee79af04623fcbcb8089e30d75a6ccd4ce1e917092775fd6d"
+}

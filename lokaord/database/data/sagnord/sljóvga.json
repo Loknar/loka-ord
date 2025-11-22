@@ -1,0 +1,135 @@
+{
+	"orð": "sljóvga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sljóvg",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-sljór"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sljóvga",
+		"sagnbót": "sljóvgað",
+		"boðháttur": {
+			"stýfður": "sljóvga",
+			"et": "sljóvgaðu",
+			"ft": "sljóvgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sljóvga", "sljóvgar", "sljóvgar"],
+					"ft": ["sljóvgum", "sljóvgið", "sljóvga"]
+				},
+				"þátíð": {
+					"et": ["sljóvgaði", "sljóvgaðir", "sljóvgaði"],
+					"ft": ["sljóvguðum", "sljóvguðuð", "sljóvguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sljóvgi", "sljóvgir", "sljóvgi"],
+					"ft": ["sljóvgum", "sljóvgið", "sljóvgi"]
+				},
+				"þátíð": {
+					"et": ["sljóvgaði", "sljóvgaðir", "sljóvgaði"],
+					"ft": ["sljóvguðum", "sljóvguðuð", "sljóvguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sljóvgarðu",
+					"ft": "sljóvgiði"
+				},
+				"þátíð": {
+					"et": "sljóvgaðirðu",
+					"ft": "sljóvguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sljóvgirðu",
+					"ft": "sljóvgiði"
+				},
+				"þátíð": {
+					"et": "sljóvgaðirðu",
+					"ft": "sljóvguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sljóvgast",
+		"sagnbót": "sljóvgast",
+		"boðháttur": {
+			"et": "sljóvgastu",
+			"ft": "sljóvgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sljóvgast", "sljóvgast", "sljóvgast"],
+					"ft": ["sljóvgumst", "sljóvgist", "sljóvgast"]
+				},
+				"þátíð": {
+					"et": ["sljóvgaðist", "sljóvgaðist", "sljóvgaðist"],
+					"ft": ["sljóvguðumst", "sljóvguðust", "sljóvguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sljóvgist", "sljóvgist", "sljóvgist"],
+					"ft": ["sljóvgumst", "sljóvgist", "sljóvgist"]
+				},
+				"þátíð": {
+					"et": ["sljóvgaðist", "sljóvgaðist", "sljóvgaðist"],
+					"ft": ["sljóvguðumst", "sljóvguðust", "sljóvguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sljóvgastu"
+				},
+				"þátíð": {
+					"et": "sljóvgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sljóvgistu"
+				},
+				"þátíð": {
+					"et": "sljóvgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sljóvgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sljóvgaður", "sljóvgaðan", "sljóvguðum", "sljóvgaðs"],
+					"kvk": ["sljóvguð", "sljóvgaða", "sljóvgaðri", "sljóvgaðrar"],
+					"hk": ["sljóvgað", "sljóvgað", "sljóvguðu", "sljóvgaðs"]
+				},
+				"ft": {
+					"kk": ["sljóvgaðir", "sljóvgaða", "sljóvguðum", "sljóvgaðra"],
+					"kvk": ["sljóvgaðar", "sljóvgaðar", "sljóvguðum", "sljóvgaðra"],
+					"hk": ["sljóvguð", "sljóvguð", "sljóvguðum", "sljóvgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sljóvga",
+	"hash": "10b7f642581553cbdf3ecaa1363af70d14234f3d8ea369fbe2e840a9de56be0c"
+}

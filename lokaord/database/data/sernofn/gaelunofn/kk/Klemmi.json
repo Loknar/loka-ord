@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Klemm",
+			"samsetning": "stofn",
+			"kennistrengur": "so-klemma"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Klemmi", "Klemma", "Klemma", "Klemma"]
 	},
 	"kennistrengur": "sérn.gn-Klemmi-kk",
-	"hash": "385855d0d122c81964c8788181287b9be8a848e71c0e6aaaecb9681bbc2f5013"
+	"hash": "3c898085ca18584c6bd4ee6a58c9f9f937b205453a39547f8906073d1697823d"
 }

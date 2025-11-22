@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "far",
-			"samsetning": "stofn",
-			"kennistrengur": "no-far-hk"
-		},
-		{
-			"mynd": "þega",
+			"mynd": "farþega",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-þegi-kk"
+			"kennistrengur": "no-farþegi-kk"
 		},
 		{
-			"mynd": "bókunar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bókun-kvk"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-gagn-hk"
+			"kennistrengur": "no-bókunargögn-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["farþegabókunargögnin", "farþegabókunargögnin", "farþegabókunargögnunum", "farþegabókunargagnanna"]
 	},
 	"kennistrengur": "no-farþegabókunargögn-hk",
-	"hash": "76ffb532aa1e85c17034d03bdd1f6b4b6c040110da264442de600b48dbe77171"
+	"hash": "7928e481f32ec4a8846580e00959bf45442d1c743db4e4874f4077bf0bdbb594"
 }

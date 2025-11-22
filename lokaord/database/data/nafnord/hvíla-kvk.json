@@ -2,6 +2,16 @@
 	"orð": "hvíla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hvíl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hvíla"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó-_na_"
+		}
+	],
 	"et": {
 		"ág": ["hvíla", "hvílu", "hvílu", "hvílu"],
 		"mg": ["hvílan", "hvíluna", "hvílunni", "hvílunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hvílurnar", "hvílurnar", "hvílunum", "hvílnanna"]
 	},
 	"kennistrengur": "no-hvíla-kvk",
-	"hash": "74e3c5a686bedfa07f06ca0c26830d0bebadd08644155058b8e6a8927e65384a"
+	"hash": "d93d421f7430d8a020d68c0bdb9790acad7b2c8ae6113a84c129ad7daa3105e7"
 }

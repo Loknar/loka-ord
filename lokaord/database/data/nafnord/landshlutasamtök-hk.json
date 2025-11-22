@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "lands",
+			"mynd": "landshluta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
+			"kennistrengur": "no-landshluti-kk"
 		},
 		{
-			"mynd": "hluta",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hluti-kk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["landshlutasamtökin", "landshlutasamtökin", "landshlutasamtökunum", "landshlutasamtakanna"]
 	},
 	"kennistrengur": "no-landshlutasamtök-hk",
-	"hash": "03c349ef1f4d86e493a5b3f94ee7a1d05e730290e6ff5529c1a4bfb174d82245"
+	"hash": "416135e0d09068930d913fe92d33baebc8e3890cdb331f3ddfd20378f3508b47"
 }
