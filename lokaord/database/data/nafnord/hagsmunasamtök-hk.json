@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "hags",
+			"mynd": "hagsmuna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
+			"kennistrengur": "no-hagsmunir-kk"
 		},
 		{
-			"mynd": "muna",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-munur-kk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["hagsmunasamtökin", "hagsmunasamtökin", "hagsmunasamtökunum", "hagsmunasamtakanna"]
 	},
 	"kennistrengur": "no-hagsmunasamtök-hk",
-	"hash": "95ddd5e8da4b273128452c70feb956d08b710842f04f37b420a33ad40502640c"
+	"hash": "7f937d52021334919dcf8e6e49dda01fd0bdaa560c67e28aa3ff344ca8a933d9"
 }

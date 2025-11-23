@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "skip",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skip-hk"
-		},
-		{
-			"mynd": "stjórnar",
+			"mynd": "skipstjórnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórn-kvk"
+			"kennistrengur": "no-skipstjórn-kvk"
 		},
 		{
 			"kennistrengur": "no-maður-kk"
@@ -26,5 +21,5 @@
 		"mg": ["skipstjórnarmennirnir", "skipstjórnarmennina", "skipstjórnarmönnunum", "skipstjórnarmannanna"]
 	},
 	"kennistrengur": "no-skipstjórnarmaður-kk",
-	"hash": "e1d8e9f556a8c995705bd5308287aae15a1c7d6fc6a2e0811c64d71447c629ab"
+	"hash": "5cab79fa9a801d346659d3990f4678c053bc3cdc0b7c5e37d739428578a721ec"
 }
