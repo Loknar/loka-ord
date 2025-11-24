@@ -1,0 +1,99 @@
+{
+	"orð": "lögtaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lögtaka",
+		"sagnbót": "lögtekið",
+		"boðháttur": {
+			"stýfður": "lögtak",
+			"et": "lögtaktu",
+			"ft": "lögtakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lögtek", "lögtekur", "lögtekur"],
+					"ft": ["lögtökum", "lögtakið", "lögtaka"]
+				},
+				"þátíð": {
+					"et": ["lögtók", "lögtókst", "lögtók"],
+					"ft": ["lögtókum", "lögtókuð", "lögtóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lögtaki", "lögtakir", "lögtaki"],
+					"ft": ["lögtökum", "lögtakið", "lögtaki"]
+				},
+				"þátíð": {
+					"et": ["lögtæki", "lögtækir", "lögtæki"],
+					"ft": ["lögtækjum", "lögtækjuð", "lögtækju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lögtekurðu",
+					"ft": "lögtakiði"
+				},
+				"þátíð": {
+					"et": "lögtókstu",
+					"ft": "lögtókuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lögtakirðu",
+					"ft": "lögtakiði"
+				},
+				"þátíð": {
+					"et": "lögtækirðu",
+					"ft": "lögtækjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lögtakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lögtekinn", "lögtekinn", "lögteknum", "lögtekins"],
+					"kvk": ["lögtekin", "lögtekna", "lögtekinni", "lögtekinnar"],
+					"hk": ["lögtekið", "lögtekið", "lögteknu", "lögtekins"]
+				},
+				"ft": {
+					"kk": ["lögteknir", "lögtekna", "lögteknum", "lögtekinna"],
+					"kvk": ["lögteknar", "lögteknar", "lögteknum", "lögtekinna"],
+					"hk": ["lögtekin", "lögtekin", "lögteknum", "lögtekinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lögtekni", "lögtekna", "lögtekna", "lögtekna"],
+					"kvk": ["lögtekna", "lögteknu", "lögteknu", "lögteknu"],
+					"hk": ["lögtekna", "lögtekna", "lögtekna", "lögtekna"]
+				},
+				"ft": {
+					"kk": ["lögteknu", "lögteknu", "lögteknu", "lögteknu"],
+					"kvk": ["lögteknu", "lögteknu", "lögteknu", "lögteknu"],
+					"hk": ["lögteknu", "lögteknu", "lögteknu", "lögteknu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lögtaka",
+	"hash": "5ee30974fb6c044ab1937941f8f1a73ee8f9409b27e578737a96f25dd90f94e2"
+}

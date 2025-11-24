@@ -1,0 +1,27 @@
+{
+	"orð": "hálfsmánaðarkaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "hálfs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"mynd": "mánaðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-mánuður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"et": {
+		"ág": ["hálfsmánaðarkaup", "hálfsmánaðarkaup", "hálfsmánaðarkaupi", "hálfsmánaðarkaups"],
+		"mg": ["hálfsmánaðarkaupið", "hálfsmánaðarkaupið", "hálfsmánaðarkaupinu", "hálfsmánaðarkaupsins"]
+	},
+	"kennistrengur": "no-hálfsmánaðarkaup-hk",
+	"hash": "6ccc8b4df504904a23f9bc3ecfb4f59299ff27aa6daeee1fefafbcd9ab870378"
+}

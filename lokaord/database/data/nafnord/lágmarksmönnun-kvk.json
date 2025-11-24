@@ -4,16 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lág",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-lágur"
-		},
-		{
-			"mynd": "marks",
+			"mynd": "lágmarks",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mark-hk"
+			"kennistrengur": "no-lágmark-hk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-mönnun-kvk"
 		}
 	],
@@ -21,10 +17,6 @@
 		"ág": ["lágmarksmönnun", "lágmarksmönnun", "lágmarksmönnun", "lágmarksmönnunar"],
 		"mg": ["lágmarksmönnunin", "lágmarksmönnunina", "lágmarksmönnuninni", "lágmarksmönnunarinnar"]
 	},
-	"ft": {
-		"ág": ["lágmarksmannanir", "lágmarksmannanir", "lágmarksmönnunum", "lágmarksmannana"],
-		"mg": ["lágmarksmannanirnar", "lágmarksmannanirnar", "lágmarksmönnununum", "lágmarksmannananna"]
-	},
 	"kennistrengur": "no-lágmarksmönnun-kvk",
-	"hash": "02ed73f8692355171f3c8f81b265b72e88b4b3ba094d994aa73849e2ef1d6f77"
+	"hash": "582036759666ad95386f202f11004f54fd37d795c0e8d25021a75201fff94d11"
 }

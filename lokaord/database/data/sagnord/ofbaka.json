@@ -1,0 +1,131 @@
+{
+	"orð": "ofbaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-baka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofbaka",
+		"sagnbót": "ofbakað",
+		"boðháttur": {
+			"stýfður": "ofbaka",
+			"et": "ofbakaðu",
+			"ft": "ofbakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofbaka", "ofbakar", "ofbakar"],
+					"ft": ["ofbökum", "ofbakið", "ofbaka"]
+				},
+				"þátíð": {
+					"et": ["ofbakaði", "ofbakaðir", "ofbakaði"],
+					"ft": ["ofbökuðum", "ofbökuðuð", "ofbökuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofbaki", "ofbakir", "ofbaki"],
+					"ft": ["ofbökum", "ofbakið", "ofbaki"]
+				},
+				"þátíð": {
+					"et": ["ofbakaði", "ofbakaðir", "ofbakaði"],
+					"ft": ["ofbökuðum", "ofbökuðuð", "ofbökuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofbakarðu",
+					"ft": "ofbakiði"
+				},
+				"þátíð": {
+					"et": "ofbakaðirðu",
+					"ft": "ofbökuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofbakirðu",
+					"ft": "ofbakiði"
+				},
+				"þátíð": {
+					"et": "ofbakaðirðu",
+					"ft": "ofbökuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ofbakast",
+		"sagnbót": "ofbakast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofbakast", "ofbakast", "ofbakast"],
+					"ft": ["ofbökumst", "ofbakist", "ofbakast"]
+				},
+				"þátíð": {
+					"et": ["ofbakaðist", "ofbakaðist", "ofbakaðist"],
+					"ft": ["ofbökuðumst", "ofbökuðust", "ofbökuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofbakist", "ofbakist", "ofbakist"],
+					"ft": ["ofbökumst", "ofbakist", "ofbakist"]
+				},
+				"þátíð": {
+					"et": ["ofbakaðist", "ofbakaðist", "ofbakaðist"],
+					"ft": ["ofbökuðumst", "ofbökuðust", "ofbökuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofbakastu"
+				},
+				"þátíð": {
+					"et": "ofbakaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofbakistu"
+				},
+				"þátíð": {
+					"et": "ofbakaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofbakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofbakaður", "ofbakaðan", "ofbökuðum", "ofbakaðs"],
+					"kvk": ["ofbökuð", "ofbakaða", "ofbakaðri", "ofbakaðrar"],
+					"hk": ["ofbakað", "ofbakað", "ofbökuðu", "ofbakaðs"]
+				},
+				"ft": {
+					"kk": ["ofbakaðir", "ofbakaða", "ofbökuðum", "ofbakaðra"],
+					"kvk": ["ofbakaðar", "ofbakaðar", "ofbökuðum", "ofbakaðra"],
+					"hk": ["ofbökuð", "ofbökuð", "ofbökuðum", "ofbakaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofbaka",
+	"hash": "02c9b1da1e5b831ff30be6e5c65fed7a5c1e9d1ebdab025a53653a3ef8edde9c"
+}

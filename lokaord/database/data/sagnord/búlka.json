@@ -1,0 +1,135 @@
+{
+	"orð": "búlka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "búlk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-búlki-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "búlka",
+		"sagnbót": "búlkað",
+		"boðháttur": {
+			"stýfður": "búlka",
+			"et": "búlkaðu",
+			"ft": "búlkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["búlka", "búlkar", "búlkar"],
+					"ft": ["búlkum", "búlkið", "búlka"]
+				},
+				"þátíð": {
+					"et": ["búlkaði", "búlkaðir", "búlkaði"],
+					"ft": ["búlkuðum", "búlkuðuð", "búlkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búlki", "búlkir", "búlki"],
+					"ft": ["búlkum", "búlkið", "búlki"]
+				},
+				"þátíð": {
+					"et": ["búlkaði", "búlkaðir", "búlkaði"],
+					"ft": ["búlkuðum", "búlkuðuð", "búlkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "búlkarðu",
+					"ft": "búlkiði"
+				},
+				"þátíð": {
+					"et": "búlkaðirðu",
+					"ft": "búlkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "búlkirðu",
+					"ft": "búlkiði"
+				},
+				"þátíð": {
+					"et": "búlkaðirðu",
+					"ft": "búlkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "búlkast",
+		"sagnbót": "búlkast",
+		"boðháttur": {
+			"et": "búlkastu",
+			"ft": "búlkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["búlkast", "búlkast", "búlkast"],
+					"ft": ["búlkumst", "búlkist", "búlkast"]
+				},
+				"þátíð": {
+					"et": ["búlkaðist", "búlkaðist", "búlkaðist"],
+					"ft": ["búlkuðumst", "búlkuðust", "búlkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["búlkist", "búlkist", "búlkist"],
+					"ft": ["búlkumst", "búlkist", "búlkist"]
+				},
+				"þátíð": {
+					"et": ["búlkaðist", "búlkaðist", "búlkaðist"],
+					"ft": ["búlkuðumst", "búlkuðust", "búlkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "búlkastu"
+				},
+				"þátíð": {
+					"et": "búlkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "búlkistu"
+				},
+				"þátíð": {
+					"et": "búlkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "búlkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["búlkaður", "búlkaðan", "búlkuðum", "búlkaðs"],
+					"kvk": ["búlkuð", "búlkaða", "búlkaðri", "búlkaðrar"],
+					"hk": ["búlkað", "búlkað", "búlkuðu", "búlkaðs"]
+				},
+				"ft": {
+					"kk": ["búlkaðir", "búlkaða", "búlkuðum", "búlkaðra"],
+					"kvk": ["búlkaðar", "búlkaðar", "búlkuðum", "búlkaðra"],
+					"hk": ["búlkuð", "búlkuð", "búlkuðum", "búlkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-búlka",
+	"hash": "f94af12d056eb4ed8e04156db722d2ba64092e01c3422915510bbbdf4dcfbab8"
+}
