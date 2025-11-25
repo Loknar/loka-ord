@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "ein",
-			"samsetning": "stofn",
-			"kennistrengur": "to.ft-einn"
-		},
-		{
-			"mynd": "skiptis",
+			"mynd": "einskiptis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skipti-hk"
+			"kennistrengur": "no-einskipti-hk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["einskiptisaðgerðirnar", "einskiptisaðgerðirnar", "einskiptisaðgerðunum", "einskiptisaðgerðanna"]
 	},
 	"kennistrengur": "no-einskiptisaðgerð-kvk",
-	"hash": "fdad01c5c976d85cd315b5847dba1e182c276b7952dd91081bb11ac08aae5feb"
+	"hash": "9576f643ca86f12fa2043350fb02724c0a142f38141775e9a5c556fea911ec92"
 }

@@ -1,0 +1,99 @@
+{
+	"orð": "sérprenta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-prenta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérprenta",
+		"sagnbót": "sérprentað",
+		"boðháttur": {
+			"stýfður": "sérprenta",
+			"et": "sérprentaðu",
+			"ft": "sérprentið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérprenta", "sérprentar", "sérprentar"],
+					"ft": ["sérprentum", "sérprentið", "sérprenta"]
+				},
+				"þátíð": {
+					"et": ["sérprentaði", "sérprentaðir", "sérprentaði"],
+					"ft": ["sérprentuðum", "sérprentuðuð", "sérprentuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérprenti", "sérprentir", "sérprenti"],
+					"ft": ["sérprentum", "sérprentið", "sérprenti"]
+				},
+				"þátíð": {
+					"et": ["sérprentaði", "sérprentaðir", "sérprentaði"],
+					"ft": ["sérprentuðum", "sérprentuðuð", "sérprentuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérprentarðu",
+					"ft": "sérprentiði"
+				},
+				"þátíð": {
+					"et": "sérprentaðirðu",
+					"ft": "sérprentuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérprentirðu",
+					"ft": "sérprentiði"
+				},
+				"þátíð": {
+					"et": "sérprentaðirðu",
+					"ft": "sérprentuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérprentandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérprentaður", "sérprentaðan", "sérprentuðum", "sérprentaðs"],
+					"kvk": ["sérprentuð", "sérprentaða", "sérprentaðri", "sérprentaðrar"],
+					"hk": ["sérprentað", "sérprentað", "sérprentuðu", "sérprentaðs"]
+				},
+				"ft": {
+					"kk": ["sérprentaðir", "sérprentaða", "sérprentuðum", "sérprentaðra"],
+					"kvk": ["sérprentaðar", "sérprentaðar", "sérprentuðum", "sérprentaðra"],
+					"hk": ["sérprentuð", "sérprentuð", "sérprentuðum", "sérprentaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sérprentaði", "sérprentaða", "sérprentaða", "sérprentaða"],
+					"kvk": ["sérprentaða", "sérprentuðu", "sérprentuðu", "sérprentuðu"],
+					"hk": ["sérprentaða", "sérprentaða", "sérprentaða", "sérprentaða"]
+				},
+				"ft": {
+					"kk": ["sérprentuðu", "sérprentuðu", "sérprentuðu", "sérprentuðu"],
+					"kvk": ["sérprentuðu", "sérprentuðu", "sérprentuðu", "sérprentuðu"],
+					"hk": ["sérprentuðu", "sérprentuðu", "sérprentuðu", "sérprentuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérprenta",
+	"hash": "a54b1a0b7d9308d25dd806bafca2edb0497af7114e6336d23de36bfe631e3258"
+}

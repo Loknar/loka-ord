@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "fylgdar",
+			"mynd": "framfylgdar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fylgd-kvk"
+			"kennistrengur": "no-framfylgd-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["framfylgdaraðgerðirnar", "framfylgdaraðgerðirnar", "framfylgdaraðgerðunum", "framfylgdaraðgerðanna"]
 	},
 	"kennistrengur": "no-framfylgdaraðgerð-kvk",
-	"hash": "7944c95e23a81288843d9dad026f2b099df9c9303a61f1d27400eaba5354a657"
+	"hash": "81531aa5abe4f6b318b6b552fb9bd1696f1741a9d93c625cda0c36667d9fb16e"
 }

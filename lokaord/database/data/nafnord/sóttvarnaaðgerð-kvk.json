@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sótt",
-			"samsetning": "stofn",
-			"kennistrengur": "no-sótt-kvk"
-		},
-		{
-			"mynd": "varna",
+			"mynd": "sóttvarna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vörn-kvk"
+			"kennistrengur": "no-sóttvörn-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["sóttvarnaaðgerðirnar", "sóttvarnaaðgerðirnar", "sóttvarnaaðgerðunum", "sóttvarnaaðgerðanna"]
 	},
 	"kennistrengur": "no-sóttvarnaaðgerð-kvk",
-	"hash": "5e8edaa246b805d02dc809ce2c6a8aee36a0e6790d9793c1e6ba00a382dc2272"
+	"hash": "4d127595eaf4679567d37dc565570b2b5815e7cee4cb3628efe9b5e211af30c5"
 }

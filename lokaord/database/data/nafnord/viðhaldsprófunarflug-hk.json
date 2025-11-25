@@ -1,0 +1,27 @@
+{
+	"orð": "viðhaldsprófunarflug",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "viðhalds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viðhald-hk"
+		},
+		{
+			"mynd": "prófunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-prófun-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-flug-hk"
+		}
+	],
+	"et": {
+		"ág": ["viðhaldsprófunarflug", "viðhaldsprófunarflug", "viðhaldsprófunarflugi", "viðhaldsprófunarflugs"],
+		"mg": ["viðhaldsprófunarflugið", "viðhaldsprófunarflugið", "viðhaldsprófunarfluginu", "viðhaldsprófunarflugsins"]
+	},
+	"kennistrengur": "no-viðhaldsprófunarflug-hk",
+	"hash": "24b05af42fc56077d89e1b6dcfff9b31a5920126152947e05fa855f1dccbbd25"
+}

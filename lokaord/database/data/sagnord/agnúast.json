@@ -1,0 +1,65 @@
+{
+	"orð": "agnúast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "agnú",
+			"samsetning": "stofn",
+			"kennistrengur": "no-agnúi-kk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "agnúast",
+		"sagnbót": "agnúast",
+		"boðháttur": {
+			"et": "agnúastu",
+			"ft": "agnúist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["agnúast", "agnúast", "agnúast"],
+					"ft": ["agnúumst", "agnúist", "agnúast"]
+				},
+				"þátíð": {
+					"et": ["agnúaðist", "agnúaðist", "agnúaðist"],
+					"ft": ["agnúuðumst", "agnúuðust", "agnúuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["agnúist", "agnúist", "agnúist"],
+					"ft": ["agnúumst", "agnúist", "agnúist"]
+				},
+				"þátíð": {
+					"et": ["agnúaðist", "agnúaðist", "agnúaðist"],
+					"ft": ["agnúuðumst", "agnúuðust", "agnúuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "agnúastu"
+				},
+				"þátíð": {
+					"et": "agnúaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "agnúistu"
+				},
+				"þátíð": {
+					"et": "agnúaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-agnúast",
+	"hash": "725ac803e10895f29300152c5b287cc944a1f47326567a6784ecd750a946e783"
+}

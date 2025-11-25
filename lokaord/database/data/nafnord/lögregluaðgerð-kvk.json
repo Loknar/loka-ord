@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["lögregluaðgerðirnar", "lögregluaðgerðirnar", "lögregluaðgerðunum", "lögregluaðgerðanna"]
 	},
 	"kennistrengur": "no-lögregluaðgerð-kvk",
-	"hash": "efe32fae9213f8121e8c624a79ce8f22f8ed9e6314f20278d059a50e0d66ef46"
+	"hash": "99df59f87123cc79fed961a7f19804607e3d1cdd8e24dbc7426eabd8b1650e01"
 }

@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lið",
-			"samsetning": "stofn",
-			"kennistrengur": "no-liður-kk"
-		},
-		{
-			"mynd": "skipta",
+			"mynd": "liðskipta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skipti-hk"
+			"kennistrengur": "no-liðskipti-hk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["liðskiptaaðgerðirnar", "liðskiptaaðgerðirnar", "liðskiptaaðgerðunum", "liðskiptaaðgerðanna"]
 	},
 	"kennistrengur": "no-liðskiptaaðgerð-kvk",
-	"hash": "ca1bb552f9e430c4f6318258725bfce301c6a452dcb5f4635777e6efe324f8ef"
+	"hash": "132b5cfe92c4d0bc94d7fb0832bb468c09ea70b6dc2220dff991dac4854e923c"
 }

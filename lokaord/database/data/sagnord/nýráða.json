@@ -1,0 +1,76 @@
+{
+	"orð": "nýráða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ný",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-nýr"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-ráða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nýráða",
+		"sagnbót": "nýráðið",
+		"boðháttur": {
+			"stýfður": "nýráð",
+			"et": "nýráddu",
+			"ft": "nýráðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nýræð", "nýræður", "nýræður"],
+					"ft": ["nýráðum", "nýráðið", "nýráða"]
+				},
+				"þátíð": {
+					"et": ["nýréð", "nýréðst", "nýréð"],
+					"ft": ["nýréðum", "nýréðuð", "nýréðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nýráði", "nýráðir", "nýráði"],
+					"ft": ["nýráðum", "nýráðið", "nýráði"]
+				},
+				"þátíð": {
+					"et": ["nýréði", "nýréðir", "nýréði"],
+					"ft": ["nýréðum", "nýréðuð", "nýréðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nýráðinn", "nýráðinn", "nýráðnum", "nýráðins"],
+					"kvk": ["nýráðin", "nýráðna", "nýráðinni", "nýráðinnar"],
+					"hk": ["nýráðið", "nýráðið", "nýráðnu", "nýráðins"]
+				},
+				"ft": {
+					"kk": ["nýráðnir", "nýráðna", "nýráðnum", "nýráðinna"],
+					"kvk": ["nýráðnar", "nýráðnar", "nýráðnum", "nýráðinna"],
+					"hk": ["nýráðin", "nýráðin", "nýráðnum", "nýráðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nýráðni", "nýráðna", "nýráðna", "nýráðna"],
+					"kvk": ["nýráðna", "nýráðnu", "nýráðnu", "nýráðnu"],
+					"hk": ["nýráðna", "nýráðna", "nýráðna", "nýráðna"]
+				},
+				"ft": {
+					"kk": ["nýráðnu", "nýráðnu", "nýráðnu", "nýráðnu"],
+					"kvk": ["nýráðnu", "nýráðnu", "nýráðnu", "nýráðnu"],
+					"hk": ["nýráðnu", "nýráðnu", "nýráðnu", "nýráðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nýráða",
+	"hash": "59caa72af6362f2b6bbe2ca09a3e23e628f46536082c30213a1af2b27573e280"
+}

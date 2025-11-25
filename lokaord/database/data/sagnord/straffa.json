@@ -1,0 +1,132 @@
+{
+	"orð": "straffa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "straffa",
+		"sagnbót": "straffað",
+		"boðháttur": {
+			"stýfður": "straffa",
+			"et": "straffaðu",
+			"ft": "straffið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["straffa", "straffar", "straffar"],
+					"ft": ["ströffum", "straffið", "straffa"]
+				},
+				"þátíð": {
+					"et": ["straffaði", "straffaðir", "straffaði"],
+					"ft": ["ströffuðum", "ströffuðuð", "ströffuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["straffi", "straffir", "straffi"],
+					"ft": ["ströffum", "straffið", "straffi"]
+				},
+				"þátíð": {
+					"et": ["straffaði", "straffaðir", "straffaði"],
+					"ft": ["ströffuðum", "ströffuðuð", "ströffuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "straffarðu",
+					"ft": "straffiði"
+				},
+				"þátíð": {
+					"et": "straffaðirðu",
+					"ft": "ströffuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "straffirðu",
+					"ft": "straffiði"
+				},
+				"þátíð": {
+					"et": "straffaðirðu",
+					"ft": "ströffuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "straffast",
+		"sagnbót": "straffast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["straffast", "straffast", "straffast"],
+					"ft": ["ströffumst", "straffist", "straffast"]
+				},
+				"þátíð": {
+					"et": ["straffaðist", "straffaðist", "straffaðist"],
+					"ft": ["ströffuðumst", "ströffuðust", "ströffuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["straffist", "straffist", "straffist"],
+					"ft": ["ströffumst", "straffist", "straffist"]
+				},
+				"þátíð": {
+					"et": ["straffaðist", "straffaðist", "straffaðist"],
+					"ft": ["ströffuðumst", "ströffuðust", "ströffuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "straffastu"
+				},
+				"þátíð": {
+					"et": "straffaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "straffistu"
+				},
+				"þátíð": {
+					"et": "straffaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "straffandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["straffaður", "straffaðan", "ströffuðum", "straffaðs"],
+					"kvk": ["ströffuð", "straffaða", "straffaðri", "straffaðrar"],
+					"hk": ["straffað", "straffað", "ströffuðu", "straffaðs"]
+				},
+				"ft": {
+					"kk": ["straffaðir", "straffaða", "ströffuðum", "straffaðra"],
+					"kvk": ["straffaðar", "straffaðar", "ströffuðum", "straffaðra"],
+					"hk": ["ströffuð", "ströffuð", "ströffuðum", "straffaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["straffaði", "straffaða", "straffaða", "straffaða"],
+					"kvk": ["straffaða", "ströffuðu", "ströffuðu", "ströffuðu"],
+					"hk": ["straffaða", "straffaða", "straffaða", "straffaða"]
+				},
+				"ft": {
+					"kk": ["ströffuðu", "ströffuðu", "ströffuðu", "ströffuðu"],
+					"kvk": ["ströffuðu", "ströffuðu", "ströffuðu", "ströffuðu"],
+					"hk": ["ströffuðu", "ströffuðu", "ströffuðu", "ströffuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-straffa",
+	"hash": "c48fb43cfdc1553eda82c66303735453be7a1ce40370908dac873149e45af719"
+}

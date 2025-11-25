@@ -6,13 +6,16 @@
 	"samsett": [
 		{
 			"leiðir": "STCW-",
-			"beygingar": ["et-mg"],
+			"beygingar": ["et-mg", "ft-mg"],
 			"kennistrengur": "no-alþjóðasamþykkt-kvk"
 		}
 	],
 	"et": {
 		"mg": ["STCW-alþjóðasamþykktin", "STCW-alþjóðasamþykktina", "STCW-alþjóðasamþykktinni", "STCW-alþjóðasamþykktarinnar"]
 	},
+	"ft": {
+		"mg": ["STCW-alþjóðasamþykktirnar", "STCW-alþjóðasamþykktirnar", "STCW-alþjóðasamþykktunum", "STCW-alþjóðasamþykktanna"]
+	},
 	"kennistrengur": "sérn.ön-STCW-alþjóðasamþykktin-kvk",
-	"hash": "edb1f69f839587cb8a88260776c913fd71e03ccf017bc83840e4b04c11bfd683"
+	"hash": "062fdefcfb23a21ddc0cf3d66ea30055bc916bf4072b6fbeb3bff2273299c4ab"
 }

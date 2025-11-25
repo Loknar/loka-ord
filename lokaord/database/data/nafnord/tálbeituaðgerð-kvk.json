@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "tál",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tál-kvk"
-		},
-		{
-			"mynd": "beitu",
+			"mynd": "tálbeitu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-beita-kvk"
+			"kennistrengur": "no-tálbeita-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["tálbeituaðgerðirnar", "tálbeituaðgerðirnar", "tálbeituaðgerðunum", "tálbeituaðgerðanna"]
 	},
 	"kennistrengur": "no-tálbeituaðgerð-kvk",
-	"hash": "51a85c983ec2376800f372791b0a4e06f5e4a511b54346170feae4279e50a086"
+	"hash": "0e1e2222120e4de1d179eb36176fdb8dea4f21f7762c963ab93d91eda3e81531"
 }

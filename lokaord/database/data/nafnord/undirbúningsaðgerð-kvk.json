@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "undir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-undir"
-		},
-		{
-			"mynd": "búnings",
+			"mynd": "undirbúnings",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-búningur-kk"
+			"kennistrengur": "no-undirbúningur-kk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["undirbúningsaðgerðirnar", "undirbúningsaðgerðirnar", "undirbúningsaðgerðunum", "undirbúningsaðgerðanna"]
 	},
 	"kennistrengur": "no-undirbúningsaðgerð-kvk",
-	"hash": "bc1f205700288db3fc42df9b3794fd69804c350ca98513a280d71c01095086d9"
+	"hash": "f63a359f0e920dd63af3c44795e07512c07f54131345b04f7cda3f8c11cd695e"
 }

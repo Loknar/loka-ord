@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "eftir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-eftir"
-		},
-		{
-			"mynd": "spurnar",
+			"mynd": "eftirspurnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-spurn-kvk"
+			"kennistrengur": "no-eftirspurn-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-aðgerð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["eftirspurnaraðgerðirnar", "eftirspurnaraðgerðirnar", "eftirspurnaraðgerðunum", "eftirspurnaraðgerðanna"]
 	},
 	"kennistrengur": "no-eftirspurnaraðgerð-kvk",
-	"hash": "f6e190a1a93e5d792258e0a6bcf9e34389122128e672455bf4e5c95340230406"
+	"hash": "59ccc49b21e5a5f8740364f86774c6860466524a639f18073c5fe88b421f960a"
 }
