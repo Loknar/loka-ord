@@ -1,0 +1,154 @@
+{
+	"orð": "margsegja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "marg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-margur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-segja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "margsegja",
+		"sagnbót": "margsagt",
+		"boðháttur": {
+			"stýfður": "margseg",
+			"et": "margsegðu",
+			"ft": "margsegið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["margsegi", "margsegir", "margsegir"],
+					"ft": ["margsegjum", "margsegið", "margsegja"]
+				},
+				"þátíð": {
+					"et": ["margsagði", "margsagðir", "margsagði"],
+					"ft": ["margsögðum", "margsögðuð", "margsögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["margsegi", "margsegir", "margsegi"],
+					"ft": ["margsegjum", "margsegið", "margsegi"]
+				},
+				"þátíð": {
+					"et": ["margsegði", "margsegðir", "margsegði"],
+					"ft": ["margsegðum", "margsegðuð", "margsegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "margsegirðu",
+					"ft": "margsegiði"
+				},
+				"þátíð": {
+					"et": "margsagðirðu",
+					"ft": "margsögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "margsegirðu",
+					"ft": "margsegiði"
+				},
+				"þátíð": {
+					"et": "margsegðirðu",
+					"ft": "margsegðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "margsegjast",
+		"sagnbót": "margsagst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["margsegist", "margsegist", "margsegist"],
+					"ft": ["margsegjumst", "margsegist", "margsegjast"]
+				},
+				"þátíð": {
+					"et": ["margsagðist", "margsagðist", "margsagðist"],
+					"ft": ["margsögðumst", "margsögðust", "margsögðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["margsegist", "margsegist", "margsegist"],
+					"ft": ["margsegjumst", "margsegist", "margsegist"]
+				},
+				"þátíð": {
+					"et": ["margsegðist", "margsegðist", "margsegðist"],
+					"ft": ["margsegðumst", "margsegðust", "margsegðust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["margsegist", "margsegist", "margsegist"],
+					"ft": ["margsegist", "margsegist", "margsegist"]
+				},
+				"þátíð": {
+					"et": ["margsagðist", "margsagðist", "margsagðist"],
+					"ft": ["margsagðist", "margsagðist", "margsagðist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["margsegist", "margsegist", "margsegist"],
+					"ft": ["margsegist", "margsegist", "margsegist"]
+				},
+				"þátíð": {
+					"et": ["margsegðist", "margsegðist", "margsegðist"],
+					"ft": ["margsegðist", "margsegðist", "margsegðist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "margsegistu"
+				},
+				"þátíð": {
+					"et": "margsagðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "margsegistu"
+				},
+				"þátíð": {
+					"et": "margsegðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "margsegjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["margsagður", "margsagðan", "margsögðum", "margsagðs"],
+					"kvk": ["margsögð", "margsagða", "margsagðri", "margsagðrar"],
+					"hk": ["margsagt", "margsagt", "margsögðu", "margsagðs"]
+				},
+				"ft": {
+					"kk": ["margsagðir", "margsagða", "margsögðum", "margsagðra"],
+					"kvk": ["margsagðar", "margsagðar", "margsögðum", "margsagðra"],
+					"hk": ["margsögð", "margsögð", "margsögðum", "margsagðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-margsegja",
+	"hash": "1adcf6012b63234e4ce3ecc99bc54e741b4114434b7e638ca29b0fb36a9ca183"
+}

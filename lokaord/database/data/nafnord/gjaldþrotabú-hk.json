@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "gjald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gjald-hk"
-		},
-		{
-			"mynd": "þrota",
+			"mynd": "gjaldþrota",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-þrot-hk"
+			"kennistrengur": "no-gjaldþrot-hk"
 		},
 		{
 			"kennistrengur": "no-bú-hk"
@@ -26,5 +21,5 @@
 		"mg": ["gjaldþrotabúin", "gjaldþrotabúin", "gjaldþrotabúunum", "gjaldþrotabúanna"]
 	},
 	"kennistrengur": "no-gjaldþrotabú-hk",
-	"hash": "6a60085a959d495963e9da92a375306f6308633404cff2d274b9105704cf4a75"
+	"hash": "62ccdf96a8c7b2f8adb021168dc6aec189af0cea5dc11afd1c2cc695e9f916b1"
 }

@@ -1,0 +1,43 @@
+{
+	"orð": "flugtengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["flugtengdur", "flugtengdan", "flugtengdum", "flugtengds"],
+				"kvk": ["flugtengd", "flugtengda", "flugtengdri", "flugtengdrar"],
+				"hk": ["flugtengt", "flugtengt", "flugtengdu", "flugtengds"]
+			},
+			"ft": {
+				"kk": ["flugtengdir", "flugtengda", "flugtengdum", "flugtengdra"],
+				"kvk": ["flugtengdar", "flugtengdar", "flugtengdum", "flugtengdra"],
+				"hk": ["flugtengd", "flugtengd", "flugtengdum", "flugtengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["flugtengdi", "flugtengda", "flugtengda", "flugtengda"],
+				"kvk": ["flugtengda", "flugtengdu", "flugtengdu", "flugtengdu"],
+				"hk": ["flugtengda", "flugtengda", "flugtengda", "flugtengda"]
+			},
+			"ft": {
+				"kk": ["flugtengdu", "flugtengdu", "flugtengdu", "flugtengdu"],
+				"kvk": ["flugtengdu", "flugtengdu", "flugtengdu", "flugtengdu"],
+				"hk": ["flugtengdu", "flugtengdu", "flugtengdu", "flugtengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-flugtengdur",
+	"hash": "20fbd8e8e11936ef7d55791e84755280a73365aafff91862ae0000f94edfe013"
+}

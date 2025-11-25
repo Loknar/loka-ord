@@ -1,0 +1,99 @@
+{
+	"orð": "ofgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofgera",
+		"sagnbót": "ofgert",
+		"boðháttur": {
+			"stýfður": "ofger",
+			"et": "ofgerðu",
+			"ft": "ofgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofgeri", "ofgerir", "ofgerir"],
+					"ft": ["ofgerum", "ofgerið", "ofgera"]
+				},
+				"þátíð": {
+					"et": ["ofgerði", "ofgerðir", "ofgerði"],
+					"ft": ["ofgerðum", "ofgerðuð", "ofgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofgeri", "ofgerir", "ofgeri"],
+					"ft": ["ofgerum", "ofgerið", "ofgeri"]
+				},
+				"þátíð": {
+					"et": ["ofgerði", "ofgerðir", "ofgerði"],
+					"ft": ["ofgerðum", "ofgerðuð", "ofgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofgerirðu",
+					"ft": "ofgeriði"
+				},
+				"þátíð": {
+					"et": "ofgerðirðu",
+					"ft": "ofgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofgerirðu",
+					"ft": "ofgeriði"
+				},
+				"þátíð": {
+					"et": "ofgerðirðu",
+					"ft": "ofgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofgerður", "ofgerðan", "ofgerðum", "ofgerðs"],
+					"kvk": ["ofgerð", "ofgerða", "ofgerðri", "ofgerðrar"],
+					"hk": ["ofgert", "ofgert", "ofgerðu", "ofgerðs"]
+				},
+				"ft": {
+					"kk": ["ofgerðir", "ofgerða", "ofgerðum", "ofgerðra"],
+					"kvk": ["ofgerðar", "ofgerðar", "ofgerðum", "ofgerðra"],
+					"hk": ["ofgerð", "ofgerð", "ofgerðum", "ofgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ofgerði", "ofgerða", "ofgerða", "ofgerða"],
+					"kvk": ["ofgerða", "ofgerðu", "ofgerðu", "ofgerðu"],
+					"hk": ["ofgerða", "ofgerða", "ofgerða", "ofgerða"]
+				},
+				"ft": {
+					"kk": ["ofgerðu", "ofgerðu", "ofgerðu", "ofgerðu"],
+					"kvk": ["ofgerðu", "ofgerðu", "ofgerðu", "ofgerðu"],
+					"hk": ["ofgerðu", "ofgerðu", "ofgerðu", "ofgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofgera",
+	"hash": "75794daae42cc126afb1a3f8d07abd27783d3722f6ea88830e040a597bf38bcb"
+}

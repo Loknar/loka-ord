@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "gjald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gjald-hk"
-		},
-		{
-			"mynd": "eyris",
+			"mynd": "gjaldeyris",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eyrir-kk"
+			"kennistrengur": "no-gjaldeyrir-kk"
 		},
 		{
 			"beygingar": ["ft"],
@@ -23,5 +18,5 @@
 		"mg": ["gjaldeyrisbirgðirnar", "gjaldeyrisbirgðirnar", "gjaldeyrisbirgðunum", "gjaldeyrisbirgðanna"]
 	},
 	"kennistrengur": "no-gjaldeyrisbirgðir-kvk",
-	"hash": "c4d99a48400df5e69e40d62325150717b35ee2c18c9dba0ccb73984a42c765fd"
+	"hash": "05799a60bc08a9428d306b6bcbb35dce5b19ac05d090f2eb250c4645e0e80515"
 }

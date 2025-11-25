@@ -1,0 +1,99 @@
+{
+	"orð": "ísetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "í",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-í"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ísetja",
+		"sagnbót": "ísett",
+		"boðháttur": {
+			"stýfður": "íset",
+			"et": "ísettu",
+			"ft": "ísetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["íset", "ísetur", "ísetur"],
+					"ft": ["ísetjum", "ísetjið", "ísetja"]
+				},
+				"þátíð": {
+					"et": ["ísetti", "ísettir", "ísetti"],
+					"ft": ["ísettum", "ísettuð", "ísettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ísetji", "ísetjir", "ísetji"],
+					"ft": ["ísetjum", "ísetjið", "ísetji"]
+				},
+				"þátíð": {
+					"et": ["ísetti", "ísettir", "ísetti"],
+					"ft": ["ísettum", "ísettuð", "ísettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "íseturðu",
+					"ft": "ísetjiði"
+				},
+				"þátíð": {
+					"et": "ísettirðu",
+					"ft": "ísettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ísetjirðu",
+					"ft": "ísetjiði"
+				},
+				"þátíð": {
+					"et": "ísettirðu",
+					"ft": "ísettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ísetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ísettur", "ísettan", "ísettum", "ísetts"],
+					"kvk": ["ísett", "ísetta", "ísettri", "ísettrar"],
+					"hk": ["ísett", "ísett", "ísettu", "ísetts"]
+				},
+				"ft": {
+					"kk": ["ísettir", "ísetta", "ísettum", "ísettra"],
+					"kvk": ["ísettar", "ísettar", "ísettum", "ísettra"],
+					"hk": ["ísett", "ísett", "ísettum", "ísettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ísetti", "ísetta", "ísetta", "ísetta"],
+					"kvk": ["ísetta", "ísettu", "ísettu", "ísettu"],
+					"hk": ["ísetta", "ísetta", "ísetta", "ísetta"]
+				},
+				"ft": {
+					"kk": ["ísettu", "ísettu", "ísettu", "ísettu"],
+					"kvk": ["ísettu", "ísettu", "ísettu", "ísettu"],
+					"hk": ["ísettu", "ísettu", "ísettu", "ísettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ísetja",
+	"hash": "f66bc633b9d90a50d843e5a4797a92718eff0816cfe1f7fd3b9e8b0fd8e6a818"
+}

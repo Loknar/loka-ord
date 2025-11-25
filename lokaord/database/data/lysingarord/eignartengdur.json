@@ -1,0 +1,43 @@
+{
+	"orð": "eignartengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "eignar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["eignartengdur", "eignartengdan", "eignartengdum", "eignartengds"],
+				"kvk": ["eignartengd", "eignartengda", "eignartengdri", "eignartengdrar"],
+				"hk": ["eignartengt", "eignartengt", "eignartengdu", "eignartengds"]
+			},
+			"ft": {
+				"kk": ["eignartengdir", "eignartengda", "eignartengdum", "eignartengdra"],
+				"kvk": ["eignartengdar", "eignartengdar", "eignartengdum", "eignartengdra"],
+				"hk": ["eignartengd", "eignartengd", "eignartengdum", "eignartengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["eignartengdi", "eignartengda", "eignartengda", "eignartengda"],
+				"kvk": ["eignartengda", "eignartengdu", "eignartengdu", "eignartengdu"],
+				"hk": ["eignartengda", "eignartengda", "eignartengda", "eignartengda"]
+			},
+			"ft": {
+				"kk": ["eignartengdu", "eignartengdu", "eignartengdu", "eignartengdu"],
+				"kvk": ["eignartengdu", "eignartengdu", "eignartengdu", "eignartengdu"],
+				"hk": ["eignartengdu", "eignartengdu", "eignartengdu", "eignartengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-eignartengdur",
+	"hash": "6a2836b94bf254a0026a2efa75401cc3603c886fe7f434c5dd0e7d712ab51970"
+}

@@ -1,0 +1,22 @@
+{
+	"orð": "flugupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["flugupplýsingar", "flugupplýsingar", "flugupplýsingum", "flugupplýsinga"],
+		"mg": ["flugupplýsingarnar", "flugupplýsingarnar", "flugupplýsingunum", "flugupplýsinganna"]
+	},
+	"kennistrengur": "no-flugupplýsingar-kvk",
+	"hash": "52103e16a6b5b4a3f90ce6bf5f33e1e8fb77dfda09830e5ae1c11311090e56ba"
+}

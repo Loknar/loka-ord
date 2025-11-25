@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "flug",
-			"samsetning": "stofn",
-			"kennistrengur": "no-flug-hk"
-		},
-		{
-			"mynd": "verndar",
+			"mynd": "flugverndar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vernd-kvk"
+			"kennistrengur": "no-flugvernd-kvk"
 		},
 		{
 			"kennistrengur": "no-svæði-hk"
@@ -26,5 +21,5 @@
 		"mg": ["flugverndarsvæðin", "flugverndarsvæðin", "flugverndarsvæðunum", "flugverndarsvæðanna"]
 	},
 	"kennistrengur": "no-flugverndarsvæði-hk",
-	"hash": "cf5076a8f188cd95137f8deb68de14b1bdbfc1d6e57d3a92bf282cef0b268fe4"
+	"hash": "4e9f78eaaddc8826cd83387f2425ff414180ffc3bfcd6e52b931b8c10cd8f297"
 }
