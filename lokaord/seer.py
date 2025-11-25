@@ -196,6 +196,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				scanned_word_alt['leiðir'] = ''
 			scanned_word_alt['leiðir'] += e_word_with_dot[0]
 			e_word_with_dot = e_word_with_dot[1:]
+		e_word_with_dot_lower = e_word_with_dot.lower()
 		if word in sight['skammstafanir']:
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
 			scanned_word['staða'] = 'skammstöfun'
@@ -238,6 +239,21 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			scanned_word_alt['staða'] = 'skammstöfun'
 			scanned_word_alt['möguleikar'].append({
 				'k': sight['skammstafanir'][e_word_with_dot]['kennistrengur'],
+				'm': myndir
+			})
+			found += 1
+			scanned_sentence.append(scanned_word_alt)
+			continue
+		elif e_word_with_dot_lower in sight['skammstafanir']:
+			myndir = (
+				' / '.join([
+					'"%s"' % x for x in sight['skammstafanir'][e_word_with_dot_lower]['myndir']
+				])
+			)
+			scanned_word_alt['orð-hreinsað'] = e_word_with_dot_lower
+			scanned_word_alt['staða'] = 'skammstöfun'
+			scanned_word_alt['möguleikar'].append({
+				'k': sight['skammstafanir'][e_word_with_dot_lower]['kennistrengur'],
 				'm': myndir
 			})
 			found += 1
