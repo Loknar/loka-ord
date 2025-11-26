@@ -1,0 +1,27 @@
+{
+	"orð": "fjarskiptaumferðarupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjarskipta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjarskipti-hk"
+		},
+		{
+			"mynd": "umferðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-umferð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["fjarskiptaumferðarupplýsingar", "fjarskiptaumferðarupplýsingar", "fjarskiptaumferðarupplýsingum", "fjarskiptaumferðarupplýsinga"],
+		"mg": ["fjarskiptaumferðarupplýsingarnar", "fjarskiptaumferðarupplýsingarnar", "fjarskiptaumferðarupplýsingunum", "fjarskiptaumferðarupplýsinganna"]
+	},
+	"kennistrengur": "no-fjarskiptaumferðarupplýsingar-kvk",
+	"hash": "73de6760b02b72ce900f81c7f67cf21b4ae173e99166bf4d83d3623649f8e428"
+}

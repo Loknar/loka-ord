@@ -1,0 +1,95 @@
+{
+	"orð": "spíka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spík",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spík-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spíka",
+		"sagnbót": "spíkað",
+		"boðháttur": {
+			"stýfður": "spíka",
+			"et": "spíkaðu",
+			"ft": "spíkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spíka", "spíkar", "spíkar"],
+					"ft": ["spíkum", "spíkið", "spíka"]
+				},
+				"þátíð": {
+					"et": ["spíkaði", "spíkaðir", "spíkaði"],
+					"ft": ["spíkuðum", "spíkuðuð", "spíkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spíki", "spíkir", "spíki"],
+					"ft": ["spíkum", "spíkið", "spíki"]
+				},
+				"þátíð": {
+					"et": ["spíkaði", "spíkaðir", "spíkaði"],
+					"ft": ["spíkuðum", "spíkuðuð", "spíkuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spíkast",
+		"sagnbót": "spíkast",
+		"boðháttur": {
+			"et": "spíkastu",
+			"ft": "spíkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spíkast", "spíkast", "spíkast"],
+					"ft": ["spíkumst", "spíkist", "spíkast"]
+				},
+				"þátíð": {
+					"et": ["spíkaðist", "spíkaðist", "spíkaðist"],
+					"ft": ["spíkuðumst", "spíkuðust", "spíkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spíkist", "spíkist", "spíkist"],
+					"ft": ["spíkumst", "spíkist", "spíkist"]
+				},
+				"þátíð": {
+					"et": ["spíkaðist", "spíkaðist", "spíkaðist"],
+					"ft": ["spíkuðumst", "spíkuðust", "spíkuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spíkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spíkaður", "spíkaðan", "spíkuðum", "spíkaðs"],
+					"kvk": ["spíkuð", "spíkaða", "spíkaðri", "spíkaðrar"],
+					"hk": ["spíkað", "spíkað", "spíkuðu", "spíkaðs"]
+				},
+				"ft": {
+					"kk": ["spíkaðir", "spíkaða", "spíkuðum", "spíkaðra"],
+					"kvk": ["spíkaðar", "spíkaðar", "spíkuðum", "spíkaðra"],
+					"hk": ["spíkuð", "spíkuð", "spíkuðum", "spíkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spíka",
+	"hash": "3ded7de11c10c689d4febc89bdc4fc353ea062767ea3963fad32bdef2327bee0"
+}

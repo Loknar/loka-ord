@@ -1,0 +1,99 @@
+{
+	"orð": "notkunartengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "notkunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-notkun-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-tengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "notkunartengja",
+		"sagnbót": "notkunartengt",
+		"boðháttur": {
+			"stýfður": "notkunarteng",
+			"et": "notkunartengdu",
+			"ft": "notkunartengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["notkunartengi", "notkunartengir", "notkunartengir"],
+					"ft": ["notkunartengjum", "notkunartengið", "notkunartengja"]
+				},
+				"þátíð": {
+					"et": ["notkunartengdi", "notkunartengdir", "notkunartengdi"],
+					"ft": ["notkunartengdum", "notkunartengduð", "notkunartengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["notkunartengi", "notkunartengir", "notkunartengi"],
+					"ft": ["notkunartengjum", "notkunartengið", "notkunartengi"]
+				},
+				"þátíð": {
+					"et": ["notkunartengdi", "notkunartengdir", "notkunartengdi"],
+					"ft": ["notkunartengdum", "notkunartengduð", "notkunartengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "notkunartengirðu",
+					"ft": "notkunartengiði"
+				},
+				"þátíð": {
+					"et": "notkunartengdirðu",
+					"ft": "notkunartengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "notkunartengirðu",
+					"ft": "notkunartengiði"
+				},
+				"þátíð": {
+					"et": "notkunartengdirðu",
+					"ft": "notkunartengduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "notkunartengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["notkunartengdur", "notkunartengdan", "notkunartengdum", "notkunartengds"],
+					"kvk": ["notkunartengd", "notkunartengda", "notkunartengdri", "notkunartengdrar"],
+					"hk": ["notkunartengt", "notkunartengt", "notkunartengdu", "notkunartengds"]
+				},
+				"ft": {
+					"kk": ["notkunartengdir", "notkunartengda", "notkunartengdum", "notkunartengdra"],
+					"kvk": ["notkunartengdar", "notkunartengdar", "notkunartengdum", "notkunartengdra"],
+					"hk": ["notkunartengd", "notkunartengd", "notkunartengdum", "notkunartengdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["notkunartengdi", "notkunartengda", "notkunartengda", "notkunartengda"],
+					"kvk": ["notkunartengda", "notkunartengdu", "notkunartengdu", "notkunartengdu"],
+					"hk": ["notkunartengda", "notkunartengda", "notkunartengda", "notkunartengda"]
+				},
+				"ft": {
+					"kk": ["notkunartengdu", "notkunartengdu", "notkunartengdu", "notkunartengdu"],
+					"kvk": ["notkunartengdu", "notkunartengdu", "notkunartengdu", "notkunartengdu"],
+					"hk": ["notkunartengdu", "notkunartengdu", "notkunartengdu", "notkunartengdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-notkunartengja",
+	"hash": "3d40774ff1f54d93ac0aac17c3762f570a63355384057978ed631c9bc101cc18"
+}

@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "út",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
-		},
-		{
-			"mynd": "gjalda",
+			"mynd": "útgjalda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
+			"kennistrengur": "no-útgjald-hk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-framlag-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["útgjaldaframlögin", "útgjaldaframlögin", "útgjaldaframlögunum", "útgjaldaframlaganna"]
 	},
 	"kennistrengur": "no-útgjaldaframlag-hk",
-	"hash": "252aecd8795db1d7309a75a911dd329724acfcced45970669fbb8360429d7ffb"
+	"hash": "2df9deba99f8b8e2f76e1498070e7484365c2184b6b469f3c86c28ebb462ef98"
 }

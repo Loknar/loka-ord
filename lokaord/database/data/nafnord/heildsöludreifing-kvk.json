@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "heild",
-			"samsetning": "stofn",
-			"kennistrengur": "no-heild-kvk"
-		},
-		{
-			"mynd": "sölu",
+			"mynd": "heildsölu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sala-kvk"
+			"kennistrengur": "no-heildsala-kvk"
 		},
 		{
 			"kennistrengur": "no-dreifing-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["heildsöludreifingarnar", "heildsöludreifingarnar", "heildsöludreifingunum", "heildsöludreifinganna"]
 	},
 	"kennistrengur": "no-heildsöludreifing-kvk",
-	"hash": "953470dd16dee8452f3e33858dfd1b3dea695f83b1612f279d31290127a3861f"
+	"hash": "63032214d751c6a29aceb721dd21af8875dae1c4f7a74e62cdc7328c24e72f5e"
 }

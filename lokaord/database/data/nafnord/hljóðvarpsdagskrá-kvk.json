@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hljóð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hljóð-hk"
-		},
-		{
-			"mynd": "varps",
+			"mynd": "hljóðvarps",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-varp-hk"
+			"kennistrengur": "no-hljóðvarp-hk"
 		},
 		{
-			"mynd": "dag",
-			"samsetning": "stofn",
-			"kennistrengur": "no-dagur-kk"
-		},
-		{
-			"kennistrengur": "no-skrá-kvk"
+			"kennistrengur": "no-dagskrá-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["hljóðvarpsdagskrárnar", "hljóðvarpsdagskrárnar", "hljóðvarpsdagskránum", "hljóðvarpsdagskránna"]
 	},
 	"kennistrengur": "no-hljóðvarpsdagskrá-kvk",
-	"hash": "49ee49d413d8ea58895260cde4d66d1e0dae3e4b7c347394f0879116f02dc1f8"
+	"hash": "060d29394c16e4bd206e47a8d6757c95c0ed6b92d2bc0330040e8848efae6525"
 }

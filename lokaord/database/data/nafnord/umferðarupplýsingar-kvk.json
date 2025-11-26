@@ -1,0 +1,22 @@
+{
+	"orð": "umferðarupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "umferðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-umferð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["umferðarupplýsingar", "umferðarupplýsingar", "umferðarupplýsingum", "umferðarupplýsinga"],
+		"mg": ["umferðarupplýsingarnar", "umferðarupplýsingarnar", "umferðarupplýsingunum", "umferðarupplýsinganna"]
+	},
+	"kennistrengur": "no-umferðarupplýsingar-kvk",
+	"hash": "a8eb75b13e060736738210f844e85af92938438569bf1514a5c3fdfd771df22e"
+}

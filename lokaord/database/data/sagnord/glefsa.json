@@ -1,0 +1,73 @@
+{
+	"orð": "glefsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "glefs",
+			"samsetning": "stofn",
+			"kennistrengur": "no-glefs-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "glefsa",
+		"sagnbót": "glefsað",
+		"boðháttur": {
+			"stýfður": "glefsa",
+			"et": "glefsaðu",
+			"ft": "glefsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glefsa", "glefsar", "glefsar"],
+					"ft": ["glefsum", "glefsið", "glefsa"]
+				},
+				"þátíð": {
+					"et": ["glefsaði", "glefsaðir", "glefsaði"],
+					"ft": ["glefsuðum", "glefsuðuð", "glefsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glefsi", "glefsir", "glefsi"],
+					"ft": ["glefsum", "glefsið", "glefsi"]
+				},
+				"þátíð": {
+					"et": ["glefsaði", "glefsaðir", "glefsaði"],
+					"ft": ["glefsuðum", "glefsuðuð", "glefsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "glefsarðu",
+					"ft": "glefsiði"
+				},
+				"þátíð": {
+					"et": "glefsaðirðu",
+					"ft": "glefsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "glefsirðu",
+					"ft": "glefsiði"
+				},
+				"þátíð": {
+					"et": "glefsaðirðu",
+					"ft": "glefsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "glefsandi"
+	},
+	"kennistrengur": "so-glefsa",
+	"hash": "5e777d0a802038106f0ad64a45eef4dd838cda6bcbc18630fcfec653dad043f7"
+}
