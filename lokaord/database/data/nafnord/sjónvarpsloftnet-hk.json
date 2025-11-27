@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sjón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-sjón-kvk"
-		},
-		{
-			"mynd": "varps",
+			"mynd": "sjónvarps",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-varp-hk"
+			"kennistrengur": "no-sjónvarp-hk"
 		},
 		{
-			"mynd": "loft",
-			"samsetning": "stofn",
-			"kennistrengur": "no-loft-hk"
-		},
-		{
-			"kennistrengur": "no-net-hk"
+			"kennistrengur": "no-loftnet-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["sjónvarpsloftnetin", "sjónvarpsloftnetin", "sjónvarpsloftnetunum", "sjónvarpsloftnetanna"]
 	},
 	"kennistrengur": "no-sjónvarpsloftnet-hk",
-	"hash": "1e36f8dbd61e0bd810f075a28d8037ccbb0fa802e21e8aa290b2b7e73a287895"
+	"hash": "284e864f59f3d5bb49ea71f6f62af66decf3e7910552ca3874b61be3d6b3c91d"
 }

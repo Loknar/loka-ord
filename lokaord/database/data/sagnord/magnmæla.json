@@ -1,0 +1,99 @@
+{
+	"orð": "magnmæla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "magn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-magn-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-mæla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "magnmæla",
+		"sagnbót": "magnmælt",
+		"boðháttur": {
+			"stýfður": "magnmæl",
+			"et": "magnmældu",
+			"ft": "magnmælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["magnmæli", "magnmælir", "magnmælir"],
+					"ft": ["magnmælum", "magnmælið", "magnmæla"]
+				},
+				"þátíð": {
+					"et": ["magnmældi", "magnmældir", "magnmældi"],
+					"ft": ["magnmældum", "magnmælduð", "magnmældu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["magnmæli", "magnmælir", "magnmæli"],
+					"ft": ["magnmælum", "magnmælið", "magnmæli"]
+				},
+				"þátíð": {
+					"et": ["magnmældi", "magnmældir", "magnmældi"],
+					"ft": ["magnmældum", "magnmælduð", "magnmældu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "magnmælirðu",
+					"ft": "magnmæliði"
+				},
+				"þátíð": {
+					"et": "magnmældirðu",
+					"ft": "magnmælduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "magnmælirðu",
+					"ft": "magnmæliði"
+				},
+				"þátíð": {
+					"et": "magnmældirðu",
+					"ft": "magnmælduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "magnmælandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["magnmældur", "magnmældan", "magnmældum", "magnmælds"],
+					"kvk": ["magnmæld", "magnmælda", "magnmældri", "magnmældrar"],
+					"hk": ["magnmælt", "magnmælt", "magnmældu", "magnmælds"]
+				},
+				"ft": {
+					"kk": ["magnmældir", "magnmælda", "magnmældum", "magnmældra"],
+					"kvk": ["magnmældar", "magnmældar", "magnmældum", "magnmældra"],
+					"hk": ["magnmæld", "magnmæld", "magnmældum", "magnmældra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["magnmældi", "magnmælda", "magnmælda", "magnmælda"],
+					"kvk": ["magnmælda", "magnmældu", "magnmældu", "magnmældu"],
+					"hk": ["magnmælda", "magnmælda", "magnmælda", "magnmælda"]
+				},
+				"ft": {
+					"kk": ["magnmældu", "magnmældu", "magnmældu", "magnmældu"],
+					"kvk": ["magnmældu", "magnmældu", "magnmældu", "magnmældu"],
+					"hk": ["magnmældu", "magnmældu", "magnmældu", "magnmældu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-magnmæla",
+	"hash": "f017348f56a85aaef04f62f920e30a9b9aea7c6c0eb804f590b620c3cf98aa6e"
+}

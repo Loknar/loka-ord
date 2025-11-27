@@ -4,17 +4,11 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fjar",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-fjar-ó"
-		},
-		{
-			"mynd": "skipta",
+			"mynd": "fjarskipta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skipti-hk"
+			"kennistrengur": "no-fjarskipti-hk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-tíðni-kvk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["fjarskiptatíðni", "fjarskiptatíðni", "fjarskiptatíðni", "fjarskiptatíðni"],
 		"mg": ["fjarskiptatíðnin", "fjarskiptatíðnina", "fjarskiptatíðninni", "fjarskiptatíðninnar"]
 	},
+	"ft": {
+		"ág": ["fjarskiptatíðnir", "fjarskiptatíðnir", "fjarskiptatíðnum", "fjarskiptatíðna"],
+		"mg": ["fjarskiptatíðnirnar", "fjarskiptatíðnirnar", "fjarskiptatíðnunum", "fjarskiptatíðnanna"]
+	},
 	"kennistrengur": "no-fjarskiptatíðni-kvk",
-	"hash": "fec4ecfc9d5cc1519356b6994f1597f695cbbd76a0709e497e44a3233ca9cca1"
+	"hash": "1f422c936a833be3a0e2322f7f79c93ceb36cfec96451ef0a7a57ca302f599a6"
 }

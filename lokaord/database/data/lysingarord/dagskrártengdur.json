@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "dag",
+			"mynd": "dagskrár",
 			"samsetning": "stofn",
-			"kennistrengur": "no-dagur-kk"
-		},
-		{
-			"mynd": "skrár",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skrá-kvk"
+			"kennistrengur": "no-dagskrá-kvk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-dagskrártengdur",
-	"hash": "86cd67ebf03a41258c707d7b597ecddb905ef1acae3936869e9a40fd91c1f497"
+	"hash": "b1251f0b193811bb3097c6e0e04741dd5d5c9d63031feed24d37e6252163dd85"
 }

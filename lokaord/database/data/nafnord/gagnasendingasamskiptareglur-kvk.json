@@ -4,28 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "gagna",
+			"mynd": "gagnasendinga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gagn-hk"
-		},
-		{
-			"mynd": "sendinga",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sending-kvk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "skipta",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skipti-hk"
+			"kennistrengur": "no-gagnasending-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-samskiptaregla-kvk"
 		}
 	],
 	"ft": {
@@ -33,5 +18,5 @@
 		"mg": ["gagnasendingasamskiptareglurnar", "gagnasendingasamskiptareglurnar", "gagnasendingasamskiptareglunum", "gagnasendingasamskiptareglnanna"]
 	},
 	"kennistrengur": "no-gagnasendingasamskiptareglur-kvk",
-	"hash": "db6cdcbc1a82d2b5bb22911f8562142eaa8bb3efc8ad02d4a2e4a4c90441ebbf"
+	"hash": "b96d43e8fa5a50ae24acb364a610b4fb8fb755a562fa45428c770b62268d12d3"
 }
