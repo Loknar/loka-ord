@@ -1,0 +1,87 @@
+{
+	"orð": "ritrýna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rit",
+			"samsetning": "stofn",
+			"kennistrengur": "so-rita"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-rýna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ritrýna",
+		"sagnbót": "ritrýnt",
+		"boðháttur": {
+			"stýfður": "ritrýn",
+			"et": "ritrýndu",
+			"ft": "ritrýnt"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ritrýni", "ritrýnir", "ritrýnir"],
+					"ft": ["ritrýnum", "ritrýnið", "ritrýna"]
+				},
+				"þátíð": {
+					"et": ["ritrýndi", "ritrýndir", "ritrýndi"],
+					"ft": ["ritrýndum", "ritrýnduð", "ritrýndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ritrýni", "ritrýnir", "ritrýni"],
+					"ft": ["ritrýnum", "ritrýnið", "ritrýni"]
+				},
+				"þátíð": {
+					"et": ["ritrýndi", "ritrýndir", "ritrýndi"],
+					"ft": ["ritrýndum", "ritrýnduð", "ritrýndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ritrýnirðu",
+					"ft": "ritrýniði"
+				},
+				"þátíð": {
+					"et": "ritrýndirðu",
+					"ft": "ritrýnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ritrýnirðu",
+					"ft": "ritrýniði"
+				},
+				"þátíð": {
+					"et": "ritrýndirðu",
+					"ft": "ritrýnduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ritrýnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ritrýndur", "ritrýndan", "ritrýndum", "ritrýnds"],
+					"kvk": ["ritrýnd", "ritrýnda", "ritrýndri", "ritrýndrar"],
+					"hk": ["ritrýnt", "ritrýnt", "ritrýndu", "ritrýnds"]
+				},
+				"ft": {
+					"kk": ["ritrýndir", "ritrýnda", "ritrýndum", "ritrýndra"],
+					"kvk": ["ritrýndar", "ritrýndar", "ritrýndum", "ritrýndra"],
+					"hk": ["ritrýnd", "ritrýnd", "ritrýndum", "ritrýndra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ritrýna",
+	"hash": "17fe1e22db8fb515d42b6934769a82a5c9fb85ed14d978bdc33b95dbc52dfcf3"
+}

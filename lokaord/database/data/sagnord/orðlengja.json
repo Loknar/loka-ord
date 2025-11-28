@@ -1,0 +1,87 @@
+{
+	"orð": "orðlengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "orð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-orð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "orðlengja",
+		"sagnbót": "orðlengt",
+		"boðháttur": {
+			"stýfður": "orðleng",
+			"et": "orðlengdu",
+			"ft": "orðlengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orðlengi", "orðlengir", "orðlengir"],
+					"ft": ["orðlengjum", "orðlengið", "orðlengja"]
+				},
+				"þátíð": {
+					"et": ["orðlengdi", "orðlengdir", "orðlengdi"],
+					"ft": ["orðlengdum", "orðlengduð", "orðlengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orðlengi", "orðlengir", "orðlengi"],
+					"ft": ["orðlengjum", "orðlengið", "orðlengi"]
+				},
+				"þátíð": {
+					"et": ["orðlengdi", "orðlengdir", "orðlengdi"],
+					"ft": ["orðlengdum", "orðlengduð", "orðlengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orðlengirðu",
+					"ft": "orðlengiði"
+				},
+				"þátíð": {
+					"et": "orðlengdirðu",
+					"ft": "orðlengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orðlengirðu",
+					"ft": "orðlengiði"
+				},
+				"þátíð": {
+					"et": "orðlengdirðu",
+					"ft": "orðlengduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "orðlengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["orðlengdur", "orðlengdan", "orðlengdum", "orðlengds"],
+					"kvk": ["orðlengd", "orðlengda", "orðlengdri", "orðlengdrar"],
+					"hk": ["orðlengt", "orðlengt", "orðlengdu", "orðlengds"]
+				},
+				"ft": {
+					"kk": ["orðlengdir", "orðlengda", "orðlengdum", "orðlengdra"],
+					"kvk": ["orðlengdar", "orðlengdar", "orðlengdum", "orðlengdra"],
+					"hk": ["orðlengd", "orðlengd", "orðlengdum", "orðlengdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-orðlengja",
+	"hash": "e6224328beceff2735c339b9319f38992e9148cea6ec012da1c4ab2a8001e985"
+}
