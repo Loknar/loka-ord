@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "mynd",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mynd-kvk"
-		},
-		{
-			"mynd": "listar",
+			"mynd": "myndlistar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-list-kvk"
+			"kennistrengur": "no-myndlist-kvk"
 		},
 		{
 			"kennistrengur": "no-skóli-kk"
@@ -26,5 +21,5 @@
 		"mg": ["myndlistarskólarnir", "myndlistarskólana", "myndlistarskólunum", "myndlistarskólanna"]
 	},
 	"kennistrengur": "no-myndlistarskóli-kk",
-	"hash": "5f07519936c5ea19351b5d55dd6a2b1632076fddef39daaafac3bd005b6406a1"
+	"hash": "2b09c5ba7243bab36d25568424db37dd17880dbf73b2a8654fd3e2c598b1c3bc"
 }

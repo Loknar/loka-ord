@@ -2,6 +2,16 @@
 	"orð": "hnoði",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "hnoð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnoð-hk"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hnoði", "hnoða", "hnoða", "hnoða"],
 		"mg": ["hnoðinn", "hnoðann", "hnoðanum", "hnoðans"]
@@ -11,5 +21,5 @@
 		"mg": ["hnoðarnir", "hnoðana", "hnoðunum", "hnoðanna"]
 	},
 	"kennistrengur": "no-hnoði-kk",
-	"hash": "9c0a12f61a12c1f0ca2e56ddf83ee7e1e2689534c594afb21e893feb1f916f7e"
+	"hash": "4672cdc785ba16ff0a0212164f4a6c724fb46e9d39ca11879819da4220e478ab"
 }

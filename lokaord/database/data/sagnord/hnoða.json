@@ -1,0 +1,135 @@
+{
+	"orð": "hnoða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hnoð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnoð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hnoða",
+		"sagnbót": "hnoðað",
+		"boðháttur": {
+			"stýfður": "hnoða",
+			"et": "hnoðaðu",
+			"ft": "hnoðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnoða", "hnoðar", "hnoðar"],
+					"ft": ["hnoðum", "hnoðið", "hnoða"]
+				},
+				"þátíð": {
+					"et": ["hnoðaði", "hnoðaðir", "hnoðaði"],
+					"ft": ["hnoðuðum", "hnoðuðuð", "hnoðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnoði", "hnoðir", "hnoði"],
+					"ft": ["hnoðum", "hnoðið", "hnoði"]
+				},
+				"þátíð": {
+					"et": ["hnoðaði", "hnoðaðir", "hnoðaði"],
+					"ft": ["hnoðuðum", "hnoðuðuð", "hnoðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnoðarðu",
+					"ft": "hnoðiði"
+				},
+				"þátíð": {
+					"et": "hnoðaðirðu",
+					"ft": "hnoðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnoðirðu",
+					"ft": "hnoðiði"
+				},
+				"þátíð": {
+					"et": "hnoðaðirðu",
+					"ft": "hnoðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hnoðast",
+		"sagnbót": "hnoðast",
+		"boðháttur": {
+			"et": "hnoðastu",
+			"ft": "hnoðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnoðast", "hnoðast", "hnoðast"],
+					"ft": ["hnoðumst", "hnoðist", "hnoðast"]
+				},
+				"þátíð": {
+					"et": ["hnoðaðist", "hnoðaðist", "hnoðaðist"],
+					"ft": ["hnoðuðumst", "hnoðuðust", "hnoðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnoðist", "hnoðist", "hnoðist"],
+					"ft": ["hnoðumst", "hnoðist", "hnoðist"]
+				},
+				"þátíð": {
+					"et": ["hnoðaðist", "hnoðaðist", "hnoðaðist"],
+					"ft": ["hnoðuðumst", "hnoðuðust", "hnoðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnoðastu"
+				},
+				"þátíð": {
+					"et": "hnoðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnoðistu"
+				},
+				"þátíð": {
+					"et": "hnoðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hnoðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hnoðaður", "hnoðaðan", "hnoðuðum", "hnoðaðs"],
+					"kvk": ["hnoðuð", "hnoðaða", "hnoðaðri", "hnoðaðrar"],
+					"hk": ["hnoðað", "hnoðað", "hnoðuðu", "hnoðaðs"]
+				},
+				"ft": {
+					"kk": ["hnoðaðir", "hnoðaða", "hnoðuðum", "hnoðaðra"],
+					"kvk": ["hnoðaðar", "hnoðaðar", "hnoðuðum", "hnoðaðra"],
+					"hk": ["hnoðuð", "hnoðuð", "hnoðuðum", "hnoðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hnoða",
+	"hash": "9dcbbb65bd9956524417aa4bf4358f670db9f036fcbcc820db2f35162d593e29"
+}

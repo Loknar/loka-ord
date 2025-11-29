@@ -1,0 +1,135 @@
+{
+	"orð": "tjóðra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tjóðr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tjóður-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tjóðra",
+		"sagnbót": "tjóðrað",
+		"boðháttur": {
+			"stýfður": "tjóðra",
+			"et": "tjóðraðu",
+			"ft": "tjóðrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tjóðra", "tjóðrar", "tjóðrar"],
+					"ft": ["tjóðrum", "tjóðrið", "tjóðra"]
+				},
+				"þátíð": {
+					"et": ["tjóðraði", "tjóðraðir", "tjóðraði"],
+					"ft": ["tjóðruðum", "tjóðruðuð", "tjóðruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tjóðri", "tjóðrir", "tjóðri"],
+					"ft": ["tjóðrum", "tjóðrið", "tjóðri"]
+				},
+				"þátíð": {
+					"et": ["tjóðraði", "tjóðraðir", "tjóðraði"],
+					"ft": ["tjóðruðum", "tjóðruðuð", "tjóðruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tjóðrarðu",
+					"ft": "tjóðriði"
+				},
+				"þátíð": {
+					"et": "tjóðraðirðu",
+					"ft": "tjóðruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tjóðrirðu",
+					"ft": "tjóðriði"
+				},
+				"þátíð": {
+					"et": "tjóðraðirðu",
+					"ft": "tjóðruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tjóðrast",
+		"sagnbót": "tjóðrast",
+		"boðháttur": {
+			"et": "tjóðrastu",
+			"ft": "tjóðrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tjóðrast", "tjóðrast", "tjóðrast"],
+					"ft": ["tjóðrumst", "tjóðrist", "tjóðrast"]
+				},
+				"þátíð": {
+					"et": ["tjóðraðist", "tjóðraðist", "tjóðraðist"],
+					"ft": ["tjóðruðumst", "tjóðruðust", "tjóðruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tjóðrist", "tjóðrist", "tjóðrist"],
+					"ft": ["tjóðrumst", "tjóðrist", "tjóðrist"]
+				},
+				"þátíð": {
+					"et": ["tjóðraðist", "tjóðraðist", "tjóðraðist"],
+					"ft": ["tjóðruðumst", "tjóðruðust", "tjóðruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tjóðrastu"
+				},
+				"þátíð": {
+					"et": "tjóðraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tjóðristu"
+				},
+				"þátíð": {
+					"et": "tjóðraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tjóðrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tjóðraður", "tjóðraðan", "tjóðruðum", "tjóðraðs"],
+					"kvk": ["tjóðruð", "tjóðraða", "tjóðraðri", "tjóðraðrar"],
+					"hk": ["tjóðrað", "tjóðrað", "tjóðruðu", "tjóðraðs"]
+				},
+				"ft": {
+					"kk": ["tjóðraðir", "tjóðraða", "tjóðruðum", "tjóðraðra"],
+					"kvk": ["tjóðraðar", "tjóðraðar", "tjóðruðum", "tjóðraðra"],
+					"hk": ["tjóðruð", "tjóðruð", "tjóðruðum", "tjóðraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tjóðra",
+	"hash": "95447b252b5c5518ee5401c2bf9d4529b84a4e63f610817812debc07b9bc0833"
+}

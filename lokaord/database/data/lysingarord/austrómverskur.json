@@ -8,12 +8,8 @@
 			"kennistrengur": "no-austur-hk"
 		},
 		{
-			"mynd": "rómver",
-			"samsetning": "stofn",
-			"kennistrengur": "no-Rómverji-kk"
-		},
-		{
-			"kennistrengur": "lo-skur-ó"
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-rómverskur"
 		}
 	],
 	"frumstig": {
@@ -42,46 +38,6 @@
 			}
 		}
 	},
-	"miðstig": {
-		"vb": {
-			"et": {
-				"kk": ["austrómverskari", "austrómverskari", "austrómverskari", "austrómverskari"],
-				"kvk": ["austrómverskari", "austrómverskari", "austrómverskari", "austrómverskari"],
-				"hk": ["austrómverskara", "austrómverskara", "austrómverskara", "austrómverskara"]
-			},
-			"ft": {
-				"kk": ["austrómverskari", "austrómverskari", "austrómverskari", "austrómverskari"],
-				"kvk": ["austrómverskari", "austrómverskari", "austrómverskari", "austrómverskari"],
-				"hk": ["austrómverskari", "austrómverskari", "austrómverskari", "austrómverskari"]
-			}
-		}
-	},
-	"efstastig": {
-		"sb": {
-			"et": {
-				"kk": ["austrómverskastur", "austrómverskastan", "austrómverskustum", "austrómverskasts"],
-				"kvk": ["austrómverskust", "austrómverskasta", "austrómverskastri", "austrómverskastrar"],
-				"hk": ["austrómverskast", "austrómverskast", "austrómverskustu", "austrómverskasts"]
-			},
-			"ft": {
-				"kk": ["austrómverskastir", "austrómverskasta", "austrómverskustum", "austrómverskastra"],
-				"kvk": ["austrómverskastar", "austrómverskastar", "austrómverskustum", "austrómverskastra"],
-				"hk": ["austrómverskust", "austrómverskust", "austrómverskustum", "austrómverskastra"]
-			}
-		},
-		"vb": {
-			"et": {
-				"kk": ["austrómverskasti", "austrómverskasta", "austrómverskasta", "austrómverskasta"],
-				"kvk": ["austrómverskasta", "austrómverskustu", "austrómverskustu", "austrómverskustu"],
-				"hk": ["austrómverskasta", "austrómverskasta", "austrómverskasta", "austrómverskasta"]
-			},
-			"ft": {
-				"kk": ["austrómverskustu", "austrómverskustu", "austrómverskustu", "austrómverskustu"],
-				"kvk": ["austrómverskustu", "austrómverskustu", "austrómverskustu", "austrómverskustu"],
-				"hk": ["austrómverskustu", "austrómverskustu", "austrómverskustu", "austrómverskustu"]
-			}
-		}
-	},
 	"kennistrengur": "lo-austrómverskur",
-	"hash": "65af6fb02ccc5a897b645e5ddfcd1bcb239e2658edc5cbedc0e79fa4dd679a78"
+	"hash": "0fdac0f06bad7eb5a940c91b3e7111beec61d71152ce987bcd2ece720a701c3d"
 }
