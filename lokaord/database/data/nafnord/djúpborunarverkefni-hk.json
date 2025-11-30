@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "djúp",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-djúpur"
-		},
-		{
-			"mynd": "borunar",
+			"mynd": "djúpborunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-borun-kvk"
+			"kennistrengur": "no-djúpborun-kvk"
 		},
 		{
-			"mynd": "verk",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verk-hk"
-		},
-		{
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-verkefni-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["djúpborunarverkefnin", "djúpborunarverkefnin", "djúpborunarverkefnunum", "djúpborunarverkefnanna"]
 	},
 	"kennistrengur": "no-djúpborunarverkefni-hk",
-	"hash": "40101de0f6c3d25af549e4301229e9585f8706f5f227d4281e0afb0ee4cac5ed"
+	"hash": "ec692225861dcabcd2376fc0fddfa1775e950242dd1a80617c421f008556d8e8"
 }

@@ -1,0 +1,65 @@
+{
+	"orð": "kolefnisbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kolefnis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kolefni-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kolefnisbinda",
+		"sagnbót": "kolefnisbundið",
+		"boðháttur": {
+			"stýfður": "kolefnisbind",
+			"et": "kolefnisbittu",
+			"ft": "kolefnisbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kolefnisbind", "kolefnisbindur", "kolefnisbindur"],
+					"ft": ["kolefnisbindum", "kolefnisbindið", "kolefnisbinda"]
+				},
+				"þátíð": {
+					"et": ["kolefnisbatt", "kolefnisbast", "kolefnisbatt"],
+					"ft": ["kolefnisbundum", "kolefnisbunduð", "kolefnisbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kolefnisbindi", "kolefnisbindir", "kolefnisbindi"],
+					"ft": ["kolefnisbindum", "kolefnisbindið", "kolefnisbindi"]
+				},
+				"þátíð": {
+					"et": ["kolefnisbyndi", "kolefnisbyndir", "kolefnisbyndi"],
+					"ft": ["kolefnisbyndum", "kolefnisbynduð", "kolefnisbyndu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kolefnisbindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kolefnisbundinn", "kolefnisbundinn", "kolefnisbundnum", "kolefnisbundins"],
+					"kvk": ["kolefnisbundin", "kolefnisbundna", "kolefnisbundinni", "kolefnisbundinnar"],
+					"hk": ["kolefnisbundið", "kolefnisbundið", "kolefnisbundnu", "kolefnisbundins"]
+				},
+				"ft": {
+					"kk": ["kolefnisbundnir", "kolefnisbundna", "kolefnisbundnum", "kolefnisbundinna"],
+					"kvk": ["kolefnisbundnar", "kolefnisbundnar", "kolefnisbundnum", "kolefnisbundinna"],
+					"hk": ["kolefnisbundin", "kolefnisbundin", "kolefnisbundnum", "kolefnisbundinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kolefnisbinda",
+	"hash": "b1575b094b769cad3b98581501fa0c99869d7901cc7f048449f377c6ac96adee"
+}

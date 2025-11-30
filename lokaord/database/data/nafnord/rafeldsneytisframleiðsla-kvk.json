@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "raf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-raf-hk"
-		},
-		{
-			"mynd": "eldsneytis",
+			"mynd": "rafeldsneytis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eldsneyti-hk"
-		},
-		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
+			"kennistrengur": "no-rafeldsneyti-hk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-framleiðsla-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["rafeldsneytisframleiðslan", "rafeldsneytisframleiðsluna", "rafeldsneytisframleiðslunni", "rafeldsneytisframleiðslunnar"]
 	},
 	"kennistrengur": "no-rafeldsneytisframleiðsla-kvk",
-	"hash": "d5b1d8ee7442a74379a4263c9ee6b38300066f8a3832bd8a100b578f01eb3c1c"
+	"hash": "357060b2cdc9fd7aa6a1dcf054e39c587587c0c80d9679ba4051834788616895"
 }
