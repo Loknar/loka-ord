@@ -1,0 +1,99 @@
+{
+	"orð": "tvískattleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tvískatt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-tvískatta"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tvískattleggja",
+		"sagnbót": "tvískattlagt",
+		"boðháttur": {
+			"stýfður": "tvískattlegg",
+			"et": "tvískattleggðu",
+			"ft": "tvískattleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tvískattlegg", "tvískattleggur", "tvískattleggur"],
+					"ft": ["tvískattleggjum", "tvískattleggið", "tvískattleggja"]
+				},
+				"þátíð": {
+					"et": ["tvískattlagði", "tvískattlagðir", "tvískattlagði"],
+					"ft": ["tvískattlögðum", "tvískattlögðuð", "tvískattlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tvískattleggi", "tvískattleggir", "tvískattleggi"],
+					"ft": ["tvískattleggjum", "tvískattleggið", "tvískattleggi"]
+				},
+				"þátíð": {
+					"et": ["tvískattlegði", "tvískattlegðir", "tvískattlegði"],
+					"ft": ["tvískattlegðum", "tvískattlegðuð", "tvískattlegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tvískattleggurðu",
+					"ft": "tvískattleggiði"
+				},
+				"þátíð": {
+					"et": "tvískattlagðirðu",
+					"ft": "tvískattlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tvískattleggirðu",
+					"ft": "tvískattleggiði"
+				},
+				"þátíð": {
+					"et": "tvískattleggðirðu",
+					"ft": "tvískattleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tvískattleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tvískattlagður", "tvískattlagðan", "tvískattlögðum", "tvískattlagðs"],
+					"kvk": ["tvískattlögð", "tvískattlagða", "tvískattlagðri", "tvískattlagðrar"],
+					"hk": ["tvískattlagt", "tvískattlagt", "tvískattlögðu", "tvískattlagðs"]
+				},
+				"ft": {
+					"kk": ["tvískattlagðir", "tvískattlagða", "tvískattlögðum", "tvískattlagðra"],
+					"kvk": ["tvískattlagðar", "tvískattlagðar", "tvískattlögðum", "tvískattlagðra"],
+					"hk": ["tvískattlögð", "tvískattlögð", "tvískattlögðum", "tvískattlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tvískattlagði", "tvískattlagða", "tvískattlagða", "tvískattlagða"],
+					"kvk": ["tvískattlagða", "tvískattlögðu", "tvískattlögðu", "tvískattlögðu"],
+					"hk": ["tvískattlagða", "tvískattlagða", "tvískattlagða", "tvískattlagða"]
+				},
+				"ft": {
+					"kk": ["tvískattlögðu", "tvískattlögðu", "tvískattlögðu", "tvískattlögðu"],
+					"kvk": ["tvískattlögðu", "tvískattlögðu", "tvískattlögðu", "tvískattlögðu"],
+					"hk": ["tvískattlögðu", "tvískattlögðu", "tvískattlögðu", "tvískattlögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tvískattleggja",
+	"hash": "933f690739422429f747b75563e90a885d311e2dea21aef12096cdadc36dd572"
+}

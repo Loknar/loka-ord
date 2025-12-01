@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "skatt",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skattur-kk"
-		},
-		{
-			"mynd": "lagningar",
+			"mynd": "skattlagningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lagning-kvk"
+			"kennistrengur": "no-skattlagning-kvk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["skattlagningarrétturinn", "skattlagningarréttinn", "skattlagningarréttinum", "skattlagningarréttarins"]
 	},
 	"kennistrengur": "no-skattlagningarréttur-kk",
-	"hash": "26674a45635e55422d285c062a18beeb37e91aeb2e19c3f1e879d720897bd2b3"
+	"hash": "5173e02b8e5e620c6602236a922880169d186e111f601efb1c0eb1d4237deef6"
 }

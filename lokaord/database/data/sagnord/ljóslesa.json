@@ -1,0 +1,87 @@
+{
+	"orð": "ljóslesa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ljós",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ljós-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lesa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ljóslesa",
+		"sagnbót": "ljóslesið",
+		"boðháttur": {
+			"stýfður": "ljósles",
+			"et": "ljóslestu",
+			"ft": "ljóslesið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ljósles", "ljóslest", "ljósles"],
+					"ft": ["ljóslesum", "ljóslesið", "ljóslesa"]
+				},
+				"þátíð": {
+					"et": ["ljóslas", "ljóslast", "ljóslas"],
+					"ft": ["ljóslásum", "ljóslásuð", "ljóslásu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ljóslesi", "ljóslesir", "ljóslesi"],
+					"ft": ["ljóslesum", "ljóslesið", "ljóslesi"]
+				},
+				"þátíð": {
+					"et": ["ljóslæsi", "ljóslæsir", "ljóslæsi"],
+					"ft": ["ljóslæsum", "ljóslæsuð", "ljóslæsu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ljóslestu",
+					"ft": "ljóslesiði"
+				},
+				"þátíð": {
+					"et": "ljóslastu",
+					"ft": "ljóslásuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ljóslesirðu",
+					"ft": "ljóslesiði"
+				},
+				"þátíð": {
+					"et": "ljóslæsirðu",
+					"ft": "ljóslæsuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ljóslesandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ljóslesinn", "ljóslesinn", "ljóslesnum", "ljóslesins"],
+					"kvk": ["ljóslesin", "ljóslesna", "ljóslesinni", "ljóslesinnar"],
+					"hk": ["ljóslesið", "ljóslesið", "ljóslesnu", "ljóslesins"]
+				},
+				"ft": {
+					"kk": ["ljóslesnir", "ljóslesna", "ljóslesnum", "ljóslesinna"],
+					"kvk": ["ljóslesnar", "ljóslesnar", "ljóslesnum", "ljóslesinna"],
+					"hk": ["ljóslesin", "ljóslesin", "ljóslesnum", "ljóslesinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ljóslesa",
+	"hash": "546e579d4d96bf633acfb92b3cf568a60cb5c5fc93425fcc5830e87586d0917c"
+}

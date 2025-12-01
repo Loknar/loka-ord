@@ -1,0 +1,135 @@
+{
+	"orð": "upplyfta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "upp",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-upp"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lyfta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "upplyfta",
+		"sagnbót": "upplyft",
+		"boðháttur": {
+			"stýfður": "upplyft",
+			"et": "upplyftu",
+			"ft": "upplyftið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["upplyfti", "upplyftir", "upplyftir"],
+					"ft": ["upplyftum", "upplyftið", "upplyfta"]
+				},
+				"þátíð": {
+					"et": ["upplyfti", "upplyftir", "upplyfti"],
+					"ft": ["upplyftum", "upplyftuð", "upplyftu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["upplyfti", "upplyftir", "upplyftir"],
+					"ft": ["upplyftum", "upplyftið", "upplyfti"]
+				},
+				"þátíð": {
+					"et": ["upplyfti", "upplyftir", "upplyfti"],
+					"ft": ["upplyftum", "upplyftuð", "upplyftu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "upplyftirðu",
+					"ft": "upplyftiði"
+				},
+				"þátíð": {
+					"et": "upplyftirðu",
+					"ft": "upplyftuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "upplyftirðu",
+					"ft": "upplyftiði"
+				},
+				"þátíð": {
+					"et": "upplyftirðu",
+					"ft": "upplyftuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "upplyftast",
+		"sagnbót": "upplyfst",
+		"boðháttur": {
+			"et": "upplyfstu",
+			"ft": "upplyftist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["upplyftist", "upplyftist", "upplyftist"],
+					"ft": ["upplyftumst", "upplyftist", "upplyftast"]
+				},
+				"þátíð": {
+					"et": ["upplyftist", "upplyftist", "upplyftist"],
+					"ft": ["upplyftumst", "upplyftust", "upplyftust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["upplyftist", "upplyftist", "upplyftist"],
+					"ft": ["upplyftumst", "upplyftist", "upplyftist"]
+				},
+				"þátíð": {
+					"et": ["upplyftist", "upplyftist", "upplyftist"],
+					"ft": ["upplyftumst", "upplyftust", "upplyftust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "upplyftistu"
+				},
+				"þátíð": {
+					"et": "upplyftistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "upplyftistu"
+				},
+				"þátíð": {
+					"et": "upplyftistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "upplyftandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["upplyftur", "upplyftan", "upplyftum", "upplyfts"],
+					"kvk": ["upplyft", "upplyfta", "upplyftri", "upplyftrar"],
+					"hk": ["upplyft", "upplyft", "upplyftu", "upplyfts"]
+				},
+				"ft": {
+					"kk": ["upplyftir", "upplyfta", "upplyftum", "upplyftra"],
+					"kvk": ["upplyftar", "upplyftar", "upplyftum", "upplyftra"],
+					"hk": ["upplyft", "upplyft", "upplyftum", "upplyftra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-upplyfta",
+	"hash": "3a8fb5fb82be99142a926451b7c7dfed63d4846c126736268ba12845346873aa"
+}

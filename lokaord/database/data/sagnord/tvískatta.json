@@ -1,0 +1,87 @@
+{
+	"orð": "tvískatta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tví",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-tví-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skatta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tvískatta",
+		"sagnbót": "tvískattað",
+		"boðháttur": {
+			"stýfður": "tvískatta",
+			"et": "tvískattaðu",
+			"ft": "tvískattið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tvískatta", "tvískattar", "tvískattar"],
+					"ft": ["tvísköttum", "tvískattið", "tvískatta"]
+				},
+				"þátíð": {
+					"et": ["tvískattaði", "tvískattaðir", "tvískattaði"],
+					"ft": ["tvísköttuðum", "tvísköttuðuð", "tvísköttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tvískatti", "tvískattir", "tvískatti"],
+					"ft": ["tvísköttum", "tvískattið", "tvískatti"]
+				},
+				"þátíð": {
+					"et": ["tvískattaði", "tvískattaðir", "tvískattaði"],
+					"ft": ["tvísköttuðum", "tvísköttuðuð", "tvísköttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tvískattarðu",
+					"ft": "tvískattiði"
+				},
+				"þátíð": {
+					"et": "tvískattaðirðu",
+					"ft": "tvísköttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tvískattirðu",
+					"ft": "tvískattiði"
+				},
+				"þátíð": {
+					"et": "tvískattaðirðu",
+					"ft": "tvísköttuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tvískattandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tvískattaður", "tvískattaðan", "tvísköttuðum", "tvískattaðs"],
+					"kvk": ["tvísköttuð", "tvískattaða", "tvískattaðri", "tvískattaðrar"],
+					"hk": ["tvískattað", "tvískattað", "tvísköttuðu", "tvískattaðs"]
+				},
+				"ft": {
+					"kk": ["tvískattaðir", "tvískattaða", "tvísköttuðum", "tvískattaðra"],
+					"kvk": ["tvískattaðar", "tvískattaðar", "tvísköttuðum", "tvískattaðra"],
+					"hk": ["tvísköttuð", "tvísköttuð", "tvísköttuðum", "tvískattaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tvískatta",
+	"hash": "0f39ce1043217a7f60fdc62fadc9fde4745a481bc46e085ff27a2f8c89b01192"
+}

@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sjúk",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "dóms",
+			"mynd": "sjúkdóms",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dómur-kk"
+			"kennistrengur": "no-sjúkdómur-kk"
 		},
 		{
 			"kennistrengur": "no-greining-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["sjúkdómsgreiningarnar", "sjúkdómsgreiningarnar", "sjúkdómsgreiningunum", "sjúkdómsgreininganna"]
 	},
 	"kennistrengur": "no-sjúkdómsgreining-kvk",
-	"hash": "a22c8254cd539b3e22eb07fca2393796b3df1180d77f2fc75e41e66cdaec5e72"
+	"hash": "b6afe71d4fc3008d82a18ffe387a4a91e11ca91da01668eec3d48c550ed22b58"
 }

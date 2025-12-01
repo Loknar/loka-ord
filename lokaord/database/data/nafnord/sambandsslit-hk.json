@@ -4,24 +4,22 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "bands",
+			"mynd": "sambands",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
+			"kennistrengur": "no-samband-hk"
 		},
 		{
-			"beygingar": ["ft"],
 			"kennistrengur": "no-slit-hk"
 		}
 	],
+	"et": {
+		"ág": ["sambandsslit", "sambandsslit", "sambandssliti", "sambandsslits"],
+		"mg": ["sambandsslitið", "sambandsslitið", "sambandsslitinu", "sambandsslitsins"]
+	},
 	"ft": {
 		"ág": ["sambandsslit", "sambandsslit", "sambandsslitum", "sambandsslita"],
 		"mg": ["sambandsslitin", "sambandsslitin", "sambandsslitunum", "sambandsslitanna"]
 	},
 	"kennistrengur": "no-sambandsslit-hk",
-	"hash": "fababd5e5a520a4bd3858e9c6b6fc5499537c5c9a8bff17c4af20e16fb3e664d"
+	"hash": "839a34729736eed7aba9adf13c8c59908247a1712613d8d5af4d8abb64a678e1"
 }
