@@ -3,23 +3,13 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "bók",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bók-kvk"
-		},
-		{
-			"mynd": "stafs",
+			"mynd": "bókstafs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stafur-kk"
-		},
-		{
-			"mynd": "trú",
-			"samsetning": "stofn",
-			"kennistrengur": "so-trúa"
+			"kennistrengur": "no-bókstafur-kk"
 		},
 		{
 			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-aður-ó"
+			"kennistrengur": "lo-trúaður"
 		}
 	],
 	"frumstig": {
@@ -49,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-bókstafstrúaður",
-	"hash": "c99917adf59ba4bc27733d90f633f68fa7b4185176f886a2a1acec9b9f05e07d"
+	"hash": "24217bf536cec855f84e452956609d9575977315f4eb77ae4d6a9add3e0564a8"
 }

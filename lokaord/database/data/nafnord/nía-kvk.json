@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"tölugildi": 9,
+	"samsett": [
+		{
+			"mynd": "ní",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-níu"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["nía", "níu", "níu", "níu"],
 		"mg": ["nían", "níuna", "níunni", "níunnar"]
@@ -12,5 +22,5 @@
 		"mg": ["níurnar", "níurnar", "níunum", "níanna"]
 	},
 	"kennistrengur": "no-nía-kvk",
-	"hash": "977f3e2f99550ec0343ff071740fe499897bd3f04b030d7d0dbbda471d376d70"
+	"hash": "fc838d71c7794e1a07627a5ef36dd88ea012dbbcdeb0e9fa006d327257a5e312"
 }

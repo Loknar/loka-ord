@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "að",
+			"mynd": "aðkomu",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
+			"kennistrengur": "no-aðkoma-kvk"
 		},
 		{
-			"mynd": "komu",
-			"samsetning": "stofn",
-			"kennistrengur": "no-koma-kvk"
-		},
-		{
-			"mynd": "af",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-af"
-		},
-		{
-			"kennistrengur": "no-greiðsla-kvk"
+			"kennistrengur": "no-afgreiðsla-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["aðkomuafgreiðslurnar", "aðkomuafgreiðslurnar", "aðkomuafgreiðslunum", "aðkomuafgreiðslnanna"]
 	},
 	"kennistrengur": "no-aðkomuafgreiðsla-kvk",
-	"hash": "ba77f8e61445f50cbeb955d3c253a6376392991f41d6a6091ae99569378b5bd4"
+	"hash": "62c538ac1f3697d0d6fb42d1d60a21f8ed269197e680fde47d47deb1299cc3b9"
 }

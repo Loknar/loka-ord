@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"tölugildi": 10,
+	"samsett": [
+		{
+			"mynd": "tí",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-tíu"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tía", "tíu", "tíu", "tíu"],
 		"mg": ["tían", "tíuna", "tíunni", "tíunnar"]
@@ -12,5 +22,5 @@
 		"mg": ["tíurnar", "tíurnar", "tíunum", "tíanna"]
 	},
 	"kennistrengur": "no-tía-kvk",
-	"hash": "8d367c5caf8fcdb60ea91bfb2156cc23cf0565d04bad6a2023a21bfd8001a0f3"
+	"hash": "64e8e18f3ceb1ab3e8057b461c7a67374d44ff062c84d854c61ea14ed6b12df8"
 }

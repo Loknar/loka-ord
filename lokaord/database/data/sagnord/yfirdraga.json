@@ -1,0 +1,87 @@
+{
+	"orð": "yfirdraga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-draga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirdraga",
+		"sagnbót": "yfirdregið",
+		"boðháttur": {
+			"stýfður": "yfirdrag",
+			"et": "yfirdragðu",
+			"ft": "yfirdragið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirdreg", "yfirdregur", "yfirdregur"],
+					"ft": ["yfirdrögum", "yfirdragið", "yfirdraga"]
+				},
+				"þátíð": {
+					"et": ["yfirdró", "yfirdróst", "yfirdró"],
+					"ft": ["yfirdrógum", "yfirdróguð", "yfirdrógu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirdragi", "yfirdragir", "yfirdragi"],
+					"ft": ["yfirdrögum", "yfirdragið", "yfirdragi"]
+				},
+				"þátíð": {
+					"et": ["yfirdrægi", "yfirdrægir", "yfirdrægi"],
+					"ft": ["yfirdrægjum", "yfirdrægjuð", "yfirdrægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirdregurðu",
+					"ft": "yfirdragiði"
+				},
+				"þátíð": {
+					"et": "yfirdróstu",
+					"ft": "yfirdróguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirdragirðu",
+					"ft": "yfirdragiði"
+				},
+				"þátíð": {
+					"et": "yfirdrægirðu",
+					"ft": "yfirdrægjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirdragandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["yfirdreginn", "yfirdreginn", "yfirdregnum", "yfirdregins"],
+					"kvk": ["yfirdregin", "yfirdregna", "yfirdreginni", "yfirdreginnar"],
+					"hk": ["yfirdregið", "yfirdregið", "yfirdregnu", "yfirdregins"]
+				},
+				"ft": {
+					"kk": ["yfirdregnir", "yfirdregna", "yfirdregnum", "yfirdreginna"],
+					"kvk": ["yfirdregnar", "yfirdregnar", "yfirdregnum", "yfirdreginna"],
+					"hk": ["yfirdregin", "yfirdregin", "yfirdregnum", "yfirdreginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-yfirdraga",
+	"hash": "a2e256c342accbcc5abedcbb6cafb7b73e41d776c8dd759bb3f0c42caf1417b5"
+}

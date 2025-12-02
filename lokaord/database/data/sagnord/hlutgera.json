@@ -1,0 +1,131 @@
+{
+	"orð": "hlutgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hlutgera",
+		"sagnbót": "hlutgert",
+		"boðháttur": {
+			"stýfður": "hlutger",
+			"et": "hlutgerðu",
+			"ft": "hlutgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlutgeri", "hlutgerir", "hlutgerir"],
+					"ft": ["hlutgerum", "hlutgerið", "hlutgera"]
+				},
+				"þátíð": {
+					"et": ["hlutgerði", "hlutgerðir", "hlutgerði"],
+					"ft": ["hlutgerðum", "hlutgerðuð", "hlutgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlutgeri", "hlutgerir", "hlutgeri"],
+					"ft": ["hlutgerum", "hlutgerið", "hlutgeri"]
+				},
+				"þátíð": {
+					"et": ["hlutgerði", "hlutgerðir", "hlutgerði"],
+					"ft": ["hlutgerðum", "hlutgerðuð", "hlutgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlutgerirðu",
+					"ft": "hlutgeriði"
+				},
+				"þátíð": {
+					"et": "hlutgerðirðu",
+					"ft": "hlutgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlutgerirðu",
+					"ft": "hlutgeriði"
+				},
+				"þátíð": {
+					"et": "hlutgerðirðu",
+					"ft": "hlutgerðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hlutgerast",
+		"sagnbót": "hlutgerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlutgerist", "hlutgerist", "hlutgerist"],
+					"ft": ["hlutgerumst", "hlutgerist", "hlutgerast"]
+				},
+				"þátíð": {
+					"et": ["hlutgerðist", "hlutgerðist", "hlutgerðist"],
+					"ft": ["hlutgerðumst", "hlutgerðust", "hlutgerðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlutgerist", "hlutgerist", "hlutgerist"],
+					"ft": ["hlutgerumst", "hlutgerist", "hlutgerist"]
+				},
+				"þátíð": {
+					"et": ["hlutgerðist", "hlutgerðist", "hlutgerðist"],
+					"ft": ["hlutgerðumst", "hlutgerðust", "hlutgerðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlutgeristu"
+				},
+				"þátíð": {
+					"et": "hlutgerðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlutgeristu"
+				},
+				"þátíð": {
+					"et": "hlutgerðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlutgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlutgerður", "hlutgerðan", "hlutgerðum", "hlutgerðs"],
+					"kvk": ["hlutgerð", "hlutgerða", "hlutgerðri", "hlutgerðrar"],
+					"hk": ["hlutgert", "hlutgert", "hlutgerðu", "hlutgerðs"]
+				},
+				"ft": {
+					"kk": ["hlutgerðir", "hlutgerða", "hlutgerðum", "hlutgerðra"],
+					"kvk": ["hlutgerðar", "hlutgerðar", "hlutgerðum", "hlutgerðra"],
+					"hk": ["hlutgerð", "hlutgerð", "hlutgerðum", "hlutgerðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlutgera",
+	"hash": "341e54ea3cf7db8d3f680d4341f767bd3413f17fce9ae84fec4e738d69513395"
+}

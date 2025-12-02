@@ -1,0 +1,98 @@
+{
+	"orð": "stórhækka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stór",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-stór"
+		},
+		{
+			"kennistrengur": "so-hækka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stórhækka",
+		"sagnbót": "stórhækkað",
+		"boðháttur": {
+			"stýfður": "stórhækka",
+			"et": "stórhækkaðu",
+			"ft": "stórhækkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stórhækka", "stórhækkar", "stórhækkar"],
+					"ft": ["stórhækkum", "stórhækkið", "stórhækka"]
+				},
+				"þátíð": {
+					"et": ["stórhækkaði", "stórhækkaðir", "stórhækkaði"],
+					"ft": ["stórhækkuðum", "stórhækkuðuð", "stórhækkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stórhækki", "stórhækkir", "stórhækki"],
+					"ft": ["stórhækkum", "stórhækkið", "stórhækki"]
+				},
+				"þátíð": {
+					"et": ["stórhækkaði", "stórhækkaðir", "stórhækkaði"],
+					"ft": ["stórhækkuðum", "stórhækkuðuð", "stórhækkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stórhækkarðu",
+					"ft": "stórhækkiði"
+				},
+				"þátíð": {
+					"et": "stórhækkaðirðu",
+					"ft": "stórhækkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stórhækkirðu",
+					"ft": "stórhækkiði"
+				},
+				"þátíð": {
+					"et": "stórhækkaðirðu",
+					"ft": "stórhækkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stórhækkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stórhækkaður", "stórhækkaðan", "stórhækkuðum", "stórhækkaðs"],
+					"kvk": ["stórhækkuð", "stórhækkaða", "stórhækkaðri", "stórhækkaðrar"],
+					"hk": ["stórhækkað", "stórhækkað", "stórhækkuðu", "stórhækkaðs"]
+				},
+				"ft": {
+					"kk": ["stórhækkaðir", "stórhækkaða", "stórstæðkkuðum", "stórhækkaðra"],
+					"kvk": ["stórhækkaðar", "stórhækkaðar", "stórhækkuðum", "stórhækkaðra"],
+					"hk": ["stórhækkuð", "stórhækkuð", "stórhækkuðum", "stórhækkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stórhækkaði", "stórhækkaða", "stórhækkaða", "stórhækkaða"],
+					"kvk": ["stórhækkaða", "stórhækkuðu", "stórhækkuðu", "stórhækkuðu"],
+					"hk": ["stórhækkaða", "stórhækkaða", "stórhækkaða", "stórhækkaða"]
+				},
+				"ft": {
+					"kk": ["stórhækkuðu", "stórhækkuðu", "stórhækkuðu", "stórhækkuðu"],
+					"kvk": ["stórhækkuðu", "stórhækkuðu", "stórhækkuðu", "stórhækkuðu"],
+					"hk": ["stórhækkuðu", "stórhækkuðu", "stórhækkuðu", "stórhækkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stórhækka",
+	"hash": "db435ed627294d01691a06ebe994a9533182d6a2a70932a874ce87a1a1d79d7a"
+}

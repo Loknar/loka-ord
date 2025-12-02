@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"tölugildi": 6,
+	"samsett": [
+		{
+			"mynd": "sex",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-sex"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sexa", "sexu", "sexu", "sexu"],
 		"mg": ["sexan", "sexuna", "sexunni", "sexunnar"]
@@ -12,5 +22,5 @@
 		"mg": ["sexurnar", "sexurnar", "sexunum", "sexanna"]
 	},
 	"kennistrengur": "no-sexa-kvk",
-	"hash": "65dab19d459829ab494f18b6c14cc9ef026637eb66e436c900d6ac97e2bdfd20"
+	"hash": "6db162946c3edf7a56997756b6c20aa6ce59f9ac5326e13744c8d706a6752166"
 }

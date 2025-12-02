@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1788 | 1662 | 1602 | 5052 | 13681 | 18520 | 19772 | 51973 | **57025** |
-| **Lýsingarorð** | 457 |   |   |   | 744 |   |   |   | 5152 | **5896** |
-| **Sagnorð**     |   |   |   |   | 1320 |   |   |   | 1814 | **3134** |
+| **Nafnorð**     |   | 1791 | 1661 | 1605 | 5057 | 13741 | 18596 | 19812 | 52149 | **57206** |
+| **Lýsingarorð** | 457 |   |   |   | 744 |   |   |   | 5169 | **5913** |
+| **Sagnorð**     |   |   |   |   | 1322 |   |   |   | 1819 | **3141** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 82 | **107** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 16 | **54** |
 | **Smáorð**      |   |   |   |   | 346 |   |   |   | 562 | **908** |
-| **Alls** |   |   |   |   | **7526** |   |   |   | **59599** | **67125** |
+| **Alls** |   |   |   |   | **7533** |   |   |   | **59797** | **67330** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 1316 | 1276 | 14 | 2606 | 1004 | 1275 | 10 | 2289 | **4895** |
-| Kenninöfn |  |  |  |  | 4809 | 4807 | 4785 | 14401 | **14401** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **940** |
-| Gælunöfn  | 293 | 131 | 3 | 427 | 150 | 149 | 8 | 307 | **734** |
-| Örnefni   | 31 | 142 | 358 | 531 | 2083 | 1558 | 1594 | 5235 | **5766** |
-| **Alls**  |   |   |   | **4343** |   |   |   | **22393** | **26736** |
+| Eiginnöfn | 1319 | 1276 | 14 | 2609 | 1006 | 1275 | 10 | 2291 | **4900** |
+| Kenninöfn |  |  |  |  | 4815 | 4813 | 4791 | 14419 | **14419** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **962** |
+| Gælunöfn  | 299 | 145 | 6 | 450 | 151 | 149 | 8 | 308 | **758** |
+| Örnefni   | 31 | 142 | 361 | 534 | 2122 | 1574 | 1622 | 5318 | **5852** |
+| **Alls**  |   |   |   | **4394** |   |   |   | **22497** | **26891** |
 
-**Samtals:** 93861 orð.
+**Samtals:** 94221 orð.
 
 788 skammstafanir.
 
@@ -76,7 +76,7 @@ python main.py build-sight
 python main.py md-stats
 ```
 
-Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 5600 orð) þá tekur `init` ferlið sinn tíma. Tölva með temmilega góðan vélbúnað og linux stýrikerfi klárar það á tæpum þremur mínútum, meðalgóð fartölva með linux þarf kringum sjö mínútur, þá hefur sýnt sig að á tölvum keyrandi windows stýrikerfi sé ferlið umtalsvert lengra, geti jafnvel tekið yfir hálftíma (skrifast líklega að mestu á mismunandi meðhöndlun fyrir transactions í SQLite miłli windows og linux).
+Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 94000 orð) þá tekur `init` ferlið sinn tíma. Tölva með temmilega góðan vélbúnað og linux stýrikerfi klárar það á um klukkustund, meðalgóð fartölva með linux stýrikerfi þarf um klukkustund og þrjú korter, þá hefur sýnt sig að á tölvum keyrandi windows stýrikerfi sé ferlið umtalsvert lengra, geti jafnvel tekið yfir hálftíma (skrifast líklega að mestu á mismunandi meðhöndlun fyrir transactions í SQLite miłli windows og linux).
 
 **TODO: laga þessa virkni, er brotin eins og er** Bæta við orði í gegnum skipanalínu (CLI):
 

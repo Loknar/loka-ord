@@ -1,0 +1,107 @@
+{
+	"orð": "kiðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kiðj",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-kið-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kiðja",
+		"sagnbót": "kiðjað",
+		"boðháttur": {
+			"stýfður": "kiðja",
+			"et": "kiðjaðu",
+			"ft": "kiðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kiðja", "kiðjar", "kiðjar"],
+					"ft": ["kiðjum", "kiðjið", "kiðja"]
+				},
+				"þátíð": {
+					"et": ["kiðjaði", "kiðjaðir", "kiðjaði"],
+					"ft": ["kiðjuðum", "kiðjuðuð", "kiðjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kiðji", "kiðjir", "kiðji"],
+					"ft": ["kiðjum", "kiðjið", "kiðji"]
+				},
+				"þátíð": {
+					"et": ["kiðjaði", "kiðjaðir", "kiðjaði"],
+					"ft": ["kiðjuðum", "kiðjuðuð", "kiðjuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kiðjast",
+		"sagnbót": "kiðjast",
+		"boðháttur": {
+			"et": "kiðjastu",
+			"ft": "kiðjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kiðjast", "kiðjast", "kiðjast"],
+					"ft": ["kiðjumst", "kiðjist", "kiðjast"]
+				},
+				"þátíð": {
+					"et": ["kiðjaðist", "kiðjaðist", "kiðjaðist"],
+					"ft": ["kiðjuðumst", "kiðjuðust", "kiðjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kiðjist", "kiðjist", "kiðjist"],
+					"ft": ["kiðjumst", "kiðjist", "kiðjist"]
+				},
+				"þátíð": {
+					"et": ["kiðjaðist", "kiðjaðist", "kiðjaðist"],
+					"ft": ["kiðjuðumst", "kiðjuðust", "kiðjuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kiðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kiðjaður", "kiðjaðan", "kiðjuðum", "kiðjaðs"],
+					"kvk": ["kiðjuð", "kiðjaða", "kiðjaðri", "kiðjaðrar"],
+					"hk": ["kiðjað", "kiðjað", "kiðjuðu", "kiðjaðs"]
+				},
+				"ft": {
+					"kk": ["kiðjaðir", "kiðjaða", "kiðjuðum", "kiðjaðra"],
+					"kvk": ["kiðjaðar", "kiðjaðar", "kiðjuðum", "kiðjaðra"],
+					"hk": ["kiðjuð", "kiðjuð", "kiðjuðum", "kiðjaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kiðjaði", "kiðjaða", "kiðjaða", "kiðjaða"],
+					"kvk": ["kiðjaða", "kiðjuðu", "kiðjuðu", "kiðjuðu"],
+					"hk": ["kiðjaða", "kiðjaða", "kiðjaða", "kiðjaða"]
+				},
+				"ft": {
+					"kk": ["kiðjuðu", "kiðjuðu", "kiðjuðu", "kiðjuðu"],
+					"kvk": ["kiðjuðu", "kiðjuðu", "kiðjuðu", "kiðjuðu"],
+					"hk": ["kiðjuðu", "kiðjuðu", "kiðjuðu", "kiðjuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kiðja",
+	"hash": "569674a1526a95e45680e65d6ac84ac72625a4503b563e6b6428abb98392e3fc"
+}

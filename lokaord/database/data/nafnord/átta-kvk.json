@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"tölugildi": 8,
+	"samsett": [
+		{
+			"mynd": "átt",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-átta"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["átta", "áttu", "áttu", "áttu"],
 		"mg": ["áttan", "áttuna", "áttunni", "áttunnar"]
@@ -12,5 +22,5 @@
 		"mg": ["átturnar", "átturnar", "áttunum", "áttanna"]
 	},
 	"kennistrengur": "no-átta-kvk",
-	"hash": "f37675a1d82eb11c73589850e55a79c03561b295004b228f720009ae17ea7948"
+	"hash": "22575313d94a2b7ef5070c7a77987a14c823ed9014ccc5df7cbaf8308532d442"
 }
