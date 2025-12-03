@@ -2,14 +2,24 @@
 	"orð": "hiksti",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "hikst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hikst-hk"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hiksti", "hiksta", "hiksta", "hiksta"],
 		"mg": ["hikstinn", "hikstann", "hikstanum", "hikstans"]
 	},
 	"ft": {
-		"ág": ["hikstar", "hiksta", "öfum", "hiksta"],
-		"mg": ["hikstarnir", "hikstana", "öfunum", "hikstanna"]
+		"ág": ["hikstar", "hiksta", "hikstum", "hiksta"],
+		"mg": ["hikstarnir", "hikstana", "hikstunum", "hikstanna"]
 	},
 	"kennistrengur": "no-hiksti-kk",
-	"hash": "28efa5ee6312148b6942072ff3ce47a0ac901ec3aa78d67e7f18d066fa5431ab"
+	"hash": "71de1f0de0b3e9f2215de669b6329d31ac22f98c269ca4c96853fb497aec662a"
 }

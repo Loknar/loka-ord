@@ -1,0 +1,73 @@
+{
+	"orð": "emja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "emj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-emj-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "emja",
+		"sagnbót": "emjað",
+		"boðháttur": {
+			"stýfður": "emja",
+			"et": "emjaðu",
+			"ft": "emjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["emja", "emjar", "emjar"],
+					"ft": ["emjum", "emjið", "emja"]
+				},
+				"þátíð": {
+					"et": ["emjaði", "emjaðir", "emjaði"],
+					"ft": ["emjuðum", "emjuðuð", "emjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["emji", "emjir", "emji"],
+					"ft": ["emjum", "emjið", "emji"]
+				},
+				"þátíð": {
+					"et": ["emjaði", "emjaðir", "emjaði"],
+					"ft": ["emjuðum", "emjuðuð", "emjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "emjarðu",
+					"ft": "emjiði"
+				},
+				"þátíð": {
+					"et": "emjaðirðu",
+					"ft": "emjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "emjirðu",
+					"ft": "emjiði"
+				},
+				"þátíð": {
+					"et": "emjaðirðu",
+					"ft": "emjuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "emjandi"
+	},
+	"kennistrengur": "so-emja",
+	"hash": "9ae615ddbd4597cb78037e8553c1c7d64fc59845b5540349747f00ce482bd336"
+}

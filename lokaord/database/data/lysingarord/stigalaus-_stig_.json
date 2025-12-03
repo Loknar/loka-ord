@@ -1,0 +1,44 @@
+{
+	"orð": "stigalaus",
+	"flokkur": "lýsingarorð",
+	"merking": "stig",
+	"samsett": [
+		{
+			"mynd": "stiga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-stig-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["stigalaus", "stigalausan", "stigalausum", "stigalauss"],
+				"kvk": ["stigalaus", "stigalausa", "stigalausri", "stigalausrar"],
+				"hk": ["stigalaust", "stigalaust", "stigalausu", "stigalauss"]
+			},
+			"ft": {
+				"kk": ["stigalausir", "stigalausa", "stigalausum", "stigalausra"],
+				"kvk": ["stigalausar", "stigalausar", "stigalausum", "stigalausra"],
+				"hk": ["stigalaus", "stigalaus", "stigalausum", "stigalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["stigalausi", "stigalausa", "stigalausa", "stigalausa"],
+				"kvk": ["stigalausa", "stigalausu", "stigalausu", "stigalausu"],
+				"hk": ["stigalausa", "stigalausa", "stigalausa", "stigalausa"]
+			},
+			"ft": {
+				"kk": ["stigalausu", "stigalausu", "stigalausu", "stigalausu"],
+				"kvk": ["stigalausu", "stigalausu", "stigalausu", "stigalausu"],
+				"hk": ["stigalausu", "stigalausu", "stigalausu", "stigalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-stigalaus-_stig_",
+	"hash": "e86401228289d037604ac8db162c2f2e7aaf625858de0db89a79578257b2f37e"
+}

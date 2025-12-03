@@ -1,0 +1,77 @@
+{
+	"orð": "nýhöggva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ný",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-nýr"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-höggva"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nýhöggva",
+		"sagnbót": "nýhöggvið",
+		"boðháttur": {
+			"stýfður": "nýhögg",
+			"et": "nýhöggðu",
+			"ft": "nýhöggvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nýhegg", "nýheggur", "nýheggur"],
+					"ft": ["nýhöggvum", "nýhöggvið", "nýhöggva"]
+				},
+				"þátíð": {
+					"et": ["nýhjó", "nýhjóst", "nýhjó"],
+					"ft": ["nýhjuggum", "nýhjugguð", "nýhjuggum"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nýhöggvi", "nýhöggvir", "nýhöggvi"],
+					"ft": ["nýhöggvum", "nýhöggvið", "nýhöggvi"]
+				},
+				"þátíð": {
+					"et": ["nýhjyggi", "nýhjyggir", "nýhjyggi"],
+					"ft": ["nýhjyggjum", "nýhjyggjuð", "nýhjyggju"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nýhöggvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["nýhöggvinn", "nýhöggvinn", "nýhöggnum", "nýhöggvins"],
+					"kvk": ["nýhöggvin", "nýhöggna", "nýhöggvinni", "nýhöggvinnar"],
+					"hk": ["nýhöggvið", "nýhöggvið", "nýhöggnu", "nýhöggvins"]
+				},
+				"ft": {
+					"kk": ["nýhöggnir", "nýhöggna", "nýhöggnum", "nýhöggvinna"],
+					"kvk": ["nýhöggnar", "nýhöggnar", "nýhöggnum", "nýhöggvinna"],
+					"hk": ["nýhöggvin", "nýhöggvin", "nýhöggnum", "nýhöggvinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["nýhöggni", "nýhöggna", "nýhöggna", "nýhöggna"],
+					"kvk": ["nýhöggna", "nýhöggnu", "nýhöggnu", "nýhöggnu"],
+					"hk": ["nýhöggna", "nýhöggna", "nýhöggna", "nýhöggna"]
+				},
+				"ft": {
+					"kk": ["nýhöggnu", "nýhöggnu", "nýhöggnu", "nýhöggnu"],
+					"kvk": ["nýhöggnu", "nýhöggnu", "nýhöggnu", "nýhöggnu"],
+					"hk": ["nýhöggnu", "nýhöggnu", "nýhöggnu", "nýhöggnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-nýhöggva",
+	"hash": "25860989f28fd3b242b33d301b927062f3f22a10b432b1e4a4ea2212d611a628"
+}

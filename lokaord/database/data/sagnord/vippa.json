@@ -1,0 +1,135 @@
+{
+	"orð": "vippa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vipp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vipp-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vippa",
+		"sagnbót": "vippað",
+		"boðháttur": {
+			"stýfður": "vippa",
+			"et": "vippaðu",
+			"ft": "vippið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vippa", "vippar", "vippar"],
+					"ft": ["vippum", "vippið", "vippa"]
+				},
+				"þátíð": {
+					"et": ["vippaði", "vippaðir", "vippaði"],
+					"ft": ["vippuðum", "vippuðuð", "vippuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vippi", "vippir", "vippi"],
+					"ft": ["vippum", "vippið", "vippi"]
+				},
+				"þátíð": {
+					"et": ["vippaði", "vippaðir", "vippaði"],
+					"ft": ["vippuðum", "vippuðuð", "vippuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vipparðu",
+					"ft": "vippiði"
+				},
+				"þátíð": {
+					"et": "vippaðirðu",
+					"ft": "vippuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vippirðu",
+					"ft": "vippiði"
+				},
+				"þátíð": {
+					"et": "vippaðirðu",
+					"ft": "vippuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vippast",
+		"sagnbót": "vippast",
+		"boðháttur": {
+			"et": "vippastu",
+			"ft": "vippist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vippast", "vippast", "vippast"],
+					"ft": ["vippumst", "vippist", "vippast"]
+				},
+				"þátíð": {
+					"et": ["vippaðist", "vippaðist", "vippaðist"],
+					"ft": ["vippuðumst", "vippuðust", "vippuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vippist", "vippist", "vippist"],
+					"ft": ["vippumst", "vippist", "vippist"]
+				},
+				"þátíð": {
+					"et": ["vippaðist", "vippaðist", "vippaðist"],
+					"ft": ["vippuðumst", "vippuðust", "vippuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vippastu"
+				},
+				"þátíð": {
+					"et": "vippaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vippistu"
+				},
+				"þátíð": {
+					"et": "vippaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vippandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vippaður", "vippaðan", "vippuðum", "vippaðs"],
+					"kvk": ["vippuð", "vippaða", "vippaðri", "vippaðrar"],
+					"hk": ["vippað", "vippað", "vippuðu", "vippaðs"]
+				},
+				"ft": {
+					"kk": ["vippaðir", "vippaða", "vippuðum", "vippaðra"],
+					"kvk": ["vippaðar", "vippaðar", "vippuðum", "vippaðra"],
+					"hk": ["vippuð", "vippuð", "vippuðum", "vippaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vippa",
+	"hash": "8a86153057c0bdbd9067be336426fb32960a71e926221c3e92af66b3f648abb7"
+}

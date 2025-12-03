@@ -1,0 +1,73 @@
+{
+	"orð": "hnýfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hnýf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnýfi-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hnýfa",
+		"sagnbót": "hnýfað",
+		"boðháttur": {
+			"stýfður": "hnýfa",
+			"et": "hnýfaðu",
+			"ft": "hnýfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnýfa", "hnýfar", "hnýfar"],
+					"ft": ["hnýfum", "hnýfið", "hnýfa"]
+				},
+				"þátíð": {
+					"et": ["hnýfaði", "hnýfaðir", "hnýfaði"],
+					"ft": ["hnýfuðum", "hnýfuðuð", "hnýfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnýfi", "hnýfir", "hnýfi"],
+					"ft": ["hnýfum", "hnýfið", "hnýfi"]
+				},
+				"þátíð": {
+					"et": ["hnýfaði", "hnýfaðir", "hnýfaði"],
+					"ft": ["hnýfuðum", "hnýfuðuð", "hnýfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnýfarðu",
+					"ft": "hnýfiði"
+				},
+				"þátíð": {
+					"et": "hnýfaðirðu",
+					"ft": "hnýfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnýfirðu",
+					"ft": "hnýfiði"
+				},
+				"þátíð": {
+					"et": "hnýfaðirðu",
+					"ft": "hnýfuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hnýfandi"
+	},
+	"kennistrengur": "so-hnýfa",
+	"hash": "228f610a309c0d910d215d3d66891e4ba68ccc1a45c913c516811d0de236c75f"
+}
