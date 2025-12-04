@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "reglu",
+			"mynd": "reglugerða",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-reglugerð-kvk"
 		},
 		{
-			"mynd": "gerða",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gerð-kvk"
-		},
-		{
-			"mynd": "fyrir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fyrir"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-mæli-hk"
+			"kennistrengur": "no-fyrirmæli-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["reglugerðafyrirmælin", "reglugerðafyrirmælin", "reglugerðafyrirmælunum", "reglugerðafyrirmælanna"]
 	},
 	"kennistrengur": "no-reglugerðafyrirmæli-hk",
-	"hash": "2e38938637281c3e2edf5e0ac736585446b94480218cd9fccfde1ecd11809fd8"
+	"hash": "03f4cf1c47c5e8c1b3359645f71ab4fd223beb43e02d126a8ce66e1c09601502"
 }

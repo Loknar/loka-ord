@@ -1,0 +1,30 @@
+{
+	"orð": "borgarverndarstefna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "borgar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-borg-kvk"
+		},
+		{
+			"mynd": "verndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"kennistrengur": "no-stefna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["borgarverndarstefna", "borgarverndarstefnu", "borgarverndarstefnu", "borgarverndarstefnu"],
+		"mg": ["borgarverndarstefnan", "borgarverndarstefnuna", "borgarverndarstefnunni", "borgarverndarstefnunnar"]
+	},
+	"ft": {
+		"ág": ["borgarverndarstefnur", "borgarverndarstefnur", "borgarverndarstefnum", "borgarverndarstefna"],
+		"mg": ["borgarverndarstefnurnar", "borgarverndarstefnurnar", "borgarverndarstefnunum", "borgarverndarstefnanna"]
+	},
+	"kennistrengur": "no-borgarverndarstefna-kvk",
+	"hash": "7fb88da4c7522a9aa7d7de86ccb2daa2e26745ffbcd3cd8cad6ea27f9117be8f"
+}

@@ -1,0 +1,121 @@
+{
+	"orð": "ströggla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ströggl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ströggl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ströggla",
+		"sagnbót": "strögglað",
+		"boðháttur": {
+			"stýfður": "ströggla",
+			"et": "strögglaðu",
+			"ft": "strögglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ströggla", "strögglar", "strögglar"],
+					"ft": ["strögglum", "strögglið", "ströggla"]
+				},
+				"þátíð": {
+					"et": ["strögglaði", "strögglaðir", "strögglaði"],
+					"ft": ["ströggluðum", "ströggluðuð", "ströggluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ströggli", "strögglir", "ströggli"],
+					"ft": ["strögglum", "strögglið", "ströggli"]
+				},
+				"þátíð": {
+					"et": ["strögglaði", "strögglaðir", "strögglaði"],
+					"ft": ["ströggluðum", "ströggluðuð", "ströggluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "strögglarðu",
+					"ft": "ströggliði"
+				},
+				"þátíð": {
+					"et": "strögglaðirðu",
+					"ft": "ströggluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "strögglirðu",
+					"ft": "ströggliði"
+				},
+				"þátíð": {
+					"et": "strögglaðirðu",
+					"ft": "ströggluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "strögglast",
+		"sagnbót": "strögglast",
+		"boðháttur": {
+			"et": "strögglastu",
+			"ft": "strögglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["strögglast", "strögglast", "strögglast"],
+					"ft": ["strögglumst", "strögglist", "strögglast"]
+				},
+				"þátíð": {
+					"et": ["strögglaðist", "strögglaðist", "strögglaðist"],
+					"ft": ["ströggluðumst", "ströggluðust", "ströggluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["strögglist", "strögglist", "strögglist"],
+					"ft": ["strögglumst", "strögglist", "strögglist"]
+				},
+				"þátíð": {
+					"et": ["strögglaðist", "strögglaðist", "strögglaðist"],
+					"ft": ["ströggluðumst", "ströggluðust", "ströggluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "strögglastu"
+				},
+				"þátíð": {
+					"et": "strögglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "strögglistu"
+				},
+				"þátíð": {
+					"et": "strögglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "strögglandi"
+	},
+	"kennistrengur": "so-ströggla",
+	"hash": "3ebc390b77da77075d5f7c0d03146cba5fbf0bd0a5ba09680a7950e5fdf5e79e"
+}

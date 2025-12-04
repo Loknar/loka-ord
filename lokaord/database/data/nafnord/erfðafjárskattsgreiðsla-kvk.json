@@ -4,19 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "erfða",
+			"mynd": "erfðafjárskatts",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-erfð-kvk"
-		},
-		{
-			"mynd": "fjár",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
-		},
-		{
-			"mynd": "skatts",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skattur-kk"
+			"kennistrengur": "no-erfðafjárskattur-kk"
 		},
 		{
 			"kennistrengur": "no-greiðsla-kvk"
@@ -31,5 +21,5 @@
 		"mg": ["erfðafjárskattsgreiðslurnar", "erfðafjárskattsgreiðslurnar", "erfðafjárskattsgreiðslunum", "erfðafjárskattsgreiðslnanna"]
 	},
 	"kennistrengur": "no-erfðafjárskattsgreiðsla-kvk",
-	"hash": "130d840aac026d3b256a373f7590f9381a2f700f4f57258524fe21aa84da7a87"
+	"hash": "2de31be30cc86c6f92c5a7c41e46db2a81935b417714ff1818bd48efbe33c2c3"
 }
