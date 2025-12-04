@@ -8,7 +8,6 @@ from typing import Optional
 
 import typer
 from typer import Argument, Option
-from wakepy import keep
 
 import lokaord
 from lokaord import logman
@@ -159,13 +158,12 @@ def init(
 	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False,
 	blind: Annotated[Optional[bool], Option('--blind', '-b')] = False
 ):
-	with keep.running():
-		lokaord.build_db(rebuild)
-		lokaord.write_files()
-		if blind is False:
-			lokaord.build_sight()
-		print(lokaord.get_md_stats(update_readme_table=update_readme))
-		lokaord.get_runtime()
+	lokaord.build_db(rebuild)
+	lokaord.write_files()
+	if blind is False:
+		lokaord.build_sight()
+	print(lokaord.get_md_stats(update_readme_table=update_readme))
+	lokaord.get_runtime()
 
 
 @app.command(help='Update lokaord (same as: "build-db -ch write-files -tr build-sight md-stats").')
@@ -173,13 +171,12 @@ def update(
 	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False,
 	blind: Annotated[Optional[bool], Option('--blind', '-b')] = False
 ):
-	with keep.running():
-		lokaord.build_db(changes_only=True)
-		lokaord.write_files(lokaord.Ts)
-		if blind is False:
-			lokaord.build_sight()
-		print(lokaord.get_md_stats(update_readme_table=update_readme))
-		lokaord.get_runtime()
+	lokaord.build_db(changes_only=True)
+	lokaord.write_files(lokaord.Ts)
+	if blind is False:
+		lokaord.build_sight()
+	print(lokaord.get_md_stats(update_readme_table=update_readme))
+	lokaord.get_runtime()
 
 
 @app.command(help='Add word CLI.')
