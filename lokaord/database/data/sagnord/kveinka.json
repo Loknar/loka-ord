@@ -1,0 +1,135 @@
+{
+	"orð": "kveinka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kveink",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-kvein-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kveinka",
+		"sagnbót": "kveinkað",
+		"boðháttur": {
+			"stýfður": "kveinka",
+			"et": "kveinkaðu",
+			"ft": "kveinkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kveinka", "kveinkar", "kveinkar"],
+					"ft": ["kveinkum", "kveinkið", "kveinka"]
+				},
+				"þátíð": {
+					"et": ["kveinkaði", "kveinkaðir", "kveinkaði"],
+					"ft": ["kveinkuðum", "kveinkuðuð", "kveinkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kveinki", "kveinkir", "kveinki"],
+					"ft": ["kveinkum", "kveinkið", "kveinki"]
+				},
+				"þátíð": {
+					"et": ["kveinkaði", "kveinkaðir", "kveinkaði"],
+					"ft": ["kveinkuðum", "kveinkuðuð", "kveinkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kveinkarðu",
+					"ft": "kveinkiði"
+				},
+				"þátíð": {
+					"et": "kveinkaðirðu",
+					"ft": "kveinkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kveinkirðu",
+					"ft": "kveinkiði"
+				},
+				"þátíð": {
+					"et": "kveinkaðirðu",
+					"ft": "kveinkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kveinkast",
+		"sagnbót": "kveinkast",
+		"boðháttur": {
+			"et": "kveinkastu",
+			"ft": "kveinkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kveinkast", "kveinkast", "kveinkast"],
+					"ft": ["kveinkumst", "kveinkist", "kveinkast"]
+				},
+				"þátíð": {
+					"et": ["kveinkaðist", "kveinkaðist", "kveinkaðist"],
+					"ft": ["kveinkuðumst", "kveinkuðust", "kveinkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kveinkist", "kveinkist", "kveinkist"],
+					"ft": ["kveinkumst", "kveinkist", "kveinkist"]
+				},
+				"þátíð": {
+					"et": ["kveinkaðist", "kveinkaðist", "kveinkaðist"],
+					"ft": ["kveinkuðumst", "kveinkuðust", "kveinkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kveinkastu"
+				},
+				"þátíð": {
+					"et": "kveinkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kveinkistu"
+				},
+				"þátíð": {
+					"et": "kveinkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kveinkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kveinkaður", "kveinkaðan", "kveinkuðum", "kveinkaðs"],
+					"kvk": ["kveinkuð", "kveinkaða", "kveinkaðri", "kveinkaðrar"],
+					"hk": ["kveinkað", "kveinkað", "kveinkuðu", "kveinkaðs"]
+				},
+				"ft": {
+					"kk": ["kveinkaðir", "kveinkaða", "kveinkuðum", "kveinkaðra"],
+					"kvk": ["kveinkaðar", "kveinkaðar", "kveinkuðum", "kveinkaðra"],
+					"hk": ["kveinkuð", "kveinkuð", "kveinkuðum", "kveinkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kveinka",
+	"hash": "c3536016c68ebcddb31e18b0f7c4482a18d4625d36089614c4b40102ef7507a8"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "spora",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spor-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spora",
+		"sagnbót": "sporað",
+		"boðháttur": {
+			"stýfður": "spora",
+			"et": "sporaðu",
+			"ft": "sporið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spora", "sporar", "sporar"],
+					"ft": ["sporum", "sporið", "spora"]
+				},
+				"þátíð": {
+					"et": ["sporaði", "sporaðir", "sporaði"],
+					"ft": ["sporuðum", "sporuðuð", "sporuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spori", "sporir", "spori"],
+					"ft": ["sporum", "sporið", "spori"]
+				},
+				"þátíð": {
+					"et": ["sporaði", "sporaðir", "sporaði"],
+					"ft": ["sporuðum", "sporuðuð", "sporuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sporarðu",
+					"ft": "sporiði"
+				},
+				"þátíð": {
+					"et": "sporaðirðu",
+					"ft": "sporuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sporirðu",
+					"ft": "sporiði"
+				},
+				"þátíð": {
+					"et": "sporaðirðu",
+					"ft": "sporuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sporast",
+		"sagnbót": "sporast",
+		"boðháttur": {
+			"et": "sporastu",
+			"ft": "sporist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sporast", "sporast", "sporast"],
+					"ft": ["sporumst", "sporist", "sporast"]
+				},
+				"þátíð": {
+					"et": ["sporaðist", "sporaðist", "sporaðist"],
+					"ft": ["sporuðumst", "sporuðust", "sporuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sporist", "sporist", "sporist"],
+					"ft": ["sporumst", "sporist", "sporist"]
+				},
+				"þátíð": {
+					"et": ["sporaðist", "sporaðist", "sporaðist"],
+					"ft": ["sporuðumst", "sporuðust", "sporuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sporastu"
+				},
+				"þátíð": {
+					"et": "sporaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sporistu"
+				},
+				"þátíð": {
+					"et": "sporaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sporandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sporaður", "sporaðan", "sporuðum", "sporaðs"],
+					"kvk": ["sporuð", "sporaða", "sporaðri", "sporaðrar"],
+					"hk": ["sporað", "sporað", "sporuðu", "sporaðs"]
+				},
+				"ft": {
+					"kk": ["sporaðir", "sporaða", "sporuðum", "sporaðra"],
+					"kvk": ["sporaðar", "sporaðar", "sporuðum", "sporaðra"],
+					"hk": ["sporuð", "sporuð", "sporuðum", "sporaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spora",
+	"hash": "1fe0e4efc4377926c4570a2064fee54c28acde0de9ae5637d453a5ae4680ef6e"
+}

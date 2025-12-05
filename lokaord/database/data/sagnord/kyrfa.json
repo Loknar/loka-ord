@@ -1,0 +1,73 @@
+{
+	"orð": "kyrfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kyrf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyrfi-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kyrfa",
+		"sagnbót": "kyrfað",
+		"boðháttur": {
+			"stýfður": "kyrfa",
+			"et": "kyrfaðu",
+			"ft": "kyrfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyrfa", "kyrfar", "kyrfar"],
+					"ft": ["kyrfum", "kyrfið", "kyrfa"]
+				},
+				"þátíð": {
+					"et": ["kyrfaði", "kyrfaðir", "kyrfaði"],
+					"ft": ["kyrfuðum", "kyrfuðuð", "kyrfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyrfi", "kyrfir", "kyrfi"],
+					"ft": ["kyrfum", "kyrfið", "kyrfi"]
+				},
+				"þátíð": {
+					"et": ["kyrfaði", "kyrfaðir", "kyrfaði"],
+					"ft": ["kyrfuðum", "kyrfuðuð", "kyrfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyrfarðu",
+					"ft": "kyrfiði"
+				},
+				"þátíð": {
+					"et": "kyrfaðirðu",
+					"ft": "kyrfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyrfirðu",
+					"ft": "kyrfiði"
+				},
+				"þátíð": {
+					"et": "kyrfaðirðu",
+					"ft": "kyrfuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kyrfandi"
+	},
+	"kennistrengur": "so-kyrfa",
+	"hash": "3c4329a6723593551c8454df0b2da2be2994435e7770ce7202ac3e69db13d2be"
+}

@@ -8,7 +8,6 @@
 			"kennistrengur": "smáo.fs-á"
 		},
 		{
-			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-vinna"
 		}
 	],
@@ -109,9 +108,21 @@
 					"kvk": ["áunnar", "áunnar", "áunnum", "áunninna"],
 					"hk": ["áunnin", "áunnin", "áunnnum", "áunninna"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["áunni", "áunna", "áunna", "áunna"],
+					"kvk": ["áunna", "áunnu", "áunnu", "áunnu"],
+					"hk": ["áunna", "áunna", "áunna", "áunna"]
+				},
+				"ft": {
+					"kk": ["áunnu", "áunnu", "áunnu", "áunnu"],
+					"kvk": ["áunnu", "áunnu", "áunnu", "áunnu"],
+					"hk": ["áunnu", "áunnu", "áunnu", "áunnu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-ávinna",
-	"hash": "18dc472cf17cc1424cb14c30e85155cf347d35beca70768d3470bf0e7dd57a71"
+	"hash": "f2ffac01d81655c40b63a2fa075191efb6b28d5c7fde87bc03f05c35c0ec7e5e"
 }
