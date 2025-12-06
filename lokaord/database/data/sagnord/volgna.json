@@ -1,0 +1,121 @@
+{
+	"orð": "volgna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "volgn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-volgur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "volgna",
+		"sagnbót": "volgnað",
+		"boðháttur": {
+			"stýfður": "volgna",
+			"et": "volgnaðu",
+			"ft": "volgnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["volgna", "volgnar", "volgnar"],
+					"ft": ["volgnum", "volgnið", "volgna"]
+				},
+				"þátíð": {
+					"et": ["volgnaði", "volgnaðir", "volgnaði"],
+					"ft": ["volgnuðum", "volgnuðuð", "volgnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["volgni", "volgnir", "volgni"],
+					"ft": ["volgnum", "volgnið", "volgni"]
+				},
+				"þátíð": {
+					"et": ["volgnaði", "volgnaðir", "volgnaði"],
+					"ft": ["volgnuðum", "volgnuðuð", "volgnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "volgnarðu",
+					"ft": "volgniði"
+				},
+				"þátíð": {
+					"et": "volgnaðirðu",
+					"ft": "volgnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "volgnirðu",
+					"ft": "volgniði"
+				},
+				"þátíð": {
+					"et": "volgnaðirðu",
+					"ft": "volgnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "volgnast",
+		"sagnbót": "volgnast",
+		"boðháttur": {
+			"et": "volgnastu",
+			"ft": "volgnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["volgnast", "volgnast", "volgnast"],
+					"ft": ["volgnumst", "volgnist", "volgnast"]
+				},
+				"þátíð": {
+					"et": ["volgnaðist", "volgnaðist", "volgnaðist"],
+					"ft": ["volgnuðumst", "volgnuðust", "volgnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["volgnist", "volgnist", "volgnist"],
+					"ft": ["volgnumst", "volgnist", "volgnist"]
+				},
+				"þátíð": {
+					"et": ["volgnaðist", "volgnaðist", "volgnaðist"],
+					"ft": ["volgnuðumst", "volgnuðust", "volgnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "volgnastu"
+				},
+				"þátíð": {
+					"et": "volgnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "volgnistu"
+				},
+				"þátíð": {
+					"et": "volgnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "volgnandi"
+	},
+	"kennistrengur": "so-volgna",
+	"hash": "45509fa922e7bf0621e12a124e5d6f03c923dac24c906ef63b5342e8f54edca2"
+}

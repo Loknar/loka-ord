@@ -1,0 +1,48 @@
+{
+	"orð": "dauðstressaður",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "dauð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dauði-kk"
+		},
+		{
+			"mynd": "stress",
+			"samsetning": "stofn",
+			"kennistrengur": "so-stressa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["dauðstressaður", "dauðstressaðan", "dauðstressuðum", "dauðstressaðs"],
+				"kvk": ["dauðstressuð", "dauðstressaða", "dauðstressaðri", "dauðstressaðrar"],
+				"hk": ["dauðstressað", "dauðstressað", "dauðstressuðu", "dauðstressaðs"]
+			},
+			"ft": {
+				"kk": ["dauðstressaðir", "dauðstressaða", "dauðstressuðum", "dauðstressaðra"],
+				"kvk": ["dauðstressaðar", "dauðstressaðar", "dauðstressuðum", "dauðstressaðra"],
+				"hk": ["dauðstressuð", "dauðstressuð", "dauðstressuðum", "dauðstressaðra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["dauðstressaði", "dauðstressaða", "dauðstressaða", "dauðstressaða"],
+				"kvk": ["dauðstressaða", "dauðstressuðu", "dauðstressuðu", "dauðstressuðu"],
+				"hk": ["dauðstressaða", "dauðstressaða", "dauðstressaða", "dauðstressaða"]
+			},
+			"ft": {
+				"kk": ["dauðstressuðu", "dauðstressuðu", "dauðstressuðu", "dauðstressuðu"],
+				"kvk": ["dauðstressuðu", "dauðstressuðu", "dauðstressuðu", "dauðstressuðu"],
+				"hk": ["dauðstressuðu", "dauðstressuðu", "dauðstressuðu", "dauðstressuðu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-dauðstressaður",
+	"hash": "e72d24c28b7698f960664eedb49b2e2a19fe3c31a3fcc1988b12fccde50fd1a0"
+}

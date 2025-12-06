@@ -1,0 +1,99 @@
+{
+	"orð": "handbera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-bera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handbera",
+		"sagnbót": "handborið",
+		"boðháttur": {
+			"stýfður": "handber",
+			"et": "handberðu",
+			"ft": "handberið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handber", "handberð", "handber"],
+					"ft": ["handberum", "handberið", "handbera"]
+				},
+				"þátíð": {
+					"et": ["handbar", "handbarst", "handbar"],
+					"ft": ["handbárum", "handbáruð", "handbáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handberi", "handberir", "handberi"],
+					"ft": ["handberum", "handberið", "handberi"]
+				},
+				"þátíð": {
+					"et": ["handbæri", "handbærir", "handbæri"],
+					"ft": ["handbærum", "handbæruð", "handbæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handberðu",
+					"ft": "handberiði"
+				},
+				"þátíð": {
+					"et": "handbarstu",
+					"ft": "handbáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handberirðu",
+					"ft": "handberiði"
+				},
+				"þátíð": {
+					"et": "handbærirðu",
+					"ft": "handbæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handberandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handborinn", "handborinn", "handbornum", "handborins"],
+					"kvk": ["handborin", "handborna", "handborinni", "handborinnar"],
+					"hk": ["handborið", "handborið", "handbornu", "handborins"]
+				},
+				"ft": {
+					"kk": ["handbornir", "handborna", "handbornum", "handborinna"],
+					"kvk": ["handbornar", "handbornar", "handbornum", "handborinna"],
+					"hk": ["handborin", "handborin", "handbornum", "handborinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handborni", "handborna", "handborna", "handborna"],
+					"kvk": ["handborna", "handbornu", "handbornu", "handbornu"],
+					"hk": ["handborna", "handborna", "handborna", "handborna"]
+				},
+				"ft": {
+					"kk": ["handbornu", "handbornu", "handbornu", "handbornu"],
+					"kvk": ["handbornu", "handbornu", "handbornu", "handbornu"],
+					"hk": ["handbornu", "handbornu", "handbornu", "handbornu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handbera",
+	"hash": "ecb8940c9baa0bf8aa96bd9e8d853a2f309e4d4da0e0dbeae84b59380d68ad42"
+}

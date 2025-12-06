@@ -1,0 +1,73 @@
+{
+	"orð": "vessa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vess",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vessi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vessa",
+		"sagnbót": "vessað",
+		"boðháttur": {
+			"stýfður": "vessa",
+			"et": "vessaðu",
+			"ft": "vessið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vessa", "vessar", "vessar"],
+					"ft": ["vessum", "vessið", "vessa"]
+				},
+				"þátíð": {
+					"et": ["vessaði", "vessaðir", "vessaði"],
+					"ft": ["vessuðum", "vessuðuð", "vessuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vessi", "vessir", "vessi"],
+					"ft": ["vessum", "vessið", "vessi"]
+				},
+				"þátíð": {
+					"et": ["vessaði", "vessaðir", "vessaði"],
+					"ft": ["vessuðum", "vessuðuð", "vessuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vessarðu",
+					"ft": "vessiði"
+				},
+				"þátíð": {
+					"et": "vessaðirðu",
+					"ft": "vessuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vessirðu",
+					"ft": "vessiði"
+				},
+				"þátíð": {
+					"et": "vessaðirðu",
+					"ft": "vessuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vessandi"
+	},
+	"kennistrengur": "so-vessa",
+	"hash": "6eaf9fe849a2cf79b9db8dfd7e43cbab5d6922295d167c4d8f9810d673b7700e"
+}

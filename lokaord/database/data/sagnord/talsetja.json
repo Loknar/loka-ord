@@ -1,0 +1,99 @@
+{
+	"orð": "talsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tal",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tal-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "talsetja",
+		"sagnbót": "talsett",
+		"boðháttur": {
+			"stýfður": "talset",
+			"et": "talsettu",
+			"ft": "talsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["talset", "talsetur", "talsetur"],
+					"ft": ["talsetjum", "talsetjið", "talsetja"]
+				},
+				"þátíð": {
+					"et": ["talsetti", "talsettir", "talsetti"],
+					"ft": ["talsettum", "talsettuð", "talsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["talsetji", "talsetjir", "talsetji"],
+					"ft": ["talsetjum", "talsetjið", "talsetji"]
+				},
+				"þátíð": {
+					"et": ["talsetti", "talsettir", "talsetti"],
+					"ft": ["talsettum", "talsettuð", "talsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "talseturðu",
+					"ft": "talsetjiði"
+				},
+				"þátíð": {
+					"et": "talsettirðu",
+					"ft": "talsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "talsetjirðu",
+					"ft": "talsetjiði"
+				},
+				"þátíð": {
+					"et": "talsettirðu",
+					"ft": "talsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "talsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["talsettur", "talsettan", "talsettum", "talsetts"],
+					"kvk": ["talsett", "talsetta", "talsettri", "talsettrar"],
+					"hk": ["talsett", "talsett", "talsettu", "talsetts"]
+				},
+				"ft": {
+					"kk": ["talsettir", "talsetta", "talsettum", "talsettra"],
+					"kvk": ["talsettar", "talsettar", "talsettum", "talsettra"],
+					"hk": ["talsett", "talsett", "talsettum", "talsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["talsetti", "talsetta", "talsetta", "talsetta"],
+					"kvk": ["talsetta", "talsettu", "talsettu", "talsettu"],
+					"hk": ["talsetta", "talsetta", "talsetta", "talsetta"]
+				},
+				"ft": {
+					"kk": ["talsettu", "talsettu", "talsettu", "talsettu"],
+					"kvk": ["talsettu", "talsettu", "talsettu", "talsettu"],
+					"hk": ["talsettu", "talsettu", "talsettu", "talsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-talsetja",
+	"hash": "d00f51d18e67bfa490b98d35b847aa7979b99b56d4e3fa0fbc7b49e09c9cdc9a"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "sóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sót",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sót-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sóta",
+		"sagnbót": "sótað",
+		"boðháttur": {
+			"stýfður": "sóta",
+			"et": "sótaðu",
+			"ft": "sótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sóta", "sótar", "sótar"],
+					"ft": ["sótum", "sótið", "sóta"]
+				},
+				"þátíð": {
+					"et": ["sótaði", "sótaðir", "sótaði"],
+					"ft": ["sótuðum", "sótuðuð", "sótuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sóti", "sótir", "sóti"],
+					"ft": ["sótum", "sótið", "sóti"]
+				},
+				"þátíð": {
+					"et": ["sótaði", "sótaðir", "sótaði"],
+					"ft": ["sótuðum", "sótuðuð", "sótuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sótarðu",
+					"ft": "sótiði"
+				},
+				"þátíð": {
+					"et": "sótaðirðu",
+					"ft": "sótuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sótirðu",
+					"ft": "sótiði"
+				},
+				"þátíð": {
+					"et": "sótaðirðu",
+					"ft": "sótuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sótast",
+		"sagnbót": "sótast",
+		"boðháttur": {
+			"et": "sótastu",
+			"ft": "sótist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sótast", "sótast", "sótast"],
+					"ft": ["sótumst", "sótist", "sótast"]
+				},
+				"þátíð": {
+					"et": ["sótaðist", "sótaðist", "sótaðist"],
+					"ft": ["sótuðumst", "sótuðust", "sótuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sótist", "sótist", "sótist"],
+					"ft": ["sótumst", "sótist", "sótist"]
+				},
+				"þátíð": {
+					"et": ["sótaðist", "sótaðist", "sótaðist"],
+					"ft": ["sótuðumst", "sótuðust", "sótuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sótastu"
+				},
+				"þátíð": {
+					"et": "sótaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sótistu"
+				},
+				"þátíð": {
+					"et": "sótaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sótaður", "sótaðan", "sótuðum", "sótaðs"],
+					"kvk": ["sótuð", "sótaða", "sótaðri", "sótaðrar"],
+					"hk": ["sótað", "sótað", "sótuðu", "sótaðs"]
+				},
+				"ft": {
+					"kk": ["sótaðir", "sótaða", "sótuðum", "sótaðra"],
+					"kvk": ["sótaðar", "sótaðar", "sótuðum", "sótaðra"],
+					"hk": ["sótuð", "sótuð", "sótuðum", "sótaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sóta",
+	"hash": "a6278b0e1fd3a7a60deb3587fbc5c080aec1aff0051f875e40a6867bad9e70f4"
+}
