@@ -1,0 +1,131 @@
+{
+	"orð": "útvísa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vísa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útvísa",
+		"sagnbót": "útvísað",
+		"boðháttur": {
+			"stýfður": "útvísa",
+			"et": "útvísaðu",
+			"ft": "útvísið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útvísa", "útvísar", "útvísar"],
+					"ft": ["útvísum", "útvísið", "útvísa"]
+				},
+				"þátíð": {
+					"et": ["útvísaði", "útvísaðir", "útvísaði"],
+					"ft": ["útvísuðum", "útvísuðuð", "útvísuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útvísi", "útvísir", "útvísi"],
+					"ft": ["útvísum", "útvísið", "útvísi"]
+				},
+				"þátíð": {
+					"et": ["útvísaði", "útvísaðir", "útvísaði"],
+					"ft": ["útvísuðum", "útvísuðuð", "útvísuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útvísarðu",
+					"ft": "útvísiði"
+				},
+				"þátíð": {
+					"et": "útvísaðirðu",
+					"ft": "útvísuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útvísirðu",
+					"ft": "útvísiði"
+				},
+				"þátíð": {
+					"et": "útvísaðirðu",
+					"ft": "útvísuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útvísast",
+		"sagnbót": "útvísast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útvísast", "útvísast", "útvísast"],
+					"ft": ["útvísumst", "útvísist", "útvísast"]
+				},
+				"þátíð": {
+					"et": ["útvísaðist", "útvísaðist", "útvísaðist"],
+					"ft": ["útvísuðumst", "útvísuðust", "útvísuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útvísist", "útvísist", "útvísist"],
+					"ft": ["útvísumst", "útvísist", "útvísist"]
+				},
+				"þátíð": {
+					"et": ["útvísaðist", "útvísaðist", "útvísaðist"],
+					"ft": ["útvísuðumst", "útvísuðust", "útvísuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útvísastu"
+				},
+				"þátíð": {
+					"et": "útvísaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útvísistu"
+				},
+				"þátíð": {
+					"et": "útvísaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útvísandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útvísaður", "útvísaðan", "útvísuðum", "útvísaðs"],
+					"kvk": ["útvísuð", "útvísaða", "útvísaðri", "útvísaðrar"],
+					"hk": ["útvísað", "útvísað", "útvísuðu", "útvísaðs"]
+				},
+				"ft": {
+					"kk": ["útvísaðir", "útvísaða", "útvísuðum", "útvísaðra"],
+					"kvk": ["útvísaðar", "útvísaðar", "útvísðuðum", "útvísaðra"],
+					"hk": ["útvísuð", "útvísuð", "útvísuðum", "útvísaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útvísa",
+	"hash": "9654ffad3fadd9f23c40f58fa16765da30612484a41ed071146e8ca466000bd6"
+}

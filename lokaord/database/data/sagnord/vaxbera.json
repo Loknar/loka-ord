@@ -1,0 +1,87 @@
+{
+	"orð": "vaxbera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vax",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vax-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vaxbera",
+		"sagnbót": "vaxborið",
+		"boðháttur": {
+			"stýfður": "vaxber",
+			"et": "vaxberðu",
+			"ft": "vaxberið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vaxber", "vaxberð", "vaxber"],
+					"ft": ["vaxberum", "vaxberið", "vaxbera"]
+				},
+				"þátíð": {
+					"et": ["vaxbar", "vaxbarst", "vaxbar"],
+					"ft": ["vaxbárum", "vaxbáruð", "vaxbáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vaxberi", "vaxberir", "vaxberi"],
+					"ft": ["vaxberum", "vaxberið", "vaxberi"]
+				},
+				"þátíð": {
+					"et": ["vaxbæri", "vaxbærir", "vaxbæri"],
+					"ft": ["vaxbærum", "vaxbæruð", "vaxbæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vaxberðu",
+					"ft": "vaxberiði"
+				},
+				"þátíð": {
+					"et": "vaxbarstu",
+					"ft": "vaxbáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vaxberirðu",
+					"ft": "vaxberiði"
+				},
+				"þátíð": {
+					"et": "vaxbærirðu",
+					"ft": "vaxbæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vaxberandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vaxborinn", "vaxborinn", "vaxbornum", "vaxborins"],
+					"kvk": ["vaxborin", "vaxborna", "vaxborinni", "vaxborinnar"],
+					"hk": ["vaxborið", "vaxborið", "vaxbornu", "vaxborins"]
+				},
+				"ft": {
+					"kk": ["vaxbornir", "vaxborna", "vaxbornum", "vaxborinna"],
+					"kvk": ["vaxbornar", "vaxbornar", "vaxbornum", "vaxborinna"],
+					"hk": ["vaxborin", "vaxborin", "vaxbornum", "vaxborinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vaxbera",
+	"hash": "fd03f83802ea1707b0a4abec19e25408846b11ff7a2cd90e440affbf2946a62c"
+}

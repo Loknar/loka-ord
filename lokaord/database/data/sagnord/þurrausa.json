@@ -1,0 +1,87 @@
+{
+	"orð": "þurrausa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þurr",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þurr"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ausa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þurrausa",
+		"sagnbót": "þurrausið",
+		"boðháttur": {
+			"stýfður": "þurraus",
+			"et": "þurraustu",
+			"ft": "þurrausið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þurreys", "þurreyst", "þurreys"],
+					"ft": ["þurrausum", "þurrausið", "þurrausa"]
+				},
+				"þátíð": {
+					"et": ["þurrjós", "þurrjóst", "þurrjós"],
+					"ft": ["þurrjusum", "þurrjusuð", "þurrjusu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þurrausi", "þurrausir", "þurrausi"],
+					"ft": ["þurrausum", "þurrausið", "þurrausi"]
+				},
+				"þátíð": {
+					"et": ["þurrysi", "þurrysir", "þurrysi"],
+					"ft": ["þurrysum", "þurrysuð", "þurrysu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þurreystu",
+					"ft": "þurrausiði"
+				},
+				"þátíð": {
+					"et": "þurrjóstu",
+					"ft": "þurrjusuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þurrausirðu",
+					"ft": "þurrausiði"
+				},
+				"þátíð": {
+					"et": "þurrysirðu",
+					"ft": "þurrysuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þurrausandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þurrausinn", "þurrausinn", "þurrausnum", "þurrausins"],
+					"kvk": ["þurrausin", "þurrausna", "þurrausinni", "þurrausinnar"],
+					"hk": ["þurrausið", "þurrausið", "þurrausnu", "þurrausins"]
+				},
+				"ft": {
+					"kk": ["þurrausnir", "þurrausna", "þurrausnum", "þurrausinna"],
+					"kvk": ["þurrausnar", "þurrausnar", "þurrausnum", "þurrausinna"],
+					"hk": ["þurrausin", "þurrausin", "þurrausnum", "þurrausinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þurrausa",
+	"hash": "fee25cf9a8874dc32ab98b20d771887c4c77fbf59b0e69c5e0be0d005f1ab099"
+}

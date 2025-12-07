@@ -1,0 +1,135 @@
+{
+	"orð": "trukka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "trukk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-trukkur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "trukka",
+		"sagnbót": "trukkað",
+		"boðháttur": {
+			"stýfður": "trukka",
+			"et": "trukkaðu",
+			"ft": "trukkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trukka", "trukkar", "trukkar"],
+					"ft": ["trukkum", "trukkið", "trukka"]
+				},
+				"þátíð": {
+					"et": ["trukkaði", "trukkaðir", "trukkaði"],
+					"ft": ["trukkuðum", "trukkuðuð", "trukkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trukki", "trukkir", "trukki"],
+					"ft": ["trukkum", "trukkið", "trukki"]
+				},
+				"þátíð": {
+					"et": ["trukkaði", "trukkaðir", "trukkaði"],
+					"ft": ["trukkuðum", "trukkuðuð", "trukkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "trukkarðu",
+					"ft": "trukkiði"
+				},
+				"þátíð": {
+					"et": "trukkaðirðu",
+					"ft": "trukkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "trukkirðu",
+					"ft": "trukkiði"
+				},
+				"þátíð": {
+					"et": "trukkaðirðu",
+					"ft": "trukkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "trukkast",
+		"sagnbót": "trukkast",
+		"boðháttur": {
+			"et": "trukkastu",
+			"ft": "trukkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trukkast", "trukkast", "trukkast"],
+					"ft": ["trukkumst", "trukkist", "trukkast"]
+				},
+				"þátíð": {
+					"et": ["trukkaðist", "trukkaðist", "trukkaðist"],
+					"ft": ["trukkuðumst", "trukkuðust", "trukkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trukkist", "trukkist", "trukkist"],
+					"ft": ["trukkumst", "trukkist", "trukkist"]
+				},
+				"þátíð": {
+					"et": ["trukkaðist", "trukkaðist", "trukkaðist"],
+					"ft": ["trukkuðumst", "trukkuðust", "trukkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "trukkastu"
+				},
+				"þátíð": {
+					"et": "trukkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "trukkistu"
+				},
+				"þátíð": {
+					"et": "trukkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "trukkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["trukkaður", "trukkaðan", "trukkuðum", "trukkaðs"],
+					"kvk": ["trukkuð", "trukkaða", "trukkaðri", "trukkaðrar"],
+					"hk": ["trukkað", "trukkað", "trukkuðu", "trukkaðs"]
+				},
+				"ft": {
+					"kk": ["trukkaðir", "trukkaða", "trukkuðum", "trukkaðra"],
+					"kvk": ["trukkaðar", "trukkaðar", "trukkuðum", "trukkaðra"],
+					"hk": ["trukkuð", "trukkuð", "trukkuðum", "trukkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-trukka",
+	"hash": "8185c1d91d4558f1d8304d7197fe1540156c6498081da0a0b3855191ec4cfe6f"
+}
