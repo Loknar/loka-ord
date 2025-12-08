@@ -1,0 +1,121 @@
+{
+	"orð": "hora",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hor",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hor-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hora",
+		"sagnbót": "horað",
+		"boðháttur": {
+			"stýfður": "hora",
+			"et": "horaðu",
+			"ft": "horið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hora", "horar", "horar"],
+					"ft": ["horum", "horið", "hora"]
+				},
+				"þátíð": {
+					"et": ["horaði", "horaðir", "horaði"],
+					"ft": ["horuðum", "horuðuð", "horuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hori", "horir", "hori"],
+					"ft": ["horum", "horið", "hori"]
+				},
+				"þátíð": {
+					"et": ["horaði", "horaðir", "horaði"],
+					"ft": ["horuðum", "horuðuð", "horuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "horarðu",
+					"ft": "horiði"
+				},
+				"þátíð": {
+					"et": "horaðirðu",
+					"ft": "horuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "horirðu",
+					"ft": "horiði"
+				},
+				"þátíð": {
+					"et": "horaðirðu",
+					"ft": "horuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "horast",
+		"sagnbót": "horast",
+		"boðháttur": {
+			"et": "horastu",
+			"ft": "horist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["horast", "horast", "horast"],
+					"ft": ["horumst", "horist", "horast"]
+				},
+				"þátíð": {
+					"et": ["horaðist", "horaðist", "horaðist"],
+					"ft": ["horuðumst", "horuðust", "horuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["horist", "horist", "horist"],
+					"ft": ["horumst", "horist", "horist"]
+				},
+				"þátíð": {
+					"et": ["horaðist", "horaðist", "horaðist"],
+					"ft": ["horuðumst", "horuðust", "horuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "horastu"
+				},
+				"þátíð": {
+					"et": "horaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "horistu"
+				},
+				"þátíð": {
+					"et": "horaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "horandi"
+	},
+	"kennistrengur": "so-hora",
+	"hash": "833b2020854c2ee64f39b7f10b9d2ebf7a7d085d2ee03546d42ed34811f49f1c"
+}

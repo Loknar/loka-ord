@@ -1,0 +1,99 @@
+{
+	"orð": "ríkisstyðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-styðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ríkisstyðja",
+		"sagnbót": "ríkisstutt",
+		"boðháttur": {
+			"stýfður": "ríkisstyð",
+			"et": "ríkisstyddu",
+			"ft": "ríkisstyðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ríkisstyð", "ríkisstyður", "ríkisstyður"],
+					"ft": ["ríkisstyðjum", "ríkisstyðjið", "ríkisstyðja"]
+				},
+				"þátíð": {
+					"et": ["ríkisstuddi", "ríkisstuddir", "ríkisstuddi"],
+					"ft": ["ríkisstuddum", "ríkisstudduð", "ríkisstuddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ríkisstyðji", "ríkisstyðjir", "ríkisstyðji"],
+					"ft": ["ríkisstyðjum", "ríkisstyðjið", "ríkisstyðji"]
+				},
+				"þátíð": {
+					"et": ["ríkisstyddi", "ríkisstyddir", "ríkisstyddi"],
+					"ft": ["ríkisstyddum", "ríkisstydduð", "ríkisstyddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ríkisstyðurðu",
+					"ft": "ríkisstyðjiði"
+				},
+				"þátíð": {
+					"et": "ríkisstuddirðu",
+					"ft": "ríkisstudduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ríkisstyðjirðu",
+					"ft": "ríkisstyðjiði"
+				},
+				"þátíð": {
+					"et": "ríkisstyddirðu",
+					"ft": "ríkisstydduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ríkisstyðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ríkisstuddur", "ríkisstuddan", "ríkisstuddum", "ríkisstudds"],
+					"kvk": ["ríkisstudd", "ríkisstudda", "ríkisstuddri", "ríkisstuddrar"],
+					"hk": ["ríkisstutt", "ríkisstutt", "ríkisstuddu", "ríkisstudds"]
+				},
+				"ft": {
+					"kk": ["ríkisstuddir", "ríkisstudda", "ríkisstuddum", "ríkisstuddra"],
+					"kvk": ["ríkisstuddar", "ríkisstuddar", "ríkisstuddum", "ríkisstuddra"],
+					"hk": ["ríkisstudd", "ríkisstudd", "ríkisstuddum", "ríkisstuddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ríkisstuddi", "ríkisstudda", "ríkisstudda", "ríkisstudda"],
+					"kvk": ["ríkisstudda", "ríkisstuddu", "ríkisstuddu", "ríkisstuddu"],
+					"hk": ["ríkisstudda", "ríkisstudda", "ríkisstudda", "ríkisstudda"]
+				},
+				"ft": {
+					"kk": ["ríkisstuddu", "ríkisstuddu", "ríkisstuddu", "ríkisstuddu"],
+					"kvk": ["ríkisstuddu", "ríkisstuddu", "ríkisstuddu", "ríkisstuddu"],
+					"hk": ["ríkisstuddu", "ríkisstuddu", "ríkisstuddu", "ríkisstuddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ríkisstyðja",
+	"hash": "27b5c4ecd20a2a2bafcf1ade11e906895fd8a46b5715b4c0a0f64192b0e85dcd"
+}

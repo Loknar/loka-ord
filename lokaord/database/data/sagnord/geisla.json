@@ -8,7 +8,6 @@
 			"kennistrengur": "no-geisli-kk"
 		},
 		{
-			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -127,9 +126,21 @@
 					"kvk": ["geislaðar", "geislaðar", "geisluðum", "geislaðra"],
 					"hk": ["geisluð", "geisluð", "geisluðum", "geislaðra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["geislaði", "geislaða", "geislaða", "geislaða"],
+					"kvk": ["geislaða", "geisluðu", "geisluðu", "geisluðu"],
+					"hk": ["geislaða", "geislaða", "geislaða", "geislaða"]
+				},
+				"ft": {
+					"kk": ["geisluðu", "geisluðu", "geisluðu", "geisluðu"],
+					"kvk": ["geisluðu", "geisluðu", "geisluðu", "geisluðu"],
+					"hk": ["geisluðu", "geisluðu", "geisluðu", "geisluðu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-geisla",
-	"hash": "b62d01637d099de3258cdae1feccc6fd94e9eec8698982d2b3b13e20d472a749"
+	"hash": "6cbe8780281372c3ad472660f15397a11d86c9dfc867f0bd8fea9ec451b8661d"
 }

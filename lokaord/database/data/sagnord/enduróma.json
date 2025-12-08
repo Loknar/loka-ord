@@ -8,7 +8,13 @@
 			"kennistrengur": "no-endur-hk"
 		},
 		{
-			"kennistrengur": "so-óma"
+			"mynd": "óm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ómur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
 		}
 	],
 	"germynd": {
@@ -64,6 +70,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "endurómast",
+		"sagnbót": "endurómast",
+		"boðháttur": {
+			"et": "endurómastu",
+			"ft": "endurómist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurómast", "endurómast", "endurómast"],
+					"ft": ["endurómumst", "endurómist", "endurómast"]
+				},
+				"þátíð": {
+					"et": ["endurómaðist", "endurómaðist", "endurómaðist"],
+					"ft": ["endurómuðumst", "endurómuðust", "endurómuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurómist", "endurómist", "endurómist"],
+					"ft": ["endurómumst", "endurómist", "endurómist"]
+				},
+				"þátíð": {
+					"et": ["endurómaðist", "endurómaðist", "endurómaðist"],
+					"ft": ["endurómuðumst", "endurómuðust", "endurómuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurómastu"
+				},
+				"þátíð": {
+					"et": "endurómaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurómistu"
+				},
+				"þátíð": {
+					"et": "endurómaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "endurómandi",
 		"þátíðar": {
@@ -82,5 +136,5 @@
 		}
 	},
 	"kennistrengur": "so-enduróma",
-	"hash": "4c867b2fd47977c3eddd8d1b93f6952bcf319a09c23412c73a2cdd312b75e3e9"
+	"hash": "1bf25b7b6397350b6378b3e63cb7671cb72d79f0bbe27c1e9dee94d9da48dbcc"
 }
