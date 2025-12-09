@@ -1,0 +1,74 @@
+{
+	"orð": "skíta",
+	"flokkur": "sagnorð",
+	"merking": "skítaði",
+	"samsett": [
+		{
+			"mynd": "skít",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skítur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skíta",
+		"sagnbót": "skítað",
+		"boðháttur": {
+			"stýfður": "skíta",
+			"et": "skítaðu",
+			"ft": "skítið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skíta", "skítar", "skítar"],
+					"ft": ["skítum", "skítið", "skíta"]
+				},
+				"þátíð": {
+					"et": ["skítaði", "skítaðir", "skítaði"],
+					"ft": ["skítuðum", "skítuðuð", "skítuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skíti", "skítir", "skíti"],
+					"ft": ["skítum", "skítið", "skíti"]
+				},
+				"þátíð": {
+					"et": ["skítaði", "skítaðir", "skítaði"],
+					"ft": ["skítuðum", "skítuðuð", "skítuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skítarðu",
+					"ft": "skítiði"
+				},
+				"þátíð": {
+					"et": "skítaðirðu",
+					"ft": "skítuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skítirðu",
+					"ft": "skítiði"
+				},
+				"þátíð": {
+					"et": "skítaðirðu",
+					"ft": "skítuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skítandi"
+	},
+	"kennistrengur": "so-skíta-_skítaði_",
+	"hash": "0724d24361bd351bd357ee9699a0e733773194ab9e65f1bafd7013ad51bbed51"
+}
