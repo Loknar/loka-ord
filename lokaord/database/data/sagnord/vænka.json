@@ -1,0 +1,135 @@
+{
+	"orð": "vænka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vænk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-vænn"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vænka",
+		"sagnbót": "vænkað",
+		"boðháttur": {
+			"stýfður": "vænka",
+			"et": "vænkaðu",
+			"ft": "vænkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vænka", "vænkar", "vænkar"],
+					"ft": ["vænkum", "vænkið", "vænka"]
+				},
+				"þátíð": {
+					"et": ["vænkaði", "vænkaðir", "vænkaði"],
+					"ft": ["vænkuðum", "vænkuðuð", "vænkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vænki", "vænkir", "vænki"],
+					"ft": ["vænkum", "vænkið", "vænki"]
+				},
+				"þátíð": {
+					"et": ["vænkaði", "vænkaðir", "vænkaði"],
+					"ft": ["vænkuðum", "vænkuðuð", "vænkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vænkarðu",
+					"ft": "vænkiði"
+				},
+				"þátíð": {
+					"et": "vænkaðirðu",
+					"ft": "vænkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vænkirðu",
+					"ft": "vænkiði"
+				},
+				"þátíð": {
+					"et": "vænkaðirðu",
+					"ft": "vænkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vænkast",
+		"sagnbót": "vænkast",
+		"boðháttur": {
+			"et": "vænkastu",
+			"ft": "vænkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vænkast", "vænkast", "vænkast"],
+					"ft": ["vænkumst", "vænkist", "vænkast"]
+				},
+				"þátíð": {
+					"et": ["vænkaðist", "vænkaðist", "vænkaðist"],
+					"ft": ["vænkuðumst", "vænkuðust", "vænkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vænkist", "vænkist", "vænkist"],
+					"ft": ["vænkumst", "vænkist", "vænkist"]
+				},
+				"þátíð": {
+					"et": ["vænkaðist", "vænkaðist", "vænkaðist"],
+					"ft": ["vænkuðumst", "vænkuðust", "vænkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vænkastu"
+				},
+				"þátíð": {
+					"et": "vænkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vænkistu"
+				},
+				"þátíð": {
+					"et": "vænkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vænkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vænkaður", "vænkaðan", "vænkuðum", "vænkaðs"],
+					"kvk": ["vænkuð", "vænkaða", "vænkaðri", "vænkaðrar"],
+					"hk": ["vænkað", "vænkað", "vænkuðu", "vænkaðs"]
+				},
+				"ft": {
+					"kk": ["vænkaðir", "vænkaða", "vænkuðum", "vænkaðra"],
+					"kvk": ["vænkaðar", "vænkaðar", "vænkuðum", "vænkaðra"],
+					"hk": ["vænkuð", "vænkuð", "vænkuðum", "vænkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vænka",
+	"hash": "52a16ffa867b3a83eb63b4c24fa115b355a4f28fb65ee320f19cdee700adc6d1"
+}

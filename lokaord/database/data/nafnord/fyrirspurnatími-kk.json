@@ -4,17 +4,11 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "fyrir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fyrir"
-		},
-		{
-			"mynd": "spurna",
+			"mynd": "fyrirspurna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-spurn-kvk"
+			"kennistrengur": "no-fyrirspurn-kvk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-tími-kk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["fyrirspurnatími", "fyrirspurnatíma", "fyrirspurnatíma", "fyrirspurnatíma"],
 		"mg": ["fyrirspurnatíminn", "fyrirspurnatímann", "fyrirspurnatímanum", "fyrirspurnatímans"]
 	},
+	"ft": {
+		"ág": ["fyrirspurnatímar", "fyrirspurnatíma", "fyrirspurnatímum", "fyrirspurnatíma"],
+		"mg": ["fyrirspurnatímarnir", "fyrirspurnatímana", "fyrirspurnatímunum", "fyrirspurnatímanna"]
+	},
 	"kennistrengur": "no-fyrirspurnatími-kk",
-	"hash": "89dcc4902225026c2d632fe54350de2e6daf5d05f5793425ad4c4ffc9fd2eccc"
+	"hash": "20a64da7f339ebf9ec6c4d35a072171456c2ac0ea48d149c55b6a0ab2cb1e943"
 }

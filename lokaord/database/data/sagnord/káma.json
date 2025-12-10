@@ -8,7 +8,6 @@
 			"kennistrengur": "no-kám-hk"
 		},
 		{
-			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -127,9 +126,21 @@
 					"kvk": ["kámaðar", "kámaðar", "kámuðum", "kámaðra"],
 					"hk": ["kámuð", "kámuð", "kámuðum", "kámaðra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kámaði", "kámaða", "kámaða", "kámaða"],
+					"kvk": ["kámaða", "kámuðu", "kámuðu", "kámuðu"],
+					"hk": ["kámaða", "kámaða", "kámaða", "kámaða"]
+				},
+				"ft": {
+					"kk": ["kámuðu", "kámuðu", "kámuðu", "kámuðu"],
+					"kvk": ["kámuðu", "kámuðu", "kámuðu", "kámuðu"],
+					"hk": ["kámuðu", "kámuðu", "kámuðu", "kámuðu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-káma",
-	"hash": "f6482e5bf22663554aff577a094d5d46db2d7b4a5c432e9fbfcb75208072ee47"
+	"hash": "8f219f5ad01b565279b6ee24100fbdbce6792af23c6edf35826c65b204697e0d"
 }

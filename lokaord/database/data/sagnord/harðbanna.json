@@ -1,0 +1,99 @@
+{
+	"orð": "harðbanna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "harð",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-harður"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-banna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "harðbanna",
+		"sagnbót": "harðbannað",
+		"boðháttur": {
+			"stýfður": "harðbanna",
+			"et": "harðbannaðu",
+			"ft": "harðbannið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["harðbanna", "harðbannar", "harðbannar"],
+					"ft": ["harðbönnum", "harðbannið", "harðbanna"]
+				},
+				"þátíð": {
+					"et": ["harðbannaði", "harðbannaðir", "harðbannaði"],
+					"ft": ["harðbönnuðum", "harðbönnuðuð", "harðbönnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["harðbanni", "harðbannir", "harðbanni"],
+					"ft": ["harðbönnum", "harðbannið", "harðbanni"]
+				},
+				"þátíð": {
+					"et": ["harðbannaði", "harðbannaðir", "harðbannaði"],
+					"ft": ["harðbönnuðum", "harðbönnuðuð", "harðbönnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "harðbannarðu",
+					"ft": "harðbanniði"
+				},
+				"þátíð": {
+					"et": "harðbannaðirðu",
+					"ft": "harðbönnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "harðbannirðu",
+					"ft": "harðbanniði"
+				},
+				"þátíð": {
+					"et": "harðbannaðirðu",
+					"ft": "harðbönnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "harðbannandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["harðbannaður", "harðbannaðan", "harðbönnuðum", "harðbannaðs"],
+					"kvk": ["harðbönnuð", "harðbannaða", "harðbannaðri", "harðbannaðrar"],
+					"hk": ["harðbannað", "harðbannað", "harðbönnuðu", "harðbannaðs"]
+				},
+				"ft": {
+					"kk": ["harðbannaðir", "harðbannaða", "harðbönnuðum", "harðbannaðra"],
+					"kvk": ["harðbannaðar", "harðbannaðar", "harðbönnuðum", "harðbannaðra"],
+					"hk": ["harðbönnuð", "harðbönnuð", "harðbönnuðum", "harðbannaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["harðbannaði", "harðbannaða", "harðbannaða", "harðbannaða"],
+					"kvk": ["harðbannaða", "harðbönnuðu", "harðbönnuðu", "harðbönnuðu"],
+					"hk": ["harðbannaða", "harðbannaða", "harðbannaða", "harðbannaða"]
+				},
+				"ft": {
+					"kk": ["harðbönnuðu", "harðbönnuðu", "harðbönnuðu", "harðbönnuðu"],
+					"kvk": ["harðbönnuðu", "harðbönnuðu", "harðbönnuðu", "harðbönnuðu"],
+					"hk": ["harðbönnuðu", "harðbönnuðu", "harðbönnuðu", "harðbönnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-harðbanna",
+	"hash": "dd2d7c5cee89837c639e743a442876b3877f0ba495c9602ba266f8e1db0cad78"
+}

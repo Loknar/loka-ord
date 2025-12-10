@@ -1,0 +1,95 @@
+{
+	"orð": "voma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vom",
+			"samsetning": "stofn",
+			"kennistrengur": "no-voma-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "voma",
+		"sagnbót": "vomað",
+		"boðháttur": {
+			"stýfður": "voma",
+			"et": "vomaðu",
+			"ft": "vomið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["voma", "vomar", "vomar"],
+					"ft": ["vomum", "vomið", "voma"]
+				},
+				"þátíð": {
+					"et": ["vomaði", "vomaðir", "vomaði"],
+					"ft": ["vomuðum", "vomuðuð", "vomuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vomi", "vomir", "vomi"],
+					"ft": ["vomum", "vomið", "vomi"]
+				},
+				"þátíð": {
+					"et": ["vomaði", "vomaðir", "vomaði"],
+					"ft": ["vomuðum", "vomuðuð", "vomuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "vomast",
+		"sagnbót": "vomast",
+		"boðháttur": {
+			"et": "vomastu",
+			"ft": "vomist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vomast", "vomast", "vomast"],
+					"ft": ["vomumst", "vomist", "vomast"]
+				},
+				"þátíð": {
+					"et": ["vomaðist", "vomaðist", "vomaðist"],
+					"ft": ["vomuðumst", "vomuðust", "vomuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vomist", "vomist", "vomist"],
+					"ft": ["vomumst", "vomist", "vomist"]
+				},
+				"þátíð": {
+					"et": ["vomaðist", "vomaðist", "vomaðist"],
+					"ft": ["vomuðumst", "vomuðust", "vomuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vomandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vomaður", "vomaðan", "vomuðum", "vomaðs"],
+					"kvk": ["vomuð", "vomaða", "vomaðri", "vomaðrar"],
+					"hk": ["vomað", "vomað", "vomuðu", "vomaðs"]
+				},
+				"ft": {
+					"kk": ["vomaðir", "vomaða", "vomuðum", "vomaðra"],
+					"kvk": ["vomaðar", "vomaðar", "vomuðum", "vomaðra"],
+					"hk": ["vomuð", "vomuð", "vomuðum", "vomaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-voma",
+	"hash": "e687b9817aa7870031f9c73996e8a9920404a9e49f817a46e42ffd4cb917a125"
+}
