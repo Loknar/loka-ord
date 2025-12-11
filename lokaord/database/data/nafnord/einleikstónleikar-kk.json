@@ -4,23 +4,13 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "ein",
-			"samsetning": "stofn",
-			"kennistrengur": "to.ft-einn"
-		},
-		{
-			"mynd": "leiks",
+			"mynd": "einleiks",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leikur-kk"
-		},
-		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
+			"kennistrengur": "no-einleikur-kk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-leikur-kk-_keppni_"
+			"kennistrengur": "no-tónleikur-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["einleikstónleikarnir", "einleikstónleikana", "einleikstónleikunum", "einleikstónleikanna"]
 	},
 	"kennistrengur": "no-einleikstónleikar-kk",
-	"hash": "35c59e7189b97e4a2c48f15ee923000e14cda6c37f37acbc54fce0a5a0fc9370"
+	"hash": "a237b100eaef7ca7c4c09ed690faa009949de36f4ced7f1e0fe2a170e5452bef"
 }

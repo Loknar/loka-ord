@@ -1,23 +1,34 @@
 {
 	"orð": "flétta",
 	"flokkur": "sagnorð",
+	"merking": "fléttaði",
+	"samsett": [
+		{
+			"mynd": "flétt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flétta-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "flétta",
-		"sagnbót": "flétt",
+		"sagnbót": "fléttað",
 		"boðháttur": {
-			"stýfður": "flétt",
-			"et": "fléttu",
+			"stýfður": "flétta",
+			"et": "fléttaðu",
 			"ft": "fléttið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["flétti", "fléttir", "fléttir"],
+					"et": ["flétta", "fléttar", "fléttar"],
 					"ft": ["fléttum", "fléttið", "flétta"]
 				},
 				"þátíð": {
-					"et": ["flétti", "fléttir", "flétti"],
-					"ft": ["fléttum", "fléttuð", "fléttu"]
+					"et": ["fléttaði", "fléttaðir", "fléttaði"],
+					"ft": ["fléttuðum", "fléttuðuð", "fléttuðu"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -26,20 +37,20 @@
 					"ft": ["fléttum", "fléttið", "flétti"]
 				},
 				"þátíð": {
-					"et": ["flétti", "fléttir", "flétti"],
-					"ft": ["fléttum", "fléttuð", "fléttu"]
+					"et": ["fléttaði", "fléttaðir", "fléttaði"],
+					"ft": ["fléttuðum", "fléttuðuð", "fléttuðu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "fléttirðu",
+					"et": "fléttarðu",
 					"ft": "fléttiði"
 				},
 				"þátíð": {
-					"et": "fléttirðu",
-					"ft": "fléttuði"
+					"et": "fléttaðirðu",
+					"ft": "fléttuðuði"
 				}
 			},
 			"viðtengingarháttur": {
@@ -48,8 +59,8 @@
 					"ft": "fléttiði"
 				},
 				"þátíð": {
-					"et": "fléttirðu",
-					"ft": "fléttuði"
+					"et": "fléttaðirðu",
+					"ft": "fléttuðuði"
 				}
 			}
 		}
@@ -57,15 +68,19 @@
 	"miðmynd": {
 		"nafnháttur": "fléttast",
 		"sagnbót": "fléttast",
+		"boðháttur": {
+			"et": "fléttastu",
+			"ft": "fléttist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["fléttist", "fléttist", "fléttist"],
+					"et": ["fléttast", "fléttast", "fléttast"],
 					"ft": ["fléttumst", "fléttist", "fléttast"]
 				},
 				"þátíð": {
-					"et": ["fléttist", "fléttist", "fléttist"],
-					"ft": ["fléttumst", "fléttust", "fléttust"]
+					"et": ["fléttaðist", "fléttaðist", "fléttaðist"],
+					"ft": ["fléttuðumst", "fléttuðust", "fléttuðust"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -74,18 +89,18 @@
 					"ft": ["fléttumst", "fléttist", "fléttist"]
 				},
 				"þátíð": {
-					"et": ["fléttist", "fléttist", "fléttist"],
-					"ft": ["fléttumst", "fléttust", "fléttust"]
+					"et": ["fléttaðist", "fléttaðist", "fléttaðist"],
+					"ft": ["fléttuðumst", "fléttuðust", "fléttuðust"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "fléttistu"
+					"et": "fléttastu"
 				},
 				"þátíð": {
-					"et": "fléttistu"
+					"et": "fléttaðistu"
 				}
 			},
 			"viðtengingarháttur": {
@@ -93,7 +108,7 @@
 					"et": "fléttistu"
 				},
 				"þátíð": {
-					"et": "fléttistu"
+					"et": "fléttaðistu"
 				}
 			}
 		}
@@ -127,6 +142,6 @@
 			}
 		}
 	},
-	"kennistrengur": "so-flétta",
-	"hash": "ef78c0909cb6e046f1572babe67c5b1a946b7b5f548e03ee7f50de7060cc9915"
+	"kennistrengur": "so-flétta-_fléttaði_",
+	"hash": "81a6f3e48912a6b1fe68766810ec64db723b252495dafbfc1ed5b3579a17b658"
 }
