@@ -1,0 +1,73 @@
+{
+	"orð": "sökka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sökk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sökk-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sökka",
+		"sagnbót": "sökkað",
+		"boðháttur": {
+			"stýfður": "sökka",
+			"et": "sökkaðu",
+			"ft": "sökkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sökka", "sökkar", "sökkar"],
+					"ft": ["sökkum", "sökkið", "sökka"]
+				},
+				"þátíð": {
+					"et": ["sökkaði", "sökkaðir", "sökkaði"],
+					"ft": ["sökkuðum", "sökkuðuð", "sökkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sökki", "sökkir", "sökki"],
+					"ft": ["sökkum", "sökkið", "sökki"]
+				},
+				"þátíð": {
+					"et": ["sökkaði", "sökkaðir", "sökkaði"],
+					"ft": ["sökkuðum", "sökkuðuð", "sökkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sökkarðu",
+					"ft": "sökkiði"
+				},
+				"þátíð": {
+					"et": "sökkaðirðu",
+					"ft": "sökkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sökkirðu",
+					"ft": "sökkiði"
+				},
+				"þátíð": {
+					"et": "sökkaðirðu",
+					"ft": "sökkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sökkandi"
+	},
+	"kennistrengur": "so-sökka",
+	"hash": "1ec26804adfb9fd29f4de9a9440c267d1ce5cf665c95b72009d2c6a2e7de1ca0"
+}

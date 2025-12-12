@@ -1,0 +1,99 @@
+{
+	"orð": "undirmanna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "undir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-undir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-manna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "undirmanna",
+		"sagnbót": "undirmannað",
+		"boðháttur": {
+			"stýfður": "undirmanna",
+			"et": "undirmannaðu",
+			"ft": "undirmannið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["undirmanna", "undirmannar", "undirmannar"],
+					"ft": ["undirmönnum", "undirmannið", "undirmanna"]
+				},
+				"þátíð": {
+					"et": ["undirmannaði", "undirmannaðir", "undirmannaði"],
+					"ft": ["undirmönnuðum", "undirmönnuðuð", "undirmönnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["undirmanni", "undirmannir", "undirmanni"],
+					"ft": ["undirmönnum", "undirmannið", "undirmanni"]
+				},
+				"þátíð": {
+					"et": ["undirmannaði", "undirmannaðir", "undirmannaði"],
+					"ft": ["undirmönnuðum", "undirmönnuðuð", "undirmönnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "undirmannarðu",
+					"ft": "undirmanniði"
+				},
+				"þátíð": {
+					"et": "undirmannaðirðu",
+					"ft": "undirmönnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "undirmannirðu",
+					"ft": "undirmanniði"
+				},
+				"þátíð": {
+					"et": "undirmannaðirðu",
+					"ft": "undirmönnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "undirmannandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["undirmannaður", "undirmannaðan", "undirmönnuðum", "undirmannaðs"],
+					"kvk": ["undirmönnuð", "undirmannaða", "undirmannaðri", "undirmannaðrar"],
+					"hk": ["undirmannað", "undirmannað", "undirmönnuðu", "undirmannaðs"]
+				},
+				"ft": {
+					"kk": ["undirmannaðir", "undirmannaða", "undirmönnuðum", "undirmannaðra"],
+					"kvk": ["undirmannaðar", "undirmannaðar", "undirmönnuðum", "undirmannaðra"],
+					"hk": ["undirmönnuð", "undirmönnuð", "undirmönnuðum", "undirmannaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["undirmannaði", "undirmannaða", "undirmannaða", "undirmannaða"],
+					"kvk": ["undirmannaða", "undirmönnuðu", "undirmönnuðu", "undirmönnuðu"],
+					"hk": ["undirmannaða", "undirmannaða", "undirmannaða", "undirmannaða"]
+				},
+				"ft": {
+					"kk": ["undirmönnuðu", "undirmönnuðu", "undirmönnuðu", "undirmönnuðu"],
+					"kvk": ["undirmönnuðu", "undirmönnuðu", "undirmönnuðu", "undirmönnuðu"],
+					"hk": ["undirmönnuðu", "undirmönnuðu", "undirmönnuðu", "undirmönnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-undirmanna",
+	"hash": "22f2dcb717cf16f5b5936a45a8fbc7c54d89e0a3cace2f92849c659390401498"
+}

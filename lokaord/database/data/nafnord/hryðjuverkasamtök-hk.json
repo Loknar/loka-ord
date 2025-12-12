@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "hryðju",
+			"mynd": "hryðjuverka",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hryðja-kvk"
+			"kennistrengur": "no-hryðjuverk-hk"
 		},
 		{
-			"mynd": "verka",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-verk-hk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["hryðjuverkasamtökin", "hryðjuverkasamtökin", "hryðjuverkasamtökunum", "hryðjuverkasamtakanna"]
 	},
 	"kennistrengur": "no-hryðjuverkasamtök-hk",
-	"hash": "eaf605fbf07f42e63a1c05db64cd5618e78b44f38587730c73a16417d3555f61"
+	"hash": "8816aa49c59b9712a6169a39ab5608580630da85d753d18b0dc2b5a028462fd8"
 }

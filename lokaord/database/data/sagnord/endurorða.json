@@ -1,0 +1,87 @@
+{
+	"orð": "endurorða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-orða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurorða",
+		"sagnbót": "endurorðað",
+		"boðháttur": {
+			"stýfður": "endurorða",
+			"et": "endurorðaðu",
+			"ft": "endurorðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurorða", "endurorðar", "endurorðar"],
+					"ft": ["endurorðum", "endurorðið", "endurorða"]
+				},
+				"þátíð": {
+					"et": ["endurorðaði", "endurorðaðir", "endurorðaði"],
+					"ft": ["endurorðuðum", "endurorðuðu", "endurorðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurorði", "endurorðir", "endurorði"],
+					"ft": ["endurorðum", "endurorðið", "endurorði"]
+				},
+				"þátíð": {
+					"et": ["endurorðaði", "endurorðaðir", "endurorðaði"],
+					"ft": ["endurorðuðum", "endurorðuðuð", "endurorðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurorðarðu",
+					"ft": "endurorðiði"
+				},
+				"þátíð": {
+					"et": "endurorðaðirðu",
+					"ft": "endurorðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurorðirðu",
+					"ft": "endurorðiði"
+				},
+				"þátíð": {
+					"et": "endurorðaðirðu",
+					"ft": "endurorðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurorðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurorðaður", "endurorðaðan", "endurorðuðum", "endurorðaðs"],
+					"kvk": ["endurorðuð", "endurorðaða", "endurorðaðri", "endurorðaðrar"],
+					"hk": ["endurorðað", "endurorðað", "endurorðuðu", "endurorðaðs"]
+				},
+				"ft": {
+					"kk": ["endurorðaðir", "endurorðaða", "endurorðuðum", "endurorðaðra"],
+					"kvk": ["endurorðaðar", "endurorðaðar", "endurorðuðum", "endurorðaðra"],
+					"hk": ["endurorðuð", "endurorðuð", "endurorðuðum", "endurorðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurorða",
+	"hash": "60e22a067383e6206b05658c57650f2c90a9a4a76493766beb88536d681a5533"
+}

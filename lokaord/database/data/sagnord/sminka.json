@@ -1,0 +1,135 @@
+{
+	"orð": "sminka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "smink",
+			"samsetning": "stofn",
+			"kennistrengur": "no-smink-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sminka",
+		"sagnbót": "sminkað",
+		"boðháttur": {
+			"stýfður": "sminka",
+			"et": "sminkaðu",
+			"ft": "sminkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sminka", "sminkar", "sminkar"],
+					"ft": ["sminkum", "sminkið", "sminka"]
+				},
+				"þátíð": {
+					"et": ["sminkaði", "sminkaðir", "sminkaði"],
+					"ft": ["sminkuðum", "sminkuðuð", "sminkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sminki", "sminkir", "sminki"],
+					"ft": ["sminkum", "sminkið", "sminki"]
+				},
+				"þátíð": {
+					"et": ["sminkaði", "sminkaðir", "sminkaði"],
+					"ft": ["sminkuðum", "sminkuðuð", "sminkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sminkarðu",
+					"ft": "sminkiði"
+				},
+				"þátíð": {
+					"et": "sminkaðirðu",
+					"ft": "sminkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sminkirðu",
+					"ft": "sminkiði"
+				},
+				"þátíð": {
+					"et": "sminkaðirðu",
+					"ft": "sminkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sminkast",
+		"sagnbót": "sminkast",
+		"boðháttur": {
+			"et": "sminkastu",
+			"ft": "sminkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sminkast", "sminkast", "sminkast"],
+					"ft": ["sminkumst", "sminkist", "sminkast"]
+				},
+				"þátíð": {
+					"et": ["sminkaðist", "sminkaðist", "sminkaðist"],
+					"ft": ["sminkuðumst", "sminkuðust", "sminkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sminkist", "sminkist", "sminkist"],
+					"ft": ["sminkumst", "sminkist", "sminkist"]
+				},
+				"þátíð": {
+					"et": ["sminkaðist", "sminkaðist", "sminkaðist"],
+					"ft": ["sminkuðumst", "sminkuðust", "sminkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sminkastu"
+				},
+				"þátíð": {
+					"et": "sminkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sminkistu"
+				},
+				"þátíð": {
+					"et": "sminkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sminkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sminkaður", "sminkaðan", "sminkuðum", "sminkaðs"],
+					"kvk": ["sminkuð", "sminkaða", "sminkaðri", "sminkaðrar"],
+					"hk": ["sminkað", "sminkað", "sminkuðu", "sminkaðs"]
+				},
+				"ft": {
+					"kk": ["sminkaðir", "sminkaða", "sminkuðum", "sminkaðra"],
+					"kvk": ["sminkaðar", "sminkaðar", "sminkuðum", "sminkaðra"],
+					"hk": ["sminkuð", "sminkuð", "sminkuðum", "sminkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sminka",
+	"hash": "2dc0e8370339438edd03e0288a739223d9b424d7d4c1236bea7840830c89a67d"
+}
