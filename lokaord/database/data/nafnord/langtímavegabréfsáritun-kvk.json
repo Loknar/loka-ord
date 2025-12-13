@@ -4,27 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lang",
+			"mynd": "langtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-langur"
+			"kennistrengur": "lo-langtíma"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "vega",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vegur-kk"
-		},
-		{
-			"mynd": "bréfs",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bréf-hk"
-		},
-		{
-			"kennistrengur": "no-áritun-kvk"
+			"kennistrengur": "no-vegabréfsáritun-kvk"
 		}
 	],
 	"et": {
@@ -36,5 +21,5 @@
 		"mg": ["langtímavegabréfsáritanirnar", "langtímavegabréfsáritanirnar", "langtímavegabréfsáritununum", "langtímavegabréfsáritananna"]
 	},
 	"kennistrengur": "no-langtímavegabréfsáritun-kvk",
-	"hash": "2a2ac308148df2853fff199c18c9a886d60ed5551f94c370671f4e2b7a034404"
+	"hash": "5c5c5570976d3e11810d417c93d7890552605b813ea144023eb4fbd8254b485e"
 }

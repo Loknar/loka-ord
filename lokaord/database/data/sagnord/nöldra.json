@@ -1,0 +1,73 @@
+{
+	"orð": "nöldra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "nöldr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nöldur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "nöldra",
+		"sagnbót": "nöldrað",
+		"boðháttur": {
+			"stýfður": "nöldra",
+			"et": "nöldraðu",
+			"ft": "nöldrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["nöldra", "nöldrar", "nöldrar"],
+					"ft": ["nöldrum", "nöldrið", "nöldra"]
+				},
+				"þátíð": {
+					"et": ["nöldraði", "nöldraðir", "nöldraði"],
+					"ft": ["nöldruðum", "nöldruðuð", "nöldruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["nöldri", "nöldrir", "nöldri"],
+					"ft": ["nöldrum", "nöldrið", "nöldri"]
+				},
+				"þátíð": {
+					"et": ["nöldraði", "nöldraðir", "nöldraði"],
+					"ft": ["nöldruðum", "nöldruðuð", "nöldruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "nöldrarðu",
+					"ft": "nöldriði"
+				},
+				"þátíð": {
+					"et": "nöldraðirðu",
+					"ft": "nöldruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "nöldrirðu",
+					"ft": "nöldriði"
+				},
+				"þátíð": {
+					"et": "nöldraðirðu",
+					"ft": "nöldruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "nöldrandi"
+	},
+	"kennistrengur": "so-nöldra",
+	"hash": "6097f67686ba40420bd056f502cdc18fd998cb235b40a3b7d431043e7d83b67c"
+}

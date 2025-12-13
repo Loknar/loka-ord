@@ -1,0 +1,65 @@
+{
+	"orð": "frekjast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frekj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frekja-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "frekjast",
+		"sagnbót": "frekjast",
+		"boðháttur": {
+			"et": "frekjastu",
+			"ft": "frekjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frekjast", "frekjast", "frekjast"],
+					"ft": ["frekjumst", "frekjist", "frekjast"]
+				},
+				"þátíð": {
+					"et": ["frekjaðist", "frekjaðist", "frekjaðist"],
+					"ft": ["frekjuðumst", "frekjuðust", "frekjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frekjist", "frekjist", "frekjist"],
+					"ft": ["frekjumst", "frekjist", "frekjist"]
+				},
+				"þátíð": {
+					"et": ["frekjaðist", "frekjaðist", "frekjaðist"],
+					"ft": ["frekjuðumst", "frekjuðust", "frekjuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frekjastu"
+				},
+				"þátíð": {
+					"et": "frekjaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frekjistu"
+				},
+				"þátíð": {
+					"et": "frekjaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frekjast",
+	"hash": "4bbd40b99b54995f028bb2322c151e68a39f99025e8dc8488245230a67460a4e"
+}

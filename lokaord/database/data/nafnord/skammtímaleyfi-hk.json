@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
-		},
-		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
 			"kennistrengur": "no-leyfi-hk"
@@ -26,5 +21,5 @@
 		"mg": ["skammtímaleyfin", "skammtímaleyfin", "skammtímaleyfunum", "skammtímaleyfanna"]
 	},
 	"kennistrengur": "no-skammtímaleyfi-hk",
-	"hash": "b6b850ed387e1c6c2bb1fc7c5b7b159b45d3351ab6eb4928edc991cf291bb536"
+	"hash": "08e0ce84b74f420c78ce3929fba67211f306cea709238a0a4f2c2808a992c301"
 }

@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
-		},
-		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
 			"kennistrengur": "no-skuld-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["skammtímaskuldirnar", "skammtímaskuldirnar", "skammtímaskuldunum", "skammtímaskuldanna"]
 	},
 	"kennistrengur": "no-skammtímaskuld-kvk",
-	"hash": "4853db032c953a41fb3de1a58d0ab996059509d88c62267bfb6e2fca39d0b481"
+	"hash": "67b5e54e132460f9ee6c2c262a17b36f52b5562cff3089462895c19a4f7e55ff"
 }

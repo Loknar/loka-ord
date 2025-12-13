@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "mis",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-mis"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-mismunur-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["skammtímamismunurinn", "skammtímamismuninn", "skammtímamismuninum", "skammtímamismunarins"]
 	},
 	"kennistrengur": "no-skammtímamismunur-kk",
-	"hash": "bdec96824baffd85e4e29d058be738942bc3d4d7aa9a6f4300793e2e5dac4984"
+	"hash": "333a010043f3623422c3be033b8a7c474b2022d243254a58f3e9d9e749ccb9dd"
 }

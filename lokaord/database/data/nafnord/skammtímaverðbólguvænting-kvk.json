@@ -4,24 +4,14 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
-			"mynd": "tíma",
+			"mynd": "verðbólgu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "verð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"mynd": "bólgu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bólga-kvk"
+			"kennistrengur": "no-verðbólga-kvk"
 		},
 		{
 			"kennistrengur": "no-vænting-kvk"
@@ -36,5 +26,5 @@
 		"mg": ["skammtímaverðbólguvæntingarnar", "skammtímaverðbólguvæntingarnar", "skammtímaverðbólguvæntingunum", "skammtímaverðbólguvæntinganna"]
 	},
 	"kennistrengur": "no-skammtímaverðbólguvænting-kvk",
-	"hash": "5f207151b56ab507aca3da598d6367e477d334f4ff235a26f0dad0f204077036"
+	"hash": "0812a5e0caf4268809b67899b0e67c76bb8c0bc8fd0365e4f51cc4dd18b055d3"
 }

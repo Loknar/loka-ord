@@ -1,6 +1,16 @@
 {
 	"orð": "hindra",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hindr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hindur-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "hindra",
 		"sagnbót": "hindrað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "hindrast",
 		"sagnbót": "hindrast",
+		"boðháttur": {
+			"et": "hindrastu",
+			"ft": "hindrist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-hindra",
-	"hash": "d7509c7cc73b2bfea6370a63eca113cb1026e317d7d0323f0c66e49052592133"
+	"hash": "113d94ca6d2d8b10f1b05c668dce8f07eedd62c7c0a1ac9a6b646379c55406f4"
 }

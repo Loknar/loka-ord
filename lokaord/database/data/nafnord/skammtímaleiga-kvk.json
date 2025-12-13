@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
-		},
-		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["skammtímaleigan", "skammtímaleiguna", "skammtímaleigunni", "skammtímaleigunnar"]
 	},
 	"kennistrengur": "no-skammtímaleiga-kvk",
-	"hash": "6d3b16a04048c88b06ef4661c1cb92891aa152b1adba49d50ad5d100fac9433d"
+	"hash": "7b2fa89f4a6b58a4e8970ad3df1fb6e7c50b22049368dcb193eb32a6b2c93bb3"
 }

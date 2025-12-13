@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
-		},
-		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
 			"kennistrengur": "no-notkun-kvk"
@@ -22,5 +17,5 @@
 		"mg": ["skammtímanotkunin", "skammtímanotkunina", "skammtímanotkuninni", "skammtímanotkunarinnar"]
 	},
 	"kennistrengur": "no-skammtímanotkun-kvk",
-	"hash": "b556f592593c7722c73b631201afae01796c8b5138a6e9794bd9f6339b221e73"
+	"hash": "2c6fb3490e4c05207d16ecdb0c8e631bc944e5712c711c46665eb2b531a218d6"
 }

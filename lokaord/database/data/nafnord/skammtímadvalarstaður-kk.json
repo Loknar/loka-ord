@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "dvalar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dvöl-kvk"
-		},
-		{
-			"kennistrengur": "no-staður-kk"
+			"kennistrengur": "no-dvalarstaður-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skammtímadvalarstaðirnir", "skammtímadvalarstaðina", "skammtímadvalarstöðunum", "skammtímadvalarstaðanna"]
 	},
 	"kennistrengur": "no-skammtímadvalarstaður-kk",
-	"hash": "c4155239b6acdb7ea5b8ec349a349ebb34365f98feabb4c2ccae4f5888dc87ca"
+	"hash": "b0c2503db9418e41f36162a7f4b92dabdc2764c6adac2bf1a154b17e01e0ebd9"
 }

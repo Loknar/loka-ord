@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "fjár",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
-		},
-		{
-			"kennistrengur": "no-mögnun-kvk"
+			"kennistrengur": "no-fjármögnun-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skammtímafjármagnanirnar", "skammtímafjármagnanirnar", "skammtímafjármögnununum", "skammtímafjármagnananna"]
 	},
 	"kennistrengur": "no-skammtímafjármögnun-kvk",
-	"hash": "a8b1a4698ea7d87bf0e39d1e121200bb4fac2c2775ecc42332c50f53fdc876f7"
+	"hash": "87c4a89d52737071580f6af14770bbef114cad9b49c30de839d7e206159e2d06"
 }

@@ -1,0 +1,27 @@
+{
+	"orð": "langtímaatvinnurekstur",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "langtíma",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-langtíma"
+		},
+		{
+			"mynd": "atvinnu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-atvinna-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-rekstur-kk"
+		}
+	],
+	"et": {
+		"ág": ["langtímaatvinnurekstur", "langtímaatvinnurekstur", "langtímaatvinnurekstri", "langtímaatvinnurekstrar"],
+		"mg": ["langtímaatvinnureksturinn", "langtímaatvinnureksturinn", "langtímaatvinnurekstrinum", "langtímaatvinnurekstrarins"]
+	},
+	"kennistrengur": "no-langtímaatvinnurekstur-kk",
+	"hash": "2a82cf586400db030cb8a8fb143d6a5412a2d5356d9bcd782ea1a944f85ca43a"
+}

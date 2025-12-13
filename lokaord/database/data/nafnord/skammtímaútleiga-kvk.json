@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "út",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
-		},
-		{
-			"kennistrengur": "no-leiga-kvk"
+			"kennistrengur": "no-útleiga-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skammtímaútleigurnar", "skammtímaútleigurnar", "skammtímaútleigunum", "skammtímaútleiganna"]
 	},
 	"kennistrengur": "no-skammtímaútleiga-kvk",
-	"hash": "dbf0f579fd3567da4de1dc1782c1359196b54c1a335da63a3665d8518847516d"
+	"hash": "dd3d4321f6af6c6c3b18f168ce259c33bd7ff501b453e7505e0ba1724a8e7eed"
 }

@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
-		},
-		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
 			"beygingar": ["ft"],
@@ -23,5 +18,5 @@
 		"mg": ["skammtímaáhrifin", "skammtímaáhrifin", "skammtímaáhrifunum", "skammtímaáhrifanna"]
 	},
 	"kennistrengur": "no-skammtímaáhrif-hk",
-	"hash": "a30731b1580166368052fe57fcc41ef038c82742cc7c4537fac944175a39d67f"
+	"hash": "3f8bc3fe3747cd78d616288c7939d7e39c319fc6daa49fccad6f1c337fe92b52"
 }

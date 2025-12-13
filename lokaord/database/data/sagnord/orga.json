@@ -1,0 +1,87 @@
+{
+	"orð": "orga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "org",
+			"samsetning": "stofn",
+			"kennistrengur": "no-org-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "orga",
+		"sagnbót": "orgað",
+		"boðháttur": {
+			"stýfður": "orga",
+			"et": "orgaðu",
+			"ft": "orgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orga", "orgar", "orgar"],
+					"ft": ["orgum", "orgið", "orga"]
+				},
+				"þátíð": {
+					"et": ["orgaði", "orgaðir", "orgaði"],
+					"ft": ["orguðum", "orguðuð", "orguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orgi", "orgir", "orgi"],
+					"ft": ["orgum", "orgið", "orgi"]
+				},
+				"þátíð": {
+					"et": ["orgaði", "orgaðir", "orgaði"],
+					"ft": ["orguðum", "orguðuð", "orguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orgarðu",
+					"ft": "orgiði"
+				},
+				"þátíð": {
+					"et": "orgaðirðu",
+					"ft": "orguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orgirðu",
+					"ft": "orgiði"
+				},
+				"þátíð": {
+					"et": "orgaðirðu",
+					"ft": "orguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "organdi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["orgaður", "orgaðan", "orguðum", "orgaðs"],
+					"kvk": ["orguð", "orgaða", "orgaðri", "orgaðrar"],
+					"hk": ["orgað", "orgað", "orguðu", "orgaðs"]
+				},
+				"ft": {
+					"kk": ["orgaðir", "orgaða", "orguðum", "orgaðra"],
+					"kvk": ["orgaðar", "orgaðar", "orguðum", "orgaðra"],
+					"hk": ["orguð", "orguð", "orguðum", "orgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-orga",
+	"hash": "4ec937c085faea231a39bdfdd48a946c67db9547e7c670ec213c74d01afc9b65"
+}

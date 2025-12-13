@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "skamm",
+			"mynd": "skammtíma",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-skammur"
+			"kennistrengur": "lo-skammtíma"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "vanda",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vandi-kk"
-		},
-		{
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-vandamál-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skammtímavandamálin", "skammtímavandamálin", "skammtímavandamálunum", "skammtímavandamálanna"]
 	},
 	"kennistrengur": "no-skammtímavandamál-hk",
-	"hash": "27c170d6a210d6d6c7a532328d811aa1728e7b2122760064275c8096292661fa"
+	"hash": "e15ca056260223c480aeb89b81e14ecb69c4c58379b4f70ac95cde42e7b74b8d"
 }
