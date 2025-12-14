@@ -1,0 +1,135 @@
+{
+	"orð": "urra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "urr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-urr-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "urra",
+		"sagnbót": "urrað",
+		"boðháttur": {
+			"stýfður": "urra",
+			"et": "urraðu",
+			"ft": "urrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["urra", "urrar", "urrar"],
+					"ft": ["urrum", "urrið", "urra"]
+				},
+				"þátíð": {
+					"et": ["urraði", "urraðir", "urraði"],
+					"ft": ["urruðum", "urruðuð", "urruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["urri", "urrir", "urri"],
+					"ft": ["urrum", "urrið", "urri"]
+				},
+				"þátíð": {
+					"et": ["urraði", "urraðir", "urraði"],
+					"ft": ["urruðum", "urruðuð", "urruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "urrarðu",
+					"ft": "urriði"
+				},
+				"þátíð": {
+					"et": "urraðirðu",
+					"ft": "urruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "urrirðu",
+					"ft": "urriði"
+				},
+				"þátíð": {
+					"et": "urraðirðu",
+					"ft": "urruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "urrast",
+		"sagnbót": "urrast",
+		"boðháttur": {
+			"et": "urrastu",
+			"ft": "urrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["urrast", "urrast", "urrast"],
+					"ft": ["urrumst", "urrist", "urrast"]
+				},
+				"þátíð": {
+					"et": ["urraðist", "urraðist", "urraðist"],
+					"ft": ["urruðumst", "urruðust", "urruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["urrist", "urrist", "urrist"],
+					"ft": ["urrumst", "urrist", "urrist"]
+				},
+				"þátíð": {
+					"et": ["urraðist", "urraðist", "urraðist"],
+					"ft": ["urruðumst", "urruðust", "urruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "urrastu"
+				},
+				"þátíð": {
+					"et": "urraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "urristu"
+				},
+				"þátíð": {
+					"et": "urraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "urrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["urraður", "urraðan", "urruðum", "urraðs"],
+					"kvk": ["urruð", "urraða", "urraðri", "urraðrar"],
+					"hk": ["urrað", "urrað", "urruðu", "urraðs"]
+				},
+				"ft": {
+					"kk": ["urraðir", "urraða", "urruðum", "urraðra"],
+					"kvk": ["urraðar", "urraðar", "urruðum", "urraðra"],
+					"hk": ["urruð", "urruð", "urruðum", "urraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-urra",
+	"hash": "f288e9802835951dcc771afbeaef0ba538d3f1dc53d5a0376f7de8217f29b082"
+}
