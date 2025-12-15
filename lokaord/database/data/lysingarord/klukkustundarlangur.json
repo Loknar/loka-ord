@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "klukku",
+			"mynd": "klukkustundar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-klukka-kvk"
-		},
-		{
-			"mynd": "stundar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stund-kvk"
+			"kennistrengur": "no-klukkustund-kvk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-klukkustundarlangur",
-	"hash": "0aee60ddadbad0b1c7353f87c82de2cbe51a5f3289b789f82a50caf909487741"
+	"hash": "e34e9919ccc79091c5ca6d2d9c132051a5c6501e6236faf22344174e3d564a41"
 }

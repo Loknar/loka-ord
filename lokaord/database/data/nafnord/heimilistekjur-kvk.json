@@ -1,0 +1,22 @@
+{
+	"orð": "heimilistekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heimilis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heimili-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heimilistekjur", "heimilistekjur", "heimilistekjum", "heimilistekna"],
+		"mg": ["heimilistekjurnar", "heimilistekjurnar", "heimilistekjunum", "heimilisteknanna"]
+	},
+	"kennistrengur": "no-heimilistekjur-kvk",
+	"hash": "7b378bb60a26077c21846caa8479a6d2381aab1ad60b75362c0a1c0e8c0be662"
+}

@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
-		},
-		{
-			"mynd": "deildar",
+			"mynd": "hlutdeildar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-deild-kvk"
+			"kennistrengur": "no-hlutdeild-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-ferð-kvk"
+			"kennistrengur": "no-aðferð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["hlutdeildaraðferðirnar", "hlutdeildaraðferðirnar", "hlutdeildaraðferðunum", "hlutdeildaraðferðanna"]
 	},
 	"kennistrengur": "no-hlutdeildaraðferð-kvk",
-	"hash": "25afb32883cbc62ea564b4cdeaad6c07bd64de064f7fa8fccea9a4214effa8e6"
+	"hash": "e390c2dc2aabc933f015cef05c327bb9d1d244061090e1773e1795ef0808ca40"
 }
