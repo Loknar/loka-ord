@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "úti",
+			"mynd": "útilokunar",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-úti"
+			"kennistrengur": "no-útilokun-kvk"
 		},
 		{
-			"mynd": "lokunar",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lokun-kvk"
-		},
-		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"kennistrengur": "no-bil-hk"
+			"kennistrengur": "no-tímabil-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["útilokunartímabilin", "útilokunartímabilin", "útilokunartímabilunum", "útilokunartímabilanna"]
 	},
 	"kennistrengur": "no-útilokunartímabil-hk",
-	"hash": "628b492ae0163af5ac8c846798ff20bcf3a05c5aff4ac177e2efe5e8c92db1db"
+	"hash": "5dd9eb58c25a90541d4cc312a33929295d2f7f94d4aeaca281d4e93ed3749075"
 }
