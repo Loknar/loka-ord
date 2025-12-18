@@ -1,0 +1,73 @@
+{
+	"orð": "dytta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dytt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dyttur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dytta",
+		"sagnbót": "dyttað",
+		"boðháttur": {
+			"stýfður": "dytta",
+			"et": "dyttaðu",
+			"ft": "dyttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dytta", "dyttar", "dyttar"],
+					"ft": ["dyttum", "dyttið", "dytta"]
+				},
+				"þátíð": {
+					"et": ["dyttaði", "dyttaðir", "dyttaði"],
+					"ft": ["dyttuðum", "dyttuðuð", "dyttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dytti", "dyttir", "dytti"],
+					"ft": ["dyttum", "dyttið", "dytti"]
+				},
+				"þátíð": {
+					"et": ["dyttaði", "dyttaðir", "dyttaði"],
+					"ft": ["dyttuðum", "dyttuðuð", "dyttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dyttarðu",
+					"ft": "dyttiði"
+				},
+				"þátíð": {
+					"et": "dyttaðirðu",
+					"ft": "dyttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dyttirðu",
+					"ft": "dyttiði"
+				},
+				"þátíð": {
+					"et": "dyttaðirðu",
+					"ft": "dyttuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dyttandi"
+	},
+	"kennistrengur": "so-dytta",
+	"hash": "4ee39ad0fcbc9f70a014e3bb8cc0152437e2b64d3fd150ebd411422dd116f284"
+}

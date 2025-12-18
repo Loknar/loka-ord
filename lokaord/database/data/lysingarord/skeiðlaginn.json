@@ -8,7 +8,6 @@
 			"kennistrengur": "no-skeið-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-laginn"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["skeiðlagnari", "skeiðlagnari", "skeiðlagnari", "skeiðlagnari"],
+				"kvk": ["skeiðlagnari", "skeiðlagnari", "skeiðlagnari", "skeiðlagnari"],
+				"hk": ["skeiðlagnara", "skeiðlagnara", "skeiðlagnara", "skeiðlagnara"]
+			},
+			"ft": {
+				"kk": ["skeiðlagnari", "skeiðlagnari", "skeiðlagnari", "skeiðlagnari"],
+				"kvk": ["skeiðlagnari", "skeiðlagnari", "skeiðlagnari", "skeiðlagnari"],
+				"hk": ["skeiðlagnari", "skeiðlagnari", "skeiðlagnari", "skeiðlagnari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["skeiðlagnastur", "skeiðlagnastan", "skeiðlagnustum", "skeiðlagnasts"],
+				"kvk": ["skeiðlagnust", "skeiðlagnasta", "skeiðlagnastri", "skeiðlagnastrar"],
+				"hk": ["skeiðlagnast", "skeiðlagnast", "skeiðlagnustu", "skeiðlagnasts"]
+			},
+			"ft": {
+				"kk": ["skeiðlagnastir", "skeiðlagnasta", "skeiðlagnustum", "skeiðlagnastra"],
+				"kvk": ["skeiðlagnastar", "skeiðlagnastar", "skeiðlagnustum", "skeiðlagnastra"],
+				"hk": ["skeiðlagnust", "skeiðlagnust", "skeiðlagnustum", "skeiðlagnastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skeiðlagnasti", "skeiðlagnasta", "skeiðlagnasta", "skeiðlagnasta"],
+				"kvk": ["skeiðlagnasta", "skeiðlagnustu", "skeiðlagnustu", "skeiðlagnustu"],
+				"hk": ["skeiðlagnasta", "skeiðlagnasta", "skeiðlagnasta", "skeiðlagnasta"]
+			},
+			"ft": {
+				"kk": ["skeiðlagnustu", "skeiðlagnustu", "skeiðlagnustu", "skeiðlagnustu"],
+				"kvk": ["skeiðlagnustu", "skeiðlagnustu", "skeiðlagnustu", "skeiðlagnustu"],
+				"hk": ["skeiðlagnustu", "skeiðlagnustu", "skeiðlagnustu", "skeiðlagnustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-skeiðlaginn",
-	"hash": "f2808169703bb0918f5492795bf5d973e41bcccfe24704e32ecd1a080379bb01"
+	"hash": "c5c45af5f46ad2c0e3687330f8e2333dd0757e044e876fe63d3d5b9f4c5aec29"
 }

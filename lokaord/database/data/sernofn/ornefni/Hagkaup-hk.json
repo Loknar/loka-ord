@@ -10,13 +10,16 @@
 			"kennistrengur": "no-hagur-kk"
 		},
 		{
-			"beygingar": ["ft-ág"],
+			"beygingar": ["et-ág", "ft-ág"],
 			"kennistrengur": "no-kaup-hk"
 		}
 	],
+	"et": {
+		"ág": ["Hagkaup", "Hagkaup", "Hagkaupi", "Hagkaups"]
+	},
 	"ft": {
 		"ág": ["Hagkaup", "Hagkaup", "Hagkaupum", "Hagkaupa"]
 	},
 	"kennistrengur": "sérn.ön-Hagkaup-hk",
-	"hash": "82defe041c89d8030d633db0a62ca82fad878ce5640ab6ced57186a1afd9f16a"
+	"hash": "11cb8fffd326be45b0a5ea153aee44dc25ffebb24ea71b74ff18c72ba6b59345"
 }

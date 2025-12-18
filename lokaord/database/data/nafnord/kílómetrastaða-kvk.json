@@ -4,17 +4,11 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kíló",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-kíló-ó"
-		},
-		{
-			"mynd": "metra",
+			"mynd": "kílómetra",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-metri-kk"
+			"kennistrengur": "no-kílómetri-kk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-staða-kvk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["kílómetrastaða", "kílómetrastöðu", "kílómetrastöðu", "kílómetrastöðu"],
 		"mg": ["kílómetrastaðan", "kílómetrastöðuna", "kílómetrastöðunni", "kílómetrastöðunnar"]
 	},
+	"ft": {
+		"ág": ["kílómetrastöður", "kílómetrastöður", "kílómetrastöðum", "kílómetrastaðna"],
+		"mg": ["kílómetrastöðurnar", "kílómetrastöðurnar", "kílómetrastöðunum", "kílómetrastaðnanna"]
+	},
 	"kennistrengur": "no-kílómetrastaða-kvk",
-	"hash": "7322a10a831c559bc41b8575480aa97e9ea8962ea2b8458b2638f492cf7e6f1c"
+	"hash": "37fcb8bbb9bbca3844b270a504cb20613c5bcd89ee049879724596675e903ab9"
 }

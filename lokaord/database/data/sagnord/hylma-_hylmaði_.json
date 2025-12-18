@@ -1,0 +1,74 @@
+{
+	"orð": "hylma",
+	"flokkur": "sagnorð",
+	"merking": "hylmaði",
+	"samsett": [
+		{
+			"mynd": "hylm",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hylma"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hylma",
+		"sagnbót": "hylmað",
+		"boðháttur": {
+			"stýfður": "hylma",
+			"et": "hylmaðu",
+			"ft": "hylmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hylma", "hylmar", "hylmar"],
+					"ft": ["hylmum", "hylmið", "hylma"]
+				},
+				"þátíð": {
+					"et": ["hylmaði", "hylmaðir", "hylmaði"],
+					"ft": ["hylmuðum", "hylmuðuð", "hylmuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hylmi", "hylmir", "hylmi"],
+					"ft": ["hylmum", "hylmið", "hylmi"]
+				},
+				"þátíð": {
+					"et": ["hylmaði", "hylmaðir", "hylmaði"],
+					"ft": ["hylmuðum", "hylmuðuð", "hylmuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hylmarðu",
+					"ft": "hylmiði"
+				},
+				"þátíð": {
+					"et": "hylmaðirðu",
+					"ft": "hylmuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hylmirðu",
+					"ft": "hylmiði"
+				},
+				"þátíð": {
+					"et": "hylmaðirðu",
+					"ft": "hylmuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hylmandi"
+	},
+	"kennistrengur": "so-hylma-_hylmaði_",
+	"hash": "3696cf4ec8ae851114e539e867dd8c02fd562409ea643b90a50d7b4109a954f6"
+}

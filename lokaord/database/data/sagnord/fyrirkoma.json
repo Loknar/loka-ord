@@ -1,0 +1,87 @@
+{
+	"orð": "fyrirkoma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-koma"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fyrirkoma",
+		"sagnbót": "fyrirkomið",
+		"boðháttur": {
+			"stýfður": "fyrirkom",
+			"et": "fyrirkomdu",
+			"ft": "fyrirkomið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirkem", "fyrirkemur", "fyrirkemur"],
+					"ft": ["fyrirkomum", "fyrirkomið", "fyrirkoma"]
+				},
+				"þátíð": {
+					"et": ["fyrirkom", "fyrirkomst", "fyrirkom"],
+					"ft": ["fyrirkomum", "fyrirkomuð", "fyrirkomu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirkomi", "fyrirkomir", "fyrirkomi"],
+					"ft": ["fyrirkomum", "fyrirkomið", "fyrirkomi"]
+				},
+				"þátíð": {
+					"et": ["fyrirkæmi", "fyrirkæmir", "fyrirkæmi"],
+					"ft": ["fyrirkæmum", "fyrirkæmuð", "fyrirkæmu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirkemurðu",
+					"ft": "fyrirkomiði"
+				},
+				"þátíð": {
+					"et": "fyrirkomstu",
+					"ft": "fyrirkomuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirkomirðu",
+					"ft": "fyrirkomiði"
+				},
+				"þátíð": {
+					"et": "fyrirkæmirðu",
+					"ft": "fyrirkæmuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fyrirkomandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fyrirkominn", "fyrirkominn", "fyrirkomnum", "fyrirkomins"],
+					"kvk": ["fyrirkomin", "fyrirkomna", "fyrirkominni", "fyrirkominnar"],
+					"hk": ["fyrirkomið", "fyrirkomið", "fyrirkomnu", "fyrirkomins"]
+				},
+				"ft": {
+					"kk": ["fyrirkomnir", "fyrirkomna", "fyrirkomnum", "fyrirkominna"],
+					"kvk": ["fyrirkomnar", "fyrirkomnar", "fyrirkomnum", "fyrirkominna"],
+					"hk": ["fyrirkomin", "fyrirkomin", "fyrirkomnum", "fyrirkominna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fyrirkoma",
+	"hash": "22b0d95cd219643ebd4825d736b8934ff794bda407202edd287a229658835c71"
+}
