@@ -1,0 +1,135 @@
+{
+	"orð": "söðla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "söðl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-söðułl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "söðla",
+		"sagnbót": "söðlað",
+		"boðháttur": {
+			"stýfður": "söðla",
+			"et": "söðlaðu",
+			"ft": "söðlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["söðla", "söðlar", "söðlar"],
+					"ft": ["söðlum", "söðlið", "söðla"]
+				},
+				"þátíð": {
+					"et": ["söðlaði", "söðlaðir", "söðlaði"],
+					"ft": ["söðluðum", "söðluðuð", "söðluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["söðli", "söðlir", "söðli"],
+					"ft": ["söðlum", "söðlið", "söðli"]
+				},
+				"þátíð": {
+					"et": ["söðlaði", "söðlaðir", "söðlaði"],
+					"ft": ["söðluðum", "söðluðuð", "söðluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "söðlarðu",
+					"ft": "söðliði"
+				},
+				"þátíð": {
+					"et": "söðlaðirðu",
+					"ft": "söðluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "söðlirðu",
+					"ft": "söðliði"
+				},
+				"þátíð": {
+					"et": "söðlaðirðu",
+					"ft": "söðluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "söðlast",
+		"sagnbót": "söðlast",
+		"boðháttur": {
+			"et": "söðlastu",
+			"ft": "söðlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["söðlast", "söðlast", "söðlast"],
+					"ft": ["söðlumst", "söðlist", "söðlast"]
+				},
+				"þátíð": {
+					"et": ["söðlaðist", "söðlaðist", "söðlaðist"],
+					"ft": ["söðluðumst", "söðluðust", "söðluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["söðlist", "söðlist", "söðlist"],
+					"ft": ["söðlumst", "söðlist", "söðlist"]
+				},
+				"þátíð": {
+					"et": ["söðlaðist", "söðlaðist", "söðlaðist"],
+					"ft": ["söðluðumst", "söðluðust", "söðluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "söðlastu"
+				},
+				"þátíð": {
+					"et": "söðlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "söðlistu"
+				},
+				"þátíð": {
+					"et": "söðlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "söðlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["söðlaður", "söðlaðan", "söðluðum", "söðlaðs"],
+					"kvk": ["söðluð", "söðlaða", "söðlaðri", "söðlaðrar"],
+					"hk": ["söðlað", "söðlað", "söðluðu", "söðlaðs"]
+				},
+				"ft": {
+					"kk": ["söðlaðir", "söðlaða", "söðluðum", "söðlaðra"],
+					"kvk": ["söðlaðar", "söðlaðar", "söðluðum", "söðlaðra"],
+					"hk": ["söðluð", "söðluð", "söðluðum", "söðlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-söðla",
+	"hash": "b084691741d5aa65f72b931529b651ac79e32f03bbe8ed6c87114dc209545f6a"
+}
