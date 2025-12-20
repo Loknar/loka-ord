@@ -1,0 +1,73 @@
+{
+	"orð": "panika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "panik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-panik-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "panika",
+		"sagnbót": "panikað",
+		"boðháttur": {
+			"stýfður": "panika",
+			"et": "panikaðu",
+			"ft": "panikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["panika", "panikar", "panikar"],
+					"ft": ["panikum", "panikið", "panika"]
+				},
+				"þátíð": {
+					"et": ["panikaði", "panikaðir", "panikaði"],
+					"ft": ["panikuðum", "panikuðuð", "panikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["paniki", "panikir", "paniki"],
+					"ft": ["panikum", "panikið", "paniki"]
+				},
+				"þátíð": {
+					"et": ["panikaði", "panikaðir", "panikaði"],
+					"ft": ["panikuðum", "panikuðuð", "panikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "panikarðu",
+					"ft": "panikiði"
+				},
+				"þátíð": {
+					"et": "panikaðirðu",
+					"ft": "panikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "panikirðu",
+					"ft": "panikiði"
+				},
+				"þátíð": {
+					"et": "panikaðirðu",
+					"ft": "panikuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "panikandi"
+	},
+	"kennistrengur": "so-panika",
+	"hash": "7507fe2eebcd219bb008dd0d36bd029fb8242a918a4f7ac82bbf76f382e0b818"
+}

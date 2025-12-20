@@ -1,0 +1,99 @@
+{
+	"orð": "léttreykja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "létt",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-léttur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-reykja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "léttreykja",
+		"sagnbót": "léttreykt",
+		"boðháttur": {
+			"stýfður": "léttreyk",
+			"et": "léttreyktu",
+			"ft": "léttreykið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["léttreyki", "léttreykir", "léttreykir"],
+					"ft": ["léttreykjum", "léttreykið", "léttreykja"]
+				},
+				"þátíð": {
+					"et": ["léttreykti", "léttreyktir", "léttreykti"],
+					"ft": ["léttreyktum", "léttreyktuð", "léttreyktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["léttreyki", "léttreykir", "léttreyki"],
+					"ft": ["léttreykjum", "léttreykið", "léttreyki"]
+				},
+				"þátíð": {
+					"et": ["léttreykti", "léttreyktir", "léttreykti"],
+					"ft": ["léttreyktum", "léttreyktuð", "léttreyktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "léttreykirðu",
+					"ft": "léttreykiði"
+				},
+				"þátíð": {
+					"et": "léttreyktirðu",
+					"ft": "léttreyktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "léttreykirðu",
+					"ft": "léttreykiði"
+				},
+				"þátíð": {
+					"et": "léttreyktirðu",
+					"ft": "léttreyktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "léttreykjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["léttreyktur", "léttreyktan", "léttreyktum", "léttreykts"],
+					"kvk": ["léttreykt", "léttreykta", "léttreyktri", "léttreyktrar"],
+					"hk": ["léttreykt", "léttreykt", "léttreyktu", "léttreykts"]
+				},
+				"ft": {
+					"kk": ["léttreyktir", "léttreykta", "léttreyktum", "léttreyktra"],
+					"kvk": ["léttreyktar", "léttreyktar", "léttreyktum", "léttreyktra"],
+					"hk": ["léttreykt", "léttreykt", "léttreyktum", "léttreyktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["léttreykti", "léttreykta", "léttreykta", "léttreykta"],
+					"kvk": ["léttreykta", "léttreyktu", "léttreyktu", "léttreyktu"],
+					"hk": ["léttreykta", "léttreykta", "léttreykta", "léttreykta"]
+				},
+				"ft": {
+					"kk": ["léttreyktu", "léttreyktu", "léttreyktu", "léttreyktu"],
+					"kvk": ["léttreyktu", "léttreyktu", "léttreyktu", "léttreyktu"],
+					"hk": ["léttreyktu", "léttreyktu", "léttreyktu", "léttreyktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-léttreykja",
+	"hash": "7e79eeeaab0672b7ea992bdbdbde4b8711ce65ec98a8a403f75bc2e187671984"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "tvíreykja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tví",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-tví-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-reykja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tvíreykja",
+		"sagnbót": "tvíreykt",
+		"boðháttur": {
+			"stýfður": "tvíreyk",
+			"et": "tvíreyktu",
+			"ft": "tvíreykið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tvíreyki", "tvíreykir", "tvíreykir"],
+					"ft": ["tvíreykjum", "tvíreykið", "tvíreykja"]
+				},
+				"þátíð": {
+					"et": ["tvíreykti", "tvíreyktir", "tvíreykti"],
+					"ft": ["tvíreyktum", "tvíreyktuð", "tvíreyktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tvíreyki", "tvíreykir", "tvíreyki"],
+					"ft": ["tvíreykjum", "tvíreykið", "tvíreyki"]
+				},
+				"þátíð": {
+					"et": ["tvíreykti", "tvíreyktir", "tvíreykti"],
+					"ft": ["tvíreyktum", "tvíreyktuð", "tvíreyktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tvíreykirðu",
+					"ft": "tvíreykiði"
+				},
+				"þátíð": {
+					"et": "tvíreyktirðu",
+					"ft": "tvíreyktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tvíreykirðu",
+					"ft": "tvíreykiði"
+				},
+				"þátíð": {
+					"et": "tvíreyktirðu",
+					"ft": "tvíreyktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tvíreykjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tvíreyktur", "tvíreyktan", "tvíreyktum", "tvíreykts"],
+					"kvk": ["tvíreykt", "tvíreykta", "tvíreyktri", "tvíreyktrar"],
+					"hk": ["tvíreykt", "tvíreykt", "tvíreyktu", "tvíreykts"]
+				},
+				"ft": {
+					"kk": ["tvíreyktir", "tvíreykta", "tvíreyktum", "tvíreyktra"],
+					"kvk": ["tvíreyktar", "tvíreyktar", "tvíreyktum", "tvíreyktra"],
+					"hk": ["tvíreykt", "tvíreykt", "tvíreyktum", "tvíreyktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tvíreykti", "tvíreykta", "tvíreykta", "tvíreykta"],
+					"kvk": ["tvíreykta", "tvíreyktu", "tvíreyktu", "tvíreyktu"],
+					"hk": ["tvíreykta", "tvíreykta", "tvíreykta", "tvíreykta"]
+				},
+				"ft": {
+					"kk": ["tvíreyktu", "tvíreyktu", "tvíreyktu", "tvíreyktu"],
+					"kvk": ["tvíreyktu", "tvíreyktu", "tvíreyktu", "tvíreyktu"],
+					"hk": ["tvíreyktu", "tvíreyktu", "tvíreyktu", "tvíreyktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tvíreykja",
+	"hash": "4387695b1d8660ec65b261611430404533af0b35665d179c0d1499ff229a0e38"
+}

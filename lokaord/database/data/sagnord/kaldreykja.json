@@ -1,0 +1,99 @@
+{
+	"orð": "kaldreykja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kald",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-kaldur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-reykja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kaldreykja",
+		"sagnbót": "kaldreykt",
+		"boðháttur": {
+			"stýfður": "kaldreyk",
+			"et": "kaldreyktu",
+			"ft": "kaldreykið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kaldreyki", "kaldreykir", "kaldreykir"],
+					"ft": ["kaldreykjum", "kaldreykið", "kaldreykja"]
+				},
+				"þátíð": {
+					"et": ["kaldreykti", "kaldreyktir", "kaldreykti"],
+					"ft": ["kaldreyktum", "kaldreyktuð", "kaldreyktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kaldreyki", "kaldreykir", "kaldreyki"],
+					"ft": ["kaldreykjum", "kaldreykið", "kaldreyki"]
+				},
+				"þátíð": {
+					"et": ["kaldreykti", "kaldreyktir", "kaldreykti"],
+					"ft": ["kaldreyktum", "kaldreyktuð", "kaldreyktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kaldreykirðu",
+					"ft": "kaldreykiði"
+				},
+				"þátíð": {
+					"et": "kaldreyktirðu",
+					"ft": "kaldreyktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kaldreykirðu",
+					"ft": "kaldreykiði"
+				},
+				"þátíð": {
+					"et": "kaldreyktirðu",
+					"ft": "kaldreyktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kaldreykjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kaldreyktur", "kaldreyktan", "kaldreyktum", "kaldreykts"],
+					"kvk": ["kaldreykt", "kaldreykta", "kaldreyktri", "kaldreyktrar"],
+					"hk": ["kaldreykt", "kaldreykt", "kaldreyktu", "kaldreykts"]
+				},
+				"ft": {
+					"kk": ["kaldreyktir", "kaldreykta", "kaldreyktum", "kaldreyktra"],
+					"kvk": ["kaldreyktar", "kaldreyktar", "kaldreyktum", "kaldreyktra"],
+					"hk": ["kaldreykt", "kaldreykt", "kaldreyktum", "kaldreyktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kaldreykti", "kaldreykta", "kaldreykta", "kaldreykta"],
+					"kvk": ["kaldreykta", "kaldreyktu", "kaldreyktu", "kaldreyktu"],
+					"hk": ["kaldreykta", "kaldreykta", "kaldreykta", "kaldreykta"]
+				},
+				"ft": {
+					"kk": ["kaldreyktu", "kaldreyktu", "kaldreyktu", "kaldreyktu"],
+					"kvk": ["kaldreyktu", "kaldreyktu", "kaldreyktu", "kaldreyktu"],
+					"hk": ["kaldreyktu", "kaldreyktu", "kaldreyktu", "kaldreyktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kaldreykja",
+	"hash": "f84e99b0dbd23c4088dd57633616a744a672254a4c1bc0ee61f680c34358bc56"
+}

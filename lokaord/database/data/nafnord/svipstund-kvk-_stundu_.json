@@ -2,6 +2,7 @@
 	"orð": "svipstund",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"merking": "stundu",
 	"samsett": [
 		{
 			"mynd": "svip",
@@ -10,13 +11,13 @@
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-stund-kvk"
+			"kennistrengur": "no-stund-kvk-_stundu_"
 		}
 	],
 	"et": {
-		"ág": ["svipstund", "svipstund", "svipstund", "svipstundar"],
+		"ág": ["svipstund", "svipstund", "svipstundu", "svipstundar"],
 		"mg": ["svipstundin", "svipstundina", "svipstundinni", "svipstundarinnar"]
 	},
-	"kennistrengur": "no-svipstund-kvk",
-	"hash": "8612913f8b2724acb487a120c789833ea281a3959ad3085641668a0ca0254de5"
+	"kennistrengur": "no-svipstund-kvk-_stundu_",
+	"hash": "33d83bbb424ced4c791ec1d747c8920e487f6bde16fa2187617e3217c89c341a"
 }

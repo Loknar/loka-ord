@@ -1,0 +1,135 @@
+{
+	"orð": "reyfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "reyf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-reyfi-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "reyfa",
+		"sagnbót": "reyfað",
+		"boðháttur": {
+			"stýfður": "reyfa",
+			"et": "reyfaðu",
+			"ft": "reyfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reyfa", "reyfar", "reyfar"],
+					"ft": ["reyfum", "reyfið", "reyfa"]
+				},
+				"þátíð": {
+					"et": ["reyfaði", "reyfaðir", "reyfaði"],
+					"ft": ["reyfuðum", "reyfuðuð", "reyfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reyfi", "reyfir", "reyfi"],
+					"ft": ["reyfum", "reyfið", "reyfi"]
+				},
+				"þátíð": {
+					"et": ["reyfaði", "reyfaðir", "reyfaði"],
+					"ft": ["reyfuðum", "reyfuðuð", "reyfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reyfarðu",
+					"ft": "reyfiði"
+				},
+				"þátíð": {
+					"et": "reyfaðirðu",
+					"ft": "reyfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reyfirðu",
+					"ft": "reyfiði"
+				},
+				"þátíð": {
+					"et": "reyfaðirðu",
+					"ft": "reyfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "reyfast",
+		"sagnbót": "reyfast",
+		"boðháttur": {
+			"et": "reyfastu",
+			"ft": "reyfist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reyfast", "reyfast", "reyfast"],
+					"ft": ["reyfumst", "reyfist", "reyfast"]
+				},
+				"þátíð": {
+					"et": ["reyfaðist", "reyfaðist", "reyfaðist"],
+					"ft": ["reyfuðumst", "reyfuðust", "reyfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reyfist", "reyfist", "reyfist"],
+					"ft": ["reyfumst", "reyfist", "reyfist"]
+				},
+				"þátíð": {
+					"et": ["reyfaðist", "reyfaðist", "reyfaðist"],
+					"ft": ["reyfuðumst", "reyfuðust", "reyfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reyfastu"
+				},
+				"þátíð": {
+					"et": "reyfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reyfistu"
+				},
+				"þátíð": {
+					"et": "reyfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reyfandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reyfaður", "reyfaðan", "reyfuðum", "reyfaðs"],
+					"kvk": ["reyfuð", "reyfaða", "reyfaðri", "reyfaðrar"],
+					"hk": ["reyfað", "reyfað", "reyfuðu", "reyfaðs"]
+				},
+				"ft": {
+					"kk": ["reyfaðir", "reyfaða", "reyfuðum", "reyfaðra"],
+					"kvk": ["reyfaðar", "reyfaðar", "reyfuðum", "reyfaðra"],
+					"hk": ["reyfuð", "reyfuð", "reyfuðum", "reyfaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-reyfa",
+	"hash": "041587cb2d880cc1fed82e50040df9e35f7d9c7d6d597e858fdb1a30632cec4a"
+}

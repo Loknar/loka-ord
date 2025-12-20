@@ -1,0 +1,99 @@
+{
+	"orð": "taðreykja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tað",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tað-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-reykja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "taðreykja",
+		"sagnbót": "taðreykt",
+		"boðháttur": {
+			"stýfður": "taðreyk",
+			"et": "taðreyktu",
+			"ft": "taðreykið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["taðreyki", "taðreykir", "taðreykir"],
+					"ft": ["taðreykjum", "taðreykið", "taðreykja"]
+				},
+				"þátíð": {
+					"et": ["taðreykti", "taðreyktir", "taðreykti"],
+					"ft": ["taðreyktum", "taðreyktuð", "taðreyktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["taðreyki", "taðreykir", "taðreyki"],
+					"ft": ["taðreykjum", "taðreykið", "taðreyki"]
+				},
+				"þátíð": {
+					"et": ["taðreykti", "taðreyktir", "taðreykti"],
+					"ft": ["taðreyktum", "taðreyktuð", "taðreyktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "taðreykirðu",
+					"ft": "taðreykiði"
+				},
+				"þátíð": {
+					"et": "taðreyktirðu",
+					"ft": "taðreyktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "taðreykirðu",
+					"ft": "taðreykiði"
+				},
+				"þátíð": {
+					"et": "taðreyktirðu",
+					"ft": "taðreyktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "taðreykjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["taðreyktur", "taðreyktan", "taðreyktum", "taðreykts"],
+					"kvk": ["taðreykt", "taðreykta", "taðreyktri", "taðreyktrar"],
+					"hk": ["taðreykt", "taðreykt", "taðreyktu", "taðreykts"]
+				},
+				"ft": {
+					"kk": ["taðreyktir", "taðreykta", "taðreyktum", "taðreyktra"],
+					"kvk": ["taðreyktar", "taðreyktar", "taðreyktum", "taðreyktra"],
+					"hk": ["taðreykt", "taðreykt", "taðreyktum", "taðreyktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["taðreykti", "taðreykta", "taðreykta", "taðreykta"],
+					"kvk": ["taðreykta", "taðreyktu", "taðreyktu", "taðreyktu"],
+					"hk": ["taðreykta", "taðreykta", "taðreykta", "taðreykta"]
+				},
+				"ft": {
+					"kk": ["taðreyktu", "taðreyktu", "taðreyktu", "taðreyktu"],
+					"kvk": ["taðreyktu", "taðreyktu", "taðreyktu", "taðreyktu"],
+					"hk": ["taðreyktu", "taðreyktu", "taðreyktu", "taðreyktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-taðreykja",
+	"hash": "02c9ce47b6e70a0953358c329549fa4ce1a5afc41d37d1954ce542165446176d"
+}
