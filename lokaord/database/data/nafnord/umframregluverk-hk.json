@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "um",
+			"mynd": "umfram",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-um"
+			"kennistrengur": "smáo.fs-umfram"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "reglu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
-		},
-		{
-			"kennistrengur": "no-verk-hk"
+			"kennistrengur": "no-regluverk-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["umframregluverkin", "umframregluverkin", "umframregluverkunum", "umframregluverkanna"]
 	},
 	"kennistrengur": "no-umframregluverk-hk",
-	"hash": "1574ed28213330aa4d1c2ca8fd35313e7614ec8602f8cd392b723e44a8347d3e"
+	"hash": "bfe73574b9ac3ebab8199abcbbc0936181f835246a73af56cf96780694d2e801"
 }

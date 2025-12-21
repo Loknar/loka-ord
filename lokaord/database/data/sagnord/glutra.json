@@ -1,0 +1,135 @@
+{
+	"orð": "glutra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "glutr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-glutur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "glutra",
+		"sagnbót": "glutrað",
+		"boðháttur": {
+			"stýfður": "glutra",
+			"et": "glutraðu",
+			"ft": "glutrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glutra", "glutrar", "glutrar"],
+					"ft": ["glutrum", "glutrið", "glutra"]
+				},
+				"þátíð": {
+					"et": ["glutraði", "glutraðir", "glutraði"],
+					"ft": ["glutruðum", "glutruðuð", "glutruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glutri", "glutrir", "glutri"],
+					"ft": ["glutrum", "glutrið", "glutri"]
+				},
+				"þátíð": {
+					"et": ["glutraði", "glutraðir", "glutraði"],
+					"ft": ["glutruðum", "glutruðuð", "glutruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "glutrarðu",
+					"ft": "glutriði"
+				},
+				"þátíð": {
+					"et": "glutraðirðu",
+					"ft": "glutruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "glutrirðu",
+					"ft": "glutriði"
+				},
+				"þátíð": {
+					"et": "glutraðirðu",
+					"ft": "glutruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "glutrast",
+		"sagnbót": "glutrast",
+		"boðháttur": {
+			"et": "glutrastu",
+			"ft": "glutrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glutrast", "glutrast", "glutrast"],
+					"ft": ["glutrumst", "glutrist", "glutrast"]
+				},
+				"þátíð": {
+					"et": ["glutraðist", "glutraðist", "glutraðist"],
+					"ft": ["glutruðumst", "glutruðust", "glutruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glutrist", "glutrist", "glutrist"],
+					"ft": ["glutrumst", "glutrist", "glutrist"]
+				},
+				"þátíð": {
+					"et": ["glutraðist", "glutraðist", "glutraðist"],
+					"ft": ["glutruðumst", "glutruðust", "glutruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "glutrastu"
+				},
+				"þátíð": {
+					"et": "glutraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "glutristu"
+				},
+				"þátíð": {
+					"et": "glutraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "glutrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["glutraður", "glutraðan", "glutruðum", "glutraðs"],
+					"kvk": ["glutruð", "glutraða", "glutraðri", "glutraðrar"],
+					"hk": ["glutrað", "glutrað", "glutruðu", "glutraðs"]
+				},
+				"ft": {
+					"kk": ["glutraðir", "glutraða", "glutruðum", "glutraðra"],
+					"kvk": ["glutraðar", "glutraðar", "glutruðum", "glutraðra"],
+					"hk": ["glutruð", "glutruð", "glutruðum", "glutraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-glutra",
+	"hash": "5dc0f5b3c88307ab994e5e2a1703f2d0e78e4467461f5b6ca8289387411e384c"
+}

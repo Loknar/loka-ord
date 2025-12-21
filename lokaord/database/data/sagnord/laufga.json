@@ -1,0 +1,135 @@
+{
+	"orð": "laufga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "laufg",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-lauf-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "laufga",
+		"sagnbót": "laufgað",
+		"boðháttur": {
+			"stýfður": "laufga",
+			"et": "laufgaðu",
+			"ft": "laufgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["laufga", "laufgar", "laufgar"],
+					"ft": ["laufgum", "laufgið", "laufga"]
+				},
+				"þátíð": {
+					"et": ["laufgaði", "laufgaðir", "laufgaði"],
+					"ft": ["laufguðum", "laufguðuð", "laufguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["laufgi", "laufgir", "laufgi"],
+					"ft": ["laufgum", "laufgið", "laufgi"]
+				},
+				"þátíð": {
+					"et": ["laufgaði", "laufgaðir", "laufgaði"],
+					"ft": ["laufguðum", "laufguðuð", "laufguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "laufgarðu",
+					"ft": "laufgiði"
+				},
+				"þátíð": {
+					"et": "laufgaðirðu",
+					"ft": "laufguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "laufgirðu",
+					"ft": "laufgiði"
+				},
+				"þátíð": {
+					"et": "laufgaðirðu",
+					"ft": "laufguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "laufgast",
+		"sagnbót": "laufgast",
+		"boðháttur": {
+			"et": "laufgastu",
+			"ft": "laufgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["laufgast", "laufgast", "laufgast"],
+					"ft": ["laufgumst", "laufgist", "laufgast"]
+				},
+				"þátíð": {
+					"et": ["laufgaðist", "laufgaðist", "laufgaðist"],
+					"ft": ["laufguðumst", "laufguðust", "laufguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["laufgist", "laufgist", "laufgist"],
+					"ft": ["laufgumst", "laufgist", "laufgist"]
+				},
+				"þátíð": {
+					"et": ["laufgaðist", "laufgaðist", "laufgaðist"],
+					"ft": ["laufguðumst", "laufguðust", "laufguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "laufgastu"
+				},
+				"þátíð": {
+					"et": "laufgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "laufgistu"
+				},
+				"þátíð": {
+					"et": "laufgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "laufgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["laufgaður", "laufgaðan", "laufguðum", "laufgaðs"],
+					"kvk": ["laufguð", "laufgaða", "laufgaðri", "laufgaðrar"],
+					"hk": ["laufgað", "laufgað", "laufguðu", "laufgaðs"]
+				},
+				"ft": {
+					"kk": ["laufgaðir", "laufgaða", "laufguðum", "laufgaðra"],
+					"kvk": ["laufgaðar", "laufgaðar", "laufguðum", "laufgaðra"],
+					"hk": ["laufguð", "laufguð", "laufguðum", "laufgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-laufga",
+	"hash": "911f66eece50e68e5207a9daf5e34945c840a95952981bd164ac70fad980074f"
+}

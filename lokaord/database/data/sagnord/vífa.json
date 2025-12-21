@@ -1,0 +1,73 @@
+{
+	"orð": "vífa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "víf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vífa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vífa",
+		"sagnbót": "vífað",
+		"boðháttur": {
+			"stýfður": "vífa",
+			"et": "vífaðu",
+			"ft": "vífið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vífa", "vífar", "vífar"],
+					"ft": ["vífum", "vífið", "vífa"]
+				},
+				"þátíð": {
+					"et": ["vífaði", "vífaðir", "vífaði"],
+					"ft": ["vífuðum", "vífuðuð", "vífuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vífi", "vífir", "vífi"],
+					"ft": ["vífum", "vífið", "vífi"]
+				},
+				"þátíð": {
+					"et": ["vífaði", "vífaðir", "vífaði"],
+					"ft": ["vífuðum", "vífuðuð", "vífuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vífarðu",
+					"ft": "vífiði"
+				},
+				"þátíð": {
+					"et": "vífaðirðu",
+					"ft": "vífuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vífirðu",
+					"ft": "vífiði"
+				},
+				"þátíð": {
+					"et": "vífaðirðu",
+					"ft": "vífuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vífandi"
+	},
+	"kennistrengur": "so-vífa",
+	"hash": "e28bd583663f6403913dc0090767aa4e4d1c7aaa229537f7ab4869d66c964155"
+}
