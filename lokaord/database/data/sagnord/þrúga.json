@@ -1,0 +1,135 @@
+{
+	"orð": "þrúga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þrúg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þrúga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þrúga",
+		"sagnbót": "þrúgað",
+		"boðháttur": {
+			"stýfður": "þrúga",
+			"et": "þrúgaðu",
+			"ft": "þrúgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þrúga", "þrúgar", "þrúgar"],
+					"ft": ["þrúgum", "þrúgið", "þrúga"]
+				},
+				"þátíð": {
+					"et": ["þrúgaði", "þrúgaðir", "þrúgaði"],
+					"ft": ["þrúguðum", "þrúguðuð", "þrúguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þrúgi", "þrúgir", "þrúgi"],
+					"ft": ["þrúgum", "þrúgið", "þrúgi"]
+				},
+				"þátíð": {
+					"et": ["þrúgaði", "þrúgaðir", "þrúgaði"],
+					"ft": ["þrúguðum", "þrúguðuð", "þrúguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þrúgarðu",
+					"ft": "þrúgiði"
+				},
+				"þátíð": {
+					"et": "þrúgaðirðu",
+					"ft": "þrúguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þrúgirðu",
+					"ft": "þrúgiði"
+				},
+				"þátíð": {
+					"et": "þrúgaðirðu",
+					"ft": "þrúguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þrúgast",
+		"sagnbót": "þrúgast",
+		"boðháttur": {
+			"et": "þrúgastu",
+			"ft": "þrúgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þrúgast", "þrúgast", "þrúgast"],
+					"ft": ["þrúgumst", "þrúgist", "þrúgast"]
+				},
+				"þátíð": {
+					"et": ["þrúgaðist", "þrúgaðist", "þrúgaðist"],
+					"ft": ["þrúguðumst", "þrúguðust", "þrúguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þrúgist", "þrúgist", "þrúgist"],
+					"ft": ["þrúgumst", "þrúgist", "þrúgist"]
+				},
+				"þátíð": {
+					"et": ["þrúgaðist", "þrúgaðist", "þrúgaðist"],
+					"ft": ["þrúguðumst", "þrúguðust", "þrúguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þrúgastu"
+				},
+				"þátíð": {
+					"et": "þrúgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þrúgistu"
+				},
+				"þátíð": {
+					"et": "þrúgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þrúgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þrúgaður", "þrúgaðan", "þrúguðum", "þrúgaðs"],
+					"kvk": ["þrúguð", "þrúgaða", "þrúgaðri", "þrúgaðrar"],
+					"hk": ["þrúgað", "þrúgað", "þrúguðu", "þrúgaðs"]
+				},
+				"ft": {
+					"kk": ["þrúgaðir", "þrúgaða", "þrúguðum", "þrúgaðra"],
+					"kvk": ["þrúgaðar", "þrúgaðar", "þrúguðum", "þrúgaðra"],
+					"hk": ["þrúguð", "þrúguð", "þrúguðum", "þrúgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þrúga",
+	"hash": "a68c03464e9365eeb31f4ef547c98007128ffc606bfac00be9edc494224a8777"
+}
