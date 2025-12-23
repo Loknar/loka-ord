@@ -1,0 +1,135 @@
+{
+	"orð": "hringla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hringl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hringla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hringla",
+		"sagnbót": "hringlað",
+		"boðháttur": {
+			"stýfður": "hringla",
+			"et": "hringlaðu",
+			"ft": "hringlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hringla", "hringlar", "hringlar"],
+					"ft": ["hringlum", "hringlið", "hringla"]
+				},
+				"þátíð": {
+					"et": ["hringlaði", "hringlaðir", "hringlaði"],
+					"ft": ["hringluðum", "hringluðuð", "hringluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hringli", "hringlir", "hringli"],
+					"ft": ["hringlum", "hringlið", "hringli"]
+				},
+				"þátíð": {
+					"et": ["hringlaði", "hringlaðir", "hringlaði"],
+					"ft": ["hringluðum", "hringluðuð", "hringluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hringlarðu",
+					"ft": "hringliði"
+				},
+				"þátíð": {
+					"et": "hringlaðirðu",
+					"ft": "hringluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hringlirðu",
+					"ft": "hringliði"
+				},
+				"þátíð": {
+					"et": "hringlaðirðu",
+					"ft": "hringluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hringlast",
+		"sagnbót": "hringlast",
+		"boðháttur": {
+			"et": "hringlastu",
+			"ft": "hringlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hringlast", "hringlast", "hringlast"],
+					"ft": ["hringlumst", "hringlist", "hringlast"]
+				},
+				"þátíð": {
+					"et": ["hringlaðist", "hringlaðist", "hringlaðist"],
+					"ft": ["hringluðumst", "hringluðust", "hringluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hringlist", "hringlist", "hringlist"],
+					"ft": ["hringlumst", "hringlist", "hringlist"]
+				},
+				"þátíð": {
+					"et": ["hringlaðist", "hringlaðist", "hringlaðist"],
+					"ft": ["hringluðumst", "hringluðust", "hringluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hringlastu"
+				},
+				"þátíð": {
+					"et": "hringlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hringlistu"
+				},
+				"þátíð": {
+					"et": "hringlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hringlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hringlaður", "hringlaðan", "hringluðum", "hringlaðs"],
+					"kvk": ["hringluð", "hringlaða", "hringlaðri", "hringlaðrar"],
+					"hk": ["hringlað", "hringlað", "hringluðu", "hringlaðs"]
+				},
+				"ft": {
+					"kk": ["hringlaðir", "hringlaða", "hringluðum", "hringlaðra"],
+					"kvk": ["hringlaðar", "hringlaðar", "hringluðum", "hringlaðra"],
+					"hk": ["hringluð", "hringluð", "hringluðum", "hringlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hringla",
+	"hash": "c70523c90fb804521a9e644e76830656883f55a602fb59a68cb2752503e451e3"
+}
