@@ -6,18 +6,13 @@
 	"samsett": [
 		{
 			"mynd": "Alþjóða",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-alþjóð-kvk"
+			"samsetning": "stofn",
+			"kennistrengur": "lo-alþjóða"
 		},
 		{
-			"mynd": "siglinga",
+			"mynd": "siglingamála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sigling-kvk"
-		},
-		{
-			"mynd": "mála",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-siglingamál-hk"
 		},
 		{
 			"beygingar": ["et"],
@@ -29,5 +24,5 @@
 		"mg": ["Alþjóðasiglingamálastofnunin", "Alþjóðasiglingamálastofnunina", "Alþjóðasiglingamálastofnuninni", "Alþjóðasiglingamálastofnunarinnar"]
 	},
 	"kennistrengur": "sérn.ön-Alþjóðasiglingamálastofnun-kvk",
-	"hash": "ca96cd0e92711e6f1de43d63972ca06450ff21e6b6d0f27959ba147114ae25d7"
+	"hash": "509cc6f9024656a6c663c2c8bdd7f1e88831d84cbcae748bb560ba7ecb05da9a"
 }

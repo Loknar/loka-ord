@@ -2,6 +2,16 @@
 	"orð": "sturta",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sturt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sturt-hk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["sturta", "sturtu", "sturtu", "sturtu"],
 		"mg": ["sturtan", "sturtuna", "sturtunni", "sturtunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["sturturnar", "sturturnar", "sturtunum", "sturtanna"]
 	},
 	"kennistrengur": "no-sturta-kvk",
-	"hash": "1d06645e581051b5b222f7a2a14fa0f1595c3314a00544de51ede847e875e1f4"
+	"hash": "4c1d576cf3e82d90e536a0400e076729136c4313eb4596157dab6effb0755913"
 }

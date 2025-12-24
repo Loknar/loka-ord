@@ -1,0 +1,77 @@
+{
+	"orð": "lyfjaprófa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lyfja",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lyf-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-prófa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lyfjaprófa",
+		"sagnbót": "lyfjaprófað",
+		"boðháttur": {
+			"stýfður": "lyfjaprófa",
+			"et": "lyfjaprófaðu",
+			"ft": "lyfjaprófið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lyfjaprófa", "lyfjaprófar", "lyfjaprófar"],
+					"ft": ["lyfjaprófum", "lyfjaprófið", "lyfjaprófa"]
+				},
+				"þátíð": {
+					"et": ["lyfjaprófaði", "lyfjaprófaðir", "lyfjaprófaði"],
+					"ft": ["lyfjaprófuðum", "lyfjaprófuðuð", "lyfjaprófuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lyfjaprófi", "lyfjaprófir", "lyfjaprófi"],
+					"ft": ["lyfjaprófum", "lyfjaprófið", "lyfjaprófi"]
+				},
+				"þátíð": {
+					"et": ["lyfjaprófaði", "lyfjaprófaðir", "lyfjaprófaði"],
+					"ft": ["lyfjaprófuðum", "lyfjaprófuðuð", "lyfjaprófuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lyfjaprófandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lyfjaprófaður", "lyfjaprófaðan", "lyfjaprófuðum", "lyfjaprófaðs"],
+					"kvk": ["lyfjaprófuð", "lyfjaprófaða", "lyfjaprófaðri", "lyfjaprófaðrar"],
+					"hk": ["lyfjaprófað", "lyfjaprófað", "lyfjaprófuðu", "lyfjaprófaðs"]
+				},
+				"ft": {
+					"kk": ["lyfjaprófaðir", "lyfjaprófaða", "lyfjaprófuðum", "lyfjaprófaðra"],
+					"kvk": ["lyfjaprófaðar", "lyfjaprófaðar", "lyfjaprófuðum", "lyfjaprófaðra"],
+					"hk": ["lyfjaprófuð", "lyfjaprófuð", "lyfjaprófuðum", "lyfjaprófaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lyfjaprófaði", "lyfjaprófaða", "lyfjaprófaða", "lyfjaprófaða"],
+					"kvk": ["lyfjaprófaða", "lyfjaprófuðu", "lyfjaprófuðu", "lyfjaprófuðu"],
+					"hk": ["lyfjaprófaða", "lyfjaprófaða", "lyfjaprófaða", "lyfjaprófaða"]
+				},
+				"ft": {
+					"kk": ["lyfjaprófuðu", "lyfjaprófuðu", "lyfjaprófuðu", "lyfjaprófuðu"],
+					"kvk": ["lyfjaprófuðu", "lyfjaprófuðu", "lyfjaprófuðu", "lyfjaprófuðu"],
+					"hk": ["lyfjaprófuðu", "lyfjaprófuðu", "lyfjaprófuðu", "lyfjaprófuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lyfjaprófa",
+	"hash": "f581068f4860ed93fed4213fc1f1269759306e9b2cd4dc381284800cf090e398"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "sturta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sturt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sturt-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sturta",
+		"sagnbót": "sturtað",
+		"boðháttur": {
+			"stýfður": "sturta",
+			"et": "sturtaðu",
+			"ft": "sturtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sturta", "sturtar", "sturtar"],
+					"ft": ["sturtum", "sturtið", "sturta"]
+				},
+				"þátíð": {
+					"et": ["sturtaði", "sturtaðir", "sturtaði"],
+					"ft": ["sturtuðum", "sturtuðuð", "sturtuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sturti", "sturtir", "sturti"],
+					"ft": ["sturtum", "sturtið", "sturti"]
+				},
+				"þátíð": {
+					"et": ["sturtaði", "sturtaðir", "sturtaði"],
+					"ft": ["sturtuðum", "sturtuðuð", "sturtuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sturtarðu",
+					"ft": "sturtiði"
+				},
+				"þátíð": {
+					"et": "sturtaðirðu",
+					"ft": "sturtuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sturtirðu",
+					"ft": "sturtiði"
+				},
+				"þátíð": {
+					"et": "sturtaðirðu",
+					"ft": "sturtuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sturtast",
+		"sagnbót": "sturtast",
+		"boðháttur": {
+			"et": "sturtastu",
+			"ft": "sturtist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sturtast", "sturtast", "sturtast"],
+					"ft": ["sturtumst", "sturtist", "sturtast"]
+				},
+				"þátíð": {
+					"et": ["sturtaðist", "sturtaðist", "sturtaðist"],
+					"ft": ["sturtuðumst", "sturtuðust", "sturtuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sturtist", "sturtist", "sturtist"],
+					"ft": ["sturtumst", "sturtist", "sturtist"]
+				},
+				"þátíð": {
+					"et": ["sturtaðist", "sturtaðist", "sturtaðist"],
+					"ft": ["sturtuðumst", "sturtuðust", "sturtuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sturtastu"
+				},
+				"þátíð": {
+					"et": "sturtaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sturtistu"
+				},
+				"þátíð": {
+					"et": "sturtaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sturtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sturtaður", "sturtaðan", "sturtuðum", "sturtaðs"],
+					"kvk": ["sturtuð", "sturtaða", "sturtaðri", "sturtaðrar"],
+					"hk": ["sturtað", "sturtað", "sturtuðu", "sturtaðs"]
+				},
+				"ft": {
+					"kk": ["sturtaðir", "sturtaða", "sturtuðum", "sturtaðra"],
+					"kvk": ["sturtaðar", "sturtaðar", "sturtuðum", "sturtaðra"],
+					"hk": ["sturtuð", "sturtuð", "sturtuðum", "sturtaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sturta",
+	"hash": "0d2ef48ec93ada3cfe83371a35a19b8f893b9eb7248228e06879c8500db22bda"
+}

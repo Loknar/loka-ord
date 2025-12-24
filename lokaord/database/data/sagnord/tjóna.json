@@ -1,0 +1,135 @@
+{
+	"orð": "tjóna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tjón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tjón-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tjóna",
+		"sagnbót": "tjónað",
+		"boðháttur": {
+			"stýfður": "tjóna",
+			"et": "tjónaðu",
+			"ft": "tjónið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tjóna", "tjónar", "tjónar"],
+					"ft": ["tjónum", "tjónið", "tjóna"]
+				},
+				"þátíð": {
+					"et": ["tjónaði", "tjónaðir", "tjónaði"],
+					"ft": ["tjónuðum", "tjónuðuð", "tjónuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tjóni", "tjónir", "tjóni"],
+					"ft": ["tjónum", "tjónið", "tjóni"]
+				},
+				"þátíð": {
+					"et": ["tjónaði", "tjónaðir", "tjónaði"],
+					"ft": ["tjónuðum", "tjónuðuð", "tjónuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tjónarðu",
+					"ft": "tjóniði"
+				},
+				"þátíð": {
+					"et": "tjónaðirðu",
+					"ft": "tjónuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tjónirðu",
+					"ft": "tjóniði"
+				},
+				"þátíð": {
+					"et": "tjónaðirðu",
+					"ft": "tjónuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tjónast",
+		"sagnbót": "tjónast",
+		"boðháttur": {
+			"et": "tjónastu",
+			"ft": "tjónist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tjónast", "tjónast", "tjónast"],
+					"ft": ["tjónumst", "tjónist", "tjónast"]
+				},
+				"þátíð": {
+					"et": ["tjónaðist", "tjónaðist", "tjónaðist"],
+					"ft": ["tjónuðumst", "tjónuðust", "tjónuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tjónist", "tjónist", "tjónist"],
+					"ft": ["tjónumst", "tjónist", "tjónist"]
+				},
+				"þátíð": {
+					"et": ["tjónaðist", "tjónaðist", "tjónaðist"],
+					"ft": ["tjónuðumst", "tjónuðust", "tjónuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tjónastu"
+				},
+				"þátíð": {
+					"et": "tjónaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tjónistu"
+				},
+				"þátíð": {
+					"et": "tjónaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tjónandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tjónaður", "tjónaðan", "tjónuðum", "tjónaðs"],
+					"kvk": ["tjónuð", "tjónaða", "tjónaðri", "tjónaðrar"],
+					"hk": ["tjónað", "tjónað", "tjónuðu", "tjónaðs"]
+				},
+				"ft": {
+					"kk": ["tjónaðir", "tjónaða", "tjónuðum", "tjónaðra"],
+					"kvk": ["tjónaðar", "tjónaðar", "tjónuðum", "tjónaðra"],
+					"hk": ["tjónuð", "tjónuð", "tjónuðum", "tjónaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tjóna",
+	"hash": "3791e8414169d824151b7b5aceef0f38a118a35b917ad24ff668d5e9518edd31"
+}

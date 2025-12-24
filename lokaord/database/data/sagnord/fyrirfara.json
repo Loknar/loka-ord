@@ -1,0 +1,158 @@
+{
+	"orð": "fyrirfara",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fyrir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fyrir"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-fara"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fyrirfara",
+		"sagnbót": "fyrirfarið",
+		"boðháttur": {
+			"stýfður": "fyrirfar",
+			"et": "fyrirfarðu",
+			"ft": "fyrirfarið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirfer", "fyrirferð", "fyrirfer"],
+					"ft": ["fyrirförum", "fyrirfarið", "fyrirfara"]
+				},
+				"þátíð": {
+					"et": ["fyrirfór", "fyrirfórst", "fyrirfór"],
+					"ft": ["fyrirfórum", "fyrirfóruð", "fyrirfóru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirfari", "fyrirfarir", "fyrirfari"],
+					"ft": ["fyrirförum", "fyrirfarið", "fyrirfari"]
+				},
+				"þátíð": {
+					"et": ["fyrirfæri", "fyrirfærir", "fyrirfæri"],
+					"ft": ["fyrirfærum", "fyrirfæruð", "fyrirfæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirferðu",
+					"ft": "fyrirfariði"
+				},
+				"þátíð": {
+					"et": "fyrirfórstu",
+					"ft": "fyrirfóruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirfarirðu",
+					"ft": "fyrirfariði"
+				},
+				"þátíð": {
+					"et": "fyrirfærirðu",
+					"ft": "fyrirfæruði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fyrirfarast",
+		"sagnbót": "fyrirfarist",
+		"boðháttur": {
+			"et": "fyrirfarstu",
+			"ft": "fyrirfarist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirferst", "fyrirferst", "fyrirferst"],
+					"ft": ["fyrirförumst", "fyrirfarist", "fyrirfarast"]
+				},
+				"þátíð": {
+					"et": ["fyrirfórst", "fyrirfórst", "fyrirfórst"],
+					"ft": ["fyrirfórumst", "fyrirfórust", "fyrirfórust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirfarist", "fyrirfarist", "fyrirfarist"],
+					"ft": ["fyrirförumst", "fyrirfarist", "fyrirfarist"]
+				},
+				"þátíð": {
+					"et": ["fyrirfærist", "fyrirfærist", "fyrirfærist"],
+					"ft": ["fyrirfærumst", "fyrirfærust", "fyrirfærust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fyrirferst", "fyrirferst", "fyrirferst"],
+					"ft": ["fyrirferst", "fyrirferst", "fyrirferst"]
+				},
+				"þátíð": {
+					"et": ["fyrirfórst", "fyrirfórst", "fyrirfórst"],
+					"ft": ["fyrirfórst", "fyrirfórst", "fyrirfórst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fyrirfarist", "fyrirfarist", "fyrirfarist"],
+					"ft": ["fyrirfarist", "fyrirfarist", "fyrirfarist"]
+				},
+				"þátíð": {
+					"et": ["fyrirfærist", "fyrirfærist", "fyrirfærist"],
+					"ft": ["fyrirfærist", "fyrirfærist", "fyrirfærist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fyrirferstu"
+				},
+				"þátíð": {
+					"et": "fyrirfórstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fyrirfaristu"
+				},
+				"þátíð": {
+					"et": "fyrirfæristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fyrirfarandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fyrirfarinn", "fyrirfarinn", "fyrirförnum", "fyrirfarins"],
+					"kvk": ["fyrirfarin", "fyrirfarna", "fyrirfarinni", "fyrirfarinnar"],
+					"hk": ["fyrirfarið", "fyrirfarið", "fyrirförnu", "fyrirfarins"]
+				},
+				"ft": {
+					"kk": ["fyrirfarnir", "fyrirfarna", "fyrirförnum", "fyrirfarinna"],
+					"kvk": ["fyrirfarnar", "fyrirfarnar", "fyrirförnum", "fyrirfarinna"],
+					"hk": ["fyrirfarin", "fyrirfarin", "fyrirförnum", "fyrirfarinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fyrirfara",
+	"hash": "158432f13f6fc247e76cd828598905399535f8a478cace5e4b0f17e30226ad5d"
+}
