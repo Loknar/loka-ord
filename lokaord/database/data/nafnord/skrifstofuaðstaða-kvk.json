@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skrif",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skrif-hk"
-		},
-		{
-			"mynd": "stofu",
+			"mynd": "skrifstofu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stofa-kvk"
+			"kennistrengur": "no-skrifstofa-kvk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"kennistrengur": "no-staða-kvk"
+			"kennistrengur": "no-aðstaða-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skrifstofuaðstöðurnar", "skrifstofuaðstöðurnar", "skrifstofuaðstöðunum", "skrifstofuaðstaðnanna"]
 	},
 	"kennistrengur": "no-skrifstofuaðstaða-kvk",
-	"hash": "90796bb2d2f1418f2ad66586eab0a74a5133776d4726cd9909564d1b4142e850"
+	"hash": "571bbb392b5a6f71793ae579eb36b7a2f6667436c30b7bbbab61033c07482c5c"
 }

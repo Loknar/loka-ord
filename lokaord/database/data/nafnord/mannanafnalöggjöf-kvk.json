@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "manna",
+			"mynd": "mannanafna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-maður-kk"
-		},
-		{
-			"mynd": "nafna",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-nafn-hk"
-		},
-		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
+			"kennistrengur": "no-mannanafn-hk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-gjöf-kvk"
+			"kennistrengur": "no-löggjöf-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["mannanafnalöggjöfin", "mannanafnalöggjöfina", "mannanafnalöggjöfinni", "mannanafnalöggjafarinnar"]
 	},
 	"kennistrengur": "no-mannanafnalöggjöf-kvk",
-	"hash": "25a73382980bd18d991e2db7606867e28c6d28549fa48065169aa195ee2e75fe"
+	"hash": "16c68f3e4337f48a60bff8157d645f0ae1062bb23db6ac8cc5db273ceae4a558"
 }

@@ -1,0 +1,135 @@
+{
+	"orð": "útjafna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-jafna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útjafna",
+		"sagnbót": "útjafnað",
+		"boðháttur": {
+			"stýfður": "útjafna",
+			"et": "útjafnaðu",
+			"ft": "útjafnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útjafna", "útjafnar", "útjafnar"],
+					"ft": ["útjöfnum", "útjafnið", "útjafna"]
+				},
+				"þátíð": {
+					"et": ["útjafnaði", "útjafnaðir", "útjafnaði"],
+					"ft": ["útjöfnuðum", "útjöfnuðuð", "útjöfnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útjafni", "útjafnir", "útjafni"],
+					"ft": ["útjöfnum", "útjafnið", "útjafni"]
+				},
+				"þátíð": {
+					"et": ["útjafnaði", "útjafnaðir", "útjafnaði"],
+					"ft": ["útjöfnuðum", "útjöfnuðuð", "útjöfnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útjafnarðu",
+					"ft": "útjafniði"
+				},
+				"þátíð": {
+					"et": "útjafnaðirðu",
+					"ft": "útjöfnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útjafnirðu",
+					"ft": "útjafniði"
+				},
+				"þátíð": {
+					"et": "útjafnaðirðu",
+					"ft": "útjöfnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "útjafnast",
+		"sagnbót": "útjafnast",
+		"boðháttur": {
+			"et": "útjafnastu",
+			"ft": "útjafnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útjafnast", "útjafnast", "útjafnast"],
+					"ft": ["útjöfnumst", "útjafnist", "útjafnast"]
+				},
+				"þátíð": {
+					"et": ["útjafnaðist", "útjafnaðist", "útjafnaðist"],
+					"ft": ["útjöfnuðumst", "útjöfnuðust", "útjöfnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útjafnist", "útjafnist", "útjafnist"],
+					"ft": ["útjöfnumst", "útjafnist", "útjafnist"]
+				},
+				"þátíð": {
+					"et": ["útjafnaðist", "útjafnaðist", "útjafnaðist"],
+					"ft": ["útjöfnuðumst", "útjöfnuðust", "útjöfnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útjafnastu"
+				},
+				"þátíð": {
+					"et": "útjafnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útjafnistu"
+				},
+				"þátíð": {
+					"et": "útjafnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útjafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útjafnaður", "útjafnaðan", "útjöfnuðum", "útjafnaðs"],
+					"kvk": ["útjöfnuð", "útjafnaða", "útjafnaðri", "útjafnaðrar"],
+					"hk": ["útjafnað", "útjafnað", "útjöfnuðu", "útjafnaðs"]
+				},
+				"ft": {
+					"kk": ["útjafnaðir", "útjafnaða", "útjöfnuðum", "útjafnaðra"],
+					"kvk": ["útjafnaðar", "útjafnaðar", "útjöfnuðum", "útjafnaðra"],
+					"hk": ["útjöfnuð", "útjöfnuð", "útjöfnuðum", "útjafnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útjafna",
+	"hash": "e9a0002c3fa7e712ac6a380d4e389aaeb8045ee24da8f4ae9a5c35e99bb476b6"
+}
