@@ -1,0 +1,73 @@
+{
+	"orð": "grobba",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grobb",
+			"samsetning": "stofn",
+			"kennistrengur": "no-grobb-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grobba",
+		"sagnbót": "grobbað",
+		"boðháttur": {
+			"stýfður": "grobba",
+			"et": "grobbaðu",
+			"ft": "grobbið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grobba", "grobbar", "grobbar"],
+					"ft": ["grobbum", "grobbið", "grobba"]
+				},
+				"þátíð": {
+					"et": ["grobbaði", "grobbaðir", "grobbaði"],
+					"ft": ["grobbuðum", "grobbuðuð", "grobbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grobbi", "grobbir", "grobbi"],
+					"ft": ["grobbum", "grobbið", "grobbi"]
+				},
+				"þátíð": {
+					"et": ["grobbaði", "grobbaðir", "grobbaði"],
+					"ft": ["grobbuðum", "grobbuðuð", "grobbuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grobbarðu",
+					"ft": "grobbiði"
+				},
+				"þátíð": {
+					"et": "grobbaðirðu",
+					"ft": "grobbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grobbirðu",
+					"ft": "grobbiði"
+				},
+				"þátíð": {
+					"et": "grobbaðirðu",
+					"ft": "grobbuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grobbandi"
+	},
+	"kennistrengur": "so-grobba",
+	"hash": "ce445c4e22d4ba7a8eb61d8375b764a513e035464dff9488d07f8657f28c9d63"
+}

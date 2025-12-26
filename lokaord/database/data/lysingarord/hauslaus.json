@@ -1,0 +1,43 @@
+{
+	"orð": "hauslaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "haus",
+			"samsetning": "stofn",
+			"kennistrengur": "no-haus-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hauslaus", "hauslausan", "hauslausum", "hauslauss"],
+				"kvk": ["hauslaus", "hauslausa", "hauslausri", "hauslausrar"],
+				"hk": ["hauslaust", "hauslaust", "hauslausu", "hauslauss"]
+			},
+			"ft": {
+				"kk": ["hauslausir", "hauslausa", "hauslausum", "hauslausra"],
+				"kvk": ["hauslausar", "hauslausar", "hauslausum", "hauslausra"],
+				"hk": ["hauslaus", "hauslaus", "hauslausum", "hauslausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hauslausi", "hauslausa", "hauslausa", "hauslausa"],
+				"kvk": ["hauslausa", "hauslausu", "hauslausu", "hauslausu"],
+				"hk": ["hauslausa", "hauslausa", "hauslausa", "hauslausa"]
+			},
+			"ft": {
+				"kk": ["hauslausu", "hauslausu", "hauslausu", "hauslausu"],
+				"kvk": ["hauslausu", "hauslausu", "hauslausu", "hauslausu"],
+				"hk": ["hauslausu", "hauslausu", "hauslausu", "hauslausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hauslaus",
+	"hash": "e77ede43710ac2faa8d0c785fe2b1a15b8bd5341780477123779ee5f76d3f4c5"
+}

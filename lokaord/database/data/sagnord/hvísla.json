@@ -1,0 +1,135 @@
+{
+	"orð": "hvísla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hvísl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hvísl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hvísla",
+		"sagnbót": "hvíslað",
+		"boðháttur": {
+			"stýfður": "hvísla",
+			"et": "hvíslaðu",
+			"ft": "hvíslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hvísla", "hvíslar", "hvíslar"],
+					"ft": ["hvíslum", "hvíslið", "hvísla"]
+				},
+				"þátíð": {
+					"et": ["hvíslaði", "hvíslaðir", "hvíslaði"],
+					"ft": ["hvísluðum", "hvísluðuð", "hvísluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hvísli", "hvíslir", "hvísli"],
+					"ft": ["hvíslum", "hvíslið", "hvísli"]
+				},
+				"þátíð": {
+					"et": ["hvíslaði", "hvíslaðir", "hvíslaði"],
+					"ft": ["hvísluðum", "hvísluðuð", "hvísluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hvíslarðu",
+					"ft": "hvísliði"
+				},
+				"þátíð": {
+					"et": "hvíslaðirðu",
+					"ft": "hvísluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hvíslirðu",
+					"ft": "hvísliði"
+				},
+				"þátíð": {
+					"et": "hvíslaðirðu",
+					"ft": "hvísluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hvíslast",
+		"sagnbót": "hvíslast",
+		"boðháttur": {
+			"et": "hvíslastu",
+			"ft": "hvíslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hvíslast", "hvíslast", "hvíslast"],
+					"ft": ["hvíslumst", "hvíslist", "hvíslast"]
+				},
+				"þátíð": {
+					"et": ["hvíslaðist", "hvíslaðist", "hvíslaðist"],
+					"ft": ["hvísluðumst", "hvísluðust", "hvísluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hvíslist", "hvíslist", "hvíslist"],
+					"ft": ["hvíslumst", "hvíslist", "hvíslist"]
+				},
+				"þátíð": {
+					"et": ["hvíslaðist", "hvíslaðist", "hvíslaðist"],
+					"ft": ["hvísluðumst", "hvísluðust", "hvísluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hvíslastu"
+				},
+				"þátíð": {
+					"et": "hvíslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hvíslistu"
+				},
+				"þátíð": {
+					"et": "hvíslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hvíslandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hvíslaður", "hvíslaðan", "hvísluðum", "hvíslaðs"],
+					"kvk": ["hvísluð", "hvíslaða", "hvíslaðri", "hvíslaðrar"],
+					"hk": ["hvíslað", "hvíslað", "hvísluðu", "hvíslaðs"]
+				},
+				"ft": {
+					"kk": ["hvíslaðir", "hvíslaða", "hvísluðum", "hvíslaðra"],
+					"kvk": ["hvíslaðar", "hvíslaðar", "hvísluðum", "hvíslaðra"],
+					"hk": ["hvísluð", "hvísluð", "hvísluðum", "hvíslaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hvísla",
+	"hash": "d6bd9dc08925395c77505bb0f596ab27d948a353174492d964de9eb785e4f75d"
+}

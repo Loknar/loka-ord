@@ -1,0 +1,87 @@
+{
+	"orð": "muldra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "muldr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-muldur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "muldra",
+		"sagnbót": "muldrað",
+		"boðháttur": {
+			"stýfður": "muldra",
+			"et": "muldraðu",
+			"ft": "muldrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["muldra", "muldrar", "muldrar"],
+					"ft": ["muldrum", "muldrið", "muldra"]
+				},
+				"þátíð": {
+					"et": ["muldraði", "muldraðir", "muldraði"],
+					"ft": ["muldruðum", "muldruðuð", "muldruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["muldri", "muldrir", "muldri"],
+					"ft": ["muldrum", "muldrið", "muldri"]
+				},
+				"þátíð": {
+					"et": ["muldraði", "muldraðir", "muldraði"],
+					"ft": ["muldruðum", "muldruðuð", "muldruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "muldrarðu",
+					"ft": "muldriði"
+				},
+				"þátíð": {
+					"et": "muldraðirðu",
+					"ft": "muldruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "muldrirðu",
+					"ft": "muldriði"
+				},
+				"þátíð": {
+					"et": "muldraðirðu",
+					"ft": "muldruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "muldrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["muldraður", "muldraðan", "muldruðum", "muldraðs"],
+					"kvk": ["muldruð", "muldraða", "muldraðri", "muldraðrar"],
+					"hk": ["muldrað", "muldrað", "muldruðu", "muldraðs"]
+				},
+				"ft": {
+					"kk": ["muldraðir", "muldraða", "muldruðum", "muldraðra"],
+					"kvk": ["muldraðar", "muldraðar", "muldruðum", "muldraðra"],
+					"hk": ["muldruð", "muldruð", "muldruðum", "muldraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-muldra",
+	"hash": "911da70550137236bc346591adedc7f2e3799d1f2f6cd3cf895ccec54e92dc4b"
+}
