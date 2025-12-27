@@ -1,0 +1,99 @@
+{
+	"orð": "járnabinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "járna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-járn-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "járnabinda",
+		"sagnbót": "járnabundið",
+		"boðháttur": {
+			"stýfður": "járnabind",
+			"et": "járnabittu",
+			"ft": "járnabindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["járnabind", "járnabindur", "járnabindur"],
+					"ft": ["járnabindum", "járnabindið", "járnabinda"]
+				},
+				"þátíð": {
+					"et": ["járnabatt", "járnabast", "járnabatt"],
+					"ft": ["járnabundum", "járnabunduð", "járnabundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["járnabindi", "járnabindir", "járnabindi"],
+					"ft": ["járnabindum", "járnabindið", "járnabindi"]
+				},
+				"þátíð": {
+					"et": ["járnabyndi", "járnabyndir", "járnabyndi"],
+					"ft": ["járnabyndum", "járnabynduð", "járnabyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "járnabindurðu",
+					"ft": "járnabindiði"
+				},
+				"þátíð": {
+					"et": "járnabastu",
+					"ft": "járnabunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "járnabindirðu",
+					"ft": "járnabindiði"
+				},
+				"þátíð": {
+					"et": "járnabyndirðu",
+					"ft": "járnabynduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "járnabindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["járnabundinn", "járnabundinn", "járnabundnum", "járnabundins"],
+					"kvk": ["járnabundin", "járnabundna", "járnabundinni", "járnabundinnar"],
+					"hk": ["járnabundið", "járnabundið", "járnabundnu", "járnabundins"]
+				},
+				"ft": {
+					"kk": ["járnabundnir", "járnabundna", "járnabundnum", "járnabundinna"],
+					"kvk": ["járnabundnar", "járnabundnar", "járnabundnum", "járnabundinna"],
+					"hk": ["járnabundin", "járnabundin", "járnabundnum", "járnabundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["járnabundni", "járnabundna", "járnabundna", "járnabundna"],
+					"kvk": ["járnabundna", "járnabundnu", "járnabundnu", "járnabundnu"],
+					"hk": ["járnabundna", "járnabundna", "járnabundna", "járnabundna"]
+				},
+				"ft": {
+					"kk": ["járnabundnu", "járnabundnu", "járnabundnu", "járnabundnu"],
+					"kvk": ["járnabundnu", "járnabundnu", "járnabundnu", "járnabundnu"],
+					"hk": ["járnabundnu", "járnabundnu", "járnabundnu", "járnabundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-járnabinda",
+	"hash": "2c2b0b7e268fd849f37c68914c8a9e2a4ec84b9636c35ab752232b90c6ed2487"
+}
