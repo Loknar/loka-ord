@@ -1,0 +1,87 @@
+{
+	"orð": "glissa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gliss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gliss-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "glissa",
+		"sagnbót": "glissað",
+		"boðháttur": {
+			"stýfður": "glissa",
+			"et": "glissaðu",
+			"ft": "glissið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glissa", "glissar", "glissar"],
+					"ft": ["glissum", "glissið", "glissa"]
+				},
+				"þátíð": {
+					"et": ["glissaði", "glissaðir", "glissaði"],
+					"ft": ["glissuðum", "glissuðuð", "glissuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glissi", "glissir", "glissi"],
+					"ft": ["glissum", "glissið", "glissi"]
+				},
+				"þátíð": {
+					"et": ["glissaði", "glissaðir", "glissaði"],
+					"ft": ["glissuðum", "glissuðuð", "glissuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "glissarðu",
+					"ft": "glissiði"
+				},
+				"þátíð": {
+					"et": "glissaðirðu",
+					"ft": "glissuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "glissirðu",
+					"ft": "glissiði"
+				},
+				"þátíð": {
+					"et": "glissaðirðu",
+					"ft": "glissuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "glissandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["glissaður", "glissaðan", "glissuðum", "glissaðs"],
+					"kvk": ["glissuð", "glissaða", "glissaðri", "glissaðrar"],
+					"hk": ["glissað", "glissað", "glissuðu", "glissaðs"]
+				},
+				"ft": {
+					"kk": ["glissaðir", "glissaða", "glissuðum", "glissaðra"],
+					"kvk": ["glissaðar", "glissaðar", "glissuðum", "glissaðra"],
+					"hk": ["glissuð", "glissuð", "glissuðum", "glissaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-glissa",
+	"hash": "e993fc4ac4cfc0b7a352e2cc84e50d809003c7959adcaf8006e6ee9dd6a9970c"
+}
