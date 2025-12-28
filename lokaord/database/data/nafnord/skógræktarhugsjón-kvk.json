@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "skóg",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skógur-kk"
-		},
-		{
-			"mynd": "ræktar",
+			"mynd": "skógræktar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-rækt-kvk"
+			"kennistrengur": "no-skógrækt-kvk"
 		},
 		{
-			"mynd": "hug",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hugur-kk"
-		},
-		{
-			"kennistrengur": "no-sjón-kvk"
+			"kennistrengur": "no-hugsjón-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skógræktarhugsjónirnar", "skógræktarhugsjónirnar", "skógræktarhugsjónunum", "skógræktarhugsjónanna"]
 	},
 	"kennistrengur": "no-skógræktarhugsjón-kvk",
-	"hash": "db18f1c576871aa7196a845efa70dbe9b7c25952efdea2824627e86ac957422b"
+	"hash": "a8b74928e7f15e0d95bf7b82ba5badff93f96dd1862ba40b125988e89a572355"
 }

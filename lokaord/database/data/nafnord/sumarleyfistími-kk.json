@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "sumar",
-			"samsetning": "stofn",
-			"kennistrengur": "no-sumar-hk"
-		},
-		{
-			"mynd": "leyfis",
+			"mynd": "sumarleyfis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leyfi-hk"
+			"kennistrengur": "no-sumarleyfi-hk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["sumarleyfistíminn", "sumarleyfistímann", "sumarleyfistímanum", "sumarleyfistímans"]
 	},
 	"kennistrengur": "no-sumarleyfistími-kk",
-	"hash": "6d3545594f98cc19fd520782269a092bff3bb94a8bd5bee74f9ebf784fbfce28"
+	"hash": "20eb1d2ec2a6cc62817c3403c92800d36826842c4b8104047e2fe81f413aa34f"
 }
