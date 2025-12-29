@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "stjórn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "mála",
+			"mynd": "stjórnmála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-stjórnmál-hk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-stæða-kvk"
+			"kennistrengur": "no-aðstæður-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["stjórnmálaaðstæðurnar", "stjórnmálaaðstæðurnar", "stjórnmálaaðstæðunum", "stjórnmálaaðstæðnanna"]
 	},
 	"kennistrengur": "no-stjórnmálaaðstæður-kvk",
-	"hash": "160d803a3439d79727d0fed9ef6c8f8b246ca940510820c0c4054a0a89c0a170"
+	"hash": "89d1c9f30155663e0a5454b80fdf29354a757c1ffa649c20f3186520810bd594"
 }

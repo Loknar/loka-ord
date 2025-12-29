@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "upp",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-upp"
-		},
-		{
-			"mynd": "eldis",
+			"mynd": "uppeldis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eldi-hk"
+			"kennistrengur": "no-uppeldi-hk"
 		},
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-stæða-kvk"
+			"kennistrengur": "no-aðstæður-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["uppeldisaðstæðurnar", "uppeldisaðstæðurnar", "uppeldisaðstæðunum", "uppeldisaðstæðnanna"]
 	},
 	"kennistrengur": "no-uppeldisaðstæður-kvk",
-	"hash": "10d378a07312d8b9546d77a2c8108f404c85fe9dc90bbafb53250d1dcecf27b7"
+	"hash": "3b42096619b3c934824454a9a9369d10cf0378876354deb4133ed8b02d1c8b0d"
 }

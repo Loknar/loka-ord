@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fjár",
+			"mynd": "fjárhags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
+			"kennistrengur": "no-fjárhagur-kk"
 		},
 		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-stæða-kvk"
+			"kennistrengur": "no-aðstæður-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["fjárhagsaðstæðurnar", "fjárhagsaðstæðurnar", "fjárhagsaðstæðunum", "fjárhagsaðstæðnanna"]
 	},
 	"kennistrengur": "no-fjárhagsaðstæður-kvk",
-	"hash": "2df69de280024da5591d49abcce8b59da36aaf660f014d62cfdb38defa399cd1"
+	"hash": "0c82589fe6ea335de5f02dd4cd5a0cd2d0a58254a5c9ce7a10686bf9389b0ddb"
 }

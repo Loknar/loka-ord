@@ -8,7 +8,6 @@
 			"kennistrengur": "lo-kyrr"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-stæður"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["kyrrstæðari", "kyrrstæðari", "kyrrstæðari", "kyrrstæðari"],
+				"kvk": ["kyrrstæðari", "kyrrstæðari", "kyrrstæðari", "kyrrstæðari"],
+				"hk": ["kyrrstæðara", "kyrrstæðara", "kyrrstæðara", "kyrrstæðara"]
+			},
+			"ft": {
+				"kk": ["kyrrstæðari", "kyrrstæðari", "kyrrstæðari", "kyrrstæðari"],
+				"kvk": ["kyrrstæðari", "kyrrstæðari", "kyrrstæðari", "kyrrstæðari"],
+				"hk": ["kyrrstæðari", "kyrrstæðari", "kyrrstæðari", "kyrrstæðari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["kyrrstæðastur", "kyrrstæðastan", "kyrrstæðustum", "kyrrstæðasts"],
+				"kvk": ["kyrrstæðust", "kyrrstæðasta", "kyrrstæðastri", "kyrrstæðastrar"],
+				"hk": ["kyrrstæðast", "kyrrstæðast", "kyrrstæðustu", "kyrrstæðasts"]
+			},
+			"ft": {
+				"kk": ["kyrrstæðastir", "kyrrstæðasta", "kyrrstæðustum", "kyrrstæðastra"],
+				"kvk": ["kyrrstæðastar", "kyrrstæðastar", "kyrrstæðustum", "kyrrstæðastra"],
+				"hk": ["kyrrstæðust", "kyrrstæðust", "kyrrstæðustum", "kyrrstæðastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kyrrstæðasti", "kyrrstæðasta", "kyrrstæðasta", "kyrrstæðasta"],
+				"kvk": ["kyrrstæðasta", "kyrrstæðustu", "kyrrstæðustu", "kyrrstæðustu"],
+				"hk": ["kyrrstæðasta", "kyrrstæðasta", "kyrrstæðasta", "kyrrstæðasta"]
+			},
+			"ft": {
+				"kk": ["kyrrstæðustu", "kyrrstæðustu", "kyrrstæðustu", "kyrrstæðustu"],
+				"kvk": ["kyrrstæðustu", "kyrrstæðustu", "kyrrstæðustu", "kyrrstæðustu"],
+				"hk": ["kyrrstæðustu", "kyrrstæðustu", "kyrrstæðustu", "kyrrstæðustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-kyrrstæður",
-	"hash": "dacad4bb0baaa1520d9317d307e1e82394232e4304ddb6585dcc44d8610b7980"
+	"hash": "1c56a008b9e7d2f62082fff3b1fb330f85542d8d069c04f3218a39b8cff74e70"
 }
