@@ -1,0 +1,135 @@
+{
+	"orð": "gúggla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gúggl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gúgl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gúggla",
+		"sagnbót": "gúgglað",
+		"boðháttur": {
+			"stýfður": "gúggla",
+			"et": "gúgglaðu",
+			"ft": "gúgglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gúggla", "gúgglar", "gúgglar"],
+					"ft": ["gúgglum", "gúgglið", "gúggla"]
+				},
+				"þátíð": {
+					"et": ["gúgglaði", "gúgglaðir", "gúgglaði"],
+					"ft": ["gúggluðum", "gúggluðuð", "gúggluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gúggli", "gúgglir", "gúggli"],
+					"ft": ["gúgglum", "gúgglið", "gúggli"]
+				},
+				"þátíð": {
+					"et": ["gúgglaði", "gúgglaðir", "gúgglaði"],
+					"ft": ["gúggluðum", "gúggluðuð", "gúggluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gúgglarðu",
+					"ft": "gúggliði"
+				},
+				"þátíð": {
+					"et": "gúgglaðirðu",
+					"ft": "gúggluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gúgglirðu",
+					"ft": "gúggliði"
+				},
+				"þátíð": {
+					"et": "gúgglaðirðu",
+					"ft": "gúggluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gúgglast",
+		"sagnbót": "gúgglast",
+		"boðháttur": {
+			"et": "gúgglastu",
+			"ft": "gúgglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gúgglast", "gúgglast", "gúgglast"],
+					"ft": ["gúgglumst", "gúgglist", "gúgglast"]
+				},
+				"þátíð": {
+					"et": ["gúgglaðist", "gúgglaðist", "gúgglaðist"],
+					"ft": ["gúggluðumst", "gúggluðust", "gúggluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gúgglist", "gúgglist", "gúgglist"],
+					"ft": ["gúgglumst", "gúgglist", "gúgglist"]
+				},
+				"þátíð": {
+					"et": ["gúgglaðist", "gúgglaðist", "gúgglaðist"],
+					"ft": ["gúggluðumst", "gúggluðust", "gúggluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gúgglastu"
+				},
+				"þátíð": {
+					"et": "gúgglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gúgglistu"
+				},
+				"þátíð": {
+					"et": "gúgglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gúgglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gúgglaður", "gúgglaðan", "gúggluðum", "gúgglaðs"],
+					"kvk": ["gúggluð", "gúgglaða", "gúgglaðri", "gúgglaðrar"],
+					"hk": ["gúgglað", "gúgglað", "gúggluðu", "gúgglaðs"]
+				},
+				"ft": {
+					"kk": ["gúgglaðir", "gúgglaða", "gúggluðum", "gúgglaðra"],
+					"kvk": ["gúgglaðar", "gúgglaðar", "gúggluðum", "gúgglaðra"],
+					"hk": ["gúggluð", "gúggluð", "gúggluðum", "gúgglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gúggla",
+	"hash": "29fa4d1bec485449ee8b82d93e96402531aea29290def1ad633e5902abb66b14"
+}

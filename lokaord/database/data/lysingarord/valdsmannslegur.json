@@ -1,0 +1,48 @@
+{
+	"orð": "valdsmannslegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "valds",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vald-hk"
+		},
+		{
+			"mynd": "manns",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-maður-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["valdsmannslegur", "valdsmannslegan", "valdsmannslegum", "valdsmannslegs"],
+				"kvk": ["valdsmannsleg", "valdsmannslega", "valdsmannslegri", "valdsmannslegrar"],
+				"hk": ["valdsmannslegt", "valdsmannslegt", "valdsmannslegu", "valdsmannslegs"]
+			},
+			"ft": {
+				"kk": ["valdsmannslegir", "valdsmannslega", "valdsmannslegum", "valdsmannslegra"],
+				"kvk": ["valdsmannslegar", "valdsmannslegar", "valdsmannslegum", "valdsmannslegra"],
+				"hk": ["valdsmannsleg", "valdsmannsleg", "valdsmannslegum", "valdsmannslegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["valdsmannslegi", "valdsmannslega", "valdsmannslega", "valdsmannslega"],
+				"kvk": ["valdsmannslega", "valdsmannslegu", "valdsmannslegu", "valdsmannslegu"],
+				"hk": ["valdsmannslega", "valdsmannslega", "valdsmannslega", "valdsmannslega"]
+			},
+			"ft": {
+				"kk": ["valdsmannslegu", "valdsmannslegu", "valdsmannslegu", "valdsmannslegu"],
+				"kvk": ["valdsmannslegu", "valdsmannslegu", "valdsmannslegu", "valdsmannslegu"],
+				"hk": ["valdsmannslegu", "valdsmannslegu", "valdsmannslegu", "valdsmannslegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-valdsmannslegur",
+	"hash": "5876bdf6296ab6bb594dcba646246e3f378209e3dfc5bd13faaa02eec9bdff1f"
+}
