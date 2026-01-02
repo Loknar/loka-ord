@@ -1,6 +1,16 @@
 {
 	"orð": "rómanskur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "róm",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.ön-Rómanía-kvk"
+		},
+		{
+			"kennistrengur": "lo-anskur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-rómanskur",
-	"hash": "53414a14fa87a3ce95cbd1650363606bb466f0c6561e66eea24b2f3549efb365"
+	"hash": "cb49b5db0439634734cf42319b36ea2a2048679fbb49361b679b0bc3b327b9d3"
 }
