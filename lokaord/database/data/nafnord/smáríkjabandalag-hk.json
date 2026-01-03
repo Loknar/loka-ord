@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "smá",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-smár"
-		},
-		{
-			"mynd": "ríkja",
+			"mynd": "smáríkja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ríki-hk"
+			"kennistrengur": "no-smáríki-hk"
 		},
 		{
-			"mynd": "banda",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
-		},
-		{
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-bandalag-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["smáríkjabandalögin", "smáríkjabandalögin", "smáríkjabandalögunum", "smáríkjabandalaganna"]
 	},
 	"kennistrengur": "no-smáríkjabandalag-hk",
-	"hash": "588539b256c0d75af46e3ac06d2f87c2e901002b27f474f41fe5d04d96d7489d"
+	"hash": "3960b119381330edcbdd6e56ce43e73205a0721a1ff249acfc8abcc8292ba53e"
 }

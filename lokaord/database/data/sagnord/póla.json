@@ -1,0 +1,135 @@
+{
+	"orð": "póla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "pól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-półl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "póla",
+		"sagnbót": "pólað",
+		"boðháttur": {
+			"stýfður": "póla",
+			"et": "pólaðu",
+			"ft": "pólið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["póla", "pólar", "pólar"],
+					"ft": ["pólum", "pólið", "póla"]
+				},
+				"þátíð": {
+					"et": ["pólaði", "pólaðir", "pólaði"],
+					"ft": ["póluðum", "póluðuð", "póluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["póli", "pólir", "póli"],
+					"ft": ["pólum", "pólið", "póli"]
+				},
+				"þátíð": {
+					"et": ["pólaði", "pólaðir", "pólaði"],
+					"ft": ["póluðum", "póluðuð", "póluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pólarðu",
+					"ft": "póliði"
+				},
+				"þátíð": {
+					"et": "pólaðirðu",
+					"ft": "póluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pólirðu",
+					"ft": "póliði"
+				},
+				"þátíð": {
+					"et": "pólaðirðu",
+					"ft": "póluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "pólast",
+		"sagnbót": "pólast",
+		"boðháttur": {
+			"et": "pólastu",
+			"ft": "pólist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pólast", "pólast", "pólast"],
+					"ft": ["pólumst", "pólist", "pólast"]
+				},
+				"þátíð": {
+					"et": ["pólaðist", "pólaðist", "pólaðist"],
+					"ft": ["póluðumst", "póluðust", "póluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pólist", "pólist", "pólist"],
+					"ft": ["pólumst", "pólist", "pólist"]
+				},
+				"þátíð": {
+					"et": ["pólaðist", "pólaðist", "pólaðist"],
+					"ft": ["póluðumst", "póluðust", "póluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pólastu"
+				},
+				"þátíð": {
+					"et": "pólaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pólistu"
+				},
+				"þátíð": {
+					"et": "pólaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "pólandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["pólaður", "pólaðan", "póluðum", "pólaðs"],
+					"kvk": ["póluð", "pólaða", "pólaðri", "pólaðrar"],
+					"hk": ["pólað", "pólað", "póluðu", "pólaðs"]
+				},
+				"ft": {
+					"kk": ["pólaðir", "pólaða", "póluðum", "pólaðra"],
+					"kvk": ["pólaðar", "pólaðar", "póluðum", "pólaðra"],
+					"hk": ["póluð", "póluð", "póluðum", "pólaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-póla",
+	"hash": "5766574454308f9d2daf2ece7db6edb8745250015a609f01e091c64274cf8b26"
+}

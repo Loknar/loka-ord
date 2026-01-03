@@ -1,0 +1,87 @@
+{
+	"orð": "skrökva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skrökv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-skrök-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrökva",
+		"sagnbót": "skrökvað",
+		"boðháttur": {
+			"stýfður": "skrökva",
+			"et": "skrökvaðu",
+			"ft": "skrökvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrökva", "skrökvar", "skrökvar"],
+					"ft": ["skrökvum", "skrökvið", "skrökva"]
+				},
+				"þátíð": {
+					"et": ["skrökvaði", "skrökvaðir", "skrökvaði"],
+					"ft": ["skrökvuðum", "skrökvuðuð", "skrökvuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrökvi", "skrökvir", "skrökvi"],
+					"ft": ["skrökvum", "skrökvið", "skrökvi"]
+				},
+				"þátíð": {
+					"et": ["skrökvaði", "skrökvaðir", "skrökvaði"],
+					"ft": ["skrökvuðum", "skrökvuðuð", "skrökvuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrökvarðu",
+					"ft": "skrökviði"
+				},
+				"þátíð": {
+					"et": "skrökvaðirðu",
+					"ft": "skrökvuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrökvirðu",
+					"ft": "skrökviði"
+				},
+				"þátíð": {
+					"et": "skrökvaðirðu",
+					"ft": "skrökvuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrökvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrökvaður", "skrökvaðan", "skrökvuðum", "skrökvaðs"],
+					"kvk": ["skrökvuð", "skrökvaða", "skrökvaðri", "skrökvaðrar"],
+					"hk": ["skrökvað", "skrökvað", "skrökvuðu", "skrökvaðs"]
+				},
+				"ft": {
+					"kk": ["skrökvaðir", "skrökvaða", "skrökvuðum", "skrökvaðra"],
+					"kvk": ["skrökvaðar", "skrökvaðar", "skrökvuðum", "skrökvaðra"],
+					"hk": ["skrökvuð", "skrökvuð", "skrökvuðum", "skrökvaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrökva",
+	"hash": "719876fc1aa6147977d44f00ef8fd188f146b497b72e01989afd3d76454304f5"
+}
