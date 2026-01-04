@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fjár",
+			"mynd": "fjármála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
+			"kennistrengur": "no-fjármál-hk"
 		},
 		{
-			"mynd": "mála",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"kennistrengur": "no-steypa-kvk"
+			"kennistrengur": "no-samsteypa-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["fjármálasamsteypurnar", "fjármálasamsteypurnar", "fjármálasamsteypunum", "fjármálasamsteypanna"]
 	},
 	"kennistrengur": "no-fjármálasamsteypa-kvk",
-	"hash": "825565a553d41e86e4c59f6d53b035a5486b6a8a7ab2949ee0b0fb70f93e9b90"
+	"hash": "e12b6b6255f0950d07742b85e9503aeed2ab78c87f717bfee427f7c6322e56c2"
 }
