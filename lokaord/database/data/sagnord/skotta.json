@@ -1,0 +1,121 @@
+{
+	"orð": "skotta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skott",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skott-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skotta",
+		"sagnbót": "skottað",
+		"boðháttur": {
+			"stýfður": "skotta",
+			"et": "skottaðu",
+			"ft": "skottið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skotta", "skottar", "skottar"],
+					"ft": ["skottum", "skottið", "skotta"]
+				},
+				"þátíð": {
+					"et": ["skottaði", "skottaðir", "skottaði"],
+					"ft": ["skottuðum", "skottuðuð", "skottuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skotti", "skottir", "skotti"],
+					"ft": ["skottum", "skottið", "skotti"]
+				},
+				"þátíð": {
+					"et": ["skottaði", "skottaðir", "skottaði"],
+					"ft": ["skottuðum", "skottuðuð", "skottuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skottarðu",
+					"ft": "skottiði"
+				},
+				"þátíð": {
+					"et": "skottaðirðu",
+					"ft": "skottuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skottirðu",
+					"ft": "skottiði"
+				},
+				"þátíð": {
+					"et": "skottaðirðu",
+					"ft": "skottuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skottast",
+		"sagnbót": "skottast",
+		"boðháttur": {
+			"et": "skottastu",
+			"ft": "skottist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skottast", "skottast", "skottast"],
+					"ft": ["skottumst", "skottist", "skottast"]
+				},
+				"þátíð": {
+					"et": ["skottaðist", "skottaðist", "skottaðist"],
+					"ft": ["skottuðumst", "skottuðust", "skottuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skottist", "skottist", "skottist"],
+					"ft": ["skottumst", "skottist", "skottist"]
+				},
+				"þátíð": {
+					"et": ["skottaðist", "skottaðist", "skottaðist"],
+					"ft": ["skottuðumst", "skottuðust", "skottuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skottastu"
+				},
+				"þátíð": {
+					"et": "skottaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skottistu"
+				},
+				"þátíð": {
+					"et": "skottaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skottandi"
+	},
+	"kennistrengur": "so-skotta",
+	"hash": "e543e8e604cabce93b374ba52c519206d31c5aeb397c973a6af99028dc575f45"
+}

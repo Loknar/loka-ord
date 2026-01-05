@@ -1,0 +1,65 @@
+{
+	"orð": "hlána",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hlán",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-hláka-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hlána",
+		"sagnbót": "hlánað",
+		"boðháttur": {
+			"stýfður": "hlána",
+			"et": "hlánaðu",
+			"ft": "hlánið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlána", "hlánar", "hlánar"],
+					"ft": ["hlánum", "hlánið", "hlána"]
+				},
+				"þátíð": {
+					"et": ["hlánaði", "hlánaðir", "hlánaði"],
+					"ft": ["hlánuðum", "hlánuðuð", "hlánuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hláni", "hlánir", "hláni"],
+					"ft": ["hlánum", "hlánið", "hláni"]
+				},
+				"þátíð": {
+					"et": ["hlánaði", "hlánaðir", "hlánaði"],
+					"ft": ["hlánuðum", "hlánuðuð", "hlánuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlánandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlánaður", "hlánaðan", "hlánuðum", "hlánaðs"],
+					"kvk": ["hlánuð", "hlánaða", "hlánaðri", "hlánaðrar"],
+					"hk": ["hlánað", "hlánað", "hlánuðu", "hlánaðs"]
+				},
+				"ft": {
+					"kk": ["hlánaðir", "hlánaða", "hlánuðum", "hlánaðra"],
+					"kvk": ["hlánaðar", "hlánaðar", "hlánuðum", "hlánaðra"],
+					"hk": ["hlánuð", "hlánuð", "hlánuðum", "hlánaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlána",
+	"hash": "f1883f01230928b4afcaa0b1043d78ba7b738951ecd46fac519b6fc5ffbb0e2f"
+}

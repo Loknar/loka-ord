@@ -1,0 +1,87 @@
+{
+	"orð": "rupla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rupl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rupl-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rupla",
+		"sagnbót": "ruplað",
+		"boðháttur": {
+			"stýfður": "rupla",
+			"et": "ruplaðu",
+			"ft": "ruplið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rupla", "ruplar", "ruplar"],
+					"ft": ["ruplum", "ruplið", "rupla"]
+				},
+				"þátíð": {
+					"et": ["ruplaði", "ruplaðir", "ruplaði"],
+					"ft": ["rupluðum", "rupluðuð", "rupluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rupli", "ruplir", "rupli"],
+					"ft": ["ruplum", "ruplið", "rupli"]
+				},
+				"þátíð": {
+					"et": ["ruplaði", "ruplaðir", "ruplaði"],
+					"ft": ["rupluðum", "rupluðuð", "rupluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ruplarðu",
+					"ft": "rupliði"
+				},
+				"þátíð": {
+					"et": "ruplaðirðu",
+					"ft": "rupluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ruplirðu",
+					"ft": "rupliði"
+				},
+				"þátíð": {
+					"et": "ruplaðirðu",
+					"ft": "rupluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ruplandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ruplaður", "ruplaðan", "rupluðum", "ruplaðs"],
+					"kvk": ["rupluð", "ruplaða", "ruplaðri", "ruplaðrar"],
+					"hk": ["ruplað", "ruplað", "rupluðu", "ruplaðs"]
+				},
+				"ft": {
+					"kk": ["ruplaðir", "ruplaða", "rupluðum", "ruplaðra"],
+					"kvk": ["ruplaðar", "ruplaðar", "rupluðum", "ruplaðra"],
+					"hk": ["rupluð", "rupluð", "rupluðum", "ruplaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rupla",
+	"hash": "454193f2453638636e21c2f12481978643946b822105fca4d2e639604f37044f"
+}

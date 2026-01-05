@@ -5,23 +5,19 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "Hofs",
+			"mynd": "Hofsvałla",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hof-hk"
+			"kennistrengur": "sérn.ön-Hofsvełlir-kk"
 		},
 		{
-			"mynd": "vałla",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vöłlur-kk"
-		},
-		{
-			"beygingar": ["et-ág"],
+			"beygingar": ["et"],
 			"kennistrengur": "no-gata-kvk"
 		}
 	],
 	"et": {
-		"ág": ["Hofsvałlagata", "Hofsvałlagötu", "Hofsvałlagötu", "Hofsvałlagötu"]
+		"ág": ["Hofsvałlagata", "Hofsvałlagötu", "Hofsvałlagötu", "Hofsvałlagötu"],
+		"mg": ["Hofsvałlagatan", "Hofsvałlagötuna", "Hofsvałlagötunni", "Hofsvałlagötunnar"]
 	},
 	"kennistrengur": "sérn.ön-Hofsvałlagata-kvk",
-	"hash": "38a1ee2fd7b1defd11c1d50a3ef10faf3d22b045d5e4f411c53c34df92f4f24b"
+	"hash": "d9b60b6573ea363f2959ce2e7b5a83baeaf2d1bb9f1d823ea85e287dd2418488"
 }

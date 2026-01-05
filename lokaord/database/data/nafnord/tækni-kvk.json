@@ -2,10 +2,21 @@
 	"orð": "tækni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tækn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-tæki-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tækni", "tækni", "tækni", "tækni"],
 		"mg": ["tæknin", "tæknina", "tækninni", "tækninnar"]
 	},
 	"kennistrengur": "no-tækni-kvk",
-	"hash": "7c4a415dd92ab645ba61e43d075582fed1322c79511e85848ad6211cbab64c16"
+	"hash": "fb5d83fe9297cf43a1b99f3a4c07f37e088cd009b68bf594c102367a94813963"
 }

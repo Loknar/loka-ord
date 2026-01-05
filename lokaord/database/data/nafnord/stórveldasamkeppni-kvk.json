@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "stór",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-stór"
-		},
-		{
-			"mynd": "velda",
+			"mynd": "stórvelda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-veldi-hk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
+			"kennistrengur": "no-stórveldi-hk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-keppni-kvk"
+			"kennistrengur": "no-samkeppni-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["stórveldasamkeppnin", "stórveldasamkeppnina", "stórveldasamkeppninni", "stórveldasamkeppninnar"]
 	},
 	"kennistrengur": "no-stórveldasamkeppni-kvk",
-	"hash": "a4445ca9dcc6261d0201b109b37116a834f85a4cf15f181ba84da053bf8d5a2b"
+	"hash": "4faf29e88391166642642570b46895d79e220474fae02ba1d2a661afcfc29f93"
 }

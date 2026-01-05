@@ -2,10 +2,21 @@
 	"orð": "rækni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "rækn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-rækja"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["rækni", "rækni", "rækni", "rækni"],
 		"mg": ["ræknin", "ræknina", "rækninni", "rækninnar"]
 	},
 	"kennistrengur": "no-rækni-kvk",
-	"hash": "59da82193a6e8e97deee9b84afb2697bbdc184e57ab4f9a89103cdc909d4fef8"
+	"hash": "cc8d35a451ae3bb3baa3b06f57d1e06f27919a62e27eb16b2e72d365250dbd2f"
 }
