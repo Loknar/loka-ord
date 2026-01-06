@@ -1,0 +1,60 @@
+{
+	"orð": "jafngilda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jafn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-jafn"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gilda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jafngilda",
+		"sagnbót": "jafngilt",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jafngildi", "jafngildir", "jafngildir"],
+					"ft": ["jafngildum", "jafngildið", "jafngilda"]
+				},
+				"þátíð": {
+					"et": ["jafngilti", "jafngiltir", "jafngilti"],
+					"ft": ["jafngiltum", "jafngiltuð", "jafngiltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jafngildi", "jafngildir", "jafngildi"],
+					"ft": ["jafngildum", "jafngildið", "jafngildi"]
+				},
+				"þátíð": {
+					"et": ["jafngilti", "jafngiltir", "jafngilti"],
+					"ft": ["jafngiltum", "jafngiltuð", "jafngiltu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "jafngildandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["jafngiltur", "jafngiltan", "jafngiltum", "jafngilts"],
+					"kvk": ["jafngilt", "jafngilta", "jafngiltri", "jafngiltrar"],
+					"hk": ["jafngilt", "jafngilt", "jafngiltu", "jafngilts"]
+				},
+				"ft": {
+					"kk": ["jafngiltir", "jafngilta", "jafngiltum", "jafngiltra"],
+					"kvk": ["jafngiltar", "jafngiltar", "jafngiltum", "jafngiltra"],
+					"hk": ["jafngilt", "jafngilt", "jafngiltum", "jafngiltra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-jafngilda",
+	"hash": "4a605de03c65e5e60e1349c1db85f76080868dcface6b9e12f566b63ea06356f"
+}

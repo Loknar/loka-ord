@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "jafn",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-jafn"
-		},
-		{
-			"mynd": "vægis",
+			"mynd": "jafnvægis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vægi-hk"
+			"kennistrengur": "no-jafnvægi-hk"
 		},
 		{
-			"mynd": "grund",
-			"samsetning": "stofn",
-			"kennistrengur": "no-grund-kvk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-vöłlur-kk"
+			"kennistrengur": "no-grundvöłlur-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["jafnvægisgrundvöłlurinn", "jafnvægisgrundvöłlinn", "jafnvægisgrundvełlinum", "jafnvægisgrundvałlarins"]
 	},
 	"kennistrengur": "no-jafnvægisgrundvöłlur-kk",
-	"hash": "1f411e120cad31006c4c513b84c505e116d0c602df17317e71638d978cd1f43a"
+	"hash": "1937fe2ae7acde5fe9ab168f892033a541626992f94cf0bc93321b781ea21482"
 }
