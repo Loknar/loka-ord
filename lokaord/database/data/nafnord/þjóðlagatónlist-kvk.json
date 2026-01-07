@@ -4,29 +4,18 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "þjóð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-þjóð-kvk"
-		},
-		{
 			"mynd": "laga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-þjóðlag-hk"
 		},
 		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-list-kvk"
+			"kennistrengur": "no-tónlist-kvk"
 		}
 	],
 	"et": {
-		"ág": ["þjóðlagatónlist", "þjóðlagatónlist", "þjóðlagatónlist", "þjóðlagatónlistar"],
-		"mg": ["þjóðlagatónlistin", "þjóðlagatónlistina", "þjóðlagatónlistinni", "þjóðlagatónlistarinnar"]
+		"ág": ["lagatónlist", "lagatónlist", "lagatónlist", "lagatónlistar"],
+		"mg": ["lagatónlistin", "lagatónlistina", "lagatónlistinni", "lagatónlistarinnar"]
 	},
 	"kennistrengur": "no-þjóðlagatónlist-kvk",
-	"hash": "c2cef6de348af4afe0fa294866f95ac22e24ee70244eeb46083a472b885fa93e"
+	"hash": "c74c1030ad8f7d72c64bd974b5fc67a6a54fa8f7022f3b28c1c2e516239d0f41"
 }

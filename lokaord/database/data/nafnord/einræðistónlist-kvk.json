@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "ein",
-			"samsetning": "stofn",
-			"kennistrengur": "to.ft-einn"
-		},
-		{
-			"mynd": "ræðis",
+			"mynd": "einræðis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ræði-hk"
+			"kennistrengur": "no-einræði-hk"
 		},
 		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-list-kvk"
+			"kennistrengur": "no-tónlist-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["einræðistónlistin", "einræðistónlistina", "einræðistónlistinni", "einræðistónlistarinnar"]
 	},
 	"kennistrengur": "no-einræðistónlist-kvk",
-	"hash": "918b559e649f33a0d8dfbcd803472640ad1122ec7376a7fc4407e0ccbe35f8f9"
+	"hash": "583a44ce30d011f45c6538c9d578cf0363033b2755c73d47726adcc5927128f4"
 }

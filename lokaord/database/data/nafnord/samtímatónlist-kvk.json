@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "tíma",
+			"mynd": "samtíma",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
+			"kennistrengur": "no-samtími-kk"
 		},
 		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-list-kvk"
+			"kennistrengur": "no-tónlist-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["samtímatónlistin", "samtímatónlistina", "samtímatónlistinni", "samtímatónlistarinnar"]
 	},
 	"kennistrengur": "no-samtímatónlist-kvk",
-	"hash": "62d3a8cade0c9bb1241a83cfc6a053c2efb43f5625820dddf6a4a5d1e4a530b5"
+	"hash": "069327e8464ba85b36b6ebc0cb1071f236fd5c2a1b9a2416d72ae2395dc64d24"
 }

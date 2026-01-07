@@ -1,0 +1,25 @@
+{
+	"orð": "Myntkaup",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "Mynt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mynt-kvk"
+		},
+		{
+			"beygingar": ["et-ág", "ft-ág"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"et": {
+		"ág": ["Myntkaup", "Myntkaup", "Myntkaupi", "Myntkaups"]
+	},
+	"ft": {
+		"ág": ["Myntkaup", "Myntkaup", "Myntkaupum", "Myntkaupa"]
+	},
+	"kennistrengur": "sérn.ön-Myntkaup-hk",
+	"hash": "abbcd850b78fad4eee96e6702082deae5c8914d581e6f67366aee7d833c132f9"
+}
