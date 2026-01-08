@@ -4,16 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "breið",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-breiður"
-		},
-		{
-			"mynd": "fylkingar",
+			"mynd": "breiðfylkingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fylking-kvk"
+			"kennistrengur": "no-breiðfylking-kvk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-skipulag-hk"
 		}
 	],
@@ -22,5 +18,5 @@
 		"mg": ["breiðfylkingarskipulagið", "breiðfylkingarskipulagið", "breiðfylkingarskipulaginu", "breiðfylkingarskipulagsins"]
 	},
 	"kennistrengur": "no-breiðfylkingarskipulag-hk",
-	"hash": "cff008cc29fb775a82302a607d8c05f6cdb9977565c2e483611045533d2ae285"
+	"hash": "e56bb06a25f246a8012395eaf7d79bb5dee43d7939beb57174f9b3776d2faea9"
 }

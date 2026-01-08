@@ -4,16 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "tíðar",
+			"mynd": "framtíðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tíð-kvk"
+			"kennistrengur": "no-framtíð-kvk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-skipulag-hk"
 		}
 	],
@@ -22,5 +18,5 @@
 		"mg": ["framtíðarskipulagið", "framtíðarskipulagið", "framtíðarskipulaginu", "framtíðarskipulagsins"]
 	},
 	"kennistrengur": "no-framtíðarskipulag-hk",
-	"hash": "d5092ed6520ac92109d0924d8bc8c7ec53af034f1b2b62b31f9e761233088ac9"
+	"hash": "0616e11e9d9fdb0f102de4ce74df78bedfcf6e5456661b992dec866f9bd19eee"
 }
