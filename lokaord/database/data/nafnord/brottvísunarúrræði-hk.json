@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "brott",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-brott"
-		},
-		{
-			"mynd": "vísunar",
+			"mynd": "brottvísunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vísun-kvk"
+			"kennistrengur": "no-brottvísun-kvk"
 		},
 		{
-			"mynd": "úr",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-úr"
-		},
-		{
-			"kennistrengur": "no-ræði-hk"
+			"kennistrengur": "no-úrræði-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["brottvísunarúrræðin", "brottvísunarúrræðin", "brottvísunarúrræðunum", "brottvísunarúrræðanna"]
 	},
 	"kennistrengur": "no-brottvísunarúrræði-hk",
-	"hash": "929799eed09fb5f23444f478357dc64d3c079dc4019013500a82c7179cbd8ac9"
+	"hash": "12c912a9367b6d0da991b3eb629daca3f8bed025229174354e86bfd6d6c2f350"
 }

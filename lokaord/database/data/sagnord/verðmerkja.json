@@ -1,0 +1,99 @@
+{
+	"orð": "verðmerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verðmerkja",
+		"sagnbót": "verðmerkt",
+		"boðháttur": {
+			"stýfður": "verðmerk",
+			"et": "verðmerktu",
+			"ft": "verðmerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðmerki", "verðmerkir", "verðmerkir"],
+					"ft": ["verðmerkjum", "verðmerkið", "verðmerkja"]
+				},
+				"þátíð": {
+					"et": ["verðmerkti", "verðmerktir", "verðmerkti"],
+					"ft": ["verðmerktum", "verðmerktuð", "verðmerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðmerki", "verðmerkir", "verðmerki"],
+					"ft": ["verðmerkjum", "verðmerkið", "verðmerki"]
+				},
+				"þátíð": {
+					"et": ["verðmerkti", "verðmerktir", "verðmerkti"],
+					"ft": ["verðmerktum", "verðmerktuð", "verðmerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðmerkirðu",
+					"ft": "verðmerkiði"
+				},
+				"þátíð": {
+					"et": "verðmerktirðu",
+					"ft": "verðmerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðmerkirðu",
+					"ft": "verðmerkiði"
+				},
+				"þátíð": {
+					"et": "verðmerktirðu",
+					"ft": "verðmerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðmerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verðmerktur", "verðmerktan", "verðmerktum", "verðmerkts"],
+					"kvk": ["verðmerkt", "verðmerkta", "verðmerktri", "verðmerktrar"],
+					"hk": ["verðmerkt", "verðmerkt", "verðmerktu", "verðmerkts"]
+				},
+				"ft": {
+					"kk": ["verðmerktir", "verðmerkta", "verðmerktum", "verðmerktra"],
+					"kvk": ["verðmerktar", "verðmerktar", "verðmerktum", "verðmerktra"],
+					"hk": ["verðmerkt", "verðmerkt", "verðmerktum", "verðmerktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["verðmerkti", "verðmerkta", "verðmerkta", "verðmerkta"],
+					"kvk": ["verðmerkta", "verðmerktu", "verðmerktu", "verðmerktu"],
+					"hk": ["verðmerkta", "verðmerkta", "verðmerkta", "verðmerkta"]
+				},
+				"ft": {
+					"kk": ["verðmerktu", "verðmerktu", "verðmerktu", "verðmerktu"],
+					"kvk": ["verðmerktu", "verðmerktu", "verðmerktu", "verðmerktu"],
+					"hk": ["verðmerktu", "verðmerktu", "verðmerktu", "verðmerktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verðmerkja",
+	"hash": "80c5b89c2d2f5fa103ed59f363fb73bcac406fe826d6f017bd3b4ce976671923"
+}
