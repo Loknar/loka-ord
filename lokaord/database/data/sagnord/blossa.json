@@ -1,0 +1,51 @@
+{
+	"orð": "blossa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bloss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-blossi-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "blossa",
+		"sagnbót": "blossað",
+		"boðháttur": {
+			"stýfður": "blossa",
+			"et": "blossaðu",
+			"ft": "blossið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["blossa", "blossar", "blossar"],
+					"ft": ["blossum", "blossið", "blossa"]
+				},
+				"þátíð": {
+					"et": ["blossaði", "blossaðir", "blossaði"],
+					"ft": ["blossuðum", "blossuðuð", "blossuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["blossi", "blossir", "blossi"],
+					"ft": ["blossum", "blossið", "blossi"]
+				},
+				"þátíð": {
+					"et": ["blossaði", "blossaðir", "blossaði"],
+					"ft": ["blossuðum", "blossuðuð", "blossuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "blossandi"
+	},
+	"kennistrengur": "so-blossa",
+	"hash": "25db15adc9b1478adf517471489d5a24973b93abcea92a3ba88479415e0b2406"
+}

@@ -1,0 +1,22 @@
+{
+	"orð": "gjaldeyristekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjaldeyris",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-gjaldeyrir-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["gjaldeyristekjur", "gjaldeyristekjur", "gjaldeyristekjum", "gjaldeyristekna"],
+		"mg": ["gjaldeyristekjurnar", "gjaldeyristekjurnar", "gjaldeyristekjunum", "gjaldeyristeknanna"]
+	},
+	"kennistrengur": "no-gjaldeyristekjur-kvk",
+	"hash": "632a673179e01052f78cdd12f20a697dd7e8e820ee1845884b6862d8ad335ef7"
+}

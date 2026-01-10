@@ -1,0 +1,87 @@
+{
+	"orð": "flíka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flík",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flík-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flíka",
+		"sagnbót": "flíkað",
+		"boðháttur": {
+			"stýfður": "flíka",
+			"et": "flíkaðu",
+			"ft": "flíkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flíka", "flíkar", "flíkar"],
+					"ft": ["flíkum", "flíkið", "flíka"]
+				},
+				"þátíð": {
+					"et": ["flíkaði", "flíkaðir", "flíkaði"],
+					"ft": ["flíkuðum", "flíkuðuð", "flíkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flíki", "flíkir", "flíki"],
+					"ft": ["flíkum", "flíkið", "flíki"]
+				},
+				"þátíð": {
+					"et": ["flíkaði", "flíkaðir", "flíkaði"],
+					"ft": ["flíkuðum", "flíkuðuð", "flíkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flíkarðu",
+					"ft": "flíkiði"
+				},
+				"þátíð": {
+					"et": "flíkaðirðu",
+					"ft": "flíkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flíkirðu",
+					"ft": "flíkiði"
+				},
+				"þátíð": {
+					"et": "flíkaðirðu",
+					"ft": "flíkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flíkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flíkaður", "flíkaðan", "flíkuðum", "flíkaðs"],
+					"kvk": ["flíkuð", "flíkaða", "flíkaðri", "flíkaðrar"],
+					"hk": ["flíkað", "flíkað", "flíkuðu", "flíkaðs"]
+				},
+				"ft": {
+					"kk": ["flíkaðir", "flíkaða", "flíkuðum", "flíkaðra"],
+					"kvk": ["flíkaðar", "flíkaðar", "flíkuðum", "flíkaðra"],
+					"hk": ["flíkuð", "flíkuð", "flíkuðum", "flíkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flíka",
+	"hash": "5fd739051c6475540c85062d0d97664e5e1d1e3eb3499761beaf4e4e01edc11b"
+}

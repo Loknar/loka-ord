@@ -1,0 +1,87 @@
+{
+	"orð": "steinsofa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stein",
+			"samsetning": "stofn",
+			"kennistrengur": "no-steinn-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sofa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "steinsofa",
+		"sagnbót": "steinsofið",
+		"boðháttur": {
+			"stýfður": "steinsof",
+			"et": "steinsofðu",
+			"ft": "steinsofið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["steinsef", "steinsefur", "steinsefur"],
+					"ft": ["steinsofum", "steinsofið", "steinsofa"]
+				},
+				"þátíð": {
+					"et": ["steinsvaf", "steinsvafst", "steinsvaf"],
+					"ft": ["steinsváfum", "steinsváfuð", "steinsváfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["steinsofi", "steinsofir", "steinsofi"],
+					"ft": ["steinsofum", "steinsofið", "steinsofi"]
+				},
+				"þátíð": {
+					"et": ["steinsvæfi", "steinsvæfir", "steinsvæfi"],
+					"ft": ["steinsvæfum", "steinsvæfuð", "steinsvæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "steinsefurðu",
+					"ft": "steinsofiði"
+				},
+				"þátíð": {
+					"et": "steinsvafstu",
+					"ft": "steinsváfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "steinsofirðu",
+					"ft": "steinsofiði"
+				},
+				"þátíð": {
+					"et": "steinsvæfirðu",
+					"ft": "steinsvæfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "steinsofandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["steinsofinn", "steinsofinn", "steinsofnum", "steinsofins"],
+					"kvk": ["steinsofin", "steinsofna", "steinsofinni", "steinsofinnar"],
+					"hk": ["steinsofið", "steinsofið", "steinsofnu", "steinsofins"]
+				},
+				"ft": {
+					"kk": ["steinsofnir", "steinsofna", "steinsofnum", "steinsofinna"],
+					"kvk": ["steinsofnar", "steinsofnar", "steinsofnum", "steinsofinna"],
+					"hk": ["steinsofin", "steinsofin", "steinsofnum", "steinsofinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-steinsofa",
+	"hash": "02083ca7da0439ac2d9c136b8604e65680d29cdbb3ab10742fce9decd0115f19"
+}

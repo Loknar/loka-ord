@@ -1,0 +1,99 @@
+{
+	"orð": "bösta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "böst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-böst-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bösta",
+		"sagnbót": "böstað",
+		"boðháttur": {
+			"stýfður": "bösta",
+			"et": "böstaðu",
+			"ft": "böstið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bösta", "böstar", "böstar"],
+					"ft": ["böstum", "böstið", "bösta"]
+				},
+				"þátíð": {
+					"et": ["böstaði", "böstaðir", "böstaði"],
+					"ft": ["böstuðum", "böstuðuð", "böstuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bösti", "böstir", "bösti"],
+					"ft": ["böstum", "böstið", "bösti"]
+				},
+				"þátíð": {
+					"et": ["böstaði", "böstaðir", "böstaði"],
+					"ft": ["böstuðum", "böstuðuð", "böstuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "böstarðu",
+					"ft": "böstiði"
+				},
+				"þátíð": {
+					"et": "böstaðirðu",
+					"ft": "böstuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "böstirðu",
+					"ft": "böstiði"
+				},
+				"þátíð": {
+					"et": "böstaðirðu",
+					"ft": "böstuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "böstandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["böstaður", "böstaðan", "böstuðum", "böstaðs"],
+					"kvk": ["böstuð", "böstaða", "böstaðri", "böstaðrar"],
+					"hk": ["böstað", "böstað", "böstuðu", "böstaðs"]
+				},
+				"ft": {
+					"kk": ["böstaðir", "böstaða", "böstuðum", "böstaðra"],
+					"kvk": ["böstaðar", "böstaðar", "böstuðum", "böstaðra"],
+					"hk": ["böstuð", "böstuð", "böstuðum", "böstaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["böstaði", "böstaða", "böstaða", "böstaða"],
+					"kvk": ["böstaða", "böstuðu", "böstuðu", "böstuðu"],
+					"hk": ["böstaða", "böstaða", "böstaða", "böstaða"]
+				},
+				"ft": {
+					"kk": ["böstuðu", "böstuðu", "böstuðu", "böstuðu"],
+					"kvk": ["böstuðu", "böstuðu", "böstuðu", "böstuðu"],
+					"hk": ["böstuðu", "böstuðu", "böstuðu", "böstuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bösta",
+	"hash": "88199b5d4e374e94f55264fb209640f337cb91cc5456d23f0a83cc64203c9aa3"
+}

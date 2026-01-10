@@ -1,0 +1,65 @@
+{
+	"orð": "pönkast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "pönk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-pönk-hk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "pönkast",
+		"sagnbót": "pönkast",
+		"boðháttur": {
+			"et": "pönkastu",
+			"ft": "pönkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["pönkast", "pönkast", "pönkast"],
+					"ft": ["pönkumst", "pönkist", "pönkast"]
+				},
+				"þátíð": {
+					"et": ["pönkaðist", "pönkaðist", "pönkaðist"],
+					"ft": ["pönkuðumst", "pönkuðust", "pönkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["pönkist", "pönkist", "pönkist"],
+					"ft": ["pönkumst", "pönkist", "pönkist"]
+				},
+				"þátíð": {
+					"et": ["pönkaðist", "pönkaðist", "pönkaðist"],
+					"ft": ["pönkuðumst", "pönkuðust", "pönkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "pönkastu"
+				},
+				"þátíð": {
+					"et": "pönkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "pönkistu"
+				},
+				"þátíð": {
+					"et": "pönkaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-pönkast",
+	"hash": "87f14431d3d30720f3f971eabc8eb4978a03467cd8bbef06185b5aacc852a776"
+}

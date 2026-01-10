@@ -1,0 +1,87 @@
+{
+	"orð": "guggna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "guggn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-gugga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "guggna",
+		"sagnbót": "guggnað",
+		"boðháttur": {
+			"stýfður": "guggna",
+			"et": "guggnaðu",
+			"ft": "guggnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["guggna", "guggnar", "guggnar"],
+					"ft": ["guggnum", "guggnið", "guggna"]
+				},
+				"þátíð": {
+					"et": ["guggnaði", "guggnaðir", "guggnaði"],
+					"ft": ["guggnuðum", "guggnuðuð", "guggnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["guggni", "guggnir", "guggni"],
+					"ft": ["guggnum", "guggnið", "guggni"]
+				},
+				"þátíð": {
+					"et": ["guggnaði", "guggnaðir", "guggnaði"],
+					"ft": ["guggnuðum", "guggnuðuð", "guggnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "guggnarðu",
+					"ft": "guggniði"
+				},
+				"þátíð": {
+					"et": "guggnaðirðu",
+					"ft": "guggnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "guggnirðu",
+					"ft": "guggniði"
+				},
+				"þátíð": {
+					"et": "guggnaðirðu",
+					"ft": "guggnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "guggnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["guggnaður", "guggnaðan", "guggnuðum", "guggnaðs"],
+					"kvk": ["guggnuð", "guggnaða", "guggnaðri", "guggnaðrar"],
+					"hk": ["guggnað", "guggnað", "guggnuðu", "guggnaðs"]
+				},
+				"ft": {
+					"kk": ["guggnaðir", "guggnaða", "guggnuðum", "guggnaðra"],
+					"kvk": ["guggnaðar", "guggnaðar", "guggnuðum", "guggnaðra"],
+					"hk": ["guggnuð", "guggnuð", "guggnuðum", "guggnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-guggna",
+	"hash": "8998c15e3e42e9deec7cf43cd947243f21423fbb9eefeb58d0395ab46b8194b2"
+}
