@@ -1,0 +1,43 @@
+{
+	"orð": "tekjulaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "tekju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tekja-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["tekjulaus", "tekjulausan", "tekjulausum", "tekjulauss"],
+				"kvk": ["tekjulaus", "tekjulausa", "tekjulausri", "tekjulausrar"],
+				"hk": ["tekjulaust", "tekjulaust", "tekjulausu", "tekjulauss"]
+			},
+			"ft": {
+				"kk": ["tekjulausir", "tekjulausa", "tekjulausum", "tekjulausra"],
+				"kvk": ["tekjulausar", "tekjulausar", "tekjulausum", "tekjulausra"],
+				"hk": ["tekjulaus", "tekjulaus", "tekjulausum", "tekjulausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tekjulausi", "tekjulausa", "tekjulausa", "tekjulausa"],
+				"kvk": ["tekjulausa", "tekjulausu", "tekjulausu", "tekjulausu"],
+				"hk": ["tekjulausa", "tekjulausa", "tekjulausa", "tekjulausa"]
+			},
+			"ft": {
+				"kk": ["tekjulausu", "tekjulausu", "tekjulausu", "tekjulausu"],
+				"kvk": ["tekjulausu", "tekjulausu", "tekjulausu", "tekjulausu"],
+				"hk": ["tekjulausu", "tekjulausu", "tekjulausu", "tekjulausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-tekjulaus",
+	"hash": "31ce7197dd9716fc3260f4acd65ba03d834aa7b19d2abf0b14272a20ed5a183b"
+}

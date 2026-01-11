@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "barn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-barn-hk"
-		},
-		{
-			"mynd": "eigna",
+			"mynd": "barneigna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eign-kvk"
+			"kennistrengur": "no-barneign-kvk"
 		},
 		{
 			"kennistrengur": "no-aldur-kk"
@@ -26,5 +21,5 @@
 		"mg": ["barneignaaldrarnir", "barneignaaldrana", "barneignaöldrunum", "barneignaaldranna"]
 	},
 	"kennistrengur": "no-barneignaaldur-kk",
-	"hash": "db31d50f9d50f68313347afa1e26568ba21e7c867b7e5fef387c656c6256860c"
+	"hash": "43223e31066c05ca49c6bf0be4c5d10a0d3d7412e5ad417b8633f7eec29836a0"
 }

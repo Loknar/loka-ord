@@ -1,0 +1,135 @@
+{
+	"orð": "rumska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rumsk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rumsk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rumska",
+		"sagnbót": "rumskað",
+		"boðháttur": {
+			"stýfður": "rumska",
+			"et": "rumskaðu",
+			"ft": "rumskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rumska", "rumskar", "rumskar"],
+					"ft": ["rumskum", "rumskið", "rumska"]
+				},
+				"þátíð": {
+					"et": ["rumskaði", "rumskaðir", "rumskaði"],
+					"ft": ["rumskuðum", "rumskuðuð", "rumskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rumski", "rumskir", "rumski"],
+					"ft": ["rumskum", "rumskið", "rumski"]
+				},
+				"þátíð": {
+					"et": ["rumskaði", "rumskaðir", "rumskaði"],
+					"ft": ["rumskuðum", "rumskuðuð", "rumskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rumskarðu",
+					"ft": "rumskiði"
+				},
+				"þátíð": {
+					"et": "rumskaðirðu",
+					"ft": "rumskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rumskirðu",
+					"ft": "rumskiði"
+				},
+				"þátíð": {
+					"et": "rumskaðirðu",
+					"ft": "rumskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rumskast",
+		"sagnbót": "rumskast",
+		"boðháttur": {
+			"et": "rumskastu",
+			"ft": "rumskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rumskast", "rumskast", "rumskast"],
+					"ft": ["rumskumst", "rumskist", "rumskast"]
+				},
+				"þátíð": {
+					"et": ["rumskaðist", "rumskaðist", "rumskaðist"],
+					"ft": ["rumskuðumst", "rumskuðust", "rumskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rumskist", "rumskist", "rumskist"],
+					"ft": ["rumskumst", "rumskist", "rumskist"]
+				},
+				"þátíð": {
+					"et": ["rumskaðist", "rumskaðist", "rumskaðist"],
+					"ft": ["rumskuðumst", "rumskuðust", "rumskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rumskastu"
+				},
+				"þátíð": {
+					"et": "rumskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rumskistu"
+				},
+				"þátíð": {
+					"et": "rumskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rumskandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rumskaður", "rumskaðan", "rumskuðum", "rumskaðs"],
+					"kvk": ["rumskuð", "rumskaða", "rumskaðri", "rumskaðrar"],
+					"hk": ["rumskað", "rumskað", "rumskuðu", "rumskaðs"]
+				},
+				"ft": {
+					"kk": ["rumskaðir", "rumskaða", "rumskuðum", "rumskaðra"],
+					"kvk": ["rumskaðar", "rumskaðar", "rumskuðum", "rumskaðra"],
+					"hk": ["rumskuð", "rumskuð", "rumskuðum", "rumskaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rumska",
+	"hash": "4312f9fe73f0ab4877c685abac6d8a2360a4722db404ea5aa6e08240e1bf2618"
+}

@@ -109,8 +109,22 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "endurbeinandi"
+		"nútíðar": "endurbeinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurbeindur", "endurbeindan", "endurbeindum", "endurbeinds"],
+					"kvk": ["endurbeind", "endurbeinda", "endurbeindri", "endurbeindrar"],
+					"hk": ["endurbeint", "endurbeint", "endurbeindu", "endurbeinds"]
+				},
+				"ft": {
+					"kk": ["endurbeindir", "endurbeinda", "endurbeindum", "endurbeindra"],
+					"kvk": ["endurbeindar", "endurbeindar", "endurbeindum", "endurbeindra"],
+					"hk": ["endurbeind", "endurbeind", "endurbeindum", "endurbeindra"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-endurbeina",
-	"hash": "c80e94617a411a5edf6f2fdbd5fd5cd956c410d8ff6b5cb419b97f792abf1829"
+	"hash": "cfe5362ab5a216366d47bb05f8662dfaf4fc26fd88dd9ece798fc3dfdaa74d14"
 }

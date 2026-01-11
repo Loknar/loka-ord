@@ -99,8 +99,22 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "beinandi"
+		"nútíðar": "beinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["beindur", "beindan", "beindum", "beinds"],
+					"kvk": ["beind", "beinda", "beindri", "beindrar"],
+					"hk": ["beint", "beint", "beindu", "beinds"]
+				},
+				"ft": {
+					"kk": ["beindir", "beinda", "beindum", "beindra"],
+					"kvk": ["beindar", "beindar", "beindum", "beindra"],
+					"hk": ["beind", "beind", "beindum", "beindra"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-beina",
-	"hash": "c59d5328c67f126023e0be1e7a1a0a2073bc0c83e87095c71f2bb1989bbc7883"
+	"hash": "4b7c97dfa7b04d911783ccd5d422acf11533783ed32f40d6c693ded50e00a4cb"
 }

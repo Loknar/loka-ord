@@ -1,0 +1,87 @@
+{
+	"orð": "flimta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flimt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flimt-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flimta",
+		"sagnbót": "flimtað",
+		"boðháttur": {
+			"stýfður": "flimta",
+			"et": "flimtaðu",
+			"ft": "flimtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flimta", "flimtar", "flimtar"],
+					"ft": ["flimtum", "flimtið", "flimta"]
+				},
+				"þátíð": {
+					"et": ["flimtaði", "flimtaðir", "flimtaði"],
+					"ft": ["flimtuðum", "flimtuðuð", "flimtuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flimti", "flimtir", "flimti"],
+					"ft": ["flimtum", "flimtið", "flimti"]
+				},
+				"þátíð": {
+					"et": ["flimtaði", "flimtaðir", "flimtaði"],
+					"ft": ["flimtuðum", "flimtuðuð", "flimtuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flimtarðu",
+					"ft": "flimtiði"
+				},
+				"þátíð": {
+					"et": "flimtaðirðu",
+					"ft": "flimtuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flimtirðu",
+					"ft": "flimtiði"
+				},
+				"þátíð": {
+					"et": "flimtaðirðu",
+					"ft": "flimtuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flimtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flimtaður", "flimtaðan", "flimtuðum", "flimtaðs"],
+					"kvk": ["flimtuð", "flimtaða", "flimtaðri", "flimtaðrar"],
+					"hk": ["flimtað", "flimtað", "flimtuðu", "flimtaðs"]
+				},
+				"ft": {
+					"kk": ["flimtaðir", "flimtaða", "flimtuðum", "flimtaðra"],
+					"kvk": ["flimtaðar", "flimtaðar", "flimtuðum", "flimtaðra"],
+					"hk": ["flimtuð", "flimtuð", "flimtuðum", "flimtaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flimta",
+	"hash": "e01a37cfb0c4b290eacf8cf5f04c268763befd9dcd5604dd5b31c45b40186b09"
+}
