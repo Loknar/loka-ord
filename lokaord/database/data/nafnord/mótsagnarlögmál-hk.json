@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "mót",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-mót"
-		},
-		{
-			"mynd": "sagnar",
+			"mynd": "mótsagnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sögn-kvk"
+			"kennistrengur": "no-mótsögn-kvk"
 		},
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-lögmál-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["mótsagnarlögmálin", "mótsagnarlögmálin", "mótsagnarlögmálunum", "mótsagnarlögmálanna"]
 	},
 	"kennistrengur": "no-mótsagnarlögmál-hk",
-	"hash": "e1336b2b9b3fe79eeb618cb02b7b4e7937451618043de5078965f127d8048f01"
+	"hash": "97f7b94e0e05c48dc80f1e1d415f3e5dccd5fbefd25bf801cd652660ecf09627"
 }
