@@ -181,8 +181,6 @@ def update(
 
 @app.command(help='Add word CLI.')
 def add_word():
-	lokaord.logman.error('todo: fix this command')
-	raise typer.Exit(code=1)
 	lokaord.add_word()
 
 

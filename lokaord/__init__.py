@@ -6,12 +6,12 @@ import os
 
 import git
 
-from lokaord import cli
 from lokaord import exporter
 from lokaord import importer
 from lokaord import logman
 from lokaord import seer
 from lokaord import stats
+from lokaord import tui
 from lokaord.database import db
 from lokaord.version import __version__  # noqa
 
@@ -147,7 +147,7 @@ def get_runtime():
 
 def add_word():
 	db.init(Name)
-	cli.add_word_cli()
+	tui.add_word_tui()
 
 
 def assert_clean_git():

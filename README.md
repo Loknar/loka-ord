@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1873 | 1724 | 1685 | 5282 | 14877 | 19791 | 20797 | 55465 | **60747** |
+| **Nafnorð**     |   | 1873 | 1725 | 1686 | 5284 | 14877 | 19791 | 20797 | 55465 | **60749** |
 | **Lýsingarorð** | 488 |   |   |   | 757 |   |   |   | 5650 | **6407** |
 | **Sagnorð**     |   |   |   |   | 1360 |   |   |   | 1946 | **3306** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
 | **Smáorð**      |   |   |   |   | 352 |   |   |   | 593 | **945** |
-| **Alls** |   |   |   |   | **7815** |   |   |   | **63778** | **71593** |
+| **Alls** |   |   |   |   | **7817** |   |   |   | **63778** | **71595** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,7 +23,7 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Örnefni   | 35 | 152 | 449 | 636 | 2633 | 1903 | 1994 | 6530 | **7166** |
 | **Alls**  |   |   |   | **4821** |   |   |   | **23820** | **28641** |
 
-**Samtals:** 100234 orð.
+**Samtals:** 100236 orð.
 
 864 skammstafanir.
 
@@ -78,11 +78,13 @@ python main.py md-stats
 
 Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 94000 orð) þá tekur `init` ferlið sinn tíma. Tölva með temmilega góðan vélbúnað og linux stýrikerfi klárar það á um klukkustund, meðalgóð fartölva með linux stýrikerfi þarf um klukkustund og þrjú korter, þá hefur sýnt sig að á tölvum keyrandi windows stýrikerfi sé ferlið umtalsvert lengra, geti jafnvel tekið yfir hálftíma (skrifast líklega að mestu á mismunandi meðhöndlun fyrir transactions í SQLite miłli windows og linux).
 
-**TODO: laga þessa virkni, er brotin eins og er** Bæta við orði í gegnum skipanalínu (CLI):
+Bæta við orði í gegnum skipanalínuviðmót (TUI):
 
 ```bash
 python main.py add-word
 ```
+
+***Ath:*** *`add-word` býður eins og er einungis upp á að bæta við ósamsettum nafnorðum*
 
 ### Orðaviðbætur
 

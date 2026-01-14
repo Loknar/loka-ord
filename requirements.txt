@@ -1,6 +1,7 @@
 colorama==0.4.6; platform_system == 'Windows'
-GitPython==3.1.45
+GitPython==3.1.46
 pointless==1.0.29; platform_system == 'Linux'
 pydantic==2.12.5
-SQLAlchemy==2.0.44
-typer==0.20.0
+SQLAlchemy==2.0.45
+textual==6.7.1
+typer==0.21.1
