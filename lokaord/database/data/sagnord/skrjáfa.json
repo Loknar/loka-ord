@@ -1,0 +1,121 @@
+{
+	"orð": "skrjáfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skrjáf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrjáf-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrjáfa",
+		"sagnbót": "skrjáfað",
+		"boðháttur": {
+			"stýfður": "skrjáfa",
+			"et": "skrjáfaðu",
+			"ft": "skrjáfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrjáfa", "skrjáfar", "skrjáfar"],
+					"ft": ["skrjáfum", "skrjáfið", "skrjáfa"]
+				},
+				"þátíð": {
+					"et": ["skrjáfaði", "skrjáfaðir", "skrjáfaði"],
+					"ft": ["skrjáfuðum", "skrjáfuðuð", "skrjáfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrjáfi", "skrjáfir", "skrjáfi"],
+					"ft": ["skrjáfum", "skrjáfið", "skrjáfi"]
+				},
+				"þátíð": {
+					"et": ["skrjáfaði", "skrjáfaðir", "skrjáfaði"],
+					"ft": ["skrjáfuðum", "skrjáfuðuð", "skrjáfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrjáfarðu",
+					"ft": "skrjáfiði"
+				},
+				"þátíð": {
+					"et": "skrjáfaðirðu",
+					"ft": "skrjáfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrjáfirðu",
+					"ft": "skrjáfiði"
+				},
+				"þátíð": {
+					"et": "skrjáfaðirðu",
+					"ft": "skrjáfuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skrjáfast",
+		"sagnbót": "skrjáfast",
+		"boðháttur": {
+			"et": "skrjáfastu",
+			"ft": "skrjáfist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrjáfast", "skrjáfast", "skrjáfast"],
+					"ft": ["skrjáfumst", "skrjáfist", "skrjáfast"]
+				},
+				"þátíð": {
+					"et": ["skrjáfaðist", "skrjáfaðist", "skrjáfaðist"],
+					"ft": ["skrjáfuðumst", "skrjáfuðust", "skrjáfuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrjáfist", "skrjáfist", "skrjáfist"],
+					"ft": ["skrjáfumst", "skrjáfist", "skrjáfist"]
+				},
+				"þátíð": {
+					"et": ["skrjáfaðist", "skrjáfaðist", "skrjáfaðist"],
+					"ft": ["skrjáfuðumst", "skrjáfuðust", "skrjáfuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrjáfastu"
+				},
+				"þátíð": {
+					"et": "skrjáfaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrjáfistu"
+				},
+				"þátíð": {
+					"et": "skrjáfaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrjáfandi"
+	},
+	"kennistrengur": "so-skrjáfa",
+	"hash": "f925bbec5f06cb4ac9da89f75a99c69737db6e25caf3acafc6eeb3b29bf31d73"
+}

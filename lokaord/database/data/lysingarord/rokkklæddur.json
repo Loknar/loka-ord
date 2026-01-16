@@ -1,0 +1,43 @@
+{
+	"orð": "rokkklæddur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "rokk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rokk-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-klæddur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["rokkklæddur", "rokkklæddan", "rokkklæddum", "rokkklædds"],
+				"kvk": ["rokkklædd", "rokkklædda", "rokkklæddri", "rokkklæddrar"],
+				"hk": ["rokkklætt", "rokkklætt", "rokkklæddu", "rokkklædds"]
+			},
+			"ft": {
+				"kk": ["rokkklæddir", "rokkklædda", "rokkklæddum", "rokkklæddra"],
+				"kvk": ["rokkklæddar", "rokkklæddar", "rokkklæddum", "rokkklæddra"],
+				"hk": ["rokkklædd", "rokkklædd", "rokkklæddum", "rokkklæddra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["rokkklæddi", "rokkklædda", "rokkklædda", "rokkklædda"],
+				"kvk": ["rokkklædda", "rokkklæddu", "rokkklæddu", "rokkklæddu"],
+				"hk": ["rokkklædda", "rokkklædda", "rokkklædda", "rokkklædda"]
+			},
+			"ft": {
+				"kk": ["rokkklæddu", "rokkklæddu", "rokkklæddu", "rokkklæddu"],
+				"kvk": ["rokkklæddu", "rokkklæddu", "rokkklæddu", "rokkklæddu"],
+				"hk": ["rokkklæddu", "rokkklæddu", "rokkklæddu", "rokkklæddu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-rokkklæddur",
+	"hash": "c685c1125100355efdc6e867a9cdf31b72080f98f670a468c671fd6a6992942c"
+}

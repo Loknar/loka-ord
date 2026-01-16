@@ -1,0 +1,121 @@
+{
+	"orð": "fálma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fálm",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fálm-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fálma",
+		"sagnbót": "fálmað",
+		"boðháttur": {
+			"stýfður": "fálma",
+			"et": "fálmaðu",
+			"ft": "fálmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fálma", "fálmar", "fálmar"],
+					"ft": ["fálmum", "fálmið", "fálma"]
+				},
+				"þátíð": {
+					"et": ["fálmaði", "fálmaðir", "fálmaði"],
+					"ft": ["fálmuðum", "fálmuðuð", "fálmuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fálmi", "fálmir", "fálmi"],
+					"ft": ["fálmum", "fálmið", "fálmi"]
+				},
+				"þátíð": {
+					"et": ["fálmaði", "fálmaðir", "fálmaði"],
+					"ft": ["fálmuðum", "fálmuðuð", "fálmuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fálmarðu",
+					"ft": "fálmiði"
+				},
+				"þátíð": {
+					"et": "fálmaðirðu",
+					"ft": "fálmuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fálmirðu",
+					"ft": "fálmiði"
+				},
+				"þátíð": {
+					"et": "fálmaðirðu",
+					"ft": "fálmuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fálmast",
+		"sagnbót": "fálmast",
+		"boðháttur": {
+			"et": "fálmastu",
+			"ft": "fálmist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fálmast", "fálmast", "fálmast"],
+					"ft": ["fálmumst", "fálmist", "fálmast"]
+				},
+				"þátíð": {
+					"et": ["fálmaðist", "fálmaðist", "fálmaðist"],
+					"ft": ["fálmuðumst", "fálmuðust", "fálmuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fálmist", "fálmist", "fálmist"],
+					"ft": ["fálmumst", "fálmist", "fálmist"]
+				},
+				"þátíð": {
+					"et": ["fálmaðist", "fálmaðist", "fálmaðist"],
+					"ft": ["fálmuðumst", "fálmuðust", "fálmuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fálmastu"
+				},
+				"þátíð": {
+					"et": "fálmaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fálmistu"
+				},
+				"þátíð": {
+					"et": "fálmaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fálmandi"
+	},
+	"kennistrengur": "so-fálma",
+	"hash": "52e53fdd536980bf7f58cc33c3c8cafa8f73cee07d7b2a163f440a0dc1757077"
+}

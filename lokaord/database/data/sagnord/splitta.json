@@ -1,0 +1,135 @@
+{
+	"orð": "splitta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "splitt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-splitti-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "splitta",
+		"sagnbót": "splittað",
+		"boðháttur": {
+			"stýfður": "splitta",
+			"et": "splittaðu",
+			"ft": "splittið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["splitta", "splittar", "splittar"],
+					"ft": ["splittum", "splittið", "splitta"]
+				},
+				"þátíð": {
+					"et": ["splittaði", "splittaðir", "splittaði"],
+					"ft": ["splittuðum", "splittuðuð", "splittuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["splitti", "splittir", "splitti"],
+					"ft": ["splittum", "splittið", "splitti"]
+				},
+				"þátíð": {
+					"et": ["splittaði", "splittaðir", "splittaði"],
+					"ft": ["splittuðum", "splittuðuð", "splittuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "splittarðu",
+					"ft": "splittiði"
+				},
+				"þátíð": {
+					"et": "splittaðirðu",
+					"ft": "splittuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "splittirðu",
+					"ft": "splittiði"
+				},
+				"þátíð": {
+					"et": "splittaðirðu",
+					"ft": "splittuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "splittast",
+		"sagnbót": "splittast",
+		"boðháttur": {
+			"et": "splittastu",
+			"ft": "splittist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["splittast", "splittast", "splittast"],
+					"ft": ["splittumst", "splittist", "splittast"]
+				},
+				"þátíð": {
+					"et": ["splittaðist", "splittaðist", "splittaðist"],
+					"ft": ["splittuðumst", "splittuðust", "splittuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["splittist", "splittist", "splittist"],
+					"ft": ["splittumst", "splittist", "splittist"]
+				},
+				"þátíð": {
+					"et": ["splittaðist", "splittaðist", "splittaðist"],
+					"ft": ["splittuðumst", "splittuðust", "splittuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "splittastu"
+				},
+				"þátíð": {
+					"et": "splittaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "splittistu"
+				},
+				"þátíð": {
+					"et": "splittaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "splittandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["splittaður", "splittaðan", "splittuðum", "splittaðs"],
+					"kvk": ["splittuð", "splittaða", "splittaðri", "splittaðrar"],
+					"hk": ["splittað", "splittað", "splittuðu", "splittaðs"]
+				},
+				"ft": {
+					"kk": ["splittaðir", "splittaða", "splittuðum", "splittaðra"],
+					"kvk": ["splittaðar", "splittaðar", "splittuðum", "splittaðra"],
+					"hk": ["splittuð", "splittuð", "splittuðum", "splittaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-splitta",
+	"hash": "d3d264f24c6c1b38e18a23678df2bd35c637d3718e03c088c9714fec3ee12aa5"
+}

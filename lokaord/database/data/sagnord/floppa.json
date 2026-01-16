@@ -1,0 +1,73 @@
+{
+	"orð": "floppa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flopp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flopp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "floppa",
+		"sagnbót": "floppað",
+		"boðháttur": {
+			"stýfður": "floppa",
+			"et": "floppaðu",
+			"ft": "floppið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["floppa", "floppar", "floppar"],
+					"ft": ["floppum", "floppið", "floppa"]
+				},
+				"þátíð": {
+					"et": ["floppaði", "floppaðir", "floppaði"],
+					"ft": ["floppuðum", "floppuðuð", "floppuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["floppi", "floppir", "floppi"],
+					"ft": ["floppum", "floppið", "floppi"]
+				},
+				"þátíð": {
+					"et": ["floppaði", "floppaðir", "floppaði"],
+					"ft": ["floppuðum", "floppuðuð", "floppuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flopparðu",
+					"ft": "floppiði"
+				},
+				"þátíð": {
+					"et": "floppaðirðu",
+					"ft": "floppuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "floppirðu",
+					"ft": "floppiði"
+				},
+				"þátíð": {
+					"et": "floppaðirðu",
+					"ft": "floppuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "floppandi"
+	},
+	"kennistrengur": "so-floppa",
+	"hash": "99198e5946d1e2366f0db9b2d620349383f9af7a863186805e6e3445b631be51"
+}

@@ -1,0 +1,48 @@
+{
+	"orð": "rasssetinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "rass",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rass-kk"
+		},
+		{
+			"mynd": "set",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sitja"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["rasssetinn", "rasssetinn", "rasssetnum", "rasssetins"],
+				"kvk": ["rasssetin", "rasssetna", "rasssetinni", "rasssetinnar"],
+				"hk": ["rasssetið", "rasssetið", "rasssetnu", "rasssetins"]
+			},
+			"ft": {
+				"kk": ["rasssetnir", "rasssetna", "rasssetnum", "rasssetinna"],
+				"kvk": ["rasssetnar", "rasssetnar", "rasssetnum", "rasssetinna"],
+				"hk": ["rasssetin", "rasssetin", "rasssetnum", "rasssetinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["rasssetni", "rasssetna", "rasssetna", "rasssetna"],
+				"kvk": ["rasssetna", "rasssetnu", "rasssetnu", "rasssetnu"],
+				"hk": ["rasssetna", "rasssetna", "rasssetna", "rasssetna"]
+			},
+			"ft": {
+				"kk": ["rasssetnu", "rasssetnu", "rasssetnu", "rasssetnu"],
+				"kvk": ["rasssetnu", "rasssetnu", "rasssetnu", "rasssetnu"],
+				"hk": ["rasssetnu", "rasssetnu", "rasssetnu", "rasssetnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-rasssetinn",
+	"hash": "3d9cbf41abdb2c842853265ec0256a331242660d1cf0c0dbfa5520e20ddb56c6"
+}

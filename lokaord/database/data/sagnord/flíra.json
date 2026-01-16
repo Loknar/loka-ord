@@ -1,0 +1,95 @@
+{
+	"orð": "flíra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flír",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flíra-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flíra",
+		"sagnbót": "flírað",
+		"boðháttur": {
+			"stýfður": "flíra",
+			"et": "flíraðu",
+			"ft": "flírið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flíra", "flírar", "flírar"],
+					"ft": ["flírum", "flírið", "flíra"]
+				},
+				"þátíð": {
+					"et": ["flíraði", "flíraðir", "flíraði"],
+					"ft": ["flíruðum", "flíruðuð", "flíruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flíri", "flírir", "flíri"],
+					"ft": ["flírum", "flírið", "flíri"]
+				},
+				"þátíð": {
+					"et": ["flíraði", "flíraðir", "flíraði"],
+					"ft": ["flíruðum", "flíruðuð", "flíruðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "flírast",
+		"sagnbót": "flírast",
+		"boðháttur": {
+			"et": "flírastu",
+			"ft": "flírist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flírast", "flírast", "flírast"],
+					"ft": ["flírumst", "flírist", "flírast"]
+				},
+				"þátíð": {
+					"et": ["flíraðist", "flíraðist", "flíraðist"],
+					"ft": ["flíruðumst", "flíruðust", "flíruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flírist", "flírist", "flírist"],
+					"ft": ["flírumst", "flírist", "flírist"]
+				},
+				"þátíð": {
+					"et": ["flíraðist", "flíraðist", "flíraðist"],
+					"ft": ["flíruðumst", "flíruðust", "flíruðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flírandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flíraður", "flíraðan", "flíruðum", "flíraðs"],
+					"kvk": ["flíruð", "flíraða", "flíraðri", "flíraðrar"],
+					"hk": ["flírað", "flírað", "flíruðu", "flíraðs"]
+				},
+				"ft": {
+					"kk": ["flíraðir", "flíraða", "flíruðum", "flíraðra"],
+					"kvk": ["flíraðar", "flíraðar", "flíruðum", "flíraðra"],
+					"hk": ["flíruð", "flíruð", "flíruðum", "flíraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flíra",
+	"hash": "19b3c578b66e8a94c16294f83e993b13bd02b30e5f1abc612769ebf26b826481"
+}
