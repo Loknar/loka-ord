@@ -1,0 +1,99 @@
+{
+	"orð": "fjárkúga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-kúga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fjárkúga",
+		"sagnbót": "fjárkúgað",
+		"boðháttur": {
+			"stýfður": "fjárkúga",
+			"et": "fjárkúgaðu",
+			"ft": "fjárkúgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fjárkúga", "fjárkúgar", "fjárkúgar"],
+					"ft": ["fjárkúgum", "fjárkúgið", "fjárkúga"]
+				},
+				"þátíð": {
+					"et": ["fjárkúgaði", "fjárkúgaðir", "fjárkúgaði"],
+					"ft": ["fjárkúguðum", "fjárkúguðuð", "fjárkúguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fjárkúgi", "fjárkúgir", "fjárkúgi"],
+					"ft": ["fjárkúgum", "fjárkúgið", "fjárkúgi"]
+				},
+				"þátíð": {
+					"et": ["fjárkúgaði", "fjárkúgaðir", "fjárkúgaði"],
+					"ft": ["fjárkúguðum", "fjárkúguðuð", "fjárkúguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fjárkúgarðu",
+					"ft": "fjárkúgiði"
+				},
+				"þátíð": {
+					"et": "fjárkúgaðirðu",
+					"ft": "fjárkúguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fjárkúgirðu",
+					"ft": "fjárkúgiði"
+				},
+				"þátíð": {
+					"et": "fjárkúgaðirðu",
+					"ft": "fjárkúguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fjárkúgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fjárkúgaður", "fjárkúgaðan", "fjárkúguðum", "fjárkúgaðs"],
+					"kvk": ["fjárkúguð", "fjárkúgaða", "fjárkúgaðri", "fjárkúgaðrar"],
+					"hk": ["fjárkúgað", "fjárkúgað", "fjárkúguðu", "fjárkúgaðs"]
+				},
+				"ft": {
+					"kk": ["fjárkúgaðir", "fjárkúgaða", "fjárkúguðum", "fjárkúgaðra"],
+					"kvk": ["fjárkúgaðar", "fjárkúgaðar", "fjárkúguðum", "fjárkúgaðra"],
+					"hk": ["fjárkúguð", "fjárkúguð", "fjárkúguðum", "fjárkúgaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fjárkúgaði", "fjárkúgaða", "fjárkúgaða", "fjárkúgaða"],
+					"kvk": ["fjárkúgaða", "fjárkúguðu", "fjárkúguðu", "fjárkúguðu"],
+					"hk": ["fjárkúgaða", "fjárkúgaða", "fjárkúgaða", "fjárkúgaða"]
+				},
+				"ft": {
+					"kk": ["fjárkúguðu", "fjárkúguðu", "fjárkúguðu", "fjárkúguðu"],
+					"kvk": ["fjárkúguðu", "fjárkúguðu", "fjárkúguðu", "fjárkúguðu"],
+					"hk": ["fjárkúguðu", "fjárkúguðu", "fjárkúguðu", "fjárkúguðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fjárkúga",
+	"hash": "a46a38e8e664ae88313bdcb9ca2b0d43381076676f6e5dc6837e9a2770dec850"
+}
