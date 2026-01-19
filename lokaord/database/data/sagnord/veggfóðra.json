@@ -1,0 +1,99 @@
+{
+	"orð": "veggfóðra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vegg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veggur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-fóðra"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veggfóðra",
+		"sagnbót": "veggfóðrað",
+		"boðháttur": {
+			"stýfður": "veggfóðra",
+			"et": "veggfóðraðu",
+			"ft": "veggfóðrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veggfóðra", "veggfóðrar", "veggfóðrar"],
+					"ft": ["veggfóðrum", "veggfóðrið", "veggfóðra"]
+				},
+				"þátíð": {
+					"et": ["veggfóðraði", "veggfóðraðir", "veggfóðraði"],
+					"ft": ["veggfóðruðum", "veggfóðruðuð", "veggfóðruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veggfóðri", "veggfóðrir", "veggfóðri"],
+					"ft": ["veggfóðrum", "veggfóðrið", "veggfóðri"]
+				},
+				"þátíð": {
+					"et": ["veggfóðraði", "veggfóðraðir", "veggfóðraði"],
+					"ft": ["veggfóðruðum", "veggfóðruðuð", "veggfóðruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veggfóðrarðu",
+					"ft": "veggfóðriði"
+				},
+				"þátíð": {
+					"et": "veggfóðraðirðu",
+					"ft": "veggfóðruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veggfóðrirðu",
+					"ft": "veggfóðriði"
+				},
+				"þátíð": {
+					"et": "veggfóðraðirðu",
+					"ft": "veggfóðruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veggfóðrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["veggfóðraður", "veggfóðraðan", "veggfóðruðum", "veggfóðraðs"],
+					"kvk": ["veggfóðruð", "veggfóðraða", "veggfóðraðri", "veggfóðraðrar"],
+					"hk": ["veggfóðrað", "veggfóðrað", "veggfóðruðu", "veggfóðraðs"]
+				},
+				"ft": {
+					"kk": ["veggfóðraðir", "veggfóðraða", "veggfóðruðum", "veggfóðraðra"],
+					"kvk": ["veggfóðraðar", "veggfóðraðar", "veggfóðruðum", "veggfóðraðra"],
+					"hk": ["veggfóðruð", "veggfóðruð", "veggfóðruðum", "veggfóðraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["veggfóðraði", "veggfóðraða", "veggfóðraða", "veggfóðraða"],
+					"kvk": ["veggfóðraða", "veggfóðruðu", "veggfóðruðu", "veggfóðruðu"],
+					"hk": ["veggfóðraða", "veggfóðraða", "veggfóðraða", "veggfóðraða"]
+				},
+				"ft": {
+					"kk": ["veggfóðruðu", "veggfóðruðu", "veggfóðruðu", "veggfóðruðu"],
+					"kvk": ["veggfóðruðu", "veggfóðruðu", "veggfóðruðu", "veggfóðruðu"],
+					"hk": ["veggfóðruðu", "veggfóðruðu", "veggfóðruðu", "veggfóðruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-veggfóðra",
+	"hash": "d1bcbf53e2a1260e034058f771df5c031495423c65fc0785489194689a5b4998"
+}
