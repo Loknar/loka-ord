@@ -66,6 +66,64 @@ TilgreinaNafnordBeygingar {
 			text-align: right;
 		}
 		Horizontal {
+			column-span: 2;
+			padding: 2 0 0 2;
+			height: auto;
+		}
+	}
+}
+
+TilgreinaLysingarord {
+	Markdown {
+		padding: 1 0 0 2;
+	}
+	#grid_tilgreina_ord {
+		background: $boost;
+		padding: 0 2 1 1;
+		height: auto;
+		grid-size: 2;
+		grid-gutter: 1;
+		grid-columns: auto 1fr;
+		border: tall blank;
+		&:focus-within {
+			border: tall $accent;
+		}
+		Label {
+			width: 100%;
+			padding: 1 1 1 1;
+			text-align: right;
+		}
+		Markdown {
+			padding: 1 0 0 0;
+		}
+	}
+}
+
+TilgreinaLysingarordBeygingar {
+	Markdown {
+		padding: 1 0 0 2;
+	}
+	#grid_tilgreina_ord_beygingar {
+		background: $boost;
+		padding: 0 2 1 1;
+		height: auto;
+		grid-size: 5;
+		grid-gutter: 0;
+		grid-columns: 2fr 6fr 6fr 6fr 6fr;
+		border: tall blank;
+		&:focus-within {
+			border: tall $accent;
+		}
+		Label {
+			width: 100%;
+			padding: 1 1 1 1;
+			text-align: right;
+		}
+		.label-head {
+			text-align: center;
+		}
+		Horizontal {
+			column-span: 4;
 			padding: 2 0 0 2;
 			height: auto;
 		}

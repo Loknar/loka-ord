@@ -187,6 +187,288 @@ class TilgreinaNafnordBeygingar(VerticalGroup):
 		yield TextArea('{}', language='json', id='ord_data_json', read_only=True)
 
 
+class TilgreinaLysingarord(VerticalGroup):
+	DEFAULT_CLASSES = "column"
+
+	def compose(self) -> ComposeResult:
+		yield Markdown('3. Sláðu inn grunnupplýsingar lýsingarorðs og smelltu svo á [[ Áfram ]]')
+		with containers.Grid(id='grid_tilgreina_ord'):
+			yield Label('Orð')
+			yield Input(placeholder='Grunnmynd', id='ord_lemma', valid_empty=True)
+			yield Label('Merking')
+			yield Input(placeholder='Merking (valkvætt, bara þegar þarf)', id='ord_merking')
+			yield Label('Tölugildi')
+			yield Input(
+				type='number', placeholder='Tölugildi (valkvætt)', id='ord_tolugildi',
+				valid_empty=True
+			)
+			yield Label('Ósjálfstætt')
+			yield Checkbox(
+				'Hakaðu hér ef um er að ræða ósjálfstæðan orðhluta', id='ord_osjalfstaett'
+			)
+			yield Label('Kennistrengur')
+			yield Markdown('`---`', id='ord_kennistrengur')
+			yield Label('Gagnaskrá')
+			yield Markdown('`---`', id='ord_path')
+			yield Label('')
+			yield Button(
+				'[[ Áfram ]] Sláðu inn grunnmynd orðs', variant="error", disabled=True,
+				id='btn_ord_proceed'
+			)
+
+
+class TilgreinaLysingarordBeygingar(VerticalGroup):
+	DEFAULT_CLASSES = 'column'
+
+	def compose(self) -> ComposeResult:
+		yield Markdown((
+			'4. Sláðu inn beygingarmyndir orðsins og / eða hakaðu í hvaða beygingarmyndir skuli'
+			' hafa.'
+		))
+		with containers.Grid(id='grid_tilgreina_ord_beygingar'):
+			# frumstig sterk beyging
+			yield Label('')
+			yield Label('nf.', classes='label-head')
+			yield Label('þf.', classes='label-head')
+			yield Label('þgf.', classes='label-head')
+			yield Label('ef.', classes='label-head')
+			yield Label('')
+			yield Checkbox('Frumstig', id='ord_enable_frumstig', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('sterk beyging', id='ord_enable_frumstig_sb', value=True)
+			yield Checkbox('eintala', id='ord_enable_frumstig_sb_et', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_frumstig_sb_et_kk_nf', placeholder='góður')
+			yield Input(id='ord_beyging_frumstig_sb_et_kk_thf', placeholder='góðan')
+			yield Input(id='ord_beyging_frumstig_sb_et_kk_thgf', placeholder='góðum')
+			yield Input(id='ord_beyging_frumstig_sb_et_kk_ef', placeholder='góðs')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_frumstig_sb_et_kvk_nf', placeholder='góð')
+			yield Input(id='ord_beyging_frumstig_sb_et_kvk_thf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_sb_et_kvk_thgf', placeholder='góðri')
+			yield Input(id='ord_beyging_frumstig_sb_et_kvk_ef', placeholder='góðrar')
+			yield Label('hk')
+			yield Input(id='ord_beyging_frumstig_sb_et_hk_nf', placeholder='gott')
+			yield Input(id='ord_beyging_frumstig_sb_et_hk_thf', placeholder='gott')
+			yield Input(id='ord_beyging_frumstig_sb_et_hk_thgf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_sb_et_hk_ef', placeholder='góðs')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('fleirtala', id='ord_enable_frumstig_sb_ft', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kk_nf', placeholder='góðir')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kk_thf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kk_thgf', placeholder='góðum')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kk_ef', placeholder='góðra')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kvk_nf', placeholder='góðar')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kvk_thf', placeholder='góðar')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kvk_thgf', placeholder='góðum')
+			yield Input(id='ord_beyging_frumstig_sb_ft_kvk_ef', placeholder='góðra')
+			yield Label('hk')
+			yield Input(id='ord_beyging_frumstig_sb_ft_hk_nf', placeholder='góð')
+			yield Input(id='ord_beyging_frumstig_sb_ft_hk_thf', placeholder='góð')
+			yield Input(id='ord_beyging_frumstig_sb_ft_hk_thgf', placeholder='góðum')
+			yield Input(id='ord_beyging_frumstig_sb_ft_hk_ef', placeholder='góðra')
+			# frumstig veik beyging
+			yield Label('')
+			yield Checkbox('veik beyging', id='ord_enable_frumstig_vb', value=True)
+			yield Checkbox('eintala', id='ord_enable_frumstig_vb_et', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_frumstig_vb_et_kk_nf', placeholder='góði')
+			yield Input(id='ord_beyging_frumstig_vb_et_kk_thf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_vb_et_kk_thgf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_vb_et_kk_ef', placeholder='góða')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_frumstig_vb_et_kvk_nf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_vb_et_kvk_thf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_et_kvk_thgf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_et_kvk_ef', placeholder='góðu')
+			yield Label('hk')
+			yield Input(id='ord_beyging_frumstig_vb_et_hk_nf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_vb_et_hk_thf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_vb_et_hk_thgf', placeholder='góða')
+			yield Input(id='ord_beyging_frumstig_vb_et_hk_ef', placeholder='góða')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('fleirtala', id='ord_enable_frumstig_vb_ft', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kk_nf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kk_thf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kk_thgf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kk_ef', placeholder='góðu')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kvk_nf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kvk_thf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kvk_thgf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_kvk_ef', placeholder='góðu')
+			yield Label('hk')
+			yield Input(id='ord_beyging_frumstig_vb_ft_hk_nf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_hk_thf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_hk_thgf', placeholder='góðu')
+			yield Input(id='ord_beyging_frumstig_vb_ft_hk_ef', placeholder='góðu')
+			# miðstig veik beyging
+			yield Label('')
+			yield Checkbox('Miðstig', id='ord_enable_midstig', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('veik beyging', id='ord_enable_midstig_vb', value=True)
+			yield Checkbox('eintala', id='ord_enable_midstig_vb_et', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_midstig_vb_et_kk_nf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_et_kk_thf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_et_kk_thgf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_et_kk_ef', placeholder='betri')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_midstig_vb_et_kvk_nf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_et_kvk_thf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_et_kvk_thgf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_et_kvk_ef', placeholder='betri')
+			yield Label('hk')
+			yield Input(id='ord_beyging_midstig_vb_et_hk_nf', placeholder='betra')
+			yield Input(id='ord_beyging_midstig_vb_et_hk_thf', placeholder='betra')
+			yield Input(id='ord_beyging_midstig_vb_et_hk_thgf', placeholder='betra')
+			yield Input(id='ord_beyging_midstig_vb_et_hk_ef', placeholder='betra')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('fleirtala', id='ord_enable_midstig_vb_ft', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_midstig_vb_ft_kk_nf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_kk_thf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_kk_thgf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_kk_ef', placeholder='betri')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_midstig_vb_ft_kvk_nf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_kvk_thf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_kvk_thgf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_kvk_ef', placeholder='betri')
+			yield Label('hk')
+			yield Input(id='ord_beyging_midstig_vb_ft_hk_nf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_hk_thf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_hk_thgf', placeholder='betri')
+			yield Input(id='ord_beyging_midstig_vb_ft_hk_ef', placeholder='betri')
+			# efstastig sterk beyging
+			yield Label('')
+			yield Checkbox('Efstastig', id='ord_enable_efstastig', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('sterk beyging', id='ord_enable_efstastig_sb', value=True)
+			yield Checkbox('eintala', id='ord_enable_efstastig_sb_et', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_efstastig_sb_et_kk_nf', placeholder='bestur')
+			yield Input(id='ord_beyging_efstastig_sb_et_kk_thf', placeholder='bestan')
+			yield Input(id='ord_beyging_efstastig_sb_et_kk_thgf', placeholder='bestum')
+			yield Input(id='ord_beyging_efstastig_sb_et_kk_ef', placeholder='bests')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_efstastig_sb_et_kvk_nf', placeholder='best')
+			yield Input(id='ord_beyging_efstastig_sb_et_kvk_thf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_sb_et_kvk_thgf', placeholder='betri')
+			yield Input(id='ord_beyging_efstastig_sb_et_kvk_ef', placeholder='bestrar')
+			yield Label('hk')
+			yield Input(id='ord_beyging_efstastig_sb_et_hk_nf', placeholder='best')
+			yield Input(id='ord_beyging_efstastig_sb_et_hk_thf', placeholder='best')
+			yield Input(id='ord_beyging_efstastig_sb_et_hk_thgf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_sb_et_hk_ef', placeholder='bests')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('fleirtala', id='ord_enable_efstastig_sb_ft', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kk_nf', placeholder='bestir')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kk_thf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kk_thgf', placeholder='bestum')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kk_ef', placeholder='bestra')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kvk_nf', placeholder='bestar')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kvk_thf', placeholder='bestar')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kvk_thgf', placeholder='bestum')
+			yield Input(id='ord_beyging_efstastig_sb_ft_kvk_ef', placeholder='bestra')
+			yield Label('hk')
+			yield Input(id='ord_beyging_efstastig_sb_ft_hk_nf', placeholder='best')
+			yield Input(id='ord_beyging_efstastig_sb_ft_hk_thf', placeholder='best')
+			yield Input(id='ord_beyging_efstastig_sb_ft_hk_thgf', placeholder='bestum')
+			yield Input(id='ord_beyging_efstastig_sb_ft_hk_ef', placeholder='bestra')
+			# efstastig veik beyging
+			yield Label('')
+			yield Checkbox('veik beyging', id='ord_enable_efstastig_vb', value=True)
+			yield Checkbox('eintala', id='ord_enable_efstastig_vb_et', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_efstastig_vb_et_kk_nf', placeholder='besti')
+			yield Input(id='ord_beyging_efstastig_vb_et_kk_thf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_vb_et_kk_thgf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_vb_et_kk_ef', placeholder='besta')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_efstastig_vb_et_kvk_nf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_vb_et_kvk_thf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_et_kvk_thgf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_et_kvk_ef', placeholder='bestu')
+			yield Label('hk')
+			yield Input(id='ord_beyging_efstastig_vb_et_hk_nf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_vb_et_hk_thf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_vb_et_hk_thgf', placeholder='besta')
+			yield Input(id='ord_beyging_efstastig_vb_et_hk_ef', placeholder='besta')
+			yield Label('')
+			yield Label('')
+			yield Checkbox('fleirtala', id='ord_enable_efstastig_vb_ft', value=True)
+			yield Label('')
+			yield Label('')
+			yield Label('kk')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kk_nf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kk_thf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kk_thgf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kk_ef', placeholder='bestu')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kvk_nf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kvk_thf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kvk_thgf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_kvk_ef', placeholder='bestu')
+			yield Label('hk')
+			yield Input(id='ord_beyging_efstastig_vb_ft_hk_nf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_hk_thf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_hk_thgf', placeholder='bestu')
+			yield Input(id='ord_beyging_efstastig_vb_ft_hk_ef', placeholder='bestu')
+			#
+			yield Label('')
+			with containers.Horizontal():
+				yield Checkbox('óbeygjanlegt', id='ord_declare_obeygjanlegt', value=False)
+			yield Label('')
+			with containers.Horizontal():
+				yield Button(
+					'[[ Vista ]] Fylltu inn beygingarmyndir', variant="error", disabled=True,
+					id='btn_ord_commit'
+				)
+		yield Markdown((
+			'5. Áður en smellt er á [[ Vista ]] hér fyrir ofan getur verið gott að skima yfir'
+			' innslegin gögn á JSON sniði í textahólfinu hér fyrir neðan, síðan ef allt lítur þar'
+			' vel út er ekkert því til fyrirstöðu að klára og vista nýja orðið.'
+		))
+		yield TextArea('{}', language='json', id='ord_data_json', read_only=True)
+
+
 class BuildWordContainer(Widget):
 	"""just a container"""
 
@@ -225,12 +507,14 @@ Ferlið er svohljóðandi:
 	def handle_updated_ord_state(self):
 		if self.ORD_STATE['flokkur'] is None:
 			return
-		if self.ORD_STATE['flokkur'] != 'nafnorð':
-			self.notify('todo: implement other orðflokkar')
+		unimplemented_flokkar = ('fornafn', 'töluorð', 'sagnorð', 'smáorð', 'sérnafn')
+		if self.ORD_STATE['flokkur'] in unimplemented_flokkar:
+			self.notify('todo: implement orðflokkur %s' % (self.ORD_STATE['flokkur'], ))
 			return
 		ord_path = self.query_one('#ord_path', Markdown)
 		ord_kennistrengur = self.query_one('#ord_kennistrengur', Markdown)
 		ord_button = self.query_one('#btn_ord_proceed', Button)
+		kennistrengur = None
 		if self.ORD_STATE['orð'] in ('', None):
 			ord_path.update('`---`')
 			ord_kennistrengur.update('`---`')
@@ -239,10 +523,15 @@ Ferlið er svohljóðandi:
 			ord_button.disabled = True
 			el_ord_data_json = self.query_one('#ord_data_json', TextArea)
 			el_ord_data_json.text = '{}'
-		else:
+		elif self.ORD_STATE['flokkur'] == 'nafnorð':
 			handler = handlers.Nafnord()
 			handler.load_from_dict(self.ORD_STATE)
 			kennistrengur = handler.make_kennistrengur()
+		elif self.ORD_STATE['flokkur'] == 'lýsingarorð':
+			handler = handlers.Lysingarord()
+			handler.load_from_dict(self.ORD_STATE)
+			kennistrengur = handler.make_kennistrengur()
+		if kennistrengur is not None:
 			isl_ord = db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
 			if isl_ord is None:
 				ord_button.label = '[[ Áfram ]]'
@@ -260,18 +549,34 @@ Ferlið er svohljóðandi:
 	def on_button_pressed(self, event: Button.Pressed) -> None:
 		global QuitMsg
 		btn_id = event.button.id
-		if btn_id == "btn_ord_proceed":
-			el_tilgr_beyg = self.query_one('#el_tilgreina_beygingar', TilgreinaNafnordBeygingar)
-			el_tilgr_beyg.remove_class('hidden')
-			self.post_message(
-				TriggerScrollToWidget(widget=el_tilgr_beyg, focus_id='#ord_beyging_et_ag_nf')
-			)
+		if btn_id == 'btn_ord_proceed':
+			if self.ORD_STATE['flokkur'] == 'nafnorð':
+				el_tilgr_beyg = self.query_one('#el_tilgreina_beygingar_nafnord')
+				el_tilgr_beyg.remove_class('hidden')
+				self.post_message(
+					TriggerScrollToWidget(widget=el_tilgr_beyg, focus_id='#ord_beyging_et_ag_nf')
+				)
+			elif self.ORD_STATE['flokkur'] == 'lýsingarorð':
+				el_tilgr_beyg = self.query_one('#el_tilgreina_beygingar_lysingarord')
+				el_tilgr_beyg.remove_class('hidden')
+				self.post_message(
+					TriggerScrollToWidget(
+						widget=el_tilgr_beyg, focus_id='#ord_beyging_frumstig_sb_et_kk_nf'
+					)
+				)
 		elif btn_id == "btn_ord_commit":
-			handler = handlers.Nafnord()
-			handler.load_from_dict(self.ORD_STATE)
-			filename = handler.make_filename()
-			handler.write_to_db()
-			handler.write_to_file()
+			if self.ORD_STATE['flokkur'] == 'nafnorð':
+				handler = handlers.Nafnord()
+				handler.load_from_dict(self.ORD_STATE)
+				filename = handler.make_filename()
+				handler.write_to_db()
+				handler.write_to_file()
+			elif self.ORD_STATE['flokkur'] == 'lýsingarorð':
+				handler = handlers.Lysingarord()
+				handler.load_from_dict(self.ORD_STATE)
+				filename = handler.make_filename()
+				handler.write_to_db()
+				handler.write_to_file()
 			# global QuitMsg hack to get a single log line to stdout after textual closes
 			QuitMsg = f'add-word: orð vistað í skrá "{filename}"'
 			self.app.exit()
@@ -285,9 +590,33 @@ Ferlið er svohljóðandi:
 				self.ORD_STATE['ósjálfstætt'] = True
 			self.handle_updated_ord_state()
 		elif ch_id.startswith('ord_enable_'):
+			if (
+				self.ORD_STATE['flokkur'] == 'lýsingarorð' and
+				ch_id in ('ord_enable_frumstig', 'ord_enable_midstig', 'ord_enable_efstastig') and
+				event.checkbox.value is True
+			):
+				chbox_declare_obeygjanlegt = self.query_one('#ord_declare_obeygjanlegt', Checkbox)
+				if 'óbeygjanlegt' in self.ORD_STATE:
+					del self.ORD_STATE['óbeygjanlegt']
+				chbox_declare_obeygjanlegt.value = False
+				self.handle_ord_data_change()
 			self.handle_ord_data_change()
+		elif ch_id == 'ord_declare_obeygjanlegt':
+			if self.ORD_STATE['flokkur'] == 'lýsingarorð':
+				if event.checkbox.value is True:
+					self.ORD_STATE['óbeygjanlegt'] = True
+					chbox_frumstig = self.query_one('#ord_enable_frumstig', Checkbox)
+					chbox_midstig = self.query_one('#ord_enable_midstig', Checkbox)
+					chbox_efstastig = self.query_one('#ord_enable_efstastig', Checkbox)
+					chbox_frumstig.value = False
+					chbox_midstig.value = False
+					chbox_efstastig.value = False
+				else:
+					if 'óbeygjanlegt' in self.ORD_STATE:
+						del self.ORD_STATE['óbeygjanlegt']
+				self.handle_ord_data_change()
 		else:
-			self.notify(f'checkbox "{ch_id}"')
+			self.notify(f'debug: checkbox "{ch_id}"')
 
 
 	def on_input_changed(self, event: Input.Changed) -> None:
@@ -351,30 +680,47 @@ Ferlið er svohljóðandi:
 				self.handle_ordflokkur_selection_change(sel_ordfl)
 
 	def handle_ordflokkur_selection_change(self, sel_ordfl: str):
+		el_build_word_container = self.query_one('#el_build_word', BuildWordContainer)
+		el_build_word_container.query('*').remove()
 		chbox_samsett_ord = self.query_one('#samsett_ord', RadioButton)
+		unimplmemented_ordflokkar = (
+			'Fornafn', 'Töluorð', 'Sagnorð', 'Smáorð', 'Sérnafn'
+		)
 		if sel_ordfl == 'Nafnorð' and chbox_samsett_ord.value is False:
 			self.ORD_STATE['flokkur'] = 'nafnorð'
 			self.ORD_STATE['kyn'] = 'kk'  # default
-			el_build_word = self.query_one('#el_build_word', BuildWordContainer)
 			tilgreina_nafnord = TilgreinaNafnord()
-			el_build_word.mount(tilgreina_nafnord)
+			el_build_word_container.mount(tilgreina_nafnord)
 			tilgreina_beygingar = TilgreinaNafnordBeygingar(
-				classes='hidden', id='el_tilgreina_beygingar'
+				id='el_tilgreina_beygingar_nafnord', classes='hidden'
 			)
-			el_build_word.mount(tilgreina_beygingar)
+			el_build_word_container.mount(tilgreina_beygingar)
+		elif sel_ordfl == 'Lýsingarorð' and chbox_samsett_ord.value is False:
+			self.ORD_STATE['flokkur'] = 'lýsingarorð'
+			tilgreina_lysingarord = TilgreinaLysingarord()
+			el_build_word_container.mount(tilgreina_lysingarord)
+			tilgreina_beygingar = TilgreinaLysingarordBeygingar(
+				id='el_tilgreina_beygingar_lysingarord', classes='hidden'
+			)
+			el_build_word_container.mount(tilgreina_beygingar)
 		else:  # event.select.value == Select.BLANK:
-			unimplmemented = (
-				'Lýsingarorð', 'Fornafn', 'Töluorð', 'Sagnorð', 'Smáorð', 'Sérnafn'
-			)
-			if sel_ordfl in unimplmemented:
+			if sel_ordfl in unimplmemented_ordflokkar:
 				self.notify(f'TODO: útfæra UI fyrir orðflokk "{sel_ordfl}"')
 			elif chbox_samsett_ord.value is True:
 				self.notify(f'TODO: útfæra UI fyrir samsett orð og orðflokk "{sel_ordfl}"')
 			self.ORD_STATE = {'orð': None, 'flokkur': None}
-			el_build_word_container = self.query_one('#el_build_word', BuildWordContainer)
-			el_build_word_container.query('*').remove()
 
 	def handle_ord_data_change(self):
+		flokkur = self.ORD_STATE['flokkur']
+		match flokkur:
+			case 'nafnorð':
+				self.handle_ord_data_change_nafnord()
+			case 'lýsingarorð':
+				self.handle_ord_data_change_lysingarord()
+			case _:
+				self.notify(f'unimplemented: handle_ord_data_change flokkur {flokkur}')
+
+	def handle_ord_data_change_nafnord(self):
 		input_empty = '---'
 		# et checkboxes
 		chbox_et = self.query_one('#ord_enable_et', Checkbox)
@@ -570,6 +916,1121 @@ Ferlið er svohljóðandi:
 			btn_ord_commit.variant = 'error'
 			btn_ord_commit.disabled = True
 		elif 'et' not in self.ORD_STATE and 'ft' not in self.ORD_STATE:
+			btn_ord_commit.label = '[[ Vista ]] Tilgreindu beygingarmyndir'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		else:
+			btn_ord_commit.label = '[[ Vista ]]'
+			btn_ord_commit.variant = 'primary'
+			btn_ord_commit.disabled = False
+
+	def handle_ord_data_change_lysingarord(self):
+		input_empty = '---'
+		# checkboxes frumstig
+		chbox_frumstig = self.query_one('#ord_enable_frumstig', Checkbox)
+		chbox_frumstig_sb = self.query_one('#ord_enable_frumstig_sb', Checkbox)
+		chbox_frumstig_sb_et = self.query_one('#ord_enable_frumstig_sb_et', Checkbox)
+		chbox_frumstig_sb_ft = self.query_one('#ord_enable_frumstig_sb_ft', Checkbox)
+		chbox_frumstig_vb = self.query_one('#ord_enable_frumstig_vb', Checkbox)
+		chbox_frumstig_vb_et = self.query_one('#ord_enable_frumstig_vb_et', Checkbox)
+		chbox_frumstig_vb_ft = self.query_one('#ord_enable_frumstig_vb_ft', Checkbox)
+		# checkboxes miðstig
+		chbox_midstig = self.query_one('#ord_enable_midstig', Checkbox)
+		chbox_midstig_vb = self.query_one('#ord_enable_midstig_vb', Checkbox)
+		chbox_midstig_vb_et = self.query_one('#ord_enable_midstig_vb_et', Checkbox)
+		chbox_midstig_vb_ft = self.query_one('#ord_enable_midstig_vb_ft', Checkbox)
+		# checkboxes efstastig
+		chbox_efstastig = self.query_one('#ord_enable_efstastig', Checkbox)
+		chbox_efstastig_sb = self.query_one('#ord_enable_efstastig_sb', Checkbox)
+		chbox_efstastig_sb_et = self.query_one('#ord_enable_efstastig_sb_et', Checkbox)
+		chbox_efstastig_sb_ft = self.query_one('#ord_enable_efstastig_sb_ft', Checkbox)
+		chbox_efstastig_vb = self.query_one('#ord_enable_efstastig_vb', Checkbox)
+		chbox_efstastig_vb_et = self.query_one('#ord_enable_efstastig_vb_et', Checkbox)
+		chbox_efstastig_vb_ft = self.query_one('#ord_enable_efstastig_vb_ft', Checkbox)
+		# beygingar frumstig sb et
+		b_frumstig_sb_et_kk_nf = self.query_one('#ord_beyging_frumstig_sb_et_kk_nf', Input)
+		b_frumstig_sb_et_kk_thf = self.query_one('#ord_beyging_frumstig_sb_et_kk_thf', Input)
+		b_frumstig_sb_et_kk_thgf = self.query_one('#ord_beyging_frumstig_sb_et_kk_thgf', Input)
+		b_frumstig_sb_et_kk_ef = self.query_one('#ord_beyging_frumstig_sb_et_kk_ef', Input)
+		b_frumstig_sb_et_kvk_nf = self.query_one('#ord_beyging_frumstig_sb_et_kvk_nf', Input)
+		b_frumstig_sb_et_kvk_thf = self.query_one('#ord_beyging_frumstig_sb_et_kvk_thf', Input)
+		b_frumstig_sb_et_kvk_thgf = self.query_one('#ord_beyging_frumstig_sb_et_kvk_thgf', Input)
+		b_frumstig_sb_et_kvk_ef = self.query_one('#ord_beyging_frumstig_sb_et_kvk_ef', Input)
+		b_frumstig_sb_et_hk_nf = self.query_one('#ord_beyging_frumstig_sb_et_hk_nf', Input)
+		b_frumstig_sb_et_hk_thf = self.query_one('#ord_beyging_frumstig_sb_et_hk_thf', Input)
+		b_frumstig_sb_et_hk_thgf = self.query_one('#ord_beyging_frumstig_sb_et_hk_thgf', Input)
+		b_frumstig_sb_et_hk_ef = self.query_one('#ord_beyging_frumstig_sb_et_hk_ef', Input)
+		# beygingar frumstig sb ft
+		b_frumstig_sb_ft_kk_nf = self.query_one('#ord_beyging_frumstig_sb_ft_kk_nf', Input)
+		b_frumstig_sb_ft_kk_thf = self.query_one('#ord_beyging_frumstig_sb_ft_kk_thf', Input)
+		b_frumstig_sb_ft_kk_thgf = self.query_one('#ord_beyging_frumstig_sb_ft_kk_thgf', Input)
+		b_frumstig_sb_ft_kk_ef = self.query_one('#ord_beyging_frumstig_sb_ft_kk_ef', Input)
+		b_frumstig_sb_ft_kvk_nf = self.query_one('#ord_beyging_frumstig_sb_ft_kvk_nf', Input)
+		b_frumstig_sb_ft_kvk_thf = self.query_one('#ord_beyging_frumstig_sb_ft_kvk_thf', Input)
+		b_frumstig_sb_ft_kvk_thgf = self.query_one('#ord_beyging_frumstig_sb_ft_kvk_thgf', Input)
+		b_frumstig_sb_ft_kvk_ef = self.query_one('#ord_beyging_frumstig_sb_ft_kvk_ef', Input)
+		b_frumstig_sb_ft_hk_nf = self.query_one('#ord_beyging_frumstig_sb_ft_hk_nf', Input)
+		b_frumstig_sb_ft_hk_thf = self.query_one('#ord_beyging_frumstig_sb_ft_hk_thf', Input)
+		b_frumstig_sb_ft_hk_thgf = self.query_one('#ord_beyging_frumstig_sb_ft_hk_thgf', Input)
+		b_frumstig_sb_ft_hk_ef = self.query_one('#ord_beyging_frumstig_sb_ft_hk_ef', Input)
+		# beygingar frumstig vb et
+		b_frumstig_vb_et_kk_nf = self.query_one('#ord_beyging_frumstig_vb_et_kk_nf', Input)
+		b_frumstig_vb_et_kk_thf = self.query_one('#ord_beyging_frumstig_vb_et_kk_thf', Input)
+		b_frumstig_vb_et_kk_thgf = self.query_one('#ord_beyging_frumstig_vb_et_kk_thgf', Input)
+		b_frumstig_vb_et_kk_ef = self.query_one('#ord_beyging_frumstig_vb_et_kk_ef', Input)
+		b_frumstig_vb_et_kvk_nf = self.query_one('#ord_beyging_frumstig_vb_et_kvk_nf', Input)
+		b_frumstig_vb_et_kvk_thf = self.query_one('#ord_beyging_frumstig_vb_et_kvk_thf', Input)
+		b_frumstig_vb_et_kvk_thgf = self.query_one('#ord_beyging_frumstig_vb_et_kvk_thgf', Input)
+		b_frumstig_vb_et_kvk_ef = self.query_one('#ord_beyging_frumstig_vb_et_kvk_ef', Input)
+		b_frumstig_vb_et_hk_nf = self.query_one('#ord_beyging_frumstig_vb_et_hk_nf', Input)
+		b_frumstig_vb_et_hk_thf = self.query_one('#ord_beyging_frumstig_vb_et_hk_thf', Input)
+		b_frumstig_vb_et_hk_thgf = self.query_one('#ord_beyging_frumstig_vb_et_hk_thgf', Input)
+		b_frumstig_vb_et_hk_ef = self.query_one('#ord_beyging_frumstig_vb_et_hk_ef', Input)
+		# beygingar frumstig vb ft
+		b_frumstig_vb_ft_kk_nf = self.query_one('#ord_beyging_frumstig_vb_ft_kk_nf', Input)
+		b_frumstig_vb_ft_kk_thf = self.query_one('#ord_beyging_frumstig_vb_ft_kk_thf', Input)
+		b_frumstig_vb_ft_kk_thgf = self.query_one('#ord_beyging_frumstig_vb_ft_kk_thgf', Input)
+		b_frumstig_vb_ft_kk_ef = self.query_one('#ord_beyging_frumstig_vb_ft_kk_ef', Input)
+		b_frumstig_vb_ft_kvk_nf = self.query_one('#ord_beyging_frumstig_vb_ft_kvk_nf', Input)
+		b_frumstig_vb_ft_kvk_thf = self.query_one('#ord_beyging_frumstig_vb_ft_kvk_thf', Input)
+		b_frumstig_vb_ft_kvk_thgf = self.query_one('#ord_beyging_frumstig_vb_ft_kvk_thgf', Input)
+		b_frumstig_vb_ft_kvk_ef = self.query_one('#ord_beyging_frumstig_vb_ft_kvk_ef', Input)
+		b_frumstig_vb_ft_hk_nf = self.query_one('#ord_beyging_frumstig_vb_ft_hk_nf', Input)
+		b_frumstig_vb_ft_hk_thf = self.query_one('#ord_beyging_frumstig_vb_ft_hk_thf', Input)
+		b_frumstig_vb_ft_hk_thgf = self.query_one('#ord_beyging_frumstig_vb_ft_hk_thgf', Input)
+		b_frumstig_vb_ft_hk_ef = self.query_one('#ord_beyging_frumstig_vb_ft_hk_ef', Input)
+		# beygingar miðstig vb et
+		b_midstig_vb_et_kk_nf = self.query_one('#ord_beyging_midstig_vb_et_kk_nf', Input)
+		b_midstig_vb_et_kk_thf = self.query_one('#ord_beyging_midstig_vb_et_kk_thf', Input)
+		b_midstig_vb_et_kk_thgf = self.query_one('#ord_beyging_midstig_vb_et_kk_thgf', Input)
+		b_midstig_vb_et_kk_ef = self.query_one('#ord_beyging_midstig_vb_et_kk_ef', Input)
+		b_midstig_vb_et_kvk_nf = self.query_one('#ord_beyging_midstig_vb_et_kvk_nf', Input)
+		b_midstig_vb_et_kvk_thf = self.query_one('#ord_beyging_midstig_vb_et_kvk_thf', Input)
+		b_midstig_vb_et_kvk_thgf = self.query_one('#ord_beyging_midstig_vb_et_kvk_thgf', Input)
+		b_midstig_vb_et_kvk_ef = self.query_one('#ord_beyging_midstig_vb_et_kvk_ef', Input)
+		b_midstig_vb_et_hk_nf = self.query_one('#ord_beyging_midstig_vb_et_hk_nf', Input)
+		b_midstig_vb_et_hk_thf = self.query_one('#ord_beyging_midstig_vb_et_hk_thf', Input)
+		b_midstig_vb_et_hk_thgf = self.query_one('#ord_beyging_midstig_vb_et_hk_thgf', Input)
+		b_midstig_vb_et_hk_ef = self.query_one('#ord_beyging_midstig_vb_et_hk_ef', Input)
+		# beygingar miðstig vb ft
+		b_midstig_vb_ft_kk_nf = self.query_one('#ord_beyging_midstig_vb_ft_kk_nf', Input)
+		b_midstig_vb_ft_kk_thf = self.query_one('#ord_beyging_midstig_vb_ft_kk_thf', Input)
+		b_midstig_vb_ft_kk_thgf = self.query_one('#ord_beyging_midstig_vb_ft_kk_thgf', Input)
+		b_midstig_vb_ft_kk_ef = self.query_one('#ord_beyging_midstig_vb_ft_kk_ef', Input)
+		b_midstig_vb_ft_kvk_nf = self.query_one('#ord_beyging_midstig_vb_ft_kvk_nf', Input)
+		b_midstig_vb_ft_kvk_thf = self.query_one('#ord_beyging_midstig_vb_ft_kvk_thf', Input)
+		b_midstig_vb_ft_kvk_thgf = self.query_one('#ord_beyging_midstig_vb_ft_kvk_thgf', Input)
+		b_midstig_vb_ft_kvk_ef = self.query_one('#ord_beyging_midstig_vb_ft_kvk_ef', Input)
+		b_midstig_vb_ft_hk_nf = self.query_one('#ord_beyging_midstig_vb_ft_hk_nf', Input)
+		b_midstig_vb_ft_hk_thf = self.query_one('#ord_beyging_midstig_vb_ft_hk_thf', Input)
+		b_midstig_vb_ft_hk_thgf = self.query_one('#ord_beyging_midstig_vb_ft_hk_thgf', Input)
+		b_midstig_vb_ft_hk_ef = self.query_one('#ord_beyging_midstig_vb_ft_hk_ef', Input)
+		# beygingar efstastig sb et
+		b_efstastig_sb_et_kk_nf = self.query_one('#ord_beyging_efstastig_sb_et_kk_nf', Input)
+		b_efstastig_sb_et_kk_thf = self.query_one('#ord_beyging_efstastig_sb_et_kk_thf', Input)
+		b_efstastig_sb_et_kk_thgf = self.query_one('#ord_beyging_efstastig_sb_et_kk_thgf', Input)
+		b_efstastig_sb_et_kk_ef = self.query_one('#ord_beyging_efstastig_sb_et_kk_ef', Input)
+		b_efstastig_sb_et_kvk_nf = self.query_one('#ord_beyging_efstastig_sb_et_kvk_nf', Input)
+		b_efstastig_sb_et_kvk_thf = self.query_one('#ord_beyging_efstastig_sb_et_kvk_thf', Input)
+		b_efstastig_sb_et_kvk_thgf = self.query_one('#ord_beyging_efstastig_sb_et_kvk_thgf', Input)
+		b_efstastig_sb_et_kvk_ef = self.query_one('#ord_beyging_efstastig_sb_et_kvk_ef', Input)
+		b_efstastig_sb_et_hk_nf = self.query_one('#ord_beyging_efstastig_sb_et_hk_nf', Input)
+		b_efstastig_sb_et_hk_thf = self.query_one('#ord_beyging_efstastig_sb_et_hk_thf', Input)
+		b_efstastig_sb_et_hk_thgf = self.query_one('#ord_beyging_efstastig_sb_et_hk_thgf', Input)
+		b_efstastig_sb_et_hk_ef = self.query_one('#ord_beyging_efstastig_sb_et_hk_ef', Input)
+		# beygingar efstastig sb ft
+		b_efstastig_sb_ft_kk_nf = self.query_one('#ord_beyging_efstastig_sb_ft_kk_nf', Input)
+		b_efstastig_sb_ft_kk_thf = self.query_one('#ord_beyging_efstastig_sb_ft_kk_thf', Input)
+		b_efstastig_sb_ft_kk_thgf = self.query_one('#ord_beyging_efstastig_sb_ft_kk_thgf', Input)
+		b_efstastig_sb_ft_kk_ef = self.query_one('#ord_beyging_efstastig_sb_ft_kk_ef', Input)
+		b_efstastig_sb_ft_kvk_nf = self.query_one('#ord_beyging_efstastig_sb_ft_kvk_nf', Input)
+		b_efstastig_sb_ft_kvk_thf = self.query_one('#ord_beyging_efstastig_sb_ft_kvk_thf', Input)
+		b_efstastig_sb_ft_kvk_thgf = self.query_one('#ord_beyging_efstastig_sb_ft_kvk_thgf', Input)
+		b_efstastig_sb_ft_kvk_ef = self.query_one('#ord_beyging_efstastig_sb_ft_kvk_ef', Input)
+		b_efstastig_sb_ft_hk_nf = self.query_one('#ord_beyging_efstastig_sb_ft_hk_nf', Input)
+		b_efstastig_sb_ft_hk_thf = self.query_one('#ord_beyging_efstastig_sb_ft_hk_thf', Input)
+		b_efstastig_sb_ft_hk_thgf = self.query_one('#ord_beyging_efstastig_sb_ft_hk_thgf', Input)
+		b_efstastig_sb_ft_hk_ef = self.query_one('#ord_beyging_efstastig_sb_ft_hk_ef', Input)
+		# beygingar efstastig vb et
+		b_efstastig_vb_et_kk_nf = self.query_one('#ord_beyging_efstastig_vb_et_kk_nf', Input)
+		b_efstastig_vb_et_kk_thf = self.query_one('#ord_beyging_efstastig_vb_et_kk_thf', Input)
+		b_efstastig_vb_et_kk_thgf = self.query_one('#ord_beyging_efstastig_vb_et_kk_thgf', Input)
+		b_efstastig_vb_et_kk_ef = self.query_one('#ord_beyging_efstastig_vb_et_kk_ef', Input)
+		b_efstastig_vb_et_kvk_nf = self.query_one('#ord_beyging_efstastig_vb_et_kvk_nf', Input)
+		b_efstastig_vb_et_kvk_thf = self.query_one('#ord_beyging_efstastig_vb_et_kvk_thf', Input)
+		b_efstastig_vb_et_kvk_thgf = self.query_one('#ord_beyging_efstastig_vb_et_kvk_thgf', Input)
+		b_efstastig_vb_et_kvk_ef = self.query_one('#ord_beyging_efstastig_vb_et_kvk_ef', Input)
+		b_efstastig_vb_et_hk_nf = self.query_one('#ord_beyging_efstastig_vb_et_hk_nf', Input)
+		b_efstastig_vb_et_hk_thf = self.query_one('#ord_beyging_efstastig_vb_et_hk_thf', Input)
+		b_efstastig_vb_et_hk_thgf = self.query_one('#ord_beyging_efstastig_vb_et_hk_thgf', Input)
+		b_efstastig_vb_et_hk_ef = self.query_one('#ord_beyging_efstastig_vb_et_hk_ef', Input)
+		# beygingar efstastig vb ft
+		b_efstastig_vb_ft_kk_nf = self.query_one('#ord_beyging_efstastig_vb_ft_kk_nf', Input)
+		b_efstastig_vb_ft_kk_thf = self.query_one('#ord_beyging_efstastig_vb_ft_kk_thf', Input)
+		b_efstastig_vb_ft_kk_thgf = self.query_one('#ord_beyging_efstastig_vb_ft_kk_thgf', Input)
+		b_efstastig_vb_ft_kk_ef = self.query_one('#ord_beyging_efstastig_vb_ft_kk_ef', Input)
+		b_efstastig_vb_ft_kvk_nf = self.query_one('#ord_beyging_efstastig_vb_ft_kvk_nf', Input)
+		b_efstastig_vb_ft_kvk_thf = self.query_one('#ord_beyging_efstastig_vb_ft_kvk_thf', Input)
+		b_efstastig_vb_ft_kvk_thgf = self.query_one('#ord_beyging_efstastig_vb_ft_kvk_thgf', Input)
+		b_efstastig_vb_ft_kvk_ef = self.query_one('#ord_beyging_efstastig_vb_ft_kvk_ef', Input)
+		b_efstastig_vb_ft_hk_nf = self.query_one('#ord_beyging_efstastig_vb_ft_hk_nf', Input)
+		b_efstastig_vb_ft_hk_thf = self.query_one('#ord_beyging_efstastig_vb_ft_hk_thf', Input)
+		b_efstastig_vb_ft_hk_thgf = self.query_one('#ord_beyging_efstastig_vb_ft_hk_thgf', Input)
+		b_efstastig_vb_ft_hk_ef = self.query_one('#ord_beyging_efstastig_vb_ft_hk_ef', Input)
+		# checkbox declare óbeygjanlegt
+		chbox_declare_obeygjanlegt = self.query_one('#ord_declare_obeygjanlegt', Checkbox)
+		# button commit
+		btn_ord_commit = self.query_one('#btn_ord_commit', Button)
+		# json textarea
+		el_ord_data_json = self.query_one('#ord_data_json', TextArea)
+		# read data from ui, then update ord data and ui
+		# frumstig
+		if chbox_frumstig.value is True:
+			if 'frumstig' not in self.ORD_STATE:
+				self.ORD_STATE['frumstig'] = {}
+			# frumstig sb
+			if (
+				chbox_frumstig_sb.value is True and
+				'frumstig' in self.ORD_STATE and
+				'sb' not in self.ORD_STATE['frumstig']
+			):
+				self.ORD_STATE['frumstig']['sb'] = {}
+			# frumstig sb et
+			if chbox_frumstig_sb.value is True and chbox_frumstig_sb_et.value is True:
+				b_frumstig_sb_et_kk_nf.remove_class('ghost')
+				b_frumstig_sb_et_kk_thf.remove_class('ghost')
+				b_frumstig_sb_et_kk_thgf.remove_class('ghost')
+				b_frumstig_sb_et_kk_ef.remove_class('ghost')
+				b_frumstig_sb_et_kvk_nf.remove_class('ghost')
+				b_frumstig_sb_et_kvk_thf.remove_class('ghost')
+				b_frumstig_sb_et_kvk_thgf.remove_class('ghost')
+				b_frumstig_sb_et_kvk_ef.remove_class('ghost')
+				b_frumstig_sb_et_hk_nf.remove_class('ghost')
+				b_frumstig_sb_et_hk_thf.remove_class('ghost')
+				b_frumstig_sb_et_hk_thgf.remove_class('ghost')
+				b_frumstig_sb_et_hk_ef.remove_class('ghost')
+				self.ORD_STATE['frumstig']['sb']['et'] = {
+					'kk': [
+						b_frumstig_sb_et_kk_nf.value or input_empty,
+						b_frumstig_sb_et_kk_thf.value or input_empty,
+						b_frumstig_sb_et_kk_thgf.value or input_empty,
+						b_frumstig_sb_et_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_frumstig_sb_et_kvk_nf.value or input_empty,
+						b_frumstig_sb_et_kvk_thf.value or input_empty,
+						b_frumstig_sb_et_kvk_thgf.value or input_empty,
+						b_frumstig_sb_et_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_frumstig_sb_et_hk_nf.value or input_empty,
+						b_frumstig_sb_et_hk_thf.value or input_empty,
+						b_frumstig_sb_et_hk_thgf.value or input_empty,
+						b_frumstig_sb_et_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_frumstig_sb_et_kk_nf.add_class('ghost')
+				b_frumstig_sb_et_kk_thf.add_class('ghost')
+				b_frumstig_sb_et_kk_thgf.add_class('ghost')
+				b_frumstig_sb_et_kk_ef.add_class('ghost')
+				b_frumstig_sb_et_kvk_nf.add_class('ghost')
+				b_frumstig_sb_et_kvk_thf.add_class('ghost')
+				b_frumstig_sb_et_kvk_thgf.add_class('ghost')
+				b_frumstig_sb_et_kvk_ef.add_class('ghost')
+				b_frumstig_sb_et_hk_nf.add_class('ghost')
+				b_frumstig_sb_et_hk_thf.add_class('ghost')
+				b_frumstig_sb_et_hk_thgf.add_class('ghost')
+				b_frumstig_sb_et_hk_ef.add_class('ghost')
+				if 'sb' in self.ORD_STATE['frumstig']:
+					if 'et' in self.ORD_STATE['frumstig']['sb']:
+						del self.ORD_STATE['frumstig']['sb']['et']
+			# frumstig sb ft
+			if chbox_frumstig_sb.value is True and chbox_frumstig_sb_ft.value is True:
+				b_frumstig_sb_ft_kk_nf.remove_class('ghost')
+				b_frumstig_sb_ft_kk_thf.remove_class('ghost')
+				b_frumstig_sb_ft_kk_thgf.remove_class('ghost')
+				b_frumstig_sb_ft_kk_ef.remove_class('ghost')
+				b_frumstig_sb_ft_kvk_nf.remove_class('ghost')
+				b_frumstig_sb_ft_kvk_thf.remove_class('ghost')
+				b_frumstig_sb_ft_kvk_thgf.remove_class('ghost')
+				b_frumstig_sb_ft_kvk_ef.remove_class('ghost')
+				b_frumstig_sb_ft_hk_nf.remove_class('ghost')
+				b_frumstig_sb_ft_hk_thf.remove_class('ghost')
+				b_frumstig_sb_ft_hk_thgf.remove_class('ghost')
+				b_frumstig_sb_ft_hk_ef.remove_class('ghost')
+				self.ORD_STATE['frumstig']['sb']['ft'] = {
+					'kk': [
+						b_frumstig_sb_ft_kk_nf.value or input_empty,
+						b_frumstig_sb_ft_kk_thf.value or input_empty,
+						b_frumstig_sb_ft_kk_thgf.value or input_empty,
+						b_frumstig_sb_ft_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_frumstig_sb_ft_kvk_nf.value or input_empty,
+						b_frumstig_sb_ft_kvk_thf.value or input_empty,
+						b_frumstig_sb_ft_kvk_thgf.value or input_empty,
+						b_frumstig_sb_ft_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_frumstig_sb_ft_hk_nf.value or input_empty,
+						b_frumstig_sb_ft_hk_thf.value or input_empty,
+						b_frumstig_sb_ft_hk_thgf.value or input_empty,
+						b_frumstig_sb_ft_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_frumstig_sb_ft_kk_nf.add_class('ghost')
+				b_frumstig_sb_ft_kk_thf.add_class('ghost')
+				b_frumstig_sb_ft_kk_thgf.add_class('ghost')
+				b_frumstig_sb_ft_kk_ef.add_class('ghost')
+				b_frumstig_sb_ft_kvk_nf.add_class('ghost')
+				b_frumstig_sb_ft_kvk_thf.add_class('ghost')
+				b_frumstig_sb_ft_kvk_thgf.add_class('ghost')
+				b_frumstig_sb_ft_kvk_ef.add_class('ghost')
+				b_frumstig_sb_ft_hk_nf.add_class('ghost')
+				b_frumstig_sb_ft_hk_thf.add_class('ghost')
+				b_frumstig_sb_ft_hk_thgf.add_class('ghost')
+				b_frumstig_sb_ft_hk_ef.add_class('ghost')
+				if 'sb' in self.ORD_STATE['frumstig']:
+					if 'ft' in self.ORD_STATE['frumstig']['sb']:
+						del self.ORD_STATE['frumstig']['sb']['ft']
+			if 'sb' in self.ORD_STATE['frumstig']:
+				if (
+					'et' not in self.ORD_STATE['frumstig']['sb'] and
+					'ft' not in self.ORD_STATE['frumstig']['sb']
+				):
+					del self.ORD_STATE['frumstig']['sb']
+			# frumstig vb
+			if (
+				chbox_frumstig_vb.value is True and
+				'frumstig' in self.ORD_STATE and
+				'vb' not in self.ORD_STATE['frumstig']
+			):
+				self.ORD_STATE['frumstig']['vb'] = {}
+			# frumstig vb et
+			if chbox_frumstig_vb.value is True and chbox_frumstig_vb_et.value is True:
+				b_frumstig_vb_et_kk_nf.remove_class('ghost')
+				b_frumstig_vb_et_kk_thf.remove_class('ghost')
+				b_frumstig_vb_et_kk_thgf.remove_class('ghost')
+				b_frumstig_vb_et_kk_ef.remove_class('ghost')
+				b_frumstig_vb_et_kvk_nf.remove_class('ghost')
+				b_frumstig_vb_et_kvk_thf.remove_class('ghost')
+				b_frumstig_vb_et_kvk_thgf.remove_class('ghost')
+				b_frumstig_vb_et_kvk_ef.remove_class('ghost')
+				b_frumstig_vb_et_hk_nf.remove_class('ghost')
+				b_frumstig_vb_et_hk_thf.remove_class('ghost')
+				b_frumstig_vb_et_hk_thgf.remove_class('ghost')
+				b_frumstig_vb_et_hk_ef.remove_class('ghost')
+				self.ORD_STATE['frumstig']['vb']['et'] = {
+					'kk': [
+						b_frumstig_vb_et_kk_nf.value or input_empty,
+						b_frumstig_vb_et_kk_thf.value or input_empty,
+						b_frumstig_vb_et_kk_thgf.value or input_empty,
+						b_frumstig_vb_et_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_frumstig_vb_et_kvk_nf.value or input_empty,
+						b_frumstig_vb_et_kvk_thf.value or input_empty,
+						b_frumstig_vb_et_kvk_thgf.value or input_empty,
+						b_frumstig_vb_et_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_frumstig_vb_et_hk_nf.value or input_empty,
+						b_frumstig_vb_et_hk_thf.value or input_empty,
+						b_frumstig_vb_et_hk_thgf.value or input_empty,
+						b_frumstig_vb_et_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_frumstig_vb_et_kk_nf.add_class('ghost')
+				b_frumstig_vb_et_kk_thf.add_class('ghost')
+				b_frumstig_vb_et_kk_thgf.add_class('ghost')
+				b_frumstig_vb_et_kk_ef.add_class('ghost')
+				b_frumstig_vb_et_kvk_nf.add_class('ghost')
+				b_frumstig_vb_et_kvk_thf.add_class('ghost')
+				b_frumstig_vb_et_kvk_thgf.add_class('ghost')
+				b_frumstig_vb_et_kvk_ef.add_class('ghost')
+				b_frumstig_vb_et_hk_nf.add_class('ghost')
+				b_frumstig_vb_et_hk_thf.add_class('ghost')
+				b_frumstig_vb_et_hk_thgf.add_class('ghost')
+				b_frumstig_vb_et_hk_ef.add_class('ghost')
+				if 'vb' in self.ORD_STATE['frumstig']:
+					if 'et' in self.ORD_STATE['frumstig']['vb']:
+						del self.ORD_STATE['frumstig']['vb']['et']
+			# frumstig vb ft
+			if chbox_frumstig_vb.value is True and chbox_frumstig_vb_ft.value is True:
+				b_frumstig_vb_ft_kk_nf.remove_class('ghost')
+				b_frumstig_vb_ft_kk_thf.remove_class('ghost')
+				b_frumstig_vb_ft_kk_thgf.remove_class('ghost')
+				b_frumstig_vb_ft_kk_ef.remove_class('ghost')
+				b_frumstig_vb_ft_kvk_nf.remove_class('ghost')
+				b_frumstig_vb_ft_kvk_thf.remove_class('ghost')
+				b_frumstig_vb_ft_kvk_thgf.remove_class('ghost')
+				b_frumstig_vb_ft_kvk_ef.remove_class('ghost')
+				b_frumstig_vb_ft_hk_nf.remove_class('ghost')
+				b_frumstig_vb_ft_hk_thf.remove_class('ghost')
+				b_frumstig_vb_ft_hk_thgf.remove_class('ghost')
+				b_frumstig_vb_ft_hk_ef.remove_class('ghost')
+				self.ORD_STATE['frumstig']['vb']['ft'] = {
+					'kk': [
+						b_frumstig_vb_ft_kk_nf.value or input_empty,
+						b_frumstig_vb_ft_kk_thf.value or input_empty,
+						b_frumstig_vb_ft_kk_thgf.value or input_empty,
+						b_frumstig_vb_ft_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_frumstig_vb_ft_kvk_nf.value or input_empty,
+						b_frumstig_vb_ft_kvk_thf.value or input_empty,
+						b_frumstig_vb_ft_kvk_thgf.value or input_empty,
+						b_frumstig_vb_ft_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_frumstig_vb_ft_hk_nf.value or input_empty,
+						b_frumstig_vb_ft_hk_thf.value or input_empty,
+						b_frumstig_vb_ft_hk_thgf.value or input_empty,
+						b_frumstig_vb_ft_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_frumstig_vb_ft_kk_nf.add_class('ghost')
+				b_frumstig_vb_ft_kk_thf.add_class('ghost')
+				b_frumstig_vb_ft_kk_thgf.add_class('ghost')
+				b_frumstig_vb_ft_kk_ef.add_class('ghost')
+				b_frumstig_vb_ft_kvk_nf.add_class('ghost')
+				b_frumstig_vb_ft_kvk_thf.add_class('ghost')
+				b_frumstig_vb_ft_kvk_thgf.add_class('ghost')
+				b_frumstig_vb_ft_kvk_ef.add_class('ghost')
+				b_frumstig_vb_ft_hk_nf.add_class('ghost')
+				b_frumstig_vb_ft_hk_thf.add_class('ghost')
+				b_frumstig_vb_ft_hk_thgf.add_class('ghost')
+				b_frumstig_vb_ft_hk_ef.add_class('ghost')
+				if 'vb' in self.ORD_STATE['frumstig']:
+					if 'ft' in self.ORD_STATE['frumstig']['vb']:
+						del self.ORD_STATE['frumstig']['vb']['ft']
+			if 'vb' in self.ORD_STATE['frumstig']:
+				if (
+					'et' not in self.ORD_STATE['frumstig']['vb'] and
+					'ft' not in self.ORD_STATE['frumstig']['vb']
+				):
+					del self.ORD_STATE['frumstig']['vb']
+			if 'sb' not in self.ORD_STATE['frumstig'] and 'vb' not in self.ORD_STATE['frumstig']:
+				del self.ORD_STATE['frumstig']
+		else:
+			# frumstig sb et
+			b_frumstig_sb_et_kk_nf.add_class('ghost')
+			b_frumstig_sb_et_kk_thf.add_class('ghost')
+			b_frumstig_sb_et_kk_thgf.add_class('ghost')
+			b_frumstig_sb_et_kk_ef.add_class('ghost')
+			b_frumstig_sb_et_kvk_nf.add_class('ghost')
+			b_frumstig_sb_et_kvk_thf.add_class('ghost')
+			b_frumstig_sb_et_kvk_thgf.add_class('ghost')
+			b_frumstig_sb_et_kvk_ef.add_class('ghost')
+			b_frumstig_sb_et_hk_nf.add_class('ghost')
+			b_frumstig_sb_et_hk_thf.add_class('ghost')
+			b_frumstig_sb_et_hk_thgf.add_class('ghost')
+			b_frumstig_sb_et_hk_ef.add_class('ghost')
+			# frumstig sb ft
+			b_frumstig_sb_ft_kk_nf.add_class('ghost')
+			b_frumstig_sb_ft_kk_thf.add_class('ghost')
+			b_frumstig_sb_ft_kk_thgf.add_class('ghost')
+			b_frumstig_sb_ft_kk_ef.add_class('ghost')
+			b_frumstig_sb_ft_kvk_nf.add_class('ghost')
+			b_frumstig_sb_ft_kvk_thf.add_class('ghost')
+			b_frumstig_sb_ft_kvk_thgf.add_class('ghost')
+			b_frumstig_sb_ft_kvk_ef.add_class('ghost')
+			b_frumstig_sb_ft_hk_nf.add_class('ghost')
+			b_frumstig_sb_ft_hk_thf.add_class('ghost')
+			b_frumstig_sb_ft_hk_thgf.add_class('ghost')
+			b_frumstig_sb_ft_hk_ef.add_class('ghost')
+			# frumstig vb et
+			b_frumstig_vb_et_kk_nf.add_class('ghost')
+			b_frumstig_vb_et_kk_thf.add_class('ghost')
+			b_frumstig_vb_et_kk_thgf.add_class('ghost')
+			b_frumstig_vb_et_kk_ef.add_class('ghost')
+			b_frumstig_vb_et_kvk_nf.add_class('ghost')
+			b_frumstig_vb_et_kvk_thf.add_class('ghost')
+			b_frumstig_vb_et_kvk_thgf.add_class('ghost')
+			b_frumstig_vb_et_kvk_ef.add_class('ghost')
+			b_frumstig_vb_et_hk_nf.add_class('ghost')
+			b_frumstig_vb_et_hk_thf.add_class('ghost')
+			b_frumstig_vb_et_hk_thgf.add_class('ghost')
+			b_frumstig_vb_et_hk_ef.add_class('ghost')
+			# frumstig sb ft
+			b_frumstig_vb_ft_kk_nf.add_class('ghost')
+			b_frumstig_vb_ft_kk_thf.add_class('ghost')
+			b_frumstig_vb_ft_kk_thgf.add_class('ghost')
+			b_frumstig_vb_ft_kk_ef.add_class('ghost')
+			b_frumstig_vb_ft_kvk_nf.add_class('ghost')
+			b_frumstig_vb_ft_kvk_thf.add_class('ghost')
+			b_frumstig_vb_ft_kvk_thgf.add_class('ghost')
+			b_frumstig_vb_ft_kvk_ef.add_class('ghost')
+			b_frumstig_vb_ft_hk_nf.add_class('ghost')
+			b_frumstig_vb_ft_hk_thf.add_class('ghost')
+			b_frumstig_vb_ft_hk_thgf.add_class('ghost')
+			b_frumstig_vb_ft_hk_ef.add_class('ghost')
+			if 'frumstig' in self.ORD_STATE:
+				del self.ORD_STATE['frumstig']
+		# miðstig
+		if chbox_midstig.value is True:
+			if 'miðstig' not in self.ORD_STATE:
+				self.ORD_STATE['miðstig'] = {}
+			# miðstig vb
+			if (
+				chbox_midstig_vb.value is True and
+				'miðstig' in self.ORD_STATE and
+				'vb' not in self.ORD_STATE['miðstig']
+			):
+				self.ORD_STATE['miðstig']['vb'] = {}
+			# miðstig vb et
+			if chbox_midstig_vb.value is True and chbox_midstig_vb_et.value is True:
+				b_midstig_vb_et_kk_nf.remove_class('ghost')
+				b_midstig_vb_et_kk_thf.remove_class('ghost')
+				b_midstig_vb_et_kk_thgf.remove_class('ghost')
+				b_midstig_vb_et_kk_ef.remove_class('ghost')
+				b_midstig_vb_et_kvk_nf.remove_class('ghost')
+				b_midstig_vb_et_kvk_thf.remove_class('ghost')
+				b_midstig_vb_et_kvk_thgf.remove_class('ghost')
+				b_midstig_vb_et_kvk_ef.remove_class('ghost')
+				b_midstig_vb_et_hk_nf.remove_class('ghost')
+				b_midstig_vb_et_hk_thf.remove_class('ghost')
+				b_midstig_vb_et_hk_thgf.remove_class('ghost')
+				b_midstig_vb_et_hk_ef.remove_class('ghost')
+				self.ORD_STATE['miðstig']['vb']['et'] = {
+					'kk': [
+						b_midstig_vb_et_kk_nf.value or input_empty,
+						b_midstig_vb_et_kk_thf.value or input_empty,
+						b_midstig_vb_et_kk_thgf.value or input_empty,
+						b_midstig_vb_et_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_midstig_vb_et_kvk_nf.value or input_empty,
+						b_midstig_vb_et_kvk_thf.value or input_empty,
+						b_midstig_vb_et_kvk_thgf.value or input_empty,
+						b_midstig_vb_et_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_midstig_vb_et_hk_nf.value or input_empty,
+						b_midstig_vb_et_hk_thf.value or input_empty,
+						b_midstig_vb_et_hk_thgf.value or input_empty,
+						b_midstig_vb_et_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_midstig_vb_et_kk_nf.add_class('ghost')
+				b_midstig_vb_et_kk_thf.add_class('ghost')
+				b_midstig_vb_et_kk_thgf.add_class('ghost')
+				b_midstig_vb_et_kk_ef.add_class('ghost')
+				b_midstig_vb_et_kvk_nf.add_class('ghost')
+				b_midstig_vb_et_kvk_thf.add_class('ghost')
+				b_midstig_vb_et_kvk_thgf.add_class('ghost')
+				b_midstig_vb_et_kvk_ef.add_class('ghost')
+				b_midstig_vb_et_hk_nf.add_class('ghost')
+				b_midstig_vb_et_hk_thf.add_class('ghost')
+				b_midstig_vb_et_hk_thgf.add_class('ghost')
+				b_midstig_vb_et_hk_ef.add_class('ghost')
+				if 'vb' in self.ORD_STATE['miðstig']:
+					if 'et' in self.ORD_STATE['miðstig']['vb']:
+						del self.ORD_STATE['miðstig']['vb']['et']
+			# miðstig vb ft
+			if chbox_midstig_vb.value is True and chbox_midstig_vb_ft.value is True:
+				b_midstig_vb_ft_kk_nf.remove_class('ghost')
+				b_midstig_vb_ft_kk_thf.remove_class('ghost')
+				b_midstig_vb_ft_kk_thgf.remove_class('ghost')
+				b_midstig_vb_ft_kk_ef.remove_class('ghost')
+				b_midstig_vb_ft_kvk_nf.remove_class('ghost')
+				b_midstig_vb_ft_kvk_thf.remove_class('ghost')
+				b_midstig_vb_ft_kvk_thgf.remove_class('ghost')
+				b_midstig_vb_ft_kvk_ef.remove_class('ghost')
+				b_midstig_vb_ft_hk_nf.remove_class('ghost')
+				b_midstig_vb_ft_hk_thf.remove_class('ghost')
+				b_midstig_vb_ft_hk_thgf.remove_class('ghost')
+				b_midstig_vb_ft_hk_ef.remove_class('ghost')
+				self.ORD_STATE['miðstig']['vb']['ft'] = {
+					'kk': [
+						b_midstig_vb_ft_kk_nf.value or input_empty,
+						b_midstig_vb_ft_kk_thf.value or input_empty,
+						b_midstig_vb_ft_kk_thgf.value or input_empty,
+						b_midstig_vb_ft_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_midstig_vb_ft_kvk_nf.value or input_empty,
+						b_midstig_vb_ft_kvk_thf.value or input_empty,
+						b_midstig_vb_ft_kvk_thgf.value or input_empty,
+						b_midstig_vb_ft_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_midstig_vb_ft_hk_nf.value or input_empty,
+						b_midstig_vb_ft_hk_thf.value or input_empty,
+						b_midstig_vb_ft_hk_thgf.value or input_empty,
+						b_midstig_vb_ft_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_midstig_vb_ft_kk_nf.add_class('ghost')
+				b_midstig_vb_ft_kk_thf.add_class('ghost')
+				b_midstig_vb_ft_kk_thgf.add_class('ghost')
+				b_midstig_vb_ft_kk_ef.add_class('ghost')
+				b_midstig_vb_ft_kvk_nf.add_class('ghost')
+				b_midstig_vb_ft_kvk_thf.add_class('ghost')
+				b_midstig_vb_ft_kvk_thgf.add_class('ghost')
+				b_midstig_vb_ft_kvk_ef.add_class('ghost')
+				b_midstig_vb_ft_hk_nf.add_class('ghost')
+				b_midstig_vb_ft_hk_thf.add_class('ghost')
+				b_midstig_vb_ft_hk_thgf.add_class('ghost')
+				b_midstig_vb_ft_hk_ef.add_class('ghost')
+				if 'vb' in self.ORD_STATE['miðstig']:
+					if 'ft' in self.ORD_STATE['miðstig']['vb']:
+						del self.ORD_STATE['miðstig']['vb']['ft']
+			if 'vb' in self.ORD_STATE['miðstig']:
+				if (
+					'et' not in self.ORD_STATE['miðstig']['vb'] and
+					'ft' not in self.ORD_STATE['miðstig']['vb']
+				):
+					del self.ORD_STATE['miðstig']
+		else:
+			# miðstig vb et
+			b_midstig_vb_et_kk_nf.add_class('ghost')
+			b_midstig_vb_et_kk_thf.add_class('ghost')
+			b_midstig_vb_et_kk_thgf.add_class('ghost')
+			b_midstig_vb_et_kk_ef.add_class('ghost')
+			b_midstig_vb_et_kvk_nf.add_class('ghost')
+			b_midstig_vb_et_kvk_thf.add_class('ghost')
+			b_midstig_vb_et_kvk_thgf.add_class('ghost')
+			b_midstig_vb_et_kvk_ef.add_class('ghost')
+			b_midstig_vb_et_hk_nf.add_class('ghost')
+			b_midstig_vb_et_hk_thf.add_class('ghost')
+			b_midstig_vb_et_hk_thgf.add_class('ghost')
+			b_midstig_vb_et_hk_ef.add_class('ghost')
+			# midstig sb ft
+			b_midstig_vb_ft_kk_nf.add_class('ghost')
+			b_midstig_vb_ft_kk_thf.add_class('ghost')
+			b_midstig_vb_ft_kk_thgf.add_class('ghost')
+			b_midstig_vb_ft_kk_ef.add_class('ghost')
+			b_midstig_vb_ft_kvk_nf.add_class('ghost')
+			b_midstig_vb_ft_kvk_thf.add_class('ghost')
+			b_midstig_vb_ft_kvk_thgf.add_class('ghost')
+			b_midstig_vb_ft_kvk_ef.add_class('ghost')
+			b_midstig_vb_ft_hk_nf.add_class('ghost')
+			b_midstig_vb_ft_hk_thf.add_class('ghost')
+			b_midstig_vb_ft_hk_thgf.add_class('ghost')
+			b_midstig_vb_ft_hk_ef.add_class('ghost')
+			if 'miðstig' in self.ORD_STATE:
+				del self.ORD_STATE['miðstig']
+		# efstastig
+		if chbox_efstastig.value is True:
+			if 'efstastig' not in self.ORD_STATE:
+				self.ORD_STATE['efstastig'] = {}
+			# efstastig sb
+			if (
+				chbox_efstastig_sb.value is True and
+				'efstastig' in self.ORD_STATE and
+				'sb' not in self.ORD_STATE['efstastig']
+			):
+				self.ORD_STATE['efstastig']['sb'] = {}
+			# efstastig sb et
+			if chbox_efstastig_sb.value is True and chbox_efstastig_sb_et.value is True:
+				b_efstastig_sb_et_kk_nf.remove_class('ghost')
+				b_efstastig_sb_et_kk_thf.remove_class('ghost')
+				b_efstastig_sb_et_kk_thgf.remove_class('ghost')
+				b_efstastig_sb_et_kk_ef.remove_class('ghost')
+				b_efstastig_sb_et_kvk_nf.remove_class('ghost')
+				b_efstastig_sb_et_kvk_thf.remove_class('ghost')
+				b_efstastig_sb_et_kvk_thgf.remove_class('ghost')
+				b_efstastig_sb_et_kvk_ef.remove_class('ghost')
+				b_efstastig_sb_et_hk_nf.remove_class('ghost')
+				b_efstastig_sb_et_hk_thf.remove_class('ghost')
+				b_efstastig_sb_et_hk_thgf.remove_class('ghost')
+				b_efstastig_sb_et_hk_ef.remove_class('ghost')
+				self.ORD_STATE['efstastig']['sb']['et'] = {
+					'kk': [
+						b_efstastig_sb_et_kk_nf.value or input_empty,
+						b_efstastig_sb_et_kk_thf.value or input_empty,
+						b_efstastig_sb_et_kk_thgf.value or input_empty,
+						b_efstastig_sb_et_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_efstastig_sb_et_kvk_nf.value or input_empty,
+						b_efstastig_sb_et_kvk_thf.value or input_empty,
+						b_efstastig_sb_et_kvk_thgf.value or input_empty,
+						b_efstastig_sb_et_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_efstastig_sb_et_hk_nf.value or input_empty,
+						b_efstastig_sb_et_hk_thf.value or input_empty,
+						b_efstastig_sb_et_hk_thgf.value or input_empty,
+						b_efstastig_sb_et_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_efstastig_sb_et_kk_nf.add_class('ghost')
+				b_efstastig_sb_et_kk_thf.add_class('ghost')
+				b_efstastig_sb_et_kk_thgf.add_class('ghost')
+				b_efstastig_sb_et_kk_ef.add_class('ghost')
+				b_efstastig_sb_et_kvk_nf.add_class('ghost')
+				b_efstastig_sb_et_kvk_thf.add_class('ghost')
+				b_efstastig_sb_et_kvk_thgf.add_class('ghost')
+				b_efstastig_sb_et_kvk_ef.add_class('ghost')
+				b_efstastig_sb_et_hk_nf.add_class('ghost')
+				b_efstastig_sb_et_hk_thf.add_class('ghost')
+				b_efstastig_sb_et_hk_thgf.add_class('ghost')
+				b_efstastig_sb_et_hk_ef.add_class('ghost')
+				if 'sb' in self.ORD_STATE['efstastig']:
+					if 'et' in self.ORD_STATE['efstastig']['sb']:
+						del self.ORD_STATE['efstastig']['sb']['et']
+			# efstastig sb ft
+			if chbox_efstastig_sb.value is True and chbox_efstastig_sb_ft.value is True:
+				b_efstastig_sb_ft_kk_nf.remove_class('ghost')
+				b_efstastig_sb_ft_kk_thf.remove_class('ghost')
+				b_efstastig_sb_ft_kk_thgf.remove_class('ghost')
+				b_efstastig_sb_ft_kk_ef.remove_class('ghost')
+				b_efstastig_sb_ft_kvk_nf.remove_class('ghost')
+				b_efstastig_sb_ft_kvk_thf.remove_class('ghost')
+				b_efstastig_sb_ft_kvk_thgf.remove_class('ghost')
+				b_efstastig_sb_ft_kvk_ef.remove_class('ghost')
+				b_efstastig_sb_ft_hk_nf.remove_class('ghost')
+				b_efstastig_sb_ft_hk_thf.remove_class('ghost')
+				b_efstastig_sb_ft_hk_thgf.remove_class('ghost')
+				b_efstastig_sb_ft_hk_ef.remove_class('ghost')
+				self.ORD_STATE['efstastig']['sb']['ft'] = {
+					'kk': [
+						b_efstastig_sb_ft_kk_nf.value or input_empty,
+						b_efstastig_sb_ft_kk_thf.value or input_empty,
+						b_efstastig_sb_ft_kk_thgf.value or input_empty,
+						b_efstastig_sb_ft_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_efstastig_sb_ft_kvk_nf.value or input_empty,
+						b_efstastig_sb_ft_kvk_thf.value or input_empty,
+						b_efstastig_sb_ft_kvk_thgf.value or input_empty,
+						b_efstastig_sb_ft_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_efstastig_sb_ft_hk_nf.value or input_empty,
+						b_efstastig_sb_ft_hk_thf.value or input_empty,
+						b_efstastig_sb_ft_hk_thgf.value or input_empty,
+						b_efstastig_sb_ft_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_efstastig_sb_ft_kk_nf.add_class('ghost')
+				b_efstastig_sb_ft_kk_thf.add_class('ghost')
+				b_efstastig_sb_ft_kk_thgf.add_class('ghost')
+				b_efstastig_sb_ft_kk_ef.add_class('ghost')
+				b_efstastig_sb_ft_kvk_nf.add_class('ghost')
+				b_efstastig_sb_ft_kvk_thf.add_class('ghost')
+				b_efstastig_sb_ft_kvk_thgf.add_class('ghost')
+				b_efstastig_sb_ft_kvk_ef.add_class('ghost')
+				b_efstastig_sb_ft_hk_nf.add_class('ghost')
+				b_efstastig_sb_ft_hk_thf.add_class('ghost')
+				b_efstastig_sb_ft_hk_thgf.add_class('ghost')
+				b_efstastig_sb_ft_hk_ef.add_class('ghost')
+				if 'sb' in self.ORD_STATE['efstastig']:
+					if 'ft' in self.ORD_STATE['efstastig']['sb']:
+						del self.ORD_STATE['efstastig']['sb']['ft']
+			if 'sb' in self.ORD_STATE['efstastig']:
+				if (
+					'et' not in self.ORD_STATE['efstastig']['sb'] and
+					'ft' not in self.ORD_STATE['efstastig']['sb']
+				):
+					del self.ORD_STATE['efstastig']['sb']
+			# efstastig vb
+			if (
+				chbox_efstastig_vb.value is True and
+				'efstastig' in self.ORD_STATE and
+				'vb' not in self.ORD_STATE['efstastig']
+			):
+				self.ORD_STATE['efstastig']['vb'] = {}
+			# efstastig vb et
+			if chbox_efstastig_vb.value is True and chbox_efstastig_vb_et.value is True:
+				b_efstastig_vb_et_kk_nf.remove_class('ghost')
+				b_efstastig_vb_et_kk_thf.remove_class('ghost')
+				b_efstastig_vb_et_kk_thgf.remove_class('ghost')
+				b_efstastig_vb_et_kk_ef.remove_class('ghost')
+				b_efstastig_vb_et_kvk_nf.remove_class('ghost')
+				b_efstastig_vb_et_kvk_thf.remove_class('ghost')
+				b_efstastig_vb_et_kvk_thgf.remove_class('ghost')
+				b_efstastig_vb_et_kvk_ef.remove_class('ghost')
+				b_efstastig_vb_et_hk_nf.remove_class('ghost')
+				b_efstastig_vb_et_hk_thf.remove_class('ghost')
+				b_efstastig_vb_et_hk_thgf.remove_class('ghost')
+				b_efstastig_vb_et_hk_ef.remove_class('ghost')
+				self.ORD_STATE['efstastig']['vb']['et'] = {
+					'kk': [
+						b_efstastig_vb_et_kk_nf.value or input_empty,
+						b_efstastig_vb_et_kk_thf.value or input_empty,
+						b_efstastig_vb_et_kk_thgf.value or input_empty,
+						b_efstastig_vb_et_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_efstastig_vb_et_kvk_nf.value or input_empty,
+						b_efstastig_vb_et_kvk_thf.value or input_empty,
+						b_efstastig_vb_et_kvk_thgf.value or input_empty,
+						b_efstastig_vb_et_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_efstastig_vb_et_hk_nf.value or input_empty,
+						b_efstastig_vb_et_hk_thf.value or input_empty,
+						b_efstastig_vb_et_hk_thgf.value or input_empty,
+						b_efstastig_vb_et_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_efstastig_vb_et_kk_nf.add_class('ghost')
+				b_efstastig_vb_et_kk_thf.add_class('ghost')
+				b_efstastig_vb_et_kk_thgf.add_class('ghost')
+				b_efstastig_vb_et_kk_ef.add_class('ghost')
+				b_efstastig_vb_et_kvk_nf.add_class('ghost')
+				b_efstastig_vb_et_kvk_thf.add_class('ghost')
+				b_efstastig_vb_et_kvk_thgf.add_class('ghost')
+				b_efstastig_vb_et_kvk_ef.add_class('ghost')
+				b_efstastig_vb_et_hk_nf.add_class('ghost')
+				b_efstastig_vb_et_hk_thf.add_class('ghost')
+				b_efstastig_vb_et_hk_thgf.add_class('ghost')
+				b_efstastig_vb_et_hk_ef.add_class('ghost')
+				if 'vb' in self.ORD_STATE['efstastig']:
+					if 'et' in self.ORD_STATE['efstastig']['vb']:
+						del self.ORD_STATE['efstastig']['vb']['et']
+			# efstastig vb ft
+			if chbox_efstastig_vb.value is True and chbox_efstastig_vb_ft.value is True:
+				b_efstastig_vb_ft_kk_nf.remove_class('ghost')
+				b_efstastig_vb_ft_kk_thf.remove_class('ghost')
+				b_efstastig_vb_ft_kk_thgf.remove_class('ghost')
+				b_efstastig_vb_ft_kk_ef.remove_class('ghost')
+				b_efstastig_vb_ft_kvk_nf.remove_class('ghost')
+				b_efstastig_vb_ft_kvk_thf.remove_class('ghost')
+				b_efstastig_vb_ft_kvk_thgf.remove_class('ghost')
+				b_efstastig_vb_ft_kvk_ef.remove_class('ghost')
+				b_efstastig_vb_ft_hk_nf.remove_class('ghost')
+				b_efstastig_vb_ft_hk_thf.remove_class('ghost')
+				b_efstastig_vb_ft_hk_thgf.remove_class('ghost')
+				b_efstastig_vb_ft_hk_ef.remove_class('ghost')
+				self.ORD_STATE['efstastig']['vb']['ft'] = {
+					'kk': [
+						b_efstastig_vb_ft_kk_nf.value or input_empty,
+						b_efstastig_vb_ft_kk_thf.value or input_empty,
+						b_efstastig_vb_ft_kk_thgf.value or input_empty,
+						b_efstastig_vb_ft_kk_ef.value or input_empty
+					],
+					'kvk': [
+						b_efstastig_vb_ft_kvk_nf.value or input_empty,
+						b_efstastig_vb_ft_kvk_thf.value or input_empty,
+						b_efstastig_vb_ft_kvk_thgf.value or input_empty,
+						b_efstastig_vb_ft_kvk_ef.value or input_empty
+					],
+					'hk': [
+						b_efstastig_vb_ft_hk_nf.value or input_empty,
+						b_efstastig_vb_ft_hk_thf.value or input_empty,
+						b_efstastig_vb_ft_hk_thgf.value or input_empty,
+						b_efstastig_vb_ft_hk_ef.value or input_empty
+					]
+				}
+			else:
+				b_efstastig_vb_ft_kk_nf.add_class('ghost')
+				b_efstastig_vb_ft_kk_thf.add_class('ghost')
+				b_efstastig_vb_ft_kk_thgf.add_class('ghost')
+				b_efstastig_vb_ft_kk_ef.add_class('ghost')
+				b_efstastig_vb_ft_kvk_nf.add_class('ghost')
+				b_efstastig_vb_ft_kvk_thf.add_class('ghost')
+				b_efstastig_vb_ft_kvk_thgf.add_class('ghost')
+				b_efstastig_vb_ft_kvk_ef.add_class('ghost')
+				b_efstastig_vb_ft_hk_nf.add_class('ghost')
+				b_efstastig_vb_ft_hk_thf.add_class('ghost')
+				b_efstastig_vb_ft_hk_thgf.add_class('ghost')
+				b_efstastig_vb_ft_hk_ef.add_class('ghost')
+				if 'vb' in self.ORD_STATE['efstastig']:
+					if 'ft' in self.ORD_STATE['efstastig']['vb']:
+						del self.ORD_STATE['efstastig']['vb']['ft']
+			if 'vb' in self.ORD_STATE['efstastig']:
+				if (
+					'et' not in self.ORD_STATE['efstastig']['vb'] and
+					'ft' not in self.ORD_STATE['efstastig']['vb']
+				):
+					del self.ORD_STATE['efstastig']['vb']
+			if 'sb' not in self.ORD_STATE['efstastig'] and 'vb' not in self.ORD_STATE['efstastig']:
+				del self.ORD_STATE['efstastig']
+		else:
+			# efstastig sb et
+			b_efstastig_sb_et_kk_nf.add_class('ghost')
+			b_efstastig_sb_et_kk_thf.add_class('ghost')
+			b_efstastig_sb_et_kk_thgf.add_class('ghost')
+			b_efstastig_sb_et_kk_ef.add_class('ghost')
+			b_efstastig_sb_et_kvk_nf.add_class('ghost')
+			b_efstastig_sb_et_kvk_thf.add_class('ghost')
+			b_efstastig_sb_et_kvk_thgf.add_class('ghost')
+			b_efstastig_sb_et_kvk_ef.add_class('ghost')
+			b_efstastig_sb_et_hk_nf.add_class('ghost')
+			b_efstastig_sb_et_hk_thf.add_class('ghost')
+			b_efstastig_sb_et_hk_thgf.add_class('ghost')
+			b_efstastig_sb_et_hk_ef.add_class('ghost')
+			# efstastig sb ft
+			b_efstastig_sb_ft_kk_nf.add_class('ghost')
+			b_efstastig_sb_ft_kk_thf.add_class('ghost')
+			b_efstastig_sb_ft_kk_thgf.add_class('ghost')
+			b_efstastig_sb_ft_kk_ef.add_class('ghost')
+			b_efstastig_sb_ft_kvk_nf.add_class('ghost')
+			b_efstastig_sb_ft_kvk_thf.add_class('ghost')
+			b_efstastig_sb_ft_kvk_thgf.add_class('ghost')
+			b_efstastig_sb_ft_kvk_ef.add_class('ghost')
+			b_efstastig_sb_ft_hk_nf.add_class('ghost')
+			b_efstastig_sb_ft_hk_thf.add_class('ghost')
+			b_efstastig_sb_ft_hk_thgf.add_class('ghost')
+			b_efstastig_sb_ft_hk_ef.add_class('ghost')
+			# efstastig vb et
+			b_efstastig_vb_et_kk_nf.add_class('ghost')
+			b_efstastig_vb_et_kk_thf.add_class('ghost')
+			b_efstastig_vb_et_kk_thgf.add_class('ghost')
+			b_efstastig_vb_et_kk_ef.add_class('ghost')
+			b_efstastig_vb_et_kvk_nf.add_class('ghost')
+			b_efstastig_vb_et_kvk_thf.add_class('ghost')
+			b_efstastig_vb_et_kvk_thgf.add_class('ghost')
+			b_efstastig_vb_et_kvk_ef.add_class('ghost')
+			b_efstastig_vb_et_hk_nf.add_class('ghost')
+			b_efstastig_vb_et_hk_thf.add_class('ghost')
+			b_efstastig_vb_et_hk_thgf.add_class('ghost')
+			b_efstastig_vb_et_hk_ef.add_class('ghost')
+			# efstastig sb ft
+			b_efstastig_vb_ft_kk_nf.add_class('ghost')
+			b_efstastig_vb_ft_kk_thf.add_class('ghost')
+			b_efstastig_vb_ft_kk_thgf.add_class('ghost')
+			b_efstastig_vb_ft_kk_ef.add_class('ghost')
+			b_efstastig_vb_ft_kvk_nf.add_class('ghost')
+			b_efstastig_vb_ft_kvk_thf.add_class('ghost')
+			b_efstastig_vb_ft_kvk_thgf.add_class('ghost')
+			b_efstastig_vb_ft_kvk_ef.add_class('ghost')
+			b_efstastig_vb_ft_hk_nf.add_class('ghost')
+			b_efstastig_vb_ft_hk_thf.add_class('ghost')
+			b_efstastig_vb_ft_hk_thgf.add_class('ghost')
+			b_efstastig_vb_ft_hk_ef.add_class('ghost')
+			if 'efstastig' in self.ORD_STATE:
+				del self.ORD_STATE['efstastig']
+		# update JSON text
+		isl_ord = None
+		if self.ORD_STATE['orð'] in ('', None):
+			el_ord_data_json.text = '{}'
+		else:
+			handler = handlers.Lysingarord()
+			handler.load_from_dict(self.ORD_STATE)
+			json_str = handler._ord_data_to_fancy_json_str(handler.data.dict())
+			el_ord_data_json.text = json_str
+			kennistrengur = handler.make_kennistrengur()
+			isl_ord = db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
+		# determine if ord is acceptable for saving, then update commit button accordingly
+		fulfilled_frumstig_sb_et = (
+			chbox_frumstig.value is False or
+			chbox_frumstig_sb.value is False or
+			chbox_frumstig_sb_et.value is False or (
+				b_frumstig_sb_et_kk_nf.value and
+				b_frumstig_sb_et_kk_thf.value and
+				b_frumstig_sb_et_kk_thgf.value and
+				b_frumstig_sb_et_kk_ef.value and
+				b_frumstig_sb_et_kvk_nf.value and
+				b_frumstig_sb_et_kvk_thf.value and
+				b_frumstig_sb_et_kvk_thgf.value and
+				b_frumstig_sb_et_kvk_ef.value and
+				b_frumstig_sb_et_hk_nf.value and
+				b_frumstig_sb_et_hk_thf.value and
+				b_frumstig_sb_et_hk_thgf.value and
+				b_frumstig_sb_et_hk_ef.value
+			)
+		)
+		fulfilled_frumstig_sb_ft = (
+			chbox_frumstig.value is False or
+			chbox_frumstig_sb.value is False or
+			chbox_frumstig_sb_ft.value is False or (
+				b_frumstig_sb_ft_kk_nf.value and
+				b_frumstig_sb_ft_kk_thf.value and
+				b_frumstig_sb_ft_kk_thgf.value and
+				b_frumstig_sb_ft_kk_ef.value and
+				b_frumstig_sb_ft_kvk_nf.value and
+				b_frumstig_sb_ft_kvk_thf.value and
+				b_frumstig_sb_ft_kvk_thgf.value and
+				b_frumstig_sb_ft_kvk_ef.value and
+				b_frumstig_sb_ft_hk_nf.value and
+				b_frumstig_sb_ft_hk_thf.value and
+				b_frumstig_sb_ft_hk_thgf.value and
+				b_frumstig_sb_ft_hk_ef.value
+			)
+		)
+		fulfilled_frumstig_vb_et = (
+			chbox_frumstig.value is False or
+			chbox_frumstig_vb.value is False or
+			chbox_frumstig_vb_et.value is False or (
+				b_frumstig_vb_et_kk_nf.value and
+				b_frumstig_vb_et_kk_thf.value and
+				b_frumstig_vb_et_kk_thgf.value and
+				b_frumstig_vb_et_kk_ef.value and
+				b_frumstig_vb_et_kvk_nf.value and
+				b_frumstig_vb_et_kvk_thf.value and
+				b_frumstig_vb_et_kvk_thgf.value and
+				b_frumstig_vb_et_kvk_ef.value and
+				b_frumstig_vb_et_hk_nf.value and
+				b_frumstig_vb_et_hk_thf.value and
+				b_frumstig_vb_et_hk_thgf.value and
+				b_frumstig_vb_et_hk_ef.value
+			)
+		)
+		fulfilled_frumstig_vb_ft = (
+			chbox_frumstig.value is False or
+			chbox_frumstig_vb.value is False or
+			chbox_frumstig_vb_ft.value is False or (
+				b_frumstig_vb_ft_kk_nf.value and
+				b_frumstig_vb_ft_kk_thf.value and
+				b_frumstig_vb_ft_kk_thgf.value and
+				b_frumstig_vb_ft_kk_ef.value and
+				b_frumstig_vb_ft_kvk_nf.value and
+				b_frumstig_vb_ft_kvk_thf.value and
+				b_frumstig_vb_ft_kvk_thgf.value and
+				b_frumstig_vb_ft_kvk_ef.value and
+				b_frumstig_vb_ft_hk_nf.value and
+				b_frumstig_vb_ft_hk_thf.value and
+				b_frumstig_vb_ft_hk_thgf.value and
+				b_frumstig_vb_ft_hk_ef.value
+			)
+		)
+		fulfilled_midstig_vb_et = (
+			chbox_midstig.value is False or
+			chbox_midstig_vb.value is False or
+			chbox_midstig_vb_et.value is False or (
+				b_midstig_vb_et_kk_nf.value and
+				b_midstig_vb_et_kk_thf.value and
+				b_midstig_vb_et_kk_thgf.value and
+				b_midstig_vb_et_kk_ef.value and
+				b_midstig_vb_et_kvk_nf.value and
+				b_midstig_vb_et_kvk_thf.value and
+				b_midstig_vb_et_kvk_thgf.value and
+				b_midstig_vb_et_kvk_ef.value and
+				b_midstig_vb_et_hk_nf.value and
+				b_midstig_vb_et_hk_thf.value and
+				b_midstig_vb_et_hk_thgf.value and
+				b_midstig_vb_et_hk_ef.value
+			)
+		)
+		fulfilled_midstig_vb_ft = (
+			chbox_midstig.value is False or
+			chbox_midstig_vb.value is False or
+			chbox_midstig_vb_ft.value is False or (
+				b_midstig_vb_ft_kk_nf.value and
+				b_midstig_vb_ft_kk_thf.value and
+				b_midstig_vb_ft_kk_thgf.value and
+				b_midstig_vb_ft_kk_ef.value and
+				b_midstig_vb_ft_kvk_nf.value and
+				b_midstig_vb_ft_kvk_thf.value and
+				b_midstig_vb_ft_kvk_thgf.value and
+				b_midstig_vb_ft_kvk_ef.value and
+				b_midstig_vb_ft_hk_nf.value and
+				b_midstig_vb_ft_hk_thf.value and
+				b_midstig_vb_ft_hk_thgf.value and
+				b_midstig_vb_ft_hk_ef.value
+			)
+		)
+		fulfilled_efstastig_sb_et = (
+			chbox_efstastig.value is False or
+			chbox_efstastig_sb.value is False or
+			chbox_efstastig_sb_et.value is False or (
+				b_efstastig_sb_et_kk_nf.value and
+				b_efstastig_sb_et_kk_thf.value and
+				b_efstastig_sb_et_kk_thgf.value and
+				b_efstastig_sb_et_kk_ef.value and
+				b_efstastig_sb_et_kvk_nf.value and
+				b_efstastig_sb_et_kvk_thf.value and
+				b_efstastig_sb_et_kvk_thgf.value and
+				b_efstastig_sb_et_kvk_ef.value and
+				b_efstastig_sb_et_hk_nf.value and
+				b_efstastig_sb_et_hk_thf.value and
+				b_efstastig_sb_et_hk_thgf.value and
+				b_efstastig_sb_et_hk_ef.value
+			)
+		)
+		fulfilled_efstastig_sb_ft = (
+			chbox_efstastig.value is False or
+			chbox_efstastig_sb.value is False or
+			chbox_efstastig_sb_ft.value is False or (
+				b_efstastig_sb_ft_kk_nf.value and
+				b_efstastig_sb_ft_kk_thf.value and
+				b_efstastig_sb_ft_kk_thgf.value and
+				b_efstastig_sb_ft_kk_ef.value and
+				b_efstastig_sb_ft_kvk_nf.value and
+				b_efstastig_sb_ft_kvk_thf.value and
+				b_efstastig_sb_ft_kvk_thgf.value and
+				b_efstastig_sb_ft_kvk_ef.value and
+				b_efstastig_sb_ft_hk_nf.value and
+				b_efstastig_sb_ft_hk_thf.value and
+				b_efstastig_sb_ft_hk_thgf.value and
+				b_efstastig_sb_ft_hk_ef.value
+			)
+		)
+		fulfilled_efstastig_vb_et = (
+			chbox_efstastig.value is False or
+			chbox_efstastig_vb.value is False or
+			chbox_efstastig_vb_et.value is False or (
+				b_efstastig_vb_et_kk_nf.value and
+				b_efstastig_vb_et_kk_thf.value and
+				b_efstastig_vb_et_kk_thgf.value and
+				b_efstastig_vb_et_kk_ef.value and
+				b_efstastig_vb_et_kvk_nf.value and
+				b_efstastig_vb_et_kvk_thf.value and
+				b_efstastig_vb_et_kvk_thgf.value and
+				b_efstastig_vb_et_kvk_ef.value and
+				b_efstastig_vb_et_hk_nf.value and
+				b_efstastig_vb_et_hk_thf.value and
+				b_efstastig_vb_et_hk_thgf.value and
+				b_efstastig_vb_et_hk_ef.value
+			)
+		)
+		fulfilled_efstastig_vb_ft = (
+			chbox_efstastig.value is False or
+			chbox_efstastig_vb.value is False or
+			chbox_efstastig_vb_ft.value is False or (
+				b_efstastig_vb_ft_kk_nf.value and
+				b_efstastig_vb_ft_kk_thf.value and
+				b_efstastig_vb_ft_kk_thgf.value and
+				b_efstastig_vb_ft_kk_ef.value and
+				b_efstastig_vb_ft_kvk_nf.value and
+				b_efstastig_vb_ft_kvk_thf.value and
+				b_efstastig_vb_ft_kvk_thgf.value and
+				b_efstastig_vb_ft_kvk_ef.value and
+				b_efstastig_vb_ft_hk_nf.value and
+				b_efstastig_vb_ft_hk_thf.value and
+				b_efstastig_vb_ft_hk_thgf.value and
+				b_efstastig_vb_ft_hk_ef.value
+			)
+		)
+		ord_is_obeygjanlegt = (
+			'óbeygjanlegt' in self.ORD_STATE and self.ORD_STATE['óbeygjanlegt'] is True
+		)
+		if self.ORD_STATE['orð'] in ('', None):
+			btn_ord_commit.label = '[[ Vista ]] Sláðu inn grunnmynd orðs'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif isl_ord is not None:
+			btn_ord_commit.label = '[[ Vista ]] Orð nú þegar til'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif (
+			ord_is_obeygjanlegt is False and (
+				not fulfilled_frumstig_sb_et or
+				not fulfilled_frumstig_sb_ft or
+				not fulfilled_frumstig_vb_et or
+				not fulfilled_frumstig_vb_ft or
+				not fulfilled_midstig_vb_ft or
+				not fulfilled_midstig_vb_ft or
+				not fulfilled_efstastig_sb_et or
+				not fulfilled_efstastig_sb_ft or
+				not fulfilled_efstastig_vb_et or
+				not fulfilled_efstastig_vb_ft
+			)
+		):
+			btn_ord_commit.label = '[[ Vista ]] Fylltu inn beygingarmyndir'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif (
+			ord_is_obeygjanlegt is False and (
+				'frumstig' not in self.ORD_STATE and
+				'miðstig' not in self.ORD_STATE and
+				'efstastig' not in self.ORD_STATE
+			)
+		):
 			btn_ord_commit.label = '[[ Vista ]] Tilgreindu beygingarmyndir'
 			btn_ord_commit.variant = 'error'
 			btn_ord_commit.disabled = True
