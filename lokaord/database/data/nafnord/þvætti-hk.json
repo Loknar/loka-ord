@@ -2,6 +2,16 @@
 	"orð": "þvætti",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "þvætt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þvætta"
+		},
+		{
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["þvætti", "þvætti", "þvætti", "þvættis"],
 		"mg": ["þvættið", "þvættið", "þvættinu", "þvættisins"]
@@ -11,5 +21,5 @@
 		"mg": ["þvættin", "þvættin", "þvættunum", "þvættanna"]
 	},
 	"kennistrengur": "no-þvætti-hk",
-	"hash": "6267e5a4575df08c9a52aae9ac665fdf8a71a08e6f3a9c6cd3ce5df30a5856f4"
+	"hash": "d0b217dd0bfd7fa7b987c42e18eb96a1b3c47842fbc80810cc8d770e4b2524ef"
 }

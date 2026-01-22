@@ -1,0 +1,100 @@
+{
+	"orð": "þvætta",
+	"flokkur": "sagnorð",
+	"merking": "þvættaði",
+	"samsett": [
+		{
+			"mynd": "þvætt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þvætta"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þvætta",
+		"sagnbót": "þvættað",
+		"boðháttur": {
+			"stýfður": "þvætta",
+			"et": "þvættaðu",
+			"ft": "þvættið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þvætta", "þvættar", "þvættar"],
+					"ft": ["þvættum", "þvættið", "þvætta"]
+				},
+				"þátíð": {
+					"et": ["þvættaði", "þvættaðir", "þvættaði"],
+					"ft": ["þvættuðum", "þvættuðuð", "þvættuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þvætti", "þvættir", "þvætti"],
+					"ft": ["þvættum", "þvættið", "þvætti"]
+				},
+				"þátíð": {
+					"et": ["þvættaði", "þvættaðir", "þvættaði"],
+					"ft": ["þvættuðum", "þvættuðuð", "þvættuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þvættarðu",
+					"ft": "þvættiði"
+				},
+				"þátíð": {
+					"et": "þvættaðirðu",
+					"ft": "þvættuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þvættirðu",
+					"ft": "þvættiði"
+				},
+				"þátíð": {
+					"et": "þvættaðirðu",
+					"ft": "þvættuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þvættandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þvættaður", "þvættaðan", "þvættuðum", "þvættaðs"],
+					"kvk": ["þvættuð", "þvættaða", "þvættaðri", "þvættaðrar"],
+					"hk": ["þvættað", "þvættað", "þvættuðu", "þvættaðs"]
+				},
+				"ft": {
+					"kk": ["þvættaðir", "þvættaða", "þvættuðum", "þvættaðra"],
+					"kvk": ["þvættaðar", "þvættaðar", "þvættuðum", "þvættaðra"],
+					"hk": ["þvættuð", "þvættuð", "þvættuðum", "þvættaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þvættaði", "þvættaða", "þvættaða", "þvættaða"],
+					"kvk": ["þvættaða", "þvættuðu", "þvættuðu", "þvættuðu"],
+					"hk": ["þvættaða", "þvættaða", "þvættaða", "þvættaða"]
+				},
+				"ft": {
+					"kk": ["þvættuðu", "þvættuðu", "þvættuðu", "þvættuðu"],
+					"kvk": ["þvættuðu", "þvættuðu", "þvættuðu", "þvættuðu"],
+					"hk": ["þvættuðu", "þvættuðu", "þvættuðu", "þvættuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þvætta-_þvættaði_",
+	"hash": "c6031f2f4e7a2bda8d7f9c4ce8fa071517f677e500fd01691a2eb08adee31c80"
+}

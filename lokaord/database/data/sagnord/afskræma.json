@@ -1,0 +1,151 @@
+{
+	"orð": "afskræma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "af",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-af"
+		},
+		{
+			"kennistrengur": "so-skræma"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "afskræma",
+		"sagnbót": "afskræmt",
+		"boðháttur": {
+			"stýfður": "afskræm",
+			"et": "afskræmdu",
+			"ft": "afskræmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afskræmi", "afskræmir", "afskræmir"],
+					"ft": ["afskræmum", "afskræmið", "afskræma"]
+				},
+				"þátíð": {
+					"et": ["afskræmdi", "afskræmdir", "afskræmdi"],
+					"ft": ["afskræmdum", "afskræmduð", "afskræmdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afskræmi", "afskræmir", "afskræmi"],
+					"ft": ["afskræmum", "afskræmið", "afskræmi"]
+				},
+				"þátíð": {
+					"et": ["afskræmdi", "afskræmdir", "afskræmdi"],
+					"ft": ["afskræmdum", "afskræmduð", "afskræmdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "afskræmirðu",
+					"ft": "afskræmiði"
+				},
+				"þátíð": {
+					"et": "afskræmdirðu",
+					"ft": "afskræmduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "afskræmirðu",
+					"ft": "afskræmiði"
+				},
+				"þátíð": {
+					"et": "afskræmdirðu",
+					"ft": "afskræmduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "afskræmast",
+		"sagnbót": "afskræmst",
+		"boðháttur": {
+			"et": "afskræmstu",
+			"ft": "afskræmist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afskræmist", "afskræmist", "afskræmist"],
+					"ft": ["afskræmumst", "afskræmist", "afskræmast"]
+				},
+				"þátíð": {
+					"et": ["afskræmdist", "afskræmdist", "afskræmdist"],
+					"ft": ["afskræmdumst", "afskræmdust", "afskræmdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afskræmist", "afskræmist", "afskræmist"],
+					"ft": ["afskræmumst", "afskræmist", "afskræmist"]
+				},
+				"þátíð": {
+					"et": ["afskræmdist", "afskræmdist", "afskræmdist"],
+					"ft": ["afskræmdumst", "afskræmdust", "afskræmdust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["afskræmist", "afskræmist", "afskræmist"],
+					"ft": ["afskræmist", "afskræmist", "afskræmist"]
+				},
+				"þátíð": {
+					"et": ["afskræmdist", "afskræmdist", "afskræmdist"],
+					"ft": ["afskræmdist", "afskræmdist", "afskræmdist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["afskræmist", "afskræmist", "afskræmist"],
+					"ft": ["afskræmist", "afskræmist", "afskræmist"]
+				},
+				"þátíð": {
+					"et": ["afskræmdist", "afskræmdist", "afskræmdist"],
+					"ft": ["afskræmdist", "afskræmdist", "afskræmdist"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "afskræmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["afskræmdur", "afskræmdan", "afskræmdum", "afskræmds"],
+					"kvk": ["afskræmd", "afskræmda", "afskræmdri", "afskræmdrar"],
+					"hk": ["afskræmt", "afskræmt", "afskræmdu", "afskræmds"]
+				},
+				"ft": {
+					"kk": ["afskræmdir", "afskræmda", "afskræmdum", "afskræmdra"],
+					"kvk": ["afskræmdar", "afskræmdar", "afskræmdum", "afskræmdra"],
+					"hk": ["afskræmd", "afskræmd", "afskræmdum", "afskræmdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["afskræmdi", "afskræmda", "afskræmda", "afskræmda"],
+					"kvk": ["afskræmda", "afskræmdu", "afskræmdu", "afskræmdu"],
+					"hk": ["afskræmda", "afskræmda", "afskræmda", "afskræmda"]
+				},
+				"ft": {
+					"kk": ["afskræmdu", "afskræmdu", "afskræmdu", "afskræmdu"],
+					"kvk": ["afskræmdu", "afskræmdu", "afskræmdu", "afskræmdu"],
+					"hk": ["afskræmdu", "afskræmdu", "afskræmdu", "afskræmdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-afskræma",
+	"hash": "b7502f13c504ca67aa62e16e91bc236f3f32666073cd4ac3083f04feb4cadc90"
+}
