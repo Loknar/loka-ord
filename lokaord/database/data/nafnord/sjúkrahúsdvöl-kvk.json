@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sjúkra",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "hús",
+			"mynd": "sjúkrahús",
 			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
+			"kennistrengur": "no-sjúkrahús-hk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["sjúkrahúsdvölin", "sjúkrahúsdvölina", "sjúkrahúsdvölinni", "sjúkrahúsdvalarinnar"]
 	},
 	"kennistrengur": "no-sjúkrahúsdvöl-kvk",
-	"hash": "a993755ac88c5e393edf079dfcba5b194e77291f5c909b6f494eee4ae6e6cd61"
+	"hash": "0305857eaafc3a26fc26169c3868febe7aa5f6c078f82e03a016206f0149e578"
 }

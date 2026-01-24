@@ -1,0 +1,135 @@
+{
+	"orð": "hömpa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hömp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hömp-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hömpa",
+		"sagnbót": "hömpað",
+		"boðháttur": {
+			"stýfður": "hömpa",
+			"et": "hömpaðu",
+			"ft": "hömpið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hömpa", "hömpar", "hömpar"],
+					"ft": ["hömpum", "hömpið", "hömpa"]
+				},
+				"þátíð": {
+					"et": ["hömpaði", "hömpaðir", "hömpaði"],
+					"ft": ["hömpuðum", "hömpuðuð", "hömpuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hömpi", "hömpir", "hömpi"],
+					"ft": ["hömpum", "hömpið", "hömpi"]
+				},
+				"þátíð": {
+					"et": ["hömpaði", "hömpaðir", "hömpaði"],
+					"ft": ["hömpuðum", "hömpuðuð", "hömpuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hömparðu",
+					"ft": "hömpiði"
+				},
+				"þátíð": {
+					"et": "hömpaðirðu",
+					"ft": "hömpuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hömpirðu",
+					"ft": "hömpiði"
+				},
+				"þátíð": {
+					"et": "hömpaðirðu",
+					"ft": "hömpuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hömpast",
+		"sagnbót": "hömpast",
+		"boðháttur": {
+			"et": "hömpastu",
+			"ft": "hömpist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hömpast", "hömpast", "hömpast"],
+					"ft": ["hömpumst", "hömpist", "hömpast"]
+				},
+				"þátíð": {
+					"et": ["hömpaðist", "hömpaðist", "hömpaðist"],
+					"ft": ["hömpuðumst", "hömpuðust", "hömpuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hömpist", "hömpist", "hömpist"],
+					"ft": ["hömpumst", "hömpist", "hömpist"]
+				},
+				"þátíð": {
+					"et": ["hömpaðist", "hömpaðist", "hömpaðist"],
+					"ft": ["hömpuðumst", "hömpuðust", "hömpuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hömpastu"
+				},
+				"þátíð": {
+					"et": "hömpaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hömpistu"
+				},
+				"þátíð": {
+					"et": "hömpaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hömpandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hömpaður", "hömpaðan", "hömpuðum", "hömpaðs"],
+					"kvk": ["hömpuð", "hömpaða", "hömpaðri", "hömpaðrar"],
+					"hk": ["hömpað", "hömpað", "hömpuðu", "hömpaðs"]
+				},
+				"ft": {
+					"kk": ["hömpaðir", "hömpaða", "hömpuðum", "hömpaðra"],
+					"kvk": ["hömpaðar", "hömpaðar", "hömpuðum", "hömpaðra"],
+					"hk": ["hömpuð", "hömpuð", "hömpuðum", "hömpaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hömpa",
+	"hash": "c8ee0537e6549eb3a70f46e7660e9f64c9dabe5ab98ede6e3d841c9ac86c4053"
+}

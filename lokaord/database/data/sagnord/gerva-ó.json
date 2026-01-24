@@ -1,9 +1,55 @@
 {
 	"orð": "gerva",
 	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "gerva",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gervi", "gervir", "gervir"],
+					"ft": ["gerum", "gervið", "gerva"]
+				},
+				"þátíð": {
+					"et": ["gervði", "gervðir", "gervði"],
+					"ft": ["gervðum", "gervðuð", "gervðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gervi", "gervir", "gervi"],
+					"ft": ["gervum", "gervið", "gervi"]
+				},
+				"þátíð": {
+					"et": ["gervði", "gervðir", "gervði"],
+					"ft": ["gervðum", "gervðuð", "gervðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gervirðu",
+					"ft": "gerviði"
+				},
+				"þátíð": {
+					"et": "gervðirðu",
+					"ft": "gervðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gervirðu",
+					"ft": "gerviði"
+				},
+				"þátíð": {
+					"et": "gervðirðu",
+					"ft": "gervðuði"
+				}
+			}
+		}
+	},
 	"miðmynd": {
 		"nafnháttur": "gervast",
-		"sagnbót": "gervst",
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -46,35 +92,9 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "gervandi",
-		"þátíðar": {
-			"sb": {
-				"et": {
-					"kk": ["gervður", "gervðan", "gervðum", "gervðs"],
-					"kvk": ["gervð", "gervða", "gervðri", "gervðrar"],
-					"hk": ["gervt", "gervt", "gervðu", "gervðs"]
-				},
-				"ft": {
-					"kk": ["gervðir", "gervða", "gervðum", "gervðra"],
-					"kvk": ["gervðar", "gervðar", "gervðum", "gervðra"],
-					"hk": ["gervð", "gervð", "gervðum", "gervðra"]
-				}
-			},
-			"vb": {
-				"et": {
-					"kk": ["gervði", "gervða", "gervða", "gervða"],
-					"kvk": ["gervða", "gervðu", "gervðu", "gervðu"],
-					"hk": ["gervða", "gervða", "gervða", "gervða"]
-				},
-				"ft": {
-					"kk": ["gervðu", "gervðu", "gervðu", "gervðu"],
-					"kvk": ["gervðu", "gervðu", "gervðu", "gervðu"],
-					"hk": ["gervðu", "gervðu", "gervðu", "gervðu"]
-				}
-			}
-		}
+		"nútíðar": "gervandi"
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "so-gerva-ó",
-	"hash": "d517c0767ad30dd6b2de00f4c764eba3efabd4e849c6af95527428525e49422c"
+	"hash": "8e3aeee62adb0913c2c909e67ac53c4fde2b68a15b466e03bef8583d289fdfb4"
 }
