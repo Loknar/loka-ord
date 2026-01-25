@@ -8,13 +8,58 @@
 			"kennistrengur": "no-hold-hk"
 		},
 		{
-			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
 			"kennistrengur": "so-gerva-ó"
 		}
 	],
+	"germynd": {
+		"nafnháttur": "holdgerva",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["holdgervi", "holdgervir", "holdgervir"],
+					"ft": ["holdgerum", "holdgervið", "holdgerva"]
+				},
+				"þátíð": {
+					"et": ["holdgervði", "holdgervðir", "holdgervði"],
+					"ft": ["holdgervðum", "holdgervðuð", "holdgervðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["holdgervi", "holdgervir", "holdgervi"],
+					"ft": ["holdgervum", "holdgervið", "holdgervi"]
+				},
+				"þátíð": {
+					"et": ["holdgervði", "holdgervðir", "holdgervði"],
+					"ft": ["holdgervðum", "holdgervðuð", "holdgervðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "holdgervirðu",
+					"ft": "holdgerviði"
+				},
+				"þátíð": {
+					"et": "holdgervðirðu",
+					"ft": "holdgervðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "holdgervirðu",
+					"ft": "holdgerviði"
+				},
+				"þátíð": {
+					"et": "holdgervðirðu",
+					"ft": "holdgervðuði"
+				}
+			}
+		}
+	},
 	"miðmynd": {
 		"nafnháttur": "holdgervast",
-		"sagnbót": "holdgervst",
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -60,5 +105,5 @@
 		"nútíðar": "holdgervandi"
 	},
 	"kennistrengur": "so-holdgerva",
-	"hash": "c12a4d7cac81f44ee9b9633edc576fc9ac4ec4d2386cb9e62ebac33144a51e42"
+	"hash": "8df552f84bd9c64dd63ea9de1d1c92d38e4ff0671c594dfefe98a7d8a77a957a"
 }

@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "efna",
+			"mynd": "efnahags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-efnahagur-kk"
 		},
 		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"mynd": "um",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-um"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-svif-hk"
+			"kennistrengur": "no-umsvif-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["efnahagsumsvifin", "efnahagsumsvifin", "efnahagsumsvifunum", "efnahagsumsvifanna"]
 	},
 	"kennistrengur": "no-efnahagsumsvif-hk",
-	"hash": "ee04026ec2037863a443733d8c0a5461bc3bc8b53b6d205b29c384192234b71b"
+	"hash": "769b7b40da152be46fb0ed03bad18e399b96bc966fe482b290b95a6e2967fc86"
 }
