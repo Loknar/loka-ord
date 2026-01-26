@@ -1,0 +1,87 @@
+{
+	"orð": "tjilla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tjill",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tjill-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tjilla",
+		"sagnbót": "tjillað",
+		"boðháttur": {
+			"stýfður": "tjilla",
+			"et": "tjillaðu",
+			"ft": "tjillið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tjilla", "tjillar", "tjillar"],
+					"ft": ["tjillum", "tjillið", "tjilla"]
+				},
+				"þátíð": {
+					"et": ["tjillaði", "tjillaðir", "tjillaði"],
+					"ft": ["tjilluðum", "tjilluðuð", "tjilluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tjilli", "tjillir", "tjilli"],
+					"ft": ["tjillum", "tjillið", "tjilli"]
+				},
+				"þátíð": {
+					"et": ["tjillaði", "tjillaðir", "tjillaði"],
+					"ft": ["tjilluðum", "tjilluðuð", "tjilluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tjillarðu",
+					"ft": "tjilliði"
+				},
+				"þátíð": {
+					"et": "tjillaðirðu",
+					"ft": "tjilluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tjillirðu",
+					"ft": "tjilliði"
+				},
+				"þátíð": {
+					"et": "tjillaðirðu",
+					"ft": "tjilluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tjillandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tjillaður", "tjillaðan", "tjilluðum", "tjillaðs"],
+					"kvk": ["tjilluð", "tjillaða", "tjillaðri", "tjillaðrar"],
+					"hk": ["tjillað", "tjillað", "tjilluðu", "tjillaðs"]
+				},
+				"ft": {
+					"kk": ["tjillaðir", "tjillaða", "tjilluðum", "tjillaðra"],
+					"kvk": ["tjillaðar", "tjillaðar", "tjilluðum", "tjillaðra"],
+					"hk": ["tjilluð", "tjilluð", "tjilluðum", "tjillaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tjilla",
+	"hash": "dd7fade91b8cceccb816325456a9c252d45f184ea5f215cb9c5e00da483dfcd3"
+}
