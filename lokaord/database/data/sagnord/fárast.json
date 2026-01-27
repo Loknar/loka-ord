@@ -1,0 +1,65 @@
+{
+	"orð": "fárast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fár",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fár-hk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "fárast",
+		"sagnbót": "fárast",
+		"boðháttur": {
+			"et": "fárastu",
+			"ft": "fárist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fárast", "fárast", "fárast"],
+					"ft": ["fárumst", "fárist", "fárast"]
+				},
+				"þátíð": {
+					"et": ["fáraðist", "fáraðist", "fáraðist"],
+					"ft": ["fáruðumst", "fáruðust", "fáruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fárist", "fárist", "fárist"],
+					"ft": ["fárumst", "fárist", "fárist"]
+				},
+				"þátíð": {
+					"et": ["fáraðist", "fáraðist", "fáraðist"],
+					"ft": ["fáruðumst", "fáruðust", "fáruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fárastu"
+				},
+				"þátíð": {
+					"et": "fáraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fáristu"
+				},
+				"þátíð": {
+					"et": "fáraðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fárast",
+	"hash": "621e959f0a1071f9588528eb6b61a1ee84159be0f4396e2a8cb85c7e148cb041"
+}

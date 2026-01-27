@@ -1,0 +1,114 @@
+{
+	"orð": "klípa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "klípa",
+		"sagnbót": "klipið",
+		"boðháttur": {
+			"stýfður": "klíp",
+			"et": "klíptu",
+			"ft": "klípið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klíp", "klípur", "klípur"],
+					"ft": ["klípum", "klípið", "klípa"]
+				},
+				"þátíð": {
+					"et": ["kleip", "kleipst", "kleip"],
+					"ft": ["klipum", "klipuð", "klipu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klípi", "klípir", "klípi"],
+					"ft": ["klípum", "klípið", "klípi"]
+				},
+				"þátíð": {
+					"et": ["klipi", "klipir", "klipi"],
+					"ft": ["klipum", "klipuð", "klipu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klípurðu",
+					"ft": "klípiði"
+				},
+				"þátíð": {
+					"et": "kleipstu",
+					"ft": "klipuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klípirðu",
+					"ft": "klípiði"
+				},
+				"þátíð": {
+					"et": "klipirðu",
+					"ft": "klipuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klípast",
+		"sagnbót": "klipist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klípst", "klípst", "klípst"],
+					"ft": ["klípumst", "klípist", "klípast"]
+				},
+				"þátíð": {
+					"et": ["kleipst", "kleipst", "kleipst"],
+					"ft": ["klipumst", "klipust", "klipust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klípist", "klípist", "klípist"],
+					"ft": ["klípumst", "klípist", "klípist"]
+				},
+				"þátíð": {
+					"et": ["klipist", "klipist", "klipist"],
+					"ft": ["klipumst", "klipust", "klipust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klípandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klipinn", "klipinn", "klipnum", "klipins"],
+					"kvk": ["klipin", "klipna", "klipinni", "klipinnar"],
+					"hk": ["klipið", "klipið", "klipnu", "klipins"]
+				},
+				"ft": {
+					"kk": ["klipnir", "klipna", "klipnum", "klipinna"],
+					"kvk": ["klipnar", "klipnar", "klipnum", "klipinna"],
+					"hk": ["klipin", "klipin", "klipnum", "klipinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["klipni", "klipna", "klipna", "klipna"],
+					"kvk": ["klipna", "klipnu", "klipnu", "klipnu"],
+					"hk": ["klipna", "klipna", "klipna", "klipna"]
+				},
+				"ft": {
+					"kk": ["klipnu", "klipnu", "klipnu", "klipnu"],
+					"kvk": ["klipnu", "klipnu", "klipnu", "klipnu"],
+					"hk": ["klipnu", "klipnu", "klipnu", "klipnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klípa",
+	"hash": "bd3cf9c3e54ee68be12d34dfa2b634e8cb05e13b6f02f41172b603f138dd394b"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "sviðna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sviðn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-svíða"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sviðna",
+		"sagnbót": "sviðnað",
+		"boðháttur": {
+			"stýfður": "sviðna",
+			"et": "sviðnaðu",
+			"ft": "sviðnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sviðna", "sviðnar", "sviðnar"],
+					"ft": ["sviðnum", "sviðnið", "sviðna"]
+				},
+				"þátíð": {
+					"et": ["sviðnaði", "sviðnaðir", "sviðnaði"],
+					"ft": ["sviðnuðum", "sviðnuðuð", "sviðnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sviðni", "sviðnir", "sviðni"],
+					"ft": ["sviðnum", "sviðnið", "sviðni"]
+				},
+				"þátíð": {
+					"et": ["sviðnaði", "sviðnaðir", "sviðnaði"],
+					"ft": ["sviðnuðum", "sviðnuðuð", "sviðnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sviðnarðu",
+					"ft": "sviðniði"
+				},
+				"þátíð": {
+					"et": "sviðnaðirðu",
+					"ft": "sviðnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sviðnirðu",
+					"ft": "sviðniði"
+				},
+				"þátíð": {
+					"et": "sviðnaðirðu",
+					"ft": "sviðnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sviðnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sviðnaður", "sviðnaðan", "sviðnuðum", "sviðnaðs"],
+					"kvk": ["sviðnuð", "sviðnaða", "sviðnaðri", "sviðnaðrar"],
+					"hk": ["sviðnað", "sviðnað", "sviðnuðu", "sviðnaðs"]
+				},
+				"ft": {
+					"kk": ["sviðnaðir", "sviðnaða", "sviðnuðum", "sviðnaðra"],
+					"kvk": ["sviðnaðar", "sviðnaðar", "sviðnuðum", "sviðnaðra"],
+					"hk": ["sviðnuð", "sviðnuð", "sviðnuðum", "sviðnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sviðnaði", "sviðnaða", "sviðnaða", "sviðnaða"],
+					"kvk": ["sviðnaða", "sviðnuðu", "sviðnuðu", "sviðnuðu"],
+					"hk": ["sviðnaða", "sviðnaða", "sviðnaða", "sviðnaða"]
+				},
+				"ft": {
+					"kk": ["sviðnuðu", "sviðnuðu", "sviðnuðu", "sviðnuðu"],
+					"kvk": ["sviðnuðu", "sviðnuðu", "sviðnuðu", "sviðnuðu"],
+					"hk": ["sviðnuðu", "sviðnuðu", "sviðnuðu", "sviðnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sviðna",
+	"hash": "73e85509c58474d3904b286239464390af2b075996b0640958a90b8826852d21"
+}
