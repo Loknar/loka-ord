@@ -4,23 +4,13 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "snið",
-			"samsetning": "stofn",
-			"kennistrengur": "no-snið-hk"
-		},
-		{
-			"mynd": "göngu",
+			"mynd": "sniðgöngu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ganga-kvk"
-		},
-		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
+			"kennistrengur": "no-sniðganga-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-leikur-kk-_keppni_"
+			"kennistrengur": "no-tónleikur-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["sniðgöngutónleikarnir", "sniðgöngutónleikana", "sniðgöngutónleikunum", "sniðgöngutónleikanna"]
 	},
 	"kennistrengur": "no-sniðgöngutónleikar-kk",
-	"hash": "08e93729feb2a5b7224c435b329ddf2ecc96f5f8809000eba485f5431716449d"
+	"hash": "44124d969f4b4238a7ceab46e5991fae7365f396832a1cde1107a5f28f0bddea"
 }

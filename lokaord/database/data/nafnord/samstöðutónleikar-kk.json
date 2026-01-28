@@ -4,23 +4,13 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "sam",
+			"mynd": "samstöðu",
 			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "stöðu",
-			"samsetning": "stofn",
-			"kennistrengur": "no-staða-kvk"
-		},
-		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
+			"kennistrengur": "no-samstaða-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-leikur-kk-_keppni_"
+			"kennistrengur": "no-tónleikur-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["samstöðutónleikarnir", "samstöðutónleikana", "samstöðutónleikunum", "samstöðutónleikanna"]
 	},
 	"kennistrengur": "no-samstöðutónleikar-kk",
-	"hash": "80456bdd549f7e340a3e46a5b6db728823b07bc3722b313740a6e97486bbd615"
+	"hash": "a7775caac6d0ade560e9eec1fe3c9cd8b3339824abae83144561f2e60ca691b3"
 }

@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "flótta",
+			"mynd": "flóttamanna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-flótti-kk"
+			"kennistrengur": "no-flóttamaður-kk"
 		},
 		{
-			"mynd": "manna",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-maður-kk"
-		},
-		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-stoð-kvk"
+			"kennistrengur": "no-aðstoð-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["flóttamannaaðstoðin", "flóttamannaaðstoðina", "flóttamannaaðstoðinni", "flóttamannaaðstoðarinnar"]
 	},
 	"kennistrengur": "no-flóttamannaaðstoð-kvk",
-	"hash": "6a71754d8af2ae4ac2243df959b72267d5fc1fcb731aba3998f67fc971e2d58a"
+	"hash": "bb147e31940f3b0c558a269c7c13357e393f60ab84d8d55740555c67307488e4"
 }

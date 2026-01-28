@@ -4,23 +4,13 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "alda",
+			"mynd": "aldamóta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-öld-kvk"
-		},
-		{
-			"mynd": "móta",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mót-hk"
-		},
-		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
+			"kennistrengur": "no-aldamót-hk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-leikur-kk-_keppni_"
+			"kennistrengur": "no-tónleikur-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["aldamótatónleikarnir", "aldamótatónleikana", "aldamótatónleikunum", "aldamótatónleikanna"]
 	},
 	"kennistrengur": "no-aldamótatónleikar-kk",
-	"hash": "f52fad60ce73ea8211b7df7d10622dd9788ce5efa21b290a11d8f0340ec4df29"
+	"hash": "27d3989bbb83edb2bdb768de7347d7f0aa4cd649a04ff11919372b32e5434d0e"
 }
