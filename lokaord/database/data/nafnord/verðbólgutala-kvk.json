@@ -4,17 +4,11 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "verð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"mynd": "bólgu",
+			"mynd": "verðbólgu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bólga-kvk"
+			"kennistrengur": "no-verðbólga-kvk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-tala-kvk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["verðbólgutala", "verðbólgutölu", "verðbólgutölu", "verðbólgutölu"],
 		"mg": ["verðbólgutalan", "verðbólgutöluna", "verðbólgutölunni", "verðbólgutölunnar"]
 	},
+	"ft": {
+		"ág": ["verðbólgutölur", "verðbólgutölur", "verðbólgutölum", "verðbólgutalna"],
+		"mg": ["verðbólgutölurnar", "verðbólgutölurnar", "verðbólgutölunum", "verðbólgutalnanna"]
+	},
 	"kennistrengur": "no-verðbólgutala-kvk",
-	"hash": "ea9df639ee81b0fda4bc11b05455861bce04602ac9c62ffcd2ff630c18b1802e"
+	"hash": "eb9c2ee0f8fc386cb400dfb568b62163ee41ac56529def65f6942d89abbb15b8"
 }

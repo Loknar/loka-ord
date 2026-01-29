@@ -1,0 +1,64 @@
+{
+	"orð": "drekkhlaða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "drekk",
+			"samsetning": "stofn",
+			"kennistrengur": "so-drekka"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hlaða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "drekkhlaða",
+		"sagnbót": "drekkhlaðið",
+		"boðháttur": {
+			"stýfður": "drekkhlað",
+			"et": "drekkhladdu",
+			"ft": "drekkhlaðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["drekkhleð", "drekkhleður", "drekkhleður"],
+					"ft": ["drekkhlöðum", "drekkhlaðið", "drekkhlaða"]
+				},
+				"þátíð": {
+					"et": ["drekkhlóð", "drekkhlóðst", "drekkhlóð"],
+					"ft": ["drekkhlóðum", "drekkhlóðuð", "drekkhlóðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["drekkhlaði", "drekkhlaðir", "drekkhlaði"],
+					"ft": ["drekkhlöðum", "drekkhlaðið", "drekkhlaði"]
+				},
+				"þátíð": {
+					"et": ["drekkhlæði", "drekkhlæðir", "drekkhlæði"],
+					"ft": ["drekkhlæðum", "drekkhlæðuð", "drekkhlæðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["drekkhlaðinn", "drekkhlaðinn", "drekkhlöðnum", "drekkhlaðins"],
+					"kvk": ["drekkhlaðin", "drekkhlaðna", "drekkhlaðinni", "drekkhlaðinnar"],
+					"hk": ["drekkhlaðið", "drekkhlaðið", "drekkhlöðnu", "drekkhlaðins"]
+				},
+				"ft": {
+					"kk": ["drekkhlaðnir", "drekkhlaðna", "drekkhlöðnum", "drekkhlaðinna"],
+					"kvk": ["drekkhlaðnar", "drekkhlaðnar", "drekkhlöðnum", "drekkhlaðinna"],
+					"hk": ["drekkhlaðin", "drekkhlaðin", "drekkhlöðnum", "drekkhlaðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-drekkhlaða",
+	"hash": "1e61713a4f24dba5f03241023374a94ed94f724abff56bd25fad6e18dfe76f55"
+}
