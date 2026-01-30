@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "heima",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-heima"
-		},
-		{
-			"mynd": "vistar",
+			"mynd": "heimavistar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vist-kvk"
+			"kennistrengur": "no-heimavist-kvk"
 		},
 		{
-			"mynd": "hús",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"kennistrengur": "no-næði-hk"
+			"kennistrengur": "no-húsnæði-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["heimavistarhúsnæðin", "heimavistarhúsnæðin", "heimavistarhúsnæðunum", "heimavistarhúsnæðanna"]
 	},
 	"kennistrengur": "no-heimavistarhúsnæði-hk",
-	"hash": "7efb7eba02ebd1cd2e45732d95f606874b315c397ad0d3fac21eba035c52b8fa"
+	"hash": "748d998a78b1ca188f43ad4fa50226f47b0951044b9ab8c5ba8f0f5346bd6cd7"
 }

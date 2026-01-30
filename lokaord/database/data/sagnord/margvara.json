@@ -1,0 +1,86 @@
+{
+	"orð": "margvara",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "marg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-margur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vara-_aðvara_"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "margvara",
+		"sagnbót": "margvarað",
+		"boðháttur": {
+			"stýfður": "margvara",
+			"et": "margvaraðu",
+			"ft": "margvarið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["margvara", "margvarar", "margvarar"],
+					"ft": ["margvörum", "margvarið", "margvara"]
+				},
+				"þátíð": {
+					"et": ["margvaraði", "margvaraðir", "margvaraði"],
+					"ft": ["margvöruðum", "margvöruðuð", "margvöruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["margvari", "margvarir", "margvari"],
+					"ft": ["margvörum", "margvarið", "margvari"]
+				},
+				"þátíð": {
+					"et": ["margvaraði", "margvaraðir", "margvaraði"],
+					"ft": ["margvöruðum", "margvöruðuð", "margvöruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "margvararðu",
+					"ft": "margvariði"
+				},
+				"þátíð": {
+					"et": "margvaraðirðu",
+					"ft": "margvöruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "margvarirðu",
+					"ft": "margvariði"
+				},
+				"þátíð": {
+					"et": "margvararirðu",
+					"ft": "margvöruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["margvaraður", "margvaraðan", "margvöruðum", "margvaraðs"],
+					"kvk": ["margvöruð", "margvaraða", "margvaraðri", "margvaraðrar"],
+					"hk": ["margvarað", "margvarað", "margvöruðu", "margvaraðs"]
+				},
+				"ft": {
+					"kk": ["margvaraðir", "margvaraða", "margvöruðum", "margvaraðra"],
+					"kvk": ["margvaraðar", "margvaraðar", "margvöruðum", "margvaraðra"],
+					"hk": ["margvöruð", "margvöruð", "margvöruðum", "margvaraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-margvara",
+	"hash": "11fcf70545c966664fb8087d6126238dfbfe39a3b69c5f37e5e16d127507b470"
+}
