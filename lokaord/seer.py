@@ -939,6 +939,8 @@ def clean_string(mystr: str) -> str:
 		('u\u0301', 'ú'),
 		('y\u0301', 'ý'),
 		('o\u0308', 'ö'),
+		# skipta út ákveðnum táknum fyrir skyld venjubundnari tákn
+		('\u2011', '-'),  # Non-Breaking Hyphen -> Hyphen-minus
 		# fjarlægja óæskileg tákn
 		('\xad', ''),  # stundum notað til að tilgreina skiptingu orða á vefsíðum
 		('\u200b', ''),  # zero width space
