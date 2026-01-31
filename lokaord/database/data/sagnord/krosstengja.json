@@ -1,0 +1,142 @@
+{
+	"orð": "krosstengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kross",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kross-kk"
+		},
+		{
+			"kennistrengur": "so-tengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "krosstengja",
+		"sagnbót": "krosstengt",
+		"boðháttur": {
+			"stýfður": "krossteng",
+			"et": "krosstengdu",
+			"ft": "krosstengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krosstengi", "krosstengir", "krosstengir"],
+					"ft": ["krosstengjum", "krosstengið", "krosstengja"]
+				},
+				"þátíð": {
+					"et": ["krosstengdi", "krosstengdir", "krosstengdi"],
+					"ft": ["krosstengdum", "krosstengduð", "krosstengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krosstengi", "krosstengir", "krosstengi"],
+					"ft": ["krosstengjum", "krosstengið", "krosstengi"]
+				},
+				"þátíð": {
+					"et": ["krosstengdi", "krosstengdir", "krosstengdi"],
+					"ft": ["krosstengdum", "krosstengduð", "krosstengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "krosstengirðu",
+					"ft": "krosstengiði"
+				},
+				"þátíð": {
+					"et": "krosstengdirðu",
+					"ft": "krosstengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "krosstengirðu",
+					"ft": "krosstengiði"
+				},
+				"þátíð": {
+					"et": "krosstengdirðu",
+					"ft": "krosstengduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "krosstengjast",
+		"sagnbót": "krosstengst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krosstengist", "krosstengist", "krosstengist"],
+					"ft": ["krosstengjumst", "krosstengist", "krosstengjast"]
+				},
+				"þátíð": {
+					"et": ["krosstengdist", "krosstengdist", "krosstengdist"],
+					"ft": ["krosstengdumst", "krosstengdust", "krosstengdust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krosstengist", "krosstengist", "krosstengist"],
+					"ft": ["krosstengjumst", "krosstengist", "krosstengist"]
+				},
+				"þátíð": {
+					"et": ["krosstengdist", "krosstengdist", "krosstengdist"],
+					"ft": ["krosstengdumst", "krosstengdust", "krosstengdust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "krosstengistu"
+				},
+				"þátíð": {
+					"et": "krosstengdistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "krosstengistu"
+				},
+				"þátíð": {
+					"et": "krosstengdistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "krosstengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["krosstengdur", "krosstengdan", "krosstengdum", "krosstengds"],
+					"kvk": ["krosstengd", "krosstengda", "krosstengdri", "krosstengdrar"],
+					"hk": ["krosstengt", "krosstengt", "krosstengdu", "krosstengds"]
+				},
+				"ft": {
+					"kk": ["krosstengdir", "krosstengda", "krosstengdum", "krosstengdra"],
+					"kvk": ["krosstengdar", "krosstengdar", "krosstengdum", "krosstengdra"],
+					"hk": ["krosstengd", "krosstengd", "krosstengdum", "krosstengdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["krosstengdi", "krosstengda", "krosstengda", "krosstengda"],
+					"kvk": ["krosstengda", "krosstengdu", "krosstengdu", "krosstengdu"],
+					"hk": ["krosstengda", "krosstengda", "krosstengda", "krosstengda"]
+				},
+				"ft": {
+					"kk": ["krosstengdu", "krosstengdu", "krosstengdu", "krosstengdu"],
+					"kvk": ["krosstengdu", "krosstengdu", "krosstengdu", "krosstengdu"],
+					"hk": ["krosstengdu", "krosstengdu", "krosstengdu", "krosstengdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-krosstengja",
+	"hash": "1ba776ae93a27d707e966b054e56787548c7bdc23b05350a5c93b6f24841d21d"
+}

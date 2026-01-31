@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "jafn",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-jafn"
-		},
-		{
-			"mynd": "ræðis",
+			"mynd": "jafnræðis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ræði-hk"
+			"kennistrengur": "no-jafnræði-hk"
 		},
 		{
-			"mynd": "grund",
-			"samsetning": "stofn",
-			"kennistrengur": "no-grund-kvk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-vöłlur-kk"
+			"kennistrengur": "no-grundvöłlur-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["jafnræðisgrundvöłlurinn", "jafnræðisgrundvöłlinn", "jafnræðisgrundvełlinum", "jafnræðisgrundvałlarins"]
 	},
 	"kennistrengur": "no-jafnræðisgrundvöłlur-kk",
-	"hash": "30395df8d1a6bbc6d21f2b4f1e15221bf2ce986aeabfeac39c64511bedf9bf60"
+	"hash": "e3aa54cb822279fd538969114c829c1bcb4a4096a4ee77b64d3e46ccfb71ce06"
 }

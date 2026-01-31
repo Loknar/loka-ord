@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sjúkra",
+			"mynd": "sjúkratrygginga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "trygginga",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-trygging-kvk"
+			"kennistrengur": "no-sjúkratrygging-kvk"
 		},
 		{
 			"kennistrengur": "no-kerfi-hk"
@@ -26,5 +21,5 @@
 		"mg": ["sjúkratryggingakerfin", "sjúkratryggingakerfin", "sjúkratryggingakerfunum", "sjúkratryggingakerfanna"]
 	},
 	"kennistrengur": "no-sjúkratryggingakerfi-hk",
-	"hash": "49e2ba7b21d9cc8ad03b082f00119ff857ea8e6c4eab39857e3606e268625ba3"
+	"hash": "8d94e3bf6ebad3401797f4ebf474febddc0bb6104117d588236c0611511b78e2"
 }
