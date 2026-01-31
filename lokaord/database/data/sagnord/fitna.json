@@ -1,0 +1,73 @@
+{
+	"orð": "fitna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fitn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-fita-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fitna",
+		"sagnbót": "fitnað",
+		"boðháttur": {
+			"stýfður": "fitna",
+			"et": "fitnaðu",
+			"ft": "fitnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fitna", "fitnar", "fitnar"],
+					"ft": ["fitnum", "fitnið", "fitna"]
+				},
+				"þátíð": {
+					"et": ["fitnaði", "fitnaðir", "fitnaði"],
+					"ft": ["fitnuðum", "fitnuðuð", "fitnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fitni", "fitnir", "fitni"],
+					"ft": ["fitnum", "fitnið", "fitni"]
+				},
+				"þátíð": {
+					"et": ["fitnaði", "fitnaðir", "fitnaði"],
+					"ft": ["fitnuðum", "fitnuðuð", "fitnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fitnarðu",
+					"ft": "fitniði"
+				},
+				"þátíð": {
+					"et": "fitnaðirðu",
+					"ft": "fitnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fitnirðu",
+					"ft": "fitniði"
+				},
+				"þátíð": {
+					"et": "fitnaðirðu",
+					"ft": "fitnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fitnandi"
+	},
+	"kennistrengur": "so-fitna",
+	"hash": "e7ce0736c763c5279a7361faf189817203cdd7e3a68c0a9b42d08190844be2b2"
+}

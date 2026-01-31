@@ -8,7 +8,6 @@
 			"kennistrengur": "no-boð-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -65,6 +64,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "boðast",
+		"sagnbót": "boðast",
+		"boðháttur": {
+			"et": "boðastu",
+			"ft": "boðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["boðast", "boðast", "boðast"],
+					"ft": ["boðumst", "boðist", "boðast"]
+				},
+				"þátíð": {
+					"et": ["boðaðist", "boðaðist", "boðaðist"],
+					"ft": ["boðuðumst", "boðuðust", "boðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["boðist", "boðist", "boðist"],
+					"ft": ["boðumst", "boðist", "boðist"]
+				},
+				"þátíð": {
+					"et": ["boðaðist", "boðaðist", "boðaðist"],
+					"ft": ["boðuðumst", "boðuðust", "boðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "boðastu"
+				},
+				"þátíð": {
+					"et": "boðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "boðistu"
+				},
+				"þátíð": {
+					"et": "boðaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "boðandi",
 		"þátíðar": {
@@ -95,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-boða",
-	"hash": "303bbb1c30dcca85ae6509b09767ff55a5093a7ba6b1f77937f6144e8a8054e9"
+	"hash": "715e669ed036453eaad5a5529ffc60b458ba257381d34d799ab8b91c7efc01a2"
 }

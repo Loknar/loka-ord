@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "tengi",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tengi-hk"
-		},
-		{
-			"mynd": "liða",
+			"mynd": "tengiliða",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-liður-kk"
-		},
-		{
-			"mynd": "upp",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-upp"
+			"kennistrengur": "no-tengiliður-kk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-lýsing-kvk"
+			"kennistrengur": "no-upplýsing-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["tengiliðaupplýsingarnar", "tengiliðaupplýsingarnar", "tengiliðaupplýsingunum", "tengiliðaupplýsinganna"]
 	},
 	"kennistrengur": "no-tengiliðaupplýsingar-kvk",
-	"hash": "07227179e4c7702a9bde27bbf6ca600cdac5e2a980969fd48ad278a1d4898d21"
+	"hash": "8b5a4319867cb0c6763693af2b217fcfc2cc7ba6861c3856046feb732c63f198"
 }
