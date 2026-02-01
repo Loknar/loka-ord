@@ -1,0 +1,22 @@
+{
+	"orð": "skuldahöft",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-haft-hk"
+		}
+	],
+	"ft": {
+		"ág": ["skuldahöft", "skuldahöft", "skuldahöftum", "skuldahafta"],
+		"mg": ["skuldahöftin", "skuldahöftin", "skuldahöftunum", "skuldahaftanna"]
+	},
+	"kennistrengur": "no-skuldahöft-hk",
+	"hash": "dc08c9d78fe995c2205c97e01dc77fefd8c567e65ae906c29de5fbed9e8c00db"
+}

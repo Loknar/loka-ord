@@ -1,0 +1,135 @@
+{
+	"orð": "boxa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "box",
+			"samsetning": "stofn",
+			"kennistrengur": "no-box-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "boxa",
+		"sagnbót": "boxað",
+		"boðháttur": {
+			"stýfður": "boxa",
+			"et": "boxaðu",
+			"ft": "boxið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["boxa", "boxar", "boxar"],
+					"ft": ["boxum", "boxið", "boxa"]
+				},
+				"þátíð": {
+					"et": ["boxaði", "boxaðir", "boxaði"],
+					"ft": ["boxuðum", "boxuðuð", "boxuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["boxi", "boxir", "boxi"],
+					"ft": ["boxum", "boxið", "boxi"]
+				},
+				"þátíð": {
+					"et": ["boxaði", "boxaðir", "boxaði"],
+					"ft": ["boxuðum", "boxuðuð", "boxuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "boxarðu",
+					"ft": "boxiði"
+				},
+				"þátíð": {
+					"et": "boxaðirðu",
+					"ft": "boxuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "boxirðu",
+					"ft": "boxiði"
+				},
+				"þátíð": {
+					"et": "boxaðirðu",
+					"ft": "boxuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "boxast",
+		"sagnbót": "boxast",
+		"boðháttur": {
+			"et": "boxastu",
+			"ft": "boxist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["boxast", "boxast", "boxast"],
+					"ft": ["boxumst", "boxist", "boxast"]
+				},
+				"þátíð": {
+					"et": ["boxaðist", "boxaðist", "boxaðist"],
+					"ft": ["boxuðumst", "boxuðust", "boxuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["boxist", "boxist", "boxist"],
+					"ft": ["boxumst", "boxist", "boxist"]
+				},
+				"þátíð": {
+					"et": ["boxaðist", "boxaðist", "boxaðist"],
+					"ft": ["boxuðumst", "boxuðust", "boxuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "boxastu"
+				},
+				"þátíð": {
+					"et": "boxaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "boxistu"
+				},
+				"þátíð": {
+					"et": "boxaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "boxandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["boxaður", "boxaðan", "boxuðum", "boxaðs"],
+					"kvk": ["boxuð", "boxaða", "boxaðri", "boxaðrar"],
+					"hk": ["boxað", "boxað", "boxuðu", "boxaðs"]
+				},
+				"ft": {
+					"kk": ["boxaðir", "boxaða", "boxuðum", "boxaðra"],
+					"kvk": ["boxaðar", "boxaðar", "boxuðum", "boxaðra"],
+					"hk": ["boxuð", "boxuð", "boxuðum", "boxaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-boxa",
+	"hash": "afc86c9384e03ee4145d9f55937f6cc50399fc0538f6e1c8235c359a8fe928e6"
+}

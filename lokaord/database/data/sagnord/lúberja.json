@@ -1,0 +1,87 @@
+{
+	"orð": "lúberja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lú",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lúi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-berja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lúberja",
+		"sagnbót": "lúbarið",
+		"boðháttur": {
+			"stýfður": "lúber",
+			"et": "lúberðu",
+			"ft": "lúberjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lúber", "lúberð", "lúber"],
+					"ft": ["lúberjum", "lúberjið", "lúberja"]
+				},
+				"þátíð": {
+					"et": ["lúbarði", "lúbarðir", "lúbarði"],
+					"ft": ["lúbörðum", "lúbörðuð", "lúbörðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lúberji", "lúberjir", "lúberji"],
+					"ft": ["lúberjum", "lúberjið", "lúberji"]
+				},
+				"þátíð": {
+					"et": ["lúberði", "lúberðir", "lúberði"],
+					"ft": ["lúberðum", "lúberðuð", "lúberðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lúberðu",
+					"ft": "lúberjiði"
+				},
+				"þátíð": {
+					"et": "lúbarðirðu",
+					"ft": "lúbörðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lúberjirðu",
+					"ft": "lúberjiði"
+				},
+				"þátíð": {
+					"et": "lúberðirðu",
+					"ft": "lúberðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lúberjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lúbarinn", "lúbarinn", "lúbörðum", "lúbarins"],
+					"kvk": ["lúbarin", "lúbarða", "lúbarinni", "lúbarinnar"],
+					"hk": ["lúbarið", "lúbarið", "lúbörðu", "lúbarins"]
+				},
+				"ft": {
+					"kk": ["lúbarnir", "lúbarða", "lúbörðum", "lúbarinna"],
+					"kvk": ["lúbarðar", "lúbarðar", "lúbörðum", "lúbarinna"],
+					"hk": ["lúbarin", "lúbarin", "lúbörðum", "lúbarinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lúberja",
+	"hash": "10f0923fd040baf9fbe49bf75c158f0fcf17ad293f1ad86b346a49c22f2dd9f6"
+}
