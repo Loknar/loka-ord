@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "lífs",
+			"mynd": "kynlífs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-líf-hk"
+			"kennistrengur": "no-kynlíf-hk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-kynlífslaus",
-	"hash": "688d1f62060358ed8c64768b4604a2c50e8245e1846c1b786841cf543ad7d7d1"
+	"hash": "ed16a0c0193c06121621baeb2cca613aa0c2880c86803328b30cdf5ef6663126"
 }
