@@ -1,0 +1,99 @@
+{
+	"orð": "sorta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sort",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-sort-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sorta",
+		"sagnbót": "sortað",
+		"boðháttur": {
+			"stýfður": "sorta",
+			"et": "sortaðu",
+			"ft": "sortið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sorta", "sortar", "sortar"],
+					"ft": ["sortum", "sortið", "sorta"]
+				},
+				"þátíð": {
+					"et": ["sortaði", "sortaðir", "sortaði"],
+					"ft": ["sortuðum", "sortuðuð", "sortuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sorti", "sortir", "sorti"],
+					"ft": ["sortum", "sortið", "sorti"]
+				},
+				"þátíð": {
+					"et": ["sortaði", "sortaðir", "sortaði"],
+					"ft": ["sortuðum", "sortuðuð", "sortuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sortarðu",
+					"ft": "sortiði"
+				},
+				"þátíð": {
+					"et": "sortaðirðu",
+					"ft": "sortuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sortirðu",
+					"ft": "sortiði"
+				},
+				"þátíð": {
+					"et": "sortaðirðu",
+					"ft": "sortuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sortandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sortaður", "sortaðan", "sortuðum", "sortaðs"],
+					"kvk": ["sortuð", "sortaða", "sortaðri", "sortaðrar"],
+					"hk": ["sortað", "sortað", "sortuðu", "sortaðs"]
+				},
+				"ft": {
+					"kk": ["sortaðir", "sortaða", "sortuðum", "sortaðra"],
+					"kvk": ["sortaðar", "sortaðar", "sortuðum", "sortaðra"],
+					"hk": ["sortuð", "sortuð", "sortuðum", "sortaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sortaði", "sortaða", "sortaða", "sortaða"],
+					"kvk": ["sortaða", "sortuðu", "sortuðu", "sortuðu"],
+					"hk": ["sortaða", "sortaða", "sortaða", "sortaða"]
+				},
+				"ft": {
+					"kk": ["sortuðu", "sortuðu", "sortuðu", "sortuðu"],
+					"kvk": ["sortuðu", "sortuðu", "sortuðu", "sortuðu"],
+					"hk": ["sortuðu", "sortuðu", "sortuðu", "sortuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sorta",
+	"hash": "326331df449471ade4af1ccfce0d16365baa429509980f01eea09fe42e4f9591"
+}

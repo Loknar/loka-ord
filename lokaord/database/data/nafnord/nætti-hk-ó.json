@@ -2,6 +2,16 @@
 	"orð": "nætti",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "nætt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-nótt-kvk"
+		},
+		{
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["nætti", "nætti", "nætti", "nættis"],
 		"mg": ["nættið", "nættið", "nættinu", "nættisins"]
@@ -12,5 +22,5 @@
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-nætti-hk-ó",
-	"hash": "11dcdec8b77672554cac14c7bb1b9b5ee44bc1d93d72428ce4b5cc3a64f093ef"
+	"hash": "e7cf4b9f7d067a8fada7a00cb908a7254ccb67057a229d39c638ada041ba91d3"
 }

@@ -1,0 +1,22 @@
+{
+	"orð": "bankagögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["bankagögn", "bankagögn", "bankagögnum", "bankagagna"],
+		"mg": ["bankagögnin", "bankagögnin", "bankagögnunum", "bankagagnanna"]
+	},
+	"kennistrengur": "no-bankagögn-hk",
+	"hash": "3d5b39ef71772819a8f9135f09d2003cbc4f89ee414cac2cef0f0e766d3d85fd"
+}
