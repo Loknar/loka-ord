@@ -1,0 +1,121 @@
+{
+	"orð": "duna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-duna-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "duna",
+		"sagnbót": "dunað",
+		"boðháttur": {
+			"stýfður": "duna",
+			"et": "dunaðu",
+			"ft": "dunið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["duna", "dunar", "dunar"],
+					"ft": ["dunum", "dunið", "duna"]
+				},
+				"þátíð": {
+					"et": ["dunaði", "dunaðir", "dunaði"],
+					"ft": ["dunuðum", "dunuðuð", "dunuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["duni", "dunir", "duni"],
+					"ft": ["dunum", "dunið", "duni"]
+				},
+				"þátíð": {
+					"et": ["dunaði", "dunaðir", "dunaði"],
+					"ft": ["dunuðum", "dunuðuð", "dunuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dunarðu",
+					"ft": "duniði"
+				},
+				"þátíð": {
+					"et": "dunaðirðu",
+					"ft": "dunuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dunirðu",
+					"ft": "duniði"
+				},
+				"þátíð": {
+					"et": "dunaðirðu",
+					"ft": "dunuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dunast",
+		"sagnbót": "dunast",
+		"boðháttur": {
+			"et": "dunastu",
+			"ft": "dunist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dunast", "dunast", "dunast"],
+					"ft": ["dunumst", "dunist", "dunast"]
+				},
+				"þátíð": {
+					"et": ["dunaðist", "dunaðist", "dunaðist"],
+					"ft": ["dunuðumst", "dunuðust", "dunuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dunist", "dunist", "dunist"],
+					"ft": ["dunumst", "dunist", "dunist"]
+				},
+				"þátíð": {
+					"et": ["dunaðist", "dunaðist", "dunaðist"],
+					"ft": ["dunuðumst", "dunuðust", "dunuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dunastu"
+				},
+				"þátíð": {
+					"et": "dunaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dunistu"
+				},
+				"þátíð": {
+					"et": "dunaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dunandi"
+	},
+	"kennistrengur": "so-duna",
+	"hash": "adec95afc7486344c582a33c33ce79cb8a7e5f3fa9f9ceb986a5e719dd2efc20"
+}
