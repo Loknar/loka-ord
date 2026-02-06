@@ -1,0 +1,65 @@
+{
+	"orð": "vera",
+	"flokkur": "sagnorð",
+	"merking": "vert",
+	"germynd": {
+		"nafnháttur": "vera",
+		"sagnbót": "verið",
+		"boðháttur": {
+			"stýfður": "vert",
+			"et": "vertu",
+			"ft": "verið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["er", "ert", "er"],
+					"ft": ["erum", "eruð", "eru"]
+				},
+				"þátíð": {
+					"et": ["var", "varst", "var"],
+					"ft": ["vorum", "voruð", "voru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sé", "sért", "sé"],
+					"ft": ["séum", "séuð", "séu"]
+				},
+				"þátíð": {
+					"et": ["væri", "værir", "væri"],
+					"ft": ["værum", "væruð", "væru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ertu",
+					"ft": "eruði"
+				},
+				"þátíð": {
+					"et": "varstu",
+					"ft": "voruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sértu",
+					"ft": "séuði"
+				},
+				"þátíð": {
+					"et": "værirðu",
+					"ft": "væruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verandi"
+	},
+	"óskháttur_1p_ft": "verum",
+	"óskháttur_3p": "veri",
+	"kennistrengur": "so-vera-_vert_",
+	"hash": "fba847a0db2e375d92108ed6339e5d0136b60d1a131fde5f77f2e1dc27b4e183"
+}
