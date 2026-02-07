@@ -1,0 +1,87 @@
+{
+	"orð": "púlla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "púll",
+			"samsetning": "stofn",
+			"kennistrengur": "no-púlla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "púlla",
+		"sagnbót": "púllað",
+		"boðháttur": {
+			"stýfður": "púlla",
+			"et": "púllaðu",
+			"ft": "púllið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["púlla", "púllar", "púllar"],
+					"ft": ["púllum", "púllið", "púlla"]
+				},
+				"þátíð": {
+					"et": ["púllaði", "púllaðir", "púllaði"],
+					"ft": ["púlluðum", "púlluðuð", "púlluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["púlli", "púllir", "púlli"],
+					"ft": ["púllum", "púllið", "púlli"]
+				},
+				"þátíð": {
+					"et": ["púllaði", "púllaðir", "púllaði"],
+					"ft": ["púlluðum", "púlluðuð", "púlluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "púllarðu",
+					"ft": "púlliði"
+				},
+				"þátíð": {
+					"et": "púllaðirðu",
+					"ft": "púlluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "púllirðu",
+					"ft": "púlliði"
+				},
+				"þátíð": {
+					"et": "púllaðirðu",
+					"ft": "púlluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "púllandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["púllaður", "púllaðan", "púlluðum", "púllaðs"],
+					"kvk": ["púlluð", "púllaða", "púllaðri", "púllaðrar"],
+					"hk": ["púllað", "púllað", "púlluðu", "púllaðs"]
+				},
+				"ft": {
+					"kk": ["púllaðir", "púllaða", "púlluðum", "púllaðra"],
+					"kvk": ["púllaðar", "púllaðar", "púlluðum", "púllaðra"],
+					"hk": ["púlluð", "púlluð", "púlluðum", "púllaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-púlla",
+	"hash": "4d324191849929d7cdce9835ea91c0c44e544659d162791f13dde767033f8af2"
+}
