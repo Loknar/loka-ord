@@ -1,0 +1,135 @@
+{
+	"orð": "frussa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fruss",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fruss-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frussa",
+		"sagnbót": "frussað",
+		"boðháttur": {
+			"stýfður": "frussa",
+			"et": "frussaðu",
+			"ft": "frussið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frussa", "frussar", "frussar"],
+					"ft": ["frussum", "frussið", "frussa"]
+				},
+				"þátíð": {
+					"et": ["frussaði", "frussaðir", "frussaði"],
+					"ft": ["frussuðum", "frussuðuð", "frussuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frussi", "frussir", "frussi"],
+					"ft": ["frussum", "frussið", "frussi"]
+				},
+				"þátíð": {
+					"et": ["frussaði", "frussaðir", "frussaði"],
+					"ft": ["frussuðum", "frussuðuð", "frussuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frussarðu",
+					"ft": "frussiði"
+				},
+				"þátíð": {
+					"et": "frussaðirðu",
+					"ft": "frussuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frussirðu",
+					"ft": "frussiði"
+				},
+				"þátíð": {
+					"et": "frussaðirðu",
+					"ft": "frussuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "frussast",
+		"sagnbót": "frussast",
+		"boðháttur": {
+			"et": "frussastu",
+			"ft": "frussist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frussast", "frussast", "frussast"],
+					"ft": ["frussumst", "frussist", "frussast"]
+				},
+				"þátíð": {
+					"et": ["frussaðist", "frussaðist", "frussaðist"],
+					"ft": ["frussuðumst", "frussuðust", "frussuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frussist", "frussist", "frussist"],
+					"ft": ["frussumst", "frussist", "frussist"]
+				},
+				"þátíð": {
+					"et": ["frussaðist", "frussaðist", "frussaðist"],
+					"ft": ["frussuðumst", "frussuðust", "frussuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frussastu"
+				},
+				"þátíð": {
+					"et": "frussaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frussistu"
+				},
+				"þátíð": {
+					"et": "frussaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frussandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frussaður", "frussaðan", "frussuðum", "frussaðs"],
+					"kvk": ["frussuð", "frussaða", "frussaðri", "frussaðrar"],
+					"hk": ["frussað", "frussað", "frussuðu", "frussaðs"]
+				},
+				"ft": {
+					"kk": ["frussaðir", "frussaða", "frussuðum", "frussaðra"],
+					"kvk": ["frussaðar", "frussaðar", "frussuðum", "frussaðra"],
+					"hk": ["frussuð", "frussuð", "frussuðum", "frussaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-frussa",
+	"hash": "1fb4851d91c524162daf96893066f771a94b6ba7adf2f8a507eaef2200e2dd67"
+}
