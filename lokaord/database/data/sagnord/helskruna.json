@@ -1,0 +1,73 @@
+{
+	"orð": "helskruna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hel",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hel-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-skruna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "helskruna",
+		"sagnbót": "helskrunað",
+		"boðháttur": {
+			"stýfður": "helskruna",
+			"et": "helskrunaðu",
+			"ft": "helskrunið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["helskruna", "helskrunar", "helskrunar"],
+					"ft": ["helskrunum", "helskrunið", "helskruna"]
+				},
+				"þátíð": {
+					"et": ["helskrunaði", "helskrunaðir", "helskrunaði"],
+					"ft": ["helskrunuðum", "helskrunuðuð", "helskrunuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["helskruni", "helskrunir", "helskruni"],
+					"ft": ["helskrunum", "helskrunið", "helskruni"]
+				},
+				"þátíð": {
+					"et": ["helskrunaði", "helskrunaðir", "helskrunaði"],
+					"ft": ["helskrunuðum", "helskrunuðuð", "helskrunuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "helskrunarðu",
+					"ft": "helskruniði"
+				},
+				"þátíð": {
+					"et": "helskrunaðirðu",
+					"ft": "helskrunuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "helskrunirðu",
+					"ft": "helskruniði"
+				},
+				"þátíð": {
+					"et": "helskrunaðirðu",
+					"ft": "helskrunuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "helskrunandi"
+	},
+	"kennistrengur": "so-helskruna",
+	"hash": "c7896613ee4ae65c9ab47d8edebf8438c5e91b5c77e73fcc10cc1733d8ffdee2"
+}
