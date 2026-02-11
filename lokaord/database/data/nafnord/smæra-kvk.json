@@ -2,6 +2,16 @@
 	"orð": "smæra",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "smær",
+			"samsetning": "stofn",
+			"kennistrengur": "no-smári-kk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["smæra", "smæru", "smæru", "smæru"],
 		"mg": ["smæran", "smæruna", "smærunni", "smærunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["smærurnar", "smærurnar", "smærunum", "smæranna"]
 	},
 	"kennistrengur": "no-smæra-kvk",
-	"hash": "347bef1bb8953ff2e9085a90f98812ef039e3710f7b3bf99b27b0cbb043c5a04"
+	"hash": "22e4e28fc314b3df1170fa5fb017b6610852da937de2a0ee07cba641faae81ae"
 }

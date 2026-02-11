@@ -1,0 +1,87 @@
+{
+	"orð": "jarðvegsþjappa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jarðvegs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-jarðvegur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-þjappa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jarðvegsþjappa",
+		"sagnbót": "jarðvegsþjappað",
+		"boðháttur": {
+			"stýfður": "jarðvegsþjappa",
+			"et": "jarðvegsþjappaðu",
+			"ft": "jarðvegsþjappið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jarðvegsþjappa", "jarðvegsþjappar", "jarðvegsþjappar"],
+					"ft": ["jarðvegsþjöppum", "jarðvegsþjappið", "jarðvegsþjappa"]
+				},
+				"þátíð": {
+					"et": ["jarðvegsþjappaði", "jarðvegsþjappaðir", "jarðvegsþjappaði"],
+					"ft": ["jarðvegsþjöppuðum", "jarðvegsþjöppuðuð", "jarðvegsþjöppuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jarðvegsþjappi", "jarðvegsþjappir", "jarðvegsþjappi"],
+					"ft": ["jarðvegsþjöppum", "jarðvegsþjappið", "jarðvegsþjappi"]
+				},
+				"þátíð": {
+					"et": ["jarðvegsþjappaði", "jarðvegsþjappaðir", "jarðvegsþjappaði"],
+					"ft": ["jarðvegsþjöppuðum", "jarðvegsþjöppuðuð", "jarðvegsþjöppuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "jarðvegsþjapparðu",
+					"ft": "jarðvegsþjappiði"
+				},
+				"þátíð": {
+					"et": "jarðvegsþjappaðirðu",
+					"ft": "jarðvegsþjöppuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "jarðvegsþjappirðu",
+					"ft": "jarðvegsþjappiði"
+				},
+				"þátíð": {
+					"et": "jarðvegsþjappaðirðu",
+					"ft": "jarðvegsþjöppuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "jarðvegsþjappandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["jarðvegsþjappaður", "jarðvegsþjappaðan", "jarðvegsþjöppuðum", "jarðvegsþjappaðs"],
+					"kvk": ["jarðvegsþjöppuð", "jarðvegsþjappaða", "jarðvegsþjappaðri", "jarðvegsþjappaðrar"],
+					"hk": ["jarðvegsþjappað", "jarðvegsþjappað", "jarðvegsþjöppuðu", "jarðvegsþjappaðs"]
+				},
+				"ft": {
+					"kk": ["jarðvegsþjappaðir", "jarðvegsþjappaða", "jarðvegsþjöppuðum", "jarðvegsþjappaðra"],
+					"kvk": ["jarðvegsþjappaðar", "jarðvegsþjappaðar", "jarðvegsþjöppuðum", "jarðvegsþjappaðra"],
+					"hk": ["jarðvegsþjöppuð", "jarðvegsþjöppuð", "jarðvegsþjöppuðum", "jarðvegsþjappaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-jarðvegsþjappa",
+	"hash": "4f77ab124c1bc5f4d09801bc8b8401832f2c794da4c781ab086b4baa1af3c228"
+}

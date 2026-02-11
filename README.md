@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1901 | 1749 | 1721 | 5371 | 15368 | 20422 | 21308 | 57098 | **62469** |
-| **Lýsingarorð** | 502 |   |   |   | 765 |   |   |   | 5849 | **6614** |
-| **Sagnorð**     |   |   |   |   | 1377 |   |   |   | 2004 | **3381** |
+| **Nafnorð**     |   | 1904 | 1752 | 1722 | 5378 | 15421 | 20471 | 21329 | 57221 | **62599** |
+| **Lýsingarorð** | 502 |   |   |   | 765 |   |   |   | 5858 | **6623** |
+| **Sagnorð**     |   |   |   |   | 1377 |   |   |   | 2007 | **3384** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
-| **Smáorð**      |   |   |   |   | 351 |   |   |   | 599 | **950** |
-| **Alls** |   |   |   |   | **7928** |   |   |   | **65674** | **73602** |
+| **Smáorð**      |   |   |   |   | 351 |   |   |   | 600 | **951** |
+| **Alls** |   |   |   |   | **7935** |   |   |   | **65810** | **73745** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1332 | 1283 | 16 | 2631 | 1014 | 1277 | 10 | 2301 | **4932** |
 | Kenninöfn |  |  |  |  | 4846 | 4844 | 4822 | 14512 | **14512** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **1303** |
-| Gælunöfn  | 468 | 224 | 8 | 700 | 161 | 160 | 9 | 330 | **1030** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **1304** |
+| Gælunöfn  | 468 | 225 | 8 | 701 | 161 | 160 | 9 | 330 | **1031** |
 | Örnefni   | 35 | 159 | 521 | 715 | 2667 | 1942 | 2017 | 6626 | **7341** |
-| **Alls**  |   |   |   | **5186** |   |   |   | **23932** | **29118** |
+| **Alls**  |   |   |   | **5188** |   |   |   | **23932** | **29120** |
 
-**Samtals:** 102720 orð.
+**Samtals:** 102865 orð.
 
 899 skammstafanir.
 
@@ -31,7 +31,7 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 `Python3.10` eða nýrra, `pip` og [PyPI](https://pypi.org/) pakkar listaðir í skránni `requirements.txt`.
 
-Þurfirðu eða viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu útbúið sýndarumhverfi (e. virtual environment):
+Viljirðu setja upp Python virtualenv í stað þess að nota system python (t.d. ef system python er stillt sem `externally-managed-environment`) þá geturðu útbúið sýndarumhverfi (e. virtual environment):
 
 ```bash
 python -m venv env
@@ -57,7 +57,7 @@ pip install -Ur requirements.txt
 python main.py --help
 ```
 
-Í upphafi eru orðagögnin einungis í formi textaskráa, stofna þarf SQLite gagnagrunn og lesa öłl orðin inn í hann, og svo er einnig hægt að smíða orðaforleit. Þetta má gera með skipuninni:
+Í upphafi eru orðagögnin einungis í formi textaskráa, hægt er að útbúa SQLite gagnagrunn og lesa öłl orðin inn í hann, og svo er einnig hægt að smíða orðaforleit. Þetta allt má gera með skipuninni:
 
 ```bash
 python main.py init
@@ -76,7 +76,7 @@ python main.py build-sight
 python main.py md-stats
 ```
 
-Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 94000 orð) þá tekur `init` ferlið sinn tíma. Tölva með temmilega góðan vélbúnað og linux stýrikerfi klárar það á um klukkustund, meðalgóð fartölva með linux stýrikerfi þarf um klukkustund og þrjú korter, þá hefur sýnt sig að á tölvum keyrandi windows stýrikerfi sé ferlið umtalsvert lengra, geti jafnvel tekið yfir hálftíma (skrifast líklega að mestu á mismunandi meðhöndlun fyrir transactions í SQLite miłli windows og linux).
+Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 94000 orð) þá tekur `init` ferlið sinn tíma. Tölva með temmilega góðan vélbúnað og linux stýrikerfi klárar það á um klukkustund, meðalgóð fartölva með linux stýrikerfi þarf um klukkustund og þrjú korter, þá hefur sýnt sig að á tölvum keyrandi windows stýrikerfi sé ferlið umtalsvert lengra (skrifast líklega að mestu á mismunandi meðhöndlun fyrir transactions í SQLite miłli windows og linux).
 
 Bæta við orði í gegnum skipanalínuviðmót (TUI):
 

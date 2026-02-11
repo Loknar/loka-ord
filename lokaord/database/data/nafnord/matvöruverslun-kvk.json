@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "mat",
-			"samsetning": "stofn",
-			"kennistrengur": "no-matur-kk"
-		},
-		{
-			"mynd": "vöru",
+			"mynd": "matvöru",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vara-kvk"
+			"kennistrengur": "no-matvara-kvk"
 		},
 		{
 			"kennistrengur": "no-verslun-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["matvöruverslanirnar", "matvöruverslanirnar", "matvöruverslununum", "matvöruverslananna"]
 	},
 	"kennistrengur": "no-matvöruverslun-kvk",
-	"hash": "a9102207f0c29491f81d07756e98c8dcb7c75d24f827739d75f55389ea6c7c8e"
+	"hash": "839910b47cb36b8e42a2698647fb2775d1e3abfe5338f8cae059033bf15802f8"
 }

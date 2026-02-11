@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "mat",
+			"mynd": "matvöru",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-matur-kk"
-		},
-		{
-			"mynd": "vöru",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vara-kvk"
+			"kennistrengur": "no-matvara-kvk"
 		},
 		{
 			"kennistrengur": "no-búð-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["matvörubúðirnar", "matvörubúðirnar", "matvörubúðunum", "matvörubúðanna"]
 	},
 	"kennistrengur": "no-matvörubúð-kvk",
-	"hash": "00a9ed18202aa34a26ec7f931ec83073f9171daf9a02af781fd2884d889b60fa"
+	"hash": "9ad9af13a4cacb275699dfdadbaae8f3e5de80cebed3f84fe3df5c9bc75c088a"
 }
