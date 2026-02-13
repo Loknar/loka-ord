@@ -8,7 +8,6 @@
 			"kennistrengur": "sérn.ön-Úganda-hk"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-anskur-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["úganskari", "úganskari", "úganskari", "úganskari"],
+				"kvk": ["úganskari", "úganskari", "úganskari", "úganskari"],
+				"hk": ["úganskara", "úganskara", "úganskara", "úganskara"]
+			},
+			"ft": {
+				"kk": ["úganskari", "úganskari", "úganskari", "úganskari"],
+				"kvk": ["úganskari", "úganskari", "úganskari", "úganskari"],
+				"hk": ["úganskari", "úganskari", "úganskari", "úganskari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["úganskastur", "úganskastan", "úgönskustum", "úganskasts"],
+				"kvk": ["úgönskust", "úganskasta", "úganskastri", "úganskastrar"],
+				"hk": ["úganskast", "úganskast", "úgönskustu", "úganskasts"]
+			},
+			"ft": {
+				"kk": ["úganskastir", "úganskasta", "úgönskustum", "úganskastra"],
+				"kvk": ["úganskastar", "úganskastar", "úgönskustum", "úganskastra"],
+				"hk": ["úgönskust", "úgönskust", "úgönskustum", "úganskastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["úganskasti", "úganskasta", "úganskasta", "úganskasta"],
+				"kvk": ["úganskasta", "úgönskustu", "úgönskustu", "úgönskustu"],
+				"hk": ["úganskasta", "úganskasta", "úganskasta", "úganskasta"]
+			},
+			"ft": {
+				"kk": ["úgönskustu", "úgönskustu", "úgönskustu", "úgönskustu"],
+				"kvk": ["úgönskustu", "úgönskustu", "úgönskustu", "úgönskustu"],
+				"hk": ["úgönskustu", "úgönskustu", "úgönskustu", "úgönskustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-úganskur",
-	"hash": "69ebf1513b7583eb85dc2bff345136e8cbbfb87cb8526875f0ab3184b67d171b"
+	"hash": "44a0c7fc0d8528533cbfbad32daca4ea22c02f05120824c7f2152c02645d08da"
 }

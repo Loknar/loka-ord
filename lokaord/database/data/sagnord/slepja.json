@@ -1,0 +1,146 @@
+{
+	"orð": "slepja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slepj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slepja-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slepja",
+		"sagnbót": "slepjað",
+		"boðháttur": {
+			"stýfður": "slepja",
+			"et": "slepjaðu",
+			"ft": "slepjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slepja", "slepjar", "slepjar"],
+					"ft": ["slepjum", "slepjið", "slepja"]
+				},
+				"þátíð": {
+					"et": ["slepjaði", "slepjaðir", "slepjaði"],
+					"ft": ["slepjuðum", "slepjuðuð", "slepjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slepji", "slepjir", "slepji"],
+					"ft": ["slepjum", "slepjið", "slepji"]
+				},
+				"þátíð": {
+					"et": ["slepjaði", "slepjaðir", "slepjaði"],
+					"ft": ["slepjuðum", "slepjuðuð", "slepjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slepjarðu",
+					"ft": "slepjiði"
+				},
+				"þátíð": {
+					"et": "slepjaðirðu",
+					"ft": "slepjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slepjirðu",
+					"ft": "slepjiði"
+				},
+				"þátíð": {
+					"et": "slepjaðirðu",
+					"ft": "slepjuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slepjast",
+		"sagnbót": "slepjast",
+		"boðháttur": {
+			"et": "slepjastu",
+			"ft": "slepjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slepjast", "slepjast", "slepjast"],
+					"ft": ["slepjumst", "slepjist", "slepjast"]
+				},
+				"þátíð": {
+					"et": ["slepjaðist", "slepjaðist", "slepjaðist"],
+					"ft": ["slepjuðumst", "slepjuðust", "slepjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slepjist", "slepjist", "slepjist"],
+					"ft": ["slepjumst", "slepjist", "slepjist"]
+				},
+				"þátíð": {
+					"et": ["slepjaðist", "slepjaðist", "slepjaðist"],
+					"ft": ["slepjuðumst", "slepjuðust", "slepjuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slepjastu"
+				},
+				"þátíð": {
+					"et": "slepjaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slepjistu"
+				},
+				"þátíð": {
+					"et": "slepjaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slepjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slepjaður", "slepjaðan", "slepjuðum", "slepjaðs"],
+					"kvk": ["slepjuð", "slepjaða", "slepjaðri", "slepjaðrar"],
+					"hk": ["slepjað", "slepjað", "slepjuðu", "slepjaðs"]
+				},
+				"ft": {
+					"kk": ["slepjaðir", "slepjaða", "slepjuðum", "slepjaðra"],
+					"kvk": ["slepjaðar", "slepjaðar", "slepjuðum", "slepjaðra"],
+					"hk": ["slepjuð", "slepjuð", "slepjuðum", "slepjaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["slepjaði", "slepjaða", "slepjaða", "slepjaða"],
+					"kvk": ["slepjaða", "slepjuðu", "slepjuðu", "slepjuðu"],
+					"hk": ["slepjaða", "slepjaða", "slepjaða", "slepjaða"]
+				},
+				"ft": {
+					"kk": ["slepjuðu", "slepjuðu", "slepjuðu", "slepjuðu"],
+					"kvk": ["slepjuðu", "slepjuðu", "slepjuðu", "slepjuðu"],
+					"hk": ["slepjuðu", "slepjuðu", "slepjuðu", "slepjuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slepja",
+	"hash": "4ba14a4660b69689ae554ec10f492abc0cddb321c892b7c65410a9903cdc21f0"
+}
