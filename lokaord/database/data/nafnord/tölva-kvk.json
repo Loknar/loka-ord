@@ -2,14 +2,24 @@
 	"orð": "tölva",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tölv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-tala-kvk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tölva", "tölvu", "tölvu", "tölvu"],
 		"mg": ["tölvan", "tölvuna", "tölvunni", "tölvunnar"]
 	},
 	"ft": {
-		"ág": ["tölvur", "tölvur", "tölvum", "talva"],
-		"mg": ["tölvurnar", "tölvurnar", "tölvunum", "talvanna"]
+		"ág": ["tölvur", "tölvur", "tölvum", "tölva"],
+		"mg": ["tölvurnar", "tölvurnar", "tölvunum", "tölvanna"]
 	},
 	"kennistrengur": "no-tölva-kvk",
-	"hash": "e4ce2ec8240e18e9209eff170dcf760ac45845274a63efe598e442ea4818c2c2"
+	"hash": "99ceaf7598c0fe737c429cf626e03b82a6ecb717d5233a15ffcf3d3d77a10908"
 }

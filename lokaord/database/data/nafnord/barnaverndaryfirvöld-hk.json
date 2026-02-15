@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "barna",
+			"mynd": "barnaverndar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-barn-hk"
-		},
-		{
-			"mynd": "verndar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vernd-kvk"
-		},
-		{
-			"mynd": "yfir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-yfir"
+			"kennistrengur": "no-barnavernd-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-vald-hk"
+			"kennistrengur": "no-yfirvald-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["barnaverndaryfirvöldin", "barnaverndaryfirvöldin", "barnaverndaryfirvöldunum", "barnaverndaryfirvaldanna"]
 	},
 	"kennistrengur": "no-barnaverndaryfirvöld-hk",
-	"hash": "b5117dd2fa7a2b8734c140c357bb4e512bdbf78d99f60d6d5f2ad72d5ba779f9"
+	"hash": "9d32d40ea04a523ba3112be2da35af4a9bc9d42844234d81b38bf4751d92560e"
 }

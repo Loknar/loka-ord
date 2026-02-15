@@ -1,0 +1,95 @@
+{
+	"orð": "glimra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "glimr",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-glim-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "glimra",
+		"sagnbót": "glimrað",
+		"boðháttur": {
+			"stýfður": "glimra",
+			"et": "glimraðu",
+			"ft": "glimrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glimra", "glimrar", "glimrar"],
+					"ft": ["glimrum", "glimrið", "glimra"]
+				},
+				"þátíð": {
+					"et": ["glimraði", "glimraðir", "glimraði"],
+					"ft": ["glimruðum", "glimruðuð", "glimruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glimri", "glimrir", "glimri"],
+					"ft": ["glimrum", "glimrið", "glimri"]
+				},
+				"þátíð": {
+					"et": ["glimraði", "glimraðir", "glimraði"],
+					"ft": ["glimruðum", "glimruðuð", "glimruðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "glimrast",
+		"sagnbót": "glimrast",
+		"boðháttur": {
+			"et": "glimrastu",
+			"ft": "glimrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["glimrast", "glimrast", "glimrast"],
+					"ft": ["glimrumst", "glimrist", "glimrast"]
+				},
+				"þátíð": {
+					"et": ["glimraðist", "glimraðist", "glimraðist"],
+					"ft": ["glimruðumst", "glimruðust", "glimruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["glimrist", "glimrist", "glimrist"],
+					"ft": ["glimrumst", "glimrist", "glimrist"]
+				},
+				"þátíð": {
+					"et": ["glimraðist", "glimraðist", "glimraðist"],
+					"ft": ["glimruðumst", "glimruðust", "glimruðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "glimrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["glimraður", "glimraðan", "glimruðum", "glimraðs"],
+					"kvk": ["glimruð", "glimraða", "glimraðri", "glimraðrar"],
+					"hk": ["glimrað", "glimrað", "glimruðu", "glimraðs"]
+				},
+				"ft": {
+					"kk": ["glimraðir", "glimraða", "glimruðum", "glimraðra"],
+					"kvk": ["glimraðar", "glimraðar", "glimruðum", "glimraðra"],
+					"hk": ["glimruð", "glimruð", "glimruðum", "glimraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-glimra",
+	"hash": "6bd2d7b297bdcd7c3551e0a118bbb37c9546ae7ee4975f9b3dafd5100284d3ac"
+}

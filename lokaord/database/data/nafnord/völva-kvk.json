@@ -2,14 +2,24 @@
 	"orð": "völva",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "völv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-völur-kk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["völva", "völvu", "völvu", "völvu"],
 		"mg": ["völvan", "völvuna", "völvunni", "völvunnar"]
 	},
 	"ft": {
-		"ág": ["völvur", "völvur", "völvum", "valva"],
-		"mg": ["völvurnar", "völvurnar", "völvunum", "valvanna"]
+		"ág": ["völvur", "völvur", "völvum", "völva"],
+		"mg": ["völvurnar", "völvurnar", "völvunum", "völvanna"]
 	},
 	"kennistrengur": "no-völva-kvk",
-	"hash": "7bb696b4163f430c8229a18ff52f6b72a3c782ee098ce955cbc299968ab7eb06"
+	"hash": "0d656d9e010c79524d5b6fbe43a343709bcea896b46b22db7af2ef391c7b9660"
 }
