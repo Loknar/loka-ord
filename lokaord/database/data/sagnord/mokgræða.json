@@ -1,0 +1,70 @@
+{
+	"orð": "mokgræða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mok",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mok-hk"
+		},
+		{
+			"beygingar": ["germynd"],
+			"kennistrengur": "so-græða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mokgræða",
+		"sagnbót": "mokgrætt",
+		"boðháttur": {
+			"stýfður": "mokgræð",
+			"et": "mokgræddu",
+			"ft": "mokgræðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mokgræði", "mokgræðir", "mokgræðir"],
+					"ft": ["mokgræðum", "mokgræðið", "mokgræða"]
+				},
+				"þátíð": {
+					"et": ["mokgræddi", "mokgræddir", "mokgræddi"],
+					"ft": ["mokgræddum", "mokgrædduð", "mokgræddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mokgræði", "mokgræðir", "mokgræði"],
+					"ft": ["mokgræðum", "mokgræðið", "mokgræði"]
+				},
+				"þátíð": {
+					"et": ["mokgræddi", "mokgræddir", "mokgræddi"],
+					"ft": ["mokgræddum", "mokgrædduð", "mokgræddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mokgræðirðu",
+					"ft": "mokgræðiði"
+				},
+				"þátíð": {
+					"et": "mokgræddirðu",
+					"ft": "mokgrædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mokgræðirðu",
+					"ft": "mokgræðiði"
+				},
+				"þátíð": {
+					"et": "mokgræddirðu",
+					"ft": "mokgrædduði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mokgræða",
+	"hash": "e689cc204a4c7b65e08b2b7c12cfc36602d1b22c3608a99819d63928e6c77d22"
+}

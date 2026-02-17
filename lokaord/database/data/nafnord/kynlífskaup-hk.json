@@ -1,0 +1,22 @@
+{
+	"orð": "kynlífskaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "kynlífs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kynlíf-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["kynlífskaup", "kynlífskaup", "kynlífskaupum", "kynlífskaupa"],
+		"mg": ["kynlífskaupin", "kynlífskaupin", "kynlífskaupunum", "kynlífskaupanna"]
+	},
+	"kennistrengur": "no-kynlífskaup-hk",
+	"hash": "5fd343b3831f1e64e279f7d90300f64015215605d702e2245e9ac8a08b336cbb"
+}

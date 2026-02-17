@@ -1,0 +1,121 @@
+{
+	"orð": "hrísla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrísl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hrísla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hrísla",
+		"sagnbót": "hríslað",
+		"boðháttur": {
+			"stýfður": "hrísla",
+			"et": "hríslaðu",
+			"ft": "hríslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrísla", "hríslar", "hríslar"],
+					"ft": ["hríslum", "hríslið", "hrísla"]
+				},
+				"þátíð": {
+					"et": ["hríslaði", "hríslaðir", "hríslaði"],
+					"ft": ["hrísluðum", "hrísluðuð", "hrísluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrísli", "hríslir", "hrísli"],
+					"ft": ["hríslum", "hríslið", "hrísli"]
+				},
+				"þátíð": {
+					"et": ["hríslaði", "hríslaðir", "hríslaði"],
+					"ft": ["hrísluðum", "hrísluðuð", "hrísluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hríslarðu",
+					"ft": "hrísliði"
+				},
+				"þátíð": {
+					"et": "hríslaðirðu",
+					"ft": "hrísluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hríslirðu",
+					"ft": "hrísliði"
+				},
+				"þátíð": {
+					"et": "hríslaðirðu",
+					"ft": "hrísluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hríslast",
+		"sagnbót": "hríslast",
+		"boðháttur": {
+			"et": "hríslastu",
+			"ft": "hríslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hríslast", "hríslast", "hríslast"],
+					"ft": ["hríslumst", "hríslist", "hríslast"]
+				},
+				"þátíð": {
+					"et": ["hríslaðist", "hríslaðist", "hríslaðist"],
+					"ft": ["hrísluðumst", "hrísluðust", "hrísluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hríslist", "hríslist", "hríslist"],
+					"ft": ["hríslumst", "hríslist", "hríslist"]
+				},
+				"þátíð": {
+					"et": ["hríslaðist", "hríslaðist", "hríslaðist"],
+					"ft": ["hrísluðumst", "hrísluðust", "hrísluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hríslastu"
+				},
+				"þátíð": {
+					"et": "hríslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hríslistu"
+				},
+				"þátíð": {
+					"et": "hríslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hríslandi"
+	},
+	"kennistrengur": "so-hrísla",
+	"hash": "03156567c9da0ce9e1fb3787d89a59036df40d944089baebb57fcc090d3bc7d9"
+}

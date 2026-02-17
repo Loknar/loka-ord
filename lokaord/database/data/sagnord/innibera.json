@@ -1,0 +1,158 @@
+{
+	"orð": "innibera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "inni",
+			"samsetning": "bandstafs",
+			"kennistrengur": "smáo.ao-inn"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "innibera",
+		"sagnbót": "inniborið",
+		"boðháttur": {
+			"stýfður": "inniber",
+			"et": "inniberðu",
+			"ft": "inniberið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["inniber", "inniberð", "inniber"],
+					"ft": ["inniberum", "inniberið", "innibera"]
+				},
+				"þátíð": {
+					"et": ["innibar", "innibarst", "innibar"],
+					"ft": ["innibárum", "innibáruð", "innibáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["inniberi", "inniberir", "inniberi"],
+					"ft": ["inniberum", "inniberið", "inniberi"]
+				},
+				"þátíð": {
+					"et": ["innibæri", "innibærir", "innibæri"],
+					"ft": ["innibærum", "innibæruð", "innibæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "inniberðu",
+					"ft": "inniberiði"
+				},
+				"þátíð": {
+					"et": "innibarstu",
+					"ft": "innibáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "inniberirðu",
+					"ft": "inniberiði"
+				},
+				"þátíð": {
+					"et": "innibærirðu",
+					"ft": "innibæruði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "inniberast",
+		"sagnbót": "inniborist",
+		"boðháttur": {
+			"et": "inniberstu",
+			"ft": "inniberist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["inniberst", "inniberst", "inniberst"],
+					"ft": ["inniberumst", "inniberist", "inniberast"]
+				},
+				"þátíð": {
+					"et": ["innibarst", "innibarst", "innibarst"],
+					"ft": ["innibárumst", "innibárust", "innibárust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["inniberist", "inniberist", "inniberist"],
+					"ft": ["inniberumst", "inniberist", "inniberist"]
+				},
+				"þátíð": {
+					"et": ["innibærist", "innibærist", "innibærist"],
+					"ft": ["innibærumst", "innibærust", "innibærust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["inniberst", "inniberst", "inniberst"],
+					"ft": ["inniberst", "inniberst", "inniberst"]
+				},
+				"þátíð": {
+					"et": ["innibarst", "innibarst", "innibarst"],
+					"ft": ["innibarst", "innibarst", "innibarst"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["inniberist", "inniberist", "inniberist"],
+					"ft": ["inniberist", "inniberist", "inniberist"]
+				},
+				"þátíð": {
+					"et": ["innibærist", "innibærist", "innibærist"],
+					"ft": ["innibærist", "innibærist", "innibærist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "inniberstu"
+				},
+				"þátíð": {
+					"et": "innibarstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "inniberistu"
+				},
+				"þátíð": {
+					"et": "innibæristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "inniberandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["inniborinn", "inniborinn", "innibornum", "inniborins"],
+					"kvk": ["inniborin", "inniborna", "inniborinni", "inniborinnar"],
+					"hk": ["inniborið", "inniborið", "innibornu", "inniborins"]
+				},
+				"ft": {
+					"kk": ["innibornir", "inniborna", "innibornum", "inniborinna"],
+					"kvk": ["innibornar", "innibornar", "innibornum", "inniborinna"],
+					"hk": ["inniborin", "inniborin", "innibornum", "inniborinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-innibera",
+	"hash": "ffd8c211f2e14b73a7ae5a1b35c8dde3afa1c39c9a17bfa4485574752d0d21c3"
+}
