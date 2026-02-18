@@ -1,0 +1,48 @@
+{
+	"orð": "geigvænlegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "geig",
+			"samsetning": "stofn",
+			"kennistrengur": "no-geigur-kk"
+		},
+		{
+			"mynd": "væn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-vænn"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["geigvænlegur", "geigvænlegan", "geigvænlegum", "geigvænlegs"],
+				"kvk": ["geigvænleg", "geigvænlega", "geigvænlegri", "geigvænlegrar"],
+				"hk": ["geigvænlegt", "geigvænlegt", "geigvænlegu", "geigvænlegs"]
+			},
+			"ft": {
+				"kk": ["geigvænlegir", "geigvænlega", "geigvænlegum", "geigvænlegra"],
+				"kvk": ["geigvænlegar", "geigvænlegar", "geigvænlegum", "geigvænlegra"],
+				"hk": ["geigvænleg", "geigvænleg", "geigvænlegum", "geigvænlegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["geigvænlegi", "geigvænlega", "geigvænlega", "geigvænlega"],
+				"kvk": ["geigvænlega", "geigvænlegu", "geigvænlegu", "geigvænlegu"],
+				"hk": ["geigvænlega", "geigvænlega", "geigvænlega", "geigvænlega"]
+			},
+			"ft": {
+				"kk": ["geigvænlegu", "geigvænlegu", "geigvænlegu", "geigvænlegu"],
+				"kvk": ["geigvænlegu", "geigvænlegu", "geigvænlegu", "geigvænlegu"],
+				"hk": ["geigvænlegu", "geigvænlegu", "geigvænlegu", "geigvænlegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-geigvænlegur",
+	"hash": "6b8571aed15a1265e7b6d93df00d0e4ffdf9f01310e15d43ce1901ac47bf417e"
+}
