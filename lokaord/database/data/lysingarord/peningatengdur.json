@@ -1,0 +1,43 @@
+{
+	"orð": "peningatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "peninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-peningur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["peningatengdur", "peningatengdan", "peningatengdum", "peningatengds"],
+				"kvk": ["peningatengd", "peningatengda", "peningatengdri", "peningatengdrar"],
+				"hk": ["peningatengt", "peningatengt", "peningatengdu", "peningatengds"]
+			},
+			"ft": {
+				"kk": ["peningatengdir", "peningatengda", "peningatengdum", "peningatengdra"],
+				"kvk": ["peningatengdar", "peningatengdar", "peningatengdum", "peningatengdra"],
+				"hk": ["peningatengd", "peningatengd", "peningatengdum", "peningatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["peningatengdi", "peningatengda", "peningatengda", "peningatengda"],
+				"kvk": ["peningatengda", "peningatengdu", "peningatengdu", "peningatengdu"],
+				"hk": ["peningatengda", "peningatengda", "peningatengda", "peningatengda"]
+			},
+			"ft": {
+				"kk": ["peningatengdu", "peningatengdu", "peningatengdu", "peningatengdu"],
+				"kvk": ["peningatengdu", "peningatengdu", "peningatengdu", "peningatengdu"],
+				"hk": ["peningatengdu", "peningatengdu", "peningatengdu", "peningatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-peningatengdur",
+	"hash": "72ceac84bc4f4c9caeb3f58daf735a37e47887ad493bd76e599f2ba97937edee"
+}

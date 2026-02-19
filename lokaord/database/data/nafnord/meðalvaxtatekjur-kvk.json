@@ -1,0 +1,27 @@
+{
+	"orð": "meðalvaxtatekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "meðal",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-meðal"
+		},
+		{
+			"mynd": "vaxta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vöxtur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["meðalvaxtatekjur", "meðalvaxtatekjur", "meðalvaxtatekjum", "meðalvaxtatekna"],
+		"mg": ["meðalvaxtatekjurnar", "meðalvaxtatekjurnar", "meðalvaxtatekjunum", "meðalvaxtateknanna"]
+	},
+	"kennistrengur": "no-meðalvaxtatekjur-kvk",
+	"hash": "32a750afe7c4a8f388edf12ebe1b34c322bd1c0197ddf98740599d3cc6de3ca7"
+}

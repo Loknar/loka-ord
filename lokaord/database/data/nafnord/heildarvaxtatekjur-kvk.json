@@ -1,0 +1,27 @@
+{
+	"orð": "heildarvaxtatekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "vaxta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vöxtur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["heildarvaxtatekjur", "heildarvaxtatekjur", "heildarvaxtatekjum", "heildarvaxtatekna"],
+		"mg": ["heildarvaxtatekjurnar", "heildarvaxtatekjurnar", "heildarvaxtatekjunum", "heildarvaxtateknanna"]
+	},
+	"kennistrengur": "no-heildarvaxtatekjur-kvk",
+	"hash": "5141720c8e62472d565cae1d830de4ef929a465bb49109c446dc2ab5498a0b0c"
+}

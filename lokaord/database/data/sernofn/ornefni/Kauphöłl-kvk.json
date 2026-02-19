@@ -5,13 +5,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "Kaup",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kaup-hk"
-		},
-		{
+			"hástafa": true,
 			"beygingar": ["et"],
-			"kennistrengur": "no-höłl-kvk"
+			"kennistrengur": "no-kauphöłl-kvk"
 		}
 	],
 	"et": {
@@ -19,5 +15,5 @@
 		"mg": ["Kauphöłlin", "Kauphöłlina", "Kauphöłlinni", "Kauphałlarinnar"]
 	},
 	"kennistrengur": "sérn.ön-Kauphöłl-kvk",
-	"hash": "54ec0fe02501148f2111e0698b71b9a5a455316d02c867159a9fd3ab53db9dfd"
+	"hash": "4db14bf192cba1aca7fbf131b001a04b35dbd72943b4647afc608b4dacb7c569"
 }
