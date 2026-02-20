@@ -1,0 +1,135 @@
+{
+	"orð": "krukka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "krukk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-krukk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "krukka",
+		"sagnbót": "krukkað",
+		"boðháttur": {
+			"stýfður": "krukka",
+			"et": "krukkaðu",
+			"ft": "krukkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krukka", "krukkar", "krukkar"],
+					"ft": ["krukkum", "krukkið", "krukka"]
+				},
+				"þátíð": {
+					"et": ["krukkaði", "krukkaðir", "krukkaði"],
+					"ft": ["krukkuðum", "krukkuðuð", "krukkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krukki", "krukkir", "krukki"],
+					"ft": ["krukkum", "krukkið", "krukki"]
+				},
+				"þátíð": {
+					"et": ["krukkaði", "krukkaðir", "krukkaði"],
+					"ft": ["krukkuðum", "krukkuðuð", "krukkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "krukkarðu",
+					"ft": "krukkiði"
+				},
+				"þátíð": {
+					"et": "krukkaðirðu",
+					"ft": "krukkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "krukkirðu",
+					"ft": "krukkiði"
+				},
+				"þátíð": {
+					"et": "krukkaðirðu",
+					"ft": "krukkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "krukkast",
+		"sagnbót": "krukkast",
+		"boðháttur": {
+			"et": "krukkastu",
+			"ft": "krukkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krukkast", "krukkast", "krukkast"],
+					"ft": ["krukkumst", "krukkist", "krukkast"]
+				},
+				"þátíð": {
+					"et": ["krukkaðist", "krukkaðist", "krukkaðist"],
+					"ft": ["krukkuðumst", "krukkuðust", "krukkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krukkist", "krukkist", "krukkist"],
+					"ft": ["krukkumst", "krukkist", "krukkist"]
+				},
+				"þátíð": {
+					"et": ["krukkaðist", "krukkaðist", "krukkaðist"],
+					"ft": ["krukkuðumst", "krukkuðust", "krukkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "krukkastu"
+				},
+				"þátíð": {
+					"et": "krukkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "krukkistu"
+				},
+				"þátíð": {
+					"et": "krukkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "krukkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["krukkaður", "krukkaðan", "krukkuðum", "krukkaðs"],
+					"kvk": ["krukkuð", "krukkaða", "krukkaðri", "krukkaðrar"],
+					"hk": ["krukkað", "krukkað", "krukkuðu", "krukkaðs"]
+				},
+				"ft": {
+					"kk": ["krukkaðir", "krukkaða", "krukkuðum", "krukkaðra"],
+					"kvk": ["krukkaðar", "krukkaðar", "krukkuðum", "krukkaðra"],
+					"hk": ["krukkuð", "krukkuð", "krukkuðum", "krukkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-krukka",
+	"hash": "717bd5a67b2a9b05be2c37985851be655732e42280c423ca8826cf87362f8046"
+}
