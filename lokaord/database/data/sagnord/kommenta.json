@@ -1,0 +1,87 @@
+{
+	"orð": "kommenta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "komment",
+			"samsetning": "stofn",
+			"kennistrengur": "no-komment-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kommenta",
+		"sagnbót": "kommentað",
+		"boðháttur": {
+			"stýfður": "kommenta",
+			"et": "kommentaðu",
+			"ft": "kommentið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kommenta", "kommentar", "kommentar"],
+					"ft": ["kommentum", "kommentið", "kommenta"]
+				},
+				"þátíð": {
+					"et": ["kommentaði", "kommentaðir", "kommentaði"],
+					"ft": ["kommentuðum", "kommentuðuð", "kommentuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kommenti", "kommentir", "kommenti"],
+					"ft": ["kommentum", "kommentið", "kommenti"]
+				},
+				"þátíð": {
+					"et": ["kommentaði", "kommentaðir", "kommentaði"],
+					"ft": ["kommentuðum", "kommentuðuð", "kommentuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kommentarðu",
+					"ft": "kommentiði"
+				},
+				"þátíð": {
+					"et": "kommentaðirðu",
+					"ft": "kommentuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kommentirðu",
+					"ft": "kommentiði"
+				},
+				"þátíð": {
+					"et": "kommentaðirðu",
+					"ft": "kommentuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kommentandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kommentaður", "kommentaðan", "kommentuðum", "kommentaðs"],
+					"kvk": ["kommentuð", "kommentaða", "kommentaðri", "kommentaðrar"],
+					"hk": ["kommentað", "kommentað", "kommentuðu", "kommentaðs"]
+				},
+				"ft": {
+					"kk": ["kommentaðir", "kommentaða", "kommentuðum", "kommentaðra"],
+					"kvk": ["kommentaðar", "kommentaðar", "kommentuðum", "kommentaðra"],
+					"hk": ["kommentuð", "kommentuð", "kommentuðum", "kommentaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kommenta",
+	"hash": "083d3d82aa146409f1081e9c83f6b3970ef7967673a048e0586b92263ab694b4"
+}

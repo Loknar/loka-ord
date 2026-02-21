@@ -2,10 +2,21 @@
 	"orð": "leti",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "let",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-latur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["leti", "leti", "leti", "leti"],
 		"mg": ["letin", "letina", "letinni", "letinnar"]
 	},
 	"kennistrengur": "no-leti-kvk",
-	"hash": "63f18a6f121d6fab461e62c2dcd3f4dcbb25b97f52c200863d79d6d324b96bb0"
+	"hash": "cb9ba539ca50524658edbb30c100888d27a32449ad638a14486b47e38ffc5066"
 }

@@ -1,0 +1,64 @@
+{
+	"orð": "berklaprófa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "berkla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-berkiłl-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-prófa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "berklaprófa",
+		"sagnbót": "berklaprófað",
+		"boðháttur": {
+			"stýfður": "berklaprófa",
+			"et": "berklaprófaðu",
+			"ft": "berklaprófið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["berklaprófa", "berklaprófar", "berklaprófar"],
+					"ft": ["berklaprófum", "berklaprófið", "berklaprófa"]
+				},
+				"þátíð": {
+					"et": ["berklaprófaði", "berklaprófaðir", "berklaprófaði"],
+					"ft": ["berklaprófuðum", "berklaprófuðuð", "berklaprófuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["berklaprófi", "berklaprófir", "berklaprófi"],
+					"ft": ["berklaprófum", "berklaprófið", "berklaprófi"]
+				},
+				"þátíð": {
+					"et": ["berklaprófaði", "berklaprófaðir", "berklaprófaði"],
+					"ft": ["berklaprófuðum", "berklaprófuðuð", "berklaprófuðu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["berklaprófaður", "berklaprófaðan", "berklaprófuðum", "berklaprófaðs"],
+					"kvk": ["berklaprófuð", "berklaprófaða", "berklaprófaðri", "berklaprófaðrar"],
+					"hk": ["berklaprófað", "berklaprófað", "berklaprófuðu", "berklaprófaðs"]
+				},
+				"ft": {
+					"kk": ["berklaprófaðir", "berklaprófaða", "berklaprófuðum", "berklaprófaðra"],
+					"kvk": ["berklaprófaðar", "berklaprófaðar", "berklaprófuðum", "berklaprófaðra"],
+					"hk": ["berklaprófuð", "berklaprófuð", "berklaprófuðum", "berklaprófaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-berklaprófa",
+	"hash": "71fb117ff6d2130fdbc70d038a72096e5562e95b798571408a95a9ac3b10c3ad"
+}

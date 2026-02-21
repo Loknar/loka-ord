@@ -1,0 +1,30 @@
+{
+	"orð": "listkennsludeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "list",
+			"samsetning": "stofn",
+			"kennistrengur": "no-list-kvk"
+		},
+		{
+			"mynd": "kennslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kennsla-kvk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["listkennsludeild", "listkennsludeild", "listkennsludeild", "listkennsludeildar"],
+		"mg": ["listkennsludeildin", "listkennsludeildina", "listkennsludeildinni", "listkennsludeildarinnar"]
+	},
+	"ft": {
+		"ág": ["listkennsludeildir", "listkennsludeildir", "listkennsludeildum", "listkennsludeilda"],
+		"mg": ["listkennsludeildirnar", "listkennsludeildirnar", "listkennsludeildunum", "listkennsludeildanna"]
+	},
+	"kennistrengur": "no-listkennsludeild-kvk",
+	"hash": "0293bdfb23a91b62a3ff14dbfcb26f3f44ec9d578a5b272c4bc9c47221e7aaa1"
+}
