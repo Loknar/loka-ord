@@ -1,6 +1,16 @@
 {
 	"orð": "rækta",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rækt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rækt-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "rækta",
 		"sagnbót": "ræktað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "ræktast",
 		"sagnbót": "ræktast",
+		"boðháttur": {
+			"et": "ræktastu",
+			"ft": "ræktist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-rækta",
-	"hash": "ff2a084f5386778d48b1f85c672eab9c012bb06524d6f63ba63ced635d5d7d70"
+	"hash": "fc800e45490a562b653f3c9526ac52a34739c8209b70a8c0a9fd40ddfd9e2ac5"
 }
