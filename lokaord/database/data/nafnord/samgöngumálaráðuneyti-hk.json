@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "samgöngu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "no-samgöngur-kvk"
-		},
-		{
-			"mynd": "mála",
+			"mynd": "samgöngumála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-samgöngumál-hk"
 		},
 		{
-			"mynd": "ráðu",
-			"samsetning": "bandstafs",
-			"kennistrengur": "no-ráð-hk"
-		},
-		{
-			"kennistrengur": "no-neyti-hk"
+			"kennistrengur": "no-ráðuneyti-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["samgöngumálaráðuneytin", "samgöngumálaráðuneytin", "samgöngumálaráðuneytunum", "samgöngumálaráðuneytanna"]
 	},
 	"kennistrengur": "no-samgöngumálaráðuneyti-hk",
-	"hash": "a3e50da625d3b01c6f08db4cb708703517fff627445026e940e6f7f6fa4ec97f"
+	"hash": "3efbdbc1a1ccc58ab660d375963487856cac7fff1175bef82a3499f14bfaf867"
 }

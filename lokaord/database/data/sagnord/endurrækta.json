@@ -1,0 +1,99 @@
+{
+	"orð": "endurrækta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-rækta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurrækta",
+		"sagnbót": "endurræktað",
+		"boðháttur": {
+			"stýfður": "endurrækta",
+			"et": "endurræktaðu",
+			"ft": "endurræktið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurrækta", "endurræktar", "endurræktar"],
+					"ft": ["endurræktum", "endurræktið", "endurrækta"]
+				},
+				"þátíð": {
+					"et": ["endurræktaði", "endurræktaðir", "endurræktaði"],
+					"ft": ["endurræktuðum", "endurræktuðuð", "endurræktuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurrækti", "endurræktir", "endurrækti"],
+					"ft": ["endurræktum", "endurræktið", "endurrækti"]
+				},
+				"þátíð": {
+					"et": ["endurræktaði", "endurræktaðir", "endurræktaði"],
+					"ft": ["endurræktuðum", "endurræktuðuð", "endurræktuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurræktarðu",
+					"ft": "endurræktiði"
+				},
+				"þátíð": {
+					"et": "endurræktaðirðu",
+					"ft": "endurræktuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurræktirðu",
+					"ft": "endurræktiði"
+				},
+				"þátíð": {
+					"et": "endurræktaðirðu",
+					"ft": "endurræktuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurræktandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurræktaður", "endurræktaðan", "endurræktuðum", "endurræktaðs"],
+					"kvk": ["endurræktuð", "endurræktaða", "endurræktaðri", "endurræktaðrar"],
+					"hk": ["endurræktað", "endurræktað", "endurræktuðu", "endurræktaðs"]
+				},
+				"ft": {
+					"kk": ["endurræktaðir", "endurræktaða", "endurræktuðum", "endurræktaðra"],
+					"kvk": ["endurræktaðar", "endurræktaðar", "endurræktuðum", "endurræktaðra"],
+					"hk": ["endurræktuð", "endurræktuð", "endurræktuðum", "endurræktaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["endurræktaði", "endurræktaða", "endurræktaða", "endurræktaða"],
+					"kvk": ["endurræktaða", "endurræktuðu", "endurræktuðu", "endurræktuðu"],
+					"hk": ["endurræktaða", "endurræktaða", "endurræktaða", "endurræktaða"]
+				},
+				"ft": {
+					"kk": ["endurræktuðu", "endurræktuðu", "endurræktuðu", "endurræktuðu"],
+					"kvk": ["endurræktuðu", "endurræktuðu", "endurræktuðu", "endurræktuðu"],
+					"hk": ["endurræktuðu", "endurræktuðu", "endurræktuðu", "endurræktuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurrækta",
+	"hash": "3b99eda41ce6197e29d150f93f0314dd0f371730d7d3377f79c905f15841e5d4"
+}
