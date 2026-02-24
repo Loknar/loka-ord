@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kyrr",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-kyrr"
-		},
-		{
-			"mynd": "stöðu",
+			"mynd": "kyrrstöðu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-staða-kvk"
-		},
-		{
-			"mynd": "stjórn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stjórn-kvk"
+			"kennistrengur": "no-kyrrstaða-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-stjórnmál-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["kyrrstöðustjórnmálin", "kyrrstöðustjórnmálin", "kyrrstöðustjórnmálunum", "kyrrstöðustjórnmálanna"]
 	},
 	"kennistrengur": "no-kyrrstöðustjórnmál-hk",
-	"hash": "91789a964901a8f995c874f70f7f071a546936cc541108728586173aff4bba75"
+	"hash": "22ee28489dd81ff340069c5deef161a9f3f985142bfd01f4677f681f97bd298b"
 }

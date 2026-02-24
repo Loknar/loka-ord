@@ -1,0 +1,65 @@
+{
+	"orð": "ókyrrast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-kyrra"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ókyrrast",
+		"sagnbót": "ókyrrst",
+		"boðháttur": {
+			"et": "ókyrrstu",
+			"ft": "ókyrrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ókyrrist", "ókyrrist", "ókyrrist"],
+					"ft": ["ókyrrumst", "ókyrrist", "ókyrrast"]
+				},
+				"þátíð": {
+					"et": ["ókyrrðist", "ókyrrðist", "ókyrrðist"],
+					"ft": ["ókyrrðumst", "ókyrrðust", "ókyrrðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ókyrrist", "ókyrrist", "ókyrrist"],
+					"ft": ["ókyrrumst", "ókyrrist", "ókyrrist"]
+				},
+				"þátíð": {
+					"et": ["ókyrrðist", "ókyrrðist", "ókyrrðist"],
+					"ft": ["ókyrrðumst", "ókyrrðust", "ókyrrðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ókyrristu"
+				},
+				"þátíð": {
+					"et": "ókyrrðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ókyrristu"
+				},
+				"þátíð": {
+					"et": "ókyrrðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ókyrrast",
+	"hash": "b7882c6d3a7c8a2e725ed30895702692dc51d0eed08e319578a7640c70e546b1"
+}

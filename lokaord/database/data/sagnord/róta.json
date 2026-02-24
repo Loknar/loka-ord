@@ -1,0 +1,135 @@
+{
+	"orð": "róta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rót",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rót-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "róta",
+		"sagnbót": "rótað",
+		"boðháttur": {
+			"stýfður": "róta",
+			"et": "rótaðu",
+			"ft": "rótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["róta", "rótar", "rótar"],
+					"ft": ["rótum", "rótið", "róta"]
+				},
+				"þátíð": {
+					"et": ["rótaði", "rótaðir", "rótaði"],
+					"ft": ["rótuðum", "rótuðuð", "rótuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["róti", "rótir", "róti"],
+					"ft": ["rótum", "rótið", "róti"]
+				},
+				"þátíð": {
+					"et": ["rótaði", "rótaðir", "rótaði"],
+					"ft": ["rótuðum", "rótuðuð", "rótuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rótarðu",
+					"ft": "rótiði"
+				},
+				"þátíð": {
+					"et": "rótaðirðu",
+					"ft": "rótuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rótirðu",
+					"ft": "rótiði"
+				},
+				"þátíð": {
+					"et": "rótaðirðu",
+					"ft": "rótuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rótast",
+		"sagnbót": "rótast",
+		"boðháttur": {
+			"et": "rótastu",
+			"ft": "rótist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rótast", "rótast", "rótast"],
+					"ft": ["rótumst", "rótist", "rótast"]
+				},
+				"þátíð": {
+					"et": ["rótaðist", "rótaðist", "rótaðist"],
+					"ft": ["rótuðumst", "rótuðust", "rótuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rótist", "rótist", "rótist"],
+					"ft": ["rótumst", "rótist", "rótist"]
+				},
+				"þátíð": {
+					"et": ["rótaðist", "rótaðist", "rótaðist"],
+					"ft": ["rótuðumst", "rótuðust", "rótuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rótastu"
+				},
+				"þátíð": {
+					"et": "rótaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rótistu"
+				},
+				"þátíð": {
+					"et": "rótaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rótaður", "rótaðan", "rótuðum", "rótaðs"],
+					"kvk": ["rótuð", "rótaða", "rótaðri", "rótaðrar"],
+					"hk": ["rótað", "rótað", "rótuðu", "rótaðs"]
+				},
+				"ft": {
+					"kk": ["rótaðir", "rótaða", "rótuðum", "rótaðra"],
+					"kvk": ["rótaðar", "rótaðar", "rótuðum", "rótaðra"],
+					"hk": ["rótuð", "rótuð", "rótuðum", "rótaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-róta",
+	"hash": "c98bd583e8be6f86cec0affa3004e8b0bf1861b0a7681519a2eea1e241052ea8"
+}

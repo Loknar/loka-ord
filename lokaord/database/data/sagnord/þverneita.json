@@ -1,0 +1,73 @@
+{
+	"orð": "þverneita",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þver",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þver"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-neita"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þverneita",
+		"sagnbót": "þverneitað",
+		"boðháttur": {
+			"stýfður": "þverneita",
+			"et": "þverneitaðu",
+			"ft": "þverneitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þverneita", "þverneitar", "þverneitar"],
+					"ft": ["þverneitum", "þverneitið", "þverneita"]
+				},
+				"þátíð": {
+					"et": ["þverneitaði", "þverneitaðir", "þverneitaði"],
+					"ft": ["þverneituðum", "þverneituðuð", "þverneituðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þverneiti", "þverneitir", "þverneiti"],
+					"ft": ["þverneitum", "þverneitið", "þverneiti"]
+				},
+				"þátíð": {
+					"et": ["þverneitaði", "þverneitaðir", "þverneitaði"],
+					"ft": ["þverneituðum", "þverneituðuð", "þverneituðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þverneitarðu",
+					"ft": "þverneitiði"
+				},
+				"þátíð": {
+					"et": "þverneitaðirðu",
+					"ft": "þverneituðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þverneitirðu",
+					"ft": "þverneitiði"
+				},
+				"þátíð": {
+					"et": "þverneitaðirðu",
+					"ft": "þverneituðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þverneitandi"
+	},
+	"kennistrengur": "so-þverneita",
+	"hash": "7f1f08782d9665aa42104b591a9e655ce77ea78e6d630fab24ee0f839fe78ffb"
+}

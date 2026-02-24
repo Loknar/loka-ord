@@ -5,28 +5,19 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "Dýra",
+			"mynd": "Dýraverndar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dýr-hk"
+			"kennistrengur": "no-dýravernd-kvk"
 		},
 		{
-			"mynd": "verndar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vernd-kvk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["et-ág"],
-			"kennistrengur": "no-band-hk"
+			"beygingar": ["et"],
+			"kennistrengur": "no-samband-hk"
 		}
 	],
 	"et": {
-		"ág": ["Dýraverndarsamband", "Dýraverndarsamband", "Dýraverndarsambandi", "Dýraverndarsambands"]
+		"ág": ["Dýraverndarsamband", "Dýraverndarsamband", "Dýraverndarsambandi", "Dýraverndarsambands"],
+		"mg": ["Dýraverndarsambandið", "Dýraverndarsambandið", "Dýraverndarsambandinu", "Dýraverndarsambandsins"]
 	},
 	"kennistrengur": "sérn.ön-Dýraverndarsamband-hk",
-	"hash": "111c67cd451409cafac4ca3b34c043657f3d908cd3940c999989584b05456212"
+	"hash": "5a0392044736661e66b77bc1f7f41db0aecc52e14b1c463662ea3da39d91902b"
 }

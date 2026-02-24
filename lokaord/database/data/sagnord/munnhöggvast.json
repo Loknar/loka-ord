@@ -1,0 +1,43 @@
+{
+	"orð": "munnhöggvast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "munn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-munnur-kk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-höggva"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "munnhöggvast",
+		"sagnbót": "munnhöggvist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["munnheggst", "munnheggst", "munnheggst"],
+					"ft": ["munnhöggvumst", "munnhöggvist", "munnhöggvast"]
+				},
+				"þátíð": {
+					"et": ["munnhjóst", "munnhjóst", "munnhjóst"],
+					"ft": ["munnhjuggumst", "munnhjuggust", "munnhjuggust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["munnhöggvist", "munnhöggvist", "munnhöggvist"],
+					"ft": ["munnhöggvumst", "munnhöggvist", "munnhöggvist"]
+				},
+				"þátíð": {
+					"et": ["munnbyggist", "munnbyggist", "munnbyggist"],
+					"ft": ["munnhjyggjumst", "munnhjyggjust", "munnhjyggjust"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-munnhöggvast",
+	"hash": "7e754ad5f33a9893572ba533ab51114a076892640095e62ce095691273392432"
+}

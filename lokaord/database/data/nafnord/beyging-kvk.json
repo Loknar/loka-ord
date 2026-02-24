@@ -2,6 +2,16 @@
 	"orð": "beyging",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "beyg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-beygja"
+		},
+		{
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["beyging", "beygingu", "beygingu", "beygingar"],
 		"mg": ["beygingin", "beyginguna", "beygingunni", "beygingarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["beygingarnar", "beygingarnar", "beygingunum", "beyginganna"]
 	},
 	"kennistrengur": "no-beyging-kvk",
-	"hash": "3157a84fb90ab06ca9711066295abbb7753d749cbe5887a0a23509578d90a29d"
+	"hash": "b4586a89adca6b370120da1f46c0fbb59e8c1733883e88e20e8b12690160eff7"
 }
