@@ -1,0 +1,48 @@
+{
+	"orð": "hersetinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "her",
+			"samsetning": "stofn",
+			"kennistrengur": "no-her-kk"
+		},
+		{
+			"mynd": "set",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sitja"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hersetinn", "hersetinn", "hersetnum", "hersetins"],
+				"kvk": ["hersetin", "hersetna", "hersetinni", "hersetinnar"],
+				"hk": ["hersetið", "hersetið", "hersetnu", "hersetins"]
+			},
+			"ft": {
+				"kk": ["hersetnir", "hersetna", "hersetnum", "hersetinna"],
+				"kvk": ["hersetnar", "hersetnar", "hersetnum", "hersetinna"],
+				"hk": ["hersetin", "hersetin", "hersetnum", "hersetinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hersetni", "hersetna", "hersetna", "hersetna"],
+				"kvk": ["hersetna", "hersetnu", "hersetnu", "hersetnu"],
+				"hk": ["hersetna", "hersetna", "hersetna", "hersetna"]
+			},
+			"ft": {
+				"kk": ["hersetnu", "hersetnu", "hersetnu", "hersetnu"],
+				"kvk": ["hersetnu", "hersetnu", "hersetnu", "hersetnu"],
+				"hk": ["hersetnu", "hersetnu", "hersetnu", "hersetnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hersetinn",
+	"hash": "d1b22ac7a438f1da2cbcee1bda4eee20e8b0f3f144507f160f041f1a25ac84c3"
+}

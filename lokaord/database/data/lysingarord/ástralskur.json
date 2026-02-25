@@ -1,6 +1,16 @@
 {
 	"orð": "ástralskur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ástr",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.ön-Ástralía-kvk"
+		},
+		{
+			"kennistrengur": "lo-alskur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -51,7 +61,7 @@
 			"ft": {
 				"kk": ["ástralskastir", "ástralskasta", "áströlskustum", "ástralskastra"],
 				"kvk": ["ástralskastar", "ástralskastar", "áströlskustum", "ástralskastra"],
-				"hk": ["ástralskust", "ástralskust", "áströlskustum", "ástralskastra"]
+				"hk": ["áströlskust", "áströlskust", "áströlskustum", "ástralskastra"]
 			}
 		},
 		"vb": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-ástralskur",
-	"hash": "d48dcf8c70fde67ecd4ced31a9a8edd0c631b3aa3091475b6c0df1bfac68f2f7"
+	"hash": "3181119efe7adab4c34cd71735c8d94feee93f51137915294aaeb4f8082e1dfd"
 }
