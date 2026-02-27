@@ -1,0 +1,99 @@
+{
+	"orð": "oftengja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-tengja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "oftengja",
+		"sagnbót": "oftengt",
+		"boðháttur": {
+			"stýfður": "ofteng",
+			"et": "oftengdu",
+			"ft": "oftengið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["oftengi", "oftengir", "oftengir"],
+					"ft": ["oftengjum", "oftengið", "oftengja"]
+				},
+				"þátíð": {
+					"et": ["oftengdi", "oftengdir", "oftengdi"],
+					"ft": ["oftengdum", "oftengduð", "oftengdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["oftengi", "oftengir", "oftengi"],
+					"ft": ["oftengjum", "oftengið", "oftengi"]
+				},
+				"þátíð": {
+					"et": ["oftengdi", "oftengdir", "oftengdi"],
+					"ft": ["oftengdum", "oftengduð", "oftengdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "oftengirðu",
+					"ft": "oftengiði"
+				},
+				"þátíð": {
+					"et": "oftengdirðu",
+					"ft": "oftengduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "oftengirðu",
+					"ft": "oftengiði"
+				},
+				"þátíð": {
+					"et": "oftengdirðu",
+					"ft": "oftengduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "oftengjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["oftengdur", "oftengdan", "oftengdum", "oftengds"],
+					"kvk": ["oftengd", "oftengda", "oftengdri", "oftengdrar"],
+					"hk": ["oftengt", "oftengt", "oftengdu", "oftengds"]
+				},
+				"ft": {
+					"kk": ["oftengdir", "oftengda", "oftengdum", "oftengdra"],
+					"kvk": ["oftengdar", "oftengdar", "oftengdum", "oftengdra"],
+					"hk": ["oftengd", "oftengd", "oftengdum", "oftengdra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["oftengdi", "oftengda", "oftengda", "oftengda"],
+					"kvk": ["oftengda", "oftengdu", "oftengdu", "oftengdu"],
+					"hk": ["oftengda", "oftengda", "oftengda", "oftengda"]
+				},
+				"ft": {
+					"kk": ["oftengdu", "oftengdu", "oftengdu", "oftengdu"],
+					"kvk": ["oftengdu", "oftengdu", "oftengdu", "oftengdu"],
+					"hk": ["oftengdu", "oftengdu", "oftengdu", "oftengdu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-oftengja",
+	"hash": "8d69b8469d7af96ffce5ba4c3dc7c5ab0c3cf01123a398bda0a86e7ec6144b5c"
+}

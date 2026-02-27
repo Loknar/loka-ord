@@ -1,0 +1,65 @@
+{
+	"orð": "hnakkrífast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hnakk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnakkur-kk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-rífa"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "hnakkrífast",
+		"sagnbót": "hnakkrifist",
+		"boðháttur": {
+			"et": "hnakkrífstu",
+			"ft": "hnakkrífist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnakkrífst", "hnakkrífst", "hnakkrífst"],
+					"ft": ["hnakkrífumst", "hnakkrífist", "hnakkrífast"]
+				},
+				"þátíð": {
+					"et": ["hnakkreifst", "hnakkreifst", "hnakkreifst"],
+					"ft": ["hnakkrifumst", "hnakkrifust", "hnakkrifust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnakkrífist", "hnakkrífist", "hnakkrífist"],
+					"ft": ["hnakkrífumst", "hnakkrífist", "hnakkrífist"]
+				},
+				"þátíð": {
+					"et": ["hnakkrifist", "hnakkrifist", "hnakkrifist"],
+					"ft": ["hnakkrifumst", "hnakkrifust", "hnakkrifust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnakkrífstu"
+				},
+				"þátíð": {
+					"et": "hnakkreifstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnakkrífistu"
+				},
+				"þátíð": {
+					"et": "hnakkrifistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hnakkrífast",
+	"hash": "4b4f3ce8323ffb31efd2c70da1092058a0778150a7ce4c076bc38c91dcc24012"
+}

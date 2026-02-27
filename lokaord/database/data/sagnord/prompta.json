@@ -1,0 +1,99 @@
+{
+	"orð": "prompta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "prompt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-prompt-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "prompta",
+		"sagnbót": "promptað",
+		"boðháttur": {
+			"stýfður": "prompta",
+			"et": "promptaðu",
+			"ft": "promptið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["prompta", "promptar", "promptar"],
+					"ft": ["promptum", "promptið", "prompta"]
+				},
+				"þátíð": {
+					"et": ["promptaði", "promptaðir", "promptaði"],
+					"ft": ["promptuðum", "promptuðuð", "promptuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["prompti", "promptir", "prompti"],
+					"ft": ["promptum", "promptið", "prompti"]
+				},
+				"þátíð": {
+					"et": ["promptaði", "promptaðir", "promptaði"],
+					"ft": ["promptuðum", "promptuðuð", "promptuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "promptarðu",
+					"ft": "promptiði"
+				},
+				"þátíð": {
+					"et": "promptaðirðu",
+					"ft": "promptuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "promptirðu",
+					"ft": "promptiði"
+				},
+				"þátíð": {
+					"et": "promptaðirðu",
+					"ft": "promptuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "promptandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["promptaður", "promptaðan", "promptuðum", "promptaðs"],
+					"kvk": ["promptuð", "promptaða", "promptaðri", "promptaðrar"],
+					"hk": ["promptað", "promptað", "promptuðu", "promptaðs"]
+				},
+				"ft": {
+					"kk": ["promptaðir", "promptaða", "promptuðum", "promptaðra"],
+					"kvk": ["promptaðar", "promptaðar", "promptuðum", "promptaðra"],
+					"hk": ["promptuð", "promptuð", "promptuðum", "promptaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["promptaði", "promptaða", "promptaða", "promptaða"],
+					"kvk": ["promptaða", "promptuðu", "promptuðu", "promptuðu"],
+					"hk": ["promptaða", "promptaða", "promptaða", "promptaða"]
+				},
+				"ft": {
+					"kk": ["promptuðu", "promptuðu", "promptuðu", "promptuðu"],
+					"kvk": ["promptuðu", "promptuðu", "promptuðu", "promptuðu"],
+					"hk": ["promptuðu", "promptuðu", "promptuðu", "promptuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-prompta",
+	"hash": "6208d85032d18133f9a20fcd7521297e10c2f47dc8b0891975ae849d9ce1e250"
+}

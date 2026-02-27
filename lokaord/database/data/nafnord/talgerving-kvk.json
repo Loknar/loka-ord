@@ -1,0 +1,27 @@
+{
+	"orð": "talgerving",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tal",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tal-hk"
+		},
+		{
+			"mynd": "gerv",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gervi-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ing-kvk-ó"
+		}
+	],
+	"et": {
+		"ág": ["talgerving", "talgervingu", "talgervingu", "talgervingar"],
+		"mg": ["talgervingin", "talgervinguna", "talgervingunni", "talgervingarinnar"]
+	},
+	"kennistrengur": "no-talgerving-kvk",
+	"hash": "64b30457ed5e57abb46e736a86d1b994db76a389813ed6090029433f8c2972d4"
+}

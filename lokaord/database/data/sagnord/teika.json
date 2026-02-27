@@ -1,0 +1,73 @@
+{
+	"orð": "teika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "teik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-teik-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "teika",
+		"sagnbót": "teikað",
+		"boðháttur": {
+			"stýfður": "teika",
+			"et": "teikaðu",
+			"ft": "teikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["teika", "teikar", "teikar"],
+					"ft": ["teikum", "teikið", "teika"]
+				},
+				"þátíð": {
+					"et": ["teikaði", "teikaðir", "teikaði"],
+					"ft": ["teikuðum", "teikuðuð", "teikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["teiki", "teikir", "teiki"],
+					"ft": ["teikum", "teikið", "teiki"]
+				},
+				"þátíð": {
+					"et": ["teikaði", "teikaðir", "teikaði"],
+					"ft": ["teikuðum", "teikuðuð", "teikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "teikarðu",
+					"ft": "teikiði"
+				},
+				"þátíð": {
+					"et": "teikaðirðu",
+					"ft": "teikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "teikirðu",
+					"ft": "teikiði"
+				},
+				"þátíð": {
+					"et": "teikaðirðu",
+					"ft": "teikuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "teikandi"
+	},
+	"kennistrengur": "so-teika",
+	"hash": "2906015dc335295e988a2dd058f37a9cba0828bcdaae87bc11746ed548cf856e"
+}
