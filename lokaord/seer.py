@@ -146,7 +146,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 	found = 0
 	maybe = 0
 	missing = 0
-	onhanging_chars = set('.,:;()[]<>-_/„“”?!`´%°%#=–‐…·—‘"*\'‚’|•‰\\')
+	onhanging_chars = set('.,:;()[]}{<>-_/„“”?!`´%°%#=–‐…·—‘"*\'‚’|•‰\\')
 	onhanging_chars_with_dot = onhanging_chars.copy()
 	onhanging_chars_with_dot.remove('.')
 	for word in sentence.split(' '):
