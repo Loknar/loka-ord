@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "jarðar",
+			"mynd": "jarðarberja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-jörð-kvk"
-		},
-		{
-			"mynd": "berja",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ber-hk"
-		},
-		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
+			"kennistrengur": "no-jarðarber-hk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-framleiðsla-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["jarðarberjaframleiðslan", "jarðarberjaframleiðsluna", "jarðarberjaframleiðslunni", "jarðarberjaframleiðslunnar"]
 	},
 	"kennistrengur": "no-jarðarberjaframleiðsla-kvk",
-	"hash": "3f87b90d2d351b173efb3800f60cfe28d2fc284e340708e5d4ff6237c2a01fc0"
+	"hash": "f73f303984769d9858fb775267264bf95eb40b3dd28c1237651b63818552e107"
 }

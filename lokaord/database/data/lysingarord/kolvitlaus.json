@@ -8,13 +8,7 @@
 			"kennistrengur": "no-kol-hk"
 		},
 		{
-			"mynd": "vit",
-			"samsetning": "stofn",
-			"kennistrengur": "no-vit-hk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-laus"
+			"kennistrengur": "lo-vitlaus"
 		}
 	],
 	"frumstig": {
@@ -43,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["kolvitlausari", "kolvitlausari", "kolvitlausari", "kolvitlausari"],
+				"kvk": ["kolvitlausari", "kolvitlausari", "kolvitlausari", "kolvitlausari"],
+				"hk": ["kolvitlausara", "kolvitlausara", "kolvitlausara", "kolvitlausara"]
+			},
+			"ft": {
+				"kk": ["kolvitlausari", "kolvitlausari", "kolvitlausari", "kolvitlausari"],
+				"kvk": ["kolvitlausari", "kolvitlausari", "kolvitlausari", "kolvitlausari"],
+				"hk": ["kolvitlausari", "kolvitlausari", "kolvitlausari", "kolvitlausari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["kolvitlausastur", "kolvitlausastan", "kolvitlausustum", "kolvitlausasts"],
+				"kvk": ["kolvitlausust", "kolvitlausasta", "kolvitlausastri", "kolvitlausastrar"],
+				"hk": ["kolvitlausast", "kolvitlausast", "kolvitlausustu", "kolvitlausasts"]
+			},
+			"ft": {
+				"kk": ["kolvitlausastir", "kolvitlausasta", "kolvitlausustum", "kolvitlausastra"],
+				"kvk": ["kolvitlausastar", "kolvitlausastar", "kolvitlausustum", "kolvitlausastra"],
+				"hk": ["kolvitlausust", "kolvitlausust", "kolvitlausustum", "kolvitlausastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kolvitlausasti", "kolvitlausasta", "kolvitlausasta", "kolvitlausasta"],
+				"kvk": ["kolvitlausasta", "kolvitlausustu", "kolvitlausustu", "kolvitlausustu"],
+				"hk": ["kolvitlausasta", "kolvitlausasta", "kolvitlausasta", "kolvitlausasta"]
+			},
+			"ft": {
+				"kk": ["kolvitlausustu", "kolvitlausustu", "kolvitlausustu", "kolvitlausustu"],
+				"kvk": ["kolvitlausustu", "kolvitlausustu", "kolvitlausustu", "kolvitlausustu"],
+				"hk": ["kolvitlausustu", "kolvitlausustu", "kolvitlausustu", "kolvitlausustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-kolvitlaus",
-	"hash": "01ce6905b6eb1875cdab6940dbeb04b6de64aa0fcac77027508c8fce08a83311"
+	"hash": "f234697ca77f5a8ef67f097bea6e959430ef0d7bb034949e4247ff0d42b1f437"
 }

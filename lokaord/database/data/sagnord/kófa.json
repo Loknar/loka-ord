@@ -1,0 +1,48 @@
+{
+	"orð": "kófa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kóf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kóf-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kófa",
+		"sagnbót": "kófað",
+		"boðháttur": {
+			"stýfður": "kófa",
+			"et": "kófaðu",
+			"ft": "kófið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kófa", "kófar", "kófar"],
+					"ft": ["kófum", "kófið", "kófa"]
+				},
+				"þátíð": {
+					"et": ["kófaði", "kófaðir", "kófaði"],
+					"ft": ["kófuðum", "kófuðuð", "kófuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kófi", "kófir", "kófi"],
+					"ft": ["kófum", "kófið", "kófi"]
+				},
+				"þátíð": {
+					"et": ["kófaði", "kófaðir", "kófaði"],
+					"ft": ["kófuðum", "kófuðuð", "kófuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kófa",
+	"hash": "eaa4e59197db0e041b440dd0e6affb752f0c12b25eee43b9102ad0a6d4792914"
+}
