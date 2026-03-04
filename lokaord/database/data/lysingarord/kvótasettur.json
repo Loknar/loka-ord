@@ -1,0 +1,43 @@
+{
+	"orð": "kvótasettur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kvóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kvóti-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-settur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kvótasettur", "kvótasettan", "kvótasettum", "kvótasetts"],
+				"kvk": ["kvótasett", "kvótasetta", "kvótasettri", "kvótasettrar"],
+				"hk": ["kvótasett", "kvótasett", "kvótasettu", "kvótasetts"]
+			},
+			"ft": {
+				"kk": ["kvótasettir", "kvótasetta", "kvótasettum", "kvótasettra"],
+				"kvk": ["kvótasettar", "kvótasettar", "kvótasettum", "kvótasettra"],
+				"hk": ["kvótasett", "kvótasett", "kvótasettum", "kvótasettra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kvótasetti", "kvótasetta", "kvótasetta", "kvótasetta"],
+				"kvk": ["kvótasetta", "kvótasettu", "kvótasettu", "kvótasettu"],
+				"hk": ["kvótasetta", "kvótasetta", "kvótasetta", "kvótasetta"]
+			},
+			"ft": {
+				"kk": ["kvótasettu", "kvótasettu", "kvótasettu", "kvótasettu"],
+				"kvk": ["kvótasettu", "kvótasettu", "kvótasettu", "kvótasettu"],
+				"hk": ["kvótasettu", "kvótasettu", "kvótasettu", "kvótasettu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kvótasettur",
+	"hash": "979a1b352645e9e14d0f34289726c90ecb45b98b4f29151f6bad76e6cad7d3b8"
+}

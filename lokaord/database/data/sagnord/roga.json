@@ -1,0 +1,135 @@
+{
+	"orð": "roga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rog",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rog-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "roga",
+		"sagnbót": "rogað",
+		"boðháttur": {
+			"stýfður": "roga",
+			"et": "rogaðu",
+			"ft": "rogið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["roga", "rogar", "rogar"],
+					"ft": ["rogum", "rogið", "roga"]
+				},
+				"þátíð": {
+					"et": ["rogaði", "rogaðir", "rogaði"],
+					"ft": ["roguðum", "roguðuð", "roguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rogi", "rogir", "rogi"],
+					"ft": ["rogum", "rogið", "rogi"]
+				},
+				"þátíð": {
+					"et": ["rogaði", "rogaðir", "rogaði"],
+					"ft": ["roguðum", "roguðuð", "roguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rogarðu",
+					"ft": "rogiði"
+				},
+				"þátíð": {
+					"et": "rogaðirðu",
+					"ft": "roguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rogirðu",
+					"ft": "rogiði"
+				},
+				"þátíð": {
+					"et": "rogaðirðu",
+					"ft": "roguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rogast",
+		"sagnbót": "rogast",
+		"boðháttur": {
+			"et": "rogastu",
+			"ft": "rogist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rogast", "rogast", "rogast"],
+					"ft": ["rogumst", "rogist", "rogast"]
+				},
+				"þátíð": {
+					"et": ["rogaðist", "rogaðist", "rogaðist"],
+					"ft": ["roguðumst", "roguðust", "roguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rogist", "rogist", "rogist"],
+					"ft": ["rogumst", "rogist", "rogist"]
+				},
+				"þátíð": {
+					"et": ["rogaðist", "rogaðist", "rogaðist"],
+					"ft": ["roguðumst", "roguðust", "roguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rogastu"
+				},
+				"þátíð": {
+					"et": "rogaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rogistu"
+				},
+				"þátíð": {
+					"et": "rogaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rogandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rogaður", "rogaðan", "roguðum", "rogaðs"],
+					"kvk": ["roguð", "rogaða", "rogaðri", "rogaðrar"],
+					"hk": ["rogað", "rogað", "roguðu", "rogaðs"]
+				},
+				"ft": {
+					"kk": ["rogaðir", "rogaða", "roguðum", "rogaðra"],
+					"kvk": ["rogaðar", "rogaðar", "roguðum", "rogaðra"],
+					"hk": ["roguð", "roguð", "roguðum", "rogaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-roga",
+	"hash": "e81ebf09d243b1444a8b793d301458cd55f892ae9c3fc2ae1e6173a6beebfaee"
+}
