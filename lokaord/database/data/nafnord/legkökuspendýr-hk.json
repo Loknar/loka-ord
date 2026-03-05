@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "leg",
-			"samsetning": "stofn",
-			"kennistrengur": "no-leg-hk"
-		},
-		{
-			"mynd": "köku",
+			"mynd": "legköku",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kaka-kvk"
+			"kennistrengur": "no-legkaka-kvk"
 		},
 		{
-			"mynd": "spen",
-			"samsetning": "stofn",
-			"kennistrengur": "no-speni-kk"
-		},
-		{
-			"kennistrengur": "no-dýr-hk"
+			"kennistrengur": "no-spendýr-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["legkökuspendýrin", "legkökuspendýrin", "legkökuspendýrunum", "legkökuspendýranna"]
 	},
 	"kennistrengur": "no-legkökuspendýr-hk",
-	"hash": "281a57e92948e8a1c2319a73078b748caa83ac8b73a925674d6a9aa1561e48a6"
+	"hash": "f7697e9969340fdaad007b8d3266e9518b5806e49753b92a30fb66ce1e76df6f"
 }
