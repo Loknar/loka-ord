@@ -1,0 +1,99 @@
+{
+	"orð": "arfgerðagreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "arfgerða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-arfgerð-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "arfgerðagreina",
+		"sagnbót": "arfgerðagreint",
+		"boðháttur": {
+			"stýfður": "arfgerðagrein",
+			"et": "arfgerðagreindu",
+			"ft": "arfgerðagreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["arfgerðagreini", "arfgerðagreinir", "arfgerðagreinir"],
+					"ft": ["arfgerðagreinum", "arfgerðagreinið", "arfgerðagreina"]
+				},
+				"þátíð": {
+					"et": ["arfgerðagreindi", "arfgerðagreindir", "arfgerðagreindi"],
+					"ft": ["arfgerðagreindum", "arfgerðagreinduð", "arfgerðagreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["arfgerðagreini", "arfgerðagreinir", "arfgerðagreini"],
+					"ft": ["arfgerðagreinum", "arfgerðagreinið", "arfgerðagreini"]
+				},
+				"þátíð": {
+					"et": ["arfgerðagreindi", "arfgerðagreindir", "arfgerðagreindi"],
+					"ft": ["arfgerðagreindum", "arfgerðagreinduð", "arfgerðagreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "arfgerðagreinirðu",
+					"ft": "arfgerðagreiniði"
+				},
+				"þátíð": {
+					"et": "arfgerðagreindirðu",
+					"ft": "arfgerðagreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "arfgerðagreinirðu",
+					"ft": "arfgerðagreiniði"
+				},
+				"þátíð": {
+					"et": "arfgerðagreindirðu",
+					"ft": "arfgerðagreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "arfgerðagreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["arfgerðagreindur", "arfgerðagreindan", "arfgerðagreindum", "arfgerðagreinds"],
+					"kvk": ["arfgerðagreind", "arfgerðagreinda", "arfgerðagreindri", "arfgerðagreindrar"],
+					"hk": ["arfgerðagreint", "arfgerðagreint", "arfgerðagreindu", "arfgerðagreinds"]
+				},
+				"ft": {
+					"kk": ["arfgerðagreindir", "arfgerðagreinda", "arfgerðagreindum", "arfgerðagreindra"],
+					"kvk": ["arfgerðagreindar", "arfgerðagreindar", "arfgerðagreindum", "arfgerðagreindra"],
+					"hk": ["arfgerðagreind", "arfgerðagreind", "arfgerðagreindum", "arfgerðagreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["arfgerðagreindi", "arfgerðagreinda", "arfgerðagreinda", "arfgerðagreinda"],
+					"kvk": ["arfgerðagreinda", "arfgerðagreindu", "arfgerðagreindu", "arfgerðagreindu"],
+					"hk": ["arfgerðagreinda", "arfgerðagreinda", "arfgerðagreinda", "arfgerðagreinda"]
+				},
+				"ft": {
+					"kk": ["arfgerðagreindu", "arfgerðagreindu", "arfgerðagreindu", "arfgerðagreindu"],
+					"kvk": ["arfgerðagreindu", "arfgerðagreindu", "arfgerðagreindu", "arfgerðagreindu"],
+					"hk": ["arfgerðagreindu", "arfgerðagreindu", "arfgerðagreindu", "arfgerðagreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-arfgerðagreina",
+	"hash": "180d59e94ff619c1a491bf764d9767cf7574d0bc203786edf35f1ccc38a92b08"
+}

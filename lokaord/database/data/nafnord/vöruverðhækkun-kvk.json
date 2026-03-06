@@ -1,0 +1,30 @@
+{
+	"orð": "vöruverðhækkun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-hækkun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["vöruverðhækkun", "vöruverðhækkun", "vöruverðhækkun", "vöruverðhækkunar"],
+		"mg": ["vöruverðhækkunin", "vöruverðhækkunina", "vöruverðhækkuninni", "vöruverðhækkunarinnar"]
+	},
+	"ft": {
+		"ág": ["vöruverðhækkanir", "vöruverðhækkanir", "vöruverðhækkunum", "vöruverðhækkana"],
+		"mg": ["vöruverðhækkanirnar", "vöruverðhækkanirnar", "vöruverðhækkununum", "vöruverðhækkananna"]
+	},
+	"kennistrengur": "no-vöruverðhækkun-kvk",
+	"hash": "b098314b6dfc4da001d481b6494cd663747f1c23744caa0cc59fd8758689edc3"
+}

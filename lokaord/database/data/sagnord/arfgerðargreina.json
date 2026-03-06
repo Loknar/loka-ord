@@ -3,17 +3,12 @@
 	"flokkur": "sagnorð",
 	"samsett": [
 		{
-			"mynd": "arf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-arfur-kk"
-		},
-		{
-			"mynd": "gerðar",
+			"mynd": "arfgerðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gerð-kvk"
+			"kennistrengur": "no-arfgerð-kvk"
 		},
 		{
-			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur"],
 			"kennistrengur": "so-greina"
 		}
 	],
@@ -62,9 +57,21 @@
 					"kvk": ["arfgerðargreindar", "arfgerðargreindar", "arfgerðargreindum", "arfgerðargreindra"],
 					"hk": ["arfgerðargreind", "arfgerðargreind", "arfgerðargreindum", "arfgerðargreindra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["arfgerðargreindi", "arfgerðargreinda", "arfgerðargreinda", "arfgerðargreinda"],
+					"kvk": ["arfgerðargreinda", "arfgerðargreindu", "arfgerðargreindu", "arfgerðargreindu"],
+					"hk": ["arfgerðargreinda", "arfgerðargreinda", "arfgerðargreinda", "arfgerðargreinda"]
+				},
+				"ft": {
+					"kk": ["arfgerðargreindu", "arfgerðargreindu", "arfgerðargreindu", "arfgerðargreindu"],
+					"kvk": ["arfgerðargreindu", "arfgerðargreindu", "arfgerðargreindu", "arfgerðargreindu"],
+					"hk": ["arfgerðargreindu", "arfgerðargreindu", "arfgerðargreindu", "arfgerðargreindu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-arfgerðargreina",
-	"hash": "181adb891c0c9a171dfe282ace03daa603802a9293a7017072aae545e56e15fa"
+	"hash": "50d78d718933379a8274859784f18c638db71771989942e8442b2631e62414ed"
 }
