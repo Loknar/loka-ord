@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "hita",
+			"mynd": "hitabeltis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hiti-kk"
+			"kennistrengur": "no-hitabelti-hk"
 		},
 		{
-			"mynd": "beltis",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-belti-hk"
-		},
-		{
-			"mynd": "lofts",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-loft-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-loftslag-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["hitabeltisloftslagið", "hitabeltisloftslagið", "hitabeltisloftslaginu", "hitabeltisloftslagsins"]
 	},
 	"kennistrengur": "no-hitabeltisloftslag-hk",
-	"hash": "63f43e61ae7b48c4453afb869b73d903a50c846bee718ba2963e1edbe627de6c"
+	"hash": "61874f6b73ec8821ddfe38594c6dcf7aa3e4ad063c10d291009c6111a512822e"
 }
