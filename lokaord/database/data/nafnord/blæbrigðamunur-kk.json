@@ -4,18 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "blæ",
-			"samsetning": "stofn",
-			"kennistrengur": "no-blær-kk"
-		},
-		{
-			"mynd": "brigða",
+			"mynd": "blæbrigða",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-brigði-hk"
+			"kennistrengur": "no-blæbrigði-hk"
 		},
 		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-munur-kk"
+			"kennistrengur": "no-munur-kk-_diff_"
 		}
 	],
 	"et": {
@@ -23,5 +17,5 @@
 		"mg": ["blæbrigðamunurinn", "blæbrigðamuninn", "blæbrigðamuninum", "blæbrigðamunarins"]
 	},
 	"kennistrengur": "no-blæbrigðamunur-kk",
-	"hash": "09d1feabde4f863a74ba5c19897dcb8fd61e414ed4b052311732710c329c4957"
+	"hash": "b6a6fa75802c01f950356b237d98f38002f9850ddd98bb45b5e62cd609820cb0"
 }
