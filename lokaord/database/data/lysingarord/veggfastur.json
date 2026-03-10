@@ -1,0 +1,43 @@
+{
+	"orð": "veggfastur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "vegg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veggur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-fastur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["veggfastur", "veggfastan", "veggföstum", "veggfasts"],
+				"kvk": ["veggföst", "veggfasta", "veggfastri", "veggfastrar"],
+				"hk": ["veggfast", "veggfast", "veggföstu", "veggfasts"]
+			},
+			"ft": {
+				"kk": ["veggfastir", "veggfasta", "veggföstum", "veggfastra"],
+				"kvk": ["veggfastar", "veggfastar", "veggföstum", "veggfastra"],
+				"hk": ["veggföst", "veggföst", "veggföstum", "veggfastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["veggfasti", "veggfasta", "veggfasta", "veggfasta"],
+				"kvk": ["veggfasta", "veggföstu", "veggföstu", "veggföstu"],
+				"hk": ["veggfasta", "veggfasta", "veggfasta", "veggfasta"]
+			},
+			"ft": {
+				"kk": ["veggföstu", "veggföstu", "veggföstu", "veggföstu"],
+				"kvk": ["veggföstu", "veggföstu", "veggföstu", "veggföstu"],
+				"hk": ["veggföstu", "veggföstu", "veggföstu", "veggföstu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-veggfastur",
+	"hash": "f022499ae9ac216f59822bdd46d6f04a904eb29d8ca88bb20050df5eee94f741"
+}

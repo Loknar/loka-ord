@@ -1,0 +1,64 @@
+{
+	"orð": "sundurtaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sundur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-sundur"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-taka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sundurtaka",
+		"sagnbót": "sundurtekið",
+		"boðháttur": {
+			"stýfður": "sundurtak",
+			"et": "sundurtaktu",
+			"ft": "sundurtakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sundurtek", "sundurtekur", "sundurtekur"],
+					"ft": ["sundurtökum", "sundurtakið", "sundurtaka"]
+				},
+				"þátíð": {
+					"et": ["sundurtók", "sundurtókst", "sundurtók"],
+					"ft": ["sundurtókum", "sundurtókuð", "sundurtóku"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sundurtaki", "sundurtakir", "sundurtaki"],
+					"ft": ["sundurtökum", "sundurtakið", "sundurtaki"]
+				},
+				"þátíð": {
+					"et": ["sundurtæki", "sundurtækir", "sundurtæki"],
+					"ft": ["sundurtækjum", "sundurtækjuð", "sundurtækju"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sundurtekinn", "sundurtekinn", "sundurteknum", "sundurtekins"],
+					"kvk": ["sundurtekin", "sundurtekna", "sundurtekinni", "sundurtekinnar"],
+					"hk": ["sundurtekið", "sundurtekið", "sundurteknu", "sundurtekins"]
+				},
+				"ft": {
+					"kk": ["sundurteknir", "sundurtekna", "sundurteknum", "sundurtekinna"],
+					"kvk": ["sundurteknar", "sundurteknar", "sundurteknum", "sundurtekinna"],
+					"hk": ["sundurtekin", "sundurtekin", "sundurteknum", "sundurtekinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sundurtaka",
+	"hash": "a41ee3af2d74e66963309b44efc5cfb4009090923cb08e01a6479d6521d80045"
+}

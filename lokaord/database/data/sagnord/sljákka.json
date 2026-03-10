@@ -1,0 +1,70 @@
+{
+	"orð": "sljákka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sljákk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-sljár"
+		},
+		{
+			"beygingar": ["germynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sljákka",
+		"sagnbót": "sljákkað",
+		"boðháttur": {
+			"stýfður": "sljákka",
+			"et": "sljákkaðu",
+			"ft": "sljákkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sljákka", "sljákkar", "sljákkar"],
+					"ft": ["sljákkum", "sljákkið", "sljákka"]
+				},
+				"þátíð": {
+					"et": ["sljákkaði", "sljákkaðir", "sljákkaði"],
+					"ft": ["sljákkuðum", "sljákkuðuð", "sljákkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sljákki", "sljákkir", "sljákki"],
+					"ft": ["sljákkum", "sljákkið", "sljákki"]
+				},
+				"þátíð": {
+					"et": ["sljákkaði", "sljákkaðir", "sljákkaði"],
+					"ft": ["sljákkuðum", "sljákkuðuð", "sljákkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sljákkarðu",
+					"ft": "sljákkiði"
+				},
+				"þátíð": {
+					"et": "sljákkaðirðu",
+					"ft": "sljákkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sljákkirðu",
+					"ft": "sljákkiði"
+				},
+				"þátíð": {
+					"et": "sljákkaðirðu",
+					"ft": "sljákkuðuði"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sljákka",
+	"hash": "0a1c3372b8a54451e9b6502b893dcf2eddbd625d96812bcfcfedf6777cf546eb"
+}
