@@ -4,23 +4,13 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "sveita",
+			"mynd": "sveitastjórna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sveit-kvk"
-		},
-		{
-			"mynd": "stjórna",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "fułl",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-fułl"
+			"kennistrengur": "no-sveitastjórn-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-trúi-kk-ó"
+			"kennistrengur": "no-fułltrúi-kk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["sveitastjórnafułltrúarnir", "sveitastjórnafułltrúana", "sveitastjórnafułltrúunum", "sveitastjórnafułltrúanna"]
 	},
 	"kennistrengur": "no-sveitastjórnafułltrúar-kk",
-	"hash": "9e85fc8b3defc2c736b09b1bcf1a63f2b576e5c28e8b6ebcde116879c72e221f"
+	"hash": "1fbc8940435034e3546af2c6dd31e5cf656e92d72481d008174609f8486f8147"
 }
