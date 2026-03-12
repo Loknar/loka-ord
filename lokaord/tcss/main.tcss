@@ -23,7 +23,7 @@ TilgreinaNafnord {
 	Markdown {
 		padding: 1 0 0 2;
 	}
-	#grid_tilgreina_ord {
+	.grid_tilgreina_ord {
 		background: $boost;
 		padding: 0 2 1 1;
 		height: auto;
@@ -49,7 +49,7 @@ TilgreinaNafnordBeygingar {
 	Markdown {
 		padding: 1 0 0 2;
 	}
-	#grid_tilgreina_ord_beygingar {
+	.grid_tilgreina_ord_beygingar {
 		background: $boost;
 		padding: 0 2 1 1;
 		height: auto;
@@ -77,7 +77,7 @@ TilgreinaLysingarord {
 	Markdown {
 		padding: 1 0 0 2;
 	}
-	#grid_tilgreina_ord {
+	.grid_tilgreina_ord {
 		background: $boost;
 		padding: 0 2 1 1;
 		height: auto;
@@ -103,7 +103,7 @@ TilgreinaLysingarordBeygingar {
 	Markdown {
 		padding: 1 0 0 2;
 	}
-	#grid_tilgreina_ord_beygingar {
+	.grid_tilgreina_ord_beygingar {
 		background: $boost;
 		padding: 0 2 1 1;
 		height: auto;
@@ -126,6 +126,133 @@ TilgreinaLysingarordBeygingar {
 			column-span: 4;
 			padding: 2 0 0 2;
 			height: auto;
+		}
+	}
+}
+
+TilgreinaSagnord {
+	Markdown {
+		padding: 1 0 0 2;
+	}
+	.grid_tilgreina_ord {
+		background: $boost;
+		padding: 0 2 1 1;
+		height: auto;
+		grid-size: 2;
+		grid-gutter: 1;
+		grid-columns: auto 1fr;
+		border: tall blank;
+		&:focus-within {
+			border: tall $accent;
+		}
+		Label {
+			width: 100%;
+			padding: 1 1 1 1;
+			text-align: right;
+		}
+		Markdown {
+			padding: 1 0 0 0;
+		}
+	}
+}
+
+TilgreinaSagnordBeygingar {
+	Markdown {
+		padding: 1 0 0 2;
+	}
+	.grid_tilgreina_ord_beygingar {
+		background: $boost;
+		padding: 0 2 1 1;
+		height: auto;
+		grid-size: 5;
+		grid-gutter: 0;
+		grid-columns: 2fr 1fr 6fr 1fr 6fr;
+		border: tall blank;
+		&:focus-within {
+			border: tall $accent;
+		}
+		Label {
+			width: 100%;
+			padding: 1 1 1 1;
+			text-align: right;
+		}
+		.align-left {
+			text-align: left;
+		}
+		.align-right {
+			align-horizontal: right;
+			content-align: right middle;
+			width: 100%;
+			text-align: right;
+		}
+		Horizontal {
+			column-span: 2;
+			padding: 2 0 0 2;
+			height: auto;
+		}
+		.colspan2 {
+			column-span: 2;
+		}
+		Label.colspan2 {
+			/* gap top and bottom if not, some silly bug? */
+			padding: 1 1 0 0;
+			/* background: red; */
+		}
+		.colspan3 {
+			column-span: 3;
+		}
+		.colspan4 {
+			column-span: 4;
+		}
+		.colspan5 {
+			column-span: 5;
+		}
+		Select {
+			Horizontal {
+				padding: 0 1 0 1;
+			}
+		}
+	}
+	.grid_tilgreina_ord_beygingar2 {
+		background: $boost;
+		padding: 0 2 1 1;
+		height: auto;
+		grid-size: 5;
+		grid-gutter: 0;
+		grid-columns: 2fr 6fr 6fr 6fr 6fr;
+		border: tall blank;
+		&:focus-within {
+			border: tall $accent;
+		}
+		Label {
+			width: 100%;
+			padding: 1 1 1 1;
+			text-align: right;
+		}
+		.label-head {
+			text-align: center;
+		}
+		Horizontal {
+			column-span: 4;
+			padding: 2 0 0 2;
+			height: auto;
+		}
+		.colspan2 {
+			column-span: 2;
+		}
+		Label.colspan2 {
+			/* gap top and bottom if not, some silly bug? */
+			padding: 1 1 0 0;
+			/* background: red; */
+		}
+		.colspan3 {
+			column-span: 3;
+		}
+		.colspan4 {
+			column-span: 4;
+		}
+		.colspan5 {
+			column-span: 5;
 		}
 	}
 }

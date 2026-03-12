@@ -689,15 +689,24 @@ class SagnordTid(BaseModel):
 
 
 class SagnordHattur(BaseModel):
-	framsöguháttur: SagnordTid
-	viðtengingarháttur: SagnordTid
+	framsöguháttur: Optional[SagnordTid] = None
+	viðtengingarháttur: Optional[SagnordTid] = None
+
+	@validator('viðtengingarháttur')
+	def framsogu_vidtengingar_constraint(cls, val, values, **kwargs):
+		if val is None:
+			if 'framsöguháttur' not in values or values['framsöguháttur'] is None:
+				raise ValueError('either framsöguháttur or viðtengingarháttur should be set')
+		return val
 
 	@model_serializer(mode='wrap')
 	def serialize(self, handler) -> dict[str, Any]:
 		data_dict = handler(self)
 		data = dict()
-		data['framsöguháttur'] = data_dict['framsöguháttur']
-		data['viðtengingarháttur'] = data_dict['viðtengingarháttur']
+		if data_dict['framsöguháttur'] is not None:
+			data['framsöguháttur'] = data_dict['framsöguháttur']
+		if data_dict['viðtengingarháttur'] is not None:
+			data['viðtengingarháttur'] = data_dict['viðtengingarháttur']
 		return data
 
 
@@ -743,15 +752,24 @@ class SagnordLhTTK(BaseModel):
 
 
 class SagnordLhTT(BaseModel):
-	et: SagnordLhTTK
-	ft: SagnordLhTTK
+	et: Optional[SagnordLhTTK] = None
+	ft: Optional[SagnordLhTTK] = None
+
+	@validator('ft')
+	def sb_ft_constraint(cls, val, values, **kwargs):
+		if val is None:
+			if 'et' not in values or values['et'] is None:
+				raise ValueError('either et or ft should be set')
+		return val
 
 	@model_serializer(mode='wrap')
 	def serialize(self, handler) -> dict[str, Any]:
 		data_dict = handler(self)
 		data = dict()
-		data['et'] = data_dict['et']
-		data['ft'] = data_dict['ft']
+		if 'et' in data_dict and data_dict['et'] is not None:
+			data['et'] = data_dict['et']
+		if 'ft' in data_dict and data_dict['ft'] is not None:
+			data['ft'] = data_dict['ft']
 		return data
 
 

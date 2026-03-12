@@ -96,7 +96,7 @@ class TilgreinaNafnord(VerticalGroup):
 
 	def compose(self) -> ComposeResult:
 		yield Markdown('3. Sláðu inn grunnupplýsingar nafnorðs og smelltu svo á [[ Áfram ]]')
-		with containers.Grid(id='grid_tilgreina_ord'):
+		with containers.Grid(classes='grid_tilgreina_ord'):
 			yield Label('Orð')
 			yield Input(placeholder='Grunnmynd', id='ord_lemma', valid_empty=True)
 			yield Label('Kyn')
@@ -134,7 +134,7 @@ class TilgreinaNafnordBeygingar(VerticalGroup):
 			'4. Sláðu inn beygingarmyndir orðsins og / eða hakaðu í hvaða beygingarmyndir skuli'
 			' hafa.'
 		))
-		with containers.Grid(id='grid_tilgreina_ord_beygingar'):
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar'):
 			# eintala
 			yield Label('')
 			yield Checkbox('Eintala', id='ord_enable_et', value=True)
@@ -192,7 +192,7 @@ class TilgreinaLysingarord(VerticalGroup):
 
 	def compose(self) -> ComposeResult:
 		yield Markdown('3. Sláðu inn grunnupplýsingar lýsingarorðs og smelltu svo á [[ Áfram ]]')
-		with containers.Grid(id='grid_tilgreina_ord'):
+		with containers.Grid(classes='grid_tilgreina_ord'):
 			yield Label('Orð')
 			yield Input(placeholder='Grunnmynd', id='ord_lemma', valid_empty=True)
 			yield Label('Merking')
@@ -225,7 +225,7 @@ class TilgreinaLysingarordBeygingar(VerticalGroup):
 			'4. Sláðu inn beygingarmyndir orðsins og / eða hakaðu í hvaða beygingarmyndir skuli'
 			' hafa.'
 		))
-		with containers.Grid(id='grid_tilgreina_ord_beygingar'):
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar'):
 			# frumstig sterk beyging
 			yield Label('')
 			yield Label('nf.', classes='label-head')
@@ -469,6 +469,955 @@ class TilgreinaLysingarordBeygingar(VerticalGroup):
 		yield TextArea('{}', language='json', id='ord_data_json', read_only=True)
 
 
+class TilgreinaSagnord(VerticalGroup):
+	DEFAULT_CLASSES = "column"
+
+	def compose(self) -> ComposeResult:
+		yield Markdown('3. Sláðu inn grunnupplýsingar sagnorðs og smelltu svo á [[ Áfram ]]')
+		with containers.Grid(classes='grid_tilgreina_ord'):
+			yield Label('Orð')
+			yield Input(placeholder='Grunnmynd', id='ord_lemma', valid_empty=True)
+			yield Label('Merking')
+			yield Input(placeholder='Merking (valkvætt, bara þegar þarf)', id='ord_merking')
+			yield Label('Tölugildi')
+			yield Input(
+				type='number', placeholder='Tölugildi (valkvætt)', id='ord_tolugildi',
+				valid_empty=True
+			)
+			yield Label('Ósjálfstætt')
+			yield Checkbox(
+				'Hakaðu hér ef um er að ræða ósjálfstæðan orðhluta', id='ord_osjalfstaett'
+			)
+			yield Label('Kennistrengur')
+			yield Markdown('`---`', id='ord_kennistrengur')
+			yield Label('Gagnaskrá')
+			yield Markdown('`---`', id='ord_path')
+			yield Label('')
+			yield Button(
+				'[[ Áfram ]] Sláðu inn grunnmynd orðs', variant="error", disabled=True,
+				id='btn_ord_proceed'
+			)
+
+
+class TilgreinaSagnordBeygingar(VerticalGroup):
+	DEFAULT_CLASSES = 'column'
+
+	def compose(self) -> ComposeResult:
+		yield Markdown((
+			'4. Sláðu inn beygingarmyndir orðsins og / eða hakaðu í hvaða beygingarmyndir skuli'
+			' hafa.'
+		))
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar'):
+			# germynd
+			yield Checkbox('Germynd', id='ord_enable_germynd', value=True, classes='colspan5')
+			yield Label('nafnháttur', classes='colspan2')
+			yield Input(id='ord_beyging_germynd_nafnhattur', placeholder='bjóða')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'sagnbót', id='ord_enable_germynd_sagnbot', value=True,
+				classes='align-right colspan2'
+			)
+			yield Input(id='ord_beyging_germynd_sagnbot', placeholder='boðið')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'boðháttur', id='ord_enable_germynd_bodhattur', value=True, classes='colspan5'
+			)
+			yield Checkbox(
+				'stýfður', id='ord_enable_germynd_bodhattur_styfdur', value=True,
+				classes='align-right colspan2'
+			)
+			yield Input(id='ord_beyging_germynd_bodhattur_styfdur', placeholder='bjóð')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'et.', id='ord_enable_germynd_bodhattur_et', value=True,
+				classes='align-right colspan2'
+			)
+			yield Input(id='ord_beyging_germynd_bodhattur_et', placeholder='bjóddu')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'ft.', id='ord_enable_germynd_bodhattur_ft', value=True,
+				classes='align-right colspan2'
+			)
+			yield Input(id='ord_beyging_germynd_bodhattur_ft', placeholder='bjóðið')
+			yield Label('')
+			yield Label('')
+			# germynd persónuleg
+			yield Checkbox('persónuleg', id='ord_enable_germynd_p', value=True, classes='colspan5')
+			# germynd persónuleg framsöguháttur
+			yield Label('')
+			yield Checkbox(
+				'framsöguháttur', id='ord_enable_germynd_p_f', value=True, classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_germynd_p_f_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_nu_1p_et', placeholder='býð')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_nu_1p_ft', placeholder='bjóðum')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_nu_2p_et', placeholder='býður')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_nu_2p_ft', placeholder='bjóðið')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_nu_3p_et', placeholder='býður')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_nu_3p_ft', placeholder='bjóða')
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_germynd_p_f_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_th_1p_et', placeholder='bauð')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_th_1p_ft', placeholder='buðum')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_th_2p_et', placeholder='bauðst')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_th_2p_ft', placeholder='buðuð')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_th_3p_et', placeholder='bauð')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_f_th_3p_ft', placeholder='buðu')
+			# germynd persónuleg viðtengingarháttur
+			yield Label('')
+			yield Checkbox(
+				'viðtengingarháttur (þó ég)', id='ord_enable_germynd_p_v', value=True,
+				classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_germynd_p_v_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_nu_1p_et', placeholder='bjóði')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_nu_1p_ft', placeholder='bjóðum')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_nu_2p_et', placeholder='bjóðir')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_nu_2p_ft', placeholder='bjóðið')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_nu_3p_et', placeholder='bjóði')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_nu_3p_ft', placeholder='bjóði')
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_germynd_p_v_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_th_1p_et', placeholder='byði')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_th_1p_ft', placeholder='byðum')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_th_2p_et', placeholder='byðir')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_th_2p_ft', placeholder='byðuð')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_th_3p_et', placeholder='byði')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_germynd_p_v_th_3p_ft', placeholder='byðu')
+			# germynd ópersónuleg
+			yield Checkbox(
+				'ópersónuleg', id='ord_enable_germynd_op', value=False, classes='colspan5'
+			)
+			yield Label('frumlag:', classes='colspan2')
+			yield Select.from_values(
+				['þolfałl', 'þágufałl', 'eignarfałl'],
+				value='þágufałl',
+				id='ord_beyging_germynd_op_frumlag',
+				allow_blank=False,
+				classes='ghost'
+			)
+			yield Label('')
+			yield Label('')
+			# germynd ópersónuleg framsöguháttur
+			yield Label('')
+			yield Checkbox(
+				'framsöguháttur', id='ord_enable_germynd_op_f', value=True, classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_germynd_op_f_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_nu_1p_et', placeholder='býður', classes='ghost'
+			)
+			yield Label('við', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_nu_1p_ft', placeholder='býður', classes='ghost'
+			)
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_nu_2p_et', placeholder='býður', classes='ghost'
+			)
+			yield Label('þið', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_nu_2p_ft', placeholder='býður', classes='ghost'
+			)
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_nu_3p_et', placeholder='býður', classes='ghost'
+			)
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_nu_3p_ft', placeholder='býður', classes='ghost'
+			)
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_germynd_op_f_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_th_1p_et', placeholder='bauð', classes='ghost'
+			)
+			yield Label('við', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_th_1p_ft', placeholder='bauð', classes='ghost'
+			)
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_th_2p_et', placeholder='bauð', classes='ghost'
+			)
+			yield Label('þið', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_th_2p_ft', placeholder='bauð', classes='ghost'
+			)
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_th_3p_et', placeholder='bauð', classes='ghost'
+			)
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_f_th_3p_ft', placeholder='bauð', classes='ghost'
+			)
+			# germynd ópersónuleg viðtengingarháttur
+			yield Label('')
+			yield Checkbox(
+				'viðtengingarháttur (þó ég)', id='ord_enable_germynd_op_v', value=True,
+				classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_germynd_op_v_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_v_nu_1p_et', placeholder='bjóði', classes='ghost'
+			)
+			yield Label('við', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_v_nu_1p_ft', placeholder='bjóði', classes='ghost'
+			)
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_v_nu_2p_et', placeholder='bjóði', classes='ghost'
+			)
+			yield Label('þið', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_v_nu_2p_ft', placeholder='bjóði', classes='ghost'
+			)
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_v_nu_3p_et', placeholder='bjóði', classes='ghost'
+			)
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(
+				id='ord_beyging_germynd_op_v_nu_3p_ft', placeholder='bjóði', classes='ghost'
+			)
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_germynd_op_v_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_germynd_op_v_th_1p_et', placeholder='byði', classes='ghost')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_germynd_op_v_th_1p_ft', placeholder='byði', classes='ghost')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_germynd_op_v_th_2p_et', placeholder='byði', classes='ghost')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_germynd_op_v_th_2p_ft', placeholder='byði', classes='ghost')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_germynd_op_v_th_3p_et', placeholder='byði', classes='ghost')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_germynd_op_v_th_3p_ft', placeholder='byði', classes='ghost')
+			# germynd spurnarmyndir
+			yield Checkbox(
+				'spurnarmyndir', id='ord_enable_germynd_spurnar', value=True, classes='colspan5'
+			)
+			# germynd spurnarmyndir framsöguháttur
+			yield Label('')
+			yield Checkbox(
+				'framsöguháttur', id='ord_enable_germynd_spurnar_f', value=True, classes='colspan4'
+			)
+			# germynd spurnarmyndir framsöguháttur nútíð
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_germynd_spurnar_f_nu', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_f_nu_et', placeholder='býðurðu')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_f_nu_ft', placeholder='bjóðiði')
+			# germynd spurnarmyndir framsöguháttur þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_germynd_spurnar_f_th', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_f_th_et', placeholder='bauðstu')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_f_th_ft', placeholder='buðuði')
+			# germynd spurnarmyndir viðtengingarháttur
+			yield Label('')
+			yield Checkbox(
+				'viðtengingarháttur', id='ord_enable_germynd_spurnar_v', value=True,
+				classes='colspan4'
+			)
+			# germynd spurnarmyndir viðtengingarháttur nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_germynd_spurnar_v_nu', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_v_nu_et', placeholder='bjóðirðu')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_v_nu_ft', placeholder='bjóðiði')
+			# germynd spurnarmyndir viðtengingarháttur þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_germynd_spurnar_v_th', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_v_th_et', placeholder='byðirðu')
+			yield Label('')
+			yield Input(id='ord_beyging_germynd_spurnar_v_th_ft', placeholder='byðuði')
+			# bil miłli germyndar og miðmyndar
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar'):
+			# miðmynd
+			yield Checkbox('Miðmynd', id='ord_enable_midmynd', value=True, classes='colspan5')
+			yield Label('nafnháttur', classes='colspan2')
+			yield Input(id='ord_beyging_midmynd_nafnhattur', placeholder='bjóðast')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'sagnbót', id='ord_enable_midmynd_sagnbot', value=True,
+				classes='align-right colspan2'
+			)
+			yield Input(id='ord_beyging_midmynd_sagnbot', placeholder='boðist')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'boðháttur', id='ord_enable_midmynd_bodhattur', value=True, classes='colspan5'
+			)
+			yield Checkbox(
+				'et.', id='ord_enable_midmynd_bodhattur_et', value=True,
+				classes='align-right colspan2'
+			)
+			yield Input(id='ord_beyging_midmynd_bodhattur_et', placeholder='bjóðstu')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'ft.', id='ord_enable_midmynd_bodhattur_ft', value=True,
+				classes='align-right colspan2'
+			)
+			yield Input(id='ord_beyging_midmynd_bodhattur_ft', placeholder='bjóðist')
+			yield Label('')
+			yield Label('')
+			# miðmynd persónuleg
+			yield Checkbox('persónuleg', id='ord_enable_midmynd_p', value=True, classes='colspan5')
+			# miðmynd persónuleg framsöguháttur
+			yield Label('')
+			yield Checkbox(
+				'framsöguháttur', id='ord_enable_midmynd_p_f', value=True, classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_midmynd_p_f_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_nu_1p_et', placeholder='býðst')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_nu_1p_ft', placeholder='bjóðumst')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_nu_2p_et', placeholder='býðst')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_nu_2p_ft', placeholder='bjóðist')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_nu_3p_et', placeholder='býðst')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_nu_3p_ft', placeholder='bjóðast')
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_midmynd_p_f_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_th_1p_et', placeholder='bauðst')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_th_1p_ft', placeholder='buðumst')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_th_2p_et', placeholder='bauðst')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_th_2p_ft', placeholder='buðust')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_th_3p_et', placeholder='bauðst')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_f_th_3p_ft', placeholder='buðust')
+			# miðmynd persónuleg viðtengingarháttur
+			yield Label('')
+			yield Checkbox(
+				'viðtengingarháttur (þó ég)', id='ord_enable_midmynd_p_v', value=True,
+				classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_midmynd_p_v_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_nu_1p_et', placeholder='bjóðist')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_nu_1p_ft', placeholder='bjóðumst')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_nu_2p_et', placeholder='bjóðist')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_nu_2p_ft', placeholder='bjóðist')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_nu_3p_et', placeholder='bjóðist')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_nu_3p_ft', placeholder='bjóðist')
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_midmynd_p_v_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_th_1p_et', placeholder='byðist')
+			yield Label('við', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_th_1p_ft', placeholder='byðumst')
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_th_2p_et', placeholder='byðist')
+			yield Label('þið', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_th_2p_ft', placeholder='byðust')
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_th_3p_et', placeholder='byðist')
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(id='ord_beyging_midmynd_p_v_th_3p_ft', placeholder='byðust')
+			# miðmynd ópersónuleg
+			yield Checkbox(
+				'ópersónuleg', id='ord_enable_midmynd_op', value=False, classes='colspan5'
+			)
+			yield Label('frumlag:', classes='colspan2')
+			yield Select.from_values(
+				['þolfałl', 'þágufałl', 'eignarfałl'],
+				value='þágufałl',
+				id='ord_beyging_midmynd_op_frumlag',
+				allow_blank=False,
+				classes='ghost'
+			)
+			yield Label('')
+			yield Label('')
+			# miðmynd ópersónuleg framsöguháttur
+			yield Label('')
+			yield Checkbox(
+				'framsöguháttur', id='ord_enable_midmynd_op_f', value=True, classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_midmynd_op_f_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_nu_1p_et', placeholder='býðst', classes='ghost'
+			)
+			yield Label('við', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_nu_1p_ft', placeholder='býðst', classes='ghost'
+			)
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_nu_2p_et', placeholder='býðst', classes='ghost'
+			)
+			yield Label('þið', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_nu_2p_ft', placeholder='býðst', classes='ghost'
+			)
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_nu_3p_et', placeholder='býðst', classes='ghost'
+			)
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_nu_3p_ft', placeholder='býðst', classes='ghost'
+			)
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_midmynd_op_f_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_th_1p_et', placeholder='bauðst', classes='ghost'
+			)
+			yield Label('við', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_th_1p_ft', placeholder='bauðst', classes='ghost'
+			)
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_th_2p_et', placeholder='bauðst', classes='ghost'
+			)
+			yield Label('þið', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_th_2p_ft', placeholder='bauðst', classes='ghost'
+			)
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_th_3p_et', placeholder='bauðst', classes='ghost'
+			)
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_f_th_3p_ft', placeholder='bauðst', classes='ghost'
+			)
+			# miðmynd ópersónuleg viðtengingarháttur
+			yield Label('')
+			yield Checkbox(
+				'viðtengingarháttur (þó ég)', id='ord_enable_midmynd_op_v', value=True,
+				classes='colspan4'
+			)
+			# nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_midmynd_op_v_nu', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_nu_1p_et', placeholder='bjóðist', classes='ghost'
+			)
+			yield Label('við', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_nu_1p_ft', placeholder='bjóðist', classes='ghost'
+			)
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_nu_2p_et', placeholder='bjóðist', classes='ghost'
+			)
+			yield Label('þið', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_nu_2p_ft', placeholder='bjóðist', classes='ghost'
+			)
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_nu_3p_et', placeholder='bjóðist', classes='ghost'
+			)
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_nu_3p_ft', placeholder='bjóðist', classes='ghost'
+			)
+			# þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_midmynd_op_v_th', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('ft.', classes='align-left')
+			yield Label('1. pers.')
+			yield Label('ég', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_th_1p_et', placeholder='byðist', classes='ghost'
+			)
+			yield Label('við', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_th_1p_ft', placeholder='byðist', classes='ghost'
+			)
+			yield Label('2. pers.')
+			yield Label('þú', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_th_2p_et', placeholder='byðist', classes='ghost'
+			)
+			yield Label('þið', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_th_2p_ft', placeholder='byðist', classes='ghost'
+			)
+			yield Label('3. pers.')
+			yield Label('hann\nhún\nþað', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_th_3p_et', placeholder='byðist', classes='ghost'
+			)
+			yield Label('þeir\nþær\nþau', classes='align-left')
+			yield Input(
+				id='ord_beyging_midmynd_op_v_th_3p_ft', placeholder='byðist', classes='ghost'
+			)
+			# miðmynd spurnarmyndir
+			yield Checkbox(
+				'spurnarmyndir', id='ord_enable_midmynd_spurnar', value=True, classes='colspan5'
+			)
+			# miðmynd spurnarmyndir framsöguháttur
+			yield Label('')
+			yield Checkbox(
+				'framsöguháttur', id='ord_enable_midmynd_spurnar_f', value=True, classes='colspan4'
+			)
+			# midmynd spurnarmyndir framsöguháttur nútíð
+			yield Label('')
+			yield Label('')
+			yield Label('et.', classes='align-left')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_midmynd_spurnar_f_nu', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_midmynd_spurnar_f_nu_et', placeholder='býðstu')
+			yield Label('')
+			yield Label('')
+			# miðmynd spurnarmyndir framsöguháttur þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_midmynd_spurnar_f_th', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_midmynd_spurnar_f_th_et', placeholder='bauðstu')
+			yield Label('')
+			yield Label('')
+			# miðmynd spurnarmyndir viðtengingarháttur
+			yield Label('')
+			yield Checkbox(
+				'viðtengingarháttur', id='ord_enable_midmynd_spurnar_v', value=True,
+				classes='colspan4'
+			)
+			# miðmynd spurnarmyndir viðtengingarháttur nútíð
+			yield Label('')
+			yield Checkbox(
+				'nútíð', id='ord_enable_midmynd_spurnar_v_nu', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_midmynd_spurnar_v_nu_et', placeholder='bjóðistu')
+			yield Label('')
+			yield Label('')
+			# miðmynd spurnarmyndir viðtengingarháttur þátíð
+			yield Label('')
+			yield Checkbox(
+				'þátíð', id='ord_enable_midmynd_spurnar_v_th', value=True, classes='colspan4'
+			)
+			yield Label('2. pers.')
+			yield Label('')
+			yield Input(id='ord_beyging_midmynd_spurnar_v_th_et', placeholder='byðistu')
+			yield Label('')
+			yield Label('')
+			# bil miłli miðmyndar og lýsingarháttar
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+			yield Label('')
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar2'):
+			# lýsingarháttur
+			yield Checkbox(
+				'Lýsingarháttur', id='ord_enable_lysingarhattur', value=True, classes='colspan5'
+			)
+			# lýsingarháttur nútíðar
+			yield Checkbox(
+				'nútíðar', id='ord_enable_lysingarhattur_nt', value=True, classes='colspan5'
+			)
+			yield Label('')
+			yield Input(id='ord_beyging_lhnt', placeholder='bjóðandi', classes='colspan2')
+			yield Label('')
+			yield Label('')
+			# lýsingarháttur þátíðar
+			yield Checkbox(
+				'þátíðar', id='ord_enable_lysingarhattur_th', value=True, classes='colspan5'
+			)
+			# lýsingarháttur þátíðar sb
+			yield Label('')
+			yield Checkbox(
+				'sterk beyging', id='ord_enable_lysingarhattur_th_sb', value=True, classes='colspan4'
+			)
+			# lýsingarháttur þátíðar sb et
+			yield Label('')
+			yield Checkbox(
+				'eintala', id='ord_enable_lysingarhattur_th_sb_et', value=True, classes='colspan4'
+			)
+			yield Label('kk')
+			yield Input(id='ord_beyging_lhth_sb_et_kk_nf', placeholder='boðinn')
+			yield Input(id='ord_beyging_lhth_sb_et_kk_thf', placeholder='boðinn')
+			yield Input(id='ord_beyging_lhth_sb_et_kk_thgf', placeholder='boðnum')
+			yield Input(id='ord_beyging_lhth_sb_et_kk_ef', placeholder='boðins')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_lhth_sb_et_kvk_nf', placeholder='boðin')
+			yield Input(id='ord_beyging_lhth_sb_et_kvk_thf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_sb_et_kvk_thgf', placeholder='boðinni')
+			yield Input(id='ord_beyging_lhth_sb_et_kvk_ef', placeholder='boðinnar')
+			yield Label('hk')
+			yield Input(id='ord_beyging_lhth_sb_et_hk_nf', placeholder='boðið')
+			yield Input(id='ord_beyging_lhth_sb_et_hk_thf', placeholder='boðið')
+			yield Input(id='ord_beyging_lhth_sb_et_hk_thgf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_sb_et_hk_ef', placeholder='boðins')
+			# lýsingarháttur þátíðar sb ft
+			yield Label('')
+			yield Checkbox(
+				'fleirtala', id='ord_enable_lysingarhattur_th_sb_ft', value=True, classes='colspan4'
+			)
+			yield Label('kk')
+			yield Input(id='ord_beyging_lhth_sb_ft_kk_nf', placeholder='boðnir')
+			yield Input(id='ord_beyging_lhth_sb_ft_kk_thf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_sb_ft_kk_thgf', placeholder='boðnum')
+			yield Input(id='ord_beyging_lhth_sb_ft_kk_ef', placeholder='boðinna')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_lhth_sb_ft_kvk_nf', placeholder='boðnar')
+			yield Input(id='ord_beyging_lhth_sb_ft_kvk_thf', placeholder='boðnar')
+			yield Input(id='ord_beyging_lhth_sb_ft_kvk_thgf', placeholder='boðnum')
+			yield Input(id='ord_beyging_lhth_sb_ft_kvk_ef', placeholder='boðinna')
+			yield Label('hk')
+			yield Input(id='ord_beyging_lhth_sb_ft_hk_nf', placeholder='boðin')
+			yield Input(id='ord_beyging_lhth_sb_ft_hk_thf', placeholder='boðin')
+			yield Input(id='ord_beyging_lhth_sb_ft_hk_thgf', placeholder='boðnum')
+			yield Input(id='ord_beyging_lhth_sb_ft_hk_ef', placeholder='boðinna')
+			# lýsingarháttur þátíðar vb
+			yield Label('')
+			yield Checkbox(
+				'veik beyging', id='ord_enable_lysingarhattur_th_vb', value=True, classes='colspan4'
+			)
+			# lýsingarháttur þátíðar vb et
+			yield Label('')
+			yield Checkbox(
+				'eintala', id='ord_enable_lysingarhattur_th_vb_et', value=True, classes='colspan4'
+			)
+			yield Label('kk')
+			yield Input(id='ord_beyging_lhth_vb_et_kk_nf', placeholder='boðni')
+			yield Input(id='ord_beyging_lhth_vb_et_kk_thf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_vb_et_kk_thgf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_vb_et_kk_ef', placeholder='boðna')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_lhth_vb_et_kvk_nf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_vb_et_kvk_thf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_et_kvk_thgf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_et_kvk_ef', placeholder='boðnu')
+			yield Label('hk')
+			yield Input(id='ord_beyging_lhth_vb_et_hk_nf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_vb_et_hk_thf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_vb_et_hk_thgf', placeholder='boðna')
+			yield Input(id='ord_beyging_lhth_vb_et_hk_ef', placeholder='boðna')
+			# lýsingarháttur þátíðar sb ft
+			yield Label('')
+			yield Checkbox(
+				'fleirtala', id='ord_enable_lysingarhattur_th_vb_ft', value=True, classes='colspan4'
+			)
+			yield Label('kk')
+			yield Input(id='ord_beyging_lhth_vb_ft_kk_nf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_kk_thf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_kk_thgf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_kk_ef', placeholder='boðnu')
+			yield Label('kvk')
+			yield Input(id='ord_beyging_lhth_vb_ft_kvk_nf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_kvk_thf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_kvk_thgf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_kvk_ef', placeholder='boðnu')
+			yield Label('hk')
+			yield Input(id='ord_beyging_lhth_vb_ft_hk_nf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_hk_thf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_hk_thgf', placeholder='boðnu')
+			yield Input(id='ord_beyging_lhth_vb_ft_hk_ef', placeholder='boðnu')
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar'):
+			# óskháttur
+			yield Checkbox(
+				'Óskháttur (fágætt, málfræðilegir steingervingar, sjá t.d. sögnina að "vera")',
+				id='ord_enable_oskhattur', value=False, classes='colspan5'
+			)
+			# óskháttur 1p ft
+			yield Label('')
+			yield Checkbox(
+				'1. pers. fleirtala', id='ord_enable_oskhattur_1p_ft', value=True,
+				classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Input(id='ord_beyging_oskhattur_1p_ft', placeholder='verum', classes='ghost')
+			yield Label('')
+			yield Label('')
+			# óskháttur 1p ft
+			yield Label('')
+			yield Checkbox(
+				'3. pers.', id='ord_enable_oskhattur_3p', value=True, classes='colspan4'
+			)
+			yield Label('')
+			yield Label('')
+			yield Input(id='ord_beyging_oskhattur_3p', placeholder='veri', classes='ghost')
+			yield Label('')
+			yield Label('')
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar'):
+			# vista hnappur
+			yield Label('')
+			with containers.Horizontal():
+				yield Button(
+					'[[ Vista ]] Fylltu inn beygingarmyndir', variant="error", disabled=True,
+					id='btn_ord_commit'
+				)
+		yield Markdown((
+			'5. Áður en smellt er á [[ Vista ]] hér fyrir ofan getur verið gott að skima yfir'
+			' innslegin gögn á JSON sniði í textahólfinu hér fyrir neðan, síðan ef allt lítur þar'
+			' vel út er ekkert því til fyrirstöðu að klára og vista nýja orðið.'
+		))
+		yield TextArea('{}', language='json', id='ord_data_json', read_only=True)
+
+
 class BuildWordContainer(Widget):
 	"""just a container"""
 
@@ -507,7 +1456,7 @@ Ferlið er svohljóðandi:
 	def handle_updated_ord_state(self):
 		if self.ORD_STATE['flokkur'] is None:
 			return
-		unimplemented_flokkar = ('fornafn', 'töluorð', 'sagnorð', 'smáorð', 'sérnafn')
+		unimplemented_flokkar = ('fornafn', 'töluorð', 'smáorð', 'sérnafn')
 		if self.ORD_STATE['flokkur'] in unimplemented_flokkar:
 			self.notify('todo: implement orðflokkur %s' % (self.ORD_STATE['flokkur'], ))
 			return
@@ -529,6 +1478,10 @@ Ferlið er svohljóðandi:
 			kennistrengur = handler.make_kennistrengur()
 		elif self.ORD_STATE['flokkur'] == 'lýsingarorð':
 			handler = handlers.Lysingarord()
+			handler.load_from_dict(self.ORD_STATE)
+			kennistrengur = handler.make_kennistrengur()
+		elif self.ORD_STATE['flokkur'] == 'sagnorð':
+			handler = handlers.Sagnord()
 			handler.load_from_dict(self.ORD_STATE)
 			kennistrengur = handler.make_kennistrengur()
 		if kennistrengur is not None:
@@ -564,6 +1517,14 @@ Ferlið er svohljóðandi:
 						widget=el_tilgr_beyg, focus_id='#ord_beyging_frumstig_sb_et_kk_nf'
 					)
 				)
+			elif self.ORD_STATE['flokkur'] == 'sagnorð':
+				el_tilgr_beyg = self.query_one('#el_tilgreina_beygingar_sagnord')
+				el_tilgr_beyg.remove_class('hidden')
+				self.post_message(
+					TriggerScrollToWidget(
+						widget=el_tilgr_beyg, focus_id='#ord_beyging_germynd_nafnhattur'
+					)
+				)
 		elif btn_id == "btn_ord_commit":
 			if self.ORD_STATE['flokkur'] == 'nafnorð':
 				handler = handlers.Nafnord()
@@ -573,6 +1534,12 @@ Ferlið er svohljóðandi:
 				handler.write_to_file()
 			elif self.ORD_STATE['flokkur'] == 'lýsingarorð':
 				handler = handlers.Lysingarord()
+				handler.load_from_dict(self.ORD_STATE)
+				filename = handler.make_filename()
+				handler.write_to_db()
+				handler.write_to_file()
+			elif self.ORD_STATE['flokkur'] == 'sagnorð':
+				handler = handlers.Sagnord()
 				handler.load_from_dict(self.ORD_STATE)
 				filename = handler.make_filename()
 				handler.write_to_db()
@@ -636,8 +1603,6 @@ Ferlið er svohljóðandi:
 					del self.ORD_STATE['tölugildi']
 			else:
 				self.ORD_STATE['tölugildi'] = Decimal(i_val)
-		elif i_id.startswith('ord_beyging_'):
-			self.handle_ord_data_change()
 		self.handle_updated_ord_state()
 
 	def on_radio_set_changed(self, event: RadioSet.Changed) -> None:
@@ -678,13 +1643,15 @@ Ferlið er svohljóðandi:
 				self.post_message(TriggerConfirmDiscard(curr=sel_ordfl, prev=prev_ordfl))
 			else:
 				self.handle_ordflokkur_selection_change(sel_ordfl)
+		elif event.select.id in ('ord_beyging_germynd_op_frumlag', 'ord_beyging_midmynd_op_frumlag'):
+			self.handle_updated_ord_state()
 
 	def handle_ordflokkur_selection_change(self, sel_ordfl: str):
 		el_build_word_container = self.query_one('#el_build_word', BuildWordContainer)
 		el_build_word_container.query('*').remove()
 		chbox_samsett_ord = self.query_one('#samsett_ord', RadioButton)
 		unimplmemented_ordflokkar = (
-			'Fornafn', 'Töluorð', 'Sagnorð', 'Smáorð', 'Sérnafn'
+			'Fornafn', 'Töluorð', 'Smáorð', 'Sérnafn'
 		)
 		if sel_ordfl == 'Nafnorð' and chbox_samsett_ord.value is False:
 			self.ORD_STATE['flokkur'] = 'nafnorð'
@@ -703,6 +1670,14 @@ Ferlið er svohljóðandi:
 				id='el_tilgreina_beygingar_lysingarord', classes='hidden'
 			)
 			el_build_word_container.mount(tilgreina_beygingar)
+		elif sel_ordfl == 'Sagnorð' and chbox_samsett_ord.value is False:
+			self.ORD_STATE['flokkur'] = 'sagnorð'
+			tilgreina_sagnord = TilgreinaSagnord()
+			el_build_word_container.mount(tilgreina_sagnord)
+			tilgreina_beygingar = TilgreinaSagnordBeygingar(
+				id='el_tilgreina_beygingar_sagnord' , classes='hidden'
+			)
+			el_build_word_container.mount(tilgreina_beygingar)
 		else:  # event.select.value == Select.BLANK:
 			if sel_ordfl in unimplmemented_ordflokkar:
 				self.notify(f'TODO: útfæra UI fyrir orðflokk "{sel_ordfl}"')
@@ -717,6 +1692,8 @@ Ferlið er svohljóðandi:
 				self.handle_ord_data_change_nafnord()
 			case 'lýsingarorð':
 				self.handle_ord_data_change_lysingarord()
+			case 'sagnorð':
+				self.handle_ord_data_change_sagnord()
 			case _:
 				self.notify(f'unimplemented: handle_ord_data_change flokkur {flokkur}')
 
@@ -2039,6 +3016,2331 @@ Ferlið er svohljóðandi:
 			btn_ord_commit.variant = 'primary'
 			btn_ord_commit.disabled = False
 
+	def handle_ord_data_change_sagnord(self):
+		input_empty = '---'
+		#
+		# checkboxes
+		#
+		# germynd
+		chbox_germynd = self.query_one('#ord_enable_germynd', Checkbox)
+		chbox_germynd_sagnbot = self.query_one('#ord_enable_germynd_sagnbot', Checkbox)
+		chbox_germynd_bodhattur = self.query_one('#ord_enable_germynd_bodhattur', Checkbox)
+		chbox_germynd_bodhattur_styfdur = self.query_one(
+			'#ord_enable_germynd_bodhattur_styfdur', Checkbox
+		)
+		chbox_germynd_bodhattur_et = self.query_one('#ord_enable_germynd_bodhattur_et', Checkbox)
+		chbox_germynd_bodhattur_ft = self.query_one('#ord_enable_germynd_bodhattur_ft', Checkbox)
+		# germynd persónuleg
+		chbox_germynd_p = self.query_one('#ord_enable_germynd_p', Checkbox)
+		chbox_germynd_p_f = self.query_one('#ord_enable_germynd_p_f', Checkbox)
+		chbox_germynd_p_f_nu = self.query_one('#ord_enable_germynd_p_f_nu', Checkbox)
+		chbox_germynd_p_f_th = self.query_one('#ord_enable_germynd_p_f_th', Checkbox)
+		chbox_germynd_p_v = self.query_one('#ord_enable_germynd_p_v', Checkbox)
+		chbox_germynd_p_v_nu = self.query_one('#ord_enable_germynd_p_v_nu', Checkbox)
+		chbox_germynd_p_v_th = self.query_one('#ord_enable_germynd_p_v_th', Checkbox)
+		# germynd ópersónuleg
+		chbox_germynd_op = self.query_one('#ord_enable_germynd_op', Checkbox)
+		chbox_germynd_op_f = self.query_one('#ord_enable_germynd_op_f', Checkbox)
+		chbox_germynd_op_f_nu = self.query_one('#ord_enable_germynd_op_f_nu', Checkbox)
+		chbox_germynd_op_f_th = self.query_one('#ord_enable_germynd_op_f_th', Checkbox)
+		chbox_germynd_op_v = self.query_one('#ord_enable_germynd_op_v', Checkbox)
+		chbox_germynd_op_v_nu = self.query_one('#ord_enable_germynd_op_v_nu', Checkbox)
+		chbox_germynd_op_v_th = self.query_one('#ord_enable_germynd_op_v_th', Checkbox)
+		# germynd spurnarmyndir
+		chbox_germynd_spurnar = self.query_one('#ord_enable_germynd_spurnar', Checkbox)
+		chbox_germynd_spurnar_f = self.query_one('#ord_enable_germynd_spurnar_f', Checkbox)
+		chbox_germynd_spurnar_f_nu = self.query_one('#ord_enable_germynd_spurnar_f_nu', Checkbox)
+		chbox_germynd_spurnar_f_th = self.query_one('#ord_enable_germynd_spurnar_f_th', Checkbox)
+		chbox_germynd_spurnar_v = self.query_one('#ord_enable_germynd_spurnar_v', Checkbox)
+		chbox_germynd_spurnar_v_nu = self.query_one('#ord_enable_germynd_spurnar_v_nu', Checkbox)
+		chbox_germynd_spurnar_v_th = self.query_one('#ord_enable_germynd_spurnar_v_th', Checkbox)
+		# miðmynd
+		chbox_midmynd = self.query_one('#ord_enable_midmynd', Checkbox)
+		chbox_midmynd_sagnbot = self.query_one('#ord_enable_midmynd_sagnbot', Checkbox)
+		chbox_midmynd_bodhattur = self.query_one('#ord_enable_midmynd_bodhattur', Checkbox)
+		chbox_midmynd_bodhattur_et = self.query_one('#ord_enable_midmynd_bodhattur_et', Checkbox)
+		chbox_midmynd_bodhattur_ft = self.query_one('#ord_enable_midmynd_bodhattur_ft', Checkbox)
+		# miðmynd persónuleg
+		chbox_midmynd_p = self.query_one('#ord_enable_midmynd_p', Checkbox)
+		chbox_midmynd_p_f = self.query_one('#ord_enable_midmynd_p_f', Checkbox)
+		chbox_midmynd_p_f_nu = self.query_one('#ord_enable_midmynd_p_f_nu', Checkbox)
+		chbox_midmynd_p_f_th = self.query_one('#ord_enable_midmynd_p_f_th', Checkbox)
+		chbox_midmynd_p_v = self.query_one('#ord_enable_midmynd_p_v', Checkbox)
+		chbox_midmynd_p_v_nu = self.query_one('#ord_enable_midmynd_p_v_nu', Checkbox)
+		chbox_midmynd_p_v_th = self.query_one('#ord_enable_midmynd_p_v_th', Checkbox)
+		# miðmynd ópersónuleg
+		chbox_midmynd_op = self.query_one('#ord_enable_midmynd_op', Checkbox)
+		chbox_midmynd_op_f = self.query_one('#ord_enable_midmynd_op_f', Checkbox)
+		chbox_midmynd_op_f_nu = self.query_one('#ord_enable_midmynd_op_f_nu', Checkbox)
+		chbox_midmynd_op_f_th = self.query_one('#ord_enable_midmynd_op_f_th', Checkbox)
+		chbox_midmynd_op_v = self.query_one('#ord_enable_midmynd_op_v', Checkbox)
+		chbox_midmynd_op_v_nu = self.query_one('#ord_enable_midmynd_op_v_nu', Checkbox)
+		chbox_midmynd_op_v_th = self.query_one('#ord_enable_midmynd_op_v_th', Checkbox)
+		# miðmynd spurnarmyndir
+		chbox_midmynd_spurnar = self.query_one('#ord_enable_midmynd_spurnar', Checkbox)
+		chbox_midmynd_spurnar_f = self.query_one('#ord_enable_midmynd_spurnar_f', Checkbox)
+		chbox_midmynd_spurnar_f_nu = self.query_one('#ord_enable_midmynd_spurnar_f_nu', Checkbox)
+		chbox_midmynd_spurnar_f_th = self.query_one('#ord_enable_midmynd_spurnar_f_th', Checkbox)
+		chbox_midmynd_spurnar_v = self.query_one('#ord_enable_midmynd_spurnar_v', Checkbox)
+		chbox_midmynd_spurnar_v_nu = self.query_one('#ord_enable_midmynd_spurnar_v_nu', Checkbox)
+		chbox_midmynd_spurnar_v_th = self.query_one('#ord_enable_midmynd_spurnar_v_th', Checkbox)
+		# lýsingarháttur
+		chbox_lysingar = self.query_one('#ord_enable_lysingarhattur', Checkbox)
+		chbox_lysingar_nt = self.query_one('#ord_enable_lysingarhattur_nt', Checkbox)
+		chbox_lysingar_th = self.query_one('#ord_enable_lysingarhattur_th', Checkbox)
+		chbox_lysingar_th_sb = self.query_one('#ord_enable_lysingarhattur_th_sb', Checkbox)
+		chbox_lysingar_th_sb_et = self.query_one('#ord_enable_lysingarhattur_th_sb_et', Checkbox)
+		chbox_lysingar_th_sb_ft = self.query_one('#ord_enable_lysingarhattur_th_sb_ft', Checkbox)
+		chbox_lysingar_th_vb = self.query_one('#ord_enable_lysingarhattur_th_vb', Checkbox)
+		chbox_lysingar_th_vb_et = self.query_one('#ord_enable_lysingarhattur_th_vb_et', Checkbox)
+		chbox_lysingar_th_vb_ft = self.query_one('#ord_enable_lysingarhattur_th_vb_ft', Checkbox)
+		# óskháttur
+		chbox_oskhattur = self.query_one('#ord_enable_oskhattur', Checkbox)
+		chbox_oskhattur_1p_ft = self.query_one('#ord_enable_oskhattur_1p_ft', Checkbox)
+		chbox_oskhattur_3p = self.query_one('#ord_enable_oskhattur_3p', Checkbox)
+		#
+		# inputs (and select)
+		#
+		# germynd
+		b_germynd_nafnhattur = self.query_one('#ord_beyging_germynd_nafnhattur', Input)
+		b_germynd_sagnbot = self.query_one('#ord_beyging_germynd_sagnbot', Input)
+		b_germynd_bodhattur_styfdur = self.query_one(
+			'#ord_beyging_germynd_bodhattur_styfdur', Input
+		)
+		b_germynd_bodhattur_et = self.query_one('#ord_beyging_germynd_bodhattur_et', Input)
+		b_germynd_bodhattur_ft = self.query_one('#ord_beyging_germynd_bodhattur_ft', Input)
+		# germynd persónuleg framsöguháttur nútíð
+		b_germynd_p_f_nu_1p_et = self.query_one('#ord_beyging_germynd_p_f_nu_1p_et', Input)
+		b_germynd_p_f_nu_1p_ft = self.query_one('#ord_beyging_germynd_p_f_nu_1p_ft', Input)
+		b_germynd_p_f_nu_2p_et = self.query_one('#ord_beyging_germynd_p_f_nu_2p_et', Input)
+		b_germynd_p_f_nu_2p_ft = self.query_one('#ord_beyging_germynd_p_f_nu_2p_ft', Input)
+		b_germynd_p_f_nu_3p_et = self.query_one('#ord_beyging_germynd_p_f_nu_3p_et', Input)
+		b_germynd_p_f_nu_3p_ft = self.query_one('#ord_beyging_germynd_p_f_nu_3p_ft', Input)
+		# germynd persónuleg framsöguháttur þátíð
+		b_germynd_p_f_th_1p_et = self.query_one('#ord_beyging_germynd_p_f_th_1p_et', Input)
+		b_germynd_p_f_th_1p_ft = self.query_one('#ord_beyging_germynd_p_f_th_1p_ft', Input)
+		b_germynd_p_f_th_2p_et = self.query_one('#ord_beyging_germynd_p_f_th_2p_et', Input)
+		b_germynd_p_f_th_2p_ft = self.query_one('#ord_beyging_germynd_p_f_th_2p_ft', Input)
+		b_germynd_p_f_th_3p_et = self.query_one('#ord_beyging_germynd_p_f_th_3p_et', Input)
+		b_germynd_p_f_th_3p_ft = self.query_one('#ord_beyging_germynd_p_f_th_3p_ft', Input)
+		# germynd persónuleg viðtengingarháttur nútíð
+		b_germynd_p_v_nu_1p_et = self.query_one('#ord_beyging_germynd_p_v_nu_1p_et', Input)
+		b_germynd_p_v_nu_1p_ft = self.query_one('#ord_beyging_germynd_p_v_nu_1p_ft', Input)
+		b_germynd_p_v_nu_2p_et = self.query_one('#ord_beyging_germynd_p_v_nu_2p_et', Input)
+		b_germynd_p_v_nu_2p_ft = self.query_one('#ord_beyging_germynd_p_v_nu_2p_ft', Input)
+		b_germynd_p_v_nu_3p_et = self.query_one('#ord_beyging_germynd_p_v_nu_3p_et', Input)
+		b_germynd_p_v_nu_3p_ft = self.query_one('#ord_beyging_germynd_p_v_nu_3p_ft', Input)
+		# germynd persónuleg viðtengingarháttur þátíð
+		b_germynd_p_v_th_1p_et = self.query_one('#ord_beyging_germynd_p_v_th_1p_et', Input)
+		b_germynd_p_v_th_1p_ft = self.query_one('#ord_beyging_germynd_p_v_th_1p_ft', Input)
+		b_germynd_p_v_th_2p_et = self.query_one('#ord_beyging_germynd_p_v_th_2p_et', Input)
+		b_germynd_p_v_th_2p_ft = self.query_one('#ord_beyging_germynd_p_v_th_2p_ft', Input)
+		b_germynd_p_v_th_3p_et = self.query_one('#ord_beyging_germynd_p_v_th_3p_et', Input)
+		b_germynd_p_v_th_3p_ft = self.query_one('#ord_beyging_germynd_p_v_th_3p_ft', Input)
+		# germynd ópersónuleg
+		s_germynd_op_frumlag = self.query_one('#ord_beyging_germynd_op_frumlag', Select)
+		# germynd ópersónuleg framsöguháttur nútíð
+		b_germynd_op_f_nu_1p_et = self.query_one('#ord_beyging_germynd_op_f_nu_1p_et', Input)
+		b_germynd_op_f_nu_1p_ft = self.query_one('#ord_beyging_germynd_op_f_nu_1p_ft', Input)
+		b_germynd_op_f_nu_2p_et = self.query_one('#ord_beyging_germynd_op_f_nu_2p_et', Input)
+		b_germynd_op_f_nu_2p_ft = self.query_one('#ord_beyging_germynd_op_f_nu_2p_ft', Input)
+		b_germynd_op_f_nu_3p_et = self.query_one('#ord_beyging_germynd_op_f_nu_3p_et', Input)
+		b_germynd_op_f_nu_3p_ft = self.query_one('#ord_beyging_germynd_op_f_nu_3p_ft', Input)
+		# germynd ópersónuleg framsöguháttur þátíð
+		b_germynd_op_f_th_1p_et = self.query_one('#ord_beyging_germynd_op_f_th_1p_et', Input)
+		b_germynd_op_f_th_1p_ft = self.query_one('#ord_beyging_germynd_op_f_th_1p_ft', Input)
+		b_germynd_op_f_th_2p_et = self.query_one('#ord_beyging_germynd_op_f_th_2p_et', Input)
+		b_germynd_op_f_th_2p_ft = self.query_one('#ord_beyging_germynd_op_f_th_2p_ft', Input)
+		b_germynd_op_f_th_3p_et = self.query_one('#ord_beyging_germynd_op_f_th_3p_et', Input)
+		b_germynd_op_f_th_3p_ft = self.query_one('#ord_beyging_germynd_op_f_th_3p_ft', Input)
+		# germynd ópersónuleg viðtengingarháttur nútíð
+		b_germynd_op_v_nu_1p_et = self.query_one('#ord_beyging_germynd_op_v_nu_1p_et', Input)
+		b_germynd_op_v_nu_1p_ft = self.query_one('#ord_beyging_germynd_op_v_nu_1p_ft', Input)
+		b_germynd_op_v_nu_2p_et = self.query_one('#ord_beyging_germynd_op_v_nu_2p_et', Input)
+		b_germynd_op_v_nu_2p_ft = self.query_one('#ord_beyging_germynd_op_v_nu_2p_ft', Input)
+		b_germynd_op_v_nu_3p_et = self.query_one('#ord_beyging_germynd_op_v_nu_3p_et', Input)
+		b_germynd_op_v_nu_3p_ft = self.query_one('#ord_beyging_germynd_op_v_nu_3p_ft', Input)
+		# germynd ópersónuleg viðtengingarháttur þátíð
+		b_germynd_op_v_th_1p_et = self.query_one('#ord_beyging_germynd_op_v_th_1p_et', Input)
+		b_germynd_op_v_th_1p_ft = self.query_one('#ord_beyging_germynd_op_v_th_1p_ft', Input)
+		b_germynd_op_v_th_2p_et = self.query_one('#ord_beyging_germynd_op_v_th_2p_et', Input)
+		b_germynd_op_v_th_2p_ft = self.query_one('#ord_beyging_germynd_op_v_th_2p_ft', Input)
+		b_germynd_op_v_th_3p_et = self.query_one('#ord_beyging_germynd_op_v_th_3p_et', Input)
+		b_germynd_op_v_th_3p_ft = self.query_one('#ord_beyging_germynd_op_v_th_3p_ft', Input)
+		# germynd spurnarmyndir
+		b_germynd_sp_f_nu_et = self.query_one('#ord_beyging_germynd_spurnar_f_nu_et', Input)
+		b_germynd_sp_f_nu_ft = self.query_one('#ord_beyging_germynd_spurnar_f_nu_ft', Input)
+		b_germynd_sp_f_th_et = self.query_one('#ord_beyging_germynd_spurnar_f_th_et', Input)
+		b_germynd_sp_f_th_ft = self.query_one('#ord_beyging_germynd_spurnar_f_th_ft', Input)
+		b_germynd_sp_v_nu_et = self.query_one('#ord_beyging_germynd_spurnar_v_nu_et', Input)
+		b_germynd_sp_v_nu_ft = self.query_one('#ord_beyging_germynd_spurnar_v_nu_ft', Input)
+		b_germynd_sp_v_th_et = self.query_one('#ord_beyging_germynd_spurnar_v_th_et', Input)
+		b_germynd_sp_v_th_ft = self.query_one('#ord_beyging_germynd_spurnar_v_th_ft', Input)
+		# miðmynd
+		b_midmynd_nafnhattur = self.query_one('#ord_beyging_midmynd_nafnhattur', Input)
+		b_midmynd_sagnbot = self.query_one('#ord_beyging_midmynd_sagnbot', Input)
+		b_midmynd_bodhattur_et = self.query_one('#ord_beyging_midmynd_bodhattur_et', Input)
+		b_midmynd_bodhattur_ft = self.query_one('#ord_beyging_midmynd_bodhattur_ft', Input)
+		# miðmynd persónuleg framsöguháttur nútíð
+		b_midmynd_p_f_nu_1p_et = self.query_one('#ord_beyging_midmynd_p_f_nu_1p_et', Input)
+		b_midmynd_p_f_nu_1p_ft = self.query_one('#ord_beyging_midmynd_p_f_nu_1p_ft', Input)
+		b_midmynd_p_f_nu_2p_et = self.query_one('#ord_beyging_midmynd_p_f_nu_2p_et', Input)
+		b_midmynd_p_f_nu_2p_ft = self.query_one('#ord_beyging_midmynd_p_f_nu_2p_ft', Input)
+		b_midmynd_p_f_nu_3p_et = self.query_one('#ord_beyging_midmynd_p_f_nu_3p_et', Input)
+		b_midmynd_p_f_nu_3p_ft = self.query_one('#ord_beyging_midmynd_p_f_nu_3p_ft', Input)
+		# miðmynd persónuleg framsöguháttur þátíð
+		b_midmynd_p_f_th_1p_et = self.query_one('#ord_beyging_midmynd_p_f_th_1p_et', Input)
+		b_midmynd_p_f_th_1p_ft = self.query_one('#ord_beyging_midmynd_p_f_th_1p_ft', Input)
+		b_midmynd_p_f_th_2p_et = self.query_one('#ord_beyging_midmynd_p_f_th_2p_et', Input)
+		b_midmynd_p_f_th_2p_ft = self.query_one('#ord_beyging_midmynd_p_f_th_2p_ft', Input)
+		b_midmynd_p_f_th_3p_et = self.query_one('#ord_beyging_midmynd_p_f_th_3p_et', Input)
+		b_midmynd_p_f_th_3p_ft = self.query_one('#ord_beyging_midmynd_p_f_th_3p_ft', Input)
+		# miðmynd persónuleg viðtengingarháttur nútíð
+		b_midmynd_p_v_nu_1p_et = self.query_one('#ord_beyging_midmynd_p_v_nu_1p_et', Input)
+		b_midmynd_p_v_nu_1p_ft = self.query_one('#ord_beyging_midmynd_p_v_nu_1p_ft', Input)
+		b_midmynd_p_v_nu_2p_et = self.query_one('#ord_beyging_midmynd_p_v_nu_2p_et', Input)
+		b_midmynd_p_v_nu_2p_ft = self.query_one('#ord_beyging_midmynd_p_v_nu_2p_ft', Input)
+		b_midmynd_p_v_nu_3p_et = self.query_one('#ord_beyging_midmynd_p_v_nu_3p_et', Input)
+		b_midmynd_p_v_nu_3p_ft = self.query_one('#ord_beyging_midmynd_p_v_nu_3p_ft', Input)
+		# miðmynd persónuleg viðtengingarháttur þátíð
+		b_midmynd_p_v_th_1p_et = self.query_one('#ord_beyging_midmynd_p_v_th_1p_et', Input)
+		b_midmynd_p_v_th_1p_ft = self.query_one('#ord_beyging_midmynd_p_v_th_1p_ft', Input)
+		b_midmynd_p_v_th_2p_et = self.query_one('#ord_beyging_midmynd_p_v_th_2p_et', Input)
+		b_midmynd_p_v_th_2p_ft = self.query_one('#ord_beyging_midmynd_p_v_th_2p_ft', Input)
+		b_midmynd_p_v_th_3p_et = self.query_one('#ord_beyging_midmynd_p_v_th_3p_et', Input)
+		b_midmynd_p_v_th_3p_ft = self.query_one('#ord_beyging_midmynd_p_v_th_3p_ft', Input)
+		# miðmynd ópersónuleg
+		s_midmynd_op_frumlag = self.query_one('#ord_beyging_midmynd_op_frumlag', Select)
+		# miðmynd ópersónuleg framsöguháttur nútíð
+		b_midmynd_op_f_nu_1p_et = self.query_one('#ord_beyging_midmynd_op_f_nu_1p_et', Input)
+		b_midmynd_op_f_nu_1p_ft = self.query_one('#ord_beyging_midmynd_op_f_nu_1p_ft', Input)
+		b_midmynd_op_f_nu_2p_et = self.query_one('#ord_beyging_midmynd_op_f_nu_2p_et', Input)
+		b_midmynd_op_f_nu_2p_ft = self.query_one('#ord_beyging_midmynd_op_f_nu_2p_ft', Input)
+		b_midmynd_op_f_nu_3p_et = self.query_one('#ord_beyging_midmynd_op_f_nu_3p_et', Input)
+		b_midmynd_op_f_nu_3p_ft = self.query_one('#ord_beyging_midmynd_op_f_nu_3p_ft', Input)
+		# miðmynd ópersónuleg framsöguháttur þátíð
+		b_midmynd_op_f_th_1p_et = self.query_one('#ord_beyging_midmynd_op_f_th_1p_et', Input)
+		b_midmynd_op_f_th_1p_ft = self.query_one('#ord_beyging_midmynd_op_f_th_1p_ft', Input)
+		b_midmynd_op_f_th_2p_et = self.query_one('#ord_beyging_midmynd_op_f_th_2p_et', Input)
+		b_midmynd_op_f_th_2p_ft = self.query_one('#ord_beyging_midmynd_op_f_th_2p_ft', Input)
+		b_midmynd_op_f_th_3p_et = self.query_one('#ord_beyging_midmynd_op_f_th_3p_et', Input)
+		b_midmynd_op_f_th_3p_ft = self.query_one('#ord_beyging_midmynd_op_f_th_3p_ft', Input)
+		# miðmynd ópersónuleg viðtengingarháttur nútíð
+		b_midmynd_op_v_nu_1p_et = self.query_one('#ord_beyging_midmynd_op_v_nu_1p_et', Input)
+		b_midmynd_op_v_nu_1p_ft = self.query_one('#ord_beyging_midmynd_op_v_nu_1p_ft', Input)
+		b_midmynd_op_v_nu_2p_et = self.query_one('#ord_beyging_midmynd_op_v_nu_2p_et', Input)
+		b_midmynd_op_v_nu_2p_ft = self.query_one('#ord_beyging_midmynd_op_v_nu_2p_ft', Input)
+		b_midmynd_op_v_nu_3p_et = self.query_one('#ord_beyging_midmynd_op_v_nu_3p_et', Input)
+		b_midmynd_op_v_nu_3p_ft = self.query_one('#ord_beyging_midmynd_op_v_nu_3p_ft', Input)
+		# miðmynd ópersónuleg viðtengingarháttur þátíð
+		b_midmynd_op_v_th_1p_et = self.query_one('#ord_beyging_midmynd_op_v_th_1p_et', Input)
+		b_midmynd_op_v_th_1p_ft = self.query_one('#ord_beyging_midmynd_op_v_th_1p_ft', Input)
+		b_midmynd_op_v_th_2p_et = self.query_one('#ord_beyging_midmynd_op_v_th_2p_et', Input)
+		b_midmynd_op_v_th_2p_ft = self.query_one('#ord_beyging_midmynd_op_v_th_2p_ft', Input)
+		b_midmynd_op_v_th_3p_et = self.query_one('#ord_beyging_midmynd_op_v_th_3p_et', Input)
+		b_midmynd_op_v_th_3p_ft = self.query_one('#ord_beyging_midmynd_op_v_th_3p_ft', Input)
+		# miðmynd spurnarmyndir
+		b_midmynd_sp_f_nu_et = self.query_one('#ord_beyging_midmynd_spurnar_f_nu_et', Input)
+		b_midmynd_sp_f_th_et = self.query_one('#ord_beyging_midmynd_spurnar_f_th_et', Input)
+		b_midmynd_sp_v_nu_et = self.query_one('#ord_beyging_midmynd_spurnar_v_nu_et', Input)
+		b_midmynd_sp_v_th_et = self.query_one('#ord_beyging_midmynd_spurnar_v_th_et', Input)
+		# lýsingarháttur
+		# lýsingarháttur nútíðar
+		b_lhnt = self.query_one('#ord_beyging_lhnt', Input)
+		# lýsingarháttur þátíðar
+		# lýsingarháttur þátíðar sterk beyging et kk
+		b_lhth_sb_et_kk_nf = self.query_one('#ord_beyging_lhth_sb_et_kk_nf', Input)
+		b_lhth_sb_et_kk_thf = self.query_one('#ord_beyging_lhth_sb_et_kk_thf', Input)
+		b_lhth_sb_et_kk_thgf = self.query_one('#ord_beyging_lhth_sb_et_kk_thgf', Input)
+		b_lhth_sb_et_kk_ef = self.query_one('#ord_beyging_lhth_sb_et_kk_ef', Input)
+		# lýsingarháttur þátíðar sterk beyging et kvk
+		b_lhth_sb_et_kvk_nf = self.query_one('#ord_beyging_lhth_sb_et_kvk_nf', Input)
+		b_lhth_sb_et_kvk_thf = self.query_one('#ord_beyging_lhth_sb_et_kvk_thf', Input)
+		b_lhth_sb_et_kvk_thgf = self.query_one('#ord_beyging_lhth_sb_et_kvk_thgf', Input)
+		b_lhth_sb_et_kvk_ef = self.query_one('#ord_beyging_lhth_sb_et_kvk_ef', Input)
+		# lýsingarháttur þátíðar sterk beyging et hk
+		b_lhth_sb_et_hk_nf = self.query_one('#ord_beyging_lhth_sb_et_hk_nf', Input)
+		b_lhth_sb_et_hk_thf = self.query_one('#ord_beyging_lhth_sb_et_hk_thf', Input)
+		b_lhth_sb_et_hk_thgf = self.query_one('#ord_beyging_lhth_sb_et_hk_thgf', Input)
+		b_lhth_sb_et_hk_ef = self.query_one('#ord_beyging_lhth_sb_et_hk_ef', Input)
+		# lýsingarháttur þátíðar sterk beyging ft kk
+		b_lhth_sb_ft_kk_nf = self.query_one('#ord_beyging_lhth_sb_ft_kk_nf', Input)
+		b_lhth_sb_ft_kk_thf = self.query_one('#ord_beyging_lhth_sb_ft_kk_thf', Input)
+		b_lhth_sb_ft_kk_thgf = self.query_one('#ord_beyging_lhth_sb_ft_kk_thgf', Input)
+		b_lhth_sb_ft_kk_ef = self.query_one('#ord_beyging_lhth_sb_ft_kk_ef', Input)
+		# lýsingarháttur þátíðar sterk beyging ft kvk
+		b_lhth_sb_ft_kvk_nf = self.query_one('#ord_beyging_lhth_sb_ft_kvk_nf', Input)
+		b_lhth_sb_ft_kvk_thf = self.query_one('#ord_beyging_lhth_sb_ft_kvk_thf', Input)
+		b_lhth_sb_ft_kvk_thgf = self.query_one('#ord_beyging_lhth_sb_ft_kvk_thgf', Input)
+		b_lhth_sb_ft_kvk_ef = self.query_one('#ord_beyging_lhth_sb_ft_kvk_ef', Input)
+		# lýsingarháttur þátíðar sterk beyging ft hk
+		b_lhth_sb_ft_hk_nf = self.query_one('#ord_beyging_lhth_sb_ft_hk_nf', Input)
+		b_lhth_sb_ft_hk_thf = self.query_one('#ord_beyging_lhth_sb_ft_hk_thf', Input)
+		b_lhth_sb_ft_hk_thgf = self.query_one('#ord_beyging_lhth_sb_ft_hk_thgf', Input)
+		b_lhth_sb_ft_hk_ef = self.query_one('#ord_beyging_lhth_sb_ft_hk_ef', Input)
+		# lýsingarháttur þátíðar veik beyging et kk
+		b_lhth_vb_et_kk_nf = self.query_one('#ord_beyging_lhth_vb_et_kk_nf', Input)
+		b_lhth_vb_et_kk_thf = self.query_one('#ord_beyging_lhth_vb_et_kk_thf', Input)
+		b_lhth_vb_et_kk_thgf = self.query_one('#ord_beyging_lhth_vb_et_kk_thgf', Input)
+		b_lhth_vb_et_kk_ef = self.query_one('#ord_beyging_lhth_vb_et_kk_ef', Input)
+		# lýsingarháttur þátíðar veik beyging et kvk
+		b_lhth_vb_et_kvk_nf = self.query_one('#ord_beyging_lhth_vb_et_kvk_nf', Input)
+		b_lhth_vb_et_kvk_thf = self.query_one('#ord_beyging_lhth_vb_et_kvk_thf', Input)
+		b_lhth_vb_et_kvk_thgf = self.query_one('#ord_beyging_lhth_vb_et_kvk_thgf', Input)
+		b_lhth_vb_et_kvk_ef = self.query_one('#ord_beyging_lhth_vb_et_kvk_ef', Input)
+		# lýsingarháttur þátíðar veik beyging et hk
+		b_lhth_vb_et_hk_nf = self.query_one('#ord_beyging_lhth_vb_et_hk_nf', Input)
+		b_lhth_vb_et_hk_thf = self.query_one('#ord_beyging_lhth_vb_et_hk_thf', Input)
+		b_lhth_vb_et_hk_thgf = self.query_one('#ord_beyging_lhth_vb_et_hk_thgf', Input)
+		b_lhth_vb_et_hk_ef = self.query_one('#ord_beyging_lhth_vb_et_hk_ef', Input)
+		# lýsingarháttur þátíðar veik beyging ft kk
+		b_lhth_vb_ft_kk_nf = self.query_one('#ord_beyging_lhth_vb_ft_kk_nf', Input)
+		b_lhth_vb_ft_kk_thf = self.query_one('#ord_beyging_lhth_vb_ft_kk_thf', Input)
+		b_lhth_vb_ft_kk_thgf = self.query_one('#ord_beyging_lhth_vb_ft_kk_thgf', Input)
+		b_lhth_vb_ft_kk_ef = self.query_one('#ord_beyging_lhth_vb_ft_kk_ef', Input)
+		# lýsingarháttur þátíðar veik beyging ft kvk
+		b_lhth_vb_ft_kvk_nf = self.query_one('#ord_beyging_lhth_vb_ft_kvk_nf', Input)
+		b_lhth_vb_ft_kvk_thf = self.query_one('#ord_beyging_lhth_vb_ft_kvk_thf', Input)
+		b_lhth_vb_ft_kvk_thgf = self.query_one('#ord_beyging_lhth_vb_ft_kvk_thgf', Input)
+		b_lhth_vb_ft_kvk_ef = self.query_one('#ord_beyging_lhth_vb_ft_kvk_ef', Input)
+		# lýsingarháttur þátíðar veik beyging ft hk
+		b_lhth_vb_ft_hk_nf = self.query_one('#ord_beyging_lhth_vb_ft_hk_nf', Input)
+		b_lhth_vb_ft_hk_thf = self.query_one('#ord_beyging_lhth_vb_ft_hk_thf', Input)
+		b_lhth_vb_ft_hk_thgf = self.query_one('#ord_beyging_lhth_vb_ft_hk_thgf', Input)
+		b_lhth_vb_ft_hk_ef = self.query_one('#ord_beyging_lhth_vb_ft_hk_ef', Input)
+		# óskháttur
+		b_oskhattur_1p_ft = self.query_one('#ord_beyging_oskhattur_1p_ft', Input)
+		b_oskhattur_3p = self.query_one('#ord_beyging_oskhattur_3p', Input)
+		# button commit
+		btn_ord_commit = self.query_one('#btn_ord_commit', Button)
+		# json textarea
+		el_ord_data_json = self.query_one('#ord_data_json', TextArea)
+		#
+		# read data from ui, then update ord data and ui
+		# germynd
+		if chbox_germynd.value is True:
+			if 'germynd' not in self.ORD_STATE:
+				self.ORD_STATE['germynd'] = {}
+			# germynd nafnháttur
+			b_germynd_nafnhattur.remove_class('ghost')
+			self.ORD_STATE['germynd']['nafnháttur'] = b_germynd_nafnhattur.value or input_empty
+			# germynd sagnbót
+			if chbox_germynd_sagnbot.value is True:
+				b_germynd_sagnbot.remove_class('ghost')
+				self.ORD_STATE['germynd']['sagnbót'] = b_germynd_sagnbot.value or input_empty
+			else:
+				b_germynd_sagnbot.add_class('ghost')
+				if 'sagnbót' in self.ORD_STATE['germynd']:
+					del self.ORD_STATE['germynd']['sagnbót']
+			# germynd boðháttur
+			if chbox_germynd_bodhattur.value is True:
+				# add boðháttur to ORD_STATE if missing (yes, even if not needed)
+				if 'boðháttur' not in self.ORD_STATE['germynd']:
+					self.ORD_STATE['germynd']['boðháttur'] = {}
+				# germynd boðháttur stýfður
+				if chbox_germynd_bodhattur_styfdur.value is True:
+					b_germynd_bodhattur_styfdur.remove_class('ghost')
+					self.ORD_STATE['germynd']['boðháttur']['stýfður'] = (
+						b_germynd_bodhattur_styfdur.value or input_empty
+					)
+				else:
+					b_germynd_bodhattur_styfdur.add_class('ghost')
+					if 'stýfður' in self.ORD_STATE['germynd']['boðháttur']:
+						del self.ORD_STATE['germynd']['boðháttur']['stýfður']
+				# germynd boðháttur et
+				if chbox_germynd_bodhattur_et.value is True:
+					b_germynd_bodhattur_et.remove_class('ghost')
+					self.ORD_STATE['germynd']['boðháttur']['et'] = (
+						b_germynd_bodhattur_et.value or input_empty
+					)
+				else:
+					b_germynd_bodhattur_et.add_class('ghost')
+					if 'et' in self.ORD_STATE['germynd']['boðháttur']:
+						del self.ORD_STATE['germynd']['boðháttur']['et']
+				# germynd boðháttur ft
+				if chbox_germynd_bodhattur_ft.value is True:
+					b_germynd_bodhattur_ft.remove_class('ghost')
+					self.ORD_STATE['germynd']['boðháttur']['ft'] = (
+						b_germynd_bodhattur_ft.value or input_empty
+					)
+				else:
+					b_germynd_bodhattur_ft.add_class('ghost')
+					if 'ft' in self.ORD_STATE['germynd']['boðháttur']:
+						del self.ORD_STATE['germynd']['boðháttur']['ft']
+				# remove boðháttur from ORD_STATE if not needed
+				if (
+					chbox_germynd_bodhattur_styfdur.value is False and
+					chbox_germynd_bodhattur_et.value is False and
+					chbox_germynd_bodhattur_ft.value is False
+				):
+					del self.ORD_STATE['germynd']['boðháttur']
+			else:
+				b_germynd_bodhattur_styfdur.add_class('ghost')
+				b_germynd_bodhattur_et.add_class('ghost')
+				b_germynd_bodhattur_ft.add_class('ghost')
+				if 'boðháttur' in self.ORD_STATE['germynd']:
+					del self.ORD_STATE['germynd']['boðháttur']
+			# germynd persónuleg
+			if chbox_germynd_p.value is True:
+				# add persónuleg to ORD_STATE if missing
+				if 'persónuleg' not in self.ORD_STATE['germynd']:
+					self.ORD_STATE['germynd']['persónuleg'] = {}
+				# germynd persónuleg framsöguháttur
+				if chbox_germynd_p_f.value is True:
+					if 'framsöguháttur' not in self.ORD_STATE['germynd']['persónuleg']:
+						self.ORD_STATE['germynd']['persónuleg']['framsöguháttur'] = {}
+					# germynd persónuleg framsöguháttur nútíð
+					if chbox_germynd_p_f_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']:
+							self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['nútíð'] = {}
+						b_germynd_p_f_nu_1p_et.remove_class('ghost')
+						b_germynd_p_f_nu_1p_ft.remove_class('ghost')
+						b_germynd_p_f_nu_2p_et.remove_class('ghost')
+						b_germynd_p_f_nu_2p_ft.remove_class('ghost')
+						b_germynd_p_f_nu_3p_et.remove_class('ghost')
+						b_germynd_p_f_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['nútíð']['et'] = [
+							b_germynd_p_f_nu_1p_et.value or input_empty,
+							b_germynd_p_f_nu_2p_et.value or input_empty,
+							b_germynd_p_f_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['nútíð']['ft'] = [
+							b_germynd_p_f_nu_1p_ft.value or input_empty,
+							b_germynd_p_f_nu_2p_ft.value or input_empty,
+							b_germynd_p_f_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_p_f_nu_1p_et.add_class('ghost')
+						b_germynd_p_f_nu_1p_ft.add_class('ghost')
+						b_germynd_p_f_nu_2p_et.add_class('ghost')
+						b_germynd_p_f_nu_2p_ft.add_class('ghost')
+						b_germynd_p_f_nu_3p_et.add_class('ghost')
+						b_germynd_p_f_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']:
+							del self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['nútíð']
+					# germynd persónuleg framsöguháttur þátíð
+					if chbox_germynd_p_f_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']:
+							self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['þátíð'] = {}
+						b_germynd_p_f_th_1p_et.remove_class('ghost')
+						b_germynd_p_f_th_1p_ft.remove_class('ghost')
+						b_germynd_p_f_th_2p_et.remove_class('ghost')
+						b_germynd_p_f_th_2p_ft.remove_class('ghost')
+						b_germynd_p_f_th_3p_et.remove_class('ghost')
+						b_germynd_p_f_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['þátíð']['et'] = [
+							b_germynd_p_f_th_1p_et.value or input_empty,
+							b_germynd_p_f_th_2p_et.value or input_empty,
+							b_germynd_p_f_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['þátíð']['ft'] = [
+							b_germynd_p_f_th_1p_ft.value or input_empty,
+							b_germynd_p_f_th_2p_ft.value or input_empty,
+							b_germynd_p_f_th_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_p_f_th_1p_et.add_class('ghost')
+						b_germynd_p_f_th_1p_ft.add_class('ghost')
+						b_germynd_p_f_th_2p_et.add_class('ghost')
+						b_germynd_p_f_th_2p_ft.add_class('ghost')
+						b_germynd_p_f_th_3p_et.add_class('ghost')
+						b_germynd_p_f_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']:
+							del self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['germynd']['persónuleg']['framsöguháttur'] and
+						'þátíð' not in self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']
+					):
+						del self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']
+				else:
+					b_germynd_p_f_nu_1p_et.add_class('ghost')
+					b_germynd_p_f_nu_1p_ft.add_class('ghost')
+					b_germynd_p_f_nu_2p_et.add_class('ghost')
+					b_germynd_p_f_nu_2p_ft.add_class('ghost')
+					b_germynd_p_f_nu_3p_et.add_class('ghost')
+					b_germynd_p_f_nu_3p_ft.add_class('ghost')
+					b_germynd_p_f_th_1p_et.add_class('ghost')
+					b_germynd_p_f_th_1p_ft.add_class('ghost')
+					b_germynd_p_f_th_2p_et.add_class('ghost')
+					b_germynd_p_f_th_2p_ft.add_class('ghost')
+					b_germynd_p_f_th_3p_et.add_class('ghost')
+					b_germynd_p_f_th_3p_ft.add_class('ghost')
+					if 'framsöguháttur' in self.ORD_STATE['germynd']['persónuleg']:
+						del self.ORD_STATE['germynd']['persónuleg']['framsöguháttur']
+				# germynd persónuleg viðtengingarháttur
+				if chbox_germynd_p_v.value is True:
+					if 'viðtengingarháttur' not in self.ORD_STATE['germynd']['persónuleg']:
+						self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur'] = {}
+					# germynd persónuleg viðtengingarháttur nútíð
+					if chbox_germynd_p_v_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['nútíð'] = {}
+						b_germynd_p_v_nu_1p_et.remove_class('ghost')
+						b_germynd_p_v_nu_1p_ft.remove_class('ghost')
+						b_germynd_p_v_nu_2p_et.remove_class('ghost')
+						b_germynd_p_v_nu_2p_ft.remove_class('ghost')
+						b_germynd_p_v_nu_3p_et.remove_class('ghost')
+						b_germynd_p_v_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['nútíð']['et'] = [
+							b_germynd_p_v_nu_1p_et.value or input_empty,
+							b_germynd_p_v_nu_2p_et.value or input_empty,
+							b_germynd_p_v_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['nútíð']['ft'] = [
+							b_germynd_p_v_nu_1p_ft.value or input_empty,
+							b_germynd_p_v_nu_2p_ft.value or input_empty,
+							b_germynd_p_v_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_p_v_nu_1p_et.add_class('ghost')
+						b_germynd_p_v_nu_1p_ft.add_class('ghost')
+						b_germynd_p_v_nu_2p_et.add_class('ghost')
+						b_germynd_p_v_nu_2p_ft.add_class('ghost')
+						b_germynd_p_v_nu_3p_et.add_class('ghost')
+						b_germynd_p_v_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['nútíð']
+					# germynd persónuleg viðtengingarháttur þátíð
+					if chbox_germynd_p_v_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['þátíð'] = {}
+						b_germynd_p_v_th_1p_et.remove_class('ghost')
+						b_germynd_p_v_th_1p_ft.remove_class('ghost')
+						b_germynd_p_v_th_2p_et.remove_class('ghost')
+						b_germynd_p_v_th_2p_ft.remove_class('ghost')
+						b_germynd_p_v_th_3p_et.remove_class('ghost')
+						b_germynd_p_v_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['þátíð']['et'] = [
+							b_germynd_p_v_th_1p_et.value or input_empty,
+							b_germynd_p_v_th_2p_et.value or input_empty,
+							b_germynd_p_v_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['þátíð']['ft'] = [
+							b_germynd_p_v_th_1p_ft.value or input_empty,
+							b_germynd_p_v_th_2p_ft.value or input_empty,
+							b_germynd_p_v_th_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_p_v_th_1p_et.add_class('ghost')
+						b_germynd_p_v_th_1p_ft.add_class('ghost')
+						b_germynd_p_v_th_2p_et.add_class('ghost')
+						b_germynd_p_v_th_2p_ft.add_class('ghost')
+						b_germynd_p_v_th_3p_et.add_class('ghost')
+						b_germynd_p_v_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur'] and
+						'þátíð' not in self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']
+					):
+						del self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']
+				else:
+					b_germynd_p_v_nu_1p_et.add_class('ghost')
+					b_germynd_p_v_nu_1p_ft.add_class('ghost')
+					b_germynd_p_v_nu_2p_et.add_class('ghost')
+					b_germynd_p_v_nu_2p_ft.add_class('ghost')
+					b_germynd_p_v_nu_3p_et.add_class('ghost')
+					b_germynd_p_v_nu_3p_ft.add_class('ghost')
+					b_germynd_p_v_th_1p_et.add_class('ghost')
+					b_germynd_p_v_th_1p_ft.add_class('ghost')
+					b_germynd_p_v_th_2p_et.add_class('ghost')
+					b_germynd_p_v_th_2p_ft.add_class('ghost')
+					b_germynd_p_v_th_3p_et.add_class('ghost')
+					b_germynd_p_v_th_3p_ft.add_class('ghost')
+					if 'viðtengingarháttur' in self.ORD_STATE['germynd']['persónuleg']:
+						del self.ORD_STATE['germynd']['persónuleg']['viðtengingarháttur']
+				if (
+					'framsöguháttur' not in self.ORD_STATE['germynd']['persónuleg'] and
+					'viðtengingarháttur' not in self.ORD_STATE['germynd']['persónuleg']
+				):
+					del self.ORD_STATE['germynd']['persónuleg']
+			else:
+				b_germynd_p_f_nu_1p_et.add_class('ghost')
+				b_germynd_p_f_nu_1p_ft.add_class('ghost')
+				b_germynd_p_f_nu_2p_et.add_class('ghost')
+				b_germynd_p_f_nu_2p_ft.add_class('ghost')
+				b_germynd_p_f_nu_3p_et.add_class('ghost')
+				b_germynd_p_f_nu_3p_ft.add_class('ghost')
+				b_germynd_p_f_th_1p_et.add_class('ghost')
+				b_germynd_p_f_th_1p_ft.add_class('ghost')
+				b_germynd_p_f_th_2p_et.add_class('ghost')
+				b_germynd_p_f_th_2p_ft.add_class('ghost')
+				b_germynd_p_f_th_3p_et.add_class('ghost')
+				b_germynd_p_f_th_3p_ft.add_class('ghost')
+				b_germynd_p_v_nu_1p_et.add_class('ghost')
+				b_germynd_p_v_nu_1p_ft.add_class('ghost')
+				b_germynd_p_v_nu_2p_et.add_class('ghost')
+				b_germynd_p_v_nu_2p_ft.add_class('ghost')
+				b_germynd_p_v_nu_3p_et.add_class('ghost')
+				b_germynd_p_v_nu_3p_ft.add_class('ghost')
+				b_germynd_p_v_th_1p_et.add_class('ghost')
+				b_germynd_p_v_th_1p_ft.add_class('ghost')
+				b_germynd_p_v_th_2p_et.add_class('ghost')
+				b_germynd_p_v_th_2p_ft.add_class('ghost')
+				b_germynd_p_v_th_3p_et.add_class('ghost')
+				b_germynd_p_v_th_3p_ft.add_class('ghost')
+				if 'persónuleg' in self.ORD_STATE['germynd']:
+					del self.ORD_STATE['germynd']['persónuleg']
+			# germynd ópersónuleg
+			if chbox_germynd_op.value is True:
+				# add ópersónuleg to ORD_STATE if missing
+				if 'ópersónuleg' not in self.ORD_STATE['germynd']:
+					self.ORD_STATE['germynd']['ópersónuleg'] = {}
+				s_germynd_op_frumlag.remove_class('ghost')
+				self.ORD_STATE['germynd']['ópersónuleg']['frumlag'] = s_germynd_op_frumlag.value
+				# germynd ópersónuleg framsöguháttur
+				if chbox_germynd_op_f.value is True:
+					if 'framsöguháttur' not in self.ORD_STATE['germynd']['ópersónuleg']:
+						self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur'] = {}
+					# germynd ópersónuleg framsöguháttur nútíð
+					if chbox_germynd_op_f_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']:
+							self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['nútíð'] = {}
+						b_germynd_op_f_nu_1p_et.remove_class('ghost')
+						b_germynd_op_f_nu_1p_ft.remove_class('ghost')
+						b_germynd_op_f_nu_2p_et.remove_class('ghost')
+						b_germynd_op_f_nu_2p_ft.remove_class('ghost')
+						b_germynd_op_f_nu_3p_et.remove_class('ghost')
+						b_germynd_op_f_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['nútíð']['et'] = [
+							b_germynd_op_f_nu_1p_et.value or input_empty,
+							b_germynd_op_f_nu_2p_et.value or input_empty,
+							b_germynd_op_f_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['nútíð']['ft'] = [
+							b_germynd_op_f_nu_1p_ft.value or input_empty,
+							b_germynd_op_f_nu_2p_ft.value or input_empty,
+							b_germynd_op_f_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_op_f_nu_1p_et.add_class('ghost')
+						b_germynd_op_f_nu_1p_ft.add_class('ghost')
+						b_germynd_op_f_nu_2p_et.add_class('ghost')
+						b_germynd_op_f_nu_2p_ft.add_class('ghost')
+						b_germynd_op_f_nu_3p_et.add_class('ghost')
+						b_germynd_op_f_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']:
+							del self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['nútíð']
+					# germynd ópersónuleg framsöguháttur þátíð
+					if chbox_germynd_op_f_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']:
+							self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['þátíð'] = {}
+						b_germynd_op_f_th_1p_et.remove_class('ghost')
+						b_germynd_op_f_th_1p_ft.remove_class('ghost')
+						b_germynd_op_f_th_2p_et.remove_class('ghost')
+						b_germynd_op_f_th_2p_ft.remove_class('ghost')
+						b_germynd_op_f_th_3p_et.remove_class('ghost')
+						b_germynd_op_f_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['þátíð']['et'] = [
+							b_germynd_op_f_th_1p_et.value or input_empty,
+							b_germynd_op_f_th_2p_et.value or input_empty,
+							b_germynd_op_f_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['þátíð']['ft'] = [
+							b_germynd_op_f_th_1p_ft.value or input_empty,
+							b_germynd_op_f_th_2p_ft.value or input_empty,
+							b_germynd_op_f_th_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_op_f_th_1p_et.add_class('ghost')
+						b_germynd_op_f_th_1p_ft.add_class('ghost')
+						b_germynd_op_f_th_2p_et.add_class('ghost')
+						b_germynd_op_f_th_2p_ft.add_class('ghost')
+						b_germynd_op_f_th_3p_et.add_class('ghost')
+						b_germynd_op_f_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']:
+							del self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']['þátíð']
+				else:
+					b_germynd_op_f_nu_1p_et.add_class('ghost')
+					b_germynd_op_f_nu_1p_ft.add_class('ghost')
+					b_germynd_op_f_nu_2p_et.add_class('ghost')
+					b_germynd_op_f_nu_2p_ft.add_class('ghost')
+					b_germynd_op_f_nu_3p_et.add_class('ghost')
+					b_germynd_op_f_nu_3p_ft.add_class('ghost')
+					b_germynd_op_f_th_1p_et.add_class('ghost')
+					b_germynd_op_f_th_1p_ft.add_class('ghost')
+					b_germynd_op_f_th_2p_et.add_class('ghost')
+					b_germynd_op_f_th_2p_ft.add_class('ghost')
+					b_germynd_op_f_th_3p_et.add_class('ghost')
+					b_germynd_op_f_th_3p_ft.add_class('ghost')
+					if 'framsöguháttur' in self.ORD_STATE['germynd']['ópersónuleg']:
+						del self.ORD_STATE['germynd']['ópersónuleg']['framsöguháttur']
+				# germynd ópersónuleg viðtengingarháttur
+				if chbox_germynd_op_v.value is True:
+					if 'viðtengingarháttur' not in self.ORD_STATE['germynd']['ópersónuleg']:
+						self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur'] = {}
+					# germynd ópersónuleg viðtengingarháttur nútíð
+					if chbox_germynd_op_v_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['nútíð'] = {}
+						b_germynd_op_v_nu_1p_et.remove_class('ghost')
+						b_germynd_op_v_nu_1p_ft.remove_class('ghost')
+						b_germynd_op_v_nu_2p_et.remove_class('ghost')
+						b_germynd_op_v_nu_2p_ft.remove_class('ghost')
+						b_germynd_op_v_nu_3p_et.remove_class('ghost')
+						b_germynd_op_v_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['nútíð']['et'] = [
+							b_germynd_op_v_nu_1p_et.value or input_empty,
+							b_germynd_op_v_nu_2p_et.value or input_empty,
+							b_germynd_op_v_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['nútíð']['ft'] = [
+							b_germynd_op_v_nu_1p_ft.value or input_empty,
+							b_germynd_op_v_nu_2p_ft.value or input_empty,
+							b_germynd_op_v_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_op_v_nu_1p_et.add_class('ghost')
+						b_germynd_op_v_nu_1p_ft.add_class('ghost')
+						b_germynd_op_v_nu_2p_et.add_class('ghost')
+						b_germynd_op_v_nu_2p_ft.add_class('ghost')
+						b_germynd_op_v_nu_3p_et.add_class('ghost')
+						b_germynd_op_v_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['nútíð']
+					# germynd ópersónuleg viðtengingarháttur þátíð
+					if chbox_germynd_op_v_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['þátíð'] = {}
+						b_germynd_op_v_th_1p_et.remove_class('ghost')
+						b_germynd_op_v_th_1p_ft.remove_class('ghost')
+						b_germynd_op_v_th_2p_et.remove_class('ghost')
+						b_germynd_op_v_th_2p_ft.remove_class('ghost')
+						b_germynd_op_v_th_3p_et.remove_class('ghost')
+						b_germynd_op_v_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['þátíð']['et'] = [
+							b_germynd_op_v_th_1p_et.value or input_empty,
+							b_germynd_op_v_th_2p_et.value or input_empty,
+							b_germynd_op_v_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['þátíð']['ft'] = [
+							b_germynd_op_v_th_1p_ft.value or input_empty,
+							b_germynd_op_v_th_2p_ft.value or input_empty,
+							b_germynd_op_v_th_3p_ft.value or input_empty
+						]
+					else:
+						b_germynd_op_v_th_1p_et.add_class('ghost')
+						b_germynd_op_v_th_1p_ft.add_class('ghost')
+						b_germynd_op_v_th_2p_et.add_class('ghost')
+						b_germynd_op_v_th_2p_ft.add_class('ghost')
+						b_germynd_op_v_th_3p_et.add_class('ghost')
+						b_germynd_op_v_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']['þátíð']
+				else:
+					b_germynd_op_v_nu_1p_et.add_class('ghost')
+					b_germynd_op_v_nu_1p_ft.add_class('ghost')
+					b_germynd_op_v_nu_2p_et.add_class('ghost')
+					b_germynd_op_v_nu_2p_ft.add_class('ghost')
+					b_germynd_op_v_nu_3p_et.add_class('ghost')
+					b_germynd_op_v_nu_3p_ft.add_class('ghost')
+					b_germynd_op_v_th_1p_et.add_class('ghost')
+					b_germynd_op_v_th_1p_ft.add_class('ghost')
+					b_germynd_op_v_th_2p_et.add_class('ghost')
+					b_germynd_op_v_th_2p_ft.add_class('ghost')
+					b_germynd_op_v_th_3p_et.add_class('ghost')
+					b_germynd_op_v_th_3p_ft.add_class('ghost')
+					if 'viðtengingarháttur' in self.ORD_STATE['germynd']['ópersónuleg']:
+						del self.ORD_STATE['germynd']['ópersónuleg']['viðtengingarháttur']
+				if (
+					'framsöguháttur' not in self.ORD_STATE['germynd']['ópersónuleg'] and
+					'viðtengingarháttur' not in self.ORD_STATE['germynd']['ópersónuleg']
+				):
+					del self.ORD_STATE['germynd']['ópersónuleg']
+			else:
+				s_germynd_op_frumlag.add_class('ghost')
+				b_germynd_op_f_nu_1p_et.add_class('ghost')
+				b_germynd_op_f_nu_1p_ft.add_class('ghost')
+				b_germynd_op_f_nu_2p_et.add_class('ghost')
+				b_germynd_op_f_nu_2p_ft.add_class('ghost')
+				b_germynd_op_f_nu_3p_et.add_class('ghost')
+				b_germynd_op_f_nu_3p_ft.add_class('ghost')
+				b_germynd_op_f_th_1p_et.add_class('ghost')
+				b_germynd_op_f_th_1p_ft.add_class('ghost')
+				b_germynd_op_f_th_2p_et.add_class('ghost')
+				b_germynd_op_f_th_2p_ft.add_class('ghost')
+				b_germynd_op_f_th_3p_et.add_class('ghost')
+				b_germynd_op_f_th_3p_ft.add_class('ghost')
+				b_germynd_op_v_nu_1p_et.add_class('ghost')
+				b_germynd_op_v_nu_1p_ft.add_class('ghost')
+				b_germynd_op_v_nu_2p_et.add_class('ghost')
+				b_germynd_op_v_nu_2p_ft.add_class('ghost')
+				b_germynd_op_v_nu_3p_et.add_class('ghost')
+				b_germynd_op_v_nu_3p_ft.add_class('ghost')
+				b_germynd_op_v_th_1p_et.add_class('ghost')
+				b_germynd_op_v_th_1p_ft.add_class('ghost')
+				b_germynd_op_v_th_2p_et.add_class('ghost')
+				b_germynd_op_v_th_2p_ft.add_class('ghost')
+				b_germynd_op_v_th_3p_et.add_class('ghost')
+				b_germynd_op_v_th_3p_ft.add_class('ghost')
+				if 'ópersónuleg' in self.ORD_STATE['germynd']:
+					del self.ORD_STATE['germynd']['ópersónuleg']
+			# germynd spurnarmyndir
+			if chbox_germynd_spurnar.value is True:
+				# add spurnarmyndir to ORD_STATE if missing
+				if 'spurnarmyndir' not in self.ORD_STATE['germynd']:
+					self.ORD_STATE['germynd']['spurnarmyndir'] = {}
+				# germynd spurnarmyndir framsöguháttur
+				if chbox_germynd_spurnar_f.value is True:
+					if 'framsöguháttur' not in self.ORD_STATE['germynd']['spurnarmyndir']:
+						self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur'] = {}
+					# germynd spurnarmyndir framsöguháttur nútíð
+					if chbox_germynd_spurnar_f_nu.value is True:
+						b_germynd_sp_f_nu_et.remove_class('ghost')
+						b_germynd_sp_f_nu_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']['nútíð'] = {
+							'et': b_germynd_sp_f_nu_et.value or input_empty,
+							'ft': b_germynd_sp_f_nu_ft.value or input_empty
+						}
+					else:
+						b_germynd_sp_f_nu_et.add_class('ghost')
+						b_germynd_sp_f_nu_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']:
+							del self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']['nútíð']
+					# germynd spurnarmyndir framsöguháttur þátíð
+					if chbox_germynd_spurnar_f_th.value is True:
+						b_germynd_sp_f_th_et.remove_class('ghost')
+						b_germynd_sp_f_th_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']['þátíð'] = {
+							'et': b_germynd_sp_f_th_et.value or input_empty,
+							'ft': b_germynd_sp_f_th_ft.value or input_empty
+						}
+					else:
+						b_germynd_sp_f_th_et.add_class('ghost')
+						b_germynd_sp_f_th_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']:
+							del self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur'] and
+						'þátíð' not in self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']
+					):
+						del self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']
+				else:
+					b_germynd_sp_f_nu_et.add_class('ghost')
+					b_germynd_sp_f_nu_ft.add_class('ghost')
+					b_germynd_sp_f_th_et.add_class('ghost')
+					b_germynd_sp_f_th_ft.add_class('ghost')
+					if 'framsöguháttur' in self.ORD_STATE['germynd']['spurnarmyndir']:
+						del self.ORD_STATE['germynd']['spurnarmyndir']['framsöguháttur']
+				# germynd spurnarmyndir viðtengingarháttur
+				if chbox_germynd_spurnar_v.value is True:
+					if 'viðtengingarháttur' not in self.ORD_STATE['germynd']['spurnarmyndir']:
+						self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur'] = {}
+					# germynd spurnarmyndir viðtengingarháttur nútíð
+					if chbox_germynd_spurnar_v_nu.value is True:
+						b_germynd_sp_v_nu_et.remove_class('ghost')
+						b_germynd_sp_v_nu_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']['nútíð'] = {
+							'et': b_germynd_sp_v_nu_et.value or input_empty,
+							'ft': b_germynd_sp_v_nu_ft.value or input_empty
+						}
+					else:
+						b_germynd_sp_v_nu_et.add_class('ghost')
+						b_germynd_sp_v_nu_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']:
+							del self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']['nútíð']
+					# germynd spurnarmyndir viðtengingarháttur þátíð
+					if chbox_germynd_spurnar_v_th.value is True:
+						b_germynd_sp_v_th_et.remove_class('ghost')
+						b_germynd_sp_v_th_ft.remove_class('ghost')
+						self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']['þátíð'] = {
+							'et': b_germynd_sp_v_th_et.value or input_empty,
+							'ft': b_germynd_sp_v_th_ft.value or input_empty
+						}
+					else:
+						b_germynd_sp_v_th_et.add_class('ghost')
+						b_germynd_sp_v_th_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']:
+							del self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur'] and
+						'þátíð' not in self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']
+					):
+						del self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']
+				else:
+					b_germynd_sp_v_nu_et.add_class('ghost')
+					b_germynd_sp_v_nu_ft.add_class('ghost')
+					b_germynd_sp_v_th_et.add_class('ghost')
+					b_germynd_sp_v_th_ft.add_class('ghost')
+					if 'viðtengingarháttur' in self.ORD_STATE['germynd']['spurnarmyndir']:
+						del self.ORD_STATE['germynd']['spurnarmyndir']['viðtengingarháttur']
+				if (
+					'framsöguháttur' not in self.ORD_STATE['germynd']['spurnarmyndir'] and
+					'viðtengingarháttur' not in self.ORD_STATE['germynd']['spurnarmyndir']
+				):
+					del self.ORD_STATE['germynd']['spurnarmyndir']
+			else:
+				b_germynd_sp_f_nu_et.add_class('ghost')
+				b_germynd_sp_f_nu_ft.add_class('ghost')
+				b_germynd_sp_f_th_et.add_class('ghost')
+				b_germynd_sp_f_th_ft.add_class('ghost')
+				b_germynd_sp_v_nu_et.add_class('ghost')
+				b_germynd_sp_v_nu_ft.add_class('ghost')
+				b_germynd_sp_v_th_et.add_class('ghost')
+				b_germynd_sp_v_th_ft.add_class('ghost')
+				if 'spurnarmyndir' in self.ORD_STATE['germynd']:
+					del self.ORD_STATE['germynd']['spurnarmyndir']
+		else:
+			b_germynd_nafnhattur.add_class('ghost')
+			b_germynd_sagnbot.add_class('ghost')
+			b_germynd_bodhattur_styfdur.add_class('ghost')
+			b_germynd_bodhattur_et.add_class('ghost')
+			b_germynd_bodhattur_ft.add_class('ghost')
+			b_germynd_p_f_nu_1p_et.add_class('ghost')
+			b_germynd_p_f_nu_1p_ft.add_class('ghost')
+			b_germynd_p_f_nu_2p_et.add_class('ghost')
+			b_germynd_p_f_nu_2p_ft.add_class('ghost')
+			b_germynd_p_f_nu_3p_et.add_class('ghost')
+			b_germynd_p_f_nu_3p_ft.add_class('ghost')
+			b_germynd_p_f_th_1p_et.add_class('ghost')
+			b_germynd_p_f_th_1p_ft.add_class('ghost')
+			b_germynd_p_f_th_2p_et.add_class('ghost')
+			b_germynd_p_f_th_2p_ft.add_class('ghost')
+			b_germynd_p_f_th_3p_et.add_class('ghost')
+			b_germynd_p_f_th_3p_ft.add_class('ghost')
+			b_germynd_p_v_nu_1p_et.add_class('ghost')
+			b_germynd_p_v_nu_1p_ft.add_class('ghost')
+			b_germynd_p_v_nu_2p_et.add_class('ghost')
+			b_germynd_p_v_nu_2p_ft.add_class('ghost')
+			b_germynd_p_v_nu_3p_et.add_class('ghost')
+			b_germynd_p_v_nu_3p_ft.add_class('ghost')
+			b_germynd_p_v_th_1p_et.add_class('ghost')
+			b_germynd_p_v_th_1p_ft.add_class('ghost')
+			b_germynd_p_v_th_2p_et.add_class('ghost')
+			b_germynd_p_v_th_2p_ft.add_class('ghost')
+			b_germynd_p_v_th_3p_et.add_class('ghost')
+			b_germynd_p_v_th_3p_ft.add_class('ghost')
+			s_germynd_op_frumlag.add_class('ghost')
+			b_germynd_op_f_nu_1p_et.add_class('ghost')
+			b_germynd_op_f_nu_1p_ft.add_class('ghost')
+			b_germynd_op_f_nu_2p_et.add_class('ghost')
+			b_germynd_op_f_nu_2p_ft.add_class('ghost')
+			b_germynd_op_f_nu_3p_et.add_class('ghost')
+			b_germynd_op_f_nu_3p_ft.add_class('ghost')
+			b_germynd_op_f_th_1p_et.add_class('ghost')
+			b_germynd_op_f_th_1p_ft.add_class('ghost')
+			b_germynd_op_f_th_2p_et.add_class('ghost')
+			b_germynd_op_f_th_2p_ft.add_class('ghost')
+			b_germynd_op_f_th_3p_et.add_class('ghost')
+			b_germynd_op_f_th_3p_ft.add_class('ghost')
+			b_germynd_op_v_nu_1p_et.add_class('ghost')
+			b_germynd_op_v_nu_1p_ft.add_class('ghost')
+			b_germynd_op_v_nu_2p_et.add_class('ghost')
+			b_germynd_op_v_nu_2p_ft.add_class('ghost')
+			b_germynd_op_v_nu_3p_et.add_class('ghost')
+			b_germynd_op_v_nu_3p_ft.add_class('ghost')
+			b_germynd_op_v_th_1p_et.add_class('ghost')
+			b_germynd_op_v_th_1p_ft.add_class('ghost')
+			b_germynd_op_v_th_2p_et.add_class('ghost')
+			b_germynd_op_v_th_2p_ft.add_class('ghost')
+			b_germynd_op_v_th_3p_et.add_class('ghost')
+			b_germynd_op_v_th_3p_ft.add_class('ghost')
+			b_germynd_sp_f_nu_et.add_class('ghost')
+			b_germynd_sp_f_nu_ft.add_class('ghost')
+			b_germynd_sp_f_th_et.add_class('ghost')
+			b_germynd_sp_f_th_ft.add_class('ghost')
+			b_germynd_sp_v_nu_et.add_class('ghost')
+			b_germynd_sp_v_nu_ft.add_class('ghost')
+			b_germynd_sp_v_th_et.add_class('ghost')
+			b_germynd_sp_v_th_ft.add_class('ghost')
+			if 'germynd' in self.ORD_STATE:
+				del self.ORD_STATE['germynd']
+		# miðmynd
+		if chbox_midmynd.value is True:
+			if 'miðmynd' not in self.ORD_STATE:
+				self.ORD_STATE['miðmynd'] = {}
+			# miðmynd nafnháttur
+			b_midmynd_nafnhattur.remove_class('ghost')
+			self.ORD_STATE['miðmynd']['nafnháttur'] = b_midmynd_nafnhattur.value or input_empty
+			# miðmynd sagnbót
+			if chbox_midmynd_sagnbot.value is True:
+				b_midmynd_sagnbot.remove_class('ghost')
+				self.ORD_STATE['miðmynd']['sagnbót'] = b_midmynd_sagnbot.value or input_empty
+			else:
+				b_midmynd_sagnbot.add_class('ghost')
+				if 'sagnbót' in self.ORD_STATE['miðmynd']:
+					del self.ORD_STATE['miðmynd']['sagnbót']
+			# miðmynd boðháttur
+			if chbox_midmynd_bodhattur.value is True:
+				# add boðháttur to ORD_STATE if missing (yes, even if not needed)
+				if 'boðháttur' not in self.ORD_STATE['miðmynd']:
+					self.ORD_STATE['miðmynd']['boðháttur'] = {}
+				# miðmynd boðháttur et
+				if chbox_midmynd_bodhattur_et.value is True:
+					b_midmynd_bodhattur_et.remove_class('ghost')
+					self.ORD_STATE['miðmynd']['boðháttur']['et'] = (
+						b_midmynd_bodhattur_et.value or input_empty
+					)
+				else:
+					b_midmynd_bodhattur_et.add_class('ghost')
+					if 'et' in self.ORD_STATE['miðmynd']['boðháttur']:
+						del self.ORD_STATE['miðmynd']['boðháttur']['et']
+				# miðmynd boðháttur ft
+				if chbox_midmynd_bodhattur_ft.value is True:
+					b_midmynd_bodhattur_ft.remove_class('ghost')
+					self.ORD_STATE['miðmynd']['boðháttur']['ft'] = (
+						b_midmynd_bodhattur_ft.value or input_empty
+					)
+				else:
+					b_midmynd_bodhattur_ft.add_class('ghost')
+					if 'ft' in self.ORD_STATE['miðmynd']['boðháttur']:
+						del self.ORD_STATE['miðmynd']['boðháttur']['ft']
+				# remove boðháttur from ORD_STATE if not needed
+				if (
+					chbox_midmynd_bodhattur_et.value is False and
+					chbox_midmynd_bodhattur_ft.value is False
+				):
+					del self.ORD_STATE['miðmynd']['boðháttur']
+			else:
+				b_midmynd_bodhattur_et.add_class('ghost')
+				b_midmynd_bodhattur_ft.add_class('ghost')
+				if 'boðháttur' in self.ORD_STATE['miðmynd']:
+					del self.ORD_STATE['miðmynd']['boðháttur']
+			# miðmynd persónuleg
+			if chbox_midmynd_p.value is True:
+				# add persónuleg to ORD_STATE if missing
+				if 'persónuleg' not in self.ORD_STATE['miðmynd']:
+					self.ORD_STATE['miðmynd']['persónuleg'] = {}
+				# miðmynd persónuleg framsöguháttur
+				if chbox_midmynd_p_f.value is True:
+					if 'framsöguháttur' not in self.ORD_STATE['miðmynd']['persónuleg']:
+						self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur'] = {}
+					# miðmynd persónuleg framsöguháttur nútíð
+					if chbox_midmynd_p_f_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']:
+							self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['nútíð'] = {}
+						b_midmynd_p_f_nu_1p_et.remove_class('ghost')
+						b_midmynd_p_f_nu_1p_ft.remove_class('ghost')
+						b_midmynd_p_f_nu_2p_et.remove_class('ghost')
+						b_midmynd_p_f_nu_2p_ft.remove_class('ghost')
+						b_midmynd_p_f_nu_3p_et.remove_class('ghost')
+						b_midmynd_p_f_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['nútíð']['et'] = [
+							b_midmynd_p_f_nu_1p_et.value or input_empty,
+							b_midmynd_p_f_nu_2p_et.value or input_empty,
+							b_midmynd_p_f_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['nútíð']['ft'] = [
+							b_midmynd_p_f_nu_1p_ft.value or input_empty,
+							b_midmynd_p_f_nu_2p_ft.value or input_empty,
+							b_midmynd_p_f_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_p_f_nu_1p_et.add_class('ghost')
+						b_midmynd_p_f_nu_1p_ft.add_class('ghost')
+						b_midmynd_p_f_nu_2p_et.add_class('ghost')
+						b_midmynd_p_f_nu_2p_ft.add_class('ghost')
+						b_midmynd_p_f_nu_3p_et.add_class('ghost')
+						b_midmynd_p_f_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']:
+							del self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['nútíð']
+					# miðmynd persónuleg framsöguháttur þátíð
+					if chbox_midmynd_p_f_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']:
+							self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['þátíð'] = {}
+						b_midmynd_p_f_th_1p_et.remove_class('ghost')
+						b_midmynd_p_f_th_1p_ft.remove_class('ghost')
+						b_midmynd_p_f_th_2p_et.remove_class('ghost')
+						b_midmynd_p_f_th_2p_ft.remove_class('ghost')
+						b_midmynd_p_f_th_3p_et.remove_class('ghost')
+						b_midmynd_p_f_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['þátíð']['et'] = [
+							b_midmynd_p_f_th_1p_et.value or input_empty,
+							b_midmynd_p_f_th_2p_et.value or input_empty,
+							b_midmynd_p_f_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['þátíð']['ft'] = [
+							b_midmynd_p_f_th_1p_ft.value or input_empty,
+							b_midmynd_p_f_th_2p_ft.value or input_empty,
+							b_midmynd_p_f_th_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_p_f_th_1p_et.add_class('ghost')
+						b_midmynd_p_f_th_1p_ft.add_class('ghost')
+						b_midmynd_p_f_th_2p_et.add_class('ghost')
+						b_midmynd_p_f_th_2p_ft.add_class('ghost')
+						b_midmynd_p_f_th_3p_et.add_class('ghost')
+						b_midmynd_p_f_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']:
+							del self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur'] and
+						'þátíð' not in self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']
+					):
+						del self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']
+				else:
+					b_midmynd_p_f_nu_1p_et.add_class('ghost')
+					b_midmynd_p_f_nu_1p_ft.add_class('ghost')
+					b_midmynd_p_f_nu_2p_et.add_class('ghost')
+					b_midmynd_p_f_nu_2p_ft.add_class('ghost')
+					b_midmynd_p_f_nu_3p_et.add_class('ghost')
+					b_midmynd_p_f_nu_3p_ft.add_class('ghost')
+					b_midmynd_p_f_th_1p_et.add_class('ghost')
+					b_midmynd_p_f_th_1p_ft.add_class('ghost')
+					b_midmynd_p_f_th_2p_et.add_class('ghost')
+					b_midmynd_p_f_th_2p_ft.add_class('ghost')
+					b_midmynd_p_f_th_3p_et.add_class('ghost')
+					b_midmynd_p_f_th_3p_ft.add_class('ghost')
+					if 'framsöguháttur' in self.ORD_STATE['miðmynd']['persónuleg']:
+						del self.ORD_STATE['miðmynd']['persónuleg']['framsöguháttur']
+				# miðmynd persónuleg viðtengingarháttur
+				if chbox_midmynd_p_v.value is True:
+					if 'viðtengingarháttur' not in self.ORD_STATE['miðmynd']['persónuleg']:
+						self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur'] = {}
+					# miðmynd persónuleg viðtengingarháttur nútíð
+					if chbox_midmynd_p_v_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['nútíð'] = {}
+						b_midmynd_p_v_nu_1p_et.remove_class('ghost')
+						b_midmynd_p_v_nu_1p_ft.remove_class('ghost')
+						b_midmynd_p_v_nu_2p_et.remove_class('ghost')
+						b_midmynd_p_v_nu_2p_ft.remove_class('ghost')
+						b_midmynd_p_v_nu_3p_et.remove_class('ghost')
+						b_midmynd_p_v_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['nútíð']['et'] = [
+							b_midmynd_p_v_nu_1p_et.value or input_empty,
+							b_midmynd_p_v_nu_2p_et.value or input_empty,
+							b_midmynd_p_v_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['nútíð']['ft'] = [
+							b_midmynd_p_v_nu_1p_ft.value or input_empty,
+							b_midmynd_p_v_nu_2p_ft.value or input_empty,
+							b_midmynd_p_v_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_p_v_nu_1p_et.add_class('ghost')
+						b_midmynd_p_v_nu_1p_ft.add_class('ghost')
+						b_midmynd_p_v_nu_2p_et.add_class('ghost')
+						b_midmynd_p_v_nu_2p_ft.add_class('ghost')
+						b_midmynd_p_v_nu_3p_et.add_class('ghost')
+						b_midmynd_p_v_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['nútíð']
+					# miðmynd persónuleg viðtengingarháttur þátíð
+					if chbox_midmynd_p_v_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['þátíð'] = {}
+						b_midmynd_p_v_th_1p_et.remove_class('ghost')
+						b_midmynd_p_v_th_1p_ft.remove_class('ghost')
+						b_midmynd_p_v_th_2p_et.remove_class('ghost')
+						b_midmynd_p_v_th_2p_ft.remove_class('ghost')
+						b_midmynd_p_v_th_3p_et.remove_class('ghost')
+						b_midmynd_p_v_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['þátíð']['et'] = [
+							b_midmynd_p_v_th_1p_et.value or input_empty,
+							b_midmynd_p_v_th_2p_et.value or input_empty,
+							b_midmynd_p_v_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['þátíð']['ft'] = [
+							b_midmynd_p_v_th_1p_ft.value or input_empty,
+							b_midmynd_p_v_th_2p_ft.value or input_empty,
+							b_midmynd_p_v_th_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_p_v_th_1p_et.add_class('ghost')
+						b_midmynd_p_v_th_1p_ft.add_class('ghost')
+						b_midmynd_p_v_th_2p_et.add_class('ghost')
+						b_midmynd_p_v_th_2p_ft.add_class('ghost')
+						b_midmynd_p_v_th_3p_et.add_class('ghost')
+						b_midmynd_p_v_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur'] and
+						'þátíð' not in self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']
+					):
+						del self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']
+				else:
+					b_midmynd_p_v_nu_1p_et.add_class('ghost')
+					b_midmynd_p_v_nu_1p_ft.add_class('ghost')
+					b_midmynd_p_v_nu_2p_et.add_class('ghost')
+					b_midmynd_p_v_nu_2p_ft.add_class('ghost')
+					b_midmynd_p_v_nu_3p_et.add_class('ghost')
+					b_midmynd_p_v_nu_3p_ft.add_class('ghost')
+					b_midmynd_p_v_th_1p_et.add_class('ghost')
+					b_midmynd_p_v_th_1p_ft.add_class('ghost')
+					b_midmynd_p_v_th_2p_et.add_class('ghost')
+					b_midmynd_p_v_th_2p_ft.add_class('ghost')
+					b_midmynd_p_v_th_3p_et.add_class('ghost')
+					b_midmynd_p_v_th_3p_ft.add_class('ghost')
+					if 'viðtengingarháttur' in self.ORD_STATE['miðmynd']['persónuleg']:
+						del self.ORD_STATE['miðmynd']['persónuleg']['viðtengingarháttur']
+				if (
+					'framsöguháttur' not in self.ORD_STATE['miðmynd']['persónuleg'] and
+					'viðtengingarháttur' not in self.ORD_STATE['miðmynd']['persónuleg']
+				):
+					del self.ORD_STATE['miðmynd']['persónuleg']
+			else:
+				b_midmynd_p_f_nu_1p_et.add_class('ghost')
+				b_midmynd_p_f_nu_1p_ft.add_class('ghost')
+				b_midmynd_p_f_nu_2p_et.add_class('ghost')
+				b_midmynd_p_f_nu_2p_ft.add_class('ghost')
+				b_midmynd_p_f_nu_3p_et.add_class('ghost')
+				b_midmynd_p_f_nu_3p_ft.add_class('ghost')
+				b_midmynd_p_f_th_1p_et.add_class('ghost')
+				b_midmynd_p_f_th_1p_ft.add_class('ghost')
+				b_midmynd_p_f_th_2p_et.add_class('ghost')
+				b_midmynd_p_f_th_2p_ft.add_class('ghost')
+				b_midmynd_p_f_th_3p_et.add_class('ghost')
+				b_midmynd_p_f_th_3p_ft.add_class('ghost')
+				b_midmynd_p_v_nu_1p_et.add_class('ghost')
+				b_midmynd_p_v_nu_1p_ft.add_class('ghost')
+				b_midmynd_p_v_nu_2p_et.add_class('ghost')
+				b_midmynd_p_v_nu_2p_ft.add_class('ghost')
+				b_midmynd_p_v_nu_3p_et.add_class('ghost')
+				b_midmynd_p_v_nu_3p_ft.add_class('ghost')
+				b_midmynd_p_v_th_1p_et.add_class('ghost')
+				b_midmynd_p_v_th_1p_ft.add_class('ghost')
+				b_midmynd_p_v_th_2p_et.add_class('ghost')
+				b_midmynd_p_v_th_2p_ft.add_class('ghost')
+				b_midmynd_p_v_th_3p_et.add_class('ghost')
+				b_midmynd_p_v_th_3p_ft.add_class('ghost')
+				if 'persónuleg' in self.ORD_STATE['miðmynd']:
+					del self.ORD_STATE['miðmynd']['persónuleg']
+			# miðmynd ópersónuleg
+			if chbox_midmynd_op.value is True:
+				# add ópersónuleg to ORD_STATE if missing
+				if 'ópersónuleg' not in self.ORD_STATE['miðmynd']:
+					self.ORD_STATE['miðmynd']['ópersónuleg'] = {}
+				s_midmynd_op_frumlag.remove_class('ghost')
+				self.ORD_STATE['miðmynd']['ópersónuleg']['frumlag'] = s_midmynd_op_frumlag.value
+				# miðmynd ópersónuleg framsöguháttur
+				if chbox_midmynd_op_f.value is True:
+					if 'framsöguháttur' not in self.ORD_STATE['miðmynd']['ópersónuleg']:
+						self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur'] = {}
+					# miðmynd ópersónuleg framsöguháttur nútíð
+					if chbox_midmynd_op_f_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']:
+							self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['nútíð'] = {}
+						b_midmynd_op_f_nu_1p_et.remove_class('ghost')
+						b_midmynd_op_f_nu_1p_ft.remove_class('ghost')
+						b_midmynd_op_f_nu_2p_et.remove_class('ghost')
+						b_midmynd_op_f_nu_2p_ft.remove_class('ghost')
+						b_midmynd_op_f_nu_3p_et.remove_class('ghost')
+						b_midmynd_op_f_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['nútíð']['et'] = [
+							b_midmynd_op_f_nu_1p_et.value or input_empty,
+							b_midmynd_op_f_nu_2p_et.value or input_empty,
+							b_midmynd_op_f_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['nútíð']['ft'] = [
+							b_midmynd_op_f_nu_1p_ft.value or input_empty,
+							b_midmynd_op_f_nu_2p_ft.value or input_empty,
+							b_midmynd_op_f_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_op_f_nu_1p_et.add_class('ghost')
+						b_midmynd_op_f_nu_1p_ft.add_class('ghost')
+						b_midmynd_op_f_nu_2p_et.add_class('ghost')
+						b_midmynd_op_f_nu_2p_ft.add_class('ghost')
+						b_midmynd_op_f_nu_3p_et.add_class('ghost')
+						b_midmynd_op_f_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']:
+							del self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['nútíð']
+					# miðmynd ópersónuleg framsöguháttur þátíð
+					if chbox_midmynd_op_f_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']:
+							self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['þátíð'] = {}
+						b_midmynd_op_f_th_1p_et.remove_class('ghost')
+						b_midmynd_op_f_th_1p_ft.remove_class('ghost')
+						b_midmynd_op_f_th_2p_et.remove_class('ghost')
+						b_midmynd_op_f_th_2p_ft.remove_class('ghost')
+						b_midmynd_op_f_th_3p_et.remove_class('ghost')
+						b_midmynd_op_f_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['þátíð']['et'] = [
+							b_midmynd_op_f_th_1p_et.value or input_empty,
+							b_midmynd_op_f_th_2p_et.value or input_empty,
+							b_midmynd_op_f_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['þátíð']['ft'] = [
+							b_midmynd_op_f_th_1p_ft.value or input_empty,
+							b_midmynd_op_f_th_2p_ft.value or input_empty,
+							b_midmynd_op_f_th_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_op_f_th_1p_et.add_class('ghost')
+						b_midmynd_op_f_th_1p_ft.add_class('ghost')
+						b_midmynd_op_f_th_2p_et.add_class('ghost')
+						b_midmynd_op_f_th_2p_ft.add_class('ghost')
+						b_midmynd_op_f_th_3p_et.add_class('ghost')
+						b_midmynd_op_f_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']:
+							del self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']['þátíð']
+				else:
+					b_midmynd_op_f_nu_1p_et.add_class('ghost')
+					b_midmynd_op_f_nu_1p_ft.add_class('ghost')
+					b_midmynd_op_f_nu_2p_et.add_class('ghost')
+					b_midmynd_op_f_nu_2p_ft.add_class('ghost')
+					b_midmynd_op_f_nu_3p_et.add_class('ghost')
+					b_midmynd_op_f_nu_3p_ft.add_class('ghost')
+					b_midmynd_op_f_th_1p_et.add_class('ghost')
+					b_midmynd_op_f_th_1p_ft.add_class('ghost')
+					b_midmynd_op_f_th_2p_et.add_class('ghost')
+					b_midmynd_op_f_th_2p_ft.add_class('ghost')
+					b_midmynd_op_f_th_3p_et.add_class('ghost')
+					b_midmynd_op_f_th_3p_ft.add_class('ghost')
+					if 'framsöguháttur' in self.ORD_STATE['miðmynd']['ópersónuleg']:
+						del self.ORD_STATE['miðmynd']['ópersónuleg']['framsöguháttur']
+				# miðmynd ópersónuleg viðtengingarháttur
+				if chbox_midmynd_op_v.value is True:
+					if 'viðtengingarháttur' not in self.ORD_STATE['miðmynd']['ópersónuleg']:
+						self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur'] = {}
+					# miðmynd ópersónuleg viðtengingarháttur nútíð
+					if chbox_midmynd_op_v_nu.value is True:
+						if 'nútíð' not in self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['nútíð'] = {}
+						b_midmynd_op_v_nu_1p_et.remove_class('ghost')
+						b_midmynd_op_v_nu_1p_ft.remove_class('ghost')
+						b_midmynd_op_v_nu_2p_et.remove_class('ghost')
+						b_midmynd_op_v_nu_2p_ft.remove_class('ghost')
+						b_midmynd_op_v_nu_3p_et.remove_class('ghost')
+						b_midmynd_op_v_nu_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['nútíð']['et'] = [
+							b_midmynd_op_v_nu_1p_et.value or input_empty,
+							b_midmynd_op_v_nu_2p_et.value or input_empty,
+							b_midmynd_op_v_nu_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['nútíð']['ft'] = [
+							b_midmynd_op_v_nu_1p_ft.value or input_empty,
+							b_midmynd_op_v_nu_2p_ft.value or input_empty,
+							b_midmynd_op_v_nu_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_op_v_nu_1p_et.add_class('ghost')
+						b_midmynd_op_v_nu_1p_ft.add_class('ghost')
+						b_midmynd_op_v_nu_2p_et.add_class('ghost')
+						b_midmynd_op_v_nu_2p_ft.add_class('ghost')
+						b_midmynd_op_v_nu_3p_et.add_class('ghost')
+						b_midmynd_op_v_nu_3p_ft.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['nútíð']
+					# miðmynd ópersónuleg viðtengingarháttur þátíð
+					if chbox_midmynd_op_v_th.value is True:
+						if 'þátíð' not in self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']:
+							self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['þátíð'] = {}
+						b_midmynd_op_v_th_1p_et.remove_class('ghost')
+						b_midmynd_op_v_th_1p_ft.remove_class('ghost')
+						b_midmynd_op_v_th_2p_et.remove_class('ghost')
+						b_midmynd_op_v_th_2p_ft.remove_class('ghost')
+						b_midmynd_op_v_th_3p_et.remove_class('ghost')
+						b_midmynd_op_v_th_3p_ft.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['þátíð']['et'] = [
+							b_midmynd_op_v_th_1p_et.value or input_empty,
+							b_midmynd_op_v_th_2p_et.value or input_empty,
+							b_midmynd_op_v_th_3p_et.value or input_empty
+						]
+						self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['þátíð']['ft'] = [
+							b_midmynd_op_v_th_1p_ft.value or input_empty,
+							b_midmynd_op_v_th_2p_ft.value or input_empty,
+							b_midmynd_op_v_th_3p_ft.value or input_empty
+						]
+					else:
+						b_midmynd_op_v_th_1p_et.add_class('ghost')
+						b_midmynd_op_v_th_1p_ft.add_class('ghost')
+						b_midmynd_op_v_th_2p_et.add_class('ghost')
+						b_midmynd_op_v_th_2p_ft.add_class('ghost')
+						b_midmynd_op_v_th_3p_et.add_class('ghost')
+						b_midmynd_op_v_th_3p_ft.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']:
+							del self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']['þátíð']
+				else:
+					b_midmynd_op_v_nu_1p_et.add_class('ghost')
+					b_midmynd_op_v_nu_1p_ft.add_class('ghost')
+					b_midmynd_op_v_nu_2p_et.add_class('ghost')
+					b_midmynd_op_v_nu_2p_ft.add_class('ghost')
+					b_midmynd_op_v_nu_3p_et.add_class('ghost')
+					b_midmynd_op_v_nu_3p_ft.add_class('ghost')
+					b_midmynd_op_v_th_1p_et.add_class('ghost')
+					b_midmynd_op_v_th_1p_ft.add_class('ghost')
+					b_midmynd_op_v_th_2p_et.add_class('ghost')
+					b_midmynd_op_v_th_2p_ft.add_class('ghost')
+					b_midmynd_op_v_th_3p_et.add_class('ghost')
+					b_midmynd_op_v_th_3p_ft.add_class('ghost')
+					if 'viðtengingarháttur' in self.ORD_STATE['miðmynd']['ópersónuleg']:
+						del self.ORD_STATE['miðmynd']['ópersónuleg']['viðtengingarháttur']
+				if (
+					'framsöguháttur' not in self.ORD_STATE['miðmynd']['ópersónuleg'] and
+					'viðtengingarháttur' not in self.ORD_STATE['miðmynd']['ópersónuleg']
+				):
+					del self.ORD_STATE['miðmynd']['ópersónuleg']
+			else:
+				s_midmynd_op_frumlag.add_class('ghost')
+				b_midmynd_op_f_nu_1p_et.add_class('ghost')
+				b_midmynd_op_f_nu_1p_ft.add_class('ghost')
+				b_midmynd_op_f_nu_2p_et.add_class('ghost')
+				b_midmynd_op_f_nu_2p_ft.add_class('ghost')
+				b_midmynd_op_f_nu_3p_et.add_class('ghost')
+				b_midmynd_op_f_nu_3p_ft.add_class('ghost')
+				b_midmynd_op_f_th_1p_et.add_class('ghost')
+				b_midmynd_op_f_th_1p_ft.add_class('ghost')
+				b_midmynd_op_f_th_2p_et.add_class('ghost')
+				b_midmynd_op_f_th_2p_ft.add_class('ghost')
+				b_midmynd_op_f_th_3p_et.add_class('ghost')
+				b_midmynd_op_f_th_3p_ft.add_class('ghost')
+				b_midmynd_op_v_nu_1p_et.add_class('ghost')
+				b_midmynd_op_v_nu_1p_ft.add_class('ghost')
+				b_midmynd_op_v_nu_2p_et.add_class('ghost')
+				b_midmynd_op_v_nu_2p_ft.add_class('ghost')
+				b_midmynd_op_v_nu_3p_et.add_class('ghost')
+				b_midmynd_op_v_nu_3p_ft.add_class('ghost')
+				b_midmynd_op_v_th_1p_et.add_class('ghost')
+				b_midmynd_op_v_th_1p_ft.add_class('ghost')
+				b_midmynd_op_v_th_2p_et.add_class('ghost')
+				b_midmynd_op_v_th_2p_ft.add_class('ghost')
+				b_midmynd_op_v_th_3p_et.add_class('ghost')
+				b_midmynd_op_v_th_3p_ft.add_class('ghost')
+				if 'ópersónuleg' in self.ORD_STATE['miðmynd']:
+					del self.ORD_STATE['miðmynd']['ópersónuleg']
+			# miðmynd spurnarmyndir
+			if chbox_midmynd_spurnar.value is True:
+				# add spurnarmyndir to ORD_STATE if missing
+				if 'spurnarmyndir' not in self.ORD_STATE['miðmynd']:
+					self.ORD_STATE['miðmynd']['spurnarmyndir'] = {}
+				# miðmynd spurnarmyndir framsöguháttur
+				if chbox_midmynd_spurnar_f.value is True:
+					if 'framsöguháttur' not in self.ORD_STATE['miðmynd']['spurnarmyndir']:
+						self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur'] = {}
+					# miðmynd spurnarmyndir framsöguháttur nútíð
+					if chbox_midmynd_spurnar_f_nu.value is True:
+						b_midmynd_sp_f_nu_et.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']['nútíð'] = {
+							'et': b_midmynd_sp_f_nu_et.value or input_empty
+						}
+					else:
+						b_midmynd_sp_f_nu_et.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']:
+							del self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']['nútíð']
+					# miðmynd spurnarmyndir framsöguháttur þátíð
+					if chbox_midmynd_spurnar_f_th.value is True:
+						b_midmynd_sp_f_th_et.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð'] = {
+							'et': b_midmynd_sp_f_th_et.value or input_empty
+						}
+					else:
+						b_midmynd_sp_f_th_et.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']:
+							del self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur'] and
+						'þátíð' not in self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']
+					):
+						del self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']
+				else:
+					b_midmynd_sp_f_nu_et.add_class('ghost')
+					b_midmynd_sp_f_th_et.add_class('ghost')
+					if 'framsöguháttur' in self.ORD_STATE['miðmynd']['spurnarmyndir']:
+						del self.ORD_STATE['miðmynd']['spurnarmyndir']['framsöguháttur']
+				# miðmynd spurnarmyndir viðtengingarháttur
+				if chbox_midmynd_spurnar_v.value is True:
+					if 'viðtengingarháttur' not in self.ORD_STATE['miðmynd']['spurnarmyndir']:
+						self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur'] = {}
+					# miðmynd spurnarmyndir viðtengingarháttur nútíð
+					if chbox_midmynd_spurnar_v_nu.value is True:
+						b_midmynd_sp_v_nu_et.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð'] = {
+							'et': b_midmynd_sp_v_nu_et.value or input_empty
+						}
+					else:
+						b_midmynd_sp_v_nu_et.add_class('ghost')
+						if 'nútíð' in self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']:
+							del self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']['nútíð']
+					# miðmynd spurnarmyndir viðtengingarháttur þátíð
+					if chbox_midmynd_spurnar_v_th.value is True:
+						b_midmynd_sp_v_th_et.remove_class('ghost')
+						self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð'] = {
+							'et': b_midmynd_sp_v_th_et.value or input_empty
+						}
+					else:
+						b_midmynd_sp_v_th_et.add_class('ghost')
+						if 'þátíð' in self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']:
+							del self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']['þátíð']
+					if (
+						'nútíð' not in self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur'] and
+						'þátíð' not in self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']
+					):
+						del self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']
+				else:
+					b_midmynd_sp_v_nu_et.add_class('ghost')
+					b_midmynd_sp_v_th_et.add_class('ghost')
+					if 'viðtengingarháttur' in self.ORD_STATE['miðmynd']['spurnarmyndir']:
+						del self.ORD_STATE['miðmynd']['spurnarmyndir']['viðtengingarháttur']
+				if (
+					'framsöguháttur' not in self.ORD_STATE['miðmynd']['spurnarmyndir'] and
+					'viðtengingarháttur' not in self.ORD_STATE['miðmynd']['spurnarmyndir']
+				):
+					del self.ORD_STATE['miðmynd']['spurnarmyndir']
+			else:
+				b_midmynd_sp_f_nu_et.add_class('ghost')
+				b_midmynd_sp_f_th_et.add_class('ghost')
+				b_midmynd_sp_v_nu_et.add_class('ghost')
+				b_midmynd_sp_v_th_et.add_class('ghost')
+				if 'spurnarmyndir' in self.ORD_STATE['miðmynd']:
+					del self.ORD_STATE['miðmynd']['spurnarmyndir']
+		else:
+			b_midmynd_nafnhattur.add_class('ghost')
+			b_midmynd_sagnbot.add_class('ghost')
+			b_midmynd_bodhattur_et.add_class('ghost')
+			b_midmynd_bodhattur_ft.add_class('ghost')
+			b_midmynd_p_f_nu_1p_et.add_class('ghost')
+			b_midmynd_p_f_nu_1p_ft.add_class('ghost')
+			b_midmynd_p_f_nu_2p_et.add_class('ghost')
+			b_midmynd_p_f_nu_2p_ft.add_class('ghost')
+			b_midmynd_p_f_nu_3p_et.add_class('ghost')
+			b_midmynd_p_f_nu_3p_ft.add_class('ghost')
+			b_midmynd_p_f_th_1p_et.add_class('ghost')
+			b_midmynd_p_f_th_1p_ft.add_class('ghost')
+			b_midmynd_p_f_th_2p_et.add_class('ghost')
+			b_midmynd_p_f_th_2p_ft.add_class('ghost')
+			b_midmynd_p_f_th_3p_et.add_class('ghost')
+			b_midmynd_p_f_th_3p_ft.add_class('ghost')
+			b_midmynd_p_v_nu_1p_et.add_class('ghost')
+			b_midmynd_p_v_nu_1p_ft.add_class('ghost')
+			b_midmynd_p_v_nu_2p_et.add_class('ghost')
+			b_midmynd_p_v_nu_2p_ft.add_class('ghost')
+			b_midmynd_p_v_nu_3p_et.add_class('ghost')
+			b_midmynd_p_v_nu_3p_ft.add_class('ghost')
+			b_midmynd_p_v_th_1p_et.add_class('ghost')
+			b_midmynd_p_v_th_1p_ft.add_class('ghost')
+			b_midmynd_p_v_th_2p_et.add_class('ghost')
+			b_midmynd_p_v_th_2p_ft.add_class('ghost')
+			b_midmynd_p_v_th_3p_et.add_class('ghost')
+			b_midmynd_p_v_th_3p_ft.add_class('ghost')
+			s_midmynd_op_frumlag.add_class('ghost')
+			b_midmynd_op_f_nu_1p_et.add_class('ghost')
+			b_midmynd_op_f_nu_1p_ft.add_class('ghost')
+			b_midmynd_op_f_nu_2p_et.add_class('ghost')
+			b_midmynd_op_f_nu_2p_ft.add_class('ghost')
+			b_midmynd_op_f_nu_3p_et.add_class('ghost')
+			b_midmynd_op_f_nu_3p_ft.add_class('ghost')
+			b_midmynd_op_f_th_1p_et.add_class('ghost')
+			b_midmynd_op_f_th_1p_ft.add_class('ghost')
+			b_midmynd_op_f_th_2p_et.add_class('ghost')
+			b_midmynd_op_f_th_2p_ft.add_class('ghost')
+			b_midmynd_op_f_th_3p_et.add_class('ghost')
+			b_midmynd_op_f_th_3p_ft.add_class('ghost')
+			b_midmynd_op_v_nu_1p_et.add_class('ghost')
+			b_midmynd_op_v_nu_1p_ft.add_class('ghost')
+			b_midmynd_op_v_nu_2p_et.add_class('ghost')
+			b_midmynd_op_v_nu_2p_ft.add_class('ghost')
+			b_midmynd_op_v_nu_3p_et.add_class('ghost')
+			b_midmynd_op_v_nu_3p_ft.add_class('ghost')
+			b_midmynd_op_v_th_1p_et.add_class('ghost')
+			b_midmynd_op_v_th_1p_ft.add_class('ghost')
+			b_midmynd_op_v_th_2p_et.add_class('ghost')
+			b_midmynd_op_v_th_2p_ft.add_class('ghost')
+			b_midmynd_op_v_th_3p_et.add_class('ghost')
+			b_midmynd_op_v_th_3p_ft.add_class('ghost')
+			b_midmynd_sp_f_nu_et.add_class('ghost')
+			b_midmynd_sp_f_th_et.add_class('ghost')
+			b_midmynd_sp_v_nu_et.add_class('ghost')
+			b_midmynd_sp_v_th_et.add_class('ghost')
+			if 'miðmynd' in self.ORD_STATE:
+				del self.ORD_STATE['miðmynd']
+		# lýsingarháttur
+		if chbox_lysingar.value is True:
+			if 'lýsingarháttur' not in self.ORD_STATE:
+				self.ORD_STATE['lýsingarháttur'] = {}
+			# lýsingarháttur nútíðar
+			if chbox_lysingar_nt.value is True:
+				b_lhnt.remove_class('ghost')
+				self.ORD_STATE['lýsingarháttur']['nútíðar'] = b_lhnt.value or input_empty
+			else:
+				b_lhnt.add_class('ghost')
+				if 'nútíðar' in self.ORD_STATE['lýsingarháttur']:
+					del self.ORD_STATE['lýsingarháttur']['nútíðar']
+			# lýsingarháttur þátíðar
+			if chbox_lysingar_th.value is True:
+				if 'þátíðar' not in self.ORD_STATE['lýsingarháttur']:
+					self.ORD_STATE['lýsingarháttur']['þátíðar'] = {}
+				# lýsingarháttur þátíðar sterk beyging
+				if chbox_lysingar_th_sb.value is True:
+					if 'sb' not in self.ORD_STATE['lýsingarháttur']['þátíðar']:
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['sb'] = {}
+					# lýsingarháttur þátíðar sterk beyging eintala
+					if chbox_lysingar_th_sb_et.value is True:
+						if 'et' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']:
+							self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['et'] = {}
+						b_lhth_sb_et_kk_nf.remove_class('ghost')
+						b_lhth_sb_et_kk_thf.remove_class('ghost')
+						b_lhth_sb_et_kk_thgf.remove_class('ghost')
+						b_lhth_sb_et_kk_ef.remove_class('ghost')
+						b_lhth_sb_et_kvk_nf.remove_class('ghost')
+						b_lhth_sb_et_kvk_thf.remove_class('ghost')
+						b_lhth_sb_et_kvk_thgf.remove_class('ghost')
+						b_lhth_sb_et_kvk_ef.remove_class('ghost')
+						b_lhth_sb_et_hk_nf.remove_class('ghost')
+						b_lhth_sb_et_hk_thf.remove_class('ghost')
+						b_lhth_sb_et_hk_thgf.remove_class('ghost')
+						b_lhth_sb_et_hk_ef.remove_class('ghost')
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['et']['kk'] = [
+							b_lhth_sb_et_kk_nf.value or input_empty,
+							b_lhth_sb_et_kk_thf.value or input_empty,
+							b_lhth_sb_et_kk_thgf.value or input_empty,
+							b_lhth_sb_et_kk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['et']['kvk'] = [
+							b_lhth_sb_et_kvk_nf.value or input_empty,
+							b_lhth_sb_et_kvk_thf.value or input_empty,
+							b_lhth_sb_et_kvk_thgf.value or input_empty,
+							b_lhth_sb_et_kvk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['et']['hk'] = [
+							b_lhth_sb_et_hk_nf.value or input_empty,
+							b_lhth_sb_et_hk_thf.value or input_empty,
+							b_lhth_sb_et_hk_thgf.value or input_empty,
+							b_lhth_sb_et_hk_ef.value or input_empty
+						]
+					else:
+						b_lhth_sb_et_kk_nf.add_class('ghost')
+						b_lhth_sb_et_kk_thf.add_class('ghost')
+						b_lhth_sb_et_kk_thgf.add_class('ghost')
+						b_lhth_sb_et_kk_ef.add_class('ghost')
+						b_lhth_sb_et_kvk_nf.add_class('ghost')
+						b_lhth_sb_et_kvk_thf.add_class('ghost')
+						b_lhth_sb_et_kvk_thgf.add_class('ghost')
+						b_lhth_sb_et_kvk_ef.add_class('ghost')
+						b_lhth_sb_et_hk_nf.add_class('ghost')
+						b_lhth_sb_et_hk_thf.add_class('ghost')
+						b_lhth_sb_et_hk_thgf.add_class('ghost')
+						b_lhth_sb_et_hk_ef.add_class('ghost')
+						if 'et' in self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']:
+							del self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['et']
+					# lýsingarháttur þátíðar sterk beyging fleirtala
+					if chbox_lysingar_th_sb_ft.value is True:
+						if 'ft' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']:
+							self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['ft'] = {}
+						b_lhth_sb_ft_kk_nf.remove_class('ghost')
+						b_lhth_sb_ft_kk_thf.remove_class('ghost')
+						b_lhth_sb_ft_kk_thgf.remove_class('ghost')
+						b_lhth_sb_ft_kk_ef.remove_class('ghost')
+						b_lhth_sb_ft_kvk_nf.remove_class('ghost')
+						b_lhth_sb_ft_kvk_thf.remove_class('ghost')
+						b_lhth_sb_ft_kvk_thgf.remove_class('ghost')
+						b_lhth_sb_ft_kvk_ef.remove_class('ghost')
+						b_lhth_sb_ft_hk_nf.remove_class('ghost')
+						b_lhth_sb_ft_hk_thf.remove_class('ghost')
+						b_lhth_sb_ft_hk_thgf.remove_class('ghost')
+						b_lhth_sb_ft_hk_ef.remove_class('ghost')
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['ft']['kk'] = [
+							b_lhth_sb_ft_kk_nf.value or input_empty,
+							b_lhth_sb_ft_kk_thf.value or input_empty,
+							b_lhth_sb_ft_kk_thgf.value or input_empty,
+							b_lhth_sb_ft_kk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['ft']['kvk'] = [
+							b_lhth_sb_ft_kvk_nf.value or input_empty,
+							b_lhth_sb_ft_kvk_thf.value or input_empty,
+							b_lhth_sb_ft_kvk_thgf.value or input_empty,
+							b_lhth_sb_ft_kvk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['ft']['hk'] = [
+							b_lhth_sb_ft_hk_nf.value or input_empty,
+							b_lhth_sb_ft_hk_thf.value or input_empty,
+							b_lhth_sb_ft_hk_thgf.value or input_empty,
+							b_lhth_sb_ft_hk_ef.value or input_empty
+						]
+					else:
+						b_lhth_sb_ft_kk_nf.add_class('ghost')
+						b_lhth_sb_ft_kk_thf.add_class('ghost')
+						b_lhth_sb_ft_kk_thgf.add_class('ghost')
+						b_lhth_sb_ft_kk_ef.add_class('ghost')
+						b_lhth_sb_ft_kvk_nf.add_class('ghost')
+						b_lhth_sb_ft_kvk_thf.add_class('ghost')
+						b_lhth_sb_ft_kvk_thgf.add_class('ghost')
+						b_lhth_sb_ft_kvk_ef.add_class('ghost')
+						b_lhth_sb_ft_hk_nf.add_class('ghost')
+						b_lhth_sb_ft_hk_thf.add_class('ghost')
+						b_lhth_sb_ft_hk_thgf.add_class('ghost')
+						b_lhth_sb_ft_hk_ef.add_class('ghost')
+						if 'ft' in self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']:
+							del self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']['ft']
+					if (
+						'et' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['sb'] and
+						'ft' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']
+					):
+						del self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']
+				else:
+					b_lhth_sb_et_kk_nf.add_class('ghost')
+					b_lhth_sb_et_kk_thf.add_class('ghost')
+					b_lhth_sb_et_kk_thgf.add_class('ghost')
+					b_lhth_sb_et_kk_ef.add_class('ghost')
+					b_lhth_sb_et_kvk_nf.add_class('ghost')
+					b_lhth_sb_et_kvk_thf.add_class('ghost')
+					b_lhth_sb_et_kvk_thgf.add_class('ghost')
+					b_lhth_sb_et_kvk_ef.add_class('ghost')
+					b_lhth_sb_et_hk_nf.add_class('ghost')
+					b_lhth_sb_et_hk_thf.add_class('ghost')
+					b_lhth_sb_et_hk_thgf.add_class('ghost')
+					b_lhth_sb_et_hk_ef.add_class('ghost')
+					b_lhth_sb_ft_kk_nf.add_class('ghost')
+					b_lhth_sb_ft_kk_thf.add_class('ghost')
+					b_lhth_sb_ft_kk_thgf.add_class('ghost')
+					b_lhth_sb_ft_kk_ef.add_class('ghost')
+					b_lhth_sb_ft_kvk_nf.add_class('ghost')
+					b_lhth_sb_ft_kvk_thf.add_class('ghost')
+					b_lhth_sb_ft_kvk_thgf.add_class('ghost')
+					b_lhth_sb_ft_kvk_ef.add_class('ghost')
+					b_lhth_sb_ft_hk_nf.add_class('ghost')
+					b_lhth_sb_ft_hk_thf.add_class('ghost')
+					b_lhth_sb_ft_hk_thgf.add_class('ghost')
+					b_lhth_sb_ft_hk_ef.add_class('ghost')
+					if 'sb' in self.ORD_STATE['lýsingarháttur']['þátíðar']:
+						del self.ORD_STATE['lýsingarháttur']['þátíðar']['sb']
+				# lýsingarháttur þátíðar veik beyging
+				if chbox_lysingar_th_vb.value is True:
+					if 'vb' not in self.ORD_STATE['lýsingarháttur']['þátíðar']:
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['vb'] = {}
+					# lýsingarháttur þátíðar veik beyging eintala
+					if chbox_lysingar_th_vb_et.value is True:
+						if 'et' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']:
+							self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['et'] = {}
+						b_lhth_vb_et_kk_nf.remove_class('ghost')
+						b_lhth_vb_et_kk_thf.remove_class('ghost')
+						b_lhth_vb_et_kk_thgf.remove_class('ghost')
+						b_lhth_vb_et_kk_ef.remove_class('ghost')
+						b_lhth_vb_et_kvk_nf.remove_class('ghost')
+						b_lhth_vb_et_kvk_thf.remove_class('ghost')
+						b_lhth_vb_et_kvk_thgf.remove_class('ghost')
+						b_lhth_vb_et_kvk_ef.remove_class('ghost')
+						b_lhth_vb_et_hk_nf.remove_class('ghost')
+						b_lhth_vb_et_hk_thf.remove_class('ghost')
+						b_lhth_vb_et_hk_thgf.remove_class('ghost')
+						b_lhth_vb_et_hk_ef.remove_class('ghost')
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['et']['kk'] = [
+							b_lhth_vb_et_kk_nf.value or input_empty,
+							b_lhth_vb_et_kk_thf.value or input_empty,
+							b_lhth_vb_et_kk_thgf.value or input_empty,
+							b_lhth_vb_et_kk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['et']['kvk'] = [
+							b_lhth_vb_et_kvk_nf.value or input_empty,
+							b_lhth_vb_et_kvk_thf.value or input_empty,
+							b_lhth_vb_et_kvk_thgf.value or input_empty,
+							b_lhth_vb_et_kvk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['et']['hk'] = [
+							b_lhth_vb_et_hk_nf.value or input_empty,
+							b_lhth_vb_et_hk_thf.value or input_empty,
+							b_lhth_vb_et_hk_thgf.value or input_empty,
+							b_lhth_vb_et_hk_ef.value or input_empty
+						]
+					else:
+						b_lhth_vb_et_kk_nf.add_class('ghost')
+						b_lhth_vb_et_kk_thf.add_class('ghost')
+						b_lhth_vb_et_kk_thgf.add_class('ghost')
+						b_lhth_vb_et_kk_ef.add_class('ghost')
+						b_lhth_vb_et_kvk_nf.add_class('ghost')
+						b_lhth_vb_et_kvk_thf.add_class('ghost')
+						b_lhth_vb_et_kvk_thgf.add_class('ghost')
+						b_lhth_vb_et_kvk_ef.add_class('ghost')
+						b_lhth_vb_et_hk_nf.add_class('ghost')
+						b_lhth_vb_et_hk_thf.add_class('ghost')
+						b_lhth_vb_et_hk_thgf.add_class('ghost')
+						b_lhth_vb_et_hk_ef.add_class('ghost')
+						if 'et' in self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']:
+							del self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['et']
+					# lýsingarháttur þátíðar veik beyging fleirtala
+					if chbox_lysingar_th_vb_ft.value is True:
+						if 'ft' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']:
+							self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['ft'] = {}
+						b_lhth_vb_ft_kk_nf.remove_class('ghost')
+						b_lhth_vb_ft_kk_thf.remove_class('ghost')
+						b_lhth_vb_ft_kk_thgf.remove_class('ghost')
+						b_lhth_vb_ft_kk_ef.remove_class('ghost')
+						b_lhth_vb_ft_kvk_nf.remove_class('ghost')
+						b_lhth_vb_ft_kvk_thf.remove_class('ghost')
+						b_lhth_vb_ft_kvk_thgf.remove_class('ghost')
+						b_lhth_vb_ft_kvk_ef.remove_class('ghost')
+						b_lhth_vb_ft_hk_nf.remove_class('ghost')
+						b_lhth_vb_ft_hk_thf.remove_class('ghost')
+						b_lhth_vb_ft_hk_thgf.remove_class('ghost')
+						b_lhth_vb_ft_hk_ef.remove_class('ghost')
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['ft']['kk'] = [
+							b_lhth_vb_ft_kk_nf.value or input_empty,
+							b_lhth_vb_ft_kk_thf.value or input_empty,
+							b_lhth_vb_ft_kk_thgf.value or input_empty,
+							b_lhth_vb_ft_kk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['ft']['kvk'] = [
+							b_lhth_vb_ft_kvk_nf.value or input_empty,
+							b_lhth_vb_ft_kvk_thf.value or input_empty,
+							b_lhth_vb_ft_kvk_thgf.value or input_empty,
+							b_lhth_vb_ft_kvk_ef.value or input_empty
+						]
+						self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['ft']['hk'] = [
+							b_lhth_vb_ft_hk_nf.value or input_empty,
+							b_lhth_vb_ft_hk_thf.value or input_empty,
+							b_lhth_vb_ft_hk_thgf.value or input_empty,
+							b_lhth_vb_ft_hk_ef.value or input_empty
+						]
+					else:
+						b_lhth_vb_ft_kk_nf.add_class('ghost')
+						b_lhth_vb_ft_kk_thf.add_class('ghost')
+						b_lhth_vb_ft_kk_thgf.add_class('ghost')
+						b_lhth_vb_ft_kk_ef.add_class('ghost')
+						b_lhth_vb_ft_kvk_nf.add_class('ghost')
+						b_lhth_vb_ft_kvk_thf.add_class('ghost')
+						b_lhth_vb_ft_kvk_thgf.add_class('ghost')
+						b_lhth_vb_ft_kvk_ef.add_class('ghost')
+						b_lhth_vb_ft_hk_nf.add_class('ghost')
+						b_lhth_vb_ft_hk_thf.add_class('ghost')
+						b_lhth_vb_ft_hk_thgf.add_class('ghost')
+						b_lhth_vb_ft_hk_ef.add_class('ghost')
+						if 'ft' in self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']:
+							del self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']['ft']
+					if (
+						'et' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['vb'] and
+						'ft' not in self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']
+					):
+						del self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']
+				else:
+					b_lhth_vb_et_kk_nf.add_class('ghost')
+					b_lhth_vb_et_kk_thf.add_class('ghost')
+					b_lhth_vb_et_kk_thgf.add_class('ghost')
+					b_lhth_vb_et_kk_ef.add_class('ghost')
+					b_lhth_vb_et_kvk_nf.add_class('ghost')
+					b_lhth_vb_et_kvk_thf.add_class('ghost')
+					b_lhth_vb_et_kvk_thgf.add_class('ghost')
+					b_lhth_vb_et_kvk_ef.add_class('ghost')
+					b_lhth_vb_et_hk_nf.add_class('ghost')
+					b_lhth_vb_et_hk_thf.add_class('ghost')
+					b_lhth_vb_et_hk_thgf.add_class('ghost')
+					b_lhth_vb_et_hk_ef.add_class('ghost')
+					b_lhth_vb_ft_kk_nf.add_class('ghost')
+					b_lhth_vb_ft_kk_thf.add_class('ghost')
+					b_lhth_vb_ft_kk_thgf.add_class('ghost')
+					b_lhth_vb_ft_kk_ef.add_class('ghost')
+					b_lhth_vb_ft_kvk_nf.add_class('ghost')
+					b_lhth_vb_ft_kvk_thf.add_class('ghost')
+					b_lhth_vb_ft_kvk_thgf.add_class('ghost')
+					b_lhth_vb_ft_kvk_ef.add_class('ghost')
+					b_lhth_vb_ft_hk_nf.add_class('ghost')
+					b_lhth_vb_ft_hk_thf.add_class('ghost')
+					b_lhth_vb_ft_hk_thgf.add_class('ghost')
+					b_lhth_vb_ft_hk_ef.add_class('ghost')
+					if 'vb' in self.ORD_STATE['lýsingarháttur']['þátíðar']:
+						del self.ORD_STATE['lýsingarháttur']['þátíðar']['vb']
+				if (
+					'sb' not in self.ORD_STATE['lýsingarháttur']['þátíðar'] and
+					'vb' not in self.ORD_STATE['lýsingarháttur']['þátíðar']
+				):
+					del self.ORD_STATE['lýsingarháttur']['þátíðar']
+			else:
+				b_lhth_sb_et_kk_nf.add_class('ghost')
+				b_lhth_sb_et_kk_thf.add_class('ghost')
+				b_lhth_sb_et_kk_thgf.add_class('ghost')
+				b_lhth_sb_et_kk_ef.add_class('ghost')
+				b_lhth_sb_et_kvk_nf.add_class('ghost')
+				b_lhth_sb_et_kvk_thf.add_class('ghost')
+				b_lhth_sb_et_kvk_thgf.add_class('ghost')
+				b_lhth_sb_et_kvk_ef.add_class('ghost')
+				b_lhth_sb_et_hk_nf.add_class('ghost')
+				b_lhth_sb_et_hk_thf.add_class('ghost')
+				b_lhth_sb_et_hk_thgf.add_class('ghost')
+				b_lhth_sb_et_hk_ef.add_class('ghost')
+				b_lhth_sb_ft_kk_nf.add_class('ghost')
+				b_lhth_sb_ft_kk_thf.add_class('ghost')
+				b_lhth_sb_ft_kk_thgf.add_class('ghost')
+				b_lhth_sb_ft_kk_ef.add_class('ghost')
+				b_lhth_sb_ft_kvk_nf.add_class('ghost')
+				b_lhth_sb_ft_kvk_thf.add_class('ghost')
+				b_lhth_sb_ft_kvk_thgf.add_class('ghost')
+				b_lhth_sb_ft_kvk_ef.add_class('ghost')
+				b_lhth_sb_ft_hk_nf.add_class('ghost')
+				b_lhth_sb_ft_hk_thf.add_class('ghost')
+				b_lhth_sb_ft_hk_thgf.add_class('ghost')
+				b_lhth_sb_ft_hk_ef.add_class('ghost')
+				b_lhth_vb_et_kk_nf.add_class('ghost')
+				b_lhth_vb_et_kk_thf.add_class('ghost')
+				b_lhth_vb_et_kk_thgf.add_class('ghost')
+				b_lhth_vb_et_kk_ef.add_class('ghost')
+				b_lhth_vb_et_kvk_nf.add_class('ghost')
+				b_lhth_vb_et_kvk_thf.add_class('ghost')
+				b_lhth_vb_et_kvk_thgf.add_class('ghost')
+				b_lhth_vb_et_kvk_ef.add_class('ghost')
+				b_lhth_vb_et_hk_nf.add_class('ghost')
+				b_lhth_vb_et_hk_thf.add_class('ghost')
+				b_lhth_vb_et_hk_thgf.add_class('ghost')
+				b_lhth_vb_et_hk_ef.add_class('ghost')
+				b_lhth_vb_ft_kk_nf.add_class('ghost')
+				b_lhth_vb_ft_kk_thf.add_class('ghost')
+				b_lhth_vb_ft_kk_thgf.add_class('ghost')
+				b_lhth_vb_ft_kk_ef.add_class('ghost')
+				b_lhth_vb_ft_kvk_nf.add_class('ghost')
+				b_lhth_vb_ft_kvk_thf.add_class('ghost')
+				b_lhth_vb_ft_kvk_thgf.add_class('ghost')
+				b_lhth_vb_ft_kvk_ef.add_class('ghost')
+				b_lhth_vb_ft_hk_nf.add_class('ghost')
+				b_lhth_vb_ft_hk_thf.add_class('ghost')
+				b_lhth_vb_ft_hk_thgf.add_class('ghost')
+				b_lhth_vb_ft_hk_ef.add_class('ghost')
+				if 'þátíðar' in self.ORD_STATE['lýsingarháttur']:
+					del self.ORD_STATE['lýsingarháttur']['þátíðar']
+		else:
+			b_lhnt.add_class('ghost')
+			b_lhth_sb_et_kk_nf.add_class('ghost')
+			b_lhth_sb_et_kk_thf.add_class('ghost')
+			b_lhth_sb_et_kk_thgf.add_class('ghost')
+			b_lhth_sb_et_kk_ef.add_class('ghost')
+			b_lhth_sb_et_kvk_nf.add_class('ghost')
+			b_lhth_sb_et_kvk_thf.add_class('ghost')
+			b_lhth_sb_et_kvk_thgf.add_class('ghost')
+			b_lhth_sb_et_kvk_ef.add_class('ghost')
+			b_lhth_sb_et_hk_nf.add_class('ghost')
+			b_lhth_sb_et_hk_thf.add_class('ghost')
+			b_lhth_sb_et_hk_thgf.add_class('ghost')
+			b_lhth_sb_et_hk_ef.add_class('ghost')
+			b_lhth_sb_ft_kk_nf.add_class('ghost')
+			b_lhth_sb_ft_kk_thf.add_class('ghost')
+			b_lhth_sb_ft_kk_thgf.add_class('ghost')
+			b_lhth_sb_ft_kk_ef.add_class('ghost')
+			b_lhth_sb_ft_kvk_nf.add_class('ghost')
+			b_lhth_sb_ft_kvk_thf.add_class('ghost')
+			b_lhth_sb_ft_kvk_thgf.add_class('ghost')
+			b_lhth_sb_ft_kvk_ef.add_class('ghost')
+			b_lhth_sb_ft_hk_nf.add_class('ghost')
+			b_lhth_sb_ft_hk_thf.add_class('ghost')
+			b_lhth_sb_ft_hk_thgf.add_class('ghost')
+			b_lhth_sb_ft_hk_ef.add_class('ghost')
+			b_lhth_vb_et_kk_nf.add_class('ghost')
+			b_lhth_vb_et_kk_thf.add_class('ghost')
+			b_lhth_vb_et_kk_thgf.add_class('ghost')
+			b_lhth_vb_et_kk_ef.add_class('ghost')
+			b_lhth_vb_et_kvk_nf.add_class('ghost')
+			b_lhth_vb_et_kvk_thf.add_class('ghost')
+			b_lhth_vb_et_kvk_thgf.add_class('ghost')
+			b_lhth_vb_et_kvk_ef.add_class('ghost')
+			b_lhth_vb_et_hk_nf.add_class('ghost')
+			b_lhth_vb_et_hk_thf.add_class('ghost')
+			b_lhth_vb_et_hk_thgf.add_class('ghost')
+			b_lhth_vb_et_hk_ef.add_class('ghost')
+			b_lhth_vb_ft_kk_nf.add_class('ghost')
+			b_lhth_vb_ft_kk_thf.add_class('ghost')
+			b_lhth_vb_ft_kk_thgf.add_class('ghost')
+			b_lhth_vb_ft_kk_ef.add_class('ghost')
+			b_lhth_vb_ft_kvk_nf.add_class('ghost')
+			b_lhth_vb_ft_kvk_thf.add_class('ghost')
+			b_lhth_vb_ft_kvk_thgf.add_class('ghost')
+			b_lhth_vb_ft_kvk_ef.add_class('ghost')
+			b_lhth_vb_ft_hk_nf.add_class('ghost')
+			b_lhth_vb_ft_hk_thf.add_class('ghost')
+			b_lhth_vb_ft_hk_thgf.add_class('ghost')
+			b_lhth_vb_ft_hk_ef.add_class('ghost')
+			if 'lýsingarháttur' in self.ORD_STATE:
+				del self.ORD_STATE['lýsingarháttur']
+		# óskháttur
+		if chbox_oskhattur.value is True:
+			# óskháttur 1p ft
+			if chbox_oskhattur_1p_ft.value is True:
+				b_oskhattur_1p_ft.remove_class('ghost')
+				self.ORD_STATE['óskháttur_1p_ft'] = b_oskhattur_1p_ft.value or input_empty
+			else:
+				if 'óskháttur_1p_ft' in self.ORD_STATE:
+					del self.ORD_STATE['óskháttur_1p_ft']
+			# óskháttur 3p
+			if chbox_oskhattur_3p.value is True:
+				b_oskhattur_3p.remove_class('ghost')
+				self.ORD_STATE['óskháttur_3p'] = b_oskhattur_3p.value or input_empty
+			else:
+				if 'óskháttur_3p' in self.ORD_STATE:
+					del self.ORD_STATE['óskháttur_3p']
+		else:
+			b_oskhattur_1p_ft.add_class('ghost')
+			b_oskhattur_3p.add_class('ghost')
+			if 'óskháttur_1p_ft' in self.ORD_STATE:
+				del self.ORD_STATE['óskháttur_1p_ft']
+			if 'óskháttur_3p' in self.ORD_STATE:
+				del self.ORD_STATE['óskháttur_3p']
+		# update JSON text
+		isl_ord = None
+		if self.ORD_STATE['orð'] in ('', None):
+			el_ord_data_json.text = '{}'
+		else:
+			handler = handlers.Sagnord()
+			handler.load_from_dict(self.ORD_STATE)
+			json_str = handler._ord_data_to_fancy_json_str(handler.data.dict())
+			el_ord_data_json.text = json_str
+			kennistrengur = handler.make_kennistrengur()
+			isl_ord = db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
+		# determine if ord is acceptable for saving, then update commit button accordingly
+		# germynd fulfilled
+		fulfilled_germynd_sagnbot = (
+			chbox_germynd_sagnbot.value is False or b_germynd_sagnbot.value
+		)
+		fulfilled_germynd_bodhattur = (
+			chbox_germynd_bodhattur.value is False or (
+				(
+					chbox_germynd_bodhattur_styfdur.value is False or
+					b_germynd_bodhattur_styfdur.value
+				) and (
+					chbox_germynd_bodhattur_et.value is False or b_germynd_bodhattur_et.value
+				) and (
+					chbox_germynd_bodhattur_ft.value is False or b_germynd_bodhattur_ft.value
+				)
+			)
+		)
+		fulfilled_germynd_p = (
+			chbox_germynd_p.value is False or (
+				(
+					chbox_germynd_p_f.value is False or (
+						(
+							chbox_germynd_p_f_nu.value is False or (
+								b_germynd_p_f_nu_1p_et.value and
+								b_germynd_p_f_nu_1p_ft.value and
+								b_germynd_p_f_nu_2p_et.value and
+								b_germynd_p_f_nu_2p_ft.value and
+								b_germynd_p_f_nu_3p_et.value and
+								b_germynd_p_f_nu_3p_ft.value
+							)
+						) and (
+							chbox_germynd_p_f_th.value is False or (
+								b_germynd_p_f_th_1p_et.value and
+								b_germynd_p_f_th_1p_ft.value and
+								b_germynd_p_f_th_2p_et.value and
+								b_germynd_p_f_th_2p_ft.value and
+								b_germynd_p_f_th_3p_et.value and
+								b_germynd_p_f_th_3p_ft.value
+							)
+						)
+					)
+				) and (
+					chbox_germynd_p_v.value is False or (
+						(
+							chbox_germynd_p_v_nu.value is False or (
+								b_germynd_p_v_nu_1p_et.value and
+								b_germynd_p_v_nu_1p_ft.value and
+								b_germynd_p_v_nu_2p_et.value and
+								b_germynd_p_v_nu_2p_ft.value and
+								b_germynd_p_v_nu_3p_et.value and
+								b_germynd_p_v_nu_3p_ft.value
+							)
+						) and (
+							chbox_germynd_p_v_th.value is False or (
+								b_germynd_p_v_th_1p_et.value and
+								b_germynd_p_v_th_1p_ft.value and
+								b_germynd_p_v_th_2p_et.value and
+								b_germynd_p_v_th_2p_ft.value and
+								b_germynd_p_v_th_3p_et.value and
+								b_germynd_p_v_th_3p_ft.value
+							)
+						)
+					)
+				)
+			)
+		)
+		fulfilled_germynd_op = (
+			chbox_germynd_op.value is False or (
+				(
+					chbox_germynd_op_f.value is False or (
+						(
+							chbox_germynd_op_f_nu.value is False or (
+								b_germynd_op_f_nu_1p_et.value and
+								b_germynd_op_f_nu_1p_ft.value and
+								b_germynd_op_f_nu_2p_et.value and
+								b_germynd_op_f_nu_2p_ft.value and
+								b_germynd_op_f_nu_3p_et.value and
+								b_germynd_op_f_nu_3p_ft.value
+							)
+						) and (
+							chbox_germynd_op_f_th.value is False or (
+								b_germynd_op_f_th_1p_et.value and
+								b_germynd_op_f_th_1p_ft.value and
+								b_germynd_op_f_th_2p_et.value and
+								b_germynd_op_f_th_2p_ft.value and
+								b_germynd_op_f_th_3p_et.value and
+								b_germynd_op_f_th_3p_ft.value
+							)
+						)
+					)
+				) and (
+					chbox_germynd_op_v.value is False or (
+						(
+							chbox_germynd_op_v_nu.value is False or (
+								b_germynd_op_v_nu_1p_et.value and
+								b_germynd_op_v_nu_1p_ft.value and
+								b_germynd_op_v_nu_2p_et.value and
+								b_germynd_op_v_nu_2p_ft.value and
+								b_germynd_op_v_nu_3p_et.value and
+								b_germynd_op_v_nu_3p_ft.value
+							)
+						) and (
+							chbox_germynd_op_v_th.value is False or (
+								b_germynd_op_v_th_1p_et.value and
+								b_germynd_op_v_th_1p_ft.value and
+								b_germynd_op_v_th_2p_et.value and
+								b_germynd_op_v_th_2p_ft.value and
+								b_germynd_op_v_th_3p_et.value and
+								b_germynd_op_v_th_3p_ft.value
+							)
+						)
+					)
+				)
+			)
+		)
+		fulfilled_germynd_spurnar = (
+			chbox_germynd_spurnar.value is False or (
+				(
+					chbox_germynd_spurnar_f.value is False or (
+						(
+							chbox_germynd_spurnar_f_nu.value is False or (
+								b_germynd_sp_f_nu_et.value and b_germynd_sp_f_nu_ft.value
+							)
+						) and (
+							chbox_germynd_spurnar_f_th.value is False or (
+								b_germynd_sp_f_th_et.value and b_germynd_sp_f_th_ft.value
+							)
+						)
+					)
+				) and (
+					chbox_germynd_spurnar_v.value is False or (
+						(
+							chbox_germynd_spurnar_v_nu.value is False or (
+								b_germynd_sp_v_nu_et.value and b_germynd_sp_v_nu_ft.value
+							)
+						) and (
+							chbox_germynd_spurnar_v_th.value is False or (
+								b_germynd_sp_v_th_et.value and b_germynd_sp_v_th_ft.value
+							)
+						)
+					)
+				)
+			)
+		)
+		fulfilled_germynd = (
+			chbox_germynd.value is False or (
+				b_germynd_nafnhattur.value and fulfilled_germynd_sagnbot and
+				fulfilled_germynd_bodhattur and fulfilled_germynd_p and fulfilled_germynd_op and
+				fulfilled_germynd_spurnar
+			)
+		)
+		# miðmynd fulfilled
+		fulfilled_midmynd_sagnbot = (
+			chbox_midmynd_sagnbot.value is False or b_midmynd_sagnbot.value
+		)
+		fulfilled_midmynd_bodhattur = (
+			chbox_midmynd_bodhattur.value is False or (
+				(
+					chbox_midmynd_bodhattur_et.value is False or b_midmynd_bodhattur_et.value
+				) and (
+					chbox_midmynd_bodhattur_ft.value is False or b_midmynd_bodhattur_ft.value
+				)
+			)
+		)
+		fulfilled_midmynd_p = (
+			chbox_midmynd_p.value is False or (
+				(
+					chbox_midmynd_p_f.value is False or (
+						(
+							chbox_midmynd_p_f_nu.value is False or (
+								b_midmynd_p_f_nu_1p_et.value and
+								b_midmynd_p_f_nu_1p_ft.value and
+								b_midmynd_p_f_nu_2p_et.value and
+								b_midmynd_p_f_nu_2p_ft.value and
+								b_midmynd_p_f_nu_3p_et.value and
+								b_midmynd_p_f_nu_3p_ft.value
+							)
+						) and (
+							chbox_midmynd_p_f_th.value is False or (
+								b_midmynd_p_f_th_1p_et.value and
+								b_midmynd_p_f_th_1p_ft.value and
+								b_midmynd_p_f_th_2p_et.value and
+								b_midmynd_p_f_th_2p_ft.value and
+								b_midmynd_p_f_th_3p_et.value and
+								b_midmynd_p_f_th_3p_ft.value
+							)
+						)
+					)
+				) and (
+					chbox_midmynd_p_v.value is False or (
+						(
+							chbox_midmynd_p_v_nu.value is False or (
+								b_midmynd_p_v_nu_1p_et.value and
+								b_midmynd_p_v_nu_1p_ft.value and
+								b_midmynd_p_v_nu_2p_et.value and
+								b_midmynd_p_v_nu_2p_ft.value and
+								b_midmynd_p_v_nu_3p_et.value and
+								b_midmynd_p_v_nu_3p_ft.value
+							)
+						) and (
+							chbox_midmynd_p_v_th.value is False or (
+								b_midmynd_p_v_th_1p_et.value and
+								b_midmynd_p_v_th_1p_ft.value and
+								b_midmynd_p_v_th_2p_et.value and
+								b_midmynd_p_v_th_2p_ft.value and
+								b_midmynd_p_v_th_3p_et.value and
+								b_midmynd_p_v_th_3p_ft.value
+							)
+						)
+					)
+				)
+			)
+		)
+		fulfilled_midmynd_op = (
+			chbox_midmynd_op.value is False or (
+				(
+					chbox_midmynd_op_f.value is False or (
+						(
+							chbox_midmynd_op_f_nu.value is False or (
+								b_midmynd_op_f_nu_1p_et.value and
+								b_midmynd_op_f_nu_1p_ft.value and
+								b_midmynd_op_f_nu_2p_et.value and
+								b_midmynd_op_f_nu_2p_ft.value and
+								b_midmynd_op_f_nu_3p_et.value and
+								b_midmynd_op_f_nu_3p_ft.value
+							)
+						) and (
+							chbox_midmynd_op_f_th.value is False or (
+								b_midmynd_op_f_th_1p_et.value and
+								b_midmynd_op_f_th_1p_ft.value and
+								b_midmynd_op_f_th_2p_et.value and
+								b_midmynd_op_f_th_2p_ft.value and
+								b_midmynd_op_f_th_3p_et.value and
+								b_midmynd_op_f_th_3p_ft.value
+							)
+						)
+					)
+				) and (
+					chbox_midmynd_op_v.value is False or (
+						(
+							chbox_midmynd_op_v_nu.value is False or (
+								b_midmynd_op_v_nu_1p_et.value and
+								b_midmynd_op_v_nu_1p_ft.value and
+								b_midmynd_op_v_nu_2p_et.value and
+								b_midmynd_op_v_nu_2p_ft.value and
+								b_midmynd_op_v_nu_3p_et.value and
+								b_midmynd_op_v_nu_3p_ft.value
+							)
+						) and (
+							chbox_midmynd_op_v_th.value is False or (
+								b_midmynd_op_v_th_1p_et.value and
+								b_midmynd_op_v_th_1p_ft.value and
+								b_midmynd_op_v_th_2p_et.value and
+								b_midmynd_op_v_th_2p_ft.value and
+								b_midmynd_op_v_th_3p_et.value and
+								b_midmynd_op_v_th_3p_ft.value
+							)
+						)
+					)
+				)
+			)
+		)
+		fulfilled_midmynd_spurnar = (
+			chbox_midmynd_spurnar.value is False or (
+				(
+					chbox_midmynd_spurnar_f.value is False or (
+						(
+							chbox_midmynd_spurnar_f_nu.value is False or b_midmynd_sp_f_nu_et.value
+						) and (
+							chbox_midmynd_spurnar_f_th.value is False or b_midmynd_sp_f_th_et.value
+						)
+					)
+				) and (
+					chbox_midmynd_spurnar_v.value is False or (
+						(
+							chbox_midmynd_spurnar_v_nu.value is False or b_midmynd_sp_v_nu_et.value
+						) and (
+							chbox_midmynd_spurnar_v_th.value is False or b_midmynd_sp_v_th_et.value
+						)
+					)
+				)
+			)
+		)
+		fulfilled_midmynd = (
+			chbox_midmynd.value is False or (
+				b_midmynd_nafnhattur.value and fulfilled_midmynd_sagnbot and
+				fulfilled_midmynd_bodhattur and fulfilled_midmynd_p and fulfilled_midmynd_op and
+				fulfilled_midmynd_spurnar
+			)
+		)
+		# lýsingarháttur fulfilled
+		fulfilled_lysingarhattur = (
+			chbox_lysingar.value is False or (
+				(
+					chbox_lysingar_nt.value is False or b_lhnt.value
+				) and (
+					chbox_lysingar_th.value is False or (
+						(
+							chbox_lysingar_th_sb.value is False or (
+								(
+									chbox_lysingar_th_sb_et.value is False or (
+										b_lhth_sb_et_kk_nf.value and
+										b_lhth_sb_et_kk_thf.value and
+										b_lhth_sb_et_kk_thgf.value and
+										b_lhth_sb_et_kk_ef.value
+									)
+								) and (
+									chbox_lysingar_th_sb_ft.value is False or (
+										b_lhth_sb_ft_kk_nf.value and
+										b_lhth_sb_ft_kk_thf.value and
+										b_lhth_sb_ft_kk_thgf.value and
+										b_lhth_sb_ft_kk_ef.value
+									)
+								)
+							)
+						) and (
+							chbox_lysingar_th_vb.value is False or (
+								(
+									chbox_lysingar_th_vb_et.value is False or (
+										b_lhth_vb_et_kk_nf.value and
+										b_lhth_vb_et_kk_thf.value and
+										b_lhth_vb_et_kk_thgf.value and
+										b_lhth_vb_et_kk_ef.value
+									)
+								) and (
+									chbox_lysingar_th_vb_ft.value is False or (
+										b_lhth_vb_ft_kk_nf.value and
+										b_lhth_vb_ft_kk_thf.value and
+										b_lhth_vb_ft_kk_thgf.value and
+										b_lhth_vb_ft_kk_ef.value
+									)
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+		# óskháttur fulfilled
+		fulfilled_oskhattur = (
+			chbox_oskhattur.value is False or (
+				(chbox_oskhattur_1p_ft.value is False or b_oskhattur_1p_ft.value) and
+				(chbox_oskhattur_3p.value is False or b_oskhattur_3p.value)
+			)
+		)
+		#
+		if self.ORD_STATE['orð'] in ('', None):
+			btn_ord_commit.label = '[[ Vista ]] Sláðu inn grunnmynd orðs'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif isl_ord is not None:
+			btn_ord_commit.label = '[[ Vista ]] Orð nú þegar til'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif (
+			not fulfilled_germynd or
+			not fulfilled_midmynd or
+			not fulfilled_lysingarhattur or
+			not fulfilled_oskhattur
+		):
+			btn_ord_commit.label = '[[ Vista ]] Fylltu inn beygingarmyndir'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif (
+			'germynd' not in self.ORD_STATE and
+			'miðmynd' not in self.ORD_STATE and
+			'lýsingarháttur' not in self.ORD_STATE and
+			'óskháttur_1p_ft' not in self.ORD_STATE and
+			'óskháttur_3p' not in self.ORD_STATE
+		):
+			btn_ord_commit.label = '[[ Vista ]] Tilgreindu beygingarmyndir'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		else:
+			btn_ord_commit.label = '[[ Vista ]]'
+			btn_ord_commit.variant = 'primary'
+			btn_ord_commit.disabled = False
+
+
 	def compose(self) -> ComposeResult:
 		yield Header()
 		with Content(id='main_content'):
@@ -2048,7 +5350,9 @@ Ferlið er svohljóðandi:
 					yield RadioButton('Kjarnaorð', id='kjarnaord', value=True)
 					# samsett orð disabled for now
 					yield RadioButton('Samsett orð', id='samsett_ord', disabled=True)
-				yield Select.from_values(self.ORDFLOKKAR, prompt='Veldu orðflokk ..', id='ordflokkur')
+				yield Select.from_values(
+					self.ORDFLOKKAR, prompt='Veldu orðflokk ..', id='ordflokkur'
+				)
 			yield BuildWordContainer(id='el_build_word', classes='box')
 		yield Footer()
 
@@ -2062,7 +5366,7 @@ class AddWordTUI(App):
 	CSS_PATH = 'tcss/main.tcss'
 	BINDINGS = [
 		('d', 'toggle_dark', 'Toggle dark mode'),
-		# ('s', 'print_state', 'Print state (dev)'),
+		('s', 'print_state', 'Print state (dev)'),
 	]
 	HOMESCREEN = None
 
