@@ -1,0 +1,73 @@
+{
+	"orð": "flikka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flikk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-flika-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flikka",
+		"sagnbót": "flikkað",
+		"boðháttur": {
+			"stýfður": "flikka",
+			"et": "flikkaðu",
+			"ft": "flikkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flikka", "flikkar", "flikkar"],
+					"ft": ["flikkum", "flikkið", "flikka"]
+				},
+				"þátíð": {
+					"et": ["flikkaði", "flikkaðir", "flikkaði"],
+					"ft": ["flikkuðum", "flikkuðuð", "flikkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flikki", "flikkir", "flikki"],
+					"ft": ["flikkum", "flikkið", "flikki"]
+				},
+				"þátíð": {
+					"et": ["flikkaði", "flikkaðir", "flikkaði"],
+					"ft": ["flikkuðum", "flikkuðuð", "flikkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flikkarðu",
+					"ft": "flikkiði"
+				},
+				"þátíð": {
+					"et": "flikkaðirðu",
+					"ft": "flikkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flikkirðu",
+					"ft": "flikkiði"
+				},
+				"þátíð": {
+					"et": "flikkaðirðu",
+					"ft": "flikkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flikkandi"
+	},
+	"kennistrengur": "so-flikka",
+	"hash": "a2bdbbe9b0f914d9f585b31d49a202b515a08ffcafaab8f0ad1a4d1ae9e29fbe"
+}

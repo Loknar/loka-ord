@@ -1,0 +1,135 @@
+{
+	"orð": "dúndra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dúndr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dúndur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dúndra",
+		"sagnbót": "dúndrað",
+		"boðháttur": {
+			"stýfður": "dúndra",
+			"et": "dúndraðu",
+			"ft": "dúndrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dúndra", "dúndrar", "dúndrar"],
+					"ft": ["dúndrum", "dúndrið", "dúndra"]
+				},
+				"þátíð": {
+					"et": ["dúndraði", "dúndraðir", "dúndraði"],
+					"ft": ["dúndruðum", "dúndruðuð", "dúndruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dúndri", "dúndrir", "dúndri"],
+					"ft": ["dúndrum", "dúndrið", "dúndri"]
+				},
+				"þátíð": {
+					"et": ["dúndraði", "dúndraðir", "dúndraði"],
+					"ft": ["dúndruðum", "dúndruðuð", "dúndruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dúndrarðu",
+					"ft": "dúndriði"
+				},
+				"þátíð": {
+					"et": "dúndraðirðu",
+					"ft": "dúndruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dúndrirðu",
+					"ft": "dúndriði"
+				},
+				"þátíð": {
+					"et": "dúndraðirðu",
+					"ft": "dúndruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dúndrast",
+		"sagnbót": "dúndrast",
+		"boðháttur": {
+			"et": "dúndrastu",
+			"ft": "dúndrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dúndrast", "dúndrast", "dúndrast"],
+					"ft": ["dúndrumst", "dúndrist", "dúndrast"]
+				},
+				"þátíð": {
+					"et": ["dúndraðist", "dúndraðist", "dúndraðist"],
+					"ft": ["dúndruðumst", "dúndruðust", "dúndruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dúndrist", "dúndrist", "dúndrist"],
+					"ft": ["dúndrumst", "dúndrist", "dúndrist"]
+				},
+				"þátíð": {
+					"et": ["dúndraðist", "dúndraðist", "dúndraðist"],
+					"ft": ["dúndruðumst", "dúndruðust", "dúndruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dúndrastu"
+				},
+				"þátíð": {
+					"et": "dúndraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dúndristu"
+				},
+				"þátíð": {
+					"et": "dúndraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dúndrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dúndraður", "dúndraðan", "dúndruðum", "dúndraðs"],
+					"kvk": ["dúndruð", "dúndraða", "dúndraðri", "dúndraðrar"],
+					"hk": ["dúndrað", "dúndrað", "dúndruðu", "dúndraðs"]
+				},
+				"ft": {
+					"kk": ["dúndraðir", "dúndraða", "dúndruðum", "dúndraðra"],
+					"kvk": ["dúndraðar", "dúndraðar", "dúndruðum", "dúndraðra"],
+					"hk": ["dúndruð", "dúndruð", "dúndruðum", "dúndraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dúndra",
+	"hash": "bd280ff581b8c618896ae9bac94b6635f6906d498b5bd41c491d1f99c3e92020"
+}

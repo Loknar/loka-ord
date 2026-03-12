@@ -1,0 +1,114 @@
+{
+	"orð": "eta",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "eta",
+		"sagnbót": "etið",
+		"boðháttur": {
+			"stýfður": "et",
+			"et": "ettu",
+			"ft": "etið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["et", "etur", "etur"],
+					"ft": ["etum", "etið", "eta"]
+				},
+				"þátíð": {
+					"et": ["át", "ást", "át"],
+					"ft": ["átum", "átuð", "átu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["eti", "etir", "eti"],
+					"ft": ["etum", "etið", "eti"]
+				},
+				"þátíð": {
+					"et": ["æti", "ætir", "æti"],
+					"ft": ["ætum", "ætuð", "ætu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "eturu",
+					"ft": "etiði"
+				},
+				"þátíð": {
+					"et": "ástu",
+					"ft": "átuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "etirðu",
+					"ft": "etiði"
+				},
+				"þátíð": {
+					"et": "ætirðu",
+					"ft": "ætuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "etast",
+		"sagnbót": "etist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["est", "est", "est"],
+					"ft": ["etumst", "etist", "etast"]
+				},
+				"þátíð": {
+					"et": ["ást", "ást", "ást"],
+					"ft": ["átumst", "átust", "átust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["etist", "etist", "etist"],
+					"ft": ["etumst", "etist", "etist"]
+				},
+				"þátíð": {
+					"et": ["ætist", "ætist", "ætist"],
+					"ft": ["ætumst", "ætust", "ætust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "etandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["etinn", "etinn", "etnum", "etins"],
+					"kvk": ["etin", "etna", "etinni", "etinnar"],
+					"hk": ["etið", "etið", "etnu", "etins"]
+				},
+				"ft": {
+					"kk": ["etnir", "etna", "etnum", "etinna"],
+					"kvk": ["etnar", "etnar", "etnum", "etinna"],
+					"hk": ["etin", "etin", "etnum", "etinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["etni", "etna", "etna", "etna"],
+					"kvk": ["etna", "etnu", "etnu", "etnu"],
+					"hk": ["etna", "etna", "etna", "etna"]
+				},
+				"ft": {
+					"kk": ["etnu", "etnu", "etnu", "etnu"],
+					"kvk": ["etnu", "etnu", "etnu", "etnu"],
+					"hk": ["etnu", "etnu", "etnu", "etnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-eta",
+	"hash": "8825faacddfcdaeeed5ba8ce2dcb85a29392d1379f882d05f41d055ed0128870"
+}

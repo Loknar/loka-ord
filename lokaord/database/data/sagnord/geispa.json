@@ -1,0 +1,73 @@
+{
+	"orð": "geispa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "geisp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-geisp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "geispa",
+		"sagnbót": "geispað",
+		"boðháttur": {
+			"stýfður": "geispa",
+			"et": "geispaðu",
+			"ft": "geispið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["geispa", "geispar", "geispar"],
+					"ft": ["geispum", "geispið", "geispa"]
+				},
+				"þátíð": {
+					"et": ["geispaði", "geispaðir", "geispaði"],
+					"ft": ["geispuðum", "geispuðuð", "geispuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["geispi", "geispir", "geispi"],
+					"ft": ["geispum", "geispið", "geispi"]
+				},
+				"þátíð": {
+					"et": ["geispaði", "geispaðir", "geispaði"],
+					"ft": ["geispuðum", "geispuðuð", "geispuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "geisparðu",
+					"ft": "geispiði"
+				},
+				"þátíð": {
+					"et": "geispaðirðu",
+					"ft": "geispuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "geispirðu",
+					"ft": "geispiði"
+				},
+				"þátíð": {
+					"et": "geispaðirðu",
+					"ft": "geispuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "geispandi"
+	},
+	"kennistrengur": "so-geispa",
+	"hash": "83b5187775e95f3157e37786e293f36a07a02b4aed66b962c8cd860504753f8a"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "keypa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "keyp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kópur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "keypa",
+		"sagnbót": "keypað",
+		"boðháttur": {
+			"stýfður": "keypa",
+			"et": "keypaðu",
+			"ft": "keypið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["keypa", "keypar", "keypar"],
+					"ft": ["keypum", "keypið", "keypa"]
+				},
+				"þátíð": {
+					"et": ["keypaði", "keypaðir", "keypaði"],
+					"ft": ["keypuðum", "keypuðuð", "keypuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["keypi", "keypir", "keypi"],
+					"ft": ["keypum", "keypið", "keypi"]
+				},
+				"þátíð": {
+					"et": ["keypaði", "keypaðir", "keypaði"],
+					"ft": ["keypuðum", "keypuðuð", "keypuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "keyparðu",
+					"ft": "keypiði"
+				},
+				"þátíð": {
+					"et": "keypaðirðu",
+					"ft": "keypuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "keypirðu",
+					"ft": "keypiði"
+				},
+				"þátíð": {
+					"et": "keypaðirðu",
+					"ft": "keypuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "keypast",
+		"sagnbót": "keypast",
+		"boðháttur": {
+			"et": "keypastu",
+			"ft": "keypist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["keypast", "keypast", "keypast"],
+					"ft": ["keypumst", "keypist", "keypast"]
+				},
+				"þátíð": {
+					"et": ["keypaðist", "keypaðist", "keypaðist"],
+					"ft": ["keypuðumst", "keypuðust", "keypuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["keypist", "keypist", "keypist"],
+					"ft": ["keypumst", "keypist", "keypist"]
+				},
+				"þátíð": {
+					"et": ["keypaðist", "keypaðist", "keypaðist"],
+					"ft": ["keypuðumst", "keypuðust", "keypuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "keypastu"
+				},
+				"þátíð": {
+					"et": "keypaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "keypistu"
+				},
+				"þátíð": {
+					"et": "keypaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "keypandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["keypaður", "keypaðan", "keypuðum", "keypaðs"],
+					"kvk": ["keypuð", "keypaða", "keypaðri", "keypaðrar"],
+					"hk": ["keypað", "keypað", "keypuðu", "keypaðs"]
+				},
+				"ft": {
+					"kk": ["keypaðir", "keypaða", "keypuðum", "keypaðra"],
+					"kvk": ["keypaðar", "keypaðar", "keypuðum", "keypaðra"],
+					"hk": ["keypuð", "keypuð", "keypuðum", "keypaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-keypa",
+	"hash": "150c0e01ab2561fa3195830334fb9c330a5ba103f185790444c5a7e1ff97ed78"
+}

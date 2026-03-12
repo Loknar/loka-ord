@@ -1,0 +1,87 @@
+{
+	"orð": "bołlaleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bołla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bołli-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bołlaleggja",
+		"sagnbót": "bołlalagt",
+		"boðháttur": {
+			"stýfður": "bołlalegg",
+			"et": "bołlaleggðu",
+			"ft": "bołlaleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bołlalegg", "bołlaleggur", "bołlaleggur"],
+					"ft": ["bołlaleggjum", "bołlaleggið", "bołlaleggja"]
+				},
+				"þátíð": {
+					"et": ["bołlalagði", "bołlalagðir", "bołlalagði"],
+					"ft": ["bołlalögðum", "bołlalögðuð", "bołlalögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bołlaleggi", "bołlaleggir", "bołlaleggi"],
+					"ft": ["bołlaleggjum", "bołlaleggið", "bołlaleggi"]
+				},
+				"þátíð": {
+					"et": ["bołlalegði", "bołlalegðir", "bołlalegði"],
+					"ft": ["bołlalegðum", "bołlalegðuð", "bołlalegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bołlaleggurðu",
+					"ft": "bołlaleggiði"
+				},
+				"þátíð": {
+					"et": "bołlalagðirðu",
+					"ft": "bołlalögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bołlaleggirðu",
+					"ft": "bołlaleggiði"
+				},
+				"þátíð": {
+					"et": "bołlaleggðirðu",
+					"ft": "bołlaleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bołlaleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bołlalagður", "bołlalagðan", "bołlalögðum", "bołlalagðs"],
+					"kvk": ["bołlalögð", "bołlalagða", "bołlalagðri", "bołlalagðrar"],
+					"hk": ["bołlalagt", "bołlalagt", "bołlalögðu", "bołlalagðs"]
+				},
+				"ft": {
+					"kk": ["bołlalagðir", "bołlalagða", "bołlalögðum", "bołlalagðra"],
+					"kvk": ["bołlalagðar", "bołlalagðar", "bołlalögðum", "bołlalagðra"],
+					"hk": ["bołlalögð", "bołlalögð", "bołlalögðum", "bołlalagðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bołlaleggja",
+	"hash": "6174a8568a5531ebd525d5a91f50b666f07f3ef45bbff064d347ba646a67dec2"
+}
