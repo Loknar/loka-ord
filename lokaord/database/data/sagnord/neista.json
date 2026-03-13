@@ -1,0 +1,135 @@
+{
+	"orð": "neista",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "neist",
+			"samsetning": "stofn",
+			"kennistrengur": "no-neisti-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "neista",
+		"sagnbót": "neistað",
+		"boðháttur": {
+			"stýfður": "neista",
+			"et": "neistaðu",
+			"ft": "neistið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["neista", "neistar", "neistar"],
+					"ft": ["neistum", "neistið", "neista"]
+				},
+				"þátíð": {
+					"et": ["neistaði", "neistaðir", "neistaði"],
+					"ft": ["neistuðum", "neistuðuð", "neistuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["neisti", "neistir", "neisti"],
+					"ft": ["neistum", "neistið", "neisti"]
+				},
+				"þátíð": {
+					"et": ["neistaði", "neistaðir", "neistaði"],
+					"ft": ["neistuðum", "neistuðuð", "neistuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "neistarðu",
+					"ft": "neistiði"
+				},
+				"þátíð": {
+					"et": "neistaðirðu",
+					"ft": "neistuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "neistirðu",
+					"ft": "neistiði"
+				},
+				"þátíð": {
+					"et": "neistaðirðu",
+					"ft": "neistuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "neistast",
+		"sagnbót": "neistast",
+		"boðháttur": {
+			"et": "neistastu",
+			"ft": "neistist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["neistast", "neistast", "neistast"],
+					"ft": ["neistumst", "neistist", "neistast"]
+				},
+				"þátíð": {
+					"et": ["neistaðist", "neistaðist", "neistaðist"],
+					"ft": ["neistuðumst", "neistuðust", "neistuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["neistist", "neistist", "neistist"],
+					"ft": ["neistumst", "neistist", "neistist"]
+				},
+				"þátíð": {
+					"et": ["neistaðist", "neistaðist", "neistaðist"],
+					"ft": ["neistuðumst", "neistuðust", "neistuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "neistastu"
+				},
+				"þátíð": {
+					"et": "neistaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "neististu"
+				},
+				"þátíð": {
+					"et": "neistaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "neistandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["neistaður", "neistaðan", "neistuðum", "neistaðs"],
+					"kvk": ["neistuð", "neistaða", "neistaðri", "neistaðrar"],
+					"hk": ["neistað", "neistað", "neistuðu", "neistaðs"]
+				},
+				"ft": {
+					"kk": ["neistaðir", "neistaða", "neistuðum", "neistaðra"],
+					"kvk": ["neistaðar", "neistaðar", "neistuðum", "neistaðra"],
+					"hk": ["neistuð", "neistuð", "neistuðum", "neistaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-neista",
+	"hash": "de696f117d48ab6ecaf9e04638a7142637cad99795ac2b1b2929b83098582eed"
+}

@@ -1,0 +1,65 @@
+{
+	"orð": "ofmetnast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-metna"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ofmetnast",
+		"sagnbót": "ofmetnast",
+		"boðháttur": {
+			"et": "ofmetnastu",
+			"ft": "ofmetnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofmetnast", "ofmetnast", "ofmetnast"],
+					"ft": ["ofmetnumst", "ofmetnist", "ofmetnast"]
+				},
+				"þátíð": {
+					"et": ["ofmetnaðist", "ofmetnaðist", "ofmetnaðist"],
+					"ft": ["ofmetnuðumst", "ofmetnuðust", "ofmetnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofmetnist", "ofmetnist", "ofmetnist"],
+					"ft": ["ofmetnumst", "ofmetnist", "ofmetnist"]
+				},
+				"þátíð": {
+					"et": ["ofmetnaðist", "ofmetnaðist", "ofmetnaðist"],
+					"ft": ["ofmetnuðumst", "ofmetnuðust", "ofmetnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofmetnastu"
+				},
+				"þátíð": {
+					"et": "ofmetnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofmetnistu"
+				},
+				"þátíð": {
+					"et": "ofmetnaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofmetnast",
+	"hash": "b4d544db4eac177cb720e6e9aec235402dadb3643e09e5f97802c5b09030e3a9"
+}

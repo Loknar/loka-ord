@@ -1,0 +1,118 @@
+{
+	"orð": "metna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "metn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-met-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "metna",
+		"sagnbót": "metnað",
+		"boðháttur": {
+			"stýfður": "metna",
+			"et": "metnaðu",
+			"ft": "metnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["metna", "metnar", "metnar"],
+					"ft": ["metnum", "metnið", "metna"]
+				},
+				"þátíð": {
+					"et": ["metnaði", "metnaðir", "metnaði"],
+					"ft": ["metnuðum", "metnuðuð", "metnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["metni", "metnir", "metni"],
+					"ft": ["metnum", "metnið", "metni"]
+				},
+				"þátíð": {
+					"et": ["metnaði", "metnaðir", "metnaði"],
+					"ft": ["metnuðum", "metnuðuð", "metnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "metnarðu",
+					"ft": "metniði"
+				},
+				"þátíð": {
+					"et": "metnaðirðu",
+					"ft": "metnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "metnirðu",
+					"ft": "metniði"
+				},
+				"þátíð": {
+					"et": "metnaðirðu",
+					"ft": "metnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "metnast",
+		"sagnbót": "metnast",
+		"boðháttur": {
+			"et": "metnastu",
+			"ft": "metnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["metnast", "metnast", "metnast"],
+					"ft": ["metnumst", "metnist", "metnast"]
+				},
+				"þátíð": {
+					"et": ["metnaðist", "metnaðist", "metnaðist"],
+					"ft": ["metnuðumst", "metnuðust", "metnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["metnist", "metnist", "metnist"],
+					"ft": ["metnumst", "metnist", "metnist"]
+				},
+				"þátíð": {
+					"et": ["metnaðist", "metnaðist", "metnaðist"],
+					"ft": ["metnuðumst", "metnuðust", "metnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "metnastu"
+				},
+				"þátíð": {
+					"et": "metnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "metnistu"
+				},
+				"þátíð": {
+					"et": "metnaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-metna",
+	"hash": "1b98d9b4a3b0c3a21b16cc0daa267ff8d295b3cf399ae61c2b20e0bff16012c3"
+}

@@ -1,0 +1,121 @@
+{
+	"orð": "skokka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skokk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skokk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skokka",
+		"sagnbót": "skokkað",
+		"boðháttur": {
+			"stýfður": "skokka",
+			"et": "skokkaðu",
+			"ft": "skokkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skokka", "skokkar", "skokkar"],
+					"ft": ["skokkum", "skokkið", "skokka"]
+				},
+				"þátíð": {
+					"et": ["skokkaði", "skokkaðir", "skokkaði"],
+					"ft": ["skokkuðum", "skokkuðuð", "skokkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skokki", "skokkir", "skokki"],
+					"ft": ["skokkum", "skokkið", "skokki"]
+				},
+				"þátíð": {
+					"et": ["skokkaði", "skokkaðir", "skokkaði"],
+					"ft": ["skokkuðum", "skokkuðuð", "skokkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skokkarðu",
+					"ft": "skokkiði"
+				},
+				"þátíð": {
+					"et": "skokkaðirðu",
+					"ft": "skokkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skokkirðu",
+					"ft": "skokkiði"
+				},
+				"þátíð": {
+					"et": "skokkaðirðu",
+					"ft": "skokkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skokkast",
+		"sagnbót": "skokkast",
+		"boðháttur": {
+			"et": "skokkastu",
+			"ft": "skokkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skokkast", "skokkast", "skokkast"],
+					"ft": ["skokkumst", "skokkist", "skokkast"]
+				},
+				"þátíð": {
+					"et": ["skokkaðist", "skokkaðist", "skokkaðist"],
+					"ft": ["skokkuðumst", "skokkuðust", "skokkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skokkist", "skokkist", "skokkist"],
+					"ft": ["skokkumst", "skokkist", "skokkist"]
+				},
+				"þátíð": {
+					"et": ["skokkaðist", "skokkaðist", "skokkaðist"],
+					"ft": ["skokkuðumst", "skokkuðust", "skokkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skokkastu"
+				},
+				"þátíð": {
+					"et": "skokkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skokkistu"
+				},
+				"þátíð": {
+					"et": "skokkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skokkandi"
+	},
+	"kennistrengur": "so-skokka",
+	"hash": "bcb1b2651bd3594e1cc3b74318905cb17b366e2c3680cf268d20deeb398c9184"
+}

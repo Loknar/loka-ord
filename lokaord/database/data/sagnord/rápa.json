@@ -1,0 +1,73 @@
+{
+	"orð": "rápa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ráp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ráp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rápa",
+		"sagnbót": "rápað",
+		"boðháttur": {
+			"stýfður": "rápa",
+			"et": "rápaðu",
+			"ft": "rápið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rápa", "rápar", "rápar"],
+					"ft": ["rápum", "rápið", "rápa"]
+				},
+				"þátíð": {
+					"et": ["rápaði", "rápaðir", "rápaði"],
+					"ft": ["rápuðum", "rápuðuð", "rápuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rápi", "rápir", "rápi"],
+					"ft": ["rápum", "rápið", "rápi"]
+				},
+				"þátíð": {
+					"et": ["rápaði", "rápaðir", "rápaði"],
+					"ft": ["rápuðum", "rápuðuð", "rápuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ráparðu",
+					"ft": "rápiði"
+				},
+				"þátíð": {
+					"et": "rápaðirðu",
+					"ft": "rápuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rápirðu",
+					"ft": "rápiði"
+				},
+				"þátíð": {
+					"et": "rápaðirðu",
+					"ft": "rápuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rápandi"
+	},
+	"kennistrengur": "so-rápa",
+	"hash": "849b69dc622b6764fcfcd4c2d11e4becaee422944e29f6bff641641338d532d9"
+}

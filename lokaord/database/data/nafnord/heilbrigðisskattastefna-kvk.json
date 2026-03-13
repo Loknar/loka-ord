@@ -1,0 +1,27 @@
+{
+	"orð": "heilbrigðisskattastefna",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "heilbrigðis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heilbrigði-hk"
+		},
+		{
+			"mynd": "skatta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-stefna-kvk"
+		}
+	],
+	"et": {
+		"ág": ["heilbrigðisskattastefna", "heilbrigðisskattastefnu", "heilbrigðisskattastefnu", "heilbrigðisskattastefnu"],
+		"mg": ["heilbrigðisskattastefnan", "heilbrigðisskattastefnuna", "heilbrigðisskattastefnunni", "heilbrigðisskattastefnunnar"]
+	},
+	"kennistrengur": "no-heilbrigðisskattastefna-kvk",
+	"hash": "5ae231903f72f1e3a3bb42de69eb8fd8fe1a7700d004e550e1d641246b72c434"
+}

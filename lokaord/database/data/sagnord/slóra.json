@@ -1,0 +1,135 @@
+{
+	"orð": "slóra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slór",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slór-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "slóra",
+		"sagnbót": "slórað",
+		"boðháttur": {
+			"stýfður": "slóra",
+			"et": "slóraðu",
+			"ft": "slórið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slóra", "slórar", "slórar"],
+					"ft": ["slórum", "slórið", "slóra"]
+				},
+				"þátíð": {
+					"et": ["slóraði", "slóraðir", "slóraði"],
+					"ft": ["slóruðum", "slóruðuð", "slóruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slóri", "slórir", "slóri"],
+					"ft": ["slórum", "slórið", "slóri"]
+				},
+				"þátíð": {
+					"et": ["slóraði", "slóraðir", "slóraði"],
+					"ft": ["slóruðum", "slóruðuð", "slóruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slórarðu",
+					"ft": "slóriði"
+				},
+				"þátíð": {
+					"et": "slóraðirðu",
+					"ft": "slóruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slórirðu",
+					"ft": "slóriði"
+				},
+				"þátíð": {
+					"et": "slóraðirðu",
+					"ft": "slóruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slórast",
+		"sagnbót": "slórast",
+		"boðháttur": {
+			"et": "slórastu",
+			"ft": "slórist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slórast", "slórast", "slórast"],
+					"ft": ["slórumst", "slórist", "slórast"]
+				},
+				"þátíð": {
+					"et": ["slóraðist", "slóraðist", "slóraðist"],
+					"ft": ["slóruðumst", "slóruðust", "slóruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slórist", "slórist", "slórist"],
+					"ft": ["slórumst", "slórist", "slórist"]
+				},
+				"þátíð": {
+					"et": ["slóraðist", "slóraðist", "slóraðist"],
+					"ft": ["slóruðumst", "slóruðust", "slóruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slórastu"
+				},
+				"þátíð": {
+					"et": "slóraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slóristu"
+				},
+				"þátíð": {
+					"et": "slóraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slórandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slóraður", "slóraðan", "slóruðum", "slóraðs"],
+					"kvk": ["slóruð", "slóraða", "slóraðri", "slóraðrar"],
+					"hk": ["slórað", "slórað", "slóruðu", "slóraðs"]
+				},
+				"ft": {
+					"kk": ["slóraðir", "slóraða", "slóruðum", "slóraðra"],
+					"kvk": ["slóraðar", "slóraðar", "slóruðum", "slóraðra"],
+					"hk": ["slóruð", "slóruð", "slóruðum", "slóraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slóra",
+	"hash": "57434d898e31d097d31ae3375458fa6eab242091ec368a5dade54bc441372491"
+}

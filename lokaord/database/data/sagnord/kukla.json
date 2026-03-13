@@ -1,0 +1,135 @@
+{
+	"orð": "kukla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kukl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kukl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kukla",
+		"sagnbót": "kuklað",
+		"boðháttur": {
+			"stýfður": "kukla",
+			"et": "kuklaðu",
+			"ft": "kuklið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kukla", "kuklar", "kuklar"],
+					"ft": ["kuklum", "kuklið", "kukla"]
+				},
+				"þátíð": {
+					"et": ["kuklaði", "kuklaðir", "kuklaði"],
+					"ft": ["kukluðum", "kukluðuð", "kukluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kukli", "kuklir", "kukli"],
+					"ft": ["kuklum", "kuklið", "kukli"]
+				},
+				"þátíð": {
+					"et": ["kuklaði", "kuklaðir", "kuklaði"],
+					"ft": ["kukluðum", "kukluðuð", "kukluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kuklarðu",
+					"ft": "kukliði"
+				},
+				"þátíð": {
+					"et": "kuklaðirðu",
+					"ft": "kukluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kuklirðu",
+					"ft": "kukliði"
+				},
+				"þátíð": {
+					"et": "kuklaðirðu",
+					"ft": "kukluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kuklast",
+		"sagnbót": "kuklast",
+		"boðháttur": {
+			"et": "kuklastu",
+			"ft": "kuklist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kuklast", "kuklast", "kuklast"],
+					"ft": ["kuklumst", "kuklist", "kuklast"]
+				},
+				"þátíð": {
+					"et": ["kuklaðist", "kuklaðist", "kuklaðist"],
+					"ft": ["kukluðumst", "kukluðust", "kukluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kuklist", "kuklist", "kuklist"],
+					"ft": ["kuklumst", "kuklist", "kuklist"]
+				},
+				"þátíð": {
+					"et": ["kuklaðist", "kuklaðist", "kuklaðist"],
+					"ft": ["kukluðumst", "kukluðust", "kukluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kuklastu"
+				},
+				"þátíð": {
+					"et": "kuklaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kuklistu"
+				},
+				"þátíð": {
+					"et": "kuklaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kuklandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kuklaður", "kuklaðan", "kukluðum", "kuklaðs"],
+					"kvk": ["kukluð", "kuklaða", "kuklaðri", "kuklaðrar"],
+					"hk": ["kuklað", "kuklað", "kukluðu", "kuklaðs"]
+				},
+				"ft": {
+					"kk": ["kuklaðir", "kuklaða", "kukluðum", "kuklaðra"],
+					"kvk": ["kuklaðar", "kuklaðar", "kukluðum", "kuklaðra"],
+					"hk": ["kukluð", "kukluð", "kukluðum", "kuklaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kukla",
+	"hash": "5c07c325af25ae71314f1967777bf022a468455705978ea0258eed4d82ae16a3"
+}

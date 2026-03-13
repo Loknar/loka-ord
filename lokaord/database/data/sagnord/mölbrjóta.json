@@ -1,0 +1,99 @@
+{
+	"orð": "mölbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "möl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-möl-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mölbrjóta",
+		"sagnbót": "mölbrotið",
+		"boðháttur": {
+			"stýfður": "mölbrjót",
+			"et": "mölbrjóttu",
+			"ft": "mölbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mölbrýt", "mölbrýtur", "mölbrýtur"],
+					"ft": ["mölbrjótum", "mölbrjótið", "mölbrjóta"]
+				},
+				"þátíð": {
+					"et": ["mölbraut", "mölbraust", "mölbraut"],
+					"ft": ["mölbrutum", "mölbrutuð", "mölbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mölbrjóti", "mölbrjótir", "mölbrjóti"],
+					"ft": ["mölbrjótum", "mölbrjótið", "mölbrjóti"]
+				},
+				"þátíð": {
+					"et": ["mölbryti", "mölbrytir", "mölbryti"],
+					"ft": ["mölbrytum", "mölbrytuð", "mölbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "mölbrýturðu",
+					"ft": "mölbrjótiði"
+				},
+				"þátíð": {
+					"et": "mölbraustu",
+					"ft": "mölbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "mölbrjótirðu",
+					"ft": "mölbrjótiði"
+				},
+				"þátíð": {
+					"et": "mölbrytirðu",
+					"ft": "mölbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mölbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mölbrotinn", "mölbrotinn", "mölbrotnum", "mölbrotins"],
+					"kvk": ["mölbrotin", "mölbrotna", "mölbrotinni", "mölbrotinnar"],
+					"hk": ["mölbrotið", "mölbrotið", "mölbrotnu", "mölbrotins"]
+				},
+				"ft": {
+					"kk": ["mölbrotnir", "mölbrotna", "mölbrotnum", "mölbrotinna"],
+					"kvk": ["mölbrotnar", "mölbrotnar", "mölbrotnum", "mölbrotinna"],
+					"hk": ["mölbrotin", "mölbrotin", "mölbrotnum", "mölbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["mölbrotni", "mölbrotna", "mölbrotna", "mölbrotna"],
+					"kvk": ["mölbrotna", "mölbrotnu", "mölbrotnu", "mölbrotnu"],
+					"hk": ["mölbrotna", "mölbrotna", "mölbrotna", "mölbrotna"]
+				},
+				"ft": {
+					"kk": ["mölbrotnu", "mölbrotnu", "mölbrotnu", "mölbrotnu"],
+					"kvk": ["mölbrotnu", "mölbrotnu", "mölbrotnu", "mölbrotnu"],
+					"hk": ["mölbrotnu", "mölbrotnu", "mölbrotnu", "mölbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mölbrjóta",
+	"hash": "8461146b924e265c9210458602aa5d8991a6c0f08738660db625e3bf117e6188"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "sykra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sykr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sykur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sykra",
+		"sagnbót": "sykrað",
+		"boðháttur": {
+			"stýfður": "sykra",
+			"et": "sykraðu",
+			"ft": "sykrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sykra", "sykrar", "sykrar"],
+					"ft": ["sykrum", "sykrið", "sykra"]
+				},
+				"þátíð": {
+					"et": ["sykraði", "sykraðir", "sykraði"],
+					"ft": ["sykruðum", "sykruðuð", "sykruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sykri", "sykrir", "sykri"],
+					"ft": ["sykrum", "sykrið", "sykri"]
+				},
+				"þátíð": {
+					"et": ["sykraði", "sykraðir", "sykraði"],
+					"ft": ["sykruðum", "sykruðuð", "sykruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sykrarðu",
+					"ft": "sykriði"
+				},
+				"þátíð": {
+					"et": "sykraðirðu",
+					"ft": "sykruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sykrirðu",
+					"ft": "sykriði"
+				},
+				"þátíð": {
+					"et": "sykraðirðu",
+					"ft": "sykruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sykrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sykraður", "sykraðan", "sykruðum", "sykraðs"],
+					"kvk": ["sykruð", "sykraða", "sykraðri", "sykraðrar"],
+					"hk": ["sykrað", "sykrað", "sykruðu", "sykraðs"]
+				},
+				"ft": {
+					"kk": ["sykraðir", "sykraða", "sykruðum", "sykraðra"],
+					"kvk": ["sykraðar", "sykraðar", "sykruðum", "sykraðra"],
+					"hk": ["sykruð", "sykruð", "sykruðum", "sykraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sykraði", "sykraða", "sykraða", "sykraða"],
+					"kvk": ["sykraða", "sykruðu", "sykruðu", "sykruðu"],
+					"hk": ["sykraða", "sykraða", "sykraða", "sykraða"]
+				},
+				"ft": {
+					"kk": ["sykruðu", "sykruðu", "sykruðu", "sykruðu"],
+					"kvk": ["sykruðu", "sykruðu", "sykruðu", "sykruðu"],
+					"hk": ["sykruðu", "sykruðu", "sykruðu", "sykruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sykra",
+	"hash": "0620b430815111fe7fa7c23e20ea7bef278cd9ac9f7d1314844dd0234bb68c96"
+}

@@ -2,10 +2,21 @@
 	"orð": "metnaður",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "metn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-metna"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-aður-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["metnaður", "metnað", "metnaði", "metnaðar"],
 		"mg": ["metnaðurinn", "metnaðinn", "metnaðinum", "metnaðarins"]
 	},
 	"kennistrengur": "no-metnaður-kk",
-	"hash": "31bb6bb06aa7bcffcfffb415f453b4357017177eb1b7dd5c32c340e515f8e217"
+	"hash": "99faaaa24140a0cac711e415a768685d4aa32c4ef1cf18def60bc7d779b51fda"
 }

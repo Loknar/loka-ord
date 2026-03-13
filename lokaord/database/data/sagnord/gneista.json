@@ -1,0 +1,135 @@
+{
+	"orð": "gneista",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gneist",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gneisti-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gneista",
+		"sagnbót": "gneistað",
+		"boðháttur": {
+			"stýfður": "gneista",
+			"et": "gneistaðu",
+			"ft": "gneistið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gneista", "gneistar", "gneistar"],
+					"ft": ["gneistum", "gneistið", "gneista"]
+				},
+				"þátíð": {
+					"et": ["gneistaði", "gneistaðir", "gneistaði"],
+					"ft": ["gneistuðum", "gneistuðuð", "gneistuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gneisti", "gneistir", "gneisti"],
+					"ft": ["gneistum", "gneistið", "gneisti"]
+				},
+				"þátíð": {
+					"et": ["gneistaði", "gneistaðir", "gneistaði"],
+					"ft": ["gneistuðum", "gneistuðuð", "gneistuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gneistarðu",
+					"ft": "gneistiði"
+				},
+				"þátíð": {
+					"et": "gneistaðirðu",
+					"ft": "gneistuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gneistirðu",
+					"ft": "gneistiði"
+				},
+				"þátíð": {
+					"et": "gneistaðirðu",
+					"ft": "gneistuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gneistast",
+		"sagnbót": "gneistast",
+		"boðháttur": {
+			"et": "gneistastu",
+			"ft": "gneistist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gneistast", "gneistast", "gneistast"],
+					"ft": ["gneistumst", "gneistist", "gneistast"]
+				},
+				"þátíð": {
+					"et": ["gneistaðist", "gneistaðist", "gneistaðist"],
+					"ft": ["gneistuðumst", "gneistuðust", "gneistuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gneistist", "gneistist", "gneistist"],
+					"ft": ["gneistumst", "gneistist", "gneistist"]
+				},
+				"þátíð": {
+					"et": ["gneistaðist", "gneistaðist", "gneistaðist"],
+					"ft": ["gneistuðumst", "gneistuðust", "gneistuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gneistastu"
+				},
+				"þátíð": {
+					"et": "gneistaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gneististu"
+				},
+				"þátíð": {
+					"et": "gneistaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gneistandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gneistaður", "gneistaðan", "gneistuðum", "gneistaðs"],
+					"kvk": ["gneistuð", "gneistaða", "gneistaðri", "gneistaðrar"],
+					"hk": ["gneistað", "gneistað", "gneistuðu", "gneistaðs"]
+				},
+				"ft": {
+					"kk": ["gneistaðir", "gneistaða", "gneistuðum", "gneistaðra"],
+					"kvk": ["gneistaðar", "gneistaðar", "gneistuðum", "gneistaðra"],
+					"hk": ["gneistuð", "gneistuð", "gneistuðum", "gneistaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gneista",
+	"hash": "5d2fde88af98d371017550e57ce93ad2e2ab0dcf53d893a272bc2162d952965b"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "hypja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hypj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hypja-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hypja",
+		"sagnbót": "hypjað",
+		"boðháttur": {
+			"stýfður": "hypja",
+			"et": "hypjaðu",
+			"ft": "hypjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hypja", "hypjar", "hypjar"],
+					"ft": ["hypjum", "hypjið", "hypja"]
+				},
+				"þátíð": {
+					"et": ["hypjaði", "hypjaðir", "hypjaði"],
+					"ft": ["hypjuðum", "hypjuðuð", "hypjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hypji", "hypjir", "hypji"],
+					"ft": ["hypjum", "hypjið", "hypji"]
+				},
+				"þátíð": {
+					"et": ["hypjaði", "hypjaðir", "hypjaði"],
+					"ft": ["hypjuðum", "hypjuðuð", "hypjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hypjarðu",
+					"ft": "hypjiði"
+				},
+				"þátíð": {
+					"et": "hypjaðirðu",
+					"ft": "hypjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hypjirðu",
+					"ft": "hypjiði"
+				},
+				"þátíð": {
+					"et": "hypjaðirðu",
+					"ft": "hypjuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hypjast",
+		"sagnbót": "hypjast",
+		"boðháttur": {
+			"et": "hypjastu",
+			"ft": "hypjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hypjast", "hypjast", "hypjast"],
+					"ft": ["hypjumst", "hypjist", "hypjast"]
+				},
+				"þátíð": {
+					"et": ["hypjaðist", "hypjaðist", "hypjaðist"],
+					"ft": ["hypjuðumst", "hypjuðust", "hypjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hypjist", "hypjist", "hypjist"],
+					"ft": ["hypjumst", "hypjist", "hypjist"]
+				},
+				"þátíð": {
+					"et": ["hypjaðist", "hypjaðist", "hypjaðist"],
+					"ft": ["hypjuðumst", "hypjuðust", "hypjuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hypjastu"
+				},
+				"þátíð": {
+					"et": "hypjaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hypjistu"
+				},
+				"þátíð": {
+					"et": "hypjaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hypjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hypjaður", "hypjaðan", "hypjuðum", "hypjaðs"],
+					"kvk": ["hypjuð", "hypjaða", "hypjaðri", "hypjaðrar"],
+					"hk": ["hypjað", "hypjað", "hypjuðu", "hypjaðs"]
+				},
+				"ft": {
+					"kk": ["hypjaðir", "hypjaða", "hypjuðum", "hypjaðra"],
+					"kvk": ["hypjaðar", "hypjaðar", "hypjuðum", "hypjaðra"],
+					"hk": ["hypjuð", "hypjuð", "hypjuðum", "hypjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hypja",
+	"hash": "adebef6aa977462d142b6b406acc4af950ff361db01e3fcca9e29418a6d32aea"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "jogga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jogg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jogg-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jogga",
+		"sagnbót": "joggað",
+		"boðháttur": {
+			"stýfður": "jogga",
+			"et": "joggaðu",
+			"ft": "joggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jogga", "joggar", "joggar"],
+					"ft": ["joggum", "joggið", "jogga"]
+				},
+				"þátíð": {
+					"et": ["joggaði", "joggaðir", "joggaði"],
+					"ft": ["jogguðum", "jogguðuð", "jogguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["joggi", "joggir", "joggi"],
+					"ft": ["joggum", "joggið", "joggi"]
+				},
+				"þátíð": {
+					"et": ["joggaði", "joggaðir", "joggaði"],
+					"ft": ["jogguðum", "jogguðuð", "jogguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "joggarðu",
+					"ft": "joggiði"
+				},
+				"þátíð": {
+					"et": "joggaðirðu",
+					"ft": "jogguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "joggirðu",
+					"ft": "joggiði"
+				},
+				"þátíð": {
+					"et": "joggaðirðu",
+					"ft": "jogguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "joggandi"
+	},
+	"kennistrengur": "so-jogga",
+	"hash": "b563d91fb983f6e7d2d709339b191ae6772d45eed844c6215d218fcd0bd679f3"
+}

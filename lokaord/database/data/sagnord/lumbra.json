@@ -1,0 +1,135 @@
+{
+	"orð": "lumbra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lumbr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lumbra-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lumbra",
+		"sagnbót": "lumbrað",
+		"boðháttur": {
+			"stýfður": "lumbra",
+			"et": "lumbraðu",
+			"ft": "lumbrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lumbra", "lumbrar", "lumbrar"],
+					"ft": ["lumbrum", "lumbrið", "lumbra"]
+				},
+				"þátíð": {
+					"et": ["lumbraði", "lumbraðir", "lumbraði"],
+					"ft": ["lumbruðum", "lumbruðuð", "lumbruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lumbri", "lumbrir", "lumbri"],
+					"ft": ["lumbrum", "lumbrið", "lumbri"]
+				},
+				"þátíð": {
+					"et": ["lumbraði", "lumbraðir", "lumbraði"],
+					"ft": ["lumbruðum", "lumbruðuð", "lumbruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lumbrarðu",
+					"ft": "lumbriði"
+				},
+				"þátíð": {
+					"et": "lumbraðirðu",
+					"ft": "lumbruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lumbrirðu",
+					"ft": "lumbriði"
+				},
+				"þátíð": {
+					"et": "lumbraðirðu",
+					"ft": "lumbruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lumbrast",
+		"sagnbót": "lumbrast",
+		"boðháttur": {
+			"et": "lumbrastu",
+			"ft": "lumbrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lumbrast", "lumbrast", "lumbrast"],
+					"ft": ["lumbrumst", "lumbrist", "lumbrast"]
+				},
+				"þátíð": {
+					"et": ["lumbraðist", "lumbraðist", "lumbraðist"],
+					"ft": ["lumbruðumst", "lumbruðust", "lumbruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lumbrist", "lumbrist", "lumbrist"],
+					"ft": ["lumbrumst", "lumbrist", "lumbrist"]
+				},
+				"þátíð": {
+					"et": ["lumbraðist", "lumbraðist", "lumbraðist"],
+					"ft": ["lumbruðumst", "lumbruðust", "lumbruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lumbrastu"
+				},
+				"þátíð": {
+					"et": "lumbraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lumbristu"
+				},
+				"þátíð": {
+					"et": "lumbraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lumbrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lumbraður", "lumbraðan", "lumbruðum", "lumbraðs"],
+					"kvk": ["lumbruð", "lumbraða", "lumbraðri", "lumbraðrar"],
+					"hk": ["lumbrað", "lumbrað", "lumbruðu", "lumbraðs"]
+				},
+				"ft": {
+					"kk": ["lumbraðir", "lumbraða", "lumbruðum", "lumbraðra"],
+					"kvk": ["lumbraðar", "lumbraðar", "lumbruðum", "lumbraðra"],
+					"hk": ["lumbruð", "lumbruð", "lumbruðum", "lumbraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lumbra",
+	"hash": "9c47f72d2850fec9ec998c2c3f91e4c35cca027cd6ab58a3760951727efea936"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "romsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "roms",
+			"samsetning": "stofn",
+			"kennistrengur": "no-romsa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "romsa",
+		"sagnbót": "romsað",
+		"boðháttur": {
+			"stýfður": "romsa",
+			"et": "romsaðu",
+			"ft": "romsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["romsa", "romsar", "romsar"],
+					"ft": ["romsum", "romsið", "romsa"]
+				},
+				"þátíð": {
+					"et": ["romsaði", "romsaðir", "romsaði"],
+					"ft": ["romsuðum", "romsuðuð", "romsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["romsi", "romsir", "romsi"],
+					"ft": ["romsum", "romsið", "romsi"]
+				},
+				"þátíð": {
+					"et": ["romsaði", "romsaðir", "romsaði"],
+					"ft": ["romsuðum", "romsuðuð", "romsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "romsarðu",
+					"ft": "romsiði"
+				},
+				"þátíð": {
+					"et": "romsaðirðu",
+					"ft": "romsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "romsirðu",
+					"ft": "romsiði"
+				},
+				"þátíð": {
+					"et": "romsaðirðu",
+					"ft": "romsuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "romsast",
+		"sagnbót": "romsast",
+		"boðháttur": {
+			"et": "romsastu",
+			"ft": "romsist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["romsast", "romsast", "romsast"],
+					"ft": ["romsumst", "romsist", "romsast"]
+				},
+				"þátíð": {
+					"et": ["romsaðist", "romsaðist", "romsaðist"],
+					"ft": ["romsuðumst", "romsuðust", "romsuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["romsist", "romsist", "romsist"],
+					"ft": ["romsumst", "romsist", "romsist"]
+				},
+				"þátíð": {
+					"et": ["romsaðist", "romsaðist", "romsaðist"],
+					"ft": ["romsuðumst", "romsuðust", "romsuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "romsastu"
+				},
+				"þátíð": {
+					"et": "romsaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "romsistu"
+				},
+				"þátíð": {
+					"et": "romsaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "romsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["romsaður", "romsaðan", "romsuðum", "romsaðs"],
+					"kvk": ["romsuð", "romsaða", "romsaðri", "romsaðrar"],
+					"hk": ["romsað", "romsað", "romsuðu", "romsaðs"]
+				},
+				"ft": {
+					"kk": ["romsaðir", "romsaða", "romsuðum", "romsaðra"],
+					"kvk": ["romsaðar", "romsaðar", "romsuðum", "romsaðra"],
+					"hk": ["romsuð", "romsuð", "romsuðum", "romsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-romsa",
+	"hash": "cfe4b3a2d9c1fb36108828172cd27630e72b855c5873a8732d78fa993ef7def5"
+}
