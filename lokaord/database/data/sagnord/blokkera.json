@@ -1,0 +1,87 @@
+{
+	"orð": "blokkera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "blokker",
+			"samsetning": "bandstafs",
+			"kennistrengur": "so-blokka"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "blokkera",
+		"sagnbót": "blokkerað",
+		"boðháttur": {
+			"stýfður": "blokkera",
+			"et": "blokkeraðu",
+			"ft": "blokkerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["blokkera", "blokkerar", "blokkerar"],
+					"ft": ["blokkerum", "blokkerið", "blokkera"]
+				},
+				"þátíð": {
+					"et": ["blokkeraði", "blokkeraðir", "blokkeraði"],
+					"ft": ["blokkeruðum", "blokkeruðuð", "blokkeruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["blokkeri", "blokkerir", "blokkeri"],
+					"ft": ["blokkerum", "blokkerið", "blokkeri"]
+				},
+				"þátíð": {
+					"et": ["blokkeraði", "blokkeraðir", "blokkeraði"],
+					"ft": ["blokkeruðum", "blokkeruðuð", "blokkeruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "blokkerarðu",
+					"ft": "blokkeriði"
+				},
+				"þátíð": {
+					"et": "blokkeraðirðu",
+					"ft": "blokkeruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "blokkerirðu",
+					"ft": "blokkeriði"
+				},
+				"þátíð": {
+					"et": "blokkeraðirðu",
+					"ft": "blokkeruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "blokkerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["blokkeraður", "blokkeraðan", "blokkeruðum", "blokkeraðs"],
+					"kvk": ["blokkeruð", "blokkeraða", "blokkeraðri", "blokkeraðrar"],
+					"hk": ["blokkerað", "blokkerað", "blokkeruðu", "blokkeraðs"]
+				},
+				"ft": {
+					"kk": ["blokkeraðir", "blokkeraða", "blokkeruðum", "blokkeraðra"],
+					"kvk": ["blokkeraðar", "blokkeraðar", "blokkeruðum", "blokkeraðra"],
+					"hk": ["blokkeruð", "blokkeruð", "blokkeruðum", "blokkeraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-blokkera",
+	"hash": "0659b4c6bb2921481d91da327f66a13295b3df436ea15d4e59bb2c0a45bb2786"
+}

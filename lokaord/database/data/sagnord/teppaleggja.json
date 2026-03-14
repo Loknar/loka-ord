@@ -1,0 +1,99 @@
+{
+	"orð": "teppaleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "teppa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-teppi-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "teppaleggja",
+		"sagnbót": "teppalagt",
+		"boðháttur": {
+			"stýfður": "teppalegg",
+			"et": "teppaleggðu",
+			"ft": "teppaleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["teppalegg", "teppaleggur", "teppaleggur"],
+					"ft": ["teppaleggjum", "teppaleggið", "teppaleggja"]
+				},
+				"þátíð": {
+					"et": ["teppalagði", "teppalagðir", "teppalagði"],
+					"ft": ["teppalögðum", "teppalögðuð", "teppalögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["teppaleggi", "teppaleggir", "teppaleggi"],
+					"ft": ["teppaleggjum", "teppaleggið", "teppaleggi"]
+				},
+				"þátíð": {
+					"et": ["teppalegði", "teppalegðir", "teppalegði"],
+					"ft": ["teppalegðum", "teppalegðuð", "teppalegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "teppaleggurðu",
+					"ft": "teppaleggiði"
+				},
+				"þátíð": {
+					"et": "teppalagðirðu",
+					"ft": "teppalögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "teppaleggirðu",
+					"ft": "teppaleggiði"
+				},
+				"þátíð": {
+					"et": "teppaleggðirðu",
+					"ft": "teppaleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "teppaleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["teppalagður", "teppalagðan", "teppalögðum", "teppalagðs"],
+					"kvk": ["teppalögð", "teppalagða", "teppalagðri", "teppalagðrar"],
+					"hk": ["teppalagt", "teppalagt", "teppalögðu", "teppalagðs"]
+				},
+				"ft": {
+					"kk": ["teppalagðir", "teppalagða", "teppalögðum", "teppalagðra"],
+					"kvk": ["teppalagðar", "teppalagðar", "teppalögðum", "teppalagðra"],
+					"hk": ["teppalögð", "teppalögð", "teppalögðum", "teppalagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["teppalagði", "teppalagða", "teppalagða", "teppalagða"],
+					"kvk": ["teppalagða", "teppalögðu", "teppalögðu", "teppalögðu"],
+					"hk": ["teppalagða", "teppalagða", "teppalagða", "teppalagða"]
+				},
+				"ft": {
+					"kk": ["teppalögðu", "teppalögðu", "teppalögðu", "teppalögðu"],
+					"kvk": ["teppalögðu", "teppalögðu", "teppalögðu", "teppalögðu"],
+					"hk": ["teppalögðu", "teppalögðu", "teppalögðu", "teppalögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-teppaleggja",
+	"hash": "326c3a27937bee547894fa35eb846e8961c564cdc47ddf085d4f10972d8d9eac"
+}

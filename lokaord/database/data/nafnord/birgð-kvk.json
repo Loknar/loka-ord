@@ -2,6 +2,16 @@
 	"orð": "birgð",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "birg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-birgja"
+		},
+		{
+			"kennistrengur": "no-ð-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["birgð", "birgð", "birgð", "birgðar"],
 		"mg": ["birgðin", "birgðina", "birgðinni", "birgðarinnar"]
@@ -11,5 +21,5 @@
 		"mg": ["birgðirnar", "birgðirnar", "birgðunum", "birgðanna"]
 	},
 	"kennistrengur": "no-birgð-kvk",
-	"hash": "49b88541fece7132576e70900fb0783c6336b535e3fc226bb3f3c690f1fbb4ac"
+	"hash": "168bc631c28393dcbfd2ae7696e8396e1a9274477b6aea1d4ebdfcb8a01c7c20"
 }
