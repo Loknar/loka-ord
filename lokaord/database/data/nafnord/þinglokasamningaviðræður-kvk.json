@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "þing",
-			"samsetning": "stofn",
-			"kennistrengur": "no-þing-hk"
-		},
-		{
-			"mynd": "loka",
+			"mynd": "þingloka",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lok-hk-_endir_"
+			"kennistrengur": "no-þinglok-hk"
 		},
 		{
 			"mynd": "samninga",
@@ -19,13 +14,8 @@
 			"kennistrengur": "no-samningur-kk"
 		},
 		{
-			"mynd": "við",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-við"
-		},
-		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-ræða-kvk"
+			"kennistrengur": "no-viðræða-kvk"
 		}
 	],
 	"ft": {
@@ -33,5 +23,5 @@
 		"mg": ["þinglokasamningaviðræðurnar", "þinglokasamningaviðræðurnar", "þinglokasamningaviðræðunum", "þinglokasamningaviðræðnanna"]
 	},
 	"kennistrengur": "no-þinglokasamningaviðræður-kvk",
-	"hash": "e6d2e44d59b72cee351494039f13d12e3271e73910f947b7e829700f16959778"
+	"hash": "e0fcbca4443a30712a41158fe8353415be467659eb96914fead549cccba4e870"
 }

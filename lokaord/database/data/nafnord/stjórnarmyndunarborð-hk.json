@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "stjórnar",
+			"mynd": "stjórnarmyndunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "myndunar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-myndun-kvk"
+			"kennistrengur": "no-stjórnarmyndun-kvk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["stjórnarmyndunarborðið", "stjórnarmyndunarborðið", "stjórnarmyndunarborðinu", "stjórnarmyndunarborðsins"]
 	},
 	"kennistrengur": "no-stjórnarmyndunarborð-hk",
-	"hash": "16a35cb163a42acf1b7dc7f21fb59db48ad8fb266cd88d1edf9f7dec8aa64871"
+	"hash": "d25c68f7fd14bd98888ddafb578f4f11570227a0103958c05d488b606cd2bf0f"
 }

@@ -6,24 +6,24 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1926 | 1773 | 1760 | 5459 | 15802 | 21069 | 21846 | 58717 | **64176** |
-| **Lýsingarorð** | 513 |   |   |   | 771 |   |   |   | 6016 | **6787** |
+| **Nafnorð**     |   | 1927 | 1773 | 1760 | 5460 | 15813 | 21117 | 21855 | 58785 | **64245** |
+| **Lýsingarorð** | 513 |   |   |   | 771 |   |   |   | 6021 | **6792** |
 | **Sagnorð**     |   |   |   |   | 1392 |   |   |   | 2075 | **3467** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
 | **Smáorð**      |   |   |   |   | 352 |   |   |   | 619 | **971** |
-| **Alls** |   |   |   |   | **8038** |   |   |   | **67551** | **75589** |
+| **Alls** |   |   |   |   | **8039** |   |   |   | **67624** | **75663** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1332 | 1285 | 16 | 2633 | 1017 | 1277 | 10 | 2304 | **4937** |
 | Kenninöfn |  |  |  |  | 4850 | 4848 | 4826 | 14524 | **14524** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **1439** |
-| Gælunöfn  | 540 | 247 | 8 | 795 | 166 | 162 | 9 | 337 | **1132** |
-| Örnefni   | 36 | 164 | 587 | 787 | 2700 | 1990 | 2055 | 6745 | **7532** |
-| **Alls**  |   |   |   | **5486** |   |   |   | **24078** | **29564** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **1441** |
+| Gælunöfn  | 541 | 248 | 8 | 797 | 166 | 162 | 9 | 337 | **1134** |
+| Örnefni   | 35 | 165 | 589 | 789 | 2704 | 1992 | 2057 | 6753 | **7542** |
+| **Alls**  |   |   |   | **5492** |   |   |   | **24086** | **29578** |
 
-**Samtals:** 105153 orð.
+**Samtals:** 105241 orð.
 
 947 skammstafanir.
 
@@ -84,7 +84,7 @@ Bæta við orði í gegnum skipanalínuviðmót (TUI):
 python main.py add-word
 ```
 
-***Ath:*** *`add-word` viðmótið býður eins og er einungis upp á að bæta við ósamsettum nafnorðum, sagnorðum og lýsingarorðum, sjá [issue #36](https://github.com/Loknar/loka-ord/issues/36) fyrir framvindu.*
+***Ath:*** *`add-word` viðmótið býður eins og er einungis upp á að bæta við ósamsettum nafnorðum, sagnorðum, lýsingarorðum og sérnöfnum, sjá [issue #36](https://github.com/Loknar/loka-ord/issues/36) fyrir framvindu.*
 
 ### Orðaviðbætur
 

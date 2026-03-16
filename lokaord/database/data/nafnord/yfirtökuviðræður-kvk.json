@@ -1,0 +1,22 @@
+{
+	"orð": "yfirtökuviðræður",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "yfirtöku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-yfirtaka-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-viðræða-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["yfirtökuviðræður", "yfirtökuviðræður", "yfirtökuviðræðum", "yfirtökuviðræðna"],
+		"mg": ["yfirtökuviðræðurnar", "yfirtökuviðræðurnar", "yfirtökuviðræðunum", "yfirtökuviðræðnanna"]
+	},
+	"kennistrengur": "no-yfirtökuviðræður-kvk",
+	"hash": "ccebf8d584ccff8358b18f6801b2e72fa411a6ac470f0978f5dc2699a0f5277c"
+}

@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "stjórnar",
+			"mynd": "stjórnarmyndunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "myndunar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-myndun-kvk"
-		},
-		{
-			"mynd": "við",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-við"
+			"kennistrengur": "no-stjórnarmyndun-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-ræða-kvk"
+			"kennistrengur": "no-viðræða-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["stjórnarmyndunarviðræðurnar", "stjórnarmyndunarviðræðurnar", "stjórnarmyndunarviðræðunum", "stjórnarmyndunarviðræðnanna"]
 	},
 	"kennistrengur": "no-stjórnarmyndunarviðræður-kvk",
-	"hash": "e6910f7c49e07f97df617a774df775710eb434b132ebeac46070bc3485a29823"
+	"hash": "11006d66b3250af0af29e68113b94e952f2446b7dd14b2b668de508c6089a72e"
 }

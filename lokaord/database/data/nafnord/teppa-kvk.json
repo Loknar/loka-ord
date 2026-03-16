@@ -2,6 +2,16 @@
 	"orð": "teppa",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "tepp",
+			"samsetning": "stofn",
+			"kennistrengur": "so-teppa"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["teppa", "teppu", "teppu", "teppu"],
 		"mg": ["teppan", "teppuna", "teppunni", "teppunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["teppurnar", "teppurnar", "teppunum", "teppanna"]
 	},
 	"kennistrengur": "no-teppa-kvk",
-	"hash": "b231bac553da2d9b7f16102c006d5f201e614ba13923d0a1ddd7cea301436c62"
+	"hash": "42968971c8aca1b3cee3315b3381a59be867e691f4c551360fa5308088adf564"
 }

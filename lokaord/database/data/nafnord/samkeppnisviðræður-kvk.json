@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "keppnis",
+			"mynd": "samkeppnis",
 			"samsetning": "bandstafs",
-			"kennistrengur": "no-keppni-kvk"
-		},
-		{
-			"mynd": "við",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-við"
+			"kennistrengur": "no-samkeppni-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-ræða-kvk"
+			"kennistrengur": "no-viðræða-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["samkeppnisviðræðurnar", "samkeppnisviðræðurnar", "samkeppnisviðræðunum", "samkeppnisviðræðnanna"]
 	},
 	"kennistrengur": "no-samkeppnisviðræður-kvk",
-	"hash": "e9f09fd1d3941b6b92557174e17b3421a89a189014db2f031fe7664dcba004bf"
+	"hash": "2ff913a31acb034539350d6626232873c8c41924b82419d0e55471d8c0400a78"
 }

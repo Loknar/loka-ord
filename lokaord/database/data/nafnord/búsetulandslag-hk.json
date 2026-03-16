@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "bú",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bú-hk"
-		},
-		{
-			"mynd": "setu",
+			"mynd": "búsetu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-seta-kvk"
+			"kennistrengur": "no-búseta-kvk"
 		},
 		{
-			"mynd": "lands",
-			"samsetning": "stofn",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-landslag-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["búsetulandslagið", "búsetulandslagið", "búsetulandslaginu", "búsetulandslagsins"]
 	},
 	"kennistrengur": "no-búsetulandslag-hk",
-	"hash": "e62f446e5353bc66337a756aaba16ab25df6de5bdd27fa3a2d4c6f86a34cd7ba"
+	"hash": "5011c0c58e96e6ebd123531f37f1eb9a84d6327b8bd9086f3913087826f36fe6"
 }

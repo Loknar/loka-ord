@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "einingar",
+			"mynd": "sameiningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eining-kvk"
-		},
-		{
-			"mynd": "við",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-við"
+			"kennistrengur": "no-sameining-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-ræða-kvk"
+			"kennistrengur": "no-viðræða-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["sameiningarviðræðurnar", "sameiningarviðræðurnar", "sameiningarviðræðunum", "sameiningarviðræðnanna"]
 	},
 	"kennistrengur": "no-sameiningarviðræður-kvk",
-	"hash": "60fb0ffda4bcaae6da5ff770a6bc62b54bc1f6e78657d5a4dfcbc32ef085947f"
+	"hash": "31b1636063fbb7eea33b89247144befaeff084f4d2141000ba337251f185a2b2"
 }
