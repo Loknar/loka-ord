@@ -187,6 +187,109 @@ class TilgreinaNafnordBeygingar(VerticalGroup):
 		yield TextArea('{}', language='json', id='ord_data_json', read_only=True)
 
 
+class TilgreinaSernafn(VerticalGroup):
+	DEFAULT_CLASSES = "column"
+
+	def compose(self) -> ComposeResult:
+		yield Markdown('3. Sláðu inn grunnupplýsingar sérnafns og smelltu svo á [[ Áfram ]]')
+		with containers.Grid(classes='grid_tilgreina_ord'):
+			yield Label('Orð')
+			yield Input(placeholder='Grunnmynd', id='ord_lemma', valid_empty=True)
+			yield Label('Undirflokkur')
+			yield Select.from_values(
+				['eiginnafn', 'gælunafn', 'kenninafn', 'miłlinafn', 'örnefni'],
+				value='örnefni',
+				id='ord_undirflokkur',
+				allow_blank=False
+			)
+			yield Label('Kyn')
+			with RadioSet():
+				yield RadioButton('Karlkyn', id='ord_kyn_kk', value=True)
+				yield RadioButton('Kvenkyn', id='ord_kyn_kvk')
+				yield RadioButton('Hvorugkyn', id='ord_kyn_hk')
+			yield Label('Merking')
+			yield Input(placeholder='Merking (valkvætt, bara þegar þarf)', id='ord_merking')
+			yield Label('Tölugildi')
+			yield Input(
+				type='number', placeholder='Tölugildi (valkvætt)', id='ord_tolugildi',
+				valid_empty=True
+			)
+			yield Label('Ósjálfstætt')
+			yield Checkbox(
+				'Hakaðu hér ef um er að ræða ósjálfstæðan orðhluta', id='ord_osjalfstaett'
+			)
+			yield Label('Kennistrengur')
+			yield Markdown('`---`', id='ord_kennistrengur')
+			yield Label('Gagnaskrá')
+			yield Markdown('`---`', id='ord_path')
+			yield Label('')
+			yield Button(
+				'[[ Áfram ]] Sláðu inn grunnmynd orðs', variant="error", disabled=True,
+				id='btn_ord_proceed'
+			)
+
+
+class TilgreinaSernafnBeygingar(VerticalGroup):
+	DEFAULT_CLASSES = 'column'
+
+	def compose(self) -> ComposeResult:
+		yield Markdown((
+			'4. Sláðu inn beygingarmyndir orðsins og / eða hakaðu í hvaða beygingarmyndir skuli'
+			' hafa.'
+		))
+		with containers.Grid(classes='grid_tilgreina_ord_beygingar'):
+			# eintala
+			yield Label('')
+			yield Checkbox('Eintala', id='ord_enable_et', value=True)
+			yield Label('')
+			yield Label('')
+			yield Checkbox('án greinis', id='ord_enable_et_ag', value=True)
+			yield Checkbox('með greini', id='ord_enable_et_mg', value=True)
+			yield Label('nf.')
+			yield Input(placeholder='hestur', id='ord_beyging_et_ag_nf')
+			yield Input(placeholder='hesturinn', id='ord_beyging_et_mg_nf')
+			yield Label('þf.')
+			yield Input(placeholder='hest', id='ord_beyging_et_ag_thf')
+			yield Input(placeholder='hestinn', id='ord_beyging_et_mg_thf')
+			yield Label('þgf.')
+			yield Input(placeholder='hesti', id='ord_beyging_et_ag_thgf')
+			yield Input(placeholder='hestinum', id='ord_beyging_et_mg_thgf')
+			yield Label('ef.')
+			yield Input(placeholder='hests', id='ord_beyging_et_ag_ef')
+			yield Input(placeholder='hestsins', id='ord_beyging_et_mg_ef')
+			# fleirtala
+			yield Label('')
+			yield Checkbox('Fleirtala', id='ord_enable_ft', value=True)
+			yield Label('')
+			yield Label('')
+			yield Checkbox('án greinis', id='ord_enable_ft_ag', value=True)
+			yield Checkbox('með greini', id='ord_enable_ft_mg', value=True)
+			yield Label('nf.')
+			yield Input(placeholder='hestar', id='ord_beyging_ft_ag_nf')
+			yield Input(placeholder='hestarnir', id='ord_beyging_ft_mg_nf')
+			yield Label('þf.')
+			yield Input(placeholder='hesta', id='ord_beyging_ft_ag_thf')
+			yield Input(placeholder='hestana', id='ord_beyging_ft_mg_thf')
+			yield Label('þgf.')
+			yield Input(placeholder='hestum', id='ord_beyging_ft_ag_thgf')
+			yield Input(placeholder='hestunum', id='ord_beyging_ft_mg_thgf')
+			yield Label('ef.')
+			yield Input(placeholder='hesta', id='ord_beyging_ft_ag_ef')
+			yield Input(placeholder='hestanna', id='ord_beyging_ft_mg_ef')
+			yield Label('')
+			with containers.Horizontal():
+				yield Button(
+					'[[ Vista ]] Fylltu inn beygingarmyndir', variant="error", disabled=True,
+					id='btn_ord_commit'
+				)
+		yield Markdown((
+			'5. Áður en smellt er á [[ Vista ]] hér fyrir ofan getur verið gott að skima yfir'
+			' innslegin gögn á JSON sniði í textahólfinu hér fyrir neðan, síðan ef allt lítur þar'
+			' vel út er ekkert því til fyrirstöðu að klára og vista nýja orðið.'
+		))
+		yield TextArea('{}', language='json', id='ord_data_json', read_only=True)
+
+
 class TilgreinaLysingarord(VerticalGroup):
 	DEFAULT_CLASSES = "column"
 
@@ -1456,7 +1559,7 @@ Ferlið er svohljóðandi:
 	def handle_updated_ord_state(self):
 		if self.ORD_STATE['flokkur'] is None:
 			return
-		unimplemented_flokkar = ('fornafn', 'töluorð', 'smáorð', 'sérnafn')
+		unimplemented_flokkar = ('fornafn', 'töluorð', 'smáorð')
 		if self.ORD_STATE['flokkur'] in unimplemented_flokkar:
 			self.notify('todo: implement orðflokkur %s' % (self.ORD_STATE['flokkur'], ))
 			return
@@ -1482,6 +1585,20 @@ Ferlið er svohljóðandi:
 			kennistrengur = handler.make_kennistrengur()
 		elif self.ORD_STATE['flokkur'] == 'sagnorð':
 			handler = handlers.Sagnord()
+			handler.load_from_dict(self.ORD_STATE)
+			kennistrengur = handler.make_kennistrengur()
+		elif self.ORD_STATE['flokkur'] == 'sérnafn':
+			if self.ORD_STATE['undirflokkur'] != 'miłlinafn':
+				radio_kk = self.query_one('#ord_kyn_kk', RadioButton)
+				radio_kvk = self.query_one('#ord_kyn_kvk', RadioButton)
+				radio_hk = self.query_one('#ord_kyn_hk', RadioButton)
+				if radio_kk.value is True:
+					self.ORD_STATE['kyn'] = 'kk'
+				if radio_kvk.value is True:
+					self.ORD_STATE['kyn'] = 'kvk'
+				if radio_hk.value is True:
+					self.ORD_STATE['kyn'] = 'hk'
+			handler = handlers.Sernafn()
 			handler.load_from_dict(self.ORD_STATE)
 			kennistrengur = handler.make_kennistrengur()
 		if kennistrengur is not None:
@@ -1525,6 +1642,15 @@ Ferlið er svohljóðandi:
 						widget=el_tilgr_beyg, focus_id='#ord_beyging_germynd_nafnhattur'
 					)
 				)
+			elif self.ORD_STATE['flokkur'] == 'sérnafn':
+				el_tilgr_beyg = self.query_one('#el_tilgreina_beygingar_sernafn')
+				el_tilgr_beyg.remove_class('hidden')
+				if self.ORD_STATE['undirflokkur'] == 'miłlinafn':
+					self.post_message(TriggerScrollToWidget(widget=el_tilgr_beyg))
+				else:
+					self.post_message(
+						TriggerScrollToWidget(widget=el_tilgr_beyg, focus_id='#ord_beyging_et_ag_nf')
+					)
 		elif btn_id == "btn_ord_commit":
 			if self.ORD_STATE['flokkur'] == 'nafnorð':
 				handler = handlers.Nafnord()
@@ -1540,6 +1666,12 @@ Ferlið er svohljóðandi:
 				handler.write_to_file()
 			elif self.ORD_STATE['flokkur'] == 'sagnorð':
 				handler = handlers.Sagnord()
+				handler.load_from_dict(self.ORD_STATE)
+				filename = handler.make_filename()
+				handler.write_to_db()
+				handler.write_to_file()
+			elif self.ORD_STATE['flokkur'] == 'sérnafn':
+				handler = handlers.Sernafn()
 				handler.load_from_dict(self.ORD_STATE)
 				filename = handler.make_filename()
 				handler.write_to_db()
@@ -1610,17 +1742,23 @@ Ferlið er svohljóðandi:
 			self.ORD_SAMSETT = (event.pressed.id == 'samsett_ord')
 			self.handle_updated_ord_state()
 		elif event.pressed.id in ('ord_kyn_kk', 'ord_kyn_kvk', 'ord_kyn_hk'):
-			match event.pressed.id:
-				case 'ord_kyn_kk':
-					self.ORD_STATE['kyn'] = 'kk'
-				case 'ord_kyn_kvk':
-					self.ORD_STATE['kyn'] = 'kvk'
-				case 'ord_kyn_hk':
-					self.ORD_STATE['kyn'] = 'hk'
+			if (
+				'undirflokkur' not in self.ORD_STATE or
+				self.ORD_STATE['undirflokkur'] != 'miłlinafn'
+			):
+				match event.pressed.id:
+					case 'ord_kyn_kk':
+						self.ORD_STATE['kyn'] = 'kk'
+					case 'ord_kyn_kvk':
+						self.ORD_STATE['kyn'] = 'kvk'
+					case 'ord_kyn_hk':
+						self.ORD_STATE['kyn'] = 'hk'
 			self.handle_updated_ord_state()
 
 	def on_select_changed(self, event: Select.Changed) -> None:
-		if event.select.id == 'ordflokkur':
+		sel_id = event.select.id
+		sel_val = event.select.value
+		if sel_id == 'ordflokkur':
 			sel_ordfl = event.select.value
 			sel_ordfl_lower = sel_ordfl if sel_ordfl != Select.BLANK else None
 			prev_ordfl = None
@@ -1643,19 +1781,46 @@ Ferlið er svohljóðandi:
 				self.post_message(TriggerConfirmDiscard(curr=sel_ordfl, prev=prev_ordfl))
 			else:
 				self.handle_ordflokkur_selection_change(sel_ordfl)
-		elif event.select.id in ('ord_beyging_germynd_op_frumlag', 'ord_beyging_midmynd_op_frumlag'):
+		elif (
+			sel_id in (
+				'ord_beyging_germynd_op_frumlag',
+				'ord_beyging_midmynd_op_frumlag',
+				'ord_undirflokkur'
+			)
+		):
+			if sel_id == 'ord_undirflokkur':
+				# meðhöndlun undirflokka
+				self.ORD_STATE['undirflokkur'] = sel_val
+				# sérnafn meðhöndlun
+				if sel_val == 'miłlinafn':
+					# sérnafn, fjarlægja beygingar ef þarf (þar sem miłlinöfn eru ekki beygð)
+					if 'kyn' in self.ORD_STATE:
+						del self.ORD_STATE['kyn']
+					if 'et' in self.ORD_STATE:
+						del self.ORD_STATE['et']
+					if 'ft' in self.ORD_STATE:
+						del self.ORD_STATE['ft']
+				elif sel_val in ('eiginnafn', 'gælunafn', 'kenninafn', 'örnefni'):
+					# sérnafn, bæta við dummy beygingum ef þarf
+					if 'kyn' not in self.ORD_STATE:
+						self.ORD_STATE['kyn'] = 'kk'
+					if 'et' not in self.ORD_STATE:
+						self.ORD_STATE['et'] = {
+							'ág': ['---', '---', '---', '---'], 'mg': ['---', '---', '---', '---']
+						}
+					if 'ft' not in self.ORD_STATE:
+						self.ORD_STATE['ft'] = {
+							'ág': ['---', '---', '---', '---'], 'mg': ['---', '---', '---', '---']
+						}
 			self.handle_updated_ord_state()
 
 	def handle_ordflokkur_selection_change(self, sel_ordfl: str):
 		el_build_word_container = self.query_one('#el_build_word', BuildWordContainer)
 		el_build_word_container.query('*').remove()
 		chbox_samsett_ord = self.query_one('#samsett_ord', RadioButton)
-		unimplmemented_ordflokkar = (
-			'Fornafn', 'Töluorð', 'Smáorð', 'Sérnafn'
-		)
+		unimplmemented_ordflokkar = ('Fornafn', 'Töluorð', 'Smáorð', )
 		if sel_ordfl == 'Nafnorð' and chbox_samsett_ord.value is False:
-			self.ORD_STATE['flokkur'] = 'nafnorð'
-			self.ORD_STATE['kyn'] = 'kk'  # default
+			self.ORD_STATE = {'orð': None, 'flokkur': 'nafnorð', 'kyn': 'kk'}
 			tilgreina_nafnord = TilgreinaNafnord()
 			el_build_word_container.mount(tilgreina_nafnord)
 			tilgreina_beygingar = TilgreinaNafnordBeygingar(
@@ -1663,7 +1828,7 @@ Ferlið er svohljóðandi:
 			)
 			el_build_word_container.mount(tilgreina_beygingar)
 		elif sel_ordfl == 'Lýsingarorð' and chbox_samsett_ord.value is False:
-			self.ORD_STATE['flokkur'] = 'lýsingarorð'
+			self.ORD_STATE = {'orð': None, 'flokkur': 'lýsingarorð'}
 			tilgreina_lysingarord = TilgreinaLysingarord()
 			el_build_word_container.mount(tilgreina_lysingarord)
 			tilgreina_beygingar = TilgreinaLysingarordBeygingar(
@@ -1671,11 +1836,21 @@ Ferlið er svohljóðandi:
 			)
 			el_build_word_container.mount(tilgreina_beygingar)
 		elif sel_ordfl == 'Sagnorð' and chbox_samsett_ord.value is False:
-			self.ORD_STATE['flokkur'] = 'sagnorð'
+			self.ORD_STATE = {'orð': None, 'flokkur': 'sagnorð'}
 			tilgreina_sagnord = TilgreinaSagnord()
 			el_build_word_container.mount(tilgreina_sagnord)
 			tilgreina_beygingar = TilgreinaSagnordBeygingar(
 				id='el_tilgreina_beygingar_sagnord' , classes='hidden'
+			)
+			el_build_word_container.mount(tilgreina_beygingar)
+		elif sel_ordfl == 'Sérnafn' and chbox_samsett_ord.value is False:
+			self.ORD_STATE = {
+				'orð': None, 'flokkur': 'sérnafn', 'undirflokkur': 'örnefni', 'kyn': 'kk'
+			}
+			tilgreina_sernafn = TilgreinaSernafn()
+			el_build_word_container.mount(tilgreina_sernafn)
+			tilgreina_beygingar = TilgreinaSernafnBeygingar(
+				id='el_tilgreina_beygingar_sernafn' , classes='hidden'
 			)
 			el_build_word_container.mount(tilgreina_beygingar)
 		else:  # event.select.value == Select.BLANK:
@@ -1694,6 +1869,8 @@ Ferlið er svohljóðandi:
 				self.handle_ord_data_change_lysingarord()
 			case 'sagnorð':
 				self.handle_ord_data_change_sagnord()
+			case 'sérnafn':
+				self.handle_ord_data_change_sernafn()
 			case _:
 				self.notify(f'unimplemented: handle_ord_data_change flokkur {flokkur}')
 
@@ -1893,6 +2070,232 @@ Ferlið er svohljóðandi:
 			btn_ord_commit.variant = 'error'
 			btn_ord_commit.disabled = True
 		elif 'et' not in self.ORD_STATE and 'ft' not in self.ORD_STATE:
+			btn_ord_commit.label = '[[ Vista ]] Tilgreindu beygingarmyndir'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		else:
+			btn_ord_commit.label = '[[ Vista ]]'
+			btn_ord_commit.variant = 'primary'
+			btn_ord_commit.disabled = False
+
+	def handle_ord_data_change_sernafn(self):
+		is_millinafn = (self.ORD_STATE['undirflokkur'] == 'miłlinafn')
+		input_empty = '---'
+		# et checkboxes
+		chbox_et = self.query_one('#ord_enable_et', Checkbox)
+		chbox_et_ag = self.query_one('#ord_enable_et_ag', Checkbox)
+		chbox_et_mg = self.query_one('#ord_enable_et_mg', Checkbox)
+		# et ág
+		beyging_et_ag_nf = self.query_one('#ord_beyging_et_ag_nf', Input)
+		beyging_et_ag_thf = self.query_one('#ord_beyging_et_ag_thf', Input)
+		beyging_et_ag_thgf = self.query_one('#ord_beyging_et_ag_thgf', Input)
+		beyging_et_ag_ef = self.query_one('#ord_beyging_et_ag_ef', Input)
+		# et mg
+		beyging_et_mg_nf = self.query_one('#ord_beyging_et_mg_nf', Input)
+		beyging_et_mg_thf = self.query_one('#ord_beyging_et_mg_thf', Input)
+		beyging_et_mg_thgf = self.query_one('#ord_beyging_et_mg_thgf', Input)
+		beyging_et_mg_ef = self.query_one('#ord_beyging_et_mg_ef', Input)
+		# ft checkboxes
+		chbox_ft = self.query_one('#ord_enable_ft', Checkbox)
+		chbox_ft_ag = self.query_one('#ord_enable_ft_ag', Checkbox)
+		chbox_ft_mg = self.query_one('#ord_enable_ft_mg', Checkbox)
+		# ft ág
+		beyging_ft_ag_nf = self.query_one('#ord_beyging_ft_ag_nf', Input)
+		beyging_ft_ag_thf = self.query_one('#ord_beyging_ft_ag_thf', Input)
+		beyging_ft_ag_thgf = self.query_one('#ord_beyging_ft_ag_thgf', Input)
+		beyging_ft_ag_ef = self.query_one('#ord_beyging_ft_ag_ef', Input)
+		# ft mg
+		beyging_ft_mg_nf = self.query_one('#ord_beyging_ft_mg_nf', Input)
+		beyging_ft_mg_thf = self.query_one('#ord_beyging_ft_mg_thf', Input)
+		beyging_ft_mg_thgf = self.query_one('#ord_beyging_ft_mg_thgf', Input)
+		beyging_ft_mg_ef = self.query_one('#ord_beyging_ft_mg_ef', Input)
+		# button commit
+		btn_ord_commit = self.query_one('#btn_ord_commit', Button)
+		# json textarea
+		el_ord_data_json = self.query_one('#ord_data_json', TextArea)
+		if not is_millinafn:
+			# read data from ui, then update ord data and ui
+			if chbox_et.value is True:
+				if 'et' not in self.ORD_STATE:
+					self.ORD_STATE['et'] = {}
+				if chbox_et_ag.value is True:
+					beyging_et_ag_nf.remove_class('ghost')
+					beyging_et_ag_thf.remove_class('ghost')
+					beyging_et_ag_thgf.remove_class('ghost')
+					beyging_et_ag_ef.remove_class('ghost')
+					self.ORD_STATE['et']['ág'] = [
+						beyging_et_ag_nf.value or input_empty,
+						beyging_et_ag_thf.value or input_empty,
+						beyging_et_ag_thgf.value or input_empty,
+						beyging_et_ag_ef.value or input_empty
+					]
+				elif 'ág' in self.ORD_STATE['et']:
+					beyging_et_ag_nf.add_class('ghost')
+					beyging_et_ag_thf.add_class('ghost')
+					beyging_et_ag_thgf.add_class('ghost')
+					beyging_et_ag_ef.add_class('ghost')
+					del self.ORD_STATE['et']['ág']
+				if chbox_et_mg.value is True:
+					beyging_et_mg_nf.remove_class('ghost')
+					beyging_et_mg_thf.remove_class('ghost')
+					beyging_et_mg_thgf.remove_class('ghost')
+					beyging_et_mg_ef.remove_class('ghost')
+					self.ORD_STATE['et']['mg'] = [
+						beyging_et_mg_nf.value or input_empty,
+						beyging_et_mg_thf.value or input_empty,
+						beyging_et_mg_thgf.value or input_empty,
+						beyging_et_mg_ef.value or input_empty
+					]
+				elif 'mg' in self.ORD_STATE['et']:
+					beyging_et_mg_nf.add_class('ghost')
+					beyging_et_mg_thf.add_class('ghost')
+					beyging_et_mg_thgf.add_class('ghost')
+					beyging_et_mg_ef.add_class('ghost')
+					del self.ORD_STATE['et']['mg']
+				if chbox_et_ag.value is False and chbox_et_mg.value is False:
+					del self.ORD_STATE['et']
+			elif 'et' in self.ORD_STATE:
+				beyging_et_ag_nf.add_class('ghost')
+				beyging_et_ag_thf.add_class('ghost')
+				beyging_et_ag_thgf.add_class('ghost')
+				beyging_et_ag_ef.add_class('ghost')
+				beyging_et_mg_nf.add_class('ghost')
+				beyging_et_mg_thf.add_class('ghost')
+				beyging_et_mg_thgf.add_class('ghost')
+				beyging_et_mg_ef.add_class('ghost')
+				del self.ORD_STATE['et']
+			if chbox_ft.value is True:
+				if 'ft' not in self.ORD_STATE:
+					self.ORD_STATE['ft'] = {}
+				if chbox_ft_ag.value is True:
+					beyging_ft_ag_nf.remove_class('ghost')
+					beyging_ft_ag_thf.remove_class('ghost')
+					beyging_ft_ag_thgf.remove_class('ghost')
+					beyging_ft_ag_ef.remove_class('ghost')
+					self.ORD_STATE['ft']['ág'] = [
+						beyging_ft_ag_nf.value or input_empty,
+						beyging_ft_ag_thf.value or input_empty,
+						beyging_ft_ag_thgf.value or input_empty,
+						beyging_ft_ag_ef.value or input_empty
+					]
+				elif 'ág' in self.ORD_STATE['ft']:
+					beyging_ft_ag_nf.add_class('ghost')
+					beyging_ft_ag_thf.add_class('ghost')
+					beyging_ft_ag_thgf.add_class('ghost')
+					beyging_ft_ag_ef.add_class('ghost')
+					del self.ORD_STATE['ft']['ág']
+				if chbox_ft_mg.value is True:
+					beyging_ft_mg_nf.remove_class('ghost')
+					beyging_ft_mg_thf.remove_class('ghost')
+					beyging_ft_mg_thgf.remove_class('ghost')
+					beyging_ft_mg_ef.remove_class('ghost')
+					self.ORD_STATE['ft']['mg'] = [
+						beyging_ft_mg_nf.value or input_empty,
+						beyging_ft_mg_thf.value or input_empty,
+						beyging_ft_mg_thgf.value or input_empty,
+						beyging_ft_mg_ef.value or input_empty
+					]
+				elif 'mg' in self.ORD_STATE['ft']:
+					beyging_ft_mg_nf.add_class('ghost')
+					beyging_ft_mg_thf.add_class('ghost')
+					beyging_ft_mg_thgf.add_class('ghost')
+					beyging_ft_mg_ef.add_class('ghost')
+					del self.ORD_STATE['ft']['mg']
+				if chbox_ft_ag.value is False and chbox_ft_mg.value is False:
+					del self.ORD_STATE['ft']
+			elif 'ft' in self.ORD_STATE:
+				beyging_ft_ag_nf.add_class('ghost')
+				beyging_ft_ag_thf.add_class('ghost')
+				beyging_ft_ag_thgf.add_class('ghost')
+				beyging_ft_ag_ef.add_class('ghost')
+				beyging_ft_mg_nf.add_class('ghost')
+				beyging_ft_mg_thf.add_class('ghost')
+				beyging_ft_mg_thgf.add_class('ghost')
+				beyging_ft_mg_ef.add_class('ghost')
+				del self.ORD_STATE['ft']
+		else:
+			beyging_et_ag_nf.add_class('ghost')
+			beyging_et_ag_thf.add_class('ghost')
+			beyging_et_ag_thgf.add_class('ghost')
+			beyging_et_ag_ef.add_class('ghost')
+			beyging_et_mg_nf.add_class('ghost')
+			beyging_et_mg_thf.add_class('ghost')
+			beyging_et_mg_thgf.add_class('ghost')
+			beyging_et_mg_ef.add_class('ghost')
+			beyging_ft_ag_nf.add_class('ghost')
+			beyging_ft_ag_thf.add_class('ghost')
+			beyging_ft_ag_thgf.add_class('ghost')
+			beyging_ft_ag_ef.add_class('ghost')
+			beyging_ft_mg_nf.add_class('ghost')
+			beyging_ft_mg_thf.add_class('ghost')
+			beyging_ft_mg_thgf.add_class('ghost')
+			beyging_ft_mg_ef.add_class('ghost')
+		# update JSON text
+		isl_ord = None
+		if self.ORD_STATE['orð'] in ('', None):
+			el_ord_data_json.text = '{}'
+		else:
+			handler = handlers.Sernafn()
+			handler.load_from_dict(self.ORD_STATE)
+			json_str = handler._ord_data_to_fancy_json_str(handler.data.dict())
+			el_ord_data_json.text = json_str
+			kennistrengur = handler.make_kennistrengur()
+			isl_ord = db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
+		# determine if ord is acceptable for saving, then update commit button accordingly
+		fulfilled_et_ag = (
+			chbox_et.value is False or
+			chbox_et_ag.value is False or (
+				beyging_et_ag_nf.value and
+				beyging_et_ag_thf.value and
+				beyging_et_ag_thgf.value and
+				beyging_et_ag_ef.value
+			)
+		)
+		fulfilled_et_mg = (
+			chbox_et.value is False or
+			chbox_et_mg.value is False or (
+				beyging_et_mg_nf.value and
+				beyging_et_mg_thf.value and
+				beyging_et_mg_thgf.value and
+				beyging_et_mg_ef.value
+			)
+		)
+		fulfilled_ft_ag = (
+			chbox_ft.value is False or
+			chbox_ft_ag.value is False or (
+				beyging_ft_ag_nf.value and
+				beyging_ft_ag_thf.value and
+				beyging_ft_ag_thgf.value and
+				beyging_ft_ag_ef.value
+			)
+		)
+		fulfilled_ft_mg = (
+			chbox_ft.value is False or
+			chbox_ft_mg.value is False or (
+				beyging_ft_mg_nf.value and
+				beyging_ft_mg_thf.value and
+				beyging_ft_mg_thgf.value and
+				beyging_ft_mg_ef.value
+			)
+		)
+		if self.ORD_STATE['orð'] in ('', None):
+			btn_ord_commit.label = '[[ Vista ]] Sláðu inn grunnmynd orðs'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif isl_ord is not None:
+			btn_ord_commit.label = '[[ Vista ]] Orð nú þegar til'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif (
+			not is_millinafn and (
+				not fulfilled_et_ag or not fulfilled_et_mg or not fulfilled_ft_ag or
+				not fulfilled_ft_mg
+			)
+		):
+			btn_ord_commit.label = '[[ Vista ]] Fylltu inn beygingarmyndir'
+			btn_ord_commit.variant = 'error'
+			btn_ord_commit.disabled = True
+		elif not is_millinafn and ('et' not in self.ORD_STATE and 'ft' not in self.ORD_STATE):
 			btn_ord_commit.label = '[[ Vista ]] Tilgreindu beygingarmyndir'
 			btn_ord_commit.variant = 'error'
 			btn_ord_commit.disabled = True
@@ -5400,8 +5803,9 @@ class AddWordTUI(App):
 	def on_trigger_scroll_to_widget(self, msg) -> None:
 		el_content = self.query_one('#main_content', Content)
 		self.call_after_refresh(el_content.scroll_to_widget, msg.widget)
-		el_focus = self.query_one(msg.focus_id)
-		el_focus.focus()
+		if msg.focus_id is not None:
+			el_focus = self.query_one(msg.focus_id)
+			el_focus.focus()
 
 	def action_print_state(self) -> None:
 		self.HOMESCREEN.action_print_state()
