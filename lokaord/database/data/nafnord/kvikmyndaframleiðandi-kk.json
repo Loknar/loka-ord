@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "kvik",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-kvikur"
-		},
-		{
-			"mynd": "mynda",
+			"mynd": "kvikmynda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mynd-kvk"
+			"kennistrengur": "no-kvikmynd-kvk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-leiðandi-kk"
+			"kennistrengur": "no-framleiðandi-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kvikmyndaframleiðendurnir", "kvikmyndaframleiðendurna", "kvikmyndaframleiðendunum", "kvikmyndaframleiðendanna"]
 	},
 	"kennistrengur": "no-kvikmyndaframleiðandi-kk",
-	"hash": "c72342a099529bda1660a0a8941178477c47a432e932b47524b171acb72f5efc"
+	"hash": "c1dbb487de68d22ecd26286a3b9f1ae13c23b7419240ae3bdb255fdfd76b004c"
 }

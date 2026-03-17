@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "tíma",
+			"mynd": "samtíma",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"mynd": "bók",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bók-kvk"
+			"kennistrengur": "no-samtími-kk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-mennt-kvk"
+			"kennistrengur": "no-bókmennt-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["samtímabókmenntirnar", "samtímabókmenntirnar", "samtímabókmenntunum", "samtímabókmenntanna"]
 	},
 	"kennistrengur": "no-samtímabókmenntir-kvk",
-	"hash": "574bcc79990fd21511e23a139630529afc66fdb444bc28a3edef101dbdf293ec"
+	"hash": "c1d2b510235ebed47edd7b690c73981bd5600a925d72d36cf8a05889043cc45d"
 }

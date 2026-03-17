@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "kvik",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-kvikur"
-		},
-		{
-			"mynd": "mynda",
+			"mynd": "kvikmynda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mynd-kvk"
+			"kennistrengur": "no-kvikmynd-kvk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-kvikmyndatengdur",
-	"hash": "d4729f04c595ebf87ca38a1a3a83b6c2d1a8b06a5c2cd096a027b0635c950025"
+	"hash": "6aee70995f22eef0dde9236a080db129f9c43933bc543209df9082501faa68d9"
 }

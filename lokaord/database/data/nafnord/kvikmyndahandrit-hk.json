@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kvik",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-kvikur"
-		},
-		{
-			"mynd": "mynda",
+			"mynd": "kvikmynda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mynd-kvk"
+			"kennistrengur": "no-kvikmynd-kvk"
 		},
 		{
-			"mynd": "hand",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hönd-kvk"
-		},
-		{
-			"kennistrengur": "no-rit-hk"
+			"kennistrengur": "no-handrit-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kvikmyndahandritin", "kvikmyndahandritin", "kvikmyndahandritunum", "kvikmyndahandritanna"]
 	},
 	"kennistrengur": "no-kvikmyndahandrit-hk",
-	"hash": "ae48046f4e1c9f1953c92fc56ecde61c703398f6a412d1b9d26de75711bf700d"
+	"hash": "7fb7e29611acf4c39b162e9a36d0b1faa46dc1cb83ff5403b53efc8e5a846112"
 }

@@ -4,32 +4,17 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
-		},
-		{
-			"mynd": "listar",
+			"mynd": "tónlistar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-list-kvk"
+			"kennistrengur": "no-tónlist-kvk"
 		},
 		{
-			"mynd": "mynd",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mynd-kvk"
-		},
-		{
-			"mynd": "banda",
+			"mynd": "myndbanda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
+			"kennistrengur": "no-myndband-hk"
 		},
 		{
-			"mynd": "verð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"kennistrengur": "no-laun-hk"
+			"kennistrengur": "no-verðlaun-hk"
 		}
 	],
 	"ft": {
@@ -37,5 +22,5 @@
 		"mg": ["tónlistarmyndbandaverðlaunin", "tónlistarmyndbandaverðlaunin", "tónlistarmyndbandaverðlaununum", "tónlistarmyndbandaverðlaunanna"]
 	},
 	"kennistrengur": "no-tónlistarmyndbandaverðlaun-hk",
-	"hash": "9e71b74941edb96254d7cc56a291783eb332e190163a7934791395090d6d0ac0"
+	"hash": "035af6a7d82946aa68688f92db061dd4ff76f75bd5084f3ddbb3e3a3b975a61a"
 }

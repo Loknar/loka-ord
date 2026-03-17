@@ -1,0 +1,43 @@
+{
+	"orð": "skattlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["skattlaus", "skattlausan", "skattlausum", "skattlauss"],
+				"kvk": ["skattlaus", "skattlausa", "skattlausri", "skattlausrar"],
+				"hk": ["skattlaust", "skattlaust", "skattlausu", "skattlauss"]
+			},
+			"ft": {
+				"kk": ["skattlausir", "skattlausa", "skattlausum", "skattlausra"],
+				"kvk": ["skattlausar", "skattlausar", "skattlausum", "skattlausra"],
+				"hk": ["skattlaus", "skattlaus", "skattlausum", "skattlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["skattlausi", "skattlausa", "skattlausa", "skattlausa"],
+				"kvk": ["skattlausa", "skattlausu", "skattlausu", "skattlausu"],
+				"hk": ["skattlausa", "skattlausa", "skattlausa", "skattlausa"]
+			},
+			"ft": {
+				"kk": ["skattlausu", "skattlausu", "skattlausu", "skattlausu"],
+				"kvk": ["skattlausu", "skattlausu", "skattlausu", "skattlausu"],
+				"hk": ["skattlausu", "skattlausu", "skattlausu", "skattlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-skattlaus",
+	"hash": "4e40792c1c7fccdb886c234e34bbc1d17c68306f52db28578ffc047fe786c7d7"
+}

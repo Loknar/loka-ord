@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "tón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-tónn-kk"
-		},
-		{
-			"mynd": "listar",
+			"mynd": "tónlistar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-list-kvk"
+			"kennistrengur": "no-tónlist-kvk"
 		},
 		{
-			"mynd": "ferða",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ferð-kvk"
-		},
-		{
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-ferðalag-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["tónlistarferðalögin", "tónlistarferðalögin", "tónlistarferðalögunum", "tónlistarferðalaganna"]
 	},
 	"kennistrengur": "no-tónlistarferðalag-hk",
-	"hash": "3a61ebb4e66380b5e8658ff1964a8bcff000caaac702297245f80ab65de68a03"
+	"hash": "1651897ef3e4b4bb9d05bb7340c651ef57695e57b97372d6c84a6b3d673962ef"
 }

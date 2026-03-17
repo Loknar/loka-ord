@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kvik",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-kvikur"
-		},
-		{
-			"mynd": "mynda",
+			"mynd": "kvikmynda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mynd-kvk"
+			"kennistrengur": "no-kvikmynd-kvk"
 		},
 		{
-			"mynd": "verð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"kennistrengur": "no-laun-hk"
+			"kennistrengur": "no-verðlaun-hk"
 		}
 	],
 	"ft": {
@@ -27,5 +17,5 @@
 		"mg": ["kvikmyndaverðlaunin", "kvikmyndaverðlaunin", "kvikmyndaverðlaununum", "kvikmyndaverðlaunanna"]
 	},
 	"kennistrengur": "no-kvikmyndaverðlaun-hk",
-	"hash": "9a4652fe23b5a9d441cea94e405360a958184300ea7a049e9df1390035dcdf98"
+	"hash": "b7b8e7a53e5f3a77f70720a18d4d617f5704a0f58a3c038f1603829317b616f3"
 }
