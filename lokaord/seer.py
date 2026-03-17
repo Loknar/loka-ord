@@ -949,6 +949,10 @@ def clean_string(mystr: str) -> str:
 		# fjarlægja ákveðin bil
 		(' o. fl.,', ' o.fl.,'),
 		(' o. fl. ', ' o.fl. '),
+		(' o. s. frv.', ' o.s.frv.'),
+		# hækkaðir og lækkaðir stafir normalisering
+		('²', '2'),
+		('₂', '2'),
 	]
 	for search_str, replace_str in replacements:
 		cleaned_str = cleaned_str.replace(search_str, replace_str)
