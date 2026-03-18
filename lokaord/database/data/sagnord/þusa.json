@@ -1,0 +1,135 @@
+{
+	"orð": "þusa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þus",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þus-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þusa",
+		"sagnbót": "þusað",
+		"boðháttur": {
+			"stýfður": "þusa",
+			"et": "þusaðu",
+			"ft": "þusið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þusa", "þusar", "þusar"],
+					"ft": ["þusum", "þusið", "þusa"]
+				},
+				"þátíð": {
+					"et": ["þusaði", "þusaðir", "þusaði"],
+					"ft": ["þusuðum", "þusuðuð", "þusuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þusi", "þusir", "þusi"],
+					"ft": ["þusum", "þusið", "þusi"]
+				},
+				"þátíð": {
+					"et": ["þusaði", "þusaðir", "þusaði"],
+					"ft": ["þusuðum", "þusuðuð", "þusuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þusarðu",
+					"ft": "þusiði"
+				},
+				"þátíð": {
+					"et": "þusaðirðu",
+					"ft": "þusuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þusirðu",
+					"ft": "þusiði"
+				},
+				"þátíð": {
+					"et": "þusaðirðu",
+					"ft": "þusuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þusast",
+		"sagnbót": "þusast",
+		"boðháttur": {
+			"et": "þusastu",
+			"ft": "þusist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þusast", "þusast", "þusast"],
+					"ft": ["þusumst", "þusist", "þusast"]
+				},
+				"þátíð": {
+					"et": ["þusaðist", "þusaðist", "þusaðist"],
+					"ft": ["þusuðumst", "þusuðust", "þusuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þusist", "þusist", "þusist"],
+					"ft": ["þusumst", "þusist", "þusist"]
+				},
+				"þátíð": {
+					"et": ["þusaðist", "þusaðist", "þusaðist"],
+					"ft": ["þusuðumst", "þusuðust", "þusuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þusastu"
+				},
+				"þátíð": {
+					"et": "þusaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þusistu"
+				},
+				"þátíð": {
+					"et": "þusaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þusandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þusaður", "þusaðan", "þusuðum", "þusaðs"],
+					"kvk": ["þusuð", "þusaða", "þusaðri", "þusaðrar"],
+					"hk": ["þusað", "þusað", "þusuðu", "þusaðs"]
+				},
+				"ft": {
+					"kk": ["þusaðir", "þusaða", "þusuðum", "þusaðra"],
+					"kvk": ["þusaðar", "þusaðar", "þusuðum", "þusaðra"],
+					"hk": ["þusuð", "þusuð", "þusuðum", "þusaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þusa",
+	"hash": "87b26207e318f6439a29d3e179f05ed9945dfc87f028a3658de510874734d93a"
+}

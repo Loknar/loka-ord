@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "endur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-endur-hk"
-		},
-		{
-			"mynd": "hæfingar",
+			"mynd": "endurhæfingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hæfing-kvk"
+			"kennistrengur": "no-endurhæfing-kvk"
 		},
 		{
-			"mynd": "líf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-líf-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-eyrir-kk"
+			"kennistrengur": "no-lífeyrir-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["endurhæfingarlífeyririnn", "endurhæfingarlífeyrinn", "endurhæfingarlífeyrinum", "endurhæfingarlífeyrisins"]
 	},
 	"kennistrengur": "no-endurhæfingarlífeyrir-kk",
-	"hash": "520698b9087d611feb3fffc200e70f9ced47fbae26ff3e103cde5646d92a014f"
+	"hash": "e53e1d42cf092c77574f37a1e42390524ef74833d7aff20760d1efc561fea58c"
 }

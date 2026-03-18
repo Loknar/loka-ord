@@ -1,0 +1,135 @@
+{
+	"orð": "bauka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bauk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bauk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bauka",
+		"sagnbót": "baukað",
+		"boðháttur": {
+			"stýfður": "bauka",
+			"et": "baukaðu",
+			"ft": "baukið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bauka", "baukar", "baukar"],
+					"ft": ["baukum", "baukið", "bauka"]
+				},
+				"þátíð": {
+					"et": ["baukaði", "baukaðir", "baukaði"],
+					"ft": ["baukuðum", "baukuðuð", "baukuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bauki", "baukir", "bauki"],
+					"ft": ["baukum", "baukið", "bauki"]
+				},
+				"þátíð": {
+					"et": ["baukaði", "baukaðir", "baukaði"],
+					"ft": ["baukuðum", "baukuðuð", "baukuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "baukarðu",
+					"ft": "baukiði"
+				},
+				"þátíð": {
+					"et": "baukaðirðu",
+					"ft": "baukuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "baukirðu",
+					"ft": "baukiði"
+				},
+				"þátíð": {
+					"et": "baukaðirðu",
+					"ft": "baukuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "baukast",
+		"sagnbót": "baukast",
+		"boðháttur": {
+			"et": "baukastu",
+			"ft": "baukist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["baukast", "baukast", "baukast"],
+					"ft": ["baukumst", "baukist", "baukast"]
+				},
+				"þátíð": {
+					"et": ["baukaðist", "baukaðist", "baukaðist"],
+					"ft": ["baukuðumst", "baukuðust", "baukuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["baukist", "baukist", "baukist"],
+					"ft": ["baukumst", "baukist", "baukist"]
+				},
+				"þátíð": {
+					"et": ["baukaðist", "baukaðist", "baukaðist"],
+					"ft": ["baukuðumst", "baukuðust", "baukuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "baukastu"
+				},
+				"þátíð": {
+					"et": "baukaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "baukistu"
+				},
+				"þátíð": {
+					"et": "baukaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "baukandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["baukaður", "baukaðan", "baukuðum", "baukaðs"],
+					"kvk": ["baukuð", "baukaða", "baukaðri", "baukaðrar"],
+					"hk": ["baukað", "baukað", "baukuðu", "baukaðs"]
+				},
+				"ft": {
+					"kk": ["baukaðir", "baukaða", "baukuðum", "baukaðra"],
+					"kvk": ["baukaðar", "baukaðar", "baukuðum", "baukaðra"],
+					"hk": ["baukuð", "baukuð", "baukuðum", "baukaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bauka",
+	"hash": "6b0e5e01281f78966eb3a28ee00824200c61bc8c7f5d3c4081b56a80c0a7cc8a"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "verðfesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-festa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "verðfesta",
+		"sagnbót": "verðfest",
+		"boðháttur": {
+			"stýfður": "verðfest",
+			"et": "verðfestu",
+			"ft": "verðfestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["verðfesti", "verðfestir", "verðfestir"],
+					"ft": ["verðfestum", "verðfestið", "verðfesta"]
+				},
+				"þátíð": {
+					"et": ["verðfesti", "verðfestir", "verðfesti"],
+					"ft": ["verðfestum", "verðfestuð", "verðfestu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["verðfesti", "verðfestir", "verðfesti"],
+					"ft": ["verðfestum", "verðfestið", "verðfesti"]
+				},
+				"þátíð": {
+					"et": ["verðfesti", "verðfestir", "verðfesti"],
+					"ft": ["verðfestum", "verðfestuð", "verðfestu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "verðfestirðu",
+					"ft": "verðfestiði"
+				},
+				"þátíð": {
+					"et": "verðfestirðu",
+					"ft": "verðfestuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "verðfestirðu",
+					"ft": "verðfestiði"
+				},
+				"þátíð": {
+					"et": "verðfestirðu",
+					"ft": "verðfestuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "verðfestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["verðfestur", "verðfestan", "verðfestum", "verðfests"],
+					"kvk": ["verðfest", "verðfesta", "verðfestri", "verðfestrar"],
+					"hk": ["verðfest", "verðfest", "verðfestu", "verðfests"]
+				},
+				"ft": {
+					"kk": ["verðfestir", "verðfesta", "verðfestum", "verðfestra"],
+					"kvk": ["verðfestar", "verðfestar", "verðfestum", "verðfestra"],
+					"hk": ["verðfest", "verðfest", "verðfestum", "verðfestra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["verðfesti", "verðfesta", "verðfesta", "verðfesta"],
+					"kvk": ["verðfesta", "verðfestu", "verðfestu", "verðfestu"],
+					"hk": ["verðfesta", "verðfesta", "verðfesta", "verðfesta"]
+				},
+				"ft": {
+					"kk": ["verðfestu", "verðfestu", "verðfestu", "verðfestu"],
+					"kvk": ["verðfestu", "verðfestu", "verðfestu", "verðfestu"],
+					"hk": ["verðfestu", "verðfestu", "verðfestu", "verðfestu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-verðfesta",
+	"hash": "85f4acfaee5128ada4b67e89d64d2095723a96ea9ef1b6063caee7e29f199aa8"
+}

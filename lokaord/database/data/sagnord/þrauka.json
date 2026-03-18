@@ -1,0 +1,135 @@
+{
+	"orð": "þrauka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þrauk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þrauk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þrauka",
+		"sagnbót": "þraukað",
+		"boðháttur": {
+			"stýfður": "þrauka",
+			"et": "þraukaðu",
+			"ft": "þraukið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þrauka", "þraukar", "þraukar"],
+					"ft": ["þraukum", "þraukið", "þrauka"]
+				},
+				"þátíð": {
+					"et": ["þraukaði", "þraukaðir", "þraukaði"],
+					"ft": ["þraukuðum", "þraukuðuð", "þraukuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þrauki", "þraukir", "þrauki"],
+					"ft": ["þraukum", "þraukið", "þrauki"]
+				},
+				"þátíð": {
+					"et": ["þraukaði", "þraukaðir", "þraukaði"],
+					"ft": ["þraukuðum", "þraukuðuð", "þraukuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þraukarðu",
+					"ft": "þraukiði"
+				},
+				"þátíð": {
+					"et": "þraukaðirðu",
+					"ft": "þraukuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þraukirðu",
+					"ft": "þraukiði"
+				},
+				"þátíð": {
+					"et": "þraukaðirðu",
+					"ft": "þraukuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þraukast",
+		"sagnbót": "þraukast",
+		"boðháttur": {
+			"et": "þraukastu",
+			"ft": "þraukist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þraukast", "þraukast", "þraukast"],
+					"ft": ["þraukumst", "þraukist", "þraukast"]
+				},
+				"þátíð": {
+					"et": ["þraukaðist", "þraukaðist", "þraukaðist"],
+					"ft": ["þraukuðumst", "þraukuðust", "þraukuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þraukist", "þraukist", "þraukist"],
+					"ft": ["þraukumst", "þraukist", "þraukist"]
+				},
+				"þátíð": {
+					"et": ["þraukaðist", "þraukaðist", "þraukaðist"],
+					"ft": ["þraukuðumst", "þraukuðust", "þraukuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þraukastu"
+				},
+				"þátíð": {
+					"et": "þraukaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þraukistu"
+				},
+				"þátíð": {
+					"et": "þraukaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þraukandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þraukaður", "þraukaðan", "þraukuðum", "þraukaðs"],
+					"kvk": ["þraukuð", "þraukaða", "þraukaðri", "þraukaðrar"],
+					"hk": ["þraukað", "þraukað", "þraukuðu", "þraukaðs"]
+				},
+				"ft": {
+					"kk": ["þraukaðir", "þraukaða", "þraukuðum", "þraukaðra"],
+					"kvk": ["þraukaðar", "þraukaðar", "þraukuðum", "þraukaðra"],
+					"hk": ["þraukuð", "þraukuð", "þraukuðum", "þraukaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þrauka",
+	"hash": "f844f6a32a6dfe66bd6a062df61fdefa59e2eb4277cf0c0310e41f69bddebc3d"
+}
