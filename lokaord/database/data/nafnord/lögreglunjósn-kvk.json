@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
 			"kennistrengur": "no-njósn-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["lögreglunjósnirnar", "lögreglunjósnirnar", "lögreglunjósnunum", "lögreglunjósnanna"]
 	},
 	"kennistrengur": "no-lögreglunjósn-kvk",
-	"hash": "f5ec67ee504511706a52ef5d79d47a172ed63e41818dcbf39aaac81947607813"
+	"hash": "c282d5478a23ee493cf37f54e8ddb845e411fd0e67cb34424d09684de2e65731"
 }

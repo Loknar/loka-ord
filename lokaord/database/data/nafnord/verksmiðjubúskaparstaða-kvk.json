@@ -1,0 +1,27 @@
+{
+	"orð": "verksmiðjubúskaparstaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "verksmiðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-verksmiðja-kvk"
+		},
+		{
+			"mynd": "búskapar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-búskapur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["verksmiðjubúskaparstaða", "verksmiðjubúskaparstöðu", "verksmiðjubúskaparstöðu", "verksmiðjubúskaparstöðu"],
+		"mg": ["verksmiðjubúskaparstaðan", "verksmiðjubúskaparstöðuna", "verksmiðjubúskaparstöðunni", "verksmiðjubúskaparstöðunnar"]
+	},
+	"kennistrengur": "no-verksmiðjubúskaparstaða-kvk",
+	"hash": "178ca61f412ac259a9ef4851ad0a0457e9fc9e19b8f9f35c83cc7d2daa812e1c"
+}

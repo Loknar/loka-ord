@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "skil",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skil-hk"
-		},
-		{
-			"kennistrengur": "no-ríki-hk"
+			"kennistrengur": "no-skilríki-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["lögregluskilríkin", "lögregluskilríkin", "lögregluskilríkjunum", "lögregluskilríkjanna"]
 	},
 	"kennistrengur": "no-lögregluskilríki-hk",
-	"hash": "f36f4fc6a236d81639b1a658c356a1ded0d92d15eccfa093dc8fcb70206d983a"
+	"hash": "7539ebe7a77477d4467a5f7b47504741310cf104fe62f95883f2f8152cb11d1a"
 }

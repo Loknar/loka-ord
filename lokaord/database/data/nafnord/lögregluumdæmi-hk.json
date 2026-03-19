@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "um",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-um"
-		},
-		{
-			"kennistrengur": "no-dæmi-hk"
+			"kennistrengur": "no-umdæmi-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["lögregluumdæmin", "lögregluumdæmin", "lögregluumdæmunum", "lögregluumdæmanna"]
 	},
 	"kennistrengur": "no-lögregluumdæmi-hk",
-	"hash": "9e9add213c5b05665a8eabf6443a9c486dcfda960809c087c0b8b1ba5d01b283"
+	"hash": "6c1d817b871dad0dea1018d64e1f5d5da0d3aac66183cfd83dbe24a18843980c"
 }

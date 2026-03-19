@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "mál",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mál-hk"
-		},
-		{
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-málefni-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["lögreglumálefnin", "lögreglumálefnin", "lögreglumálefnunum", "lögreglumálefnanna"]
 	},
 	"kennistrengur": "no-lögreglumálefni-hk",
-	"hash": "fb1a4eff615da2c73d230e60606925eb5712b87d8fefda2c951171a2fa2779be"
+	"hash": "ce70d289727abdaa33f7cd2f52321082d29a44b4bc04179f076d854fa0a5e53e"
 }

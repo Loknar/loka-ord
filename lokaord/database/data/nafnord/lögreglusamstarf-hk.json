@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-starf-hk"
+			"kennistrengur": "no-samstarf-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["lögreglusamstarfið", "lögreglusamstarfið", "lögreglusamstarfinu", "lögreglusamstarfsins"]
 	},
 	"kennistrengur": "no-lögreglusamstarf-hk",
-	"hash": "6aba6010208475164e5502bc72f5f1c6b21fcb98ab09207132435a3fefb9bc22"
+	"hash": "ae5a3a413d7b666f77806f3edbb5476daea2f4695d69d8e6ac960669ee9ce8c0"
 }

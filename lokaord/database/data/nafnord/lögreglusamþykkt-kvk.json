@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"kennistrengur": "no-þykkt-kvk"
+			"kennistrengur": "no-samþykkt-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["lögreglusamþykktirnar", "lögreglusamþykktirnar", "lögreglusamþykktunum", "lögreglusamþykktanna"]
 	},
 	"kennistrengur": "no-lögreglusamþykkt-kvk",
-	"hash": "aabc238b6a5d1ca980a03855d5c3e28e62e40c72c09ccca007016c58c01390df"
+	"hash": "88075ac696254b55d83e85d245937f6d2f3892e3d6a61e4817d0b0c3c09df177"
 }

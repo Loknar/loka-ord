@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "yfir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-yfir"
-		},
-		{
-			"kennistrengur": "no-vald-hk"
+			"kennistrengur": "no-yfirvald-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["lögregluyfirvöldin", "lögregluyfirvöldin", "lögregluyfirvöldunum", "lögregluyfirvaldanna"]
 	},
 	"kennistrengur": "no-lögregluyfirvald-hk",
-	"hash": "e7547d4c16c2e3ff09e7d07aa4cde3c681995977e591d32a61a0fd69455e90b3"
+	"hash": "267ca976bd152e806bde161686209a275272da556d60b42130dd055763dccaaa"
 }

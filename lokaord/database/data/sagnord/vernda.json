@@ -1,6 +1,16 @@
 {
 	"orð": "vernda",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vernd",
+			"samsetning": "stofn",
+			"kennistrengur": "no-vernd-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "vernda",
 		"sagnbót": "verndað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "verndast",
 		"sagnbót": "verndast",
+		"boðháttur": {
+			"et": "verndastu",
+			"ft": "verndist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-vernda",
-	"hash": "273c01b0c7a6fdae41451df4a8c13f4af3ac1943b9922b4c15f64b72c52761af"
+	"hash": "5c8eead86cca3510d2976a0ca7731594bd968b40da1f0f56cf867d4a83f6de24"
 }

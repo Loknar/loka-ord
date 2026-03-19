@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
 			"kennistrengur": "no-fylgd-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["lögreglufylgdirnar", "lögreglufylgdirnar", "lögreglufylgdunum", "lögreglufylgdanna"]
 	},
 	"kennistrengur": "no-lögreglufylgd-kvk",
-	"hash": "ab5f7bd45f7337f26c95f467873fbea82f2d256a4c307eb55919ad42bb58ff67"
+	"hash": "dbc55e0ccbaf9b0975b11426278700cd75eac75ad9185b95306b295fcaf69abe"
 }

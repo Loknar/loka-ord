@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "reglu",
+			"mynd": "lögreglu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-regla-kvk"
+			"kennistrengur": "no-lögregla-kvk"
 		},
 		{
-			"mynd": "bif",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bif-hk"
-		},
-		{
-			"kennistrengur": "no-reið-kvk"
+			"kennistrengur": "no-bifreið-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["lögreglubifreiðarnar", "lögreglubifreiðarnar", "lögreglubifreiðunum", "lögreglubifreiðanna"]
 	},
 	"kennistrengur": "no-lögreglubifreið-kvk",
-	"hash": "f9a3337a9e75379a8726e91516aa8b16ce6d939cc999689d0cf2bd586868e46c"
+	"hash": "a51ff0075309383b12a9de5927b6cb65c4097322d744dcef4426dbe8ebbb600d"
 }
