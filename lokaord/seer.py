@@ -133,16 +133,20 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 	return possibilities
 
 
-def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = True):
+def scan_sentence(
+	sentence: str, show_kennistrengir: bool = False, show_matches: bool = False,
+	clean_str: bool = True
+):
 	"""
 	identify known whole words from a sentence string
 	"""
 	if clean_str is True:
 		sentence = clean_string(sentence)
 	sight = load_sight()
-	if hide_matches is False:
+	if show_matches is True:
 		print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (sentence, ))
 	scanned_sentence = []
+	set_kennistrengir = set()
 	found = 0
 	maybe = 0
 	missing = 0
@@ -162,8 +166,9 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 		}
 		if word in sight['orð']:
 			scanned_word['staða'] = 'fannst'
-			for option in sight['orð'][word]:
-				scanned_word['möguleikar'].append({'k': option[0], 'm': option[1]})
+			for option_kennistr, option_mynd in sight['orð'][word]:
+				scanned_word['möguleikar'].append({'k': option_kennistr, 'm': option_mynd})
+				set_kennistrengir.add(option_kennistr)
 			found += 1
 			scanned_sentence.append(scanned_word)
 			continue
@@ -206,6 +211,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			})
 			found += 1
 			scanned_sentence.append(scanned_word)
+			set_kennistrengir.add(sight['skammstafanir'][word]['kennistrengur'])
 			continue
 		elif word.lower() in sight['skammstafanir']:
 			word_l = word.lower()
@@ -218,6 +224,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			})
 			found += 1
 			scanned_sentence.append(scanned_word)
+			set_kennistrengir.add(sight['skammstafanir'][word_l]['kennistrengur'])
 			continue
 		elif word[-1] in onhanging_chars and word[:-1] in sight['skammstafanir']:
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word[:-1]]['myndir']])
@@ -230,6 +237,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			})
 			found += 1
 			scanned_sentence.append(scanned_word)
+			set_kennistrengir.add(sight['skammstafanir'][word[:-1]]['kennistrengur'])
 			continue
 		elif e_word_with_dot in sight['skammstafanir']:
 			myndir = (
@@ -243,6 +251,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			})
 			found += 1
 			scanned_sentence.append(scanned_word_alt)
+			set_kennistrengir.add(sight['skammstafanir'][e_word_with_dot]['kennistrengur'])
 			continue
 		elif e_word_with_dot_lower in sight['skammstafanir']:
 			myndir = (
@@ -258,6 +267,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			})
 			found += 1
 			scanned_sentence.append(scanned_word_alt)
+			set_kennistrengir.add(sight['skammstafanir'][e_word_with_dot_lower]['kennistrengur'])
 			continue
 		elif e_word in sight['skammstafanir']:
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][e_word]['myndir']])
@@ -269,17 +279,16 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 			})
 			found += 1
 			scanned_sentence.append(scanned_word)
+			set_kennistrengir.add(sight['skammstafanir'][e_word]['kennistrengur'])
 			continue
 		e_word_possibilities = word_change_possibilities(e_word)
 		for e_word_p in e_word_possibilities:
 			if e_word_p in sight['orð']:
 				scanned_word['orð-hreinsað'] = e_word_p
 				scanned_word['staða'] = 'mögulega'
-				for option in sight['orð'][e_word_p]:
-					scanned_word['möguleikar'].append({
-						'k': option[0],
-						'm': option[1]
-					})
+				for option_kennistr, option_mynd in sight['orð'][e_word_p]:
+					scanned_word['möguleikar'].append({'k': option_kennistr, 'm': option_mynd})
+					set_kennistrengir.add(option_kennistr)
 				maybe += 1
 				break
 			elif check_if_string_is_number(e_word_p):
@@ -306,13 +315,13 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 	highlighted_sentence_list = []
 	for scanned_word in scanned_sentence:
 		if scanned_word['staða'] == 'fannst':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[42m\033[30m FANNST \033[0m' % (scanned_word['orð'], ))
 			highlighted_sentence_list.append(
 				'\033[42m\033[30m%s\033[0m' % (scanned_word['orð'], )
 			)
 		elif scanned_word['staða'] == 'mögulega':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[43m\033[30m MÖGULEGA \033[0m "%s"' % (
 					scanned_word['orð'],
 					scanned_word['orð-hreinsað']
@@ -325,7 +334,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				)
 			)
 		elif scanned_word['staða'] == 'tala':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[46m\033[30m TALA \033[0m' % (
 					scanned_word['orð-hreinsað'],
 				))
@@ -337,7 +346,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				)
 			)
 		elif scanned_word['staða'] == 'tala-roman':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[46m\033[30m TALA ROMAN \033[0m' % (
 					scanned_word['orð-hreinsað'],
 				))
@@ -349,7 +358,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				)
 			)
 		elif scanned_word['staða'] == 'tími':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[46m\033[30m TÍMI \033[0m' % (
 					scanned_word['orð-hreinsað'],
 				))
@@ -361,7 +370,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				)
 			)
 		elif scanned_word['staða'] == 'dagsetning':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[46m\033[30m DAGSETNING \033[0m' % (
 					scanned_word['orð-hreinsað'],
 				))
@@ -373,7 +382,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 				)
 			)
 		elif scanned_word['staða'] == 'skammstöfun':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[44m\033[37m SKAMMSTÖFUN \033[0m' % (scanned_word['orð'], ))
 			if scanned_word['orð-hreinsað'] is None:
 				highlighted_sentence_list.append(
@@ -388,12 +397,12 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 					)
 				)
 		elif scanned_word['staða'] == 'vantar':
-			if hide_matches is False:
+			if show_matches is True:
 				print('"%s" \033[41m\033[37m VANTAR \033[0m' % (scanned_word['orð'], ))
 			highlighted_sentence_list.append(
 				'\033[41m\033[37m%s\033[0m' % (scanned_word['orð'], )
 			)
-		if hide_matches is False:
+		if show_matches is True:
 			for option in scanned_word['möguleikar']:
 				print(
 					(
@@ -401,7 +410,7 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 						'\033[34m└\033[0m \033[36m{m}\033[0m'
 					).format(**option)
 				)
-	if hide_matches is False:
+	if show_matches is True:
 		print('\033[36m---\033[0m\n')
 	highlighted_sentence = ' '.join(highlighted_sentence_list)
 	print('%s\n\033[36m---\033[0m' % (highlighted_sentence, ))
@@ -414,6 +423,8 @@ def scan_sentence(sentence: str, hide_matches: bool = False, clean_str: bool = T
 	print('Vantar: %s/%s, %s %%' % (
 		missing, len(scanned_sentence), format(100 * missing / len(scanned_sentence), '.3g'))
 	)
+	if show_kennistrengir is True:
+		print('\nKennistrengir:\n%s' % ('\n'.join(sorted(set_kennistrengir)), ))
 
 
 def load_sight(filename='sight', use_pointless=None):

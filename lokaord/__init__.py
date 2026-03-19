@@ -102,8 +102,8 @@ def search(word: str):
 	seer.search_word(word)
 
 
-def scan_sentence(sentence: str, hide_matches: bool = False):
-	seer.scan_sentence(sentence, hide_matches=hide_matches)
+def scan_sentence(sentence: str, show_kennistrengir: bool = False, show_matches: bool = False):
+	seer.scan_sentence(sentence, show_kennistrengir=show_kennistrengir, show_matches=show_matches)
 
 
 def get_stats():

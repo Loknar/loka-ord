@@ -111,7 +111,8 @@ def search(word: str):
 @app.command(help='Search for words in a sentence in sight file.')
 def scan_sentence(
 	sentence: Annotated[Optional[str], Argument()] = None,
-	hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False,
+	show_kennistrengir: Annotated[Optional[bool], Option('--show-kennistrengir', '-sk')] = False,
+	show_matches: Annotated[Optional[bool], Option('--show-matches', '-sm')] = False,
 	input_file: Annotated[Optional[Path], Option('--input-file', '-i')] = None
 ):
 	if sentence == '':
@@ -124,17 +125,18 @@ def scan_sentence(
 			sentence = infile.read()
 	if sentence is None and input_file is None:
 		raise typer.BadParameter('Either SENTENCE or --input-file PATH must be provided.')
-	lokaord.scan_sentence(sentence, hide_matches)
+	lokaord.scan_sentence(sentence, show_kennistrengir, show_matches)
 	lokaord.get_runtime()
 
 
 @app.command(help='Short for the "scan-sentence" command.')
 def ss(
 	sentence: Annotated[Optional[str], Argument()] = None,
-	hide_matches: Annotated[Optional[bool], Option('--hide-matches', '-hm')] = False,
+	show_kennistrengir: Annotated[Optional[bool], Option('--show-kennistrengir', '-sk')] = False,
+	show_matches: Annotated[Optional[bool], Option('--show-matches', '-sm')] = False,
 	input_file: Annotated[Optional[Path], Option('--input-file', '-i')] = None
 ):
-	scan_sentence(sentence, hide_matches, input_file)
+	scan_sentence(sentence, show_kennistrengir, show_matches, input_file)
 
 
 @app.command(help='Print database word count data in JSON string.')
