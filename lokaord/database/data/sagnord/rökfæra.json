@@ -1,0 +1,87 @@
+{
+	"orð": "rökfæra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rök",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rök-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-færa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rökfæra",
+		"sagnbót": "rökfært",
+		"boðháttur": {
+			"stýfður": "rökfær",
+			"et": "rökfærðu",
+			"ft": "rökfærið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rökfæri", "rökfærir", "rökfærir"],
+					"ft": ["rökfærum", "rökfærið", "rökfæra"]
+				},
+				"þátíð": {
+					"et": ["rökfærði", "rökfærðir", "rökfærði"],
+					"ft": ["rökfærðum", "rökfærðuð", "rökfærðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rökfæri", "rökfærir", "rökfæri"],
+					"ft": ["rökfærum", "rökfærið", "rökfæri"]
+				},
+				"þátíð": {
+					"et": ["rökfærði", "rökfærðir", "rökfærði"],
+					"ft": ["rökfærðum", "rökfærðuð", "rökfærðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rökfærirðu",
+					"ft": "rökfæriði"
+				},
+				"þátíð": {
+					"et": "rökfærðirðu",
+					"ft": "rökfærðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rökfærirðu",
+					"ft": "rökfæriði"
+				},
+				"þátíð": {
+					"et": "rökfærðirðu",
+					"ft": "rökfærðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rökfærandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rökfærður", "rökfærðan", "rökfærðum", "rökfærðs"],
+					"kvk": ["rökfærð", "rökfærða", "rökfærðri", "rökfærðrar"],
+					"hk": ["rökfært", "rökfært", "rökfærðu", "rökfærðs"]
+				},
+				"ft": {
+					"kk": ["rökfærðir", "rökfærða", "rökfærðum", "rökfærðra"],
+					"kvk": ["rökfærðar", "rökfærðar", "rökfærðum", "rökfærðra"],
+					"hk": ["rökfærð", "rökfærð", "rökfærðum", "rökfærðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rökfæra",
+	"hash": "3dc4e3a4496ef3ef341414374b9454d03738591e9d7195e7e66e1c00db09e9b3"
+}

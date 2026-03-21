@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-vald-hk"
-		},
-		{
-			"mynd": "beitingar",
+			"mynd": "valdbeitingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-beiting-kvk"
+			"kennistrengur": "no-valdbeiting-kvk"
 		},
 		{
 			"kennistrengur": "no-heimild-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["valdbeitingarheimildirnar", "valdbeitingarheimildirnar", "valdbeitingarheimildunum", "valdbeitingarheimildanna"]
 	},
 	"kennistrengur": "no-valdbeitingarheimild-kvk",
-	"hash": "d6182bdc033dabae95f8f9bd9eed5be020f6eb2450a9de3bb2a4e368dfacb471"
+	"hash": "6e318edec1589227fe20c3170f838af321b4572c7dc2343777449dad57ffe6e1"
 }

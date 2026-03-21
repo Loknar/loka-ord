@@ -1,0 +1,48 @@
+{
+	"orð": "heimssögulegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "heims",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heimur-kk"
+		},
+		{
+			"mynd": "sögu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-saga-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["heimssögulegur", "heimssögulegan", "heimssögulegum", "heimssögulegs"],
+				"kvk": ["heimssöguleg", "heimssögulega", "heimssögulegri", "heimssögulegrar"],
+				"hk": ["heimssögulegt", "heimssögulegt", "heimssögulegu", "heimssögulegs"]
+			},
+			"ft": {
+				"kk": ["heimssögulegir", "heimssögulega", "heimssögulegum", "heimssögulegra"],
+				"kvk": ["heimssögulegar", "heimssögulegar", "heimssögulegum", "heimssögulegra"],
+				"hk": ["heimssöguleg", "heimssöguleg", "heimssögulegum", "heimssögulegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["heimssögulegi", "heimssögulega", "heimssögulega", "heimssögulega"],
+				"kvk": ["heimssögulega", "heimssögulegu", "heimssögulegu", "heimssögulegu"],
+				"hk": ["heimssögulega", "heimssögulega", "heimssögulega", "heimssögulega"]
+			},
+			"ft": {
+				"kk": ["heimssögulegu", "heimssögulegu", "heimssögulegu", "heimssögulegu"],
+				"kvk": ["heimssögulegu", "heimssögulegu", "heimssögulegu", "heimssögulegu"],
+				"hk": ["heimssögulegu", "heimssögulegu", "heimssögulegu", "heimssögulegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-heimssögulegur",
+	"hash": "56eb01b21752e7a6e80e89ce0cc924664a07a0528b9868b3a83d975d8ff52c85"
+}
