@@ -1,0 +1,135 @@
+{
+	"orð": "leiftra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "leiftr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leiftur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "leiftra",
+		"sagnbót": "leiftrað",
+		"boðháttur": {
+			"stýfður": "leiftra",
+			"et": "leiftraðu",
+			"ft": "leiftrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leiftra", "leiftrar", "leiftrar"],
+					"ft": ["leiftrum", "leiftrið", "leiftra"]
+				},
+				"þátíð": {
+					"et": ["leiftraði", "leiftraðir", "leiftraði"],
+					"ft": ["leiftruðum", "leiftruðuð", "leiftruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leiftri", "leiftrir", "leiftri"],
+					"ft": ["leiftrum", "leiftrið", "leiftri"]
+				},
+				"þátíð": {
+					"et": ["leiftraði", "leiftraðir", "leiftraði"],
+					"ft": ["leiftruðum", "leiftruðuð", "leiftruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leiftrarðu",
+					"ft": "leiftriði"
+				},
+				"þátíð": {
+					"et": "leiftraðirðu",
+					"ft": "leiftruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leiftrirðu",
+					"ft": "leiftriði"
+				},
+				"þátíð": {
+					"et": "leiftraðirðu",
+					"ft": "leiftruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leiftrast",
+		"sagnbót": "leiftrast",
+		"boðháttur": {
+			"et": "leiftrastu",
+			"ft": "leiftrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leiftrast", "leiftrast", "leiftrast"],
+					"ft": ["leiftrumst", "leiftrist", "leiftrast"]
+				},
+				"þátíð": {
+					"et": ["leiftraðist", "leiftraðist", "leiftraðist"],
+					"ft": ["leiftruðumst", "leiftruðust", "leiftruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leiftrist", "leiftrist", "leiftrist"],
+					"ft": ["leiftrumst", "leiftrist", "leiftrist"]
+				},
+				"þátíð": {
+					"et": ["leiftraðist", "leiftraðist", "leiftraðist"],
+					"ft": ["leiftruðumst", "leiftruðust", "leiftruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leiftrastu"
+				},
+				"þátíð": {
+					"et": "leiftraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leiftristu"
+				},
+				"þátíð": {
+					"et": "leiftraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leiftrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leiftraður", "leiftraðan", "leiftruðum", "leiftraðs"],
+					"kvk": ["leiftruð", "leiftraða", "leiftraðri", "leiftraðrar"],
+					"hk": ["leiftrað", "leiftrað", "leiftruðu", "leiftraðs"]
+				},
+				"ft": {
+					"kk": ["leiftraðir", "leiftraða", "leiftruðum", "leiftraðra"],
+					"kvk": ["leiftraðar", "leiftraðar", "leiftruðum", "leiftraðra"],
+					"hk": ["leiftruð", "leiftruð", "leiftruðum", "leiftraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leiftra",
+	"hash": "d86c6b473574edd81412051cfaf866425ff41b1e0593d0cfa4be0c3ed8f9c34d"
+}
