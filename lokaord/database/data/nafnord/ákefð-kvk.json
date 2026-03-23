@@ -2,10 +2,21 @@
 	"orð": "ákefð",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ákef",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-ákafur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ð-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["ákefð", "ákefð", "ákefð", "ákefðar"],
 		"mg": ["ákefðin", "ákefðina", "ákefðinni", "ákefðarinnar"]
 	},
 	"kennistrengur": "no-ákefð-kvk",
-	"hash": "660e5513255ab3b7a6614de3b519d59c0257f6482b972393d072c11d9974f7b9"
+	"hash": "54de8a4f7f57ffc5825d703eb466c97448fa24c0f4bdd5978afaa593c38a03ad"
 }

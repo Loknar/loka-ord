@@ -1,0 +1,121 @@
+{
+	"orð": "sila",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sil",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sili-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sila",
+		"sagnbót": "silað",
+		"boðháttur": {
+			"stýfður": "sila",
+			"et": "silaðu",
+			"ft": "silið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sila", "silar", "silar"],
+					"ft": ["silum", "silið", "sila"]
+				},
+				"þátíð": {
+					"et": ["silaði", "silaðir", "silaði"],
+					"ft": ["siluðum", "siluðuð", "siluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sili", "silir", "sili"],
+					"ft": ["silum", "silið", "sili"]
+				},
+				"þátíð": {
+					"et": ["silaði", "silaðir", "silaði"],
+					"ft": ["siluðum", "siluðuð", "siluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "silarðu",
+					"ft": "siliði"
+				},
+				"þátíð": {
+					"et": "silaðirðu",
+					"ft": "siluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "silirðu",
+					"ft": "siliði"
+				},
+				"þátíð": {
+					"et": "silaðirðu",
+					"ft": "siluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "silast",
+		"sagnbót": "silast",
+		"boðháttur": {
+			"et": "silastu",
+			"ft": "silist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["silast", "silast", "silast"],
+					"ft": ["silumst", "silist", "silast"]
+				},
+				"þátíð": {
+					"et": ["silaðist", "silaðist", "silaðist"],
+					"ft": ["siluðumst", "siluðust", "siluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["silist", "silist", "silist"],
+					"ft": ["silumst", "silist", "silist"]
+				},
+				"þátíð": {
+					"et": ["silaðist", "silaðist", "silaðist"],
+					"ft": ["siluðumst", "siluðust", "siluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "silastu"
+				},
+				"þátíð": {
+					"et": "silaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "silistu"
+				},
+				"þátíð": {
+					"et": "silaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "silandi"
+	},
+	"kennistrengur": "so-sila",
+	"hash": "1cc8b534032208935d03240ea34079ac12337157d1dac376516d8e5fa2e44116"
+}

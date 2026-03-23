@@ -2,14 +2,24 @@
 	"orð": "skvísa",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skvís",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skvís-kvk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["skvísa", "skvísu", "skvísu", "skvísu"],
 		"mg": ["skvísan", "skvísuna", "skvísunni", "skvísunnar"]
 	},
 	"ft": {
-		"ág": ["skvísur", "skvísur", "skvísum", "skvísna"],
-		"mg": ["skvísurnar", "skvísurnar", "skvísunum", "skvísnanna"]
+		"ág": ["skvísur", "skvísur", "skvísum", "skvísa"],
+		"mg": ["skvísurnar", "skvísurnar", "skvísunum", "skvísanna"]
 	},
 	"kennistrengur": "no-skvísa-kvk",
-	"hash": "591349f12b4acc20d23e959a31fd76a2feed07801dc60a0bcc7469ecd70b8d9e"
+	"hash": "e2d3aee2ab42fd2f3f6e0e6ddee46bc7928a30c46316e22c2a5d2a3f2c4a185b"
 }
