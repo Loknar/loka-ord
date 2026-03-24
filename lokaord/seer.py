@@ -960,7 +960,8 @@ def clean_string(mystr: str) -> str:
 		# fjarlægja ákveðin bil
 		(' o. fl.,', ' o.fl.,'),
 		(' o. fl. ', ' o.fl. '),
-		(' o. s. frv.', ' o.s.frv.'),
+		(' o. s. frv. ', ' o.s.frv. '),
+		(' hv. þm. ', ' hv.þm. '),
 		# hækkaðir og lækkaðir stafir normalisering
 		('²', '2'),
 		('₂', '2'),
