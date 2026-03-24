@@ -1,0 +1,87 @@
+{
+	"orð": "krókríða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "krók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-krókur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ríða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "krókríða",
+		"sagnbót": "krókriðið",
+		"boðháttur": {
+			"stýfður": "krókríð",
+			"et": "krókríddu",
+			"ft": "krókríðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["krókríð", "krókríður", "krókríður"],
+					"ft": ["krókríðum", "krókríðið", "krókríða"]
+				},
+				"þátíð": {
+					"et": ["krókreið", "krókreiðst", "krókreið"],
+					"ft": ["krókriðum", "krókriðuð", "krókriðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["krókríði", "krókríðir", "krókríði"],
+					"ft": ["krókríðum", "krókríðið", "krókríði"]
+				},
+				"þátíð": {
+					"et": ["krókriði", "krókriðir", "krókriði"],
+					"ft": ["krókriðum", "krókriðuð", "krókriðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "krókríðurðu",
+					"ft": "krókríðiði"
+				},
+				"þátíð": {
+					"et": "krókreiðstu",
+					"ft": "krókriðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "krókríðirðu",
+					"ft": "krókríðiði"
+				},
+				"þátíð": {
+					"et": "krókriðirðu",
+					"ft": "krókriðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "krókríðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["krókriðinn", "krókriðinn", "krókriðnum", "krókriðins"],
+					"kvk": ["krókriðin", "krókriðna", "krókriðinni", "krókriðinnar"],
+					"hk": ["krókriðið", "krókriðið", "krókriðnu", "krókriðins"]
+				},
+				"ft": {
+					"kk": ["krókriðnir", "krókriðna", "krókriðnum", "krókriðinna"],
+					"kvk": ["krókriðnar", "krókriðnar", "krókriðnum", "krókriðinna"],
+					"hk": ["krókriðin", "krókriðin", "krókriðnum", "krókriðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-krókríða",
+	"hash": "8c8e0f4899a7f041df89115f737f4d3dd90a974e25022e1d1699ab5d0d59bd27"
+}

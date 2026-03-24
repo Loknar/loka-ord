@@ -1,0 +1,87 @@
+{
+	"orð": "sneisa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sneis",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sneis-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sneisa",
+		"sagnbót": "sneisað",
+		"boðháttur": {
+			"stýfður": "sneisa",
+			"et": "sneisaðu",
+			"ft": "sneisið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sneisa", "sneisar", "sneisar"],
+					"ft": ["sneisum", "sneisið", "sneisa"]
+				},
+				"þátíð": {
+					"et": ["sneisaði", "sneisaðir", "sneisaði"],
+					"ft": ["sneisuðum", "sneisuðuð", "sneisuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sneisi", "sneisir", "sneisi"],
+					"ft": ["sneisum", "sneisið", "sneisi"]
+				},
+				"þátíð": {
+					"et": ["sneisaði", "sneisaðir", "sneisaði"],
+					"ft": ["sneisuðum", "sneisuðuð", "sneisuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sneisarðu",
+					"ft": "sneisiði"
+				},
+				"þátíð": {
+					"et": "sneisaðirðu",
+					"ft": "sneisuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sneisirðu",
+					"ft": "sneisiði"
+				},
+				"þátíð": {
+					"et": "sneisaðirðu",
+					"ft": "sneisuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sneisandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sneisaður", "sneisaðan", "sneisuðum", "sneisaðs"],
+					"kvk": ["sneisuð", "sneisaða", "sneisaðri", "sneisaðrar"],
+					"hk": ["sneisað", "sneisað", "sneisuðu", "sneisaðs"]
+				},
+				"ft": {
+					"kk": ["sneisaðir", "sneisaða", "sneisuðum", "sneisaðra"],
+					"kvk": ["sneisaðar", "sneisaðar", "sneisuðum", "sneisaðra"],
+					"hk": ["sneisuð", "sneisuð", "sneisuðum", "sneisaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sneisa",
+	"hash": "c941aaa52b20de2f95ecb79f91ee6abb80051efcd8c0bc4f71ec1432b5425414"
+}

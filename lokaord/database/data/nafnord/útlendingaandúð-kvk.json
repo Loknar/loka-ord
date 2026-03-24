@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "út",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
-		},
-		{
-			"mynd": "lendinga",
+			"mynd": "útlendinga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lendingur-kk-ó"
+			"kennistrengur": "no-útlendingur-kk"
 		},
 		{
-			"mynd": "and",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-and-ó"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-úð-kvk"
+			"kennistrengur": "no-andúð-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["útlendingaandúðin", "útlendingaandúðina", "útlendingaandúðinni", "útlendingaandúðarinnar"]
 	},
 	"kennistrengur": "no-útlendingaandúð-kvk",
-	"hash": "255101713f71635ca64db09de3eaf6e4cb7c1ddf07ffaf68b2b4f895482a4cec"
+	"hash": "ecab79392bd091de3adf27c4c9342596ce98377bd37a9c4c920df82af705e8ec"
 }
