@@ -1,0 +1,73 @@
+{
+	"orð": "hálfskjálfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hálf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-skjálfa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hálfskjálfa",
+		"sagnbót": "hálfskolfið",
+		"boðháttur": {
+			"stýfður": "hálfskjálf",
+			"et": "hálfskjálfðu",
+			"ft": "hálfskjálfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hálfskelf", "hálfskelfur", "hálfskelfur"],
+					"ft": ["hálfskjálfum", "hálfskjálfið", "hálfskjálfa"]
+				},
+				"þátíð": {
+					"et": ["hálfskalf", "hálfskalfst", "hálfskalf"],
+					"ft": ["hálfskulfum", "hálfskulfuð", "hálfskulfu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hálfskjálfi", "hálfskjálfir", "hálfskjálfi"],
+					"ft": ["hálfskjálfum", "hálfskjálfið", "hálfskjálfi"]
+				},
+				"þátíð": {
+					"et": ["hálfskylfi", "hálfskylfir", "hálfskylfi"],
+					"ft": ["hálfskylfum", "hálfskylfuð", "hálfskylfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hálfskelfurðu",
+					"ft": "hálfskelfiði"
+				},
+				"þátíð": {
+					"et": "hálfskalfstu",
+					"ft": "hálfskulfuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hálfskelfirðu",
+					"ft": "hálfskelfiði"
+				},
+				"þátíð": {
+					"et": "hálfskylfirðu",
+					"ft": "hálfskylfuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hálfskjálfandi"
+	},
+	"kennistrengur": "so-hálfskjálfa",
+	"hash": "7707c8c25b241e7296519f99f0700cf2bc2548f73f1c6ba30befbaae8979620e"
+}

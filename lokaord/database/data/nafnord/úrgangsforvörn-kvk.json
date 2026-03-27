@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "úr",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-úr"
-		},
-		{
-			"mynd": "gangs",
+			"mynd": "úrgangs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gangur-kk"
+			"kennistrengur": "no-úrgangur-kk"
 		},
 		{
-			"mynd": "for",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-for-ó"
-		},
-		{
-			"kennistrengur": "no-vörn-kvk"
+			"kennistrengur": "no-forvörn-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["úrgangsforvarnirnar", "úrgangsforvarnirnar", "úrgangsforvörnunum", "úrgangsforvarnanna"]
 	},
 	"kennistrengur": "no-úrgangsforvörn-kvk",
-	"hash": "5b359720cd57ec1448cadfea5a698b116b22e60bc2e51fef14cffc07bcaa92fb"
+	"hash": "a2d354a09348a4c6ff5624ba3f99193d0e1685cc4369ca0f92b3e909886c5a67"
 }

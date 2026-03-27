@@ -1,0 +1,73 @@
+{
+	"orð": "umsöðla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-söðla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umsöðla",
+		"sagnbót": "umsöðlað",
+		"boðháttur": {
+			"stýfður": "umsöðla",
+			"et": "umsöðlaðu",
+			"ft": "umsöðlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umsöðla", "umsöðlar", "umsöðlar"],
+					"ft": ["umsöðlum", "umsöðlið", "umsöðla"]
+				},
+				"þátíð": {
+					"et": ["umsöðlaði", "umsöðlaðir", "umsöðlaði"],
+					"ft": ["umsöðluðum", "umsöðluðuð", "umsöðluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umsöðli", "umsöðlir", "umsöðli"],
+					"ft": ["umsöðlum", "umsöðlið", "umsöðli"]
+				},
+				"þátíð": {
+					"et": ["umsöðlaði", "umsöðlaðir", "umsöðlaði"],
+					"ft": ["umsöðluðum", "umsöðluðuð", "umsöðluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umsöðlarðu",
+					"ft": "umsöðliði"
+				},
+				"þátíð": {
+					"et": "umsöðlaðirðu",
+					"ft": "umsöðluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umsöðlirðu",
+					"ft": "umsöðliði"
+				},
+				"þátíð": {
+					"et": "umsöðlaðirðu",
+					"ft": "umsöðluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umsöðlandi"
+	},
+	"kennistrengur": "so-umsöðla",
+	"hash": "69161b190f636c038aefc91478ee4df683fc3d1f71b1e1dfa9bde0f9a9945817"
+}
