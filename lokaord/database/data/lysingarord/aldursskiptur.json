@@ -1,0 +1,43 @@
+{
+	"orð": "aldursskiptur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "aldurs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-aldur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skiptur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["aldursskiptur", "aldursskiptan", "aldursskiptum", "aldursskipts"],
+				"kvk": ["aldursskipt", "aldursskipta", "aldursskiptri", "aldursskiptrar"],
+				"hk": ["aldursskipt", "aldursskipt", "aldursskiptu", "aldursskipts"]
+			},
+			"ft": {
+				"kk": ["aldursskiptir", "aldursskipta", "aldursskiptum", "aldursskiptra"],
+				"kvk": ["aldursskiptar", "aldursskiptar", "aldursskiptum", "aldursskiptra"],
+				"hk": ["aldursskipt", "aldursskipt", "aldursskiptum", "aldursskiptra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["aldursskipti", "aldursskipta", "aldursskipta", "aldursskipta"],
+				"kvk": ["aldursskipta", "aldursskiptu", "aldursskiptu", "aldursskiptu"],
+				"hk": ["aldursskipta", "aldursskipta", "aldursskipta", "aldursskipta"]
+			},
+			"ft": {
+				"kk": ["aldursskiptu", "aldursskiptu", "aldursskiptu", "aldursskiptu"],
+				"kvk": ["aldursskiptu", "aldursskiptu", "aldursskiptu", "aldursskiptu"],
+				"hk": ["aldursskiptu", "aldursskiptu", "aldursskiptu", "aldursskiptu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-aldursskiptur",
+	"hash": "928c39da839505fd3a1a031a733ada96bb7376e2c9434236011aace25c70ccb6"
+}

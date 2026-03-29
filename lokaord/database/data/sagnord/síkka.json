@@ -1,0 +1,99 @@
+{
+	"orð": "síkka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "síkk",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-síður"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "síkka",
+		"sagnbót": "síkkað",
+		"boðháttur": {
+			"stýfður": "síkka",
+			"et": "síkkaðu",
+			"ft": "síkkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["síkka", "síkkar", "síkkar"],
+					"ft": ["síkkum", "síkkið", "síkka"]
+				},
+				"þátíð": {
+					"et": ["síkkaði", "síkkaðir", "síkkaði"],
+					"ft": ["síkkuðum", "síkkuðuð", "síkkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["síkki", "síkkir", "síkki"],
+					"ft": ["síkkum", "síkkið", "síkki"]
+				},
+				"þátíð": {
+					"et": ["síkkaði", "síkkaðir", "síkkaði"],
+					"ft": ["síkkuðum", "síkkuðuð", "síkkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "síkkarðu",
+					"ft": "síkkiði"
+				},
+				"þátíð": {
+					"et": "síkkaðirðu",
+					"ft": "síkkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "síkkirðu",
+					"ft": "síkkiði"
+				},
+				"þátíð": {
+					"et": "síkkaðirðu",
+					"ft": "síkkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "síkkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["síkkaður", "síkkaðan", "síkkuðum", "síkkaðs"],
+					"kvk": ["síkkuð", "síkkaða", "síkkaðri", "síkkaðrar"],
+					"hk": ["síkkað", "síkkað", "síkkuðu", "síkkaðs"]
+				},
+				"ft": {
+					"kk": ["síkkaðir", "síkkaða", "síkkuðum", "síkkaðra"],
+					"kvk": ["síkkaðar", "síkkaðar", "síkkuðum", "síkkaðra"],
+					"hk": ["síkkuð", "síkkuð", "síkkuðum", "síkkaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["síkkaði", "síkkaða", "síkkaða", "síkkaða"],
+					"kvk": ["síkkaða", "síkkuðu", "síkkuðu", "síkkuðu"],
+					"hk": ["síkkaða", "síkkaða", "síkkaða", "síkkaða"]
+				},
+				"ft": {
+					"kk": ["síkkuðu", "síkkuðu", "síkkuðu", "síkkuðu"],
+					"kvk": ["síkkuðu", "síkkuðu", "síkkuðu", "síkkuðu"],
+					"hk": ["síkkuðu", "síkkuðu", "síkkuðu", "síkkuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-síkka",
+	"hash": "086f753e7587d082f4e2512e92082521b10dc859b4919ee735be5b3a31b192ed"
+}
