@@ -1,0 +1,99 @@
+{
+	"orð": "kyngreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kyn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kyn-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kyngreina",
+		"sagnbót": "kyngreint",
+		"boðháttur": {
+			"stýfður": "kyngrein",
+			"et": "kyngreindu",
+			"ft": "kyngreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kyngreini", "kyngreinir", "kyngreinir"],
+					"ft": ["kyngreinum", "kyngreinið", "kyngreina"]
+				},
+				"þátíð": {
+					"et": ["kyngreindi", "kyngreindir", "kyngreindi"],
+					"ft": ["kyngreindum", "kyngreinduð", "kyngreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kyngreini", "kyngreinir", "kyngreini"],
+					"ft": ["kyngreinum", "kyngreinið", "kyngreini"]
+				},
+				"þátíð": {
+					"et": ["kyngreindi", "kyngreindir", "kyngreindi"],
+					"ft": ["kyngreindum", "kyngreinduð", "kyngreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kyngreinirðu",
+					"ft": "kyngreiniði"
+				},
+				"þátíð": {
+					"et": "kyngreindirðu",
+					"ft": "kyngreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kyngreinirðu",
+					"ft": "kyngreiniði"
+				},
+				"þátíð": {
+					"et": "kyngreindirðu",
+					"ft": "kyngreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kyngreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kyngreindur", "kyngreindan", "kyngreindum", "kyngreinds"],
+					"kvk": ["kyngreind", "kyngreinda", "kyngreindri", "kyngreindrar"],
+					"hk": ["kyngreint", "kyngreint", "kyngreindu", "kyngreinds"]
+				},
+				"ft": {
+					"kk": ["kyngreindir", "kyngreinda", "kyngreindum", "kyngreindra"],
+					"kvk": ["kyngreindar", "kyngreindar", "kyngreindum", "kyngreindra"],
+					"hk": ["kyngreind", "kyngreind", "kyngreindum", "kyngreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kyngreindi", "kyngreinda", "kyngreinda", "kyngreinda"],
+					"kvk": ["kyngreinda", "kyngreindu", "kyngreindu", "kyngreindu"],
+					"hk": ["kyngreinda", "kyngreinda", "kyngreinda", "kyngreinda"]
+				},
+				"ft": {
+					"kk": ["kyngreindu", "kyngreindu", "kyngreindu", "kyngreindu"],
+					"kvk": ["kyngreindu", "kyngreindu", "kyngreindu", "kyngreindu"],
+					"hk": ["kyngreindu", "kyngreindu", "kyngreindu", "kyngreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kyngreina",
+	"hash": "db0061cb11264459db0e2a788b5a9ce9bff04827c8e6fcfece514e2da1cdc028"
+}

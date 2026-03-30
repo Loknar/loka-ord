@@ -1,0 +1,73 @@
+{
+	"orð": "gjóa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gjó",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gjá-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gjóa",
+		"sagnbót": "gjóað",
+		"boðháttur": {
+			"stýfður": "gjóa",
+			"et": "gjóaðu",
+			"ft": "gjóið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gjóa", "gjóar", "gjóar"],
+					"ft": ["gjóum", "gjóið", "gjóa"]
+				},
+				"þátíð": {
+					"et": ["gjóaði", "gjóaðir", "gjóaði"],
+					"ft": ["gjóuðum", "gjóuðuð", "gjóuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gjói", "gjóir", "gjói"],
+					"ft": ["gjóum", "gjóið", "gjói"]
+				},
+				"þátíð": {
+					"et": ["gjóaði", "gjóaðir", "gjóaði"],
+					"ft": ["gjóuðum", "gjóuðuð", "gjóuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gjóarðu",
+					"ft": "gjóiði"
+				},
+				"þátíð": {
+					"et": "gjóaðirðu",
+					"ft": "gjóuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gjóirðu",
+					"ft": "gjóiði"
+				},
+				"þátíð": {
+					"et": "gjóaðirðu",
+					"ft": "gjóuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gjóandi"
+	},
+	"kennistrengur": "so-gjóa",
+	"hash": "6d99ec9a46039c54819fdd320c3762fd61be140e1ab7b0bf0931a1a8d509a53f"
+}

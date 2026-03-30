@@ -1,0 +1,121 @@
+{
+	"orð": "einstaklingsmiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "einstaklings",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-einstaklingur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-miða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "einstaklingsmiða",
+		"sagnbót": "einstaklingsmiðað",
+		"boðháttur": {
+			"stýfður": "einstaklingsmiða",
+			"et": "einstaklingsmiðaðu",
+			"ft": "einstaklingsmiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einstaklingsmiða", "einstaklingsmiðar", "einstaklingsmiðar"],
+					"ft": ["einstaklingsmiðum", "einstaklingsmiðið", "einstaklingsmiða"]
+				},
+				"þátíð": {
+					"et": ["einstaklingsmiðaði", "einstaklingsmiðaðir", "einstaklingsmiðaði"],
+					"ft": ["einstaklingsmiðuðum", "einstaklingsmiðuðuð", "einstaklingsmiðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einstaklingsmiði", "einstaklingsmiðir", "einstaklingsmiði"],
+					"ft": ["einstaklingsmiðum", "einstaklingsmiðið", "einstaklingsmiði"]
+				},
+				"þátíð": {
+					"et": ["einstaklingsmiðaði", "einstaklingsmiðaðir", "einstaklingsmiðaði"],
+					"ft": ["einstaklingsmiðuðum", "einstaklingsmiðuðuð", "einstaklingsmiðuðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["einstaklingsmiðar", "einstaklingsmiðar", "einstaklingsmiðar"],
+					"ft": ["einstaklingsmiðar", "einstaklingsmiðar", "einstaklingsmiðar"]
+				},
+				"þátíð": {
+					"et": ["einstaklingsmiðaði", "einstaklingsmiðaði", "einstaklingsmiðaði"],
+					"ft": ["einstaklingsmiðaði", "einstaklingsmiðaði", "einstaklingsmiðaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["einstaklingsmiði", "einstaklingsmiði", "einstaklingsmiði"],
+					"ft": ["einstaklingsmiði", "einstaklingsmiði", "einstaklingsmiði"]
+				},
+				"þátíð": {
+					"et": ["einstaklingsmiðaði", "einstaklingsmiðaði", "einstaklingsmiðaði"],
+					"ft": ["einstaklingsmiðaði", "einstaklingsmiðaði", "einstaklingsmiðaði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "einstaklingsmiðarðu",
+					"ft": "einstaklingsmiðiði"
+				},
+				"þátíð": {
+					"et": "einstaklingsmiðaðirðu",
+					"ft": "einstaklingsmiðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "einstaklingsmiðirðu",
+					"ft": "einstaklingsmiðiði"
+				},
+				"þátíð": {
+					"et": "einstaklingsmiðaðirðu",
+					"ft": "einstaklingsmiðuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["einstaklingsmiðaður", "einstaklingsmiðaðan", "einstaklingsmiðuðum", "einstaklingsmiðaðs"],
+					"kvk": ["einstaklingsmiðuð", "einstaklingsmiðaða", "einstaklingsmiðaðri", "einstaklingsmiðaðrar"],
+					"hk": ["einstaklingsmiðað", "einstaklingsmiðað", "einstaklingsmiðuðu", "einstaklingsmiðaðs"]
+				},
+				"ft": {
+					"kk": ["einstaklingsmiðaðir", "einstaklingsmiðaða", "einstaklingsstæðkkuðum", "einstaklingsmiðaðra"],
+					"kvk": ["einstaklingsmiðaðar", "einstaklingsmiðaðar", "einstaklingsmiðuðum", "einstaklingsmiðaðra"],
+					"hk": ["einstaklingsmiðuð", "einstaklingsmiðuð", "einstaklingsmiðuðum", "einstaklingsmiðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["einstaklingsmiðaði", "einstaklingsmiðaða", "einstaklingsmiðaða", "einstaklingsmiðaða"],
+					"kvk": ["einstaklingsmiðaða", "einstaklingsmiðuðu", "einstaklingsmiðuðu", "einstaklingsmiðuðu"],
+					"hk": ["einstaklingsmiðaða", "einstaklingsmiðaða", "einstaklingsmiðaða", "einstaklingsmiðaða"]
+				},
+				"ft": {
+					"kk": ["einstaklingsmiðuðu", "einstaklingsmiðuðu", "einstaklingsmiðuðu", "einstaklingsmiðuðu"],
+					"kvk": ["einstaklingsmiðuðu", "einstaklingsmiðuðu", "einstaklingsmiðuðu", "einstaklingsmiðuðu"],
+					"hk": ["einstaklingsmiðuðu", "einstaklingsmiðuðu", "einstaklingsmiðuðu", "einstaklingsmiðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-einstaklingsmiða",
+	"hash": "c543c946438946328485f3b73225f3d99c61762e341f62976b3a77f2a95083af"
+}

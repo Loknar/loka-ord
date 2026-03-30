@@ -2,6 +2,16 @@
 	"orð": "virði",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "virð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["virði", "virði", "virði", "virðis"],
 		"mg": ["virðið", "virðið", "virðinu", "virðisins"]
@@ -11,5 +21,5 @@
 		"mg": ["virðin", "virðin", "virðunum", "virðanna"]
 	},
 	"kennistrengur": "no-virði-hk",
-	"hash": "6ea6d6c7130e7377e58866b7446913072ef22995c0374c229de1c79814775b05"
+	"hash": "715068940af6109bde4f63a5c675c57a79d04003d84160f47eb4a52f7f874fae"
 }

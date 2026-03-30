@@ -1,6 +1,16 @@
 {
 	"orð": "aktífur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "akt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-akt-kvk"
+		},
+		{
+			"kennistrengur": "lo-ífur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-aktífur",
-	"hash": "0c3d4ba367b3c891da6993f724856f620c65d02a0d40e985417437ea5127ce47"
+	"hash": "393e5774842cd2bfa83f4c370c77cf5754ab41bb544b9577bd4bf8cfa8652a56"
 }

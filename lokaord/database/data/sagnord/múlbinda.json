@@ -1,0 +1,99 @@
+{
+	"orð": "múlbinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "múl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-múłl-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "múlbinda",
+		"sagnbót": "múlbundið",
+		"boðháttur": {
+			"stýfður": "múlbind",
+			"et": "múlbittu",
+			"ft": "múlbindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["múlbind", "múlbindur", "múlbindur"],
+					"ft": ["múlbindum", "múlbindið", "múlbinda"]
+				},
+				"þátíð": {
+					"et": ["múlbatt", "múlbast", "múlbatt"],
+					"ft": ["múlbundum", "múlbunduð", "múlbundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["múlbindi", "múlbindir", "múlbindi"],
+					"ft": ["múlbindum", "múlbindið", "múlbindi"]
+				},
+				"þátíð": {
+					"et": ["múlbyndi", "múlbyndir", "múlbyndi"],
+					"ft": ["múlbyndum", "múlbynduð", "múlbyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "múlbindurðu",
+					"ft": "múlbindiði"
+				},
+				"þátíð": {
+					"et": "múlbastu",
+					"ft": "múlbunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "múlbindirðu",
+					"ft": "múlbindiði"
+				},
+				"þátíð": {
+					"et": "múlbyndirðu",
+					"ft": "múlbynduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "múlbindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["múlbundinn", "múlbundinn", "múlbundnum", "múlbundins"],
+					"kvk": ["múlbundin", "múlbundna", "múlbundinni", "múlbundinnar"],
+					"hk": ["múlbundið", "múlbundið", "múlbundnu", "múlbundins"]
+				},
+				"ft": {
+					"kk": ["múlbundnir", "múlbundna", "múlbundnum", "múlbundinna"],
+					"kvk": ["múlbundnar", "múlbundnar", "múlbundnum", "múlbundinna"],
+					"hk": ["múlbundin", "múlbundin", "múlbundnum", "múlbundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["múlbundni", "múlbundna", "múlbundna", "múlbundna"],
+					"kvk": ["múlbundna", "múlbundnu", "múlbundnu", "múlbundnu"],
+					"hk": ["múlbundna", "múlbundna", "múlbundna", "múlbundna"]
+				},
+				"ft": {
+					"kk": ["múlbundnu", "múlbundnu", "múlbundnu", "múlbundnu"],
+					"kvk": ["múlbundnu", "múlbundnu", "múlbundnu", "múlbundnu"],
+					"hk": ["múlbundnu", "múlbundnu", "múlbundnu", "múlbundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-múlbinda",
+	"hash": "e7c4b873542a2cde227c553cedf5a5a38cfbb08d92b00f180f5286fec3a439b2"
+}
