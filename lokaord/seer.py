@@ -89,6 +89,9 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 	def lower_then_uppercase(word: str) -> str:
 		return uppercase(lowercase(word))
 
+	def all_caps(word: str) -> str:
+		return word.upper()
+
 	def apply_possibility(
 		word: str, applier: list[bool], change_functions: list[Callable[[str], str]]
 	) -> str:
@@ -114,6 +117,7 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 		uppercase,
 		lowercase,
 		lower_then_uppercase,
+		all_caps,
 	]
 	len_change_functions = len(change_functions)
 	appliers = sorted(
@@ -306,6 +310,16 @@ def scan_sentence(
 			elif check_if_string_is_date(e_word_p):
 				scanned_word['orð-hreinsað'] = e_word_p
 				scanned_word['staða'] = 'dagsetning'
+				break
+			elif e_word_p in sight['skammstafanir']:
+				myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][e_word_p]['myndir']])
+				scanned_word['orð-hreinsað'] = e_word_p
+				scanned_word['staða'] = 'skammstöfun'
+				scanned_word['möguleikar'].append({
+					'k': sight['skammstafanir'][e_word_p]['kennistrengur'],
+					'm': myndir
+				})
+				found += 1
 				break
 			else:
 				scanned_word['staða'] = 'vantar'
