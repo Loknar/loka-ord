@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "kaup",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kaup-hk"
-		},
-		{
-			"mynd": "máttar",
+			"mynd": "kaupmáttar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-máttur-kk"
+			"kennistrengur": "no-kaupmáttur-kk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["kaupmáttarvöxturinn", "kaupmáttarvöxtinn", "kaupmáttarvextinum", "kaupmáttarvaxtarins"]
 	},
 	"kennistrengur": "no-kaupmáttarvöxtur-kk",
-	"hash": "3cc36bf61cce47ce85a61cc0fdbdd0dd3c9ab850e4e35b844549fed8002fa62a"
+	"hash": "c0a9d502f96b06b3ac6bd97ea9afb0e846e321988b672a197c0da340d1cfaf9b"
 }
