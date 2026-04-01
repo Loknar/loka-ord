@@ -3,14 +3,9 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "reiknings",
+			"mynd": "reikningshalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-reikningur-kk"
-		},
-		{
-			"mynd": "halds",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-reikningshald-hk"
 		},
 		{
 			"beygingar": ["frumstig"],
@@ -44,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-reikningshaldslegur",
-	"hash": "19c5c27066ff1b92f521b98f30141ab6dc7eab6cbee45ba1861ae5374a5aa684"
+	"hash": "68ba0ed6e968cb8de61d190c2476b560a53ed858ecca0e43239b32cb40369b16"
 }

@@ -1,0 +1,27 @@
+{
+	"orð": "raunlokastaða",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "raun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raun-kvk"
+		},
+		{
+			"mynd": "loka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lok-hk-_endir_"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-staða-kvk"
+		}
+	],
+	"et": {
+		"ág": ["raunlokastaða", "raunlokastöðu", "raunlokastöðu", "raunlokastöðu"],
+		"mg": ["raunlokastaðan", "raunlokastöðuna", "raunlokastöðunni", "raunlokastöðunnar"]
+	},
+	"kennistrengur": "no-raunlokastaða-kvk",
+	"hash": "cd5685d969e3df3a004f8fad64ea5986002a104b420ad8311325907b41734599"
+}

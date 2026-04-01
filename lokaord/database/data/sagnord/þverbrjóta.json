@@ -1,0 +1,99 @@
+{
+	"orð": "þverbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þver",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-þver"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þverbrjóta",
+		"sagnbót": "þverbrotið",
+		"boðháttur": {
+			"stýfður": "þverbrjót",
+			"et": "þverbrjóttu",
+			"ft": "þverbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þverbrýt", "þverbrýtur", "þverbrýtur"],
+					"ft": ["þverbrjótum", "þverbrjótið", "þverbrjóta"]
+				},
+				"þátíð": {
+					"et": ["þverbraut", "þverbraust", "þverbraut"],
+					"ft": ["þverbrutum", "þverbrutuð", "þverbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þverbrjóti", "þverbrjótir", "þverbrjóti"],
+					"ft": ["þverbrjótum", "þverbrjótið", "þverbrjóti"]
+				},
+				"þátíð": {
+					"et": ["þverbryti", "þverbrytir", "þverbryti"],
+					"ft": ["þverbrytum", "þverbrytuð", "þverbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þverbrýturðu",
+					"ft": "þverbrjótiði"
+				},
+				"þátíð": {
+					"et": "þverbraustu",
+					"ft": "þverbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þverbrjótirðu",
+					"ft": "þverbrjótiði"
+				},
+				"þátíð": {
+					"et": "þverbrytirðu",
+					"ft": "þverbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þverbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þverbrotinn", "þverbrotinn", "þverbrotnum", "þverbrotins"],
+					"kvk": ["þverbrotin", "þverbrotna", "þverbrotinni", "þverbrotinnar"],
+					"hk": ["þverbrotið", "þverbrotið", "þverbrotnu", "þverbrotins"]
+				},
+				"ft": {
+					"kk": ["þverbrotnir", "þverbrotna", "þverbrotnum", "þverbrotinna"],
+					"kvk": ["þverbrotnar", "þverbrotnar", "þverbrotnum", "þverbrotinna"],
+					"hk": ["þverbrotin", "þverbrotin", "þverbrotnum", "þverbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þverbrotni", "þverbrotna", "þverbrotna", "þverbrotna"],
+					"kvk": ["þverbrotna", "þverbrotnu", "þverbrotnu", "þverbrotnu"],
+					"hk": ["þverbrotna", "þverbrotna", "þverbrotna", "þverbrotna"]
+				},
+				"ft": {
+					"kk": ["þverbrotnu", "þverbrotnu", "þverbrotnu", "þverbrotnu"],
+					"kvk": ["þverbrotnu", "þverbrotnu", "þverbrotnu", "þverbrotnu"],
+					"hk": ["þverbrotnu", "þverbrotnu", "þverbrotnu", "þverbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þverbrjóta",
+	"hash": "a9b32de0236dd1ec14689c1252d619c1ffbdc63463abfe695fdb33ebf0cbaa2f"
+}
