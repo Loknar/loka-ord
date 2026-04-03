@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "hval",
+			"mynd": "hvalveiði",
 			"samsetning": "stofn",
-			"kennistrengur": "no-hvalur-kk"
+			"kennistrengur": "no-hvalveiði-kvk"
 		},
 		{
-			"mynd": "veiði",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-veiði-kvk"
-		},
-		{
-			"mynd": "mót",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-mót"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-mæli-hk"
+			"kennistrengur": "no-mótmæli-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["hvalveiðimótmælin", "hvalveiðimótmælin", "hvalveiðimótmælunum", "hvalveiðimótmælanna"]
 	},
 	"kennistrengur": "no-hvalveiðimótmæli-hk",
-	"hash": "db21e6081230bf431769c262d8867a2b20243ce301db8260f8c1a6b230c2cd6c"
+	"hash": "0092e68f51df64ab610da2096c50770994fd4d2332b07adf1f45c6c7363dede5"
 }
