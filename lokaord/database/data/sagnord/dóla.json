@@ -1,0 +1,121 @@
+{
+	"orð": "dóla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dól-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dóla",
+		"sagnbót": "dólað",
+		"boðháttur": {
+			"stýfður": "dóla",
+			"et": "dólaðu",
+			"ft": "dólið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dóla", "dólar", "dólar"],
+					"ft": ["dólum", "dólið", "dóla"]
+				},
+				"þátíð": {
+					"et": ["dólaði", "dólaðir", "dólaði"],
+					"ft": ["dóluðum", "dóluðuð", "dóluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dóli", "dólir", "dóli"],
+					"ft": ["dólum", "dólið", "dóli"]
+				},
+				"þátíð": {
+					"et": ["dólaði", "dólaðir", "dólaði"],
+					"ft": ["dóluðum", "dóluðuð", "dóluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dólarðu",
+					"ft": "dóliði"
+				},
+				"þátíð": {
+					"et": "dólaðirðu",
+					"ft": "dóluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dólirðu",
+					"ft": "dóliði"
+				},
+				"þátíð": {
+					"et": "dólaðirðu",
+					"ft": "dóluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dólast",
+		"sagnbót": "dólast",
+		"boðháttur": {
+			"et": "dólastu",
+			"ft": "dólist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dólast", "dólast", "dólast"],
+					"ft": ["dólumst", "dólist", "dólast"]
+				},
+				"þátíð": {
+					"et": ["dólaðist", "dólaðist", "dólaðist"],
+					"ft": ["dóluðumst", "dóluðust", "dóluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dólist", "dólist", "dólist"],
+					"ft": ["dólumst", "dólist", "dólist"]
+				},
+				"þátíð": {
+					"et": ["dólaðist", "dólaðist", "dólaðist"],
+					"ft": ["dóluðumst", "dóluðust", "dóluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dólastu"
+				},
+				"þátíð": {
+					"et": "dólaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dólistu"
+				},
+				"þátíð": {
+					"et": "dólaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dólandi"
+	},
+	"kennistrengur": "so-dóla",
+	"hash": "a2e1e8b533506237e30490d8ee0625acf193e4145697b2360be5bbdfc148500d"
+}
