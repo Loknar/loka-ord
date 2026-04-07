@@ -1,0 +1,135 @@
+{
+	"orð": "tosa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tos",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tos-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tosa",
+		"sagnbót": "tosað",
+		"boðháttur": {
+			"stýfður": "tosa",
+			"et": "tosaðu",
+			"ft": "tosið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tosa", "tosar", "tosar"],
+					"ft": ["tosum", "tosið", "tosa"]
+				},
+				"þátíð": {
+					"et": ["tosaði", "tosaðir", "tosaði"],
+					"ft": ["tosuðum", "tosuðuð", "tosuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tosi", "tosir", "tosi"],
+					"ft": ["tosum", "tosið", "tosi"]
+				},
+				"þátíð": {
+					"et": ["tosaði", "tosaðir", "tosaði"],
+					"ft": ["tosuðum", "tosuðuð", "tosuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tosarðu",
+					"ft": "tosiði"
+				},
+				"þátíð": {
+					"et": "tosaðirðu",
+					"ft": "tosuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tosirðu",
+					"ft": "tosiði"
+				},
+				"þátíð": {
+					"et": "tosaðirðu",
+					"ft": "tosuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tosast",
+		"sagnbót": "tosast",
+		"boðháttur": {
+			"et": "tosastu",
+			"ft": "tosist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tosast", "tosast", "tosast"],
+					"ft": ["tosumst", "tosist", "tosast"]
+				},
+				"þátíð": {
+					"et": ["tosaðist", "tosaðist", "tosaðist"],
+					"ft": ["tosuðumst", "tosuðust", "tosuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tosist", "tosist", "tosist"],
+					"ft": ["tosumst", "tosist", "tosist"]
+				},
+				"þátíð": {
+					"et": ["tosaðist", "tosaðist", "tosaðist"],
+					"ft": ["tosuðumst", "tosuðust", "tosuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tosastu"
+				},
+				"þátíð": {
+					"et": "tosaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tosistu"
+				},
+				"þátíð": {
+					"et": "tosaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tosandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tosaður", "tosaðan", "tosuðum", "tosaðs"],
+					"kvk": ["tosuð", "tosaða", "tosaðri", "tosaðrar"],
+					"hk": ["tosað", "tosað", "tosuðu", "tosaðs"]
+				},
+				"ft": {
+					"kk": ["tosaðir", "tosaða", "tosuðum", "tosaðra"],
+					"kvk": ["tosaðar", "tosaðar", "tosuðum", "tosaðra"],
+					"hk": ["tosuð", "tosuð", "tosuðum", "tosaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tosa",
+	"hash": "7bcdd501ecfed2b69500013016b3e5215f31e2e7cdce6c38c87aba4c5e6b49ea"
+}
