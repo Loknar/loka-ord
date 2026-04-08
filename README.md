@@ -6,13 +6,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1942 | 1780 | 1784 | 5506 | 16106 | 21487 | 22164 | 59757 | **65263** |
-| **Lýsingarorð** | 524 |   |   |   | 772 |   |   |   | 6129 | **6901** |
+| **Nafnorð**     |   | 1942 | 1781 | 1784 | 5507 | 16117 | 21495 | 22167 | 59779 | **65286** |
+| **Lýsingarorð** | 525 |   |   |   | 773 |   |   |   | 6129 | **6902** |
 | **Sagnorð**     |   |   |   |   | 1396 |   |   |   | 2113 | **3509** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
 | **Smáorð**      |   |   |   |   | 348 |   |   |   | 631 | **979** |
-| **Alls** |   |   |   |   | **8086** |   |   |   | **68754** | **76840** |
+| **Alls** |   |   |   |   | **8088** |   |   |   | **68776** | **76864** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,12 +20,12 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Kenninöfn |  |  |  |  | 4852 | 4850 | 4828 | 14530 | **14530** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **1503** |
 | Gælunöfn  | 581 | 262 | 8 | 851 | 166 | 164 | 9 | 339 | **1190** |
-| Örnefni   | 37 | 167 | 632 | 836 | 2783 | 2072 | 2130 | 6985 | **7821** |
-| **Alls**  |   |   |   | **5655** |   |   |   | **24328** | **29983** |
+| Örnefni   | 37 | 167 | 634 | 838 | 2785 | 2077 | 2132 | 6994 | **7832** |
+| **Alls**  |   |   |   | **5657** |   |   |   | **24337** | **29994** |
 
-**Samtals:** 106823 orð.
+**Samtals:** 106858 orð.
 
-999 skammstafanir.
+1001 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -57,7 +57,7 @@ pip install -Ur requirements.txt
 python main.py --help
 ```
 
-Í upphafi eru orðagögnin einungis í formi textaskráa, hægt er að útbúa SQLite gagnagrunn og lesa öłl orðin inn í hann, og svo er einnig hægt að smíða orðaforleit. Þetta allt má gera með skipuninni:
+Í upphafi eru orðagögnin í formi textaskráa, sjá `lokaord/database/data/`, hægt er að útbúa SQLite gagnagrunn og lesa öłl orðin inn í hann, og svo er einnig hægt að smíða orðaforleit. Þetta allt má gera með skipuninni:
 
 ```bash
 python main.py init
