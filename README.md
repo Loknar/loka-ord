@@ -6,26 +6,26 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1942 | 1781 | 1784 | 5507 | 16117 | 21495 | 22167 | 59779 | **65286** |
-| **Lýsingarorð** | 525 |   |   |   | 773 |   |   |   | 6129 | **6902** |
-| **Sagnorð**     |   |   |   |   | 1396 |   |   |   | 2113 | **3509** |
+| **Nafnorð**     |   | 1942 | 1781 | 1783 | 5506 | 16130 | 21510 | 22183 | 59823 | **65329** |
+| **Lýsingarorð** | 526 |   |   |   | 774 |   |   |   | 6129 | **6903** |
+| **Sagnorð**     |   |   |   |   | 1396 |   |   |   | 2114 | **3510** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
 | **Smáorð**      |   |   |   |   | 348 |   |   |   | 631 | **979** |
-| **Alls** |   |   |   |   | **8088** |   |   |   | **68776** | **76864** |
+| **Alls** |   |   |   |   | **8088** |   |   |   | **68821** | **76909** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1332 | 1285 | 16 | 2633 | 1018 | 1278 | 10 | 2306 | **4939** |
 | Kenninöfn |  |  |  |  | 4852 | 4850 | 4828 | 14530 | **14530** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **1503** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **1506** |
 | Gælunöfn  | 581 | 262 | 8 | 851 | 166 | 164 | 9 | 339 | **1190** |
-| Örnefni   | 37 | 167 | 634 | 838 | 2785 | 2077 | 2132 | 6994 | **7832** |
-| **Alls**  |   |   |   | **5657** |   |   |   | **24337** | **29994** |
+| Örnefni   | 37 | 167 | 640 | 844 | 2787 | 2078 | 2136 | 7001 | **7845** |
+| **Alls**  |   |   |   | **5666** |   |   |   | **24344** | **30010** |
 
-**Samtals:** 106858 orð.
+**Samtals:** 106919 orð.
 
-1001 skammstafanir.
+1003 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -57,7 +57,7 @@ pip install -Ur requirements.txt
 python main.py --help
 ```
 
-Í upphafi eru orðagögnin í formi textaskráa, sjá `lokaord/database/data/`, hægt er að útbúa SQLite gagnagrunn og lesa öłl orðin inn í hann, og svo er einnig hægt að smíða orðaforleit. Þetta allt má gera með skipuninni:
+Í upphafi eru orðagögnin í formi textaskráa, sjá innihald möppunnar `lokaord/database/data/`, hægt er að útbúa SQLite gagnagrunn og lesa öłl orð inn í hann, og svo er hægt að smíða orðaforleit. Það allt má gera með skipuninni:
 
 ```bash
 python main.py init
@@ -108,9 +108,10 @@ sem jafngildir
 python main.py build-db -r write-files build-sight md-stats
 ```
 
-`init` með flaggið `-r` eyðir núverandi gagnagrunni og smíðar síðan nýjan útfrá orðaskrám.
+`build-db` með flaggið `-r` eyðir núverandi gagnagrunni og smíðar síðan nýjan útfrá orðaskrám.
 
-Athugið að þegar sett er saman JSON skrá fyrir samsett orð þá þarf ekki að ganga frá beygingarmyndum þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum. **Dæmi:** þegar bætt var við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
+Athugið að þegar útbúin er JSON skrá fyrir samsett orð þá þarf ekki að ganga frá beygingarmyndum þar sem þær eru leiddar út frá upplýsingunum í `"samsett"` listanum.  
+**Dæmi:** þegar bætt var við orðinu "hóflegur" var nóg að sjá til þess að ałlir orðhlutar orðsins væru til staðar og útbúa síðan svoútlítandi skrá og vista sem `lysingarord/hóflegur.json`:
 
 ```json
 {
@@ -131,7 +132,7 @@ Athugið að þegar sett er saman JSON skrá fyrir samsett orð þá þarf ekki 
 }
 ```
 
-svo þegar keyrt var `update` voru beygingarmyndirnar leiddar út frá `"samsett"` upplýsingalistanum og þeim svo bætt við í skrána.
+svo þegar keyrt var `update` voru beygingarmyndirnar leiddar út frá upplýsingum í `"samsett"` listanum og þeim svo bætt við í skrána.
 
 Gildinu í `"hash"` er gert að vera strengur sem er ekki tómur, gildið er sett sem sextándakerfis hakkagildi sem endurspeglar gögn orðsins þegar `update` og/eða `write-files` er keyrt, svo að fyrir sömu gögn er hakkagildið það sama, og þegar gögn breytast þá breytist hakkagildið (sjá `Ord.get_data_hash` í `handlers.py`).
 
