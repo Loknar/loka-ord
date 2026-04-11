@@ -1,0 +1,99 @@
+{
+	"orð": "heimabaka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heima",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-heima"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-baka"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heimabaka",
+		"sagnbót": "heimabakað",
+		"boðháttur": {
+			"stýfður": "heimabaka",
+			"et": "heimabakaðu",
+			"ft": "heimabakið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heimabaka", "heimabakar", "heimabakar"],
+					"ft": ["heimabökum", "heimabakið", "heimabaka"]
+				},
+				"þátíð": {
+					"et": ["heimabakaði", "heimabakaðir", "heimabakaði"],
+					"ft": ["heimabökuðum", "heimabökuðuð", "heimabökuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heimabaki", "heimabakir", "heimabaki"],
+					"ft": ["heimabökum", "heimabakið", "heimabaki"]
+				},
+				"þátíð": {
+					"et": ["heimabakaði", "heimabakaðir", "heimabakaði"],
+					"ft": ["heimabökuðum", "heimabökuðuð", "heimabökuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heimabakarðu",
+					"ft": "heimabakiði"
+				},
+				"þátíð": {
+					"et": "heimabakaðirðu",
+					"ft": "heimabökuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heimabakirðu",
+					"ft": "heimabakiði"
+				},
+				"þátíð": {
+					"et": "heimabakaðirðu",
+					"ft": "heimabökuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heimabakandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heimabakaður", "heimabakaðan", "heimabökuðum", "heimabakaðs"],
+					"kvk": ["heimabökuð", "heimabakaða", "heimabakaðri", "heimabakaðrar"],
+					"hk": ["heimabakað", "heimabakað", "heimabökuðu", "heimabakaðs"]
+				},
+				"ft": {
+					"kk": ["heimabakaðir", "heimabakaða", "heimabökuðum", "heimabakaðra"],
+					"kvk": ["heimabakaðar", "heimabakaðar", "heimabökuðum", "heimabakaðra"],
+					"hk": ["heimabökuð", "heimabökuð", "heimabökuðum", "heimabakaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["heimabakaði", "heimabakaða", "heimabakaða", "heimabakaða"],
+					"kvk": ["heimabakaða", "heimabökuðu", "heimabökuðu", "heimabökuðu"],
+					"hk": ["heimabakaða", "heimabakaða", "heimabakaða", "heimabakaða"]
+				},
+				"ft": {
+					"kk": ["heimabökuðu", "heimabökuðu", "heimabökuðu", "heimabökuðu"],
+					"kvk": ["heimabökuðu", "heimabökuðu", "heimabökuðu", "heimabökuðu"],
+					"hk": ["heimabökuðu", "heimabökuðu", "heimabökuðu", "heimabökuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heimabaka",
+	"hash": "fb4048d70b459e9b683cd21049081c35360f8c2747017a3ed72329e0129ccfe4"
+}

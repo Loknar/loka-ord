@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "verð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"mynd": "bréfa",
+			"mynd": "verðbréfa",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bréf-hk"
+			"kennistrengur": "no-verðbréf-hk"
 		},
 		{
 			"kennistrengur": "no-deild-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["verðbréfadeildirnar", "verðbréfadeildirnar", "verðbréfadeildunum", "verðbréfadeildanna"]
 	},
 	"kennistrengur": "no-verðbréfadeild-kvk",
-	"hash": "02367be4f3664923d52e364f481845820945af067fe0746a967ddd053e2d45d9"
+	"hash": "baea67f05e49c9edebe838630ef13d6e5e503f378bfc36be742a7f564297d904"
 }

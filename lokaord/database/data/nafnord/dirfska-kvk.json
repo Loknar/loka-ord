@@ -2,10 +2,22 @@
 	"orð": "dirfska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dirf",
+			"samsetning": "stofn",
+			"kennistrengur": "so-dirfast"
+		},
+		{
+			"leiðir": "sk",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["dirfska", "dirfsku", "dirfsku", "dirfsku"],
 		"mg": ["dirfskan", "dirfskuna", "dirfskunni", "dirfskunnar"]
 	},
 	"kennistrengur": "no-dirfska-kvk",
-	"hash": "22065ca727a15a5898a327f1aaba661dfb91d94bba37c1f9bc8ea499b281bcf3"
+	"hash": "cd7a9336867af2212f9ce875855fff3b2464032340cdeb33b0bcefc8198f99f7"
 }

@@ -1,0 +1,135 @@
+{
+	"orð": "plástra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "plástr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-plástur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "plástra",
+		"sagnbót": "plástrað",
+		"boðháttur": {
+			"stýfður": "plástra",
+			"et": "plástraðu",
+			"ft": "plástrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["plástra", "plástrar", "plástrar"],
+					"ft": ["plástrum", "plástrið", "plástra"]
+				},
+				"þátíð": {
+					"et": ["plástraði", "plástraðir", "plástraði"],
+					"ft": ["plástruðum", "plástruðuð", "plástruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["plástri", "plástrir", "plástri"],
+					"ft": ["plástrum", "plástrið", "plástri"]
+				},
+				"þátíð": {
+					"et": ["plástraði", "plástraðir", "plástraði"],
+					"ft": ["plástruðum", "plástruðuð", "plástruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "plástrarðu",
+					"ft": "plástriði"
+				},
+				"þátíð": {
+					"et": "plástraðirðu",
+					"ft": "plástruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "plástrirðu",
+					"ft": "plástriði"
+				},
+				"þátíð": {
+					"et": "plástraðirðu",
+					"ft": "plástruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "plástrast",
+		"sagnbót": "plástrast",
+		"boðháttur": {
+			"et": "plástrastu",
+			"ft": "plástrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["plástrast", "plástrast", "plástrast"],
+					"ft": ["plástrumst", "plástrist", "plástrast"]
+				},
+				"þátíð": {
+					"et": ["plástraðist", "plástraðist", "plástraðist"],
+					"ft": ["plástruðumst", "plástruðust", "plástruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["plástrist", "plástrist", "plástrist"],
+					"ft": ["plástrumst", "plástrist", "plástrist"]
+				},
+				"þátíð": {
+					"et": ["plástraðist", "plástraðist", "plástraðist"],
+					"ft": ["plástruðumst", "plástruðust", "plástruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "plástrastu"
+				},
+				"þátíð": {
+					"et": "plástraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "plástristu"
+				},
+				"þátíð": {
+					"et": "plástraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "plástrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["plástraður", "plástraðan", "plástruðum", "plástraðs"],
+					"kvk": ["plástruð", "plástraða", "plástraðri", "plástraðrar"],
+					"hk": ["plástrað", "plástrað", "plástruðu", "plástraðs"]
+				},
+				"ft": {
+					"kk": ["plástraðir", "plástraða", "plástruðum", "plástraðra"],
+					"kvk": ["plástraðar", "plástraðar", "plástruðum", "plástraðra"],
+					"hk": ["plástruð", "plástruð", "plástruðum", "plástraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-plástra",
+	"hash": "d75c93e8419eabe573b23e1e6e0fc86e88ac62bc81a4c485abf99858b519dff6"
+}
