@@ -1,0 +1,135 @@
+{
+	"orð": "hlunka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hlunk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlunkur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hlunka",
+		"sagnbót": "hlunkað",
+		"boðháttur": {
+			"stýfður": "hlunka",
+			"et": "hlunkaðu",
+			"ft": "hlunkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlunka", "hlunkar", "hlunkar"],
+					"ft": ["hlunkum", "hlunkið", "hlunka"]
+				},
+				"þátíð": {
+					"et": ["hlunkaði", "hlunkaðir", "hlunkaði"],
+					"ft": ["hlunkuðum", "hlunkuðuð", "hlunkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlunki", "hlunkir", "hlunki"],
+					"ft": ["hlunkum", "hlunkið", "hlunki"]
+				},
+				"þátíð": {
+					"et": ["hlunkaði", "hlunkaðir", "hlunkaði"],
+					"ft": ["hlunkuðum", "hlunkuðuð", "hlunkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlunkarðu",
+					"ft": "hlunkiði"
+				},
+				"þátíð": {
+					"et": "hlunkaðirðu",
+					"ft": "hlunkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlunkirðu",
+					"ft": "hlunkiði"
+				},
+				"þátíð": {
+					"et": "hlunkaðirðu",
+					"ft": "hlunkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hlunkast",
+		"sagnbót": "hlunkast",
+		"boðháttur": {
+			"et": "hlunkastu",
+			"ft": "hlunkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlunkast", "hlunkast", "hlunkast"],
+					"ft": ["hlunkumst", "hlunkist", "hlunkast"]
+				},
+				"þátíð": {
+					"et": ["hlunkaðist", "hlunkaðist", "hlunkaðist"],
+					"ft": ["hlunkuðumst", "hlunkuðust", "hlunkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlunkist", "hlunkist", "hlunkist"],
+					"ft": ["hlunkumst", "hlunkist", "hlunkist"]
+				},
+				"þátíð": {
+					"et": ["hlunkaðist", "hlunkaðist", "hlunkaðist"],
+					"ft": ["hlunkuðumst", "hlunkuðust", "hlunkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlunkastu"
+				},
+				"þátíð": {
+					"et": "hlunkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlunkistu"
+				},
+				"þátíð": {
+					"et": "hlunkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlunkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlunkaður", "hlunkaðan", "hlunkuðum", "hlunkaðs"],
+					"kvk": ["hlunkuð", "hlunkaða", "hlunkaðri", "hlunkaðrar"],
+					"hk": ["hlunkað", "hlunkað", "hlunkuðu", "hlunkaðs"]
+				},
+				"ft": {
+					"kk": ["hlunkaðir", "hlunkaða", "hlunkuðum", "hlunkaðra"],
+					"kvk": ["hlunkaðar", "hlunkaðar", "hlunkuðum", "hlunkaðra"],
+					"hk": ["hlunkuð", "hlunkuð", "hlunkuðum", "hlunkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlunka",
+	"hash": "bb5d855211813361dc8e6a647087bfedf31273caa647bbda268191bcc36e6067"
+}
