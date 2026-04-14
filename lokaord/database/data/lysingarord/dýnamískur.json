@@ -8,7 +8,6 @@
 			"kennistrengur": "no-dýnamík-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-skur-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["dýnamískari", "dýnamískari", "dýnamískari", "dýnamískari"],
+				"kvk": ["dýnamískari", "dýnamískari", "dýnamískari", "dýnamískari"],
+				"hk": ["dýnamískara", "dýnamískara", "dýnamískara", "dýnamískara"]
+			},
+			"ft": {
+				"kk": ["dýnamískari", "dýnamískari", "dýnamískari", "dýnamískari"],
+				"kvk": ["dýnamískari", "dýnamískari", "dýnamískari", "dýnamískari"],
+				"hk": ["dýnamískari", "dýnamískari", "dýnamískari", "dýnamískari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["dýnamískastur", "dýnamískastan", "dýnamískustum", "dýnamískasts"],
+				"kvk": ["dýnamískust", "dýnamískasta", "dýnamískastri", "dýnamískastrar"],
+				"hk": ["dýnamískast", "dýnamískast", "dýnamískustu", "dýnamískasts"]
+			},
+			"ft": {
+				"kk": ["dýnamískastir", "dýnamískasta", "dýnamískustum", "dýnamískastra"],
+				"kvk": ["dýnamískastar", "dýnamískastar", "dýnamískustum", "dýnamískastra"],
+				"hk": ["dýnamískust", "dýnamískust", "dýnamískustum", "dýnamískastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["dýnamískasti", "dýnamískasta", "dýnamískasta", "dýnamískasta"],
+				"kvk": ["dýnamískasta", "dýnamískustu", "dýnamískustu", "dýnamískustu"],
+				"hk": ["dýnamískasta", "dýnamískasta", "dýnamískasta", "dýnamískasta"]
+			},
+			"ft": {
+				"kk": ["dýnamískustu", "dýnamískustu", "dýnamískustu", "dýnamískustu"],
+				"kvk": ["dýnamískustu", "dýnamískustu", "dýnamískustu", "dýnamískustu"],
+				"hk": ["dýnamískustu", "dýnamískustu", "dýnamískustu", "dýnamískustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-dýnamískur",
-	"hash": "7ba211a93c2cbced277582c0fc44cfd0bfaff73a1679288f9d8899946db06377"
+	"hash": "d6ba681fddbf9fef1d933f513d015946807a3e74f036c7b0e8cb5d24f67d8ee2"
 }

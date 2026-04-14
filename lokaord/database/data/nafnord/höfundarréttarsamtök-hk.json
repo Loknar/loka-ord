@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "höfundar",
+			"mynd": "höfundarréttar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-höfundur-kk"
+			"kennistrengur": "no-höfundarréttur-kk"
 		},
 		{
-			"mynd": "réttar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-réttur-kk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["höfundarréttarsamtökin", "höfundarréttarsamtökin", "höfundarréttarsamtökunum", "höfundarréttarsamtakanna"]
 	},
 	"kennistrengur": "no-höfundarréttarsamtök-hk",
-	"hash": "8874483f28d86f2e242c751a89de9eddee8bbd8cdd6c1997dc733516180e756d"
+	"hash": "a5d1e2a23beaf7b85290944758adf6877ebad9ac186e1240219d924a6b71b9ea"
 }

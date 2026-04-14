@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "vinnu",
+			"mynd": "vinnuveitenda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vinna-kvk"
+			"kennistrengur": "no-vinnuveitandi-kk"
 		},
 		{
-			"mynd": "veitenda",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-veitandi-kk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["vinnuveitendasamtökin", "vinnuveitendasamtökin", "vinnuveitendasamtökunum", "vinnuveitendasamtakanna"]
 	},
 	"kennistrengur": "no-vinnuveitendasamtök-hk",
-	"hash": "4afc61aa86672d027a7f02952d5c0b62e84c8a4dadbe021e627922514cc1548c"
+	"hash": "8fe0a672fd5708a1f7a9a5adf1f06511d80207076e2d55ac21fdc33415badc69"
 }

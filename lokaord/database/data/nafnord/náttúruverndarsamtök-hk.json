@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "náttúru",
+			"mynd": "náttúruverndar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-náttúra-kvk"
+			"kennistrengur": "no-náttúruvernd-kvk"
 		},
 		{
-			"mynd": "verndar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vernd-kvk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["náttúruverndarsamtökin", "náttúruverndarsamtökin", "náttúruverndarsamtökunum", "náttúruverndarsamtakanna"]
 	},
 	"kennistrengur": "no-náttúruverndarsamtök-hk",
-	"hash": "2d3fa2bb433c3d5e9c63302585dc3f8466a0a39dee38ad30d6e759c7642107bf"
+	"hash": "24c8fc93c19bea0d683d0f856aa87e5eac9de7b85ccc59eb4e61848541daad38"
 }

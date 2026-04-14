@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "stjórn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stjórn-kvk"
-		},
-		{
-			"mynd": "mála",
+			"mynd": "stjórnmála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-stjórnmál-hk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["stjórnmálasamtökin", "stjórnmálasamtökin", "stjórnmálasamtökunum", "stjórnmálasamtakanna"]
 	},
 	"kennistrengur": "no-stjórnmálasamtök-hk",
-	"hash": "1570d53d09ccc905b6ebc60c9db91831df825169be7b891a53d78af622185710"
+	"hash": "b7bdcf86cd51e2d1d15010b7c9f8b67e4b027d962de768f7e28364739946ae3c"
 }

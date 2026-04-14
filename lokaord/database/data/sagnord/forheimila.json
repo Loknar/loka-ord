@@ -1,0 +1,86 @@
+{
+	"orð": "forheimila",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-heimila"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "forheimila",
+		"sagnbót": "forheimilað",
+		"boðháttur": {
+			"stýfður": "forheimila",
+			"et": "forheimilaðu",
+			"ft": "forheimilið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forheimila", "forheimilar", "forheimilar"],
+					"ft": ["forheimilum", "forheimilið", "forheimila"]
+				},
+				"þátíð": {
+					"et": ["forheimilaði", "forheimilaðir", "forheimilaði"],
+					"ft": ["forheimiluðum", "forheimiluðuð", "forheimiluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forheimili", "forheimilir", "forheimili"],
+					"ft": ["forheimilum", "forheimilið", "forheimili"]
+				},
+				"þátíð": {
+					"et": ["forheimilaði", "forheimilaðir", "forheimilaði"],
+					"ft": ["forheimiluðum", "forheimiluðuð", "forheimiluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "forheimilarðu",
+					"ft": "forheimiliði"
+				},
+				"þátíð": {
+					"et": "forheimilaðirðu",
+					"ft": "forheimiluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "forheimilirðu",
+					"ft": "forheimiliði"
+				},
+				"þátíð": {
+					"et": "forheimilaðirðu",
+					"ft": "forheimiluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["forheimilaður", "forheimilaðan", "forheimiluðum", "forheimilaðs"],
+					"kvk": ["forheimiluð", "forheimilaða", "forheimilaðri", "forheimilaðrar"],
+					"hk": ["forheimilað", "forheimilað", "forheimiluðu", "forheimilaðs"]
+				},
+				"ft": {
+					"kk": ["forheimilaðir", "forheimilaða", "forheimiluðum", "forheimilaðra"],
+					"kvk": ["forheimilaðar", "forheimilaðar", "forheimiluðum", "forheimilaðra"],
+					"hk": ["forheimiluð", "forheimiluð", "forheimiluðum", "forheimilaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-forheimila",
+	"hash": "3a292f09852b9dc6e24d94235d9dc32914d555c4a716d46e983f83eedcbe4fe1"
+}

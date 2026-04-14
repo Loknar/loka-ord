@@ -4,28 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sjálf",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.áb-sjálfur"
-		},
-		{
-			"mynd": "boða",
+			"mynd": "sjálfboðaliða",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-boði-kk"
+			"kennistrengur": "no-sjálfboðaliði-kk"
 		},
 		{
-			"mynd": "liða",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-liði-kk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -33,5 +17,5 @@
 		"mg": ["sjálfboðaliðasamtökin", "sjálfboðaliðasamtökin", "sjálfboðaliðasamtökunum", "sjálfboðaliðasamtakanna"]
 	},
 	"kennistrengur": "no-sjálfboðaliðasamtök-hk",
-	"hash": "d7e89c570f3527c7f2e458ea842d392e99bdb2c80fb2572825b3e61c2e440c00"
+	"hash": "63b4eadcae4e8fc2c835750ecd481e0fafabd51624b100d78188236f3bf9a7b4"
 }

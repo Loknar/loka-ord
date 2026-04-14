@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "mann",
-			"samsetning": "stofn",
-			"kennistrengur": "no-maður-kk"
-		},
-		{
-			"mynd": "réttinda",
+			"mynd": "mannréttinda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-réttindi-hk"
+			"kennistrengur": "no-mannréttindi-hk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["mannréttindasamtökin", "mannréttindasamtökin", "mannréttindasamtökunum", "mannréttindasamtakanna"]
 	},
 	"kennistrengur": "no-mannréttindasamtök-hk",
-	"hash": "0a571848f716e5151675f924368b3983da2fe97dca2fb1bf928c3b20335e3d2f"
+	"hash": "408f16dd2bdb9d233529067060f81554df7720aafb7ca899640952e4492598d5"
 }

@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "regn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-stakkur-kk"
-		},
-		{
-			"mynd": "hlífar",
+			"mynd": "regnhlífar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hlíf-kvk"
+			"kennistrengur": "no-regnhlíf-kvk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["regnhlífarsamtökin", "regnhlífarsamtökin", "regnhlífarsamtökunum", "regnhlífarsamtakanna"]
 	},
 	"kennistrengur": "no-regnhlífarsamtök-hk",
-	"hash": "3709e712b46b2dc4c01020429b8cc786c5bc73c78563b743e3277577b5dc8ffa"
+	"hash": "4006cda06c51cb6ee5d0f2da956f279efa6e67172394ba238c1496ec09928b37"
 }

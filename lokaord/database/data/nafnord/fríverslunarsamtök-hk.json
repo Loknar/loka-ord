@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "frí",
-			"samsetning": "stofn",
-			"kennistrengur": "no-frí-hk"
-		},
-		{
-			"mynd": "verslunar",
+			"mynd": "fríverslunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-verslun-kvk"
+			"kennistrengur": "no-fríverslun-kvk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["ft"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-samtök-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +17,5 @@
 		"mg": ["fríverslunarsamtökin", "fríverslunarsamtökin", "fríverslunarsamtökunum", "fríverslunarsamtakanna"]
 	},
 	"kennistrengur": "no-fríverslunarsamtök-hk",
-	"hash": "1fc5828688933cefea96bf962de9a060daac38b91bea52f9acae2e16aa99a813"
+	"hash": "60e9b23266143eb8b7b89b2b5b18a10b82398d051b098d14d97985049a1361c1"
 }
