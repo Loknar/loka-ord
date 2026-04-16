@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "bólu",
+			"mynd": "bólusetningar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bóla-kvk"
+			"kennistrengur": "no-bólusetning-kvk"
 		},
 		{
-			"mynd": "setningar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-setning-kvk"
-		},
-		{
-			"mynd": "á",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-á"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-tak-hk"
+			"kennistrengur": "no-átak-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["bólusetningarátakið", "bólusetningarátakið", "bólusetningarátakinu", "bólusetningarátaksins"]
 	},
 	"kennistrengur": "no-bólusetningarátak-hk",
-	"hash": "2f6b2e490bc7152093e9a7d3c781556cd9699283a5e4a4d732ab9a6770a84460"
+	"hash": "3a94c009ea11075a5ac37f36c49bd84c23a00dee6ab409ac291beee208f005bd"
 }

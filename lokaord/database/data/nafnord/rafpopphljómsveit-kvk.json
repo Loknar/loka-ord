@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "raf",
+			"mynd": "rafpopp",
 			"samsetning": "stofn",
-			"kennistrengur": "no-raf-hk"
+			"kennistrengur": "no-rafpopp-hk"
 		},
 		{
-			"mynd": "popp",
-			"samsetning": "stofn",
-			"kennistrengur": "no-popp-hk"
-		},
-		{
-			"mynd": "hljóm",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hljómur-kk"
-		},
-		{
-			"kennistrengur": "no-sveit-kvk"
+			"kennistrengur": "no-hljómsveit-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["rafpopphljómsveitirnar", "rafpopphljómsveitirnar", "rafpopphljómsveitunum", "rafpopphljómsveitanna"]
 	},
 	"kennistrengur": "no-rafpopphljómsveit-kvk",
-	"hash": "feff349062ecf04b8d79dc1dfdea27aebdc81da61bbb53573b41ef8437c896ae"
+	"hash": "c8c60113eb1bc46f1247b5d67001f4723406d407ce4f6d8fd423cd0148dc0977"
 }

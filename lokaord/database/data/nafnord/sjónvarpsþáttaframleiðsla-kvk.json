@@ -4,28 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sjón",
-			"samsetning": "stofn",
-			"kennistrengur": "no-sjón-kvk"
-		},
-		{
-			"mynd": "varps",
+			"mynd": "sjónvarpsþátta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-varp-hk"
-		},
-		{
-			"mynd": "þátta",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-þáttur-kk"
-		},
-		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
+			"kennistrengur": "no-sjónvarpsþáttur-kk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-framleiðsla-kvk"
 		}
 	],
 	"et": {
@@ -33,5 +18,5 @@
 		"mg": ["sjónvarpsþáttaframleiðslan", "sjónvarpsþáttaframleiðsluna", "sjónvarpsþáttaframleiðslunni", "sjónvarpsþáttaframleiðslunnar"]
 	},
 	"kennistrengur": "no-sjónvarpsþáttaframleiðsla-kvk",
-	"hash": "0f408d58ea43cd8136594b8752c972e22ec9dcb06c74dddf5b9c888cad26e090"
+	"hash": "7da2b2fc7a6c09026ee55dd4a4d6a6c6ebaa9e04c1307236a3883af3311d7e86"
 }
