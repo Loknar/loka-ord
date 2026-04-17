@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "fjöl",
-			"samsetning": "stofn",
-			"kennistrengur": "no-fjöl-kvk"
-		},
-		{
-			"mynd": "eignar",
+			"mynd": "fjöleignar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eign-kvk"
+			"kennistrengur": "no-fjöleign-kvk"
 		},
 		{
-			"mynd": "húsa",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"kennistrengur": "no-eigandi-kk"
+			"kennistrengur": "no-húsaeigandi-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["fjöleignarhúsaeigendurnir", "fjöleignarhúsaeigendurna", "fjöleignarhúsaeigendunum", "fjöleignarhúsaeigendanna"]
 	},
 	"kennistrengur": "no-fjöleignarhúsaeigandi-kk",
-	"hash": "064a4d145e94df85a9fc8c2ee16e59400d81a30845ee41bc9ed1989cd23f516c"
+	"hash": "4343fd457ba27770177060baffd5f62e8e11e6b377c6f52ff69d27e8da76227b"
 }

@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "fjöl",
-			"samsetning": "stofn",
-			"kennistrengur": "no-fjöl-kvk"
-		},
-		{
-			"mynd": "miðla",
+			"mynd": "fjölmiðla",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-miðiłl-kk"
+			"kennistrengur": "no-fjölmiðiłl-kk"
 		},
 		{
-			"mynd": "lands",
-			"samsetning": "stofn",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-landslag-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["fjölmiðlalandslagið", "fjölmiðlalandslagið", "fjölmiðlalandslaginu", "fjölmiðlalandslagsins"]
 	},
 	"kennistrengur": "no-fjölmiðlalandslag-hk",
-	"hash": "90f8a03e403879879dc656283eee7aad9537665106e5d5ad38c3aca8de6e3df3"
+	"hash": "64d04252b317541db122463856c50cb38ef1fbf6b00ceab9c3c915d6631a2fab"
 }
