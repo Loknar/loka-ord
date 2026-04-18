@@ -1,0 +1,27 @@
+{
+	"orð": "kjarnorkuvopnaframleiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kjarnorku",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kjarnorka-kvk"
+		},
+		{
+			"mynd": "vopna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vopn-hk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-framleiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["kjarnorkuvopnaframleiðsla", "kjarnorkuvopnaframleiðslu", "kjarnorkuvopnaframleiðslu", "kjarnorkuvopnaframleiðslu"],
+		"mg": ["kjarnorkuvopnaframleiðslan", "kjarnorkuvopnaframleiðsluna", "kjarnorkuvopnaframleiðslunni", "kjarnorkuvopnaframleiðslunnar"]
+	},
+	"kennistrengur": "no-kjarnorkuvopnaframleiðsla-kvk",
+	"hash": "5adf044cbf9ed810f82ec465aeba77a187c3f8ed1c2103510fbc097439fd20dd"
+}

@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "mið",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mið-hk"
-		},
-		{
-			"mynd": "alda",
+			"mynd": "miðalda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-öld-kvk"
-		},
-		{
-			"mynd": "bók",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bók-kvk"
+			"kennistrengur": "no-miðöld-kvk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-mennt-kvk"
+			"kennistrengur": "no-bókmennt-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["miðaldabókmenntirnar", "miðaldabókmenntirnar", "miðaldabókmenntunum", "miðaldabókmenntanna"]
 	},
 	"kennistrengur": "no-miðaldabókmenntir-kvk",
-	"hash": "1d4eea2af9fc092a814434be76b476049998cc0aca7481f292fc34594facfa41"
+	"hash": "e8f5c0b2d575217a2fd419b2f9481eebe4b96deea02eb490a23242a4121b7b50"
 }

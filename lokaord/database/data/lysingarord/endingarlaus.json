@@ -1,0 +1,43 @@
+{
+	"orð": "endingarlaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "endingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ending-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["endingarlaus", "endingarlausan", "endingarlausum", "endingarlauss"],
+				"kvk": ["endingarlaus", "endingarlausa", "endingarlausri", "endingarlausrar"],
+				"hk": ["endingarlaust", "endingarlaust", "endingarlausu", "endingarlauss"]
+			},
+			"ft": {
+				"kk": ["endingarlausir", "endingarlausa", "endingarlausum", "endingarlausra"],
+				"kvk": ["endingarlausar", "endingarlausar", "endingarlausum", "endingarlausra"],
+				"hk": ["endingarlaus", "endingarlaus", "endingarlausum", "endingarlausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["endingarlausi", "endingarlausa", "endingarlausa", "endingarlausa"],
+				"kvk": ["endingarlausa", "endingarlausu", "endingarlausu", "endingarlausu"],
+				"hk": ["endingarlausa", "endingarlausa", "endingarlausa", "endingarlausa"]
+			},
+			"ft": {
+				"kk": ["endingarlausu", "endingarlausu", "endingarlausu", "endingarlausu"],
+				"kvk": ["endingarlausu", "endingarlausu", "endingarlausu", "endingarlausu"],
+				"hk": ["endingarlausu", "endingarlausu", "endingarlausu", "endingarlausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-endingarlaus",
+	"hash": "17138c3affe35bfd9792316d0b46678a42972986b74ed9c2fcc35d6a009b6686"
+}

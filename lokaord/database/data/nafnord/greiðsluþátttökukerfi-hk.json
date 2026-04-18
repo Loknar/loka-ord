@@ -4,19 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "greiðslu",
+			"mynd": "greiðsluþátttöku",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greiðsla-kvk"
-		},
-		{
-			"mynd": "þátt",
-			"samsetning": "stofn",
-			"kennistrengur": "no-þáttur-kk"
-		},
-		{
-			"mynd": "töku",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-taka-kvk"
+			"kennistrengur": "no-greiðsluþátttaka-kvk"
 		},
 		{
 			"kennistrengur": "no-kerfi-hk"
@@ -31,5 +21,5 @@
 		"mg": ["greiðsluþátttökukerfin", "greiðsluþátttökukerfin", "greiðsluþátttökukerfunum", "greiðsluþátttökukerfanna"]
 	},
 	"kennistrengur": "no-greiðsluþátttökukerfi-hk",
-	"hash": "127c3bfdf73a1d036cd40440a0376d055a22771c6d77518bf7a09dbe3d0834b4"
+	"hash": "179351715ce0aa0c483aa2f8215cf46a0b2312520241791e329ab17ca8d411df"
 }
