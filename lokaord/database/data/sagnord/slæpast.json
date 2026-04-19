@@ -1,0 +1,65 @@
+{
+	"orð": "slæpast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slæp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slæpa-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "slæpast",
+		"sagnbót": "slæpast",
+		"boðháttur": {
+			"et": "slæpastu",
+			"ft": "slæpist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slæpast", "slæpast", "slæpast"],
+					"ft": ["slæpumst", "slæpist", "slæpast"]
+				},
+				"þátíð": {
+					"et": ["slæpaðist", "slæpaðist", "slæpaðist"],
+					"ft": ["slæpuðumst", "slæpuðust", "slæpuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slæpist", "slæpist", "slæpist"],
+					"ft": ["slæpumst", "slæpist", "slæpist"]
+				},
+				"þátíð": {
+					"et": ["slæpaðist", "slæpaðist", "slæpaðist"],
+					"ft": ["slæpuðumst", "slæpuðust", "slæpuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "slæpastu"
+				},
+				"þátíð": {
+					"et": "slæpaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "slæpistu"
+				},
+				"þátíð": {
+					"et": "slæpaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-slæpast",
+	"hash": "9369951b77ca28cb7c0a3ebf5585f2f87af88aae8b902f45eb3ea7e26cde1f5b"
+}

@@ -1,0 +1,30 @@
+{
+	"orð": "ríkisskuldakrísa",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ríkis",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-ríki-hk"
+		},
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-krísa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["ríkisskuldakrísa", "ríkisskuldakrísu", "ríkisskuldakrísu", "ríkisskuldakrísu"],
+		"mg": ["ríkisskuldakrísan", "ríkisskuldakrísuna", "ríkisskuldakrísunni", "ríkisskuldakrísunnar"]
+	},
+	"ft": {
+		"ág": ["ríkisskuldakrísur", "ríkisskuldakrísur", "ríkisskuldakrísum", "ríkisskuldakrísa"],
+		"mg": ["ríkisskuldakrísurnar", "ríkisskuldakrísurnar", "ríkisskuldakrísunum", "ríkisskuldakrísanna"]
+	},
+	"kennistrengur": "no-ríkisskuldakrísa-kvk",
+	"hash": "df167b386f9bd1d58ce3ec0029e8ab0d77974520e610221048a352407bd4e17c"
+}

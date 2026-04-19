@@ -1,0 +1,43 @@
+{
+	"orð": "greiðsluhæfur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-hæfur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["greiðsluhæfur", "greiðsluhæfan", "greiðsluhæfum", "greiðsluhæfs"],
+				"kvk": ["greiðsluhæf", "greiðsluhæfa", "greiðsluhæfri", "greiðsluhæfrar"],
+				"hk": ["greiðsluhæft", "greiðsluhæft", "greiðsluhæfu", "greiðsluhæfs"]
+			},
+			"ft": {
+				"kk": ["greiðsluhæfir", "greiðsluhæfa", "greiðsluhæfum", "greiðsluhæfra"],
+				"kvk": ["greiðsluhæfar", "greiðsluhæfar", "greiðsluhæfum", "greiðsluhæfra"],
+				"hk": ["greiðsluhæf", "greiðsluhæf", "greiðsluhæfum", "greiðsluhæfra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["greiðsluhæfi", "greiðsluhæfa", "greiðsluhæfa", "greiðsluhæfa"],
+				"kvk": ["greiðsluhæfa", "greiðsluhæfu", "greiðsluhæfu", "greiðsluhæfu"],
+				"hk": ["greiðsluhæfa", "greiðsluhæfa", "greiðsluhæfa", "greiðsluhæfa"]
+			},
+			"ft": {
+				"kk": ["greiðsluhæfu", "greiðsluhæfu", "greiðsluhæfu", "greiðsluhæfu"],
+				"kvk": ["greiðsluhæfu", "greiðsluhæfu", "greiðsluhæfu", "greiðsluhæfu"],
+				"hk": ["greiðsluhæfu", "greiðsluhæfu", "greiðsluhæfu", "greiðsluhæfu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-greiðsluhæfur",
+	"hash": "928058aa7f61af6540a8ac1606bf547b66f5659521e27304c0738f57b5881a95"
+}
