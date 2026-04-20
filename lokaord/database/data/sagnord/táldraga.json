@@ -1,0 +1,87 @@
+{
+	"orð": "táldraga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tál",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tál-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-draga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "táldraga",
+		"sagnbót": "táldregið",
+		"boðháttur": {
+			"stýfður": "táldrag",
+			"et": "táldragðu",
+			"ft": "táldragið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["táldreg", "táldregur", "táldregur"],
+					"ft": ["táldrögum", "táldragið", "táldraga"]
+				},
+				"þátíð": {
+					"et": ["táldró", "táldróst", "táldró"],
+					"ft": ["táldrógum", "táldróguð", "táldrógu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["táldragi", "táldragir", "táldragi"],
+					"ft": ["táldrögum", "táldragið", "táldragi"]
+				},
+				"þátíð": {
+					"et": ["táldrægi", "táldrægir", "táldrægi"],
+					"ft": ["táldrægjum", "táldrægjuð", "táldrægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "táldregurðu",
+					"ft": "táldragiði"
+				},
+				"þátíð": {
+					"et": "táldróstu",
+					"ft": "táldróguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "táldragirðu",
+					"ft": "táldragiði"
+				},
+				"þátíð": {
+					"et": "táldrægirðu",
+					"ft": "táldrægjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "táldragandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["táldreginn", "táldreginn", "táldregnum", "táldregins"],
+					"kvk": ["táldregin", "táldregna", "táldreginni", "táldreginnar"],
+					"hk": ["táldregið", "táldregið", "táldregnu", "táldregins"]
+				},
+				"ft": {
+					"kk": ["táldregnir", "táldregna", "táldregnum", "táldreginna"],
+					"kvk": ["táldregnar", "táldregnar", "táldregnum", "táldreginna"],
+					"hk": ["táldregin", "táldregin", "táldregnum", "táldreginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-táldraga",
+	"hash": "b0f22a01e0917d7fc816724ecf91f468a2af100ba3c3b5a36a093697f8f2c0f3"
+}

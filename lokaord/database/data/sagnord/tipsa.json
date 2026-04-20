@@ -1,0 +1,87 @@
+{
+	"orð": "tipsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tips",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tips-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tipsa",
+		"sagnbót": "tipsað",
+		"boðháttur": {
+			"stýfður": "tipsa",
+			"et": "tipsaðu",
+			"ft": "tipsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tipsa", "tipsar", "tipsar"],
+					"ft": ["tipsum", "tipsið", "tipsa"]
+				},
+				"þátíð": {
+					"et": ["tipsaði", "tipsaðir", "tipsaði"],
+					"ft": ["tipsuðum", "tipsuðuð", "tipsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tipsi", "tipsir", "tipsi"],
+					"ft": ["tipsum", "tipsið", "tipsi"]
+				},
+				"þátíð": {
+					"et": ["tipsaði", "tipsaðir", "tipsaði"],
+					"ft": ["tipsuðum", "tipsuðuð", "tipsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tipsarðu",
+					"ft": "tipsiði"
+				},
+				"þátíð": {
+					"et": "tipsaðirðu",
+					"ft": "tipsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tipsirðu",
+					"ft": "tipsiði"
+				},
+				"þátíð": {
+					"et": "tipsaðirðu",
+					"ft": "tipsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tipsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tipsaður", "tipsaðan", "tipsuðum", "tipsaðs"],
+					"kvk": ["tipsuð", "tipsaða", "tipsaðri", "tipsaðrar"],
+					"hk": ["tipsað", "tipsað", "tipsuðu", "tipsaðs"]
+				},
+				"ft": {
+					"kk": ["tipsaðir", "tipsaða", "tipsuðum", "tipsaðra"],
+					"kvk": ["tipsaðar", "tipsaðar", "tipsuðum", "tipsaðra"],
+					"hk": ["tipsuð", "tipsuð", "tipsuðum", "tipsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tipsa",
+	"hash": "3e48d836c3ce20aa5fb8eeba887d8d4878b3de002b3a2a650d96b43d8ead34b6"
+}
