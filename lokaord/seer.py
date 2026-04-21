@@ -964,6 +964,17 @@ def clean_string(mystr: str) -> str:
 		('u\u0301', 'ú'),
 		('y\u0301', 'ý'),
 		('o\u0308', 'ö'),
+		# -grave kommur yfir í venjulegar kommur
+		('À', 'Á'),
+		('È', 'É'),
+		('Ì', 'Í'),
+		('Ò', 'Ó'),
+		('Ù', 'Ú'),
+		('à', 'á'),
+		('è', 'é'),
+		('ì', 'í'),
+		('ò', 'ó'),
+		('ù', 'ú'),
 		# skipta út ákveðnum táknum fyrir skyld venjubundnari tákn
 		('\u2011', '-'),  # Non-Breaking Hyphen -> Hyphen-minus
 		# fjarlægja óæskileg tákn
