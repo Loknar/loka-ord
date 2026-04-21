@@ -1,0 +1,99 @@
+{
+	"orð": "niðurbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "niður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-niður"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "niðurbrjóta",
+		"sagnbót": "niðurbrotið",
+		"boðháttur": {
+			"stýfður": "niðurbrjót",
+			"et": "niðurbrjóttu",
+			"ft": "niðurbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurbrýt", "niðurbrýtur", "niðurbrýtur"],
+					"ft": ["niðurbrjótum", "niðurbrjótið", "niðurbrjóta"]
+				},
+				"þátíð": {
+					"et": ["niðurbraut", "niðurbraust", "niðurbraut"],
+					"ft": ["niðurbrutum", "niðurbrutuð", "niðurbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðurbrjóti", "niðurbrjótir", "niðurbrjóti"],
+					"ft": ["niðurbrjótum", "niðurbrjótið", "niðurbrjóti"]
+				},
+				"þátíð": {
+					"et": ["niðurbryti", "niðurbrytir", "niðurbryti"],
+					"ft": ["niðurbrytum", "niðurbrytuð", "niðurbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "niðurbrýturðu",
+					"ft": "niðurbrjótiði"
+				},
+				"þátíð": {
+					"et": "niðurbraustu",
+					"ft": "niðurbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "niðurbrjótirðu",
+					"ft": "niðurbrjótiði"
+				},
+				"þátíð": {
+					"et": "niðurbrytirðu",
+					"ft": "niðurbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "niðurbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["niðurbrotinn", "niðurbrotinn", "niðurbrotnum", "niðurbrotins"],
+					"kvk": ["niðurbrotin", "niðurbrotna", "niðurbrotinni", "niðurbrotinnar"],
+					"hk": ["niðurbrotið", "niðurbrotið", "niðurbrotnu", "niðurbrotins"]
+				},
+				"ft": {
+					"kk": ["niðurbrotnir", "niðurbrotna", "niðurbrotnum", "niðurbrotinna"],
+					"kvk": ["niðurbrotnar", "niðurbrotnar", "niðurbrotnum", "niðurbrotinna"],
+					"hk": ["niðurbrotin", "niðurbrotin", "niðurbrotnum", "niðurbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["niðurbrotni", "niðurbrotna", "niðurbrotna", "niðurbrotna"],
+					"kvk": ["niðurbrotna", "niðurbrotnu", "niðurbrotnu", "niðurbrotnu"],
+					"hk": ["niðurbrotna", "niðurbrotna", "niðurbrotna", "niðurbrotna"]
+				},
+				"ft": {
+					"kk": ["niðurbrotnu", "niðurbrotnu", "niðurbrotnu", "niðurbrotnu"],
+					"kvk": ["niðurbrotnu", "niðurbrotnu", "niðurbrotnu", "niðurbrotnu"],
+					"hk": ["niðurbrotnu", "niðurbrotnu", "niðurbrotnu", "niðurbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-niðurbrjóta",
+	"hash": "81d3ebdc36030cacb42bc678a03d73296823ba06dc1985abec01855b1ce3bcc2"
+}

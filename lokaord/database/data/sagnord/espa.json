@@ -1,0 +1,135 @@
+{
+	"orð": "espa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "esp",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-espur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "espa",
+		"sagnbót": "espað",
+		"boðháttur": {
+			"stýfður": "espa",
+			"et": "espaðu",
+			"ft": "espið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["espa", "espar", "espar"],
+					"ft": ["espum", "espið", "espa"]
+				},
+				"þátíð": {
+					"et": ["espaði", "espaðir", "espaði"],
+					"ft": ["espuðum", "espuðuð", "espuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["espi", "espir", "espi"],
+					"ft": ["espum", "espið", "espi"]
+				},
+				"þátíð": {
+					"et": ["espaði", "espaðir", "espaði"],
+					"ft": ["espuðum", "espuðuð", "espuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "esparðu",
+					"ft": "espiði"
+				},
+				"þátíð": {
+					"et": "espaðirðu",
+					"ft": "espuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "espirðu",
+					"ft": "espiði"
+				},
+				"þátíð": {
+					"et": "espaðirðu",
+					"ft": "espuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "espast",
+		"sagnbót": "espast",
+		"boðháttur": {
+			"et": "espastu",
+			"ft": "espist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["espast", "espast", "espast"],
+					"ft": ["espumst", "espist", "espast"]
+				},
+				"þátíð": {
+					"et": ["espaðist", "espaðist", "espaðist"],
+					"ft": ["espuðumst", "espuðust", "espuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["espist", "espist", "espist"],
+					"ft": ["espumst", "espist", "espist"]
+				},
+				"þátíð": {
+					"et": ["espaðist", "espaðist", "espaðist"],
+					"ft": ["espuðumst", "espuðust", "espuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "espastu"
+				},
+				"þátíð": {
+					"et": "espaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "espistu"
+				},
+				"þátíð": {
+					"et": "espaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "espandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["espaður", "espaðan", "espuðum", "espaðs"],
+					"kvk": ["espuð", "espaða", "espaðri", "espaðrar"],
+					"hk": ["espað", "espað", "espuðu", "espaðs"]
+				},
+				"ft": {
+					"kk": ["espaðir", "espaða", "espuðum", "espaðra"],
+					"kvk": ["espaðar", "espaðar", "espuðum", "espaðra"],
+					"hk": ["espuð", "espuð", "espuðum", "espaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-espa",
+	"hash": "2280bfd8db9acaed56ea14b0be5dc8e68419f5f3a344cb7790d985eed8b13a36"
+}
