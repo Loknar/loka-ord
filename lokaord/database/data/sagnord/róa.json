@@ -1,6 +1,16 @@
 {
 	"orð": "róa",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ró",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ró-kvk-_kyrrð_"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "róa",
 		"sagnbót": "róað",
@@ -22,7 +32,7 @@
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": ["rói", "róir", "ró"],
+					"et": ["rói", "róir", "rói"],
 					"ft": ["róum", "róið", "rói"]
 				},
 				"þátíð": {
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "róast",
 		"sagnbót": "róast",
+		"boðháttur": {
+			"et": "róastu",
+			"ft": "róist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-róa",
-	"hash": "5339bd41a49d9544a158f4e94a58ed9ffd34eefb82f37ca42e9628d861f4d690"
+	"hash": "5ae668d05b39809328422ab56b08a98b7cc6baac4b130ea1017ccf4156671819"
 }

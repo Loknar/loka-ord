@@ -1,0 +1,99 @@
+{
+	"orð": "gulmerkja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gul",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-gulur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-merkja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gulmerkja",
+		"sagnbót": "gulmerkt",
+		"boðháttur": {
+			"stýfður": "gulmerk",
+			"et": "gulmerktu",
+			"ft": "gulmerkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gulmerki", "gulmerkir", "gulmerkir"],
+					"ft": ["gulmerkjum", "gulmerkið", "gulmerkja"]
+				},
+				"þátíð": {
+					"et": ["gulmerkti", "gulmerktir", "gulmerkti"],
+					"ft": ["gulmerktum", "gulmerktuð", "gulmerktu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gulmerki", "gulmerkir", "gulmerki"],
+					"ft": ["gulmerkjum", "gulmerkið", "gulmerki"]
+				},
+				"þátíð": {
+					"et": ["gulmerkti", "gulmerktir", "gulmerkti"],
+					"ft": ["gulmerktum", "gulmerktuð", "gulmerktu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gulmerkirðu",
+					"ft": "gulmerkiði"
+				},
+				"þátíð": {
+					"et": "gulmerktirðu",
+					"ft": "gulmerktuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gulmerkirðu",
+					"ft": "gulmerkiði"
+				},
+				"þátíð": {
+					"et": "gulmerktirðu",
+					"ft": "gulmerktuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gulmerkjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gulmerktur", "gulmerktan", "gulmerktum", "gulmerkts"],
+					"kvk": ["gulmerkt", "gulmerkta", "gulmerktri", "gulmerktrar"],
+					"hk": ["gulmerkt", "gulmerkt", "gulmerktu", "gulmerkts"]
+				},
+				"ft": {
+					"kk": ["gulmerktir", "gulmerkta", "gulmerktum", "gulmerktra"],
+					"kvk": ["gulmerktar", "gulmerktar", "gulmerktum", "gulmerktra"],
+					"hk": ["gulmerkt", "gulmerkt", "gulmerktum", "gulmerktra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gulmerkti", "gulmerkta", "gulmerkta", "gulmerkta"],
+					"kvk": ["gulmerkta", "gulmerktu", "gulmerktu", "gulmerktu"],
+					"hk": ["gulmerkta", "gulmerkta", "gulmerkta", "gulmerkta"]
+				},
+				"ft": {
+					"kk": ["gulmerktu", "gulmerktu", "gulmerktu", "gulmerktu"],
+					"kvk": ["gulmerktu", "gulmerktu", "gulmerktu", "gulmerktu"],
+					"hk": ["gulmerktu", "gulmerktu", "gulmerktu", "gulmerktu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-gulmerkja",
+	"hash": "9f8be83cfb607b9ce4aa5ff4511185ba5c32c362be7db88866d83fd6b3837a6a"
+}

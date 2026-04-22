@@ -4,27 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "raf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-raf-hk"
-		},
-		{
-			"mynd": "mynta",
+			"mynd": "rafmynta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mynt-kvk"
+			"kennistrengur": "no-rafmynt-kvk"
 		},
 		{
-			"mynd": "auð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-auður-kk"
-		},
-		{
-			"mynd": "kýf",
-			"samsetning": "stofn",
-			"kennistrengur": "so-kýfa"
-		},
-		{
-			"kennistrengur": "no-ingur-kk-ó"
+			"kennistrengur": "no-auðkýfingur-kk"
 		}
 	],
 	"et": {
@@ -36,5 +21,5 @@
 		"mg": ["rafmyntaauðkýfingarnir", "rafmyntaauðkýfingana", "rafmyntaauðkýfingunum", "rafmyntaauðkýfinganna"]
 	},
 	"kennistrengur": "no-rafmyntaauðkýfingur-kk",
-	"hash": "0dccc197d299eb525d6f835577bcd957a4a0c8c1a772abb640547967d9914a0d"
+	"hash": "41877e5c5072f0201f9e2b9bbbaf9f3216f9c2146df04ea1cbd9a917c3011983"
 }
