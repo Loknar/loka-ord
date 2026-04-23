@@ -5,23 +5,19 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "Sel",
-			"samsetning": "stofn",
-			"kennistrengur": "no-selur-kk"
-		},
-		{
-			"mynd": "tjarnar",
+			"mynd": "Seltjarnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tjörn-kvk"
+			"kennistrengur": "sérn.ön-Seltjörn-kvk"
 		},
 		{
-			"beygingar": ["et-ág"],
+			"beygingar": ["et"],
 			"kennistrengur": "no-nes-hk"
 		}
 	],
 	"et": {
-		"ág": ["Seltjarnarnes", "Seltjarnarnes", "Seltjarnarnesi", "Seltjarnarness"]
+		"ág": ["Seltjarnarnes", "Seltjarnarnes", "Seltjarnarnesi", "Seltjarnarness"],
+		"mg": ["Seltjarnarnesið", "Seltjarnarnesið", "Seltjarnarnesinu", "Seltjarnarnessins"]
 	},
 	"kennistrengur": "sérn.ön-Seltjarnarnes-hk",
-	"hash": "359c8140d43ca36570f47d03cf346cd8c73bac3f1f678952fd70506912df83d9"
+	"hash": "92e418d7973db9cee61c3721674e1410917b41040def41fb4763340d35f761bf"
 }

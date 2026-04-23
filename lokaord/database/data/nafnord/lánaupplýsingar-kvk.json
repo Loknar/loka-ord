@@ -1,0 +1,22 @@
+{
+	"orð": "lánaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lána",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lán-hk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lánaupplýsingar", "lánaupplýsingar", "lánaupplýsingum", "lánaupplýsinga"],
+		"mg": ["lánaupplýsingarnar", "lánaupplýsingarnar", "lánaupplýsingunum", "lánaupplýsinganna"]
+	},
+	"kennistrengur": "no-lánaupplýsingar-kvk",
+	"hash": "8d876c2b1fb0274dd76bbc5ad70dbda204698c383f033e00e23a10323fcee970"
+}
