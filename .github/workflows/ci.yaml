@@ -27,6 +27,8 @@ jobs:
           pip install -r requirements.txt
       - name: Initialize database
         run: |
+          # nota backup skrá til að létta á CI build tíma
+          cp lokaord/database/disk/lokaord/db_2026-04-23T18:11:56.sqlite lokaord/database/disk/lokaord/db.sqlite
           # smíða grunn
           python main.py build-db runtime
           # skrifa orð úr grunni í textaskrár
