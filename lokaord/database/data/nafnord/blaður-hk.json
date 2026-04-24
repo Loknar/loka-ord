@@ -2,10 +2,21 @@
 	"orð": "blaður",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "blað",
+			"samsetning": "stofn",
+			"kennistrengur": "so-blaðra"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ur-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["blaður", "blaður", "blaðri", "blaðurs"],
 		"mg": ["blaðrið", "blaðrið", "blaðrinu", "blaðursins"]
 	},
 	"kennistrengur": "no-blaður-hk",
-	"hash": "4cc99dd00dd57654b5edc314b6df49497f818b08c6b06b0a7abc868bdb362569"
+	"hash": "54919578f31436cf9674b1725dfe153d1e26b35da8d2009a5134e1e916b9ce3c"
 }

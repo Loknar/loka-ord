@@ -1,0 +1,99 @@
+{
+	"orð": "vörslusvipta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "vörslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-varsla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-svipta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "vörslufinna",
+		"sagnbót": "vörslusvipt",
+		"boðháttur": {
+			"stýfður": "vörslusvipt",
+			"et": "vörslusviptu",
+			"ft": "vörslusviptið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["vörslusvipti", "vörslusviptir", "vörslusviptir"],
+					"ft": ["vörslusviptum", "vörslusviptið", "vörslusvipta"]
+				},
+				"þátíð": {
+					"et": ["vörslusvipti", "vörslusviptir", "vörslusvipti"],
+					"ft": ["vörslusviptum", "vörslusviptuð", "vörslusviptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["vörslusvipti", "vörslusviptir", "vörslusvipti"],
+					"ft": ["vörslusviptum", "vörslusviptið", "vörslusvipti"]
+				},
+				"þátíð": {
+					"et": ["vörslusvipti", "vörslusviptir", "vörslusvipti"],
+					"ft": ["vörslusviptum", "vörslusviptuð", "vörslusviptu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "vörslusviptirðu",
+					"ft": "vörslusviptiði"
+				},
+				"þátíð": {
+					"et": "vörslusviptirðu",
+					"ft": "vörslusviptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "vörslusviptirðu",
+					"ft": "vörslusviptiði"
+				},
+				"þátíð": {
+					"et": "vörslusviptirðu",
+					"ft": "vörslusviptuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "vörslusviptandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["vörslusviptur", "vörslusviptan", "vörslusviptum", "vörslusvipts"],
+					"kvk": ["vörslusvipt", "vörslusvipta", "vörslusviptri", "vörslusviptrar"],
+					"hk": ["vörslugert", "vörslugert", "vörslusviptu", "vörslusvipts"]
+				},
+				"ft": {
+					"kk": ["vörslusviptir", "vörslusvipta", "vörslusviptum", "vörslusviptra"],
+					"kvk": ["vörslusviptar", "vörslusviptar", "vörslusviptum", "vörslusviptra"],
+					"hk": ["vörslusvipt", "vörslusvipt", "vörslusviptum", "vörslusviptra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["vörslusvipti", "vörslusvipta", "vörslusvipta", "vörslusvipta"],
+					"kvk": ["vörslusvipta", "vörslusviptu", "vörslusviptu", "vörslusviptu"],
+					"hk": ["vörslusvipta", "vörslusvipta", "vörslusvipta", "vörslusvipta"]
+				},
+				"ft": {
+					"kk": ["vörslusviptu", "vörslusviptu", "vörslusviptu", "vörslusviptu"],
+					"kvk": ["vörslusviptu", "vörslusviptu", "vörslusviptu", "vörslusviptu"],
+					"hk": ["vörslusviptu", "vörslusviptu", "vörslusviptu", "vörslusviptu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-vörslusvipta",
+	"hash": "2262267449b014262029d7159483869fe16904ffeae78b5a1a2e6c552279d5be"
+}

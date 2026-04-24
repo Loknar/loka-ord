@@ -1,6 +1,16 @@
 {
 	"orð": "flauta",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flaut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flaut-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "flauta",
 		"sagnbót": "flautað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "flautast",
 		"sagnbót": "flautast",
+		"boðháttur": {
+			"et": "flautastu",
+			"ft": "flautist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-flauta",
-	"hash": "d1151b44a7a1bfcb544547e2a653d76c7e6c556811abe08f790f365dc448372b"
+	"hash": "9c0b331ef51ec5995ba692ea9b9ec6b74d2aa9947e5b47b01f9f0a29c9590ebe"
 }

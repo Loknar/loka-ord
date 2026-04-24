@@ -2,10 +2,21 @@
 	"orð": "angur",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "ang",
+			"samsetning": "stofn",
+			"kennistrengur": "so-angra"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ur-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["angur", "angur", "angri", "angurs"],
 		"mg": ["angrið", "angrið", "angrinu", "angursins"]
 	},
 	"kennistrengur": "no-angur-hk",
-	"hash": "13e0bb8d5264a8688eb3d456be6110d78b30106ffa33ed8245f532bae09f219f"
+	"hash": "c6a7d7b02ae174e0b0880a405dbf0558dd22bd271c38490402fe7dab5f3c6f0a"
 }

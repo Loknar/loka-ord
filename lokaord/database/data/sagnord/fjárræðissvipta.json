@@ -3,16 +3,12 @@
 	"flokkur": "sagnorð",
 	"samsett": [
 		{
-			"mynd": "fjár",
+			"mynd": "fjárræðis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
+			"kennistrengur": "no-fjárræði-hk"
 		},
 		{
-			"mynd": "ræðis",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ræði-hk"
-		},
-		{
+			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-svipta"
 		}
 	],
@@ -69,50 +65,6 @@
 			}
 		}
 	},
-	"miðmynd": {
-		"nafnháttur": "fjárræðissviptast",
-		"sagnbót": "fjárræðissvipst",
-		"persónuleg": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": ["fjárræðissviptist", "fjárræðissviptist", "fjárræðissviptist"],
-					"ft": ["fjárræðissviptumst", "fjárræðissviptist", "fjárræðissviptast"]
-				},
-				"þátíð": {
-					"et": ["fjárræðissviptist", "fjárræðissviptist", "fjárræðissviptist"],
-					"ft": ["fjárræðissviptumst", "fjárræðissviptust", "fjárræðissviptust"]
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": ["fjárræðissviptist", "fjárræðissviptist", "fjárræðissviptist"],
-					"ft": ["fjárræðissviptumst", "fjárræðissviptist", "fjárræðissviptist"]
-				},
-				"þátíð": {
-					"et": ["fjárræðissviptist", "fjárræðissviptist", "fjárræðissviptist"],
-					"ft": ["fjárræðissviptumst", "fjárræðissviptust", "fjárræðissviptust"]
-				}
-			}
-		},
-		"spurnarmyndir": {
-			"framsöguháttur": {
-				"nútíð": {
-					"et": "fjárræðissviptistu"
-				},
-				"þátíð": {
-					"et": "fjárræðissviptistu"
-				}
-			},
-			"viðtengingarháttur": {
-				"nútíð": {
-					"et": "fjárræðissviptistu"
-				},
-				"þátíð": {
-					"et": "fjárræðissviptistu"
-				}
-			}
-		}
-	},
 	"lýsingarháttur": {
 		"nútíðar": "fjárræðissviptandi",
 		"þátíðar": {
@@ -143,5 +95,5 @@
 		}
 	},
 	"kennistrengur": "so-fjárræðissvipta",
-	"hash": "da1a9695d856d15fcbf7aa5727a9155922948c24c9388a3eb4cfc29dec930848"
+	"hash": "36c791eba0d3726cfd3df463f6d5bdbc0bca40990d9aeed0def3be0e34c636da"
 }
