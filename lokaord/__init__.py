@@ -169,6 +169,11 @@ def assert_clean_git():
 	print('\nThe git repo is all clean!')
 
 
+def check_samsett_circular_definitions():
+	db.init(Name)
+	exporter.check_samsett_circular_definitions()
+
+
 def run_fiddle():
 	db.init(Name)
 	logman.info('Running fiddle!')

@@ -4,6 +4,7 @@ Exporter functionality
 
 Exporting data from SQL database to files.
 """
+from collections import deque
 import datetime
 
 from lokaord import logman
@@ -69,3 +70,61 @@ def write_datafiles_from_db(ts: datetime.datetime = None):
 			skammstofun_record.Skammstofun_id, skammstofun.make_filename(), edited_str
 		))
 	logman.info('Done writing data from database to datafiles.')
+
+
+def check_samsett_circular_definitions():
+	"""
+	tékka hvort eitthvað samsett orð er skilgreint sem samsett úr orðum sem byggja á því, valdandi
+	hringtengingu í samsett venslum, slíkt viljum við ekki
+	"""
+	logman.info('Checking for circular definitions in samsett orð ..')
+	query_records = db.Session.query(isl.Ord).filter_by(Samsett=True).order_by(isl.Ord.Ord_id)
+	count = query_records.count()
+	counter = 1
+	for isl_ord in query_records:
+		ord_kennistrengur = isl_ord.Kennistrengur
+		isl_samsett = db.Session.query(isl.SamsettOrd).filter_by(
+			fk_Ord_id=isl_ord.Ord_id
+		).first()
+		first_ohl = db.Session.query(isl.SamsettOrdhluti).filter_by(
+			SamsettOrdhluti_id=isl_samsett.fk_FyrstiOrdHluti_id
+		).first()
+		ohl_queue = deque()
+		ord_dependencies = set()
+		ohl_queue.append(first_ohl)
+		first_ohl_kennistrengur = db.Session.query(isl.Ord).filter_by(
+			Ord_id=first_ohl.fk_Ord_id
+		).first().Kennistrengur
+		if first_ohl_kennistrengur == ord_kennistrengur:
+			raise Exception(
+				'Circular definition found for orð "%s" (1).' % (ord_kennistrengur, )
+			)
+		ord_dependencies.add(first_ohl_kennistrengur)
+		while True:
+			ohl_queued = None
+			try:
+				ohl_queued = ohl_queue.popleft()
+			except IndexError:
+				break  # ohl_queue deque is empty
+			if ohl_queued.fk_NaestiOrdhluti_id is not None:
+				next_ohl = db.Session.query(isl.SamsettOrdhluti).filter_by(
+					SamsettOrdhluti_id=ohl_queued.fk_NaestiOrdhluti_id
+				).first()
+				while next_ohl is not None:
+					next_ohl_kennistrengur = db.Session.query(isl.Ord).filter_by(
+						Ord_id=next_ohl.fk_Ord_id
+					).first().Kennistrengur
+					if next_ohl_kennistrengur == ord_kennistrengur:
+						raise Exception(
+							'Circular definition found for orð "%s" (2).' % (ord_kennistrengur, )
+						)
+					if next_ohl_kennistrengur not in ord_dependencies:
+						ohl_queue.append(next_ohl)
+						ord_dependencies.add(next_ohl_kennistrengur)
+					next_ohl = db.Session.query(isl.SamsettOrdhluti).filter_by(
+						SamsettOrdhluti_id=next_ohl.fk_NaestiOrdhluti_id
+					).first()
+		if counter % 1000 == 0 or counter == count:
+			logman.info('(%s/%s) OK "%s" ..' % (counter, count, ord_kennistrengur))
+		counter += 1
+	logman.info('No circular definitions found for samsett orð.')

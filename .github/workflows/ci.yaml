@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.13"]
+        python-version: ["3.14"]
 
     steps:
       - uses: actions/checkout@v3
@@ -27,10 +27,13 @@ jobs:
           pip install -r requirements.txt
       - name: Initialize database
         run: |
-          # nota backup skrá til að létta á CI build tíma
+          # keyra prófanir fyrir orðagrunn
+          # nota backup sqlite skrá til að stytta CI build tíma
           cp lokaord/database/disk/lokaord/db_2026-04-23T18:11:56.sqlite lokaord/database/disk/lokaord/db.sqlite
-          # smíða grunn
+          # lesa textaskrár í grunn
           python main.py build-db runtime
+          # athuga hvort nokkuð samsett orð sé skilgreint samsett í hring
+          python main.py check-samsett-circular-definitions runtime
           # skrifa orð úr grunni í textaskrár
           python main.py write-files runtime
           # smíða orðaforleit
@@ -42,5 +45,5 @@ jobs:
           python main.py md-stats
           # ganga úr skugga um að orð séu óbreytt eftir smíði
           python main.py assert-clean-git
-          # keyra webpack, nemur kennistrengur endurtekningar
+          # keyra webpack, nemur m.a. hugsanlegar "kennistrengur" endurtekningar
           python main.py webpack

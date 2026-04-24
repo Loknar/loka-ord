@@ -191,6 +191,11 @@ def assert_clean_git():
 	lokaord.assert_clean_git()
 
 
+@app.command(help='Check for bad circular definitions for samsett orð.')
+def check_samsett_circular_definitions():
+	lokaord.check_samsett_circular_definitions()
+
+
 @app.command(help='Run fiddle.')
 def run_fiddle():
 	lokaord.run_fiddle()
