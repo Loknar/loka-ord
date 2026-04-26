@@ -4,17 +4,11 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "al",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-ałlur"
-		},
-		{
-			"mynd": "ræðis",
+			"mynd": "alræðis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ræði-hk"
+			"kennistrengur": "no-alræði-hk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-vald-hk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["alræðisvald", "alræðisvald", "alræðisvaldi", "alræðisvalds"],
 		"mg": ["alræðisvaldið", "alræðisvaldið", "alræðisvaldinu", "alræðisvaldsins"]
 	},
+	"ft": {
+		"ág": ["alræðisvöld", "alræðisvöld", "alræðisvöldum", "alræðisvalda"],
+		"mg": ["alræðisvöldin", "alræðisvöldin", "alræðisvöldunum", "alræðisvaldanna"]
+	},
 	"kennistrengur": "no-alræðisvald-hk",
-	"hash": "88af915fea36c72c1bd7732a6263858f07470131a25e3c054007d96090e2aa87"
+	"hash": "aee9a7ae0b56773d95f5788e0a90930d6abea57f3c1cdceed2bccc74e72348c6"
 }

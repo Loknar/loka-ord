@@ -1,0 +1,27 @@
+{
+	"orð": "húsaleiguverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["húsaleiguverð", "húsaleiguverð", "húsaleiguverði", "húsaleiguverðs"],
+		"mg": ["húsaleiguverðið", "húsaleiguverðið", "húsaleiguverðinu", "húsaleiguverðsins"]
+	},
+	"kennistrengur": "no-húsaleiguverð-hk",
+	"hash": "960ebb5e68aefa4c2da99e52d0f866d23e470ec24a0bcbc06cd8459b5a0db68b"
+}

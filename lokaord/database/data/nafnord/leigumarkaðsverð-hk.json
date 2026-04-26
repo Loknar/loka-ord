@@ -1,0 +1,27 @@
+{
+	"orð": "leigumarkaðsverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"mynd": "markaðs",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-markaður-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["leigumarkaðsverð", "leigumarkaðsverð", "leigumarkaðsverði", "leigumarkaðsverðs"],
+		"mg": ["leigumarkaðsverðið", "leigumarkaðsverðið", "leigumarkaðsverðinu", "leigumarkaðsverðsins"]
+	},
+	"kennistrengur": "no-leigumarkaðsverð-hk",
+	"hash": "14dd1c20feef40ec2d6b77d46f04035546f0f6eed76bebd0b24e631d75e48a05"
+}

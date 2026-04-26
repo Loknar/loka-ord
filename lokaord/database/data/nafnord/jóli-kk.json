@@ -2,6 +2,16 @@
 	"orð": "jóli",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "jól",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jól-hk"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["jóli", "jóla", "jóla", "jóla"],
 		"mg": ["jólinn", "jólann", "jólanum", "jólans"]
@@ -11,5 +21,5 @@
 		"mg": ["jólarnir", "jólana", "jólunum", "jólanna"]
 	},
 	"kennistrengur": "no-jóli-kk",
-	"hash": "49e5f9df5e97e680c59bf5d73d53c3fb3050056544e773a56f07caf7678e6d9c"
+	"hash": "edae122554bcfe14c3acac8e891c87982d6011d2f25a7d621c4488ee37e57ee8"
 }

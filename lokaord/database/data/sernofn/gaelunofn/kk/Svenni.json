@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Svenn",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.en-Sveinn-kk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Svenni", "Svenna", "Svenna", "Svenna"]
 	},
 	"kennistrengur": "sérn.gn-Svenni-kk",
-	"hash": "03c6ca2fba57c57b3e805336227170515e803a4cc0904e2b47078f0daa6fc1f5"
+	"hash": "65489f38c6f1a48323a612a301b5b643744fe11e10f2aed9ab9f95d9060d1ea0"
 }

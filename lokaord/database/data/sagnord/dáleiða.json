@@ -1,0 +1,131 @@
+{
+	"orð": "dáleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dá-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dáleiða",
+		"sagnbót": "dáleitt",
+		"boðháttur": {
+			"stýfður": "dáleið",
+			"et": "dáleiddu",
+			"ft": "dáleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dáleiði", "dáleiðir", "dáleiðir"],
+					"ft": ["dáleiðum", "dáleiðið", "dáleiða"]
+				},
+				"þátíð": {
+					"et": ["dáleiddi", "dáleiddir", "dáleiddi"],
+					"ft": ["dáleiddum", "dáleidduð", "dáleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dáleiði", "dáleiðir", "dáleiði"],
+					"ft": ["dáleiðum", "dáleiðið", "dáleiði"]
+				},
+				"þátíð": {
+					"et": ["dáleiddi", "dáleiddir", "dáleiddi"],
+					"ft": ["dáleiddum", "dáleidduð", "dáleiddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dáleiðirðu",
+					"ft": "dáleiðiði"
+				},
+				"þátíð": {
+					"et": "dáleiddirðu",
+					"ft": "dáleidduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dáleiðirðu",
+					"ft": "dáleiðiði"
+				},
+				"þátíð": {
+					"et": "dáleiddirðu",
+					"ft": "dáleidduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dáleiðast",
+		"sagnbót": "dáleiðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dáleiðist", "dáleiðist", "dáleiðist"],
+					"ft": ["dáleiðumst", "dáleiðist", "dáleiðast"]
+				},
+				"þátíð": {
+					"et": ["dáleiddist", "dáleiddist", "dáleiddist"],
+					"ft": ["dáleiddumst", "dáleiddust", "dáleiddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dáleiðist", "dáleiðist", "dáleiðist"],
+					"ft": ["dáleiðumst", "dáleiðist", "dáleiðist"]
+				},
+				"þátíð": {
+					"et": ["dáleiddist", "dáleiddist", "dáleiddist"],
+					"ft": ["dáleiddumst", "dáleiddust", "dáleiddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dáleiðistu"
+				},
+				"þátíð": {
+					"et": "dáleiddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dáleiðistu"
+				},
+				"þátíð": {
+					"et": "dáleiddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dáleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dáleiddur", "dáleiddan", "dáleiddum", "dáleidds"],
+					"kvk": ["dáleidd", "dáleidda", "dáleiddri", "dáleiddrar"],
+					"hk": ["dáleitt", "dáleitt", "dáleiddu", "dáleidds"]
+				},
+				"ft": {
+					"kk": ["dáleiddir", "dáleidda", "dáleiddum", "dáleiddra"],
+					"kvk": ["dáleiddar", "dáleiddar", "dáleiddum", "dáleiddra"],
+					"hk": ["dáleidd", "dáleidd", "dáleiddum", "dáleiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dáleiða",
+	"hash": "82aef0a0f02fb75b913bc452cfca2fc0daf269d590af1f1db8604b5a44a80f59"
+}

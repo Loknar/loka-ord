@@ -2,10 +2,22 @@
 	"orð": "kristni",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "krist",
+			"samsetning": "stofn",
+			"kennistrengur": "sérn.en-Kristur-kk"
+		},
+		{
+			"leiðir": "n",
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kristni", "kristni", "kristni", "kristni"],
 		"mg": ["kristnin", "kristnina", "kristninni", "kristninnar"]
 	},
 	"kennistrengur": "no-kristni-kvk",
-	"hash": "e1dae6758839291f90729c30f697c1d235fa96c92bf80a2d1511845c55c91db0"
+	"hash": "48c725aa8d9d71cd30c5ffa33fc6154e655b684631893599b7a0bc1cd2812b42"
 }
