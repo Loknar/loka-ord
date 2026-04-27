@@ -5,28 +5,19 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "Norð",
+			"mynd": "Norðaustur",
 			"samsetning": "stofn",
-			"kennistrengur": "no-norður-hk"
+			"kennistrengur": "no-norðaustur-hk"
 		},
 		{
-			"mynd": "austur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-austur-hk"
-		},
-		{
-			"mynd": "kjör",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kjör-hk-_kosning_"
-		},
-		{
-			"beygingar": ["et-ág"],
-			"kennistrengur": "no-dæmi-hk"
+			"beygingar": ["et"],
+			"kennistrengur": "no-kjördæmi-hk"
 		}
 	],
 	"et": {
-		"ág": ["Norðausturkjördæmi", "Norðausturkjördæmi", "Norðausturkjördæmi", "Norðausturkjördæmis"]
+		"ág": ["Norðausturkjördæmi", "Norðausturkjördæmi", "Norðausturkjördæmi", "Norðausturkjördæmis"],
+		"mg": ["Norðausturkjördæmið", "Norðausturkjördæmið", "Norðausturkjördæminu", "Norðausturkjördæmisins"]
 	},
 	"kennistrengur": "sérn.ön-Norðausturkjördæmi-hk",
-	"hash": "e1a8ed216a172a2c95cb01fe2ca65b456f7d24962a5a53f2d79bce72cb3a7729"
+	"hash": "2a0d2da5159a8ba4180ebb7d2489037fb0807e7c594364c5ed7de6a810015739"
 }

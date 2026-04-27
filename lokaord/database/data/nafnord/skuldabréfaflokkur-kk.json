@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "skulda",
+			"mynd": "skuldabréfa",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skuld-kvk"
-		},
-		{
-			"mynd": "bréfa",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-bréf-hk"
+			"kennistrengur": "no-skuldabréf-hk"
 		},
 		{
 			"kennistrengur": "no-flokkur-kk"
@@ -26,5 +21,5 @@
 		"mg": ["skuldabréfaflokkarnir", "skuldabréfaflokkana", "skuldabréfaflokkunum", "skuldabréfaflokkanna"]
 	},
 	"kennistrengur": "no-skuldabréfaflokkur-kk",
-	"hash": "bc3248ed6cd307c47206503a685aa6adc339a1a68cd5459461e6680db321ace7"
+	"hash": "445ac50324082843b8e478f8ee49e931e402655a075d34c8967e4350828aab62"
 }

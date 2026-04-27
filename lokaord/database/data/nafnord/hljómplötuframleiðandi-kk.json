@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "hljóm",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hljómur-kk"
-		},
-		{
-			"mynd": "plötu",
+			"mynd": "hljómplötu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-plata-kvk"
+			"kennistrengur": "no-hljómplata-kvk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-leiðandi-kk"
+			"kennistrengur": "no-framleiðandi-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["hljómplötuframleiðendurnir", "hljómplötuframleiðendurna", "hljómplötuframleiðendunum", "hljómplötuframleiðendanna"]
 	},
 	"kennistrengur": "no-hljómplötuframleiðandi-kk",
-	"hash": "924e30288328c712f5ed3fe2ff364a8cfc111983944697d3236015746b86e71f"
+	"hash": "12643fa4ecd4e6adc6d35eb16658811e21ee4ff2f35ae62a5f9722460f3a0994"
 }
