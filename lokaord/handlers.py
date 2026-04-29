@@ -24,7 +24,7 @@ import pydantic
 from lokaord import logman
 from lokaord.database import db
 from lokaord.database.models import isl
-from lokaord.exc import VoidKennistrengurError
+from lokaord.exc import VoidKennistrengurError, OrdToDeleteHasDependentsError
 from lokaord import structs
 from lokaord.structs import NafnordaBeygingar, LysingarordaBeygingar, SagnordaBeygingar
 
@@ -794,9 +794,9 @@ class Ord:
 		look for "merking" in filename, for example "lofa" in filename "heita-_lofa_.json"
 		if no "merking" then return None
 		"""
-		match = re.search(r'_([a-zA-ZáÁðÐéÉíÍłŁóÓúÚýÝæÆöÖ]*)_', filename)
-		if match is not None:
-			return match.group()[1:-1]
+		re_match = re.search(r'_([a-zA-ZáÁðÐéÉíÍłŁóÓúÚýÝæÆöÖ]*)_', filename)
+		if re_match is not None:
+			return re_match.group()[1:-1]
 		return None
 
 	def _fno_extras(self):
@@ -4078,6 +4078,181 @@ class Skammstofun(Ord):
 				)
 			)
 		self.data.datahash = self.get_data_hash()
+
+
+def get_ord_by_kennistrengur(kennistrengur: str) -> isl.Ord:
+	return db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
+
+
+def get_dependents_of_ord(isl_ord: isl.Ord) -> list[str]:
+	ohl_query = db.Session.query(isl.SamsettOrdhluti).filter_by(fk_Ord_id=isl_ord.Ord_id)
+	dependents = []
+	ohl_count = ohl_query.count()
+	ohl_counter = 0
+	for ohl in ohl_query:
+		ohl_counter += 1
+		if ohl_counter % 200 == 0:
+			logman.info('Looking up orð dependents (1), %s of %s ..' % (ohl_w_counter, ohl_w_count))
+		s_ord = db.Session.query(isl.SamsettOrd).filter_by(
+			fk_FyrstiOrdHluti_id=ohl.SamsettOrdhluti_id
+		).first()
+		if s_ord is not None and s_ord.fk_Ord_id is not None:
+			d_isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=s_ord.fk_Ord_id).first()
+			if d_isl_ord is None:
+				raise Exception('SamsettOrd entry %s has void Ord %s.' % (
+					s_ord.SamsettOrd_id, s_ord.fk_Ord_id
+				))
+			if d_isl_ord.Kennistrengur not in dependents:
+				dependents.append(d_isl_ord.Kennistrengur)
+		ohl_w_query = db.Session.query(isl.SamsettOrdhluti).filter_by(
+			fk_NaestiOrdhluti_id=ohl.SamsettOrdhluti_id
+		)
+		ohl_w_count = ohl_w_query.count()
+		ohl_w_counter = 0
+		for ohl_w in ohl_w_query:
+			ohl_w_counter += 1
+			if ohl_w_counter % 200 == 0:
+				logman.info('Looking up orð dependents (2), %s of %s ..' % (
+					ohl_w_counter, ohl_w_count
+				))
+			while ohl_w is not None:
+				s_ord = db.Session.query(isl.SamsettOrd).filter_by(
+					fk_FyrstiOrdHluti_id=ohl_w.SamsettOrdhluti_id
+				).first()
+				if s_ord is not None and s_ord.fk_Ord_id is not None:
+					d_isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=s_ord.fk_Ord_id).first()
+					if d_isl_ord is None:
+						raise Exception('SamsettOrd entry %s has void Ord %s.' % (
+							s_ord.SamsettOrd_id, s_ord.fk_Ord_id
+						))
+					if d_isl_ord.Kennistrengur not in dependents:
+						dependents.append(d_isl_ord.Kennistrengur)
+				ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
+					fk_NaestiOrdhluti_id=ohl_w.SamsettOrdhluti_id
+				).first()
+	dependents.sort()
+	return dependents
+
+
+def get_skammstafanir_with_ord(isl_ord: isl.Ord) -> list[str]:
+	sk_fr_query = db.Session.query(isl.SkammstofunFrasi).filter_by(fk_Ord_id=isl_ord.Ord_id)
+	skammstafanir = []
+	for sk_fr in sk_fr_query:
+		sk = db.Session.query(isl.Skammstofun).filter_by(
+			Skammstofun_id=sk_fr.fk_Skammstofun_id
+		).first()
+		if sk.Kennistrengur not in skammstafanir:
+			skammstafanir.append(sk.Kennistrengur)
+	skammstafanir.sort()
+	return skammstafanir
+
+
+def delete_ord_from_db(isl_ord: isl.Ord):
+	logman.debug('Deleting orð "%s" ..' % (isl_ord.Kennistrengur, ))
+	# check for samsett orð that are dependent on given orð
+	dependents = get_dependents_of_ord(isl_ord)
+	if len(dependents) > 0:
+		dep_str = 'dependent' if len(dependents) == 1 else 'dependents'
+		end_dot = ' ..' if len(dependents) > 5 else '.'
+		raise OrdToDeleteHasDependentsError('Unable to delete orð "%s", it has %s %s: %s%s' % (
+			isl_ord.Kennistrengur,
+			len(dependents),
+			dep_str,
+			', '.join(dependents[:5]),
+			end_dot
+		))
+	# check for skammstafanir that are dependent on given orð
+	skammstafanir = get_skammstafanir_with_ord(isl_ord)
+	if len(skammstafanir) > 0:
+		skamm_str = 'skammstöfun' if len(skammstafanir) == 1 else 'skammstafanir'
+		end_dot = ' ..' if len(skammstafanir) > 5 else '.'
+		raise OrdToDeleteHasDependentsError('Unable to delete orð "%s", it has %s %s: %s%s' % (
+			isl_ord.Kennistrengur,
+			len(skammstafanir),
+			skamm_str,
+			', '.join(skammstafanir[:5]),
+			end_dot
+		))
+	# no dependents found, hence we can safely delete orð
+	if isl_ord.Samsett is True:
+		# if orð is samsett we delete samsett info (both SamsettOrd and SamsettOrdhluti chain)
+		s_isl_ord = db.Session.query(isl.SamsettOrd).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+		first_ohl_id = s_isl_ord.fk_FyrstiOrdHluti_id
+		db.Session.delete(s_isl_ord)
+		ohl = db.Session.query(isl.SamsettOrdhluti).filter_by(
+			SamsettOrdhluti_id=first_ohl_id
+		).first()
+		next_ohl_id = ohl.fk_NaestiOrdhluti_id
+		db.Session.delete(ohl)
+		ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
+			SamsettOrdhluti_id=next_ohl_id
+		).first()
+		while ohl_w is not None:
+			chained_to_ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
+				fk_NaestiOrdhluti_id=ohl_w.SamsettOrdhluti_id
+			).count()
+			if chained_to_ohl_w > 0:
+				# saved from deletion by another samsett chain, we're done here
+				break
+			next_ohl_w_id = ohl_w.fk_NaestiOrdhluti_id
+			db.Session.delete(ohl_w)
+			if next_ohl_w_id is None:
+				# end of chain reached and deleted, we're done here
+				break
+			ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
+				SamsettOrdhluti_id=next_ohl_w_id
+			).first()
+	# delete orðflokkur dependent data
+	match isl_ord.Ordflokkur:
+		case isl.Ordflokkar.Nafnord:
+			isl_ord_no = db.Session.query(isl.Nafnord).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+			db.Session.delete(isl_ord_no)
+		case isl.Ordflokkar.Lysingarord:
+			isl_ord_lo = db.Session.query(isl.Lysingarord).filter_by(
+				fk_Ord_id=isl_ord.Ord_id
+			).first()
+			if isl_ord_lo is not None:  # note: entry not created for samsett lýsingarorð
+				db.Session.delete(isl_ord_lo)
+		case isl.Ordflokkar.Greinir:
+			isl_ord_gr = db.Session.query(isl.Greinir).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+			if isl_ord_gr is not None:  # note: entry not created for samsett greinir
+				db.Session.delete(isl_ord_gr)
+		case isl.Ordflokkar.Fornafn:
+			isl_ord_fn = db.Session.query(isl.Fornafn).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+			db.Session.delete(isl_ord_fn)
+		case isl.Ordflokkar.Fjoldatala:
+			isl_ord_ft = db.Session.query(isl.Fjoldatala).filter_by(
+				fk_Ord_id=isl_ord.Ord_id
+			).first()
+			db.Session.delete(isl_ord_ft)
+		case isl.Ordflokkar.Radtala:
+			isl_ord_rt = db.Session.query(isl.Radtala).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+			db.Session.delete(isl_ord_rt)
+		case isl.Ordflokkar.Sagnord:
+			isl_ord_so = db.Session.query(isl.Sagnord).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+			if isl_ord_so is not None:  # note: entry not created for samsett sagnorð
+				db.Session.delete(isl_ord_so)
+		case isl.Ordflokkar.Forsetning:
+			isl_ord_fs = db.Session.query(isl.Forsetning).filter_by(
+				fk_Ord_id=isl_ord.Ord_id
+			).first()
+			db.Session.delete(isl_ord_fs)
+		case isl.Ordflokkar.Atviksord:
+			isl_ord_ao = db.Session.query(isl.Atviksord).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+			if isl_ord_ao is not None:  # note: entry not created for samsett atviksorð
+				db.Session.delete(isl_ord_ao)
+		case isl.Ordflokkar.Samtenging:
+			isl_ord_st = db.Session.query(isl.SamtengingFleiryrt).filter_by(
+				fk_Ord_id=isl_ord.Ord_id
+			).first()
+			db.Session.delete(isl_ord_st)
+		case isl.Ordflokkar.Sernafn:
+			isl_ord_sn = db.Session.query(isl.Sernafn).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
+			db.Session.delete(isl_ord_sn)
+	# delete orð itself
+	db.Session.delete(isl_ord)
+	db.Session.commit()
+	logman.info('Deleted orð "%s".' % (isl_ord.Kennistrengur, ))
 
 
 class MyIndentJSONEncoder(json.JSONEncoder):

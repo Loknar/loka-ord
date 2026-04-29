@@ -14,3 +14,7 @@ class LokaordException(Exception):
 
 class VoidKennistrengurError(LokaordException):
 	"""Raise when no word exists for specified kennistrengur"""
+
+
+class OrdToDeleteHasDependentsError(LokaordException):
+	"""Raise when attempting to delete orð which has dependents"""

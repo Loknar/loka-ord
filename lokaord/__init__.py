@@ -3,16 +3,20 @@ import datetime
 from enum import Enum
 import json
 import os
+import pathlib
 
 import git
+import typer
 
 from lokaord import exporter
+from lokaord import handlers
 from lokaord import importer
 from lokaord import logman
 from lokaord import seer
 from lokaord import stats
 from lokaord import tui
 from lokaord.database import db
+from lokaord.exc import OrdToDeleteHasDependentsError
 from lokaord.version import __version__  # noqa
 
 Name = 'lokaord'
@@ -73,6 +77,45 @@ def backup_db(name: str = None):
 	if name is None:
 		name = Name
 	db.backup_sqlite_db_file(name)
+
+
+def use_backup(name: str = None, filename: str = None):
+	logman.info('Use backup ..')
+	current_file_directory = os.path.dirname(os.path.realpath(__file__))
+	backup_handling_path_str = os.path.join(
+		current_file_directory, 'database', 'disk', 'db_bak_handling.json'
+	)
+	backup_handling_path = pathlib.Path(backup_handling_path_str)
+	backup_handling = None
+	try:
+		with backup_handling_path.open(mode='r', encoding='utf-8') as fi:
+			backup_handling = json.loads(fi.read())
+	except json.decoder.JSONDecodeError:
+		raise Exception(f'File "{backup_handling_path.name}" has invalid JSON format.')
+	if name is None:
+		name = backup_handling['default']['name']
+		logman.info(f'Default backup name "{name}".')
+	else:
+		logman.info(f'Backup name "{name}.')
+	if filename is None:
+		filename = backup_handling['default']['filename']
+		logman.info(f'Default backup filename "{filename}".')
+	else:
+		logman.info(f'Backup filename "{filename}.')
+	logman.info(f'Using backup in "{name}", filename "{filename}.sqlite".')
+	db.use_backup_sqlite_db_file(name, filename)
+	db.init(Name)
+	if (
+		filename in backup_handling['handling'] and
+		'ord_delete' in backup_handling['handling'][filename]
+	):
+		logman.info(f'Remove specified list of orð from database backup ..')
+		if not isinstance(backup_handling['handling'][filename]['ord_delete'], list):
+			raise Exception('"ord_delete" should be list')
+		for kennistrengur in backup_handling['handling'][filename]['ord_delete']:
+			if not isinstance(kennistrengur, str):
+				raise Exception('contents of "ord_delete" should be strings')
+			delete_ord(kennistrengur)
 
 
 def build_db(rebuild: bool = False, changes_only: bool = False):
@@ -172,6 +215,41 @@ def assert_clean_git():
 def check_samsett_circular_definitions():
 	db.init(Name)
 	exporter.check_samsett_circular_definitions()
+
+
+def check_ord_dependents(kennistrengur: str):
+	db.init(Name)
+	isl_ord = handlers.get_ord_by_kennistrengur(kennistrengur)
+	if isl_ord is None:
+		logman.error(f'Orð with kennistrengur "{kennistrengur}" not found.')
+		raise typer.Exit(code=1)
+	dependents = handlers.get_dependents_of_ord(isl_ord)
+	if len(dependents) > 0:
+		logman.info('Orð "%s" has the following dependent orð: %s' % (
+			kennistrengur, ', '.join(dependents))
+		)
+	else:
+		logman.info('Orð "%s" has no dependent orð.' % (kennistrengur, ))
+	skammstafanir = handlers.get_skammstafanir_with_ord(isl_ord)
+	if len(skammstafanir) > 0:
+		logman.info('Orð "%s" in the following skammstafanir: %s' % (
+			kennistrengur, ', '.join(skammstafanir))
+		)
+	else:
+		logman.info('Orð "%s" not in any skammstöfun.' % (kennistrengur, ))
+
+
+def delete_ord(kennistrengur: str):
+	db.init(Name)
+	isl_ord = handlers.get_ord_by_kennistrengur(kennistrengur)
+	if isl_ord is None:
+		logman.error(f'Orð with kennistrengur "{kennistrengur}" not found.')
+		raise typer.Exit(code=1)
+	try:
+		handlers.delete_ord_from_db(isl_ord)
+	except OrdToDeleteHasDependentsError as err:
+		logman.error(err.msg)
+		raise typer.Exit(code=1)
 
 
 def run_fiddle():

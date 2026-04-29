@@ -29,7 +29,7 @@ jobs:
         run: |
           # keyra prófanir fyrir orðagrunn
           # nota backup sqlite skrá til að stytta CI build tíma
-          cp lokaord/database/disk/lokaord/db_2026-04-23T18:11:56.sqlite lokaord/database/disk/lokaord/db.sqlite
+          python main.py use-backup
           # lesa textaskrár í grunn
           python main.py build-db runtime
           # athuga hvort nokkuð samsett orð sé skilgreint samsett í hring

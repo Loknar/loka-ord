@@ -73,6 +73,11 @@ def backup_db():
 	lokaord.backup_db()
 
 
+@app.command(help='Copy and use backup of SQLite database file.')
+def use_backup(name: str = None, filename = None):
+	lokaord.use_backup(name, filename)
+
+
 @app.command(help='Write words from database to JSON datafiles.')
 def write_files(
 	timestamp: Annotated[Optional[datetime.datetime], Option('--timestamp', '-ts')] = None,
@@ -194,6 +199,16 @@ def assert_clean_git():
 @app.command(help='Check for bad circular definitions for samsett orð.')
 def check_samsett_circular_definitions():
 	lokaord.check_samsett_circular_definitions()
+
+
+@app.command(help='Lookup dependent orð and skammstafanir for a orð using kennistrengur.')
+def ord_dep(kennistrengur: str):
+	lokaord.check_ord_dependents(kennistrengur)
+
+
+@app.command(help='Delete orð by kennistrengur.')
+def del_ord(kennistrengur: str):
+	lokaord.delete_ord(kennistrengur)
 
 
 @app.command(help='Run fiddle.')
