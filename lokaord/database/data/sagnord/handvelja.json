@@ -1,0 +1,87 @@
+{
+	"orð": "handvelja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-velja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handvelja",
+		"sagnbót": "handvalið",
+		"boðháttur": {
+			"stýfður": "handvel",
+			"et": "handveldu",
+			"ft": "handveljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handvel", "handvelur", "handvelur"],
+					"ft": ["handveljum", "handveljið", "handvelja"]
+				},
+				"þátíð": {
+					"et": ["handvaldi", "handvaldir", "handvaldi"],
+					"ft": ["handvöldum", "handvölduð", "handvöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handvelji", "handveljir", "handvelji"],
+					"ft": ["handveljum", "handveljið", "handvelji"]
+				},
+				"þátíð": {
+					"et": ["handveldi", "handveldir", "handveldi"],
+					"ft": ["handveldum", "handvelduð", "handveldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handvelurðu",
+					"ft": "handveljiði"
+				},
+				"þátíð": {
+					"et": "handvaldirðu",
+					"ft": "handvölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handveljirðu",
+					"ft": "handveljiði"
+				},
+				"þátíð": {
+					"et": "handveldirðu",
+					"ft": "handvelduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handveljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handvalinn", "handvalinn", "handvöldum", "handvalins"],
+					"kvk": ["handvalin", "handvalda", "handvalinni", "handvalinnar"],
+					"hk": ["handvalið", "handvalið", "handvöldu", "handvalins"]
+				},
+				"ft": {
+					"kk": ["handvaldir", "handvalda", "handvöldum", "handvalinna"],
+					"kvk": ["handvaldar", "handvaldar", "handvöldum", "handvalinna"],
+					"hk": ["handvalin", "handvalin", "handvöldum", "handvalinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handvelja",
+	"hash": "c6fb20e60d5d770786118bb026c69500cedef15a94713d48e539d7f50b20574a"
+}

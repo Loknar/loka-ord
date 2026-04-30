@@ -1,0 +1,87 @@
+{
+	"orð": "læka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "læk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-læk-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "læka",
+		"sagnbót": "lækað",
+		"boðháttur": {
+			"stýfður": "læka",
+			"et": "lækaðu",
+			"ft": "lækið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["læka", "lækar", "lækar"],
+					"ft": ["lækum", "lækið", "læka"]
+				},
+				"þátíð": {
+					"et": ["lækaði", "lækaðir", "lækaði"],
+					"ft": ["lækuðum", "lækuðuð", "lækuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["læki", "lækir", "læki"],
+					"ft": ["lækum", "lækið", "læki"]
+				},
+				"þátíð": {
+					"et": ["lækaði", "lækaðir", "lækaði"],
+					"ft": ["lækuðum", "lækuðuð", "lækuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lækarðu",
+					"ft": "lækiði"
+				},
+				"þátíð": {
+					"et": "lækaðirðu",
+					"ft": "lækuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lækirðu",
+					"ft": "lækiði"
+				},
+				"þátíð": {
+					"et": "lækaðirðu",
+					"ft": "lækuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lækandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lækaður", "lækaðan", "lækuðum", "lækaðs"],
+					"kvk": ["lækuð", "lækaða", "lækaðri", "lækaðrar"],
+					"hk": ["lækað", "lækað", "lækuðu", "lækaðs"]
+				},
+				"ft": {
+					"kk": ["lækaðir", "lækaða", "lækuðum", "lækaðra"],
+					"kvk": ["lækaðar", "lækaðar", "lækuðum", "lækaðra"],
+					"hk": ["lækuð", "lækuð", "lækuðum", "lækaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-læka",
+	"hash": "cab93a0d33d7f14fc5f7df0d67635898cda799874451ac0402d10a4090fa5628"
+}
