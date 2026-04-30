@@ -28,10 +28,8 @@ jobs:
       - name: Initialize database
         run: |
           # keyra prófanir fyrir orðagrunn
-          # nota backup sqlite skrá til að stytta CI build tíma
-          python main.py use-backup
-          # lesa textaskrár í grunn
-          python main.py build-db runtime
+          # nota backup sqlite skrá til að stytta CI build tíma (í stað build-db)
+          python main.py use-backup runtime
           # athuga hvort nokkuð samsett orð sé skilgreint samsett í hring
           python main.py check-samsett-circular-definitions runtime
           # skrifa orð úr grunni í textaskrár

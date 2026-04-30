@@ -115,14 +115,8 @@ def import_datafiles_to_db():
 	logman.info('Done importing data from datafiles to database.')
 
 
-def import_changed_datafiles_to_db():
-	"""
-	Go through datafiles in "lokaord/database/data" directory that have changed according to git
-	or are currently not tracked by git.
-	"""
-	logman.info('Doing import for changed or new datafiles to database ..')
+def import_list_of_datafiles_to_db(files: list[str]):
 	handlers_map = handlers.get_handlers_map()
-	files = get_changed_and_untracked_data_files()
 	ord_files, skammstofun_files = handlers.Ord.sort_files_skammstafanir_from_ord(files)
 	kjarna_ord, samsett_ord = handlers.Ord.sort_files_to_kjarna_and_samsett_ord(ord_files)
 	# kjarna-orð
@@ -141,6 +135,7 @@ def import_changed_datafiles_to_db():
 				isl_ord.data.kennistrengur, kjarna_ord_file
 			))
 	# samsett-orð
+	samsett_ord_void_queue = deque()
 	if len(samsett_ord) == 0:
 		logman.info('No new or changed samsett orð.')
 	else:
@@ -149,12 +144,38 @@ def import_changed_datafiles_to_db():
 		logman.info('Orð file "%s"' % (samsett_ord_file, ))
 		handler = handlers_map[handlers.Ord.load_json(samsett_ord_file)['flokkur']]
 		isl_ord = handler()
-		isl_ord.load_from_file(samsett_ord_file)
-		_, changes_made = isl_ord.write_to_db()
-		if changes_made is True:
-			logman.info('Orð %s in file "%s" was changed.' % (
-				isl_ord.data.kennistrengur, samsett_ord_file
-			))
+		try:
+			isl_ord.load_from_file(samsett_ord_file)
+			_, changes_made = isl_ord.write_to_db()
+			if changes_made is True:
+				logman.info('Orð %s in file "%s" was changed.' % (
+					isl_ord.data.kennistrengur, samsett_ord_file
+				))
+		except VoidKennistrengurError:
+			samsett_ord_void_queue.append(samsett_ord_file)
+	# retry void samsett-orð
+	max_retries = 100 + (10 * len(files))  # just a minor safety from infinite loop
+	count_retries = 0
+	while True:
+		samsett_ord_file = None
+		try:
+			samsett_ord_file = samsett_ord_void_queue.popleft()
+		except IndexError:
+			break  # deque is empty
+		handler = handlers_map[handlers.Ord.load_json(samsett_ord_file)['flokkur']]
+		isl_ord = handler()
+		try:
+			isl_ord.load_from_file(samsett_ord_file)
+			_, changes_made = isl_ord.write_to_db()
+			if changes_made is True:
+				logman.info('Orð %s in file "%s" was changed.' % (
+					isl_ord.data.kennistrengur, samsett_ord_file
+				))
+		except VoidKennistrengurError:
+			samsett_ord_void_queue.append(samsett_ord_file)
+			count_retries += 1
+		if count_retries > max_retries:
+			raise Exception('import_list_of_datafiles_to_db: maximum amount of retries reached')
 	# skammstafanir
 	if len(skammstofun_files) == 0:
 		logman.info('No new or changed skammstafanir.')
@@ -170,6 +191,55 @@ def import_changed_datafiles_to_db():
 				skammstofun.data.kennistrengur, skammstofun_file
 			))
 	logman.info('Done importing data from datafiles to database.')
+
+
+def import_changed_datafiles_to_db():
+	"""
+	Go through datafiles in "lokaord/database/data" directory that have changed according to git
+	or are currently not tracked by git.
+	"""
+	logman.info('Doing import for changed or new datafiles to database ..')
+	files = get_changed_and_untracked_data_files()
+	import_list_of_datafiles_to_db(files)
+
+
+def import_changed_datafiles_since_commit_to_db(sha_hash: str, files_import: list[str]):
+	"""
+	Go through datafiles in "lokaord/database/data" directory that have changed according to git
+	since a specified commit.
+	"""
+	logman.info(
+		f'Doing import for changed or new datafiles, since git commit "{sha_hash}", to database ..'
+	)
+	repo_dir_abs = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
+	repo = git.Repo(repo_dir_abs)
+	commit_range = f'{sha_hash}..HEAD'
+	files = []
+	datafiles_dir_rel = 'lokaord/database/data/'
+	dfdr_len = len(datafiles_dir_rel)
+	for commit in repo.iter_commits(commit_range):
+		diffs = commit.parents[0].diff(commit)
+		changed_files = [item.a_path for item in diffs]
+		for changed_file in changed_files:
+			if (
+				not changed_file.startswith(datafiles_dir_rel) or
+				not changed_file.endswith('.json') or
+				changed_file in files
+			):
+				continue
+			changed_file_abs = os.path.join(repo_dir_abs, changed_file)
+			if (
+				not os.path.exists(changed_file_abs) or
+				os.path.islink(changed_file_abs) or
+				not os.path.isfile(changed_file_abs)
+			):
+				continue
+			files.append(changed_file[dfdr_len:])
+	logman.info('Found %s changed files.' % (len(files), ))
+	for file_import in files_import:
+		if file_import not in files:
+			files.append(file_import)
+	import_list_of_datafiles_to_db(files)
 
 
 def get_changed_and_untracked_data_files():

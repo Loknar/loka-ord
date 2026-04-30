@@ -83,7 +83,7 @@ def use_backup(name: str = None, filename: str = None):
 	logman.info('Use backup ..')
 	current_file_directory = os.path.dirname(os.path.realpath(__file__))
 	backup_handling_path_str = os.path.join(
-		current_file_directory, 'database', 'disk', 'db_bak_handling.json'
+		current_file_directory, 'database', 'db_bak_handling.json'
 	)
 	backup_handling_path = pathlib.Path(backup_handling_path_str)
 	backup_handling = None
@@ -116,6 +116,16 @@ def use_backup(name: str = None, filename: str = None):
 			if not isinstance(kennistrengur, str):
 				raise Exception('contents of "ord_delete" should be strings')
 			delete_ord(kennistrengur)
+	if (
+		filename in backup_handling['handling'] and
+		'commit_id' in backup_handling['handling'][filename]
+	):
+		commit_id = backup_handling['handling'][filename]['commit_id']
+		files_import = []
+		if 'files_import' in backup_handling['handling'][filename]:
+			files_import = backup_handling['handling'][filename]['files_import']
+		importer.import_changed_datafiles_since_commit_to_db(commit_id, files_import)
+	logman.info('Backup ready for use.')
 
 
 def build_db(rebuild: bool = False, changes_only: bool = False):
@@ -255,3 +265,5 @@ def delete_ord(kennistrengur: str):
 def run_fiddle():
 	db.init(Name)
 	logman.info('Running fiddle!')
+	start_hash = '269784961dab53ad0b575899eb73709a2f9893fe'
+	importer.import_changed_datafiles_since_commit_to_db(start_hash)
