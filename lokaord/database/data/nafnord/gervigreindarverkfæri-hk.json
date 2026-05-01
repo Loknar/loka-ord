@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "gervi",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gervi-hk"
-		},
-		{
-			"mynd": "greindar",
+			"mynd": "gervigreindar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greind-kvk"
+			"kennistrengur": "no-gervigreind-kvk"
 		},
 		{
-			"mynd": "verk",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verk-hk"
-		},
-		{
-			"kennistrengur": "no-færi-hk"
+			"kennistrengur": "no-verkfæri-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["gervigreindarverkfærin", "gervigreindarverkfærin", "gervigreindarverkfærunum", "gervigreindarverkfæranna"]
 	},
 	"kennistrengur": "no-gervigreindarverkfæri-hk",
-	"hash": "b6693e0aaef548a7b4eec258bae5cb5576e189744fbbfe42bbcb735aa2960d9f"
+	"hash": "849d7e54b6c9fe5940f64e17595446b17b36952bc121c551ee8e2a9286d35012"
 }

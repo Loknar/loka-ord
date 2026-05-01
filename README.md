@@ -6,26 +6,26 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1960 | 1790 | 1799 | 5549 | 16474 | 22035 | 22566 | 61075 | **66624** |
-| **Lýsingarorð** | 538 |   |   |   | 782 |   |   |   | 6222 | **7004** |
+| **Nafnorð**     |   | 1960 | 1791 | 1799 | 5550 | 16480 | 22050 | 22578 | 61108 | **66658** |
+| **Lýsingarorð** | 538 |   |   |   | 782 |   |   |   | 6223 | **7005** |
 | **Sagnorð**     |   |   |   |   | 1403 |   |   |   | 2140 | **3543** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
 | **Smáorð**      |   |   |   |   | 351 |   |   |   | 639 | **990** |
-| **Alls** |   |   |   |   | **8149** |   |   |   | **70200** | **78349** |
+| **Alls** |   |   |   |   | **8150** |   |   |   | **70234** | **78384** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1332 | 1285 | 16 | 2633 | 1020 | 1278 | 10 | 2308 | **4941** |
 | Kenninöfn |  |  |  |  | 4853 | 4851 | 4829 | 14533 | **14533** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **1565** |
-| Gælunöfn  | 611 | 270 | 8 | 889 | 174 | 165 | 9 | 348 | **1237** |
-| Örnefni   | 37 | 174 | 687 | 898 | 2868 | 2154 | 2228 | 7250 | **8148** |
-| **Alls**  |   |   |   | **5816** |   |   |   | **24608** | **30424** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **1566** |
+| Gælunöfn  | 613 | 270 | 8 | 891 | 174 | 165 | 9 | 348 | **1239** |
+| Örnefni   | 37 | 174 | 688 | 899 | 2868 | 2156 | 2229 | 7253 | **8152** |
+| **Alls**  |   |   |   | **5820** |   |   |   | **24611** | **30431** |
 
-**Samtals:** 108773 orð.
+**Samtals:** 108815 orð.
 
-1019 skammstafanir.
+1021 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -53,6 +53,8 @@ pip install -Ur requirements.txt
 
 ## Notkun (Usage)
 
+Hægt er að sjá fułla útlistun skipana í boði með:
+
 ```bash
 python main.py --help
 ```
@@ -77,6 +79,22 @@ python main.py md-stats
 ```
 
 Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 94000 orð) þá tekur `init` ferlið sinn tíma. Tölva með temmilega góðan vélbúnað og linux stýrikerfi klárar það á um klukkustund, meðalgóð fartölva með linux stýrikerfi þarf um klukkustund og þrjú korter, þá hefur sýnt sig að á tölvum keyrandi windows stýrikerfi sé ferlið umtalsvert lengra (skrifast líklega að mestu á mismunandi meðhöndlun fyrir transactions í SQLite miłli windows og linux).
+
+### Smíða grunn frá gagnagrunnsafriti
+
+Sökum langs tíma að smíða SQLite grunn frá grunni með `build-db` þá býðst að smíða grunn frá SQLite grunn afriti sem geymt er í `lokaord/database/disk/lokaord/`, það er gert með eftirfarandi skipun:
+
+```bash
+python main.py use-backup
+```
+
+Ofangreind skipun afritar SQLite afrit sem tilgreint er í `lokaord/database/db_bak_handling.json` yfir í `lokaord/database/disk/lokaord/db.sqlite`, framkvæmir eyðingu orðafærslna ef þarf útfrá stiłlingum í `db_bak_handling.json` og les svo inn orðabreytingar og viðbætur útfrá upplýsingum í git sögu frá gefnu commit hash sem tilgreint er í `db_bak_handling.json`. Þegar þetta er ritað er tilgreint afrit rétt rúmlega viku gamalt og skipunin `use-backup` tekur innan við mínútu að útbúa fułlbyggðan grunn.
+
+Viljirðu vinna með þitt eigið afrit geturðu afritað `lokaord/database/disk/lokaord/db.sqlite` af vild, eða notað skipunina `backup-db` og breytt síðan `db_bak_handling.json` svo `use-backup` noti annað afrit:
+
+```bash
+python main.py backup-db
+```
 
 Bæta við orði í gegnum skipanalínuviðmót (TUI):
 
