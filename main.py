@@ -36,9 +36,7 @@ def common(
 	logger_name: Annotated[str, Option('--logger-name', '-ln')] = lokaord.Name,
 	loglevel: Annotated[lokaord.LogLevel, Option('--loglevel', '-ll')] = 'info',
 	log_directory: Annotated[
-		Path, Option(
-			'--log-directory', '-ldir', help='Directory to write logs in. Should already exist.'
-		)
+		Path, Option('--log-directory', '-ldir', help='Directory to write logs in.')
 	] = './logs/',
 	role: Annotated[lokaord.LoggerRoles, Option('--role', '-r')] = 'cli'
 ):
@@ -201,7 +199,7 @@ def check_samsett_circular_definitions():
 	lokaord.check_samsett_circular_definitions()
 
 
-@app.command(help='Lookup dependent orð and skammstafanir for a orð using kennistrengur.')
+@app.command(help='Lookup dependent orð and skammstafanir for orð using kennistrengur.')
 def ord_dep(kennistrengur: str):
 	lokaord.check_ord_dependents(kennistrengur)
 
