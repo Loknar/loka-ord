@@ -6,26 +6,26 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1960 | 1791 | 1799 | 5550 | 16480 | 22050 | 22578 | 61108 | **66658** |
-| **Lýsingarorð** | 538 |   |   |   | 782 |   |   |   | 6223 | **7005** |
-| **Sagnorð**     |   |   |   |   | 1403 |   |   |   | 2140 | **3543** |
+| **Nafnorð**     |   | 1960 | 1791 | 1799 | 5550 | 16502 | 22105 | 22608 | 61215 | **66765** |
+| **Lýsingarorð** | 538 |   |   |   | 782 |   |   |   | 6227 | **7009** |
+| **Sagnorð**     |   |   |   |   | 1403 |   |   |   | 2141 | **3544** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
-| **Smáorð**      |   |   |   |   | 351 |   |   |   | 639 | **990** |
-| **Alls** |   |   |   |   | **8150** |   |   |   | **70234** | **78384** |
+| **Smáorð**      |   |   |   |   | 353 |   |   |   | 639 | **992** |
+| **Alls** |   |   |   |   | **8152** |   |   |   | **70346** | **78498** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1332 | 1285 | 16 | 2633 | 1020 | 1278 | 10 | 2308 | **4941** |
 | Kenninöfn |  |  |  |  | 4853 | 4851 | 4829 | 14533 | **14533** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **1566** |
-| Gælunöfn  | 613 | 270 | 8 | 891 | 174 | 165 | 9 | 348 | **1239** |
-| Örnefni   | 37 | 174 | 688 | 899 | 2868 | 2156 | 2229 | 7253 | **8152** |
-| **Alls**  |   |   |   | **5820** |   |   |   | **24611** | **30431** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **1573** |
+| Gælunöfn  | 616 | 270 | 8 | 894 | 174 | 165 | 9 | 348 | **1242** |
+| Örnefni   | 37 | 174 | 694 | 905 | 2868 | 2159 | 2229 | 7256 | **8161** |
+| **Alls**  |   |   |   | **5836** |   |   |   | **24614** | **30450** |
 
-**Samtals:** 108815 orð.
+**Samtals:** 108948 orð.
 
-1021 skammstafanir.
+1023 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -96,15 +96,15 @@ Viljirðu vinna með þitt eigið afrit geturðu afritað `lokaord/database/disk
 python main.py backup-db
 ```
 
-Bæta við orði í gegnum skipanalínuviðmót (TUI):
+### Orðaviðbætur
+
+Hægt er að bæta við orði í grunninn í gegnum skipanalínuviðmót (TUI):
 
 ```bash
 python main.py add-word
 ```
 
 ***Ath:*** *`add-word` viðmótið býður eins og er einungis upp á að bæta við ósamsettum nafnorðum, sagnorðum, lýsingarorðum og sérnöfnum, sjá [issue #36](https://github.com/Loknar/loka-ord/issues/36) fyrir framvindu.*
-
-### Orðaviðbætur
 
 Fyrir lesendur sem hafa áhuga á að leggja til orð sem þykja vanta í grunninn þá er ofangreind `add-word` skipun til einhvers brúks en því miður er virknin til að bæta við orðum í gegnum skipanalínuna enn sem komið er mjög takmörkuð, og sé vilji til að bæta við mismunandi týpum sagnorða, samsettum orðum og fleira er eina leiðin enn sem komið er að kynna sér strúktúr JSON skráa fyrir sambærileg orð og handvirkt afrita viðeigandi skrá í nýja, breyta innihaldi hennar og keyra svo
 

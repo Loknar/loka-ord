@@ -1,0 +1,87 @@
+{
+	"orð": "skeggræða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skegg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skegg-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-ræða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skeggræða",
+		"sagnbót": "skeggrætt",
+		"boðháttur": {
+			"stýfður": "skeggræð",
+			"et": "skeggræddu",
+			"ft": "skeggræðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skeggræði", "skeggræðir", "skeggræðir"],
+					"ft": ["skeggræðum", "skeggræðið", "skeggræða"]
+				},
+				"þátíð": {
+					"et": ["skeggræddi", "skeggræddir", "skeggræddi"],
+					"ft": ["skeggræddum", "skeggrædduð", "skeggræddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skeggræði", "skeggræðir", "skeggræði"],
+					"ft": ["skeggræðum", "skeggræðið", "skeggræði"]
+				},
+				"þátíð": {
+					"et": ["skeggræddi", "skeggræddir", "skeggræddi"],
+					"ft": ["skeggræddum", "skeggrædduð", "skeggræddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skeggræðirðu",
+					"ft": "skeggræðiði"
+				},
+				"þátíð": {
+					"et": "skeggræddirðu",
+					"ft": "skeggrædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skeggræðirðu",
+					"ft": "skeggræðiði"
+				},
+				"þátíð": {
+					"et": "skeggræddirðu",
+					"ft": "skeggrædduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skeggræðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skeggræddur", "skeggræddan", "skeggræddum", "skeggrædds"],
+					"kvk": ["skeggrædd", "skeggrædda", "skeggræddri", "skeggræddrar"],
+					"hk": ["skeggrætt", "skeggrætt", "skeggræddu", "skeggrædds"]
+				},
+				"ft": {
+					"kk": ["skeggræddir", "skeggrædda", "skeggræddum", "skeggræddra"],
+					"kvk": ["skeggræddar", "skeggræddar", "skeggræddum", "skeggræddra"],
+					"hk": ["skeggrædd", "skeggrædd", "skeggræddum", "skeggræddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skeggræða",
+	"hash": "8578013ae208762275b166e46122c1a8fc097fe8e5c818b7ba066621f64f65e0"
+}

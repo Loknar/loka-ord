@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "lífs",
+			"mynd": "kynlífs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-líf-hk"
+			"kennistrengur": "no-kynlíf-hk"
 		},
 		{
-			"mynd": "vél",
-			"samsetning": "stofn",
-			"kennistrengur": "no-vél-kvk"
-		},
-		{
-			"kennistrengur": "no-menni-hk"
+			"kennistrengur": "no-vélmenni-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kynlífsvélmennin", "kynlífsvélmennin", "kynlífsvélmennunum", "kynlífsvélmennanna"]
 	},
 	"kennistrengur": "no-kynlífsvélmenni-hk",
-	"hash": "5a38d6268b8ba0884aa8997be174da556db3180fbf20a25f4de6a01e7e7b6be9"
+	"hash": "4e894437092aec31e8375b8512d3ccc988470a0135383ef9b5c5877ef99ccf77"
 }

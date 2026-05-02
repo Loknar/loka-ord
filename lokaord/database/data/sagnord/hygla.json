@@ -3,21 +3,21 @@
 	"flokkur": "sagnorð",
 	"germynd": {
 		"nafnháttur": "hygla",
-		"sagnbót": "hyglt",
+		"sagnbót": "hyglað",
 		"boðháttur": {
-			"stýfður": "hygl",
-			"et": "hygldu",
+			"stýfður": "hygla",
+			"et": "hyglaðu",
 			"ft": "hyglið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["hygli", "hyglir", "hyglir"],
+					"et": ["hygla", "hyglar", "hyglar"],
 					"ft": ["hyglum", "hyglið", "hygla"]
 				},
 				"þátíð": {
-					"et": ["hygldi", "hygldir", "hygldi"],
-					"ft": ["hygldum", "hyglduð", "hygldu"]
+					"et": ["hyglaði", "hyglaðir", "hyglaði"],
+					"ft": ["hygluðum", "hygluðuð", "hygluðu"]
 				}
 			},
 			"viðtengingarháttur": {
@@ -26,20 +26,20 @@
 					"ft": ["hyglum", "hyglið", "hygli"]
 				},
 				"þátíð": {
-					"et": ["hygldi", "hygldir", "hygldi"],
-					"ft": ["hygldum", "hyglduð", "hygldu"]
+					"et": ["hyglaði", "hyglaðir", "hyglaði"],
+					"ft": ["hygluðum", "hygluðuð", "hygluðu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "hyglirðu",
+					"et": "hyglarðu",
 					"ft": "hygliði"
 				},
 				"þátíð": {
-					"et": "hygldirðu",
-					"ft": "hyglduði"
+					"et": "hyglaðirðu",
+					"ft": "hygluðuði"
 				}
 			},
 			"viðtengingarháttur": {
@@ -48,8 +48,8 @@
 					"ft": "hygliði"
 				},
 				"þátíð": {
-					"et": "hygldirðu",
-					"ft": "hyglduði"
+					"et": "hyglaðirðu",
+					"ft": "hygluðuði"
 				}
 			}
 		}
@@ -59,18 +59,18 @@
 		"þátíðar": {
 			"sb": {
 				"et": {
-					"kk": ["hygldur", "hygldan", "hygldum", "hyglds"],
-					"kvk": ["hygld", "hyglda", "hygldri", "hygldrar"],
-					"hk": ["hyglt", "hyglt", "hygldu", "hyglds"]
+					"kk": ["hyglaður", "hyglaðan", "hygluðum", "hyglaðs"],
+					"kvk": ["hygluð", "hyglaða", "hyglaðri", "hyglaðrar"],
+					"hk": ["hyglað", "hyglað", "hygluðu", "hyglaðs"]
 				},
 				"ft": {
-					"kk": ["hygldir", "hyglda", "hygldum", "hygldra"],
-					"kvk": ["hygldar", "hygldar", "hygldum", "hygldra"],
-					"hk": ["hygld", "hygld", "hygldum", "hygldra"]
+					"kk": ["hyglaðir", "hyglaða", "hygluðum", "hyglaðra"],
+					"kvk": ["hyglaðar", "hyglaðar", "hygluðum", "hyglaðra"],
+					"hk": ["hygluð", "hygluð", "hygluðum", "hyglaðra"]
 				}
 			}
 		}
 	},
 	"kennistrengur": "so-hygla",
-	"hash": "33856e5e65635a47276596ad897148dd8ec7e9b07c9fa05137c02f5b1160958c"
+	"hash": "b61187ba2bc951516e0b328482935eac58de14ac8750306da9f8bf3dd3c41c50"
 }
