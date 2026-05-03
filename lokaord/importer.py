@@ -171,11 +171,16 @@ def import_list_of_datafiles_to_db(files: list[str]):
 				logman.info('Orð %s in file "%s" was changed.' % (
 					isl_ord.data.kennistrengur, samsett_ord_file
 				))
-		except VoidKennistrengurError:
+		except VoidKennistrengurError as err:
 			samsett_ord_void_queue.append(samsett_ord_file)
 			count_retries += 1
-		if count_retries > max_retries:
-			raise Exception('import_list_of_datafiles_to_db: maximum amount of retries reached')
+			if count_retries > max_retries:
+				raise VoidKennistrengurError(
+					(
+						'import_list_of_datafiles_to_db: maximum amount of retries reached (%s),'
+						' %s'
+					) % (samsett_ord_file, err.msg, )
+				)
 	# skammstafanir
 	if len(skammstofun_files) == 0:
 		logman.info('No new or changed skammstafanir.')
