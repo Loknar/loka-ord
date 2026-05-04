@@ -4,17 +4,11 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fíkni",
-			"samsetning": "bandstafs",
-			"kennistrengur": "no-fíkn-kvk"
-		},
-		{
-			"mynd": "efna",
+			"mynd": "fíkniefna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-fíkniefni-hk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-sala-kvk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["fíkniefnasala", "fíkniefnasölu", "fíkniefnasölu", "fíkniefnasölu"],
 		"mg": ["fíkniefnasalan", "fíkniefnasöluna", "fíkniefnasölunni", "fíkniefnasölunnar"]
 	},
+	"ft": {
+		"ág": ["fíkniefnasölur", "fíkniefnasölur", "fíkniefnasölum", "fíkniefnasala"],
+		"mg": ["fíkniefnasölurnar", "fíkniefnasölurnar", "fíkniefnasölunum", "fíkniefnasalanna"]
+	},
 	"kennistrengur": "no-fíkniefnasala-kvk",
-	"hash": "501718443c0cca8c21e6edc87e56a6d094c12b0161b2b7d76b69c7723fcaf3c4"
+	"hash": "a56d32778315d4453db673a3c243c0c051928d39e5dce7d03defb43b1f294a98"
 }

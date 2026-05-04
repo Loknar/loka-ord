@@ -1,6 +1,16 @@
 {
 	"orð": "hyrndur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hyrn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-horn-hk"
+		},
+		{
+			"kennistrengur": "lo-dur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-hyrndur",
-	"hash": "51f18f592a13b1d9d20fa7c021265500a7067899890e451656b4466e8521ba93"
+	"hash": "44ecd6424f13c39532e6eb113dc2057996604abad761a64c6d509ed165390b4d"
 }

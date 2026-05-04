@@ -1,0 +1,135 @@
+{
+	"orð": "bunga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bung",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bunga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bunga",
+		"sagnbót": "bungað",
+		"boðháttur": {
+			"stýfður": "bunga",
+			"et": "bungaðu",
+			"ft": "bungið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bunga", "bungar", "bungar"],
+					"ft": ["bungum", "bungið", "bunga"]
+				},
+				"þátíð": {
+					"et": ["bungaði", "bungaðir", "bungaði"],
+					"ft": ["bunguðum", "bunguðuð", "bunguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bungi", "bungir", "bungi"],
+					"ft": ["bungum", "bungið", "bungi"]
+				},
+				"þátíð": {
+					"et": ["bungaði", "bungaðir", "bungaði"],
+					"ft": ["bunguðum", "bunguðuð", "bunguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bungarðu",
+					"ft": "bungiði"
+				},
+				"þátíð": {
+					"et": "bungaðirðu",
+					"ft": "bunguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bungirðu",
+					"ft": "bungiði"
+				},
+				"þátíð": {
+					"et": "bungaðirðu",
+					"ft": "bunguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bungast",
+		"sagnbót": "bungast",
+		"boðháttur": {
+			"et": "bungastu",
+			"ft": "bungist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bungast", "bungast", "bungast"],
+					"ft": ["bungumst", "bungist", "bungast"]
+				},
+				"þátíð": {
+					"et": ["bungaðist", "bungaðist", "bungaðist"],
+					"ft": ["bunguðumst", "bunguðust", "bunguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bungist", "bungist", "bungist"],
+					"ft": ["bungumst", "bungist", "bungist"]
+				},
+				"þátíð": {
+					"et": ["bungaðist", "bungaðist", "bungaðist"],
+					"ft": ["bunguðumst", "bunguðust", "bunguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bungastu"
+				},
+				"þátíð": {
+					"et": "bungaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bungistu"
+				},
+				"þátíð": {
+					"et": "bungaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bungandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bungaður", "bungaðan", "bunguðum", "bungaðs"],
+					"kvk": ["bunguð", "bungaða", "bungaðri", "bungaðrar"],
+					"hk": ["bungað", "bungað", "bunguðu", "bungaðs"]
+				},
+				"ft": {
+					"kk": ["bungaðir", "bungaða", "bunguðum", "bungaðra"],
+					"kvk": ["bungaðar", "bungaðar", "bunguðum", "bungaðra"],
+					"hk": ["bunguð", "bunguð", "bunguðum", "bungaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bunga",
+	"hash": "1f6cc32099c0ab46886fea9b001a8194ee2c9dc2b62b453f8b44cc8d213115ae"
+}

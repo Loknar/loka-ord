@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "raf",
-			"samsetning": "stofn",
-			"kennistrengur": "no-raf-hk"
-		},
-		{
-			"mynd": "einda",
+			"mynd": "rafeinda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eind-kvk"
+			"kennistrengur": "no-rafeind-kvk"
 		},
 		{
 			"mynd": "búnaðar",
@@ -19,13 +14,7 @@
 			"kennistrengur": "no-búnaður-kk"
 		},
 		{
-			"mynd": "úr",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-úr"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-gangur-kk"
+			"kennistrengur": "no-úrgangur-kk"
 		}
 	],
 	"et": {
@@ -33,5 +22,5 @@
 		"mg": ["rafeindabúnaðarúrgangurinn", "rafeindabúnaðarúrganginn", "rafeindabúnaðarúrganginum", "rafeindabúnaðarúrgangsins"]
 	},
 	"kennistrengur": "no-rafeindabúnaðarúrgangur-kk",
-	"hash": "d8e7c90f7fdcdf7d0dcc9d98d9e976f269b4f9e9eebcfe95c461cfaa10fb12fb"
+	"hash": "dac765d315ff4514f68c6aadbea3e332a23f3379a5f4c8f77932fdecbf317bc6"
 }

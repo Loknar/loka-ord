@@ -1,0 +1,105 @@
+{
+	"orð": "skaufasjúga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skaufa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skaufi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sjúga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skaufasjúga",
+		"sagnbót": "skaufasogið",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skaufasýg", "skaufasýgur", "skaufasýgur"],
+					"ft": ["skaufasjúgum", "skaufasjúgið", "skaufasjúga"]
+				},
+				"þátíð": {
+					"et": ["skaufaflaug", "skaufaflaugst", "skaufaflaug"],
+					"ft": ["skaufaflugum", "skaufafluguð", "skaufaflugu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skaufasjúgi", "skaufasjúgir", "skaufasjúgi"],
+					"ft": ["skaufasjúgum", "skaufasjúgið", "skaufasjúgi"]
+				},
+				"þátíð": {
+					"et": ["skaufasygi", "skaufasygir", "skaufasygi"],
+					"ft": ["skaufasygjum", "skaufasygjuð", "skaufasygju"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skaufasýgur", "skaufasýgur", "skaufasýgur"],
+					"ft": ["skaufasýgur", "skaufasýgur", "skaufasýgur"]
+				},
+				"þátíð": {
+					"et": ["skaufaflaug", "skaufaflaug", "skaufaflaug"],
+					"ft": ["skaufaflaug", "skaufaflaug", "skaufaflaug"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skaufasjúgi", "skaufasjúgi", "skaufasjúgi"],
+					"ft": ["skaufasjúgi", "skaufasjúgi", "skaufasjúgi"]
+				},
+				"þátíð": {
+					"et": ["skaufasygi", "skaufasygi", "skaufasygi"],
+					"ft": ["skaufasygi", "skaufasygi", "skaufasygi"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skaufasýgurðu",
+					"ft": "skaufasjúgiði"
+				},
+				"þátíð": {
+					"et": "skaufaflaugstu",
+					"ft": "skaufafluguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skaufafjúgirðu",
+					"ft": "skaufasjúgiði"
+				},
+				"þátíð": {
+					"et": "skaufasygirðu",
+					"ft": "skaufasygjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skaufasjúgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skaufasoginn", "skaufasoginn", "skaufasognum", "skaufasogins"],
+					"kvk": ["skaufasogin", "skaufasogna", "skaufasoginni", "skaufasoginnar"],
+					"hk": ["skaufasogið", "skaufasogið", "skaufasognu", "skaufasogins"]
+				},
+				"ft": {
+					"kk": ["skaufasognir", "skaufasogna", "skaufasognum", "skaufasoginna"],
+					"kvk": ["skaufasognar", "skaufasognar", "skaufasognum", "skaufasoginna"],
+					"hk": ["skaufasogin", "skaufasogin", "skaufasognum", "skaufasoginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skaufasjúga",
+	"hash": "d61a2d4ed15a21a23a026ac26fd6b92684865c4f57a4c9fedd80a24f6f53a181"
+}
