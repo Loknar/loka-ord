@@ -83,6 +83,9 @@ class LysingarordMyndir(enum.Enum):
 	Efstastig_vb_kk = 6
 	Efstastig_vb_kvk = 7
 	Efstastig_vb_hk = 8
+	Stiglaus_vb_kk = 9
+	Stiglaus_vb_kvk = 10
+	Stiglaus_vb_hk = 11
 
 
 # ------------------ #

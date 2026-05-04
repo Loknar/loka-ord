@@ -1383,6 +1383,15 @@ class Ord:
 			case structs.LysingarordMyndir.Efstastig_vb_hk.value:
 				fallbeyging_et = beygingar['efstastig']['vb']['et']['hk'].copy()
 				fallbeyging_ft = beygingar['efstastig']['vb']['ft']['hk'].copy()
+			case structs.LysingarordMyndir.Stiglaus_vb_kk.value:
+				fallbeyging_et = beygingar['vb']['et']['kk'].copy()
+				fallbeyging_ft = beygingar['vb']['ft']['kk'].copy()
+			case structs.LysingarordMyndir.Stiglaus_vb_kvk.value:
+				fallbeyging_et = beygingar['vb']['et']['kvk'].copy()
+				fallbeyging_ft = beygingar['vb']['ft']['kvk'].copy()
+			case structs.LysingarordMyndir.Stiglaus_vb_hk.value:
+				fallbeyging_et = beygingar['vb']['et']['hk'].copy()
+				fallbeyging_ft = beygingar['vb']['ft']['hk'].copy()
 			case _:
 				raise Exception('Unexpected ordhluti.myndir.')
 		lo_myndir_beygingar = {

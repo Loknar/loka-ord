@@ -122,6 +122,9 @@ class LysingarordMyndir(str, Enum):
 	Efstastig_vb_kk = 'efstastig-vb-kk'
 	Efstastig_vb_kvk = 'efstastig-vb-kvk'
 	Efstastig_vb_hk = 'efstastig-vb-hk'
+	Stiglaus_vb_kk = 'vb-kk'
+	Stiglaus_vb_kvk = 'vb-kvk'
+	Stiglaus_vb_hk = 'vb-hk'
 
 
 class Ordasamsetningar(str, Enum):
