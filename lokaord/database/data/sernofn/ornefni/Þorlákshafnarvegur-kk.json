@@ -5,23 +5,19 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "Þorláks",
+			"mynd": "Þorlákshafnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "sérn.en-Þorlákur-kk"
+			"kennistrengur": "sérn.ön-Þorlákshöfn-kvk"
 		},
 		{
-			"mynd": "hafnar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-höfn-kvk"
-		},
-		{
-			"beygingar": ["et-ág"],
+			"beygingar": ["et"],
 			"kennistrengur": "no-vegur-kk"
 		}
 	],
 	"et": {
-		"ág": ["Þorlákshafnarvegur", "Þorlákshafnarveg", "Þorlákshafnarvegi", "Þorlákshafnarvegar"]
+		"ág": ["Þorlákshafnarvegur", "Þorlákshafnarveg", "Þorlákshafnarvegi", "Þorlákshafnarvegar"],
+		"mg": ["Þorlákshafnarvegurinn", "Þorlákshafnarveginn", "Þorlákshafnarveginum", "Þorlákshafnarvegarins"]
 	},
 	"kennistrengur": "sérn.ön-Þorlákshafnarvegur-kk",
-	"hash": "7ca66449299359280c97dadd88b750badedeceba732ea4dcd18300f99803e1d0"
+	"hash": "713a068d6ee4a691b8e96441ad9e09d3d45d4dbba30f80c9fa2357d893737af1"
 }
