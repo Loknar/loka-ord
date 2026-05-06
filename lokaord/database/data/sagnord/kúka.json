@@ -1,0 +1,73 @@
+{
+	"orð": "kúka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kúk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kúkur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kúka",
+		"sagnbót": "kúkað",
+		"boðháttur": {
+			"stýfður": "kúka",
+			"et": "kúkaðu",
+			"ft": "kúkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kúka", "kúkar", "kúkar"],
+					"ft": ["kúkum", "kúkið", "kúka"]
+				},
+				"þátíð": {
+					"et": ["kúkaði", "kúkaðir", "kúkaði"],
+					"ft": ["kúkuðum", "kúkuðuð", "kúkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kúki", "kúkir", "kúki"],
+					"ft": ["kúkum", "kúkið", "kúki"]
+				},
+				"þátíð": {
+					"et": ["kúkaði", "kúkaðir", "kúkaði"],
+					"ft": ["kúkuðum", "kúkuðuð", "kúkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kúkarðu",
+					"ft": "kúkiði"
+				},
+				"þátíð": {
+					"et": "kúkaðirðu",
+					"ft": "kúkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kúkirðu",
+					"ft": "kúkiði"
+				},
+				"þátíð": {
+					"et": "kúkaðirðu",
+					"ft": "kúkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kúkandi"
+	},
+	"kennistrengur": "so-kúka",
+	"hash": "df88d083b7ff9d64162ee43b3d149c8acc98f94f7acef53348de65a998cb5712"
+}
