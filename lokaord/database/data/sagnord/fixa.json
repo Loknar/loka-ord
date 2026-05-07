@@ -1,0 +1,135 @@
+{
+	"orð": "fixa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fix",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fix-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fixa",
+		"sagnbót": "fixað",
+		"boðháttur": {
+			"stýfður": "fixa",
+			"et": "fixaðu",
+			"ft": "fixið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fixa", "fixar", "fixar"],
+					"ft": ["fixum", "fixið", "fixa"]
+				},
+				"þátíð": {
+					"et": ["fixaði", "fixaðir", "fixaði"],
+					"ft": ["fixuðum", "fixuðuð", "fixuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fixi", "fixir", "fixi"],
+					"ft": ["fixum", "fixið", "fixi"]
+				},
+				"þátíð": {
+					"et": ["fixaði", "fixaðir", "fixaði"],
+					"ft": ["fixuðum", "fixuðuð", "fixuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fixarðu",
+					"ft": "fixiði"
+				},
+				"þátíð": {
+					"et": "fixaðirðu",
+					"ft": "fixuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fixirðu",
+					"ft": "fixiði"
+				},
+				"þátíð": {
+					"et": "fixaðirðu",
+					"ft": "fixuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fixast",
+		"sagnbót": "fixast",
+		"boðháttur": {
+			"et": "fixastu",
+			"ft": "fixist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fixast", "fixast", "fixast"],
+					"ft": ["fixumst", "fixist", "fixast"]
+				},
+				"þátíð": {
+					"et": ["fixaðist", "fixaðist", "fixaðist"],
+					"ft": ["fixuðumst", "fixuðust", "fixuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fixist", "fixist", "fixist"],
+					"ft": ["fixumst", "fixist", "fixist"]
+				},
+				"þátíð": {
+					"et": ["fixaðist", "fixaðist", "fixaðist"],
+					"ft": ["fixuðumst", "fixuðust", "fixuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fixastu"
+				},
+				"þátíð": {
+					"et": "fixaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fixistu"
+				},
+				"þátíð": {
+					"et": "fixaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fixandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fixaður", "fixaðan", "fixuðum", "fixaðs"],
+					"kvk": ["fixuð", "fixaða", "fixaðri", "fixaðrar"],
+					"hk": ["fixað", "fixað", "fixuðu", "fixaðs"]
+				},
+				"ft": {
+					"kk": ["fixaðir", "fixaða", "fixuðum", "fixaðra"],
+					"kvk": ["fixaðar", "fixaðar", "fixuðum", "fixaðra"],
+					"hk": ["fixuð", "fixuð", "fixuðum", "fixaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fixa",
+	"hash": "e90bee8ab6b8b0c1547ac5be69b30c16b9d44e6d61b3d5c2a5f0050e7c3245de"
+}
