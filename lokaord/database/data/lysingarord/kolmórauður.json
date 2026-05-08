@@ -8,13 +8,7 @@
 			"kennistrengur": "no-kol-hk"
 		},
 		{
-			"mynd": "mó",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mór-kk"
-		},
-		{
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-rauður"
+			"kennistrengur": "lo-mórauður"
 		}
 	],
 	"frumstig": {
@@ -43,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["kolmórauðari", "kolmórauðari", "kolmórauðari", "kolmórauðari"],
+				"kvk": ["kolmórauðari", "kolmórauðari", "kolmórauðari", "kolmórauðari"],
+				"hk": ["kolmórauðara", "kolmórauðara", "kolmórauðara", "kolmórauðara"]
+			},
+			"ft": {
+				"kk": ["kolmórauðari", "kolmórauðari", "kolmórauðari", "kolmórauðari"],
+				"kvk": ["kolmórauðari", "kolmórauðari", "kolmórauðari", "kolmórauðari"],
+				"hk": ["kolmórauðari", "kolmórauðari", "kolmórauðari", "kolmórauðari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["kolmórauðastur", "kolmórauðastan", "kolmórauðustum", "kolmórauðasts"],
+				"kvk": ["kolmórauðust", "kolmórauðasta", "kolmórauðastri", "kolmórauðastrar"],
+				"hk": ["kolmórauðast", "kolmórauðast", "kolmórauðustu", "kolmórauðasts"]
+			},
+			"ft": {
+				"kk": ["kolmórauðastir", "kolmórauðasta", "kolmórauðustum", "kolmórauðastra"],
+				"kvk": ["kolmórauðastar", "kolmórauðastar", "kolmórauðustum", "kolmórauðastra"],
+				"hk": ["kolmórauðust", "kolmórauðust", "kolmórauðustum", "kolmórauðastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kolmórauðasti", "kolmórauðasta", "kolmórauðasta", "kolmórauðasta"],
+				"kvk": ["kolmórauðasta", "kolmórauðustu", "kolmórauðustu", "kolmórauðustu"],
+				"hk": ["kolmórauðasta", "kolmórauðasta", "kolmórauðasta", "kolmórauðasta"]
+			},
+			"ft": {
+				"kk": ["kolmórauðustu", "kolmórauðustu", "kolmórauðustu", "kolmórauðustu"],
+				"kvk": ["kolmórauðustu", "kolmórauðustu", "kolmórauðustu", "kolmórauðustu"],
+				"hk": ["kolmórauðustu", "kolmórauðustu", "kolmórauðustu", "kolmórauðustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-kolmórauður",
-	"hash": "6c2762b7c324b500138255812412d4f212be23801109dde09dd6eff40a6fb4c5"
+	"hash": "860998927a7826b75d5baa50082339d81c12a1072fa0f1bdd66a6fa2d5048db5"
 }
