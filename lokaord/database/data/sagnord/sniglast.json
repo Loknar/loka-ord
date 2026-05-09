@@ -1,0 +1,65 @@
+{
+	"orð": "sniglast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snigl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snigiłl-kk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "sniglast",
+		"sagnbót": "sniglast",
+		"boðháttur": {
+			"et": "sniglastu",
+			"ft": "sniglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sniglast", "sniglast", "sniglast"],
+					"ft": ["sniglumst", "sniglist", "sniglast"]
+				},
+				"þátíð": {
+					"et": ["sniglaðist", "sniglaðist", "sniglaðist"],
+					"ft": ["snigluðumst", "snigluðust", "snigluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sniglist", "sniglist", "sniglist"],
+					"ft": ["sniglumst", "sniglist", "sniglist"]
+				},
+				"þátíð": {
+					"et": ["sniglaðist", "sniglaðist", "sniglaðist"],
+					"ft": ["snigluðumst", "snigluðust", "snigluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sniglastu"
+				},
+				"þátíð": {
+					"et": "sniglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sniglistu"
+				},
+				"þátíð": {
+					"et": "sniglaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sniglast",
+	"hash": "6c6bf53f4a58da9b368a1b3e60da05d5c9048308e3fbbd042ac43171a10b0377"
+}

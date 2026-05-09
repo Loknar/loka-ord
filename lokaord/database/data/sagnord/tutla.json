@@ -1,0 +1,135 @@
+{
+	"orð": "tutla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tutl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tutla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tutla",
+		"sagnbót": "tutlað",
+		"boðháttur": {
+			"stýfður": "tutla",
+			"et": "tutlaðu",
+			"ft": "tutlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tutla", "tutlar", "tutlar"],
+					"ft": ["tutlum", "tutlið", "tutla"]
+				},
+				"þátíð": {
+					"et": ["tutlaði", "tutlaðir", "tutlaði"],
+					"ft": ["tutluðum", "tutluðuð", "tutluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tutli", "tutlir", "tutli"],
+					"ft": ["tutlum", "tutlið", "tutli"]
+				},
+				"þátíð": {
+					"et": ["tutlaði", "tutlaðir", "tutlaði"],
+					"ft": ["tutluðum", "tutluðuð", "tutluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tutlarðu",
+					"ft": "tutliði"
+				},
+				"þátíð": {
+					"et": "tutlaðirðu",
+					"ft": "tutluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tutlirðu",
+					"ft": "tutliði"
+				},
+				"þátíð": {
+					"et": "tutlaðirðu",
+					"ft": "tutluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tutlast",
+		"sagnbót": "tutlast",
+		"boðháttur": {
+			"et": "tutlastu",
+			"ft": "tutlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tutlast", "tutlast", "tutlast"],
+					"ft": ["tutlumst", "tutlist", "tutlast"]
+				},
+				"þátíð": {
+					"et": ["tutlaðist", "tutlaðist", "tutlaðist"],
+					"ft": ["tutluðumst", "tutluðust", "tutluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tutlist", "tutlist", "tutlist"],
+					"ft": ["tutlumst", "tutlist", "tutlist"]
+				},
+				"þátíð": {
+					"et": ["tutlaðist", "tutlaðist", "tutlaðist"],
+					"ft": ["tutluðumst", "tutluðust", "tutluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tutlastu"
+				},
+				"þátíð": {
+					"et": "tutlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tutlistu"
+				},
+				"þátíð": {
+					"et": "tutlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tutlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tutlaður", "tutlaðan", "tutluðum", "tutlaðs"],
+					"kvk": ["tutluð", "tutlaða", "tutlaðri", "tutlaðrar"],
+					"hk": ["tutlað", "tutlað", "tutluðu", "tutlaðs"]
+				},
+				"ft": {
+					"kk": ["tutlaðir", "tutlaða", "tutluðum", "tutlaðra"],
+					"kvk": ["tutlaðar", "tutlaðar", "tutluðum", "tutlaðra"],
+					"hk": ["tutluð", "tutluð", "tutluðum", "tutlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tutla",
+	"hash": "34ef4a13a12e23dfda865d449b19647404ddef37975e52cf28f72d8871b6bb88"
+}

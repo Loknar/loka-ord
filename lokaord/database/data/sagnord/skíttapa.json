@@ -1,0 +1,142 @@
+{
+	"orð": "skíttapa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skít",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skítur-kk"
+		},
+		{
+			"kennistrengur": "so-tapa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skíttapa",
+		"sagnbót": "skíttapað",
+		"boðháttur": {
+			"stýfður": "skíttapa",
+			"et": "skíttapaðu",
+			"ft": "skíttapið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skíttapa", "skíttapar", "skíttapar"],
+					"ft": ["skíttöpum", "skíttapið", "skíttapa"]
+				},
+				"þátíð": {
+					"et": ["skíttapaði", "skíttapaðir", "skíttapaði"],
+					"ft": ["skíttöpuðum", "skíttöpuðuð", "skíttöpuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skíttapi", "skíttapir", "skíttapi"],
+					"ft": ["skíttöpum", "skíttapið", "skíttapi"]
+				},
+				"þátíð": {
+					"et": ["skíttapaði", "skíttapaðir", "skíttapaði"],
+					"ft": ["skíttöpuðum", "skíttöpuðuð", "skíttöpuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skíttaparðu",
+					"ft": "skíttapiði"
+				},
+				"þátíð": {
+					"et": "skíttapaðirðu",
+					"ft": "skíttöpuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skíttapirðu",
+					"ft": "skíttapiði"
+				},
+				"þátíð": {
+					"et": "skíttapaðirðu",
+					"ft": "skíttöpuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skíttapast",
+		"sagnbót": "skíttapast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skíttapast", "skíttapast", "skíttapast"],
+					"ft": ["skíttöpumst", "skíttapist", "skíttapast"]
+				},
+				"þátíð": {
+					"et": ["skíttapaðist", "skíttapaðist", "skíttapaðist"],
+					"ft": ["skíttöpuðumst", "skíttöpuðust", "skíttöpuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skíttapist", "skíttapist", "skíttapist"],
+					"ft": ["skíttöpumst", "skíttapist", "skíttapist"]
+				},
+				"þátíð": {
+					"et": ["skíttapaðist", "skíttapaðist", "skíttapaðist"],
+					"ft": ["skíttöpuðumst", "skíttöpuðust", "skíttöpuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skíttapastu"
+				},
+				"þátíð": {
+					"et": "skíttapaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skíttapistu"
+				},
+				"þátíð": {
+					"et": "skíttapaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skíttapandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skíttapaður", "skíttapaðan", "skíttöpuðum", "skíttapaðs"],
+					"kvk": ["skíttöpuð", "skíttapaða", "skíttapaðri", "skíttapaðrar"],
+					"hk": ["skíttapað", "skíttapað", "skíttöpuðu", "skíttapaðs"]
+				},
+				"ft": {
+					"kk": ["skíttapaðir", "skíttapaða", "skíttöpuðum", "skíttapaðra"],
+					"kvk": ["skíttapaðar", "skíttapaðar", "skíttöpuðum", "skíttapaðra"],
+					"hk": ["skíttöpuð", "skíttöpuð", "skíttöpuðum", "skíttapaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skíttapaði", "skíttapaða", "skíttapaða", "skíttapaða"],
+					"kvk": ["skíttapaða", "skíttöpuðu", "skíttöpuðu", "skíttöpuðu"],
+					"hk": ["skíttapaða", "skíttapaða", "skíttapaða", "skíttapaða"]
+				},
+				"ft": {
+					"kk": ["skíttöpuðu", "skíttöpuðu", "skíttöpuðu", "skíttöpuðu"],
+					"kvk": ["skíttöpuðu", "skíttöpuðu", "skíttöpuðu", "skíttöpuðu"],
+					"hk": ["skíttöpuðu", "skíttöpuðu", "skíttöpuðu", "skíttöpuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skíttapa",
+	"hash": "c6940a93943c2dd767ea3ad1d6e091c37418a752ba9dbb3dde0910613b390988"
+}

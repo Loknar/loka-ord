@@ -1,0 +1,87 @@
+{
+	"orð": "klóna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-klón-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "klóna",
+		"sagnbót": "klónað",
+		"boðháttur": {
+			"stýfður": "klóna",
+			"et": "klónaðu",
+			"ft": "klónið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klóna", "klónar", "klónar"],
+					"ft": ["klónum", "klónið", "klóna"]
+				},
+				"þátíð": {
+					"et": ["klónaði", "klónaðir", "klónaði"],
+					"ft": ["klónuðum", "klónuðuð", "klónuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klóni", "klónir", "klóni"],
+					"ft": ["klónum", "klónið", "klóni"]
+				},
+				"þátíð": {
+					"et": ["klónaði", "klónaðir", "klónaði"],
+					"ft": ["klónuðum", "klónuðuð", "klónuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klónarðu",
+					"ft": "klóniði"
+				},
+				"þátíð": {
+					"et": "klónaðirðu",
+					"ft": "klónuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klónirðu",
+					"ft": "klóniði"
+				},
+				"þátíð": {
+					"et": "klónaðirðu",
+					"ft": "klónuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klónandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klónaður", "klónaðan", "klónuðum", "klónaðs"],
+					"kvk": ["klónuð", "klónaða", "klónaðri", "klónaðrar"],
+					"hk": ["klónað", "klónað", "klónuðu", "klónaðs"]
+				},
+				"ft": {
+					"kk": ["klónaðir", "klónaða", "klónuðum", "klónaðra"],
+					"kvk": ["klónaðar", "klónaðar", "klónuðum", "klónaðra"],
+					"hk": ["klónuð", "klónuð", "klónuðum", "klónaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klóna",
+	"hash": "b6e12b7fe47a31797859a899b0c979c71ff5f32722131cd2a094b2b5e9497000"
+}
