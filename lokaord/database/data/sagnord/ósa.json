@@ -1,0 +1,87 @@
+{
+	"orð": "ósa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ós",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ós-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ósa",
+		"sagnbót": "ósað",
+		"boðháttur": {
+			"stýfður": "ósa",
+			"et": "ósaðu",
+			"ft": "ósið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ósa", "ósar", "ósar"],
+					"ft": ["ósum", "ósið", "ósa"]
+				},
+				"þátíð": {
+					"et": ["ósaði", "ósaðir", "ósaði"],
+					"ft": ["ósuðum", "ósuðuð", "ósuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ósi", "ósir", "ósi"],
+					"ft": ["ósum", "ósið", "ósi"]
+				},
+				"þátíð": {
+					"et": ["ósaði", "ósaðir", "ósaði"],
+					"ft": ["ósuðum", "ósuðuð", "ósuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ósarðu",
+					"ft": "ósiði"
+				},
+				"þátíð": {
+					"et": "ósaðirðu",
+					"ft": "ósuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ósirðu",
+					"ft": "ósiði"
+				},
+				"þátíð": {
+					"et": "ósaðirðu",
+					"ft": "ósuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ósandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ósaður", "ósaðan", "ósuðum", "ósaðs"],
+					"kvk": ["ósuð", "ósaða", "ósaðri", "ósaðrar"],
+					"hk": ["ósað", "ósað", "ósuðu", "ósaðs"]
+				},
+				"ft": {
+					"kk": ["ósaðir", "ósaða", "ósuðum", "ósaðra"],
+					"kvk": ["ósaðar", "ósaðar", "ósuðum", "ósaðra"],
+					"hk": ["ósuð", "ósuð", "ósuðum", "ósaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ósa",
+	"hash": "ac6d60cc4394f920f0647db6527840cbca34e92fe5fc2b9c6eb576c0cbc1df41"
+}

@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"mynd": "gæslu",
+			"mynd": "löggæslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gæsla-kvk"
+			"kennistrengur": "no-löggæsla-kvk"
 		},
 		{
-			"mynd": "yfir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-yfir"
-		},
-		{
-			"kennistrengur": "no-vald-hk"
+			"kennistrengur": "no-yfirvald-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["löggæsluyfirvöldin", "löggæsluyfirvöldin", "löggæsluyfirvöldunum", "löggæsluyfirvaldanna"]
 	},
 	"kennistrengur": "no-löggæsluyfirvald-hk",
-	"hash": "85dc4bacb548fe153261668b64ae364aead50526949b276476fad4edaefa131c"
+	"hash": "4b5007bfc7e0d59043fd48e8d557a81da31a55ab2212a7480c2df68f622bb5c7"
 }

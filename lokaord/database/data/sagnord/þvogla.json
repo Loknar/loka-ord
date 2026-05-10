@@ -1,0 +1,135 @@
+{
+	"orð": "þvogla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þvogl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þvogl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þvogla",
+		"sagnbót": "þvoglað",
+		"boðháttur": {
+			"stýfður": "þvogla",
+			"et": "þvoglaðu",
+			"ft": "þvoglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þvogla", "þvoglar", "þvoglar"],
+					"ft": ["þvoglum", "þvoglið", "þvogla"]
+				},
+				"þátíð": {
+					"et": ["þvoglaði", "þvoglaðir", "þvoglaði"],
+					"ft": ["þvogluðum", "þvogluðuð", "þvogluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þvogli", "þvoglir", "þvogli"],
+					"ft": ["þvoglum", "þvoglið", "þvogli"]
+				},
+				"þátíð": {
+					"et": ["þvoglaði", "þvoglaðir", "þvoglaði"],
+					"ft": ["þvogluðum", "þvogluðuð", "þvogluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þvoglarðu",
+					"ft": "þvogliði"
+				},
+				"þátíð": {
+					"et": "þvoglaðirðu",
+					"ft": "þvogluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þvoglirðu",
+					"ft": "þvogliði"
+				},
+				"þátíð": {
+					"et": "þvoglaðirðu",
+					"ft": "þvogluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þvoglast",
+		"sagnbót": "þvoglast",
+		"boðháttur": {
+			"et": "þvoglastu",
+			"ft": "þvoglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þvoglast", "þvoglast", "þvoglast"],
+					"ft": ["þvoglumst", "þvoglist", "þvoglast"]
+				},
+				"þátíð": {
+					"et": ["þvoglaðist", "þvoglaðist", "þvoglaðist"],
+					"ft": ["þvogluðumst", "þvogluðust", "þvogluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þvoglist", "þvoglist", "þvoglist"],
+					"ft": ["þvoglumst", "þvoglist", "þvoglist"]
+				},
+				"þátíð": {
+					"et": ["þvoglaðist", "þvoglaðist", "þvoglaðist"],
+					"ft": ["þvogluðumst", "þvogluðust", "þvogluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þvoglastu"
+				},
+				"þátíð": {
+					"et": "þvoglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þvoglistu"
+				},
+				"þátíð": {
+					"et": "þvoglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þvoglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þvoglaður", "þvoglaðan", "þvogluðum", "þvoglaðs"],
+					"kvk": ["þvogluð", "þvoglaða", "þvoglaðri", "þvoglaðrar"],
+					"hk": ["þvoglað", "þvoglað", "þvogluðu", "þvoglaðs"]
+				},
+				"ft": {
+					"kk": ["þvoglaðir", "þvoglaða", "þvogluðum", "þvoglaðra"],
+					"kvk": ["þvoglaðar", "þvoglaðar", "þvogluðum", "þvoglaðra"],
+					"hk": ["þvogluð", "þvogluð", "þvogluðum", "þvoglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þvogla",
+	"hash": "80f77daebcba0463af6e40ce7f5f529041822b897f181f5421e20d7c2872ce0e"
+}

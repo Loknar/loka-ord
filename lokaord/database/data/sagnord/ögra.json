@@ -1,62 +1,73 @@
 {
 	"orð": "ögra",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ög",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ögur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
-		"nafnháttur": "ögra",
-		"sagnbót": "ögrað",
+		"nafnháttur": "öga",
+		"sagnbót": "ögað",
 		"boðháttur": {
-			"stýfður": "ögra",
-			"et": "ögraðu",
-			"ft": "ögrið"
+			"stýfður": "öga",
+			"et": "ögaðu",
+			"ft": "ögið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["ögra", "ögrar", "ögrar"],
-					"ft": ["ögrum", "ögrið", "ögra"]
+					"et": ["öga", "ögar", "ögar"],
+					"ft": ["ögum", "ögið", "öga"]
 				},
 				"þátíð": {
-					"et": ["ögraði", "ögraðir", "ögraði"],
-					"ft": ["ögruðum", "ögruðuð", "ögruðu"]
+					"et": ["ögaði", "ögaðir", "ögaði"],
+					"ft": ["öguðum", "öguðuð", "öguðu"]
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": ["ögri", "ögrir", "ögri"],
-					"ft": ["ögrum", "ögrið", "ögri"]
+					"et": ["ögi", "ögir", "ögi"],
+					"ft": ["ögum", "ögið", "ögi"]
 				},
 				"þátíð": {
-					"et": ["ögraði", "ögraðir", "ögraði"],
-					"ft": ["ögruðum", "ögruðuð", "ögruðu"]
+					"et": ["ögaði", "ögaðir", "ögaði"],
+					"ft": ["öguðum", "öguðuð", "öguðu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "ögrarðu",
-					"ft": "ögriði"
+					"et": "ögarðu",
+					"ft": "ögiði"
 				},
 				"þátíð": {
-					"et": "ögraðirðu",
-					"ft": "ögruðuði"
+					"et": "ögaðirðu",
+					"ft": "öguðuði"
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "ögrirðu",
-					"ft": "ögriði"
+					"et": "ögirðu",
+					"ft": "ögiði"
 				},
 				"þátíð": {
-					"et": "ögraðirðu",
-					"ft": "ögruðuði"
+					"et": "ögaðirðu",
+					"ft": "öguðuði"
 				}
 			}
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "ögrandi"
+		"nútíðar": "ögandi"
 	},
 	"kennistrengur": "so-ögra",
-	"hash": "e1d04c22d12babc99fc00212f2477664f98d60657a85191f1d395ffeb7819675"
+	"hash": "5486b496a7303b842e4489134d1b7e2595888fa66f15259af40d0d8745197de3"
 }

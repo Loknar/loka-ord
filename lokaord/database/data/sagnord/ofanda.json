@@ -1,0 +1,73 @@
+{
+	"orð": "ofanda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-anda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofanda",
+		"sagnbót": "ofandað",
+		"boðháttur": {
+			"stýfður": "ofanda",
+			"et": "ofandaðu",
+			"ft": "ofandið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofanda", "ofandar", "ofandar"],
+					"ft": ["oföndum", "ofandið", "ofanda"]
+				},
+				"þátíð": {
+					"et": ["ofandaði", "ofandaðir", "ofandaði"],
+					"ft": ["ofönduðum", "ofönduðuð", "ofönduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofandi", "ofandir", "ofandi"],
+					"ft": ["oföndum", "ofandið", "ofandi"]
+				},
+				"þátíð": {
+					"et": ["ofandaði", "ofandaðir", "ofandaði"],
+					"ft": ["ofönduðum", "ofönduðuð", "ofönduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofandarðu",
+					"ft": "ofandiði"
+				},
+				"þátíð": {
+					"et": "ofandaðirðu",
+					"ft": "ofönduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofandirðu",
+					"ft": "ofandiði"
+				},
+				"þátíð": {
+					"et": "ofandaðirðu",
+					"ft": "ofönduðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofandandi"
+	},
+	"kennistrengur": "so-ofanda",
+	"hash": "aee8cc8f45de554745675a5f77afb7da784747a56fa559447e87fa21c84b2406"
+}

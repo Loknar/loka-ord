@@ -1,0 +1,87 @@
+{
+	"orð": "ofskammta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-skammta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofskammta",
+		"sagnbót": "ofskammtað",
+		"boðháttur": {
+			"stýfður": "ofskammta",
+			"et": "ofskammtaðu",
+			"ft": "ofskammtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofskammta", "ofskammtar", "ofskammtar"],
+					"ft": ["ofskömmtum", "ofskammtið", "ofskammta"]
+				},
+				"þátíð": {
+					"et": ["ofskammtaði", "ofskammtaðir", "ofskammtaði"],
+					"ft": ["ofskömmtuðum", "ofskömmtuðuð", "ofskömmtuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofskammti", "ofskammtir", "ofskammti"],
+					"ft": ["ofskömmtum", "ofskammtið", "ofskammti"]
+				},
+				"þátíð": {
+					"et": ["ofskammtaði", "ofskammtaðir", "ofskammtaði"],
+					"ft": ["ofskömmtuðum", "ofskömmtuðuð", "ofskömmtuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofskammtarðu",
+					"ft": "ofskammtiði"
+				},
+				"þátíð": {
+					"et": "ofskammtaðirðu",
+					"ft": "ofskömmtuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofskammtirðu",
+					"ft": "ofskammtiði"
+				},
+				"þátíð": {
+					"et": "ofskammtaðirðu",
+					"ft": "ofskömmtuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofskammtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofskammtaður", "ofskammtaðan", "ofskömmtuðum", "ofskammtaðs"],
+					"kvk": ["ofskömmtuð", "ofskammtaða", "ofskammtaðri", "ofskammtaðrar"],
+					"hk": ["ofskammtað", "ofskammtað", "ofskömmtuðu", "ofskammtaðs"]
+				},
+				"ft": {
+					"kk": ["ofskammtaðir", "ofskammtaða", "ofskömmtuðum", "ofskammtaðra"],
+					"kvk": ["ofskammtaðar", "ofskammtaðar", "ofskömmtuðum", "ofskammtaðra"],
+					"hk": ["ofskömmtuð", "ofskömmtuð", "ofskömmtuðum", "ofskammtaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofskammta",
+	"hash": "752d74e59d5cc80c4c8921fc2f2c9316ec0882a91b2164b368460f283506044e"
+}
