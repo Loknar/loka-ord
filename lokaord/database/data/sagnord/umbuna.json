@@ -1,6 +1,16 @@
 {
 	"orð": "umbuna",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "umbun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-umbun-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "umbuna",
 		"sagnbót": "umbunað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "umbunast",
 		"sagnbót": "umbunast",
+		"boðháttur": {
+			"et": "umbunastu",
+			"ft": "umbunist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-umbuna",
-	"hash": "18b0ee762c0b544be47afaf5fb8708d94f13183702919eeda4e9a0ac20008096"
+	"hash": "675a65fe72f7b7947920698fe09ac76d4dfca9e58420e12988c4d88e5c1e3d90"
 }

@@ -2,6 +2,16 @@
 	"orð": "ýra",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "ýr",
+			"samsetning": "stofn",
+			"kennistrengur": "so-ýra"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["ýra", "ýru", "ýru", "ýru"],
 		"mg": ["ýran", "ýruna", "ýrunni", "ýrunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["ýrurnar", "ýrurnar", "ýrunum", "ýranna"]
 	},
 	"kennistrengur": "no-ýra-kvk",
-	"hash": "6436a104a4207e18c5a6264699617a34bffe24f5a9918d050d370ae1e7db63a1"
+	"hash": "8412df07242a5eb452012b6e08eee96fd7f456e3416fc1577811e3fd4e3fa5e9"
 }
