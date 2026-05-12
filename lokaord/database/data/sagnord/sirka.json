@@ -1,0 +1,135 @@
+{
+	"orð": "sirka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sirk",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-sirka"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sirka",
+		"sagnbót": "sirkað",
+		"boðháttur": {
+			"stýfður": "sirka",
+			"et": "sirkaðu",
+			"ft": "sirkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sirka", "sirkar", "sirkar"],
+					"ft": ["sirkum", "sirkið", "sirka"]
+				},
+				"þátíð": {
+					"et": ["sirkaði", "sirkaðir", "sirkaði"],
+					"ft": ["sirkuðum", "sirkuðuð", "sirkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sirki", "sirkir", "sirki"],
+					"ft": ["sirkum", "sirkið", "sirki"]
+				},
+				"þátíð": {
+					"et": ["sirkaði", "sirkaðir", "sirkaði"],
+					"ft": ["sirkuðum", "sirkuðuð", "sirkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sirkarðu",
+					"ft": "sirkiði"
+				},
+				"þátíð": {
+					"et": "sirkaðirðu",
+					"ft": "sirkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sirkirðu",
+					"ft": "sirkiði"
+				},
+				"þátíð": {
+					"et": "sirkaðirðu",
+					"ft": "sirkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sirkast",
+		"sagnbót": "sirkast",
+		"boðháttur": {
+			"et": "sirkastu",
+			"ft": "sirkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sirkast", "sirkast", "sirkast"],
+					"ft": ["sirkumst", "sirkist", "sirkast"]
+				},
+				"þátíð": {
+					"et": ["sirkaðist", "sirkaðist", "sirkaðist"],
+					"ft": ["sirkuðumst", "sirkuðust", "sirkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sirkist", "sirkist", "sirkist"],
+					"ft": ["sirkumst", "sirkist", "sirkist"]
+				},
+				"þátíð": {
+					"et": ["sirkaðist", "sirkaðist", "sirkaðist"],
+					"ft": ["sirkuðumst", "sirkuðust", "sirkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sirkastu"
+				},
+				"þátíð": {
+					"et": "sirkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sirkistu"
+				},
+				"þátíð": {
+					"et": "sirkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sirkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sirkaður", "sirkaðan", "sirkuðum", "sirkaðs"],
+					"kvk": ["sirkuð", "sirkaða", "sirkaðri", "sirkaðrar"],
+					"hk": ["sirkað", "sirkað", "sirkuðu", "sirkaðs"]
+				},
+				"ft": {
+					"kk": ["sirkaðir", "sirkaða", "sirkuðum", "sirkaðra"],
+					"kvk": ["sirkaðar", "sirkaðar", "sirkuðum", "sirkaðra"],
+					"hk": ["sirkuð", "sirkuð", "sirkuðum", "sirkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sirka",
+	"hash": "7a6394b1b2f85fbe139f8c089429140c09144a3d45a68a521546e8e7dac8debf"
+}

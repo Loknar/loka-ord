@@ -1,0 +1,65 @@
+{
+	"orð": "niðursetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "niður",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-niður"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "niðursetja",
+		"sagnbót": "niðursett",
+		"boðháttur": {
+			"stýfður": "niðurset",
+			"et": "niðursettu",
+			"ft": "niðursetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["niðurset", "niðursetur", "niðursetur"],
+					"ft": ["niðursetjum", "niðursetjið", "niðursetja"]
+				},
+				"þátíð": {
+					"et": ["niðursetti", "niðursettir", "niðursetti"],
+					"ft": ["niðursettum", "niðursettuð", "niðursettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["niðursetji", "niðursetjir", "niðursetji"],
+					"ft": ["niðursetjum", "niðursetjið", "niðursetji"]
+				},
+				"þátíð": {
+					"et": ["niðursetti", "niðursettir", "niðursetti"],
+					"ft": ["niðursettum", "niðursettuð", "niðursettu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "niðursetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["niðursettur", "niðursettan", "niðursettum", "niðursetts"],
+					"kvk": ["niðursett", "niðursetta", "niðursettri", "niðursettrar"],
+					"hk": ["niðursett", "niðursett", "niðursettu", "niðursetts"]
+				},
+				"ft": {
+					"kk": ["niðursettir", "niðursetta", "niðursettum", "niðursettra"],
+					"kvk": ["niðursettar", "niðursettar", "niðursettum", "niðursettra"],
+					"hk": ["niðursett", "niðursett", "niðursettum", "niðursettra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-niðursetja",
+	"hash": "b357cbb85491f8818d0ed2019aefe63eb81dfa87b32fb00f816fe909b1a6c031"
+}

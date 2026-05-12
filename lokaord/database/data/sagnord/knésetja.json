@@ -1,0 +1,99 @@
+{
+	"orð": "knésetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kné",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kné-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "knésetja",
+		"sagnbót": "knésett",
+		"boðháttur": {
+			"stýfður": "knéset",
+			"et": "knésettu",
+			"ft": "knésetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["knéset", "knésetur", "knésetur"],
+					"ft": ["knésetjum", "knésetjið", "knésetja"]
+				},
+				"þátíð": {
+					"et": ["knésetti", "knésettir", "knésetti"],
+					"ft": ["knésettum", "knésettuð", "knésettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["knésetji", "knésetjir", "knésetji"],
+					"ft": ["knésetjum", "knésetjið", "knésetji"]
+				},
+				"þátíð": {
+					"et": ["knésetti", "knésettir", "knésetti"],
+					"ft": ["knésettum", "knésettuð", "knésettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "knéseturðu",
+					"ft": "knésetjiði"
+				},
+				"þátíð": {
+					"et": "knésettirðu",
+					"ft": "knésettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "knésetjirðu",
+					"ft": "knésetjiði"
+				},
+				"þátíð": {
+					"et": "knésettirðu",
+					"ft": "knésettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "knésetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["knésettur", "knésettan", "knésettum", "knésetts"],
+					"kvk": ["knésett", "knésetta", "knésettri", "knésettrar"],
+					"hk": ["knésett", "knésett", "knésettu", "knésetts"]
+				},
+				"ft": {
+					"kk": ["knésettir", "knésetta", "knésettum", "knésettra"],
+					"kvk": ["knésettar", "knésettar", "knésettum", "knésettra"],
+					"hk": ["knésett", "knésett", "knésettum", "knésettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["knésetti", "knésetta", "knésetta", "knésetta"],
+					"kvk": ["knésetta", "knésettu", "knésettu", "knésettu"],
+					"hk": ["knésetta", "knésetta", "knésetta", "knésetta"]
+				},
+				"ft": {
+					"kk": ["knésettu", "knésettu", "knésettu", "knésettu"],
+					"kvk": ["knésettu", "knésettu", "knésettu", "knésettu"],
+					"hk": ["knésettu", "knésettu", "knésettu", "knésettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-knésetja",
+	"hash": "80eccf1bb2a4defbb40fa9ecdf6780ed171399e39d73c48bc5e009c81fcdcaf2"
+}
