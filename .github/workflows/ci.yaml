@@ -37,13 +37,13 @@ jobs:
           # skrifa orð úr grunni í textaskrár
           python main.py write-files runtime
           # smíða orðaforleit
-          python main.py build-sight
+          python main.py build-sight runtime
           # prófa orðaforleit
-          python main.py search "orð"
-          python main.py scan-sentence "Hér er haugur orða í hóflega langri setningu."
+          python main.py search "orð" runtime
+          python main.py scan-sentence "Hér er haugur orða í hóflega langri setningu." runtime
           # prenta út töluleg gögn á markdown sniði
           python main.py md-stats
           # ganga úr skugga um að orð séu óbreytt eftir smíði
           python main.py assert-clean-git
           # keyra webpack, nemur m.a. hugsanlegar "kennistrengur" endurtekningar
-          python main.py webpack
+          python main.py webpack runtime
