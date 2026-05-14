@@ -1,0 +1,99 @@
+{
+	"orð": "miðjusetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "miðju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-miðja-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "miðjusetja",
+		"sagnbót": "miðjusett",
+		"boðháttur": {
+			"stýfður": "miðjuset",
+			"et": "miðjusettu",
+			"ft": "miðjusetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["miðjuset", "miðjusetur", "miðjusetur"],
+					"ft": ["miðjusetjum", "miðjusetjið", "miðjusetja"]
+				},
+				"þátíð": {
+					"et": ["miðjusetti", "miðjusettir", "miðjusetti"],
+					"ft": ["miðjusettum", "miðjusettuð", "miðjusettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["miðjusetji", "miðjusetjir", "miðjusetji"],
+					"ft": ["miðjusetjum", "miðjusetjið", "miðjusetji"]
+				},
+				"þátíð": {
+					"et": ["miðjusetti", "miðjusettir", "miðjusetti"],
+					"ft": ["miðjusettum", "miðjusettuð", "miðjusettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "miðjuseturðu",
+					"ft": "miðjusetjiði"
+				},
+				"þátíð": {
+					"et": "miðjusettirðu",
+					"ft": "miðjusettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "miðjusetjirðu",
+					"ft": "miðjusetjiði"
+				},
+				"þátíð": {
+					"et": "miðjusettirðu",
+					"ft": "miðjusettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "miðjusetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["miðjusettur", "miðjusettan", "miðjusettum", "miðjusetts"],
+					"kvk": ["miðjusett", "miðjusetta", "miðjusettri", "miðjusettrar"],
+					"hk": ["miðjusett", "miðjusett", "miðjusettu", "miðjusetts"]
+				},
+				"ft": {
+					"kk": ["miðjusettir", "miðjusetta", "miðjusettum", "miðjusettra"],
+					"kvk": ["miðjusettar", "miðjusettar", "miðjusettum", "miðjusettra"],
+					"hk": ["miðjusett", "miðjusett", "miðjusettum", "miðjusettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["miðjusetti", "miðjusetta", "miðjusetta", "miðjusetta"],
+					"kvk": ["miðjusetta", "miðjusettu", "miðjusettu", "miðjusettu"],
+					"hk": ["miðjusetta", "miðjusetta", "miðjusetta", "miðjusetta"]
+				},
+				"ft": {
+					"kk": ["miðjusettu", "miðjusettu", "miðjusettu", "miðjusettu"],
+					"kvk": ["miðjusettu", "miðjusettu", "miðjusettu", "miðjusettu"],
+					"hk": ["miðjusettu", "miðjusettu", "miðjusettu", "miðjusettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-miðjusetja",
+	"hash": "35e3420d0391b49b634e57a32af9b8ff6f61f4b3730112ad0070e829f0ccc3ee"
+}

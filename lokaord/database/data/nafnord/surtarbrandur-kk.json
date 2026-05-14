@@ -5,10 +5,11 @@
 	"samsett": [
 		{
 			"mynd": "surtar",
-			"samsetning": "eignarfalls",
+			"samsetning": "stofn",
 			"kennistrengur": "no-surtur-kk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-brandur-kk"
 		}
 	],
@@ -16,10 +17,6 @@
 		"ág": ["surtarbrandur", "surtarbrand", "surtarbrandi", "surtarbrands"],
 		"mg": ["surtarbrandurinn", "surtarbrandinn", "surtarbrandinum", "surtarbrandsins"]
 	},
-	"ft": {
-		"ág": ["surtarbrandar", "surtarbranda", "surtarbröndum", "surtarbranda"],
-		"mg": ["surtarbrandarnir", "surtarbrandana", "surtarbröndunum", "surtarbrandanna"]
-	},
 	"kennistrengur": "no-surtarbrandur-kk",
-	"hash": "029adbf9a7e8eb4ad7885e68a06b85e14a570a4b886c559e6d1ea8b277e5c1f4"
+	"hash": "369dfe681ba42bc7bd98a0c1f6b4bb44e39ab3c4fbf4f5c1cc5ac56f95276c02"
 }

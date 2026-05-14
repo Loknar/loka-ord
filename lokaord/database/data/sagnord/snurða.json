@@ -1,6 +1,16 @@
 {
 	"orð": "snurða",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snurð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snurða-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "snurða",
 		"sagnbót": "snurðað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "snurðast",
 		"sagnbót": "snurðast",
+		"boðháttur": {
+			"et": "snurðastu",
+			"ft": "snurðist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -85,7 +99,7 @@
 					"et": "snurðastu"
 				},
 				"þátíð": {
-					"et": "snurðaistu"
+					"et": "snurðaðistu"
 				}
 			},
 			"viðtengingarháttur": {
@@ -93,7 +107,7 @@
 					"et": "snurðistu"
 				},
 				"þátíð": {
-					"et": "snurðaistu"
+					"et": "snurðaðistu"
 				}
 			}
 		}
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-snurða",
-	"hash": "f356382cad59c5b5384b5e039de8f828f2385d92c57c4010ef00be457d310670"
+	"hash": "baa1ccc1cebdb8d7df2b98c9e7a3da551e1371ce9ef9c978270276956c657195"
 }

@@ -5,23 +5,19 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "Suður",
-			"samsetning": "stofn",
-			"kennistrengur": "no-suður-hk"
-		},
-		{
-			"mynd": "lands",
+			"mynd": "Suðurlands",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
+			"kennistrengur": "sérn.ön-Suðurland-hk"
 		},
 		{
-			"beygingar": ["et-ág"],
+			"beygingar": ["et"],
 			"kennistrengur": "no-braut-kvk"
 		}
 	],
 	"et": {
-		"ág": ["Suðurlandsbraut", "Suðurlandsbraut", "Suðurlandsbraut", "Suðurlandsbrautar"]
+		"ág": ["Suðurlandsbraut", "Suðurlandsbraut", "Suðurlandsbraut", "Suðurlandsbrautar"],
+		"mg": ["Suðurlandsbrautin", "Suðurlandsbrautina", "Suðurlandsbrautinni", "Suðurlandsbrautarinnar"]
 	},
 	"kennistrengur": "sérn.ön-Suðurlandsbraut-kvk",
-	"hash": "351fd0c5bb594959e7f52ede2599e9f3efb53d7be00fa481736d818e9be4863a"
+	"hash": "34ee667f2c03bc090252e0f440b2e9b0530d25716b7d8fdc724a0f4d09b3eb8f"
 }

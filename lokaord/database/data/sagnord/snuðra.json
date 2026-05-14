@@ -1,0 +1,135 @@
+{
+	"orð": "snuðra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snuðr",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-snuð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snuðra",
+		"sagnbót": "snuðrað",
+		"boðháttur": {
+			"stýfður": "snuðra",
+			"et": "snuðraðu",
+			"ft": "snuðrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snuðra", "snuðrar", "snuðrar"],
+					"ft": ["snuðrum", "snuðrið", "snuðra"]
+				},
+				"þátíð": {
+					"et": ["snuðraði", "snuðraðir", "snuðraði"],
+					"ft": ["snuðruðum", "snuðruðuð", "snuðruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snuðri", "snuðrir", "snuðri"],
+					"ft": ["snuðrum", "snuðrið", "snuðri"]
+				},
+				"þátíð": {
+					"et": ["snuðraði", "snuðraðir", "snuðraði"],
+					"ft": ["snuðruðum", "snuðruðuð", "snuðruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snuðrarðu",
+					"ft": "snuðriði"
+				},
+				"þátíð": {
+					"et": "snuðraðirðu",
+					"ft": "snuðruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snuðrirðu",
+					"ft": "snuðriði"
+				},
+				"þátíð": {
+					"et": "snuðraðirðu",
+					"ft": "snuðruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "snuðrast",
+		"sagnbót": "snuðrast",
+		"boðháttur": {
+			"et": "snuðrastu",
+			"ft": "snuðrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snuðrast", "snuðrast", "snuðrast"],
+					"ft": ["snuðrumst", "snuðrist", "snuðrast"]
+				},
+				"þátíð": {
+					"et": ["snuðraðist", "snuðraðist", "snuðraðist"],
+					"ft": ["snuðruðumst", "snuðruðust", "snuðruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snuðrist", "snuðrist", "snuðrist"],
+					"ft": ["snuðrumst", "snuðrist", "snuðrist"]
+				},
+				"þátíð": {
+					"et": ["snuðraðist", "snuðraðist", "snuðraðist"],
+					"ft": ["snuðruðumst", "snuðruðust", "snuðruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "snuðrastu"
+				},
+				"þátíð": {
+					"et": "snuðraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "snuðristu"
+				},
+				"þátíð": {
+					"et": "snuðraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "snuðrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["snuðraður", "snuðraðan", "snuðruðum", "snuðraðs"],
+					"kvk": ["snuðruð", "snuðraða", "snuðraðri", "snuðraðrar"],
+					"hk": ["snuðrað", "snuðrað", "snuðruðu", "snuðraðs"]
+				},
+				"ft": {
+					"kk": ["snuðraðir", "snuðraða", "snuðruðum", "snuðraðra"],
+					"kvk": ["snuðraðar", "snuðraðar", "snuðruðum", "snuðraðra"],
+					"hk": ["snuðruð", "snuðruð", "snuðruðum", "snuðraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snuðra",
+	"hash": "5bf6d7bf09b106fe5a162e30188ffa138feee833f2fd7549fbf3ff9087afe063"
+}

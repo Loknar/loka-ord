@@ -1,0 +1,135 @@
+{
+	"orð": "þefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þef",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þefur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þefa",
+		"sagnbót": "þefað",
+		"boðháttur": {
+			"stýfður": "þefa",
+			"et": "þefaðu",
+			"ft": "þefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þefa", "þefar", "þefar"],
+					"ft": ["þefum", "þefið", "þefa"]
+				},
+				"þátíð": {
+					"et": ["þefaði", "þefaðir", "þefaði"],
+					"ft": ["þefuðum", "þefuðuð", "þefuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þefi", "þefir", "þefi"],
+					"ft": ["þefum", "þefið", "þefi"]
+				},
+				"þátíð": {
+					"et": ["þefaði", "þefaðir", "þefaði"],
+					"ft": ["þefuðum", "þefuðuð", "þefuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þefarðu",
+					"ft": "þefiði"
+				},
+				"þátíð": {
+					"et": "þefaðirðu",
+					"ft": "þefuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þefirðu",
+					"ft": "þefiði"
+				},
+				"þátíð": {
+					"et": "þefaðirðu",
+					"ft": "þefuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þefast",
+		"sagnbót": "þefast",
+		"boðháttur": {
+			"et": "þefastu",
+			"ft": "þefist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þefast", "þefast", "þefast"],
+					"ft": ["þefumst", "þefist", "þefast"]
+				},
+				"þátíð": {
+					"et": ["þefaðist", "þefaðist", "þefaðist"],
+					"ft": ["þefuðumst", "þefuðust", "þefuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þefist", "þefist", "þefist"],
+					"ft": ["þefumst", "þefist", "þefist"]
+				},
+				"þátíð": {
+					"et": ["þefaðist", "þefaðist", "þefaðist"],
+					"ft": ["þefuðumst", "þefuðust", "þefuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þefastu"
+				},
+				"þátíð": {
+					"et": "þefaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þefistu"
+				},
+				"þátíð": {
+					"et": "þefaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þefaður", "þefaðan", "þefuðum", "þefaðs"],
+					"kvk": ["þefuð", "þefaða", "þefaðri", "þefaðrar"],
+					"hk": ["þefað", "þefað", "þefuðu", "þefaðs"]
+				},
+				"ft": {
+					"kk": ["þefaðir", "þefaða", "þefuðum", "þefaðra"],
+					"kvk": ["þefaðar", "þefaðar", "þefuðum", "þefaðra"],
+					"hk": ["þefuð", "þefuð", "þefuðum", "þefaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þefa",
+	"hash": "43969fc20cfb5b38828745812eccad1ab023957a3f369abdfe3fc56e6ac1ed26"
+}
