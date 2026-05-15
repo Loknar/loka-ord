@@ -5,13 +5,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "Knattspyrnu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-knattspyrna-kvk"
-		},
-		{
+			"hástafa": true,
 			"beygingar": ["et"],
-			"kennistrengur": "no-samband-hk"
+			"kennistrengur": "no-knattspyrnusamband-hk"
 		}
 	],
 	"et": {
@@ -19,5 +15,5 @@
 		"mg": ["Knattspyrnusambandið", "Knattspyrnusambandið", "Knattspyrnusambandinu", "Knattspyrnusambandsins"]
 	},
 	"kennistrengur": "sérn.ön-Knattspyrnusamband-hk",
-	"hash": "0bc71b8655eb063d8874ad3555d5eb9d8de5838eb790d224647be50fd2a054c6"
+	"hash": "a32e78e5dc06942b8d1a76b225398ac442626df16da3874fcf8f9ae52308eca2"
 }

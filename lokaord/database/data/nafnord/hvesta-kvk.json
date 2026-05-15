@@ -2,6 +2,16 @@
 	"orð": "hvesta",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hvest",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hvest-kvk"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hvesta", "hvestu", "hvestu", "hvestu"],
 		"mg": ["hvestan", "hvestuna", "hvestunni", "hvestunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["hvesturnar", "hvesturnar", "hvestunum", "hvestanna"]
 	},
 	"kennistrengur": "no-hvesta-kvk",
-	"hash": "8ee1e5ca1acb0f73f003a40eb17b7f0139395406890f60ddb14817f1e2ab05ce"
+	"hash": "130b08d292d818b313540750f10559e266bb1876fea416e756a48e5d211a5a20"
 }

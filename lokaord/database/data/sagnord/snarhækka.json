@@ -8,7 +8,6 @@
 			"kennistrengur": "lo-snar"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-hækka"
 		}
 	],
@@ -79,9 +78,21 @@
 					"kvk": ["snarhækkaðar", "snarhækkaðar", "snarhækkuðum", "snarhækkaðra"],
 					"hk": ["snarhækkuð", "snarhækkuð", "snarhækkuðum", "snarhækkaðra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["snarhækkaði", "snarhækkaða", "snarhækkaða", "snarhækkaða"],
+					"kvk": ["snarhækkaða", "snarhækkuðu", "snarhækkuðu", "snarhækkuðu"],
+					"hk": ["snarhækkaða", "snarhækkaða", "snarhækkaða", "snarhækkaða"]
+				},
+				"ft": {
+					"kk": ["snarhækkuðu", "snarhækkuðu", "snarhækkuðu", "snarhækkuðu"],
+					"kvk": ["snarhækkuðu", "snarhækkuðu", "snarhækkuðu", "snarhækkuðu"],
+					"hk": ["snarhækkuðu", "snarhækkuðu", "snarhækkuðu", "snarhækkuðu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-snarhækka",
-	"hash": "2419c2dd9a8cd09f59991bcd4cf8e4c2309ba901cc29b0e62ff17f31e69f7264"
+	"hash": "7d67f96273730ed1ea81ffd79dd4701e18810a05891452fb7ddbba0fe78dbd13"
 }

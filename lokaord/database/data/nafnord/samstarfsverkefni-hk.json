@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "starfs",
+			"mynd": "samstarfs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-starf-hk"
+			"kennistrengur": "no-samstarf-hk"
 		},
 		{
-			"mynd": "verk",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verk-hk"
-		},
-		{
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-verkefni-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["samstarfsverkefnin", "samstarfsverkefnin", "samstarfsverkefnunum", "samstarfsverkefnanna"]
 	},
 	"kennistrengur": "no-samstarfsverkefni-hk",
-	"hash": "70f4865ac891ac295cfb15999e6c1c68b0dd6f899a10c7ed59c052f15d3441e7"
+	"hash": "1b485a9c570afd50718ad10c93e1ced30468c4401276b1c4d57b4c92fde9efb2"
 }
