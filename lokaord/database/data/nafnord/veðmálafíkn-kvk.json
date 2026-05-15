@@ -4,16 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "veð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-veð-hk"
-		},
-		{
-			"mynd": "mála",
+			"mynd": "veðmála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-veðmál-hk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-fíkn-kvk"
 		}
 	],
@@ -22,5 +18,5 @@
 		"mg": ["veðmálafíknin", "veðmálafíknina", "veðmálafíkninni", "veðmálafíknarinnar"]
 	},
 	"kennistrengur": "no-veðmálafíkn-kvk",
-	"hash": "6415bbfbd13a14d082e3bc1f0352bd2da702c5387ab2144baf1c8017110a8bcb"
+	"hash": "67e6af63626d31dcc6c9788e47c4921ee91969619ca6b4eaf332c9e6505eade1"
 }

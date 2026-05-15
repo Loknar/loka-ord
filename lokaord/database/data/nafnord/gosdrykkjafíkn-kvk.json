@@ -4,16 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "gos",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gos-hk"
-		},
-		{
-			"mynd": "drykkja",
+			"mynd": "gosdrykkja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-drykkur-kk"
+			"kennistrengur": "no-gosdrykkur-kk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-fíkn-kvk"
 		}
 	],
@@ -22,5 +18,5 @@
 		"mg": ["gosdrykkjafíknin", "gosdrykkjafíknina", "gosdrykkjafíkninni", "gosdrykkjafíknarinnar"]
 	},
 	"kennistrengur": "no-gosdrykkjafíkn-kvk",
-	"hash": "4047ff0ae24036e5be50a49be046ecaff65d52e56656b700305ae38e7706c8dd"
+	"hash": "d9c3b2c8aea64bb4911878a631bd228f4e582e5fa5a9801e4d3447e7cef1ee16"
 }

@@ -4,16 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "tölvu",
+			"mynd": "tölvuleikja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tölva-kvk"
+			"kennistrengur": "no-tölvuleikur-kk"
 		},
 		{
-			"mynd": "leikja",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leikur-kk"
-		},
-		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-fíkn-kvk"
 		}
 	],
@@ -22,5 +18,5 @@
 		"mg": ["tölvuleikjafíknin", "tölvuleikjafíknina", "tölvuleikjafíkninni", "tölvuleikjafíknarinnar"]
 	},
 	"kennistrengur": "no-tölvuleikjafíkn-kvk",
-	"hash": "7b48ec6dc2d2eea251042e9b04c74418d04aac74954f88f572bb4068d5a53ce3"
+	"hash": "e08d8da76ae0906806f7c18e1fc76565d0de7942234a078884f2975473fd06e6"
 }

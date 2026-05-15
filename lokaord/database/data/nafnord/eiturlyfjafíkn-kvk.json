@@ -4,16 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "eitur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-eitur-hk"
-		},
-		{
-			"mynd": "lyfja",
+			"mynd": "eiturlyfja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lyf-hk"
+			"kennistrengur": "no-eiturlyf-hk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-fíkn-kvk"
 		}
 	],
@@ -22,5 +18,5 @@
 		"mg": ["eiturlyfjafíknin", "eiturlyfjafíknina", "eiturlyfjafíkninni", "eiturlyfjafíknarinnar"]
 	},
 	"kennistrengur": "no-eiturlyfjafíkn-kvk",
-	"hash": "b887b63a8502823f7741ca83e13f86bb31235b2b8c85e0c94ac06225eec2316d"
+	"hash": "c0ae5e4aa00b20042abf37ab3888f3a05050480ef43223f14f2730ba6b5d1806"
 }
