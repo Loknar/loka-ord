@@ -1,6 +1,7 @@
 {
 	"orð": "Þjóðabandalagið",
-	"flokkur": "nafnorð",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
 	"kyn": "hk",
 	"samsett": [
 		{
@@ -9,18 +10,13 @@
 			"kennistrengur": "no-þjóð-kvk"
 		},
 		{
-			"mynd": "banda",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
-		},
-		{
 			"beygingar": ["et-mg"],
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-bandalag-hk"
 		}
 	],
 	"et": {
 		"mg": ["Þjóðabandalagið", "Þjóðabandalagið", "Þjóðabandalaginu", "Þjóðabandalagsins"]
 	},
-	"kennistrengur": "no-Þjóðabandalagið-hk",
-	"hash": "34be5e497abed08b1733bbd5738787c012b54daaea3689e09067689272ae7919"
+	"kennistrengur": "sérn.ön-Þjóðabandalagið-hk",
+	"hash": "bbf4f79309147f2d153596e06d68c8846edd652c743dd53c196d713b73eb5081"
 }
