@@ -722,7 +722,7 @@ class Ord:
 
 	def load_from_dict(self, data: dict, filename: str = None):
 		tracebacks = []
-		for struct in list(typing.get_args(self.__annotations__['data'])):
+		for struct in list(typing.get_args(self.__class__.__annotations__['data'])):
 			if struct is types.NoneType:
 				continue
 			try:
