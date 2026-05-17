@@ -977,6 +977,7 @@ def clean_string(mystr: str) -> str:
 		('ù', 'ú'),
 		# skipta út ákveðnum táknum fyrir skyld venjubundnari tákn
 		('\u2011', '-'),  # Non-Breaking Hyphen -> Hyphen-minus
+		('\u2019', "'"),  # Right Single Quotation Mark -> Apostrophe
 		# fjarlægja óæskileg tákn
 		('\xad', ''),  # stundum notað til að tilgreina skiptingu orða á vefsíðum
 		('\u200b', ''),  # zero width space
