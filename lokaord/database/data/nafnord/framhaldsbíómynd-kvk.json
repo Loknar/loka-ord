@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "halds",
+			"mynd": "framhalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-framhald-hk"
 		},
 		{
-			"mynd": "bíó",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bíó-hk"
-		},
-		{
-			"kennistrengur": "no-mynd-kvk"
+			"kennistrengur": "no-bíómynd-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["framhaldsbíómyndirnar", "framhaldsbíómyndirnar", "framhaldsbíómyndunum", "framhaldsbíómyndanna"]
 	},
 	"kennistrengur": "no-framhaldsbíómynd-kvk",
-	"hash": "1a093ff7ddd7a86711626a1ea37fe24393d47b307a04b10de07f7cf41677b20a"
+	"hash": "3da90bbbaf9a7ec4319196731e650c4cf9bca810a2209ebc93e97f8332df8e14"
 }
