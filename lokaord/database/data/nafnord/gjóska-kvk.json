@@ -2,10 +2,22 @@
 	"orð": "gjóska",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "gjós",
+			"samsetning": "stofn",
+			"kennistrengur": "so-gjósa"
+		},
+		{
+			"leiðir": "k",
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["gjóska", "gjósku", "gjósku", "gjósku"],
 		"mg": ["gjóskan", "gjóskuna", "gjóskunni", "gjóskunnar"]
 	},
 	"kennistrengur": "no-gjóska-kvk",
-	"hash": "a2d5a4738ed7e5701435d46a9085b2e09cfaa64c34241fb211276b86941a5812"
+	"hash": "55f613c01f68a767e72c027991ba50834f31f6c88759b783a0543dd7d4849ef0"
 }

@@ -1,0 +1,99 @@
+{
+	"orð": "sérskipa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skipa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérskipa",
+		"sagnbót": "sérskipað",
+		"boðháttur": {
+			"stýfður": "sérskipa",
+			"et": "sérskipaðu",
+			"ft": "sérskipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérskipa", "sérskipar", "sérskipar"],
+					"ft": ["sérskipum", "sérskipið", "sérskipa"]
+				},
+				"þátíð": {
+					"et": ["sérskipaði", "sérskipaðir", "sérskipaði"],
+					"ft": ["sérskipuðum", "sérskipuðuð", "sérskipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérskipi", "sérskipir", "sérskipi"],
+					"ft": ["sérskipum", "sérskipið", "sérskipi"]
+				},
+				"þátíð": {
+					"et": ["sérskipaði", "sérskipaðir", "sérskipaði"],
+					"ft": ["sérskipuðum", "sérskipuðuð", "sérskipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérskiparðu",
+					"ft": "sérskipiði"
+				},
+				"þátíð": {
+					"et": "sérskipaðirðu",
+					"ft": "sérskipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérskipirðu",
+					"ft": "sérskipiði"
+				},
+				"þátíð": {
+					"et": "sérskipaðirðu",
+					"ft": "sérskipuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérskipandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérskipaður", "sérskipaðan", "sérskipuðum", "sérskipaðs"],
+					"kvk": ["sérskipuð", "sérskipaða", "sérskipaðri", "sérskipaðrar"],
+					"hk": ["sérskipað", "sérskipað", "sérskipuðu", "sérskipaðs"]
+				},
+				"ft": {
+					"kk": ["sérskipaðir", "sérskipaða", "sérskipuðum", "sérskipaðra"],
+					"kvk": ["sérskipaðar", "sérskipaðar", "sérskipuðum", "sérskipaðra"],
+					"hk": ["sérskipuð", "sérskipuð", "sérskipuðum", "sérskipaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sérskipaði", "sérskipaða", "sérskipaða", "sérskipaða"],
+					"kvk": ["sérskipaða", "sérskipuðu", "sérskipuðu", "sérskipuðu"],
+					"hk": ["sérskipaða", "sérskipaða", "sérskipaða", "sérskipaða"]
+				},
+				"ft": {
+					"kk": ["sérskipuðu", "sérskipuðu", "sérskipuðu", "sérskipuðu"],
+					"kvk": ["sérskipuðu", "sérskipuðu", "sérskipuðu", "sérskipuðu"],
+					"hk": ["sérskipuðu", "sérskipuðu", "sérskipuðu", "sérskipuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérskipa",
+	"hash": "c5d47b56ff37214e49e4728b3e0500547c2eae21cf53bae1e025e1d791ec9b10"
+}
