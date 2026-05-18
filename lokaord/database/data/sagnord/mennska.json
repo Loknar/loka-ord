@@ -1,0 +1,95 @@
+{
+	"orð": "mennska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "mennsk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-mennska-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "mennska",
+		"sagnbót": "mennskað",
+		"boðháttur": {
+			"stýfður": "mennska",
+			"et": "mennskaðu",
+			"ft": "mennskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mennska", "mennskar", "mennskar"],
+					"ft": ["mennskum", "mennskið", "mennska"]
+				},
+				"þátíð": {
+					"et": ["mennskaði", "mennskaðir", "mennskaði"],
+					"ft": ["mennskuðum", "mennskuðuð", "mennskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mennski", "mennskir", "mennski"],
+					"ft": ["mennskum", "mennskið", "mennski"]
+				},
+				"þátíð": {
+					"et": ["mennskaði", "mennskaðir", "mennskaði"],
+					"ft": ["mennskuðum", "mennskuðuð", "mennskuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "mennskast",
+		"sagnbót": "mennskast",
+		"boðháttur": {
+			"et": "mennskastu",
+			"ft": "mennskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["mennskast", "mennskast", "mennskast"],
+					"ft": ["mennskumst", "mennskist", "mennskast"]
+				},
+				"þátíð": {
+					"et": ["mennskaðist", "mennskaðist", "mennskaðist"],
+					"ft": ["mennskuðumst", "mennskuðust", "mennskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["mennskist", "mennskist", "mennskist"],
+					"ft": ["mennskumst", "mennskist", "mennskist"]
+				},
+				"þátíð": {
+					"et": ["mennskaðist", "mennskaðist", "mennskaðist"],
+					"ft": ["mennskuðumst", "mennskuðust", "mennskuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "mennskandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["mennskaður", "mennskaðan", "mennskuðum", "mennskaðs"],
+					"kvk": ["mennskuð", "mennskaða", "mennskaðri", "mennskaðrar"],
+					"hk": ["mennskað", "mennskað", "mennskuðu", "mennskaðs"]
+				},
+				"ft": {
+					"kk": ["mennskaðir", "mennskaða", "mennskuðum", "mennskaðra"],
+					"kvk": ["mennskaðar", "mennskaðar", "mennskuðum", "mennskaðra"],
+					"hk": ["mennskuð", "mennskuð", "mennskuðum", "mennskaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-mennska",
+	"hash": "266f74b7f79b6538e552c97ba43d78fd530a132df323d7b81a27b6629f80d8f5"
+}
