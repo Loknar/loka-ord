@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "fíkni",
-			"samsetning": "bandstafs",
-			"kennistrengur": "no-fíkn-kvk"
-		},
-		{
-			"mynd": "efna",
+			"mynd": "fíkniefna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-fíkniefni-hk"
 		},
 		{
-			"mynd": "peninga",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-peningur-kk"
-		},
-		{
-			"kennistrengur": "no-þvætti-hk"
+			"kennistrengur": "no-peningaþvætti-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["fíkniefnapeningaþvættin", "fíkniefnapeningaþvættin", "fíkniefnapeningaþvættunum", "fíkniefnapeningaþvættanna"]
 	},
 	"kennistrengur": "no-fíkniefnapeningaþvætti-hk",
-	"hash": "2d0f3f8f1d5f5d314edd64e47980d3dbd3663ff9a147e342099eec0b2f24d3ef"
+	"hash": "003c3cab4904fcda198e7440b37ef29b699e85ec2d5b2faf8e04d810524fbc9c"
 }
