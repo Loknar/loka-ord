@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lands",
+			"mynd": "landsbyggðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "byggðar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-byggð-kvk"
+			"kennistrengur": "no-landsbyggð-kvk"
 		},
 		{
 			"kennistrengur": "no-klisja-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["landsbyggðarklisjurnar", "landsbyggðarklisjurnar", "landsbyggðarklisjunum", "landsbyggðarklisjanna"]
 	},
 	"kennistrengur": "no-landsbyggðarklisja-kvk",
-	"hash": "8f86749dfd4b9b8696983b60c4bbe1459ec6cc84a4201a90fbf61c75d5f766ca"
+	"hash": "8c33977522a8b46b0abdc4256606db3b8f0c490aaf1af14e939f8d730c2389ad"
 }
