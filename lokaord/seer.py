@@ -209,6 +209,7 @@ def scan_sentence(
 		if word in sight['skammstafanir']:
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
 			scanned_word['staða'] = 'skammstöfun'
+			scanned_word['fylgir'] = None
 			scanned_word['möguleikar'].append({
 				'k': sight['skammstafanir'][word]['kennistrengur'],
 				'm': myndir
@@ -221,6 +222,7 @@ def scan_sentence(
 			word_l = word.lower()
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word_l]['myndir']])
 			scanned_word['staða'] = 'skammstöfun'
+			scanned_word['fylgir'] = None
 			scanned_word['orð-hreinsað'] = word_l
 			scanned_word['möguleikar'].append({
 				'k': sight['skammstafanir'][word_l]['kennistrengur'],
