@@ -1,0 +1,121 @@
+{
+	"orð": "skopa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skop",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skop-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skopa",
+		"sagnbót": "skopað",
+		"boðháttur": {
+			"stýfður": "skopa",
+			"et": "skopaðu",
+			"ft": "skopið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skopa", "skopar", "skopar"],
+					"ft": ["skopum", "skopið", "skopa"]
+				},
+				"þátíð": {
+					"et": ["skopaði", "skopaðir", "skopaði"],
+					"ft": ["skopuðum", "skopuðuð", "skopuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skopi", "skopir", "skopi"],
+					"ft": ["skopum", "skopið", "skopi"]
+				},
+				"þátíð": {
+					"et": ["skopaði", "skopaðir", "skopaði"],
+					"ft": ["skopuðum", "skopuðuð", "skopuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skoparðu",
+					"ft": "skopiði"
+				},
+				"þátíð": {
+					"et": "skopaðirðu",
+					"ft": "skopuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skopirðu",
+					"ft": "skopiði"
+				},
+				"þátíð": {
+					"et": "skopaðirðu",
+					"ft": "skopuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skopast",
+		"sagnbót": "skopast",
+		"boðháttur": {
+			"et": "skopastu",
+			"ft": "skopist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skopast", "skopast", "skopast"],
+					"ft": ["skopumst", "skopist", "skopast"]
+				},
+				"þátíð": {
+					"et": ["skopaðist", "skopaðist", "skopaðist"],
+					"ft": ["skopuðumst", "skopuðust", "skopuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skopist", "skopist", "skopist"],
+					"ft": ["skopumst", "skopist", "skopist"]
+				},
+				"þátíð": {
+					"et": ["skopaðist", "skopaðist", "skopaðist"],
+					"ft": ["skopuðumst", "skopuðust", "skopuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skopastu"
+				},
+				"þátíð": {
+					"et": "skopaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skopistu"
+				},
+				"þátíð": {
+					"et": "skopaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skopandi"
+	},
+	"kennistrengur": "so-skopa",
+	"hash": "13db209c6449707d67c59765909d911d21ea1759be13811c3036e1a8fc7ee5d2"
+}

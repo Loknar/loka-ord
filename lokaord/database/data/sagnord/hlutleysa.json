@@ -1,0 +1,110 @@
+{
+	"orð": "hlutleysa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hlut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hlutur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leysa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hlutleysa",
+		"sagnbót": "hlutleyst",
+		"boðháttur": {
+			"stýfður": "hlutleys",
+			"et": "hlutleystu",
+			"ft": "hlutleysið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlutleysi", "hlutleysir", "hlutleysir"],
+					"ft": ["hlutleysum", "hlutleysið", "hlutleysa"]
+				},
+				"þátíð": {
+					"et": ["hlutleysti", "hlutleystir", "hlutleysti"],
+					"ft": ["hlutleystum", "hlutleystuð", "hlutleystu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlutleysi", "hlutleysir", "hlutleysi"],
+					"ft": ["hlutleysum", "hlutleysið", "hlutleysi"]
+				},
+				"þátíð": {
+					"et": ["hlutleysti", "hlutleystir", "hlutleysti"],
+					"ft": ["hlutleystum", "hlutleystuð", "hlutleystu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hlutleysir", "hlutleysir", "hlutleysir"],
+					"ft": ["hlutleysir", "hlutleysir", "hlutleysir"]
+				},
+				"þátíð": {
+					"et": ["hlutleysti", "hlutleysti", "hlutleysti"],
+					"ft": ["hlutleysti", "hlutleysti", "hlutleysti"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hlutleysi", "hlutleysi", "hlutleysi"],
+					"ft": ["hlutleysi", "hlutleysi", "hlutleysi"]
+				},
+				"þátíð": {
+					"et": ["hlutleysti", "hlutleysti", "hlutleysti"],
+					"ft": ["hlutleysti", "hlutleysti", "hlutleysti"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hlutleysirðu",
+					"ft": "hlutleysiði"
+				},
+				"þátíð": {
+					"et": "hlutleystirðu",
+					"ft": "hlutleystuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hlutleysirðu",
+					"ft": "hlutleysiði"
+				},
+				"þátíð": {
+					"et": "hlutleystirðu",
+					"ft": "hlutleystuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hlutleysandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hlutleystur", "hlutleystan", "hlutleystum", "hlutleysts"],
+					"kvk": ["hlutleyst", "hlutleysta", "hlutleystri", "hlutleystrar"],
+					"hk": ["hlutleyst", "hlutleyst", "hlutleystu", "hlutleysts"]
+				},
+				"ft": {
+					"kk": ["hlutleystir", "hlutleysta", "hlutleystum", "hlutleystra"],
+					"kvk": ["hlutleystar", "hlutleystar", "hlutleystum", "hlutleystra"],
+					"hk": ["hlutleyst", "hlutleyst", "hlutleystum", "hlutleystra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hlutleysa",
+	"hash": "349d6976b1f60afb4187a41f4203464648ec8adc74576d86bfcf9faa7b8e4424"
+}

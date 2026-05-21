@@ -1,0 +1,73 @@
+{
+	"orð": "dúxa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dúx",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dúx-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dúxa",
+		"sagnbót": "dúxað",
+		"boðháttur": {
+			"stýfður": "dúxa",
+			"et": "dúxaðu",
+			"ft": "dúxið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dúxa", "dúxar", "dúxar"],
+					"ft": ["dúxum", "dúxið", "dúxa"]
+				},
+				"þátíð": {
+					"et": ["dúxaði", "dúxaðir", "dúxaði"],
+					"ft": ["dúxuðum", "dúxuðuð", "dúxuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dúxi", "dúxir", "dúxi"],
+					"ft": ["dúxum", "dúxið", "dúxi"]
+				},
+				"þátíð": {
+					"et": ["dúxaði", "dúxaðir", "dúxaði"],
+					"ft": ["dúxuðum", "dúxuðuð", "dúxuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dúxarðu",
+					"ft": "dúxiði"
+				},
+				"þátíð": {
+					"et": "dúxaðirðu",
+					"ft": "dúxuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dúxirðu",
+					"ft": "dúxiði"
+				},
+				"þátíð": {
+					"et": "dúxaðirðu",
+					"ft": "dúxuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dúxandi"
+	},
+	"kennistrengur": "so-dúxa",
+	"hash": "38f9295192acfbeb9e9e75450a724179d038c1b0df2a05cf1ef8877e0319ab40"
+}
