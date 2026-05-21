@@ -1,0 +1,131 @@
+{
+	"orð": "impra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "impr",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "impra",
+		"sagnbót": "imprað",
+		"boðháttur": {
+			"stýfður": "impra",
+			"et": "impraðu",
+			"ft": "imprið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["impra", "imprar", "imprar"],
+					"ft": ["imprum", "imprið", "impra"]
+				},
+				"þátíð": {
+					"et": ["impraði", "impraðir", "impraði"],
+					"ft": ["impruðum", "impruðuð", "impruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["impri", "imprir", "impri"],
+					"ft": ["imprum", "imprið", "impri"]
+				},
+				"þátíð": {
+					"et": ["impraði", "impraðir", "impraði"],
+					"ft": ["impruðum", "impruðuð", "impruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "imprarðu",
+					"ft": "impriði"
+				},
+				"þátíð": {
+					"et": "impraðirðu",
+					"ft": "impruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "imprirðu",
+					"ft": "impriði"
+				},
+				"þátíð": {
+					"et": "impraðirðu",
+					"ft": "impruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "imprast",
+		"sagnbót": "imprast",
+		"boðháttur": {
+			"et": "imprastu",
+			"ft": "imprist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["imprast", "imprast", "imprast"],
+					"ft": ["imprumst", "imprist", "imprast"]
+				},
+				"þátíð": {
+					"et": ["impraðist", "impraðist", "impraðist"],
+					"ft": ["impruðumst", "impruðust", "impruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["imprist", "imprist", "imprist"],
+					"ft": ["imprumst", "imprist", "imprist"]
+				},
+				"þátíð": {
+					"et": ["impraðist", "impraðist", "impraðist"],
+					"ft": ["impruðumst", "impruðust", "impruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "imprastu"
+				},
+				"þátíð": {
+					"et": "impraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "impristu"
+				},
+				"þátíð": {
+					"et": "impraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "imprandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["impraður", "impraðan", "impruðum", "impraðs"],
+					"kvk": ["impruð", "impraða", "impraðri", "impraðrar"],
+					"hk": ["imprað", "imprað", "impruðu", "impraðs"]
+				},
+				"ft": {
+					"kk": ["impraðir", "impraða", "impruðum", "impraðra"],
+					"kvk": ["impraðar", "impraðar", "impruðum", "impraðra"],
+					"hk": ["impruð", "impruð", "impruðum", "impraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-impra",
+	"hash": "7bca9a90071a0e5b1d5ed8160ff979cb32e90e94a7ecf6a208e8811dfd54316f"
+}

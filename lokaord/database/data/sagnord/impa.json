@@ -1,0 +1,131 @@
+{
+	"orð": "impa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "imp",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "impa",
+		"sagnbót": "impað",
+		"boðháttur": {
+			"stýfður": "impa",
+			"et": "impaðu",
+			"ft": "impið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["impa", "impar", "impar"],
+					"ft": ["impum", "impið", "impa"]
+				},
+				"þátíð": {
+					"et": ["impaði", "impaðir", "impaði"],
+					"ft": ["impuðum", "impuðuð", "impuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["impi", "impir", "impi"],
+					"ft": ["impum", "impið", "impi"]
+				},
+				"þátíð": {
+					"et": ["impaði", "impaðir", "impaði"],
+					"ft": ["impuðum", "impuðuð", "impuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "imparðu",
+					"ft": "impiði"
+				},
+				"þátíð": {
+					"et": "impaðirðu",
+					"ft": "impuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "impirðu",
+					"ft": "impiði"
+				},
+				"þátíð": {
+					"et": "impaðirðu",
+					"ft": "impuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "impast",
+		"sagnbót": "impast",
+		"boðháttur": {
+			"et": "impastu",
+			"ft": "impist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["impast", "impast", "impast"],
+					"ft": ["impumst", "impist", "impast"]
+				},
+				"þátíð": {
+					"et": ["impaðist", "impaðist", "impaðist"],
+					"ft": ["impuðumst", "impuðust", "impuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["impist", "impist", "impist"],
+					"ft": ["impumst", "impist", "impist"]
+				},
+				"þátíð": {
+					"et": ["impaðist", "impaðist", "impaðist"],
+					"ft": ["impuðumst", "impuðust", "impuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "impastu"
+				},
+				"þátíð": {
+					"et": "impaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "impistu"
+				},
+				"þátíð": {
+					"et": "impaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "impandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["impaður", "impaðan", "impuðum", "impaðs"],
+					"kvk": ["impuð", "impaða", "impaðri", "impaðrar"],
+					"hk": ["impað", "impað", "impuðu", "impaðs"]
+				},
+				"ft": {
+					"kk": ["impaðir", "impaða", "impuðum", "impaðra"],
+					"kvk": ["impaðar", "impaðar", "impuðum", "impaðra"],
+					"hk": ["impuð", "impuð", "impuðum", "impaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-impa",
+	"hash": "177bdc5fb3af8ee21898bb9fcaffd3ccc6a28964f17d951bc39db6751f09000d"
+}

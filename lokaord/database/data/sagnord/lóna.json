@@ -1,0 +1,135 @@
+{
+	"orð": "lóna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lón",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lón-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lóna",
+		"sagnbót": "lónað",
+		"boðháttur": {
+			"stýfður": "lóna",
+			"et": "lónaðu",
+			"ft": "lónið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lóna", "lónar", "lónar"],
+					"ft": ["lónum", "lónið", "lóna"]
+				},
+				"þátíð": {
+					"et": ["lónaði", "lónaðir", "lónaði"],
+					"ft": ["lónuðum", "lónuðuð", "lónuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lóni", "lónir", "lóni"],
+					"ft": ["lónum", "lónið", "lóni"]
+				},
+				"þátíð": {
+					"et": ["lónaði", "lónaðir", "lónaði"],
+					"ft": ["lónuðum", "lónuðuð", "lónuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lónarðu",
+					"ft": "lóniði"
+				},
+				"þátíð": {
+					"et": "lónaðirðu",
+					"ft": "lónuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lónirðu",
+					"ft": "lóniði"
+				},
+				"þátíð": {
+					"et": "lónaðirðu",
+					"ft": "lónuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lónast",
+		"sagnbót": "lónast",
+		"boðháttur": {
+			"et": "lónastu",
+			"ft": "lónist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lónast", "lónast", "lónast"],
+					"ft": ["lónumst", "lónist", "lónast"]
+				},
+				"þátíð": {
+					"et": ["lónaðist", "lónaðist", "lónaðist"],
+					"ft": ["lónuðumst", "lónuðust", "lónuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lónist", "lónist", "lónist"],
+					"ft": ["lónumst", "lónist", "lónist"]
+				},
+				"þátíð": {
+					"et": ["lónaðist", "lónaðist", "lónaðist"],
+					"ft": ["lónuðumst", "lónuðust", "lónuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lónastu"
+				},
+				"þátíð": {
+					"et": "lónaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lónistu"
+				},
+				"þátíð": {
+					"et": "lónaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lónandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lónaður", "lónaðan", "lónuðum", "lónaðs"],
+					"kvk": ["lónuð", "lónaða", "lónaðri", "lónaðrar"],
+					"hk": ["lónað", "lónað", "lónuðu", "lónaðs"]
+				},
+				"ft": {
+					"kk": ["lónaðir", "lónaða", "lónuðum", "lónaðra"],
+					"kvk": ["lónaðar", "lónaðar", "lónuðum", "lónaðra"],
+					"hk": ["lónuð", "lónuð", "lónuðum", "lónaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lóna",
+	"hash": "c19fc28f0d5a865d2a9a8b98f90abd5f638c68291ec4d4e92a50f8b7c05df58c"
+}

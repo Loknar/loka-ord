@@ -1,0 +1,43 @@
+{
+	"orð": "auglýsingastyrktur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "auglýsinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-auglýsing-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-styrktur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["auglýsingastyrktur", "auglýsingastyrktan", "auglýsingastyrktum", "auglýsingastyrkts"],
+				"kvk": ["auglýsingastyrkt", "auglýsingastyrkta", "auglýsingastyrktri", "auglýsingastyrktrar"],
+				"hk": ["auglýsingastyrkt", "auglýsingastyrkt", "auglýsingastyrktu", "auglýsingastyrkts"]
+			},
+			"ft": {
+				"kk": ["auglýsingastyrktir", "auglýsingastyrkta", "auglýsingastyrktum", "auglýsingastyrktra"],
+				"kvk": ["auglýsingastyrktar", "auglýsingastyrktar", "auglýsingastyrktum", "auglýsingastyrktra"],
+				"hk": ["auglýsingastyrkt", "auglýsingastyrkt", "auglýsingastyrktum", "auglýsingastyrktra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["auglýsingastyrkti", "auglýsingastyrkta", "auglýsingastyrkta", "auglýsingastyrkta"],
+				"kvk": ["auglýsingastyrkta", "auglýsingastyrktu", "auglýsingastyrktu", "auglýsingastyrktu"],
+				"hk": ["auglýsingastyrkta", "auglýsingastyrkta", "auglýsingastyrkta", "auglýsingastyrkta"]
+			},
+			"ft": {
+				"kk": ["auglýsingastyrktu", "auglýsingastyrktu", "auglýsingastyrktu", "auglýsingastyrktu"],
+				"kvk": ["auglýsingastyrktu", "auglýsingastyrktu", "auglýsingastyrktu", "auglýsingastyrktu"],
+				"hk": ["auglýsingastyrktu", "auglýsingastyrktu", "auglýsingastyrktu", "auglýsingastyrktu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-auglýsingastyrktur",
+	"hash": "5d2785ada840ba85aa2fcc1cee3a199877c65cb697cebdfe85e9cc74e7f2a888"
+}

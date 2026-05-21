@@ -1,0 +1,22 @@
+{
+	"orð": "sölutekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sölu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sala-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["sölutekjur", "sölutekjur", "sölutekjum", "sölutekna"],
+		"mg": ["sölutekjurnar", "sölutekjurnar", "sölutekjunum", "söluteknanna"]
+	},
+	"kennistrengur": "no-sölutekjur-kvk",
+	"hash": "94998a61efc61f82bcd3d8146e8721f0e345d7fbd484e1037561fdc604e83155"
+}
