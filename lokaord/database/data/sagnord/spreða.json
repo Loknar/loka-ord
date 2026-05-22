@@ -1,0 +1,135 @@
+{
+	"orð": "spreða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spreð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spreð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spreða",
+		"sagnbót": "spreðað",
+		"boðháttur": {
+			"stýfður": "spreða",
+			"et": "spreðaðu",
+			"ft": "spreðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spreða", "spreðar", "spreðar"],
+					"ft": ["spreðum", "spreðið", "spreða"]
+				},
+				"þátíð": {
+					"et": ["spreðaði", "spreðaðir", "spreðaði"],
+					"ft": ["spreðuðum", "spreðuðuð", "spreðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spreði", "spreðir", "spreði"],
+					"ft": ["spreðum", "spreðið", "spreði"]
+				},
+				"þátíð": {
+					"et": ["spreðaði", "spreðaðir", "spreðaði"],
+					"ft": ["spreðuðum", "spreðuðuð", "spreðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spreðarðu",
+					"ft": "spreðiði"
+				},
+				"þátíð": {
+					"et": "spreðaðirðu",
+					"ft": "spreðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spreðirðu",
+					"ft": "spreðiði"
+				},
+				"þátíð": {
+					"et": "spreðaðirðu",
+					"ft": "spreðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spreðast",
+		"sagnbót": "spreðast",
+		"boðháttur": {
+			"et": "spreðastu",
+			"ft": "spreðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spreðast", "spreðast", "spreðast"],
+					"ft": ["spreðumst", "spreðist", "spreðast"]
+				},
+				"þátíð": {
+					"et": ["spreðaðist", "spreðaðist", "spreðaðist"],
+					"ft": ["spreðuðumst", "spreðuðust", "spreðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spreðist", "spreðist", "spreðist"],
+					"ft": ["spreðumst", "spreðist", "spreðist"]
+				},
+				"þátíð": {
+					"et": ["spreðaðist", "spreðaðist", "spreðaðist"],
+					"ft": ["spreðuðumst", "spreðuðust", "spreðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spreðastu"
+				},
+				"þátíð": {
+					"et": "spreðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spreðistu"
+				},
+				"þátíð": {
+					"et": "spreðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spreðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spreðaður", "spreðaðan", "spreðuðum", "spreðaðs"],
+					"kvk": ["spreðuð", "spreðaða", "spreðaðri", "spreðaðrar"],
+					"hk": ["spreðað", "spreðað", "spreðuðu", "spreðaðs"]
+				},
+				"ft": {
+					"kk": ["spreðaðir", "spreðaða", "spreðuðum", "spreðaðra"],
+					"kvk": ["spreðaðar", "spreðaðar", "spreðuðum", "spreðaðra"],
+					"hk": ["spreðuð", "spreðuð", "spreðuðum", "spreðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spreða",
+	"hash": "5220592782288af7d0af53ef8262ead0ed70b9327db20c649db801a0854ee672"
+}

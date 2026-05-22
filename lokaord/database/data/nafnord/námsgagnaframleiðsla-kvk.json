@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "náms",
+			"mynd": "námsgagna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-nám-hk"
-		},
-		{
-			"mynd": "gagna",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gagn-hk"
-		},
-		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
+			"kennistrengur": "no-námsgagn-hk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-framleiðsla-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["námsgagnaframleiðslan", "námsgagnaframleiðsluna", "námsgagnaframleiðslunni", "námsgagnaframleiðslunnar"]
 	},
 	"kennistrengur": "no-námsgagnaframleiðsla-kvk",
-	"hash": "1ac1a22ea6ed96ff4742f82ef1de18b7114dbd2711c3c7a1768951372deead3b"
+	"hash": "ecc8eaf74c81f9d2604c512836bf3cb608f0411cf1d7658dc17cc4c4f1dcec0f"
 }
