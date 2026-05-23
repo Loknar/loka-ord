@@ -4,24 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "utan",
+			"mynd": "utanríkisráðherra",
 			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-utan"
-		},
-		{
-			"mynd": "ríkis",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ríki-hk"
-		},
-		{
-			"mynd": "ráð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-ráð-hk"
-		},
-		{
-			"mynd": "herra",
-			"samsetning": "stofn",
-			"kennistrengur": "no-herra-kk"
+			"kennistrengur": "no-utanríkisráðherra-kk"
 		},
 		{
 			"beygingar": ["et"],
@@ -33,5 +18,5 @@
 		"mg": ["utanríkisráðherratíðin", "utanríkisráðherratíðina", "utanríkisráðherratíðinni", "utanríkisráðherratíðarinnar"]
 	},
 	"kennistrengur": "no-utanríkisráðherratíð-kvk",
-	"hash": "a87b03fa99c996c8234469789546cd8571f9c13e573d59d6473ceb1f5b0a7a72"
+	"hash": "c574630be847aac241fce88f4423236e33f3fa99dc81159264f7ad4511bd9b2b"
 }

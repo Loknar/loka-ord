@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "eignar",
+			"mynd": "eignarhalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eign-kvk"
-		},
-		{
-			"mynd": "halds",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-eignarhald-hk"
 		},
 		{
 			"kennistrengur": "no-breyting-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["eignarhaldsbreytingarnar", "eignarhaldsbreytingarnar", "eignarhaldsbreytingunum", "eignarhaldsbreytinganna"]
 	},
 	"kennistrengur": "no-eignarhaldsbreyting-kvk",
-	"hash": "e30b3aaac4c118395f7e902b21d7f12db1abd69603eb17b390380d833f89121c"
+	"hash": "45b9eeb9fe371a695ebef7f093f1199d6d401a692946de356118aa5fb7c91ee8"
 }
