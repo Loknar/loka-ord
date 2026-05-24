@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "mynda",
+			"mynd": "myndasögu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mynd-kvk"
-		},
-		{
-			"mynd": "sögu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-saga-kvk"
+			"kennistrengur": "no-myndasaga-kvk"
 		},
 		{
 			"kennistrengur": "no-blað-hk"
@@ -26,5 +21,5 @@
 		"mg": ["myndasögublöðin", "myndasögublöðin", "myndasögublöðunum", "myndasögublaðanna"]
 	},
 	"kennistrengur": "no-myndasögublað-hk",
-	"hash": "0af284c5f0bea1c1527ef05470d2f67f8494a9688c3990b1ae9648730034dbb5"
+	"hash": "650dc8672d93c61cc8f77b5a78e9b6ad1b9282b0f1a94ae2a2c9e89ed9f2cf07"
 }

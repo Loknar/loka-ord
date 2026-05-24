@@ -1,6 +1,16 @@
 {
 	"orð": "stjórna",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "stjórna",
 		"sagnbót": "stjórnað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "stjórnast",
 		"sagnbót": "stjórnast",
+		"boðháttur": {
+			"et": "stjórnastu",
+			"ft": "stjórnist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-stjórna",
-	"hash": "2d98ec3319a1c957bcd2b0253b381683561694c0d5ea0cd7544ec5db4935b583"
+	"hash": "d6828a2fc79c68f98971170f16b4b68019af6401799844a2637214125ed62c35"
 }
