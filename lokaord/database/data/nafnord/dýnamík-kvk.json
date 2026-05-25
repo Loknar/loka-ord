@@ -2,10 +2,17 @@
 	"orð": "dýnamík",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"leiðir": "dýnam",
+			"beygingar": ["et"],
+			"kennistrengur": "no-ík-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["dýnamík", "dýnamík", "dýnamík", "dýnamíkur"],
 		"mg": ["dýnamíkin", "dýnamíkina", "dýnamíkinni", "dýnamíkurinnar"]
 	},
 	"kennistrengur": "no-dýnamík-kvk",
-	"hash": "c5f3f938e399ac7d745d78ed2d06f54463ef89588f9ce36da6210834f4f4bdb8"
+	"hash": "eefb7cc08b32a4457168f272afc98315d6e212f79e3e01abcc958558a60d1ade"
 }

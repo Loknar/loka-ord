@@ -1,0 +1,73 @@
+{
+	"orð": "sörfa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sörf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sörf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sörfa",
+		"sagnbót": "sörfað",
+		"boðháttur": {
+			"stýfður": "sörfa",
+			"et": "sörfaðu",
+			"ft": "sörfið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sörfa", "sörfar", "sörfar"],
+					"ft": ["sörfum", "sörfið", "sörfa"]
+				},
+				"þátíð": {
+					"et": ["sörfaði", "sörfaðir", "sörfaði"],
+					"ft": ["sörfuðum", "sörfuðuð", "sörfuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sörfi", "sörfir", "sörfi"],
+					"ft": ["sörfum", "sörfið", "sörfi"]
+				},
+				"þátíð": {
+					"et": ["sörfaði", "sörfaðir", "sörfaði"],
+					"ft": ["sörfuðum", "sörfuðuð", "sörfuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sörfarðu",
+					"ft": "sörfiði"
+				},
+				"þátíð": {
+					"et": "sörfaðirðu",
+					"ft": "sörfuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sörfirðu",
+					"ft": "sörfiði"
+				},
+				"þátíð": {
+					"et": "sörfaðirðu",
+					"ft": "sörfuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sörfandi"
+	},
+	"kennistrengur": "so-sörfa",
+	"hash": "f28f29797ef5ab43bf916ae2d077788eafb263c039c621880f9695df543c592a"
+}
