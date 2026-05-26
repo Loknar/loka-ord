@@ -118,6 +118,17 @@ def use_backup(name: str = None, filename: str = None):
 			delete_ord(kennistrengur)
 	if (
 		filename in backup_handling['handling'] and
+		'skammst_delete' in backup_handling['handling'][filename]
+	):
+		logman.info(f'Remove specified list of skammstafanir from database backup ..')
+		if not isinstance(backup_handling['handling'][filename]['skammst_delete'], list):
+			raise Exception('"skammst_delete" should be list')
+		for kennistrengur in backup_handling['handling'][filename]['skammst_delete']:
+			if not isinstance(kennistrengur, str):
+				raise Exception('contents of "skammst_delete" should be strings')
+			delete_skammstofun(kennistrengur)
+	if (
+		filename in backup_handling['handling'] and
 		'commit_id' in backup_handling['handling'][filename]
 	):
 		commit_id = backup_handling['handling'][filename]['commit_id']
@@ -128,10 +139,12 @@ def use_backup(name: str = None, filename: str = None):
 	logman.info('Backup ready for use.')
 
 
-def build_db(rebuild: bool = False, changes_only: bool = False):
+def build_db(rebuild: bool = False, changes_only: bool = False, since_commit: str = None):
 	if rebuild is True:
 		db.delete_sqlite_db_file(Name)
 	db.init(Name)
+	if since_commit is not None:
+		importer.import_changed_datafiles_since_commit_to_db(since_commit, [])
 	if changes_only is True:
 		importer.import_changed_datafiles_to_db()
 	else:
@@ -262,8 +275,19 @@ def delete_ord(kennistrengur: str):
 		raise typer.Exit(code=1)
 
 
+def delete_skammstofun(kennistrengur: str):
+	db.init(Name)
+	isl_skammst = handlers.get_skammstofun_by_kennistrengur(kennistrengur)
+	if isl_skammst is None:
+		logman.error(f'Skammstöfun with kennistrengur "{kennistrengur}" not found.')
+		raise typer.Exit(code=1)
+	try:
+		handlers.delete_skammstofun_from_db(isl_skammst)
+	except OrdToDeleteHasDependentsError as err:
+		logman.error(err.msg)
+		raise typer.Exit(code=1)
+
+
 def run_fiddle():
 	db.init(Name)
 	logman.info('Running fiddle!')
-	start_hash = '269784961dab53ad0b575899eb73709a2f9893fe'
-	importer.import_changed_datafiles_since_commit_to_db(start_hash)

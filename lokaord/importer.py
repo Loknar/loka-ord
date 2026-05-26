@@ -7,6 +7,7 @@ Importing data from files to SQL database.
 from collections import deque
 import json
 import os
+import re
 
 import git
 
@@ -153,8 +154,8 @@ def import_list_of_datafiles_to_db(files: list[str]):
 				))
 		except VoidKennistrengurError:
 			samsett_ord_void_queue.append(samsett_ord_file)
-	# retry void samsett-orð
-	max_retries = 100 + (10 * len(files))  # just a minor safety from infinite loop
+	# retry void samsett-orð ( similar to arrange_task_retries below )
+	max_retries = 100 + (10 * len(files))  # just a minor safety from potential infinite loop
 	count_retries = 0
 	while True:
 		samsett_ord_file = None
@@ -213,6 +214,9 @@ def import_changed_datafiles_since_commit_to_db(sha_hash: str, files_import: lis
 	Go through datafiles in "lokaord/database/data" directory that have changed according to git
 	since a specified commit.
 	"""
+	sha1_regex = re.compile(r'^[0-9a-fA-f]+$')
+	if bool(sha1_regex.match(sha_hash)) is False:
+		raise Exception(f'Bad hash? ("{sha_hash}")')
 	logman.info(
 		f'Doing import for changed or new datafiles, since git commit "{sha_hash}", to database ..'
 	)
@@ -274,7 +278,7 @@ def arrange_task_retries(task_retries: list) -> list:
 	the order of import depends on samsetning orða
 	solution: order task_retries properly
 	"""
-	max_retries = 50
+	max_retries = 100
 	task_retries_kennistrengir = set()
 	task_queue = deque()
 	for task in task_retries:

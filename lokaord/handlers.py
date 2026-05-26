@@ -4093,6 +4093,10 @@ def get_ord_by_kennistrengur(kennistrengur: str) -> isl.Ord:
 	return db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
 
 
+def get_skammstofun_by_kennistrengur(kennistrengur: str) -> isl.Skammstofun:
+	return db.Session.query(isl.Skammstofun).filter_by(Kennistrengur=kennistrengur).first()
+
+
 def get_dependents_of_ord(isl_ord: isl.Ord) -> list[str]:
 	ohl_query = db.Session.query(isl.SamsettOrdhluti).filter_by(fk_Ord_id=isl_ord.Ord_id)
 	dependents = []
@@ -4158,6 +4162,7 @@ def get_skammstafanir_with_ord(isl_ord: isl.Ord) -> list[str]:
 
 def delete_ord_from_db(isl_ord: isl.Ord):
 	logman.debug('Deleting orð "%s" ..' % (isl_ord.Kennistrengur, ))
+	kennistrengur = isl_ord.Kennistrengur
 	# check for samsett orð that are dependent on given orð
 	dependents = get_dependents_of_ord(isl_ord)
 	if len(dependents) > 0:
@@ -4261,7 +4266,23 @@ def delete_ord_from_db(isl_ord: isl.Ord):
 	# delete orð itself
 	db.Session.delete(isl_ord)
 	db.Session.commit()
-	logman.info('Deleted orð "%s".' % (isl_ord.Kennistrengur, ))
+	logman.info('Deleted orð "%s".' % (kennistrengur, ))
+
+
+def delete_skammstofun_from_db(isl_skammst: isl.Skammstofun):
+	logman.debug('Deleting skammstöfun "%s" ..' % (isl_skammst.Kennistrengur, ))
+	kennistrengur = isl_skammst.Kennistrengur
+	frasi_entries = db.Session.query(isl.SkammstofunFrasi).filter_by(
+		fk_Skammstofun_id=isl_skammst.Skammstofun_id
+	).all()
+	mynd_entries = db.Session.query(isl.SkammstofunMynd).filter_by(
+		fk_Skammstofun_id=isl_skammst.Skammstofun_id
+	).all()
+	for mynd_entry in mynd_entries:
+		db.Session.delete(mynd_entry)
+	db.Session.delete(isl_skammst)
+	db.Session.commit()
+	logman.info('Deleted skammstöfun "%s".' % (kennistrengur, ))
 
 
 class MyIndentJSONEncoder(json.JSONEncoder):

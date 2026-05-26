@@ -63,7 +63,7 @@ def build_db(
 ):
 	if rebuild and changes_only:
 		raise typer.BadParameter('build-db: --rebuild and --changes-only are mutually exclusive.')
-	lokaord.build_db(rebuild, changes_only)
+	lokaord.build_db(rebuild=rebuild, changes_only=changes_only)
 
 
 @app.command('backup-db', help='Create backup of current SQLite database file.')
@@ -163,7 +163,7 @@ def init(
 	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False,
 	blind: Annotated[Optional[bool], Option('--blind', '-b')] = False
 ):
-	lokaord.build_db(rebuild)
+	lokaord.build_db(rebuild=rebuild)
 	lokaord.write_files()
 	if blind is False:
 		lokaord.build_sight()
@@ -173,10 +173,18 @@ def init(
 
 @app.command(help='Update lokaord (same as: "build-db -ch write-files -tr build-sight md-stats").')
 def update(
+	since_commit: Annotated[
+		Optional[str],
+		Option(
+			'--since-commit',
+			'-sc',
+			help='Run import on files added or changed since provided commit hash.'
+		)
+	] = None,
 	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False,
 	blind: Annotated[Optional[bool], Option('--blind', '-b')] = False
 ):
-	lokaord.build_db(changes_only=True)
+	lokaord.build_db(changes_only=True, since_commit=since_commit)
 	lokaord.write_files(lokaord.Ts)
 	if blind is False:
 		lokaord.build_sight()
@@ -207,6 +215,11 @@ def ord_dep(kennistrengur: str):
 @app.command(help='Delete orð by kennistrengur.')
 def del_ord(kennistrengur: str):
 	lokaord.delete_ord(kennistrengur)
+
+
+@app.command(help='Delete skammstöfun by kennistrengur.')
+def del_skammst(kennistrengur: str):
+	lokaord.delete_skammstofun(kennistrengur)
 
 
 @app.command(help='Run fiddle.')
