@@ -1,0 +1,99 @@
+{
+	"orð": "regla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "regl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-regla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "regla",
+		"sagnbót": "reglað",
+		"boðháttur": {
+			"stýfður": "regla",
+			"et": "reglaðu",
+			"ft": "reglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["regla", "reglar", "reglar"],
+					"ft": ["reglum", "reglið", "regla"]
+				},
+				"þátíð": {
+					"et": ["reglaði", "reglaðir", "reglaði"],
+					"ft": ["regluðum", "regluðuð", "regluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["regli", "reglir", "regli"],
+					"ft": ["reglum", "reglið", "regli"]
+				},
+				"þátíð": {
+					"et": ["reglaði", "reglaðir", "reglaði"],
+					"ft": ["regluðum", "regluðuð", "regluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reglarðu",
+					"ft": "regliði"
+				},
+				"þátíð": {
+					"et": "reglaðirðu",
+					"ft": "regluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reglirðu",
+					"ft": "regliði"
+				},
+				"þátíð": {
+					"et": "reglaðirðu",
+					"ft": "regluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["reglaður", "reglaðan", "regluðum", "reglaðs"],
+					"kvk": ["regluð", "reglaða", "reglaðri", "reglaðrar"],
+					"hk": ["reglað", "reglað", "regluðu", "reglaðs"]
+				},
+				"ft": {
+					"kk": ["reglaðir", "reglaða", "regluðum", "reglaðra"],
+					"kvk": ["reglaðar", "reglaðar", "regluðum", "reglaðra"],
+					"hk": ["regluð", "regluð", "regluðum", "reglaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["reglaði", "reglaða", "reglaða", "reglaða"],
+					"kvk": ["reglaða", "regluðu", "regluðu", "regluðu"],
+					"hk": ["reglaða", "reglaða", "reglaða", "reglaða"]
+				},
+				"ft": {
+					"kk": ["regluðu", "regluðu", "regluðu", "regluðu"],
+					"kvk": ["regluðu", "regluðu", "regluðu", "regluðu"],
+					"hk": ["regluðu", "regluðu", "regluðu", "regluðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-regla",
+	"hash": "208a7fc12e7e752acd9b3ead976477c9072b1e0135c4b6b530037b3bd181e658"
+}

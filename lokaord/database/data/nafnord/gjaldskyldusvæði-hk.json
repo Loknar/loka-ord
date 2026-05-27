@@ -4,14 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "gjald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gjald-hk"
-		},
-		{
-			"mynd": "skyldu",
+			"mynd": "gjaldskyldu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skylda-kvk"
+			"kennistrengur": "no-gjaldskylda-kvk"
 		},
 		{
 			"kennistrengur": "no-svæði-hk"
@@ -26,5 +21,5 @@
 		"mg": ["gjaldskyldusvæðin", "gjaldskyldusvæðin", "gjaldskyldusvæðunum", "gjaldskyldusvæðanna"]
 	},
 	"kennistrengur": "no-gjaldskyldusvæði-hk",
-	"hash": "f07a3190a3c5c89f7b412c721fa36fd6a6f8f9c4cac96a2d5409cf3fd2077bba"
+	"hash": "e1757753186b2cc2e822f2ef006207c129b5acbb7569b71efe8203ecdcc0d43d"
 }

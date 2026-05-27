@@ -1,0 +1,22 @@
+{
+	"orð": "íbúðakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "íbúða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúð-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["íbúðakaup", "íbúðakaup", "íbúðakaupum", "íbúðakaupa"],
+		"mg": ["íbúðakaupin", "íbúðakaupin", "íbúðakaupunum", "íbúðakaupanna"]
+	},
+	"kennistrengur": "no-íbúðakaup-hk",
+	"hash": "a76e1701eb67e5f3006fac3cefce81633fad7f81176cf601b65a3ad4b78d9736"
+}
