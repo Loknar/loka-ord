@@ -1,3 +1,5 @@
+![lokaord logo](assets/lokaord-logo-gem-filled-centered.png)
+
 # Loka-Orð
 
 Frjálst gagnasafn yfir íslensk orð, beygingamyndir og samsetningu þeirra og fleira, undir frjálsu almenningseignarleyfi (e. public domain licence).
@@ -6,13 +8,13 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1979 | 1802 | 1824 | 5605 | 17063 | 22747 | 23128 | 62938 | **68543** |
-| **Lýsingarorð** | 553 |   |   |   | 789 |   |   |   | 6417 | **7206** |
-| **Sagnorð**     |   |   |   |   | 1406 |   |   |   | 2198 | **3604** |
+| **Nafnorð**     |   | 1979 | 1802 | 1825 | 5606 | 17066 | 22754 | 23138 | 62958 | **68564** |
+| **Lýsingarorð** | 553 |   |   |   | 789 |   |   |   | 6418 | **7207** |
+| **Sagnorð**     |   |   |   |   | 1406 |   |   |   | 2199 | **3605** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
 | **Smáorð**      |   |   |   |   | 352 |   |   |   | 655 | **1007** |
-| **Alls** |   |   |   |   | **8216** |   |   |   | **72332** | **80548** |
+| **Alls** |   |   |   |   | **8217** |   |   |   | **72354** | **80571** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -20,12 +22,12 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 | Kenninöfn |  |  |  |  | 4859 | 4857 | 4835 | 14551 | **14551** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **1736** |
 | Gælunöfn  | 665 | 292 | 8 | 965 | 178 | 169 | 9 | 356 | **1321** |
-| Örnefni   | 37 | 178 | 770 | 985 | 2924 | 2194 | 2274 | 7392 | **8377** |
-| **Alls**  |   |   |   | **6147** |   |   |   | **24782** | **30929** |
+| Örnefni   | 37 | 178 | 773 | 988 | 2924 | 2194 | 2274 | 7392 | **8380** |
+| **Alls**  |   |   |   | **6150** |   |   |   | **24782** | **30932** |
 
-**Samtals:** 111477 orð.
+**Samtals:** 111503 orð.
 
-1059 skammstafanir.
+1060 skammstafanir.
 
 ## Forkröfur (Requirements)
 
