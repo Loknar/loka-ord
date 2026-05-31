@@ -1,0 +1,87 @@
+{
+	"orð": "röfla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "röfl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-röfl-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "röfla",
+		"sagnbót": "röflað",
+		"boðháttur": {
+			"stýfður": "röfla",
+			"et": "röflaðu",
+			"ft": "röflið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["röfla", "röflar", "röflar"],
+					"ft": ["röflum", "röflið", "röfla"]
+				},
+				"þátíð": {
+					"et": ["röflaði", "röflaðir", "röflaði"],
+					"ft": ["röfluðum", "röfluðuð", "röfluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["röfli", "röflir", "röfli"],
+					"ft": ["röflum", "röflið", "röfli"]
+				},
+				"þátíð": {
+					"et": ["röflaði", "röflaðir", "röflaði"],
+					"ft": ["röfluðum", "röfluðuð", "röfluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "röflarðu",
+					"ft": "röfliði"
+				},
+				"þátíð": {
+					"et": "röflaðirðu",
+					"ft": "röfluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "röflirðu",
+					"ft": "röfliði"
+				},
+				"þátíð": {
+					"et": "röflaðirðu",
+					"ft": "röfluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "röflandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["röflaður", "röflaðan", "röfluðum", "röflaðs"],
+					"kvk": ["röfluð", "röflaða", "röflaðri", "röflaðrar"],
+					"hk": ["röflað", "röflað", "röfluðu", "röflaðs"]
+				},
+				"ft": {
+					"kk": ["röflaðir", "röflaða", "röfluðum", "röflaðra"],
+					"kvk": ["röflaðar", "röflaðar", "röfluðum", "röflaðra"],
+					"hk": ["röfluð", "röfluð", "röfluðum", "röflaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-röfla",
+	"hash": "c9eb5329707889c5bb5affda60ddd8741bb46f52bfaf219dd66c67d79d0dc5eb"
+}

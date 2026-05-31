@@ -1,0 +1,135 @@
+{
+	"orð": "spandéra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spandér",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-spanda-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spandéra",
+		"sagnbót": "spandérað",
+		"boðháttur": {
+			"stýfður": "spandéra",
+			"et": "spandéraðu",
+			"ft": "spandérið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spandéra", "spandérar", "spandérar"],
+					"ft": ["spandérum", "spandérið", "spandéra"]
+				},
+				"þátíð": {
+					"et": ["spandéraði", "spandéraðir", "spandéraði"],
+					"ft": ["spandéruðum", "spandéruðuð", "spandéruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spandéri", "spandérir", "spandéri"],
+					"ft": ["spandérum", "spandérið", "spandéri"]
+				},
+				"þátíð": {
+					"et": ["spandéraði", "spandéraðir", "spandéraði"],
+					"ft": ["spandéruðum", "spandéruðuð", "spandéruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spandérarðu",
+					"ft": "spandériði"
+				},
+				"þátíð": {
+					"et": "spandéraðirðu",
+					"ft": "spandéruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spandérirðu",
+					"ft": "spandériði"
+				},
+				"þátíð": {
+					"et": "spandéraðirðu",
+					"ft": "spandéruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spandérast",
+		"sagnbót": "spandérast",
+		"boðháttur": {
+			"et": "spandérastu",
+			"ft": "spandérist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spandérast", "spandérast", "spandérast"],
+					"ft": ["spandérumst", "spandérist", "spandérast"]
+				},
+				"þátíð": {
+					"et": ["spandéraðist", "spandéraðist", "spandéraðist"],
+					"ft": ["spandéruðumst", "spandéruðust", "spandéruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spandérist", "spandérist", "spandérist"],
+					"ft": ["spandérumst", "spandérist", "spandérist"]
+				},
+				"þátíð": {
+					"et": ["spandéraðist", "spandéraðist", "spandéraðist"],
+					"ft": ["spandéruðumst", "spandéruðust", "spandéruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spandérastu"
+				},
+				"þátíð": {
+					"et": "spandéraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spandéristu"
+				},
+				"þátíð": {
+					"et": "spandéraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spandérandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spandéraður", "spandéraðan", "spandéruðum", "spandéraðs"],
+					"kvk": ["spandéruð", "spandéraða", "spandéraðri", "spandéraðrar"],
+					"hk": ["spandérað", "spandérað", "spandéruðu", "spandéraðs"]
+				},
+				"ft": {
+					"kk": ["spandéraðir", "spandéraða", "spandéruðum", "spandéraðra"],
+					"kvk": ["spandéraðar", "spandéraðar", "spandéruðum", "spandéraðra"],
+					"hk": ["spandéruð", "spandéruð", "spandéruðum", "spandéraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spandéra",
+	"hash": "7e0574b2df901bd598d6306aa856e41eb23a4b68dd16b47c2a0e3b0208c74020"
+}

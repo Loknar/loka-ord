@@ -1,0 +1,142 @@
+{
+	"orð": "brautskrá",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "braut",
+			"samsetning": "stofn",
+			"kennistrengur": "no-braut-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-þátíðar"],
+			"kennistrengur": "so-skrá"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "brautskrá",
+		"sagnbót": "brautskráð",
+		"boðháttur": {
+			"stýfður": "brautskrá",
+			"et": "brautskráðu",
+			"ft": "brautskráið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brautskrái", "brautskráirð", "brautskráir"],
+					"ft": ["brautskráum", "brautskráið", "brautskrá"]
+				},
+				"þátíð": {
+					"et": ["brautskráði", "brautskráðir", "brautskráði"],
+					"ft": ["brautskráðum", "brautskráðuð", "brautskráðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brautskrái", "brautskráir", "brautskrái"],
+					"ft": ["brautskráum", "brautskráið", "brautskrái"]
+				},
+				"þátíð": {
+					"et": ["brautskráði", "brautskráðir", "brautskráði"],
+					"ft": ["brautskráðum", "brautskráðuð", "brautskráðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brautskráirðu",
+					"ft": "brautskráiði"
+				},
+				"þátíð": {
+					"et": "brautskráðirðu",
+					"ft": "brautskráðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brautskráirðu",
+					"ft": "brautskráiði"
+				},
+				"þátíð": {
+					"et": "brautskráðirðu",
+					"ft": "brautskráðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "brautskrást",
+		"sagnbót": "brautskráðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["brautskráist", "brautskráist", "brautskráist"],
+					"ft": ["brautskráumst", "brautskráist", "brautskrást"]
+				},
+				"þátíð": {
+					"et": ["brautskráðist", "brautskráðist", "brautskráðist"],
+					"ft": ["brautskráðumst", "brautskráðust", "brautskráðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["brautskráist", "brautskráist", "brautskráist"],
+					"ft": ["brautskráumst", "brautskráist", "brautskráist"]
+				},
+				"þátíð": {
+					"et": ["brautskráðist", "brautskráðist", "brautskráðist"],
+					"ft": ["brautskráðumst", "brautskráðust", "brautskráðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "brautskráistu"
+				},
+				"þátíð": {
+					"et": "brautskráðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "brautskráistu"
+				},
+				"þátíð": {
+					"et": "brautskráðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["brautskráður", "brautskráðan", "brautskráðum", "brautskráðs"],
+					"kvk": ["brautskráð", "brautskráða", "brautskráðri", "brautskráðrar"],
+					"hk": ["brautskráð", "brautskráð", "brautskráðu", "brautskráðs"]
+				},
+				"ft": {
+					"kk": ["brautskráðir", "brautskráða", "brautskráðum", "brautskráðra"],
+					"kvk": ["brautskráðar", "brautskráðar", "brautskráðum", "brautskráðra"],
+					"hk": ["brautskráð", "brautskráð", "brautskráðum", "brautskráðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["brautskráði", "brautskráða", "brautskráða", "brautskráða"],
+					"kvk": ["brautskráða", "brautskráðu", "brautskráðu", "brautskráðu"],
+					"hk": ["brautskráða", "brautskráða", "brautskráða", "brautskráða"]
+				},
+				"ft": {
+					"kk": ["brautskráðu", "brautskráðu", "brautskráðu", "brautskráðu"],
+					"kvk": ["brautskráðu", "brautskráðu", "brautskráðu", "brautskráðu"],
+					"hk": ["brautskráðu", "brautskráðu", "brautskráðu", "brautskráðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-brautskrá",
+	"hash": "d1a560d38ebf241e974cb78a4906bf74e4e892acf73b96d12dee415e55e0fc77"
+}

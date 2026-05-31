@@ -1,0 +1,43 @@
+{
+	"orð": "konungborinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "konung",
+			"samsetning": "stofn",
+			"kennistrengur": "no-konungur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-borinn"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["konungborinn", "konungborinn", "konungbornum", "konungborins"],
+				"kvk": ["konungborin", "konungborna", "konungborinni", "konungborinnar"],
+				"hk": ["konungborið", "konungborið", "konungbornu", "konungborins"]
+			},
+			"ft": {
+				"kk": ["konungbornir", "konungborna", "konungbornum", "konungborinna"],
+				"kvk": ["konungbornar", "konungbornar", "konungbornum", "konungborinna"],
+				"hk": ["konungborin", "konungborin", "konungbornum", "konungborinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["konungborni", "konungborna", "konungborna", "konungborna"],
+				"kvk": ["konungborna", "konungbornu", "konungbornu", "konungbornu"],
+				"hk": ["konungborna", "konungborna", "konungborna", "konungborna"]
+			},
+			"ft": {
+				"kk": ["konungbornu", "konungbornu", "konungbornu", "konungbornu"],
+				"kvk": ["konungbornu", "konungbornu", "konungbornu", "konungbornu"],
+				"hk": ["konungbornu", "konungbornu", "konungbornu", "konungbornu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-konungborinn",
+	"hash": "2198e91b04fae7d929cf3ae452ca816ff57fa878c607c173daea69661d6d1b78"
+}
