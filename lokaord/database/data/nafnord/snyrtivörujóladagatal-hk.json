@@ -4,27 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "snyrti",
-			"samsetning": "bandstafs",
-			"kennistrengur": "so-snyrta"
-		},
-		{
-			"mynd": "vöru",
+			"mynd": "snyrtivöru",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vara-kvk"
+			"kennistrengur": "no-snyrtivara-kvk"
 		},
 		{
-			"mynd": "jóla",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-jól-hk"
-		},
-		{
-			"mynd": "daga",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dagur-kk"
-		},
-		{
-			"kennistrengur": "no-tal-hk"
+			"kennistrengur": "no-jóladagatal-hk"
 		}
 	],
 	"et": {
@@ -36,5 +21,5 @@
 		"mg": ["snyrtivörujóladagatölin", "snyrtivörujóladagatölin", "snyrtivörujóladagatölunum", "snyrtivörujóladagatalanna"]
 	},
 	"kennistrengur": "no-snyrtivörujóladagatal-hk",
-	"hash": "c902852eb67f14a5fa5cb5e5d47b2b47b4336af0bf6ef96b433ca2c546507748"
+	"hash": "745bd7385379ae66bfffd8846f26ac56cbc8547a2fc3baa72ba4c8e116c2558f"
 }
