@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "tíðar",
+			"mynd": "framtíðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tíð-kvk"
+			"kennistrengur": "no-framtíð-kvk"
 		},
 		{
-			"mynd": "val",
-			"samsetning": "stofn",
-			"kennistrengur": "no-val-hk"
-		},
-		{
-			"kennistrengur": "no-kostur-kk"
+			"kennistrengur": "no-valkostur-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["framtíðarvalkostirnir", "framtíðarvalkostina", "framtíðarvalkostunum", "framtíðarvalkostanna"]
 	},
 	"kennistrengur": "no-framtíðarvalkostur-kk",
-	"hash": "026815399264ef4520d3f976451e43eacb7d22c2b55a2926be41614dabaf296a"
+	"hash": "9137ee1998f1020a56252dac49051586f3055b260b72a277e01cc8caefe072e0"
 }
