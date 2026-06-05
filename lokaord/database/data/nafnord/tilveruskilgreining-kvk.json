@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "til",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-til"
-		},
-		{
-			"mynd": "veru",
+			"mynd": "tilveru",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vera-kvk"
+			"kennistrengur": "no-tilvera-kvk"
 		},
 		{
-			"mynd": "skil",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skil-hk"
-		},
-		{
-			"kennistrengur": "no-greining-kvk"
+			"kennistrengur": "no-skilgreining-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["tilveruskilgreiningarnar", "tilveruskilgreiningarnar", "tilveruskilgreiningunum", "tilveruskilgreininganna"]
 	},
 	"kennistrengur": "no-tilveruskilgreining-kvk",
-	"hash": "eeeeab98334dd05d27d20530fa802e8e1eee5ff00091dfd4589a360e8632efbe"
+	"hash": "3704619f624e329c13ac7d09375b1ec4f6fef38d38c82dd984ef929c0d003859"
 }

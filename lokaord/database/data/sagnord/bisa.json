@@ -1,0 +1,121 @@
+{
+	"orð": "bisa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bis",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bis-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bisa",
+		"sagnbót": "bisað",
+		"boðháttur": {
+			"stýfður": "bisa",
+			"et": "bisaðu",
+			"ft": "bisið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bisa", "bisar", "bisar"],
+					"ft": ["bisum", "bisið", "bisa"]
+				},
+				"þátíð": {
+					"et": ["bisaði", "bisaðir", "bisaði"],
+					"ft": ["bisuðum", "bisuðuð", "bisuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bisi", "bisir", "bisi"],
+					"ft": ["bisum", "bisið", "bisi"]
+				},
+				"þátíð": {
+					"et": ["bisaði", "bisaðir", "bisaði"],
+					"ft": ["bisuðum", "bisuðuð", "bisuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bisarðu",
+					"ft": "bisiði"
+				},
+				"þátíð": {
+					"et": "bisaðirðu",
+					"ft": "bisuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bisirðu",
+					"ft": "bisiði"
+				},
+				"þátíð": {
+					"et": "bisaðirðu",
+					"ft": "bisuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bisast",
+		"sagnbót": "bisast",
+		"boðháttur": {
+			"et": "bisastu",
+			"ft": "bisist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bisast", "bisast", "bisast"],
+					"ft": ["bisumst", "bisist", "bisast"]
+				},
+				"þátíð": {
+					"et": ["bisaðist", "bisaðist", "bisaðist"],
+					"ft": ["bisuðumst", "bisuðust", "bisuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bisist", "bisist", "bisist"],
+					"ft": ["bisumst", "bisist", "bisist"]
+				},
+				"þátíð": {
+					"et": ["bisaðist", "bisaðist", "bisaðist"],
+					"ft": ["bisuðumst", "bisuðust", "bisuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bisastu"
+				},
+				"þátíð": {
+					"et": "bisaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bisistu"
+				},
+				"þátíð": {
+					"et": "bisaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bisandi"
+	},
+	"kennistrengur": "so-bisa",
+	"hash": "e64fc99695e6789a194879aa67cc75e87d94cbce57c01fe4fa26c24ca40adc9f"
+}

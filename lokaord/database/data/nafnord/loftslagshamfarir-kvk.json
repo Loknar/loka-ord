@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lofts",
+			"mynd": "loftslags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-loft-hk"
-		},
-		{
-			"mynd": "lags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
-		},
-		{
-			"mynd": "ham",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hamur-kk"
+			"kennistrengur": "no-loftslag-hk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-för-kvk"
+			"kennistrengur": "no-hamför-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["loftslagshamfarirnar", "loftslagshamfarirnar", "loftslagshamförunum", "loftslagshamfaranna"]
 	},
 	"kennistrengur": "no-loftslagshamfarir-kvk",
-	"hash": "012b6175f13ba4fa373808fe1254d3cda6187a30bf1a91340bb6e20477a79d20"
+	"hash": "9df12016636d6bf2d0002e03798f82521e2e6f2585bdc1100ce25a1f06b5d724"
 }

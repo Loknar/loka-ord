@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "inn",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-inn"
-		},
-		{
-			"mynd": "leiðingar",
+			"mynd": "innleiðingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leiðing-kvk"
+			"kennistrengur": "no-innleiðing-kvk"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"kennistrengur": "no-bil-hk"
+			"kennistrengur": "no-tímabil-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["innleiðingartímabilin", "innleiðingartímabilin", "innleiðingartímabilunum", "innleiðingartímabilanna"]
 	},
 	"kennistrengur": "no-innleiðingartímabil-hk",
-	"hash": "b4b4f36d2efc67d9f3dcb967c6d8a2cf4e5819998dc91435cd4f0eda01821329"
+	"hash": "8034883ed73484d1bdac0b2c9eab8cb9dc667ee2af8aaf3cecb1758edda319e1"
 }
