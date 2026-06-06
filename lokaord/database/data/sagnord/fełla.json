@@ -54,6 +54,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "fełlast",
+		"sagnbót": "fellst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fełlist", "fełlist", "fełlist"],
+					"ft": ["fełlumst", "fełlist", "fełlast"]
+				},
+				"þátíð": {
+					"et": ["felldist", "felldist", "felldist"],
+					"ft": ["felldumst", "felldust", "felldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fełlist", "fełlist", "fełlist"],
+					"ft": ["fełlumst", "fełlist", "fełlast"]
+				},
+				"þátíð": {
+					"et": ["felldist", "felldist", "felldist"],
+					"ft": ["felldumst", "felldust", "felldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fełlistu"
+				},
+				"þátíð": {
+					"et": "felldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fełlistu"
+				},
+				"þátíð": {
+					"et": "felldistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "fełlandi",
 		"þátíðar": {
@@ -84,5 +128,5 @@
 		}
 	},
 	"kennistrengur": "so-fełla",
-	"hash": "31a970ad40637b508d7596cca67cf884ec44d162de5d065d1327bc7acfb4ee36"
+	"hash": "8e6b2162b8efdcba34836ef2957d8f845d092da43d4fe175bff4a82f6ae38dc6"
 }

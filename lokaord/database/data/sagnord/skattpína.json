@@ -1,0 +1,99 @@
+{
+	"orð": "skattpína",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skatt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-pína"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skattpína",
+		"sagnbót": "skattpínt",
+		"boðháttur": {
+			"stýfður": "skattpín",
+			"et": "skattpíndu",
+			"ft": "skattpínið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skattpíni", "skattpínir", "skattpínir"],
+					"ft": ["skattpínum", "skattpínið", "skattpína"]
+				},
+				"þátíð": {
+					"et": ["skattpíndi", "skattpíndir", "skattpíndi"],
+					"ft": ["skattpíndum", "skattpínduð", "skattpíndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skattpíni", "skattpínir", "skattpíni"],
+					"ft": ["skattpínum", "skattpínið", "skattpíni"]
+				},
+				"þátíð": {
+					"et": ["skattpíndi", "skattpíndir", "skattpíndi"],
+					"ft": ["skattpíndum", "skattpínduð", "skattpíndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skattpínirðu",
+					"ft": "skattpíniði"
+				},
+				"þátíð": {
+					"et": "skattpíndirðu",
+					"ft": "skattpínduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skattpínirðu",
+					"ft": "skattpíniði"
+				},
+				"þátíð": {
+					"et": "skattpíndirðu",
+					"ft": "skattpínduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skattpínandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skattpíndur", "skattpíndan", "skattpíndum", "skattpínds"],
+					"kvk": ["skattpínd", "skattpínda", "skattpíndri", "skattpíndrar"],
+					"hk": ["skattpínt", "skattpínt", "skattpíndu", "skattpínds"]
+				},
+				"ft": {
+					"kk": ["skattpíndir", "skattpínda", "skattpíndum", "skattpíndra"],
+					"kvk": ["skattpíndar", "skattpíndar", "skattpíndum", "skattpíndra"],
+					"hk": ["skattpínd", "skattpínd", "skattpíndum", "skattpíndra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skattpíndi", "skattpínda", "skattpínda", "skattpínda"],
+					"kvk": ["skattpínda", "skattpíndu", "skattpíndu", "skattpíndu"],
+					"hk": ["skattpínda", "skattpínda", "skattpínda", "skattpínda"]
+				},
+				"ft": {
+					"kk": ["skattpíndu", "skattpíndu", "skattpíndu", "skattpíndu"],
+					"kvk": ["skattpíndu", "skattpíndu", "skattpíndu", "skattpíndu"],
+					"hk": ["skattpíndu", "skattpíndu", "skattpíndu", "skattpíndu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skattpína",
+	"hash": "049123e345b64253d903d96cce4e0118d100ebbc54f9ef5da2adb2d054f6e084"
+}

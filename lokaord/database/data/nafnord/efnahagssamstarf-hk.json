@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "efna",
+			"mynd": "efnahags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-efnahagur-kk"
 		},
 		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-starf-hk"
+			"kennistrengur": "no-samstarf-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["efnahagssamstarfið", "efnahagssamstarfið", "efnahagssamstarfinu", "efnahagssamstarfsins"]
 	},
 	"kennistrengur": "no-efnahagssamstarf-hk",
-	"hash": "54bc77fb91dd4e9544e885eb8c951929511847839a2f803646e840795bd4729d"
+	"hash": "daeea39754efbe77c1e0c1fd645477f75f09973353efb88ce75cf6d0145dfe52"
 }

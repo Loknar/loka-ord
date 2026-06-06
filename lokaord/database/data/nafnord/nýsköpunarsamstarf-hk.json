@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "ný",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-nýr"
-		},
-		{
-			"mynd": "sköpunar",
+			"mynd": "nýsköpunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sköpun-kvk"
+			"kennistrengur": "no-nýsköpun-kvk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-starf-hk"
+			"kennistrengur": "no-samstarf-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["nýsköpunarsamstarfið", "nýsköpunarsamstarfið", "nýsköpunarsamstarfinu", "nýsköpunarsamstarfsins"]
 	},
 	"kennistrengur": "no-nýsköpunarsamstarf-hk",
-	"hash": "f398dafc73db39a52d81fc1f15af47d03917249323f344f572d87924eb434ac1"
+	"hash": "3f14ba45efe70ecc824e27b851d80f7dbdf6b03aacdf4388392961522c2bf9f1"
 }

@@ -1,0 +1,95 @@
+{
+	"orð": "trefja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "trefj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-trefjar-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "trefja",
+		"sagnbót": "trefjað",
+		"boðháttur": {
+			"stýfður": "trefja",
+			"et": "trefjaðu",
+			"ft": "trefjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trefja", "trefjar", "trefjar"],
+					"ft": ["trefjum", "trefjið", "trefja"]
+				},
+				"þátíð": {
+					"et": ["trefjaði", "trefjaðir", "trefjaði"],
+					"ft": ["trefjuðum", "trefjuðuð", "trefjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trefji", "trefjir", "trefji"],
+					"ft": ["trefjum", "trefjið", "trefji"]
+				},
+				"þátíð": {
+					"et": ["trefjaði", "trefjaðir", "trefjaði"],
+					"ft": ["trefjuðum", "trefjuðuð", "trefjuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "trefjast",
+		"sagnbót": "trefjast",
+		"boðháttur": {
+			"et": "trefjastu",
+			"ft": "trefjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trefjast", "trefjast", "trefjast"],
+					"ft": ["trefjumst", "trefjist", "trefjast"]
+				},
+				"þátíð": {
+					"et": ["trefjaðist", "trefjaðist", "trefjaðist"],
+					"ft": ["trefjuðumst", "trefjuðust", "trefjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trefjist", "trefjist", "trefjist"],
+					"ft": ["trefjumst", "trefjist", "trefjist"]
+				},
+				"þátíð": {
+					"et": ["trefjaðist", "trefjaðist", "trefjaðist"],
+					"ft": ["trefjuðumst", "trefjuðust", "trefjuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "trefjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["trefjaður", "trefjaðan", "trefjuðum", "trefjaðs"],
+					"kvk": ["trefjuð", "trefjaða", "trefjaðri", "trefjaðrar"],
+					"hk": ["trefjað", "trefjað", "trefjuðu", "trefjaðs"]
+				},
+				"ft": {
+					"kk": ["trefjaðir", "trefjaða", "trefjuðum", "trefjaðra"],
+					"kvk": ["trefjaðar", "trefjaðar", "trefjuðum", "trefjaðra"],
+					"hk": ["trefjuð", "trefjuð", "trefjuðum", "trefjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-trefja",
+	"hash": "9ed82232c00cf639a4a8add00e2ef76433752193f664ccf1c069b1741d403404"
+}

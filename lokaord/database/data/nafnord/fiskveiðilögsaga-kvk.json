@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fisk",
+			"mynd": "fiskveiði",
 			"samsetning": "stofn",
-			"kennistrengur": "no-fiskur-kk"
+			"kennistrengur": "no-fiskveiði-kvk"
 		},
 		{
-			"mynd": "veiði",
-			"samsetning": "stofn",
-			"kennistrengur": "no-veiði-kvk"
-		},
-		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-saga-kvk"
+			"kennistrengur": "no-lögsaga-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["fiskveiðilögsagan", "fiskveiðilögsöguna", "fiskveiðilögsögunni", "fiskveiðilögsögunnar"]
 	},
 	"kennistrengur": "no-fiskveiðilögsaga-kvk",
-	"hash": "1cd13ecc7c67043051634e73ed9827d2e2c2824782f1912f2c2cf6ed6ac0ed86"
+	"hash": "18d1e644420a24540e6f48163d9ce43a2c4658e31912227ba8155f11766def00"
 }
