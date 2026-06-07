@@ -5,23 +5,19 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "Sand",
-			"samsetning": "stofn",
-			"kennistrengur": "no-sandur-kk"
-		},
-		{
-			"mynd": "hóla",
+			"mynd": "Sandhóla",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hółl-kk"
+			"kennistrengur": "sérn.ön-Sandhólar-kk"
 		},
 		{
-			"beygingar": ["et-ág"],
+			"beygingar": ["et"],
 			"kennistrengur": "no-ferja-kvk"
 		}
 	],
 	"et": {
-		"ág": ["Sandhólaferja", "Sandhólaferju", "Sandhólaferju", "Sandhólaferju"]
+		"ág": ["Sandhólaferja", "Sandhólaferju", "Sandhólaferju", "Sandhólaferju"],
+		"mg": ["Sandhólaferjan", "Sandhólaferjuna", "Sandhólaferjunni", "Sandhólaferjunnar"]
 	},
 	"kennistrengur": "sérn.ön-Sandhólaferja-kvk",
-	"hash": "679011e817ec4bb5c6aff53f29729f62266bc12a6f4c701c22313b6544826fed"
+	"hash": "8cc60b8f11c90e9a5d97906a33637bfb9eff9ae1babc52b3e36151b251806e7e"
 }

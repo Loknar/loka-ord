@@ -1,0 +1,73 @@
+{
+	"orð": "bytna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bytn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bytna-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bytna",
+		"sagnbót": "bytnað",
+		"boðháttur": {
+			"stýfður": "bytna",
+			"et": "bytnaðu",
+			"ft": "bytnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bytna", "bytnar", "bytnar"],
+					"ft": ["bytnum", "bytnið", "bytna"]
+				},
+				"þátíð": {
+					"et": ["bytnaði", "bytnaðir", "bytnaði"],
+					"ft": ["bytnuðum", "bytnuðuð", "bytnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bytni", "bytnir", "bytni"],
+					"ft": ["bytnum", "bytnið", "bytni"]
+				},
+				"þátíð": {
+					"et": ["bytnaði", "bytnaðir", "bytnaði"],
+					"ft": ["bytnuðum", "bytnuðuð", "bytnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bytnarðu",
+					"ft": "bytniði"
+				},
+				"þátíð": {
+					"et": "bytnaðirðu",
+					"ft": "bytnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bytnirðu",
+					"ft": "bytniði"
+				},
+				"þátíð": {
+					"et": "bytnaðirðu",
+					"ft": "bytnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bytnandi"
+	},
+	"kennistrengur": "so-bytna",
+	"hash": "0c81e2c6af9a829c1c1f37311aeab50c1d4d36d8f8143b2af4a011d8f25da13b"
+}

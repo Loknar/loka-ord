@@ -1,0 +1,87 @@
+{
+	"orð": "útbjóða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-bjóða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "útbjóða",
+		"sagnbót": "útboðið",
+		"boðháttur": {
+			"stýfður": "útbjóð",
+			"et": "útbjóddu",
+			"ft": "útbjóðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["útbýð", "útbýður", "útbýður"],
+					"ft": ["útbjóðum", "útbjóðið", "útbjóða"]
+				},
+				"þátíð": {
+					"et": ["útbauð", "útbauðst", "útbauð"],
+					"ft": ["útbuðum", "útbuðuð", "útbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["útbjóði", "útbjóðir", "útbjóði"],
+					"ft": ["útbjóðum", "útbjóðið", "útbjóði"]
+				},
+				"þátíð": {
+					"et": ["útbyði", "útbyðir", "útbyði"],
+					"ft": ["útbyðum", "útbyðuð", "útbyðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "útbýðurðu",
+					"ft": "útbjóðiði"
+				},
+				"þátíð": {
+					"et": "útbauðstu",
+					"ft": "útbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "útbjóðirðu",
+					"ft": "útbjóðiði"
+				},
+				"þátíð": {
+					"et": "útbyðirðu",
+					"ft": "útbyðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "útbjóðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["útboðinn", "útboðinn", "útboðnum", "útboðins"],
+					"kvk": ["útboðin", "útboðna", "útboðinni", "útboðinnar"],
+					"hk": ["útboðið", "útboðið", "útboðnu", "útboðins"]
+				},
+				"ft": {
+					"kk": ["útboðnir", "útboðna", "útboðnum", "útboðinna"],
+					"kvk": ["útboðnar", "útboðnar", "útboðnum", "útboðinna"],
+					"hk": ["útboðin", "útboðin", "útboðnum", "útboðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-útbjóða",
+	"hash": "3efdf25e7d6b28cc644ea462e3896065207c5cff7f5780a310214549bfedc7ba"
+}
