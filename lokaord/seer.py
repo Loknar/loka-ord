@@ -982,11 +982,12 @@ def clean_string(mystr: str) -> str:
 		('\u2019', "'"),  # Right Single Quotation Mark -> Apostrophe
 		# fjarlægja óæskileg tákn
 		('\xad', ''),  # stundum notað til að tilgreina skiptingu orða á vefsíðum
+		('\ufeff', ''),  # zero width no-break space
 		('\u200b', ''),  # zero width space
 		('\u202a', ''),  # LRE, left-to-right embedding, opening bracket
 		('\u202c', ''),  # PDF, pop directional formatting, closing bracket
 		# fjarlægja ákveðin bil
-		(' o. fl.,', ' o.fl.,'),
+		(' o. fl., ', ' o.fl., '),
 		(' o. fl. ', ' o.fl. '),
 		(' o. s. frv. ', ' o.s.frv. '),
 		(' hv. þm. ', ' hv.þm. '),
