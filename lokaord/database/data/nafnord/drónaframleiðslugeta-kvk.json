@@ -1,0 +1,27 @@
+{
+	"orð": "drónaframleiðslugeta",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "dróna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-dróni-kk"
+		},
+		{
+			"mynd": "framleiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-framleiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-geta-kvk"
+		}
+	],
+	"et": {
+		"ág": ["drónaframleiðslugeta", "drónaframleiðslugetu", "drónaframleiðslugetu", "drónaframleiðslugetu"],
+		"mg": ["drónaframleiðslugetan", "drónaframleiðslugetuna", "drónaframleiðslugetunni", "drónaframleiðslugetunnar"]
+	},
+	"kennistrengur": "no-drónaframleiðslugeta-kvk",
+	"hash": "d7822a396464eecfe45d6c32b071c8eecb8678ac07f8ec9367d099986f4d1e94"
+}
