@@ -1,0 +1,73 @@
+{
+	"orð": "djóka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "djók",
+			"samsetning": "stofn",
+			"kennistrengur": "no-djók-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "djóka",
+		"sagnbót": "djókað",
+		"boðháttur": {
+			"stýfður": "djóka",
+			"et": "djókaðu",
+			"ft": "djókið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["djóka", "djókar", "djókar"],
+					"ft": ["djókum", "djókið", "djóka"]
+				},
+				"þátíð": {
+					"et": ["djókaði", "djókaðir", "djókaði"],
+					"ft": ["djókuðum", "djókuðuð", "djókuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["djóki", "djókir", "djóki"],
+					"ft": ["djókum", "djókið", "djóki"]
+				},
+				"þátíð": {
+					"et": ["djókaði", "djókaðir", "djókaði"],
+					"ft": ["djókuðum", "djókuðuð", "djókuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "djókarðu",
+					"ft": "djókiði"
+				},
+				"þátíð": {
+					"et": "djókaðirðu",
+					"ft": "djókuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "djókirðu",
+					"ft": "djókiði"
+				},
+				"þátíð": {
+					"et": "djókaðirðu",
+					"ft": "djókuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "djókandi"
+	},
+	"kennistrengur": "so-djóka",
+	"hash": "dfdaa6ec69647389b1301e5fe2bbbb878a34d0c35449e1661d317212bda6e97b"
+}

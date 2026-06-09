@@ -1,0 +1,95 @@
+{
+	"orð": "hnikra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hnikr",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-hnik-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hnikra",
+		"sagnbót": "hnikrað",
+		"boðháttur": {
+			"stýfður": "hnikra",
+			"et": "hnikraðu",
+			"ft": "hnikrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnikra", "hnikrar", "hnikrar"],
+					"ft": ["hnikrum", "hnikrið", "hnikra"]
+				},
+				"þátíð": {
+					"et": ["hnikraði", "hnikraðir", "hnikraði"],
+					"ft": ["hnikruðum", "hnikruðuð", "hnikruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnikri", "hnikrir", "hnikri"],
+					"ft": ["hnikrum", "hnikrið", "hnikri"]
+				},
+				"þátíð": {
+					"et": ["hnikraði", "hnikraðir", "hnikraði"],
+					"ft": ["hnikruðum", "hnikruðuð", "hnikruðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hnikrast",
+		"sagnbót": "hnikrast",
+		"boðháttur": {
+			"et": "hnikrastu",
+			"ft": "hnikrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnikrast", "hnikrast", "hnikrast"],
+					"ft": ["hnikrumst", "hnikrist", "hnikrast"]
+				},
+				"þátíð": {
+					"et": ["hnikraðist", "hnikraðist", "hnikraðist"],
+					"ft": ["hnikruðumst", "hnikruðust", "hnikruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnikrist", "hnikrist", "hnikrist"],
+					"ft": ["hnikrumst", "hnikrist", "hnikrist"]
+				},
+				"þátíð": {
+					"et": ["hnikraðist", "hnikraðist", "hnikraðist"],
+					"ft": ["hnikruðumst", "hnikruðust", "hnikruðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hnikrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hnikraður", "hnikraðan", "hnikruðum", "hnikraðs"],
+					"kvk": ["hnikruð", "hnikraða", "hnikraðri", "hnikraðrar"],
+					"hk": ["hnikrað", "hnikrað", "hnikruðu", "hnikraðs"]
+				},
+				"ft": {
+					"kk": ["hnikraðir", "hnikraða", "hnikruðum", "hnikraðra"],
+					"kvk": ["hnikraðar", "hnikraðar", "hnikruðum", "hnikraðra"],
+					"hk": ["hnikruð", "hnikruð", "hnikruðum", "hnikraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hnikra",
+	"hash": "10c5ec6e31342e2f8efa35d17b8e4125da94f22f2dc2d5f2dd384d0880d1aa98"
+}
