@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "öfga",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-öfgar-kvk"
-		},
-		{
-			"mynd": "hægri",
+			"mynd": "öfgahægri",
 			"samsetning": "stofn",
-			"kennistrengur": "lo-hægri"
+			"kennistrengur": "no-öfgahægri-hk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-bjóðandi-kk"
+			"kennistrengur": "no-frambjóðandi-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["öfgahægriframbjóðendurnir", "öfgahægriframbjóðendurna", "öfgahægriframbjóðendunum", "öfgahægriframbjóðendanna"]
 	},
 	"kennistrengur": "no-öfgahægriframbjóðandi-kk",
-	"hash": "675e24e79f207e25feb0f21ff88f180086e835ea8bc49429ce50c893e2b7a4ee"
+	"hash": "b9337ff60b19dbfebded5fd35296e038c015c5585a8a00eb6ca17cdaefbf0a1f"
 }

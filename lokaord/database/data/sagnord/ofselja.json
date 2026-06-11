@@ -1,0 +1,87 @@
+{
+	"orð": "ofselja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-selja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofselja",
+		"sagnbót": "ofselt",
+		"boðháttur": {
+			"stýfður": "ofsel",
+			"et": "ofseldu",
+			"ft": "ofseljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofsel", "ofselur", "ofselur"],
+					"ft": ["ofseljum", "ofseljið", "ofselja"]
+				},
+				"þátíð": {
+					"et": ["ofseldi", "ofseldir", "ofseldi"],
+					"ft": ["ofseldum", "ofselduð", "ofseldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofselji", "ofseljir", "ofselji"],
+					"ft": ["ofseljum", "ofseljið", "ofselji"]
+				},
+				"þátíð": {
+					"et": ["ofseldi", "ofseldir", "ofseldi"],
+					"ft": ["ofseldum", "ofselduð", "ofseldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofselurðu",
+					"ft": "ofseljiði"
+				},
+				"þátíð": {
+					"et": "ofseldirðu",
+					"ft": "ofselduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofseljirðu",
+					"ft": "ofseljiði"
+				},
+				"þátíð": {
+					"et": "ofseldirðu",
+					"ft": "ofselduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofseljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofseldur", "ofseldan", "ofseldum", "ofselds"],
+					"kvk": ["ofseld", "ofselda", "ofseldri", "ofseldrar"],
+					"hk": ["ofselt", "ofselt", "ofseldu", "ofselds"]
+				},
+				"ft": {
+					"kk": ["ofseldir", "ofselda", "ofseldum", "ofseldra"],
+					"kvk": ["ofseldar", "ofseldar", "ofseldum", "ofseldra"],
+					"hk": ["ofseld", "ofseld", "ofseldum", "ofseldra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofselja",
+	"hash": "f7686b909cba4c3f0fc100b18d72ebd71a268591cf61ec0bdffec9cadb2c2ca6"
+}
