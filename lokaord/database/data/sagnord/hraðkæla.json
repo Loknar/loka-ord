@@ -1,0 +1,87 @@
+{
+	"orð": "hraðkæla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hrað",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hraður"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-kæla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hraðkæla",
+		"sagnbót": "hraðkælt",
+		"boðháttur": {
+			"stýfður": "hraðkæl",
+			"et": "hraðkældu",
+			"ft": "hraðkælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hraðkæli", "hraðkælir", "hraðkælir"],
+					"ft": ["hraðkælum", "hraðkælið", "hraðkæla"]
+				},
+				"þátíð": {
+					"et": ["hraðkældi", "hraðkældir", "hraðkældi"],
+					"ft": ["hraðkældum", "hraðkælduð", "hraðkældu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hraðkæli", "hraðkælir", "hraðkæli"],
+					"ft": ["hraðkælum", "hraðkælið", "hraðkæli"]
+				},
+				"þátíð": {
+					"et": ["hraðkældi", "hraðkældir", "hraðkældi"],
+					"ft": ["hraðkældum", "hraðkælduð", "hraðkældu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hraðkælirðu",
+					"ft": "hraðkæliði"
+				},
+				"þátíð": {
+					"et": "hraðkældirðu",
+					"ft": "hraðkælduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hraðkælirðu",
+					"ft": "hraðkæliði"
+				},
+				"þátíð": {
+					"et": "hraðkældirðu",
+					"ft": "hraðkælduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hraðkælandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hraðkældur", "hraðkældan", "hraðkældum", "hraðkælds"],
+					"kvk": ["hraðkæld", "hraðkælda", "hraðkældri", "hraðkældrar"],
+					"hk": ["hraðkælt", "hraðkælt", "hraðkældu", "hraðkælds"]
+				},
+				"ft": {
+					"kk": ["hraðkældir", "hraðkælda", "hraðkældum", "hraðkældra"],
+					"kvk": ["hraðkældar", "hraðkældar", "hraðkældum", "hraðkældra"],
+					"hk": ["hraðkæld", "hraðkæld", "hraðkældum", "hraðkældra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hraðkæla",
+	"hash": "fe940585f974b4e982c347c65f54d88e65b7008623dc1bf8f40d5ac0ccf978b0"
+}
