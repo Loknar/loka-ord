@@ -1,0 +1,87 @@
+{
+	"orð": "endursýna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-sýna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endursýna",
+		"sagnbót": "endursýnt",
+		"boðháttur": {
+			"stýfður": "endursýn",
+			"et": "endursýndu",
+			"ft": "endursýnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endursýni", "endursýnir", "endursýnir"],
+					"ft": ["endursýnum", "endursýnið", "endursýna"]
+				},
+				"þátíð": {
+					"et": ["endursýndi", "endursýndir", "endursýndi"],
+					"ft": ["endursýndum", "endursýnduð", "endursýndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endursýni", "endursýnir", "endursýni"],
+					"ft": ["endursýnum", "endursýnið", "endursýni"]
+				},
+				"þátíð": {
+					"et": ["endursýndi", "endursýndir", "endursýndi"],
+					"ft": ["endursýndum", "endursýnduð", "endursýndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endursýnirðu",
+					"ft": "endursýniði"
+				},
+				"þátíð": {
+					"et": "endursýndirðu",
+					"ft": "endursýnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endursýnirðu",
+					"ft": "endursýniði"
+				},
+				"þátíð": {
+					"et": "endursýndirðu",
+					"ft": "endursýnduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endursýnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endursýndur", "endursýndan", "endursýndum", "endursýnds"],
+					"kvk": ["endursýnd", "endursýnda", "endursýndri", "endursýndrar"],
+					"hk": ["endursýnt", "endursýnt", "endursýndu", "endursýnds"]
+				},
+				"ft": {
+					"kk": ["endursýndir", "endursýnda", "endursýndum", "endursýndra"],
+					"kvk": ["endursýndar", "endursýndar", "endursýndum", "endursýndra"],
+					"hk": ["endursýnd", "endursýnd", "endursýndum", "endursýndra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endursýna",
+	"hash": "4ff0df2db61737b3b69aea8091a829eeb267e0e2d8413b453acc9a5d29459de1"
+}
