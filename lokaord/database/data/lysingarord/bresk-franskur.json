@@ -1,0 +1,43 @@
+{
+	"orð": "bresk-franskur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "bresk-",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-breskur"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-franskur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["bresk-franskur", "bresk-franskan", "bresk-frönskum", "bresk-fransks"],
+				"kvk": ["bresk-frönsk", "bresk-franska", "bresk-franskri", "bresk-franskrar"],
+				"hk": ["bresk-franskt", "bresk-franskt", "bresk-frönsku", "bresk-fransks"]
+			},
+			"ft": {
+				"kk": ["bresk-franskir", "bresk-franska", "bresk-frönskum", "bresk-franskra"],
+				"kvk": ["bresk-franskar", "bresk-franskar", "bresk-frönskum", "bresk-franskra"],
+				"hk": ["bresk-frönsk", "bresk-frönsk", "bresk-frönskum", "bresk-franskra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["bresk-franski", "bresk-franska", "bresk-franska", "bresk-franska"],
+				"kvk": ["bresk-franska", "bresk-frönsku", "bresk-frönsku", "bresk-frönsku"],
+				"hk": ["bresk-franska", "bresk-franska", "bresk-franska", "bresk-franska"]
+			},
+			"ft": {
+				"kk": ["bresk-frönsku", "bresk-frönsku", "bresk-frönsku", "bresk-frönsku"],
+				"kvk": ["bresk-frönsku", "bresk-frönsku", "bresk-frönsku", "bresk-frönsku"],
+				"hk": ["bresk-frönsku", "bresk-frönsku", "bresk-frönsku", "bresk-frönsku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-bresk-franskur",
+	"hash": "c11735c847eb42e3b91403fcbf23cd20201836d5d3720fb58d778f52e6c026ae"
+}
