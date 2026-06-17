@@ -984,6 +984,8 @@ def clean_string(mystr: str) -> str:
 		('\xad', ''),  # stundum notað til að tilgreina skiptingu orða á vefsíðum
 		('\ufeff', ''),  # zero width no-break space
 		('\u200b', ''),  # zero width space
+		('\u200c', ''),
+		('\u200d', ''),
 		('\u202a', ''),  # LRE, left-to-right embedding, opening bracket
 		('\u202c', ''),  # PDF, pop directional formatting, closing bracket
 		# fjarlægja ákveðin bil
