@@ -1,0 +1,87 @@
+{
+	"orð": "sárbiðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sár",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sár-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-biðja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sárbiðja",
+		"sagnbót": "sárbeðið",
+		"boðháttur": {
+			"stýfður": "sárbið",
+			"et": "sárbiddu",
+			"ft": "sárbiðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sárbið", "sárbiður", "sárbiður"],
+					"ft": ["sárbiðjum", "sárbiðjið", "sárbiðja"]
+				},
+				"þátíð": {
+					"et": ["sárbað", "sárbaðst", "sárbað"],
+					"ft": ["sárbáðum", "sárbáðuð", "sárbáðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sárbiðji", "sárbiðjir", "sárbiðji"],
+					"ft": ["sárbiðjum", "sárbiðjið", "sárbiðji"]
+				},
+				"þátíð": {
+					"et": ["sárbæði", "sárbæðir", "sárbæði"],
+					"ft": ["sárbæðum", "sárbæðuð", "sárbæðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sárbiðurðu",
+					"ft": "sárbiðjiði"
+				},
+				"þátíð": {
+					"et": "sárbaðstu",
+					"ft": "sárbáðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sárbiðjirðu",
+					"ft": "sárbiðjiði"
+				},
+				"þátíð": {
+					"et": "sárbæðirðu",
+					"ft": "sárbæðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sárbiðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sárbeðinn", "sárbeðinn", "sárbeðnum", "sárbeðins"],
+					"kvk": ["sárbeðin", "sárbeðna", "sárbeðinni", "sárbeðinnar"],
+					"hk": ["sárbeðið", "sárbeðið", "sárbeðnu", "sárbeðins"]
+				},
+				"ft": {
+					"kk": ["sárbeðnir", "sárbeðna", "sárbeðnum", "sárbeðinna"],
+					"kvk": ["sárbeðnar", "sárbeðnar", "sárbeðnum", "sárbeðinna"],
+					"hk": ["sárbeðin", "sárbeðin", "sárbeðnum", "sárbeðinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sárbiðja",
+	"hash": "50c89a0914065ce7e10c5e781886772cbccd287e10031524fef01c05908e8092"
+}
