@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "hæfingar",
+			"mynd": "samhæfingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hæfing-kvk"
+			"kennistrengur": "no-samhæfing-kvk"
 		},
 		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
-		},
-		{
-			"kennistrengur": "no-verk-hk"
+			"kennistrengur": "no-hlutverk-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["samhæfingarhlutverkin", "samhæfingarhlutverkin", "samhæfingarhlutverkunum", "samhæfingarhlutverkanna"]
 	},
 	"kennistrengur": "no-samhæfingarhlutverk-hk",
-	"hash": "54a91c504a6c4873dfee7d347d9b12c6a6d2ca14e649d7550605c3de13e77838"
+	"hash": "e778974f0ec855f2dda0f67e7cee9ca2b6be8a14d08106bb42716b27b470e439"
 }

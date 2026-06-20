@@ -1,0 +1,135 @@
+{
+	"orð": "diffra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "diffr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-diffur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "diffra",
+		"sagnbót": "diffrað",
+		"boðháttur": {
+			"stýfður": "diffra",
+			"et": "diffraðu",
+			"ft": "diffrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["diffra", "diffrar", "diffrar"],
+					"ft": ["diffrum", "diffrið", "diffra"]
+				},
+				"þátíð": {
+					"et": ["diffraði", "diffraðir", "diffraði"],
+					"ft": ["diffruðum", "diffruðuð", "diffruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["diffri", "diffrir", "diffri"],
+					"ft": ["diffrum", "diffrið", "diffri"]
+				},
+				"þátíð": {
+					"et": ["diffraði", "diffraðir", "diffraði"],
+					"ft": ["diffruðum", "diffruðuð", "diffruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "diffrarðu",
+					"ft": "diffriði"
+				},
+				"þátíð": {
+					"et": "diffraðirðu",
+					"ft": "diffruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "diffrirðu",
+					"ft": "diffriði"
+				},
+				"þátíð": {
+					"et": "diffraðirðu",
+					"ft": "diffruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "diffrast",
+		"sagnbót": "diffrast",
+		"boðháttur": {
+			"et": "diffrastu",
+			"ft": "diffrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["diffrast", "diffrast", "diffrast"],
+					"ft": ["diffrumst", "diffrist", "diffrast"]
+				},
+				"þátíð": {
+					"et": ["diffraðist", "diffraðist", "diffraðist"],
+					"ft": ["diffruðumst", "diffruðust", "diffruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["diffrist", "diffrist", "diffrist"],
+					"ft": ["diffrumst", "diffrist", "diffrist"]
+				},
+				"þátíð": {
+					"et": ["diffraðist", "diffraðist", "diffraðist"],
+					"ft": ["diffruðumst", "diffruðust", "diffruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "diffrastu"
+				},
+				"þátíð": {
+					"et": "diffraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "diffristu"
+				},
+				"þátíð": {
+					"et": "diffraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "diffrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["diffraður", "diffraðan", "diffruðum", "diffraðs"],
+					"kvk": ["diffruð", "diffraða", "diffraðri", "diffraðrar"],
+					"hk": ["diffrað", "diffrað", "diffruðu", "diffraðs"]
+				},
+				"ft": {
+					"kk": ["diffraðir", "diffraða", "diffruðum", "diffraðra"],
+					"kvk": ["diffraðar", "diffraðar", "diffruðum", "diffraðra"],
+					"hk": ["diffruð", "diffruð", "diffruðum", "diffraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-diffra",
+	"hash": "1573bda0048b8f1bb34ffe26115c5dba4fecdd6c00beb0cd68e408535d6efe45"
+}

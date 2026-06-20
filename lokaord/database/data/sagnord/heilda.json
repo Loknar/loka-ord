@@ -1,0 +1,135 @@
+{
+	"orð": "heilda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heild",
+			"samsetning": "stofn",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heilda",
+		"sagnbót": "heildað",
+		"boðháttur": {
+			"stýfður": "heilda",
+			"et": "heildaðu",
+			"ft": "heildið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heilda", "heildar", "heildar"],
+					"ft": ["heildum", "heildið", "heilda"]
+				},
+				"þátíð": {
+					"et": ["heildaði", "heildaðir", "heildaði"],
+					"ft": ["heilduðum", "heilduðuð", "heilduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heildi", "heildir", "heildi"],
+					"ft": ["heildum", "heildið", "heildi"]
+				},
+				"þátíð": {
+					"et": ["heildaði", "heildaðir", "heildaði"],
+					"ft": ["heilduðum", "heilduðuð", "heilduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heildarðu",
+					"ft": "heildiði"
+				},
+				"þátíð": {
+					"et": "heildaðirðu",
+					"ft": "heilduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heildirðu",
+					"ft": "heildiði"
+				},
+				"þátíð": {
+					"et": "heildaðirðu",
+					"ft": "heilduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "heildast",
+		"sagnbót": "heildast",
+		"boðháttur": {
+			"et": "heildastu",
+			"ft": "heildist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heildast", "heildast", "heildast"],
+					"ft": ["heildumst", "heildist", "heildast"]
+				},
+				"þátíð": {
+					"et": ["heildaðist", "heildaðist", "heildaðist"],
+					"ft": ["heilduðumst", "heilduðust", "heilduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heildist", "heildist", "heildist"],
+					"ft": ["heildumst", "heildist", "heildist"]
+				},
+				"þátíð": {
+					"et": ["heildaðist", "heildaðist", "heildaðist"],
+					"ft": ["heilduðumst", "heilduðust", "heilduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heildastu"
+				},
+				"þátíð": {
+					"et": "heildaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heildistu"
+				},
+				"þátíð": {
+					"et": "heildaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heildandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heildaður", "heildaðan", "heilduðum", "heildaðs"],
+					"kvk": ["heilduð", "heildaða", "heildaðri", "heildaðrar"],
+					"hk": ["heildað", "heildað", "heilduðu", "heildaðs"]
+				},
+				"ft": {
+					"kk": ["heildaðir", "heildaða", "heilduðum", "heildaðra"],
+					"kvk": ["heildaðar", "heildaðar", "heilduðum", "heildaðra"],
+					"hk": ["heilduð", "heilduð", "heilduðum", "heildaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heilda",
+	"hash": "ec0d4362e998ae160abd2217665d7eeaab5ff0d117d7e058df85e7a5a3e33495"
+}
