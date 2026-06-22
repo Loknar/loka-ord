@@ -8,26 +8,26 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 1988 | 1817 | 1854 | 5659 | 17519 | 23367 | 23636 | 64522 | **70181** |
-| **Lýsingarorð** | 562 |   |   |   | 796 |   |   |   | 6543 | **7339** |
+| **Nafnorð**     |   | 1989 | 1817 | 1854 | 5660 | 17528 | 23373 | 23647 | 64548 | **70208** |
+| **Lýsingarorð** | 562 |   |   |   | 796 |   |   |   | 6545 | **7341** |
 | **Sagnorð**     |   |   |   |   | 1415 |   |   |   | 2234 | **3649** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 38 |   |   |   | 22 | **60** |
 | **Smáorð**      |   |   |   |   | 357 |   |   |   | 668 | **1025** |
-| **Alls** |   |   |   |   | **8291** |   |   |   | **74091** | **82382** |
+| **Alls** |   |   |   |   | **8292** |   |   |   | **74119** | **82411** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1344 | 1294 | 17 | 2655 | 1029 | 1284 | 10 | 2323 | **4978** |
 | Kenninöfn |  |  |  |  | 4894 | 4892 | 4870 | 14656 | **14656** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **1845** |
-| Gælunöfn  | 719 | 311 | 8 | 1038 | 178 | 171 | 9 | 358 | **1396** |
-| Örnefni   | 37 | 180 | 839 | 1056 | 3005 | 2237 | 2331 | 7573 | **8629** |
-| **Alls**  |   |   |   | **6418** |   |   |   | **25086** | **31504** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **1850** |
+| Gælunöfn  | 723 | 311 | 8 | 1042 | 178 | 171 | 9 | 358 | **1400** |
+| Örnefni   | 37 | 180 | 839 | 1056 | 3005 | 2238 | 2331 | 7574 | **8630** |
+| **Alls**  |   |   |   | **6427** |   |   |   | **25087** | **31514** |
 
-**Samtals:** 113886 orð.
+**Samtals:** 113925 orð.
 
-1091 skammstafanir.
+1093 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -92,7 +92,7 @@ python main.py use-backup
 
 Ofangreind skipun afritar SQLite afrit sem tilgreint er í `lokaord/database/db_bak_handling.json` yfir í `lokaord/database/disk/lokaord/db.sqlite`, framkvæmir eyðingu orðafærslna ef þarf útfrá stiłlingum í `db_bak_handling.json` og les svo inn orðabreytingar og viðbætur útfrá upplýsingum í git sögu frá gefnu commit hash sem tilgreint er í `db_bak_handling.json`. Þegar þetta er ritað er tilgreint afrit rétt rúmlega viku gamalt og skipunin `use-backup` tekur innan við mínútu að útbúa fułlbyggðan grunn.
 
-Viljirðu vinna með þitt eigið afrit geturðu afritað `lokaord/database/disk/lokaord/db.sqlite` af vild, eða notað skipunina `backup-db` og breytt síðan `db_bak_handling.json` svo `use-backup` noti annað afrit:
+Viljirðu vinna með þitt eigið afrit geturðu afritað `lokaord/database/disk/lokaord/db.sqlite` að vild, eða notað skipunina `backup-db` og breytt síðan `db_bak_handling.json` svo `use-backup` noti annað afrit:
 
 ```bash
 python main.py backup-db
