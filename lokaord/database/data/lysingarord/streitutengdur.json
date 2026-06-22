@@ -1,0 +1,43 @@
+{
+	"orð": "streitutengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "streitu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-streita-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["streitutengdur", "streitutengdan", "streitutengdum", "streitutengds"],
+				"kvk": ["streitutengd", "streitutengda", "streitutengdri", "streitutengdrar"],
+				"hk": ["streitutengt", "streitutengt", "streitutengdu", "streitutengds"]
+			},
+			"ft": {
+				"kk": ["streitutengdir", "streitutengda", "streitutengdum", "streitutengdra"],
+				"kvk": ["streitutengdar", "streitutengdar", "streitutengdum", "streitutengdra"],
+				"hk": ["streitutengd", "streitutengd", "streitutengdum", "streitutengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["streitutengdi", "streitutengda", "streitutengda", "streitutengda"],
+				"kvk": ["streitutengda", "streitutengdu", "streitutengdu", "streitutengdu"],
+				"hk": ["streitutengda", "streitutengda", "streitutengda", "streitutengda"]
+			},
+			"ft": {
+				"kk": ["streitutengdu", "streitutengdu", "streitutengdu", "streitutengdu"],
+				"kvk": ["streitutengdu", "streitutengdu", "streitutengdu", "streitutengdu"],
+				"hk": ["streitutengdu", "streitutengdu", "streitutengdu", "streitutengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-streitutengdur",
+	"hash": "0e006becefcb3924d90e553526dd1e6fd5497f2c9c848a64edf055b20cfd547e"
+}

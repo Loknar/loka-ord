@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "nú",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.st-nú"
-		},
-		{
-			"mynd": "vitundar",
+			"mynd": "núvitundar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vitund-kvk"
-		},
-		{
-			"mynd": "hug",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hugur-kk"
+			"kennistrengur": "no-núvitund-kvk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-hugleiðsla-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["núvitundarhugleiðslan", "núvitundarhugleiðsluna", "núvitundarhugleiðslunni", "núvitundarhugleiðslunnar"]
 	},
 	"kennistrengur": "no-núvitundarhugleiðsla-kvk",
-	"hash": "49bc71393d4d60b8430c506a1ff249f786b7d818d4515bca3d7ad1560d0b92e5"
+	"hash": "92d0d810b589655b302c63080283c04bacb47b814721ff4f35d22623ebb8b29c"
 }
