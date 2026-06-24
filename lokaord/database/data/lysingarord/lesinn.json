@@ -8,7 +8,6 @@
 			"kennistrengur": "so-lesa"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-inn-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["lesnari", "lesnari", "lesnari", "lesnari"],
+				"kvk": ["lesnari", "lesnari", "lesnari", "lesnari"],
+				"hk": ["lesnara", "lesnara", "lesnara", "lesnara"]
+			},
+			"ft": {
+				"kk": ["lesnari", "lesnari", "lesnari", "lesnari"],
+				"kvk": ["lesnari", "lesnari", "lesnari", "lesnari"],
+				"hk": ["lesnari", "lesnari", "lesnari", "lesnari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["lesnastur", "lesnastan", "lesnustum", "lesnasts"],
+				"kvk": ["lesnust", "lesnasta", "lesnastri", "lesnastrar"],
+				"hk": ["lesnast", "lesnast", "lesnustu", "lesnasts"]
+			},
+			"ft": {
+				"kk": ["lesnastir", "lesnasta", "lesnustum", "lesnastra"],
+				"kvk": ["lesnastar", "lesnastar", "lesnustum", "lesnastra"],
+				"hk": ["lesnust", "lesnust", "lesnustum", "lesnastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lesnasti", "lesnasta", "lesnasta", "lesnasta"],
+				"kvk": ["lesnasta", "lesnustu", "lesnustu", "lesnustu"],
+				"hk": ["lesnasta", "lesnasta", "lesnasta", "lesnasta"]
+			},
+			"ft": {
+				"kk": ["lesnustu", "lesnustu", "lesnustu", "lesnustu"],
+				"kvk": ["lesnustu", "lesnustu", "lesnustu", "lesnustu"],
+				"hk": ["lesnustu", "lesnustu", "lesnustu", "lesnustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-lesinn",
-	"hash": "2163ad06878fe24c11314d03016f4a0de45ac08d9b34c69f9beead0533f009da"
+	"hash": "030587593adf37a03c51e709907244c541d6d53986c912c5337b41b8d1e45cf2"
 }
