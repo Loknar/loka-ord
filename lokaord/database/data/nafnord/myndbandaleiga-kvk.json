@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "mynd",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mynd-kvk"
-		},
-		{
-			"mynd": "banda",
+			"mynd": "myndbanda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
+			"kennistrengur": "no-myndband-hk"
 		},
 		{
 			"kennistrengur": "no-leiga-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["myndbandaleigurnar", "myndbandaleigurnar", "myndbandaleigunum", "myndbandaleiganna"]
 	},
 	"kennistrengur": "no-myndbandaleiga-kvk",
-	"hash": "5e8c33e5bd0d081e372d6064cd7dacd2600537cd1f97fa44e3929680e784ef03"
+	"hash": "65fe8e9309c0d83b3fc813d2d7d041f4577b3b12050c2229433347f62de70e24"
 }

@@ -4,17 +4,11 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "lang",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-langur"
-		},
-		{
-			"mynd": "reyða",
+			"mynd": "langreyða",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-reyður-kvk"
+			"kennistrengur": "no-langreyður-kvk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-veiði-kvk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["langreyðaveiði", "langreyðaveiði", "langreyðaveiði", "langreyðaveiðar"],
 		"mg": ["langreyðaveiðin", "langreyðaveiðina", "langreyðaveiðinni", "langreyðaveiðarinnar"]
 	},
+	"ft": {
+		"ág": ["langreyðaveiðar", "langreyðaveiðar", "langreyðaveiðum", "langreyðaveiða"],
+		"mg": ["langreyðaveiðarnar", "langreyðaveiðarnar", "langreyðaveiðunum", "langreyðaveiðanna"]
+	},
 	"kennistrengur": "no-langreyðaveiði-kvk",
-	"hash": "b765b83ebf054e67809accac7d24f98ea7afb00e1c0edf999b98806004eb0e06"
+	"hash": "c18c38b67ac3ffb6a79a7a14cce4d1b43b9edb9e28c8c5a5356f924184b4b410"
 }
