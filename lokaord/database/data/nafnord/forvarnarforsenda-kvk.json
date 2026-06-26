@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "for",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-for-ó"
-		},
-		{
-			"mynd": "varnar",
+			"mynd": "forvarnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vörn-kvk"
+			"kennistrengur": "no-forvörn-kvk"
 		},
 		{
-			"mynd": "for",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-for-ó"
-		},
-		{
-			"kennistrengur": "no-senda-kvk-ó"
+			"kennistrengur": "no-forsenda-kvk"
 		}
 	],
 	"et": {
@@ -27,9 +17,9 @@
 		"mg": ["forvarnarforsendan", "forvarnarforsenduna", "forvarnarforsendunni", "forvarnarforsendunnar"]
 	},
 	"ft": {
-		"ág": ["forvarnarforsendur", "forvarnarforsendur", "forvarnarforsendum", "forvarnarforsendna"],
-		"mg": ["forvarnarforsendurnar", "forvarnarforsendurnar", "forvarnarforsendunum", "forvarnarforsendnanna"]
+		"ág": ["forvarnarforsendur", "forvarnarforsendur", "forvarnarforsendum", "forvarnarforsenda"],
+		"mg": ["forvarnarforsendurnar", "forvarnarforsendurnar", "forvarnarforsendunum", "forvarnarforsendanna"]
 	},
 	"kennistrengur": "no-forvarnarforsenda-kvk",
-	"hash": "76d155e9e0ad99dbaae2f5356898c61e69bf4d0d6e20f079d8ca3876b16bc949"
+	"hash": "6d70b39c5bb9c9eac9aba371749ab959946ff57c52036c22b8928e9c7b7587f5"
 }

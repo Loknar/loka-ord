@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hag",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"mynd": "ræðingar",
+			"mynd": "hagræðingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ræðing-kvk"
+			"kennistrengur": "no-hagræðing-kvk"
 		},
 		{
-			"mynd": "til",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-til"
-		},
-		{
-			"kennistrengur": "no-laga-kvk-ó"
+			"kennistrengur": "no-tillaga-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["hagræðingartillögurnar", "hagræðingartillögurnar", "hagræðingartillögunum", "hagræðingartillagnanna"]
 	},
 	"kennistrengur": "no-hagræðingartillaga-kvk",
-	"hash": "026c304587703ff7723dbd7b934ab4b2aa3ba626b33d80dbd2b4f6798f63cf85"
+	"hash": "a87fcef05486b0a391887558b1116b0d3f647802f501a2890acc4b257ac2c1a2"
 }

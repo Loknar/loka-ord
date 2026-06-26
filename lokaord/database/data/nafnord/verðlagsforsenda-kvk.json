@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "verð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"mynd": "lags",
+			"mynd": "verðlags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-verðlag-hk"
 		},
 		{
-			"mynd": "for",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-for-ó"
-		},
-		{
-			"kennistrengur": "no-senda-kvk-ó"
+			"kennistrengur": "no-forsenda-kvk"
 		}
 	],
 	"et": {
@@ -27,9 +17,9 @@
 		"mg": ["verðlagsforsendan", "verðlagsforsenduna", "verðlagsforsendunni", "verðlagsforsendunnar"]
 	},
 	"ft": {
-		"ág": ["verðlagsforsendur", "verðlagsforsendur", "verðlagsforsendum", "verðlagsforsendna"],
-		"mg": ["verðlagsforsendurnar", "verðlagsforsendurnar", "verðlagsforsendunum", "verðlagsforsendnanna"]
+		"ág": ["verðlagsforsendur", "verðlagsforsendur", "verðlagsforsendum", "verðlagsforsenda"],
+		"mg": ["verðlagsforsendurnar", "verðlagsforsendurnar", "verðlagsforsendunum", "verðlagsforsendanna"]
 	},
 	"kennistrengur": "no-verðlagsforsenda-kvk",
-	"hash": "28501497d2b3e3d71f8baa347a446c35b8b0ca39ffb8e7605e40d980e7cc5d2a"
+	"hash": "eb5fdb459a6fad71b5a47f8731cc390ebaf0d16e7455f8f56bf0f537805ace14"
 }
