@@ -305,6 +305,10 @@ def scan_sentence(
 				scanned_word['orð-hreinsað'] = e_word_p.upper()
 				scanned_word['staða'] = 'tala-roman'
 				break
+			elif check_if_string_is_temperature_number(e_word_p):
+				scanned_word['orð-hreinsað'] = e_word_p
+				scanned_word['staða'] = 'hitastig'
+				break
 			elif check_if_string_is_time(e_word_p):
 				scanned_word['orð-hreinsað'] = e_word_p
 				scanned_word['staða'] = 'tími'
@@ -364,6 +368,18 @@ def scan_sentence(
 		elif scanned_word['staða'] == 'tala-roman':
 			if show_matches is True:
 				print('"%s" \033[46m\033[30m TALA ROMAN \033[0m' % (
+					scanned_word['orð-hreinsað'],
+				))
+			highlighted_sentence_list.append(
+				'%s%s%s' % (
+					'' if scanned_word['leiðir'] is None else scanned_word['leiðir'],
+					'\033[46m\033[30m%s\033[0m' % (scanned_word['orð-hreinsað'], ),
+					'' if scanned_word['fylgir'] is None else scanned_word['fylgir']
+				)
+			)
+		elif scanned_word['staða'] == 'hitastig':
+			if show_matches is True:
+				print('"%s" \033[46m\033[30m HITASTIG \033[0m' % (
 					scanned_word['orð-hreinsað'],
 				))
 			highlighted_sentence_list.append(
@@ -1100,4 +1116,10 @@ def check_if_string_is_roman_number(mystr: str) -> bool:
 		return True
 	except ValueError:
 		pass
+	return False
+
+
+def check_if_string_is_temperature_number(mystr: str) -> bool:
+	if (mystr.endswith('°C') or mystr.endswith('°K') or mystr.endswith('°F')):
+		return check_if_string_is_number(mystr[:-2])
 	return False
