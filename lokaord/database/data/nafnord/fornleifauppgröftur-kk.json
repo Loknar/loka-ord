@@ -4,28 +4,22 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "forn",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-forn"
-		},
-		{
-			"mynd": "leifa",
+			"mynd": "fornleifa",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leif-kvk"
+			"kennistrengur": "no-fornleif-kvk"
 		},
 		{
-			"mynd": "upp",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-upp"
-		},
-		{
-			"kennistrengur": "no-gröftur-kk"
+			"kennistrengur": "no-uppgröftur-kk"
 		}
 	],
 	"et": {
 		"ág": ["fornleifauppgröftur", "fornleifauppgröft", "fornleifauppgrefti", "fornleifauppgraftar"],
 		"mg": ["fornleifauppgröfturinn", "fornleifauppgröftinn", "fornleifauppgreftinum", "fornleifauppgraftarins"]
 	},
+	"ft": {
+		"ág": ["fornleifauppgreftir", "fornleifauppgrefti", "fornleifauppgröftum", "fornleifauppgrafta"],
+		"mg": ["fornleifauppgreftirnir", "fornleifauppgreftina", "fornleifauppgröftunum", "fornleifauppgraftanna"]
+	},
 	"kennistrengur": "no-fornleifauppgröftur-kk",
-	"hash": "acc65437d20d66aae8bdeac4558ea112cd2d4bfeecf1f4ff05de2959944bed74"
+	"hash": "0889aa26248d3832624fb312e9409bc71084535ff63d42f33eba3a79850cc1b1"
 }
