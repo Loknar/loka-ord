@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "sér",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.a-sig"
-		},
-		{
-			"mynd": "greina",
+			"mynd": "sérgreina",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-grein-kvk"
+			"kennistrengur": "no-sérgrein-kvk"
 		},
 		{
-			"mynd": "dýra",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dýr-hk"
-		},
-		{
-			"kennistrengur": "no-læknir-kk"
+			"kennistrengur": "no-dýralæknir-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["sérgreinadýralæknarnir", "sérgreinadýralæknana", "sérgreinadýralæknunum", "sérgreinadýralæknanna"]
 	},
 	"kennistrengur": "no-sérgreinadýralæknir-kk",
-	"hash": "8b2d6d301562434cc18f101fd63c1955d6d12dcefcba814b31e95e8d6a1d38bc"
+	"hash": "6997794546a49d3b0cd6214796d4fae883de2f9a0432d0049b5d810bc89fd330"
 }

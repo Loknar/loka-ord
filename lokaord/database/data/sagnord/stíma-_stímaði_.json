@@ -1,0 +1,74 @@
+{
+	"orð": "stíma",
+	"flokkur": "sagnorð",
+	"merking": "stímaði",
+	"samsett": [
+		{
+			"mynd": "stím",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stím-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stíma",
+		"sagnbót": "stímað",
+		"boðháttur": {
+			"stýfður": "stíma",
+			"et": "stímaðu",
+			"ft": "stímið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stíma", "stímar", "stímar"],
+					"ft": ["stímum", "stímið", "stíma"]
+				},
+				"þátíð": {
+					"et": ["stímaði", "stímaðir", "stímaði"],
+					"ft": ["stímuðum", "stímuðuð", "stímuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stími", "stímir", "stími"],
+					"ft": ["stímum", "stímið", "stími"]
+				},
+				"þátíð": {
+					"et": ["stímaði", "stímaðir", "stímaði"],
+					"ft": ["stímuðum", "stímuðuð", "stímuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stímarðu",
+					"ft": "stímiði"
+				},
+				"þátíð": {
+					"et": "stímaðirðu",
+					"ft": "stímuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stímirðu",
+					"ft": "stímiði"
+				},
+				"þátíð": {
+					"et": "stímaðirðu",
+					"ft": "stímuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stímandi"
+	},
+	"kennistrengur": "so-stíma-_stímaði_",
+	"hash": "a94f87e29bf71a72ee68ed3a03476510b4c68384ec13d83c48bb24e8ca054427"
+}
