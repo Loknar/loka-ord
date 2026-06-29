@@ -1,0 +1,142 @@
+{
+	"orð": "kvótavæða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kvóta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kvóti-kk"
+		},
+		{
+			"kennistrengur": "so-væða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kvótavæða",
+		"sagnbót": "kvótavætt",
+		"boðháttur": {
+			"stýfður": "kvótavæð",
+			"et": "kvótavæddu",
+			"ft": "kvótavæðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvótavæði", "kvótavæðir", "kvótavæðir"],
+					"ft": ["kvótavæðum", "kvótavæðið", "kvótavæða"]
+				},
+				"þátíð": {
+					"et": ["kvótavæddi", "kvótavæddir", "kvótavæddi"],
+					"ft": ["kvótavæddum", "kvótavædduð", "kvótavæddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvótavæði", "kvótavæðir", "kvótavæði"],
+					"ft": ["kvótavæðum", "kvótavæðið", "kvótavæði"]
+				},
+				"þátíð": {
+					"et": ["kvótavæddi", "kvótavæddir", "kvótavæddi"],
+					"ft": ["kvótavæddum", "kvótavædduð", "kvótavæddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvótavæðirðu",
+					"ft": "kvótavæðiði"
+				},
+				"þátíð": {
+					"et": "kvótavæddirðu",
+					"ft": "kvótavædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvótavæðirðu",
+					"ft": "kvótavæðiði"
+				},
+				"þátíð": {
+					"et": "kvótavæddirðu",
+					"ft": "kvótavædduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kvótavæðast",
+		"sagnbót": "kvótavæðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvótavæðist", "kvótavæðist", "kvótavæðist"],
+					"ft": ["kvótavæðumst", "kvótavæðist", "kvótavæðast"]
+				},
+				"þátíð": {
+					"et": ["kvótavæddist", "kvótavæddist", "kvótavæddist"],
+					"ft": ["kvótavæddumst", "kvótavæddust", "kvótavæddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvótavæðist", "kvótavæðist", "kvótavæðist"],
+					"ft": ["kvótavæðumst", "kvótavæðist", "kvótavæðist"]
+				},
+				"þátíð": {
+					"et": ["kvótavæddist", "kvótavæddist", "kvótavæddist"],
+					"ft": ["kvótavæddumst", "kvótavæddust", "kvótavæddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kvótavæðistu"
+				},
+				"þátíð": {
+					"et": "kvótavæddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kvótavæðistu"
+				},
+				"þátíð": {
+					"et": "kvótavæddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kvótavæðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kvótavæddur", "kvótavæddan", "kvótavæddum", "kvótavædds"],
+					"kvk": ["kvótavædd", "kvótavædda", "kvótavæddri", "kvótavæddrar"],
+					"hk": ["kvótavætt", "kvótavætt", "kvótavæddu", "kvótavædds"]
+				},
+				"ft": {
+					"kk": ["kvótavæddir", "kvótavædda", "kvótavæddum", "kvótavæddra"],
+					"kvk": ["kvótavæddar", "kvótavæddar", "kvótavæddum", "kvótavæddra"],
+					"hk": ["kvótavædd", "kvótavædd", "kvótavæddum", "kvótavæddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kvótavæddi", "kvótavædda", "kvótavædda", "kvótavædda"],
+					"kvk": ["kvótavædda", "kvótavæddu", "kvótavæddu", "kvótavæddu"],
+					"hk": ["kvótavædda", "kvótavædda", "kvótavædda", "kvótavædda"]
+				},
+				"ft": {
+					"kk": ["kvótavæddu", "kvótavæddu", "kvótavæddu", "kvótavæddu"],
+					"kvk": ["kvótavæddu", "kvótavæddu", "kvótavæddu", "kvótavæddu"],
+					"hk": ["kvótavæddu", "kvótavæddu", "kvótavæddu", "kvótavæddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kvótavæða",
+	"hash": "f40e798d6a2aa1c7a1e5b4b251b850770358d5b94170b46e0d9dbd34276d3dd0"
+}

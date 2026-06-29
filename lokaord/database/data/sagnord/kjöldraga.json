@@ -1,0 +1,87 @@
+{
+	"orð": "kjöldraga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kjöl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kjölur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-draga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kjöldraga",
+		"sagnbót": "kjöldregið",
+		"boðháttur": {
+			"stýfður": "kjöldrag",
+			"et": "kjöldragðu",
+			"ft": "kjöldragið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kjöldreg", "kjöldregur", "kjöldregur"],
+					"ft": ["kjöldrögum", "kjöldragið", "kjöldraga"]
+				},
+				"þátíð": {
+					"et": ["kjöldró", "kjöldróst", "kjöldró"],
+					"ft": ["kjöldrógum", "kjöldróguð", "kjöldrógu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kjöldragi", "kjöldragir", "kjöldragi"],
+					"ft": ["kjöldrögum", "kjöldragið", "kjöldragi"]
+				},
+				"þátíð": {
+					"et": ["kjöldrægi", "kjöldrægir", "kjöldrægi"],
+					"ft": ["kjöldrægjum", "kjöldrægjuð", "kjöldrægju"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kjöldregurðu",
+					"ft": "kjöldragiði"
+				},
+				"þátíð": {
+					"et": "kjöldróstu",
+					"ft": "kjöldróguði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kjöldragirðu",
+					"ft": "kjöldragiði"
+				},
+				"þátíð": {
+					"et": "kjöldrægirðu",
+					"ft": "kjöldrægjuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kjöldragandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kjöldreginn", "kjöldreginn", "kjöldregnum", "kjöldregins"],
+					"kvk": ["kjöldregin", "kjöldregna", "kjöldreginni", "kjöldreginnar"],
+					"hk": ["kjöldregið", "kjöldregið", "kjöldregnu", "kjöldregins"]
+				},
+				"ft": {
+					"kk": ["kjöldregnir", "kjöldregna", "kjöldregnum", "kjöldreginna"],
+					"kvk": ["kjöldregnar", "kjöldregnar", "kjöldregnum", "kjöldreginna"],
+					"hk": ["kjöldregin", "kjöldregin", "kjöldregnum", "kjöldreginna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kjöldraga",
+	"hash": "37a72a52bff7f6c5fa6f49588b32ae8611b4a189dd0ec38a8facbe3f462999ab"
+}

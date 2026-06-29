@@ -8,7 +8,6 @@
 			"kennistrengur": "no-umbót-kvk"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-miðaður"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri"],
+				"kvk": ["umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri"],
+				"hk": ["umbótamiðaðra", "umbótamiðaðra", "umbótamiðaðra", "umbótamiðaðra"]
+			},
+			"ft": {
+				"kk": ["umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri"],
+				"kvk": ["umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri"],
+				"hk": ["umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri", "umbótamiðaðri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["umbótamiðaðastur", "umbótamiðaðastan", "umbótamiðuðustum", "umbótamiðaðasts"],
+				"kvk": ["umbótamiðuðust", "umbótamiðaðasta", "umbótamiðaðastri", "umbótamiðaðastrar"],
+				"hk": ["umbótamiðaðast", "umbótamiðaðast", "umbótamiðuðustu", "umbótamiðaðasts"]
+			},
+			"ft": {
+				"kk": ["umbótamiðaðastir", "umbótamiðaðasta", "umbótamiðuðustum", "umbótamiðaðastra"],
+				"kvk": ["umbótamiðaðastar", "umbótamiðaðastar", "umbótamiðuðustum", "umbótamiðaðastra"],
+				"hk": ["umbótamiðuðust", "umbótamiðuðust", "umbótamiðuðustum", "umbótamiðaðastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["umbótamiðaðasti", "umbótamiðaðasta", "umbótamiðaðasta", "umbótamiðaðasta"],
+				"kvk": ["umbótamiðaðasta", "umbótamiðuðustu", "umbótamiðuðustu", "umbótamiðuðustu"],
+				"hk": ["umbótamiðaðasta", "umbótamiðaðasta", "umbótamiðaðasta", "umbótamiðaðasta"]
+			},
+			"ft": {
+				"kk": ["umbótamiðuðustu", "umbótamiðuðustu", "umbótamiðuðustu", "umbótamiðuðustu"],
+				"kvk": ["umbótamiðuðustu", "umbótamiðuðustu", "umbótamiðuðustu", "umbótamiðuðustu"],
+				"hk": ["umbótamiðuðustu", "umbótamiðuðustu", "umbótamiðuðustu", "umbótamiðuðustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-umbótamiðaður",
-	"hash": "ad7049bdb258edc025749d9ec550b2e3a24f45c6a6c8f0c6d8680b049fde38a9"
+	"hash": "8544627341079b4a2d34d5d3f6e9a3362b056b1f5ba90d36b65f899b1d236f29"
 }
