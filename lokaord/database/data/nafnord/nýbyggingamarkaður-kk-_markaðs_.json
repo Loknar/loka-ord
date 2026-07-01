@@ -2,6 +2,7 @@
 	"orð": "nýbyggingamarkaður",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"merking": "markaðs",
 	"samsett": [
 		{
 			"mynd": "nýbygginga",
@@ -9,17 +10,17 @@
 			"kennistrengur": "no-nýbygging-kvk"
 		},
 		{
-			"kennistrengur": "no-markaður-kk"
+			"kennistrengur": "no-markaður-kk-_markaðs_"
 		}
 	],
 	"et": {
-		"ág": ["nýbyggingamarkaður", "nýbyggingamarkað", "nýbyggingamarkaði", "nýbyggingamarkaðar"],
-		"mg": ["nýbyggingamarkaðurinn", "nýbyggingamarkaðinn", "nýbyggingamarkaðinum", "nýbyggingamarkaðarins"]
+		"ág": ["nýbyggingamarkaður", "nýbyggingamarkað", "nýbyggingamarkaði", "nýbyggingamarkaðs"],
+		"mg": ["nýbyggingamarkaðurinn", "nýbyggingamarkaðinn", "nýbyggingamarkaðnum", "nýbyggingamarkaðsins"]
 	},
 	"ft": {
 		"ág": ["nýbyggingamarkaðir", "nýbyggingamarkaði", "nýbyggingamörkuðum", "nýbyggingamarkaða"],
 		"mg": ["nýbyggingamarkaðirnir", "nýbyggingamarkaðina", "nýbyggingamörkuðunum", "nýbyggingamarkaðanna"]
 	},
-	"kennistrengur": "no-nýbyggingamarkaður-kk",
-	"hash": "d081fa4cd244ba680db50753a4aaa67af33cdad9e4803dd9f849123576a003ce"
+	"kennistrengur": "no-nýbyggingamarkaður-kk-_markaðs_",
+	"hash": "093d284464218ed93cee696f77d0724dc67a21d33b3c19c30505e3f85d66bce9"
 }
