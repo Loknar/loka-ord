@@ -4,28 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "út",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-út"
-		},
-		{
-			"mynd": "sláttar",
+			"mynd": "útsláttar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sláttur-kk"
+			"kennistrengur": "no-útsláttur-kk"
 		},
 		{
-			"mynd": "fyrir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fyrir"
-		},
-		{
-			"mynd": "komu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-koma-kvk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-lag-hk"
+			"kennistrengur": "no-fyrirkomulag-hk"
 		}
 	],
 	"et": {
@@ -33,5 +17,5 @@
 		"mg": ["útsláttarfyrirkomulagið", "útsláttarfyrirkomulagið", "útsláttarfyrirkomulaginu", "útsláttarfyrirkomulagsins"]
 	},
 	"kennistrengur": "no-útsláttarfyrirkomulag-hk",
-	"hash": "8b9f0544e69162daa8a13702b66886355a03386d2ee87d746fc1d3b25210180b"
+	"hash": "2a4590a6433ad829c9be7e7e4573d70a533ad125e33e0a5cefbd45dad677347a"
 }

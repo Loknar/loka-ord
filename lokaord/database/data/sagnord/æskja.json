@@ -54,6 +54,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "æskjast",
+		"sagnbót": "æskst",
+		"boðháttur": {
+			"et": "æskstu",
+			"ft": "æskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["æskist", "æskist", "æskist"],
+					"ft": ["æskjumst", "æskist", "æskjast"]
+				},
+				"þátíð": {
+					"et": ["æsktist", "æsktist", "æsktist"],
+					"ft": ["æsktumst", "æsktust", "æsktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["æskist", "æskist", "æskist"],
+					"ft": ["æskjumst", "æskist", "æskist"]
+				},
+				"þátíð": {
+					"et": ["æsktist", "æsktist", "æsktist"],
+					"ft": ["æsktumst", "æsktust", "æsktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "æskistu"
+				},
+				"þátíð": {
+					"et": "æsktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "æskistu"
+				},
+				"þátíð": {
+					"et": "æsktistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "æskjandi",
 		"þátíðar": {
@@ -84,5 +132,5 @@
 		}
 	},
 	"kennistrengur": "so-æskja",
-	"hash": "a06db4884eb53b07b686184b3c1704402bcb95d9f1091598c0d5995afa4ec70c"
+	"hash": "40e917121a50fcd013c6168599ab8aaef9c6ec18d3f083cd692ee917b70769fd"
 }

@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "af",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-af"
-		},
-		{
-			"mynd": "réttar",
+			"mynd": "afréttar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-réttur-kk"
+			"kennistrengur": "no-afréttur-kk"
 		},
 		{
-			"mynd": "bú",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bú-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-peningur-kk"
+			"kennistrengur": "no-búpeningur-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["afréttarbúpeningurinn", "afréttarbúpeninginn", "afréttarbúpeningnum", "afréttarbúpeningsins"]
 	},
 	"kennistrengur": "no-afréttarbúpeningur-kk",
-	"hash": "f9fcbe2315ee5de15b232783ee74584111506e7c41e34d50b421be5d461f16d7"
+	"hash": "af670b93dbaa59a120ed839d1d13599cf97cec506ecb328b32c46dffe146c507"
 }
