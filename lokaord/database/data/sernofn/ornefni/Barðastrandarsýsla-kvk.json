@@ -10,13 +10,17 @@
 			"kennistrengur": "sérn.ön-Barðaströnd-kvk"
 		},
 		{
-			"beygingar": ["et-ág"],
 			"kennistrengur": "no-sýsla-kvk"
 		}
 	],
 	"et": {
-		"ág": ["Barðastrandarsýsla", "Barðastrandarsýslu", "Barðastrandarsýslu", "Barðastrandarsýslu"]
+		"ág": ["Barðastrandarsýsla", "Barðastrandarsýslu", "Barðastrandarsýslu", "Barðastrandarsýslu"],
+		"mg": ["Barðastrandarsýslan", "Barðastrandarsýsluna", "Barðastrandarsýslunni", "Barðastrandarsýslunnar"]
+	},
+	"ft": {
+		"ág": ["Barðastrandarsýslur", "Barðastrandarsýslur", "Barðastrandarsýslum", "Barðastrandarsýslna"],
+		"mg": ["Barðastrandarsýslurnar", "Barðastrandarsýslurnar", "Barðastrandarsýslunum", "Barðastrandarsýslnanna"]
 	},
 	"kennistrengur": "sérn.ön-Barðastrandarsýsla-kvk",
-	"hash": "eac18e86c4d34a873a0f38f5e566cf4af14a57afbaaba3e97396dfd7825bee92"
+	"hash": "cb59357b26080ebe3e7ecce1a1e15202be3e8efe8cb5ebd7c636c3277573a948"
 }
