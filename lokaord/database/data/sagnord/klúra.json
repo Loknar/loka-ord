@@ -1,0 +1,95 @@
+{
+	"orð": "klúra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klúr",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-klúr"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "klúra",
+		"sagnbót": "klúrað",
+		"boðháttur": {
+			"stýfður": "klúra",
+			"et": "klúraðu",
+			"ft": "klúrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klúra", "klúrar", "klúrar"],
+					"ft": ["klúrum", "klúrið", "klúra"]
+				},
+				"þátíð": {
+					"et": ["klúraði", "klúraðir", "klúraði"],
+					"ft": ["klúruðum", "klúruðuð", "klúruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klúri", "klúrir", "klúri"],
+					"ft": ["klúrum", "klúrið", "klúri"]
+				},
+				"þátíð": {
+					"et": ["klúraði", "klúraðir", "klúraði"],
+					"ft": ["klúruðum", "klúruðuð", "klúruðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klúrast",
+		"sagnbót": "klúrast",
+		"boðháttur": {
+			"et": "klúrastu",
+			"ft": "klúrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klúrast", "klúrast", "klúrast"],
+					"ft": ["klúrumst", "klúrist", "klúrast"]
+				},
+				"þátíð": {
+					"et": ["klúraðist", "klúraðist", "klúraðist"],
+					"ft": ["klúruðumst", "klúruðust", "klúruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klúrist", "klúrist", "klúrist"],
+					"ft": ["klúrumst", "klúrist", "klúrist"]
+				},
+				"þátíð": {
+					"et": ["klúraðist", "klúraðist", "klúraðist"],
+					"ft": ["klúruðumst", "klúruðust", "klúruðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klúrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klúraður", "klúraðan", "klúruðum", "klúraðs"],
+					"kvk": ["klúruð", "klúraða", "klúraðri", "klúraðrar"],
+					"hk": ["klúrað", "klúrað", "klúruðu", "klúraðs"]
+				},
+				"ft": {
+					"kk": ["klúraðir", "klúraða", "klúruðum", "klúraðra"],
+					"kvk": ["klúraðar", "klúraðar", "klúruðum", "klúraðra"],
+					"hk": ["klúruð", "klúruð", "klúruðum", "klúraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klúra",
+	"hash": "1a72ede54fd79b6ad5c964f97a1bbf83a8a42a5a81d2c82c7a3306796d0d10f8"
+}
