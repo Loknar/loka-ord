@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "dag",
-			"samsetning": "stofn",
-			"kennistrengur": "no-dagur-kk"
-		},
-		{
-			"mynd": "vöru",
+			"mynd": "dagvöru",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vara-kvk"
+			"kennistrengur": "no-dagvara-kvk"
 		},
 		{
 			"kennistrengur": "no-verslun-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["dagvöruverslanirnar", "dagvöruverslanirnar", "dagvöruverslununum", "dagvöruverslananna"]
 	},
 	"kennistrengur": "no-dagvöruverslun-kvk",
-	"hash": "e033ea8ec0418c8225105bffb4692271d865dac5bf2763f3d0732c5bda829bab"
+	"hash": "010bce1d4a96216841dcc75d76236e54660aa89c7549b5eb2f3a70aee81b907b"
 }

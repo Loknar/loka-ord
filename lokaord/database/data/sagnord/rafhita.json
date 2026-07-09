@@ -1,0 +1,99 @@
+{
+	"orð": "rafhita",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "raf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-raf-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-hita"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rafhita",
+		"sagnbót": "rafhitað",
+		"boðháttur": {
+			"stýfður": "rafhita",
+			"et": "rafhitaðu",
+			"ft": "rafhitið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rafhita", "rafhitar", "rafhitar"],
+					"ft": ["rafhitum", "rafhitið", "rafhita"]
+				},
+				"þátíð": {
+					"et": ["rafhitaði", "rafhitaðir", "rafhitaði"],
+					"ft": ["rafhituðum", "rafhituðuð", "rafhituðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rafhiti", "rafhitir", "rafhiti"],
+					"ft": ["rafhitum", "rafhitið", "rafhiti"]
+				},
+				"þátíð": {
+					"et": ["rafhitaði", "rafhitaðir", "rafhitaði"],
+					"ft": ["rafhituðum", "rafhituðuð", "rafhituðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rafhitarðu",
+					"ft": "rafhitiði"
+				},
+				"þátíð": {
+					"et": "rafhitaðirðu",
+					"ft": "rafhituðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rafhitirðu",
+					"ft": "rafhitiði"
+				},
+				"þátíð": {
+					"et": "rafhitaðirðu",
+					"ft": "rafhituðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rafhitandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rafhitaður", "rafhitaðan", "rafhituðum", "rafhitaðs"],
+					"kvk": ["rafhituð", "rafhitaða", "rafhitaðri", "rafhitaðrar"],
+					"hk": ["rafhitað", "rafhitað", "rafhituðu", "rafhitaðs"]
+				},
+				"ft": {
+					"kk": ["rafhitaðir", "rafhitaða", "rafhituðum", "rafhitaðra"],
+					"kvk": ["rafhitaðar", "rafhitaðar", "rafhituðum", "rafhitaðra"],
+					"hk": ["rafhituð", "rafhituð", "rafhituðum", "rafhitaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["rafhitaði", "rafhitaða", "rafhitaða", "rafhitaða"],
+					"kvk": ["rafhitaða", "rafhituðu", "rafhituðu", "rafhituðu"],
+					"hk": ["rafhitaða", "rafhitaða", "rafhitaða", "rafhitaða"]
+				},
+				"ft": {
+					"kk": ["rafhituðu", "rafhituðu", "rafhituðu", "rafhituðu"],
+					"kvk": ["rafhituðu", "rafhituðu", "rafhituðu", "rafhituðu"],
+					"hk": ["rafhituðu", "rafhituðu", "rafhituðu", "rafhituðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rafhita",
+	"hash": "04fb826efc2f4fa7f143d41e848ab3cc734258527de2b529b4a73eb2f10ebebe"
+}

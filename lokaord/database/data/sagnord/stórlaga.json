@@ -1,0 +1,74 @@
+{
+	"orð": "stórlaga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stór",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-stór"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg"],
+			"kennistrengur": "so-laga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stórlaga",
+		"sagnbót": "stórlagað",
+		"boðháttur": {
+			"stýfður": "stórlaga",
+			"et": "stórlagaðu",
+			"ft": "stórlagið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stórlaga", "stórlagar", "stórlagar"],
+					"ft": ["stórlögum", "stórlagið", "stórlaga"]
+				},
+				"þátíð": {
+					"et": ["stórlagaði", "stórlagaðir", "stórlagaði"],
+					"ft": ["stórlöguðum", "stórlöguðuð", "stórlöguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stórlagi", "stórlagir", "stórlagi"],
+					"ft": ["stórlögum", "stórlagið", "stórlagi"]
+				},
+				"þátíð": {
+					"et": ["stórlagaði", "stórlagaðir", "stórlagaði"],
+					"ft": ["stórlöguðum", "stórlöguðuð", "stórlöguðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "stórlagast",
+		"sagnbót": "stórlagast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stórlagast", "stórlagast", "stórlagast"],
+					"ft": ["stórlögumst", "stórlagist", "stórlagast"]
+				},
+				"þátíð": {
+					"et": ["stórlagaðist", "stórlagaðist", "stórlagaðist"],
+					"ft": ["stórlöguðumst", "stórlöguðust", "stórlöguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stórlagist", "stórlagist", "stórlagist"],
+					"ft": ["stórlögumst", "stórlagist", "stórlagist"]
+				},
+				"þátíð": {
+					"et": ["stórlagaðist", "stórlagaðist", "stórlagaðist"],
+					"ft": ["stórlöguðumst", "stórlöguðust", "stórlöguðust"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stórlaga",
+	"hash": "c5d79afed329e9cb4025f757f75c99f00d53f299b6ca168945f801c2321d1490"
+}
