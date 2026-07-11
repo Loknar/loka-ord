@@ -1,6 +1,16 @@
 {
 	"orð": "fiska",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fisk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fiskur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "fiska",
 		"sagnbót": "fiskað",
@@ -54,6 +64,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "fiskast",
+		"sagnbót": "fiskast",
+		"boðháttur": {
+			"et": "fiskastu",
+			"ft": "fiskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fiskast", "fiskast", "fiskast"],
+					"ft": ["fiskumst", "fiskist", "fiskast"]
+				},
+				"þátíð": {
+					"et": ["fiskaðist", "fiskaðist", "fiskaðist"],
+					"ft": ["fiskuðumst", "fiskuðust", "fiskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fiskist", "fiskist", "fiskist"],
+					"ft": ["fiskumst", "fiskist", "fiskist"]
+				},
+				"þátíð": {
+					"et": ["fiskaðist", "fiskaðist", "fiskaðist"],
+					"ft": ["fiskuðumst", "fiskuðust", "fiskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fiskastu"
+				},
+				"þátíð": {
+					"et": "fiskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fiskistu"
+				},
+				"þátíð": {
+					"et": "fiskaðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "fiskandi",
 		"þátíðar": {
@@ -84,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-fiska",
-	"hash": "9598c0c7f556cbff2eb4d7e2884d369a89bb70c60fe364b3661767e61ed799a3"
+	"hash": "5a7b23db48519db1a3d6d37b847d3d81ff02a2964bd246492ef275b4caf835ab"
 }

@@ -1,0 +1,87 @@
+{
+	"orð": "hrauna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hraun",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hraun-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hrauna",
+		"sagnbót": "hraunað",
+		"boðháttur": {
+			"stýfður": "hrauna",
+			"et": "hraunaðu",
+			"ft": "hraunið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hrauna", "hraunar", "hraunar"],
+					"ft": ["hraunum", "hraunið", "hrauna"]
+				},
+				"þátíð": {
+					"et": ["hraunaði", "hraunaðir", "hraunaði"],
+					"ft": ["hraunuðum", "hraunuðuð", "hraunuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hrauni", "hraunir", "hrauni"],
+					"ft": ["hraunum", "hraunið", "hrauni"]
+				},
+				"þátíð": {
+					"et": ["hraunaði", "hraunaðir", "hraunaði"],
+					"ft": ["hraunuðum", "hraunuðuð", "hraunuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hraunarðu",
+					"ft": "hrauniði"
+				},
+				"þátíð": {
+					"et": "hraunaðirðu",
+					"ft": "hraunuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hraunirðu",
+					"ft": "hrauniði"
+				},
+				"þátíð": {
+					"et": "hraunaðirðu",
+					"ft": "hraunuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hraunandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hraunaður", "hraunaðan", "hraunuðum", "hraunaðs"],
+					"kvk": ["hraunuð", "hraunaða", "hraunaðri", "hraunaðrar"],
+					"hk": ["hraunað", "hraunað", "hraunuðu", "hraunaðs"]
+				},
+				"ft": {
+					"kk": ["hraunaðir", "hraunaða", "hraunuðum", "hraunaðra"],
+					"kvk": ["hraunaðar", "hraunaðar", "hraunuðum", "hraunaðra"],
+					"hk": ["hraunuð", "hraunuð", "hraunuðum", "hraunaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hrauna",
+	"hash": "e6bc947e22799b11c12f398717b6f22691ca7156fc5af78f861b820f761ee5a3"
+}

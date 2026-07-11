@@ -1,0 +1,27 @@
+{
+	"orð": "efnahagsmunir",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "efna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-efni-hk"
+		},
+		{
+			"mynd": "hags",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hagur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-munur-kk"
+		}
+	],
+	"ft": {
+		"ág": ["efnahagsmunir", "efnahagsmuni", "efnahagsmunum", "efnahagsmuna"],
+		"mg": ["efnahagsmunirnir", "efnahagsmunina", "efnahagsmununum", "efnahagsmunanna"]
+	},
+	"kennistrengur": "no-efnahagsmunir-kk",
+	"hash": "e90b1ae382262fde1c725387870c93aa41e99195abec0d04991ac42434b8e8d2"
+}
