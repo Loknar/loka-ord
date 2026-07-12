@@ -1,0 +1,87 @@
+{
+	"orð": "kroppa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kropp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kropp-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kroppa",
+		"sagnbót": "kroppað",
+		"boðháttur": {
+			"stýfður": "kroppa",
+			"et": "kroppaðu",
+			"ft": "kroppið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kroppa", "kroppar", "kroppar"],
+					"ft": ["kroppum", "kroppið", "kroppa"]
+				},
+				"þátíð": {
+					"et": ["kroppaði", "kroppaðir", "kroppaði"],
+					"ft": ["kroppuðum", "kroppuðuð", "kroppuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kroppi", "kroppir", "kroppi"],
+					"ft": ["kroppum", "kroppið", "kroppi"]
+				},
+				"þátíð": {
+					"et": ["kroppaði", "kroppaðir", "kroppaði"],
+					"ft": ["kroppuðum", "kroppuðuð", "kroppuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kropparðu",
+					"ft": "kroppiði"
+				},
+				"þátíð": {
+					"et": "kroppaðirðu",
+					"ft": "kroppuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kroppirðu",
+					"ft": "kroppiði"
+				},
+				"þátíð": {
+					"et": "kroppaðirðu",
+					"ft": "kroppuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kroppandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kroppaður", "kroppaðan", "kroppuðum", "kroppaðs"],
+					"kvk": ["kroppuð", "kroppaða", "kroppaðri", "kroppaðrar"],
+					"hk": ["kroppað", "kroppað", "kroppuðu", "kroppaðs"]
+				},
+				"ft": {
+					"kk": ["kroppaðir", "kroppaða", "kroppuðum", "kroppaðra"],
+					"kvk": ["kroppaðar", "kroppaðar", "kroppuðum", "kroppaðra"],
+					"hk": ["kroppuð", "kroppuð", "kroppuðum", "kroppaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kroppa",
+	"hash": "1dee4dd841818510969f1895f4f91dc28e6efa911b675c61b4fe79f8c14f6a4d"
+}

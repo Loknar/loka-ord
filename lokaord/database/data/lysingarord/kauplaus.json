@@ -1,0 +1,43 @@
+{
+	"orð": "kauplaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kaup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kaup-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kauplaus", "kauplausan", "kauplausum", "kauplauss"],
+				"kvk": ["kauplaus", "kauplausa", "kauplausri", "kauplausrar"],
+				"hk": ["kauplaust", "kauplaust", "kauplausu", "kauplauss"]
+			},
+			"ft": {
+				"kk": ["kauplausir", "kauplausa", "kauplausum", "kauplausra"],
+				"kvk": ["kauplausar", "kauplausar", "kauplausum", "kauplausra"],
+				"hk": ["kauplaus", "kauplaus", "kauplausum", "kauplausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kauplausi", "kauplausa", "kauplausa", "kauplausa"],
+				"kvk": ["kauplausa", "kauplausu", "kauplausu", "kauplausu"],
+				"hk": ["kauplausa", "kauplausa", "kauplausa", "kauplausa"]
+			},
+			"ft": {
+				"kk": ["kauplausu", "kauplausu", "kauplausu", "kauplausu"],
+				"kvk": ["kauplausu", "kauplausu", "kauplausu", "kauplausu"],
+				"hk": ["kauplausu", "kauplausu", "kauplausu", "kauplausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kauplaus",
+	"hash": "716b6938c89955dce9d21895f44b028afe061d3d999c8ead863a9221c0122032"
+}

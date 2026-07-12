@@ -1,6 +1,17 @@
 {
 	"orð": "færður",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fær",
+			"samsetning": "stofn",
+			"kennistrengur": "so-færa"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-ður-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -28,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-færður",
-	"hash": "1e5ef3afeff2947854b620802524458f92f2add578548685ee5db67d75d823fb"
+	"hash": "6e0276658f24f91e4964850577be8f12801ae9592a18169b739a14d67ef51cb5"
 }

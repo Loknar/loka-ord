@@ -1,0 +1,87 @@
+{
+	"orð": "ofsegja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-segja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofsegja",
+		"sagnbót": "ofsagt",
+		"boðháttur": {
+			"stýfður": "ofseg",
+			"et": "ofsegðu",
+			"ft": "ofsegið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofsegi", "ofsegir", "ofsegir"],
+					"ft": ["ofsegjum", "ofsegið", "ofsegja"]
+				},
+				"þátíð": {
+					"et": ["ofsagði", "ofsagðir", "ofsagði"],
+					"ft": ["ofsögðum", "ofsögðuð", "ofsögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofsegi", "ofsegir", "ofsegi"],
+					"ft": ["ofsegjum", "ofsegið", "ofsegi"]
+				},
+				"þátíð": {
+					"et": ["ofsegði", "ofsegðir", "ofsegði"],
+					"ft": ["ofsegðum", "ofsegðuð", "ofsegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofsegirðu",
+					"ft": "ofsegiði"
+				},
+				"þátíð": {
+					"et": "ofsagðirðu",
+					"ft": "ofsögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofsegirðu",
+					"ft": "ofsegiði"
+				},
+				"þátíð": {
+					"et": "ofsegðirðu",
+					"ft": "ofsegðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofsegjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofsagður", "ofsagðan", "ofsögðum", "ofsagðs"],
+					"kvk": ["ofsögð", "ofsagða", "ofsagðri", "ofsagðrar"],
+					"hk": ["ofsagt", "ofsagt", "ofsögðu", "ofsagðs"]
+				},
+				"ft": {
+					"kk": ["ofsagðir", "ofsagða", "ofsögðum", "ofsagðra"],
+					"kvk": ["ofsagðar", "ofsagðar", "ofsögðum", "ofsagðra"],
+					"hk": ["ofsögð", "ofsögð", "ofsögðum", "ofsagðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofsegja",
+	"hash": "16d235f4317767a5c4fbe215e4eef11da2adff6167ba70cc3d12e13cfe30dd82"
+}

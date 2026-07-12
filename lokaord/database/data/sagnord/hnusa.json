@@ -1,0 +1,135 @@
+{
+	"orð": "hnusa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hnus",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnus-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hnusa",
+		"sagnbót": "hnusað",
+		"boðháttur": {
+			"stýfður": "hnusa",
+			"et": "hnusaðu",
+			"ft": "hnusið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnusa", "hnusar", "hnusar"],
+					"ft": ["hnusum", "hnusið", "hnusa"]
+				},
+				"þátíð": {
+					"et": ["hnusaði", "hnusaðir", "hnusaði"],
+					"ft": ["hnusuðum", "hnusuðuð", "hnusuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnusi", "hnusir", "hnusi"],
+					"ft": ["hnusum", "hnusið", "hnusi"]
+				},
+				"þátíð": {
+					"et": ["hnusaði", "hnusaðir", "hnusaði"],
+					"ft": ["hnusuðum", "hnusuðuð", "hnusuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnusarðu",
+					"ft": "hnusiði"
+				},
+				"þátíð": {
+					"et": "hnusaðirðu",
+					"ft": "hnusuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnusirðu",
+					"ft": "hnusiði"
+				},
+				"þátíð": {
+					"et": "hnusaðirðu",
+					"ft": "hnusuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hnusast",
+		"sagnbót": "hnusast",
+		"boðháttur": {
+			"et": "hnusastu",
+			"ft": "hnusist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnusast", "hnusast", "hnusast"],
+					"ft": ["hnusumst", "hnusist", "hnusast"]
+				},
+				"þátíð": {
+					"et": ["hnusaðist", "hnusaðist", "hnusaðist"],
+					"ft": ["hnusuðumst", "hnusuðust", "hnusuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnusist", "hnusist", "hnusist"],
+					"ft": ["hnusumst", "hnusist", "hnusist"]
+				},
+				"þátíð": {
+					"et": ["hnusaðist", "hnusaðist", "hnusaðist"],
+					"ft": ["hnusuðumst", "hnusuðust", "hnusuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnusastu"
+				},
+				"þátíð": {
+					"et": "hnusaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnusistu"
+				},
+				"þátíð": {
+					"et": "hnusaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hnusandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hnusaður", "hnusaðan", "hnusuðum", "hnusaðs"],
+					"kvk": ["hnusuð", "hnusaða", "hnusaðri", "hnusaðrar"],
+					"hk": ["hnusað", "hnusað", "hnusuðu", "hnusaðs"]
+				},
+				"ft": {
+					"kk": ["hnusaðir", "hnusaða", "hnusuðum", "hnusaðra"],
+					"kvk": ["hnusaðar", "hnusaðar", "hnusuðum", "hnusaðra"],
+					"hk": ["hnusuð", "hnusuð", "hnusuðum", "hnusaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hnusa",
+	"hash": "1731d218d0735c38d747dca5788c2658db451b16366ffb951bae59edf0941b55"
+}

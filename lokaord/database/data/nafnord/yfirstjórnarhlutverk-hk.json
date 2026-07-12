@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "yfir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-yfir"
-		},
-		{
-			"mynd": "stjórnar",
+			"mynd": "yfirstjórnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórn-kvk"
+			"kennistrengur": "no-yfirstjórn-kvk"
 		},
 		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
-		},
-		{
-			"kennistrengur": "no-verk-hk"
+			"kennistrengur": "no-hlutverk-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["yfirstjórnarhlutverkin", "yfirstjórnarhlutverkin", "yfirstjórnarhlutverkunum", "yfirstjórnarhlutverkanna"]
 	},
 	"kennistrengur": "no-yfirstjórnarhlutverk-hk",
-	"hash": "fff08a972215b75b19218013cc513c570b7638cdd6a9f3a86b5c13e56b84076b"
+	"hash": "8a1fd6e574f139c1b3d693e7eaf39961d6a4af66d16ce248058b4a6caa0b64d1"
 }
