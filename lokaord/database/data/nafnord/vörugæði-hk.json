@@ -1,0 +1,22 @@
+{
+	"orð": "vörugæði",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "vöru",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-vara-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gæði-hk"
+		}
+	],
+	"ft": {
+		"ág": ["vörugæði", "vörugæði", "vörugæðum", "vörugæða"],
+		"mg": ["vörugæðin", "vörugæðin", "vörugæðunum", "vörugæðanna"]
+	},
+	"kennistrengur": "no-vörugæði-hk",
+	"hash": "9972caf84d98a0f762a872c986668e2c1329f1109cf60786c47ea9f893b4bcda"
+}

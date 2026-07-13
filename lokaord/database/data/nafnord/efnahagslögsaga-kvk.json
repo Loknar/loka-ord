@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "efna",
+			"mynd": "efnahags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-efnahagur-kk"
 		},
 		{
-			"mynd": "hags",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hagur-kk"
-		},
-		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-saga-kvk"
+			"kennistrengur": "no-lögsaga-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["efnahagslögsagan", "efnahagslögsöguna", "efnahagslögsögunni", "efnahagslögsögunnar"]
 	},
 	"kennistrengur": "no-efnahagslögsaga-kvk",
-	"hash": "e96464cc6ce09ad7a6457ef06b22cd16cdcd940b0a6751bfbdc42c637789683c"
+	"hash": "a619af4a9bd7bdff955da719d800f9b42fc34e38effd584e6c5f1643853f3ccf"
 }

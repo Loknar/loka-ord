@@ -1,0 +1,65 @@
+{
+	"orð": "ólmast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ólm",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-ólmur"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "ólmast",
+		"sagnbót": "ólmast",
+		"boðháttur": {
+			"et": "ólmastu",
+			"ft": "ólmist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ólmast", "ólmast", "ólmast"],
+					"ft": ["ólmumst", "ólmist", "ólmast"]
+				},
+				"þátíð": {
+					"et": ["ólmaðist", "ólmaðist", "ólmaðist"],
+					"ft": ["ólmuðumst", "ólmuðust", "ólmuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ólmist", "ólmist", "ólmist"],
+					"ft": ["ólmumst", "ólmist", "ólmist"]
+				},
+				"þátíð": {
+					"et": ["ólmaðist", "ólmaðist", "ólmaðist"],
+					"ft": ["ólmuðumst", "ólmuðust", "ólmuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ólmastu"
+				},
+				"þátíð": {
+					"et": "ólmaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ólmistu"
+				},
+				"þátíð": {
+					"et": "ólmaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ólmast",
+	"hash": "619079750c6c8dfe074dd7b9d5148cfdd7a6c8e9357e8c0d65798199d7f1fcf8"
+}

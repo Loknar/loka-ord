@@ -4,28 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "kvæmdar",
+			"mynd": "framkvæmdarvalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kvæmd-kvk-ó"
+			"kennistrengur": "no-framkvæmdarvald-hk"
 		},
 		{
-			"mynd": "valds",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vald-hk"
-		},
-		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-saga-kvk"
+			"kennistrengur": "no-lögsaga-kvk"
 		}
 	],
 	"et": {
@@ -33,5 +17,5 @@
 		"mg": ["framkvæmdarvaldslögsagan", "framkvæmdarvaldslögsöguna", "framkvæmdarvaldslögsögunni", "framkvæmdarvaldslögsögunnar"]
 	},
 	"kennistrengur": "no-framkvæmdarvaldslögsaga-kvk",
-	"hash": "99f48285ffdbb706b688f824e82dbfaddd7275a470fb7459d607658140688774"
+	"hash": "f5bea9eb898d76b04eb002d1ffd4895cee2b1178a96ca4192048232edd0d6048"
 }

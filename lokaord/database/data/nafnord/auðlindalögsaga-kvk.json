@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "auð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-auður-kk"
-		},
-		{
-			"mynd": "linda",
+			"mynd": "auðlinda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lind-kvk"
+			"kennistrengur": "no-auðlind-kvk"
 		},
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-saga-kvk"
+			"kennistrengur": "no-lögsaga-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["auðlindalögsagan", "auðlindalögsöguna", "auðlindalögsögunni", "auðlindalögsögunnar"]
 	},
 	"kennistrengur": "no-auðlindalögsaga-kvk",
-	"hash": "eb579aa969fdc413078dd3e954576d1bdbb2fa240b6693770efc3f5c14c566ab"
+	"hash": "85901adf7d0f4a93eab67373a8530c660e115b4ae4bde3096e593d7370dbe8af"
 }

@@ -1,0 +1,95 @@
+{
+	"orð": "kvísla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kvísl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kvísl-kvk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kvísla",
+		"sagnbót": "kvíslað",
+		"boðháttur": {
+			"stýfður": "kvísla",
+			"et": "kvíslaðu",
+			"ft": "kvíslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvísla", "kvíslar", "kvíslar"],
+					"ft": ["kvíslum", "kvíslið", "kvísla"]
+				},
+				"þátíð": {
+					"et": ["kvíslaði", "kvíslaðir", "kvíslaði"],
+					"ft": ["kvísluðum", "kvísluðuð", "kvísluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvísli", "kvíslir", "kvísli"],
+					"ft": ["kvíslum", "kvíslið", "kvísli"]
+				},
+				"þátíð": {
+					"et": ["kvíslaði", "kvíslaðir", "kvíslaði"],
+					"ft": ["kvísluðum", "kvísluðuð", "kvísluðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kvíslast",
+		"sagnbót": "kvíslast",
+		"boðháttur": {
+			"et": "kvíslastu",
+			"ft": "kvíslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kvíslast", "kvíslast", "kvíslast"],
+					"ft": ["kvíslumst", "kvíslist", "kvíslast"]
+				},
+				"þátíð": {
+					"et": ["kvíslaðist", "kvíslaðist", "kvíslaðist"],
+					"ft": ["kvísluðumst", "kvísluðust", "kvísluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kvíslist", "kvíslist", "kvíslist"],
+					"ft": ["kvíslumst", "kvíslist", "kvíslist"]
+				},
+				"þátíð": {
+					"et": ["kvíslaðist", "kvíslaðist", "kvíslaðist"],
+					"ft": ["kvísluðumst", "kvísluðust", "kvísluðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kvíslandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kvíslaður", "kvíslaðan", "kvísluðum", "kvíslaðs"],
+					"kvk": ["kvísluð", "kvíslaða", "kvíslaðri", "kvíslaðrar"],
+					"hk": ["kvíslað", "kvíslað", "kvísluðu", "kvíslaðs"]
+				},
+				"ft": {
+					"kk": ["kvíslaðir", "kvíslaða", "kvísluðum", "kvíslaðra"],
+					"kvk": ["kvíslaðar", "kvíslaðar", "kvísluðum", "kvíslaðra"],
+					"hk": ["kvísluð", "kvísluð", "kvísluðum", "kvíslaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kvísla",
+	"hash": "c524c62c494ae95d57c2207c3eac9bb09e1f2365b5b6cd6738bcbc41adf0ccaa"
+}
