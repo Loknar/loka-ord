@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kaup",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kaup-hk"
-		},
-		{
-			"mynd": "tryggingar",
+			"mynd": "kauptryggingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-trygging-kvk"
+			"kennistrengur": "no-kauptrygging-kvk"
 		},
 		{
-			"mynd": "tíma",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-tími-kk"
-		},
-		{
-			"kennistrengur": "no-bil-hk"
+			"kennistrengur": "no-tímabil-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kauptryggingartímabilin", "kauptryggingartímabilin", "kauptryggingartímabilunum", "kauptryggingartímabilanna"]
 	},
 	"kennistrengur": "no-kauptryggingartímabil-hk",
-	"hash": "41831c305328decab919a2a90a7cff35fced5e96321ef6419e507d095b10bfd5"
+	"hash": "4ac45a576ab7b2780740d8903d64071e88801729298953fb447bed3796f897d5"
 }

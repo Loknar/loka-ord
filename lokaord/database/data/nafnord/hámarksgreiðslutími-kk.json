@@ -1,0 +1,27 @@
+{
+	"orð": "hámarksgreiðslutími",
+	"flokkur": "nafnorð",
+	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "hámarks",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hámark-hk"
+		},
+		{
+			"mynd": "greiðslu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-greiðsla-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-tími-kk"
+		}
+	],
+	"et": {
+		"ág": ["hámarksgreiðslutími", "hámarksgreiðslutíma", "hámarksgreiðslutíma", "hámarksgreiðslutíma"],
+		"mg": ["hámarksgreiðslutíminn", "hámarksgreiðslutímann", "hámarksgreiðslutímanum", "hámarksgreiðslutímans"]
+	},
+	"kennistrengur": "no-hámarksgreiðslutími-kk",
+	"hash": "715a464e907aa2feb6efcfdcbb3e4ec0103a08ca929c894910f6a82bfdeb7d52"
+}
