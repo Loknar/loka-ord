@@ -8,7 +8,7 @@
 			"kennistrengur": "no-flipp-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -66,8 +66,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "flippandi"
+		"nútíðar": "flippandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flippaður", "flippaðan", "flippuðum", "flippaðs"],
+					"kvk": ["flippuð", "flippaða", "flippaðri", "flippaðrar"],
+					"hk": ["flippað", "flippað", "flippuðu", "flippaðs"]
+				},
+				"ft": {
+					"kk": ["flippaðir", "flippaða", "flippuðum", "flippaðra"],
+					"kvk": ["flippaðar", "flippaðar", "flippuðum", "flippaðra"],
+					"hk": ["flippuð", "flippuð", "flippuðum", "flippaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["flippaði", "flippaða", "flippaða", "flippaða"],
+					"kvk": ["flippaða", "flippuðu", "flippuðu", "flippuðu"],
+					"hk": ["flippaða", "flippaða", "flippaða", "flippaða"]
+				},
+				"ft": {
+					"kk": ["flippuðu", "flippuðu", "flippuðu", "flippuðu"],
+					"kvk": ["flippuðu", "flippuðu", "flippuðu", "flippuðu"],
+					"hk": ["flippuðu", "flippuðu", "flippuðu", "flippuðu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-flippa",
-	"hash": "969d4b1957e39eeb4979ae2275471c067ed339c86698d06f0b92d9dd65e8517b"
+	"hash": "53af3ade4b311459c1a3aaef943a4a451acf01e9cec666acf13160034d8e4e84"
 }

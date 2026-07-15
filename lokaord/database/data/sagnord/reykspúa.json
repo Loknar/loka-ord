@@ -1,0 +1,73 @@
+{
+	"orð": "reykspúa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "reyk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-reykur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-spúa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "reykspúa",
+		"sagnbót": "reykspúað",
+		"boðháttur": {
+			"stýfður": "reykspú",
+			"et": "reykspúðu",
+			"ft": "reykspúið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["reykspúi", "reykspúir", "reykspúir"],
+					"ft": ["reykspúum", "reykspúið", "reykspúa"]
+				},
+				"þátíð": {
+					"et": ["reykspúði", "reykspúðir", "reykspúði"],
+					"ft": ["reykspúðum", "reykspúðuð", "reykspúðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["reykspúi", "reykspúir", "reykspúi"],
+					"ft": ["reykspúum", "reykspúið", "reykspúi"]
+				},
+				"þátíð": {
+					"et": ["reykspúði", "reykspúðir", "reykspúði"],
+					"ft": ["reykspúðum", "reykspúðuð", "reykspúðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "reykspúirðu",
+					"ft": "reykspúiði"
+				},
+				"þátíð": {
+					"et": "reykspúðirðu",
+					"ft": "reykspúðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "reykspúirðu",
+					"ft": "reykspúiði"
+				},
+				"þátíð": {
+					"et": "reykspúðirðu",
+					"ft": "reykspúðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "reykspúandi"
+	},
+	"kennistrengur": "so-reykspúa",
+	"hash": "76bb54e1817b5c2fae1f4a3fd4acb1895cbdbd57d3da55e6b5bd93ca72219786"
+}

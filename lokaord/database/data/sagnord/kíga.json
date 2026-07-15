@@ -1,0 +1,73 @@
+{
+	"orð": "kíga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kíg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kígur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kíga",
+		"sagnbót": "kígað",
+		"boðháttur": {
+			"stýfður": "kíga",
+			"et": "kígaðu",
+			"ft": "kígið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kíga", "kígar", "kígar"],
+					"ft": ["kígum", "kígið", "kíga"]
+				},
+				"þátíð": {
+					"et": ["kígaði", "kígaðir", "kígaði"],
+					"ft": ["kíguðum", "kíguðuð", "kíguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kígi", "kígir", "kígi"],
+					"ft": ["kígum", "kígið", "kígi"]
+				},
+				"þátíð": {
+					"et": ["kígaði", "kígaðir", "kígaði"],
+					"ft": ["kíguðum", "kíguðuð", "kíguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kígarðu",
+					"ft": "kígiði"
+				},
+				"þátíð": {
+					"et": "kígaðirðu",
+					"ft": "kíguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kígirðu",
+					"ft": "kígiði"
+				},
+				"þátíð": {
+					"et": "kígaðirðu",
+					"ft": "kíguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kígandi"
+	},
+	"kennistrengur": "so-kíga",
+	"hash": "f089bd3881dcda93fa805154f550f1816cf5816f4ce35cf87d3821e431cc1d76"
+}

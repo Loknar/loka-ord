@@ -4,23 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "félags",
+			"mynd": "samfélags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-félag-hk"
+			"kennistrengur": "no-samfélag-hk"
 		},
 		{
-			"mynd": "lög",
-			"samsetning": "stofn",
-			"kennistrengur": "no-lög-hk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-gæsla-kvk"
+			"kennistrengur": "no-löggæsla-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["samfélagslöggæslan", "samfélagslöggæsluna", "samfélagslöggæslunni", "samfélagslöggæslunnar"]
 	},
 	"kennistrengur": "no-samfélagslöggæsla-kvk",
-	"hash": "2df1e9a61d11e4045116581bc41222b2a4481ff095b63ed19d2d120cc4237298"
+	"hash": "bf9cf2c50e93ba8fcbd96f52a5d61bae603932e89e5261a9ed7fcea29989686f"
 }
