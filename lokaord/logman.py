@@ -12,7 +12,7 @@ import traceback
 if platform.system() == 'Windows':
 	import colorama
 
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 Name = 'logman'
 Logger = None
@@ -60,10 +60,10 @@ class JSONFormatter(logging.Formatter):
 		# https://docs.python.org/3/library/logging.html#logrecord-objects
 		if recordfields is not None:
 			if not (isinstance(recordfields, list)):
-				raise Exception('recordfields should be list')
+				raise ValueError('recordfields should be list')
 			for recordfield in recordfields:
 				if not (isinstance(recordfield, str)):
-					raise Exception('recordfield should be str')
+					raise ValueError('recordfield should be str')
 			self.recordfields = recordfields
 		else:
 			self.recordfields = ['ts', 'level', 'msg', 'pathname', 'lineno']
@@ -75,22 +75,20 @@ class JSONFormatter(logging.Formatter):
 			record.msecs
 		)
 		if (len(self.recordfields) > 0):
-			fields = []
+			data = {}
 			if 'ts' not in self.recordfields:
-				fields.append(('ts', timestamp))  # we always want the timestamp right?
+				data['ts'] = timestamp  # we always want the timestamp right?
 			for recordfield in self.recordfields:
 				if recordfield == 'ts':
-					fields.append((recordfield, timestamp))
+					data[recordfield] = timestamp
 				elif recordfield == 'level':
-					fields.append((recordfield, getattr(record, 'levelname')))
+					data[recordfield] = getattr(record, 'levelname')
 				elif hasattr(record, recordfield) and getattr(record, recordfield) is not None:
-					fields.append((recordfield, getattr(record, recordfield)))
+					data[recordfield] = getattr(record, recordfield)
 			if 'msg' not in self.recordfields:
-				fields.append(('msg', record.msg))  # we always want the msg right?
-			# we use OrderedDict to ensure specified key order in json record
-			data = collections.OrderedDict(fields)
+				data['msg'] = record.msg  # we always want the msg right?
 		else:
-			data = collections.OrderedDict([('ts', timestamp), ('msg', record.msg)])
+			data = {'ts': timestamp, 'msg': record.msg}
 		return json.dumps(data, separators=(',', ':'))
 
 
@@ -172,25 +170,24 @@ class ColoredFormatter(logging.Formatter):
 
 	def assert_valid_styles(self, styles):
 		if not isinstance(styles, dict):
-			raise Exception('styles should be dict')
+			raise ValueError('styles should be dict')
 		for name in styles:
 			if not isinstance(name, str):
-				raise Exception('name should be str')
+				raise ValueError('name key should be str')
+			if not isinstance(styles[name], dict):
+				raise ValueError('name value should be dict')
 			for style in styles[name]:
-				if not isinstance(style, dict):
-					raise Exception('style should be dict')
-				for key in style.keys():
-					if not isinstance(key, str):
-						raise Exception('key should be str')
-					value = style[key]
-					if key in ('color', 'background'):
-						if not isinstance(value, (str, int)):
-							raise Exception('value should be str or int')
-					else:
-						if key not in self.styling_set_map.keys():
-							raise Exception('key should be in styling_set_map')
-						if not isinstance(value, bool):
-							raise Exception('value should be bool')
+				if not isinstance(style, str):
+					raise ValueError('style key should be str')
+				value = styles[name][style]
+				if style in ('color', 'background'):
+					if not isinstance(value, (str, int)):
+						raise ValueError('value should be str or int')
+				else:
+					if style not in self.styling_set_map.keys():
+						raise ValueError('key should be in styling_set_map')
+					if not isinstance(value, bool):
+						raise ValueError('value should be bool')
 
 	def get_style_codes(self, style):
 		style_codes = []
@@ -210,33 +207,36 @@ class ColoredFormatter(logging.Formatter):
 		return style_codes
 
 	def format(self, record):
-		colored_record = copy.copy(record)
+		# store original record properties
+		orig_msg = record.msg
+		orig_levelname = record.levelname
 		# set styles for message based on levelname
 		level_style_codes = []
-		level_style = self.level_styles.get(colored_record.levelname.lower(), {'color': 'default'})
+		level_style = self.level_styles.get(record.levelname.lower(), {'color': 'default'})
 		level_style_codes = self.get_style_codes(level_style)
 		seq_msg = ';'.join(str(x) for x in level_style_codes)
-		colored_message = colored_record.msg
-		colored_record.msg = '{0}{1}m{2}{3}'.format(
-			self.prefix, seq_msg, colored_message, self.suffix
-		)
+		record.msg = f'{self.prefix}{seq_msg}m{record.msg}{self.suffix}'
 		# set styles for levelname based on levelname, also always use bold
 		seq_lvl = seq_msg
 		if self.styling_set_map['bold'] not in level_style_codes:
 			seq_lvl = ';'.join(
 				str(x) for x in (level_style_codes + [self.styling_set_map['bold']])
 			)
-		colored_record.levelname = '{0}{1}m{2}{3}'.format(
-			self.prefix, seq_lvl, colored_record.levelname, self.suffix
-		)
-		return logging.Formatter.format(self, colored_record)
+		record.levelname = f'{self.prefix}{seq_lvl}m{record.levelname}{self.suffix}'
+		formatted_record = super().format(record)
+		# restore original record properties to avoid side-effects down the stream pipeline
+		record.msg = orig_msg
+		record.levelname = orig_levelname
+		return formatted_record
 
 
 def configure_logger(
-	name, role, config, output_dir='./', log_to_cli=False, colored_cli=True, log_to_file=True,
+	name, role, config=None, output_dir='./', log_to_cli=False, colored_cli=True, log_to_file=True,
 	log_to_json=True
 ):
 	logger = logging.getLogger(name)
+	if config is None:
+		config = copy.copy(Log_Config)
 	log_level = config['loglevel']
 	logger.setLevel(log_level)
 	if log_to_cli and colored_cli:
@@ -272,15 +272,15 @@ def configure_logger(
 		formatter_readable = logging.Formatter(config['format'], config['time_format'])
 		file_handler_readable.setFormatter(formatter_readable)
 		logger.addHandler(file_handler_readable)
-		# setup minified-single-line-json log file handler
-		log_file_json = os.path.join(
-			output_dir, config['filename'].format(name=name, role=role, format='.json')
-		)
-		file_handler_json = logging.FileHandler(
-			log_file_json, mode='a', encoding='utf-8', delay=True
-		)
-		file_handler_json.setLevel(log_level)
 		if log_to_json:
+			# setup minified-single-line-json log file handler
+			log_file_json = os.path.join(
+				output_dir, config['filename'].format(name=name, role=role, format='.json')
+			)
+			file_handler_json = logging.FileHandler(
+				log_file_json, mode='a', encoding='utf-8', delay=True
+			)
+			file_handler_json.setLevel(log_level)
 			formatter_json = JSONFormatter(config['json_format'])
 			file_handler_json.setFormatter(formatter_json)
 			logger.addHandler(file_handler_json)
@@ -316,9 +316,9 @@ def init(
 ):
 	global Name, Logger, Log_Config, Log_Levels
 	if role not in ('cli', 'api', 'cron', 'hook', 'mod'):
-		raise Exception('unexpected role')
+		raise ValueError('unexpected role')
 
-	log_config = copy.deepcopy(Log_Config)
+	log_config = copy.copy(Log_Config)
 
 	if name is None:
 		name = Name
