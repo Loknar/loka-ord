@@ -1,0 +1,22 @@
+{
+	"orð": "Byggingalausnir",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Bygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"beygingar": ["ft-ág"],
+			"kennistrengur": "no-lausn-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["Byggingalausnir", "Byggingalausnir", "Byggingalausnum", "Byggingalausna"]
+	},
+	"kennistrengur": "sérn.ön-Byggingalausnir-kvk",
+	"hash": "8d04ed1e2110b331b8a34e523ca0fefa25ee13d96c49ea1fffcdc85619544269"
+}

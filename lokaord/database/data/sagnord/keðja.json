@@ -1,0 +1,87 @@
+{
+	"orð": "keðja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "keðj",
+			"samsetning": "stofn",
+			"kennistrengur": "no-keðja-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "keðja",
+		"sagnbót": "keðjað",
+		"boðháttur": {
+			"stýfður": "keðja",
+			"et": "keðjaðu",
+			"ft": "keðjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["keðja", "keðjar", "keðjar"],
+					"ft": ["keðjum", "keðjið", "keðja"]
+				},
+				"þátíð": {
+					"et": ["keðjaði", "keðjaðir", "keðjaði"],
+					"ft": ["keðjuðum", "keðjuðuð", "keðjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["keðji", "keðjir", "keðji"],
+					"ft": ["keðjum", "keðjið", "keðji"]
+				},
+				"þátíð": {
+					"et": ["keðjaði", "keðjaðir", "keðjaði"],
+					"ft": ["keðjuðum", "keðjuðuð", "keðjuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "keðjarðu",
+					"ft": "keðjiði"
+				},
+				"þátíð": {
+					"et": "keðjaðirðu",
+					"ft": "keðjuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "keðjirðu",
+					"ft": "keðjiði"
+				},
+				"þátíð": {
+					"et": "keðjaðirðu",
+					"ft": "keðjuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "keðjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["keðjaður", "keðjaðan", "keðjuðum", "keðjaðs"],
+					"kvk": ["keðjuð", "keðjaða", "keðjaðri", "keðjaðrar"],
+					"hk": ["keðjað", "keðjað", "keðjuðu", "keðjaðs"]
+				},
+				"ft": {
+					"kk": ["keðjaðir", "keðjaða", "keðjuðum", "keðjaðra"],
+					"kvk": ["keðjaðar", "keðjaðar", "keðjuðum", "keðjaðra"],
+					"hk": ["keðjuð", "keðjuð", "keðjuðum", "keðjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-keðja",
+	"hash": "a3d29d58af20a20e446263463706d9f9ba8dad4647b6590878ace23a14071a69"
+}

@@ -1,0 +1,121 @@
+{
+	"orð": "gusa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "gus",
+			"samsetning": "stofn",
+			"kennistrengur": "no-gusa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "gusa",
+		"sagnbót": "gusað",
+		"boðháttur": {
+			"stýfður": "gusa",
+			"et": "gusaðu",
+			"ft": "gusið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gusa", "gusar", "gusar"],
+					"ft": ["gusum", "gusið", "gusa"]
+				},
+				"þátíð": {
+					"et": ["gusaði", "gusaðir", "gusaði"],
+					"ft": ["gusuðum", "gusuðuð", "gusuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gusi", "gusir", "gusi"],
+					"ft": ["gusum", "gusið", "gusi"]
+				},
+				"þátíð": {
+					"et": ["gusaði", "gusaðir", "gusaði"],
+					"ft": ["gusuðum", "gusuðuð", "gusuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gusarðu",
+					"ft": "gusiði"
+				},
+				"þátíð": {
+					"et": "gusaðirðu",
+					"ft": "gusuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gusirðu",
+					"ft": "gusiði"
+				},
+				"þátíð": {
+					"et": "gusaðirðu",
+					"ft": "gusuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "gusast",
+		"sagnbót": "gusast",
+		"boðháttur": {
+			"et": "gusastu",
+			"ft": "gusist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["gusast", "gusast", "gusast"],
+					"ft": ["gusumst", "gusist", "gusast"]
+				},
+				"þátíð": {
+					"et": ["gusaðist", "gusaðist", "gusaðist"],
+					"ft": ["gusuðumst", "gusuðust", "gusuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gusist", "gusist", "gusist"],
+					"ft": ["gusumst", "gusist", "gusist"]
+				},
+				"þátíð": {
+					"et": ["gusaðist", "gusaðist", "gusaðist"],
+					"ft": ["gusuðumst", "gusuðust", "gusuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gusastu"
+				},
+				"þátíð": {
+					"et": "gusaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gusistu"
+				},
+				"þátíð": {
+					"et": "gusaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gusandi"
+	},
+	"kennistrengur": "so-gusa",
+	"hash": "4ac32d04b2afd31fea5fcf77ac4f49e65b8f43a0ce7f1f2e9d83897b4658a426"
+}

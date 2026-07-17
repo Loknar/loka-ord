@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "leið",
-			"samsetning": "stofn",
-			"kennistrengur": "no-leið-kvk"
-		},
-		{
-			"mynd": "toga",
+			"mynd": "leiðtoga",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-togi-kk"
-		},
-		{
-			"mynd": "kapp",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kapp-hk"
+			"kennistrengur": "no-leiðtogi-kk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-ræða-kvk"
+			"kennistrengur": "no-kappræða-kvk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["leiðtogakappræðurnar", "leiðtogakappræðurnar", "leiðtogakappræðunum", "leiðtogakappræðnanna"]
 	},
 	"kennistrengur": "no-leiðtogakappræður-kvk",
-	"hash": "b863074c8d272db73bce8e061cbac1ce07578c31bdb53107b9522c6e3fdbe852"
+	"hash": "b477fcb399a10c6aa336d872af4be198711203376e01dc707292c9f26a7bb7fe"
 }

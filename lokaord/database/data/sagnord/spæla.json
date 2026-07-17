@@ -1,0 +1,159 @@
+{
+	"orð": "spæla",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "spæla",
+		"sagnbót": "spælt",
+		"boðháttur": {
+			"stýfður": "spæl",
+			"et": "spældu",
+			"ft": "spælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spæli", "spælir", "spælir"],
+					"ft": ["spælum", "spælið", "spæla"]
+				},
+				"þátíð": {
+					"et": ["spældi", "spældir", "spældi"],
+					"ft": ["spældum", "spælduð", "spældu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spæli", "spælir", "spæli"],
+					"ft": ["spælum", "spælið", "spæli"]
+				},
+				"þátíð": {
+					"et": ["spældi", "spældir", "spældi"],
+					"ft": ["spældum", "spælduð", "spældu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spælirðu",
+					"ft": "spæliði"
+				},
+				"þátíð": {
+					"et": "spældirðu",
+					"ft": "spælduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spælirðu",
+					"ft": "spæliði"
+				},
+				"þátíð": {
+					"et": "spældirðu",
+					"ft": "spælduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "spælast",
+		"sagnbót": "spælst",
+		"boðháttur": {
+			"et": "spælistu",
+			"ft": "spælist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spælist", "spælist", "spælist"],
+					"ft": ["spælumst", "spælist", "spælast"]
+				},
+				"þátíð": {
+					"et": ["spældist", "spældist", "spældist"],
+					"ft": ["spældumst", "spældust", "spældust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spælist", "spælist", "spælist"],
+					"ft": ["spælumst", "spælist", "spælist"]
+				},
+				"þátíð": {
+					"et": ["spældist", "spældist", "spældist"],
+					"ft": ["spældumst", "spældust", "spældust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spælist", "spælist", "spælist"],
+					"ft": ["spælist", "spælist", "spælist"]
+				},
+				"þátíð": {
+					"et": ["spældist", "spældist", "spældist"],
+					"ft": ["spældist", "spældist", "spældist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spælist", "spælist", "spælist"],
+					"ft": ["spælist", "spælist", "spælist"]
+				},
+				"þátíð": {
+					"et": ["spældist", "spældist", "spældist"],
+					"ft": ["spældist", "spældist", "spældist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spælistu"
+				},
+				"þátíð": {
+					"et": "spældistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spælistu"
+				},
+				"þátíð": {
+					"et": "spældistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spælandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["spældur", "spældan", "spældum", "spælds"],
+					"kvk": ["spæld", "spælda", "spældri", "spældrar"],
+					"hk": ["spælt", "spælt", "spældu", "spælds"]
+				},
+				"ft": {
+					"kk": ["spældir", "spælda", "spældum", "spældra"],
+					"kvk": ["spældar", "spældar", "spældum", "spældra"],
+					"hk": ["spæld", "spæld", "spældum", "spældra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["spældi", "spælda", "spælda", "spælda"],
+					"kvk": ["spælda", "spældu", "spældu", "spældu"],
+					"hk": ["spælda", "spælda", "spælda", "spælda"]
+				},
+				"ft": {
+					"kk": ["spældu", "spældu", "spældu", "spældu"],
+					"kvk": ["spældu", "spældu", "spældu", "spældu"],
+					"hk": ["spældu", "spældu", "spældu", "spældu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-spæla",
+	"hash": "e4dc88599bd876020b58dfee5337028a22fafee1ca2a526b05de315f0b2a9115"
+}
