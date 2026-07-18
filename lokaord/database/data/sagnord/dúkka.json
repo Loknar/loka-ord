@@ -1,0 +1,135 @@
+{
+	"orð": "dúkka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dúkk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dúkk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dúkka",
+		"sagnbót": "dúkkað",
+		"boðháttur": {
+			"stýfður": "dúkka",
+			"et": "dúkkaðu",
+			"ft": "dúkkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dúkka", "dúkkar", "dúkkar"],
+					"ft": ["dúkkum", "dúkkið", "dúkka"]
+				},
+				"þátíð": {
+					"et": ["dúkkaði", "dúkkaðir", "dúkkaði"],
+					"ft": ["dúkkuðum", "dúkkuðuð", "dúkkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dúkki", "dúkkir", "dúkki"],
+					"ft": ["dúkkum", "dúkkið", "dúkki"]
+				},
+				"þátíð": {
+					"et": ["dúkkaði", "dúkkaðir", "dúkkaði"],
+					"ft": ["dúkkuðum", "dúkkuðuð", "dúkkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dúkkarðu",
+					"ft": "dúkkiði"
+				},
+				"þátíð": {
+					"et": "dúkkaðirðu",
+					"ft": "dúkkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dúkkirðu",
+					"ft": "dúkkiði"
+				},
+				"þátíð": {
+					"et": "dúkkaðirðu",
+					"ft": "dúkkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dúkkast",
+		"sagnbót": "dúkkast",
+		"boðháttur": {
+			"et": "dúkkastu",
+			"ft": "dúkkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dúkkast", "dúkkast", "dúkkast"],
+					"ft": ["dúkkumst", "dúkkist", "dúkkast"]
+				},
+				"þátíð": {
+					"et": ["dúkkaðist", "dúkkaðist", "dúkkaðist"],
+					"ft": ["dúkkuðumst", "dúkkuðust", "dúkkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dúkkist", "dúkkist", "dúkkist"],
+					"ft": ["dúkkumst", "dúkkist", "dúkkist"]
+				},
+				"þátíð": {
+					"et": ["dúkkaðist", "dúkkaðist", "dúkkaðist"],
+					"ft": ["dúkkuðumst", "dúkkuðust", "dúkkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dúkkastu"
+				},
+				"þátíð": {
+					"et": "dúkkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dúkkistu"
+				},
+				"þátíð": {
+					"et": "dúkkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dúkkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dúkkaður", "dúkkaðan", "dúkkuðum", "dúkkaðs"],
+					"kvk": ["dúkkuð", "dúkkaða", "dúkkaðri", "dúkkaðrar"],
+					"hk": ["dúkkað", "dúkkað", "dúkkuðu", "dúkkaðs"]
+				},
+				"ft": {
+					"kk": ["dúkkaðir", "dúkkaða", "dúkkuðum", "dúkkaðra"],
+					"kvk": ["dúkkaðar", "dúkkaðar", "dúkkuðum", "dúkkaðra"],
+					"hk": ["dúkkuð", "dúkkuð", "dúkkuðum", "dúkkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dúkka",
+	"hash": "ddd9eadf1e3a9652d6463038a3285379390e7c6af27f745b0b31160d66430469"
+}
