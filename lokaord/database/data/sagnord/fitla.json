@@ -1,0 +1,73 @@
+{
+	"orð": "fitla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fitl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fitl-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fitla",
+		"sagnbót": "fitlað",
+		"boðháttur": {
+			"stýfður": "fitla",
+			"et": "fitlaðu",
+			"ft": "fitlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fitla", "fitlar", "fitlar"],
+					"ft": ["fitlum", "fitlið", "fitla"]
+				},
+				"þátíð": {
+					"et": ["fitlaði", "fitlaðir", "fitlaði"],
+					"ft": ["fitluðum", "fitluðuð", "fitluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fitli", "fitlir", "fitli"],
+					"ft": ["fitlum", "fitlið", "fitli"]
+				},
+				"þátíð": {
+					"et": ["fitlaði", "fitlaðir", "fitlaði"],
+					"ft": ["fitluðum", "fitluðuð", "fitluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fitlarðu",
+					"ft": "fitliði"
+				},
+				"þátíð": {
+					"et": "fitlaðirðu",
+					"ft": "fitluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fitlirðu",
+					"ft": "fitliði"
+				},
+				"þátíð": {
+					"et": "fitlaðirðu",
+					"ft": "fitluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fitlandi"
+	},
+	"kennistrengur": "so-fitla",
+	"hash": "3c70ebe74b9488ee3e91e5e58c1b2207ba70fceb2509f30697c0d24444f4c4af"
+}

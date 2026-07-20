@@ -1,6 +1,16 @@
 {
 	"orð": "kenndur",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kenn",
+			"samsetning": "stofn",
+			"kennistrengur": "so-kenna"
+		},
+		{
+			"kennistrengur": "lo-dur-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-kenndur",
-	"hash": "aef458784664a1d9d060707cd40e3c913acec552f2a6de799656b3b590359320"
+	"hash": "75d259bd5897b2a7b79e49b8e72ad814a400a94ad664d53b337795c0171ad935"
 }

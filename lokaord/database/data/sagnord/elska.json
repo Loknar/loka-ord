@@ -1,6 +1,16 @@
 {
 	"orð": "elska",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "elsk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-elskur"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "elska",
 		"sagnbót": "elskað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "elskast",
 		"sagnbót": "elskast",
+		"boðháttur": {
+			"et": "elskastu",
+			"ft": "elskist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-elska",
-	"hash": "ffe0a86b5216b9c8303fc39ad2ed51e01441e3d2e3b455fcaec1427e140dc809"
+	"hash": "0c6fa7ebc5ad50d303a51b50c17a393a6989e3e2a0dbc3ef4b124842e67c8263"
 }

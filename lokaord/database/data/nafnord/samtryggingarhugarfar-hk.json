@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"mynd": "tryggingar",
+			"mynd": "samtryggingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-trygging-kvk"
+			"kennistrengur": "no-samtrygging-kvk"
 		},
 		{
-			"mynd": "hugar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hugur-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-far-hk"
+			"kennistrengur": "no-hugarfar-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["samtryggingarhugarfarið", "samtryggingarhugarfarið", "samtryggingarhugarfarinu", "samtryggingarhugarfarsins"]
 	},
 	"kennistrengur": "no-samtryggingarhugarfar-hk",
-	"hash": "887ce697a9a69138abb15b58c5c2db66dc12e40011fecc19ee4d68b06b9d5ffe"
+	"hash": "f1baf3a9e207314e5dff26ca1bca346b24e8821efcf6e01f6d5abf0f21a25dc3"
 }
