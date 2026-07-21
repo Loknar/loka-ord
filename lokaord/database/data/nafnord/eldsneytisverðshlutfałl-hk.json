@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "eldsneytis",
+			"mynd": "eldsneytisverðs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eldsneyti-hk"
-		},
-		{
-			"mynd": "verðs",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-verð-hk"
-		},
-		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
+			"kennistrengur": "no-eldsneytisverð-hk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-fałl-hk"
+			"kennistrengur": "no-hlutfałl-hk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["eldsneytisverðshlutfałlið", "eldsneytisverðshlutfałlið", "eldsneytisverðshlutfałlinu", "eldsneytisverðshlutfallsins"]
 	},
 	"kennistrengur": "no-eldsneytisverðshlutfałl-hk",
-	"hash": "8a32f148a7d2b7074fd61da6bad71ee490efd72318d5269b41dedc8cd826604a"
+	"hash": "ad31d2bcd5aa387f24ae4590d644f63d509befbf024fc365720e554b8d89438a"
 }

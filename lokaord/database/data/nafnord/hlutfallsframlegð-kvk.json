@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
-		},
-		{
-			"mynd": "falls",
+			"mynd": "hlutfalls",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fałl-hk"
+			"kennistrengur": "no-hlutfałl-hk"
 		},
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"kennistrengur": "no-legð-kvk-ó"
+			"kennistrengur": "no-framlegð-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["hlutfallsframlegðin", "hlutfallsframlegðina", "hlutfallsframlegðinni", "hlutfallsframlegðarinnar"]
 	},
 	"kennistrengur": "no-hlutfallsframlegð-kvk",
-	"hash": "6893a7ac751e1030972e003c123583f2056503f8fe6500fe46eee4a2a27660e9"
+	"hash": "36b5ce11edd9ca53abba9a6fecbb8c1208b4fcacbaafb1fd165475ac8a13ccb1"
 }
