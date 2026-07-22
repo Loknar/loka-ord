@@ -1,0 +1,135 @@
+{
+	"orð": "murna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "murn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-murn-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "murna",
+		"sagnbót": "murnað",
+		"boðháttur": {
+			"stýfður": "murna",
+			"et": "murnaðu",
+			"ft": "murnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["murna", "murnar", "murnar"],
+					"ft": ["murnum", "murnið", "murna"]
+				},
+				"þátíð": {
+					"et": ["murnaði", "murnaðir", "murnaði"],
+					"ft": ["murnuðum", "murnuðuð", "murnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["murni", "murnir", "murni"],
+					"ft": ["murnum", "murnið", "murni"]
+				},
+				"þátíð": {
+					"et": ["murnaði", "murnaðir", "murnaði"],
+					"ft": ["murnuðum", "murnuðuð", "murnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "murnarðu",
+					"ft": "murniði"
+				},
+				"þátíð": {
+					"et": "murnaðirðu",
+					"ft": "murnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "murnirðu",
+					"ft": "murniði"
+				},
+				"þátíð": {
+					"et": "murnaðirðu",
+					"ft": "murnuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "murnast",
+		"sagnbót": "murnast",
+		"boðháttur": {
+			"et": "murnastu",
+			"ft": "murnist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["murnast", "murnast", "murnast"],
+					"ft": ["murnumst", "murnist", "murnast"]
+				},
+				"þátíð": {
+					"et": ["murnaðist", "murnaðist", "murnaðist"],
+					"ft": ["murnuðumst", "murnuðust", "murnuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["murnist", "murnist", "murnist"],
+					"ft": ["murnumst", "murnist", "murnist"]
+				},
+				"þátíð": {
+					"et": ["murnaðist", "murnaðist", "murnaðist"],
+					"ft": ["murnuðumst", "murnuðust", "murnuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "murnastu"
+				},
+				"þátíð": {
+					"et": "murnaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "murnistu"
+				},
+				"þátíð": {
+					"et": "murnaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "murnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["murnaður", "murnaðan", "murnuðum", "murnaðs"],
+					"kvk": ["murnuð", "murnaða", "murnaðri", "murnaðrar"],
+					"hk": ["murnað", "murnað", "murnuðu", "murnaðs"]
+				},
+				"ft": {
+					"kk": ["murnaðir", "murnaða", "murnuðum", "murnaðra"],
+					"kvk": ["murnaðar", "murnaðar", "murnuðum", "murnaðra"],
+					"hk": ["murnuð", "murnuð", "murnuðum", "murnaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-murna",
+	"hash": "49bf95b9521ffc514bcec3fbd238eed6efbc469e132418f210d009944fcf11c6"
+}

@@ -5,24 +5,19 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"myndir": "miðstig-vb-kvk",
+			"myndir": "miðstig-vb-kk",
 			"hástafa": true,
 			"fylgir": "-",
 			"kennistrengur": "lo-ytri"
 		},
 		{
-			"myndir": "frumstig-vb-kk",
-			"hástafa": true,
-			"kennistrengur": "lo-fagur"
-		},
-		{
-			"beygingar": ["et-ág"],
-			"kennistrengur": "no-dalur-kk"
+			"kennistrengur": "sérn.ön-Fagridalur-kk"
 		}
 	],
 	"et": {
-		"ág": ["Ytri-Fagridalur", "Ytri-Fagradal", "Ytri-Fagradal", "Ytri-Fagradals"]
+		"ág": ["Ytri-Fagridalur", "Ytri-Fagradal", "Ytri-Fagradal", "Ytri-Fagradals"],
+		"mg": ["Ytri-Fagridalurinn", "Ytri-Fagradalinn", "Ytri-Fagradalnum", "Ytri-Fagradalsins"]
 	},
 	"kennistrengur": "sérn.ön-Ytri-Fagridalur-kk",
-	"hash": "658aa3d5003998c6be166391dc7d3abfd71da92a0bda70b3ab09b81774f4f5ac"
+	"hash": "cae5632200f940f7c8d875e7be96a4fb262d763e53db4601396cac0376b7aeba"
 }
