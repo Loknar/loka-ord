@@ -1,0 +1,135 @@
+{
+	"orð": "ösla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ösl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ösl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ösla",
+		"sagnbót": "öslað",
+		"boðháttur": {
+			"stýfður": "ösla",
+			"et": "öslaðu",
+			"ft": "öslið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ösla", "öslar", "öslar"],
+					"ft": ["öslum", "öslið", "ösla"]
+				},
+				"þátíð": {
+					"et": ["öslaði", "öslaðir", "öslaði"],
+					"ft": ["ösluðum", "ösluðuð", "ösluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ösli", "öslir", "ösli"],
+					"ft": ["öslum", "öslið", "ösli"]
+				},
+				"þátíð": {
+					"et": ["öslaði", "öslaðir", "öslaði"],
+					"ft": ["ösluðum", "ösluðuð", "ösluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "öslarðu",
+					"ft": "ösliði"
+				},
+				"þátíð": {
+					"et": "öslaðirðu",
+					"ft": "ösluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "öslirðu",
+					"ft": "ösliði"
+				},
+				"þátíð": {
+					"et": "öslaðirðu",
+					"ft": "ösluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "öslast",
+		"sagnbót": "öslast",
+		"boðháttur": {
+			"et": "öslastu",
+			"ft": "öslist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["öslast", "öslast", "öslast"],
+					"ft": ["öslumst", "öslist", "öslast"]
+				},
+				"þátíð": {
+					"et": ["öslaðist", "öslaðist", "öslaðist"],
+					"ft": ["ösluðumst", "ösluðust", "ösluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["öslist", "öslist", "öslist"],
+					"ft": ["öslumst", "öslist", "öslist"]
+				},
+				"þátíð": {
+					"et": ["öslaðist", "öslaðist", "öslaðist"],
+					"ft": ["ösluðumst", "ösluðust", "ösluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "öslastu"
+				},
+				"þátíð": {
+					"et": "öslaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "öslistu"
+				},
+				"þátíð": {
+					"et": "öslaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "öslandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["öslaður", "öslaðan", "ösluðum", "öslaðs"],
+					"kvk": ["ösluð", "öslaða", "öslaðri", "öslaðrar"],
+					"hk": ["öslað", "öslað", "ösluðu", "öslaðs"]
+				},
+				"ft": {
+					"kk": ["öslaðir", "öslaða", "ösluðum", "öslaðra"],
+					"kvk": ["öslaðar", "öslaðar", "ösluðum", "öslaðra"],
+					"hk": ["ösluð", "ösluð", "ösluðum", "öslaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ösla",
+	"hash": "eca2ac83f4e001a1137097a5c1358dd05996ff405f8d56d7a8822ac3d8494998"
+}
