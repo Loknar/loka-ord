@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "lífs",
+			"mynd": "kynlífs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-líf-hk"
+			"kennistrengur": "no-kynlíf-hk"
 		},
 		{
-			"mynd": "ferða",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ferð-kvk"
-		},
-		{
-			"kennistrengur": "no-mennska-kvk"
+			"kennistrengur": "no-ferðamennska-kvk"
 		}
 	],
 	"et": {
@@ -27,5 +17,5 @@
 		"mg": ["kynlífsferðamennskan", "kynlífsferðamennskuna", "kynlífsferðamennskunni", "kynlífsferðamennskunnar"]
 	},
 	"kennistrengur": "no-kynlífsferðamennska-kvk",
-	"hash": "e26f8b123e1191936104e52da8dcb220c0efcb1145a2bb635ee13c7803323ac3"
+	"hash": "62abbe1f0ab6d05baf3c60b2ad9ea7d4518cd4d8e5da79c0597f482fb77b0ade"
 }

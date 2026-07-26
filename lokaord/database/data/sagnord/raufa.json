@@ -1,0 +1,135 @@
+{
+	"orð": "raufa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rauf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rauf-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "raufa",
+		"sagnbót": "raufað",
+		"boðháttur": {
+			"stýfður": "raufa",
+			"et": "raufaðu",
+			"ft": "raufið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["raufa", "raufar", "raufar"],
+					"ft": ["raufum", "raufið", "raufa"]
+				},
+				"þátíð": {
+					"et": ["raufaði", "raufaðir", "raufaði"],
+					"ft": ["raufuðum", "raufuðuð", "raufuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["raufi", "raufir", "raufi"],
+					"ft": ["raufum", "raufið", "raufi"]
+				},
+				"þátíð": {
+					"et": ["raufaði", "raufaðir", "raufaði"],
+					"ft": ["raufuðum", "raufuðuð", "raufuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "raufarðu",
+					"ft": "raufiði"
+				},
+				"þátíð": {
+					"et": "raufaðirðu",
+					"ft": "raufuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "raufirðu",
+					"ft": "raufiði"
+				},
+				"þátíð": {
+					"et": "raufaðirðu",
+					"ft": "raufuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "raufast",
+		"sagnbót": "raufast",
+		"boðháttur": {
+			"et": "raufastu",
+			"ft": "raufist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["raufast", "raufast", "raufast"],
+					"ft": ["raufumst", "raufist", "raufast"]
+				},
+				"þátíð": {
+					"et": ["raufaðist", "raufaðist", "raufaðist"],
+					"ft": ["raufuðumst", "raufuðust", "raufuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["raufist", "raufist", "raufist"],
+					"ft": ["raufumst", "raufist", "raufist"]
+				},
+				"þátíð": {
+					"et": ["raufaðist", "raufaðist", "raufaðist"],
+					"ft": ["raufuðumst", "raufuðust", "raufuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "raufastu"
+				},
+				"þátíð": {
+					"et": "raufaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "raufistu"
+				},
+				"þátíð": {
+					"et": "raufaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "raufandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["raufaður", "raufaðan", "raufuðum", "raufaðs"],
+					"kvk": ["raufuð", "raufaða", "raufaðri", "raufaðrar"],
+					"hk": ["raufað", "raufað", "raufuðu", "raufaðs"]
+				},
+				"ft": {
+					"kk": ["raufaðir", "raufaða", "raufuðum", "raufaðra"],
+					"kvk": ["raufaðar", "raufaðar", "raufuðum", "raufaðra"],
+					"hk": ["raufuð", "raufuð", "raufuðum", "raufaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-raufa",
+	"hash": "4e0fca94800176c51568178868ecad48a7b3552627af19cfd5a892905226b325"
+}

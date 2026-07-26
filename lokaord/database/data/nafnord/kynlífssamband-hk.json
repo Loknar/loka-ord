@@ -4,29 +4,22 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "lífs",
+			"mynd": "kynlífs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-líf-hk"
+			"kennistrengur": "no-kynlíf-hk"
 		},
 		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-band-hk"
+			"kennistrengur": "no-samband-hk"
 		}
 	],
 	"et": {
 		"ág": ["kynlífssamband", "kynlífssamband", "kynlífssambandi", "kynlífssambands"],
 		"mg": ["kynlífssambandið", "kynlífssambandið", "kynlífssambandinu", "kynlífssambandsins"]
 	},
+	"ft": {
+		"ág": ["kynlífssambönd", "kynlífssambönd", "kynlífssamböndum", "kynlífssambanda"],
+		"mg": ["kynlífssamböndin", "kynlífssamböndin", "kynlífssamböndunum", "kynlífssambandanna"]
+	},
 	"kennistrengur": "no-kynlífssamband-hk",
-	"hash": "7fb06e44012029d5873d599c39a98d07a0d4b4ecb383e080e0b91c1cca4e96ee"
+	"hash": "295bf629c9b9242dde5c7a23fa19d4ba0fa8637d213f1be7f7c563cf1d91b0e7"
 }

@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "lífs",
+			"mynd": "kynlífs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-líf-hk"
+			"kennistrengur": "no-kynlíf-hk"
 		},
 		{
-			"mynd": "nám",
-			"samsetning": "stofn",
-			"kennistrengur": "no-nám-hk"
-		},
-		{
-			"kennistrengur": "no-skeið-hk"
+			"kennistrengur": "no-námskeið-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kynlífsnámskeiðin", "kynlífsnámskeiðin", "kynlífsnámskeiðunum", "kynlífsnámskeiðanna"]
 	},
 	"kennistrengur": "no-kynlífsnámskeið-hk",
-	"hash": "ad72ba90b77b7cbcc272c03ce4bee25c3c077759d3b4e06980db2b64b4424aec"
+	"hash": "326ff87358f8175ac8c0d7efe72a83afc4b2cd7e5668fbcf1b609a6cdd688034"
 }

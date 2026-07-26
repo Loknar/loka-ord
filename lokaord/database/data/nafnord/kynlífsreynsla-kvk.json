@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "lífs",
+			"mynd": "kynlífs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-líf-hk"
+			"kennistrengur": "no-kynlíf-hk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["kynlífsreynslan", "kynlífsreynsluna", "kynlífsreynslunni", "kynlífsreynslunnar"]
 	},
 	"kennistrengur": "no-kynlífsreynsla-kvk",
-	"hash": "91644e3397b1cb861b498cb6f948f2bc02182afb876321e5e7cee0353b1d5e7c"
+	"hash": "543328a0c2135e39c8b3a608e38cc543d015c1489556ce25a25cb91f1f30b30d"
 }

@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kyn",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kyn-hk"
-		},
-		{
-			"mynd": "lífs",
+			"mynd": "kynlífs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-líf-hk"
+			"kennistrengur": "no-kynlíf-hk"
 		},
 		{
-			"mynd": "ráð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-ráð-hk"
-		},
-		{
-			"kennistrengur": "no-gjöf-kvk"
+			"kennistrengur": "no-ráðgjöf-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kynlífsráðgjafirnar", "kynlífsráðgjafirnar", "kynlífsráðgjöfunum", "kynlífsráðgjafanna"]
 	},
 	"kennistrengur": "no-kynlífsráðgjöf-kvk",
-	"hash": "bf76740831f18567a8ae08a3dd2beba98978db0fa904099414de5a799780c4ae"
+	"hash": "6f80a38b5eab810114ad1254c2296392327ed03f079e153d93f4ef842dfec988"
 }
