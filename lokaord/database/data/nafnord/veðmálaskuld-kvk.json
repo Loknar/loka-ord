@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "veð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-veð-hk"
-		},
-		{
-			"mynd": "mála",
+			"mynd": "veðmála",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-veðmál-hk"
 		},
 		{
 			"kennistrengur": "no-skuld-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["veðmálaskuldirnar", "veðmálaskuldirnar", "veðmálaskuldunum", "veðmálaskuldanna"]
 	},
 	"kennistrengur": "no-veðmálaskuld-kvk",
-	"hash": "66626a745f942be5ebd863485e22634a254bf6b865bd839bec489130b02454e1"
+	"hash": "1e57b26f38b32a10fc107c09fe9a51a90faab386344a3fc8493f8d05e1855fbe"
 }

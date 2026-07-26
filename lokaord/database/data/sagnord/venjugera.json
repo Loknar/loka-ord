@@ -1,0 +1,99 @@
+{
+	"orð": "venjugera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "venju",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-venja-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "venjugera",
+		"sagnbót": "venjugert",
+		"boðháttur": {
+			"stýfður": "venjuger",
+			"et": "venjugerðu",
+			"ft": "venjugerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["venjugeri", "venjugerir", "venjugerir"],
+					"ft": ["venjugerum", "venjugerið", "venjugera"]
+				},
+				"þátíð": {
+					"et": ["venjugerði", "venjugerðir", "venjugerði"],
+					"ft": ["venjugerðum", "venjugerðuð", "venjugerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["venjugeri", "venjugerir", "venjugeri"],
+					"ft": ["venjugerum", "venjugerið", "venjugeri"]
+				},
+				"þátíð": {
+					"et": ["venjugerði", "venjugerðir", "venjugerði"],
+					"ft": ["venjugerðum", "venjugerðuð", "venjugerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "venjugerirðu",
+					"ft": "venjugeriði"
+				},
+				"þátíð": {
+					"et": "venjugerðirðu",
+					"ft": "venjugerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "venjugerirðu",
+					"ft": "venjugeriði"
+				},
+				"þátíð": {
+					"et": "venjugerðirðu",
+					"ft": "venjugerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "venjugerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["venjugerður", "venjugerðan", "venjugerðum", "venjugerðs"],
+					"kvk": ["venjugerð", "venjugerða", "venjugerðri", "venjugerðrar"],
+					"hk": ["venjugert", "venjugert", "venjugerðu", "venjugerðs"]
+				},
+				"ft": {
+					"kk": ["venjugerðir", "venjugerða", "venjugerðum", "venjugerðra"],
+					"kvk": ["venjugerðar", "venjugerðar", "venjugerðum", "venjugerðra"],
+					"hk": ["venjugerð", "venjugerð", "venjugerðum", "venjugerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["venjugerði", "venjugerða", "venjugerða", "venjugerða"],
+					"kvk": ["venjugerða", "venjugerðu", "venjugerðu", "venjugerðu"],
+					"hk": ["venjugerða", "venjugerða", "venjugerða", "venjugerða"]
+				},
+				"ft": {
+					"kk": ["venjugerðu", "venjugerðu", "venjugerðu", "venjugerðu"],
+					"kvk": ["venjugerðu", "venjugerðu", "venjugerðu", "venjugerðu"],
+					"hk": ["venjugerðu", "venjugerðu", "venjugerðu", "venjugerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-venjugera",
+	"hash": "4e80cede4b07c2cba475bf96a89b90e27e20f8b1356186838698ddc9437b779c"
+}
