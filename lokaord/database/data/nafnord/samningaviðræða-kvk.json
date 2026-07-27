@@ -1,5 +1,5 @@
 {
-	"orð": "samningaviðræður",
+	"orð": "samningaviðræða",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"samsett": [
@@ -9,14 +9,17 @@
 			"kennistrengur": "no-samningur-kk"
 		},
 		{
-			"beygingar": ["ft"],
 			"kennistrengur": "no-viðræða-kvk"
 		}
 	],
+	"et": {
+		"ág": ["samningaviðræða", "samningaviðræðu", "samningaviðræðu", "samningaviðræðu"],
+		"mg": ["samningaviðræðan", "samningaviðræðuna", "samningaviðræðunni", "samningaviðræðunnar"]
+	},
 	"ft": {
 		"ág": ["samningaviðræður", "samningaviðræður", "samningaviðræðum", "samningaviðræðna"],
 		"mg": ["samningaviðræðurnar", "samningaviðræðurnar", "samningaviðræðunum", "samningaviðræðnanna"]
 	},
-	"kennistrengur": "no-samningaviðræður-kvk",
-	"hash": "dbba52b13956f6b190cdbf2f54741da85baeaef9e88c7886dd59a06c2df88d87"
+	"kennistrengur": "no-samningaviðræða-kvk",
+	"hash": "03d7137ff1e4f5ef32da1bfedc58ea80139ac43967688a0bb69fa3c756496a4c"
 }

@@ -1,5 +1,5 @@
 {
-	"orð": "samningsviðræður",
+	"orð": "samningsviðræða",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"samsett": [
@@ -9,14 +9,17 @@
 			"kennistrengur": "no-samningur-kk"
 		},
 		{
-			"beygingar": ["ft"],
 			"kennistrengur": "no-viðræða-kvk"
 		}
 	],
+	"et": {
+		"ág": ["samningsviðræða", "samningsviðræðu", "samningsviðræðu", "samningsviðræðu"],
+		"mg": ["samningsviðræðan", "samningsviðræðuna", "samningsviðræðunni", "samningsviðræðunnar"]
+	},
 	"ft": {
 		"ág": ["samningsviðræður", "samningsviðræður", "samningsviðræðum", "samningsviðræðna"],
 		"mg": ["samningsviðræðurnar", "samningsviðræðurnar", "samningsviðræðunum", "samningsviðræðnanna"]
 	},
-	"kennistrengur": "no-samningsviðræður-kvk",
-	"hash": "5805439bca52e5f6e11678c5493d89a40b309fc1b62d1b2878813a815778b860"
+	"kennistrengur": "no-samningsviðræða-kvk",
+	"hash": "1cd6053fab39a1c271b02e3ac3b16a552a527b23cb15bd95a97d9ab6bfca7929"
 }
