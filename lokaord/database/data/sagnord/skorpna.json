@@ -1,0 +1,99 @@
+{
+	"orð": "skorpna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skorpn",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-skorpa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skorpna",
+		"sagnbót": "skorpnað",
+		"boðháttur": {
+			"stýfður": "skorpna",
+			"et": "skorpnaðu",
+			"ft": "skorpnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skorpna", "skorpnar", "skorpnar"],
+					"ft": ["skorpnum", "skorpnið", "skorpna"]
+				},
+				"þátíð": {
+					"et": ["skorpnaði", "skorpnaðir", "skorpnaði"],
+					"ft": ["skorpnuðum", "skorpnuðuð", "skorpnuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skorpni", "skorpnir", "skorpni"],
+					"ft": ["skorpnum", "skorpnið", "skorpni"]
+				},
+				"þátíð": {
+					"et": ["skorpnaði", "skorpnaðir", "skorpnaði"],
+					"ft": ["skorpnuðum", "skorpnuðuð", "skorpnuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skorpnarðu",
+					"ft": "skorpniði"
+				},
+				"þátíð": {
+					"et": "skorpnaðirðu",
+					"ft": "skorpnuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skorpnirðu",
+					"ft": "skorpniði"
+				},
+				"þátíð": {
+					"et": "skorpnaðirðu",
+					"ft": "skorpnuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skorpnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skorpnaður", "skorpnaðan", "skorpnuðum", "skorpnaðs"],
+					"kvk": ["skorpnuð", "skorpnaða", "skorpnaðri", "skorpnaðrar"],
+					"hk": ["skorpnað", "skorpnað", "skorpnuðu", "skorpnaðs"]
+				},
+				"ft": {
+					"kk": ["skorpnaðir", "skorpnaða", "skorpnuðum", "skorpnaðra"],
+					"kvk": ["skorpnaðar", "skorpnaðar", "skorpnuðum", "skorpnaðra"],
+					"hk": ["skorpnuð", "skorpnuð", "skorpnuðum", "skorpnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["skorpnaði", "skorpnaða", "skorpnaða", "skorpnaða"],
+					"kvk": ["skorpnaða", "skorpnuðu", "skorpnuðu", "skorpnuðu"],
+					"hk": ["skorpnaða", "skorpnaða", "skorpnaða", "skorpnaða"]
+				},
+				"ft": {
+					"kk": ["skorpnuðu", "skorpnuðu", "skorpnuðu", "skorpnuðu"],
+					"kvk": ["skorpnuðu", "skorpnuðu", "skorpnuðu", "skorpnuðu"],
+					"hk": ["skorpnuðu", "skorpnuðu", "skorpnuðu", "skorpnuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skorpna",
+	"hash": "c40669a94acc2bf630a9ff50a0eab7918625245e0260e20faf808f360a94e639"
+}

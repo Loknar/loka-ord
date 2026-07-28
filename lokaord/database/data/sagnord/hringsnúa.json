@@ -1,0 +1,117 @@
+{
+	"orð": "hringsnúa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hring",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hringur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-snúa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hringsnúa",
+		"sagnbót": "hringsnúið",
+		"boðháttur": {
+			"stýfður": "hringsnú",
+			"et": "hringsnúðu",
+			"ft": "hringsńúið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hringsný", "hringsnýrð", "hringsnýr"],
+					"ft": ["hringsnúum", "hringsnúið", "hringsnúa"]
+				},
+				"þátíð": {
+					"et": ["hringsneri", "hringsnerir", "hringsneri"],
+					"ft": ["hringsnerum", "hringsneruð", "hringsneru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hringsnúi", "hringsnúir", "hringsnúi"],
+					"ft": ["hringsnúum", "hringsnúið", "hringsnúi"]
+				},
+				"þátíð": {
+					"et": ["hringsneri", "hringsnerir", "hringsneri"],
+					"ft": ["hringsnerum", "hringsneruð", "hringsneru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hringsnýrðu",
+					"ft": "hringsnúiði"
+				},
+				"þátíð": {
+					"et": "hringsnerirðu",
+					"ft": "hringsneruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hringsnúirðu",
+					"ft": "hringsnúiði"
+				},
+				"þátíð": {
+					"et": "hringsnerirðu",
+					"ft": "hringsneruði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hringsnúast",
+		"sagnbót": "hringsnúist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hringsnýst", "hringsnýst", "hringsnýst"],
+					"ft": ["hringsnúumst", "hringsnúist", "hringsnúast"]
+				},
+				"þátíð": {
+					"et": ["hringsnerist", "hringsnerist", "hringsnerist"],
+					"ft": ["hringsnerumst", "hringsnerust", "hringsnerust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hringsnúist", "hringsnúist", "hringsnúist"],
+					"ft": ["hringsnúumst", "hringsnúist", "hringsnúist"]
+				},
+				"þátíð": {
+					"et": ["hringsnerist", "hringsnerist", "hringsnerist"],
+					"ft": ["hringsnerumst", "hringsnerust", "hringsnerust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hringsnýstu"
+				},
+				"þátíð": {
+					"et": "hringsneristu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hringsnúistu"
+				},
+				"þátíð": {
+					"et": "hringsneristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hringsnúandi"
+	},
+	"kennistrengur": "so-hringsnúa",
+	"hash": "9b2bdc2ce379c51ba10698cd0d508063f06edb0f8e69053acd78361f9560a136"
+}
