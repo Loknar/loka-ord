@@ -55,10 +55,10 @@ class Ord:
 		self.loaded_from_db = loaded_from_db
 
 	def make_filename(self):
-		raise Exception('Implement me in derived class.')
+		raise NotImplementedError('Implement me in derived class.')
 
 	def make_kennistrengur(self):
-		raise Exception('Implement me in derived class.')
+		raise NotImplementedError('Implement me in derived class.')
 
 	def write_to_db(self) -> tuple[isl.Ord, bool]:
 		"""
@@ -335,7 +335,7 @@ class Ord:
 			flokkur = structs.Ordflokkar.Smaord.value
 			undirflokkur = structs.Smaordaflokkar[isl_ord.Ordflokkur.name].value
 		else:
-			raise Exception('Should not happen.')
+			raise ValueError('Unhandled orðflokkur? (Should not happen.)')
 		ord_data = {
 			'orð': isl_ord.Ord,
 			'flokkur': flokkur,
@@ -357,6 +357,10 @@ class Ord:
 				isl_ord_oh = db.Session.query(isl.SamsettOrdhluti).filter_by(
 					SamsettOrdhluti_id=next_ordhluti_id
 				).first()
+				if isl_ord_oh is None:
+					raise ValueError(
+						f'Orð "{isl_ord.Kennistrengur}" with void orðhluti? ({next_ordhluti_id})'
+					)
 				isl_ord_oh_ord = db.Session.query(isl.Ord).filter_by(
 					Ord_id=isl_ord_oh.fk_Ord_id
 				).first()
@@ -652,7 +656,7 @@ class Ord:
 				with json_file_path.open(mode='r', encoding='utf-8') as fi:
 					json_data = json.loads(fi.read())
 			except json.decoder.JSONDecodeError:
-				raise Exception(f'File "{json_file_path.name}" has invalid JSON format.')
+				raise ValueError(f'File "{json_file_path.name}" has invalid JSON format.')
 			if 'samsett' in json_data:
 				samsett_ord_files_list.append(json_file_rel)
 				continue
@@ -688,7 +692,7 @@ class Ord:
 				with json_file_path.open(mode='r', encoding='utf-8') as fi:
 					json_data = json.loads(fi.read())
 			except json.decoder.JSONDecodeError:
-				raise Exception(f'File "{json_file_path.name}" has invalid JSON format.')
+				raise ValueError(f'File "{json_file_path.name}" has invalid JSON format.')
 			if 'skammstöfun' in json_data:
 				skammstafanir_files.append(json_file_rel)
 				continue
@@ -816,7 +820,7 @@ class Ord:
 				Fallbeyging_id=fallbeyging_id
 			).first()
 		if isl_fallbeyging is None:
-			raise Exception('Should not happen.')
+			raise ValueError('Should not happen.')
 		isl_fallbeyging.Nefnifall = fallbeyging_list[0]
 		isl_fallbeyging.Tholfall = fallbeyging_list[1]
 		isl_fallbeyging.Thagufall = fallbeyging_list[2]
@@ -837,7 +841,7 @@ class Ord:
 				Sagnbeyging_id=sagnbeyging_id
 			).first()
 		if isl_sb is None:
-			raise Exception('Should never happen.')
+			raise ValueError('Should never happen.')
 		if 'nútíð' in sagnbeyging_obj:
 			if 'et' in sagnbeyging_obj['nútíð']:
 				isl_sb.FyrstaPersona_eintala_nutid = sagnbeyging_obj['nútíð']['et'][0]
@@ -866,7 +870,7 @@ class Ord:
 			Fallbeyging_id=fallbeyging_id
 		).first()
 		if isl_fallbeyging is None:
-			raise Exception(f'Fałlbeyging ({fallbeyging_id}) not found.')
+			raise ValueError(f'Fałlbeyging ({fallbeyging_id}) not found.')
 		return [
 			isl_fallbeyging.Nefnifall, isl_fallbeyging.Tholfall, isl_fallbeyging.Thagufall,
 			isl_fallbeyging.Eignarfall
@@ -877,7 +881,7 @@ class Ord:
 			Sagnbeyging_id=sagnbeyging_id
 		).first()
 		if isl_sb is None:
-			raise Exception(f'Sagnbeyging with id={sagnbeyging_id} not found.')
+			raise ValueError(f'Sagnbeyging with id={sagnbeyging_id} not found.')
 		data = {}
 		if (
 			isl_sb.FyrstaPersona_eintala_nutid is None and
@@ -893,7 +897,7 @@ class Ord:
 			isl_sb.OnnurPersona_fleirtala_thatid is None and
 			isl_sb.ThridjaPersona_fleirtala_thatid is None
 		):
-			raise Exception('Empty sagnbeyging?')
+			raise ValueError('Empty sagnbeyging?')
 		if (
 			isl_sb.FyrstaPersona_eintala_nutid is not None or
 			isl_sb.OnnurPersona_eintala_nutid is not None or
@@ -1288,30 +1292,30 @@ class Ord:
 			if key in dont_change_keys:
 				continue
 			if key not in pre_dict:
-				raise Exception('Key "%s" missing from pre_dict.' % (key, ))
+				raise ValueError('Key "%s" missing from pre_dict.' % (key, ))
 			if isinstance(ord_dict[key], str):
 				if not isinstance(pre_dict[key], str):
-					raise Exception('Key pre_dict["%s"] should be str.' % (key, ))
+					raise ValueError('Key pre_dict["%s"] should be str.' % (key, ))
 				ord_dict[key] = '%s%s' % (pre_dict[key], ord_dict[key])
 			elif isinstance(ord_dict[key], list):
 				if not isinstance(pre_dict[key], list):
-					raise Exception('Key pre_dict["%s"] should be list.' % (key, ))
+					raise ValueError('Key pre_dict["%s"] should be list.' % (key, ))
 				for i in range(0, len(ord_dict[key])):
 					if ord_dict[key][i] is None:
 						continue
 					elif isinstance(ord_dict[key][i], str):
 						if not isinstance(pre_dict[key][i], str):
-							raise Exception('Key pre_dict["%s"][%s] should be str.' % (key, i))
+							raise ValueError('Key pre_dict["%s"][%s] should be str.' % (key, i))
 						ord_dict[key][i] = '%s%s' % (pre_dict[key][i], ord_dict[key][i])
 					elif isinstance(ord_dict[key][i], dict):
 						if not isinstance(pre_dict[key][i], dict):
-							raise Exception('Key pre_dict["%s"][%s] should be dict.' % (key, i))
+							raise ValueError('Key pre_dict["%s"][%s] should be dict.' % (key, i))
 						ord_dict[key][i] = (
 							self.merge_dict_to_dict(pre_dict[key][i], ord_dict[key][i])
 						)
 			elif isinstance(ord_dict[key], dict):
 				if not isinstance(pre_dict[key], dict):
-					raise Exception('Key pre_dict["%s"] should be dict.' % (key, ))
+					raise ValueError('Key pre_dict["%s"] should be dict.' % (key, ))
 				ord_dict[key] = self.merge_dict_to_dict(pre_dict[key], ord_dict[key])
 		return ord_dict
 
@@ -1329,7 +1333,7 @@ class Ord:
 		# find which handler to use
 		ordhluti_flokkur_abbr = ordhluti['kennistrengur'].split('-')[0].split('.')[0]
 		if ordhluti_flokkur_abbr not in handlers_map:
-			raise Exception(
+			raise ValueError(
 				'Missing handler for kennistrengur "%s".' % (ordhluti['kennistrengur'], )
 			)
 		handler = handlers_map[ordhluti_flokkur_abbr]
@@ -1393,7 +1397,7 @@ class Ord:
 				fallbeyging_et = beygingar['vb']['et']['hk'].copy()
 				fallbeyging_ft = beygingar['vb']['ft']['hk'].copy()
 			case _:
-				raise Exception('Unexpected ordhluti.myndir.')
+				raise ValueError('Unexpected ordhluti.myndir.')
 		lo_myndir_beygingar = {
 			'et': {'ág': fallbeyging_et, 'mg': fallbeyging_et},
 			'ft': {'ág': fallbeyging_ft, 'mg': fallbeyging_ft}
@@ -1442,7 +1446,7 @@ class Ord:
 		# add derived beygingar to orð data
 		for key in derived_beygingar:
 			if key in self.non_inherited_keys_via_samsett_ord:
-				raise Exception('Should not happen!')
+				raise ValueError('Should not happen!')
 			derived[key] = derived_beygingar[key]
 		for key in preserve_keys:
 			if key in data:
@@ -1522,7 +1526,7 @@ class Nafnord(Ord):
 			self.data = structs.NafnordData(**ord_data)
 			kennistr = self.make_kennistrengur()
 			if self.data.kennistrengur != kennistr:
-				raise Exception('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+				raise ValueError('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 					isl_ord.Ord_id, self.data.kennistrengur, kennistr
 				))
 			self.data.datahash = self.get_data_hash()
@@ -1552,7 +1556,7 @@ class Nafnord(Ord):
 		self.data = structs.NafnordData(**ord_data)
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+			raise ValueError('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 				isl_ord.Ord_id, self.data.kennistrengur, kennistr
 			))
 		self.data.datahash = self.get_data_hash()
@@ -1859,7 +1863,7 @@ class Lysingarord(Ord):
 			self.data = structs.LysingarordData(**ord_data)
 			kennistr = self.make_kennistrengur()
 			if self.data.kennistrengur != kennistr:
-				raise Exception(
+				raise ValueError(
 					'Orð id=%s, from db, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 						isl_ord.Ord_id, self.data.kennistrengur, kennistr
 					)
@@ -2132,7 +2136,7 @@ class Lysingarord(Ord):
 		self.data = structs.LysingarordData(**ord_data)
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception(
+			raise ValueError(
 				'Orð id=%s, loaded from db, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 					isl_ord.Ord_id, self.data.kennistrengur, kennistr
 				)
@@ -2460,7 +2464,7 @@ class Sagnord(Ord):
 			self.data = structs.SagnordData(**ord_data)
 			kennistr = self.make_kennistrengur()
 			if self.data.kennistrengur != kennistr:
-				raise Exception('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+				raise ValueError('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 					isl_ord.Ord_id, self.data.kennistrengur, kennistr
 				))
 			self.data.datahash = self.get_data_hash()
@@ -2911,7 +2915,7 @@ class Sagnord(Ord):
 		self.data = structs.SagnordData(**ord_data)
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+			raise ValueError('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 				isl_ord.Ord_id, self.data.kennistrengur, kennistr
 			))
 		self.data.datahash = self.get_data_hash()
@@ -3032,7 +3036,7 @@ class Greinir(Ord):
 		self.data = structs.GreinirData(**ord_data)
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+			raise ValueError('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 				isl_ord.Ord_id, self.data.kennistrengur, kennistr
 			))
 		self.data.datahash = self.get_data_hash()
@@ -3164,7 +3168,7 @@ class Fornafn(Ord):
 					isl_fn.fk_et_kvk_Fallbeyging_id is not None or
 					isl_fn.fk_et_hk_Fallbeyging_id is not None
 				):
-					raise Exception(
+					raise ValueError(
 						'eintala fallbeyging should not be set for both genderless and gendered'
 					)
 			elif (
@@ -3181,7 +3185,7 @@ class Fornafn(Ord):
 					isl_fn.fk_ft_kvk_Fallbeyging_id is not None or
 					isl_fn.fk_ft_hk_Fallbeyging_id is not None
 				):
-					raise Exception(
+					raise ValueError(
 						'eintala fallbeyging should not be set for both genderless and gendered'
 					)
 			elif (
@@ -3219,7 +3223,7 @@ class Fornafn(Ord):
 		self.data = structs.FornafnData(**ord_data)
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+			raise ValueError('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 				isl_ord.Ord_id, self.data.kennistrengur, kennistr
 			))
 		self.data.datahash = self.get_data_hash()
@@ -3249,7 +3253,7 @@ class Toluord(Ord):
 				return self.write_fjoldatala_to_db()
 			case structs.Toluordaflokkar.Radtala:
 				return self.write_radtala_to_db()
-		raise Exception('Should not happen.')
+		raise ValueError('Should not happen.')
 
 	def write_fjoldatala_to_db(self) -> tuple[isl.Ord, bool]:
 		isl_ord, changes_made = super().write_to_db()
@@ -3394,10 +3398,10 @@ class Toluord(Ord):
 			case isl.Ordflokkar.Radtala:
 				self.load_radtala_from_db(isl_ord)
 			case _:
-				raise Exception('Should not happen.')
+				raise ValueError('Should not happen.')
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception(
+			raise ValueError(
 				'Orð id=%s, loaded from db, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 					isl_ord.Ord_id, self.data.kennistrengur, kennistr
 				)
@@ -3444,7 +3448,7 @@ class Toluord(Ord):
 				ord_data['ft']['hk'] = self.load_fallbeyging_from_db(isl_ft.fk_ft_hk_Fallbeyging_id)
 			if 'et' not in ord_data and 'ft' not in ord_data:
 				if 'óbeygjanlegt' not in ord_data or ord_data['óbeygjanlegt'] is False:
-					raise Exception('fjöldatala with no beyging should be flagged óbeygjanlegt')
+					raise ValueError('fjöldatala with no beyging should be flagged óbeygjanlegt')
 		self.data = structs.FjoldatalaData(**ord_data)
 
 	def load_radtala_from_db(self, isl_ord: isl.Ord):
@@ -3585,7 +3589,7 @@ class Smaord(Ord):
 				return self.write_samtenging_to_db()
 			case structs.Smaordaflokkar.Upphropun:
 				return self.write_upphropun_to_db()
-		raise Exception('Should not happen.')
+		raise ValueError('Should not happen.')
 
 	def write_forsetning_to_db(self) -> tuple[isl.Ord, bool]:
 		isl_ord, changes_made = super().write_to_db()
@@ -3695,10 +3699,10 @@ class Smaord(Ord):
 			case isl.Ordflokkar.Upphropun:
 				self.load_upphropun_from_db(isl_ord)
 			case _:
-				raise Exception('Unsupported or invalid undirflokkur?')
+				raise ValueError('Unsupported or invalid undirflokkur?')
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception(
+			raise ValueError(
 				'Orð id=%s, loaded from db, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 					isl_ord.Ord_id, self.data.kennistrengur, kennistr
 				)
@@ -3758,7 +3762,7 @@ class Smaord(Ord):
 						isl.SamtengingFleiryrt
 					).filter_by(fk_SamtengingFleiryrt_id=current_isl_samtenging_fleiryrt_id)
 					if len(isl_next_samtenging_fleiryrt_query.all()) not in (0, 1):
-						raise Exception('Should be just one or zero.')
+						raise ValueError('Should be just one or zero.')
 					isl_next_samtenging_fleiryrt = isl_next_samtenging_fleiryrt_query.first()
 					if isl_next_samtenging_fleiryrt is not None:
 						fleiryrt_option['fylgiorð'].append(isl_next_samtenging_fleiryrt.Ord)
@@ -3795,14 +3799,14 @@ class Sernafn(Ord):
 				case structs.Kyn.Hvorugkyn:
 					subfolder_1 = 'islensk-hvormannsnofn'
 				case _:
-					raise Exception('unexpected kyn')
+					raise ValueError('unexpected kyn')
 			match self.data.undirflokkur:
 				case structs.Sernafnaflokkar.Eiginnafn:
 					subfolder_2 = 'eigin'
 				case structs.Sernafnaflokkar.Kenninafn:
 					subfolder_2 = 'kenni'
 				case _:
-					raise Exception('unexpected sérnafnaundirflokkur')
+					raise ValueError('unexpected sérnafnaundirflokkur')
 			return os.path.join(
 				self.data.undirflokkur.get_folder(),
 				subfolder_1,
@@ -3934,7 +3938,7 @@ class Sernafn(Ord):
 		self.data = structs.SernafnData(**ord_data)
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
+			raise ValueError('Orð id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 				isl_ord.Ord_id, self.data.kennistrengur, kennistr
 			))
 		self.data.datahash = self.get_data_hash()
@@ -3971,7 +3975,7 @@ class Skammstofun(Ord):
 				with json_file.open(mode='r', encoding='utf-8') as fi:
 					json.loads(fi.read())
 			except json.decoder.JSONDecodeError:
-				raise Exception(f'File "{json_file.name}" has invalid JSON format.')
+				raise ValueError(f'File "{json_file.name}" has invalid JSON format.')
 			json_file_rel = os.path.join(files_directory_rel, json_file.name)
 			files_list.append(json_file_rel)
 		files_list.sort()
@@ -4004,10 +4008,10 @@ class Skammstofun(Ord):
 			if i < data_frasi_count:
 				kennistrengur = self.data.frasi[i]
 				if kennistrengur is None:
-					raise Exception('missing kennistrengur')
+					raise ValueError('missing kennistrengur')
 				isl_ord = db.Session.query(isl.Ord).filter_by(Kennistrengur=kennistrengur).first()
 				if isl_ord is None:
-					raise Exception(f'no orð with kennistrengur "{kennistrengur}"?')
+					raise ValueError(f'no orð with kennistrengur "{kennistrengur}"?')
 				if i < db_frasi_count:
 					if isl_sk_frasar[i].fk_Ord_id != isl_ord.Ord_id:
 						isl_sk_frasar[i].fk_Ord_id = isl_ord.Ord_id
@@ -4067,7 +4071,7 @@ class Skammstofun(Ord):
 			fk_Skammstofun_id=isl_sk.Skammstofun_id
 		).order_by(isl.SkammstofunFrasi.SkammstofunFrasi_id).all()
 		if len(isl_sk_frasi) == 0:
-			raise Exception('there should be frasi')
+			raise ValueError('there should be frasi')
 		for frasi_ord in isl_sk_frasi:
 			isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=frasi_ord.fk_Ord_id).first()
 			sk_data['frasi'].append(isl_ord.Kennistrengur)
@@ -4075,13 +4079,13 @@ class Skammstofun(Ord):
 			fk_Skammstofun_id=isl_sk.Skammstofun_id
 		).order_by(isl.SkammstofunMynd.SkammstofunMynd_id).all()
 		if len(isl_sk_myndir) == 0:
-			raise Exception('there should be myndir')
+			raise ValueError('there should be myndir')
 		for mynd in isl_sk_myndir:
 			sk_data['myndir'].append(mynd.Mynd)
 		self.data = structs.SkammstofunData(**sk_data)
 		kennistr = self.make_kennistrengur()
 		if self.data.kennistrengur != kennistr:
-			raise Exception(
+			raise ValueError(
 				'Skammstöfun id=%s, kennistrengur mismatch, loaded="%s", derived="%s"' % (
 					isl_ord.Ord_id, self.data.kennistrengur, kennistr
 				)
@@ -4112,7 +4116,7 @@ def get_dependents_of_ord(isl_ord: isl.Ord) -> list[str]:
 		if s_ord is not None and s_ord.fk_Ord_id is not None:
 			d_isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=s_ord.fk_Ord_id).first()
 			if d_isl_ord is None:
-				raise Exception('SamsettOrd entry %s has void Ord %s.' % (
+				raise ValueError('SamsettOrd entry %s has void Ord %s.' % (
 					s_ord.SamsettOrd_id, s_ord.fk_Ord_id
 				))
 			if d_isl_ord.Kennistrengur not in dependents:
@@ -4135,7 +4139,7 @@ def get_dependents_of_ord(isl_ord: isl.Ord) -> list[str]:
 				if s_ord is not None and s_ord.fk_Ord_id is not None:
 					d_isl_ord = db.Session.query(isl.Ord).filter_by(Ord_id=s_ord.fk_Ord_id).first()
 					if d_isl_ord is None:
-						raise Exception('SamsettOrd entry %s has void Ord %s.' % (
+						raise ValueError('SamsettOrd entry %s has void Ord %s.' % (
 							s_ord.SamsettOrd_id, s_ord.fk_Ord_id
 						))
 					if d_isl_ord.Kennistrengur not in dependents:
