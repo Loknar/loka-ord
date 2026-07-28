@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "kaup",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kaup-hk"
-		},
-		{
-			"mynd": "félags",
+			"mynd": "kaupfélags",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-félag-hk"
+			"kennistrengur": "no-kaupfélag-hk"
 		},
 		{
 			"kennistrengur": "no-stjóri-kk"
@@ -26,5 +21,5 @@
 		"mg": ["kaupfélagsstjórarnir", "kaupfélagsstjórana", "kaupfélagsstjórunum", "kaupfélagsstjóranna"]
 	},
 	"kennistrengur": "no-kaupfélagsstjóri-kk",
-	"hash": "6bdeffbb9f91933d574aa7c64865ffb5ffe5839c2da558ee0b8c263b0130a37a"
+	"hash": "ea4f1ea49221272067409d953b218b44b82e4cc30e313751bc12bb5b447fa206"
 }
