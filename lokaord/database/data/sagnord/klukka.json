@@ -1,0 +1,135 @@
+{
+	"orð": "klukka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klukk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-klukk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "klukka",
+		"sagnbót": "klukkað",
+		"boðháttur": {
+			"stýfður": "klukka",
+			"et": "klukkaðu",
+			"ft": "klukkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klukka", "klukkar", "klukkar"],
+					"ft": ["klukkum", "klukkið", "klukka"]
+				},
+				"þátíð": {
+					"et": ["klukkaði", "klukkaðir", "klukkaði"],
+					"ft": ["klukkuðum", "klukkuðuð", "klukkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klukki", "klukkir", "klukki"],
+					"ft": ["klukkum", "klukkið", "klukki"]
+				},
+				"þátíð": {
+					"et": ["klukkaði", "klukkaðir", "klukkaði"],
+					"ft": ["klukkuðum", "klukkuðuð", "klukkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klukkarðu",
+					"ft": "klukkiði"
+				},
+				"þátíð": {
+					"et": "klukkaðirðu",
+					"ft": "klukkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klukkirðu",
+					"ft": "klukkiði"
+				},
+				"þátíð": {
+					"et": "klukkaðirðu",
+					"ft": "klukkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "klukkast",
+		"sagnbót": "klukkast",
+		"boðháttur": {
+			"et": "klukkastu",
+			"ft": "klukkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klukkast", "klukkast", "klukkast"],
+					"ft": ["klukkumst", "klukkist", "klukkast"]
+				},
+				"þátíð": {
+					"et": ["klukkaðist", "klukkaðist", "klukkaðist"],
+					"ft": ["klukkuðumst", "klukkuðust", "klukkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klukkist", "klukkist", "klukkist"],
+					"ft": ["klukkumst", "klukkist", "klukkist"]
+				},
+				"þátíð": {
+					"et": ["klukkaðist", "klukkaðist", "klukkaðist"],
+					"ft": ["klukkuðumst", "klukkuðust", "klukkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klukkastu"
+				},
+				"þátíð": {
+					"et": "klukkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klukkistu"
+				},
+				"þátíð": {
+					"et": "klukkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "klukkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["klukkaður", "klukkaðan", "klukkuðum", "klukkaðs"],
+					"kvk": ["klukkuð", "klukkaða", "klukkaðri", "klukkaðrar"],
+					"hk": ["klukkað", "klukkað", "klukkuðu", "klukkaðs"]
+				},
+				"ft": {
+					"kk": ["klukkaðir", "klukkaða", "klukkuðum", "klukkaðra"],
+					"kvk": ["klukkaðar", "klukkaðar", "klukkuðum", "klukkaðra"],
+					"hk": ["klukkuð", "klukkuð", "klukkuðum", "klukkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-klukka",
+	"hash": "6035b0646a8e7554bfc070cea236b31316f3a4b4d52d8bb19eb44785730585c5"
+}

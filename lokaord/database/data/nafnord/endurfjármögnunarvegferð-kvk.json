@@ -4,28 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "endur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-endur-hk"
-		},
-		{
-			"mynd": "fjár",
+			"mynd": "endurfjármögnunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
+			"kennistrengur": "no-endurfjármögnun-kvk"
 		},
 		{
-			"mynd": "mögnunar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mögnun-kvk"
-		},
-		{
-			"mynd": "veg",
-			"samsetning": "stofn",
-			"kennistrengur": "no-vegur-kk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-ferð-kvk"
+			"kennistrengur": "no-vegferð-kvk"
 		}
 	],
 	"et": {
@@ -33,5 +17,5 @@
 		"mg": ["endurfjármögnunarvegferðin", "endurfjármögnunarvegferðina", "endurfjármögnunarvegferðinni", "endurfjármögnunarvegferðarinnar"]
 	},
 	"kennistrengur": "no-endurfjármögnunarvegferð-kvk",
-	"hash": "eb4f4b22574462a1b77b1b18c5953fa07fcc6d2fb7bbe9a1df04fb91f093623d"
+	"hash": "820c71efea97e8a6d385e251a9694d019ac9ba8e42891b23a2e1149db229513e"
 }
