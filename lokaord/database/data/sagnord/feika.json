@@ -1,0 +1,99 @@
+{
+	"orð": "feika",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "feik",
+			"samsetning": "stofn",
+			"kennistrengur": "no-feik-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "feika",
+		"sagnbót": "feikað",
+		"boðháttur": {
+			"stýfður": "feika",
+			"et": "feikaðu",
+			"ft": "feikið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["feika", "feikar", "feikar"],
+					"ft": ["feikum", "feikið", "feika"]
+				},
+				"þátíð": {
+					"et": ["feikaði", "feikaðir", "feikaði"],
+					"ft": ["feikuðum", "feikuðuð", "feikuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["feiki", "feikir", "feiki"],
+					"ft": ["feikum", "feikið", "feiki"]
+				},
+				"þátíð": {
+					"et": ["feikaði", "feikaðir", "feikaði"],
+					"ft": ["feikuðum", "feikuðuð", "feikuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "feikarðu",
+					"ft": "feikiði"
+				},
+				"þátíð": {
+					"et": "feikaðirðu",
+					"ft": "feikuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "feikirðu",
+					"ft": "feikiði"
+				},
+				"þátíð": {
+					"et": "feikaðirðu",
+					"ft": "feikuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "feikandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["feikaður", "feikaðan", "feikuðum", "feikaðs"],
+					"kvk": ["feikuð", "feikaða", "feikaðri", "feikaðrar"],
+					"hk": ["feikað", "feikað", "feikuðu", "feikaðs"]
+				},
+				"ft": {
+					"kk": ["feikaðir", "feikaða", "feikuðum", "feikaðra"],
+					"kvk": ["feikaðar", "feikaðar", "feikuðum", "feikaðra"],
+					"hk": ["feikuð", "feikuð", "feikuðum", "feikaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["feikaði", "feikaða", "feikaða", "feikaða"],
+					"kvk": ["feikaða", "feikuðu", "feikuðu", "feikuðu"],
+					"hk": ["feikaða", "feikaða", "feikaða", "feikaða"]
+				},
+				"ft": {
+					"kk": ["feikuðu", "feikuðu", "feikuðu", "feikuðu"],
+					"kvk": ["feikuðu", "feikuðu", "feikuðu", "feikuðu"],
+					"hk": ["feikuðu", "feikuðu", "feikuðu", "feikuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-feika",
+	"hash": "bde33aa3ccd6b5c5ef9dc0a508323a4504726bcd809dea89e68caadad7e0baff"
+}
