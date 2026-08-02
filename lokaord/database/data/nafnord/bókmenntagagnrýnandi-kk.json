@@ -4,27 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "bók",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bók-kvk"
-		},
-		{
-			"mynd": "mennta",
+			"mynd": "bókmennta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-mennt-kvk"
+			"kennistrengur": "no-bókmennt-kvk"
 		},
 		{
-			"mynd": "gagn",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-gagn-ó"
-		},
-		{
-			"mynd": "rýn",
-			"samsetning": "stofn",
-			"kennistrengur": "so-rýna"
-		},
-		{
-			"kennistrengur": "no-andi-kk-ó"
+			"kennistrengur": "no-gagnrýnandi-kk"
 		}
 	],
 	"et": {
@@ -36,5 +21,5 @@
 		"mg": ["bókmenntagagnrýnendurnir", "bókmenntagagnrýnendurna", "bókmenntagagnrýnendunum", "bókmenntagagnrýnendanna"]
 	},
 	"kennistrengur": "no-bókmenntagagnrýnandi-kk",
-	"hash": "9c131a294d40b9020c72fbbe177c93e3f082b5a63bd23bb39c68fd1d766d5956"
+	"hash": "118558f1d3b5c02f8550f5e724201d76bb3d70232a2cffa861726e36943c062f"
 }
