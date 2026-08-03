@@ -1,0 +1,88 @@
+{
+	"orð": "serða",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "serða",
+		"sagnbót": "sorðið",
+		"boðháttur": {
+			"stýfður": "serð",
+			"et": "vertu",
+			"ft": "serðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["serð", "serður", "serður"],
+					"ft": ["serðum", "serðið", "serða"]
+				},
+				"þátíð": {
+					"et": ["sarð", "sarðst", "sarð"],
+					"ft": ["surðum", "surðuð", "surðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["serði", "serðir", "serði"],
+					"ft": ["serðum", "serðið", "serði"]
+				},
+				"þátíð": {
+					"et": ["syrði", "syrðir", "syrði"],
+					"ft": ["syrðum", "syrðuð", "syrðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "serðurðu",
+					"ft": "serðiði"
+				},
+				"þátíð": {
+					"et": "sarðstu",
+					"ft": "surðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "serðirðu",
+					"ft": "serðiði"
+				},
+				"þátíð": {
+					"et": "syrðirðu",
+					"ft": "syrðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "serðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sorðinn", "sorðinn", "sorðnum", "sorðins"],
+					"kvk": ["sorðin", "sorðna", "sorðinni", "sorðinnar"],
+					"hk": ["sorðið", "sorðið", "sorðnu", "sorðins"]
+				},
+				"ft": {
+					"kk": ["sorðnir", "sorðna", "sorðnum", "sorðinna"],
+					"kvk": ["sorðnar", "sorðnar", "sorðnum", "sorðinna"],
+					"hk": ["sorðin", "sorðin", "sorðnum", "sorðinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sorðni", "sorðna", "sorðna", "sorðna"],
+					"kvk": ["sorðna", "sorðnu", "sorðnu", "sorðnu"],
+					"hk": ["sorðna", "sorðna", "sorðna", "sorðna"]
+				},
+				"ft": {
+					"kk": ["sorðnu", "sorðnu", "sorðnu", "sorðnu"],
+					"kvk": ["sorðnu", "sorðnu", "sorðnu", "sorðnu"],
+					"hk": ["sorðnu", "sorðnu", "sorðnu", "sorðnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-serða",
+	"hash": "37283e998bb180a6b772b5ebacadc1579d4377423046962e8cc9b685ffca0672"
+}
