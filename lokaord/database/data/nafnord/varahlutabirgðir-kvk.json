@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vara",
+			"mynd": "varahluta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vari-kk"
-		},
-		{
-			"mynd": "hluta",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hlutur-kk"
+			"kennistrengur": "no-varahlutur-kk"
 		},
 		{
 			"beygingar": ["ft"],
@@ -23,5 +18,5 @@
 		"mg": ["varahlutabirgðirnar", "varahlutabirgðirnar", "varahlutabirgðunum", "varahlutabirgðanna"]
 	},
 	"kennistrengur": "no-varahlutabirgðir-kvk",
-	"hash": "ca2eb162fc0e1b241e253be52efd4f9d4c8e19a6cc4d15a8dcfcff87292896e2"
+	"hash": "44400f460d3998658d082d385195fe932cbb6ba996c45d5b5cdc849b5d17c743"
 }

@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sól",
-			"samsetning": "stofn",
-			"kennistrengur": "no-sól-kvk"
-		},
-		{
-			"mynd": "myrkva",
+			"mynd": "sólmyrkva",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-myrkvi-kk"
-		},
-		{
-			"mynd": "gler",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gler-hk"
+			"kennistrengur": "no-sólmyrkvi-kk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-auga-hk"
+			"kennistrengur": "no-glerauga-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["sólmyrkvagleraugun", "sólmyrkvagleraugun", "sólmyrkvagleraugunum", "sólmyrkvagleraugnanna"]
 	},
 	"kennistrengur": "no-sólmyrkvagleraugu-hk",
-	"hash": "53e68d5eef021758c93390fcdf097a27c339fcdd10158ab817dd44b168fd68df"
+	"hash": "7dba04e0b06f04cfa7fec254a05b318f9f84b83177d3d594684d3376b524e9b6"
 }
