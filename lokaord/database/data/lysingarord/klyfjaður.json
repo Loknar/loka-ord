@@ -1,6 +1,16 @@
 {
 	"orð": "klyfjaður",
 	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "klyfj",
+			"samsetning": "stofn",
+			"kennistrengur": "so-klyfja"
+		},
+		{
+			"kennistrengur": "lo-aður-ó"
+		}
+	],
 	"frumstig": {
 		"sb": {
 			"et": {
@@ -68,5 +78,5 @@
 		}
 	},
 	"kennistrengur": "lo-klyfjaður",
-	"hash": "c33e28f31cdfa6d133a8802133fca07291a5a405b9bb280a1738e76993b4118a"
+	"hash": "b7f4ce15fe253531ab07e55145dddf6d1a46f4274fca099a2ae6b13f9bac6c4e"
 }
