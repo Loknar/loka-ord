@@ -1,0 +1,121 @@
+{
+	"orð": "skjögta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skjögt",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-skjögur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skjögta",
+		"sagnbót": "skjögtað",
+		"boðháttur": {
+			"stýfður": "skjögta",
+			"et": "skjögtaðu",
+			"ft": "skjögtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skjögta", "skjögtar", "skjögtar"],
+					"ft": ["skjögtum", "skjögtið", "skjögta"]
+				},
+				"þátíð": {
+					"et": ["skjögtaði", "skjögtaðir", "skjögtaði"],
+					"ft": ["skjögtuðum", "skjögtuðuð", "skjögtuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skjögti", "skjögtir", "skjögti"],
+					"ft": ["skjögtum", "skjögtið", "skjögti"]
+				},
+				"þátíð": {
+					"et": ["skjögtaði", "skjögtaðir", "skjögtaði"],
+					"ft": ["skjögtuðum", "skjögtuðuð", "skjögtuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skjögtarðu",
+					"ft": "skjögtiði"
+				},
+				"þátíð": {
+					"et": "skjögtaðirðu",
+					"ft": "skjögtuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skjögtirðu",
+					"ft": "skjögtiði"
+				},
+				"þátíð": {
+					"et": "skjögtaðirðu",
+					"ft": "skjögtuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skjögtast",
+		"sagnbót": "skjögtast",
+		"boðháttur": {
+			"et": "skjögtastu",
+			"ft": "skjögtist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skjögtast", "skjögtast", "skjögtast"],
+					"ft": ["skjögtumst", "skjögtist", "skjögtast"]
+				},
+				"þátíð": {
+					"et": ["skjögtaðist", "skjögtaðist", "skjögtaðist"],
+					"ft": ["skjögtuðumst", "skjögtuðust", "skjögtuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skjögtist", "skjögtist", "skjögtist"],
+					"ft": ["skjögtumst", "skjögtist", "skjögtist"]
+				},
+				"þátíð": {
+					"et": ["skjögtaðist", "skjögtaðist", "skjögtaðist"],
+					"ft": ["skjögtuðumst", "skjögtuðust", "skjögtuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skjögtastu"
+				},
+				"þátíð": {
+					"et": "skjögtaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skjögtistu"
+				},
+				"þátíð": {
+					"et": "skjögtaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skjögtandi"
+	},
+	"kennistrengur": "so-skjögta",
+	"hash": "240b04a07a6ebae892bc341ed8c659815ea44d473e21c958e902eb2245cea2aa"
+}

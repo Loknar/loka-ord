@@ -3,8 +3,8 @@
 	"flokkur": "sagnorð",
 	"samsett": [
 		{
-			"mynd": "skjög",
-			"samsetning": "stofn",
+			"mynd": "skjögr",
+			"samsetning": "bandstafs",
 			"kennistrengur": "no-skjögur-hk"
 		},
 		{
@@ -13,109 +13,109 @@
 		}
 	],
 	"germynd": {
-		"nafnháttur": "skjöga",
-		"sagnbót": "skjögað",
+		"nafnháttur": "skjögra",
+		"sagnbót": "skjögrað",
 		"boðháttur": {
-			"stýfður": "skjöga",
-			"et": "skjögaðu",
-			"ft": "skjögið"
+			"stýfður": "skjögra",
+			"et": "skjögraðu",
+			"ft": "skjögrið"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["skjöga", "skjögar", "skjögar"],
-					"ft": ["skjögum", "skjögið", "skjöga"]
+					"et": ["skjögra", "skjögrar", "skjögrar"],
+					"ft": ["skjögrum", "skjögrið", "skjögra"]
 				},
 				"þátíð": {
-					"et": ["skjögaði", "skjögaðir", "skjögaði"],
-					"ft": ["skjöguðum", "skjöguðuð", "skjöguðu"]
+					"et": ["skjögraði", "skjögraðir", "skjögraði"],
+					"ft": ["skjögruðum", "skjögruðuð", "skjögruðu"]
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": ["skjögi", "skjögir", "skjögi"],
-					"ft": ["skjögum", "skjögið", "skjögi"]
+					"et": ["skjögri", "skjögrir", "skjögri"],
+					"ft": ["skjögrum", "skjögrið", "skjögri"]
 				},
 				"þátíð": {
-					"et": ["skjögaði", "skjögaðir", "skjögaði"],
-					"ft": ["skjöguðum", "skjöguðuð", "skjöguðu"]
+					"et": ["skjögraði", "skjögraðir", "skjögraði"],
+					"ft": ["skjögruðum", "skjögruðuð", "skjögruðu"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "skjögarðu",
-					"ft": "skjögiði"
+					"et": "skjögrarðu",
+					"ft": "skjögriði"
 				},
 				"þátíð": {
-					"et": "skjögaðirðu",
-					"ft": "skjöguðuði"
+					"et": "skjögraðirðu",
+					"ft": "skjögruðuði"
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "skjögirðu",
-					"ft": "skjögiði"
+					"et": "skjögrirðu",
+					"ft": "skjögriði"
 				},
 				"þátíð": {
-					"et": "skjögaðirðu",
-					"ft": "skjöguðuði"
+					"et": "skjögraðirðu",
+					"ft": "skjögruðuði"
 				}
 			}
 		}
 	},
 	"miðmynd": {
-		"nafnháttur": "skjögast",
-		"sagnbót": "skjögast",
+		"nafnháttur": "skjögrast",
+		"sagnbót": "skjögrast",
 		"boðháttur": {
-			"et": "skjögastu",
-			"ft": "skjögist"
+			"et": "skjögrastu",
+			"ft": "skjögrist"
 		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": ["skjögast", "skjögast", "skjögast"],
-					"ft": ["skjögumst", "skjögist", "skjögast"]
+					"et": ["skjögrast", "skjögrast", "skjögrast"],
+					"ft": ["skjögrumst", "skjögrist", "skjögrast"]
 				},
 				"þátíð": {
-					"et": ["skjögaðist", "skjögaðist", "skjögaðist"],
-					"ft": ["skjöguðumst", "skjöguðust", "skjöguðust"]
+					"et": ["skjögraðist", "skjögraðist", "skjögraðist"],
+					"ft": ["skjögruðumst", "skjögruðust", "skjögruðust"]
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": ["skjögist", "skjögist", "skjögist"],
-					"ft": ["skjögumst", "skjögist", "skjögist"]
+					"et": ["skjögrist", "skjögrist", "skjögrist"],
+					"ft": ["skjögrumst", "skjögrist", "skjögrist"]
 				},
 				"þátíð": {
-					"et": ["skjögaðist", "skjögaðist", "skjögaðist"],
-					"ft": ["skjöguðumst", "skjöguðust", "skjöguðust"]
+					"et": ["skjögraðist", "skjögraðist", "skjögraðist"],
+					"ft": ["skjögruðumst", "skjögruðust", "skjögruðust"]
 				}
 			}
 		},
 		"spurnarmyndir": {
 			"framsöguháttur": {
 				"nútíð": {
-					"et": "skjögastu"
+					"et": "skjögrastu"
 				},
 				"þátíð": {
-					"et": "skjögaðistu"
+					"et": "skjögraðistu"
 				}
 			},
 			"viðtengingarháttur": {
 				"nútíð": {
-					"et": "skjögistu"
+					"et": "skjögristu"
 				},
 				"þátíð": {
-					"et": "skjögaðistu"
+					"et": "skjögraðistu"
 				}
 			}
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "skjögandi"
+		"nútíðar": "skjögrandi"
 	},
 	"kennistrengur": "so-skjögra",
-	"hash": "592da3988fd10c64e72b498a8c4d81cbfdde5f1a6ffa166c76b8fed7adf5a684"
+	"hash": "0337f880480e9e148e44a3efedb96df5f8a67cc903d496523c22b89139f7bc67"
 }
