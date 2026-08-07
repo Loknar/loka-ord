@@ -1,0 +1,99 @@
+{
+	"orð": "flísaleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "flísa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-flís-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "flísaleggja",
+		"sagnbót": "flísalagt",
+		"boðháttur": {
+			"stýfður": "flísalegg",
+			"et": "flísaleggðu",
+			"ft": "flísaleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["flísalegg", "flísaleggur", "flísaleggur"],
+					"ft": ["flísaleggjum", "flísaleggið", "flísaleggja"]
+				},
+				"þátíð": {
+					"et": ["flísalagði", "flísalagðir", "flísalagði"],
+					"ft": ["flísalögðum", "flísalögðuð", "flísalögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["flísaleggi", "flísaleggir", "flísaleggi"],
+					"ft": ["flísaleggjum", "flísaleggið", "flísaleggi"]
+				},
+				"þátíð": {
+					"et": ["flísalegði", "flísalegðir", "flísalegði"],
+					"ft": ["flísalegðum", "flísalegðuð", "flísalegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "flísaleggurðu",
+					"ft": "flísaleggiði"
+				},
+				"þátíð": {
+					"et": "flísalagðirðu",
+					"ft": "flísalögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "flísaleggirðu",
+					"ft": "flísaleggiði"
+				},
+				"þátíð": {
+					"et": "flísaleggðirðu",
+					"ft": "flísaleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "flísaleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["flísalagður", "flísalagðan", "flísalögðum", "flísalagðs"],
+					"kvk": ["flísalögð", "flísalagða", "flísalagðri", "flísalagðrar"],
+					"hk": ["flísalagt", "flísalagt", "flísalögðu", "flísalagðs"]
+				},
+				"ft": {
+					"kk": ["flísalagðir", "flísalagða", "flísalögðum", "flísalagðra"],
+					"kvk": ["flísalagðar", "flísalagðar", "flísalögðum", "flísalagðra"],
+					"hk": ["flísalögð", "flísalögð", "flísalögðum", "flísalagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["flísalagði", "flísalagða", "flísalagða", "flísalagða"],
+					"kvk": ["flísalagða", "flísalögðu", "flísalögðu", "flísalögðu"],
+					"hk": ["flísalagða", "flísalagða", "flísalagða", "flísalagða"]
+				},
+				"ft": {
+					"kk": ["flísalögðu", "flísalögðu", "flísalögðu", "flísalögðu"],
+					"kvk": ["flísalögðu", "flísalögðu", "flísalögðu", "flísalögðu"],
+					"hk": ["flísalögðu", "flísalögðu", "flísalögðu", "flísalögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-flísaleggja",
+	"hash": "6cc8346c196b9709f3b0f670a9805997ac1b3fd78ea9b459d2cf4c7b7a841340"
+}
