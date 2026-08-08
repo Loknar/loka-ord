@@ -1,0 +1,22 @@
+{
+	"orð": "byggingaleifar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-leif-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["byggingaleifar", "byggingaleifar", "byggingaleifum", "byggingaleifa"],
+		"mg": ["byggingaleifarnar", "byggingaleifarnar", "byggingaleifunum", "byggingaleifanna"]
+	},
+	"kennistrengur": "no-byggingaleifar-kvk",
+	"hash": "c51bd552ee08d98c37aad4f5bad13eaf33411f30d8be661fa00e74aa10be07f0"
+}

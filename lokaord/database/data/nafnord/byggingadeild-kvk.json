@@ -1,0 +1,25 @@
+{
+	"orð": "byggingadeild",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "bygginga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bygging-kvk"
+		},
+		{
+			"kennistrengur": "no-deild-kvk"
+		}
+	],
+	"et": {
+		"ág": ["byggingadeild", "byggingadeild", "byggingadeild", "byggingadeildar"],
+		"mg": ["byggingadeildin", "byggingadeildina", "byggingadeildinni", "byggingadeildarinnar"]
+	},
+	"ft": {
+		"ág": ["byggingadeildir", "byggingadeildir", "byggingadeildum", "byggingadeilda"],
+		"mg": ["byggingadeildirnar", "byggingadeildirnar", "byggingadeildunum", "byggingadeildanna"]
+	},
+	"kennistrengur": "no-byggingadeild-kvk",
+	"hash": "f894df786ff760a70c208cbffed29ffc50361c61ef8f54ff10268742c7a362c4"
+}
