@@ -8,7 +8,6 @@
 			"kennistrengur": "smáo.uh-ó"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-byggður"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["óbyggðari", "óbyggðari", "óbyggðari", "óbyggðari"],
+				"kvk": ["óbyggðari", "óbyggðari", "óbyggðari", "óbyggðari"],
+				"hk": ["óbyggðara", "óbyggðara", "óbyggðara", "óbyggðara"]
+			},
+			"ft": {
+				"kk": ["óbyggðari", "óbyggðari", "óbyggðari", "óbyggðari"],
+				"kvk": ["óbyggðari", "óbyggðari", "óbyggðari", "óbyggðari"],
+				"hk": ["óbyggðari", "óbyggðari", "óbyggðari", "óbyggðari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["óbyggðastur", "óbyggðastan", "óbyggðustum", "óbyggðasts"],
+				"kvk": ["óbyggðust", "óbyggðasta", "óbyggðastri", "óbyggðastrar"],
+				"hk": ["óbyggðast", "óbyggðast", "óbyggðustu", "óbyggðasts"]
+			},
+			"ft": {
+				"kk": ["óbyggðastir", "óbyggðasta", "óbyggðustum", "óbyggðastra"],
+				"kvk": ["óbyggðastar", "óbyggðastar", "óbyggðustum", "óbyggðastra"],
+				"hk": ["óbyggðust", "óbyggðust", "óbyggðustum", "óbyggðastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["óbyggðasti", "óbyggðasta", "óbyggðasta", "óbyggðasta"],
+				"kvk": ["óbyggðasta", "óbyggðustu", "óbyggðustu", "óbyggðustu"],
+				"hk": ["óbyggðasta", "óbyggðasta", "óbyggðasta", "óbyggðasta"]
+			},
+			"ft": {
+				"kk": ["óbyggðustu", "óbyggðustu", "óbyggðustu", "óbyggðustu"],
+				"kvk": ["óbyggðustu", "óbyggðustu", "óbyggðustu", "óbyggðustu"],
+				"hk": ["óbyggðustu", "óbyggðustu", "óbyggðustu", "óbyggðustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-óbyggður",
-	"hash": "03e58a6c899decb61ac8d4b5c087f428e4d915fd6fdb0a79e2cb7e066d1299f7"
+	"hash": "390f0fe0e7b58c665d01e7b5bf1971f410b96feb926555fbb5f988dbee7ee1cc"
 }

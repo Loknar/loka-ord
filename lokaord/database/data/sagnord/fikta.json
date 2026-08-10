@@ -1,6 +1,17 @@
 {
 	"orð": "fikta",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fikt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fikt-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "fikta",
 		"sagnbót": "fiktað",
@@ -58,5 +69,5 @@
 		"nútíðar": "fiktandi"
 	},
 	"kennistrengur": "so-fikta",
-	"hash": "36aaaad77986c1736871c530ce0cc0f86b1209d8e6a6ea3da8abe109fe7c334b"
+	"hash": "4b6d30e59c3909a2eaea054634da3d24170f42e31890bb1167c35bb53c4e1107"
 }

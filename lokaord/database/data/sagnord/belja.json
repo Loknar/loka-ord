@@ -1,0 +1,135 @@
+{
+	"orð": "belja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "belj",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-bylur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "belja",
+		"sagnbót": "beljað",
+		"boðháttur": {
+			"stýfður": "belja",
+			"et": "beljaðu",
+			"ft": "beljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["belja", "beljar", "beljar"],
+					"ft": ["beljum", "beljið", "belja"]
+				},
+				"þátíð": {
+					"et": ["beljaði", "beljaðir", "beljaði"],
+					"ft": ["beljuðum", "beljuðuð", "beljuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["belji", "beljir", "belji"],
+					"ft": ["beljum", "beljið", "belji"]
+				},
+				"þátíð": {
+					"et": ["beljaði", "beljaðir", "beljaði"],
+					"ft": ["beljuðum", "beljuðuð", "beljuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "beljarðu",
+					"ft": "beljiði"
+				},
+				"þátíð": {
+					"et": "beljaðirðu",
+					"ft": "beljuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "beljirðu",
+					"ft": "beljiði"
+				},
+				"þátíð": {
+					"et": "beljaðirðu",
+					"ft": "beljuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "beljast",
+		"sagnbót": "beljast",
+		"boðháttur": {
+			"et": "beljastu",
+			"ft": "beljist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["beljast", "beljast", "beljast"],
+					"ft": ["beljumst", "beljist", "beljast"]
+				},
+				"þátíð": {
+					"et": ["beljaðist", "beljaðist", "beljaðist"],
+					"ft": ["beljuðumst", "beljuðust", "beljuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["beljist", "beljist", "beljist"],
+					"ft": ["beljumst", "beljist", "beljist"]
+				},
+				"þátíð": {
+					"et": ["beljaðist", "beljaðist", "beljaðist"],
+					"ft": ["beljuðumst", "beljuðust", "beljuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "beljastu"
+				},
+				"þátíð": {
+					"et": "beljaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "beljistu"
+				},
+				"þátíð": {
+					"et": "beljaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "beljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["beljaður", "beljaðan", "beljuðum", "beljaðs"],
+					"kvk": ["beljuð", "beljaða", "beljaðri", "beljaðrar"],
+					"hk": ["beljað", "beljað", "beljuðu", "beljaðs"]
+				},
+				"ft": {
+					"kk": ["beljaðir", "beljaða", "beljuðum", "beljaðra"],
+					"kvk": ["beljaðar", "beljaðar", "beljuðum", "beljaðra"],
+					"hk": ["beljuð", "beljuð", "beljuðum", "beljaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-belja",
+	"hash": "5b25ef0be5816a5d733fd7fcb3a4930613f05510a8f328f8534499f456f63658"
+}

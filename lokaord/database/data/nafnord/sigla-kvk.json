@@ -2,6 +2,16 @@
 	"orð": "sigla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "sigl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-sigla"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó-_na_"
+		}
+	],
 	"et": {
 		"ág": ["sigla", "siglu", "siglu", "siglu"],
 		"mg": ["siglan", "sigluna", "siglunni", "siglunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["siglurnar", "siglurnar", "siglunum", "siglnanna"]
 	},
 	"kennistrengur": "no-sigla-kvk",
-	"hash": "2cb60e76a63c27de778d6f6171e286a4532e1328f2989d52e8a5a92380f490dc"
+	"hash": "b59209726fecaf9914e9452f83393da96cd864fb77e63719e27c70cb3c815209"
 }
