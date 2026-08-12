@@ -1,0 +1,25 @@
+{
+	"orð": "eignamynd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"kennistrengur": "no-mynd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["eignamynd", "eignamynd", "eignamynd", "eignamyndar"],
+		"mg": ["eignamyndin", "eignamyndina", "eignamyndinni", "eignamyndarinnar"]
+	},
+	"ft": {
+		"ág": ["eignamyndir", "eignamyndir", "eignamyndum", "eignamynda"],
+		"mg": ["eignamyndirnar", "eignamyndirnar", "eignamyndunum", "eignamyndanna"]
+	},
+	"kennistrengur": "no-eignamynd-kvk",
+	"hash": "90061ce52586673078f4bce02ba8a3aea8b23b14103ee8bf4e3998983427df1c"
+}

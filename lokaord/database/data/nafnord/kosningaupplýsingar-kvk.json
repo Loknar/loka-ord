@@ -1,0 +1,22 @@
+{
+	"orð": "kosningaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kosninga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kosning-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["kosningaupplýsingar", "kosningaupplýsingar", "kosningaupplýsingum", "kosningaupplýsinga"],
+		"mg": ["kosningaupplýsingarnar", "kosningaupplýsingarnar", "kosningaupplýsingunum", "kosningaupplýsinganna"]
+	},
+	"kennistrengur": "no-kosningaupplýsingar-kvk",
+	"hash": "86d7aebfb5478e5a7d877de0e60cafe08e0c0375f29d5c71a14e703b69fdcf97"
+}

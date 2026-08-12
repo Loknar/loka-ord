@@ -1,0 +1,87 @@
+{
+	"orð": "fríka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frík",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frík-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fríka",
+		"sagnbót": "fríkað",
+		"boðháttur": {
+			"stýfður": "fríka",
+			"et": "fríkaðu",
+			"ft": "fríkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fríka", "fríkar", "fríkar"],
+					"ft": ["fríkum", "fríkið", "fríka"]
+				},
+				"þátíð": {
+					"et": ["fríkaði", "fríkaðir", "fríkaði"],
+					"ft": ["fríkuðum", "fríkuðuð", "fríkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fríki", "fríkir", "fríki"],
+					"ft": ["fríkum", "fríkið", "fríki"]
+				},
+				"þátíð": {
+					"et": ["fríkaði", "fríkaðir", "fríkaði"],
+					"ft": ["fríkuðum", "fríkuðuð", "fríkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fríkarðu",
+					"ft": "fríkiði"
+				},
+				"þátíð": {
+					"et": "fríkaðirðu",
+					"ft": "fríkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fríkirðu",
+					"ft": "fríkiði"
+				},
+				"þátíð": {
+					"et": "fríkaðirðu",
+					"ft": "fríkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fríkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fríkaður", "fríkaðan", "fríkuðum", "fríkaðs"],
+					"kvk": ["fríkuð", "fríkaða", "fríkaðri", "fríkaðrar"],
+					"hk": ["fríkað", "fríkað", "fríkuðu", "fríkaðs"]
+				},
+				"ft": {
+					"kk": ["fríkaðir", "fríkaða", "fríkuðum", "fríkaðra"],
+					"kvk": ["fríkaðar", "fríkaðar", "fríkuðum", "fríkaðra"],
+					"hk": ["fríkuð", "fríkuð", "fríkuðum", "fríkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fríka",
+	"hash": "72cf1e527f5750490084cf2bc4fe62200d1ccdd909783d8b940b4def26b419ad"
+}
