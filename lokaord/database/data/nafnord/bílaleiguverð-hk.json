@@ -1,0 +1,27 @@
+{
+	"orð": "bílaleiguverð",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "bíla",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-bíłl-kk"
+		},
+		{
+			"mynd": "leigu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-leiga-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-verð-hk"
+		}
+	],
+	"et": {
+		"ág": ["bílaleiguverð", "bílaleiguverð", "bílaleiguverði", "bílaleiguverðs"],
+		"mg": ["bílaleiguverðið", "bílaleiguverðið", "bílaleiguverðinu", "bílaleiguverðsins"]
+	},
+	"kennistrengur": "no-bílaleiguverð-hk",
+	"hash": "53677424373e3e0de3827a679ba27097e336388b94dbdd1082b1247e8297d88c"
+}
