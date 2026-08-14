@@ -1,0 +1,135 @@
+{
+	"orð": "púkka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "púkk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-púkk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "púkka",
+		"sagnbót": "púkkað",
+		"boðháttur": {
+			"stýfður": "púkka",
+			"et": "púkkaðu",
+			"ft": "púkkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["púkka", "púkkar", "púkkar"],
+					"ft": ["púkkum", "púkkið", "púkka"]
+				},
+				"þátíð": {
+					"et": ["púkkaði", "púkkaðir", "púkkaði"],
+					"ft": ["púkkuðum", "púkkuðuð", "púkkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["púkki", "púkkir", "púkki"],
+					"ft": ["púkkum", "púkkið", "púkki"]
+				},
+				"þátíð": {
+					"et": ["púkkaði", "púkkaðir", "púkkaði"],
+					"ft": ["púkkuðum", "púkkuðuð", "púkkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "púkkarðu",
+					"ft": "púkkiði"
+				},
+				"þátíð": {
+					"et": "púkkaðirðu",
+					"ft": "púkkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "púkkirðu",
+					"ft": "púkkiði"
+				},
+				"þátíð": {
+					"et": "púkkaðirðu",
+					"ft": "púkkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "púkkast",
+		"sagnbót": "púkkast",
+		"boðháttur": {
+			"et": "púkkastu",
+			"ft": "púkkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["púkkast", "púkkast", "púkkast"],
+					"ft": ["púkkumst", "púkkist", "púkkast"]
+				},
+				"þátíð": {
+					"et": ["púkkaðist", "púkkaðist", "púkkaðist"],
+					"ft": ["púkkuðumst", "púkkuðust", "púkkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["púkkist", "púkkist", "púkkist"],
+					"ft": ["púkkumst", "púkkist", "púkkist"]
+				},
+				"þátíð": {
+					"et": ["púkkaðist", "púkkaðist", "púkkaðist"],
+					"ft": ["púkkuðumst", "púkkuðust", "púkkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "púkkastu"
+				},
+				"þátíð": {
+					"et": "púkkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "púkkistu"
+				},
+				"þátíð": {
+					"et": "púkkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "púkkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["púkkaður", "púkkaðan", "púkkuðum", "púkkaðs"],
+					"kvk": ["púkkuð", "púkkaða", "púkkaðri", "púkkaðrar"],
+					"hk": ["púkkað", "púkkað", "púkkuðu", "púkkaðs"]
+				},
+				"ft": {
+					"kk": ["púkkaðir", "púkkaða", "púkkuðum", "púkkaðra"],
+					"kvk": ["púkkaðar", "púkkaðar", "púkkuðum", "púkkaðra"],
+					"hk": ["púkkuð", "púkkuð", "púkkuðum", "púkkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-púkka",
+	"hash": "3f2e96fbf61769cc33d7c6cd407df53de5b6200cd6b2a0eaf2996b352414ff5c"
+}

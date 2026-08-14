@@ -1,0 +1,142 @@
+{
+	"orð": "framhefja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fram",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-fram"
+		},
+		{
+			"kennistrengur": "so-hefja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "framhefja",
+		"sagnbót": "framhafið",
+		"boðháttur": {
+			"stýfður": "framhef",
+			"et": "framhefðu",
+			"ft": "framhefjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framhef", "framhefur", "framhefur"],
+					"ft": ["framhefjum", "framhefjið", "framhefja"]
+				},
+				"þátíð": {
+					"et": ["framhóf", "framhófst", "framhóf"],
+					"ft": ["framhófum", "framhófuð", "framhófu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framhefji", "framhefjir", "framhefji"],
+					"ft": ["framhefjum", "framhefjið", "framhefji"]
+				},
+				"þátíð": {
+					"et": ["framhæfi", "framhæfir", "framhæfi"],
+					"ft": ["framhæfum", "framhæfuð", "framhæfu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framhefurðu",
+					"ft": "framhefjiði"
+				},
+				"þátíð": {
+					"et": "framhófstu",
+					"ft": "framhófuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framhefjirðu",
+					"ft": "framhefjiði"
+				},
+				"þátíð": {
+					"et": "framhæfirðu",
+					"ft": "framhæfuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "framhefjast",
+		"sagnbót": "framhafist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["framhefst", "framhefst", "framhefst"],
+					"ft": ["framhefjumst", "framhefjist", "framhefjast"]
+				},
+				"þátíð": {
+					"et": ["framhófst", "framhófst", "framhófst"],
+					"ft": ["framhófumst", "framhófust", "framhófust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["framhefjist", "framhefjist", "framhefjist"],
+					"ft": ["framhefjumst", "framhefjist", "framhefjist"]
+				},
+				"þátíð": {
+					"et": ["framhæfist", "framhæfist", "framhæfist"],
+					"ft": ["framhæfumst", "framhæfust", "framhæfust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "framhefstu"
+				},
+				"þátíð": {
+					"et": "framhófstu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "framhefjistu"
+				},
+				"þátíð": {
+					"et": "framhæfistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "framhefjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["framhafinn", "framhafinn", "framhöfnum", "framhafins"],
+					"kvk": ["framhafin", "framhafna", "framhafinni", "framhafinnar"],
+					"hk": ["framhafið", "framhafið", "framhöfnu", "framhafins"]
+				},
+				"ft": {
+					"kk": ["framhafnir", "framhafna", "framhöfnum", "framhafinna"],
+					"kvk": ["framhafnar", "framhafnar", "framhöfnum", "framhafinna"],
+					"hk": ["framhafin", "framhafin", "framhöfnum", "framhafinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["framhafni", "framhafna", "framhafna", "framhafna"],
+					"kvk": ["framhafna", "framhöfnu", "framhöfnu", "framhöfnu"],
+					"hk": ["framhafna", "framhafna", "framhafna", "framhafna"]
+				},
+				"ft": {
+					"kk": ["framhöfnu", "framhöfnu", "framhöfnu", "framhöfnu"],
+					"kvk": ["framhöfnu", "framhöfnu", "framhöfnu", "framhöfnu"],
+					"hk": ["framhöfnu", "framhöfnu", "framhöfnu", "framhöfnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-framhefja",
+	"hash": "9b9937ff46a1ea902f64cb78de4455bad81d66af6d8c37cc049233b374bf858b"
+}

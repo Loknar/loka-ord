@@ -1,0 +1,73 @@
+{
+	"orð": "trítla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "trítl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-trítla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "trítla",
+		"sagnbót": "trítlað",
+		"boðháttur": {
+			"stýfður": "trítla",
+			"et": "trítlaðu",
+			"ft": "trítlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["trítla", "trítlar", "trítlar"],
+					"ft": ["trítlum", "trítlið", "trítla"]
+				},
+				"þátíð": {
+					"et": ["trítlaði", "trítlaðir", "trítlaði"],
+					"ft": ["trítluðum", "trítluðuð", "trítluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["trítli", "trítlir", "trítli"],
+					"ft": ["trítlum", "trítlið", "trítli"]
+				},
+				"þátíð": {
+					"et": ["trítlaði", "trítlaðir", "trítlaði"],
+					"ft": ["trítluðum", "trítluðuð", "trítluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "trítlarðu",
+					"ft": "trítliði"
+				},
+				"þátíð": {
+					"et": "trítlaðirðu",
+					"ft": "trítluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "trítlirðu",
+					"ft": "trítliði"
+				},
+				"þátíð": {
+					"et": "trítlaðirðu",
+					"ft": "trítluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "trítlandi"
+	},
+	"kennistrengur": "so-trítla",
+	"hash": "3cc0ee6d555d1d591bc18a1f53b57d3c28f6de1e4c5e6696c73d457e7f0ef9a4"
+}
