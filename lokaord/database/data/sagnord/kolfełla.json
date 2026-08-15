@@ -1,0 +1,99 @@
+{
+	"orð": "kolfełla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-fełla"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kolfełla",
+		"sagnbót": "kolfellt",
+		"boðháttur": {
+			"stýfður": "kolfełl",
+			"et": "kolfelldu",
+			"ft": "kolfełlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kolfełli", "kolfełlir", "kolfełlir"],
+					"ft": ["kolfełlum", "kolfełlið", "kolfełla"]
+				},
+				"þátíð": {
+					"et": ["kolfelldi", "kolfelldir", "kolfelldum"],
+					"ft": ["kolfellduð", "kolfelldu", "kolfelldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kolfełli", "kolfełlir", "kolfełli"],
+					"ft": ["kolfełlum", "kolfełlið", "kolfełli"]
+				},
+				"þátíð": {
+					"et": ["kolfelldi", "kolfelldir", "kolfelldi"],
+					"ft": ["kolfelldum", "kolfellduð", "kolfelldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kolfełlirðu",
+					"ft": "kolfełliði"
+				},
+				"þátíð": {
+					"et": "kolfelldirðu",
+					"ft": "kolfellduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kolfełlirðu",
+					"ft": "kolfełliði"
+				},
+				"þátíð": {
+					"et": "kolfelldirðu",
+					"ft": "kolfellduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kolfełlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kolfelldur", "kolfelldan", "kolfelldum", "kolfellds"],
+					"kvk": ["kolfelld", "kolfellda", "kolfelldri", "kolfelldrar"],
+					"hk": ["kolfellt", "kolfellt", "kolfelldu", "kolfellds"]
+				},
+				"ft": {
+					"kk": ["kolfelldir", "kolfellda", "kolfelldum", "kolfelldra"],
+					"kvk": ["kolfelldar", "kolfelldar", "kolfelldum", "kolfelldra"],
+					"hk": ["kolfelld", "kolfelld", "kolfelldum", "kolfelldra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["kolfelldi", "kolfellda", "kolfellda", "kolfellda"],
+					"kvk": ["kolfellda", "kolfelldu", "kolfelldu", "kolfelldu"],
+					"hk": ["kolfellda", "kolfellda", "kolfellda", "kolfellda"]
+				},
+				"ft": {
+					"kk": ["kolfelldu", "kolfelldu", "kolfelldu", "kolfelldu"],
+					"kvk": ["kolfelldu", "kolfelldu", "kolfelldu", "kolfelldu"],
+					"hk": ["kolfelldu", "kolfelldu", "kolfelldu", "kolfelldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kolfełla",
+	"hash": "daf4442e8bc9cfabf1d32b704ddb12602eda0a92acd65f509e452e6d1cf2812e"
+}
