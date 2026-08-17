@@ -1,0 +1,135 @@
+{
+	"orð": "sötra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sötr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sötur-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sötra",
+		"sagnbót": "sötrað",
+		"boðháttur": {
+			"stýfður": "sötra",
+			"et": "sötraðu",
+			"ft": "sötrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sötra", "sötrar", "sötrar"],
+					"ft": ["sötrum", "sötrið", "sötra"]
+				},
+				"þátíð": {
+					"et": ["sötraði", "sötraðir", "sötraði"],
+					"ft": ["sötruðum", "sötruðuð", "sötruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sötri", "sötrir", "sötri"],
+					"ft": ["sötrum", "sötrið", "sötri"]
+				},
+				"þátíð": {
+					"et": ["sötraði", "sötraðir", "sötraði"],
+					"ft": ["sötruðum", "sötruðuð", "sötruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sötrarðu",
+					"ft": "sötriði"
+				},
+				"þátíð": {
+					"et": "sötraðirðu",
+					"ft": "sötruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sötrirðu",
+					"ft": "sötriði"
+				},
+				"þátíð": {
+					"et": "sötraðirðu",
+					"ft": "sötruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sötrast",
+		"sagnbót": "sötrast",
+		"boðháttur": {
+			"et": "sötrastu",
+			"ft": "sötrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sötrast", "sötrast", "sötrast"],
+					"ft": ["sötrumst", "sötrist", "sötrast"]
+				},
+				"þátíð": {
+					"et": ["sötraðist", "sötraðist", "sötraðist"],
+					"ft": ["sötruðumst", "sötruðust", "sötruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sötrist", "sötrist", "sötrist"],
+					"ft": ["sötrumst", "sötrist", "sötrist"]
+				},
+				"þátíð": {
+					"et": ["sötraðist", "sötraðist", "sötraðist"],
+					"ft": ["sötruðumst", "sötruðust", "sötruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sötrastu"
+				},
+				"þátíð": {
+					"et": "sötraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sötristu"
+				},
+				"þátíð": {
+					"et": "sötraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sötrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sötraður", "sötraðan", "sötruðum", "sötraðs"],
+					"kvk": ["sötruð", "sötraða", "sötraðri", "sötraðrar"],
+					"hk": ["sötrað", "sötrað", "sötruðu", "sötraðs"]
+				},
+				"ft": {
+					"kk": ["sötraðir", "sötraða", "sötruðum", "sötraðra"],
+					"kvk": ["sötraðar", "sötraðar", "sötruðum", "sötraðra"],
+					"hk": ["sötruð", "sötruð", "sötruðum", "sötraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sötra",
+	"hash": "fd878d1c1f3575e95f5867f803d1382da9a922c1f06acd225066a317e836fd7b"
+}

@@ -1,0 +1,87 @@
+{
+	"orð": "bústa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "búst",
+			"samsetning": "stofn",
+			"kennistrengur": "no-búst-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bústa",
+		"sagnbót": "bústað",
+		"boðháttur": {
+			"stýfður": "bústa",
+			"et": "bústaðu",
+			"ft": "bústið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bústa", "bústar", "bústar"],
+					"ft": ["bústum", "bústið", "bústa"]
+				},
+				"þátíð": {
+					"et": ["bústaði", "bústaðir", "bústaði"],
+					"ft": ["bústuðum", "bústuðuð", "bústuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bústi", "bústir", "bústi"],
+					"ft": ["bústum", "bústið", "bústi"]
+				},
+				"þátíð": {
+					"et": ["bústaði", "bústaðir", "bústaði"],
+					"ft": ["bústuðum", "bústuðuð", "bústuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bústarðu",
+					"ft": "bústiði"
+				},
+				"þátíð": {
+					"et": "bústaðirðu",
+					"ft": "bústuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bústirðu",
+					"ft": "bústiði"
+				},
+				"þátíð": {
+					"et": "bústaðirðu",
+					"ft": "bústuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bústandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bústaður", "bústaðan", "bústuðum", "bústaðs"],
+					"kvk": ["bústuð", "bústaða", "bústaðri", "bústaðrar"],
+					"hk": ["bústað", "bústað", "bústuðu", "bústaðs"]
+				},
+				"ft": {
+					"kk": ["bústaðir", "bústaða", "bústuðum", "bústaðra"],
+					"kvk": ["bústaðar", "bústaðar", "bústuðum", "bústaðra"],
+					"hk": ["bústuð", "bústuð", "bústuðum", "bústaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bústa",
+	"hash": "07c9f70f9597d818555b36dbcdf21881deb5dabbd3a3627c80bf078073ab7951"
+}
