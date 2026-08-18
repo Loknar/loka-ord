@@ -1,0 +1,43 @@
+{
+	"orð": "hálfklæddur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hálf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-klæddur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hálfklæddur", "hálfklæddan", "hálfklæddum", "hálfklædds"],
+				"kvk": ["hálfklædd", "hálfklædda", "hálfklæddri", "hálfklæddrar"],
+				"hk": ["hálfklætt", "hálfklætt", "hálfklæddu", "hálfklædds"]
+			},
+			"ft": {
+				"kk": ["hálfklæddir", "hálfklædda", "hálfklæddum", "hálfklæddra"],
+				"kvk": ["hálfklæddar", "hálfklæddar", "hálfklæddum", "hálfklæddra"],
+				"hk": ["hálfklædd", "hálfklædd", "hálfklæddum", "hálfklæddra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hálfklæddi", "hálfklædda", "hálfklædda", "hálfklædda"],
+				"kvk": ["hálfklædda", "hálfklæddu", "hálfklæddu", "hálfklæddu"],
+				"hk": ["hálfklædda", "hálfklædda", "hálfklædda", "hálfklædda"]
+			},
+			"ft": {
+				"kk": ["hálfklæddu", "hálfklæddu", "hálfklæddu", "hálfklæddu"],
+				"kvk": ["hálfklæddu", "hálfklæddu", "hálfklæddu", "hálfklæddu"],
+				"hk": ["hálfklæddu", "hálfklæddu", "hálfklæddu", "hálfklæddu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hálfklæddur",
+	"hash": "6e217e184294c63093d0c20297d3ace383e35a682860e3da1f80e8db7cdc44d6"
+}

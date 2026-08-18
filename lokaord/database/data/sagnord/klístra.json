@@ -8,7 +8,6 @@
 			"kennistrengur": "no-klístur-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -65,6 +64,54 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "klístrast",
+		"sagnbót": "klístrast",
+		"boðháttur": {
+			"et": "klístrastu",
+			"ft": "klístrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["klístrast", "klístrast", "klístrast"],
+					"ft": ["klístrumst", "klístrist", "klístrast"]
+				},
+				"þátíð": {
+					"et": ["klístraðist", "klístraðist", "klístraðist"],
+					"ft": ["klístruðumst", "klístruðust", "klístruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["klístrist", "klístrist", "klístrist"],
+					"ft": ["klístrumst", "klístrist", "klístrist"]
+				},
+				"þátíð": {
+					"et": ["klístraðist", "klístraðist", "klístraðist"],
+					"ft": ["klístruðumst", "klístruðust", "klístruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "klístrastu"
+				},
+				"þátíð": {
+					"et": "klístraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "klístristu"
+				},
+				"þátíð": {
+					"et": "klístraðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "klístrandi",
 		"þátíðar": {
@@ -95,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-klístra",
-	"hash": "96665238da5f21863631e8a4fb16f04d498fd9dab44a89021f0a62e0fe9c361f"
+	"hash": "ebebcc2ca1d9695e35da3119b97dbb9656a5236f4cd0cfd167ab8e235ecfd837"
 }
