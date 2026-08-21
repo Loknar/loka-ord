@@ -1,0 +1,30 @@
+{
+	"orð": "einingarverðskrá",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "einingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eining-kvk"
+		},
+		{
+			"mynd": "verð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verð-hk"
+		},
+		{
+			"kennistrengur": "no-skrá-kvk"
+		}
+	],
+	"et": {
+		"ág": ["einingarverðskrá", "einingarverðskrá", "einingarverðskrá", "einingarverðskrár"],
+		"mg": ["einingarverðskráin", "einingarverðskrána", "einingarverðskránni", "einingarverðskrárinnar"]
+	},
+	"ft": {
+		"ág": ["einingarverðskrár", "einingarverðskrár", "einingarverðskrám", "einingarverðskráa"],
+		"mg": ["einingarverðskrárnar", "einingarverðskrárnar", "einingarverðskránum", "einingarverðskránna"]
+	},
+	"kennistrengur": "no-einingarverðskrá-kvk",
+	"hash": "b774ff80892c546365188c3e123ea7c5a469c0b77b9e84d0078dfc11e660d899"
+}

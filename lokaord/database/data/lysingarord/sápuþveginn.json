@@ -1,0 +1,48 @@
+{
+	"orð": "sápuþveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sápu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sápa-kvk"
+		},
+		{
+			"mynd": "þveg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þvo"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sápuþveginn", "sápuþveginn", "sápuþvegnum", "sápuþvegins"],
+				"kvk": ["sápuþvegin", "sápuþvegna", "sápuþveginni", "sápuþveginnar"],
+				"hk": ["sápuþvegið", "sápuþvegið", "sápuþvegnu", "sápuþvegins"]
+			},
+			"ft": {
+				"kk": ["sápuþvegnir", "sápuþvegna", "sápuþvegnum", "sápuþveginna"],
+				"kvk": ["sápuþvegnar", "sápuþvegnar", "sápuþvegnum", "sápuþveginna"],
+				"hk": ["sápuþvegin", "sápuþvegin", "sápuþvegnum", "sápuþveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sápuþvegni", "sápuþvegna", "sápuþvegna", "sápuþvegna"],
+				"kvk": ["sápuþvegna", "sápuþvegnu", "sápuþvegnu", "sápuþvegnu"],
+				"hk": ["sápuþvegna", "sápuþvegna", "sápuþvegna", "sápuþvegna"]
+			},
+			"ft": {
+				"kk": ["sápuþvegnu", "sápuþvegnu", "sápuþvegnu", "sápuþvegnu"],
+				"kvk": ["sápuþvegnu", "sápuþvegnu", "sápuþvegnu", "sápuþvegnu"],
+				"hk": ["sápuþvegnu", "sápuþvegnu", "sápuþvegnu", "sápuþvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sápuþveginn",
+	"hash": "5845da045f5c07b91ffc41a3a297f94c55a14de2944edc04e8b34fe7f6e92ea5"
+}

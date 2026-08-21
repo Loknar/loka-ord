@@ -1,0 +1,131 @@
+{
+	"orð": "merkingargreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "merkingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-merking-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "merkingargreina",
+		"sagnbót": "merkingargreint",
+		"boðháttur": {
+			"stýfður": "merkingargrein",
+			"et": "merkingargreindu",
+			"ft": "merkingargreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["merkingargreini", "merkingargreinir", "merkingargreinir"],
+					"ft": ["merkingargreinum", "merkingargreinið", "merkingargreina"]
+				},
+				"þátíð": {
+					"et": ["merkingargreindi", "merkingargreindir", "merkingargreindi"],
+					"ft": ["merkingargreindum", "merkingargreinduð", "merkingargreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["merkingargreini", "merkingargreinir", "merkingargreini"],
+					"ft": ["merkingargreinum", "merkingargreinið", "merkingargreini"]
+				},
+				"þátíð": {
+					"et": ["merkingargreindi", "merkingargreindir", "merkingargreindi"],
+					"ft": ["merkingargreindum", "merkingargreinduð", "merkingargreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "merkingargreinirðu",
+					"ft": "merkingargreiniði"
+				},
+				"þátíð": {
+					"et": "merkingargreindirðu",
+					"ft": "merkingargreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "merkingargreinirðu",
+					"ft": "merkingargreiniði"
+				},
+				"þátíð": {
+					"et": "merkingargreindirðu",
+					"ft": "merkingargreinduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "merkingargreinast",
+		"sagnbót": "merkingargreinst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["merkingargreinist", "merkingargreinist", "merkingargreinist"],
+					"ft": ["merkingargreinumst", "merkingargreinist", "merkingargreinast"]
+				},
+				"þátíð": {
+					"et": ["merkingargreindist", "merkingargreindist", "merkingargreindist"],
+					"ft": ["merkingargreindumst", "merkingargreindust", "merkingargreindust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["merkingargreinist", "merkingargreinist", "merkingargreinist"],
+					"ft": ["merkingargreinumst", "merkingargreinist", "merkingargreinist"]
+				},
+				"þátíð": {
+					"et": ["merkingargreindist", "merkingargreindist", "merkingargreindist"],
+					"ft": ["merkingargreindumst", "merkingargreindust", "merkingargreindust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "merkingargreinistu"
+				},
+				"þátíð": {
+					"et": "merkingargreindistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "merkingargreinistu"
+				},
+				"þátíð": {
+					"et": "merkingargreindistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "merkingargreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["merkingargreindur", "merkingargreindan", "merkingargreindum", "merkingargreinds"],
+					"kvk": ["merkingargreind", "merkingargreinda", "merkingargreindri", "merkingargreindrar"],
+					"hk": ["merkingargreint", "merkingargreint", "merkingargreindu", "merkingargreinds"]
+				},
+				"ft": {
+					"kk": ["merkingargreindir", "merkingargreinda", "merkingargreindum", "merkingargreindra"],
+					"kvk": ["merkingargreindar", "merkingargreindar", "merkingargreindum", "merkingargreindra"],
+					"hk": ["merkingargreind", "merkingargreind", "merkingargreindum", "merkingargreindra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-merkingargreina",
+	"hash": "965259f9f743ecd588f8658cbb7865640e05c483dd610231c4a5838fac8719ef"
+}

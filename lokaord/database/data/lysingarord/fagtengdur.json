@@ -1,0 +1,43 @@
+{
+	"orð": "fagtengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fag",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fagtengdur", "fagtengdan", "fagtengdum", "fagtengds"],
+				"kvk": ["fagtengd", "fagtengda", "fagtengdri", "fagtengdrar"],
+				"hk": ["fagtengt", "fagtengt", "fagtengdu", "fagtengds"]
+			},
+			"ft": {
+				"kk": ["fagtengdir", "fagtengda", "fagtengdum", "fagtengdra"],
+				"kvk": ["fagtengdar", "fagtengdar", "fagtengdum", "fagtengdra"],
+				"hk": ["fagtengd", "fagtengd", "fagtengdum", "fagtengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fagtengdi", "fagtengda", "fagtengda", "fagtengda"],
+				"kvk": ["fagtengda", "fagtengdu", "fagtengdu", "fagtengdu"],
+				"hk": ["fagtengda", "fagtengda", "fagtengda", "fagtengda"]
+			},
+			"ft": {
+				"kk": ["fagtengdu", "fagtengdu", "fagtengdu", "fagtengdu"],
+				"kvk": ["fagtengdu", "fagtengdu", "fagtengdu", "fagtengdu"],
+				"hk": ["fagtengdu", "fagtengdu", "fagtengdu", "fagtengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fagtengdur",
+	"hash": "7a310b2f0d1dfda2e01c8de974848276d30044712852c009beecace61eaee657"
+}

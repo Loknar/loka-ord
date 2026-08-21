@@ -1,0 +1,48 @@
+{
+	"orð": "steinþveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "stein",
+			"samsetning": "stofn",
+			"kennistrengur": "no-steinn-kk"
+		},
+		{
+			"mynd": "þveg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þvo"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["steinþveginn", "steinþveginn", "steinþvegnum", "steinþvegins"],
+				"kvk": ["steinþvegin", "steinþvegna", "steinþveginni", "steinþveginnar"],
+				"hk": ["steinþvegið", "steinþvegið", "steinþvegnu", "steinþvegins"]
+			},
+			"ft": {
+				"kk": ["steinþvegnir", "steinþvegna", "steinþvegnum", "steinþveginna"],
+				"kvk": ["steinþvegnar", "steinþvegnar", "steinþvegnum", "steinþveginna"],
+				"hk": ["steinþvegin", "steinþvegin", "steinþvegnum", "steinþveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["steinþvegni", "steinþvegna", "steinþvegna", "steinþvegna"],
+				"kvk": ["steinþvegna", "steinþvegnu", "steinþvegnu", "steinþvegnu"],
+				"hk": ["steinþvegna", "steinþvegna", "steinþvegna", "steinþvegna"]
+			},
+			"ft": {
+				"kk": ["steinþvegnu", "steinþvegnu", "steinþvegnu", "steinþvegnu"],
+				"kvk": ["steinþvegnu", "steinþvegnu", "steinþvegnu", "steinþvegnu"],
+				"hk": ["steinþvegnu", "steinþvegnu", "steinþvegnu", "steinþvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-steinþveginn",
+	"hash": "a5ca476caa82597a2985e98cc3c1d78190fcf665c3bc150d32e4f4aabc1f14ab"
+}

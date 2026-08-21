@@ -1,0 +1,146 @@
+{
+	"orð": "þátta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þátt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þáttur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þátta",
+		"sagnbót": "þáttað",
+		"boðháttur": {
+			"stýfður": "þátta",
+			"et": "þáttaðu",
+			"ft": "þáttið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þátta", "þáttar", "þáttar"],
+					"ft": ["þáttum", "þáttið", "þátta"]
+				},
+				"þátíð": {
+					"et": ["þáttaði", "þáttaðir", "þáttaði"],
+					"ft": ["þáttuðum", "þáttuðuð", "þáttuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þátti", "þáttir", "þátti"],
+					"ft": ["þáttum", "þáttið", "þátti"]
+				},
+				"þátíð": {
+					"et": ["þáttaði", "þáttaðir", "þáttaði"],
+					"ft": ["þáttuðum", "þáttuðuð", "þáttuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þáttarðu",
+					"ft": "þáttiði"
+				},
+				"þátíð": {
+					"et": "þáttaðirðu",
+					"ft": "þáttuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þáttirðu",
+					"ft": "þáttiði"
+				},
+				"þátíð": {
+					"et": "þáttaðirðu",
+					"ft": "þáttuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þáttast",
+		"sagnbót": "þáttast",
+		"boðháttur": {
+			"et": "þáttastu",
+			"ft": "þáttist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þáttast", "þáttast", "þáttast"],
+					"ft": ["þáttumst", "þáttist", "þáttast"]
+				},
+				"þátíð": {
+					"et": ["þáttaðist", "þáttaðist", "þáttaðist"],
+					"ft": ["þáttuðumst", "þáttuðust", "þáttuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þáttist", "þáttist", "þáttist"],
+					"ft": ["þáttumst", "þáttist", "þáttist"]
+				},
+				"þátíð": {
+					"et": ["þáttaðist", "þáttaðist", "þáttaðist"],
+					"ft": ["þáttuðumst", "þáttuðust", "þáttuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þáttastu"
+				},
+				"þátíð": {
+					"et": "þáttaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þáttistu"
+				},
+				"þátíð": {
+					"et": "þáttaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þáttandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þáttaður", "þáttaðan", "þáttuðum", "þáttaðs"],
+					"kvk": ["þáttuð", "þáttaða", "þáttaðri", "þáttaðrar"],
+					"hk": ["þáttað", "þáttað", "þáttuðu", "þáttaðs"]
+				},
+				"ft": {
+					"kk": ["þáttaðir", "þáttaða", "þáttuðum", "þáttaðra"],
+					"kvk": ["þáttaðar", "þáttaðar", "þáttuðum", "þáttaðra"],
+					"hk": ["þáttuð", "þáttuð", "þáttuðum", "þáttaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["þáttaði", "þáttaða", "þáttaða", "þáttaða"],
+					"kvk": ["þáttaða", "þáttuðu", "þáttuðu", "þáttuðu"],
+					"hk": ["þáttaða", "þáttaða", "þáttaða", "þáttaða"]
+				},
+				"ft": {
+					"kk": ["þáttuðu", "þáttuðu", "þáttuðu", "þáttuðu"],
+					"kvk": ["þáttuðu", "þáttuðu", "þáttuðu", "þáttuðu"],
+					"hk": ["þáttuðu", "þáttuðu", "þáttuðu", "þáttuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þátta",
+	"hash": "e2b3e4a3c7996a8016ae2e5927e8b48f9b9b4e76dd08d13e5962713559ea0b03"
+}

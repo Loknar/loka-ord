@@ -1,0 +1,48 @@
+{
+	"orð": "lakveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lak",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lak-hk"
+		},
+		{
+			"mynd": "veg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-vega"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["lakveginn", "lakveginn", "lakvegnum", "lakvegins"],
+				"kvk": ["lakvegin", "lakvegna", "lakveginni", "lakveginnar"],
+				"hk": ["lakvegið", "lakvegið", "lakvegnu", "lakvegins"]
+			},
+			"ft": {
+				"kk": ["lakvegnir", "lakvegna", "lakvegnum", "lakveginna"],
+				"kvk": ["lakvegnar", "lakvegnar", "lakvegnum", "lakveginna"],
+				"hk": ["lakvegin", "lakvegin", "lakvegnum", "lakveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["lakvegni", "lakvegna", "lakvegna", "lakvegna"],
+				"kvk": ["lakvegna", "lakvegnu", "lakvegnu", "lakvegnu"],
+				"hk": ["lakvegna", "lakvegna", "lakvegna", "lakvegna"]
+			},
+			"ft": {
+				"kk": ["lakvegnu", "lakvegnu", "lakvegnu", "lakvegnu"],
+				"kvk": ["lakvegnu", "lakvegnu", "lakvegnu", "lakvegnu"],
+				"hk": ["lakvegnu", "lakvegnu", "lakvegnu", "lakvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-lakveginn",
+	"hash": "32d6a7e1de4e31593a1b2eacb2f2e2d218b9ea30f4d0a65fb73bd68ee5f0bf30"
+}

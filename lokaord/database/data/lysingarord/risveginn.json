@@ -1,0 +1,48 @@
+{
+	"orð": "risveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ris",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ris-hk"
+		},
+		{
+			"mynd": "veg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-vega"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["risveginn", "risveginn", "risvegnum", "risvegins"],
+				"kvk": ["risvegin", "risvegna", "risveginni", "risveginnar"],
+				"hk": ["risvegið", "risvegið", "risvegnu", "risvegins"]
+			},
+			"ft": {
+				"kk": ["risvegnir", "risvegna", "risvegnum", "risveginna"],
+				"kvk": ["risvegnar", "risvegnar", "risvegnum", "risveginna"],
+				"hk": ["risvegin", "risvegin", "risvegnum", "risveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["risvegni", "risvegna", "risvegna", "risvegna"],
+				"kvk": ["risvegna", "risvegnu", "risvegnu", "risvegnu"],
+				"hk": ["risvegna", "risvegna", "risvegna", "risvegna"]
+			},
+			"ft": {
+				"kk": ["risvegnu", "risvegnu", "risvegnu", "risvegnu"],
+				"kvk": ["risvegnu", "risvegnu", "risvegnu", "risvegnu"],
+				"hk": ["risvegnu", "risvegnu", "risvegnu", "risvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-risveginn",
+	"hash": "2278414e6984e7b99ab27f6ced769a0819a25946553c3a82b346e9046eaa0d42"
+}

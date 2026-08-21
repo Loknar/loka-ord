@@ -1,0 +1,48 @@
+{
+	"orð": "útþveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "út",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-út"
+		},
+		{
+			"mynd": "þveg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þvo"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["útþveginn", "útþveginn", "útþvegnum", "útþvegins"],
+				"kvk": ["útþvegin", "útþvegna", "útþveginni", "útþveginnar"],
+				"hk": ["útþvegið", "útþvegið", "útþvegnu", "útþvegins"]
+			},
+			"ft": {
+				"kk": ["útþvegnir", "útþvegna", "útþvegnum", "útþveginna"],
+				"kvk": ["útþvegnar", "útþvegnar", "útþvegnum", "útþveginna"],
+				"hk": ["útþvegin", "útþvegin", "útþvegnum", "útþveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["útþvegni", "útþvegna", "útþvegna", "útþvegna"],
+				"kvk": ["útþvegna", "útþvegnu", "útþvegnu", "útþvegnu"],
+				"hk": ["útþvegna", "útþvegna", "útþvegna", "útþvegna"]
+			},
+			"ft": {
+				"kk": ["útþvegnu", "útþvegnu", "útþvegnu", "útþvegnu"],
+				"kvk": ["útþvegnu", "útþvegnu", "útþvegnu", "útþvegnu"],
+				"hk": ["útþvegnu", "útþvegnu", "útþvegnu", "útþvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-útþveginn",
+	"hash": "46161285da27ca80cf091b107d24cd7aebecea22fb491e672ebb61ad7148297c"
+}

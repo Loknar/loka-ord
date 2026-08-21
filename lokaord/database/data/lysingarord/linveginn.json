@@ -1,0 +1,48 @@
+{
+	"orð": "linveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "lin",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-linur"
+		},
+		{
+			"mynd": "veg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-vega"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["linveginn", "linveginn", "linvegnum", "linvegins"],
+				"kvk": ["linvegin", "linvegna", "linveginni", "linveginnar"],
+				"hk": ["linvegið", "linvegið", "linvegnu", "linvegins"]
+			},
+			"ft": {
+				"kk": ["linvegnir", "linvegna", "linvegnum", "linveginna"],
+				"kvk": ["linvegnar", "linvegnar", "linvegnum", "linveginna"],
+				"hk": ["linvegin", "linvegin", "linvegnum", "linveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["linvegni", "linvegna", "linvegna", "linvegna"],
+				"kvk": ["linvegna", "linvegnu", "linvegnu", "linvegnu"],
+				"hk": ["linvegna", "linvegna", "linvegna", "linvegna"]
+			},
+			"ft": {
+				"kk": ["linvegnu", "linvegnu", "linvegnu", "linvegnu"],
+				"kvk": ["linvegnu", "linvegnu", "linvegnu", "linvegnu"],
+				"hk": ["linvegnu", "linvegnu", "linvegnu", "linvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-linveginn",
+	"hash": "abea092aac8cf9f365f98d9bd4fd5f4c4222e284b9c91c61cdd5d78e2d14e825"
+}

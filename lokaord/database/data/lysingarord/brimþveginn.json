@@ -1,0 +1,48 @@
+{
+	"orð": "brimþveginn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "brim",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-brim-hk"
+		},
+		{
+			"mynd": "þveg",
+			"samsetning": "stofn",
+			"kennistrengur": "so-þvo"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-inn-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["brimþveginn", "brimþveginn", "brimþvegnum", "brimþvegins"],
+				"kvk": ["brimþvegin", "brimþvegna", "brimþveginni", "brimþveginnar"],
+				"hk": ["brimþvegið", "brimþvegið", "brimþvegnu", "brimþvegins"]
+			},
+			"ft": {
+				"kk": ["brimþvegnir", "brimþvegna", "brimþvegnum", "brimþveginna"],
+				"kvk": ["brimþvegnar", "brimþvegnar", "brimþvegnum", "brimþveginna"],
+				"hk": ["brimþvegin", "brimþvegin", "brimþvegnum", "brimþveginna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["brimþvegni", "brimþvegna", "brimþvegna", "brimþvegna"],
+				"kvk": ["brimþvegna", "brimþvegnu", "brimþvegnu", "brimþvegnu"],
+				"hk": ["brimþvegna", "brimþvegna", "brimþvegna", "brimþvegna"]
+			},
+			"ft": {
+				"kk": ["brimþvegnu", "brimþvegnu", "brimþvegnu", "brimþvegnu"],
+				"kvk": ["brimþvegnu", "brimþvegnu", "brimþvegnu", "brimþvegnu"],
+				"hk": ["brimþvegnu", "brimþvegnu", "brimþvegnu", "brimþvegnu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-brimþveginn",
+	"hash": "6ebe2c3e5eb02afd3e3b833eb4dd69b23fc4eb4c8c5dbfd49f350f828d97a370"
+}
