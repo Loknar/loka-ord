@@ -9,9 +9,7 @@
 			"kennistrengur": "smáo.ao-tví-ó"
 		},
 		{
-			"leiðir": "t",
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-ugur-ó"
+			"kennistrengur": "lo-tugur-ó"
 		}
 	],
 	"frumstig": {
@@ -40,6 +38,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["tvítugri", "tvítugri", "tvítugri", "tvítugri"],
+				"kvk": ["tvítugri", "tvítugri", "tvítugri", "tvítugri"],
+				"hk": ["tvítugra", "tvítugra", "tvítugra", "tvítugra"]
+			},
+			"ft": {
+				"kk": ["tvítugri", "tvítugri", "tvítugri", "tvítugri"],
+				"kvk": ["tvítugri", "tvítugri", "tvítugri", "tvítugri"],
+				"hk": ["tvítugri", "tvítugri", "tvítugri", "tvítugri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["tvítugastur", "tvítugastan", "tvítugustum", "tvítugasts"],
+				"kvk": ["tvítugust", "tvítugasta", "tvítugastri", "tvítugastrar"],
+				"hk": ["tvítugast", "tvítugast", "tvítugustu", "tvítugasts"]
+			},
+			"ft": {
+				"kk": ["tvítugastir", "tvítugasta", "tvítugustum", "tvítugastra"],
+				"kvk": ["tvítugastar", "tvítugastar", "tvítugustum", "tvítugastra"],
+				"hk": ["tvítugust", "tvítugust", "tvítugustum", "tvítugastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["tvítugasti", "tvítugasta", "tvítugasta", "tvítugasta"],
+				"kvk": ["tvítugasta", "tvítugustu", "tvítugustu", "tvítugustu"],
+				"hk": ["tvítugasta", "tvítugasta", "tvítugasta", "tvítugasta"]
+			},
+			"ft": {
+				"kk": ["tvítugustu", "tvítugustu", "tvítugustu", "tvítugustu"],
+				"kvk": ["tvítugustu", "tvítugustu", "tvítugustu", "tvítugustu"],
+				"hk": ["tvítugustu", "tvítugustu", "tvítugustu", "tvítugustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-tvítugur",
-	"hash": "a77d562bcbdc5891cdb35fb0ae71a23af7a235351d0289e5afbfda51fba6b5e3"
+	"hash": "9aa538fe6912fda3b405c067e689fdab231aab15d473994a48debfdca485223f"
 }

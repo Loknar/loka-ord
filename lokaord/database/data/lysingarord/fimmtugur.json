@@ -9,9 +9,7 @@
 			"kennistrengur": "to.ft-fimm"
 		},
 		{
-			"leiðir": "t",
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-ugur-ó"
+			"kennistrengur": "lo-tugur-ó"
 		}
 	],
 	"frumstig": {
@@ -40,6 +38,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["fimmtugri", "fimmtugri", "fimmtugri", "fimmtugri"],
+				"kvk": ["fimmtugri", "fimmtugri", "fimmtugri", "fimmtugri"],
+				"hk": ["fimmtugra", "fimmtugra", "fimmtugra", "fimmtugra"]
+			},
+			"ft": {
+				"kk": ["fimmtugri", "fimmtugri", "fimmtugri", "fimmtugri"],
+				"kvk": ["fimmtugri", "fimmtugri", "fimmtugri", "fimmtugri"],
+				"hk": ["fimmtugri", "fimmtugri", "fimmtugri", "fimmtugri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["fimmtugastur", "fimmtugastan", "fimmtugustum", "fimmtugasts"],
+				"kvk": ["fimmtugust", "fimmtugasta", "fimmtugastri", "fimmtugastrar"],
+				"hk": ["fimmtugast", "fimmtugast", "fimmtugustu", "fimmtugasts"]
+			},
+			"ft": {
+				"kk": ["fimmtugastir", "fimmtugasta", "fimmtugustum", "fimmtugastra"],
+				"kvk": ["fimmtugastar", "fimmtugastar", "fimmtugustum", "fimmtugastra"],
+				"hk": ["fimmtugust", "fimmtugust", "fimmtugustum", "fimmtugastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fimmtugasti", "fimmtugasta", "fimmtugasta", "fimmtugasta"],
+				"kvk": ["fimmtugasta", "fimmtugustu", "fimmtugustu", "fimmtugustu"],
+				"hk": ["fimmtugasta", "fimmtugasta", "fimmtugasta", "fimmtugasta"]
+			},
+			"ft": {
+				"kk": ["fimmtugustu", "fimmtugustu", "fimmtugustu", "fimmtugustu"],
+				"kvk": ["fimmtugustu", "fimmtugustu", "fimmtugustu", "fimmtugustu"],
+				"hk": ["fimmtugustu", "fimmtugustu", "fimmtugustu", "fimmtugustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-fimmtugur",
-	"hash": "05e30425300c348d0bfc180e62eb58def2605fbd8808c45fe9d0e070ea54b7f5"
+	"hash": "c121d3a49029011e2af9c58098997fc75098d8e85bfc2f3e97d343a4b80703da"
 }

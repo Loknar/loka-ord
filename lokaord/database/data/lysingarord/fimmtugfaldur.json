@@ -1,0 +1,48 @@
+{
+	"orð": "fimmtugfaldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fimm",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-fimm"
+		},
+		{
+			"mynd": "tug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tugur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-faldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fimmtugfaldur", "fimmtugfaldan", "fimmtugföldum", "fimmtugfalds"],
+				"kvk": ["fimmtugföld", "fimmtugfalda", "fimmtugfaldri", "fimmtugfaldrar"],
+				"hk": ["fimmtugfalt", "fimmtugfalt", "fimmtugföldu", "fimmtugfalds"]
+			},
+			"ft": {
+				"kk": ["fimmtugfaldir", "fimmtugfalda", "fimmtugföldum", "fimmtugfaldra"],
+				"kvk": ["fimmtugfaldar", "fimmtugfaldar", "fimmtugföldum", "fimmtugfaldra"],
+				"hk": ["fimmtugföld", "fimmtugföld", "fimmtugföldum", "fimmtugfaldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fimmtugfaldi", "fimmtugfalda", "fimmtugfalda", "fimmtugfalda"],
+				"kvk": ["fimmtugfalda", "fimmtugföldu", "fimmtugföldu", "fimmtugföldu"],
+				"hk": ["fimmtugfalda", "fimmtugfalda", "fimmtugfalda", "fimmtugfalda"]
+			},
+			"ft": {
+				"kk": ["fimmtugföldu", "fimmtugföldu", "fimmtugföldu", "fimmtugföldu"],
+				"kvk": ["fimmtugföldu", "fimmtugföldu", "fimmtugföldu", "fimmtugföldu"],
+				"hk": ["fimmtugföldu", "fimmtugföldu", "fimmtugföldu", "fimmtugföldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fimmtugfaldur",
+	"hash": "8de1a7d6e66d2e23a80182df4091e58f45dc3398a6d13a7b25b52c129c66c880"
+}

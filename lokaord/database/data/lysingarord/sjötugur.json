@@ -9,9 +9,7 @@
 			"kennistrengur": "to.ft-sjö"
 		},
 		{
-			"leiðir": "t",
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-ugur-ó"
+			"kennistrengur": "lo-tugur-ó"
 		}
 	],
 	"frumstig": {
@@ -40,6 +38,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["sjötugri", "sjötugri", "sjötugri", "sjötugri"],
+				"kvk": ["sjötugri", "sjötugri", "sjötugri", "sjötugri"],
+				"hk": ["sjötugra", "sjötugra", "sjötugra", "sjötugra"]
+			},
+			"ft": {
+				"kk": ["sjötugri", "sjötugri", "sjötugri", "sjötugri"],
+				"kvk": ["sjötugri", "sjötugri", "sjötugri", "sjötugri"],
+				"hk": ["sjötugri", "sjötugri", "sjötugri", "sjötugri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["sjötugastur", "sjötugastan", "sjötugustum", "sjötugasts"],
+				"kvk": ["sjötugust", "sjötugasta", "sjötugastri", "sjötugastrar"],
+				"hk": ["sjötugast", "sjötugast", "sjötugustu", "sjötugasts"]
+			},
+			"ft": {
+				"kk": ["sjötugastir", "sjötugasta", "sjötugustum", "sjötugastra"],
+				"kvk": ["sjötugastar", "sjötugastar", "sjötugustum", "sjötugastra"],
+				"hk": ["sjötugust", "sjötugust", "sjötugustum", "sjötugastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sjötugasti", "sjötugasta", "sjötugasta", "sjötugasta"],
+				"kvk": ["sjötugasta", "sjötugustu", "sjötugustu", "sjötugustu"],
+				"hk": ["sjötugasta", "sjötugasta", "sjötugasta", "sjötugasta"]
+			},
+			"ft": {
+				"kk": ["sjötugustu", "sjötugustu", "sjötugustu", "sjötugustu"],
+				"kvk": ["sjötugustu", "sjötugustu", "sjötugustu", "sjötugustu"],
+				"hk": ["sjötugustu", "sjötugustu", "sjötugustu", "sjötugustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-sjötugur",
-	"hash": "cc4c4f9ac581859fbe394b53e33fc02848b52d0d775540a8697609e31c56307b"
+	"hash": "b034b6a9e4e617a9289e12ffb5b4da44f437a4aad0479570e7ca95e9513a9c0b"
 }

@@ -9,9 +9,7 @@
 			"kennistrengur": "smáo.ao-fer-ó"
 		},
 		{
-			"leiðir": "t",
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-ugur-ó"
+			"kennistrengur": "lo-tugur-ó"
 		}
 	],
 	"frumstig": {
@@ -40,6 +38,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["fertugri", "fertugri", "fertugri", "fertugri"],
+				"kvk": ["fertugri", "fertugri", "fertugri", "fertugri"],
+				"hk": ["fertugra", "fertugra", "fertugra", "fertugra"]
+			},
+			"ft": {
+				"kk": ["fertugri", "fertugri", "fertugri", "fertugri"],
+				"kvk": ["fertugri", "fertugri", "fertugri", "fertugri"],
+				"hk": ["fertugri", "fertugri", "fertugri", "fertugri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["fertugastur", "fertugastan", "fertugustum", "fertugasts"],
+				"kvk": ["fertugust", "fertugasta", "fertugastri", "fertugastrar"],
+				"hk": ["fertugast", "fertugast", "fertugustu", "fertugasts"]
+			},
+			"ft": {
+				"kk": ["fertugastir", "fertugasta", "fertugustum", "fertugastra"],
+				"kvk": ["fertugastar", "fertugastar", "fertugustum", "fertugastra"],
+				"hk": ["fertugust", "fertugust", "fertugustum", "fertugastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fertugasti", "fertugasta", "fertugasta", "fertugasta"],
+				"kvk": ["fertugasta", "fertugustu", "fertugustu", "fertugustu"],
+				"hk": ["fertugasta", "fertugasta", "fertugasta", "fertugasta"]
+			},
+			"ft": {
+				"kk": ["fertugustu", "fertugustu", "fertugustu", "fertugustu"],
+				"kvk": ["fertugustu", "fertugustu", "fertugustu", "fertugustu"],
+				"hk": ["fertugustu", "fertugustu", "fertugustu", "fertugustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-fertugur",
-	"hash": "e5fba334d69f46d3b4ce74129d0b55f984430157af08125978fceae5348b1359"
+	"hash": "15f817cd37b6580e0c91984959b4441000638a57987bc36199f60ead7018e5a4"
 }

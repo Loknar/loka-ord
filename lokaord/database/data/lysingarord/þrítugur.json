@@ -9,9 +9,7 @@
 			"kennistrengur": "smáo.ao-þrí-ó"
 		},
 		{
-			"leiðir": "t",
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-ugur-ó"
+			"kennistrengur": "lo-tugur-ó"
 		}
 	],
 	"frumstig": {
@@ -40,6 +38,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["þrítugri", "þrítugri", "þrítugri", "þrítugri"],
+				"kvk": ["þrítugri", "þrítugri", "þrítugri", "þrítugri"],
+				"hk": ["þrítugra", "þrítugra", "þrítugra", "þrítugra"]
+			},
+			"ft": {
+				"kk": ["þrítugri", "þrítugri", "þrítugri", "þrítugri"],
+				"kvk": ["þrítugri", "þrítugri", "þrítugri", "þrítugri"],
+				"hk": ["þrítugri", "þrítugri", "þrítugri", "þrítugri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["þrítugastur", "þrítugastan", "þrítugustum", "þrítugasts"],
+				"kvk": ["þrítugust", "þrítugasta", "þrítugastri", "þrítugastrar"],
+				"hk": ["þrítugast", "þrítugast", "þrítugustu", "þrítugasts"]
+			},
+			"ft": {
+				"kk": ["þrítugastir", "þrítugasta", "þrítugustum", "þrítugastra"],
+				"kvk": ["þrítugastar", "þrítugastar", "þrítugustum", "þrítugastra"],
+				"hk": ["þrítugust", "þrítugust", "þrítugustum", "þrítugastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["þrítugasti", "þrítugasta", "þrítugasta", "þrítugasta"],
+				"kvk": ["þrítugasta", "þrítugustu", "þrítugustu", "þrítugustu"],
+				"hk": ["þrítugasta", "þrítugasta", "þrítugasta", "þrítugasta"]
+			},
+			"ft": {
+				"kk": ["þrítugustu", "þrítugustu", "þrítugustu", "þrítugustu"],
+				"kvk": ["þrítugustu", "þrítugustu", "þrítugustu", "þrítugustu"],
+				"hk": ["þrítugustu", "þrítugustu", "þrítugustu", "þrítugustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-þrítugur",
-	"hash": "5c52a8939b4db83b90e7930f541032aef10e335489b22f5394d8e9c98280ba15"
+	"hash": "8dd7050ffcd65086e29549b4de3e5f04c6e2ef99306f00565d84750c535fdf5a"
 }

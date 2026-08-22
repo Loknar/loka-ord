@@ -1,0 +1,43 @@
+{
+	"orð": "fjármálatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "fjármála",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjármál-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["fjármálatengdur", "fjármálatengdan", "fjármálatengdum", "fjármálatengds"],
+				"kvk": ["fjármálatengd", "fjármálatengda", "fjármálatengdri", "fjármálatengdrar"],
+				"hk": ["fjármálatengt", "fjármálatengt", "fjármálatengdu", "fjármálatengds"]
+			},
+			"ft": {
+				"kk": ["fjármálatengdir", "fjármálatengda", "fjármálatengdum", "fjármálatengdra"],
+				"kvk": ["fjármálatengdar", "fjármálatengdar", "fjármálatengdum", "fjármálatengdra"],
+				"hk": ["fjármálatengd", "fjármálatengd", "fjármálatengdum", "fjármálatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["fjármálatengdi", "fjármálatengda", "fjármálatengda", "fjármálatengda"],
+				"kvk": ["fjármálatengda", "fjármálatengdu", "fjármálatengdu", "fjármálatengdu"],
+				"hk": ["fjármálatengda", "fjármálatengda", "fjármálatengda", "fjármálatengda"]
+			},
+			"ft": {
+				"kk": ["fjármálatengdu", "fjármálatengdu", "fjármálatengdu", "fjármálatengdu"],
+				"kvk": ["fjármálatengdu", "fjármálatengdu", "fjármálatengdu", "fjármálatengdu"],
+				"hk": ["fjármálatengdu", "fjármálatengdu", "fjármálatengdu", "fjármálatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-fjármálatengdur",
+	"hash": "60d32ac54efac4f5a5dcd1f53d48ef14d900e065f0ccc676547b76a568ccd786"
+}

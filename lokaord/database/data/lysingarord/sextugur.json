@@ -9,9 +9,7 @@
 			"kennistrengur": "to.ft-sex"
 		},
 		{
-			"leiðir": "t",
-			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-ugur-ó"
+			"kennistrengur": "lo-tugur-ó"
 		}
 	],
 	"frumstig": {
@@ -40,6 +38,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["sextugri", "sextugri", "sextugri", "sextugri"],
+				"kvk": ["sextugri", "sextugri", "sextugri", "sextugri"],
+				"hk": ["sextugra", "sextugra", "sextugra", "sextugra"]
+			},
+			"ft": {
+				"kk": ["sextugri", "sextugri", "sextugri", "sextugri"],
+				"kvk": ["sextugri", "sextugri", "sextugri", "sextugri"],
+				"hk": ["sextugri", "sextugri", "sextugri", "sextugri"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["sextugastur", "sextugastan", "sextugustum", "sextugasts"],
+				"kvk": ["sextugust", "sextugasta", "sextugastri", "sextugastrar"],
+				"hk": ["sextugast", "sextugast", "sextugustu", "sextugasts"]
+			},
+			"ft": {
+				"kk": ["sextugastir", "sextugasta", "sextugustum", "sextugastra"],
+				"kvk": ["sextugastar", "sextugastar", "sextugustum", "sextugastra"],
+				"hk": ["sextugust", "sextugust", "sextugustum", "sextugastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sextugasti", "sextugasta", "sextugasta", "sextugasta"],
+				"kvk": ["sextugasta", "sextugustu", "sextugustu", "sextugustu"],
+				"hk": ["sextugasta", "sextugasta", "sextugasta", "sextugasta"]
+			},
+			"ft": {
+				"kk": ["sextugustu", "sextugustu", "sextugustu", "sextugustu"],
+				"kvk": ["sextugustu", "sextugustu", "sextugustu", "sextugustu"],
+				"hk": ["sextugustu", "sextugustu", "sextugustu", "sextugustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-sextugur",
-	"hash": "56da5d83874add4a4c25f0b79905cbbfff07f990264a70f43f63e50c3339d48e"
+	"hash": "af6ff70479d08b1e4abcc24b13feb4b929cb7623b2242c0c249eb12ec60a894c"
 }
