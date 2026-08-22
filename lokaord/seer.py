@@ -994,6 +994,7 @@ def clean_string(mystr: str) -> str:
 		('ò', 'ó'),
 		('ù', 'ú'),
 		# skipta út ákveðnum táknum fyrir skyld venjubundnari tákn
+		('\u2010', '-'),  # Hyphen Unicode Character -> Hyphen-minus
 		('\u2011', '-'),  # Non-Breaking Hyphen -> Hyphen-minus
 		('\u2019', "'"),  # Right Single Quotation Mark -> Apostrophe
 		# fjarlægja óæskileg tákn
