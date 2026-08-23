@@ -1,0 +1,99 @@
+{
+	"orð": "íðorðagreina",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "íðorða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íðorð-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-greina"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "íðorðagreina",
+		"sagnbót": "íðorðagreint",
+		"boðháttur": {
+			"stýfður": "íðorðagrein",
+			"et": "íðorðagreindu",
+			"ft": "íðorðagreinið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["íðorðagreini", "íðorðagreinir", "íðorðagreinir"],
+					"ft": ["íðorðagreinum", "íðorðagreinið", "íðorðagreina"]
+				},
+				"þátíð": {
+					"et": ["íðorðagreindi", "íðorðagreindir", "íðorðagreindi"],
+					"ft": ["íðorðagreindum", "íðorðagreinduð", "íðorðagreindu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["íðorðagreini", "íðorðagreinir", "íðorðagreini"],
+					"ft": ["íðorðagreinum", "íðorðagreinið", "íðorðagreini"]
+				},
+				"þátíð": {
+					"et": ["íðorðagreindi", "íðorðagreindir", "íðorðagreindi"],
+					"ft": ["íðorðagreindum", "íðorðagreinduð", "íðorðagreindu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "íðorðagreinirðu",
+					"ft": "íðorðagreiniði"
+				},
+				"þátíð": {
+					"et": "íðorðagreindirðu",
+					"ft": "íðorðagreinduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "íðorðagreinirðu",
+					"ft": "íðorðagreiniði"
+				},
+				"þátíð": {
+					"et": "íðorðagreindirðu",
+					"ft": "íðorðagreinduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "íðorðagreinandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["íðorðagreindur", "íðorðagreindan", "íðorðagreindum", "íðorðagreinds"],
+					"kvk": ["íðorðagreind", "íðorðagreinda", "íðorðagreindri", "íðorðagreindrar"],
+					"hk": ["íðorðagreint", "íðorðagreint", "íðorðagreindu", "íðorðagreinds"]
+				},
+				"ft": {
+					"kk": ["íðorðagreindir", "íðorðagreinda", "íðorðagreindum", "íðorðagreindra"],
+					"kvk": ["íðorðagreindar", "íðorðagreindar", "íðorðagreindum", "íðorðagreindra"],
+					"hk": ["íðorðagreind", "íðorðagreind", "íðorðagreindum", "íðorðagreindra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["íðorðagreindi", "íðorðagreinda", "íðorðagreinda", "íðorðagreinda"],
+					"kvk": ["íðorðagreinda", "íðorðagreindu", "íðorðagreindu", "íðorðagreindu"],
+					"hk": ["íðorðagreinda", "íðorðagreinda", "íðorðagreinda", "íðorðagreinda"]
+				},
+				"ft": {
+					"kk": ["íðorðagreindu", "íðorðagreindu", "íðorðagreindu", "íðorðagreindu"],
+					"kvk": ["íðorðagreindu", "íðorðagreindu", "íðorðagreindu", "íðorðagreindu"],
+					"hk": ["íðorðagreindu", "íðorðagreindu", "íðorðagreindu", "íðorðagreindu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-íðorðagreina",
+	"hash": "b4de343a31688ece52bfb20c88d0a31ec84550d363f190e36516ffa788025a54"
+}
