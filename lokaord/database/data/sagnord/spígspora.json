@@ -1,0 +1,73 @@
+{
+	"orð": "spígspora",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spíg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spík-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-spora"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spígspora",
+		"sagnbót": "spígsporað",
+		"boðháttur": {
+			"stýfður": "spígspora",
+			"et": "spígsporaðu",
+			"ft": "spígsporið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spígspora", "spígsporar", "spígsporar"],
+					"ft": ["spígsporum", "spígsporið", "spígspora"]
+				},
+				"þátíð": {
+					"et": ["spígsporaði", "spígsporaðir", "spígsporaði"],
+					"ft": ["spígsporuðum", "spígsporuðuð", "spígsporuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spígspori", "spígsporir", "spígspori"],
+					"ft": ["spígsporum", "spígsporið", "spígspori"]
+				},
+				"þátíð": {
+					"et": ["spígsporaði", "spígsporaðir", "spígsporaði"],
+					"ft": ["spígsporuðum", "spígsporuðuð", "spígsporuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spígsporarðu",
+					"ft": "spígsporiði"
+				},
+				"þátíð": {
+					"et": "spígsporaðirðu",
+					"ft": "spígsporuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spígsporirðu",
+					"ft": "spígsporiði"
+				},
+				"þátíð": {
+					"et": "spígsporaðirðu",
+					"ft": "spígsporuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spígsporandi"
+	},
+	"kennistrengur": "so-spígspora",
+	"hash": "5a1b6220bdee5bb465ffa18dd0314990226b16822b7f1cc46259b03fdbbd9955"
+}

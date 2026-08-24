@@ -1,0 +1,73 @@
+{
+	"orð": "rigsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rigs",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rigsa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rigsa",
+		"sagnbót": "rigsað",
+		"boðháttur": {
+			"stýfður": "rigsa",
+			"et": "rigsaðu",
+			"ft": "rigsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rigsa", "rigsar", "rigsar"],
+					"ft": ["rigsum", "rigsið", "rigsa"]
+				},
+				"þátíð": {
+					"et": ["rigsaði", "rigsaðir", "rigsaði"],
+					"ft": ["rigsuðum", "rigsuðuð", "rigsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rigsi", "rigsir", "rigsi"],
+					"ft": ["rigsum", "rigsið", "rigsi"]
+				},
+				"þátíð": {
+					"et": ["rigsaði", "rigsaðir", "rigsaði"],
+					"ft": ["rigsuðum", "rigsuðuð", "rigsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rigsarðu",
+					"ft": "rigsiði"
+				},
+				"þátíð": {
+					"et": "rigsaðirðu",
+					"ft": "rigsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rigsirðu",
+					"ft": "rigsiði"
+				},
+				"þátíð": {
+					"et": "rigsaðirðu",
+					"ft": "rigsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rigsandi"
+	},
+	"kennistrengur": "so-rigsa",
+	"hash": "01d3e99b4bd4c84b673ab67ff48b68c67ba2f402f033436a8ae15d31b35e515c"
+}

@@ -1,0 +1,73 @@
+{
+	"orð": "spíkspora",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "spík",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spík-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-spora"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "spíkspora",
+		"sagnbót": "spíksporað",
+		"boðháttur": {
+			"stýfður": "spíkspora",
+			"et": "spíksporaðu",
+			"ft": "spíksporið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["spíkspora", "spíksporar", "spíksporar"],
+					"ft": ["spíksporum", "spíksporið", "spíkspora"]
+				},
+				"þátíð": {
+					"et": ["spíksporaði", "spíksporaðir", "spíksporaði"],
+					"ft": ["spíksporuðum", "spíksporuðuð", "spíksporuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["spíkspori", "spíksporir", "spíkspori"],
+					"ft": ["spíksporum", "spíksporið", "spíkspori"]
+				},
+				"þátíð": {
+					"et": ["spíksporaði", "spíksporaðir", "spíksporaði"],
+					"ft": ["spíksporuðum", "spíksporuðuð", "spíksporuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "spíksporarðu",
+					"ft": "spíksporiði"
+				},
+				"þátíð": {
+					"et": "spíksporaðirðu",
+					"ft": "spíksporuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "spíksporirðu",
+					"ft": "spíksporiði"
+				},
+				"þátíð": {
+					"et": "spíksporaðirðu",
+					"ft": "spíksporuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "spíksporandi"
+	},
+	"kennistrengur": "so-spíkspora",
+	"hash": "738aa07d0a01c8f0c20c4cac1a01ba81ceba86facc743dcdf95616dca3614a11"
+}
