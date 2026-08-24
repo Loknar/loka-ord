@@ -4,24 +4,14 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "gervi",
-			"samsetning": "stofn",
-			"kennistrengur": "no-gervi-hk"
-		},
-		{
-			"mynd": "greindar",
+			"mynd": "gervigreindar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greind-kvk"
+			"kennistrengur": "no-gervigreind-kvk"
 		},
 		{
-			"mynd": "mynd",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mynd-kvk"
-		},
-		{
-			"mynd": "banda",
+			"mynd": "myndbanda",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-band-hk"
+			"kennistrengur": "no-myndband-hk"
 		},
 		{
 			"kennistrengur": "no-fretari-kk"
@@ -36,5 +26,5 @@
 		"mg": ["gervigreindarmyndbandafretararnir", "gervigreindarmyndbandafretarana", "gervigreindarmyndbandafreturunum", "gervigreindarmyndbandafretaranna"]
 	},
 	"kennistrengur": "no-gervigreindarmyndbandafretari-kk",
-	"hash": "bb0d95de55f6923f37f757a983319d5cc455fbd9dd45005d0879c93154f5f4c5"
+	"hash": "ab9929812ec856d575b0025e3bceeec0143be4a0c723c91d60e36df6fef78fcb"
 }
