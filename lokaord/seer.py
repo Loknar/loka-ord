@@ -993,6 +993,9 @@ def clean_string(mystr: str) -> str:
 		('ì', 'í'),
 		('ò', 'ó'),
 		('ù', 'ú'),
+		# öðruvísi Ð (Latin Alphabet crossed D), skipta út fyrir venjulegt íslenskt Ð (Eth)
+		('\u0110', 'Ð'),
+		('\u0111', 'ð'),
 		# skipta út ákveðnum táknum fyrir skyld venjubundnari tákn
 		('\u2010', '-'),  # Hyphen Unicode Character -> Hyphen-minus
 		('\u2011', '-'),  # Non-Breaking Hyphen -> Hyphen-minus
