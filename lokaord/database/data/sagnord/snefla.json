@@ -1,0 +1,135 @@
+{
+	"orð": "snefla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "snefl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-snefiłl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "snefla",
+		"sagnbót": "sneflað",
+		"boðháttur": {
+			"stýfður": "snefla",
+			"et": "sneflaðu",
+			"ft": "sneflið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["snefla", "sneflar", "sneflar"],
+					"ft": ["sneflum", "sneflið", "snefla"]
+				},
+				"þátíð": {
+					"et": ["sneflaði", "sneflaðir", "sneflaði"],
+					"ft": ["snefluðum", "snefluðuð", "snefluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["snefli", "sneflir", "snefli"],
+					"ft": ["sneflum", "sneflið", "snefli"]
+				},
+				"þátíð": {
+					"et": ["sneflaði", "sneflaðir", "sneflaði"],
+					"ft": ["snefluðum", "snefluðuð", "snefluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sneflarðu",
+					"ft": "snefliði"
+				},
+				"þátíð": {
+					"et": "sneflaðirðu",
+					"ft": "snefluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sneflirðu",
+					"ft": "snefliði"
+				},
+				"þátíð": {
+					"et": "sneflaðirðu",
+					"ft": "snefluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sneflast",
+		"sagnbót": "sneflast",
+		"boðháttur": {
+			"et": "sneflastu",
+			"ft": "sneflist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sneflast", "sneflast", "sneflast"],
+					"ft": ["sneflumst", "sneflist", "sneflast"]
+				},
+				"þátíð": {
+					"et": ["sneflaðist", "sneflaðist", "sneflaðist"],
+					"ft": ["snefluðumst", "snefluðust", "snefluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sneflist", "sneflist", "sneflist"],
+					"ft": ["sneflumst", "sneflist", "sneflist"]
+				},
+				"þátíð": {
+					"et": ["sneflaðist", "sneflaðist", "sneflaðist"],
+					"ft": ["snefluðumst", "snefluðust", "snefluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sneflastu"
+				},
+				"þátíð": {
+					"et": "sneflaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sneflistu"
+				},
+				"þátíð": {
+					"et": "sneflaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sneflandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sneflaður", "sneflaðan", "snefluðum", "sneflaðs"],
+					"kvk": ["snefluð", "sneflaða", "sneflaðri", "sneflaðrar"],
+					"hk": ["sneflað", "sneflað", "snefluðu", "sneflaðs"]
+				},
+				"ft": {
+					"kk": ["sneflaðir", "sneflaða", "snefluðum", "sneflaðra"],
+					"kvk": ["sneflaðar", "sneflaðar", "snefluðum", "sneflaðra"],
+					"hk": ["snefluð", "snefluð", "snefluðum", "sneflaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-snefla",
+	"hash": "61523ea5809b26ec9b2e3b9e81afb37e7c77b09c1b50a70b333bbccdfde1553f"
+}

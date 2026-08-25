@@ -1,0 +1,87 @@
+{
+	"orð": "silfursmelta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "silfur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-silfur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-smelta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "silfursmelta",
+		"sagnbót": "silfursmelt",
+		"boðháttur": {
+			"stýfður": "silfursmelt",
+			"et": "silfursmeltu",
+			"ft": "silfursmeltið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["silfursmelti", "silfursmeltir", "silfursmeltir"],
+					"ft": ["silfursmeltum", "silfursmeltið", "silfursmelta"]
+				},
+				"þátíð": {
+					"et": ["silfursmelti", "silfursmeltir", "silfursmelti"],
+					"ft": ["silfursmeltum", "silfursmeltuð", "silfursmeltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["silfursmelti", "silfursmeltir", "silfursmelti"],
+					"ft": ["silfursmeltum", "silfursmeltið", "silfursmelti"]
+				},
+				"þátíð": {
+					"et": ["silfursmelti", "silfursmeltir", "silfursmelti"],
+					"ft": ["silfursmeltum", "silfursmeltuð", "silfursmeltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "silfursmeltirðu",
+					"ft": "silfursmeltiði"
+				},
+				"þátíð": {
+					"et": "silfursmeltirðu",
+					"ft": "silfursmeltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "silfursmeltirðu",
+					"ft": "silfursmeltiði"
+				},
+				"þátíð": {
+					"et": "silfursmeltirðu",
+					"ft": "silfursmeltuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "silfursmeltandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["silfursmeltur", "silfursmeltan", "silfursmeltum", "silfursmelts"],
+					"kvk": ["silfursmelt", "silfursmelta", "silfursmeltri", "silfursmeltrar"],
+					"hk": ["silfursmelt", "silfursmelt", "silfursmeltu", "silfursmelts"]
+				},
+				"ft": {
+					"kk": ["silfursmeltir", "silfursmelta", "silfursmeltum", "silfursmeltra"],
+					"kvk": ["silfursmeltar", "silfursmeltar", "silfursmeltum", "silfursmeltra"],
+					"hk": ["silfursmelt", "silfursmelt", "silfursmeltum", "silfursmeltra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-silfursmelta",
+	"hash": "55fde71f3aa47bddf40da573579fb11b24a9fd7c92ba9f3e066befc064ea355f"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "hnefa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hnef",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnefi-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hnefa",
+		"sagnbót": "hnefað",
+		"boðháttur": {
+			"stýfður": "hnefa",
+			"et": "hnefaðu",
+			"ft": "hnefið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnefa", "hnefar", "hnefar"],
+					"ft": ["hnefum", "hnefið", "hnefa"]
+				},
+				"þátíð": {
+					"et": ["hnefaði", "hnefaðir", "hnefaði"],
+					"ft": ["hnefuðum", "hnefuðuð", "hnefuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnefi", "hnefir", "hnefi"],
+					"ft": ["hnefum", "hnefið", "hnefi"]
+				},
+				"þátíð": {
+					"et": ["hnefaði", "hnefaðir", "hnefaði"],
+					"ft": ["hnefuðum", "hnefuðuð", "hnefuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnefarðu",
+					"ft": "hnefiði"
+				},
+				"þátíð": {
+					"et": "hnefaðirðu",
+					"ft": "hnefuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnefirðu",
+					"ft": "hnefiði"
+				},
+				"þátíð": {
+					"et": "hnefaðirðu",
+					"ft": "hnefuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hnefast",
+		"sagnbót": "hnefast",
+		"boðháttur": {
+			"et": "hnefastu",
+			"ft": "hnefist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hnefast", "hnefast", "hnefast"],
+					"ft": ["hnefumst", "hnefist", "hnefast"]
+				},
+				"þátíð": {
+					"et": ["hnefaðist", "hnefaðist", "hnefaðist"],
+					"ft": ["hnefuðumst", "hnefuðust", "hnefuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hnefist", "hnefist", "hnefist"],
+					"ft": ["hnefumst", "hnefist", "hnefist"]
+				},
+				"þátíð": {
+					"et": ["hnefaðist", "hnefaðist", "hnefaðist"],
+					"ft": ["hnefuðumst", "hnefuðust", "hnefuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hnefastu"
+				},
+				"þátíð": {
+					"et": "hnefaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hnefistu"
+				},
+				"þátíð": {
+					"et": "hnefaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hnefandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hnefaður", "hnefaðan", "hnefuðum", "hnefaðs"],
+					"kvk": ["hnefuð", "hnefaða", "hnefaðri", "hnefaðrar"],
+					"hk": ["hnefað", "hnefað", "hnefuðu", "hnefaðs"]
+				},
+				"ft": {
+					"kk": ["hnefaðir", "hnefaða", "hnefuðum", "hnefaðra"],
+					"kvk": ["hnefaðar", "hnefaðar", "hnefuðum", "hnefaðra"],
+					"hk": ["hnefuð", "hnefuð", "hnefuðum", "hnefaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hnefa",
+	"hash": "21d3f36a0655cdd2347030c2207ddb603807be89625af177f4d61c58763673be"
+}

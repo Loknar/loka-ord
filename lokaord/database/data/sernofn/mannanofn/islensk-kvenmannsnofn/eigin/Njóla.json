@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Njól",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-njóli-kk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Njóla", "Njólu", "Njólu", "Njólu"]
 	},
 	"kennistrengur": "sérn.en-Njóla-kvk",
-	"hash": "d282add41b6b217cad088dcf5c0f40cac3c0904022bff9c4a33df98b83f3839a"
+	"hash": "96127e580a3ed3326d21b6510ee54e350d502074895de4805e6896853eb5c9a8"
 }

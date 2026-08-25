@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "meiri",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-mikiłl"
-		},
-		{
-			"mynd": "hluta",
+			"mynd": "meirihluta",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hluti-kk"
+			"kennistrengur": "no-meirihluti-kk"
 		},
 		{
-			"mynd": "eignar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-eign-kvk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-eignarhald-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["meirihlutaeignarhaldið", "meirihlutaeignarhaldið", "meirihlutaeignarhaldinu", "meirihlutaeignarhaldsins"]
 	},
 	"kennistrengur": "no-meirihlutaeignarhald-hk",
-	"hash": "a26f7ce519e25b94866008cca3b4838f078d06b4e7378b7bf3929e5f8145c9df"
+	"hash": "e491a4aa5edd68e02b110e6533e5b55961767441ae0a11fb368460fa8ca0282f"
 }

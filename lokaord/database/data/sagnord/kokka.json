@@ -1,0 +1,135 @@
+{
+	"orð": "kokka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kokk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kokkur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kokka",
+		"sagnbót": "kokkað",
+		"boðháttur": {
+			"stýfður": "kokka",
+			"et": "kokkaðu",
+			"ft": "kokkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kokka", "kokkar", "kokkar"],
+					"ft": ["kokkum", "kokkið", "kokka"]
+				},
+				"þátíð": {
+					"et": ["kokkaði", "kokkaðir", "kokkaði"],
+					"ft": ["kokkuðum", "kokkuðuð", "kokkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kokki", "kokkir", "kokki"],
+					"ft": ["kokkum", "kokkið", "kokki"]
+				},
+				"þátíð": {
+					"et": ["kokkaði", "kokkaðir", "kokkaði"],
+					"ft": ["kokkuðum", "kokkuðuð", "kokkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kokkarðu",
+					"ft": "kokkiði"
+				},
+				"þátíð": {
+					"et": "kokkaðirðu",
+					"ft": "kokkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kokkirðu",
+					"ft": "kokkiði"
+				},
+				"þátíð": {
+					"et": "kokkaðirðu",
+					"ft": "kokkuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kokkast",
+		"sagnbót": "kokkast",
+		"boðháttur": {
+			"et": "kokkastu",
+			"ft": "kokkist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kokkast", "kokkast", "kokkast"],
+					"ft": ["kokkumst", "kokkist", "kokkast"]
+				},
+				"þátíð": {
+					"et": ["kokkaðist", "kokkaðist", "kokkaðist"],
+					"ft": ["kokkuðumst", "kokkuðust", "kokkuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kokkist", "kokkist", "kokkist"],
+					"ft": ["kokkumst", "kokkist", "kokkist"]
+				},
+				"þátíð": {
+					"et": ["kokkaðist", "kokkaðist", "kokkaðist"],
+					"ft": ["kokkuðumst", "kokkuðust", "kokkuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kokkastu"
+				},
+				"þátíð": {
+					"et": "kokkaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kokkistu"
+				},
+				"þátíð": {
+					"et": "kokkaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kokkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kokkaður", "kokkaðan", "kokkuðum", "kokkaðs"],
+					"kvk": ["kokkuð", "kokkaða", "kokkaðri", "kokkaðrar"],
+					"hk": ["kokkað", "kokkað", "kokkuðu", "kokkaðs"]
+				},
+				"ft": {
+					"kk": ["kokkaðir", "kokkaða", "kokkuðum", "kokkaðra"],
+					"kvk": ["kokkaðar", "kokkaðar", "kokkuðum", "kokkaðra"],
+					"hk": ["kokkuð", "kokkuð", "kokkuðum", "kokkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kokka",
+	"hash": "edca4397dcb11f05fe9ce668e51d072f3a3d7869a37250209da20a889108e13f"
+}

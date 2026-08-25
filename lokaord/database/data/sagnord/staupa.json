@@ -1,0 +1,135 @@
+{
+	"orð": "staupa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "staup",
+			"samsetning": "stofn",
+			"kennistrengur": "no-staup-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "staupa",
+		"sagnbót": "staupað",
+		"boðháttur": {
+			"stýfður": "staupa",
+			"et": "staupaðu",
+			"ft": "staupið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staupa", "staupar", "staupar"],
+					"ft": ["staupum", "staupið", "staupa"]
+				},
+				"þátíð": {
+					"et": ["staupaði", "staupaðir", "staupaði"],
+					"ft": ["staupuðum", "staupuðuð", "staupuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staupi", "staupir", "staupi"],
+					"ft": ["staupum", "staupið", "staupi"]
+				},
+				"þátíð": {
+					"et": ["staupaði", "staupaðir", "staupaði"],
+					"ft": ["staupuðum", "staupuðuð", "staupuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stauparðu",
+					"ft": "staupiði"
+				},
+				"þátíð": {
+					"et": "staupaðirðu",
+					"ft": "staupuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staupirðu",
+					"ft": "staupiði"
+				},
+				"þátíð": {
+					"et": "staupaðirðu",
+					"ft": "staupuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "staupast",
+		"sagnbót": "staupast",
+		"boðháttur": {
+			"et": "staupastu",
+			"ft": "staupist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["staupast", "staupast", "staupast"],
+					"ft": ["staupumst", "staupist", "staupast"]
+				},
+				"þátíð": {
+					"et": ["staupaðist", "staupaðist", "staupaðist"],
+					"ft": ["staupuðumst", "staupuðust", "staupuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["staupist", "staupist", "staupist"],
+					"ft": ["staupumst", "staupist", "staupist"]
+				},
+				"þátíð": {
+					"et": ["staupaðist", "staupaðist", "staupaðist"],
+					"ft": ["staupuðumst", "staupuðust", "staupuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "staupastu"
+				},
+				"þátíð": {
+					"et": "staupaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "staupistu"
+				},
+				"þátíð": {
+					"et": "staupaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "staupandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["staupaður", "staupaðan", "staupuðum", "staupaðs"],
+					"kvk": ["staupuð", "staupaða", "staupaðri", "staupaðrar"],
+					"hk": ["staupað", "staupað", "staupuðu", "staupaðs"]
+				},
+				"ft": {
+					"kk": ["staupaðir", "staupaða", "staupuðum", "staupaðra"],
+					"kvk": ["staupaðar", "staupaðar", "staupuðum", "staupaðra"],
+					"hk": ["staupuð", "staupuð", "staupuðum", "staupaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-staupa",
+	"hash": "50bdbb3342c1a1e4321250dd3432d4f09412360e253efd42563d8ed3b09dd411"
+}
