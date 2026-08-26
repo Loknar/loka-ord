@@ -1,0 +1,43 @@
+{
+	"orð": "kvíslgreindur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "kvísl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kvísl-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-greindur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["kvíslgreindur", "kvíslgreindan", "kvíslgreindum", "kvíslgreinds"],
+				"kvk": ["kvíslgreind", "kvíslgreinda", "kvíslgreindri", "kvíslgreindrar"],
+				"hk": ["kvíslgreint", "kvíslgreint", "kvíslgreindu", "kvíslgreinds"]
+			},
+			"ft": {
+				"kk": ["kvíslgreindir", "kvíslgreinda", "kvíslgreindum", "kvíslgreindra"],
+				"kvk": ["kvíslgreindar", "kvíslgreindar", "kvíslgreindum", "kvíslgreindra"],
+				"hk": ["kvíslgreind", "kvíslgreind", "kvíslgreindum", "kvíslgreindra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["kvíslgreindi", "kvíslgreinda", "kvíslgreinda", "kvíslgreinda"],
+				"kvk": ["kvíslgreinda", "kvíslgreindu", "kvíslgreindu", "kvíslgreindu"],
+				"hk": ["kvíslgreinda", "kvíslgreinda", "kvíslgreinda", "kvíslgreinda"]
+			},
+			"ft": {
+				"kk": ["kvíslgreindu", "kvíslgreindu", "kvíslgreindu", "kvíslgreindu"],
+				"kvk": ["kvíslgreindu", "kvíslgreindu", "kvíslgreindu", "kvíslgreindu"],
+				"hk": ["kvíslgreindu", "kvíslgreindu", "kvíslgreindu", "kvíslgreindu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-kvíslgreindur",
+	"hash": "ac75c5c81b509ab923defeff591cf26549443dfc121dac1f7112ecbccae69ab5"
+}

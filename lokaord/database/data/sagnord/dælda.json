@@ -1,0 +1,135 @@
+{
+	"orð": "dælda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dæld",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dæld-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dælda",
+		"sagnbót": "dældað",
+		"boðháttur": {
+			"stýfður": "dælda",
+			"et": "dældaðu",
+			"ft": "dældið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dælda", "dældar", "dældar"],
+					"ft": ["dældum", "dældið", "dælda"]
+				},
+				"þátíð": {
+					"et": ["dældaði", "dældaðir", "dældaði"],
+					"ft": ["dælduðum", "dælduðuð", "dælduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dældi", "dældir", "dældi"],
+					"ft": ["dældum", "dældið", "dældi"]
+				},
+				"þátíð": {
+					"et": ["dældaði", "dældaðir", "dældaði"],
+					"ft": ["dælduðum", "dælduðuð", "dælduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dældarðu",
+					"ft": "dældiði"
+				},
+				"þátíð": {
+					"et": "dældaðirðu",
+					"ft": "dælduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dældirðu",
+					"ft": "dældiði"
+				},
+				"þátíð": {
+					"et": "dældaðirðu",
+					"ft": "dælduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dældast",
+		"sagnbót": "dældast",
+		"boðháttur": {
+			"et": "dældastu",
+			"ft": "dældist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dældast", "dældast", "dældast"],
+					"ft": ["dældumst", "dældist", "dældast"]
+				},
+				"þátíð": {
+					"et": ["dældaðist", "dældaðist", "dældaðist"],
+					"ft": ["dælduðumst", "dælduðust", "dælduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dældist", "dældist", "dældist"],
+					"ft": ["dældumst", "dældist", "dældist"]
+				},
+				"þátíð": {
+					"et": ["dældaðist", "dældaðist", "dældaðist"],
+					"ft": ["dælduðumst", "dælduðust", "dælduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dældastu"
+				},
+				"þátíð": {
+					"et": "dældaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dældistu"
+				},
+				"þátíð": {
+					"et": "dældaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dældandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dældaður", "dældaðan", "dælduðum", "dældaðs"],
+					"kvk": ["dælduð", "dældaða", "dældaðri", "dældaðrar"],
+					"hk": ["dældað", "dældað", "dælduðu", "dældaðs"]
+				},
+				"ft": {
+					"kk": ["dældaðir", "dældaða", "dælduðum", "dældaðra"],
+					"kvk": ["dældaðar", "dældaðar", "dælduðum", "dældaðra"],
+					"hk": ["dælduð", "dælduð", "dælduðum", "dældaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dælda",
+	"hash": "912f4e7456b5d6a4beb88da2d75c855e0e594ed91aa6049dd4a0c523d2b9b363"
+}

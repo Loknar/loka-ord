@@ -3,6 +3,16 @@
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
 	"tölugildi": 12,
+	"samsett": [
+		{
+			"mynd": "tylf",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-tólf"
+		},
+		{
+			"kennistrengur": "no-t-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["tylft", "tylft", "tylft", "tylftar"],
 		"mg": ["tylftin", "tylftina", "tylftinni", "tylftarinnar"]
@@ -12,5 +22,5 @@
 		"mg": ["tylftirnar", "tylftirnar", "tylftunum", "tylftanna"]
 	},
 	"kennistrengur": "no-tylft-kvk",
-	"hash": "390020d3e64a521d2a045167f0559188e2c546dc07f9eb88859596b01981e86d"
+	"hash": "6ab3a6389b42ab04156cd26d3b661065504bd0d53c00bc12df8baf38e04c24c4"
 }
