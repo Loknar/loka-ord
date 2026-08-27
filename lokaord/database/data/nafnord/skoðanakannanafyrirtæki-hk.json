@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "skoðana",
+			"mynd": "skoðanakannana",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skoðun-kvk"
+			"kennistrengur": "no-skoðanakönnun-kvk"
 		},
 		{
-			"mynd": "kannana",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-könnun-kvk"
-		},
-		{
-			"mynd": "fyrir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fyrir"
-		},
-		{
-			"kennistrengur": "no-tæki-hk"
+			"kennistrengur": "no-fyrirtæki-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skoðanakannanafyrirtækin", "skoðanakannanafyrirtækin", "skoðanakannanafyrirtækjunum", "skoðanakannanafyrirtækjanna"]
 	},
 	"kennistrengur": "no-skoðanakannanafyrirtæki-hk",
-	"hash": "27449806b35ebcf3eebf799a076562cf28fc715695bafecf5663f6c167158138"
+	"hash": "36cad0f65eacd17144bbf773ad11965232c0be9194c3426fff4d4016aa6e0439"
 }

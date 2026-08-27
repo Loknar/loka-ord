@@ -1,0 +1,87 @@
+{
+	"orð": "ófrægja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ó",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-frægja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ófrægja",
+		"sagnbót": "ófrægt",
+		"boðháttur": {
+			"stýfður": "ófræg",
+			"et": "ófrægðu",
+			"ft": "ófrægið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ófrægi", "ófrægir", "ófrægir"],
+					"ft": ["ófrægjum", "ófrægið", "ófrægja"]
+				},
+				"þátíð": {
+					"et": ["ófrægði", "ófrægðir", "ófrægði"],
+					"ft": ["ófrægðum", "ófrægðuð", "ófrægðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ófrægi", "ófrægir", "ófrægi"],
+					"ft": ["ófrægjum", "ófrægið", "ófrægi"]
+				},
+				"þátíð": {
+					"et": ["ófrægði", "ófrægðir", "ófrægði"],
+					"ft": ["ófrægðum", "ófrægðuð", "ófrægðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ófrægirðu",
+					"ft": "ófrægiði"
+				},
+				"þátíð": {
+					"et": "ófrægðirðu",
+					"ft": "ófrægðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ófrægirðu",
+					"ft": "ófrægiði"
+				},
+				"þátíð": {
+					"et": "ófrægðirðu",
+					"ft": "ófrægðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ófrægjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ófrægður", "ófrægðan", "ófrægðum", "ófrægðs"],
+					"kvk": ["ófrægð", "ófrægða", "ófrægðri", "ófrægðrar"],
+					"hk": ["ófrægt", "ófrægt", "ófrægðu", "ófrægðs"]
+				},
+				"ft": {
+					"kk": ["ófrægðir", "ófrægða", "ófrægðum", "ófrægðra"],
+					"kvk": ["ófrægðar", "ófrægðar", "ófrægðum", "ófrægðra"],
+					"hk": ["ófrægð", "ófrægð", "ófrægðum", "ófrægðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ófrægja",
+	"hash": "78d2a6ba6bc14a17db203bfbcfa520d167083caeb2b77bd954de1192e3195892"
+}

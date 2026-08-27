@@ -1,0 +1,73 @@
+{
+	"orð": "frílysta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frí",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frí-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "germynd-spurnarmyndir", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-lysta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "frílysta",
+		"sagnbót": "frílystað",
+		"boðháttur": {
+			"stýfður": "frílysta",
+			"et": "frílystaðu",
+			"ft": "frílystið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frílysti", "frílystir", "frílystir"],
+					"ft": ["frílystum", "frílystið", "frílysta"]
+				},
+				"þátíð": {
+					"et": ["frílysti", "frílystir", "frílysti"],
+					"ft": ["frílystum", "frílystuð", "frílystu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frílysti", "frílystir", "frílysti"],
+					"ft": ["frílystum", "frílystið", "frílysti"]
+				},
+				"þátíð": {
+					"et": ["frílysti", "frílystir", "frílysti"],
+					"ft": ["frílystum", "frílystuð", "frílystu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frílystirðu",
+					"ft": "frílystiði"
+				},
+				"þátíð": {
+					"et": "frílystirðu",
+					"ft": "frílystuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frílystirðu",
+					"ft": "frílystiði"
+				},
+				"þátíð": {
+					"et": "frílystirðu",
+					"ft": "frílystuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frílystandi"
+	},
+	"kennistrengur": "so-frílysta",
+	"hash": "fd97dd36ededbcdf5b2e0b7ddfbaad1b7faf07cd59afff00072287445728496e"
+}

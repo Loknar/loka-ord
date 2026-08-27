@@ -1,0 +1,22 @@
+{
+	"orð": "skattaupplýsingar",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skatta",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skattur-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-upplýsing-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["skattaupplýsingar", "skattaupplýsingar", "skattaupplýsingum", "skattaupplýsinga"],
+		"mg": ["skattaupplýsingarnar", "skattaupplýsingarnar", "skattaupplýsingunum", "skattaupplýsinganna"]
+	},
+	"kennistrengur": "no-skattaupplýsingar-kvk",
+	"hash": "35ea157cef86faef70feaca56c13add5cb2cc97d350cfb3dc49ef5b82aaf4868"
+}

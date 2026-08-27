@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vald",
-			"samsetning": "stofn",
-			"kennistrengur": "no-vald-hk"
-		},
-		{
-			"mynd": "boðs",
+			"mynd": "valdboðs",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-boð-hk"
+			"kennistrengur": "no-valdboð-hk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["valdboðshneigðin", "valdboðshneigðina", "valdboðshneigðinni", "valdboðshneigðarinnar"]
 	},
 	"kennistrengur": "no-valdboðshneigð-kvk",
-	"hash": "361c98364cd0ea35e72ecf33d3713933e5e8e77536464f01b40a6fd047a948ba"
+	"hash": "e9fb754154697de9f8f7083a952118d76667ecdd821a212dd99a5faa1def5d51"
 }

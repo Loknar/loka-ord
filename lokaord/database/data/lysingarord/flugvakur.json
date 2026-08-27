@@ -1,0 +1,43 @@
+{
+	"orð": "flugvakur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "flug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-flug-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-vakur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["flugvakur", "flugvakan", "flugvökum", "flugvaks"],
+				"kvk": ["flugvök", "flugvaka", "flugvakri", "flugvakrar"],
+				"hk": ["flugvakt", "flugvakt", "flugvöku", "flugvaks"]
+			},
+			"ft": {
+				"kk": ["flugvakir", "flugvaka", "flugvökum", "flugvakra"],
+				"kvk": ["flugvakar", "flugvakar", "flugvökum", "flugvakra"],
+				"hk": ["flugvök", "flugvök", "flugvökum", "flugvakra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["flugvaki", "flugvaka", "flugvaka", "flugvaka"],
+				"kvk": ["flugvaka", "flugvöku", "flugvöku", "flugvöku"],
+				"hk": ["flugvaka", "flugvaka", "flugvaka", "flugvaka"]
+			},
+			"ft": {
+				"kk": ["flugvöku", "flugvöku", "flugvöku", "flugvöku"],
+				"kvk": ["flugvöku", "flugvöku", "flugvöku", "flugvöku"],
+				"hk": ["flugvöku", "flugvöku", "flugvöku", "flugvöku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-flugvakur",
+	"hash": "fcaf78904de2cc81d74954b6bfc711b9b902dd08f80b6a0e77b9fb66847900c6"
+}
