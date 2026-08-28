@@ -1,0 +1,43 @@
+{
+	"orð": "strandbarinn",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "strand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-strönd-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-barinn"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["strandbarinn", "strandbarinn", "strandbörðum", "strandbarins"],
+				"kvk": ["strandbarin", "strandbarða", "strandbarinni", "strandbarinnar"],
+				"hk": ["strandbarið", "strandbarið", "strandbörðu", "strandbarins"]
+			},
+			"ft": {
+				"kk": ["strandbarnir", "strandbarða", "strandbörðum", "strandbarinna"],
+				"kvk": ["strandbarðar", "strandbarðar", "strandbörðum", "strandbarinna"],
+				"hk": ["strandbarin", "strandbarin", "strandbörðum", "strandbarinna"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["strandbarni", "strandbarða", "strandbarða", "strandbarða"],
+				"kvk": ["strandbarða", "strandbörðu", "strandbörðu", "strandbörðu"],
+				"hk": ["strandbarða", "strandbarða", "strandbarða", "strandbarða"]
+			},
+			"ft": {
+				"kk": ["strandbörðu", "strandbörðu", "strandbörðu", "strandbörðu"],
+				"kvk": ["strandbörðu", "strandbörðu", "strandbörðu", "strandbörðu"],
+				"hk": ["strandbörðu", "strandbörðu", "strandbörðu", "strandbörðu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-strandbarinn",
+	"hash": "8dbc781ded271a2b9b0355a99e86fbcd01dc025a860fea3cd7d7c720799808e0"
+}
