@@ -4196,30 +4196,37 @@ def delete_ord_from_db(isl_ord: isl.Ord):
 		# if orð is samsett we delete samsett info (both SamsettOrd and SamsettOrdhluti chain)
 		s_isl_ord = db.Session.query(isl.SamsettOrd).filter_by(fk_Ord_id=isl_ord.Ord_id).first()
 		first_ohl_id = s_isl_ord.fk_FyrstiOrdHluti_id
+		first_ohl_count = db.Session.query(isl.SamsettOrd).filter_by(
+			fk_FyrstiOrdHluti_id=first_ohl_id
+		).count()
 		db.Session.delete(s_isl_ord)
-		ohl = db.Session.query(isl.SamsettOrdhluti).filter_by(
-			SamsettOrdhluti_id=first_ohl_id
-		).first()
-		next_ohl_id = ohl.fk_NaestiOrdhluti_id
-		db.Session.delete(ohl)
-		ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
-			SamsettOrdhluti_id=next_ohl_id
-		).first()
-		while ohl_w is not None:
-			chained_to_ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
-				fk_NaestiOrdhluti_id=ohl_w.SamsettOrdhluti_id
-			).count()
-			if chained_to_ohl_w > 0:
-				# saved from deletion by another samsett chain, we're done here
-				break
-			next_ohl_w_id = ohl_w.fk_NaestiOrdhluti_id
-			db.Session.delete(ohl_w)
-			if next_ohl_w_id is None:
-				# end of chain reached and deleted, we're done here
-				break
-			ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
-				SamsettOrdhluti_id=next_ohl_w_id
+		if first_ohl_count == 1:
+			# we only delete the SamsettOrd entry if isl_ord is the only orð using it
+			# SamsettOrd entry sharing is rare, and propably silly to define two samsett orð in the
+			# exact same way, resulting in SamsettOrd entry sharing, but it is a possible edge case
+			ohl = db.Session.query(isl.SamsettOrdhluti).filter_by(
+				SamsettOrdhluti_id=first_ohl_id
 			).first()
+			next_ohl_id = ohl.fk_NaestiOrdhluti_id
+			db.Session.delete(ohl)
+			ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
+				SamsettOrdhluti_id=next_ohl_id
+			).first()
+			while ohl_w is not None:
+				chained_to_ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
+					fk_NaestiOrdhluti_id=ohl_w.SamsettOrdhluti_id
+				).count()
+				if chained_to_ohl_w > 0:
+					# saved from deletion by another samsett chain, we're done here
+					break
+				next_ohl_w_id = ohl_w.fk_NaestiOrdhluti_id
+				db.Session.delete(ohl_w)
+				if next_ohl_w_id is None:
+					# end of chain reached and deleted, we're done here
+					break
+				ohl_w = db.Session.query(isl.SamsettOrdhluti).filter_by(
+					SamsettOrdhluti_id=next_ohl_w_id
+				).first()
 	# delete orðflokkur dependent data
 	match isl_ord.Ordflokkur:
 		case isl.Ordflokkar.Nafnord:
