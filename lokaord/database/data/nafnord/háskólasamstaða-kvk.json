@@ -4,23 +4,13 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "há",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-hár"
-		},
-		{
-			"mynd": "skóla",
+			"mynd": "háskóla",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skóli-kk"
-		},
-		{
-			"mynd": "sam",
-			"samsetning": "stofn",
-			"kennistrengur": "fn.óákv-samur"
+			"kennistrengur": "no-háskóli-kk"
 		},
 		{
 			"beygingar": ["et"],
-			"kennistrengur": "no-staða-kvk"
+			"kennistrengur": "no-samstaða-kvk"
 		}
 	],
 	"et": {
@@ -28,5 +18,5 @@
 		"mg": ["háskólasamstaðan", "háskólasamstöðuna", "háskólasamstöðunni", "háskólasamstöðunnar"]
 	},
 	"kennistrengur": "no-háskólasamstaða-kvk",
-	"hash": "9a908be46bd0df19d8b0bc0d21d104904d8c4bc00b7bd727c67843d1b7862833"
+	"hash": "f18a7191e3057c31527f9cc32745a6873f4c38c2858001b492a736de688d78fe"
 }
