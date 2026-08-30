@@ -1000,6 +1000,7 @@ def clean_string(mystr: str) -> str:
 		('\u2010', '-'),  # Hyphen Unicode Character -> Hyphen-minus
 		('\u2011', '-'),  # Non-Breaking Hyphen -> Hyphen-minus
 		('\u2019', "'"),  # Right Single Quotation Mark -> Apostrophe
+		('\u00b5', 'μ'),  # legacy latin-based "micro" sign -> greek small letter mu
 		# fjarlægja óæskileg tákn
 		('\xad', ''),  # stundum notað til að tilgreina skiptingu orða á vefsíðum
 		('\ufeff', ''),  # zero width no-break space
