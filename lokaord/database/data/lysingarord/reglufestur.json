@@ -1,0 +1,43 @@
+{
+	"orð": "reglufestur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "reglu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-regla-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-festur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["reglufestur", "reglufestan", "reglufestum", "reglufests"],
+				"kvk": ["reglufest", "reglufesta", "reglufestri", "reglufestrar"],
+				"hk": ["reglufestt", "reglufestt", "reglufestu", "reglufests"]
+			},
+			"ft": {
+				"kk": ["reglufestir", "reglufesta", "reglufestum", "reglufestra"],
+				"kvk": ["reglufestar", "reglufestar", "reglufestum", "reglufestra"],
+				"hk": ["reglufest", "reglufest", "reglufestum", "reglufestra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["reglufesti", "reglufesta", "reglufesta", "reglufesta"],
+				"kvk": ["reglufesta", "reglufestu", "reglufestu", "reglufestu"],
+				"hk": ["reglufesta", "reglufesta", "reglufesta", "reglufesta"]
+			},
+			"ft": {
+				"kk": ["reglufestu", "reglufestu", "reglufestu", "reglufestu"],
+				"kvk": ["reglufestu", "reglufestu", "reglufestu", "reglufestu"],
+				"hk": ["reglufestu", "reglufestu", "reglufestu", "reglufestu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-reglufestur",
+	"hash": "0254ecd008abdfab4ae01793e7fcac7df6ac716918f6d405150a6b5b73beeda1"
+}

@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "ó",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.uh-ó"
-		},
-		{
-			"mynd": "gildingar",
+			"mynd": "ógildingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gilding-kvk"
+			"kennistrengur": "no-ógilding-kvk"
 		},
 		{
-			"mynd": "dóms",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dómur-kk"
-		},
-		{
-			"kennistrengur": "no-mál-hk"
+			"kennistrengur": "no-dómsmál-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["ógildingardómsmálin", "ógildingardómsmálin", "ógildingardómsmálunum", "ógildingardómsmálanna"]
 	},
 	"kennistrengur": "no-ógildingardómsmál-hk",
-	"hash": "32ee0944695c750db33f2366416bf0c95f1006618288348422439f34184a050c"
+	"hash": "262d75bcbf2d849a2e1be5ff472d445e7d88a6180843ae768fffdb58b539fb9d"
 }
