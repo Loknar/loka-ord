@@ -1,0 +1,30 @@
+{
+	"orð": "stjórnlaganefnd",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stjórn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjórn-kvk"
+		},
+		{
+			"mynd": "laga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-lög-hk"
+		},
+		{
+			"kennistrengur": "no-nefnd-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stjórnlaganefnd", "stjórnlaganefnd", "stjórnlaganefnd", "stjórnlaganefndar"],
+		"mg": ["stjórnlaganefndin", "stjórnlaganefndina", "stjórnlaganefndinni", "stjórnlaganefndarinnar"]
+	},
+	"ft": {
+		"ág": ["stjórnlaganefndir", "stjórnlaganefndir", "stjórnlaganefndum", "stjórnlaganefnda"],
+		"mg": ["stjórnlaganefndirnar", "stjórnlaganefndirnar", "stjórnlaganefndunum", "stjórnlaganefndanna"]
+	},
+	"kennistrengur": "no-stjórnlaganefnd-kvk",
+	"hash": "48ee06a17f57be1ac5359b9bd6abcd65e8f84a105556d5386496f908b13b1937"
+}
