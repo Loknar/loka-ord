@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "list",
-			"samsetning": "stofn",
-			"kennistrengur": "no-list-kvk"
-		},
-		{
-			"mynd": "kennslu",
+			"mynd": "listkennslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-kennsla-kvk"
+			"kennistrengur": "no-listkennsla-kvk"
 		},
 		{
 			"kennistrengur": "no-deild-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["listkennsludeildirnar", "listkennsludeildirnar", "listkennsludeildunum", "listkennsludeildanna"]
 	},
 	"kennistrengur": "no-listkennsludeild-kvk",
-	"hash": "0293bdfb23a91b62a3ff14dbfcb26f3f44ec9d578a5b272c4bc9c47221e7aaa1"
+	"hash": "3e99d5522917872e494d3c7576f2aad34475a0c1c1e7c80e63a120d383290d64"
 }
