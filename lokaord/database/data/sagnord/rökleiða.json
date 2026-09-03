@@ -1,0 +1,65 @@
+{
+	"orð": "rökleiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rök",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rök-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-leiða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rökleiða",
+		"sagnbót": "rökleitt",
+		"boðháttur": {
+			"stýfður": "rökleið",
+			"et": "rökleiddu",
+			"ft": "rökleiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rökleiði", "rökleiðir", "rökleiðir"],
+					"ft": ["rökleiðum", "rökleiðið", "rökleiða"]
+				},
+				"þátíð": {
+					"et": ["rökleiddi", "rökleiddir", "rökleiddi"],
+					"ft": ["rökleiddum", "rökleidduð", "rökleiddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rökleiði", "rökleiðir", "rökleiði"],
+					"ft": ["rökleiðum", "rökleiðið", "rökleiði"]
+				},
+				"þátíð": {
+					"et": ["rökleiddi", "rökleiddir", "rökleiddi"],
+					"ft": ["rökleiddum", "rökleidduð", "rökleiddu"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rökleiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rökleiddur", "rökleiddan", "rökleiddum", "rökleidds"],
+					"kvk": ["rökleidd", "rökleidda", "rökleiddri", "rökleiddrar"],
+					"hk": ["rökleitt", "rökleitt", "rökleiddu", "rökleidds"]
+				},
+				"ft": {
+					"kk": ["rökleiddir", "rökleidda", "rökleiddum", "rökleiddra"],
+					"kvk": ["rökleiddar", "rökleiddar", "rökleiddum", "rökleiddra"],
+					"hk": ["rökleidd", "rökleidd", "rökleiddum", "rökleiddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rökleiða",
+	"hash": "35cd623164be71fca40d350628a38026913cf889cc6355fc1cfebfc40174c479"
+}

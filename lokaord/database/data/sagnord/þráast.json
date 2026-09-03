@@ -1,0 +1,65 @@
+{
+	"orð": "þráast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þrá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þrái-kk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "þráast",
+		"sagnbót": "þráast",
+		"boðháttur": {
+			"et": "þráastu",
+			"ft": "þráist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þráast", "þráast", "þráast"],
+					"ft": ["þráumst", "þráist", "þráast"]
+				},
+				"þátíð": {
+					"et": ["þráaðist", "þráaðist", "þráaðist"],
+					"ft": ["þráuðumst", "þráuðust", "þráuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þráist", "þráist", "þráist"],
+					"ft": ["þráumst", "þráist", "þráist"]
+				},
+				"þátíð": {
+					"et": ["þráaðist", "þráaðist", "þráaðist"],
+					"ft": ["þráuðumst", "þráuðust", "þráuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þráastu"
+				},
+				"þátíð": {
+					"et": "þráaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þráistu"
+				},
+				"þátíð": {
+					"et": "þráaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þráast",
+	"hash": "268b919466fb976b5509840a89e6714bd0f4b7ad232c6a283a74e5fa1d63a506"
+}

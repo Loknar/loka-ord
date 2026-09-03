@@ -8,7 +8,6 @@
 			"kennistrengur": "lo-fínn"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-stiłla"
 		}
 	],
@@ -65,6 +64,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "fínstiłlast",
+		"sagnbót": "fínstillst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fínstiłlist", "fínstiłlist", "fínstiłlist"],
+					"ft": ["fínstiłlumst", "fínstiłlist", "fínstiłlast"]
+				},
+				"þátíð": {
+					"et": ["fínstilltist", "fínstilltist", "fínstilltist"],
+					"ft": ["fínstilltumst", "fínstilltust", "fínstilltust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fínstiłlist", "fínstiłlist", "fínstiłlist"],
+					"ft": ["fínstiłlumst", "fínstiłlist", "fínstiłlast"]
+				},
+				"þátíð": {
+					"et": ["fínstilltist", "fínstilltist", "fínstilltist"],
+					"ft": ["fínstilltumst", "fínstilltust", "fínstilltust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fínstiłlistu"
+				},
+				"þátíð": {
+					"et": "fínstilltistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fínstiłlistu"
+				},
+				"þátíð": {
+					"et": "fínstilltistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "fínstiłlandi",
 		"þátíðar": {
@@ -79,9 +122,21 @@
 					"kvk": ["fínstilltar", "fínstilltar", "fínstilltum", "fínstilltra"],
 					"hk": ["fínstillt", "fínstillt", "fínstilltum", "fínstilltra"]
 				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fínstillti", "fínstillta", "fínstillta", "fínstillta"],
+					"kvk": ["fínstillta", "fínstilltu", "fínstilltu", "fínstilltu"],
+					"hk": ["fínstillta", "fínstillta", "fínstillta", "fínstillta"]
+				},
+				"ft": {
+					"kk": ["fínstilltu", "fínstilltu", "fínstilltu", "fínstilltu"],
+					"kvk": ["fínstilltu", "fínstilltu", "fínstilltu", "fínstilltu"],
+					"hk": ["fínstilltu", "fínstilltu", "fínstilltu", "fínstilltu"]
+				}
 			}
 		}
 	},
 	"kennistrengur": "so-fínstiłla",
-	"hash": "1b30df8aab13d60b7a0791e3169e1a13b38d38491490822e48c954c3df7ddf3c"
+	"hash": "f249386e570830b0cc10ef1ad678bc9cd5ecee94d5f2d466aff94feeb522091b"
 }
