@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "á",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-á"
-		},
-		{
-			"mynd": "hættu",
+			"mynd": "áhættu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hætta-kvk"
+			"kennistrengur": "no-áhætta-kvk"
 		},
 		{
-			"mynd": "skuld",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skuld-kvk"
-		},
-		{
-			"kennistrengur": "no-binding-kvk"
+			"kennistrengur": "no-skuldbinding-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["áhættuskuldbindingarnar", "áhættuskuldbindingarnar", "áhættuskuldbindingunum", "áhættuskuldbindinganna"]
 	},
 	"kennistrengur": "no-áhættuskuldbinding-kvk",
-	"hash": "5550125639554b5a35016ab9b18caecaa7d27d369c03d08208e847c1b74a725f"
+	"hash": "b485bb500adab40a37f5da5b3e331db5dca0f123bfe4e4e97b6c7d6675f4aefc"
 }

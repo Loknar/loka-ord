@@ -1,0 +1,87 @@
+{
+	"orð": "skrifla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skrifl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrifla-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrifla",
+		"sagnbót": "skriflað",
+		"boðháttur": {
+			"stýfður": "skrifla",
+			"et": "skriflaðu",
+			"ft": "skriflið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrifla", "skriflar", "skriflar"],
+					"ft": ["skriflum", "skriflið", "skrifla"]
+				},
+				"þátíð": {
+					"et": ["skriflaði", "skriflaðir", "skriflaði"],
+					"ft": ["skrifluðum", "skrifluðuð", "skrifluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrifli", "skriflir", "skrifli"],
+					"ft": ["skriflum", "skriflið", "skrifli"]
+				},
+				"þátíð": {
+					"et": ["skriflaði", "skriflaðir", "skriflaði"],
+					"ft": ["skrifluðum", "skrifluðuð", "skrifluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skriflarðu",
+					"ft": "skrifliði"
+				},
+				"þátíð": {
+					"et": "skriflaðirðu",
+					"ft": "skrifluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skriflirðu",
+					"ft": "skrifliði"
+				},
+				"þátíð": {
+					"et": "skriflaðirðu",
+					"ft": "skrifluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skriflandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skriflaður", "skriflaðan", "skrifluðum", "skriflaðs"],
+					"kvk": ["skrifluð", "skriflaða", "skriflaðri", "skriflaðrar"],
+					"hk": ["skriflað", "skriflað", "skrifluðu", "skriflaðs"]
+				},
+				"ft": {
+					"kk": ["skriflaðir", "skriflaða", "skrifluðum", "skriflaðra"],
+					"kvk": ["skriflaðar", "skriflaðar", "skrifluðum", "skriflaðra"],
+					"hk": ["skrifluð", "skrifluð", "skrifluðum", "skriflaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrifla",
+	"hash": "130f78852adccb2d8b08edc2b2c148b6f717d339593f384082035dd6f1df6027"
+}

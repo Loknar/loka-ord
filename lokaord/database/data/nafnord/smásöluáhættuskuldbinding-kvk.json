@@ -4,32 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "smá",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-smár"
-		},
-		{
-			"mynd": "sölu",
+			"mynd": "smásölu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-sala-kvk"
+			"kennistrengur": "no-smásala-kvk"
 		},
 		{
-			"mynd": "á",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-á"
-		},
-		{
-			"mynd": "hættu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-hætta-kvk"
-		},
-		{
-			"mynd": "skuld",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skuld-kvk"
-		},
-		{
-			"kennistrengur": "no-binding-kvk"
+			"kennistrengur": "no-áhættuskuldbinding-kvk"
 		}
 	],
 	"et": {
@@ -41,5 +21,5 @@
 		"mg": ["smásöluáhættuskuldbindingarnar", "smásöluáhættuskuldbindingarnar", "smásöluáhættuskuldbindingunum", "smásöluáhættuskuldbindinganna"]
 	},
 	"kennistrengur": "no-smásöluáhættuskuldbinding-kvk",
-	"hash": "9e21018e23292796be0bc6cd27daf08032f07dc575a019009fdfd9acde6ce78e"
+	"hash": "216763d7c2fde240674c10a9eb580ea5c604e1a89d4cb639ccb3b12893ff6fd8"
 }
