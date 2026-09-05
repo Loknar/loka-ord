@@ -1,0 +1,135 @@
+{
+	"orð": "döggva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "döggv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-dögg-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "döggva",
+		"sagnbót": "döggvað",
+		"boðháttur": {
+			"stýfður": "döggva",
+			"et": "döggvaðu",
+			"ft": "döggvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["döggva", "döggvar", "döggvar"],
+					"ft": ["döggvum", "döggvið", "döggva"]
+				},
+				"þátíð": {
+					"et": ["döggvaði", "döggvaðir", "döggvaði"],
+					"ft": ["döggvuðum", "döggvuðuð", "döggvuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["döggvi", "döggvir", "döggvi"],
+					"ft": ["döggvum", "döggvið", "döggvi"]
+				},
+				"þátíð": {
+					"et": ["döggvaði", "döggvaðir", "döggvaði"],
+					"ft": ["döggvuðum", "döggvuðuð", "döggvuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "döggvarðu",
+					"ft": "döggviði"
+				},
+				"þátíð": {
+					"et": "döggvaðirðu",
+					"ft": "döggvuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "döggvirðu",
+					"ft": "döggviði"
+				},
+				"þátíð": {
+					"et": "döggvaðirðu",
+					"ft": "döggvuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "döggvast",
+		"sagnbót": "döggvast",
+		"boðháttur": {
+			"et": "döggvastu",
+			"ft": "döggvist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["döggvast", "döggvast", "döggvast"],
+					"ft": ["döggvumst", "döggvist", "döggvast"]
+				},
+				"þátíð": {
+					"et": ["döggvaðist", "döggvaðist", "döggvaðist"],
+					"ft": ["döggvuðumst", "döggvuðust", "döggvuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["döggvist", "döggvist", "döggvist"],
+					"ft": ["döggvumst", "döggvist", "döggvist"]
+				},
+				"þátíð": {
+					"et": ["döggvaðist", "döggvaðist", "döggvaðist"],
+					"ft": ["döggvuðumst", "döggvuðust", "döggvuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "döggvastu"
+				},
+				"þátíð": {
+					"et": "döggvaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "döggvistu"
+				},
+				"þátíð": {
+					"et": "döggvaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "döggvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["döggvaður", "döggvaðan", "döggvuðum", "döggvaðs"],
+					"kvk": ["döggvuð", "döggvaða", "döggvaðri", "döggvaðrar"],
+					"hk": ["döggvað", "döggvað", "döggvuðu", "döggvaðs"]
+				},
+				"ft": {
+					"kk": ["döggvaðir", "döggvaða", "döggvuðum", "döggvaðra"],
+					"kvk": ["döggvaðar", "döggvaðar", "döggvuðum", "döggvaðra"],
+					"hk": ["döggvuð", "döggvuð", "döggvuðum", "döggvaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-döggva",
+	"hash": "e5e515bb3e04b56768dddc8aaba72e5f81b55839bbd225b4e0feaa493cf74b26"
+}
