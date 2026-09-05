@@ -1,0 +1,87 @@
+{
+	"orð": "marghugsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "marg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-margur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hugsa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "marghugsa",
+		"sagnbót": "marghugsað",
+		"boðháttur": {
+			"stýfður": "marghugsa",
+			"et": "marghugsaðu",
+			"ft": "marghugsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["marghugsa", "marghugsar", "marghugsar"],
+					"ft": ["marghugsum", "marghugsið", "marghugsa"]
+				},
+				"þátíð": {
+					"et": ["marghugsaði", "marghugsaðir", "marghugsaði"],
+					"ft": ["marghugsuðum", "marghugsuðuð", "marghugsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["marghugsi", "marghugsir", "marghugsi"],
+					"ft": ["marghugsum", "marghugsið", "marghugsi"]
+				},
+				"þátíð": {
+					"et": ["marghugsaði", "marghugsaðir", "marghugsaði"],
+					"ft": ["marghugsuðum", "marghugsuðuð", "marghugsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "marghugsarðu",
+					"ft": "marghugsiði"
+				},
+				"þátíð": {
+					"et": "marghugsaðirðu",
+					"ft": "marghugsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "marghugsirðu",
+					"ft": "marghugsiði"
+				},
+				"þátíð": {
+					"et": "marghugsaðirðu",
+					"ft": "marghugsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "marghugsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["marghugsaður", "marghugsaðan", "marghugsuðum", "marghugsaðs"],
+					"kvk": ["marghugsuð", "marghugsaða", "marghugsaðri", "marghugsaðrar"],
+					"hk": ["marghugsað", "marghugsað", "marghugsuðu", "marghugsaðs"]
+				},
+				"ft": {
+					"kk": ["marghugsaðir", "marghugsaða", "marghugsuðum", "marghugsaðra"],
+					"kvk": ["marghugsaðar", "marghugsaðar", "marghugsuðum", "marghugsaðra"],
+					"hk": ["marghugsuð", "marghugsuð", "marghugsuðum", "marghugsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-marghugsa",
+	"hash": "c9fdda55b50493771f3a00c77bbd67c53ee416231b1372643dffaeab3e15b860"
+}

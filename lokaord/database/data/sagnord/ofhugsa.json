@@ -1,0 +1,87 @@
+{
+	"orð": "ofhugsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-hugsa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofhugsa",
+		"sagnbót": "ofhugsað",
+		"boðháttur": {
+			"stýfður": "ofhugsa",
+			"et": "ofhugsaðu",
+			"ft": "ofhugsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofhugsa", "ofhugsar", "ofhugsar"],
+					"ft": ["ofhugsum", "ofhugsið", "ofhugsa"]
+				},
+				"þátíð": {
+					"et": ["ofhugsaði", "ofhugsaðir", "ofhugsaði"],
+					"ft": ["ofhugsuðum", "ofhugsuðuð", "ofhugsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofhugsi", "ofhugsir", "ofhugsi"],
+					"ft": ["ofhugsum", "ofhugsið", "ofhugsi"]
+				},
+				"þátíð": {
+					"et": ["ofhugsaði", "ofhugsaðir", "ofhugsaði"],
+					"ft": ["ofhugsuðum", "ofhugsuðuð", "ofhugsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofhugsarðu",
+					"ft": "ofhugsiði"
+				},
+				"þátíð": {
+					"et": "ofhugsaðirðu",
+					"ft": "ofhugsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofhugsirðu",
+					"ft": "ofhugsiði"
+				},
+				"þátíð": {
+					"et": "ofhugsaðirðu",
+					"ft": "ofhugsuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofhugsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofhugsaður", "ofhugsaðan", "ofhugsuðum", "ofhugsaðs"],
+					"kvk": ["ofhugsuð", "ofhugsaða", "ofhugsaðri", "ofhugsaðrar"],
+					"hk": ["ofhugsað", "ofhugsað", "ofhugsuðu", "ofhugsaðs"]
+				},
+				"ft": {
+					"kk": ["ofhugsaðir", "ofhugsaða", "ofhugsuðum", "ofhugsaðra"],
+					"kvk": ["ofhugsaðar", "ofhugsaðar", "ofhugsuðum", "ofhugsaðra"],
+					"hk": ["ofhugsuð", "ofhugsuð", "ofhugsuðum", "ofhugsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofhugsa",
+	"hash": "c44f421a9cca685e9d40f4c90467b63f08a879bc0f81a6e66934a1b41fff2515"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "umskera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umskera",
+		"sagnbót": "umskorið",
+		"boðháttur": {
+			"stýfður": "umsker",
+			"et": "umskerðu",
+			"ft": "umskerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umsker", "umskerð", "umsker"],
+					"ft": ["umskerum", "umskerið", "umskera"]
+				},
+				"þátíð": {
+					"et": ["umskar", "umskarst", "umskar"],
+					"ft": ["umskárum", "umskáruð", "umskáru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umskeri", "umskerir", "umskeri"],
+					"ft": ["umskerum", "umskerið", "umskeri"]
+				},
+				"þátíð": {
+					"et": ["umskæri", "umskærir", "umskæri"],
+					"ft": ["umskærum", "umskæruð", "umskæru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umskerðu",
+					"ft": "umskeriði"
+				},
+				"þátíð": {
+					"et": "umskarstu",
+					"ft": "umskáruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umskerirðu",
+					"ft": "umskeriði"
+				},
+				"þátíð": {
+					"et": "umskærirðu",
+					"ft": "umskæruði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umskerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umskorinn", "umskorinn", "umskornum", "umskorins"],
+					"kvk": ["umskorin", "umskorna", "umskorinni", "umskorinnar"],
+					"hk": ["umskorið", "umskorið", "umskornu", "umskorins"]
+				},
+				"ft": {
+					"kk": ["umskornir", "umskorna", "umskornum", "umskorinna"],
+					"kvk": ["umskornar", "umskornar", "umskornum", "umskorinna"],
+					"hk": ["umskorin", "umskorin", "umskornum", "umskorinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["umskorni", "umskorna", "umskorna", "umskorna"],
+					"kvk": ["umskorna", "umskornu", "umskornu", "umskornu"],
+					"hk": ["umskorna", "umskorna", "umskorna", "umskorna"]
+				},
+				"ft": {
+					"kk": ["umskornu", "umskornu", "umskornu", "umskornu"],
+					"kvk": ["umskornu", "umskornu", "umskornu", "umskornu"],
+					"hk": ["umskornu", "umskornu", "umskornu", "umskornu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umskera",
+	"hash": "0f63b8f70085f3eee364b90e37ccf2860623286421dd216f8bf1f4534059b8de"
+}
