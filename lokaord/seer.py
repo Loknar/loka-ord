@@ -1014,6 +1014,7 @@ def clean_string(mystr: str) -> str:
 		(' o. fl. ', ' o.fl. '),
 		(' o. s. frv. ', ' o.s.frv. '),
 		(' hv. þm. ', ' hv.þm. '),
+		(' þ.á m. ', ' þ.á.m. '),
 		# hækkaðir og lækkaðir stafir normalisering
 		('²', '2'),
 		('₂', '2'),
