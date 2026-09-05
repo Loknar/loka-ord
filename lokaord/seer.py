@@ -1009,12 +1009,14 @@ def clean_string(mystr: str) -> str:
 		('\u200d', ''),
 		('\u202a', ''),  # LRE, left-to-right embedding, opening bracket
 		('\u202c', ''),  # PDF, pop directional formatting, closing bracket
-		# fjarlægja ákveðin bil
+		# fjarlægja ákveðin bil í skammstöfunum
 		(' o. fl., ', ' o.fl., '),
 		(' o. fl. ', ' o.fl. '),
 		(' o. s. frv. ', ' o.s.frv. '),
 		(' hv. þm. ', ' hv.þm. '),
 		(' þ.á m. ', ' þ.á.m. '),
+		# annað skammstafanatengt
+		(' m.t.t ', ' m.t.t. '),
 		# hækkaðir og lækkaðir stafir normalisering
 		('²', '2'),
 		('₂', '2'),
