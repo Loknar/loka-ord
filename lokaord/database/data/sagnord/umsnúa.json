@@ -1,0 +1,131 @@
+{
+	"orð": "umsnúa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "um",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-um"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-snúa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "umsnúa",
+		"sagnbót": "umsnúið",
+		"boðháttur": {
+			"stýfður": "umsnú",
+			"et": "umsnúðu",
+			"ft": "umsńúið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umsný", "umsnýrð", "umsnýr"],
+					"ft": ["umsnúum", "umsnúið", "umsnúa"]
+				},
+				"þátíð": {
+					"et": ["umsneri", "umsnerir", "umsneri"],
+					"ft": ["umsnerum", "umsneruð", "umsneru"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umsnúi", "umsnúir", "umsnúi"],
+					"ft": ["umsnúum", "umsnúið", "umsnúi"]
+				},
+				"þátíð": {
+					"et": ["umsneri", "umsnerir", "umsneri"],
+					"ft": ["umsnerum", "umsneruð", "umsneru"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umsnýrðu",
+					"ft": "umsnúiði"
+				},
+				"þátíð": {
+					"et": "umsnerirðu",
+					"ft": "umsneruði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umsnúirðu",
+					"ft": "umsnúiði"
+				},
+				"þátíð": {
+					"et": "umsnerirðu",
+					"ft": "umsneruði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "umsnúast",
+		"sagnbót": "umsnúist",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["umsnýst", "umsnýst", "umsnýst"],
+					"ft": ["umsnúumst", "umsnúist", "umsnúast"]
+				},
+				"þátíð": {
+					"et": ["umsnerist", "umsnerist", "umsnerist"],
+					"ft": ["umsnerumst", "umsnerust", "umsnerust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["umsnúist", "umsnúist", "umsnúist"],
+					"ft": ["umsnúumst", "umsnúist", "umsnúist"]
+				},
+				"þátíð": {
+					"et": ["umsnerist", "umsnerist", "umsnerist"],
+					"ft": ["umsnerumst", "umsnerust", "umsnerust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "umsnýstu"
+				},
+				"þátíð": {
+					"et": "umsneristu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "umsnúistu"
+				},
+				"þátíð": {
+					"et": "umsneristu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "umsnúandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["umsnúinn", "umsnúinn", "umsnúnum", "umsnúins"],
+					"kvk": ["umsnúin", "umsnúna", "umsnúinni", "umsnúinnar"],
+					"hk": ["umsnúið", "umsnúið", "umsnúnu", "umsnúins"]
+				},
+				"ft": {
+					"kk": ["umsnúnir", "umsnúna", "umsnúnum", "umsnúinna"],
+					"kvk": ["umsnúnar", "umsnúnar", "umsnúnum", "umsnúinna"],
+					"hk": ["umsnúin", "umsnúin", "umsnúnum", "umsnúinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-umsnúa",
+	"hash": "dbb3caae0608d97bd478935f3370a0c80982cf9fda5db4b6e93d798989bcf582"
+}

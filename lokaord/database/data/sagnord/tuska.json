@@ -1,0 +1,135 @@
+{
+	"orð": "tuska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tusk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tusk-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tuska",
+		"sagnbót": "tuskað",
+		"boðháttur": {
+			"stýfður": "tuska",
+			"et": "tuskaðu",
+			"ft": "tuskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tuska", "tuskar", "tuskar"],
+					"ft": ["tuskum", "tuskið", "tuska"]
+				},
+				"þátíð": {
+					"et": ["tuskaði", "tuskaðir", "tuskaði"],
+					"ft": ["tuskuðum", "tuskuðuð", "tuskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tuski", "tuskir", "tuski"],
+					"ft": ["tuskum", "tuskið", "tuski"]
+				},
+				"þátíð": {
+					"et": ["tuskaði", "tuskaðir", "tuskaði"],
+					"ft": ["tuskuðum", "tuskuðuð", "tuskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tuskarðu",
+					"ft": "tuskiði"
+				},
+				"þátíð": {
+					"et": "tuskaðirðu",
+					"ft": "tuskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tuskirðu",
+					"ft": "tuskiði"
+				},
+				"þátíð": {
+					"et": "tuskaðirðu",
+					"ft": "tuskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tuskast",
+		"sagnbót": "tuskast",
+		"boðháttur": {
+			"et": "tuskastu",
+			"ft": "tuskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tuskast", "tuskast", "tuskast"],
+					"ft": ["tuskumst", "tuskist", "tuskast"]
+				},
+				"þátíð": {
+					"et": ["tuskaðist", "tuskaðist", "tuskaðist"],
+					"ft": ["tuskuðumst", "tuskuðust", "tuskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tuskist", "tuskist", "tuskist"],
+					"ft": ["tuskumst", "tuskist", "tuskist"]
+				},
+				"þátíð": {
+					"et": ["tuskaðist", "tuskaðist", "tuskaðist"],
+					"ft": ["tuskuðumst", "tuskuðust", "tuskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tuskastu"
+				},
+				"þátíð": {
+					"et": "tuskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tuskistu"
+				},
+				"þátíð": {
+					"et": "tuskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tuskandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tuskaður", "tuskaðan", "tuskuðum", "tuskaðs"],
+					"kvk": ["tuskuð", "tuskaða", "tuskaðri", "tuskaðrar"],
+					"hk": ["tuskað", "tuskað", "tuskuðu", "tuskaðs"]
+				},
+				"ft": {
+					"kk": ["tuskaðir", "tuskaða", "tuskuðum", "tuskaðra"],
+					"kvk": ["tuskaðar", "tuskaðar", "tuskuðum", "tuskaðra"],
+					"hk": ["tuskuð", "tuskuð", "tuskuðum", "tuskaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tuska",
+	"hash": "20005c87de4f3a152dbdde9cc7a4fd130929608d1abe727631e9307970076480"
+}
