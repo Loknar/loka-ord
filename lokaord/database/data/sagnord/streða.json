@@ -1,0 +1,135 @@
+{
+	"orð": "streða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "streð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-streð-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "streða",
+		"sagnbót": "streðað",
+		"boðháttur": {
+			"stýfður": "streða",
+			"et": "streðaðu",
+			"ft": "streðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["streða", "streðar", "streðar"],
+					"ft": ["streðum", "streðið", "streða"]
+				},
+				"þátíð": {
+					"et": ["streðaði", "streðaðir", "streðaði"],
+					"ft": ["streðuðum", "streðuðuð", "streðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["streði", "streðir", "streði"],
+					"ft": ["streðum", "streðið", "streði"]
+				},
+				"þátíð": {
+					"et": ["streðaði", "streðaðir", "streðaði"],
+					"ft": ["streðuðum", "streðuðuð", "streðuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "streðarðu",
+					"ft": "streðiði"
+				},
+				"þátíð": {
+					"et": "streðaðirðu",
+					"ft": "streðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "streðirðu",
+					"ft": "streðiði"
+				},
+				"þátíð": {
+					"et": "streðaðirðu",
+					"ft": "streðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "streðast",
+		"sagnbót": "streðast",
+		"boðháttur": {
+			"et": "streðastu",
+			"ft": "streðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["streðast", "streðast", "streðast"],
+					"ft": ["streðumst", "streðist", "streðast"]
+				},
+				"þátíð": {
+					"et": ["streðaðist", "streðaðist", "streðaðist"],
+					"ft": ["streðuðumst", "streðuðust", "streðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["streðist", "streðist", "streðist"],
+					"ft": ["streðumst", "streðist", "streðist"]
+				},
+				"þátíð": {
+					"et": ["streðaðist", "streðaðist", "streðaðist"],
+					"ft": ["streðuðumst", "streðuðust", "streðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "streðastu"
+				},
+				"þátíð": {
+					"et": "streðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "streðistu"
+				},
+				"þátíð": {
+					"et": "streðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "streðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["streðaður", "streðaðan", "streðuðum", "streðaðs"],
+					"kvk": ["streðuð", "streðaða", "streðaðri", "streðaðrar"],
+					"hk": ["streðað", "streðað", "streðuðu", "streðaðs"]
+				},
+				"ft": {
+					"kk": ["streðaðir", "streðaða", "streðuðum", "streðaðra"],
+					"kvk": ["streðaðar", "streðaðar", "streðuðum", "streðaðra"],
+					"hk": ["streðuð", "streðuð", "streðuðum", "streðaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-streða",
+	"hash": "9f2cb5d886fa9f13e5a0cdf62a664603547327e0ef680e0746bf6157de7bf50d"
+}

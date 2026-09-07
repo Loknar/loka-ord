@@ -1,0 +1,99 @@
+{
+	"orð": "grenndarkynna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grenndar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-grennd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-kynna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grenndarkynna",
+		"sagnbót": "grenndarkynnt",
+		"boðháttur": {
+			"stýfður": "grenndarkynn",
+			"et": "grenndarkynntu",
+			"ft": "grenndarkynnið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grenndarkynni", "grenndarkynnir", "grenndarkynnir"],
+					"ft": ["grenndarkynnum", "grenndarkynnið", "grenndarkynna"]
+				},
+				"þátíð": {
+					"et": ["grenndarkynnti", "grenndarkynntir", "grenndarkynnti"],
+					"ft": ["grenndarkynntum", "grenndarkynntuð", "grenndarkynntu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["grenndarkynni", "grenndarkynnir", "grenndarkynni"],
+					"ft": ["grenndarkynnum", "grenndarkynnið", "grenndarkynni"]
+				},
+				"þátíð": {
+					"et": ["grenndarkynnti", "grenndarkynntir", "grenndarkynnti"],
+					"ft": ["grenndarkynntum", "grenndarkynntuð", "grenndarkynntu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "grenndarkynnirðu",
+					"ft": "grenndarkynniði"
+				},
+				"þátíð": {
+					"et": "grenndarkynntirðu",
+					"ft": "grenndarkynntuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "grenndarkynnirðu",
+					"ft": "grenndarkynniði"
+				},
+				"þátíð": {
+					"et": "grenndarkynntirðu",
+					"ft": "grenndarkynntuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "grenndarkynnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["grenndarkynntur", "grenndarkynntan", "grenndarkynntum", "grenndarkynnts"],
+					"kvk": ["grenndarkynnt", "grenndarkynnta", "grenndarkynntri", "grenndarkynntrar"],
+					"hk": ["grenndarkynnt", "grenndarkynnt", "grenndarkynntu", "grenndarkynnts"]
+				},
+				"ft": {
+					"kk": ["grenndarkynntir", "grenndarkynnta", "grenndarkynntum", "grenndarkynntra"],
+					"kvk": ["grenndarkynntar", "grenndarkynntar", "grenndarkynntum", "grenndarkynntra"],
+					"hk": ["grenndarkynnt", "grenndarkynnt", "grenndarkynntum", "grenndarkynntra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["grenndarkynnti", "grenndarkynnta", "grenndarkynnta", "grenndarkynnta"],
+					"kvk": ["grenndarkynnta", "grenndarkynntu", "grenndarkynntu", "grenndarkynntu"],
+					"hk": ["grenndarkynnta", "grenndarkynnta", "grenndarkynnta", "grenndarkynnta"]
+				},
+				"ft": {
+					"kk": ["grenndarkynntu", "grenndarkynntu", "grenndarkynntu", "grenndarkynntu"],
+					"kvk": ["grenndarkynntu", "grenndarkynntu", "grenndarkynntu", "grenndarkynntu"],
+					"hk": ["grenndarkynntu", "grenndarkynntu", "grenndarkynntu", "grenndarkynntu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-grenndarkynna",
+	"hash": "3bce6b921601877182ff1424732ca1ad67ba00d7299b56396e684bbaeb3ce0a4"
+}

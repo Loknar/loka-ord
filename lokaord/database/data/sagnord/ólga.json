@@ -1,0 +1,73 @@
+{
+	"orð": "ólga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ólg",
+			"samsetning": "stofn",
+			"kennistrengur": "no-ólga-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ólga",
+		"sagnbót": "ólgað",
+		"boðháttur": {
+			"stýfður": "ólga",
+			"et": "ólgaðu",
+			"ft": "ólgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ólga", "ólgar", "ólgar"],
+					"ft": ["ólgum", "ólgið", "ólga"]
+				},
+				"þátíð": {
+					"et": ["ólgaði", "ólgaðir", "ólgaði"],
+					"ft": ["ólguðum", "ólguðuð", "ólguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ólgi", "ólgir", "ólgi"],
+					"ft": ["ólgum", "ólgið", "ólgi"]
+				},
+				"þátíð": {
+					"et": ["ólgaði", "ólgaðir", "ólgaði"],
+					"ft": ["ólguðum", "ólguðuð", "ólguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ólgarðu",
+					"ft": "ólgiði"
+				},
+				"þátíð": {
+					"et": "ólgaðirðu",
+					"ft": "ólguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ólgirðu",
+					"ft": "ólgiði"
+				},
+				"þátíð": {
+					"et": "ólgaðirðu",
+					"ft": "ólguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ólgandi"
+	},
+	"kennistrengur": "so-ólga",
+	"hash": "2a4e5adbe6963f6387dcc6214e155e8c0b6933a44067dac7886bbc89ee9af4ce"
+}
