@@ -1,0 +1,73 @@
+{
+	"orð": "veipa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "veip",
+			"samsetning": "stofn",
+			"kennistrengur": "no-veip-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "veipa",
+		"sagnbót": "veipað",
+		"boðháttur": {
+			"stýfður": "veipa",
+			"et": "veipaðu",
+			"ft": "veipið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["veipa", "veipar", "veipar"],
+					"ft": ["veipum", "veipið", "veipa"]
+				},
+				"þátíð": {
+					"et": ["veipaði", "veipaðir", "veipaði"],
+					"ft": ["veipuðum", "veipuðuð", "veipuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["veipi", "veipir", "veipi"],
+					"ft": ["veipum", "veipið", "veipi"]
+				},
+				"þátíð": {
+					"et": ["veipaði", "veipaðir", "veipaði"],
+					"ft": ["veipuðum", "veipuðuð", "veipuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "veiparðu",
+					"ft": "veipiði"
+				},
+				"þátíð": {
+					"et": "veipaðirðu",
+					"ft": "veipuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "veipirðu",
+					"ft": "veipiði"
+				},
+				"þátíð": {
+					"et": "veipaðirðu",
+					"ft": "veipuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "veipandi"
+	},
+	"kennistrengur": "so-veipa",
+	"hash": "a49f669cae6a355b1bca22cbce7bffcf93ff86557765255e37ef2a7e6a7df872"
+}

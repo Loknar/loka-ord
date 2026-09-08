@@ -1,0 +1,43 @@
+{
+	"orð": "frostkaldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "frost",
+			"samsetning": "stofn",
+			"kennistrengur": "no-frost-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kaldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["frostkaldur", "frostkaldan", "frostköldum", "frostkalds"],
+				"kvk": ["frostköld", "frostkalda", "frostkaldri", "frostkaldrar"],
+				"hk": ["frostkalt", "frostkalt", "frostköldu", "frostkalds"]
+			},
+			"ft": {
+				"kk": ["frostkaldir", "frostkalda", "frostköldum", "frostkaldra"],
+				"kvk": ["frostkaldar", "frostkaldar", "frostköldum", "frostkaldra"],
+				"hk": ["frostköld", "frostköld", "frostköldum", "frostkaldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["frostkaldi", "frostkalda", "frostkalda", "frostkalda"],
+				"kvk": ["frostkalda", "frostköldu", "frostköldu", "frostköldu"],
+				"hk": ["frostkalda", "frostkalda", "frostkalda", "frostkalda"]
+			},
+			"ft": {
+				"kk": ["frostköldu", "frostköldu", "frostköldu", "frostköldu"],
+				"kvk": ["frostköldu", "frostköldu", "frostköldu", "frostköldu"],
+				"hk": ["frostköldu", "frostköldu", "frostköldu", "frostköldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-frostkaldur",
+	"hash": "9565f333496a14bb5731f5e4c9441736f0e09913159f870a051b39a0abd15962"
+}

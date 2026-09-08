@@ -1,0 +1,121 @@
+{
+	"orð": "púla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "púl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-púl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "púla",
+		"sagnbót": "púlað",
+		"boðháttur": {
+			"stýfður": "púla",
+			"et": "púlaðu",
+			"ft": "púlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["púla", "púlar", "púlar"],
+					"ft": ["púlum", "púlið", "púla"]
+				},
+				"þátíð": {
+					"et": ["púlaði", "púlaðir", "púlaði"],
+					"ft": ["púluðum", "púluðuð", "púluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["púli", "púlir", "púli"],
+					"ft": ["púlum", "púlið", "púli"]
+				},
+				"þátíð": {
+					"et": ["púlaði", "púlaðir", "púlaði"],
+					"ft": ["púluðum", "púluðuð", "púluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "púlarðu",
+					"ft": "púliði"
+				},
+				"þátíð": {
+					"et": "púlaðirðu",
+					"ft": "púluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "púlirðu",
+					"ft": "púliði"
+				},
+				"þátíð": {
+					"et": "púlaðirðu",
+					"ft": "púluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "púlast",
+		"sagnbót": "púlast",
+		"boðháttur": {
+			"et": "púlastu",
+			"ft": "púlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["púlast", "púlast", "púlast"],
+					"ft": ["púlumst", "púlist", "púlast"]
+				},
+				"þátíð": {
+					"et": ["púlaðist", "púlaðist", "púlaðist"],
+					"ft": ["púluðumst", "púluðust", "púluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["púlist", "púlist", "púlist"],
+					"ft": ["púlumst", "púlist", "púlist"]
+				},
+				"þátíð": {
+					"et": ["púlaðist", "púlaðist", "púlaðist"],
+					"ft": ["púluðumst", "púluðust", "púluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "púlastu"
+				},
+				"þátíð": {
+					"et": "púlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "púlistu"
+				},
+				"þátíð": {
+					"et": "púlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "púlandi"
+	},
+	"kennistrengur": "so-púla",
+	"hash": "ae0234b01c38224f377e464a02891dc66812a5e2f7b16ae94c2a4125c17c642b"
+}

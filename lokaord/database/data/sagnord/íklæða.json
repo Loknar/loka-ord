@@ -1,0 +1,131 @@
+{
+	"orð": "íklæða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "í",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-í"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-klæða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "íklæða",
+		"sagnbót": "íklætt",
+		"boðháttur": {
+			"stýfður": "íklæð",
+			"et": "íklæddu",
+			"ft": "íklæðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["íklæði", "íklæðir", "íklæðir"],
+					"ft": ["íklæðum", "íklæðið", "íklæða"]
+				},
+				"þátíð": {
+					"et": ["íklæddi", "íklæddir", "íklæddi"],
+					"ft": ["íklæddum", "íklædduð", "íklæddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["íklæði", "íklæðir", "íklæði"],
+					"ft": ["íklæðum", "íklæðið", "íklæði"]
+				},
+				"þátíð": {
+					"et": ["íklæddi", "íklæddir", "íklæddi"],
+					"ft": ["íklæddum", "íklædduð", "íklæddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "íklæðirðu",
+					"ft": "íklæðiði"
+				},
+				"þátíð": {
+					"et": "íklæddirðu",
+					"ft": "íklædduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "íklæðirðu",
+					"ft": "íklæðiði"
+				},
+				"þátíð": {
+					"et": "íklæddirðu",
+					"ft": "íklædduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "íklæðast",
+		"sagnbót": "íklæðst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["íklæðist", "íklæðist", "íklæðist"],
+					"ft": ["íklæðumst", "íklæðist", "íklæðast"]
+				},
+				"þátíð": {
+					"et": ["íklæddist", "íklæddist", "íklæddist"],
+					"ft": ["íklæddumst", "íklæddust", "íklæddust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["íklæðist", "íklæðist", "íklæðist"],
+					"ft": ["íklæðumst", "íklæðist", "íklæðist"]
+				},
+				"þátíð": {
+					"et": ["íklæddist", "íklæddist", "íklæddist"],
+					"ft": ["íklæddumst", "íklæddust", "íklæddust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "íklæðistu"
+				},
+				"þátíð": {
+					"et": "íklæddistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "íklæðistu"
+				},
+				"þátíð": {
+					"et": "íklæddistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "íklæðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["íklæddur", "íklæddan", "íklæddum", "íklædds"],
+					"kvk": ["íklædd", "íklædda", "íklæddri", "íklæddrar"],
+					"hk": ["íklætt", "íklætt", "íklæddu", "íklædds"]
+				},
+				"ft": {
+					"kk": ["íklæddir", "íklædda", "íklæddum", "íklæddra"],
+					"kvk": ["íklæddar", "íklæddar", "íklæddum", "íklæddra"],
+					"hk": ["íklædd", "íklædd", "íklæddum", "íklæddra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-íklæða",
+	"hash": "76cf0551af6f08d02faea156b07ada7aa647a28916720131910e8ba80bc25f06"
+}
