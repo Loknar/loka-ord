@@ -1,0 +1,22 @@
+{
+	"orð": "auglýsingakaup",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "auglýsinga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-auglýsing-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-kaup-hk"
+		}
+	],
+	"ft": {
+		"ág": ["auglýsingakaup", "auglýsingakaup", "auglýsingakaupum", "auglýsingakaupa"],
+		"mg": ["auglýsingakaupin", "auglýsingakaupin", "auglýsingakaupunum", "auglýsingakaupanna"]
+	},
+	"kennistrengur": "no-auglýsingakaup-hk",
+	"hash": "fe0b8206201ff1ac839fd4eec8f642d1a071da3c5a68199a5cf99b0f135605e8"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "áfangaskipta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "áfanga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-áfangi-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skipta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "áfangaskipta",
+		"sagnbót": "áfangaskipt",
+		"boðháttur": {
+			"stýfður": "áfangaskipt",
+			"et": "áfangaskiptu",
+			"ft": "áfangaskiptið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["áfangaskipti", "áfangaskiptir", "áfangaskiptir"],
+					"ft": ["áfangaskiptum", "áfangaskiptið", "áfangaskipta"]
+				},
+				"þátíð": {
+					"et": ["áfangaskipti", "áfangaskiptir", "áfangaskipti"],
+					"ft": ["áfangaskiptum", "áfangaskiptuð", "áfangaskiptu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["áfangaskipti", "áfangaskiptir", "áfangaskipti"],
+					"ft": ["áfangaskiptum", "áfangaskiptið", "áfangaskipti"]
+				},
+				"þátíð": {
+					"et": ["áfangaskipti", "áfangaskiptir", "áfangaskipti"],
+					"ft": ["áfangaskiptum", "áfangaskiptuð", "áfangaskiptu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "áfangaskiptirðu",
+					"ft": "áfangaskiptiði"
+				},
+				"þátíð": {
+					"et": "áfangaskiptirðu",
+					"ft": "áfangaskiptuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "áfangaskiptirðu",
+					"ft": "áfangaskiptiði"
+				},
+				"þátíð": {
+					"et": "áfangaskiptirðu",
+					"ft": "áfangaskiptuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "áfangaskiptandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["áfangaskiptur", "áfangaskiptan", "áfangaskiptum", "áfangaskipts"],
+					"kvk": ["áfangaskipt", "áfangaskipta", "áfangaskiptri", "áfangaskiptrar"],
+					"hk": ["áfangagert", "áfangagert", "áfangaskiptu", "áfangaskipts"]
+				},
+				"ft": {
+					"kk": ["áfangaskiptir", "áfangaskipta", "áfangaskiptum", "áfangaskiptra"],
+					"kvk": ["áfangaskiptar", "áfangaskiptar", "áfangaskiptum", "áfangaskiptra"],
+					"hk": ["áfangaskipt", "áfangaskipt", "áfangaskiptum", "áfangaskiptra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["áfangaskipti", "áfangaskipta", "áfangaskipta", "áfangaskipta"],
+					"kvk": ["áfangaskipta", "áfangaskiptu", "áfangaskiptu", "áfangaskiptu"],
+					"hk": ["áfangaskipta", "áfangaskipta", "áfangaskipta", "áfangaskipta"]
+				},
+				"ft": {
+					"kk": ["áfangaskiptu", "áfangaskiptu", "áfangaskiptu", "áfangaskiptu"],
+					"kvk": ["áfangaskiptu", "áfangaskiptu", "áfangaskiptu", "áfangaskiptu"],
+					"hk": ["áfangaskiptu", "áfangaskiptu", "áfangaskiptu", "áfangaskiptu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-áfangaskipta",
+	"hash": "31d1634cfa6436d2002995d2e752ee567c02bdf8d29b0683dc848959a33c95f0"
+}

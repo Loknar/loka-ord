@@ -1,0 +1,135 @@
+{
+	"orð": "hesthúsa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hesthús",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hesthús-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hesthúsa",
+		"sagnbót": "hesthúsað",
+		"boðháttur": {
+			"stýfður": "hesthúsa",
+			"et": "hesthúsaðu",
+			"ft": "hesthúsið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hesthúsa", "hesthúsar", "hesthúsar"],
+					"ft": ["hesthúsum", "hesthúsið", "hesthúsa"]
+				},
+				"þátíð": {
+					"et": ["hesthúsaði", "hesthúsaðir", "hesthúsaði"],
+					"ft": ["hesthúsuðum", "hesthúsuðuð", "hesthúsuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hesthúsi", "hesthúsir", "hesthúsi"],
+					"ft": ["hesthúsum", "hesthúsið", "hesthúsi"]
+				},
+				"þátíð": {
+					"et": ["hesthúsaði", "hesthúsaðir", "hesthúsaði"],
+					"ft": ["hesthúsuðum", "hesthúsuðuð", "hesthúsuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hesthúsarðu",
+					"ft": "hesthúsiði"
+				},
+				"þátíð": {
+					"et": "hesthúsaðirðu",
+					"ft": "hesthúsuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hesthúsirðu",
+					"ft": "hesthúsiði"
+				},
+				"þátíð": {
+					"et": "hesthúsaðirðu",
+					"ft": "hesthúsuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hesthúsast",
+		"sagnbót": "hesthúsast",
+		"boðháttur": {
+			"et": "hesthúsastu",
+			"ft": "hesthúsist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hesthúsast", "hesthúsast", "hesthúsast"],
+					"ft": ["hesthúsumst", "hesthúsist", "hesthúsast"]
+				},
+				"þátíð": {
+					"et": ["hesthúsaðist", "hesthúsaðist", "hesthúsaðist"],
+					"ft": ["hesthúsuðumst", "hesthúsuðust", "hesthúsuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hesthúsist", "hesthúsist", "hesthúsist"],
+					"ft": ["hesthúsumst", "hesthúsist", "hesthúsist"]
+				},
+				"þátíð": {
+					"et": ["hesthúsaðist", "hesthúsaðist", "hesthúsaðist"],
+					"ft": ["hesthúsuðumst", "hesthúsuðust", "hesthúsuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hesthúsastu"
+				},
+				"þátíð": {
+					"et": "hesthúsaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hesthúsistu"
+				},
+				"þátíð": {
+					"et": "hesthúsaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hesthúsandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hesthúsaður", "hesthúsaðan", "hesthúsuðum", "hesthúsaðs"],
+					"kvk": ["hesthúsuð", "hesthúsaða", "hesthúsaðri", "hesthúsaðrar"],
+					"hk": ["hesthúsað", "hesthúsað", "hesthúsuðu", "hesthúsaðs"]
+				},
+				"ft": {
+					"kk": ["hesthúsaðir", "hesthúsaða", "hesthúsuðum", "hesthúsaðra"],
+					"kvk": ["hesthúsaðar", "hesthúsaðar", "hesthúsuðum", "hesthúsaðra"],
+					"hk": ["hesthúsuð", "hesthúsuð", "hesthúsuðum", "hesthúsaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hesthúsa",
+	"hash": "a696069dc31a506b06783388068db4b1105b77d4e1fd6d1f838e309d39d1f828"
+}

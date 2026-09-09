@@ -1,0 +1,98 @@
+{
+	"orð": "handskrá",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-skrá"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handskrá",
+		"sagnbót": "handskráð",
+		"boðháttur": {
+			"stýfður": "handskrá",
+			"et": "handskráðu",
+			"ft": "handskráið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handskrái", "handskráirð", "handskráir"],
+					"ft": ["handskráum", "handskráið", "handskrá"]
+				},
+				"þátíð": {
+					"et": ["handskráði", "handskráðir", "handskráði"],
+					"ft": ["handskráðum", "handskráðuð", "handskráðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handskrái", "handskráir", "handskrái"],
+					"ft": ["handskráum", "handskráið", "handskrái"]
+				},
+				"þátíð": {
+					"et": ["handskráði", "handskráðir", "handskráði"],
+					"ft": ["handskráðum", "handskráðuð", "handskráðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handskráirðu",
+					"ft": "handskráiði"
+				},
+				"þátíð": {
+					"et": "handskráðirðu",
+					"ft": "handskráðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handskráirðu",
+					"ft": "handskráiði"
+				},
+				"þátíð": {
+					"et": "handskráðirðu",
+					"ft": "handskráðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handskráður", "handskráðan", "handskráðum", "handskráðs"],
+					"kvk": ["handskráð", "handskráða", "handskráðri", "handskráðrar"],
+					"hk": ["handskráð", "handskráð", "handskráðu", "handskráðs"]
+				},
+				"ft": {
+					"kk": ["handskráðir", "handskráða", "handskráðum", "handskráðra"],
+					"kvk": ["handskráðar", "handskráðar", "handskráðum", "handskráðra"],
+					"hk": ["handskráð", "handskráð", "handskráðum", "handskráðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handskráði", "handskráða", "handskráða", "handskráða"],
+					"kvk": ["handskráða", "handskráðu", "handskráðu", "handskráðu"],
+					"hk": ["handskráða", "handskráða", "handskráða", "handskráða"]
+				},
+				"ft": {
+					"kk": ["handskráðu", "handskráðu", "handskráðu", "handskráðu"],
+					"kvk": ["handskráðu", "handskráðu", "handskráðu", "handskráðu"],
+					"hk": ["handskráðu", "handskráðu", "handskráðu", "handskráðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handskrá",
+	"hash": "78335e4a78625160d3726114c12533c0153ff41ad9e6715191983ba695b6740a"
+}
