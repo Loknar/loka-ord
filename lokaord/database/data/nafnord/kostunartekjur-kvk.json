@@ -1,0 +1,22 @@
+{
+	"orð": "kostunartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kostunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-kostun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["kostunartekjur", "kostunartekjur", "kostunartekjum", "kostunartekna"],
+		"mg": ["kostunartekjurnar", "kostunartekjurnar", "kostunartekjunum", "kostunarteknanna"]
+	},
+	"kennistrengur": "no-kostunartekjur-kvk",
+	"hash": "d4562cdb433f6258dc8e873da88ff27eecbdc8e5559da8d6d8d2d5aee16c66ed"
+}

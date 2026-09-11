@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sjóð",
-			"samsetning": "stofn",
-			"kennistrengur": "no-sjóður-kk"
-		},
-		{
-			"mynd": "streymis",
+			"mynd": "sjóðstreymis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-streymi-hk"
+			"kennistrengur": "no-sjóðstreymi-hk"
 		},
 		{
-			"mynd": "yfir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-yfir"
-		},
-		{
-			"kennistrengur": "no-lit-hk-ó"
+			"kennistrengur": "no-yfirlit-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["sjóðstreymisyfirlitin", "sjóðstreymisyfirlitin", "sjóðstreymisyfirlitunum", "sjóðstreymisyfirlitanna"]
 	},
 	"kennistrengur": "no-sjóðstreymisyfirlit-hk",
-	"hash": "23d8e17251fcaac391d45aa80ea8de54bd39f380f186dc902d12bdf8cba545e6"
+	"hash": "91e865bc49ed6a02f5fb30c0418eba665385f674c250f996208cfcfdd47f4368"
 }
