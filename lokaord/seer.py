@@ -993,6 +993,9 @@ def clean_string(mystr: str) -> str:
 		('ì', 'í'),
 		('ò', 'ó'),
 		('ù', 'ú'),
+		# aðrar öðruvísi kommur/yfirmerkingar
+		('Õ', 'Ö'),
+		('õ', 'ö'),
 		# öðruvísi Ð (Latin Alphabet crossed D), skipta út fyrir venjulegt íslenskt Ð (Eth)
 		('\u0110', 'Ð'),
 		('\u0111', 'ð'),
