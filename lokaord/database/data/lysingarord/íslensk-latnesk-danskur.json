@@ -1,0 +1,48 @@
+{
+	"orð": "íslensk-latnesk-danskur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "íslensk-",
+			"samsetning": "stofn",
+			"kennistrengur": "so-íslenska"
+		},
+		{
+			"mynd": "latnesk-",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-latneskur"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-danskur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["íslensk-latnesk-danskur", "íslensk-latnesk-danskan", "íslensk-latnesk-dönskum", "íslensk-latnesk-dansks"],
+				"kvk": ["íslensk-latnesk-dönsk", "íslensk-latnesk-danska", "íslensk-latnesk-danskri", "íslensk-latnesk-danskrar"],
+				"hk": ["íslensk-latnesk-danskt", "íslensk-latnesk-danskt", "íslensk-latnesk-dönsku", "íslensk-latnesk-dansks"]
+			},
+			"ft": {
+				"kk": ["íslensk-latnesk-danskir", "íslensk-latnesk-danska", "íslensk-latnesk-dönskum", "íslensk-latnesk-danskra"],
+				"kvk": ["íslensk-latnesk-danskar", "íslensk-latnesk-danskar", "íslensk-latnesk-dönskum", "íslensk-latnesk-danskra"],
+				"hk": ["íslensk-latnesk-dönsk", "íslensk-latnesk-dönsk", "íslensk-latnesk-dönskum", "íslensk-latnesk-danskra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["íslensk-latnesk-danski", "íslensk-latnesk-danska", "íslensk-latnesk-danska", "íslensk-latnesk-danska"],
+				"kvk": ["íslensk-latnesk-danska", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku"],
+				"hk": ["íslensk-latnesk-danska", "íslensk-latnesk-danska", "íslensk-latnesk-danska", "íslensk-latnesk-danska"]
+			},
+			"ft": {
+				"kk": ["íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku"],
+				"kvk": ["íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku"],
+				"hk": ["íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku", "íslensk-latnesk-dönsku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-íslensk-latnesk-danskur",
+	"hash": "5ad3026512eb1dbfc6214216b8e29997442ec814535775ece561da911c0d4add"
+}

@@ -54,6 +54,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "ýkjast",
+		"sagnbót": "ýkst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ýkist", "ýkist", "ýkist"],
+					"ft": ["ýkjumst", "ýkist", "ýkjast"]
+				},
+				"þátíð": {
+					"et": ["ýktist", "ýktist", "ýktist"],
+					"ft": ["ýktumst", "ýktust", "ýktust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ýkist", "ýkist", "ýkist"],
+					"ft": ["ýkjumst", "ýkist", "ýkist"]
+				},
+				"þátíð": {
+					"et": ["ýktist", "ýktist", "ýktist"],
+					"ft": ["ýktumst", "ýktust", "ýktust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ýkistu"
+				},
+				"þátíð": {
+					"et": "ýktistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ýkistu"
+				},
+				"þátíð": {
+					"et": "ýktistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "ýkjandi",
 		"þátíðar": {
@@ -84,5 +128,5 @@
 		}
 	},
 	"kennistrengur": "so-ýkja",
-	"hash": "d84d4f3fbacf9106315f1a5758db4819884f67abf8b6139cc868f9bea5c64fea"
+	"hash": "2ea26e62d09fa07b3629bff6946393cbd88f5f6c325bcf9100cdaf7ffe736d77"
 }

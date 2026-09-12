@@ -1,0 +1,91 @@
+{
+	"orð": "navigera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "navi",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-navi-ó"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "navigera",
+		"sagnbót": "navigert",
+		"boðháttur": {
+			"stýfður": "naviger",
+			"et": "navigerðu",
+			"ft": "navigerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["navigeri", "navigerir", "navigerir"],
+					"ft": ["navigerum", "navigerið", "navigera"]
+				},
+				"þátíð": {
+					"et": ["navigerði", "navigerðir", "navigerði"],
+					"ft": ["navigerðum", "navigerðuð", "navigerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["navigeri", "navigerir", "navigeri"],
+					"ft": ["navigerum", "navigerið", "navigeri"]
+				},
+				"þátíð": {
+					"et": ["navigerði", "navigerðir", "navigerði"],
+					"ft": ["navigerðum", "navigerðuð", "navigerðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "navigerast",
+		"sagnbót": "navigerst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["navigerist", "navigerist", "navigerist"],
+					"ft": ["navigerumst", "navigerist", "navigerast"]
+				},
+				"þátíð": {
+					"et": ["navigerðist", "navigerðist", "navigerðist"],
+					"ft": ["navigerðumst", "navigerðust", "navigerðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["navigerist", "navigerist", "navigerist"],
+					"ft": ["navigerumst", "navigerist", "navigerist"]
+				},
+				"þátíð": {
+					"et": ["navigerðist", "navigerðist", "navigerðist"],
+					"ft": ["navigerðumst", "navigerðust", "navigerðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "navigerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["navigerður", "navigerðan", "navigerðum", "navigerðs"],
+					"kvk": ["navigerð", "navigerða", "navigerðri", "navigerðrar"],
+					"hk": ["navigert", "navigert", "navigerðu", "navigerðs"]
+				},
+				"ft": {
+					"kk": ["navigerðir", "navigerða", "navigerðum", "navigerðra"],
+					"kvk": ["navigerðar", "navigerðar", "navigerðum", "navigerðra"],
+					"hk": ["navigerð", "navigerð", "navigerðum", "navigerðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-navigera",
+	"hash": "01c333fc96711196333d4f3a2073e96d6d2f3c7f77b7a2738f4f814632ff99a5"
+}
