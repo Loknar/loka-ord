@@ -1,0 +1,26 @@
+{
+	"orð": "fjárfestingarbankastarfsemi",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "fjárfestingar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjárfesting-kvk"
+		},
+		{
+			"mynd": "banka",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-banki-kk"
+		},
+		{
+			"kennistrengur": "no-starfsemi-kvk"
+		}
+	],
+	"et": {
+		"ág": ["fjárfestingarbankastarfsemi", "fjárfestingarbankastarfsemi", "fjárfestingarbankastarfsemi", "fjárfestingarbankastarfsemi"],
+		"mg": ["fjárfestingarbankastarfsemin", "fjárfestingarbankastarfsemina", "fjárfestingarbankastarfseminni", "fjárfestingarbankastarfseminnar"]
+	},
+	"kennistrengur": "no-fjárfestingarbankastarfsemi-kvk",
+	"hash": "e4d73b01142ad48261432363951c1f0b051761543eb4b1d92b6e3f85c9de3e58"
+}
