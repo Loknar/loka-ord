@@ -1,0 +1,135 @@
+{
+	"orð": "bugta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bugt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bugt-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bugta",
+		"sagnbót": "bugtað",
+		"boðháttur": {
+			"stýfður": "bugta",
+			"et": "bugtaðu",
+			"ft": "bugtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bugta", "bugtar", "bugtar"],
+					"ft": ["bugtum", "bugtið", "bugta"]
+				},
+				"þátíð": {
+					"et": ["bugtaði", "bugtaðir", "bugtaði"],
+					"ft": ["bugtuðum", "bugtuðuð", "bugtuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bugti", "bugtir", "bugti"],
+					"ft": ["bugtum", "bugtið", "bugti"]
+				},
+				"þátíð": {
+					"et": ["bugtaði", "bugtaðir", "bugtaði"],
+					"ft": ["bugtuðum", "bugtuðuð", "bugtuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bugtarðu",
+					"ft": "bugtiði"
+				},
+				"þátíð": {
+					"et": "bugtaðirðu",
+					"ft": "bugtuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bugtirðu",
+					"ft": "bugtiði"
+				},
+				"þátíð": {
+					"et": "bugtaðirðu",
+					"ft": "bugtuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "bugtast",
+		"sagnbót": "bugtast",
+		"boðháttur": {
+			"et": "bugtastu",
+			"ft": "bugtist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bugtast", "bugtast", "bugtast"],
+					"ft": ["bugtumst", "bugtist", "bugtast"]
+				},
+				"þátíð": {
+					"et": ["bugtaðist", "bugtaðist", "bugtaðist"],
+					"ft": ["bugtuðumst", "bugtuðust", "bugtuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bugtist", "bugtist", "bugtist"],
+					"ft": ["bugtumst", "bugtist", "bugtist"]
+				},
+				"þátíð": {
+					"et": ["bugtaðist", "bugtaðist", "bugtaðist"],
+					"ft": ["bugtuðumst", "bugtuðust", "bugtuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bugtastu"
+				},
+				"þátíð": {
+					"et": "bugtaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bugtistu"
+				},
+				"þátíð": {
+					"et": "bugtaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bugtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bugtaður", "bugtaðan", "bugtuðum", "bugtaðs"],
+					"kvk": ["bugtuð", "bugtaða", "bugtaðri", "bugtaðrar"],
+					"hk": ["bugtað", "bugtað", "bugtuðu", "bugtaðs"]
+				},
+				"ft": {
+					"kk": ["bugtaðir", "bugtaða", "bugtuðum", "bugtaðra"],
+					"kvk": ["bugtaðar", "bugtaðar", "bugtuðum", "bugtaðra"],
+					"hk": ["bugtuð", "bugtuð", "bugtuðum", "bugtaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bugta",
+	"hash": "afdd4cf0f536c87d8d884b4d0803b30e48e3d82ac5c54887064f5acdf75c2b83"
+}

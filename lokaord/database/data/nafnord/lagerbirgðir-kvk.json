@@ -1,0 +1,22 @@
+{
+	"orð": "lagerbirgðir",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "lager",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lager-kk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-birgð-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["lagerbirgðir", "lagerbirgðir", "lagerbirgðum", "lagerbirgða"],
+		"mg": ["lagerbirgðirnar", "lagerbirgðirnar", "lagerbirgðunum", "lagerbirgðanna"]
+	},
+	"kennistrengur": "no-lagerbirgðir-kvk",
+	"hash": "4990f9eb108eade1fdec869e200f72104ddde801339a7e25c79fc9214a40f20a"
+}
