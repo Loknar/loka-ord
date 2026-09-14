@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "greiðslu",
+			"mynd": "greiðslumiðlunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-greiðsla-kvk"
+			"kennistrengur": "no-greiðslumiðlun-kvk"
 		},
 		{
-			"mynd": "miðlunar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-miðlun-kvk"
-		},
-		{
-			"mynd": "fyrir",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fyrir"
-		},
-		{
-			"kennistrengur": "no-tæki-hk"
+			"kennistrengur": "no-fyrirtæki-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["greiðslumiðlunarfyrirtækin", "greiðslumiðlunarfyrirtækin", "greiðslumiðlunarfyrirtækjunum", "greiðslumiðlunarfyrirtækjanna"]
 	},
 	"kennistrengur": "no-greiðslumiðlunarfyrirtæki-hk",
-	"hash": "248450fc5fbf2d93907fbaff7eccf269272689b193b5344963788610e90e1791"
+	"hash": "945168b15c692311aecf84bfda955c99cc44267738de91efa507c3379bbbdfc9"
 }

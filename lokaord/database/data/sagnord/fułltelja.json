@@ -1,0 +1,87 @@
+{
+	"orð": "fułltelja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fułl",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-fułl"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-telja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fułltelja",
+		"sagnbót": "fułltalið",
+		"boðháttur": {
+			"stýfður": "fułltel",
+			"et": "fułlteldu",
+			"ft": "fułlteljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fułltel", "fułltelur", "fułltelur"],
+					"ft": ["fułlteljum", "fułlteljið", "fułltelja"]
+				},
+				"þátíð": {
+					"et": ["fułltaldi", "fułltaldir", "fułltaldi"],
+					"ft": ["fułltöldum", "fułltölduð", "fułltöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fułltelji", "fułlteljir", "fułltelji"],
+					"ft": ["fułlteljum", "fułlteljið", "fułltelji"]
+				},
+				"þátíð": {
+					"et": ["fułlteldi", "fułlteldir", "fułlteldi"],
+					"ft": ["fułlteldum", "fułltelduð", "fułlteldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fułltelurðu",
+					"ft": "fułlteljiði"
+				},
+				"þátíð": {
+					"et": "fułltaldirðu",
+					"ft": "fułltölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fułlteljirðu",
+					"ft": "fułlteljiði"
+				},
+				"þátíð": {
+					"et": "fułlteldirðu",
+					"ft": "fułltelduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fułlteljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fułltalinn", "fułltalinn", "fułltöldum", "fułltalins"],
+					"kvk": ["fułltalin", "fułltalda", "fułltaldri", "fułltaldrar"],
+					"hk": ["fułltalið", "fułltalið", "fułltöldu", "fułltalins"]
+				},
+				"ft": {
+					"kk": ["fułltaldir", "fułltalda", "fułltöldum", "fułltalinna"],
+					"kvk": ["fułltaldar", "fułltaldar", "fułltöldum", "fułltalinna"],
+					"hk": ["fułltalin", "fułltalin", "fułltöldum", "fułltalinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fułltelja",
+	"hash": "ae5364ee75cf74a89911a5e692f6d679ab0f308bc53950b7e5fb6cb8e3576150"
+}
