@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "viðskipta",
+			"mynd": "viðskiptamanna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-viðskipti-hk"
+			"kennistrengur": "no-viðskiptamaður-kk"
 		},
 		{
-			"mynd": "manna",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-maður-kk"
-		},
-		{
-			"mynd": "bók",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bók-kvk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-bókhald-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["viðskiptamannabókhaldið", "viðskiptamannabókhaldið", "viðskiptamannabókhaldinu", "viðskiptamannabókhaldsins"]
 	},
 	"kennistrengur": "no-viðskiptamannabókhald-hk",
-	"hash": "ad0ff8637db98f9fb2b6911e6c1bce1ea22e6432c5ab688a33a2a6641eda788c"
+	"hash": "be6ae8f47e6ab002685cff5a20556fdd05984f328fde1fe5da1ed5cd04290861"
 }

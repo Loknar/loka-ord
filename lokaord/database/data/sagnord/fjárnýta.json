@@ -1,0 +1,154 @@
+{
+	"orð": "fjárnýta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fjár",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fé-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-nýta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fjárnýta",
+		"sagnbót": "fjárnýtt",
+		"boðháttur": {
+			"stýfður": "fjárnýt",
+			"et": "fjárnýttu",
+			"ft": "fjárnýtið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fjárnýti", "fjárnýtir", "fjárnýtir"],
+					"ft": ["fjárnýtum", "fjárnýtið", "fjárnýta"]
+				},
+				"þátíð": {
+					"et": ["fjárnýtti", "fjárnýttir", "fjárnýtti"],
+					"ft": ["fjárnýttum", "fjárnýttuð", "fjárnýttu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fjárnýti", "fjárnýtir", "fjárnýti"],
+					"ft": ["fjárnýtum", "fjárnýtið", "fjárnýti"]
+				},
+				"þátíð": {
+					"et": ["fjárnýtti", "fjárnýttir", "fjárnýtti"],
+					"ft": ["fjárnýttum", "fjárnýttuð", "fjárnýttu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fjárnýtirðu",
+					"ft": "fjárnýtiði"
+				},
+				"þátíð": {
+					"et": "fjárnýttirðu",
+					"ft": "fjárnýttuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fjárnýtirðu",
+					"ft": "fjárnýtiði"
+				},
+				"þátíð": {
+					"et": "fjárnýttirðu",
+					"ft": "fjárnýttuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "fjárnýtast",
+		"sagnbót": "fjárnýst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fjárnýtist", "fjárnýtist", "fjárnýtist"],
+					"ft": ["fjárnýtumst", "fjárnýtist", "fjárnýtast"]
+				},
+				"þátíð": {
+					"et": ["fjárnýttist", "fjárnýttist", "fjárnýttist"],
+					"ft": ["fjárnýttumst", "fjárnýttust", "fjárnýttust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fjárnýtist", "fjárnýtist", "fjárnýtist"],
+					"ft": ["fjárnýttumst", "fjárnýtist", "fjárnýtist"]
+				},
+				"þátíð": {
+					"et": ["fjárnýttist", "fjárnýttist", "fjárnýttist"],
+					"ft": ["fjárnýttumst", "fjárnýttust", "fjárnýttust"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fjárnýtist", "fjárnýtist", "fjárnýtist"],
+					"ft": ["fjárnýtist", "fjárnýtist", "fjárnýtist"]
+				},
+				"þátíð": {
+					"et": ["fjárnýttist", "fjárnýttist", "fjárnýttist"],
+					"ft": ["fjárnýttist", "fjárnýttist", "fjárnýttist"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fjárnýtist", "fjárnýtist", "fjárnýtist"],
+					"ft": ["fjárnýtist", "fjárnýtist", "fjárnýtist"]
+				},
+				"þátíð": {
+					"et": ["fjárnýttist", "fjárnýttist", "fjárnýttist"],
+					"ft": ["fjárnýttist", "fjárnýttist", "fjárnýttist"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fjárnýtistu"
+				},
+				"þátíð": {
+					"et": "fjárnýttistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fjárnýtistu"
+				},
+				"þátíð": {
+					"et": "fjárnýttistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fjárnýtandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fjárnýttur", "fjárnýttan", "fjárnýttum", "fjárnýtts"],
+					"kvk": ["fjárnýtt", "fjárnýtta", "fjárnýttri", "fjárnýttrar"],
+					"hk": ["fjárnýttt", "fjárnýttt", "fjárnýttu", "fjárnýtts"]
+				},
+				"ft": {
+					"kk": ["fjárnýttir", "fjárnýtta", "fjárnýttum", "fjárnýttra"],
+					"kvk": ["fjárnýttar", "fjárnýttar", "fjárnýttum", "fjárnýttra"],
+					"hk": ["fjárnýtt", "fjárnýtt", "fjárnýttum", "fjárnýttra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fjárnýta",
+	"hash": "24b834a3732e6b8d90b4bd85b4a2d4eb3b7abdfa1042f29d0d79383a87af09d4"
+}
