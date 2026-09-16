@@ -1,0 +1,99 @@
+{
+	"orð": "forgera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "for",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-for-ó"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-gera"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "forgera",
+		"sagnbót": "forgert",
+		"boðháttur": {
+			"stýfður": "forger",
+			"et": "forgerðu",
+			"ft": "forgerið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["forgeri", "forgerir", "forgerir"],
+					"ft": ["forgerum", "forgerið", "forgera"]
+				},
+				"þátíð": {
+					"et": ["forgerði", "forgerðir", "forgerði"],
+					"ft": ["forgerðum", "forgerðuð", "forgerðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["forgeri", "forgerir", "forgeri"],
+					"ft": ["forgerum", "forgerið", "forgeri"]
+				},
+				"þátíð": {
+					"et": ["forgerði", "forgerðir", "forgerði"],
+					"ft": ["forgerðum", "forgerðuð", "forgerðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "forgerirðu",
+					"ft": "forgeriði"
+				},
+				"þátíð": {
+					"et": "forgerðirðu",
+					"ft": "forgerðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "forgerirðu",
+					"ft": "forgeriði"
+				},
+				"þátíð": {
+					"et": "forgerðirðu",
+					"ft": "forgerðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "forgerandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["forgerður", "forgerðan", "forgerðum", "forgerðs"],
+					"kvk": ["forgerð", "forgerða", "forgerðri", "forgerðrar"],
+					"hk": ["forgert", "forgert", "forgerðu", "forgerðs"]
+				},
+				"ft": {
+					"kk": ["forgerðir", "forgerða", "forgerðum", "forgerðra"],
+					"kvk": ["forgerðar", "forgerðar", "forgerðum", "forgerðra"],
+					"hk": ["forgerð", "forgerð", "forgerðum", "forgerðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["forgerði", "forgerða", "forgerða", "forgerða"],
+					"kvk": ["forgerða", "forgerðu", "forgerðu", "forgerðu"],
+					"hk": ["forgerða", "forgerða", "forgerða", "forgerða"]
+				},
+				"ft": {
+					"kk": ["forgerðu", "forgerðu", "forgerðu", "forgerðu"],
+					"kvk": ["forgerðu", "forgerðu", "forgerðu", "forgerðu"],
+					"hk": ["forgerðu", "forgerðu", "forgerðu", "forgerðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-forgera",
+	"hash": "548c7e44383bb2faecca5222fc550bf26de55e399c98cab670843ff8891e89c6"
+}
