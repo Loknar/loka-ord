@@ -2,11 +2,22 @@
 	"orð": "hygli",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "hygl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-hygla"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["hygli", "hygli", "hygli", "hygli"],
 		"mg": ["hyglin", "hyglina", "hyglinni", "hyglinnar"]
 	},
 	"ósjálfstætt": true,
 	"kennistrengur": "no-hygli-kvk-ó",
-	"hash": "6c287220928d776ec5311921ce4d67801dda4ab7fdc6b6701b529a643298e082"
+	"hash": "7afad1e8bdf8fbd34def30ad6af175592da6f9b1e1b80b35feda02b60a936c42"
 }

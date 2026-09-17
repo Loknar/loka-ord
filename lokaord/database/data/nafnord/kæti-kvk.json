@@ -2,10 +2,21 @@
 	"orð": "kæti",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "kæt",
+			"samsetning": "stofn",
+			"kennistrengur": "so-kæta"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kæti", "kæti", "kæti", "kæti"],
 		"mg": ["kætin", "kætina", "kætinni", "kætinnar"]
 	},
 	"kennistrengur": "no-kæti-kvk",
-	"hash": "e9b82e42d590fbd959439ae57db8cd6e693e673a16a8d1b850dc018389af2c4b"
+	"hash": "1db18bbbcca80d1d0f10db7b35f8b6ddf69242b0a0e0a261c3d70dc534d654cf"
 }

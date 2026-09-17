@@ -1,0 +1,146 @@
+{
+	"orð": "persónubinda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"kennistrengur": "so-binda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "persónubinda",
+		"sagnbót": "persónubundið",
+		"boðháttur": {
+			"stýfður": "persónubind",
+			"et": "persónubittu",
+			"ft": "persónubindið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónubind", "persónubindur", "persónubindur"],
+					"ft": ["persónubindum", "persónubindið", "persónubinda"]
+				},
+				"þátíð": {
+					"et": ["persónubatt", "persónubast", "persónubatt"],
+					"ft": ["persónubundum", "persónubunduð", "persónubundu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónubindi", "persónubindir", "persónubindi"],
+					"ft": ["persónubindum", "persónubindið", "persónubindi"]
+				},
+				"þátíð": {
+					"et": ["persónubyndi", "persónubyndir", "persónubyndi"],
+					"ft": ["persónubyndum", "persónubynduð", "persónubyndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "persónubindurðu",
+					"ft": "persónubindiði"
+				},
+				"þátíð": {
+					"et": "persónubastu",
+					"ft": "persónubunduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "persónubindirðu",
+					"ft": "persónubindiði"
+				},
+				"þátíð": {
+					"et": "persónubyndirðu",
+					"ft": "persónubynduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "persónubindast",
+		"sagnbót": "persónubundist",
+		"boðháttur": {
+			"et": "persónubinstu",
+			"ft": "persónubindist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónubinst", "persónubinst", "persónubinst"],
+					"ft": ["persónubindumst", "persónubindist", "persónubindast"]
+				},
+				"þátíð": {
+					"et": ["persónubast", "persónubast", "persónubast"],
+					"ft": ["persónubundumst", "persónubundust", "persónubundust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónubindist", "persónubindist", "persónubindist"],
+					"ft": ["persónubindumst", "persónubindist", "persónubindist"]
+				},
+				"þátíð": {
+					"et": ["persónubyndist", "persónubyndist", "persónubyndist"],
+					"ft": ["persónubyndumst", "persónubyndust", "persónubyndust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "persónubinstu"
+				},
+				"þátíð": {
+					"et": "persónubastu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "persónubindistu"
+				},
+				"þátíð": {
+					"et": "persónubyndistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "persónubindandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["persónubundinn", "persónubundinn", "persónubundnum", "persónubundins"],
+					"kvk": ["persónubundin", "persónubundna", "persónubundinni", "persónubundinnar"],
+					"hk": ["persónubundið", "persónubundið", "persónubundnu", "persónubundins"]
+				},
+				"ft": {
+					"kk": ["persónubundnir", "persónubundna", "persónubundnum", "persónubundinna"],
+					"kvk": ["persónubundnar", "persónubundnar", "persónubundnum", "persónubundinna"],
+					"hk": ["persónubundin", "persónubundin", "persónubundnum", "persónubundinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["persónubundni", "persónubundna", "persónubundna", "persónubundna"],
+					"kvk": ["persónubundna", "persónubundnu", "persónubundnu", "persónubundnu"],
+					"hk": ["persónubundna", "persónubundna", "persónubundna", "persónubundna"]
+				},
+				"ft": {
+					"kk": ["persónubundnu", "persónubundnu", "persónubundnu", "persónubundnu"],
+					"kvk": ["persónubundnu", "persónubundnu", "persónubundnu", "persónubundnu"],
+					"hk": ["persónubundnu", "persónubundnu", "persónubundnu", "persónubundnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-persónubinda",
+	"hash": "6e3c06b364e9c75fecbb5bb82d0d7f6dc7e4cd4227a224f786624dbdc49fce70"
+}

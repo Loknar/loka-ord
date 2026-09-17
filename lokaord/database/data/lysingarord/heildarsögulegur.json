@@ -1,0 +1,48 @@
+{
+	"orð": "heildarsögulegur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "heildar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-heild-kvk"
+		},
+		{
+			"mynd": "sögu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-saga-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-legur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["heildarsögulegur", "heildarsögulegan", "heildarsögulegum", "heildarsögulegs"],
+				"kvk": ["heildarsöguleg", "heildarsögulega", "heildarsögulegri", "heildarsögulegrar"],
+				"hk": ["heildarsögulegt", "heildarsögulegt", "heildarsögulegu", "heildarsögulegs"]
+			},
+			"ft": {
+				"kk": ["heildarsögulegir", "heildarsögulega", "heildarsögulegum", "heildarsögulegra"],
+				"kvk": ["heildarsögulegar", "heildarsögulegar", "heildarsögulegum", "heildarsögulegra"],
+				"hk": ["heildarsöguleg", "heildarsöguleg", "heildarsögulegum", "heildarsögulegra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["heildarsögulegi", "heildarsögulega", "heildarsögulega", "heildarsögulega"],
+				"kvk": ["heildarsögulega", "heildarsögulegu", "heildarsögulegu", "heildarsögulegu"],
+				"hk": ["heildarsögulega", "heildarsögulega", "heildarsögulega", "heildarsögulega"]
+			},
+			"ft": {
+				"kk": ["heildarsögulegu", "heildarsögulegu", "heildarsögulegu", "heildarsögulegu"],
+				"kvk": ["heildarsögulegu", "heildarsögulegu", "heildarsögulegu", "heildarsögulegu"],
+				"hk": ["heildarsögulegu", "heildarsögulegu", "heildarsögulegu", "heildarsögulegu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-heildarsögulegur",
+	"hash": "98622c866e9624ea659e063a7b61bd2980698ba8e6579004a02c3c1965557e55"
+}

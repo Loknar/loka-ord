@@ -1,0 +1,169 @@
+{
+	"orð": "persónumiða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "persónu",
+			"samsetning": "stofn",
+			"kennistrengur": "no-persóna-kvk"
+		},
+		{
+			"kennistrengur": "so-miða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "persónumiða",
+		"sagnbót": "persónumiðað",
+		"boðháttur": {
+			"stýfður": "persónumiða",
+			"et": "persónumiðaðu",
+			"ft": "persónumiðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónumiða", "persónumiðar", "persónumiðar"],
+					"ft": ["persónumiðum", "persónumiðið", "persónumiða"]
+				},
+				"þátíð": {
+					"et": ["persónumiðaði", "persónumiðaðir", "persónumiðaði"],
+					"ft": ["persónumiðuðum", "persónumiðuðuð", "persónumiðuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónumiði", "persónumiðir", "persónumiði"],
+					"ft": ["persónumiðum", "persónumiðið", "persónumiði"]
+				},
+				"þátíð": {
+					"et": ["persónumiðaði", "persónumiðaðir", "persónumiðaði"],
+					"ft": ["persónumiðuðum", "persónumiðuðuð", "persónumiðuðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þágufałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónumiðar", "persónumiðar", "persónumiðar"],
+					"ft": ["persónumiðar", "persónumiðar", "persónumiðar"]
+				},
+				"þátíð": {
+					"et": ["persónumiðaði", "persónumiðaði", "persónumiðaði"],
+					"ft": ["persónumiðaði", "persónumiðaði", "persónumiðaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónumiði", "persónumiði", "persónumiði"],
+					"ft": ["persónumiði", "persónumiði", "persónumiði"]
+				},
+				"þátíð": {
+					"et": ["persónumiðaði", "persónumiðaði", "persónumiðaði"],
+					"ft": ["persónumiðaði", "persónumiðaði", "persónumiðaði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "persónumiðarðu",
+					"ft": "persónumiðiði"
+				},
+				"þátíð": {
+					"et": "persónumiðaðirðu",
+					"ft": "persónumiðuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "persónumiðirðu",
+					"ft": "persónumiðiði"
+				},
+				"þátíð": {
+					"et": "persónumiðaðirðu",
+					"ft": "persónumiðuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "persónumiðast",
+		"sagnbót": "persónumiðast",
+		"boðháttur": {
+			"et": "persónumiðastu",
+			"ft": "persónumiðist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["persónumiðast", "persónumiðast", "persónumiðast"],
+					"ft": ["persónumiðumst", "persónumiðist", "persónumiðast"]
+				},
+				"þátíð": {
+					"et": ["persónumiðaðist", "persónumiðaðist", "persónumiðaðist"],
+					"ft": ["persónumiðuðumst", "persónumiðuðust", "persónumiðuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["persónumiðist", "persónumiðist", "persónumiðist"],
+					"ft": ["persónumiðumst", "persónumiðist", "persónumiðist"]
+				},
+				"þátíð": {
+					"et": ["persónumiðaðist", "persónumiðaðist", "persónumiðaðist"],
+					"ft": ["persónumiðuðumst", "persónumiðuðust", "persónumiðuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "persónumiðastu"
+				},
+				"þátíð": {
+					"et": "persónumiðaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "persónumiðistu"
+				},
+				"þátíð": {
+					"et": "persónumiðaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "persónumiðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["persónumiðaður", "persónumiðaðan", "persónumiðuðum", "persónumiðaðs"],
+					"kvk": ["persónumiðuð", "persónumiðaða", "persónumiðaðri", "persónumiðaðrar"],
+					"hk": ["persónumiðað", "persónumiðað", "persónumiðuðu", "persónumiðaðs"]
+				},
+				"ft": {
+					"kk": ["persónumiðaðir", "persónumiðaða", "persónustæðkkuðum", "persónumiðaðra"],
+					"kvk": ["persónumiðaðar", "persónumiðaðar", "persónumiðuðum", "persónumiðaðra"],
+					"hk": ["persónumiðuð", "persónumiðuð", "persónumiðuðum", "persónumiðaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["persónumiðaði", "persónumiðaða", "persónumiðaða", "persónumiðaða"],
+					"kvk": ["persónumiðaða", "persónumiðuðu", "persónumiðuðu", "persónumiðuðu"],
+					"hk": ["persónumiðaða", "persónumiðaða", "persónumiðaða", "persónumiðaða"]
+				},
+				"ft": {
+					"kk": ["persónumiðuðu", "persónumiðuðu", "persónumiðuðu", "persónumiðuðu"],
+					"kvk": ["persónumiðuðu", "persónumiðuðu", "persónumiðuðu", "persónumiðuðu"],
+					"hk": ["persónumiðuðu", "persónumiðuðu", "persónumiðuðu", "persónumiðuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-persónumiða",
+	"hash": "c97f57f2e20ac91d58a046c44b4a1e1051bff1ab942967d065ff76193bca4e8c"
+}
