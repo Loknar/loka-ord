@@ -1,0 +1,87 @@
+{
+	"orð": "ámálga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-málga"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ámálga",
+		"sagnbót": "ámálgað",
+		"boðháttur": {
+			"stýfður": "ámálga",
+			"et": "ámálgaðu",
+			"ft": "ámálgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ámálga", "ámálgar", "ámálgar"],
+					"ft": ["ámálgum", "ámálgið", "ámálga"]
+				},
+				"þátíð": {
+					"et": ["ámálgaði", "ámálgaðir", "ámálgaði"],
+					"ft": ["ámálguðum", "ámálguðuð", "ámálguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ámálgi", "ámálgir", "ámálgi"],
+					"ft": ["ámálgum", "ámálgið", "ámálgi"]
+				},
+				"þátíð": {
+					"et": ["ámálgaði", "ámálgaðir", "ámálgaði"],
+					"ft": ["ámálguðum", "ámálguðuð", "ámálguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ámálgarðu",
+					"ft": "ámálgiði"
+				},
+				"þátíð": {
+					"et": "ámálgaðirðu",
+					"ft": "ámálguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ámálgirðu",
+					"ft": "ámálgiði"
+				},
+				"þátíð": {
+					"et": "ámálgaðirðu",
+					"ft": "ámálguðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ámálgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ámálgaður", "ámálgaðan", "ámálguðum", "ámálgaðs"],
+					"kvk": ["ámálguð", "ámálgaða", "ámálgaðri", "ámálgaðrar"],
+					"hk": ["ámálgað", "ámálgað", "ámálguðu", "ámálgaðs"]
+				},
+				"ft": {
+					"kk": ["ámálgaðir", "ámálgaða", "ámálguðum", "ámálgaðra"],
+					"kvk": ["ámálgaðar", "ámálgaðar", "ámálguðum", "ámálgaðra"],
+					"hk": ["ámálguð", "ámálguð", "ámálguðum", "ámálgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ámálga",
+	"hash": "76da59aac96d2d60b83583a84de0f7e2b489edb8467d2b1268e426426fe1676b"
+}

@@ -1,0 +1,135 @@
+{
+	"orð": "málga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "málg",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-mál-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "málga",
+		"sagnbót": "málgað",
+		"boðháttur": {
+			"stýfður": "málga",
+			"et": "málgaðu",
+			"ft": "málgið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["málga", "málgar", "málgar"],
+					"ft": ["málgum", "málgið", "málga"]
+				},
+				"þátíð": {
+					"et": ["málgaði", "málgaðir", "málgaði"],
+					"ft": ["málguðum", "málguðuð", "málguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["málgi", "málgir", "málgi"],
+					"ft": ["málgum", "málgið", "málgi"]
+				},
+				"þátíð": {
+					"et": ["málgaði", "málgaðir", "málgaði"],
+					"ft": ["málguðum", "málguðuð", "málguðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "málgarðu",
+					"ft": "málgiði"
+				},
+				"þátíð": {
+					"et": "málgaðirðu",
+					"ft": "málguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "málgirðu",
+					"ft": "málgiði"
+				},
+				"þátíð": {
+					"et": "málgaðirðu",
+					"ft": "málguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "málgast",
+		"sagnbót": "málgast",
+		"boðháttur": {
+			"et": "málgastu",
+			"ft": "málgist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["málgast", "málgast", "málgast"],
+					"ft": ["málgumst", "málgist", "málgast"]
+				},
+				"þátíð": {
+					"et": ["málgaðist", "málgaðist", "málgaðist"],
+					"ft": ["málguðumst", "málguðust", "málguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["málgist", "málgist", "málgist"],
+					"ft": ["málgumst", "málgist", "málgist"]
+				},
+				"þátíð": {
+					"et": ["málgaðist", "málgaðist", "málgaðist"],
+					"ft": ["málguðumst", "málguðust", "málguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "málgastu"
+				},
+				"þátíð": {
+					"et": "málgaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "málgistu"
+				},
+				"þátíð": {
+					"et": "málgaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "málgandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["málgaður", "málgaðan", "málguðum", "málgaðs"],
+					"kvk": ["málguð", "málgaða", "málgaðri", "málgaðrar"],
+					"hk": ["málgað", "málgað", "málguðu", "málgaðs"]
+				},
+				"ft": {
+					"kk": ["málgaðir", "málgaða", "málguðum", "málgaðra"],
+					"kvk": ["málgaðar", "málgaðar", "málguðum", "málgaðra"],
+					"hk": ["málguð", "málguð", "málguðum", "málgaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-málga",
+	"hash": "adf19a1234f27ea34ec0038d939ea96613bb2ac2d755b308a1cb4445169c45df"
+}
