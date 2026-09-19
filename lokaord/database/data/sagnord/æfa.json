@@ -54,6 +54,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "æfast",
+		"sagnbót": "æfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["æfist", "æfist", "æfist"],
+					"ft": ["æfumst", "æfist", "æfast"]
+				},
+				"þátíð": {
+					"et": ["æfðist", "æfðist", "æfðist"],
+					"ft": ["æfðumst", "æfðust", "æfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["æfist", "æfist", "æfist"],
+					"ft": ["æfumst", "æfist", "æfist"]
+				},
+				"þátíð": {
+					"et": ["æfðist", "æfðist", "æfðist"],
+					"ft": ["æfðumst", "æfðust", "æfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "æfistu"
+				},
+				"þátíð": {
+					"et": "æfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "æfistu"
+				},
+				"þátíð": {
+					"et": "æfðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "æfandi",
 		"þátíðar": {
@@ -84,5 +128,5 @@
 		}
 	},
 	"kennistrengur": "so-æfa",
-	"hash": "eb84eaa5e1f96c8f6c91cbc79662959e8137634927c7de1d1fb8d33841b7dd4b"
+	"hash": "c4d017eb2af52ab1cc84ccf07ad7ac4265de56fc4d0b9a84f3f824b1c0628ecf"
 }

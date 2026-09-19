@@ -8,7 +8,6 @@
 			"kennistrengur": "smáo.fs-við"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-hafa"
 		}
 	],
@@ -65,6 +64,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "viðhafast",
+		"sagnbót": "viðhafst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðhefst", "viðhefst", "viðhefst"],
+					"ft": ["viðhöfumst", "viðhafist", "viðhafast"]
+				},
+				"þátíð": {
+					"et": ["viðhafðist", "viðhafðist", "viðhafðist"],
+					"ft": ["viðhöfðumst", "viðhöfðust", "viðhöfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðhafist", "viðhafist", "viðhafist"],
+					"ft": ["viðhöfumst", "viðhafist", "viðhafist"]
+				},
+				"þátíð": {
+					"et": ["viðhefðist", "viðhefðist", "viðhefðist"],
+					"ft": ["viðhefðumst", "viðhefðust", "viðhefðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "viðhefstu"
+				},
+				"þátíð": {
+					"et": "viðhafðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "viðhafistu"
+				},
+				"þátíð": {
+					"et": "viðhefðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "viðhafandi",
 		"þátíðar": {
@@ -83,5 +126,5 @@
 		}
 	},
 	"kennistrengur": "so-viðhafa",
-	"hash": "ba2bf0c381c79ed2614f669f0738c96a5fd6354bf13e46ba035ea4e7f0c636f3"
+	"hash": "282f8e127ccaeeb93b4928f24eb22814338da653cd22f0d7a45d9fcfa1f872f4"
 }
