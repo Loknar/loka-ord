@@ -1,0 +1,43 @@
+{
+	"orð": "hnausþykkur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hnaus",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hnaus-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-þykkur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hnausþykkur", "hnausþykkan", "hnausþykkum", "hnausþykks"],
+				"kvk": ["hnausþykk", "hnausþykka", "hnausþykkri", "hnausþykkrar"],
+				"hk": ["hnausþykkt", "hnausþykkt", "hnausþykku", "hnausþykks"]
+			},
+			"ft": {
+				"kk": ["hnausþykkir", "hnausþykka", "hnausþykkum", "hnausþykkra"],
+				"kvk": ["hnausþykkar", "hnausþykkar", "hnausþykkum", "hnausþykkra"],
+				"hk": ["hnausþykk", "hnausþykk", "hnausþykkum", "hnausþykkra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hnausþykki", "hnausþykka", "hnausþykka", "hnausþykka"],
+				"kvk": ["hnausþykka", "hnausþykku", "hnausþykku", "hnausþykku"],
+				"hk": ["hnausþykka", "hnausþykka", "hnausþykka", "hnausþykka"]
+			},
+			"ft": {
+				"kk": ["hnausþykku", "hnausþykku", "hnausþykku", "hnausþykku"],
+				"kvk": ["hnausþykku", "hnausþykku", "hnausþykku", "hnausþykku"],
+				"hk": ["hnausþykku", "hnausþykku", "hnausþykku", "hnausþykku"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hnausþykkur",
+	"hash": "9cf96994f5f3865da21a6c246ac323f6d70ebec26abcc5f94413f97410b3da5e"
+}
