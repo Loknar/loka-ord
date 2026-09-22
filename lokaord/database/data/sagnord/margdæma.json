@@ -1,0 +1,87 @@
+{
+	"orð": "margdæma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "marg",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-margur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-dæma"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "margdæma",
+		"sagnbót": "margdæmt",
+		"boðháttur": {
+			"stýfður": "margdæm",
+			"et": "margdæmdu",
+			"ft": "margdæmið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["margdæmi", "margdæmir", "margdæmir"],
+					"ft": ["margdæmum", "margdæmið", "margdæma"]
+				},
+				"þátíð": {
+					"et": ["margdæmdi", "margdæmdir", "margdæmdi"],
+					"ft": ["margdæmdum", "margdæmduð", "margdæmdu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["margdæmi", "margdæmir", "margdæmi"],
+					"ft": ["margdæmum", "margdæmið", "margdæmi"]
+				},
+				"þátíð": {
+					"et": ["margdæmdi", "margdæmdir", "margdæmdi"],
+					"ft": ["margdæmdum", "margdæmduð", "margdæmdu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "margdæmirðu",
+					"ft": "margdæmiði"
+				},
+				"þátíð": {
+					"et": "margdæmdirðu",
+					"ft": "margdæmduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "margdæmirðu",
+					"ft": "margdæmiði"
+				},
+				"þátíð": {
+					"et": "margdæmdirðu",
+					"ft": "margdæmduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "margdæmandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["margdæmdur", "margdæmdan", "margdæmdum", "margdæmds"],
+					"kvk": ["margdæmd", "margdæmda", "margdæmdri", "margdæmdrar"],
+					"hk": ["margkært", "margkært", "margdæmdu", "margdæmds"]
+				},
+				"ft": {
+					"kk": ["margdæmdir", "margdæmda", "margdæmdum", "margdæmdra"],
+					"kvk": ["margdæmdar", "margdæmdar", "margdæmdum", "margdæmdra"],
+					"hk": ["margdæmd", "margdæmd", "margdæmdum", "margdæmdra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-margdæma",
+	"hash": "aa14f15e2d13035b4b7730b3a912291240d918f6268571b75fb4c1c8158fea80"
+}

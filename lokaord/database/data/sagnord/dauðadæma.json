@@ -8,7 +8,7 @@
 			"kennistrengur": "no-dauði-kk"
 		},
 		{
-			"beygingar": ["germynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
 			"kennistrengur": "so-dæma"
 		}
 	],
@@ -41,6 +41,28 @@
 					"ft": ["dauðadæmdum", "dauðadæmduð", "dauðadæmdu"]
 				}
 			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dauðadæmirðu",
+					"ft": "dauðadæmiði"
+				},
+				"þátíð": {
+					"et": "dauðadæmdirðu",
+					"ft": "dauðadæmduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dauðadæmirðu",
+					"ft": "dauðadæmiði"
+				},
+				"þátíð": {
+					"et": "dauðadæmdirðu",
+					"ft": "dauðadæmduði"
+				}
+			}
 		}
 	},
 	"lýsingarháttur": {
@@ -61,5 +83,5 @@
 		}
 	},
 	"kennistrengur": "so-dauðadæma",
-	"hash": "5c5f3271ae3f4062e0d4f2f54a3f4cf4acc7b3c79ede2a6f10d64946ceb5a25e"
+	"hash": "03d6e4708fdfcd29f4d43f0344676f27da8d8d497d83283f550e24de0b02d618"
 }
