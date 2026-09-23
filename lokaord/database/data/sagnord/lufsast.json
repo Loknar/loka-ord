@@ -1,0 +1,65 @@
+{
+	"orð": "lufsast",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lufs",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lufsa-kvk"
+		},
+		{
+			"beygingar": ["miðmynd"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"miðmynd": {
+		"nafnháttur": "lufsast",
+		"sagnbót": "lufsast",
+		"boðháttur": {
+			"et": "lufsastu",
+			"ft": "lufsist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lufsast", "lufsast", "lufsast"],
+					"ft": ["lufsumst", "lufsist", "lufsast"]
+				},
+				"þátíð": {
+					"et": ["lufsaðist", "lufsaðist", "lufsaðist"],
+					"ft": ["lufsuðumst", "lufsuðust", "lufsuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lufsist", "lufsist", "lufsist"],
+					"ft": ["lufsumst", "lufsist", "lufsist"]
+				},
+				"þátíð": {
+					"et": ["lufsaðist", "lufsaðist", "lufsaðist"],
+					"ft": ["lufsuðumst", "lufsuðust", "lufsuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lufsastu"
+				},
+				"þátíð": {
+					"et": "lufsaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lufsistu"
+				},
+				"þátíð": {
+					"et": "lufsaðistu"
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lufsast",
+	"hash": "27df582db85899e16e2daad1acf5dd2ec7e75378a73f5bc0f6bb6303a362c881"
+}
