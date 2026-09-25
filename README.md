@@ -2,32 +2,32 @@
 
 # Loka-Orð
 
-Frjálst gagnasafn yfir íslensk orð, beygingamyndir og samsetningu þeirra og fleira, undir frjálsu almenningseignarleyfi (e. public domain licence).
+Frjálst gagnasafn yfir íslensk orð, beygingamyndir og samsetningu þeirra og fleira, undir frjálsu almenningseignarleyfi (e. general public licence).
 
 Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 2065 | 1878 | 1934 | 5877 | 20093 | 26021 | 25666 | 71780 | **77657** |
-| **Lýsingarorð** | 625 |   |   |   | 825 |   |   |   | 7165 | **7990** |
-| **Sagnorð**     |   |   |   |   | 1451 |   |   |   | 2417 | **3868** |
+| **Nafnorð**     |   | 2066 | 1879 | 1937 | 5882 | 20163 | 26101 | 25754 | 72018 | **77900** |
+| **Lýsingarorð** | 628 |   |   |   | 826 |   |   |   | 7178 | **8004** |
+| **Sagnorð**     |   |   |   |   | 1451 |   |   |   | 2420 | **3871** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 23 | **63** |
 | **Smáorð**      |   |   |   |   | 357 |   |   |   | 752 | **1109** |
-| **Alls** |   |   |   |   | **8576** |   |   |   | **82239** | **90815** |
+| **Alls** |   |   |   |   | **8582** |   |   |   | **82493** | **91075** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1353 | 1304 | 18 | 2675 | 1043 | 1288 | 11 | 2342 | **5017** |
 | Kenninöfn |  |  |  |  | 4932 | 4931 | 4909 | 14772 | **14772** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **2472** |
-| Gælunöfn  | 922 | 415 | 13 | 1350 | 189 | 173 | 10 | 372 | **1722** |
-| Örnefni   | 39 | 193 | 1165 | 1397 | 3474 | 2520 | 2626 | 8620 | **10017** |
-| **Alls**  |   |   |   | **7710** |   |   |   | **26290** | **34000** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **2480** |
+| Gælunöfn  | 925 | 418 | 13 | 1356 | 190 | 173 | 10 | 373 | **1729** |
+| Örnefni   | 39 | 193 | 1174 | 1406 | 3483 | 2527 | 2631 | 8641 | **10047** |
+| **Alls**  |   |   |   | **7733** |   |   |   | **26312** | **34045** |
 
-**Samtals:** 124815 orð.
+**Samtals:** 125120 orð.
 
-1210 skammstafanir.
+1215 skammstafanir.
 
 ## Forkröfur (Requirements)
 

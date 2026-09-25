@@ -4,24 +4,14 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "fjár",
+			"mynd": "fjárvörslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-fé-hk"
+			"kennistrengur": "no-fjárvarsla-kvk"
 		},
 		{
-			"mynd": "vörslu",
+			"mynd": "innláns",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-varsla-kvk"
-		},
-		{
-			"mynd": "inn",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-inn"
-		},
-		{
-			"mynd": "láns",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lán-hk"
+			"kennistrengur": "no-innlán-hk"
 		},
 		{
 			"kennistrengur": "no-reikningur-kk"
@@ -36,5 +26,5 @@
 		"mg": ["fjárvörsluinnlánsreikningarnir", "fjárvörsluinnlánsreikningana", "fjárvörsluinnlánsreikningunum", "fjárvörsluinnlánsreikninganna"]
 	},
 	"kennistrengur": "no-fjárvörsluinnlánsreikningur-kk",
-	"hash": "685a17cf735612229b36d94f1d48572aab2bb753f28b1f7a60c2f66c45a844de"
+	"hash": "8bd5b49f047b3f20758448081fa68850ff0540d8b8256fd4ff320666e5dc6815"
 }

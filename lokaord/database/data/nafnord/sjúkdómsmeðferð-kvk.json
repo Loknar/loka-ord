@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sjúk",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "dóms",
+			"mynd": "sjúkdóms",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dómur-kk"
+			"kennistrengur": "no-sjúkdómur-kk"
 		},
 		{
-			"mynd": "með",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-með"
-		},
-		{
-			"kennistrengur": "no-ferð-kvk"
+			"kennistrengur": "no-meðferð-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["sjúkdómsmeðferðirnar", "sjúkdómsmeðferðirnar", "sjúkdómsmeðferðunum", "sjúkdómsmeðferðanna"]
 	},
 	"kennistrengur": "no-sjúkdómsmeðferð-kvk",
-	"hash": "da126c6daaf72ee366d0d966c37921ba9bc78729d094c518d62daf8e9a4a9f73"
+	"hash": "fd9c0524812363c7cd2dcb3d03c22f30d0a4a81d1423cee49d3e989ea4a4d47f"
 }

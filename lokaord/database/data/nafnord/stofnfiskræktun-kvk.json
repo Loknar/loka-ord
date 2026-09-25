@@ -1,0 +1,27 @@
+{
+	"orð": "stofnfiskræktun",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "stofn",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stofn-kk"
+		},
+		{
+			"mynd": "fisk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fiskur-kk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-ræktun-kvk"
+		}
+	],
+	"et": {
+		"ág": ["stofnfiskræktun", "stofnfiskræktun", "stofnfiskræktun", "stofnfiskræktunar"],
+		"mg": ["stofnfiskræktunin", "stofnfiskræktunina", "stofnfiskræktuninni", "stofnfiskræktunarinnar"]
+	},
+	"kennistrengur": "no-stofnfiskræktun-kvk",
+	"hash": "829c7d17d6489519e790043fffddbfec954d40f2939ac7704f78a746072e3360"
+}

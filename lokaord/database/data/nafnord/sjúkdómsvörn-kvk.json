@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sjúk",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "dóms",
+			"mynd": "sjúkdóms",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dómur-kk"
+			"kennistrengur": "no-sjúkdómur-kk"
 		},
 		{
 			"kennistrengur": "no-vörn-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["sjúkdómsvarnirnar", "sjúkdómsvarnirnar", "sjúkdómsvörnunum", "sjúkdómsvarnanna"]
 	},
 	"kennistrengur": "no-sjúkdómsvörn-kvk",
-	"hash": "97c7a5b454afe899b4b139f375472c3cdcda949e9380aa610746539c14d7e02f"
+	"hash": "97d287acd53c56480b77a8e5cfe8889d60fc67094a80b042a33de49a8e0b08e2"
 }

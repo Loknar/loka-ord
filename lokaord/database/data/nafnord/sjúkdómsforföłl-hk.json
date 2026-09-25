@@ -4,23 +4,13 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "sjúk",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "dóms",
+			"mynd": "sjúkdóms",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dómur-kk"
-		},
-		{
-			"mynd": "for",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.ao-for-ó"
+			"kennistrengur": "no-sjúkdómur-kk"
 		},
 		{
 			"beygingar": ["ft"],
-			"kennistrengur": "no-fałl-hk"
+			"kennistrengur": "no-forfałl-hk"
 		}
 	],
 	"ft": {
@@ -28,5 +18,5 @@
 		"mg": ["sjúkdómsforföłlin", "sjúkdómsforföłlin", "sjúkdómsforföłlunum", "sjúkdómsforfałlanna"]
 	},
 	"kennistrengur": "no-sjúkdómsforföłl-hk",
-	"hash": "6b3113e4dcf9858d80f3e58f436d3a3d563c3dc4e14b86b7cb98bc32adbdea74"
+	"hash": "cee844d076d9b051a4fdd0cf09e3279c0bbe4e9f26309cbd7c8df962864e991a"
 }

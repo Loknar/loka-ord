@@ -1,0 +1,43 @@
+{
+	"orð": "sjúkdómalaus",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "sjúkdóma",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-sjúkdómur-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-laus"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["sjúkdómalaus", "sjúkdómalausan", "sjúkdómalausum", "sjúkdómalauss"],
+				"kvk": ["sjúkdómalaus", "sjúkdómalausa", "sjúkdómalausri", "sjúkdómalausrar"],
+				"hk": ["sjúkdómalaust", "sjúkdómalaust", "sjúkdómalausu", "sjúkdómalauss"]
+			},
+			"ft": {
+				"kk": ["sjúkdómalausir", "sjúkdómalausa", "sjúkdómalausum", "sjúkdómalausra"],
+				"kvk": ["sjúkdómalausar", "sjúkdómalausar", "sjúkdómalausum", "sjúkdómalausra"],
+				"hk": ["sjúkdómalaus", "sjúkdómalaus", "sjúkdómalausum", "sjúkdómalausra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["sjúkdómalausi", "sjúkdómalausa", "sjúkdómalausa", "sjúkdómalausa"],
+				"kvk": ["sjúkdómalausa", "sjúkdómalausu", "sjúkdómalausu", "sjúkdómalausu"],
+				"hk": ["sjúkdómalausa", "sjúkdómalausa", "sjúkdómalausa", "sjúkdómalausa"]
+			},
+			"ft": {
+				"kk": ["sjúkdómalausu", "sjúkdómalausu", "sjúkdómalausu", "sjúkdómalausu"],
+				"kvk": ["sjúkdómalausu", "sjúkdómalausu", "sjúkdómalausu", "sjúkdómalausu"],
+				"hk": ["sjúkdómalausu", "sjúkdómalausu", "sjúkdómalausu", "sjúkdómalausu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-sjúkdómalaus",
+	"hash": "a27d256cbaa1590bf73037cb237652771a28fb55c0cac0a060f8207b2c23ecda"
+}

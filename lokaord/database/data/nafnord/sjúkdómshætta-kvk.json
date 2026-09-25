@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "sjúk",
-			"samsetning": "stofn",
-			"kennistrengur": "lo-sjúkur"
-		},
-		{
-			"mynd": "dóms",
+			"mynd": "sjúkdóms",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dómur-kk"
+			"kennistrengur": "no-sjúkdómur-kk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["sjúkdómshættan", "sjúkdómshættuna", "sjúkdómshættunni", "sjúkdómshættunnar"]
 	},
 	"kennistrengur": "no-sjúkdómshætta-kvk",
-	"hash": "fcf97325683896997484bf6df1138832a130ba7debef49c8e8d533ea7bd321b8"
+	"hash": "79da93fcbeabe3e9fa2af87730617501e2e5f5647bb749cbcbd8e40f1f01224a"
 }
