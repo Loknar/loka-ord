@@ -4,12 +4,14 @@ import datetime
 import lokaord
 from lokaord.database import db
 from lokaord.database.models import isl
+from lokaord.seer import get_ordmyndir_count
 
 
 def get_words_count():
 	'''
 	collect some basic word count stats
 	'''
+	ordmyndir_count = get_ordmyndir_count()
 	data = {
 		'nafnorð': {
 			'kyn-kjarnaorð': {
@@ -417,9 +419,14 @@ def get_words_count():
 			'samsett': db.Session.query(isl.Ord).filter_by(Samsett=True).count(),
 			'samtals': db.Session.query(isl.Ord).count()
 		},
+		'einstakar_orðmyndir': ordmyndir_count,
 		'skammstafanir': db.Session.query(isl.Skammstofun).count()
 	}
 	return data
+
+
+def format_int_add_thousands_separator(my_int: int, separator='.') -> str:
+	return '{:,}'.format(my_int).replace(',', separator)
 
 
 def get_words_count_markdown_table():
@@ -452,7 +459,8 @@ def get_words_count_markdown_table():
 		' | {sn_o_s_hk} | {sn_o_s} | **{sn_o_a}** |\n'
 		'| **Alls**  |   |   |   | **{a_2_k}** |   |   |   | **{a_2_s}** | **{a_2_a}** |\n'
 		'\n'
-		'**Samtals:** {a_3_a} orð.\n'
+		'**Samtals:** {a_3_a} orð.  \n'
+		'Orðmyndir: {om_a}\n'
 		'\n'
 		'{skamm} skammstafanir.'
 	).format(
@@ -524,8 +532,9 @@ def get_words_count_markdown_table():
 		a_2_k=data['sérnöfn']['kjarnaorð'],
 		a_2_s=data['sérnöfn']['samsett'],
 		a_2_a=data['sérnöfn']['samtals'],
-		a_3_a=data['allt']['samtals'],
-		skamm=data['skammstafanir'],
+		a_3_a=format_int_add_thousands_separator(data['allt']['samtals']),
+		om_a=format_int_add_thousands_separator(data['einstakar_orðmyndir']),
+		skamm=format_int_add_thousands_separator(data['skammstafanir']),
 	)
 	return md_table
 

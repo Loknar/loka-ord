@@ -31,6 +31,16 @@ if platform.system() == 'Linux':
 
 WPP = 2500  # default words per page in webpack
 
+ORDMYNDIR_COUNT = 0  # for saving us processing time when printing stats
+
+
+def get_ordmyndir_count():
+	global ORDMYNDIR_COUNT
+	if ORDMYNDIR_COUNT == 0:
+		sight = load_sight()
+		return len([x for x in sight['orð'].keys()])
+	return ORDMYNDIR_COUNT
+
 
 def search_word(word):
 	sight = load_sight()
@@ -498,6 +508,7 @@ def build_sight(filename='sight', use_pointless=None):
 	"""
 	collect and construct data to identify whole words
 	"""
+	global ORDMYNDIR_COUNT
 	if use_pointless is None:
 		use_pointless = (platform.system() == 'Linux')
 	logman.info('Building sight ..')
@@ -700,6 +711,7 @@ def build_sight(filename='sight', use_pointless=None):
 	else:
 		with open(sight_filepath_abs, 'wb') as file:
 			pickle.dump(sight, file, protocol=pickle.HIGHEST_PROTOCOL)
+	ORDMYNDIR_COUNT = len([x for x in sight['orð'].keys()])
 	logman.info('Sight has been written.')
 
 
