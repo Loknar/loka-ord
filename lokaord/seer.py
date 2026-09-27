@@ -35,6 +35,9 @@ ORDMYNDIR_COUNT = 0  # for saving us processing time when printing stats
 
 
 def get_ordmyndir_count():
+	"""
+	get count of orðmyndir from current sight file
+	"""
 	global ORDMYNDIR_COUNT
 	if ORDMYNDIR_COUNT == 0:
 		sight = load_sight()
@@ -43,6 +46,9 @@ def get_ordmyndir_count():
 
 
 def search_word(word):
+	"""
+	looks up word in current sight file, prints out the search results
+	"""
 	sight = load_sight()
 	print('\033[36m---\033[0m\n%s\n\033[36m---\033[0m' % (word, ))
 	if word in sight['orð']:
@@ -113,7 +119,7 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 				e_word = change_functions[i](e_word)
 		return e_word
 
-	def move_uppercase_to_front(mylist: Iterable[str]) -> Iterable[str]:
+	def rearrange_uppercase_to_front(mylist: Iterable[str]) -> Iterable[str]:
 		upper = []
 		lower = []
 		for entry in mylist:
@@ -143,7 +149,7 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 			myset.add(apply_possibility(ellified, applier, change_functions))
 	possibilities = sorted(list(myset), reverse=True)
 	if word == uppercase(word):
-		return move_uppercase_to_front(possibilities)
+		return rearrange_uppercase_to_front(possibilities)
 	return possibilities
 
 
@@ -152,7 +158,7 @@ def scan_sentence(
 	clean_str: bool = True
 ):
 	"""
-	identify known whole words from a sentence string
+	identify known whole words from a sentence string, print out the results
 	"""
 	if clean_str is True:
 		sentence = clean_string(sentence)
