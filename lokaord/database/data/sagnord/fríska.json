@@ -1,0 +1,135 @@
+{
+	"orð": "fríska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "frísk",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-frískur"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fríska",
+		"sagnbót": "frískað",
+		"boðháttur": {
+			"stýfður": "fríska",
+			"et": "frískaðu",
+			"ft": "frískið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fríska", "frískar", "frískar"],
+					"ft": ["frískum", "frískið", "fríska"]
+				},
+				"þátíð": {
+					"et": ["frískaði", "frískaðir", "frískaði"],
+					"ft": ["frískuðum", "frískuðuð", "frískuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fríski", "frískir", "fríski"],
+					"ft": ["frískum", "frískið", "fríski"]
+				},
+				"þátíð": {
+					"et": ["frískaði", "frískaðir", "frískaði"],
+					"ft": ["frískuðum", "frískuðuð", "frískuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frískarðu",
+					"ft": "frískiði"
+				},
+				"þátíð": {
+					"et": "frískaðirðu",
+					"ft": "frískuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frískirðu",
+					"ft": "frískiði"
+				},
+				"þátíð": {
+					"et": "frískaðirðu",
+					"ft": "frískuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "frískast",
+		"sagnbót": "frískast",
+		"boðháttur": {
+			"et": "frískastu",
+			"ft": "frískist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["frískast", "frískast", "frískast"],
+					"ft": ["frískumst", "frískist", "frískast"]
+				},
+				"þátíð": {
+					"et": ["frískaðist", "frískaðist", "frískaðist"],
+					"ft": ["frískuðumst", "frískuðust", "frískuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["frískist", "frískist", "frískist"],
+					"ft": ["frískumst", "frískist", "frískist"]
+				},
+				"þátíð": {
+					"et": ["frískaðist", "frískaðist", "frískaðist"],
+					"ft": ["frískuðumst", "frískuðust", "frískuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "frískastu"
+				},
+				"þátíð": {
+					"et": "frískaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "frískistu"
+				},
+				"þátíð": {
+					"et": "frískaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "frískandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["frískaður", "frískaðan", "frískuðum", "frískaðs"],
+					"kvk": ["frískuð", "frískaða", "frískaðri", "frískaðrar"],
+					"hk": ["frískað", "frískað", "frískuðu", "frískaðs"]
+				},
+				"ft": {
+					"kk": ["frískaðir", "frískaða", "frískuðum", "frískaðra"],
+					"kvk": ["frískaðar", "frískaðar", "frískuðum", "frískaðra"],
+					"hk": ["frískuð", "frískuð", "frískuðum", "frískaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fríska",
+	"hash": "77a1e74f7716693c7eb954981698ddd0a5bb0bed57f9253c1f5c8ee52033c168"
+}

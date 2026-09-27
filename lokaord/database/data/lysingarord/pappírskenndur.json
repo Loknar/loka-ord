@@ -1,0 +1,43 @@
+{
+	"orð": "pappírskenndur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "pappírs",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-pappír-kk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kenndur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["pappírskenndur", "pappírskenndan", "pappírskenndum", "pappírskennds"],
+				"kvk": ["pappírskennd", "pappírskennda", "pappírskenndri", "pappírskenndrar"],
+				"hk": ["pappírskennt", "pappírskennt", "pappírskenndu", "pappírskennds"]
+			},
+			"ft": {
+				"kk": ["pappírskenndir", "pappírskennda", "pappírskenndum", "pappírskenndra"],
+				"kvk": ["pappírskenndar", "pappírskenndar", "pappírskenndum", "pappírskenndra"],
+				"hk": ["pappírskennd", "pappírskennd", "pappírskenndum", "pappírskenndra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["pappírskenndi", "pappírskennda", "pappírskennda", "pappírskennda"],
+				"kvk": ["pappírskennda", "pappírskenndu", "pappírskenndu", "pappírskenndu"],
+				"hk": ["pappírskennda", "pappírskennda", "pappírskennda", "pappírskennda"]
+			},
+			"ft": {
+				"kk": ["pappírskenndu", "pappírskenndu", "pappírskenndu", "pappírskenndu"],
+				"kvk": ["pappírskenndu", "pappírskenndu", "pappírskenndu", "pappírskenndu"],
+				"hk": ["pappírskenndu", "pappírskenndu", "pappírskenndu", "pappírskenndu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-pappírskenndur",
+	"hash": "f002c0eb4d97bd4eebb586813b573b333c8358ef273dc83667c7674734e28fb2"
+}
