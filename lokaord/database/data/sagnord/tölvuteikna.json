@@ -1,0 +1,142 @@
+{
+	"orð": "tölvuteikna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tölvu",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-tölva-kvk"
+		},
+		{
+			"kennistrengur": "so-teikna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tölvuteikna",
+		"sagnbót": "tölvuteiknað",
+		"boðháttur": {
+			"stýfður": "tölvuteikna",
+			"et": "tölvuteiknaðu",
+			"ft": "tölvuteiknið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tölvuteikna", "tölvuteiknar", "tölvuteiknar"],
+					"ft": ["tölvuteiknum", "tölvuteiknið", "tölvuteikna"]
+				},
+				"þátíð": {
+					"et": ["tölvuteiknaði", "tölvuteiknaðir", "tölvuteiknaði"],
+					"ft": ["tölvuteiknuðum", "tölvuteiknuðuð", "tölvuteiknuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tölvuteikni", "tölvuteiknir", "tölvuteikni"],
+					"ft": ["tölvuteiknum", "tölvuteiknið", "tölvuteikni"]
+				},
+				"þátíð": {
+					"et": ["tölvuteiknaði", "tölvuteiknaðir", "tölvuteiknaði"],
+					"ft": ["tölvuteiknuðum", "tölvuteiknuðuð", "tölvuteiknuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tölvuteiknarðu",
+					"ft": "tölvuteikniði"
+				},
+				"þátíð": {
+					"et": "tölvuteiknaðirðu",
+					"ft": "tölvuteiknuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tölvuteiknirðu",
+					"ft": "tölvuteikniði"
+				},
+				"þátíð": {
+					"et": "tölvuteiknaðirðu",
+					"ft": "tölvuteiknuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "tölvuteiknast",
+		"sagnbót": "tölvuteiknast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tölvuteiknast", "tölvuteiknast", "tölvuteiknast"],
+					"ft": ["tölvuteiknumst", "tölvuteiknist", "tölvuteiknast"]
+				},
+				"þátíð": {
+					"et": ["tölvuteiknaðist", "tölvuteiknaðist", "tölvuteiknaðist"],
+					"ft": ["tölvuteiknuðumst", "tölvuteiknuðust", "tölvuteiknuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tölvuteiknist", "tölvuteiknist", "tölvuteiknist"],
+					"ft": ["tölvuteiknumst", "tölvuteiknist", "tölvuteiknist"]
+				},
+				"þátíð": {
+					"et": ["tölvuteiknaðist", "tölvuteiknaðist", "tölvuteiknaðist"],
+					"ft": ["tölvuteiknuðumst", "tölvuteiknuðust", "tölvuteiknuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tölvuteiknastu"
+				},
+				"þátíð": {
+					"et": "tölvuteiknaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tölvuteiknistu"
+				},
+				"þátíð": {
+					"et": "tölvuteiknaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tölvuteiknandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tölvuteiknaður", "tölvuteiknaðan", "tölvuteiknuðum", "tölvuteiknaðs"],
+					"kvk": ["tölvuteiknuð", "tölvuteiknaða", "tölvuteiknaðri", "tölvuteiknaðrar"],
+					"hk": ["tölvuteiknað", "tölvuteiknað", "tölvuteiknuðu", "tölvuteiknaðs"]
+				},
+				"ft": {
+					"kk": ["tölvuteiknaðir", "tölvuteiknaða", "tölvuteiknuðum", "tölvuteiknaðra"],
+					"kvk": ["tölvuteiknaðar", "tölvuteiknaðar", "tölvuteiknuðum", "tölvuteiknaðra"],
+					"hk": ["tölvuteiknuð", "tölvuteiknuð", "tölvuteiknuðum", "tölvuteiknaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["tölvuteiknaði", "tölvuteiknaða", "tölvuteiknaða", "tölvuteiknaða"],
+					"kvk": ["tölvuteiknaða", "tölvuteiknuðu", "tölvuteiknuðu", "tölvuteiknuðu"],
+					"hk": ["tölvuteiknaða", "tölvuteiknaða", "tölvuteiknaða", "tölvuteiknaða"]
+				},
+				"ft": {
+					"kk": ["tölvuteiknuðu", "tölvuteiknuðu", "tölvuteiknuðu", "tölvuteiknuðu"],
+					"kvk": ["tölvuteiknuðu", "tölvuteiknuðu", "tölvuteiknuðu", "tölvuteiknuðu"],
+					"hk": ["tölvuteiknuðu", "tölvuteiknuðu", "tölvuteiknuðu", "tölvuteiknuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tölvuteikna",
+	"hash": "7e9e166d482fae92c5af57967f3947edd0c68ec1f265901dca6b00080f63c7b9"
+}

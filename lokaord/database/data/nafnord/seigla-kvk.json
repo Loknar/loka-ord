@@ -2,10 +2,21 @@
 	"orð": "seigla",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "seigl",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-seigur"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["seigla", "seiglu", "seiglu", "seiglu"],
 		"mg": ["seiglan", "seigluna", "seiglunni", "seiglunnar"]
 	},
 	"kennistrengur": "no-seigla-kvk",
-	"hash": "a1b5437bfc70de1fb413fc388b88a2a99aaca4bed83dc8f612964d918fb31eab"
+	"hash": "88eea4a9a114b0dfb921d4b86ab0a6f8d3d67601d6b3b420303291080ee029a4"
 }
