@@ -2,7 +2,7 @@
 
 # Loka-Orð
 
-Frjálst gagnasafn yfir íslensk orð, beygingamyndir og samsetningu þeirra og fleira, undir frjálsu almenningseignarleyfi (e. general public licence).
+Frjálst gagnasafn yfir íslensk orð, beygingamyndir og samsetningu þeirra og fleira, undir frjálsu útgáfuleyfi.
 
 Gagnasafnið telur eftirfarandi fjölda orða:
 
@@ -223,15 +223,19 @@ Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda
 
 **Til ykkar sem hafið hug á að leggja til orð í grunninn!**
 
-Mikilvægt er við framlag orða að ekki sé um afritun úr öðrum orðagrunnum að ræða er heyra undir útgáfuskilmála sem þykja ósamrýmanlegir almenningseignarleyfi þessa verkefnis.
+Mikilvægt er við framlag orða að ekki sé um afritun úr öðrum orðagrunnum að ræða sem heyra undir útgáfuskilmála sem eru ósamrýmanlegir útgáfuleyfi gagna þessa verkefnis.
 
-Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að gefa, þá er öruggast að orðin komi beint úr höfðum þeirra sem reiða þau fram.
+Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að leggja fram, þá er öruggast að orðin komi beint úr höfði þeirra sem reiða þau fram.
 
-Orð sem bætt er í grunninn heyra undir almenningseignarleyfi verkefnisins og verða því almenningseign.
+Orð sem skráð eru í grunninn heyra undir útgáfuleyfi gagnanna og verða þannig frjáls til afnota fyrir almenning, að uppfylltum skilmálum útgáfuleyfis gagnanna.
 
 ## Viðhaldari (Maintainer)
 
-Hæ, og takk ef þú last svona langt. Ég hef lagt grunn að **lokaorð** orðagrunninum og gef hann hér út undir LGPLv3 leyfi. Leyfið vel ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En samhliða óska ég þess að hverjar þær breytingar á virkni, gögnum eða gagnastrúktúr orðagrunnsins séu gefnar út undir sama LGPLv3 leyfi, svo að viðbætur eða breytingar eins notanda geti gagnast öðrum notendum sem grunninn nota.
+Hæ, og takk ef þú last svona langt.
+
+Ég hef lagt grunn að **lokaorð** orðagrunninum og gef hér út hugbúnað undir LGPLv3-leyfi (sjá `LICENSE`) og gögnin í `lokaord/database/data` og `lokaord/database/disk` undir ODbL-leyfi (sjá `lokaord/database/data/LICENSE-DATA`).
+
+Leyfin vel ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En jafnframt vil ég að breytingar og viðbætur á grunninum séu áfram frjálsar, svo að viðbætur eða breytingar eins notanda geti gagnast öðrum notendum sem grunninn nota.
 
 Orðið er frjálst.
 
