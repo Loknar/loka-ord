@@ -3,10 +3,18 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"leiðir": "Whats",
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-app-hk"
+		}
+	],
 	"et": {
-		"ág": ["WhatsApp", "WhatsApp", "WhatsApp", "WhatsApp"]
+		"ág": ["WhatsApp", "WhatsApp", "WhatsAppi", "WhatsApps"]
 	},
 	"erlent": true,
 	"kennistrengur": "sérn.ön-WhatsApp-hk",
-	"hash": "ed22bc4ac3f847cf5aed7ca976ed6a675fe3eb7ff007de36ffb819ab783f3ea8"
+	"hash": "60f428a19b4e2a36c9fe383803b80c10215105869b8722bca577b1e544036fd0"
 }
