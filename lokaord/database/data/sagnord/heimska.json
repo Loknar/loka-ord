@@ -1,0 +1,135 @@
+{
+	"orð": "heimska",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "heimsk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-heimska-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "heimska",
+		"sagnbót": "heimskað",
+		"boðháttur": {
+			"stýfður": "heimska",
+			"et": "heimskaðu",
+			"ft": "heimskið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heimska", "heimskar", "heimskar"],
+					"ft": ["heimskum", "heimskið", "heimska"]
+				},
+				"þátíð": {
+					"et": ["heimskaði", "heimskaðir", "heimskaði"],
+					"ft": ["heimskuðum", "heimskuðuð", "heimskuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heimski", "heimskir", "heimski"],
+					"ft": ["heimskum", "heimskið", "heimski"]
+				},
+				"þátíð": {
+					"et": ["heimskaði", "heimskaðir", "heimskaði"],
+					"ft": ["heimskuðum", "heimskuðuð", "heimskuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heimskarðu",
+					"ft": "heimskiði"
+				},
+				"þátíð": {
+					"et": "heimskaðirðu",
+					"ft": "heimskuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heimskirðu",
+					"ft": "heimskiði"
+				},
+				"þátíð": {
+					"et": "heimskaðirðu",
+					"ft": "heimskuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "heimskast",
+		"sagnbót": "heimskast",
+		"boðháttur": {
+			"et": "heimskastu",
+			"ft": "heimskist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["heimskast", "heimskast", "heimskast"],
+					"ft": ["heimskumst", "heimskist", "heimskast"]
+				},
+				"þátíð": {
+					"et": ["heimskaðist", "heimskaðist", "heimskaðist"],
+					"ft": ["heimskuðumst", "heimskuðust", "heimskuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["heimskist", "heimskist", "heimskist"],
+					"ft": ["heimskumst", "heimskist", "heimskist"]
+				},
+				"þátíð": {
+					"et": ["heimskaðist", "heimskaðist", "heimskaðist"],
+					"ft": ["heimskuðumst", "heimskuðust", "heimskuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "heimskastu"
+				},
+				"þátíð": {
+					"et": "heimskaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "heimskistu"
+				},
+				"þátíð": {
+					"et": "heimskaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "heimskandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["heimskaður", "heimskaðan", "heimskuðum", "heimskaðs"],
+					"kvk": ["heimskuð", "heimskaða", "heimskaðri", "heimskaðrar"],
+					"hk": ["heimskað", "heimskað", "heimskuðu", "heimskaðs"]
+				},
+				"ft": {
+					"kk": ["heimskaðir", "heimskaða", "heimskuðum", "heimskaðra"],
+					"kvk": ["heimskaðar", "heimskaðar", "heimskuðum", "heimskaðra"],
+					"hk": ["heimskuð", "heimskuð", "heimskuðum", "heimskaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-heimska",
+	"hash": "08662a198929bd5fbe7d9f387fb636f3ba0fa7a2a22ed2b334c29f5861e855e5"
+}

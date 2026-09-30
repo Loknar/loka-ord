@@ -1,0 +1,77 @@
+{
+	"orð": "hálfliggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hálf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hálfur"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-liggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hálfliggja",
+		"sagnbót": "hálflegið",
+		"boðháttur": {
+			"stýfður": "hálfligg",
+			"et": "hálfliggðu",
+			"ft": "hálfliggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hálfligg", "hálfliggur", "hálfliggur"],
+					"ft": ["hálfliggjum", "hálfliggið", "hálfliggja"]
+				},
+				"þátíð": {
+					"et": ["hálflá", "hálflást", "hálflát"],
+					"ft": ["hálfláum", "hálfláuð", "hálfláu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hálfliggi", "hálfliggir", "hálfliggi"],
+					"ft": ["hálfliggjum", "hálfliggið", "hálfliggi"]
+				},
+				"þátíð": {
+					"et": ["hálflægi", "hálflægir", "hálflægi"],
+					"ft": ["hálflægjum", "hálflægjuð", "hálflægju"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hálfliggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hálfleginn", "hálfleginn", "hálflegnum", "hálflegins"],
+					"kvk": ["hálflegin", "hálflegna", "hálfleginni", "hálfleginnar"],
+					"hk": ["hálflegið", "hálflegið", "hálflegnu", "hálflegins"]
+				},
+				"ft": {
+					"kk": ["hálflegnir", "hálflegna", "hálflegnum", "hálfleginna"],
+					"kvk": ["hálflegnar", "hálflegnar", "hálflegnum", "hálfleginna"],
+					"hk": ["hálflegin", "hálflegin", "hálflegnum", "hálfleginna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hálflegni", "hálflegna", "hálflegna", "hálflegna"],
+					"kvk": ["hálflegna", "hálflegnu", "hálflegnu", "hálflegnu"],
+					"hk": ["hálflegna", "hálflegna", "hálflegna", "hálflegna"]
+				},
+				"ft": {
+					"kk": ["hálflegnu", "hálflegnu", "hálflegnu", "hálflegnu"],
+					"kvk": ["hálflegnu", "hálflegnu", "hálflegnu", "hálflegnu"],
+					"hk": ["hálflegnu", "hálflegnu", "hálflegnu", "hálflegnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hálfliggja",
+	"hash": "d718195db94ebfead355f3376a7bdf989e200ccbb5d33a00849bc528f6d7e1e5"
+}

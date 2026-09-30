@@ -4,23 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "hús",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"mynd": "dýra",
+			"mynd": "húsdýra",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-dýr-hk"
+			"kennistrengur": "no-húsdýr-hk"
 		},
 		{
-			"mynd": "úr",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-úr"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-gangur-kk"
+			"kennistrengur": "no-úrgangur-kk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["húsdýraúrgangurinn", "húsdýraúrganginn", "húsdýraúrganginum", "húsdýraúrgangsins"]
 	},
 	"kennistrengur": "no-húsdýraúrgangur-kk",
-	"hash": "a3c18664ebceb9be86eda4dc9bcf9a05a4ed149598448251f2f8a16e7138c589"
+	"hash": "6361a7c24d6fe1fc605a3644abb59782b28077ec76fcd592610957fe70911376"
 }

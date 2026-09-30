@@ -4,9 +4,14 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "veðurspá",
+			"mynd": "veður",
 			"samsetning": "stofn",
-			"kennistrengur": "no-veðurspá-kvk"
+			"kennistrengur": "no-veður-hk"
+		},
+		{
+			"mynd": "spá",
+			"samsetning": "stofn",
+			"kennistrengur": "no-spá-kvk"
 		},
 		{
 			"kennistrengur": "no-maður-kk"
@@ -21,5 +26,5 @@
 		"mg": ["veðurspámennirnir", "veðurspámennina", "veðurspámönnunum", "veðurspámannanna"]
 	},
 	"kennistrengur": "no-veðurspámaður-kk",
-	"hash": "04d19831e9464a35956014a22c5ef98311ea30e522d13ee4cc3ce92f1723c529"
+	"hash": "53c86b38d611bda530ccf8e3e67732cf05b9d8715a66cf0d278532fb9f812f85"
 }

@@ -8,7 +8,7 @@
 			"kennistrengur": "no-dóp-hk"
 		},
 		{
-			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"beygingar": ["germynd", "lýsingarháttur"],
 			"kennistrengur": "so-a-ó"
 		}
 	],
@@ -66,8 +66,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "dópandi"
+		"nútíðar": "dópandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dópaður", "dópaðan", "dópuðum", "dópaðs"],
+					"kvk": ["dópuð", "dópaða", "dópaðri", "dópaðrar"],
+					"hk": ["dópað", "dópað", "dópuðu", "dópaðs"]
+				},
+				"ft": {
+					"kk": ["dópaðir", "dópaða", "dópuðum", "dópaðra"],
+					"kvk": ["dópaðar", "dópaðar", "dópuðum", "dópaðra"],
+					"hk": ["dópuð", "dópuð", "dópuðum", "dópaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["dópaði", "dópaða", "dópaða", "dópaða"],
+					"kvk": ["dópaða", "dópuðu", "dópuðu", "dópuðu"],
+					"hk": ["dópaða", "dópaða", "dópaða", "dópaða"]
+				},
+				"ft": {
+					"kk": ["dópuðu", "dópuðu", "dópuðu", "dópuðu"],
+					"kvk": ["dópuðu", "dópuðu", "dópuðu", "dópuðu"],
+					"hk": ["dópuðu", "dópuðu", "dópuðu", "dópuðu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-dópa",
-	"hash": "438a7774e79d7e4200ed584907d90d3cfd040e4ac3ab87c288381067fef7339e"
+	"hash": "83e83ac1ac414ca723d1e73770a63697dda97005367a8f4afdfd84619bb5c661"
 }

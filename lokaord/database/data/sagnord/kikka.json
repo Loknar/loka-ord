@@ -1,0 +1,87 @@
+{
+	"orð": "kikka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kikk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kikk-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kikka",
+		"sagnbót": "kikkað",
+		"boðháttur": {
+			"stýfður": "kikka",
+			"et": "kikkaðu",
+			"ft": "kikkið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kikka", "kikkar", "kikkar"],
+					"ft": ["kikkum", "kikkið", "kikka"]
+				},
+				"þátíð": {
+					"et": ["kikkaði", "kikkaðir", "kikkaði"],
+					"ft": ["kikkuðum", "kikkuðuð", "kikkuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kikki", "kikkir", "kikki"],
+					"ft": ["kikkum", "kikkið", "kikki"]
+				},
+				"þátíð": {
+					"et": ["kikkaði", "kikkaðir", "kikkaði"],
+					"ft": ["kikkuðum", "kikkuðuð", "kikkuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kikkarðu",
+					"ft": "kikkiði"
+				},
+				"þátíð": {
+					"et": "kikkaðirðu",
+					"ft": "kikkuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kikkirðu",
+					"ft": "kikkiði"
+				},
+				"þátíð": {
+					"et": "kikkaðirðu",
+					"ft": "kikkuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kikkandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kikkaður", "kikkaðan", "kikkuðum", "kikkaðs"],
+					"kvk": ["kikkuð", "kikkaða", "kikkaðri", "kikkaðrar"],
+					"hk": ["kikkað", "kikkað", "kikkuðu", "kikkaðs"]
+				},
+				"ft": {
+					"kk": ["kikkaðir", "kikkaða", "kikkuðum", "kikkaðra"],
+					"kvk": ["kikkaðar", "kikkaðar", "kikkuðum", "kikkaðra"],
+					"hk": ["kikkuð", "kikkuð", "kikkuðum", "kikkaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kikka",
+	"hash": "9345690ae85319174438cc99663d935d4128bb691dd8692edf7ba8eca0766b7f"
+}

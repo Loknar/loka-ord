@@ -2,6 +2,16 @@
 	"orð": "brigði",
 	"flokkur": "nafnorð",
 	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "brigð",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-brigður"
+		},
+		{
+			"kennistrengur": "no-i-hk-ó"
+		}
+	],
 	"et": {
 		"ág": ["brigði", "brigði", "brigði", "brigðis"],
 		"mg": ["brigðið", "brigðið", "brigðinu", "brigðisins"]
@@ -11,5 +21,5 @@
 		"mg": ["brigðin", "brigðin", "brigðunum", "brigðanna"]
 	},
 	"kennistrengur": "no-brigði-hk",
-	"hash": "0cad763b885f8e990cdc090e7fb46bd08a319911b2ef2bd8f206991ee8c3ac48"
+	"hash": "a2e46a0e2eb22d04a256e1da71cc3fdcd7d86b7e9c36b6fb0782c6c6c0c630cb"
 }

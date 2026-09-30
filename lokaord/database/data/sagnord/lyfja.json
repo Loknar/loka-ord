@@ -1,0 +1,95 @@
+{
+	"orð": "lyfja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lyfj",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-lyf-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lyfja",
+		"sagnbót": "lyfjað",
+		"boðháttur": {
+			"stýfður": "lyfja",
+			"et": "lyfjaðu",
+			"ft": "lyfjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lyfja", "lyfjar", "lyfjar"],
+					"ft": ["lyfjum", "lyfjið", "lyfja"]
+				},
+				"þátíð": {
+					"et": ["lyfjaði", "lyfjaðir", "lyfjaði"],
+					"ft": ["lyfjuðum", "lyfjuðuð", "lyfjuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lyfji", "lyfjir", "lyfji"],
+					"ft": ["lyfjum", "lyfjið", "lyfji"]
+				},
+				"þátíð": {
+					"et": ["lyfjaði", "lyfjaðir", "lyfjaði"],
+					"ft": ["lyfjuðum", "lyfjuðuð", "lyfjuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lyfjast",
+		"sagnbót": "lyfjast",
+		"boðháttur": {
+			"et": "lyfjastu",
+			"ft": "lyfjist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lyfjast", "lyfjast", "lyfjast"],
+					"ft": ["lyfjumst", "lyfjist", "lyfjast"]
+				},
+				"þátíð": {
+					"et": ["lyfjaðist", "lyfjaðist", "lyfjaðist"],
+					"ft": ["lyfjuðumst", "lyfjuðust", "lyfjuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lyfjist", "lyfjist", "lyfjist"],
+					"ft": ["lyfjumst", "lyfjist", "lyfjist"]
+				},
+				"þátíð": {
+					"et": ["lyfjaðist", "lyfjaðist", "lyfjaðist"],
+					"ft": ["lyfjuðumst", "lyfjuðust", "lyfjuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lyfjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lyfjaður", "lyfjaðan", "lyfjuðum", "lyfjaðs"],
+					"kvk": ["lyfjuð", "lyfjaða", "lyfjaðri", "lyfjaðrar"],
+					"hk": ["lyfjað", "lyfjað", "lyfjuðu", "lyfjaðs"]
+				},
+				"ft": {
+					"kk": ["lyfjaðir", "lyfjaða", "lyfjuðum", "lyfjaðra"],
+					"kvk": ["lyfjaðar", "lyfjaðar", "lyfjuðum", "lyfjaðra"],
+					"hk": ["lyfjuð", "lyfjuð", "lyfjuðum", "lyfjaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lyfja",
+	"hash": "42013ba6fe6ab1aec5e3a8c34b95d8dfe7ce873681f2d3900801b2f937443caf"
+}
