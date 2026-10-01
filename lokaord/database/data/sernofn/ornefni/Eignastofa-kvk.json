@@ -1,0 +1,22 @@
+{
+	"orð": "Eignastofa",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Eigna",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-eign-kvk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-stofa-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Eignastofa", "Eignastofu", "Eignastofu", "Eignastofu"]
+	},
+	"kennistrengur": "sérn.ön-Eignastofa-kvk",
+	"hash": "acae4af2d9cc4095472cf4c0b1ce971aecbf1a1cce46bea844fe143edead891e"
+}

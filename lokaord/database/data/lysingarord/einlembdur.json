@@ -1,0 +1,48 @@
+{
+	"orð": "einlembdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "ein",
+			"samsetning": "stofn",
+			"kennistrengur": "to.ft-einn"
+		},
+		{
+			"mynd": "lemb",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lamb-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-dur-ó"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["einlembdur", "einlembdan", "einlembdum", "einlembds"],
+				"kvk": ["einlembd", "einlembda", "einlembdri", "einlembdrar"],
+				"hk": ["einlembt", "einlembt", "einlembdu", "einlembds"]
+			},
+			"ft": {
+				"kk": ["einlembdir", "einlembda", "einlembdum", "einlembdra"],
+				"kvk": ["einlembdar", "einlembdar", "einlembdum", "einlembdra"],
+				"hk": ["einlembd", "einlembd", "einlembdum", "einlembdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["einlembdi", "einlembda", "einlembda", "einlembda"],
+				"kvk": ["einlembda", "einlembdu", "einlembdu", "einlembdu"],
+				"hk": ["einlembda", "einlembda", "einlembda", "einlembda"]
+			},
+			"ft": {
+				"kk": ["einlembdu", "einlembdu", "einlembdu", "einlembdu"],
+				"kvk": ["einlembdu", "einlembdu", "einlembdu", "einlembdu"],
+				"hk": ["einlembdu", "einlembdu", "einlembdu", "einlembdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-einlembdur",
+	"hash": "49acf9580b502a80efdc75961e80736c2568c6377a351e0d6fd181584a6665e2"
+}

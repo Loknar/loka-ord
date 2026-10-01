@@ -1,0 +1,99 @@
+{
+	"orð": "hliðarsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hliðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hlið-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hliðarsetja",
+		"sagnbót": "hliðarsett",
+		"boðháttur": {
+			"stýfður": "hliðarset",
+			"et": "hliðarsettu",
+			"ft": "hliðarsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hliðarset", "hliðarsetur", "hliðarsetur"],
+					"ft": ["hliðarsetjum", "hliðarsetjið", "hliðarsetja"]
+				},
+				"þátíð": {
+					"et": ["hliðarsetti", "hliðarsettir", "hliðarsetti"],
+					"ft": ["hliðarsettum", "hliðarsettuð", "hliðarsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hliðarsetji", "hliðarsetjir", "hliðarsetji"],
+					"ft": ["hliðarsetjum", "hliðarsetjið", "hliðarsetji"]
+				},
+				"þátíð": {
+					"et": ["hliðarsetti", "hliðarsettir", "hliðarsetti"],
+					"ft": ["hliðarsettum", "hliðarsettuð", "hliðarsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hliðarseturðu",
+					"ft": "hliðarsetjiði"
+				},
+				"þátíð": {
+					"et": "hliðarsettirðu",
+					"ft": "hliðarsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hliðarsetjirðu",
+					"ft": "hliðarsetjiði"
+				},
+				"þátíð": {
+					"et": "hliðarsettirðu",
+					"ft": "hliðarsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hliðarsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hliðarsettur", "hliðarsettan", "hliðarsettum", "hliðarsetts"],
+					"kvk": ["hliðarsett", "hliðarsetta", "hliðarsettri", "hliðarsettrar"],
+					"hk": ["hliðarsett", "hliðarsett", "hliðarsettu", "hliðarsetts"]
+				},
+				"ft": {
+					"kk": ["hliðarsettir", "hliðarsetta", "hliðarsettum", "hliðarsettra"],
+					"kvk": ["hliðarsettar", "hliðarsettar", "hliðarsettum", "hliðarsettra"],
+					"hk": ["hliðarsett", "hliðarsett", "hliðarsettum", "hliðarsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hliðarsetti", "hliðarsetta", "hliðarsetta", "hliðarsetta"],
+					"kvk": ["hliðarsetta", "hliðarsettu", "hliðarsettu", "hliðarsettu"],
+					"hk": ["hliðarsetta", "hliðarsetta", "hliðarsetta", "hliðarsetta"]
+				},
+				"ft": {
+					"kk": ["hliðarsettu", "hliðarsettu", "hliðarsettu", "hliðarsettu"],
+					"kvk": ["hliðarsettu", "hliðarsettu", "hliðarsettu", "hliðarsettu"],
+					"hk": ["hliðarsettu", "hliðarsettu", "hliðarsettu", "hliðarsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hliðarsetja",
+	"hash": "4a7dec4a629637f3491ae36840a32105efadeaa34f3c1d9aca6520e74af8cec8"
+}
