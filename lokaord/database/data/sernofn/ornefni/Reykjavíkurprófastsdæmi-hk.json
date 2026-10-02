@@ -1,6 +1,7 @@
 {
 	"orð": "Reykjavíkurprófastsdæmi",
-	"flokkur": "nafnorð",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
 	"kyn": "hk",
 	"samsett": [
 		{
@@ -9,6 +10,7 @@
 			"kennistrengur": "sérn.ön-Reykjavík-kvk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-prófastsdæmi-hk"
 		}
 	],
@@ -16,10 +18,6 @@
 		"ág": ["Reykjavíkurprófastsdæmi", "Reykjavíkurprófastsdæmi", "Reykjavíkurprófastsdæmi", "Reykjavíkurprófastsdæmis"],
 		"mg": ["Reykjavíkurprófastsdæmið", "Reykjavíkurprófastsdæmið", "Reykjavíkurprófastsdæminu", "Reykjavíkurprófastsdæmisins"]
 	},
-	"ft": {
-		"ág": ["Reykjavíkurprófastsdæmi", "Reykjavíkurprófastsdæmi", "Reykjavíkurprófastsdæmum", "Reykjavíkurprófastsdæma"],
-		"mg": ["Reykjavíkurprófastsdæmin", "Reykjavíkurprófastsdæmin", "Reykjavíkurprófastsdæmunum", "Reykjavíkurprófastsdæmanna"]
-	},
-	"kennistrengur": "no-Reykjavíkurprófastsdæmi-hk",
-	"hash": "cfaeef55fed8759daae10871df7bb778ad595d87f23d5535b3e25c7bc113e3b2"
+	"kennistrengur": "sérn.ön-Reykjavíkurprófastsdæmi-hk",
+	"hash": "d7221450604d0bd26c6606f6a9f9a66e7eb9a920cd49bfb109af3cf7ca0d90bf"
 }
