@@ -4,6 +4,8 @@ from enum import Enum
 import json
 import os
 import pathlib
+import urllib.request
+import zipfile
 
 import git
 import typer
@@ -102,6 +104,23 @@ def use_backup(name: str = None, filename: str = None):
 		logman.info(f'Default backup filename "{filename}".')
 	else:
 		logman.info(f'Backup filename "{filename}.')
+	# check if db file is present
+	current_file_directory = os.path.dirname(os.path.realpath(__file__))
+	data_directory = os.path.join(current_file_directory, 'database', 'disk', name)
+	sqlite_db_file = os.path.join(data_directory, f'{filename}.sqlite')
+	if not os.path.exists(sqlite_db_file):
+		# if db file is not present, then fetch it if possible and unzip it
+		if 'src' in backup_handling['handling'][filename]:
+			logman.info(f'Fetching backup release "{filename} ..')
+			dl_zip_file = os.path.join(data_directory, f'{filename}.zip')
+			urllib.request.urlretrieve(backup_handling['handling'][filename]['src'], dl_zip_file)
+			zip = zipfile.ZipFile(dl_zip_file, 'r')
+			zip.extractall(data_directory)
+			if not os.path.exists(sqlite_db_file):
+				raise Exception('Downloaded and extracted zip but file missing?')
+			logman.info(f'Backup release "{filename} fetched.')
+		else:
+			raise Exception('Missing "src" for fetching file.')
 	logman.info(f'Using backup in "{name}", filename "{filename}.sqlite".')
 	db.use_backup_sqlite_db_file(name, filename)
 	db.init(Name)

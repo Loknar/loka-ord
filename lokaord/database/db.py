@@ -63,7 +63,7 @@ def use_backup_sqlite_db_file(folder_name: str, filename: str, use_force: bool =
 		raise Exception('Bad name provided!')
 	if '.' in filename:
 		raise Exception('Bad name provided!')
-	filename_sqlite = '%s.sqlite' % (filename, )
+	filename_sqlite = f'{filename}.sqlite'
 	current_file_directory = os.path.dirname(os.path.realpath(__file__))
 	data_directory = os.path.join(current_file_directory, 'disk', folder_name)
 	sqlite_db_file = os.path.join(data_directory, 'db.sqlite')
