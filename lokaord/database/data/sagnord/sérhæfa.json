@@ -87,6 +87,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "sérhæfast",
+		"sagnbót": "sérhæfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérhæfist", "sérhæfist", "sérhæfist"],
+					"ft": ["sérhæfumst", "sérhæfist", "sérhæfast"]
+				},
+				"þátíð": {
+					"et": ["sérhæfðist", "sérhæfðist", "sérhæfðist"],
+					"ft": ["sérhæfðumst", "sérhæfðust", "sérhæfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérhæfist", "sérhæfist", "sérhæfist"],
+					"ft": ["sérhæfumst", "sérhæfist", "sérhæfist"]
+				},
+				"þátíð": {
+					"et": ["sérhæfðist", "sérhæfðist", "sérhæfðist"],
+					"ft": ["sérhæfðumst", "sérhæfðust", "sérhæfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérhæfistu"
+				},
+				"þátíð": {
+					"et": "sérhæfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérhæfistu"
+				},
+				"þátíð": {
+					"et": "sérhæfðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "sérhæfandi",
 		"þátíðar": {
@@ -117,5 +161,5 @@
 		}
 	},
 	"kennistrengur": "so-sérhæfa",
-	"hash": "3680ab8426f8a1416697ca8b776848e9bc8545f262209485367da285e7e92905"
+	"hash": "61d0f0615f6be0034ad6d86868097e6d5b7ae8d73cb7baef87f984f918f85e2b"
 }

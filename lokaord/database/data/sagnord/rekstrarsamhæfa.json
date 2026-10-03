@@ -87,6 +87,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "rekstrarsamhæfast",
+		"sagnbót": "rekstrarsamhæfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rekstrarsamhæfist", "rekstrarsamhæfist", "rekstrarsamhæfist"],
+					"ft": ["rekstrarsamhæfumst", "rekstrarsamhæfist", "rekstrarsamhæfast"]
+				},
+				"þátíð": {
+					"et": ["rekstrarsamhæfðist", "rekstrarsamhæfðist", "rekstrarsamhæfðist"],
+					"ft": ["rekstrarsamhæfðumst", "rekstrarsamhæfðust", "rekstrarsamhæfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rekstrarsamhæfist", "rekstrarsamhæfist", "rekstrarsamhæfist"],
+					"ft": ["rekstrarsamhæfumst", "rekstrarsamhæfist", "rekstrarsamhæfist"]
+				},
+				"þátíð": {
+					"et": ["rekstrarsamhæfðist", "rekstrarsamhæfðist", "rekstrarsamhæfðist"],
+					"ft": ["rekstrarsamhæfðumst", "rekstrarsamhæfðust", "rekstrarsamhæfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rekstrarsamhæfistu"
+				},
+				"þátíð": {
+					"et": "rekstrarsamhæfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rekstrarsamhæfistu"
+				},
+				"þátíð": {
+					"et": "rekstrarsamhæfðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "rekstrarsamhæfandi",
 		"þátíðar": {
@@ -117,5 +161,5 @@
 		}
 	},
 	"kennistrengur": "so-rekstrarsamhæfa",
-	"hash": "4dfd6ba52b2016c4650156e9eca95d2bef84152970328fbcdbe2eb5a5b0e9ea0"
+	"hash": "bb56ab89ae6b75231d5f2c33e15240aadd02a0663b9c2b0609b77567946b7164"
 }

@@ -1,0 +1,135 @@
+{
+	"orð": "jóðla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "jóðl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-jóðl-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "jóðla",
+		"sagnbót": "jóðlað",
+		"boðháttur": {
+			"stýfður": "jóðla",
+			"et": "jóðlaðu",
+			"ft": "jóðlið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jóðla", "jóðlar", "jóðlar"],
+					"ft": ["jóðlum", "jóðlið", "jóðla"]
+				},
+				"þátíð": {
+					"et": ["jóðlaði", "jóðlaðir", "jóðlaði"],
+					"ft": ["jóðluðum", "jóðluðuð", "jóðluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jóðli", "jóðlir", "jóðli"],
+					"ft": ["jóðlum", "jóðlið", "jóðli"]
+				},
+				"þátíð": {
+					"et": ["jóðlaði", "jóðlaðir", "jóðlaði"],
+					"ft": ["jóðluðum", "jóðluðuð", "jóðluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "jóðlarðu",
+					"ft": "jóðliði"
+				},
+				"þátíð": {
+					"et": "jóðlaðirðu",
+					"ft": "jóðluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "jóðlirðu",
+					"ft": "jóðliði"
+				},
+				"þátíð": {
+					"et": "jóðlaðirðu",
+					"ft": "jóðluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "jóðlast",
+		"sagnbót": "jóðlast",
+		"boðháttur": {
+			"et": "jóðlastu",
+			"ft": "jóðlist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["jóðlast", "jóðlast", "jóðlast"],
+					"ft": ["jóðlumst", "jóðlist", "jóðlast"]
+				},
+				"þátíð": {
+					"et": ["jóðlaðist", "jóðlaðist", "jóðlaðist"],
+					"ft": ["jóðluðumst", "jóðluðust", "jóðluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["jóðlist", "jóðlist", "jóðlist"],
+					"ft": ["jóðlumst", "jóðlist", "jóðlist"]
+				},
+				"þátíð": {
+					"et": ["jóðlaðist", "jóðlaðist", "jóðlaðist"],
+					"ft": ["jóðluðumst", "jóðluðust", "jóðluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "jóðlastu"
+				},
+				"þátíð": {
+					"et": "jóðlaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "jóðlistu"
+				},
+				"þátíð": {
+					"et": "jóðlaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "jóðlandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["jóðlaður", "jóðlaðan", "jóðluðum", "jóðlaðs"],
+					"kvk": ["jóðluð", "jóðlaða", "jóðlaðri", "jóðlaðrar"],
+					"hk": ["jóðlað", "jóðlað", "jóðluðu", "jóðlaðs"]
+				},
+				"ft": {
+					"kk": ["jóðlaðir", "jóðlaða", "jóðluðum", "jóðlaðra"],
+					"kvk": ["jóðlaðar", "jóðlaðar", "jóðluðum", "jóðlaðra"],
+					"hk": ["jóðluð", "jóðluð", "jóðluðum", "jóðlaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-jóðla",
+	"hash": "12e46bd80502f5e58bbd518c2c01737ee4f91cbd198d948a4fcd9d645874069d"
+}

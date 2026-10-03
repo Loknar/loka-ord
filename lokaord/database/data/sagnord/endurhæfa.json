@@ -87,6 +87,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "endurhæfast",
+		"sagnbót": "endurhæfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurhæfist", "endurhæfist", "endurhæfist"],
+					"ft": ["endurhæfumst", "endurhæfist", "endurhæfast"]
+				},
+				"þátíð": {
+					"et": ["endurhæfðist", "endurhæfðist", "endurhæfðist"],
+					"ft": ["endurhæfðumst", "endurhæfðust", "endurhæfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurhæfist", "endurhæfist", "endurhæfist"],
+					"ft": ["endurhæfumst", "endurhæfist", "endurhæfist"]
+				},
+				"þátíð": {
+					"et": ["endurhæfðist", "endurhæfðist", "endurhæfðist"],
+					"ft": ["endurhæfðumst", "endurhæfðust", "endurhæfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurhæfistu"
+				},
+				"þátíð": {
+					"et": "endurhæfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurhæfistu"
+				},
+				"þátíð": {
+					"et": "endurhæfðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "endurhæfandi",
 		"þátíðar": {
@@ -117,5 +161,5 @@
 		}
 	},
 	"kennistrengur": "so-endurhæfa",
-	"hash": "95d287c1640ee6214a7cc3221ecd0d1be9b5f178930042d1169e1f49a27e6807"
+	"hash": "5eae8c1350209fe0d0d18b4502e42ec0dffb982b87f9b6a770a850e10b4334c9"
 }

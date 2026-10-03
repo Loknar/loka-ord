@@ -1,0 +1,87 @@
+{
+	"orð": "endurrýna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "endur",
+			"samsetning": "stofn",
+			"kennistrengur": "no-endur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-rýna"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "endurrýna",
+		"sagnbót": "endurrýnt",
+		"boðháttur": {
+			"stýfður": "endurrýn",
+			"et": "endurrýndu",
+			"ft": "endurrýnt"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["endurrýni", "endurrýnir", "endurrýnir"],
+					"ft": ["endurrýnum", "endurrýnið", "endurrýna"]
+				},
+				"þátíð": {
+					"et": ["endurrýndi", "endurrýndir", "endurrýndi"],
+					"ft": ["endurrýndum", "endurrýnduð", "endurrýndu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["endurrýni", "endurrýnir", "endurrýni"],
+					"ft": ["endurrýnum", "endurrýnið", "endurrýni"]
+				},
+				"þátíð": {
+					"et": ["endurrýndi", "endurrýndir", "endurrýndi"],
+					"ft": ["endurrýndum", "endurrýnduð", "endurrýndu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "endurrýnirðu",
+					"ft": "endurrýniði"
+				},
+				"þátíð": {
+					"et": "endurrýndirðu",
+					"ft": "endurrýnduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "endurrýnirðu",
+					"ft": "endurrýniði"
+				},
+				"þátíð": {
+					"et": "endurrýndirðu",
+					"ft": "endurrýnduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "endurrýnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["endurrýndur", "endurrýndan", "endurrýndum", "endurrýnds"],
+					"kvk": ["endurrýnd", "endurrýnda", "endurrýndri", "endurrýndrar"],
+					"hk": ["endurrýnt", "endurrýnt", "endurrýndu", "endurrýnds"]
+				},
+				"ft": {
+					"kk": ["endurrýndir", "endurrýnda", "endurrýndum", "endurrýndra"],
+					"kvk": ["endurrýndar", "endurrýndar", "endurrýndum", "endurrýndra"],
+					"hk": ["endurrýnd", "endurrýnd", "endurrýndum", "endurrýndra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-endurrýna",
+	"hash": "bd97c288c444d5a3a5ef5ff62a7734561acc646c4257dc68eb47e96694c173de"
+}

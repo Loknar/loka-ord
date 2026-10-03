@@ -87,6 +87,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "samhæfast",
+		"sagnbót": "samhæfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["samhæfist", "samhæfist", "samhæfist"],
+					"ft": ["samhæfumst", "samhæfist", "samhæfast"]
+				},
+				"þátíð": {
+					"et": ["samhæfðist", "samhæfðist", "samhæfðist"],
+					"ft": ["samhæfðumst", "samhæfðust", "samhæfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["samhæfist", "samhæfist", "samhæfist"],
+					"ft": ["samhæfumst", "samhæfist", "samhæfist"]
+				},
+				"þátíð": {
+					"et": ["samhæfðist", "samhæfðist", "samhæfðist"],
+					"ft": ["samhæfðumst", "samhæfðust", "samhæfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "samhæfistu"
+				},
+				"þátíð": {
+					"et": "samhæfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "samhæfistu"
+				},
+				"þátíð": {
+					"et": "samhæfðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "samhæfandi",
 		"þátíðar": {
@@ -117,5 +161,5 @@
 		}
 	},
 	"kennistrengur": "so-samhæfa",
-	"hash": "2b38c3d25dddabe2f14bc6cb00303e09f09f6c026d27b015fb299dd8291f70cc"
+	"hash": "510a6a9b6c57dae6aa65184f9c0cfea3784506f28032d9c4aab1570431d8132f"
 }

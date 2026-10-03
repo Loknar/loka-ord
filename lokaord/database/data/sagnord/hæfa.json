@@ -77,6 +77,50 @@
 			}
 		}
 	},
+	"miðmynd": {
+		"nafnháttur": "hæfast",
+		"sagnbót": "hæfst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hæfist", "hæfist", "hæfist"],
+					"ft": ["hæfumst", "hæfist", "hæfast"]
+				},
+				"þátíð": {
+					"et": ["hæfðist", "hæfðist", "hæfðist"],
+					"ft": ["hæfðumst", "hæfðust", "hæfðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hæfist", "hæfist", "hæfist"],
+					"ft": ["hæfumst", "hæfist", "hæfist"]
+				},
+				"þátíð": {
+					"et": ["hæfðist", "hæfðist", "hæfðist"],
+					"ft": ["hæfðumst", "hæfðust", "hæfðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hæfistu"
+				},
+				"þátíð": {
+					"et": "hæfðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hæfistu"
+				},
+				"þátíð": {
+					"et": "hæfðistu"
+				}
+			}
+		}
+	},
 	"lýsingarháttur": {
 		"nútíðar": "hæfandi",
 		"þátíðar": {
@@ -107,5 +151,5 @@
 		}
 	},
 	"kennistrengur": "so-hæfa",
-	"hash": "7e8ce0b8481bfe0918f7237c20cfb2861fcbef3d5fb4b031242f616d0db8165a"
+	"hash": "f8da1c8d979d4575c07b8f35176bd59fa931dcaf307f99e94101897a541cfe3d"
 }

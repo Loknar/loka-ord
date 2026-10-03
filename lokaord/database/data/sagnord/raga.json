@@ -1,0 +1,155 @@
+{
+	"orð": "raga",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "raga",
+		"sagnbót": "ragað",
+		"boðháttur": {
+			"stýfður": "raga",
+			"et": "ragaðu",
+			"ft": "ragið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["raga", "ragar", "ragar"],
+					"ft": ["sögum", "ragið", "raga"]
+				},
+				"þátíð": {
+					"et": ["ragaði", "ragaðir", "ragaði"],
+					"ft": ["söguðum", "söguðuð", "söguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ragi", "ragir", "ragi"],
+					"ft": ["sögum", "ragið", "ragi"]
+				},
+				"þátíð": {
+					"et": ["ragaði", "ragaðir", "ragaði"],
+					"ft": ["söguðum", "söguðuð", "söguðu"]
+				}
+			}
+		},
+		"ópersónuleg": {
+			"frumlag": "þolfałl",
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ragar", "ragar", "ragar"],
+					"ft": ["ragar", "ragar", "ragar"]
+				},
+				"þátíð": {
+					"et": ["ragaði", "ragaði", "ragaði"],
+					"ft": ["ragaði", "ragaði", "ragaði"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ragi", "ragi", "ragi"],
+					"ft": ["ragi", "ragi", "ragi"]
+				},
+				"þátíð": {
+					"et": ["ragaði", "ragaði", "ragaði"],
+					"ft": ["ragaði", "ragaði", "ragaði"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ragarðu",
+					"ft": "ragiði"
+				},
+				"þátíð": {
+					"et": "ragaðirðu",
+					"ft": "söguðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ragirðu",
+					"ft": "ragiði"
+				},
+				"þátíð": {
+					"et": "ragaðirðu",
+					"ft": "söguðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ragast",
+		"sagnbót": "ragast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ragast", "ragast", "ragast"],
+					"ft": ["sögumst", "ragist", "ragast"]
+				},
+				"þátíð": {
+					"et": ["ragaðist", "ragaðist", "ragaðist"],
+					"ft": ["söguðumst", "söguðust", "söguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ragist", "ragist", "ragist"],
+					"ft": ["sögumst", "ragist", "ragist"]
+				},
+				"þátíð": {
+					"et": ["ragaðist", "ragaðist", "ragaðist"],
+					"ft": ["söguðumst", "söguðust", "söguðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ragastu"
+				},
+				"þátíð": {
+					"et": "ragaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ragistu"
+				},
+				"þátíð": {
+					"et": "ragaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ragandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ragaður", "ragaðan", "söguðum", "ragaðs"],
+					"kvk": ["söguð", "ragaða", "ragaðri", "ragaðrar"],
+					"hk": ["ragað", "ragað", "söguðu", "ragaðs"]
+				},
+				"ft": {
+					"kk": ["ragaðir", "ragaða", "söguðum", "ragaðra"],
+					"kvk": ["ragaðar", "ragaðar", "söguðum", "ragaðra"],
+					"hk": ["söguð", "söguð", "söguðum", "ragaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ragaði", "ragaða", "ragaða", "ragaða"],
+					"kvk": ["ragaða", "söguðu", "söguðu", "söguðu"],
+					"hk": ["ragaða", "ragaða", "ragaða", "ragaða"]
+				},
+				"ft": {
+					"kk": ["söguðu", "söguðu", "söguðu", "söguðu"],
+					"kvk": ["söguðu", "söguðu", "söguðu", "söguðu"],
+					"hk": ["söguðu", "söguðu", "söguðu", "söguðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-raga",
+	"hash": "cb0dd3a6515338ad519268e1acf24707312b96598954eeaf6713cad53880c0ce"
+}
