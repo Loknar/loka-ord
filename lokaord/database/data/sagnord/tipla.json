@@ -1,0 +1,73 @@
+{
+	"orð": "tipla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "tipl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-tipl-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tipla",
+		"sagnbót": "tiplað",
+		"boðháttur": {
+			"stýfður": "tipla",
+			"et": "tiplaðu",
+			"ft": "tiplið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tipla", "tiplar", "tiplar"],
+					"ft": ["tiplum", "tiplið", "tipla"]
+				},
+				"þátíð": {
+					"et": ["tiplaði", "tiplaðir", "tiplaði"],
+					"ft": ["tipluðum", "tipluðuð", "tipluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tipli", "tiplir", "tipli"],
+					"ft": ["tiplum", "tiplið", "tipli"]
+				},
+				"þátíð": {
+					"et": ["tiplaði", "tiplaðir", "tiplaði"],
+					"ft": ["tipluðum", "tipluðuð", "tipluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tiplarðu",
+					"ft": "tipliði"
+				},
+				"þátíð": {
+					"et": "tiplaðirðu",
+					"ft": "tipluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tiplirðu",
+					"ft": "tipliði"
+				},
+				"þátíð": {
+					"et": "tiplaðirðu",
+					"ft": "tipluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tiplandi"
+	},
+	"kennistrengur": "so-tipla",
+	"hash": "b5fb265724fc855fbe8645eade63ac98ee4247c38325dfed0ef20fdc48c8af3a"
+}

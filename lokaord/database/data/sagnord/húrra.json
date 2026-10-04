@@ -1,0 +1,135 @@
+{
+	"orð": "húrra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "húrr",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.uh-húrra"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "húrra",
+		"sagnbót": "húrrað",
+		"boðháttur": {
+			"stýfður": "húrra",
+			"et": "húrraðu",
+			"ft": "húrrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húrra", "húrrar", "húrrar"],
+					"ft": ["húrrum", "húrrið", "húrra"]
+				},
+				"þátíð": {
+					"et": ["húrraði", "húrraðir", "húrraði"],
+					"ft": ["húrruðum", "húrruðuð", "húrruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húrri", "húrrir", "húrri"],
+					"ft": ["húrrum", "húrrið", "húrri"]
+				},
+				"þátíð": {
+					"et": ["húrraði", "húrraðir", "húrraði"],
+					"ft": ["húrruðum", "húrruðuð", "húrruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "húrrarðu",
+					"ft": "húrriði"
+				},
+				"þátíð": {
+					"et": "húrraðirðu",
+					"ft": "húrruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "húrrirðu",
+					"ft": "húrriði"
+				},
+				"þátíð": {
+					"et": "húrraðirðu",
+					"ft": "húrruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "húrrast",
+		"sagnbót": "húrrast",
+		"boðháttur": {
+			"et": "húrrastu",
+			"ft": "húrrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húrrast", "húrrast", "húrrast"],
+					"ft": ["húrrumst", "húrrist", "húrrast"]
+				},
+				"þátíð": {
+					"et": ["húrraðist", "húrraðist", "húrraðist"],
+					"ft": ["húrruðumst", "húrruðust", "húrruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húrrist", "húrrist", "húrrist"],
+					"ft": ["húrrumst", "húrrist", "húrrist"]
+				},
+				"þátíð": {
+					"et": ["húrraðist", "húrraðist", "húrraðist"],
+					"ft": ["húrruðumst", "húrruðust", "húrruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "húrrastu"
+				},
+				"þátíð": {
+					"et": "húrraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "húrristu"
+				},
+				"þátíð": {
+					"et": "húrraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "húrrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["húrraður", "húrraðan", "húrruðum", "húrraðs"],
+					"kvk": ["húrruð", "húrraða", "húrraðri", "húrraðrar"],
+					"hk": ["húrrað", "húrrað", "húrruðu", "húrraðs"]
+				},
+				"ft": {
+					"kk": ["húrraðir", "húrraða", "húrruðum", "húrraðra"],
+					"kvk": ["húrraðar", "húrraðar", "húrruðum", "húrraðra"],
+					"hk": ["húrruð", "húrruð", "húrruðum", "húrraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-húrra",
+	"hash": "9144f69fcd102567461072f39ea9067e5184f0f8d67768b7b7be6afaa784ca7a"
+}

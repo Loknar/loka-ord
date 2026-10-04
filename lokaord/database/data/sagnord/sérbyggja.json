@@ -1,0 +1,99 @@
+{
+	"orð": "sérbyggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sér",
+			"samsetning": "stofn",
+			"kennistrengur": "fn.a-sig"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-byggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sérbyggja",
+		"sagnbót": "sérbyggt",
+		"boðháttur": {
+			"stýfður": "sérbygg",
+			"et": "sérbyggðu",
+			"ft": "sérbyggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sérbyggi", "sérbyggir", "sérbyggir"],
+					"ft": ["sérbyggjum", "sérbyggið", "sérbyggja"]
+				},
+				"þátíð": {
+					"et": ["sérbyggði", "sérbyggðir", "sérbyggði"],
+					"ft": ["sérbyggðum", "sérbyggðuð", "sérbyggðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sérbyggi", "sérbyggir", "sérbyggi"],
+					"ft": ["sérbyggjum", "sérbyggið", "sérbyggi"]
+				},
+				"þátíð": {
+					"et": ["sérbyggði", "sérbyggðir", "sérbyggði"],
+					"ft": ["sérbyggðum", "sérbyggðuð", "sérbyggðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sérbyggirðu",
+					"ft": "sérbyggiði"
+				},
+				"þátíð": {
+					"et": "sérbyggðirðu",
+					"ft": "sérbyggðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sérbyggirðu",
+					"ft": "sérbyggiði"
+				},
+				"þátíð": {
+					"et": "sérbyggðirðu",
+					"ft": "sérbyggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sérbyggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sérbyggður", "sérbyggðan", "sérbyggðum", "sérbyggðs"],
+					"kvk": ["sérbyggð", "sérbyggða", "sérbyggðri", "sérbyggðrar"],
+					"hk": ["sérbyggt", "sérbyggt", "sérbyggðu", "sérbyggðs"]
+				},
+				"ft": {
+					"kk": ["sérbyggðir", "sérbyggða", "sérbyggðum", "sérbyggðra"],
+					"kvk": ["sérbyggðar", "sérbyggðar", "sérbyggðum", "sérbyggðra"],
+					"hk": ["sérbyggð", "sérbyggð", "sérbyggðum", "sérbyggðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["sérbyggði", "sérbyggða", "sérbyggða", "sérbyggða"],
+					"kvk": ["sérbyggða", "sérbyggðu", "sérbyggðu", "sérbyggðu"],
+					"hk": ["sérbyggða", "sérbyggða", "sérbyggða", "sérbyggða"]
+				},
+				"ft": {
+					"kk": ["sérbyggðu", "sérbyggðu", "sérbyggðu", "sérbyggðu"],
+					"kvk": ["sérbyggðu", "sérbyggðu", "sérbyggðu", "sérbyggðu"],
+					"hk": ["sérbyggðu", "sérbyggðu", "sérbyggðu", "sérbyggðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sérbyggja",
+	"hash": "bff247b3248493476d5ca1aff284aceb777fea6ebcf99d50de8f5ddd96535431"
+}
