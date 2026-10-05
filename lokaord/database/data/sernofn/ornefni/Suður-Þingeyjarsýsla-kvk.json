@@ -10,23 +10,17 @@
 			"kennistrengur": "no-suður-hk"
 		},
 		{
-			"mynd": "Þing",
-			"samsetning": "stofn",
-			"kennistrengur": "no-þing-hk"
-		},
-		{
-			"mynd": "eyjar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-ey-kvk"
-		},
-		{
-			"beygingar": ["et-ág"],
-			"kennistrengur": "no-sýsla-kvk"
+			"kennistrengur": "sérn.ön-Þingeyjarsýsla-kvk"
 		}
 	],
 	"et": {
-		"ág": ["Suður-Þingeyjarsýsla", "Suður-Þingeyjarsýslu", "Suður-Þingeyjarsýslu", "Suður-Þingeyjarsýslu"]
+		"ág": ["Suður-Þingeyjarsýsla", "Suður-Þingeyjarsýslu", "Suður-Þingeyjarsýslu", "Suður-Þingeyjarsýslu"],
+		"mg": ["Suður-Þingeyjarsýslan", "Suður-Þingeyjarsýsluna", "Suður-Þingeyjarsýslunni", "Suður-Þingeyjarsýslunnar"]
+	},
+	"ft": {
+		"ág": ["Suður-Þingeyjarsýslur", "Suður-Þingeyjarsýslur", "Suður-Þingeyjarsýslum", "Suður-Þingeyjarsýslna"],
+		"mg": ["Suður-Þingeyjarsýslurnar", "Suður-Þingeyjarsýslurnar", "Suður-Þingeyjarsýslunum", "Suður-Þingeyjarsýslnanna"]
 	},
 	"kennistrengur": "sérn.ön-Suður-Þingeyjarsýsla-kvk",
-	"hash": "b3bcce9568d1dceeb1f5d61d3f66a6c303a79207d3f7f19a9310fdbf85d4e6fc"
+	"hash": "4bfe8e10253db1e0cebf25821ff6a60b7fe4fcd82e290943fa93bb40d523e911"
 }
