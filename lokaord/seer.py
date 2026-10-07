@@ -20,6 +20,7 @@ import sys
 from typing import Callable
 
 import git
+from rapidfuzz.distance import Levenshtein
 
 from lokaord import logman
 from lokaord.database.models.utils import TimestampIsoformat as ts_iso
@@ -1154,3 +1155,27 @@ def check_if_string_is_temperature_number(mystr: str) -> bool:
 	if (mystr.endswith('°C') or mystr.endswith('°K') or mystr.endswith('°F')):
 		return check_if_string_is_number(mystr[:-2])
 	return False
+
+
+def lookup_neighbour_strings(
+	mystr: str, max_results: int = 50, max_dist: int = 7, min_similar: float = 0.7, sight = None
+) -> Iterable:
+	'''
+	find similar orð via sight and Levenshtein
+	'''
+	if sight is None:
+		sight = load_sight()
+	results = []
+	for curr_ord in sight['orð']:
+		similarity = Levenshtein.normalized_similarity(mystr, curr_ord, score_cutoff=min_similar)
+		distance = Levenshtein.distance(mystr, curr_ord, score_cutoff=max_dist)
+		if similarity >= min_similar and distance <= max_dist:
+			results.append({
+				'orð': curr_ord,
+				'sim': similarity,
+				'dist': distance
+			})
+		if len(results) >= max_results:
+			break
+	results_sorted = sorted(results, key=lambda d: (-d['sim'], d['dist'], d['orð']))
+	return results_sorted

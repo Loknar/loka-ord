@@ -2,6 +2,7 @@ colorama==0.4.6; platform_system == 'Windows'
 GitPython==3.1.62
 pointless==1.0.36; platform_system == 'Linux'
 pydantic==2.13.4
+RapidFuzz==3.14.6
 SQLAlchemy==2.0.51
 textual==8.2.8
 typer==0.25.1
