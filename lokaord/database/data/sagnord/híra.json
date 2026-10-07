@@ -1,0 +1,131 @@
+{
+	"orð": "híra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"leiðir": "hír",
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "híra",
+		"sagnbót": "hírað",
+		"boðháttur": {
+			"stýfður": "híra",
+			"et": "híraðu",
+			"ft": "hírið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["híra", "hírar", "hírar"],
+					"ft": ["hírum", "hírið", "híra"]
+				},
+				"þátíð": {
+					"et": ["híraði", "híraðir", "híraði"],
+					"ft": ["híruðum", "híruðuð", "híruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["híri", "hírir", "híri"],
+					"ft": ["hírum", "hírið", "híri"]
+				},
+				"þátíð": {
+					"et": ["híraði", "híraðir", "híraði"],
+					"ft": ["híruðum", "híruðuð", "híruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hírarðu",
+					"ft": "híriði"
+				},
+				"þátíð": {
+					"et": "híraðirðu",
+					"ft": "híruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hírirðu",
+					"ft": "híriði"
+				},
+				"þátíð": {
+					"et": "híraðirðu",
+					"ft": "híruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hírast",
+		"sagnbót": "hírast",
+		"boðháttur": {
+			"et": "hírastu",
+			"ft": "hírist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hírast", "hírast", "hírast"],
+					"ft": ["hírumst", "hírist", "hírast"]
+				},
+				"þátíð": {
+					"et": ["híraðist", "híraðist", "híraðist"],
+					"ft": ["híruðumst", "híruðust", "híruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hírist", "hírist", "hírist"],
+					"ft": ["hírumst", "hírist", "hírist"]
+				},
+				"þátíð": {
+					"et": ["híraðist", "híraðist", "híraðist"],
+					"ft": ["híruðumst", "híruðust", "híruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hírastu"
+				},
+				"þátíð": {
+					"et": "híraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "híristu"
+				},
+				"þátíð": {
+					"et": "híraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hírandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["híraður", "híraðan", "híruðum", "híraðs"],
+					"kvk": ["híruð", "híraða", "híraðri", "híraðrar"],
+					"hk": ["hírað", "hírað", "híruðu", "híraðs"]
+				},
+				"ft": {
+					"kk": ["híraðir", "híraða", "híruðum", "híraðra"],
+					"kvk": ["híraðar", "híraðar", "híruðum", "híraðra"],
+					"hk": ["híruð", "híruð", "híruðum", "híraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-híra",
+	"hash": "6153a015379d4b7a7f96ee476692aee5adfd5cb0adf4365f10021dc974ab0159"
+}
