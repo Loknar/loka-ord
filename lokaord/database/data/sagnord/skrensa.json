@@ -1,0 +1,135 @@
+{
+	"orð": "skrensa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skrens",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skrens-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skrensa",
+		"sagnbót": "skrensað",
+		"boðháttur": {
+			"stýfður": "skrensa",
+			"et": "skrensaðu",
+			"ft": "skrensið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrensa", "skrensar", "skrensar"],
+					"ft": ["skrensum", "skrensið", "skrensa"]
+				},
+				"þátíð": {
+					"et": ["skrensaði", "skrensaðir", "skrensaði"],
+					"ft": ["skrensuðum", "skrensuðuð", "skrensuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrensi", "skrensir", "skrensi"],
+					"ft": ["skrensum", "skrensið", "skrensi"]
+				},
+				"þátíð": {
+					"et": ["skrensaði", "skrensaðir", "skrensaði"],
+					"ft": ["skrensuðum", "skrensuðuð", "skrensuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrensarðu",
+					"ft": "skrensiði"
+				},
+				"þátíð": {
+					"et": "skrensaðirðu",
+					"ft": "skrensuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrensirðu",
+					"ft": "skrensiði"
+				},
+				"þátíð": {
+					"et": "skrensaðirðu",
+					"ft": "skrensuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skrensast",
+		"sagnbót": "skrensast",
+		"boðháttur": {
+			"et": "skrensastu",
+			"ft": "skrensist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skrensast", "skrensast", "skrensast"],
+					"ft": ["skrensumst", "skrensist", "skrensast"]
+				},
+				"þátíð": {
+					"et": ["skrensaðist", "skrensaðist", "skrensaðist"],
+					"ft": ["skrensuðumst", "skrensuðust", "skrensuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skrensist", "skrensist", "skrensist"],
+					"ft": ["skrensumst", "skrensist", "skrensist"]
+				},
+				"þátíð": {
+					"et": ["skrensaðist", "skrensaðist", "skrensaðist"],
+					"ft": ["skrensuðumst", "skrensuðust", "skrensuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "skrensastu"
+				},
+				"þátíð": {
+					"et": "skrensaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "skrensistu"
+				},
+				"þátíð": {
+					"et": "skrensaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skrensandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skrensaður", "skrensaðan", "skrensuðum", "skrensaðs"],
+					"kvk": ["skrensuð", "skrensaða", "skrensaðri", "skrensaðrar"],
+					"hk": ["skrensað", "skrensað", "skrensuðu", "skrensaðs"]
+				},
+				"ft": {
+					"kk": ["skrensaðir", "skrensaða", "skrensuðum", "skrensaðra"],
+					"kvk": ["skrensaðar", "skrensaðar", "skrensuðum", "skrensaðra"],
+					"hk": ["skrensuð", "skrensuð", "skrensuðum", "skrensaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skrensa",
+	"hash": "c16ed12d4cac9b8be18205a737ac544ba0c3e4c2db5fd2e0c5fa022b669e1c5b"
+}
