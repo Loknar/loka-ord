@@ -103,6 +103,9 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 	def lowercase(word: str) -> str:
 		return word.lower()
 
+	def lowercase_first_char(word: str) -> str:
+		return '%s%s' % (word[0].lower(), word[1:])
+
 	def lower_then_uppercase(word: str) -> str:
 		return uppercase(lowercase(word))
 
@@ -133,6 +136,7 @@ def word_change_possibilities(word: str) -> Iterable[str]:
 	change_functions = [
 		uppercase,
 		lowercase,
+		lowercase_first_char,
 		lower_then_uppercase,
 		all_caps,
 	]
