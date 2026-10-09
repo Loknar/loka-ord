@@ -1,0 +1,22 @@
+{
+	"orð": "íbúðarleiga",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "íbúðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-íbúð-kvk"
+		},
+		{
+			"beygingar": ["et"],
+			"kennistrengur": "no-leiga-kvk"
+		}
+	],
+	"et": {
+		"ág": ["íbúðarleiga", "íbúðarleigu", "íbúðarleigu", "íbúðarleigu"],
+		"mg": ["íbúðarleigan", "íbúðarleiguna", "íbúðarleigunni", "íbúðarleigunnar"]
+	},
+	"kennistrengur": "no-íbúðarleiga-kvk",
+	"hash": "bd7aea945b6d2dc13049657c953d7796d45b35021c3740c6490ef8f74565036e"
+}
