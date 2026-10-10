@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "skrif",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skrif-hk"
-		},
-		{
-			"mynd": "stofu",
+			"mynd": "skrifstofu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stofa-kvk"
+			"kennistrengur": "no-skrifstofa-kvk"
 		},
 		{
-			"mynd": "hús",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"kennistrengur": "no-næði-hk"
+			"kennistrengur": "no-húsnæði-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["skrifstofuhúsnæðin", "skrifstofuhúsnæðin", "skrifstofuhúsnæðunum", "skrifstofuhúsnæðanna"]
 	},
 	"kennistrengur": "no-skrifstofuhúsnæði-hk",
-	"hash": "bcae2f804a039b3afed9f9c1589c5ea050eaf669f1ad03d8e869a2c594ef4d05"
+	"hash": "6a4a9252c1a3170d338f7aaca48575b34df47ea29dc8ed681fa8155e11bc2124"
 }

@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "fram",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-fram"
-		},
-		{
-			"mynd": "leiðslu",
+			"mynd": "framleiðslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leiðsla-kvk"
+			"kennistrengur": "no-framleiðsla-kvk"
 		},
 		{
-			"mynd": "hús",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"kennistrengur": "no-næði-hk"
+			"kennistrengur": "no-húsnæði-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["framleiðsluhúsnæðin", "framleiðsluhúsnæðin", "framleiðsluhúsnæðunum", "framleiðsluhúsnæðanna"]
 	},
 	"kennistrengur": "no-framleiðsluhúsnæði-hk",
-	"hash": "1aeb14bbb05739d8b22116487238ab5f80e9703b3635f7a6fd3371a55c2e0409"
+	"hash": "f49b87296392d3e97e9a6c3d6cf7c04f024248d1bb71a64e8dd5af2e5456d35c"
 }

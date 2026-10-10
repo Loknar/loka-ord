@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "fisk",
-			"samsetning": "stofn",
-			"kennistrengur": "no-fiskur-kk"
-		},
-		{
-			"mynd": "vinnslu",
+			"mynd": "fiskvinnslu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vinnsla-kvk"
+			"kennistrengur": "no-fiskvinnsla-kvk"
 		},
 		{
-			"mynd": "hús",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"kennistrengur": "no-næði-hk"
+			"kennistrengur": "no-húsnæði-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["fiskvinnsluhúsnæðin", "fiskvinnsluhúsnæðin", "fiskvinnsluhúsnæðunum", "fiskvinnsluhúsnæðanna"]
 	},
 	"kennistrengur": "no-fiskvinnsluhúsnæði-hk",
-	"hash": "a5cd56dc4ae7514ca6e83ca3e0ff9fbf98dd73171336d43b3afd8551b719c438"
+	"hash": "960d37509802f24755de7f236a969e8af43bf5f436cd39e8b3171753e5cc0ab7"
 }

@@ -1,0 +1,135 @@
+{
+	"orð": "orfvernda",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "orf",
+			"samsetning": "stofn",
+			"kennistrengur": "no-orf-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-vernda"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "orfvernda",
+		"sagnbót": "orfverndað",
+		"boðháttur": {
+			"stýfður": "orfvernda",
+			"et": "orfverndaðu",
+			"ft": "orfverndið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orfvernda", "orfverndar", "orfverndar"],
+					"ft": ["orfverndum", "orfverndið", "orfvernda"]
+				},
+				"þátíð": {
+					"et": ["orfverndaði", "orfverndaðir", "orfverndaði"],
+					"ft": ["orfvernduðum", "orfvernduðuð", "orfvernduðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orfverndi", "orfverndir", "orfverndi"],
+					"ft": ["orfverndum", "orfverndið", "orfverndi"]
+				},
+				"þátíð": {
+					"et": ["orfverndaði", "orfverndaðir", "orfverndaði"],
+					"ft": ["orfvernduðum", "orfvernduðuð", "orfvernduðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orfverndarðu",
+					"ft": "orfverndiði"
+				},
+				"þátíð": {
+					"et": "orfverndaðirðu",
+					"ft": "orfvernduðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orfverndirðu",
+					"ft": "orfverndiði"
+				},
+				"þátíð": {
+					"et": "orfverndaðirðu",
+					"ft": "orfvernduðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "orfverndast",
+		"sagnbót": "orfverndast",
+		"boðháttur": {
+			"et": "orfverndastu",
+			"ft": "orfverndist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["orfverndast", "orfverndast", "orfverndast"],
+					"ft": ["orfverndumst", "orfverndist", "orfverndast"]
+				},
+				"þátíð": {
+					"et": ["orfverndaðist", "orfverndaðist", "orfverndaðist"],
+					"ft": ["orfvernduðumst", "orfvernduðust", "orfvernduðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["orfverndist", "orfverndist", "orfverndist"],
+					"ft": ["orfverndumst", "orfverndist", "orfverndist"]
+				},
+				"þátíð": {
+					"et": ["orfverndaðist", "orfverndaðist", "orfverndaðist"],
+					"ft": ["orfvernduðumst", "orfvernduðust", "orfvernduðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "orfverndastu"
+				},
+				"þátíð": {
+					"et": "orfverndaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "orfverndistu"
+				},
+				"þátíð": {
+					"et": "orfverndaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "orfverndandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["orfverndaður", "orfverndaðan", "orfvernduðum", "orfverndaðs"],
+					"kvk": ["orfvernduð", "orfverndaða", "orfverndaðri", "orfverndaðrar"],
+					"hk": ["orfverndað", "orfverndað", "orfvernduðu", "orfverndaðs"]
+				},
+				"ft": {
+					"kk": ["orfverndaðir", "orfverndaða", "orfvernduðum", "orfverndaðra"],
+					"kvk": ["orfverndaðar", "orfverndaðar", "orfvernduðum", "orfverndaðra"],
+					"hk": ["orfvernduð", "orfvernduð", "orfvernduðum", "orfverndaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-orfvernda",
+	"hash": "485816feadd0e58f6ea996e27e0251e0eb3702b020666fef06982addce82035d"
+}
