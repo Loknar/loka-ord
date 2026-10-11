@@ -1,0 +1,87 @@
+{
+	"orð": "lausgyrða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "laus",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-laus"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-gyrða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lausgyrða",
+		"sagnbót": "lausgyrt",
+		"boðháttur": {
+			"stýfður": "lausgyrð",
+			"et": "lausgyrtu",
+			"ft": "lausgyrðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lausgyrði", "lausgyrðir", "lausgyrðir"],
+					"ft": ["lausgyrðum", "lausgyrðið", "lausgyrða"]
+				},
+				"þátíð": {
+					"et": ["lausgyrti", "lausgyrtir", "lausgyrti"],
+					"ft": ["lausgyrtum", "lausgyrtuð", "lausgyrtu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lausgyrði", "lausgyrðir", "lausgyrði"],
+					"ft": ["lausgyrðum", "lausgyrðið", "lausgyrði"]
+				},
+				"þátíð": {
+					"et": ["lausgyrti", "lausgyrtir", "lausgyrti"],
+					"ft": ["lausgyrtum", "lausgyrtuð", "lausgyrtu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lausgyrðirðu",
+					"ft": "lausgyrðiði"
+				},
+				"þátíð": {
+					"et": "lausgyrtirðu",
+					"ft": "lausgyrtuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lausgyrðirðu",
+					"ft": "lausgyrðiði"
+				},
+				"þátíð": {
+					"et": "lausgyrtirðu",
+					"ft": "lausgyrtuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lausgyrðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lausgyrtur", "lausgyrtan", "lausgyrtum", "lausgyrts"],
+					"kvk": ["lausgyrt", "lausgyrta", "lausgyrtri", "lausgyrtrar"],
+					"hk": ["lausgyrt", "lausgyrt", "lausgyrtu", "lausgyrts"]
+				},
+				"ft": {
+					"kk": ["lausgyrtir", "lausgyrta", "lausgyrtum", "lausgyrtra"],
+					"kvk": ["lausgyrtar", "lausgyrtar", "lausgyrtum", "lausgyrtra"],
+					"hk": ["lausgyrt", "lausgyrt", "lausgyrtum", "lausgyrtra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-lausgyrða",
+	"hash": "601cf43287c9825ed8a7e86055e918bd28e7c30ff616a4f6881b60547dd7438e"
+}
