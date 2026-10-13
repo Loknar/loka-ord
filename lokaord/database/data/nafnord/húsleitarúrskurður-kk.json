@@ -4,22 +4,12 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "hús",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"mynd": "leitar",
+			"mynd": "húsleitar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-leit-kvk"
+			"kennistrengur": "no-húsleit-kvk"
 		},
 		{
-			"mynd": "úr",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-úr"
-		},
-		{
-			"kennistrengur": "no-skurður-kk"
+			"kennistrengur": "no-úrskurður-kk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["húsleitarúrskurðirnir", "húsleitarúrskurðina", "húsleitarúrskurðunum", "húsleitarúrskurðanna"]
 	},
 	"kennistrengur": "no-húsleitarúrskurður-kk",
-	"hash": "fefebf75d7cd90d1429fa10a7f7bc921551a39ff5fb775be963a2150155e4442"
+	"hash": "a541ec0e3a6baee886df0bb39451515c4374566d9a566e4b243ad7ea4484ff0e"
 }
