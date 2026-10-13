@@ -980,6 +980,7 @@ def clean_string(mystr: str) -> str:
 		# skipta ákveðnum táknum út fyrir bil
 		('\n', ' '),
 		('\t', ' '),
+		('\u00a0', ' '),  # no-break space (NSPB)
 		('\u202f', ' '),  # narrow no-break space
 		# bæta við bilum sumstaðar
 		('/', ' / '),
