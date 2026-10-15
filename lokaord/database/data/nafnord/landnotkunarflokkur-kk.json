@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "land",
-			"samsetning": "stofn",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "notkunar",
+			"mynd": "landnotkunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-notkun-kvk"
+			"kennistrengur": "no-landnotkun-kvk"
 		},
 		{
 			"kennistrengur": "no-flokkur-kk"
@@ -26,5 +21,5 @@
 		"mg": ["landnotkunarflokkarnir", "landnotkunarflokkana", "landnotkunarflokkunum", "landnotkunarflokkanna"]
 	},
 	"kennistrengur": "no-landnotkunarflokkur-kk",
-	"hash": "c1116653491afc2eca122e9b8cb762e506ce32979badc95343081f5b458be316"
+	"hash": "ee64aba0d518da148a8eb1b5384fb5207ca5a207a06752928cc12cee053a94ca"
 }

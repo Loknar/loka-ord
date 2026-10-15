@@ -4,19 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kol",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kol-hk"
-		},
-		{
-			"mynd": "efnis",
+			"mynd": "kolefnisbindingar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
-		},
-		{
-			"mynd": "bindingar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-binding-kvk"
+			"kennistrengur": "no-kolefnisbinding-kvk"
 		},
 		{
 			"beygingar": ["et"],
@@ -28,5 +18,5 @@
 		"mg": ["kolefnisbindingargetan", "kolefnisbindingargetuna", "kolefnisbindingargetunni", "kolefnisbindingargetunnar"]
 	},
 	"kennistrengur": "no-kolefnisbindingargeta-kvk",
-	"hash": "5d8f891b1f6c2afba37b59d5c5de6e88dfb41ed79458574583c78085389d0ff1"
+	"hash": "f40614443431970e261468a7accc79b10c232bcab17543a43f634b601b652bfa"
 }

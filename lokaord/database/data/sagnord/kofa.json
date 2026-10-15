@@ -1,0 +1,135 @@
+{
+	"orð": "kofa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kof",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kofa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kofa",
+		"sagnbót": "kofað",
+		"boðháttur": {
+			"stýfður": "kofa",
+			"et": "kofaðu",
+			"ft": "kofið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kofa", "kofar", "kofar"],
+					"ft": ["kofum", "kofið", "kofa"]
+				},
+				"þátíð": {
+					"et": ["kofaði", "kofaðir", "kofaði"],
+					"ft": ["kofuðum", "kofuðuð", "kofuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kofi", "kofir", "kofi"],
+					"ft": ["kofum", "kofið", "kofi"]
+				},
+				"þátíð": {
+					"et": ["kofaði", "kofaðir", "kofaði"],
+					"ft": ["kofuðum", "kofuðuð", "kofuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kofarðu",
+					"ft": "kofiði"
+				},
+				"þátíð": {
+					"et": "kofaðirðu",
+					"ft": "kofuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kofirðu",
+					"ft": "kofiði"
+				},
+				"þátíð": {
+					"et": "kofaðirðu",
+					"ft": "kofuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kofast",
+		"sagnbót": "kofast",
+		"boðháttur": {
+			"et": "kofastu",
+			"ft": "kofist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kofast", "kofast", "kofast"],
+					"ft": ["kofumst", "kofist", "kofast"]
+				},
+				"þátíð": {
+					"et": ["kofaðist", "kofaðist", "kofaðist"],
+					"ft": ["kofuðumst", "kofuðust", "kofuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kofist", "kofist", "kofist"],
+					"ft": ["kofumst", "kofist", "kofist"]
+				},
+				"þátíð": {
+					"et": ["kofaðist", "kofaðist", "kofaðist"],
+					"ft": ["kofuðumst", "kofuðust", "kofuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kofastu"
+				},
+				"þátíð": {
+					"et": "kofaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kofistu"
+				},
+				"þátíð": {
+					"et": "kofaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kofandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kofaður", "kofaðan", "kofuðum", "kofaðs"],
+					"kvk": ["kofuð", "kofaða", "kofaðri", "kofaðrar"],
+					"hk": ["kofað", "kofað", "kofuðu", "kofaðs"]
+				},
+				"ft": {
+					"kk": ["kofaðir", "kofaða", "kofuðum", "kofaðra"],
+					"kvk": ["kofaðar", "kofaðar", "kofuðum", "kofaðra"],
+					"hk": ["kofuð", "kofuð", "kofuðum", "kofaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kofa",
+	"hash": "fc2ebdb97c09d017632a6447f63e8fd5c08bd822f2ee91b6332fcae3d3dda4f7"
+}
