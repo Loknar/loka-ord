@@ -8,25 +8,25 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 2076 | 1886 | 1954 | 5916 | 20561 | 26605 | 26245 | 73411 | **79327** |
+| **Nafnorð**     |   | 2076 | 1887 | 1955 | 5918 | 20568 | 26612 | 26252 | 73432 | **79350** |
 | **Lýsingarorð** | 637 |   |   |   | 830 |   |   |   | 7297 | **8127** |
-| **Sagnorð**     |   |   |   |   | 1460 |   |   |   | 2473 | **3933** |
+| **Sagnorð**     |   |   |   |   | 1460 |   |   |   | 2474 | **3934** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 23 | **63** |
 | **Smáorð**      |   |   |   |   | 358 |   |   |   | 759 | **1117** |
-| **Alls** |   |   |   |   | **8630** |   |   |   | **84065** | **92695** |
+| **Alls** |   |   |   |   | **8632** |   |   |   | **84087** | **92719** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1353 | 1305 | 18 | 2676 | 1043 | 1288 | 11 | 2342 | **5018** |
 | Kenninöfn |  |  |  |  | 4933 | 4932 | 4910 | 14775 | **14775** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **2592** |
-| Gælunöfn  | 963 | 438 | 16 | 1417 | 191 | 173 | 10 | 374 | **1791** |
-| Örnefni   | 40 | 195 | 1241 | 1476 | 3625 | 2636 | 2738 | 8999 | **10475** |
-| **Alls**  |   |   |   | **7977** |   |   |   | **26674** | **34651** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **2594** |
+| Gælunöfn  | 964 | 439 | 17 | 1420 | 191 | 173 | 10 | 374 | **1794** |
+| Örnefni   | 40 | 195 | 1241 | 1476 | 3625 | 2639 | 2739 | 9003 | **10479** |
+| **Alls**  |   |   |   | **7982** |   |   |   | **26678** | **34660** |
 
-**Samtals:** 127.346 orð.  
-Orðmyndir: 1.263.115
+**Samtals:** 127.379 orð.  
+Orðmyndir: 1.263.472
 
 1.246 skammstafanir.
 
@@ -80,6 +80,8 @@ python main.py build-sight
 # prenta út töluleg gögn á markdown sniði
 python main.py md-stats
 ```
+
+Í `init` ferlinu felst semsagt bæði smíði SQLite grunns frá JSON gögnum (`build-db`) og prentun gagna úr SQLite grunninum yfir í JSON skrár (`write-files`), `init` semsagt smíðar grunninn og keyrir svo prófun á samræmi gagna miłli SQLite grunns og JSON skráa.
 
 Ber að nefna að við núverandi útfærslu og fjölda orða (kringum 94000 orð) þá tekur `init` ferlið sinn tíma. Tölva með temmilega góðan vélbúnað og linux stýrikerfi klárar það á um klukkustund, meðalgóð fartölva með linux stýrikerfi þarf um klukkustund og þrjú korter, þá hefur sýnt sig að á tölvum keyrandi windows stýrikerfi sé ferlið umtalsvert lengra (skrifast líklega að mestu á mismunandi meðhöndlun fyrir transactions í SQLite miłli windows og linux).
 
