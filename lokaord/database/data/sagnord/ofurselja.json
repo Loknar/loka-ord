@@ -1,0 +1,142 @@
+{
+	"orð": "ofurselja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "ofur",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-ofur"
+		},
+		{
+			"kennistrengur": "so-selja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofurselja",
+		"sagnbót": "ofurselt",
+		"boðháttur": {
+			"stýfður": "ofursel",
+			"et": "ofurseldu",
+			"ft": "ofurseljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofursel", "ofurselur", "ofurselur"],
+					"ft": ["ofurseljum", "ofurseljið", "ofurselja"]
+				},
+				"þátíð": {
+					"et": ["ofurseldi", "ofurseldir", "ofurseldi"],
+					"ft": ["ofurseldum", "ofurselduð", "ofurseldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofurselji", "ofurseljir", "ofurselji"],
+					"ft": ["ofurseljum", "ofurseljið", "ofurselji"]
+				},
+				"þátíð": {
+					"et": ["ofurseldi", "ofurseldir", "ofurseldi"],
+					"ft": ["ofurseldum", "ofurselduð", "ofurseldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofurselurðu",
+					"ft": "ofurseljiði"
+				},
+				"þátíð": {
+					"et": "ofurseldirðu",
+					"ft": "ofurselduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofurseljirðu",
+					"ft": "ofurseljiði"
+				},
+				"þátíð": {
+					"et": "ofurseldirðu",
+					"ft": "ofurselduði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "ofurseljast",
+		"sagnbót": "ofurselst",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofurselst", "ofurselst", "ofurselst"],
+					"ft": ["ofurseljumst", "ofurseljist", "ofurseljast"]
+				},
+				"þátíð": {
+					"et": ["ofurseldist", "ofurseldist", "ofurseldist"],
+					"ft": ["ofurseldumst", "ofurseldust", "ofurseldust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofurseljist", "ofurseljist", "ofurseljist"],
+					"ft": ["ofurseldumst", "ofurseldust", "ofurseldust"]
+				},
+				"þátíð": {
+					"et": ["ofurseldist", "ofurseldist", "ofurseldist"],
+					"ft": ["ofurseldumst", "ofurseldust", "ofurseldust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofurselstu"
+				},
+				"þátíð": {
+					"et": "ofurseldistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofurseljistu"
+				},
+				"þátíð": {
+					"et": "ofurseldistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofurseljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["ofurseldur", "ofurseldan", "ofurseldum", "ofurselds"],
+					"kvk": ["ofurseld", "ofurselda", "ofurseldri", "ofurseldrar"],
+					"hk": ["ofurselt", "ofurselt", "ofurseldu", "ofurselds"]
+				},
+				"ft": {
+					"kk": ["ofurseldir", "ofurselda", "ofurseldum", "ofurseldra"],
+					"kvk": ["ofurseldar", "ofurseldar", "ofurseldum", "ofurseldra"],
+					"hk": ["ofurseld", "ofurseld", "ofurseldum", "ofurseldra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["ofurseldi", "ofurselda", "ofurselda", "ofurselda"],
+					"kvk": ["ofurselda", "ofurseldu", "ofurseldu", "ofurseldu"],
+					"hk": ["ofurselda", "ofurselda", "ofurselda", "ofurselda"]
+				},
+				"ft": {
+					"kk": ["ofurseldu", "ofurseldu", "ofurseldu", "ofurseldu"],
+					"kvk": ["ofurseldu", "ofurseldu", "ofurseldu", "ofurseldu"],
+					"hk": ["ofurseldu", "ofurseldu", "ofurseldu", "ofurseldu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-ofurselja",
+	"hash": "e5083f2a302daedb21129bf9c451bccb7cf147713c38973c09d25b43ccb3babe"
+}

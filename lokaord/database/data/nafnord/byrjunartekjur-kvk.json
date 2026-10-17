@@ -1,0 +1,22 @@
+{
+	"orð": "byrjunartekjur",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "byrjunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-byrjun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-tekja-kvk"
+		}
+	],
+	"ft": {
+		"ág": ["byrjunartekjur", "byrjunartekjur", "byrjunartekjum", "byrjunartekna"],
+		"mg": ["byrjunartekjurnar", "byrjunartekjurnar", "byrjunartekjunum", "byrjunarteknanna"]
+	},
+	"kennistrengur": "no-byrjunartekjur-kvk",
+	"hash": "38f02e14ab8f663bfbfe038d034a6a29455b034c6fac3d36118bc80f20734fc3"
+}

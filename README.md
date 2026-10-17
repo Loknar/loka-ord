@@ -8,27 +8,27 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 2076 | 1886 | 1954 | 5916 | 20541 | 26559 | 26216 | 73316 | **79232** |
-| **Lýsingarorð** | 637 |   |   |   | 830 |   |   |   | 7292 | **8122** |
-| **Sagnorð**     |   |   |   |   | 1460 |   |   |   | 2472 | **3932** |
+| **Nafnorð**     |   | 2076 | 1886 | 1954 | 5916 | 20561 | 26605 | 26245 | 73411 | **79327** |
+| **Lýsingarorð** | 637 |   |   |   | 830 |   |   |   | 7297 | **8127** |
+| **Sagnorð**     |   |   |   |   | 1460 |   |   |   | 2473 | **3933** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 23 | **63** |
 | **Smáorð**      |   |   |   |   | 358 |   |   |   | 759 | **1117** |
-| **Alls** |   |   |   |   | **8630** |   |   |   | **83964** | **92594** |
+| **Alls** |   |   |   |   | **8630** |   |   |   | **84065** | **92695** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1353 | 1305 | 18 | 2676 | 1043 | 1288 | 11 | 2342 | **5018** |
 | Kenninöfn |  |  |  |  | 4933 | 4932 | 4910 | 14775 | **14775** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **2589** |
-| Gælunöfn  | 962 | 438 | 16 | 1416 | 191 | 173 | 10 | 374 | **1790** |
-| Örnefni   | 40 | 194 | 1238 | 1472 | 3620 | 2630 | 2729 | 8979 | **10451** |
-| **Alls**  |   |   |   | **7969** |   |   |   | **26654** | **34623** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **2592** |
+| Gælunöfn  | 963 | 438 | 16 | 1417 | 191 | 173 | 10 | 374 | **1791** |
+| Örnefni   | 40 | 195 | 1241 | 1476 | 3625 | 2636 | 2738 | 8999 | **10475** |
+| **Alls**  |   |   |   | **7977** |   |   |   | **26674** | **34651** |
 
-**Samtals:** 127.217 orð.  
-Orðmyndir: 1.261.927
+**Samtals:** 127.346 orð.  
+Orðmyndir: 1.263.115
 
-1.243 skammstafanir.
+1.246 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -91,9 +91,9 @@ Sökum langs tíma að smíða SQLite grunn frá grunni með `build-db` þá bý
 python main.py use-backup
 ```
 
-Ofangreind skipun afritar SQLite afrit sem tilgreint er í `lokaord/database/db_bak_handling.json` yfir í `lokaord/database/disk/lokaord/db.sqlite`, framkvæmir eyðingu orðafærslna ef þarf útfrá stiłlingum í `db_bak_handling.json` og les svo inn orðabreytingar og viðbætur útfrá upplýsingum í git sögu frá gefnu commit hash sem tilgreint er í `db_bak_handling.json`. Þegar þetta er ritað er tilgreint afrit rétt rúmlega viku gamalt og skipunin `use-backup` tekur innan við mínútu að útbúa fułlbyggðan grunn.
+Ofangreind skipun sækir SQLite afrit úr Releases í GitHub síðu verkefnisins og vistar í `lokaord/database/disk/lokaord/`, framkvæmir eyðingu orðafærslna ef þarf útfrá stiłlingum í `db_bak_handling.json` og les svo inn orðabreytingar og viðbætur útfrá upplýsingum í git sögu frá gefnu commit hash sem tilgreint er í `db_bak_handling.json`. Þegar þetta var ritað var tilgreint afrit rétt rúmlega tveggja vikna gamalt og skipunin `use-backup` tók rétt um mínútu að útbúa fułlbyggðan grunn tilbúinn til notkunar.
 
-Viljirðu vinna með þitt eigið afrit geturðu afritað `lokaord/database/disk/lokaord/db.sqlite` að vild, eða notað skipunina `backup-db` og breytt síðan `db_bak_handling.json` svo `use-backup` noti annað afrit:
+Viljirðu vinna með þitt eigið afrit geturðu afritað SQLite skrána `lokaord/database/disk/lokaord/db.sqlite` að vild, eða notað skipunina `backup-db` og breytt svo viðeigandi stiłlingum í skránni `db_bak_handling.json` svo `use-backup` noti þitt afrit:
 
 ```bash
 python main.py backup-db
