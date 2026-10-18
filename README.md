@@ -8,27 +8,27 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 2076 | 1887 | 1955 | 5918 | 20568 | 26612 | 26252 | 73432 | **79350** |
-| **Lýsingarorð** | 637 |   |   |   | 830 |   |   |   | 7297 | **8127** |
+| **Nafnorð**     |   | 2076 | 1888 | 1955 | 5919 | 20570 | 26625 | 26268 | 73463 | **79382** |
+| **Lýsingarorð** | 640 |   |   |   | 830 |   |   |   | 7306 | **8136** |
 | **Sagnorð**     |   |   |   |   | 1460 |   |   |   | 2474 | **3934** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 23 | **63** |
 | **Smáorð**      |   |   |   |   | 358 |   |   |   | 759 | **1117** |
-| **Alls** |   |   |   |   | **8632** |   |   |   | **84087** | **92719** |
+| **Alls** |   |   |   |   | **8633** |   |   |   | **84127** | **92760** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1353 | 1305 | 18 | 2676 | 1043 | 1288 | 11 | 2342 | **5018** |
 | Kenninöfn |  |  |  |  | 4933 | 4932 | 4910 | 14775 | **14775** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **2594** |
-| Gælunöfn  | 964 | 439 | 17 | 1420 | 191 | 173 | 10 | 374 | **1794** |
-| Örnefni   | 40 | 195 | 1241 | 1476 | 3625 | 2639 | 2739 | 9003 | **10479** |
-| **Alls**  |   |   |   | **7982** |   |   |   | **26678** | **34660** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **2598** |
+| Gælunöfn  | 965 | 440 | 17 | 1422 | 191 | 173 | 10 | 374 | **1796** |
+| Örnefni   | 40 | 195 | 1247 | 1482 | 3626 | 2640 | 2742 | 9008 | **10490** |
+| **Alls**  |   |   |   | **7994** |   |   |   | **26683** | **34677** |
 
-**Samtals:** 127.379 orð.  
-Orðmyndir: 1.263.472
+**Samtals:** 127.437 orð.  
+Orðmyndir: 1.263.972
 
-1.246 skammstafanir.
+1.247 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -235,7 +235,7 @@ Orð sem skráð eru í grunninn heyra undir útgáfuleyfi gagnanna og verða þ
 
 Hæ, og takk ef þú last svona langt.
 
-Ég hef lagt grunn að **lokaorð** orðagrunninum og gef hér út hugbúnað undir LGPLv3-leyfi (sjá `LICENSE`) og gögnin í `lokaord/database/data` og `lokaord/database/disk` undir ODbL-leyfi (sjá `lokaord/database/data/LICENSE-DATA`).
+Ég hef lagt grunn að **Loka-Orð** orðagrunninum og gef hér út hugbúnað undir LGPLv3-leyfi (sjá `LICENSE`) og gögnin í `lokaord/database/data` og `lokaord/database/disk` undir ODbL-leyfi (sjá `lokaord/database/data/LICENSE-DATA`).
 
 Leyfin vel ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En jafnframt vil ég að breytingar og viðbætur á grunninum séu áfram frjálsar, svo að viðbætur eða breytingar eins notanda geti gagnast öðrum notendum sem grunninn nota.
 

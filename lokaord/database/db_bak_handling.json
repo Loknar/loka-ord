@@ -7,8 +7,11 @@
 		"db_2026-10-01T23:26:35": {
 			"commit_id": "fd207a8f69e2bc353b8d98a9981eb0b3abdf2784",
 			"src": "https://github.com/Loknar/loka-ord/releases/download/db_2026-10-01/db_2026-10-01T23.26.35.zip",
-			"files_import": [],
+			"files_import": [
+				"sernofn/ornefni/Helsinki-sáttmáli-kk.json"
+			],
 			"ord_delete": [
+				"sérn.ön-Helsinki-sáttmálinn-kk",
 				"sérn.ön-Breiðavík-kvk-_breiður_"
 			],
 			"skammst_delete": []
