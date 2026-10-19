@@ -1,0 +1,87 @@
+{
+	"orð": "stífpússa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stíf",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-stífur"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-pússa"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stífpússa",
+		"sagnbót": "stífpússað",
+		"boðháttur": {
+			"stýfður": "stífpússa",
+			"et": "stífpússaðu",
+			"ft": "stífpússið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stífpússa", "stífpússar", "stífpússar"],
+					"ft": ["stífpússum", "stífpússið", "stífpússa"]
+				},
+				"þátíð": {
+					"et": ["stífpússaði", "stífpússaðir", "stífpússaði"],
+					"ft": ["stífpússuðum", "stífpússuðuð", "stífpússuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stífpússi", "stífpússir", "stífpússi"],
+					"ft": ["stífpússum", "stífpússið", "stífpússi"]
+				},
+				"þátíð": {
+					"et": ["stífpússaði", "stífpússaðir", "stífpússaði"],
+					"ft": ["stífpússuðum", "stífpússuðuð", "stífpússuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stífpússarðu",
+					"ft": "stífpússiði"
+				},
+				"þátíð": {
+					"et": "stífpússaðirðu",
+					"ft": "stífpússuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stífpússirðu",
+					"ft": "stífpússiði"
+				},
+				"þátíð": {
+					"et": "stífpússaðirðu",
+					"ft": "stífpússuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stífpússandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stífpússaður", "stífpússaðan", "stífpússuðum", "stífpússaðs"],
+					"kvk": ["stífpússuð", "stífpússaða", "stífpússaðri", "stífpússaðrar"],
+					"hk": ["stífpússað", "stífpússað", "stífpússuðu", "stífpússaðs"]
+				},
+				"ft": {
+					"kk": ["stífpússaðir", "stífpússaða", "stífpússuðum", "stífpússaðra"],
+					"kvk": ["stífpússaðar", "stífpússaðar", "stífpússuðum", "stífpússaðra"],
+					"hk": ["stífpússuð", "stífpússuð", "stífpússuðum", "stífpússaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stífpússa",
+	"hash": "132b17b36154cff01d7774bd29c0f30a5c53c7b87e2c12ce54e4a847e3214ef1"
+}

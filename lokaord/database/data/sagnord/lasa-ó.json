@@ -1,0 +1,133 @@
+{
+	"orð": "lasa",
+	"flokkur": "sagnorð",
+	"germynd": {
+		"nafnháttur": "lasa",
+		"sagnbót": "lasa",
+		"boðháttur": {
+			"stýfður": "lasa",
+			"et": "lasaðu",
+			"ft": "lasið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lasa", "lasar", "lasar"],
+					"ft": ["lösum", "lasið", "lasa"]
+				},
+				"þátíð": {
+					"et": ["lasaði", "lasaðir", "lasaði"],
+					"ft": ["lösuðum", "lösuðuð", "lösuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lasi", "lasir", "lasi"],
+					"ft": ["lasum", "lasið", "lasi"]
+				},
+				"þátíð": {
+					"et": ["lasaði", "lasaðir", "lasaði"],
+					"ft": ["lösuðum", "lösuðuð", "lösuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lasarðu",
+					"ft": "lasiði"
+				},
+				"þátíð": {
+					"et": "lasaðirðu",
+					"ft": "lösuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lasirðu",
+					"ft": "lasiði"
+				},
+				"þátíð": {
+					"et": "lasaðirðu",
+					"ft": "lösuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "lasast",
+		"sagnbót": "lasast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lasast", "lasast", "lasast"],
+					"ft": ["lösumst", "lasist", "lasast"]
+				},
+				"þátíð": {
+					"et": ["lasaðist", "lasaðist", "lasaðist"],
+					"ft": ["lösuðumst", "lösuðust", "lösuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lasist", "lasist", "lasist"],
+					"ft": ["lösumst", "lasist", "lasist"]
+				},
+				"þátíð": {
+					"et": ["lasaðist", "lasaðist", "lasaðist"],
+					"ft": ["lösuðumst", "lösuðust", "lösuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lasistu"
+				},
+				"þátíð": {
+					"et": "lasaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lasistu"
+				},
+				"þátíð": {
+					"et": "lasaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lasandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["lasaður", "lasaðan", "lösuðum", "lasaðs"],
+					"kvk": ["lösuð", "lasaða", "lasaðri", "lasaðrar"],
+					"hk": ["lasað", "lasað", "lösuðu", "lasaðs"]
+				},
+				"ft": {
+					"kk": ["lasaðir", "lasaða", "lösuðum", "lasaðra"],
+					"kvk": ["lasaðar", "lasaðar", "lösuðum", "lasaðra"],
+					"hk": ["lösuð", "lösuð", "lösuðum", "lasaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["lasaði", "lasaða", "lasaða", "lasaða"],
+					"kvk": ["lasaða", "lösuðu", "lösuðu", "lösuðu"],
+					"hk": ["lasaða", "lasaða", "lasaða", "lasaða"]
+				},
+				"ft": {
+					"kk": ["lösuðu", "lösuðu", "lösuðu", "lösuðu"],
+					"kvk": ["lösuðu", "lösuðu", "lösuðu", "lösuðu"],
+					"hk": ["lösuðu", "lösuðu", "lösuðu", "lösuðu"]
+				}
+			}
+		}
+	},
+	"ósjálfstætt": true,
+	"kennistrengur": "so-lasa-ó",
+	"hash": "a3fdf38c239ebd7606cac73fe11d0bc3e1ff776c0b9fe88661c5fe979a1662da"
+}

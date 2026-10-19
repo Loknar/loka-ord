@@ -1,0 +1,131 @@
+{
+	"orð": "álasa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "á",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-á"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-lasa-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "álasa",
+		"sagnbót": "álasa",
+		"boðháttur": {
+			"stýfður": "álasa",
+			"et": "álasaðu",
+			"ft": "álasið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["álasa", "álasar", "álasar"],
+					"ft": ["álösum", "álasið", "álasa"]
+				},
+				"þátíð": {
+					"et": ["álasaði", "álasaðir", "álasaði"],
+					"ft": ["álösuðum", "álösuðuð", "álösuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["álasi", "álasir", "álasi"],
+					"ft": ["álasum", "álasið", "álasi"]
+				},
+				"þátíð": {
+					"et": ["álasaði", "álasaðir", "álasaði"],
+					"ft": ["álösuðum", "álösuðuð", "álösuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "álasarðu",
+					"ft": "álasiði"
+				},
+				"þátíð": {
+					"et": "álasaðirðu",
+					"ft": "álösuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "álasirðu",
+					"ft": "álasiði"
+				},
+				"þátíð": {
+					"et": "álasaðirðu",
+					"ft": "álösuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "álasast",
+		"sagnbót": "álasast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["álasast", "álasast", "álasast"],
+					"ft": ["álösumst", "álasist", "álasast"]
+				},
+				"þátíð": {
+					"et": ["álasaðist", "álasaðist", "álasaðist"],
+					"ft": ["álösuðumst", "álösuðust", "álösuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["álasist", "álasist", "álasist"],
+					"ft": ["álösumst", "álasist", "álasist"]
+				},
+				"þátíð": {
+					"et": ["álasaðist", "álasaðist", "álasaðist"],
+					"ft": ["álösuðumst", "álösuðust", "álösuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "álasistu"
+				},
+				"þátíð": {
+					"et": "álasaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "álasistu"
+				},
+				"þátíð": {
+					"et": "álasaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "álasandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["álasaður", "álasaðan", "álösuðum", "álasaðs"],
+					"kvk": ["álösuð", "álasaða", "álasaðri", "álasaðrar"],
+					"hk": ["álasað", "álasað", "álösuðu", "álasaðs"]
+				},
+				"ft": {
+					"kk": ["álasaðir", "álasaða", "álösuðum", "álasaðra"],
+					"kvk": ["álasaðar", "álasaðar", "álösuðum", "álasaðra"],
+					"hk": ["álösuð", "álösuð", "álösuðum", "álasaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-álasa",
+	"hash": "bdb31508c8bff56ddda8dcbff900c7899df9698aecf36feed459519c6588fae0"
+}
