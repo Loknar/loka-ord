@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "vatns",
+			"mynd": "vatnsveitu",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vatn-hk"
-		},
-		{
-			"mynd": "veitu",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-veita-kvk"
+			"kennistrengur": "no-vatnsveita-kvk"
 		},
 		{
 			"kennistrengur": "no-stjóri-kk"
@@ -26,5 +21,5 @@
 		"mg": ["vatnsveitustjórarnir", "vatnsveitustjórana", "vatnsveitustjórunum", "vatnsveitustjóranna"]
 	},
 	"kennistrengur": "no-vatnsveitustjóri-kk",
-	"hash": "01c9d21f755e043f0beae73fafb8db4b24fcaef6bb9d56dbb29e08854fc77dfe"
+	"hash": "517dadb1dcd5b1c1840c47b71314b0bb085e141be77d1292a0707b68334b2579"
 }
