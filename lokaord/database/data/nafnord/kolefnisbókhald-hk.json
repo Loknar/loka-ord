@@ -4,23 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "kol",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kol-hk"
-		},
-		{
-			"mynd": "efnis",
+			"mynd": "kolefnis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-kolefni-hk"
 		},
 		{
-			"mynd": "bók",
-			"samsetning": "stofn",
-			"kennistrengur": "no-bók-kvk"
-		},
-		{
-			"beygingar": ["et"],
-			"kennistrengur": "no-hald-hk"
+			"kennistrengur": "no-bókhald-hk"
 		}
 	],
 	"et": {
@@ -28,5 +17,5 @@
 		"mg": ["kolefnisbókhaldið", "kolefnisbókhaldið", "kolefnisbókhaldinu", "kolefnisbókhaldsins"]
 	},
 	"kennistrengur": "no-kolefnisbókhald-hk",
-	"hash": "095a1f1808824c92879a4c2ae4a3aa0b1001dcfd9c495f1573f78d18a0a19b77"
+	"hash": "c0771ef6af572ab04fcff57d8d12fb4641d9d0fde40fb8f72008ef4d3a8b9406"
 }

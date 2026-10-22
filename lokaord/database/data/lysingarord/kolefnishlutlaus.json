@@ -3,23 +3,13 @@
 	"flokkur": "lýsingarorð",
 	"samsett": [
 		{
-			"mynd": "kol",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kol-hk"
-		},
-		{
-			"mynd": "efnis",
+			"mynd": "kolefnis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
-		},
-		{
-			"mynd": "hlut",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hlutur-kk"
+			"kennistrengur": "no-kolefni-hk"
 		},
 		{
 			"beygingar": ["frumstig"],
-			"kennistrengur": "lo-laus"
+			"kennistrengur": "lo-hlutlaus"
 		}
 	],
 	"frumstig": {
@@ -49,5 +39,5 @@
 		}
 	},
 	"kennistrengur": "lo-kolefnishlutlaus",
-	"hash": "bb346134f2252c2bba63536fcedb3f5fdf329d45bca19d3be88717182b2d301c"
+	"hash": "af4e4409ebf321d23f626688832dede96d6f5993981d66297c4b2fe7311b50c4"
 }

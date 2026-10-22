@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "kol",
-			"samsetning": "stofn",
-			"kennistrengur": "no-kol-hk"
-		},
-		{
-			"mynd": "efnis",
+			"mynd": "kolefnis",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-kolefni-hk"
 		},
 		{
-			"mynd": "hring",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hringur-kk"
-		},
-		{
-			"kennistrengur": "no-rás-kvk"
+			"kennistrengur": "no-hringrás-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["kolefnishringrásirnar", "kolefnishringrásirnar", "kolefnishringrásunum", "kolefnishringrásanna"]
 	},
 	"kennistrengur": "no-kolefnishringrás-kvk",
-	"hash": "f0fa1bc3606bf81a31aa75f7257b59697200fa947676cbe501db2465c6f43b18"
+	"hash": "cca810f88cbb4f8b0e24d68b4daef43aa74c304443b745904a785f6b9ea04bc4"
 }
