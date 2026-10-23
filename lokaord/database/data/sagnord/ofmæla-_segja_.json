@@ -1,0 +1,74 @@
+{
+	"orð": "ofmæla",
+	"flokkur": "sagnorð",
+	"merking": "segja",
+	"samsett": [
+		{
+			"mynd": "of",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.ao-of"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-mæla-_segja_"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "ofmæla",
+		"sagnbót": "ofmælt",
+		"boðháttur": {
+			"stýfður": "ofmæl",
+			"et": "ofmæltu",
+			"ft": "ofmælið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["ofmæli", "ofmælir", "ofmælir"],
+					"ft": ["ofmælum", "ofmælið", "ofmæla"]
+				},
+				"þátíð": {
+					"et": ["ofmælti", "ofmæltir", "ofmælti"],
+					"ft": ["ofmæltum", "ofmæltuð", "ofmæltu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["ofmæli", "ofmælir", "ofmæli"],
+					"ft": ["ofmælum", "ofmælið", "ofmæli"]
+				},
+				"þátíð": {
+					"et": ["ofmælti", "ofmæltir", "ofmælti"],
+					"ft": ["ofmæltum", "ofmæltuð", "ofmæltu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "ofmælirðu",
+					"ft": "ofmæliði"
+				},
+				"þátíð": {
+					"et": "ofmæltirðu",
+					"ft": "ofmæltuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "ofmælirðu",
+					"ft": "ofmæliði"
+				},
+				"þátíð": {
+					"et": "ofmæltirðu",
+					"ft": "ofmæltuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "ofmælandi"
+	},
+	"kennistrengur": "so-ofmæla-_segja_",
+	"hash": "d9fadd9b223f1f16276684b2c96e607f220322c0e440dc58391062b301458312"
+}
