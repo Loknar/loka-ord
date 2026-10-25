@@ -33,6 +33,7 @@ if platform.system() == 'Linux':
 WPP = 2500  # default words per page in webpack
 
 ORDMYNDIR_COUNT = 0  # for saving us processing time when printing stats
+SIGHT_IN_MEMORY = None
 
 
 def get_ordmyndir_count():
@@ -484,6 +485,12 @@ def load_sight(filename='sight', use_pointless=None):
 	"""
 	load data to identify whole words
 	"""
+	global SIGHT_IN_MEMORY
+	if SIGHT_IN_MEMORY is not None:
+		logman.info('Using passed forward sight.')
+		sight_from_memory = SIGHT_IN_MEMORY
+		SIGHT_IN_MEMORY = None  # handle the passed forward sight like a consumable
+		return sight_from_memory
 	if use_pointless is None:
 		use_pointless = (platform.system() == 'Linux')
 	if use_pointless is True and platform.system() != 'Linux':
@@ -515,16 +522,19 @@ def load_sight(filename='sight', use_pointless=None):
 	return sight
 
 
-def build_sight(filename='sight', use_pointless=None):
+def build_sight(
+	filename='sight', use_pointless=None, pass_sight_forward=False, no_write_to_file=False
+):
 	"""
 	collect and construct data to identify whole words
 	"""
 	global ORDMYNDIR_COUNT
+	global SIGHT_IN_MEMORY
 	if use_pointless is None:
 		use_pointless = (platform.system() == 'Linux')
 	logman.info('Building sight ..')
 	if use_pointless is True and platform.system() != 'Linux':
-		logman.warning('Using pointless only available on Linux.')
+		logman.warning('You are using pointless on platform other than Linux.')
 	ts = datetime.datetime.utcnow().strftime(ts_iso)
 	root_storage_dir_abs = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
 	datafiles_dir_abs = os.path.join(root_storage_dir_abs, 'database', 'data')
@@ -716,13 +726,21 @@ def build_sight(filename='sight', use_pointless=None):
 		with sk_file.open(mode='r', encoding='utf-8') as fi:
 			sk_data = json.loads(fi.read())
 		sight['skammstafanir'][sk_data['skammstöfun']] = sk_data
+	# finished collecting sight data
+	ORDMYNDIR_COUNT = len([x for x in sight['orð'].keys()])
+	if pass_sight_forward is True:
+		logman.info('Passing sight data forward in-memory.')
+		SIGHT_IN_MEMORY = sight
+	if no_write_to_file is True:
+		logman.info('Skipping writing sight to file.')
+		return
+	# write sight to file
 	logman.info('Writing sight to "%s" ..' % (sight_filepath_rel, ))
 	if use_pointless is True:
 		pointless.serialize(sight, sight_filepath_abs)
 	else:
 		with open(sight_filepath_abs, 'wb') as file:
 			pickle.dump(sight, file, protocol=pickle.HIGHEST_PROTOCOL)
-	ORDMYNDIR_COUNT = len([x for x in sight['orð'].keys()])
 	logman.info('Sight has been written.')
 
 

@@ -179,8 +179,8 @@ def webpack(words_per_pack: int = seer.WPP):
 	seer.webpack(words_per_pack)
 
 
-def build_sight():
-	seer.build_sight()
+def build_sight(pass_sight_forward = False, no_file = False):
+	seer.build_sight(pass_sight_forward=pass_sight_forward, no_write_to_file=no_file)
 
 
 def search(word: str):

@@ -95,8 +95,11 @@ def write_files(
 
 
 @app.command(help='Build word search.')
-def build_sight():
-	lokaord.build_sight()
+def build_sight(
+	pass_sight_forward: Annotated[Optional[bool], Option('--pass-sight-forward', '-psf')] = False,
+	no_file: Annotated[Optional[bool], Option('--no-file', '-nf')] = False
+):
+	lokaord.build_sight(pass_sight_forward=pass_sight_forward, no_file=no_file)
 
 
 @app.command(help='Pack word files into packed JSON files intended for web use.')
@@ -182,12 +185,14 @@ def update(
 		)
 	] = None,
 	update_readme: Annotated[Optional[bool], Option('--update-readme', '-ur')] = False,
+	pass_sight_forward: Annotated[Optional[bool], Option('--pass-sight-forward', '-psf')] = False,
+	no_file: Annotated[Optional[bool], Option('--no-file', '-nf')] = False,
 	blind: Annotated[Optional[bool], Option('--blind', '-b')] = False
 ):
 	lokaord.build_db(changes_only=True, since_commit=since_commit)
 	lokaord.write_files(lokaord.Ts)
 	if blind is False:
-		lokaord.build_sight()
+		lokaord.build_sight(pass_sight_forward=pass_sight_forward, no_file=no_file)
 	print(lokaord.get_md_stats(update_readme_table=update_readme))
 	lokaord.get_runtime()
 
