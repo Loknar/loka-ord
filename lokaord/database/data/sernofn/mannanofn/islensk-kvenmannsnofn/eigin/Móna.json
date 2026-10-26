@@ -3,9 +3,16 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"hástafa": true,
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-móna-kvk"
+		}
+	],
 	"et": {
 		"ág": ["Móna", "Mónu", "Mónu", "Mónu"]
 	},
 	"kennistrengur": "sérn.en-Móna-kvk",
-	"hash": "c9bb7f2028f120cb0bab57d09d1275cccbf93868ec91b00851d8cd2a7313d964"
+	"hash": "0df4925d912a9bba7bac257a3d4f4494d3d7dd81c60b7d72bea859407ebc8f89"
 }
