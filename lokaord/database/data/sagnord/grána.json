@@ -1,0 +1,99 @@
+{
+	"orð": "grána",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "grán",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-grár"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "grána",
+		"sagnbót": "gránað",
+		"boðháttur": {
+			"stýfður": "grána",
+			"et": "gránaðu",
+			"ft": "gránið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["grána", "gránar", "gránar"],
+					"ft": ["gránum", "gránið", "grána"]
+				},
+				"þátíð": {
+					"et": ["gránaði", "gránaðir", "gránaði"],
+					"ft": ["gránuðum", "gránuðuð", "gránuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["gráni", "gránir", "gráni"],
+					"ft": ["gránum", "gránið", "gráni"]
+				},
+				"þátíð": {
+					"et": ["gránaði", "gránaðir", "gránaði"],
+					"ft": ["gránuðum", "gránuðuð", "gránuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "gránarðu",
+					"ft": "grániði"
+				},
+				"þátíð": {
+					"et": "gránaðirðu",
+					"ft": "gránuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "gránirðu",
+					"ft": "grániði"
+				},
+				"þátíð": {
+					"et": "gránaðirðu",
+					"ft": "gránuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "gránandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["gránaður", "gránaðan", "gránuðum", "gránaðs"],
+					"kvk": ["gránuð", "gránaða", "gránaðri", "gránaðrar"],
+					"hk": ["gránað", "gránað", "gránuðu", "gránaðs"]
+				},
+				"ft": {
+					"kk": ["gránaðir", "gránaða", "gránuðum", "gránaðra"],
+					"kvk": ["gránaðar", "gránaðar", "gránuðum", "gránaðra"],
+					"hk": ["gránuð", "gránuð", "gránuðum", "gránaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["gránaði", "gránaða", "gránaða", "gránaða"],
+					"kvk": ["gránaða", "gránuðu", "gránuðu", "gránuðu"],
+					"hk": ["gránaða", "gránaða", "gránaða", "gránaða"]
+				},
+				"ft": {
+					"kk": ["gránuðu", "gránuðu", "gránuðu", "gránuðu"],
+					"kvk": ["gránuðu", "gránuðu", "gránuðu", "gránuðu"],
+					"hk": ["gránuðu", "gránuðu", "gránuðu", "gránuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-grána",
+	"hash": "19052aa095db44a802a55cea19db1dcfbbf43b2f68c86b9c90849a2ff6bec484"
+}

@@ -1,6 +1,16 @@
 {
 	"orð": "huga",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hug",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hugur-kk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "huga",
 		"sagnbót": "hugað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "hugast",
 		"sagnbót": "hugast",
+		"boðháttur": {
+			"et": "hugastu",
+			"ft": "hugist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-huga",
-	"hash": "25a82c15d376189ac972d56a018f0280475cf9c4e024178c578862ea9e511f71"
+	"hash": "f15bd2df45bc6a8a5a9ba80666133f302011b791ddf1452aabba257fe83cdef5"
 }
