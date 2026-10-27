@@ -1,0 +1,113 @@
+{
+	"orð": "rökkva",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rökkv",
+			"samsetning": "bandstafs",
+			"kennistrengur": "no-rökkur-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rökkva",
+		"sagnbót": "rökkvað",
+		"boðháttur": {
+			"stýfður": "rökkva",
+			"et": "rökkvaðu",
+			"ft": "rökkvið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rökkva", "rökkvar", "rökkvar"],
+					"ft": ["rökkvum", "rökkvið", "rökkva"]
+				},
+				"þátíð": {
+					"et": ["rökkvaði", "rökkvaðir", "rökkvaði"],
+					"ft": ["rökkvuðum", "rökkvuðuð", "rökkvuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rökkvi", "rökkvir", "rökkvi"],
+					"ft": ["rökkvum", "rökkvið", "rökkvi"]
+				},
+				"þátíð": {
+					"et": ["rökkvaði", "rökkvaðir", "rökkvaði"],
+					"ft": ["rökkvuðum", "rökkvuðuð", "rökkvuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "rökkvast",
+		"sagnbót": "rökkvast",
+		"boðháttur": {
+			"et": "rökkvastu",
+			"ft": "rökkvist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rökkvast", "rökkvast", "rökkvast"],
+					"ft": ["rökkvumst", "rökkvist", "rökkvast"]
+				},
+				"þátíð": {
+					"et": ["rökkvaðist", "rökkvaðist", "rökkvaðist"],
+					"ft": ["rökkvuðumst", "rökkvuðust", "rökkvuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rökkvist", "rökkvist", "rökkvist"],
+					"ft": ["rökkvumst", "rökkvist", "rökkvist"]
+				},
+				"þátíð": {
+					"et": ["rökkvaðist", "rökkvaðist", "rökkvaðist"],
+					"ft": ["rökkvuðumst", "rökkvuðust", "rökkvuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rökkvastu"
+				},
+				"þátíð": {
+					"et": "rökkvaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rökkvistu"
+				},
+				"þátíð": {
+					"et": "rökkvaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rökkvandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rökkvaður", "rökkvaðan", "rökkvuðum", "rökkvaðs"],
+					"kvk": ["rökkvuð", "rökkvaða", "rökkvaðri", "rökkvaðrar"],
+					"hk": ["rökkvað", "rökkvað", "rökkvuðu", "rökkvaðs"]
+				},
+				"ft": {
+					"kk": ["rökkvaðir", "rökkvaða", "rökkvuðum", "rökkvaðra"],
+					"kvk": ["rökkvaðar", "rökkvaðar", "rökkvuðum", "rökkvaðra"],
+					"hk": ["rökkvuð", "rökkvuð", "rökkvuðum", "rökkvaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rökkva",
+	"hash": "6e02e491f1247a935d51d10cbe144ff40569a1a1ebd427ca885dd8f954253b3c"
+}

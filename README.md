@@ -8,25 +8,25 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 2095 | 1895 | 1961 | 5951 | 20662 | 26751 | 26378 | 73791 | **79742** |
-| **Lýsingarorð** | 640 |   |   |   | 833 |   |   |   | 7338 | **8171** |
-| **Sagnorð**     |   |   |   |   | 1461 |   |   |   | 2484 | **3945** |
+| **Nafnorð**     |   | 2107 | 1898 | 1966 | 5971 | 20670 | 26756 | 26387 | 73813 | **79784** |
+| **Lýsingarorð** | 642 |   |   |   | 833 |   |   |   | 7344 | **8177** |
+| **Sagnorð**     |   |   |   |   | 1464 |   |   |   | 2487 | **3951** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 23 | **63** |
 | **Smáorð**      |   |   |   |   | 358 |   |   |   | 763 | **1121** |
-| **Alls** |   |   |   |   | **8669** |   |   |   | **84501** | **93170** |
+| **Alls** |   |   |   |   | **8692** |   |   |   | **84532** | **93224** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 1357 | 1308 | 19 | 2684 | 1051 | 1292 | 12 | 2355 | **5039** |
+| Eiginnöfn | 1355 | 1308 | 19 | 2682 | 1056 | 1292 | 12 | 2360 | **5042** |
 | Kenninöfn |  |  |  |  | 4951 | 4950 | 4928 | 14829 | **14829** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **2618** |
-| Gælunöfn  | 999 | 452 | 18 | 1469 | 545 | 288 | 10 | 843 | **2312** |
-| Örnefni   | 40 | 196 | 1272 | 1508 | 3724 | 2723 | 2829 | 9276 | **10784** |
-| **Alls**  |   |   |   | **8095** |   |   |   | **27487** | **35582** |
+| Gælunöfn  | 1021 | 453 | 18 | 1492 | 685 | 289 | 10 | 984 | **2476** |
+| Örnefni   | 39 | 196 | 1272 | 1507 | 3725 | 2723 | 2829 | 9277 | **10784** |
+| **Alls**  |   |   |   | **8115** |   |   |   | **27634** | **35749** |
 
-**Samtals:** 128.752 orð.  
-Orðmyndir: 1.271.365
+**Samtals:** 128.973 orð.  
+Orðmyndir: 1.272.502
 
 1.248 skammstafanir.
 
@@ -227,7 +227,7 @@ Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda
 
 Mikilvægt er við framlag orða að ekki sé um afritun úr öðrum orðagrunnum að ræða sem heyra undir útgáfuskilmála sem eru ósamrýmanlegir útgáfuleyfi gagna þessa verkefnis.
 
-Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að leggja fram, þá er öruggast að orðin komi beint úr höfði þeirra sem reiða þau fram.
+Orðagjöfum ber að tryggja að orð sem lögð eru til verkefnisins séu þeim frjálst að leggja fram, þá er öruggast að orðin komi beint úr huga þeirra sem reiða þau fram.
 
 Orð sem skráð eru í grunninn heyra undir útgáfuleyfi gagnanna og verða þannig frjáls til afnota fyrir almenning, að uppfylltum skilmálum útgáfuleyfis gagnanna.
 
@@ -235,9 +235,9 @@ Orð sem skráð eru í grunninn heyra undir útgáfuleyfi gagnanna og verða þ
 
 Hæ, og takk ef þú last svona langt.
 
-Ég hef lagt grunn að **Loka-Orð** orðagrunninum og gef hér út hugbúnað undir LGPLv3-leyfi (sjá `LICENSE`) og gögnin í `lokaord/database/data` og `lokaord/database/disk` undir ODbL-leyfi (sjá `lokaord/database/data/LICENSE-DATA`).
+Ég hef lagt grunn að orðagrunninum **Loka-Orð** og gef hér út hugbúnað undir LGPLv3-leyfi (sjá `LICENSE`) og gögn í `lokaord/database/data` og `lokaord/database/disk` undir ODbL-leyfi (sjá `lokaord/database/data/LICENSE-DATA`).
 
-Leyfin vel ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En jafnframt vil ég að breytingar og viðbætur á grunninum séu áfram frjálsar, svo að viðbætur eða breytingar eins notanda geti gagnast öðrum notendum sem grunninn nota.
+Leyfin vel ég vegna þess að ég vil að hverjum og einum sé frjálst að smíða og nota grunninn á hvern þann hátt sem viðkomandi þóknast. En jafnframt vil ég að breytingar og viðbætur á grunninum séu áfram frjálsar, svo að viðbætur eða breytingar eins notanda geti gagnast öðrum notendum orðagrunnsins.
 
 Orðið er frjálst.
 

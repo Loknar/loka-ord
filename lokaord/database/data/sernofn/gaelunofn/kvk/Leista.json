@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "gælunafn",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Leist",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leistur-kk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Leista", "Leistu", "Leistu", "Leistu"]
 	},
 	"kennistrengur": "sérn.gn-Leista-kvk",
-	"hash": "57d7e47e58c9a8d38194ccf52eb1fa6fa0b05a2bb9de5d5cff4a48260c2bc600"
+	"hash": "ab083304cadd89eb03b4042b56b88b02da102be8324b0933daafd6d46fe71839"
 }
