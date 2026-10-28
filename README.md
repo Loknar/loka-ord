@@ -18,15 +18,15 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 1355 | 1308 | 19 | 2682 | 1056 | 1292 | 12 | 2360 | **5042** |
-| Kenninöfn |  |  |  |  | 4951 | 4950 | 4928 | 14829 | **14829** |
+| Eiginnöfn | 1355 | 1309 | 19 | 2683 | 1056 | 1292 | 12 | 2360 | **5043** |
+| Kenninöfn |  |  |  |  | 4952 | 4951 | 4929 | 14832 | **14832** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **2618** |
-| Gælunöfn  | 1021 | 453 | 18 | 1492 | 685 | 289 | 10 | 984 | **2476** |
+| Gælunöfn  | 1024 | 453 | 18 | 1495 | 713 | 289 | 10 | 1012 | **2507** |
 | Örnefni   | 39 | 196 | 1272 | 1507 | 3725 | 2723 | 2829 | 9277 | **10784** |
-| **Alls**  |   |   |   | **8115** |   |   |   | **27634** | **35749** |
+| **Alls**  |   |   |   | **8119** |   |   |   | **27665** | **35784** |
 
-**Samtals:** 128.973 orð.  
-Orðmyndir: 1.272.502
+**Samtals:** 129.008 orð.  
+Orðmyndir: 1.272.613
 
 1.248 skammstafanir.
 
@@ -219,7 +219,7 @@ lokaord build-db -ch write-files -ts "2023-04-20T22:30" build-sight md-stats
 
 Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
 
-Ég tel að geta til að greina á miłli "tvöfalt-L" orða sem borin eru fram með klikk-hljóði og annarra sé mjög nytsamleg og jafnvel nauðsynleg þegar kemur að orðhugbúnaðartæknivæðingu. Slík geta (útfrá orðinu stöku, þ.e. þurfa ekki að leiða það út frá textasamhengi) mundi auðvelda til muna smíði talgervils og málgreinis.
+Ég tel að geta til að greina á miłli "tvöfalt-L" orða sem borin eru fram með klikk-hljóði og annarra sé mjög nytsamleg og jafnvel nauðsynleg þegar kemur að orðhugbúnaðartæknivæðingu. Slík geta (útfrá orðinu stöku, þ.e. þurfa ekki að leiða það út frá textasamhengi) mundi a.m.m. auðvelda til muna smíði talgervils og málgreinis.
 
 ## Orðframlög (Contributing)
 
