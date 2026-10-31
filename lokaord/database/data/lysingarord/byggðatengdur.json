@@ -1,0 +1,43 @@
+{
+	"orð": "byggðatengdur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "byggða",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-byggð-kvk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-tengdur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["byggðatengdur", "byggðatengdan", "byggðatengdum", "byggðatengds"],
+				"kvk": ["byggðatengd", "byggðatengda", "byggðatengdri", "byggðatengdrar"],
+				"hk": ["byggðatengt", "byggðatengt", "byggðatengdu", "byggðatengds"]
+			},
+			"ft": {
+				"kk": ["byggðatengdir", "byggðatengda", "byggðatengdum", "byggðatengdra"],
+				"kvk": ["byggðatengdar", "byggðatengdar", "byggðatengdum", "byggðatengdra"],
+				"hk": ["byggðatengd", "byggðatengd", "byggðatengdum", "byggðatengdra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["byggðatengdi", "byggðatengda", "byggðatengda", "byggðatengda"],
+				"kvk": ["byggðatengda", "byggðatengdu", "byggðatengdu", "byggðatengdu"],
+				"hk": ["byggðatengda", "byggðatengda", "byggðatengda", "byggðatengda"]
+			},
+			"ft": {
+				"kk": ["byggðatengdu", "byggðatengdu", "byggðatengdu", "byggðatengdu"],
+				"kvk": ["byggðatengdu", "byggðatengdu", "byggðatengdu", "byggðatengdu"],
+				"hk": ["byggðatengdu", "byggðatengdu", "byggðatengdu", "byggðatengdu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-byggðatengdur",
+	"hash": "27297387be38fd7264bf94b1ff902355f3365957ca12e09ae76975a9387fa33f"
+}
