@@ -228,6 +228,41 @@ def scan_sentence(
 			scanned_word_alt['leiðir'] += e_word_with_dot[0]
 			e_word_with_dot = e_word_with_dot[1:]
 		e_word_with_dot_lower = e_word_with_dot.lower()
+		# check if ættarnafn/miłlinafn with trailing "s"
+		if word.endswith('s') and word[:-1] in sight['orð']:
+			possible_millinafn = False
+			for option_kennistr, option_mynd in sight['orð'][word[:-1]]:
+				if option_kennistr.startswith('sérn.mn-'):
+					possible_millinafn = True
+					break
+			if possible_millinafn is True:
+				e_word_p = word[:-1]
+				scanned_word['orð-hreinsað'] = e_word_p
+				scanned_word['fylgir'] = 's'
+				scanned_word['staða'] = 'mögulega'
+				for option_kennistr, option_mynd in sight['orð'][e_word_p]:
+					scanned_word['möguleikar'].append({'k': option_kennistr, 'm': option_mynd})
+					set_kennistrengir.add(option_kennistr)
+				maybe += 1
+				scanned_sentence.append(scanned_word)
+				continue
+		if e_word.endswith('s') and e_word[:-1] in sight['orð']:
+			possible_millinafn = False
+			for option_kennistr, option_mynd in sight['orð'][e_word[:-1]]:
+				if option_kennistr.startswith('sérn.mn-'):
+					possible_millinafn = True
+					break
+			if possible_millinafn is True:
+				e_word_p = e_word[:-1]
+				scanned_word['orð-hreinsað'] = e_word_p
+				scanned_word['fylgir'] = '%s%s' % (e_word[-1], scanned_word['fylgir'])
+				scanned_word['staða'] = 'mögulega'
+				for option_kennistr, option_mynd in sight['orð'][e_word_p]:
+					scanned_word['möguleikar'].append({'k': option_kennistr, 'm': option_mynd})
+					set_kennistrengir.add(option_kennistr)
+				maybe += 1
+				scanned_sentence.append(scanned_word)
+				continue
 		if word in sight['skammstafanir']:
 			myndir = ' / '.join(['"%s"' % x for x in sight['skammstafanir'][word]['myndir']])
 			scanned_word['staða'] = 'skammstöfun'
