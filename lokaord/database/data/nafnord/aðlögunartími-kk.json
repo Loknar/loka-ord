@@ -4,17 +4,11 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "að",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-að"
-		},
-		{
-			"mynd": "lögunar",
+			"mynd": "aðlögunar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lögun-kvk"
+			"kennistrengur": "no-aðlögun-kvk"
 		},
 		{
-			"beygingar": ["et"],
 			"kennistrengur": "no-tími-kk"
 		}
 	],
@@ -22,6 +16,10 @@
 		"ág": ["aðlögunartími", "aðlögunartíma", "aðlögunartíma", "aðlögunartíma"],
 		"mg": ["aðlögunartíminn", "aðlögunartímann", "aðlögunartímanum", "aðlögunartímans"]
 	},
+	"ft": {
+		"ág": ["aðlögunartímar", "aðlögunartíma", "aðlögunartímum", "aðlögunartíma"],
+		"mg": ["aðlögunartímarnir", "aðlögunartímana", "aðlögunartímunum", "aðlögunartímanna"]
+	},
 	"kennistrengur": "no-aðlögunartími-kk",
-	"hash": "fc8e3243208ff9016c5ea0bc2f3dcd8b945e8b8b0b5229d4840b00151ede86c4"
+	"hash": "2fe7f15f1e5accd99a669d1e21d63b464dea31f7c3d12bb5edd512dcdb8cd263"
 }
