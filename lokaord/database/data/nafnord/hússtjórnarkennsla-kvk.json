@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "hús",
-			"samsetning": "stofn",
-			"kennistrengur": "no-hús-hk"
-		},
-		{
-			"mynd": "stjórnar",
+			"mynd": "hússtjórnar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-stjórn-kvk"
+			"kennistrengur": "no-hússtjórn-kvk"
 		},
 		{
 			"beygingar": ["et"],
@@ -23,5 +18,5 @@
 		"mg": ["hússtjórnarkennslan", "hússtjórnarkennsluna", "hússtjórnarkennslunni", "hússtjórnarkennslunnar"]
 	},
 	"kennistrengur": "no-hússtjórnarkennsla-kvk",
-	"hash": "80d1fddfea2e1ddfb3d117b30639c54637632a8edc63a869fc58567f857a947c"
+	"hash": "601bb9665e8591e155e172100161ea3fad40e4c7c48d0282278f78b329b8269f"
 }

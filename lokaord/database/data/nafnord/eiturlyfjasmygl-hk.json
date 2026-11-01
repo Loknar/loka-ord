@@ -4,16 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "eitur",
-			"samsetning": "stofn",
-			"kennistrengur": "no-eitur-hk"
-		},
-		{
-			"mynd": "lyfja",
+			"mynd": "eiturlyfja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-lyf-hk"
+			"kennistrengur": "no-eiturlyf-hk"
 		},
 		{
+			"beygingar": ["et"],
 			"kennistrengur": "no-smygl-hk"
 		}
 	],
@@ -22,5 +18,5 @@
 		"mg": ["eiturlyfjasmyglið", "eiturlyfjasmyglið", "eiturlyfjasmyglinu", "eiturlyfjasmyglsins"]
 	},
 	"kennistrengur": "no-eiturlyfjasmygl-hk",
-	"hash": "8b32b1f109f30dafa0f014067e8f35307c00af4e5ec3a40dd09976e68b21b2ca"
+	"hash": "727409007f2e75e3d07ebf39087a550318b9df1e13eeff2fc28078b72b7e7b03"
 }

@@ -1,0 +1,99 @@
+{
+	"orð": "handmála",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-mála"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handmála",
+		"sagnbót": "handmálað",
+		"boðháttur": {
+			"stýfður": "handmála",
+			"et": "handmálaðu",
+			"ft": "handmálið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handmála", "handmálar", "handmálar"],
+					"ft": ["handmálum", "handmálið", "handmála"]
+				},
+				"þátíð": {
+					"et": ["handmálaði", "handmálaðir", "handmálaði"],
+					"ft": ["handmáluðum", "handmáluðuð", "handmáluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handmáli", "handmálir", "handmáli"],
+					"ft": ["handmálum", "handmálið", "handmáli"]
+				},
+				"þátíð": {
+					"et": ["handmálaði", "handmálaðir", "handmálaði"],
+					"ft": ["handmáluðum", "handmáluðuð", "handmáluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handmálarðu",
+					"ft": "handmáliði"
+				},
+				"þátíð": {
+					"et": "handmálaðirðu",
+					"ft": "handmáluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handmálirðu",
+					"ft": "handmáliði"
+				},
+				"þátíð": {
+					"et": "handmálaðirðu",
+					"ft": "handmáluðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handmálandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handmálaður", "handmálaðan", "handmáluðum", "handmálaðs"],
+					"kvk": ["handmáluð", "handmálaða", "handmálaðri", "handmálaðrar"],
+					"hk": ["handmálað", "handmálað", "handmáluðu", "handmálaðs"]
+				},
+				"ft": {
+					"kk": ["handmálaðir", "handmálaða", "handmáluðum", "handmálaðra"],
+					"kvk": ["handmálaðar", "handmálaðar", "handmáluðum", "handmálaðra"],
+					"hk": ["handmáluð", "handmáluð", "handmáluðum", "handmálaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handmálaði", "handmálaða", "handmálaða", "handmálaða"],
+					"kvk": ["handmálaða", "handmáluðu", "handmáluðu", "handmáluðu"],
+					"hk": ["handmálaða", "handmálaða", "handmálaða", "handmálaða"]
+				},
+				"ft": {
+					"kk": ["handmáluðu", "handmáluðu", "handmáluðu", "handmáluðu"],
+					"kvk": ["handmáluðu", "handmáluðu", "handmáluðu", "handmáluðu"],
+					"hk": ["handmáluðu", "handmáluðu", "handmáluðu", "handmáluðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handmála",
+	"hash": "198b45260dd32d093477a0b7ac5ed86adeeaf2766b0abf04e0c565dadd0412c1"
+}
