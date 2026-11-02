@@ -1,6 +1,16 @@
 {
 	"orð": "klikka",
 	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "klikk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-klikk-hk"
+		},
+		{
+			"kennistrengur": "so-a-ó"
+		}
+	],
 	"germynd": {
 		"nafnháttur": "klikka",
 		"sagnbót": "klikkað",
@@ -57,6 +67,10 @@
 	"miðmynd": {
 		"nafnháttur": "klikkast",
 		"sagnbót": "klikkast",
+		"boðháttur": {
+			"et": "klikkastu",
+			"ft": "klikkist"
+		},
 		"persónuleg": {
 			"framsöguháttur": {
 				"nútíð": {
@@ -128,5 +142,5 @@
 		}
 	},
 	"kennistrengur": "so-klikka",
-	"hash": "8576d19d9ce81df8dd8d20658615d9553a73c3ceefd97551c25bf0c04015ca6e"
+	"hash": "6e157811e4f76f284254bcdb1ee4a7311d2bf66a40ec099fae805aa7c1888dae"
 }

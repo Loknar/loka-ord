@@ -8,27 +8,27 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 2126 | 1900 | 1970 | 5996 | 20798 | 26913 | 26510 | 74221 | **80217** |
-| **Lýsingarorð** | 647 |   |   |   | 834 |   |   |   | 7380 | **8214** |
-| **Sagnorð**     |   |   |   |   | 1465 |   |   |   | 2496 | **3961** |
+| **Nafnorð**     |   | 2127 | 1900 | 1971 | 5998 | 20814 | 26928 | 26528 | 74270 | **80268** |
+| **Lýsingarorð** | 647 |   |   |   | 834 |   |   |   | 7384 | **8218** |
+| **Sagnorð**     |   |   |   |   | 1464 |   |   |   | 2497 | **3961** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 23 | **63** |
-| **Smáorð**      |   |   |   |   | 358 |   |   |   | 765 | **1123** |
-| **Alls** |   |   |   |   | **8719** |   |   |   | **84987** | **93706** |
+| **Smáorð**      |   |   |   |   | 358 |   |   |   | 766 | **1124** |
+| **Alls** |   |   |   |   | **8720** |   |   |   | **85042** | **93762** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Eiginnöfn | 1354 | 1309 | 19 | 2682 | 1061 | 1292 | 12 | 2365 | **5047** |
 | Kenninöfn |  |  |  |  | 4952 | 4951 | 4929 | 14832 | **14832** |
 | Miłlinöfn |   |   |   |   |   |   |   |   | **2635** |
-| Gælunöfn  | 1044 | 455 | 18 | 1517 | 845 | 291 | 10 | 1146 | **2663** |
-| Örnefni   | 40 | 198 | 1288 | 1526 | 3731 | 2729 | 2847 | 9307 | **10833** |
-| **Alls**  |   |   |   | **8176** |   |   |   | **27834** | **36010** |
+| Gælunöfn  | 1046 | 455 | 18 | 1519 | 897 | 291 | 10 | 1198 | **2717** |
+| Örnefni   | 40 | 198 | 1291 | 1529 | 3731 | 2729 | 2848 | 9308 | **10837** |
+| **Alls**  |   |   |   | **8181** |   |   |   | **27887** | **36068** |
 
-**Samtals:** 129.716 orð.  
-Orðmyndir: 1.278.896
+**Samtals:** 129.830 orð.  
+Orðmyndir: 1.279.646
 
-1.256 skammstafanir.
+1.261 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -215,11 +215,19 @@ lokaord build-db -ch write-files -ts "2023-04-20T22:30" build-sight md-stats
 
 ## Frávik frá hefðbundinni íslensku (Deviances from traditional icelandic)
 
-Í grunninum eru frávik frá hefðbundinni íslensku þegar kemur að skrift orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svoköłluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (samfestingur eða flík) og "gałli" (vankantur eða brestur).
+### Tvöfalt ełl
+
+Í grunninum er frávik frá hefðbundinni íslensku þegar kemur að stöfun orða sem innihalda tvöfalt L. Þá eru þau "tvöfalt-L" orð sem borin eru fram með svoköłluðu klikk-hljóði skrifuð með "łl" í stað "ll", þ.e. fyrra ełlið er hið pólska Ł. Þetta frávik er innleitt með það í huga að geta greint á miłli orða eins og "galli" (samfestingur eða flík) og "gałli" (vankantur eða brestur).
 
 Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
 
 Ég tel að geta til að greina á miłli "tvöfalt-L" orða sem borin eru fram með klikk-hljóði og annarra sé mjög nytsamleg og jafnvel nauðsynleg þegar kemur að orðhugbúnaðartæknivæðingu. Slík geta (útfrá orðinu stöku, þ.e. þurfa ekki að leiða það út frá textasamhengi) mundi a.m.m. auðvelda til muna smíði talgervils og málgreinis.
+
+### Undirflokkurinn "örnefni"
+
+Í Loka-Orðum ber einn undirflokkur sérnafna nafnið "örnefni". Almennt þekkt skilgreining á orðinu örnefni er "sérnafn á stað, svæði eða kennileiti", en í Loka-Orðum er örnefni einfaldlega sérnafn á öłlu öðru en lifandi verum, t.d. stöðum, svæðum, borgum, kennileitum, fyrirtækjum, ríkjum, samtökum, kenningum, hugbúnaði, forritunarmálum, stýrikerfum o.s.frv.
+
+Rök fyrir ofangreindu er m.a. að enginn orðfræðilegur munur er á t.d. orðinu "Askja" hvort sem það tilheyrir fjałli eða fyrirtæki. Hægt hefði verið að stofna fleiri undirflokka fyrir sérnöfn en höfundur kaus þess í stað að víkka frekar eigin skilgreiningu á merkingu orðsins "örnefni". Þannig var umfang verkefnisins (e. project scope) njörvað við beygingar- eða samsetningarlýsingu orðs, en það að tilgreina hverju orðið tilheyrir (annað en að vera sérnafn sem tilheyrir ekki lifandi veru) fært út fyrir umfang verkefnisins.
 
 ## Orðframlög (Contributing)
 
