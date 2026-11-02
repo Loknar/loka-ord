@@ -18,3 +18,7 @@ class VoidKennistrengurError(LokaordException):
 
 class OrdToDeleteHasDependentsError(LokaordException):
 	"""Raise when attempting to delete orð which has dependents"""
+
+
+class GitIsDirtyError(LokaordException):
+	"""Raise when git is dirty where it should be clean"""

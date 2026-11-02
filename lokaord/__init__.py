@@ -18,7 +18,7 @@ from lokaord import seer
 from lokaord import stats
 from lokaord import tui
 from lokaord.database import db
-from lokaord.exc import OrdToDeleteHasDependentsError
+from lokaord.exc import GitIsDirtyError, OrdToDeleteHasDependentsError
 from lokaord.version import __version__  # noqa
 
 Name = 'lokaord'
@@ -250,7 +250,7 @@ def assert_clean_git():
 			feedback += 'Untracked:\n'
 			for untracked_file in untracked_files:
 				feedback += '    %s\n' % (untracked_file, )
-		raise Exception(feedback)
+		raise GitIsDirtyError(feedback)
 	print('\nThe git repo is all clean!')
 
 
