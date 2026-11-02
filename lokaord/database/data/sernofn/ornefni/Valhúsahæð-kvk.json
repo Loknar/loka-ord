@@ -1,0 +1,27 @@
+{
+	"orð": "Valhúsahæð",
+	"flokkur": "sérnafn",
+	"undirflokkur": "örnefni",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Val",
+			"samsetning": "stofn",
+			"kennistrengur": "no-valur-kk"
+		},
+		{
+			"mynd": "húsa",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-hús-hk"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-hæð-kvk"
+		}
+	],
+	"et": {
+		"ág": ["Valhúsahæð", "Valhúsahæð", "Valhúsahæð", "Valhúsahæðar"]
+	},
+	"kennistrengur": "sérn.ön-Valhúsahæð-kvk",
+	"hash": "1c06aadf332136bcd013e91ed034ecbec6b3f55edea135002b14af31faab7d02"
+}

@@ -8,7 +8,6 @@
 			"kennistrengur": "so-prýða"
 		},
 		{
-			"beygingar": ["frumstig"],
 			"kennistrengur": "lo-ddur-ó"
 		}
 	],
@@ -38,6 +37,46 @@
 			}
 		}
 	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["prýddari", "prýddari", "prýddari", "prýddari"],
+				"kvk": ["prýddari", "prýddari", "prýddari", "prýddari"],
+				"hk": ["prýddara", "prýddara", "prýddara", "prýddara"]
+			},
+			"ft": {
+				"kk": ["prýddari", "prýddari", "prýddari", "prýddari"],
+				"kvk": ["prýddari", "prýddari", "prýddari", "prýddari"],
+				"hk": ["prýddari", "prýddari", "prýddari", "prýddari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["prýddastur", "prýddastan", "prýddustum", "prýddasts"],
+				"kvk": ["prýddust", "prýddasta", "prýddastri", "prýddastrar"],
+				"hk": ["prýddast", "prýddast", "prýddustu", "prýddasts"]
+			},
+			"ft": {
+				"kk": ["prýddastir", "prýddasta", "prýddustum", "prýddastra"],
+				"kvk": ["prýddastar", "prýddastar", "prýddustum", "prýddastra"],
+				"hk": ["prýddust", "prýddust", "prýddustum", "prýddastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["prýddasti", "prýddasta", "prýddasta", "prýddasta"],
+				"kvk": ["prýddasta", "prýddustu", "prýddustu", "prýddustu"],
+				"hk": ["prýddasta", "prýddasta", "prýddasta", "prýddasta"]
+			},
+			"ft": {
+				"kk": ["prýddustu", "prýddustu", "prýddustu", "prýddustu"],
+				"kvk": ["prýddustu", "prýddustu", "prýddustu", "prýddustu"],
+				"hk": ["prýddustu", "prýddustu", "prýddustu", "prýddustu"]
+			}
+		}
+	},
 	"kennistrengur": "lo-prýddur",
-	"hash": "df5dba7fa118ff18555c54a32260e41b6ef200e7a89b98248aa9601ea94e4534"
+	"hash": "acf5c809ca2c3c414565fd69827deafffefc220313fb8aa05852fde24fe93713"
 }
