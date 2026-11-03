@@ -55,8 +55,34 @@
 		}
 	},
 	"lýsingarháttur": {
-		"nútíðar": "hafnandi"
+		"nútíðar": "hafnandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hafnaður", "hafnaðan", "höfnuðum", "hafnaðs"],
+					"kvk": ["höfnuð", "hafnaða", "hafnaðri", "hafnaðrar"],
+					"hk": ["hafnað", "hafnað", "höfnuðu", "hafnaðs"]
+				},
+				"ft": {
+					"kk": ["hafnaðir", "hafnaða", "höfnuðum", "hafnaðra"],
+					"kvk": ["hafnaðar", "hafnaðar", "höfnuðum", "hafnaðra"],
+					"hk": ["höfnuð", "höfnuð", "höfnuðum", "hafnaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["hafnaði", "hafnaða", "hafnaða", "hafnaða"],
+					"kvk": ["hafnaða", "höfnuðu", "höfnuðu", "höfnuðu"],
+					"hk": ["hafnaða", "hafnaða", "hafnaða", "hafnaða"]
+				},
+				"ft": {
+					"kk": ["höfnuðu", "höfnuðu", "höfnuðu", "höfnuðu"],
+					"kvk": ["höfnuðu", "höfnuðu", "höfnuðu", "höfnuðu"],
+					"hk": ["höfnuðu", "höfnuðu", "höfnuðu", "höfnuðu"]
+				}
+			}
+		}
 	},
 	"kennistrengur": "so-hafna",
-	"hash": "4414be7c009c54ae4e5156ff3d6e39162725ccbd2454c8729eae914d3cb54e00"
+	"hash": "1e08fbd9a22e7a195a349cd185ab496fa5d8c2153384e2af2a1dc1bcd0b67a49"
 }

@@ -1,0 +1,22 @@
+{
+	"orð": "fjárhagsáætlunargögn",
+	"flokkur": "nafnorð",
+	"kyn": "hk",
+	"samsett": [
+		{
+			"mynd": "fjárhagsáætlunar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-fjárhagsáætlun-kvk"
+		},
+		{
+			"beygingar": ["ft"],
+			"kennistrengur": "no-gagn-hk"
+		}
+	],
+	"ft": {
+		"ág": ["fjárhagsáætlunargögn", "fjárhagsáætlunargögn", "fjárhagsáætlunargögnum", "fjárhagsáætlunargagna"],
+		"mg": ["fjárhagsáætlunargögnin", "fjárhagsáætlunargögnin", "fjárhagsáætlunargögnunum", "fjárhagsáætlunargagnanna"]
+	},
+	"kennistrengur": "no-fjárhagsáætlunargögn-hk",
+	"hash": "8026a187d7c9964917af526a0dee66c62159119ca570faa4f29bb011ebe48239"
+}

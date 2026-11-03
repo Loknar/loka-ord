@@ -1,0 +1,25 @@
+{
+	"orð": "skuldaniðurgreiðsla",
+	"flokkur": "nafnorð",
+	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "skulda",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-skuld-kvk"
+		},
+		{
+			"kennistrengur": "no-niðurgreiðsla-kvk"
+		}
+	],
+	"et": {
+		"ág": ["skuldaniðurgreiðsla", "skuldaniðurgreiðslu", "skuldaniðurgreiðslu", "skuldaniðurgreiðslu"],
+		"mg": ["skuldaniðurgreiðslan", "skuldaniðurgreiðsluna", "skuldaniðurgreiðslunni", "skuldaniðurgreiðslunnar"]
+	},
+	"ft": {
+		"ág": ["skuldaniðurgreiðslur", "skuldaniðurgreiðslur", "skuldaniðurgreiðslum", "skuldaniðurgreiðslna"],
+		"mg": ["skuldaniðurgreiðslurnar", "skuldaniðurgreiðslurnar", "skuldaniðurgreiðslunum", "skuldaniðurgreiðslnanna"]
+	},
+	"kennistrengur": "no-skuldaniðurgreiðsla-kvk",
+	"hash": "67ddfc474ff3d1663464f8dd162cdcb2de336df64f38f895665da72269b85499"
+}
