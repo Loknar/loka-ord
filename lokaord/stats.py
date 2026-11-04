@@ -105,6 +105,17 @@ def get_words_count():
 				db.Session.query(isl.Ord).filter_by(Ordflokkur=isl.Ordflokkar.Radtala).count()
 			)
 		},
+		'greinir': {
+			'kjarnaorð': db.Session.query(isl.Ord).filter_by(
+				Ordflokkur=isl.Ordflokkar.Greinir, Samsett=False
+			).count(),
+			'samsett': db.Session.query(isl.Ord).filter_by(
+				Ordflokkur=isl.Ordflokkar.Greinir, Samsett=True
+			).count(),
+			'samtals': db.Session.query(isl.Ord).filter_by(
+				Ordflokkur=isl.Ordflokkar.Greinir
+			).count()
+		},
 		'fornöfn': {
 			'kjarnaorð': db.Session.query(isl.Ord).filter_by(
 				Ordflokkur=isl.Ordflokkar.Fornafn, Samsett=False
@@ -442,6 +453,7 @@ def get_words_count_markdown_table():
 		'| **Lýsingarorð** | {lo_obl} |   |   |   | {lo_k} |   |   |   | {lo_s} | **{lo_a}** |\n'
 		'| **Sagnorð**     |   |   |   |   | {so_k} |   |   |   | {so_s} | **{so_a}** |\n'
 		'| **Töluorð**     |   |   |   |   | {to_k} |   |   |   | {to_s} | **{to_a}** |\n'
+		'| **Greinir**     |   |   |   |   | {gr_k} |   |   |   | {gr_s} | **{gr_a}** |\n'
 		'| **Fornöfn**     |   |   |   |   | {fn_k} |   |   |   | {fn_s} | **{fn_a}** |\n'
 		'| **Smáorð**      |   |   |   |   | {smo_a_k} |   |   |   | {smo_a_s} | **{smo_a}** |\n'
 		'| **Alls** |   |   |   |   | **{a_1_k}** |   |   |   | **{a_1_s}** | **{a_1_a}** |\n'
@@ -483,6 +495,9 @@ def get_words_count_markdown_table():
 		to_k=data['töluorð']['kjarnaorð'],
 		to_s=data['töluorð']['samsett'],
 		to_a=data['töluorð']['samtals'],
+		gr_k=data['greinir']['kjarnaorð'],
+		gr_s=data['greinir']['samsett'],
+		gr_a=data['greinir']['samtals'],
 		fn_k=data['fornöfn']['kjarnaorð'],
 		fn_s=data['fornöfn']['samsett'],
 		fn_a=data['fornöfn']['samtals'],
