@@ -1,0 +1,82 @@
+{
+	"orð": "getspakur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "get",
+			"samsetning": "stofn",
+			"kennistrengur": "so-geta"
+		},
+		{
+			"kennistrengur": "lo-spakur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["getspakur", "getspakan", "getspökum", "getspaks"],
+				"kvk": ["getspök", "getspaka", "getspakri", "getspakrar"],
+				"hk": ["getspakt", "getspakt", "getspöku", "getspaks"]
+			},
+			"ft": {
+				"kk": ["getspakir", "getspaka", "getspökum", "getspakra"],
+				"kvk": ["getspakar", "getspakar", "getspökum", "getspakra"],
+				"hk": ["getspök", "getspök", "getspökum", "getspakra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["getspaki", "getspaka", "getspaka", "getspaka"],
+				"kvk": ["getspaka", "getspöku", "getspöku", "getspöku"],
+				"hk": ["getspaka", "getspaka", "getspaka", "getspaka"]
+			},
+			"ft": {
+				"kk": ["getspöku", "getspöku", "getspöku", "getspöku"],
+				"kvk": ["getspöku", "getspöku", "getspöku", "getspöku"],
+				"hk": ["getspöku", "getspöku", "getspöku", "getspöku"]
+			}
+		}
+	},
+	"miðstig": {
+		"vb": {
+			"et": {
+				"kk": ["getspakari", "getspakari", "getspakari", "getspakari"],
+				"kvk": ["getspakari", "getspakari", "getspakari", "getspakari"],
+				"hk": ["getspakara", "getspakara", "getspakara", "getspakara"]
+			},
+			"ft": {
+				"kk": ["getspakari", "getspakari", "getspakari", "getspakari"],
+				"kvk": ["getspakari", "getspakari", "getspakari", "getspakari"],
+				"hk": ["getspakari", "getspakari", "getspakari", "getspakari"]
+			}
+		}
+	},
+	"efstastig": {
+		"sb": {
+			"et": {
+				"kk": ["getspakastur", "getspakastan", "getspökustum", "getspakasts"],
+				"kvk": ["getspökust", "getspakasta", "getspakastri", "getspakastrar"],
+				"hk": ["getspakast", "getspakast", "getspökustu", "getspakasts"]
+			},
+			"ft": {
+				"kk": ["getspakastir", "getspakasta", "getspökustum", "getspakastra"],
+				"kvk": ["getspakastar", "getspakastar", "getspökustum", "getspakastra"],
+				"hk": ["getspökust", "getspökust", "getspökustum", "getspakastra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["getspakasti", "getspakasta", "getspakasta", "getspakasta"],
+				"kvk": ["getspakasta", "getspökustu", "getspökustu", "getspökustu"],
+				"hk": ["getspakasta", "getspakasta", "getspakasta", "getspakasta"]
+			},
+			"ft": {
+				"kk": ["getspökustu", "getspökustu", "getspökustu", "getspökustu"],
+				"kvk": ["getspökustu", "getspökustu", "getspökustu", "getspökustu"],
+				"hk": ["getspökustu", "getspökustu", "getspökustu", "getspökustu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-getspakur",
+	"hash": "93ba3cdc2c1bc71fb1e972aa8bfca68a067b25a1edf2428e9fa1e28b3ec22743"
+}

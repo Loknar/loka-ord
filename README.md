@@ -8,27 +8,27 @@ Gagnasafnið telur eftirfarandi fjölda orða:
 
 |   | ó.l | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Nafnorð**     |   | 2131 | 1900 | 1972 | 6003 | 20861 | 26978 | 26571 | 74410 | **80413** |
-| **Lýsingarorð** | 650 |   |   |   | 834 |   |   |   | 7403 | **8237** |
+| **Nafnorð**     |   | 2131 | 1901 | 1973 | 6005 | 20871 | 27014 | 26592 | 74477 | **80482** |
+| **Lýsingarorð** | 650 |   |   |   | 834 |   |   |   | 7405 | **8239** |
 | **Sagnorð**     |   |   |   |   | 1465 |   |   |   | 2499 | **3964** |
 | **Töluorð**     |   |   |   |   | 25 |   |   |   | 102 | **127** |
 | **Fornöfn**     |   |   |   |   | 40 |   |   |   | 23 | **63** |
 | **Smáorð**      |   |   |   |   | 359 |   |   |   | 767 | **1126** |
-| **Alls** |   |   |   |   | **8727** |   |   |   | **85204** | **93931** |
+| **Alls** |   |   |   |   | **8729** |   |   |   | **85273** | **94002** |
 
 | Sérnöfn | kk | kvk | hk | kjarna orð | kk | kvk | hk | samsett orð | samtals |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Eiginnöfn | 1353 | 1309 | 19 | 2681 | 1062 | 1292 | 12 | 2366 | **5047** |
+| Eiginnöfn | 1353 | 1308 | 19 | 2680 | 1062 | 1293 | 12 | 2367 | **5047** |
 | Kenninöfn |  |  |  |  | 4952 | 4951 | 4929 | 14832 | **14832** |
-| Miłlinöfn |   |   |   |   |   |   |   |   | **2653** |
-| Gælunöfn  | 1063 | 460 | 18 | 1541 | 957 | 292 | 10 | 1259 | **2800** |
-| Örnefni   | 41 | 198 | 1316 | 1555 | 3735 | 2732 | 2858 | 9325 | **10880** |
-| **Alls**  |   |   |   | **8246** |   |   |   | **27966** | **36212** |
+| Miłlinöfn |   |   |   |   |   |   |   |   | **2661** |
+| Gælunöfn  | 1068 | 460 | 18 | 1546 | 959 | 292 | 10 | 1261 | **2807** |
+| Örnefni   | 41 | 198 | 1320 | 1559 | 3762 | 2759 | 2888 | 9409 | **10968** |
+| **Alls**  |   |   |   | **8262** |   |   |   | **28053** | **36315** |
 
-**Samtals:** 130.143 orð.  
-Orðmyndir: 1.281.961
+**Samtals:** 130.317 orð.  
+Orðmyndir: 1.283.047
 
-1.262 skammstafanir.
+1.266 skammstafanir.
 
 ## Forkröfur (Requirements)
 
@@ -222,6 +222,16 @@ lokaord build-db -ch write-files -ts "2023-04-20T22:30" build-sight md-stats
 Tungumál breytast og þróast. Samhliða því að leggja áherslu á að vanda okkur við notkun tungumáls okkar verðum við að vera opin fyrir breytingum sem bæta það eða leysa vandamál við notkun þess.
 
 Ég tel að geta til að greina á miłli "tvöfalt-L" orða sem borin eru fram með klikk-hljóði og annarra sé mjög nytsamleg og jafnvel nauðsynleg þegar kemur að orðhugbúnaðartæknivæðingu. Slík geta (útfrá orðinu stöku, þ.e. þurfa ekki að leiða það út frá textasamhengi) mundi a.m.m. auðvelda til muna smíði talgervils og málgreinis.
+
+### Undirflokkurinn miłlinöfn
+
+Ekki er gerður greinarmunur á miłlinöfnum og ættarnöfnum. Þessar tvær nafnatýpur eru orðfræðilega sambærilegar, en ættarnöfn hafa í íslenskum lögum mun verndaðri stöðu en miłlinöfn. Þá eru miłlinöfn staðsett miłli aðalnafns og kenninafns, en ættarnöfn iðulega staðsett aftast í nafni.
+
+Fjöldi erlendra ættarnafna hefur verið skráður í undirflokkinn `"miłlinafn`, með flaggið `"erlent": true`.
+
+### Undirflokkurinn gælunöfn
+
+Fjöldi erlendra nafna hefur verið skráður í undirflokkinn `"gælunafn"`, með flaggið `"erlent": true`.
 
 ### Undirflokkurinn "örnefni"
 

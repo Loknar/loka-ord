@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "get",
-			"samsetning": "stofn",
-			"kennistrengur": "so-geta"
-		},
-		{
-			"mynd": "rauna",
+			"mynd": "getrauna",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-raun-kvk"
+			"kennistrengur": "no-getraun-kvk"
 		},
 		{
 			"kennistrengur": "no-leikur-kk"
@@ -26,5 +21,5 @@
 		"mg": ["getraunaleikirnir", "getraunaleikina", "getraunaleikjunum", "getraunaleikjanna"]
 	},
 	"kennistrengur": "no-getraunaleikur-kk",
-	"hash": "aa43c762b54941a63411ddbcdb6855777750b01fa43e14f099d3ddb19a2d978a"
+	"hash": "f777c3c406ea77af50d2f9e90ad886539833492d2ef9150bbefa04ce2235683e"
 }
