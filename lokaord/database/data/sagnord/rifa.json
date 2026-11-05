@@ -1,0 +1,87 @@
+{
+	"orð": "rifa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "rif",
+			"samsetning": "stofn",
+			"kennistrengur": "no-rifa-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "rifa",
+		"sagnbót": "rifað",
+		"boðháttur": {
+			"stýfður": "rifa",
+			"et": "rifaðu",
+			"ft": "rifið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["rifa", "rifar", "rifar"],
+					"ft": ["rifum", "rifið", "rifa"]
+				},
+				"þátíð": {
+					"et": ["rifaði", "rifaðir", "rifaði"],
+					"ft": ["rifuðum", "rifuðuð", "rifuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["rifi", "rifir", "rifi"],
+					"ft": ["rifum", "rifið", "rifi"]
+				},
+				"þátíð": {
+					"et": ["rifaði", "rifaðir", "rifaði"],
+					"ft": ["rifuðum", "rifuðuð", "rifuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "rifarðu",
+					"ft": "rifiði"
+				},
+				"þátíð": {
+					"et": "rifaðirðu",
+					"ft": "rifuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "rifirðu",
+					"ft": "rifiði"
+				},
+				"þátíð": {
+					"et": "rifaðirðu",
+					"ft": "rifuðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "rifandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["rifaður", "rifaðan", "rifuðum", "rifaðs"],
+					"kvk": ["rifuð", "rifaða", "rifaðri", "rifaðrar"],
+					"hk": ["rifað", "rifað", "rifuðu", "rifaðs"]
+				},
+				"ft": {
+					"kk": ["rifaðir", "rifaða", "rifuðum", "rifaðra"],
+					"kvk": ["rifaðar", "rifaðar", "rifuðum", "rifaðra"],
+					"hk": ["rifuð", "rifuð", "rifuðum", "rifaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-rifa",
+	"hash": "a20c4f9143f724f727109f18710467922b0a511867da3e02b993b110d5093730"
+}
