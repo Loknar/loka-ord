@@ -1075,6 +1075,12 @@ def clean_string(mystr: str) -> str:
 		# aðrar öðruvísi kommur/yfirmerkingar
 		('Õ', 'Ö'),
 		('õ', 'ö'),
+		# annað unicode Ææ entry (Cyrillic), við notum 0xc6 og 0xe6
+		('\u04d4', 'Æ'),
+		('\u04d5', 'æ'),
+		# annað unicode Ii entry (Cyrillic)
+		('\u0406', 'I'),
+		('\u0456', 'i'),
 		# öðruvísi Ð (Latin Alphabet crossed D), skipta út fyrir venjulegt íslenskt Ð (Eth)
 		('\u0110', 'Ð'),
 		('\u0111', 'ð'),
