@@ -1,0 +1,135 @@
+{
+	"orð": "dingla",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "dingl",
+			"samsetning": "stofn",
+			"kennistrengur": "no-dingułl-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "dingla",
+		"sagnbót": "dinglað",
+		"boðháttur": {
+			"stýfður": "dingla",
+			"et": "dinglaðu",
+			"ft": "dinglið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dingla", "dinglar", "dinglar"],
+					"ft": ["dinglum", "dinglið", "dingla"]
+				},
+				"þátíð": {
+					"et": ["dinglaði", "dinglaðir", "dinglaði"],
+					"ft": ["dingluðum", "dingluðuð", "dingluðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dingli", "dinglir", "dingli"],
+					"ft": ["dinglum", "dinglið", "dingli"]
+				},
+				"þátíð": {
+					"et": ["dinglaði", "dinglaðir", "dinglaði"],
+					"ft": ["dingluðum", "dingluðuð", "dingluðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dinglarðu",
+					"ft": "dingliði"
+				},
+				"þátíð": {
+					"et": "dinglaðirðu",
+					"ft": "dingluðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dinglirðu",
+					"ft": "dingliði"
+				},
+				"þátíð": {
+					"et": "dinglaðirðu",
+					"ft": "dingluðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "dinglast",
+		"sagnbót": "dinglast",
+		"boðháttur": {
+			"et": "dinglastu",
+			"ft": "dinglist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["dinglast", "dinglast", "dinglast"],
+					"ft": ["dinglumst", "dinglist", "dinglast"]
+				},
+				"þátíð": {
+					"et": ["dinglaðist", "dinglaðist", "dinglaðist"],
+					"ft": ["dingluðumst", "dingluðust", "dingluðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["dinglist", "dinglist", "dinglist"],
+					"ft": ["dinglumst", "dinglist", "dinglist"]
+				},
+				"þátíð": {
+					"et": ["dinglaðist", "dinglaðist", "dinglaðist"],
+					"ft": ["dingluðumst", "dingluðust", "dingluðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "dinglastu"
+				},
+				"þátíð": {
+					"et": "dinglaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "dinglistu"
+				},
+				"þátíð": {
+					"et": "dinglaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "dinglandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["dinglaður", "dinglaðan", "dingluðum", "dinglaðs"],
+					"kvk": ["dingluð", "dinglaða", "dinglaðri", "dinglaðrar"],
+					"hk": ["dinglað", "dinglað", "dingluðu", "dinglaðs"]
+				},
+				"ft": {
+					"kk": ["dinglaðir", "dinglaða", "dingluðum", "dinglaðra"],
+					"kvk": ["dinglaðar", "dinglaðar", "dingluðum", "dinglaðra"],
+					"hk": ["dingluð", "dingluð", "dingluðum", "dinglaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-dingla",
+	"hash": "820c1ce23fdb394e73bdac003b7269c062c1cc132087bd6e1d6f7e7892a59bcd"
+}

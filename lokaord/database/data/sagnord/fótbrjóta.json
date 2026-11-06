@@ -1,0 +1,99 @@
+{
+	"orð": "fótbrjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fót",
+			"samsetning": "stofn",
+			"kennistrengur": "no-fótur-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-brjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fótbrjóta",
+		"sagnbót": "fótbrotið",
+		"boðháttur": {
+			"stýfður": "fótbrjót",
+			"et": "fótbrjóttu",
+			"ft": "fótbrjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fótbrýt", "fótbrýtur", "fótbrýtur"],
+					"ft": ["fótbrjótum", "fótbrjótið", "fótbrjóta"]
+				},
+				"þátíð": {
+					"et": ["fótbraut", "fótbraust", "fótbraut"],
+					"ft": ["fótbrutum", "fótbrutuð", "fótbrutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fótbrjóti", "fótbrjótir", "fótbrjóti"],
+					"ft": ["fótbrjótum", "fótbrjótið", "fótbrjóti"]
+				},
+				"þátíð": {
+					"et": ["fótbryti", "fótbrytir", "fótbryti"],
+					"ft": ["fótbrytum", "fótbrytuð", "fótbrytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fótbrýturðu",
+					"ft": "fótbrjótiði"
+				},
+				"þátíð": {
+					"et": "fótbraustu",
+					"ft": "fótbrutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fótbrjótirðu",
+					"ft": "fótbrjótiði"
+				},
+				"þátíð": {
+					"et": "fótbrytirðu",
+					"ft": "fótbrytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fótbrjótandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fótbrotinn", "fótbrotinn", "fótbrotnum", "fótbrotins"],
+					"kvk": ["fótbrotin", "fótbrotna", "fótbrotinni", "fótbrotinnar"],
+					"hk": ["fótbrotið", "fótbrotið", "fótbrotnu", "fótbrotins"]
+				},
+				"ft": {
+					"kk": ["fótbrotnir", "fótbrotna", "fótbrotnum", "fótbrotinna"],
+					"kvk": ["fótbrotnar", "fótbrotnar", "fótbrotnum", "fótbrotinna"],
+					"hk": ["fótbrotin", "fótbrotin", "fótbrotnum", "fótbrotinna"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fótbrotni", "fótbrotna", "fótbrotna", "fótbrotna"],
+					"kvk": ["fótbrotna", "fótbrotnu", "fótbrotnu", "fótbrotnu"],
+					"hk": ["fótbrotna", "fótbrotna", "fótbrotna", "fótbrotna"]
+				},
+				"ft": {
+					"kk": ["fótbrotnu", "fótbrotnu", "fótbrotnu", "fótbrotnu"],
+					"kvk": ["fótbrotnu", "fótbrotnu", "fótbrotnu", "fótbrotnu"],
+					"hk": ["fótbrotnu", "fótbrotnu", "fótbrotnu", "fótbrotnu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fótbrjóta",
+	"hash": "e5d0395f63c3706b728635c0a0432f022143aa2b5f06cd7e71f28252942591d8"
+}

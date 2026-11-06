@@ -4,22 +4,12 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vöru",
+			"mynd": "vörumerkja",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vara-kvk"
+			"kennistrengur": "no-vörumerki-hk"
 		},
 		{
-			"mynd": "merkja",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-merki-hk"
-		},
-		{
-			"mynd": "um",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-um"
-		},
-		{
-			"kennistrengur": "no-sókn-kvk"
+			"kennistrengur": "no-umsókn-kvk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["vörumerkjaumsóknirnar", "vörumerkjaumsóknirnar", "vörumerkjaumsóknunum", "vörumerkjaumsóknanna"]
 	},
 	"kennistrengur": "no-vörumerkjaumsókn-kvk",
-	"hash": "1f6d0f5e105ab46a9fed2548f90ba4b67d1358697c0d48091f8d9043a5e30596"
+	"hash": "df92133ba835f05cf876db293337cd239d29e055e295b6987d549db0a788c866"
 }

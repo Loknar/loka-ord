@@ -4,19 +4,9 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "úr",
-			"samsetning": "stofn",
-			"kennistrengur": "smáo.fs-úr"
-		},
-		{
-			"mynd": "vinnslu",
+			"mynd": "úrvinnslugjalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vinnsla-kvk"
-		},
-		{
-			"mynd": "gjalds",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
+			"kennistrengur": "no-úrvinnslugjald-hk"
 		},
 		{
 			"kennistrengur": "no-skírteini-hk"
@@ -31,5 +21,5 @@
 		"mg": ["úrvinnslugjaldsskírteinin", "úrvinnslugjaldsskírteinin", "úrvinnslugjaldsskírteinunum", "úrvinnslugjaldsskírteinanna"]
 	},
 	"kennistrengur": "no-úrvinnslugjaldsskírteini-hk",
-	"hash": "fd18cc9ba5cce301c81d76a5c442093bdaf5b549e7d9e8cea7c09379a5f53d80"
+	"hash": "d393069b6d052c7a23ba47986047f116f15a88001a1163fe13a030b8068e12f4"
 }
