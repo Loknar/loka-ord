@@ -1,0 +1,107 @@
+{
+	"orð": "sléna",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "slén",
+			"samsetning": "stofn",
+			"kennistrengur": "no-slén-hk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sléna",
+		"sagnbót": "slénað",
+		"boðháttur": {
+			"stýfður": "sléna",
+			"et": "slénaðu",
+			"ft": "slénið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sléna", "slénar", "slénar"],
+					"ft": ["slénum", "slénið", "sléna"]
+				},
+				"þátíð": {
+					"et": ["slénaði", "slénaðir", "slénaði"],
+					"ft": ["slénuðum", "slénuðuð", "slénuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sléni", "slénir", "sléni"],
+					"ft": ["slénum", "slénið", "sléni"]
+				},
+				"þátíð": {
+					"et": ["slénaði", "slénaðir", "slénaði"],
+					"ft": ["slénuðum", "slénuðuð", "slénuðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "slénast",
+		"sagnbót": "slénast",
+		"boðháttur": {
+			"et": "slénastu",
+			"ft": "slénist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["slénast", "slénast", "slénast"],
+					"ft": ["slénumst", "slénist", "slénast"]
+				},
+				"þátíð": {
+					"et": ["slénaðist", "slénaðist", "slénaðist"],
+					"ft": ["slénuðumst", "slénuðust", "slénuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["slénist", "slénist", "slénist"],
+					"ft": ["slénumst", "slénist", "slénist"]
+				},
+				"þátíð": {
+					"et": ["slénaðist", "slénaðist", "slénaðist"],
+					"ft": ["slénuðumst", "slénuðust", "slénuðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "slénandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["slénaður", "slénaðan", "slénuðum", "slénaðs"],
+					"kvk": ["slénuð", "slénaða", "slénaðri", "slénaðrar"],
+					"hk": ["slénað", "slénað", "slénuðu", "slénaðs"]
+				},
+				"ft": {
+					"kk": ["slénaðir", "slénaða", "slénuðum", "slénaðra"],
+					"kvk": ["slénaðar", "slénaðar", "slénuðum", "slénaðra"],
+					"hk": ["slénuð", "slénuð", "slénuðum", "slénaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["slénaði", "slénaða", "slénaða", "slénaða"],
+					"kvk": ["slénaða", "slénuðu", "slénuðu", "slénuðu"],
+					"hk": ["slénaða", "slénaða", "slénaða", "slénaða"]
+				},
+				"ft": {
+					"kk": ["slénuðu", "slénuðu", "slénuðu", "slénuðu"],
+					"kvk": ["slénuðu", "slénuðu", "slénuðu", "slénuðu"],
+					"hk": ["slénuðu", "slénuðu", "slénuðu", "slénuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sléna",
+	"hash": "600c25bee71ffd8639847d1c3c2b0f9de3bb0003f7f06d8a65f054f16bb9ce02"
+}
