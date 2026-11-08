@@ -1,0 +1,135 @@
+{
+	"orð": "sytra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "sytr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-sytra-kvk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "sytra",
+		"sagnbót": "sytrað",
+		"boðháttur": {
+			"stýfður": "sytra",
+			"et": "sytraðu",
+			"ft": "sytrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sytra", "sytrar", "sytrar"],
+					"ft": ["sytrum", "sytrið", "sytra"]
+				},
+				"þátíð": {
+					"et": ["sytraði", "sytraðir", "sytraði"],
+					"ft": ["sytruðum", "sytruðuð", "sytruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sytri", "sytrir", "sytri"],
+					"ft": ["sytrum", "sytrið", "sytri"]
+				},
+				"þátíð": {
+					"et": ["sytraði", "sytraðir", "sytraði"],
+					"ft": ["sytruðum", "sytruðuð", "sytruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sytrarðu",
+					"ft": "sytriði"
+				},
+				"þátíð": {
+					"et": "sytraðirðu",
+					"ft": "sytruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sytrirðu",
+					"ft": "sytriði"
+				},
+				"þátíð": {
+					"et": "sytraðirðu",
+					"ft": "sytruðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "sytrast",
+		"sagnbót": "sytrast",
+		"boðháttur": {
+			"et": "sytrastu",
+			"ft": "sytrist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["sytrast", "sytrast", "sytrast"],
+					"ft": ["sytrumst", "sytrist", "sytrast"]
+				},
+				"þátíð": {
+					"et": ["sytraðist", "sytraðist", "sytraðist"],
+					"ft": ["sytruðumst", "sytruðust", "sytruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["sytrist", "sytrist", "sytrist"],
+					"ft": ["sytrumst", "sytrist", "sytrist"]
+				},
+				"þátíð": {
+					"et": ["sytraðist", "sytraðist", "sytraðist"],
+					"ft": ["sytruðumst", "sytruðust", "sytruðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "sytrastu"
+				},
+				"þátíð": {
+					"et": "sytraðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "sytristu"
+				},
+				"þátíð": {
+					"et": "sytraðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "sytrandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["sytraður", "sytraðan", "sytruðum", "sytraðs"],
+					"kvk": ["sytruð", "sytraða", "sytraðri", "sytraðrar"],
+					"hk": ["sytrað", "sytrað", "sytruðu", "sytraðs"]
+				},
+				"ft": {
+					"kk": ["sytraðir", "sytraða", "sytruðum", "sytraðra"],
+					"kvk": ["sytraðar", "sytraðar", "sytruðum", "sytraðra"],
+					"hk": ["sytruð", "sytruð", "sytruðum", "sytraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-sytra",
+	"hash": "4201af8dd2cc39a28c26f72457418c99181d11d94dc149dd472c37d3e37de721"
+}
