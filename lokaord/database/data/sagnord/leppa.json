@@ -1,0 +1,135 @@
+{
+	"orð": "leppa",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lepp",
+			"samsetning": "stofn",
+			"kennistrengur": "no-leppur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "leppa",
+		"sagnbót": "leppað",
+		"boðháttur": {
+			"stýfður": "leppa",
+			"et": "leppaðu",
+			"ft": "leppið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leppa", "leppar", "leppar"],
+					"ft": ["leppum", "leppið", "leppa"]
+				},
+				"þátíð": {
+					"et": ["leppaði", "leppaðir", "leppaði"],
+					"ft": ["leppuðum", "leppuðuð", "leppuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leppi", "leppir", "leppi"],
+					"ft": ["leppum", "leppið", "leppi"]
+				},
+				"þátíð": {
+					"et": ["leppaði", "leppaðir", "leppaði"],
+					"ft": ["leppuðum", "leppuðuð", "leppuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lepparðu",
+					"ft": "leppiði"
+				},
+				"þátíð": {
+					"et": "leppaðirðu",
+					"ft": "leppuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leppirðu",
+					"ft": "leppiði"
+				},
+				"þátíð": {
+					"et": "leppaðirðu",
+					"ft": "leppuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "leppast",
+		"sagnbót": "leppast",
+		"boðháttur": {
+			"et": "leppastu",
+			"ft": "leppist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["leppast", "leppast", "leppast"],
+					"ft": ["leppumst", "leppist", "leppast"]
+				},
+				"þátíð": {
+					"et": ["leppaðist", "leppaðist", "leppaðist"],
+					"ft": ["leppuðumst", "leppuðust", "leppuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["leppist", "leppist", "leppist"],
+					"ft": ["leppumst", "leppist", "leppist"]
+				},
+				"þátíð": {
+					"et": ["leppaðist", "leppaðist", "leppaðist"],
+					"ft": ["leppuðumst", "leppuðust", "leppuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "leppastu"
+				},
+				"þátíð": {
+					"et": "leppaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "leppistu"
+				},
+				"þátíð": {
+					"et": "leppaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "leppandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["leppaður", "leppaðan", "leppuðum", "leppaðs"],
+					"kvk": ["leppuð", "leppaða", "leppaðri", "leppaðrar"],
+					"hk": ["leppað", "leppað", "leppuðu", "leppaðs"]
+				},
+				"ft": {
+					"kk": ["leppaðir", "leppaða", "leppuðum", "leppaðra"],
+					"kvk": ["leppaðar", "leppaðar", "leppuðum", "leppaðra"],
+					"hk": ["leppuð", "leppuð", "leppuðum", "leppaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-leppa",
+	"hash": "435b6fe603fdd51d8ad1d09c62a2a90cf282a1f4f792fe3a2ef845f1af35984d"
+}
