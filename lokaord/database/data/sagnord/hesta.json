@@ -1,0 +1,135 @@
+{
+	"orð": "hesta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hest",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hestur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "hesta",
+		"sagnbót": "hestað",
+		"boðháttur": {
+			"stýfður": "hesta",
+			"et": "hestaðu",
+			"ft": "hestið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hesta", "hestar", "hestar"],
+					"ft": ["hestum", "hestið", "hesta"]
+				},
+				"þátíð": {
+					"et": ["hestaði", "hestaðir", "hestaði"],
+					"ft": ["hestuðum", "hestuðuð", "hestuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hesti", "hestir", "hesti"],
+					"ft": ["hestum", "hestið", "hesti"]
+				},
+				"þátíð": {
+					"et": ["hestaði", "hestaðir", "hestaði"],
+					"ft": ["hestuðum", "hestuðuð", "hestuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hestarðu",
+					"ft": "hestiði"
+				},
+				"þátíð": {
+					"et": "hestaðirðu",
+					"ft": "hestuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hestirðu",
+					"ft": "hestiði"
+				},
+				"þátíð": {
+					"et": "hestaðirðu",
+					"ft": "hestuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "hestast",
+		"sagnbót": "hestast",
+		"boðháttur": {
+			"et": "hestastu",
+			"ft": "hestist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["hestast", "hestast", "hestast"],
+					"ft": ["hestumst", "hestist", "hestast"]
+				},
+				"þátíð": {
+					"et": ["hestaðist", "hestaðist", "hestaðist"],
+					"ft": ["hestuðumst", "hestuðust", "hestuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["hestist", "hestist", "hestist"],
+					"ft": ["hestumst", "hestist", "hestist"]
+				},
+				"þátíð": {
+					"et": ["hestaðist", "hestaðist", "hestaðist"],
+					"ft": ["hestuðumst", "hestuðust", "hestuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "hestastu"
+				},
+				"þátíð": {
+					"et": "hestaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "hestistu"
+				},
+				"þátíð": {
+					"et": "hestaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "hestandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["hestaður", "hestaðan", "hestuðum", "hestaðs"],
+					"kvk": ["hestuð", "hestaða", "hestaðri", "hestaðrar"],
+					"hk": ["hestað", "hestað", "hestuðu", "hestaðs"]
+				},
+				"ft": {
+					"kk": ["hestaðir", "hestaða", "hestuðum", "hestaðra"],
+					"kvk": ["hestaðar", "hestaðar", "hestuðum", "hestaðra"],
+					"hk": ["hestuð", "hestuð", "hestuðum", "hestaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-hesta",
+	"hash": "bb4a81a4e9c967b8b03a5dcc962319fa986e8ff7b05c9122a1bf950afd8c4bf5"
+}
