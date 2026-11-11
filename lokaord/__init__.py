@@ -111,14 +111,14 @@ def use_backup(name: str = None, filename: str = None):
 	if not os.path.exists(sqlite_db_file):
 		# if db file is not present, then fetch it if possible and unzip it
 		if 'src' in backup_handling['handling'][filename]:
-			logman.info(f'Fetching backup release "{filename} ..')
+			logman.info(f'Fetching backup release "{filename}" ..')
 			dl_zip_file = os.path.join(data_directory, f'{filename}.zip')
 			urllib.request.urlretrieve(backup_handling['handling'][filename]['src'], dl_zip_file)
 			zip = zipfile.ZipFile(dl_zip_file, 'r')
 			zip.extractall(data_directory)
 			if not os.path.exists(sqlite_db_file):
 				raise Exception('Downloaded and extracted zip but file missing?')
-			logman.info(f'Backup release "{filename} fetched.')
+			logman.info(f'Backup release "{filename}" fetched.')
 		else:
 			raise Exception('Missing "src" for fetching file.')
 	logman.info(f'Using backup in "{name}", filename "{filename}.sqlite".')
