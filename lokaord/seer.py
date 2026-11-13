@@ -1075,18 +1075,45 @@ def clean_string(mystr: str) -> str:
 		# aðrar öðruvísi kommur/yfirmerkingar
 		('Õ', 'Ö'),
 		('õ', 'ö'),
-		# annað unicode Ææ entry (Cyrillic), við notum 0xc6 og 0xe6
-		('\u04d4', 'Æ'),
-		('\u04d5', 'æ'),
-		# annað unicode Ii entry (Cyrillic)
-		('\u0406', 'I'),
+		# Cyrillic unicode stafablokkin, breyta yfir í venjubundna stafi
+		('\u0405', 'S'),  # S
+		('\u0455', 's'),
+		('\u0406', 'I'),  # I
 		('\u0456', 'i'),
+		('\u0408', 'J'),  # J
+		('\u0458', 'j'),
+		('\u0410', 'A'),  # A
+		('\u0430', 'a'),
+		('\u0412', 'B'),  # B
+		('\u0432', 'b'),
+		('\u0415', 'E'),  # E
+		('\u0435', 'e'),
+		('\u041a', 'K'),  # K
+		('\u043a', 'k'),
+		('\u041c', 'M'),  # M
+		('\u043c', 'm'),
+		('\u041d', 'H'),  # H
+		('\u043d', 'h'),
+		('\u041e', 'O'),  # O
+		('\u043e', 'o'),
+		('\u0420', 'P'),  # P
+		('\u0440', 'p'),
+		('\u0421', 'C'),  # C
+		('\u0441', 'c'),
+		('\u0422', 'T'),  # T
+		('\u0442', 't'),
+		('\u0425', 'X'),  # X
+		('\u0445', 'x'),
+		('\u04d4', 'Æ'),  # Æ
+		('\u04d5', 'æ'),
+		('\u0417', '3'),  # 3
 		# öðruvísi Ð (Latin Alphabet crossed D), skipta út fyrir venjulegt íslenskt Ð (Eth)
 		('\u0110', 'Ð'),
 		('\u0111', 'ð'),
 		# skipta út ákveðnum táknum fyrir skyld venjubundnari tákn
 		('\u2010', '-'),  # Hyphen Unicode Character -> Hyphen-minus
 		('\u2011', '-'),  # Non-Breaking Hyphen -> Hyphen-minus
+		('\u2013', '-'),  # EN DASH -> Hyphen-minus
 		('\u2019', "'"),  # Right Single Quotation Mark -> Apostrophe
 		('\u00b5', 'μ'),  # legacy latin-based "micro" sign -> greek small letter mu
 		# fjarlægja óæskileg tákn
