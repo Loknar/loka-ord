@@ -1,0 +1,95 @@
+{
+	"orð": "skára",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "skár",
+			"samsetning": "stofn",
+			"kennistrengur": "no-skári-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "skára",
+		"sagnbót": "skárað",
+		"boðháttur": {
+			"stýfður": "skára",
+			"et": "skáraðu",
+			"ft": "skárið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skára", "skárar", "skárar"],
+					"ft": ["skárum", "skárið", "skára"]
+				},
+				"þátíð": {
+					"et": ["skáraði", "skáraðir", "skáraði"],
+					"ft": ["skáruðum", "skáruðuð", "skáruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skári", "skárir", "skári"],
+					"ft": ["skárum", "skárið", "skári"]
+				},
+				"þátíð": {
+					"et": ["skáraði", "skáraðir", "skáraði"],
+					"ft": ["skáruðum", "skáruðuð", "skáruðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "skárast",
+		"sagnbót": "skárast",
+		"boðháttur": {
+			"et": "skárastu",
+			"ft": "skárist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["skárast", "skárast", "skárast"],
+					"ft": ["skárumst", "skárist", "skárast"]
+				},
+				"þátíð": {
+					"et": ["skáraðist", "skáraðist", "skáraðist"],
+					"ft": ["skáruðumst", "skáruðust", "skáruðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["skárist", "skárist", "skárist"],
+					"ft": ["skárumst", "skárist", "skárist"]
+				},
+				"þátíð": {
+					"et": ["skáraðist", "skáraðist", "skáraðist"],
+					"ft": ["skáruðumst", "skáruðust", "skáruðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "skárandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["skáraður", "skáraðan", "skáruðum", "skáraðs"],
+					"kvk": ["skáruð", "skáraða", "skáraðri", "skáraðrar"],
+					"hk": ["skárað", "skárað", "skáruðu", "skáraðs"]
+				},
+				"ft": {
+					"kk": ["skáraðir", "skáraða", "skáruðum", "skáraðra"],
+					"kvk": ["skáraðar", "skáraðar", "skáruðum", "skáraðra"],
+					"hk": ["skáruð", "skáruð", "skáruðum", "skáraðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-skára",
+	"hash": "622c0d2884dc453116cc0d0a4e0b4d30d00263cd0fc7104410aa10ffb1c8cbde"
+}

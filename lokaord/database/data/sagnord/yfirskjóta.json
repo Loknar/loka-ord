@@ -1,0 +1,73 @@
+{
+	"orð": "yfirskjóta",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "yfir",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-yfir"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-skjóta"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "yfirskjóta",
+		"sagnbót": "yfirskotið",
+		"boðháttur": {
+			"stýfður": "yfirskjót",
+			"et": "yfirskjóttu",
+			"ft": "yfirskjótið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["yfirskýt", "yfirskýtur", "yfirskýtur"],
+					"ft": ["yfirskjótum", "yfirskjótið", "yfirskjóta"]
+				},
+				"þátíð": {
+					"et": ["yfirskaut", "yfirskaust", "yfirskaut"],
+					"ft": ["yfirskutum", "yfirskutuð", "yfirskutu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["yfirskjóti", "yfirskjótir", "yfirskjóti"],
+					"ft": ["yfirskjótum", "yfirskjótið", "yfirskjóti"]
+				},
+				"þátíð": {
+					"et": ["yfirskyti", "yfirskytir", "yfirskyti"],
+					"ft": ["yfirskytum", "yfirskytuð", "yfirskytu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "yfirskýturðu",
+					"ft": "yfirskjótiði"
+				},
+				"þátíð": {
+					"et": "yfirskaustu",
+					"ft": "yfirskutuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "yfirskjótirðu",
+					"ft": "yfirskjótiði"
+				},
+				"þátíð": {
+					"et": "yfirskytirðu",
+					"ft": "yfirskytuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "yfirskjótandi"
+	},
+	"kennistrengur": "so-yfirskjóta",
+	"hash": "942bf7584ffe656331841dabf11ad085b2e16ff0ceabcdb6d5b2063030849b90"
+}

@@ -2,14 +2,24 @@
 	"orð": "koli",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "kol",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kol-hk"
+		},
+		{
+			"kennistrengur": "no-i-kvk-ó"
+		}
+	],
 	"et": {
-		"ág": ["koli", "kola", "kola", "kola"],
-		"mg": ["kolinn", "kolann", "kolanum", "kolans"]
+		"ág": ["koli", "koli", "koli", "koli"],
+		"mg": ["kolin", "kolina", "kolinni", "kolinnar"]
 	},
 	"ft": {
-		"ág": ["kolar", "kola", "kolum", "kola"],
-		"mg": ["kolarnir", "kolana", "kolunum", "kolanna"]
+		"ág": ["kolir", "kolir", "kolum", "kola"],
+		"mg": ["kolirnar", "kolirnar", "kolunum", "kolanna"]
 	},
 	"kennistrengur": "no-koli-kk",
-	"hash": "040c1ab0e5fad8201c7b0b348720c20b9f6e85f47f5ce25f96b6ebff25a4532e"
+	"hash": "8cd85d4469379e3a23c10f43c2323ac842147710f9a2c8f642d361ded1d26128"
 }
