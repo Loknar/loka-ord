@@ -1,0 +1,142 @@
+{
+	"orð": "húðskamma",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "húð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-húð-kvk"
+		},
+		{
+			"kennistrengur": "so-skamma"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "húðskamma",
+		"sagnbót": "húðskammað",
+		"boðháttur": {
+			"stýfður": "húðskamma",
+			"et": "húðskammaðu",
+			"ft": "húðskammið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húðskamma", "húðskammar", "húðskammar"],
+					"ft": ["húðskömmum", "húðskammið", "húðskamma"]
+				},
+				"þátíð": {
+					"et": ["húðskammaði", "húðskammaðir", "húðskammaði"],
+					"ft": ["húðskömmuðum", "húðskömmuðuð", "húðskömmuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húðskammi", "húðskammir", "húðskammi"],
+					"ft": ["húðskömmum", "húðskammið", "húðskammi"]
+				},
+				"þátíð": {
+					"et": ["húðskammaði", "húðskammaðir", "húðskammaði"],
+					"ft": ["húðskömmuðum", "húðskömmuðuð", "húðskömmuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "húðskammarðu",
+					"ft": "húðskammiði"
+				},
+				"þátíð": {
+					"et": "húðskammaðirðu",
+					"ft": "húðskömmuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "húðskammirðu",
+					"ft": "húðskammiði"
+				},
+				"þátíð": {
+					"et": "húðskammaðirðu",
+					"ft": "húðskömmuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "húðskammast",
+		"sagnbót": "húðskammast",
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["húðskammast", "húðskammast", "húðskammast"],
+					"ft": ["húðskömmumst", "húðskammist", "húðskammast"]
+				},
+				"þátíð": {
+					"et": ["húðskammaðist", "húðskammaðist", "húðskammaðist"],
+					"ft": ["húðskömmuðumst", "húðskömmuðust", "húðskömmuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["húðskammist", "húðskammist", "húðskammist"],
+					"ft": ["húðskömmumst", "húðskammist", "húðskammist"]
+				},
+				"þátíð": {
+					"et": ["húðskammaðist", "húðskammaðist", "húðskammaðist"],
+					"ft": ["húðskömmuðumst", "húðskömmuðust", "húðskömmuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "húðskammastu"
+				},
+				"þátíð": {
+					"et": "húðskammaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "húðskammistu"
+				},
+				"þátíð": {
+					"et": "húðskammaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "húðskammandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["húðskammaður", "húðskammaðan", "húðskömmuðum", "húðskammaðs"],
+					"kvk": ["húðskömmuð", "húðskammaða", "húðskammaðri", "húðskammaðrar"],
+					"hk": ["húðskammað", "húðskammað", "húðskömmuðu", "húðskammaðs"]
+				},
+				"ft": {
+					"kk": ["húðskammaðir", "húðskammaða", "húðskömmuðum", "húðskammaðra"],
+					"kvk": ["húðskammaðar", "húðskammaðar", "húðskömmuðum", "húðskammaðra"],
+					"hk": ["húðskömmuð", "húðskömmuð", "húðskömmuðum", "húðskammaðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["húðskammaði", "húðskammaða", "húðskammaða", "húðskammaða"],
+					"kvk": ["húðskammaða", "húðskömmuðu", "húðskömmuðu", "húðskömmuðu"],
+					"hk": ["húðskammaða", "húðskammaða", "húðskammaða", "húðskammaða"]
+				},
+				"ft": {
+					"kk": ["húðskömmuðu", "húðskömmuðu", "húðskömmuðu", "húðskömmuðu"],
+					"kvk": ["húðskömmuðu", "húðskömmuðu", "húðskömmuðu", "húðskömmuðu"],
+					"hk": ["húðskömmuðu", "húðskömmuðu", "húðskömmuðu", "húðskömmuðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-húðskamma",
+	"hash": "f797c89c98978042e42740c5dccfd871c42395e08cfffd282f972cfc98241d45"
+}
