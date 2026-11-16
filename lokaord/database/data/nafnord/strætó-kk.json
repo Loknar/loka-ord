@@ -2,8 +2,18 @@
 	"orð": "strætó",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "stræt",
+			"samsetning": "stofn",
+			"kennistrengur": "no-strætisvagn-kk"
+		},
+		{
+			"kennistrengur": "no-ó-kk-ó"
+		}
+	],
 	"et": {
-		"ág": ["strætó", "strætó", "strætó", "strætós"],
+		"ág": ["strætó", "strætó", "strætó", "strætó"],
 		"mg": ["strætóinn", "strætóinn", "strætónum", "strætósins"]
 	},
 	"ft": {
@@ -11,5 +21,5 @@
 		"mg": ["strætóarnir", "strætóana", "strætóunum", "strætóanna"]
 	},
 	"kennistrengur": "no-strætó-kk",
-	"hash": "8c463d8261adb33737945db5e4edc31d47c80774a441de2a77582905b9e20cd2"
+	"hash": "9e550f5e278fba1be370705c4ca4598fbed31ba54ca3d6992c0422459b2f599b"
 }

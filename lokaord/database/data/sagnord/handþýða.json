@@ -1,0 +1,99 @@
+{
+	"orð": "handþýða",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "hand",
+			"samsetning": "stofn",
+			"kennistrengur": "no-hönd-kvk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-þýða"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "handþýða",
+		"sagnbót": "handþýtt",
+		"boðháttur": {
+			"stýfður": "handþýð",
+			"et": "handþýddu",
+			"ft": "handþýðið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["handþýði", "handþýðir", "handþýðir"],
+					"ft": ["handþýðum", "handþýðið", "handþýða"]
+				},
+				"þátíð": {
+					"et": ["handþýddi", "handþýddir", "handþýddi"],
+					"ft": ["handþýddum", "handþýdduð", "handþýddu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["handþýði", "handþýðir", "handþýði"],
+					"ft": ["handþýðum", "handþýðið", "handþýði"]
+				},
+				"þátíð": {
+					"et": ["handþýddi", "handþýddir", "handþýddi"],
+					"ft": ["handþýddum", "handþýdduð", "handþýddu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "handþýðirðu",
+					"ft": "handþýðiði"
+				},
+				"þátíð": {
+					"et": "handþýddirðu",
+					"ft": "handþýdduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "handþýðirðu",
+					"ft": "handþýðiði"
+				},
+				"þátíð": {
+					"et": "handþýddirðu",
+					"ft": "handþýdduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "handþýðandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["handþýddur", "handþýddan", "handþýddum", "handþýdds"],
+					"kvk": ["handþýdd", "handþýdda", "handþýddri", "handþýddrar"],
+					"hk": ["handþýtt", "handþýtt", "handþýddu", "handþýdds"]
+				},
+				"ft": {
+					"kk": ["handþýddir", "handþýdda", "handþýddum", "handþýddra"],
+					"kvk": ["handþýddar", "handþýddar", "handþýddum", "handþýddra"],
+					"hk": ["handþýdd", "handþýdd", "handþýddum", "handþýddra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["handþýddi", "handþýdda", "handþýdda", "handþýdda"],
+					"kvk": ["handþýdda", "handþýddu", "handþýddu", "handþýddu"],
+					"hk": ["handþýdda", "handþýdda", "handþýdda", "handþýdda"]
+				},
+				"ft": {
+					"kk": ["handþýddu", "handþýddu", "handþýddu", "handþýddu"],
+					"kvk": ["handþýddu", "handþýddu", "handþýddu", "handþýddu"],
+					"hk": ["handþýddu", "handþýddu", "handþýddu", "handþýddu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-handþýða",
+	"hash": "b112fccf328d59a6c30098cb06526d8acdd2c0378840b0dbf4510f3090e8957c"
+}
