@@ -4,14 +4,9 @@
 	"kyn": "kk",
 	"samsett": [
 		{
-			"mynd": "lands",
+			"mynd": "landsbyggðar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-land-hk"
-		},
-		{
-			"mynd": "byggðar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-byggð-kvk"
+			"kennistrengur": "no-landsbyggð-kvk"
 		},
 		{
 			"kennistrengur": "no-skattur-kk"
@@ -26,5 +21,5 @@
 		"mg": ["landsbyggðarskattarnir", "landsbyggðarskattana", "landsbyggðarsköttunum", "landsbyggðarskattanna"]
 	},
 	"kennistrengur": "no-landsbyggðarskattur-kk",
-	"hash": "cc7bd51eed3af442a9116eee899dcabebbc3382c4d04e61bed1f64efa5fb40e1"
+	"hash": "b865c3745f39ffa366a9c26200b28eba8610ca5054f06d1357e2d24de5cbcc4f"
 }

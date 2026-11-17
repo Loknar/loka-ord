@@ -4,28 +4,22 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "vísinda",
+			"mynd": "vísindaskáldskapar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vísindi-hk"
+			"kennistrengur": "no-vísindaskáldskapur-kk"
 		},
 		{
-			"mynd": "skáld",
-			"samsetning": "stofn",
-			"kennistrengur": "no-skáld-hk"
-		},
-		{
-			"mynd": "skapar",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-skapur-kk-ó"
-		},
-		{
-			"kennistrengur": "no-skapur-kk-ó"
+			"kennistrengur": "no-þema-hk"
 		}
 	],
 	"et": {
-		"ág": ["vísindaskáldskaparskapur", "vísindaskáldskaparskap", "vísindaskáldskaparskap", "vísindaskáldskaparskapar"],
-		"mg": ["vísindaskáldskaparskapurinn", "vísindaskáldskaparskapinn", "vísindaskáldskaparskapnum", "vísindaskáldskaparskaparins"]
+		"ág": ["vísindaskáldskaparþema", "vísindaskáldskaparþema", "vísindaskáldskaparþema", "vísindaskáldskaparþema"],
+		"mg": ["vísindaskáldskaparþemað", "vísindaskáldskaparþemað", "vísindaskáldskaparþemanu", "vísindaskáldskaparþemans"]
+	},
+	"ft": {
+		"ág": ["vísindaskáldskaparþemu", "vísindaskáldskaparþemu", "vísindaskáldskaparþemum", "vísindaskáldskaparþema"],
+		"mg": ["vísindaskáldskaparþemun", "vísindaskáldskaparþemun", "vísindaskáldskaparþemunum", "vísindaskáldskaparþemanna"]
 	},
 	"kennistrengur": "no-vísindaskáldskaparþema-hk",
-	"hash": "1579fa219be31adb191c33ec11b665e03b4a0054b584df78dc0bbf55952d3672"
+	"hash": "29c264b5a785ac9a190598409c93f55c6aff2bccc175f03faccbe0154ae343e7"
 }

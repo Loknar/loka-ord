@@ -4,14 +4,9 @@
 	"kyn": "kvk",
 	"samsett": [
 		{
-			"mynd": "vöru",
+			"mynd": "vörugjalds",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-vara-kvk"
-		},
-		{
-			"mynd": "gjalds",
-			"samsetning": "eignarfalls",
-			"kennistrengur": "no-gjald-hk"
+			"kennistrengur": "no-vörugjald-hk"
 		},
 		{
 			"kennistrengur": "no-skýrsla-kvk"
@@ -26,5 +21,5 @@
 		"mg": ["vörugjaldsskýrslurnar", "vörugjaldsskýrslurnar", "vörugjaldsskýrslunum", "vörugjaldsskýrslnanna"]
 	},
 	"kennistrengur": "no-vörugjaldsskýrsla-kvk",
-	"hash": "f39f13a45a662507718ef443e078e5166a2e189041aa0fc1a6724771189e82cb"
+	"hash": "a1c5d4c79062daebc2ee2139ecef9c1b75d97baf124c57493034e9fe48234145"
 }

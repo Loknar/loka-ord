@@ -1,0 +1,43 @@
+{
+	"orð": "verkskiptur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "verk",
+			"samsetning": "stofn",
+			"kennistrengur": "no-verk-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-skiptur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["verkskiptur", "verkskiptan", "verkskiptum", "verkskipts"],
+				"kvk": ["verkskipt", "verkskipta", "verkskiptri", "verkskiptrar"],
+				"hk": ["verkskipt", "verkskipt", "verkskiptu", "verkskipts"]
+			},
+			"ft": {
+				"kk": ["verkskiptir", "verkskipta", "verkskiptum", "verkskiptra"],
+				"kvk": ["verkskiptar", "verkskiptar", "verkskiptum", "verkskiptra"],
+				"hk": ["verkskipt", "verkskipt", "verkskiptum", "verkskiptra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["verkskipti", "verkskipta", "verkskipta", "verkskipta"],
+				"kvk": ["verkskipta", "verkskiptu", "verkskiptu", "verkskiptu"],
+				"hk": ["verkskipta", "verkskipta", "verkskipta", "verkskipta"]
+			},
+			"ft": {
+				"kk": ["verkskiptu", "verkskiptu", "verkskiptu", "verkskiptu"],
+				"kvk": ["verkskiptu", "verkskiptu", "verkskiptu", "verkskiptu"],
+				"hk": ["verkskiptu", "verkskiptu", "verkskiptu", "verkskiptu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-verkskiptur",
+	"hash": "785c5a5220f19af8f2cb409ff161ea91f29cb9ec12757b8cbbd20284274c985c"
+}
