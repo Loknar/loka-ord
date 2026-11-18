@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "örnefni",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "Efl",
+			"samsetning": "stofn",
+			"kennistrengur": "so-efla"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Efla", "Eflu", "Eflu", "Eflu"]
 	},
 	"kennistrengur": "sérn.ön-Efla-kvk",
-	"hash": "b55e0ed525da689f602bbfb7e44f682e17231576c14114af09f7daba955c6d42"
+	"hash": "1aa8e29e1e458d69f20d65356c3752ca5e9e0a364a03789b37b9979514f108c3"
 }
