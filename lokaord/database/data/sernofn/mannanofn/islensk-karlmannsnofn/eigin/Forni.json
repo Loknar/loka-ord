@@ -3,9 +3,20 @@
 	"flokkur": "sérnafn",
 	"undirflokkur": "eiginnafn",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "Forn",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-forn"
+		},
+		{
+			"beygingar": ["et-ág"],
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["Forni", "Forna", "Forna", "Forna"]
 	},
 	"kennistrengur": "sérn.en-Forni-kk",
-	"hash": "289d9917bc7aac8906be5a50a0f3f62ef4b6d827ee0ee58e52c56ae49ab4c394"
+	"hash": "6f4ac713385972c9bc4e843d6a90e36fa75a88a14f62793d65bd400b72ae827a"
 }
