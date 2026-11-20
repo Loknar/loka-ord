@@ -4,22 +4,12 @@
 	"kyn": "hk",
 	"samsett": [
 		{
-			"mynd": "mynd",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mynd-kvk"
-		},
-		{
-			"mynd": "listar",
+			"mynd": "myndlistar",
 			"samsetning": "eignarfalls",
-			"kennistrengur": "no-list-kvk"
+			"kennistrengur": "no-myndlist-kvk"
 		},
 		{
-			"mynd": "mál",
-			"samsetning": "stofn",
-			"kennistrengur": "no-mál-hk"
-		},
-		{
-			"kennistrengur": "no-efni-hk"
+			"kennistrengur": "no-málefni-hk"
 		}
 	],
 	"et": {
@@ -31,5 +21,5 @@
 		"mg": ["myndlistarmálefnin", "myndlistarmálefnin", "myndlistarmálefnunum", "myndlistarmálefnanna"]
 	},
 	"kennistrengur": "no-myndlistarmálefni-hk",
-	"hash": "0fd3bb6841d56ad7f244a243c34cc191f6d74d55002ee83a520e619be9378829"
+	"hash": "42b176f476cc26598993782be6d1742f0a0aa72e7fbb6593d4f1afcdf8e94bf7"
 }

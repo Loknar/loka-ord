@@ -2,6 +2,16 @@
 	"orð": "smuga",
 	"flokkur": "nafnorð",
 	"kyn": "kvk",
+	"samsett": [
+		{
+			"mynd": "smug",
+			"samsetning": "stofn",
+			"kennistrengur": "so-smjúga"
+		},
+		{
+			"kennistrengur": "no-a-kvk-ó"
+		}
+	],
 	"et": {
 		"ág": ["smuga", "smugu", "smugu", "smugu"],
 		"mg": ["smugan", "smuguna", "smugunni", "smugunnar"]
@@ -11,5 +21,5 @@
 		"mg": ["smugurnar", "smugurnar", "smugunum", "smuganna"]
 	},
 	"kennistrengur": "no-smuga-kvk",
-	"hash": "28a22ec72ff9ba1d80e9700bca43f0267431453efad8848c157832d7fcaa2baf"
+	"hash": "81a2dd2ab40716cdd8f5497f467607cd8752ed27094dfddc9955b47143324e26"
 }

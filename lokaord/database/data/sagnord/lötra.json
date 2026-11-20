@@ -1,0 +1,73 @@
+{
+	"orð": "lötra",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "lötr",
+			"samsetning": "stofn",
+			"kennistrengur": "no-lötur-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "lötra",
+		"sagnbót": "lötrað",
+		"boðháttur": {
+			"stýfður": "lötra",
+			"et": "lötraðu",
+			"ft": "lötrið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["lötra", "lötrar", "lötrar"],
+					"ft": ["lötrum", "lötrið", "lötra"]
+				},
+				"þátíð": {
+					"et": ["lötraði", "lötraðir", "lötraði"],
+					"ft": ["lötruðum", "lötruðuð", "lötruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["lötri", "lötrir", "lötri"],
+					"ft": ["lötrum", "lötrið", "lötri"]
+				},
+				"þátíð": {
+					"et": ["lötraði", "lötraðir", "lötraði"],
+					"ft": ["lötruðum", "lötruðuð", "lötruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "lötrarðu",
+					"ft": "lötriði"
+				},
+				"þátíð": {
+					"et": "lötraðirðu",
+					"ft": "lötruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "lötrirðu",
+					"ft": "lötriði"
+				},
+				"þátíð": {
+					"et": "lötraðirðu",
+					"ft": "lötruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "lötrandi"
+	},
+	"kennistrengur": "so-lötra",
+	"hash": "9e90d727fbb45128cdc0a910ecc0dfd4d2f695ee5c3526d12c9036679e00f9a9"
+}
