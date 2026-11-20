@@ -1,0 +1,48 @@
+{
+	"orð": "hráslagakaldur",
+	"flokkur": "lýsingarorð",
+	"samsett": [
+		{
+			"mynd": "hrá",
+			"samsetning": "stofn",
+			"kennistrengur": "lo-hrár"
+		},
+		{
+			"mynd": "slaga",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-slag-hk"
+		},
+		{
+			"beygingar": ["frumstig"],
+			"kennistrengur": "lo-kaldur"
+		}
+	],
+	"frumstig": {
+		"sb": {
+			"et": {
+				"kk": ["hráslagakaldur", "hráslagakaldan", "hráslagaköldum", "hráslagakalds"],
+				"kvk": ["hráslagaköld", "hráslagakalda", "hráslagakaldri", "hráslagakaldrar"],
+				"hk": ["hráslagakalt", "hráslagakalt", "hráslagaköldu", "hráslagakalds"]
+			},
+			"ft": {
+				"kk": ["hráslagakaldir", "hráslagakalda", "hráslagaköldum", "hráslagakaldra"],
+				"kvk": ["hráslagakaldar", "hráslagakaldar", "hráslagaköldum", "hráslagakaldra"],
+				"hk": ["hráslagaköld", "hráslagaköld", "hráslagaköldum", "hráslagakaldra"]
+			}
+		},
+		"vb": {
+			"et": {
+				"kk": ["hráslagakaldi", "hráslagakalda", "hráslagakalda", "hráslagakalda"],
+				"kvk": ["hráslagakalda", "hráslagaköldu", "hráslagaköldu", "hráslagaköldu"],
+				"hk": ["hráslagakalda", "hráslagakalda", "hráslagakalda", "hráslagakalda"]
+			},
+			"ft": {
+				"kk": ["hráslagaköldu", "hráslagaköldu", "hráslagaköldu", "hráslagaköldu"],
+				"kvk": ["hráslagaköldu", "hráslagaköldu", "hráslagaköldu", "hráslagaköldu"],
+				"hk": ["hráslagaköldu", "hráslagaköldu", "hráslagaköldu", "hráslagaköldu"]
+			}
+		}
+	},
+	"kennistrengur": "lo-hráslagakaldur",
+	"hash": "ad55ab3e9a2eb21ad8c73e05f024195b8c05138141ba979a0c39d9e66714ec2c"
+}

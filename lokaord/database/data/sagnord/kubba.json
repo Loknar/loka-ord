@@ -1,0 +1,135 @@
+{
+	"orð": "kubba",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "kubb",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kubbur-kk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "kubba",
+		"sagnbót": "kubbað",
+		"boðháttur": {
+			"stýfður": "kubba",
+			"et": "kubbaðu",
+			"ft": "kubbið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kubba", "kubbar", "kubbar"],
+					"ft": ["kubbum", "kubbið", "kubba"]
+				},
+				"þátíð": {
+					"et": ["kubbaði", "kubbaðir", "kubbaði"],
+					"ft": ["kubbuðum", "kubbuðuð", "kubbuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kubbi", "kubbir", "kubbi"],
+					"ft": ["kubbum", "kubbið", "kubbi"]
+				},
+				"þátíð": {
+					"et": ["kubbaði", "kubbaðir", "kubbaði"],
+					"ft": ["kubbuðum", "kubbuðuð", "kubbuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kubbarðu",
+					"ft": "kubbiði"
+				},
+				"þátíð": {
+					"et": "kubbaðirðu",
+					"ft": "kubbuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kubbirðu",
+					"ft": "kubbiði"
+				},
+				"þátíð": {
+					"et": "kubbaðirðu",
+					"ft": "kubbuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "kubbast",
+		"sagnbót": "kubbast",
+		"boðháttur": {
+			"et": "kubbastu",
+			"ft": "kubbist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["kubbast", "kubbast", "kubbast"],
+					"ft": ["kubbumst", "kubbist", "kubbast"]
+				},
+				"þátíð": {
+					"et": ["kubbaðist", "kubbaðist", "kubbaðist"],
+					"ft": ["kubbuðumst", "kubbuðust", "kubbuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["kubbist", "kubbist", "kubbist"],
+					"ft": ["kubbumst", "kubbist", "kubbist"]
+				},
+				"þátíð": {
+					"et": ["kubbaðist", "kubbaðist", "kubbaðist"],
+					"ft": ["kubbuðumst", "kubbuðust", "kubbuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "kubbastu"
+				},
+				"þátíð": {
+					"et": "kubbaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "kubbistu"
+				},
+				"þátíð": {
+					"et": "kubbaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "kubbandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["kubbaður", "kubbaðan", "kubbuðum", "kubbaðs"],
+					"kvk": ["kubbuð", "kubbaða", "kubbaðri", "kubbaðrar"],
+					"hk": ["kubbað", "kubbað", "kubbuðu", "kubbaðs"]
+				},
+				"ft": {
+					"kk": ["kubbaðir", "kubbaða", "kubbuðum", "kubbaðra"],
+					"kvk": ["kubbaðar", "kubbaðar", "kubbuðum", "kubbaðra"],
+					"hk": ["kubbuð", "kubbuð", "kubbuðum", "kubbaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-kubba",
+	"hash": "13a1396fb30d04e92d6a415f48d8f38ce21f069d410204f5c00bb9d20a0eb243"
+}

@@ -1,0 +1,99 @@
+{
+	"orð": "bannsetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "bann",
+			"samsetning": "stofn",
+			"kennistrengur": "no-bann-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "bannsetja",
+		"sagnbót": "bannsett",
+		"boðháttur": {
+			"stýfður": "bannset",
+			"et": "bannsettu",
+			"ft": "bannsetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["bannset", "bannsetur", "bannsetur"],
+					"ft": ["bannsetjum", "bannsetjið", "bannsetja"]
+				},
+				"þátíð": {
+					"et": ["bannsetti", "bannsettir", "bannsetti"],
+					"ft": ["bannsettum", "bannsettuð", "bannsettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["bannsetji", "bannsetjir", "bannsetji"],
+					"ft": ["bannsetjum", "bannsetjið", "bannsetji"]
+				},
+				"þátíð": {
+					"et": ["bannsetti", "bannsettir", "bannsetti"],
+					"ft": ["bannsettum", "bannsettuð", "bannsettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "bannseturðu",
+					"ft": "bannsetjiði"
+				},
+				"þátíð": {
+					"et": "bannsettirðu",
+					"ft": "bannsettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "bannsetjirðu",
+					"ft": "bannsetjiði"
+				},
+				"þátíð": {
+					"et": "bannsettirðu",
+					"ft": "bannsettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "bannsetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["bannsettur", "bannsettan", "bannsettum", "bannsetts"],
+					"kvk": ["bannsett", "bannsetta", "bannsettri", "bannsettrar"],
+					"hk": ["bannsett", "bannsett", "bannsettu", "bannsetts"]
+				},
+				"ft": {
+					"kk": ["bannsettir", "bannsetta", "bannsettum", "bannsettra"],
+					"kvk": ["bannsettar", "bannsettar", "bannsettum", "bannsettra"],
+					"hk": ["bannsett", "bannsett", "bannsettum", "bannsettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["bannsetti", "bannsetta", "bannsetta", "bannsetta"],
+					"kvk": ["bannsetta", "bannsettu", "bannsettu", "bannsettu"],
+					"hk": ["bannsetta", "bannsetta", "bannsetta", "bannsetta"]
+				},
+				"ft": {
+					"kk": ["bannsettu", "bannsettu", "bannsettu", "bannsettu"],
+					"kvk": ["bannsettu", "bannsettu", "bannsettu", "bannsettu"],
+					"hk": ["bannsettu", "bannsettu", "bannsettu", "bannsettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-bannsetja",
+	"hash": "7493461a2cf84bc46a5c22377a9a8fe8ab1d9f43b829c6d812095366a4b4883e"
+}

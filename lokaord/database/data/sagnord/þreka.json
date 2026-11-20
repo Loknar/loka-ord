@@ -1,0 +1,135 @@
+{
+	"orð": "þreka",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "þrek",
+			"samsetning": "stofn",
+			"kennistrengur": "no-þrek-hk"
+		},
+		{
+			"beygingar": ["germynd", "miðmynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "þreka",
+		"sagnbót": "þrekað",
+		"boðháttur": {
+			"stýfður": "þreka",
+			"et": "þrekaðu",
+			"ft": "þrekið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þreka", "þrekar", "þrekar"],
+					"ft": ["þrekum", "þrekið", "þreka"]
+				},
+				"þátíð": {
+					"et": ["þrekaði", "þrekaðir", "þrekaði"],
+					"ft": ["þrekuðum", "þrekuðuð", "þrekuðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þreki", "þrekir", "þreki"],
+					"ft": ["þrekum", "þrekið", "þreki"]
+				},
+				"þátíð": {
+					"et": ["þrekaði", "þrekaðir", "þrekaði"],
+					"ft": ["þrekuðum", "þrekuðuð", "þrekuðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þrekarðu",
+					"ft": "þrekiði"
+				},
+				"þátíð": {
+					"et": "þrekaðirðu",
+					"ft": "þrekuðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þrekirðu",
+					"ft": "þrekiði"
+				},
+				"þátíð": {
+					"et": "þrekaðirðu",
+					"ft": "þrekuðuði"
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "þrekast",
+		"sagnbót": "þrekast",
+		"boðháttur": {
+			"et": "þrekastu",
+			"ft": "þrekist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["þrekast", "þrekast", "þrekast"],
+					"ft": ["þrekumst", "þrekist", "þrekast"]
+				},
+				"þátíð": {
+					"et": ["þrekaðist", "þrekaðist", "þrekaðist"],
+					"ft": ["þrekuðumst", "þrekuðust", "þrekuðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["þrekist", "þrekist", "þrekist"],
+					"ft": ["þrekumst", "þrekist", "þrekist"]
+				},
+				"þátíð": {
+					"et": ["þrekaðist", "þrekaðist", "þrekaðist"],
+					"ft": ["þrekuðumst", "þrekuðust", "þrekuðust"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "þrekastu"
+				},
+				"þátíð": {
+					"et": "þrekaðistu"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "þrekistu"
+				},
+				"þátíð": {
+					"et": "þrekaðistu"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "þrekandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["þrekaður", "þrekaðan", "þrekuðum", "þrekaðs"],
+					"kvk": ["þrekuð", "þrekaða", "þrekaðri", "þrekaðrar"],
+					"hk": ["þrekað", "þrekað", "þrekuðu", "þrekaðs"]
+				},
+				"ft": {
+					"kk": ["þrekaðir", "þrekaða", "þrekuðum", "þrekaðra"],
+					"kvk": ["þrekaðar", "þrekaðar", "þrekuðum", "þrekaðra"],
+					"hk": ["þrekuð", "þrekuð", "þrekuðum", "þrekaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-þreka",
+	"hash": "bffccf59a143cb11a640ddc216751b10ebb826731663cf800c3f86f9e4752899"
+}
