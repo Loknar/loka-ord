@@ -1,0 +1,99 @@
+{
+	"orð": "parketleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "parket",
+			"samsetning": "stofn",
+			"kennistrengur": "no-parket-hk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "parketleggja",
+		"sagnbót": "parketlagt",
+		"boðháttur": {
+			"stýfður": "parketlegg",
+			"et": "parketleggðu",
+			"ft": "parketleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["parketlegg", "parketleggur", "parketleggur"],
+					"ft": ["parketleggjum", "parketleggið", "parketleggja"]
+				},
+				"þátíð": {
+					"et": ["parketlagði", "parketlagðir", "parketlagði"],
+					"ft": ["parketlögðum", "parketlögðuð", "parketlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["parketleggi", "parketleggir", "parketleggi"],
+					"ft": ["parketleggjum", "parketleggið", "parketleggi"]
+				},
+				"þátíð": {
+					"et": ["parketlegði", "parketlegðir", "parketlegði"],
+					"ft": ["parketlegðum", "parketlegðuð", "parketlegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "parketleggurðu",
+					"ft": "parketleggiði"
+				},
+				"þátíð": {
+					"et": "parketlagðirðu",
+					"ft": "parketlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "parketleggirðu",
+					"ft": "parketleggiði"
+				},
+				"þátíð": {
+					"et": "parketleggðirðu",
+					"ft": "parketleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "parketleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["parketlagður", "parketlagðan", "parketlögðum", "parketlagðs"],
+					"kvk": ["parketlögð", "parketlagða", "parketlagðri", "parketlagðrar"],
+					"hk": ["parketlagt", "parketlagt", "parketlögðu", "parketlagðs"]
+				},
+				"ft": {
+					"kk": ["parketlagðir", "parketlagða", "parketlögðum", "parketlagðra"],
+					"kvk": ["parketlagðar", "parketlagðar", "parketlögðum", "parketlagðra"],
+					"hk": ["parketlögð", "parketlögð", "parketlögðum", "parketlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["parketlagði", "parketlagða", "parketlagða", "parketlagða"],
+					"kvk": ["parketlagða", "parketlögðu", "parketlögðu", "parketlögðu"],
+					"hk": ["parketlagða", "parketlagða", "parketlagða", "parketlagða"]
+				},
+				"ft": {
+					"kk": ["parketlögðu", "parketlögðu", "parketlögðu", "parketlögðu"],
+					"kvk": ["parketlögðu", "parketlögðu", "parketlögðu", "parketlögðu"],
+					"hk": ["parketlögðu", "parketlögðu", "parketlögðu", "parketlögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-parketleggja",
+	"hash": "7ea6b43f70c1a8b18eba10a432fb983f66b5dbe84ddc1dfe6ea556fc857d079d"
+}

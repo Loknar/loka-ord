@@ -1,0 +1,99 @@
+{
+	"orð": "viðarleggja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "viðar",
+			"samsetning": "eignarfalls",
+			"kennistrengur": "no-viður-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-leggja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "viðarleggja",
+		"sagnbót": "viðarlagt",
+		"boðháttur": {
+			"stýfður": "viðarlegg",
+			"et": "viðarleggðu",
+			"ft": "viðarleggið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["viðarlegg", "viðarleggur", "viðarleggur"],
+					"ft": ["viðarleggjum", "viðarleggið", "viðarleggja"]
+				},
+				"þátíð": {
+					"et": ["viðarlagði", "viðarlagðir", "viðarlagði"],
+					"ft": ["viðarlögðum", "viðarlögðuð", "viðarlögðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["viðarleggi", "viðarleggir", "viðarleggi"],
+					"ft": ["viðarleggjum", "viðarleggið", "viðarleggi"]
+				},
+				"þátíð": {
+					"et": ["viðarlegði", "viðarlegðir", "viðarlegði"],
+					"ft": ["viðarlegðum", "viðarlegðuð", "viðarlegðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "viðarleggurðu",
+					"ft": "viðarleggiði"
+				},
+				"þátíð": {
+					"et": "viðarlagðirðu",
+					"ft": "viðarlögðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "viðarleggirðu",
+					"ft": "viðarleggiði"
+				},
+				"þátíð": {
+					"et": "viðarleggðirðu",
+					"ft": "viðarleggðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "viðarleggjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["viðarlagður", "viðarlagðan", "viðarlögðum", "viðarlagðs"],
+					"kvk": ["viðarlögð", "viðarlagða", "viðarlagðri", "viðarlagðrar"],
+					"hk": ["viðarlagt", "viðarlagt", "viðarlögðu", "viðarlagðs"]
+				},
+				"ft": {
+					"kk": ["viðarlagðir", "viðarlagða", "viðarlögðum", "viðarlagðra"],
+					"kvk": ["viðarlagðar", "viðarlagðar", "viðarlögðum", "viðarlagðra"],
+					"hk": ["viðarlögð", "viðarlögð", "viðarlögðum", "viðarlagðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["viðarlagði", "viðarlagða", "viðarlagða", "viðarlagða"],
+					"kvk": ["viðarlagða", "viðarlögðu", "viðarlögðu", "viðarlögðu"],
+					"hk": ["viðarlagða", "viðarlagða", "viðarlagða", "viðarlagða"]
+				},
+				"ft": {
+					"kk": ["viðarlögðu", "viðarlögðu", "viðarlögðu", "viðarlögðu"],
+					"kvk": ["viðarlögðu", "viðarlögðu", "viðarlögðu", "viðarlögðu"],
+					"hk": ["viðarlögðu", "viðarlögðu", "viðarlögðu", "viðarlögðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-viðarleggja",
+	"hash": "dab6303af5d44fe289e41b95a3c3f4d78e2572d1014aa05fea252912fb921c54"
+}

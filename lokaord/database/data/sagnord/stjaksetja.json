@@ -1,0 +1,99 @@
+{
+	"orð": "stjaksetja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "stjak",
+			"samsetning": "stofn",
+			"kennistrengur": "no-stjaki-kk"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-setja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "stjaksetja",
+		"sagnbót": "stjaksett",
+		"boðháttur": {
+			"stýfður": "stjakset",
+			"et": "stjaksettu",
+			"ft": "stjaksetjið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["stjakset", "stjaksetur", "stjaksetur"],
+					"ft": ["stjaksetjum", "stjaksetjið", "stjaksetja"]
+				},
+				"þátíð": {
+					"et": ["stjaksetti", "stjaksettir", "stjaksetti"],
+					"ft": ["stjaksettum", "stjaksettuð", "stjaksettu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["stjaksetji", "stjaksetjir", "stjaksetji"],
+					"ft": ["stjaksetjum", "stjaksetjið", "stjaksetji"]
+				},
+				"þátíð": {
+					"et": ["stjaksetti", "stjaksettir", "stjaksetti"],
+					"ft": ["stjaksettum", "stjaksettuð", "stjaksettu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "stjakseturðu",
+					"ft": "stjaksetjiði"
+				},
+				"þátíð": {
+					"et": "stjaksettirðu",
+					"ft": "stjaksettuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "stjaksetjirðu",
+					"ft": "stjaksetjiði"
+				},
+				"þátíð": {
+					"et": "stjaksettirðu",
+					"ft": "stjaksettuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "stjaksetjandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["stjaksettur", "stjaksettan", "stjaksettum", "stjaksetts"],
+					"kvk": ["stjaksett", "stjaksetta", "stjaksettri", "stjaksettrar"],
+					"hk": ["stjaksett", "stjaksett", "stjaksettu", "stjaksetts"]
+				},
+				"ft": {
+					"kk": ["stjaksettir", "stjaksetta", "stjaksettum", "stjaksettra"],
+					"kvk": ["stjaksettar", "stjaksettar", "stjaksettum", "stjaksettra"],
+					"hk": ["stjaksett", "stjaksett", "stjaksettum", "stjaksettra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["stjaksetti", "stjaksetta", "stjaksetta", "stjaksetta"],
+					"kvk": ["stjaksetta", "stjaksettu", "stjaksettu", "stjaksettu"],
+					"hk": ["stjaksetta", "stjaksetta", "stjaksetta", "stjaksetta"]
+				},
+				"ft": {
+					"kk": ["stjaksettu", "stjaksettu", "stjaksettu", "stjaksettu"],
+					"kvk": ["stjaksettu", "stjaksettu", "stjaksettu", "stjaksettu"],
+					"hk": ["stjaksettu", "stjaksettu", "stjaksettu", "stjaksettu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-stjaksetja",
+	"hash": "5f5ee4e60d61721aa7af669229a62a70e90ceb9180c2e3e974b3d476d14ea90d"
+}
