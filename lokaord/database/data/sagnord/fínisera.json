@@ -1,0 +1,100 @@
+{
+	"orð": "fínisera",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "fínis",
+			"samsetning": "bandstafs",
+			"kennistrengur": "lo-fínn"
+		},
+		{
+			"leiðir": "er",
+			"beygingar": ["germynd", "lýsingarháttur"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "fínisera",
+		"sagnbót": "fíniserað",
+		"boðháttur": {
+			"stýfður": "fínisera",
+			"et": "fíniseraðu",
+			"ft": "fíniserið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["fínisera", "fíniserar", "fíniserar"],
+					"ft": ["fíniserum", "fíniserið", "fínisera"]
+				},
+				"þátíð": {
+					"et": ["fíniseraði", "fíniseraðir", "fíniseraði"],
+					"ft": ["fíniseruðum", "fíniseruðuð", "fíniseruðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["fíniseri", "fíniserir", "fíniseri"],
+					"ft": ["fíniserum", "fíniserið", "fíniseri"]
+				},
+				"þátíð": {
+					"et": ["fíniseraði", "fíniseraðir", "fíniseraði"],
+					"ft": ["fíniseruðum", "fíniseruðuð", "fíniseruðu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "fíniserarðu",
+					"ft": "fíniseriði"
+				},
+				"þátíð": {
+					"et": "fíniseraðirðu",
+					"ft": "fíniseruðuði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "fíniserirðu",
+					"ft": "fíniseriði"
+				},
+				"þátíð": {
+					"et": "fíniseraðirðu",
+					"ft": "fíniseruðuði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "fíniserandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["fíniseraður", "fíniseraðan", "fíniseruðum", "fíniseraðs"],
+					"kvk": ["fíniseruð", "fíniseraða", "fíniseraðri", "fíniseraðrar"],
+					"hk": ["fíniserað", "fíniserað", "fíniseruðu", "fíniseraðs"]
+				},
+				"ft": {
+					"kk": ["fíniseraðir", "fíniseraða", "fíniseruðum", "fíniseraðra"],
+					"kvk": ["fíniseraðar", "fíniseraðar", "fíniseruðum", "fíniseraðra"],
+					"hk": ["fíniseruð", "fíniseruð", "fíniseruðum", "fíniseraðra"]
+				}
+			},
+			"vb": {
+				"et": {
+					"kk": ["fíniseraði", "fíniseraða", "fíniseraða", "fíniseraða"],
+					"kvk": ["fíniseraða", "fíniseruðu", "fíniseruðu", "fíniseruðu"],
+					"hk": ["fíniseraða", "fíniseraða", "fíniseraða", "fíniseraða"]
+				},
+				"ft": {
+					"kk": ["fíniseruðu", "fíniseruðu", "fíniseruðu", "fíniseruðu"],
+					"kvk": ["fíniseruðu", "fíniseruðu", "fíniseruðu", "fíniseruðu"],
+					"hk": ["fíniseruðu", "fíniseruðu", "fíniseruðu", "fíniseruðu"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-fínisera",
+	"hash": "b285f46cdc25ded210fec336e1cf48e965820da946e4e244d0b42d97a5bdb6fe"
+}

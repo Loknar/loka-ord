@@ -1,0 +1,87 @@
+{
+	"orð": "tiltelja",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "til",
+			"samsetning": "stofn",
+			"kennistrengur": "smáo.fs-til"
+		},
+		{
+			"beygingar": ["germynd", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-telja"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "tiltelja",
+		"sagnbót": "tiltalið",
+		"boðháttur": {
+			"stýfður": "tiltel",
+			"et": "tilteldu",
+			"ft": "tilteljið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["tiltel", "tiltelur", "tiltelur"],
+					"ft": ["tilteljum", "tilteljið", "tiltelja"]
+				},
+				"þátíð": {
+					"et": ["tiltaldi", "tiltaldir", "tiltaldi"],
+					"ft": ["tiltöldum", "tiltölduð", "tiltöldu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["tiltelji", "tilteljir", "tiltelji"],
+					"ft": ["tilteljum", "tilteljið", "tiltelji"]
+				},
+				"þátíð": {
+					"et": ["tilteldi", "tilteldir", "tilteldi"],
+					"ft": ["tilteldum", "tiltelduð", "tilteldu"]
+				}
+			}
+		},
+		"spurnarmyndir": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": "tiltelurðu",
+					"ft": "tilteljiði"
+				},
+				"þátíð": {
+					"et": "tiltaldirðu",
+					"ft": "tiltölduði"
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": "tilteljirðu",
+					"ft": "tilteljiði"
+				},
+				"þátíð": {
+					"et": "tilteldirðu",
+					"ft": "tiltelduði"
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "tilteljandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["tiltalinn", "tiltalinn", "tiltöldum", "tiltalins"],
+					"kvk": ["tiltalin", "tiltalda", "tiltaldri", "tiltaldrar"],
+					"hk": ["tiltalið", "tiltalið", "tiltöldu", "tiltalins"]
+				},
+				"ft": {
+					"kk": ["tiltaldir", "tiltalda", "tiltöldum", "tiltalinna"],
+					"kvk": ["tiltaldar", "tiltaldar", "tiltöldum", "tiltalinna"],
+					"hk": ["tiltalin", "tiltalin", "tiltöldum", "tiltalinna"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-tiltelja",
+	"hash": "20117f1b39048ca100d04b69ce0b80054ad107f0f59cbcabdb50e5b4db8aa67e"
+}
