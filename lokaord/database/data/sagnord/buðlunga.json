@@ -1,0 +1,95 @@
+{
+	"orð": "buðlunga",
+	"flokkur": "sagnorð",
+	"samsett": [
+		{
+			"mynd": "buðlung",
+			"samsetning": "stofn",
+			"kennistrengur": "no-buðlungur-kk"
+		},
+		{
+			"beygingar": ["germynd-persónuleg", "miðmynd-persónuleg", "lýsingarháttur-nútíðar", "lýsingarháttur-þátíðar-sb"],
+			"kennistrengur": "so-a-ó"
+		}
+	],
+	"germynd": {
+		"nafnháttur": "buðlunga",
+		"sagnbót": "buðlungað",
+		"boðháttur": {
+			"stýfður": "buðlunga",
+			"et": "buðlungaðu",
+			"ft": "buðlungið"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["buðlunga", "buðlungar", "buðlungar"],
+					"ft": ["buðlungum", "buðlungið", "buðlunga"]
+				},
+				"þátíð": {
+					"et": ["buðlungaði", "buðlungaðir", "buðlungaði"],
+					"ft": ["buðlunguðum", "buðlunguðuð", "buðlunguðu"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["buðlungi", "buðlungir", "buðlungi"],
+					"ft": ["buðlungum", "buðlungið", "buðlungi"]
+				},
+				"þátíð": {
+					"et": ["buðlungaði", "buðlungaðir", "buðlungaði"],
+					"ft": ["buðlunguðum", "buðlunguðuð", "buðlunguðu"]
+				}
+			}
+		}
+	},
+	"miðmynd": {
+		"nafnháttur": "buðlungast",
+		"sagnbót": "buðlungast",
+		"boðháttur": {
+			"et": "buðlungastu",
+			"ft": "buðlungist"
+		},
+		"persónuleg": {
+			"framsöguháttur": {
+				"nútíð": {
+					"et": ["buðlungast", "buðlungast", "buðlungast"],
+					"ft": ["buðlungumst", "buðlungist", "buðlungast"]
+				},
+				"þátíð": {
+					"et": ["buðlungaðist", "buðlungaðist", "buðlungaðist"],
+					"ft": ["buðlunguðumst", "buðlunguðust", "buðlunguðust"]
+				}
+			},
+			"viðtengingarháttur": {
+				"nútíð": {
+					"et": ["buðlungist", "buðlungist", "buðlungist"],
+					"ft": ["buðlungumst", "buðlungist", "buðlungist"]
+				},
+				"þátíð": {
+					"et": ["buðlungaðist", "buðlungaðist", "buðlungaðist"],
+					"ft": ["buðlunguðumst", "buðlunguðust", "buðlunguðust"]
+				}
+			}
+		}
+	},
+	"lýsingarháttur": {
+		"nútíðar": "buðlungandi",
+		"þátíðar": {
+			"sb": {
+				"et": {
+					"kk": ["buðlungaður", "buðlungaðan", "buðlunguðum", "buðlungaðs"],
+					"kvk": ["buðlunguð", "buðlungaða", "buðlungaðri", "buðlungaðrar"],
+					"hk": ["buðlungað", "buðlungað", "buðlunguðu", "buðlungaðs"]
+				},
+				"ft": {
+					"kk": ["buðlungaðir", "buðlungaða", "buðlunguðum", "buðlungaðra"],
+					"kvk": ["buðlungaðar", "buðlungaðar", "buðlunguðum", "buðlungaðra"],
+					"hk": ["buðlunguð", "buðlunguð", "buðlunguðum", "buðlungaðra"]
+				}
+			}
+		}
+	},
+	"kennistrengur": "so-buðlunga",
+	"hash": "49ee7ad8c3e8e5bab22a271b4f9ef324bd020b3be02df883bc973292bdfbc5ff"
+}

@@ -2,6 +2,16 @@
 	"orð": "kúði",
 	"flokkur": "nafnorð",
 	"kyn": "kk",
+	"samsett": [
+		{
+			"mynd": "kúð",
+			"samsetning": "stofn",
+			"kennistrengur": "no-kúð-hk"
+		},
+		{
+			"kennistrengur": "no-i-kk-ó"
+		}
+	],
 	"et": {
 		"ág": ["kúði", "kúða", "kúða", "kúða"],
 		"mg": ["kúðinn", "kúðann", "kúðanum", "kúðans"]
@@ -11,5 +21,5 @@
 		"mg": ["kúðarnir", "kúðana", "kúðunum", "kúðanna"]
 	},
 	"kennistrengur": "no-kúði-kk",
-	"hash": "444596d909458654c15eea22e0edaf8d6eff4261f24766d57bcde028f00482c8"
+	"hash": "6278cd3b85ea57fdb8c4d368d44fafc5726638b22a826cad42a1a38581c06942"
 }
